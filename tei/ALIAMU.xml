@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Alia musica</title>
         <title type="abbrev">ALIAMU</title>
-        <author>Anonymous</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Jacques Chailley, ed., <emph>Alia musica (Traité de musique du IXe
             siècle): Edition critique commentée avec une introduction sur l'origine de la
@@ -123,12 +133,13 @@
         est in duodenarium quater 9 et ter 12, et quater 6 et ter 8, ut introitus Domine refugium,
         Circumdederunt me et Domine in tua misericordia, et antiphonae Solvite templum hoc, Salve
         crux, Exultet spiritus meus, et similia.</p>
-      <p xml:id="ALIAMU0006">Tonus sextus NOEAIS, qui graece dicitur plagis triti, ut supra, AA 12. 12,
-        CCC 6. 6. 6, CCC 6. 6. 6, BBB 8. 8. 8, DDDD 9. 9. 9. 9. Sexies enim 6 ad sexies 4 de bis 12
-        et quater 9 ad quater 6 de bis 12, quia sesquialtera proportio est in diapente, et sexies 4
-        de ter 8 et sexies 4 de bis 12 in consonantia diapason, id est 6 et 12; veniunt per 8 qui
+      <p xml:id="ALIAMU0006">Tonus sextus NOEAIS, qui graece dicitur plagis triti, ut supra, AA 12.
+        12, CCC 6. 6. 6, CCC 6. 6. 6, BBB 8. 8. 8, DDDD 9. 9. 9. 9. Sexies enim 6 ad sexies 4 de bis
+        12 et quater 9 ad quater 6 de bis 12, quia sesquialtera proportio est in diapente, et sexies
+        4 de ter 8 et sexies 4 de bis 12 in consonantia diapason, id est 6 et 12; veniunt per 8 qui
         sunt 48, sicut sexies 6 et quater 9 in 72. Totus iste tonus aut per diapason consonantiam,
-        id est 6 et 12, aut per diapente, id est denarium, mensurabitur. Ut introitus <pb n="[93]"/>Os justi, Omnes gentes et Quasimodo geniti, et antiphonae O admirabile commercium et Vade
+        id est 6 et 12, aut per diapente, id est denarium, mensurabitur. Ut introitus <pb n="[93]"
+        />Os justi, Omnes gentes et Quasimodo geniti, et antiphonae O admirabile commercium et Vade
         Satana et Virgo hodie fidelis.</p>
       <p xml:id="ALIAMU0007">Tonus septimus NOEANE, qui graece dicitur autentos tetrardos, id est
         auctoritas quarta, qui constat ex quarti toni et quinti et sua proportione ita: AA 12. 12,
@@ -152,7 +163,8 @@
         sint duodecim, sic sunt ut quatuor semitonia ad octo tonos. Nam in undis maris et fluminum
         semper magis sonat prima unda, quam septem sequentes. Nona vero octavae similis est.
         Similiter in tonitruis octo discrimina, a quibus Pythagoras philosophus has octo tonorum
-        consonantias praefatas ad harmoniam coeli in Atlante monte, qui est proximus <pb n="[96]"/>coelo, adinvenit, cujus proportiones instar quinque zonarum coeli perfecit, quarum
+        consonantias praefatas ad harmoniam coeli in Atlante monte, qui est proximus <pb n="[96]"
+        />coelo, adinvenit, cujus proportiones instar quinque zonarum coeli perfecit, quarum
         temperie mundus iste moderatur.</p>
       <p xml:id="ALIAMU0011">Omnis enim musicae consonantia aut ad unum 2 habet in duplici, aut 3 in
         triplici, aut 4 in quadruplici, aut 5 in sesquialtera, aut 7 in sesquitertia. Denique, ut
@@ -175,18 +187,18 @@
         proportiones in hac pene sola medietate frequenter invenies. Namque symphonia diatessaron,
         quae princeps est et quodammodo vim obtinet elementi, in ejusmodi harmonicis medietatibus
         invenitur.</p>
-      <p xml:id="ALIAMU0015">Ut sunt 6 ad 8, sint ergo hujusmodi medietatis termini, quorum extremi sint
-        dupli, et alii quorum extremi tripli sint, ita: 6. 8. 12 - 4. 6. 12. Duodenarius igitur ad
-        senarium duplus est; et in alia dispositione 12 ad 4 triplus est. Horum si differentias
+      <p xml:id="ALIAMU0015">Ut sunt 6 ad 8, sint ergo hujusmodi medietatis termini, quorum extremi
+        sint dupli, et alii quorum extremi tripli sint, ita: 6. 8. 12 - 4. 6. 12. Duodenarius igitur
+        ad senarium duplus est; et in alia dispositione 12 ad 4 triplus est. Horum si differentias
         colligamus et ad se invicem comparemus, epitrita proportio, id est diatessaron symphonia
         colligitur. Inter 6 enim et 12 senarius est, et inter 4 et 12 octonarius; qui scilicet
         octonarius ad senarium sesquitertiam efficit proportionem.</p>
       <p xml:id="ALIAMU0016">
         <pb n="[101]"/>In eadem quoque medietate et diapente symphonia componitur. In duplici,
         videlicet 12 ad 8, et in triplici, videlicet 6 ad 4, sesquialtera.</p>
-      <p xml:id="ALIAMU0017">Post hunc autem diapason consonantia est, ut 6 ad 12. In triplici quoque
-          <pb n="[102]"/>dispositione simul diapente et diapason symphonia componitur, ut sunt 6. 9.
-        18.</p>
+      <p xml:id="ALIAMU0017">Post hunc autem diapason consonantia est, ut 6 ad 12. In triplici
+        quoque <pb n="[102]"/>dispositione simul diapente et diapason symphonia componitur, ut sunt
+        6. 9. 18.</p>
       <p xml:id="ALIAMU0018">Et quoniam triplus duas continet consonantias, diapente scilicet ac
         diapason, in differentiis ejusdem triplicis eumdem triplum reperiemus. Nam inter 6 et 9
         ternarius differentia est, et inter 9 et 18 novenarius, qui ad ternarium triplus est.</p>
@@ -203,18 +215,19 @@
         differentiam quadrupla est. Siquidem inter 6 et 18 duodenarius est, extremorum scilicet
         differentia; et inter 9 et 6 ternarius, qui ad duodenarium est quadruplus.</p>
       <p xml:id="ALIAMU0022">In duplici etiam dispositione, qua medius terminus ad minorem resonat
-        diatessaron, ad majorem vero diapente, si extremitates in unum redigantur, et a <pb n="[104]"/>medietate multiplicentur, duplus erit ab eo numero quem solae extremitates
+        diatessaron, ad majorem vero diapente, si extremitates in unum redigantur, et a <pb
+          n="[104]"/>medietate multiplicentur, duplus erit ab eo numero quem solae extremitates
         multiplicatae perfecerint, ut 6. 8. 12. Hic junctae extremitates 6 et 12 conficiunt 18 qui
         per octonarium multiplicati in 144 excrescunt, cujus summae medietas est 72, qui
         conficiuntur ex multiplicatis in se 6 et 12.</p>
-      <p xml:id="ALIAMU0023">Hanc quoque habet naturam talis dispositio ut medius alia sua parte minorem
-        praecedat et alia sua parte a majore praecedatur; eadem autem parte minoris minorem superet
-        qua parte majoris a majore superatur.</p>
-      <p xml:id="ALIAMU0024">Si vero dupli dispositio talis fit ut medius ad minorem resonet diapente,
-        majorem diatessaron, ut sunt 6. 9. 12, quoniam differentiae eaedem sunt, proportiones vero
-        non eaedem, arithmetica potius medietas dicenda est quam harmonica. Illa est enim vere
-        harmonica medietas quae cybi determinatione colligitur. Omnis enim cybus habet latera 12,
-        angulos 8, superficies 6, qui disponantur ita: 6. 8. 12.</p>
+      <p xml:id="ALIAMU0023">Hanc quoque habet naturam talis dispositio ut medius alia sua parte
+        minorem praecedat et alia sua parte a majore praecedatur; eadem autem parte minoris minorem
+        superet qua parte majoris a majore superatur.</p>
+      <p xml:id="ALIAMU0024">Si vero dupli dispositio talis fit ut medius ad minorem resonet
+        diapente, majorem diatessaron, ut sunt 6. 9. 12, quoniam differentiae eaedem sunt,
+        proportiones vero non eaedem, arithmetica potius medietas dicenda est quam harmonica. Illa
+        est enim vere harmonica medietas quae cybi determinatione colligitur. Omnis enim cybus habet
+        latera 12, angulos 8, superficies 6, qui disponantur ita: 6. 8. 12.</p>
       <p xml:id="ALIAMU0025">
         <pb n="[105]"/>His praemissis, ad 8 troporum, quos Latini modos nuncupant, dispositionem
         veniamus. Primoque sciendum quod tropus de graeco in latinum conversio dicitur, idcirco
@@ -235,11 +248,11 @@
         ultimus. Sextum nihilominus modum lydium sexta species diapason exerit, cui trite
         hyperbolaeon est finis. Septimum quoque modum mixolydium septima species diapason informat,
         quam paranete hyperbolaeon determinat.</p>
-      <p xml:id="ALIAMU0028">Verum, quia unus duplus, hoc est una diapason, octo vocibus pollens, plures
-        species non recipit, quandoquidem omnis symphonia unam vocem pluresque species admittit,
-        octavum modum hypermixolydium Ptolomaeus adjecit, quem secundi ac tertii modi proprietatibus
-        informavit. Est enim diatessaron 4 chordarum et trium specierum, diapente quoque 5 chordarum
-        et 4 specierum, quapropter et diapason 8 chordarum et 7 specierum.</p>
+      <p xml:id="ALIAMU0028">Verum, quia unus duplus, hoc est una diapason, octo vocibus pollens,
+        plures species non recipit, quandoquidem omnis symphonia unam vocem pluresque species
+        admittit, octavum modum hypermixolydium Ptolomaeus adjecit, quem secundi ac tertii modi
+        proprietatibus informavit. Est enim diatessaron 4 chordarum et trium specierum, diapente
+        quoque 5 chordarum et 4 specierum, quapropter et diapason 8 chordarum et 7 specierum.</p>
       <p xml:id="ALIAMU0029">
         <pb n="[108]"/>Denique prima species diatessaron tertio loco habet semitonium, secunda
         species secundo, tertia species primo, semperque sive per disjunctum sive per conjunctum
@@ -286,8 +299,8 @@
         <pb n="[115]"/>Sunt enim praedicti numeri aliquanti sibi incommensurabiles, quia binarium,
         quo mensurantur 6. 8. 12, novenarius respuit, et contra ternarium, quo mensurantur 6. 9. 12,
         octonarius non recipit.</p>
-      <p xml:id="ALIAMU0037">Quaternarius octonarii et duodenarii est mensura communis: et ob id juxta
-        quosdam triplus hypodorii a quaternario incipit et in duodenarium desinit.</p>
+      <p xml:id="ALIAMU0037">Quaternarius octonarii et duodenarii est mensura communis: et ob id
+        juxta quosdam triplus hypodorii a quaternario incipit et in duodenarium desinit.</p>
       <p xml:id="ALIAMU0038">
         <pb n="[116]"/>Itaque melodiam primi tropi, quae est NONANOEANE, 8 et 12 videntur claudere;
         sed eidem clausulae, quae constat diapente, quidam addunt tonum, ut prius in eadem melodia
@@ -297,9 +310,9 @@
         <pb n="[117]"/>Hinc incipit melodia secundi tropi, quae est NOEAGIS, et non ad 8 sed ad 9
         pertingit, sicut omnes cantilenae ejusdem tropi. Clauduntur enim duabus diatessaron
         consonantiis.</p>
-      <p xml:id="ALIAMU0040">De reliquo senarius, qui simpliciter est in dorio, triplicatus in hypodorio
-        et hypophrygio, quadruplicatur in phrygio et lydio. In quibus vero senarius ad dorium
-        triplicatur, octonarius ad eundem dupliciter habetur. Et rursus in quibus ille
+      <p xml:id="ALIAMU0040">De reliquo senarius, qui simpliciter est in dorio, triplicatus in
+        hypodorio et hypophrygio, quadruplicatur in phrygio et lydio. In quibus vero senarius ad
+        dorium triplicatur, octonarius ad eundem dupliciter habetur. Et rursus in quibus ille
         quadruplicatur, iste triplicatione repetitur. Tandem novenarius, qui in dorio est
         simpliciter, in reliquis est dupliciter, excepto <pb n="[118]"/>lydio, qui ejus
         quadruplicatione et duodenarii triplicitate gaudet. Hypophrygius duodenarii repetitione
@@ -325,31 +338,32 @@
         justum, aperiatur; aut ter 7 quod est 21, id est 3 de 9 ad 4 de 12, qui in sesquitertio
         faciunt diatessaron, ut est terra et germinet salvatorem.</p>
       <p xml:id="ALIAMU0044">Quam gradalem antiphonam per singulas incisiones singulis symphoniis
-        subditam hoc modo pandimus: inter 6 et 12 qui faciunt 18 senarius est <pb n="[122]"/>differentia, quam melodia primae incisionis ascendendo totam percurrit, a lichanos hypaton
+        subditam hoc modo pandimus: inter 6 et 12 qui faciunt 18 senarius est <pb n="[122]"
+        />differentia, quam melodia primae incisionis ascendendo totam percurrit, a lichanos hypaton
         videlicet in paraneten diezeugmenon, praemisso ad gravem partem tono qui emmelis dicitur, id
         est melo aptus.</p>
-      <p xml:id="ALIAMU0045">Denique eamdem differentiam ternarius in aequa partitur, et ita a senario
-        in novenarium diapente terminatur. Quae symphonia quoniam constat diatessaron et tono,
-        secundam incisionem antiphonae excurrit omnino, ita ut ibi sint 2 de 8 et 3 de 12; quia
-        octonarius senarium binario excedit, ut sesquitertia proportio esse possit.</p>
+      <p xml:id="ALIAMU0045">Denique eamdem differentiam ternarius in aequa partitur, et ita a
+        senario in novenarium diapente terminatur. Quae symphonia quoniam constat diatessaron et
+        tono, secundam incisionem antiphonae excurrit omnino, ita ut ibi sint 2 de 8 et 3 de 12;
+        quia octonarius senarium binario excedit, ut sesquitertia proportio esse possit.</p>
       <p xml:id="ALIAMU0046">
         <pb n="[123]"/>Novenarius vero senarium ternario praeterit, qui medietas est ejusdem
         senarii, et ob id quarta pars duodenarii. Tres ergo de 9 aequales sunt ad 4 de 12, dum
         illius pars tertia sit hujus quarta, et sic fiat inter eos diatessaron consonantia, quae a
         novenario in duodenarium concludat, tertiam antiphonae incisiunculam sequetur.</p>
-      <p xml:id="ALIAMU0047">Illae antiphonae gradales eodem modo currunt: Gaudete in Domino, et Inclina
-        Domine, et Justus es Domine. Similiter autem antiphonae nocturnales Posuerunt super caput,
-        Jesus autem cum jejunasset, Traditor autem.</p>
+      <p xml:id="ALIAMU0047">Illae antiphonae gradales eodem modo currunt: Gaudete in Domino, et
+        Inclina Domine, et Justus es Domine. Similiter autem antiphonae nocturnales Posuerunt super
+        caput, Jesus autem cum jejunasset, Traditor autem.</p>
       <p xml:id="ALIAMU0048">
         <pb n="[124]"/>Et hoc videndum quod saepe evenit ut bis aut ter aut totum etiam, in
         antiphonis aut in quocumque cantu primi toni sit, aut per 6 et 12 quod est diapason, aut per
         5 et 10 quod est diapente, aut per 7 totum quod est diatessaron, decurrit.</p>
-      <p xml:id="ALIAMU0049">Quod, ait, bis diapente respicit. Dum enim duorum quorumlibet numerorum ad
-        se invicem sesquialtera ratione comparatorum alter, id est minor, nunquam medietate careat;
-        certum est, quod minor in duo aequalia dividitur, cujus medietate a majore superatur; unde
-        fit ut sicut ille binario, ita semper iste partiatur ternario. Et hoc est, quod ait,
-        diapente fieri per 5 et 10, quia 2 et 3 reddunt quinarium, et duplicati denarium: nam 4 et 6
-        perficiunt 10.</p>
+      <p xml:id="ALIAMU0049">Quod, ait, bis diapente respicit. Dum enim duorum quorumlibet numerorum
+        ad se invicem sesquialtera ratione comparatorum alter, id est minor, nunquam medietate
+        careat; certum est, quod minor in duo aequalia dividitur, cujus medietate a majore
+        superatur; unde fit ut sicut ille binario, ita semper iste partiatur ternario. Et hoc est,
+        quod ait, diapente fieri per 5 et 10, quia 2 et 3 reddunt quinarium, et duplicati denarium:
+        nam 4 et 6 perficiunt 10.</p>
       <p xml:id="ALIAMU0050">
         <pb n="[125]"/>Per 7 quoque, qui constant ex 3 et 4, partiri omnem sesquitertiam
         proportionem jubet, quoniam duorum quorumlibet numerorum ejusdem proportionis alter, id est
@@ -366,15 +380,15 @@
         qui faciunt simul 30 per sesquialteram proportionem: reddunt diapente. Ad 6 autem de primo
         tono isti ter 6 de secundo tripla proportio est, quia triplicatus eum superat. Item bis 8 ad
         12 sunt 28, id est quater 7, et faciunt per sesquitertiam proportionem diatessaron.</p>
-      <p xml:id="ALIAMU0054">Ipsa ergo proportio numeri, id est bis 8 ad 8 de primo tono duplum est, et
-          <pb n="[127]"/>ideo in diapason cadit 24, id est quater 6, et bis 12. Item bis 9 qui sunt
+      <p xml:id="ALIAMU0054">Ipsa ergo proportio numeri, id est bis 8 ad 8 de primo tono duplum est,
+        et <pb n="[127]"/>ideo in diapason cadit 24, id est quater 6, et bis 12. Item bis 9 qui sunt
         18 ad 12 faciunt diapente, ut supra.</p>
-      <p xml:id="ALIAMU0055">Omnis enim melodia secundi toni aut per diapente denarium numerabit totum,
-        ut est antiphona Ecce advenit, in quo sunt 5 vel 10, aut per diatessaron totum, id est per
-        7, ut est antiphona Veni et ostende. Item antiphona diapentica Omnipotens sermo tuus, et
-        diatessaron ut est Dominus Deus auxiliator meus.</p>
-      <p xml:id="ALIAMU0056">Si autem in diapason venerit proportio secundi toni, id est 12 ad 6, et bis
-        9 ad 9, et bis 8 ad 8, primum tonum efficit; quoniam singuli modi suam propriam habent
+      <p xml:id="ALIAMU0055">Omnis enim melodia secundi toni aut per diapente denarium numerabit
+        totum, ut est antiphona Ecce advenit, in quo sunt 5 vel 10, aut per diatessaron totum, id
+        est per 7, ut est antiphona Veni et ostende. Item antiphona diapentica Omnipotens sermo
+        tuus, et diatessaron ut est Dominus Deus auxiliator meus.</p>
+      <p xml:id="ALIAMU0056">Si autem in diapason venerit proportio secundi toni, id est 12 ad 6, et
+        bis 9 ad 9, et bis 8 ad 8, primum tonum efficit; quoniam singuli modi suam propriam habent
         constitutionem. Semper se gemini e latere respiciunt, ut aliquando fraterna concordia alter
         in alterum se gravatus reclinet, alter in alterum ascendendo se exaltet. Nam hypodorius in
         dorium transit si suam diapason excesserit.</p>
@@ -388,9 +402,9 @@
         antiphonis, sed inferius sive diatessaron per 7, sive diapente per 10 numerabit.</p>
       <p xml:id="ALIAMU0059">Est autem integra diatessaron consonantia inter utrumque modum: dum
         lichanos hypaton hypodorii sit proslambanomenos dorii.</p>
-      <p xml:id="ALIAMU0060">Siquidem ex duplo et triplo hanc consonantiam procreari Boetius ita dicit:
-        Sint hujusmodi medietatis termini, quorum extremi sint dupli, et alii quorum extremi sint
-        tripli, ita: 6. 8. 12 - 4. 6. 12. Duodenarius igitur ad senarium duplus est, et in alia
+      <p xml:id="ALIAMU0060">Siquidem ex duplo et triplo hanc consonantiam procreari Boetius ita
+        dicit: Sint hujusmodi medietatis termini, quorum extremi sint dupli, et alii quorum extremi
+        sint tripli, ita: 6. 8. 12 - 4. 6. 12. Duodenarius igitur ad senarium duplus est, et in alia
         dispositione 12 ad 4 triplus est. Horum si differentias colligamus, et ad se invicem
         comparemus, epitrita proportio, id est diatessaron symphonia colligitur, et reliqua.</p>
       <p xml:id="ALIAMU0061">
@@ -411,15 +425,16 @@
         <pb n="[134]"/>Quater enim 6 ad quater 3 de 12 quater 9 sunt, qui sunt 36 diapason, id est
         sexies 6 et ter 12. Similiter ter 8 ad 12, quia duplae proportiones sunt. Bis 9 ad 12
         sesquialtera proportio est, id est diapente in 30.</p>
-      <p xml:id="ALIAMU0064">Unde iste tertius tonus aut diapason erit, aut diapente; ut sunt gradales
-        antiphonae Confessio et pulchritudo, Dispersit dedit et Cognovi Domine. Nocturnales
+      <p xml:id="ALIAMU0064">Unde iste tertius tonus aut diapason erit, aut diapente; ut sunt
+        gradales antiphonae Confessio et pulchritudo, Dispersit dedit et Cognovi Domine. Nocturnales
         antiphonae Qui de terra est, Quando natus es, Malos male perdet.</p>
       <p xml:id="ALIAMU0065">
         <pb n="[135]"/>Tonus, inquit, tertius duo a habet, id est bis 12. a enim pro 12 accipitur.
         Unum, inquit, propter mensuram autenti deuteri, id est phrygii, et alterum propter plagam
         ejus, id est hypophrygium.</p>
-      <p xml:id="ALIAMU0066">Nam meses phrygii, id est 12, est nete diezeugmenon hypodorii, ubi quinta
-        species diapason incipit, et idcirco hujus hypate meson est illius proslambanomenos.</p>
+      <p xml:id="ALIAMU0066">Nam meses phrygii, id est 12, est nete diezeugmenon hypodorii, ubi
+        quinta species diapason incipit, et idcirco hujus hypate meson est illius
+        proslambanomenos.</p>
       <p xml:id="ALIAMU0067">
         <pb n="[136]"/>Porro hypate meson phrygii est meses hypophrygii; atque ob hoc ait: in cujus
         diapason suum semitonium explicat; quia meses uniuscujusque constitutionis diapason
@@ -448,28 +463,28 @@
         diapason complere possint.</p>
       <p xml:id="ALIAMU0075">
         <pb n="[141]"/>Hoc quoque senties canendo AIANEOEANE.</p>
-      <p xml:id="ALIAMU0076">Siquidem a paramese, peracta quarta specie diapente, ad lichanos hypaton
-        descendit, et ad lichanos meson per singulas chordas ascendendo diapente intendit, rursusque
-        ad trite diezeugmenon gravando remittit; ad extremum in sua finali.</p>
+      <p xml:id="ALIAMU0076">Siquidem a paramese, peracta quarta specie diapente, ad lichanos
+        hypaton descendit, et ad lichanos meson per singulas chordas ascendendo diapente intendit,
+        rursusque ad trite diezeugmenon gravando remittit; ad extremum in sua finali.</p>
       <p xml:id="ALIAMU0077">Quam finalem primam tangit gradalis antiphona quae est Confessio et
         pulchritudo, et sic usque ad 3 de 12 ascendit, ac deinde ad finalem suam redit.</p>
       <p xml:id="ALIAMU0078">
         <pb n="[142]"/>Quo etiam incipit semitonio intenso antiphona Cognovi Domine et Dum clamarem
         ad Dominum.</p>
-      <p xml:id="ALIAMU0079">Nocturnales quoque antiphonae vel responsoria eodem modo currunt Malos male
-        perdet et Peccavi super numerum, alleluia etiam Spiritus Domini et offertorium Deus tu
+      <p xml:id="ALIAMU0079">Nocturnales quoque antiphonae vel responsoria eodem modo currunt Malos
+        male perdet et Peccavi super numerum, alleluia etiam Spiritus Domini et offertorium Deus tu
         convertens vivifica.</p>
-      <p xml:id="ALIAMU0080">Sic eodem tropo non tantum per diapason intra 36 vel diapente intra 30, sed
-        etiam per diatessaron frequentius intensam vel remissam canitur.</p>
+      <p xml:id="ALIAMU0080">Sic eodem tropo non tantum per diapason intra 36 vel diapente intra 30,
+        sed etiam per diatessaron frequentius intensam vel remissam canitur.</p>
       <p xml:id="ALIAMU0081">
         <pb n="[143]"/>De quarto tono.</p>
-      <p xml:id="ALIAMU0082">Aristoxenus musicus non voces ipsas, ut Pythagoras, dimetiens, sed inter
-        voces differentiarum mensuras colligens, singula tetrachorda tribus numeris distinxit, qui
-        nec 60 excederent, nec infra subsisterent.</p>
-      <p xml:id="ALIAMU0083">Nam in quatuor tetrachordiis inter primam et secundam chordam, secundamque
-        ac tertiam, eumdem numerum posuit; inter tertiam vero et quartam, quod residuum erat de 60
-        superadjecit, ita: 6. 6. 48 8. 8. 44 9. 9. 42 12. 12. 36. Restant duo tetrachorda, quorum
-        alterum habet 12. 18. 30, alterum 12. 24 et 24.</p>
+      <p xml:id="ALIAMU0082">Aristoxenus musicus non voces ipsas, ut Pythagoras, dimetiens, sed
+        inter voces differentiarum mensuras colligens, singula tetrachorda tribus numeris distinxit,
+        qui nec 60 excederent, nec infra subsisterent.</p>
+      <p xml:id="ALIAMU0083">Nam in quatuor tetrachordiis inter primam et secundam chordam,
+        secundamque ac tertiam, eumdem numerum posuit; inter tertiam vero et quartam, quod residuum
+        erat de 60 superadjecit, ita: 6. 6. 48 8. 8. 44 9. 9. 42 12. 12. 36. Restant duo
+        tetrachorda, quorum alterum habet 12. 18. 30, alterum 12. 24 et 24.</p>
       <p xml:id="ALIAMU0084">
         <pb n="[144]"/>Est autem eorumdem numerorum haec ratio: quod 24 pro tono posuit, 12 pro
         semitonio, 8 pro tertia parte toni, 6 pro quarta, quod est diesis; 9 vero ex quarta parte
@@ -496,9 +511,10 @@
         septenario mensurabitur, ut in gradalibus antiphonis Resurrexi, Misericordia Domini et In
         voluntate tua Domine. In nocturnalibus quoque Rubum quem viderat, Turba multa, Tria sunt
         munera.</p>
-      <p xml:id="ALIAMU0089">In hac expositione hoc tantum quaerendum videtur quod ait: ter 6 non <pb n="[148]"/>ad bis 12 comparari, quoniam per 3 non dividitur, ac si bis 12, id est 24, per
-        tertiam partem metiri impossibile sit. Dum autem 24 et per binarium et per ternarium metiri
-        possit, certum est quod binarium binario et ternarium ternario in eadem consonantia
+      <p xml:id="ALIAMU0089">In hac expositione hoc tantum quaerendum videtur quod ait: ter 6 non
+          <pb n="[148]"/>ad bis 12 comparari, quoniam per 3 non dividitur, ac si bis 12, id est 24,
+        per tertiam partem metiri impossibile sit. Dum autem 24 et per binarium et per ternarium
+        metiri possit, certum est quod binarium binario et ternarium ternario in eadem consonantia
         respondere voluit, ubi ternarium binario respondere contradixit.</p>
       <p xml:id="ALIAMU0090">Quod vero adjecit, 6 ad 12 diapason fieri, cum jam posuisset bis 12,
         recolendum est quod non solum in vocibus, sed etiam inter voces differentiarum mensura
@@ -533,8 +549,8 @@
         diapente faciendum propositi faciunt consonantiam diapason ad 12. Duo enim tantum, id est
         quater 6 ter 8, ad eumdem numerum diapason faciunt. Nam quis intelligat quod quater 9 et ter
         12 in praedicta proportione sint?</p>
-      <p xml:id="ALIAMU0098">Unde intelligendum est quod ex duodenario oriatur diapason ad numerum bis
-        12, qui ad 48 alteram diapason perficit, in quorum medio hic tropus suam proprietatem
+      <p xml:id="ALIAMU0098">Unde intelligendum est quod ex duodenario oriatur diapason ad numerum
+        bis 12, qui ad 48 alteram diapason perficit, in quorum medio hic tropus suam proprietatem
         requirit. Quandoquidem illa consonantia, quae est ter 12 ad ter 8, hinc 12 illinc 48
         respicit, et ad ter 8 uterque numerus diapason facit.</p>
       <p xml:id="ALIAMU0099">
@@ -553,31 +569,31 @@
       <p xml:id="ALIAMU0102">
         <pb n="[155]"/>Alleluia etiam Beatus vir a finali chorda ejusdem tropi ad octavam sursum
         versus totam quintam speciem diapason percurrit.</p>
-      <p xml:id="ALIAMU0103">In praedictis vero numeris consonantia diapente sub mensura quinaria cadit,
-          <pb n="[156]"/>quoniam ter 8 et quater 6 ad bis 12 rediguntur. Quater vero 9 ad ter 12 ut
-        binarius et ternarius, qui faciunt 5, conservent suum diapente.</p>
-      <p xml:id="ALIAMU0104">Tonus sextus est sexies 6 ad sexies 4 de bis 12, et quater 9 ad quater 6 de
-        bis 12, quia sesquialtera proportio in diapente cadit; et sexies 4 de ter 8 et sexies 4 de
-        bis 12 in consonantia diapason, id est 6 ad 12; veniunt per bis 12 et ter 8, qui sunt 48,
+      <p xml:id="ALIAMU0103">In praedictis vero numeris consonantia diapente sub mensura quinaria
+        cadit, <pb n="[156]"/>quoniam ter 8 et quater 6 ad bis 12 rediguntur. Quater vero 9 ad ter
+        12 ut binarius et ternarius, qui faciunt 5, conservent suum diapente.</p>
+      <p xml:id="ALIAMU0104">Tonus sextus est sexies 6 ad sexies 4 de bis 12, et quater 9 ad quater
+        6 de bis 12, quia sesquialtera proportio in diapente cadit; et sexies 4 de ter 8 et sexies 4
+        de bis 12 in consonantia diapason, id est 6 ad 12; veniunt per bis 12 et ter 8, qui sunt 48,
         sicut sexies 6 et quater 9 sunt 72.</p>
       <p xml:id="ALIAMU0105">
         <pb n="[157]"/>Totus enim iste tonus aut per diapason consonantiam, id est 6 ad 12, aut per
         diapente, denario scilicet, mensurabitur, ut in gradalibus antiphonis Os justi, Omnes
         gentes, Quasimodo geniti, in nocturnalibus quoque antiphonis O admirabile, Vade Satana,
         Virgo hodie fidelis, O quam gloriosum est.</p>
-      <p xml:id="ALIAMU0106">Quia sunt octo tropi, quorum quatuor dicuntur autentici vel principales,
-        reliqui plagii vel subjugales, sciendum est quod a se invicem, hoc est principalis a
-        subjugali, non discrepet aut ratione numerorum aut natura symphoniarum.</p>
-      <p xml:id="ALIAMU0107">Quapropter hujus modi mensurae et numeri magis lydio principali competunt
-        quam subjugali; quoniam ille sextam partem de bis 12 quod est 4, et quartam quod est 6
-        frequentius percurrit; iste vero in quibusdam antiphonis more subjugalium vix ad bis 12
-        pertingit.</p>
+      <p xml:id="ALIAMU0106">Quia sunt octo tropi, quorum quatuor dicuntur autentici vel
+        principales, reliqui plagii vel subjugales, sciendum est quod a se invicem, hoc est
+        principalis a subjugali, non discrepet aut ratione numerorum aut natura symphoniarum.</p>
+      <p xml:id="ALIAMU0107">Quapropter hujus modi mensurae et numeri magis lydio principali
+        competunt quam subjugali; quoniam ille sextam partem de bis 12 quod est 4, et quartam quod
+        est 6 frequentius percurrit; iste vero in quibusdam antiphonis more subjugalium vix ad bis
+        12 pertingit.</p>
       <p xml:id="ALIAMU0108">
         <pb n="[158]"/>Denique quod bis 12, id est 24, sexta parte vel quarta metiri praecepit, hoc
         est, quod postmodum ait ejusdem tropi consonantiam, quod est diapente, denario mensurari.
         Quandoquidem 6 et 4 denarii mensurae competit.</p>
-      <p xml:id="ALIAMU0109">Quod vero sexies 6 ad sexies 4, quod est 60, comparari voluit, idem valet
-        ac si diceret 36 ad 24 per diapente consonantiam comparari.</p>
+      <p xml:id="ALIAMU0109">Quod vero sexies 6 ad sexies 4, quod est 60, comparari voluit, idem
+        valet ac si diceret 36 ad 24 per diapente consonantiam comparari.</p>
       <p xml:id="ALIAMU0110">
         <pb n="[159]"/>Deinde ter 8 et bis 12 in consonantia dixit diapason fieri per 6 ad 12, quod
         nihil est aliud nisi quia ter 8 et bis 12 idem valent ad 12 quod praedicta diapason in
@@ -585,10 +601,10 @@
       <p xml:id="ALIAMU0111">Nam a sua finali, quae est parhypate meson, diapente superius et
         diatessaron inferius currit. Ex quibus utrisque consonantiis semper diapason existit, sicut
         animadvertere potes in antiphona quae est Omnes gentes.</p>
-      <p xml:id="ALIAMU0112">Quandoquidem et ad parhypate hypaton descendit, et ad trite diezeugmenon,
-        ut dictum est, diapason existit. Eodem modo ascendit et descendit offertorium Stetit
-        angelus, nocturnale quoque responsorium cum suo versu quod est Aspiciebam, et Esto nobis: ad
-        nete hyperbolaeon videntur ascendere.</p>
+      <p xml:id="ALIAMU0112">Quandoquidem et ad parhypate hypaton descendit, et ad trite
+        diezeugmenon, ut dictum est, diapason existit. Eodem modo ascendit et descendit offertorium
+        Stetit angelus, nocturnale quoque responsorium cum suo versu quod est Aspiciebam, et Esto
+        nobis: ad nete hyperbolaeon videntur ascendere.</p>
       <p xml:id="ALIAMU0113">
         <pb n="[160]"/>Alleluia etiam Omnes gentes ejusdem tropi melodia, quae est AANNES, intonando
         retinet. Siquidem ipsa melodia ascendendo mesen tangit, ac postea tertiam speciem
@@ -601,22 +617,22 @@
         idcirco dictus est, eo quod ex lydio mixtus sit, scire oportet, quod in quarto tono bis 9 ad
         bis 12, et ter 6 ad ter 8 per 42 diatessaron consistit. In <pb n="[162]"/>quinto vero sexies
         6 ad sexies 4 de bis 12, et quater 9 ad quater 6 de bis 12 per 60 diapente producit.</p>
-      <p xml:id="ALIAMU0116">In proportione autem propria habet diapason, quod est quater 6 ad quater
-        12, et sexies 4 de bis 12 ad sexies 8, qui numeri simul juncti faciunt 48.</p>
-      <p xml:id="ALIAMU0117">Siquidem a paranete diezeugmenon melodia hujus tropi inchoans, in lichanos
-        meson, quae est sua finalis, desinit per diatessaron et tonum, faciens primitus diapente
-        remissum; tum deinde tertiam speciem ipsius diapente infra eam consonantiam videatur
-        consistere; et quia sursum versus a sua finali hic septimus tropus septimam speciem diapason
-        exsequitur, sicut quartus diatessaron septenario, et sicut quintus diapente denario
+      <p xml:id="ALIAMU0116">In proportione autem propria habet diapason, quod est quater 6 ad
+        quater 12, et sexies 4 de bis 12 ad sexies 8, qui numeri simul juncti faciunt 48.</p>
+      <p xml:id="ALIAMU0117">Siquidem a paranete diezeugmenon melodia hujus tropi inchoans, in
+        lichanos meson, quae est sua finalis, desinit per diatessaron et tonum, faciens primitus
+        diapente remissum; tum deinde tertiam speciem ipsius diapente infra eam consonantiam
+        videatur consistere; et quia sursum versus a sua finali hic septimus tropus septimam speciem
+        diapason exsequitur, sicut quartus diatessaron septenario, et sicut quintus diapente denario
         mensurabitur. Hujus enim speciei paranete hyperbolaeon est ad acutam partem finis.</p>
       <p xml:id="ALIAMU0118">
         <pb n="[163]"/>[Sequitur de septimo simul et octavo.]</p>
-      <p xml:id="ALIAMU0119">Ubi autem melodia hujus tropi, quae est NOEOEANE, desinit, melodia octavi
-        tropi, quae est NOEAGIS, per diatessaron intensum incipit, quod statim remittit; nec a suo
-        principali praeter hanc differentiam discrepat, quod suo nomine hypermixolydius designat;
-        hypermixolydius sane dicitur, quod mixolydium transcendit, qui juxta Ptolomaeum octavam
-        speciem diapason, omnibus reliquis, acutiorem percurrit, constans quarti et quinti toni
-        proprietatibus, sicut mixolydius.</p>
+      <p xml:id="ALIAMU0119">Ubi autem melodia hujus tropi, quae est NOEOEANE, desinit, melodia
+        octavi tropi, quae est NOEAGIS, per diatessaron intensum incipit, quod statim remittit; nec
+        a suo principali praeter hanc differentiam discrepat, quod suo nomine hypermixolydius
+        designat; hypermixolydius sane dicitur, quod mixolydium transcendit, qui juxta Ptolomaeum
+        octavam speciem diapason, omnibus reliquis, acutiorem percurrit, constans quarti et quinti
+        toni proprietatibus, sicut mixolydius.</p>
       <p xml:id="ALIAMU0120">
         <pb n="[164]"/>Cantatur autem mixolydius in gradalibus antiphonis Puer natus est nobis et
         Audivit Dominus. Et nocturnalia responsoria eodem modo incipiunt Responsorium Iste est
@@ -639,10 +655,10 @@
         octonarii numeri, quo partitur sphaera celestis, superius et inferius in circulo
         aequinoctiali. De eadem etiam sphaera tunc temporis quatuor partes superius patent, quatuor
         inferius latent.</p>
-      <p xml:id="ALIAMU0124">Porro quod adjecit, nona unda octavae similis est, nihil mirum, cum et nona
-        chorda octavae adeo similis sit, ut aequisona reddatur, si altera pro altera tangitur, verbi
-        gratia, in singulis speciebus diapason prima et octava chorda eodem sono, non loco, nec
-        longitudinis aut brevitatis spatio; quippe in heptachordo absque ullo confusionis errore
+      <p xml:id="ALIAMU0124">Porro quod adjecit, nona unda octavae similis est, nihil mirum, cum et
+        nona chorda octavae adeo similis sit, ut aequisona reddatur, si altera pro altera tangitur,
+        verbi gratia, in singulis speciebus diapason prima et octava chorda eodem sono, non loco,
+        nec longitudinis aut brevitatis spatio; quippe in heptachordo absque ullo confusionis errore
         respondet prima pro octava, secunda pro nona, tertia pro decima; atque idcirco in octochordo
         erit prima pro nona, ut sit octava eidem similis, nec non aequisona, et ob hoc nisi propter
         acumen superflua.</p>
@@ -668,10 +684,10 @@
         sunt 5, quarum prima est unitas, secunda senarius, tertia quaternarius, quarta ternarius,
         quinta binarius. Habet quoque hoc proprium, ut quia a primo impari surgit, eius, id est,
         senarius, medietas constat tribus membris, et est primus perfectus in numeris.</p>
-      <p xml:id="ALIAMU0129">Si ergo 12 duplicatur, qui ad 6 procul dubio pro duplo accipiuntur, id hac
-        duplicatione colligitur, quod sui duplicantur per impares numeros se sequentes, sua membra,
-        hoc est suas partes, sortiuntur. Verbi causa, a ternario duplicantur, hi 6. 12. 24. 48., et
-        horum primus tribus membris insignitur, secundus 5, tertius 7, quartus 9. Si vero a
+      <p xml:id="ALIAMU0129">Si ergo 12 duplicatur, qui ad 6 procul dubio pro duplo accipiuntur, id
+        hac duplicatione colligitur, quod sui duplicantur per impares numeros se sequentes, sua
+        membra, hoc est suas partes, sortiuntur. Verbi causa, a ternario duplicantur, hi 6. 12. 24.
+        48., et horum primus tribus membris insignitur, secundus 5, tertius 7, quartus 9. Si vero a
         quaternario duodenarius sumat initium, qui duplicantur quaternario excrescunt. Nam in 24
         sunt 8 qui producti sunt ex duplicato quaternario, et in 48 adduntur 4 ad eosdem 8, sic
         quater sunt 12 in 48.</p>
@@ -679,9 +695,9 @@
         <pb n="[170]"/>Et hoc est quod ait, musicos esse numeros qui per 3 et 4 dividuntur,
         comparati eidem duodenario. Nam 8, qui per 4 et 9 qui per 3 dividuntur, ad eundem sub
         epitrita vel hemiolia proportione comparantur.</p>
-      <p xml:id="ALIAMU0131">Tandem, quia dixit tonorum alios esse compositos, alios simplices, sciendum
-        est quod eorum compositio talis sit qualis est apud grammaticos ex duabus partis integris,
-        ut est Magister equitum.</p>
+      <p xml:id="ALIAMU0131">Tandem, quia dixit tonorum alios esse compositos, alios simplices,
+        sciendum est quod eorum compositio talis sit qualis est apud grammaticos ex duabus partis
+        integris, ut est Magister equitum.</p>
       <p xml:id="ALIAMU0132">Dum enim primus tonus diapason consonantia nobilis sit, quintus autem
         diapente fiat singularis: secundus ex utraque consonantia componitur, cum tripla proportione
         dilatatur.</p>
@@ -759,17 +775,17 @@
       <p xml:id="ALIAMU0191">
         <pb n="[177]"/>Primus tonus est in 18 diapason, 6 ad 12; et 20 diapente, 8 ad 12; et in 21
         diatessaron, 9 ad 12.</p>
-      <p xml:id="ALIAMU0192">Secundus tonus est: a 12 (semel); c 6 (ter); d 9 (bis); in 30 per ter 6 ad
-        12 et per bis 9 ad 12 in quibus est diapente, et in 28 diatessaron per bis 8 ad 12.</p>
-      <p xml:id="ALIAMU0193">Tertius tonus est: a 12 (semel); c 6 (quater); B 8 (ter); d 9 (bis). In 36
-        diapason per quater 6 ad 12, aut in 30 diapente per bis 9 ad 12.</p>
+      <p xml:id="ALIAMU0192">Secundus tonus est: a 12 (semel); c 6 (ter); d 9 (bis); in 30 per ter 6
+        ad 12 et per bis 9 ad 12 in quibus est diapente, et in 28 diatessaron per bis 8 ad 12.</p>
+      <p xml:id="ALIAMU0193">Tertius tonus est: a 12 (semel); c 6 (quater); B 8 (ter); d 9 (bis). In
+        36 diapason per quater 6 ad 12, aut in 30 diapente per bis 9 ad 12.</p>
       <p xml:id="ALIAMU0194">
         <pb n="[178]"/>Quartus tonus est: a 12 (bis); c 6 (ter); b 8 (ter); d 9 (bis). Diatessaron
         per ter 6 ad ter 8 et per bis 9 ad bis 12 qui sunt 42.</p>
-      <p xml:id="ALIAMU0195">Quintus tonus est: a 12 (ter); c 6 (quater); b 8 (ter); d 9 (quater), et
-        est diapenticus per ter 8 ad ter 12 qui sunt 36, et quater 6 ad quater 9 qui sunt 60.</p>
-      <p xml:id="ALIAMU0196">Sextus tonus est: a 12 (bis); c 6 (sexies); B VIII (ter); d 9 (quater), et
-        est diapason per sexies 6 ad bis 12, qui sunt 60, et per ter 8 ad 12 qui sunt 48, aut
+      <p xml:id="ALIAMU0195">Quintus tonus est: a 12 (ter); c 6 (quater); b 8 (ter); d 9 (quater),
+        et est diapenticus per ter 8 ad ter 12 qui sunt 36, et quater 6 ad quater 9 qui sunt 60.</p>
+      <p xml:id="ALIAMU0196">Sextus tonus est: a 12 (bis); c 6 (sexies); B VIII (ter); d 9 (quater),
+        et est diapason per sexies 6 ad bis 12, qui sunt 60, et per ter 8 ad 12 qui sunt 48, aut
         diapente per quater 9 ad bis 12 qui sunt 60.</p>
       <p xml:id="ALIAMU0197">Septimus tonus est: a 12 (bis); c 6 (ter); b VIII (ter); d 9 (quater).
         Item: a <pb n="[179]"/>12 (ter); c 6 (quater); b VIII (ter); d 9 (quater). Item propria: a
@@ -829,58 +845,61 @@
       <p xml:id="ALIAMU0224">A quarta specie diapason, quae est in e, ubi finitur primus tropus,
         inchoatur <pb n="[186]"/>et secundus. Ibique finitur, ubi et inchoatur. Concluditur autem
         ejus forma intra diapente, quod est ab m ad c. Hujus autem haec est forma NOEAGIS.</p>
-      <p xml:id="ALIAMU0225">Habet hic tropus differentiam in nocturnis unam in e quae habet tria loca:
-        diatessaron remissum in a, ut Laetentur caeli; sesquioctavum remissum in c: Igitur; se ut
-        Juste et pie. Unde constat ut hic tropus unum habeat differentiam in nocturnis, et tria
+      <p xml:id="ALIAMU0225">Habet hic tropus differentiam in nocturnis unam in e quae habet tria
+        loca: diatessaron remissum in a, ut Laetentur caeli; sesquioctavum remissum in c: Igitur; se
+        ut Juste et pie. Unde constat ut hic tropus unum habeat differentiam in nocturnis, et tria
         loca.</p>
-      <p xml:id="ALIAMU0226">In diurnis hic tropus ipsam habet differentiam et ipsa loca: diatessaron
-        remissum in a, ut Ecce advenit; tonum remissum in c: Sitientes; se, ut De
+      <p xml:id="ALIAMU0226">In diurnis hic tropus ipsam habet differentiam et ipsa loca:
+        diatessaron remissum in a, ut Ecce advenit; tonum remissum in c: Sitientes; se, ut De
         necessitatibus.</p>
       <p xml:id="ALIAMU0227">
         <pb n="[187]"/>Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
         diurnis autem sic currit versus: Gloria Patri et caetera.</p>
-      <p xml:id="ALIAMU0228">A prima specie diapason et primus, propter quamdam naturam, inchoatur et
-        tertius tropus, finiturque in diatessaron: in hoc scilicet concluditur ejus forma intra
+      <p xml:id="ALIAMU0228">A prima specie diapason et primus, propter quamdam naturam, inchoatur
+        et tertius tropus, finiturque in diatessaron: in hoc scilicet concluditur ejus forma intra
         diapente o ad e et diatessaron o ad cc.</p>
       <p xml:id="ALIAMU0229">Hujus enim tropi talis est forma NOEOEANE.</p>
-      <p xml:id="ALIAMU0230">Habet enim hic tropus in nocturnis differentias tres: unam in m, quae habet
-        unum locum, se: Qui odit animam; alteram in o quae habet unum locum, diatessaron remissum in
-        h: Qui de terra est; tertiam in x quae habet enarmonium remissum in m: Et respicientes.</p>
+      <p xml:id="ALIAMU0230">Habet enim hic tropus in nocturnis differentias tres: unam in m, quae
+        habet unum locum, se: Qui odit animam; alteram in o quae habet unum locum, diatessaron
+        remissum in h: Qui de terra est; tertiam in x quae habet enarmonium remissum in m: Et
+        respicientes.</p>
       <p xml:id="ALIAMU0231">
         <pb n="[188]"/>In diurnis enim hic tropus easdem habet differentias et eadem loca: m ut Ego
         autem cum justitia; o differentiam et h locum: Dum sanctificatus.</p>
-      <p xml:id="ALIAMU0232">Hujus autem tropi in nocturnis sic currit versus: Gloria Patri. In diurnis
-        enim sic currit versus: Gloria Patri et caetera.</p>
+      <p xml:id="ALIAMU0232">Hujus autem tropi in nocturnis sic currit versus: Gloria Patri. In
+        diurnis enim sic currit versus: Gloria Patri et caetera.</p>
       <p xml:id="ALIAMU0233">
         <pb n="[189]"/>De quarto.</p>
-      <p xml:id="ALIAMU0234">A quinta specie diapason ubi finitur tertius tropus inchoatur et quartus,
-        ab h scilicet, et finitur in eadem h. Concluditur haec ejus forma intra diapente, quod est
-        ab o ad e, addito sesquioctavo remisso c ad e. Hujus enim tropi haec est forma NOEAGIS.</p>
-      <p xml:id="ALIAMU0235">Habet enim hic tropus in nocturnis differentias 2. Primam in h, quae habet
-        4 loca: se, O quam clarus est; i, Jerusalem; sesquioctavum remissum in e: Rubum quem
+      <p xml:id="ALIAMU0234">A quinta specie diapason ubi finitur tertius tropus inchoatur et
+        quartus, ab h scilicet, et finitur in eadem h. Concluditur haec ejus forma intra diapente,
+        quod est ab o ad e, addito sesquioctavo remisso c ad e. Hujus enim tropi haec est forma
+        NOEAGIS.</p>
+      <p xml:id="ALIAMU0235">Habet enim hic tropus in nocturnis differentias 2. Primam in h, quae
+        habet 4 loca: se, O quam clarus est; i, Jerusalem; sesquioctavum remissum in e: Rubum quem
         viderat. Secunda differentia est in e, quae habet unum locum in c: Bethleem, non es minima.
         Unde constat ut hic tropus duas habet differentias et dedicata loca in nocturnis.</p>
       <p xml:id="ALIAMU0236">
         <pb n="[190]"/>In diurnis enim hic tropus unam habet differentiam in m, ut Resurrexi.</p>
       <p xml:id="ALIAMU0237">Hujus enim in nocturnis sic currit versus: Gloria Patri et caetera. In
         diurnis sic: Gloria Patri et caetera.</p>
-      <p xml:id="ALIAMU0238">A tertia specie diapason, quae est y, inchoatur quintus tropus, finiturque
-        in diapente quod est i. Concluditur enim ejus forma diapente quod est y ad i, addito
-        enarmonio quod est y ad DD. Hujus enim tropi haec est forma: NOEOEANE.</p>
-      <p xml:id="ALIAMU0239">Habet autem hic tropus duas differentias in nocturnis: unam in o quae habet
-        duo loca: se, Obsecro, Domine; enarmonium remissum in i: Vox clamantis. Alteram differentiam
-        in y, quae habet unum locum, se scilicet: Hodie nobis.</p>
+      <p xml:id="ALIAMU0238">A tertia specie diapason, quae est y, inchoatur quintus tropus,
+        finiturque in diapente quod est i. Concluditur enim ejus forma diapente quod est y ad i,
+        addito enarmonio quod est y ad DD. Hujus enim tropi haec est forma: NOEOEANE.</p>
+      <p xml:id="ALIAMU0239">Habet autem hic tropus duas differentias in nocturnis: unam in o quae
+        habet duo loca: se, Obsecro, Domine; enarmonium remissum in i: Vox clamantis. Alteram
+        differentiam in y, quae habet unum locum, se scilicet: Hodie nobis.</p>
       <p xml:id="ALIAMU0240">
         <pb n="[191]"/>In diurnis autem hic tropus 3 habet differentias et 3 loca: se, Exaudi Deus;
         alteram in m, quae habet unum locum in i: Circumdederunt me; tertiam in y: Justus
         Dominus.</p>
       <p xml:id="ALIAMU0241">Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
         diurnis sic currit versus: Gloria Patri et caetera.</p>
-      <p xml:id="ALIAMU0242">A sexta specie diapason, ubi finitur quintus tropus, inchoatur sextus, ab i
-        videlicet. Concluditur tamen ejus forma diapente, quod est o ad e, addita <pb n="[192]"/>sesquioctava proportione ad gravem partem, scilicet e ad c. Hujus enim tropi haec est
+      <p xml:id="ALIAMU0242">A sexta specie diapason, ubi finitur quintus tropus, inchoatur sextus,
+        ab i videlicet. Concluditur tamen ejus forma diapente, quod est o ad e, addita <pb n="[192]"
+        />sesquioctava proportione ad gravem partem, scilicet e ad c. Hujus enim tropi haec est
         forma NOEAGIS.</p>
-      <p xml:id="ALIAMU0243">Habet enim hic tropus in nocturnis differentiam unam, quae habet tria loca:
-        se, Aspiciebam; enarmonium intensum in o: Modo veniet; diatessaron remissum in c: Per
+      <p xml:id="ALIAMU0243">Habet enim hic tropus in nocturnis differentiam unam, quae habet tria
+        loca: se, Aspiciebam; enarmonium intensum in o: Modo veniet; diatessaron remissum in c: Per
         memetipsum. Itaque hic tropus una differentia cum tribus insignitur locis.</p>
       <p xml:id="ALIAMU0244">In diurnis ipsa differentia duo habet loca: se, Os justi; diatessaron
         remissum in c: Qui manducat carnem.</p>
@@ -891,16 +910,16 @@
         est cc, et finitur in diapente m. Concluditur ejus forma intra diapente quod est cc ad m,
         addita sesquioctava proportione quod est ab m ad i. Hujus tropi haec est forma
         NOEOEAGIS.</p>
-      <p xml:id="ALIAMU0247">Habet autem in nocturnis differentias 3: unam in cc, quae habet unum locum,
-        diapente remissum in m, ut Summae Trinitati; alteram in y, quae habet duo loca: se, ut Dixit
-        Judas; tonum intensum in cc ut Aspiciens. Tertia differentia est in o, quae habet duo loca:
-        se, Attende Domine ad me: tonum remissum in m ut Missus est Gabriel. Et de hac differentia
-        sunt omnes antiphonae quas vitio finis in quarto ponimus, ut Benedicta tu.</p>
+      <p xml:id="ALIAMU0247">Habet autem in nocturnis differentias 3: unam in cc, quae habet unum
+        locum, diapente remissum in m, ut Summae Trinitati; alteram in y, quae habet duo loca: se,
+        ut Dixit Judas; tonum intensum in cc ut Aspiciens. Tertia differentia est in o, quae habet
+        duo loca: se, Attende Domine ad me: tonum remissum in m ut Missus est Gabriel. Et de hac
+        differentia sunt omnes antiphonae quas vitio finis in quarto ponimus, ut Benedicta tu.</p>
       <p xml:id="ALIAMU0248">
         <pb n="[194]"/>In diurnis huic tropo una differentia in m, quae habet unum locum, se
         scilicet ut Puer natus est.</p>
-      <p xml:id="ALIAMU0249">Sic enim in nocturnis currit versus: Gloria Patri et caetera. In diurnis:
-        Gloria Patri.</p>
+      <p xml:id="ALIAMU0249">Sic enim in nocturnis currit versus: Gloria Patri et caetera. In
+        diurnis: Gloria Patri.</p>
       <p xml:id="ALIAMU0250">A septima specie diapason, quae est m, ubi finitur septimus, inchoatur
         octavus; ibi finitur ubi inchoatur. Concluditur ejus forma intra diapente intensum m ad cc,
         addita sesquioctava proportione remissa, m ad i. Hujus tropi talis est forma NOEAGIS.</p>
@@ -909,20 +928,20 @@
         dies veniunt; sesquioctavum remissum in i, ut Doceam iniquos; sesquioctavum intensum in o,
         ut Quodcumque; diatessaron intensum in y, Ecce ancilla Domini. Unde apparet quod hic tropus
         in nocturnis differentia cum 5 locis insignitur.</p>
-      <p xml:id="ALIAMU0252">In diurnis autem hic tropus unam habet differentiam, quae habet 2 loca: se,
-        ut In virtute tua; diatessaron remissum, ut Domine ne longe.</p>
+      <p xml:id="ALIAMU0252">In diurnis autem hic tropus unam habet differentiam, quae habet 2 loca:
+        se, ut In virtute tua; diatessaron remissum, ut Domine ne longe.</p>
       <p xml:id="ALIAMU0253">
         <pb n="[196]"/>Hujus tropi in nocturnis sic currit versus: Gloria Patri et caetera. In
         diurnis autem taliter currit versus: Gloria Patri et caetera.</p>
-      <p xml:id="ALIAMU0254">Sunt autem a mese superius quatuor chordae, quibus synemmenae sunt proximae
-        et e latere vicinae, quae dant ab excellentiori parte exordium quatuor primis speciebus
-        diapason, atque melodiis quatuor troporum.</p>
-      <p xml:id="ALIAMU0255">Quorum videlicet troporum, sive etiam sonorum, primus graeca lingua dicitur
-        protus, secundus deuterus, tertius tritus, quartus tetrardus, qui singuli a suis finalibus
-        deorsum pentachordo, quod est diapente, differunt. Superius vero tetrachordum, quod est
-        diatessaron, requirunt, ut unusquisque suam speciem diapason teneat, per quam evagando
-        sursum ac deorsum libere <pb n="[197]"/>currat. Cui scilicet diapason plerumque tonus
-        exterius additur, qui emmelis, id est aptus melo, vocatur.</p>
+      <p xml:id="ALIAMU0254">Sunt autem a mese superius quatuor chordae, quibus synemmenae sunt
+        proximae et e latere vicinae, quae dant ab excellentiori parte exordium quatuor primis
+        speciebus diapason, atque melodiis quatuor troporum.</p>
+      <p xml:id="ALIAMU0255">Quorum videlicet troporum, sive etiam sonorum, primus graeca lingua
+        dicitur protus, secundus deuterus, tertius tritus, quartus tetrardus, qui singuli a suis
+        finalibus deorsum pentachordo, quod est diapente, differunt. Superius vero tetrachordum,
+        quod est diatessaron, requirunt, ut unusquisque suam speciem diapason teneat, per quam
+        evagando sursum ac deorsum libere <pb n="[197]"/>currat. Cui scilicet diapason plerumque
+        tonus exterius additur, qui emmelis, id est aptus melo, vocatur.</p>
       <p xml:id="ALIAMU0256">Sciendum quoque quod dorius maxime proto regitur, similiter phrygius
         deutero, lydius trito, mixolydius tetrardo. Quos sonos in quibusdam cantilenis suae plagae
         quodammodo tangendo libant, ut plaga proti tangat protum, deuteri deuterum, triti tritum,
@@ -932,12 +951,12 @@
         cantilenis, ipsae plagae horum sonorum limites ad placidum transcendunt, ac species diapason
         quas a graviore parte inchoaverant prout libuerit percurrunt; quippe singulae chordae
         finales singulas adoriuntur species.</p>
-      <p xml:id="ALIAMU0258">Quarum videlicet specierum metas principalium troporum superius et inferius
-        observantium prima dorii est, secunda phrygii, tertia lydii, quarta mixolydii; siquidem
-        omnes species diapason et superius et inferius inchoari possunt, verbi gratia prima ab o in
-        a vel ab a in o; secunda ab x in b vel a b in x; tertia ab y in c vel a c in y; quarta a cc
-        in e vel ab e in cc; quinta a dd in h vel ab h in dd; sexta ab ff in i vel ab i in ff;
-        septima ab nn in m vel ab m in nn...</p>
+      <p xml:id="ALIAMU0258">Quarum videlicet specierum metas principalium troporum superius et
+        inferius observantium prima dorii est, secunda phrygii, tertia lydii, quarta mixolydii;
+        siquidem omnes species diapason et superius et inferius inchoari possunt, verbi gratia prima
+        ab o in a vel ab a in o; secunda ab x in b vel a b in x; tertia ab y in c vel a c in y;
+        quarta a cc in e vel ab e in cc; quinta a dd in h vel ab h in dd; sexta ab ff in i vel ab i
+        in ff; septima ab nn in m vel ab m in nn...</p>
       <p xml:id="ALIAMU0259">
         <pb n="[199]"/>Sunt igitur quatuor superiores, id est o, x, y, cc; et quatuor inferiores, id
         est e, h, i, m. Et superiores quidem excellentiori parte finiunt, hypodorium, hypophrygium,
@@ -964,9 +983,9 @@
         tetrachordum recidit, dum inter o et x trite synemmenon, id est q, intervenit; nec tamen
         unquam ratio post paramesen sonare permittit, sed aut post <pb n="[202]"/>o, aut post t,
         invenitur: post o sicut in tertio sono hujus antiphonae Justus es Domine.</p>
-      <p xml:id="ALIAMU0264">Tandem octavus tropus tenet eamdem speciem diapason quam et primus; tamen
-        eo differt quod ille habet m mediam chordam suae qualitatis custodem: hic vero o sub proti
-        nomine.</p>
+      <p xml:id="ALIAMU0264">Tandem octavus tropus tenet eamdem speciem diapason quam et primus;
+        tamen eo differt quod ille habet m mediam chordam suae qualitatis custodem: hic vero o sub
+        proti nomine.</p>
       <p xml:id="ALIAMU0265">
         <pb n="[203]"/>Quam differentiam qui nescit, nunc in istum, nunc in illum vitiosus incurrit.
         Ut est in antiphona Urbs fortitudinis, quae a primo tono incipit et in octavum desinit
@@ -981,20 +1000,20 @@
         <pb n="[205]"/>ADDITIONS MARGINALES du MANUSCRIT M</p>
       <p xml:id="ALIAMU0268">A.- LISTES de PIECES appartenant aux 8 TONS</p>
       <p xml:id="ALIAMU0269">Folio 175'.</p>
-      <p xml:id="ALIAMU0270">Exsurge, quare obdormis.- Misereris omnium.- Redime me Domine.- Ego autem
-        cum justitia.- Ego autem in Domino.- Meditatio cordis mei.- Factus est Dominus protector
-        meus.- Suscepimus.- Rorate celi.- Etenim sederunt.- Statuit ei Dominus.- Inclina Domine.-
-        Justus es Domine, et rectum.- Da pacem Domine sustinen(tibus).- Gaudete in Domino.-
+      <p xml:id="ALIAMU0270">Exsurge, quare obdormis.- Misereris omnium.- Redime me Domine.- Ego
+        autem cum justitia.- Ego autem in Domino.- Meditatio cordis mei.- Factus est Dominus
+        protector meus.- Suscepimus.- Rorate celi.- Etenim sederunt.- Statuit ei Dominus.- Inclina
+        Domine.- Justus es Domine, et rectum.- Da pacem Domine sustinen(tibus).- Gaudete in Domino.-
         Exclamaverunt.- Sapientiam sanctorum.- Salus autem justorum.- De ventre matris.- Scio cui
         credidi.- Laudate pueri Dominum.- Gaudeamus omnes.- Justus non conturbabitur.</p>
       <p xml:id="ALIAMU0271">Folio 175' (2ème liste).</p>
-      <p xml:id="ALIAMU0272">Viderunt omnes.- Fili quid fecisti nobis sic.- Enlumina faciem tuam.- Cum
-        invocarem te ex.- Panis quem ego.- Domine quis hab.- Surrexit Dominus et apparuit.- Petite
-        et accipietis.- Psallite Domino qui ascendit.- Amen dico vobis, quic(quid).- Dominus dabit
-        benignitatem. Dicite pusillanim(i)s.- Ecce <pb n="[206]"/>virgo concipiet.- In salutari tuo
-        anim(a mea).- Qui vult venire post (me).- Gaudete justi in Domino.- Posuerunt mortalia.-
-        Amen dico vobis (neumes notés).- Tu per propheta.- Etsi coram hominibus.- Ego vos elegi.-
-        Quicumque fecerit.- Principes persecuti sunt.- Confundantur sup(erbi).</p>
+      <p xml:id="ALIAMU0272">Viderunt omnes.- Fili quid fecisti nobis sic.- Enlumina faciem tuam.-
+        Cum invocarem te ex.- Panis quem ego.- Domine quis hab.- Surrexit Dominus et apparuit.-
+        Petite et accipietis.- Psallite Domino qui ascendit.- Amen dico vobis, quic(quid).- Dominus
+        dabit benignitatem. Dicite pusillanim(i)s.- Ecce <pb n="[206]"/>virgo concipiet.- In
+        salutari tuo anim(a mea).- Qui vult venire post (me).- Gaudete justi in Domino.- Posuerunt
+        mortalia.- Amen dico vobis (neumes notés).- Tu per propheta.- Etsi coram hominibus.- Ego vos
+        elegi.- Quicumque fecerit.- Principes persecuti sunt.- Confundantur sup(erbi).</p>
       <p xml:id="ALIAMU0273">P(lagales) P(roti).</p>
       <p xml:id="ALIAMU0274">Folio 176'.</p>
       <p xml:id="ALIAMU0275">Ecce advenit.- Fac metum Domine.- Letetur cor.- Sicientes venite.-
@@ -1005,17 +1024,17 @@
         nimis.- Offertorium Meditabor in m(andatis).</p>
       <p xml:id="ALIAMU0276">P(lagales) P(roti).</p>
       <p xml:id="ALIAMU0277">Folio 176' (2ème liste).</p>
-      <p xml:id="ALIAMU0278">Domine Deus meus (neumes notés).- Domne Dominus (neumes notés).- Narrabo
-        o(pera) tua.- Letabimur in sal(utari tuo).- Lutum fecit ex sp(uto).- Dominus regit me.-
-        Redime nos Deus (neumes notés).- Potum meum.- Dominus IHC (= Jesus) (neumes notés).- Data
-        est mihi.- Omnes qui in Christo.- Can(ta)te Domino alleluia.- Domus mea domus.- Cantabo
+      <p xml:id="ALIAMU0278">Domine Deus meus (neumes notés).- Domne Dominus (neumes notés).-
+        Narrabo o(pera) tua.- Letabimur in sal(utari tuo).- Lutum fecit ex sp(uto).- Dominus regit
+        me.- Redime nos Deus (neumes notés).- Potum meum.- Dominus IHC (= Jesus) (neumes notés).-
+        Data est mihi.- Omnes qui in Christo.- Can(ta)te Domino alleluia.- Domus mea domus.- Cantabo
         Domino qui.- Dominus firmamentum (neumes).- Vovete et redd(ite).- Jerusalem surge.- Exiit
         sermo.- Multitudo ang(elorum).</p>
       <p xml:id="ALIAMU0279">A(uthenti) De(uteri).</p>
       <p xml:id="ALIAMU0280">
         <pb n="[207]"/>Folio 176'.</p>
-      <p xml:id="ALIAMU0281">Dum clamarem.- Confessio et pulchritudo.- Intret oratio.- Tibi dixit cor
-        meum.- In D(e)o laudabo.- Ego clamavi.- Dum sanctif(icatus).- Miserere mihi quoniam est
+      <p xml:id="ALIAMU0281">Dum clamarem.- Confessio et pulchritudo.- Intret oratio.- Tibi dixit
+        cor meum.- In D(e)o laudabo.- Ego clamavi.- Dum sanctif(icatus).- Miserere mihi quoniam est
         cul(pa).- Liberator meus.- Omnia que fecisti.- In nomine Domini.- Resurrexi.- Victricem
         manum tuam.- Vocem jocundi(tatis).- Exaudi Domine vocem meam.- Repleatur os meum.- Karitas
         Domini diffusa est.- Si iniquitates observab(eris).- Sancti tui Domine.- Ecce oculi Domini.-
@@ -1027,12 +1046,12 @@
         Beatus servus.- Justorum animae.</p>
       <p xml:id="ALIAMU0284">P(lagales) De(uteri).</p>
       <p xml:id="ALIAMU0285">Folio 177.</p>
-      <p xml:id="ALIAMU0286">Omnis terra ad(oret te).- Sic(ut) oculi.- Reminiscere.- De necessitatibus.-
-        Salus populi.- Deus in omine.- Judica me Deus et d(i)s(cerne).- Judica Domine nocen(tes
-        me).- Nos autem glo(riari).- Eduxit eos Dominus.- Eduxit Dominus p(opu)l(um).- Misericordia
-        (neumes).- Exaudivit de terrae.- Exaudi Domine vocem (neumes).- In voluntate.- Protector
-        noster as(pice).- Prope esto Domine.- Sacerdotes t(ui) (neumes).- Intret in consp(ectu).-
-        Dicit Dominus Petro (neumes).</p>
+      <p xml:id="ALIAMU0286">Omnis terra ad(oret te).- Sic(ut) oculi.- Reminiscere.- De
+        necessitatibus.- Salus populi.- Deus in omine.- Judica me Deus et d(i)s(cerne).- Judica
+        Domine nocen(tes me).- Nos autem glo(riari).- Eduxit eos Dominus.- Eduxit Dominus
+        p(opu)l(um).- Misericordia (neumes).- Exaudivit de terrae.- Exaudi Domine vocem (neumes).-
+        In voluntate.- Protector noster as(pice).- Prope esto Domine.- Sacerdotes t(ui) (neumes).-
+        Intret in consp(ectu).- Dicit Dominus Petro (neumes).</p>
       <p xml:id="ALIAMU0287">Vidimus stellam ejus.- Acceptabis.- Notas mihi fecisti.- Jerusalem que
         (neumes).- Ab occultis m...- Benedicite Deum c(aeli).- Videns Dominus fle...- Dominus
         virtutum (neumes).- Memento verbi.- Ego sum pastor b(onus).- Modicum et non (neumes).- Pater
@@ -1041,36 +1060,36 @@
       <p xml:id="ALIAMU0288">
         <pb n="[208]"/>Semel juravi.- Quod dico vobis.</p>
       <p xml:id="ALIAMU0289">Folio 177'.</p>
-      <p xml:id="ALIAMU0290">... (début de ligne coupé par le relieur). Verba mea.- Letare Jerusalem.-
-        Exaudi Deus.- Miserere mihi Domine q(uoniam) tribulor.- Domine in tua misericordia.- Ecce
-        Deus adjuvat me.- Deus in loco.- Loquebar.- Miserere mei Deus quoniam ad te clamavi.- Qui
-        biberit aquam quam.- Of(fertorium) Benedic anima mea.- Com(munio) Servite Domino.- Voce mea
-        ad D(eum).- Intellige clamorem.- Justus Dominus et justi(tia).- Quis dabit ex.- Tu
-        mandasti.- Adversum me exercebantur.- Pacem meam do vobis.- Non vos relinquam.- Unam petii a
-        Domino.- Dico vobis gaudium.- Signa eos qui in me credunt.- Mense septimo.</p>
+      <p xml:id="ALIAMU0290">... (début de ligne coupé par le relieur). Verba mea.- Letare
+        Jerusalem.- Exaudi Deus.- Miserere mihi Domine q(uoniam) tribulor.- Domine in tua
+        misericordia.- Ecce Deus adjuvat me.- Deus in loco.- Loquebar.- Miserere mei Deus quoniam ad
+        te clamavi.- Qui biberit aquam quam.- Of(fertorium) Benedic anima mea.- Com(munio) Servite
+        Domino.- Voce mea ad D(eum).- Intellige clamorem.- Justus Dominus et justi(tia).- Quis dabit
+        ex.- Tu mandasti.- Adversum me exercebantur.- Pacem meam do vobis.- Non vos relinquam.- Unam
+        petii a Domino.- Dico vobis gaudium.- Signa eos qui in me credunt.- Mense septimo.</p>
       <p xml:id="ALIAMU0291">P(lagales) Tri(ti).</p>
       <p xml:id="ALIAMU0292">Folio 177'.</p>
       <p xml:id="ALIAMU0293">Adorate Deum.- Esto mihi in Deum.- Quasi modo geniti.- Cantate Domino.-
         Omnes gentes.- Respice in me (neumes).- Exultate Deo ad.- Dicit Dominus: ego co(gito).- In
         medio eccle(siae).- Sacerdotes Dei (neumes).- Os justi.- Justi epulentur.- Of(fertorium)
         Justicie Domini.- Of(fertorium) Intende voci.</p>
-      <p xml:id="ALIAMU0294">Qui manducat.- Pasca nostrum.- Mitte manum.- Circuibo.- Honora Dominum.- De
-        fructu op(erum).- Panem de caelo.- Exultavit ut.- Simile est reg(num).- Quinque prudentes.-
-        Qui me dignat(us).- Tu es Petrus.- Laetabitur justus (neumes).- Anima nostra.- Venite
-        post.</p>
+      <p xml:id="ALIAMU0294">Qui manducat.- Pasca nostrum.- Mitte manum.- Circuibo.- Honora
+        Dominum.- De fructu op(erum).- Panem de caelo.- Exultavit ut.- Simile est reg(num).- Quinque
+        prudentes.- Qui me dignat(us).- Tu es Petrus.- Laetabitur justus (neumes).- Anima nostra.-
+        Venite post.</p>
       <p xml:id="ALIAMU0295">
         <pb n="[209]"/>A(uthenti) Te(trardi).</p>
       <p xml:id="ALIAMU0296">Folio 179.</p>
-      <p xml:id="ALIAMU0297">Puer natus est nobis.- Audivit Dominus.- Ne dereli(n)quas me.- Oculi mei
-        se(m)per.- Deus in adjutorium.- Respice Domine.- Populus Sion.- In virtute tua Domine
+      <p xml:id="ALIAMU0297">Puer natus est nobis.- Audivit Dominus.- Ne dereli(n)quas me.- Oculi
+        mei se(m)per.- Deus in adjutorium.- Respice Domine.- Populus Sion.- In virtute tua Domine
         laetabitur.- Protexisti me.- Exspecta Dominum.- Aqua sapientiae.- Venite benedic(ti).- Viri
         Galilei.- Ne timeas Zacharia.- Judicant sancti gentes.- Gloria et honore.- Com(munio)
         Erubescant.- Qui mihi ministrat.- Ne tradideris me Deus.- Erubescant et reve(re)antur.- Si
         conresurrexistis.- Populus adquisitionis.- Factus est repente.</p>
       <p xml:id="ALIAMU0298">P(lagales) Te(trardi).</p>
       <p xml:id="ALIAMU0299">Folio 179'.</p>
-      <p xml:id="ALIAMU0300">Dum medium silentium.- In excelso tro(no).- Invocavit me.- Domine ne longe
-        facias.- Introduxit vos Deus.- Jubilate Deo.- Spiritus Domini replevit.- Accipite
+      <p xml:id="ALIAMU0300">Dum medium silentium.- In excelso tro(no).- Invocavit me.- Domine ne
+        longe facias.- Introduxit vos Deus.- Jubilate Deo.- Spiritus Domini replevit.- Accipite
         jocunditatem.- Deus dum egredereris (sic).- Benedicta sit sancta.- Ad te levavi.- Letabitur
         justus.- Of(fertorium) Domine Deus salutis m(eae).- Com(munio) Tolle puerum et m(atrem).-
         Introibo.- Nemo te condemnabit.- Hoc corpus.- Domine memorabor.- Lavabo inter.- Com(munio)
@@ -1082,8 +1101,8 @@
       <p xml:id="ALIAMU0301">
         <pb n="[210]"/>B.- GLOSES DIVERSES</p>
       <p xml:id="ALIAMU0302">Folio 175 (glose au section 3, p. 100).</p>
-      <p xml:id="ALIAMU0303">[Alia musica, 210; text: Armonice medietates: Dupla diff(erentia), Tripla
-        diff(erentia), 2, 4, 6, 8, 12, sesquitertia proportio, 3, 9, 18, sesqualter, duplus] <figure>
+      <p xml:id="ALIAMU0303">[Alia musica, 210; text: Armonice medietates: Dupla diff(erentia),
+        Tripla diff(erentia), 2, 4, 6, 8, 12, sesquitertia proportio, 3, 9, 18, sesqualter, duplus] <figure>
           <graphic url="/images/ALIAMU_01GF.gif"/>
         </figure></p>
       <p xml:id="ALIAMU0304">Folio 178.</p>
@@ -1098,11 +1117,11 @@
         crom(aticum) et inde deflectens in proslambanomenon desinit.</p>
       <p xml:id="ALIAMU0306">
         <pb n="[211]"/>Folio 180.</p>
-      <p xml:id="ALIAMU0307">Saturnus XXX annis signiferum complet; singula item signa duobus annis cum
-        semis se. Quod ita dinoscitur: XII. es bini XXIIII; XII. es semis VI. Junge ad XXIIII sex,
-        sunt XXX. Jovis XII annis totum suum peragit, singula signa uno anno pervolans. Mars duobus
-        annis praefatum circulum LXVo diebus unumquodque signum transcurrit, Venus CCC. XL. VIII
-        diebus, Zodiacum singula signa XXVIIII diebus permeat, Mercurius VIIII diebus.</p>
+      <p xml:id="ALIAMU0307">Saturnus XXX annis signiferum complet; singula item signa duobus annis
+        cum semis se. Quod ita dinoscitur: XII. es bini XXIIII; XII. es semis VI. Junge ad XXIIII
+        sex, sunt XXX. Jovis XII annis totum suum peragit, singula signa uno anno pervolans. Mars
+        duobus annis praefatum circulum LXVo diebus unumquodque signum transcurrit, Venus CCC. XL.
+        VIII diebus, Zodiacum singula signa XXVIIII diebus permeat, Mercurius VIIII diebus.</p>
       <p xml:id="ALIAMU0308">
         <pb n="[212]"/>Folio 181.</p>
       <p xml:id="ALIAMU0309">[Alia musica, 212; text: F, G, A, B, C, D, E, F, g, G]</p>

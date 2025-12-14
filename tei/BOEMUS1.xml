@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De institutione musica, liber primus</title>
         <title type="abbrev">BOEMUS1</title>
-        <author>Boethius, Anicius Manlius Severinus</author>
-        <date notBefore="500" notAfter="799">6th-8th</date>
+        <author><persName>Boethius, Anicius Manlius Severinus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Calvin M. Bower</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Luminita Florea Aluas</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Penelope Mathiesen</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1991</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1991">1991</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Boetii De institutione musica libri quinque</emph>, ed. Godofredus Friedlein
@@ -479,14 +489,16 @@
       <p xml:id="BOEMUS10003">III. De vocibus ac de musicae elementis.</p>
       <p xml:id="BOEMUS10004">IIII. De speciebus inaequalitatis.</p>
       <p xml:id="BOEMUS10005">V. Quae inaequalitatis species consonantiis deputentur.</p>
-      <p xml:id="BOEMUS10006">VI. Cur multiplicitas et superparticularitas consonantiis deputentur.</p>
+      <p xml:id="BOEMUS10006">VI. Cur multiplicitas et superparticularitas consonantiis
+        deputentur.</p>
       <p xml:id="BOEMUS10007">VII. Quae proportiones quibus consonantiis musicis aptentur.</p>
       <p xml:id="BOEMUS10008">VIII. Quid sit sonus, quid intervallum, quid consonantia.</p>
-      <p xml:id="BOEMUS10009">VIIII. Non omne iudicium dandum esse sensibus, sed amplius rationi esse
-        credendum; in quo de sensuum fallacia.</p>
-      <p xml:id="BOEMUS10010">X. Quemadmodum Pythagoras proportiones consonantiarum investigaverit.</p>
-      <p xml:id="BOEMUS10011">XI. Quibus modis variae a Pythagora proportiones consonantiarum perpensae
-        sint.</p>
+      <p xml:id="BOEMUS10009">VIIII. Non omne iudicium dandum esse sensibus, sed amplius rationi
+        esse credendum; in quo de sensuum fallacia.</p>
+      <p xml:id="BOEMUS10010">X. Quemadmodum Pythagoras proportiones consonantiarum
+        investigaverit.</p>
+      <p xml:id="BOEMUS10011">XI. Quibus modis variae a Pythagora proportiones consonantiarum
+        perpensae sint.</p>
       <p xml:id="BOEMUS10012">XII. De divisione vocum earumque explanatione.</p>
       <p xml:id="BOEMUS10013">XIII. Quod infinitatem vocum humana natura finiverit.</p>
       <p xml:id="BOEMUS10014">XIIII. Quis modus sit audiendi.</p>
@@ -511,8 +523,8 @@
       <p xml:id="BOEMUS10032">XXXII. Quae consonantia quam merito praecedat.</p>
       <p xml:id="BOEMUS10033">XXXIII. Quo sint modo accipienda, quae dicta sunt.</p>
       <p xml:id="BOEMUS10034">XXXIIII. Quid sit musicus.</p>
-      <p xml:id="BOEMUS10035">Proemium. Musicam naturaliter nobis esse coniunctam et mores vel honestare
-        vel evertere.</p>
+      <p xml:id="BOEMUS10035">Proemium. Musicam naturaliter nobis esse coniunctam et mores vel
+        honestare vel evertere.</p>
       <p xml:id="BOEMUS10036">I. Omnium quidem perceptio sensuum ita sponte ac naturaliter quibusdam
         viventibus adest, ut sine his animal <pb n="[179]"/>non possit intellegi. Sed non aeque
         eorundem cognitio ac firma perceptio animi investigatione colligitur. Inlaboratum est enim
@@ -564,7 +576,8 @@
         custodiam rei publicae Plato arbitratur musicam optime moratam pudenterque coniunctam, ita
         ut sit modesta ac simplex et mascula nec effeminata nec fera nec varia. Quod Lacedaemonii
         maxima ope servavere, dum apud eos Thaletas Cretensis Gortynius magno pretio adcitus pueros
-        disciplina musicae artis imbueret. Fuit enim id antiquis in more diuque <pb n="[182]"/>permansit. Quoniam vero eis Timotheus Milesius super eas, quas ante reppererat, unum
+        disciplina musicae artis imbueret. Fuit enim id antiquis in more diuque <pb n="[182]"
+        />permansit. Quoniam vero eis Timotheus Milesius super eas, quas ante reppererat, unum
         addidit nervum ac multipliciorem musicam fecit, exigere de Laconica consultum de eo factum
         est, quod, quoniam insigne est Spartiatarum lingua, .[lunate Sigma]. litteram in .P.
         vertentium, ipsum de eo consultum isdem verbis Graecis apposui:</p>
@@ -579,12 +592,14 @@
         chordan ektamontar tar perittar upolipomenor tar epta opor ekastor to tar polior baror oron
         eulabetai en tan Spartan epipheren ti ton me kalon eonton me pote tararretai kleor
         agonon.</p>
-      <p xml:id="BOEMUS10038">Quod consultum id scilicet continet, idcirco Timotheo <pb n="[184]"/>Milesio Spartiatas succensuisse, quod multiplicem musicam reddens puerorum animis, quos
+      <p xml:id="BOEMUS10038">Quod consultum id scilicet continet, idcirco Timotheo <pb n="[184]"
+        />Milesio Spartiatas succensuisse, quod multiplicem musicam reddens puerorum animis, quos
         acceperat erudiendos, officeret et a virtutis modestia praepediret, et quod armoniam, quam
         modestam susceperat, in genus chromaticum, quod mollius est, invertisset. Tanta igitur apud
         eos fuit musicae diligentia, ut eam animos quoque obtinere arbitrarentur. Vulgatum quippe
         est, quam saepe iracundias cantilena represserit, quam multa vel in corporum vel in animorum
-        affectionibus miranda perfecerit. Cui enim est illud ignotum, quod Pythagoras ebrium <pb n="[185]"/>adulescentem Tauromenitanum subphrygii modi sono incitatum spondeo succinente
+        affectionibus miranda perfecerit. Cui enim est illud ignotum, quod Pythagoras ebrium <pb
+          n="[185]"/>adulescentem Tauromenitanum subphrygii modi sono incitatum spondeo succinente
         reddiderit mitiorem et sui compotem? Nam cum scortum in rivalis domo esset clausum atque
         ille furens domum vellet amburere, cumque Pythagoras stellarum cursus, ut ei mos, nocturnus
         inspiceret, ubi intellexit, sono phrygii modi incitatum multis amicorum monitionibus a
@@ -618,8 +633,8 @@
         est Papinius Statius hoc versu:</p>
       <p xml:id="BOEMUS10039">"Cornu grave mugit adunco</p>
       <p xml:id="BOEMUS10040">Tibia, cui teneros suetum producere manes."</p>
-      <p xml:id="BOEMUS10041">Et qui suaviter canere non potest, sibi tamen aliquid canit, non quod eum
-        aliqua voluptate id quod canit afficiat, sed quod quandam insitam dulcedinem ex animo
+      <p xml:id="BOEMUS10041">Et qui suaviter canere non potest, sibi tamen aliquid canit, non quod
+        eum aliqua voluptate id quod canit afficiat, sed quod quandam insitam dulcedinem ex animo
         proferentes, quoquo modo proferant, delectantur. Nonne illud etiam manifestum est, in bellum
         pugnantium animos tubarum carmine accendi? Quod si verisimile est, ab animi pacato statu
         quemquam ad furorem atque iracundiam <pb n="[187]"/>posse proferri, non est dubium quod
@@ -634,9 +649,9 @@
         investigaverint, sic non sufficit cantilenis musicis delectari, nisi etiam quali inter
         seconiunctae sint vocum proportione discatur.</p>
       <p xml:id="BOEMUS10042">Tres esse musicas; in quo de vi musicae.</p>
-      <p xml:id="BOEMUS10043">II. Principio igitur de musica disserenti illud interim dicendum videtur,
-        quot musicae genera ab eius studiosis conprehensa esse noverimus. Sunt autem tria. Et prima
-        quidem mundana est, secunda vero humana, tertia, quae in quibusdam constituta est
+      <p xml:id="BOEMUS10043">II. Principio igitur de musica disserenti illud interim dicendum
+        videtur, quot musicae genera ab eius studiosis conprehensa esse noverimus. Sunt autem tria.
+        Et prima quidem mundana est, secunda vero humana, tertia, quae in quibusdam constituta est
         instrumentis, ut in cithara vel tibiis ceterisque, quae cantilenae famulantur. Et primum ea,
         quae est mundana, in his maxime perspicienda est, quae in ipso caelo vel compage elementorum
         vel temporum varietate visuntur. Qui enim fieri potest, ut tam velox caeli machina tacito
@@ -719,7 +734,8 @@
         aliquantas insuper partes. Et si duas quidem supra continet, vocabitur proportio
         superbipartiens, ut sunt quinque ad tres, sin vero tres super continet, vocabitur
         supertripartiens, ut sunt septem ad quattuor, et in ceteris quidem eadem esse similitudo
-        potest. Quartum vero est inaequalitatis genus, quod ex multiplici et superparticulari <pb n="[192]"/>coniungitur, cum scilicet maior numerus habet in se minorem numerum vel bis vel
+        potest. Quartum vero est inaequalitatis genus, quod ex multiplici et superparticulari <pb
+          n="[192]"/>coniungitur, cum scilicet maior numerus habet in se minorem numerum vel bis vel
         ter vel quotienslibet atque eius unam aliquam partem, et si eum bis habet et eius dimidiam
         partem, vocabitur duplex supersesqualter, ut sunt quinque ad duo; sin vero bis minor
         continebitur et eius tertia pars, vocabitur duplex supersesquitertius, ut sunt septem ad
@@ -765,8 +781,8 @@
         musicis consonantiis adhibetur. Ptolemaeus tamen etiam hanc proportionem inter consonantias
         ponit, ut posterius ostendam.</p>
       <p xml:id="BOEMUS10052">Quae proportiones quibus consonantiis musicis aptentur.</p>
-      <p xml:id="BOEMUS10053">VII. Illud tamen esse cognitum debet, quod omnis musicae consonantiae aut
-        in duplici aut in triplici aut in quadrupla aut in sesqualtera aut in sesquitertia
+      <p xml:id="BOEMUS10053">VII. Illud tamen esse cognitum debet, quod omnis musicae consonantiae
+        aut in duplici aut in triplici aut in quadrupla aut in sesqualtera aut in sesquitertia
         proportione consistant; et vocabitur quidem, quae in numeris sesquitertia, diatessaron in
         sonis, quae in numeris sesqualtera, diapente appellatur in vocibus, quae vero in
         proportionibus dupla est, diapason in consonantiis, tripla vero diapente ac diapason,
@@ -782,8 +798,8 @@
         aurem veniens aspera atque iniucunda percussio. Nam dum sibimet misceri nolunt et quodammodo
         integer uterque nititur pervenire, cumque alter alteri officit, ad sensum insuaviter uterque
         transmittitur.</p>
-      <p xml:id="BOEMUS10056">Non omne iudicium dandum esse sensibus sed amplius rationi esse credendum;
-        in quo de sensuum fallacia.</p>
+      <p xml:id="BOEMUS10056">Non omne iudicium dandum esse sensibus sed amplius rationi esse
+        credendum; in quo de sensuum fallacia.</p>
       <p xml:id="BOEMUS10057">VIIII. Sed de his ita proponimus, ut non omne iudicium sensibus demus,
         quamquam a sensu aurium huiusce artis sumatur omne principium. Nam si nullus esset auditus,
         nulla omnino disputatio de vocibus extitisset. Sed principium quodam modo et quasi
@@ -803,55 +819,56 @@
         minimae sint, difficilius captat auditus, si sint maximae, ipsius sonitus intentione
         surdescit.</p>
       <p xml:id="BOEMUS10058">Quemadmodum Pythagoras proportiones consonantiarum investigaverit.</p>
-      <p xml:id="BOEMUS10059">X. Haec igitur maxime causa fuit, cur relicto aurium iudicio Pythagoras ad
-        regularum momenta migraverit, qui nullis humanis auribus credens, quae partim natura, partim
-        etiam extrinsecus accidentibus permutantur, partim ipsis variantur aetatibus, nullis etiam
-        deditus instrumentis, penes quae saepe multa varietas atque inconstantia nasceretur, dum
-        nunc quidem si nervos velis aspicere vel aer umidior pulsus obtunderet vel siccior excitaret
-        vel magnitudo chordae graviorem redderet sonum vel acumen subtilior tenuaret vel alio quodam
-        modo statum prioris constantiae permutaret, et cum idem esset in ceteris instrumentis, omnia
-        haec inconsulta <pb n="[197]"/>minimaeque aestimans fidei diuque aestuans inquirebat, quanam
-        ratione firmiter et constanter consonantiarum momenta perdisceret. Cum interea divino quodam
-        nutu praeteriens fabrorum officinas pulsos malleos exaudit ex diversis sonis unam quodam
-        modo concinentiam personare. Ita igitur ad id, quod diu inquirebat, adtonitus accessit ad
-        opus diuque considerans arbitratus est diversitatem sonorum ferientium vires efficere, atque
-        ut id apertius conliqueret, mutare inter se malleos imperavit. Sed sonorum proprietas non in
-        hominum lacertis haerebat, sed mutatos malleos comitabatur. Ubi id igitur animadvertit,
-        malleorum pondus examinat, et cum quinque essent forte mallei, dupli reperti sunt pondere,
-        qui sibi secundum diapason consonantiam respondebant. Eundem etiam, qui duplus esset alio,
-        sesquitertium alterius conprehendit, ad quem scilicet diatessaron sonabat. Ad alium vero
-        quendam, qui eidem diapente consonantia iungebatur, eundem superioris duplum repperit esse
-        sesqualterum. Duo vero hi, ad quos superior duplex sesquitertius et sesqualter esse probatus
-        est, ad se invicem sesquioctavam proportionem perpensi sunt custodire. Quintus vero est
-        reiectus, qui cunctis erat inconsonans. Cum igitur ante Pythagoram consonantiae musicae
-        partim diapason partim diapente partim diatessaron, quae est consonantia minima, vocarentur,
-        primus Pythagoras hoc modo repperit, qua proportione sibimet haec sonorum concordia
-        iungeretur. Et ut sit clarius quod dictum est, sint verbi gratia malleorum quattuor pondera,
-        quae subter scriptis numeris contineantur: XII. VIIII. VIII. VI. Hi igitur mallei, qui .XII.
-          <pb n="[198]"/>et .VI. ponderibus vergebant, diapason in duplo concinentiam personabant.
-        Malleus vero .XII. ponderum ad malleum .VIIII. et malleus .VIII. ponderum ad malleum .VI.
-        ponderum secundum epitritam proportionem diatessaron consonantia iungebatur. .VIIII. vero
-        ponderum ad .VI. et .XII. ad .VIII. diapente consonantiam permiscebant. .VIIII. vero ad
-        .VIII. in sesquioctava proportione resonabant tonum.</p>
+      <p xml:id="BOEMUS10059">X. Haec igitur maxime causa fuit, cur relicto aurium iudicio
+        Pythagoras ad regularum momenta migraverit, qui nullis humanis auribus credens, quae partim
+        natura, partim etiam extrinsecus accidentibus permutantur, partim ipsis variantur aetatibus,
+        nullis etiam deditus instrumentis, penes quae saepe multa varietas atque inconstantia
+        nasceretur, dum nunc quidem si nervos velis aspicere vel aer umidior pulsus obtunderet vel
+        siccior excitaret vel magnitudo chordae graviorem redderet sonum vel acumen subtilior
+        tenuaret vel alio quodam modo statum prioris constantiae permutaret, et cum idem esset in
+        ceteris instrumentis, omnia haec inconsulta <pb n="[197]"/>minimaeque aestimans fidei diuque
+        aestuans inquirebat, quanam ratione firmiter et constanter consonantiarum momenta
+        perdisceret. Cum interea divino quodam nutu praeteriens fabrorum officinas pulsos malleos
+        exaudit ex diversis sonis unam quodam modo concinentiam personare. Ita igitur ad id, quod
+        diu inquirebat, adtonitus accessit ad opus diuque considerans arbitratus est diversitatem
+        sonorum ferientium vires efficere, atque ut id apertius conliqueret, mutare inter se malleos
+        imperavit. Sed sonorum proprietas non in hominum lacertis haerebat, sed mutatos malleos
+        comitabatur. Ubi id igitur animadvertit, malleorum pondus examinat, et cum quinque essent
+        forte mallei, dupli reperti sunt pondere, qui sibi secundum diapason consonantiam
+        respondebant. Eundem etiam, qui duplus esset alio, sesquitertium alterius conprehendit, ad
+        quem scilicet diatessaron sonabat. Ad alium vero quendam, qui eidem diapente consonantia
+        iungebatur, eundem superioris duplum repperit esse sesqualterum. Duo vero hi, ad quos
+        superior duplex sesquitertius et sesqualter esse probatus est, ad se invicem sesquioctavam
+        proportionem perpensi sunt custodire. Quintus vero est reiectus, qui cunctis erat
+        inconsonans. Cum igitur ante Pythagoram consonantiae musicae partim diapason partim diapente
+        partim diatessaron, quae est consonantia minima, vocarentur, primus Pythagoras hoc modo
+        repperit, qua proportione sibimet haec sonorum concordia iungeretur. Et ut sit clarius quod
+        dictum est, sint verbi gratia malleorum quattuor pondera, quae subter scriptis numeris
+        contineantur: XII. VIIII. VIII. VI. Hi igitur mallei, qui .XII. <pb n="[198]"/>et .VI.
+        ponderibus vergebant, diapason in duplo concinentiam personabant. Malleus vero .XII.
+        ponderum ad malleum .VIIII. et malleus .VIII. ponderum ad malleum .VI. ponderum secundum
+        epitritam proportionem diatessaron consonantia iungebatur. .VIIII. vero ponderum ad .VI. et
+        .XII. ad .VIII. diapente consonantiam permiscebant. .VIIII. vero ad .VIII. in sesquioctava
+        proportione resonabant tonum.</p>
       <p xml:id="BOEMUS10060">Quibus modis variae a pythagora proportiones consonantiarum perpensae
         sint.</p>
-      <p xml:id="BOEMUS10061">XI. Hinc igitur domum reversus varia examinatione examinatio perpendit, an
-        in his proportionibus ratio symphoniarum tota consisteret. Nunc quidem aequa pondera nervis
-        aptans eorumque consonantias aure diiudicans, nunc vero in longitudine calamorum
-        duplicitatem medietatemque restituens ceterasque proportiones aptans integerrimam fidem
-        diversa experientia capiebat. Saepe etiam pro mensurarum modo cyathos aequorum ponderum
-        acetabulis inmittens; saepe ipsa quoque acetabula diversis formata ponderibus virga vel
-        aerea ferreave percutiens nihil sese diversum invenisse laetatus est. Hinc etiam ductus
+      <p xml:id="BOEMUS10061">XI. Hinc igitur domum reversus varia examinatione examinatio
+        perpendit, an in his proportionibus ratio symphoniarum tota consisteret. Nunc quidem aequa
+        pondera nervis aptans eorumque consonantias aure diiudicans, nunc vero in longitudine
+        calamorum duplicitatem medietatemque restituens ceterasque proportiones aptans integerrimam
+        fidem diversa experientia capiebat. Saepe etiam pro mensurarum modo cyathos aequorum
+        ponderum acetabulis inmittens; saepe ipsa quoque acetabula diversis formata ponderibus virga
+        vel aerea ferreave percutiens nihil sese diversum invenisse laetatus est. Hinc etiam ductus
         longitudinem crassitudinemque chordarum ut examinaret adgressus est. Itaque invenit regulam,
         de qua posterius loquemur, quae ex re vocabulum sumpsit, non quod regula sit lignea, per
         quam magnitudines chordarum sonumque metimur, sed quod regula quaedam sit huiusmodi
         inspectio fixa firmaque, ut nullum inquirentem dubio fallat indicio.</p>
       <p xml:id="BOEMUS10062">
         <pb n="[199]"/>De divisione vocum earumque explanatione.</p>
-      <p xml:id="BOEMUS10063">XII. Sed de his hactenus. Nunc vocum differentias colligamus. Omnis vox
-        aut suneches est, quae continua, aut diastematike, quae dicitur cum intervallo suspensa. Et
-        continua quidem est, qua loquentes vel prosam orationem legentes verba percurrimus. Festinat
-        enim tunc vox non haerere in acutis et gravibus sonis, sed quam velocissime verba
+      <p xml:id="BOEMUS10063">XII. Sed de his hactenus. Nunc vocum differentias colligamus. Omnis
+        vox aut suneches est, quae continua, aut diastematike, quae dicitur cum intervallo suspensa.
+        Et continua quidem est, qua loquentes vel prosam orationem legentes verba percurrimus.
+        Festinat enim tunc vox non haerere in acutis et gravibus sonis, sed quam velocissime verba
         percurrere, expediendisque sensibus exprimendisque sermonibus continuae vocis impetus
         operatur. Diastematike autem est ea, quam canendo suspendimus, in qua non potius sermonibus
         sed modulis inservimus, estque vox ipsa tardior et per modulandas varietates quoddam faciens
@@ -860,25 +877,25 @@
         poema legimus neque continuo cursu, ut prosam, neque suspenso segniorique modo vocis, ut
         canticum.</p>
       <p xml:id="BOEMUS10064">Quod infinitatem vocum humana natura finiverit.</p>
-      <p xml:id="BOEMUS10065">XIII. Sed quae continua vox est et ea rursus, qua decurrimus cantilenam,
-        naturaliter quidem infinitae sunt. Consideratione enim accepta nullus modus vel evolvendis
-        sermonibus fit vel acuminibus adtollendis gravitatibusque laxandis, sed utrisque natura
-        humana fecit proprium finem. Continuae enim voci terminum humanus spiritus facit, ultra quem
-        nulla ratione valet excedere. Tantum enim unusquisque loquitur continue, quantum naturalis
-          <pb n="[200]"/>spiritus sinat. Rursus diastematike voci natura hominum terminum facit,
-        quae acutam eorum vocem gravemque determinat. Tantum enim unusquisque vel acumen valet
-        extollere, vel deprimere gravitatem, quantum vocis eius naturalis patitur modus.</p>
+      <p xml:id="BOEMUS10065">XIII. Sed quae continua vox est et ea rursus, qua decurrimus
+        cantilenam, naturaliter quidem infinitae sunt. Consideratione enim accepta nullus modus vel
+        evolvendis sermonibus fit vel acuminibus adtollendis gravitatibusque laxandis, sed utrisque
+        natura humana fecit proprium finem. Continuae enim voci terminum humanus spiritus facit,
+        ultra quem nulla ratione valet excedere. Tantum enim unusquisque loquitur continue, quantum
+        naturalis <pb n="[200]"/>spiritus sinat. Rursus diastematike voci natura hominum terminum
+        facit, quae acutam eorum vocem gravemque determinat. Tantum enim unusquisque vel acumen
+        valet extollere, vel deprimere gravitatem, quantum vocis eius naturalis patitur modus.</p>
       <p xml:id="BOEMUS10066">Quis modus sit audiendi.</p>
-      <p xml:id="BOEMUS10067">XIIII. Nunc quis modus audiendi sit, disseramus. Tale enim quiddam fieri
-        consuevit in vocibus, quale cum [in] paludibus vel quietis aquis iactum eminus mergitur
-        saxum. Prius enim in parvissimum orbem undam colligit, deinde maioribus orbibus undarum
-        globos spargit, atque eo usque dum defatigatus motus ab eliciendis fluctibus conquiescat.
-        Semperque posterior et maior undula pulsu debiliore diffunditur. Quod si quid sit, quod
-        crescentes undas possit offendere, statim motus ille revertitur et quasi ad centrum, unde
-        profectus fuerat, eisdem undulis rotundatur. Ita igitur cum aer pulsus fecerit sonum, pellit
-        alium proximum et quodammodo rotundum fluctum aeris ciet, itaque diffunditur et omnium
-        circum stantium simul ferit auditum. Atque illi est obscurior vox, qui longius steterit,
-        quoniam ad eum debilior pulsi aeris unda pervenit.</p>
+      <p xml:id="BOEMUS10067">XIIII. Nunc quis modus audiendi sit, disseramus. Tale enim quiddam
+        fieri consuevit in vocibus, quale cum [in] paludibus vel quietis aquis iactum eminus
+        mergitur saxum. Prius enim in parvissimum orbem undam colligit, deinde maioribus orbibus
+        undarum globos spargit, atque eo usque dum defatigatus motus ab eliciendis fluctibus
+        conquiescat. Semperque posterior et maior undula pulsu debiliore diffunditur. Quod si quid
+        sit, quod crescentes undas possit offendere, statim motus ille revertitur et quasi ad
+        centrum, unde profectus fuerat, eisdem undulis rotundatur. Ita igitur cum aer pulsus fecerit
+        sonum, pellit alium proximum et quodammodo rotundum fluctum aeris ciet, itaque diffunditur
+        et omnium circum stantium simul ferit auditum. Atque illi est obscurior vox, qui longius
+        steterit, quoniam ad eum debilior pulsi aeris unda pervenit.</p>
       <p xml:id="BOEMUS10068">De ordine theorematum, id est speculationum.</p>
       <p xml:id="BOEMUS10069">XV. His igitur ita propositis dicendum videtur, quot generibus omnis
         cantilena texatur, de quibus armonicae inventionis disciplina considerat. Sunt autem haec:
@@ -914,12 +931,12 @@
         sint media, sed quod semum dici solet, quod ad integritatem usque non pervenit. Sed inter
         haec unum maius semitonium nuncupatur, aliud minus.</p>
       <p xml:id="BOEMUS10072">In quibus primis numeris semitonium constet.</p>
-      <p xml:id="BOEMUS10073">XVII. Quod vero sit integrum semitonium aut quibus primis numeris constet,
-        nunc evidentius explicabo. Id enim, quod de divisione toni dictum est, non ad hoc pertinet,
-        ut semitoniorum modos voluerimus ostendere, sed ad id potius, quod tonum in gemina aequa
-        diceremus non posse disiungi. Diatessaron quae est consonantia vocum quidem est quattuor,
-        intervallorum trium; constat autem ex duobus tonis et non integro semitonio. Sit enim
-        subiecta descriptio: CXCII. CCXVI. CCXLIII. CCLVI. Si igitur .CXCII. numerus .CCLVI.
+      <p xml:id="BOEMUS10073">XVII. Quod vero sit integrum semitonium aut quibus primis numeris
+        constet, nunc evidentius explicabo. Id enim, quod de divisione toni dictum est, non ad hoc
+        pertinet, ut semitoniorum modos voluerimus ostendere, sed ad id potius, quod tonum in gemina
+        aequa diceremus non posse disiungi. Diatessaron quae est consonantia vocum quidem est
+        quattuor, intervallorum trium; constat autem ex duobus tonis et non integro semitonio. Sit
+        enim subiecta descriptio: CXCII. CCXVI. CCXLIII. CCLVI. Si igitur .CXCII. numerus .CCLVI.
         comparetur, sesquitertia proportio fiet ac diatessaron concinentiam resonabit. Sed si
         .CCXVI. ad .CXCII. comparemus, sesquioctava proportio est. Est enim eorum differentia
         .XXIIII. quae est octava pars de centum .XC. duobus. Est igitur tonus. Rursus .CCXLIII. si
@@ -931,19 +948,20 @@
         medietatem ducentorum .XL. trium numerorum potuisset aequare; estque verum semitonium minus
         ducentorum quadraginta trium ad .CCLVI. comparatio.</p>
       <p xml:id="BOEMUS10074">Diatessaron a diapente tono distare.</p>
-      <p xml:id="BOEMUS10075">XVIII. Rursus diapente consonantia vocum quidem est quinque, intervallorum
-        quattuor, trium tonorum et minore semitonio. Ponatur enim idem numerus .CXCII. et eius
-        sesqualter sumatur, qui ad eum diapente faciat consonantiam. Sit igitur numerus .CCLXXXVIII.
-        Igitur horum et superius deprehensorum .CXCII. ponantur in medio numeri hi: CCXVI. CCXLIII.
-        CCLVI. et sit hoc modo formata descriptio: CXCII. CCXVI. CCXLIII. CCLVI. CCLXXXVIII. In
-        superiori igitur descriptione .CXCII. et .CCLVI. duos tonos et semitonium continere
-        monstrati sunt. Restat igitur comparatio ducentorum ad .CCLXXXVIII. quae est sesquioctava,
-        id est tonus, eorumque differentia est .XXXII. quae est octava pars ducentorum quinquaginta
-        atque sex. Itaque monstrata est diapente consonantia ex tribus tonis semitonioque
-        consistere. Sed dudum diatessaron consonantia a centum .XC. duobus numeris usque ad .CCLVI.
-        venerat. Nunc vero diapente ab eisdem .CXC. duobus numeris usque ad .CCLXXXVIII.
-        distenditur. Superatur igitur diatessaron consonantia a diapente ea <pb n="[205]"/>proportione, quae inter .CCLVI. et .CCLXXXVIII. numeros continetur, ac est hic tonus.
-        Diatessaron igitur symphonia a diapente tono transcenditur.</p>
+      <p xml:id="BOEMUS10075">XVIII. Rursus diapente consonantia vocum quidem est quinque,
+        intervallorum quattuor, trium tonorum et minore semitonio. Ponatur enim idem numerus .CXCII.
+        et eius sesqualter sumatur, qui ad eum diapente faciat consonantiam. Sit igitur numerus
+        .CCLXXXVIII. Igitur horum et superius deprehensorum .CXCII. ponantur in medio numeri hi:
+        CCXVI. CCXLIII. CCLVI. et sit hoc modo formata descriptio: CXCII. CCXVI. CCXLIII. CCLVI.
+        CCLXXXVIII. In superiori igitur descriptione .CXCII. et .CCLVI. duos tonos et semitonium
+        continere monstrati sunt. Restat igitur comparatio ducentorum ad .CCLXXXVIII. quae est
+        sesquioctava, id est tonus, eorumque differentia est .XXXII. quae est octava pars ducentorum
+        quinquaginta atque sex. Itaque monstrata est diapente consonantia ex tribus tonis
+        semitonioque consistere. Sed dudum diatessaron consonantia a centum .XC. duobus numeris
+        usque ad .CCLVI. venerat. Nunc vero diapente ab eisdem .CXC. duobus numeris usque ad
+        .CCLXXXVIII. distenditur. Superatur igitur diatessaron consonantia a diapente ea <pb
+          n="[205]"/>proportione, quae inter .CCLVI. et .CCLXXXVIII. numeros continetur, ac est hic
+        tonus. Diatessaron igitur symphonia a diapente tono transcenditur.</p>
       <p xml:id="BOEMUS10076">Diapason quinque tonis et duobus semitoniis iungi.</p>
       <p xml:id="BOEMUS10077">XVIIII. Diapason consonantia constat ex quinque tonis et duobus
         semitoniis, quae tamen unum non inpleant tonum. Quoniam enim monstratum est, diapason ex
@@ -960,35 +978,35 @@
         additae disseramus, quaeque eorum causa sit nominum. His enim primitus ad notitiam
         venientibus facile erit scientia quae sequuntur amplecti.</p>
       <p xml:id="BOEMUS10078">De additionibus chordarum earumque nominibus.</p>
-      <p xml:id="BOEMUS10079">XX. Simplicem principio fuisse musicam Nicomachus <pb n="[206]"/>refert
-        adeo, ut quattuor nervis constaret, idque usque ad Orpheum duravit, ut primus quidem nervus
-        et quartus diapason consonantiam resonarent, medii vero ad se invicem atque ad extremos
-        diapente ac diatessaron, nihil vero in eis esset inconsonum, ad imitationem scilicet musicae
-        mundanae, quae ex quattuor constat elementis. Cuius quadrichordi Mercurius dicitur inventor.
-        Quintam vero chordam post Coroebus Atyis filius adiunxit, qui fuit Lydorum rex. Hyagnis vero
-        Phryx sextum his apposuit nervum. Sed septimus nervus a Terpandro Lesbio adiunctus est
-        secundum septem scilicet planetarum similitudinem. Inque his quae gravissima quidem erat,
-        vocata est hypate quasi maior atque honorabilior, unde Iovem etiam hypaton vocant. Consulem
-        quoque eodem nuncupant nomine propter excellentiam dignitatis. Eaque Saturno est adtributa
-        propter tarditatem motus et gravitatem soni. Parhypate vero secunda quasi iuxta hypaten
-        posita et collocata. Lichanos tertia idcirco, quoniam lichanos digitus dicitur, quem nos
-        indicem vocamus. Graecus a lingendo lichanon appellat. Et quoniam in canendo ad eam chordam,
-        quae erat tertia ab hypate index digitus, qui est lichanos, inveniebatur, idcirco ipsa
-        quoque lichanos appellata est. Quarta dicitur mese, quoniam inter VII semper est media.
-        Quinta est paramese, quasi iuxta mediam conlocata. Septima autem dicitur nete, quasi neate
-        id est inferior, inter quam neten et paramesen sexta quae est, vocatur paranete, quasi iuxta
-        neten locata. Paramese vero, quoniam tertia est a nete, eodem quoque vocabulo trite
-        nuncupatur, ut sit descriptio haec:</p>
+      <p xml:id="BOEMUS10079">XX. Simplicem principio fuisse musicam Nicomachus <pb n="[206]"
+        />refert adeo, ut quattuor nervis constaret, idque usque ad Orpheum duravit, ut primus
+        quidem nervus et quartus diapason consonantiam resonarent, medii vero ad se invicem atque ad
+        extremos diapente ac diatessaron, nihil vero in eis esset inconsonum, ad imitationem
+        scilicet musicae mundanae, quae ex quattuor constat elementis. Cuius quadrichordi Mercurius
+        dicitur inventor. Quintam vero chordam post Coroebus Atyis filius adiunxit, qui fuit Lydorum
+        rex. Hyagnis vero Phryx sextum his apposuit nervum. Sed septimus nervus a Terpandro Lesbio
+        adiunctus est secundum septem scilicet planetarum similitudinem. Inque his quae gravissima
+        quidem erat, vocata est hypate quasi maior atque honorabilior, unde Iovem etiam hypaton
+        vocant. Consulem quoque eodem nuncupant nomine propter excellentiam dignitatis. Eaque
+        Saturno est adtributa propter tarditatem motus et gravitatem soni. Parhypate vero secunda
+        quasi iuxta hypaten posita et collocata. Lichanos tertia idcirco, quoniam lichanos digitus
+        dicitur, quem nos indicem vocamus. Graecus a lingendo lichanon appellat. Et quoniam in
+        canendo ad eam chordam, quae erat tertia ab hypate index digitus, qui est lichanos,
+        inveniebatur, idcirco ipsa quoque lichanos appellata est. Quarta dicitur mese, quoniam inter
+        VII semper est media. Quinta est paramese, quasi iuxta mediam conlocata. Septima autem
+        dicitur nete, quasi neate id est inferior, inter quam neten et paramesen sexta quae est,
+        vocatur paranete, quasi iuxta neten locata. Paramese vero, quoniam tertia est a nete, eodem
+        quoque vocabulo trite nuncupatur, ut sit descriptio haec:</p>
       <p xml:id="BOEMUS10080">
         <pb n="[207]"/>[Friedlein, 207,1; text: Hypate, Parhypate, Lichanos, Mese, Paramese vel
         trite, Paranete, Nete] <figure>
           <graphic url="/images/BOEMUS1_01GF.gif"/>
         </figure></p>
-      <p xml:id="BOEMUS10081">His octavam Samius Lycaon adiunxit atque inter paramesen, quae etiam trite
-        dicitur, et paraneten nervum medium coaptavit, ut ipse tertius esset a nete, et paramese
-        quidem vocata est sola, quae post mediam collocabatur. Trites vero nomen perdidit postea
-        quam inter eam atque paraneten tertius a nete locatus est nervus, qui digne trites nomen
-        exciperet, ut sit octachordum secundum Lycaonis additionem hoc:</p>
+      <p xml:id="BOEMUS10081">His octavam Samius Lycaon adiunxit atque inter paramesen, quae etiam
+        trite dicitur, et paraneten nervum medium coaptavit, ut ipse tertius esset a nete, et
+        paramese quidem vocata est sola, quae post mediam collocabatur. Trites vero nomen perdidit
+        postea quam inter eam atque paraneten tertius a nete locatus est nervus, qui digne trites
+        nomen exciperet, ut sit octachordum secundum Lycaonis additionem hoc:</p>
       <p xml:id="BOEMUS10082">[Friedlein, 207,2; text: Hypate, Parhypate, Lichanos, Mese, Paramese,
         Trite, Paranete, Nete]</p>
       <p xml:id="BOEMUS10083">In superioribus igitur duabus dispositionibus eptachordi et octachordi
@@ -1007,8 +1025,8 @@
         autem lichanos hypaton dicitur aliis superadditis, in quo ordine atque instructione, quoniam
         ad indicem digitum venit, lichanos appellata est. Sed hoc posterius apparebit, nunc vero
         ordo sese enneachordi sic habet:</p>
-      <p xml:id="BOEMUS10084">[Friedlein, 208; text: Hyperhypate, Hypate, Parhypate, Lichanos, Mese, Par
-        <!-- end text --></p>
+      <p xml:id="BOEMUS10084">[Friedlein, 208; text: Hyperhypate, Hypate, Parhypate, Lichanos, Mese,
+        Par <!-- end text --></p>
     </body>
   </text>
 </TEI>

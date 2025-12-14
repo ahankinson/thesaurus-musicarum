@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Ars ad adiscendum contrapunctum</title>
         <title type="abbrev">PAULARSA</title>
-        <author>Paulus de Florentia</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Paulus de Florentia</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Timothy K. Chenette</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2009</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2009">2009</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Albert Seay, "Paolo da Firenze: A Trecento Theorist," in <emph>L'Ars
             nova italiana del Trecento: Primo convegno internazionale, 23-26 luglio 1959</emph>, ed.
@@ -50,8 +60,8 @@
         quod consonantiae biscantus sunt sex, utpote unisonus, quinta, octava, duodecima,
         [quintadecima] et decimanona. Dissonantiae vero equal[es in numero sunt], videlicet, tertia,
         sexta, decima, tertiadecima, decimaseptima et vigesima.</p>
-      <p xml:id="PAULARSA0003">Item notandum est quod capiendo vo[cem unisonum cum] tenore, vel octavam
-        vel quintamdecimam, pro [ut capi ut vel] fa, vel ut fa in descendendo, ut vero in
+      <p xml:id="PAULARSA0003">Item notandum est quod capiendo vo[cem unisonum cum] tenore, vel
+        octavam vel quintamdecimam, pro [ut capi ut vel] fa, vel ut fa in descendendo, ut vero in
         ascendendo, per ut capitur sol vel re, per mi la vel mi, per fa capitur fa, per sol capitur
         sol vel ut, per la capitur la vel re, sicut infra dicetur. [Ascendendo sci]endum quod
         capiendo supra ipsum tenorem quintam vel duodeciman vel decimamnonam, pro ut capitur sol vel
@@ -67,8 +77,8 @@
         mi capitur ut, pro fa capitur re, pro sol capitur mi,] per la capitur fa, ut hic:</p>
       <p xml:id="PAULARSA0006">
         <pb n="[134]"/>[Exemplum 2]</p>
-      <p xml:id="PAULARSA0007">Adhuc notandum est quod descendendo de octava in quintam per unam vocem
-        parem debet fieri depressio usque ad quartam et consimiliter e converso, ascendendo de
+      <p xml:id="PAULARSA0007">Adhuc notandum est quod descendendo de octava in quintam per unam
+        vocem parem debet fieri depressio usque ad quartam et consimiliter e converso, ascendendo de
         quinta in octavam per unam parem debet fieri ascensus ad quartam, sicut hic manifeste patet
         per exemplum:</p>
       <p xml:id="PAULARSA0008">[Exemplum 3]</p>
@@ -80,14 +90,14 @@
       <p xml:id="PAULARSA0011">Item sciendum est quod eundo de octava in quintam per tertiam sursum
         debet inclinari et deprimi una et e converso, ut hic ostenditur:</p>
       <p xml:id="PAULARSA0012">[Exemplum 5]</p>
-      <p xml:id="PAULARSA0013">Notandum etiam quod eundo de octava in quintam per quartam sursum debet
-        cantor in voce pari consistere et pariformiter per contrarium, ut hic patet:</p>
+      <p xml:id="PAULARSA0013">Notandum etiam quod eundo de octava in quintam per quartam sursum
+        debet cantor in voce pari consistere et pariformiter per contrarium, ut hic patet:</p>
       <p xml:id="PAULARSA0014">[Exemplum 6]</p>
-      <p xml:id="PAULARSA0015">f.65v) Notandum consimiliter quod eundo de octava in quintam per quintam
-        sursum debet sublevari una et similiter oppositum, ut hic patet:</p>
+      <p xml:id="PAULARSA0015">f.65v) Notandum consimiliter quod eundo de octava in quintam per
+        quintam sursum debet sublevari una et similiter oppositum, ut hic patet:</p>
       <p xml:id="PAULARSA0016">[Exemplum 7]</p>
-      <p xml:id="PAULARSA0017">Notandum consimiliter quod eundo de octava in quintam per sextam sursum
-        debet sublevari tertia et e converso, ut hic patet:</p>
+      <p xml:id="PAULARSA0017">Notandum consimiliter quod eundo de octava in quintam per sextam
+        sursum debet sublevari tertia et e converso, ut hic patet:</p>
       <p xml:id="PAULARSA0018">[Exemplum 8]</p>
       <p xml:id="PAULARSA0019">Alterius est notandum quod eundo de octava in quintam per unam sursum
         absque alia consonantia debet primo descendere tertiam et est tunc quinta, postmodum vero
@@ -115,10 +125,10 @@
         descenderet etiam primam et biscantus esset in octava in prima, vero debes descendere per
         unam et est sexta, debes iterum salire aliam et est octava, ut hic inferius clare patet:</p>
       <p xml:id="PAULARSA0024">[Exemplum 11]</p>
-      <p xml:id="PAULARSA0025">Item notandum quod si forent tres notae, quarum secunda elevaret tertiam
-        a prima, et postea tertia vero illarum trium descendat per unnum gradum a secunda, si tunc
-        biscantus est octava, tunc supra primam stat firmiter et est sexta, postea sublevare unam et
-        est octava, ut hic patet:</p>
+      <p xml:id="PAULARSA0025">Item notandum quod si forent tres notae, quarum secunda elevaret
+        tertiam a prima, et postea tertia vero illarum trium descendat per unnum gradum a secunda,
+        si tunc biscantus est octava, tunc supra primam stat firmiter et est sexta, postea sublevare
+        unam et est octava, ut hic patet:</p>
       <p xml:id="PAULARSA0026">[Exemplum 12]</p>
       <p xml:id="PAULARSA0027">(f.67r) Alterius considera quod si forent tres notae, quarum secunda
         elevet quatuor et tertia deprimet unam, biscantus quae sit in octava, supra prima debes
@@ -145,26 +155,26 @@
       <p xml:id="PAULARSA0034">(f.68r) [Exemplum 16] <figure>
           <graphic url="/images/PAULARSA_03GF.gif"/>
         </figure></p>
-      <p xml:id="PAULARSA0035">Alterius intende quod eundo de duodecima in octavam per tertiam sursum,
-        debet inclinari tertia, et similiter e converso, ut hic patet:</p>
+      <p xml:id="PAULARSA0035">Alterius intende quod eundo de duodecima in octavam per tertiam
+        sursum, debet inclinari tertia, et similiter e converso, ut hic patet:</p>
       <p xml:id="PAULARSA0036">[Exemplum 17]</p>
-      <p xml:id="PAULARSA0037">Item sciendum est quod eundo de duodecima in octavam per quartam sursum,
-        debet inclinari una, et e converso, ut hic patet:</p>
+      <p xml:id="PAULARSA0037">Item sciendum est quod eundo de duodecima in octavam per quartam
+        sursum, debet inclinari una, et e converso, ut hic patet:</p>
       <p xml:id="PAULARSA0038">[Exemplum 18]</p>
-      <p xml:id="PAULARSA0039">(f.68v) Notandum est etiam quod eundo de duodecima in octavam per quintam
-        sursum debet stare pariformiter et similiter fit per contrarium, ut hic patet:</p>
+      <p xml:id="PAULARSA0039">(f.68v) Notandum est etiam quod eundo de duodecima in octavam per
+        quintam sursum debet stare pariformiter et similiter fit per contrarium, ut hic patet:</p>
       <p xml:id="PAULARSA0040">[Exemplum 19]</p>
       <p xml:id="PAULARSA0041">Adhuc ulterius possumus notare quod eundo de duodecima in octavam per
         sextam sursum, debet sublevari una, et sic per contrarium:</p>
       <p xml:id="PAULARSA0042">
         <pb n="[137]"/>[Exemplum 20]</p>
-      <p xml:id="PAULARSA0043">Superius dictum est de consonantiis, restat modo dicere de dissonantiis
-        qui veniunt inter ipsas consonantias. Unde est notandum quod qualiter fit decima, taliter
-        fit tertia et decimaseptima, et ideo dicta de una de aliis patenter intelligetur. Audi ergo
-        si forent tres notae salientes sigillatim, scilicet, una post aliam et biscantus sit
-        duodecima, tunc debes inclinare unam et decima est, postea unam aliam et est octava, et si
-        tenor deprimeretur, in eo modo quo biscantus salit debes elevare unam et est decima, et
-        postmodum unam aliam est duodecima, ut hic patet:</p>
+      <p xml:id="PAULARSA0043">Superius dictum est de consonantiis, restat modo dicere de
+        dissonantiis qui veniunt inter ipsas consonantias. Unde est notandum quod qualiter fit
+        decima, taliter fit tertia et decimaseptima, et ideo dicta de una de aliis patenter
+        intelligetur. Audi ergo si forent tres notae salientes sigillatim, scilicet, una post aliam
+        et biscantus sit duodecima, tunc debes inclinare unam et decima est, postea unam aliam et
+        est octava, et si tenor deprimeretur, in eo modo quo biscantus salit debes elevare unam et
+        est decima, et postmodum unam aliam est duodecima, ut hic patet:</p>
       <p xml:id="PAULARSA0044">[Exemplum 21]</p>
       <p xml:id="PAULARSA0045">(f.69r Postremo notandum est quod si essent duae notae pares et una
         postea inclinetur, si discantus est in duodecima, debes inclinare tertiam et est decima,
@@ -172,10 +182,11 @@
         tertiam et est decima, postea vero unam aliam et est duodecima, ut hic clarissime patet in
         sequenti figura:</p>
       <p xml:id="PAULARSA0046">[Exemplum 22]</p>
-      <p xml:id="PAULARSA0047">Inclusive notandum est posita quod sic in qua consonantia velis, si tenor
-        elevat unam, discantus debet deprimere unam et est in illa dissonantia quae magis prope
-        constat a parte inferiori, postea debes elevare unam et est in illa tantum consonantia. Et
-        haec ad praesens de contrapuncto perfecto dicta sufficiant. Deo gratias. Amen.</p>
+      <p xml:id="PAULARSA0047">Inclusive notandum est posita quod sic in qua consonantia velis, si
+        tenor elevat unam, discantus debet deprimere unam et est in illa dissonantia quae magis
+        prope constat a parte inferiori, postea debes elevare unam et est in illa tantum
+        consonantia. Et haec ad praesens de contrapuncto perfecto dicta sufficiant. Deo gratias.
+        Amen.</p>
       <p xml:id="PAULARSA0048">
         <pb n="[138]"/>[Paulus, Ars, 138; text: is Non cot, Exemplum 1, 2, 3, 4, 5, 6, 7, 8, 9,
         Tenor, Pari]</p>

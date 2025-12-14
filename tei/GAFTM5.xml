@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Theorica musice, liber quintus</title>
         <title type="abbrev">GAFTM5</title>
-        <author>Gaffurio, Franchino</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Gaffurio, Franchino</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Michael W. Lundell</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Theorica musice Franchini Gafuri Laudensis</emph> (Milan: Ioannes Petrus de Lomatio,
@@ -44,8 +54,8 @@
       <p xml:id="GAFTM50001">
         <pb n="[f.hir]"/>LIBER QVINTVS. ET VLTIMVS:</p>
       <p xml:id="GAFTM50002">DE inuentione et dispositione sonorum Capitulum Primum</p>
-      <p xml:id="GAFTM50003">[Nichomacus in marg.] REfert Nicomachus canendi disciplinam primitus adeo
-        simplicem fuisse ut solo tetracordo consisteret: cuius prima corda ad ultimam diapason
+      <p xml:id="GAFTM50003">[Nichomacus in marg.] REfert Nicomachus canendi disciplinam primitus
+        adeo simplicem fuisse ut solo tetracordo consisteret: cuius prima corda ad ultimam diapason
         consonantiam respondebat ad secundam uero diatessaron: sed ad tertiam diapenten: atque
         tertia ipsa ad quartam diatessaron: sed secunda ad tertiam ducebat tonum. [Mercurius,
         Graeci, Iubal in marg.] Mercurium enim huius quatricordi Graeci asserunt fuisse inuentorem:
@@ -105,35 +115,37 @@
         <pb n="[f.hiir]"/>[Gafurius, Theorica, f.hiir; text: Hypate, Parhypate, Lycanos, Mese,
         Paramese, Trite, Paranete, Nete, Diapason, Cnnsonatia, Duo tetracorda disiuncta,
         Tetracordum. OGDOCORDVM]</p>
-      <p xml:id="GAFTM50007">Sunt enim in Eptacordo duo tetracorda coniuncta. Sinaphe autem quae latine
-        coniunctio dicitur in ipso euenit eptacordo quotiens duo tetracorda unius medietas termini
-        continuat et coniungit et quidem in disposito superius Eptacordo Mese quae media est duobus
-        ipsis tetracordis comunis est: primi nanque ultima secundi uero prima corda est tetracordi.
-        Hac itaque de causa Eptacordum dicitur cimineinon quasi coniunctum. Ogdocordum uero dicitur
-        mezemeinon quod est disiunctum nanque in Ogdocordo duo sunt tetracorda disiuncta cum primae
-        quattuor cordae primum: reliquae uero quattuor secundum impleant tetracordum. Est igitur in
-        Ogdocordo diezeusis que disiunctio dici potest: quotiens duo tetracorda toni uel semitonii
-        medietate interiectione ue separantur. Verum cum in ogdocordo Mese que a media locatione
-        nomen habuit non sit recte media: imo duae mediae sint: [Theophrastus in marg.] Theophrastus
-        periothes ad grauiorem partem unam coniunxit cordam: quae quoniam super Hypaten est posita
-        Hyparhypate dicta fuit. [Estiachus, Timotheus in marg.] Estachius melophonius decimam in
-        grauiori parte coaptauit cordam: Timotheus uero milesius undecimam posuit: quae cum super
-        hypaten atque parhypaten additae fuerint: Hypatehypaton appellatae sunt quasi maxime
-        magnarum et grauissimae grauium. Harum itaque undecim cordarum prima Hypatehypaton uocata
-        est. secunda Parhypatehypaton quasi iusta Hypatehypaton collocata: Tertia autem quae dudum
-        in Eptacordo Parhypate uocabatur Lycanoshypaton est nuncupata. Quarta antiquum Hypates
-        retinuit nomen. Quinta Parhypate. Sexta lycanos: Septima Mese. Octaua Paramese. Nona Trite.
-        Decima Paranete. Vudecima Nete. Est quidem in hoc Endecacordo unum tetracordum.
-        Hypatehypaton Parhypatehypaton Lycanoshypaton: Hypate. Aliud autem Hypate Parhypate Lycanos
-        Mese: et quidem hec duo coninncta sunt Hypate nanque grauioris ac primi tetracordi acutior
-        corda est: secundi uero acutioris grauior. Tertium autem tetracordum est Paramese Trite
-        Paranete Nete Sed quoniam inter primum hoc tetracordum et tertium collocatur medium scilicet
-        secundum quod est Hypate Parhypate Lycanos Mese: hoc totum tetracordom meson uocatum est:
-        quasi mediarum cum super additione Meson hoc modo. Hypatemeson. Parhypatemeson. Lycanosmeson
-        Mese. Verum cum inter hoc secundum tetracordum et tertium Mese distincta <pb n="[f.hiiv]"/>sit per tonum a Paramese: Ipsum tertium tetracordum dictum est disiunctarum cum
-        superpositione diezeugmenon hoc modo: Paramesediezeugmenon: Tritediezeugmenon:
-        Paranetediezeugmenon Netediezeugmenon: Quorum quidem trium tetracordorum dispositionem huius
-        Endecacordi descriptio apertissime conducit.</p>
+      <p xml:id="GAFTM50007">Sunt enim in Eptacordo duo tetracorda coniuncta. Sinaphe autem quae
+        latine coniunctio dicitur in ipso euenit eptacordo quotiens duo tetracorda unius medietas
+        termini continuat et coniungit et quidem in disposito superius Eptacordo Mese quae media est
+        duobus ipsis tetracordis comunis est: primi nanque ultima secundi uero prima corda est
+        tetracordi. Hac itaque de causa Eptacordum dicitur cimineinon quasi coniunctum. Ogdocordum
+        uero dicitur mezemeinon quod est disiunctum nanque in Ogdocordo duo sunt tetracorda
+        disiuncta cum primae quattuor cordae primum: reliquae uero quattuor secundum impleant
+        tetracordum. Est igitur in Ogdocordo diezeusis que disiunctio dici potest: quotiens duo
+        tetracorda toni uel semitonii medietate interiectione ue separantur. Verum cum in ogdocordo
+        Mese que a media locatione nomen habuit non sit recte media: imo duae mediae sint:
+        [Theophrastus in marg.] Theophrastus periothes ad grauiorem partem unam coniunxit cordam:
+        quae quoniam super Hypaten est posita Hyparhypate dicta fuit. [Estiachus, Timotheus in
+        marg.] Estachius melophonius decimam in grauiori parte coaptauit cordam: Timotheus uero
+        milesius undecimam posuit: quae cum super hypaten atque parhypaten additae fuerint:
+        Hypatehypaton appellatae sunt quasi maxime magnarum et grauissimae grauium. Harum itaque
+        undecim cordarum prima Hypatehypaton uocata est. secunda Parhypatehypaton quasi iusta
+        Hypatehypaton collocata: Tertia autem quae dudum in Eptacordo Parhypate uocabatur
+        Lycanoshypaton est nuncupata. Quarta antiquum Hypates retinuit nomen. Quinta Parhypate.
+        Sexta lycanos: Septima Mese. Octaua Paramese. Nona Trite. Decima Paranete. Vudecima Nete.
+        Est quidem in hoc Endecacordo unum tetracordum. Hypatehypaton Parhypatehypaton
+        Lycanoshypaton: Hypate. Aliud autem Hypate Parhypate Lycanos Mese: et quidem hec duo
+        coninncta sunt Hypate nanque grauioris ac primi tetracordi acutior corda est: secundi uero
+        acutioris grauior. Tertium autem tetracordum est Paramese Trite Paranete Nete Sed quoniam
+        inter primum hoc tetracordum et tertium collocatur medium scilicet secundum quod est Hypate
+        Parhypate Lycanos Mese: hoc totum tetracordom meson uocatum est: quasi mediarum cum super
+        additione Meson hoc modo. Hypatemeson. Parhypatemeson. Lycanosmeson Mese. Verum cum inter
+        hoc secundum tetracordum et tertium Mese distincta <pb n="[f.hiiv]"/>sit per tonum a
+        Paramese: Ipsum tertium tetracordum dictum est disiunctarum cum superpositione diezeugmenon
+        hoc modo: Paramesediezeugmenon: Tritediezeugmenon: Paranetediezeugmenon Netediezeugmenon:
+        Quorum quidem trium tetracordorum dispositionem huius Endecacordi descriptio apertissime
+        conducit.</p>
       <p xml:id="GAFTM50008">[Gafurius, Theorica, f.hiiv; text: Hypatehypaton, Parhypatehypaton,
         Lycanoshypaton, Hypatemeson, Parhypatemeson, Lycanosmeson, Mese, Paramesediezeugmenon,
         Tritediezeugmenon, Paranetediezeugmenon, Netediezeugmenon, Duo tetracorda coniuncta,
@@ -168,20 +180,21 @@
         tetracorda coniuncta. Tetracordum. QVATTVOR TETRACORDA.] <figure>
           <graphic url="/images/GAFTM5_02GF.gif"/>
         </figure></p>
-      <p xml:id="GAFTM50011">Quinque itaque apud Graecos haec fuisse tetracorda constat Hypaton: Meson
-        Sinemenon. Diezeugmenon et Hyperboleon. Horum medium scilicet. Sinemenon non interceptum est
-        in dispositione quindecim cordarum Monocordi: cum superfluum uideretur: quippe quod ut
-        prediximus deductum est ad trittoni duriciem mollificandam nec tamen ad ipsum auferendum
-        extinguendum ue ex ordine monocordi inuentum existimemus cum naturaliter conueniat nonnullis
-        diapentes diapasonque speciebus formandis quae sine trittono ipso nusquam conduci possunt:
-        ad placitum idcirco disponitur adherens meses cordae atque item aufertur ad placitum. Cordas
-        autem horum quinque tetracordorum Albinus latina oratione interpretatus est. [Albinus in
-        marg.] Hypatas enim principales uocauit Meses medias. Sinemenas coniunctas. Diezeugmenas
-        disiunctas. Hyperboleas excellentes. Vnumquodque enim Tetracordum diatessaron resonat
-        consonantiam. dictum a Tetra quod est quattuor et corda: inde Tetracordum quattuor cordarum
-        coniunctio. Item diatessaron a dia quod est de uel secundum quosdam a dia quod est per: et
-        tessara quattuor: quasi consonantia de quattuor sonis facta. Dia enim apud gramaticos per i
-        latinam scriptum idem est quod de prepositio: sed per y graecam significat duo.</p>
+      <p xml:id="GAFTM50011">Quinque itaque apud Graecos haec fuisse tetracorda constat Hypaton:
+        Meson Sinemenon. Diezeugmenon et Hyperboleon. Horum medium scilicet. Sinemenon non
+        interceptum est in dispositione quindecim cordarum Monocordi: cum superfluum uideretur:
+        quippe quod ut prediximus deductum est ad trittoni duriciem mollificandam nec tamen ad ipsum
+        auferendum extinguendum ue ex ordine monocordi inuentum existimemus cum naturaliter
+        conueniat nonnullis diapentes diapasonque speciebus formandis quae sine trittono ipso
+        nusquam conduci possunt: ad placitum idcirco disponitur adherens meses cordae atque item
+        aufertur ad placitum. Cordas autem horum quinque tetracordorum Albinus latina oratione
+        interpretatus est. [Albinus in marg.] Hypatas enim principales uocauit Meses medias.
+        Sinemenas coniunctas. Diezeugmenas disiunctas. Hyperboleas excellentes. Vnumquodque enim
+        Tetracordum diatessaron resonat consonantiam. dictum a Tetra quod est quattuor et corda:
+        inde Tetracordum quattuor cordarum coniunctio. Item diatessaron a dia quod est de uel
+        secundum quosdam a dia quod est per: et tessara quattuor: quasi consonantia de quattuor
+        sonis facta. Dia enim apud gramaticos per i latinam scriptum idem est quod de prepositio:
+        sed per y graecam significat duo.</p>
       <p xml:id="GAFTM50012">DE Tribus Tetracordorum generibus. Capitulum Secundum.</p>
       <p xml:id="GAFTM50013">TRibus melorum generibus Tetracorda a Philosophis distincta sunt. Melus
         enim a mellis suauitate dictus est: Inde Melodia quasi dulcis cantus. Primum enim genus
@@ -241,13 +254,13 @@
         diatessaron, Tertia species diatessaron] <figure>
           <graphic url="/images/GAFTM5_03GF.gif"/>
         </figure></p>
-      <p xml:id="GAFTM50017">Cum igitur sex tantum cordis tres ipsae diatessaron species educerentur:
-        quas in dispositione monocordi sepius replicatas discurrimus: [Guido Aretinus in marg.]
-        Latini musici Guidonem Aretinum Introductorii musicalis quod monocordum siue manum appellant
-        sex tantum sillabis scilicet ut re mi fa sol la septies replicatis institutorem uenerari
-        noscuntur: quibus tres ipsas diatessaron species conduci quotienslibet repplicandas facile
-        percipimus: Itaque cum diattonicum genus tetracorda quamdecenter per diatessaron iungat
-        tribus distinctis interuallis semitonio scilicet ac tono et tono proportionabiliter
+      <p xml:id="GAFTM50017">Cum igitur sex tantum cordis tres ipsae diatessaron species
+        educerentur: quas in dispositione monocordi sepius replicatas discurrimus: [Guido Aretinus
+        in marg.] Latini musici Guidonem Aretinum Introductorii musicalis quod monocordum siue manum
+        appellant sex tantum sillabis scilicet ut re mi fa sol la septies replicatis institutorem
+        uenerari noscuntur: quibus tres ipsas diatessaron species conduci quotienslibet repplicandas
+        facile percipimus: Itaque cum diattonicum genus tetracorda quamdecenter per diatessaron
+        iungat tribus distinctis interuallis semitonio scilicet ac tono et tono proportionabiliter
         conuenienter que conductis a musicis retentum est atque aptiore concentu obseruatum. Omnis
         nanque harmonicus concentus in ipso genere concipitur: quo fit ut in ipso tanquam nobiliori
         et celeberrimo processu presentis facultatis materia disponatur. Aliud uero genus quo
@@ -268,12 +281,12 @@
       <p xml:id="GAFTM50018">[Gafurius, Theorica, f.hivv,1; text: HYPATEHYPATON, PARHYPATEHYPATON,
         LYCANOSHYPATON, HYPATEMESON, semitonium minus, semitonium maius, semidyttonus, Ditessaron
         Consonantia, Tetracordum in genere chromatico.]</p>
-      <p xml:id="GAFTM50019">Verum cum maius semitonium consonantiis ob sui inconuenientem dispositionem
-        non connumeretur: semidittonum que interuallo duarum continguarum cordarum nulla prorsus
-        altera interiecta incomode atque ineptissime permetiri ac modulari temptarent quoniam
-        difficile uno minimo duarum cordarum contiguarum interuallo comprehenditur: imo minusquam in
-        duobus trium scilicet cordarum interuallis haberi non potest. ut quisque propria
-        inuestigatione in consonantiis facile percipit: Hoc ipsum genus Posteri reprobatum
+      <p xml:id="GAFTM50019">Verum cum maius semitonium consonantiis ob sui inconuenientem
+        dispositionem non connumeretur: semidittonum que interuallo duarum continguarum cordarum
+        nulla prorsus altera interiecta incomode atque ineptissime permetiri ac modulari temptarent
+        quoniam difficile uno minimo duarum cordarum contiguarum interuallo comprehenditur: imo
+        minusquam in duobus trium scilicet cordarum interuallis haberi non potest. ut quisque
+        propria inuestigatione in consonantiis facile percipit: Hoc ipsum genus Posteri reprobatum
         abiectumque penitus reliquerunt. Aliud autem Genus dictum est Enarmonicum quasi aptius
         commodiusque quam Chromaticum aptans tetracordum. In hoc enim genere Philosophi minus illud
         semitonium in duas dieses seccabant. Diesis enim semitonii minoris dimidium est ut latius in
@@ -283,9 +296,9 @@
       <p xml:id="GAFTM50020">[Gafurius, Theorica, f.hivv,2; text: HYPATEHYPATON, PARHYPATEHYPATON,
         LYCANOSHYPATON, HYPATEMESON, diesis, dyttonus, Diatessaron Consonantia, Tetracordum in
         genere enarmonico:]</p>
-      <p xml:id="GAFTM50021">Proslambanomenos propriam semper in omni genere seruabat naturam. nam ab
-        Hypatehypaton semper tono distabat: nec ipsis tetracordorum cordis ordine subiuncta est: quo
-        uariata secundum diuersorum generum dispositionem dimensione moueretur. sed abiectis
+      <p xml:id="GAFTM50021">Proslambanomenos propriam semper in omni genere seruabat naturam. nam
+        ab Hypatehypaton semper tono distabat: nec ipsis tetracordorum cordis ordine subiuncta est:
+        quo uariata secundum diuersorum generum dispositionem dimensione moueretur. sed abiectis
         relictisque duobus generibus: in genere dyattonico quod solum retentum atque celeberrime
         frequentatum est. Proslambanomenos ipsa coeteris cordis in consonantiarum formatione
         connumerata est Verum cum dyattonice in consonantiis nichil minus a semitonio minore
@@ -397,7 +410,8 @@
         eius tertiam partem. Nunc posito circinno in hac quarta nuper creata uoce totam octo
         aequissimis passibus cordam diuidentes retorqueamus in grauiorem partem ita ut nonum passum
         sub ipsa quarta uoce conducat at ubi nonus ipse regrediens passus attigerit Parhypatehypaton
-        corda collocetur ab ipsa quarta tono depressa: sesquioctaua duce. Spacium autem <pb n="[f.iir]"/>quod inter secundam et hanc tertiam hoc ordine ductam euenit semitonium minus
+        corda collocetur ab ipsa quarta tono depressa: sesquioctaua duce. Spacium autem <pb
+          n="[f.iir]"/>quod inter secundam et hanc tertiam hoc ordine ductam euenit semitonium minus
         est atque fixum quo fit ut ea ipsa minora semitonia quae ante uel post uel inter duos tonos
         conducuntur et permanent ordine naturali fixa existimantur: ea uero quae diuiso tono fieri
         solent ad tempus et ad tempus reppeli mobilia. Constat quidem omne semitonium maius scilicet
@@ -427,7 +441,8 @@
         grauiorem acuta acutiorem sonum conducere iudicatur. aequalitatis enim proprium est esse
         semper aequale quanquam diuisa locum mutat. nam et si duae partes diuisi continui loco
         distent tamen immutata illarum quantitate semper aequales sunt: quo fit ut extremae diapason
-        uoces aequales sint et similes: quoniam omnis octo sonorum commistio <pb n="[f.iiv]"/>similitudinem copulat extremorum. [Ptholomeus in marg.] Merito igitur Phtolomeus diapason
+        uoces aequales sint et similes: quoniam omnis octo sonorum commistio <pb n="[f.iiv]"
+        />similitudinem copulat extremorum. [Ptholomeus in marg.] Merito igitur Phtolomeus diapason
         aequisonantiam dicit: reliquas ab hac aequalitate distantes nominans consonantias. Sed
         diapente ac diatessaron cordam recto dimidio diuisibilem non deducunt neque duplo numero
         concipiuntur quanquam simul iunctae ad huius aequalitatis unionem conueniunt. Diapason
@@ -629,8 +644,8 @@
         cantari posse probetur: dispositis extensisque omnibus monocordi litteris (ommissis extremis
         graeca scilicet et quae in acutiore sede superposita est) omnes ipsas uocales eo ordine
         subducamus quo unaquaeque littera sonans ipsas quinque uocales appraehendat hoc modo:</p>
-      <p xml:id="GAFTM50033">[Gafurius, Theorica, f.ivv; text: A, B, C, D, E, F, G, a, b, c, d, e, f, g,
-        i, o, u, aa, [sqb][sqb], cc, dd] <figure>
+      <p xml:id="GAFTM50033">[Gafurius, Theorica, f.ivv; text: A, B, C, D, E, F, G, a, b, c, d, e,
+        f, g, i, o, u, aa, [sqb][sqb], cc, dd] <figure>
           <graphic url="/images/GAFTM5_07GF.gif"/>
         </figure></p>
       <p xml:id="GAFTM50034">His igitur ita dispositis uiginti cordis cum duabus scilicet extremis
@@ -642,7 +657,8 @@
         monocordo Philosophorum cordae. hinc acuratiori examine tonum inter primam primi rithmi
         sillabam quae est ut et primam secundi quae est re: atque hanc inter et primam tertii quae
         est mi pariter tonum consistere percepit. Verum ab hac prima tertii primam quarti scilicet
-        fa solo minore semitonio intentam esse. hanc uero a prima quinti quae eam <pb n="[f.ivir]"/>superuadit scilicet sol tono excedi: postremo primam illam sexti rythmi sillabam scilicet
+        fa solo minore semitonio intentam esse. hanc uero a prima quinti quae eam <pb n="[f.ivir]"
+        />superuadit scilicet sol tono excedi: postremo primam illam sexti rythmi sillabam scilicet
         la ab ipsa quinta integro toni interuallo recedere conspexit. His tantum sex sillabis tres
         ipsas diatessaron species quas singulis tetrasonis Musici concelebrant mira quodammodo et
         naturali ac pene diuina dispositione compraehendit: quo fit ut quamquam septe sunt discreti
@@ -652,8 +668,8 @@
         possunt ualeant ipsa modulatione deduci: sex ipsae sillabae annotari noscuntur: quippe quae
         hac deductione uariatur: ut re mi fa sol la. Huius quidem hymni concentum et modulationem
         licet litteris primitus annotatum ipsis sillabis imprimamus hoc modo.</p>
-      <p xml:id="GAFTM50035">[Gafurius, Theorica, f.ivir; text: ut, re, mi, fa, sol, la, Vt queant laxis
-        resonare fibris mira gestorum famuli tuorum solue poluti labii reatum Sante Ioannes] <figure>
+      <p xml:id="GAFTM50035">[Gafurius, Theorica, f.ivir; text: ut, re, mi, fa, sol, la, Vt queant
+        laxis resonare fibris mira gestorum famuli tuorum solue poluti labii reatum Sante Ioannes] <figure>
           <graphic url="/images/GAFTM5_08GF.gif"/>
         </figure></p>
       <p xml:id="GAFTM50036">
@@ -754,36 +770,36 @@
         ut et in C sol fa ut oriuntur. B mollari uero duae quae scilicet a duabus F fa ut originem
         ducunt.</p>
       <p xml:id="GAFTM50039">DE speciebus Diatessaron et Diapentes Capitulum Septimum.</p>
-      <p xml:id="GAFTM50040">DIatessaron consonantia ut latius dictum est constat quattuor sonis duos
-        tonos unumque minus semitonium compraehendentibus. atque tres differentes species conducit
-        quia quattuor tantum uocibus expletur: omnis nanque ut prediximus consonantia unam semper
-        minus habet <pb n="[f.kiiv]"/>speciem quam sint eius uoces. Prima enim: diatessaron species
-        conducitur ex tono et semitonio ac tono procedens his sillabis re mi fa sol incipitur quidem
-        in A re quae Proslambanomenos cordae affixa est et ubicumque similis processus euenerit
-        semper prima dicetur diatessaron species. Secunda species intenditur semitonio et tono atque
-        tono producta his sillabis mi fa sol la incipitur enim in [sqb] mi scilicet in tertia
-        introductorii corda. at similium sillabarum processus secundam semper diatessaron speciem
-        conducit. Tertia species deducitur intentione toni ac toni et semitonii his sillabis ut re
-        mi fa. exordium nanque summit in quarta introductorii corda scilicet C fa ut: quod si per
-        similes sillabas seu uoces processum fuerit: tertia semper diatessaron species eueniet. haec
-        itaque consideratio remissionem intentioni contrariam ducit ut patet diligentius intuenti.
-        Illud insuper est aduertendum quod unaquaeque consonantia tot ad plus habere potest
-        interualla quot fuerint eius species: siue unum minus retinet interuallam quam sint eius
-        uoces: atque hoc accidit quom omnes uniuscuiusque consonantiae soni successiue disponuntur.
-        Sed diatessaron consonantia quandoque uno interuallo constat duobus scilicet extremis sonis
-        interiecto: quandoque duobus ut si disposuerimus has tres sillabas re mi sol. uel re fa sol.
-        Reliquae item simili consideratione uariis interuallis procedunt: et quanto pauciores
-        fuerint soni: tanto et pauciora erunt interualla: sed maiora. quod ex se ipso quisque facile
-        percipere potest. Diapentes uero consonantia quinque sonis impletur tres tonos unumque minus
-        semitonium conducentibus. quae cum quinque possidere probata sit uoces: quattuor tantum
-        differentes conducit species: Quarum prima fit ex prima specie diatessaron et tono uno
-        superducto: procedens his sillabis re mi fa sol la: incipitur enim in quinta introductorii
-        corda scilicet in D sol re et terminatur ad nonam cordam scilicet ala mi re. ubicunque item
-        harum uel similium fuerit processus sillabarum prima semper diapentes species ascribetur.
-        Secunda diapentes species deducitur ex secunda specie diatessaron et tono his scilicet
-        sillabis mi fa sol la mi. Initium acquirit in sexta introductorii corda scilicet E la mi et
-        terminatur in [sqb] mi decima corda ubi paramesen philosophi custodire solebant. atque
-        similium quinque cordarum congressus secundam semper diapentes speciem indicat. Tertia
+      <p xml:id="GAFTM50040">DIatessaron consonantia ut latius dictum est constat quattuor sonis
+        duos tonos unumque minus semitonium compraehendentibus. atque tres differentes species
+        conducit quia quattuor tantum uocibus expletur: omnis nanque ut prediximus consonantia unam
+        semper minus habet <pb n="[f.kiiv]"/>speciem quam sint eius uoces. Prima enim: diatessaron
+        species conducitur ex tono et semitonio ac tono procedens his sillabis re mi fa sol
+        incipitur quidem in A re quae Proslambanomenos cordae affixa est et ubicumque similis
+        processus euenerit semper prima dicetur diatessaron species. Secunda species intenditur
+        semitonio et tono atque tono producta his sillabis mi fa sol la incipitur enim in [sqb] mi
+        scilicet in tertia introductorii corda. at similium sillabarum processus secundam semper
+        diatessaron speciem conducit. Tertia species deducitur intentione toni ac toni et semitonii
+        his sillabis ut re mi fa. exordium nanque summit in quarta introductorii corda scilicet C fa
+        ut: quod si per similes sillabas seu uoces processum fuerit: tertia semper diatessaron
+        species eueniet. haec itaque consideratio remissionem intentioni contrariam ducit ut patet
+        diligentius intuenti. Illud insuper est aduertendum quod unaquaeque consonantia tot ad plus
+        habere potest interualla quot fuerint eius species: siue unum minus retinet interuallam quam
+        sint eius uoces: atque hoc accidit quom omnes uniuscuiusque consonantiae soni successiue
+        disponuntur. Sed diatessaron consonantia quandoque uno interuallo constat duobus scilicet
+        extremis sonis interiecto: quandoque duobus ut si disposuerimus has tres sillabas re mi sol.
+        uel re fa sol. Reliquae item simili consideratione uariis interuallis procedunt: et quanto
+        pauciores fuerint soni: tanto et pauciora erunt interualla: sed maiora. quod ex se ipso
+        quisque facile percipere potest. Diapentes uero consonantia quinque sonis impletur tres
+        tonos unumque minus semitonium conducentibus. quae cum quinque possidere probata sit uoces:
+        quattuor tantum differentes conducit species: Quarum prima fit ex prima specie diatessaron
+        et tono uno superducto: procedens his sillabis re mi fa sol la: incipitur enim in quinta
+        introductorii corda scilicet in D sol re et terminatur ad nonam cordam scilicet ala mi re.
+        ubicunque item harum uel similium fuerit processus sillabarum prima semper diapentes species
+        ascribetur. Secunda diapentes species deducitur ex secunda specie diatessaron et tono his
+        scilicet sillabis mi fa sol la mi. Initium acquirit in sexta introductorii corda scilicet E
+        la mi et terminatur in [sqb] mi decima corda ubi paramesen philosophi custodire solebant.
+        atque similium quinque cordarum congressus secundam semper diapentes speciem indicat. Tertia
         species diapentes ex trittono atque semitonio componitur: progrediens a septima
         introductorii corda scilicet F fa ut: ad undecimam scilicet C sol fa ut: his sillabis fa sol
         re mi fa quarum progressio tertiam semper diapentes speciem conducet. Quarta diapentes
@@ -799,8 +815,8 @@
         cantibus planis ascriptus est: diffusius aperta sunt. Diuersis item interuallis diapentes
         consonantia perficitur atque deducitur uariis motibus. ut constat cautius inquirenti.</p>
       <p xml:id="GAFTM50041">DE speciebus Diapason consonantiae Capitulum Octauum.</p>
-      <p xml:id="GAFTM50042">DIapason consonantia octo sonis perficitur continentibus quinque tonos et
-        duo minora semitonia dicta quidem per omne quia omnibus sonis impletur et uno superducto
+      <p xml:id="GAFTM50042">DIapason consonantia octo sonis perficitur continentibus quinque tonos
+        et duo minora semitonia dicta quidem per omne quia omnibus sonis impletur et uno superducto
         omnes enim soni septem sunt ut latius in superioribus claruit. Fit autem ex diapente ac
         diatessaron quae cum plures et diuersas habeant species diuersis item speciebus diapason
         consonantiam circumducuut. quippe quae et octo sonis formata septem tantum species
@@ -855,7 +871,8 @@
         superuadit quod Dyattonica Introductorii deductio naturaliter exprimere probatur. Quo fit ut
         Proslambanomenon siue A re Hypodorii ea tono acumine superuadat quae est in Hypophrigio.
         similiter et Mese siue a la mi re hypophrigii eam quae est Hypodorii eiusdem excedat acumine
-        toni. Inde reliquas interpositas uoces totumque hypodorii ordinem <pb n="[f.kiiiir]"/>Interiectae uoces atque totus hypophrigii ordo toni dimensione superuadere contingat.
+        toni. Inde reliquas interpositas uoces totumque hypodorii ordinem <pb n="[f.kiiiir]"
+        />Interiectae uoces atque totus hypophrigii ordo toni dimensione superuadere contingat.
         Idemque ordo atque processus euenit in ceteris: quod quisque a se ipso facile compraehendere
         potest. Hos igitur septem modos secundum septem diapason species iisdem cordis et uocibus
         acumine tantum inuicem et grauitate distantes constat esse deductos: [Phtolomeus,
@@ -863,8 +880,8 @@
         progressio mixolidii constitutionem tono superaret acumine. Eorum enim deductam
         dispositionem octo primis introductorii litteris figuraliter hoc ordine duximus
         ascribendam.</p>
-      <p xml:id="GAFTM50043">[Gafurius, Theorica, f.kiiiir; text: tonus, semitonium, A, [sqb], C, D, E,
-        F, G, a, hypodorius, hypophrigius, hypolidius, dorius, phrigius, Lidius, Mixolidius,
+      <p xml:id="GAFTM50043">[Gafurius, Theorica, f.kiiiir; text: tonus, semitonium, A, [sqb], C, D,
+        E, F, G, a, hypodorius, hypophrigius, hypolidius, dorius, phrigius, Lidius, Mixolidius,
         hypermixolidius]</p>
       <p xml:id="GAFTM50044">[Boetius in marg.] Hos enim modos Boetius noster tropos dicit: quos in
         totis uocum ordinibus constitutiones acumine grauitate ue differentes esse concludit.

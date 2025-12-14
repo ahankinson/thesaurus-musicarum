@@ -1,26 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De vera et compendiosa seu regulari constructione contrapuncti et de pluribus viciis
           a pluribus ignaris comittendis seu commissis ab autoribus prohibitis</title>
         <title type="abbrev">ANODVC</title>
-        <author>Anonymous</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Katherine Clark</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
-        <date>1999</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1999">1999</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Anonymi Tractatus de cantu figurativo et de contrapuncto (c. 1430-1520)</emph>, ed.
@@ -48,13 +58,13 @@
         pluribus viciis a pluribus ignaris comittendis seu commissis ab autoribus prohibitis.</p>
       <p xml:id="ANODVC0003">Prima regula contrapuncti est quod omnis contrapunctus debet perfecte
         incipi et finiri per unam speciem perfectam.</p>
-      <p xml:id="ANODVC0004">Secunda regula [est] quod nullus contrapunctus a tenore debet incipi aut
-        finiri infra octavam nisi tenor alte incipiatur ut interdum solet, sic potest contrapunctus
-        cum tenore incipi in unisono vel in quinta si placet. Similiter et dum tenor alte finitur ut
-        interdum contingit quavis ratione, potest tamen discantus secum finiri in unisono seu in
-        quinta si placet, sicut secum incipi. Sed aliter infra octavam a tenore, contrapunctus,
-        scilicet discantus, non debet incipi aut finiri, sed bene ultra octavam multum si placet,
-        sed non infra nisi conditione praescripta.</p>
+      <p xml:id="ANODVC0004">Secunda regula [est] quod nullus contrapunctus a tenore debet incipi
+        aut finiri infra octavam nisi tenor alte incipiatur ut interdum solet, sic potest
+        contrapunctus cum tenore incipi in unisono vel in quinta si placet. Similiter et dum tenor
+        alte finitur ut interdum contingit quavis ratione, potest tamen discantus secum finiri in
+        unisono seu in quinta si placet, sicut secum incipi. Sed aliter infra octavam a tenore,
+        contrapunctus, scilicet discantus, non debet incipi aut finiri, sed bene ultra octavam
+        multum si placet, sed non infra nisi conditione praescripta.</p>
       <p xml:id="ANODVC0005">Tertia regula [est] quod omnis contrapuncti tenor primo componi debet
         regulariter de aliquo tono hoc modo ad placitum compositoris dum regulariter componitur sic
         intelligendo ne ambitum, id est ascensum vel descensum eiusdem toni a finali clave, id est
@@ -63,25 +73,26 @@
         imperfecta, omnem dissonantiam cautissime evitando; non omnis perfecte dari debet nec omnis
         imperfecte sed mixtim, perfectae cum imperfectis et econtra ut clarius inferius
         declarabitur.</p>
-      <p xml:id="ANODVC0006">Quarta regula est quod quando tenor descendit in aliquo cantu, discantus
-        debet contrarie ascendere et econtra; et omnis contrapunctus ad punctum contrario motu dari
-        debet, per quem motum contrarium consonanter datum specialis melodia generatur et auri
-        complacencia.</p>
-      <p xml:id="ANODVC0007">Quinta regula est quod numquam in aliquo contrapuncto plano aut figurativo
-        potest aliqua quinta quintam in proximo sequi in ascensu aut descensu vel octava octavam aut
-        duodecima duodecimam vel quintadecima quintam decimam, necque aliqua perfecta aliam
-        perfectam <pb n="[59]"/>nisi in motu contrario, quamvis consonantiae perfectae, dum insimul
-        dentur, non dissonent. Tamen talis processus valde simplex et indelectabilis est et quasi
-        unum et idem apparens. Et ergo prohibentur duae species perfectae insimul in proximo se
-        mutuo sequentes dari. Imperfectae autem consonantiae ut duo terciae, sextae, decimae vel
+      <p xml:id="ANODVC0006">Quarta regula est quod quando tenor descendit in aliquo cantu,
+        discantus debet contrarie ascendere et econtra; et omnis contrapunctus ad punctum contrario
+        motu dari debet, per quem motum contrarium consonanter datum specialis melodia generatur et
+        auri complacencia.</p>
+      <p xml:id="ANODVC0007">Quinta regula est quod numquam in aliquo contrapuncto plano aut
+        figurativo potest aliqua quinta quintam in proximo sequi in ascensu aut descensu vel octava
+        octavam aut duodecima duodecimam vel quintadecima quintam decimam, necque aliqua perfecta
+        aliam perfectam <pb n="[59]"/>nisi in motu contrario, quamvis consonantiae perfectae, dum
+        insimul dentur, non dissonent. Tamen talis processus valde simplex et indelectabilis est et
+        quasi unum et idem apparens. Et ergo prohibentur duae species perfectae insimul in proximo
+        se mutuo sequentes dari. Imperfectae autem consonantiae ut duo terciae, sextae, decimae vel
         tredecimae, insimul dari non prohibentur. Immo quod plus est, tres tertia insimul dari
         possunt dum necessitas requirit et praecipue in medio choro, [id est] in contratenore quo ad
         tenorem, non autem tot in discantu, nec etiam plus quam tres non debent dari.</p>
-      <p xml:id="ANODVC0008">Sexta regula [est] de vera mixtura seu mixtione consonantiarum perfectarum
-        cum imperfectis et econtrario quia, ut clare praescribitur, nullus cantus de choro ad chorum
-        contrarius potest componi solummodo ex consonantiis perfectis absque imperfectis aut
-        econtra, sed imperfecta consonantia post perfectam in proximo dari debet et econtra post
-        imperfectam perfecta proximo sequi debet in quantum cursus tenoris petit, et caetera.</p>
+      <p xml:id="ANODVC0008">Sexta regula [est] de vera mixtura seu mixtione consonantiarum
+        perfectarum cum imperfectis et econtrario quia, ut clare praescribitur, nullus cantus de
+        choro ad chorum contrarius potest componi solummodo ex consonantiis perfectis absque
+        imperfectis aut econtra, sed imperfecta consonantia post perfectam in proximo dari debet et
+        econtra post imperfectam perfecta proximo sequi debet in quantum cursus tenoris petit, et
+        caetera.</p>
       <p xml:id="ANODVC0009">Septima regula [est] quod omnis contrapunctus debet componi ex pluribus
         variis speciebus praescriptis nouem quibus contrapunctus componi potest sic quod compositor
         cedat quod cantantes tam alte in voce attingere possint, non obstante quid non potest unus
@@ -97,7 +108,8 @@
         scilicet tenoris, medii et discantus. Prima regula est quod primo debet tenor componi a
         prima nota ad ultimam. Illo finito et regulariter completo, debet discantus, id est supremus
         chorus, de omni puncto ad punctum, id est de omni [nota] ad notam concordanter dari seu
-        componi, ut regulae praescriptae docent, etiam ut autores musicae <pb n="[60]"/>constituerunt. Et illo choro finito, scilicet discantu, debet medium componi in omni
+        componi, ut regulae praescriptae docent, etiam ut autores musicae <pb n="[60]"
+        />constituerunt. Et illo choro finito, scilicet discantu, debet medium componi in omni
         puncto ad punctum, id est nota ad notam quo ad tenorem consonanter sicut et discantum. Et si
         aliqua sola nota in discantu aut medio cum tenore dissonaverit, false et vitiose datur, nisi
         fuerit data in veloci seu minuta nota in quantitate, scilicet ut praescribitur in minima,
@@ -107,23 +119,23 @@
         particulariter vel etiam universaliter cum tenore proferendo consonare. Unde non sufficit
         nec satis est quod discantus vel medium singulariter cum tenore proferendo concordare debet,
         sed oportet etiam quod universaliter seu simul etiam concordant et econverso.</p>
-      <p xml:id="ANODVC0012">Decima regula [est] quod saltus sex clavium in tenore aut discantu dari non
-        debet nec septem clavium, et ratio est quia tales saltus seu species in se non sunt ita
+      <p xml:id="ANODVC0012">Decima regula [est] quod saltus sex clavium in tenore aut discantu dari
+        non debet nec septem clavium, et ratio est quia tales saltus seu species in se non sunt ita
         melodiosae aut dulces audiendo sicut et ceteri, etiam proferendo sunt contra mores, ideo
         rara dantur. Verumtamen in medio seu contratenore non prohibentur, immo etiam in
         contratenore aliquando saltus novem vocum datur. Unde medius chorus seu contratenor pro
         repletione sonorum seu vocum cantus, etiam pro specialiori melodia [fit] quia quanto plures
         chori sunt prolati seu insimul cantati, [tanto] melodiosior cantus est; dummodo saltim ut
         praescribitur compositio regulariter fiat.</p>
-      <p xml:id="ANODVC0013">Undecima regula est quando in contrapuncto de tribus choris composito tenor
-        alte incipitur, discantus potest cum tenore incipi cum unisono vel in quinta supra
+      <p xml:id="ANODVC0013">Undecima regula est quando in contrapuncto de tribus choris composito
+        tenor alte incipitur, discantus potest cum tenore incipi cum unisono vel in quinta supra
         tenore[m], potest medium sub tenore dari et incipi, et sic tunc medium, cum subest, sumitur
         pro tenore in loco ubi subest, et caetera.</p>
-      <p xml:id="ANODVC0014">Duodecima regula est quando discantus prope tenorem est, ut in quinta vel
-        in tertia, sic potest medium seu medius chorus supra discantum dari et discantus mediatur,
-        et sic capitur medium in loco quo supra discantum est ut versus discantus, quamvis non
-        dicitur nec dici debet discantus propter talem casualem ascensum, etiam et discantus, cum
-        mediat inter tenorem et medium, capitur loco quo mediat pro medio, quamvis non sit.</p>
+      <p xml:id="ANODVC0014">Duodecima regula est quando discantus prope tenorem est, ut in quinta
+        vel in tertia, sic potest medium seu medius chorus supra discantum dari et discantus
+        mediatur, et sic capitur medium in loco quo supra discantum est ut versus discantus, quamvis
+        non dicitur nec dici debet discantus propter talem casualem ascensum, etiam et discantus,
+        cum mediat inter tenorem et medium, capitur loco quo mediat pro medio, quamvis non sit.</p>
       <p xml:id="ANODVC0015">
         <pb n="[61]"/>Notandum quod dum discantus sub tenore est ut regulariter contingi potest si
         placet, quamvis non multum, sic capitur discantus ut verus tenor loco quo subest, sed tenor
@@ -135,20 +147,20 @@
       <p xml:id="ANODVC0016">Notandum pro regula quod penultima nota debet in propinquo dari et non
         remote ab ultima, et in consonantia imperfecta melius datur quam in perfecta; sed ultima
         semper debet esse perfecta ut prius dictum est.</p>
-      <p xml:id="ANODVC0017">Alia regula est pluribus idiotis ignota et saepe a scientificis neglecta
-        haec videlicet: numquam in aliquo contrapuncto plano aut figurativo potest vox fa contra
-        vocem mi pro quinta dari aut vox fa contra vocem mi pro octava dari; et quia cum sic datur
-        quinta, falsa quinta est, ac semidiapente dicta. Similiter et tam falsa octava est dum vox
-        fa contra vocem mi pro octava datur, semidiapason dicta. Unde quando datur b molle contra b
-        durum pro quinta aut octava, talis semper erit consonantia disproportionata, quamvis multi
-        credant quod dare debeant immo dare possunt, sed prohibetur. Nota quod duae dissonantiae
-        insimul nullo modo dari debent, nec in minimis nec in semiminimis quod plus est, quamvis
-        duae semiminimae unius minimae quantita[ti]s equivalentes sint, tamen nulla duo corpora,
-        quantumcumque minuta fuerint, insimul dari debent; immo nec duae fusiel, quae tamen medietas
-        unius semiminimae sunt, tamen insimul dari non debent nec regulariter possunt, sicut nec
-        minima in specie potest.</p>
-      <p xml:id="ANODVC0018">De sincopa. Ulterius est notandum de sincopa quae absque dissonantia dari
-        non potest, sed ita dari debet ne percipiatur. Et sincopa potest dari in minima seu per
+      <p xml:id="ANODVC0017">Alia regula est pluribus idiotis ignota et saepe a scientificis
+        neglecta haec videlicet: numquam in aliquo contrapuncto plano aut figurativo potest vox fa
+        contra vocem mi pro quinta dari aut vox fa contra vocem mi pro octava dari; et quia cum sic
+        datur quinta, falsa quinta est, ac semidiapente dicta. Similiter et tam falsa octava est dum
+        vox fa contra vocem mi pro octava datur, semidiapason dicta. Unde quando datur b molle
+        contra b durum pro quinta aut octava, talis semper erit consonantia disproportionata,
+        quamvis multi credant quod dare debeant immo dare possunt, sed prohibetur. Nota quod duae
+        dissonantiae insimul nullo modo dari debent, nec in minimis nec in semiminimis quod plus
+        est, quamvis duae semiminimae unius minimae quantita[ti]s equivalentes sint, tamen nulla duo
+        corpora, quantumcumque minuta fuerint, insimul dari debent; immo nec duae fusiel, quae tamen
+        medietas unius semiminimae sunt, tamen insimul dari non debent nec regulariter possunt,
+        sicut nec minima in specie potest.</p>
+      <p xml:id="ANODVC0018">De sincopa. Ulterius est notandum de sincopa quae absque dissonantia
+        dari non potest, sed ita dari debet ne percipiatur. Et sincopa potest dari in minima seu per
         quantitatem minimae vel in semibrevi sed in altiori specie non, quia dissonantia in altiori
         specie nullo modo, id est in morosiori nota, abscondi potest, et ideo in maiori nota dari
         non potest. Et dum datur sincopa in semibrevi vel per quantitatem semibrevis, debet dari per
@@ -171,17 +183,19 @@
         brevibus talis mutatur in tempore, si vero in semibrevibus et etiam in minimis mutatur in
         tempore et prolatione, et sic si prima figuratio est de perfecto, secunda erit
         imperfecta.</p>
-      <p xml:id="ANODVC0020">Nota quod duae species perfectae de seipsis non possunt poni insimul, id
-        est quod unisonus bis non debet poni nec quinta nec octava nec duodecima. Nota quod cantus
-        et discantus non debent ascendere insimul nisi cum speciebus imperfectis.</p>
-      <p xml:id="ANODVC0021">Ulterius [notan]dum [est] quod quando cantus ascendit et discantus incipit
-        in quinta, tunc quinta debet habere post se tertiam et tertia unisonum. Sed quando cantus
-        ascendit et discantus incipit in duodecima, talis duodecima debet post se habere decimam et
-        decima octavam. Nota quando tres voces in una linea vel in uno spatio inveniuntur insimul et
-        discantus incipit in octava, talis octava debet post se habere quintam et econtrario
-        octavam. Et si discantus inciperet per quintam, talis quinta debet post se habere octavam et
-        econtrario quintam. Nota quando cantus descendit et discantus incipit per <pb n="[63]"/>unisonum, talis unisonus debet post se habere tertiam et tertia quintam, et talis ille
-        discantus potest elevari per octavam et cantare istas notas praedictas equaliter.</p>
+      <p xml:id="ANODVC0020">Nota quod duae species perfectae de seipsis non possunt poni insimul,
+        id est quod unisonus bis non debet poni nec quinta nec octava nec duodecima. Nota quod
+        cantus et discantus non debent ascendere insimul nisi cum speciebus imperfectis.</p>
+      <p xml:id="ANODVC0021">Ulterius [notan]dum [est] quod quando cantus ascendit et discantus
+        incipit in quinta, tunc quinta debet habere post se tertiam et tertia unisonum. Sed quando
+        cantus ascendit et discantus incipit in duodecima, talis duodecima debet post se habere
+        decimam et decima octavam. Nota quando tres voces in una linea vel in uno spatio inveniuntur
+        insimul et discantus incipit in octava, talis octava debet post se habere quintam et
+        econtrario octavam. Et si discantus inciperet per quintam, talis quinta debet post se habere
+        octavam et econtrario quintam. Nota quando cantus descendit et discantus incipit per <pb
+          n="[63]"/>unisonum, talis unisonus debet post se habere tertiam et tertia quintam, et
+        talis ille discantus potest elevari per octavam et cantare istas notas praedictas
+        equaliter.</p>
       <p xml:id="ANODVC0022">Sciendum ulterius quod quando cantus ascendit per ditonum vel per
         semiditonum et tunc discantus sit in octava, talis octava debet post se habere unisonum. Et
         si incipit in quinta, discantus talis in quinta debet post se habere unisonum. Nota quod
@@ -201,24 +215,24 @@
         talis duodecima debet post se habere quintam, et si descenderet in diapente et discantus
         esset in quinta, talis quinta debet post se habere quintam super octavam, id es duodecimam,
         ita quod quinta ad quintam reducitur ascendendo vel descendendo in cantu.</p>
-      <p xml:id="ANODVC0025">Et si cantus ascenderet per ditonum vel semiditonum et postea descenderet
-        per tonum vel semitonium et talis discantus sit in duodecima, talis duodecima potest post se
-        habere decimam et dicima duodecimam. Et si veles descendere cum discantu, talis duodecima
-        debet post se habere sextam et sexta octavam.</p>
+      <p xml:id="ANODVC0025">Et si cantus ascenderet per ditonum vel semiditonum et postea
+        descenderet per tonum vel semitonium et talis discantus sit in duodecima, talis duodecima
+        potest post se habere decimam et dicima duodecimam. Et si veles descendere cum discantu,
+        talis duodecima debet post se habere sextam et sexta octavam.</p>
       <p xml:id="ANODVC0026">Et si cantus ascenderet in diapente et postea descenderet per tonum et
         talis discantus esset in duodecima, talis duodecima debet post [se] habere sextam et sexta
         octavam, et si discantus esset in octava, posset habere post se sextam et sexta octavam. Et
         si discantus descenderet in <pb n="[64]"/>diapente et postea ascenderet per tonum vel
         semitonium et cantus sit in quinta, potest post se habere duodecimam et duodecima
         octavam.</p>
-      <p xml:id="ANODVC0027">Sciendum quando cantus ascendit per tonum vel semitonium et tunc discantus
-        sit in octava, talis octava debet post se habere sextam et econtrario sexta octavam. Et si
-        discantus sit in duodecima, talis debet post se habere decimam et econtrario decima
-        duodecimam. Et si sit discantus in quinta, talis quinta debet post se habere tertiam et
-        econtrario. Et si descenderet in tali et tunc discantus inciperet per octavam, talis [debet]
-        post se habere decimam et decima duodecimam et duodecima tertiam decimam et tertia decima
-        duplicem octavam. Et si velles descendere cum discantu, tunc octava debet post se habere
-        sextam vel sextas, et sexta vel sextae octavam.</p>
+      <p xml:id="ANODVC0027">Sciendum quando cantus ascendit per tonum vel semitonium et tunc
+        discantus sit in octava, talis octava debet post se habere sextam et econtrario sexta
+        octavam. Et si discantus sit in duodecima, talis debet post se habere decimam et econtrario
+        decima duodecimam. Et si sit discantus in quinta, talis quinta debet post se habere tertiam
+        et econtrario. Et si descenderet in tali et tunc discantus inciperet per octavam, talis
+        [debet] post se habere decimam et decima duodecimam et duodecima tertiam decimam et tertia
+        decima duplicem octavam. Et si velles descendere cum discantu, tunc octava debet post se
+        habere sextam vel sextas, et sexta vel sextae octavam.</p>
       <p xml:id="ANODVC0028">Et si cantus ascenderet in diatesseron et tunc discantus esset in
         duodecima, talis duodecima debet post se habere octavam.</p>
       <p xml:id="ANODVC0029">Et notandum quod quilibet potest ponere duas, tres vel quattuor species
@@ -235,19 +249,19 @@
         necessitate in simili voce, et potius variantur voces et actus ut sint dissimiles et diversi
         unus ab altero. Et est pulchrior cantus suavior atque amenior auditoribus quam repercutere
         cantum in una voce et caetera. (1)</p>
-      <p xml:id="ANODVC0030">Item post sextam et tertiam decimam oportet ascendere vel descendere per
-        unam vocem tantum, et post alias consonantias omnes licet ascendere et descendere per plures
-        voces et etiam in eodem loco manere. <pb n="[65]"/>Item discantus potest ascendere vel
-        descendere cum plano cantu per unam vocem tantum ad faciendum consonantiam perfectam. Sed ad
-        faciendum consonantiam imperfectam potest ascendere et descendere cum tenore discantus per
-        tot voces quot voluerit. Item post unisonum potest fieri quaelibet alia consonantia
-        praeterquam decima. Item post quintam potest fieri quaelibet alia praeterquam duodecima.
-        Item post sextam debet fieri dupla, potest etiam fieri duodecima post ipsam, etiam si tenor
-        descendat ad quartam vel tertia similiter si tenor ascendat ad quintam vocem. Item post
-        duplam potest fieri quaelibet alia consonantia praeterquam unisonus et quintam decimam. Item
-        post decimam potest fieri quaelibet alia consonantia praeterquam unisonus et dupla. Item
-        post quamlibet consonantiam perfectam melius expedit imperfectam consonantiam habere quam
-        perfectam et caetera.</p>
+      <p xml:id="ANODVC0030">Item post sextam et tertiam decimam oportet ascendere vel descendere
+        per unam vocem tantum, et post alias consonantias omnes licet ascendere et descendere per
+        plures voces et etiam in eodem loco manere. <pb n="[65]"/>Item discantus potest ascendere
+        vel descendere cum plano cantu per unam vocem tantum ad faciendum consonantiam perfectam.
+        Sed ad faciendum consonantiam imperfectam potest ascendere et descendere cum tenore
+        discantus per tot voces quot voluerit. Item post unisonum potest fieri quaelibet alia
+        consonantia praeterquam decima. Item post quintam potest fieri quaelibet alia praeterquam
+        duodecima. Item post sextam debet fieri dupla, potest etiam fieri duodecima post ipsam,
+        etiam si tenor descendat ad quartam vel tertia similiter si tenor ascendat ad quintam vocem.
+        Item post duplam potest fieri quaelibet alia consonantia praeterquam unisonus et quintam
+        decimam. Item post decimam potest fieri quaelibet alia consonantia praeterquam unisonus et
+        dupla. Item post quamlibet consonantiam perfectam melius expedit imperfectam consonantiam
+        habere quam perfectam et caetera.</p>
       <p xml:id="ANODVC0031">[CSM41:65; text: 1.] <figure>
           <graphic url="/images/ANODVC_01GF.gif"/>
         </figure></p>

@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Tractatus de musica</title>
         <title type="abbrev">ANOPTRA</title>
-        <author>Anonymous OP</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Anonymous OP</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Ulrich Michels, "Der Musiktraktat des Anonymus OP: Ein frühes
           Theoretiker-Zeugnis der Ars nova," <emph>Archiv für Musikwissenschaft</emph> 26 (1969):
@@ -65,8 +75,8 @@
         ante longam, ut hic: [L,B,pt,B,B,L]. Item non esset divisio modi, nisi brevis ante longam
         alteraretur, <pb n="[57]"/>quia ibi est primus modus et quartus. Quartus autem modus fit non
         per punctum, sed ex duabus brevibus ante longam.</p>
-      <p xml:id="ANOPTRA0008">Prima ratio solvitur, quia minor est falsa, nam deberet dici per se et non
-        ex convenienti, nam posito proprio ponitur subiectum et tamen proprium non est causa
+      <p xml:id="ANOPTRA0008">Prima ratio solvitur, quia minor est falsa, nam deberet dici per se et
+        non ex convenienti, nam posito proprio ponitur subiectum et tamen proprium non est causa
         subiecti; etiam privatio est causa generati, non tamen positiva, neque per se intrat
         compositum.</p>
       <p xml:id="ANOPTRA0009">Secunda ratio ponit minorem falsam. Dico enim punctum numquam [per] se
@@ -80,20 +90,21 @@
         effectum. Exemplum ad praecedentia: Nauta per sui praesentiam est causa salutis navis, per
         sui absentiam est causa submersionis: ita de puncto.</p>
       <p xml:id="ANOPTRA0011">[Capitulum II]</p>
-      <p xml:id="ANOPTRA0012">Quod punctus positus inter duas semibreves existentes inter duas breves,
-        ut hic: [B,S,pt,S,B], faciat modi divisionem.</p>
-      <p xml:id="ANOPTRA0013">Idem est iudicium de aequivalentibus situ eodem remanente et de implicito
-        et explicito. Sed quaelibet semibrevis in se perfecta est, ergo si imperficiatur per
-        minimam, quae sui est tertia pars, idem erit iudicium. Sed modus non mutabitur, <pb n="[58]"/>ut hic: [B,S,M,pt,S,M,B]. Est enim ante punctum primus modus similiter et post, ergo non
-        est divisio modi.</p>
+      <p xml:id="ANOPTRA0012">Quod punctus positus inter duas semibreves existentes inter duas
+        breves, ut hic: [B,S,pt,S,B], faciat modi divisionem.</p>
+      <p xml:id="ANOPTRA0013">Idem est iudicium de aequivalentibus situ eodem remanente et de
+        implicito et explicito. Sed quaelibet semibrevis in se perfecta est, ergo si imperficiatur
+        per minimam, quae sui est tertia pars, idem erit iudicium. Sed modus non mutabitur, <pb
+          n="[58]"/>ut hic: [B,S,M,pt,S,M,B]. Est enim ante punctum primus modus similiter et post,
+        ergo non est divisio modi.</p>
       <p xml:id="ANOPTRA0014">In oppositum arguitur: Primus modus et secundus dividuntur sic per
         punctum: [B,S,pt,S,B], ergo punctus facit divisionem modi. Item secunda semibrevis esset
         altera, nisi punctus ibi poneretur, ergo et cetera. Item si poneretur punctus inter duas
         breves existentes inter duas longas, faceret divisionem modi, ut hic: [L,B,pt,B,L], ergo et
         hic: [B,S,pt,S,B].</p>
-      <p xml:id="ANOPTRA0015">Ad obiectum: Est ibi divisio modi inter breves, non inter semibreves, hoc
-        est, perfectiones brevium divisae sunt, non semibrevium. Duae enim semibreves, quarum prima
-        imperficitur per sequentem [semibrevem] minimam, referuntur ad brevem, cum qua faciunt
+      <p xml:id="ANOPTRA0015">Ad obiectum: Est ibi divisio modi inter breves, non inter semibreves,
+        hoc est, perfectiones brevium divisae sunt, non semibrevium. Duae enim semibreves, quarum
+        prima imperficitur per sequentem [semibrevem] minimam, referuntur ad brevem, cum qua faciunt
         perfectionem, et quoniam nunc ante, nunc post, ideo mutatur modus brevium. Hoc enim totum:
         [S,M], licet in se faciat perfectionem, est tamen tertia pars huius brevis, cum qua addita
         facit perfectionem, ut hic: [B,S,M], et est primus modus, similiter hic et est secundus:
@@ -108,12 +119,13 @@
         <pb n="[59]"/>[Capitulum III]</p>
       <p xml:id="ANOPTRA0018">Quod longa non possit imperfici per brevem imperfectam per semibrevem
         imperfectam ex minima, ut hic: [L,B,S,[M]].</p>
-      <p xml:id="ANOPTRA0019">Omnis imperfectio fit ratione tertiae partis. Brevis imperfecta non est
-        tertia pars longae, ergo et cetera.</p>
-      <p xml:id="ANOPTRA0020">Item nihil alterum imperficit nisi ex valore suo. Sed brevis imperfecta
-        non valet nisi duas semibreves, ergo longa non imperficitur nisi ex duabus semibrevibus et
-        sic valet septem semibreves. Item imperfectum non potest alterum imperficere, quia duo tria
-        non imperficiunt. Sed brevis illa est imperfecta, ergo et cetera.</p>
+      <p xml:id="ANOPTRA0019">Omnis imperfectio fit ratione tertiae partis. Brevis imperfecta non
+        est tertia pars longae, ergo et cetera.</p>
+      <p xml:id="ANOPTRA0020">Item nihil alterum imperficit nisi ex valore suo. Sed brevis
+        imperfecta non valet nisi duas semibreves, ergo longa non imperficitur nisi ex duabus
+        semibrevibus et sic valet septem semibreves. Item imperfectum non potest alterum
+        imperficere, quia duo tria non imperficiunt. Sed brevis illa est imperfecta, ergo et
+        cetera.</p>
       <p xml:id="ANOPTRA0021">In oppositum arguitur: Brevis post longam imperficit eam. Brevis
         imperfecta est brevis, ergo imperficit longam. Item tres semibreves imperficiunt longam, sed
         brevis imperfecta valet duas semibreves, quarum quaelibet una imperficit longam pro valore
@@ -126,10 +138,10 @@
       <p xml:id="ANOPTRA0022">
         <pb n="[60]"/>[Capitulum IV]</p>
       <p xml:id="ANOPTRA0023">Quod longa non possit imperfici per unam semibrevem.</p>
-      <p xml:id="ANOPTRA0024">Quia omnis imperfectio fit ratione tertiae partis amotae per diffinitionem
-        perfecti et imperfecti. Est enim perfectum, quod in tria aequalia divisibile est,
-        imperfectum, quod in duo. Differt ergo perfectum ab imperfecto sicut ternarius a binario,
-        hoc est per tertiam partem ternarii.</p>
+      <p xml:id="ANOPTRA0024">Quia omnis imperfectio fit ratione tertiae partis amotae per
+        diffinitionem perfecti et imperfecti. Est enim perfectum, quod in tria aequalia divisibile
+        est, imperfectum, quod in duo. Differt ergo perfectum ab imperfecto sicut ternarius a
+        binario, hoc est per tertiam partem ternarii.</p>
       <p xml:id="ANOPTRA0025">Sed una semibrevis non est tertia pars longae, cum longa plures breves
         includat, quarum quaelibet in tres semibreves est divisibilis, ergo et cetera. Item omne
         imperfectum potest perfici addito puncto, qui est signum perfectionis, ut hic: [L,pt,S]. Si
@@ -141,9 +153,9 @@
       <p xml:id="ANOPTRA0026">Item si longa imperficeretur, hoc esset ratione brevis inclusae, prout
         diceret aliquis: [S,L,S]. Hoc non potest esse propter duo, quia eadem ratione posset
         imperfici a parte ante sicut post, cum brevem includit ante et post.</p>
-      <p xml:id="ANOPTRA0027">Sed primam brevem impossibile est imperfici, quoniam brevis ante brevem
-        perfecta est. Sed oportet ibi ponere semibrevem alteram, quod esset convenientius, ergo et
-        cetera. Ex alio: Si prima brevis et ultima inclusa in longa possent imperfici per
+      <p xml:id="ANOPTRA0027">Sed primam brevem impossibile est imperfici, quoniam brevis ante
+        brevem perfecta est. Sed oportet ibi ponere semibrevem alteram, quod esset convenientius,
+        ergo et cetera. Ex alio: Si prima brevis et ultima inclusa in longa possent imperfici per
         semibrevem: [S,S,B,B,B,S], eadem ratione et brevis media, quod impossibile est, cum fieri
         non possit, ergo et cetera.</p>
       <p xml:id="ANOPTRA0028">
@@ -161,36 +173,36 @@
         dicebatur fuerit inconveniens, sed si varietur, significat ille punctus divisionem modi,
         neque aliquis musicus in tali descriptione diceret secundam brevem esse alteram, quod prius
         erat, ergo et cetera.</p>
-      <p xml:id="ANOPTRA0032">Item si hoc esset possibile, ita brevis altera esset imperfecta a parte
-        ante, quod est inauditum.</p>
-      <p xml:id="ANOPTRA0033">Item ita ubi esset reperire perfectionem trium temporum [imperfectam] per
-        brevem? Non contingeret hoc reperire, quod est contradictoria implicare, quod patet in
+      <p xml:id="ANOPTRA0032">Item si hoc esset possibile, ita brevis altera esset imperfecta a
+        parte ante, quod est inauditum.</p>
+      <p xml:id="ANOPTRA0033">Item ita ubi esset reperire perfectionem trium temporum [imperfectam]
+        per brevem? Non contingeret hoc reperire, quod est contradictoria implicare, quod patet in
         descriptione notularum sic: [L,B,S,L,L]. Qui praedicta sustinet, sic dicere haberet: Prima
         longa imperfecta est per brevem sequentem et semibrevem, et brevis per semibrevem;
         paenultima longa perfecta est. Perficiatur brevis per punctum additum, ut sic:
         [L,B,pt,S,L,L]. Plures essent perfectiones <pb n="[62]"/>nunc quam prius, cum semibrevis sit
         superflua; non enim potest iungi cum longa sequente eam perficiendo, cum de se sit perfecta,
         quia ante longam ponitur, ergo et cetera.</p>
-      <p xml:id="ANOPTRA0034">Item in praedicta descriptione si prima longa esset imperfecta per brevem
-        imperfectam ex semibrevi, tamen prima longa non esset imperfecta nisi ex valore duarum
-        semibrevium; modo binarius, inquam, huiusmodi numquam imperficit aliquid: omnis enim
+      <p xml:id="ANOPTRA0034">Item in praedicta descriptione si prima longa esset imperfecta per
+        brevem imperfectam ex semibrevi, tamen prima longa non esset imperfecta nisi ex valore
+        duarum semibrevium; modo binarius, inquam, huiusmodi numquam imperficit aliquid: omnis enim
         imperfectio fit per unitatem, ergo et cetera.</p>
-      <p xml:id="ANOPTRA0035">Propter solutionem rationum quartae conclusionis notandum est, quod duplex
-        est imperfectio sicut perfectio, scilicet mediata et immediata. Una longa immediate
+      <p xml:id="ANOPTRA0035">Propter solutionem rationum quartae conclusionis notandum est, quod
+        duplex est imperfectio sicut perfectio, scilicet mediata et immediata. Una longa immediate
         imperficitur per brevem, cum brevis sit eius tertia pars propinqua, sed mediate per
         semibrevem et minimam, quae sunt eius partes remotae et sic de aliis invicem comparatis.</p>
-      <p xml:id="ANOPTRA0036">Dicendum est propter ultimam rationem eiusdem conclusionis. Dicendum est,
-        totum corpus longae a parte ante similiter et a parte post imperfici et non brevem, quod
-        tamen supponit argumentum: ideo non valuit.</p>
+      <p xml:id="ANOPTRA0036">Dicendum est propter ultimam rationem eiusdem conclusionis. Dicendum
+        est, totum corpus longae a parte ante similiter et a parte post imperfici et non brevem,
+        quod tamen supponit argumentum: ideo non valuit.</p>
       <p xml:id="ANOPTRA0037">Item notandum est, quod perfectum et imperfectum eadem figura
         significantur, et materialiter sunt idem, sed formaliter differunt, scilicet per situm vel
         punctum.</p>
-      <p xml:id="ANOPTRA0038">Item notula duas habet formas: primam, quae est figura geometrica, quae
-        solum dicitur signum, secundam, quae est sonus numero mensuratus, qui dicitur
+      <p xml:id="ANOPTRA0038">Item notula duas habet formas: primam, quae est figura geometrica,
+        quae solum dicitur signum, secundam, quae est sonus numero mensuratus, qui dicitur
         significatum.</p>
-      <p xml:id="ANOPTRA0039">Item caudatum et incaudatum non accidunt notulae, sed sunt differentiae
-        specificativae et de essentia notularum, prout contingit in hiis reperire ordinem generis
-        vel speciei.</p>
+      <p xml:id="ANOPTRA0039">Item caudatum et incaudatum non accidunt notulae, sed sunt
+        differentiae specificativae et de essentia notularum, prout contingit in hiis reperire
+        ordinem generis vel speciei.</p>
       <p xml:id="ANOPTRA0040">Item nota, quod duplex est musica mensurabilis, scilicet regularis et
         irregularis. Prima perfectiones simul incipit et terminat, de perfecto contra perfectum et
         de imperfecto contra imperfectum. Secunda vero perfectiones discontinuat, de perfecto sonans

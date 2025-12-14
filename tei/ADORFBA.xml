@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>[Ad organum faciendum]</title>
         <title type="abbrev">ADORFBA</title>
-        <author>Anonymous</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Hans Heinrich Eggebrecht and Frieder Zaminer, eds., <emph>Ad organum
             faciendum. Lehrschriften der Mehrstimmigkeit in nachguidonischer Zeit</emph>, Neue
@@ -59,20 +69,16 @@
         est ultimam copulam destruendo. quod autem dictum est uerbis ostendamus exemplis.</p>
       <p xml:id="ADORFBA0002">Quando prima uox copulatur cum precedenti</p>
       <p class="textFig" xml:id="ADORFBA0003">c a b G F | e c d  c a b G.
-        <lb/>C D F D F | E F G. F E F G. G a.G.F.
-        <br/>Alle-      -lu-         -ia.
-        <lb/></p>
+        <lb/>C D F D F | E F G. F E F G. G a.G.F. <br/>Alle-      -lu-         -ia. <lb/></p>
       <p class="textFig" xml:id="ADORFBA0004">F. a c G F.|  a F C D [E] C [Gamma]
-        <br/>Alle-       -lu-            -ia.
-        <lb/></p>
+        <br/>Alle-       -lu-            -ia. <lb/></p>
       <p xml:id="ADORFBA0005">Per disiunctionem ipsius vocis.</p>
       <p class="textFig" xml:id="ADORFBA0006">F d c G b | a c d c a b G.
-        <br/>Alle-      -lu-        -ia. 
-        <lb/></p>
-      <p xml:id="ADORFBA0007">Mediis uocibus que mutantur diatessaron si sunt in diapente uidelicet</p>
+        <br/>Alle-      -lu-        -ia.  <lb/></p>
+      <p xml:id="ADORFBA0007">Mediis uocibus que mutantur diatessaron si sunt in diapente
+        uidelicet</p>
       <p class="textFig" xml:id="ADORFBA0008">c  G F G D | E C D F a  b  G
-        <br/>Alle-       -lu-          -ia.
-        <lb/></p>
+        <br/>Alle-       -lu-          -ia. <lb/></p>
       <p xml:id="ADORFBA0009">Qualiter ab utroque principio et medio ut istud organum superius</p>
       <p class="textFig" xml:id="ADORFBA0010">[f.48v in marg.] c    a c d b | a c d c G  F D C D F
         <br/>               [A]lle-       -lu-         -ia.
@@ -85,8 +91,7 @@
         <lb/>-re-            -bit  et      sicut ce-
         <br/>D E G a F a c [sqb]  a c d. d e c d a c G E. G a c a c d.
         <lb/>F E G E F E C   E    D F D  G E F G E F D E. C D E F E D.
-        <br/>                                                    -drus
-        <lb/></p>
+        <br/>                                                    -drus <lb/></p>
       <p xml:id="ADORFBA0011">Explicit organi tractatus.</p>
     </body>
   </text>

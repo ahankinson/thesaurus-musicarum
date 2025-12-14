@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>[Tractatus de musica mensurata et musica falsa]</title>
         <title type="abbrev">ANOUPS2</title>
-        <author>Anonymous</author>
-        <date notBefore="1200" notAfter="1299">13th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Anastasia Arapova</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Mark Butler</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2001</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2001">2001</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Carl Allan Moberg, "Om flerstämmig musik i Sverige under medeltiden,"
             <emph>Svensk Tidskrift för Musikforskning</emph> 10 (1928): 62-67, 67–82. </bibl>
@@ -57,25 +67,26 @@
         tempora (fig. Nr 40) [L,B,pt,B,B; L,B,pt,B,B,L]. Longa, ualens tria tempora, perfecta
         dicitur, ualens autem duo imperfecta dicitur. Duplex longa, sic formata (fig. Nr 41) [MX],
         ualet sex tempora.</p>
-      <p xml:id="ANOUPS20006">Notandum idem est iudicium de pausis et de figuris et de breuibus et de
-        semibreuibus in regulis prius dictis (fig. Nr 42) [L; L,L,B,L,L,B,B,L; L;
+      <p xml:id="ANOUPS20006">Notandum idem est iudicium de pausis et de figuris et de breuibus et
+        de semibreuibus in regulis prius dictis (fig. Nr 42) [L; L,L,B,L,L,B,B,L; L;
         B,L,S,S,S,B,L].</p>
-      <p xml:id="ANOUPS20007">Breuis, sic formata (fig. Nr 43) [B], ualet unum tempus, nisi computandis
-        perfectionibus ponantur duae breues uel ualor unius breuis et breuis cum longam, tunc
-        secunda breuis ualet duo tempora (fig. Nr 44) [L,B,B,L,S,S,B,L]. Breuis, ualens unum tempus,
-        dicitur recta, ualens autem duo dicitur altera. Semibreuium sic factarum (fig. Nr 45) [S,S]
-        alia minor, alia maior in ualore sunt non in fractione, quarum, secundum artem, plures quam
-        tres nec minus quam duae pro tempore non ponuntur. Sed nimis frangentes et nimis in
-        prolatione unius temporis expectantes (= spectantes) uerum modum proferendi, id est tempus
-        peruertentes, ponuntur pro uno tempore quattuor, quinque, sex, septem, modi diuisione
+      <p xml:id="ANOUPS20007">Breuis, sic formata (fig. Nr 43) [B], ualet unum tempus, nisi
+        computandis perfectionibus ponantur duae breues uel ualor unius breuis et breuis cum longam,
+        tunc secunda breuis ualet duo tempora (fig. Nr 44) [L,B,B,L,S,S,B,L]. Breuis, ualens unum
+        tempus, dicitur recta, ualens autem duo dicitur altera. Semibreuium sic factarum (fig. Nr
+        45) [S,S] alia minor, alia maior in ualore sunt non in fractione, quarum, secundum artem,
+        plures quam tres nec minus quam duae pro tempore non ponuntur. Sed nimis frangentes et nimis
+        in prolatione unius temporis expectantes (= spectantes) uerum modum proferendi, id est
+        tempus peruertentes, ponuntur pro uno tempore quattuor, quinque, sex, septem, modi diuisione
         taliter intermixta (fig. Nr 46) [S,S,pt,S,S,S,; S,S,S,S; S,S,S,S,S; etc.].</p>
-      <p xml:id="ANOUPS20008">Plica est nota diuisionis eiusdem soni in grauem uel in acutum et debet
-        formari in gutturi cum epiglotto. Plica longa est, cuius tractus dexter longior est sinistro
-        (fig. Nr 47) [Lpdsn,Bpssncsdx]; breuis [plica] uero, cuius [tractulus dexter] breuior ]est
-        sinistro] (fig. Nr 48) [Bcdsnpddx,Bcssnpsdx,[..?..]]. Semibreuis sic plicatur (fig. Nr 49,
-        [* * *]) [Scdsnosn,S,S]. Nec mirum cum definitio plicae sibi con uinclat. Valor plicarum in
-        [tempori]bus cognoscitur ex praedictis, ibi longa, sic formata et caetera.</p>
-      <p xml:id="ANOUPS20009">Ligatura est coniunctio (hs. ordinatio) figurarum [simplicium] <pb n="[69]"/>[per tractos] debitos ordinata. Ligaturarum alia ascendens, alia descendens.
+      <p xml:id="ANOUPS20008">Plica est nota diuisionis eiusdem soni in grauem uel in acutum et
+        debet formari in gutturi cum epiglotto. Plica longa est, cuius tractus dexter longior est
+        sinistro (fig. Nr 47) [Lpdsn,Bpssncsdx]; breuis [plica] uero, cuius [tractulus dexter]
+        breuior ]est sinistro] (fig. Nr 48) [Bcdsnpddx,Bcssnpsdx,[..?..]]. Semibreuis sic plicatur
+        (fig. Nr 49, [* * *]) [Scdsnosn,S,S]. Nec mirum cum definitio plicae sibi con uinclat. Valor
+        plicarum in [tempori]bus cognoscitur ex praedictis, ibi longa, sic formata et caetera.</p>
+      <p xml:id="ANOUPS20009">Ligatura est coniunctio (hs. ordinatio) figurarum [simplicium] <pb
+          n="[69]"/>[per tractos] debitos ordinata. Ligaturarum alia ascendens, alia descendens.
         Ascendens est [illa, cuius] secundus punctus altior est primo, [ut hic] (fig. Nr 50)
         [Lig2art,Lig3ad,Lig4cssnaodart,Lig2a]. Descendens uero dicitur, cuius secundus punctus
         inferior [est primo] (fig. Nr 51) [S,S,S,Lig2od,Lig2d,Lig3odart]. Ascendens, carens omni
@@ -111,13 +122,13 @@
         taliter posset duplicari [(fig. Nr 62)] [Lig3ad, Lig3dd,
         Lig3cssnaacsdx,Lig2art,Lig2d,Lig3ddrt,Lig3MXart(!)] [? = ... taliter posset dupliciter
         plicari?].</p>
-      <p xml:id="ANOUPS20010">Modus est uariatio soni ex longitudine et breuitate et caetera [!]. Sex
-        sunt modi. Primus procedit ex longa et breui et longa <pb n="[71]"/>et caetera (fig. Nr 63)
-        [L,B,L,B,L,B,L,B,L], secundus [modus] e contrario (fig. Nr 64) [B,L,B,L,B; B,L,B], tertius
-        ex longa et duabus breuibus et longa et caetera (fig. Nr 65) [L,B,B,L,B,B,L], quartus e
-        conuerso (fig. Nr 66) [B,B,L,B,B,L,B,B,L,B], quintus ex omnibus longis (fig. Nr 67)
-        [L,L,L,L,L,L], sextus e contrario, scilicet ex omnibus breuibus et semibreuibus (fig. Nr 68)
-        [B,B,B,S,S,B; B,B,B,S,S,S,B].</p>
+      <p xml:id="ANOUPS20010">Modus est uariatio soni ex longitudine et breuitate et caetera [!].
+        Sex sunt modi. Primus procedit ex longa et breui et longa <pb n="[71]"/>et caetera (fig. Nr
+        63) [L,B,L,B,L,B,L,B,L], secundus [modus] e contrario (fig. Nr 64) [B,L,B,L,B; B,L,B],
+        tertius ex longa et duabus breuibus et longa et caetera (fig. Nr 65) [L,B,B,L,B,B,L],
+        quartus e conuerso (fig. Nr 66) [B,B,L,B,B,L,B,B,L,B], quintus ex omnibus longis (fig. Nr
+        67) [L,L,L,L,L,L], sextus e contrario, scilicet ex omnibus breuibus et semibreuibus (fig. Nr
+        68) [B,B,B,S,S,B; B,B,B,S,S,S,B].</p>
       <p xml:id="ANOUPS20011">Pausa est obmissio recta [* * *] uocis, facta in aliquo modorum recta
         quantitate. Pausae ualent tot tempora, quot spatia comprehendunt, excepta illa, quae omnes
         lineas et spatia comprehendit, <pb n="[72]"/>quae immensurabilis appellatur. Pausae
@@ -134,8 +145,8 @@
         nostris specialibus proponimus enodare. Videndum est ergo primo, quid sit discantus et unde
         dicatur et quot requiruntur ad eius bonitatem et ex quibus partibus et qualiter
         componetur.</p>
-      <p xml:id="ANOUPS20014">Discantus est aliquorum diuersorum cantuum consonantia secundum modum et
-        secundum aequipollentis sui aequipollentiam. Discantus dicitur, quasi diuersus cantus, eo
+      <p xml:id="ANOUPS20014">Discantus est aliquorum diuersorum cantuum consonantia secundum modum
+        et secundum aequipollentis sui aequipollentiam. Discantus dicitur, quasi diuersus cantus, eo
         quod illi cantus, ex quibus componitur discantus, differe debent ita, quod, quando unus
         ascendit, alter descendat et e conuerso: possunt tunc simul ascendere et descendere propter
         cantuum pulchritudinem. Ad discantus quattuor [differentiae] principaliter requiruntur.
@@ -156,8 +167,8 @@
         necessarium est capitulum de proportionibus, quod spectat ad planam musicam. Sed quia sine
         falsa musica non possumus discantare, ideo de ipsa breuiter uideamus.</p>
       <p xml:id="ANOUPS20016">[3. De falsa musica.]</p>
-      <p xml:id="ANOUPS20017">Falsa musica dicitur omne, ubi locatur be molle uel b[e] quadratum in loco
-        non usitato; ubi ponitur b[e], dicitur fa; ubi ponitur h, dicitur mi, et sic patet una
+      <p xml:id="ANOUPS20017">Falsa musica dicitur omne, ubi locatur be molle uel b[e] quadratum in
+        loco non usitato; ubi ponitur b[e], dicitur fa; ubi ponitur h, dicitur mi, et sic patet una
         species in aliam transmutari. Et uidetur [in] capitulo de proportionibus. Fuit autem inuenta
         falsa musica duobus de causis: a causa necessitatis et causa pulchritudinis cantus per se.
         Causa necessitatis, quia non poterat (hs.: p--ant) haberi bona quinta, quarta, octaua (hs.:
@@ -186,36 +197,38 @@
       <p xml:id="ANOUPS20021">[STM10:78] <figure>
           <graphic url="/images/ANOUPS2_03GF.gif"/>
         </figure></p>
-      <p xml:id="ANOUPS20022">[f. 24ro] Ad ascensum unius, incipiens in diapason supra, uel in diapente
-        infra descende 2; uel incipiens in diapente supra uel cum tenore descende 3. Incipiens autem
-        in diapason supra uel cum tenore descende 1 (= unam uocem) ad habendum 3 et 6, quae sunt
-        bonae cum diapason uel diapente.</p>
+      <p xml:id="ANOUPS20022">[f. 24ro] Ad ascensum unius, incipiens in diapason supra, uel in
+        diapente infra descende 2; uel incipiens in diapente supra uel cum tenore descende 3.
+        Incipiens autem in diapason supra uel cum tenore descende 1 (= unam uocem) ad habendum 3 et
+        6, quae sunt bonae cum diapason uel diapente.</p>
       <p xml:id="ANOUPS20023">Ad ascensum duarum, incipiens in diapason supra uel in diapente infra
         descende 1. Incipiens autem in diapente supra uel cum tenore descende 2.</p>
-      <p xml:id="ANOUPS20024">Ad ascensum trium, incipiens in diapason supra uel in diapente infra, fac
-        unisonum, incipiens autem in diapente supra uel cum tenore descende 1, uel incipiens in
+      <p xml:id="ANOUPS20024">Ad ascensum trium, incipiens in diapason supra uel in diapente infra,
+        fac unisonum, incipiens autem in diapente supra uel cum tenore descende 1, uel incipiens in
         diapason supra uel cum tenore, fac diapente deprimendo.</p>
-      <p xml:id="ANOUPS20025">Ad ascensum quattuor, incipiens in diapason supra uel in diapente infra
-        ascende 1. Incipiens autem in diapente supra uel cum tenore, fac unisonum. Vel incipiens in
-        diapason supra uel cum tenore descende 3, uel incipiens in diapente supra, fac exambiam.</p>
-      <p xml:id="ANOUPS20026">[f. 24vo] Ad ascensum quinque, qui raro contingit (Coussemaker: accidit),
-        incipiens in diapason supra uel in diapente infra ascende [2], uel incipiens in diapente
-        supra uel cum tenore ascende 1, uel incipiens in diapason infra uel cum tenore descende
-        2.</p>
-      <p xml:id="ANOUPS20027">Sequuntur regulae de descensa ad descensum: incipiens in diapason infra
-        uel in diapente supra ascende 2, incipiens autem in diapente infra uel cum tenore descende
-        3, uel incipiens in diapason uel in diapente infra uel cum tenore descende 1.</p>
+      <p xml:id="ANOUPS20025">Ad ascensum quattuor, incipiens in diapason supra uel in diapente
+        infra ascende 1. Incipiens autem in diapente supra uel cum tenore, fac unisonum. Vel
+        incipiens in diapason supra uel cum tenore descende 3, uel incipiens in diapente supra, fac
+        exambiam.</p>
+      <p xml:id="ANOUPS20026">[f. 24vo] Ad ascensum quinque, qui raro contingit (Coussemaker:
+        accidit), incipiens in diapason supra uel in diapente infra ascende [2], uel incipiens in
+        diapente supra uel cum tenore ascende 1, uel incipiens in diapason infra uel cum tenore
+        descende 2.</p>
+      <p xml:id="ANOUPS20027">Sequuntur regulae de descensa ad descensum: incipiens in diapason
+        infra uel in diapente supra ascende 2, incipiens autem in diapente infra uel cum tenore
+        descende 3, uel incipiens in diapason uel in diapente infra uel cum tenore descende 1.</p>
       <p xml:id="ANOUPS20028">Ad descensum duarum, incipiens in diapason infra uel in diapente supra
         ascende 1, uel incipiens in diapente infra uel cum tenore ascende 2.</p>
-      <p xml:id="ANOUPS20029">Ad descensum trium, incipiens in diapason infra uel in diapente supra, fac
-        unisonum: incipiens autem in diapente infra uel cum tenore ascende 1, uel incipiens in
+      <p xml:id="ANOUPS20029">Ad descensum trium, incipiens in diapason infra uel in diapente supra,
+        fac unisonum: incipiens autem in diapente infra uel cum tenore ascende 1, uel incipiens in
         diapason infra uel cum tenore ascende 4.</p>
-      <p xml:id="ANOUPS20030">Ad descensum quattuor, incipiens in diapason infra uel in diapente <pb n="[79]"/>supra descende 1, uel incipiens in diapente infra uel cum tenore, fac unisonum;
+      <p xml:id="ANOUPS20030">Ad descensum quattuor, incipiens in diapason infra uel in diapente <pb
+          n="[79]"/>supra descende 1, uel incipiens in diapente infra uel cum tenore, fac unisonum;
         uel incipiens in diapason infra uel cum tenore ascende 3, uel incipiens in diapente infra,
         fac exambia[m].</p>
-      <p xml:id="ANOUPS20031">Ad descensum quinque, qui raro contingit, incipiens in diapason infra uel
-        in diapente supra descende 2; incipiens autem in diapente infra uel cum tenore descende 1,
-        uel incipiens in diapason infra uel cum tenore ascende 2.</p>
+      <p xml:id="ANOUPS20031">Ad descensum quinque, qui raro contingit, incipiens in diapason infra
+        uel in diapente supra descende 2; incipiens autem in diapente infra uel cum tenore descende
+        1, uel incipiens in diapason infra uel cum tenore ascende 2.</p>
       <p xml:id="ANOUPS20032">[4. De unisono et de interuallis.]</p>
       <p xml:id="ANOUPS20033">Sunt autem tredecim species, quibus omnis cantus contexitur, scilicet
         unisonus et caetera, qui proportiones dicuntur, quia alia a proportionibus minoribus
@@ -226,32 +239,32 @@
       <p xml:id="ANOUPS20034">[STM10:80] <figure>
           <graphic url="/images/ANOUPS2_04GF.gif"/>
         </figure></p>
-      <p xml:id="ANOUPS20035">[f. 25ro] Immediata repetitio ponitur ad dexteram disiunctionis, ubi eadem
-        uox repetitur et diuerse, sed hoc mediate. Disiunctio est progressio ab una dextra ad aliam
-        super imitationem (fig. Nr 70).</p>
+      <p xml:id="ANOUPS20035">[f. 25ro] Immediata repetitio ponitur ad dexteram disiunctionis, ubi
+        eadem uox repetitur et diuerse, sed hoc mediate. Disiunctio est progressio ab una dextra ad
+        aliam super imitationem (fig. Nr 70).</p>
       <p xml:id="ANOUPS20036">[STM10:80]</p>
       <p xml:id="ANOUPS20037">Tonus, scilicet prima enim species, est duarum uocum immediatarum
         perfectum uel legitimum (?) spatium et dicitur a 'tono, tonas' (Coussemaker: tonando tonos),
         eo quod perfecte tonat et perfecte ponit distantiam inter duas uoces (fig. Nr 71).</p>
       <p xml:id="ANOUPS20038">[STM10:80]</p>
-      <p xml:id="ANOUPS20039">Ditonus (hs.: Semitonium!, [* * *]) est duarum uocum spatium, continens
-        duos tonos, et dicitur a 'dia', quod est duo (!) et 'tonos', quia continet duos tonos (fig.
-        Nr 72).</p>
+      <p xml:id="ANOUPS20039">Ditonus (hs.: Semitonium!, [* * *]) est duarum uocum spatium,
+        continens duos tonos, et dicitur a 'dia', quod est duo (!) et 'tonos', quia continet duos
+        tonos (fig. Nr 72).</p>
       <p xml:id="ANOUPS20040">[STM10:80]</p>
       <p xml:id="ANOUPS20041">Semiditonus dicitur a 'semus' a u[macron supra lin.] (= 1/2?) quod est
         imperfectus, et 'ditonus', quia imperfectus ditonus continet duos: tonum et semitonium (fig.
         Nr 73).</p>
       <p xml:id="ANOUPS20042">[STM10:80]</p>
-      <p xml:id="ANOUPS20043">Tritonus dicitur a 'tres', quod est tres et tonus, quasi continens tres
-        tonos (fig. Nr 74).</p>
+      <p xml:id="ANOUPS20043">Tritonus dicitur a 'tres', quod est tres et tonus, quasi continens
+        tres tonos (fig. Nr 74).</p>
       <p xml:id="ANOUPS20044">[STM10:80]</p>
-      <p xml:id="ANOUPS20045">Diatessaron est quidam tonus consonantus a qualibet uoce usque ad quartam
-        electa et deposita, continens duos tonos et semitonium, et dicitur a 'di-', quod est 'de' et
-        'tetras', quod est quattuor, quia de quattuor uocibus fit, scilicet a qualibet uoce usque ad
-        quartam (fig. Nr 75).</p>
+      <p xml:id="ANOUPS20045">Diatessaron est quidam tonus consonantus a qualibet uoce usque ad
+        quartam electa et deposita, continens duos tonos et semitonium, et dicitur a 'di-', quod est
+        'de' et 'tetras', quod est quattuor, quia de quattuor uocibus fit, scilicet a qualibet uoce
+        usque ad quartam (fig. Nr 75).</p>
       <p xml:id="ANOUPS20046">[STM10:80]</p>
-      <p xml:id="ANOUPS20047">Nisi uero cadit fa contra mi, ut uideamus in exemplo tritoni fieri, tunc
-        potest ibi [fieri] diatessaron per falsam musicam (fig. Nr 76).</p>
+      <p xml:id="ANOUPS20047">Nisi uero cadit fa contra mi, ut uideamus in exemplo tritoni fieri,
+        tunc potest ibi [fieri] diatessaron per falsam musicam (fig. Nr 76).</p>
       <p xml:id="ANOUPS20048">[STM10:80]</p>
       <p xml:id="ANOUPS20049">
         <pb n="[80]"/>Diapente est quaedam consonantia ex tribus tonis et semitonio constituta a
@@ -259,8 +272,8 @@
         *]) et 'penta', quod est quinque, quia de quinque uocibus fit, scilicet a qualibet uoce
         usque ad quinque (fig. Nr 77).</p>
       <p xml:id="ANOUPS20050">[STM10:80]</p>
-      <p xml:id="ANOUPS20051">Nisi uero cadit fa contra mi, et tantum est ibi aequipollens tritoni (fig.
-        Nr 78).</p>
+      <p xml:id="ANOUPS20051">Nisi uero cadit fa contra mi, et tantum est ibi aequipollens tritoni
+        (fig. Nr 78).</p>
       <p xml:id="ANOUPS20052">[STM10:80]</p>
       <p xml:id="ANOUPS20053">Fieri tamen diapente in locis praedictis per falsam musicam (fig. Nr
         79).</p>
@@ -269,8 +282,8 @@
         diapente, ditonus cum diapente, semiditonus cum <pb n="[81]"/>diapente, patet uisis
         simplicibus, quarum exempla per ordinem hic ponuntur [f. 25vo] (fig. Nr 80).</p>
       <p xml:id="ANOUPS20056">[STM10:80]</p>
-      <p xml:id="ANOUPS20057">De semitonio cum diapente potest fieri tonus cum diapente et, e contrario,
-        de tono semiditonus per falsam [hs.: perfectam] musicam (fig. Nr 81).</p>
+      <p xml:id="ANOUPS20057">De semitonio cum diapente potest fieri tonus cum diapente et, e
+        contrario, de tono semiditonus per falsam [hs.: perfectam] musicam (fig. Nr 81).</p>
       <p xml:id="ANOUPS20058">[STM10:81] <figure>
           <graphic url="/images/ANOUPS2_05GF.gif"/>
         </figure></p>
@@ -279,8 +292,8 @@
         deposita, ex octo uocibus constructa, quinque tonos et duo semitonia continens. Constituitur
         ex octo uocibus (fig. Nr 82),</p>
       <p xml:id="ANOUPS20060">[STM10:81]</p>
-      <p xml:id="ANOUPS20061">nisi a b molli acuto ad b quadratem (= q--um). Non fit etiam in utroque
-        b-fa, b-mi, nisi litteras uel uoces similes assumendo fieri (fig. Nr 83),</p>
+      <p xml:id="ANOUPS20061">nisi a b molli acuto ad b quadratem (= q--um). Non fit etiam in
+        utroque b-fa, b-mi, nisi litteras uel uoces similes assumendo fieri (fig. Nr 83),</p>
       <p xml:id="ANOUPS20062">[STM10:81]</p>
       <p xml:id="ANOUPS20063">tunc potest a b molli ad b quadratem per falsam musicam (fig. Nr 84).
         --</p>
@@ -294,8 +307,8 @@
       <p xml:id="ANOUPS20068">Item ad habendum sextas, incipiens in diapente supra ascende 1 uel
         incipiens in diapente infra descende [1] (fig. Nr 86).</p>
       <p xml:id="ANOUPS20069">[STM10:81]</p>
-      <p xml:id="ANOUPS20070">Item ad habendum quartas, incipiens in diapente supra descende 1, uel in
-        diapente infra ascende 1 (fig. Nr 87).</p>
+      <p xml:id="ANOUPS20070">Item ad habendum quartas, incipiens in diapente supra descende 1, uel
+        in diapente infra ascende 1 (fig. Nr 87).</p>
       <p xml:id="ANOUPS20071">[STM10:81]</p>
       <p xml:id="ANOUPS20072">Aliis autem concordantiis longas figuras proferendo non utitur in
         discantu, nisi tenens se uelit in concordantia fingeri uel taceri. Explicit.</p>

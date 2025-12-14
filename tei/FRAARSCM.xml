@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Ars cantus mensurabilis</title>
         <title type="abbrev">FRAARSCM</title>
-        <author>Franco</author>
-        <date notBefore="1200" notAfter="1299">13th</date>
+        <author><persName>Franco</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Kirk Ditzler</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Hieronymus de Moravia, <emph>Tractatus de musica</emph>, ed. S. M.
           Cserba, Freiburger Studien zur Musikwissenschaft, vol. 2 (Regensburg: Pustet, 1935),
@@ -81,20 +91,21 @@
         dictaque aliorum non recusabimus <pb n="[231]"/>interponere erroresque destruere et fugare,
         et si quid novi a nobis inventum fuerit, bonis rationibus sustinere et probare.</p>
       <p xml:id="FRAARSCM0005">1. De definitione musicae mensurabilis et ejus speciebus.</p>
-      <p xml:id="FRAARSCM0006">Mensurabilis musica est cantus longis brevibusque temporibus mensuratus.
-        Gratia hujus definitionis videndum est, quid sit mensura et quid tempus. Mensura est
-        habitudo quantitatem, longitudinem et brevitatem cujuslibet cantus mensurabilis manifestans.
-        Mensurabilis dico, quia in plana musica non attenditur talis mensura. Tempus est mensura tam
-        vocis prolatae quam ejus contrarii, scilicet vocis amissae, quae pausa communiter
-        appellatur. Dico autem pausam tempore mensurari, quia aliter duo cantus diversi, quorum unus
-        cum pausis, alius sine sumeretur, non possent proportionaliter ad invicem coaequari.</p>
-      <p xml:id="FRAARSCM0007">Dividitur autem mensurabilis musica in mensurabilem simpliciter et partim
-        mensurabilem. Simpliciter est discantus, eo quod in omni parte sua tempore mensuratur.
-        Partim mensurabilis dicitur organum pro tanto, quod non in qualibet parte sua mensuratur. Et
-        sciendum, [153b] quod organum dupliciter sumitur, proprie et communiter. Est enim organum
-        proprie sumptum organum duplum, quod purum organum appellatur. Communiter vero dicitur
-        organum quilibet cantus ecclesiasticus tempore mensuratus. Sed quia simplex praecedit
-        compositum, primo dicendum est de discantu.</p>
+      <p xml:id="FRAARSCM0006">Mensurabilis musica est cantus longis brevibusque temporibus
+        mensuratus. Gratia hujus definitionis videndum est, quid sit mensura et quid tempus. Mensura
+        est habitudo quantitatem, longitudinem et brevitatem cujuslibet cantus mensurabilis
+        manifestans. Mensurabilis dico, quia in plana musica non attenditur talis mensura. Tempus
+        est mensura tam vocis prolatae quam ejus contrarii, scilicet vocis amissae, quae pausa
+        communiter appellatur. Dico autem pausam tempore mensurari, quia aliter duo cantus diversi,
+        quorum unus cum pausis, alius sine sumeretur, non possent proportionaliter ad invicem
+        coaequari.</p>
+      <p xml:id="FRAARSCM0007">Dividitur autem mensurabilis musica in mensurabilem simpliciter et
+        partim mensurabilem. Simpliciter est discantus, eo quod in omni parte sua tempore
+        mensuratur. Partim mensurabilis dicitur organum pro tanto, quod non in qualibet parte sua
+        mensuratur. Et sciendum, [153b] quod organum dupliciter sumitur, proprie et communiter. Est
+        enim organum proprie sumptum organum duplum, quod purum organum appellatur. Communiter vero
+        dicitur organum quilibet cantus ecclesiasticus tempore mensuratus. Sed quia simplex
+        praecedit compositum, primo dicendum est de discantu.</p>
       <p xml:id="FRAARSCM0008">
         <pb n="[232]"/>2. De definitione discantus et divisione.</p>
       <p xml:id="FRAARSCM0009">Discantus est aliquorum diversorum cantuum consonantia, in qua illi
@@ -108,18 +119,18 @@
       <p xml:id="FRAARSCM0011">Modus est cognitio soni longis brevibusque temporibus mensurati. Modi
         autem a diversis diversimode enumerantur. Quidam enim ponunt VI, alii VII. Nos autem V
         tantum ponimus, quia ad hos V omnes alii reducuntur.</p>
-      <p xml:id="FRAARSCM0012">Primus enim procedit ex omnibus longis, et sub isto reponimus illum, qui
-        est ex longa et brevi, duabus de causis, prima est, quia isti duo in similibus pausationibus
-        [154a] uniuntur, secunda est propter antiquorum et aliquorum modernorum controversiam
-        compescendam. Secundus procedit <pb n="[233]"/>ex brevi et longa, tertius autem ex longa et
-        duabus brevibus, quartus ex duabus brevibus et longa, quintus ex omnibus brevibus et
-        semibrevibus.</p>
-      <p xml:id="FRAARSCM0013">Cum autem istorum modorum voces sint causa et principium et earum notae
-        sint nota, manifestum est, quod de notis vel figuris, quod idem est, est tractandum. Sed cum
-        ipse discantus tam voce recta quam ejus contrario, hoc est voce amissa, reguletur et ista
-        sint diversa, horum erunt diversa signa. Sed cum prius sit vox recta quam amissa, quoniam
-        habitus praecedit privationem, prius dicendum est de figuris, quae vocem rectam significant,
-        quam de pausis, quae amissam.</p>
+      <p xml:id="FRAARSCM0012">Primus enim procedit ex omnibus longis, et sub isto reponimus illum,
+        qui est ex longa et brevi, duabus de causis, prima est, quia isti duo in similibus
+        pausationibus [154a] uniuntur, secunda est propter antiquorum et aliquorum modernorum
+        controversiam compescendam. Secundus procedit <pb n="[233]"/>ex brevi et longa, tertius
+        autem ex longa et duabus brevibus, quartus ex duabus brevibus et longa, quintus ex omnibus
+        brevibus et semibrevibus.</p>
+      <p xml:id="FRAARSCM0013">Cum autem istorum modorum voces sint causa et principium et earum
+        notae sint nota, manifestum est, quod de notis vel figuris, quod idem est, est tractandum.
+        Sed cum ipse discantus tam voce recta quam ejus contrario, hoc est voce amissa, reguletur et
+        ista sint diversa, horum erunt diversa signa. Sed cum prius sit vox recta quam amissa,
+        quoniam habitus praecedit privationem, prius dicendum est de figuris, quae vocem rectam
+        significant, quam de pausis, quae amissam.</p>
       <p xml:id="FRAARSCM0014">4. De figuris sive signis cantus mensurabilis.</p>
       <p xml:id="FRAARSCM0015">Figura est repraesentatio vocis in aliquo modorum ordinatae. Per quod
         patet, quod figurae significare debent modos et non e converso, quemadmodum quidam
@@ -132,54 +143,55 @@
         quod a summa Trinitate, quae vera est pura perfectio, nomen sumpsit. Cujus figuratio
         quadrangularis est caudam habens in parte dextra descendentem, per quam repraesentat
         longitudinem, ut hic [L].</p>
-      <p xml:id="FRAARSCM0017">Longa vero imperfecta sub figuratione perfectae est. Duo tantum tempora
-        significat. Imperfecta quidem pro tanto dicitur, quia sine adjutorio brevis praecedentis vel
-        subsequentis nullatenus invenitur. Ex quo sequitur, quod illi peccant, qui eam rectam
-        appellant, cum illud, quod rectum est, possit per se stare.</p>
-      <p xml:id="FRAARSCM0018">Duplex longa sic [MX] formata duas longas significat, quae idcirco in uno
-        corpore duplicatur, ne series plani cantus sumpti in tenoribus disrumpatur.</p>
-      <p xml:id="FRAARSCM0019">Brevis autem, licet in rectam et alteram brevem dividatur, quadrangularis
-        tamen sine aliquo tractu pro utraque illarum figuratur sic: [B].</p>
-      <p xml:id="FRAARSCM0020">Semibrevis autem alia major, alia minor dicitur. Harum tamen quaelibet
-        uniformiter ad modum losengae sic [S] formatur.</p>
+      <p xml:id="FRAARSCM0017">Longa vero imperfecta sub figuratione perfectae est. Duo tantum
+        tempora significat. Imperfecta quidem pro tanto dicitur, quia sine adjutorio brevis
+        praecedentis vel subsequentis nullatenus invenitur. Ex quo sequitur, quod illi peccant, qui
+        eam rectam appellant, cum illud, quod rectum est, possit per se stare.</p>
+      <p xml:id="FRAARSCM0018">Duplex longa sic [MX] formata duas longas significat, quae idcirco in
+        uno corpore duplicatur, ne series plani cantus sumpti in tenoribus disrumpatur.</p>
+      <p xml:id="FRAARSCM0019">Brevis autem, licet in rectam et alteram brevem dividatur,
+        quadrangularis tamen sine aliquo tractu pro utraque illarum figuratur sic: [B].</p>
+      <p xml:id="FRAARSCM0020">Semibrevis autem alia major, alia minor dicitur. Harum tamen
+        quaelibet uniformiter ad modum losengae sic [S] formatur.</p>
       <p xml:id="FRAARSCM0021">
         <pb n="[235]"/>5. De ordinatione figurarum ad invicem.</p>
-      <p xml:id="FRAARSCM0022">Simplicium autem valoris cognitio ex ordinatione, quam habent ad invicem
-        declaratur. Ordinatio vero [155a] earum sic accipitur, aut enim longam sequitur longa aut
-        brevis. Et nota hoc idem esse judicium de brevibus et semibrevibus. Si autem longam longa
-        sequatur, tunc prima longa sub uno accentu tribus temporibus mensuratur et perfecta longa
-        nuncupatur, sive sit pausatio figura vel pausa, ut hic:</p>
+      <p xml:id="FRAARSCM0022">Simplicium autem valoris cognitio ex ordinatione, quam habent ad
+        invicem declaratur. Ordinatio vero [155a] earum sic accipitur, aut enim longam sequitur
+        longa aut brevis. Et nota hoc idem esse judicium de brevibus et semibrevibus. Si autem
+        longam longa sequatur, tunc prima longa sub uno accentu tribus temporibus mensuratur et
+        perfecta longa nuncupatur, sive sit pausatio figura vel pausa, ut hic:</p>
       <p xml:id="FRAARSCM0023">[Cserba, 235,1; text: In bethleem] <figure>
           <graphic url="/images/FRAARSCM_01GF.gif"/>
         </figure></p>
-      <p xml:id="FRAARSCM0024">Si vero longam sequatur brevis, hoc est multipliciter, quoniam sola vel
-        plures. Si sola, tunc longa est duorum temporum, et dicitur imperfecta, ut hic:</p>
+      <p xml:id="FRAARSCM0024">Si vero longam sequatur brevis, hoc est multipliciter, quoniam sola
+        vel plures. Si sola, tunc longa est duorum temporum, et dicitur imperfecta, ut hic:</p>
       <p xml:id="FRAARSCM0025">[Cserba, 235,2; text: Virgo viget melius]</p>
       <p xml:id="FRAARSCM0026">nisi inter illas duas, scilicet longam et brevem, ponatur quidam
         tractulus, qui signum perfectionis dicitur, qui etiam alio nomine divisio modi appellatur.
         Et tunc longa prima perfecta est, et brevis imperficit sequentem longam, ut hic:</p>
       <p xml:id="FRAARSCM0027">[Cserba, 235,3; text: Superans omnia]</p>
-      <p xml:id="FRAARSCM0028">si autem plures, hoc est multipliciter, aut duae aut tres aut quatuor aut
-        quinque aut plures quam quinque. Si duae tantum, ut hic patet:</p>
+      <p xml:id="FRAARSCM0028">si autem plures, hoc est multipliciter, aut duae aut tres aut quatuor
+        aut quinque aut plures quam quinque. Si duae tantum, ut hic patet:</p>
       <p xml:id="FRAARSCM0029">[Cserba, 235,4; text: Eximie pater et regie]</p>
       <p xml:id="FRAARSCM0030">
         <pb n="[236]"/>tunc longa [155b] est perfecta, nisi eam sola brevis praecedat, ut hic:</p>
       <p xml:id="FRAARSCM0031">[Cserba, 236,1; text: Ave virgo regia]</p>
-      <p xml:id="FRAARSCM0032">Duarum autem brevium prima recta, secunda vero altera brevis appellatur.
-        Recta brevis est, quae unum solum tempus continet, altera brevis similis est longae
-        imperfectae in valore, differens tamen in significatione. Nam utraque sub diversa
+      <p xml:id="FRAARSCM0032">Duarum autem brevium prima recta, secunda vero altera brevis
+        appellatur. Recta brevis est, quae unum solum tempus continet, altera brevis similis est
+        longae imperfectae in valore, differens tamen in significatione. Nam utraque sub diversa
         figuratione duobus temporibus mensuratur. Unum tempus appellatur illud, quod est minimum in
         plenitudine vocis. Si vero inter praedictas duas breves ponatur ille tractus, qui divisio
         modi appellatur, ut hic:</p>
       <p xml:id="FRAARSCM0033">[Cserba, 236,2; text: Dari tradi capi]</p>
-      <p xml:id="FRAARSCM0034">tunc longa prima est imperfecta et etiam secunda, brevium autem ipsarum
-        quaelibet erit recta. Hoc tamen rarissime invenitur.</p>
-      <p xml:id="FRAARSCM0035">Si tres breves tantum inter duas longas accipiantur, ut hic apparet:</p>
+      <p xml:id="FRAARSCM0034">tunc longa prima est imperfecta et etiam secunda, brevium autem
+        ipsarum quaelibet erit recta. Hoc tamen rarissime invenitur.</p>
+      <p xml:id="FRAARSCM0035">Si tres breves tantum inter duas longas accipiantur, ut hic
+        apparet:</p>
       <p xml:id="FRAARSCM0036">[Cserba, 236,3; text: Cruci corpus adap]</p>
       <p xml:id="FRAARSCM0037">idem quod prius habetur, nisi quod illa primo, quae altera brevis
         dicebatur, hic in duas rectas breves separatur.</p>
-      <p xml:id="FRAARSCM0038">Sed si inter primam brevem et duas sequentes divisio modi apponatur, ut
-        hic patet:</p>
+      <p xml:id="FRAARSCM0038">Sed si inter primam brevem et duas sequentes divisio modi apponatur,
+        ut hic patet:</p>
       <p xml:id="FRAARSCM0039">[Cserba, 236,4; text: Manus, pedes pertora]</p>
       <p xml:id="FRAARSCM0040">
         <pb n="[237]"/>tunc prima longa [156a] a prima brevi imperficitur, secundarum brevium
@@ -189,8 +201,8 @@
       <p xml:id="FRAARSCM0041">[Cserba, 237,1; text: Dex mandie qui par] <figure>
           <graphic url="/images/FRAARSCM_02GF.gif"/>
         </figure></p>
-      <p xml:id="FRAARSCM0042">tunc prima semper est imperfecta, nisi ei signum perfectionis addatur, ut
-        hic apparet:</p>
+      <p xml:id="FRAARSCM0042">tunc prima semper est imperfecta, nisi ei signum perfectionis
+        addatur, ut hic apparet:</p>
       <p xml:id="FRAARSCM0043">[Cserba, 237,2; text: Gratissimum pro reatu]</p>
       <p xml:id="FRAARSCM0044">Sequentium autem brevium quaelibet est recta, si in computando in
         ternario numero, quo constituitur perfectio, inveniatur. Sed si duae tantum in fine
@@ -204,14 +216,15 @@
         quaelibet <pb n="[238]"/>minor semibrevis dicitur eo quod minima pars est ipsius rectae
         brevis, ut hic patet:</p>
       <p xml:id="FRAARSCM0049">[Cserba, 238,1; text: Mentibus, vocibus]</p>
-      <p xml:id="FRAARSCM0050">nec minus quam duas, quarum prima [156b] minor, secunda major semibrevis
-        appellatur. Secunda major pro tanto dicitur, quia duas minores in se includit:</p>
+      <p xml:id="FRAARSCM0050">nec minus quam duas, quarum prima [156b] minor, secunda major
+        semibrevis appellatur. Secunda major pro tanto dicitur, quia duas minores in se
+        includit:</p>
       <p xml:id="FRAARSCM0051">[Cserba, 238,2; text: Sanguine lavat]</p>
-      <p xml:id="FRAARSCM0052">Sed si immediate duas semibreves pro recta brevi positae tres sequuntur
-        vel e converso:</p>
+      <p xml:id="FRAARSCM0052">Sed si immediate duas semibreves pro recta brevi positae tres
+        sequuntur vel e converso:</p>
       <p xml:id="FRAARSCM0053">[Cserba, 238,3; text: Quid plura cedit]</p>
-      <p xml:id="FRAARSCM0054">tunc divisio modi inter tres et duas vel e converso est ponenda, ut in
-        praedicto exemplo apparet.</p>
+      <p xml:id="FRAARSCM0054">tunc divisio modi inter tres et duas vel e converso est ponenda, ut
+        in praedicto exemplo apparet.</p>
       <p xml:id="FRAARSCM0055">Pro altera autem brevi minus quam quatuor semibreves accipi non
         possunt:</p>
       <p xml:id="FRAARSCM0056">[Cserba, 238,4; text: Gaude virgo mater]</p>
@@ -225,14 +238,15 @@
       <p xml:id="FRAARSCM0061">Praeterea sunt aliae quaedam figurae simplices illud idem, quod
         praedictae, significantes eisdem etiam nominibus cum additione hujus, quod est plica,
         nominatae. Idcirco videndum est quid sit.</p>
-      <p xml:id="FRAARSCM0062">Plica est nota divisionis ejusdem soni in grave et acutum. Plicarum alia
-        longa, alia brevis, alia semibrevis. Sed de semibrevi ad praesens nihil intendimus, cum non
-        in simplicibus figuris possit plica semibrevis inveniri. In ligaturis tamen et
+      <p xml:id="FRAARSCM0062">Plica est nota divisionis ejusdem soni in grave et acutum. Plicarum
+        alia longa, alia brevis, alia semibrevis. Sed de semibrevi ad praesens nihil intendimus, cum
+        non in simplicibus figuris possit plica semibrevis inveniri. In ligaturis tamen et
         ordinationibus semibrevium plica possibilis est accipi, ut postea apparebit. [157a]</p>
-      <p xml:id="FRAARSCM0063">Item plicarum alia ascendens, alia descendens. Plica longa ascendens est
-        quaedam quadrangularis figura solum tractum gerens a parte dextra ascendentem, ut hic patet:
-        [Bcsdx], vel magis proprie duos, quorum dexter longior est sinistro, ut hic: [Bpssncsdx].
-        Magis proprie dico, quia per illos duos tractulos nomen plicae habere meretur.</p>
+      <p xml:id="FRAARSCM0063">Item plicarum alia ascendens, alia descendens. Plica longa ascendens
+        est quaedam quadrangularis figura solum tractum gerens a parte dextra ascendentem, ut hic
+        patet: [Bcsdx], vel magis proprie duos, quorum dexter longior est sinistro, ut hic:
+        [Bpssncsdx]. Magis proprie dico, quia per illos duos tractulos nomen plicae habere
+        meretur.</p>
       <p xml:id="FRAARSCM0064">Longa vero descendens similiter duos habet tractus, sed descendentes
         dextrum ut prius longiorem sinistro, ut hic: [Lpdsn].</p>
       <p xml:id="FRAARSCM0065">Plica brevis ascendens est, quae habet duos tractus ascendentes,
@@ -248,61 +262,67 @@
         ordinata. Ligaturarum alia ascendens, alia descendens. Ascendens est illa, cujus secundus
         punctus altior est primo, ut hic:</p>
       <p xml:id="FRAARSCM0070">[ClefC2,Lig2art,Lig3aod,Lig5addd,Lig4adod on staff4]</p>
-      <p xml:id="FRAARSCM0071">Descendens vero [157b] est, cujus primus punctus altior est secundo, ut
-        hic:</p>
-      <p xml:id="FRAARSCM0072">[ClefC3,Lig2cdsnd,Lig3cdsndd,Lig3cdsnodart,Lig5cdsnodartaart,Lig4cdsnddd
-        on staff4]</p>
+      <p xml:id="FRAARSCM0071">Descendens vero [157b] est, cujus primus punctus altior est secundo,
+        ut hic:</p>
+      <p xml:id="FRAARSCM0072"
+        >[ClefC3,Lig2cdsnd,Lig3cdsndd,Lig3cdsnodart,Lig5cdsnodartaart,Lig4cdsnddd on staff4]</p>
       <p xml:id="FRAARSCM0073">Item ligaturarum alia cum proprietate, alia sine, alia cum opposita
         proprietate. Et hoc est a parte principii ligaturae. A parte autem finis alia cum
         perfectione, alia sine. Et nota istas differentias essentiales esse et specificas ipsis
         ligaturis. Unde ligatura cum proprietate essentialiter differt ab illa, quae est sine, ut
         rationale animal ab irrationale, similiter et in aliis differentiis prius dictis.</p>
-      <p xml:id="FRAARSCM0074">Species quoque consistunt sub genere. Ipsis tamen speciebus non est nomen
-        impositum, sed eas dictae differentiae et suum genus circumloquuntur, secundum etiam quod in
-        generibus aliis realibus invenitur, ut corpus animatum, quod circumloquitur quandam speciem,
-        cui nomen non est impositum. A parte autem medii ligaturarum nulla essentialis differentia
-        invenitur. Ex quo sequitur, quod <pb n="[241]"/>omnia media ipsarum ligaturarum conveniunt
-        in significatis. Per quod patet positio illorum esse falsa, qui ponunt in ternaria aliquam
-        mediam esse longam, in omnibus autem aliis fore brevem. Unde videndum est, quid sit
-        proprietas, quid sine et quid opposita, quid etiam sit perfectio, quid imperfectio et de
-        horum omnium significatis.</p>
-      <p xml:id="FRAARSCM0075">Proprietas est nota primariae inventionis ligaturae a plana musica data
-        in principio illius, perfectio vero idem dicit, sed in fine. Unde sequuntur regulae
+      <p xml:id="FRAARSCM0074">Species quoque consistunt sub genere. Ipsis tamen speciebus non est
+        nomen impositum, sed eas dictae differentiae et suum genus circumloquuntur, secundum etiam
+        quod in generibus aliis realibus invenitur, ut corpus animatum, quod circumloquitur quandam
+        speciem, cui nomen non est impositum. A parte autem medii ligaturarum nulla essentialis
+        differentia invenitur. Ex quo sequitur, quod <pb n="[241]"/>omnia media ipsarum ligaturarum
+        conveniunt in significatis. Per quod patet positio illorum esse falsa, qui ponunt in
+        ternaria aliquam mediam esse longam, in omnibus autem aliis fore brevem. Unde videndum est,
+        quid sit proprietas, quid sine et quid opposita, quid etiam sit perfectio, quid imperfectio
+        et de horum omnium significatis.</p>
+      <p xml:id="FRAARSCM0075">Proprietas est nota primariae inventionis ligaturae a plana musica
+        data in principio illius, perfectio vero idem dicit, sed in fine. Unde sequuntur regulae
         differentiarum praedictarum.</p>
       <p xml:id="FRAARSCM0076">Omnis ligatura [158a] descendens tractum habens a primo puncto
         descendentem a parte sinistra, cum proprietate dicitur eo, quod sic in plana musica
         figuratur:</p>
-      <p xml:id="FRAARSCM0077">[ClefC3,Lig2cdsnd,Lig2cdsnod,Lig3cdsndd,Lig3cdsnodart,Lig3cdsndod,Lig6cdsndodaaart on
+      <p xml:id="FRAARSCM0077"
+        >[ClefC3,Lig2cdsnd,Lig2cdsnod,Lig3cdsndd,Lig3cdsnodart,Lig3cdsndod,Lig6cdsndodaaart on
         staff4]</p>
-      <p xml:id="FRAARSCM0078">Si autem careat omni tractu, sine proprietate dicetur, ut hic patet:</p>
-      <p xml:id="FRAARSCM0079">[ClefC3,Lig2d,Lig2od,Lig3dd,Lig3dod,Lig4odaart,Lig4doda on staff3]</p>
+      <p xml:id="FRAARSCM0078">Si autem careat omni tractu, sine proprietate dicetur, ut hic
+        patet:</p>
+      <p xml:id="FRAARSCM0079">[ClefC3,Lig2d,Lig2od,Lig3dd,Lig3dod,Lig4odaart,Lig4doda on
+        staff3]</p>
       <p xml:id="FRAARSCM0080">Item omnis figura ascendens cum proprietate dicetur, si careat omni
         tractu, ut hic:</p>
       <p xml:id="FRAARSCM0081">[ClefC2,Lig2art,Lig2a,Lig3aart,Lig3ad,Lig3aod,Lig5addd on staff3]</p>
-      <p xml:id="FRAARSCM0082">Si vero tractum habeat a parte sinistra primi puncti descendentem, ut hic
-        apparet:</p>
-      <p xml:id="FRAARSCM0083">[ClefC2,Lig2cdsnart,Lig2cdsna,Lig3cdsnaart,Lig3cdsnaa,Lig3cdsnaod,Lig5addd on staff3]</p>
+      <p xml:id="FRAARSCM0082">Si vero tractum habeat a parte sinistra primi puncti descendentem, ut
+        hic apparet:</p>
+      <p xml:id="FRAARSCM0083"
+        >[ClefC2,Lig2cdsnart,Lig2cdsna,Lig3cdsnaart,Lig3cdsnaa,Lig3cdsnaod,Lig5addd on staff3]</p>
       <p xml:id="FRAARSCM0084">vel dextra quod magis proprium est, ut hic:</p>
       <p xml:id="FRAARSCM0085">[ClefC3,Lig2art,Lig2cdsna,Lig3aart,Lig3aod,Lig4Laaod on staff4]</p>
       <p xml:id="FRAARSCM0086">tunc proprietate carebit.</p>
       <p xml:id="FRAARSCM0087">
         <pb n="[242]"/>Iterum omnis ligatura tam ascendens quam descendens tractum gerens a primo
         puncto ascendentem, cum opposita proprietate dicetur:</p>
-      <p xml:id="FRAARSCM0088">[ClefC2,Lig3cssnodart,Lig2cssnart,Lig2cssna,Lig3cssnaart,Lig2cssnod,Lig3cssndod,Lig3cssndd
+      <p xml:id="FRAARSCM0088"
+        >[ClefC2,Lig3cssnodart,Lig2cssnart,Lig2cssna,Lig3cssnaart,Lig2cssnod,Lig3cssndod,Lig3cssndd
         on staff3]</p>
       <p xml:id="FRAARSCM0089">A parte autem finis ligaturae tales dantur regulae: Omnis ligatura
         ultimum punctum recte gerens supra paenultimum est perfecta, ut hic apparet:</p>
-      <p xml:id="FRAARSCM0090">[ClefC3,Lig2art,Lig3aart,Lig2Lart,Lig3Laart,Lig3cdsnodart,Lig5cdsnddodart
-        on staff4]</p>
+      <p xml:id="FRAARSCM0090"
+        >[ClefC3,Lig2art,Lig3aart,Lig2Lart,Lig3Laart,Lig3cdsnodart,Lig5cdsnddodart on staff4]</p>
       <p xml:id="FRAARSCM0091">vel sub paenultimo, ut hic:</p>
       <p xml:id="FRAARSCM0092">[ClefC2,Lig2cdsnd,Lig2d,Lig4cdsnodad,Lig4aad,Lig3cdsndd,Lig3ad on
         staff4]</p>
-      <p xml:id="FRAARSCM0093">Imperfecta autem redditur ligatura duobus modis, primo si ultimus punctus
-        directus averso capite stat supra paenultimum sine plica, ut hic:</p>
+      <p xml:id="FRAARSCM0093">Imperfecta autem redditur ligatura duobus modis, primo si ultimus
+        punctus directus averso capite stat supra paenultimum sine plica, ut hic:</p>
       <p xml:id="FRAARSCM0094">[ClefC2,Lig2a,Lig4aoda,Lig3odart,Lig3Laa,Lig6adodaa on staff3]</p>
       <p xml:id="FRAARSCM0095">secundo vero, si duo ultima puncta ligaturae in uno corpore obliquo
         ascendente commiscentur, ut hic patet: [158b]</p>
-      <p xml:id="FRAARSCM0096">[Lig2oa,Lig3Laoa,Lig3cdsndoa,Lig3Laoa,Lig3cdsndod,Lig2od,Lig3aod,Lig3aod,Lig5aadod on
+      <p xml:id="FRAARSCM0096"
+        >[Lig2oa,Lig3Laoa,Lig3cdsndoa,Lig3Laoa,Lig3cdsndod,Lig2od,Lig3aod,Lig3aod,Lig5aadod on
         staff3]</p>
       <p xml:id="FRAARSCM0097">Ascendens tamen talis imperfectio non in usu habetur, nec etiam est
         necessaria, nisi quando brevem plicari oportet in ligatura in fine ascendente, ut postea
@@ -314,36 +334,39 @@
         longam. Item omnis perfectio longa, et omnis imperfectio brevis. Item omnis opposita
         proprietas facit illam semibrevem, cui additur, et sequentem, non per se, sed ex
         consequenti, eo quod nulla semibrevis inveniri possit.</p>
-      <p xml:id="FRAARSCM0100">Item omnis media brevis, nisi per oppositam proprietatem semibrevietur,
-        ut dictum est prius. Intelligendum est etiam in ligaturis longas perfici eo modo, quo in
-        simplicibus fuit dictum, breves quoque rectas fieri et alterari.</p>
+      <p xml:id="FRAARSCM0100">Item omnis media brevis, nisi per oppositam proprietatem
+        semibrevietur, ut dictum est prius. Intelligendum est etiam in ligaturis longas perfici eo
+        modo, quo in simplicibus fuit dictum, breves quoque rectas fieri et alterari.</p>
       <p xml:id="FRAARSCM0101">8. De plicis in figuris ligatis.</p>
       <p xml:id="FRAARSCM0102">Praeterea sciendum est, quod omnis ligatura, tam perfecta quam
         imperfecta, plicabilis est, et hoc a parte finis. Quid autem sit plica, dictum est prius
         inde de simplicibus figuris. Plicatur enim ligatura perfecta dupliciter, ascendendo et
         descendendo, ascendendo vero sic:</p>
-      <p xml:id="FRAARSCM0103">[ClefC3,Lig2acsdx,Lig3cdsnodacsdx,Lig2cdsndcsdx,Lig3cdsnddcsdx,Lig4dodacsdx,Lig3aa on
+      <p xml:id="FRAARSCM0103"
+        >[ClefC3,Lig2acsdx,Lig3cdsnodacsdx,Lig2cdsndcsdx,Lig3cdsnddcsdx,Lig4dodacsdx,Lig3aa on
         staff3]</p>
       <p xml:id="FRAARSCM0104">Descendendo vero sic:</p>
-      <p xml:id="FRAARSCM0105">[ClefF2,Lig2cdsndcddx,Lig2acddx,Lig3adcddx,Lig3cdsnodacddx,Lig3cdsnddcddx,Lig3aacddx,Lig3ddcddx
+      <p xml:id="FRAARSCM0105"
+        >[ClefF2,Lig2cdsndcddx,Lig2acddx,Lig3adcddx,Lig3cdsnodacddx,Lig3cdsnddcddx,Lig3aacddx,Lig3ddcddx
         on staff3]</p>
-      <p xml:id="FRAARSCM0106">Item dupliciter [159a] plicatur imperfecta. Et nota imperfectam semper
-        plicari in imperfectione obliqua ascendente vel descendente, ut hic patet:</p>
-      <p xml:id="FRAARSCM0107">[ClefC2,Lig3cdsndodcsdx,Lig2cdsnodcddx,Lig2cdsnodcsdx,Lig3aoapddx,Lig3aoapsdx,Lig4cssnaaoapsdx
+      <p xml:id="FRAARSCM0106">Item dupliciter [159a] plicatur imperfecta. Et nota imperfectam
+        semper plicari in imperfectione obliqua ascendente vel descendente, ut hic patet:</p>
+      <p xml:id="FRAARSCM0107"
+        >[ClefC2,Lig3cdsndodcsdx,Lig2cdsnodcddx,Lig2cdsnodcsdx,Lig3aoapddx,Lig3aoapsdx,Lig4cssnaaoapsdx
         on staff3]</p>
-      <p xml:id="FRAARSCM0108">Et in tali casu, ubi debet plicari imperfecta, est necessaria obliquitas
-        fieri ascendendo ad hoc, quod ultima brevietur. <pb n="[244]"/>Quoniam si recta imperfectio
-        plicaretur, per plicam perficeretur, eo quod perfectae rationem participaret. Imperfectio
-        tamen obliqua ascendens non est ponenda sine plica, nam positio imperfectionis rectae
-        sufficit, ubicumque non est plica et proprior est et magis usitata. Sic patent plicae omnium
-        ligaturarum.</p>
+      <p xml:id="FRAARSCM0108">Et in tali casu, ubi debet plicari imperfecta, est necessaria
+        obliquitas fieri ascendendo ad hoc, quod ultima brevietur. <pb n="[244]"/>Quoniam si recta
+        imperfectio plicaretur, per plicam perficeretur, eo quod perfectae rationem participaret.
+        Imperfectio tamen obliqua ascendens non est ponenda sine plica, nam positio imperfectionis
+        rectae sufficit, ubicumque non est plica et proprior est et magis usitata. Sic patent plicae
+        omnium ligaturarum.</p>
       <p xml:id="FRAARSCM0109">Sunt etiam quaedam conjuncturae simplicium et ligatarum, quae partim
         participant ligaturas et partim simplices figuras, quae nec ligaturae nec simplices figurae
         appellari possunt, ut hic patet:</p>
-      <p xml:id="FRAARSCM0110">[ClefC2,Lig2cdsnd,S,B,Lig4psdxadod,Lig5pssnodcuadd,Lig8cssncuadddadd on
-        staff3]</p>
-      <p xml:id="FRAARSCM0111">De valore autem conjunctarum talium non possunt aliae regulae dari quam
-        illae, quae de simplicibus et ligaturis prius dantur. Praeterea sunt quaedam aliae
+      <p xml:id="FRAARSCM0110">[ClefC2,Lig2cdsnd,S,B,Lig4psdxadod,Lig5pssnodcuadd,Lig8cssncuadddadd
+        on staff3]</p>
+      <p xml:id="FRAARSCM0111">De valore autem conjunctarum talium non possunt aliae regulae dari
+        quam illae, quae de simplicibus et ligaturis prius dantur. Praeterea sunt quaedam aliae
         ordinationes simplicium figurarum et ligaturarum quarundam non impositarum supplentes
         defectum, quae regulis simplicium tantummodo dignoscuntur, ut hic patet.</p>
       <p xml:id="FRAARSCM0112">9. De pausis et quomodo per ipsas modi ad invicem variantur.</p>
@@ -360,17 +383,17 @@
         immensurabilis appellatur, nam et ipsa in plana musica reperitur. Haec tantum notam
         paenultimam significat esse longam, in quocumque modo evenit, licet ista paenultima de
         ratione modi, in quo est, brevis esset.</p>
-      <p xml:id="FRAARSCM0115">Praeterea iste VI pausea VI tractibus subtilibus designantur, qui etiam
-        pausae appellantur. Quarum prima, quae perfecta dicitur, IIII attingens lineas tria spatia
-        comprehendit, eo quod tribus temporibus mensuratur. Imperfecta vero tres lineas apprehendens
-        eadem ratione spatia duo tegit, brevis unum, major semibrevis duas partes unius, sed minor
-        unum [160a] tantum tegit. Finis punctorum omnes lineas attingens quatuor spatia
-        comprehendit. Harum autem omnium patent formulae in praesenti exemplo.</p>
+      <p xml:id="FRAARSCM0115">Praeterea iste VI pausea VI tractibus subtilibus designantur, qui
+        etiam pausae appellantur. Quarum prima, quae perfecta dicitur, IIII attingens lineas tria
+        spatia comprehendit, eo quod tribus temporibus mensuratur. Imperfecta vero tres lineas
+        apprehendens eadem ratione spatia duo tegit, brevis unum, major semibrevis duas partes
+        unius, sed minor unum [160a] tantum tegit. Finis punctorum omnes lineas attingens quatuor
+        spatia comprehendit. Harum autem omnium patent formulae in praesenti exemplo.</p>
       <p xml:id="FRAARSCM0116">[Cserba, 245] <figure>
           <graphic url="/images/FRAARSCM_03GF.gif"/>
         </figure></p>
-      <p xml:id="FRAARSCM0117">Et nota pausationes mirabilem habere potestatem. Nam per ipsas modi ad
-        invicem transmutantur. Unde propria pausa primi modi est brevis recta vel longa perfecta,
+      <p xml:id="FRAARSCM0117">Et nota pausationes mirabilem habere potestatem. Nam per ipsas modi
+        ad invicem transmutantur. Unde propria pausa primi modi est brevis recta vel longa perfecta,
         pausa vero secundi modi est longa imperfecta, tertii autem et quarti pausationes sunt
         proprie longae perfectae, improprie vero recta brevis et altera. Quintus autem proprie
         brevem pausationem vel semibrevem meretur habere. Unde si primus <pb n="[246]"/>modus, qui
@@ -390,64 +413,70 @@
       <p xml:id="FRAARSCM0126">si vero nec sic nec sic, tunc propriis pausationibus regulatur, ut
         hic:</p>
       <p xml:id="FRAARSCM0127">[Cserba, 246,5; text: Respondi quae ne lerroit]</p>
-      <p xml:id="FRAARSCM0128">Et nota, quod in uno solo discantu omnes modi concurrere possunt eo quod
-        per perfectiones omnes modi ad <pb n="[247]"/>unum reducuntur. Nec est vis facienda de tali
-        discantu, de quo modo judicetur, potest tamen dici de illo, in quo plus vel pluries
+      <p xml:id="FRAARSCM0128">Et nota, quod in uno solo discantu omnes modi concurrere possunt eo
+        quod per perfectiones omnes modi ad <pb n="[247]"/>unum reducuntur. Nec est vis facienda de
+        tali discantu, de quo modo judicetur, potest tamen dici de illo, in quo plus vel pluries
         commoratur. Et inde, quod quintus modus maxime cum aliis omnibus potest sumi.</p>
       <p xml:id="FRAARSCM0129">Et haec de pausationibus et etiam modorum variatione sufficiant quoad
         praesens.</p>
       <p xml:id="FRAARSCM0130">10. Quot figurae simul ligabiles sint.</p>
-      <p xml:id="FRAARSCM0131">Item sciendum, quod figura ligabilis non ligata vitiosa est, sed magis
-        non ligabilis ligata. Unde notandum, quod plures longae ad invicem ligari non possunt nisi
-        in binaria ligatura, quae est sine proprietate et cum perfectione. Nec adhuc in tali loco
-        sunt vitiosae si non ligentur, eo quod longa nusquam alicubi cum longa ligabilis invenitur.
-        Ex quo sequitur, quod vehementer errant, qui tres longas aliqua occasione, ut in tenoribus,
-        ad se invicem ligant, similiter illi, qui inter [161a] duas breves longam ligant, cum de
-        impositione mediarum, ut visum est prius, omnes mediae brevientur.</p>
-      <p xml:id="FRAARSCM0132">Item plures semibreves quam duae simul ligari non possunt, et semper in
-        principio ligaturae. Et hoc intellige in propria ligatura. Breves autem ligabiles sunt in
+      <p xml:id="FRAARSCM0131">Item sciendum, quod figura ligabilis non ligata vitiosa est, sed
+        magis non ligabilis ligata. Unde notandum, quod plures longae ad invicem ligari non possunt
+        nisi in binaria ligatura, quae est sine proprietate et cum perfectione. Nec adhuc in tali
+        loco sunt vitiosae si non ligentur, eo quod longa nusquam alicubi cum longa ligabilis
+        invenitur. Ex quo sequitur, quod vehementer errant, qui tres longas aliqua occasione, ut in
+        tenoribus, ad se invicem ligant, similiter illi, qui inter [161a] duas breves longam ligant,
+        cum de impositione mediarum, ut visum est prius, omnes mediae brevientur.</p>
+      <p xml:id="FRAARSCM0132">Item plures semibreves quam duae simul ligari non possunt, et semper
+        in principio ligaturae. Et hoc intellige in propria ligatura. Breves autem ligabiles sunt in
         principio, medio et in fine.</p>
-      <p xml:id="FRAARSCM0133">Ex his patet, quod modus quilibet acceptus sine littera ligabilis est,
-        excepto illo, qui procedit ex omnibus longis. Unde primus, qui procedit ex longa et brevi,
-        primo ligat <pb n="[248]"/>tres sine proprietate et cum perfectione, deinde duas cum
+      <p xml:id="FRAARSCM0133">Ex his patet, quod modus quilibet acceptus sine littera ligabilis
+        est, excepto illo, qui procedit ex omnibus longis. Unde primus, qui procedit ex longa et
+        brevi, primo ligat <pb n="[248]"/>tres sine proprietate et cum perfectione, deinde duas cum
         proprietate et perfectione et duas quantum placuerit, ita quod super tales duas terminatur,
         ut hic patet:</p>
       <p xml:id="FRAARSCM0134">[ClefC3,Lig3dd,Lig2art,Lig2cdsnd,Lig2cdsnd,Lig2art,Lig2cdsnd;
         Lig3odart,Lig2cdsnd,Lig2cdsnd on staff4]</p>
       <p xml:id="FRAARSCM0135">nisi modus praedictus varietur, ut hic patet:</p>
-      <p xml:id="FRAARSCM0136">[ClefC4,Lig3cdsndd,Lig2art,B,BP,Lig2art,Lig2cdsnd,Lig2cdsnd,Lig2art,B,r,Lig3cdsndd,Lig2cdsnd
+      <p xml:id="FRAARSCM0136"
+        >[ClefC4,Lig3cdsndd,Lig2art,B,BP,Lig2art,Lig2cdsnd,Lig2cdsnd,Lig2art,B,r,Lig3cdsndd,Lig2cdsnd
         on staff4]</p>
-      <p xml:id="FRAARSCM0137">Et nota, quod modi multipliciter variari possunt, ut dictum est prius in
-        de pausationibus.</p>
-      <p xml:id="FRAARSCM0138">Secundus vero binariam ligaturam cum proprietate et perfectione sumit cum
-        duabus et duabus etc. earundem specierum una sola brevi remanente, ut hic apparet:</p>
-      <p xml:id="FRAARSCM0139">[ClefC3,Lig2art,Lig2cdsnd,Lig2cdsnd,B; Lig2cdsnd,Lig2art,Lig2cdsnd,B on
-        staff4]</p>
+      <p xml:id="FRAARSCM0137">Et nota, quod modi multipliciter variari possunt, ut dictum est prius
+        in de pausationibus.</p>
+      <p xml:id="FRAARSCM0138">Secundus vero binariam ligaturam cum proprietate et perfectione sumit
+        cum duabus et duabus etc. earundem specierum una sola brevi remanente, ut hic apparet:</p>
+      <p xml:id="FRAARSCM0139">[ClefC3,Lig2art,Lig2cdsnd,Lig2cdsnd,B; Lig2cdsnd,Lig2art,Lig2cdsnd,B
+        on staff4]</p>
       <p xml:id="FRAARSCM0140">nisi modus varietur, ut hic apparet.</p>
       <p xml:id="FRAARSCM0141">[ClefC3,Lig2art,Lig2cdsnd,Lig2cdsnd,Lig3dd,Lig2art,Lig2art,Lig2art on
         staff4]</p>
-      <p xml:id="FRAARSCM0142">Tertius vero quaternariam accipit sine proprietate et cum perfectione cum
-        tribus cum proprietate et perfectione et tribus et tribus etc., [161b] ut hic apparet:</p>
-      <p xml:id="FRAARSCM0143">[ClefC3,Lig4aaart,Lig3aart,Lig3cdsndd,Lig3aart,Lig3cdsndd,Lig3aart,Lig3cdsndd,Lig3ad on
+      <p xml:id="FRAARSCM0142">Tertius vero quaternariam accipit sine proprietate et cum perfectione
+        cum tribus cum proprietate et perfectione et tribus et tribus etc., [161b] ut hic
+        apparet:</p>
+      <p xml:id="FRAARSCM0143"
+        >[ClefC3,Lig4aaart,Lig3aart,Lig3cdsndd,Lig3aart,Lig3cdsndd,Lig3aart,Lig3cdsndd,Lig3ad on
         staff4]</p>
       <p xml:id="FRAARSCM0144">nisi modus varietur, ut hic:</p>
-      <p xml:id="FRAARSCM0145">[ClefC3,Lig4ddd,Lig3aart,Lig2cdsnod,Lig3cdsnodart,Lig3cdsnodart,Lig3cdsnodart on
+      <p xml:id="FRAARSCM0145"
+        >[ClefC3,Lig4ddd,Lig3aart,Lig2cdsnod,Lig3cdsnodart,Lig3cdsnodart,Lig3cdsnodart on
         staff4]</p>
       <p xml:id="FRAARSCM0146">
         <pb n="[249]"/>Quartus vero tres cum proprietate et perfectione primo ligat cum tribus et
         tribus etc. earundem specierum et in fine cum duabus cum proprietate et sine perfectione, ut
         hic:</p>
-      <p xml:id="FRAARSCM0147">[ClefC3,Lig3cdsndd,Lig3aart,Lig3cdsndd,Lig3aart,Lig2a,Lig3cdsnodart,Lig3cdsndd,Lig3cdsndd
+      <p xml:id="FRAARSCM0147"
+        >[ClefC3,Lig3cdsndd,Lig3aart,Lig3cdsndd,Lig3aart,Lig2a,Lig3cdsnodart,Lig3cdsndd,Lig3cdsndd
         on staff4]</p>
       <p xml:id="FRAARSCM0148">nisi modus varietur, ut hic:</p>
-      <p xml:id="FRAARSCM0149">[ClefC3,Lig3aart,Lig3aart,Lig3cdsndd; Lig4cdsnddd,Lig3aart,Lig3cdsndd on
-        staff4]</p>
+      <p xml:id="FRAARSCM0149">[ClefC3,Lig3aart,Lig3aart,Lig3cdsndd; Lig4cdsnddd,Lig3aart,Lig3cdsndd
+        on staff4]</p>
       <p xml:id="FRAARSCM0150">Quintus autem quantum plus potest ligari debet et in breves vel
         semibreves terminatur, ut hic:</p>
       <p xml:id="FRAARSCM0151">[ClefC3,Lig17cdsndodadodadodadodadodaa,2LP,B,Lig4aoda,Lig5addod on
         staff4]</p>
       <p xml:id="FRAARSCM0152">nisi modus varietur ut hic:</p>
-      <p xml:id="FRAARSCM0153">[ClefC3,Lig7cdsnodaaaaart,Lig3aart,Lig7cdsnodadddart,2LP,Lig7cdsndodaaodart on staff4]</p>
+      <p xml:id="FRAARSCM0153"
+        >[ClefC3,Lig7cdsnodaaaaart,Lig3aart,Lig7cdsnodadddart,2LP,Lig7cdsndodaaodart on staff4]</p>
       <p xml:id="FRAARSCM0154">11. De discantu et ejus speciebus.</p>
       <p xml:id="FRAARSCM0155">Viso de figuris et pausationibus dicendum est de discantu, qualiter
         habeat fieri, et de speciebus ejus. Sed quia discantus quilibet per consonantias regulatur,
@@ -463,15 +492,15 @@
       <p xml:id="FRAARSCM0157">[Cserba, 250,1] <figure>
           <graphic url="/images/FRAARSCM_04GF.gif"/>
         </figure></p>
-      <p xml:id="FRAARSCM0158">Imperfectae dicuntur, quando duae voces multum differre percipiuntur ab
-        auditu, non tamen discordant. Et sunt duae, scilicet ditonus et semiditonus, ut hic:</p>
+      <p xml:id="FRAARSCM0158">Imperfectae dicuntur, quando duae voces multum differre percipiuntur
+        ab auditu, non tamen discordant. Et sunt duae, scilicet ditonus et semiditonus, ut hic:</p>
       <p xml:id="FRAARSCM0159">[Cserba, 250,2]</p>
       <p xml:id="FRAARSCM0160">Mediae vero concordantiae dicuntur, quando duae voces conjunguntur
         meliorem concordantiam habentes quam praedictae, non tamen ut perfectae. Et sunt duae,
         scilicet diapente et diatesseron, ut hic patet:</p>
       <p xml:id="FRAARSCM0161">[Cserba, 250,3]</p>
-      <p xml:id="FRAARSCM0162">Quare autem una concordantia magis concordat quam alia, planae musicae
-        relinquatur.</p>
+      <p xml:id="FRAARSCM0162">Quare autem una concordantia magis concordat quam alia, planae
+        musicae relinquatur.</p>
       <p xml:id="FRAARSCM0163">
         <pb n="[251]"/>Discordantiarum duae sunt species, perfecta et imperfecta. Perfecta
         discordantia dicitur, quando duae voces sic conjunguntur, quod se compati non possunt
@@ -499,8 +528,8 @@
         quod discantum tenet et [163a] ab ipso ortum habet, in conductis vero non sic, sed fiunt ab
         eodem cantus et discantus. Sed discantus dicitur dupliciter, primo dicitur discantus quasi
         diversorum cantus, secundo dicitur discantus quasi de cantu sumptus.</p>
-      <p xml:id="FRAARSCM0171">Modi autem operandi in istis talis est processus, aut discantus incipit
-        in unisono cum tenore, ut hic apparet:</p>
+      <p xml:id="FRAARSCM0171">Modi autem operandi in istis talis est processus, aut discantus
+        incipit in unisono cum tenore, ut hic apparet:</p>
       <p xml:id="FRAARSCM0172">[Cserba, 252; text: Virgo Dei plena, amoris] <figure>
           <graphic url="/images/FRAARSCM_05GF.gif"/>
         </figure></p>
@@ -523,9 +552,9 @@
       <p xml:id="FRAARSCM0184">[Cserba, 254,1; text: Ave plena gratia, Johanne]</p>
       <p xml:id="FRAARSCM0185">Item intelligendum est, quod in omnibus modis utendum est semper
         concordantiis in principio perfectionis, licet sit longa, brevis vel semibrevis.</p>
-      <p xml:id="FRAARSCM0186">Item in conductis aliter est operandum, quia qui vult facere conductum,
-        primum cantum invenire debet pulchriorem quam potest. Deinde uti debet illo ut de tenore
-        faciendo discantum, ut dictum est prius.</p>
+      <p xml:id="FRAARSCM0186">Item in conductis aliter est operandum, quia qui vult facere
+        conductum, primum cantum invenire debet pulchriorem quam potest. Deinde uti debet illo ut de
+        tenore faciendo discantum, ut dictum est prius.</p>
       <p xml:id="FRAARSCM0187">Qui autem triplum voluerit operari, respiciendum est tenorem et
         discantum, ita quod si discordat cum tenore, non discordet cum discantu vel e converso. Et
         procedat ulterius per concordantias nunc ascendendo cum tenore vel descendendo, nunc cum
@@ -536,20 +565,20 @@
         [164a] prius factos, ut si cum uno discordat, cum aliis in concordantiis habeatur, nec
         ascendere debet semper vel descendere cum altero ipsorum, sed nunc cum tenore, nunc cum
         discantu etc.</p>
-      <p xml:id="FRAARSCM0190">Notandum, quod tam in discantu quam in triplicibus etc. inspicienda est
-        aequipollentia imperfectionis longarum, brevium et semibrevium, ita quod tot perfectiones in
-        tenore habeantur, quot in discantu vel in triplo etc. vel e converso computando tam voces
-        rectas quam obmissas usque ad paenultimam, ubi non attenditur talis mensura, sed magis est
-        organicus ibi punctus.</p>
+      <p xml:id="FRAARSCM0190">Notandum, quod tam in discantu quam in triplicibus etc. inspicienda
+        est aequipollentia imperfectionis longarum, brevium et semibrevium, ita quod tot
+        perfectiones in tenore habeantur, quot in discantu vel in triplo etc. vel e converso
+        computando tam voces rectas quam obmissas usque ad paenultimam, ubi non attenditur talis
+        mensura, sed magis est organicus ibi punctus.</p>
       <p xml:id="FRAARSCM0191">Et haec de discantu simpliciter prolato ad praesens sufficiant.</p>
       <p xml:id="FRAARSCM0192">12. De copula.</p>
-      <p xml:id="FRAARSCM0193">Copula est velox discantus ad invicem copulatus. Copula alia ligata, alia
-        non ligata. Ligata copula est, quae incipit a simplici longa et prosequitur per binariam
-        ligaturam cum proprietate et perfectione ad similitudinem secundi modi. Ab ipso tamen
-        secundo differt scilicet in notando et proferendo, in notando, quia secundus modus in
+      <p xml:id="FRAARSCM0193">Copula est velox discantus ad invicem copulatus. Copula alia ligata,
+        alia non ligata. Ligata copula est, quae incipit a simplici longa et prosequitur per
+        binariam ligaturam cum proprietate et perfectione ad similitudinem secundi modi. Ab ipso
+        tamen secundo differt scilicet in notando et proferendo, in notando, quia secundus modus in
         principio simplicem longam non habet, copula vero habet, ut hic patet:</p>
-      <p xml:id="FRAARSCM0194">[ClefC2,L,Lig2cdsnd,Lig2cdsnd,Lig2cdsnd,Lig2cdsnd,Lig2cdsnd,Lig3aart on
-        staff4]</p>
+      <p xml:id="FRAARSCM0194">[ClefC2,L,Lig2cdsnd,Lig2cdsnd,Lig2cdsnd,Lig2cdsnd,Lig2cdsnd,Lig3aart
+        on staff4]</p>
       <p xml:id="FRAARSCM0195">
         <pb n="[256]"/>Sed si inter primam simplicem et ligaturam divisio modi apponatur, tunc non
         est copula, sed de secundo modo appellatur, ut apparet in exemplo subsequenti:</p>
@@ -581,8 +610,8 @@
         cantatur cantus ochetus unam semibrevem obmittendo in una et aliam proferendo, ut hic
         patet:</p>
       <p xml:id="FRAARSCM0207">[Cserba, 257,2]</p>
-      <p xml:id="FRAARSCM0208">Et notandum, quod ex truncationibus dictis creantur ocheti vulgares ex
-        obmissione longarum et brevium et etiam prolatione. Et notandum, quod in omnibus istis
+      <p xml:id="FRAARSCM0208">Et notandum, quod ex truncationibus dictis creantur ocheti vulgares
+        ex obmissione longarum et brevium et etiam prolatione. Et notandum, quod in omnibus istis
         observanda est aequipollentia in temporibus et concordantia in vocibus rectis. Item
         sciendum, quod quaelibet truncatio <pb n="[258]"/>fundari debet supra cantum prius factum,
         licet sit vulgaris et Latinum.</p>
@@ -592,25 +621,25 @@
         Sciendum, quod purum organum haberi non potest, nisi super tenorem, ubi sola nota est in
         unisono, ita quod quando tenor accipit plures notas simul, statim est discantus, ut hic:</p>
       <p xml:id="FRAARSCM0212">[Cserba, 258,1]</p>
-      <p xml:id="FRAARSCM0213">Ipsius organi longae et breves tribus regulis cognoscuntur. Prima est:
-        Quidquid notatur in longa simplici [165b] nota, longum est, et in brevi breve et in
+      <p xml:id="FRAARSCM0213">Ipsius organi longae et breves tribus regulis cognoscuntur. Prima
+        est: Quidquid notatur in longa simplici [165b] nota, longum est, et in brevi breve et in
         semibrevi semibreve.</p>
-      <p xml:id="FRAARSCM0214">Secunda regula est: Quidquid est longum, indiget concordantia respectu
-        tenoris. Sed si discordantia venerit, tenor taceat vel se in concordantiam fingat, ut hic
-        patet:</p>
+      <p xml:id="FRAARSCM0214">Secunda regula est: Quidquid est longum, indiget concordantia
+        respectu tenoris. Sed si discordantia venerit, tenor taceat vel se in concordantiam fingat,
+        ut hic patet:</p>
       <p xml:id="FRAARSCM0215">[Cserba, 258,2]</p>
-      <p xml:id="FRAARSCM0216">Tertia regula est: Quidquid accipitur immediate ante pausationem, quae
-        finis punctorum dicitur, est longum, quia omnis paenultima longa est.</p>
+      <p xml:id="FRAARSCM0216">Tertia regula est: Quidquid accipitur immediate ante pausationem,
+        quae finis punctorum dicitur, est longum, quia omnis paenultima longa est.</p>
       <p xml:id="FRAARSCM0217">
         <pb n="[259]"/>Item notandum, quod quotienscumque in organo puro plures figurae simul in
         unisono evenerint, sola prima debet percuti, reliquae vero omnes in floratura teneantur, ut
         hic:</p>
-      <p xml:id="FRAARSCM0218">[ClefC2,Lig3cdsnoda,Bcsdx,S,S,S,S,S,Lig5cssnaaodacddx,Lig3ad,Lig3aart on
-        staff4]</p>
-      <p xml:id="FRAARSCM0219">Et hoc de discantu et ejus speciebus necnon et de ipsis signis, id est de
-        figuris et pausationibus, et de ipso organo sufficiant ibi dicta.</p>
-      <p xml:id="FRAARSCM0220">Quae quidem quasi epilogando, sed abbreviando Petrus Picardus scribens
-        ait:</p>
+      <p xml:id="FRAARSCM0218">[ClefC2,Lig3cdsnoda,Bcsdx,S,S,S,S,S,Lig5cssnaaodacddx,Lig3ad,Lig3aart
+        on staff4]</p>
+      <p xml:id="FRAARSCM0219">Et hoc de discantu et ejus speciebus necnon et de ipsis signis, id
+        est de figuris et pausationibus, et de ipso organo sufficiant ibi dicta.</p>
+      <p xml:id="FRAARSCM0220">Quae quidem quasi epilogando, sed abbreviando Petrus Picardus
+        scribens ait:</p>
     </body>
   </text>
 </TEI>

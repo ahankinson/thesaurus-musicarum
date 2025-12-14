@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Scolica enchiriadis de arte musica</title>
         <title type="abbrev">SCENCH</title>
-        <author>Anonymous</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Dawn Reindl</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
-        <date>1998</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1998">1998</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Hans Schmid, ed., <emph>Musica et scolica enchiriadis una cum
             aliquibus tractatulis adiunctis</emph>, Bayerische Akademie der Wissenschaften,
@@ -178,33 +188,34 @@
     <body>
       <p xml:id="SCENCH0001">
         <pb n="[60]"/>INCIPIT SCOLICA ENCHIRIADIS DE MUSICA</p>
-      <p xml:id="SCENCH0002">Magister: Musica quid est? Discipulus: Bene modulandi scientia. [Mu]: Bene
-        modulari quid est? [Delta]: Melos suavisonum moderari. Sed haec quantum ad artem. Ceterum
-        non bene modulari video, si quis in vanis suavitate artis abutitur, quemadmodum nec ipse,
-        qui, ubi oportet, arte uti non novit, quamvis quilibet devoto tantum corde Domino dulce
-        canit. [Mu]: Recte putas, non nisi bono usu dulcia mela bene fieri, nec rursum sacris melis
-        bene uti, si sine disciplina iniocundius proferantur. Quocirca cum ecclesiasticis canticis
-        haec disciplina vel maxime necessaria sit, ne incuria vel imperitia deturpentur, videamus,
-        quibus rebus opus sit ad bene modulandi facultatem. [Delta]: Video plura esse, quae cantorem
-          <pb n="[61]"/>observare oporteat, quae si non noverit, peritus esse non possit. Sed tuum
-        est, haec certius exponere. [Mu]: Alia sunt, quae sibi sonorum proprietas postulat, alia,
-        quae numerositatis poscit ratio, alia, quibus extrinsecus occurrentibus disciplina canendi
-        sese apte conformat. [Delta]: Hi soni qui sunt? [Mu]: Sonos hic ptongos dicimus, id est
-        voculas in canore concordes, quae sunt armoniae elementum. Etenim sicut loquela litteris,
-        ita constat ptongis armonia. [Delta]: Quae sunt, quae sibi sonorum proprietas poscit? [Mu]:
-        Ne quid in eis vitiata naturali qualitate absonum fiat. [Delta]: Quomodo fit haec absonia in
-        ptongis? [Mu]: Si aut ignavius pronuntientur aut acutius, quam oportet. Primo namque hoc
-        vitio in humanis vocibus et sonorum qualitas et tota leditur cantilena. Quod fit, ubi, quod
-        canitur, aut segni remissione gravescit aut non rite in sursum cogitur. Quod vitium in
-        quibuslibet musicis instrumentis nequit fieri, eo quod disposito semel ptongorum ordine vox
-        sua sonis singulis manet. Alia fit dissonantia, quando sonus a sono falso metitur, id est
-        alius pro alio. Tertia dissonantia, quando sonus non respondet sono, <pb n="[62]"/>quoto
-        loco oportet. Et haec duo vitia ex eadem quidem causa nascuntur, sed in hoc differunt, quod
-        illud in eadem fit neuma, hoc vero in praecinendo et respondendo. [Delta]: Haec duo vitia
-        quomodo eveniant, expone. [Mu]: Quattuor sonitibus competenter sibi diversis dum constet
-        armonia, quisque in suo tantum ordine propriam retinet qualitatem, nec in sua sede alteri
-        dat locum, quorum seriem puto iam notam tenes. [Delta]: Tuae potius insinuationi omnia
-        committo, eos sonos te canente audiam. [Mu]: Ecce canam. [descriptio 1 in marg.]</p>
+      <p xml:id="SCENCH0002">Magister: Musica quid est? Discipulus: Bene modulandi scientia. [Mu]:
+        Bene modulari quid est? [Delta]: Melos suavisonum moderari. Sed haec quantum ad artem.
+        Ceterum non bene modulari video, si quis in vanis suavitate artis abutitur, quemadmodum nec
+        ipse, qui, ubi oportet, arte uti non novit, quamvis quilibet devoto tantum corde Domino
+        dulce canit. [Mu]: Recte putas, non nisi bono usu dulcia mela bene fieri, nec rursum sacris
+        melis bene uti, si sine disciplina iniocundius proferantur. Quocirca cum ecclesiasticis
+        canticis haec disciplina vel maxime necessaria sit, ne incuria vel imperitia deturpentur,
+        videamus, quibus rebus opus sit ad bene modulandi facultatem. [Delta]: Video plura esse,
+        quae cantorem <pb n="[61]"/>observare oporteat, quae si non noverit, peritus esse non
+        possit. Sed tuum est, haec certius exponere. [Mu]: Alia sunt, quae sibi sonorum proprietas
+        postulat, alia, quae numerositatis poscit ratio, alia, quibus extrinsecus occurrentibus
+        disciplina canendi sese apte conformat. [Delta]: Hi soni qui sunt? [Mu]: Sonos hic ptongos
+        dicimus, id est voculas in canore concordes, quae sunt armoniae elementum. Etenim sicut
+        loquela litteris, ita constat ptongis armonia. [Delta]: Quae sunt, quae sibi sonorum
+        proprietas poscit? [Mu]: Ne quid in eis vitiata naturali qualitate absonum fiat. [Delta]:
+        Quomodo fit haec absonia in ptongis? [Mu]: Si aut ignavius pronuntientur aut acutius, quam
+        oportet. Primo namque hoc vitio in humanis vocibus et sonorum qualitas et tota leditur
+        cantilena. Quod fit, ubi, quod canitur, aut segni remissione gravescit aut non rite in
+        sursum cogitur. Quod vitium in quibuslibet musicis instrumentis nequit fieri, eo quod
+        disposito semel ptongorum ordine vox sua sonis singulis manet. Alia fit dissonantia, quando
+        sonus a sono falso metitur, id est alius pro alio. Tertia dissonantia, quando sonus non
+        respondet sono, <pb n="[62]"/>quoto loco oportet. Et haec duo vitia ex eadem quidem causa
+        nascuntur, sed in hoc differunt, quod illud in eadem fit neuma, hoc vero in praecinendo et
+        respondendo. [Delta]: Haec duo vitia quomodo eveniant, expone. [Mu]: Quattuor sonitibus
+        competenter sibi diversis dum constet armonia, quisque in suo tantum ordine propriam retinet
+        qualitatem, nec in sua sede alteri dat locum, quorum seriem puto iam notam tenes. [Delta]:
+        Tuae potius insinuationi omnia committo, eos sonos te canente audiam. [Mu]: Ecce canam.
+        [descriptio 1 in marg.]</p>
       <p xml:id="SCENCH0003">[VMKIII:62; text: Sic se habent in iusum. Sic se habent in sursum.] <figure>
           <graphic url="/images/SCENCH_01GF.gif"/>
         </figure></p>
@@ -214,14 +225,14 @@
         notantur. Primo est nota [signum] dasian inclinum S ad caput ita [signum]. Secundo C versum
         ad caput <pb n="[63]"/>ita [signum]. Tertio iota simplex et inclinum ita [signum]. Quarto C
         supinum ad caput ita [signum].</p>
-      <p xml:id="SCENCH0005">[Delta]: Quomodo his quattuor tantum armonia ac non potius sonorum constat
-        multitudine?</p>
+      <p xml:id="SCENCH0005">[Delta]: Quomodo his quattuor tantum armonia ac non potius sonorum
+        constat multitudine?</p>
       <p xml:id="SCENCH0006">[Mu]: Videlicet innumerabiles sunt cantilenarum soni. Sed quaternis et
         quaternis eiusdem conditionis in levando et deponendo sese consequentibus sonorum pluralitas
         adcrescit, id quoque me canente proba. [descriptio 2 in marg.]</p>
       <p xml:id="SCENCH0007">[VMKIII:63]</p>
-      <p xml:id="SCENCH0008">Sic ergo in omni concordi sonorum serie per haec veluti tetracorda et in
-        sursum cantilena et in iusum vadit, et quaternae socialiter sibi diversae voculae tamdiu
+      <p xml:id="SCENCH0008">Sic ergo in omni concordi sonorum serie per haec veluti tetracorda et
+        in sursum cantilena et in iusum vadit, et quaternae socialiter sibi diversae voculae tamdiu
         competente sibi successione coherent, donec vel nimium attenuatae deficiant vel gravatione
         conticescant.</p>
       <p xml:id="SCENCH0009">
@@ -229,8 +240,8 @@
         item pentacordis. Tetracordis scilicet, dum per unumquemque eorum quaterni in ordine
         deponuntur ita [descriptio 3 in marg.]</p>
       <p xml:id="SCENCH0010">[VMKIII:64,1]</p>
-      <p xml:id="SCENCH0011">Pentacordis autem, dum uno ad superiorem partem addito idem fit primus, qui
-        et extremus, ita [descriptio 4 in marg.]</p>
+      <p xml:id="SCENCH0011">Pentacordis autem, dum uno ad superiorem partem addito idem fit primus,
+        qui et extremus, ita [descriptio 4 in marg.]</p>
       <p xml:id="SCENCH0012">[VMKIII:64,2]</p>
       <p xml:id="SCENCH0013">Quod itaque sono [signum] archoo incipit ac finitur, pentacordum primum
         vocamus, et constat duobus tonis, semitonio atque tono. Quod sono [signum] deutero,
@@ -257,9 +268,9 @@
         [signum] tritum, haec altera erit absonia. [Delta]: Qualiter? [Mu]: Dic recensendo in sursum
         pentacordum a [signum] tetrardo, ut isdem descendas gradibus. [descriptio 6 in marg.]</p>
       <p xml:id="SCENCH0016">[VMKIII:66,2]</p>
-      <p xml:id="SCENCH0017">[Delta]: Dixi. [Mu]: Idem et ego dicam, mox subiungens aliud, ubi aliquid a
-        priore ordine transmutetur, videlicet loco tertio quasi post deuterum metiendo tritum ita
-          <pb n="[67]"/>[descriptiones 7a/b in marg.]</p>
+      <p xml:id="SCENCH0017">[Delta]: Dixi. [Mu]: Idem et ego dicam, mox subiungens aliud, ubi
+        aliquid a priore ordine transmutetur, videlicet loco tertio quasi post deuterum metiendo
+        tritum ita <pb n="[67]"/>[descriptiones 7a/b in marg.]</p>
       <p xml:id="SCENCH0018">[VMKIII:67] <figure>
           <graphic url="/images/SCENCH_02GF.gif"/>
         </figure></p>
@@ -272,9 +283,9 @@
       <p xml:id="SCENCH0020">
         <pb n="[68]"/>[Mu]: Dic etiam pentacordum a [signum] proto. [descriptio 8 in marg.]</p>
       <p xml:id="SCENCH0021">[VMKIII:68,1]</p>
-      <p xml:id="SCENCH0022">[Delta]: Dixi. [Mu]: Dicam et ego hoc idem, dehinc paululum ab hoc ordine
-        declinans in sequenti latere [signum] deuterum sonum [signum] tetrardo quasi [signum] trito
-        subiungam ita [descriptiones 9a/b in marg.]</p>
+      <p xml:id="SCENCH0022">[Delta]: Dixi. [Mu]: Dicam et ego hoc idem, dehinc paululum ab hoc
+        ordine declinans in sequenti latere [signum] deuterum sonum [signum] tetrardo quasi [signum]
+        trito subiungam ita [descriptiones 9a/b in marg.]</p>
       <p xml:id="SCENCH0023">[VMKIII:68,2]</p>
       <p xml:id="SCENCH0024">[Mu]: Sensisti et hic pentacordum ab ordine declinasse nec reverti, ut
         coepit? <pb n="[69]"/>[Delta]: Sensi utique. [Mu]: Videsne [signum] proto sono inchoatum
@@ -301,42 +312,43 @@
       <p xml:id="SCENCH0029">[VMKIII:71] <figure>
           <graphic url="/images/SCENCH_03GF.gif"/>
         </figure></p>
-      <p xml:id="SCENCH0030">[Delta]: Et id dinosco, quia pro eo, quod a [signum] trito sono [signum]
-        deuterus metiretur, abusive tritus a [signum] trito quasi a [signum] tetrardo, longiori quam
-        oportuit metiatur spacio. [Mu]: Quod si etiam tale pentacordum subiungamus, <pb n="[72]"/>quod his viciis utroque ledatur latere, huiusmodi erit absonia. Sit pentacordum tetrardi
-        [descriptiones 13a/b in marg.]</p>
+      <p xml:id="SCENCH0030">[Delta]: Et id dinosco, quia pro eo, quod a [signum] trito sono
+        [signum] deuterus metiretur, abusive tritus a [signum] trito quasi a [signum] tetrardo,
+        longiori quam oportuit metiatur spacio. [Mu]: Quod si etiam tale pentacordum subiungamus,
+          <pb n="[72]"/>quod his viciis utroque ledatur latere, huiusmodi erit absonia. Sit
+        pentacordum tetrardi [descriptiones 13a/b in marg.]</p>
       <p xml:id="SCENCH0031">[VMKIII:72]</p>
-      <p xml:id="SCENCH0032">[Delta]: Absonum certe, nec suave quid resonans. [Mu]: Hoc ergo intellecto,
-        qualiter sonus a sono falso metitur, videamus, quomodo et hoc eveniat, ut, si, quotis locis
-        oportet, soni ad sonos non respondeant, concordantia ad invicem mela non resonent. [Delta]:
-        Et id utique posco. [Mu]: Huc, inquam, ades, ac vide, quomodo in tetracordis vel pentacordis
-        quaternae varietatis ordo disponitur, ut, quotus ab alio quilibet constet sonus, liquido
-        contempleris. Nam sicut in coloribus, si sint quaterni et quaterni locati ex ordine in
-        lineamque dispositi, verbi gratia rubeus, viridis, gilbus, niger, necesse est, ut quisque
-        color tribus <pb n="[73]"/>aliis interpositis per quintana loca reperiatur, ita et in sonis
-        evenit, ut, dum sese nova semper iteratione consecuntur, cuique in utramque partem quintis
-        locis a suo compare respondeatur. [Delta]: Quomodo inquis compares, qui acumine et gravitate
-        sunt dispares? [Mu]: Acumine quidem sunt et gravitate differentes, quadam tamen sibi sunt
-        naturali socialitate concordes. Deinde sonus quisque quem in hoc aut illo latere secundum
-        habet, in alio latere habet quartum, quem tertium in hoc latere, eundem tertium in alio. Sed
-        haec dixerim iuxta quod in continuatione tetracordorum quaternae varietatis ordo disponitur.
-        [Delta]: Ad dinoscendum autem, quis sonus ille vel ille sit, velim cognoscere in singulis
-        suae proprietatem qualitatis. [Mu]: Iure id poscis. Etenim lucente prius sonorum
-        proprietatis qualitate minus erratur in ceteris. Sed haec posse dinoscere facili
-        exercitacione obtinebitur. Ergo sume aliquid canere, quod in sonum verbi gratia [signum]
-        archoum finiat, aliud mox subiungendum, quod <pb n="[74]"/>ab eodem sono incipiat vel a suo
-        compare superiore sive inferiore, sive inchoet a sono [signum] tetrardo, aut a sono [signum]
-        trito, aut a sono [signum] deutero. Igitur nisi id, quod subiungendum est et a sono [signum]
-        archoo incipit, aut equale ponas cum finali sono praecedentis meli, eodem dumtaxat [signum]
-        archoo, aut quinto loco superius seu quinto loco inferius, id autem, quod a sono [signum]
-        tetrardo inchoat, aut secundo loco inferius aut quarto loco superius, porro id, quod a sono
-        [signum] trito inchoat, aut tertio loco inferius aut tertio loco superius, at vero illud,
-        quod a sono [signum] deutero incipit, aut secundo loco superius aut quarto loco inferius, ad
-        subiectam sonorum descriptionem, minime id, quod subsequitur, concordare potest cum eo quod
-        praecedit. Et in omnibus sonis idem evenit, ut <pb n="[75]"/>scilicet in uno concordiae
-        corpore convenire nequeant, quod subinfertur quodque praecinitur, si vel supra vel infra
-        mutuo copulentur, quam finem huius et invicem initium illius mensura propria metitur.
-        [descriptio 14 in marg.]</p>
+      <p xml:id="SCENCH0032">[Delta]: Absonum certe, nec suave quid resonans. [Mu]: Hoc ergo
+        intellecto, qualiter sonus a sono falso metitur, videamus, quomodo et hoc eveniat, ut, si,
+        quotis locis oportet, soni ad sonos non respondeant, concordantia ad invicem mela non
+        resonent. [Delta]: Et id utique posco. [Mu]: Huc, inquam, ades, ac vide, quomodo in
+        tetracordis vel pentacordis quaternae varietatis ordo disponitur, ut, quotus ab alio
+        quilibet constet sonus, liquido contempleris. Nam sicut in coloribus, si sint quaterni et
+        quaterni locati ex ordine in lineamque dispositi, verbi gratia rubeus, viridis, gilbus,
+        niger, necesse est, ut quisque color tribus <pb n="[73]"/>aliis interpositis per quintana
+        loca reperiatur, ita et in sonis evenit, ut, dum sese nova semper iteratione consecuntur,
+        cuique in utramque partem quintis locis a suo compare respondeatur. [Delta]: Quomodo inquis
+        compares, qui acumine et gravitate sunt dispares? [Mu]: Acumine quidem sunt et gravitate
+        differentes, quadam tamen sibi sunt naturali socialitate concordes. Deinde sonus quisque
+        quem in hoc aut illo latere secundum habet, in alio latere habet quartum, quem tertium in
+        hoc latere, eundem tertium in alio. Sed haec dixerim iuxta quod in continuatione
+        tetracordorum quaternae varietatis ordo disponitur. [Delta]: Ad dinoscendum autem, quis
+        sonus ille vel ille sit, velim cognoscere in singulis suae proprietatem qualitatis. [Mu]:
+        Iure id poscis. Etenim lucente prius sonorum proprietatis qualitate minus erratur in
+        ceteris. Sed haec posse dinoscere facili exercitacione obtinebitur. Ergo sume aliquid
+        canere, quod in sonum verbi gratia [signum] archoum finiat, aliud mox subiungendum, quod <pb
+          n="[74]"/>ab eodem sono incipiat vel a suo compare superiore sive inferiore, sive inchoet
+        a sono [signum] tetrardo, aut a sono [signum] trito, aut a sono [signum] deutero. Igitur
+        nisi id, quod subiungendum est et a sono [signum] archoo incipit, aut equale ponas cum
+        finali sono praecedentis meli, eodem dumtaxat [signum] archoo, aut quinto loco superius seu
+        quinto loco inferius, id autem, quod a sono [signum] tetrardo inchoat, aut secundo loco
+        inferius aut quarto loco superius, porro id, quod a sono [signum] trito inchoat, aut tertio
+        loco inferius aut tertio loco superius, at vero illud, quod a sono [signum] deutero incipit,
+        aut secundo loco superius aut quarto loco inferius, ad subiectam sonorum descriptionem,
+        minime id, quod subsequitur, concordare potest cum eo quod praecedit. Et in omnibus sonis
+        idem evenit, ut <pb n="[75]"/>scilicet in uno concordiae corpore convenire nequeant, quod
+        subinfertur quodque praecinitur, si vel supra vel infra mutuo copulentur, quam finem huius
+        et invicem initium illius mensura propria metitur. [descriptio 14 in marg.]</p>
       <p xml:id="SCENCH0033">[VMKIII:75]</p>
       <p xml:id="SCENCH0034">Quapropter ubi oportet, ut haec concordia observetur, necesse est,
         finientes et incipientes soni naturali ad invicem ordine metiantur. Ubi vero id neglegitur
@@ -355,18 +367,19 @@
         exemplum huius migrationis. [Mu]: Quomodo si tetracorda vel pentacorda quina in ordine
         cecinero <pb n="[77]"/>hoc modo [descriptio 15 in marg.]</p>
       <p xml:id="SCENCH0035">[VMKIII:77,1]</p>
-      <p xml:id="SCENCH0036">Quemadmodum, inquam, ita canendo proti modi pentacordum uno spatio acutius
-        factum in deuteri pentacordum mutatur, a deutero in tritum transit, a trito in tetrardum, a
-        tetrardo rursus redit in protum, ita quicquid uno vel duobus seu tribus tonis ex integro
-        altius graviusve transposueris, simul in modum alium transmutabitur.</p>
-      <p xml:id="SCENCH0037">Exempli gratia usitata neuma regularis ad primum tonum haec est [descriptio
-        16 in marg.]</p>
+      <p xml:id="SCENCH0036">Quemadmodum, inquam, ita canendo proti modi pentacordum uno spatio
+        acutius factum in deuteri pentacordum mutatur, a deutero in tritum transit, a trito in
+        tetrardum, a tetrardo rursus redit in protum, ita quicquid uno vel duobus seu tribus tonis
+        ex integro altius graviusve transposueris, simul in modum alium transmutabitur.</p>
+      <p xml:id="SCENCH0037">Exempli gratia usitata neuma regularis ad primum tonum haec est
+        [descriptio 16 in marg.]</p>
       <p xml:id="SCENCH0038">[VMKIII:77,2; text: Noannoeane]</p>
       <p xml:id="SCENCH0039">Ergo huius neumae regularis si totam constitutionem uno spacio altiorem
         fecero, mox ex proto tono deuterus fiet. Similiter a deutero transposita in tritum modum
         deveniet. Rursus a trito tono si uno levetur spacio, tetrardus succedit. Adhuc unius spacii
         acumen dum acceperit, protus denuo nascitur. Quid, si descriptiunculis quoque haec eadem
-        exemplificarentur, nonne apertiora quaeque fierent veluti posita sub aspectum? <pb n="[78]"/>[Delta]: Ita nimirum est. [Mu]: Quinas ergo descriptiunculas linealiter disponamus, quae
+        exemplificarentur, nonne apertiora quaeque fierent veluti posita sub aspectum? <pb n="[78]"
+        />[Delta]: Ita nimirum est. [Mu]: Quinas ergo descriptiunculas linealiter disponamus, quae
         gradatim sibi coherentes huiusmodi tonorum transitiones exprimant hoc modo [descriptio 17 in
         marg.]</p>
       <p xml:id="SCENCH0040">[VMKIII:78; text: tonus, semitonium, Noannoeane]</p>
@@ -387,25 +400,25 @@
       <p xml:id="SCENCH0043">[VMKIII:80,1] <figure>
           <graphic url="/images/SCENCH_04GF.gif"/>
         </figure></p>
-      <p xml:id="SCENCH0044">[Delta]: En cecini. [Mu]: Huc adhibe proti quos volueris modos, et videbis
-        omnia, quae ad protum modum canuntur, sono [signum] proto finiri. [Delta]: Sic equidem
-        video. [Mu]: Da nunc aliud pentacordum, quod sit uno spacio altius, incipiens a sono
+      <p xml:id="SCENCH0044">[Delta]: En cecini. [Mu]: Huc adhibe proti quos volueris modos, et
+        videbis omnia, quae ad protum modum canuntur, sono [signum] proto finiri. [Delta]: Sic
+        equidem video. [Mu]: Da nunc aliud pentacordum, quod sit uno spacio altius, incipiens a sono
         [signum] deutero et in eo consistens. [Delta]: Et hoc ita canitur.</p>
       <p xml:id="SCENCH0045">[VMKIII:80,2]</p>
-      <p xml:id="SCENCH0046">[Mu]: Cane et mela modi deuteri et confer cum sono [signum] deutero, si in
-        ipso forte finiantur.</p>
+      <p xml:id="SCENCH0046">[Mu]: Cane et mela modi deuteri et confer cum sono [signum] deutero, si
+        in ipso forte finiantur.</p>
       <p xml:id="SCENCH0047">[Delta]: Utique faciunt.</p>
-      <p xml:id="SCENCH0048">[Mu]: Da nunc tertium pentacordum bino altius spacio, quod scilicet a sono
-        [signum] trito incipiat, et in ipsum deponatur. [Delta]: Et hoc huiusmodi est.</p>
+      <p xml:id="SCENCH0048">[Mu]: Da nunc tertium pentacordum bino altius spacio, quod scilicet a
+        sono [signum] trito incipiat, et in ipsum deponatur. [Delta]: Et hoc huiusmodi est.</p>
       <p xml:id="SCENCH0049">[VMKIII:80,3]</p>
-      <p xml:id="SCENCH0050">[Mu]: Huc adhibe tritos modos et [signum] trito sono terminari invenies.
-        [Delta]: Ita certe.</p>
+      <p xml:id="SCENCH0050">[Mu]: Huc adhibe tritos modos et [signum] trito sono terminari
+        invenies. [Delta]: Ita certe.</p>
       <p xml:id="SCENCH0051">[Mu]: Da nunc altius spaciis tribus, id est a sono [signum] tetrardo
         pentacordum quartum. [Delta]: Id hoc modo fit.</p>
       <p xml:id="SCENCH0052">[VMKIII:80,4]</p>
-      <p xml:id="SCENCH0053">[Mu]: Vide nunc tetrardos modos, an eos sentias in sono [signum] tetrardo
-        consistere. [Delta]: Sentio verissime. [Mu]: Da nunc pentacordum quintum, et rursus novo
-        tetracordo idem sonorum ordo modorumque revertitur. [Delta]: Et hoc certe mirandum.
+      <p xml:id="SCENCH0053">[Mu]: Vide nunc tetrardos modos, an eos sentias in sono [signum]
+        tetrardo consistere. [Delta]: Sentio verissime. [Mu]: Da nunc pentacordum quintum, et rursus
+        novo tetracordo idem sonorum ordo modorumque revertitur. [Delta]: Et hoc certe mirandum.
         [descriptio 22 in marg.]</p>
       <p xml:id="SCENCH0054">[VMKIII:80,5]</p>
       <p xml:id="SCENCH0055">
@@ -417,7 +430,8 @@
         solere computare. Ita tamen, ut bini modi, id est maior cum minore, a singulis in tetracordo
         sonitibus moderentur, et ob hoc uni deputantur modo, qui eodem reguntur sono. Scilicet
         [signum] archoo vel proto autentus protus et plagis, [signum] deutero deuterus autentus et
-        plagis, [signum] trito autentus tritus et plagis, [signum] tetrardo tetrardus autentus <pb n="[82]"/>et plagis. Sane autentum dicimus auctoralem, plagin subiugalem seu lateralem.
+        plagis, [signum] trito autentus tritus et plagis, [signum] tetrardo tetrardus autentus <pb
+          n="[82]"/>et plagis. Sane autentum dicimus auctoralem, plagin subiugalem seu lateralem.
         Sic igitur singuli et suae proprietatis qualitate sunt dinoscibiles, et suis quique
         tetracordis et pentacordis praesident, et, ut dictum est, tonos modosve discernunt. [Delta]:
         Ergone solius soni finalis virtus quemlibet modum efficit, ut ob id tropus vel modus illius
@@ -462,7 +476,8 @@
         finiendum est, ipse cum ceteris sui tetracordi sonitibus finalis optinet nomen, et hinc alia
         tetracorda sumunt ordinem. Ab eodem etiam sono, ut sit maior tonus aut minor mensuram
         accipit. Cum enim inferiorem quemque tonum quinto loco valeamus altiorem ponere et
-        superiorem quinto loco graviorem, ut supra monstratum est, profecto non secundum id <pb n="[85]"/>superior dicitur aut inferior, quod altius aut inferius alter canatur ab altero,
+        superiorem quinto loco graviorem, ut supra monstratum est, profecto non secundum id <pb
+          n="[85]"/>superior dicitur aut inferior, quod altius aut inferius alter canatur ab altero,
         sed secundum id, quo sese utrique toni ad sonum finalem habent. Habent autem hoc modo: A
         finali sono aequalis potestas est minori tono in superiora atque inferiora, id est in
         utroque latere pertingendi usque ad sonos quintos. Non quod semper id eveniat, sed quod haec
@@ -485,11 +500,11 @@
         metricis pedibus cantilena plaudatur. Age canamus exercitii usu, <pb n="[87]"/>plaudam pedes
         ego in praecinendo, tu sequendo imitabere: [descriptio 25 in marg.]</p>
       <p xml:id="SCENCH0062">[VMKIII:87; text: Ego sum via veritas et vita alleluia]</p>
-      <p xml:id="SCENCH0063">Solae in tribus membris ultimae longae, reliquae breves sunt. Sic itaque
-        numerose est canere, longis brevibusque sonis ratas morulas metiri, nec per loca protrahere
-        vel contrahere magis quam oportet, sed infra scandendi legem vocem continere, ut possit
-        melum ea finiri mora, qua coepit. Verum si aliquotiens causa variationis mutare moram velis,
-        id est circa initium aut finem protensiorem vel incitatiorem cursum facere, duplo id
+      <p xml:id="SCENCH0063">Solae in tribus membris ultimae longae, reliquae breves sunt. Sic
+        itaque numerose est canere, longis brevibusque sonis ratas morulas metiri, nec per loca
+        protrahere vel contrahere magis quam oportet, sed infra scandendi legem vocem continere, ut
+        possit melum ea finiri mora, qua coepit. Verum si aliquotiens causa variationis mutare moram
+        velis, id est circa initium aut finem protensiorem vel incitatiorem cursum facere, duplo id
         feceris, id est ut productam moram in duplo correptiore, seu correptam immutes duplo
         longiore. [Delta]: Puto temptare horum, quaeque expedit, et in usum vertere. [Mu]: Recte
         putas; ob hoc sumamus quodvis melum canere, nunc correptius, nunc productius, ita ut
@@ -528,30 +543,30 @@
         [Delta]: Quare diapente vel diatessaron vocatur? [Mu]: Diapente dicitur ex quinque, eo quod
         quinas voces continet, diatessaron interpretatur ex quattuor, quia quaternas complectitur
         voces.</p>
-      <p xml:id="SCENCH0068">DE DIAPASON AC DISDIAPASON. [Delta]: Quomodo canitur diapason? [Mu]: Ubi
-        ita vel in iusum vel in sursum vox a voce transmutatur, ut altior graviorque non tam
+      <p xml:id="SCENCH0068">DE DIAPASON AC DISDIAPASON. [Delta]: Quomodo canitur diapason? [Mu]:
+        Ubi ita vel in iusum vel in sursum vox a voce transmutatur, ut altior graviorque non tam
         consonae quam aequisonae sint, hoc adsensu concordantes diapason concinunt. Tamquam si ab H
         deponatur in A, vel ab H levetur in P ad subiectam descriptionem:</p>
       <p xml:id="SCENCH0069">
         <pb n="[91]"/>[descriptio 1 in marg.]</p>
-      <p xml:id="SCENCH0070">[VMKIII:91; text: P, H, A, Nos qui vivimus benedicimus dominum ex hoc nunc
-        et usque in seculum] <figure>
+      <p xml:id="SCENCH0070">[VMKIII:91; text: P, H, A, Nos qui vivimus benedicimus dominum ex hoc
+        nunc et usque in seculum] <figure>
           <graphic url="/images/SCENCH_05GF.gif"/>
         </figure></p>
-      <p xml:id="SCENCH0071">[Mu]: Sive enim alia post aliam per octava loca sumatur, sive in unum binis
-        aequisonis vocibus canatur, fit hac ratione cantio diapason simplicis. At vero tres in unum
-        trinis descriptis canamus vocibus, et fit <pb n="[92]"/>hoc modo cantio diapason duplicis.
-        Si quoque dempta voce media per quindecima loca canatur, nihilominus disdiapason erit.
-        Canamus omnia ad suprascriptum modum.</p>
+      <p xml:id="SCENCH0071">[Mu]: Sive enim alia post aliam per octava loca sumatur, sive in unum
+        binis aequisonis vocibus canatur, fit hac ratione cantio diapason simplicis. At vero tres in
+        unum trinis descriptis canamus vocibus, et fit <pb n="[92]"/>hoc modo cantio diapason
+        duplicis. Si quoque dempta voce media per quindecima loca canatur, nihilominus disdiapason
+        erit. Canamus omnia ad suprascriptum modum.</p>
       <p xml:id="SCENCH0072">Haec igitur symphonia quia facilior et apertior est ceteris, maxima et
         prima symphoniarum appellatur.</p>
-      <p xml:id="SCENCH0073">DE DIAPENTE. Sequitur symphonia diapente. Ea autem est, ubi per quintanas
-        regiones vel alia post aliam sumitur vel in unum ambae dicuntur ad infrascriptum modum:
-        [descriptio 2 in marg.]</p>
+      <p xml:id="SCENCH0073">DE DIAPENTE. Sequitur symphonia diapente. Ea autem est, ubi per
+        quintanas regiones vel alia post aliam sumitur vel in unum ambae dicuntur ad infrascriptum
+        modum: [descriptio 2 in marg.]</p>
       <p xml:id="SCENCH0074">[VMKIII:92; text: PRINCIPALIS, ORGANALIS, Nos qui vivimus benedicimus
         dominum ex hoc nunc et usque in seculum]</p>
-      <p xml:id="SCENCH0075">Hoc ergo modo est simpliciter diapente pangere. Prima vero compositio fit
-        diapente, si vox organalis ita per diapason geminetur, ut sit media principalis, veluti
+      <p xml:id="SCENCH0075">Hoc ergo modo est simpliciter diapente pangere. Prima vero compositio
+        fit diapente, si vox organalis ita per diapason geminetur, ut sit media principalis, veluti
         quinta inter primam et octavam. Principalem <pb n="[93]"/>enim vocem absolutam cantionem
         dico, organalem vero, quae huic subiungitur symphoniae ratione. Canamus ad infrascriptum
         modum: [descriptio 3 in marg.]</p>
@@ -566,18 +581,18 @@
         <pb n="[94]"/>[descriptio 4 in marg.]</p>
       <p xml:id="SCENCH0079">[VMKIII:94; text: PRINCIPALIS, XII, ORGANALIS, VIII, V, Nos qui vivimus
         benedicimus dominum ex hoc nunc et usque in seculum]</p>
-      <p xml:id="SCENCH0080">Tertia est diapente compositio, si vox organalis ad inferiora per diapason
-        geminetur, ut sit celsissima principalis, veluti duodecima adversus octavam et primam. Haec
-        quoque consonantia et per duodecima loca dempta voce media concordat.</p>
-      <p xml:id="SCENCH0081">Item quarta est diapente compositio, si vox principalis ad superiora per
-        diapason geminetur, ut sit gravissima organalis veluti prima contra quintam et duodecimam.
-        Haec similiter et media voce dempta concordiam habet.</p>
+      <p xml:id="SCENCH0080">Tertia est diapente compositio, si vox organalis ad inferiora per
+        diapason geminetur, ut sit celsissima principalis, veluti duodecima adversus octavam et
+        primam. Haec quoque consonantia et per duodecima loca dempta voce media concordat.</p>
+      <p xml:id="SCENCH0081">Item quarta est diapente compositio, si vox principalis ad superiora
+        per diapason geminetur, ut sit gravissima organalis veluti prima contra quintam et
+        duodecimam. Haec similiter et media voce dempta concordiam habet.</p>
       <p xml:id="SCENCH0082">
         <pb n="[95]"/>Item quinta est diapente compositio, si ambabus vocibus per diapason geminatis
         quaterna vocum diversitate canatur, ut videlicet ad quintam et duodecimam organum prima et
         octava respondeant. Canantur omnia ad infrascriptum modum: [descriptio 5 in marg.]</p>
-      <p xml:id="SCENCH0083">[VMKIII:95; text: PRINCIPALIS, XII, ORGANALIS, VIII, V, I, Nos qui vivimus
-        benedicimus dominum ex hoc nunc et usque in seculum] <figure>
+      <p xml:id="SCENCH0083">[VMKIII:95; text: PRINCIPALIS, XII, ORGANALIS, VIII, V, I, Nos qui
+        vivimus benedicimus dominum ex hoc nunc et usque in seculum] <figure>
           <graphic url="/images/SCENCH_07GF.gif"/>
         </figure></p>
       <p xml:id="SCENCH0084">
@@ -597,25 +612,25 @@
         dominum ex hoc nunc et usque in seculum] <figure>
           <graphic url="/images/SCENCH_08GF.gif"/>
         </figure></p>
-      <p xml:id="SCENCH0089">Componitur quoque diatessaron symphonia isdem modis quibus diapente. Prima
-        enim eius compositio est, si vox organalis ita per diapason <pb n="[98]"/>geminetur, ut sit
-        media principalis, veluti quarta inter primam et octavam, ad infrascriptum modum:
+      <p xml:id="SCENCH0089">Componitur quoque diatessaron symphonia isdem modis quibus diapente.
+        Prima enim eius compositio est, si vox organalis ita per diapason <pb n="[98]"/>geminetur,
+        ut sit media principalis, veluti quarta inter primam et octavam, ad infrascriptum modum:
         [descriptio 8 in marg.]</p>
-      <p xml:id="SCENCH0090">[VMKIII:98; text: PRINCIPALIS, VIII, IIII, I, ORGANALIS, Nos qui vivimus
-        benedicimus dominum ex hoc nunc et usque in seculum]</p>
-      <p xml:id="SCENCH0091">Altera eius est compositio, si e contrario vox principalis ita per diapason
-        geminetur, ut sit media organalis, veluti octava inter quartam et undecimam.</p>
+      <p xml:id="SCENCH0090">[VMKIII:98; text: PRINCIPALIS, VIII, IIII, I, ORGANALIS, Nos qui
+        vivimus benedicimus dominum ex hoc nunc et usque in seculum]</p>
+      <p xml:id="SCENCH0091">Altera eius est compositio, si e contrario vox principalis ita per
+        diapason geminetur, ut sit media organalis, veluti octava inter quartam et undecimam.</p>
       <p xml:id="SCENCH0092">
         <pb n="[99]"/>[descriptio 9 in marg.]</p>
-      <p xml:id="SCENCH0093">[VMKIII:99; text: PRINCIPALIS, XI, VIII, IIII, ORGANALIS, Nos qui vivimus
-        benedicimus dominum ex hoc nunc et usque in seculum] <figure>
+      <p xml:id="SCENCH0093">[VMKIII:99; text: PRINCIPALIS, XI, VIII, IIII, ORGANALIS, Nos qui
+        vivimus benedicimus dominum ex hoc nunc et usque in seculum] <figure>
           <graphic url="/images/SCENCH_09GF.gif"/>
         </figure></p>
       <p xml:id="SCENCH0094">Tertia est diatessaron compositio, si vox organalis ad inferiora per
         diapason geminetur, ut sit celsissima principalis, veluti undecima adversus octavam et
         primam.</p>
-      <p xml:id="SCENCH0095">Item quarta est diatessaron compositio, si vox principalis ad superiora per
-        diapason geminetur, ut sit gravissima organalis, veluti prima contra quartam et
+      <p xml:id="SCENCH0095">Item quarta est diatessaron compositio, si vox principalis ad superiora
+        per diapason geminetur, ut sit gravissima organalis, veluti prima contra quartam et
         undecimam.</p>
       <p xml:id="SCENCH0096">
         <pb n="[100]"/>Item quinta est diatessaron compositio, si ambae voces, et principalis
@@ -627,8 +642,8 @@
         <pb n="[101]"/>Sexta est diatessaron compositio, si sit vox celsissima organalis, veluti
         quintadecima ad undecimam atque quartam. Canatur quoque ad infrascriptum modum. [descriptio
         11 in marg.]</p>
-      <p xml:id="SCENCH0099">[VMKIII:101; text: PRINCIPALIS, XV, XI, IIII, ORGANALIS, Nos qui vivimus
-        benedicimus dominum ex hoc nunc et usque in seculum] <figure>
+      <p xml:id="SCENCH0099">[VMKIII:101; text: PRINCIPALIS, XV, XI, IIII, ORGANALIS, Nos qui
+        vivimus benedicimus dominum ex hoc nunc et usque in seculum] <figure>
           <graphic url="/images/SCENCH_10GF.gif"/>
         </figure></p>
       <p xml:id="SCENCH0100">
@@ -737,21 +752,22 @@
         huiusmodi commensurabilitates vocum, quibus et symphoniae tam suavisonae sibi adsentiunt et
         soni reliqui tam competenter sibi in ordine copulantur. Sed tuum est, quae proposuisti,
         exponere.</p>
-      <p xml:id="SCENCH0106">[Mu]: Dico, quoniam ideo per octava loca, id est in diapason, aequisonantia
-        est, quia dupla habitudine voces hae conferuntur, ut VI ad XII, ut XII ad XXIIII. Similiter
-        in quindecimis locis aequisonantia est, quod <pb n="[110]"/>disdiapason dicitur, quia in
-        quadrupla constant proportione, ut VI ad XXIIII. Ideo in quintis regionibus sibi consonant,
-        quod est diapente, quia sunt in ratione sesqualtera. Sesqualterum autem est, ubi minus
-        partes continet duas et maius tres, ut VI adversus VIIII, ut VIII contra XII. Ideo quartanae
-        voces consonae sunt, quod est diatessaron, quia in epitrita sunt ratione. Epitritum vel
-        sesquitertium est autem, ubi minus habet partes tres et maius quattuor, ut sunt VI contra
-        VIII, ut sunt VIIII contra XII. Ideo duodecima collatione concordant, quia ad diapason
-        diapente respondet, id est sesqualterum ad duplum, ut XVIII contra XII et VI, ut VIII contra
-        XII et XXIIII, vel quia per loca duodecima fiunt triplae, ut XVIII contra VI, ut XXIIII
-        contra VIII. Ideo et undecima regione consonabiles sunt, quoniam ad diapason resonat
+      <p xml:id="SCENCH0106">[Mu]: Dico, quoniam ideo per octava loca, id est in diapason,
+        aequisonantia est, quia dupla habitudine voces hae conferuntur, ut VI ad XII, ut XII ad
+        XXIIII. Similiter in quindecimis locis aequisonantia est, quod <pb n="[110]"/>disdiapason
+        dicitur, quia in quadrupla constant proportione, ut VI ad XXIIII. Ideo in quintis regionibus
+        sibi consonant, quod est diapente, quia sunt in ratione sesqualtera. Sesqualterum autem est,
+        ubi minus partes continet duas et maius tres, ut VI adversus VIIII, ut VIII contra XII. Ideo
+        quartanae voces consonae sunt, quod est diatessaron, quia in epitrita sunt ratione.
+        Epitritum vel sesquitertium est autem, ubi minus habet partes tres et maius quattuor, ut
+        sunt VI contra VIII, ut sunt VIIII contra XII. Ideo duodecima collatione concordant, quia ad
+        diapason diapente respondet, id est sesqualterum ad duplum, ut XVIII contra XII et VI, ut
+        VIII contra XII et XXIIII, vel quia per loca duodecima fiunt triplae, ut XVIII contra VI, ut
+        XXIIII contra VIII. Ideo et undecima regione consonabiles sunt, quoniam ad diapason resonat
         diatessaron, id est epitritum ad duplum, ut XVI contra XII et VI, ut VIIII contra XII et
         XXIIII. Item voces, quae praefatas symphonias complent, utpote diatessaron quattuor, quinque
-        peragunt diapente, hac habitudine concordant, qua diatessaron et diapente ad invicem <pb n="[111]"/>conectuntur, videlicet epogdoo id est sesquioctavo. Nam semper differentia
+        peragunt diapente, hac habitudine concordant, qua diatessaron et diapente ad invicem <pb
+          n="[111]"/>conectuntur, videlicet epogdoo id est sesquioctavo. Nam semper differentia
         sesqualteri et sesquitertii epogdous est. Qua enim proportione sunt VIII ad VIIII, fiunt XVI
         ad XVIII, fiunt XXXII ad XXXVI, et sic in infinitum.</p>
       <p xml:id="SCENCH0107">HORUM DESCRIPTIO QUAE DICUNTUR [descriptio 13 in marg.]</p>
@@ -763,22 +779,23 @@
         <pb n="[112]"/>Praeterea perfectiores sunt symphoniae in diapason ac disdiapason quam in
         diatessaron et diapente, quia hae sunt multiplicis inaequalitatis, illae superparticularis.
         Perfectior est autem multiplex inaequalitas superparticulari inaequalitate.</p>
-      <p xml:id="SCENCH0110">Voces vero praedictarum proportionum, id est duplae, triplae, quadruplae,
-        sesqualterae, sesquiterciae, sesquioctavae, constat idcirco consonas vel aequisonas, quia
-        nimirum hi relativi numeri soli in omnibus disciplinis commensurati sunt et connumerati, et
-        ob hoc symphoniis et reliquis musicis vocibus deputantur, immo voces modulatae his numeris
-        procreantur. Sentis igitur non nisi arithmeticis rationibus posse musicam explicari?
-        [Delta]: Sentio plane arithmeticam musicae cognitioni necessariam. [Mu]: Necessaria prorsus,
-        cum ad numerorum exemplar musica penitus deformata sit. Etenim si nervum a nervo aequae
-        grossitudinis, sive fistulam a fistula duplo feceris longiorem, ut XII ad VI, ut XXIIII ad
-        XII, diapason ad invicem resonant. Si nervum aut fistulam aequae concavitatis tertia minoris
-        parte longiorem metiaris, ut VIII ad VI, ut XVI ad XII, seu quarta parte maioris facias
-        breviorem, ut VIIII ad XII, ut XVIII ad XXIIII, erit quidem diatessaron consonantia <pb n="[113]"/>VIII ad VI, et XVI ad XII, ac similiter VIIII ad XII, XVIII ad XXIIII. Porro
-        VIIII ad VI, et VIII ad XII, similiterque XVIII ad XII, et XVI ad XXIIII diapente erit.
-        Atque hoc fit modo, ut sicut in duplo sesqualter ac sesquitertius continetur, utpote inter
-        VI et XII continentur VIII et VIIII, inter XII et XXIIII continentur XVI et XVIII,
-        alternatim videlicet, ut qui minori numero sesqualter est, veluti VIIII VI et XVIII XII,
-        fiat subsesquitertius maiori, ut VIIII XII et XVIII XXIIII. Ac rursus qui ad minorem
+      <p xml:id="SCENCH0110">Voces vero praedictarum proportionum, id est duplae, triplae,
+        quadruplae, sesqualterae, sesquiterciae, sesquioctavae, constat idcirco consonas vel
+        aequisonas, quia nimirum hi relativi numeri soli in omnibus disciplinis commensurati sunt et
+        connumerati, et ob hoc symphoniis et reliquis musicis vocibus deputantur, immo voces
+        modulatae his numeris procreantur. Sentis igitur non nisi arithmeticis rationibus posse
+        musicam explicari? [Delta]: Sentio plane arithmeticam musicae cognitioni necessariam. [Mu]:
+        Necessaria prorsus, cum ad numerorum exemplar musica penitus deformata sit. Etenim si nervum
+        a nervo aequae grossitudinis, sive fistulam a fistula duplo feceris longiorem, ut XII ad VI,
+        ut XXIIII ad XII, diapason ad invicem resonant. Si nervum aut fistulam aequae concavitatis
+        tertia minoris parte longiorem metiaris, ut VIII ad VI, ut XVI ad XII, seu quarta parte
+        maioris facias breviorem, ut VIIII ad XII, ut XVIII ad XXIIII, erit quidem diatessaron
+        consonantia <pb n="[113]"/>VIII ad VI, et XVI ad XII, ac similiter VIIII ad XII, XVIII ad
+        XXIIII. Porro VIIII ad VI, et VIII ad XII, similiterque XVIII ad XII, et XVI ad XXIIII
+        diapente erit. Atque hoc fit modo, ut sicut in duplo sesqualter ac sesquitertius continetur,
+        utpote inter VI et XII continentur VIII et VIIII, inter XII et XXIIII continentur XVI et
+        XVIII, alternatim videlicet, ut qui minori numero sesqualter est, veluti VIIII VI et XVIII
+        XII, fiat subsesquitertius maiori, ut VIIII XII et XVIII XXIIII. Ac rursus qui ad minorem
         sesquitertius est, ut VIII ad VI, ut XVI ad XII, sit ad maiorem subsesqualter, ut VIII ad
         XII, ut XVI ad XXIIII. Ita inter duos sonos diapason ad invicem resonantes quarto semper et
         quinto loco symphonias natura disposuit, ut quae huic lateri quarto loco diatessaron est,
@@ -786,8 +803,8 @@
         huic diapente resonet. Porro ut sesquioctava proportione VIIII superant VIII, ut XVIII XVI,
         ut XXXVI XXXII. Ita si fistula maior aut fidicula parte octava minoris supergreditur, ad
         invicem resonant tonum.</p>
-      <p xml:id="SCENCH0111">[Mu]: Igitur quicquid in modulatione suave est, numerus operatur per ratas
-        dimensiones vocum, quicquid rithmi delectabile prestant sive in modulationibus seu in
+      <p xml:id="SCENCH0111">[Mu]: Igitur quicquid in modulatione suave est, numerus operatur per
+        ratas dimensiones vocum, quicquid rithmi delectabile prestant sive in modulationibus seu in
         quibuslibet rithmicis motibus, totum numerus <pb n="[114]"/>efficit. Et voces quidem
         celeriter transeunt, numeri autem, qui corporea vocum et motuum materia decolorantur,
         manent. Quapropter, ut ait sanctus Augustinus, ratio, quae in rithmis, qui Latine dicuntur
@@ -800,7 +817,8 @@
         per astrorum ratos diffinitosque cursus, per intervallorum spacia moderata intellexit nihil
         aliud quam illam dimensionem numerosque dominari. Quae similiter diffiniendo ac secernendo
         in ordinem nectens, astrologiam genuit. Hoc itaque modo in matheseos disciplinis occurrunt
-        omnia numerosa, et inmortalium numerorum, qui cogitando atque volvendo <pb n="[115]"/>intuentur, hi qui sentiuntur, umbrae potius et imagines sunt. Quis ergo rationem numerorum
+        omnia numerosa, et inmortalium numerorum, qui cogitando atque volvendo <pb n="[115]"
+        />intuentur, hi qui sentiuntur, umbrae potius et imagines sunt. Quis ergo rationem numerorum
         mutabilem dixerit, aut artem quamlibet non per hunc constare? [Delta]: Sufficienter nunc
         videtur insinuatum non musicam solum, sed et alias tres disciplinas magisterio constare
         numerorum. Sed, quaeso, plenius incipias de numerorum natura tractare repetasque singula,
@@ -857,8 +875,8 @@
         "sub" praepositione distinctae. Dicitur enim sub-multiplex, sub-superparticularis,
         sub-superpartiens, multiplex sub-superparticularis, multiplex sub-superpartiens. Has nunc
         utriusque inaequalitatis species, quae sint singulae, videamus.</p>
-      <p xml:id="SCENCH0116">DE MULTIPLICI INAEQUALITATE. Multiplex est inaequalitas, ubi maior numerus
-        habet in se minorem bis, aut ter, aut quater, aut multipliciter, ut duo ad unum, dum
+      <p xml:id="SCENCH0116">DE MULTIPLICI INAEQUALITATE. Multiplex est inaequalitas, ubi maior
+        numerus habet in se minorem bis, aut ter, aut quater, aut multipliciter, ut duo ad unum, dum
         comparata fuerint, duplex est, tria ad unum triplex, quattuor ad unum quadruplex, et
         deinceps. Comitatur sub-multiplex, qui scilicet infra multiplicem continetur bis, aut ter,
         aut quater, aut multipliciter. Verbi gratia unum a duobus continetur bis, et vocatur
@@ -901,13 +919,13 @@
         mediam partem, vel tertiam, vel quartam, dicitur triplex sesqualter, triplex sesquitertius,
         triplex sesquiquartus, et deinceps. Et de hac etiam inaequalitate satis sit. [Delta]: Utique
         satis.</p>
-      <p xml:id="SCENCH0120">DE MULTIPLICI SUPERPARTIENTE. [Mu]: Quinta est inaequalitas, quae multiplex
-        superpartiens appellatur. Ea fit, quotiens numerus ad numerum comparatus habet in se alium
-        numerum totum plus quam semel et eius vel duas vel tres vel quotlibet plures particulas
-        secundum numeri superpartientis figuram. Vocabunturque hii secundum proprias partes duplex
-        superbipartiens, ut VIII ad III comparati. Continent enim bis ternos cum duabus partibus
-        suis. Similiter XVI ad VI conlati. Item duplex supertripartiens, duplex superquadripartiens.
-        Ac rursus triplex superbipartiens, et triplex supertripartiens, triplex
+      <p xml:id="SCENCH0120">DE MULTIPLICI SUPERPARTIENTE. [Mu]: Quinta est inaequalitas, quae
+        multiplex superpartiens appellatur. Ea fit, quotiens numerus ad numerum comparatus habet in
+        se alium numerum totum plus quam semel et eius vel duas vel tres vel quotlibet plures
+        particulas secundum numeri superpartientis figuram. Vocabunturque hii secundum proprias
+        partes duplex superbipartiens, ut VIII ad III comparati. Continent enim bis ternos cum
+        duabus partibus suis. Similiter XVI ad VI conlati. Item duplex supertripartiens, duplex
+        superquadripartiens. Ac rursus triplex superbipartiens, et triplex supertripartiens, triplex
         superquadripartiens.</p>
       <p xml:id="SCENCH0121">Igitur quicquid in mundo impariter confertur ad aliquid, quaecumque
         quantitas inaequaliter quantitati comparata secundum unamquamlibet harum inaequalitatum sese
@@ -941,16 +959,16 @@
         diversitatem divinitas ordinavit, his armonica suavitas moderatur; quicquid ultra vel infra
         sonat, quam harum porportionum mensurae poscunt, cadit in quaslibet reliquarum
         inaequalitatum formas fitque dissonum et cantilenae inconveniens.</p>
-      <p xml:id="SCENCH0122">[Delta]: Unde cognoscuntur ptongi musicorum praedictas habere mensuras nec
-        sub oculis nec sub tactu positi? [Mu]: Primum ex eo cognoscitur, quod hae solae habitudines,
-        id est multiplices et superparticulares, connumeratae ad invicem sunt et commensuratae
-        suaque commensuralitate quodammodo cognatae. Nec aliqua sunt in mundo, in molibus, in
-        potentiis, quae sibi concorditer copulentur, si non ea haec germana proportionum habitudo
-        connectat; hae quoque solae sunt proportiones, quibus per diversos pedes metra concorditer
-        currunt. In tantum enim iugabilis eorum natura valet, ut ipsae contrariae quattuor
-        elementorum potentiae harum proportionum socientur consortio, sicut in Timeo et aliis
-        philosophis revelatur. Hinc et illud est: "Tu numeris elementa ligas, ut frigora flammis,
-        arida conveniant liquidis, . . ." Quapropter <pb n="[126]"/>nec soni musici in unum
+      <p xml:id="SCENCH0122">[Delta]: Unde cognoscuntur ptongi musicorum praedictas habere mensuras
+        nec sub oculis nec sub tactu positi? [Mu]: Primum ex eo cognoscitur, quod hae solae
+        habitudines, id est multiplices et superparticulares, connumeratae ad invicem sunt et
+        commensuratae suaque commensuralitate quodammodo cognatae. Nec aliqua sunt in mundo, in
+        molibus, in potentiis, quae sibi concorditer copulentur, si non ea haec germana proportionum
+        habitudo connectat; hae quoque solae sunt proportiones, quibus per diversos pedes metra
+        concorditer currunt. In tantum enim iugabilis eorum natura valet, ut ipsae contrariae
+        quattuor elementorum potentiae harum proportionum socientur consortio, sicut in Timeo et
+        aliis philosophis revelatur. Hinc et illud est: "Tu numeris elementa ligas, ut frigora
+        flammis, arida conveniant liquidis, . . ." Quapropter <pb n="[126]"/>nec soni musici in unum
         modulamen tam dulce coirent, si non eos per congrua et consona intervalla praefata
         proportionum commensuralitas sociaret. [Delta]: Quid est commensurale vel connumerale? [Mu]:
         Ubi maioris minorisque communis quaedam mensura est, utpote II ad IIII, II ad VI, II ad
@@ -1002,29 +1020,29 @@
         superparticulares cum multiplicibus comitantur, ut non inmerito ex utrisque simul musica
         procreari dicatur. [Delta]: Apparet procul dubio et connumeratio et cognatio huiusmodi
         numerorum.</p>
-      <p xml:id="SCENCH0124">[Mu]: Quia ergo patuit, qualiter multiplices in ordine digesti ad se ipsos
-        superparticulares sint, ita etiam tibi pateat, qualiter ex superparticularibus sesqualteris
-        et sesquitertiis multiplices dupli vel quadrupli componentur. Ut enim a senario incipiamus,
-        ad VI numerum adcrescat sesqualter et fit VIIII. Ad novem adcrescat sesquitertius et fit
-        XII. Duodenarius itaque ad senarium duplus sesqualtero et sesquitertio completur. Item XII
-        numero adcrescat sesqualter et fit XVIII. XVIII numero adcrescat sesquitertius et fit
-        XXIIII. At XXIIII numerus ad duodenarium duplus sesqualtero et sesquitertio completur. Et
-        alternatim <pb n="[130]"/>VI numero accedat sesquitertius, qui est VIII. Sesquitertio
-        accedat sesqualter, qui est XII. Duodecim itaque ad senarium duplus sesquitertio et
-        sesqualtero completur. Similiter XII numero accedat sesquitertius, qui est XVI. Sesquitertio
-        accedat sesqualter, qui est XXIIII. XXIIII itaque ad XII duplus sesquitertio et sesqualtero
-        completur. Et sic deinceps semper unum duplum sesqualtero et sesquitertio incremento
-        perficitur. Porro sesqualter ac sesquitertius ita communi epogdoi mensura conectuntur, ut,
-        si sesqualtero epogdoum auferas, sesquitertius fiat; sesquitertio rursus additus restituit
-        sescuplarem. Constat igitur convenientes sibi sonos ex convenientibus sibi numeris
-        concordiam sumere. [Delta]: Id manifesta panditur ratione. [Mu]: Attende vero, quia
-        convenientes sunt non uni quilibet ad se ipsos, sed sicut verbi gratia XXIIII numerus
-        constat ad XII duplus, ad VIII triplus, ad VI quadruplus, ad XVI sesqualter, ad XVIII
-        epitritus, ad XLVIII subduplus, ad XXXII subepitritus, ad XXXVI subsescuplaris, ita quilibet
-        ptongus ad alium quidem diapason sonat, ad alium diapason et diapente, ad alium disdiapason,
-        ad alium diapente, ad alium diatessaron, ad alium subdiapason, ad alium subdiatessaron, ad
-        alium subdiapente, quod non fieret, nisi ad rationem multiplicis et superparticularis
-        habitudinis sua essent commensuralitate cognati.</p>
+      <p xml:id="SCENCH0124">[Mu]: Quia ergo patuit, qualiter multiplices in ordine digesti ad se
+        ipsos superparticulares sint, ita etiam tibi pateat, qualiter ex superparticularibus
+        sesqualteris et sesquitertiis multiplices dupli vel quadrupli componentur. Ut enim a senario
+        incipiamus, ad VI numerum adcrescat sesqualter et fit VIIII. Ad novem adcrescat
+        sesquitertius et fit XII. Duodenarius itaque ad senarium duplus sesqualtero et sesquitertio
+        completur. Item XII numero adcrescat sesqualter et fit XVIII. XVIII numero adcrescat
+        sesquitertius et fit XXIIII. At XXIIII numerus ad duodenarium duplus sesqualtero et
+        sesquitertio completur. Et alternatim <pb n="[130]"/>VI numero accedat sesquitertius, qui
+        est VIII. Sesquitertio accedat sesqualter, qui est XII. Duodecim itaque ad senarium duplus
+        sesquitertio et sesqualtero completur. Similiter XII numero accedat sesquitertius, qui est
+        XVI. Sesquitertio accedat sesqualter, qui est XXIIII. XXIIII itaque ad XII duplus
+        sesquitertio et sesqualtero completur. Et sic deinceps semper unum duplum sesqualtero et
+        sesquitertio incremento perficitur. Porro sesqualter ac sesquitertius ita communi epogdoi
+        mensura conectuntur, ut, si sesqualtero epogdoum auferas, sesquitertius fiat; sesquitertio
+        rursus additus restituit sescuplarem. Constat igitur convenientes sibi sonos ex
+        convenientibus sibi numeris concordiam sumere. [Delta]: Id manifesta panditur ratione. [Mu]:
+        Attende vero, quia convenientes sunt non uni quilibet ad se ipsos, sed sicut verbi gratia
+        XXIIII numerus constat ad XII duplus, ad VIII triplus, ad VI quadruplus, ad XVI sesqualter,
+        ad XVIII epitritus, ad XLVIII subduplus, ad XXXII subepitritus, ad XXXVI subsescuplaris, ita
+        quilibet ptongus ad alium quidem diapason sonat, ad alium diapason et diapente, ad alium
+        disdiapason, ad alium diapente, ad alium diatessaron, ad alium subdiapason, ad alium
+        subdiatessaron, ad alium subdiapente, quod non fieret, nisi ad rationem multiplicis et
+        superparticularis habitudinis sua essent commensuralitate cognati.</p>
       <p xml:id="SCENCH0125">
         <pb n="[131]"/>UNDE SCIATUR, SECUNDUM QUAM PROPORTIONEM QUAELIBET FORMETUR SYMPHONIA.
         [Delta]: Cum satis monstratum sit, quod commensuralitatis ratio musicas voces ad invicem
@@ -1035,14 +1053,14 @@
         dictum est, ita unum diapason, quod octo voculas continet, duae minores symphoniae, id est
         diapente atque diatessaron, complent. [descriptio 2 in marg.]</p>
       <p xml:id="SCENCH0126">[VMKIII:131; text: diapente, diatessaron]</p>
-      <p xml:id="SCENCH0127">Sive enim a graviore sive ab acutiore parte vel quartam voculam metiaris, a
-        quarta metiaris quintam, vel quinta metiatur, tum quarta, ita completur semper duabus
-        symphoniis una. Quod non fieret, si essent vel aliae, quae complerent, vel aliae, quae
-        complerentur. De his <pb n="[132]"/>quoque Boetius: "Inter omnes", inquit, "quas retulimus
-        consonantias habendum iudicium est et in aure et in ratione, quam harum meliorem oporteat
-        arbitrari. Eo namque modo auris adficitur sonis vel oculus aspectu, quo animi iudicium
-        numero vel continua quantitate. Proposito enim numero vel linea, nihil est facilius quam
-        eius duplum oculo vel animo intueri", veluti XII contra VI. "Item post dupli iudicium
+      <p xml:id="SCENCH0127">Sive enim a graviore sive ab acutiore parte vel quartam voculam
+        metiaris, a quarta metiaris quintam, vel quinta metiatur, tum quarta, ita completur semper
+        duabus symphoniis una. Quod non fieret, si essent vel aliae, quae complerent, vel aliae,
+        quae complerentur. De his <pb n="[132]"/>quoque Boetius: "Inter omnes", inquit, "quas
+        retulimus consonantias habendum iudicium est et in aure et in ratione, quam harum meliorem
+        oporteat arbitrari. Eo namque modo auris adficitur sonis vel oculus aspectu, quo animi
+        iudicium numero vel continua quantitate. Proposito enim numero vel linea, nihil est facilius
+        quam eius duplum oculo vel animo intueri", veluti XII contra VI. "Item post dupli iudicium
         sequitur dimidii, post dimidium tripli, post triplum partis tertiae. Atque ideo quoniam
         facilior est dupli descriptio", illi consonantiae merito deputatur, quae facilior est
         quamque sensus apertior comprehendit. Ea ergo est prima suavisque consonantia, quae octava
@@ -1060,12 +1078,12 @@
         hunc ordinem consonantiae sumpserunt, quem dant in numeris multiplicitatis augmenta et e
         regione superparticularitatis detrimenta. Datur quoque et aliud idoneae probationis
         argumentum, quod non auditu modo, sed et visu fidem praedictae adstruat rationi.</p>
-      <p xml:id="SCENCH0128">Fidiculae sive fistulae, si aequalis grossitudinis fuerint et maior minorem
-        in sua longitudine bis habuerit, diapason, ut supra dictum est, ad invicem consonabunt, si
-        ter habuerit, diapason et diapente respondent, si quater habuerit, disdiapason concordiam
-        facient. Si maior dimidia minoris parte super habuerit, diapente fit consonantia; si tercia
-        minoris parte praecellerit, diatessaron erit. Si octava minoris parte supergreditur, tono
-        concordant.</p>
+      <p xml:id="SCENCH0128">Fidiculae sive fistulae, si aequalis grossitudinis fuerint et maior
+        minorem in sua longitudine bis habuerit, diapason, ut supra dictum est, ad invicem
+        consonabunt, si ter habuerit, diapason et diapente respondent, si quater habuerit,
+        disdiapason concordiam facient. Si maior dimidia minoris parte super habuerit, diapente fit
+        consonantia; si tercia minoris parte praecellerit, diatessaron erit. Si octava minoris parte
+        supergreditur, tono concordant.</p>
       <p xml:id="SCENCH0129">
         <pb n="[134]"/>QUARE NON PLURES MULTIPLICITATIS SPECIES AD MUSICAM PERTINEANT QUAM TRES, NON
         PLURES SUPERPARTICULARITATIS QUAM TRES. [Delta]: Patet iam uberi adsertione probatum non
@@ -1094,7 +1112,8 @@
         epitritum sesquioctavus efficitur. [Delta]: Intellego. [Mu]: Quapropter simul intellege,
         quod inter sonum et sonum nec minus nec maius toni integri esse poterit intervallum, quam
         quod semel fuerat sesqualteri ac sesquitertii differentia permensum. Igitur solis
-        sesquioctavis intervallis cum sesqualteris ac sesquitertiis commensuralitas est, <pb n="[136]"/>quorum scilicet intervalla toni cum semitoniis, ut dictum est, commensuraliter
+        sesquioctavis intervallis cum sesqualteris ac sesquitertiis commensuralitas est, <pb
+          n="[136]"/>quorum scilicet intervalla toni cum semitoniis, ut dictum est, commensuraliter
         complent. Sola rursus sesqualtera ac sesquitertia intervalla cum duplis et quadruplis
         commensurata sunt, quibus similiter eorum intervalla complentur. Sesquiquartis vero ac
         sesquiquintis et reliquis decrescentibus intervallis nec cum duplo, nec cum triplo, nec cum
@@ -1118,8 +1137,8 @@
         dupla] <figure>
           <graphic url="/images/SCENCH_12GF.gif"/>
         </figure></p>
-      <p xml:id="SCENCH0132">[Delta]: Quo pacto ceterae superparticulares habitudines <pb n="[138]"/>cum
-        duplo et quadruplo commensuralitatem non habent? [Mu]: Ut et hoc tibi patefiat, a
+      <p xml:id="SCENCH0132">[Delta]: Quo pacto ceterae superparticulares habitudines <pb n="[138]"
+        />cum duplo et quadruplo commensuralitatem non habent? [Mu]: Ut et hoc tibi patefiat, a
         duodenario, quo minimo numero potest, exemplificare incipiam. Is numerus enim XXIIII numerum
         sui quantitate metitur, parte sui dimidia XVIII, parte sui tertia XVI, parte sui quarta XV.
         Sed XVIII numerus, qui est ad XII sesqualter, fit ad XXIIII epitrita ratione commensuralis.
@@ -1133,8 +1152,8 @@
         non potest. Vides <pb n="[139]"/>ergo, quia, mox ut intra sesquitertium intervalla coartari
         incipiunt, connumerationem superparticulares cum duplis non habent et idcirco nec consonam
         commixtionem.</p>
-      <p xml:id="SCENCH0133">[Delta]: Qua ratione evenit, ut in sonorum serie per quarta loca voces sint
-        epitritae, per quinta sesqualterae, per octava duplae, et aliae suis locis? [Mu]: Cum
+      <p xml:id="SCENCH0133">[Delta]: Qua ratione evenit, ut in sonorum serie per quarta loca voces
+        sint epitritae, per quinta sesqualterae, per octava duplae, et aliae suis locis? [Mu]: Cum
         constet vel epitrito et sesqualtero vel duobus epitritis medio epogdoo intervallum duplum
         compleri, epogdois rursus ipsa epitritorum intervalla complentur. Siquidem duae mediae in
         diapason intervallo voculae, id est quarta et quinta, dum singulae ad aliud latus
@@ -1176,7 +1195,8 @@
         differentia est, inter VIII vero et XII quaternarius. [Mu]: Recte prorsus intellegis. At
         nunc attende, qualiter ipsi toni, qui praedictorum terminorum intervalla complent, non
         arithmetica medietate veluti dies ad dies aequis ad invicem partibus minuuntur et crescunt,
-        nec ad armonicam medietatem dissimilium proportionum sunt, sed geometrica <pb n="[142]"/>permensi medietate epitrita et sesqualtera intervalla complent. Sicut enim secundus
+        nec ad armonicam medietatem dissimilium proportionum sunt, sed geometrica <pb n="[142]"
+        />permensi medietate epitrita et sesqualtera intervalla complent. Sicut enim secundus
         sesquioctavus est ad priorem se, sic extat tertius ad secundum: Sicut ad LXIIII
         sesquioctavus est numerus LXXII, sic ad LXXII sesquioctavus est numerus LXXXI. [Delta]:
         Cognosco nunc quidem, qualiter horum numerorum modo toni metiantur a tonis. Sed dic, qua
@@ -1208,8 +1228,8 @@
         est epitritus ad primum, <pb n="[144]"/>tredecim tantum unitates inveniuntur, quae distantia
         est in semitonii ratione. Et finita est diatessaron modulatio duobus tonis ac semitonio
         supputata.</p>
-      <p xml:id="SCENCH0134">Rursus quoniam sescuplus est epogdoa ratione maior, tollam de sono quarto,
-        id est CCLVI numero, octavam suam, quae est XXXII, et fit per huius toni adiectionem
+      <p xml:id="SCENCH0134">Rursus quoniam sescuplus est epogdoa ratione maior, tollam de sono
+        quarto, id est CCLVI numero, octavam suam, quae est XXXII, et fit per huius toni adiectionem
         CCLXXXVIII numerus, sonus quintus. De sono quinto auferam octavam suam, quae est XXXVI, et
         fit per huius toni adiectionem CCCXXIIII numerus, sonus sextus. De sono sexto auferam
         octavam suam, quae est XL S fitque per hanc toni adiectionem CCCLXIIII S numerus, sonus
@@ -1221,24 +1241,26 @@
       <p xml:id="SCENCH0136">[VMKIII:145; text: tonus, semitonium, epogdous, limma, epitritum,
         sescuplare, duplum, CXCII, CCLVI, CCXLIII, CCXVI, CCLXXXVIII, CCCXXIIII, CCCLXIIII S,
         CCCLXXXIIII, XXIIII, XXVII, XIII, XXXII, XXXVI, XL S, XVIIII S]</p>
-      <p xml:id="SCENCH0137">Atsi mensionum quoque probationem desideras, facies cordam ad cordam sive
-        fistulam ad fistulam epitrito maiorem, quae quarto loco ponenda sit. Facies et sesqualtero
-        longiorem, quae loco quinto locetur. Facies duplo longiorem, quam octavam ponas. Item primae
-        cordae seu fistulae octavam partem sumens adpones secundae. Octavam secundae <pb n="[146]"/>sumens adpones tertiae. Octavam tertiae sumere non poteris ad emetiendam quartam, quae iam
-        mensuram accepit a prima, contra quam scilicet facta est epitrita. Similiter non opus est
-        quintam iterato metiri per quartam, quia, dum sit sescuplaris primae, sesquioctava efficitur
-        epitritae. Quintae rursus octavam tollens metieris sextam. Sextae octavam tollens metieris
-        septimam. Per septimam octavam metiri non poteris, quia, dum octava contra quintam facta sit
-        epitrita, septimae et octavae distantia semitonium erit. Atque hoc intervallorum modo voces
-        diversae suavi iunctura conveniunt. [Delta]: Mirum certe non posse aliter voces concordare,
-        nisi nunc intra epitritum, nunc intra sesqualterum spatium semitoniorum intervalla
-        coartentur, ita ut nec ad medietatem praecedentis toni perveniant. [Mu]: Vere mira et
-        deifica hoc evenit ratione.</p>
-      <p xml:id="SCENCH0138">Sed ut ad liquidum cuncta dinoscas, temptemus et monocordi divisionem per
-        easdem regulas sumere hoc prius cognito, quod productiores cordae seu fistulae sonos
+      <p xml:id="SCENCH0137">Atsi mensionum quoque probationem desideras, facies cordam ad cordam
+        sive fistulam ad fistulam epitrito maiorem, quae quarto loco ponenda sit. Facies et
+        sesqualtero longiorem, quae loco quinto locetur. Facies duplo longiorem, quam octavam ponas.
+        Item primae cordae seu fistulae octavam partem sumens adpones secundae. Octavam secundae <pb
+          n="[146]"/>sumens adpones tertiae. Octavam tertiae sumere non poteris ad emetiendam
+        quartam, quae iam mensuram accepit a prima, contra quam scilicet facta est epitrita.
+        Similiter non opus est quintam iterato metiri per quartam, quia, dum sit sescuplaris primae,
+        sesquioctava efficitur epitritae. Quintae rursus octavam tollens metieris sextam. Sextae
+        octavam tollens metieris septimam. Per septimam octavam metiri non poteris, quia, dum octava
+        contra quintam facta sit epitrita, septimae et octavae distantia semitonium erit. Atque hoc
+        intervallorum modo voces diversae suavi iunctura conveniunt. [Delta]: Mirum certe non posse
+        aliter voces concordare, nisi nunc intra epitritum, nunc intra sesqualterum spatium
+        semitoniorum intervalla coartentur, ita ut nec ad medietatem praecedentis toni perveniant.
+        [Mu]: Vere mira et deifica hoc evenit ratione.</p>
+      <p xml:id="SCENCH0138">Sed ut ad liquidum cuncta dinoscas, temptemus et monocordi divisionem
+        per easdem regulas sumere hoc prius cognito, quod productiores cordae seu fistulae sonos
         graviores edunt et eo acutiores, quo fuerint breviores, ut contrario modo medietas duplum
         sonet, quarta pars quadruplum. Sit ergo corda intensa, veluti ab A in Z. Tollam huius
-        dimidium spacii, veluti ab H in Z, et pulsa medietas diapason resonat ad <pb n="[147]"/>totum. Tollam medietatem dimidii, veluti ab H in P, et resonat bisdiapason. Item in
+        dimidium spacii, veluti ab H in Z, et pulsa medietas diapason resonat ad <pb n="[147]"
+        />totum. Tollam medietatem dimidii, veluti ab H in P, et resonat bisdiapason. Item in
         utroque diapason spacio minores symphoniae disponantur, id est ab A Z in A H, et rursus ab H
         Z in H P. Tollam quartam partem A Z spatii et respondet D Z diatessaron. Tollam tertiam
         partem et respondet E Z diapente. Similiter in H P spatio sublata quarta parte diatessaron
@@ -1287,7 +1309,8 @@
         intellegi. Cum etenim tetracorda duo unum diapason compleant, singula vero tetracorda binis
         tonis ac semitonio compleantur, medius vero tonus integer duo dividat tetracorda, evenit, ut
         quarti tetracordi species, quando iam diatessaron excessit spatium, id est duos tonos cum
-        semitonio, tribus tonis integris compleatur. Quod etiam praesenti descriptione manifeste <pb n="[151]"/>apparet. [Delta]: Id iam patenter intellego et descriptione et ratione et, ut
+        semitonio, tribus tonis integris compleatur. Quod etiam praesenti descriptione manifeste <pb
+          n="[151]"/>apparet. [Delta]: Id iam patenter intellego et descriptione et ratione et, ut
         video, ipsa semitionii transpositio fit troporum mutatio. [Mu]: Haud equidem dubie. Nam hinc
         sua cuique ptongo discernibilis qualitas et tetracordis vel pentacordis suae sunt species
         et, ut fatebaris, troporum omnium formae, ipsumque idem semitonium quodammodo cor atque
@@ -1317,11 +1340,11 @@
       <p xml:id="SCENCH0147">
         <pb n="[154]"/>[descriptio 8b in marg.]</p>
       <p xml:id="SCENCH0148">[VMKIII:154; text: tetrardos, tritos, deuteros, archoos]</p>
-      <p xml:id="SCENCH0149">[Delta]: Ubertim omnia constant exposita, vel quibus causis vel quot modis
-        positiones tetracordorum varientur, vel quomodo singulis positionum varietatibus modorum
-        sive troporum species generentur. Locus tamen adhuc inquisitioni vacat. Dixisti siquidem
-        idcirco per quintas regiones eundem tropi modum redire, quoniam idem positionis ordo
-        revertitur. [Mu]: Dixi plane et propter sesqualteram habitudinem per quintas regiones
+      <p xml:id="SCENCH0149">[Delta]: Ubertim omnia constant exposita, vel quibus causis vel quot
+        modis positiones tetracordorum varientur, vel quomodo singulis positionum varietatibus
+        modorum sive troporum species generentur. Locus tamen adhuc inquisitioni vacat. Dixisti
+        siquidem idcirco per quintas regiones eundem tropi modum redire, quoniam idem positionis
+        ordo revertitur. [Mu]: Dixi plane et propter sesqualteram habitudinem per quintas regiones
         consonare symphoniam et eiusdem modi tropum ob eiusdem ordinis positionem reverti; atque
         idcirco dum in alieno loco quod sumitur, aut tropi qualitatem retinens discrepat ab eo, quod
           <pb n="[155]"/>praecedit, dum sui ordinis positionem non invenit, aut alieno cedens ordini
@@ -1329,11 +1352,11 @@
         Quaero equidem, cum non aliud videatur eiusdem tropi modus quam in eodem melo tonorum, cum
         semitoniis idem ordo cumque eiusdem ordinis positio per octavas non redeat regiones, quare
         voces octava regione distantes eodem tropo concordent.</p>
-      <p xml:id="SCENCH0150">[Mu]: Verum quidem est, quod quemadmodum quintae, ita nonae sit regionis
-        potius quam octavae in eadem sonorum constitutione eandem positionem referre, ut, sicut
-        primus ac secundus tono distinguitur, ita tonus sit inter nonum ac decimum sonum, sicut
-        inter secundum ac tertium, ita inter decimum atque undecimum, semitonium autem sicut tertium
-        et quartum, ita undecimum dividat atque duodecimum. Sed sciendum, quod in hac maxima
+      <p xml:id="SCENCH0150">[Mu]: Verum quidem est, quod quemadmodum quintae, ita nonae sit
+        regionis potius quam octavae in eadem sonorum constitutione eandem positionem referre, ut,
+        sicut primus ac secundus tono distinguitur, ita tonus sit inter nonum ac decimum sonum,
+        sicut inter secundum ac tertium, ita inter decimum atque undecimum, semitonium autem sicut
+        tertium et quartum, ita undecimum dividat atque duodecimum. Sed sciendum, quod in hac maxima
         symphonia vox, quae ad vocem superior graviorve octavis locis accesserit, non sequitur sui
         loci ordinem, sed eius, cui consonanter responderit. Nec enim consonantia perstaret, si vel
         tonus in semitonium vel semitonium e regione offenderet in tonum. [Delta]: Quomodo toni in

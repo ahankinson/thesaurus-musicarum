@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musice active micrologus liber secundus</title>
         <title type="abbrev">ORNMUS2</title>
-        <author>Ornithoparchus, Andreas</author>
-        <date notBefore="1500" notAfter="1599">16th</date>
+        <author><persName>Ornithoparchus, Andreas</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Beth Garfinkel</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Jessica Sisk</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2006</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2006">2006</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Musice active micrologus</emph>, 2nd ed. (Leipzig: Valentin Schumann, 1517; reprint
@@ -37,9 +47,9 @@
         <pb n="[f.Eiijr]"/>Uenerabili ac multe beneuolentie viro, domino Georgio Bracchio Musico
         peritissimo, ac Ducalis cantorie Wirtenbergensis ductori primario, Andreas Ornitoparchus
         Meyningensis Salutem.</p>
-      <p xml:id="ORNMUS20002">CUm Platonis illam: qua non nobismetipsis, sed et patrie, et amicis, nos
-        natos dicit: [Plato. in marg.] accuratius ruminassem sententiam, Georgi colendissime: quasi
-        viribus destitutus, ac horrore tremefactus elangui. Et vt primus ille Romani imperij
+      <p xml:id="ORNMUS20002">CUm Platonis illam: qua non nobismetipsis, sed et patrie, et amicis,
+        nos natos dicit: [Plato. in marg.] accuratius ruminassem sententiam, Georgi colendissime:
+        quasi viribus destitutus, ac horrore tremefactus elangui. Et vt primus ille Romani imperij
         monarcha: cum Alexandri statuam ad Gades primum conspexisset: [Iulius Alexander statua in
         marg.] quod nil memoria dignum gessisset, ingemuit: ita et ipse (quoniam omnia quibus homo
         letatur, veluti forma, voluptates, etas, valitudo, delitie, pretereunt, sed famam extendere
@@ -111,18 +121,18 @@
         tempore, ac prolatione quantificatis: consistens. Uel est ars cuius Harmonia, et figurarum
         et vocum varietate, perficitur.</p>
       <p xml:id="ORNMUS20010">Caput secundum de figuris.</p>
-      <p xml:id="ORNMUS20011">VNde figura est quoddam signum: vocis, silentijque representatiuum. Uocis
-        dico, propter species notarum: que proferuntur. Silentij vero propter pausas notis
+      <p xml:id="ORNMUS20011">VNde figura est quoddam signum: vocis, silentijque representatiuum.
+        Uocis dico, propter species notarum: que proferuntur. Silentij vero propter pausas notis
         equiualentes, que artificioso silentio mensurantur.</p>
       <p xml:id="ORNMUS20012">De figurarum numero.</p>
-      <p xml:id="ORNMUS20013">Quinque tantum figuras Prisci obseruauere: tanquam principales, ac tribus
-        musice gradibus quantificabiles. Ex quibus alias quasdam deduxit posteritas agilitatis
-        causa: iuxta illud Ouidij. [Ouidius in marg.] Ex alijs alias reparat natura figuras. Quarum
-        corpora figurarum, formantur modo quo sequitur.</p>
-      <p xml:id="ORNMUS20014">Maxima est figura ciuis longitudo latitudinem triplicat: filum habens in
-        dextra parte sursum vel deorsum.</p>
-      <p xml:id="ORNMUS20015">Longa est nota cuius longitudo duplicat latitudinem: filum habens instar
-        maxime.</p>
+      <p xml:id="ORNMUS20013">Quinque tantum figuras Prisci obseruauere: tanquam principales, ac
+        tribus musice gradibus quantificabiles. Ex quibus alias quasdam deduxit posteritas
+        agilitatis causa: iuxta illud Ouidij. [Ouidius in marg.] Ex alijs alias reparat natura
+        figuras. Quarum corpora figurarum, formantur modo quo sequitur.</p>
+      <p xml:id="ORNMUS20014">Maxima est figura ciuis longitudo latitudinem triplicat: filum habens
+        in dextra parte sursum vel deorsum.</p>
+      <p xml:id="ORNMUS20015">Longa est nota cuius longitudo duplicat latitudinem: filum habens
+        instar maxime.</p>
       <p xml:id="ORNMUS20016">Breuis est figura qnadrato corpore formata, filo carens.</p>
       <p xml:id="ORNMUS20017">Semibreuis est nota rotunda admodum oui, Uel: vt Franchino placet:
         Trianguli.</p>
@@ -130,8 +140,8 @@
         descendente.</p>
       <p xml:id="ORNMUS20019">Semiminima, Est nota vt minima, colore variata.</p>
       <p xml:id="ORNMUS20020">Fusa, est nota instar semiminime, habens vncum in dextra parte.</p>
-      <p xml:id="ORNMUS20021">Semifusa, est figura instar fuse formata, sed secundo vnco ab ea discreta,
-        vt sic.</p>
+      <p xml:id="ORNMUS20021">Semifusa, est figura instar fuse formata, sed secundo vnco ab ea
+        discreta, vt sic.</p>
       <p xml:id="ORNMUS20022">[Ornithoparchus, f.Eivr; text: Octo figurarum corpora, Maxima, Longa,
         Breuis, Semibreuis, Minima, Semiminima, Fusa, Semifusa] <figure>
           <graphic url="/images/ORNMUS2_01GF.gif"/>
@@ -147,8 +157,8 @@
       <p xml:id="ORNMUS20026">De Ligaturis regule generales.</p>
       <p xml:id="ORNMUS20027">Prima, Quattuor sunt note ligabiles scilicet maxima, longa, breuis, et
         semibreuis. [Gafforus in marg.]</p>
-      <p xml:id="ORNMUS20028">Secunda, Omnis nota ligabilis: preter maximam: duplici corpore: quadrato
-        scilicet et obliquo figurari potest.</p>
+      <p xml:id="ORNMUS20028">Secunda, Omnis nota ligabilis: preter maximam: duplici corpore:
+        quadrato scilicet et obliquo figurari potest.</p>
       <p xml:id="ORNMUS20029">Tertia, Omnis nota ligabilis, secundum ascensum et descensum vel
         suijpsius, vel proxime sequentis, venit iudicanda.</p>
       <p xml:id="ORNMUS20030">Quarta, Omnis nota ligabilis aut erit initialis, aut media, aut
@@ -156,36 +166,38 @@
       <p xml:id="ORNMUS20031">Quinta, simplicium notarum accidentia puta alteratio, imperfectio, et
         huiusmodi (Franchino teste) ipsis quoque ligatis solent accidere. [Franchinus in marg.]</p>
       <p xml:id="ORNMUS20032">De initialibus regule.</p>
-      <p xml:id="ORNMUS20033">Prima, Omnis initialis: siue quadrata, siue obliqua: carens cauda, secunda
-        descente, est longa.</p>
-      <p xml:id="ORNMUS20034">Secunda, omnis initialis sine cauda, secunda ascendente, breuis est.</p>
+      <p xml:id="ORNMUS20033">Prima, Omnis initialis: siue quadrata, siue obliqua: carens cauda,
+        secunda descente, est longa.</p>
+      <p xml:id="ORNMUS20034">Secunda, omnis initialis sine cauda, secunda ascendente, breuis
+        est.</p>
       <p xml:id="ORNMUS20035">Tertia, omnis initialis habens caudam deorsum in sinistra eius parte,
         breuis est.</p>
-      <p xml:id="ORNMUS20036">Quarta, Omnis initialis qualitercunque formata, habens caudam in sinistra
-        parte sursum, Semibreuis est vna cum proxima sequente, non curando, an ascendat siue
-        descendat.</p>
+      <p xml:id="ORNMUS20036">Quarta, Omnis initialis qualitercunque formata, habens caudam in
+        sinistra parte sursum, Semibreuis est vna cum proxima sequente, non curando, an ascendat
+        siue descendat.</p>
       <p xml:id="ORNMUS20037">De Medijs regule.</p>
-      <p xml:id="ORNMUS20038">Prima, Omnis nota inter primam et vltimam dicitur media. Secunda, Omnis
-        nota media, qualitercunque formata aut posita: breuis est.</p>
+      <p xml:id="ORNMUS20038">Prima, Omnis nota inter primam et vltimam dicitur media. Secunda,
+        Omnis nota media, qualitercunque formata aut posita: breuis est.</p>
       <p xml:id="ORNMUS20039">Tertia, Longa principium et finem ligature intrare potest, medium
         nunquam.</p>
       <p xml:id="ORNMUS20040">Quarta, Breuis principio, medio, et fine ligatur quam aptissime.</p>
-      <p xml:id="ORNMUS20041">Quinta, Semibreuis principio, medio, et fine ligari potest: mediante caude
-        in sinistra parte sursum tracta.</p>
+      <p xml:id="ORNMUS20041">Quinta, Semibreuis principio, medio, et fine ligari potest: mediante
+        caude in sinistra parte sursum tracta.</p>
       <p xml:id="ORNMUS20042">
         <pb n="[f.Fir]"/>De Vltimis regule.</p>
       <p xml:id="ORNMUS20043">Prima. Omnis vltima quadrata descendens est longa.</p>
       <p xml:id="ORNMUS20044">Secunda, Omnis vltima quadrata ascendens breuis est.</p>
-      <p xml:id="ORNMUS20045">Tertia, Omnis obliqua finalis siue ascendat siue descendat est breuis.</p>
-      <p xml:id="ORNMUS20046">Quarta, Maxima vbicunque posita fuerit semper manet maxima. Harum autem
-        regularum exempla, sequens tenor declarat.</p>
+      <p xml:id="ORNMUS20045">Tertia, Omnis obliqua finalis siue ascendat siue descendat est
+        breuis.</p>
+      <p xml:id="ORNMUS20046">Quarta, Maxima vbicunque posita fuerit semper manet maxima. Harum
+        autem regularum exempla, sequens tenor declarat.</p>
       <p xml:id="ORNMUS20047">[Ornithoparchus, f.Fir; text: TENOR exercitij ligaturarum, Baritonus
         exercitij. Ligaturarum.]</p>
       <p xml:id="ORNMUS20048">De modo tempore ac prolatione.</p>
       <p xml:id="ORNMUS20049">Caput Quartum.</p>
-      <p xml:id="ORNMUS20050">MUsice gradus, quis principalium figurarum cognoscimus valorem, tres sunt,
-        scilicet modus, tempus, ac prolatio. Nec quiuis eorum agit in quasque, sed suas tantum, Ut
-        modus in maximas, ac longas, Tempus in breues, ac prolatio in semibreues.</p>
+      <p xml:id="ORNMUS20050">MUsice gradus, quis principalium figurarum cognoscimus valorem, tres
+        sunt, scilicet modus, tempus, ac prolatio. Nec quiuis eorum agit in quasque, sed suas
+        tantum, Ut modus in maximas, ac longas, Tempus in breues, ac prolatio in semibreues.</p>
       <p xml:id="ORNMUS20051">
         <pb n="[f.Fiv]"/>De Modo.</p>
       <p xml:id="ORNMUS20052">Modus: teste Franchino libro secundo capitulo septimo practice. Est
@@ -201,70 +213,70 @@
         longis, Ac minor qui in longis ac breuibus est. Et horum quiuis penes perfectum atque
         imperfectum scinditur.</p>
       <p xml:id="ORNMUS20057">De Modo maiore.</p>
-      <p xml:id="ORNMUS20058">Modus maior perfectus, Est maxima tris habens in se longas. Uel est trium
-        longarum in vna maxima dimensio. Cuius signum est Circulus perfectus ternario numero
+      <p xml:id="ORNMUS20058">Modus maior perfectus, Est maxima tris habens in se longas. Uel est
+        trium longarum in vna maxima dimensio. Cuius signum est Circulus perfectus ternario numero
         sociatus sic. [O3]. Sed maior imperfectus est maxima duas in se longas concludens, Qui et
         circulo imperfecto, ternario numero iuncto, dinoscitur sic. [C3].</p>
       <p xml:id="ORNMUS20059">De Modo minore.</p>
-      <p xml:id="ORNMUS20060">Modus minor perfectus, est longa tris habens in se breues. Uel est trium
-        breuium in vna longa dimensio. Cuius signum Circulus est perfectus, binario numero sociatus.
-        sic. [O2]. Sed minor imperfectus, est longa duabus tantum breuibus mensuranda. Cuius signum
-        est numeri binarij absentia. Uel Semicirculus binario numero iunctus, sic. [C2].[O].[C]. vt
-        in subiecto quadrato.</p>
+      <p xml:id="ORNMUS20060">Modus minor perfectus, est longa tris habens in se breues. Uel est
+        trium breuium in vna longa dimensio. Cuius signum Circulus est perfectus, binario numero
+        sociatus. sic. [O2]. Sed minor imperfectus, est longa duabus tantum breuibus mensuranda.
+        Cuius signum est numeri binarij absentia. Uel Semicirculus binario numero iunctus, sic.
+        [C2].[O].[C]. vt in subiecto quadrato.</p>
       <p xml:id="ORNMUS20061">[Ornithoparchus, f.Fiv,2] <figure>
           <graphic url="/images/ORNMUS2_02GF.gif"/>
         </figure></p>
       <p xml:id="ORNMUS20062">De Tempore.</p>
-      <p xml:id="ORNMUS20063">Est autem tempus Breuis duas vel tris in se semibreues concludens. Uel est
-        duarum aut trium semibreuium in vna breui dimensio, Et est duplex, scilicet Perfectum, Et
-        est breuis tribus semibreuibus mensuranda. Cuius signum est numerus ternarius circulo vel
+      <p xml:id="ORNMUS20063">Est autem tempus Breuis duas vel tris in se semibreues concludens. Uel
+        est duarum aut trium semibreuium in vna breui dimensio, Et est duplex, scilicet Perfectum,
+        Et est breuis tribus semibreuibus mensuranda. Cuius signum est numerus ternarius circulo vel
         semicirculo coniunctus, aut circulus perfectus absque numero <pb n="[f.Fijr]"/>positus, sic
         [O3].[C3].[O]. Imperfectum est quo breuis duabus semibreuibus tantum mensuratur. Quod et
         binario numero, perfecto circulo coniuncto, aut semicirculo sine numero posito dinoscitur
         sic: [O2].[C].[C2],</p>
       <p xml:id="ORNMUS20064">De Prolatione.</p>
-      <p xml:id="ORNMUS20065">Unde prolatio est essentialis Semibreuium quantitas. Uel est duarum aut
-        trium minimarum contra vnam semibreuem positio. Et est duplex, scilicet Maior, Et est
+      <p xml:id="ORNMUS20065">Unde prolatio est essentialis Semibreuium quantitas. Uel est duarum
+        aut trium minimarum contra vnam semibreuem positio. Et est duplex, scilicet Maior, Et est
         Semibreuis tribus minimis mensurata. Uel est trium minimarum in vna semibreui conclusio.
         Cuius signum est punctus signo temporali inscriptus sic. [Od]. [Cd]. Minor prolatio est
         Semibreuis duabus tantum minimis dimensa Cuius signum est puncti absentia: [Franchinus in
         marg.] Inquit enim Franchious, Imperfectionem figure secum deferunt. deficientibus signis,
         hoc modo</p>
-      <p xml:id="ORNMUS20066">[Ornithoparchus, f.Fijr,1; text: Tempus perfectum, Imperfectum, Prolatio
-        maior, Minor]</p>
+      <p xml:id="ORNMUS20066">[Ornithoparchus, f.Fijr,1; text: Tempus perfectum, Imperfectum,
+        Prolatio maior, Minor]</p>
       <p xml:id="ORNMUS20067">Horum autem trium graduum: quidam musice peritus, satis docte ac
         compendiose: pro tyronum institutione: infrascriptum condidit exemplum. Quod saluo suo
         honore non dedignamur nostris scriptis apponere.</p>
-      <p xml:id="ORNMUS20068">[Ornithoparchus, f.Fijr,2; text: TENOR in modo minori perfecto. DISCANTUS
-        in prolatione maiore. BASSUS in tempore perfecto.]</p>
+      <p xml:id="ORNMUS20068">[Ornithoparchus, f.Fijr,2; text: TENOR in modo minori perfecto.
+        DISCANTUS in prolatione maiore. BASSUS in tempore perfecto.]</p>
       <p xml:id="ORNMUS20069">Caput quintum de signis.</p>
-      <p xml:id="ORNMUS20070">LIcet tanta musicorum de signis sit dissensio: regularum atque exemplorum
-        confusio: vt etiam consumato musico ambiguitatem generare videantur, ita: vt Plutarchus
-        Cheroneus, vir vndecumque doctissimus, in eo libro: [Plutarchus in marg.] quem de musica
-        scripsit: dicat. Nostris temporibus, tantos auctus differentie forma excepit, et vsque adeo
-        discessit a more maiorum: vt nulla sit amplius discipline mentio, nulla perceptio, nulla
-        certitudo. <pb n="[f.Fijv]"/>Quamuis etiam in dubijs diffiniendum non sit, sed suspensa
-        sententia tenenda, tamen ne Tyrunculi, artis huius cupidi, ab instituti sui proposito, aut
-        reuocentur, aut male instituantur, relictis rarioribus, ea que crebriori musicorum: quos
-        nunc probat auctoritas: vsu celebrantur, paucis aperiemus: eam, que de circulo et numero
-        est, ambiguitatem: olim in Theoricis eradicando. Est igitur signum, quedam figura cantui
-        preposita, modum, tempus, ac prolationem indicans.</p>
+      <p xml:id="ORNMUS20070">LIcet tanta musicorum de signis sit dissensio: regularum atque
+        exemplorum confusio: vt etiam consumato musico ambiguitatem generare videantur, ita: vt
+        Plutarchus Cheroneus, vir vndecumque doctissimus, in eo libro: [Plutarchus in marg.] quem de
+        musica scripsit: dicat. Nostris temporibus, tantos auctus differentie forma excepit, et
+        vsque adeo discessit a more maiorum: vt nulla sit amplius discipline mentio, nulla
+        perceptio, nulla certitudo. <pb n="[f.Fijv]"/>Quamuis etiam in dubijs diffiniendum non sit,
+        sed suspensa sententia tenenda, tamen ne Tyrunculi, artis huius cupidi, ab instituti sui
+        proposito, aut reuocentur, aut male instituantur, relictis rarioribus, ea que crebriori
+        musicorum: quos nunc probat auctoritas: vsu celebrantur, paucis aperiemus: eam, que de
+        circulo et numero est, ambiguitatem: olim in Theoricis eradicando. Est igitur signum, quedam
+        figura cantui preposita, modum, tempus, ac prolationem indicans.</p>
       <p xml:id="ORNMUS20071">De signorum diuisione.</p>
-      <p xml:id="ORNMUS20072">Signorum alia principalia, alia minus principalia dicuntur. Principalia
-        sunt: que ad cognitionem modi, temporis ac prolationis conducunt. Et illa quidem bipartita
-        sunt, Extrinseca scilicet, et Intrinseca. Extrinseca dicuntur illa: que pro cognoscendis
-        musice gradibus extrinsecus se offerunt: vt numerus, circulus, ac punctus.</p>
+      <p xml:id="ORNMUS20072">Signorum alia principalia, alia minus principalia dicuntur.
+        Principalia sunt: que ad cognitionem modi, temporis ac prolationis conducunt. Et illa quidem
+        bipartita sunt, Extrinseca scilicet, et Intrinseca. Extrinseca dicuntur illa: que pro
+        cognoscendis musice gradibus extrinsecus se offerunt: vt numerus, circulus, ac punctus.</p>
       <p xml:id="ORNMUS20073">De signis extrinsecis regule.</p>
-      <p xml:id="ORNMUS20074">Prima, Circulus se solo positus tempus indicat. Et hoc si perfectus sit,
-        perfectum. Sin autem imperfectus, imperfectum. Cum autem numero iungitur, modum
+      <p xml:id="ORNMUS20074">Prima, Circulus se solo positus tempus indicat. Et hoc si perfectus
+        sit, perfectum. Sin autem imperfectus, imperfectum. Cum autem numero iungitur, modum
         declarat.</p>
       <p xml:id="ORNMUS20075">Secunda, Circulus numero ternario iunctus modum maiorem, Binario vero
         sociatus minorem representat.</p>
       <p xml:id="ORNMUS20076">Tertia, Ubicunque est modus maior, ibi est minor, sed non econtra.</p>
-      <p xml:id="ORNMUS20077">Quarta, Ternarius numerus circulo iunctus, temporis perfecti est indicium:
-        Binarius vero imperfecti.</p>
-      <p xml:id="ORNMUS20078">Quinta, Punctus in signo temporali clausus, prolationem designat maiorem,
-        hoc modo.</p>
+      <p xml:id="ORNMUS20077">Quarta, Ternarius numerus circulo iunctus, temporis perfecti est
+        indicium: Binarius vero imperfecti.</p>
+      <p xml:id="ORNMUS20078">Quinta, Punctus in signo temporali clausus, prolationem designat
+        maiorem, hoc modo.</p>
       <p xml:id="ORNMUS20079">[Ornithoparchus, f.Fijv; text: Signorum aliud, modi maioris, minoris,
         prolationis maioris, Temporis, Perfecti, Imperfecti, prolationis minoris]</p>
       <p xml:id="ORNMUS20080">
@@ -273,8 +285,8 @@
         suus cuique figure valor tribuatur: placuit resolutoriam tabulam, cuiusque figure: in
         quocunque etiam signo posite, valorem ex intuitu indicantem: modo quo sequitur,
         subijcere.</p>
-      <p xml:id="ORNMUS20081">[Ornithoparchus, f.Fiijr; text: Minima, Semibreuis, Breius, Longa, Maxima,
-        Signa] <figure>
+      <p xml:id="ORNMUS20081">[Ornithoparchus, f.Fiijr; text: Minima, Semibreuis, Breius, Longa,
+        Maxima, Signa] <figure>
           <graphic url="/images/ORNMUS2_03GF.gif"/>
         </figure></p>
       <p xml:id="ORNMUS20082">Tabula signorum resolutoria valorem cuiusque figure ex intuitu
@@ -286,31 +298,31 @@
         indicat minorem perfectum, Si due, maiorem perfectum, Inquit enim Franchinus: [Franchinus in
         marg.] non incongruum esse maiori modo duas trium temporum pausas apponi, si minori vna
         apponatur.</p>
-      <p xml:id="ORNMUS20085">Notarum denigratio, Quoties enim inueniuntur tres longe colorate, modus
-        minor perfectus denotatur. Quando tres breues, tempus perfectum. <pb n="[f.Fiijv]"/>Tribus
-        autem semibreuibus coloratis, prolatio maior demonstratur.</p>
+      <p xml:id="ORNMUS20085">Notarum denigratio, Quoties enim inueniuntur tres longe colorate,
+        modus minor perfectus denotatur. Quando tres breues, tempus perfectum. <pb n="[f.Fiijv]"
+        />Tribus autem semibreuibus coloratis, prolatio maior demonstratur.</p>
       <p xml:id="ORNMUS20086">Tertium est quarundam pausarum geminatio. Quoties enim due pause
         semibreues, cum semibreui nota collocantur, tempus perfectum designatur. Per duas autem
         minimas cum nota minima, prolatio maior declaratur, hoc modo.</p>
-      <p xml:id="ORNMUS20087">[Ornithoparchus, f.Fiijv,1; text: Modus maior, minor, Tempus perfectum,
-        prolatio maior]</p>
+      <p xml:id="ORNMUS20087">[Ornithoparchus, f.Fiijv,1; text: Modus maior, minor, Tempus
+        perfectum, prolatio maior]</p>
       <p xml:id="ORNMUS20088">De signis minus principalibus</p>
       <p xml:id="ORNMUS20089">Signa minus principalia sunt, que ad cognitionem modi, temporis ac
         prolationis non conducunt. Et hec varia sunt, vt in sequenti quadrato licet ad sensum
         videre.</p>
-      <p xml:id="ORNMUS20090">[Ornithoparchus, f.Fiijv,2; text: Repetitionis, Conuenientie, Concordantie
-        cardinalis, Aspirationis, [rob] mollitatis de albationis]</p>
+      <p xml:id="ORNMUS20090">[Ornithoparchus, f.Fiijv,2; text: Repetitionis, Conuenientie,
+        Concordantie cardinalis, Aspirationis, [rob] mollitatis de albationis]</p>
       <p xml:id="ORNMUS20091">Caput sextum de Tactu.</p>
-      <p xml:id="ORNMUS20092">VNde Tactus est motio successiua in cantu, mensure equalitatem dirigens.
-        Uel est quidam motus, manu precentoris signorum indicio formatus, cantum dirigens
+      <p xml:id="ORNMUS20092">VNde Tactus est motio successiua in cantu, mensure equalitatem
+        dirigens. Uel est quidam motus, manu precentoris signorum indicio formatus, cantum dirigens
         mensuraliter.</p>
       <p xml:id="ORNMUS20093">De tactus diuisione.</p>
-      <p xml:id="ORNMUS20094">Tactus tripartitus est: maior scilicet, minor et proportionatus. Maior,
-        est mensura, tardo ac motu quasi reciproco facta. Hunc tactum et integrum et totalem
+      <p xml:id="ORNMUS20094">Tactus tripartitus est: maior scilicet, minor et proportionatus.
+        Maior, est mensura, tardo ac motu quasi reciproco facta. Hunc tactum et integrum et totalem
         nominant auctores. Et quoniam verus est omnium cantilenarum tactus: Semibreuem non diminutam
         suo motu comprehendit: vel breuem, in duplo diminutam.</p>
-      <p xml:id="ORNMUS20095">Minor, est maioris medium: quem Semitactum dicunt. Quoniam semibreuem in
-        duplo diminutam suo motu mensurat, indoctis tantum probatus.</p>
+      <p xml:id="ORNMUS20095">Minor, est maioris medium: quem Semitactum dicunt. Quoniam semibreuem
+        in duplo diminutam suo motu mensurat, indoctis tantum probatus.</p>
       <p xml:id="ORNMUS20096">Proportionatus, est quo tres semibreues contra vnam, vt in Tripla: aut
         contra duas, vt in Sesquialtera: proferuntur. de quo, capitulo de proportionibus, latius
         dicetur.</p>
@@ -325,8 +337,8 @@
       <p xml:id="ORNMUS20100">Caput septimum de Augmentatione.</p>
       <p xml:id="ORNMUS20101">QUoniam in precedente capitulo augmentationis ac diminiutionis mentio
         facta existit. Quare ne ex ignotis procedatur: quid vtrumque sit libet discutere.</p>
-      <p xml:id="ORNMUS20102">Est itaque augmentatio alicuius cantus in suis notis plurificatio. Uel est
-        alicuius note excrementum. In ea etenim minima pro semibreui, Semibreuis pro breui, ac
+      <p xml:id="ORNMUS20102">Est itaque augmentatio alicuius cantus in suis notis plurificatio. Uel
+        est alicuius note excrementum. In ea etenim minima pro semibreui, Semibreuis pro breui, ac
         breuis pro longa ponitur.</p>
       <p xml:id="ORNMUS20103">Quibus augmentatio signis cognoscatur.</p>
       <p xml:id="ORNMUS20104">Augmentationis tria sunt signa, Primum est paucitas notarum, in vna
@@ -340,26 +352,26 @@
       <p xml:id="ORNMUS20107">De augmentatione regule.</p>
       <p xml:id="ORNMUS20108">Prima. Augmentatio est diminutionis contradictio.</p>
       <p xml:id="ORNMUS20109">Secunda, In augmentatione minima figura, tactu mensuratur integro.</p>
-      <p xml:id="ORNMUS20110">Tertia, Inter prolationem et augmentationem hoc interest. quod augmentatio
-        minimam tactu profert vno, prolatio autem tres, hoc est Semibreuem perfectam, que tunc
-        proportionato metitur tactu.</p>
+      <p xml:id="ORNMUS20110">Tertia, Inter prolationem et augmentationem hoc interest. quod
+        augmentatio minimam tactu profert vno, prolatio autem tres, hoc est Semibreuem perfectam,
+        que tunc proportionato metitur tactu.</p>
       <p xml:id="ORNMUS20111">Quarta, Pause non secus ac note augmentur et minuuntur.</p>
       <p xml:id="ORNMUS20112">Quinta. Augmentatio raro preterquam in tenore fieri debet.</p>
-      <p xml:id="ORNMUS20113">Sexta, Maxima non augmentatur: quia maiorem se: cuius valorem assumat: non
-        habet. Errant igitur qui in maxima sub tali. [Od3]. signo posita, octuaginta vnum tactus
+      <p xml:id="ORNMUS20113">Sexta, Maxima non augmentatur: quia maiorem se: cuius valorem assumat:
+        non habet. Errant igitur qui in maxima sub tali. [Od3]. signo posita, octuaginta vnum tactus
         concludunt, quoniam nec vltra .27. tactus maxima excrescit, nec maiorem se (quia maximum
         est, quo nihil existit maius) admittit. Insuper cum: vt in natura, ita et in arte frustra
         positum sit nihil: frustra maxima augmentaretur, quoniam in nullo vnquam cantu tantus
         status: vt 81. tactus in vnisono canantur, reperitur.</p>
-      <p xml:id="ORNMUS20114">Septima. Augmentatio, preter maximam, alias omnes notarum species snb se
-        comprehendit: de qua sequens videatur exemplum.</p>
-      <p xml:id="ORNMUS20115">[Ornithoparchus, f.Fivv; text: Augmentatio. Prolatio maior. Baritonus sub
-        signo Semiditatis.]</p>
+      <p xml:id="ORNMUS20114">Septima. Augmentatio, preter maximam, alias omnes notarum species snb
+        se comprehendit: de qua sequens videatur exemplum.</p>
+      <p xml:id="ORNMUS20115">[Ornithoparchus, f.Fivv; text: Augmentatio. Prolatio maior. Baritonus
+        sub signo Semiditatis.]</p>
       <p xml:id="ORNMUS20116">Quid sit Canon.</p>
-      <p xml:id="ORNMUS20117">Quom de Canone mentio habita sit: ne studiosos hac in re suspendam, quid
-        canon sit aperiam. Est igitur Canon, imaginaria preceptio: ex positis, non positam, catilene
-        partem eliciens. Uel est regula argute cantus secreta reuelans. Canonibus autem vtimur
-        subtilitatis, breuitatis. ac tentationis genera, hoc modo.</p>
+      <p xml:id="ORNMUS20117">Quom de Canone mentio habita sit: ne studiosos hac in re suspendam,
+        quid canon sit aperiam. Est igitur Canon, imaginaria preceptio: ex positis, non positam,
+        catilene partem eliciens. Uel est regula argute cantus secreta reuelans. Canonibus autem
+        vtimur subtilitatis, breuitatis. ac tentationis genera, hoc modo.</p>
       <p xml:id="ORNMUS20118">
         <pb n="[f.Fvr]"/>[Ornithoparchus, f.Fvr]</p>
       <p xml:id="ORNMUS20119">CANON. BASSUS ex tenore in Diapente post tempus vnum</p>
@@ -386,7 +398,8 @@
         in signis perfectis, ac figuris ternario numero metiendis reperitur. Quare non possum non
         deridere quosdam componistas: ita enim dici volunt: musice monstra: qui cum artis nec prima
         elementa viderint, se musicos musicorum proclamant: omnia ignorantes, de omnibus se
-        iactitant, atque artem hanc: pluribus antea seculis a doctissimus quibusque, <pb n="[f.Fvv]"/>et vt Quintiliani verbis vtar: [Quintilianus. in marg.] claris sapientia viris celebratam:
+        iactitant, atque artem hanc: pluribus antea seculis a doctissimus quibusque, <pb n="[f.Fvv]"
+        />et vt Quintiliani verbis vtar: [Quintilianus. in marg.] claris sapientia viris celebratam:
         ineptijs suis: citra artis maiestatem, vsu ponus quam ingenio fabricatis: dehonestant,
         corrumpunt, defedant, quibusque signis pro libitu vtentes, nec valorem nec mensuram
         pensitantes: carminis suauitate, stultorum auribus potius, quam artis maiestate, doctorum
@@ -421,7 +434,8 @@
         Sed ne ex derisione ira consurgat, et ex ira odium, missum faciamus hec, ad diminutionem
         redeuntes: quam non tertiam partem vt olim (eam enim inuenire difficile est) sed alteram
         abstrahere cum Franchino et Tinctore concludamus, Ut enim hoc signum [Cdim], huius [C].
-        duplum est: ita et istud [Odim] illius [O]. Quamobrem errant conditores, <pb n="[f.Fvir]"/>etiam probati: dum in circulo perfecto virgula scisso, vltra figurarum: [Brummel. Matheus.
+        duplum est: ita et istud [Odim] illius [O]. Quamobrem errant conditores, <pb n="[f.Fvir]"
+        />etiam probati: dum in circulo perfecto virgula scisso, vltra figurarum: [Brummel. Matheus.
         Georgius. Erasmus. Henricus Ysac. Henricus Fick Caspar Czeis Conradus Rein in marg.] quoniam
         perfecti temporis sunt: ternariam numerositatem, binariam mensure progressionem non
         attendunt, semibreuem ad tactum proferentes, cum due cantande sint. In eo enim signo, ita
@@ -433,16 +447,16 @@
           <graphic url="/images/ORNMUS2_05GF.gif"/>
         </figure></p>
       <p xml:id="ORNMUS20128">Quibus signis diminutio signetur.</p>
-      <p xml:id="ORNMUS20129">Designatur autem diminutio tripliciter, scilicet Canonice, numeraliter,
-        virgulariter.</p>
+      <p xml:id="ORNMUS20129">Designatur autem diminutio tripliciter, scilicet Canonice,
+        numeraliter, virgulariter.</p>
       <p xml:id="ORNMUS20130">Canonice, dicendo. Decrescit in duplo, in triplo. quadruplo et
         hniusmodi.</p>
-      <p xml:id="ORNMUS20131">Numeraliter, Omnis enim numerus circulo vel semicirculo coniunctus, vltra
-        hoc quod essentialiter indicat, etiam minuit iuxta sue figure denominationem. Ut binarius
-        circulo integro sociatus: vltra tempus: quod in tali signo imperfectum esse declarat: duplam
-        etiam denotat diminutionem. Ternarius triplam. Quaternarius quadruplam, et sic deinceps.
-        Uirgulariter, quando scilicet per virgulam signum temporis scinditur: hoc modo.
-        [Oddim].[Cddim].[Odim].[Cdim].</p>
+      <p xml:id="ORNMUS20131">Numeraliter, Omnis enim numerus circulo vel semicirculo coniunctus,
+        vltra hoc quod essentialiter indicat, etiam minuit iuxta sue figure denominationem. Ut
+        binarius circulo integro sociatus: vltra tempus: quod in tali signo imperfectum esse
+        declarat: duplam etiam denotat diminutionem. Ternarius triplam. Quaternarius quadruplam, et
+        sic deinceps. Uirgulariter, quando scilicet per virgulam signum temporis scinditur: hoc
+        modo. [Oddim].[Cddim].[Odim].[Cdim].</p>
       <p xml:id="ORNMUS20132">De Syncopatione regule.</p>
       <p xml:id="ORNMUS20133">Prima, Syncopatio temporali competit mensure, non ipsis figuris.</p>
       <p xml:id="ORNMUS20134">Secunda. Syncopatio vt notas, ita et pausas respicit.</p>
@@ -450,11 +464,11 @@
         mensuram.</p>
       <p xml:id="ORNMUS20136">Quarta, Numerus, prolationem non minuit, quia vim suam in punctum
         custodiente circulo dirigere nequit.</p>
-      <p xml:id="ORNMUS20137">Quinta, Inter diminutionem ac semiditatem: nulla est differentia tactus
-        seu mensure. sed solius nature.</p>
+      <p xml:id="ORNMUS20137">Quinta, Inter diminutionem ac semiditatem: nulla est differentia
+        tactus seu mensure. sed solius nature.</p>
       <p xml:id="ORNMUS20138">Sexta, Diminutio est augmentationis contradictio.</p>
-      <p xml:id="ORNMUS20139">Septima, Non est inconueniens vt eidem signo duplex: Uirgularis scilicet
-        ac numeralis accidat diminutio, hoc modo. [Cdim2]</p>
+      <p xml:id="ORNMUS20139">Septima, Non est inconueniens vt eidem signo duplex: Uirgularis
+        scilicet ac numeralis accidat diminutio, hoc modo. [Cdim2]</p>
       <p xml:id="ORNMUS20140">Octaua, Uirgularis syncopatio frequens est: numeralis rara, canonica
         rarissima. quare de prima sequens est exemplum atque secunda.</p>
       <p xml:id="ORNMUS20141">
@@ -466,24 +480,25 @@
         demonstrans. Uel est tractus per lineas et spatia, silentium indicans. Locantur autem pause
         in cantu tripliciter, scilicet essentialiter, indicialiter, et vtroque modo.</p>
       <p xml:id="ORNMUS20144">Essentialiter quando silentium demonstrant.</p>
-      <p xml:id="ORNMUS20145">Indicialiter quando non silentium, sed modum perfectum indicant, et tunc
-        ante temporis signum locum sibi vendicant.</p>
+      <p xml:id="ORNMUS20145">Indicialiter quando non silentium, sed modum perfectum indicant, et
+        tunc ante temporis signum locum sibi vendicant.</p>
       <p xml:id="ORNMUS20146">Utroque modo quando vtrunque representant,</p>
       <p xml:id="ORNMUS20147">Regule de Pausis.</p>
       <p xml:id="ORNMUS20148">Prima, Tot sunt species pausarum, quot notarum.</p>
-      <p xml:id="ORNMUS20149">Secunda, Pausa omnia tangens spacia, generalis est, vbi omnes voces simul
-        cessant in calce tantum locanda.</p>
-      <p xml:id="ORNMUS20150">Tertia, Pausa tria occupans spatia, dicitur modi: quem indicat: in modo
-        perfecto solum ponibilis.</p>
+      <p xml:id="ORNMUS20149">Secunda, Pausa omnia tangens spacia, generalis est, vbi omnes voces
+        simul cessant in calce tantum locanda.</p>
+      <p xml:id="ORNMUS20150">Tertia, Pausa tria occupans spatia, dicitur modi: quem indicat: in
+        modo perfecto solum ponibilis.</p>
       <p xml:id="ORNMUS20151">Quarta. Pausa duo spacia concludens, longa imperfecta nuncupatur.</p>
-      <p xml:id="ORNMUS20152">Quinta. Pausa vnum occupans spatium, breuis est, vnum tempus designans,
-        siue perfectum sit siue imperfectum.</p>
-      <p xml:id="ORNMUS20153">Sexta. Pausa descendens a linea ad medium spatij, Semibreuis dicitur.</p>
-      <p xml:id="ORNMUS20154">Septima, Pausa a linea ad medium spacium ascendens, minimam siue suspirium
-        demonstrat.</p>
+      <p xml:id="ORNMUS20152">Quinta. Pausa vnum occupans spatium, breuis est, vnum tempus
+        designans, siue perfectum sit siue imperfectum.</p>
+      <p xml:id="ORNMUS20153">Sexta. Pausa descendens a linea ad medium spatij, Semibreuis
+        dicitur.</p>
+      <p xml:id="ORNMUS20154">Septima, Pausa a linea ad medium spacium ascendens, minimam siue
+        suspirium demonstrat.</p>
       <p xml:id="ORNMUS20155">Octaua, Pausa vt suspirium, vncata dextrorsum, Semiminimam valet.</p>
-      <p xml:id="ORNMUS20156">Nona, Postremarum duarum figurarum pause, ob nimiam suam velocitatem in
-        vsu musico non reperiuntur.</p>
+      <p xml:id="ORNMUS20156">Nona, Postremarum duarum figurarum pause, ob nimiam suam velocitatem
+        in vsu musico non reperiuntur.</p>
       <p xml:id="ORNMUS20157">
         <pb n="[f.Gir]"/>[Ornithoparchus, f.Gir,1; text: Pausa generalis, Modi, Longa, Breuis,
         Semibreuis, Minima, Semiminima]</p>
@@ -492,11 +507,12 @@
         diuisionis, vel augmenti vel certitudinis gratia. Uel est minimum quoddam signum notulis
         accidentaliter aut postpositum, aut suprapositum, aut interpositum.</p>
       <p xml:id="ORNMUS20160">De puncti diuisione.</p>
-      <p xml:id="ORNMUS20161">Tria punctorum ex diffinitione colliguntur genera. scilicet Additionis: et
-        is est figurarum augmentatio Uel est imperfectarum notarum perfectio. Hic ad medium lateris
-        dextri ponitur, in signis imperfectis solum reperitur, ac notulas: quibus additur: pro
-        medietate sui valoris augere dinoscitur, vt in exemplo subscripto claret.</p>
-      <p xml:id="ORNMUS20162">[Ornithoparchus, f.Gir,2; text: TENOR puncti additionis. BASSUS eiusdem.] <figure>
+      <p xml:id="ORNMUS20161">Tria punctorum ex diffinitione colliguntur genera. scilicet
+        Additionis: et is est figurarum augmentatio Uel est imperfectarum notarum perfectio. Hic ad
+        medium lateris dextri ponitur, in signis imperfectis solum reperitur, ac notulas: quibus
+        additur: pro medietate sui valoris augere dinoscitur, vt in exemplo subscripto claret.</p>
+      <p xml:id="ORNMUS20162">[Ornithoparchus, f.Gir,2; text: TENOR puncti additionis. BASSUS
+        eiusdem.] <figure>
           <graphic url="/images/ORNMUS2_06GF.gif"/>
         </figure></p>
       <p xml:id="ORNMUS20163">De puncto diuisionis.</p>
@@ -510,15 +526,15 @@
         <pb n="[f.Giv]"/>[Ornithoparchus, f.Giv,1; text: TENOR puncti diuisionis. BASSUS
         eiusdem.]</p>
       <p xml:id="ORNMUS20166">De puncto alterationis.</p>
-      <p xml:id="ORNMUS20167">Alterationis punctum, veteres plus quam recentiores, seruauere. Ne tamen
-        aliquando repertus, ambiguitatem generet canenti: non nihil de eo placet disserere. est
-        itaque punctus alterationis notarum repetitio, notis adueniens non inquantum perfecte: sed
-        inquantum perfectarum propinque sunt partes. Ponitur autem non ad latus, neque sursum aut
-        deorsum, sed precise supra notam quam alterat. vt in subscripto exemplo.</p>
-      <p xml:id="ORNMUS20168">[Ornithoparchus, f.Giv,2; text: TENOR de puncto alterationis, BASSUS de
-        puncto alterationis]</p>
-      <p xml:id="ORNMUS20169">Sunt preter hec alia duo punctorum genera. scilicet perfectionis, Et est
-        punctus note perfecte postpositus, ipsam nec auget nec minuit: sed ne a sequente
+      <p xml:id="ORNMUS20167">Alterationis punctum, veteres plus quam recentiores, seruauere. Ne
+        tamen aliquando repertus, ambiguitatem generet canenti: non nihil de eo placet disserere.
+        est itaque punctus alterationis notarum repetitio, notis adueniens non inquantum perfecte:
+        sed inquantum perfectarum propinque sunt partes. Ponitur autem non ad latus, neque sursum
+        aut deorsum, sed precise supra notam quam alterat. vt in subscripto exemplo.</p>
+      <p xml:id="ORNMUS20168">[Ornithoparchus, f.Giv,2; text: TENOR de puncto alterationis, BASSUS
+        de puncto alterationis]</p>
+      <p xml:id="ORNMUS20169">Sunt preter hec alia duo punctorum genera. scilicet perfectionis, Et
+        est punctus note perfecte postpositus, ipsam nec auget nec minuit: sed ne a sequente
         imperficiatur preseruat. Et ponitur vt additionis. sed discrepat ab eo, quia circa notas
         perfectas solum locatur. Transportationis autem punctus, notis appositus, eas ad
         distantiores figuras transfert computandas. Nec in anteriores sed posteriores tantum vim
@@ -527,8 +543,8 @@
         transportationis, BASSUS de eisdem]</p>
       <p xml:id="ORNMUS20171">
         <pb n="[f.Gijr]"/>Caput undecimum de imperfectione</p>
-      <p xml:id="ORNMUS20172">VNde imperfectio est perfectarum notarum degradatio. Est enim imperficere,
-        notam perfectam, imperfectam reddere, Uel est ipsam de suo valore deponere.</p>
+      <p xml:id="ORNMUS20172">VNde imperfectio est perfectarum notarum degradatio. Est enim
+        imperficere, notam perfectam, imperfectam reddere, Uel est ipsam de suo valore deponere.</p>
       <p xml:id="ORNMUS20173">De duplici imperfectione.</p>
       <p xml:id="ORNMUS20174">Imperfectio duplex est. Totalis scilicet, quando precise tertia pars
         valoris, notulis aufertur: [Duplex imperfectio in marg.] vt dum in tempore perfecto breuis
@@ -541,24 +557,24 @@
         scribit Franchinus libro secundo practice. capitulo undecimo. scilicet numeralis
         imperfectio, punctualis diuisio, et notularum plenitudo.</p>
       <p xml:id="ORNMUS20177">Regule de imperfectione.</p>
-      <p xml:id="ORNMUS20178">Prima. Quattuor sunt note imperfectibiles, maxima scilicet. longa, breuis,
-        ac semibreuis.</p>
-      <p xml:id="ORNMUS20179">Secunda, Omnis imperfectibilis figura, semper est in numero sue perfecte
-        quantitatis consideranda.</p>
+      <p xml:id="ORNMUS20178">Prima. Quattuor sunt note imperfectibiles, maxima scilicet. longa,
+        breuis, ac semibreuis.</p>
+      <p xml:id="ORNMUS20179">Secunda, Omnis imperfectibilis figura, semper est in numero sue
+        perfecte quantitatis consideranda.</p>
       <p xml:id="ORNMUS20180">Tertia. Quod semel imperfectum est, amplius imperfici non potest.</p>
       <p xml:id="ORNMUS20181">Quarta, Omnis imperfectibilis figura, maior erit imperficiente.</p>
-      <p xml:id="ORNMUS20182">Quinta, Imperfectio non solum fit per partes notarum propinquas, sed et
-        remotas. Ut breuis perfecta, non solum a semibreui propinqua parte, verum et a duabus
+      <p xml:id="ORNMUS20182">Quinta, Imperfectio non solum fit per partes notarum propinquas, sed
+        et remotas. Ut breuis perfecta, non solum a semibreui propinqua parte, verum et a duabus
         minimis: que partes remote ipsius existunt: imperfici potest.</p>
       <p xml:id="ORNMUS20183">Sexta, Due partes propinque alicuius figure perfecte, ipsam non
         imperficiunt, sed vna tantum. licet due remote idipsum facere possint. Quare si due pause
         semibreues post breuem perfectam reperte fuerint, perfecta manebit:: nisi diuisio punctualis
         interueniat.</p>
-      <p xml:id="ORNMUS20184">Septima, Omnis figura minor superflua, maiorem imperficit precedentem, non
-        sequentem, nisi id ratione puncti diuisionis, vel perfectionis, vel etiam transportationis
-        fiat.</p>
-      <p xml:id="ORNMUS20185">Octaua, Similis an similem non imperficitur: quare omnis imperfectibilis
-        figura. ante maiorem, vel minorem se ponatur.</p>
+      <p xml:id="ORNMUS20184">Septima, Omnis figura minor superflua, maiorem imperficit precedentem,
+        non sequentem, nisi id ratione puncti diuisionis, vel perfectionis, vel etiam
+        transportationis fiat.</p>
+      <p xml:id="ORNMUS20185">Octaua, Similis an similem non imperficitur: quare omnis
+        imperfectibilis figura. ante maiorem, vel minorem se ponatur.</p>
       <p xml:id="ORNMUS20186">Nona, Maior non imperficit minorem, aut equalis equalem.</p>
       <p xml:id="ORNMUS20187">Decima, Figura aliam imperficiens, aufert ei tantum quantum ipsa
         valet.</p>
@@ -569,19 +585,20 @@
       <p xml:id="ORNMUS20191">Quartadecima, Minima in imperficendo non patitur sed agit.</p>
       <p xml:id="ORNMUS20192">Quintadecima, Longa, breuis, et semibreuis imperficiunt, et
         imperficiuntur.</p>
-      <p xml:id="ORNMUS20193">Sedecima, Omnis imperfectio vel a facie, vel a tergo fit. A facie, quando
-        imperficiens imperfectibilem precedit, A tergo, quando imperfectibili succedit: Sunt qui ab
-        vtroque fieri credunt, in partiali imperfectione.</p>
+      <p xml:id="ORNMUS20193">Sedecima, Omnis imperfectio vel a facie, vel a tergo fit. A facie,
+        quando imperficiens imperfectibilem precedit, A tergo, quando imperfectibili succedit: Sunt
+        qui ab vtroque fieri credunt, in partiali imperfectione.</p>
       <p xml:id="ORNMUS20194">Septimadecima. Imperfectio que ante et post fit, non per propinquas
         partes, sed remotas contingit.</p>
-      <p xml:id="ORNMUS20195">Duodeuicesima. Omnis imperfectio fit vel per notam, vel per pausam, vel
-        per colorem. Per notam: quando scilicet ante vel post notam perfectam: figura minoris
+      <p xml:id="ORNMUS20195">Duodeuicesima. Omnis imperfectio fit vel per notam, vel per pausam,
+        vel per colorem. Per notam: quando scilicet ante vel post notam perfectam: figura minoris
         speciei collocatur, eam imperficit, hoc modo.</p>
       <p xml:id="ORNMUS20196">[Ornithoparchus, f.Gijv,1; text: TENOR, BASSUS] <figure>
           <graphic url="/images/ORNMUS2_07GF.gif"/>
         </figure></p>
-      <p xml:id="ORNMUS20197">Per pausam, quando scilicet ante vel post notam perfectam pausa minoris
-        speciei reperitur: figura imperficitur, pausa autem imperfici non potest, hoc modo.</p>
+      <p xml:id="ORNMUS20197">Per pausam, quando scilicet ante vel post notam perfectam pausa
+        minoris speciei reperitur: figura imperficitur, pausa autem imperfici non potest, hoc
+        modo.</p>
       <p xml:id="ORNMUS20198">[Ornithoparchus, f.Gijv,2; text: TENOR, BARITONANS]</p>
       <p xml:id="ORNMUS20199">Per colorem, quando in figuris color offenditur, imperfecte sunt: quia
         tertia pars eis aufertur, hoc modo.</p>
@@ -589,26 +606,26 @@
       <p xml:id="ORNMUS20201">
         <pb n="[f.Giijr]"/>[Ornithoparchus, f.Giijr,1; text: BASIS huius positionis]</p>
       <p xml:id="ORNMUS20202">De Colore.</p>
-      <p xml:id="ORNMUS20203">Unde color in proposito nihil est aliud: quam notularum plenitudo. Uel est
-        principalium figurarum denigratio. Cuius tanta vis est vt figuris in sua perfecta quantitate
-        deductis: tertiam partem valoris adimat: Imperfectis vero: modo quartam partem auferat, modo
-        Hemiolam proportionem in eis conducat. Quamobrem tabulam tactus resolutoriam, de figuris
-        perfectis colore notatis, subijcere placuit. Hoc notato quod spaciola vacua eam: supra quam
-        ponuntur: figuram incolorabilem eo signo esse demonstrant. Sperica vero figura, quam nihili
-        numerorum periti nominant: et si figuras colorabiles: integrum tamen tactum non valere,
-        declarat.</p>
+      <p xml:id="ORNMUS20203">Unde color in proposito nihil est aliud: quam notularum plenitudo. Uel
+        est principalium figurarum denigratio. Cuius tanta vis est vt figuris in sua perfecta
+        quantitate deductis: tertiam partem valoris adimat: Imperfectis vero: modo quartam partem
+        auferat, modo Hemiolam proportionem in eis conducat. Quamobrem tabulam tactus resolutoriam,
+        de figuris perfectis colore notatis, subijcere placuit. Hoc notato quod spaciola vacua eam:
+        supra quam ponuntur: figuram incolorabilem eo signo esse demonstrant. Sperica vero figura,
+        quam nihili numerorum periti nominant: et si figuras colorabiles: integrum tamen tactum non
+        valere, declarat.</p>
       <p xml:id="ORNMUS20204">[Ornithoparchus, f.Giijr,2; text: 18, 8, 4, 6, 2, 1, 0] <figure>
           <graphic url="/images/ORNMUS2_08GF.gif"/>
         </figure></p>
-      <p xml:id="ORNMUS20205">Quom in alijs figuris color essentialis existat: nullam accidentalem notis
-        inducit quantitatem.</p>
-      <p xml:id="ORNMUS20206">Color etiam interdum nec aufferre nec afferre quicquam: apud doctissimos
-        quosque offenditur: Tum maxime dum amouende alterationis gratia, in perfectarum figurarum
-        propinquis partibus collocatur, hoc modo.</p>
+      <p xml:id="ORNMUS20205">Quom in alijs figuris color essentialis existat: nullam accidentalem
+        notis inducit quantitatem.</p>
+      <p xml:id="ORNMUS20206">Color etiam interdum nec aufferre nec afferre quicquam: apud
+        doctissimos quosque offenditur: Tum maxime dum amouende alterationis gratia, in perfectarum
+        figurarum propinquis partibus collocatur, hoc modo.</p>
       <p xml:id="ORNMUS20207">
         <pb n="[f.Giijv]"/>[Ornithoparchus, f.Giijv,1; text: TENOR, BASIS]</p>
-      <p xml:id="ORNMUS20208">Plerumque demonstrat color in figuris imperfectis: inquit Franchinus libro
-        secundo capitulo undecimo duplam proportionem efficit. [Henricus Ysaac in marg.] Quod
+      <p xml:id="ORNMUS20208">Plerumque demonstrat color in figuris imperfectis: inquit Franchinus
+        libro secundo capitulo undecimo duplam proportionem efficit. [Henricus Ysaac in marg.] Quod
         Henricus Ysaac, in quodam Alleluia de apostolis: non minus concinne, quam vere disposuit,
         hoc modo.</p>
       <p xml:id="ORNMUS20209">[Ornithoparchus, f.Giijv,2; text: TENOR, BASIS.]</p>
@@ -619,11 +636,11 @@
         alteratio: quasi altera actio: id est secundaria alicuius note decantatio, propter ternarij
         perfectionem.</p>
       <p xml:id="ORNMUS20212">De Alteratione regule</p>
-      <p xml:id="ORNMUS20213">Prima, Quattuor sunt note alterabiles, scribit Franchinus. libro secundo
-        capitulo tredecimo. longa, breuis semibreuis, ac minima.</p>
-      <p xml:id="ORNMUS20214">Secunda, Alteratio maximam excludit, et in minima terminatur, quia maxima
-        maiorem se: cuius propinqua pars esse possit non habet: diminutiores autem figure numero
-        ternario non sunt computande.</p>
+      <p xml:id="ORNMUS20213">Prima, Quattuor sunt note alterabiles, scribit Franchinus. libro
+        secundo capitulo tredecimo. longa, breuis semibreuis, ac minima.</p>
+      <p xml:id="ORNMUS20214">Secunda, Alteratio maximam excludit, et in minima terminatur, quia
+        maxima maiorem se: cuius propinqua pars esse possit non habet: diminutiores autem figure
+        numero ternario non sunt computande.</p>
       <p xml:id="ORNMUS20215">Tertia, Alteratio euenit notulis non perfectis: sed quum fuerint
         perfectarum propinque partes quoniam perfecta in quantum talis, alterationi non
         subiacet.</p>
@@ -640,13 +657,13 @@
         <pb n="[f.Givr]"/>[Ornithoparchus, f.Givr,1; text: Altera TENOR, BASIS.] <figure>
           <graphic url="/images/ORNMUS2_09GF.gif"/>
         </figure></p>
-      <p xml:id="ORNMUS20224">Undecima, Si pausa cum figura, cui equiualet, inter duas notas perfectas
-        clauditur: Tunc aut pausa precedit figuram, aut figura pausam. Si primum figura alteratur,
-        si secundum, alteratio non habet locum, quia note alterantur tantum, et non pause. Cadit
-        insuper in secundam semper, et non in primam alteratio, hoc modo.</p>
+      <p xml:id="ORNMUS20224">Undecima, Si pausa cum figura, cui equiualet, inter duas notas
+        perfectas clauditur: Tunc aut pausa precedit figuram, aut figura pausam. Si primum figura
+        alteratur, si secundum, alteratio non habet locum, quia note alterantur tantum, et non
+        pause. Cadit insuper in secundam semper, et non in primam alteratio, hoc modo.</p>
       <p xml:id="ORNMUS20225">[Ornithoparchus, f.Givr,2; text: TENOR, BASIS]</p>
-      <p xml:id="ORNMUS20226">Duodecima, Alteratio plenitudine notarum, ac puncto diuisionis tollitur.
-        Et in ligaturis etiam alteratio saluatur, vt in subscripta parabola claret.</p>
+      <p xml:id="ORNMUS20226">Duodecima, Alteratio plenitudine notarum, ac puncto diuisionis
+        tollitur. Et in ligaturis etiam alteratio saluatur, vt in subscripta parabola claret.</p>
       <p xml:id="ORNMUS20227">[Ornithoparchus, f.Givr,3; text: TENOR, BASIS]</p>
       <p xml:id="ORNMUS20228">
         <pb n="[f.Givv]"/>Decimatertia. Quoties tres alterabiles note inter duas imperfectibiles
@@ -674,15 +691,16 @@
       <p xml:id="ORNMUS20235">De quinque proportionum generibus.</p>
       <p xml:id="ORNMUS20236">Maioiris inequalitatis proportionum quinque sunt genera: scilicet
         multiplex, superparticulare, superpartiens, et hec simplicia sunt: multiplex
-        superparticulare, et multiplex superpartiens, que sunt composita. His alia <pb n="[f.Hir]"/>quinque genera minoris inequalitatis opponuntur: inquit Franchinus: eisdem etiam
+        superparticulare, et multiplex superpartiens, que sunt composita. His alia <pb n="[f.Hir]"
+        />quinque genera minoris inequalitatis opponuntur: inquit Franchinus: eisdem etiam
         nominibus, preposita tantum prepositione sub: vt submultiplex et cetera. [Franchinus in
         marg.] Uerum cum multiplex proportio precipuam in musicis consonantijs vim habeat:
         Superparticularis deinde, Superpartiens vero cum duobus sequentibus nullam, quare
         superpartientium genus cum ceteris subsequentibus, tanquam parum validum, ab harmonico
         concentu relegamus: duo priora solum amplectendo,</p>
       <p xml:id="ORNMUS20237">De genere multiplici.</p>
-      <p xml:id="ORNMUS20238">Multiplex proportionum genus: ceteris et prestantius et antiquius: Est dum
-        maior numerus ad minorem relatus, totum minorem pluries: vt bis vel ter: precise
+      <p xml:id="ORNMUS20238">Multiplex proportionum genus: ceteris et prestantius et antiquius: Est
+        dum maior numerus ad minorem relatus, totum minorem pluries: vt bis vel ter: precise
         comprehendit. Cuius species infinite: si singulos nuros vnitati comparaueris: apparebunt, vt
         in subscripto quadrato licet videre</p>
       <p xml:id="ORNMUS20239">[Ornithoparchus, f.Hir,1; text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, Dupla,
@@ -693,30 +711,30 @@
         submultiplex appellatum. Horum alterum destruit alterum, nec in suo esse perdurare finit.
         Hoc genus: eadem relatione vnitatis ad alios numeros facta: easdem cum multiplici, etiam
         eiusdem nominis species, adiecta prepositione sub, ex se producit, hoc modo.</p>
-      <p xml:id="ORNMUS20241">[Ornithoparchus, f.Hir,2; text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, Subdupla,
-        Subtripla, Subquadrupla, Subquintupla, Subsextupla, Subseptupla, Suboctupla. Subnonupla,
-        Subdecupla.]</p>
+      <p xml:id="ORNMUS20241">[Ornithoparchus, f.Hir,2; text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+        Subdupla, Subtripla, Subquadrupla, Subquintupla, Subsextupla, Subseptupla, Suboctupla.
+        Subnonupla, Subdecupla.]</p>
       <p xml:id="ORNMUS20242">De genere Superparticulari.</p>
       <p xml:id="ORNMUS20243">Superparticulare secundum proportionum genus fit: quando numerus maior
         minori comparatus, ipsum semel, et insuper aliquotam partem, <pb n="[f.Hiv]"/>in se
         concludit. Est autem pars aliquota, que aliquoties sumpta, ipsum totum producit precise.
         Cuius quidem generis species innumerabiles conducuntur: singulos si numeros dempta vnitate:
         ad minorem viciniorem computaueris, modo subscripto.</p>
-      <p xml:id="ORNMUS20244">[Ornithoparchus, f.Hiv,1; text: 2, 3, 4, 5, 6, 7, 8, 9, 10, Sesquialtera.
-        sesquitertia, sesquiquarta, sesquiquinta, sesquisexta. sesquiseptima, sesquioctaua,
-        sesquinona.]</p>
-      <p xml:id="ORNMUS20245">Huius oppositum est Subsuperparticulare, secundum minoris inequalitatis
-        genus. Quod et easdem species, eisdem etiam nominibus sub prepositione mediante cum
-        precedente procreat: si singulos minores numeros: vnitatem semper excipio: maioribus
-        vicinioribus comparare voluerimus, eo quo sequitur modo.</p>
+      <p xml:id="ORNMUS20244">[Ornithoparchus, f.Hiv,1; text: 2, 3, 4, 5, 6, 7, 8, 9, 10,
+        Sesquialtera. sesquitertia, sesquiquarta, sesquiquinta, sesquisexta. sesquiseptima,
+        sesquioctaua, sesquinona.]</p>
+      <p xml:id="ORNMUS20245">Huius oppositum est Subsuperparticulare, secundum minoris
+        inequalitatis genus. Quod et easdem species, eisdem etiam nominibus sub prepositione
+        mediante cum precedente procreat: si singulos minores numeros: vnitatem semper excipio:
+        maioribus vicinioribus comparare voluerimus, eo quo sequitur modo.</p>
       <p xml:id="ORNMUS20246">[Ornithoparchus, f.Hiv,2; text: 2, 3, 4, 5, 6, 7, 8, 9, 10,
         subsesquialtera, subsesquitertia, subsesquiquarta, subsesquiquinta, subsesquisexta,
         subsesquiseptima, subsesquioctaua, subsesquinona]</p>
       <p xml:id="ORNMUS20247">Quo pacto ex equalitate proportio.</p>
       <p xml:id="ORNMUS20248">Et subinde vna ex alia conducatur.</p>
-      <p xml:id="ORNMUS20249">Cum proportionem ex equalitate, et ex vna aliam creare volueris, idipsum
-        hac Boetij regula rite efficies. [Boetius in marg.] Dispositis tribus equis numeris, puta
-        vnitatibus vel quibusque alijs, Tres alij substituantur, ita vt primus primo par sit:
+      <p xml:id="ORNMUS20249">Cum proportionem ex equalitate, et ex vna aliam creare volueris,
+        idipsum hac Boetij regula rite efficies. [Boetius in marg.] Dispositis tribus equis numeris,
+        puta vnitatibus vel quibusque alijs, Tres alij substituantur, ita vt primus primo par sit:
         secundus primo et secundo, Tertius primo duobus secundis ac tertio, et dupla apparebit, hoc
         modo.</p>
       <p xml:id="ORNMUS20250">[Ornithoparchus, f.Hiv,3; text: 1, 2, 4, 8, 3, 6, 12, Duple.] <figure>
@@ -732,19 +750,19 @@
         producemus. per subditorum numerorum consonam ac regularem appositionem, ex quadruplis
         quintuplas. et item, ex quintuplis sextuplas. et sic deinceps vsque in infinitum
         gradiendo.</p>
-      <p xml:id="ORNMUS20254">[Ornithoparchus, f.Hijr,2; text: 1, 3, 4, 5, 6, 9, 16, 25, 36, Quadruple,
-        Quintuple, Sextuple]</p>
-      <p xml:id="ORNMUS20255">Et cum ex duplis sesquialteras creare volueris: conuersis numeris duplarum
-        ita vt maiores primi sint, et minores naturali ordine succedant, Substituantur alij tres
-        numeri, prout sepe dicta regula exposcit, et apparebit effectus, vt in subiecto quadrato
-        licet videre.</p>
+      <p xml:id="ORNMUS20254">[Ornithoparchus, f.Hijr,2; text: 1, 3, 4, 5, 6, 9, 16, 25, 36,
+        Quadruple, Quintuple, Sextuple]</p>
+      <p xml:id="ORNMUS20255">Et cum ex duplis sesquialteras creare volueris: conuersis numeris
+        duplarum ita vt maiores primi sint, et minores naturali ordine succedant, Substituantur alij
+        tres numeri, prout sepe dicta regula exposcit, et apparebit effectus, vt in subiecto
+        quadrato licet videre.</p>
       <p xml:id="ORNMUS20256">[Ornithoparchus, f.Hijr,3; text: 4, 3, 2, 1, 6, 8, 9, 12, 18, 27,
         Sesquialtere]</p>
       <p xml:id="ORNMUS20257">Et vt ex duplis sesquialtere. pari modo ex triplis sesquitertie, et ex
         quadruplis sesquiquarte conducantur, conuersione numerorum, vt de sesquialteris dictum est.
         et ita in infinitum vsque progrediendo, eo quo sequitur modo.</p>
-      <p xml:id="ORNMUS20258">[Ornithoparchus, f.Hijr,4; text: 9, 3, 1, 4, 16, 25, 5, 12, 20, 30, 36,
-        Sesquitertie, Sesquiquarte, Sesquiquinte]</p>
+      <p xml:id="ORNMUS20258">[Ornithoparchus, f.Hijr,4; text: 9, 3, 1, 4, 16, 25, 5, 12, 20, 30,
+        36, Sesquitertie, Sesquiquarte, Sesquiquinte]</p>
       <p xml:id="ORNMUS20259">
         <pb n="[f.Hijv]"/>Ex quibus proportionibus musice.</p>
       <p xml:id="ORNMUS20260">consonantie conducantur.</p>
@@ -756,12 +774,12 @@
         preceptis et exemplis breuissimis duximus enodandas. Ac naturali ordine seruato, a dupla:
         quoniam ceteris et dignior est et notior: exordium sumamus.</p>
       <p xml:id="ORNMUS20262">De proportione dupla.</p>
-      <p xml:id="ORNMUS20263">Dupla proportio prima multiplicis generis species fit, quum maior numerus
-        ad minorem relatus, ipsum bis in se comprehendit. vt 4. ad 2. 8. ad 4. Sed musicaliter, quum
-        due note contra vnam sibi et natura, et specie similem proferuntur. Cuius signum alij
-        numerum binarium esse concludunt, alij (quoniam proportio non vnius sed duorum relatio
-        existit) numerum numero supponendum esse contendunt, hoc modo. {2/1.4/2.6/3.} idque et in
-        ceteris seruandum esse non dubitarent.</p>
+      <p xml:id="ORNMUS20263">Dupla proportio prima multiplicis generis species fit, quum maior
+        numerus ad minorem relatus, ipsum bis in se comprehendit. vt 4. ad 2. 8. ad 4. Sed
+        musicaliter, quum due note contra vnam sibi et natura, et specie similem proferuntur. Cuius
+        signum alij numerum binarium esse concludunt, alij (quoniam proportio non vnius sed duorum
+        relatio existit) numerum numero supponendum esse contendunt, hoc modo. {2/1.4/2.6/3.} idque
+        et in ceteris seruandum esse non dubitarent.</p>
       <p xml:id="ORNMUS20264">[Ornithoparchus, f.Hijv; text: TENOR duple, BASSUS] <figure>
           <graphic url="/images/ORNMUS2_12GF.gif"/>
         </figure></p>
@@ -771,7 +789,8 @@
         in figuris considerant: signis, vncisque sinistrosum versis, dicentes hoc. [C]. huius [CL]:
         esse duplum, hanc [SM] illius [Mvxsn]: In pausis quoque: huius [signum] illam [signum], Non
         alio: vt reor: freti patrocinio: quam quod Franchinus libro, practice secundo capitulo
-        quarto dextrum latus sinistro et auctius et perfectius esse dicit: sinistrum <pb n="[f.Hiijr]"/>vero, dextro imbecillius. Cui opinioni nec ipse refragor multum. Nam apud
+        quarto dextrum latus sinistro et auctius et perfectius esse dicit: sinistrum <pb
+          n="[f.Hiijr]"/>vero, dextro imbecillius. Cui opinioni nec ipse refragor multum. Nam apud
         Ualerium Probum eruditissimum grammaticum, de interpretandis Romanorum litteris: C. littera:
         que semicirculi formem habet: Caium marem, eadem inuersa Caiam femellam inuenio designari.
         Fabius quoque Quintilianus Probi sententiam corroborans infit. Nam et Caius C littera
@@ -784,10 +803,10 @@
         tollitur, aut per signi interpositionem infringitur. Ut per aduentum subduple tollitur
         dupla, et sic de alijs.</p>
       <p xml:id="ORNMUS20268">Secunda, Omnis proportio et pausas et notas respicit.</p>
-      <p xml:id="ORNMUS20269">Tertia, Omnis maioris inequalitatis proportio notas ac pausas, potentia
-        sua naturali minuit: minoris vero inequalitatis adauget.</p>
-      <p xml:id="ORNMUS20270">Quarta, Alteratio ac imperfectio, ijs tantum insunt proportionibus, que in
-        gradibus perfectis fiunt. Nec omnibus figuris, sed ijs dumtaxat: quas illi gradus sua
+      <p xml:id="ORNMUS20269">Tertia, Omnis maioris inequalitatis proportio notas ac pausas,
+        potentia sua naturali minuit: minoris vero inequalitatis adauget.</p>
+      <p xml:id="ORNMUS20270">Quarta, Alteratio ac imperfectio, ijs tantum insunt proportionibus,
+        que in gradibus perfectis fiunt. Nec omnibus figuris, sed ijs dumtaxat: quas illi gradus sua
         perfectione respiciunt, aut quibus extra proportionem hec accidentia accidunt.</p>
       <p xml:id="ORNMUS20271">Quinta Sesquialtera proportio figurarum ternariam: nisi eam a signo
         habeant: perfectionem excludit. Quare nec alterationem nec imperfectionem, negante signo,
@@ -800,15 +819,15 @@
       <p xml:id="ORNMUS20274">[Ornithoparchus, f.Hiijr; text: TENOR Triple, BASIS]</p>
       <p xml:id="ORNMUS20275">
         <pb n="[f.Hiijv]"/>De Quadrupla.</p>
-      <p xml:id="ORNMUS20276">Quadrupla, Tertia multiplicis generis species, fit quando numerus maior
-        minorem: quater in se comprehendit: vt 8. ad 2. 12 ad 3. Sed musice quando quattuor note
-        contra vnam proferuntur. Cuius signa sunt hec. 4/1 8/2 vt sic</p>
+      <p xml:id="ORNMUS20276">Quadrupla, Tertia multiplicis generis species, fit quando numerus
+        maior minorem: quater in se comprehendit: vt 8. ad 2. 12 ad 3. Sed musice quando quattuor
+        note contra vnam proferuntur. Cuius signa sunt hec. 4/1 8/2 vt sic</p>
       <p xml:id="ORNMUS20277">[Ornithoparchus, f.Hiijv,1; text: TENOR Quadruple, BASIS]</p>
       <p xml:id="ORNMUS20278">De Sesquialtera.</p>
-      <p xml:id="ORNMUS20279">Sesquialtera, prima superparticularis generis species, fit quando numerus
-        maior minorem semel continet: et alteram eius partem: vt 6. ad 4. 9. ad 6 Sed musice, quando
-        tres note, contra duas sibi specie similes proferuntur. Cuius signa sunt hec. 3/2 6/4 9/6 vt
-        in exemplo sequenti.</p>
+      <p xml:id="ORNMUS20279">Sesquialtera, prima superparticularis generis species, fit quando
+        numerus maior minorem semel continet: et alteram eius partem: vt 6. ad 4. 9. ad 6 Sed
+        musice, quando tres note, contra duas sibi specie similes proferuntur. Cuius signa sunt hec.
+        3/2 6/4 9/6 vt in exemplo sequenti.</p>
       <p xml:id="ORNMUS20280">[Ornithoparchus, f.Hiijv,2; text: TENOR Sesquialtere, BASIS] <figure>
           <graphic url="/images/ORNMUS2_13GF.gif"/>
         </figure></p>
@@ -831,10 +850,10 @@
         videtur</p>
       <p xml:id="ORNMUS20284">[Ornithoparchus, f.Hivr; text: TENOR Sesquitertie, BASIS]</p>
       <p xml:id="ORNMUS20285">Se Sesquioctaua.</p>
-      <p xml:id="ORNMUS20286">Sesquioctaua proportio, fit, quum maior numerus minori comparatus: ipsum
-        semel includit: et cum hoc octauam eius partem: 9. ad 8. 18. ad 16. Sed musice quando nouem
-        note, contra octo sibi specie similes, decantantur. Cuius signum est numerus nouenarius
-        octenario suprapositus, hoc modo 9/8 vel [CL]/8</p>
+      <p xml:id="ORNMUS20286">Sesquioctaua proportio, fit, quum maior numerus minori comparatus:
+        ipsum semel includit: et cum hoc octauam eius partem: 9. ad 8. 18. ad 16. Sed musice quando
+        nouem note, contra octo sibi specie similes, decantantur. Cuius signum est numerus
+        nouenarius octenario suprapositus, hoc modo 9/8 vel [CL]/8</p>
       <p xml:id="ORNMUS20287">
         <pb n="[f.Hivv]"/>[Ornithoparchus, f.Hivv,1; text: TENOR sesquioctaue, BASIS]</p>
       <p xml:id="ORNMUS20288">Sunt insuper, qui (quoniam superueniente colore valor minuitur)

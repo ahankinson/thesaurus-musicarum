@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De cantibus quae supra modum intenduntur vel remittuntur</title>
         <title type="abbrev">ANOCAN</title>
-        <author>Anonymous</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>John Csonka</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1993</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1993">1993</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Adrien de la Fage, <emph>Essais de dipthérographie musicale</emph>
           (Paris: Legouix, 1864), 87–89. </bibl>
@@ -86,12 +96,11 @@
         velis; et in mese a consumenda; aliter enim nusquam regulariter inveniens. Sic et de
         reliquis considerandum.</p>
       <p class="textFig" xml:id="ANOCAN0002">
-        <lb/>*     *     *     *     *     *     *     *     *     *     *
-        <br/></p>
-      <p xml:id="ANOCAN0003">Primus tonus; primus hemitonius; ultimus. Qui ita designantur per quinque
-        digitos laevae palmae, ut ab auriculari digito incipiat primus tonus, et a medico primus
-        hemitonius; ab impudico autem medius tonus, ab indice vero ultimus hemitonius, a pollice
-        quoque ultimus tonus.</p>
+        <lb/>*     *     *     *     *     *     *     *     *     *     * <br/></p>
+      <p xml:id="ANOCAN0003">Primus tonus; primus hemitonius; ultimus. Qui ita designantur per
+        quinque digitos laevae palmae, ut ab auriculari digito incipiat primus tonus, et a medico
+        primus hemitonius; ab impudico autem medius tonus, ab indice vero ultimus hemitonius, a
+        pollice quoque ultimus tonus.</p>
     </body>
   </text>
 </TEI>

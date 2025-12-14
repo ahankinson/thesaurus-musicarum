@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Epistola Guidonis Michaeli monacho de ignoto cantu</title>
         <title type="abbrev">GUIEP</title>
-        <author>Guido d'Arezzo</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Guido d'Arezzo</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Jingfa Sun</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Charles Atkinson</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Patrologia cursus completus, series latina</emph>, ed. J. P. Migne, 221 vols.
@@ -253,12 +263,12 @@
         habebimus? absit. Nam et Apostolus, cum gratia Dei sit id, quod sit, cantat tamen: Bonum
         certamen certavi, cursum consummavi, fidem servavi; in reliquo reposita est mihi corona
         justitiae.</p>
-      <p xml:id="GUIEP0005">Securi ergo de spe retributionis insistamus operi tantae utilitatis; et quia
-        post multas tempestates rediit diu optata serenitas, navigandum est feliciter.</p>
-      <p xml:id="GUIEP0006">Sed quia diffidit tua de libertate captivitas, rei ordinem pandam. Summae
-        sedis apostolicae Johannes, qui modo Romanam gubernat Ecclesiam, audiens famam nostrae
-        scholae, et quomodo per nostra antiphonaria inauditos pueri cognoscerent cantus, valde
-        miratus, tribus nuntiis me ad se invitavit. Adii igitur Romam cum domno Grunvaldo,
+      <p xml:id="GUIEP0005">Securi ergo de spe retributionis insistamus operi tantae utilitatis; et
+        quia post multas tempestates rediit diu optata serenitas, navigandum est feliciter.</p>
+      <p xml:id="GUIEP0006">Sed quia diffidit tua de libertate captivitas, rei ordinem pandam.
+        Summae sedis apostolicae Johannes, qui modo Romanam gubernat Ecclesiam, audiens famam
+        nostrae scholae, et quomodo per nostra antiphonaria inauditos pueri cognoscerent cantus,
+        valde miratus, tribus nuntiis me ad se invitavit. Adii igitur Romam cum domno Grunvaldo,
         reverentissimo abbate, et domno Petro Aretinae ecclesiae canonicorum praeposito, viro pro
         nostri temporis quatitate scientissimo. Multum itaque pontifex meo gratulatus est adventu,
         multa colloquens et diversa perquirens: nostrumque velut quoddam prodigium saepe revolvens
@@ -276,39 +286,40 @@
         episcopatibus, maxime Pomposiam, propter studium, quod modo est per Dei gratiam et
         reverentissimi Guidonis industriam nunc primum in Italia repertum.</p>
       <p xml:id="GUIEP0008">Tanti itaque Patris orationibus flexus, et praeceptis obediens, prius
-        auxiliante Deo volo hoc opere tantum et tale monasterium illustrare, meque monachum <pb n="[425]"/>monachis praestare; cum praesertim Simoniaca haeresi modo prope cunctis
+        auxiliante Deo volo hoc opere tantum et tale monasterium illustrare, meque monachum <pb
+          n="[425]"/>monachis praestare; cum praesertim Simoniaca haeresi modo prope cunctis
         damnatis episcopis, timeam in aliquo communicari.</p>
-      <p xml:id="GUIEP0009">Sed quia ad praesens venire non possum, interim tibi de inveniendo ignoto
-        cantu optimum dirigo argumentum, nuper nobis a Deo datum, et utillimum comprobatum. De
-        reliquo D. Martinum priorem sacrae congregationis, nostrumque maximum adjutorem plurimum
+      <p xml:id="GUIEP0009">Sed quia ad praesens venire non possum, interim tibi de inveniendo
+        ignoto cantu optimum dirigo argumentum, nuper nobis a Deo datum, et utillimum comprobatum.
+        De reliquo D. Martinum priorem sacrae congregationis, nostrumque maximum adjutorem plurimum
         saluto, ejusque orationi me miserum plurima prece commendo, fratrem quoque Petrum memorem
         memoris esse commoneo, qui nostro lacte nutritus non sine labore maximo agresti vescitur
         hordeo, et post aurea pocula vini confusum bibit acetum.</p>
-      <p xml:id="GUIEP0010">Ad inveniendum igitur ignotum cantum, beatissime frater, prima et vulgaris
-        regula haec est: si litteras, quas quaelibet neuma habuerit, in monochordo sonaveris, atque
-        ab ipso audiens tanquam ab homine magistro discere poteris. Sed puerulis ista est regula, et
-        bona quidem incipientibus, pessima autem perseverantibus. Vidi enim multos acutissimos
-        philosophos, qui pro studio hujus artis non solum Italos, sed etiam Gallos atque Germanos,
-        ipsosque etiam Graecos quaesivere magistros; sed quia in hac sola regula confisi sunt, non
-        dico musici, sed neque cantores unquam fieri, vel nostros psalmistas puerulos imitari
-        potuerunt. Non ergo debemus semper pro ignoto cantu vocem hominis vel alicujus instrumenti
-        quaerere, ut quasi caeci videamur nunquam sine ductore procedere; sed singulorum sonorum,
-        omniumque depositionum et elevationum diversitates proprietatesque altae memoriae
-        commendare. Habetis ergo argumentum ad inveniendum inauditum cantum facillimum et
-        probatissimum, si sit, qui non modo scripto, sed potius familiari collocutione secundum
-        morem nostrum noverit aliquem edocere. Namque postquam hoc argumentum cepi pueris tradere,
-        ante triduum quidam eorum potuerunt ignotos cantus leviter canere, quod aliis argumentis nec
-        multis hebdomadibus poterat evenire.</p>
+      <p xml:id="GUIEP0010">Ad inveniendum igitur ignotum cantum, beatissime frater, prima et
+        vulgaris regula haec est: si litteras, quas quaelibet neuma habuerit, in monochordo
+        sonaveris, atque ab ipso audiens tanquam ab homine magistro discere poteris. Sed puerulis
+        ista est regula, et bona quidem incipientibus, pessima autem perseverantibus. Vidi enim
+        multos acutissimos philosophos, qui pro studio hujus artis non solum Italos, sed etiam
+        Gallos atque Germanos, ipsosque etiam Graecos quaesivere magistros; sed quia in hac sola
+        regula confisi sunt, non dico musici, sed neque cantores unquam fieri, vel nostros
+        psalmistas puerulos imitari potuerunt. Non ergo debemus semper pro ignoto cantu vocem
+        hominis vel alicujus instrumenti quaerere, ut quasi caeci videamur nunquam sine ductore
+        procedere; sed singulorum sonorum, omniumque depositionum et elevationum diversitates
+        proprietatesque altae memoriae commendare. Habetis ergo argumentum ad inveniendum inauditum
+        cantum facillimum et probatissimum, si sit, qui non modo scripto, sed potius familiari
+        collocutione secundum morem nostrum noverit aliquem edocere. Namque postquam hoc argumentum
+        cepi pueris tradere, ante triduum quidam eorum potuerunt ignotos cantus leviter canere, quod
+        aliis argumentis nec multis hebdomadibus poterat evenire.</p>
       <p xml:id="GUIEP0011">Si quam ergo vocem vel neumam vis ita memoriae commendare, ut ubicunque
         velis, in quocunque cantu, quem scias vel nescias, tibi mox possit occurrere, quatenus mox
         illum indubitanter possis enuntiare, debes ipsam vocem vel neumam in capite alicujus
         notissimae symphoniae notare, et pro unaquaque voce memoriae retinenda hujusmodi symphoniam
         in promptu habere, quae ab eadem voce incipiat: utpote sit haec symphonia, qua ego docendis
         pueris in primis atque etiam in ultimis utor:</p>
-      <p xml:id="GUIEP0012">Ut [C supra lin.] queant [D F supra lin.] laxis [D E D supra lin.] resonare
-        [D D C D supra lin.] fibris [E E supra lin.] mira [E F G E supra lin.] gestorum [D E C D
-        supra lin.] famuli [F G a supra lin.] tuorum [G F E D D supra lin.], solve [G a G F E supra
-        lin.] polluti [F G D supra lin.] labii [a G a supra lin.] reatum [F G a a supra lin.],
+      <p xml:id="GUIEP0012">Ut [C supra lin.] queant [D F supra lin.] laxis [D E D supra lin.]
+        resonare [D D C D supra lin.] fibris [E E supra lin.] mira [E F G E supra lin.] gestorum [D
+        E C D supra lin.] famuli [F G a supra lin.] tuorum [G F E D D supra lin.], solve [G a G F E
+        supra lin.] polluti [F G D supra lin.] labii [a G a supra lin.] reatum [F G a a supra lin.],
         sanctae [G F E D supra lin.] Joannes [C E D supra lin.].</p>
       <p xml:id="GUIEP0013">
         <pb n="[426]"/>Vides itaque, ut haec symphonia senis particulis suis a sex diversis incipiat
@@ -323,17 +334,18 @@
         incipit voce, in qua neuma finita est. Ergo ut inauditos cantus, mox ut descriptos videris,
         competenter enunties, aut indescriptos audiens cito describendos bene possis discernere,
         optim te juvabit haec regula.</p>
-      <p xml:id="GUIEP0014">Deinde per singulos sonos brevissimas subposui symphonias, quarum particulas
-        cum diligenter inspexeris, uniuscujusque vocis omnes depositiones et elevationes per ordinem
-        in principiis ipsarum particularum gaudebis te invenire. Si autem hoc attentare potueris, ut
-        unius et alterius symphoniae quaslibet volueris particulas moduleris, omnium neumarum
-        difficiles valde atque multiplices varietates brevissima et facili regula didicisti. Quae
-        omnia cum vix litteris utcunque significemus, facili tantum colloquio denudamus.</p>
-      <p xml:id="GUIEP0015">Sicut in omni scriptura XX et IV litteras, ita in omni cantu septem tantum
-        habemus voces. Nam sicut septem dies in hebdomada, ita septem sunt voces in musica. Aliae
-        vero, quae super septem adjunguntur, eaedem sunt, et per omnia similiter canunt in nullo
-        dissimiles, nisi quod altius dupliciter sonant. Ideoque septem dicimus graves, septem vero
-        vocamus acutas. Septem autem litterae non dupliciter, sed dissimiliter designantur hoc
+      <p xml:id="GUIEP0014">Deinde per singulos sonos brevissimas subposui symphonias, quarum
+        particulas cum diligenter inspexeris, uniuscujusque vocis omnes depositiones et elevationes
+        per ordinem in principiis ipsarum particularum gaudebis te invenire. Si autem hoc attentare
+        potueris, ut unius et alterius symphoniae quaslibet volueris particulas moduleris, omnium
+        neumarum difficiles valde atque multiplices varietates brevissima et facili regula
+        didicisti. Quae omnia cum vix litteris utcunque significemus, facili tantum colloquio
+        denudamus.</p>
+      <p xml:id="GUIEP0015">Sicut in omni scriptura XX et IV litteras, ita in omni cantu septem
+        tantum habemus voces. Nam sicut septem dies in hebdomada, ita septem sunt voces in musica.
+        Aliae vero, quae super septem adjunguntur, eaedem sunt, et per omnia similiter canunt in
+        nullo dissimiles, nisi quod altius dupliciter sonant. Ideoque septem dicimus graves, septem
+        vero vocamus acutas. Septem autem litterae non dupliciter, sed dissimiliter designantur hoc
         modo:</p>
       <p xml:id="GUIEP0016">[Gamma]. A B C D E F G a [sqb] c d e f g aa bb cc dd</p>
       <p xml:id="GUIEP0017">Qui vero monochordum desiderat facere, et qualitates et quantitates,
@@ -378,25 +390,25 @@
         C et in sexta F; ambae enim semitonio et duobus tonis descendunt, duobus vero tonis
         ascendunt. Sola vero septima G quartum modum facit, quae in depositione unum tonum et
         semitonium et duos tonos, in elevatione vero duos habet tonos et semitonium.</p>
-      <p xml:id="GUIEP0021">Et qui plene exercitati sunt in hac arte, possunt unamquamlibet symphoniam
-        secundum hos quatuor variare modos, utputa, si quis unam symphoniam primum in voce prima A,
-        et postea eamdem incipiat in voce secunda, dehinc in tertia. Et secundum quod ipsae voces
-        diversam habent tonorum et semitoniorum positionem, sic variis modis secundum uniuscujusque
-        proprietatem eam pronuntiet. Quod quidem facere valde est utile, et valde facile, hoc
-        modo:</p>
-      <p xml:id="GUIEP0022">Tu [D supra lin.] Patris [F G supra lin.] sempiternus [G G G G supra lin.]
-        es [a supra lin.] Filius [F E D supra lin.].</p>
-      <p xml:id="GUIEP0023">Tu [E supra lin.] Patris [G a supra lin.] sempiternus [a a a a supra lin.]
-        es [[sqb] supra lin.] Filius [G F E supra lin.].</p>
-      <p xml:id="GUIEP0024">Tu [F supra lin.] Patris [a [sqb] supra lin.] sempiternus [[sqb] [sqb] [sqb]
-        [sqb] supra lin.], es [c supra lin.] Filius [a G F supra lin.],</p>
+      <p xml:id="GUIEP0021">Et qui plene exercitati sunt in hac arte, possunt unamquamlibet
+        symphoniam secundum hos quatuor variare modos, utputa, si quis unam symphoniam primum in
+        voce prima A, et postea eamdem incipiat in voce secunda, dehinc in tertia. Et secundum quod
+        ipsae voces diversam habent tonorum et semitoniorum positionem, sic variis modis secundum
+        uniuscujusque proprietatem eam pronuntiet. Quod quidem facere valde est utile, et valde
+        facile, hoc modo:</p>
+      <p xml:id="GUIEP0022">Tu [D supra lin.] Patris [F G supra lin.] sempiternus [G G G G supra
+        lin.] es [a supra lin.] Filius [F E D supra lin.].</p>
+      <p xml:id="GUIEP0023">Tu [E supra lin.] Patris [G a supra lin.] sempiternus [a a a a supra
+        lin.] es [[sqb] supra lin.] Filius [G F E supra lin.].</p>
+      <p xml:id="GUIEP0024">Tu [F supra lin.] Patris [a [sqb] supra lin.] sempiternus [[sqb] [sqb]
+        [sqb] [sqb] supra lin.], es [c supra lin.] Filius [a G F supra lin.],</p>
       <p xml:id="GUIEP0025">Tu [G supra lin.] Patris [[sqb] c supra lin.] sempiternus [c c c c supra
         lin.] es [d supra lin.] Filius [b a G supra lin.].</p>
-      <p xml:id="GUIEP0026">Igitur curiose est intendendum de omni melo, secundum cujusmodi proprietatem
-        sonet, sive in principio sive in fine, quamvis de solo fine dicere soleamus. Quaedam autem
-        neumae repertae sunt, quarum aptitudine hoc solemus advertere, utpote;</p>
-      <p xml:id="GUIEP0027">[PLCXLI:427-28; text: C, D, E, F, G, a, Primum quoerite regnum Dei, Secundum
-        autem simile est huic] <figure>
+      <p xml:id="GUIEP0026">Igitur curiose est intendendum de omni melo, secundum cujusmodi
+        proprietatem sonet, sive in principio sive in fine, quamvis de solo fine dicere soleamus.
+        Quaedam autem neumae repertae sunt, quarum aptitudine hoc solemus advertere, utpote;</p>
+      <p xml:id="GUIEP0027">[PLCXLI:427-28; text: C, D, E, F, G, a, Primum quoerite regnum Dei,
+        Secundum autem simile est huic] <figure>
           <graphic url="/images/GUIEP_01GF.gif"/>
         </figure></p>
       <p xml:id="GUIEP0028">
@@ -435,9 +447,9 @@
         in elevatione; et rursus d e f acutae possunt deponi duobus tonis, sicut a b c quatenus
         nulla sit differentia inter D E F et inter a [sqb] c, cum id, quod cantatur in a [sqb] c et
         in D E F possit cantari.</p>
-      <p xml:id="GUIEP0032">Ut autem singulis vocibus sua proprietas permaneat, melius est, ut cantuum
-        inspiciatur natura; et cum cantus hos tres tonos videatur admittere, fiat hoc in F G a
-        [sqb]. Cum vero post duos tonos non nisi semitonium sumit, fiat hoc in c d e f praesertim
+      <p xml:id="GUIEP0032">Ut autem singulis vocibus sua proprietas permaneat, melius est, ut
+        cantuum inspiciatur natura; et cum cantus hos tres tonos videatur admittere, fiat hoc in F G
+        a [sqb]. Cum vero post duos tonos non nisi semitonium sumit, fiat hoc in c d e f praesertim
         cum pro hujus vocis additamento maxima confusio nascatur simplicibus. Nam si duae sunt
         secundae post primam, cum ad alteram semitonio, ad alteram vero tono prima ipsa jungatur,
         facile est videre, quod ipsa prima, ac per hoc et aliae contiguae voces duos habeant tonos;
@@ -455,24 +467,25 @@
         poetarum septem cecinit discrimina vocum; quam sententiam et ipsi philosophi pari concordia
         firmaverunt. Interea curandum est, ut sciatur de qualibet neuma, in quantis et qualibus
         sonis esse possit, vel non possit.</p>
-      <p xml:id="GUIEP0034">Potest enim fieri in tertio, et in sexto, et in septimo sono, quia hi tres
-        soni duobus pariter tonis ascendunt, et ipsa symphonia duobus tantum fit modis.</p>
+      <p xml:id="GUIEP0034">Potest enim fieri in tertio, et in sexto, et in septimo sono, quia hi
+        tres soni duobus pariter tonis ascendunt, et ipsa symphonia duobus tantum fit modis.</p>
       <p xml:id="GUIEP0035">Praeterea septima vox cum tertia in elevatione concordat; utraque enim
         duobus tonis et semitonio, et item duobus tonis elevantur. Eadem quoque septima cum quarta
         concordat uno tono in elevatione, et in depositione tono et semitonio, et duobus tonis in
         utroque cantatur similiter.</p>
-      <p xml:id="GUIEP0036">Prima quoque cum quinta omnes depositivas neumas communiter facit; deponitur
-        enim duobus tonis et semitonio. Itaque hae voces similes faciunt neumas, prima cum quarta:
-        secunda cum quinta; tertia cum sexta; septima cum prima vel cum tertia. Nulla autem vox
-        ultra quatuor elevationes vel depositiones habet, quia non potest gravari vel acui, nisi ad
-        secundum vel tertiam, vel quartam vel quintam secundum sex species, quas supra dixi, id est,
-        tono, semitonio, ditono, semiditono, diatessaron et diapente. Nam cum vox aliqua ad secundum
-        movetur, aut fit tono, aut semitonio; cum vero ad tertiam; ditono vel semiditono. Ad quartam
-        vel quintam non fit nisi per diatessaron et diapente. Intellige praeterea, quod in authentis
-        ad octavas cantus a sua finali voce ascendit; descendit autem nonnisi uno tono sub finali,
-        excepto trito, qui a suo fine non deponitur, quia non habet sub se tonum, sed semitonium. In
-        plagis autem a finali voce ad quintam descendimus et ascendimus, nisi sit, prolixior cantus,
-        qui plagalem depositionem et authenticam elevationem habeat, quod tamen rarissime fit.</p>
+      <p xml:id="GUIEP0036">Prima quoque cum quinta omnes depositivas neumas communiter facit;
+        deponitur enim duobus tonis et semitonio. Itaque hae voces similes faciunt neumas, prima cum
+        quarta: secunda cum quinta; tertia cum sexta; septima cum prima vel cum tertia. Nulla autem
+        vox ultra quatuor elevationes vel depositiones habet, quia non potest gravari vel acui, nisi
+        ad secundum vel tertiam, vel quartam vel quintam secundum sex species, quas supra dixi, id
+        est, tono, semitonio, ditono, semiditono, diatessaron et diapente. Nam cum vox aliqua ad
+        secundum movetur, aut fit tono, aut semitonio; cum vero ad tertiam; ditono vel semiditono.
+        Ad quartam vel quintam non fit nisi per diatessaron et diapente. Intellige praeterea, quod
+        in authentis ad octavas cantus a sua finali voce ascendit; descendit autem nonnisi uno tono
+        sub finali, excepto trito, qui a suo fine non deponitur, quia non habet sub se tonum, sed
+        semitonium. In plagis autem a finali voce ad quintam descendimus et ascendimus, nisi sit,
+        prolixior cantus, qui plagalem depositionem et authenticam elevationem habeat, quod tamen
+        rarissime fit.</p>
       <p xml:id="GUIEP0037">Principia quoque cantuum in omnibus illis vocibus esse possunt, quae
         secundam praedictas sex consonantias cum finali voce conveniunt. Si qua aliter inveneris, ex
         ipsa raritate cognosces, quod <pb n="[431]"/>sint auctoritate praesumpta; non autem sunt

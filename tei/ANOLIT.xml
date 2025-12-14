@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Libellus tonarius</title>
         <title type="abbrev">ANOLIT</title>
-        <author>Anonymous</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Anna Shparberg</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1999</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1999">1999</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Heinrich Sowa, <emph>Quellen zur Transformation der Antiphonen: Tonar-
             und Rhythmusstudien</emph> (Kassel: Bärenreiter, 1935), 81–154. </bibl>
@@ -40,14 +50,15 @@
       <p xml:id="ANOLIT0001">
         <pb n="[81]"/>De origine quatuor uocum, que nunc toni dicuntur.</p>
       <p xml:id="ANOLIT0002">De earum discreta proprietate et que eis principantur littere.</p>
-      <p xml:id="ANOLIT0003">Qua ratione toni septimus et octauus una contenti sint diffinitione.</p>
-      <p xml:id="ANOLIT0004">Que sit ratio, quod toni quintus et sextus cum nascantur de uoce alterius
-        depositionem mutuante, singulas tamen obtinuerunt diffinitiones.</p>
+      <p xml:id="ANOLIT0003">Qua ratione toni septimus et octauus una contenti sint
+        diffinitione.</p>
+      <p xml:id="ANOLIT0004">Que sit ratio, quod toni quintus et sextus cum nascantur de uoce
+        alterius depositionem mutuante, singulas tamen obtinuerunt diffinitiones.</p>
       <p xml:id="ANOLIT0005">Do octo tonis ex diuisione distantium naturaliter harum quatuor uocum
         discretis.</p>
       <p xml:id="ANOLIT0006">Nec uocem quintam nec tonum inueniri nouum autentici.</p>
-      <p xml:id="ANOLIT0007">Quid determinatis et ab una uoce in duo diuisis regulariter assignatum sit
-        autentico quidue subiugali.</p>
+      <p xml:id="ANOLIT0007">Quid determinatis et ab una uoce in duo diuisis regulariter assignatum
+        sit autentico quidue subiugali.</p>
       <p xml:id="ANOLIT0008">Que corde quorum tonorum sint finales, et qua ratione.</p>
       <p xml:id="ANOLIT0009">Quid opusculi huius exposcat ratio, polliceatur intentio, experiatur
         inspectio.</p>
@@ -58,7 +69,8 @@
       <p xml:id="ANOLIT0014">Que antiphone in differentias sint segregande.</p>
       <p xml:id="ANOLIT0015">De tonalibus melodiis.</p>
       <p xml:id="ANOLIT0016">De ordine differentiarum.</p>
-      <p xml:id="ANOLIT0017">Quasdam autentici et subiugalis tonales melodias olim fuisse equiuocas.</p>
+      <p xml:id="ANOLIT0017">Quasdam autentici et subiugalis tonales melodias olim fuisse
+        equiuocas.</p>
       <p xml:id="ANOLIT0018">Quid rationis quidue utilitatis in secuturo inuenias opere.</p>
       <p xml:id="ANOLIT0019">(Prologus.)</p>
       <p xml:id="ANOLIT0020">Cum simplicium uocum naturaliter se sequentium septem sint discrimina,
@@ -68,13 +80,13 @@
         copulate uocis diuersitatem nulla tibi collatio inueniet. Quatuor autem he hac proprietate
         sunt discrete, ut altera alteri discordet, altera acceptam alterius melodiam a sue proprie
         [tatis] qualitate statu naturali transformet.</p>
-      <p xml:id="ANOLIT0021">Distantiam quippe ordinem exempla septem discriminum, que natura artifex
-        simplicibus (fol. 57) inesse uocibus uoluit, presentabunt septem prime uoces monocordi.
-        Octaua eadem in acumine, que prima in grauitate. Uocum autem que ex coniunctione hinc-inde
-        lateralium uariato concentu in quatuor copulantur diuersitates, formam dixerunt hanc primam,
-        que cum in prima consideratur corda, non habens infra se quo remittatur, tonum semitonium
-        tonum tonum intenditur. Secunda in consideratione secunde corde, tonum, quantum autem ad
-        quintam cordam que eadem est cum secunda tonum tonum semitonium deponitur, utrimque
+      <p xml:id="ANOLIT0021">Distantiam quippe ordinem exempla septem discriminum, que natura
+        artifex simplicibus (fol. 57) inesse uocibus uoluit, presentabunt septem prime uoces
+        monocordi. Octaua eadem in acumine, que prima in grauitate. Uocum autem que ex coniunctione
+        hinc-inde lateralium uariato concentu in quatuor copulantur diuersitates, formam dixerunt
+        hanc primam, que cum in prima consideratur corda, non habens infra se quo remittatur, tonum
+        semitonium tonum tonum intenditur. Secunda in consideratione secunde corde, tonum, quantum
+        autem ad quintam cordam que eadem est cum secunda tonum tonum semitonium deponitur, utrimque
         semitonium tonum tonum eleuatur. Tertie uocis in tertia item considerate corda, est
         semitonium tonum remitti eleuationem autem cum depositione secunde uocis equiuocam habere,
         id est tonum tonum semitonium intendi. Quarta corda auctor est eiusdem uocis cuius et prima,
@@ -85,8 +97,8 @@
         scilicet h quadratum inspexeris, uel cum prima uoce item tonum semitonium tonum tonum,
         scilicet b rotundum non preterieris. Que igitur quatuor uocum quid descendat quidue
         intendatur, quibus consideretur litteris in hac breuiata figura uidere poteris:</p>
-      <p xml:id="ANOLIT0022">[Libellus Tonarius, 82; text: I, II, III, t, ts, A, B, C, tstt, stt, tts,
-        IV, V, VI, VII, tst, tst, D, E, F, G, ttst, sttts, ststt] <figure>
+      <p xml:id="ANOLIT0022">[Libellus Tonarius, 82; text: I, II, III, t, ts, A, B, C, tstt, stt,
+        tts, IV, V, VI, VII, tst, tst, D, E, F, G, ttst, sttts, ststt] <figure>
           <graphic url="/images/ANOLIT_01GF.gif"/>
         </figure></p>
       <p xml:id="ANOLIT0023">Hinc cum quarta uox per se non existat, sed ex aliis mutuata, prime
@@ -105,11 +117,11 @@
         considerata in remittendo. Sed quia depositionem propriam, et cum nulla alia communem
         obtinuit, semitonium enim tonum tonum sola deponitur, nichil diminutionis in assignata
         dignitate tonorum ab ea diuisorum pa[r]titur.</p>
-      <p xml:id="ANOLIT0025">Considerata igitur proprietate discreta uocis copulate et hanc aut acutam
-        esse aut grauem inuenis uel remissionis uel intensionis artificiosa consideratione, sancti
-        doctores quibus instruente sancto Spiritu magisterium huius artis cesserant; unamquamque
-        quatuor uocum in duo diuiserunt, discretis inde octo differenter tonis ut duorum ex uno
-        fonte manantium alter acutus, alter sit grauis. Acutum quippe principalem, grauem
+      <p xml:id="ANOLIT0025">Considerata igitur proprietate discreta uocis copulate et hanc aut
+        acutam esse aut grauem inuenis uel remissionis uel intensionis artificiosa consideratione,
+        sancti doctores quibus instruente sancto Spiritu magisterium huius artis cesserant;
+        unamquamque quatuor uocum in duo diuiserunt, discretis inde octo differenter tonis ut duorum
+        ex uno fonte manantium alter acutus, alter sit grauis. Acutum quippe principalem, grauem
         appellauerunt subiugalem.</p>
       <p xml:id="ANOLIT0026">Nec quinta in copulando uocem inueniri poterat diuersitas, unde tonorum
         ornetur pluralitas. Trite enim sinemenon b, que semitonium faciens post mesen a, uideri
@@ -117,8 +129,8 @@
         proprium remittit quod uox tertia semper, intendit quod eadem interdum. Amplius nec supra se
         ut predicte quatuor uoces ipsa habet cordam, quo diatesseron intendat, nec infra se ad quam
         diapente remittat. Ergo nec uocem quintam, nec tonum desideres nonum.</p>
-      <p xml:id="ANOLIT0027">Inuentum est igitur esse octo tonos, quibus regatur omne musicum melos. Qui
-        ut preter naturalem illam proprietatem qua eos mater primaria uox distinxerat, possint
+      <p xml:id="ANOLIT0027">Inuentum est igitur esse octo tonos, quibus regatur omne musicum melos.
+        Qui ut preter naturalem illam proprietatem qua eos mater primaria uox distinxerat, possint
         acutis altrinsecus uocibus ratam melodie dulcedinem reddere, ad distinguendum utriusque
         proprietatem est prescriptum principali id iuris, ut septem discrimina uocum intendendo
         amplectatur. Id est ut ad sui equiuocam diapente et diatesseron adinplendo intendatur, nec
@@ -126,23 +138,23 @@
         simplicium et naturaliter se sequentium septem uocum distantias, hinc diapente eleuetur,
         hinc diatesseron deponatur, quamuis uterque licenter euagando citra et ultra hanc legis
         metam, multiformiter colorare consueuerint hanc intendendi ac remittendi regulam.</p>
-      <p xml:id="ANOLIT0028">Et ut accepte legis fierent compotes prouidende erant principalibus quatuor
-        uocibus totidem corde huius positionis; unde et prima pro lege primi subiugalis diatesseron
-        remitti, et quarta pro iure quarti principalis, diapente et diatesseron posset intendi. Sed
-        sole hanc hincinde prestandi copiam habuerunt lichanosypaton D, ypatemeson E, paripatemeson
-        F, lichanosmeson G. Ergo iste quatuor electe sunt ut sint finales totidem uocum
-        uniuscuiusque duos de se tonos deriuantium, ut tonus omnis de suo quisque finali incipiendi
-        regulam, ascendendi ac descendendi metam, omnem cursus tenorem metiatur; et ubicumque
-        incipiens, quocumque progressus, quocumque translatus, flexo in illum, respectu regulariter
-        autem in illo, aut quod aliquando occurrit, in eius sociali faciat cursus finem, de cuius
-        quasi nutu currendi accepit legem.</p>
-      <p xml:id="ANOLIT0029">(fol. 58) Quia uero pro colorata diuersa musice inflexionis diuersitate,
-        cantus aliquis infra finalem nunc solum semitonium quod tamen rarius, nunc tonum quod
-        occurrit quidem frequentius, aliquando semiditonum, aliquando ditonum, interdum diatesseron,
-        diapente etiam siue continue siue intercise remissus; in acumine uero idem ille item nunc
-        semitonio, nunc tono, interdum semiditono sine aliis que occurrunt uocibus emensis,
-        aliquando infra diapente subsistit, aliquando diapente peragit; aliquando additis ultra
-        diapente que sequuntur cordis diatesseron tamen non conscendit, aliquando non tantum
+      <p xml:id="ANOLIT0028">Et ut accepte legis fierent compotes prouidende erant principalibus
+        quatuor uocibus totidem corde huius positionis; unde et prima pro lege primi subiugalis
+        diatesseron remitti, et quarta pro iure quarti principalis, diapente et diatesseron posset
+        intendi. Sed sole hanc hincinde prestandi copiam habuerunt lichanosypaton D, ypatemeson E,
+        paripatemeson F, lichanosmeson G. Ergo iste quatuor electe sunt ut sint finales totidem
+        uocum uniuscuiusque duos de se tonos deriuantium, ut tonus omnis de suo quisque finali
+        incipiendi regulam, ascendendi ac descendendi metam, omnem cursus tenorem metiatur; et
+        ubicumque incipiens, quocumque progressus, quocumque translatus, flexo in illum, respectu
+        regulariter autem in illo, aut quod aliquando occurrit, in eius sociali faciat cursus finem,
+        de cuius quasi nutu currendi accepit legem.</p>
+      <p xml:id="ANOLIT0029">(fol. 58) Quia uero pro colorata diuersa musice inflexionis
+        diuersitate, cantus aliquis infra finalem nunc solum semitonium quod tamen rarius, nunc
+        tonum quod occurrit quidem frequentius, aliquando semiditonum, aliquando ditonum, interdum
+        diatesseron, diapente etiam siue continue siue intercise remissus; in acumine uero idem ille
+        item nunc semitonio, nunc tono, interdum semiditono sine aliis que occurrunt uocibus
+        emensis, aliquando infra diapente subsistit, aliquando diapente peragit; aliquando additis
+        ultra diapente que sequuntur cordis diatesseron tamen non conscendit, aliquando non tantum
         diatesseron, sed etiam alterum diapente adiungit; aliquis uero infra finalem remitti
         nescimus, emensis in acumine que sequuntur uocibus aliquando item ad diapente non peruenit,
         aliquando illud conficit interdum transito alias uoces, diatesseron quoque alterum etiam
@@ -159,10 +171,10 @@
         remittatur, subscriptum quid intendatur, ut quasi <pb n="[85]"/>ipsius regule rationis dicas
         descriptum demonstratione radio quid cuique conueniat tono, uisurus etiam quid licentie
         regula exorbitando sibi interdum usurpat exlex et euagata consuetudo.</p>
-      <p xml:id="ANOLIT0030">Omnis igitur cantus diapente a finali intensus, et infra finalem aut minime
-        aut solummodo tonum remissus, autentico est ascribendus, ut antiphone: t [punctus sub lin.]
-        Volo pater [Delta] primi toni, t [punctus sub lin.] Angelus domini nuntiauit [Delta] primi
-        toni. Nam qui infra finalem plus tono remittitur, nisi intenso diapente intendatur et
+      <p xml:id="ANOLIT0030">Omnis igitur cantus diapente a finali intensus, et infra finalem aut
+        minime aut solummodo tonum remissus, autentico est ascribendus, ut antiphone: t [punctus sub
+        lin.] Volo pater [Delta] primi toni, t [punctus sub lin.] Angelus domini nuntiauit [Delta]
+        primi toni. Nam qui infra finalem plus tono remittitur, nisi intenso diapente intendatur et
         diatesseron, subiugali, non autentico ascribitur, ut uides in antiphonis: s t Audistis quia
         dicta [Delta] t septimi toni, tt Pater iuste [Delta] s quarti toni, d Genuit puerpera
         [Delta] s t secundi toni, Excipitur tertius autenticus quintus scilicet tonus, qui cum infra
@@ -187,8 +199,8 @@
         diatesseron quoque remitti poterit. Nam cantus, qui post diapente a finali intensum quicquam
         ab integro diatesseron minus habens infra finalem uel semitonium uel ditonum remittit,
         autenticus esse amittit.</p>
-      <p xml:id="ANOLIT0031">Subiugali autem attitulandus est cantus, quicumque a finali ad diapente non
-        peruenerit siue infra finalem nullatenus, siue quantumcumque remissus. Item subiugali
+      <p xml:id="ANOLIT0031">Subiugali autem attitulandus est cantus, quicumque a finali ad diapente
+        non peruenerit siue infra finalem nullatenus, siue quantumcumque remissus. Item subiugali
         ascribendus est, quicumque ad diapente perueniens, infra finalem plus tono id est siue
         semitonium siue ditonum, siue diatesseron, siue alterum diapente remittitur, quamuis post
         intensum a finali diapente siue semitonium siue tonum, siue semiditonum siue ditonum, non
@@ -238,19 +250,19 @@
         non plus tono infra finalem cordam remisse pro descripta lege autentici acutius intendantur,
         et que subiugalem designant minus intense pro subiugalis grauitate remittantur, excepta
         diffinitione octaui, quam auctoritas noluit esse alteram quam septimi.</p>
-      <p xml:id="ANOLIT0034">Ad hec uolentes simul esse et suaues et certos uariant quemlibet fere tonum
-        designatis cantui eius diuersis limitibus incipiendi, ut principali cantu incipiente ubi et
-        finitur in suo scilicet finali, sic etiam alius diuersitatis gratia hinc-inde incipiens; sed
-        non nisi in eo, uel regulari distantia ab eo desinens, et cum eo uelut idem et diuersus; ut
-        sicut diuerse species eedem sunt in suo genere, sic cuiuslibet toni distantes ab eo et inter
-        se, tonales differentie eedem sint diuerse; eedem, quia ad eundem finem tendentes, quia
-        incipiendi metam uariantes. Diuersis enim principiis ad unum finem tendentibus et incipiendi
-        uarietas dulcedinem, et finis idemtitas uisa est prestare toni certitudinem. Huius modi
-        igitur cantum alia quam suus principalis tonali melodia coloratum, appellauere differentiam.
-        Preteritis enim nec pro speciali differentia annumeratis que sub eodem Seculorum Amen passim
-        ac diuerse ordiuntur, ille tantum in differentiarum separationem aggregantur, et
-        differentiarum uocabulo determinantur, que ubicumque incipiant, principale tamen Seculorum
-        Amen alterant.</p>
+      <p xml:id="ANOLIT0034">Ad hec uolentes simul esse et suaues et certos uariant quemlibet fere
+        tonum designatis cantui eius diuersis limitibus incipiendi, ut principali cantu incipiente
+        ubi et finitur in suo scilicet finali, sic etiam alius diuersitatis gratia hinc-inde
+        incipiens; sed non nisi in eo, uel regulari distantia ab eo desinens, et cum eo uelut idem
+        et diuersus; ut sicut diuerse species eedem sunt in suo genere, sic cuiuslibet toni
+        distantes ab eo et inter se, tonales differentie eedem sint diuerse; eedem, quia ad eundem
+        finem tendentes, quia incipiendi metam uariantes. Diuersis enim principiis ad unum finem
+        tendentibus et incipiendi uarietas dulcedinem, et finis idemtitas uisa est prestare toni
+        certitudinem. Huius modi igitur cantum alia quam suus principalis tonali melodia coloratum,
+        appellauere differentiam. Preteritis enim nec pro speciali differentia annumeratis que sub
+        eodem Seculorum Amen passim ac diuerse ordiuntur, ille tantum in differentiarum separationem
+        aggregantur, et differentiarum uocabulo determinantur, que ubicumque incipiant, principale
+        tamen Seculorum Amen alterant.</p>
       <p xml:id="ANOLIT0035">Toni etiam cuiuslibet antiphonis et principalibus et differentialibus
         affines affinibus assignauerunt quasdam tonales melodias tonorum, scilicet designatiuas
         neumas dico quibus Seculorum Amen decantatur, et psalmodia principiis antiphonarum
@@ -313,9 +325,9 @@
         prius erat equiuocum, alteri autentico scilicet siue subiugali cesserit uniuocum, sub illo
         cuius legem seruant tono remanserint antiphone eius melodia tonali, non ea qua prius
         regende.</p>
-      <p xml:id="ANOLIT0038">Hinc est quod frequenter quedam antiphone illi Seculorum Amen, cui quantum
-        ad ad uocem refragantur, ex iudicio rationis [scr tenantur]; cum pateat insistenti has
-        regulas uel puerulo, quia quas quidam autentico ascribunt, perplures antiphone subiugali
+      <p xml:id="ANOLIT0038">Hinc est quod frequenter quedam antiphone illi Seculorum Amen, cui
+        quantum ad ad uocem refragantur, ex iudicio rationis [scr tenantur]; cum pateat insistenti
+        has regulas uel puerulo, quia quas quidam autentico ascribunt, perplures antiphone subiugali
         euidenter sint ascribende, quare [subiugali] autentico nequeant subduci; nec audiendam
         consuetudinem, que lex tonum ex finali quidem corda generaliter et discrete siue autenticum
         siue subiugalem alicui antiphone aliquando imponit, non ex tractatione regularis ascensus
@@ -338,11 +350,11 @@
         principale</p>
       <p xml:id="ANOLIT0041">Seculorum Amen his distinguit neumis</p>
       <p xml:id="ANOLIT0042">[Libellus Tonarius, 90; text: Seculorum Amen]</p>
-      <p xml:id="ANOLIT0043">Huic primi toni melodie, he subscribuntur antiphone incipientes in finali,
-        sed a deposita men sillaba interuallo diatesseron in grauitate: Angelus domini [Delta], Ante
-        quam conuenirent [Delta] s; Ante me non est formatus [Delta] s. Hec enim et ex semitoniorum
-        detrimentis secundo et ex prescripta ascensus et descensus lege cuilibet negata subiugali,
-        non exorbitat primi cursum autentici.</p>
+      <p xml:id="ANOLIT0043">Huic primi toni melodie, he subscribuntur antiphone incipientes in
+        finali, sed a deposita men sillaba interuallo diatesseron in grauitate: Angelus domini
+        [Delta], Ante quam conuenirent [Delta] s; Ante me non est formatus [Delta] s. Hec enim et ex
+        semitoniorum detrimentis secundo et ex prescripta ascensus et descensus lege cuilibet negata
+        subiugali, non exorbitat primi cursum autentici.</p>
       <p xml:id="ANOLIT0044">
         <pb n="[91]"/>I</p>
       <p xml:id="ANOLIT0045">t [punctus sub lin.] Ad hoc tantum sub clamide [Delta]</p>
@@ -370,8 +382,8 @@
       <p xml:id="ANOLIT0067">t [punctus sub lin.] Beatus Januarius [Delta] t s</p>
       <p xml:id="ANOLIT0068">t [punctus sub lin.] Continet in gremio [Delta] t s</p>
       <p xml:id="ANOLIT0069">t [punctus sub lin.] Cum inducerent puerum [Delta] d</p>
-      <p xml:id="ANOLIT0070">Semitonia enim que desunt huic, sub tertio regulariter competunt, addicte
-        primo. --</p>
+      <p xml:id="ANOLIT0070">Semitonia enim que desunt huic, sub tertio regulariter competunt,
+        addicte primo. --</p>
       <p xml:id="ANOLIT0071">t [punctus sub lin.] Cecus magis ac magis [Delta] t s</p>
       <p xml:id="ANOLIT0072">t [punctus sub lin.] Cum facis elemosinam [Delta] s</p>
       <p xml:id="ANOLIT0073">t [punctus sub lin.] Cum immundus spiritus [Delta] s</p>
@@ -388,7 +400,8 @@
       <p xml:id="ANOLIT0084">t [punctus sub lin.] Corpora sanctorum in pace [Delta]</p>
       <p xml:id="ANOLIT0085">t [punctus sub lin.] Cognouerunt omnes [Delta] t s</p>
       <p xml:id="ANOLIT0086">t [punctus sub lin.] Cum audisset Job [Delta] t s</p>
-      <p xml:id="ANOLIT0087">Hanc item semitoniorum detrimenta negatam tertio assignant primo. --</p>
+      <p xml:id="ANOLIT0087">Hanc item semitoniorum detrimenta negatam tertio assignant primo.
+        --</p>
       <p xml:id="ANOLIT0088">t [punctus sub lin.] Considerate lilia agri [Delta] t s</p>
       <p xml:id="ANOLIT0089">t [punctus sub lin.] Dabit illi dominus [Delta] s</p>
       <p xml:id="ANOLIT0090">t [punctus sub lin.] Dominus ueniet [Delta] t s</p>
@@ -423,10 +436,10 @@
       <p xml:id="ANOLIT0116">t [punctus sub lin.] Egredietur uirga [Delta] t s</p>
       <p xml:id="ANOLIT0117">t [punctus sub lin.] Eicientes eum extra [Delta]</p>
       <p xml:id="ANOLIT0118">t [punctus sub lin.] Ecce puer meus [Delta] s</p>
-      <p xml:id="ANOLIT0119">Hic aliqui interponendam dicentes antiphonam Ecce quod concupiui, illius
-        dictionis que est "deuotione" ultima sillaba in mesen a intensa, non tonum sed ditonum
-        remittunt, et semitonio in .di. sillaba in grauitatem flexo, tonoque in primum hunc finalem
-        remisso, ultimas duas antiphone huius sillabas in eo deponunt. Sed cum antiphona hec
+      <p xml:id="ANOLIT0119">Hic aliqui interponendam dicentes antiphonam Ecce quod concupiui,
+        illius dictionis que est "deuotione" ultima sillaba in mesen a intensa, non tonum sed
+        ditonum remittunt, et semitonio in .di. sillaba in grauitatem flexo, tonoque in primum hunc
+        finalem remisso, ultimas duas antiphone huius sillabas in eo deponunt. Sed cum antiphona hec
         usitatam non alterando melodiam prime quarti toni differentie incedat regularem, uidetur
         uiolentie tono hanc alii ut reluctantem subdere. --</p>
       <p xml:id="ANOLIT0120">t [punctus sub lin.] Erant autem qui manduc. [Delta] s</p>
@@ -439,8 +452,8 @@
       <p xml:id="ANOLIT0127">t [punctus sub lin.] Factum est autem ut m. [Delta] t s</p>
       <p xml:id="ANOLIT0128">t [punctus sub lin.] Fulgebunt iusti [Delta]</p>
       <p xml:id="ANOLIT0129">t [punctus sub lin.] Germinauit radix [Delta] s</p>
-      <p xml:id="ANOLIT0130">Hec cum incepta a finali dispendium semitonii patiatur, in socialem primi
-        toni mesen regula magistrante transfertur. Ibi enim incepta currit legittime, suas
+      <p xml:id="ANOLIT0130">Hec cum incepta a finali dispendium semitonii patiatur, in socialem
+        primi toni mesen regula magistrante transfertur. Ibi enim incepta currit legittime, suas
         distiguens neumas cordarum positione consone. --</p>
       <p xml:id="ANOLIT0131">t [punctus sub lin.] Gallus Dei famulus [Delta] t s</p>
       <p xml:id="ANOLIT0132">t [punctus sub lin.] Hoc est testimonium [Delta] t s</p>
@@ -465,8 +478,8 @@
         <pb n="[93]"/>t [punctus sub lin.] Johannes quidem clamauit [Delta]</p>
       <p xml:id="ANOLIT0151">t In isto loco remiss. [Delta]</p>
       <p xml:id="ANOLIT0152">t [punctus sub lin.] Indutus est dominus [Delta] [t] s</p>
-      <p xml:id="ANOLIT0153">Hec cum infra finalem solum remissa tonum, a finali diapente et semitonium
-        intendatur, non esse plagis sed autentici defenditur. --</p>
+      <p xml:id="ANOLIT0153">Hec cum infra finalem solum remissa tonum, a finali diapente et
+        semitonium intendatur, non esse plagis sed autentici defenditur. --</p>
       <p xml:id="ANOLIT0154">t [punctus sub lin.] In tympano et choro [Delta]</p>
       <p xml:id="ANOLIT0155">t [punctus sub lin.] Intrepidus itaque [Delta]</p>
       <p xml:id="ANOLIT0156">t [punctus sub lin.] In domino laudabitur [Delta] t s</p>
@@ -533,15 +546,16 @@
       <p xml:id="ANOLIT0203">t [punctus sub lin.] Omnes qui habebant infirmos [Delta]</p>
       <p xml:id="ANOLIT0204">t [punctus sub lin.] O crux gloriosa [Delta] t s</p>
       <p xml:id="ANOLIT0205">t [punctus sub lin.] O crux benedicta (que) [Delta] t s</p>
-      <p xml:id="ANOLIT0206">Notandum in hac antiphona maximum continuate uocis interuallum, includens
-        scilicet diapente et tonum. -- [[Delta] s]</p>
+      <p xml:id="ANOLIT0206">Notandum in hac antiphona maximum continuate uocis interuallum,
+        includens scilicet diapente et tonum. -- [[Delta] s]</p>
       <p xml:id="ANOLIT0207">t [punctus sub lin.] Omnis qui petit accipit [Delta]</p>
       <p xml:id="ANOLIT0208">t [punctus sub lin.] Ortus conclusus est [Delta]</p>
       <p xml:id="ANOLIT0209">t [punctus sub lin.] O quam gloriose [Delta]</p>
       <p xml:id="ANOLIT0210">t [punctus sub lin.] O beatum uirum cuius [Delta]</p>
       <p xml:id="ANOLIT0211">t [punctus sub lin.] O quantus luctus omnium [Delta]</p>
-      <p xml:id="ANOLIT0212">Hec et antecedens cum a finali solum remisse tonum, ad mesen perueniant,
-        patet, quia autentico non subiugali ascribende primo se tono non secundo connectant. --</p>
+      <p xml:id="ANOLIT0212">Hec et antecedens cum a finali solum remisse tonum, ad mesen
+        perueniant, patet, quia autentico non subiugali ascribende primo se tono non secundo
+        connectant. --</p>
       <p xml:id="ANOLIT0213">t [punctus sub lin.] Obsecro domine aufer [Delta] t s</p>
       <p xml:id="ANOLIT0214">t [punctus sub lin.] Omnis qui se exaltat [Delta]</p>
       <p xml:id="ANOLIT0215">t [punctus sub lin.] Prophete predicauerunt [Delta]</p>
@@ -558,8 +572,8 @@
       <p xml:id="ANOLIT0226">t [punctus sub lin.] Puelle saltanti [Delta]</p>
       <p xml:id="ANOLIT0227">t [punctus sub lin.] Qui enim corpore suo [Delta] s</p>
       <p xml:id="ANOLIT0228">t [punctus sub lin.] Quid retribuam domino [Delta] s</p>
-      <p xml:id="ANOLIT0229">Hanc enim ex semitoniorum detrimentis negatam tertio, neume cordis consone,
-        addictatam primo. --</p>
+      <p xml:id="ANOLIT0229">Hanc enim ex semitoniorum detrimentis negatam tertio, neume cordis
+        consone, addictatam primo. --</p>
       <p xml:id="ANOLIT0230">
         <pb n="[95]"/>t [punctus sub lin.] Qui uerbum Dei retinent [Delta]</p>
       <p xml:id="ANOLIT0231">t [punctus sub lin.] Quod uni ex minimis [Delta]</p>
@@ -612,10 +626,10 @@
       <p xml:id="ANOLIT0278">t [punctus sub lin.] Vos qui reliquistis omnia [Delta] t</p>
       <p xml:id="ANOLIT0279">t [punctus sub lin.] Virgo prudenter [Delta] t s</p>
       <p xml:id="ANOLIT0280">t [punctus sub lin.] Vnus ex duobus [Delta]</p>
-      <p xml:id="ANOLIT0281">Principali hoc Seculorum Amen reguntur et que in principio per quilismata
-        intenduntur. Nec enim uidetur ratio, ut cum sub hoc eodem Seculorum Amen apte finali
-        incipiant, incepte regulariter currant; ob hoc solum ascribantur differentie, quod incipiunt
-        per quilismata gutturalia et modulatoria quadam inflexione:</p>
+      <p xml:id="ANOLIT0281">Principali hoc Seculorum Amen reguntur et que in principio per
+        quilismata intenduntur. Nec enim uidetur ratio, ut cum sub hoc eodem Seculorum Amen apte
+        finali incipiant, incepte regulariter currant; ob hoc solum ascribantur differentie, quod
+        incipiunt per quilismata gutturalia et modulatoria quadam inflexione:</p>
       <p xml:id="ANOLIT0282">t [punctus sub lin.] Columpna es immobilis [Delta] t</p>
       <p xml:id="ANOLIT0283">t [punctus sub lin.] Dixit Ypolitus ad Decium [Delta]</p>
       <p xml:id="ANOLIT0284">t [punctus sub lin.] Euge serue bone [Delta]</p>
@@ -630,33 +644,33 @@
       <p xml:id="ANOLIT0293">t [punctus sub lin.] Senex puerum portabat [Delta] t</p>
       <p xml:id="ANOLIT0294">t [punctus sub lin.] Si offers munus tuum [Delta] t s</p>
       <p xml:id="ANOLIT0295">t [punctus sub lin.] O pastor eterne [Delta][Delta]</p>
-      <p xml:id="ANOLIT0296">Aptantur principali huic Seculorum <pb n="[96]"/>Amen et que ultra finalem
-        semiditono in acumine id est in paripatemeson F incipiunt, sed differentiis tertia, quarta,
-        quinta, quamuis non tota ibidem, incipientibus euidenter differunt. Nam cum tertia discretis
-        sillabatim neumis ad finalem usque descendat, ut antiphona [Libellus Tonarius, 96,1; text:
-        Spiritu principali, F, E, D] ; quarta e contrario distincte tonum tonum intendat, ut
-        antiphona [Libellus Tonarius, 96,2; text: Venit lumen, F, G, a] ; quinta in omnibis pene
-        antiphonis in paripatemeson F incipientibus mesen a sub una ditoni uoce asiliat, ut
-        antiphona [Libellus Tonarius, 96,3; text: Apertis, F, a, G thesauris] . He, quas diximus,
-        antiphone nunc diatesseron sillabatim per semiditonum tonum nunc in secunda neumatim sillaba
-        remittunt, ut antiphone [Libellus Tonarius, 96,4; text: Adoremus, F, D, C] , Quan-ta
-        excolendus(?) est, nunc in una item sillaba semitonio quod sub se proximum habent per neumam
-        quam cantores flexam dicant laxato; in quibusdam diatesseron, tunc ditonum remittendo, tunc
-        tonum tonum distinguendo perficiunt. In quibusdam ad finalem tantum mox semiditonum
-        remensure eundem ueniunt, ut he [Libellus Tonarius, 96,5; text: Biduo uiuens, Credimus
-        Cristum, Vado ad eum, F, E, D, G] . Nunc eodem semitonio per neumam quam gutturalem uocant
-        post remissionem intenso. In quibusdam item diatesseron, semiditonum, tonum remittendo
-        peragunt; in quibusdam semiditonum quem in finalem remittunt et intendunt, ut iste Virgo
-        gloriosa, Ego sum qui sum. Nunc remisso sillabatim eodem semitonio, semiditonum e contrario
-        quem non sillabatim sed per neumam que pes dicitur intendunt, per illam que flexa (dicitur)
-        remittunt ut antiphona Ipsi soli seruo. Nunc ab eodem quo incipiunt loco, eundem quem
-        eleuant tonum deprimunt, ut antiphona Speciosus forma. Hac lege in omnibus seruata, ut
+      <p xml:id="ANOLIT0296">Aptantur principali huic Seculorum <pb n="[96]"/>Amen et que ultra
+        finalem semiditono in acumine id est in paripatemeson F incipiunt, sed differentiis tertia,
+        quarta, quinta, quamuis non tota ibidem, incipientibus euidenter differunt. Nam cum tertia
+        discretis sillabatim neumis ad finalem usque descendat, ut antiphona [Libellus Tonarius,
+        96,1; text: Spiritu principali, F, E, D] ; quarta e contrario distincte tonum tonum
+        intendat, ut antiphona [Libellus Tonarius, 96,2; text: Venit lumen, F, G, a] ; quinta in
+        omnibis pene antiphonis in paripatemeson F incipientibus mesen a sub una ditoni uoce
+        asiliat, ut antiphona [Libellus Tonarius, 96,3; text: Apertis, F, a, G thesauris] . He, quas
+        diximus, antiphone nunc diatesseron sillabatim per semiditonum tonum nunc in secunda
+        neumatim sillaba remittunt, ut antiphone [Libellus Tonarius, 96,4; text: Adoremus, F, D, C]
+        , Quan-ta excolendus(?) est, nunc in una item sillaba semitonio quod sub se proximum habent
+        per neumam quam cantores flexam dicant laxato; in quibusdam diatesseron, tunc ditonum
+        remittendo, tunc tonum tonum distinguendo perficiunt. In quibusdam ad finalem tantum mox
+        semiditonum remensure eundem ueniunt, ut he [Libellus Tonarius, 96,5; text: Biduo uiuens,
+        Credimus Cristum, Vado ad eum, F, E, D, G] . Nunc eodem semitonio per neumam quam gutturalem
+        uocant post remissionem intenso. In quibusdam item diatesseron, semiditonum, tonum
+        remittendo peragunt; in quibusdam semiditonum quem in finalem remittunt et intendunt, ut
+        iste Virgo gloriosa, Ego sum qui sum. Nunc remisso sillabatim eodem semitonio, semiditonum e
+        contrario quem non sillabatim sed per neumam que pes dicitur intendunt, per illam que flexa
+        (dicitur) remittunt ut antiphona Ipsi soli seruo. Nunc ab eodem quo incipiunt loco, eundem
+        quem eleuant tonum deprimunt, ut antiphona Speciosus forma. Hac lege in omnibus seruata, ut
         quelibet his uolens antiphonis sociari, ab incipiendo prius quam ad mesen a perueniat, ad
         finalem deueniat. Nam si quam inceptionem suam hac diuersitate distinguens mesen a priusquam
         finalem tetigerit, hec non principali huic melodie, sed fluctuanti quinte ascribere
         dicitur.</p>
-      <p xml:id="ANOLIT0297">Sunt autem quas in paripatemeson F incipientes, nulli differentiarum primi
-        toni concedimus, sed principali eius Seculorum Amen addicimus:</p>
+      <p xml:id="ANOLIT0297">Sunt autem quas in paripatemeson F incipientes, nulli differentiarum
+        primi toni concedimus, sed principali eius Seculorum Amen addicimus:</p>
       <p xml:id="ANOLIT0298">t [punctus sub lin.] Adoremus crucis signaculum [Delta] s</p>
       <p xml:id="ANOLIT0299">t [punctus sub lin.] A seculo non est auditum [Delta]</p>
       <p xml:id="ANOLIT0300">t [punctus sub lin.] Biduo uiuens [Delta]</p>
@@ -678,15 +692,15 @@
       <p xml:id="ANOLIT0315">t [punctus sub lin.] Vado ad eum [Delta]</p>
       <p xml:id="ANOLIT0316">t [punctus sub lin.] Virgo gloriosa [Delta]</p>
       <p xml:id="ANOLIT0317">t [punctus sub lin.] Christi uirgo [Delta]</p>
-      <p xml:id="ANOLIT0318">He igitur cum euidenter non nisi primo assignande tono, nulli autem eius
-        differentiarum regulariter possint subponi, sine controuersia melodie ascribentur
+      <p xml:id="ANOLIT0318">He igitur cum euidenter non nisi primo assignande tono, nulli autem
+        eius differentiarum regulariter possint subponi, sine controuersia melodie ascribentur
         principali. --</p>
-      <p xml:id="ANOLIT0319">Adherent huic eidem Seculorum Amen et he que incipientes in lichanosmeson G
-        id est equisone cum terminata ibi .men. sillaba, ut a penultima Seculorum Amen in mesen a
-        intensa in lichanosmeson G ubi ultima quiescit, tonum incipiendo; inde in secundam sui
-        sillabam diapente in paripateypaton C remittunt, ita opposita similitudine a paripateypaton
-        C tonum in finalem, [et inde diapente in mesen], et idem diapente in mesen a remetiendo
-        intendunt:</p>
+      <p xml:id="ANOLIT0319">Adherent huic eidem Seculorum Amen et he que incipientes in
+        lichanosmeson G id est equisone cum terminata ibi .men. sillaba, ut a penultima Seculorum
+        Amen in mesen a intensa in lichanosmeson G ubi ultima quiescit, tonum incipiendo; inde in
+        secundam sui sillabam diapente in paripateypaton C remittunt, ita opposita similitudine a
+        paripateypaton C tonum in finalem, [et inde diapente in mesen], et idem diapente in mesen a
+        remetiendo intendunt:</p>
       <p xml:id="ANOLIT0320">t [punctus sub lin.] Aue Maria gratia [Delta] t</p>
       <p xml:id="ANOLIT0321">t [punctus sub lin.] Apropinquabat autem [Delta] t</p>
       <p xml:id="ANOLIT0322">t [punctus sub lin.] Canite tuba in Syon [Delta] t</p>
@@ -705,23 +719,23 @@
       <p xml:id="ANOLIT0332">t [punctus sub lin.] Sanctificauit dominus tabernac. [Delta] t s</p>
       <p xml:id="ANOLIT0333">t [punctus sub lin.] Tecum principium [Delta] t</p>
       <p xml:id="ANOLIT0334">t [punctus sub lin.] Traditor autem [Delta] t</p>
-      <p xml:id="ANOLIT0335">Primus tonus quinque habet differentias, quarum prima hac insignitur sui
-        Seculorum Amen melodia</p>
+      <p xml:id="ANOLIT0335">Primus tonus quinque habet differentias, quarum prima hac insignitur
+        sui Seculorum Amen melodia</p>
       <p xml:id="ANOLIT0336">[Libellus Tonarius, 97; text: Seculorum Amen]</p>
       <p xml:id="ANOLIT0337">Tonalis hec melodia ideo estimatur prima, quia ceterum eadem cum
         principali, in ultima men sillaba diuerse ab ea tonum solummodo in mesen a intenditur, ut
         suis descriptura antiphonis, quo ex lege cursus autentico necessarii intendantur quo quasi
         uocantem sequatur.</p>
-      <p xml:id="ANOLIT0338">Postponeretur autem regulariter hec secunde que sequetur, cum a terminali
-        corda principalis Seculorum Amen est lichanosmeson G, illa ad finalem accedente remittendo,
-        ista recedat intendendo nisi quod ista non nisi tonum intenditur, illa tonum semitonium
-        tonum remittitur precipiente regula huius artis: ut inter compositarum neumas tonalium
-        melodiarum preponatur in ordinando differentias que ex paucioribus illi, que ex cordis
-        componitur pluribus. Antiphone autem quarum interest differentie <pb n="[98]"/>huic ascribi,
-        alie ordiuntur in finali, alie infra. Que in finali, diapente interuallum, quod in ipso
-        prime neume principio a terminato in mese a sui Seculorum Amen remittunt, de eodem quasi
-        cognite uocanti uoci [s] celerius assiliendo intendunt, semiditonum adhuc quedam in eadem
-        quedam in secunda conscendendo sillaba. Sunt autem he:</p>
+      <p xml:id="ANOLIT0338">Postponeretur autem regulariter hec secunde que sequetur, cum a
+        terminali corda principalis Seculorum Amen est lichanosmeson G, illa ad finalem accedente
+        remittendo, ista recedat intendendo nisi quod ista non nisi tonum intenditur, illa tonum
+        semitonium tonum remittitur precipiente regula huius artis: ut inter compositarum neumas
+        tonalium melodiarum preponatur in ordinando differentias que ex paucioribus illi, que ex
+        cordis componitur pluribus. Antiphone autem quarum interest differentie <pb n="[98]"/>huic
+        ascribi, alie ordiuntur in finali, alie infra. Que in finali, diapente interuallum, quod in
+        ipso prime neume principio a terminato in mese a sui Seculorum Amen remittunt, de eodem
+        quasi cognite uocanti uoci [s] celerius assiliendo intendunt, semiditonum adhuc quedam in
+        eadem quedam in secunda conscendendo sillaba. Sunt autem he:</p>
       <p xml:id="ANOLIT0339">t [punctus sub lin.] Domine Dominus noster quam [Delta] t</p>
       <p xml:id="ANOLIT0340">t [punctus sub lin.] Ecce ueniet Deus et homo [Delta] t s</p>
       <p xml:id="ANOLIT0341">t [punctus sub lin.] Fontes et omnia que [Delta] t</p>
@@ -740,13 +754,13 @@
       <p xml:id="ANOLIT0354">t [punctus sub lin.] Vado ad patrem meum [Delta] t</p>
       <p xml:id="ANOLIT0355">t [punctus sub lin.] Uim uirtutis sue [Delta] t [punctus sub lin.]</p>
       <p xml:id="ANOLIT0356">t [punctus sub lin.] Vos amici mei estis [Delta] t</p>
-      <p xml:id="ANOLIT0357">-- He[c] huic Seculorum Amen subducende uidentur que infra terminatam in
-        mese a .men. sillabam maximo uocis interuallo, id est quatuor tonis et semitonio incipiunt,
-        inde ut tam distantem ab ultima men sillaba remisse sue inceptionis hiatum in intendendo
-        temperatura, tonum in finalem, a finali idem quod et antiphone priores diapente intendunt,
-        ut profitendo se eis cognatas et eidem Seculorum Amen, cui et ille subiectas. Has autem
-        quidam secunde, quia eandem cum ea ordiendo metam habent, supponunt differentie. Sed cum ad
-        secundam pertinentes differentiam, ab eo quo incipiunt loco, in quibusdam gradatim
+      <p xml:id="ANOLIT0357">-- He[c] huic Seculorum Amen subducende uidentur que infra terminatam
+        in mese a .men. sillabam maximo uocis interuallo, id est quatuor tonis et semitonio
+        incipiunt, inde ut tam distantem ab ultima men sillaba remisse sue inceptionis hiatum in
+        intendendo temperatura, tonum in finalem, a finali idem quod et antiphone priores diapente
+        intendunt, ut profitendo se eis cognatas et eidem Seculorum Amen, cui et ille subiectas. Has
+        autem quidam secunde, quia eandem cum ea ordiendo metam habent, supponunt differentie. Sed
+        cum ad secundam pertinentes differentiam, ab eo quo incipiunt loco, in quibusdam gradatim
         diatesseron ascendant. He autem post intensionem (fol. 65) toni, idem quod priores diapente
         una et eadem uocis continuatione eleuentur, ex idemptitate neumarum non sequenti secunde,
         sed prime huic assigande uidentur:</p>
@@ -852,8 +866,8 @@
       <p xml:id="ANOLIT0442">t [punctus sub lin.] O crux splendidior [Delta] t s</p>
       <p xml:id="ANOLIT0443">t [punctus sub lin.] O crux gloriosa o. a. [Delta] d</p>
       <p xml:id="ANOLIT0444">t [punctus sub lin.] O uere sancti milites</p>
-      <p xml:id="ANOLIT0445">(fol. 66) Notandum quia hec inchoans ubi et alie, finitur in mese a, primi
-        scilicet finalis sociali. --</p>
+      <p xml:id="ANOLIT0445">(fol. 66) Notandum quia hec inchoans ubi et alie, finitur in mese a,
+        primi scilicet finalis sociali. --</p>
       <p xml:id="ANOLIT0446">t [punctus sub lin.] O beatum pontificem [Delta] t s</p>
       <p xml:id="ANOLIT0447">t [punctus sub lin.] O beata Cecilia [Delta] t</p>
       <p xml:id="ANOLIT0448">t [punctus sub lin.] O quam uenerandus es [Delta] t</p>
@@ -880,8 +894,8 @@
       <p xml:id="ANOLIT0469">t [punctus sub lin.] Vos ascendite ad diem [Delta] t</p>
       <p xml:id="ANOLIT0470">t [punctus sub lin.] Vsque modo non petistis [Delta]</p>
       <p xml:id="ANOLIT0471">t [punctus sub lin.] Vnus autem ex illis ut [Delta]</p>
-      <p xml:id="ANOLIT0472">t [punctus sub lin.] Christus resurgens ex mortuis [Delta] t s Tertia primi
-        differentia hac insignitur tonali melodia:</p>
+      <p xml:id="ANOLIT0472">t [punctus sub lin.] Christus resurgens ex mortuis [Delta] t s Tertia
+        primi differentia hac insignitur tonali melodia:</p>
       <p xml:id="ANOLIT0473">[Libellus Tonarius, 100; text: Seculorum Amen.]</p>
       <p xml:id="ANOLIT0474">Que ideo tertia, tertie ascribitur, quia cum prima ac secunda que
         prescesserant principalis Seculorum Amen sillabam tantum uarient ultimam, hec etiam
@@ -913,14 +927,14 @@
       <p xml:id="ANOLIT0485">Tonalis hec melodia ideo preponitur tertie que precessit quia de illes
         nichil alterando neumis, pedem quo illa in mesen a intenso finitur, ista superhabundando in
         lichanosmeson G reflectitur.</p>
-      <p xml:id="ANOLIT0486">Spectantes ad quartam hanc differentiam antiphone eadem quam et superiores
-        chorda inchoande, ut ille in finalem cordatim remittuntur, he in mesen a nunc simplici nunc
-        flexo pede intenduntur. Diapente quidem in cuius medio incipiunt opposita determinatione
-        perficientes: ille simpliciter remittendo, he composite intendendo. Adherent autem suo huic
-        Seculorum Amen neumis affinibus. Nam ut ille uoces quas illud a mese descendendo ac redeundo
-        metitur, insistant tono infra depositam eius .men. sillabam incepte, post remensum eundem
-        tonum, per tonum item eundem quemque et illud pedem nunc solummodo intendunt nunc intensum
-        reflectunt.</p>
+      <p xml:id="ANOLIT0486">Spectantes ad quartam hanc differentiam antiphone eadem quam et
+        superiores chorda inchoande, ut ille in finalem cordatim remittuntur, he in mesen a nunc
+        simplici nunc flexo pede intenduntur. Diapente quidem in cuius medio incipiunt opposita
+        determinatione perficientes: ille simpliciter remittendo, he composite intendendo. Adherent
+        autem suo huic Seculorum Amen neumis affinibus. Nam ut ille uoces quas illud a mese
+        descendendo ac redeundo metitur, insistant tono infra depositam eius .men. sillabam incepte,
+        post remensum eundem tonum, per tonum item eundem quemque et illud pedem nunc solummodo
+        intendunt nunc intensum reflectunt.</p>
       <p xml:id="ANOLIT0487">
         <pb n="[102]"/>t [punctus sub lin.] Adiutorium nostrum [Delta]</p>
       <p xml:id="ANOLIT0488">t [punctus sub lin.] Dicite pusillanimes [Delta]</p>
@@ -939,8 +953,8 @@
       <p xml:id="ANOLIT0501">t [punctus sub lin.] Factus est adiutor...</p>
       <p xml:id="ANOLIT0502">t [punctus sub lin.] Hodie Christus natus est...</p>
       <p xml:id="ANOLIT0503">t [punctus sub lin.] Inclinauit Dominus...</p>
-      <p xml:id="ANOLIT0504">Hanc enim etsi ab incipiendo in mesen a per ditonum uelis intendere, uirga
-        tamen pede fulta sequenti negatur differentie. --</p>
+      <p xml:id="ANOLIT0504">Hanc enim etsi ab incipiendo in mesen a per ditonum uelis intendere,
+        uirga tamen pede fulta sequenti negatur differentie. --</p>
       <p xml:id="ANOLIT0505">t [punctus sub lin.] In uiam pacis [Delta]</p>
       <p xml:id="ANOLIT0506">t [punctus sub lin.] Lazarus amicus noster [Delta] t s</p>
       <p xml:id="ANOLIT0507">(fol. 67)</p>
@@ -956,9 +970,9 @@
       <p xml:id="ANOLIT0517">[Libellus Tonarius, 102,1; text: Seculorum Amen, a, b, G] <figure>
           <graphic url="/images/ANOLIT_02GF.gif"/>
         </figure></p>
-      <p xml:id="ANOLIT0518">Ponitur igitur hec ultima quia cum priorum differentiarum nevmas uarient in
-        sola finali dictione, hec etiam penultime dictionis, que est 'Seculorum', sillabas
-        penultimam et ultimam alteratis gaudet neumis colorare. Respicientes autem ad hanc
+      <p xml:id="ANOLIT0518">Ponitur igitur hec ultima quia cum priorum differentiarum nevmas
+        uarient in sola finali dictione, hec etiam penultime dictionis, que est 'Seculorum',
+        sillabas penultimam et ultimam alteratis gaudet neumis colorare. Respicientes autem ad hanc
         differentiam antiphone cum incipiant a deposita men sillaba aut tono in grauitate aut tono
         in acumine, id est aut in paripatemeson F aut in mese a incipiendi locum habentes; aut
         remisso quod sub sue inceptionis corda habent semitonio, per semiditonum tonum in mesen a
@@ -967,35 +981,36 @@
         in principio intendunt tonum, tono, tono in mesen eleuate semitonio inde intenso,
         semiditonum item in lichanosmeson G remittunt, ut antiphona [Libellus Tonarius, 102,3; text:
         Petrus autem seruabatur, F, G, a, b] G.</p>
-      <p xml:id="ANOLIT0519">Aut in prima uocis alteratione ditonum in mesen intense, nunc <pb n="[103]"/>item tonum remittunt eundemque remissum rursus deponent; nunc semitonium eleuate,
-        semiditonum quo priores tonum et ipse remittunt ut antiphone [Libellus Tonarius, 103,1;
-        text: Apertis thesauris, Nigra sum sed formosa, F, a, G, b] in hoc a prioris differentie
-        antiphonis differentes, quod ditonum quem ille ab incipiendo cordatim et composite, iste aut
-        in una intenduntur uoce et tunc in neumarum simplicitate ut in antiphona [Libellus Tonarius,
-        103,2; text: Diffusa, F, a] est gratia, aut si in mesen a cordatim conscendunt prius uel
-        quod sub sue inceptionis corda habent semitonium, uel intensum ab incipiendo tonum remittunt
-        ut quas et antea in exemplum posuimus [Libellus Tonarius, 103,3; text: Sebastianus, Petrus
-        autem, F, E, G, a] . Que uero incipiunt in mese, aut mox eundem quem priores tonum aut
-        intenso item semitonio, remittunt semiditonum ut antiphone [Libellus Tonarius, 103,4; text:
-        Exi cito in plateas, Dulce lignum, a, G, b] . Omnes pene et que in paripatemeson F, et que
-        in mese a incipiunt suo Seculorum Amen fluctuanti et pendulo respondentes et ipse
-        fluctuando, eiusque cordas inceptiuam et terminalem, ut domesticas et affiniores
-        frequentando. Differentia autem hec ascribitur ultima propter quasdam sui antiphonas a
-        finali interuallo diapente incipiendo remotas, habens quantum ad has ordiendi locum suo ipsa
-        ordini equiuocum utputa quinta quintum, quamuis et eius antiphone que incipiunt inferius
-        illis ditono, a finali autem semiditono, nisi et prescriptarum tertie scilicet et quarte,
-        quamuis et ille inquam alterato meli tenore ab eisdem prescriptis sint diuerse, utpote in
-        incipiendo ditonum omnes intense tribus quas diximus exceptis, quantum due remisso semitonio
-        per semiditonum tonum, tertia remisso quem primum intendit tono per remensum eundem cum
-        sequenti in mesen a conscendunt. Sunt autem iste que in paripatemeson F inchoande, huic
-        applicantur differentie</p>
+      <p xml:id="ANOLIT0519">Aut in prima uocis alteratione ditonum in mesen intense, nunc <pb
+          n="[103]"/>item tonum remittunt eundemque remissum rursus deponent; nunc semitonium
+        eleuate, semiditonum quo priores tonum et ipse remittunt ut antiphone [Libellus Tonarius,
+        103,1; text: Apertis thesauris, Nigra sum sed formosa, F, a, G, b] in hoc a prioris
+        differentie antiphonis differentes, quod ditonum quem ille ab incipiendo cordatim et
+        composite, iste aut in una intenduntur uoce et tunc in neumarum simplicitate ut in antiphona
+        [Libellus Tonarius, 103,2; text: Diffusa, F, a] est gratia, aut si in mesen a cordatim
+        conscendunt prius uel quod sub sue inceptionis corda habent semitonium, uel intensum ab
+        incipiendo tonum remittunt ut quas et antea in exemplum posuimus [Libellus Tonarius, 103,3;
+        text: Sebastianus, Petrus autem, F, E, G, a] . Que uero incipiunt in mese, aut mox eundem
+        quem priores tonum aut intenso item semitonio, remittunt semiditonum ut antiphone [Libellus
+        Tonarius, 103,4; text: Exi cito in plateas, Dulce lignum, a, G, b] . Omnes pene et que in
+        paripatemeson F, et que in mese a incipiunt suo Seculorum Amen fluctuanti et pendulo
+        respondentes et ipse fluctuando, eiusque cordas inceptiuam et terminalem, ut domesticas et
+        affiniores frequentando. Differentia autem hec ascribitur ultima propter quasdam sui
+        antiphonas a finali interuallo diapente incipiendo remotas, habens quantum ad has ordiendi
+        locum suo ipsa ordini equiuocum utputa quinta quintum, quamuis et eius antiphone que
+        incipiunt inferius illis ditono, a finali autem semiditono, nisi et prescriptarum tertie
+        scilicet et quarte, quamuis et ille inquam alterato meli tenore ab eisdem prescriptis sint
+        diuerse, utpote in incipiendo ditonum omnes intense tribus quas diximus exceptis, quantum
+        due remisso semitonio per semiditonum tonum, tertia remisso quem primum intendit tono per
+        remensum eundem cum sequenti in mesen a conscendunt. Sunt autem iste que in paripatemeson F
+        inchoande, huic applicantur differentie</p>
       <p xml:id="ANOLIT0520">t [punctus sub lin.] Apertis thesauris suis [Delta] d</p>
       <p xml:id="ANOLIT0521">t [punctus sub lin.] Alliga domine [Delta] s</p>
       <p xml:id="ANOLIT0522">t [punctus sub lin.] Celi enarrant [Delta]</p>
       <p xml:id="ANOLIT0523">t [punctus sub lin.] Diffusa est gratia [Delta]</p>
       <p xml:id="ANOLIT0524">t [punctus sub lin.] Dominus quidem Jhesus [Delta] d</p>
-      <p xml:id="ANOLIT0525">[Libellus Tonarius, 103,5; text: t [punctus sub lin.], t, [Delta], F, a,
-        Exurge domine et iudica]</p>
+      <p xml:id="ANOLIT0525">[Libellus Tonarius, 103,5; text: t [punctus sub lin.], t, [Delta], F,
+        a, Exurge domine et iudica]</p>
       <p xml:id="ANOLIT0526">Hec fluctuationem, qua caret in tono, habet in ditono. --</p>
       <p xml:id="ANOLIT0527">t [punctus sub lin.] Estote fortes in bello [Delta] d</p>
       <p xml:id="ANOLIT0528">t [punctus sub lin.] Nigra sum sed formosa [Delta] s</p>
@@ -1003,11 +1018,11 @@
       <p xml:id="ANOLIT0530">t [punctus sub lin.] Pulchra es et decora [Delta] s</p>
       <p xml:id="ANOLIT0531">t [punctus sub lin.] Secundum magnam [Delta]</p>
       <p xml:id="ANOLIT0532">t [punctus sub lin.] Sebastianus Dei cultor [Delta]</p>
-      <p xml:id="ANOLIT0533">Hec et prescripta Secundum magnam, priori differentie ab incipiendo tonum
-        conscendendi non subducerentur, nisi <pb n="[104]"/>quod semitonium deposite, semiditonum
-        eleuantur. Et quod penitus quarte illi differentie ut stabiliori diapente quidem cum tertia
-        diuidendi negatur, huic quinte ut fluctuanti et omnino a prioribus discrepanti conceditur.
-        --</p>
+      <p xml:id="ANOLIT0533">Hec et prescripta Secundum magnam, priori differentie ab incipiendo
+        tonum conscendendi non subducerentur, nisi <pb n="[104]"/>quod semitonium deposite,
+        semiditonum eleuantur. Et quod penitus quarte illi differentie ut stabiliori diapente quidem
+        cum tertia diuidendi negatur, huic quinte ut fluctuanti et omnino a prioribus discrepanti
+        conceditur. --</p>
       <p xml:id="ANOLIT0534">Sy-me-on iustus et timoratus [Delta] s</p>
       <p xml:id="ANOLIT0535">Hec cum ditono simpliciter intenso, demum inceptiuam sui Seculorum Amen
         cordam in quam intendit, duplicando componat; ab huius differentie antiphonis regulariter
@@ -1031,35 +1046,35 @@
       <p xml:id="ANOLIT0549">t Sanca tui domine sicut [Delta] d</p>
       <p xml:id="ANOLIT0550">t [punctus sub lin.] Veniet dominus et non [Delta]</p>
       <p xml:id="ANOLIT0551">t [punctus sub lin.] Vidi dominum sedentem [Delta][Delta]</p>
-      <p xml:id="ANOLIT0552">Item se huic Se-cu-lo-rum Amen cognata[s] potestate, ex eodem principio id
-        est semitonium quod illud in tertia intendit, eundem semiditonum quem in quarta sillaba
+      <p xml:id="ANOLIT0552">Item se huic Se-cu-lo-rum Amen cognata[s] potestate, ex eodem principio
+        id est semitonium quod illud in tertia intendit, eundem semiditonum quem in quarta sillaba
         remittitur in prima uocis alteratione intendendo, et in secunda remittendo:</p>
       <p xml:id="ANOLIT0553">Adiutor in tribulatione [Delta] s</p>
       <p xml:id="ANOLIT0554">t [punctus sub lin.] Dul-ce li-gnum dulces [Delta] d</p>
       <p xml:id="ANOLIT0555">t [punctus sub lin.] Ex-pu-gna inpugnantibus [Delta]</p>
       <p xml:id="ANOLIT0556">t [punctus sub lin.] Ille homo qui dicitur Jhesus [Delta]</p>
       <p xml:id="ANOLIT0557">t [punctus sub lin.] Laudate dominum de celis [Delta] s</p>
-      <p xml:id="ANOLIT0558">Hec enim in paripatemeson F per neumam quam hemiuocalem uel substringentem
-        dicunt incepta, nec differentie precedenti adherere poterit, utpote ditonum intensa, nec
-        huic quinte, cum neuma hec in tonis percomposita habeatur, composita <pb n="[105]"/>autem in
-        huius quinte contubernio non recipiatur. --</p>
+      <p xml:id="ANOLIT0558">Hec enim in paripatemeson F per neumam quam hemiuocalem uel
+        substringentem dicunt incepta, nec differentie precedenti adherere poterit, utpote ditonum
+        intensa, nec huic quinte, cum neuma hec in tonis percomposita habeatur, composita <pb
+          n="[105]"/>autem in huius quinte contubernio non recipiatur. --</p>
       <p xml:id="ANOLIT0559">Ut non delinquam in lingua [Delta] s</p>
       <p xml:id="ANOLIT0560">Item he ab eadem incipiendi meta intenso semitonio non semiditonum sed
         diatesseron remisse:</p>
-      <p xml:id="ANOLIT0561">[Libellus Tonarius, 105,1; text: Beati mundo corde , a, b, F, [Delta], t
-        [punctus sub lin.]]</p>
+      <p xml:id="ANOLIT0561">[Libellus Tonarius, 105,1; text: Beati mundo corde , a, b, F, [Delta],
+        t [punctus sub lin.]]</p>
       <p xml:id="ANOLIT0562">t Miserere mei Deus (et a del.) [Delta] t s</p>
       <p xml:id="ANOLIT0563">t [punctus sub lin.] Scio cui credidi [Delta]</p>
-      <p xml:id="ANOLIT0564">Harum media scilicet 'Miserere mei Deus' fluctuationi qua differentie huius
-        prime gaudent antiphone, si non in principio, satisfacit tamen in dictionibus [Libellus
-        Tonarius, 105,2; text: meo munda me, a, G] . Item hec quamuis in principi[end]o nec remissa
-        tonum ut quem in ,Exi cito' in secundo, nec in intenso semitonio semiditonum uel diatesseron
-        ut quas in tertio posuimus loco, tamen quia in mese a cum illis incepta in finali
-        regulariter finitur, huic Seculorum Amen et non alii subscribenda uidetur. --</p>
+      <p xml:id="ANOLIT0564">Harum media scilicet 'Miserere mei Deus' fluctuationi qua differentie
+        huius prime gaudent antiphone, si non in principio, satisfacit tamen in dictionibus
+        [Libellus Tonarius, 105,2; text: meo munda me, a, G] . Item hec quamuis in principi[end]o
+        nec remissa tonum ut quem in ,Exi cito' in secundo, nec in intenso semitonio semiditonum uel
+        diatesseron ut quas in tertio posuimus loco, tamen quia in mese a cum illis incepta in
+        finali regulariter finitur, huic Seculorum Amen et non alii subscribenda uidetur. --</p>
       <p xml:id="ANOLIT0565">t [punctus sub lin.] Sa-lu-tis nos-tre au-cto-rem [Delta] d</p>
       <p xml:id="ANOLIT0566">II</p>
-      <p xml:id="ANOLIT0567">Secundus tonus habens eundem quem et suus principalis finalem, his informat
-        neumis suum Se-cu-lo-rum A-men.</p>
+      <p xml:id="ANOLIT0567">Secundus tonus habens eundem quem et suus principalis finalem, his
+        informat neumis suum Se-cu-lo-rum A-men.</p>
       <p xml:id="ANOLIT0568">[Libellus Tonarius, 105,3; text: Seculorum Amen]</p>
       <p xml:id="ANOLIT0569">t [punctus sub lin.] A bimatu et infra d</p>
       <p xml:id="ANOLIT0570">d Ante Luciferum genitus [Delta]</p>
@@ -1084,8 +1099,8 @@
       <p xml:id="ANOLIT0588">t [punctus sub lin.] Dum steteritis ante [Delta]</p>
       <p xml:id="ANOLIT0589">t [punctus sub lin.] Et coegerunt ilium dic. [Delta]</p>
       <p xml:id="ANOLIT0590">d Ecce tu pulchra es [Delta]</p>
-      <p xml:id="ANOLIT0591">Hec dum solum diapente intensa diatesseron a finali remittatur, subiugali
-        non autentico declaratur. --</p>
+      <p xml:id="ANOLIT0591">Hec dum solum diapente intensa diatesseron a finali remittatur,
+        subiugali non autentico declaratur. --</p>
       <p xml:id="ANOLIT0592">d Gregorius iugulus [Delta]</p>
       <p xml:id="ANOLIT0593">t [punctus sub lin.] Iuste et pie uiuamus d</p>
       <p xml:id="ANOLIT0594">t [punctus sub lin.] In nomine Jhesu Cristi d</p>
@@ -1131,13 +1146,13 @@
       <p xml:id="ANOLIT0630">Hec cum non minus conueniat prime octaui differentie, quam huic secundi
         principali melodie, utpote in [omitettra?] corda tonum tonum semitonium</p>
       <p xml:id="ANOLIT0631">(fol. 69)</p>
-      <p xml:id="ANOLIT0632">intendenti; suis currens neumis consone, secundo tamen huic unita uidetur
-        impressiori cognatione. Nam quamuis in incipiendo ad similitudinem plurimarum prime octaui
-        differentie tonum per uirgam pede fultam de-hinc tonum semitonium intendatur, in finali
-        etiam quarto regulariter finiatur, habens tamen ipsa cum secundi diffinitione toni eundem
-        melodie tenorem, eamdem cursus metam; uidetur ipsa testari et affirmare, quia impressius
-        cohereat diffinitioni, non nisi easdem quas et illa uoces ascendendo ac descendendo
-        frequentanti et eundem modulationis finem distinguenti. --</p>
+      <p xml:id="ANOLIT0632">intendenti; suis currens neumis consone, secundo tamen huic unita
+        uidetur impressiori cognatione. Nam quamuis in incipiendo ad similitudinem plurimarum prime
+        octaui differentie tonum per uirgam pede fultam de-hinc tonum semitonium intendatur, in
+        finali etiam quarto regulariter finiatur, habens tamen ipsa cum secundi diffinitione toni
+        eundem melodie tenorem, eamdem cursus metam; uidetur ipsa testari et affirmare, quia
+        impressius cohereat diffinitioni, non nisi easdem quas et illa uoces ascendendo ac
+        descendendo frequentanti et eundem modulationis finem distinguenti. --</p>
       <p xml:id="ANOLIT0633">t [punctus sub lin.] Cumque bone in dolis uir d</p>
       <p xml:id="ANOLIT0634">d In spiritu humilitatis [Delta] t</p>
       <p xml:id="ANOLIT0635">d Rogo ergo te pater [Delta] t</p>
@@ -1149,17 +1164,17 @@
         remensis demum quiescenti. --</p>
       <p xml:id="ANOLIT0637">d Sicut lilium inter spinas [Delta]</p>
       <p xml:id="ANOLIT0638">Sepultus ergo decem annos t s</p>
-      <p xml:id="ANOLIT0639">Ascribuntur principali huic Seculorum Amen a finali in acumine semiditoni
-        spatio principium sortite, et ab ipsa inceptionis corda diatesseron remisse:</p>
+      <p xml:id="ANOLIT0639">Ascribuntur principali huic Seculorum Amen a finali in acumine
+        semiditoni spatio principium sortite, et ab ipsa inceptionis corda diatesseron remisse:</p>
       <p xml:id="ANOLIT0640">d Ecce Maria genuit [Delta]</p>
       <p xml:id="ANOLIT0641">d Sitiuit anima mea t s</p>
       <p xml:id="ANOLIT0642">t Laudate Deum celi d</p>
       <p xml:id="ANOLIT0643">t [punctus sub lin.] Tantum domine dic uerbo d</p>
-      <p xml:id="ANOLIT0644">Hec enim in prime fronte siue tres sillabas equisone continuans siue tonum
-        in tertia per uirgam pede fultam intendens harum unitur contubernio. Nec hanc diatesseron ab
-        inceptiua corda remittentem, alienat ab hiis ut premissa inceptiue uocis continuatio ut
-        interueniens et preoccupans sole eleuatio toni, mox ad deponendum regulare diatesseron
-        regressi.</p>
+      <p xml:id="ANOLIT0644">Hec enim in prime fronte siue tres sillabas equisone continuans siue
+        tonum in tertia per uirgam pede fultam intendens harum unitur contubernio. Nec hanc
+        diatesseron ab inceptiua corda remittentem, alienat ab hiis ut premissa inceptiue uocis
+        continuatio ut interueniens et preoccupans sole eleuatio toni, mox ad deponendum regulare
+        diatesseron regressi.</p>
       <p xml:id="ANOLIT0645">He igitur diatesseron remittentes antiphone, quamuis incipiant in
         paripatemeson F, ubi et sequens secundi huius toni differentia, tamen quia dissonant uariato
         tenore meli ab illa, utpote cum adi am pertinentes differentiam in alterando primam uocem
@@ -1181,18 +1196,18 @@
         pereat esse differentia, que in se diffinitionem differentie representat pro artis huius
         regula; <pb n="[108]"/>presertim cum equiuocatio in omni arti sit usitate et celebris,
         nusquam transformante rerum proprietatem sola indentitate nominis.</p>
-      <p xml:id="ANOLIT0646">Sit igitur secundo tono una saltem differentia incipiens ubi et tres ultime
-        primi, ut euidenter affirmans, illud cuius in medio orditur diapente sibi cum suo autentico
-        commune. Sit et huic differentie Seculorum Amen cum illo, quod habet tertia octaui
+      <p xml:id="ANOLIT0646">Sit igitur secundo tono una saltem differentia incipiens ubi et tres
+        ultime primi, ut euidenter affirmans, illud cuius in medio orditur diapente sibi cum suo
+        autentico commune. Sit et huic differentie Seculorum Amen cum illo, quod habet tertia octaui
         differentia equiuocum, eadem scilicet qua et illud modulatione coloratum:</p>
       <p xml:id="ANOLIT0647">[Libellus Tonarius, 108,1; text: Seculorum amen]</p>
-      <p xml:id="ANOLIT0648">Quod in hoc diuersum est ab incipiente secum principali, quia penultimam
-        quam illud spatio diatesseron remissam tono per uirgam pede fultam in finalem intendit, hoc
-        post continuatas equisone antecedentes sillabas sola toni intensione per eandem neumam
-        distinguit, et illo .men. sillabam in finali deponente, hoc a finali deponit spatio
-        semiditoni in acumine, ubi et eius incipiunt antiphone quamuis a quibusdam tertia huius
-        [Libellus Tonarius, 108,2; text: Seculorum Amen, F, D, G] sillaba deponatur semiditono per
-        reliquum, eodem quod diximus prolatus melo. Antiphonis huic differentie ascribendis est
+      <p xml:id="ANOLIT0648">Quod in hoc diuersum est ab incipiente secum principali, quia
+        penultimam quam illud spatio diatesseron remissam tono per uirgam pede fultam in finalem
+        intendit, hoc post continuatas equisone antecedentes sillabas sola toni intensione per
+        eandem neumam distinguit, et illo .men. sillabam in finali deponente, hoc a finali deponit
+        spatio semiditoni in acumine, ubi et eius incipiunt antiphone quamuis a quibusdam tertia
+        huius [Libellus Tonarius, 108,2; text: Seculorum Amen, F, D, G] sillaba deponatur semiditono
+        per reliquum, eodem quod diximus prolatus melo. Antiphonis huic differentie ascribendis est
         usitatum, ut ab incipiendo ad finalem descendentes, semitonium quod subiacet inceptiue earum
         corde, nunc per neumam que flexa nunc per illam que uirga subbipunctis dicitur remittant, ut
         he [Libellus Tonarius, 108,3; text: F, E, D, Consolamini] , Framea suscitare; nunc
@@ -1208,10 +1223,11 @@
       <p xml:id="ANOLIT0653">t [punctus sub lin.] Bonum est confiteri</p>
       <p xml:id="ANOLIT0654">t [punctus sub lin.] Consolamini consolamini d</p>
       <p xml:id="ANOLIT0655">d Circumdantes circumdederunt [Delta]</p>
-      <p xml:id="ANOLIT0656">Hanc autem cum euidenter subiugali non autentico ascribenda incipiat ubi et
-        alie quas secundi unica habet differentia; propter gradatum tamen descensum quem sillabatim
-        defluens assimulatur tertie primi differentie; quidam etiam eidem ascribunt differentie, sed
-        tenax ordinis suum cuique distinguentis regula, hanc huic secundi differentie apponit <pb n="[109]"/>calcante usus deprauatione ratione magistra. --</p>
+      <p xml:id="ANOLIT0656">Hanc autem cum euidenter subiugali non autentico ascribenda incipiat
+        ubi et alie quas secundi unica habet differentia; propter gradatum tamen descensum quem
+        sillabatim defluens assimulatur tertie primi differentie; quidam etiam eidem ascribunt
+        differentie, sed tenax ordinis suum cuique distinguentis regula, hanc huic secundi
+        differentie apponit <pb n="[109]"/>calcante usus deprauatione ratione magistra. --</p>
       <p xml:id="ANOLIT0657">t [punctus sub lin.] Credidi propter quod t s</p>
       <p xml:id="ANOLIT0658">t [punctus sub lin.] Deus meus eripe me d</p>
       <p xml:id="ANOLIT0659">t [punctus sub lin.] Domine Deus in adiutorium t s</p>
@@ -1234,8 +1250,8 @@
         Addicte huic Seculorum Amen antiphone uniformi euidentia tono a finali spatio
         semiditoni:</p>
       <p xml:id="ANOLIT0675">[Libellus Tonarius, 109; text: Seculorum Amen]</p>
-      <p xml:id="ANOLIT0676">Addicte huic Seculorum Amen antiphone uniformi eudentia tono a finali per
-        neumam quam flexam cantores dicunt remisso, diatesseron tonum semiditonum intendunt, ut
+      <p xml:id="ANOLIT0676">Addicte huic Seculorum Amen antiphone uniformi eudentia tono a finali
+        per neumam quam flexam cantores dicunt remisso, diatesseron tonum semiditonum intendunt, ut
         antiphona Be-at-us uir qui in lege, uel a finali in quibusdam semitonio per neumam que
         gutturalis innodans siue clendens dicitur, in aliquibus per illam quam gutturalem sic
         formata distropha tantum uocant intenso, semiditonum remittunt et item diatesseron tonum
@@ -1271,94 +1287,95 @@
       <p xml:id="ANOLIT0703">Principali huic Seculorum Amen ascribende uidentur et he:</p>
       <p xml:id="ANOLIT0704">t [punctus sub lin.] Dico uobis gaudium [Delta]</p>
       <p xml:id="ANOLIT0705">t Serue bone et fidelis [Delta] s</p>
-      <p xml:id="ANOLIT0706">que cum ut exleges, regule prescriptarum minime accedant a finali uel tonum
-        uel post intensum quod in principio deponunt semitonium, semiditonum remittendo, et uoces
-        principalibus toni huius antiphonis usitatas intendendo, tamen cum euidenter non quarto sed
-        tertio ascribende tono, nulli eius differentiarum possint aptari; se quasi locuntur
-        subscribendas melodie huic principali. Item hec:</p>
-      <p xml:id="ANOLIT0707">[Libellus Tonarius, 110,1; text: E, F, G, a, c, D, t [punctus sub lin.],
-        Adonay domine Deus [Delta] s]</p>
-      <p xml:id="ANOLIT0708">Hec enim his debitas antiphonis remissionem scilicet toni, et intensionem
-        diatesseron cum tono et semiditono quas in principio differt, post intensos in prima
-        dictione semitonium tonum, et remissum semiditonum in secunda mox regulariter implet. --
-        Attitulande uidentur et huic Seculorum Amen he, licet noui tenoris et uelut alterius neume
-        infra depositam .men. sillabam spatio semiditoni utpote in finali incipientes, et eumdem
-        semiditonum intendendo remetientes:</p>
-      <p xml:id="ANOLIT0709">[Libellus Tonarius, 110,2; text: A uiro iniquo libera, E, G, [Delta], In
-        domum domini]</p>
-      <p xml:id="ANOLIT0710">Nam he cum finiuntur remittendo tonum semitonium patet, quia aut ad quartum
-        pertinent tonum. Sed cum infra finalem nullatenus (fol. 71) remisse solum diapente
+      <p xml:id="ANOLIT0706">que cum ut exleges, regule prescriptarum minime accedant a finali uel
+        tonum uel post intensum quod in principio deponunt semitonium, semiditonum remittendo, et
+        uoces principalibus toni huius antiphonis usitatas intendendo, tamen cum euidenter non
+        quarto sed tertio ascribende tono, nulli eius differentiarum possint aptari; se quasi
+        locuntur subscribendas melodie huic principali. Item hec:</p>
+      <p xml:id="ANOLIT0707">[Libellus Tonarius, 110,1; text: E, F, G, a, c, D, t [punctus sub
+        lin.], Adonay domine Deus [Delta] s]</p>
+      <p xml:id="ANOLIT0708">Hec enim his debitas antiphonis remissionem scilicet toni, et
+        intensionem diatesseron cum tono et semiditono quas in principio differt, post intensos in
+        prima dictione semitonium tonum, et remissum semiditonum in secunda mox regulariter implet.
+        -- Attitulande uidentur et huic Seculorum Amen he, licet noui tenoris et uelut alterius
+        neume infra depositam .men. sillabam spatio semiditoni utpote in finali incipientes, et
+        eumdem semiditonum intendendo remetientes:</p>
+      <p xml:id="ANOLIT0709">[Libellus Tonarius, 110,2; text: A uiro iniquo libera, E, G, [Delta],
+        In domum domini]</p>
+      <p xml:id="ANOLIT0710">Nam he cum finiuntur remittendo tonum semitonium patet, quia aut ad
+        quartum pertinent tonum. Sed cum infra finalem nullatenus (fol. 71) remisse solum diapente
         conscendant, nec huic nec alicui subiugalium se subiugandas asseuerant. Ergo cum ad tertium
         pertinentes tonum nulli eius possint aptari differentie, non dubitandum principali
         ascribendas melodie. Incipientes autem a finali, semiditonum quem incipiendo a deposita
         .men. sillaba remittunt, in prime uocis alteratione intendunt -- Idem</p>
       <p xml:id="ANOLIT0711">dicendum de antiphona</p>
-      <p xml:id="ANOLIT0712">[Libellus Tonarius, 110,3; text: F, D, E, G, t [punctus sub lin.], Maria et
-        flumina, aevia [Delta] s]</p>
-      <p xml:id="ANOLIT0713">que cum a finali tonum remissa, et non nisi diapente cum semitonio intensa,
-        subiugali negetur, ad autenticum se pertinere testatur. Et quia hec finitur semiditonum
-        remittendo, asseuerat se tertio <pb n="[111]"/>attitulandam tono. Cuius differentiarum cum
-        nulli ipsa conueniat, se principali eius Seculorum Amen ascribenda declarat. Incipit autem
-        in paripatemeson F, id est a finali semitonio in acumine a deposita .men. sillaba tono in
-        grauitate. -- Item antiphonas</p>
+      <p xml:id="ANOLIT0712">[Libellus Tonarius, 110,3; text: F, D, E, G, t [punctus sub lin.],
+        Maria et flumina, aevia [Delta] s]</p>
+      <p xml:id="ANOLIT0713">que cum a finali tonum remissa, et non nisi diapente cum semitonio
+        intensa, subiugali negetur, ad autenticum se pertinere testatur. Et quia hec finitur
+        semiditonum remittendo, asseuerat se tertio <pb n="[111]"/>attitulandam tono. Cuius
+        differentiarum cum nulli ipsa conueniat, se principali eius Seculorum Amen ascribenda
+        declarat. Incipit autem in paripatemeson F, id est a finali semitonio in acumine a deposita
+        .men. sillaba tono in grauitate. -- Item antiphonas</p>
       <p xml:id="ANOLIT0714">t [punctus sub lin.] Ambulabunt . . . de libro uite [Delta] s</p>
       <p xml:id="ANOLIT0715">t [punctus sub lin.] Rubum quem uiderat . . . pro no-bis [Delta] s</p>
-      <p xml:id="ANOLIT0716">propter similitudinem melodie quam habent cum quibusdam prime differentie
-        quarti, ascribunt quidam eidem differentie eiusdem quarti. Sed cum finali huic corde
-        respondeant, remittentes in fine harum prior tonum semitonium, sequens uero semiditonum,
-        subiugali tamen se negant, quia utraque: a finali diapente et semitonium intendit, solummodo
-        tonum infra finalem remittendo. Autentico igitur attitulande, cum nulli eius differentiarum
-        accedant, se eius antiphonis principalibus associant. Incipiunt autem infra finalem tono; a
-        corda autem, in qua .men. sillaba obticuit, diatesseron interuallo.</p>
-      <p xml:id="ANOLIT0717">Tertius tonus tres habet differentias omnes in omnibus pene suis antiphonis
-        in lichanosmeson G, in medietate scilicet sui diapente incipientes. Quarum prima hac sui
-        Seculorum Amen regitur melodia:</p>
+      <p xml:id="ANOLIT0716">propter similitudinem melodie quam habent cum quibusdam prime
+        differentie quarti, ascribunt quidam eidem differentie eiusdem quarti. Sed cum finali huic
+        corde respondeant, remittentes in fine harum prior tonum semitonium, sequens uero
+        semiditonum, subiugali tamen se negant, quia utraque: a finali diapente et semitonium
+        intendit, solummodo tonum infra finalem remittendo. Autentico igitur attitulande, cum nulli
+        eius differentiarum accedant, se eius antiphonis principalibus associant. Incipiunt autem
+        infra finalem tono; a corda autem, in qua .men. sillaba obticuit, diatesseron
+        interuallo.</p>
+      <p xml:id="ANOLIT0717">Tertius tonus tres habet differentias omnes in omnibus pene suis
+        antiphonis in lichanosmeson G, in medietate scilicet sui diapente incipientes. Quarum prima
+        hac sui Seculorum Amen regitur melodia:</p>
       <p xml:id="ANOLIT0718">[Libellus Tonarius, 111; text: Seculorum Amen]</p>
-      <p xml:id="ANOLIT0719">Hec igitur ratione secuturis preponitur, quia omnis principalis Seculorum
-        Amen neumas in se presentans, solam .men. sillabam quam illud in lichanosmeson G simpliciter
-        deponit, ista composite per neumam scilicet que pes quassus dicitur, ut suis antiphonis
-        eandem toni intensionem commendatura intendit. Sequentium autem differentiarum tonalibus
-        melodiis ideo preponitur, quia illis ultimas tres sillabas a principali uariantibus, hec
-        solam ultimam. Antiphone autem que hoc Seculorum Amen reguntur, ideo his quas secunda ac
-        tertia habent preponuntur, quia incipientes in lichanosmeson G quo et principales tonum
-        remisse, diatesseron intendunt eosdem quos et ipse illinc tonum semiditonum conscendunt, ut
-        si principalibus antiphonis tonum que a finali siue quem intenso semitonio semiditonum
-        remittunt; et diatesseron quod a lichanosipaton D intendunt auferas, regularem quem iste
-        intendantur ascensum relinquas. Ad hec cum trium tertii differentiarum, omnes antiphone
-        eadem coutantur corda, que huius sunt differentie, ab incipiendo gradatim tonum semiditonum,
-        que sequentium duarum, una uoce in quibusdam intendunt diatesseron. Intendunt autem
-        equaliter his eundem scilicet tonum cum sequenti semiditono quedam ad secundam ac tertiam
-        huius toni differentiam pertinentes; sed que ad secundam, simplicibus neumis, que uero
-        pertinent ad tertiam, licet <pb n="[112]"/>compositis, euidenti tamen discretione ab huius
-        prime antiphonis.</p>
-      <p xml:id="ANOLIT0720">Gaudent autem hoc Seculorum Amen ut cognato, quia tonum cuius intensione
-        illud a principali uariatur, he in incipiendo remittentes eisdem quibus illud descenderat
-        uocibus intenduntur et eisdem cordatim regrediuntur, habentes eandem metam ascendendi quam
-        illud incipiendi. He autem antiphone huic prime ascribuntur differentie:</p>
+      <p xml:id="ANOLIT0719">Hec igitur ratione secuturis preponitur, quia omnis principalis
+        Seculorum Amen neumas in se presentans, solam .men. sillabam quam illud in lichanosmeson G
+        simpliciter deponit, ista composite per neumam scilicet que pes quassus dicitur, ut suis
+        antiphonis eandem toni intensionem commendatura intendit. Sequentium autem differentiarum
+        tonalibus melodiis ideo preponitur, quia illis ultimas tres sillabas a principali
+        uariantibus, hec solam ultimam. Antiphone autem que hoc Seculorum Amen reguntur, ideo his
+        quas secunda ac tertia habent preponuntur, quia incipientes in lichanosmeson G quo et
+        principales tonum remisse, diatesseron intendunt eosdem quos et ipse illinc tonum
+        semiditonum conscendunt, ut si principalibus antiphonis tonum que a finali siue quem intenso
+        semitonio semiditonum remittunt; et diatesseron quod a lichanosipaton D intendunt auferas,
+        regularem quem iste intendantur ascensum relinquas. Ad hec cum trium tertii differentiarum,
+        omnes antiphone eadem coutantur corda, que huius sunt differentie, ab incipiendo gradatim
+        tonum semiditonum, que sequentium duarum, una uoce in quibusdam intendunt diatesseron.
+        Intendunt autem equaliter his eundem scilicet tonum cum sequenti semiditono quedam ad
+        secundam ac tertiam huius toni differentiam pertinentes; sed que ad secundam, simplicibus
+        neumis, que uero pertinent ad tertiam, licet <pb n="[112]"/>compositis, euidenti tamen
+        discretione ab huius prime antiphonis.</p>
+      <p xml:id="ANOLIT0720">Gaudent autem hoc Seculorum Amen ut cognato, quia tonum cuius
+        intensione illud a principali uariatur, he in incipiendo remittentes eisdem quibus illud
+        descenderat uocibus intenduntur et eisdem cordatim regrediuntur, habentes eandem metam
+        ascendendi quam illud incipiendi. He autem antiphone huic prime ascribuntur differentie:</p>
       <p xml:id="ANOLIT0721">[Libellus Tonarius, 112,1; text: Domine probasti me, Omnia quecumque,
         Quoniam in eternum, [Delta], s, G, a, c]</p>
       <p xml:id="ANOLIT0722">Secunda differentia tertii toni his suum Seculorum Amen neumis exigit
         insigniri</p>
       <p xml:id="ANOLIT0723">[Libellus Tonarius, 112,2; text: Seculorum Amen]</p>
-      <p xml:id="ANOLIT0724">Quod postpositum illi quo precessit, ut a principali diuersius preponitur
-        secuturo ut simplicius. Antiphone autem quibus secunda hec differentia constituitur, ideo
-        secuturis quas tertia habet preponuntur, quia neumarum equisona gaudent simplicitate, illis
-        exquisitiori earum inflexione, adoptantes tonalem hanc melodiam simpliciter pene equisonam,
-        illis percomposite sinuosam. Huic simplicis neume ac pene equisono Seculorum Amen, sue non
-        minus antiphone respondent simpliciter et equisone, cum nunc in ipso principio uocis
-        identitatem, quedam in duabus, quedam in tribus sillabis continuant; et huic earum quedam
-        diatesseron quedam tonum, dehinc semiditonum intense, se ei eandem quam et illius finalis
-        dictionem siue in una siue in duabus sillabis iterando, conformes affirmant, ut he:
-        [Libellus Tonarius, 112,3; text: Accipiens Simeon, Mandatum nouum, G, c, a] ; nunc ab
-        incipiendo in secunda mox sillaba item diatesseron, siue tonum, dehinc semiditonum eleuate,
-        eandem sui Seculorum Amen finalem cordam item continuant equisone, ut he [Libellus Tonarius,
-        112,4; text: Placebo domino, Ciues mei, G, a, c] . Pertinent autem ad secundam hanc
-        differentiam he ultra finalem semiditoni, et infra depositam .men. sillabam spatio
-        diatesseron inchoande. Hec autem accipit quamuis cordam in quam intenditur, in eadem
-        duplicando sillaba componat, tamen in hac compositione habita non alia quidem (fol. 72) quam
-        finalis corde sui Seculorum Amen quam ab incipiendo per diatesseron asilit equisona
-        repercussione, uidetur se illi non quod sequens habet differentiam associandam quasi
-        affirmare:</p>
+      <p xml:id="ANOLIT0724">Quod postpositum illi quo precessit, ut a principali diuersius
+        preponitur secuturo ut simplicius. Antiphone autem quibus secunda hec differentia
+        constituitur, ideo secuturis quas tertia habet preponuntur, quia neumarum equisona gaudent
+        simplicitate, illis exquisitiori earum inflexione, adoptantes tonalem hanc melodiam
+        simpliciter pene equisonam, illis percomposite sinuosam. Huic simplicis neume ac pene
+        equisono Seculorum Amen, sue non minus antiphone respondent simpliciter et equisone, cum
+        nunc in ipso principio uocis identitatem, quedam in duabus, quedam in tribus sillabis
+        continuant; et huic earum quedam diatesseron quedam tonum, dehinc semiditonum intense, se ei
+        eandem quam et illius finalis dictionem siue in una siue in duabus sillabis iterando,
+        conformes affirmant, ut he: [Libellus Tonarius, 112,3; text: Accipiens Simeon, Mandatum
+        nouum, G, c, a] ; nunc ab incipiendo in secunda mox sillaba item diatesseron, siue tonum,
+        dehinc semiditonum eleuate, eandem sui Seculorum Amen finalem cordam item continuant
+        equisone, ut he [Libellus Tonarius, 112,4; text: Placebo domino, Ciues mei, G, a, c] .
+        Pertinent autem ad secundam hanc differentiam he ultra finalem semiditoni, et infra
+        depositam .men. sillabam spatio diatesseron inchoande. Hec autem accipit quamuis cordam in
+        quam intenditur, in eadem duplicando sillaba componat, tamen in hac compositione habita non
+        alia quidem (fol. 72) quam finalis corde sui Seculorum Amen quam ab incipiendo per
+        diatesseron asilit equisona repercussione, uidetur se illi non quod sequens habet
+        differentiam associandam quasi affirmare:</p>
       <p xml:id="ANOLIT0725">t [punctus sub lin.] Accipiens Symeon [Delta] s</p>
       <p xml:id="ANOLIT0726">t [punctus sub lin.] Ciues mei uermes [Delta] t s</p>
       <p xml:id="ANOLIT0727">Domine uim patior [Delta] t s</p>
@@ -1374,15 +1391,16 @@
       <p xml:id="ANOLIT0737">
         <pb n="[113]"/>Querentes eum [Delta] s</p>
       <p xml:id="ANOLIT0738">Reliquit eum temptator [Delta] s</p>
-      <p xml:id="ANOLIT0739">Propter hanc uocis identitatem qua fini huius Seculorum Amen continuantur,
-        dande sunt et differentie huic he antiphone incipientes in tritediezeugmenon c vbi et
-        Seculorum Amen earum incipitur et finitur, id est diapente et semitonio a finali in
+      <p xml:id="ANOLIT0739">Propter hanc uocis identitatem qua fini huius Seculorum Amen
+        continuantur, dande sunt et differentie huic he antiphone incipientes in tritediezeugmenon c
+        vbi et Seculorum Amen earum incipitur et finitur, id est diapente et semitonio a finali in
         acumine:</p>
       <p xml:id="ANOLIT0740">t [punctus sub lin.] Ista est speciosa [Delta] d</p>
       <p xml:id="ANOLIT0741">t [punctus sub lin.] Sic eum uolo manere [Delta] s</p>
       <p xml:id="ANOLIT0742">t [punctus sub lin.] Viuo ego dicit dominus [Delta] s</p>
       <p xml:id="ANOLIT0743">t [punctus sub lin.] Vnum opus feci [Delta] s</p>
-      <p xml:id="ANOLIT0744">Tertia tertii differentia hac suum Seculorum Amen inflectitur melodia.</p>
+      <p xml:id="ANOLIT0744">Tertia tertii differentia hac suum Seculorum Amen inflectitur
+        melodia.</p>
       <p xml:id="ANOLIT0745">[Libellus Tonarius, 113,1; text: Seculorum Amen] <figure>
           <graphic url="/images/ANOLIT_03GF.gif"/>
         </figure></p>
@@ -1392,21 +1410,21 @@
         et simplici suo Seculorum Amen, non simplicibus item neumis occurrentes, nunc intenso tono
         eleuant semiditonum per neumam que pes dicitur, ut [Libellus Tonarius, 113,2; text: Ecce
         dominus noster, Ego sum pastor bonus. G, a, c]</p>
-      <p xml:id="ANOLIT0747">Nunc ab ipso principio intendunt diatesseron, aut per eandem neumam pedem
-        dictam aut per quilisma, ut Auferte ista hinc, [Libellus Tonarius, 113,3; text: Domine spes
-        sanctorum et turris, a, G, c] ; nunc remisso quem primum intendunt tono, in quibusdam item
-        tonum semiditonum, in quibusdam diatesseron intendunt[ur], ut [Libellus Tonarius, 113,4;
-        text: Quidam homo, Fac benigne in bona uoluntate, G, a, c] . Sunt autem huic Seculorum Amen
-        ascribende:</p>
+      <p xml:id="ANOLIT0747">Nunc ab ipso principio intendunt diatesseron, aut per eandem neumam
+        pedem dictam aut per quilisma, ut Auferte ista hinc, [Libellus Tonarius, 113,3; text: Domine
+        spes sanctorum et turris, a, G, c] ; nunc remisso quem primum intendunt tono, in quibusdam
+        item tonum semiditonum, in quibusdam diatesseron intendunt[ur], ut [Libellus Tonarius,
+        113,4; text: Quidam homo, Fac benigne in bona uoluntate, G, a, c] . Sunt autem huic
+        Seculorum Amen ascribende:</p>
       <p xml:id="ANOLIT0748">t [punctus sub lin.] Auferte ista hinc [Delta] s t</p>
       <p xml:id="ANOLIT0749">t [punctus sub lin.] Apparuit sanctus Gamaliel [Delta] s t</p>
       <p xml:id="ANOLIT0750">t [punctus sub lin.] Be-ne-di-cat terra domino [Delta] s</p>
       <p xml:id="ANOLIT0751">t [punctus sub lin.] Corpus autem [Delta] s</p>
       <p xml:id="ANOLIT0752">t [punctus sub lin.] Cognouit autem pater [Delta] s t</p>
       <p xml:id="ANOLIT0753">t [punctus sub lin.] Dominus legifer noster [Delta] s</p>
-      <p xml:id="ANOLIT0754">Hec enim incepta in lichanosmeson G, ubi et omnes pene trium tertii toni
-        differentiarum antiphone, semitoniorum dispendia patiatur, in legem corde que suo finali
-        socialis est, transferenda uidetur. Ut ergo a suo finali semiditono in acumine erat
+      <p xml:id="ANOLIT0754">Hec enim incepta in lichanosmeson G, ubi et omnes pene trium tertii
+        toni differentiarum antiphone, semitoniorum dispendia patiatur, in legem corde que suo
+        finali socialis est, transferenda uidetur. Ut ergo a suo finali semiditono in acumine erat
         incipiendo, sic a finalis sociali item semiditono, id est in tritediezeugmenon c incepta
         suius currit neumis consone, regulariter finem sortita in sui finalis sociali mese a. --</p>
       <p xml:id="ANOLIT0755">t [punctus sub lin.] Dum fortis armatus [Delta] t s</p>
@@ -1424,8 +1442,8 @@
       <p xml:id="ANOLIT0766">t [punctus sub lin.] Justus cor suum [Delta] d</p>
       <p xml:id="ANOLIT0767">t [punctus sub lin.] Lignum uite [Delta] s t</p>
       <p xml:id="ANOLIT0768">t [punctus sub lin.] Mercennarius est [Delta] d</p>
-      <p xml:id="ANOLIT0769">t [punctus sub lin.] t [punctus sub lin.] Nisi quis renatus fuerit [Delta]
-        d</p>
+      <p xml:id="ANOLIT0769">t [punctus sub lin.] t [punctus sub lin.] Nisi quis renatus fuerit
+        [Delta] d</p>
       <p xml:id="ANOLIT0770">t [punctus sub lin.] Omni tempore [Delta] d</p>
       <p xml:id="ANOLIT0771">t [punctus sub lin.] Predicantes preceptum [Delta] s</p>
       <p xml:id="ANOLIT0772">t [punctus sub lin.] Predicans preceptum [Delta] s</p>
@@ -1455,23 +1473,24 @@
         antiphone:</p>
       <p xml:id="ANOLIT0792">(fol. 73) Tu Bethleem terra [Delta] s</p>
       <p xml:id="ANOLIT0793">t [punctus sub lin.] Te semper idem esse [Delta] s</p>
-      <p xml:id="ANOLIT0794">His quidam ex similitudine meli adiungunt et antiphonas: Et respicientes,
-        Lupus rapit, Pastor bonus, Nemo tollit a me, cogentes eas finiri in hoc secundo finali. Sed
-        ab usitatis neumis ipse non deuiando regulariter conueniunt subiugali quarto. Quarum etiam
-        Lupus rapit, et Pastor bonus, cum in eodem meli tenore accedant tam sexto quam eidem octauo,
-        cognatius tamen aptande uidentur octauo, cum neumas per quas Seculorum Amen octaui id est
-        semitonium tonum tonum deponitur, he in incipiendo remetientes intendantur.</p>
+      <p xml:id="ANOLIT0794">His quidam ex similitudine meli adiungunt et antiphonas: Et
+        respicientes, Lupus rapit, Pastor bonus, Nemo tollit a me, cogentes eas finiri in hoc
+        secundo finali. Sed ab usitatis neumis ipse non deuiando regulariter conueniunt subiugali
+        quarto. Quarum etiam Lupus rapit, et Pastor bonus, cum in eodem meli tenore accedant tam
+        sexto quam eidem octauo, cognatius tamen aptande uidentur octauo, cum neumas per quas
+        Seculorum Amen octaui id est semitonium tonum tonum deponitur, he in incipiendo remetientes
+        intendantur.</p>
       <p xml:id="ANOLIT0795">IV</p>
-      <p xml:id="ANOLIT0796">Quartus tonus habens eundem quem et suus principalis finalem, his colorat
-        neumis suum Seculorum Amen:</p>
+      <p xml:id="ANOLIT0796">Quartus tonus habens eundem quem et suus principalis finalem, his
+        colorat neumis suum Seculorum Amen:</p>
       <p xml:id="ANOLIT0797">[Libellus Tonarius, 114; text: Seculorum Amen]</p>
       <p xml:id="ANOLIT0798">Quarto huic he principales antiphone <pb n="[115]"/>ascribuntur,
         incipientes a finale ubi et .men. sillaba terminatur:</p>
       <p xml:id="ANOLIT0799">t [punctus sub lin.] Benigne fac s t</p>
       <p xml:id="ANOLIT0800">t [punctus sub lin.] t [punctus sub lin.] Clamaui et exaudiuit s</p>
       <p xml:id="ANOLIT0801">t [punctus sub lin.] t [punctus sub lin.] Credo uidere d</p>
-      <p xml:id="ANOLIT0802">[Libellus Tonarius, 115; text: t, Exultauit cor meum in domino, E, F, D,
-        s]</p>
+      <p xml:id="ANOLIT0802">[Libellus Tonarius, 115; text: t, Exultauit cor meum in domino, E, F,
+        D, s]</p>
       <p xml:id="ANOLIT0803">Hanc enim, siue semitonium per neumam quam gutturalem suppunctim siue
         semiditonum per illam quam pedem dicunt in prime dictionis penultima intendentis, ab hoc
         quarto non separabis. --</p>
@@ -1479,8 +1498,8 @@
       <p xml:id="ANOLIT0805">t [punctus sub lin.] t [punctus sub lin.] Et factum est in die octauo
         [Delta] s</p>
       <p xml:id="ANOLIT0806">t [punctus sub lin.] t [punctus sub lin.] Exemplum merear [Delta] s</p>
-      <p xml:id="ANOLIT0807">t [punctus sub lin.] t [punctus sub lin.] Emissiones tue paradisus [Delta]
-        s</p>
+      <p xml:id="ANOLIT0807">t [punctus sub lin.] t [punctus sub lin.] Emissiones tue paradisus
+        [Delta] s</p>
       <p xml:id="ANOLIT0808">t [punctus sub lin.] t [punctus sub lin.] Est secretum Ualeriane
         [Delta]</p>
       <p xml:id="ANOLIT0809">Exultabunt sancti t s</p>
@@ -1499,18 +1518,19 @@
       <p xml:id="ANOLIT0817">t [punctus sub lin.] t [punctus sub lin.] In matutinis domine d</p>
       <p xml:id="ANOLIT0818">t [punctus sub lin.] t [punctus sub lin.] Iubilate Deo omnis s t</p>
       <p xml:id="ANOLIT0819">t [punctus sub lin.] t [punctus sub lin.] Illumina domine s</p>
-      <p xml:id="ANOLIT0820">t [punctus sub lin.] t [punctus sub lin.] In cimbalis bene sona. s t</p>
+      <p xml:id="ANOLIT0820">t [punctus sub lin.] t [punctus sub lin.] In cimbalis bene sona. s
+        t</p>
       <p xml:id="ANOLIT0821">t [punctus sub lin.] t [punctus sub lin.] Ite nuntiate [Delta] s</p>
-      <p xml:id="ANOLIT0822">Hec cum careat semitonio incepta a finali, indiget in mesen a transferri.
-        --</p>
+      <p xml:id="ANOLIT0822">Hec cum careat semitonio incepta a finali, indiget in mesen a
+        transferri. --</p>
       <p xml:id="ANOLIT0823">t [punctus sub lin.] Inter natos mulierum d</p>
       <p xml:id="ANOLIT0824">t [punctus sub lin.] t [punctus sub lin.] Ibi olim positi fuimus
         [Delta]</p>
       <p xml:id="ANOLIT0825">t [punctus sub lin.] In prole mater d</p>
-      <p xml:id="ANOLIT0826">t [punctus sub lin.] t [punctus sub lin.] Iste homo ab adolescentia [Delta]
-        s</p>
-      <p xml:id="ANOLIT0827">t [punctus sub lin.] t [punctus sub lin.] Iustum deduxit dominus [Delta]
-        s</p>
+      <p xml:id="ANOLIT0826">t [punctus sub lin.] t [punctus sub lin.] Iste homo ab adolescentia
+        [Delta] s</p>
+      <p xml:id="ANOLIT0827">t [punctus sub lin.] t [punctus sub lin.] Iustum deduxit dominus
+        [Delta] s</p>
       <p xml:id="ANOLIT0828">Hec propter semitoniorum detrimenta in mesen a est transferenda. --</p>
       <p xml:id="ANOLIT0829">t [punctus sub lin.] Lumine uultus tui [Delta] s</p>
       <p xml:id="ANOLIT0830">Hec ut remanere possit in hoc subiugali, cui compositor suus tonorum
@@ -1523,13 +1543,15 @@
         [Delta]</p>
       <p xml:id="ANOLIT0836">t [punctus sub lin.] t [punctus sub lin.] Ornatam in monilibus d</p>
       <p xml:id="ANOLIT0837">t [punctus sub lin.] t [punctus sub lin.] O febrem omni laudem d</p>
-      <p xml:id="ANOLIT0838">t [punctus sub lin.] t [punctus sub lin.] Pacem tuam quesumus [Delta] s</p>
+      <p xml:id="ANOLIT0838">t [punctus sub lin.] t [punctus sub lin.] Pacem tuam quesumus [Delta]
+        s</p>
       <p xml:id="ANOLIT0839">t [punctus sub lin.] t [punctus sub lin.] Plantauerat autem d.</p>
       <p xml:id="ANOLIT0840">t [punctus sub lin.] t [punctus sub lin.] Qui uenturus est d</p>
       <p xml:id="ANOLIT0841">t [punctus sub lin.] t [punctus sub lin.] Quia mirabilia fecit s</p>
       <p xml:id="ANOLIT0842">t [punctus sub lin.] t [punctus sub lin.] Quid faciam quia dominus
         [Delta]</p>
-      <p xml:id="ANOLIT0843">t [punctus sub lin.] t [punctus sub lin.] Quid uobis uidetur de [Delta]</p>
+      <p xml:id="ANOLIT0843">t [punctus sub lin.] t [punctus sub lin.] Quid uobis uidetur de
+        [Delta]</p>
       <p xml:id="ANOLIT0844">t [punctus sub lin.] t [punctus sub lin.] Scientes quia hora est
         [Delta]</p>
       <p xml:id="ANOLIT0845">
@@ -1540,14 +1562,17 @@
         paripateypaton C (ad) proslambanomenon A remittas; alioquin nec in finali nec in affini que
         est mese a finire eam poteris, quia sub eis tonum quem requirit non inuenit. --</p>
       <p xml:id="ANOLIT0849">t [punctus sub lin.] Tanto tempore uobiscum d</p>
-      <p xml:id="ANOLIT0850">t [punctus sub lin.] t [punctus sub lin.] Te Deum patrem ing. [Delta] s</p>
-      <p xml:id="ANOLIT0851">t [punctus sub lin.] t [punctus sub lin.] Te inuocamus te adoramus s t</p>
-      <p xml:id="ANOLIT0852">t [punctus sub lin.] t [punctus sub lin.] Tibi decus et imperium [Delta]
+      <p xml:id="ANOLIT0850">t [punctus sub lin.] t [punctus sub lin.] Te Deum patrem ing. [Delta]
         s</p>
-      <p xml:id="ANOLIT0853">t [punctus sub lin.] t [punctus sub lin.] Tota pulchra es amica mea [Delta]
-        s</p>
+      <p xml:id="ANOLIT0851">t [punctus sub lin.] t [punctus sub lin.] Te inuocamus te adoramus s
+        t</p>
+      <p xml:id="ANOLIT0852">t [punctus sub lin.] t [punctus sub lin.] Tibi decus et imperium
+        [Delta] s</p>
+      <p xml:id="ANOLIT0853">t [punctus sub lin.] t [punctus sub lin.] Tota pulchra es amica mea
+        [Delta] s</p>
       <p xml:id="ANOLIT0854">t [punctus sub lin.] t [punctus sub lin.] Vigilate animo d</p>
-      <p xml:id="ANOLIT0855">t [punctus sub lin.] t [punctus sub lin.] Vindica domine sanguinem s t</p>
+      <p xml:id="ANOLIT0855">t [punctus sub lin.] t [punctus sub lin.] Vindica domine sanguinem s
+        t</p>
       <p xml:id="ANOLIT0856">t [punctus sub lin.] t [punctus sub lin.] Vidimus stellam eius d</p>
       <p xml:id="ANOLIT0857">Assignantur et huic Seculorum Amen, quarum post remissionem toni quedam
         intensis tono semiditono per uirgam pede fultam nunc tonum nunc diatesseron eleuant, ut
@@ -1556,7 +1581,8 @@
         laudare; nunc ditonum ut hec Gaude Maria uirgo; omnes in tenore meli adeo sibi conformes, ut
         cunctis quod una ad summam intendentibus ac remittentibus nulla sit altera acutior, nulla
         remissior. Sunt autem he:</p>
-      <p xml:id="ANOLIT0858">t [punctus sub lin.] t [punctus sub lin.] Annuntiate populis [Delta]</p>
+      <p xml:id="ANOLIT0858">t [punctus sub lin.] t [punctus sub lin.] Annuntiate populis
+        [Delta]</p>
       <p xml:id="ANOLIT0859">t [punctus sub lin.] t [punctus sub lin.] Angelus domini descendit
         [Delta]</p>
       <p xml:id="ANOLIT0860">t [punctus sub lin.] t [punctus sub lin.] A summo celo [Delta]</p>
@@ -1564,13 +1590,17 @@
       <p xml:id="ANOLIT0862">t [punctus sub lin.] t [punctus sub lin.] Ascendit fumus [Delta]</p>
       <p xml:id="ANOLIT0863">t [punctus sub lin.] t [punctus sub lin.] Crastina die delebitur
         [Delta]</p>
-      <p xml:id="ANOLIT0864">t [punctus sub lin.] t [punctus sub lin.] Custodiebant test. [Delta]</p>
-      <p xml:id="ANOLIT0865">t [punctus sub lin.] t [punctus sub lin.] (fol. 74) Dignare me laudare te
+      <p xml:id="ANOLIT0864">t [punctus sub lin.] t [punctus sub lin.] Custodiebant test.
         [Delta]</p>
+      <p xml:id="ANOLIT0865">t [punctus sub lin.] t [punctus sub lin.] (fol. 74) Dignare me laudare
+        te [Delta]</p>
       <p xml:id="ANOLIT0866">t [punctus sub lin.] t [punctus sub lin.] Da michi in disco [Delta]</p>
-      <p xml:id="ANOLIT0867">t [punctus sub lin.] t [punctus sub lin.] Dum sacramenta off. [Delta]</p>
-      <p xml:id="ANOLIT0868">t [punctus sub lin.] t [punctus sub lin.] Egredietur dominus de [Delta]</p>
-      <p xml:id="ANOLIT0869">t [punctus sub lin.] t [punctus sub lin.] Emitte agnum domine [Delta]</p>
+      <p xml:id="ANOLIT0867">t [punctus sub lin.] t [punctus sub lin.] Dum sacramenta off.
+        [Delta]</p>
+      <p xml:id="ANOLIT0868">t [punctus sub lin.] t [punctus sub lin.] Egredietur dominus de
+        [Delta]</p>
+      <p xml:id="ANOLIT0869">t [punctus sub lin.] t [punctus sub lin.] Emitte agnum domine
+        [Delta]</p>
       <p xml:id="ANOLIT0870">t [punctus sub lin.] t [punctus sub lin.] Faciem meam non auerti
         [Delta]</p>
       <p xml:id="ANOLIT0871">t [punctus sub lin.] t [punctus sub lin.] Gratia Dei in me uacua
@@ -1581,17 +1611,21 @@
       <p xml:id="ANOLIT0875">t [punctus sub lin.] t [punctus sub lin.] Media nocte [Delta]</p>
       <p xml:id="ANOLIT0876">t [punctus sub lin.] t [punctus sub lin.] Optimam partem [Delta]</p>
       <p xml:id="ANOLIT0877">t [punctus sub lin.] t [punctus sub lin.] Post partum uirgo [Delta]</p>
-      <p xml:id="ANOLIT0878">t [punctus sub lin.] t [punctus sub lin.] Popule meus quid feci [Delta]</p>
+      <p xml:id="ANOLIT0878">t [punctus sub lin.] t [punctus sub lin.] Popule meus quid feci
+        [Delta]</p>
       <p xml:id="ANOLIT0879">t [punctus sub lin.] t [punctus sub lin.] Petiit puella [Delta]</p>
-      <p xml:id="ANOLIT0880">t [punctus sub lin.] t [punctus sub lin.] Prudentes uirgines [Delta]</p>
+      <p xml:id="ANOLIT0880">t [punctus sub lin.] t [punctus sub lin.] Prudentes uirgines
+        [Delta]</p>
       <p xml:id="ANOLIT0881">t [punctus sub lin.] t [punctus sub lin.] Propheta magnus [Delta]</p>
       <p xml:id="ANOLIT0882">t [punctus sub lin.] t [punctus sub lin.] Querite dominum [Delta]</p>
-      <p xml:id="ANOLIT0883">t [punctus sub lin.] t [punctus sub lin.] Rorate celi desuper [Delta]</p>
+      <p xml:id="ANOLIT0883">t [punctus sub lin.] t [punctus sub lin.] Rorate celi desuper
+        [Delta]</p>
       <p xml:id="ANOLIT0884">t [punctus sub lin.] t [punctus sub lin.] Sinite paruulos [Delta]</p>
       <p xml:id="ANOLIT0885">t [punctus sub lin.] t [punctus sub lin.] Sepulto domino [Delta]</p>
       <p xml:id="ANOLIT0886">t [punctus sub lin.] t [punctus sub lin.] Super salutem et omnem
         [Delta]</p>
-      <p xml:id="ANOLIT0887">t [punctus sub lin.] t [punctus sub lin.] Thesaurizate uobis [Delta]</p>
+      <p xml:id="ANOLIT0887">t [punctus sub lin.] t [punctus sub lin.] Thesaurizate uobis
+        [Delta]</p>
       <p xml:id="ANOLIT0888">t [punctus sub lin.] t [punctus sub lin.] Tunc inuocabis et dominus
         [Delta]</p>
       <p xml:id="ANOLIT0889">t [punctus sub lin.] t [punctus sub lin.] Vt cognoscamus [Delta]</p>
@@ -1602,64 +1636,75 @@
         socialem finalis id est in mesen a transtuleris, cordas uocibus regulariter respondere
         uidebis. Mese a enim in hoc quod supra se habet tonum semitonium tonum respondet primo, in
         hoc quod semitonium tonum tonum uocis identitate sociabitur finali secundo. --</p>
-      <p xml:id="ANOLIT0892">Reguntur et hoc Seculorum Amen que semitonio ultra finalem inchoate nunc
-        semiditonum remittunt, hinc quedam eodem remenso id est semitonium remisse, alterum item
-        semitonium intendunt ut antiphona Adest namque natiuitas; quedam distinguendo tonum
+      <p xml:id="ANOLIT0892">Reguntur et hoc Seculorum Amen que semitonio ultra finalem inchoate
+        nunc semiditonum remittunt, hinc quedam eodem remenso id est semitonium remisse, alterum
+        item semitonium intendunt ut antiphona Adest namque natiuitas; quedam distinguendo tonum
         semitonium eleuate eundem semiditonum remittunt, in depositione, ut antiphona Omnis terra
         adoret; nunc semitonium tonum deposite, idem diatesseron intendunt continue, ut Prebe fili
         cor tuum mihi. Sunt autem he:</p>
       <p xml:id="ANOLIT0893">t [punctus sub lin.] t [punctus sub lin.] Anxiatus est in me d</p>
-      <p xml:id="ANOLIT0894">t [punctus sub lin.] t [punctus sub lin.] Adest namque natiuitas [Delta]
-        s</p>
+      <p xml:id="ANOLIT0894">t [punctus sub lin.] t [punctus sub lin.] Adest namque natiuitas
+        [Delta] s</p>
       <p xml:id="ANOLIT0895">t [punctus sub lin.] t [punctus sub lin.] Auro uirginum d</p>
-      <p xml:id="ANOLIT0896">t [punctus sub lin.] t [punctus sub lin.] Beatus Petrus dum p. [Delta] s
-        t</p>
+      <p xml:id="ANOLIT0896">t [punctus sub lin.] t [punctus sub lin.] Beatus Petrus dum p. [Delta]
+        s t</p>
       <p xml:id="ANOLIT0897">t [punctus sub lin.] t [punctus sub lin.] Cumque naui sanctum</p>
-      <p xml:id="ANOLIT0898">t [punctus sub lin.] Domine audiui auditum t [punctus sub lin.], t [punctus
-        sub lin.]</p>
+      <p xml:id="ANOLIT0898">t [punctus sub lin.] Domine audiui auditum t [punctus sub lin.], t
+        [punctus sub lin.]</p>
       <p xml:id="ANOLIT0899">t [punctus sub lin.] Et in seruis suis d</p>
       <p xml:id="ANOLIT0900">t [punctus sub lin.] t [punctus sub lin.] Ecce merces sanctorum [Delta]
         s</p>
       <p xml:id="ANOLIT0901">t [punctus sub lin.] t [punctus sub lin.] Gloria hec est omnibus d</p>
-      <p xml:id="ANOLIT0902">t [punctus sub lin.] t [punctus sub lin.] In feruentis olei [Delta] s</p>
+      <p xml:id="ANOLIT0902">t [punctus sub lin.] t [punctus sub lin.] In feruentis olei [Delta]
+        s</p>
       <p xml:id="ANOLIT0903">t [punctus sub lin.] In eternum dominus d</p>
-      <p xml:id="ANOLIT0904">t [punctus sub lin.] t [punctus sub lin.] Iterum autem uidebo [Delta]</p>
+      <p xml:id="ANOLIT0904">t [punctus sub lin.] t [punctus sub lin.] Iterum autem uidebo
+        [Delta]</p>
       <p xml:id="ANOLIT0905">t [punctus sub lin.] t [punctus sub lin.] Isti sunt uiri sancti (quos)
         [Delta]</p>
-      <p xml:id="ANOLIT0906">Hec cum in finali incepta incurrat detrimentum semitonii in dictione que
-        est "elegit", transferri in mesen a deposcit. --</p>
+      <p xml:id="ANOLIT0906">Hec cum in finali incepta incurrat detrimentum semitonii in dictione
+        que est "elegit", transferri in mesen a deposcit. --</p>
       <p xml:id="ANOLIT0907">t [punctus sub lin.] Introibo ad altare Dei d</p>
       <p xml:id="ANOLIT0908">t [punctus sub lin.] Lumine uultus tui</p>
       <p xml:id="ANOLIT0909">t [punctus sub lin.] t [punctus sub lin.] Laus Deo patri [Delta]</p>
-      <p xml:id="ANOLIT0910">t [punctus sub lin.] t [punctus sub lin.] Mentem sanctam spontan. t s</p>
-      <p xml:id="ANOLIT0911">t [punctus sub lin.] t [punctus sub lin.] Nox precessit dies [Delta]</p>
-      <p xml:id="ANOLIT0912">t [punctus sub lin.] t [punctus sub lin.] O regem celi cui [Delta] s</p>
+      <p xml:id="ANOLIT0910">t [punctus sub lin.] t [punctus sub lin.] Mentem sanctam spontan. t
+        s</p>
+      <p xml:id="ANOLIT0911">t [punctus sub lin.] t [punctus sub lin.] Nox precessit dies
+        [Delta]</p>
+      <p xml:id="ANOLIT0912">t [punctus sub lin.] t [punctus sub lin.] O regem celi cui [Delta]
+        s</p>
       <p xml:id="ANOLIT0913">t [punctus sub lin.] t [punctus sub lin.] Omnis terra adoret s t</p>
       <p xml:id="ANOLIT0914">t [punctus sub lin.] t [punctus sub lin.] Omnes gentes quas s t</p>
-      <p xml:id="ANOLIT0915">t [punctus sub lin.] t [punctus sub lin.] Pater sanctus dum intentam d</p>
-      <p xml:id="ANOLIT0916">t [punctus sub lin.] t [punctus sub lin.] Pater iuste mundus [Delta] t</p>
-      <p xml:id="ANOLIT0917">t [punctus sub lin.] t [punctus sub lin.] Prebe fili cor tuum [Delta] t</p>
-      <p xml:id="ANOLIT0918">t [punctus sub lin.] t [punctus sub lin.] Quis scit qui conuertatur s t</p>
-      <p xml:id="ANOLIT0919">t [punctus sub lin.] t [punctus sub lin.] Sanctis qui in terra sunt s t</p>
+      <p xml:id="ANOLIT0915">t [punctus sub lin.] t [punctus sub lin.] Pater sanctus dum intentam
+        d</p>
+      <p xml:id="ANOLIT0916">t [punctus sub lin.] t [punctus sub lin.] Pater iuste mundus [Delta]
+        t</p>
+      <p xml:id="ANOLIT0917">t [punctus sub lin.] t [punctus sub lin.] Prebe fili cor tuum [Delta]
+        t</p>
+      <p xml:id="ANOLIT0918">t [punctus sub lin.] t [punctus sub lin.] Quis scit qui conuertatur s
+        t</p>
+      <p xml:id="ANOLIT0919">t [punctus sub lin.] t [punctus sub lin.] Sanctis qui in terra sunt s
+        t</p>
       <p xml:id="ANOLIT0920">t [punctus sub lin.] t [punctus sub lin.] Speret Israel in domino s</p>
       <p xml:id="ANOLIT0921">t [punctus sub lin.] t [punctus sub lin.] Sanctus uir Gregorius [Delta]
         s</p>
       <p xml:id="ANOLIT0922">t [punctus sub lin.] t [punctus sub lin.] Sanctifica nos domine [Delta]
         s</p>
-      <p xml:id="ANOLIT0923">t [punctus sub lin.] t [punctus sub lin.] Sanctum est uerum lumen [Delta]
-        s</p>
+      <p xml:id="ANOLIT0923">t [punctus sub lin.] t [punctus sub lin.] Sanctum est uerum lumen
+        [Delta] s</p>
       <p xml:id="ANOLIT0924">t [punctus sub lin.] Tria sunt munera d</p>
       <p xml:id="ANOLIT0925">t [punctus sub lin.] Tu es qui facis s t</p>
       <p xml:id="ANOLIT0926">t [punctus sub lin.] Vox de celis sonuit d</p>
       <p xml:id="ANOLIT0927">t [punctus sub lin.] t [punctus sub lin.] Vir Dei Gamaliel [Delta]</p>
-      <p xml:id="ANOLIT0928">His in paripatemeson F incipientibus ascribunt quidam et antiphonam quamuis
-        principali melodie septime attitulatam</p>
+      <p xml:id="ANOLIT0928">His in paripatemeson F incipientibus ascribunt quidam et antiphonam
+        quamuis principali melodie septime attitulatam</p>
       <p xml:id="ANOLIT0929">d Exiit qui seminat d s</p>
-      <p xml:id="ANOLIT0930">ita eam in finali finientes "et fecit <pb n="[118]"/>fructum centuplum". --
-        Nec minus et hanc Maria et flumina, ut pote in paripatemeson F ubi et prescripte
-        incipientem; sed cum hec quarto attributa tono non nisi tonum infra finalem remittat, ultra
-        finalem autem plenum diapente intendat, euidentissime subiugali negatur. -- Eodem Seculorum
-        Amen intonantur et he, infra finalem toni spatio, id est in lychanosypaton D inchoande:</p>
+      <p xml:id="ANOLIT0930">ita eam in finali finientes "et fecit <pb n="[118]"/>fructum
+        centuplum". -- Nec minus et hanc Maria et flumina, ut pote in paripatemeson F ubi et
+        prescripte incipientem; sed cum hec quarto attributa tono non nisi tonum infra finalem
+        remittat, ultra finalem autem plenum diapente intendat, euidentissime subiugali negatur. --
+        Eodem Seculorum Amen intonantur et he, infra finalem toni spatio, id est in lychanosypaton D
+        inchoande:</p>
       <p xml:id="ANOLIT0931">t [punctus sub lin.] t [punctus sub lin.] Aperiens Johannes [Delta]</p>
       <p xml:id="ANOLIT0932">t [punctus sub lin.] Glorificamus te Dei d</p>
       <p xml:id="ANOLIT0933">t [punctus sub lin.] t [punctus sub lin.] Media uita in morte d</p>
@@ -1667,16 +1712,17 @@
       <p xml:id="ANOLIT0935">t [punctus sub lin.] Sic ueniet quem d</p>
       <p xml:id="ANOLIT0936">t [punctus sub lin.] t [punctus sub lin.] Symon Baryona [Delta] s</p>
       <p xml:id="ANOLIT0937">t [punctus sub lin.] Secus decursus d</p>
-      <p xml:id="ANOLIT0938">Has igitur quamuis cum prima et secunda differentia incipientes, principali
-        tamen Seculorum Amen ascribimus, quia cum euidenter sint quarti, nulli datarum huic tono
-        differentiarum se patiuntur adiungi. -- Item he ultra finalem semiditoni spatio
+      <p xml:id="ANOLIT0938">Has igitur quamuis cum prima et secunda differentia incipientes,
+        principali tamen Seculorum Amen ascribimus, quia cum euidenter sint quarti, nulli datarum
+        huic tono differentiarum se patiuntur adiungi. -- Item he ultra finalem semiditoni spatio
         incipiende:</p>
       <p xml:id="ANOLIT0939">t [punctus sub lin.] t [punctus sub lin.] Exiui a patre [Delta] s</p>
       <p xml:id="ANOLIT0940">d Gratias ago Deo meo d s</p>
-      <p xml:id="ANOLIT0941">t [punctus sub lin.] t [punctus sub lin.] Justi autem in perpetuum d</p>
+      <p xml:id="ANOLIT0941">t [punctus sub lin.] t [punctus sub lin.] Justi autem in perpetuum
+        d</p>
       <p xml:id="ANOLIT0942">t [punctus sub lin.] t [punctus sub lin.] Nos scientes sanctum n. d</p>
-      <p xml:id="ANOLIT0943">Quartus tonus quatuor gaudet differentiis, quarum prima hac sui Seculorum
-        Amen insignitur melodia</p>
+      <p xml:id="ANOLIT0943">Quartus tonus quatuor gaudet differentiis, quarum prima hac sui
+        Seculorum Amen insignitur melodia</p>
       <p xml:id="ANOLIT0944">[Libellus Tonarius, 118; text: Seculorum Amen]</p>
       <p xml:id="ANOLIT0945">(fol. 75) Quod ideo primo differentie primum ascribitur, quia cum omnis
         principalis Seculorum Amen neumas in se habeat, finalis corde neumam in ultima sui .men.
@@ -1694,7 +1740,8 @@
         quidem primum ponit, sed neumarum identitas affinibus sibi antiphonis prepropere connectit.
         Huic igitur differentie he accomodant antiphone:</p>
       <p xml:id="ANOLIT0946">t [punctus sub lin.] App[reh]enderunt mercedem d</p>
-      <p xml:id="ANOLIT0947">t [punctus sub lin.] t [punctus sub lin.] Ecce quod concupiui [Delta] s</p>
+      <p xml:id="ANOLIT0947">t [punctus sub lin.] t [punctus sub lin.] Ecce quod concupiui [Delta]
+        s</p>
       <p xml:id="ANOLIT0948">Hec enim cum suis consone neumis regulariter conuenit huic differentie
         quarti, non uidetur primi autentici uiolenter subiungenda melodie principali. --</p>
       <p xml:id="ANOLIT0949">t [punctus sub lin.] t [punctus sub lin.] Innuebant patri [Delta] s</p>
@@ -1727,20 +1774,25 @@
       <p xml:id="ANOLIT0955">t [punctus sub lin.] t [punctus sub lin.] Aput dominum misericordia
         [Delta]</p>
       <p xml:id="ANOLIT0956">t [punctus sub lin.] t [punctus sub lin.] Ante thorum huius d</p>
-      <p xml:id="ANOLIT0957">t [punctus sub lin.] t [punctus sub lin.] Alieni insurrexerunt [Delta]</p>
+      <p xml:id="ANOLIT0957">t [punctus sub lin.] t [punctus sub lin.] Alieni insurrexerunt
+        [Delta]</p>
       <p xml:id="ANOLIT0958">t [punctus sub lin.] t [punctus sub lin.] Benedicta tu in mulieribus
         [Delta]</p>
       <p xml:id="ANOLIT0959">t [punctus sub lin.] t [punctus sub lin.] Cogitaui dies [Delta]</p>
       <p xml:id="ANOLIT0960">t [punctus sub lin.] t [punctus sub lin.] Commendemus nosmetipsos
         [Delta]</p>
-      <p xml:id="ANOLIT0961">t [punctus sub lin.] t [punctus sub lin.] Confundantur qui me [Delta]</p>
+      <p xml:id="ANOLIT0961">t [punctus sub lin.] t [punctus sub lin.] Confundantur qui me
+        [Delta]</p>
       <p xml:id="ANOLIT0962">t [punctus sub lin.] t [punctus sub lin.] Confundantur et reuereantur
         [Delta]</p>
-      <p xml:id="ANOLIT0963">t [punctus sub lin.] t [punctus sub lin.] Da mercedem domine [Delta]</p>
+      <p xml:id="ANOLIT0963">t [punctus sub lin.] t [punctus sub lin.] Da mercedem domine
+        [Delta]</p>
       <p xml:id="ANOLIT0964">t [punctus sub lin.] t [punctus sub lin.] Dixi uobis iam et audistis
         [Delta]</p>
-      <p xml:id="ANOLIT0965">t [punctus sub lin.] t [punctus sub lin.] Desiderio desideraui [Delta]</p>
-      <p xml:id="ANOLIT0966">t [punctus sub lin.] t [punctus sub lin.] Ecce ueniet propheta [Delta]</p>
+      <p xml:id="ANOLIT0965">t [punctus sub lin.] t [punctus sub lin.] Desiderio desideraui
+        [Delta]</p>
+      <p xml:id="ANOLIT0966">t [punctus sub lin.] t [punctus sub lin.] Ecce ueniet propheta
+        [Delta]</p>
       <p xml:id="ANOLIT0967">
         <pb n="[120]"/>t [punctus sub lin.] t [punctus sub lin.] Exspectabo dominum [Delta]</p>
       <p xml:id="ANOLIT0968">t [punctus sub lin.] t [punctus sub lin.] Ecce rex ueniet dominus
@@ -1761,93 +1813,116 @@
       <p xml:id="ANOLIT0977">t [punctus sub lin.] t [punctus sub lin.] Eleuatis manibus [Delta]</p>
       <p xml:id="ANOLIT0978">t [punctus sub lin.] t [punctus sub lin.] Exaltata est sancta Dei
         [Delta]</p>
-      <p xml:id="ANOLIT0979">t [punctus sub lin.] t [punctus sub lin.] Erit michi dominus in [Delta]</p>
+      <p xml:id="ANOLIT0979">t [punctus sub lin.] t [punctus sub lin.] Erit michi dominus in
+        [Delta]</p>
       <p xml:id="ANOLIT0980">t [punctus sub lin.] t [punctus sub lin.] Faciamus hic tria [Delta]</p>
-      <p xml:id="ANOLIT0981">t [punctus sub lin.] t [punctus sub lin.] Gloriosus apparuisti [Delta]</p>
+      <p xml:id="ANOLIT0981">t [punctus sub lin.] t [punctus sub lin.] Gloriosus apparuisti
+        [Delta]</p>
       <p xml:id="ANOLIT0982">t [punctus sub lin.] t [punctus sub lin.] Intuemini quantus [Delta]</p>
-      <p xml:id="ANOLIT0983">t [punctus sub lin.] t [punctus sub lin.] Inuocabo nomen tuum [Delta]</p>
+      <p xml:id="ANOLIT0983">t [punctus sub lin.] t [punctus sub lin.] Inuocabo nomen tuum
+        [Delta]</p>
       <p xml:id="ANOLIT0984">t [punctus sub lin.] t [punctus sub lin.] Iudicasti domine [Delta]</p>
-      <p xml:id="ANOLIT0985">t [punctus sub lin.] t [punctus sub lin.] Infirmata est uirtus [Delta]</p>
+      <p xml:id="ANOLIT0985">t [punctus sub lin.] t [punctus sub lin.] Infirmata est uirtus
+        [Delta]</p>
       <p xml:id="ANOLIT0986">t [punctus sub lin.] t [punctus sub lin.] Iste puer magnus [Delta]</p>
-      <p xml:id="ANOLIT0987">t [punctus sub lin.] t [punctus sub lin.] In odorem unguentorum [Delta]</p>
+      <p xml:id="ANOLIT0987">t [punctus sub lin.] t [punctus sub lin.] In odorem unguentorum
+        [Delta]</p>
       <p xml:id="ANOLIT0988">t [punctus sub lin.] t [punctus sub lin.] Introibo in domum [Delta]</p>
       <p xml:id="ANOLIT0989">t [punctus sub lin.] t [punctus sub lin.] Multa bona opera [Delta]</p>
-      <p xml:id="ANOLIT0990">t [punctus sub lin.] t [punctus sub lin.] Nunc dimittis domine [Delta]</p>
+      <p xml:id="ANOLIT0990">t [punctus sub lin.] t [punctus sub lin.] Nunc dimittis domine
+        [Delta]</p>
       <p xml:id="ANOLIT0991">t [punctus sub lin.] t [punctus sub lin.] Non haberes in me [Delta]</p>
       <p xml:id="ANOLIT0992">t [punctus sub lin.] t [punctus sub lin.] Numquid redditur probo
         [Delta]</p>
-      <p xml:id="ANOLIT0993">t [punctus sub lin.] t [punctus sub lin.] O mulier magna est [Delta]</p>
+      <p xml:id="ANOLIT0993">t [punctus sub lin.] t [punctus sub lin.] O mulier magna est
+        [Delta]</p>
       <p xml:id="ANOLIT0994">t [punctus sub lin.] t [punctus sub lin.] Oues mee uocem [Delta]</p>
       <p xml:id="ANOLIT0995">t [punctus sub lin.] t [punctus sub lin.] Propter Syon non tacebo
         [Delta]</p>
       <p xml:id="ANOLIT0996">t [punctus sub lin.] t [punctus sub lin.] (fol. 76) Potestatem habeo
         [Delta]</p>
-      <p xml:id="ANOLIT0997">t [punctus sub lin.] t [punctus sub lin.] Plangent eum quasi [Delta]</p>
+      <p xml:id="ANOLIT0997">t [punctus sub lin.] t [punctus sub lin.] Plangent eum quasi
+        [Delta]</p>
       <p xml:id="ANOLIT0998">t [punctus sub lin.] t [punctus sub lin.] Petre amas me [Delta]</p>
       <p xml:id="ANOLIT0999">t [punctus sub lin.] t [punctus sub lin.] Paradisi porte [Delta]</p>
-      <p xml:id="ANOLIT1000">t [punctus sub lin.] t [punctus sub lin.] Petiit quella caput [Delta]</p>
-      <p xml:id="ANOLIT1001">t [punctus sub lin.] t [punctus sub lin.] Posuisti domine super [Delta]</p>
+      <p xml:id="ANOLIT1000">t [punctus sub lin.] t [punctus sub lin.] Petiit quella caput
+        [Delta]</p>
+      <p xml:id="ANOLIT1001">t [punctus sub lin.] t [punctus sub lin.] Posuisti domine super
+        [Delta]</p>
       <p xml:id="ANOLIT1002">t [punctus sub lin.] t [punctus sub lin.] Qui post me uenit [Delta]</p>
-      <p xml:id="ANOLIT1003">t [punctus sub lin.] t [punctus sub lin.] Super te Jherusalem [Delta]</p>
-      <p xml:id="ANOLIT1004">t [punctus sub lin.] t [punctus sub lin.] Sicut mirra electa [Delta]</p>
-      <p xml:id="ANOLIT1005">t [punctus sub lin.] t [punctus sub lin.] Speciosa facta est [Delta]</p>
+      <p xml:id="ANOLIT1003">t [punctus sub lin.] t [punctus sub lin.] Super te Jherusalem
+        [Delta]</p>
+      <p xml:id="ANOLIT1004">t [punctus sub lin.] t [punctus sub lin.] Sicut mirra electa
+        [Delta]</p>
+      <p xml:id="ANOLIT1005">t [punctus sub lin.] t [punctus sub lin.] Speciosa facta est
+        [Delta]</p>
       <p xml:id="ANOLIT1006">t [punctus sub lin.] t [punctus sub lin.] Sicut fuit Jonas [Delta]</p>
       <p xml:id="ANOLIT1007">t [punctus sub lin.] t [punctus sub lin.] Satiauit dominus [Delta]</p>
-      <p xml:id="ANOLIT1008">t [punctus sub lin.] t [punctus sub lin.] Si quis sitit ueniat [Delta]</p>
+      <p xml:id="ANOLIT1008">t [punctus sub lin.] t [punctus sub lin.] Si quis sitit ueniat
+        [Delta]</p>
       <p xml:id="ANOLIT1009">t [punctus sub lin.] t [punctus sub lin.] Stetit angelus [Delta]</p>
-      <p xml:id="ANOLIT1010">t [punctus sub lin.] t [punctus sub lin.] Tuam domine excita [Delta]</p>
+      <p xml:id="ANOLIT1010">t [punctus sub lin.] t [punctus sub lin.] Tuam domine excita
+        [Delta]</p>
       <p xml:id="ANOLIT1011">t [punctus sub lin.] t [punctus sub lin.] Tunc inuocabis et [Delta]</p>
       <p xml:id="ANOLIT1012">t [punctus sub lin.] t [punctus sub lin.] Tempus meum [Delta]</p>
       <p xml:id="ANOLIT1013">t [punctus sub lin.] t [punctus sub lin.] Tibi enim reuelaui causam
         [Delta]</p>
-      <p xml:id="ANOLIT1014">t [punctus sub lin.] t [punctus sub lin.] Ueni domine et noli [Delta]</p>
+      <p xml:id="ANOLIT1014">t [punctus sub lin.] t [punctus sub lin.] Ueni domine et noli
+        [Delta]</p>
       <p xml:id="ANOLIT1015">t [punctus sub lin.] t [punctus sub lin.] Vade mulier semel [Delta]</p>
       <p xml:id="ANOLIT1016">t [punctus sub lin.] t [punctus sub lin.] Vbi duo uel tres [Delta]</p>
-      <p xml:id="ANOLIT1017">t [punctus sub lin.] t [punctus sub lin.] Ubi fratres in unum [Delta]</p>
+      <p xml:id="ANOLIT1017">t [punctus sub lin.] t [punctus sub lin.] Ubi fratres in unum
+        [Delta]</p>
       <p xml:id="ANOLIT1018">Tertia differentia quarti his neumis suum Seculorum Amen uult
         insigniri:</p>
       <p xml:id="ANOLIT1019">[Libellus Tonarius, 120; text: Seculorum Amen]</p>
-      <p xml:id="ANOLIT1020">Hoc igitur Seculorum Amen regulariter esset preponendum illi quod secunde
-        precedenti differentie ascribimus, idcirco quia .men. sillabam quam illud terminat a finali
-        et semiditoni spatio et in acumine, hoc tono et in grauitate. Sed cum antiphonis huius
-        differentie tertium optinentibus locum, hoc Seculorum Amen ex huius artis ratione gratia
-        concilietur aptitudine. Illarum causa locum alterauit, quia cum sui esset ut obtineret
-        secundum, antiphonarum quibus adheret gratia, locum expectauit tertium: ideo locum
+      <p xml:id="ANOLIT1020">Hoc igitur Seculorum Amen regulariter esset preponendum illi quod
+        secunde precedenti differentie ascribimus, idcirco quia .men. sillabam quam illud terminat a
+        finali et semiditoni spatio et in acumine, hoc tono et in grauitate. Sed cum antiphonis
+        huius differentie tertium optinentibus locum, hoc Seculorum Amen ex huius artis ratione
+        gratia concilietur aptitudine. Illarum causa locum alterauit, quia cum sui esset ut
+        obtineret secundum, antiphonarum quibus adheret gratia, locum expectauit tertium: ideo locum
         optinuerunt, quia prior antiphonis differentiarium inferius tertio scilicet loco a finali
         incipiunt, gaudentes illo Seculorum Amen, quod premissis primo ac secundo artificiosius, ob
-        has sibi ut familiarius consocialidas infra finalem remittit ultimam sinuando sillabam. <pb n="[121]"/>Sunt autem quantum ad hoc quod uno inceptionis loco gaudent uniformes, quantum
+        has sibi ut familiarius consocialidas infra finalem remittit ultimam sinuando sillabam. <pb
+          n="[121]"/>Sunt autem quantum ad hoc quod uno inceptionis loco gaudent uniformes, quantum
         ad modulandi diuersitatem triformes. Nunc enim a principio, nunc remisso quem primum
         intendunt tono, diatesseron per tonum semiditonum conscendunt, ut antiphone Angelus domini
         astitit, Omnes enim uos fratres estis. Nunc sub una illud uoce conficiunt, ut antiphona Quod
         autem cecidit in terram bonam. Sunt autem quas hec diffetentie propries habet:</p>
       <p xml:id="ANOLIT1021">t [punctus sub lin.] t [punctus sub lin.] Accesserunt ad Jesum d</p>
-      <p xml:id="ANOLIT1022">t [punctus sub lin.] t [punctus sub lin.] Angelus domini astitit [Delta]
-        s</p>
+      <p xml:id="ANOLIT1022">t [punctus sub lin.] t [punctus sub lin.] Angelus domini astitit
+        [Delta] s</p>
       <p xml:id="ANOLIT1023">t [punctus sub lin.] t [punctus sub lin.]. Bethleem non es minima
         [Delta]</p>
       <p xml:id="ANOLIT1024">t [punctus sub lin.] t [punctus sub lin.] Cum uideris nudum [Delta]</p>
       <p xml:id="ANOLIT1025">t [punctus sub lin.] t [punctus sub lin.] Cunctis diebus s</p>
       <p xml:id="ANOLIT1026">t [punctus sub lin.] t [punctus sub lin.] Celesti cinctus</p>
-      <p xml:id="ANOLIT1027">t [punctus sub lin.] t [punctus sub lin.] Domine suscipe me [Delta] s</p>
+      <p xml:id="ANOLIT1027">t [punctus sub lin.] t [punctus sub lin.] Domine suscipe me [Delta]
+        s</p>
       <p xml:id="ANOLIT1028">t [punctus sub lin.] t [punctus sub lin.] Dixit autem dominus ad c.
         [Delta]</p>
       <p xml:id="ANOLIT1029">t [punctus sub lin.] t [punctus sub lin.] Frange esurienti [Delta]</p>
       <p xml:id="ANOLIT1030">t [punctus sub lin.] t [punctus sub lin.] Hodie nata est beata [Delta]
         s</p>
       <p xml:id="ANOLIT1031">t [punctus sub lin.] t [punctus sub lin.] Iste cognouit [Delta] s</p>
-      <p xml:id="ANOLIT1032">t [punctus sub lin.] t [punctus sub lin.] Iste est qui ante d. [Delta]</p>
+      <p xml:id="ANOLIT1032">t [punctus sub lin.] t [punctus sub lin.] Iste est qui ante d.
+        [Delta]</p>
       <p xml:id="ANOLIT1033">t [punctus sub lin.] t [punctus sub lin.] Leuita Laurentius d</p>
       <p xml:id="ANOLIT1034">t [punctus sub lin.] t [punctus sub lin.] Ne reminiscaris d</p>
       <p xml:id="ANOLIT1035">t [punctus sub lin.] t [punctus sub lin.] O Gregori dulcissimum</p>
       <p xml:id="ANOLIT1036">t [punctus sub lin.] t [punctus sub lin.] Omnes enim uos fratres
         [Delta]</p>
-      <p xml:id="ANOLIT1037">t [punctus sub lin.] t [punctus sub lin.] Quod autem cecidit [Delta]</p>
+      <p xml:id="ANOLIT1037">t [punctus sub lin.] t [punctus sub lin.] Quod autem cecidit
+        [Delta]</p>
       <p xml:id="ANOLIT1038">t [punctus sub lin.] t [punctus sub lin.] Sancte Nicolae confessor
         [Delta]</p>
       <p xml:id="ANOLIT1039">t [punctus sub lin.] t [punctus sub lin.] Simile est regnum [Delta]</p>
-      <p xml:id="ANOLIT1040">t [punctus sub lin.] t [punctus sub lin.] Tu domine uniuersorum [Delta]</p>
+      <p xml:id="ANOLIT1040">t [punctus sub lin.] t [punctus sub lin.] Tu domine uniuersorum
+        [Delta]</p>
       <p xml:id="ANOLIT1041">t [punctus sub lin.] t [punctus sub lin.] Tulit ergo lectum suum d</p>
-      <p xml:id="ANOLIT1042">t [punctus sub lin.] t [punctus sub lin.] Ymnum cantate nobis [Delta]</p>
+      <p xml:id="ANOLIT1042">t [punctus sub lin.] t [punctus sub lin.] Ymnum cantate nobis
+        [Delta]</p>
       <p xml:id="ANOLIT1043">Quarta quarti differentia hac Seculorum Amen notatur melodia</p>
       <p xml:id="ANOLIT1044">[Libellus Tonarius, 121; text: Seculorum Amen]</p>
       <p xml:id="ANOLIT1045">Assignatum est autem huic quarte quarti differentie, quia ultimam .men.
@@ -1861,23 +1936,27 @@
         quidem ordiendi meta gaudentes, utputa prout exposcit depositio .men. sillabe nunc in
         lichanosmeson G nunc in mese a exordium habiture. Sed que in finali uel in lichanosmeson G
         incipiunt, ut neumis respondeant corde, in mesen a et illam que a mese semiditono distat id
-        est in tritediezeugmenon c uidentur transferende. Respondent autem huic <pb n="[122]"/>Seculorum Amen omnes pene affini sono, cum neumam pedem dictam quam ultima eius .men.
+        est in tritediezeugmenon c uidentur transferende. Respondent autem huic <pb n="[122]"
+        />Seculorum Amen omnes pene affini sono, cum neumam pedem dictam quam ultima eius .men.
         sillaba resonat tono intenso in mesen a, iste siue in finali siue in lichanosmeson G
         incipientes, cordis intenduntur eisdem. Sunt igitur ad hanc pertinentes differentiam omnes
         preter illam Nisi diligenter, indigentes translatione:</p>
-      <p xml:id="ANOLIT1046">t [punctus sub lin.] t [punctus sub lin.] Ad te domine leuaui [Delta]</p>
+      <p xml:id="ANOLIT1046">t [punctus sub lin.] t [punctus sub lin.] Ad te domine leuaui
+        [Delta]</p>
       <p xml:id="ANOLIT1047">t [punctus sub lin.] t [punctus sub lin.] Ex Egipto uocaui [Delta]</p>
-      <p xml:id="ANOLIT1048">t [punctus sub lin.] t [punctus sub lin.] Factus sum sicut homo [Delta]</p>
+      <p xml:id="ANOLIT1048">t [punctus sub lin.] t [punctus sub lin.] Factus sum sicut homo
+        [Delta]</p>
       <p xml:id="ANOLIT1049">t [punctus sub lin.] t [punctus sub lin.] Nisi diligenter [Delta]</p>
       <p xml:id="ANOLIT1050">t [punctus sub lin.] t [punctus sub lin.] O mors [tua] ero mors tua
         [Delta]</p>
       <p xml:id="ANOLIT1051">t [punctus sub lin.] t [punctus sub lin.] Syon noli timere [Delta]</p>
       <p xml:id="ANOLIT1052">t [punctus sub lin.] t [punctus sub lin.] (fol. 77) Syon renouaberis
         [Delta]</p>
-      <p xml:id="ANOLIT1053">t [punctus sub lin.] t [punctus sub lin.] Sub tuam protectionem [Delta]</p>
+      <p xml:id="ANOLIT1053">t [punctus sub lin.] t [punctus sub lin.] Sub tuam protectionem
+        [Delta]</p>
       <p xml:id="ANOLIT1054">t [punctus sub lin.] t [punctus sub lin.] Vade iam et noli [Delta]</p>
-      <p xml:id="ANOLIT1055">t [punctus sub lin.] t [punctus sub lin.] Videntibus qui aderant [Delta] s
-        t</p>
+      <p xml:id="ANOLIT1055">t [punctus sub lin.] t [punctus sub lin.] Videntibus qui aderant
+        [Delta] s t</p>
       <p xml:id="ANOLIT1056">Hec antiphonis quarte huius differentie non principalibus item in
         lichanosmeson G incipientibus ascribenda uidetur, quia illis tonum ab incipiendo remissis,
         hec in has antiphonas sibi condifferentiales ut testata tonum intenditur. --</p>
@@ -1890,19 +1969,19 @@
         Ascribuntur huic Seculorum Amen due tantum antiphone</p>
       <p xml:id="ANOLIT1058">t [punctus sub lin.] t [punctus sub lin.] Fidelia omnia mandata d</p>
       <p xml:id="ANOLIT1059">In mandatis eius d</p>
-      <p xml:id="ANOLIT1060">non quod in specialem eas differentiam aliqua informet ratio, sed tonali
-        huic Seculorum melodie affines utputa eandem ascendendi quam illa incipiendi metam, siue
-        hanc inceptiuam quam illa finalem cordam habentes; eius tamen gratia ex principalibus fiant
-        differentiales. Paucitati harum uelut remediatura subiungit has scilicet: A uiro iniquo
-        [Delta], et In domum domini [Delta] deuians consuetudo, sed contradicente rationis decreto.
-        Nam cum utraque huic assignata tono, diapente ultra finalem intendatur et infra finalem vero
-        minime remittatur, euidenti euidentius patet, quia artis huius preceptum quod omnes hunc
-        insistentes cursum cuilibet subiugali, et has huic neget.</p>
+      <p xml:id="ANOLIT1060">non quod in specialem eas differentiam aliqua informet ratio, sed
+        tonali huic Seculorum melodie affines utputa eandem ascendendi quam illa incipiendi metam,
+        siue hanc inceptiuam quam illa finalem cordam habentes; eius tamen gratia ex principalibus
+        fiant differentiales. Paucitati harum uelut remediatura subiungit has scilicet: A uiro
+        iniquo [Delta], et In domum domini [Delta] deuians consuetudo, sed contradicente rationis
+        decreto. Nam cum utraque huic assignata tono, diapente ultra finalem intendatur et infra
+        finalem vero minime remittatur, euidenti euidentius patet, quia artis huius preceptum quod
+        omnes hunc insistentes cursum cuilibet subiugali, et has huic neget.</p>
       <p xml:id="ANOLIT1061">V</p>
       <p xml:id="ANOLIT1062">Quintus tonus paripatemeson F habet finalem, hac insignens melodia suum
         Seculorum Amen [Libellus Tonarius, 122,2; text: Seculorum Amen]</p>
-      <p xml:id="ANOLIT1063">Antiphone quidem quinti minus celebrantes semitonium quod sub sui habent
-          <pb n="[123]"/>inceptione, raro infra finalem deponuntur utpote carentes tono, qui
+      <p xml:id="ANOLIT1063">Antiphone quidem quinti minus celebrantes semitonium quod sub sui
+        habent <pb n="[123]"/>inceptione, raro infra finalem deponuntur utpote carentes tono, qui
         celebrior est autenticis in remittendo. Semiditonum autem grauatus quintus iste, crebrius
         remittit, quasi nolens coautenticis aduersari. Non est enim alterius autentici nisi certe
         post intensum a finali diapente diatesseron integrantis, plus tono infra finalem deponi.
@@ -1916,8 +1995,8 @@
         transformare quam quinto huic eas plenarie finituro intensionem diatesseron concedere, ut
         uides in antiphona Si manseritis in me, et in quibusdam prime eiusdem septimi differentie
         utpote: Si cognouissetis me, Sanctus Ianuarius bene.</p>
-      <p xml:id="ANOLIT1064">Principali autem quinti huius melodie, he addicuntur antiphone incipientes
-        a finali, sed infra depositam .men. sillabam spatio toni:</p>
+      <p xml:id="ANOLIT1064">Principali autem quinti huius melodie, he addicuntur antiphone
+        incipientes a finali, sed infra depositam .men. sillabam spatio toni:</p>
       <p xml:id="ANOLIT1065">Adhuc multa habeo [Delta] t t</p>
       <p xml:id="ANOLIT1066">Bene omnia fecit [Delta] d</p>
       <p xml:id="ANOLIT1067">Confitebor domino [Delta]</p>
@@ -1936,9 +2015,9 @@
       <p xml:id="ANOLIT1079">t s Sicut nouit me pater [Delta] d</p>
       <p xml:id="ANOLIT1080">Spes nostra salus [Delta] d</p>
       <p xml:id="ANOLIT1081">Vox clamantis [Delta] t</p>
-      <p xml:id="ANOLIT1082">Quinto huic conuenire uidentur quantum ad positionem cordarum quam plurime
-        septimi, utpote: Benedictionem, Cum ieiunatis, Cum orasset Judas, Cum proficiscendi, Dixit
-        Romanus, Jn sanctitate seruiamus, In pace factus est, Jn Galilea Jhesum, Interrogatus,
+      <p xml:id="ANOLIT1082">Quinto huic conuenire uidentur quantum ad positionem cordarum quam
+        plurime septimi, utpote: Benedictionem, Cum ieiunatis, Cum orasset Judas, Cum proficiscendi,
+        Dixit Romanus, Jn sanctitate seruiamus, In pace factus est, Jn Galilea Jhesum, Interrogatus,
         Lapides torrentes, Seruite domino, Sedere autem mecum, Sancte trinitatis, Venit Maria,
         Christo occidere, Considerabam</p>
       <p xml:id="ANOLIT1083">ad dexteram, Responsum accepit, et pene omnes quas septimo ascriptas,
@@ -1979,11 +2058,11 @@
       <p xml:id="ANOLIT1100">Studiis liberalibus [Delta][Delta]</p>
       <p xml:id="ANOLIT1101">Soluite templum [Delta] t t</p>
       <p xml:id="ANOLIT1102">Vestri capilli capitis [Delta] d</p>
-      <p xml:id="ANOLIT1103">His ascribitur et hec incipiens ubi prescripte, ditono scilicet a finali id
-        est in mese a: Scio quod Jhesum queritis [Delta] d Antiphonis enim tertie differentie
-        septimi in trite diezeugmenon c incipientibus et semitonium in primo alterandi uocem gradu
-        remittentibus recusat sociari, et quia semiditonum in prima fronte intendit, et quia eis
-        sociata semitoniorum detrimenta patitur. --</p>
+      <p xml:id="ANOLIT1103">His ascribitur et hec incipiens ubi prescripte, ditono scilicet a
+        finali id est in mese a: Scio quod Jhesum queritis [Delta] d Antiphonis enim tertie
+        differentie septimi in trite diezeugmenon c incipientibus et semitonium in primo alterandi
+        uocem gradu remittentibus recusat sociari, et quia semiditonum in prima fronte intendit, et
+        quia eis sociata semitoniorum detrimenta patitur. --</p>
       <p xml:id="ANOLIT1104">
         <pb n="[125]"/>He autem que incipiunt ubi et earum Seculorum Amen a finali scilicet in
         acumine diapente interuallo, a deposita autem .men. sillaba semiditono: Alleluia resurrexit
@@ -1993,8 +2072,8 @@
       <p xml:id="ANOLIT1107">Eleuamini porte [Delta] t</p>
       <p xml:id="ANOLIT1108">Jn sole posuit [Delta] t t</p>
       <p xml:id="ANOLIT1109">[s] Letamini cum Jherusalem [Delta] t t</p>
-      <p xml:id="ANOLIT1110">Hanc autem aliqui contra morem aliarum remittunt infra finalem semitonii
-        spatio ita canendo: "qui diligitis eam in eternum."</p>
+      <p xml:id="ANOLIT1110">Hanc autem aliqui contra morem aliarum remittunt infra finalem
+        semitonii spatio ita canendo: "qui diligitis eam in eternum."</p>
       <p xml:id="ANOLIT1111">O uos omnes qui transitis [Delta] d</p>
       <p xml:id="ANOLIT1112">Hanc quidam differentie quinti, quidam attitulant principali melodie
         septimi. Qui quinto hanc tribuunt, eam in tritediezeugmenon c incipiunt et ab illius
@@ -2031,16 +2110,16 @@
       <p xml:id="ANOLIT1129">d Domine Deus uirtutum [Delta]</p>
       <p xml:id="ANOLIT1130">d Dum inuentum esset [Delta]</p>
       <p xml:id="ANOLIT1131">d Exiit sermo inter fratres [Delta]</p>
-      <p xml:id="ANOLIT1132">t [punctus sub lin.] s Eructauit cor meum t [punctus sub lin.] t [punctus
-        sub lin.]</p>
+      <p xml:id="ANOLIT1132">t [punctus sub lin.] s Eructauit cor meum t [punctus sub lin.] t
+        [punctus sub lin.]</p>
       <p xml:id="ANOLIT1133">t s Esto michi in Deum t [punctus sub lin.] t [punctus sub lin.]</p>
       <p xml:id="ANOLIT1134">t s Exaltabuntur cornua t t</p>
       <p xml:id="ANOLIT1135">t s Edificauit Moyses t t</p>
       <p xml:id="ANOLIT1136">t s Fundamenta eius t t</p>
       <p xml:id="ANOLIT1137">d Gaudeamus omnes [Delta]</p>
       <p xml:id="ANOLIT1138">d Gloriosi principes [Delta] t</p>
-      <p xml:id="ANOLIT1139">Hanc cum quidam octauo subiungantes destituant semitonio, in fine illius
-        dictionis que est in "morte", cogentur sexto eam rescribere. --</p>
+      <p xml:id="ANOLIT1139">Hanc cum quidam octauo subiungantes destituant semitonio, in fine
+        illius dictionis que est in "morte", cogentur sexto eam rescribere. --</p>
       <p xml:id="ANOLIT1140">d Gaudent in celis [Delta]</p>
       <p xml:id="ANOLIT1141">d Hodie secreta celi d</p>
       <p xml:id="ANOLIT1142">Hic ab adolescentia</p>
@@ -2061,14 +2140,15 @@
       <p xml:id="ANOLIT1151">d Occurrit beato Johanni d</p>
       <p xml:id="ANOLIT1152">His sexti toni antiphonis interponunt quidam antiphonam:</p>
       <p xml:id="ANOLIT1153">d O Christi pietas [Delta] d</p>
-      <p xml:id="ANOLIT1154">Sed hec cum infra finalem deponatur diatesseron, tamen quia post intensum a
-        finali diapente, diatesseron adhuc intenditur; quasi palpat in meridie, qui hanc subiugali
-        non autentico subducitur ascribere. --</p>
+      <p xml:id="ANOLIT1154">Sed hec cum infra finalem deponatur diatesseron, tamen quia post
+        intensum a finali diapente, diatesseron adhuc intenditur; quasi palpat in meridie, qui hanc
+        subiugali non autentico subducitur ascribere. --</p>
       <p xml:id="ANOLIT1155">d Puer Jhesus proficiebat [Delta]</p>
       <p xml:id="ANOLIT1156">d Pater manifestaui nomen... a e v ia [Delta]</p>
       <p xml:id="ANOLIT1157">Hec ut in hoc tertio finali finiatur, ultime eius dictionis sillabam
         antepenultimam semiditono in finalem a lichanosypaton D intensa, penultima et ultima
-        decantentur equisone. Post hec regulariter ascribi et secundo subiugali, quarto <pb n="[127]"/>uidelicet tono: ultimam eius sillabam [quam sextus sibi attitulatam] equisone
+        decantentur equisone. Post hec regulariter ascribi et secundo subiugali, quarto <pb
+          n="[127]"/>uidelicet tono: ultimam eius sillabam [quam sextus sibi attitulatam] equisone
         precedentibus duabus finit per semitonium in ypatemeson E remissam. Sed cognatissima sexto
         uidetur, quippe cum eandem neumam quam ille in sue diffinitionis principio, ista non minus
         duplum incipiendo. --</p>
@@ -2095,9 +2175,9 @@
         translatione:</p>
       <p xml:id="ANOLIT1175">d Inter prandendum d</p>
       <p xml:id="ANOLIT1176">d Sancta et inmaculata d</p>
-      <p xml:id="ANOLIT1177">Eadem translationis corda ut eisdem funguntur neumis duo secuturi ordines,
-        prescriptis duobus alter alteri in neumarum identitate affines, duabus utrique antiphonis
-        gaudens:</p>
+      <p xml:id="ANOLIT1177">Eadem translationis corda ut eisdem funguntur neumis duo secuturi
+        ordines, prescriptis duobus alter alteri in neumarum identitate affines, duabus utrique
+        antiphonis gaudens:</p>
       <p xml:id="ANOLIT1178">d O admirabile commercium [Delta]</p>
       <p xml:id="ANOLIT1179">d Que mulier habens d</p>
       <p xml:id="ANOLIT1180">d O quam gloriosum est d</p>
@@ -2107,7 +2187,8 @@
         deponant, in sola paramese h iudicium habiture uidentur.</p>
       <p xml:id="ANOLIT1183">[d O quam gloriosum est d]</p>
       <p xml:id="ANOLIT1184">[d O quam metuendus est d]</p>
-      <p xml:id="ANOLIT1185">Tonali melodie huic apponentur et he propter semitoniorum detrimenta, <pb n="[128]"/>item a finali in socialem finalis id est in tritediezeugmenon c
+      <p xml:id="ANOLIT1185">Tonali melodie huic apponentur et he propter semitoniorum detrimenta,
+          <pb n="[128]"/>item a finali in socialem finalis id est in tritediezeugmenon c
         transferende:</p>
       <p xml:id="ANOLIT1186">d Alias oues habeo d</p>
       <p xml:id="ANOLIT1187">d Dum inuentum esset s. [Delta]</p>
@@ -2122,8 +2203,8 @@
       <p xml:id="ANOLIT1196">[Delta] Serue nequam [Delta]</p>
       <p xml:id="ANOLIT1197">d Virgo hodie fidelis [Delta]</p>
       <p xml:id="ANOLIT1198">t s Veniat dilectus [Delta]</p>
-      <p xml:id="ANOLIT1199">Reguntur eodem Seculorum Amen incipientes spatio semiditoni infra finalem,
-        habent eandem melodiam tonalem incipiens tono infra finalem:</p>
+      <p xml:id="ANOLIT1199">Reguntur eodem Seculorum Amen incipientes spatio semiditoni infra
+        finalem, habent eandem melodiam tonalem incipiens tono infra finalem:</p>
       <p xml:id="ANOLIT1200">d Nesciens mater uirgo [Delta]</p>
       <p xml:id="ANOLIT1201">Quinque prudentes [Delta]</p>
       <p xml:id="ANOLIT1202">Si ego uerus Christi ...</p>
@@ -2135,8 +2216,9 @@
         nisi quod .men. sillabam quam illud sub simplici puncto in finali deponit, istud a finali
         per neumam que ques quassus dicitur tono scilicet, in lichanosmeson G intendit ita</p>
       <p xml:id="ANOLIT1204">[Libellus Tonarius, 128,1; text: Seculorum Amen]</p>
-      <p xml:id="ANOLIT1205">Sunt autem quas differentie huic subiungit non ratio, sed omnino sibi quod
-        optat exlex consuetudo, melius aptandas melodie quam habet Seculorum Amen principale:</p>
+      <p xml:id="ANOLIT1205">Sunt autem quas differentie huic subiungit non ratio, sed omnino sibi
+        quod optat exlex consuetudo, melius aptandas melodie quam habet Seculorum Amen
+        principale:</p>
       <p xml:id="ANOLIT1206">t s Benedictus dominus Deus t t</p>
       <p xml:id="ANOLIT1207">t s Benedixit filiis t t</p>
       <p xml:id="ANOLIT1208">d Sancta Maria d</p>
@@ -2144,22 +2226,22 @@
       <p xml:id="ANOLIT1210">Septimus tonus finalem habens lichanosmeso G, his distinguit neumis
         suum</p>
       <p xml:id="ANOLIT1211">[Libellus Tonarius 128,2; text: Seculorum Amen]</p>
-      <p xml:id="ANOLIT1212">Se-cu-lo-rum A-men. Quod cum a finali quinto incipiat loco, .men. sillabam
-        deponit in quarto, ascriptum ex simplicitate neumarum, simplicis item neume, principalibus
-        toni huius antiphonis, cum uarietur in uariantibus se eius differentiis. Hac enim que
-        reguntur tonali melodia, cum incipiant a finali in prima uoce quam in secunda, uel tertia,
-        et aliquando <pb n="[129]"/>in quarta sillaba intendunt ut uocatim se suo Seculorum Amen
-        accurrentes; locum ubi illud .men. sillabam deposuit assiliunt; he omnes pene remisso
+      <p xml:id="ANOLIT1212">Se-cu-lo-rum A-men. Quod cum a finali quinto incipiat loco, .men.
+        sillabam deponit in quarto, ascriptum ex simplicitate neumarum, simplicis item neume,
+        principalibus toni huius antiphonis, cum uarietur in uariantibus se eius differentiis. Hac
+        enim que reguntur tonali melodia, cum incipiant a finali in prima uoce quam in secunda, uel
+        tertia, et aliquando <pb n="[129]"/>in quarta sillaba intendunt ut uocatim se suo Seculorum
+        Amen accurrentes; locum ubi illud .men. sillabam deposuit assiliunt; he omnes pene remisso
         semitonio, semiditonum conscendunt seruata in conscendendo diatesseron, et in remissione
         semitonii et adhuc plerumque in intensione semiditoni, neumarum simplicitate id est sola
         punctorun et uirgarum notatione. Huic autem tonali melodie he subscribuntur</p>
       <p xml:id="ANOLIT1213">antiphone:</p>
-      <p xml:id="ANOLIT1214">[Libellus Tonarius, 129,1; text: t [punctus sub lin.] Afferte Domino filii,
-        [Delta], t, G, c, h, d, e]</p>
+      <p xml:id="ANOLIT1214">[Libellus Tonarius, 129,1; text: t [punctus sub lin.] Afferte Domino
+        filii, [Delta], t, G, c, h, d, e]</p>
       <p xml:id="ANOLIT1215">Ad te de luce uigilo Deus [Delta]</p>
       <p xml:id="ANOLIT1216">Ad te de luce ui. Deus, ut [Delta] t</p>
-      <p xml:id="ANOLIT1217">[Libellus Tonarius, 129.2; text: t [punctus sub lin.] Assumpta est Maria
-        [Delta] t, Baptizatur Christus, G, c, h, d, e, [Delta] t]</p>
+      <p xml:id="ANOLIT1217">[Libellus Tonarius, 129.2; text: t [punctus sub lin.] Assumpta est
+        Maria [Delta] t, Baptizatur Christus, G, c, h, d, e, [Delta] t]</p>
       <p xml:id="ANOLIT1218">Benedictionem omnium [Delta] t</p>
       <p xml:id="ANOLIT1219">Cantate domino canticum [Delta] t</p>
       <p xml:id="ANOLIT1220">Cum apropinquaret Jhesus [Delta] t</p>
@@ -2229,18 +2311,18 @@
       <p xml:id="ANOLIT1283">t [punctus sub lin.] Viri Galilei quid aspicientes [Delta]</p>
       <p xml:id="ANOLIT1284">t [punctus sub lin.] Valerianus in cubiculo [Delta] t</p>
       <p xml:id="ANOLIT1285">Christo cottidie sedulum [Delta] t</p>
-      <p xml:id="ANOLIT1286">Inter has huic principali Seculorum Amen ex neumarum simplicitate ascriptas
-        annumerantur que compositis non longe ab incipiendo utuntur neumis scilicet uel uirga pede
-        fulta ut [Libellus Tonarius, 130,1; text: Cito euntes, In celestibus regnis, d, e] , uel
-        neuma quam flexam dicunt ut [Libellus Tonarius, 130,2; text: Cecus sedebat, d, c, a] , Dixit
-        Romanus, Dum preliaretur, Jnterrogatus te domine, Sebastianus uir christianissimus, Oc[c]uli
-        tui, Tunc acceptabis, Valerianus; et si que sunt ei conformes quia post intensum semitonium,
-        semiditono in paranetediezeugmenon d intense, et ille tonum per uirgam pedi[s] superpositam
-        demum intendunt. Et iste reflectunt emensis in quam simpliciter usitatis tono huic uocibus,
-        compositas demum neumas recipiunt.</p>
-      <p xml:id="ANOLIT1287">Item antiphonarum huic principali Seculorum Amen ascriptarum: Quomodo fiet
-        istud, Si manseritis in me, Samaritanus quidam, cum incepte a finali incurrant infra finalis
-        equiuocam g scilicet acutam dispendium semitonii, in tritediezeugmenon c postulant
+      <p xml:id="ANOLIT1286">Inter has huic principali Seculorum Amen ex neumarum simplicitate
+        ascriptas annumerantur que compositis non longe ab incipiendo utuntur neumis scilicet uel
+        uirga pede fulta ut [Libellus Tonarius, 130,1; text: Cito euntes, In celestibus regnis, d,
+        e] , uel neuma quam flexam dicunt ut [Libellus Tonarius, 130,2; text: Cecus sedebat, d, c,
+        a] , Dixit Romanus, Dum preliaretur, Jnterrogatus te domine, Sebastianus uir
+        christianissimus, Oc[c]uli tui, Tunc acceptabis, Valerianus; et si que sunt ei conformes
+        quia post intensum semitonium, semiditono in paranetediezeugmenon d intense, et ille tonum
+        per uirgam pedi[s] superpositam demum intendunt. Et iste reflectunt emensis in quam
+        simpliciter usitatis tono huic uocibus, compositas demum neumas recipiunt.</p>
+      <p xml:id="ANOLIT1287">Item antiphonarum huic principali Seculorum Amen ascriptarum: Quomodo
+        fiet istud, Si manseritis in me, Samaritanus quidam, cum incepte a finali incurrant infra
+        finalis equiuocam g scilicet acutam dispendium semitonii, in tritediezeugmenon c postulant
         transferri; et cum exigente melodia a paraneteyperboleon g occurrerit intendendum
         diatesseron, uel a neteyperboleon aa semiditonus, et ab intenso horum alterutro remittendum
         semitonium in c acutam sonum qui intendendus erat remittas; et sic in octo quas habes
@@ -2255,12 +2337,12 @@
       <p xml:id="ANOLIT1290">Sanctorum precibus cunctorum [Delta] t</p>
       <p xml:id="ANOLIT1291">Venite benedicti [Delta] t</p>
       <p xml:id="ANOLIT1292">Vidit Jacob scalam [Delta] t s</p>
-      <p xml:id="ANOLIT1293">He enim quamuis post intensum diatesseron exorbitent legem principalibus
-        toni huius antiphonis assignatam, tamen cum uoces in principio dilatas dehinc regulariter
-        insistant, se septimo addictas simplicibus gaudentes, principali Seculorum Amen simpliciter
-        adherent. -- Item he due, se euidenter non alii quam septimo assignandas asseuerant. At quia
-        intenso diatesseron, domesticum illud huic tono semitonium simplicibus neumis remittunt et
-        intendunt, se huic principali melodie connectunt:</p>
+      <p xml:id="ANOLIT1293">He enim quamuis post intensum diatesseron exorbitent legem
+        principalibus toni huius antiphonis assignatam, tamen cum uoces in principio dilatas dehinc
+        regulariter insistant, se septimo addictas simplicibus gaudentes, principali Seculorum Amen
+        simpliciter adherent. -- Item he due, se euidenter non alii quam septimo assignandas
+        asseuerant. At quia intenso diatesseron, domesticum illud huic tono semitonium simplicibus
+        neumis remittunt et intendunt, se huic principali melodie connectunt:</p>
       <p xml:id="ANOLIT1294">t [punctus sub lin.] Semen cecidit... sexagesimum [Delta]</p>
       <p xml:id="ANOLIT1295">Semen cecidit... in patientia [Delta]</p>
       <p xml:id="ANOLIT1296">Ab hoc Seculorum non excluduntur, que quamuis post intensum simpliciter
@@ -2273,9 +2355,9 @@
       <p xml:id="ANOLIT1300">Reuertere in terram Juda [Delta]</p>
       <p xml:id="ANOLIT1301">Reuerte reuertere [Delta]</p>
       <p xml:id="ANOLIT1302">t [punctus sub lin.] Sacerdos Dei, celi [Delta]</p>
-      <p xml:id="ANOLIT1303">Item he quamuis nec diatesseron a finali more prescriptarum intendantur,
-        tamen quia in corda quam septimus finalem habet incepte, decurso consone cordis melo,
-        regulariter in eo finiuntur, se huius esse toni probantur. Quia uero neumarum gaudent
+      <p xml:id="ANOLIT1303">Item he quamuis nec diatesseron a finali more prescriptarum
+        intendantur, tamen quia in corda quam septimus finalem habet incepte, decurso consone cordis
+        melo, regulariter in eo finiuntur, se huius esse toni probantur. Quia uero neumarum gaudent
         simplicitate, principali Seculorum Amen uidentur ascribende:</p>
       <p xml:id="ANOLIT1304">t [punctus sub lin.] Archangele Michael [Delta]</p>
       <p xml:id="ANOLIT1305">t [punctus sub lin.] Diuiserunt sibi [Delta]</p>
@@ -2292,8 +2374,8 @@
       <p xml:id="ANOLIT1316">Melodia eiusdem Seculorum regitur et hec, quamuis incipiens in mese a.
         --</p>
       <p xml:id="ANOLIT1317">Ipse preibit ante illum [Delta] t s</p>
-      <p xml:id="ANOLIT1318">Hec igitur ut semiditono infra depositam .men. sillabam incipiens, tono in
-        finalem descendit, ita non per diatesseron, sed per tonum et semiditonum ascendens,
+      <p xml:id="ANOLIT1318">Hec igitur ut semiditono infra depositam .men. sillabam incipiens, tono
+        in finalem descendit, ita non per diatesseron, sed per tonum et semiditonum ascendens,
         nominatum illud toni huius semitonium remittit, hinc semiditonum tonum conscendit et sic
         seruata proprietate meli huius in neumarum simplicitate, se principali huius toni adiungit
         melodie. -- Item hec incipiens in mese a, id est semiditono infra depositam .men. sillabam
@@ -2320,16 +2402,16 @@
       <p xml:id="ANOLIT1322">t [punctus sub lin.] Dominus dixit ad me [Delta]</p>
       <p xml:id="ANOLIT1323">Dixit angelus ad Petrum [Delta] t</p>
       <p xml:id="ANOLIT1324">Exiit qui seminat [Delta] t s</p>
-      <p xml:id="ANOLIT1325">Hec septimo huic ascripta, hac erit modulatione fienda "et fecit fructum
-        centuplum". --</p>
+      <p xml:id="ANOLIT1325">Hec septimo huic ascripta, hac erit modulatione fienda "et fecit
+        fructum centuplum". --</p>
       <p xml:id="ANOLIT1326">Lux de luce apparuisti [Delta] t</p>
       <p xml:id="ANOLIT1327">t [punctus sub lin.] Loquebantur uariis [Delta] t</p>
       <p xml:id="ANOLIT1328">t [punctus sub lin.] Magnus sanctus Paulus [Delta]</p>
       <p xml:id="ANOLIT1329">Mirificauit dominus [Delta]</p>
       <p xml:id="ANOLIT1330">O Ypolite si credis [Delta] t</p>
       <p xml:id="ANOLIT1331">t [punctus sub lin.] Priusquam te formarem [Delta] t</p>
-      <p xml:id="ANOLIT1332">Hanc igitur ascribendam autentico et nullatenus subiugali astipulatur lex
-        errationis articulo, utriusque prescripta discrete proprietati. --</p>
+      <p xml:id="ANOLIT1332">Hanc igitur ascribendam autentico et nullatenus subiugali astipulatur
+        lex errationis articulo, utriusque prescripta discrete proprietati. --</p>
       <p xml:id="ANOLIT1333">Redemptioni [Delta]</p>
       <p xml:id="ANOLIT1334">t [punctus sub lin.] Summa ingenuitas [Delta]</p>
       <p xml:id="ANOLIT1335">Terro tremuit et quieuit [Delta]</p>
@@ -2366,8 +2448,8 @@
       <p xml:id="ANOLIT1350">Cum his qui oderunt pacem [Delta] t</p>
       <p xml:id="ANOLIT1351">t [punctus sub lin.] Cum autem uenerit ille [Delta]</p>
       <p xml:id="ANOLIT1352">t [punctus sub lin.] Crux alma fulget [Delta] t s</p>
-      <p xml:id="ANOLIT1353">He quamuis diatesseron diuidat, per cetera tamen tertium huic tono ascensum
-        obseruat. --</p>
+      <p xml:id="ANOLIT1353">He quamuis diatesseron diuidat, per cetera tamen tertium huic tono
+        ascensum obseruat. --</p>
       <p xml:id="ANOLIT1354">Caritas pater est [Delta] t</p>
       <p xml:id="ANOLIT1355">t [punctus sub lin.] Cornelius centurio [Delta] d</p>
       <p xml:id="ANOLIT1356">Concede nobis hominem [Delta] t</p>
@@ -2392,29 +2474,31 @@
       <p xml:id="ANOLIT1375">t [punctus sub lin.] Saluator mundi [Delta] d</p>
       <p xml:id="ANOLIT1376">Sanctorum corpora s. [Delta] t s</p>
       <p xml:id="ANOLIT1377">Sanctus Januarius b. [Delta] d</p>
-      <p xml:id="ANOLIT1378">Hec et prescripta Si cognouissetis me, cum addicte sexto, nichil detrimenti
-        incurrant, hic autem transformatione indigeant, ex proprietate tamen neumarum septimo date,
-        illi negantur, huic ascribuntur. --</p>
+      <p xml:id="ANOLIT1378">Hec et prescripta Si cognouissetis me, cum addicte sexto, nichil
+        detrimenti incurrant, hic autem transformatione indigeant, ex proprietate tamen neumarum
+        septimo date, illi negantur, huic ascribuntur. --</p>
       <p xml:id="ANOLIT1379">In hac prescriptione antiphonarum ad hanc differentiam pertinentium
         antiphone: Accipite spiritum sanctum, Ex odoris mira flag., Huius ipse clauem, In domino Deo
         suo, In ieiuniis et orationibus, Saluator mundi, cum a finali incepte necessarium sue
-        melodie semitonium infra g acutam non inueniant: magistra ratione G graui in c acutam <pb n="[134]"/>transformata, ibidem sunt incipiende, ut cum a paraneteyperboleon g meli tenor
+        melodie semitonium infra g acutam non inueniant: magistra ratione G graui in c acutam <pb
+          n="[134]"/>transformata, ibidem sunt incipiende, ut cum a paraneteyperboleon g meli tenor
         exigit intendi diatesseron et ab intenso remitti semitonium, in c acutam uocis huius
         compotem remittat; uel iuxta monocordum Gvidonis a .g. acuta diatesseron in acute c
         equiuocam superiorem et scilicet duplicem intendat, ut ibi semitonium occurrat, quod infra g
         acutam non occurrens causa transformandi fuerat.</p>
-      <p xml:id="ANOLIT1380">Antiphone autem: Quantas habeo, Sanctorum corpora, ideo huic differentie
-        non principali melodie dantur, quia post intensum diatesseron, remisso semitonio,
-        semiditonum quem antiphone principales simpliciter, iste per uirgam pede fultam intendunt.
-        In antiphonarum huic differentie propriarum contubernio remanet hec post intensum
+      <p xml:id="ANOLIT1380">Antiphone autem: Quantas habeo, Sanctorum corpora, ideo huic
+        differentie non principali melodie dantur, quia post intensum diatesseron, remisso
+        semitonio, semiditonum quem antiphone principales simpliciter, iste per uirgam pede fultam
+        intendunt. In antiphonarum huic differentie propriarum contubernio remanet hec post intensum
         diatesseron, si non remisso semitonio, semiditonum, neuma tamen non simplici intensa tonum.
         --</p>
       <p xml:id="ANOLIT1381">Non timeo uerba mea [Delta] t</p>
       <p xml:id="ANOLIT1382">Ego sum alfa et o [Delta] d</p>
       <p xml:id="ANOLIT1383">Nouit dominus uiam [Delta] t</p>
-      <p xml:id="ANOLIT1384">Hanc enim siue secundo siue tertio autentico asscripseris, finali sillaba
-        dictionis que est "die" in lichanosmeson G deposita; semitonium quod sequens monosillaba
-        dictio intendat non inuenies, ad finalem etiam secundum nullatenus descendens. --</p>
+      <p xml:id="ANOLIT1384">Hanc enim siue secundo siue tertio autentico asscripseris, finali
+        sillaba dictionis que est "die" in lichanosmeson G deposita; semitonium quod sequens
+        monosillaba dictio intendat non inuenies, ad finalem etiam secundum nullatenus descendens.
+        --</p>
       <p xml:id="ANOLIT1385">t Pro nobis Gallus [Delta] t</p>
       <p xml:id="ANOLIT1386">Videbant omnes Stephanum [Delta] t s</p>
       <p xml:id="ANOLIT1387">He quamuis eodem quo priores gradu non conscendant cum in finali tamen
@@ -2430,27 +2514,28 @@
       <p xml:id="ANOLIT1389">t [punctus sub lin.] Apparuit caro suo [Delta] d</p>
       <p xml:id="ANOLIT1390">In die tribulationis [Delta] t s</p>
       <p xml:id="ANOLIT1391">Salutem ex inimicis [Delta] t</p>
-      <p xml:id="ANOLIT1392">Item he post intensum diatesseron, reflexo per neumam que hemiuocalis siue
-        substringens litteralis dicitur semitonio, semiditonum intense:</p>
+      <p xml:id="ANOLIT1392">Item he post intensum diatesseron, reflexo per neumam que hemiuocalis
+        siue substringens litteralis dicitur semitonio, semiditonum intense:</p>
       <p xml:id="ANOLIT1393">Ascendo ad patrem [Delta] d</p>
       <p xml:id="ANOLIT1394">t [punctus sub lin.] Descendi in ortum [Delta] d</p>
-      <p xml:id="ANOLIT1395">Sed hec propter semitonium, quod in illa dictione que est "reuertere" deest
-        sibi incepte a finali, in tritediezeugmenon c indiget transferri. --</p>
-      <p xml:id="ANOLIT1396">Item se principali Seculorum Amen negatas huic differentie connectunt, que
-        uirga qua diatesseron a finali intenduntur iterata, neumam que biuirgis dicitur
+      <p xml:id="ANOLIT1395">Sed hec propter semitonium, quod in illa dictione que est "reuertere"
+        deest sibi incepte a finali, in tritediezeugmenon c indiget transferri. --</p>
+      <p xml:id="ANOLIT1396">Item se principali Seculorum Amen negatas huic differentie connectunt,
+        que uirga qua diatesseron a finali intenduntur iterata, neumam que biuirgis dicitur
         componunt:</p>
       <p xml:id="ANOLIT1397">
         <pb n="[135]"/>Adhesit anima, lapidata [Delta]</p>
       <p xml:id="ANOLIT1398">Adhesit anima, igne [Delta]</p>
-      <p xml:id="ANOLIT1399">Subiunguntur et huic eidem Seculorum Amen, que ei in paranetediezeugmenon d
-        incipienti, dehinc tonum et semiditonum in paramesen h remittenti, item intenso semitonio,
-        per semiditonum tertiam sillabam in mese a deponenti, que huic inquam repetita identitate
-        respondent easdem remetiendo uoces, item tonum semiditonum, et remisso semitonio item
-        semiditonum, uel continuato ascensu tonum semiditonum tonum. Sunt autem quas huic addicit
-        differentie affinitas neumarum dicta, non quam priores uirga pede fulta (...):</p>
+      <p xml:id="ANOLIT1399">Subiunguntur et huic eidem Seculorum Amen, que ei in
+        paranetediezeugmenon d incipienti, dehinc tonum et semiditonum in paramesen h remittenti,
+        item intenso semitonio, per semiditonum tertiam sillabam in mese a deponenti, que huic
+        inquam repetita identitate respondent easdem remetiendo uoces, item tonum semiditonum, et
+        remisso semitonio item semiditonum, uel continuato ascensu tonum semiditonum tonum. Sunt
+        autem quas huic addicit differentie affinitas neumarum dicta, non quam priores uirga pede
+        fulta (...):</p>
       <p xml:id="ANOLIT1400">Benedicta gloria [Delta] t</p>
-      <p xml:id="ANOLIT1401">[Libellus Tonarius, 135; text: Dirupisti domine, G, a, c, h, d, e, [Delta],
-        t]</p>
+      <p xml:id="ANOLIT1401">[Libellus Tonarius, 135; text: Dirupisti domine, G, a, c, h, d, e,
+        [Delta], t]</p>
       <p xml:id="ANOLIT1402">Domum tuam domine [Delta] t</p>
       <p xml:id="ANOLIT1403">Hierusalem respice [Delta] d</p>
       <p xml:id="ANOLIT1404">t [punctus sub lin.] Hoc iam tertio mani. [Delta] d</p>
@@ -2458,17 +2543,17 @@
       <p xml:id="ANOLIT1406">Patientiam habe in me [Delta] d</p>
       <p xml:id="ANOLIT1407">Sapientiam edificauit [Delta] t s</p>
       <p xml:id="ANOLIT1408">Veni domine uisitare [Delta] d</p>
-      <p xml:id="ANOLIT1409">Prime huic differentie addicuntur et que incepte item a finali, in secunda
-        mox sillaba post intensum diapente remisso semiditono non idem quod priores antiphone
-        repetunt semitonium ut Anima mea, sed ut Afferte domino, remenso primarum more antiphonarum
-        eodem semiditono sequente non minus intendunt tonum. Has principali melodie simplicibus
-        neumis gaudenti, nec minus secunde huius toni differentie, in prima aut in secunda sillaba
-        diapente per neumam que pes dicitur intendenti, et cordam ad quam (fol. 84) intendit in
-        aliquot sillabis equisone continuanti negamus, quia diapente quod a finali intendunt, mox
-        per semiditonum reflectunt. Idcirco autem huic eas differentie ascribimus, quia per
-        compositas neumas, que huic differentie familiares sunt, et post intensum suum diapente,
-        eandem cordam quam priores post intensum diatesseron, semitonio iste remisso semiditono
-        repetunt.</p>
+      <p xml:id="ANOLIT1409">Prime huic differentie addicuntur et que incepte item a finali, in
+        secunda mox sillaba post intensum diapente remisso semiditono non idem quod priores
+        antiphone repetunt semitonium ut Anima mea, sed ut Afferte domino, remenso primarum more
+        antiphonarum eodem semiditono sequente non minus intendunt tonum. Has principali melodie
+        simplicibus neumis gaudenti, nec minus secunde huius toni differentie, in prima aut in
+        secunda sillaba diapente per neumam que pes dicitur intendenti, et cordam ad quam (fol. 84)
+        intendit in aliquot sillabis equisone continuanti negamus, quia diapente quod a finali
+        intendunt, mox per semiditonum reflectunt. Idcirco autem huic eas differentie ascribimus,
+        quia per compositas neumas, que huic differentie familiares sunt, et post intensum suum
+        diapente, eandem cordam quam priores post intensum diatesseron, semitonio iste remisso
+        semiditono repetunt.</p>
       <p xml:id="ANOLIT1410">Adtendite uniuersi [Delta] t</p>
       <p xml:id="ANOLIT1411">Argentum et aurum [Delta] t</p>
       <p xml:id="ANOLIT1412">Discerne causam [Delta] t</p>
@@ -2536,11 +2621,11 @@
       <p xml:id="ANOLIT1467">Nos famuli domini [Delta]</p>
       <p xml:id="ANOLIT1468">Non licet michi facere [Delta] t</p>
       <p xml:id="ANOLIT1469">Nemo te condempnabit [Delta] t</p>
-      <p xml:id="ANOLIT1470">Hec enim secundo negatur autentico, cum nec in eius finali sit incipienda
-        utpote incipiendo tonum semiditonum intensa; nec si hanc in lichanosmeson G cum tertia
-        eiusdem autentici differentia inceperis, in finali regulariter finire poteris! Cum autem
-        cordis melodie consonis tertio simul et quarto ipsa conueniat autenticis, cognatius tantum
-        huic quarto uidetur unita; cum pro regula antiphonis eius principaliter asscripta,
+      <p xml:id="ANOLIT1470">Hec enim secundo negatur autentico, cum nec in eius finali sit
+        incipienda utpote incipiendo tonum semiditonum intensa; nec si hanc in lichanosmeson G cum
+        tertia eiusdem autentici differentia inceperis, in finali regulariter finire poteris! Cum
+        autem cordis melodie consonis tertio simul et quarto ipsa conueniat autenticis, cognatius
+        tantum huic quarto uidetur unita; cum pro regula antiphonis eius principaliter asscripta,
         diatesseron quod non continua, uoce tamen intendit intercisa, huic pro more antiphonarium
         quas hic primas habet remittens semitonium, eleuat etiam semiditonum. --</p>
       <p xml:id="ANOLIT1471">
@@ -2577,13 +2662,13 @@
       <p xml:id="ANOLIT1501">t [punctus sub lin.] Veni sponsa Cristi [Delta] t</p>
       <p xml:id="ANOLIT1502">t [punctus sub lin.] Christus me misit [Delta] t</p>
       <p xml:id="ANOLIT1503">Item Libera nos salua nos [Delta]</p>
-      <p xml:id="ANOLIT1504">Hec enim, cum in incipiendo tonum intendens et semitonium per neumam que
-        gutturalis suppunctis dicitur inflectens, semiditono ab inceptiua sui corda acumine
+      <p xml:id="ANOLIT1504">Hec enim, cum in incipiendo tonum intendens et semitonium per neumam
+        que gutturalis suppunctis dicitur inflectens, semiditono ab inceptiua sui corda acumine
         indigeat; et a finali nequaquam remissa, diapente eleuetur, se quarto autentico et huic eius
         differentie ascribendam astipulatur.</p>
-      <p xml:id="ANOLIT1505">Differentia secunda septimi his neumis suum Seculorum Amen exigit distingui
-        [Libellus Tonarius, 137; text: Seculorum Amen] . Hoc igitur primo postponitur quia cum
-        utrumque neumis gaudeat eisdem quibus et principale, solam .men. sillabam quam illud a
+      <p xml:id="ANOLIT1505">Differentia secunda septimi his neumis suum Seculorum Amen exigit
+        distingui [Libellus Tonarius, 137; text: Seculorum Amen] . Hoc igitur primo postponitur quia
+        cum utrumque neumis gaudeat eisdem quibus et principale, solam .men. sillabam quam illud a
         principali unitam per semiditonum a tritediezeugmenon c in mesen a sinuando inflectit, hoc
         item per semiditonum a paramese h in paranetediezeugmenon d intendit; deponendo utique
         ultimam sillabam a finali per diapente, suas inuitans antiphonas ad dulcedinem eiusdem
@@ -2592,8 +2677,8 @@
         diatesseron, iste diapente consonantiam <pb n="[138]"/>qua incipiendo a deposita .men.
         sillaba distant in grauitate, mox quasi uocatim se suo Seculorum Amen assilientes reddunt in
         acumine. Et has sibi sociauit antiphonas secunda hec differentia:</p>
-      <p xml:id="ANOLIT1506">[Libellus Tonarius, 138,1; text: t [punctus sub lin.], Angelus ad pastores,
-        [Delta] t s]</p>
+      <p xml:id="ANOLIT1506">[Libellus Tonarius, 138,1; text: t [punctus sub lin.], Angelus ad
+        pastores, [Delta] t s]</p>
       <p xml:id="ANOLIT1507">t [punctus sub lin.] Aqua comburit pecca. [Delta] t s</p>
       <p xml:id="ANOLIT1508">t [punctus sub lin.] Baptista contremuit [Delta] t s</p>
       <p xml:id="ANOLIT1509">t [punctus sub lin.] Caput draconis saluator [Delta] t s</p>
@@ -2607,15 +2692,15 @@
       <p xml:id="ANOLIT1517">t [punctus sub lin.] Te qui in spiritu [Delta] t s</p>
       <p xml:id="ANOLIT1518">t [punctus sub lin.] Vrbs fortitudinis [Delta] d</p>
       <p xml:id="ANOLIT1519">Veterem hominem [Delta] d</p>
-      <p xml:id="ANOLIT1520">Huic Seculorum Amen conformem se testatur et hec [Libellus Tonarius, 138,2;
-        text: Sunt sancti t[ui, Scimus quo diligentibus Deum], c, d, G] , cum idem diapente quod ab
-        ultima .men. sillaba in incipiendo remissum, a finali in paranetediezeugmenon d intenditur,
-        in fine non minus a paranetediezeugmenon in finalem remittens finitur.</p>
+      <p xml:id="ANOLIT1520">Huic Seculorum Amen conformem se testatur et hec [Libellus Tonarius,
+        138,2; text: Sunt sancti t[ui, Scimus quo diligentibus Deum], c, d, G] , cum idem diapente
+        quod ab ultima .men. sillaba in incipiendo remissum, a finali in paranetediezeugmenon d
+        intenditur, in fine non minus a paranetediezeugmenon in finalem remittens finitur.</p>
       <p xml:id="ANOLIT1521">Differentia tertia hac suum Seculorum Amen colorat melodia:</p>
       <p xml:id="ANOLIT1522">[Libellus Tonarius, 138,3; text: Seculorum Amen.]</p>
-      <p xml:id="ANOLIT1523">Hec ideo sequitur secundam quia omnes eius in se habens neumas, terminalem
-        sillabam quam illa semiditonum intensa finit, ista tonum adhuc reflexam, ubi et principalis
-        deponit.</p>
+      <p xml:id="ANOLIT1523">Hec ideo sequitur secundam quia omnes eius in se habens neumas,
+        terminalem sillabam quam illa semiditonum intensa finit, ista tonum adhuc reflexam, ubi et
+        principalis deponit.</p>
       <p xml:id="ANOLIT1524">Antiphone ad hanc pertinentes, ideo his que primam ac secundam faciunt
         postponuntur, illis uero que tertiam preponuntur, quia cum priores a finali incipiant,
         sequentes uero quintum ab eo locum obtineant, he se de sibi in medio locata, interuallo
@@ -2653,19 +2738,20 @@
       <p xml:id="ANOLIT1544">(fol. 86)</p>
       <p xml:id="ANOLIT1545">t Vide domine et considera [Delta] t</p>
       <p xml:id="ANOLIT1546">Cum angelis et pueris [Delta] t</p>
-      <p xml:id="ANOLIT1547">Item hec per distropham equisone incipiens quamuis semitonium non remittat,
-        tamen quia ab incipiendo intensam regulam principalibus huius toni antiphonis item in
-        tritediezeugmenon c incipientibus negat, differentie huius antiphonis addenda uidetur;
+      <p xml:id="ANOLIT1547">Item hec per distropham equisone incipiens quamuis semitonium non
+        remittat, tamen quia ab incipiendo intensam regulam principalibus huius toni antiphonis item
+        in tritediezeugmenon c incipientibus negat, differentie huius antiphonis addenda uidetur;
         presertim cum post intensum tonum, remisso semiditono, pro regula his antiphonis assignata
         intendatur. -- Item hec ab alterando primam uocem quamuis non remisso prius semitonio, tamen
         quia tonum quo condifferentiale[s] semiditonum intendit, non sub principali Seculorum Amen
         in tritediezeugmenon c incipientibus, sed huius differentie antiphonis associatur:</p>
       <p xml:id="ANOLIT1548">t [punctus sub lin.] Domine non habeo hominem [Delta] d</p>
-      <p xml:id="ANOLIT1549">Intendit quidem hec differentia quasdam sui antiphonas eisdem neumis quibus
-        et sua in octauo equiuoca, et uidentur eidem supponende tono quedam huius cum quibusdam
-        illius, ut Aque multe, Erat enim in sermone, Cum post dies octo, Omnes gentes per girum.
-        Item: Beatus es et bene tibi erit [cum illa], Cum uenerit filius hominis, et alie cum aliis,
-        sed differunt euidenter, cum nec he subiugali, nec ille possint autentico subiugari.</p>
+      <p xml:id="ANOLIT1549">Intendit quidem hec differentia quasdam sui antiphonas eisdem neumis
+        quibus et sua in octauo equiuoca, et uidentur eidem supponende tono quedam huius cum
+        quibusdam illius, ut Aque multe, Erat enim in sermone, Cum post dies octo, Omnes gentes per
+        girum. Item: Beatus es et bene tibi erit [cum illa], Cum uenerit filius hominis, et alie cum
+        aliis, sed differunt euidenter, cum nec he subiugali, nec ille possint autentico
+        subiugari.</p>
       <p xml:id="ANOLIT1550">Differentia quarta suum Seculorum Amen his colorat neumis:</p>
       <p xml:id="ANOLIT1551">[Libellus Tonarius, 139; text: Seculorum Amen]</p>
       <p xml:id="ANOLIT1552">Hoc igitur a principali differens in ultime neume sola repercussione,
@@ -2695,9 +2781,9 @@
         simplicitate huic assignantur differentie:</p>
       <p xml:id="ANOLIT1554">Anulo suo subarrauit me [Delta] t</p>
       <p xml:id="ANOLIT1555">Agathes sancta dixit [Delta] t</p>
-      <p xml:id="ANOLIT1556">Hec in intensione remissi in incipiendo semiditoni, cum sequenti tono quem
-        in principio preterit, post principium in dictione que est "feras" ut preteritam recordata
-        distinguit. --</p>
+      <p xml:id="ANOLIT1556">Hec in intensione remissi in incipiendo semiditoni, cum sequenti tono
+        quem in principio preterit, post principium in dictione que est "feras" ut preteritam
+        recordata distinguit. --</p>
       <p xml:id="ANOLIT1557">t [punctus sub lin.] Agathes letissima [Delta] t</p>
       <p xml:id="ANOLIT1558">t [punctus sub lin.] Adiuabit eam Deus [Delta] t</p>
       <p xml:id="ANOLIT1559">Angelus archangelus [Delta] t</p>
@@ -2725,8 +2811,8 @@
       <p xml:id="ANOLIT1581">Justum deduxit dominus [Delta] t</p>
       <p xml:id="ANOLIT1582">
         <pb n="[141]"/>d Liberauit dominus [Delta] d</p>
-      <p xml:id="ANOLIT1583">Hec ideo ascribitur autentico quia cum infra finalem remittit diatesseron
-        (fol. 87), a finali plenarie intendit et diapente et diatesseron. --</p>
+      <p xml:id="ANOLIT1583">Hec ideo ascribitur autentico quia cum infra finalem remittit
+        diatesseron (fol. 87), a finali plenarie intendit et diapente et diatesseron. --</p>
       <p xml:id="ANOLIT1584">Me suscepit [Delta] d</p>
       <p xml:id="ANOLIT1585">t [punctus sub lin.] Natiuitus est hodie [Delta] t</p>
       <p xml:id="ANOLIT1586">t [punctus sub lin.] Omnes fideles Cristi [Delta] t</p>
@@ -2748,8 +2834,8 @@
       <p xml:id="ANOLIT1600">t Vidi supra montem [Delta] t</p>
       <p xml:id="ANOLIT1601">Uoce mea ad dominum [Delta] d</p>
       <p xml:id="ANOLIT1602">Christus circumdedit me [Delta] t</p>
-      <p xml:id="ANOLIT1603">-- He uero que eundem suis semiditonum nunc per neumam que flexa, nunc per
-        illam que uirga innodans dicitur remittunt, eodemque in acumine remenso assignatum sibi
+      <p xml:id="ANOLIT1603">-- He uero que eundem suis semiditonum nunc per neumam que flexa, nunc
+        per illam que uirga innodans dicitur remittunt, eodemque in acumine remenso assignatum sibi
         tonum intendunt uel compositis neumis, utputa per uirgam pede fultam, nunc in eadem sillaba,
         ut antiphona O magnum pietatis opus, nunc in secunda ut he: Tu es Petrus, Non sis michi tu
         formidini, uel simplicibus ut iste Specie tua, Non meis meritis:</p>
@@ -2762,9 +2848,9 @@
       <p xml:id="ANOLIT1610">Homo natus est in ea [Delta] t</p>
       <p xml:id="ANOLIT1611">Ingressa Agnes [Delta] t</p>
       <p xml:id="ANOLIT1612">Mens mea solidata [Delta]</p>
-      <p xml:id="ANOLIT1613">Hec quamuis post remissum et intensum semiditonum toni careat intensione
-        regulari, incipiens tamen in paranetediezeugmenon d, ab huius differentie antiphonis
-        nequaquam poteris separari. --</p>
+      <p xml:id="ANOLIT1613">Hec quamuis post remissum et intensum semiditonum toni careat
+        intensione regulari, incipiens tamen in paranetediezeugmenon d, ab huius differentie
+        antiphonis nequaquam poteris separari. --</p>
       <p xml:id="ANOLIT1614">Mittite in dexteram [Delta] t</p>
       <p xml:id="ANOLIT1615">
         <pb n="[142]"/>Non sis michi tu formidini [Delta] t</p>
@@ -2792,8 +2878,8 @@
       <p xml:id="ANOLIT1635">VIII</p>
       <p xml:id="ANOLIT1636">Octauus tonus habens eundem finalem quem et suus principalis, hoc
         principali Seculorum Amen suis preponit principalibus antiphonis</p>
-      <p xml:id="ANOLIT1637">[Libellus Tonarius, 142; text: Seculorum Amen] Ascribuntur autem huic tono
-        he incipientes a finali principales antiphone:</p>
+      <p xml:id="ANOLIT1637">[Libellus Tonarius, 142; text: Seculorum Amen] Ascribuntur autem huic
+        tono he incipientes a finali principales antiphone:</p>
       <p xml:id="ANOLIT1638">t [punctus sub lin.] Angeli eorum semper d</p>
       <p xml:id="ANOLIT1639">d Ad flumen Jordanis d</p>
       <p xml:id="ANOLIT1640">t [punctus sub lin.] Auertit dominus captiuitatem d</p>
@@ -2808,8 +2894,8 @@
       <p xml:id="ANOLIT1649">d Aperiens Petrus [Delta] t</p>
       <p xml:id="ANOLIT1650">t [punctus sub lin.] Annuntiauerunt d</p>
       <p xml:id="ANOLIT1651">s t [punctus sub lin.] Audistis quia dictum [Delta] t</p>
-      <p xml:id="ANOLIT1652">Hec ideo quia infra finalem, remisso tono, semitonium etiam descendit, cum
-        subiugali remansit. --</p>
+      <p xml:id="ANOLIT1652">Hec ideo quia infra finalem, remisso tono, semitonium etiam descendit,
+        cum subiugali remansit. --</p>
       <p xml:id="ANOLIT1653">d Beata es Maria que [Delta]</p>
       <p xml:id="ANOLIT1654">d Beatus Nicolaus pon. [Delta] t</p>
       <p xml:id="ANOLIT1655">d Benedico te pater d</p>
@@ -2821,8 +2907,8 @@
         grauitate, ultra diapente quod intendit non implet alterum diatesseron in acumine. --</p>
       <p xml:id="ANOLIT1661">
         <pb n="[143]"/>s t Beatus Alexander [Delta]</p>
-      <p xml:id="ANOLIT1662">Hec item et plereque sequentes subiugali non ascriberentur, nisi quod tono
-        remisso semitonium etiam remittunt[ur].</p>
+      <p xml:id="ANOLIT1662">Hec item et plereque sequentes subiugali non ascriberentur, nisi quod
+        tono remisso semitonium etiam remittunt[ur].</p>
       <p xml:id="ANOLIT1663">d Beatus Petrus apostolus [Delta]</p>
       <p xml:id="ANOLIT1664">d Beatus uir qui suffert [Delta]</p>
       <p xml:id="ANOLIT1665">d Cum esset desponsata [Delta]</p>
@@ -2861,9 +2947,9 @@
       <p xml:id="ANOLIT1698">d Dum sacrum misterium d</p>
       <p xml:id="ANOLIT1699">t [punctus sub lin.] Dilexit Andream dominus d</p>
       <p xml:id="ANOLIT1700">d Dixitque Dauid [Delta] t</p>
-      <p xml:id="ANOLIT1701">Hec cum a finali incepta non inueniat infra finalem semitonium sue melodie
-        necessarium, in tritediezeugmenon c est transferenda, ibi quod ei infra legittimum finalem
-        defuerat inuentura. --</p>
+      <p xml:id="ANOLIT1701">Hec cum a finali incepta non inueniat infra finalem semitonium sue
+        melodie necessarium, in tritediezeugmenon c est transferenda, ibi quod ei infra legittimum
+        finalem defuerat inuentura. --</p>
       <p xml:id="ANOLIT1702">[Delta] Dominus possedit me [Delta] t</p>
       <p xml:id="ANOLIT1703">t [punctus sub lin.] Dabo sanctis meis d</p>
       <p xml:id="ANOLIT1704">t [punctus sub lin.] Dedisti hereditatem d</p>
@@ -3006,9 +3092,9 @@
       <p xml:id="ANOLIT1826">d Soror mea Lucia [Delta] t s</p>
       <p xml:id="ANOLIT1827">d Suscepimus Deus d</p>
       <p xml:id="ANOLIT1828">s t [punctus sub lin.] Sepelierunt Stephanum [Delta]</p>
-      <p xml:id="ANOLIT1829">Hec subiugali negatur nisi cum tono et semitonium remittatur ita: [Libellus
-        Tonarius, 145; text: "timorati", a, G, E, F] , <pb n="[146]"/>item [Libellus Tonarius,
-        146,1; text: "super eum", G, F, a] --</p>
+      <p xml:id="ANOLIT1829">Hec subiugali negatur nisi cum tono et semitonium remittatur ita:
+        [Libellus Tonarius, 145; text: "timorati", a, G, E, F] , <pb n="[146]"/>item [Libellus
+        Tonarius, 146,1; text: "super eum", G, F, a] --</p>
       <p xml:id="ANOLIT1830">d Sine macula beatus [Delta]</p>
       <p xml:id="ANOLIT1831">d Sub throno Dei [Delta]</p>
       <p xml:id="ANOLIT1832">d Super ripam Jordanis d</p>
@@ -3029,7 +3115,8 @@
       <p xml:id="ANOLIT1847">t [punctus sub lin.] Tamquam sponsum d</p>
       <p xml:id="ANOLIT1848">d Tricesimo ordinat. [Delta]</p>
       <p xml:id="ANOLIT1849">d Talis est dilectus meus d</p>
-      <p xml:id="ANOLIT1850">Hanc enim semitoniorum detrimento negatam sexto ascribunt octauo. --</p>
+      <p xml:id="ANOLIT1850">Hanc enim semitoniorum detrimento negatam sexto ascribunt octauo.
+        --</p>
       <p xml:id="ANOLIT1851">d Verbum caro factum [Delta]</p>
       <p xml:id="ANOLIT1852">d Valde honorandus d</p>
       <p xml:id="ANOLIT1853">d Venientes uenient [Delta]</p>
@@ -3053,8 +3140,8 @@
       <p xml:id="ANOLIT1871">d Vos autem dixi ami. d</p>
       <p xml:id="ANOLIT1872">[Delta] Cristo datus est d</p>
       <p xml:id="ANOLIT1873">d Zoe uxor Nicostrati d</p>
-      <p xml:id="ANOLIT1874">Melodia eiusdem Seculorum Amen reguntur tono infra finalem incipientes, et
-        simplicatate neumarum sillabatim seruata, tonum uel ditonum in secunda mox sillaba
+      <p xml:id="ANOLIT1874">Melodia eiusdem Seculorum Amen reguntur tono infra finalem incipientes,
+        et simplicatate neumarum sillabatim seruata, tonum uel ditonum in secunda mox sillaba
         intendentes. Nam quecumque per neumam que pes dicitur, uel solam ut antiphona Uirgam
         uirtutis, uel puncto in eadem sillaba superposita ut antiphona Gloria in excelsis Deo, uel
         per neumam quam litteralem substringentem dicunt ut antiphona Bonum est sperare. Que per has
@@ -3062,9 +3149,11 @@
         antiphonis iunguntur.</p>
       <p xml:id="ANOLIT1875">Sunt autem que in paripatemeson F inchoande ex hoc quod ab incipiendo
         simplicibus neumis intenduntur, principali huic Seculorum Amen ascribuntur:</p>
-      <p xml:id="ANOLIT1876">[Libellus Tonarius, 146,2; text: Adorna thalamum tuum, [Delta], F, a]</p>
+      <p xml:id="ANOLIT1876">[Libellus Tonarius, 146,2; text: Adorna thalamum tuum, [Delta], F,
+        a]</p>
       <p xml:id="ANOLIT1877">Hec enim regula simpliciter intendendi non excedit, cum uirga per quam
-        ditonum in secunda sui sillaba intendit, in neumam que innodans dicitur non ex <pb n="[147]"/>cordarum sed ex litterali eiusdem sillabe sono innectit. --</p>
+        ditonum in secunda sui sillaba intendit, in neumam que innodans dicitur non ex <pb n="[147]"
+        />cordarum sed ex litterali eiusdem sillabe sono innectit. --</p>
       <p xml:id="ANOLIT1878">[Libellus Tonarius, 147,1; text: [Delta] Anime impiorum, F, a, G]</p>
       <p xml:id="ANOLIT1879">[Delta] Cum uenerit paraclitus d</p>
       <p xml:id="ANOLIT1880">d Jocundare filia Syon [Delta]</p>
@@ -3073,11 +3162,12 @@
       <p xml:id="ANOLIT1883">d Vlulate pastores [Delta]</p>
       <p xml:id="ANOLIT1884">t [punctus sub lin.] Stetit Jhesus in medio d</p>
       <p xml:id="ANOLIT1885">s t Zachee festinans [Delta] t s</p>
-      <p xml:id="ANOLIT1886">Reguntur non minus eodem Seculorum Amen et he suprascriptis ex contrario
-        opposite. Nam sicut ille tono infra finalem incepte nunc tonum nunc ditonum intendunt, ita
-        iste ultra finalem toni interuallo principium sortite nunc tonum nunc ditonum remittunt:</p>
-      <p xml:id="ANOLIT1887">[Libellus Tonarius, 147,2; text: Ab oriente uenerunt, a, G, F, [Delta] t
-        s]</p>
+      <p xml:id="ANOLIT1886">Reguntur non minus eodem Seculorum Amen et he suprascriptis ex
+        contrario opposite. Nam sicut ille tono infra finalem incepte nunc tonum nunc ditonum
+        intendunt, ita iste ultra finalem toni interuallo principium sortite nunc tonum nunc ditonum
+        remittunt:</p>
+      <p xml:id="ANOLIT1887">[Libellus Tonarius, 147,2; text: Ab oriente uenerunt, a, G, F, [Delta]
+        t s]</p>
       <p xml:id="ANOLIT1888">s t Apertum est os Zacharie [Delta] t</p>
       <p xml:id="ANOLIT1889">d Attendite a falsis [Delta]</p>
       <p xml:id="ANOLIT1890">d Beati qui persecutionem d</p>
@@ -3114,13 +3204,14 @@
       <p xml:id="ANOLIT1921">Eidem Seculorum Amen supponitur et hec in mese a incipiens, et post
         continuatas equisone primas sui quatuor sillabas intenso semitonio semiditonum in finalem
         remittens:</p>
-      <p xml:id="ANOLIT1922">[Libellus Tonarius, 147,3; text: Tu es uas electionis, a, d, s, t [punctus
-        sub lin.]]</p>
-      <p xml:id="ANOLIT1923">Addicuntur eidem Seculorum Amen et he infra finalem interuallo diatesseron
-        inchoande:</p>
+      <p xml:id="ANOLIT1922">[Libellus Tonarius, 147,3; text: Tu es uas electionis, a, d, s, t
+        [punctus sub lin.]]</p>
+      <p xml:id="ANOLIT1923">Addicuntur eidem Seculorum Amen et he infra finalem interuallo
+        diatesseron inchoande:</p>
       <p xml:id="ANOLIT1924">[Delta] An-ge-li domini dominum t</p>
       <p xml:id="ANOLIT1925">[Delta] Dixit dominus mulieri [Delta] t</p>
-      <p xml:id="ANOLIT1926">[Libellus Tonarius, 147,4; text: d, Gloria et honor et bened., D, C]</p>
+      <p xml:id="ANOLIT1926">[Libellus Tonarius, 147,4; text: d, Gloria et honor et bened., D,
+        C]</p>
       <p xml:id="ANOLIT1927">d Jherusalam gaude d</p>
       <p xml:id="ANOLIT1928">[Delta] Insignis preconiis [Delta]</p>
       <p xml:id="ANOLIT1929">[Delta] Martires domini dominum</p>
@@ -3147,8 +3238,8 @@
         diapente</p>
       <p xml:id="ANOLIT1944">d Vndecim discipuli [Delta]</p>
       <p xml:id="ANOLIT1945">d Tu es qui uenturus es [Delta]</p>
-      <p xml:id="ANOLIT1946">Octauus tonus tres habet differentias, (fol. 91) quarum prima hac regitur
-        tonali melodia [Libellus Tonarius, 148,2; text: Seculorum Amen] .</p>
+      <p xml:id="ANOLIT1946">Octauus tonus tres habet differentias, (fol. 91) quarum prima hac
+        regitur tonali melodia [Libellus Tonarius, 148,2; text: Seculorum Amen] .</p>
       <p xml:id="ANOLIT1947">Hoc autem Seculorum Amen postponendum erat illi, quod secuturum secunda
         toni huius sibi conciliauit differentia, utpote cum pedem quem illud in ultima tantum
         sillaba intendit, hoc item intensum etiam in finalem reflectit. Antiphone autem hanc
@@ -3221,9 +3312,10 @@
       <p xml:id="ANOLIT2000">d Tu es gloria mea d</p>
       <p xml:id="ANOLIT2001">t [punctus sub lin.] Veni et libera nos d</p>
       <p xml:id="ANOLIT2002">t [punctus sub lin.] Virgam uirtutis t s</p>
-      <p xml:id="ANOLIT2003">He neuma, quam priores incipiunt puncto superposita, tonum item tonum in
-        prima intense sillaba:</p>
-      <p xml:id="ANOLIT2004">[Libellus Tonarius, 149; text: [Delta], Aue spes nostra dei, F, G, a]</p>
+      <p xml:id="ANOLIT2003">He neuma, quam priores incipiunt puncto superposita, tonum item tonum
+        in prima intense sillaba:</p>
+      <p xml:id="ANOLIT2004">[Libellus Tonarius, 149; text: [Delta], Aue spes nostra dei, F, G,
+        a]</p>
       <p xml:id="ANOLIT2005">d Domine Jhesu Christe [Delta]</p>
       <p xml:id="ANOLIT2006">d Domine iste sanctus d</p>
       <p xml:id="ANOLIT2007">d Facite uobis amicos [Delta]</p>
@@ -3239,11 +3331,11 @@
       <p xml:id="ANOLIT2016">[Delta] Scriptum est enim quia [Delta]</p>
       <p xml:id="ANOLIT2017">d Verbum caro factum [Delta]</p>
       <p xml:id="ANOLIT2018">d Vitam petiit [Delta]</p>
-      <p xml:id="ANOLIT2019">His asscribitur et hec: Dominum Deum tuum adorabis. Nam quamuis neumam, que
-        ques dicitur, puncto in prima sui sillaba non superponit, eisdem tamen neumis easdem uoces,
-        id est tonum tonum intendit. He uero neumam que hemiuocalis dicitur substringendo tonum
-        intendentes. Hec enim quia uirgam pede fultam intendentium principia antiphonarum uidetur
-        imitari, eidem Seculorum Amen cui et illa, suas obtinuit antiphonas subscribi:</p>
+      <p xml:id="ANOLIT2019">His asscribitur et hec: Dominum Deum tuum adorabis. Nam quamuis neumam,
+        que ques dicitur, puncto in prima sui sillaba non superponit, eisdem tamen neumis easdem
+        uoces, id est tonum tonum intendit. He uero neumam que hemiuocalis dicitur substringendo
+        tonum intendentes. Hec enim quia uirgam pede fultam intendentium principia antiphonarum
+        uidetur imitari, eidem Seculorum Amen cui et illa, suas obtinuit antiphonas subscribi:</p>
       <p xml:id="ANOLIT2020">s t [punctus sub lin.] Ardens est cor meum [Delta]</p>
       <p xml:id="ANOLIT2021">d Bonum est sperare [Delta]</p>
       <p xml:id="ANOLIT2022">s t Elegit dominus uirum [Delta] t</p>
@@ -3253,8 +3345,8 @@
       <p xml:id="ANOLIT2026">d Scriptum est enim, percutiam [Delta] t</p>
       <p xml:id="ANOLIT2027">Secunda octaui differentia hac suum Seculorum Amen notatur melodia:</p>
       <p xml:id="ANOLIT2028">[Libellus Tonarius, 150; text: Seculorum Amen, c, h, a, G.]</p>
-      <p xml:id="ANOLIT2029">distante in hoc solo a principali quod .men quam illud in finali simplici
-        puncto deponit, hoc per neumam que pes dicitur, in mesen a quasi suis antiphonis in
+      <p xml:id="ANOLIT2029">distante in hoc solo a principali quod .men quam illud in finali
+        simplici puncto deponit, hoc per neumam que pes dicitur, in mesen a quasi suis antiphonis in
         tritediezeugmenon c incepturis obuiaturum intendit. Hoc autem Seculorum Amen ex simpliciorum
         neumarum compositione erat preponendum illi quod prima toni huius differentia que precessit,
         sibi ut cognatum preoccupauit.</p>
@@ -3268,17 +3360,17 @@
         dimensione qua et suum Seculorum Amen, nisi remenso in quibusdam sui antiphonis quod mox
         deponat semitonio siue interdum semiditono digrediuntur, ille nisi remisso prius item in
         aliquibus eodem semitonio prolongantur.</p>
-      <p xml:id="ANOLIT2032">Est igitur domesticum huic differentie in plerisque antiphonis per easdem
-        cordas, per quas et suum Seculorum Amen ab antepenultima sillaba incipiens, in finalem usque
-        id est per semitonium tonum item tonum descendere, semitonio quod sub sui principio habent,
-        nunc per neumam que flexa dicitur ad similitudinem sui Seculorum Amen remisso ut antiphona
-        Hoc est preceptum, nunc sillabatim deposito, sed aut in eadem sillaba per neumam que
-        gutturalis dicitur aut item sillabatim remenso per semiditonum <pb n="[151]"/>tonum, ut
-        antiphone Benedic anima, Aspice in me. In plerisque autem non gradato descensu, sed nunc ab
-        ipsa in qua incipiunt corda ut antiphona Lumen ad reuelationem; nunc remenso quod dixi
-        semitonio ut antiphona Contumelias, diatesseron in finalem remittere; nunc si non ab ipsa
-        inceptione, post emensas tamen aliquot uoces in finalem siue diatesseron diuidendo siue
-        integrum remittendo descendere, ut iste: Hodie scietis, Dominus meus eripe me, lege hac
+      <p xml:id="ANOLIT2032">Est igitur domesticum huic differentie in plerisque antiphonis per
+        easdem cordas, per quas et suum Seculorum Amen ab antepenultima sillaba incipiens, in
+        finalem usque id est per semitonium tonum item tonum descendere, semitonio quod sub sui
+        principio habent, nunc per neumam que flexa dicitur ad similitudinem sui Seculorum Amen
+        remisso ut antiphona Hoc est preceptum, nunc sillabatim deposito, sed aut in eadem sillaba
+        per neumam que gutturalis dicitur aut item sillabatim remenso per semiditonum <pb n="[151]"
+        />tonum, ut antiphone Benedic anima, Aspice in me. In plerisque autem non gradato descensu,
+        sed nunc ab ipsa in qua incipiunt corda ut antiphona Lumen ad reuelationem; nunc remenso
+        quod dixi semitonio ut antiphona Contumelias, diatesseron in finalem remittere; nunc si non
+        ab ipsa inceptione, post emensas tamen aliquot uoces in finalem siue diatesseron diuidendo
+        siue integrum remittendo descendere, ut iste: Hodie scietis, Dominus meus eripe me, lege hac
         obseruanda ut quelibet ad hanc differentiam pertinens, non prius cordam in qua incipit
         transcendat, quam ad finalem descendendo perueniat. -- Sunt autem que huic secunde octaui
         ascribuntur differentie, incipientes a finali in acumine diatesseron interuallo, a deposita
@@ -3302,10 +3394,10 @@
       <p xml:id="ANOLIT2048">t [punctus sub lin.] De profundis clamaui d</p>
       <p xml:id="ANOLIT2049">Domine clamaui d</p>
       <p xml:id="ANOLIT2050">t [punctus sub lin.] Dextera domini fecit d</p>
-      <p xml:id="ANOLIT2051">[Libellus Tonarius, 151; text: s, t, Deus meus eripe, peccatoris..., a, E,
-        G]</p>
-      <p xml:id="ANOLIT2052">Hec finalem quem non imprimis descensu gradato, tangit dehinc diatesseron
-        remisso. --</p>
+      <p xml:id="ANOLIT2051">[Libellus Tonarius, 151; text: s, t, Deus meus eripe, peccatoris..., a,
+        E, G]</p>
+      <p xml:id="ANOLIT2052">Hec finalem quem non imprimis descensu gradato, tangit dehinc
+        diatesseron remisso. --</p>
       <p xml:id="ANOLIT2053">t [punctus sub lin.] Dominus in templo sancto d</p>
       <p xml:id="ANOLIT2054">d Ecce ancilla domini d</p>
       <p xml:id="ANOLIT2055">d Ecce completi sunt d</p>
@@ -3336,20 +3428,20 @@
       <p xml:id="ANOLIT2079">t [punctus sub lin.] Veritas de terra orta d</p>
       <p xml:id="ANOLIT2080">Visita nos domine</p>
       <p xml:id="ANOLIT2081">s t Verax est pater [Delta]</p>
-      <p xml:id="ANOLIT2082">Differentie tertie octaui Seculorum Amen illi equiuocatur, quo illa, quam
-        secundus solam habet, differentia regitur hoc modo [Libellus Tonarius, 152; text: Seculorum
-        Amen] (fol. 93) Ideo autem hoc duarum que precedunt differentiarum tonalibus memelodiis est
-        postpositum, quia a principali Seculorum Amen illis in cordarum in quibus suas distinguit
-        neumas positione remotius et in meli alteritate diuersius.</p>
-      <p xml:id="ANOLIT2083">Asscribende huic Seculorum Amen antiphone incipientes ubi illud et incipit
-        et finitur, presentem eius notam in se exprimunt: cum ab incipiendo uel tonum quem illud
-        post continuatam neumarum identitatem per neumam que pes dicitur intensum remittit post
-        seruatam non minus in aliquot sillabis neumarum equalitatem eodem intensum pede remittunt;
-        siue per flexum pedem reflectunt uel remisso per neumam quam flexam dicunt semitonio,
-        semiditonum eleuant. Et eundem sui Seculorum Amen tonum deponunt, euidenter a prioris
-        differentie antiphonis differentes, cum illis ab incipiendo remittentibus semitonium tonum
-        uel intenso quod imprimis deponunt semitonio, semiditonum iste intendunt tonum, uel opposite
-        illis, remisso semitonio semiditonum. Sunt autem he:</p>
+      <p xml:id="ANOLIT2082">Differentie tertie octaui Seculorum Amen illi equiuocatur, quo illa,
+        quam secundus solam habet, differentia regitur hoc modo [Libellus Tonarius, 152; text:
+        Seculorum Amen] (fol. 93) Ideo autem hoc duarum que precedunt differentiarum tonalibus
+        memelodiis est postpositum, quia a principali Seculorum Amen illis in cordarum in quibus
+        suas distinguit neumas positione remotius et in meli alteritate diuersius.</p>
+      <p xml:id="ANOLIT2083">Asscribende huic Seculorum Amen antiphone incipientes ubi illud et
+        incipit et finitur, presentem eius notam in se exprimunt: cum ab incipiendo uel tonum quem
+        illud post continuatam neumarum identitatem per neumam que pes dicitur intensum remittit
+        post seruatam non minus in aliquot sillabis neumarum equalitatem eodem intensum pede
+        remittunt; siue per flexum pedem reflectunt uel remisso per neumam quam flexam dicunt
+        semitonio, semiditonum eleuant. Et eundem sui Seculorum Amen tonum deponunt, euidenter a
+        prioris differentie antiphonis differentes, cum illis ab incipiendo remittentibus semitonium
+        tonum uel intenso quod imprimis deponunt semitonio, semiditonum iste intendunt tonum, uel
+        opposite illis, remisso semitonio semiditonum. Sunt autem he:</p>
       <p xml:id="ANOLIT2084">d Cogitauerunt impii [Delta]</p>
       <p xml:id="ANOLIT2085">s t Cum uenerit filius [Delta]</p>
       <p xml:id="ANOLIT2086">s t Confirma hoc Deus [Delta]</p>
@@ -3367,8 +3459,8 @@
       <p xml:id="ANOLIT2098">s t Post dies octo [Delta]</p>
       <p xml:id="ANOLIT2099">s t Ponit nubem ascensum [Delta]</p>
       <p xml:id="ANOLIT2100">d Quare ieiunauimus [Delta]</p>
-      <p xml:id="ANOLIT2101">Hec enim tonum non per simplicem, sed per fultam pede uirgam intendenda,
-        his adheret antiphonis, ut inseparabiliter conformata. --</p>
+      <p xml:id="ANOLIT2101">Hec enim tonum non per simplicem, sed per fultam pede uirgam
+        intendenda, his adheret antiphonis, ut inseparabiliter conformata. --</p>
       <p xml:id="ANOLIT2102">
         <pb n="[153]"/>s t Reges videbunt [Delta]</p>
       <p xml:id="ANOLIT2103">s t Veniet fortior me [Delta]</p>
@@ -3380,8 +3472,8 @@
       <p xml:id="ANOLIT2106">[Delta] Angeli domini dominum t</p>
       <p xml:id="ANOLIT2107">[Delta] Martires domini dominum t</p>
       <p xml:id="ANOLIT2108">[Delta] Nos qui uiuimus t s</p>
-      <p xml:id="ANOLIT2109">quas hac ei cognatione estimant assignandas, quia illis tanta grauitate a
-        finali distantibus, utputa infra eum nunc diatesseron nunc diapente interuallo
+      <p xml:id="ANOLIT2109">quas hac ei cognatione estimant assignandas, quia illis tanta grauitate
+        a finali distantibus, utputa infra eum nunc diatesseron nunc diapente interuallo
         incipientibus, ut familiarius eas recipiendi et uelut suauius eliciendi gratia condescendit;
         terminalem sillabam deponens in lichanosypaton D ubi et due eius incipiunt antiphone, tertia
         tono tantum inferius incipiente. Sed differentia hec cum careat constitutione regulari,
@@ -3400,17 +3492,17 @@
         quam cuilibet alii conueniat tono, antiphone autem ei date non sint ei cognatiores, quam
         quelibet cuiuslibet toni in eisdem cordis incipientes, differentia hec nec regulariter
         constituta, nec quod differentiis non uidetur annumeranda.</p>
-      <p xml:id="ANOLIT2110">Hec ego elinguis, et quasi uociferando tacens, inter exequialem funerate
-        iam ecclesiastice dignitatis planctum studii affectu, dolorem fallente descripsi, etsi
-        deformante stilum deformitate temporum, commendante tamen materiam maiestate rationis. Debet
-        autem opus hoc se non tam scribenti, quam ut scriberetur <pb n="[154]"/>iubenti. Tuum enim
-        utpote nunc respecturi experitia rationis est, si qua ei in ratione diligentia tuum, quod
-        tibi eius in precipiendo auctori, tanta unitur conuenientia. Conuenientissimum namque fuit
-        ad te scribi de octo tonis, qui octo beatitudinum orbitam non exorbitans, tendis ad octauam
-        resurrectionis, in qua post anime singularem, alteram uestiendus stolam, ymnizabis in Syon,
-        ubi demum (fol. 94) absente omni passibilitatis uigorem purgato, dominum decet ymnus, cum
-        regno Deo patri tradito, id est perductis ad contemplationem patris mundi uictoribus. Ipse
-        erit omnia in omnibus.</p>
+      <p xml:id="ANOLIT2110">Hec ego elinguis, et quasi uociferando tacens, inter exequialem
+        funerate iam ecclesiastice dignitatis planctum studii affectu, dolorem fallente descripsi,
+        etsi deformante stilum deformitate temporum, commendante tamen materiam maiestate rationis.
+        Debet autem opus hoc se non tam scribenti, quam ut scriberetur <pb n="[154]"/>iubenti. Tuum
+        enim utpote nunc respecturi experitia rationis est, si qua ei in ratione diligentia tuum,
+        quod tibi eius in precipiendo auctori, tanta unitur conuenientia. Conuenientissimum namque
+        fuit ad te scribi de octo tonis, qui octo beatitudinum orbitam non exorbitans, tendis ad
+        octauam resurrectionis, in qua post anime singularem, alteram uestiendus stolam, ymnizabis
+        in Syon, ubi demum (fol. 94) absente omni passibilitatis uigorem purgato, dominum decet
+        ymnus, cum regno Deo patri tradito, id est perductis ad contemplationem patris mundi
+        uictoribus. Ipse erit omnia in omnibus.</p>
       <p xml:id="ANOLIT2111">(Explicit.)</p>
     </body>
   </text>

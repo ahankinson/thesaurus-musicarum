@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Novellus musicae artis tractatus</title>
         <title type="abbrev">CONNOV</title>
-        <author>Zabern, Conrad von</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Zabern, Conrad von</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Mark Butler</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2001</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2001">2001</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Karl-Werner Gümpel, <emph>Die Musiktraktate Conrads von Zabern</emph>,
           Akademie der Wissenschaften und der Literatur, Abhandlungen der Geistes- und
@@ -56,7 +66,8 @@
         declaratus.</p>
       <p xml:id="CONNOV0003">[A in marg.] Cum, ut quidam sapiens ait, non minus dedecus sit in Dei
         ecclesia cantum ignorare quam litteras, idcirco, ut viri iam ecclesiastici et qui tales
-        aliquando sunt futuri huiusmodi dedecus valeant evitare, ad profectum multorum cantum <pb n="[185]"/>choralem planum sive Gregorianum scire cupientium de multis musicorum scriptis,
+        aliquando sunt futuri huiusmodi dedecus valeant evitare, ad profectum multorum cantum <pb
+          n="[185]"/>choralem planum sive Gregorianum scire cupientium de multis musicorum scriptis,
         quae adiutore Deo per multa tempora conquisivi, quaedam utiliora, quae incipientibus magis
         proficere credo, quanta possum brevitate perstringam. Cetera, quae ad canendum minus
         prosunt, ut plurimum omissurus.</p>
@@ -73,11 +84,11 @@
         scientiis, quas beatus Augustinus in domo Dei, id est in sancta ecclesia, dicit esse
         necessarias inquirens ipsam musicam in domo Dei necessariam ad laudes Dei decantandas. Omnis
         enim solemnis Dei cultus cum cantu fieri cernitur.</p>
-      <p xml:id="CONNOV0006">[C in marg.] Quod autem iure et merito omnipotens Deus cantu sit honorandus
-        atque laudandus, multis auctoritatibus tam veteris quam novi testamenti invenimus non solum
-        approbatum, sed et iussum nobisque mandatum, quia nimirum magnam vim commovendi auditorum
-        animos musicus habet, cantus, et praesertim ad excitandam iucunditatem spiritualem atque
-        devotionem erga Deum, ut testatur commentator octavo Politicorum. Quin immo per cantum
+      <p xml:id="CONNOV0006">[C in marg.] Quod autem iure et merito omnipotens Deus cantu sit
+        honorandus atque laudandus, multis auctoritatibus tam veteris quam novi testamenti invenimus
+        non solum approbatum, sed et iussum nobisque mandatum, quia nimirum magnam vim commovendi
+        auditorum animos musicus habet, cantus, et praesertim ad excitandam iucunditatem spiritualem
+        atque devotionem erga Deum, ut testatur commentator octavo Politicorum. Quin immo per cantum
         ecclesia militans conformatur triumphanti, ubi incessabili voce benedictae trinitati ab
         angelis perennis laus canitur iucundissime. Hinc ait beatus Bernhardus: Nihil in terris ita
         repraesentat quemdam caelestis habitationis statum, sicut alacritas concupiscentium et
@@ -98,10 +109,10 @@
         cuius delectatio est utique sincera, quam in illis, quae eis a iure sunt prohibita, ut sunt
         ludus aleae et chartarum, ne fierent de numero eorum, de quibus Aristoteles dicit in
         Ethicis: Ingustabiles existentes sincerae delectationis ad corporales confugiunt.</p>
-      <p xml:id="CONNOV0009">[F in marg.] Verumtamen sunt nonnulli etiam clerici modulationi tam vocis
-        quam instrumentorum musicalium satis congratulantes, qui tamen hanc artem nec sciunt nec
-        scire curant, immo, quod gravius est, scientes fugiunt et abhorrent dicentes usum solum in
-        hoc sufficere, de quorum caecitate non immerito esset dolendum. Tales enim nec de cantu
+      <p xml:id="CONNOV0009">[F in marg.] Verumtamen sunt nonnulli etiam clerici modulationi tam
+        vocis quam instrumentorum musicalium satis congratulantes, qui tamen hanc artem nec sciunt
+        nec scire curant, immo, quod gravius est, scientes fugiunt et abhorrent dicentes usum solum
+        in hoc sufficere, de quorum caecitate non immerito esset dolendum. Tales enim nec de cantu
         composito, an sit urbanus vel villanus an verus vel falsus, possunt iudicare nec falsum sive
         incorrectum emendare, quod utique artis huius non ignarus facere facillime poterit. Non est
         ergo parva laus, non modica utilitas, non vilipendendus labor musicae scientia, quae sui
@@ -116,33 +127,33 @@
         quod monochordum dicitur, quod apud omnes antiquos musicos fuit usitatissimum, ut infra
         plenius dicetur, quod quidem instrumentum mihi adeo placet, quod pro renovando eius usu
         totum hunc subii praesentis opusculi laborem.</p>
-      <p xml:id="CONNOV0011">Alio autem modo adhuc specialius a domino Odone in suo Dialogo notificatur
-        musica, et hoc sic: Musica est veraciter canendi scientia et facilis via ad perfectionem
-        harmonizandi. Et hoc tantum convenit musicae humanae vocali artificiali. Dicitur autem
-        veraciter, id est secundum veram artis traditionem. Dicitur etiam et facilis via, quia sicut
-        natura potentem et usus promptum, sic et ars facilem reddit artificem, ut dicit Tullius in
-        Rhetorica sua.</p>
-      <p xml:id="CONNOV0012">[H in marg.] Dicitur autem musica, quantum ad nominis expositionem, a musa,
-        quod est instrumentum quoddam musicale decenter satis et iucunde clangens, alia instrumenta
-        musicalia excellens, omnium aliorum instrumentorum vim et modum aliqualiter in se continens.
-        Inflatur enim ore vel spiritu humano ut tibia, manu temperatur ut cithara et figella, folle
-        concitatur ut organum. Et ideo a tali instrumento quasi a principaliori non incongrue musica
-        nomen sortita est. Alii de huius nominis derivatione aliter et satis differenter dicunt
-        plurima, quae breviandi causa praetereo.</p>
+      <p xml:id="CONNOV0011">Alio autem modo adhuc specialius a domino Odone in suo Dialogo
+        notificatur musica, et hoc sic: Musica est veraciter canendi scientia et facilis via ad
+        perfectionem harmonizandi. Et hoc tantum convenit musicae humanae vocali artificiali.
+        Dicitur autem veraciter, id est secundum veram artis traditionem. Dicitur etiam et facilis
+        via, quia sicut natura potentem et usus promptum, sic et ars facilem reddit artificem, ut
+        dicit Tullius in Rhetorica sua.</p>
+      <p xml:id="CONNOV0012">[H in marg.] Dicitur autem musica, quantum ad nominis expositionem, a
+        musa, quod est instrumentum quoddam musicale decenter satis et iucunde clangens, alia
+        instrumenta musicalia excellens, omnium aliorum instrumentorum vim et modum aliqualiter in
+        se continens. Inflatur enim ore vel spiritu humano ut tibia, manu temperatur ut cithara et
+        figella, folle concitatur ut organum. Et ideo a tali instrumento quasi a principaliori non
+        incongrue musica nomen sortita est. Alii de huius nominis derivatione aliter et satis
+        differenter dicunt plurima, quae breviandi causa praetereo.</p>
       <p xml:id="CONNOV0013">
         <pb n="[188]"/>[I in marg.] Nunc quid sit cantus dicendum est. Cantus est modulatio vocis
         sex notis proportionata. Qualiter autem proportionata, dicetur infra sub littera N. Vel sic:
         Est ascensus vel descensus sex notarum sive vocum immediate se habentium sine mutatione.</p>
-      <p xml:id="CONNOV0014">[K in marg.] Pro cuius intellectu advertendum, quod huius scientiae prima
-        elementa sunt litterae quaedam alphabeti, quae claves dicuntur, scilicet a, b, c, d, e, f,
-        g, et syllabae quaedam, quae voces musicae appellantur, scilicet ut, re, mi, fa, sol, la, de
-        quibus omnibus iam mox plenius tractabitur.</p>
-      <p xml:id="CONNOV0015">Primum igitur hoc illis, qui se ad musicae disciplinam aptare desiderant,
-        iniungo, ut huiusmodi litteras monochordi cum syllabis ascriptis proferre studeant nec
-        antequam eas memoriter teneant, ab hac opera desistant. Quas litteras et syllabas debito
-        modo coniunctas in tabula sive tabella et similiter supra modulos sive claves monochordi ab
-        extra clare habetis signatas. Sed de litteris nunc dicere differo ideo, ut post haec
-        commodius et uberius de eis tractare queam.</p>
+      <p xml:id="CONNOV0014">[K in marg.] Pro cuius intellectu advertendum, quod huius scientiae
+        prima elementa sunt litterae quaedam alphabeti, quae claves dicuntur, scilicet a, b, c, d,
+        e, f, g, et syllabae quaedam, quae voces musicae appellantur, scilicet ut, re, mi, fa, sol,
+        la, de quibus omnibus iam mox plenius tractabitur.</p>
+      <p xml:id="CONNOV0015">Primum igitur hoc illis, qui se ad musicae disciplinam aptare
+        desiderant, iniungo, ut huiusmodi litteras monochordi cum syllabis ascriptis proferre
+        studeant nec antequam eas memoriter teneant, ab hac opera desistant. Quas litteras et
+        syllabas debito modo coniunctas in tabula sive tabella et similiter supra modulos sive
+        claves monochordi ab extra clare habetis signatas. Sed de litteris nunc dicere differo ideo,
+        ut post haec commodius et uberius de eis tractare queam.</p>
       <p xml:id="CONNOV0016">[L in marg.] Nunc autem de syllabis aliquid dicam. Sex itaque sunt
         syllabae, quas ad opus musicae assumimus, diversimode quidem apud diversos nominatae. Verum
         Angli, Francigenae, et Alemanni utuntur his: ut, re, mi, fa, sol, la, quas quidem ex hymno
@@ -155,23 +166,24 @@
         aerem et reddere, unde sonus naturalis procreatur; artificiale autem instrumentum, quod non
         per naturam, sed per artificium ad reddendum sonum adaptatur. Ideo autem additur in dicta
         descriptione vel artificialibus, nam in monochordo, quod artificiale est instrumentum, has
-        sex voces earumque ascensum et descensum discere convenit. Dicit enim dominus Odo in suo <pb n="[189]"/>Dialogo, quod musicus omnes voces cantilenae in ipso monochordo insinuat, prout
+        sex voces earumque ascensum et descensum discere convenit. Dicit enim dominus Odo in suo <pb
+          n="[189]"/>Dialogo, quod musicus omnes voces cantilenae in ipso monochordo insinuat, prout
         mox infra plenius de hoc dicetur.</p>
-      <p xml:id="CONNOV0018">Voces autem sex praedictae hoc ordine proferuntur, quod ascendendo .ut. est
-        prima, deinde re, postea mi, et sic de aliis, descendendo autem la est prima, sol secunda,
-        fa tertia, et sic consequenter usque ad ut. Et hae sex voces unum simplicem cantum
+      <p xml:id="CONNOV0018">Voces autem sex praedictae hoc ordine proferuntur, quod ascendendo .ut.
+        est prima, deinde re, postea mi, et sic de aliis, descendendo autem la est prima, sol
+        secunda, fa tertia, et sic consequenter usque ad ut. Et hae sex voces unum simplicem cantum
         constituunt.</p>
       <p xml:id="CONNOV0019">[N in marg.] Earum autem talis est ad invicem habitudo, ut unaquaeque a
         sibi proximiori distet tono uno integro praeter fa et mi, quae distant solo semitonio, de
         cuius semitonii magna necessitate habebitur infra sub TT. 2 Quid in hoc loco sit tonus
         quidve semitonium, habebitur infra sub OO.</p>
-      <p xml:id="CONNOV0020">[O in marg.] Qualem vero sonum hae sex voces habere debeant ascendendo et
-        descendendo, facilius et melius ac citius a chorda ipsius monochordi discitur quam ab ipso
-        homine, ut vult ipse dominus Odo in suo Dialogo subdens ibidem, qua ratione fieri possit, ut
-        melius doceat chorda quam homo: Nam homo cantat, prout voluerit vel potuerit, ut nimirum
-        fallere possit, sed chorda in ipso monochordo est distincta tali arte per litteras sive
-        claves a sapientissimis magistris, ut non possit mentiri vel fallere, cum diligenter fuerit
-        observata.</p>
+      <p xml:id="CONNOV0020">[O in marg.] Qualem vero sonum hae sex voces habere debeant ascendendo
+        et descendendo, facilius et melius ac citius a chorda ipsius monochordi discitur quam ab
+        ipso homine, ut vult ipse dominus Odo in suo Dialogo subdens ibidem, qua ratione fieri
+        possit, ut melius doceat chorda quam homo: Nam homo cantat, prout voluerit vel potuerit, ut
+        nimirum fallere possit, sed chorda in ipso monochordo est distincta tali arte per litteras
+        sive claves a sapientissimis magistris, ut non possit mentiri vel fallere, cum diligenter
+        fuerit observata.</p>
       <p xml:id="CONNOV0021">Ascensum ergo et descensum sex vocum in monochordo discere debent
         incipientes in musica ab aliquo .ut. eiusdem instrumenti ipsum ascensum et ab eius la
         descensum inchoando; ibi enim certissima et infallibilis norma habetur. Hinc dicit quidam
@@ -181,9 +193,10 @@
         certissima vocum. Hinc ait Guido in suo Micrologo: Quia ipsas voces, quae huius artis prima
         sunt fundamenta, in monochordo melius intuemur et audimus, quomodo eas ibidem ars naturam
         imitata discreverit, videamus.</p>
-      <p xml:id="CONNOV0022">[P in marg.] Per praedictas itaque sex voces sive syllabas qui de musica
-        scire affectat, cantiones aliquot cantare discat in monochordo iuxta modum infra in secunda
-        utilitate positum monochordi, scilicet ante AH, quousque ascensiones et descensiones <pb n="[190]"/>multimodasque earum variationes plene dilucideque dinoscat. In manus etiam
+      <p xml:id="CONNOV0022">[P in marg.] Per praedictas itaque sex voces sive syllabas qui de
+        musica scire affectat, cantiones aliquot cantare discat in monochordo iuxta modum infra in
+        secunda utilitate positum monochordi, scilicet ante AH, quousque ascensiones et descensiones
+          <pb n="[190]"/>multimodasque earum variationes plene dilucideque dinoscat. In manus etiam
         articulis eas modulari sedulus assuescat, ut ea postmodum quotiens voluerit pro monochordo
         utatur. Haec ubi aliquamdiu, ut dixi, frequentaverit et altae memoriae commendaverit,
         facilius procul dubio iter ad musicam habebit. Sed diceret aliquis: Quale est illud
@@ -210,17 +223,17 @@
         quorum cantuum multiplicatio non est nisi dictarum sex vocum iterata replicatio sive
         repetitio, ita quod hae sex voces septem vicibus in monochordo repetuntur, similiter et in
         ipsa musica manu, qua loco monochordi saepe utimur.</p>
-      <p xml:id="CONNOV0025">[S in marg.] Cantus itaque musicus prima divisione dividitur in hos tres,
-        scilicet [sqb]-duralem, naturalem, et b-mollem. [sqb]-duralis incipit in g, naturalis in c,
-        b-mollis in f. [sqb]-duralis autem ideo sic dictus est, quia pro sui cursu et complemento
-          <pb n="[191]"/>iuxta eius inceptionem necessario transire habet per durum [sqb]
+      <p xml:id="CONNOV0025">[S in marg.] Cantus itaque musicus prima divisione dividitur in hos
+        tres, scilicet [sqb]-duralem, naturalem, et b-mollem. [sqb]-duralis incipit in g, naturalis
+        in c, b-mollis in f. [sqb]-duralis autem ideo sic dictus est, quia pro sui cursu et
+        complemento <pb n="[191]"/>iuxta eius inceptionem necessario transire habet per durum [sqb]
         monochordi, quod alio nomine [sqb]-quadratum vocatur, quia in inferiori parte quadrari debet
         et solet.</p>
-      <p xml:id="CONNOV0026">b-mollis autem cantus dictus est, quia in suo ascensu et descensu molle b
-        requirit, quod rotundum vocari consuevit, quia in parte inferiori rotundari debet, ut
+      <p xml:id="CONNOV0026">b-mollis autem cantus dictus est, quia in suo ascensu et descensu molle
+        b requirit, quod rotundum vocari consuevit, quia in parte inferiori rotundari debet, ut
         clarior inter ea habeatur differentia.</p>
-      <p xml:id="CONNOV0027">B autem durum dicitur, quod respectu sui .a. durum sonum reddit et integrum
-        tonum facit, molle vero, quod respectu eiusdem .a. mollem sonum facit et semitonium
+      <p xml:id="CONNOV0027">B autem durum dicitur, quod respectu sui .a. durum sonum reddit et
+        integrum tonum facit, molle vero, quod respectu eiusdem .a. mollem sonum facit et semitonium
         constituit tamquam fa respectu sui mi, ut patet in monochordo, ubi illa duo diversa b [sqb]
         diversas claves cernuntur habere, de quibus infra plenius dicendum erit.</p>
       <p xml:id="CONNOV0028">Naturalis autem cantus dicitur, quia natura harum sex vocum perfecte
@@ -228,19 +241,19 @@
         horum continet vel complectitur. Inter c enim, quod principium est cantus naturalis, et .a.
         sibi suprapositum, quod finis est eiusdem cantus, nullum b intermediari cernitur in
         monochordo.</p>
-      <p xml:id="CONNOV0029">[T in marg.] Notandum ergo summopere, quod non est alia natura dictarum sex
-        vocum nec alia earum ad invicem proportio vel habitudo in uno cantu quam in aliis vel alio.
-        Ubilibet enim aequaliter se habent ad invicem hoc modo, quod, ut praemissum est supra sub N,
-        unaquaeque a sibi proximiori distat integro tono sive ascendendo sive descendendo praeter fa
-        et mi, quae semitonio solo distant.</p>
-      <p xml:id="CONNOV0030">[V in marg.] Subdividitur autem cantus [sqb]-duralis in tres secundum tria
-        g in monochordo posita, in quorum quolibet unus [sqb]-duralis cantus incipit suum .ut. ibi
-        instituens. Naturalis vero subdivitur in duos, secundum quod in monochordo duo sunt c .ut.
-        ante re habentia, quorum cantuum primus in primo c incipit, secundus in secundo. Licet autem
-        tertium c in monochordo habeatur, in eo tamen nullus cantus incipit, cum in ipso nec .ut.
-        ponatur nec re aliquod sequatur, cum iam ultra superfluum fuisset. b-mollis quoque cantus in
-        duos subdividitur, secundum quod duplex f in monochordo reperitur: Primus in primo f
-        incipit, secundus in secundo.</p>
+      <p xml:id="CONNOV0029">[T in marg.] Notandum ergo summopere, quod non est alia natura dictarum
+        sex vocum nec alia earum ad invicem proportio vel habitudo in uno cantu quam in aliis vel
+        alio. Ubilibet enim aequaliter se habent ad invicem hoc modo, quod, ut praemissum est supra
+        sub N, unaquaeque a sibi proximiori distat integro tono sive ascendendo sive descendendo
+        praeter fa et mi, quae semitonio solo distant.</p>
+      <p xml:id="CONNOV0030">[V in marg.] Subdividitur autem cantus [sqb]-duralis in tres secundum
+        tria g in monochordo posita, in quorum quolibet unus [sqb]-duralis cantus incipit suum .ut.
+        ibi instituens. Naturalis vero subdivitur in duos, secundum quod in monochordo duo sunt c
+        .ut. ante re habentia, quorum cantuum primus in primo c incipit, secundus in secundo. Licet
+        autem tertium c in monochordo habeatur, in eo tamen nullus cantus incipit, cum in ipso nec
+        .ut. ponatur nec re aliquod sequatur, cum iam ultra superfluum fuisset. b-mollis quoque
+        cantus in duos subdividitur, secundum quod duplex f in monochordo reperitur: Primus in primo
+        f incipit, secundus in secundo.</p>
       <p xml:id="CONNOV0031">Fines autem horum septem cantuum facile est considerare. Omnes enim
         [sqb]-durales in e terminantur, cum e in monochordo sexto loco post g constituatur. Cantus
         vero naturales in a finiuntur consimili ratione; b-molles in d finem habent. De harum
@@ -263,14 +276,14 @@
         perturbatio. Multa enim diatesseron, diapente, ac diapason sic caruissent suis semitoniis,
         quae tamen, ut infra dicetur, omni modo habere debent et sine quibus rite concordare
         nequivissent.</p>
-      <p xml:id="CONNOV0033">[Y in marg.] Quae inconvenientia omnia sufficienter evitantur per debitam
-        et ordinatam cantuum intersectionem. Quali modo, cernitur in monochordo ac in musica manu,
-        ita ut ubi praecedens cantus habet suum fa, subsequens suum .ut. instituat exceptis cantibus
-        secundo et tertio [sqb]-duralibus, qui cum b-mollaribus se praecedentibus ampliori potiuntur
-        intersectione, ut scilicet ubi praecedens cantus suum habet re, subsequens suum .ut. habeat,
-        quod necessario ideo factum est, ut et litterarum sive clavium musicalium plus semel
-        repetendarum ordo maneret inconfusus et nihilominus immediate sub secundo c tamquam in loco
-        convenientissimo et quasi totius monochordi medio ambo haec diversa b [sqb] apte
+      <p xml:id="CONNOV0033">[Y in marg.] Quae inconvenientia omnia sufficienter evitantur per
+        debitam et ordinatam cantuum intersectionem. Quali modo, cernitur in monochordo ac in musica
+        manu, ita ut ubi praecedens cantus habet suum fa, subsequens suum .ut. instituat exceptis
+        cantibus secundo et tertio [sqb]-duralibus, qui cum b-mollaribus se praecedentibus ampliori
+        potiuntur intersectione, ut scilicet ubi praecedens cantus suum habet re, subsequens suum
+        .ut. habeat, quod necessario ideo factum est, ut et litterarum sive clavium musicalium plus
+        semel repetendarum ordo maneret inconfusus et nihilominus immediate sub secundo c tamquam in
+        loco convenientissimo et quasi totius monochordi medio ambo haec diversa b [sqb] apte
         collocarentur. Quae duo b [sqb], ut in monochordo clare patet, tam respectu sui .a.
         immediate praecedentis quam respectu c sequentis diversis suis modulis diversum sonum
         reddunt, prout non parum expediebat et plurimarum cantionum exposcere videbatur necessitas,
@@ -288,11 +301,11 @@
         decreverunt pariter pro clariori distinctione et intelligentia totius monochordi ac manus
         musicae litteras quasdam alphabeti, quae claves dicuntur, ipsis vocibus praeponere, de
         quibus clavibus sive litteris in superioribus reservavi hoc in loco plenius tractandum.</p>
-      <p xml:id="CONNOV0035">[Z in marg.] Hae autem litterae a diversis musicis diversimode nominantur.
-        A quibusdam enim musicale alphabetum nuncupantur, nam sicut alphabetum artis grammaticae
-        pueri primo solent discere, sic per illud alphabetum musicale necessarie est ad ipsam
-        musicam introire. Ab aliis autem claves dicuntur, prout communius fieri solet, quia sicut
-        per claves clausa reserantur, sic per has litteras aliquo modo reseratur notitia et
+      <p xml:id="CONNOV0035">[Z in marg.] Hae autem litterae a diversis musicis diversimode
+        nominantur. A quibusdam enim musicale alphabetum nuncupantur, nam sicut alphabetum artis
+        grammaticae pueri primo solent discere, sic per illud alphabetum musicale necessarie est ad
+        ipsam musicam introire. Ab aliis autem claves dicuntur, prout communius fieri solet, quia
+        sicut per claves clausa reserantur, sic per has litteras aliquo modo reseratur notitia et
         intelligentia omnis musici cantus. A quibusdam notulae dicuntur, eo quod per ipsas cantus et
         voces musicales notificantur. Ab aliis etiam notae dicuntur, quod prae aliis minus mihi
         placet ideo, cum ipsae voces communius notae vocentur.</p>
@@ -301,29 +314,29 @@
         sunt signanter septem ad similitudinem septem dierum hebdomadae; nam sicut omne tempus per
         septem dies currit, cum videlicet septem transeunt et iidem repetuntur, sic in musica sub
         septem his litteris sive clavibus omnis cantus decurrit.</p>
-      <p xml:id="CONNOV0037">[AA in marg.] Placuit autem musicis ideo septem et non plures nec pauciores
-        assumere, ut per earum replicationem sive repetitionem unaquaeque octavo in loco iterum
-        constitueretur, ut sic conformitas litterarum conformitatem et concordiam attestaretur vocum
-        et sonorum. Nulla enim vox cum altera plenius et perfectius concordat quam octava cum sua
-        prima et econtra. Quemadmodum ergo in <pb n="[194]"/>monochordo octava clavis cum prima est
-        eadem, etsi non omnino, quod propter diversam earum figurationem addo, ita nimirum vox
-        octava cum sua prima in soni concordia est eadem, sed tamen non omnino, quia sonus ille
-        gravis, scilicet primae, ille acutus, scilicet octavae. Hinc ait Guido: Sicut utraque vox
-        extrema, scilicet prima et ultima ipsius diapason, id est octavae, eadem littera notatur, id
-        est signatur, ita per omnia eiusdem qualitatis perfectissimaeque similitudinis utraque
-        habetur et creditur. Sicut ergo finitis septem diebus hebdomadae eosdem repetimus, ut semper
-        primum et octavum eundem dicamus, ita primas et octavas voces semper easdem dicimus et
-        simili clave signamus, quia naturali eas concordia consonare sentimus, ut C et c, D et d, et
-        sic de aliis. Unde et, si in canendo duo vel tres per hanc speciem, scilicet diapason,
-        differentibus vocibus eandem antiphonam incipiant et decantent, miraberis te easdem voces
-        diversis in locis, sed minime diversas habere eundemque cantum gravem, acutum, et
-        superacutum tam unice resonare.</p>
-      <p xml:id="CONNOV0038">Ad idem etiam loquitur dominus Odo in suo Dialogo quaerenti discipulo, cur
-        per monochordum eaedem litterae fiant in prima et secunda eius partibus, respondens in haec
-        verba: Hoc ita fit, ut unaquaeque littera correspondeat suae consimili litterae in octavo
-        scilicet loco positae cum tonis et semitoniis, videlicet ut ubi in prima parte sit tonus vel
-        semitonium, sit et in secunda parte. Similiter de ditonis et semiditonis, ut sic omnis
-        cantus simul cantari possit in prima parte monochordi et etiam in secunda.</p>
+      <p xml:id="CONNOV0037">[AA in marg.] Placuit autem musicis ideo septem et non plures nec
+        pauciores assumere, ut per earum replicationem sive repetitionem unaquaeque octavo in loco
+        iterum constitueretur, ut sic conformitas litterarum conformitatem et concordiam
+        attestaretur vocum et sonorum. Nulla enim vox cum altera plenius et perfectius concordat
+        quam octava cum sua prima et econtra. Quemadmodum ergo in <pb n="[194]"/>monochordo octava
+        clavis cum prima est eadem, etsi non omnino, quod propter diversam earum figurationem addo,
+        ita nimirum vox octava cum sua prima in soni concordia est eadem, sed tamen non omnino, quia
+        sonus ille gravis, scilicet primae, ille acutus, scilicet octavae. Hinc ait Guido: Sicut
+        utraque vox extrema, scilicet prima et ultima ipsius diapason, id est octavae, eadem littera
+        notatur, id est signatur, ita per omnia eiusdem qualitatis perfectissimaeque similitudinis
+        utraque habetur et creditur. Sicut ergo finitis septem diebus hebdomadae eosdem repetimus,
+        ut semper primum et octavum eundem dicamus, ita primas et octavas voces semper easdem
+        dicimus et simili clave signamus, quia naturali eas concordia consonare sentimus, ut C et c,
+        D et d, et sic de aliis. Unde et, si in canendo duo vel tres per hanc speciem, scilicet
+        diapason, differentibus vocibus eandem antiphonam incipiant et decantent, miraberis te
+        easdem voces diversis in locis, sed minime diversas habere eundemque cantum gravem, acutum,
+        et superacutum tam unice resonare.</p>
+      <p xml:id="CONNOV0038">Ad idem etiam loquitur dominus Odo in suo Dialogo quaerenti discipulo,
+        cur per monochordum eaedem litterae fiant in prima et secunda eius partibus, respondens in
+        haec verba: Hoc ita fit, ut unaquaeque littera correspondeat suae consimili litterae in
+        octavo scilicet loco positae cum tonis et semitoniis, videlicet ut ubi in prima parte sit
+        tonus vel semitonium, sit et in secunda parte. Similiter de ditonis et semiditonis, ut sic
+        omnis cantus simul cantari possit in prima parte monochordi et etiam in secunda.</p>
       <p xml:id="CONNOV0039">[BB in marg.] Has autem litteras sive claves septem vetustissimi, ut
         fertur, solum semel repetentes quattuordecim tantum claves in toto posuerunt scribentes et
         facientes primas septem grossiores, reliquas subtiliores. Alii vero antiquorum primam
@@ -332,22 +345,24 @@
         [Gamma] additum fuit nec b, quod nos molle vel rotundum vocamus, neque etiam reliqui supra
         .a. tertio repetitum. Postea vero moderni sagacius singula intuentes considerantesque hunc
         numerum non omnino sufficere ad quamlibet melodiam exprimendam, addiderunt in principio
-        propter descensum quarundam cantionum unam clavem, quam gamma vocamus. In medio vero <pb n="[195]"/>b-molle, quod interdum in cantu necessarium videbatur, addiderunt eique nomen
+        propter descensum quarundam cantionum unam clavem, quam gamma vocamus. In medio vero <pb
+          n="[195]"/>b-molle, quod interdum in cantu necessarium videbatur, addiderunt eique nomen
         hoc imposuerunt. In fine autem residuas claves, quae nunc in monochordo post tertium .a.
         cernuntur, apposuerunt.</p>
-      <p xml:id="CONNOV0040">[CC in marg.] De his monochordi clavibus, prout modo multiplicantur, dicunt
-        quidam famosi musici in haec verba: In primis ponitur [Gamma] graecum a modernis adiunctum.
-        Sequuntur autem septem alphabeti litterae capitales ideoque maioribus formis insignitae hoc
-        modo: A, B, C, D, E, F, G. Post has eaedem septem litterae repetuntur, quae minutae
-        dicuntur, quia minoribus quantitatibus describuntur, in quibus tamen inter a et [sqb] adhuc
-        aliud b ponimus, quod rotundum facimus, alterum vero quadramus, et hoc sic: a, b, [sqb], c,
-        d, e, f, g. Addimus his eisdem litteris, sed figuris aliis alphabetum duplicatarum, sed
-        incompletum, in quo b similiter diversificamus, et hoc sic: aa, bb, [sqb][sqb], cc, dd, ubi
-        plerique cessant non addentes ee, sicut nec Guido addit. Hae autem litterae ultimae
-        duplicatae a multis superfluae dicuntur, sed Guido de eisdem loquens ait: Nos autem maluimus
-        abundare quam deficere, concludens sic: Fiunt autem omnes simul claves viginti una.</p>
-      <p xml:id="CONNOV0041">[DD in marg.] Ecce, quod Guido e-la non ponit, quod tamen alii ponunt, de
-        quo infra mox specialis mentio fiet. Et tamen nihilominus dicit ipse viginti unam claves
+      <p xml:id="CONNOV0040">[CC in marg.] De his monochordi clavibus, prout modo multiplicantur,
+        dicunt quidam famosi musici in haec verba: In primis ponitur [Gamma] graecum a modernis
+        adiunctum. Sequuntur autem septem alphabeti litterae capitales ideoque maioribus formis
+        insignitae hoc modo: A, B, C, D, E, F, G. Post has eaedem septem litterae repetuntur, quae
+        minutae dicuntur, quia minoribus quantitatibus describuntur, in quibus tamen inter a et
+        [sqb] adhuc aliud b ponimus, quod rotundum facimus, alterum vero quadramus, et hoc sic: a,
+        b, [sqb], c, d, e, f, g. Addimus his eisdem litteris, sed figuris aliis alphabetum
+        duplicatarum, sed incompletum, in quo b similiter diversificamus, et hoc sic: aa, bb,
+        [sqb][sqb], cc, dd, ubi plerique cessant non addentes ee, sicut nec Guido addit. Hae autem
+        litterae ultimae duplicatae a multis superfluae dicuntur, sed Guido de eisdem loquens ait:
+        Nos autem maluimus abundare quam deficere, concludens sic: Fiunt autem omnes simul claves
+        viginti una.</p>
+      <p xml:id="CONNOV0041">[DD in marg.] Ecce, quod Guido e-la non ponit, quod tamen alii ponunt,
+        de quo infra mox specialis mentio fiet. Et tamen nihilominus dicit ipse viginti unam claves
         esse, cum tamen quidam alii e-la ponentes solum viginti asserant, quos sentio utrumque b
         [sqb] pro una tantum clave minus bene annumerare. Qui verisimillime erroris sui occasionem
         ex hoc sumpsere, quia viderunt ambo ipsa b [sqb] et in manu musica et in libro cantuali
@@ -363,25 +378,25 @@
         alterum deservit, alterum vacat, ut patet in monochordo. Si vero e-la ponendum sit vel non,
         de hoc sunt argumenta sive rationes pro et contra. Sed quia in hoc parvum vel nullum fructum
         inesse cerno, praetereundum duxi, ne praesens opusculum extendatur in immensum.</p>
-      <p xml:id="CONNOV0042">[EE in marg.] Non miretur autem quispiam, cur g in capite monochordi nunc
-        ponatur. Cum enim modernis placuit in principio aliquid addere, ut praedictum est, nihil
-        convenienter poni potuit ante primum .a. servato clavium septenario et earum ordine debito
-        nisi g, ut patet consideranti. Et hoc quidem g, quod gamma dicimus, ideo positum est, ut
-        plagalis proti sub se, id est sub sua finali, haberet diapente, et etiam ideo, ut diatonicum
-        genus staret in capite, id est ut ditonum haberemus in principio. Quod g idcirco graece
-        positum est, ut differret a nostro g, quod dupliciter positum est.</p>
-      <p xml:id="CONNOV0043">Superacutae vero additae sunt, quia dum qualescumque cantus proti, deuteri,
-        et triti transferuntur a legitimis finalibus in sociales et affines suos, scilicet a, [sqb],
-        vel c, necessarium est tetrachordum superacutarum, ut acutae legem finalium sortitae reddant
-        diapason ad superacutas, scilicet a ad aa, [sqb] ad [sqb][sqb], c ad cc. dd quoque ad
-        perfectionem tetrachordi illarum addita est et, ut trito in acutis translato unam vocem
-        supra diapason suppleret.</p>
-      <p xml:id="CONNOV0044">b-molle vero qua necessitate additum sit, tactum est supra, cum de cantuum
-        ageretur intersectione, scilicet ante Z. Adiecit autem Guido etiam hanc causam additionis
-        mollis b, quia f cum quarta a se ascendente, [sqb] scilicet quadrato, tritono differente
-        nequibat habere concordiam.</p>
-      <p xml:id="CONNOV0045">[FF in marg.] Ex praemissis patet, quod ponendo e-la quaelibet littera sive
-        clavis tribus vicibus in monochordo ponitur et in musica manu praeter ipsum f. Quarum
+      <p xml:id="CONNOV0042">[EE in marg.] Non miretur autem quispiam, cur g in capite monochordi
+        nunc ponatur. Cum enim modernis placuit in principio aliquid addere, ut praedictum est,
+        nihil convenienter poni potuit ante primum .a. servato clavium septenario et earum ordine
+        debito nisi g, ut patet consideranti. Et hoc quidem g, quod gamma dicimus, ideo positum est,
+        ut plagalis proti sub se, id est sub sua finali, haberet diapente, et etiam ideo, ut
+        diatonicum genus staret in capite, id est ut ditonum haberemus in principio. Quod g idcirco
+        graece positum est, ut differret a nostro g, quod dupliciter positum est.</p>
+      <p xml:id="CONNOV0043">Superacutae vero additae sunt, quia dum qualescumque cantus proti,
+        deuteri, et triti transferuntur a legitimis finalibus in sociales et affines suos, scilicet
+        a, [sqb], vel c, necessarium est tetrachordum superacutarum, ut acutae legem finalium
+        sortitae reddant diapason ad superacutas, scilicet a ad aa, [sqb] ad [sqb][sqb], c ad cc. dd
+        quoque ad perfectionem tetrachordi illarum addita est et, ut trito in acutis translato unam
+        vocem supra diapason suppleret.</p>
+      <p xml:id="CONNOV0044">b-molle vero qua necessitate additum sit, tactum est supra, cum de
+        cantuum ageretur intersectione, scilicet ante Z. Adiecit autem Guido etiam hanc causam
+        additionis mollis b, quia f cum quarta a se ascendente, [sqb] scilicet quadrato, tritono
+        differente nequibat habere concordiam.</p>
+      <p xml:id="CONNOV0045">[FF in marg.] Ex praemissis patet, quod ponendo e-la quaelibet littera
+        sive clavis tribus vicibus in monochordo ponitur et in musica manu praeter ipsum f. Quarum
         clavium aliquibus plures, aliis vero pauciores syllabae sive voces ascribuntur, ut patet in
         monochordo, in tabula, et in manu. Quarum quoque clavium quaelibet omnibus se sequentibus
         sibi adiunctis vocibus aeque debet deservire praeter b-rotundum et [sqb]-quadratum, quarum
@@ -404,13 +419,13 @@
         superacutas soni gracilitate excellant. Fiunt autem omnes hae litterarum sive clavium
         distinctiones ideo, ut quoniam diversas habent proprietates et denominationes, facilius quae
         sit illa vel ista cognoscere valeamus.</p>
-      <p xml:id="CONNOV0048">Invenitur autem earum clavium positio in tribus, scilicet in monochordo, in
-        musica manu, et in cantuali libro. Verumtamen paucae earum in libro cantuali ponuntur,
-        scilicet f, c, g in capite linearum suarum. g tamen rarius ponitur, quia raro eo indigemus,
-        f autem et c frequenter, quia plura per easdem cantica decurrunt; b vero rotundum et
-        quadratum non nisi tunc, quando cantus necessario exposcit, suis in locis locantur in libro.
-        Quae duo b [sqb] etiam claves dicuntur impedimentales, quia mutuo se impediunt et alterum
-        altero silentium imponit.</p>
+      <p xml:id="CONNOV0048">Invenitur autem earum clavium positio in tribus, scilicet in
+        monochordo, in musica manu, et in cantuali libro. Verumtamen paucae earum in libro cantuali
+        ponuntur, scilicet f, c, g in capite linearum suarum. g tamen rarius ponitur, quia raro eo
+        indigemus, f autem et c frequenter, quia plura per easdem cantica decurrunt; b vero rotundum
+        et quadratum non nisi tunc, quando cantus necessario exposcit, suis in locis locantur in
+        libro. Quae duo b [sqb] etiam claves dicuntur impedimentales, quia mutuo se impediunt et
+        alterum altero silentium imponit.</p>
       <p xml:id="CONNOV0049">[HH in marg.] Quisquis itaque celeriter et proficue ad canendum musicae
         desiderat introduci, tribus insudandum laboribus esse sciat. Primus quippe labor est, ut
         quae vel quot syllabae sive voces cuique clavi attributae vel ascriptae sint, diligenter
@@ -427,33 +442,34 @@
         [sqb]-duralis] <figure>
           <graphic url="/images/CONNOV_01GF.gif"/>
         </figure></p>
-      <p xml:id="CONNOV0051">Tertius labor est inter haec cavere, ne cantorem varia habitudo vocum ad
-        invicem ducat in errorem. Qui error hoc modo facilius evitari poterit, si illud diligenter
-        advertatur, quod in multis terris per cantuales libros observatur, quod scilicet unaquaeque
-        littera f minio, c vero croco pingitur et signatur, ita quod secundum quinque semitonia
-        extra locum b-mollis reperta in quinque locis colores disponuntur, prout haec in monochordo
-        plene praeparato clare cernuntur. Quidam tamen, si color desit, pro minio punctum in
-        principio lineae ponunt. Idcirco autem has duas claves f et c et etiam colores, quibus
+      <p xml:id="CONNOV0051">Tertius labor est inter haec cavere, ne cantorem varia habitudo vocum
+        ad invicem ducat in errorem. Qui error hoc modo facilius evitari poterit, si illud
+        diligenter advertatur, quod in multis terris per cantuales libros observatur, quod scilicet
+        unaquaeque littera f minio, c vero croco pingitur et signatur, ita quod secundum quinque
+        semitonia extra locum b-mollis reperta in quinque locis colores disponuntur, prout haec in
+        monochordo plene praeparato clare cernuntur. Quidam tamen, si color desit, pro minio punctum
+        in principio lineae ponunt. Idcirco autem has duas claves f et c et etiam colores, quibus
         signantur, totopere observari convenit, quoniam per eas aliae claves superiores et
         inferiores etiam in libro non positae facile innotescunt. Si autem ipsis cantionibus sive
         neumis claves ipsae non aderunt, tales sunt neumae qualis puteus sine fune.</p>
-      <p xml:id="CONNOV0052">[II in marg.] Cum autem, ut praemittitur, circa quasdam claves monochordi
-        duae, circa aliquas tres concurrant cantuum voces diversorum, est merito quaestio, cur ibi
-        semper vocum fiat praeposteratio respectu scilicet ordinis, quem ipsae sex <pb n="[199]"/>voces inter se habent. Huius facilis redditur ratio, haec scilicet, quia prius
-        incipientibus cantibus prius suas voces conveniebat assignari. Ex hac denique concurrentia
-        plurium vocum circa eandem clavem nobis copia patet mutationum secundum omnem ascendendi et
-        descendendi necessitatem in solfasando.</p>
-      <p xml:id="CONNOV0053">De mutationibus ergo vocum nunc restat aliquid dicendum. Primo igitur quid
-        sit mutatio videndum est. Mutatio musica est unius musicae vocis pro alia in eadem clave et
-        sub eodem sono datio vel variatio.</p>
-      <p xml:id="CONNOV0054">[KK in marg.] Et fit tribus modis sive tribus de causis, scilicet ratione
-        vocum, ratione signi, et interdum ratione utriusque. Ratione vocum fit, utcum vox inferior
-        sicat .ut. vel re, vel superior sicut la vel sol mutatur in aliam amplioris descensus vel
-        ascensus faciendi causa. Quia infra .ut. nemo potest apte aut convenienter descendere, nisi
-        ea dimissa superiorem sibi in ordine vocum loco eius accipiat, sic etiam ultra la nemo
-        potest ascendere, nisi ea dimissa sibi inferiorem in ordine vocum loco eius accipiat. Omnis
-        autem talis mutatio ascendendo fit in has voces, scilicet ut, re, vel mi, et descendendo fit
-        in istas, scilicet fa, sol, vel la.</p>
+      <p xml:id="CONNOV0052">[II in marg.] Cum autem, ut praemittitur, circa quasdam claves
+        monochordi duae, circa aliquas tres concurrant cantuum voces diversorum, est merito
+        quaestio, cur ibi semper vocum fiat praeposteratio respectu scilicet ordinis, quem ipsae sex
+          <pb n="[199]"/>voces inter se habent. Huius facilis redditur ratio, haec scilicet, quia
+        prius incipientibus cantibus prius suas voces conveniebat assignari. Ex hac denique
+        concurrentia plurium vocum circa eandem clavem nobis copia patet mutationum secundum omnem
+        ascendendi et descendendi necessitatem in solfasando.</p>
+      <p xml:id="CONNOV0053">De mutationibus ergo vocum nunc restat aliquid dicendum. Primo igitur
+        quid sit mutatio videndum est. Mutatio musica est unius musicae vocis pro alia in eadem
+        clave et sub eodem sono datio vel variatio.</p>
+      <p xml:id="CONNOV0054">[KK in marg.] Et fit tribus modis sive tribus de causis, scilicet
+        ratione vocum, ratione signi, et interdum ratione utriusque. Ratione vocum fit, utcum vox
+        inferior sicat .ut. vel re, vel superior sicut la vel sol mutatur in aliam amplioris
+        descensus vel ascensus faciendi causa. Quia infra .ut. nemo potest apte aut convenienter
+        descendere, nisi ea dimissa superiorem sibi in ordine vocum loco eius accipiat, sic etiam
+        ultra la nemo potest ascendere, nisi ea dimissa sibi inferiorem in ordine vocum loco eius
+        accipiat. Omnis autem talis mutatio ascendendo fit in has voces, scilicet ut, re, vel mi, et
+        descendendo fit in istas, scilicet fa, sol, vel la.</p>
       <p xml:id="CONNOV0055">Sed mutatio ratione signi fit, utcum aliud signum ut [sqb]-durum post
         b-molle vel econtra supervenerit. Et talis mutatio si fit sub illis signis, id est infra ea,
         tunc fit ascendendo tantum, si supra illa signa fit, descendendo tantum.</p>
@@ -466,23 +482,23 @@
         sicut de .ut. in c-sol-fa-ut posito in b-fa vel [sqb]-mi descendendo.</p>
       <p xml:id="CONNOV0057">Quando ergo dicitur: Tu non mutabis, nisi sit mutare necesse, intellige
         necessitatem de qualibet harum trium iam dictarum.</p>
-      <p xml:id="CONNOV0058">[LL in marg.] Volentem autem in solfasando mutare oportet scire, per quem
-        cantum in qualibet clave quaelibet vox cantetur, nam in nulla clave plures voces per unum et
-        eundem cantum cantantur. Haec autem in materia mutationum <pb n="[200]"/>generalis est
-        regula, quod omnis clavis unam tantum vocem habens nullam mutationem habet. Quae vero duas
-        habet voces, duas similiter habet mutationes: unam in ascensu, aliam in descensu exceptis
-        b-fa [sqb]-mi et bb-fa [sqb]-mi. Clavis vero tres habens voces sex habet mutationes, ut
-        facile consideratur ex hac figura in margine posita: tres scilicet ascendendo et tres
-        descendendo salvo intellectu infra dicendo de necessitate signi.</p>
+      <p xml:id="CONNOV0058">[LL in marg.] Volentem autem in solfasando mutare oportet scire, per
+        quem cantum in qualibet clave quaelibet vox cantetur, nam in nulla clave plures voces per
+        unum et eundem cantum cantantur. Haec autem in materia mutationum <pb n="[200]"/>generalis
+        est regula, quod omnis clavis unam tantum vocem habens nullam mutationem habet. Quae vero
+        duas habet voces, duas similiter habet mutationes: unam in ascensu, aliam in descensu
+        exceptis b-fa [sqb]-mi et bb-fa [sqb]-mi. Clavis vero tres habens voces sex habet
+        mutationes, ut facile consideratur ex hac figura in margine posita: tres scilicet ascendendo
+        et tres descendendo salvo intellectu infra dicendo de necessitate signi.</p>
       <p xml:id="CONNOV0059">[Conrad, Tractatus, 200]</p>
-      <p xml:id="CONNOV0060">Quare autem in b-fa [sqb]-mi et in bb-fa [sqb]-mi non fiat ulla mutatio, de
-        hoc plurimi, qui verisimillime monochordum numquam viderunt, diversas rationes omnino falsas
-        assignant. Sed haec est vera, brevis, et certissima ratio: quia nec est ibi eadem clavis nec
-        idem sonus, ut patet in monochordo, in quo illud ipsis incipientibus potest faciliter et
-        intelligibiliter ostendi.</p>
-      <p xml:id="CONNOV0061">Nota etiam hic pro regula, quod quando quis ascendit vel descendit de uno
-        cantu in alium, in illo loco ascensus vel descensus convenienter fit mutatio. Et quidem in
-        ascensu fieri debet mutatio posterioris vocis in priorem, in descensu vero e contrario
+      <p xml:id="CONNOV0060">Quare autem in b-fa [sqb]-mi et in bb-fa [sqb]-mi non fiat ulla
+        mutatio, de hoc plurimi, qui verisimillime monochordum numquam viderunt, diversas rationes
+        omnino falsas assignant. Sed haec est vera, brevis, et certissima ratio: quia nec est ibi
+        eadem clavis nec idem sonus, ut patet in monochordo, in quo illud ipsis incipientibus potest
+        faciliter et intelligibiliter ostendi.</p>
+      <p xml:id="CONNOV0061">Nota etiam hic pro regula, quod quando quis ascendit vel descendit de
+        uno cantu in alium, in illo loco ascensus vel descensus convenienter fit mutatio. Et quidem
+        in ascensu fieri debet mutatio posterioris vocis in priorem, in descensu vero e contrario
         prioris in posteriorem. Et intellige hoc de prioritate et posterioritate quoad ordinem sex
         vocum musicalium inter se, non quoad ordinem situationis earum circa eandem clavem, qui, ut
         praemittitur, praeposterus est non sine causa. Quod alii brevius et intelligibilius sic
@@ -500,11 +516,11 @@
         Et scias, quod proportiones a multis vocantur modi musici, quibus omnis cantus contexitur,
         sic quod <pb n="[201]"/>terminis illis permiscue utuntur. A quibusdam etiam vocantur
         coniunctiones, prout Odo et Guido facere solent.</p>
-      <p xml:id="CONNOV0063">Modorum autem et proportionum musicalium aliqui plures, aliqui pauciores
-        enumerant, nimirum quia quidam solum eas enumerant, quae apud antiquos in usu erant, quidam
-        istas, quae in communi cantu sunt usitatiores, quidam denique illas, quae in uno simplici
-        cantu reperiuntur, quidam vero omnes usque ad diapason inclusive in monochordo utcumque
-        reperibiles, quas in praesenti et ego enumerare volo graduali ordine a minoribus
+      <p xml:id="CONNOV0063">Modorum autem et proportionum musicalium aliqui plures, aliqui
+        pauciores enumerant, nimirum quia quidam solum eas enumerant, quae apud antiquos in usu
+        erant, quidam istas, quae in communi cantu sunt usitatiores, quidam denique illas, quae in
+        uno simplici cantu reperiuntur, quidam vero omnes usque ad diapason inclusive in monochordo
+        utcumque reperibiles, quas in praesenti et ego enumerare volo graduali ordine a minoribus
         incipiendo.</p>
       <p xml:id="CONNOV0064">[NN in marg.] Prima igitur proportionum, si tamen dici debeat, est
         unisonus, secunda semitonium, tertia tonus, quarta semiditonus, quinta ditonus, sexta
@@ -512,17 +528,17 @@
         diapente, undecima tonus cum diapente, duodecima semiditonus cum diapente, tredecima ditonus
         cum diapente, quattuordecima et ultima diapason. Post hanc plures enumerare foret
         superfluum, nam esset quaedam repetitio priorum.</p>
-      <p xml:id="CONNOV0065">[OO in marg.] Unisonus dicitur quasi unus vel unius vocis sonus, et fit,
-        cum una vox saepius repetitur; est enim unius et eiusdem vocis sub eadem clave immediate
-        repetitio, exemplum sicut re re, mi mi.</p>
-      <p xml:id="CONNOV0066">Semitonium dictum est, quod non sit plenus tonus, sed imperfectus, a semis
-        = imperfectum, non, ut quidam imperiti dicunt, a semis = dimidium, nam usitatum semitonium
-        modico minus est dimidio tono, cui ad supplendum tonum restat maius semitonium, ut infra
-        dicetur. Et fit a mi in fa sibi immediatum et econtra, de quo latius dicendum reservo post
-        hanc singularum proportionum secundum ordinem descriptionem.</p>
-      <p xml:id="CONNOV0067">Tonus hic dicitur a tonando. Est autem tonare potenter sonare; tonus enim
-        fortem habet sonum respectu semitonii. Vel certe, quia in vocum positione primus tonat in
-        monochordo, ideo sibi hoc nomen quasi proprium vendicavit, quod tamen et aliis modis
+      <p xml:id="CONNOV0065">[OO in marg.] Unisonus dicitur quasi unus vel unius vocis sonus, et
+        fit, cum una vox saepius repetitur; est enim unius et eiusdem vocis sub eadem clave
+        immediate repetitio, exemplum sicut re re, mi mi.</p>
+      <p xml:id="CONNOV0066">Semitonium dictum est, quod non sit plenus tonus, sed imperfectus, a
+        semis = imperfectum, non, ut quidam imperiti dicunt, a semis = dimidium, nam usitatum
+        semitonium modico minus est dimidio tono, cui ad supplendum tonum restat maius semitonium,
+        ut infra dicetur. Et fit a mi in fa sibi immediatum et econtra, de quo latius dicendum
+        reservo post hanc singularum proportionum secundum ordinem descriptionem.</p>
+      <p xml:id="CONNOV0067">Tonus hic dicitur a tonando. Est autem tonare potenter sonare; tonus
+        enim fortem habet sonum respectu semitonii. Vel certe, quia in vocum positione primus tonat
+        in monochordo, ideo sibi hoc nomen quasi proprium vendicavit, quod tamen et aliis modis
         convenire poterat. Est autem tonus in proposito ascensus vel descensus de una voce ad aliam
         sibi proximam secundam sub et supra praeter semitonium, et in monochordo maius spatium habet
         inter modulum unum et sibi proximum, intellige intra monochordum, sive ascendendo sive
@@ -531,10 +547,10 @@
         proportionibus omnibus, cum in simili iidem gradus sint, quibus in domo ascendimus et
         descendimus, eademque distantia primi ad secundum ascendendo, quae et secundi ad primum
         descendendo.</p>
-      <p xml:id="CONNOV0068">Semiditonus dicitur, eo quod non sit plenus ditonus, a semis = imperfectum
-        constans tono et semitonio, et est ascensus vel descensus de una voce ad suam tertiam
-        incluso semitonio. Et sunt duo in uno simplici cantu, scilicet a re in fa et econtra et a mi
-        in sol et econtra.</p>
+      <p xml:id="CONNOV0068">Semiditonus dicitur, eo quod non sit plenus ditonus, a semis =
+        imperfectum constans tono et semitonio, et est ascensus vel descensus de una voce ad suam
+        tertiam incluso semitonio. Et sunt duo in uno simplici cantu, scilicet a re in fa et econtra
+        et a mi in sol et econtra.</p>
       <p xml:id="CONNOV0069">Dytonus per y graecum scribendus a dya graece, id est duo latine,
         appellatur, eo quod duos in se tonos habeat vel contineat, et est ascensus vel descensus ab
         una voce ad suam tertiam excluso semitonio, intellige in monochordo sive in manu; secus enim
@@ -559,9 +575,9 @@
         uno simplici cantu reperitur. Et licet in antiquis cantibus nonnumquam inveniatur, a
         modernis tamen propter asperitatem et absurditatem eius respuitur, quia melodiam perturbat,
         gratia cuius, ut in praecedentibus patuit, b-molle a modernis additum fuit.</p>
-      <p xml:id="CONNOV0073">[QQ in marg.] Diapente per i latinum scribendum latine de quinque sonat a
-        dia = de et penta = quinque, eo quod ab una voce incipiens ad quintam saltum facit habens in
-        se diatesseron et tonum vel tres tonos et unum semitonium. Et est secundum Guidonem, cum
+      <p xml:id="CONNOV0073">[QQ in marg.] Diapente per i latinum scribendum latine de quinque sonat
+        a dia = de et penta = quinque, eo quod ab una voce incipiens ad quintam saltum facit habens
+        in se diatesseron et tonum vel tres tonos et unum semitonium. Et est secundum Guidonem, cum
         inter quascumque voces tres sunt toni et unum semitonium qualitercumque. Et sunt duo in uno
         simplici cantu, puta de .ut. in sol et de re in la et econtra.</p>
       <p xml:id="CONNOV0074">Semitonium cum diapente quid sit, patet ex descriptionibus suorum
@@ -570,16 +586,17 @@
         quae dicta sunt. Et dicitur sexta imperfecta habetque fieri a B-mi primo in G-sol-re-ut et
         ab E-la-mi in c-sol-fa-ut, ab a-la-mi-re quoque in ff-fa-ut et ab ee-la-mi in cc-sol-fa, nec
         est in uno simplici cantu reperibile.</p>
-      <p xml:id="CONNOV0075">Tonus cum diapente quid sit, similiter patet ex simplicium descriptione, et
-        fit ab una voce ad suam sextam perfectam unum tantum semitonium continens, et invenitur
-        tantum semel in uno simplici cantu, scilicet de .ut. in la et econtra.</p>
+      <p xml:id="CONNOV0075">Tonus cum diapente quid sit, similiter patet ex simplicium
+        descriptione, et fit ab una voce ad suam sextam perfectam unum tantum semitonium continens,
+        et invenitur tantum semel in uno simplici cantu, scilicet de .ut. in la et econtra.</p>
       <p xml:id="CONNOV0076">Semiditonus cum diapente similiter innotescit ex suorum simplicium
         descriptlone et transcendit latitudinem unius simplicis cantus, et est ascensus vel
         descensus ab una voce ad suam septimam duobus semitoniis inclusis, sicut a B-mi primo ad
         a-la-mi-re et ab E-la-mi in d-la-sol-re vel econtra.</p>
-      <p xml:id="CONNOV0077">Ditonus cum diapente similiter agnoscitur ex componentium notificatione, et
-        est ascensus vel descensus ab una voce in suam septimam perfectam duobus tonis diapente
-        excedens, ut a C-fa-ut ad [sqb]-durum sub c-sol-fa-ut immediate positum vel econtra.</p>
+      <p xml:id="CONNOV0077">Ditonus cum diapente similiter agnoscitur ex componentium
+        notificatione, et est ascensus vel descensus ab una voce in suam septimam perfectam duobus
+        tonis diapente excedens, ut a C-fa-ut ad [sqb]-durum sub c-sol-fa-ut immediate positum vel
+        econtra.</p>
       <p xml:id="CONNOV0078">
         <pb n="[204]"/>[RR in marg.] Diapason vero graecum vocabulum interpretatur de omnibus a dia
         = de et pan, quod est omne vel totum, et sonus, quod est vox; cuius est proprietas in
@@ -595,18 +612,18 @@
       <p xml:id="CONNOV0079">[SS in marg.] Omnes autem hae proportiones enumeratae graduali quo
         expeditae sunt ordine habentur in notis in hac unica riga sequenti:</p>
       <p xml:id="CONNOV0080">[Conrad, Tractatus, 204,1]</p>
-      <p xml:id="CONNOV0081">0mnes vero proportiones in uno simplici cantu reperibiles, quae et usitatae
-        sunt et dicuntur, habentur graduali ordine tam ascendendo quam descendendo in hac unica
-        riga, quae sequitur. Intellige tamen sane omnes secundum speciem, non secundum omnimodum
-        numerum reperibiles.</p>
+      <p xml:id="CONNOV0081">0mnes vero proportiones in uno simplici cantu reperibiles, quae et
+        usitatae sunt et dicuntur, habentur graduali ordine tam ascendendo quam descendendo in hac
+        unica riga, quae sequitur. Intellige tamen sane omnes secundum speciem, non secundum
+        omnimodum numerum reperibiles.</p>
       <p xml:id="CONNOV0082">[Conrad, Tractatus, 204,2]</p>
       <p xml:id="CONNOV0083">
         <pb n="[205]"/>Nihil ergo opus est incipientes cum hac cantilena Ter terni sunt modi vel cum
         ista Ter tria iunctorum vel alia consimili gravare, cum hoc modo, quo hic ponuntur,
         compendiosius habeantur faciliusque capiantur, discantur, et intelligantur.</p>
-      <p xml:id="CONNOV0084">[TT in marg.] Nunc, ut in praecedentibus promisi, de semitoniis latius est
-        dicendum. Multi enim imperiti cantando saepe in multos labuntur errores, quia vim semitonii
-        eiusque a tono diversitatem minime intelligunt vel perpendunt.</p>
+      <p xml:id="CONNOV0084">[TT in marg.] Nunc, ut in praecedentibus promisi, de semitoniis latius
+        est dicendum. Multi enim imperiti cantando saepe in multos labuntur errores, quia vim
+        semitonii eiusque a tono diversitatem minime intelligunt vel perpendunt.</p>
       <p xml:id="CONNOV0085">Primo ergo advertendum, quod intra unumquemque simplicem cantum ex sex
         musicis vocibus integratum necessario oportuit esse unum semitonium, quia sine eo non solum
         multae cantiones multum malum sonum reddidissent, sed etiam paene omnes, quae modo bonae
@@ -632,20 +649,22 @@
         dominus Odo in hac arte multum peritus. Quorum septem sunt in monochordo, similiter in
         musica manu, secundum quod septem sunt cantus secundum subdivisionem. Et haec septem sunt
         semitonia usitata, quibus carere non possumus.</p>
-      <p xml:id="CONNOV0088">Semitonia autem maiora non nisi duo habemus in monochordo, scilicet inter
-        utrumque b-molle et secum positum [sqb]-durum. Cum enim ab a-la-mi-re in [sqb]-durum integer
-        sit tonus, abstracto minore semitonio, quod est ab a-la-mi-re ad b-molle, necessario aliud
-        remanet maius, quod in tanto integri toni omnimodam sive adaequatam excedit medietatem,
-        quanto minus a medietate deficit, ut patet consideranti. Haec autem semitonia maiora non
-        sunt in usu cantandi; numquam enim immediate canitur de b-molli in [sqb]-durum vel econtra,
-        quare illis non curatis. De minoribus et usitatis curam habeamus diligenter; nihil enim
-        oculatius in cantu attendendum est non propter ipsamet semitonia sola, sed etiam propter
-        semiditonos, qui ex eis tonis adiunctis constituuntur. Ubi enim vel pro semitonio tonus vel
-        pro semiditono ditonus aut econtra cantaretur, non modicus error committeretur.</p>
-      <p xml:id="CONNOV0089">[XX in marg.] Omnia autem septem minora semitonia usitata simul ponuntur
-        per ordinem in hac unica riga, ut ipsi incipientes ea amplius considerare assuescant:</p>
-      <p xml:id="CONNOV0090">[Conrad, Tractatus, 206; text: primum, secundum, tertium, quartum, quintum,
-        sextum, septimum]</p>
+      <p xml:id="CONNOV0088">Semitonia autem maiora non nisi duo habemus in monochordo, scilicet
+        inter utrumque b-molle et secum positum [sqb]-durum. Cum enim ab a-la-mi-re in [sqb]-durum
+        integer sit tonus, abstracto minore semitonio, quod est ab a-la-mi-re ad b-molle, necessario
+        aliud remanet maius, quod in tanto integri toni omnimodam sive adaequatam excedit
+        medietatem, quanto minus a medietate deficit, ut patet consideranti. Haec autem semitonia
+        maiora non sunt in usu cantandi; numquam enim immediate canitur de b-molli in [sqb]-durum
+        vel econtra, quare illis non curatis. De minoribus et usitatis curam habeamus diligenter;
+        nihil enim oculatius in cantu attendendum est non propter ipsamet semitonia sola, sed etiam
+        propter semiditonos, qui ex eis tonis adiunctis constituuntur. Ubi enim vel pro semitonio
+        tonus vel pro semiditono ditonus aut econtra cantaretur, non modicus error
+        committeretur.</p>
+      <p xml:id="CONNOV0089">[XX in marg.] Omnia autem septem minora semitonia usitata simul
+        ponuntur per ordinem in hac unica riga, ut ipsi incipientes ea amplius considerare
+        assuescant:</p>
+      <p xml:id="CONNOV0090">[Conrad, Tractatus, 206; text: primum, secundum, tertium, quartum,
+        quintum, sextum, septimum]</p>
       <p xml:id="CONNOV0091">
         <pb n="[207]"/>De formatione monochordi</p>
       <p xml:id="CONNOV0092">[YY in marg.] Nunc, quia ex his, quae hucusque dicta sunt, facilius
@@ -658,15 +677,15 @@
         Verumtamen propter chordae unitatem tanta non indiget latitudine sicut ipsum clavichordium
         ob suarum chordarum multitudinem. Et quemadmodum unum clavichordium maius alio invenitur,
         sic et monochordum maius vel minus facere poteris.</p>
-      <p xml:id="CONNOV0094">Moduli autem, id est claves ligneae, quae chordam tangere sive percutere
-        debent, numero viginti praeter duo b-mollia, in ea parte, qua extra corpus monochordi
-        protenduntur, omnes aequalis sint latitudinis, omnes quoque omnino integrae ad instar primae
-        et ultimae clavium in ipso clavichordio ut communiter repertarum praeter has duas claves sub
-        secundo scilicet et tertio c immediate positas. Quarum quaelibet [sqb]-durum faciens sive
-        repraesentans intra se capiet et admittet, quoad anteriorem sive priorem sui partem aut
-        medietatem, ipsum modulum sive clavem b-mollis per modum semitonii sive parvi moduli. Ex
-        omnibus autem aliis minutis sive parvis modulis clavichordii nulli inveniantur in toto
-        monochordo praeter hos duos iam dictos b-mollium modulos minutos, quibus cum aliis
+      <p xml:id="CONNOV0094">Moduli autem, id est claves ligneae, quae chordam tangere sive
+        percutere debent, numero viginti praeter duo b-mollia, in ea parte, qua extra corpus
+        monochordi protenduntur, omnes aequalis sint latitudinis, omnes quoque omnino integrae ad
+        instar primae et ultimae clavium in ipso clavichordio ut communiter repertarum praeter has
+        duas claves sub secundo scilicet et tertio c immediate positas. Quarum quaelibet [sqb]-durum
+        faciens sive repraesentans intra se capiet et admittet, quoad anteriorem sive priorem sui
+        partem aut medietatem, ipsum modulum sive clavem b-mollis per modum semitonii sive parvi
+        moduli. Ex omnibus autem aliis minutis sive parvis modulis clavichordii nulli inveniantur in
+        toto monochordo praeter hos duos iam dictos b-mollium modulos minutos, quibus cum aliis
         connumeratis e-la saltem, ut mihi placet, ponendo erunt in toto monochordi ambitu moduli 22
         a [Gamma]-ut, prout oportet, incipiendo. Sic ergo supra communia clavichordia abundabit
         monochordum in parte inferiori ad duas claves, scilicet [Gamma]-ut et A-re. In parte autem
@@ -688,17 +707,18 @@
         differat et in quibus non, quo sufficienter exposito alicui factori clavichordiorum
         faciliter monochordum faciet habita saltem artificiali mensurationis norma, quae infra venit
         describenda.</p>
-      <p xml:id="CONNOV0097">[ZZ in marg.] Huiusmodi tamen descriptioni mensurae monochordi adhuc aliqua
-        necessario veniunt praemittenda. Sciendum ergo, quod talis monochordi mensuratio infra
-        dicenda fieri debet in unico illo assere vel ligno tenui longo et lato ac optime planato, de
-        quo omnes simul moduli veniunt formandi, prout clavichordiorum notum est factoribus. Vel
-        fiat ipsa mensuratio in aliqua forti pergamenia charta sufficientis magnitudinis. Qua postea
-        supra dictum asserem posita, tunc in quattuor angulis eius immobiliter affixa, singula
-        puncta, quibus nunc iuxta legem mensurae ascriptae sive appositae sunt litterae, acu
-        perforentur, vestigiis asseri impressis ut sic in eo pateat mensura; et reddit in idem
-        sufficitque artificibus, qui aliunde clavichordia facere norunt. 5 Et haec charta ad hoc
-        quoque valebit, quod postea, quotquot quis facere vellet monochorda similis saltem
-        quantitatis, subportatus esset de labore novae mensurationis utens illa pro patrono.</p>
+      <p xml:id="CONNOV0097">[ZZ in marg.] Huiusmodi tamen descriptioni mensurae monochordi adhuc
+        aliqua necessario veniunt praemittenda. Sciendum ergo, quod talis monochordi mensuratio
+        infra dicenda fieri debet in unico illo assere vel ligno tenui longo et lato ac optime
+        planato, de quo omnes simul moduli veniunt formandi, prout clavichordiorum notum est
+        factoribus. Vel fiat ipsa mensuratio in aliqua forti pergamenia charta sufficientis
+        magnitudinis. Qua postea supra dictum asserem posita, tunc in quattuor angulis eius
+        immobiliter affixa, singula puncta, quibus nunc iuxta legem mensurae ascriptae sive
+        appositae sunt litterae, acu perforentur, vestigiis asseri impressis ut sic in eo pateat
+        mensura; et reddit in idem sufficitque artificibus, qui aliunde clavichordia facere norunt.
+        5 Et haec charta ad hoc quoque valebit, quod postea, quotquot quis facere vellet monochorda
+        similis saltem quantitatis, subportatus esset de labore novae mensurationis utens illa pro
+        patrono.</p>
       <p xml:id="CONNOV0098">Ut autem sciatur, ubi termini a quo et ad quem mensurationis sint
         accipiendi, in quo maior vis est, quod et me diutius latuit quodque ex variis monochordi
         mensuris necdum valui intelligere, advertendum est, quod licet primus modulus ipsius
@@ -709,14 +729,15 @@
         distabit ab eo ad latitudinem unius pollicis. Ibi ergo, ubi sic appropinquat capitello, erit
         terminus a quo mensurationis, et secundum hoc faciendum est punctum in capite asseris, ex
         quo claves formari debent.</p>
-      <p xml:id="CONNOV0099">Terminus vero ad quem mensurationis est locus stephani, id est ponticuli,
-        ultra quem chorda ducitur, et secundum hoc alterum punctum fieri debet in <pb n="[209]"/>fine asseris, ex quo claves formabuntur. Qui asser necessario tantae longitudinis erit, ut
-        hos terminos a quo et ad quem iuxta omnimodam eorum distantiam, quam magnitudo cuiusquam
-        faciendi monochordi requirit, capere possit. Similiter intellige de ipsa charta asseri, ut
-        praemittitur, pro patrono supra ponenda. Inter haec igitur duo puncta in assere huiusmodi,
-        ut praemittitur, posita, in principio scilicet et in fine, vel in charta facta tota
-        mensuratio decurret. Punctum igitur primum locus ipsius [Gamma]-ut existens principium
-        dicitur, punctum vero aliud finis nuncupatur.</p>
+      <p xml:id="CONNOV0099">Terminus vero ad quem mensurationis est locus stephani, id est
+        ponticuli, ultra quem chorda ducitur, et secundum hoc alterum punctum fieri debet in <pb
+          n="[209]"/>fine asseris, ex quo claves formabuntur. Qui asser necessario tantae
+        longitudinis erit, ut hos terminos a quo et ad quem iuxta omnimodam eorum distantiam, quam
+        magnitudo cuiusquam faciendi monochordi requirit, capere possit. Similiter intellige de ipsa
+        charta asseri, ut praemittitur, pro patrono supra ponenda. Inter haec igitur duo puncta in
+        assere huiusmodi, ut praemittitur, posita, in principio scilicet et in fine, vel in charta
+        facta tota mensuratio decurret. Punctum igitur primum locus ipsius [Gamma]-ut existens
+        principium dicitur, punctum vero aliud finis nuncupatur.</p>
       <p xml:id="CONNOV0100">[ZZ in marg.] Et mensuratio ipsa tanta diligentia fieri debet, ut
         quotienscumque aliquot passus fieri iubentur usque ad finem, id est terminum ad quem,
         circinus ipse a primo puncto per aequales suos passus ductus ultimo suo passu ipsum punctum
@@ -749,13 +770,13 @@
         habentur, facilius formari et fieri possint ab eis, ad quorum notitiam praesens tractatus
         pervenerit, quem principaliter ideo collegi, ut monochordum, quod tantae utilitatis esse
         novi, prout infra copiose dicetur, aliqualiter ad pristinum usum revertatur.</p>
-      <p xml:id="CONNOV0102">Si autem aliquibus taediosum esset praemissa omnia legere aut secundum ea
-        operari, poterint de longa pergamenia charta mea ostensa formulam capere, qua proposita
+      <p xml:id="CONNOV0102">Si autem aliquibus taediosum esset praemissa omnia legere aut secundum
+        ea operari, poterint de longa pergamenia charta mea ostensa formulam capere, qua proposita
         artifici statim sibi pateret modus monochordum faciendi hoc salvo, si quis alterius, id est
         maioris vel minoris quantitatis monochordum habere voluerit, quod communicet ipsi artifici
         normam brevem mensurandi sub aliquo modorum, qui hic sequuntur.</p>
-      <p xml:id="CONNOV0103">Posset forte etiam alicui discretiori artifici sine huiusmodi charta cum
-        isto sufficere, quod diceretur sibi hoc solum in summa et breviter, quod monochordum
+      <p xml:id="CONNOV0103">Posset forte etiam alicui discretiori artifici sine huiusmodi charta
+        cum isto sufficere, quod diceretur sibi hoc solum in summa et breviter, quod monochordum
         formandum sit ad instar clavichordii exceptis his quattuor enumerandis, scilicet quod habeat
         [Gamma]-ut et A-re, quae communiter clavichordia non habent, et secundo, quod cesset in e-la
         inclusive omissa clave ultima, quam communiter habent clavichordia, et tertio, quod omnibus
@@ -802,8 +823,8 @@
         <pb n="[212]"/>De dispositionibus vocum sive clavium hi duo regulares modi sufficiant,
         quorum superior est ad memorandum facillimus. Hic vero, scilicet secundus, extat ad
         faciendum celerrimus.</p>
-      <p xml:id="CONNOV0108">[AD in marg.] In sequentibus vero omnes divisionum modi in brevi patebunt,
-        intellige quasi in quadam summaria comprehensione. Dispositis itaque, scilicet per
+      <p xml:id="CONNOV0108">[AD in marg.] In sequentibus vero omnes divisionum modi in brevi
+        patebunt, intellige quasi in quadam summaria comprehensione. Dispositis itaque, scilicet per
         mensurationem, litteris, inter litteram et litteram alias maius spatium cernitur, ut inter
         [Gamma]-ut et A-re vel inter A-re et B-mi, inter alias vero minus, ut inter B-mi et C, et
         reliqua. Et maius spatium tonus dicitur, minus vero semitonium, semis videlicet, id est non
@@ -813,14 +834,14 @@
         qui, quia omnino in idem redit, merito breviandi gratia veniebat omittendus. Alius etiam
         mensurandi modus ponitur in Odonis Dialogo, qui tamen in effectu cum praecedenti primo modo
         satis concordat.</p>
-      <p xml:id="CONNOV0110">De huiusmodi monochordi divisionibus Guido quasi in hac summa brevi totum
-        effectum comprehendens ubi supra loquitur in haec verba: Ut autem de divisione monochordi in
-        paucis multa perstringam, semper diapason duobus ad finem currit passibus, intellige
-        aequalibus, diapente tribus, diatesseron quattuor, tonus vero novem, quae semper iam dictae
-        proportiones quanto passibus sunt numerosiores, tanto sunt spatio breviores. Alias vero
-        divisiones praeter has quattuor invenire non poteris, scilicet in monochordo.</p>
-      <p xml:id="CONNOV0111">[AE in marg.] Vides autem per hos mensurandi modos, quomodo inter litteras
-        ipsas continue minora fiunt spatia versus stephanum plus et plus declinando, quod
+      <p xml:id="CONNOV0110">De huiusmodi monochordi divisionibus Guido quasi in hac summa brevi
+        totum effectum comprehendens ubi supra loquitur in haec verba: Ut autem de divisione
+        monochordi in paucis multa perstringam, semper diapason duobus ad finem currit passibus,
+        intellige aequalibus, diapente tribus, diatesseron quattuor, tonus vero novem, quae semper
+        iam dictae proportiones quanto passibus sunt numerosiores, tanto sunt spatio breviores.
+        Alias vero divisiones praeter has quattuor invenire non poteris, scilicet in monochordo.</p>
+      <p xml:id="CONNOV0111">[AE in marg.] Vides autem per hos mensurandi modos, quomodo inter
+        litteras ipsas continue minora fiunt spatia versus stephanum plus et plus declinando, quod
         regulariter est in omni musico instrumento, unde, ut patet ad oculum, diapason de primo a ad
         secundum duplex spatium continet respectu diapason inter secundum et tertium a, et sic de
         aliis litteris diapason facientibus suo modo. Unde et hoc fit, quod dicit Guido capitulo
@@ -832,100 +853,103 @@
         [sqb]-durum, et sic de aliis suo modo. Diatesseron quoque de primo .a. in primum d in quarta
         parte magnitudinis excedit illud diatesseron, quod est a dicto d in g, et sic de aliis
         similiter.</p>
-      <p xml:id="CONNOV0112">Has tres species, ait Guido, symphonias, id est suaves vocum copulationes,
-        memineris esse vocitatas, quia in diapason diversae voces unum sonant, diapente vero et
-        diatesseron diaphoniae, id est organi iura possident, et voces utcumque similes reddunt.
-        Tonus autem a tonando, id est sonando, nomen habens maiori voci, id eat inferiori, novem,
-        minori vero, id est superiori, octo passus constituit, scilicet ad finem. Semitonium autem
-        et ditonus et semiditonus, etsi voces ad canendum coniungunt, divisionem tamen non
-        recipiunt. Haec autem de monochordi divisionibus sufficiant.</p>
-      <p xml:id="CONNOV0113">[AF in marg.] Sequitur ergo nunc de residuis post formationem monochordi
-        adhuc faciendis. Formato autem et completo iam monochordo, stephano debite posito signetur
-        bene locus eius, ut si per transportationem monochordi contingeret eum aliquando de loco suo
-        cadere vel alias qualitercumque amoveri, postea praecise ad priorem debitum locum faciliter
-        possit reponi, ne ubi secus fieret aliquid falsificationis soni vel concordantiarum
-        induceret. Ipsa etiam chorda in principio circa primum capitellum ante scilicet primam
-        clavem sive modulum aliquo parvo panniculo laneo circumligetur firmiter et mansine, ut sic
-        debite obstruatur; alioquin enim nullum aptum redderet sonum. Ipsorum quoque duorum
-        b-mollium moduli aliquo colore depingantur, ut clarius eorum a [sqb]-duris considerari queat
-        differentia, cum et ipsa b-mollia adiuncta vocitentur. Supra ipsas quoque clavium
-        latitudines, quas extra corpus monochordi protendunt, bitumine aliquo pergameniae aequalis
-        latitudinis cedulae affigantur, in quarum cedularum capite et praecise in medio earum per
-        ordinem scribantur singulae monochordi claves sive litterae iuxta modum, quo formari debent,
-        scilicet inferius grossiores, in medio mediocres, et versus finem minores. Post illas
-        litteras et sub eis in singulis cedularum ascribantur voces illae musicae, una vel plures,
-        secundum quod ipsis litteris sunt attributae iuxta tabulae vel manus musicae continentiam.
-        Scribantur etiam in singulis illis cedulis, in quibus aliquod .ut. ponitur, cantuum suorum
-        inceptiones. Hae quoque tres claves sive litterae, quibus in libris cantualibus <pb n="[214]"/>utimur, scilicet f, c, g, suis in modulis etiam inscribantur. In extremitatibus
-        quoque modulorum versus nos singuli eorum, qui lineas librorum cantualium repraesentare
-        debent, ad latitudinem unius calami cum incausto denigrentur. Et si placuerit, poterit quis
-        colores istos, rubeum scilicet et glaucum, qui in certis terris in libris cantualibus suis
-        in locis apponuntur, nihilominus et hic in cedulis praedictis debitis in locis apponere. Sic
-        habebuntur ante oculos clare et distincte singula ipsis incipientibus necessaria, ut melius
-        et utilius horum directione uti possint monochordo.</p>
-      <p xml:id="CONNOV0114">[AG in marg.] Nunc de monochordi multiplici usu et utilitate aliquid venit
-        dicendum, ut amplius ad ipsum faciendum aut sibi comparandum eorum affectus inclinetur et
-        moveatur, qui in musica efficaciter cupiunt proficere.</p>
-      <p xml:id="CONNOV0115">Cognita itaque iam ex praemissis monochordi divisione, unde dicatur et quid
-        conferat utilitatis, nunc animadvertendum est. Monochordum quippe propter unam quam
+      <p xml:id="CONNOV0112">Has tres species, ait Guido, symphonias, id est suaves vocum
+        copulationes, memineris esse vocitatas, quia in diapason diversae voces unum sonant,
+        diapente vero et diatesseron diaphoniae, id est organi iura possident, et voces utcumque
+        similes reddunt. Tonus autem a tonando, id est sonando, nomen habens maiori voci, id eat
+        inferiori, novem, minori vero, id est superiori, octo passus constituit, scilicet ad finem.
+        Semitonium autem et ditonus et semiditonus, etsi voces ad canendum coniungunt, divisionem
+        tamen non recipiunt. Haec autem de monochordi divisionibus sufficiant.</p>
+      <p xml:id="CONNOV0113">[AF in marg.] Sequitur ergo nunc de residuis post formationem
+        monochordi adhuc faciendis. Formato autem et completo iam monochordo, stephano debite posito
+        signetur bene locus eius, ut si per transportationem monochordi contingeret eum aliquando de
+        loco suo cadere vel alias qualitercumque amoveri, postea praecise ad priorem debitum locum
+        faciliter possit reponi, ne ubi secus fieret aliquid falsificationis soni vel
+        concordantiarum induceret. Ipsa etiam chorda in principio circa primum capitellum ante
+        scilicet primam clavem sive modulum aliquo parvo panniculo laneo circumligetur firmiter et
+        mansine, ut sic debite obstruatur; alioquin enim nullum aptum redderet sonum. Ipsorum quoque
+        duorum b-mollium moduli aliquo colore depingantur, ut clarius eorum a [sqb]-duris
+        considerari queat differentia, cum et ipsa b-mollia adiuncta vocitentur. Supra ipsas quoque
+        clavium latitudines, quas extra corpus monochordi protendunt, bitumine aliquo pergameniae
+        aequalis latitudinis cedulae affigantur, in quarum cedularum capite et praecise in medio
+        earum per ordinem scribantur singulae monochordi claves sive litterae iuxta modum, quo
+        formari debent, scilicet inferius grossiores, in medio mediocres, et versus finem minores.
+        Post illas litteras et sub eis in singulis cedularum ascribantur voces illae musicae, una
+        vel plures, secundum quod ipsis litteris sunt attributae iuxta tabulae vel manus musicae
+        continentiam. Scribantur etiam in singulis illis cedulis, in quibus aliquod .ut. ponitur,
+        cantuum suorum inceptiones. Hae quoque tres claves sive litterae, quibus in libris
+        cantualibus <pb n="[214]"/>utimur, scilicet f, c, g, suis in modulis etiam inscribantur. In
+        extremitatibus quoque modulorum versus nos singuli eorum, qui lineas librorum cantualium
+        repraesentare debent, ad latitudinem unius calami cum incausto denigrentur. Et si placuerit,
+        poterit quis colores istos, rubeum scilicet et glaucum, qui in certis terris in libris
+        cantualibus suis in locis apponuntur, nihilominus et hic in cedulis praedictis debitis in
+        locis apponere. Sic habebuntur ante oculos clare et distincte singula ipsis incipientibus
+        necessaria, ut melius et utilius horum directione uti possint monochordo.</p>
+      <p xml:id="CONNOV0114">[AG in marg.] Nunc de monochordi multiplici usu et utilitate aliquid
+        venit dicendum, ut amplius ad ipsum faciendum aut sibi comparandum eorum affectus inclinetur
+        et moveatur, qui in musica efficaciter cupiunt proficere.</p>
+      <p xml:id="CONNOV0115">Cognita itaque iam ex praemissis monochordi divisione, unde dicatur et
+        quid conferat utilitatis, nunc animadvertendum est. Monochordum quippe propter unam quam
         solummodo habet chordam nomen accepit; monos enim graece unus vel solus dicitur. Itaque
         sicut decachordum a decem chordis, sic monochordum ab una chorda est appellatum. Quam merito
         autem et quam necessario unicam tantum chordam habere debuit, mox infra sufficienter
         patebit, scilicet sub AI.</p>
-      <p xml:id="CONNOV0116">Ad haec autem, quae sequuntur, instrumentum illud plurimum est utile. Primo
-        quidem, ut cantus musicus per ipsum melius ac facilius et doceatur ab informatoribus et
-        discatur a scolaribus sive auditoribus. Informatores enim multa, quae sine ipso difficulter
-        possent ad aerem loquendo explanare, per ipsum et in ipso longe facilius poterunt ad sensum
-        declarare, cum in eo omnis clavium habitudo ac distinctio et ad invicem varia proportio
-        oculis videantur et nihilominus ipsae musicae voces earumque varietates infallibiliter etiam
-        auditu percipiantur, cum ergo hi duo sensus, visus scilicet et auditus, ad doctrinam maxime
-        conferant, quomodo auditores instruendi hoc modo cuncta dicenda non longe melius caperent
-        quam aliunde.</p>
-      <p xml:id="CONNOV0117">Valet etiam secundo hoc modo scolaribus ad musicam aspirantibus, ut cum eis
-        adhibetur monochordum, quidquid post auditas lectiones pro sui exercitatione de cantionibus
-        quibuscumque voluerint addiscere, ipso eius sono duce ad id facilius pertingant. Hinc ait
-        Odo in suo Dialogo in persona magistri ad discipulum: Pone ante oculos tuos litteras
-        monochordi, sicut discurrunt per eas cantilenae, et si non plene cognoscis vim ipsarum
-        litterarum vocumque suarum, percutiens chordam secundum easdem litteras mirifice audies et
-        cognosces ab ignorante magistro. Ecce mirabilem magistrum, qui a te factus te <pb n="[215]"/>doceat et te docens ipse nil sapiet. Quin immo haec exercitatio incipientium in monochordo
-        et per ipsum tam utilis est et efficax, quod dominus Guido dicit de pueris, quos ipse per
-        monochordum informavit, quod quidam eorum imitatione chordae et notarum eius usu exercitati
-        ante unius mensis spatium invisos et prius inauditos cantus ita primo intuitu indubitanter
-        cantabant, ut maximum plurimis spectaculum praeberetur.</p>
+      <p xml:id="CONNOV0116">Ad haec autem, quae sequuntur, instrumentum illud plurimum est utile.
+        Primo quidem, ut cantus musicus per ipsum melius ac facilius et doceatur ab informatoribus
+        et discatur a scolaribus sive auditoribus. Informatores enim multa, quae sine ipso
+        difficulter possent ad aerem loquendo explanare, per ipsum et in ipso longe facilius
+        poterunt ad sensum declarare, cum in eo omnis clavium habitudo ac distinctio et ad invicem
+        varia proportio oculis videantur et nihilominus ipsae musicae voces earumque varietates
+        infallibiliter etiam auditu percipiantur, cum ergo hi duo sensus, visus scilicet et auditus,
+        ad doctrinam maxime conferant, quomodo auditores instruendi hoc modo cuncta dicenda non
+        longe melius caperent quam aliunde.</p>
+      <p xml:id="CONNOV0117">Valet etiam secundo hoc modo scolaribus ad musicam aspirantibus, ut cum
+        eis adhibetur monochordum, quidquid post auditas lectiones pro sui exercitatione de
+        cantionibus quibuscumque voluerint addiscere, ipso eius sono duce ad id facilius pertingant.
+        Hinc ait Odo in suo Dialogo in persona magistri ad discipulum: Pone ante oculos tuos
+        litteras monochordi, sicut discurrunt per eas cantilenae, et si non plene cognoscis vim
+        ipsarum litterarum vocumque suarum, percutiens chordam secundum easdem litteras mirifice
+        audies et cognosces ab ignorante magistro. Ecce mirabilem magistrum, qui a te factus te <pb
+          n="[215]"/>doceat et te docens ipse nil sapiet. Quin immo haec exercitatio incipientium in
+        monochordo et per ipsum tam utilis est et efficax, quod dominus Guido dicit de pueris, quos
+        ipse per monochordum informavit, quod quidam eorum imitatione chordae et notarum eius usu
+        exercitati ante unius mensis spatium invisos et prius inauditos cantus ita primo intuitu
+        indubitanter cantabant, ut maximum plurimis spectaculum praeberetur.</p>
       <p xml:id="CONNOV0118">Qui autem dicto modo per monochordum excercitari voluerit, ipsum cum
         cantuali libro frequenter penes se ad manum habeat et primum, si tamen sibi opus fuerit,
         ascensiones et descensiones illas supra sub littera Q commemoratas per ipsum monochordum
         addiscat et inter haec, si opportunum videatur, de vocis dissonantia se probet, ut infra
         dicetur sub AL.</p>
-      <p xml:id="CONNOV0119">Cognita autem iam vocis rectitudine quidquid postea pro sui exercitatione
-        cantare voluerit, in monochordo primum incipiat tangendo scilicet clavem hanc, in qua cantus
-        in libro initium sumit, concordando vocem suam cum sono, quem haec clavis chordam tangendo
-        causaverit. Sicque incipiens dimisso iam monochordo cantet per unam pausam vel rigam iamque
-        huiusmodi clavem in monochordo tangat, in qua in libro dimiserat, probans si iam iterum vox
-        sua cum sono concordet. Quod si, sic iterum usque ad aliam pausam vel alterius rigae finem
-        cantet similiter in fine concordiam probando, id est ut supra, et sic de aliis continue. Si
-        autem aliquando invenerit se in fine discordare, signum est, quod intra hanc rigam vel
-        particulam cantici errorem commiserit plus vel minus debito alicubi ascendendo vel
-        descendendo. A principio igitur huius rigae vel particulae reincipiens totam cantet de nota
-        ad notam continue tangens correspondenter claves monochordi, sic tamen, quod vox sua sonum
-        monochordi paulisper praecedat, et sic statim deprehendet, ubi erraverit. Ibi ergo moram
-        faciens idem, in quo erratum fuit, iterum et iterum cantet considerans inter haec diligenter
-        erroris causam, ut sic se per hoc in posterum cautiorem reddat.</p>
+      <p xml:id="CONNOV0119">Cognita autem iam vocis rectitudine quidquid postea pro sui
+        exercitatione cantare voluerit, in monochordo primum incipiat tangendo scilicet clavem hanc,
+        in qua cantus in libro initium sumit, concordando vocem suam cum sono, quem haec clavis
+        chordam tangendo causaverit. Sicque incipiens dimisso iam monochordo cantet per unam pausam
+        vel rigam iamque huiusmodi clavem in monochordo tangat, in qua in libro dimiserat, probans
+        si iam iterum vox sua cum sono concordet. Quod si, sic iterum usque ad aliam pausam vel
+        alterius rigae finem cantet similiter in fine concordiam probando, id est ut supra, et sic
+        de aliis continue. Si autem aliquando invenerit se in fine discordare, signum est, quod
+        intra hanc rigam vel particulam cantici errorem commiserit plus vel minus debito alicubi
+        ascendendo vel descendendo. A principio igitur huius rigae vel particulae reincipiens totam
+        cantet de nota ad notam continue tangens correspondenter claves monochordi, sic tamen, quod
+        vox sua sonum monochordi paulisper praecedat, et sic statim deprehendet, ubi erraverit. Ibi
+        ergo moram faciens idem, in quo erratum fuit, iterum et iterum cantet considerans inter haec
+        diligenter erroris causam, ut sic se per hoc in posterum cautiorem reddat.</p>
       <p xml:id="CONNOV0120">[AH in marg.] Tertia monochordi utilitas est haec, ut cantus, de quo
         dubitatur verusne sit an falsus, id est correctus vel incorrectus, in eo proberut. Ad quod
-        illud instrumentum perutile dinoscitur, sicut ipse probavi pro persona mea saepissime <pb n="[216]"/>et nihilominus in quodam iuvene, qui in veritate a me nondum ad octo horas in
+        illud instrumentum perutile dinoscitur, sicut ipse probavi pro persona mea saepissime <pb
+          n="[216]"/>et nihilominus in quodam iuvene, qui in veritate a me nondum ad octo horas in
         musica instructus cantum quemdam non modicae difficultatis in sex locis deficientem correxit
         et emendavit, ut hoc pluribus sacerdotibus aspicientibus spectaculum praeberet non
         modicum.</p>
-      <p xml:id="CONNOV0121">Quarto etiam plurimum valet hoc instrumentum contra quorundam protervorum
-        et insulsorum rebellionem. Sunt enim plerique clerici vel religiosi, qui hanc artem neque
-        sciunt neque scire volunt et, quod gravius est, scientes fugiunt et abhorrent. Quodsi
-        aliquando, ut fit, musicus eos de cantu, quem non recte vel inepte efferunt, arguat, etiam
-        quantumcumque discrete, irati impudenter obstrepunt et veritati acquiescere nolunt suumque
-        errorem summo conamine defendunt. Ad horum itaque obstinationem pulchre sine multorum
-        verborum conflictu confutandam monochordum apponitur, ut qui verbis musici credere nolunt,
-        soni ipsius instrumenti attestatione vincantur. Sic enim mox eorum error sensibiliter
-        apprehenditur et evidenter convincitur.</p>
+      <p xml:id="CONNOV0121">Quarto etiam plurimum valet hoc instrumentum contra quorundam
+        protervorum et insulsorum rebellionem. Sunt enim plerique clerici vel religiosi, qui hanc
+        artem neque sciunt neque scire volunt et, quod gravius est, scientes fugiunt et abhorrent.
+        Quodsi aliquando, ut fit, musicus eos de cantu, quem non recte vel inepte efferunt, arguat,
+        etiam quantumcumque discrete, irati impudenter obstrepunt et veritati acquiescere nolunt
+        suumque errorem summo conamine defendunt. Ad horum itaque obstinationem pulchre sine
+        multorum verborum conflictu confutandam monochordum apponitur, ut qui verbis musici credere
+        nolunt, soni ipsius instrumenti attestatione vincantur. Sic enim mox eorum error
+        sensibiliter apprehenditur et evidenter convincitur.</p>
       <p xml:id="CONNOV0122">[AI in marg.] Quomodo autem et cur ipsum monochordum ob chordae suae
         unitatem ad haec omnia iam dicta nec non etiam ad iam mox ultra dicenda longe amplius valeat
         praesertim incipientibus quam quodcumque aliorum instrumentorum musicalium plures chordas
@@ -938,8 +962,8 @@
         citius poterit adaptari. Non ergo sine causa a peritissimis musicis est hoc laboriosissime
         inventum, ut unica chorda omnium clavium vel vocum musicalium sonum regularissime distinctum
         infallibiliter reddere debeat per monochordum.</p>
-      <p xml:id="CONNOV0123">[AK in marg.] Usus autem ipsius monochordi non solum esse debet quoad iam
-        dicta, sed etiam quoad quaedam alia, quae sequuntur. Primo scilicet ad hoc, ut per ipsum
+      <p xml:id="CONNOV0123">[AK in marg.] Usus autem ipsius monochordi non solum esse debet quoad
+        iam dicta, sed etiam quoad quaedam alia, quae sequuntur. Primo scilicet ad hoc, ut per ipsum
         ipsi informandi primo probentur, praesertim illi, qui sic volunt instrui, ut non solum quae
         dicuntur intelligant, ut alios ultra docere queant, sed etiam post <pb n="[217]"/>breve
         tempus ipsi melius cantare sciant. Qui ita prius veniunt probandi, ut dorsa monochordo
@@ -950,8 +974,8 @@
         vero saepe discordaverit et sufficienter ammonitus se emendare non novit quasi non
         intelligens se discordare, hunc quasi naturalem inmusicum nemo docere praesumat, quia stulto
         et inutili labore utrosque ipsos gravaret.</p>
-      <p xml:id="CONNOV0124">[AL in marg.] Utendum quoque ad hoc est monochordum, ut si quis dissonam
-        vocem habeat, per ipsum a dissonantia paulatim compescatur hoc modo, quod pro sui
+      <p xml:id="CONNOV0124">[AL in marg.] Utendum quoque ad hoc est monochordum, ut si quis
+        dissonam vocem habeat, per ipsum a dissonantia paulatim compescatur hoc modo, quod pro sui
         exercitatione iterum et iterum cantare volens qualiacumque cantica primo clavem monochordi,
         in qua canenda cantio incipit, digito tangat et iuxta sonum eius incipiat et continuando
         semper post tria vel quattuor verba cantici iterum ac iterum clavem, in qua tunc est,
@@ -998,20 +1022,21 @@
         quomodocumque etiam sit de principio et medio, cantus semper illius toni fore dicatur, cuius
         proprium habet finem, ut infra plenius dicetur sub AV, et hoc non immerito, quia in fine
         consistit perfectio rei.</p>
-      <p xml:id="CONNOV0128">[AP in marg.] Graeci autem phthongos vocant, quos nos tonos vocamus, quo
-        vocabulo hodie plures in suis scriptis utuntur. Sunt etiam quidam, qui propter huius <pb n="[219]"/>nominis tonus aequivocationem nomen toni in hac significatione, quae ad
+      <p xml:id="CONNOV0128">[AP in marg.] Graeci autem phthongos vocant, quos nos tonos vocamus,
+        quo vocabulo hodie plures in suis scriptis utuntur. Sunt etiam quidam, qui propter huius <pb
+          n="[219]"/>nominis tonus aequivocationem nomen toni in hac significatione, quae ad
         propositum facit, mutant in nomen modi nominantes illud modum, quod nos tonum. Alii quoque
         tonos tropos nominant, sed in hoc nulla est vis facienda. Utamur ergo pro synonimis
         huiusmodi nominibus tonus, modus, phthongus, tropus.</p>
-      <p xml:id="CONNOV0129">Dicuntur autem modi a moderando vel a modulando, quia videlicet cantus per
-        eos modulatur seu moderatur, id est regitur, vel modulatur, id est componitur. Quicumque
+      <p xml:id="CONNOV0129">Dicuntur autem modi a moderando vel a modulando, quia videlicet cantus
+        per eos modulatur seu moderatur, id est regitur, vel modulatur, id est componitur. Quicumque
         enim habens musicae notitiam regularem cantum componere curat, prius ad quem tonum eum
         convenire faciat, secum destinat. Ideo autem dixi habens musicae notitiam, quia artis
         expers, etsi recte faciat quod facit, quia tamen inscius facit, parvi penditur, praesertim
         cum mimi et chorearum praecentores plerumque dulciter cantent, quod eis non ars, sed natura
         administrat.</p>
-      <p xml:id="CONNOV0130">Tropi vero a convenienti conversione dicti sunt; quomodocumque enim cantus
-        in medio varietur, ad finalem tamen semper per tropos, id est tonos, convenienter
+      <p xml:id="CONNOV0130">Tropi vero a convenienti conversione dicti sunt; quomodocumque enim
+        cantus in medio varietur, ad finalem tamen semper per tropos, id est tonos, convenienter
         convertitur. Tonos vero eos nominari, etsi Guidoni incongruum videtur et abusivum, tamen
         secundum Johannem in Summa, si rem diligentius intuemur, non omnino abusivum videbitur illud
         vocabulum. Latini enim inopia eloquii plerumque indiciis propriis carent ideoque interdum
@@ -1025,9 +1050,9 @@
       <p xml:id="CONNOV0133">psallite regi nostro, psallite.</p>
       <p xml:id="CONNOV0134">Et horum quattuor primus apud eos vocabatur protus, secundus deuterus,
         tertius tritus, quartus tetrardus.</p>
-      <p xml:id="CONNOV0135">Moderni vero octo ponunt ad imitationem videlicet octo partium orationis.
-        Congruum quippe videtur, ut sicut octo partibus continetur, quidquid dicitur, sic octo modis
-        moderetur omne quod cantatur.</p>
+      <p xml:id="CONNOV0135">Moderni vero octo ponunt ad imitationem videlicet octo partium
+        orationis. Congruum quippe videtur, ut sicut octo partibus continetur, quidquid dicitur, sic
+        octo modis moderetur omne quod cantatur.</p>
       <p xml:id="CONNOV0136">
         <pb n="[220]"/>[AR in marg.] Sed cur nunc octo sint, cum tamen olim tantummodo quattuor
         essent, de hac re est sic sciendum, quod qui primitus scripserunt de musica, natura vocum et
@@ -1041,20 +1066,21 @@
         canendi modus, qui in acutis versaretur, authentus, id est auctoralis sive principalis,
         diceretur, qui vero in gravibus magis moram faceret, plagalis, id est collateralis seu
         subiugalis, vocaretur.</p>
-      <p xml:id="CONNOV0137">[AS in marg.] Distinguuntur autem nunc sic: Authentus protus apud latinos
-        cantores primus tonus vocatur, plagalis protus secundus dicitur, authentus deuterus tertius,
-        plagalis deuterus quartus, authentus tritus quintus, plagalis tritus sextus; authentus
-        tetrardus, id est quartus inter authentos, septimus est, plagalis tetrardus octavus.
-        Interpretatur autem protus primus, deuterus secundus, tritus tertius, tetrardus quartus.
-        Authentus vero auctoralis sonat graece; auctoritatem namque ipsi authentim vocant. Plagalis
-        autem quasi partialis vel collateralis exponi potest; dicimus enim: in illa plaga, id est in
-        illa parte sive in illo latere.</p>
+      <p xml:id="CONNOV0137">[AS in marg.] Distinguuntur autem nunc sic: Authentus protus apud
+        latinos cantores primus tonus vocatur, plagalis protus secundus dicitur, authentus deuterus
+        tertius, plagalis deuterus quartus, authentus tritus quintus, plagalis tritus sextus;
+        authentus tetrardus, id est quartus inter authentos, septimus est, plagalis tetrardus
+        octavus. Interpretatur autem protus primus, deuterus secundus, tritus tertius, tetrardus
+        quartus. Authentus vero auctoralis sonat graece; auctoritatem namque ipsi authentim vocant.
+        Plagalis autem quasi partialis vel collateralis exponi potest; dicimus enim: in illa plaga,
+        id est in illa parte sive in illo latere.</p>
       <p xml:id="CONNOV0138">[AT in marg.] Sicut autem octo sunt toni, ita et eorundem sunt octo
         tenores. Tenor autem a teneo sicut a niteo, nitor et a splendere, splendor dicitur. Et
         tenores in musica quidem vocamus, ubi prima syllaba Saeculorum amen cuiuslibet toni
         incipitur, intellige tamen sane habito simul respectu ad tonorum finales. Quasdam enim
         claves modulationis tenent, et ad cantum cognoscendum nobis aditum praebent.</p>
-      <p xml:id="CONNOV0139">Notandum autem, quod sicut fines cantuum octo tonorum in quattuor <pb n="[221]"/>clavibus, quae ob id etiam finales vocantur, dispositi sunt, ut infra plenius
+      <p xml:id="CONNOV0139">Notandum autem, quod sicut fines cantuum octo tonorum in quattuor <pb
+          n="[221]"/>clavibus, quae ob id etiam finales vocantur, dispositi sunt, ut infra plenius
         dicetur sub AV, sic octo tenoribus, id est tonorum vel modorum aptitudinibus, claves
         quattuor attributae sunt, sed diverso modo. Semper enim duorum tonorum finis ad unam clavem
         respicit, itemque duorum ad unam, et sic per cetera, ut infra mox habebitur. In tenoribus
@@ -1067,20 +1093,20 @@
       <p xml:id="CONNOV0142">Ultimus octavus cum quinto, tertius a c.</p>
       <p xml:id="CONNOV0143">Fque secundus amat, d septimus altior istis.</p>
       <p xml:id="CONNOV0144">Intellige haec de inceptionibus Saeculorum amen.</p>
-      <p xml:id="CONNOV0145">[AV in marg.] Sunt autem proprie, ut supra dixi, tonorum finales quattuor
-        istae: D, E, F, G, quia quilibet authentus cum suo plagali unam tantum habet finalem. Et D
-        quidem finalis est primi et secundi, E tertii et quarti, F quinti et sexti, G septimi et
-        octavi. Unde quidam metrice ait:</p>
+      <p xml:id="CONNOV0145">[AV in marg.] Sunt autem proprie, ut supra dixi, tonorum finales
+        quattuor istae: D, E, F, G, quia quilibet authentus cum suo plagali unam tantum habet
+        finalem. Et D quidem finalis est primi et secundi, E tertii et quarti, F quinti et sexti, G
+        septimi et octavi. Unde quidam metrice ait:</p>
       <p xml:id="CONNOV0146">In D finitur primus tonus atque secundus.</p>
       <p xml:id="CONNOV0147">Est E-la-mi terni finis simulatque quaterni.</p>
       <p xml:id="CONNOV0148">Quinti et sexti finis solet F-fa-ut esse.</p>
       <p xml:id="CONNOV0149">Septimus, octavus in G faciunt tibi finem.</p>
-      <p xml:id="CONNOV0150">Et hoc intelligitur, quod regulariter ita fieri solet. Ideo autem proprie
-        dixi, quia et alias finales interdum sibi cantus usurpant. Quod quomodo et cur eveniat, in
-        sequentibus sufficienter dicetur, scilicet sub BF.</p>
-      <p xml:id="CONNOV0151">Sciendum est autem, quod tota vis cantus ad finales respicit; nam ubicumque
-        cantus incipiatur et quocumque modo varietur, semper ei modo adiudicandus est, in cuius
-        finali cessaverit. Nec incongrue hoc musicorum providentiae visum est, uti modorum
+      <p xml:id="CONNOV0150">Et hoc intelligitur, quod regulariter ita fieri solet. Ideo autem
+        proprie dixi, quia et alias finales interdum sibi cantus usurpant. Quod quomodo et cur
+        eveniat, in sequentibus sufficienter dicetur, scilicet sub BF.</p>
+      <p xml:id="CONNOV0151">Sciendum est autem, quod tota vis cantus ad finales respicit; nam
+        ubicumque cantus incipiatur et quocumque modo varietur, semper ei modo adiudicandus est, in
+        cuius finali cessaverit. Nec incongrue hoc musicorum providentiae visum est, uti modorum
         considerationem fini attribuerent, cum in <pb n="[222]"/>gerendis rebus sola finis
         consideratio sapientes ab incautis secernat teste Boethio, qui dicit: Rerum exitus prudentia
         metitur. Unde quidam metrice ait:</p>
@@ -1095,14 +1121,14 @@
       <p xml:id="CONNOV0157">C gravis est deuteri, sed in E-la Gloria quarti.</p>
       <p xml:id="CONNOV0158">F-fa-ut est primi, quinti, quoque Gloria sexti.</p>
       <p xml:id="CONNOV0159">Ternus et octavus in G-sol, septimus in [sqb].</p>
-      <p xml:id="CONNOV0160">Nunc de singulis finalibus et tenoribus et Gloria tonorum exempla subdamus,
-        ac primum de Gloria et Saeculorum amen per omnia exemplificemus ut sequitur:</p>
+      <p xml:id="CONNOV0160">Nunc de singulis finalibus et tenoribus et Gloria tonorum exempla
+        subdamus, ac primum de Gloria et Saeculorum amen per omnia exemplificemus ut sequitur:</p>
       <p xml:id="CONNOV0161">[Conrad, Tractatus, 222; text: Gloria saeculorum amen, Primi, Secundi,
         Tertii, Quarti, Quinti, Sexti, Septimi, Octavi] <figure>
           <graphic url="/images/CONNOV_02GF.gif"/>
         </figure></p>
-      <p xml:id="CONNOV0162">In hac praemissa brevi exemplificatione vides singulorum Gloria inceptiones
-        cum Saeculorum amen. Vides etiam singulorum tonorum sive modorum tenores.</p>
+      <p xml:id="CONNOV0162">In hac praemissa brevi exemplificatione vides singulorum Gloria
+        inceptiones cum Saeculorum amen. Vides etiam singulorum tonorum sive modorum tenores.</p>
       <p xml:id="CONNOV0163">De finalibus autem, de quibus adhuc restat exemplificatio, propter
         aequivocationem termini advertendum est, quod uno modo dicuntur claves illae, in quibus octo
         toni fines suos constituunt, et hoc modo de eis in praemissis iam <pb n="[223]"/>satis nunc
@@ -1110,12 +1136,12 @@
         ipsorum tonorum agnitione hos tradunt versus:</p>
       <p xml:id="CONNOV0164">Pri re la. Se re fa. Ter mi fa. Quar quoque mi la.</p>
       <p xml:id="CONNOV0165">Quin fa fa. Sex fa la. Sep ut sol. Oc tenet ut fa.</p>
-      <p xml:id="CONNOV0166">Alio vero modo finales dicuntur neumae illae sive iubili illi, qui in fine
-        antiphonarum addi et cantari solent in plerisque ecclesiis, secundum quod dicimus, quod
+      <p xml:id="CONNOV0166">Alio vero modo finales dicuntur neumae illae sive iubili illi, qui in
+        fine antiphonarum addi et cantari solent in plerisque ecclesiis, secundum quod dicimus, quod
         quilibet tonus suam habet finalem, quas finales plerique neumas vocant. Quidam vero rudes
         vocant eas caudas.</p>
-      <p xml:id="CONNOV0167">Qui de huiusmodi finalibus exemplificationem habere desiderat, cedulam, in
-        qua simul ponuntur, poterit. transcopiare.</p>
+      <p xml:id="CONNOV0167">Qui de huiusmodi finalibus exemplificationem habere desiderat, cedulam,
+        in qua simul ponuntur, poterit. transcopiare.</p>
       <p xml:id="CONNOV0168">[AY in marg.] His ita praemissis iam nunc tempus est, ut de regulari et
         licenti omnium modorum cursu regulae tradantur. Cum igitur de cursu modorum dicendum est,
         quid cursus eorum sit vel vocetur, primitus est discutiendum. Cursum itaque modorum sive
@@ -1136,22 +1162,22 @@
         sunt, quae per licentiam conceduntur. Quod enim quis per regulam habet, quasi ex debito
         habet, ideoque liberius eo frui potest. Quae autem per licentiam possidentur, ea tamquam per
         gratiam concessa humilius, rarius, atque prudentius sunt tractanda.</p>
-      <p xml:id="CONNOV0170">Descendunt autem ipsi authenti a finali, id est infra eam, ad proximam, ubi
-        nulla eis licentia a peritis musicis concessa reperitur, ait Johannes in Summa. Fatetur
+      <p xml:id="CONNOV0170">Descendunt autem ipsi authenti a finali, id est infra eam, ad proximam,
+        ubi nulla eis licentia a peritis musicis concessa reperitur, ait Johannes in Summa. Fatetur
         tamen alios aliter dicere, ut infra patebit sub AZ mox post principium. Excipitur tamen inde
         authentus tritus, qui simpliciter quintus dicitur. Huic nulla infra finalem descensio
         attributa est non aliam ob causam, nisi quod semitonii imperfectio competentem descensum
         fieri non permittit.</p>
-      <p xml:id="CONNOV0171">Plagales autem omnes a finali usque ad quintam, id est diapente, ascendunt
-        et licenter nonnumquam sextam assumunt. Nec est mirandum, quod plagales minorem ascendendi
-        licentiam habent quam authenti, quia plagales semper in inferioribus morari debent et
-        perraro a finali ad quintam ascendere. Nam et Odo huius artis peritus et a Guidone in fine
-        sui tractatus multum commendatus et approbatus cantum, qui a finali ascendens quintam ter
-        vel quater percutit, authento deputat, unde et haec antiphona Ecce tu pulchra, quamquam in
-        cursu secundi toni decidat, tamen quia superius quintam a finali saepius reverberat, primo
-        tono deputatur. Item hoc responsorium Deus omnium, quia in superioribus frequentius
-        versatur, quamvis in uno verbo unctione ad A capitale descendat, primo tamen tono
-        ascribitur, quod ideo fit, ut honor principibus, id est authentis, conservetur. Dominus
+      <p xml:id="CONNOV0171">Plagales autem omnes a finali usque ad quintam, id est diapente,
+        ascendunt et licenter nonnumquam sextam assumunt. Nec est mirandum, quod plagales minorem
+        ascendendi licentiam habent quam authenti, quia plagales semper in inferioribus morari
+        debent et perraro a finali ad quintam ascendere. Nam et Odo huius artis peritus et a Guidone
+        in fine sui tractatus multum commendatus et approbatus cantum, qui a finali ascendens
+        quintam ter vel quater percutit, authento deputat, unde et haec antiphona Ecce tu pulchra,
+        quamquam in cursu secundi toni decidat, tamen quia superius quintam a finali saepius
+        reverberat, primo tono deputatur. Item hoc responsorium Deus omnium, quia in superioribus
+        frequentius versatur, quamvis in uno verbo unctione ad A capitale descendat, primo tamen
+        tono ascribitur, quod ideo fit, ut honor principibus, id est authentis, conservetur. Dominus
         namque sive magister non solum in propria potestatem habet, sed etiam in ea, quae sunt
         subditi eius. Subdito autem sufficere debet, si sibi concessis a domino vel magistro
         humiliter uti liceat, ne ampliora attemptans ad ea, quae sunt praelati, temerarie se
@@ -1164,25 +1190,25 @@
         finali ad quartam, id est diatesseron, vel etiam regulariter ad quintam, quod alii de gratia
         sive licentia fieri dicunt. Johannes vero in Summa dicit licentiam descendendi neque
         authentis neque plagalibus se legisse concessam.</p>
-      <p xml:id="CONNOV0173">[AZ in marg.] Sciendum autem, quod quidam musici non incongrue regularem
-        cursum tonorum, qui octo sunt, per totidem diapason dimetiuntur. Et secundum illorum
-        assertionem paene omnes modi authenti unam, quam infra finalem assumunt, per licentiam
-        assumunt, quod nos prius eis regulariter attribuimus, ait Johannes in Summa. Cum ergo octo
-        toni per totidem diapason currant secundum eosdem, sicut semper duo toni, id est magister et
-        discipulus, hoc est authentus et plagalis, cohaerent, sic et eorum diapason connectuntur,
-        ita ut in eis facile animadverti possit, quae voces propriae sint plagalis et quae authenti,
-        quae vero communes sint utrique, quod nonnulli in figura octo rotarum, quae se binae et
-        binae intersecant, apte demonstrant. Ego vero idipsum aeque clare vel clarius ostendo in hac
-        figura, quae octo arcuales et quasi semicirculares continet curvitates ipsa octo diapason
-        terminantes, quam qui voluerit transcopiare poterit. (Et invenies postea cum tali signo
-        [U].) Circa quam figuram breviter notandum, quod ratio antepositionis tonorum, qui paris
-        sunt numeri, non est eorum dignitas, sed ideo fit, ut ordo positionis clavium monochordi
-        observetur. Nota etiam, quod littera sive clavis rubeo colore subducta significat clavem
-        illam finalem esse duorum illorum tonorum per lineas arcuales sibi cohaerentium, nam quamvis
-        ascendant descendantque diverse, easdem tamen finales communiter sortiuntur authenti et
-        plagales. Habent quoque medium spatium commune altrinsecus positum sine participatione, id
-        est quinque claves communiter, tres vero singulariter exceptis per licentiam concessis iuxta
-        superius positam Summam.</p>
+      <p xml:id="CONNOV0173">[AZ in marg.] Sciendum autem, quod quidam musici non incongrue
+        regularem cursum tonorum, qui octo sunt, per totidem diapason dimetiuntur. Et secundum
+        illorum assertionem paene omnes modi authenti unam, quam infra finalem assumunt, per
+        licentiam assumunt, quod nos prius eis regulariter attribuimus, ait Johannes in Summa. Cum
+        ergo octo toni per totidem diapason currant secundum eosdem, sicut semper duo toni, id est
+        magister et discipulus, hoc est authentus et plagalis, cohaerent, sic et eorum diapason
+        connectuntur, ita ut in eis facile animadverti possit, quae voces propriae sint plagalis et
+        quae authenti, quae vero communes sint utrique, quod nonnulli in figura octo rotarum, quae
+        se binae et binae intersecant, apte demonstrant. Ego vero idipsum aeque clare vel clarius
+        ostendo in hac figura, quae octo arcuales et quasi semicirculares continet curvitates ipsa
+        octo diapason terminantes, quam qui voluerit transcopiare poterit. (Et invenies postea cum
+        tali signo [U].) Circa quam figuram breviter notandum, quod ratio antepositionis tonorum,
+        qui paris sunt numeri, non est eorum dignitas, sed ideo fit, ut ordo positionis clavium
+        monochordi observetur. Nota etiam, quod littera sive clavis rubeo colore subducta significat
+        clavem illam finalem esse duorum illorum tonorum per lineas arcuales sibi cohaerentium, nam
+        quamvis ascendant descendantque diverse, easdem tamen finales communiter sortiuntur authenti
+        et plagales. Habent quoque medium spatium commune altrinsecus positum sine participatione,
+        id est quinque claves communiter, tres vero singulariter exceptis per licentiam concessis
+        iuxta superius positam Summam.</p>
       <p xml:id="CONNOV0174">
         <pb n="[226]"/>[AC rev. in marg.] Hic quoque diligenter notanda est regula illa, quam
         plerique satis famosam habent de sciendo, scilicet quis tonus in libro cantuali ponendus
@@ -1198,12 +1224,12 @@
         habentibus. Sunt enim cantica quaedam praemissam legem et regulam cursuum transgredientia,
         ut infra dicetur, de quibus nonnumquam multa est dubitatio, cui tono sint deputanda vel
         ascribenda.</p>
-      <p xml:id="CONNOV0175">[BC in marg.] Hoc quoque intimandum videtur, qualiter accipiendum sit, quod
-        diximus authentos ad octavas et subiugales ad quintas ascendere. Cum tamen non semper ita
-        fiat, ut mox infra dicetur, sic ergo intelligendum est, quod toni ad octavas vel ad quintas
-        ascendere dicuntur, quod tam alte ascendant, id est ascendendi potestatem habeant. Neque
-        enim omnis cantus authentorum ad octavas neque omnis plagalium canor ad quintas pertingit,
-        sicut patet in hac primi toni antiphona In tuo adventu et in hac secundi toni
+      <p xml:id="CONNOV0175">[BC in marg.] Hoc quoque intimandum videtur, qualiter accipiendum sit,
+        quod diximus authentos ad octavas et subiugales ad quintas ascendere. Cum tamen non semper
+        ita fiat, ut mox infra dicetur, sic ergo intelligendum est, quod toni ad octavas vel ad
+        quintas ascendere dicuntur, quod tam alte ascendant, id est ascendendi potestatem habeant.
+        Neque enim omnis cantus authentorum ad octavas neque omnis plagalium canor ad quintas
+        pertingit, sicut patet in hac primi toni antiphona In tuo adventu et in hac secundi toni
         Consolamini.</p>
       <p xml:id="CONNOV0176">[BD in marg.] De intensione autem et remissione tonorum iuxta superius
         praemissa sic est animadvertendum: Authentis omnibus licet suum cuique principium a finali
@@ -1221,17 +1247,17 @@
         modi, similiter in nonnullis novarum historiarum cantionibus. In huiusmodi itaque cantibus,
         qui tam laxe atque confuse componuntur, cantoris arbitrio relinquitur, uti cantum ei tono
         adaptet, cui ipsius cantus principium competentius responderit.</p>
-      <p xml:id="CONNOV0178">Quin immo inveniuntur etiam nonnullae antiquae cantiones in usu ecclesiae
-        existentes dictam regulam et legem tonorum non observantes, sed cursum duorum tonorum
-        usurpantes sicque in forma peccantes, quae idcirco irregulares dicuntur. Quarum tamen
-        irregularitas nonnumquam excusabilis est, cum scilicet causam aliquam habeat rationabiliter
-        excusantem, quare etiam toleranda est. Facta est enim nonnumquam talismodi irregularitas ex
-        intentione cantum componentis, aliquando scilicet ad insinuandam materiae ipsius cantici
-        excellentiam, quandoque ad exclamationem faciendam, quandoque ad indignationem vel dolorem
-        repraesentandum vel propter alias causas diversas. Aliquando autem huiusmodi eorum
-        irregularitas inexcusabilis est, quia causa rationali omnino caret. Quare merito esset non
-        admittenda, sed potius corrigenda, si tamen commode fieri posset, de quo infra latius
-        dicetur.</p>
+      <p xml:id="CONNOV0178">Quin immo inveniuntur etiam nonnullae antiquae cantiones in usu
+        ecclesiae existentes dictam regulam et legem tonorum non observantes, sed cursum duorum
+        tonorum usurpantes sicque in forma peccantes, quae idcirco irregulares dicuntur. Quarum
+        tamen irregularitas nonnumquam excusabilis est, cum scilicet causam aliquam habeat
+        rationabiliter excusantem, quare etiam toleranda est. Facta est enim nonnumquam talismodi
+        irregularitas ex intentione cantum componentis, aliquando scilicet ad insinuandam materiae
+        ipsius cantici excellentiam, quandoque ad exclamationem faciendam, quandoque ad
+        indignationem vel dolorem repraesentandum vel propter alias causas diversas. Aliquando autem
+        huiusmodi eorum irregularitas inexcusabilis est, quia causa rationali omnino caret. Quare
+        merito esset non admittenda, sed potius corrigenda, si tamen commode fieri posset, de quo
+        infra latius dicetur.</p>
       <p xml:id="CONNOV0179">[BF in marg.] Nunc dicendum est de cantibus, qui in proprio cursu
         deficientes alienas sibi finales usurpant. Fit ergo ista cantuum illegalitas in quibusdam
         venialiter, in quibusdam vero minime. Item fit interdum ex cantorum vitio, plerumque
@@ -1262,25 +1288,25 @@
         errore ad finem perveniet. Cum itaque talis transpositio a gravibus ad acutas, affinales
         scilicet, sic fit necessitatis causa, ut dictum est, admittenda est et toleranda. Si vero
         alicubi fieret sine necessitate, potius esset, si commode fieri posset, corrigenda.</p>
-      <p xml:id="CONNOV0182">[BG in marg.] Quod autem illa vel alia istiusmodi cantica in proprio cursu
-        cantari nequeunt, utrum ex scriptorum vel cantorum vitio processerit, an sic a modulante
-        primum prolata fuerint, incertum habemus. Ceterum hoc certissime novimus, ait Johannes ubi
-        supra, quod per quorundam ignorantiam multotiens cantus depravatur, quemadmodum iam plures
-        habemus depravatos quam enumerare possimus. Quos revera non ita, ut nunc in ecclesiis
-        canuntur, modulantium protulit auctoritas, sed vel cantualium librorum scriptores sua ex
-        ignorantia aut inadvertentia vitiarunt vel pravae voces hominum motum animi sequentium recte
-        compositos perverterunt perversosque in usum incorrigibilem deduxerunt adeo, ut nonnumquam
-        iam pessimus usus pro auctoritate habeatur. Siquidem imperiti cantores aliquando canendi
-        taedio praegravati, quae elevanda erant depresserunt plerumque petulantia inducti, quae
-        inferius erant <pb n="[229]"/>canenda ultra legem extulerunt, ita quod, si commode fieri
-        posset, cantus saepius veniret emendandus et corrigendus. Ideo autem dico si commode fieri
-        posset, quia non est facile contra usum longaevum quamquam perversum, etiamsi longe
-        elegantius esset, vetera instaurare, quia res consuetudinis est res fortis valde. Ubicumque
-        ergo in aliqua ecclesia usum arti contrarium inveneris, propter bonum pacis usui illi
-        acquiescere benivolum te exhibeas, et hoc, si usus ille ad tui notitiam sit perductus; sin
-        vero non artem imitari non formides, et sic te irreprehensibilem merito omnibus exhibebis.
-        Quod quidem etiam in artificiali modo intonandi, de quo mox infra dicetur, quoad principia
-        et media artis volo habere repetitum.</p>
+      <p xml:id="CONNOV0182">[BG in marg.] Quod autem illa vel alia istiusmodi cantica in proprio
+        cursu cantari nequeunt, utrum ex scriptorum vel cantorum vitio processerit, an sic a
+        modulante primum prolata fuerint, incertum habemus. Ceterum hoc certissime novimus, ait
+        Johannes ubi supra, quod per quorundam ignorantiam multotiens cantus depravatur, quemadmodum
+        iam plures habemus depravatos quam enumerare possimus. Quos revera non ita, ut nunc in
+        ecclesiis canuntur, modulantium protulit auctoritas, sed vel cantualium librorum scriptores
+        sua ex ignorantia aut inadvertentia vitiarunt vel pravae voces hominum motum animi
+        sequentium recte compositos perverterunt perversosque in usum incorrigibilem deduxerunt
+        adeo, ut nonnumquam iam pessimus usus pro auctoritate habeatur. Siquidem imperiti cantores
+        aliquando canendi taedio praegravati, quae elevanda erant depresserunt plerumque petulantia
+        inducti, quae inferius erant <pb n="[229]"/>canenda ultra legem extulerunt, ita quod, si
+        commode fieri posset, cantus saepius veniret emendandus et corrigendus. Ideo autem dico si
+        commode fieri posset, quia non est facile contra usum longaevum quamquam perversum, etiamsi
+        longe elegantius esset, vetera instaurare, quia res consuetudinis est res fortis valde.
+        Ubicumque ergo in aliqua ecclesia usum arti contrarium inveneris, propter bonum pacis usui
+        illi acquiescere benivolum te exhibeas, et hoc, si usus ille ad tui notitiam sit perductus;
+        sin vero non artem imitari non formides, et sic te irreprehensibilem merito omnibus
+        exhibebis. Quod quidem etiam in artificiali modo intonandi, de quo mox infra dicetur, quoad
+        principia et media artis volo habere repetitum.</p>
       <p xml:id="CONNOV0183">[BH in marg.] Consequenter notandum, quod quilibet tonus habet unum
         principale, scilicet Saeculorum amen, et aliquot differentias, quidam tamen plures, alii
         pauciores praeter secundum tonum, qui nullam differentiam habet secundum plerosque.
@@ -1295,8 +1321,8 @@
         caudae illae, quas quaedam differentiae habent, in multis ecclesiis cantari non solent in
         psalmodiis, nisi in fine circa Saeculorum amen, ne scilicet taedium generet, sed in fine
         merito ob mox dictam causam.</p>
-      <p xml:id="CONNOV0185">[BI in marg.] Advertendum praeterea, quod quilibet tonus habet suum modum
-        incipiendi et mediandi tam ipsos psalmos quam tria illa solemnia evangelica cantica,
+      <p xml:id="CONNOV0185">[BI in marg.] Advertendum praeterea, quod quilibet tonus habet suum
+        modum incipiendi et mediandi tam ipsos psalmos quam tria illa solemnia evangelica cantica,
         scilicet Magnificat, Benedictus, et Nunc dimittis correspondentem suis antiphonis. Quem
         quidem artificialem modum incipiendi et mediandi ut quisque amplius magni pendat, libeat
         advertere dictum cuiusdam notabilis in suo tractatu De musica capitulo de tonis, ubi sic
@@ -1334,32 +1360,33 @@
         intonatio artificialis fieri non possit sine chori gravamine.</p>
       <p xml:id="CONNOV0191">
         <pb n="[231]"/>De debito ac recto vocis usu in cantando</p>
-      <p xml:id="CONNOV0192">[BL in marg.] Quia experientia docente plures novi, qui musicam in parte
-        non solum ipsi didicerunt, sed et iam alios docuerunt, dum tamen vel ipsi chorum regere vel
-        cum aliis regentibus cantare debebant, ita inepte usi fuerant vocibus suis, quasi nec
-        quidquam de musica umquam audivissent vel legissent, idcirco, ne personis a me instructis
-        simile contingat, pro avisamento dignum duxi hoc capitulum de vocis debito et recto usu
-        tractatui meo in fine annectendum, in quo nonnulla brevibus dicam verbis, quae tamen longa
-        indubie digna sunt animadversione. Et satis miror plerosque musicos in suis tractatibus
-        nihil inde scripsisse, cum tamen multi incipientes, simplices, vel rudes non minus his
-        discendis quam arte ipsa opus habeant, cum etiam huius artis notitia sine usu parum valeat
-        et neque ipse usus eius laudem mereatur, nisi aptus fuerit et rectus atque legitimus.</p>
-      <p xml:id="CONNOV0193">Quia autem nullus censetur rite, decenter, atque apte uti sua voce, nisi in
-        et sub huiusmodi eius usu morum qualescumque simul ineptias praecaveat, ne per easdem ipsos
-        aspicientes ad risum provocet, quibus tamen cantus ecclesiasticus ad devotionem quaedam
-        imitatio esse deberet, ut in principio huius sub C littera habetur, idcirco in hac re primum
-        meos aviso auditores, ut seipsos suosque mores diligenter considerantes in cantando omni
-        modo praecaveant a ridiculosis morum ineptiis, ne scilicet vel ora incurvent vel ad modum
-        vaccarum boantium nimis ample aperiant vel dilatent aut caput ad modum equorum hinnientium
-        sursum extollant vel in latus alterum insolide inclinent vel de latere in latus iaceant aut
-        manu sustentent. Et sic de aliis multis morum ineptiis, quas enumerare taediosum foret. Sed
-        potius memores verbi David psalmo 137: In conspectu angelorum psallam tibi et cetera, modis
-        omnibus tam decenter in moribus se habeant, ut ipsa morum compositio ipsorum cantui
-        cooperetur pro excitanda fidelium devotione.</p>
-      <p xml:id="CONNOV0194">[BM in marg.] In ipso autem vocis usu haec veniunt diligenter praecavenda,
-        ne scilicet quisquam per nares sic vocem emittat, ut ipsam per hoc absonam reddat, neve
-        vocales easdem pluribus sub notis continuandas a debito et uniformi suo sono quomodolibet
-        immutet, quod valde est cavendum, quia rusticissimum. Et est tamen plerisque
+      <p xml:id="CONNOV0192">[BL in marg.] Quia experientia docente plures novi, qui musicam in
+        parte non solum ipsi didicerunt, sed et iam alios docuerunt, dum tamen vel ipsi chorum
+        regere vel cum aliis regentibus cantare debebant, ita inepte usi fuerant vocibus suis, quasi
+        nec quidquam de musica umquam audivissent vel legissent, idcirco, ne personis a me
+        instructis simile contingat, pro avisamento dignum duxi hoc capitulum de vocis debito et
+        recto usu tractatui meo in fine annectendum, in quo nonnulla brevibus dicam verbis, quae
+        tamen longa indubie digna sunt animadversione. Et satis miror plerosque musicos in suis
+        tractatibus nihil inde scripsisse, cum tamen multi incipientes, simplices, vel rudes non
+        minus his discendis quam arte ipsa opus habeant, cum etiam huius artis notitia sine usu
+        parum valeat et neque ipse usus eius laudem mereatur, nisi aptus fuerit et rectus atque
+        legitimus.</p>
+      <p xml:id="CONNOV0193">Quia autem nullus censetur rite, decenter, atque apte uti sua voce,
+        nisi in et sub huiusmodi eius usu morum qualescumque simul ineptias praecaveat, ne per
+        easdem ipsos aspicientes ad risum provocet, quibus tamen cantus ecclesiasticus ad devotionem
+        quaedam imitatio esse deberet, ut in principio huius sub C littera habetur, idcirco in hac
+        re primum meos aviso auditores, ut seipsos suosque mores diligenter considerantes in
+        cantando omni modo praecaveant a ridiculosis morum ineptiis, ne scilicet vel ora incurvent
+        vel ad modum vaccarum boantium nimis ample aperiant vel dilatent aut caput ad modum equorum
+        hinnientium sursum extollant vel in latus alterum insolide inclinent vel de latere in latus
+        iaceant aut manu sustentent. Et sic de aliis multis morum ineptiis, quas enumerare taediosum
+        foret. Sed potius memores verbi David psalmo 137: In conspectu angelorum psallam tibi et
+        cetera, modis omnibus tam decenter in moribus se habeant, ut ipsa morum compositio ipsorum
+        cantui cooperetur pro excitanda fidelium devotione.</p>
+      <p xml:id="CONNOV0194">[BM in marg.] In ipso autem vocis usu haec veniunt diligenter
+        praecavenda, ne scilicet quisquam per nares sic vocem emittat, ut ipsam per hoc absonam
+        reddat, neve vocales easdem pluribus sub notis continuandas a debito et uniformi suo sono
+        quomodolibet immutet, quod valde est cavendum, quia rusticissimum. Et est tamen plerisque
         communissimum.</p>
       <p xml:id="CONNOV0195">
         <pb n="[232]"/>Item ne quis notas sive voces inaequaliter protrahat vel acceleret.</p>
@@ -1373,8 +1400,8 @@
       <p xml:id="CONNOV0197">Item cavendum est valde, ne quis vocem suam cum aspiratione quadam sive
         etiam cum quadam violenta extorsione vel cum impetu emittat, sicut multis insulsis mos est,
         quod ipsum cantum nimis reddit insuavem.</p>
-      <p xml:id="CONNOV0198">[BN in marg.] Item hoc magnopere cavendum est, ne quis in gravibus et in
-        acutis et superacutis aut excellentibus similiter sive aequaliter et conformiter aut
+      <p xml:id="CONNOV0198">[BN in marg.] Item hoc magnopere cavendum est, ne quis in gravibus et
+        in acutis et superacutis aut excellentibus similiter sive aequaliter et conformiter aut
         uniformiter voce sua uti praesumat semper scilicet pleno spiritu vel arteria plene aperta
         canendo, quia hoc multis modis ineptum est et disconveniens. Primo, quia dupliciter gravat
         cantantem ipsum scilicet citius fatigando atque etiam eum mox raucidando, quod expertus sum
@@ -1398,8 +1425,8 @@
         dissonantiam illam, qua ultra debitam rectitudinem vel deorsum plerique declinant vel sursum
         absone tendunt. Quod quomodo sit probandum atque etiam remediandum, si tamen remediabile
         fuerit, dictum est supra sub AL sufficienter.</p>
-      <p xml:id="CONNOV0200">Item qui praecentor fuerit, debet ad eius et aliorum commodum sic apte uti
-        sua voce, ut numquam aliquem cantum nimis alte vel nimis basse in gravamen sui et chori
+      <p xml:id="CONNOV0200">Item qui praecentor fuerit, debet ad eius et aliorum commodum sic apte
+        uti sua voce, ut numquam aliquem cantum nimis alte vel nimis basse in gravamen sui et chori
         incipiat, quod facile est praecavere provida quadam consideratione, ut scilicet attendens,
         in qua clave cantus incipiat, simul advertat, si forte idem cantus multum ascendat, quot
         notis in altiori eius loco supra suum initium tendat, si vero multum descendat, quot notis
@@ -1426,8 +1453,8 @@
       <p xml:id="CONNOV0214">Vox musica quid sit M</p>
       <p xml:id="CONNOV0215">Habitudo sex vocum ad invicem N, O</p>
       <p xml:id="CONNOV0216">Qualem sonum habent per ordinem et ubi hoc sit discendum O</p>
-      <p xml:id="CONNOV0217">Quomodo se in sex vocibus exercitandum sit per aliqua cantica in monochordo
-        P</p>
+      <p xml:id="CONNOV0217">Quomodo se in sex vocibus exercitandum sit per aliqua cantica in
+        monochordo P</p>
       <p xml:id="CONNOV0218">Quidam perutiles ascensus et descensus pro simplicibus Q Cantuum
         multiplicatio et quare facta sit R</p>
       <p xml:id="CONNOV0219">
@@ -1468,11 +1495,12 @@
       <p xml:id="CONNOV0252">De semitoniis minoribus et maioribus TT usque XX inclusive</p>
       <p xml:id="CONNOV0253">Semitonia omnia simul in notis in una riga XX</p>
       <p xml:id="CONNOV0254">Monochordi formatio quomodo fieri debet YY et AF</p>
-      <p xml:id="CONNOV0255">Mensuratio eius in quo fieri debet et de terminis a quo et ad quem ZZ</p>
+      <p xml:id="CONNOV0255">Mensuratio eius in quo fieri debet et de terminis a quo et ad quem
+        ZZ</p>
       <p xml:id="CONNOV0256">Mensuratio quanta diligentia fieri debet et quomodo ZZ</p>
       <p xml:id="CONNOV0257">Quare tam diffuse de eius formatione dixerim [C rev. C rev.]</p>
-      <p xml:id="CONNOV0258">Si haec aliquibus taediosa essent, quomodo brevius procedendum sit [C rev.
-        C rev.]</p>
+      <p xml:id="CONNOV0258">Si haec aliquibus taediosa essent, quomodo brevius procedendum sit [C
+        rev. C rev.]</p>
       <p xml:id="CONNOV0259">Mensurae descriptio sive mensurandi modus primus AB, secundus AC</p>
       <p xml:id="CONNOV0260">
         <pb n="[235]"/>Aliqua circa iam factam mensurationem consideranda AD, AE</p>
@@ -1504,7 +1532,8 @@
       <p xml:id="CONNOV0284">De regulari cursu tonorum AY et sequentibus</p>
       <p xml:id="CONNOV0285">Cursus quid sit AY, BC</p>
       <p xml:id="CONNOV0286">Regularis eorum cursus quis sit AZ</p>
-      <p xml:id="CONNOV0287">Aliqua pro intellectu figurae illius in cedula, quae cursum ostendit AZ</p>
+      <p xml:id="CONNOV0287">Aliqua pro intellectu figurae illius in cedula, quae cursum ostendit
+        AZ</p>
       <p xml:id="CONNOV0288">Regula noscendi, quis tonus ponendus sit, ubi nullus est A[C rev.]</p>
       <p xml:id="CONNOV0289">Quomodo intelligendum, quod toni tantum ascendant vel descendant BC</p>
       <p xml:id="CONNOV0290">De tonorum intensione et remissione AY, BD</p>
@@ -1522,8 +1551,8 @@
       <p xml:id="CONNOV0302">
         <pb n="[236]"/>Tonarius P1</p>
       <p xml:id="CONNOV0303">Rudimenta incipientibus primo proponenda</p>
-      <p xml:id="CONNOV0304">[Conrad, Tractatus, 236,1; text: primus gradus, secundus gradus, tertius
-        gradus, quartus gradus, quintus gradus]</p>
+      <p xml:id="CONNOV0304">[Conrad, Tractatus, 236,1; text: primus gradus, secundus gradus,
+        tertius gradus, quartus gradus, quintus gradus]</p>
       <p xml:id="CONNOV0305">Pro agnitione tonorum:</p>
       <p xml:id="CONNOV0306">Pri re la . Se re fa . Ter mi fa . Quar quoque mi la.</p>
       <p xml:id="CONNOV0307">Quin fa fa . Sex fa la . Sep ut sol . Oc tenet ut fa.</p>
@@ -1537,8 +1566,8 @@
       <p xml:id="CONNOV0312">F -fa-ut est primi, quinti, quoque Gloria sexti;</p>
       <p xml:id="CONNOV0313">Ternus et octavus in G-sol, septimus in [sqb].</p>
       <p xml:id="CONNOV0314">Psalmus</p>
-      <p xml:id="CONNOV0315">[*] [Conrad, Tractatus, 237,2; text: primus, secundus, tertius, quartus,
-        quintus, sextus, septimus, octavus, principium medium, Psalmus peregrinus]</p>
+      <p xml:id="CONNOV0315">[*] [Conrad, Tractatus, 237,2; text: primus, secundus, tertius,
+        quartus, quintus, sextus, septimus, octavus, principium medium, Psalmus peregrinus]</p>
       <p xml:id="CONNOV0316">Hi versus clare psalmos faciunt reserare:</p>
       <p xml:id="CONNOV0317">Ut re mi primus tonus usurpat, quoque sextus;</p>
       <p xml:id="CONNOV0318">Ternus, octavus ut re fa datque secundus;</p>
@@ -1562,13 +1591,13 @@
       <p xml:id="CONNOV0326">[Conrad, Tractatus, 239,1] <figure>
           <graphic url="/images/CONNOV_05GF.gif"/>
         </figure></p>
-      <p xml:id="CONNOV0327">Item differentias signatas punctis quidam esse putant inusitatas vel saltem
-        minus usitatas, nec consueverunt in tanto numero poni ab aliis.</p>
+      <p xml:id="CONNOV0327">Item differentias signatas punctis quidam esse putant inusitatas vel
+        saltem minus usitatas, nec consueverunt in tanto numero poni ab aliis.</p>
       <p xml:id="CONNOV0328">Neumae sive finales</p>
       <p xml:id="CONNOV0329">[Conrad, Tractatus, 239,2; text: 1, 2, 3, 4, 5, 6, 7, 8]</p>
       <p xml:id="CONNOV0330">proba:</p>
-      <p xml:id="CONNOV0331">[Conrad, Tractatus, 239,3; text: [Gamma] ut, A re, B mi, C fa ut, G sol re
-        ut, a la mi re, b fa [sqb] mi, c sol fa ut, gg sol re ut, aa la mi re, bb fa [sqb] mi, cc
+      <p xml:id="CONNOV0331">[Conrad, Tractatus, 239,3; text: [Gamma] ut, A re, B mi, C fa ut, G sol
+        re ut, a la mi re, b fa [sqb] mi, c sol fa ut, gg sol re ut, aa la mi re, bb fa [sqb] mi, cc
         sol fa, D sol re, E la mi, F fa ut, d la sol re, ee la mi, ff fa ut, dd la sol, e la]</p>
       <p xml:id="CONNOV0332">[U] [Conrad, Tractatus, 239,4; text: Figura secundi toni, Figura primi
         toni, Figura quarti toni, Figura tertii toni, Figura sexti toni, Figura quinti toni, Figura
@@ -1577,8 +1606,8 @@
         8.]</p>
       <p xml:id="CONNOV0333">
         <pb n="[240]"/>Nota. Hi modi sunt in monochordo ostensibiles omnes quotquot sunt.</p>
-      <p xml:id="CONNOV0334">[Conrad, Tractatus, 240,1; text: Omnis cantus aut fit in, eadem nota vel
-        voce, et sic est unisonus, secundam, et hoc vel, tertiam, quartam, quintam, sextam,
+      <p xml:id="CONNOV0334">[Conrad, Tractatus, 240,1; text: Omnis cantus aut fit in, eadem nota
+        vel voce, et sic est unisonus, secundam, et hoc vel, tertiam, quartam, quintam, sextam,
         septimam, debiliter sive imperfecte, et sic est semitonium [sqb] c, potenter et perfecte, et
         sic est tonus c d, debiliter et imperfecte, et sic est semiditonus d f, et sic est ditonus c
         e, debiliter, et sic est diatessaron c f, potenter, et sic est tritonus f [sqb], et sic est
@@ -1594,8 +1623,9 @@
       <p xml:id="CONNOV0338">Intellige de modis ab antiquis usitatis.</p>
       <p xml:id="CONNOV0339">[Conrad, Tractatus, 240,2; text: e, dd, cc, bb[sqb], aa, gg, ff, ee,
         excellentes, superacutae]</p>
-      <p xml:id="CONNOV0340">Monochordum dividitur in quinque tetrachorda, a tetra = quattuor et chorda.
-        Non tamen intellige, quod quattuor sint chordae, sed quattuor claves chordam tangentes.</p>
+      <p xml:id="CONNOV0340">Monochordum dividitur in quinque tetrachorda, a tetra = quattuor et
+        chorda. Non tamen intellige, quod quattuor sint chordae, sed quattuor claves chordam
+        tangentes.</p>
       <p xml:id="CONNOV0341">Alii aliter dividunt et varii Varie</p>
       <p xml:id="CONNOV0342">
         <pb n="[241]"/>[Conrad, Tractatus, 241,1; text: d, c, b [sqb], a, G, F, E, D, C, B, A,
@@ -1606,18 +1636,18 @@
       <p xml:id="CONNOV0344">[Conrad, Tractatus, 241,2; text: Septem sunt proportiones in cantu
         simplici, scilicet: Semitonium, tonus, semiditonus, ditonus, diatesseron, diapente, tonus
         cum diapente, semitonium cum diapente, diapason.]</p>
-      <p xml:id="CONNOV0345">Sequitur copia diversitatis duorum b [sqb] rara satis, quae bene declarata
-        multis fit clara et grata.</p>
-      <p xml:id="CONNOV0346">[Conrad, Tractatus, 241,3; text: Intrant illi, Exeunt hi, Transiliunt omnes
-        isti, locus diversitatis, Et nota, quod magnae..., erunt cum rubeo...]</p>
+      <p xml:id="CONNOV0345">Sequitur copia diversitatis duorum b [sqb] rara satis, quae bene
+        declarata multis fit clara et grata.</p>
+      <p xml:id="CONNOV0346">[Conrad, Tractatus, 241,3; text: Intrant illi, Exeunt hi, Transiliunt
+        omnes isti, locus diversitatis, Et nota, quod magnae..., erunt cum rubeo...]</p>
       <p xml:id="CONNOV0347">Unumquodque praedictorum varietas monstrat colorum.</p>
       <p xml:id="CONNOV0348">Rubri transiliunt.</p>
       <p xml:id="CONNOV0349">Diversitatis locus proprius concurrentiae medium tenet.</p>
       <p xml:id="CONNOV0350">Concurrentiae vero ambitus quinarium locorum retinet?.</p>
-      <p xml:id="CONNOV0351">Ascensus atque descensus omnes diversitatis locum intrantes vel exeuntes
-        iuxta diversa b [sqb]</p>
-      <p xml:id="CONNOV0352">proportiones ipsas diversificant, sed locum transilientes has nullo modo
-        variant.</p>
+      <p xml:id="CONNOV0351">Ascensus atque descensus omnes diversitatis locum intrantes vel
+        exeuntes iuxta diversa b [sqb]</p>
+      <p xml:id="CONNOV0352">proportiones ipsas diversificant, sed locum transilientes has nullo
+        modo variant.</p>
       <p xml:id="CONNOV0353">Prima riga quattuor, sequens vero solum tres, tertia tantum duas tenet
         proportiones.</p>
       <p xml:id="CONNOV0354">
@@ -1636,21 +1666,21 @@
       <p xml:id="CONNOV0358">A maxima incipiatur sursum procedendo</p>
       <p xml:id="CONNOV0359">Proportiones non reperibiles in cantu simplici usque ad diapason
         inclusive</p>
-      <p xml:id="CONNOV0360">[Conrad, Tractatus, 242,3; text: Diapason, rarum, ad octavam, Semidiapason,
-        inusitatum, Ditonus cum diapente, rarissimus, ad septimam, Semiditonus cum diapente, rarus,
-        Semitonium cum diapente, commune satis, ad sextam, Semidiapente, ad quintam, Tritonus,
-        perrarus, ad quartam]</p>
+      <p xml:id="CONNOV0360">[Conrad, Tractatus, 242,3; text: Diapason, rarum, ad octavam,
+        Semidiapason, inusitatum, Ditonus cum diapente, rarissimus, ad septimam, Semiditonus cum
+        diapente, rarus, Semitonium cum diapente, commune satis, ad sextam, Semidiapente, ad
+        quintam, Tritonus, perrarus, ad quartam]</p>
       <p xml:id="CONNOV0361">Omnes hae proportiones usitatae sunt in cantu Gregoriano; verum maxima
         rarius ceteris invenitur, sed tamen satis est in usu...(?)</p>
-      <p xml:id="CONNOV0362">Circa has proportiones agnoscendas maxima diligentia adhibenda est. Nam, ut
-        dicit dominus Odo, in maximum errorem labuntur, qui vim earum et valorem <pb n="[243]"/>non
-        perpendunt, immo tales innumerabiles confusiones faciunt, praecipue in cantuum
-        inchoatione.</p>
+      <p xml:id="CONNOV0362">Circa has proportiones agnoscendas maxima diligentia adhibenda est.
+        Nam, ut dicit dominus Odo, in maximum errorem labuntur, qui vim earum et valorem <pb
+          n="[243]"/>non perpendunt, immo tales innumerabiles confusiones faciunt, praecipue in
+        cantuum inchoatione.</p>
       <p xml:id="CONNOV0363">Ad idem:</p>
       <p xml:id="CONNOV0364">In Ter trini post medium: quomodo non sit a studio earum, donec
         sufficienter agnoscuntur, quiescendum.</p>
-      <p xml:id="CONNOV0365">Sequuntur intonationes psalmorum secundum morem Coloniensis provinciae, et
-        primo de primo tono.</p>
+      <p xml:id="CONNOV0365">Sequuntur intonationes psalmorum secundum morem Coloniensis provinciae,
+        et primo de primo tono.</p>
       <p xml:id="CONNOV0366">[Conrad, Tractatus, 243; text: Primus re la, et sextus fa la., Dixit
         dominus domino meo, Benedictus dominus Deus Israel, Magnificat, Euouae, Secundus re fa, et
         octavus ut fa., Tertius mi fa., Quartus mi la. octavi, Magnificat anima, Nunc dimittis

@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De natura cantus ac miraculis vocis</title>
         <title type="abbrev">HERDEN</title>
-        <author>Herbenus Traiectensis</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Herbenus Traiectensis</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Jessica Sisk</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Phil Kurasz</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2006</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2006">2006</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Herbeni Traiectensis De natura cantus ac miraculis vocis</emph>, ed. Joseph Smits
@@ -47,10 +57,10 @@
         <pb n="[16]"/>De natura cantus ac miraculis vocis</p>
       <p xml:id="HERDEN0002">Reverentissimo in Christo patri ac domino Ioanni Camerario Dalburgio
         antistiti Vuormaciensi Matthaeus Herbenus Traiectensis felicitatem.</p>
-      <p xml:id="HERDEN0003">Consueverunt magno quidem, ut optime tenes, atque excellenti ingenio viri,
-        Reverentissime praesul, si quippiam novi operis condidissent, ad eorum studiorum potentem
-        aliquem ac eruditum principem amatorem referre eiusdemque auspicio inscribere, quo et
-        propter potentiam ab invidorum morsibus vindicarentur atque sapientiam eorum studia
+      <p xml:id="HERDEN0003">Consueverunt magno quidem, ut optime tenes, atque excellenti ingenio
+        viri, Reverentissime praesul, si quippiam novi operis condidissent, ad eorum studiorum
+        potentem aliquem ac eruditum principem amatorem referre eiusdemque auspicio inscribere, quo
+        et propter potentiam ab invidorum morsibus vindicarentur atque sapientiam eorum studia
         probarentur. Itaque doctissimis illis temporibus Caesarum studiosissimorum hominum labores
         Maecenati aut Pollioni Varove inscribebantur. Quorum exempla imitati doctissimi Italicorum
         diebus nostris nullum ferme praeclarum opus Cosmis Florentinis, omnium studiosissimorum
@@ -60,14 +70,14 @@
         gravissimo iudici ac vindici submitterent qui neque Ausoniis illis principibus dignitate
         ignobilior es neque sapientia inferior. Quapropter sub tuo sidere Venerabilis patris
         Iohannis Tritemii insigne ac laboriosum opus de scriptoribus ecclesiasticis emanavit.</p>
-      <p xml:id="HERDEN0004">Stupendus ille liber, quem de verbo mirifico Ioannes Reuchlin elegantissimi
-        condidit, legitur; Iacobi Vimphelingi, Sebastiani Brant, Conradi Celtis, Leontorii -
-        patriotae fere mei -, Rutgeri Sicambri ceterorumque doctissimorum hominum Rhenum accolentium
-        praeclara monumenta visuntur. Hi itaque praestantissimi viri te magna ratione amant, colunt
-        deditaque opera venerantur, quo se uti contingit tanto patrono atque studiorum vindice.
-        Quorum ego exemplo provocatus ausus sum exile nimirum musicum meum studium acutissimo
-        ingenio tuo subdere. Dignabere igitur, eruditissime praesul, oculis tuis quicquid est
-        praesentis opusculi visum ne sit tale, quod in tua locupletissima bibliotheca aliquem
+      <p xml:id="HERDEN0004">Stupendus ille liber, quem de verbo mirifico Ioannes Reuchlin
+        elegantissimi condidit, legitur; Iacobi Vimphelingi, Sebastiani Brant, Conradi Celtis,
+        Leontorii - patriotae fere mei -, Rutgeri Sicambri ceterorumque doctissimorum hominum Rhenum
+        accolentium praeclara monumenta visuntur. Hi itaque praestantissimi viri te magna ratione
+        amant, colunt deditaque opera venerantur, quo se uti contingit tanto patrono atque studiorum
+        vindice. Quorum ego exemplo provocatus ausus sum exile nimirum musicum meum studium
+        acutissimo ingenio tuo subdere. Dignabere igitur, eruditissime praesul, oculis tuis quicquid
+        est praesentis opusculi visum ne sit tale, quod in tua locupletissima bibliotheca aliquem
         angulum inveniat. Neque propterea excusseris quod de longinquo advenerit, quoniam advenae
         reginae <pb n="[17]"/>devota munera sapientissimus regum non contempsit, Salomon. Gratum
         quoque in primis reor futurum praestantibus Illustrissimi Palatini Principis concentoribus,
@@ -75,16 +85,17 @@
         divinum cultum esse valentiorem, quippe cum et caelestia et terrestria musica harmonia
         gubernentur.</p>
       <p xml:id="HERDEN0005">Vale Reverentissime praesul et relege feliciter.</p>
-      <p xml:id="HERDEN0006">Ex Traiecto super Mosam, quinto Kalenda Maias Anni dominici MCCCCXCVI.</p>
+      <p xml:id="HERDEN0006">Ex Traiecto super Mosam, quinto Kalenda Maias Anni dominici
+        MCCCCXCVI.</p>
       <p xml:id="HERDEN0007">Ad Reverentissimum in Christo Patrem ac Dominum, Ioannem Dalburgium,
         praesulem Vuormaciensem</p>
       <p xml:id="HERDEN0008">In libros de natura cantus ac miraculis vocis per Matthaeum Herbenum
         Prologus feliciter inchoat</p>
-      <p xml:id="HERDEN0009">Cum inter omnia humana studia, eximie Pontifex, quibus aut virtutem aliquam
-        in nobis excitari posse credimus aut ad divinum amorem mortalium mentes incendi putamus,
-        nihil Musice antiquius existat quae vocibus exercetur et cantibus, non sufficio admirari tam
-        paucos ac fere nullos veterum philosophorum de voce editos libros exstare, cum tamen
-        plerique eorum secretissima etiam Naturae ardentissimo studio perscrutari conati sint
+      <p xml:id="HERDEN0009">Cum inter omnia humana studia, eximie Pontifex, quibus aut virtutem
+        aliquam in nobis excitari posse credimus aut ad divinum amorem mortalium mentes incendi
+        putamus, nihil Musice antiquius existat quae vocibus exercetur et cantibus, non sufficio
+        admirari tam paucos ac fere nullos veterum philosophorum de voce editos libros exstare, cum
+        tamen plerique eorum secretissima etiam Naturae ardentissimo studio perscrutari conati sint
         totamque divinae Musices artem absolutissimam reddiderint.</p>
       <p xml:id="HERDEN0010">Quippe hi et ex antiquissimis et recentioribus musicis, musicaeque
         disciplinae scriptoribus commemorantur: Tubalcain qui comprehensam artem primus ex malleorum
@@ -110,9 +121,9 @@
         Quippe aiunt Pythogoricos somni gravitatem cithara et lyra excutere solitos atque e diverso
         defatigatis longo labore membris soporem inducere. Socratem aetate provecta fidibus
         tractandis operam impendisse.</p>
-      <p xml:id="HERDEN0011">Verum comperimus in sacris litteris David regem, divinum certe musicum qui
-        longe philosophorum tempora praevenerat, non solum cithara sed etiam viva voce Deo laudes
-        solitum decantasse. Dixerat enim: Deus, canticum novum cantabo Tibi, idque ut posteri
+      <p xml:id="HERDEN0011">Verum comperimus in sacris litteris David regem, divinum certe musicum
+        qui longe philosophorum tempora praevenerat, non solum cithara sed etiam viva voce Deo
+        laudes solitum decantasse. Dixerat enim: Deus, canticum novum cantabo Tibi, idque ut posteri
         facerent in multis suis hymnis divina inspiratione admonitum. Itaque in plerisque locis
         imperat: Cantate Domino canticum novum. Iubilate Domino omnis terra. Cantate et exultate et
         psallite. Itemque: in voce exultationis et confessionis; sonus epulantis. Et Moyses qui hunc
@@ -132,24 +143,25 @@
       <p xml:id="HERDEN0013">Nam quod Physici de natura vocis tradunt, talia sunt ut non magnopere a
         cantoribus desiderentur, utpote augustae quaedam quaestiones et hae quidem in multis
         operibus dispersae.</p>
-      <p xml:id="HERDEN0014">Idcirco autem morales philosophos - maxime omnium Oratores et Poetas - <pb n="[19]"/>- video huic rei incubuisse, quibus cum eximia prope quaedam ars necessaria sit,
-        tamen laudabilis constansque vox adeo in bono oratore appetibilis videtur, ut nihil magis.
-        Nam cum omnis finis oratorum auctore Cicerone ad persuadendum, Quintiliano ad bene dicendum
-        spectet, poetarum autem ad delectandum: quomodo aut hi delectabunt aut illi persuadebunt aut
-        bene dicent sine voce? Cuius maiestate in pronuntiando summus omnium oratorum Cicero a Q.
-        Hortensio superatum esse se nonnumquam doluit, quem arte alioquin longe superabat. Qua
-        indignitate permotus, Romam derelinquens atque in Asiam proficiscens, famosissimos quosque
-        illius doctissimi aevi oratores instruendae vocis gratia non destitit neque erubuit
-        pertentare.</p>
-      <p xml:id="HERDEN0015">Quid vero Demosthenes? Qui cum esset impeditioris linguae ac vocis, adeo ut
-        r litteram - quae naturali sonoritate sermonem elegantem reddit - proferre non posset,
-        lapillis ori impositis ita linguam emollivit, ut nullam litterarum pronuntiaret expeditius.
-        Poetae vero, si minus voce delectare queant, adhibita lyra vocum sonum molli ac leni
-        modulatione adiuvant. Cum igitur neque summi oratores neque ingeniosissimi poetae intentum
-        finem assequi nequeant sine ministerio vocis, quid mirum si, ut illam illustrarent, M.
-        Cicero ac F. Quintilianus eloquentiae duo clarissima fulmina omnes nervos suos intenderunt?
-        summaque ope incubuerunt? Enimvero testatur Cicero neminem ante se de voce diligenter satis
-        perscripsisse, quod omnes putarent de ea vix dilucide posse conscribi.</p>
+      <p xml:id="HERDEN0014">Idcirco autem morales philosophos - maxime omnium Oratores et Poetas -
+          <pb n="[19]"/>- video huic rei incubuisse, quibus cum eximia prope quaedam ars necessaria
+        sit, tamen laudabilis constansque vox adeo in bono oratore appetibilis videtur, ut nihil
+        magis. Nam cum omnis finis oratorum auctore Cicerone ad persuadendum, Quintiliano ad bene
+        dicendum spectet, poetarum autem ad delectandum: quomodo aut hi delectabunt aut illi
+        persuadebunt aut bene dicent sine voce? Cuius maiestate in pronuntiando summus omnium
+        oratorum Cicero a Q. Hortensio superatum esse se nonnumquam doluit, quem arte alioquin longe
+        superabat. Qua indignitate permotus, Romam derelinquens atque in Asiam proficiscens,
+        famosissimos quosque illius doctissimi aevi oratores instruendae vocis gratia non destitit
+        neque erubuit pertentare.</p>
+      <p xml:id="HERDEN0015">Quid vero Demosthenes? Qui cum esset impeditioris linguae ac vocis,
+        adeo ut r litteram - quae naturali sonoritate sermonem elegantem reddit - proferre non
+        posset, lapillis ori impositis ita linguam emollivit, ut nullam litterarum pronuntiaret
+        expeditius. Poetae vero, si minus voce delectare queant, adhibita lyra vocum sonum molli ac
+        leni modulatione adiuvant. Cum igitur neque summi oratores neque ingeniosissimi poetae
+        intentum finem assequi nequeant sine ministerio vocis, quid mirum si, ut illam illustrarent,
+        M. Cicero ac F. Quintilianus eloquentiae duo clarissima fulmina omnes nervos suos
+        intenderunt? summaque ope incubuerunt? Enimvero testatur Cicero neminem ante se de voce
+        diligenter satis perscripsisse, quod omnes putarent de ea vix dilucide posse conscribi.</p>
       <p xml:id="HERDEN0016">Quamquam autem hi duo celeberrimi oratores de voce plane sibi
         satisfecerint, minime tamen cantoribus. Nam, ut Albinus Musicus testatur, oratorum
         poetarumque pronuntiatio medium quiddam inter cantum ac sermonem obtinet. Quamobrem
@@ -173,31 +185,32 @@
       <p xml:id="HERDEN0018">Simili quoque modo Orpheum, aeque vetustum poetam, inventa concha iuxta
         litus maris Mercurium - qui eloquentiae deus apud gentes creditus est - donavisse: ad cuius
         similitudinem prima cithara fabricata est.</p>
-      <p xml:id="HERDEN0019">Poetae igitur oratoresque asserente Cicerone in pronuntiando finitimi sunt,
-        non tamen ad concentorum libertatem pertingere queunt. Alii enim, subinde ad sermocinandum
-        redeunt, alii heptachordam Orphei citharam vix umquam transcendunt. At concentores
-        laxioribus habenis evagantes ad istorum omnium officia exequenda saepissime descendunt, cum
-        nunc, syllabatim verba inter cantandum pronuntiantes, oratorio modo incedunt, nunc cum
-        poetis ad septimam Orphei chordam - quae dipason complectitur - ascendunt exultantes, nunc
-        propria libertate freti, disdiapason transeuntes ad tridiapason interdum usque pertingunt.
-        Idcirco cum oratoribus persuadent, cum poetis populum delectando sursum rapiunt, propria
-        autem potestate functi - cum divinis celebritatibus intersunt - etiam in auribus divinis
-        iubilant.</p>
-      <p xml:id="HERDEN0020">Quis nunc non videat, quanti sit concentoribus vox aestimanda? Sine cuius
-        bonitate praedicta effici nequeunt. Erant igitur hae praestantium musicorum partes ut, cum
-        plurimum studiorum in tradenda Musice consumpsissent, monumenta aliqua, quibus bona vox
+      <p xml:id="HERDEN0019">Poetae igitur oratoresque asserente Cicerone in pronuntiando finitimi
+        sunt, non tamen ad concentorum libertatem pertingere queunt. Alii enim, subinde ad
+        sermocinandum redeunt, alii heptachordam Orphei citharam vix umquam transcendunt. At
+        concentores laxioribus habenis evagantes ad istorum omnium officia exequenda saepissime
+        descendunt, cum nunc, syllabatim verba inter cantandum pronuntiantes, oratorio modo
+        incedunt, nunc cum poetis ad septimam Orphei chordam - quae dipason complectitur - ascendunt
+        exultantes, nunc propria libertate freti, disdiapason transeuntes ad tridiapason interdum
+        usque pertingunt. Idcirco cum oratoribus persuadent, cum poetis populum delectando sursum
+        rapiunt, propria autem potestate functi - cum divinis celebritatibus intersunt - etiam in
+        auribus divinis iubilant.</p>
+      <p xml:id="HERDEN0020">Quis nunc non videat, quanti sit concentoribus vox aestimanda? Sine
+        cuius bonitate praedicta effici nequeunt. Erant igitur hae praestantium musicorum partes ut,
+        cum plurimum studiorum in tradenda Musice consumpsissent, monumenta aliqua, quibus bona vox
         conservari possit, posteris relinquerent. Quod, quia per neminem eorum hactenus video esse
         effectum, haud indignum in te, observantissimum musicae artis Principem, munus me
         collocaturum existimavi, si, tua ac maiorum tuorum religione qui divinis rebus semper
         cantores adhibere consueverunt provocatus, optimis tuis atque universis electissimis
         cantoribus libellos de natura cantus ac vocis perscripsero admonueroque quo pacto vox bona
         in sua sinceritate conservari possit aut, si destituta fuerit, saltem revocari aut corrigi.
-        Quod ita illis etiam gratum opinor futurum, ut tum propter utilitatem eorum tum multarum <pb n="[21]"/>rerum novitatem - complectuntur enim varia - nihil a me gratius in se collatum
+        Quod ita illis etiam gratum opinor futurum, ut tum propter utilitatem eorum tum multarum <pb
+          n="[21]"/>rerum novitatem - complectuntur enim varia - nihil a me gratius in se collatum
         iri posse arbitrentur. Atque ut ordinem instituti mei in toto opere cognoscant, is talis
         erit.</p>
-      <p xml:id="HERDEN0021">Primus enim liber varias de natura vocis continebit opiniones - qui tandem
-        in caelesti cantu desinet. Secundus, quos mirabiles effectus vox humana atque cantus in
-        hominibus operatur. Tertius, quos erga creaturas ceteras quae infra hominem sunt habet.
+      <p xml:id="HERDEN0021">Primus enim liber varias de natura vocis continebit opiniones - qui
+        tandem in caelesti cantu desinet. Secundus, quos mirabiles effectus vox humana atque cantus
+        in hominibus operatur. Tertius, quos erga creaturas ceteras quae infra hominem sunt habet.
         Quartus, quibus naturalibus instrumentis vocem formari contingit, comprehendet. Quintus et
         sextus, quibus remediis dietando vox conservari possit, declarabunt. Nam septimus et
         ultimus, quibus simplicibus medicamentis voci subveniri possit, ostendet.</p>
@@ -205,8 +218,8 @@
       <p xml:id="HERDEN0023">
         <pb n="[22]"/>De natura cantus ac miraculis vocis liber primus feliciter incipit</p>
       <p xml:id="HERDEN0024">Descriptiones vocis secundum antiquos. Capitulum I</p>
-      <p xml:id="HERDEN0025">Aggredienti mihi itaque difficillimam atque spatiosissimam de natura vocis
-        tractandi provinciam libuit exemplo aliorum scriptorum a definitione initium dicendi
+      <p xml:id="HERDEN0025">Aggredienti mihi itaque difficillimam atque spatiosissimam de natura
+        vocis tractandi provinciam libuit exemplo aliorum scriptorum a definitione initium dicendi
         sumere.Quod ideo bonis cunctis auctoribus visum arbitror, ut lectores earum quas scribunt
         rerum admonitos efficiant simulque doceant, quid sit id de quo tota disputatio futura est.
         Siquidem definitio est quae terminos rei finit; quos qui novit non omnino omnia, quae ad
@@ -231,12 +244,12 @@
         nobis sunt, qua arte atque consilio divinus ille artifex operatus sit, licet pervidere.</p>
       <p xml:id="HERDEN0027">Quamobrem, cum ipse nihil certi de voce astrueret, ut etiam philosophos
         ignorantiae argueret, definitiones eorum omnis facile evertit.</p>
-      <p xml:id="HERDEN0028">Nam Cicero in libris de Natura Deorum, quem in suo Firmianus imitatus est,
-        nihil itidem de ea attigit. Fuerunt igitur qui vocem dicerent aërem esse spiritu verberatum
-        tenuissimum, unde orta sint verba. Et haec quidem opinio grammaticorum erat.</p>
-      <p xml:id="HERDEN0029">Hanc definitionem Lactantius ut ineptam reprehendit, eo quod vox non extra
-        os gignitur sed intra. Neque - ut mihi quidem videtur - aër extrinsecus sonat, nisi quamdiu
-        attractus et per virtutem animalem in spiritalem fuerit naturam conversus ac tandem
+      <p xml:id="HERDEN0028">Nam Cicero in libris de Natura Deorum, quem in suo Firmianus imitatus
+        est, nihil itidem de ea attigit. Fuerunt igitur qui vocem dicerent aërem esse spiritu
+        verberatum tenuissimum, unde orta sint verba. Et haec quidem opinio grammaticorum erat.</p>
+      <p xml:id="HERDEN0029">Hanc definitionem Lactantius ut ineptam reprehendit, eo quod vox non
+        extra os gignitur sed intra. Neque - ut mihi quidem videtur - aër extrinsecus sonat, nisi
+        quamdiu attractus et per virtutem animalem in spiritalem fuerit naturam conversus ac tandem
         expressus volansque per aëra in modum sagittae eumque in propriam similitudinem converens,
         percutit corda audientium. Qua expressione cessante cessare etiam vocem est necesse: alias
         enim vox semel emissa numquam sonare desineret, sicut nec globus semel proiectus umquam
@@ -280,12 +293,13 @@
         quod facit aliquid, corpus est; facit autem vox, quae a loquentibus ad auditores portendit.
         In qua opinione Vergilium stetisse Servius grammaticus asserit, ubi in secundo Aeneidis
         inquit: ferit aurea sidera clamor et: femineum clamorem ad caeli sidera tollunt.</p>
-      <p xml:id="HERDEN0033">Plato autem non esse corpus vocem putat. Non enim percussus, inquit, aër,
-        sed plaga atque percussio vox est. - Nam digitus quoque aërem percutit: non ita tamen vocem
-        facit. Sed quanta plaga? Et vehemens et tanta ut audibilis fiat. Nam, ut ante disputavi,
-        contingit saepe vehementi halitu minime vocem fieri.</p>
+      <p xml:id="HERDEN0033">Plato autem non esse corpus vocem putat. Non enim percussus, inquit,
+        aër, sed plaga atque percussio vox est. - Nam digitus quoque aërem percutit: non ita tamen
+        vocem facit. Sed quanta plaga? Et vehemens et tanta ut audibilis fiat. Nam, ut ante
+        disputavi, contingit saepe vehementi halitu minime vocem fieri.</p>
       <p xml:id="HERDEN0034">Sed Democritus ac deinde Epicurus ex individuis corporibus - ut omnia -
-        vocem constare dicunt eamque, ut ipsis eorum verbis utar, flumen verborum <pb n="[25]"/>appellant. Quid hac definitione absurdius? - nisi ea hominis articulatam vocem dumtaxat
+        vocem constare dicunt eamque, ut ipsis eorum verbis utar, flumen verborum <pb n="[25]"
+        />appellant. Quid hac definitione absurdius? - nisi ea hominis articulatam vocem dumtaxat
         comprehendi volunt. Quid igitur reliquorum animalium, numquid voces? Quid si homo proferat
         cantus tacitis verbis, numquid vociferabitur? Et videtur haec quoque opinio vocem corpus
         fateri manifeste.</p>
@@ -308,25 +322,25 @@
         gustabilis, calidi aut frigidi himidive aut sicci tangibilis. Quae cum ita sint, quid est
         quod ab ea lege solam vocem eximere debeamus? Quin vox auditus immutativa qualitas sit,
         sicut color visus, amarum aut dulce gustus, tangibile tactus.</p>
-      <p xml:id="HERDEN0036">Quamvis enim vox sine aëre fieri nequit, non continuo tamen vox aër est:
-        sed naturae aëreae. Uti nex color quamquam naturae lucidae sit, non tamen color lux est. Et
-        quia eius oppositum, taciturnitas scilicet, qualitas est: vox quare corpus? Cum haec natura
-        contrariantium sit, ut ad idem caput referantur. Proinde quo natura vocis pateat expressius,
-        non pigebit eandem per quattuor causas secundum eundem Aristotelem explicare ita inferentem:
-        Vox est inspirati aëris ab anima ad vocalem arteriam cum imagine aliquid significandi
-        repercussio. Ubi manifeste datur intellgi vocem dumtaxat animalibus inesse. Inanimatorum
-        enim nihil vocat. Quo magis miror magnos quosdam philosophos, tam graecos ut Platonem quam
-        latinos <pb n="[26]"/>ut Plinium, vocem etiam attribuisse inanimatis, utpote lyrae, citharae
-        atque id genus musicis instrumentis pluribus. Quos imitatus Boëthius nullam fere
-        differentiam inter sonum ac vocem in musicis suis institutionibus facit. Quae tanta tamen
-        est quanta inter hominem ac animal esse potest et singulis suae proprietates sunt. Nam quod
-        Maro vocem pro sono posuit, ubi dixit: Vox tubae infremuit fractasque a littore voces illi
-        ut poetae concedi potest. Nam alias convenientissime et voce et sono usus est. Taliter enim
-        alibi scripsit: At tuba terribilem sonitum procul aëre canoro Increpuit. Crediderim ergo
-        illos poetice magis quam proprie de natura vocis fuisse locutos. Nam regius ille vates in
-        voce tubae corneae Domino psallere etiam nos praecipit.</p>
-      <p xml:id="HERDEN0037">Definitio vocis secundum Petrum hispanum per instrumenta naturalia. Et quod
-        vox solum animalibus naturaliter inest. Capitulum III</p>
+      <p xml:id="HERDEN0036">Quamvis enim vox sine aëre fieri nequit, non continuo tamen vox aër
+        est: sed naturae aëreae. Uti nex color quamquam naturae lucidae sit, non tamen color lux
+        est. Et quia eius oppositum, taciturnitas scilicet, qualitas est: vox quare corpus? Cum haec
+        natura contrariantium sit, ut ad idem caput referantur. Proinde quo natura vocis pateat
+        expressius, non pigebit eandem per quattuor causas secundum eundem Aristotelem explicare ita
+        inferentem: Vox est inspirati aëris ab anima ad vocalem arteriam cum imagine aliquid
+        significandi repercussio. Ubi manifeste datur intellgi vocem dumtaxat animalibus inesse.
+        Inanimatorum enim nihil vocat. Quo magis miror magnos quosdam philosophos, tam graecos ut
+        Platonem quam latinos <pb n="[26]"/>ut Plinium, vocem etiam attribuisse inanimatis, utpote
+        lyrae, citharae atque id genus musicis instrumentis pluribus. Quos imitatus Boëthius nullam
+        fere differentiam inter sonum ac vocem in musicis suis institutionibus facit. Quae tanta
+        tamen est quanta inter hominem ac animal esse potest et singulis suae proprietates sunt. Nam
+        quod Maro vocem pro sono posuit, ubi dixit: Vox tubae infremuit fractasque a littore voces
+        illi ut poetae concedi potest. Nam alias convenientissime et voce et sono usus est. Taliter
+        enim alibi scripsit: At tuba terribilem sonitum procul aëre canoro Increpuit. Crediderim
+        ergo illos poetice magis quam proprie de natura vocis fuisse locutos. Nam regius ille vates
+        in voce tubae corneae Domino psallere etiam nos praecipit.</p>
+      <p xml:id="HERDEN0037">Definitio vocis secundum Petrum hispanum per instrumenta naturalia. Et
+        quod vox solum animalibus naturaliter inest. Capitulum III</p>
       <p xml:id="HERDEN0038">Huic praecedenti definitioni Aristotelis non inepte alludit Petrus
         hispanus, ex posterioribus dialecticus vel acutissimus, ita vocem definiens: Vox est sonus
         ab ore animalis prolatus naturalibusque instrumentis formatus; ex qua sicut et superioribus
@@ -397,20 +411,20 @@
         est discantantium lusciniarum nemus quam illi crocitantium numerus coetusque corvorum.
         Quemadmodum igitur quodlibet animal conditione sua delectatur, ita etiam natura specifica ac
         voce.</p>
-      <p xml:id="HERDEN0043">Differunt quoque voces secundum species animalium, ita ut nobiliori animali
-        nobiliores quoque atque altiores attribuantur proprietates. Hinc igitur homo aut canit aut
-        loquitur aut orat aut praedicat aut clamat aut talium multa facit, cum cuncta alia animalia
-        vociferari in genere dicantur, praeter specificas denominationes quas secundum naturas
-        proprias habent. Nam minutorum animalium volucres ut lusciniae, cardueles, hirundines
-        ceteraeque id genus, quia simile quiddam vocibus humanis proferunt, etiam canere dicuntur -
-        alioquin garrire. Alias doctae sermones humanos enuntiare, articulate loqui: ut corvi
-        psittaci, picae, monedulae, quibus lingua latior est quam ceteris avibus. Quamobrem corvi
-        secundum naturam specificam crocitant, cygni drensant, stridunt vespertiliones, bombunt
-        apes, ululae ululant, accipitres pipunt. Itemque hinniunt equi, rugiunt leones, mugiunt
-        boves, grunniunt sues, ganniunt vulpes, balant oves, elephanti barriunt reliquaque animalia
-        secundum proprias species peculiares voces edunt. Est igitur vox, quae in homine est,
-        humana: sicut quae in corvo corvina, in equo equina, leone leonina, capro caprina; et item
-        in Ioanne <pb n="[29]"/>ioannina, Petro petrina, Iaspare Iasparina, Ludovico ludovina;
+      <p xml:id="HERDEN0043">Differunt quoque voces secundum species animalium, ita ut nobiliori
+        animali nobiliores quoque atque altiores attribuantur proprietates. Hinc igitur homo aut
+        canit aut loquitur aut orat aut praedicat aut clamat aut talium multa facit, cum cuncta alia
+        animalia vociferari in genere dicantur, praeter specificas denominationes quas secundum
+        naturas proprias habent. Nam minutorum animalium volucres ut lusciniae, cardueles,
+        hirundines ceteraeque id genus, quia simile quiddam vocibus humanis proferunt, etiam canere
+        dicuntur - alioquin garrire. Alias doctae sermones humanos enuntiare, articulate loqui: ut
+        corvi psittaci, picae, monedulae, quibus lingua latior est quam ceteris avibus. Quamobrem
+        corvi secundum naturam specificam crocitant, cygni drensant, stridunt vespertiliones,
+        bombunt apes, ululae ululant, accipitres pipunt. Itemque hinniunt equi, rugiunt leones,
+        mugiunt boves, grunniunt sues, ganniunt vulpes, balant oves, elephanti barriunt reliquaque
+        animalia secundum proprias species peculiares voces edunt. Est igitur vox, quae in homine
+        est, humana: sicut quae in corvo corvina, in equo equina, leone leonina, capro caprina; et
+        item in Ioanne <pb n="[29]"/>ioannina, Petro petrina, Iaspare Iasparina, Ludovico ludovina;
         Bucephalo - qui fuit equus Alexandri Magni - bucephalina, Cyllaro - qui est Castoris -
         cyllarina, Rhebo - qui Mezentii - rhebina. Itaque, ut animalia distinguuntur specifice ac
         individualiter, sic perdifferentes eorum cognoscuntur et oces. Nam, uti singulis suae facies
@@ -468,7 +482,8 @@
         quoque dum laetitia gestio quam quando angustiis constringor. Nam aestate clara serenoque
         tempore vox etiam clara atque serena est. Hieme vero, quae pars anni frigida, humida atque
         turbida est, turbidi quoque spiritus fiunt et vox eiusmodi. Et quia etiam secundum aetates
-        complexiones in hominibus variantur, itidem et voces. Idcirco vox mea propter puriorem <pb n="[31]"/>sanguinem in pueritia sanguinea fuerat, in consistentia cholerica effecta est,
+        complexiones in hominibus variantur, itidem et voces. Idcirco vox mea propter puriorem <pb
+          n="[31]"/>sanguinem in pueritia sanguinea fuerat, in consistentia cholerica effecta est,
         in decrepitatu vero vitio sanguinis corrumpendam melancholicam reformido. Et tamen idem homo
         sum, vox vero diversa. Infinita igitur, ut Aristoteli placet, eidem accidunt. Nam cum per
         otium aliquando a cantando vaco, vox obsolescit; dum vero exclamando guttura rumpo, raucus
@@ -484,9 +499,9 @@
         propellere possim, hoc tamen effugere nequeo, quin vox mea vere sit humana, Mattheina atque
         Herbena.</p>
       <p xml:id="HERDEN0046">De verbo divino eiusque proprietatibus. Capitulum VI</p>
-      <p xml:id="HERDEN0047">Talem tamen praedicationem, quia denominativa est et accidentalis, non per
-        omnia recipt natura divina. Vox enim quam Deus ab aeterno loquitur, non tam divina est quam
-        Deus plane ipse. Esse enim Dei et opertationes Eius, dum intrinsecus manent, nihil
+      <p xml:id="HERDEN0047">Talem tamen praedicationem, quia denominativa est et accidentalis, non
+        per omnia recipt natura divina. Vox enim quam Deus ab aeterno loquitur, non tam divina est
+        quam Deus plane ipse. Esse enim Dei et opertationes Eius, dum intrinsecus manent, nihil
         distinguuntur. Idcirco legimus: In principio erat Verbum et Verbum erat apud Deum et Deus
         ertat Verbum. Si igitur verbum illud Deus erat, non ergo divinum quasi accidentale. Verum
         tum eam nuncupationem acceptit, cum ex incredibili sua bonitate atque potentia mundum Verbo
@@ -589,7 +604,8 @@
         acutissimum dici: Mesen atque Proslambanomenon resonare. Quapropter iucundam eam
         commentationem Plinius asserit magis quam veram, cum sententiae Averrois in Aristotelem
         astipulatur. Susceptae igitur inquisitioni, quae de caelestium concentu est, hoc facilius
-        satisfecero si consideraverimus summum opificem rerum Deum in hoc admirabili opere <pb n="[35]"/>mundano - quod ab absoluta pulchritudine appellatum veteres autumant - sic per
+        satisfecero si consideraverimus summum opificem rerum Deum in hoc admirabili opere <pb
+          n="[35]"/>mundano - quod ab absoluta pulchritudine appellatum veteres autumant - sic per
         certos gradus cunctas creaturas incredibili ratione digessisse, quo aliae aliis pro
         nobilitate formarum antecellerent. Itaque aliis facultatem qua existerent solum dedit, aliis
         qua ut non existerent tantum sed etiam vita utpote nobiliori dono fruerentur. Et quia res
@@ -645,16 +661,17 @@
         honorare possit. Nemo igitur existimet frustra divinam Musicen mentibus humanis concessam
         esse: quinimmo, quo Deus excellentius honoraretur, divinum animal divina quoque arte musica
         et praecellenti munere vocum donare placuit.</p>
-      <p xml:id="HERDEN0055">Arte itaque vocibus humanis coniunctis illa consonantia oritur quae proprie
-        symphonia dicitur: qua, ut nobilitate naturae, ita etiam excellentia concinendi cunctas
-        animantes supergreditur. Verum cum angelica natura supra humanam conditionem ascendit et
-        Deus illam nihilominus suis perpetuis laudibus deputavit: quis dubitare possit quin Deus ab
-        excellentiore creatura excellentiore quoque modo velit honorari? Concinunt igitur angelici
-        spiritus Conditori suo non aviculos cantus, non humanas symphonias <pb n="[37]"/>arithmeticis numeris compactas, sed caelestes et proprias et angelicas harmonias; quas
-        humana mente propter naturae sublimitatem attingere haud possumus, ut, quae infra
-        conditionem humanam sunt, concentus nostros intelligere nequeunt. Sed uti nos aviculorum
-        cantus deprehendimus nulla arte promi, ita caelestes musici congnoscunt omnem nostrum
-        concentum arte atque ingenio fieri humano. Quid igitur, num minus angeli perpetuis
+      <p xml:id="HERDEN0055">Arte itaque vocibus humanis coniunctis illa consonantia oritur quae
+        proprie symphonia dicitur: qua, ut nobilitate naturae, ita etiam excellentia concinendi
+        cunctas animantes supergreditur. Verum cum angelica natura supra humanam conditionem
+        ascendit et Deus illam nihilominus suis perpetuis laudibus deputavit: quis dubitare possit
+        quin Deus ab excellentiore creatura excellentiore quoque modo velit honorari? Concinunt
+        igitur angelici spiritus Conditori suo non aviculos cantus, non humanas symphonias <pb
+          n="[37]"/>arithmeticis numeris compactas, sed caelestes et proprias et angelicas
+        harmonias; quas humana mente propter naturae sublimitatem attingere haud possumus, ut, quae
+        infra conditionem humanam sunt, concentus nostros intelligere nequeunt. Sed uti nos
+        aviculorum cantus deprehendimus nulla arte promi, ita caelestes musici congnoscunt omnem
+        nostrum concentum arte atque ingenio fieri humano. Quid igitur, num minus angeli perpetuis
         concentibus Deum laudant, quia ego quibus id modi fiat nequeam explicare? An propterea minus
         piper nascitur in India, in Egypto balsamus, quod ego arbores illas aut terras quomodo
         colantur non viderim? Minime equidem, cum etiam pleraque, quae intra me sensibiliter
@@ -670,10 +687,10 @@
         concentibus credo ego Deum ab angelicis cantatoribus summa concordantia in caelo honorari,
         creaturis quidem maxime suae naturae conformibus, quo ne minor laus divnia sit in caelis
         quam veneratio ab hominibus mortalibus exhibetur in terris.</p>
-      <p xml:id="HERDEN0056">Quod animae beatorum cum angelis in caelo spiritaliter Deum laudent tantum
-        usque ad futurum iudicium. Capitulum X</p>
-      <p xml:id="HERDEN0057">Verum,ut Deus hominem immortali anima et fere aequalem angelis fecit, ita
-        etiam beatorum animas consortes suarum laudum, deposito ad tempus corpore, spiritaliter
+      <p xml:id="HERDEN0056">Quod animae beatorum cum angelis in caelo spiritaliter Deum laudent
+        tantum usque ad futurum iudicium. Capitulum X</p>
+      <p xml:id="HERDEN0057">Verum,ut Deus hominem immortali anima et fere aequalem angelis fecit,
+        ita etiam beatorum animas consortes suarum laudum, deposito ad tempus corpore, spiritaliter
         efficit in caelis. Id enim ad divinam gloriam plurimum pertinere videtur: ut, a quo
         corruptibili animali honorabatur in terris, eius quoque immortali mente cum angelis
         veneretur in caelis. Proinde Aeneas, Anchisae genitoris sui manes visitaturus, Plutonis
@@ -687,8 +704,8 @@
         agnum immaculatum, omni genere musicalium modorum concrepantem: quod numquam dixisset tam
         sacer vates, nisi beatorum animas corporibus absolutas Deo pariter decantantes
         agnovisset.</p>
-      <p xml:id="HERDEN0059">Quod post extremum iudicium resumptis corporibus etiam corporaliter Deum
-        laudabimus cantibus nostris in caelo. Capitulum XI</p>
+      <p xml:id="HERDEN0059">Quod post extremum iudicium resumptis corporibus etiam corporaliter
+        Deum laudabimus cantibus nostris in caelo. Capitulum XI</p>
       <p xml:id="HERDEN0060">Quaeri autem in hac disputatione haud irrationabiliter possit: cum fide
         credimus omnes nos statuto a summo Deo tempore resurrecturos, cantabimusne corporeis organis
         in caelis, veluti hic nunc etiam in terris? Cum ut iam antea dictum sit Deum hominem
@@ -712,7 +729,8 @@
         quibus id modis faciant ignoraverint: fuerit igitur maior omnium rerum perfectio in
         corporibus corruptibilibus quam glorificatis, degentibus in miseria atque tristitia quam
         fruentibus summo otio atque laetitia: quod natura rerum numquam permiserit. Cum in statu
-        corporum futuro nulla futura sit inopia, nulla invidia, ignorantia nulla, desidia nulla. <pb n="[39]"/>Satiabor inquit regius propheta Deum alloquendo cum apparuerit gloria tua: quam
+        corporum futuro nulla futura sit inopia, nulla invidia, ignorantia nulla, desidia nulla. <pb
+          n="[39]"/>Satiabor inquit regius propheta Deum alloquendo cum apparuerit gloria tua: quam
         omnes in futura resurrectione sedulo expectamus. Satiabimur itaque et anima et corpore
         incredibilibus utriusque dotibus. Satiabimur bonitate divina ad perpetue [sic] bene agendum
         et propterea divinum honorem plenis faucibus propalandum. Laetabimur de honore divinae
@@ -745,8 +763,8 @@
       <p xml:id="HERDEN0062">
         <pb n="[40]"/>Adversus eos qui negant in caelo voces humanas fieri posse: quod illic nec aër
         ad respirandum sit nec locus qui corpora capere possit. Capitulum XII</p>
-      <p xml:id="HERDEN0063">Sed occurrunt mihi philosophi aientes indignum se facinus intellexisse ex
-        me: quae superius dicta sunt, vana esse: quod cantantibus ad respirandum aër necessarius
+      <p xml:id="HERDEN0063">Sed occurrunt mihi philosophi aientes indignum se facinus intellexisse
+        ex me: quae superius dicta sunt, vana esse: quod cantantibus ad respirandum aër necessarius
         sit, qui incaelo non est. Nullum enim elementum sphaeram lunae transcendit: multo igitur
         minus caelum empyreum penetrare credendum est. Si igitur aër in caelo non est, neque vocem
         ac cantum illic fieri credi oportet. Quibus hoc facile obiiciemus, si meminerimus nos
@@ -821,7 +839,8 @@
         haud dubium est: applicantibus taliter cantus suos carminibus quasi vestitum nulli corpori
         aptum. Quippe alium tropum quadragesimalis cantus obtinet, paschalis atque quilibet pro
         tempore alium longeque diversum. Et: Laeta quidem laetis cecini, cano tristia tristis
-        Ovidius inquit. Hinc igitur odae atque lyrica cantica variis modulationibus instituta <pb n="[43]"/>a poetis; atque, ne cuilibet pro libitu liceret vagari discantando, diversi modi
+        Ovidius inquit. Hinc igitur odae atque lyrica cantica variis modulationibus instituta <pb
+          n="[43]"/>a poetis; atque, ne cuilibet pro libitu liceret vagari discantando, diversi modi
         tamquam cantorum freni instituti, quos pro moribus gentium appellaverunt Phrygium, Lydium,
         Mixolydium, Hypermixolydium, Hypodorium, Hypophrygium, Hypolydium, Dorium, quibus possent
         humani affectus pro qualitate verborum honestius commoveri atque reprimi. Verum hoc superat
@@ -973,14 +992,14 @@
         quid multa de infantibus? Pythagorici et ipsi quidem viri adulti, cum diurnas in somno
         resolverent curas, quibusdam cantilenis utebantur ut eis lenis et quietus sopor irreperet;
         experrecti deinde aliis quibusdam modis stuporem somni confusionemque tollebant.</p>
-      <p xml:id="HERDEN0074">Quam mirabiles effectus obtinet cantus in affectibus humanis commovendis.
-        Capitulum III</p>
-      <p xml:id="HERDEN0075">Cantus igitur ac numeri humanae naturae a principio vitae per omnes status
-        gratissimi sunt: pueris quidem accommodati, provectis accepti, laetis iucundi, tristibus
-        praecipue angustiarum lenitivi, quibus, etiam si nemo sit qui in doloribus nobis assistat,
-        tamen - quamvis id muliebre est - lamentis et threnis nosmetipsos consolamur; et cantibus
-        tandem mortui deferimur ad sepulchra. Hinc est ut omnibus rebus ac ceremoniis tam trisitbus
-        quam laetis cantus interponeretur ab antiquis. Nam in venerationibus divinis hymni
+      <p xml:id="HERDEN0074">Quam mirabiles effectus obtinet cantus in affectibus humanis
+        commovendis. Capitulum III</p>
+      <p xml:id="HERDEN0075">Cantus igitur ac numeri humanae naturae a principio vitae per omnes
+        status gratissimi sunt: pueris quidem accommodati, provectis accepti, laetis iucundi,
+        tristibus praecipue angustiarum lenitivi, quibus, etiam si nemo sit qui in doloribus nobis
+        assistat, tamen - quamvis id muliebre est - lamentis et threnis nosmetipsos consolamur; et
+        cantibus tandem mortui deferimur ad sepulchra. Hinc est ut omnibus rebus ac ceremoniis tam
+        trisitbus quam laetis cantus interponeretur ab antiquis. Nam in venerationibus divinis hymni
         cantabantur, in nuptiis hymenei, in lamentis threni; naviculatores cum portus attigissent
         celeumata decantabant, ceteri odas. In conviviis cithara circumferebatur ac lyra, quibus
         egregia maiorum suorum facta decantantes iuvenum animos ad eorum virtutes imitandas
@@ -1013,73 +1032,73 @@
         percipiuntur, organa sentiendi deforis dumtaxat videntur titilare.</p>
       <p xml:id="HERDEN0076">Quod nihil efficacius ad excitandum in hominibus amorem quam vox est.
         Capitulum IV</p>
-      <p xml:id="HERDEN0077">Quia autem mens domicilium amoris est, nihil est ex omnibus sensibilibus
-        quo validius incenditur ac foventur amor, conciliantur animi incensi, quam voce humana.
-        Responsio enim moliis, ut Sapiens inquit, mitigat iram, cum sermo durus exsuscitet furorem.
-        Quo fit ut vox vel sermo, quibus amor comparatur, alatus apud veteres pingebatur, quasi
-        alacer nuntius non auribus <pb n="[50]"/>tantum insidens sed momento in pectus alterius se
-        recipiens ac condens; in duobus pluribusve corporibus quasi unum eundemque efficit animum,
-        quo nihil in amantibus desideratur optatius. Hinc est ut apud comicos poetas corculum suum
-        atque animum denique vitam suam et animolum amicas suas amatores vocent. Et Phaedria amator
-        Thaidis rus se maturaturum conferens cum milite illa praesens absens foret deprecatus est.
-        Quid autem hoc aliud datur intelligi nisi sibi praesens magis foret propter vim amoris, a
-        quo tamen corpore abfutura fuerat, quam illi, cui corporaliter tantum adhaesura. Quid vero
-        aliud optatur in amicitia, quae ab amore sic dicta est, nisi in pluribus hominibus mens una?
-        Quod dum fit, retinet vetus proverbium illud virtutem suam: ut amicorum eadem atque perpetua
-        voluntas sit, illisque communia omnia. Ad hoc igitur tam incredibile vinculum unionis quod
-        in amore est comparandum, nihil valentius est voce humana. Quod agnoscens sapientissimus
-        ille regum Salomon, filiae Pharaonis regis Egyptiorum amator ardentissimus, quo vehementiore
-        in eam amore deperiret, invitavit ad pronuntiationem. Diceret enim. Vox tua dulcis, sonet
-        igitur in auribus meis. Nam ex quo vox naturae aereae est, aereum spiritum motu penetrans,
-        affectumque canentis et animum secum transferens, audientis affectum movet affectu et animum
-        afficit animo sensimque habitum suum atque amores infundit. Ceterum cum figurae quoque
-        corporales et lineamenta magnam vim obtineant affectuum movendorum, idem rex amicam suam
-        commendavit ex eisdem, dicens facie esse decora. Duplici itaque genere pulchritudinis
-        captatur mens humana: vocum scilicet et figurarum; maxime tamen meo iudicio vocum. Quod vel
-        ex tali coniectatione praecipue colligo: si enim datum fuisset David regi Bethsabeam
-        intuenti ut illam quoque vel muliebriter audisset concinentem vel Phrygiis modulis
-        animadvertisset sistrum pulsantem, quos tali viro ignes, quos furores, quas faces atque
-        incendia tandem tam delicioso regi iniecisset? Qui solo visu captus et adulter infamis
-        effectus est et fidelissimi militis infidus proditor, et quem ab omni iniuria maxime
+      <p xml:id="HERDEN0077">Quia autem mens domicilium amoris est, nihil est ex omnibus
+        sensibilibus quo validius incenditur ac foventur amor, conciliantur animi incensi, quam voce
+        humana. Responsio enim moliis, ut Sapiens inquit, mitigat iram, cum sermo durus exsuscitet
+        furorem. Quo fit ut vox vel sermo, quibus amor comparatur, alatus apud veteres pingebatur,
+        quasi alacer nuntius non auribus <pb n="[50]"/>tantum insidens sed momento in pectus
+        alterius se recipiens ac condens; in duobus pluribusve corporibus quasi unum eundemque
+        efficit animum, quo nihil in amantibus desideratur optatius. Hinc est ut apud comicos poetas
+        corculum suum atque animum denique vitam suam et animolum amicas suas amatores vocent. Et
+        Phaedria amator Thaidis rus se maturaturum conferens cum milite illa praesens absens foret
+        deprecatus est. Quid autem hoc aliud datur intelligi nisi sibi praesens magis foret propter
+        vim amoris, a quo tamen corpore abfutura fuerat, quam illi, cui corporaliter tantum
+        adhaesura. Quid vero aliud optatur in amicitia, quae ab amore sic dicta est, nisi in
+        pluribus hominibus mens una? Quod dum fit, retinet vetus proverbium illud virtutem suam: ut
+        amicorum eadem atque perpetua voluntas sit, illisque communia omnia. Ad hoc igitur tam
+        incredibile vinculum unionis quod in amore est comparandum, nihil valentius est voce humana.
+        Quod agnoscens sapientissimus ille regum Salomon, filiae Pharaonis regis Egyptiorum amator
+        ardentissimus, quo vehementiore in eam amore deperiret, invitavit ad pronuntiationem.
+        Diceret enim. Vox tua dulcis, sonet igitur in auribus meis. Nam ex quo vox naturae aereae
+        est, aereum spiritum motu penetrans, affectumque canentis et animum secum transferens,
+        audientis affectum movet affectu et animum afficit animo sensimque habitum suum atque amores
+        infundit. Ceterum cum figurae quoque corporales et lineamenta magnam vim obtineant affectuum
+        movendorum, idem rex amicam suam commendavit ex eisdem, dicens facie esse decora. Duplici
+        itaque genere pulchritudinis captatur mens humana: vocum scilicet et figurarum; maxime tamen
+        meo iudicio vocum. Quod vel ex tali coniectatione praecipue colligo: si enim datum fuisset
+        David regi Bethsabeam intuenti ut illam quoque vel muliebriter audisset concinentem vel
+        Phrygiis modulis animadvertisset sistrum pulsantem, quos tali viro ignes, quos furores, quas
+        faces atque incendia tandem tam delicioso regi iniecisset? Qui solo visu captus et adulter
+        infamis effectus est et fidelissimi militis infidus proditor, et quem ab omni iniuria maxime
         vindicare debuerat, nefarius homicida. Adolescens quoque Phaedria, qui in animum induxerat
         Thaida se esse deserturum, quam facile uno quoque verbo victus collapsus est? quae profecto
         amoris incendia non illum latuerunt, qui multa talium novit, Ovidium, cum caneret:</p>
-      <p xml:id="HERDEN0078">Enervant animos citharae cantusque lyraeque <lb/>Et vox et humeris brachia
-        mota suis.</p>
-      <p xml:id="HERDEN0079">Quamobrem non sine causa fictis fabulis sapientissimi homines admonuerunt
-        Sirenarum cantus surda nos aure debere pertransire neque omnibus <pb n="[51]"/>vocibus ac
-        cantibus auditum accommodare per quos tam misere de statu mentis suae deicitur interdum
-        homo, ut non cognoscas eundem esse qui fuerat antea. Quid enim aliud - ut ad fabulas
-        revertar - deformavit socios Ulyxi ut Circe alius verteretur in suem, in lupum leonemque
-        mutaretur alius et singuli immanium bestiarum susciperent formas, nisi quod incantationibus
-        meretriceis admonitione sapientis aures non obduxerant. Penetrabilis enim in interiorem
-        animum illecebrosa vox est et ut exitiale venenum interiora cordis vulnerans; mentem quoque
-        aggreditur, ipsam quoque de statu suo deiciens enecat quandoque. Quod animadvertentes
-        Lacedemonii Timotheum musicum, mollius canendi genus ut chromaticum meditantem, urbe
-        expulerunt. Fuit enim musica disciplina olim solum ad divinum cultum usui simulque
-        instituendam iuventutem remque publicam conservandam. Oportet igitur, ut Plato in legalibus
-        suis libris docet, in civitate iuvenes bonis figuris ac cantibus assuescant, illamque sibi
-        videri musicam esse pulscherrimam quae optimos delectet satisque eruditos; quapropter iubet
-        eas dumtaxat consonantias exerceri, audiri, spectari quae habitum mentis constantem
-        referent, non superbia elatum, non voluptate mollitum, non fractum dolore. Et regius cantor
-        sapienter Deo psallendum admonuit. Nam, si omnes effectus vocales tam forent perniciosi ut
-        sunt quos nunc commemini: quid posset humana voce inveniri aut excogitari damnabilius? Verum
-        in utramque partem plurimum posse tam altum et caelestem spiritum certum est. Quippe
-        Pythagorae musici filia, et ipsa musica, puellas coaevas suas certis cantibus castitatis
-        instruxit atque admonuit. Agamemnon quoque, imperator ad Troianum bellum profecturus, poetam
-        domi reliquit qui uxorem eius Clytemnestram per muliebrum virtutum laudes ad pudicitiam
-        coniugalem cantu hortaretur; quare aiunt non prius ab Aegistho vitiatam quam is e medio
-        musicum sustulisset. Quot autem putemus recta et bene instituta musica ad altiores
-        contemplationes esse raptos, quot honesto cantu ad pias lachrymas provocatos? Ut non
-        persuadeamus nobis vocem humanam plus posse in mentibus lascivientibus quin multo plura
+      <p xml:id="HERDEN0078">Enervant animos citharae cantusque lyraeque <lb/>Et vox et humeris
+        brachia mota suis.</p>
+      <p xml:id="HERDEN0079">Quamobrem non sine causa fictis fabulis sapientissimi homines
+        admonuerunt Sirenarum cantus surda nos aure debere pertransire neque omnibus <pb n="[51]"
+        />vocibus ac cantibus auditum accommodare per quos tam misere de statu mentis suae deicitur
+        interdum homo, ut non cognoscas eundem esse qui fuerat antea. Quid enim aliud - ut ad
+        fabulas revertar - deformavit socios Ulyxi ut Circe alius verteretur in suem, in lupum
+        leonemque mutaretur alius et singuli immanium bestiarum susciperent formas, nisi quod
+        incantationibus meretriceis admonitione sapientis aures non obduxerant. Penetrabilis enim in
+        interiorem animum illecebrosa vox est et ut exitiale venenum interiora cordis vulnerans;
+        mentem quoque aggreditur, ipsam quoque de statu suo deiciens enecat quandoque. Quod
+        animadvertentes Lacedemonii Timotheum musicum, mollius canendi genus ut chromaticum
+        meditantem, urbe expulerunt. Fuit enim musica disciplina olim solum ad divinum cultum usui
+        simulque instituendam iuventutem remque publicam conservandam. Oportet igitur, ut Plato in
+        legalibus suis libris docet, in civitate iuvenes bonis figuris ac cantibus assuescant,
+        illamque sibi videri musicam esse pulscherrimam quae optimos delectet satisque eruditos;
+        quapropter iubet eas dumtaxat consonantias exerceri, audiri, spectari quae habitum mentis
+        constantem referent, non superbia elatum, non voluptate mollitum, non fractum dolore. Et
+        regius cantor sapienter Deo psallendum admonuit. Nam, si omnes effectus vocales tam forent
+        perniciosi ut sunt quos nunc commemini: quid posset humana voce inveniri aut excogitari
+        damnabilius? Verum in utramque partem plurimum posse tam altum et caelestem spiritum certum
+        est. Quippe Pythagorae musici filia, et ipsa musica, puellas coaevas suas certis cantibus
+        castitatis instruxit atque admonuit. Agamemnon quoque, imperator ad Troianum bellum
+        profecturus, poetam domi reliquit qui uxorem eius Clytemnestram per muliebrum virtutum
+        laudes ad pudicitiam coniugalem cantu hortaretur; quare aiunt non prius ab Aegistho vitiatam
+        quam is e medio musicum sustulisset. Quot autem putemus recta et bene instituta musica ad
+        altiores contemplationes esse raptos, quot honesto cantu ad pias lachrymas provocatos? Ut
+        non persuadeamus nobis vocem humanam plus posse in mentibus lascivientibus quin multo plura
         possit in honestis pectoribus ac temperatis. Quae non mentem solum, sed et mentem et corpus,
         totum denique hominem omnesque eius virtutes plane sibi devincit atque obstringit.</p>
       <p xml:id="HERDEN0080">
         <pb n="[52]"/>Quod, sicut omnes res naturales meliores appetunt formas, ita etiam homo
         naturaliter ad Deum anhelat: quod sacris cantibus identidem declarat. Capitulum V</p>
-      <p xml:id="HERDEN0081">Nam, quemadmodum omnis natura rerum sine appetitu esse nequit, ita etiam
-        sine divino desiderio homo naturaliter esse non potest; unde fit, ut ad divinas laudes atque
-        obsecrationes identidem revertatur. Fuere igitur ex philosophantibus quidam duo rerum
+      <p xml:id="HERDEN0081">Nam, quemadmodum omnis natura rerum sine appetitu esse nequit, ita
+        etiam sine divino desiderio homo naturaliter esse non potest; unde fit, ut ad divinas laudes
+        atque obsecrationes identidem revertatur. Fuere igitur ex philosophantibus quidam duo rerum
         naturaliter principia esse asserentes, litem videlicet atque amicitiam. Per litem quidem
         saepe rationem formarum fieri, per amicitiam vero conservationem. Cum igitur nulla res, ex
         compugnantibus elementis composita, perpetuo sub eadem forma persistere possit, appetit
@@ -1097,8 +1116,8 @@
         amorem nostrum Illi manifestamus. Nam ebur, aurum ceteraeque idgenus res corruptibiles
         indigna Deo munera Platoni quoque visa sunt, quae disertissimus poeta, avaros atque
         irreligiosos sacerdotes increpando, hisce versibus derisit:</p>
-      <p xml:id="HERDEN0082">Dicite pontifices: in sacris quid valet aurum? <br/>Nempe id quod Veneri
-        donatae a virgine pupae</p>
+      <p xml:id="HERDEN0082">Dicite pontifices: in sacris quid valet aurum? <br/>Nempe id quod
+        Veneri donatae a virgine pupae</p>
       <p xml:id="HERDEN0083">In qua etiam sententia existimo stetisse regium prophetam, ubi Deum
         alloquendo ita intulit: Sacrificium et oblationem noluisti, aures autem patecisti mihi. Si
         igitur neque ebur neque aurm iustum Deo satis sacrificium est, alia ergo offerenda sunt:
@@ -1121,9 +1140,9 @@
         perfectius consistat et vivat salubrius. Nam, cum cantus bonum quiddam sit, et bono quidem
         homini a Deo concessum quo natura sua foret perfectior. Addit enim perfectioni humanae vox
         certe plurimum, sed quomodo bonum quippiam esse possit, si non idipsum etiam Bonum agat?</p>
-      <p xml:id="HERDEN0086">Primus igitur atque praecipuus bonitatis eius actus est, ut, per numeros
-        sese omnibus membris commiscens, quasi manu quadam pulsando excitet principalia membra
-        primum ac per illa deinceps alia, unumquodque ad suum proprium officium peragendum.
+      <p xml:id="HERDEN0086">Primus igitur atque praecipuus bonitatis eius actus est, ut, per
+        numeros sese omnibus membris commiscens, quasi manu quadam pulsando excitet principalia
+        membra primum ac per illa deinceps alia, unumquodque ad suum proprium officium peragendum.
         Stomachum ad cibum cum amoenitate complectendum; complexum hepar naturali ac proprio calore
         decoquendum feculentumque a nutritivo separandum; cor ad purissimi sanguinis humorem
         eliquandum atque pro totius corporis salubritate ceteris membris cum hepate distribuendum.
@@ -1135,21 +1154,21 @@
         mente simul et corpore validus ac robustus. Obtinet enim maximam affinitatem naturalem
         humani corporis pulchritudo cum concentus musici venustate, quibus utrimque suus decor
         honestus est.</p>
-      <p xml:id="HERDEN0087">Ab ordine igitur, modo ac specie pulchritudinem suam cantus accipit. Ordine
-        quidem: cum cantus a gravibus phthongis ad acutos et ab eisdem vicissim ad graves modeste
-        pariter ascendit atque descendit. Modo: cum <pb n="[54]"/>per tertias, quartas, quintas,
-        sextas ad diapason et ita deinceps pari modo ad disdiapason fit progressio. Specie: cum
-        splendida voce omnium praedictorum debita fit enuntiatio. His quidem tribus tam voluptuarie
-        se natura humana applicat, ut pulchritudinem illam - quae tamquam unum corpus ex praedictis
-        nascitur - totam peculiarem sibi vindicet, animo et corpore in ea se oblectet, denique
-        pulchriorem [se] fieri existimet. Quis non videat nunc Pythagoricos hac contemplatione
-        permotos, ut existimarent rationalem animam ex bene ordinato corpore existere veluti ex
-        pulsu lyrae vel citharae suavem exsurgere sonum, cum videamus vegetabilem animae portionem
-        tantopere cantibus delectari ut ex eis corpus quoque recreari, crescere ac dilatare
-        videatur. Et magnos profecto musicos unam musicae partem desumere quam humanam vocitarent;
-        eam videlicet quam nunc declaravi; quia penitus humano corpori immersa sit, adeo ut
-        dormientibus etiam nobis ludum nihilominus peragat suum. Nam nullum est momentum quo non in
-        corpore nostro omnium eorum quae dicta sunt contingat fieri mixturam; quae, si iustum
+      <p xml:id="HERDEN0087">Ab ordine igitur, modo ac specie pulchritudinem suam cantus accipit.
+        Ordine quidem: cum cantus a gravibus phthongis ad acutos et ab eisdem vicissim ad graves
+        modeste pariter ascendit atque descendit. Modo: cum <pb n="[54]"/>per tertias, quartas,
+        quintas, sextas ad diapason et ita deinceps pari modo ad disdiapason fit progressio. Specie:
+        cum splendida voce omnium praedictorum debita fit enuntiatio. His quidem tribus tam
+        voluptuarie se natura humana applicat, ut pulchritudinem illam - quae tamquam unum corpus ex
+        praedictis nascitur - totam peculiarem sibi vindicet, animo et corpore in ea se oblectet,
+        denique pulchriorem [se] fieri existimet. Quis non videat nunc Pythagoricos hac
+        contemplatione permotos, ut existimarent rationalem animam ex bene ordinato corpore existere
+        veluti ex pulsu lyrae vel citharae suavem exsurgere sonum, cum videamus vegetabilem animae
+        portionem tantopere cantibus delectari ut ex eis corpus quoque recreari, crescere ac
+        dilatare videatur. Et magnos profecto musicos unam musicae partem desumere quam humanam
+        vocitarent; eam videlicet quam nunc declaravi; quia penitus humano corpori immersa sit, adeo
+        ut dormientibus etiam nobis ludum nihilominus peragat suum. Nam nullum est momentum quo non
+        in corpore nostro omnium eorum quae dicta sunt contingat fieri mixturam; quae, si iustum
         temperamentum observet, aequabilis ac consonans musica erit, si vero relinquat: inconsonans.
         Unde aegritudines et tandem mors; quam, quia omnem nostri corporis compaginem disrumpit,
         nervos dissolvit, veluti discrepantem auribus citharam totis animis perhorrescimus. Maxima
@@ -1158,20 +1177,20 @@
         perhibentur esse curati. Quippe febrem curabant veteres ac vulnera cantu. Quapropter
         utriusque disciplinae, et musicae et medicinae, eundem Apollinem asseverant esse auctorem:
         quoniam utraque homo curatur et diutius in vita conservatur.</p>
-      <p xml:id="HERDEN0088">Quomodo vox et sermo occupant atque devinciunt sensus humanos. Capitulum
-        VII</p>
-      <p xml:id="HERDEN0089">Denique non solum in vegetabilem animae partem vim suam vox exercet sed in
-        sensibilem quoque. Est enim tum vox tum sermo qualitas maxime immutativa auditus atque per
-        ipsum totius hominis multipliciter affectiva: efficiendo ex perverso et discolo laudabilem,
-        ex deiecto et humili sublimem, ex vago et mutabili constantem et firmum. Quin etiam desides
-        animos ad laborem impellit, ad laetitiam misericordiamve provocat, ignorantes erudit,
-        infensos mutata nocendi cupiditate allicit ad amorem. Ad virtutes tum divinas - fidem, spem,
-        caritatem - tum morales - iustitiam, prudentiam, fortitudinem, <pb n="[55]"/>longanimitatem,
-        modestiam - alios accendit nequitia, odio, desperatione ceterisque idgenus vitiis ex humanis
-        mentibus profligatis. Quid vero si non hoc praeclarum virtutis munus est: dum ex mendace
-        efficit veracem, ex inglorio atque contemptibili gloriosum ac nobilem; qua sola virtute
-        multi milites e proeliis laureati excesserunt aut non sine gloria fortiter dimicando
-        interierunt, neque ulla res est qua validius amicitiae inter homines conservantur,
+      <p xml:id="HERDEN0088">Quomodo vox et sermo occupant atque devinciunt sensus humanos.
+        Capitulum VII</p>
+      <p xml:id="HERDEN0089">Denique non solum in vegetabilem animae partem vim suam vox exercet sed
+        in sensibilem quoque. Est enim tum vox tum sermo qualitas maxime immutativa auditus atque
+        per ipsum totius hominis multipliciter affectiva: efficiendo ex perverso et discolo
+        laudabilem, ex deiecto et humili sublimem, ex vago et mutabili constantem et firmum. Quin
+        etiam desides animos ad laborem impellit, ad laetitiam misericordiamve provocat, ignorantes
+        erudit, infensos mutata nocendi cupiditate allicit ad amorem. Ad virtutes tum divinas -
+        fidem, spem, caritatem - tum morales - iustitiam, prudentiam, fortitudinem, <pb n="[55]"
+        />longanimitatem, modestiam - alios accendit nequitia, odio, desperatione ceterisque idgenus
+        vitiis ex humanis mentibus profligatis. Quid vero si non hoc praeclarum virtutis munus est:
+        dum ex mendace efficit veracem, ex inglorio atque contemptibili gloriosum ac nobilem; qua
+        sola virtute multi milites e proeliis laureati excesserunt aut non sine gloria fortiter
+        dimicando interierunt, neque ulla res est qua validius amicitiae inter homines conservantur,
         exstinguuntur inimicitiae facilius, quam prudenti voce ac oratione, omni adversaria
         oppositione procul remota; cum nemo sine voce hortatrice malitiam facile deponet, quid
         eximium praeclarumve amplectetur, laborem pro inertia suscipiet, ignorantiam studio
@@ -1185,17 +1204,17 @@
         obsidet, obsessum occupat ut non aliunde illum quam ex voce ac sermone vivere arbitreris.
         Sub aspectum eius prodeas: non te videbit. Alloquaris: nihil animadvertet. Cibum in ore
         teneat: non degustabit. Proferantur odorata: nihil olfaciet. Pulsetur: sentiet nihil.</p>
-      <p xml:id="HERDEN0090">Quas quidem vocis ac pronuntiationis virtutes pulchre mihi ingeniosissimi
-        poetae figurasse videntur, asserentes homines iam olim ante Musas fuisse. Musis deinde natis
-        cantuque monstrato nonnullos ea voluptate usque adeo fuisse delenitos, ut canentes cibus
-        potumque negligerent imprudenterque perirent; ex quibus cicadarum genus sit natum, munus hoc
-        a Musis nactum, ut alimonia non indigeat sed absque cibo potuque quamdiu dixerit cantitet,
-        postea vero ad Musas proficisci.</p>
+      <p xml:id="HERDEN0090">Quas quidem vocis ac pronuntiationis virtutes pulchre mihi
+        ingeniosissimi poetae figurasse videntur, asserentes homines iam olim ante Musas fuisse.
+        Musis deinde natis cantuque monstrato nonnullos ea voluptate usque adeo fuisse delenitos, ut
+        canentes cibus potumque negligerent imprudenterque perirent; ex quibus cicadarum genus sit
+        natum, munus hoc a Musis nactum, ut alimonia non indigeat sed absque cibo potuque quamdiu
+        dixerit cantitet, postea vero ad Musas proficisci.</p>
       <p xml:id="HERDEN0091">Quomodo cantus ac sermo efficiunt hominem similem Deo, insensibilem.
         Capitulum VIII</p>
-      <p xml:id="HERDEN0092">Quid igitur si non cantus ac sermo efficiant hominem insensibilem prorsus
-        simillimum Deo, qui omnino corporeis organis non utitur, cum ita vox animum in sublime
-        sustollat totumque ad sese introrsum rapiat, ut nescias in corporene sit an taliter
+      <p xml:id="HERDEN0092">Quid igitur si non cantus ac sermo efficiant hominem insensibilem
+        prorsus simillimum Deo, qui omnino corporeis organis non utitur, cum ita vox animum in
+        sublime sustollat totumque ad sese introrsum rapiat, ut nescias in corporene sit an taliter
         excesserit quasi ipsum perpetuo deserturus, nec solum extrinsecis sed etiam intrinsecis
         sentiendi destituat operationibus. <pb n="[56]"/>Aiunt enim Physici omnes quidem intrinsecas
         animae nostrae virtutes ab extrinsecis sentiendi sumere initium. Cum igitur mens taliter in
@@ -1205,17 +1224,17 @@
         communis sensus, quem in interiori capitis parte inclusum esse credunt - ea enim
         extrinsecorum sensibilium omnium commune hospitium est -, oblatas sibi similitudines
         recipiet.</p>
-      <p xml:id="HERDEN0093">Quapropter homo nec imaginabitur aliquid nec phantasmatibus commovebitur
-        nec quicquam prorsus aut cogitabit aut rememorabitur. At, ut Deus, omnia simul efficiet:
-        Qui, ut omnem locum replet, ita etiam pro diversitate locorum diversimode ubique operatur;
-        quia autem loco non comprehenditur, ita in toto universo operatur quasi nusquam singillatim
-        operari videatur. Sic mens, aut cantur aut sermone affecta, intellectu quidem intelligit,
-        oculis videt, auribus audit, naribus olfacit, sapit lingua, denique singulis corporis
-        partibus sentit, quia in singulis est: quia tamen totum quidam in toto simul corpore est
-        neque in una parte magis quam in alia, taliter operatur in omnibus quasi in nulla earum
-        singulariter operari videatur.</p>
-      <p xml:id="HERDEN0094">Facit igitur hominem vox, superando sensibiles passiones virtute spiritali
-        in qua eminentia est, ex parvo magnum, humili debilique sublimem ac potentem, ex
+      <p xml:id="HERDEN0093">Quapropter homo nec imaginabitur aliquid nec phantasmatibus
+        commovebitur nec quicquam prorsus aut cogitabit aut rememorabitur. At, ut Deus, omnia simul
+        efficiet: Qui, ut omnem locum replet, ita etiam pro diversitate locorum diversimode ubique
+        operatur; quia autem loco non comprehenditur, ita in toto universo operatur quasi nusquam
+        singillatim operari videatur. Sic mens, aut cantur aut sermone affecta, intellectu quidem
+        intelligit, oculis videt, auribus audit, naribus olfacit, sapit lingua, denique singulis
+        corporis partibus sentit, quia in singulis est: quia tamen totum quidam in toto simul
+        corpore est neque in una parte magis quam in alia, taliter operatur in omnibus quasi in
+        nulla earum singulariter operari videatur.</p>
+      <p xml:id="HERDEN0094">Facit igitur hominem vox, superando sensibiles passiones virtute
+        spiritali in qua eminentia est, ex parvo magnum, humili debilique sublimem ac potentem, ex
         corruptibili per excessum mentis similem Deo ferme immortalem. Neque profecto ulla res est
         quae mihi divini animi nostri immortalitatem praeclarius demonstrare possit quam [quod] in
         corruptibili corpore inclusus ita sine corporeis organis operetur quasi cum illo nihil ei
@@ -1295,82 +1314,83 @@
         antequam de eis iudicium fiat, iam evanuerunt.</p>
       <p xml:id="HERDEN0097">Quare ab antiquis musicis consititutum est, ne ultra quadruplam
         proportionem concentores multiplicent aut infra minimam diminuant. Capitulum X</p>
-      <p xml:id="HERDEN0098">Eapropter credo veteres disertissimos musicos legem quandam concentoribus
-        praescripsisse quam excedere nullomodo liceret, ne in confusionem, quam plerique ex novellis
-        compositoribus ostentandae vocis suae gratia saepenumero tentant, inciderent. Nam, cum omnis
-        musica, maxime figurata de qua nunc loquor, numeris gubernetur, ex quinque generibus
-        proprortionum duo dumtaxat, multiplex scilicet et superparticulare, conservanda nobis
-        consitituerunt. Quae quattuor solum figuris: 1, 2, 3, 4 descripserunt, quibus concentores,
-        ab Arithmeticis mutuatis, peculiariter uterentur; quibus quoque non solum modi pronuntiandi
-        sed consonantiae et quicquid in musica comprehendi potest contineretur ac regularetur. Sed
-        in modo pronuntiandi his figuris nunc utemur. Non enim studium meum esse constitui docendae
-        Musicae. Proportione igitur quadruplari processus regularis finitur in multiplicibus, in
-        superparticularibus vero sesquitertia. Dixerit fortasse ex musicae artis quispiam
-        imperitioribus neque triplam neque quadruplam se ex his figuris novisse, sesquialteram autem
-        atque sesquitertiam in quotidiano usu haberi. At iam fateris te nosse quod ignorare aiebas.
-        Nam neque sesquialtera sine tripla neque sesquitertia sine dupla ac quadrupla esse potest.
-        Accipiunt itaque istae pronuntiationes denominationes magis a proximis proportionibus
-        superparticularibus quam multiplicibus remotis. In quorum quidem quattuor dumtaxat minoribus
-        figuris tanta fit quandoque pronuntiandi trepidatio, ut abunde nobis suffecerint, si id
-        solum laboremus, ad ingenium ostentandum. Nam, nisi respectum habeas in pronuntiatione
-        sesquitertiae ad proximam multiplicem, difficile te extricabis. Quid igitur si ad ulteriores
-        pronuntiationes festines? Quae secundum naturam infinitae sunt, quoniam numerus infinitus
-        est. Numquid, quo longius proficiscaris, magis impossibile attingere concupies? Probe igitur
-        antiqui omnia mysteria divinae musicae artis his quattuor figuris nobis constituerunt,
-        quibus abunde excellentissima arts completur. Sed praecipitatione pronuntiationis - quam
-        alii mensuram vocant - atque divisione notularum <pb n="[60]"/>ad aliud inconveniens saepe
-        devenitur. Quoniam, sicut humana vox extremam proportionem attingere nequit multiplicando,
-        ita nec minimam quoque diminuendo. Musica enim utrique quantitati subiecta est: continuae
-        scilicet atque discretae. Itaque, ut veteres supra quaternarium numerum progredi noluerunt
-        augendo, ita etiam spero eundem nobis limitem constituisse diminuendo; qua ratione
-        brevissimam notulam quae proferri posset minimam vocaverunt, propterea quod ulterius dividi
-        nequiret - nam superlativum supra se gradum nullum recipit: - quam tamen moderni in
-        semiminimam dividunt.</p>
-      <p xml:id="HERDEN0099">Sed revocandus sermo est, ne longius ab instituto aberrem. Itaque cavendum
-        arbitror, ne extrema in pronuntiatione tenentur: quo et concentores perdurare possint et
-        nobis iudicium aliquod discernendi relinquant; quoniam sensus nostri obtusi, corporea mole
-        oppressi, non tam facile intentiones oblatas in interiorem animum admittere possunt.</p>
+      <p xml:id="HERDEN0098">Eapropter credo veteres disertissimos musicos legem quandam
+        concentoribus praescripsisse quam excedere nullomodo liceret, ne in confusionem, quam
+        plerique ex novellis compositoribus ostentandae vocis suae gratia saepenumero tentant,
+        inciderent. Nam, cum omnis musica, maxime figurata de qua nunc loquor, numeris gubernetur,
+        ex quinque generibus proprortionum duo dumtaxat, multiplex scilicet et superparticulare,
+        conservanda nobis consitituerunt. Quae quattuor solum figuris: 1, 2, 3, 4 descripserunt,
+        quibus concentores, ab Arithmeticis mutuatis, peculiariter uterentur; quibus quoque non
+        solum modi pronuntiandi sed consonantiae et quicquid in musica comprehendi potest
+        contineretur ac regularetur. Sed in modo pronuntiandi his figuris nunc utemur. Non enim
+        studium meum esse constitui docendae Musicae. Proportione igitur quadruplari processus
+        regularis finitur in multiplicibus, in superparticularibus vero sesquitertia. Dixerit
+        fortasse ex musicae artis quispiam imperitioribus neque triplam neque quadruplam se ex his
+        figuris novisse, sesquialteram autem atque sesquitertiam in quotidiano usu haberi. At iam
+        fateris te nosse quod ignorare aiebas. Nam neque sesquialtera sine tripla neque sesquitertia
+        sine dupla ac quadrupla esse potest. Accipiunt itaque istae pronuntiationes denominationes
+        magis a proximis proportionibus superparticularibus quam multiplicibus remotis. In quorum
+        quidem quattuor dumtaxat minoribus figuris tanta fit quandoque pronuntiandi trepidatio, ut
+        abunde nobis suffecerint, si id solum laboremus, ad ingenium ostentandum. Nam, nisi
+        respectum habeas in pronuntiatione sesquitertiae ad proximam multiplicem, difficile te
+        extricabis. Quid igitur si ad ulteriores pronuntiationes festines? Quae secundum naturam
+        infinitae sunt, quoniam numerus infinitus est. Numquid, quo longius proficiscaris, magis
+        impossibile attingere concupies? Probe igitur antiqui omnia mysteria divinae musicae artis
+        his quattuor figuris nobis constituerunt, quibus abunde excellentissima arts completur. Sed
+        praecipitatione pronuntiationis - quam alii mensuram vocant - atque divisione notularum <pb
+          n="[60]"/>ad aliud inconveniens saepe devenitur. Quoniam, sicut humana vox extremam
+        proportionem attingere nequit multiplicando, ita nec minimam quoque diminuendo. Musica enim
+        utrique quantitati subiecta est: continuae scilicet atque discretae. Itaque, ut veteres
+        supra quaternarium numerum progredi noluerunt augendo, ita etiam spero eundem nobis limitem
+        constituisse diminuendo; qua ratione brevissimam notulam quae proferri posset minimam
+        vocaverunt, propterea quod ulterius dividi nequiret - nam superlativum supra se gradum
+        nullum recipit: - quam tamen moderni in semiminimam dividunt.</p>
+      <p xml:id="HERDEN0099">Sed revocandus sermo est, ne longius ab instituto aberrem. Itaque
+        cavendum arbitror, ne extrema in pronuntiatione tenentur: quo et concentores perdurare
+        possint et nobis iudicium aliquod discernendi relinquant; quoniam sensus nostri obtusi,
+        corporea mole oppressi, non tam facile intentiones oblatas in interiorem animum admittere
+        possunt.</p>
       <p xml:id="HERDEN0100">Quomodo oratores iudicum mentes interdum corrumpunt et auditores sibi
         attrahunt. Capitulum XI</p>
-      <p xml:id="HERDEN0101">Tolerabile fortasse in concentoribus videri possit, si eiusmodi dexteritate
-        aures nostras aucupentur, ut animus a discernendo impediatur ac devotione. Importunum autem,
-        cum tale quiddam fit a magnis et claris oratoribus adversus iustitiam. Qui interdum ita
-        efferuntur spiritu eloquentiae lautitiaque vocis, ut auribus astantium tales fumos ingerant
-        quales nebulas eorum oculis maiestate actionis offundunt: quibus mentes humanas penitus sibi
-        devinciunt, consilia immutant, ad misericordiam provocant, a proposito stabili deiiciunt ac,
-        in quamlibet partem volunt, veluti mollissimam ceram humans voluntates diducunt. Tantum enim
-        Pisistratus dicendo valuisse traditus est, ut ei Athenienses quamvis tyranno regium,
-        imperium oratione eius capti permitterent, cum tamen ex contraria parte amantissimus patriae
-        Solon totis viribus niteretur. Post quem Pericles, Anaxogorae philosophi auditor, apud
-        eundem populum pro suo itidem arbitrio eloquentia regnavit et iugum servitutis cervicibus
-        eius imposuit. Cumque adversus voluntatem populi loqueretur, nihilominus popularis eius
-        oratio fuit; in cuius labris melle dulcior lepos habitabat. Cuius efficaciae ne Hegesiae
-        quidem philosophi sermo expers fuit, qui sic mala praesentis vitae repraesentabat ut, eorum
-        miseranda imagine audientium pectoribus inserta, multis voluntariam mortis appetendae
-        cupiditatem ingeneraret. Quid vero minus putemus Platonem viva voce potuisse: qui lectores
-        scriptorum suorum, quae de immortalitate animorum extabant, in eam mentem - potius amentiam
-        - <pb n="[61]"/>perduxit, ut odio vitae praesentis voluntariam sibiipsis necem inferrent - e
-        quibus Temobrotus ex altissima rupe se in mare praecipitavit. Nam Cato, lecto eodem Platonis
-        libro, ferro sibiipsi latus aperuit atque ita mortem provocavit. Neque vero similium
-        effectuum romana facundia impotens extitit, quae tanta in Caio Graccho fuerat ut in deflenda
-        fratris nece totius populi romani lachrymas diceretur concitasse; sicut in Sexto Clodio, qui
-        eundem populum commiseratione Publii Clodii ad incendium Curiae usque refertur provocasse.
-        Quod eo magis mirum fuerat, quod uterque perniciosus civis habebatur. Marcus quoque
-        Antonius, quem Cicero summum oratorem fuisse commemorat, tamdiu a crudeli parricio Marianae
-        Cinnanaeque promulgationis se voce defendit quam ab oratione eius aures truculenti ministri
-        non dimiserunt. Neque ulla res est qua valentius conservata romana maiestas est - quo
-        tempore communi furore diversissimis animis a patribus plebes discesserat - quam unius voce
-        Valerii Publicolae qua urbs in urbe et retenta pariter est et animis coniuncta. Quae res
-        igitur Romam conservavit voce unius civis, eadem matrem suam Troiam antea prodidit funesta
-        eloquentia Sinonis.</p>
-      <p xml:id="HERDEN0102">Crediderim satisfactum esse huic parti qua ostendendum desumpseram maximam
-        vim inesse vocibus oratorum mentes hominum obsidendi, nis reclamaret cunctorum oratorum
-        praecipuum prodigium, M. T. Cicero, admonens ne se in hac communi admiratione Oratorum
-        praeterirem. In quo tanta sermonis maiestas fuit, ut dicendo animos hominum in contionibus
-        penitus sibi obligaret, iudicum voluntates in iudiciis possideret, omnibus quae ipse vellet
-        persuaderet et quocumque liberat pronunitatione acciret. Quod de sese quidem nonnumquam
-        iactavit et ipse. Si verbis haud posset, molli fletu infractaque voce quod voluit tandem
-        effecit. Destinaverat C. Caesar, tantus orator ac princeps qui neque propter ingentem
+      <p xml:id="HERDEN0101">Tolerabile fortasse in concentoribus videri possit, si eiusmodi
+        dexteritate aures nostras aucupentur, ut animus a discernendo impediatur ac devotione.
+        Importunum autem, cum tale quiddam fit a magnis et claris oratoribus adversus iustitiam. Qui
+        interdum ita efferuntur spiritu eloquentiae lautitiaque vocis, ut auribus astantium tales
+        fumos ingerant quales nebulas eorum oculis maiestate actionis offundunt: quibus mentes
+        humanas penitus sibi devinciunt, consilia immutant, ad misericordiam provocant, a proposito
+        stabili deiiciunt ac, in quamlibet partem volunt, veluti mollissimam ceram humans voluntates
+        diducunt. Tantum enim Pisistratus dicendo valuisse traditus est, ut ei Athenienses quamvis
+        tyranno regium, imperium oratione eius capti permitterent, cum tamen ex contraria parte
+        amantissimus patriae Solon totis viribus niteretur. Post quem Pericles, Anaxogorae
+        philosophi auditor, apud eundem populum pro suo itidem arbitrio eloquentia regnavit et iugum
+        servitutis cervicibus eius imposuit. Cumque adversus voluntatem populi loqueretur,
+        nihilominus popularis eius oratio fuit; in cuius labris melle dulcior lepos habitabat. Cuius
+        efficaciae ne Hegesiae quidem philosophi sermo expers fuit, qui sic mala praesentis vitae
+        repraesentabat ut, eorum miseranda imagine audientium pectoribus inserta, multis voluntariam
+        mortis appetendae cupiditatem ingeneraret. Quid vero minus putemus Platonem viva voce
+        potuisse: qui lectores scriptorum suorum, quae de immortalitate animorum extabant, in eam
+        mentem - potius amentiam - <pb n="[61]"/>perduxit, ut odio vitae praesentis voluntariam
+        sibiipsis necem inferrent - e quibus Temobrotus ex altissima rupe se in mare praecipitavit.
+        Nam Cato, lecto eodem Platonis libro, ferro sibiipsi latus aperuit atque ita mortem
+        provocavit. Neque vero similium effectuum romana facundia impotens extitit, quae tanta in
+        Caio Graccho fuerat ut in deflenda fratris nece totius populi romani lachrymas diceretur
+        concitasse; sicut in Sexto Clodio, qui eundem populum commiseratione Publii Clodii ad
+        incendium Curiae usque refertur provocasse. Quod eo magis mirum fuerat, quod uterque
+        perniciosus civis habebatur. Marcus quoque Antonius, quem Cicero summum oratorem fuisse
+        commemorat, tamdiu a crudeli parricio Marianae Cinnanaeque promulgationis se voce defendit
+        quam ab oratione eius aures truculenti ministri non dimiserunt. Neque ulla res est qua
+        valentius conservata romana maiestas est - quo tempore communi furore diversissimis animis a
+        patribus plebes discesserat - quam unius voce Valerii Publicolae qua urbs in urbe et retenta
+        pariter est et animis coniuncta. Quae res igitur Romam conservavit voce unius civis, eadem
+        matrem suam Troiam antea prodidit funesta eloquentia Sinonis.</p>
+      <p xml:id="HERDEN0102">Crediderim satisfactum esse huic parti qua ostendendum desumpseram
+        maximam vim inesse vocibus oratorum mentes hominum obsidendi, nis reclamaret cunctorum
+        oratorum praecipuum prodigium, M. T. Cicero, admonens ne se in hac communi admiratione
+        Oratorum praeterirem. In quo tanta sermonis maiestas fuit, ut dicendo animos hominum in
+        contionibus penitus sibi obligaret, iudicum voluntates in iudiciis possideret, omnibus quae
+        ipse vellet persuaderet et quocumque liberat pronunitatione acciret. Quod de sese quidem
+        nonnumquam iactavit et ipse. Si verbis haud posset, molli fletu infractaque voce quod voluit
+        tandem effecit. Destinaverat C. Caesar, tantus orator ac princeps qui neque propter ingentem
         eruditionem falli debuit neque propter eximiam potentiam a quoquam superari, destinaverat,
         inquam, Q. Ligarium inimicissimum suum supplicio adiudicare Caesar: a quo tamen voce
         oratoris est liberatus. Videre tum fuerat talem ac tantum virum, qui tale propositum sibi
@@ -1379,24 +1399,25 @@
         Caesar. Crederes tum et aures et oculos et sensum, intellectum denique illius omnen in
         Ciceronis magis fuisse potestate quam in ipsius Caesaris corpore proprio viguisse. Magna
         igitur in voce humana vis inest, magna in sermone potestas, magnum denique et incredibile
-        pene in cantu mysterium. Qua enim alia ratione a doctissimis hominibus confictum <pb n="[62]"/>putamus Orpheum musicum saxa cantibus suis demulsisse, feras bestias mitigasse,
+        pene in cantu mysterium. Qua enim alia ratione a doctissimis hominibus confictum <pb
+          n="[62]"/>putamus Orpheum musicum saxa cantibus suis demulsisse, feras bestias mitigasse,
         silvas ac nemora post se traxisse, inferna penetrasse, Plutonis regnum deturbasse atque
         uxorem suam inde eripuisse, nisi quod orator ea possit voce quae alioquin forent
         impossibilia; aut Amphionem cithara condidisse muros Thebanos, nisi quod prudens sermo et
         nulla in re rudis oratio, dulci eloquio ac numeris defluens, perducat homines quo velit.
         Quorum quidem antiquissimorum cantatorum mirificos effectus hisce versibus modulatus est
         Flaccus:</p>
-      <p xml:id="HERDEN0103">Silvestres homines sacer interpresque deorum <lb/>Caedibus et victu fero
-        deterruit Orpheus <br/>Dictus ob hoc lenire tigres rapidosque leones. <lb/>Dictus et Amphion
-        Thebanae conditor arcis <br/>Saxa movere sono testudinis et prece blanda <lb/>Ducere quo
-        vellet ...</p>
-      <p xml:id="HERDEN0104">Nulla siquidem re alia concordia civium conservatur validius, oppugnantibus
-        hostibus resistitur vehementius, quam prudenti voce ac oratione. Quippe eloquentiam a
-        prudentia Cicero in Oratore numquam disiunxit. Quae si in civitatibus desiderentur, profecto
-        de muris actum est. Quod agnoscens Philippus Macedoniae rex, subdolam pacem cum
-        Atheniensibus initurus, quo fraude caperet quos armis superare nequiverat, in praecipuis
-        conditionibus pacis illorum oratores tradi sibi postulavit, quatenus civitatem oratoribus
-        desertam in leges facilius conficeret suas.</p>
+      <p xml:id="HERDEN0103">Silvestres homines sacer interpresque deorum <lb/>Caedibus et victu
+        fero deterruit Orpheus <br/>Dictus ob hoc lenire tigres rapidosque leones. <lb/>Dictus et
+        Amphion Thebanae conditor arcis <br/>Saxa movere sono testudinis et prece blanda <lb/>Ducere
+        quo vellet ...</p>
+      <p xml:id="HERDEN0104">Nulla siquidem re alia concordia civium conservatur validius,
+        oppugnantibus hostibus resistitur vehementius, quam prudenti voce ac oratione. Quippe
+        eloquentiam a prudentia Cicero in Oratore numquam disiunxit. Quae si in civitatibus
+        desiderentur, profecto de muris actum est. Quod agnoscens Philippus Macedoniae rex, subdolam
+        pacem cum Atheniensibus initurus, quo fraude caperet quos armis superare nequiverat, in
+        praecipuis conditionibus pacis illorum oratores tradi sibi postulavit, quatenus civitatem
+        oratoribus desertam in leges facilius conficeret suas.</p>
       <p xml:id="HERDEN0105">Finit Liber Secundus</p>
       <p xml:id="HERDEN0106">
         <pb n="[63]"/>In librum tertium de natura cantus ac mirabilibus vocalibus effectibus
@@ -1424,7 +1445,8 @@
         devotis cantibus exercetur. Nam, quo id intentius facimus, eo hierarchicis illis atque
         caelestibus choris proprius accedimus et pro debito ministerio divinae munificentiae
         impensius nos exhibemus. Cum igitur caelestis ille Rex, omnium Conditor, Deus hominem
-        cunctis mortalibus praefecerit: cui dubium esse possit quin, pro concesso <pb n="[64]"/>honore atque beneficentia, Sibi, etiam velit debito ministerio responderi? Quemadmodum
+        cunctis mortalibus praefecerit: cui dubium esse possit quin, pro concesso <pb n="[64]"
+        />honore atque beneficentia, Sibi, etiam velit debito ministerio responderi? Quemadmodum
         imperatoris maiestas ab omnibus inferioribus potestatibus: regibus, ducibus, comitibus,
         baronibus recognosci atque pro tempore debitum sibi obsequium impendi? Usque adeo [ut], si
         eorum subditi paupertate attenuati dominis suis in tali necessitudine assistere nequeunt,
@@ -1443,40 +1465,41 @@
         vociferatu.</p>
       <p xml:id="HERDEN0108">
         <pb n="[65]"/>Vocalium miraculorum liber tertius incipit</p>
-      <p xml:id="HERDEN0109">Quod inter cuncta animantium genera aviculae maxime instructionis humanae
-        per voces humanas capaces sunt. Capitulum I</p>
-      <p xml:id="HERDEN0110">Equidem videtur natura rerum exigere ut, quoniam enarravi antea stupenda
-        miracula quae vox humana tum in his quae supra suam dignitatem sunt exercet tum in his quae
-        suae conditionis consortes existunt, nunc quae in his, quae infra humanam excellentiam sunt,
-        operetur adiungam. Nam, ut homo rex fere omnium rerum quae mortalibus oculis conspiciuntur
-        est, ita etiam voci humanae libenter cedunt et pro facultate cognitionis obsequuntur, amore
-        complectuntur, virtutem admirantur et, quantum suae naturae concessum est, imitari conantur.
-        Quid igitur inter genera animalium vox humana possit, ita perscrutabimur si distinxerimus
-        quaedam vivere in aquis, ut natatilia, quaedam in terris, ut gressibilia, quaedam vitam
-        exercere in aere, ut volatilia. In quibus omnibus talem tamen contingit reperire
-        differentiam nobilitatis, ut ex singulis alia quaedam aliis propinquiora sint perfectioni
-        humanae, utpote in quibus vel maxime viget simulacrum aliquod vel imaginationis vel
-        phantasiae humanae. Nam in illis propter accessum ad naturam excellentiorem plus quiddam
-        potest vox humana et se etiam libentius nobis associant. Quaedam enim humanum consortium non
-        detrectant sed nobiscum vivere gaudent libenterque inserviunt; quaedam disciplinabilia se
-        exhibent usque adeo, ut videantur etiam aliquid humani intellectus in se habere. Inter quae
-        praecipue quaedam genera volucrum sunt. Visae enim lusciniae sunt, ut Plinius auctor est,
-        iussae canere, cum hominibus cantando certare et fere de magisterio cum illis contendere.
-        Cardueles cum cantoribus alternare, dum illi canerent aures interim admovere, dociles se
-        atque attentas exhibere, immo desiderio humani cantus perdiscendi alas diverberando gestire
-        ac tantisper se a cantando abstinere, dum sibi spatium concederetur, cum interim
-        meditabantur, de integro sublata voce exprimendi. Audita est merula humana arte docta quae
-        diapason consonantiam gradatim, transcenderet. Et corvi, psittaci, picae ceteraeque idgenus
-        alites humana voce locutae, sicut et illa quae Caium Caesarem lingua <pb n="[66]"/>graeca
-        invictum salutabat. Et ego etiam corvum vidi, tam perfecte articulatas voces exprimentem, ut
-        humanos sensus falleret, cum ex solo auditu homo iudicaretur, non bestia. Vox igitur humana
-        tam admirabilium operum in volucribus quoque ingenuosissima magistra est, quod ne Persio
-        quidem poetae ignotum fuerat, cum scriberet:</p>
+      <p xml:id="HERDEN0109">Quod inter cuncta animantium genera aviculae maxime instructionis
+        humanae per voces humanas capaces sunt. Capitulum I</p>
+      <p xml:id="HERDEN0110">Equidem videtur natura rerum exigere ut, quoniam enarravi antea
+        stupenda miracula quae vox humana tum in his quae supra suam dignitatem sunt exercet tum in
+        his quae suae conditionis consortes existunt, nunc quae in his, quae infra humanam
+        excellentiam sunt, operetur adiungam. Nam, ut homo rex fere omnium rerum quae mortalibus
+        oculis conspiciuntur est, ita etiam voci humanae libenter cedunt et pro facultate
+        cognitionis obsequuntur, amore complectuntur, virtutem admirantur et, quantum suae naturae
+        concessum est, imitari conantur. Quid igitur inter genera animalium vox humana possit, ita
+        perscrutabimur si distinxerimus quaedam vivere in aquis, ut natatilia, quaedam in terris, ut
+        gressibilia, quaedam vitam exercere in aere, ut volatilia. In quibus omnibus talem tamen
+        contingit reperire differentiam nobilitatis, ut ex singulis alia quaedam aliis propinquiora
+        sint perfectioni humanae, utpote in quibus vel maxime viget simulacrum aliquod vel
+        imaginationis vel phantasiae humanae. Nam in illis propter accessum ad naturam
+        excellentiorem plus quiddam potest vox humana et se etiam libentius nobis associant. Quaedam
+        enim humanum consortium non detrectant sed nobiscum vivere gaudent libenterque inserviunt;
+        quaedam disciplinabilia se exhibent usque adeo, ut videantur etiam aliquid humani
+        intellectus in se habere. Inter quae praecipue quaedam genera volucrum sunt. Visae enim
+        lusciniae sunt, ut Plinius auctor est, iussae canere, cum hominibus cantando certare et fere
+        de magisterio cum illis contendere. Cardueles cum cantoribus alternare, dum illi canerent
+        aures interim admovere, dociles se atque attentas exhibere, immo desiderio humani cantus
+        perdiscendi alas diverberando gestire ac tantisper se a cantando abstinere, dum sibi spatium
+        concederetur, cum interim meditabantur, de integro sublata voce exprimendi. Audita est
+        merula humana arte docta quae diapason consonantiam gradatim, transcenderet. Et corvi,
+        psittaci, picae ceteraeque idgenus alites humana voce locutae, sicut et illa quae Caium
+        Caesarem lingua <pb n="[66]"/>graeca invictum salutabat. Et ego etiam corvum vidi, tam
+        perfecte articulatas voces exprimentem, ut humanos sensus falleret, cum ex solo auditu homo
+        iudicaretur, non bestia. Vox igitur humana tam admirabilium operum in volucribus quoque
+        ingenuosissima magistra est, quod ne Persio quidem poetae ignotum fuerat, cum scriberet:</p>
       <p xml:id="HERDEN0111">Quis expedivit psittaco suum [chiaire] <br/>Corvum quis olim concavum
         salutare <lb/>Picasque docuit nostra verba conari? <br/>Proinde hanc postea subiungit
         responsionem: <lb/>Magister artis ingeniique largitor.</p>
       <p xml:id="HERDEN0112">Igitur:</p>
-      <p xml:id="HERDEN0113">Corvos poetas poetridasque picas <br/>cantare credas Pegaseum melos.</p>
+      <p xml:id="HERDEN0113">Corvos poetas poetridasque picas <br/>cantare credas Pegaseum
+        melos.</p>
       <p xml:id="HERDEN0114">Denique tanta est humanae voci vel potestas vel habilitas, ut per eam
         alites frequenter illiciantur in retia. Neque propterea haec documenta contemnenda opinor
         quod de minutioribus volucribus sunt. Quinimmo regiae aves accipitres, falcones, aquilae,
@@ -1498,57 +1521,57 @@
       <p xml:id="HERDEN0115">
         <pb n="[67]"/>Quod, sicut homo cunctas animantes supergreditur mente, ita etiam voce
         antecellit. Capitulum II</p>
-      <p xml:id="HERDEN0116">Non est igitur parva eminentia ratio praesul, qua homo ceteris animantibus
-        vocali munere praestat, ita ut per id naturam quoque humanam in toto orbe dominari exterius,
-        sicut mente interius regnare, facile existimare possis. Nam tametsi in illlis quidem vox
-        est, non tamen talis que ad vocem humanam ullo quidem pacto aut aliqua parte dignitatis
-        posse accedere videatur. Nos enim voce nostra aut loquimur aut canimus aut contendimus aut
-        aliquid tale divinum ac caeleste facimus; quod indicat in nobis maius quiddam latere, mentem
-        videlicet ac rationem, quarum illae expertes uno solum fere aequali vociferatu affectus
-        sensibiles mutuo indicant. Quamquam igitur divina dignatio quadrupedibus quidem vocem, qua
-        cum hominbus participarent, dedit, nihil est tamen quod ad humanam magnificentiam queat
-        comparari; cum ex nostris immortalitatem caelestis animi arguere liceat, ex illarum autem
-        vociferationibus cum corporis interitu animae quoque - ut sensibilis rei de potentia
-        materiae eductae mortalitatem; ex nostris rationem, intellectum, memoriam splendescere, ex
-        illarum ne quicquam tale sed appetitus solum corporales significari. Quo minus mirum est, si
-        homo per vocem cunctis etiam animantibus formidabilis sit sicut specie venerandus. In quibus
-        quamlibet immanissimis belluis imperium exercet suum, repellendo easdem in silvas exteras ne
-        hominum generi possint noscere. Et, quamvis serpentes omnes fere noxii sint, quidam ex
-        cavernis extrahuntur carminibus. Elephanti quoque puellarum cantibus venantur in Aethiopia,
-        si Physiologo auctori credimus. Ait enim bestias dulcedine cantus provocatas omnem feritatem
-        deponere, inclinare se coram virginibus et in gremio earum obdormiscere tandemque ab illis
-        iugulum praescindi ex quarum cruore purpura inficiatur - sed hoc de unicornibus liberius
-        dici consuevit. Damone et Alphesiboea pastoribus cantantibus et iuvencae pasturae oblitae
-        sunt et lynces indomitae pariter stupuerunt. Et hoc poeticum figmentum; nequaquam tamen sine
-        magna ratione confictum esse a tali poeta crediderim. Quasi humana vox plurimum etiam possit
-        in belluis, per quam ferae quaedam mansuescunt et cicures fiunt, quaedam ut simiae, ursi
-        gesticulantur, quaedam plane hominibus obsequuntur, elephanti per hominem instructi, quasi
-        aliquid humani sensus insit eis, sesores suos adorant. Nam in mitioris naturae animalibus
-        manifestius dominium apparet. Canes enim domestici ita exultant ad voces dominorum, dum
-        inclamantur ab eis, ut ebandiendo colloqui cum illis videantur; quidam ne mortem [quidem]
-          <pb n="[68]"/>subire formidant pro dominis instigati ad invadendum hostem, sicut et equi,
-        suorum gubernatorum ad ineundum certamen aut ad cursum redduntur alacriores. Bubulci et
-        aratores, ut iumenta laetius aratrum subeant, leni sibilo ac dulci modulo adhortantur. Fiunt
-        quidem ista omnia naturali ministerio vocis humanae: ut saevas bestias suae faciat inservire
-        voluntati, propria et innata feritate derelicta. Quo verius nobis gloriandum est de
-        beneficio vocis, unde caelestis origo in nobi refulget, quam illis de immensa corporum
-        vastitate sine mente. Qua quia carent, muta et irrationabilia animalia vulgo nominantur,
-        magis quam vociferata. Non est igitur tanta communio illa vocalis, quam nobiscum
-        participant, quin multo maior sit differentia qua a nobis superantur propter excellentiam
-        conditionis humanae. Relucet itaque ex voce humana manifesta et nobis naturae dignitas, ex
-        bestiali vero obscura atque humilis ignobilitas, omni convenientia aequalitatis procul
-        exclusa. Quid enim commune humane voci cum bestiali? Quae, ut ante dictum est, nihil nisi
-        corruptibilis animae figmentum prae se gerit, nostra autem immortalis imaginem subtili sensu
-        manifeste ostendit.</p>
+      <p xml:id="HERDEN0116">Non est igitur parva eminentia ratio praesul, qua homo ceteris
+        animantibus vocali munere praestat, ita ut per id naturam quoque humanam in toto orbe
+        dominari exterius, sicut mente interius regnare, facile existimare possis. Nam tametsi in
+        illlis quidem vox est, non tamen talis que ad vocem humanam ullo quidem pacto aut aliqua
+        parte dignitatis posse accedere videatur. Nos enim voce nostra aut loquimur aut canimus aut
+        contendimus aut aliquid tale divinum ac caeleste facimus; quod indicat in nobis maius
+        quiddam latere, mentem videlicet ac rationem, quarum illae expertes uno solum fere aequali
+        vociferatu affectus sensibiles mutuo indicant. Quamquam igitur divina dignatio quadrupedibus
+        quidem vocem, qua cum hominbus participarent, dedit, nihil est tamen quod ad humanam
+        magnificentiam queat comparari; cum ex nostris immortalitatem caelestis animi arguere
+        liceat, ex illarum autem vociferationibus cum corporis interitu animae quoque - ut
+        sensibilis rei de potentia materiae eductae mortalitatem; ex nostris rationem, intellectum,
+        memoriam splendescere, ex illarum ne quicquam tale sed appetitus solum corporales
+        significari. Quo minus mirum est, si homo per vocem cunctis etiam animantibus formidabilis
+        sit sicut specie venerandus. In quibus quamlibet immanissimis belluis imperium exercet suum,
+        repellendo easdem in silvas exteras ne hominum generi possint noscere. Et, quamvis serpentes
+        omnes fere noxii sint, quidam ex cavernis extrahuntur carminibus. Elephanti quoque puellarum
+        cantibus venantur in Aethiopia, si Physiologo auctori credimus. Ait enim bestias dulcedine
+        cantus provocatas omnem feritatem deponere, inclinare se coram virginibus et in gremio earum
+        obdormiscere tandemque ab illis iugulum praescindi ex quarum cruore purpura inficiatur - sed
+        hoc de unicornibus liberius dici consuevit. Damone et Alphesiboea pastoribus cantantibus et
+        iuvencae pasturae oblitae sunt et lynces indomitae pariter stupuerunt. Et hoc poeticum
+        figmentum; nequaquam tamen sine magna ratione confictum esse a tali poeta crediderim. Quasi
+        humana vox plurimum etiam possit in belluis, per quam ferae quaedam mansuescunt et cicures
+        fiunt, quaedam ut simiae, ursi gesticulantur, quaedam plane hominibus obsequuntur, elephanti
+        per hominem instructi, quasi aliquid humani sensus insit eis, sesores suos adorant. Nam in
+        mitioris naturae animalibus manifestius dominium apparet. Canes enim domestici ita exultant
+        ad voces dominorum, dum inclamantur ab eis, ut ebandiendo colloqui cum illis videantur;
+        quidam ne mortem [quidem] <pb n="[68]"/>subire formidant pro dominis instigati ad invadendum
+        hostem, sicut et equi, suorum gubernatorum ad ineundum certamen aut ad cursum redduntur
+        alacriores. Bubulci et aratores, ut iumenta laetius aratrum subeant, leni sibilo ac dulci
+        modulo adhortantur. Fiunt quidem ista omnia naturali ministerio vocis humanae: ut saevas
+        bestias suae faciat inservire voluntati, propria et innata feritate derelicta. Quo verius
+        nobis gloriandum est de beneficio vocis, unde caelestis origo in nobi refulget, quam illis
+        de immensa corporum vastitate sine mente. Qua quia carent, muta et irrationabilia animalia
+        vulgo nominantur, magis quam vociferata. Non est igitur tanta communio illa vocalis, quam
+        nobiscum participant, quin multo maior sit differentia qua a nobis superantur propter
+        excellentiam conditionis humanae. Relucet itaque ex voce humana manifesta et nobis naturae
+        dignitas, ex bestiali vero obscura atque humilis ignobilitas, omni convenientia aequalitatis
+        procul exclusa. Quid enim commune humane voci cum bestiali? Quae, ut ante dictum est, nihil
+        nisi corruptibilis animae figmentum prae se gerit, nostra autem immortalis imaginem subtili
+        sensu manifeste ostendit.</p>
       <p xml:id="HERDEN0117">Quomodo per voces ac cantus homo dominatur piscibus ac belluis marinis.
         Capitulum III</p>
-      <p xml:id="HERDEN0118">Ac, ne quispiam putet maiestatem vocis humanae limitatam esse in animalibus
-        terrestribus, in aquatilibus quoque imperium agativisse exploratum est. Quod, et si antea
-        saepe, tum tamen maxime, cum beatissimus Petrus in verbo Iesu salvatoris nostri tam copiosam
-        multitudinem piscium comprehendit quantam rete non potuerat sustinere. Et sanctus ac
-        caelestis homo Antonius Patavinus marinis belluis imperavit, easdem ad audientiam verbi ex
-        profundo pelagi evocando. Nam divus Franciscus talia cum volucribus antea actitaverat. Quae
-        miracula, quia penitus divina sunt, non tam proposito nostro conveniunt quam quae
+      <p xml:id="HERDEN0118">Ac, ne quispiam putet maiestatem vocis humanae limitatam esse in
+        animalibus terrestribus, in aquatilibus quoque imperium agativisse exploratum est. Quod, et
+        si antea saepe, tum tamen maxime, cum beatissimus Petrus in verbo Iesu salvatoris nostri tam
+        copiosam multitudinem piscium comprehendit quantam rete non potuerat sustinere. Et sanctus
+        ac caelestis homo Antonius Patavinus marinis belluis imperavit, easdem ad audientiam verbi
+        ex profundo pelagi evocando. Nam divus Franciscus talia cum volucribus antea actitaverat.
+        Quae miracula, quia penitus divina sunt, non tam proposito nostro conveniunt quam quae
         naturaliter solum humana voce cognovimus esse operata. Ex quibus illud in primis occurrit
         admirabile profecto, si verum est, quod in XVI Noctium Atticarum apud Aulum Gellium
         relegimus scriptum esse libro neque praeteritum a famosissimo atque Graecarum Historiarum
@@ -1646,7 +1669,8 @@
         propheta amaras quidem atque insalubres dulcs verbo fecit ac potabiles. Moyses gentem
         Israeliticam per medium mare traduxit, aquam de saxo eduxit. Josue in medio Jordanis alveo
         excussis undis Deo sacrificavit. Quid mirum si haec verbis fecerunt divina virtute sancti in
-        aquis, cum etiam talia fecisse tradatur magnus Alexander in terris, quando oratione <pb n="[72]"/>fusa perversos Iudaeos includebat in montibus Caspiis, perpetuam pro sceleribus
+        aquis, cum etiam talia fecisse tradatur magnus Alexander in terris, quando oratione <pb
+          n="[72]"/>fusa perversos Iudaeos includebat in montibus Caspiis, perpetuam pro sceleribus
         suis poenam illic luituros. Similia quoque Medea incantatrix fecisse traditur carminibus. De
         qua taliter Naso in persona eius prosequitur:</p>
       <p xml:id="HERDEN0122">Concussaque sisto <lb/>Stantia concutio cantu freta, nubila pello
@@ -1662,7 +1686,8 @@
         poeta Mantuanus: respondent omnia silvae. Denique et plana dolia et parietes, ut idem
         Plinius asserit, loquentes efficimus, si nulla obsistat inaequalitas quae vocem
         impediat.</p>
-      <p xml:id="HERDEN0124">De miris quorundam aliorum animalium vocalibus effectibus. Capitulum V</p>
+      <p xml:id="HERDEN0124">De miris quorundam aliorum animalium vocalibus effectibus. Capitulum
+        V</p>
       <p xml:id="HERDEN0125">Claudendus nunc mihi fuerat huius mei instituti liber tertius, sed, ne
         ceterae quoque animantes palam me negligentiae coarguant quod se in commemoratione vocalium
         virtutum praeterierim neque quicquam pro laude suarum vocum - quas se divino munere
@@ -1726,21 +1751,21 @@
         impetu animorum irruunt, ut ex remotissimis Indiae partibus - veluti altero Dionysio
         imperatore - singulis annis ingenti triumpho ac gloria ad nos occidentales usque
         revertantur. Quae nisi vocum suarum instinctae suffragiis alias numquam fieri possent.</p>
-      <p xml:id="HERDEN0126">De multorum aliorum animalium vocibus atque earum variis significationibus.
-        Capitulum VI</p>
-      <p xml:id="HERDEN0127">Habent quoque hoc fere naturale cuncta animalia, ut instante veris tempore
-        usque ad solstitium aestivale maxime vocalia sint: quae pars toto anno iucundissima
+      <p xml:id="HERDEN0126">De multorum aliorum animalium vocibus atque earum variis
+        significationibus. Capitulum VI</p>
+      <p xml:id="HERDEN0127">Habent quoque hoc fere naturale cuncta animalia, ut instante veris
+        tempore usque ad solstitium aestivale maxime vocalia sint: quae pars toto anno iucundissima
         amoenissimaque est; quando quidem quaedam aviculae et <pb n="[75]"/>noctes et dies perpetuis
         continuant concentibus. Tunc igitur, ut Firmianus Lactantius pulchre veris tempus describens
         inquit:</p>
-      <p xml:id="HERDEN0128">Ad cantus revocantur avis quae carmine clauso <br/>Pigrior hiberno frigore
-        muta fuit. <lb/>Hinc philomena suis attemperat organa cannis <br/>Fitque repercusso dulcior
-        aura melos. <lb/>Constructura favos apis hinc alvearia linquens <br/>Floribus instrepitans
-        poplite mella rapit.</p>
-      <p xml:id="HERDEN0129">Ab hoc tamen statuo a natura cantandi tempore inter omnes volucres exemptus
-        est olor, qui appropinquante ultimo vitae tempore suavissime canere perhibetur. Ego vero
-        crediderim eum gemitum magis esse quam cantum, qui eructuans per retortum ac sinuosum collum
-        talem proferat sonum. Abstinent autem in universum omnia volatilia, ne proxime nidis
+      <p xml:id="HERDEN0128">Ad cantus revocantur avis quae carmine clauso <br/>Pigrior hiberno
+        frigore muta fuit. <lb/>Hinc philomena suis attemperat organa cannis <br/>Fitque repercusso
+        dulcior aura melos. <lb/>Constructura favos apis hinc alvearia linquens <br/>Floribus
+        instrepitans poplite mella rapit.</p>
+      <p xml:id="HERDEN0129">Ab hoc tamen statuo a natura cantandi tempore inter omnes volucres
+        exemptus est olor, qui appropinquante ultimo vitae tempore suavissime canere perhibetur. Ego
+        vero crediderim eum gemitum magis esse quam cantum, qui eructuans per retortum ac sinuosum
+        collum talem proferat sonum. Abstinent autem in universum omnia volatilia, ne proxime nidis
         cantitent: singulari quodam dono ac gratia instinctus naturalis, ne, eorum pullis ab
         hominibus repertis et propterea a suis consortibus abstractis, species faciant interire.
         Pari quoque ratione cardueles asinis infensae infestaeque sunt, oculos rostris invadentes
@@ -1759,8 +1784,8 @@
         aemulari, quod in singulis permanere non potest fluxu temporali. Ad hunc affectum amoris
         sollicitandum in comparibus maxime se cantibus provocant aves tempore vernali; quod
         nominatus Lactantius iisdem carminibus prosequitur subdens:</p>
-      <p xml:id="HERDEN0130">"Hinc tibi nunc avium resonant virgulta susurro <lb/>Has inter nimio passer
-        amore canit."</p>
+      <p xml:id="HERDEN0130">"Hinc tibi nunc avium resonant virgulta susurro <lb/>Has inter nimio
+        passer amore canit."</p>
       <p xml:id="HERDEN0131">
         <pb n="[76]"/>Vere igitur genialis fervor non solum aviculas quas natura vocaliores fecit,
         sed etiam mutas alioquin bestias efficit clamorosas. Tunc ut ait prudentissimus poeta,
@@ -1780,36 +1805,36 @@
         praesertim iuvenibus inest, inde est quod cuncta animalia in iuventute vocalissima sint et
         canora. Nam senectute confecta, tamquam multis proeliis debilitati milites, domi
         commanent.</p>
-      <p xml:id="HERDEN0132">Quam naturam universorum animalium doctissimus poeta sub persona veterani
-        pastoris cantatoris pulchre depinxit, ubi inquit:</p>
+      <p xml:id="HERDEN0132">Quam naturam universorum animalium doctissimus poeta sub persona
+        veterani pastoris cantatoris pulchre depinxit, ubi inquit:</p>
       <p xml:id="HERDEN0133">Omnia fert aetas, animum quoque. Saepe ego longos <br/>Cantando puerum
         memini me condere soles; <lb/>Nunc oblita mihi tot carmina ...</p>
-      <p xml:id="HERDEN0134">Vociferantur igitur tamdiu animalia quam amores suos videant futurae proli,
-        ne species intereant, suffecturos. Toto ergo hieme sibi ipsis intenta quaeque sui solius
-        summo silentio curam agunt. Quam quaedam tam parvo aestimant ut quasi sui oblita, veluit in
-        arboribus sepulta aut in speluncis cavernarum sine esca abscondita, per longum tempus
-        deliteant, novum ver cum summo desiderio expectando et tum se denuo ad veterem ac desuetum
-        vociferandi usum expediendo; quo quasi in cucullo quodam totum consumunt aevum. Quamobrem
-        vox quidem principium quoddam amoris conciliandi in animalibus est, medium convivendi et,
-        quem cuncta statutis terminis optant, finis commodatissimus.</p>
+      <p xml:id="HERDEN0134">Vociferantur igitur tamdiu animalia quam amores suos videant futurae
+        proli, ne species intereant, suffecturos. Toto ergo hieme sibi ipsis intenta quaeque sui
+        solius summo silentio curam agunt. Quam quaedam tam parvo aestimant ut quasi sui oblita,
+        veluit in arboribus sepulta aut in speluncis cavernarum sine esca abscondita, per longum
+        tempus deliteant, novum ver cum summo desiderio expectando et tum se denuo ad veterem ac
+        desuetum vociferandi usum expediendo; quo quasi in cucullo quodam totum consumunt aevum.
+        Quamobrem vox quidem principium quoddam amoris conciliandi in animalibus est, medium
+        convivendi et, quem cuncta statutis terminis optant, finis commodatissimus.</p>
       <p xml:id="HERDEN0135">
         <pb n="[77]"/>Quomodo quaedam animalia vocibus suis hominibus utilia sunt, quaedam aliorum
         territiva. Capitulum VII</p>
-      <p xml:id="HERDEN0136">Sunt etiam animalia quaedam tum volatilia tum brutalia vocibus suis humano
-        usui quam utilissima. Nisi enim anserum vocibus antea quam militum armis defensum Capitolium
-        extitisset, de totius orbis imperio Roma postea non gloriaretur: Gallorum per ipsos in
-        Capitolium conscensu manifestato. Qua de causa, ut Plinius locuples est testis, supplicia
-        annua iuxta aedem Iuventutis persolvebant, vivi in furcas sambucea arbore infixi. Canum
-        quoque voces tam sunt utiles visae latratibus suis incolumitati regnorum atque hominum, ut
-        potentissimi regni nobilissima sedes, Arx Tarpeia, illis nocturnis excubiis committeretur
-        custodienda. Quoniam quidem nulla res est qua valentius franguntur ac deteguntur furum
-        latronumve conatus atque consilia quam vocibus canum. Ferunt enim eos plurimum olfactu
-        valere eaque de causa vulgo domorum custodiis adhiberi. Obtinent quidem per singulas
-        species, certas quasdam ac manifestas, quasdam etiam occultas, vocibus suis animalia
-        propritates: quibus quandoque aliis formidini sunt. Quamvis enim vocem leonis omne animal
-        exhorret, ipse tamen quam galli cantum nihil audit aegrius. Et pullastrae ad milvi vocem
-        pertubatae confugiunt ad vepres. Aiunt quoque cervos ut canum ita etiam vulpium vocibus
-        valde consternari. Elephantos voces suorum fugere victorum grunitumque minimae suis
+      <p xml:id="HERDEN0136">Sunt etiam animalia quaedam tum volatilia tum brutalia vocibus suis
+        humano usui quam utilissima. Nisi enim anserum vocibus antea quam militum armis defensum
+        Capitolium extitisset, de totius orbis imperio Roma postea non gloriaretur: Gallorum per
+        ipsos in Capitolium conscensu manifestato. Qua de causa, ut Plinius locuples est testis,
+        supplicia annua iuxta aedem Iuventutis persolvebant, vivi in furcas sambucea arbore infixi.
+        Canum quoque voces tam sunt utiles visae latratibus suis incolumitati regnorum atque
+        hominum, ut potentissimi regni nobilissima sedes, Arx Tarpeia, illis nocturnis excubiis
+        committeretur custodienda. Quoniam quidem nulla res est qua valentius franguntur ac
+        deteguntur furum latronumve conatus atque consilia quam vocibus canum. Ferunt enim eos
+        plurimum olfactu valere eaque de causa vulgo domorum custodiis adhiberi. Obtinent quidem per
+        singulas species, certas quasdam ac manifestas, quasdam etiam occultas, vocibus suis
+        animalia propritates: quibus quandoque aliis formidini sunt. Quamvis enim vocem leonis omne
+        animal exhorret, ipse tamen quam galli cantum nihil audit aegrius. Et pullastrae ad milvi
+        vocem pertubatae confugiunt ad vepres. Aiunt quoque cervos ut canum ita etiam vulpium
+        vocibus valde consternari. Elephantos voces suorum fugere victorum grunitumque minimae suis
         formidare. Draconem, animal certe horrendum, ad vocem pantherae propriam cavernam
         derelinquere. In India lupum esse triplici dentium ordine suffultum, cuncta animalia vocis
         horrore terrificantem. Onagrum 25 martii die duodecies rudere, eiusque vocis sonitu

@@ -1,25 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musica speculativa</title>
         <title type="abbrev">PROSPEC</title>
-        <author>Prosdocimo de' Beldomandi</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Prosdocimo de' Beldomandi</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Jan Herlinger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Magda Dragu</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Giuliano Di Bacco</persName>
         </respStmt>
-        <date/></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Prosdocimo de' Beldomandi, <emph>Plana musica and Musica
             speculativa</emph>, ed. and trans. by Jan Herlinger, Studies in the History of Music
@@ -47,13 +56,14 @@
         <pb n="[156]"/>TRACTATUS MUSICE SPECULATIVE QUEM PROSDOCIMUS DE BELDEMANDO PADUANUS CONTRA
         MARCHETUM DE PADUA COMPILAVIT</p>
       <p xml:id="PROSPEC0002">Prefatio</p>
-      <p xml:id="PROSPEC0003">1. Dum quidam michi carus ac uti frater intimus Lucas, nomine, de castro
-        Lendenarie, policinii rodigiensis oriundus sacerdosque honorandus, et ego fraternalem
+      <p xml:id="PROSPEC0003">1. Dum quidam michi carus ac uti frater intimus Lucas, nomine, de
+        castro Lendenarie, policinii rodigiensis oriundus sacerdosque honorandus, et ego fraternalem
         caritatem a puerili etate insimul duxissemus, et multa variaque volumina musicalia
         transcurrissemus, unum invenimus valde erroneum atque veritati dissonum, Lucidarium
         nominatum, quem quidam Marchetus, nomine, michi concivis paduanus, compilaverat. Et, ut rei
         veritas bene detegatur et falsitas cognoscatur, libellus iste Ars pratice cantus plani ab
-        auctoremet intitulatur, cuius tamen anteriora quedam musice theoricalia sive <pb n="[158]"/>speculativa false pertractant; sed in posterum ad simplicem praticam cantus plani se
+        auctoremet intitulatur, cuius tamen anteriora quedam musice theoricalia sive <pb n="[158]"
+        />speculativa false pertractant; sed in posterum ad simplicem praticam cantus plani se
         convertens, vere et solempniter scripsit atque egregie, adeo quod hucusque de his que in hac
         materia legerim nichil solempnius viderim. Fuit enim vir iste in scientia musice simplex
         praticus sed a theorica sive speculativa omnino vacuus, quam tamen perfectissime intelligere
@@ -73,8 +83,8 @@
         invenire atque cognoscere.</p>
       <p xml:id="PROSPEC0004">
         <pb n="[160]"/>1</p>
-      <p xml:id="PROSPEC0005">1. Musica ergo de qua hic est sermo est de sono ad sonum relato; et quia
-        talis relatio haberi non potest absque noticia proportionum et numerorum, ideo qui hanc
+      <p xml:id="PROSPEC0005">1. Musica ergo de qua hic est sermo est de sono ad sonum relato; et
+        quia talis relatio haberi non potest absque noticia proportionum et numerorum, ideo qui hanc
         cupit scientiam hec prius requirat neccessaria que tamen hic dilatare propter operis
         brevitatem dimisi, et etiam quia circa has duas materias proprios tractatulos, unum scilicet
         de proportionibus et alium de pratica arismetrice, sive de pratica numerorum, compilavi. Sed
@@ -90,32 +100,33 @@
       <p xml:id="PROSPEC0006">2. Unisonus est duorum sonorum equalium acceptio; et dicitur unisonus
         quasi unus sonus, quoniam tales duo soni, ex quo sunt equales, videntur esse unus sonus et
         non duo, propter sui equalitatem.</p>
-      <p xml:id="PROSPEC0007">3. Tonus est duorum sonorum inequalium in duabus diversis et immediatis
-        manus musicalis partibus existentium plene, perfecte, et complete tonantium acceptio; et
-        dicitur tonus a tonando quoniam, ut habitum est, tales duo soni immediati videntur perfecte,
-        plene, et complete tonare, eo quod unus ipsorum alterius respectu perfecte, plene, et
-        complete ascendit vel <pb n="[162]"/>descendit in comparatione ad alios duos sonos
-        immediatos quandam sonorum combinationem semitonium nominatam producentes, de quo semitonio
-        statim erit sermo. Et huiusmodi tonus alio nomine secunda maior nominatur; et dicitur
-        secunda quoniam unus horum duorum sonorum huiusmodi tonum producentium in secundo loco manus
-        musicalis respectu alterius soni colocatur, ut est a primo G ad primum A; sed quare maior
-        appeletur hic non declaro, sed inferius immediate post declarationem omnium 16 combinationum
-        sonorum superius nominatarum sub brevitate declarabitur quare unaqueque combinatio sonorum
-        maior, minor, vel etiam media nominetur, et hoc feci ut opus brevius redderetur.</p>
-      <p xml:id="PROSPEC0008">4. Semitonium est duorum sonorum inequalium in duabus diversis immediatis
-        manus musicalis partibus existentium non plene sed imperfecte et incomplete tonantium
-        acceptio; et dicitur semitonium non a semi grece quod est medium latine, sic quod semitonium
-        dicatur quia medietas toni, quoniam tonus musicus per medium dividi non potest, ut infra
-        patebit; sed dicitur semitonium a semi quod est imperfectum sive semum sive incompletum, ita
-        quod semitonium tantum sonat quantum imperfectus sive semus sive incompletus tonus, et hoc
-        respectu toni musici de quo paulo ante habitus est sermo. Et vocatur etiam huiusmodi
-        semitonium alio nomine secunda minor; et nominatur secunda propter causam de tono immediate
-        antedictam, ut est a primo B ad primum C; sed quare minor appeletur suo loco predicto
-        declarabitur.</p>
-      <p xml:id="PROSPEC0009">5. Diptonus est duorum sonorum inequalium in duabus diversis et mediatis
-        manus musicalis partibus existentium tonosque duos amplectantium acceptio; et dicitur
-        diptonus quasi duorum tonorum, quoniam talis diptonus in se duos continet tonos. Et alio
-        nomine tercia maior nuncupatur; tercia enim dicitur eo quod unus duorum sonorum talem
+      <p xml:id="PROSPEC0007">3. Tonus est duorum sonorum inequalium in duabus diversis et
+        immediatis manus musicalis partibus existentium plene, perfecte, et complete tonantium
+        acceptio; et dicitur tonus a tonando quoniam, ut habitum est, tales duo soni immediati
+        videntur perfecte, plene, et complete tonare, eo quod unus ipsorum alterius respectu
+        perfecte, plene, et complete ascendit vel <pb n="[162]"/>descendit in comparatione ad alios
+        duos sonos immediatos quandam sonorum combinationem semitonium nominatam producentes, de quo
+        semitonio statim erit sermo. Et huiusmodi tonus alio nomine secunda maior nominatur; et
+        dicitur secunda quoniam unus horum duorum sonorum huiusmodi tonum producentium in secundo
+        loco manus musicalis respectu alterius soni colocatur, ut est a primo G ad primum A; sed
+        quare maior appeletur hic non declaro, sed inferius immediate post declarationem omnium 16
+        combinationum sonorum superius nominatarum sub brevitate declarabitur quare unaqueque
+        combinatio sonorum maior, minor, vel etiam media nominetur, et hoc feci ut opus brevius
+        redderetur.</p>
+      <p xml:id="PROSPEC0008">4. Semitonium est duorum sonorum inequalium in duabus diversis
+        immediatis manus musicalis partibus existentium non plene sed imperfecte et incomplete
+        tonantium acceptio; et dicitur semitonium non a semi grece quod est medium latine, sic quod
+        semitonium dicatur quia medietas toni, quoniam tonus musicus per medium dividi non potest,
+        ut infra patebit; sed dicitur semitonium a semi quod est imperfectum sive semum sive
+        incompletum, ita quod semitonium tantum sonat quantum imperfectus sive semus sive
+        incompletus tonus, et hoc respectu toni musici de quo paulo ante habitus est sermo. Et
+        vocatur etiam huiusmodi semitonium alio nomine secunda minor; et nominatur secunda propter
+        causam de tono immediate antedictam, ut est a primo B ad primum C; sed quare minor appeletur
+        suo loco predicto declarabitur.</p>
+      <p xml:id="PROSPEC0009">5. Diptonus est duorum sonorum inequalium in duabus diversis et
+        mediatis manus musicalis partibus existentium tonosque duos amplectantium acceptio; et
+        dicitur diptonus quasi duorum tonorum, quoniam talis diptonus in se duos continet tonos. Et
+        alio nomine tercia maior nuncupatur; tercia enim dicitur eo quod unus duorum sonorum talem
         diptonum producentium in tercio loco manus musicalis ab altero reperitur, ut est a primo G
         ad primum B; sed quare dicatur maior suo loco patebit.</p>
       <p xml:id="PROSPEC0010">6. Semidiptonus est duorum sonorum inequalium in duabus diversis et
@@ -125,10 +136,10 @@
         semitonio, et sic <pb n="[164]"/>semus, imperfectus, et incompletus est. Et alio nomine
         tercia minor appelatur; tercia enim dicitur propter causam de diptono immediate antedictam;
         sed quare minor dicatur suo loco patebit, et huius exemplum est a primo A ad primum C.</p>
-      <p xml:id="PROSPEC0011">7. Tritonus est duorum sonorum inequalium in duabus diversis et mediatis
-        manus musicalis partibus existentium tresque tonos amplectantium acceptio; et dicitur
-        tritonus quasi trium tonorum, quoniam talis tritonus in se tres continet tonos. Et alio
-        nomine quarta maior nominatur; quarta enim dicitur quoniam unus duorum sonorum talem
+      <p xml:id="PROSPEC0011">7. Tritonus est duorum sonorum inequalium in duabus diversis et
+        mediatis manus musicalis partibus existentium tresque tonos amplectantium acceptio; et
+        dicitur tritonus quasi trium tonorum, quoniam talis tritonus in se tres continet tonos. Et
+        alio nomine quarta maior nominatur; quarta enim dicitur quoniam unus duorum sonorum talem
         tritonum producentium in quarto loco manus musicalis ab altero reperitur, ut est ab ut primi
         F ad mi secundi B; sed quare maior dicatur suo loco patebit.</p>
       <p xml:id="PROSPEC0012">8. Semitritonus est duorum sonorum inequalium in duabus diversis et
@@ -138,27 +149,29 @@
         continet cum uno semitonio, et sic semus, imperfectus, et incomplectus est. Et vocatur etiam
         alio nomine quarta minor; quarta enim dicitur propter causam de tritono paulo ante dictam;
         sed quare minor dicatur suo loco patebit; et exemplum huius est a primo G ad primum C.</p>
-      <p xml:id="PROSPEC0013">Antiqui tamen hanc sonorum combinationem dyateseron appelarunt, et inter
-        consonantes combinationes collocarunt; unde dyateseron dicitur a dya, quod est de latine, et
-        teseron, quatuor, sic quod tantum sonat dyateseron quantum de quatuor, quoniam ex quatuor
-        sonis talis combinatio contexitur, sive quia unus sonorum talem combinationem constituentium
-        in quarto loco manus musicalis ab altero reperitur; et licet tritonus, de quo paulo ante
-        fuit sermo, etiam dyateseron propter causam dictam appelari possit, antiqui tamen propter
-        sui dissonantiam ipsum dimittentes solum semitritonum acceperunt, et ipsum hoc nomine
-        dyateseron nominaverunt, quapropter antiquos nostros in sequendo quandocunque in sequentibus
-        fiet mentio de dyateseron intelligendum est de semitritono et non de tritono.</p>
+      <p xml:id="PROSPEC0013">Antiqui tamen hanc sonorum combinationem dyateseron appelarunt, et
+        inter consonantes combinationes collocarunt; unde dyateseron dicitur a dya, quod est de
+        latine, et teseron, quatuor, sic quod tantum sonat dyateseron quantum de quatuor, quoniam ex
+        quatuor sonis talis combinatio contexitur, sive quia unus sonorum talem combinationem
+        constituentium in quarto loco manus musicalis ab altero reperitur; et licet tritonus, de quo
+        paulo ante fuit sermo, etiam dyateseron propter causam dictam appelari possit, antiqui tamen
+        propter sui dissonantiam ipsum dimittentes solum semitritonum acceperunt, et ipsum hoc
+        nomine dyateseron nominaverunt, quapropter antiquos nostros in sequendo quandocunque in
+        sequentibus fiet mentio de dyateseron intelligendum est de semitritono et non de
+        tritono.</p>
       <p xml:id="PROSPEC0014">
         <pb n="[166]"/>Multo enim magis dissonat tritonus quam semitritonus, ymo semitritonus
         quodammodo medium tenet inter veram consonantiam et veram dissonantiam in tantum quod
         multotiens in musica non multum experti nec multum pratici in cantando semitritonum aure
         iudicant esse quintam maiorem, que consonans est, et de qua statim post sermo fiet; et ideo
         ni mirum si antiqui ipsum semitritonum pro consonante acceptarunt.</p>
-      <p xml:id="PROSPEC0015">9. Dyateseron cum tono est duorum sonorum inequalium in duabus diversis et
-        mediatis manus musicalis partibus existentium tres tonos et unum semitoniumque amplectantium
-        acceptio; et dicitur dyateseron cum tono quoniam talis combinatio ex dyateseron et tono
-        contexitur. Et vocatur etiam alio nomine quinta maior: dicitur enim quinta eo quod unus
-        sonorum talem combinationem producentium in quinto loco manus musicalis ab altero reperitur,
-        ut est a primo G ad primum D; sed quare maior nuncupatur inferius suo loco declaribitur.</p>
+      <p xml:id="PROSPEC0015">9. Dyateseron cum tono est duorum sonorum inequalium in duabus
+        diversis et mediatis manus musicalis partibus existentium tres tonos et unum semitoniumque
+        amplectantium acceptio; et dicitur dyateseron cum tono quoniam talis combinatio ex
+        dyateseron et tono contexitur. Et vocatur etiam alio nomine quinta maior: dicitur enim
+        quinta eo quod unus sonorum talem combinationem producentium in quinto loco manus musicalis
+        ab altero reperitur, ut est a primo G ad primum D; sed quare maior nuncupatur inferius suo
+        loco declaribitur.</p>
       <p xml:id="PROSPEC0016">Et apud antiquos etiam hoc nomine dyapente nominabatur; unde dyapente
         dicitur a dya, quod est de, et pente, quinque, sic quod tantum sonat dyapente quantum de
         quinque, eo quod talis combinatio ex quinque sonis contexitur, sive quia unus sonorum talem
@@ -169,13 +182,13 @@
         dyateseron et semitonio contexitur. Et alio nomine quinta minor appelatur; dicitur enim
         quinta propter causam paulo ante de dyateseron cum tono dictam; sed quare minor dicatur
         inferius suo loco patebit; et exemplum huius est a primo B ad primum F.</p>
-      <p xml:id="PROSPEC0018">Et potest etiam appelari dyapente, uti dyateseron cum tono, propter causam
-        de dyateseron cum tono dictam. Sed propter sui dissonantiam de ipsa ab antiquis auctoribus
-        nulla mentio facta est, sed solum dyateseron cum tono dyapente appelarunt, et ergo
-        intentionem antiquorum in sequendo <pb n="[168]"/>quandocunque fiet mentio de dyapente
+      <p xml:id="PROSPEC0018">Et potest etiam appelari dyapente, uti dyateseron cum tono, propter
+        causam de dyateseron cum tono dictam. Sed propter sui dissonantiam de ipsa ab antiquis
+        auctoribus nulla mentio facta est, sed solum dyateseron cum tono dyapente appelarunt, et
+        ergo intentionem antiquorum in sequendo <pb n="[168]"/>quandocunque fiet mentio de dyapente
         intelligendum est de dyateseron cum tono et non de dyateseron cum semitonio.</p>
-      <p xml:id="PROSPEC0019">11. Dyapente cum tono est duorum sonorum inequalium in duabus diversis et
-        mediatis manus musicalis partibus existentium quatuor tonos et unum semitoniumque
+      <p xml:id="PROSPEC0019">11. Dyapente cum tono est duorum sonorum inequalium in duabus diversis
+        et mediatis manus musicalis partibus existentium quatuor tonos et unum semitoniumque
         amplectantium acceptio; et dicitur dyapente cum tono quoniam talis combinatio ex dyapente et
         tono componitur. Et alio nomine sexta maior appelatur; dicitur enim sexta eo quod unus
         duorum sonorum talem combinationem producentium in sexto loco manus musicalis ab altero
@@ -186,21 +199,21 @@
         dyapente et semitonio componitur. Et alio nomine sexta minor nuncupatur; dicitur enim sexta
         propter causam de dyapente cum tono dictam; sed quare dicatur minor inferius suo loco
         declarabitur; et exemplum huius est a primo B ad secundum G.</p>
-      <p xml:id="PROSPEC0021">13. Dyapente cum diptono est duorum sonorum inequalium in duabus diversis
-        et mediatis manus musicalis partibus existentium quinque tonos et unum semitoniumque
-        amplectantium acceptio; et dicitur dyapente cum diptono quoniam talis combinatio ex dyapente
-        et diptono componitur. Et alio nomine septima maior nominatur; dicitur enim septima quoniam
-        unus duorum sonorum talem combinationem producentium in septimo loco manus musicalis ab
-        altero reperitur, ut est a primo C ad mi secundi B; sed quare maior nominetur suo loco
-        patebit.</p>
+      <p xml:id="PROSPEC0021">13. Dyapente cum diptono est duorum sonorum inequalium in duabus
+        diversis et mediatis manus musicalis partibus existentium quinque tonos et unum
+        semitoniumque amplectantium acceptio; et dicitur dyapente cum diptono quoniam talis
+        combinatio ex dyapente et diptono componitur. Et alio nomine septima maior nominatur;
+        dicitur enim septima quoniam unus duorum sonorum talem combinationem producentium in septimo
+        loco manus musicalis ab altero reperitur, ut est a primo C ad mi secundi B; sed quare maior
+        nominetur suo loco patebit.</p>
       <p xml:id="PROSPEC0022">14. Dyapente cum semidiptono est duorum sonorum inequalium in duabus
         diversis et mediatis manus musicalis partibus existentium quatuor tonos et duo semitoniaque
         amplectantium acceptio; et dicitur dyapente cum semidiptono quoniam talis combinatio ex
         dyapente et semidiptono componitur. Et alio nomine septima minor nominatur; septima enim
         dicitur propter causam de dyapente cum diptono paulo ante dictam; sed quare minor dicatur
         suo loco patebit; et exemplum huius est a primo B ad secundum A.</p>
-      <p xml:id="PROSPEC0023">15. Dyapente cum tritono est duorum sonorum inequalium in duabus diversis
-        et mediatis manus musicalis partibus existentium sex tonos et unum semitoniumque
+      <p xml:id="PROSPEC0023">15. Dyapente cum tritono est duorum sonorum inequalium in duabus
+        diversis et mediatis manus musicalis partibus existentium sex tonos et unum semitoniumque
         amplectantium acceptio; et dicitur dyapente cum tritono quoniam talis combinatio ex dyapente
         et tritono componitur. Et denominatur <pb n="[170]"/>etiam octava maior; octava enim
         nominatur quoniam unus duorum sonorum talem combinationem producentium in octavo loco manus
@@ -212,17 +225,17 @@
         dyapente et dyateseron componitur. Et appelatur etiam octava media; octava enim dicitur
         propter causam de dyapente cum tritono paulo ante dictam; sed quare dicatur media suo loco
         patebit; et exemplum huius est a primo G ad secundum G.</p>
-      <p xml:id="PROSPEC0025">Et ab antiquis hec combinatio appelabatur dyapason, unde dyapason dicitur
-        a dya, quod est de, et pason, totum, ita quod dyapason tantum sonat quantum de toto; et
-        merito hec combinatio vocatur de toto, quoniam in se continet omnes sonorum combinationes
+      <p xml:id="PROSPEC0025">Et ab antiquis hec combinatio appelabatur dyapason, unde dyapason
+        dicitur a dya, quod est de, et pason, totum, ita quod dyapason tantum sonat quantum de toto;
+        et merito hec combinatio vocatur de toto, quoniam in se continet omnes sonorum combinationes
         quarum proportiones primitus invente fuerunt, que combinationes sunt hee quatuor, scilicet
         tonus, dyateseron, dyapente, et ipsamet dyapason.</p>
-      <p xml:id="PROSPEC0026">17. Bisdyateseron cum semitonio est duorum sonorum inequalium in duabus
-        diversis et mediatis manus musicalis partibus existentium quatuor tonos et tria semitoniaque
-        amplectantium acceptio; et dicitur bisdyateseron cum semitonio quoniam talis combinatio ex
-        duabus dyateseron et uno semitonio contexitur. Et alio nomine vocatur octava minor; octava
-        enim dicitur propter causam de dyapente cum tritono dictam; sed quare minor dicatur statim
-        post patebit; et exemplum huius est a primo B ad fa secundi B.</p>
+      <p xml:id="PROSPEC0026">17. Bisdyateseron cum semitonio est duorum sonorum inequalium in
+        duabus diversis et mediatis manus musicalis partibus existentium quatuor tonos et tria
+        semitoniaque amplectantium acceptio; et dicitur bisdyateseron cum semitonio quoniam talis
+        combinatio ex duabus dyateseron et uno semitonio contexitur. Et alio nomine vocatur octava
+        minor; octava enim dicitur propter causam de dyapente cum tritono dictam; sed quare minor
+        dicatur statim post patebit; et exemplum huius est a primo B ad fa secundi B.</p>
       <p xml:id="PROSPEC0027">Et licet antiqui solum octavam mediam vocaverint hoc nomine dyapason,
         tamen octava maior potest etiam dyapason denominari, quoniam octava maior ita in se continet
         omnes sonorum combinationes quarum proportiones primitus invente fuerunt, sicut octava media
@@ -232,21 +245,21 @@
         solum octavam mediam dyapason nominarunt, quare ipsos antiquos in sequendo ubicunque de
         dyapason aliqua fiet mentio semper intelligendum est de octava media et non de maiori neque
         de minori.</p>
-      <p xml:id="PROSPEC0028">18. Et quia in declaratione supradictarum sexdecim sonorum combinationum
-        multotiens facta est mentio de maioritate et minoritate earum, est sciendum quod illa
-        combinatio maior denominatur cuius soni ipsam constituentes magis a se invicem distant
-        respectu alterius eiusdem nominis, et illa vocatur minor cuius soni ipsam constituentes
-        minus a se invicem distant respectu alterius eiusdem nominis; ut verbi gratia quia duo soni
-        constituentes tonum magis a se invicem distant quam duo soni constituentes semitonium, et
-        tam tonus quam semitonium secunda denominatur, ut habitum est supra, ideo tonus secunda
-        maior et semitonium secunda minor denominantur; item quia duo soni constituentes diptonum
-        magis a se invicem distant quam duo soni constituentes semidiptonum, et ipsorum uterque
-        tercia denominatur, ideo diptonus tercia maior et semidiptonus tercia minor appelantur; et
-        sic de aliis. Dyapason autem octava media denominatur, quoniam medium tenet inter octavam
-        maiorem et octavam minorem. Duo nanque soni constituentes dyapason minus a se invicem
-        distant quam duo soni constituentes octavam maiorem et magis a se invicem distant quam duo
-        soni constituentes octavam minorem, et ergo dyapason bene medium tenet inter octavam maiorem
-        et octavam minorem, quare merito octava media nuncupata est.</p>
+      <p xml:id="PROSPEC0028">18. Et quia in declaratione supradictarum sexdecim sonorum
+        combinationum multotiens facta est mentio de maioritate et minoritate earum, est sciendum
+        quod illa combinatio maior denominatur cuius soni ipsam constituentes magis a se invicem
+        distant respectu alterius eiusdem nominis, et illa vocatur minor cuius soni ipsam
+        constituentes minus a se invicem distant respectu alterius eiusdem nominis; ut verbi gratia
+        quia duo soni constituentes tonum magis a se invicem distant quam duo soni constituentes
+        semitonium, et tam tonus quam semitonium secunda denominatur, ut habitum est supra, ideo
+        tonus secunda maior et semitonium secunda minor denominantur; item quia duo soni
+        constituentes diptonum magis a se invicem distant quam duo soni constituentes semidiptonum,
+        et ipsorum uterque tercia denominatur, ideo diptonus tercia maior et semidiptonus tercia
+        minor appelantur; et sic de aliis. Dyapason autem octava media denominatur, quoniam medium
+        tenet inter octavam maiorem et octavam minorem. Duo nanque soni constituentes dyapason minus
+        a se invicem distant quam duo soni constituentes octavam maiorem et magis a se invicem
+        distant quam duo soni constituentes octavam minorem, et ergo dyapason bene medium tenet
+        inter octavam maiorem et octavam minorem, quare merito octava media nuncupata est.</p>
       <p xml:id="PROSPEC0029">Plures preterea non declarantur hic sonorum combinationes, eo quod ex
         sexdecim habitis faciliter haberi potest noticia omnium aliarum sequentium quantum ad earum
         compositionem et ad numerum tonorum et semitoniorum in eis existentium et etiam quantum ad
@@ -261,15 +274,15 @@
         sonorum combinationum et modis inveniendi ipsas proportiones, habebuntur etiam faciliter
         proportiones et modi inveniendi ipsas proportiones omnium aliarum sonorum combinationum
         sequentium.</p>
-      <p xml:id="PROSPEC0030">Multas etiam sonorum combinationes inter unisonum et octavam reperibiles
-        pretermisi, eo quod licet fingendo reperibiles sint, in manu tamen musicali nullo modo
-        reperiri possunt, et etiam quia habita plena noticia sexdecim sonorum combinationum
-        principalium, de quibus habitus est sermo, quantum scilicet ad earum compositiones et
-        proportiones, faciliter etiam haberi poterit plena noticia harum combinationum sonorum in
-        manu musicali non repertarum, quantum scilicet ad earum compositiones et proportiones. Et
-        hee sonorum combinationes in manu musicali non reperibiles sunt sicut tercia duorum
-        semitoniorum, quarta trium semitoniorum, quinta quatuor semitoniorum, et sic de multis
-        aliis.</p>
+      <p xml:id="PROSPEC0030">Multas etiam sonorum combinationes inter unisonum et octavam
+        reperibiles pretermisi, eo quod licet fingendo reperibiles sint, in manu tamen musicali
+        nullo modo reperiri possunt, et etiam quia habita plena noticia sexdecim sonorum
+        combinationum principalium, de quibus habitus est sermo, quantum scilicet ad earum
+        compositiones et proportiones, faciliter etiam haberi poterit plena noticia harum
+        combinationum sonorum in manu musicali non repertarum, quantum scilicet ad earum
+        compositiones et proportiones. Et hee sonorum combinationes in manu musicali non reperibiles
+        sunt sicut tercia duorum semitoniorum, quarta trium semitoniorum, quinta quatuor
+        semitoniorum, et sic de multis aliis.</p>
       <p xml:id="PROSPEC0031">
         <pb n="[176]"/>2</p>
       <p xml:id="PROSPEC0032">1. His sexdecim sonorum combinationibus principalibus quantum ad earum
@@ -380,7 +393,8 @@
         taliter in una linea ordinentur, 192, 216, 243; quo facto supra 192 addatur sua tercia pars,
         scilicet 64, et habebis 256. Postea vero taliter ordinentur hii quatuor numeri, scilicet
         192, 216, 243, 256, in quo ordine apparet quomodo proportio primi numeri, scilicet 192, ad
-        ultimum, scilicet ad 256, est proportio dyateseron, que componitur ex duobus <pb n="[186]"/>tonis et uno semitonio propter prehabita; et ista est proportio sexquitercia; et apparet
+        ultimum, scilicet ad 256, est proportio dyateseron, que componitur ex duobus <pb n="[186]"
+        />tonis et uno semitonio propter prehabita; et ista est proportio sexquitercia; et apparet
         etiam quomodo proportio primi numeri ad secundum est proportio toni, scilicet sexquioctava,
         et quomodo proportio secundi numeri ad tercium est etiam proportio toni, quare sequitur quod
         proportio tercii numeri ad quartum erit proportio semitonii, de quo pluries sermo, et cum
@@ -398,8 +412,8 @@
         proportio toni a proportione dyateseron subtrahatur per regulam datam, remanebit proportio
         que est inter 32 et 27, quorum differentia est 5; et ista est proportio semidiptoni
         supradicta.</p>
-      <p xml:id="PROSPEC0041">6. Tritonus in proportione super217partiente 512as consistit; nam si tres
-        sexquioctave, que sunt proportiones trium tonorum in uno tritono contentorum, insimul
+      <p xml:id="PROSPEC0041">6. Tritonus in proportione super217partiente 512as consistit; nam si
+        tres sexquioctave, que sunt proportiones trium tonorum in uno tritono contentorum, insimul
         agregentur per regulam datam taliter quod primo agregentur due sexquioctave adinvicem,
         deinde huic agregato agregetur tercia sexquioctava, proveniet proportio que est inter 729 et
         512, quorum differentia est 217; et ista est proportio tritoni supradicta.</p>
@@ -413,18 +427,18 @@
         consistit; nam si proportio semitonii supra habita cum proportione dyateseron adiungatur per
         regulam datam, proveniet proportio que est inter 1024 et 729, quorum differentia est 295; et
         ista est proportio dyateseron cum semitonio supradicta.</p>
-      <p xml:id="PROSPEC0044">8. Dyapente cum tono in proportione super11partiente 16as consistit; nam
-        si proportio dyapente cum proportione toni per regulam datam adiungatur, proveniet proportio
-        que est inter 27 et 16, quorum differentia est 11; et ista est proportio dyapente cum tono
-        supradicta.</p>
-      <p xml:id="PROSPEC0045">9. Dyapente cum semitonio in proportione super47partiente 81as consistit;
-        nam si proportio dyateseron et proportio semidiptoni, que simul iuncta faciunt dyapente cum
-        semitonio, insimul iungantur, producent proportionem que est inter 128 et 81, quorum
-        differentia est 47; et ista est proportio dyapente cum semitonio supradicta.</p>
-      <p xml:id="PROSPEC0046">10. Dyapente cum diptono in proportione super115partiente 128as consistit;
-        nam si proportio dyapente et proportio diptoni insimul iungantur, producent proportionem que
-        est inter 243 et 128, quorum differentia est 115; et ista est proportio dyapente cum diptono
-        supradicta.</p>
+      <p xml:id="PROSPEC0044">8. Dyapente cum tono in proportione super11partiente 16as consistit;
+        nam si proportio dyapente cum proportione toni per regulam datam adiungatur, proveniet
+        proportio que est inter 27 et 16, quorum differentia est 11; et ista est proportio dyapente
+        cum tono supradicta.</p>
+      <p xml:id="PROSPEC0045">9. Dyapente cum semitonio in proportione super47partiente 81as
+        consistit; nam si proportio dyateseron et proportio semidiptoni, que simul iuncta faciunt
+        dyapente cum semitonio, insimul iungantur, producent proportionem que est inter 128 et 81,
+        quorum differentia est 47; et ista est proportio dyapente cum semitonio supradicta.</p>
+      <p xml:id="PROSPEC0046">10. Dyapente cum diptono in proportione super115partiente 128as
+        consistit; nam si proportio dyapente et proportio diptoni insimul iungantur, producent
+        proportionem que est inter 243 et 128, quorum differentia est 115; et ista est proportio
+        dyapente cum diptono supradicta.</p>
       <p xml:id="PROSPEC0047">
         <pb n="[190]"/>Item probatur hoc idem aliter sic: supra 64, terminum secunde octuple,
         intendantur due sexquioctave continue ad 72 et ad 81; et quoniam supra 81 non potest in
@@ -436,11 +450,11 @@
         tunc sic ordinentur isti quatuor numeri, scilicet 128, 144, 162, 243; et patet quod numeri
         extremi continent diptonum cum dyapente sive dyapente cum diptono, quod idem est, et eius
         proportionem iam dictam.</p>
-      <p xml:id="PROSPEC0048">11. Dyapente cum semidiptono in proportione super7partiente 9as consistit;
-        nam si due proportiones duarum dyateseron, scilicet due sexquitercie, que due dyateseron
-        simul iuncte faciunt dyapente cum semidiptono, insimul iungantur, producent proportionem que
-        est inter 16 et 9, quorum differentia est 7; et ista est proportio dyapente cum semidiptono
-        supradicta.</p>
+      <p xml:id="PROSPEC0048">11. Dyapente cum semidiptono in proportione super7partiente 9as
+        consistit; nam si due proportiones duarum dyateseron, scilicet due sexquitercie, que due
+        dyateseron simul iuncte faciunt dyapente cum semidiptono, insimul iungantur, producent
+        proportionem que est inter 16 et 9, quorum differentia est 7; et ista est proportio dyapente
+        cum semidiptono supradicta.</p>
       <p xml:id="PROSPEC0049">12. Dyapente cum tritono in proportione dupla super139partiente 1024as
         consistit; nam si proportio tritoni et proportio dyapente insimul iungantur, producent
         proportionem que est inter 2187 et 1024, quorum differentia est 1163; et ista est proportio
@@ -457,8 +471,8 @@
         producetur 2187, et tunc sic ordinentur isti tres numeri, scilicet 1024, 1458, 2187, et
         patet quod numeri extremi continent dyapente cum tritono et eius proportionem iam
         dictam.</p>
-      <p xml:id="PROSPEC0051">13. Bisdyateseron cum semitonio in proportione super1909partiente 2187as
-        consistit; nam si due proportiones duarum dyateseron et proportio semitonii insimul
+      <p xml:id="PROSPEC0051">13. Bisdyateseron cum semitonio in proportione super1909partiente
+        2187as consistit; nam si due proportiones duarum dyateseron et proportio semitonii insimul
         iungantur, producent proportionem que est inter 4096 et 2187, quorum differentia est 1909;
         et ista est proportio bisdyateseron cum semitonio supradicta.</p>
       <p xml:id="PROSPEC0052">14. Nec mireris si ad declarationem proportionum quarundam sonorum
@@ -497,7 +511,8 @@
         discurrendo per singulas species proportionis superparticularis, ut verbi gratia inter 3 et
         2, inter 4 et 3, inter 5 et 4, inter 6 et 5, inter 7 et 6, inter 8 et 7, inter 9 et 8, et
         sic ultra, inter quos cadunt iste proportiones specie distincte, scilicet sexquialtera,
-        sexquitercia, sexquiquarta, sexquiquinta, sexquisexta, sexquiseptima, et sexquioctava, <pb n="[196]"/>que est proportio toni, ut supra habitum est; et tamen, ut patet, inter nullos
+        sexquitercia, sexquiquarta, sexquiquinta, sexquisexta, sexquiseptima, et sexquioctava, <pb
+          n="[196]"/>que est proportio toni, ut supra habitum est; et tamen, ut patet, inter nullos
         duos predictorum terminorum aliquam supradictarum proportionum producentium est aliquod
         medium, cum sint immediati, et sic patet propositum, scilicet quod nulla proportio
         superparticularis divisibilis sit in partes equales.</p>
@@ -505,8 +520,8 @@
         proportionabilibus, et adhuc in sequentibus fiet mentio, est sciendum quod quando sic
         invenies, semper intelliges de proportionabilibus adinvicem proportionatis proportionalitate
         geometrica et non arismetrica nec armonica.</p>
-      <p xml:id="PROSPEC0055">Item et secundo probatur aliter quod nulla proportio superparticularis sit
-        divisibilis in partes equales; nam discurrendo per singulas species proportionis
+      <p xml:id="PROSPEC0055">Item et secundo probatur aliter quod nulla proportio superparticularis
+        sit divisibilis in partes equales; nam discurrendo per singulas species proportionis
         superparticularis nunquam reperietur medium nec media continue proportionabilia inter duos
         terminos proportionem aliquam superparticularem producentes, modo ad hoc, ut aliqua
         proportio in partes equales dividatur, requiritur quod inter duos terminos suos medium vel
@@ -537,47 +552,49 @@
       <p xml:id="PROSPEC0058">Et sic patet his quatuor rationibus quomodo nulla proportio
         superparticularis, et per consequens nulla sexquioctava, est divisibilis in partes equales,
         quare nec tonus, qui in proportione sexquioctava consistit, quod erat declarandum.</p>
-      <p xml:id="PROSPEC0059">Secundo vero principaliter probatur quod tonus nullo modo sit divisibilis
-        in partes equales sic; nam ubi sic divisibilis esset, etiam sua proportio, scilicet
-        sexquioctava, sic divisibilis esset, et quoniam talis divisio fieri non potest absque medio
-        vel mediis, et inter 9 et 8, qui sunt primi et minimi termini proportionis sexquioctave,
-        nullum reperitur medium, quare in ipsis fieri non potest talis divisio, multiplicentur dicti
-        numeri, scilicet 9 et 8, per unum et eundum numerum, et producetur in productis eadem
-        proportio que est inter 9 et 8 per regulam supra habitam. Multiplicentur ergo primo 9 et 8
-        per 2 et producentur 18 et 16, inter quos cadit unicum medium, scilicet 17; sed 17 non est
-        medium continue proportionale inter 18 et 16, quod tamen requireretur si proportio
-        extremorum per ipsum dividi deberet per equalia, ut patet; ergo illud medium non dividit
-        proportionem extremorum, que est sexquioctava, in partes equales. Item multiplicentur 9 et 8
-        per 3 et producentur 27 et 24, inter quos sunt duo media, scilicet 25 et 26, sed non inter
-        se et cum extremis continue proportionabilia, ut notum est; ergo non dividunt proportionem
-        extremorum in partes equales. Item multiplicentur 9 et 8 per 4 et producentur 36 et 32,
-        inter quos sunt tria media, scilicet 33, 34, et 35, sed non continue proportionabilia, ut de
-        se notum est; ergo non dividunt proportionem <pb n="[200]"/>extremorum in partes equales.
-        Item multiplicentur 9 et 8 per 5 et producentur 45 et 40, inter quos sunt quatuor media,
-        scilicet 41, 42, 43, et 44, sed non continue proportionabilia, ut clare patet; ergo non
-        dividunt proportionem extremorum in partes equales; et sic ultra in infinitum procedendo.
-        Ergo nullo modo dicendum est proportionem sexquioctavam fore divisibilem in partes equales,
-        et per consequens nec tonum, cuius proportio est ipsa sexquioctava, ut habitum est supra,
-        quod erat principaliter declarandum, ex quo sequitur quod si tonus in duas dividatur partes,
-        ille neccessario erunt inequales, et quia universaliter tonus apud musicos in duas dividitur
-        partes, neccessario ille erunt inequales, propter quod dixerunt antiqui, et bene, maiorem
-        harum duarum partium semitonium maius appelari et minorem minus semitonium nuncupari, non
-        tamen a semi quod est medium, cum hoc inveniri sit impossibile, ut est demonstratum, sed a
-        semi quod est imperfectum, semum, vel incompletum, ut supra habitum est. Et scias quod
-        differentia que inter maius et minus semitonium reperitur apud musicos coma nominatur.</p>
-      <p xml:id="PROSPEC0060">16. Semitonium de quo supra in de sonorum combinationibus pluries sermo
-        habitus est semitonium minus existit, nam si dupletur huiusmodi semitonium, sive ad se ipsum
-        addatur, quod idem est, id est eius proportio, non perficit tonum sive eius proportionem;
-        ergo est minor pars vera medietate toni, sive semitonium minus. Si enim perficeret tonum
-        sive eius proportionem vera toni medietas existeret, quam inveniri est impossibile per prius
-        habita. Et si tonum transcenderet plus toni vera medietate et semitonium maius existeret. Et
-        quod ex duplatione semitonii supradicti, sive eius proportionis, producatur proportio minor
-        sexquioctava, que est proportio toni, sic declaratur; nam per regulam supra habitam addantur
-        insimul duo huiusmodi semitonia, sive eorum proportiones, et producetur proportio que est
-          <pb n="[202]"/>inter 65536 et 59049, quorum differentia est 6487; et ista est proportio
-        super6487partiens 59049as, que est minor una sexquioctava, quare et cetera.</p>
-      <p xml:id="PROSPEC0061">Et quod talis proportio duorum semitoniorum insimul iunctorum sit minor
-        una sexquioctava sic declaratur, et primo notetur hec regula: si sint due proportiones
+      <p xml:id="PROSPEC0059">Secundo vero principaliter probatur quod tonus nullo modo sit
+        divisibilis in partes equales sic; nam ubi sic divisibilis esset, etiam sua proportio,
+        scilicet sexquioctava, sic divisibilis esset, et quoniam talis divisio fieri non potest
+        absque medio vel mediis, et inter 9 et 8, qui sunt primi et minimi termini proportionis
+        sexquioctave, nullum reperitur medium, quare in ipsis fieri non potest talis divisio,
+        multiplicentur dicti numeri, scilicet 9 et 8, per unum et eundum numerum, et producetur in
+        productis eadem proportio que est inter 9 et 8 per regulam supra habitam. Multiplicentur
+        ergo primo 9 et 8 per 2 et producentur 18 et 16, inter quos cadit unicum medium, scilicet
+        17; sed 17 non est medium continue proportionale inter 18 et 16, quod tamen requireretur si
+        proportio extremorum per ipsum dividi deberet per equalia, ut patet; ergo illud medium non
+        dividit proportionem extremorum, que est sexquioctava, in partes equales. Item
+        multiplicentur 9 et 8 per 3 et producentur 27 et 24, inter quos sunt duo media, scilicet 25
+        et 26, sed non inter se et cum extremis continue proportionabilia, ut notum est; ergo non
+        dividunt proportionem extremorum in partes equales. Item multiplicentur 9 et 8 per 4 et
+        producentur 36 et 32, inter quos sunt tria media, scilicet 33, 34, et 35, sed non continue
+        proportionabilia, ut de se notum est; ergo non dividunt proportionem <pb n="[200]"
+        />extremorum in partes equales. Item multiplicentur 9 et 8 per 5 et producentur 45 et 40,
+        inter quos sunt quatuor media, scilicet 41, 42, 43, et 44, sed non continue
+        proportionabilia, ut clare patet; ergo non dividunt proportionem extremorum in partes
+        equales; et sic ultra in infinitum procedendo. Ergo nullo modo dicendum est proportionem
+        sexquioctavam fore divisibilem in partes equales, et per consequens nec tonum, cuius
+        proportio est ipsa sexquioctava, ut habitum est supra, quod erat principaliter declarandum,
+        ex quo sequitur quod si tonus in duas dividatur partes, ille neccessario erunt inequales, et
+        quia universaliter tonus apud musicos in duas dividitur partes, neccessario ille erunt
+        inequales, propter quod dixerunt antiqui, et bene, maiorem harum duarum partium semitonium
+        maius appelari et minorem minus semitonium nuncupari, non tamen a semi quod est medium, cum
+        hoc inveniri sit impossibile, ut est demonstratum, sed a semi quod est imperfectum, semum,
+        vel incompletum, ut supra habitum est. Et scias quod differentia que inter maius et minus
+        semitonium reperitur apud musicos coma nominatur.</p>
+      <p xml:id="PROSPEC0060">16. Semitonium de quo supra in de sonorum combinationibus pluries
+        sermo habitus est semitonium minus existit, nam si dupletur huiusmodi semitonium, sive ad se
+        ipsum addatur, quod idem est, id est eius proportio, non perficit tonum sive eius
+        proportionem; ergo est minor pars vera medietate toni, sive semitonium minus. Si enim
+        perficeret tonum sive eius proportionem vera toni medietas existeret, quam inveniri est
+        impossibile per prius habita. Et si tonum transcenderet plus toni vera medietate et
+        semitonium maius existeret. Et quod ex duplatione semitonii supradicti, sive eius
+        proportionis, producatur proportio minor sexquioctava, que est proportio toni, sic
+        declaratur; nam per regulam supra habitam addantur insimul duo huiusmodi semitonia, sive
+        eorum proportiones, et producetur proportio que est <pb n="[202]"/>inter 65536 et 59049,
+        quorum differentia est 6487; et ista est proportio super6487partiens 59049as, que est minor
+        una sexquioctava, quare et cetera.</p>
+      <p xml:id="PROSPEC0061">Et quod talis proportio duorum semitoniorum insimul iunctorum sit
+        minor una sexquioctava sic declaratur, et primo notetur hec regula: si sint due proportiones
         specie distincte, et velis scire que ipsarum sit maior, capias ipsas in suis minimis
         terminis et multiplica maiorem unius per minorem alterius, ut facis in subtractione unius
         proportionis ab alia, et illa duarum proportionum ex cuius maioris termini multiplicatione
@@ -635,23 +652,24 @@
         dyatesaron et remanebit proportio dicta, cum enim tritonus consistat ex tribus tonis et
         dyateseron ex duobus cum uno semitonio minori, ut constat ex precedentibus, superabit
         tritonus dyateseron per unum semitonium maius.</p>
-      <p xml:id="PROSPEC0066">18. Coma in proportione super7153partiente 524288as consistit, nam si a
-        proportione semitonii maioris proportio semitonii minoris subtrahatur restabit proportio que
-        est inter 531441 et 524288, quorum differentia est 7153; et ista est proportio comatis
+      <p xml:id="PROSPEC0066">18. Coma in proportione super7153partiente 524288as consistit, nam si
+        a proportione semitonii maioris proportio semitonii minoris subtrahatur restabit proportio
+        que est inter 531441 et 524288, quorum differentia est 7153; et ista est proportio comatis
         predicta.</p>
       <p xml:id="PROSPEC0067">19. Omnia semitonia maiora inter se sunt equalia, nam ex quo omnia
         semitonia minora inter se sunt equalia, et per simile omnes toni, ut supra declaratum est,
         et tonus non differt a semitonio minori nisi per semitonium maius, ut patet ex supradictis,
         neccessario erunt omnia semitonia maiora inter se equalia.</p>
-      <p xml:id="PROSPEC0068">Item probatur hoc idem aliter sic: nam ubi non equarentur, sequeretur quod
-        non omnes sonorum combinationes eiusdem ultimate denominationis essent adinvicem equales, ut
-        patet, quod est contra superius demonstratum.</p>
-      <p xml:id="PROSPEC0069">20. Omnia comata inter se sunt equalia; nam ex quo omnia minora semitonia
-        inter se sunt equalia, et per simile omnia maiora semitonia, et maius non differt a minori
-        nisi per unum coma, ut habitum est, neccessario erunt omnia comata inter se equalia.</p>
-      <p xml:id="PROSPEC0070">Item probatur aliter hoc idem sic: nam ubi non equarentur, sequeretur quod
-        non omnes sonorum combinationes eiusdem denominationis ultimate essent adinvicem equales, ut
-        patet, quod est contra unum supra demonstratum.</p>
+      <p xml:id="PROSPEC0068">Item probatur hoc idem aliter sic: nam ubi non equarentur, sequeretur
+        quod non omnes sonorum combinationes eiusdem ultimate denominationis essent adinvicem
+        equales, ut patet, quod est contra superius demonstratum.</p>
+      <p xml:id="PROSPEC0069">20. Omnia comata inter se sunt equalia; nam ex quo omnia minora
+        semitonia inter se sunt equalia, et per simile omnia maiora semitonia, et maius non differt
+        a minori nisi per unum coma, ut habitum est, neccessario erunt omnia comata inter se
+        equalia.</p>
+      <p xml:id="PROSPEC0070">Item probatur aliter hoc idem sic: nam ubi non equarentur, sequeretur
+        quod non omnes sonorum combinationes eiusdem denominationis ultimate essent adinvicem
+        equales, ut patet, quod est contra unum supra demonstratum.</p>
       <p xml:id="PROSPEC0071">
         <pb n="[208]"/>21. Duo semitonia minora cum uno comate tonum comprehendunt; nam ex quo
         semitonium minus cum semitonio maiori tonum constituit et semitonium minus exceditur a
@@ -691,11 +709,11 @@
         mi, et semitonio maiori solum utimur in addendo vel diminuendo in variatione combinationum,
         scilicet quando facimus de maiori combinatione minorem vel de minori maiorem, vel de maiori
         mediam, vel de media minorem, vel de minori mediam, vel de media maiorem.</p>
-      <p xml:id="PROSPEC0073">Et ex hoc manifeste apparet veritas antiquorum a modernis cantoribus non
-        intellecta, qui antiqui in coloratione consonantiarum per veram vel fictam musicam solum duo
-        posuerunt signa, scilicet duo B distincta, unum scilicet cum corpore quadro, ut hic, [sqb],
-        et aliud cum corpore rotundo, ut hic, b, volentes quod ubicunque reperiebatur corpus [sqb]
-        quadri, sive hoc esset in linea sive in spatio, proferre deberemus hanc vocem mi, et
+      <p xml:id="PROSPEC0073">Et ex hoc manifeste apparet veritas antiquorum a modernis cantoribus
+        non intellecta, qui antiqui in coloratione consonantiarum per veram vel fictam musicam solum
+        duo posuerunt signa, scilicet duo B distincta, unum scilicet cum corpore quadro, ut hic,
+        [sqb], et aliud cum corpore rotundo, ut hic, b, volentes quod ubicunque reperiebatur corpus
+        [sqb] quadri, sive hoc esset in linea sive in spatio, proferre deberemus hanc vocem mi, et
         ubicunque reperiebatur corpus b rotundi, sive hoc esset in linea sive in spatio, proferre
         deberemus hanc vocem fa, que omnia cum ratione posuerunt quam hic narrare propter brevitatem
         dimitto, et etiam quia hec pertinent ad praticam et declarata sunt partim in quodam tractatu
@@ -748,10 +766,10 @@
         minus male primis, quoniam ubi primi in totum male, hii secundi non in totum bene nec in
         totum male, eo quod talia signa non semper denotant fictionem aliquam musice, sed quandoque
         sic et quandoque non, ut clare patere potest cuilibet bene consideranti.</p>
-      <p xml:id="PROSPEC0075">Secundum exemplum sit hoc: ascendat enim tenor ab ut secundi G gravis ad
-        re A acuti et cantus superior descendat a mi B acuti ad re A acuti, et manifestum est quod
-        ut et mi predicta faciunt unam terciam maiorem, que in hoc loco minor esse deberet, ut ex
-        contrapuncto videri habet; unde antiqui, et etiam moderni, in volendo reducere hanc
+      <p xml:id="PROSPEC0075">Secundum exemplum sit hoc: ascendat enim tenor ab ut secundi G gravis
+        ad re A acuti et cantus superior descendat a mi B acuti ad re A acuti, et manifestum est
+        quod ut et mi predicta faciunt unam terciam maiorem, que in hoc loco minor esse deberet, ut
+        ex contrapuncto videri habet; unde antiqui, et etiam moderni, in volendo reducere hanc
         maioritatem ad minoritatem quandoque apponunt ante predictum mi unum B rotundum, cuius
         corpus in spatio de mi collocatur, volentes innuere quod per tale b rotundum mutetur nomen
         de mi in fa per regulam contrapuncti supra habitam, ut postea in A acuto dicatur mi, ex
@@ -775,16 +793,16 @@
         <pb n="[220]"/>3</p>
       <p xml:id="PROSPEC0078">1. Restat nunc narrare ea falsa et erronea que Marchetus paduanus
         supradictus in suo Lucidario collegit.</p>
-      <p xml:id="PROSPEC0079">2. Dicit enim primo supradictus Marchetus in suo Lucidario, tractatu primo
-        et capitulo primo, auctoritate Macrobii in De sompnio Scipionis, quod Pitagoras ytalicus
-        fuit primus inventor musice, quod falsum est, quoniam musica inventa fuit ante diluvium per
-        Iubalchaim, qui fuit de stirpe Chaim filii Adde, et Pitagoras ytalicus fuit post diluvium
-        per magnum tempus; nec etiam verum est quod Macrobius loco preallegato hoc asserat, sed ibi
-        scribit quomodo Pitagoras ytalicus pervenit in noticiam proportionum combinationum sonorum,
-        sic quod Pitagoras ytalicus non fuit primus inventor musice, licet bene fuerit primus
-        inventor proportionum combinationum sonorum, ut dictum est. Ymo antequam Pitagoras ytalicus
-        hanc invenisset musicam, habebat praticam, non tamen speculativam, et hoc etiam asserit
-        ipsemet Marchetus in fine predicti capituli, auctoritate Tulii in Questionibus
+      <p xml:id="PROSPEC0079">2. Dicit enim primo supradictus Marchetus in suo Lucidario, tractatu
+        primo et capitulo primo, auctoritate Macrobii in De sompnio Scipionis, quod Pitagoras
+        ytalicus fuit primus inventor musice, quod falsum est, quoniam musica inventa fuit ante
+        diluvium per Iubalchaim, qui fuit de stirpe Chaim filii Adde, et Pitagoras ytalicus fuit
+        post diluvium per magnum tempus; nec etiam verum est quod Macrobius loco preallegato hoc
+        asserat, sed ibi scribit quomodo Pitagoras ytalicus pervenit in noticiam proportionum
+        combinationum sonorum, sic quod Pitagoras ytalicus non fuit primus inventor musice, licet
+        bene fuerit primus inventor proportionum combinationum sonorum, ut dictum est. Ymo antequam
+        Pitagoras ytalicus hanc invenisset musicam, habebat praticam, non tamen speculativam, et hoc
+        etiam asserit ipsemet Marchetus in fine predicti capituli, auctoritate Tulii in Questionibus
         tusculanis.</p>
       <p xml:id="PROSPEC0080">3. Item capitulo cuius rubrica talis est, De genere generalissimo et
         specie specialissima in musica, dicit in fine capituli quod ista tria nomina, scilicet
@@ -822,11 +840,11 @@
         tali passu non intellexisse, ymo nunquam visum est musicos dividisse tonum nisi in duo
         semitonia, nec unquam appelasse hec duo semitonia aliquo trium nominum supradictorum, sed
         bene maius et minus, vel lima vel dyesis apud valde antiquos.</p>
-      <p xml:id="PROSPEC0081">4. Item capitulo cuius rubrica talis est, In quibus numeris constituatur
-        tonus, dicit se velle demonstrare quare tonus consistat in proportione numeri novenarii ad
-        octenarium, quod ne dum demonstrari sed nec persuadi potest, et ubi adhuc hoc demonstrari
-        vel persuadi posset errat hoc velle facere in quantum musicus, cum hoc sit in musica
-        principium, ut supra habitum est. Modo artifex sua principia probare non debet, sed
+      <p xml:id="PROSPEC0081">4. Item capitulo cuius rubrica talis est, In quibus numeris
+        constituatur tonus, dicit se velle demonstrare quare tonus consistat in proportione numeri
+        novenarii ad octenarium, quod ne dum demonstrari sed nec persuadi potest, et ubi adhuc hoc
+        demonstrari vel persuadi posset errat hoc velle facere in quantum musicus, cum hoc sit in
+        musica principium, ut supra habitum est. Modo artifex sua principia probare non debet, sed
         presupponere, ut vult Aristotiles Posteriorum primo.</p>
       <p xml:id="PROSPEC0082">5. Dicitque ulterius eodem capitulo quod ad demonstrandum quare tonus
         consistat in proportione numeri novenarii ad octenarium tria facere intendit, et primo
@@ -881,12 +899,13 @@
         iterum dividendo quamlibet suarum trium partium in tres partes habebimus adhuc novem partes,
         et si iterum quelibet novem partium principalium totius pro uno toto acciperetur, et
         quelibet suarum trium partium in tres partes divideretur, iterum haberemus novem partes, et
-        sic in infinitum procedendo, et partes pro toto accipiendo; et sic semper procederemus <pb n="[230]"/>de una divisione novenaria ad aliam divisionem novenariam ad suum intellectum,
+        sic in infinitum procedendo, et partes pro toto accipiendo; et sic semper procederemus <pb
+          n="[230]"/>de una divisione novenaria ad aliam divisionem novenariam ad suum intellectum,
         sed tamen propter hoc non sequeretur quod divisio novenaria sit perfecta divisio, quoniam
         etiam sic in infinitum procedere possemus per divisionem ternariam, et per alias infinitas
         divisiones maiores novenaria.</p>
-      <p xml:id="PROSPEC0087">Ulterius vero capit unam diffinitionem, quam ponit Hencheridion Ubaldi de
-        tono, que talis est: Tonus est legiptimum spatium de sono in sonum, et per hanc
+      <p xml:id="PROSPEC0087">Ulterius vero capit unam diffinitionem, quam ponit Hencheridion Ubaldi
+        de tono, que talis est: Tonus est legiptimum spatium de sono in sonum, et per hanc
         diffinitionem cum quodam alio falso fundamento vult probare quod natura toni consistit in
         numero novenario et non in maiori nec in minori, quod erat primum declarandum, et arguit
         sic: Tonus est legiptimum spatium de sono in sonum, sed hic transitus, sive spatium, de sono
@@ -920,43 +939,43 @@
         posse in continuo per divisionem continui maiorem novenaria, quoniam etiam reperiri potest
         per quamlibet divisionem continui maiorem novenaria reducibilem tamen ad novenariam, ut per
         18, per 27, et per 36, et sic ultra; sed facilius per novenariam.</p>
-      <p xml:id="PROSPEC0088">9. Pro declaratione vero secundi et tercii insimul capit unum continuum,
-        quod primo dividit divisione prima et minori non reducibili, scilicet in duas partes; postea
-        quamlibet harum duarum partium dividit etiam in duas partes, et iterum quamlibet harum
-        ultimarum partium dividit in duas partes, et sic ultra sine fine; et tunc patet quod, ad
-        suum intellectum, talis divisio semper fit de quaternario in quaternarium, quamlibet partem
-        pro uno toto semper accipiendo et ipsam bina divisione dividendo, prout divisum fuit totum.
-        Hoc posito, subdit quod ex quo talis divisio fit de quaternario in quaternarium, ad suum
-        intellectum, hinc est quod per quaternarium debemus <pb n="[234]"/>reducere omnes
-        proportiones musicales que duplicari possunt; sed hic dupliciter errat Marchetus. Primo enim
-        errat quia ratio eius nichil concludit, nam non valet hec argumentatio: Divisio continui que
-        fit per minorem divisionem non reducibilem semper fit de quaternario in quaternarium, ad
-        suum intellectum, ergo omnes proportiones musicales que duplicari possunt debent reduci per
-        quaternarium. Secundo errat quia videtur velle aliquas proportiones musicales duplicari
-        posse et aliquas non, quod falsissimum est, cum omnis proportio duplicabilis sit. Sed
-        videamus, amore Dei, quomodo iste bonus homo reducit proportiones musicales ad quaternarium,
-        nam capit unam proportionem duplam in suis minimis terminis, scilicet 2, 1, que proportio
-        dupla facit consonantiam dyapason, unde quia sicut est dyapason, 2 ad 1, ita est etiam
-        dyapason 1 ad 2, et quoniam etiam in tali conversione sunt quatuor termini, scilicet due
-        unitates et duo binarii, hinc est quod dicitur hanc proportionem duplam reductam esse ad
-        quaternarium, secundum eius intellectum, et si iterum reduceretur aliqua alia proportio
-        musicalis modo simili ad quatuor terminos, haberemus in istis duabus proportionibus
-        quaternarium numerum duplicatum, scilicet octenarium. Hoc declarato videamus quomodo suum
-        arguit intentum. Arguit ergo sic: Tonus consistit in numero novenario, quod sub falso
-        intellectu credidit demonstrasse, et novenarius numerus continet octenarium numerum et
-        unitatem, qui octenarius continet proportiones duplicatas, id est duas proportiones que ad
-        suum intellectum continent 8 terminos; ergo tonus continet proportiones duplicatas et
-        unitatem, et per consequens habetur quomodo se habeat tonus ad octenarium numerum, quia
-        scilicet continet ipsum et unitatem, vel proportiones duplicatas et unitatem, quod fuit suum
-        secundum declarandum. Et ex istis duobus suo modo sic declaratis infert postea tercium, ut
-        sic per ipsum arguatur: Tonus consistit in numero novenario, quod fuit suum primum, quod
-        credidit demonstrasse; et tonus habet respectum ad octenarium, quod fuit suum secundum, quod
-        etiam credidit demonstrasse, et tamen nec demonstravit nec persuasit; ergo natura toni
-        consistit in proportione numeri novenarii ad octenarium, quod fuit tercium suum
-        concludendum. Sed ratio hec non plus valet quam valeat ista: Homo est asinus et capra est
-        leo, ergo Deus est; cuius consequens est neccessarium, quod materialiter ad quodlibet sequi
-        potest, et utraque premissarum impossibilis, uti in eius ratione, quare sequitur quod nec
-        demonstrat nec persuadet quod demonstrare intendebat; sed videas, amore Dei, quales
+      <p xml:id="PROSPEC0088">9. Pro declaratione vero secundi et tercii insimul capit unum
+        continuum, quod primo dividit divisione prima et minori non reducibili, scilicet in duas
+        partes; postea quamlibet harum duarum partium dividit etiam in duas partes, et iterum
+        quamlibet harum ultimarum partium dividit in duas partes, et sic ultra sine fine; et tunc
+        patet quod, ad suum intellectum, talis divisio semper fit de quaternario in quaternarium,
+        quamlibet partem pro uno toto semper accipiendo et ipsam bina divisione dividendo, prout
+        divisum fuit totum. Hoc posito, subdit quod ex quo talis divisio fit de quaternario in
+        quaternarium, ad suum intellectum, hinc est quod per quaternarium debemus <pb n="[234]"
+        />reducere omnes proportiones musicales que duplicari possunt; sed hic dupliciter errat
+        Marchetus. Primo enim errat quia ratio eius nichil concludit, nam non valet hec
+        argumentatio: Divisio continui que fit per minorem divisionem non reducibilem semper fit de
+        quaternario in quaternarium, ad suum intellectum, ergo omnes proportiones musicales que
+        duplicari possunt debent reduci per quaternarium. Secundo errat quia videtur velle aliquas
+        proportiones musicales duplicari posse et aliquas non, quod falsissimum est, cum omnis
+        proportio duplicabilis sit. Sed videamus, amore Dei, quomodo iste bonus homo reducit
+        proportiones musicales ad quaternarium, nam capit unam proportionem duplam in suis minimis
+        terminis, scilicet 2, 1, que proportio dupla facit consonantiam dyapason, unde quia sicut
+        est dyapason, 2 ad 1, ita est etiam dyapason 1 ad 2, et quoniam etiam in tali conversione
+        sunt quatuor termini, scilicet due unitates et duo binarii, hinc est quod dicitur hanc
+        proportionem duplam reductam esse ad quaternarium, secundum eius intellectum, et si iterum
+        reduceretur aliqua alia proportio musicalis modo simili ad quatuor terminos, haberemus in
+        istis duabus proportionibus quaternarium numerum duplicatum, scilicet octenarium. Hoc
+        declarato videamus quomodo suum arguit intentum. Arguit ergo sic: Tonus consistit in numero
+        novenario, quod sub falso intellectu credidit demonstrasse, et novenarius numerus continet
+        octenarium numerum et unitatem, qui octenarius continet proportiones duplicatas, id est duas
+        proportiones que ad suum intellectum continent 8 terminos; ergo tonus continet proportiones
+        duplicatas et unitatem, et per consequens habetur quomodo se habeat tonus ad octenarium
+        numerum, quia scilicet continet ipsum et unitatem, vel proportiones duplicatas et unitatem,
+        quod fuit suum secundum declarandum. Et ex istis duobus suo modo sic declaratis infert
+        postea tercium, ut sic per ipsum arguatur: Tonus consistit in numero novenario, quod fuit
+        suum primum, quod credidit demonstrasse; et tonus habet respectum ad octenarium, quod fuit
+        suum secundum, quod etiam credidit demonstrasse, et tamen nec demonstravit nec persuasit;
+        ergo natura toni consistit in proportione numeri novenarii ad octenarium, quod fuit tercium
+        suum concludendum. Sed ratio hec non plus valet quam valeat ista: Homo est asinus et capra
+        est leo, ergo Deus est; cuius consequens est neccessarium, quod materialiter ad quodlibet
+        sequi potest, et utraque premissarum impossibilis, uti in eius ratione, quare sequitur quod
+        nec demonstrat nec persuadet quod demonstrare intendebat; sed videas, amore Dei, quales
         falsitates et trufulas adducit iste bonus homo cum suis divisionibus novenariis et cum suis
         quaternariis duplicatis et cum suo fundamento <pb n="[236]"/>falsissimo de consistentia toni
         in numero novenario ad demonstrandum suum intentum; item videas falsam loquutionem dum dicit
@@ -968,25 +987,26 @@
         concludit. Melius enim fuisset huic viro ab ignorantibus commendato non scripsisse quam
         talia falsa et erronea seminasse. Doleo enim de sua prosumptuositate, quia michi
         concivis.</p>
-      <p xml:id="PROSPEC0089">10. Item in capitulo cuius rubrica talis est, Demonstratio partium toni,
-        multas scribit falsitates, et prima earum est quia dicit tonum habere quinque partes et non
-        plures neque pauciores, nam eius proportio habet quinque partes et pauciores et plures ymo
-        infinitas, cum hoc simile habeat quelibet proportio, ut notum est; ergo tonus etiam habebit
-        quinque partes et pauciores et plures ymo infinitas. Secunda falsitas est quia dicit tonum
-        consistere in proportione novenarii numeri, ut credidit probasse, que tamen proportio
-        nunquam audita nec reperta est in rerum natura. Tercia falsitas est quia dicit novenarium
-        numerum non posse dividi in partes equales, quod falsissimum est, cum in novem unitates
-        dividi possit. Quarta falsitas est quia dicit <pb n="[238]"/>numerum novenarium solum dividi
-        posse in quinque partes, quod falsissimum est, cum possit dividi in 2, in 3, in 4, in 5, in
-        6, in 7, in 8, et in 9 partes ad plus, ut notum est. Et ex istis tribus ultimis falsitatibus
-        concludit primam, scilicet quod tonus non habeat plures neque pauciores quinque partibus, ut
-        sic per ipsum arguatur: Numerus novenarius non habet plures neque pauciores quinque
-        partibus, sed in numero novenario consistit natura et ratio toni, ut credit probasse; ergo
-        tonus non habet plures neque pauciores quinque partibus. Sed istius rationis maior et minor
-        false sunt, et ideo non est mirandum si sua conclusio etiam habeat falsitatem.</p>
-      <p xml:id="PROSPEC0090">11. Item consequenter in predicto capitulo subdit adhuc alias quamplures
-        falsitates, quarum prima est hec, quia dicit tonum esse divisibilem in quinque partes
-        equales, quod est impossibile, ut supra demonstratum est, et hec etiam est una de
+      <p xml:id="PROSPEC0089">10. Item in capitulo cuius rubrica talis est, Demonstratio partium
+        toni, multas scribit falsitates, et prima earum est quia dicit tonum habere quinque partes
+        et non plures neque pauciores, nam eius proportio habet quinque partes et pauciores et
+        plures ymo infinitas, cum hoc simile habeat quelibet proportio, ut notum est; ergo tonus
+        etiam habebit quinque partes et pauciores et plures ymo infinitas. Secunda falsitas est quia
+        dicit tonum consistere in proportione novenarii numeri, ut credidit probasse, que tamen
+        proportio nunquam audita nec reperta est in rerum natura. Tercia falsitas est quia dicit
+        novenarium numerum non posse dividi in partes equales, quod falsissimum est, cum in novem
+        unitates dividi possit. Quarta falsitas est quia dicit <pb n="[238]"/>numerum novenarium
+        solum dividi posse in quinque partes, quod falsissimum est, cum possit dividi in 2, in 3, in
+        4, in 5, in 6, in 7, in 8, et in 9 partes ad plus, ut notum est. Et ex istis tribus ultimis
+        falsitatibus concludit primam, scilicet quod tonus non habeat plures neque pauciores quinque
+        partibus, ut sic per ipsum arguatur: Numerus novenarius non habet plures neque pauciores
+        quinque partibus, sed in numero novenario consistit natura et ratio toni, ut credit
+        probasse; ergo tonus non habet plures neque pauciores quinque partibus. Sed istius rationis
+        maior et minor false sunt, et ideo non est mirandum si sua conclusio etiam habeat
+        falsitatem.</p>
+      <p xml:id="PROSPEC0090">11. Item consequenter in predicto capitulo subdit adhuc alias
+        quamplures falsitates, quarum prima est hec, quia dicit tonum esse divisibilem in quinque
+        partes equales, quod est impossibile, ut supra demonstratum est, et hec etiam est una de
         principalibus falsitatibus ab ipso per totam Ytaliam seminatis. Secunda falsitas est quia
         dicit quamlibet illarum quinque partium equalium nominari debere hoc nomine dyesis, ignorans
         quid apud auctores musice hoc nomen dyesis importet, cum sit semitonium vel medietas
@@ -1054,7 +1074,8 @@
         partem minoris, et non quia numerus supra ternarium, ut dicit Marchetus, quoniam tunc non
         solum quaternarius sed quilibet maior epitritus vocaretur, cum quilibet numerus maior
         quaternario sit supra ternarium. Tercia falsitas est quia dicit quod numerus ternarius
-        dicitur emiolius, quod falsum est, cum emiolium sit nomen proportionis et non numeri. <pb n="[246]"/>Proportio enim emiolia est proportio sexquialtera, et dicitur emiolium ab emi,
+        dicitur emiolius, quod falsum est, cum emiolium sit nomen proportionis et non numeri. <pb
+          n="[246]"/>Proportio enim emiolia est proportio sexquialtera, et dicitur emiolium ab emi,
         quod est dimidium, et olon, totum, eo quod in omni proportione sexquialtera maior quantitas
         minorem continet totam et ipsius minoris medietatem. Et, breviter, in omnibus suarum sex
         consonantiarum proportionibus, que sex sue consonantie sunt dyapente, dyateseron, dyapason,
@@ -1087,12 +1108,12 @@
         homo quid esset numerus perfectus, qui numerus perfectus ab Euclide in principio noni suorum
         Elementorum sic describitur: Numerus perfectus est qui omnibus suis partibus quibus
         numeratur est equalis.</p>
-      <p xml:id="PROSPEC0095">16. Item in capitulo in quo intendit probare quod dyapason cum dyateseron
-        non sit consonantia dicit quod inter duplam et triplam non reperitur aliqua proportio, quod
-        falsum est, nam inter ipsas reperitur proportio dupla sexquialtera, dupla sexquitercia,
-        dupla sexquiquarta, et sic ultra in infinitum; item dupla superbipartiens, dupla
-        supertripartiens, dupla superquadripartiens, et sic ultra in infinitum; quarum quelibet
-        maior est dupla et minor tripla.</p>
+      <p xml:id="PROSPEC0095">16. Item in capitulo in quo intendit probare quod dyapason cum
+        dyateseron non sit consonantia dicit quod inter duplam et triplam non reperitur aliqua
+        proportio, quod falsum est, nam inter ipsas reperitur proportio dupla sexquialtera, dupla
+        sexquitercia, dupla sexquiquarta, et sic ultra in infinitum; item dupla superbipartiens,
+        dupla supertripartiens, dupla superquadripartiens, et sic ultra in infinitum; quarum
+        quelibet maior est dupla et minor tripla.</p>
       <p xml:id="PROSPEC0096">
         <pb n="[252]"/>17. Item in capitulo De coniunctionibus vocum dicit quod diptonus et
         semidiptonus non consistunt in proportione aliqua, quod falsum est, eo quod omnis sonorum
@@ -1100,11 +1121,11 @@
         alias falsitates scripsit supradictus Marchetus quas scribere dimisi propter brevitatem et
         etiam quia intellectis que supra habita sunt, poterit quilibet omnes eius cognoscere
         falsitates.</p>
-      <p xml:id="PROSPEC0097">18. Et sic sit finis huius tractatus per Prosdocimum de Beldemando patavum
-        anno domini nostri Yesu Xristi 1425 Padue compilati ad laudem, gloriam, et honorem
+      <p xml:id="PROSPEC0097">18. Et sic sit finis huius tractatus per Prosdocimum de Beldemando
+        patavum anno domini nostri Yesu Xristi 1425 Padue compilati ad laudem, gloriam, et honorem
         omnipotentis Dei. Amen.</p>
-      <p xml:id="PROSPEC0098">19. Explicit tractatus Musice speculative quem Prosdocimus de Beldemando
-        paduanus contra Marchetum de Padua compilavit. Deo gratias. Amen.</p>
+      <p xml:id="PROSPEC0098">19. Explicit tractatus Musice speculative quem Prosdocimus de
+        Beldemando paduanus contra Marchetum de Padua compilavit. Deo gratias. Amen.</p>
     </body>
   </text>
 </TEI>

@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Lucidarium, tractatus quartus</title>
         <title type="abbrev">MARLUC4</title>
-        <author>Marchetus de Padua</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Marchetus de Padua</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1990</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1990">1990</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>The Lucidarium of Marchetto of Padua: A Critical Edition, Translation, and
@@ -115,8 +125,8 @@
         distantia duorum terminorum inter se.</p>
       <p xml:id="MARLUC40005">3. Sed notandum est quod aliud est proportio et aliud est
         proportionalitas,</p>
-      <p xml:id="MARLUC40006">4. nam proportio, ut predicitur, est de duobus terminis; proportionalitas
-        autem non minus quam de tribus sumi potest.</p>
+      <p xml:id="MARLUC40006">4. nam proportio, ut predicitur, est de duobus terminis;
+        proportionalitas autem non minus quam de tribus sumi potest.</p>
       <p xml:id="MARLUC40007">5. Dicitur enim proportio pars numeralis in musica.</p>
       <p xml:id="MARLUC40008">1. CAPITULUM SECUNDUM</p>
       <p xml:id="MARLUC40009">DE PROPORTIONIBUS QUOT SINT</p>
@@ -145,8 +155,9 @@
       <p xml:id="MARLUC40021">3. Et, ut superius dictum est, talis numerus emiolius nominatur.</p>
       <p xml:id="MARLUC40022">4. Et per hoc patet quod dyapente consonantia emiolia et sesqualtera
         nuncupatur.</p>
-      <p xml:id="MARLUC40023">5. Et dicitur sesqualtera a sesqui, quod est totum et altera pars, eo quod
-        ternarius continet totum binarium in se et eius alteram partem, scilicet medietatem.</p>
+      <p xml:id="MARLUC40023">5. Et dicitur sesqualtera a sesqui, quod est totum et altera pars, eo
+        quod ternarius continet totum binarium in se et eius alteram partem, scilicet
+        medietatem.</p>
       <p xml:id="MARLUC40024">1. CAPITULUM QUINTUM</p>
       <p xml:id="MARLUC40025">DE DUPLA PROPORTIONE</p>
       <p xml:id="MARLUC40026">2. Dupla proportio est quando maior numerus comparatus minori continet
@@ -157,12 +168,12 @@
       <p xml:id="MARLUC40030">2. Dupla superbipartiens proportio est quando maior numerus comparatur
         minori continens ipsum totum dupliciter et insuper eius duas partes, ut octo comparati ad
         tres,</p>
-      <p xml:id="MARLUC40031">3. nam octonarius numerus comprehendit totum ternarium in se bis et eius
-        duas partes.</p>
+      <p xml:id="MARLUC40031">3. nam octonarius numerus comprehendit totum ternarium in se bis et
+        eius duas partes.</p>
       <p xml:id="MARLUC40032">1. CAPITULUM SEPTIMUM</p>
       <p xml:id="MARLUC40033">DE TRIPLA PROPORTIONE</p>
-      <p xml:id="MARLUC40034">2. Tripla proportio est quando maior numerus comparatur minori continens
-        ipsum totum tripliciter, ut tres comparati ad unum.</p>
+      <p xml:id="MARLUC40034">2. Tripla proportio est quando maior numerus comparatur minori
+        continens ipsum totum tripliciter, ut tres comparati ad unum.</p>
       <p xml:id="MARLUC40035">3. Comprehendit namque ternarius tripliciter unitatem.</p>
       <p xml:id="MARLUC40036">
         <pb n="[190]"/>1. CAPITULUM OCTAVUM</p>
@@ -176,24 +187,26 @@
         continens ipsum totum et eius octavam partem, ut novem comparati ad octo,</p>
       <p xml:id="MARLUC40043">3. namque novenarius comprehendit totum octonarium et eius octavam
         partem.</p>
-      <p xml:id="MARLUC40044">4. Et dicitur sesquioctavus a sesqui, quod est totum et octava pars.</p>
+      <p xml:id="MARLUC40044">4. Et dicitur sesquioctavus a sesqui, quod est totum et octava
+        pars.</p>
       <p xml:id="MARLUC40045">
         <pb n="[192]"/>1. CAPITULUM DECIMUM</p>
       <p xml:id="MARLUC40046">DE SESQUISEXTA DECIMA PROPORTIONE</p>
-      <p xml:id="MARLUC40047">2. Sesquisexta decima proportio est quando maior numerus comparatur minori
-        continens ipsum totum et eius sextam decimam partem, ut decemseptem comparati ad
+      <p xml:id="MARLUC40047">2. Sesquisexta decima proportio est quando maior numerus comparatur
+        minori continens ipsum totum et eius sextam decimam partem, ut decemseptem comparati ad
         sexdecim.</p>
-      <p xml:id="MARLUC40048">3. Habet enim decimus septimus numerus totum sextum decimum in se et eius
-        sextam decimam partem.</p>
+      <p xml:id="MARLUC40048">3. Habet enim decimus septimus numerus totum sextum decimum in se et
+        eius sextam decimam partem.</p>
       <p xml:id="MARLUC40049">1. CAPITULUM UNDECIMUM</p>
       <p xml:id="MARLUC40050">DE SESQUIDECIMA SEPTIMA PROPORTIONE</p>
       <p xml:id="MARLUC40051">2. Sesquidecima septima proportio est quando maior numerus comparatur
         minori continens ipsum totum et eius septimam decimam partem, ut decemocto comparati ad
         decemseptem.</p>
-      <p xml:id="MARLUC40052">3. Continet namque decimus octavus numerus totum decimum septimum et eius
-        decimam septimam partem.</p>
-      <p xml:id="MARLUC40053">4. Sed nota quod licet tonus sit in sesquioctava proportione, semitonium
-        maius in sesquisexta decima proportione, et semitonium minus in sesquidecima septima,</p>
+      <p xml:id="MARLUC40052">3. Continet namque decimus octavus numerus totum decimum septimum et
+        eius decimam septimam partem.</p>
+      <p xml:id="MARLUC40053">4. Sed nota quod licet tonus sit in sesquioctava proportione,
+        semitonium maius in sesquisexta decima proportione, et semitonium minus in sesquidecima
+        septima,</p>
       <p xml:id="MARLUC40054">
         <pb n="[194]"/>5. non tamen consonantie sunt, ut Boetius refert et infra de coniunctionibus
         ostendetur.</p>

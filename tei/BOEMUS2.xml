@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De institutione musica, liber secundus</title>
         <title type="abbrev">BOEMUS2</title>
-        <author>Boethius, Anicius Manlius Severinus</author>
-        <date notBefore="500" notAfter="799">6th-8th</date>
+        <author><persName>Boethius, Anicius Manlius Severinus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Calvin M. Bower</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1992</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1992">1992</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Boetii De institutione musica libri quinque</emph>, ed. Godofredus Friedlein
@@ -474,7 +484,8 @@
       <p xml:id="BOEMUS20002">Incipiunt capitula libri secundi.</p>
       <p xml:id="BOEMUS20003">I. Proemium.</p>
       <p xml:id="BOEMUS20004">II. Quid Pythagoras esse philosophiam constituerit</p>
-      <p xml:id="BOEMUS20005">III. De differentiis quantitatis et quae cui sit disciplinae deputata.</p>
+      <p xml:id="BOEMUS20005">III. De differentiis quantitatis et quae cui sit disciplinae
+        deputata.</p>
       <p xml:id="BOEMUS20006">IIII. De relativae quantitatis differentiis.</p>
       <p xml:id="BOEMUS20007">V. Cur multiplicitas ceteris antecellat.</p>
       <p xml:id="BOEMUS20008">VI. Quid sint quadrati numeri deque his speculatio.</p>
@@ -484,12 +495,14 @@
         <pb n="[226]"/>VIII. Regulae quotlibet continuas proportiones superparticulares
         inveniendi.</p>
       <p xml:id="BOEMUS20011">VIIII. De proportione numerorum, qui ab aliis metiuntur.</p>
-      <p xml:id="BOEMUS20012">X. Qui ex multiplicibus et superparticularibus multiplicatis fiant.</p>
+      <p xml:id="BOEMUS20012">X. Qui ex multiplicibus et superparticularibus multiplicatis
+        fiant.</p>
       <p xml:id="BOEMUS20013">XI. Qui superparticulares quos multiplices efficiant.</p>
       <p xml:id="BOEMUS20014">XII. De arithmetica geometrica armonica medietate.</p>
       <p xml:id="BOEMUS20015">XIII. De continuis medietatibus et disiunctis.</p>
       <p xml:id="BOEMUS20016">XIIII. Cur ita appellatae sint digestae superius medietates.</p>
-      <p xml:id="BOEMUS20017">XV. Quemadmodum ab aequalitate supradictae processerint medietates.</p>
+      <p xml:id="BOEMUS20017">XV. Quemadmodum ab aequalitate supradictae processerint
+        medietates.</p>
       <p xml:id="BOEMUS20018">XVI. De armonica medietate deque ea uberior speculatio.</p>
       <p xml:id="BOEMUS20019">XVII. Quemadmodum inter duos terminos supradictae medietates vicissim
         locentur.</p>
@@ -498,13 +511,14 @@
       <p xml:id="BOEMUS20022">XX. Sententia Nicomachi, quae quibus consonantiis obponantur.</p>
       <p xml:id="BOEMUS20023">XXI. Quid oporteat praemitti, ut diapason in multiplici genere
         demonstretur.</p>
-      <p xml:id="BOEMUS20024">XXII. Demonstratio per inpossibile diapason in multiplici genere esse.</p>
+      <p xml:id="BOEMUS20024">XXII. Demonstratio per inpossibile diapason in multiplici genere
+        esse.</p>
       <p xml:id="BOEMUS20025">XXIII. Demonstratio diapente, diatessaron et tonum in superparticulari
         esse.</p>
       <p xml:id="BOEMUS20026">XXIIII. Demonstratio diapente et diatessaron in maximis
         superparticularibus esse.</p>
-      <p xml:id="BOEMUS20027">XXV. Diapente in sesqualtera, diatessaron in sesquitertia esse, tonum in
-        sesquioctava.</p>
+      <p xml:id="BOEMUS20027">XXV. Diapente in sesqualtera, diatessaron in sesquitertia esse, tonum
+        in sesquioctava.</p>
       <p xml:id="BOEMUS20028">
         <pb n="[227]"/>XXVI. Diapason ac diapente in tripla proportione esse, in quadrupla bis
         diapason.</p>
@@ -518,26 +532,27 @@
         diapason sex tonis non constet.</p>
       <p xml:id="BOEMUS20034">Expliciunt capitula. Incipit liber secundus.</p>
       <p xml:id="BOEMUS20035">Proemium.</p>
-      <p xml:id="BOEMUS20036">I. Superius volumen cuncta digessit, quae nunc diligentius demonstranda
-        esse proposui. Itaque priusquam ad ea veniam, quae propriis rationibus perdocenda sunt,
-        pauca praemittam, quibus elucubratior animus auditoris ad ea quae dicenda sunt accipienda
-        perveniat.</p>
+      <p xml:id="BOEMUS20036">I. Superius volumen cuncta digessit, quae nunc diligentius
+        demonstranda esse proposui. Itaque priusquam ad ea veniam, quae propriis rationibus
+        perdocenda sunt, pauca praemittam, quibus elucubratior animus auditoris ad ea quae dicenda
+        sunt accipienda perveniat.</p>
       <p xml:id="BOEMUS20037">Quid Pythagoras esse philosophiam constituerit.</p>
-      <p xml:id="BOEMUS20038">II. Primus omnium Pythagoras sapientiae studium philosophiam nuncupavit,
-        quam scilicet eius rei notitiam ac disciplinam ponebat, quae proprie vereque esse diceretur.
-        Esse autem illa putabat, quae nec intentione crescerent, nec deminutione decrescerent nec
-        ullis accidentibus mutarentur. Haec autem esse formas magnitudines qualitates habitudines
-        ceteraque quae per se speculata inmutabilia <pb n="[228]"/>sunt, iuncta vero corporibus
-        permutantur et multimodis variationibus mutabilis rei cognatione vertuntur.</p>
+      <p xml:id="BOEMUS20038">II. Primus omnium Pythagoras sapientiae studium philosophiam
+        nuncupavit, quam scilicet eius rei notitiam ac disciplinam ponebat, quae proprie vereque
+        esse diceretur. Esse autem illa putabat, quae nec intentione crescerent, nec deminutione
+        decrescerent nec ullis accidentibus mutarentur. Haec autem esse formas magnitudines
+        qualitates habitudines ceteraque quae per se speculata inmutabilia <pb n="[228]"/>sunt,
+        iuncta vero corporibus permutantur et multimodis variationibus mutabilis rei cognatione
+        vertuntur.</p>
       <p xml:id="BOEMUS20039">De differentiis quantitatis et quae cui sit disciplinae deputata.</p>
-      <p xml:id="BOEMUS20040">III. Omnis vero quantitas secundum Pythagoram vel continua vel discreta
-        est. Sed quae continua est, magnitudo appellatur, quae discreta est, multitudo. Quorum haec
-        est diversa et contraria paene proprietas. Multitudo enim a finita inchoans quantitate
-        crescens in infinita progreditur, ut nullus crescendi finis occurrat; estque ad minimum
-        terminata, interminabilis ad maius, eiusque principium unitas est, qua minus nihil est.
-        Crescit vero per numeros atque in infinita protenditur nec ullus numerus, quominus crescat,
-        terminum facit. Sed magnitudo finitam rursus suae mensurae recipit quantitatem, sed in
-        infinita decrescit. Nam si sit pedalis linea vel cuiuslibet alterius modi, potest in duo
+      <p xml:id="BOEMUS20040">III. Omnis vero quantitas secundum Pythagoram vel continua vel
+        discreta est. Sed quae continua est, magnitudo appellatur, quae discreta est, multitudo.
+        Quorum haec est diversa et contraria paene proprietas. Multitudo enim a finita inchoans
+        quantitate crescens in infinita progreditur, ut nullus crescendi finis occurrat; estque ad
+        minimum terminata, interminabilis ad maius, eiusque principium unitas est, qua minus nihil
+        est. Crescit vero per numeros atque in infinita protenditur nec ullus numerus, quominus
+        crescat, terminum facit. Sed magnitudo finitam rursus suae mensurae recipit quantitatem, sed
+        in infinita decrescit. Nam si sit pedalis linea vel cuiuslibet alterius modi, potest in duo
         aequa dividi, eiusque medietas in medietatem secari eiusque rursus medietas in aliam
         medietatem, ut nunquam ullus secandi magnitudinem terminus fiat. Ita magnitudo, quantum ad
         maiorem modum, terminata est, fit vero, cum decrescere coeperit, infinita. At contra numerus
@@ -561,9 +576,7 @@
         texetur. Duo enim ad unum duplus est, tres ad eundem triplus, quattuor quadruplus et in
         ceteris eodem modo, ut subiecta descriptio docet.</p>
       <p class="textFig" xml:id="BOEMUS20043">
-        <lb/>I.    I.    I.    I.   I.    I.
-        <br/>II.   III.  IIII. V.   VI.   VII.
-        <lb/></p>
+        <lb/>I.    I.    I.    I.   I.    I. <br/>II.   III.  IIII. V.   VI.   VII. <lb/></p>
       <p xml:id="BOEMUS20044">Si vero superparticularem proportionem quaeras, naturalem sibi compara
         numerum detracta scilicet unitate, ut tres duobus--sesqualter est enim--quattuor tribus, qui
         sesquitertius est, quinarium quaternario, qui sesquiquartus <pb n="[230]"/>est, et in
@@ -572,8 +585,8 @@
         sesquiquintus. sesquisextus, II. III. IIII. V. VI. VII] <figure>
           <graphic url="/images/BOEMUS2_01GF.gif"/>
         </figure></p>
-      <p xml:id="BOEMUS20046">Superpartientes autem tali modo repperies. Disponas naturalem numerum a
-        ternario scilicet inchoantem. Si unum igitur intermiseris, superbipartientem effici
+      <p xml:id="BOEMUS20046">Superpartientes autem tali modo repperies. Disponas naturalem numerum
+        a ternario scilicet inchoantem. Si unum igitur intermiseris, superbipartientem effici
         pernotabis; quod si duo, supertripartientem; quod si tres, superquadripartientem, idemque in
         ceteris.</p>
       <p xml:id="BOEMUS20047">[Friedlein, 230,2; text: superbipartiens, supertripartiens,
@@ -582,26 +595,25 @@
         superparticulari vel multiplici et superpartienti proportiones lector diligens speculabitur.
         Sed de his tamen omnibus in arithmeticis expeditius dictum est.</p>
       <p xml:id="BOEMUS20049">Cur multiplicitas ceteris antecellat.</p>
-      <p xml:id="BOEMUS20050">V. Sed in his illud est considerandum, quod multiplex inaequalitatis genus
-        longe duobus reliquis videtur antiquius. Naturalis enim numeri dispositio in multiplicibus
-        unitati, quae prima est comparatur, superparticularis vero non unitatis comparatione
-        perficitur, sed ipsorum, qui post unitatem sunt dispositi, numerorum, ut ternarii ad
-        binarium, quaternarii ad ternarium et in ceteris ad hunc modum. Superpartientium vero longe
-        retro formatio <pb n="[231]"/>est, quae nec continuis numeris comparatur, sed intermissis,
-        nec semper aequali intermissione, sed nunc quidem una, nunc vero duabus, nunc vero tribus,
-        nunc quattuor, atque ita in infinita succrescit. Amplius: multiplicitas ab unitate incipit,
-        superparticularitas a binario, superpartiens proportio a ternario initium capit. Sed de his
-        hactenus. Nunc quaedam, quae quasi axiomata Graeci vocant, praemittere oportebit, quae tunc
-        demum, quo spectare videantur, intellegemus, cum de uniuscuiusque rei demonstratione
-        tractabimus.</p>
+      <p xml:id="BOEMUS20050">V. Sed in his illud est considerandum, quod multiplex inaequalitatis
+        genus longe duobus reliquis videtur antiquius. Naturalis enim numeri dispositio in
+        multiplicibus unitati, quae prima est comparatur, superparticularis vero non unitatis
+        comparatione perficitur, sed ipsorum, qui post unitatem sunt dispositi, numerorum, ut
+        ternarii ad binarium, quaternarii ad ternarium et in ceteris ad hunc modum. Superpartientium
+        vero longe retro formatio <pb n="[231]"/>est, quae nec continuis numeris comparatur, sed
+        intermissis, nec semper aequali intermissione, sed nunc quidem una, nunc vero duabus, nunc
+        vero tribus, nunc quattuor, atque ita in infinita succrescit. Amplius: multiplicitas ab
+        unitate incipit, superparticularitas a binario, superpartiens proportio a ternario initium
+        capit. Sed de his hactenus. Nunc quaedam, quae quasi axiomata Graeci vocant, praemittere
+        oportebit, quae tunc demum, quo spectare videantur, intellegemus, cum de uniuscuiusque rei
+        demonstratione tractabimus.</p>
       <p xml:id="BOEMUS20051">Quid sint quadrati numeri, deque his speculatio.</p>
-      <p xml:id="BOEMUS20052">VI. Quadratus numerus est, qui gemina demensione in aequa concreverit, ut
-        bis duo, ter tres, quater quattuor, quinquies .V., sexiens .VI., quorum est ista
+      <p xml:id="BOEMUS20052">VI. Quadratus numerus est, qui gemina demensione in aequa concreverit,
+        ut bis duo, ter tres, quater quattuor, quinquies .V., sexiens .VI., quorum est ista
         descriptio:</p>
       <p class="textFig" xml:id="BOEMUS20053">
         <br/>II.    III.    IIII.  V.     VI.      VII.       VIII.     VIIII.   X.
-        <lb/>IIII.  VIIII.  XVI.   XXV.   XXXVI.   XLVIIII.   LXIIII.   LXXXI.   C.
-        <br/></p>
+        <lb/>IIII.  VIIII.  XVI.   XXV.   XXXVI.   XLVIIII.   LXIIII.   LXXXI.   C. <br/></p>
       <p xml:id="BOEMUS20054">Superius igitur dispositus numerus naturalis est latus quadratorum
         inferius descriptorum. Continui enim naturaliter sunt quadrati, qui sese in subiecto ordine
         consequuntur, ut IIII. VIIII. XVI. et ceteri. Si igitur continuum quadratum minorem a
@@ -622,18 +634,19 @@
         id, quod ex utrorumque lateribus efficitur, eius, quod subtracto minore a maiore
         relinquitur; sin quattuor transmittantur, quinta, atque uno plus vocabulo numeri partes
         venient, quam fit intermissio numerorum.</p>
-      <p xml:id="BOEMUS20055">Omnem inaequalitatem ex aequalitate procedere eiusque demonstratio.</p>
-      <p xml:id="BOEMUS20056">VII. Est autem, quemadmodum unitas pluralitatis numerique principium, ita
-        aequalitas proportionum. Tribus enim praeceptis, ut in arithmetica dictum est, multiplices
-        proportiones ex aequalitate producimus, ex conversis vero multiplicibus superparticulares
-        habitudines procreamus. Item ex conversis superparticularibus superpartientes comparationes
-        efficimus. Ponantur enim tres unitates vel tres binarii vel tres ternarii vel quilibet aequi
-        termini et sit primus primo aequus in sequenti scilicet <pb n="[233]"/>ordine constitutus,
-        secundus vero primo ac secundo, tertius primo, duobus secundis ac tertio. Ita enim numero
-        progresso fit duplex, multiplicitatis prima proportio, ut descriptio monet:</p>
+      <p xml:id="BOEMUS20055">Omnem inaequalitatem ex aequalitate procedere eiusque
+        demonstratio.</p>
+      <p xml:id="BOEMUS20056">VII. Est autem, quemadmodum unitas pluralitatis numerique principium,
+        ita aequalitas proportionum. Tribus enim praeceptis, ut in arithmetica dictum est,
+        multiplices proportiones ex aequalitate producimus, ex conversis vero multiplicibus
+        superparticulares habitudines procreamus. Item ex conversis superparticularibus
+        superpartientes comparationes efficimus. Ponantur enim tres unitates vel tres binarii vel
+        tres ternarii vel quilibet aequi termini et sit primus primo aequus in sequenti scilicet <pb
+          n="[233]"/>ordine constitutus, secundus vero primo ac secundo, tertius primo, duobus
+        secundis ac tertio. Ita enim numero progresso fit duplex, multiplicitatis prima proportio,
+        ut descriptio monet:</p>
       <p class="textFig" xml:id="BOEMUS20057">
-        <lb/>I.   I.    I.
-        <br/>I.   II.   IIII. <lb/></p>
+        <lb/>I.   I.    I. <br/>I.   II.   IIII. <lb/></p>
       <p xml:id="BOEMUS20058">Nam unitas in secundo ordine constituta aequa est primae unitati in
         superiore loco dispositae. Item binarius aequus est primae unitati ac secundae unitati; item
         quaternarius aequus est unitati primae ac duabus unitatibus secundis atque unitati tertiae,
@@ -645,27 +658,27 @@
         est .VI., tertius primo, duobus secundis et tertio, id est .VIIII., quibus dispositis
         sesqualtera notatur esse proportio.</p>
       <p class="textFig" xml:id="BOEMUS20059">
-        <br/>IIII.   II.   I.
-        <lb/>IIII.   VI.   VIIII. <br/></p>
-      <p xml:id="BOEMUS20060">Atque id si de triplis fiat, sesquitertia, si de quadruplis, sesquiquarta,
-        consimilibusque in alterutra parte vocabulis proportionalitas ex multiplicitate nascetur. Ex
-        superparticularitate vero conversa ducitur superpartiens habitudo. Disponatur enim conversim
-        sesqualtera comparatio VIIII. VI. IIII. Ponatur igitur primus primo aequus, id est .VIIII.,
-          <pb n="[234]"/>secundus primo ac secundo, id est .XV. tertius primo, duobus secundis et
-        tertio, id est .XXV. Ac disponantur in ordinem hoc modo:</p>
+        <br/>IIII.   II.   I. <lb/>IIII.   VI.   VIIII. <br/></p>
+      <p xml:id="BOEMUS20060">Atque id si de triplis fiat, sesquitertia, si de quadruplis,
+        sesquiquarta, consimilibusque in alterutra parte vocabulis proportionalitas ex
+        multiplicitate nascetur. Ex superparticularitate vero conversa ducitur superpartiens
+        habitudo. Disponatur enim conversim sesqualtera comparatio VIIII. VI. IIII. Ponatur igitur
+        primus primo aequus, id est .VIIII., <pb n="[234]"/>secundus primo ac secundo, id est .XV.
+        tertius primo, duobus secundis et tertio, id est .XXV. Ac disponantur in ordinem hoc
+        modo:</p>
       <p class="textFig" xml:id="BOEMUS20061">
-        <lb/>VIIII.  VI.   IIII.
-        <br/>VIIII.  XV.   XXV. <lb/></p>
-      <p xml:id="BOEMUS20062">Superbipartiens igitur ex conversis sesqualteris habitudo producta est.
-        Quod si quis ad hanc speculationem diligens scrutator accedat, ex sesquitertiis conversis
-        supertripartientem producit ceterisque similibus vocabulis adaequatis cunctas ex
+        <lb/>VIIII.  VI.   IIII. <br/>VIIII.  XV.   XXV. <lb/></p>
+      <p xml:id="BOEMUS20062">Superbipartiens igitur ex conversis sesqualteris habitudo producta
+        est. Quod si quis ad hanc speculationem diligens scrutator accedat, ex sesquitertiis
+        conversis supertripartientem producit ceterisque similibus vocabulis adaequatis cunctas ex
         superparticularitate superpartientes species procreari mirabitur. Ex non conversis autem
         superparticularibus, sed ita, ut ex multiplici procreati sunt, manentibus necesse est
         multiplices superparticulares creari. Ex manentibus vero superpartientibus ita, ut ex
         superparticularibus prodierunt, non alii nisi multiplices superpartientes procreabuntur. Ac
         de his quidem hactenus; diligentius enim in arithmeticis libris de hac comparatione est
         disputatum.</p>
-      <p xml:id="BOEMUS20063">Regulae quotlibet continuas proportiones superparticulares inveniendi.</p>
+      <p xml:id="BOEMUS20063">Regulae quotlibet continuas proportiones superparticulares
+        inveniendi.</p>
       <p xml:id="BOEMUS20064">VIII. Saepe autem accidit, ut tres vel quattuor vel quotlibet aequas
         superparticularium proportiones de musica disputator inquirat. Sed ne id casu atque inscitia
         facientes error ullus difficultatis inpediat, hac regula quotlibet aequas proportiones ex
@@ -675,12 +688,9 @@
         sesquitertias, quadruplex sesquiquartas, ac deinceps <pb n="[235]"/>in hunc modum. Sit
         igitur duplorum terminorum subiecta descriptio.</p>
       <p class="textFig" xml:id="BOEMUS20065">
-        <br/>I.  II.    IIII.   VIII.   XVI. 
-        <lb/>    III.   VI.     XII.    XXIIII. 
-        <br/>           VIIII.  XVIII.  XXXVI.
-        <lb/>                   XXVII.  LIIII.
-        <br/>                           LXXXI.
-        <lb/></p>
+        <br/>I.  II.    IIII.   VIII.   XVI.  <lb/>    III.   VI.     XII.    XXIIII. 
+        <br/>           VIIII.  XVIII.  XXXVI. <lb/>                   XXVII.  LIIII.
+        <br/>                           LXXXI. <lb/></p>
       <p xml:id="BOEMUS20066">In superiore igitur descriptione binarius primus multiplex unum ad se
         ternarium habet, qui possit facere sesqualteram proportionem. Ternarius vero non habet, qui
         ei possit esse sesqualter, quoniam medietate deficit. Rursus quaternarius secundus est
@@ -688,12 +698,9 @@
         idcirco nullus ei in habitudine sesqualtera comparatur. Et in ceteris idem est. Tripli vero
         eodem modo sesquitertios creant. Sit enim similis in triplo descriptio:</p>
       <p class="textFig" xml:id="BOEMUS20067">
-        <br/>I.    III.    VIIII.   XXVII.   LXXXI.
-        <lb/>      IIII.   XII.     XXXVI.   CVIII.
-        <br/>              XVI.     XLVIII.  CXLIIII.
-        <lb/>                       LXIIII.  CXCII.
-        <br/>                                CCLVI.
-        <lb/></p>
+        <br/>I.    III.    VIIII.   XXVII.   LXXXI. <lb/>      IIII.   XII.     XXXVI.   CVIII.
+        <br/>              XVI.     XLVIII.  CXLIIII. <lb/>                       LXIIII.  CXCII.
+        <br/>                                CCLVI. <lb/></p>
       <p xml:id="BOEMUS20068">In superiore igitur descriptione sesquitertias proportiones ita natas
         videmus, ut primus triplex unum sesquitertium antecedat, secundus duos, tertius tres,
         semperque pars tertia in ultimo numero naturali quodam fine claudatur. Quod si quadruplum
@@ -707,8 +714,7 @@
         <lb/>           V.       XX.    LXXX.      CCCXX.
         <br/>                    XXV.   C.         CCCC.
         <lb/>                           CXXV.      D.
-        <br/>                                      DCXXV.
-        <lb/></p>
+        <br/>                                      DCXXV. <lb/></p>
       <p xml:id="BOEMUS20070">Haec igitur speculatio ad hanc utilitatem videtur inventa, ut,
         quotienscunque quattuor vel .V. vel quotlibet sesqualteros vel sesquitertios vel
         sesquioctavos vel quotlibet alias proportiones quis investigare voluerit, nullo errore
@@ -724,31 +730,29 @@
         Disponatur enim numerus naturalis unitate mulctatus: II. III. IIII. V. VI. VII. Minimae
         igitur proportiones sunt sesqualtera .III. ad .II., sesquitertia .IIII. ad .III.,
         sesquiquarta .V. ad .IIII., et deinceps in infinitum, et quaecunque se proportiones unitate
-        praecesserint. Propositum igitur sit, duas sesqualteras proportiones continua <pb n="[237]"/>comparatione producere. Sumo radicem sesqualteram eamque dispono: .II. et .III. Multiplico
+        praecesserint. Propositum igitur sit, duas sesqualteras proportiones continua <pb n="[237]"
+        />comparatione producere. Sumo radicem sesqualteram eamque dispono: .II. et .III. Multiplico
         igitur binarium per binarium, fiunt .IIII. Item ternarius per binarium crescat; erunt .VI.
         Rursus ternarium in semet ipsum ducemus; fiunt .VIIII. Qui disponantur hoc modo:</p>
       <p class="textFig" xml:id="BOEMUS20071">
-        <br/>      II.       III.
-        <lb/>IIII.       VI.      VIIII.
-        <br/></p>
-      <p xml:id="BOEMUS20072">Inveniemus igitur duas propositas sesqualteras proportiones .VI. ad .IIII.
-        et .VIIII. ad .VI. Sit nunc propositum tres invenire. Dispono eosdem numeros, quos supra in
-        exquirendis duabus sesqualteris habitudinibus proposueram, ipsasque sesqualteras
+        <br/>      II.       III. <lb/>IIII.       VI.      VIIII. <br/></p>
+      <p xml:id="BOEMUS20072">Inveniemus igitur duas propositas sesqualteras proportiones .VI. ad
+        .IIII. et .VIIII. ad .VI. Sit nunc propositum tres invenire. Dispono eosdem numeros, quos
+        supra in exquirendis duabus sesqualteris habitudinibus proposueram, ipsasque sesqualteras
         proportiones. Multiplico binario quaternarium, fiunt .VIII., rursus senarium binario, fiunt
         .XII., rursus novenarium binario, fiunt .XVIII., rursus novenarium ternario, fiunt .XXVII.
         Disponantur igitur hoc modo:</p>
       <p class="textFig" xml:id="BOEMUS20073">
-        <lb/>          II.      III.
-        <br/>    IIII.      VI.       VIIII.
-        <lb/>VIII.     XII.     XVIII.      XXVII.
-        <br/></p>
-      <p xml:id="BOEMUS20074">Atque hic modus erit in ceteris. Ut si sesquitertias proportiones velis
-        extendere, ponas sesquitertiorum radices, quae sunt quaternarius atque ternarius ad se
+        <lb/>          II.      III. <br/>    IIII.      VI.       VIIII.
+        <lb/>VIII.     XII.     XVIII.      XXVII. <br/></p>
+      <p xml:id="BOEMUS20074">Atque hic modus erit in ceteris. Ut si sesquitertias proportiones
+        velis extendere, ponas sesquitertiorum radices, quae sunt quaternarius atque ternarius ad se
         invicem comparati. Atque ad hunc modum multiplices. Quodsi sesquiquartas sesquiquartorum
         dispones radices, eademque multiplicatione sesquiquartos quotlibet extendas. Quantum autem
         nobis hae considerationes prosint, sequens ordo monstrabit.</p>
       <p xml:id="BOEMUS20075">De proportione numerorum, qui ab aliis metiuntur.</p>
-      <p xml:id="BOEMUS20076">VIIII. Si duos numeros eorum differentia integre fuerit <pb n="[238]"/>permensa, in eadem sunt proportione numeri, quos sua differentia mensa est, in qua erunt
+      <p xml:id="BOEMUS20076">VIIII. Si duos numeros eorum differentia integre fuerit <pb n="[238]"
+        />permensa, in eadem sunt proportione numeri, quos sua differentia mensa est, in qua erunt
         proportione etiam hi numeri, secundum quos eos sua mensa est differentia. Sint enim numeri
         .L. .LV. Hi igitur ad se invicem sesquidecima habitudine comparantur, et est eorum
         differentia quinarius, qui scilicet est pars decima numeri .L. Hic igitur metietur quidem
@@ -766,21 +770,19 @@
         numerum metitur idem undecies usque ad .LV. atque in eo iterum ternarium derelinquit.
         Auferatur igitur ex utrisque ternarius, fiunt .L. et .LV., qui disponantur hoc modo:</p>
       <p class="textFig" xml:id="BOEMUS20077">
-        <lb/>LIII.     LVIII.
-        <br/>L.        LV. <lb/></p>
-      <p xml:id="BOEMUS20078">In hoc igitur manifestum est, maioris esse proportionis inter se .L. et
-        .LV. quam .LIII. ad .LVIII. In minoribus <pb n="[239]"/>enim numeris maior semper proportio
-        repperitur; quod paulo posterius demonstrabimus. Sin vero illa differentiae permensio
-        numerorum multitudinem supervadat eademque utrosque numeri pluralitate praetereat, minore
-        erunt proportione numeri superius mensi cum additione eius summae, qua utrosque metiens
-        supervadit, quam fuerunt ante, cum eos propria differentia metiebatur. Sint enim numeri
-        .XLVIII. et .LIII. Horum quinarius differentia est. Metiatur igitur .XLVIII. numerum
+        <lb/>LIII.     LVIII. <br/>L.        LV. <lb/></p>
+      <p xml:id="BOEMUS20078">In hoc igitur manifestum est, maioris esse proportionis inter se .L.
+        et .LV. quam .LIII. ad .LVIII. In minoribus <pb n="[239]"/>enim numeris maior semper
+        proportio repperitur; quod paulo posterius demonstrabimus. Sin vero illa differentiae
+        permensio numerorum multitudinem supervadat eademque utrosque numeri pluralitate praetereat,
+        minore erunt proportione numeri superius mensi cum additione eius summae, qua utrosque
+        metiens supervadit, quam fuerunt ante, cum eos propria differentia metiebatur. Sint enim
+        numeri .XLVIII. et .LIII. Horum quinarius differentia est. Metiatur igitur .XLVIII. numerum
         quinarius decies, fiunt .L. Supervadit igitur .L. numerus .XLVIII. numerum binario. Idem
         .LIII. undecies metiatur, fiunt .LV. qui eisdem rursus duobus .LIII. numerum supervadit.
         Addatur utrisque binarius et disponantur hoc modo:</p>
       <p class="textFig" xml:id="BOEMUS20079">
-        <br/>XLVIII.    LIII.
-        <lb/>L.         LV. <br/></p>
+        <br/>XLVIII.    LIII. <lb/>L.         LV. <br/></p>
       <p xml:id="BOEMUS20080">Minore igitur sunt proportione .L. ad .LV. comparati cum additione
         scilicet binarii, quo differentia eos metiens supervadit, quam .XLVIII. et .LIII. numeri,
         quos eadem quinarii differentia mensa est. Maiores vero et minores proportiones hoc modo
@@ -789,30 +791,31 @@
         sit sesquitertia et sesquitertia sesquiquartam vincat. Atque idem in ceteris. Hinc evenit,
         ut in numeris minoribus maior semper videatur proportio superparticularium numerorum. Quod
         apparet in numero naturali. Disponatur enim numerus naturalis I. II. III. IIII. V. Binarius
-        igitur ad unitatem duplus est, ternarius ad binarium sesqualter est, quaternarius <pb n="[240]"/>vero ad ternarium sesquitertius. Maiores vero sunt numeri ternarius et
+        igitur ad unitatem duplus est, ternarius ad binarium sesqualter est, quaternarius <pb
+          n="[240]"/>vero ad ternarium sesquitertius. Maiores vero sunt numeri ternarius et
         quaternarius, minores ternarius et binarius et unitas. In maioribus igitur minor et in
         minoribus maior proportio continetur. Hinc apparet, quodsi aliquibus numeris proportionem
         continentibus superparticularem aequa pluralitas addatur, maiorem esse proportionem ante
         aequae pluralitatis augmentum, quam postea quam eis pluralitas aequa sit addita.</p>
       <p xml:id="BOEMUS20081">Qui ex multiplicibus et superparticularibus multiplicatis fiant.</p>
-      <p xml:id="BOEMUS20082">X. Illud etiam praemittendum videtur, quod paulo post demonstrabitur, si
-        multiplex intervallum binario fuerit multiplicatum, id etiam, quod ex illa multiplicatione
-        nascetur, multiplex esse; quodsi id, quod ex tali multiplicatione procreatum sit, non fuerit
-        multiplex, tunc illud non esse multiplex, quod binario fuerit multiplicatum. Item si
-        superparticularis proportio binario multiplicetur, id quod fit, neque superparticulare esse
-        neque multiplex. Quod si id, quod ex tali multiplicatione nascetur, neque multiplex est
-        neque superparticulare, tunc illud, quod binario multiplicatum est, vel superparticularis
-        vel alterius generis, non vero multiplicis.</p>
+      <p xml:id="BOEMUS20082">X. Illud etiam praemittendum videtur, quod paulo post demonstrabitur,
+        si multiplex intervallum binario fuerit multiplicatum, id etiam, quod ex illa
+        multiplicatione nascetur, multiplex esse; quodsi id, quod ex tali multiplicatione procreatum
+        sit, non fuerit multiplex, tunc illud non esse multiplex, quod binario fuerit multiplicatum.
+        Item si superparticularis proportio binario multiplicetur, id quod fit, neque
+        superparticulare esse neque multiplex. Quod si id, quod ex tali multiplicatione nascetur,
+        neque multiplex est neque superparticulare, tunc illud, quod binario multiplicatum est, vel
+        superparticularis vel alterius generis, non vero multiplicis.</p>
       <p xml:id="BOEMUS20083">Qui superparticulares quos multiplices efficiant.</p>
-      <p xml:id="BOEMUS20084">XI. His illud addendum est, duos primos superparticulares primam efficere
-        multiplicem proportionem. Ut si <pb n="[241]"/>sesqualter et sesquitertius coniungantur,
-        duplicem creant. Sint enim numeri II. III. IIII. Ternarius ad binarium sesqualter, .IIII. ad
-        .III. sesquitertius, .IIII. ad .II. duplus. Rursus primus multiplex primo additus
-        superparticulari secundum multiplicem creat. Sint enim numeri II. IIII. VI. Quattuor namque
-        ad .II. duplex est, primus scilicet multiplex, sex ad .IIII. sesqualter est, qui est primus
-        superparticularis, .VI. ad .II. triplus, qui secundus est multiplex. Quodsi triplum
-        sesquitertio addas, quadruplus efficietur, si quadruplum sesquiquarto quincuplus, atque in
-        hunc modum iunctis proportionibus multiplicium ac superparticularium in infinitum
+      <p xml:id="BOEMUS20084">XI. His illud addendum est, duos primos superparticulares primam
+        efficere multiplicem proportionem. Ut si <pb n="[241]"/>sesqualter et sesquitertius
+        coniungantur, duplicem creant. Sint enim numeri II. III. IIII. Ternarius ad binarium
+        sesqualter, .IIII. ad .III. sesquitertius, .IIII. ad .II. duplus. Rursus primus multiplex
+        primo additus superparticulari secundum multiplicem creat. Sint enim numeri II. IIII. VI.
+        Quattuor namque ad .II. duplex est, primus scilicet multiplex, sex ad .IIII. sesqualter est,
+        qui est primus superparticularis, .VI. ad .II. triplus, qui secundus est multiplex. Quodsi
+        triplum sesquitertio addas, quadruplus efficietur, si quadruplum sesquiquarto quincuplus,
+        atque in hunc modum iunctis proportionibus multiplicium ac superparticularium in infinitum
         multiplices procreantur.</p>
       <p xml:id="BOEMUS20085">De arithmetica geometrica armonica medietate.</p>
       <p xml:id="BOEMUS20086">XII. Quoniam vero de proportionibus quae erant interim tractanda
@@ -839,13 +842,12 @@
         quam tertiam descripsimus, armonica. Quarum haec subiciamus exempla:</p>
       <p class="textFig" xml:id="BOEMUS20087">
         <lb/> Arithmetica.         Geometrica.          Armonica.
-        <br/>I.   II.   III.      I.  II.  IIII.     III.  IIII. VI.
-        <lb/></p>
-      <p xml:id="BOEMUS20088">Non vero ignoramus esse alias quoque proportionum medietates, quas quidem
-        in arithmeticis diximus. Sed ad praesentem tractatum hae sunt interim necessariae. Sed inter
-        has tres medietates proportionalitas quidem proprie et maxime geometrica nuncupatur idcirco,
-        quoniam aequis proportionibus tota contexitur. Sed tamen eodem utemur promiscue vocabulo
-        proportionalitates etiam ceteras nuncupantes.</p>
+        <br/>I.   II.   III.      I.  II.  IIII.     III.  IIII. VI. <lb/></p>
+      <p xml:id="BOEMUS20088">Non vero ignoramus esse alias quoque proportionum medietates, quas
+        quidem in arithmeticis diximus. Sed ad praesentem tractatum hae sunt interim necessariae.
+        Sed inter has tres medietates proportionalitas quidem proprie et maxime geometrica
+        nuncupatur idcirco, quoniam aequis proportionibus tota contexitur. Sed tamen eodem utemur
+        promiscue vocabulo proportionalitates etiam ceteras nuncupantes.</p>
       <p xml:id="BOEMUS20089">
         <pb n="[243]"/>De continuis medietatibus et disiunctis.</p>
       <p xml:id="BOEMUS20090">XIII. Sed in his alia continua est proportionalitas alia disiuncta.
@@ -858,34 +860,31 @@
         proportionalitas, si quidem hoc modo sit: I. II. IIII. VIII. XVI. Sed hic non erunt duae
         proportiones, sed plures, semperque una minus, quam sunt termini constituti.</p>
       <p xml:id="BOEMUS20091">Cur ita appellatae sint digestae superius medietates.</p>
-      <p xml:id="BOEMUS20092">XIIII. Idcirco autem una earum medietas arithmetica nuncupatur, quod inter
-        terminos secundum numerum aequa est differentia. Geometrica vero secunda dicitur, quod
+      <p xml:id="BOEMUS20092">XIIII. Idcirco autem una earum medietas arithmetica nuncupatur, quod
+        inter terminos secundum numerum aequa est differentia. Geometrica vero secunda dicitur, quod
         similis est qualitas proportionis. Armonica autem vocatur, quoniam est ita coaptata, ut in
         differentiis ac terminis aequalitas proportionum consideretur. Ac de his quidem diligentius
         in arithmeticis disputatum est, nunc vero, ut commemoremus tantum, ista percurrimus.</p>
       <p xml:id="BOEMUS20093">Quemadmodum ab aequalitate supradictae processerint medietates.</p>
-      <p xml:id="BOEMUS20094">XV. Sed paulisper quemadmodum istae proportionalitates <pb n="[244]"/>ab
-        aequalitate procreentur dicendum est. Praedictum est enim, quod in numero valet unitas, idem
-        in proportionibus aequalitatem valere, et sicut numeri caput est unitas, ita proportionum
-        aequalitatem esse principium. Quocirca hoc modo arithmetica medietas ab aequalitate
-        nascetur. Positis enim tribus aequis terminis hi duo modi sunt, quibus haec proportionalitas
-        producatur. Ponatur enim primus primo aequus, secundus primo ac secundo, tertius primo
-        secundo ac tertio. Quod hoc monstratur exemplo. Sint unitates tres. Ponatur igitur primus
-        primo aequus, id est unus, secundus primo ac secundo, id est .II., tertius primo secundo ac
-        tertio, id est .III. eritque dispositio haec:</p>
+      <p xml:id="BOEMUS20094">XV. Sed paulisper quemadmodum istae proportionalitates <pb n="[244]"
+        />ab aequalitate procreentur dicendum est. Praedictum est enim, quod in numero valet unitas,
+        idem in proportionibus aequalitatem valere, et sicut numeri caput est unitas, ita
+        proportionum aequalitatem esse principium. Quocirca hoc modo arithmetica medietas ab
+        aequalitate nascetur. Positis enim tribus aequis terminis hi duo modi sunt, quibus haec
+        proportionalitas producatur. Ponatur enim primus primo aequus, secundus primo ac secundo,
+        tertius primo secundo ac tertio. Quod hoc monstratur exemplo. Sint unitates tres. Ponatur
+        igitur primus primo aequus, id est unus, secundus primo ac secundo, id est .II., tertius
+        primo secundo ac tertio, id est .III. eritque dispositio haec:</p>
       <p class="textFig" xml:id="BOEMUS20095">
-        <br/>I.    I.    I.
-        <lb/>I.    II.   III. <br/></p>
-      <p xml:id="BOEMUS20096">Rursus sint .III. binarii in aequalitate constituti II. II. II. Ponatur
-        primus primo aequus, id est .II., secundus primo et secundo, id est .IIII., tertius primo
-        secundo et tertio, id est .VI.; et erit dispositio haec:</p>
+        <br/>I.    I.    I. <lb/>I.    II.   III. <br/></p>
+      <p xml:id="BOEMUS20096">Rursus sint .III. binarii in aequalitate constituti II. II. II.
+        Ponatur primus primo aequus, id est .II., secundus primo et secundo, id est .IIII., tertius
+        primo secundo et tertio, id est .VI.; et erit dispositio haec:</p>
       <p class="textFig" xml:id="BOEMUS20097">
-        <lb/>II.    II.    II.
-        <br/>II.    IIII.  VI. <lb/></p>
+        <lb/>II.    II.    II. <br/>II.    IIII.  VI. <lb/></p>
       <p xml:id="BOEMUS20098">Rursus idem de ternario:</p>
       <p class="textFig" xml:id="BOEMUS20099">
-        <br/>III.    III.    III.
-        <lb/>III.    VI.     VIIII. <br/></p>
+        <br/>III.    III.    III. <lb/>III.    VI.     VIIII. <br/></p>
       <p xml:id="BOEMUS20100">Sed in his hoc speculandum est, quod si unitas fuerit ad aequalitatis
         principium constituta, unitas etiam erit in differentiis numerorum, ipsi vero numeri inter
         se nullum intermittunt. Sin vero binarius teneat aequalitatem, binarius est differentia et
@@ -897,17 +896,15 @@
         primo ac secundo aequus, id est .II., secundus vero primo ac duobus secundis, id est .III.,
         tertius autem primo, duobus secundis et tertio, id est .IIII.</p>
       <p class="textFig" xml:id="BOEMUS20101">
-        <lb/>I.    I.    I.
-        <br/>II.   III.  IIII. <lb/></p>
-      <p xml:id="BOEMUS20102">Hic igitur terminorum differentiam unitas tenet. Inter binarium enim et
-        unitatem atque inter ternarium ac binarium unitas interest. Nullus vero naturalis numerus
+        <lb/>I.    I.    I. <br/>II.   III.  IIII. <lb/></p>
+      <p xml:id="BOEMUS20102">Hic igitur terminorum differentiam unitas tenet. Inter binarium enim
+        et unitatem atque inter ternarium ac binarium unitas interest. Nullus vero naturalis numerus
         intermittitur. Post unitatem enim mox binarius est, ac post binarium ternarius naturaliter
         constitutus. Idem rursus in binario fiat, sintque tres binarii et sit primus primo ac
         secundo aequus, id est quaternarius, secundus vero primo et duobus secundis, id est
         senarius, tertius autem primo, duobus secundis et tertio, id est octonarius.</p>
       <p class="textFig" xml:id="BOEMUS20103">
-        <br/>II.     II.    II.
-        <lb/>IIII.   VI.    VIII. <br/></p>
+        <br/>II.     II.    II. <lb/>IIII.   VI.    VIII. <br/></p>
       <p xml:id="BOEMUS20104">Hic quoque binarius tenet differentiam terminorum uno inter eos
         naturaliter intermisso. Nam inter .IIII. ac .VI. quinarius naturaliter, inter .VI. atque
         .VIII. septenarius collocatur. Quod si ternarius aequalitatis principium sit, fiet ternarius
@@ -934,28 +931,23 @@
         differentiisque distantibus, ut subiectae descriptiones monent.</p>
       <p class="textFig" xml:id="BOEMUS20108">
         <lb/>I.    I.     I.    II.   II.    II.    III.    III.  III.
-        <br/>III.  IIII.  VI.   VI.   VIII.  XII.   VIIII.  XII.  XVIII.
-        <lb/></p>
+        <br/>III.  IIII.  VI.   VI.   VIII.  XII.   VIIII.  XII.  XVIII. <lb/></p>
       <p xml:id="BOEMUS20109">Quodsi facienda est in extremitatibus tripla proportio tribus aequis
         terminis constitutis primus quidem faciendus est ex primo ac secundo, secundus vero ex primo
         ac duobus <pb n="[247]"/>secundis, tertius autem ex primo, duobus secundis ac tribus
         tertiis, ut est subiecta descriptio:</p>
       <p class="textFig" xml:id="BOEMUS20110">
         <br/>I.   I.     I.     II.    II.    II.     III.    III.     III.
-        <lb/>II.  III.   VI.    IIII.  VI.    XII.    VI.     VIIII.   XVIII.
-        <br/></p>
+        <lb/>II.  III.   VI.    IIII.  VI.    XII.    VI.     VIIII.   XVIII. <br/></p>
       <p xml:id="BOEMUS20111">De armonica medietate et de ea uberior speculatio.</p>
       <p xml:id="BOEMUS20112">XVI. Sed ingressi armonicam disputationem, quae de ea diligentius dici
         possunt, tacite praetereunda esse non arbitror. Conlocetur igitur armonica proportionalitas
         inque ea descriptione superiore ordine terminorum inter se differentiae disponantur.</p>
       <p class="textFig" xml:id="BOEMUS20113">
-        <lb/>         differentiae
-        <br/>      I.              II.
-        <lb/>III.         IIII.         VI. 
-        <br/>            termini.
-        <lb/></p>
-      <p xml:id="BOEMUS20114">Videsne igitur, ut .IIII. ad .III. diatessaron consonantiam prodant, .VI.
-        ad .IIII. diapente concordent, .VI. vero ad .III. diapason misceant symphoniam ipsaeque
+        <lb/>         differentiae <br/>      I.              II.
+        <lb/>III.         IIII.         VI.  <br/>            termini. <lb/></p>
+      <p xml:id="BOEMUS20114">Videsne igitur, ut .IIII. ad .III. diatessaron consonantiam prodant,
+        .VI. ad .IIII. diapente concordent, .VI. vero ad .III. diapason misceant symphoniam ipsaeque
         earum differentiae rursus eandem statuant consonantiam? Binarius enim ad unitatem duplus
         est, in diapason consonantia constitutus. Quodsi se extremitates multiplicent itemque medius
         sui multiplicitate succrescat, comparati numeri toni habitudinem concordiamque servabunt.
@@ -970,8 +962,7 @@
         modo medius, fient .XVI. Senarius vero, qui est maximus, si se ipse multiplicet, .XXXVI.
         reddet. Haec igitur in ordinem disponantur:</p>
       <p class="textFig" xml:id="BOEMUS20115">
-        <br/>XXXVI.   XXIIII.   XVIII.   XVI.   XII.   VIIII.
-        <lb/></p>
+        <br/>XXXVI.   XXIIII.   XVIII.   XVI.   XII.   VIIII. <lb/></p>
       <p xml:id="BOEMUS20116">Sunt igitur diatessaron consonantiam resonantes .XXIIII. ad .XVIII. et
         .XII. ad .VIIII., diapente vero .XVIII. ad .XII. et .XXIIII. ad .XVI. et .XXXVI. ad
         .XXIIII., tripla autem, quae est diapason et diapente .XXXVI. ad .XII., quadrupla vero, quae
@@ -979,8 +970,8 @@
         comparatione servatur.</p>
       <p xml:id="BOEMUS20117">Quemadmodum inter duos terminos supradictae medietates vicissim
         locentur.</p>
-      <p xml:id="BOEMUS20118">XVII. Solent autem duo termini dari proponique, ut inter eos nunc quidem
-        arithmeticam, nunc vero geometricam, nunc armonicam medietatem ponamus. De quibus in
+      <p xml:id="BOEMUS20118">XVII. Solent autem duo termini dari proponique, ut inter eos nunc
+        quidem arithmeticam, nunc vero geometricam, nunc armonicam medietatem ponamus. De quibus in
         arithmeticis quoque diximus. Id tamen ipsum nunc etiam breviter explicemus. Si arithmetica
         medietas quaeritur, datorum terminorum videnda est differentia eaque dividenda ac minori
         termino adicienda. Sint enim .X. et .XL. altrinsecus termini constituti horumque medietas
@@ -992,8 +983,8 @@
         tetragonale latus adsumo, fiunt .XX. Vicies enim .XX. efficiunt .CCCC. Hos igitur .XX.
         medios inter .X. ac .XL. si conlocem, fit geometrica medietas subiecta descriptione formata:
         X. XX. XL.</p>
-      <p xml:id="BOEMUS20119">Si vero armonicam medietatem quaeramus, sibimet ipsis copulamus extremos,
-        ut .X. et .XL.; fiunt .L. Eorum differentiam, quae est .XXX. in minorem terminum
+      <p xml:id="BOEMUS20119">Si vero armonicam medietatem quaeramus, sibimet ipsis copulamus
+        extremos, ut .X. et .XL.; fiunt .L. Eorum differentiam, quae est .XXX. in minorem terminum
         multiplicamus, scilicet in denarium, ut fiant decies .XXX. qui sunt .CCC. Hos secundum .L.
         partimur; fiunt .VI. Quos cum minori termino addiderimus, redduntur .XVI. Hunc igitur
         numerum si inter .X. ac .XL. medium conlocemus armonica proportionalitas expeditur: X. XVI.
@@ -1024,8 +1015,8 @@
         Nicomachum quidem hic consonantiarum est ordo, ut sit prima diapason, secunda diapason et
         diapente, tertia bis diapason, quarta diapente, quinta diatessaron.</p>
       <p xml:id="BOEMUS20122">De ordine consonantiarum sententia Eubulidis et Hippasi.</p>
-      <p xml:id="BOEMUS20123">XVIIII. Sed Eubulides atque Hippasus alium consonantiarum ordinem ponunt.
-        Aiunt enim multiplicitatis augmenta superparticularitatis deminutione rato ordine
+      <p xml:id="BOEMUS20123">XVIIII. Sed Eubulides atque Hippasus alium consonantiarum ordinem
+        ponunt. Aiunt enim multiplicitatis augmenta superparticularitatis deminutione rato ordine
         respondere. Itaque non posse esse duplum praeter dimidium, nec triplum praeter tertiam
         partem. Quoniam igitur <pb n="[251]"/>sit duplum, ex eo diapason consonantiam reddi, quoniam
         vero sit dimidium, ex eo quasi contrariam divisionem sesqualteram, id est diapente, effici
@@ -1037,14 +1028,14 @@
         quadruplo consistens bis diapason nomen accepit. Secundum hos quoque hic ordo est: diapason,
         diapente, diapason ac diapente, diatessaron, bis diapason.</p>
       <p xml:id="BOEMUS20124">Sententia Nicomachi, quae quibus consonantiis opponantur.</p>
-      <p xml:id="BOEMUS20125">XX. Sed Nicomachus non eandem esse eis arbitratur contrariam positionem,
-        sed potius ut unitas in arithmeticis crementi erat deminutionisque principium, ita etiam
-        diapason symphoniam reliquarum esse principium, illas vero sibi in contraria divisione posse
-        constitui. Id vero facilius erit cognitu, si prius pervideatur in numeris. Constituatur
-        igitur unitas, duaeque ab ea partes fluant, una multiplicis alia divisionis, sitque haec
-        formula:</p>
-      <p xml:id="BOEMUS20126">[Friedlein, 251; text: I. II. III. IIII. V. Dimidium, Pars tertia, Pars
-        quarta, Pars quinta, Duplum. Triplum. Quadruplum. Quinquuplum.]</p>
+      <p xml:id="BOEMUS20125">XX. Sed Nicomachus non eandem esse eis arbitratur contrariam
+        positionem, sed potius ut unitas in arithmeticis crementi erat deminutionisque principium,
+        ita etiam diapason symphoniam reliquarum esse principium, illas vero sibi in contraria
+        divisione posse constitui. Id vero facilius erit cognitu, si prius pervideatur in numeris.
+        Constituatur igitur unitas, duaeque ab ea partes fluant, una multiplicis alia divisionis,
+        sitque haec formula:</p>
+      <p xml:id="BOEMUS20126">[Friedlein, 251; text: I. II. III. IIII. V. Dimidium, Pars tertia,
+        Pars quarta, Pars quinta, Duplum. Triplum. Quadruplum. Quinquuplum.]</p>
       <p xml:id="BOEMUS20127">
         <pb n="[252]"/>Et ad hunc modum ad infinita progressio est. Binarius enim unitatis duplus
         est; contraria vero eius pars eiusdem dimidium unitatis ostendit; tres triplus et contraria
@@ -1081,9 +1072,10 @@
         dupli, tripli, quadrupli, sesqualteri atque sesquitertii consonantiae. Ex his vero quae in
         reliquis proportionibus vel multimodis vel non ita claris vel longe omnino a se distantibus
         inaequalitates fiunt, dissonantiae existunt, nulla autem sonorum concordia procreatur.</p>
-      <p xml:id="BOEMUS20130">Quid oporteat praemitti ut diapason in multiplici genere demonstretur.</p>
-      <p xml:id="BOEMUS20131">XXI. Hoc igitur ita distincto demonstrabitur diapason consonantia, quae
-        cunctarum optima est, in multiplici inaequalitatis genere et in duplicitatis habitudine
+      <p xml:id="BOEMUS20130">Quid oporteat praemitti ut diapason in multiplici genere
+        demonstretur.</p>
+      <p xml:id="BOEMUS20131">XXI. Hoc igitur ita distincto demonstrabitur diapason consonantia,
+        quae cunctarum optima est, in multiplici inaequalitatis genere et in duplicitatis habitudine
         repperiri. <pb n="[254]"/>Ac primum quidem illud demonstrandum, quemadmodum in
         multiplicitatis genere diapason consonantia possit agnosci. Praecurrendum est igitur ad
         breve quiddam, quo prius cognito facilior demonstratio fiat. Ab omni superparticulari si
@@ -1096,13 +1088,14 @@
         sesquitertiae proportionis plena medietas. Quodsi sesquiquartum sesquitertio auferas, id,
         quod relinquitur, medietatem sesquiquarti non efficit. Idemque in ceteris.</p>
       <p xml:id="BOEMUS20132">Demonstratio per inpossibile diapason in multiplici genere esse.</p>
-      <p xml:id="BOEMUS20133">XXII. Age nunc ad diapason consonantiam redeamus. Quod si ea non est in
-        multiplici genere inaequalitatis, cadet in superparticulare inaequalitatis genus. Sit igitur
-        superparticularis proportio diapason consonantia. Auferatur ab ea continua consonantia, id
-        est diapente, relinquitur diatessaron. Bis igitur diatessaron minus est uno diapente et
-        ipsum diatessaron non inplet diapente consonantiae medietatem, quod est inpossibile.
-        Monstrabitur enim bis diatessaron tono ac semitonio consonantiam diapente transcendere.
-        Quocirca ne diapason quidem in superparticulari inaequalitatis genere poni potest.</p>
+      <p xml:id="BOEMUS20133">XXII. Age nunc ad diapason consonantiam redeamus. Quod si ea non est
+        in multiplici genere inaequalitatis, cadet in superparticulare inaequalitatis genus. Sit
+        igitur superparticularis proportio diapason consonantia. Auferatur ab ea continua
+        consonantia, id est diapente, relinquitur diatessaron. Bis igitur diatessaron minus est uno
+        diapente et ipsum diatessaron non inplet diapente consonantiae medietatem, quod est
+        inpossibile. Monstrabitur enim bis diatessaron tono ac semitonio consonantiam diapente
+        transcendere. Quocirca ne diapason quidem in superparticulari inaequalitatis genere poni
+        potest.</p>
       <p xml:id="BOEMUS20134">
         <pb n="[255]"/>Demonstratio diapente, diatessaron et tonum in superparticulari esse.</p>
       <p xml:id="BOEMUS20135">XXIII. Restat igitur, ut diapente ac diatessaron et tonum in
@@ -1168,19 +1161,19 @@
       <p xml:id="BOEMUS20138">
         <pb n="[258]"/>Diapente in sesqualtera, diatessaron in sesquitertia esse, tonum in
         sesquioctava.</p>
-      <p xml:id="BOEMUS20139">XXV. Dico autem, quoniam proprie diapente in sesqualtera, diatessaron in
-        sesquitertia proportione consistit. Quoniam enim inter utrasque proportiones, sesqualteram
-        scilicet et sesquitertiam, sesqualtera maior est et sesquitertia minor, quoniamque in
-        consonantiis diapente maior, diatessaron minor, apparet maiorem proportionem maiori, minorem
-        vero minori esse consonantiae aptandum. Erit igitur diapente quidem in sesqualtera,
-        diatessaron vero in proportione sesquitertia collocanda. Quod si diatessaron a diapente
-        consonantia subtrahamus, relinquitur spatium, quod dicitur tonus. Sesquitertium vero si
-        proportioni sesqualterae minuamus, relinquitur sesquioctava proportio. Quo fit, ut tonus in
-        sesquioctava debeat comparatione constitui.</p>
+      <p xml:id="BOEMUS20139">XXV. Dico autem, quoniam proprie diapente in sesqualtera, diatessaron
+        in sesquitertia proportione consistit. Quoniam enim inter utrasque proportiones,
+        sesqualteram scilicet et sesquitertiam, sesqualtera maior est et sesquitertia minor,
+        quoniamque in consonantiis diapente maior, diatessaron minor, apparet maiorem proportionem
+        maiori, minorem vero minori esse consonantiae aptandum. Erit igitur diapente quidem in
+        sesqualtera, diatessaron vero in proportione sesquitertia collocanda. Quod si diatessaron a
+        diapente consonantia subtrahamus, relinquitur spatium, quod dicitur tonus. Sesquitertium
+        vero si proportioni sesqualterae minuamus, relinquitur sesquioctava proportio. Quo fit, ut
+        tonus in sesquioctava debeat comparatione constitui.</p>
       <p xml:id="BOEMUS20140">Diapason ac diapente in tripla proportione esse, in quadrupla bis
         diapason.</p>
-      <p xml:id="BOEMUS20141">XXVI. Sed quoniam demonstratum est, diapason quidem duplam, diapente vero
-        sesqualteram, iunctas vero duplam ac sesqualteram triplicem proportionem creare, ex his
+      <p xml:id="BOEMUS20141">XXVI. Sed quoniam demonstratum est, diapason quidem duplam, diapente
+        vero sesqualteram, iunctas vero duplam ac sesqualteram triplicem proportionem creare, ex his
         etiam illud apparet, diapente ac diapason in triplici proportione constitui, Sed si quis
         triplici proportioni sesquitertiam habitudinem iungat, quadruplam facit. Igitur si diapente
         ac diapason consonantiis diatessaron symphonia iungatur, fit quadruplum spatium vocum, quod
@@ -1204,7 +1197,8 @@
         minimumque locavimus. Sint igitur termini hi III, VI. VIII. Illud quoque, quod inter duas
         sibi continuas consonantias cadit. Etenim neque duplum est integrum, ut diapason
         consonantiam prodat, neque triplum, ut diapason ac diapente efficiat symphoniam. Cui si
-        tonus addatur, mox triplum modum proportionis efficiet. Quoniam enim diapason ac <pb n="[260]"/>diapente sibimet iunctae efficiunt triplum, diatessaron vero et tonus diapente
+        tonus addatur, mox triplum modum proportionis efficiet. Quoniam enim diapason ac <pb
+          n="[260]"/>diapente sibimet iunctae efficiunt triplum, diatessaron vero et tonus diapente
         consonantiam iungunt, si diapason consonantiae addatur diatessaron, inconsonum fit, quoniam
         inter duplicem ac triplicem nulla potest naturaliter proportio multiplicitatis intellegi.
         Quod si ei adicio tonumt, fiet diapason diatessaron et tonus, quod nihil distabit, utrum
@@ -1223,7 +1217,8 @@
         sesquitertia proportione, quae diatessaron est, duae sesquioctavae habitudines, quae toni
         sunt, auferuntur, relinquitur spatium, quod semitonium nuncupatur. Quaeramus igitur duos
         tonos continua dispositione descriptos. Sed quoniam hi, ut dictum est, in sesquioctava
-        proportione consistunt, duasque sesquioctavas proportiones continuas adhibere non <pb n="[261]"/>possumus, nisi multiplex ille, a quo hae derivari possint, repperiatur, sit
+        proportione consistunt, duasque sesquioctavas proportiones continuas adhibere non <pb
+          n="[261]"/>possumus, nisi multiplex ille, a quo hae derivari possint, repperiatur, sit
         unitas prima eiusque octonarius octuplus primus. Ab hoc igitur unum sesquioctavum potero
         derivare. Sed quia duos quaerimus, fiant octies octo atque ex eo .LXIIII. explicentur. Erit
         igitur hic secundus octuplus, a quo possumus duas sesquioctavas proportiones educere. Namque
@@ -1244,25 +1239,26 @@
         quibus minimis semitonii forma consistit.</p>
       <p xml:id="BOEMUS20146">
         <pb n="[262]"/>Demonstrationes non esse .CCXLIII. ad .CCLVI. toni medietatem.</p>
-      <p xml:id="BOEMUS20147">XXVIIII. Approbo igitur .CCXLIII. ad .CCLVI. distantiam non esse integram
-        toni medii demensionem. Etenim ducentorum .XL. trium et ducentorum .LVI. differentia .XIII.
-        tantum unitatibus continetur, qui .XIII. minus quidem quam minoris octavam decimam, plus
-        vero quam nonam decimam obtinent partem. Si enim octies decies .XIII. ducas, efficies
-        .CCXXXIIII., qui .CCXLIII. nullo modo aequabunt, si decies novies multiplices, supervadent,
-        cum oporteat omne semitonium, si tamen integrum toni dimidium tenet, inter sextam decimam
-        partem ac septimam decimam collocari, quod posterius demonstrabitur, Nunc illud liquebit,
-        talem semitonii distantiam sibimet geminatam unum toni spatium non posse conplere. Age enim,
-        ut sese .CCLVI. ad .CCXLIII. habent, tales duas sibimet continuas proportiones secundum
-        superius descriptam regulam disponamus. .CC. enim et .L. et .VI. in semet ipsos
-        multiplicemus et sit maximus terminus LXV[macron supra lin.]. DXXXVI. Item .CCXLIII. propria
-        numerositate concrescant et sit minimus terminus LVIIII[macron supra lin.]. XLVIIII. Rursus
-        .CCLVI. ad .CCXLIII. multitudine concrescant. Erit igitur numerus LXII[macron supra lin.].
-        CCVIII. Hic igitur medius collocetur hoc modo:</p>
+      <p xml:id="BOEMUS20147">XXVIIII. Approbo igitur .CCXLIII. ad .CCLVI. distantiam non esse
+        integram toni medii demensionem. Etenim ducentorum .XL. trium et ducentorum .LVI.
+        differentia .XIII. tantum unitatibus continetur, qui .XIII. minus quidem quam minoris
+        octavam decimam, plus vero quam nonam decimam obtinent partem. Si enim octies decies .XIII.
+        ducas, efficies .CCXXXIIII., qui .CCXLIII. nullo modo aequabunt, si decies novies
+        multiplices, supervadent, cum oporteat omne semitonium, si tamen integrum toni dimidium
+        tenet, inter sextam decimam partem ac septimam decimam collocari, quod posterius
+        demonstrabitur, Nunc illud liquebit, talem semitonii distantiam sibimet geminatam unum toni
+        spatium non posse conplere. Age enim, ut sese .CCLVI. ad .CCXLIII. habent, tales duas
+        sibimet continuas proportiones secundum superius descriptam regulam disponamus. .CC. enim et
+        .L. et .VI. in semet ipsos multiplicemus et sit maximus terminus LXV[macron supra lin.].
+        DXXXVI. Item .CCXLIII. propria numerositate concrescant et sit minimus terminus
+        LVIIII[macron supra lin.]. XLVIIII. Rursus .CCLVI. ad .CCXLIII. multitudine concrescant.
+        Erit igitur numerus LXII[macron supra lin.]. CCVIII. Hic igitur medius collocetur hoc
+        modo:</p>
       <p xml:id="BOEMUS20148">LXV[macron supra lin.]. DXXXVI. LXII[macron supra lin.]. CCVIII.
         LVIIII[macron supra lin.]. XLVIIII.</p>
-      <p xml:id="BOEMUS20149">In eadem igitur sunt proportione .CCLVI. et .CCXLIII., in qua LXV[macron
-        supra lin.].DXXXVI. ad LXII[macron supra lin.]. CCVIII. Et item LXII[macron supra lin.].
-        CCVIII. ad LVIIII[macron supra lin.]. XLVIIII. Sed maximus eorum terminus, qui est
+      <p xml:id="BOEMUS20149">In eadem igitur sunt proportione .CCLVI. et .CCXLIII., in qua
+        LXV[macron supra lin.].DXXXVI. ad LXII[macron supra lin.]. CCVIII. Et item LXII[macron supra
+        lin.]. CCVIII. ad LVIIII[macron supra lin.]. XLVIIII. Sed maximus eorum terminus, qui est
         LXV[macron supra lin.]. DXXXVI., ad minimum, qui est LVIIII[macron supra lin.].XLVIIII.,
         unum integrum non efficiet tonum. Quodsi primi ad secundum proportio, quae est aequa secundi
         ad tertium <pb n="[263]"/>proportioni, integri esse semitonii probaretur, duo dimidia iuncta
@@ -1279,33 +1275,34 @@
         non esse integrum dimidium toni. Quocirca id, quod vere semitonium nuncupatur, pars toni
         minor est quam dimidia.</p>
       <p xml:id="BOEMUS20150">De maiore parte toni, in quibus minimis numeris constet.</p>
-      <p xml:id="BOEMUS20151">XXX. Reliqua igitur pars, quae maior est, apotome nuncupatur a Graecis, a
-        nobis vero potest vocari decisio. Id enim natura fert, ut, quotiens aliquid secatur, ita ut
-        non aequis partibus dividatur, quanto minor pars dimidio minor est, tanto maior pars
-        eademque auctior dimidium vincat. Quantum igitur semitonium minus integro dimidio toni minus
-        est, tantum apotome toni integrum superat dimidium. Et quoniam docuimus semitonium in
-        .CCLVI. <pb n="[264]"/>et .CCXLIII. principaliter stare, nunc ea, quae apotome dicitur, in
-        quibus possit minimis constare numeris approbemus. Si igitur .CCXLIII. partem recipere
-        octavam possent, cum ad eum sesquioctavus numerus compararetur, tunc .CCLVI. habitudo ad
-        sesquioctavam summam minimi numeri comparata apotomen necessaria ratione monstraret. Nunc
-        vero quoniam ei pars octava deesse monstratur, utrique numeri octies fiant. Et ex .CCXLIII.
-        quidem octies multiplicatis fit numerus M[macron supra lin.].DCCCCXLIIII. Quibus si propria
-        conferatur octava, qui sunt .CCXLIII., fient II[macron supra lin.]. CLXXXVII. Rursus .CCLVI.
-        per octonarium crescant; fient igitur II[macron supra lin.].XLVIII. Atque hic
-        suprascriptorum terminorum in medio collocetur:</p>
-      <p xml:id="BOEMUS20152">M[macron supra lin.].DCCCCXLIIII. II[macron supra lin.].XLVIII. II[macron
-        supra lin.].CLXXXVII.</p>
-      <p xml:id="BOEMUS20153">Tertius igitur terminus ad primum toni retinet proportionem, secundus vero
-        ad primum semitonii minoris, apotomes vero tertius ad secundum. Atque in eisdem primis
+      <p xml:id="BOEMUS20151">XXX. Reliqua igitur pars, quae maior est, apotome nuncupatur a
+        Graecis, a nobis vero potest vocari decisio. Id enim natura fert, ut, quotiens aliquid
+        secatur, ita ut non aequis partibus dividatur, quanto minor pars dimidio minor est, tanto
+        maior pars eademque auctior dimidium vincat. Quantum igitur semitonium minus integro dimidio
+        toni minus est, tantum apotome toni integrum superat dimidium. Et quoniam docuimus
+        semitonium in .CCLVI. <pb n="[264]"/>et .CCXLIII. principaliter stare, nunc ea, quae apotome
+        dicitur, in quibus possit minimis constare numeris approbemus. Si igitur .CCXLIII. partem
+        recipere octavam possent, cum ad eum sesquioctavus numerus compararetur, tunc .CCLVI.
+        habitudo ad sesquioctavam summam minimi numeri comparata apotomen necessaria ratione
+        monstraret. Nunc vero quoniam ei pars octava deesse monstratur, utrique numeri octies fiant.
+        Et ex .CCXLIII. quidem octies multiplicatis fit numerus M[macron supra lin.].DCCCCXLIIII.
+        Quibus si propria conferatur octava, qui sunt .CCXLIII., fient II[macron supra lin.].
+        CLXXXVII. Rursus .CCLVI. per octonarium crescant; fient igitur II[macron supra lin.].XLVIII.
+        Atque hic suprascriptorum terminorum in medio collocetur:</p>
+      <p xml:id="BOEMUS20152">M[macron supra lin.].DCCCCXLIIII. II[macron supra lin.].XLVIII.
+        II[macron supra lin.].CLXXXVII.</p>
+      <p xml:id="BOEMUS20153">Tertius igitur terminus ad primum toni retinet proportionem, secundus
+        vero ad primum semitonii minoris, apotomes vero tertius ad secundum. Atque in eisdem primis
         apotomes videtur constare proportio, cum semitonii in .CCLVI. et .CCXLIII. minimis numeris
         spatium contineatur. Idcirco autem M[macron supra lin.].DCCCCXLIIII. et II[macron supra
         lin.].XLVIII. in eadem proportione sunt, qua .CCXLIII. ad .CCLVI., quoniam .CCLVI. et
         .CCXLIII. octonario multiplicati sunt. Si enim unus numerus duos quoslibet numeros
         multiplicet, qui ex ea multiplicatione nascuntur in eadem erunt proportione, qua fuerint hi
         numeri, quos prior numerus multiplicavit.</p>
-      <p xml:id="BOEMUS20154">Quibus proportionibus diapente ac diapason constent et quoniam diapason
-        sex tonis non constet.</p>
-      <p xml:id="BOEMUS20155">XXXI. Sed quoniam de diatessaron consonantia latius <pb n="[265]"/>diximus, brevius et paene puris numeris de diapason ac diapente consonantiis disseramus.
+      <p xml:id="BOEMUS20154">Quibus proportionibus diapente ac diapason constent et quoniam
+        diapason sex tonis non constet.</p>
+      <p xml:id="BOEMUS20155">XXXI. Sed quoniam de diatessaron consonantia latius <pb n="[265]"
+        />diximus, brevius et paene puris numeris de diapason ac diapente consonantiis disseramus.
         Diapente enim constat ex tribus tonis ac semitonio, id est ex diatessaron et tono.
         Disponantur enim numeri, quos superior descriptio conprehendit: CXCII. CCXVI. CCXLIII.
         CCLVI. In hac igitur dispositione primus terminus ad secundum et secundus ad tertium tonorum
@@ -1321,8 +1318,8 @@
         evidenter apparet. Sex enim toni in ordinem disponantur, scilicet in sesquioctavis
         proportionibus constituti. Sex vero sesquioctavae proportiones a sexto octuplo procreantur.
         Disponantur igitur sex octupli hoc modo:</p>
-      <p xml:id="BOEMUS20156">I. VIII. LXIIII. DXII. IIII[macron supra lin.].XCVI. XXXII[macron supra
-        lin.].DCCLXVIII. CCLXII[macron supra lin.].CXLIIII.</p>
+      <p xml:id="BOEMUS20156">I. VIII. LXIIII. DXII. IIII[macron supra lin.].XCVI. XXXII[macron
+        supra lin.].DCCLXVIII. CCLXII[macron supra lin.].CXLIIII.</p>
       <p xml:id="BOEMUS20157">Ab hoc igitur ultimo numero sex toni in sesquioctava proportione
         constituti locentur hoc modo, dispositis primum octuplis terminis, ut octavae terminorum
         partes ipsorum terminorum lateribus adiungantur. Sit autem descriptio talis:</p>

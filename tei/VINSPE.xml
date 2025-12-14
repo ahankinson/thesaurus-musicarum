@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Speculum doctrinale, liber XVII, capitula X-XXXV</title>
         <title type="abbrev">VINSPE</title>
-        <author>Vincent of Beauvais</author>
-        <date notBefore="1200" notAfter="1299">13th</date>
+        <author><persName>Vincent of Beauvais</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Mark Butler</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2001</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2001">2001</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Gottfried Göller, ed., <emph>Vinzenz von Beauvais O.P. (um 1194-1264)
             und sein Musiktraktat im Speculum doctrinale</emph>, Kölner Beiträge zur Musikforschung,
@@ -36,8 +46,8 @@
       <p xml:id="VINSPE0002">Liber XVII, Capitulum X De musica</p>
       <p xml:id="VINSPE0003">Richardus ubi supra: Musica est plurium dissimilium in unam redactoram
         concordia.</p>
-      <p xml:id="VINSPE0004">Alphorabius ubi supra: Musica comprehendit cognitionem specierum harmoniae
-        et illud, ex quo componitur et qualiter componitur et quibus modis.</p>
+      <p xml:id="VINSPE0004">Alphorabius ubi supra: Musica comprehendit cognitionem specierum
+        harmoniae et illud, ex quo componitur et qualiter componitur et quibus modis.</p>
       <p xml:id="VINSPE0005">Isidorus ubi supra: Musica est peritia modulationis sono cantuque
         consistens. Et dicta est musica per derivationem a Musis. Musae autem appellatae sunt [apo
         tou masai], id est a quaerendo, quod per eas, sicut antiqui voluerunt, vis carminum et vocis
@@ -61,8 +71,8 @@
         intrinsecus venarum pulsibus inmovemur, per musicos rhythmos harmoniae virtutibus probatur
         esse sociatum.</p>
       <p xml:id="VINSPE0007">Capitulum XI De excellentia musicae</p>
-      <p xml:id="VINSPE0008">Boetius in musica libro primo: Aurium vis ita sonos captat, ut non modo de
-        his iudicium capiat differentiasque cognoscat, verum etiam delectetur saepius, si dulces
+      <p xml:id="VINSPE0008">Boetius in musica libro primo: Aurium vis ita sonos captat, ut non modo
+        de his iudicium capiat differentiasque cognoscat, verum etiam delectetur saepius, si dulces
         coaptatique modi sint, angatur vero, si dissipati atque incohaerentes feriant sensum. Unde
         fit ut, cum sint quattuor matheseos disciplinae, ceterae quidem ad investigationem veritatis
         laborent, musica vero non modo speculationi veram etiam moralitati coniuncta sit.</p>
@@ -125,8 +135,8 @@
         affectus habet, ita etiam pulsus cordis motibus incitantur.</p>
       <p xml:id="VINSPE0014">
         <pb n="[91]"/>Capitulum XIV Adhuc de eodem</p>
-      <p xml:id="VINSPE0015">Itaque non potest dubitari, quin nostrae animae et corporis status eisdem
-        quodammodo proportionibus videatur</p>
+      <p xml:id="VINSPE0015">Itaque non potest dubitari, quin nostrae animae et corporis status
+        eisdem quodammodo proportionibus videatur</p>
       <p xml:id="VINSPE0016">esse compositus, quibus harmonicas modulationes posterior disputatio
         coniungi copularique monstrabit. Inde enim est, quod infantes cantilena dulcis oblectat,
         aliquid vero asperum atque immite ab audiendi voluptate suspendit. Nimirum id etiam omnis
@@ -138,7 +148,8 @@
         suaviter canere non potest, sibi tamen aliquid canit, non quod eum aliqua voluptate id quod
         canit afficiat, sed quod quandam insitam dulcedinem ex animo proferentes, quoquo modo
         proferant, delectantur. Nonne illud etiam manifestum est, in bellum pugnantium animos
-        tubarum carmine accendit? Quod si verisimile est, ab animi pacato statu quemquam ad <pb n="[92]"/>furorem et iracundiam posse proferri, non est dubium quod turbatae mentis
+        tubarum carmine accendit? Quod si verisimile est, ab animi pacato statu quemquam ad <pb
+          n="[92]"/>furorem et iracundiam posse proferri, non est dubium quod turbatae mentis
         iracundiam vel nimiam cupiditatem modestior modus possit astringere. Quid? quod, cum aliquis
         cantilenam libentius auribus atque animo capit, ad illud etiam non sponte convertitur, ut
         motum quoque aliquem similem auditae cantilenae corpus effingat; et quod omnino aliquod
@@ -150,15 +161,15 @@
         cantilenis musicis delectari, nisi etiam quali inter se coniunctae sint vocum proportione
         discatur.</p>
       <p xml:id="VINSPE0017">Capitulum XV Divisio musicae secundum Alphorabium</p>
-      <p xml:id="VINSPE0018">Alphorabius ubi supra: Musica quoque dividitur in activam et speculativam.
-        Activae proprietas est invenire harmonias sensitivas ex instrumentis, quae praeparata sunt
-        eis vel natura vel arte. Instrumenta naturalia sunt ut epiglottes et uvula et quae in eis
-        sunt, deinde vero nasus. Artificialia sunt ut fistulae, chordae, verba et alia huiusmodi.
-        Opifex itaque huius artis non format neumata et harmonias et alia eorum accidentia, nisi
-        secundum quod sunt in instrumentis, quorum acceptio consueta <pb n="[93]"/>est in eis.
-        Speculativa vero dat omnium eorum scientiam et rationes et causas omnis eius, ex quo
-        componuntur harmoniae non secundum quod sunt in materia, sed absolute secundum quod remota
-        sunt et ab omni instrumento et materia et accipit ea secundum quod audita sunt ex
+      <p xml:id="VINSPE0018">Alphorabius ubi supra: Musica quoque dividitur in activam et
+        speculativam. Activae proprietas est invenire harmonias sensitivas ex instrumentis, quae
+        praeparata sunt eis vel natura vel arte. Instrumenta naturalia sunt ut epiglottes et uvula
+        et quae in eis sunt, deinde vero nasus. Artificialia sunt ut fistulae, chordae, verba et
+        alia huiusmodi. Opifex itaque huius artis non format neumata et harmonias et alia eorum
+        accidentia, nisi secundum quod sunt in instrumentis, quorum acceptio consueta <pb n="[93]"
+        />est in eis. Speculativa vero dat omnium eorum scientiam et rationes et causas omnis eius,
+        ex quo componuntur harmoniae non secundum quod sunt in materia, sed absolute secundum quod
+        remota sunt et ab omni instrumento et materia et accipit ea secundum quod audita sunt ex
         instrumento vel ex quocumque tempore accidunt. Haec autem, id est speculativa, dividitur in
         quinque partes magnas: Prima est de principiis, quorum proprietas est ut administrentur in
         acceptione eius, quod est in hac scientia et qualiter sit mundus in acceptione principiorum
@@ -176,10 +187,10 @@
         intensionis ad quam factae sunt.</p>
       <p xml:id="VINSPE0019">
         <pb n="[94]"/>Capitulum XVI Alia divisio eiusdem</p>
-      <p xml:id="VINSPE0020">Musicae genera sunt tria: Prima quidem mundana est, secunda vero humana,
-        tertia instrumentalis. Mundana in his maxime prospicienda est, quae in ipso caelo vel
-        compage elementorum vel temporum varietate visuntur. Quomodo enim fieri potest, ut tam velox
-        caeli machina tacito silentique cursu moveatur? Etsi ad nostras aures sonus ille non
+      <p xml:id="VINSPE0020">Musicae genera sunt tria: Prima quidem mundana est, secunda vero
+        humana, tertia instrumentalis. Mundana in his maxime prospicienda est, quae in ipso caelo
+        vel compage elementorum vel temporum varietate visuntur. Quomodo enim fieri potest, ut tam
+        velox caeli machina tacito silentique cursu moveatur? Etsi ad nostras aures sonus ille non
         pervenit, quod multis fieri de causis necesse est, non poterit tamen motus tam velocissimus
         ita magnorum corporum nullos omnino sonos ciere, cum praesertim tanta sint stellarum cursus
         coaptatione coniuncti, ut nihil aeque compaginatum, nihil ita commixtum possit intelligi.
@@ -190,7 +201,8 @@
         posset, ut in unum corpus ac machinam convenirent. Sed haec omnis diversitas et ita temporum
         varietatem parit et fructuum, ut tamen unum anni corpus efficiat. Nam quod constringit
         hiems, ver laxat, torret aestas, maturat autumnus temporaque vicissim vel ipsa suos afferant
-        subministrant. Humanam vero musicam quisquis in sese ipsum descendit intelligit. <pb n="[95]"/>Quid est enim, quod illam incorpoream rationis vivacitatem corpori misceat, nisi
+        subministrant. Humanam vero musicam quisquis in sese ipsum descendit intelligit. <pb
+          n="[95]"/>Quid est enim, quod illam incorpoream rationis vivacitatem corpori misceat, nisi
         quaedam coaptatio et veluti gravium leviumque vocum quasi unam consonantiam efficiens
         temperatio? Quid est aliud, quod ipsius inter se partes animae iungat, quae, ut Aristoteli
         placet, ex sensibili rationabilique coniuncta est? Quid est vero, quod corporis elementa
@@ -199,21 +211,22 @@
         spiritu ut tibiis, vel his, quae ad aquam moventur, aut percussione quadam, ut in his, quae
         nisi concava aerea quaedam feriuntur, atque inde diversi efficiuntur soni.</p>
       <p xml:id="VINSPE0021">Capitulum XVII Subdivisiones eiusdem</p>
-      <p xml:id="VINSPE0022">Richardus ubi supra: Musica alia mundana, alia humana, alia instrumentalis.
-        Mundana alia in elementis, alia in planetis, alia in temporibus. In elementis alia in
-        pondere, alia in numero, alia in mensura. In planetis alia in situ, alia in motu, alia in
-        natura. In temporibus alia in annis, scilicet mutatione veris, aestatis, autumni, hiemis,
-        alia in mensibus, scilicet incrementis et decrementis lunaribus, alia in diebus, scilicet
-        vicissitudine lucis et noctis. Musica humana alia in corpore, alia in anima, alia in connexu
-        utriusque. In corpore alia in vegetationibus, alia in umoribus, alia in operationibus. Prima
-        convenit omnibus nascentibus, secunda sensibilibus, tertia rationalibus. Musica in anima
-        alia in potentiis, ut ira, ratio, alia in virtutibus, ut iustitia, fortitudo. Musica in
-        connexu utriusque et illa naturalis amicitia, qua anima corpori non <pb n="[96]"/>corporeis
-        vinculis alligata tenetur. Musica instrumentalis alia in pulsu, ut in tympanis et chordis,
-        alia in flatu, ut in tibiis et organis, alia in voce, ut in carminibus et cantilenis.</p>
+      <p xml:id="VINSPE0022">Richardus ubi supra: Musica alia mundana, alia humana, alia
+        instrumentalis. Mundana alia in elementis, alia in planetis, alia in temporibus. In
+        elementis alia in pondere, alia in numero, alia in mensura. In planetis alia in situ, alia
+        in motu, alia in natura. In temporibus alia in annis, scilicet mutatione veris, aestatis,
+        autumni, hiemis, alia in mensibus, scilicet incrementis et decrementis lunaribus, alia in
+        diebus, scilicet vicissitudine lucis et noctis. Musica humana alia in corpore, alia in
+        anima, alia in connexu utriusque. In corpore alia in vegetationibus, alia in umoribus, alia
+        in operationibus. Prima convenit omnibus nascentibus, secunda sensibilibus, tertia
+        rationalibus. Musica in anima alia in potentiis, ut ira, ratio, alia in virtutibus, ut
+        iustitia, fortitudo. Musica in connexu utriusque et illa naturalis amicitia, qua anima
+        corpori non <pb n="[96]"/>corporeis vinculis alligata tenetur. Musica instrumentalis alia in
+        pulsu, ut in tympanis et chordis, alia in flatu, ut in tibiis et organis, alia in voce, ut
+        in carminibus et cantilenis.</p>
       <p xml:id="VINSPE0023">Capitulum XVIII De elementis musicae instrumentalis de sonis</p>
-      <p xml:id="VINSPE0024">De musica primo libro: Consonantia, quae omnem musicae modulationem regit,
-        praeter sonum fieri non potest, sonus vero praeter quendam pulsum percussionemque non
+      <p xml:id="VINSPE0024">De musica primo libro: Consonantia, quae omnem musicae modulationem
+        regit, praeter sonum fieri non potest, sonus vero praeter quendam pulsum percussionemque non
         redditur, pulsus vero atque percussio nullo modo esse potest, nisi praecesserit motus. Si
         enim cuncta sint immobilia, non poterit alterum alteri concurrere, ut alterum impellatur ab
         altero, sed cunctis stantibus motuque carentibus nullum fieri necesse est sonum. Idcirco
@@ -230,12 +243,12 @@
       <p xml:id="VINSPE0025">
         <pb n="[97]"/>Neque enim quotiens chorda pellitur, unus edi tantum putandus est sonus aut
         unam in his esse percussionem, sed totiens aer feritur, quotiens eum chorda tremebunda</p>
-      <p xml:id="VINSPE0026">percusserit. Sed quoniam inctae sunt velocitates sonorum, nulla intercapedo
-        sentitur auribus et sonus unus sensum pellit vel gravis vel acutus, quamvis uterque ex
-        pluribus constet, gravis quidem ex tardioribus et rarioribus acutus vero ex celeribus ac
-        spissis. Unde liquet adiunctione quadam motuum ex gravitate acumen intendi, detractione vero
-        motuum laxari ex acumine gravitatem. Ex pluribus enim motibus acumen quam gravitas
-        constat.</p>
+      <p xml:id="VINSPE0026">percusserit. Sed quoniam inctae sunt velocitates sonorum, nulla
+        intercapedo sentitur auribus et sonus unus sensum pellit vel gravis vel acutus, quamvis
+        uterque ex pluribus constet, gravis quidem ex tardioribus et rarioribus acutus vero ex
+        celeribus ac spissis. Unde liquet adiunctione quadam motuum ex gravitate acumen intendi,
+        detractione vero motuum laxari ex acumine gravitatem. Ex pluribus enim motibus acumen quam
+        gravitas constat.</p>
       <p xml:id="VINSPE0027">Capitulum XIX De sonorum differentiis et speciebus inaequalitatis</p>
       <p xml:id="VINSPE0028">In quibus autem pluralitas differentiam facit, ea necesse est in quadam
         numerositate consistere. Eorum vero, quae secundum numerum conferuntur, partim sibi sunt
@@ -335,24 +348,25 @@
         consonantiam.</p>
       <p xml:id="VINSPE0035">Capitulum XXIII Quod in musica non sit penitus innitendum sensui sed
         amplius rationi</p>
-      <p xml:id="VINSPE0036">Sed de his ita proponimus, ut non omne iudicium sensibus demus, quamquam a
-        sensu aurium huiuscemodi artis sumatur omne principium. Nam si nullus esset auditus, nulla
-        omnino disputatio de vocibus extitisset. Sed principium quodammodo et quasi admonitionis
-        vicem tenet auditus, postrema vero perfectio agnitionisque vis in ratione consistit, quae
-        certis regulis sese tenens numquam ullo errore prolabitur. Nam licet omnium paene artium
-        atque ipsius vitae momenta sensuum occasione producta sint, nullum tamen in <pb n="[103]"/>his iudicium certum, nulla veri est comprehensio, si arbitrium rationis abscedat. Ipse
-        enim sensus aeque maximis minimisque corrumpitur. Nam neque minima sentire propter ipsorum
-        sensibilium parvitatem potest, et a maioribus saepe confunditur, ut in vocibus, quas si
-        minimae sint difficilius captat auditus, si sint maximae, ipsius sonitus intensione
-        surdescit. Haec igitur maxime causa fuit, cur relicto aurium iudicio Pythagoras ad regularum
-        momenta migraverit, qui nullis humanis auribus credens, quae partim natura, partim etiam
-        extrinsecus accidentibus permutantur, partim ipsis variantur aetatibus, nullis etiam deditus
-        instrumentis, penes quae saepe multa varietas atque inconstantia nasceretur, dum nunc
-        quidem, si nervos velis aspicere, vel aer umidior pulsus obtunderet vel siccior excitaret
-        vel magnitudo chordae graviorem redderet sonum vel acutivum subtilior tenuaret vel alio
-        quodammodo statum prioris constantiae permutaret, et cum idem esset in ceteris instrumentis,
-        omnia haec inconsulta minimaeque aestimans fidei diu aestuans inquirebat, quanam ratione
-        firmiter constanterque consonantiarum momenta perdisceret.</p>
+      <p xml:id="VINSPE0036">Sed de his ita proponimus, ut non omne iudicium sensibus demus,
+        quamquam a sensu aurium huiuscemodi artis sumatur omne principium. Nam si nullus esset
+        auditus, nulla omnino disputatio de vocibus extitisset. Sed principium quodammodo et quasi
+        admonitionis vicem tenet auditus, postrema vero perfectio agnitionisque vis in ratione
+        consistit, quae certis regulis sese tenens numquam ullo errore prolabitur. Nam licet omnium
+        paene artium atque ipsius vitae momenta sensuum occasione producta sint, nullum tamen in <pb
+          n="[103]"/>his iudicium certum, nulla veri est comprehensio, si arbitrium rationis
+        abscedat. Ipse enim sensus aeque maximis minimisque corrumpitur. Nam neque minima sentire
+        propter ipsorum sensibilium parvitatem potest, et a maioribus saepe confunditur, ut in
+        vocibus, quas si minimae sint difficilius captat auditus, si sint maximae, ipsius sonitus
+        intensione surdescit. Haec igitur maxime causa fuit, cur relicto aurium iudicio Pythagoras
+        ad regularum momenta migraverit, qui nullis humanis auribus credens, quae partim natura,
+        partim etiam extrinsecus accidentibus permutantur, partim ipsis variantur aetatibus, nullis
+        etiam deditus instrumentis, penes quae saepe multa varietas atque inconstantia nasceretur,
+        dum nunc quidem, si nervos velis aspicere, vel aer umidior pulsus obtunderet vel siccior
+        excitaret vel magnitudo chordae graviorem redderet sonum vel acutivum subtilior tenuaret vel
+        alio quodammodo statum prioris constantiae permutaret, et cum idem esset in ceteris
+        instrumentis, omnia haec inconsulta minimaeque aestimans fidei diu aestuans inquirebat,
+        quanam ratione firmiter constanterque consonantiarum momenta perdisceret.</p>
       <p xml:id="VINSPE0037">Capitulum XXIV Qualiter Pythagoras consonantiarum proportiones
         investigavit</p>
       <p xml:id="VINSPE0038">Cum interea divino quodam nutu praeteriens fabrorum officinas pulsos
@@ -402,24 +416,24 @@
         Pythagorae attribuunt fabulosae.</p>
       <p xml:id="VINSPE0042">
         <pb n="[106]"/>Capitulum XXVI De differentiis vocum</p>
-      <p xml:id="VINSPE0043">Ex musica, libro primo: Nunc vocum differentias colligamus. Omnis vox aut
-        est continua, aut cum intervallo suspensa. Et continua quidem est, qua loquentes vel prosam
-        vel orationem legentes verba percurrimus. Festinat enim tunc vox non haerere in acutis et
-        gravibus sonis, sed quam velocissime verba percurrere, experiendis sensibus exprimendisque
-        sermonibus continuae vocis impetus operatur. [Diastematike] autem est ea, quam canendo
-        suspendimus, in qua non potius sermonibus sed modulis inservimus, estque vox tardior et per
-        modulandas varietates quoddam faciens intervallum, non taciturnitatis sed suspensae ac
-        tardae potius cantilenae. His, ut Albinus autumat, additur tertia differentia, quae medias
-        voces possit includere, cum scilicet heroum poema legimus neque continuo cursu, ut prosam,
-        neque suspenso segniorique modo, ut vocis canticum. Sed quae continua vox est et ea rursus,
-        qua decurrimus cantilenam, naturaliter quidem infinitae sunt. Consideratione enim accepta
-        nullus modus vel evolvendis sermonibus fit vel acuminibus attollendis gravitatibusque
-        relaxandis, sed utrisque natura humana fecit proprium finem. Continuae enim voci terminum
-        humanus spiritus fecit, ultra quem nulla ratione valet excedere. Tantum enim unusquisque
-        loquitur continue, quantum naturalis spiritus sinit. Rursus voci natura hominum terminum
-        facit, quae acutam eorum vocem gravemque determinat. Tantam enim unusquisque vel acumen
-        valet extendere vel extollere vel deprimere gravitatem, quantum vocis eius naturalis patitur
-        modus.</p>
+      <p xml:id="VINSPE0043">Ex musica, libro primo: Nunc vocum differentias colligamus. Omnis vox
+        aut est continua, aut cum intervallo suspensa. Et continua quidem est, qua loquentes vel
+        prosam vel orationem legentes verba percurrimus. Festinat enim tunc vox non haerere in
+        acutis et gravibus sonis, sed quam velocissime verba percurrere, experiendis sensibus
+        exprimendisque sermonibus continuae vocis impetus operatur. [Diastematike] autem est ea,
+        quam canendo suspendimus, in qua non potius sermonibus sed modulis inservimus, estque vox
+        tardior et per modulandas varietates quoddam faciens intervallum, non taciturnitatis sed
+        suspensae ac tardae potius cantilenae. His, ut Albinus autumat, additur tertia differentia,
+        quae medias voces possit includere, cum scilicet heroum poema legimus neque continuo cursu,
+        ut prosam, neque suspenso segniorique modo, ut vocis canticum. Sed quae continua vox est et
+        ea rursus, qua decurrimus cantilenam, naturaliter quidem infinitae sunt. Consideratione enim
+        accepta nullus modus vel evolvendis sermonibus fit vel acuminibus attollendis
+        gravitatibusque relaxandis, sed utrisque natura humana fecit proprium finem. Continuae enim
+        voci terminum humanus spiritus fecit, ultra quem nulla ratione valet excedere. Tantum enim
+        unusquisque loquitur continue, quantum naturalis spiritus sinit. Rursus voci natura hominum
+        terminum facit, quae acutam eorum vocem gravemque determinat. Tantam enim unusquisque vel
+        acumen valet extendere vel extollere vel deprimere gravitatem, quantum vocis eius naturalis
+        patitur modus.</p>
       <p xml:id="VINSPE0044">
         <pb n="[107]"/>Capitulum XXVII De modo audiendi sive formandi auditum</p>
       <p xml:id="VINSPE0045">Nunc quis modus audiendi sit, disseramus.</p>
@@ -433,22 +447,23 @@
         aeris ciet, itaque diffunditur et omnium circumstantium simul ferit auditum. Atque illi est
         obscurior vox, qui longius steterit, quoniam ad eum debilior pulsi aeris unda pervenit.</p>
       <p xml:id="VINSPE0047">Capitulum XXVIII De speciebus cantilenarum</p>
-      <p xml:id="VINSPE0048">His igitur ita propositis dicendum videtur, quot generibus omnis cantilena
-        texatur, de quibus harmonicae inventionis disciplina considerat. Sunt autem tria: diatonon,
-        chroma, enharmonium. Et diatonon quidem est aliquanto durius et naturalius; chroma vero iam
-        quasi ab illa naturali intentione discedens cum mollius decidens; enharmonium vero optime
-        atque apte coniunctum. Cum sint igitur quinque tetrachorda, hypaton, meson, synemmenon,
-        diezeugmenon, hyperboleon, in his omnibus secundum diatonon cantilenae vox procedit per <pb n="[108]"/>semitonium, tonum et tonum in uno tetrachordo, rursus in alio per semitonium
-        tonum ac tonum ac deinceps; ideoque vocatur diatonon, quasi quod per tonum ac per tonum
-        progrediatur. Chroma autem, quod dicitur color, quasi iam ab huiusmodi intentione prima
-        mutatio, cantatur per semitonium et semitonium et tria semitonia. Tota enim diatessaron
-        consonantia est duorum tonorum ac semitonii, sed non pleni. Tractum est autem hoc vocabulum,
-        ut diceretur chroma, a superficiebus, quae cum permutantur, in alium transeunt colorem.
-        Enharmonium vero, quod est magis coaptatum, quod cantatur in omnibus tetrachordis per diesin
-        et diesin et ditonum. Diesis autem est semitonii dimidium.</p>
+      <p xml:id="VINSPE0048">His igitur ita propositis dicendum videtur, quot generibus omnis
+        cantilena texatur, de quibus harmonicae inventionis disciplina considerat. Sunt autem tria:
+        diatonon, chroma, enharmonium. Et diatonon quidem est aliquanto durius et naturalius; chroma
+        vero iam quasi ab illa naturali intentione discedens cum mollius decidens; enharmonium vero
+        optime atque apte coniunctum. Cum sint igitur quinque tetrachorda, hypaton, meson,
+        synemmenon, diezeugmenon, hyperboleon, in his omnibus secundum diatonon cantilenae vox
+        procedit per <pb n="[108]"/>semitonium, tonum et tonum in uno tetrachordo, rursus in alio
+        per semitonium tonum ac tonum ac deinceps; ideoque vocatur diatonon, quasi quod per tonum ac
+        per tonum progrediatur. Chroma autem, quod dicitur color, quasi iam ab huiusmodi intentione
+        prima mutatio, cantatur per semitonium et semitonium et tria semitonia. Tota enim
+        diatessaron consonantia est duorum tonorum ac semitonii, sed non pleni. Tractum est autem
+        hoc vocabulum, ut diceretur chroma, a superficiebus, quae cum permutantur, in alium
+        transeunt colorem. Enharmonium vero, quod est magis coaptatum, quod cantatur in omnibus
+        tetrachordis per diesin et diesin et ditonum. Diesis autem est semitonii dimidium.</p>
       <p xml:id="VINSPE0049">Capitulum XXIX De harmonica regula</p>
-      <p xml:id="VINSPE0050">Ex quinto libro: Harmonica est facultas differentias acutorum sonorum et
-        gravium sensu ac ratione perpendens. Sensus enim ac ratio quasi quaedam facultatis
+      <p xml:id="VINSPE0050">Ex quinto libro: Harmonica est facultas differentias acutorum sonorum
+        et gravium sensu ac ratione perpendens. Sensus enim ac ratio quasi quaedam facultatis
         harmonicae instrumenta sunt. Sensus autem confusum quiddam ac proxime tale, quale est illud,
         quod sentit, advertit. Ratio vero diiudicat integritatem atque imas persequitur
         differentias. Itaque sensus invenit quidem confusa ac proxima veritati, accipit vero ratione
@@ -499,28 +514,29 @@
         consonantiam esse non aestimant idcirco, quoniam non in superparticulari vel multiplici
         cadit comparatione, sed in multiplici superpartiente.</p>
       <p xml:id="VINSPE0055">Capitulum XXXI De partibus musicae iuxta Isidorum</p>
-      <p xml:id="VINSPE0056">Isidorus ubi supra: Musicae partes sunt tres, id est harmonica, rhythmica,
-        metrica. Harmonica est, quae discernit in sonis acutum et gravem. Rhythmica est, quae
-        requirit incursionem verborum, utrum bene sonus an male cohaereat. Metrica enim, quae
+      <p xml:id="VINSPE0056">Isidorus ubi supra: Musicae partes sunt tres, id est harmonica,
+        rhythmica, metrica. Harmonica est, quae discernit in sonis acutum et gravem. Rhythmica est,
+        quae requirit incursionem verborum, utrum bene sonus an male cohaereat. Metrica enim, quae
         mensuram diversorum metrorum probabili ratione cognoscit, ut verbi gratia heroicum,
         iambicum, elegiacum et cetera.</p>
-      <p xml:id="VINSPE0057">Ex musica Boetii quarto libro: Ut autem sit sonus, motum esse necesse est.
-        Scilicet omnis motus habet in se tamen velocitatem tum etiam tarditatem. Si vero sit tardus
-        impellendo motus gravior redditur sonus. Nam ut tarditas proxima stationi est, ita gravitas
-        contingua taciturnitati. Velox vero motus acutam voculam praestat. Praeterea quae gravis est
-        intentione, crescit ad medium, quae vero <pb n="[112]"/>remissione decrescit acuta ad
-        medium. Unde fit, ut omnis sonus quasi ex quibusdam partibus compositus esse videatur. Omnis
-        autem partium coniunctio quadam praeceptione conicitur. Sonorum igitur coniunctio
-        proportionibus constituta est. Proportiones autem principaliter in numeris considerantur.
-        Proportio vero simplex numerorum in multiplicibus vel in superparticularibus vel in
-        superpartientibus invenitur. Secundum multiplices vero proportiones vel superparticulares
-        consonae vel dissonae voces exaudiuntur. Consonae quidem sunt, quae simul pulsae suavem
-        permixtumque inter se coniungunt sonum. Dissonae vero, quae simul pulsae non reddunt suavem
-        neque permixtum sonum. Isidorus ubi supra: Ad omnem autem sonum, quae materies cantilenarum
-        est, triformem constat esse naturam. Prima est harmonica, quae ex vocum cantibus constat.
-        Secunda organica, quae ex flatu consistit. Tertia rhythmica, quae pulsu digitorum numeros
-        recipit. Nam aut voce editur sonus, sicut per fauces, aut flatu, sicut per tubam aut tibiam,
-        aut pulsu, sicut per citharam, aut per quodlibet aliud, quod percutiendo canorum est.</p>
+      <p xml:id="VINSPE0057">Ex musica Boetii quarto libro: Ut autem sit sonus, motum esse necesse
+        est. Scilicet omnis motus habet in se tamen velocitatem tum etiam tarditatem. Si vero sit
+        tardus impellendo motus gravior redditur sonus. Nam ut tarditas proxima stationi est, ita
+        gravitas contingua taciturnitati. Velox vero motus acutam voculam praestat. Praeterea quae
+        gravis est intentione, crescit ad medium, quae vero <pb n="[112]"/>remissione decrescit
+        acuta ad medium. Unde fit, ut omnis sonus quasi ex quibusdam partibus compositus esse
+        videatur. Omnis autem partium coniunctio quadam praeceptione conicitur. Sonorum igitur
+        coniunctio proportionibus constituta est. Proportiones autem principaliter in numeris
+        considerantur. Proportio vero simplex numerorum in multiplicibus vel in superparticularibus
+        vel in superpartientibus invenitur. Secundum multiplices vero proportiones vel
+        superparticulares consonae vel dissonae voces exaudiuntur. Consonae quidem sunt, quae simul
+        pulsae suavem permixtumque inter se coniungunt sonum. Dissonae vero, quae simul pulsae non
+        reddunt suavem neque permixtum sonum. Isidorus ubi supra: Ad omnem autem sonum, quae
+        materies cantilenarum est, triformem constat esse naturam. Prima est harmonica, quae ex
+        vocum cantibus constat. Secunda organica, quae ex flatu consistit. Tertia rhythmica, quae
+        pulsu digitorum numeros recipit. Nam aut voce editur sonus, sicut per fauces, aut flatu,
+        sicut per tubam aut tibiam, aut pulsu, sicut per citharam, aut per quodlibet aliud, quod
+        percutiendo canorum est.</p>
       <p xml:id="VINSPE0058">Capitulum XXXII De prima parte musicae, quae dicitur harmonica</p>
       <p xml:id="VINSPE0059">Prima divisio musicae, quae harmonica dicitur, id est modulatio vocis,
         pertinet ad comoedos, tragoedos aut choros, vel ad omnes, qui voce propria canunt. Haec ex
@@ -579,23 +595,23 @@
         huiuscemodi. Veteres autem citharam fidiculam vel fidicem nominaverunt, quia tam concinunt
         inter se chordae eius, quam bene conveniat inter quos fides sit. Apud antiquos citharae
         septem chordae erant. Unde et Vergilius: Septem discrimina vocum.</p>
-      <p xml:id="VINSPE0067">Chordas autem dictas a corde, quia sicut pulsus est cordis in pectore, ita
-        pulsus chordae in cithara. Psalterium, quod vulgo canticum dicitur, a psallendo nominatum,
-        quod ad eius vocem chorus consonando respondeat. Est autem similitudo citharae barbaricae in
-        modum deltae literae; sed psalterii et cytharae haec differentia est, quod psalterium lignum
-        illud concavum, unde sonus redditur, <pb n="[116]"/>superius habet et deorsum feriuntur
-        chordae, et desuper sonant. Cithara vero concavitatem ligni inferius habet. Lyra dicta [apo
-        tou lerein], id est a varietate vocum, quod diversos sonos efficiat. Lyram primum a Mercurio
-        inventam fuisse dicunt, hoc modo. Cum regrediens Nilus in suos meatus varia in campis
-        reliquisset animalia, relicta etiam testudo est. Quae cum putrefacta esset, et nervi eius
-        remansissent extenti intra corium, percussa a Mercurio sonitum dedit; ad cuius speciem
-        Mercurius lyram fecit et Orpheo tradidit, qui eius rei maxime erat studiosus. Unde et
-        existimatur eadem arte non feras tantum, sed et saxa atque silvas cantus modulatione
-        applicuisse. Tympanum est pellis vel corium ligno ex una parte extensum. Est enim pars media
-        symphoniae in similitudine cribri. Tympanum autem dictum, quod medium est, unde et
-        margaritum medium tympanum dicitur; et ipsum, ut symphonia, ad virgulam percutitur. Cymbala
-        acitabula quaedam sunt, quae percussa invicem tangunt se et sonitum faciunt. Sistrum ab
-        inventrice vocatum. Isis enim regina Aegyptiorum id genus invenisse probatur. Inde et hoc
+      <p xml:id="VINSPE0067">Chordas autem dictas a corde, quia sicut pulsus est cordis in pectore,
+        ita pulsus chordae in cithara. Psalterium, quod vulgo canticum dicitur, a psallendo
+        nominatum, quod ad eius vocem chorus consonando respondeat. Est autem similitudo citharae
+        barbaricae in modum deltae literae; sed psalterii et cytharae haec differentia est, quod
+        psalterium lignum illud concavum, unde sonus redditur, <pb n="[116]"/>superius habet et
+        deorsum feriuntur chordae, et desuper sonant. Cithara vero concavitatem ligni inferius
+        habet. Lyra dicta [apo tou lerein], id est a varietate vocum, quod diversos sonos efficiat.
+        Lyram primum a Mercurio inventam fuisse dicunt, hoc modo. Cum regrediens Nilus in suos
+        meatus varia in campis reliquisset animalia, relicta etiam testudo est. Quae cum putrefacta
+        esset, et nervi eius remansissent extenti intra corium, percussa a Mercurio sonitum dedit;
+        ad cuius speciem Mercurius lyram fecit et Orpheo tradidit, qui eius rei maxime erat
+        studiosus. Unde et existimatur eadem arte non feras tantum, sed et saxa atque silvas cantus
+        modulatione applicuisse. Tympanum est pellis vel corium ligno ex una parte extensum. Est
+        enim pars media symphoniae in similitudine cribri. Tympanum autem dictum, quod medium est,
+        unde et margaritum medium tympanum dicitur; et ipsum, ut symphonia, ad virgulam percutitur.
+        Cymbala acitabula quaedam sunt, quae percussa invicem tangunt se et sonitum faciunt. Sistrum
+        ab inventrice vocatum. Isis enim regina Aegyptiorum id genus invenisse probatur. Inde et hoc
         mulieres percutiunt, quia inventrix huius generis mulier. Unde et apud Amazonas sistro ad
         bellum feminarum exercitus vocabatur. Tintinnabulum de sono vocis nomen habet, sicut plausus
         manuum, stridor valvarum. Symphonia vulgo appellatur lignum cavum ex utraque parte pelle

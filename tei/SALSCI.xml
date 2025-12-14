@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Scientia artis musicae</title>
         <title type="abbrev">SALSCI</title>
-        <author>Salomo, Elias</author>
-        <date notBefore="1200" notAfter="1299">13th</date>
+        <author><persName>Salomo, Elias</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1992</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1992">1992</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptores ecclesiastici de musica sacra potissimum</emph>, 3 vols., ed. Martin
@@ -43,8 +53,9 @@
         <pb n="[16]"/>Eliae Salomonis Clerici de Sancto Asterio Petrigoricensis Dioecesis in Gallia
         Scientia Artis Musicae.</p>
       <p xml:id="SALSCI0002">Incipit prooemium scientiae artis musicae seu doctrinae.</p>
-      <p xml:id="SALSCI0003">Quoniam veritas et claritas scientiae artis musicae ubique partium mundi,
-        super quem fundamentum universalis ecclesiae quasi post fidem orthodoxam <pb n="[17]"/>consistit, evanuit, et pene lapsa est, quam manifeste constat cum ipsa creatione angelorum
+      <p xml:id="SALSCI0003">Quoniam veritas et claritas scientiae artis musicae ubique partium
+        mundi, super quem fundamentum universalis ecclesiae quasi post fidem orthodoxam <pb n="[17]"
+        />consistit, evanuit, et pene lapsa est, quam manifeste constat cum ipsa creatione angelorum
         eamdem creatam fuisse; nam proprium est eis laudare Deum: et quod ante adventum Domini per
         prophetas et alios sanctos fuerat vaticinatum: Laudate eum omnes angeli eius. Laudate eum in
         sono tubae. Laudate eum in cymbalis bene sonantibus. Cantate Domino canticum novum. Cantate
@@ -56,38 +67,38 @@
         gloriosae Virginis genitricis Dei habemus, quod sequitur: Gaudent angeli, et exultant
         archangeli, et collaudant in coelis filium Dei. Item legitur de beato Severino, quod audivit
         chorum angelorum, deferentem beatum Martinum psalientem in sublime.</p>
-      <p xml:id="SALSCI0004">Et nihilominus quasi ab omnibus ecclesiarum rectoribus, exceptis quibusdam
-        in ecclesia Gallicana, et paucis locis in Anglia, pene totaliter ignoratur. Et quod magis
-        absurdum est, non solum in discipulos, sed etiam in Scribas et Pharisaeos se erigentes, de
-        eo, cuius pedem ignorant, et corrigiam calceamenti solvere non meruerunt, se talios regere
-        non formidant, bufones de nocte in aere, et muscas in pariete de die capere cupientes.
-        Punctum, ut melius in libro vident, capere, seu incipere, seu pronuntiare prorsus ignorant,
-        non curantes, quae puncti sunt, sed quae sua, et simii sunt usurpando. Quod execrabilius
-        est, cantum planum, et bene ordinatum per angelos, et per sanctos prophetas, et per beatum
-        Gregorium, deridendo, assumendo aliquoties naturam cantus scientiae organizandi, quae
-        totaliter supra scientiam cantus plani est reperta. Et etiam vix dignantur aliquotiens pedem
-        suum facere de cantu plano, anticipando, festinando, retardando, et male copulando punctos,
-        ex quibus effectus scientiae organizandi completur: quia fortassis vident punctos taliter
-        paratos. Hoc autem factum est ad decorem et honestatem positionis punctorum, et notae libri,
-        non ad cantandum, ut videntur. Hoc sciant pro certo, non quaerentes, quae nostra sunt, quae
-        vident, nec Dei, nec debitum artis musicae, quia illam ignorant; sed speculando dicentes in
-        aere miau minau, ut appareat et audiat hospes; et fortassis, quod damnabilius est, ut magis
-        frequenter oblationes afferantur, forte ad illicitos usus convertendae, et in marsupiis
-        recludendae.</p>
-      <p xml:id="SALSCI0005">Ego Elias Salomonis, clericus de sancto Asterio Petrigoricensis diocesis,
-        naturam cuiuslibet litterae, et punctorum, et obiectiones facere, et eas solvere, et regulas
-        cuiuslibet litterae, et punctorum, et totius scientiae artis musicae, et notabilia ponere,
-        sine quorum notitia scientia nulla, quamvis ad modum puerorum in cunabulis contentorum, qui
-        quaecumque audiunt fari gestiunt, fuerim constitutus, edicere <pb n="[18]"/>procurabo, quot
-        litterae, quot puncti, quot claves, quot toni, et quot quilibet tonorum habeat species;
-        cuius toni sint omnia, quae communiter in ecclesia cantantur, seu cantando leguntur, quot ut
-        genus, quot ut species singuli toni habeantur; improbando quae improbatione digna fuerint,
-        et quae approbatione digna fuerint approbando.</p>
+      <p xml:id="SALSCI0004">Et nihilominus quasi ab omnibus ecclesiarum rectoribus, exceptis
+        quibusdam in ecclesia Gallicana, et paucis locis in Anglia, pene totaliter ignoratur. Et
+        quod magis absurdum est, non solum in discipulos, sed etiam in Scribas et Pharisaeos se
+        erigentes, de eo, cuius pedem ignorant, et corrigiam calceamenti solvere non meruerunt, se
+        talios regere non formidant, bufones de nocte in aere, et muscas in pariete de die capere
+        cupientes. Punctum, ut melius in libro vident, capere, seu incipere, seu pronuntiare prorsus
+        ignorant, non curantes, quae puncti sunt, sed quae sua, et simii sunt usurpando. Quod
+        execrabilius est, cantum planum, et bene ordinatum per angelos, et per sanctos prophetas, et
+        per beatum Gregorium, deridendo, assumendo aliquoties naturam cantus scientiae organizandi,
+        quae totaliter supra scientiam cantus plani est reperta. Et etiam vix dignantur aliquotiens
+        pedem suum facere de cantu plano, anticipando, festinando, retardando, et male copulando
+        punctos, ex quibus effectus scientiae organizandi completur: quia fortassis vident punctos
+        taliter paratos. Hoc autem factum est ad decorem et honestatem positionis punctorum, et
+        notae libri, non ad cantandum, ut videntur. Hoc sciant pro certo, non quaerentes, quae
+        nostra sunt, quae vident, nec Dei, nec debitum artis musicae, quia illam ignorant; sed
+        speculando dicentes in aere miau minau, ut appareat et audiat hospes; et fortassis, quod
+        damnabilius est, ut magis frequenter oblationes afferantur, forte ad illicitos usus
+        convertendae, et in marsupiis recludendae.</p>
+      <p xml:id="SALSCI0005">Ego Elias Salomonis, clericus de sancto Asterio Petrigoricensis
+        diocesis, naturam cuiuslibet litterae, et punctorum, et obiectiones facere, et eas solvere,
+        et regulas cuiuslibet litterae, et punctorum, et totius scientiae artis musicae, et
+        notabilia ponere, sine quorum notitia scientia nulla, quamvis ad modum puerorum in cunabulis
+        contentorum, qui quaecumque audiunt fari gestiunt, fuerim constitutus, edicere <pb n="[18]"
+        />procurabo, quot litterae, quot puncti, quot claves, quot toni, et quot quilibet tonorum
+        habeat species; cuius toni sint omnia, quae communiter in ecclesia cantantur, seu cantando
+        leguntur, quot ut genus, quot ut species singuli toni habeantur; improbando quae
+        improbatione digna fuerint, et quae approbatione digna fuerint approbando.</p>
       <p xml:id="SALSCI0006">Caput I.</p>
       <p xml:id="SALSCI0007">Rubrica de numero litterarum.</p>
-      <p xml:id="SALSCI0008">Sciendum est, quod ars musicae septenario numero litterarum contenta est A.
-        B. C. D. E. F. G. adinstar et similitudinem, quia sunt septem dona spiritus sancti, de
-        quorum specie Scientia ista unum est.</p>
+      <p xml:id="SALSCI0008">Sciendum est, quod ars musicae septenario numero litterarum contenta
+        est A. B. C. D. E. F. G. adinstar et similitudinem, quia sunt septem dona spiritus sancti,
+        de quorum specie Scientia ista unum est.</p>
       <p xml:id="SALSCI0009">Quid est littera? Minima pars vocis compositae, quae scribi non potest;
         quia individua scribi non potest, ideo subiectum puncti appellatur. Littera non est punctus,
         sed signum, subiectum et firmamentum puncti: sicut dicitur, H. non est littera, sed
@@ -95,15 +106,15 @@
         litterae scribam caput, ut in subsequentibus apparebit. Similiter in Kalendario littera non
         est dies, sed signum, quam diem per eam computare debeamus. Similiter V. non significat nisi
         V. et tamen ponimus in numero pro quinque.</p>
-      <p xml:id="SALSCI0010">Quaeritur, utrum debeant esse plures litterae quam septem, vel sub pauciori
-        numero comprehendi possint, quoad scientiam istam? Respondeo: plures non possunt nec debent
-        esse, nisi alias somniator vellet fingere tot litteras, quot punctos proferre posset, quod
-        absurdum est cogitare. Pauciores numero possunt esse: nam C. et F. et G. quasi eamdem
-        naturam habent, et in utramque istarum trium possumus dicere, quoniam est de natura artis,
-        ut et fa et sol et re. Ergo istae possent reduci ad unam, excepto quod in G. non dicitur fa,
-        sed recompensatur re: et sic numerus earum posset ad numerum quinque vel sex litterarum
-        restringi. Quod verum credo, et ita de rigore scientiae debet esse ad similitudinem sex
-        punctorum.</p>
+      <p xml:id="SALSCI0010">Quaeritur, utrum debeant esse plures litterae quam septem, vel sub
+        pauciori numero comprehendi possint, quoad scientiam istam? Respondeo: plures non possunt
+        nec debent esse, nisi alias somniator vellet fingere tot litteras, quot punctos proferre
+        posset, quod absurdum est cogitare. Pauciores numero possunt esse: nam C. et F. et G. quasi
+        eamdem naturam habent, et in utramque istarum trium possumus dicere, quoniam est de natura
+        artis, ut et fa et sol et re. Ergo istae possent reduci ad unam, excepto quod in G. non
+        dicitur fa, sed recompensatur re: et sic numerus earum posset ad numerum quinque vel sex
+        litterarum restringi. Quod verum credo, et ita de rigore scientiae debet esse ad
+        similitudinem sex punctorum.</p>
       <p xml:id="SALSCI0011">Caput II.</p>
       <p xml:id="SALSCI0012">Rubrica de natura litterarum.</p>
       <p xml:id="SALSCI0013">Viso de numero litterarum videamus de natura earumdem. Et est notandum,
@@ -111,25 +122,25 @@
         et rigidum punctum requirit, ita quod semper dicatur in A re vel mi vel la: nec alio modo
         solfari vel pronuntiari debet.---Regula: nullum A. patitur ut, nec fa, nec sol; sed re et mi
         et la.</p>
-      <p xml:id="SALSCI0014">B. requirit fa et mi, et nihil aliud. Regula: nullum B. patitur nec re, nec
-        sol, nec la; sed mi et fa.</p>
-      <p xml:id="SALSCI0015">C. requirit de natura sui ut, et fa, et sol, et nihil aliud. Regula: nullum
-        C patitur nec re, nec mi, nec la; sed ut et fa.</p>
+      <p xml:id="SALSCI0014">B. requirit fa et mi, et nihil aliud. Regula: nullum B. patitur nec re,
+        nec sol, nec la; sed mi et fa.</p>
+      <p xml:id="SALSCI0015">C. requirit de natura sui ut, et fa, et sol, et nihil aliud. Regula:
+        nullum C patitur nec re, nec mi, nec la; sed ut et fa.</p>
       <p xml:id="SALSCI0016">
         <pb n="[19]"/>E. talis est naturae, quod virilissimi et rigidi valoris est, et patitur mi,
         et la, et nihil aliud, et semper plangatur. Regula: nullum E. patitur ut, nec re, nec fa,
         nec sol; sed mi et la.</p>
-      <p xml:id="SALSCI0017">F. muliebrem consensum et naturam feminei sexus habet, nec potest cantari
-        in ea nisi ut et fa, et quocumque modo cantor indigeat F. sive ascendendo, sive descendendo,
-        ipsam humiliare oportet et ipsam mollificare. Regula: nullum F. patitur re, nec mi, nec sol,
-        nec la; sed ut, et fa.</p>
-      <p xml:id="SALSCI0018">G. requirit ut, et sol, et re, et nihil aliud. Regula: nullum G. patitur
-        nec mi, nec fa, nec la. Ecce notabile generale: qui litteris aliter uteretur, quamdictum
-        fuerit, in vitium falsae musicae laberetur.</p>
+      <p xml:id="SALSCI0017">F. muliebrem consensum et naturam feminei sexus habet, nec potest
+        cantari in ea nisi ut et fa, et quocumque modo cantor indigeat F. sive ascendendo, sive
+        descendendo, ipsam humiliare oportet et ipsam mollificare. Regula: nullum F. patitur re, nec
+        mi, nec sol, nec la; sed ut, et fa.</p>
+      <p xml:id="SALSCI0018">G. requirit ut, et sol, et re, et nihil aliud. Regula: nullum G.
+        patitur nec mi, nec fa, nec la. Ecce notabile generale: qui litteris aliter uteretur,
+        quamdictum fuerit, in vitium falsae musicae laberetur.</p>
       <p xml:id="SALSCI0019">Caput III.</p>
       <p xml:id="SALSCI0020">De natura [Gamma]. Gamma.</p>
-      <p xml:id="SALSCI0021">[Gamma]. Gamma in graeco idem est, quod G. in latino. Sed quare in palma
-        praeponitur? Respondeo: praeponitur ut punctus, non ut littera, hoc est notandum. Item
+      <p xml:id="SALSCI0021">[Gamma]. Gamma in graeco idem est, quod G. in latino. Sed quare in
+        palma praeponitur? Respondeo: praeponitur ut punctus, non ut littera, hoc est notandum. Item
         praeponitur, quia ita placuit primis inventoribus maioribus nostris, et ex necessitatis
         causa, quia G. magis habet temperatum sonum, quam aliqua alia littera. Item aliqua alia non
         poterat poni in principio, quin ordo litterarum esset truncatus; et per consequens prima
@@ -137,10 +148,10 @@
         careret. Ex his rationibus G. quia ultima littera, necessarium fuit Gamma praeponi.</p>
       <p xml:id="SALSCI0022">Caput IV.</p>
       <p xml:id="SALSCI0023">Rubrica de numero et natura punctorum et litterarum.</p>
-      <p xml:id="SALSCI0024">Puncti sunt sex: ut, re, mi, fa, sol, la; nec intelligas, quod ut, re, mi,
-        fa, sol, la sint puncti, sed denominationes punctorum, a praedecessoribus nostris, et bene
-        constitutae: sicut in grammatica hic non est articulus, sed pro signo articuli masculini
-        generis habetur.</p>
+      <p xml:id="SALSCI0024">Puncti sunt sex: ut, re, mi, fa, sol, la; nec intelligas, quod ut, re,
+        mi, fa, sol, la sint puncti, sed denominationes punctorum, a praedecessoribus nostris, et
+        bene constitutae: sicut in grammatica hic non est articulus, sed pro signo articuli
+        masculini generis habetur.</p>
       <p xml:id="SALSCI0025">Quaero, quare non sunt septem puncti vel plures, sicut sunt septem
         litterae? Respondeo, solutum est, quod non sunt plures: nonne dictum est, quod C. F. et G.
         quasi eamdem naturam habent? et sic pauciores numero, ut dictum est de litteris, possent
@@ -152,17 +163,18 @@
         secundis, secundo utimur tertiis, tertio utimur quartis, quarto utimur quintis, re, mi, fa,
         sol, la? et sic palma contexta est de quinario ascensu et descensu, et per consequens tota
         ars debet esse.</p>
-      <p xml:id="SALSCI0026">Revera quantum est de rigore artis, et de bene esse, omnis ascensus nec non
-        descensus sine medio alicuius puncti quinarium numerum transcendere non debet: <pb n="[20]"/>et qui novum cantum edit, et quinarium ascensum vel descensum facit sine medio alicuius
-        puncti, contra naturam artis manifeste facit, et videtur, quod non ut bonus doctor, sed ut
-        artem ignorans ac malitiosus facit. Item nullus tonorum, quando manifestat naturam suam, non
-        facit mentionem nisi de quinque punctis, nec etiam ascendit unico ictu nisi quinque punctos,
-        ex quorum viribus tota ars regitur et amplexatur. Ergo nos ulterius sine medio extendere non
-        debemus, et qui contra facit, vitium falsae musicae non evadit.</p>
-      <p xml:id="SALSCI0027">Sed quaero: nonne sunt XIX. puncti in palma, et cantando eisdem utimur, et
-        etiam pluribus aliquotiens? Respondeo: verum est, quod utimur, sed multiplicando litteras et
-        punctos licitum est usque ad mille, vel ad infinitum numerum, si instrumenta nostra possent,
-        ascendere. Unde propter hoc non sunt nisi sex puncti: nec datur licentia sine medio
+      <p xml:id="SALSCI0026">Revera quantum est de rigore artis, et de bene esse, omnis ascensus nec
+        non descensus sine medio alicuius puncti quinarium numerum transcendere non debet: <pb
+          n="[20]"/>et qui novum cantum edit, et quinarium ascensum vel descensum facit sine medio
+        alicuius puncti, contra naturam artis manifeste facit, et videtur, quod non ut bonus doctor,
+        sed ut artem ignorans ac malitiosus facit. Item nullus tonorum, quando manifestat naturam
+        suam, non facit mentionem nisi de quinque punctis, nec etiam ascendit unico ictu nisi
+        quinque punctos, ex quorum viribus tota ars regitur et amplexatur. Ergo nos ulterius sine
+        medio extendere non debemus, et qui contra facit, vitium falsae musicae non evadit.</p>
+      <p xml:id="SALSCI0027">Sed quaero: nonne sunt XIX. puncti in palma, et cantando eisdem utimur,
+        et etiam pluribus aliquotiens? Respondeo: verum est, quod utimur, sed multiplicando litteras
+        et punctos licitum est usque ad mille, vel ad infinitum numerum, si instrumenta nostra
+        possent, ascendere. Unde propter hoc non sunt nisi sex puncti: nec datur licentia sine medio
         ascendendi vel descendendi per naturam tonorum, nisi de quinque; nec per naturam palmae
         etiam idem debet esse. Sicut videmus, quod in viella non sunt, nisi quinque chordae, et
         tamen secundum diversitatem tactuum chordarum puncti et sonus viellae possunt multiplicari
@@ -175,8 +187,8 @@
         vel legendo cantetur, et cum tonis accipit principium, vim, finem et fundamentum.</p>
       <p xml:id="SALSCI0028">Caput V.</p>
       <p xml:id="SALSCI0029">De natura cuiuslibet puncti per se.</p>
-      <p xml:id="SALSCI0030">Quid est punctus? Punctus est minima pars vocis simplicis, quae scribi seu
-        pronuntiari non potest, nisi integre. Tamen punctus, quantum est de natura sui, diversos
+      <p xml:id="SALSCI0030">Quid est punctus? Punctus est minima pars vocis simplicis, quae scribi
+        seu pronuntiari non potest, nisi integre. Tamen punctus, quantum est de natura sui, diversos
         effectus habet, et secundum illos incipi debet et pronuntiari. Nam si punctus fuerit in ut
         in principio, tu minor debes moderare te cum puncto, et punctum tecum. Si fuerit in re,
         grossum et rigidum sine planctu ponas. Si fuerit in E. audacter invadas plangendo, rigide
@@ -185,9 +197,9 @@
         et tunc bene persevera sustinendo ipsam. Si fuerit in G. temperate accipias et pronunties
         sine planctu aliquo et mollificatione, rigide sustine eum in natura sua non
         mollificando.</p>
-      <p xml:id="SALSCI0031">Item syllaba vel dictio, quae cantatur, aut finit in littera vocali aut in
-        consonante: si in vocali, nulla tricta debet <pb n="[21]"/>esse in puncto, secure teneas pro
-        regula, nec tu facias eam: non est nostrum addere vel minuere. Si finierit in litteram
+      <p xml:id="SALSCI0031">Item syllaba vel dictio, quae cantatur, aut finit in littera vocali aut
+        in consonante: si in vocali, nulla tricta debet <pb n="[21]"/>esse in puncto, secure teneas
+        pro regula, nec tu facias eam: non est nostrum addere vel minuere. Si finierit in litteram
         consonantem, potest esse tricta et quodammodo ad decorem puncti, sed verius est, ut littera
         plene possit pronuntiari. Item si cantaveris notam, non decipiaris, quamquam alicubi puncti
         sint soli; nam ita debet esse: sed abusus invaluit. Si alicubi bini et bini se teneant, tres
@@ -196,11 +208,11 @@
         nota pretiosior reputetur et liber. Et in hoc cantus planus simiat (i.e. imitatur) naturam
         organici cantus. Sed non propter hoc tu minor, qui cantabis, festines punctos, et cantes
         lovireli (sic) expungendo, cantum organicum seu Lombardos deridendo.</p>
-      <p xml:id="SALSCI0032">Item connexio punctorum est signum et instructio, quod debeat fieri post
-        punctum solum pausa, maxime si continet syllabam, quae dictionem facit. Aliquotiens pausatur
-        post duos punctos, aliquando post tres, aliquando post quatuor, aliquando post quinque. Et
-        est notandum, quod puncti coniuncti in libro bene notato dividi non debent pro pausa
-        facienda: sed bene possumus, et debemus et tenemur ex debito separatim cantare. Bene
+      <p xml:id="SALSCI0032">Item connexio punctorum est signum et instructio, quod debeat fieri
+        post punctum solum pausa, maxime si continet syllabam, quae dictionem facit. Aliquotiens
+        pausatur post duos punctos, aliquando post tres, aliquando post quatuor, aliquando post
+        quinque. Et est notandum, quod puncti coniuncti in libro bene notato dividi non debent pro
+        pausa facienda: sed bene possumus, et debemus et tenemur ex debito separatim cantare. Bene
         caveatur, non debemus ponere falcem nostram in messem alienam assumendo naturam organizandi,
         punctos properando: nam qui ad utrumque festinat, utrumque destruendo neutrum bene peragit.
         Regula infallibis, omnis cantus planus in aliqua parte sui nullam festinationem in uno loco
@@ -217,9 +229,9 @@
         similiter posset multiplicari in infinitum.</p>
       <p xml:id="SALSCI0036">Caput VII.</p>
       <p xml:id="SALSCI0037">Rubrica de notitia palma.</p>
-      <p xml:id="SALSCI0038">Quid est clavis in hac arte? Clavis est scientiam artis musicae aperiens
-        artificialiter per septem litteras et sex punctos a doctoribus nostris instinctu divino
-        reperta.</p>
+      <p xml:id="SALSCI0038">Quid est clavis in hac arte? Clavis est scientiam artis musicae
+        aperiens artificialiter per septem litteras et sex punctos a doctoribus nostris instinctu
+        divino reperta.</p>
       <p xml:id="SALSCI0039">
         <pb n="[22]"/>[GSIII:22; text: Figurae palmae 1. ut. re. mi. fa. sol. la. 1. 2. 3. 4. 5. I
         clavis, II. clav., III. clav., IV. clav., V. clav., VI. clav., VII. clav., I. punctum.,II.
@@ -232,20 +244,20 @@
         ut.] <figure>
           <graphic url="/images/SALSCI_01GF.gif"/>
         </figure></p>
-      <p xml:id="SALSCI0040">Superest, ut ad palmae notitiam veniamus, et per eamdem ad clavis scientiae
-        artis musicae aperitionem. Ad evidentiam eorum, quae in palma continentur, praenotandum est,
-        quod sicuti quinque digiti palmae coniuncti sunt ex decem et novem iuncturis sive unciis cum
-        quinque capitibus digitorum; ita per quamlibet unciam fingimus unicum habere punctum, et
-        multiplicamus scientiam artis musicae, sive primam clavem, quae habetur ut genus, per
-        clavem, quam appellamus palmam, quae ut species sive instrumentum nuncupatur, et ipsa
-        mediante prima clavis operatur. <pb n="[23]"/>Quid est palma in hac scientia? Palma est
-        clavis, figura, sive instrumentum continens omnimodam notitiam artis musicae, seu omnium,
-        quae recte cantari possunt, manifestationem, sine cuius notitia scientia nulla; nec alias
-        cantor, sed ioculator seu iauglator reputatur.</p>
-      <p xml:id="SALSCI0041">Quare sunt tot ordines in palma et in dispari numero? Respondeo: tot sunt
-        ordines, quot quaelibet littera habet officia, et hoc teneatur pro regula. Et est notandum
-        notabiliter, quod quaelibet littera nec punctus alio modo uti debet in aliquo cantu de
-        mundo, nisi illis modis, qui in figura palmae continentur, Et notandum, quod hi debent
+      <p xml:id="SALSCI0040">Superest, ut ad palmae notitiam veniamus, et per eamdem ad clavis
+        scientiae artis musicae aperitionem. Ad evidentiam eorum, quae in palma continentur,
+        praenotandum est, quod sicuti quinque digiti palmae coniuncti sunt ex decem et novem
+        iuncturis sive unciis cum quinque capitibus digitorum; ita per quamlibet unciam fingimus
+        unicum habere punctum, et multiplicamus scientiam artis musicae, sive primam clavem, quae
+        habetur ut genus, per clavem, quam appellamus palmam, quae ut species sive instrumentum
+        nuncupatur, et ipsa mediante prima clavis operatur. <pb n="[23]"/>Quid est palma in hac
+        scientia? Palma est clavis, figura, sive instrumentum continens omnimodam notitiam artis
+        musicae, seu omnium, quae recte cantari possunt, manifestationem, sine cuius notitia
+        scientia nulla; nec alias cantor, sed ioculator seu iauglator reputatur.</p>
+      <p xml:id="SALSCI0041">Quare sunt tot ordines in palma et in dispari numero? Respondeo: tot
+        sunt ordines, quot quaelibet littera habet officia, et hoc teneatur pro regula. Et est
+        notandum notabiliter, quod quaelibet littera nec punctus alio modo uti debet in aliquo cantu
+        de mundo, nisi illis modis, qui in figura palmae continentur, Et notandum, quod hi debent
         intelligi, ac si essent repetitae omnes regulae litterarum et punctorum, quae sunt prolatae,
         ut clarius oculo ad oculum, ut in palma continetur, veritas elucescat. Item omnes ordines
         palmae probo. Nonne primo introducendis in arte ista ostenditur eis gamma [Gamma]. A. B. C.
@@ -268,8 +280,8 @@
         sonoritas in ecclesia militante et triumphante et etiam extra decantantur. Primo continet
         litteras septem, secundo punctos sex, tertio unam clavem cum multiplicatione consueta,
         quarto tonos, ex quibus constat et regitur totus cantus.</p>
-      <p xml:id="SALSCI0043">Item non mireris tu minor, si palma et caeterae figurae artis musicae in
-        similitudine rotae seu rotunditatis edantur. Nonne vides in principio rotae aperte
+      <p xml:id="SALSCI0043">Item non mireris tu minor, si palma et caeterae figurae artis musicae
+        in similitudine rotae seu rotunditatis edantur. Nonne vides in principio rotae aperte
         fundamentum, quod incipitur per ut, et prosequitur per totam in superiori cacumine cum sex
         punctis ut, re, mi, fa, sol, la; et postea facit descensum suum per aliam partem rotae usque
         ad locum, ubi incepit, aequa lance et aequali gradu, la, sol, fa, mi, re, ut. Item non
@@ -280,10 +292,10 @@
         librum.</p>
       <p xml:id="SALSCI0044">Caput VIII.</p>
       <p xml:id="SALSCI0045">Rubrica de doctrina cantandi.</p>
-      <p xml:id="SALSCI0046">His praemissis ad institutionem cantus et manifestationem artis musicae, et
-        rotae seu praesentis figurae expositionem veniamus.</p>
-      <p xml:id="SALSCI0047">[GSIII:24; text: Figura 2. G. F. E, D. C. B. A. ut. re. mi. fa. sol. la.
-        Quinti. Quarti. Tertii simpli. Tertii dupli. Secundi.] <figure>
+      <p xml:id="SALSCI0046">His praemissis ad institutionem cantus et manifestationem artis
+        musicae, et rotae seu praesentis figurae expositionem veniamus.</p>
+      <p xml:id="SALSCI0047">[GSIII:24; text: Figura 2. G. F. E, D. C. B. A. ut. re. mi. fa. sol.
+        la. Quinti. Quarti. Tertii simpli. Tertii dupli. Secundi.] <figure>
           <graphic url="/images/SALSCI_02GF.gif"/>
         </figure></p>
       <p xml:id="SALSCI0048">
@@ -302,21 +314,21 @@
         copulatim sine pausa. Et quia divisim cantari debent, ideo sunt trictae inter punctum et
         punctum, et postea debent copulari ut linea eos advertit: et quia trini et trini cantantur,
         tertii vocantur.</p>
-      <p xml:id="SALSCI0049">Per tertium radium habemus alium modum cantandi, in quo copulantur bini et
-        bini, ut patet per lineam, quae tenet eos copulatos: et quia bini et bini cantantur, non fit
-        tricta inter punctum et punctum, et nihilominus vocantur tertii alterius modi, quam primi.
-        Per quartum radium habemus quartum modum cantandi et copulandi quatuor et quatuor, ut per
-        lineas copulantur, et ideo vocantur quarti. Trictae positae sunt inter punctum et punctum;
-        nam quamquam copulentur quatuor et quatuor, nihilominus primo debent cantari separatim. Per
-        quintum radium habemus quintum modum cantandi, ut patet per iam dicta, et per lineas et
-        trictas, quae in eodem radio continentur.</p>
+      <p xml:id="SALSCI0049">Per tertium radium habemus alium modum cantandi, in quo copulantur bini
+        et bini, ut patet per lineam, quae tenet eos copulatos: et quia bini et bini cantantur, non
+        fit tricta inter punctum et punctum, et nihilominus vocantur tertii alterius modi, quam
+        primi. Per quartum radium habemus quartum modum cantandi et copulandi quatuor et quatuor, ut
+        per lineas copulantur, et ideo vocantur quarti. Trictae positae sunt inter punctum et
+        punctum; nam quamquam copulentur quatuor et quatuor, nihilominus primo debent cantari
+        separatim. Per quintum radium habemus quintum modum cantandi, ut patet per iam dicta, et per
+        lineas et trictas, quae in eodem radio continentur.</p>
       <p xml:id="SALSCI0050">Et quare quartus radius pedem suum integrum non habet? Respondeo: nulla
         ratione caret, sed usus abolevit.</p>
-      <p xml:id="SALSCI0051">Quaero: quare quintum documentum huius artis incipit per re, et non per ut?
-        Respondeo: nam haberet debile principium in ut, et similem finem in G. et ars ista procedit
-        ex divina iussione, et magna parvitate laudis directae ad Deum, et ex lascivia hominum: ideo
-        parve et rigide appetit incipere in re, et nobilius ascendere in A. et iterum moderate
-        finire in re, ubi incepit.</p>
+      <p xml:id="SALSCI0051">Quaero: quare quintum documentum huius artis incipit per re, et non per
+        ut? Respondeo: nam haberet debile principium in ut, et similem finem in G. et ars ista
+        procedit ex divina iussione, et magna parvitate laudis directae ad Deum, et ex lascivia
+        hominum: ideo parve et rigide appetit incipere in re, et nobilius ascendere in A. et iterum
+        moderate finire in re, ubi incepit.</p>
       <p xml:id="SALSCI0052">Quaero: ars ista non ascendit, ut video, nisi quinque punctos, et nos
         possumus quinto altius, quoadusque instrumenta nostra se extendere queunt, cantare.
         Respondeo: in hoc, quod tu dicis, quod potes canere, quinto altius, et cum procedit ex
@@ -331,8 +343,8 @@
         probus cum instrumento tuo per claves suas et multiplicationes earumdem: sed sine medio
         alicuius puncti ascendere non debes.</p>
       <p xml:id="SALSCI0053">Caput IX.</p>
-      <p xml:id="SALSCI0054">Rubrica de Consistorio tonorum, ut in genere generalissimo, et in specie,
-        et ordine eorumdem.</p>
+      <p xml:id="SALSCI0054">Rubrica de Consistorio tonorum, ut in genere generalissimo, et in
+        specie, et ordine eorumdem.</p>
       <p xml:id="SALSCI0055">[GSIII:26; text: Figura 3., a. b. C. d. e. f. G. Prima Clavis. Secunda
         Clavis. Tertia Clavis. Quarta Clavis. Quinta Clavis. Sexta Clavis. Septima Clavis. ut. re.
         mi. fa. sol. la. Primus tonus, filius toni, frater tertii, pater secundi. secundus tonus,
@@ -348,8 +360,8 @@
       <p xml:id="SALSCI0058">Superest, ut praesentem figuram toni in genere discutiamus. Et primo
         notandum est, ordinationem tonorum et in genere et in specie in debita et propria natura sua
         editam esse, et quemlibet tonorum sedem debitam obtinere.</p>
-      <p xml:id="SALSCI0059">Quid est tonus in genere? Tonus in genere est figura septem litterarum, et
-        unius clavis, sex punctorum, et octo tonorum, et totius cantus tam artificialis quam
+      <p xml:id="SALSCI0059">Quid est tonus in genere? Tonus in genere est figura septem litterarum,
+        et unius clavis, sex punctorum, et octo tonorum, et totius cantus tam artificialis quam
         naturalis continens naturam. Verum cum dicat philosophus, quod omnis definitio debet esse
         convertibilis cum suo definito, et nomina debent esse consonantia rebus, ad notitiam
         definitionis et cognitionem arboris veniamus. Et debemus praenotare, quod tonus in genere in
@@ -363,16 +375,16 @@
         sua; reliqui quatuor ut species, secundum quod supradictum est. Ob hoc aequales obtinent
         sedes, seu occupant loca sua, generali consistorio constituti cum superlativo suo, ut intra
         circuitum cuiuslibet continetur recta sedes et nominatio et proprietas eiusdem.</p>
-      <p xml:id="SALSCI0060">Quot litteras et punctos quisque tonorum obtinet de sui natura? Respondeo.
-        Primam litteram pro re, ultimam pro fine, reliquas pro placitu ascendendo et descendendo tam
-        subtus se quam supra se. Et si quis ignorans musicam praesumtuose alteri tonorum plures
-        punctos et litteras attribueret, ut dictum est, de natura sui illae litterae et puncti
-        superflua sunt omnino.</p>
+      <p xml:id="SALSCI0060">Quot litteras et punctos quisque tonorum obtinet de sui natura?
+        Respondeo. Primam litteram pro re, ultimam pro fine, reliquas pro placitu ascendendo et
+        descendendo tam subtus se quam supra se. Et si quis ignorans musicam praesumtuose alteri
+        tonorum plures punctos et litteras attribueret, ut dictum est, de natura sui illae litterae
+        et puncti superflua sunt omnino.</p>
       <p xml:id="SALSCI0061">Ad illam quaestionem, quae posset fieri de hoc, quod quilibet tonorum
         excedit ut in pluribus litteras et punctos praedictos in cantu, dabitur responsum in figura
         sive in arbore primi toni.</p>
-      <p xml:id="SALSCI0062">Viso de tono in genere, et de tonis in specie, et eorum specie et omnium
-        quae intra rotam continentur, restat, ut de his, quae posita sunt in definitione seu
+      <p xml:id="SALSCI0062">Viso de tono in genere, et de tonis in specie, et eorum specie et
+        omnium quae intra rotam continentur, restat, ut de his, quae posita sunt in definitione seu
         circumferentiis rotae, videamus.</p>
       <p xml:id="SALSCI0063">Primo satis patet ordo primarum septem litterarum, quae in circulo
         continentur. Primo quae primo pueris debeat ostendi et doceri, antequam perveniant ad
@@ -382,35 +394,36 @@
         ordinari aequa distantia, non possunt nec debent poni in hac figura, <pb n="[28]"/>nec in
         figura artis musicae supra litteras directae: sed habito repectu ad aequalitatem graduum,
         non ad numerum litterarum.</p>
-      <p xml:id="SALSCI0064">Clavis et eius multiplicatio merito secundo ordine figurae post litteras
-        ponitur, quia super ipsis fundatur. Nonne dicitur, quod talis clavis sive mutatio in tali
-        littera facit principium suum? utique sic.</p>
-      <p xml:id="SALSCI0065">Puncti in tertia circumferentia ponuntur, quia per claves ordinantur, et
-        recta ordinatione proferuntur, veluti ut, re, mi, fa, sol, la; et ideo recte incipiunt super
-        gamma sive G. quod idem est, et ex tunc in antea aequis gradibus procedunt. In quarto
+      <p xml:id="SALSCI0064">Clavis et eius multiplicatio merito secundo ordine figurae post
+        litteras ponitur, quia super ipsis fundatur. Nonne dicitur, quod talis clavis sive mutatio
+        in tali littera facit principium suum? utique sic.</p>
+      <p xml:id="SALSCI0065">Puncti in tertia circumferentia ponuntur, quia per claves ordinantur,
+        et recta ordinatione proferuntur, veluti ut, re, mi, fa, sol, la; et ideo recte incipiunt
+        super gamma sive G. quod idem est, et ex tunc in antea aequis gradibus procedunt. In quarto
         circulo merito supponuntur toni super litteras directi, ut constet, in qua littera quilibet
         tonorum facit litteram suam: et quia ultimo adveniunt huic figurae, denominatur figura de
         ordine tonorum.</p>
-      <p xml:id="SALSCI0066">Et quare ponitur tonus in medio tonorum in tali specie, cum non sint nisi
-        octo? Solutum est, si bene advertatur: ponitur ut genus et natura, quae generat alios tonos,
-        et ab illo generantur et originem sumunt. Nonne in arbore matrimonii ponitur truncus in
-        persona hominis, non ut ipse sit gradus, nec consistat in gradu, sed quia alii descendunt ab
-        ipso? Utique sic.</p>
+      <p xml:id="SALSCI0066">Et quare ponitur tonus in medio tonorum in tali specie, cum non sint
+        nisi octo? Solutum est, si bene advertatur: ponitur ut genus et natura, quae generat alios
+        tonos, et ab illo generantur et originem sumunt. Nonne in arbore matrimonii ponitur truncus
+        in persona hominis, non ut ipse sit gradus, nec consistat in gradu, sed quia alii descendunt
+        ab ipso? Utique sic.</p>
       <p xml:id="SALSCI0067">Caput XI.</p>
-      <p xml:id="SALSCI0068">De ordinatione et statu primi toni cum secundo in lectura et in figura.</p>
-      <p xml:id="SALSCI0069">His praemissis ad ordinationem primi toni, ut est genus respectu secundi,
-        et ad ordinationem similiter cum primo et seculorum, et quinque litterarum, quas quisque
-        habet sub se, procedamus. Et primo videamus, quid est primus tonus.</p>
+      <p xml:id="SALSCI0068">De ordinatione et statu primi toni cum secundo in lectura et in
+        figura.</p>
+      <p xml:id="SALSCI0069">His praemissis ad ordinationem primi toni, ut est genus respectu
+        secundi, et ad ordinationem similiter cum primo et seculorum, et quinque litterarum, quas
+        quisque habet sub se, procedamus. Et primo videamus, quid est primus tonus.</p>
       <p xml:id="SALSCI0070">Figura 4.</p>
-      <p xml:id="SALSCI0071">Primus tonus est figura decem seculorum, certas quinque litteras continens
-        per palmam, et si quae aliae fuerint insertae inter ipsas, regens totum cantum tam naturalem
-        quam artificialem: quae incipit in F. regula sua, et finit in D. et quasi incipit et quasi
-        terminatur cum favore secundi, qui est de gremio suo et eius species, et sub una radice
-        terminatur.</p>
-      <p xml:id="SALSCI0072">Ordo figurae per iam dictam definitionem et eius inspectionem cum quinque
-        litteris de circumferentia sibi servientibus satis patet, et si quae aliae interfuerint.
-        Dicit in definitione propter G. quod est insertum regens totum cantum, qui in G. incipit, et
-        in D. terminatur.</p>
+      <p xml:id="SALSCI0071">Primus tonus est figura decem seculorum, certas quinque litteras
+        continens per palmam, et si quae aliae fuerint insertae inter ipsas, regens totum cantum tam
+        naturalem quam artificialem: quae incipit in F. regula sua, et finit in D. et quasi incipit
+        et quasi terminatur cum favore secundi, qui est de gremio suo et eius species, et sub una
+        radice terminatur.</p>
+      <p xml:id="SALSCI0072">Ordo figurae per iam dictam definitionem et eius inspectionem cum
+        quinque litteris de circumferentia sibi servientibus satis patet, et si quae aliae
+        interfuerint. Dicit in definitione propter G. quod est insertum regens totum cantum, qui in
+        G. incipit, et in D. terminatur.</p>
       <p xml:id="SALSCI0073">Contra: nonne Responsorium virgo flagellatur et antiphon Amicus Dei
         Nicolaus, et plura, incipiunt in F. non propter hoc sunt primi toni? Responsum est in
         definitione, si bene advertatur. Continetur ibi, quod in regula primi toni incipit non
@@ -421,9 +434,9 @@
         fallaciam secundum quid et simpliciter.</p>
       <p xml:id="SALSCI0074">
         <pb n="[29]"/>Figura 4.</p>
-      <p xml:id="SALSCI0075">[GSIII:29; a. b. e. D. Responsoria Secundo Tono. F. Responsoria Primo Tono.
-        Primus Ordo. Secundus Ordo. Tertius Ordo. Quartus Ordo. Seculorum Amen. Secundus Tonus.
-        Linea Transversalis.] <figure>
+      <p xml:id="SALSCI0075">[GSIII:29; a. b. e. D. Responsoria Secundo Tono. F. Responsoria Primo
+        Tono. Primus Ordo. Secundus Ordo. Tertius Ordo. Quartus Ordo. Seculorum Amen. Secundus
+        Tonus. Linea Transversalis.] <figure>
           <graphic url="/images/SALSCI_04GF.gif"/>
         </figure></p>
       <p xml:id="SALSCI0076">
@@ -443,27 +456,27 @@
         undecim species seculorum, ut liquet in figura. Sed quare scissum est quartum seculorum?
         Quia abiiciendum est, et membrana occupabat: et fortassis ex aliis plures essent abiiciendi,
         ut in practica eiusdem primi toni apparebit.</p>
-      <p xml:id="SALSCI0078">Item esto, quod dicta decem seculorum in quatuor ordines dividantur, sive
-        in quatuor sedes: quare ponuntur tria seculorum in primo ordine seu sede? Respondeo, quia
-        comitantur seculorum de Gloria Patri, et in eadem littera finem sortiuntur.</p>
-      <p xml:id="SALSCI0079">Quare unum seculorum ponitur in secundo ordine tantum in F.? Quia nullum
-        aliud secum facit finem in eadem littera F. et fortassis, et sine fortassis, quia omnibus
-        aliis dignius est et melius temperatum, et etiam illud sufficeret tantum, et optime posset
-        regere cantum totum de primo tono, si placuisset domino inventori nostro: ideo tamquam soli
-        et digniori facta est propria sedes, et assignatus secundus ordo.</p>
-      <p xml:id="SALSCI0080">Quare ponuntur tria seculorum in tertia sede? Quia omnia finiunt in G. Idem
-        dico de aliis tribus, quia finiunt in A.</p>
-      <p xml:id="SALSCI0081">Quare secundus tonus sumit originem in medio primi, et in medio figurae, et
-        in litteris in sinistra parte figurae? Respondeo: necessitate. Nonne dictum est, quod
-        species vel filius primi est? ideo incipit in medio figurae; et quia facit regulam suam, ubi
-        primus finit, ideo in sinistra parte incipiunt litterae secundi, quia primus finit
+      <p xml:id="SALSCI0078">Item esto, quod dicta decem seculorum in quatuor ordines dividantur,
+        sive in quatuor sedes: quare ponuntur tria seculorum in primo ordine seu sede? Respondeo,
+        quia comitantur seculorum de Gloria Patri, et in eadem littera finem sortiuntur.</p>
+      <p xml:id="SALSCI0079">Quare unum seculorum ponitur in secundo ordine tantum in F.? Quia
+        nullum aliud secum facit finem in eadem littera F. et fortassis, et sine fortassis, quia
+        omnibus aliis dignius est et melius temperatum, et etiam illud sufficeret tantum, et optime
+        posset regere cantum totum de primo tono, si placuisset domino inventori nostro: ideo
+        tamquam soli et digniori facta est propria sedes, et assignatus secundus ordo.</p>
+      <p xml:id="SALSCI0080">Quare ponuntur tria seculorum in tertia sede? Quia omnia finiunt in G.
+        Idem dico de aliis tribus, quia finiunt in A.</p>
+      <p xml:id="SALSCI0081">Quare secundus tonus sumit originem in medio primi, et in medio
+        figurae, et in litteris in sinistra parte figurae? Respondeo: necessitate. Nonne dictum est,
+        quod species vel filius primi est? ideo incipit in medio figurae; et quia facit regulam
+        suam, ubi primus finit, ideo in sinistra parte incipiunt litterae secundi, quia primus finit
         ibidem.</p>
-      <p xml:id="SALSCI0082">Quare secundus tonus duabus speciebus seculorum est contentus? Respondeo:
-        quia plura non fuerunt sibi a prima impositione assignata: fortassis esset contenta uno, et
-        credo quod de artis natura quilibet tonorum uno seculorum debet esse contentus, in practica
-        quorumlibet patebit, quia ambo per unum truncum, et duos pedes eiusdem trunci designantur.
-        Responsum est, quamvis sint diversa notabilia primi et secundi, in pluribus conveniunt, et
-        unum finem sortiuntur.</p>
+      <p xml:id="SALSCI0082">Quare secundus tonus duabus speciebus seculorum est contentus?
+        Respondeo: quia plura non fuerunt sibi a prima impositione assignata: fortassis esset
+        contenta uno, et credo quod de artis natura quilibet tonorum uno seculorum debet esse
+        contentus, in practica quorumlibet patebit, quia ambo per unum truncum, et duos pedes
+        eiusdem trunci designantur. Responsum est, quamvis sint diversa notabilia primi et secundi,
+        in pluribus conveniunt, et unum finem sortiuntur.</p>
       <p xml:id="SALSCI0083">Quid est secundus tonus? Secundus tonus est figura continens quinque
         litteras, et si quae aliae fuerint insertae, <pb n="[31]"/>regens totum cantum tam
         artificialem quam naturalem, inchoantem in regula sua, et finem accipientem in D. cum
@@ -472,11 +485,11 @@
         merito taliter ordinatur; nam F. tota est de primo tono, in eo quod est posita in figura, et
         est regula primi toni, et ibi incipiunt litterae primi, et quia in D. primus et secundus
         incipit et finit, ideo per lineam transversalem D. tangitur quasi moecha utriusque.</p>
-      <p xml:id="SALSCI0085">Quare non copulatur secundus tonus cum primo, ex quo in cantum conveniunt,
-        et quasi sunt similes? Respondeo: nihil idem, quod suum simile, imo se habent in omnibus
-        secundum magis et minus. Illa responsoria scissa in circumferentia rotae ponitur pro regula
-        primi et secundi. Illud I. et T. ponuntur pro numero tonorum. Reliqua omnia, quae circa
-        figuram praesentem sunt posita, per circumspectionem poterunt deprehendi, et notitiae
+      <p xml:id="SALSCI0085">Quare non copulatur secundus tonus cum primo, ex quo in cantum
+        conveniunt, et quasi sunt similes? Respondeo: nihil idem, quod suum simile, imo se habent in
+        omnibus secundum magis et minus. Illa responsoria scissa in circumferentia rotae ponitur pro
+        regula primi et secundi. Illud I. et T. ponuntur pro numero tonorum. Reliqua omnia, quae
+        circa figuram praesentem sunt posita, per circumspectionem poterunt deprehendi, et notitiae
         figurarum aliorum tonorum similiter per inspectionem et lecturam istius poterunt de facili
         addici: nam quotiens videmus aliquid simile, dicimus ipsum esse tale, quale aliud est.</p>
       <p xml:id="SALSCI0086">Caput XII.</p>
@@ -491,10 +504,10 @@
         IIII. VIII. IX. X. Seculorum amen.]</p>
       <p xml:id="SALSCI0090">Caput XIII.</p>
       <p xml:id="SALSCI0091">Rubrica et practica de regimine Seculorum.</p>
-      <p xml:id="SALSCI0092">Et primo de primo ordine, quorum fines amen hic repono, quoniam ab iisdem
-        ipsa seculorum sumunt quasi vires regiminis sui. Et est notandum pro regula, quod prima duo
-        seculorum quantum ad unum regimen per idem reputantur. Notata sunt continue superius, ut
-        eorum doctrina facilius valeat deprehendi.</p>
+      <p xml:id="SALSCI0092">Et primo de primo ordine, quorum fines amen hic repono, quoniam ab
+        iisdem ipsa seculorum sumunt quasi vires regiminis sui. Et est notandum pro regula, quod
+        prima duo seculorum quantum ad unum regimen per idem reputantur. Notata sunt continue
+        superius, ut eorum doctrina facilius valeat deprehendi.</p>
       <p xml:id="SALSCI0093">Caput XIV.</p>
       <p xml:id="SALSCI0094">Rubrica de expositione: primum quaerite.</p>
       <p xml:id="SALSCI0095">Viso de palma, et de his, quae praecedunt, et quae sequuntur ad eam;
@@ -505,7 +518,8 @@
         operantur, quae praemissa sunt de primo tono, videamus; et ut invocemus nomen Domini, et
         eius regnum adquiramus, dicamus: primum quaerite regnum Dei. Et est sciendum, quod sex
         rationibus praemittitur primum quaerite in principio: per invocationem nominis Iesu Christi,
-        et per acquisitionem regni Dei, et quia regitur per novem seculorum: tertio ponitur <pb n="[33]"/>per neuma de fine, qui multum operatur: quarto quia in omni sui parte exprimit
+        et per acquisitionem regni Dei, et quia regitur per novem seculorum: tertio ponitur <pb
+          n="[33]"/>per neuma de fine, qui multum operatur: quarto quia in omni sui parte exprimit
         proprietatem sui toni; quinto ponit verum ordinem multipliciter primum quaerite; primo
         invocat auxilium regni Dei, et primum rerum principium primi toni: item neuma ponitur ibi
         pro exemplari; nam simili neumate in fine antiphonarum primi toni, quibus volumus imponere
@@ -528,8 +542,8 @@
         inconsutilis.</p>
       <p xml:id="SALSCI0097">Caput XV.</p>
       <p xml:id="SALSCI0098">Rubrica de expositione de Gloria Patri.</p>
-      <p xml:id="SALSCI0099">Restat secundo videre de Gloria patri: et est notandum generaliter, quod
-        sicuti incipit superius Gloria patri, ita omnes psalmi incipi sive intonari debent in
+      <p xml:id="SALSCI0099">Restat secundo videre de Gloria patri: et est notandum generaliter,
+        quod sicuti incipit superius Gloria patri, ita omnes psalmi incipi sive intonari debent in
         ecclesia Dei, maxime in solemnitatibus, cum intonantur--per cantum primi toni. Et hoc quod
         de primo, dico de secundo, et sic de singulis ad modum de Gloria patri cuiuslibet, et de
         tertio et de quarto. Sed qui voluerit, poterit removere unicum punctum de quarto tono de G.
@@ -538,8 +552,8 @@
         primi quatuor puncti, ne videatur onerosa inchoatio psalmi: et de octavo similiter tono, ut
         incipiantur psalmi veluti de Gloria Patri, unum punctum de G. qui voluerit, subticendo,
         velut de quinto tono: et hoc pro certo teneatur.</p>
-      <p xml:id="SALSCI0100">Dictum est de principio de Gloria patri, et de inchoatione psalmorum: modo
-        quaero, si in medio versuum cuiuslibet <pb n="[34]"/>libet psalmi dicetur hoc modo, ut
+      <p xml:id="SALSCI0100">Dictum est de principio de Gloria patri, et de inchoatione psalmorum:
+        modo quaero, si in medio versuum cuiuslibet <pb n="[34]"/>libet psalmi dicetur hoc modo, ut
         cantatur Spiritui sancto in Gloria patri? Item quaero idem de fine versuum psalmorum, si
         fuerint eodem modo, sicuti cantatur seculorum amen de Gloria patri? Tertio quaero, si non
         fuerit observatum ut de Gloria patri in dictis duobus locis, quod melius dicitur de Gloria
@@ -590,31 +604,32 @@
         debet annecti totaliter cum Gloria patri, propter rationes superius assignatas.</p>
       <p xml:id="SALSCI0106">Caput XVII.</p>
       <p xml:id="SALSCI0107">Rubrica de praenotandis ad naturam Seculorum.</p>
-      <p xml:id="SALSCI0108">Antequam veniamus ad naturam quorumlibet seculorum, praenotandum est, quod
-        ars imitatur naturam, in quantum potest: et maxime ista, quae cum creatione angelorum
+      <p xml:id="SALSCI0108">Antequam veniamus ad naturam quorumlibet seculorum, praenotandum est,
+        quod ars imitatur naturam, in quantum potest: et maxime ista, quae cum creatione angelorum
         cantata fuit, et de natura sua laudant Deum. Et sicuti videmus, quod pater tenetur alere
         filium, et de iure civili tutor minorem, quem habet sub tutela sua, tenetur regere: et in
         grammatica nomen per verbum et quaedam aliae partes orationis congrue reguntur: ita in
         praesenti scientia totus cantus per tonos, et per species, quae sub ipso continentur,
         regitur; et specialiter per seculorum cuiuslibet toni omnia, quae sub illo tono, cui
         serviunt, cantari possunt, reguntur.</p>
-      <p xml:id="SALSCI0109">Et est notandum notabiliter, quod sicut pueris ostenditur, quod principia
-        antiphonarum reguntur per seculorum, ita reguntur in veritate principia Responsoriorum,
-        Officiorum, Alleluia, Offerendarum et Communionum, et tonus cantus, qui concorditer
-        cantatur. Sed pueris primo simplici et leviori et instructiori via scientia debet tradi, ne
-        desperatio eos laedat; et similiter de responsoriis et aliis cantibus subtrahuntur duabus de
-        causis, causa abbreviandi multiplicationem artis, item quia praesumitur, quod sint quasi
-        provecti in scientia, quando veniunt ad doctrinam responsoriorum, et supra: item quod hoc
-        sit verum, quod debitum seculorum cuilibet cantui aptari potest. Nam in plerisque libris
-        loco seculorum in capite illius, quod debet cantari, ponitur computum I. II. III. et sic de
-        singulis, quantum durat numerus tonorum: quod cum laudabile et perutile est, quod computum
-        apponatur in omni cantu, vel debitum <pb n="[36]"/>seculorum. Sed quidam praetendunt, et
-        male, quod non debet seculorum, nec computum apponi, ut cantor magis memoriae commendet;
-        quod est reprobatione dignum, quod non ponatur. Sed quidam pravi magistri fomite nequitiae
-        ducti radunt de libris, ut de lateralibus scholasticorum eliciatur sanguis, ut ego vidi
-        abradi, et verbera passus fui, et adhuc scio librum, de quo fuit computum abrasum.</p>
-      <p xml:id="SALSCI0110">Item in quolibet libro computum foliorum libri ordinatim in quolibet folio
-        debet poni, ut ego vidi in libris de capellania domini Papae, et in omnibus libris
+      <p xml:id="SALSCI0109">Et est notandum notabiliter, quod sicut pueris ostenditur, quod
+        principia antiphonarum reguntur per seculorum, ita reguntur in veritate principia
+        Responsoriorum, Officiorum, Alleluia, Offerendarum et Communionum, et tonus cantus, qui
+        concorditer cantatur. Sed pueris primo simplici et leviori et instructiori via scientia
+        debet tradi, ne desperatio eos laedat; et similiter de responsoriis et aliis cantibus
+        subtrahuntur duabus de causis, causa abbreviandi multiplicationem artis, item quia
+        praesumitur, quod sint quasi provecti in scientia, quando veniunt ad doctrinam
+        responsoriorum, et supra: item quod hoc sit verum, quod debitum seculorum cuilibet cantui
+        aptari potest. Nam in plerisque libris loco seculorum in capite illius, quod debet cantari,
+        ponitur computum I. II. III. et sic de singulis, quantum durat numerus tonorum: quod cum
+        laudabile et perutile est, quod computum apponatur in omni cantu, vel debitum <pb n="[36]"
+        />seculorum. Sed quidam praetendunt, et male, quod non debet seculorum, nec computum apponi,
+        ut cantor magis memoriae commendet; quod est reprobatione dignum, quod non ponatur. Sed
+        quidam pravi magistri fomite nequitiae ducti radunt de libris, ut de lateralibus
+        scholasticorum eliciatur sanguis, ut ego vidi abradi, et verbera passus fui, et adhuc scio
+        librum, de quo fuit computum abrasum.</p>
+      <p xml:id="SALSCI0110">Item in quolibet libro computum foliorum libri ordinatim in quolibet
+        folio debet poni, ut ego vidi in libris de capellania domini Papae, et in omnibus libris
         Lombardorum. Nam quando reperies signatum illud, quod deficiet tibi, in illo folio debebis
         reperire scriptum, in quo folio debebis reperire: et tunc audacter volves ad illud, nec
         ruborem de imperitia nesciendi volvere patieris.</p>
@@ -647,13 +662,13 @@
         <pb n="[37]"/>[GSIII:37,1; text: Seculorum Amen.] <figure>
           <graphic url="/images/SALSCI_06GF.gif"/>
         </figure></p>
-      <p xml:id="SALSCI0117">Regula, quod omnis cantus primi toni incipiens in primum C. et regitur et
-        debet regi per seculorum finientem in D. nullo excepto. Sed quae praemittuntur in secundo
+      <p xml:id="SALSCI0117">Regula, quod omnis cantus primi toni incipiens in primum C. et regitur
+        et debet regi per seculorum finientem in D. nullo excepto. Sed quae praemittuntur in secundo
         tractatu de seculorum amen, pro exemplis habeantur, et sufficiant ad praesens brevitatis
         causa, quia de similibus est ad similia procedendum.</p>
-      <p xml:id="SALSCI0118">Sed obiicitur de nono seculorum amen, quod, quae proxime dicta sunt, debent
-        regi per eumdem. Respondeo, quod dictum est, quod per prima duo seculorum debent regi et
-        similia, et non per aliud. Quod probo. Quis verius regit dominum Papam, aut qui venit ad
+      <p xml:id="SALSCI0118">Sed obiicitur de nono seculorum amen, quod, quae proxime dicta sunt,
+        debent regi per eumdem. Respondeo, quod dictum est, quod per prima duo seculorum debent regi
+        et similia, et non per aliud. Quod probo. Quis verius regit dominum Papam, aut qui venit ad
         ispum, et insistit sibi, ut diaconus cardinalis; aut ille, qui quando sentit eum venire,
         fugit et ascendit in turre, unde prospiciat eum venientem? Sic facit nonum seculorum amen,
         qui quando sentit incipere cantum vel antiphonam inchoantem in C. fugit de F. in a. utique,
@@ -665,14 +680,14 @@
         inchoantem.</p>
       <p xml:id="SALSCI0119">De regimine tertii seculorum.</p>
       <p xml:id="SALSCI0120">[GSIII:37,2; text: Seculorum Amen.]</p>
-      <p xml:id="SALSCI0121">Dico breviter de isto, quod non video rationem, quare debeatur in libris
-        poni. Nec alius cantus attribuitur sibi, quia verius regatur per quartum seculorum amen, vel
-        prima duo, et totum in se diversum est, et quasi sexti toni; et merito potest dici de eo:
-        turpis est pars, quae suo non congruit universo. Sed reddamus sibi, quae primo sibi fuerunt
-        attributa, et similia: Christi virgo antiphona, et antiphona Ex quo facta est. Arguebat
-        Herodem Iohannes; antiphona Si ego. Et quia ad nulla alia se extendit, ideo regulam non
-        assigno, sed quam sequitur, quod non debet regere nisi cantum inchoantem in F. ut Christi
-        virgo; vel in D. ut Ex quo facta est, et Si ego.</p>
+      <p xml:id="SALSCI0121">Dico breviter de isto, quod non video rationem, quare debeatur in
+        libris poni. Nec alius cantus attribuitur sibi, quia verius regatur per quartum seculorum
+        amen, vel prima duo, et totum in se diversum est, et quasi sexti toni; et merito potest dici
+        de eo: turpis est pars, quae suo non congruit universo. Sed reddamus sibi, quae primo sibi
+        fuerunt attributa, et similia: Christi virgo antiphona, et antiphona Ex quo facta est.
+        Arguebat Herodem Iohannes; antiphona Si ego. Et quia ad nulla alia se extendit, ideo regulam
+        non assigno, sed quam sequitur, quod non debet regere nisi cantum inchoantem in F. ut
+        Christi virgo; vel in D. ut Ex quo facta est, et Si ego.</p>
       <p xml:id="SALSCI0122">Sequitur de seculorum scisso.</p>
       <p xml:id="SALSCI0123">[GSIII:37,3; text: Seculorum Amen.]</p>
       <p xml:id="SALSCI0124">Quod seculorum in totum superfluum est. Nonne idem est cum secundo
@@ -692,10 +707,10 @@
         Angelus Domini, vel per duos, ut antiphona Ecce nomen; vel per tres vel per quatuor sine
         copula; et statim descenderet in C. per unum punctum, vel ascenderet in F. ut de istis patet
         in antiphona. In tympano, et de similibus ad similia procedendo.</p>
-      <p xml:id="SALSCI0128">Regula: quod seculorum primi toni finiens in F. regit totum cantum eiusdem
-        toni inchoantem in D. per unum vel duos vel tres punctos sine copula, descendentem in C. vel
-        ascendentem sine medio in F. ut patet per iam dicta exempla. Et etiam totum cantum eiusdem
-        toni regeret competenter ad modum de Gloria patri, quae non est nisi una.</p>
+      <p xml:id="SALSCI0128">Regula: quod seculorum primi toni finiens in F. regit totum cantum
+        eiusdem toni inchoantem in D. per unum vel duos vel tres punctos sine copula, descendentem
+        in C. vel ascendentem sine medio in F. ut patet per iam dicta exempla. Et etiam totum cantum
+        eiusdem toni regeret competenter ad modum de Gloria patri, quae non est nisi una.</p>
       <p xml:id="SALSCI0129">Ecce quinta species seculorum.</p>
       <p xml:id="SALSCI0130">[GSIII:38,2; text: Seculorum Amen.]</p>
       <p xml:id="SALSCI0131">Regula: quod seculorum primi toni finiens in G. regit omnia principia
@@ -719,8 +734,8 @@
         copulatos descenderet in C. et nullum alium cantum regit.</p>
       <p xml:id="SALSCI0135">Septima species seculorum.</p>
       <p xml:id="SALSCI0136">[GSIII:39,1; text: Seculorum Amen.]</p>
-      <p xml:id="SALSCI0137">Regula. Per istud seculorum nullum principium alicuius cantus regitur, nisi
-        primus punctus inciperet in F. et directe ascenderet in a. sine puncto mediante vel non
+      <p xml:id="SALSCI0137">Regula. Per istud seculorum nullum principium alicuius cantus regitur,
+        nisi primus punctus inciperet in F. et directe ascenderet in a. sine puncto mediante vel non
         mediante, ut in antiphona Domine quinque, antiphona Super nivem. Verius tamen regeretur per
         quartum seculorum amen.</p>
       <p xml:id="SALSCI0138">Octava species seculorum.</p>
@@ -735,15 +750,15 @@
         Dei.</p>
       <p xml:id="SALSCI0144">Decima species seculorum et ultima.</p>
       <p xml:id="SALSCI0145">[GSIII:39,4; text: Seculorum Amen.]</p>
-      <p xml:id="SALSCI0146">Regula infallibilis et brevis. Nullus cantus regitur per istud seculorum,
-        nisi inciperet in G. sive in a. vel supra, ut Ite dicite. Beati mundo corde. vel legatur
-        cantando, ut Sanctus, Agnus.</p>
+      <p xml:id="SALSCI0146">Regula infallibilis et brevis. Nullus cantus regitur per istud
+        seculorum, nisi inciperet in G. sive in a. vel supra, ut Ite dicite. Beati mundo corde. vel
+        legatur cantando, ut Sanctus, Agnus.</p>
       <p xml:id="SALSCI0147">Caput XIX.</p>
       <p xml:id="SALSCI0148">Rubrica de practica et regimine responsorium, et aliorum cantuum.</p>
-      <p xml:id="SALSCI0149">Restat videre de principio Resposorii Tradiderunt, quod est positum pari
-        ratione, quam Gloria patri, et seculorum, scilicet ad designandum, quod responsorium, versus
-        et similia sunt primi toni. Contra ex hoc potest argui, quod responsorii versus, qui aliter
-        cantantur, quam praemissa, non sunt primi toni, quod est inconveniens dicere. Ecce
+      <p xml:id="SALSCI0149">Restat videre de principio Resposorii Tradiderunt, quod est positum
+        pari ratione, quam Gloria patri, et seculorum, scilicet ad designandum, quod responsorium,
+        versus et similia sunt primi toni. Contra ex hoc potest argui, quod responsorii versus, qui
+        aliter cantantur, quam praemissa, non sunt primi toni, quod est inconveniens dicere. Ecce
         responsio: verum est de illis, quae erunt secundi toni, tertii vel quarti, et sic de aliis:
         sed omnes illi cantus, quorum regula poterit aptari in F. primo posita in palma, et finis in
         D erunt primi toni: et haec est prima regula. Secunda regula: omnis cantus faciens regulam
@@ -770,9 +785,9 @@
         necessitate taliter esse intelligendum. Nonne antiphona Alma redemtoris ascendit in ultimo
         G. de palma, et Responsorium Ecce agnus Dei, et Responsorium Aspiciens, et alia plura? et
         tamen approbamus ab antiquo usu, quod sint septimi toni; et sic est verum.</p>
-      <p xml:id="SALSCI0151">Item sicuti video in Grammatica, quod sunt quaedam partes orationis, quae
-        regunt et non reguntur, quaedam regunt et reguntur, quaedam non regunt et reguntur: ita in
-        scientia artis musicae primus tonus, tertius, quintus, et septimus regunt alios quatuor
+      <p xml:id="SALSCI0151">Item sicuti video in Grammatica, quod sunt quaedam partes orationis,
+        quae regunt et non reguntur, quaedam regunt et reguntur, quaedam non regunt et reguntur: ita
+        in scientia artis musicae primus tonus, tertius, quintus, et septimus regunt alios quatuor
         tonos, et omnes octo (nam in hoc sunt aequales) regunt totam artem cantandi, quilibet pro
         rata sua, per totam palmam: et seculorum toni cuiuslibet reguntur a tonis, et regunt omnem
         cantum. Cantus, qui non incipit in vera regula toni, nec finitur quasi in maiori parte sui,
@@ -783,15 +798,16 @@
         proferantur.</p>
       <p xml:id="SALSCI0152">Sanctus et Agnus, quae incipiunt in a. finiunt in G. Espistolae et
         evangelia, et hymni in scholis, et his similia, quae incipiunt in a. et finiunt in G. vel in
-        a. qualiter possunt esse primi toni? Respondeo, eodem modo possunt et debent <pb n="[41]"/>esse primi toni, sicuti versus Gloria patri eiusdem toni, et versus de Laverunt stolas
+        a. qualiter possunt esse primi toni? Respondeo, eodem modo possunt et debent <pb n="[41]"
+        />esse primi toni, sicuti versus Gloria patri eiusdem toni, et versus de Laverunt stolas
         suas, quia ita cantantur in G. et in a. sicuti Gloria patri, et laverunt. Tu qui talia
         quaeris, ignorans musicam esse videris.</p>
-      <p xml:id="SALSCI0153">Sequitur neuma de fine versus responsorium Tradiderunt, versus Laverunt. Et
-        sciendum, quod imposita est causa doctrinae ad imponendum similem finem neumatis in omnibus
-        versibus regulariter de primo tono. Et est bene notandum, quod in quinta syllaba ultima de
-        versibus responsorium neuma generaliter debet inchoari.</p>
-      <p xml:id="SALSCI0154">Contra, quod toni non regant omnem cantum. Nam in doctrina Gallicorum de
-        huius arte continetur, quod pars quaedam alicuius antiphonae, responsorii, vel alterius
+      <p xml:id="SALSCI0153">Sequitur neuma de fine versus responsorium Tradiderunt, versus
+        Laverunt. Et sciendum, quod imposita est causa doctrinae ad imponendum similem finem
+        neumatis in omnibus versibus regulariter de primo tono. Et est bene notandum, quod in quinta
+        syllaba ultima de versibus responsorium neuma generaliter debet inchoari.</p>
+      <p xml:id="SALSCI0154">Contra, quod toni non regant omnem cantum. Nam in doctrina Gallicorum
+        de huius arte continetur, quod pars quaedam alicuius antiphonae, responsorii, vel alterius
         cantus, quodammodo cum pluribus punctis regitur per naturam, hoc est dictum, per ut, re, mi,
         fa, sol, la. Nec ita bene explanavit. Quaedam pars eiusdem cantus regitur per B. quadratum,
         quaedam pars regitur per B. molle, et plura similia phantasmata, quae dicunt contra huius
@@ -839,70 +855,73 @@
         credetur, nec illis, qui talia scienter affirmant.</p>
       <p xml:id="SALSCI0157">Caput XX.</p>
       <p xml:id="SALSCI0158">De practica clavium, qualiter debeant uti solfiando.</p>
-      <p xml:id="SALSCI0159">De concidentia et mutatione clavium in eodem puncto in prosecutione palmae
-        melior doctrina non potest dari, quam posita est in palma. Nam prout in palma continetur,
-        necessarium est, quod punctis et litteris tot modis utantur secundum diversitatem cantuum et
-        clavium, ut in eadem per inspectionem apparet, nullo addito, nullo remoto: hoc teneatur pro
-        certo, et qui aliter uteretur, in vitium falsae musicae laberetur. Tamen notandum est ad
-        instructionem minorum, qui solfiant, quod caveant, in qua clave incipit cantus suus, et
-        ipsam audacter prosequantur usque la eodem modo, quo procedet cantus. Tunc cum fuerit ad la,
-        si cantus ascenderet superius, tunc mutet et resumat clavem magis propinquam illi clavi,
-        quam necessarium est dimittere, et per illam similiter ascendat usque la: et sic de singulis
-        ascendendo, et descendendo, cum fuerit in ut: similiter si magis descendere voluerit,
-        resumet clavem magis aptam sibi. Alia doctrina per aliam viam dari non potest melior figura
-        palmae. <pb n="[43]"/>Et notandum, quod, qui de una clave intrat in aliam sine duplicatione
-        punctorum, falsus musicus falsa mugiens posset appellari, et fur cantus, et in vitium falsae
-        musicae caderet sine dubitationis censura.</p>
+      <p xml:id="SALSCI0159">De concidentia et mutatione clavium in eodem puncto in prosecutione
+        palmae melior doctrina non potest dari, quam posita est in palma. Nam prout in palma
+        continetur, necessarium est, quod punctis et litteris tot modis utantur secundum
+        diversitatem cantuum et clavium, ut in eadem per inspectionem apparet, nullo addito, nullo
+        remoto: hoc teneatur pro certo, et qui aliter uteretur, in vitium falsae musicae laberetur.
+        Tamen notandum est ad instructionem minorum, qui solfiant, quod caveant, in qua clave
+        incipit cantus suus, et ipsam audacter prosequantur usque la eodem modo, quo procedet
+        cantus. Tunc cum fuerit ad la, si cantus ascenderet superius, tunc mutet et resumat clavem
+        magis propinquam illi clavi, quam necessarium est dimittere, et per illam similiter ascendat
+        usque la: et sic de singulis ascendendo, et descendendo, cum fuerit in ut: similiter si
+        magis descendere voluerit, resumet clavem magis aptam sibi. Alia doctrina per aliam viam
+        dari non potest melior figura palmae. <pb n="[43]"/>Et notandum, quod, qui de una clave
+        intrat in aliam sine duplicatione punctorum, falsus musicus falsa mugiens posset appellari,
+        et fur cantus, et in vitium falsae musicae caderet sine dubitationis censura.</p>
       <p xml:id="SALSCI0160">Quoniam in practica primi toni generaliter se debet extendere ad omnes
         tonos, quatenus tangit eos; nam tua res agitur, paries dum proximus ardet: ideo de practica
         tonorum omnium octo, quoad lecturam videamus; intuitu primi maxime, quia parvis, antequam ad
         notitiam cantandi perveniant, debet manifestari.</p>
       <p xml:id="SALSCI0161">Primus tonus facit regulam suam in F. et plangit tertio supra se in a.
         quarto supra se in b. et plangit secundo subtus se in E. et facit finem tertio in D.</p>
-      <p xml:id="SALSCI0162">Secundus tonus facit regulam suam in D. et plangit secundo supra se in E.
-        et quinto supra se in a. et plangit tertio subtus se in B. et facit finem in eodem D.</p>
-      <p xml:id="SALSCI0163">Tertius tonus facit regulam suam in G. et plangit supra se in a. et tertio
-        in b. tertio subtus se in E. finit in eodem E.</p>
-      <p xml:id="SALSCI0164">Quartus tonus facit regulam suam in G. et plangit in E. et plangit quarto
-        supra se in a. et quinta supra se in b. et finit in eodem E.</p>
-      <p xml:id="SALSCI0165">Quintus tonus facit regulam suam in a. et plangit secundo supra se in b. et
-        quinto supra se in e. et plangit quarto subtus se in E. et finit tertio subtus se in F.</p>
-      <p xml:id="SALSCI0166">Sextus tonus facit regulam suam in F. et plangit tertio supra se in a. et
-        quarto supra se in b. et plangit secundo subtus se in E. et finit in eadem regula in F.</p>
-      <p xml:id="SALSCI0167">Septimus tonus facit regulam suam in b. et plangit in b. et plangit quarto
-        supra se in e. et plangit secundo subtus se in a. et facit finem tertio subtus se in G.</p>
-      <p xml:id="SALSCI0168">Octavus tonus facit regulam suam in G. et plangit secundo supra se in a. et
-        tertio supra se in b. et plangit tertio subtus se in E. et facit finem in eadem regula in
+      <p xml:id="SALSCI0162">Secundus tonus facit regulam suam in D. et plangit secundo supra se in
+        E. et quinto supra se in a. et plangit tertio subtus se in B. et facit finem in eodem D.</p>
+      <p xml:id="SALSCI0163">Tertius tonus facit regulam suam in G. et plangit supra se in a. et
+        tertio in b. tertio subtus se in E. finit in eodem E.</p>
+      <p xml:id="SALSCI0164">Quartus tonus facit regulam suam in G. et plangit in E. et plangit
+        quarto supra se in a. et quinta supra se in b. et finit in eodem E.</p>
+      <p xml:id="SALSCI0165">Quintus tonus facit regulam suam in a. et plangit secundo supra se in
+        b. et quinto supra se in e. et plangit quarto subtus se in E. et finit tertio subtus se in
+        F.</p>
+      <p xml:id="SALSCI0166">Sextus tonus facit regulam suam in F. et plangit tertio supra se in a.
+        et quarto supra se in b. et plangit secundo subtus se in E. et finit in eadem regula in
+        F.</p>
+      <p xml:id="SALSCI0167">Septimus tonus facit regulam suam in b. et plangit in b. et plangit
+        quarto supra se in e. et plangit secundo subtus se in a. et facit finem tertio subtus se in
         G.</p>
+      <p xml:id="SALSCI0168">Octavus tonus facit regulam suam in G. et plangit secundo supra se in
+        a. et tertio supra se in b. et plangit tertio subtus se in E. et facit finem in eadem regula
+        in G.</p>
       <p xml:id="SALSCI0169">Caput XXI.</p>
       <p xml:id="SALSCI0170">Rubrica de practica secundi toni.</p>
-      <p xml:id="SALSCI0171">[GSIII:43; text: Figura 6. Secundum autem simile et huic. Gloria patri et
-        filio et spiritui sancto: sicut erat in principio et nunc et semper et in secula secu-] <figure>
+      <p xml:id="SALSCI0171">[GSIII:43; text: Figura 6. Secundum autem simile et huic. Gloria patri
+        et filio et spiritui sancto: sicut erat in principio et nunc et semper et in secula secu-] <figure>
           <graphic url="/images/SALSCI_07GF.gif"/>
         </figure></p>
       <p xml:id="SALSCI0172">
         <pb n="[44]"/>[GSIII:44; text: lorum amen. Gloria. Modus cantandi psalmos. Dixit Dominus
         Domino meo, sede a dextris meis.]</p>
-      <p xml:id="SALSCI0173">Sciendum est, quod secundum seculorum, quod debet esse annexum cum Gloria
-        patri, corpus seculorum de Gloria patri, totaliter assimilatur seculorum de Gloria patri
-        sexti toni. Amen primi seculorum finit in D. et sic primum et secundum per idem quoad
+      <p xml:id="SALSCI0173">Sciendum est, quod secundum seculorum, quod debet esse annexum cum
+        Gloria patri, corpus seculorum de Gloria patri, totaliter assimilatur seculorum de Gloria
+        patri sexti toni. Amen primi seculorum finit in D. et sic primum et secundum per idem quoad
         regimen reputantur, et magis est proprium secundum quam primum, et secundum solum sufficeret
         pro ambobus. Seculorum istud regulam non habet, sed quod omnis cantus secundi toni regit: et
         utinam in omnibus tonis ita ordinatum esset ab antiquo, et sic fuisset provisum erroribus
         plurimorum, et qui fortassis bene credunt videre in arte, necdum vident in libro debitum
         unius puncti.</p>
-      <p xml:id="SALSCI0174">Karissime tu minor non decipiaris in prolatione istius versiculi Resurrexit
-        Dominus; nam de dictione dominus non debet cadere nisi ultima syllaba in D. sicuti de primo
-        Francisce; nam sicuti dictio dominus productum habet accentum super prima syllaba do, et
-        reliquae duae syllabae correctum habent accentum: ita primus punctus producetur, et reliqui
-        duo corripientur honesto modo sine aliquo expingamento, et satis fiet syllabis et punctis,
-        aliter cantando puncti et syllabae laederentur. Item notandum notabiliter, si non vis
-        deridere Deum et homines et teipsum, quod in eodem modo et in eadem voce et per eosdem
-        punctos sicut cantabis versus psalmorum sub regimine alicuius toni, decantationi cuiuslibet
-        versiculi debet dare responsum. Nonne ille qui praeconizat vinum, voce aequali et congrua
-        utitur, et si in diversis vocibus emitteret sonum, derideretur a populo, et insanus
-        reputaretur? utique sic. Item probo, quod taliter debet pronuntiari dominus et similia, ut
-        superius continetur.</p>
+      <p xml:id="SALSCI0174">Karissime tu minor non decipiaris in prolatione istius versiculi
+        Resurrexit Dominus; nam de dictione dominus non debet cadere nisi ultima syllaba in D.
+        sicuti de primo Francisce; nam sicuti dictio dominus productum habet accentum super prima
+        syllaba do, et reliquae duae syllabae correctum habent accentum: ita primus punctus
+        producetur, et reliqui duo corripientur honesto modo sine aliquo expingamento, et satis fiet
+        syllabis et punctis, aliter cantando puncti et syllabae laederentur. Item notandum
+        notabiliter, si non vis deridere Deum et homines et teipsum, quod in eodem modo et in eadem
+        voce et per eosdem punctos sicut cantabis versus psalmorum sub regimine alicuius toni,
+        decantationi cuiuslibet versiculi debet dare responsum. Nonne ille qui praeconizat vinum,
+        voce aequali et congrua utitur, et si in diversis vocibus emitteret sonum, derideretur a
+        populo, et insanus reputaretur? utique sic. Item probo, quod taliter debet pronuntiari
+        dominus et similia, ut superius continetur.</p>
       <p xml:id="SALSCI0175">Nam si caderet super corripienda syllaba, quaecumque esset illa, neuma;
         debitum esset sequi et prosequi eum; et ita tenemus in pluribus locis. Ratio est quare
         facimus: nam littera est ibi loco subiecti, et cantui servit in eo, quod cantus, et cantus
@@ -927,11 +946,12 @@
         eiusdem toni incipientem in E. et infra de E. ascendentem in F. vel de F. descendentem in D.
         vel in C. ut Conditor alme. vel vox clara.</p>
       <p xml:id="SALSCI0180">Rubrica de regimine tertii seculorum.</p>
-      <p xml:id="SALSCI0181">[GSIII:46,1; text: Amen. Antiphona, Tertia dies est. Domine probasti me.] <figure>
+      <p xml:id="SALSCI0181">[GSIII:46,1; text: Amen. Antiphona, Tertia dies est. Domine probasti
+        me.] <figure>
           <graphic url="/images/SALSCI_09GF.gif"/>
         </figure></p>
-      <p xml:id="SALSCI0182">Regula. Omnis cantus tertii toni incipiens in G. faciens gradatim ascensum
-        in c. vel quasi, regitur per seculorum eiusdem toni finiens in G.</p>
+      <p xml:id="SALSCI0182">Regula. Omnis cantus tertii toni incipiens in G. faciens gradatim
+        ascensum in c. vel quasi, regitur per seculorum eiusdem toni finiens in G.</p>
       <p xml:id="SALSCI0183">Regula. Hic fingimus fictione artis superius coeptum incipere in G. cum
         sancto spiritu fingimus incipere in E. primum: aut si inciperet in b. finiret in b. uno
         modo, alio modo in G. Et si. aliquis obiiceret, quod ridiculosum erat, quod finiret in G.
@@ -940,24 +960,24 @@
       <p xml:id="SALSCI0184">Rubrica de quarto seculorum, et regimine eiusdem.</p>
       <p xml:id="SALSCI0185">[GSIII:46,2; text: Amen. Antiphona, Beatus vir. Dum steteritis.
         Confessio.]</p>
-      <p xml:id="SALSCI0186">Regula. Omne seculorum tertii toni finiens in a. regit omnem cantum eiusdem
-        toni incipientem in E. vel in F. descendentem de E. vel F, ut dictum est, ut salus
+      <p xml:id="SALSCI0186">Regula. Omne seculorum tertii toni finiens in a. regit omnem cantum
+        eiusdem toni incipientem in E. vel in F. descendentem de E. vel F, ut dictum est, ut salus
         populi.</p>
       <p xml:id="SALSCI0187">De regimine quinti seculorum tertii toni.</p>
       <p xml:id="SALSCI0188">[GSIII:46,3; text: Amen. Antiphona, Qui sequitur me.]</p>
-      <p xml:id="SALSCI0189">Modus inchoandi psalmos per tertium tonum, et finiendi secundum proprium
-        seculorum.</p>
-      <p xml:id="SALSCI0190">[GSIII:46,4; text: Benedicam Dominum in omni tempore, semper laus eius in
-        ore meo.]</p>
-      <p xml:id="SALSCI0191">Regula. Omne seculorum tertii toni finiens in b. regit cantum eiusdem toni
-        incipientem in G. et sine medio alicuius puncti ascendentem quarto in c. et nullum alium,
-        nisi inchoaret supra eumdem b. ut Gloria in excelsis, et similia.</p>
-      <p xml:id="SALSCI0192">De istis quinque seculorum debemus scire, quod tertium seculorum praevalet
-        punctum, et optime et competenter posset regere omnes cantus tertii toni, et nullum aliud
-        seculorum eiusdem toni ad istud faciendum idoneum reputatur. Ad <pb n="[47]"/>aliam
-        disputationem super isto ad praesens non procedo. Sed ista et alia, quae possent notari
-        circa naturam eorum, quae dicta sunt de tertio tono, satis possunt colligi per ea, quae
-        dicta sunt in primo. Tertium tonum et quartum in figura non pono; sed tu minor, si
+      <p xml:id="SALSCI0189">Modus inchoandi psalmos per tertium tonum, et finiendi secundum
+        proprium seculorum.</p>
+      <p xml:id="SALSCI0190">[GSIII:46,4; text: Benedicam Dominum in omni tempore, semper laus eius
+        in ore meo.]</p>
+      <p xml:id="SALSCI0191">Regula. Omne seculorum tertii toni finiens in b. regit cantum eiusdem
+        toni incipientem in G. et sine medio alicuius puncti ascendentem quarto in c. et nullum
+        alium, nisi inchoaret supra eumdem b. ut Gloria in excelsis, et similia.</p>
+      <p xml:id="SALSCI0192">De istis quinque seculorum debemus scire, quod tertium seculorum
+        praevalet punctum, et optime et competenter posset regere omnes cantus tertii toni, et
+        nullum aliud seculorum eiusdem toni ad istud faciendum idoneum reputatur. Ad <pb n="[47]"
+        />aliam disputationem super isto ad praesens non procedo. Sed ista et alia, quae possent
+        notari circa naturam eorum, quae dicta sunt de tertio tono, satis possunt colligi per ea,
+        quae dicta sunt in primo. Tertium tonum et quartum in figura non pono; sed tu minor, si
         placuerit, fac reponi ad instar figurae primi et secundi. Item diffinitiones tertii toni et
         quarti possunt per diffinitiones primi et secundi haberi, litteris, in quibus incipiunt et
         finem faciunt, observatis. De primo seculorum de Gloria patri non curavi dare proprium
@@ -982,18 +1002,19 @@
       <p xml:id="SALSCI0196">
         <pb n="[48]"/>[GSIII:48,1; text: amen. IV. Seculorum amen. Rubrica de regimine secundi
         seculorum. Amen. Antiphona, Quarta vigilia. In odorem.]</p>
-      <p xml:id="SALSCI0197">Regula. Omnis cantus quarti toni incipiens in D. et infra vel quasi in F.
-        ut ecce iam noctis, regitur per seculorum finiens in E. eiusdem toni.</p>
+      <p xml:id="SALSCI0197">Regula. Omnis cantus quarti toni incipiens in D. et infra vel quasi in
+        F. ut ecce iam noctis, regitur per seculorum finiens in E. eiusdem toni.</p>
       <p xml:id="SALSCI0198">De tertio seculorum et regimine eiusdem.</p>
       <p xml:id="SALSCI0199">[GSIII:48,2; text: Amen, Antiphona, In mandatis.]</p>
-      <p xml:id="SALSCI0200">Regula. Omne seculorum quarti toni finiens in G. regit omnem cantum eiusdem
-        toni incipientem in G.</p>
+      <p xml:id="SALSCI0200">Regula. Omne seculorum quarti toni finiens in G. regit omnem cantum
+        eiusdem toni incipientem in G.</p>
       <p xml:id="SALSCI0201">De quarto seculorum et regimine ipsius.</p>
       <p xml:id="SALSCI0202">[GSIII:48,3; text: Amen. Antiphona, Fidelia.]</p>
       <p xml:id="SALSCI0203">Modus intonandi psalmos secundum quartum tonum.</p>
-      <p xml:id="SALSCI0204">[GSIII:48,4; text: Dominus illuminatio mea, et salus mea, quem timebo.]</p>
-      <p xml:id="SALSCI0205">Regula. Omnis cantus quarti toni incipiens in E. et de E. ascendens in G.
-        sine medio, vel incipiens in F. descendens in D. ut salus populi, vel incipiens in a. et
+      <p xml:id="SALSCI0204">[GSIII:48,4; text: Dominus illuminatio mea, et salus mea, quem
+        timebo.]</p>
+      <p xml:id="SALSCI0205">Regula. Omnis cantus quarti toni incipiens in E. et de E. ascendens in
+        G. sine medio, vel incipiens in F. descendens in D. ut salus populi, vel incipiens in a. et
         supra regitur per seculorum eiusdem toni finiens in a. sine dubitationis censura. Illa duo
         seculorum inutilia sunt omnino, et ideo fuerunt scissa. Nonne cantant in totum, ut secundum
         seculorum, sic excepto de quolibet ultimo puncto, de quo, de quibus non potest cantari, quod
@@ -1013,8 +1034,8 @@
         psalmos. Quid gloria in malitia, qui potens es in iniquitate.] <figure>
           <graphic url="/images/SALSCI_11GF.gif"/>
         </figure></p>
-      <p xml:id="SALSCI0209">Ad huius seculorum non est necesse regulam assignare sed quod regat omnes
-        cantus quinti toni.</p>
+      <p xml:id="SALSCI0209">Ad huius seculorum non est necesse regulam assignare sed quod regat
+        omnes cantus quinti toni.</p>
       <p xml:id="SALSCI0210">[GSIII:49,2; text: Modus legendi Gallicorum. Iube domne benedicere. De
         supernis sedibus benedicat nos pater aeternus. Lectio. In principio creavit Deus coelum et
         terram. Vidit]</p>
@@ -1025,17 +1046,17 @@
         nobis virgo Maria.] <figure>
           <graphic url="/images/SALSCI_12GF.gif"/>
         </figure></p>
-      <p xml:id="SALSCI0212">Modus lecturae monachorum: primo incipiunt in e. secundum, et descendunt
-        tertio in a. et ascendunt secundo in b. et mollificant eum contra rationem; et postea
-        descendunt quartum in F.</p>
-      <p xml:id="SALSCI0213">Secundus modus legendi e contrario: primo descendunt quartum de c. in G. et
-        postea ascendunt in a. vel in b. utrumque mollificando, et postea descendunt in F. Et malo
-        velle ipsorum, inter quos nullus ordo regnat. Lecturae erunt quinti toni; sed secundum quod
-        sunt bene temperati, male se temperant glorificando Deum cum arte psallendi, et mollificando
-        a. et b. in vitium falsae musicae labuntur. De cuius artis notitia ob defectum Praelati sui
-        non curant; et fortassis Deus non curat de ipsis plusquam de illo, cui dixit: tu repulisti
-        scientiam, ego repellam te, ne sacerdotio fungaris mihi, expedit enim, ut suspendatur mola
-        asinaria in collum tuum, et demergaris in profundum.</p>
+      <p xml:id="SALSCI0212">Modus lecturae monachorum: primo incipiunt in e. secundum, et
+        descendunt tertio in a. et ascendunt secundo in b. et mollificant eum contra rationem; et
+        postea descendunt quartum in F.</p>
+      <p xml:id="SALSCI0213">Secundus modus legendi e contrario: primo descendunt quartum de c. in
+        G. et postea ascendunt in a. vel in b. utrumque mollificando, et postea descendunt in F. Et
+        malo velle ipsorum, inter quos nullus ordo regnat. Lecturae erunt quinti toni; sed secundum
+        quod sunt bene temperati, male se temperant glorificando Deum cum arte psallendi, et
+        mollificando a. et b. in vitium falsae musicae labuntur. De cuius artis notitia ob defectum
+        Praelati sui non curant; et fortassis Deus non curat de ipsis plusquam de illo, cui dixit:
+        tu repulisti scientiam, ego repellam te, ne sacerdotio fungaris mihi, expedit enim, ut
+        suspendatur mola asinaria in collum tuum, et demergaris in profundum.</p>
       <p xml:id="SALSCI0214">Caput XXV.</p>
       <p xml:id="SALSCI0215">Rubrica de practica sexti toni.</p>
       <p xml:id="SALSCI0216">
@@ -1047,7 +1068,8 @@
         </figure></p>
       <p xml:id="SALSCI0217">Caput XXVI.</p>
       <p xml:id="SALSCI0218">De practica septimi toni.</p>
-      <p xml:id="SALSCI0219">[GSIII:51,2; text: Figura 11. Septem sunt spiritus ante thronum Dei.]</p>
+      <p xml:id="SALSCI0219">[GSIII:51,2; text: Figura 11. Septem sunt spiritus ante thronum
+        Dei.]</p>
       <p xml:id="SALSCI0220">
         <pb n="[52]"/>[GSIII:52,1; text: Gloria patri et filio et spiritui sancto: sicut erat in
         principio et nunc et semper, et in secula I. II. III. IV. V. Seculorum amen. Practica de
@@ -1059,22 +1081,23 @@
         puncti de G. in d.</p>
       <p xml:id="SALSCI0222">De regimine tertii seculorum.</p>
       <p xml:id="SALSCI0223">[GSIII:52,2; text: Amen. Antiphona, Et valde mane.]</p>
-      <p xml:id="SALSCI0224">Regula. Omne seculorum septimi toni finiens in b. regit cantum eiusdem toni
-        incipientem in b. ascendentem statim per unum punctum vel descendentem, et nullum alium de
-        natura sua.</p>
+      <p xml:id="SALSCI0224">Regula. Omne seculorum septimi toni finiens in b. regit cantum eiusdem
+        toni incipientem in b. ascendentem statim per unum punctum vel descendentem, et nullum alium
+        de natura sua.</p>
       <p xml:id="SALSCI0225">De regimine quarti seculorum.</p>
       <p xml:id="SALSCI0226">[GSIII:52,3; text: Amen. Antiphona, Confortatus est.]</p>
-      <p xml:id="SALSCI0227">Omnis cantus septimi toni incipiens in c. vel in d. regitur per seculorum
-        eiusdem toni finiens in eodem, et nullum alium.</p>
+      <p xml:id="SALSCI0227">Omnis cantus septimi toni incipiens in c. vel in d. regitur per
+        seculorum eiusdem toni finiens in eodem, et nullum alium.</p>
       <p xml:id="SALSCI0228">De regimine quinti seculorum.</p>
       <p xml:id="SALSCI0229">[GSIII:52,4; text: Amen. Puer natus est nobis]</p>
       <p xml:id="SALSCI0230">
         <pb n="[53]"/>Modus intonandi psalmos.</p>
-      <p xml:id="SALSCI0231">[GSIII:53,1; text: Laudate Dominum omnes gentes, laudate eum omnes populi.] <figure>
+      <p xml:id="SALSCI0231">[GSIII:53,1; text: Laudate Dominum omnes gentes, laudate eum omnes
+        populi.] <figure>
           <graphic url="/images/SALSCI_15GF.gif"/>
         </figure></p>
-      <p xml:id="SALSCI0232">Regula. Omnis cantus septimi toni incipiens in G. ascendens sine medio in
-        d. vel incipiens supra d. regitur per seculorum eiusdem toni finientem in d. nullo
+      <p xml:id="SALSCI0232">Regula. Omnis cantus septimi toni incipiens in G. ascendens sine medio
+        in d. vel incipiens supra d. regitur per seculorum eiusdem toni finientem in d. nullo
         excepto.</p>
       <p xml:id="SALSCI0233">Illud seculorum superius scissum est, quia de nullo serviebat. Quartum
         seculorum supplet eius vices omnino. Item cantat eodem modo, excepto de uno puncto, et ita
@@ -1082,30 +1105,31 @@
         aliud regimen, quam secundum se. De omnibus aliis ad figuram primi habeatur recursus.</p>
       <p xml:id="SALSCI0234">Caput XXVII.</p>
       <p xml:id="SALSCI0235">Rubrica de practica octavi toni.</p>
-      <p xml:id="SALSCI0236">[GSIII:53,2; text: Figura 12. Octo sunt beatitudines. Gloria patri et filio
-        et spiritui sancto, sicut erat in principio et nunc et semper et in secula I. II. II. IV.
-        Seculorum amen.]</p>
+      <p xml:id="SALSCI0236">[GSIII:53,2; text: Figura 12. Octo sunt beatitudines. Gloria patri et
+        filio et spiritui sancto, sicut erat in principio et nunc et semper et in secula I. II. II.
+        IV. Seculorum amen.]</p>
       <p xml:id="SALSCI0237">
         <pb n="[54]"/>De regimine secundi seculorum.</p>
       <p xml:id="SALSCI0238">[GSIII:54,1; text: Amen. Antiphona, Octo sunt.] <figure>
           <graphic url="/images/SALSCI_16GF.gif"/>
         </figure></p>
-      <p xml:id="SALSCI0239">Regula. Omnis cantus octavi toni incipiens in G. et infra et etiam supra,
-        recte regitur per seculorum eiusdem toni finiens in G.</p>
-      <p xml:id="SALSCI0240">Ecce modus inchoandi psalmos secundum octavum tonum et finem imponendi ad
-        modum proprii seculorum, per quod regitur.</p>
-      <p xml:id="SALSCI0241">Regula. omne seculorum octavi toni finiens in c. regit totum cantum eiusdem
-        toni incipientem in c. et supra, nullo excepto, et nullum alium cantum regere debet.</p>
-      <p xml:id="SALSCI0242">[GSIII:54,2; text: Laudate eum in cymbalis bene sonantibus, laudate eum in
-        cymbalis iubilationis, omnis spiritus laudet Dominum.]</p>
+      <p xml:id="SALSCI0239">Regula. Omnis cantus octavi toni incipiens in G. et infra et etiam
+        supra, recte regitur per seculorum eiusdem toni finiens in G.</p>
+      <p xml:id="SALSCI0240">Ecce modus inchoandi psalmos secundum octavum tonum et finem imponendi
+        ad modum proprii seculorum, per quod regitur.</p>
+      <p xml:id="SALSCI0241">Regula. omne seculorum octavi toni finiens in c. regit totum cantum
+        eiusdem toni incipientem in c. et supra, nullo excepto, et nullum alium cantum regere
+        debet.</p>
+      <p xml:id="SALSCI0242">[GSIII:54,2; text: Laudate eum in cymbalis bene sonantibus, laudate eum
+        in cymbalis iubilationis, omnis spiritus laudet Dominum.]</p>
       <p xml:id="SALSCI0243">Scienter intonantur ultimo toni cum isto versu: Omnis spiritus laudet
         Dominum, pro fine operis incepti in cantu. Verum cum ad honorem creatoris et salvatoris
         nostri Iesu Christi, cui honor, potestas et imperium sine fine permanet, et gloriosae
         virginis beatissimae Genitricis eius, praesens opusculum fuerit inceptum, et eorum
         suffragio, ut patet, perfectum, finito libro sit laus et gloria Christo.</p>
-      <p xml:id="SALSCI0244">Seculorum scissum est superius, quia nihil addit tertio seculorum, sed unum
-        punctum, qui non operatur nisi fatuitatem et perversitatem. Seculorum de Gloria patri idem
-        est omnino quoad omne regimen cum tertio seculorum.</p>
+      <p xml:id="SALSCI0244">Seculorum scissum est superius, quia nihil addit tertio seculorum, sed
+        unum punctum, qui non operatur nisi fatuitatem et perversitatem. Seculorum de Gloria patri
+        idem est omnino quoad omne regimen cum tertio seculorum.</p>
       <p xml:id="SALSCI0245">Secundo seculorum sive quarto nulla est assignata regula, nec exempla
         multiplicata, quia omnino dissonum est a natura aliorum seculorum. Item notandum, quod illud
         seculorum non est de octavo tono, nec de aliquo tonorum, nisi derisione et abusive, et magis
@@ -1119,29 +1143,29 @@
       <p xml:id="SALSCI0246">
         <pb n="[55]"/>Caput XXVIII.</p>
       <p xml:id="SALSCI0247">Rubrica, qualiter cantus debeat lineari.</p>
-      <p xml:id="SALSCI0248">Superest, ut de cantu cum lineis dispiciatur. Nam cantus sine competentibus
-        lineis non potest bene ordinari, neque poni aequis gradibus in libro: nam mensura excellit
-        sensum, et sicut in omne, quod est, mensuram ponere prodest, sic sine mensura deperit omne
-        quod est: et in illo cantu, ubi non est mensura linearum, sed est notatum per notarium
-        aliquotiens fore distemperatum, non est mirum, si aliquotiens in illis libris quandoque male
-        cantatur. Et est notandum, quod tota palma non potest se extendere, nisi ad decem lineas, et
-        quod sequitur, introducendi in arte ista inter alia, antequam veniant ad cantum tonorum,
-        edoceri debent.</p>
-      <p xml:id="SALSCI0249">Prima linea in gamma [Gamma]. A. per medium, B. per lineam, C. per medium,
-        D. pro linea et pro regula secundi toni, E. pro medio et pro regula quarti toni, F. pro
-        linea et pro regula primi toni et pro regula sexti toni, G. pro medio et pro regula tertii
-        toni et pro regula octavi toni; a. pro linea et pro regula quinti toni, b. pro medio et pro
-        regula septimi toni, c. pro linea, d. pro medio, e pro linea, f. pro medio, g. pro linea; aa
-        pro medio, bb pro linea, cc pro media, dd pro linea et ultimo puncto de palma, non de toto
-        cantu.</p>
+      <p xml:id="SALSCI0248">Superest, ut de cantu cum lineis dispiciatur. Nam cantus sine
+        competentibus lineis non potest bene ordinari, neque poni aequis gradibus in libro: nam
+        mensura excellit sensum, et sicut in omne, quod est, mensuram ponere prodest, sic sine
+        mensura deperit omne quod est: et in illo cantu, ubi non est mensura linearum, sed est
+        notatum per notarium aliquotiens fore distemperatum, non est mirum, si aliquotiens in illis
+        libris quandoque male cantatur. Et est notandum, quod tota palma non potest se extendere,
+        nisi ad decem lineas, et quod sequitur, introducendi in arte ista inter alia, antequam
+        veniant ad cantum tonorum, edoceri debent.</p>
+      <p xml:id="SALSCI0249">Prima linea in gamma [Gamma]. A. per medium, B. per lineam, C. per
+        medium, D. pro linea et pro regula secundi toni, E. pro medio et pro regula quarti toni, F.
+        pro linea et pro regula primi toni et pro regula sexti toni, G. pro medio et pro regula
+        tertii toni et pro regula octavi toni; a. pro linea et pro regula quinti toni, b. pro medio
+        et pro regula septimi toni, c. pro linea, d. pro medio, e pro linea, f. pro medio, g. pro
+        linea; aa pro medio, bb pro linea, cc pro media, dd pro linea et ultimo puncto de palma, non
+        de toto cantu.</p>
       <p xml:id="SALSCI0250">Sed quare non ponitur quilibet punctus in linea de secundo in secundum?
         Respondeo: cederet ad confusionem et deturpationem libri. Et quare non ponitur linea de
         quarto in quartum, vel de quinto in quintum punctum? Respondeo: bene ponitur de quinto in
         quintum per primam viam, et meliori via, quam tu opponens intelligas; sed de quarto in
         quartum non ponitur, nam bene posset errari in medio: et de tertio in tertium non cadit nisi
         unicus punctus in medio, et ideo errari non potest.</p>
-      <p xml:id="SALSCI0251">Quare in cantu, qui ascendit quinque vel sex lineas, omnes non ponuntur in
-        libro? Respondeo: omittitur fortassis propter avaritiam pergameni vel desidiam notatoris:
+      <p xml:id="SALSCI0251">Quare in cantu, qui ascendit quinque vel sex lineas, omnes non ponuntur
+        in libro? Respondeo: omittitur fortassis propter avaritiam pergameni vel desidiam notatoris:
         vel possumus dicere, et est melius, quod illud suppletur per quidafollas et aliquotiens
         musafollas, sive per clavium appositionem, quod idem est. Sed hoc non obstante, scilicet
         appositione clavium, propter defectum linearum a plerisque etiam provectis cantus et ipsi
@@ -1175,13 +1199,14 @@
         quod de antiqua nota caveat, quod a bono musico faciat praevideri, quod claves, ut dictum
         est superius, ordinentur, si non vult, quod tota nota illa contineat falsitatem.</p>
       <p xml:id="SALSCI0253">Caput XXIX.</p>
-      <p xml:id="SALSCI0254">Rubrica de praenotandis et considerandis in nova editione huius artis.</p>
-      <p xml:id="SALSCI0255">Est notandum, quod septem sunt genera cantuum in ecclesia militante tacito
-        de cantibus ordinatis per lecturam, utpote Gloria in excelsis, prosae, praefatio, Sanctus,
-        Agnus, Missae, epistolae et evangelia, et similia: et ita sunt diversa et varia, quod unum
-        genus non cadit in aliud, neque debet, nec eius natura permittit. Quod si secus factum
-        fuerit, ille cantus erroneus et ab indiscreto musico videtur editus fuisse. Item sunt septem
-        genera cantuum adinstar septem operum misericordiae sive caritatis, vel iuxta verbum
+      <p xml:id="SALSCI0254">Rubrica de praenotandis et considerandis in nova editione huius
+        artis.</p>
+      <p xml:id="SALSCI0255">Est notandum, quod septem sunt genera cantuum in ecclesia militante
+        tacito de cantibus ordinatis per lecturam, utpote Gloria in excelsis, prosae, praefatio,
+        Sanctus, Agnus, Missae, epistolae et evangelia, et similia: et ita sunt diversa et varia,
+        quod unum genus non cadit in aliud, neque debet, nec eius natura permittit. Quod si secus
+        factum fuerit, ille cantus erroneus et ab indiscreto musico videtur editus fuisse. Item sunt
+        septem genera cantuum adinstar septem operum misericordiae sive caritatis, vel iuxta verbum
         propheticum septies in die laudem dicam tibi, Deus meus ne perdas me. Vel sunt octo genera
         cantuum, qui primum genus acceperit pro duobus, quod fieri potest ad instar octo tonorum. Ut
         ecce! primum genus invitatoria sive antiphonae; secundum responsoria; tertium officia;
@@ -1205,8 +1230,8 @@
         facto transcendat omnes tonos, si voluerit, nam idem sentiet artis peritiam: quod nisi
         fecerit, cantus et musicus in foveam dilabi merentur.</p>
       <p xml:id="SALSCI0257">Caput XXX.</p>
-      <p xml:id="SALSCI0258">Rubrica de notitia candandi in quatuor voces, et de quibusdam notabilibus
-        debitis et honestis.</p>
+      <p xml:id="SALSCI0258">Rubrica de notitia candandi in quatuor voces, et de quibusdam
+        notabilibus debitis et honestis.</p>
       <p xml:id="SALSCI0259">Ad notitiam adquirendam et instructionem scientiae cantandi in quatuor
         voces, et eorum, quae in praesenti figura seu doctrina continentur, praenotandum est, quod
         quatuor, qui cantare debebunt, habeant peritiam cantandi artificialiter, et quasi ex
@@ -1227,29 +1252,29 @@
         in omnibus punctis illum Rectorem quasi primum incipere permittere debent. Item notandum,
         quod ipse debet eos regere in omnibus pausis, et post pausas incipere debet, qualemcumque
         ipse cantaverit vocem.</p>
-      <p xml:id="SALSCI0260">Si autem ipse Rector debet cantare primam vocem, tunc debet ponere illum,
-        qui debet cantare secundam vocem, in prima, et statim tactio de secunda ponet illum, qui
-        debet cantare tertiam vocem, in tertia, et quartum in quarta, et statim illum de prima
+      <p xml:id="SALSCI0260">Si autem ipse Rector debet cantare primam vocem, tunc debet ponere
+        illum, qui debet cantare secundam vocem, in prima, et statim tactio de secunda ponet illum,
+        qui debet cantare tertiam vocem, in tertia, et quartum in quarta, et statim illum de prima
         ponere in secundam, et seipsum in prima. Si ipse debet cantare secundam vocem, tunc ponet
         primum in prima, et dimissa secunda ponet tertium in tertia, et quartum in quarta, et postea
         resumet suam vocem secundam. Si autem debet cantare tertiam vocem, tunc ponet primum in
         prima, quartum in quarta, et secundum in secunda, dimissa tertia et postea teritam
         resumet.</p>
-      <p xml:id="SALSCI0261">Quae est ratio diversitatis, quod quando debet cantare secundam, nulli eam
-        commendat, et quando debet cantare primam vel tertiam, eas commendat? Respondeo: necessitas
-        est in causa; nam sine sonoritate primae, aliae tres non procedunt. Item prima indiget
-        tertia, quia reddit sonoritatem et facit consonantiam cum illa. Item per quartam habetur
-        secunda, quia secum applaudit, ut in figura apparebit. Ideo non est necesse illi, qui debet
-        cantare secundam, quod alium impediat de ea, quod nihil aliud esset, quam totum impedire; et
-        fortassis omnes quatuor impedirent, dato quod essent boni cantores.</p>
-      <p xml:id="SALSCI0262">Item si Rector iste non fuerit de quatuor, qui debent cantare in quatuor
-        voces, tunc inspectis, quae dicta sunt de sonoritate vocum, ponet omnes ordinatim in suas
-        voces, et faciet eis pausas cum manu sua super librum honeste dissyllabando. Sed si quisquam
-        parum aut minus rigide sonabit, aut posuerit vanos punctos, tunc dicet ad aurem cuiuslibet
-        honeste: parum sonas, minus sonas, nimis rigide cantas, nimis figuraliter ponis punctos; et
-        taliter, ne ab aliis agnoscatur: aut cantabit aliquotiens cum aliquo, prout erit magis et
-        minus necesse; et tunc affirmabit totum cantum in debitam sonoritatem. Verum tamen vix
-        habebit debitam et plenam sonoritatem cantus ille, nisi ductor de quatuor cantoribus
+      <p xml:id="SALSCI0261">Quae est ratio diversitatis, quod quando debet cantare secundam, nulli
+        eam commendat, et quando debet cantare primam vel tertiam, eas commendat? Respondeo:
+        necessitas est in causa; nam sine sonoritate primae, aliae tres non procedunt. Item prima
+        indiget tertia, quia reddit sonoritatem et facit consonantiam cum illa. Item per quartam
+        habetur secunda, quia secum applaudit, ut in figura apparebit. Ideo non est necesse illi,
+        qui debet cantare secundam, quod alium impediat de ea, quod nihil aliud esset, quam totum
+        impedire; et fortassis omnes quatuor impedirent, dato quod essent boni cantores.</p>
+      <p xml:id="SALSCI0262">Item si Rector iste non fuerit de quatuor, qui debent cantare in
+        quatuor voces, tunc inspectis, quae dicta sunt de sonoritate vocum, ponet omnes ordinatim in
+        suas voces, et faciet eis pausas cum manu sua super librum honeste dissyllabando. Sed si
+        quisquam parum aut minus rigide sonabit, aut posuerit vanos punctos, tunc dicet ad aurem
+        cuiuslibet honeste: parum sonas, minus sonas, nimis rigide cantas, nimis figuraliter ponis
+        punctos; et taliter, ne ab aliis agnoscatur: aut cantabit aliquotiens cum aliquo, prout erit
+        magis et minus necesse; et tunc affirmabit totum cantum in debitam sonoritatem. Verum tamen
+        vix habebit debitam et plenam sonoritatem cantus ille, nisi ductor de quatuor cantoribus
         existat; nisi alii quatuor essent praeelecti. Et notandum notabiliter, non decipiamini, quod
         non possunt nec debent esse illi ultra quatuor, qui cantant aliquomodo, quin cedat ad
         confusionem et deturpationem totius cantus, qui cantatur; nec debet dici cantus quatuor, sed
@@ -1263,12 +1288,12 @@
         cantare debeat, tunc in adventu suo quasi omnes simul, primo de prima voce tamen moderate
         instigante, uno ictu, non duobus, in diversis vocibus poterunt omnes incipere post primum
         ictum.</p>
-      <p xml:id="SALSCI0264">Et notandum, quod plura sunt necesse ad hoc, ut cantus habeat debitum suum:
-        primo ut ille, qui cantat, habeat notitiam illius, quod cantat, nam sicuti legere et non
-        intelligere, negligere est, ita cantare et non intelligere cantum nec seipsum, deridere est.
-        Item quod cantor habeat sonoram vocem et concordem, quantumcumque sciat de arte: Item quod
-        semper cantor congrue vocem suam de puncto in punctum exaltet ad modum Gallicorum. Laudem
-        Dei semper debemus extollere et exaltare, non deprimere, non supprimere, nec voces
+      <p xml:id="SALSCI0264">Et notandum, quod plura sunt necesse ad hoc, ut cantus habeat debitum
+        suum: primo ut ille, qui cantat, habeat notitiam illius, quod cantat, nam sicuti legere et
+        non intelligere, negligere est, ita cantare et non intelligere cantum nec seipsum, deridere
+        est. Item quod cantor habeat sonoram vocem et concordem, quantumcumque sciat de arte: Item
+        quod semper cantor congrue vocem suam de puncto in punctum exaltet ad modum Gallicorum.
+        Laudem Dei semper debemus extollere et exaltare, non deprimere, non supprimere, nec voces
         debilitare. Ideo in regula istius artis continetur, quod cantor sive inceptor cantuum
         moderata voce cantus omnes incipere debet, quod ipse et quilibet alter voce idonea ad
         ultimum punctum attingere possit: aliter cederet in deturpationem cantus, nec diceretur
@@ -1281,14 +1306,15 @@
         laicorum, quando debent esse contenti quatuor punctis vel quinque: et hoc cedit in gravamen
         priorum de choro, et procedit, ut videtur, ex artis imperitia, et quia confidunt de
         instrumentis suis.</p>
-      <p xml:id="SALSCI0265">His tactis ad explanationem circumferentiarum figurae habeatur accessus. Et
-        est sciendum, quod in prima circumferentia figurae continetur numerus duodecim punctorum,
-        qui est necessarius ad complementum cantus quatuor vocum. In secunda circumferentia
-        continetur, per quot punctos una vox artificialiter differt ab alia. Et est sciendum, quod
-        secunda vox differt a prima per quinque punctos, tertia a secunda differt quatuor punctos,
-        quarta a tertia quinque.</p>
-      <p xml:id="SALSCI0266">Quid est hoc? nonne bis quinque et quatuor sunt quatuordecim? et in prima
-        circumferentia continetur, quod non sunt nisi duodecim in quatuor voces? <pb n="[60]"/>Respondeo: totum verum est, sed quintus punctus de primo puncto recompensatur iterum pro
+      <p xml:id="SALSCI0265">His tactis ad explanationem circumferentiarum figurae habeatur
+        accessus. Et est sciendum, quod in prima circumferentia figurae continetur numerus duodecim
+        punctorum, qui est necessarius ad complementum cantus quatuor vocum. In secunda
+        circumferentia continetur, per quot punctos una vox artificialiter differt ab alia. Et est
+        sciendum, quod secunda vox differt a prima per quinque punctos, tertia a secunda differt
+        quatuor punctos, quarta a tertia quinque.</p>
+      <p xml:id="SALSCI0266">Quid est hoc? nonne bis quinque et quatuor sunt quatuordecim? et in
+        prima circumferentia continetur, quod non sunt nisi duodecim in quatuor voces? <pb n="[60]"
+        />Respondeo: totum verum est, sed quintus punctus de primo puncto recompensatur iterum pro
         primo puncto in numero quatuor. Similiter quartus punctus de numero quatuor ponitur pro
         primo in ultimo computo de numero quinque: et sic, ut dictum est, quaelibet circumferentia
         continet veritatem.</p>
@@ -1301,8 +1327,8 @@
         laicus audiret alium laicum cantare in prima bassa voce, bene saliret recta in tertia, non
         autem aliquo modo in secunda; vel e contrario de tertia in prima, sed nunquam in
         secunda.</p>
-      <p xml:id="SALSCI0268">Quare numerus punctorum et ordinatio vocum non exprimitur per ut, re, mi,
-        fa, sol, la, cum hic agatur de punctis et cantu? Respondeo: ille, qui edidit praesentem
+      <p xml:id="SALSCI0268">Quare numerus punctorum et ordinatio vocum non exprimitur per ut, re,
+        mi, fa, sol, la, cum hic agatur de punctis et cantu? Respondeo: ille, qui edidit praesentem
         doctrinam, nolebat turbare addiscentes, sed potius instruere. Nam si inciperet per ut,
         primo, ut facere debet, volentes addiscere fortassis turbarentur, si semper illa, quae
         vellent in quatuor vocibus cantare, nisi in ut primam vocem fundarent. Nam quantum est de
@@ -1315,8 +1341,8 @@
         ultra quatuor non generaret nisi turpem sonoritatem, et saperet naturam ac si collegium
         cantaret. Nec etiam permittitur, quod duo cantent in eadem voce, nisi in prima causaliter,
         si esset tam bassa prima, ne posset a circumstantibus audiri.</p>
-      <p xml:id="SALSCI0269">Quare figura non est rotunda ex omni parte, vel quadrata, cum constet ex
-        quatuor? Respondeo: ita fieri debet ad modum lunae, quae habet duo capita. Nonne sunt
+      <p xml:id="SALSCI0269">Quare figura non est rotunda ex omni parte, vel quadrata, cum constet
+        ex quatuor? Respondeo: ita fieri debet ad modum lunae, quae habet duo capita. Nonne sunt
         ordinati illi quatuor, qui cantant, ac si respicerent ad librum? Item primus per se facit
         unum caput, ita quod vox sua non tangit aliquid, post se habet reliquas tres. Quartus
         similiter facit aliud caput, cum non habeat alium superiorem; et sic debet fieri ad modum
@@ -1395,7 +1421,8 @@
         punctos ante Credidi. Antiphona veritas Domini manet in aeternum, antiphona Clamavi et
         exaudivit me. Unde veniet auxilium mihi; et nihilominus ascendit septem punctos Credidi
         secundum debitum tonorum. Finis antiphonae veritas nonne requirit sonoritatem trium
-        punctorum supra se? et ita tenemus; et nihilominus descendit tres punctos. Finis <pb n="[63]"/>antiphonae de Clamavi requirit, quod antiphona Unde incipiat tertio supra se, et
+        punctorum supra se? et ita tenemus; et nihilominus descendit tres punctos. Finis <pb
+          n="[63]"/>antiphonae de Clamavi requirit, quod antiphona Unde incipiat tertio supra se, et
         tamen incipit aequaliter in E. cum praecedenti: et omnes istae sonoritates sunt quotidianae.
         Item unus tonus de sonoritate alterius artificialiter non curat, maxime in diversis metris,
         servatis tamen, quae dixi superius de responsoriis et tonis, et in duobus membris
@@ -1403,16 +1430,16 @@
         naturali in se ipso in diversis metris, ut in exemplo antiphonae de Inclinavit cum
         quotidianis similibus, et specialiter in antiphona Clamavi. Unde veniet antiphonae quae sunt
         ambae quarti toni.</p>
-      <p xml:id="SALSCI0278">Ad illa, quae dicta fuerunt de responsorio Haec dies quam fecit dominus,
-        versu eiusdem et similibus nulla est quaestio: imo dico, quod verius cantatur, et sapit
-        naturam septimi toni, quod (indicat) ipsum Gloria patri, quod datur pro exemplo eiusdem
-        septimi toni. Item dico, quod melius tertium seculorum, quod continetur inter species
-        septimi toni, finit in a. quare bene non finiret responsorium Haec dies et versus eius in
-        a.? Iam finiunt aliquotiens versus regulariter in b. responsoria aliquotiens in d. superius,
-        in quo deviat se de septimo tono, qui facit regulam suam in b. et finit in G. Haec dies
-        (cum) in medio faciat finem suum in a. utique de septimo tono est, et debet iudicari. Quod
-        non debeat esse de quinto, palam est; quintus et sextus maiorem accipiunt potestatem ab a,
-        infra, quam supra septimus, et e converso; et ideo septimi toni haec dies, versus, et
+      <p xml:id="SALSCI0278">Ad illa, quae dicta fuerunt de responsorio Haec dies quam fecit
+        dominus, versu eiusdem et similibus nulla est quaestio: imo dico, quod verius cantatur, et
+        sapit naturam septimi toni, quod (indicat) ipsum Gloria patri, quod datur pro exemplo
+        eiusdem septimi toni. Item dico, quod melius tertium seculorum, quod continetur inter
+        species septimi toni, finit in a. quare bene non finiret responsorium Haec dies et versus
+        eius in a.? Iam finiunt aliquotiens versus regulariter in b. responsoria aliquotiens in d.
+        superius, in quo deviat se de septimo tono, qui facit regulam suam in b. et finit in G. Haec
+        dies (cum) in medio faciat finem suum in a. utique de septimo tono est, et debet iudicari.
+        Quod non debeat esse de quinto, palam est; quintus et sextus maiorem accipiunt potestatem ab
+        a, infra, quam supra septimus, et e converso; et ideo septimi toni haec dies, versus, et
         similia habentur, maxime quia quasi in totum ab a. superius cantantur. Item quidam
         piscatores lucios in silvis (venantes) volebant dicere, quod haec dies erat secundi toni,
         quod phantasticum est cogitare, cum aliquo modo aliquis somniator secundum antiquum cursum
@@ -1434,8 +1461,8 @@
         gratias referamus ad Omnipotentem et Creatorem nostrum, qui sui misericordia praesens
         opusculum ad finem perduxit.</p>
       <p xml:id="SALSCI0281">Oret voce pia pro nobis virgo Maria.</p>
-      <p xml:id="SALSCI0282">Et omnes illi, quibus proficiet praesens doctrina, pro me Helia Salomonis
-        orare teneantur.</p>
+      <p xml:id="SALSCI0282">Et omnes illi, quibus proficiet praesens doctrina, pro me Helia
+        Salomonis orare teneantur.</p>
       <p xml:id="SALSCI0283">Actum anno Domini millesimo, ducentesimo, septuagesimo quarto, in curia
         Romana, anno domini Gregorii decimi tertio.</p>
     </body>

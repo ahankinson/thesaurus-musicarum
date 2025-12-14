@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musica</title>
         <title type="abbrev">ALCMUS</title>
-        <author>Alcuinus, Flaccus</author>
-        <date notBefore="500" notAfter="799">6th-8th</date>
+        <author><persName>Alcuinus, Flaccus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1992</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1992">1992</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptores ecclesiastici de musica sacra potissimum</emph>, 3 vols., ed. Martin
@@ -37,11 +47,11 @@
         regulae. Tamen sicut minima pars Grammaticae littera, sic minima pars Arithmeticae unitas:
         et quomodo litteris oratio, unitatibus acervus multiplicatus numerorum surgit, et erigitur;
         eo modo et sonorum tonorumque linea omnis cantilena modulatur.</p>
-      <p xml:id="ALCMUS0003">Definitur autem ita: Tonus est totius constitutionis harmonicae differentia
-        et quantitas, quae in vocis accentu sive tenore consistit. Nomina autem eorum apud nos
-        usitata, ex auctoritate atque ordine sumpsere principia: nam quatuor eorum authentici
-        vocantur. Ad principium eorum sonus refertur, eoquod aliis quatuor quidam ducatus et
-        magisterium ab eis praebeatur. Unde et primi altiores, secundi inferiores. Authenticum
+      <p xml:id="ALCMUS0003">Definitur autem ita: Tonus est totius constitutionis harmonicae
+        differentia et quantitas, quae in vocis accentu sive tenore consistit. Nomina autem eorum
+        apud nos usitata, ex auctoritate atque ordine sumpsere principia: nam quatuor eorum
+        authentici vocantur. Ad principium eorum sonus refertur, eoquod aliis quatuor quidam ducatus
+        et magisterium ab eis praebeatur. Unde et primi altiores, secundi inferiores. Authenticum
         [authentikon] graeca lingua auctorem sive magistrum dicimus: unde et libros antiquissimos
         atque firmos authenticos vocamus: utpote qui pro sui firmitate aliis possunt auctoritatem
         magisteriumque praebere.</p>
@@ -52,10 +62,10 @@
         triti nuncupatur nomine. Quartus Tetrachius eodem, quo caeteri, modo ab ordine suum
         vocabulum sumpsit; quia videlicet quartum principatus locum obtinet: tetra enim graeci
         quatuor dicunt.</p>
-      <p xml:id="ALCMUS0005">Plagii ([plagioi] obliqui, seu laterales) autem coniuncte dicuntur omnes
-        quatuor. Quod nomen significare dicitur pars sive inferiores eorum: quia videlicet quatuor
-        quaedam partes sunt eorum, dum ab eis ex toto non recedunt; et inferiores, quia sonus eorum
-        pressior est, quam superiorum.</p>
+      <p xml:id="ALCMUS0005">Plagii ([plagioi] obliqui, seu laterales) autem coniuncte dicuntur
+        omnes quatuor. Quod nomen significare dicitur pars sive inferiores eorum: quia videlicet
+        quatuor quaedam partes sunt eorum, dum ab eis ex toto non recedunt; et inferiores, quia
+        sonus eorum pressior est, quam superiorum.</p>
     </body>
   </text>
 </TEI>

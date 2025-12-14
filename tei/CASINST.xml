@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Institutionum liber secundus saecularium litterarum</title>
         <title type="abbrev">CASINST</title>
-        <author>Cassiodorus, Aurelius</author>
-        <date notBefore="500" notAfter="799">6th-8th</date>
+        <author><persName>Cassiodorus, Aurelius</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Cassiodori senatoris Institutiones</emph>, ed. R. A. B. Mynors (Oxford: Clarendon,
@@ -144,7 +154,8 @@
         diapason, symphonia est quae constat ex ratione tetraplasia; fit autem per sonos xv.</p>
       <p xml:id="CASINST0006">8. Tonus est totius constitutionis armonicae differentia et quantitas,
         quae in vocis accentu sive tenore consistit. toni vero sunt quindecim: hypodorius
-        hypoiastius hypophrygius hypoaeolius hypolydius dorius iastius phrygius aeolius lydius <pb n="[146]"/>hyperdorius hyperiastius hyperphrygius hyperaeolius hyperlydius. I. hypodorius
+        hypoiastius hypophrygius hypoaeolius hypolydius dorius iastius phrygius aeolius lydius <pb
+          n="[146]"/>hyperdorius hyperiastius hyperphrygius hyperaeolius hyperlydius. I. hypodorius
         tonus est omnium gravissime sonans, propter quod et inferior nuncupatur. II. hypoiastius
         autem hypodorium hemitonio praecedens. III. hypophrygius est hypoiastium hemitonio,
         hypodorium tono praecedens. IIII. hypoaeolius est hypophrygium hemitonio, hypoiastium tono,
@@ -191,17 +202,17 @@
         meminit, tantae utilitatis virtus ostensa est ut excitatos animos sedarent, ipsas quoque
         bestias, necnon et serpentes, volucres atque delfinas ad auditum suae modulationis
         attraherent.</p>
-      <p xml:id="CASINST0007">9. Nam ut Orphei lyram, Syrenarum cantus tamquam fabulosa taceamus, quid
-        de David dicimus, qui ab spiritibus immundis Saulem disciplina saluberrimae modulationis
-        eripuit, novoque modo per auditum sanitatem contulit regi, quam medici non poterant herbarum
-        potestatibus operari? <pb n="[149]"/>Asclepiades quoque, medicus maiorum attestatione
-        doctissimus, freneticum quendam per symphoniam pristinae sanitati reddidisse memoratur.
-        multa sunt autem, quae in aegris hominibus per hanc disciplinam leguntur facta miracula.
-        caelum ipsum, sicut supra memoravimus, dicitur sub armoniae dulcedine revolvi; et ut
-        breviter cuncta complectar, quicquid in supernis sive terrenis rebus convenienter secundum
-        Auctoris sui dispositionem geritur, ab hac disciplina non refertur exceptum.</p>
-      <p xml:id="CASINST0008">10. Gratissima ergo nimis utilisque cognitio, quae et sensum nostrum ad
-        superna erigit et aures suavi modulatione permulcet. quam apud Graecos Alypius, Euclides,
+      <p xml:id="CASINST0007">9. Nam ut Orphei lyram, Syrenarum cantus tamquam fabulosa taceamus,
+        quid de David dicimus, qui ab spiritibus immundis Saulem disciplina saluberrimae
+        modulationis eripuit, novoque modo per auditum sanitatem contulit regi, quam medici non
+        poterant herbarum potestatibus operari? <pb n="[149]"/>Asclepiades quoque, medicus maiorum
+        attestatione doctissimus, freneticum quendam per symphoniam pristinae sanitati reddidisse
+        memoratur. multa sunt autem, quae in aegris hominibus per hanc disciplinam leguntur facta
+        miracula. caelum ipsum, sicut supra memoravimus, dicitur sub armoniae dulcedine revolvi; et
+        ut breviter cuncta complectar, quicquid in supernis sive terrenis rebus convenienter
+        secundum Auctoris sui dispositionem geritur, ab hac disciplina non refertur exceptum.</p>
+      <p xml:id="CASINST0008">10. Gratissima ergo nimis utilisque cognitio, quae et sensum nostrum
+        ad superna erigit et aures suavi modulatione permulcet. quam apud Graecos Alypius, Euclides,
         Ptolomeus et ceteri probabili institutione docuerunt; apud Latinos autem vir magnificus
         Albinus librum de hac re compendiosa brevitate conscripsit, quem in bibliotheca Romae nos
         habuisse atque studiose legisse retinemus. qui si forte gentili incursione sublatus est,
@@ -209,7 +220,8 @@
         patefaciet. fertur etiam Latino sermone et Apuleium Madaurensem instituta huius operis
         effecisse. scripsit etiam et pater Augustinus de Musica sex libros, in quibus humanam vocem
         rithmicos sonos et armoniam modulabilem in longis syllabis atque brevibus naturaliter habere
-        posse monstravit. Censorinus quoque de accentibus qui voci nostrae valde <pb n="[150]"/>necessarii sunt, suptiliter disputavit, quos pertinere dicit ad musicam disciplinam; quem
+        posse monstravit. Censorinus quoque de accentibus qui voci nostrae valde <pb n="[150]"
+        />necessarii sunt, suptiliter disputavit, quos pertinere dicit ad musicam disciplinam; quem
         vobis inter ceteros transscriptum reliqui.</p>
       <p xml:id="CASINST0009">11. Nunc ad Geometriam veniamus, quae est descriptio contemplativa
         formarum, documentum etiam visibile philosophorum; quod ut praeconiis efferant, Iovem suum

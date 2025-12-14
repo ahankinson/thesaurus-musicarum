@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De institutione musica, liber quintus</title>
         <title type="abbrev">BOEMUS5</title>
-        <author>Boethius, Anicius Manlius Severinus</author>
-        <date notBefore="500" notAfter="799">6th-8th</date>
+        <author><persName>Boethius, Anicius Manlius Severinus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Claudia Di Luca</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Boetii De institutione musica libri quinque</emph>, ed. Godofredus Friedlein
@@ -471,17 +481,18 @@
       <p xml:id="BOEMUS50001">
         <pb n="[349]"/>Incipit liber quintus.</p>
       <p xml:id="BOEMUS50002">I. Proemium</p>
-      <p xml:id="BOEMUS50003">II. De vi armonicae et quae sint eius instrumenta iudicii et quonam usque
-        sensibus oporteat credi.</p>
-      <p xml:id="BOEMUS50004">III. Quid sit armonica regula vel quam intentionem armonicae Pythagorei
-        vel Aristoxenus vel Ptolomaeus esse dixerunt.</p>
+      <p xml:id="BOEMUS50003">II. De vi armonicae et quae sint eius instrumenta iudicii et quonam
+        usque sensibus oporteat credi.</p>
+      <p xml:id="BOEMUS50004">III. Quid sit armonica regula vel quam intentionem armonicae
+        Pythagorei vel Aristoxenus vel Ptolomaeus esse dixerunt.</p>
       <p xml:id="BOEMUS50005">
         <pb n="[350]"/>IIII. In quo Aristoxenus vel Pythagorici vel Ptolomaeus gravitatem atque
         acumen constare posuerint.</p>
       <p xml:id="BOEMUS50006">V. De sonorum differentiis Ptolomaei sententia.</p>
       <p xml:id="BOEMUS50007">VI. Quae voces armoniae sint aptae.</p>
       <p xml:id="BOEMUS50008">VII. Quem numerum proportionum Pythagorici statuant.</p>
-      <p xml:id="BOEMUS50009">VIII. Quod reprehendat Ptolomaeus Pythagoricos in numero proportionum.</p>
+      <p xml:id="BOEMUS50009">VIII. Quod reprehendat Ptolomaeus Pythagoricos in numero
+        proportionum.</p>
       <p xml:id="BOEMUS50010">VIIII. Demonstratio secundum Ptolomaeum diapason et diatessaron
         consonatiam esse.</p>
       <p xml:id="BOEMUS50011">X. Quae sit proprietas diapason consonantiae.</p>
@@ -491,8 +502,8 @@
       <p xml:id="BOEMUS50015">XIIII. Descriptio octachordi, qua ostenditur diapason minorem esse sex
         tonis.</p>
       <p xml:id="BOEMUS50016">XV. Diatessaron consonatiam tetrachordo contineri.</p>
-      <p xml:id="BOEMUS50017">XVI. Quomodo Aristoxenus vel tonum dividat vel genera eiusque divisionis
-        dispositio.</p>
+      <p xml:id="BOEMUS50017">XVI. Quomodo Aristoxenus vel tonum dividat vel genera eiusque
+        divisionis dispositio.</p>
       <p xml:id="BOEMUS50018">XVII. Quomodo Archytas tetrachorda dividat eorumque descriptio.</p>
       <p xml:id="BOEMUS50019">XVIII. Quemadmodum Ptolomaeus et Aristoxeni et Archytae tetrachordorum
         divisiones reprehendat.</p>
@@ -510,7 +521,8 @@
       <p xml:id="BOEMUS50027">XXVI. Diatonici mollis divisio Ptolomaei.</p>
       <p xml:id="BOEMUS50028">XXVII. Diatonici incitati Ptolomaei divisio.</p>
       <p xml:id="BOEMUS50029">XXVIII. Diatonici toniaei Ptolomaei divisio.</p>
-      <p xml:id="BOEMUS50030">XXVIIII. Dispositio divisorum generum cum numeris et proportionibus.</p>
+      <p xml:id="BOEMUS50030">XXVIIII. Dispositio divisorum generum cum numeris et
+        proportionibus.</p>
       <p xml:id="BOEMUS50031">XXX. Diatonici aequalis Ptolomaei divisio.</p>
       <p xml:id="BOEMUS50032">Proemium.</p>
       <p xml:id="BOEMUS50033">I. Post monochordi regularis divisionem adicienda esse arbitror ea, in
@@ -522,12 +534,12 @@
         cernatur.</p>
       <p xml:id="BOEMUS50034">De vi armonicae et quae sint eius instrumenta iudicii et quonam usque
         sensibus oporteat credi.</p>
-      <p xml:id="BOEMUS50035">II. Sed de his paulo post loquemur. Nunc dicendum <pb n="[352]"/>est, quae
-        sit vis armonicae, de qua tractare instituentes quattuor inplevimus libros. Naturam vero
-        eius vimque exprimendam in huius quinti voluminis seriem distulimus. Armonica est facultas
-        differentias acutorum et gravium sonorum sensu ac ratione perpendens. Sensus enim ac ratio
-        quasi quaedam facultatis armonicae instrumenta sunt. Sensus namque confusum quiddam ac
-        proxime tale, quale est illud, quod sentit, advertit. Ratio vero diiudicat integritatem
+      <p xml:id="BOEMUS50035">II. Sed de his paulo post loquemur. Nunc dicendum <pb n="[352]"/>est,
+        quae sit vis armonicae, de qua tractare instituentes quattuor inplevimus libros. Naturam
+        vero eius vimque exprimendam in huius quinti voluminis seriem distulimus. Armonica est
+        facultas differentias acutorum et gravium sonorum sensu ac ratione perpendens. Sensus enim
+        ac ratio quasi quaedam facultatis armonicae instrumenta sunt. Sensus namque confusum quiddam
+        ac proxime tale, quale est illud, quod sentit, advertit. Ratio vero diiudicat integritatem
         atque imas persequitur differentias. Itaque sensus invenit quidem confusa ac proxima
         veritati, accipit vero ratione integritatem. Ratio vero ipsa quidem invenit integritatem,
         accipit vero confusam ac proximam veri similitudinem. Namque sensus nihil concipit
@@ -540,7 +552,8 @@
         subiecti communionem intuetur, atque ideo eam integritas comitatur ac veritas, potiusque,
         quod in sensu aut peccatur aut minus est, aut emendat aut conplet. Fortasse autem id, quod
         sensus non integre sed confuse atque a veritate minus quasi quidam incallidus aestimator
-        agnoscit, in singulis minus habeat errati, collecta vero multiplicantur in summam atque <pb n="[353]"/>idcirco maximam faciunt differentiam. Nam si duas voculas tonum sensus distare
+        agnoscit, in singulis minus habeat errati, collecta vero multiplicantur in summam atque <pb
+          n="[353]"/>idcirco maximam faciunt differentiam. Nam si duas voculas tonum sensus distare
         arbitretur neque distent, rursusque ab una earum tonum distare putet tertiam, neque sit
         integra ac vera toni distantia, item tertiae quartaeque toni sensus differentiam putet,
         atque in eadem quoque erret, neque sit differentia toni, ab hac etiam quarta quintam distare
@@ -574,10 +587,11 @@
         mensuramque considerat.</p>
       <p xml:id="BOEMUS50036">Quid sit armonica regula vel quam intentionem armonicae Pythagorei vel
         Aristoxenus vel Ptolomaeus esse dixerunt.</p>
-      <p xml:id="BOEMUS50037">III. Huiusmodi igitur instrumentum, in quo rationis adhibito modo sonorum
-        differentiae perquiruntur, vocatur armonica regula. In qua re multa doctorum sententiae
-        discordia fuit. Quidam enim, qui Pythagoricis disciplinis maxime crediderunt, hanc
-        intentionem armonicae esse dicebant, ut cuncta rationi consentanea sequerentur. Sensum <pb n="[355]"/>enim dare quaedam quodammodo semina cognitionis rationem vero perficere.
+      <p xml:id="BOEMUS50037">III. Huiusmodi igitur instrumentum, in quo rationis adhibito modo
+        sonorum differentiae perquiruntur, vocatur armonica regula. In qua re multa doctorum
+        sententiae discordia fuit. Quidam enim, qui Pythagoricis disciplinis maxime crediderunt,
+        hanc intentionem armonicae esse dicebant, ut cuncta rationi consentanea sequerentur. Sensum
+          <pb n="[355]"/>enim dare quaedam quodammodo semina cognitionis rationem vero perficere.
         Aristoxenus vero e contrario rationem quidem comitem ac secundariam esse dicebat, cuncta
         vero sensus iudicio terminari et ad eius modulationem consensumque esse tendendum. A
         Ptolomaeo autem alio quodam modo armonicae definitur intentio, ea scilicet, ut nihil auribus
@@ -587,8 +601,8 @@
         maxime Aristoxenum ac Pythagoricos reprehendit, quod Aristoxenus nihil rationi sed tantum
         sensibus credit, Pythagoricos autem, quia minimum sensibus, plurimum tamen proportionibus
         rationis invigilent.</p>
-      <p xml:id="BOEMUS50038">In quo Aristoxenus vel Pythagorici vel Ptolomaeus gravitatem atque acumen
-        constare posuerint.</p>
+      <p xml:id="BOEMUS50038">In quo Aristoxenus vel Pythagorici vel Ptolomaeus gravitatem atque
+        acumen constare posuerint.</p>
       <p xml:id="BOEMUS50039">IIII. Quoniam vero sonum esse omnes consentiunt aeris percussionem,
         gravitatis atque acuminis differentiam diversa ratione ponebant Aristoxenum secuti et
         Pythagorici. Aristoxenus quippe sonorum differentias secundum gravitatem atque acumen
@@ -599,18 +613,19 @@
         modo <pb n="[356]"/>dicatur; quamquam etiam, cum relaxatur aliquid, quasi fit rarius atque
         crassius, cum vero intenditur, spissius redditur subtiliusque tenuatur.</p>
       <p xml:id="BOEMUS50040">De sonorum differentiis Ptolomaei sententia.</p>
-      <p xml:id="BOEMUS50041">V. His ita igitur expeditis differentias sonorum Ptolomaeus dividit hoc
-        modo. Vocum aliae sunt unisonae, aliae minime. Unisonae sunt, quarum sonus unus est vel in
-        gravi vel in acuto; non unisonae vero, quando est alia gravior, alia acutior. Harum partim
-        ita sunt, ut earum inter se differentia communi fine iungatur. Non enim discreta est, sed a
-        gravi in acutum ita deducitur, ut continua videatur. Aliae vero sunt non unisonae, quarum
-        differentia silentio interveniente distinguitur. Ut vero voces communi fine iungantur, fit
-        hoc modo. Sicut enim cum in nubibus arcus aspicitur ita colores sibimet sunt proximi, ut non
-        sit certus finis, cum alter ab altero disgregatur, sed ita verbi gratia a rubro discedit ad
-        pallidum, ut per continuam mutationem in sequentem vertatur colorem nullo medio certoque
-        interveniente, qui utrosque distinguat, ita etiam fieri solet in vocibus, ut si quis
-        percutiat nervum eumque, dum percutit, torqueat, evenit ut in principio pulsus gravior sit,
-        dum torquetur vero, vox illa tenuetur continuique fiant gravis vocis sonitus et acutae.</p>
+      <p xml:id="BOEMUS50041">V. His ita igitur expeditis differentias sonorum Ptolomaeus dividit
+        hoc modo. Vocum aliae sunt unisonae, aliae minime. Unisonae sunt, quarum sonus unus est vel
+        in gravi vel in acuto; non unisonae vero, quando est alia gravior, alia acutior. Harum
+        partim ita sunt, ut earum inter se differentia communi fine iungatur. Non enim discreta est,
+        sed a gravi in acutum ita deducitur, ut continua videatur. Aliae vero sunt non unisonae,
+        quarum differentia silentio interveniente distinguitur. Ut vero voces communi fine
+        iungantur, fit hoc modo. Sicut enim cum in nubibus arcus aspicitur ita colores sibimet sunt
+        proximi, ut non sit certus finis, cum alter ab altero disgregatur, sed ita verbi gratia a
+        rubro discedit ad pallidum, ut per continuam mutationem in sequentem vertatur colorem nullo
+        medio certoque interveniente, qui utrosque distinguat, ita etiam fieri solet in vocibus, ut
+        si quis percutiat nervum eumque, dum percutit, torqueat, evenit ut in principio pulsus
+        gravior sit, dum torquetur vero, vox illa tenuetur continuique fiant gravis vocis sonitus et
+        acutae.</p>
       <p xml:id="BOEMUS50042">Quae voces armoniae sint aptae.</p>
       <p xml:id="BOEMUS50043">VI. Cum igitur non unisonarum vocum aliae sint continuae, aliae
         disgregatae, continuae quidem tales sunt, ut <pb n="[357]"/>Inter se earum differentia
@@ -622,24 +637,24 @@
         differentia deprehendi, in quibus, qui iuncti efficere melos possunt, [emmeleis] dicuntur,
         [ekmeleis] autem, quibus iunctis melos effici non potest.</p>
       <p xml:id="BOEMUS50044">Quem numerum proportionum Pythagorici statuant.</p>
-      <p xml:id="BOEMUS50045">VII. Consonae autem vocantur, quae copulatae mixtos suavesque efficiunt
-        sonos, dissonae vero, quae minime. Et hoc quidem est Ptolomaei de sonorum differentia
-        iudicium. Nunc autem quid a ceteris in consonantiarum positione destiterit dicendum videtur.
-        Pythagorici enim consonantias diapente ac diatessaron simplices arbitrantur atque ex his
-        unam diapason consonantiam iungunt. Esse etiam diapente ac diapason et bis diapason, illam
-        tripli, hanc quadrupli. Diapason vero ac diatessaron consonantiam esse non aestimant
-        idcirco, quoniam non in superparticulari vel multiplici cadit comparatione, sed in
-        multiplici superpartiente. Est enim haec proportio vocum ut octo ad tres. Si quis enim horum
-        in medio quattuor ponat, efficiet terminos hos VIII. IIII. III. Quorum octo ad quattuor
-        diapason efficiunt consonantiam, quattuor ad tres diatessaron. Octo vero ad tres in
-        multiplici superpartiente constituitur. Quae autem sit multiplex superpartiens comparatio,
-          <pb n="[358]"/>ex arithmeticis libris cognoscendum est, et ex his, quae secundo huius
-        institutionis libro digessimus. Pythagorici autem consonantias in multiplicibus ac
-        superparticularibus ponunt, sicut eodem libro secundo quartoque praedictum est, a
-        superpartientibus vero ac multiplicibus superpartientibus consonantias separant. Quibus
-        autem modis diapason quidem duplici, diatessaron vero sesquitertio ac diapente sesqualtero
-        coniungant Pythagorici, ex secundo huius institutionis musicae libro et quarto petendum
-        est.</p>
+      <p xml:id="BOEMUS50045">VII. Consonae autem vocantur, quae copulatae mixtos suavesque
+        efficiunt sonos, dissonae vero, quae minime. Et hoc quidem est Ptolomaei de sonorum
+        differentia iudicium. Nunc autem quid a ceteris in consonantiarum positione destiterit
+        dicendum videtur. Pythagorici enim consonantias diapente ac diatessaron simplices
+        arbitrantur atque ex his unam diapason consonantiam iungunt. Esse etiam diapente ac diapason
+        et bis diapason, illam tripli, hanc quadrupli. Diapason vero ac diatessaron consonantiam
+        esse non aestimant idcirco, quoniam non in superparticulari vel multiplici cadit
+        comparatione, sed in multiplici superpartiente. Est enim haec proportio vocum ut octo ad
+        tres. Si quis enim horum in medio quattuor ponat, efficiet terminos hos VIII. IIII. III.
+        Quorum octo ad quattuor diapason efficiunt consonantiam, quattuor ad tres diatessaron. Octo
+        vero ad tres in multiplici superpartiente constituitur. Quae autem sit multiplex
+        superpartiens comparatio, <pb n="[358]"/>ex arithmeticis libris cognoscendum est, et ex his,
+        quae secundo huius institutionis libro digessimus. Pythagorici autem consonantias in
+        multiplicibus ac superparticularibus ponunt, sicut eodem libro secundo quartoque praedictum
+        est, a superpartientibus vero ac multiplicibus superpartientibus consonantias separant.
+        Quibus autem modis diapason quidem duplici, diatessaron vero sesquitertio ac diapente
+        sesqualtero coniungant Pythagorici, ex secundo huius institutionis musicae libro et quarto
+        petendum est.</p>
       <p xml:id="BOEMUS50046">Quod reprehendat Ptolomaeus Pythagoricos in numero proportionum.</p>
       <p xml:id="BOEMUS50047">VIII. Reprehendit autem Pythagoricos Ptolomaeus totamque eam, quam
         praedictis libris exposuimus, demonstrationem pluribus modis, in quo totum illud etiam, quod
@@ -647,40 +662,41 @@
         superparticularibus, cum eiusdem sint generis, nullas omnino applicent consonantias.</p>
       <p xml:id="BOEMUS50048">Demonstratio secundum Ptolomaeum diapason et diatessaron consonantiam
         esse.</p>
-      <p xml:id="BOEMUS50049">VIIII. Probat autem ex diapason ac diatessaron quandam fieri symphoniam
-        hoc modo, quoniam diapason consonantia talem vocis efficit coniunctionem, ut unus atque idem
-        nervus esse videatur, idque Pythagorici quoque consentiunt. Quocirca si qua ei consonantia
-        fuerit addita, integra inviolataque servatur. Ita enim diapason consonantiae <pb n="[359]"/>additur tamquam uni nervo. Sit igitur diapason consonantia, quae contineatur inter hypaten
-        meson et neten diezeugmenon. Utraque haec ita sibi consentit atque coniungitur sono, ut una
-        vox, quasi unius nervi non quasi duorum mixta pellat auditum. Quamcunque igitur huic
-        diapason consonantiae consonantiam iunxerimus, servatur integra, quia ita iungitur, tamquam
-        uni voculae ac nervo. Si igitur hypate meson et nete diezeugmenon duae in acutum diatessaron
-        fuerint iunctae, sicut iungitur nete quidem diezeugmenon ea, quae est nete hyperboleon,
-        hypate autem meson ea, quae est mese: utraque ad utramque consonabit et mese ad neten
-        diezeugmenon et eadem mese ad hypaten meson, item nete hyperboleon ad neten diezeugmenon et
-        ad hypaten meson. Item si ad graviorem partem utriusque diatessaron consonantiae relaxentur,
-        erit ad meson quidem hypaten diatessaron retinens consonantiam hypate hypaton, ad neten
-        autem diezeugmenon paramese, consonabitque et hypate hypaton, ad hypaten meson et ad neten
-        diezeugmenon et paramese ad neten diezeugmenon et ad hypaten meson, sed eo modo, ut gravior
-        quae est ad sibi quidem proximam diatessaron retineat consonantiam, ad ulteriorem vero
-        diatessaron ac diapason, ut hypate hypaton ad hypaten meson <pb n="[360]"/>diatessaron, ad
-        neten diezeugmenon diatessaron ac diapason. Item nete hyperboleon quae est acutior ad sibi
-        proximam neten diezeugmenon diatessaron consonantiam, ad hypaten meson diatessaron ac
-        diapason.</p>
+      <p xml:id="BOEMUS50049">VIIII. Probat autem ex diapason ac diatessaron quandam fieri
+        symphoniam hoc modo, quoniam diapason consonantia talem vocis efficit coniunctionem, ut unus
+        atque idem nervus esse videatur, idque Pythagorici quoque consentiunt. Quocirca si qua ei
+        consonantia fuerit addita, integra inviolataque servatur. Ita enim diapason consonantiae <pb
+          n="[359]"/>additur tamquam uni nervo. Sit igitur diapason consonantia, quae contineatur
+        inter hypaten meson et neten diezeugmenon. Utraque haec ita sibi consentit atque coniungitur
+        sono, ut una vox, quasi unius nervi non quasi duorum mixta pellat auditum. Quamcunque igitur
+        huic diapason consonantiae consonantiam iunxerimus, servatur integra, quia ita iungitur,
+        tamquam uni voculae ac nervo. Si igitur hypate meson et nete diezeugmenon duae in acutum
+        diatessaron fuerint iunctae, sicut iungitur nete quidem diezeugmenon ea, quae est nete
+        hyperboleon, hypate autem meson ea, quae est mese: utraque ad utramque consonabit et mese ad
+        neten diezeugmenon et eadem mese ad hypaten meson, item nete hyperboleon ad neten
+        diezeugmenon et ad hypaten meson. Item si ad graviorem partem utriusque diatessaron
+        consonantiae relaxentur, erit ad meson quidem hypaten diatessaron retinens consonantiam
+        hypate hypaton, ad neten autem diezeugmenon paramese, consonabitque et hypate hypaton, ad
+        hypaten meson et ad neten diezeugmenon et paramese ad neten diezeugmenon et ad hypaten
+        meson, sed eo modo, ut gravior quae est ad sibi quidem proximam diatessaron retineat
+        consonantiam, ad ulteriorem vero diatessaron ac diapason, ut hypate hypaton ad hypaten meson
+          <pb n="[360]"/>diatessaron, ad neten diezeugmenon diatessaron ac diapason. Item nete
+        hyperboleon quae est acutior ad sibi proximam neten diezeugmenon diatessaron consonantiam,
+        ad hypaten meson diatessaron ac diapason.</p>
       <p xml:id="BOEMUS50050">Quae sit proprietas diapason consonantiae.</p>
-      <p xml:id="BOEMUS50051">X. Hoc vero idcirco evenire contendit, quoniam diapason paene una vocula
-        est talisque consonantia est, ut unum quodammodo effingat sonum, et sicut denario numero qui
-        fuerit additus intra eum positus integer inviolatusque servatur, cum in ceteris id ita
-        minime eveniat, ita etiam in hac consonantia. Nam si duo tribus adicias, quinque continuo
-        reddis et numeri species inmutata est, si vero eosdem denario addas, duodecim feceris et
-        binarius iunctus denario conservatus est. Item ternarius ceterique eodem modo. Ita igitur
-        symphonia diapason quamcunque aliam susceperit, consonantiam servat nec inmutat nec ex
-        consona dissonam reddit. Nam sicut diapente symphonia iuncta diapason consonantiae in tripla
-        scilicet proportione diapason ac diapente consonantiam servat, ita etiam diatessaron cum sit
-        consonantia iuncta cum diapason, aliam consonantiam reddit et fit secundum Ptolomaeum
-        alterius consonantiae additio eius, quae est diapason ac diatessaron in multiplici
-        superpartiente constituta, estque ea proportio dupla superbipartiens ut octo ad tres. Habent
-        enim ternarium octo bis duasque eius partes id est duas unitates.</p>
+      <p xml:id="BOEMUS50051">X. Hoc vero idcirco evenire contendit, quoniam diapason paene una
+        vocula est talisque consonantia est, ut unum quodammodo effingat sonum, et sicut denario
+        numero qui fuerit additus intra eum positus integer inviolatusque servatur, cum in ceteris
+        id ita minime eveniat, ita etiam in hac consonantia. Nam si duo tribus adicias, quinque
+        continuo reddis et numeri species inmutata est, si vero eosdem denario addas, duodecim
+        feceris et binarius iunctus denario conservatus est. Item ternarius ceterique eodem modo.
+        Ita igitur symphonia diapason quamcunque aliam susceperit, consonantiam servat nec inmutat
+        nec ex consona dissonam reddit. Nam sicut diapente symphonia iuncta diapason consonantiae in
+        tripla scilicet proportione diapason ac diapente consonantiam servat, ita etiam diatessaron
+        cum sit consonantia iuncta cum diapason, aliam consonantiam reddit et fit secundum
+        Ptolomaeum alterius consonantiae additio eius, quae est diapason ac diatessaron in
+        multiplici superpartiente constituta, estque ea proportio dupla superbipartiens ut octo ad
+        tres. Habent enim ternarium octo bis duasque eius partes id est duas unitates.</p>
       <p xml:id="BOEMUS50052">Quibus modis Ptolomaeus consonantias statuat.</p>
       <p xml:id="BOEMUS50053">XI. Et de Pythagoricorum quidem opinione Ptolomaeus <pb n="[361]"/>ita
         diiudicat. Quibus vero modis ipse consonantiarum proportiones numerosque vestiget, hinc
@@ -701,15 +717,16 @@
         transgrediuntur, qui eidem unitati aequalis est. Iure igitur duplex proportio aequisonis
         aptatur, id est diapason, bis diapason vero bis duplici, id est quadruplo. Quae autem
         proportiones dividunt duplicem proportionem primae ac maximae his aptandae sunt
-        consonantiis, quae dividunt diapason aequisonantiam. Unde fit, ut diapente quidem <pb n="[362]"/>sesqualterae, diatessaron vero sesquitertiae comparationi copulentur. Iunctae
+        consonantiis, quae dividunt diapason aequisonantiam. Unde fit, ut diapente quidem <pb
+          n="[362]"/>sesqualterae, diatessaron vero sesquitertiae comparationi copulentur. Iunctae
         vero consonae cum aequisonis alias efficiunt consonantias, ut diapente ac diapason in triplo
         diatessaron ac diapason in ea proportione, quae est octo ad tres. Emmelis autem sunt, quae
         diapente ac diatessaron dividunt, ut tonus ceteraeque proportiones, de quibus paulo
         posterius in divisione tetrachordorum loquemur, simplices earum scilicet partes.</p>
       <p xml:id="BOEMUS50054">Quae sint aequisonae, quae consonae, quae emmelis.</p>
-      <p xml:id="BOEMUS50055">XII. Igitur aequisonae quidem sunt diapason ac bis diapason, quoniam earum
-        temperamento mixturaque unus ac simplex quodammodo efficitur sonus. Consonae autem sunt
-        primae quidem in superparticularibus sesqualtera et sesquitertia, id est diapente ac
+      <p xml:id="BOEMUS50055">XII. Igitur aequisonae quidem sunt diapason ac bis diapason, quoniam
+        earum temperamento mixturaque unus ac simplex quodammodo efficitur sonus. Consonae autem
+        sunt primae quidem in superparticularibus sesqualtera et sesquitertia, id est diapente ac
         diatessaron; et diapason ac diapente et diapason ac diatessaron. Hae sunt compositae atque
         coniunctae ex aequisonis et consonantibus. Emmelis autem sunt reliqui, qui inter has poni
         possunt, ut inter diatessaron ac diapente differentia tonus, iungunturque quodammodo
@@ -722,19 +739,21 @@
         diapente et diapason ac diatessaron et qui sunt emmelis soni, ut in toni differentia
         consistentes.</p>
       <p xml:id="BOEMUS50056">Quemadmodum Aristoxenus intervalla consideret.</p>
-      <p xml:id="BOEMUS50057">XIII. Quid vero de his Aristoxenus sentiat, breviter aperiendum est. Ille
-        enim quoniam minime tractatum rationi constituit, sed aurium iudicio permittit, idcirco
+      <p xml:id="BOEMUS50057">XIII. Quid vero de his Aristoxenus sentiat, breviter aperiendum est.
+        Ille enim quoniam minime tractatum rationi constituit, sed aurium iudicio permittit, idcirco
         voces ipsas nullis numeris notat, ut earum colligat proportiones, sed earum in medio
         differentiam sumit, ut speculationem non in ipsis vocibus, sed in eo, quod inter se
         differunt, collocet, nimis inprovide, qui differentiam se scire arbitretur earum vocum,
         quarum nullam magnitudinem mensuramve constituat. Hic igitur et diatessaron consonantiam
         duorum tonorum ac semitonii esse proponit, et diapente trium tonorum ac semitonii et
         diapason sex tonorum, quod fieri non posse superioribus voluminibus demonstratum est.</p>
-      <p xml:id="BOEMUS50058">Descriptio octachordi, qua ostenditur diapason minorem esse sex tonis.</p>
-      <p xml:id="BOEMUS50059">XIIII. Docet autem Ptolomaeus per cuiusdam octachordi divisionem diapason
-        intra sex tonos cadere hoc modo. Intendantur enim octo chordae, id est A. B. C. D. E. F. G.
-        H., fiatque sesquioctava .AK. eius, quae est .BL., et .BL. eius, quae est .CM., et .CM.
-        eius, quae est .DN., et .DN. eius, quae est .EX., et .EX. eius, quae est .FO., et <pb n="[364]"/>.FO. eius, quae est .GP. Erunt igitur sex toni. Rursus .H. dividatur nervus
+      <p xml:id="BOEMUS50058">Descriptio octachordi, qua ostenditur diapason minorem esse sex
+        tonis.</p>
+      <p xml:id="BOEMUS50059">XIIII. Docet autem Ptolomaeus per cuiusdam octachordi divisionem
+        diapason intra sex tonos cadere hoc modo. Intendantur enim octo chordae, id est A. B. C. D.
+        E. F. G. H., fiatque sesquioctava .AK. eius, quae est .BL., et .BL. eius, quae est .CM., et
+        .CM. eius, quae est .DN., et .DN. eius, quae est .EX., et .EX. eius, quae est .FO., et <pb
+          n="[364]"/>.FO. eius, quae est .GP. Erunt igitur sex toni. Rursus .H. dividatur nervus
         medius ad .R. Erit igitur .AK. dupla ab eo, quod est .HR. Pulsae igitur simul .AK. .HR.
         diapason aequisonantiam consonabunt. Si vero aliquis .GP. percutiat, semper erit paulo
         acutior, quam est .HR. ac per hoc transcendunt sex toni diapason consonantiam. Si enim .AK.
@@ -755,17 +774,17 @@
         tres proportiones efficiant.</p>
       <p xml:id="BOEMUS50063">Quomodo Aristoxenus vel tonum dividat vel genera eiusque divisionis
         dispositio.</p>
-      <p xml:id="BOEMUS50064">XVI. Hoc igitur diatessaron Aristoxenus per genera tali ratione partitur.
-        Dividit enim tonum in duas partes atque id semitonium vocat. Dividit in tres, cuius tertiam
-        vocat diesin chromatis mollis. Dividit in quattuor, cuius quartam cum propria medietate, id
-        est cum octava totius toni appellat diesin chromatis hemiolii. Cum igitur haec ita sint
-        cumque generum divisio secundum eum sit duplex, unum quidem genus est mollius, aliud vero
-        incitatius. Et mollius quidem est enarmonium, incitatius vero diatonicum. Inter haec vero
-        consistit chromaticum incitatione mollitieque participans, Fiunt igitur secundum hunc
-        ordinem differentiae permixtorum generum sex, una quidem enarmonii, tres autem chromatici,
-        id est chromatici mollis et chromatici hemiolii et chromatici toniaei, duae vero reliquae
-        diatonici mollis atque incitati. Quorum omnium talis secundum Aristoxenum divisio est.
-        Quoniam enim quarta pars toni diesis enarmonios nuncupari praedicta est, quoniamque
+      <p xml:id="BOEMUS50064">XVI. Hoc igitur diatessaron Aristoxenus per genera tali ratione
+        partitur. Dividit enim tonum in duas partes atque id semitonium vocat. Dividit in tres,
+        cuius tertiam vocat diesin chromatis mollis. Dividit in quattuor, cuius quartam cum propria
+        medietate, id est cum octava totius toni appellat diesin chromatis hemiolii. Cum igitur haec
+        ita sint cumque generum divisio secundum eum sit duplex, unum quidem genus est mollius,
+        aliud vero incitatius. Et mollius quidem est enarmonium, incitatius vero diatonicum. Inter
+        haec vero consistit chromaticum incitatione mollitieque participans, Fiunt igitur secundum
+        hunc ordinem differentiae permixtorum generum sex, una quidem enarmonii, tres autem
+        chromatici, id est chromatici mollis et chromatici hemiolii et chromatici toniaei, duae vero
+        reliquae diatonici mollis atque incitati. Quorum omnium talis secundum Aristoxenum divisio
+        est. Quoniam enim quarta pars toni diesis enarmonios nuncupari praedicta est, quoniamque
         Aristoxenus non voces ipsas inter se comparat, sed differentiam vocum intervallumque
         metitur, est secundum eum tonus .XII. unitatum. Huius igitur erit pars quarta diesis
         enarmonios .III. Quoniam vero <pb n="[366]"/>ex duobus tonis ac semitonio diatessaron
@@ -802,14 +821,14 @@
         XII. XXIIII. XXIIII., ex quibus .XXIIII. et .XII., id est .XXXVI. non superantur a reliqua
         parte, quae ad acutum est, sed potius vincunt. Est igitur secundum Aristoxenum
         tetrachordorum praedicta partitio, quae subiecta descriptione monstrabitur.</p>
-      <p xml:id="BOEMUS50065">[Friedlein, 367; text: XLVIII. VI. VI. LX. XLIIII. VIII. VIII. LX. XLII.
-        VIIII. VIIII. LX. Enarmonium, Chromaticum molle, Chromaticum hemiolium]</p>
+      <p xml:id="BOEMUS50065">[Friedlein, 367; text: XLVIII. VI. VI. LX. XLIIII. VIII. VIII. LX.
+        XLII. VIIII. VIIII. LX. Enarmonium, Chromaticum molle, Chromaticum hemiolium]</p>
       <p xml:id="BOEMUS50066">
         <pb n="[368]"/>[Friedlein, 368; text: XXXVI. XII. XII. LX. XXX. XVIII. XII. LX. XXIIII.
         XXIIII. XII. LX. Chromaticum toniaeum, Diatonicum molle, Diatonicum incitatum]</p>
       <p xml:id="BOEMUS50067">Quomodo Archytas tetrachorda dividat eorumque descriptio.</p>
-      <p xml:id="BOEMUS50068">XVII. Archytas vero cuncta ratione constituens non modo sensum aurium in
-        primis consonantiis observare neglexit, verum etiam maxime in tetrachordorum divisione
+      <p xml:id="BOEMUS50068">XVII. Archytas vero cuncta ratione constituens non modo sensum aurium
+        in primis consonantiis observare neglexit, verum etiam maxime in tetrachordorum divisione
         rationem secutus est, sed ita, ut neque eam, quam quaerebat, efficaciter expediret, neque
         sensui proposita ab eo ratio consentiret. Ille enim tria genera esse arbitratur, enarmonium,
         diatonicum, chromaticum, in quibus eosdem gravissimos statuit atque acutissimos sonos, in
@@ -832,35 +851,38 @@
         in chromatico genere, id est .I[macron supra lin.].DCCXCII. eam, quam habent .CCXLIII. ad
         .CCLVI. Eorumque tetrachordorum secundum Archytae sententiam divisorum formam monstrat
         subiecta descriptio.</p>
-      <p xml:id="BOEMUS50069">[Friedlein, 369; text: M.DXII. M.DCCCXC. M.DCCCCXLIIII. II[macron supra
-        lin.].XVI. M.DXII. M.DCCI. M.DCCCCXLIIII. II[macron supra lin.].XVI. M.DXII. M.DCCXCII.
-        M.DCCCCXLIIII. II[macron supra lin.].XVI. Enarmonium, Diatonicum, Chromaticum]</p>
-      <p xml:id="BOEMUS50070">Quemadmodum Ptolomaeus et Aristoxeni et Archytae tetrachordorum divisionem
-        reprehendat.</p>
-      <p xml:id="BOEMUS50071">XVIII. Sed utrasque tetrachordorum divisiones Ptolomaeus ita reprehendit.
-        Archytae quidem primo, quoniam <pb n="[370]"/>secundus ab acutissimo nervus in chromatico
-        genere, id est .I[macron supra lin.].DCCXCII. ita est collocatus, ut nec ad acutissimum
-        .I[macron supra lin.].DXII. nec ad proximum graviori .I[macron supra lin.].DCCCC.XLIIII.
-        ullam superparticularem efficiat proportionem, cum Archytas tantum superparticularibus
-        comparationibus habuerit dignitatem, ut eas etiam in consonantiarum ratione susceperit.
-        Dehinc, quod primam a gravissimo nervo proportionem in chromatico quidem maiorem sensus esse
-        deprehendat, quam fecerit Archytas. Hic namque in chromatico genere .I[macron supra
-        lin.].DCCCC.XLIIII. ad .II[macron supra lin.].XVI. distare fecit sesquivicesimam septimam
-        proportionem, cum secundum consuetam chromatici generis modulationem sesquivicesima prima
-        esse debuerit. Item enarmonii generis ea proportio, quam prima a gravissimo secundum
-        Archytae retinet divisionem, talis est, ut longe minor esse debeat, quam in ceteris
-        generibus invenitur. Hic autem aequam eam ceteris generibus statuit, dum primas a gravi
-        proportiones in tribus generibus sesquivicesimas septimas ponit. Aristoxenum vero culpat,
-        quoniam in chromate molli et chromate hemiolio tales posuerit primas secundasque a gravi
-        nervo proportiones, quae a se minimo et quantum sensus non possit internoscere distarent.
-        Est quippe proportio prima in chromatis mollis divisione secundum Aristoxenum .VIII., at in
-        chromate hemiolio .VIIII. Sed .VIII. ad .VIIII. unitatis differentia distant. Est autem
-        totus tonus .XXIIII. unitatibus secundum positionem, quorum unitas vicesima quarta est.
-        Primae igitur a gravi inter se proportiones chromatis mollis et chromatis hemiolii <pb n="[371]"/>vicesima quarta parte toni distant, quod propter brevitatem differentiae nullo
-        modo sentit auditus. Idem etiam Aristoxenum reprehendit, cur diatonici generis duas tantum
-        fecerit divisiones, ut in mollem incitatumque divideret, cum possint aliae quoque diatonici
-        generis species inveniri.</p>
-      <p xml:id="BOEMUS50072">Quemadmodum Ptolomaeus tetrachordorum divisionem fieri dicat oportere.</p>
+      <p xml:id="BOEMUS50069">[Friedlein, 369; text: M.DXII. M.DCCCXC. M.DCCCCXLIIII. II[macron
+        supra lin.].XVI. M.DXII. M.DCCI. M.DCCCCXLIIII. II[macron supra lin.].XVI. M.DXII.
+        M.DCCXCII. M.DCCCCXLIIII. II[macron supra lin.].XVI. Enarmonium, Diatonicum,
+        Chromaticum]</p>
+      <p xml:id="BOEMUS50070">Quemadmodum Ptolomaeus et Aristoxeni et Archytae tetrachordorum
+        divisionem reprehendat.</p>
+      <p xml:id="BOEMUS50071">XVIII. Sed utrasque tetrachordorum divisiones Ptolomaeus ita
+        reprehendit. Archytae quidem primo, quoniam <pb n="[370]"/>secundus ab acutissimo nervus in
+        chromatico genere, id est .I[macron supra lin.].DCCXCII. ita est collocatus, ut nec ad
+        acutissimum .I[macron supra lin.].DXII. nec ad proximum graviori .I[macron supra
+        lin.].DCCCC.XLIIII. ullam superparticularem efficiat proportionem, cum Archytas tantum
+        superparticularibus comparationibus habuerit dignitatem, ut eas etiam in consonantiarum
+        ratione susceperit. Dehinc, quod primam a gravissimo nervo proportionem in chromatico quidem
+        maiorem sensus esse deprehendat, quam fecerit Archytas. Hic namque in chromatico genere
+        .I[macron supra lin.].DCCCC.XLIIII. ad .II[macron supra lin.].XVI. distare fecit
+        sesquivicesimam septimam proportionem, cum secundum consuetam chromatici generis
+        modulationem sesquivicesima prima esse debuerit. Item enarmonii generis ea proportio, quam
+        prima a gravissimo secundum Archytae retinet divisionem, talis est, ut longe minor esse
+        debeat, quam in ceteris generibus invenitur. Hic autem aequam eam ceteris generibus statuit,
+        dum primas a gravi proportiones in tribus generibus sesquivicesimas septimas ponit.
+        Aristoxenum vero culpat, quoniam in chromate molli et chromate hemiolio tales posuerit
+        primas secundasque a gravi nervo proportiones, quae a se minimo et quantum sensus non possit
+        internoscere distarent. Est quippe proportio prima in chromatis mollis divisione secundum
+        Aristoxenum .VIII., at in chromate hemiolio .VIIII. Sed .VIII. ad .VIIII. unitatis
+        differentia distant. Est autem totus tonus .XXIIII. unitatibus secundum positionem, quorum
+        unitas vicesima quarta est. Primae igitur a gravi inter se proportiones chromatis mollis et
+        chromatis hemiolii <pb n="[371]"/>vicesima quarta parte toni distant, quod propter
+        brevitatem differentiae nullo modo sentit auditus. Idem etiam Aristoxenum reprehendit, cur
+        diatonici generis duas tantum fecerit divisiones, ut in mollem incitatumque divideret, cum
+        possint aliae quoque diatonici generis species inveniri.</p>
+      <p xml:id="BOEMUS50072">Quemadmodum Ptolomaeus tetrachordorum divisionem fieri dicat
+        oportere.</p>
       <p xml:id="BOEMUS50073">XVIIII. Ptolomaeus enim tetrachorda diversa ratione partitur, illud in
         principio statuens, ut inter duos altrinsecus sonos tales voculae aptentur, quae se
         superparticularibus proportionibus excedant, inaequalibus tamen, quoniam superparticularis

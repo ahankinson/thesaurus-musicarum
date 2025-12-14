@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Lucidarium, tractatus nonus</title>
         <title type="abbrev">MARLU9</title>
-        <author>Marchetus de Padua</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Marchetus de Padua</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1993</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1993">1993</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptores ecclesiastici de musica sacra potissimum</emph>, 3 vols., ed. Martin
@@ -109,8 +119,8 @@
         <pb n="[92]"/>Incipit tractatus IX.</p>
       <p xml:id="MARLU90002">Caput I.</p>
       <p xml:id="MARLU90003">De coniunctionibus vocum, quid sint, et quot.</p>
-      <p xml:id="MARLU90004">Coniunctio in musica est dispositio sive ordinatio sonorum sive vocum ad
-        invicem in syllabis et dictionibus. Coniunctiones autem in musica 16. esse dicuntur,
+      <p xml:id="MARLU90004">Coniunctio in musica est dispositio sive ordinatio sonorum sive vocum
+        ad invicem in syllabis et dictionibus. Coniunctiones autem in musica 16. esse dicuntur,
         scilicet semitonium, tonus, semiditonus, ditonus, diatessaron, diapente imperfectum,
         tritonus, diapente, hexade minus, hexade maius, heptade minus, (supplevi heptade maius,
         diapason imperfectum) diapason perfectum, diapason diapente, et bis diapason. Harum autem
@@ -153,23 +163,23 @@
       <p xml:id="MARLU90013">[GSIII:94,2]</p>
       <p xml:id="MARLU90014">In duobus intervallis positus diatonicum genus est, ut hic:</p>
       <p xml:id="MARLU90015">[GSIII:94,3]</p>
-      <p xml:id="MARLU90016">[Dia] enim graece, latine duo: ideo ditonus in duobus intervallis positus,
-        in diatonico genere dicitur constitutus.</p>
+      <p xml:id="MARLU90016">[Dia] enim graece, latine duo: ideo ditonus in duobus intervallis
+        positus, in diatonico genere dicitur constitutus.</p>
       <p xml:id="MARLU90017">Omnis semiditonus in uno intervallo positus chromaticum genus est, ut
         hic:</p>
       <p xml:id="MARLU90018">[GSIII:94,4]</p>
-      <p xml:id="MARLU90019">[Chroma] enim graece, latine color, inde chromaticum color pulcritudinis
-        appellatur: pulcra quoque syllaba semiditonus est, cui si infra vel supra additur tonus,
-        diatessaron consonantia mox consurgit: item si supra vel infra ditonus adiungatur, diapente
-        consonantia redundabit.</p>
-      <p xml:id="MARLU90020">Omnis semiditonus duobus intervallis constans, diatonicum chromaticum genus
-        est, ut hic:</p>
+      <p xml:id="MARLU90019">[Chroma] enim graece, latine color, inde chromaticum color
+        pulcritudinis appellatur: pulcra quoque syllaba semiditonus est, cui si infra vel supra
+        additur tonus, diatessaron consonantia mox consurgit: item si supra vel infra ditonus
+        adiungatur, diapente consonantia redundabit.</p>
+      <p xml:id="MARLU90020">Omnis semiditonus duobus intervallis constans, diatonicum chromaticum
+        genus est, ut hic:</p>
       <p xml:id="MARLU90021">[GSIII:94,5]</p>
       <p xml:id="MARLU90022">Omnis diatessaron in uno intervallo posita, enarmonicum genus est, ut
         hic:</p>
       <p xml:id="MARLU90023">[GSIII:94,6]</p>
-      <p xml:id="MARLU90024">Omnis diatessaron in tribus intervallis posita, diatonicum genus est, ut
-        hic:</p>
+      <p xml:id="MARLU90024">Omnis diatessaron in tribus intervallis posita, diatonicum genus est,
+        ut hic:</p>
       <p xml:id="MARLU90025">[GSIII:94,7]</p>
       <p xml:id="MARLU90026">In ditono autem et semitonio posita, enarmonicum genus est, ut hic:</p>
       <p xml:id="MARLU90027">[GSIII:94,8]</p>
@@ -179,12 +189,12 @@
       <p xml:id="MARLU90029">[GSIII:95,1] <figure>
           <graphic url="/images/MARLU9_03GF.gif"/>
         </figure></p>
-      <p xml:id="MARLU90030">Ex praedictis comprehendere possumus, quomodo merito difiniatur diatessaron
-        a [dia], quod est de, et [tessaron] quatuor, quia de quatuor sonis sive vocibus ipsam
-        cognoscimus constitutam, scilicet duobus tonis et uno semitonio, qui licet non sint nisi
-        quaedam tria, quia duo et unum, tamen quatuor diversorum sonorum nomina comprehendunt. Sunt
-        enim nonnulli definientes diatessaron sic, et per consequens diapente et caetera dicunt enim
-        diatessaron a [dia], quod est duo, et tessaron, quatuor, scribentes [dua] per [Upsilon]
+      <p xml:id="MARLU90030">Ex praedictis comprehendere possumus, quomodo merito difiniatur
+        diatessaron a [dia], quod est de, et [tessaron] quatuor, quia de quatuor sonis sive vocibus
+        ipsam cognoscimus constitutam, scilicet duobus tonis et uno semitonio, qui licet non sint
+        nisi quaedam tria, quia duo et unum, tamen quatuor diversorum sonorum nomina comprehendunt.
+        Sunt enim nonnulli definientes diatessaron sic, et per consequens diapente et caetera dicunt
+        enim diatessaron a [dia], quod est duo, et tessaron, quatuor, scribentes [dua] per [Upsilon]
         graecum: quae quidem definitio tolerari potest: ut sic intelligatur a [dua], quod est duo,
         tessaron quatuor, eo quod duae diversae voces sunt ad invicem distantes per quatuor sonos,
         vel quod duo extrema sua quatuor sonos contineant inclusive. Quando enim [dua] scribitur per
@@ -194,12 +204,12 @@
         intellige, per ascensum, ut est, ab A. gravi ad D. grave, et in quolibet alio loco ubi talis
         est coniunctio sonorum, ut hic:</p>
       <p xml:id="MARLU90032">[GSIII:95,2]</p>
-      <p xml:id="MARLU90033">Secunda species diatessaron constat ex duobus tonis et semitonio similiter
-        per ascensum, ut est a C. gravi ad F. grave, et in omni loco, ubi talis est coniunctio
-        sonorum, ut hic:</p>
+      <p xml:id="MARLU90033">Secunda species diatessaron constat ex duobus tonis et semitonio
+        similiter per ascensum, ut est a C. gravi ad F. grave, et in omni loco, ubi talis est
+        coniunctio sonorum, ut hic:</p>
       <p xml:id="MARLU90034">[GSIII:95,3]</p>
-      <p xml:id="MARLU90035">Tertia constat ex semitonio et duobus tonis, puta per ascensum, ut est a
-        [sqb] gravi ad E grave et in omni loco, ubi talis est coniunctio sonorum ut hic:</p>
+      <p xml:id="MARLU90035">Tertia constat ex semitonio et duobus tonis, puta per ascensum, ut est
+        a [sqb] gravi ad E grave et in omni loco, ubi talis est coniunctio sonorum ut hic:</p>
       <p xml:id="MARLU90036">[GSIII:95,4]</p>
       <p xml:id="MARLU90037">
         <pb n="[96]"/>Sed potest aliquis dicere, quare prima species diatessaron non incipitur a
@@ -247,38 +257,39 @@
       <p xml:id="MARLU90039">Supra vero hanc speciem primam diatessaron si tonus addatur, mox prima
         species diapente consurgit, constans ex tono, semitonio, et duobus tonis, ut hic:</p>
       <p xml:id="MARLU90040">[GSIII:97,1]</p>
-      <p xml:id="MARLU90041">Si autem supra secundam speciem diatessaron tonus addatur, secunda species
-        diapente consurget, constans ex semitonio et tribus tonis, ut hic:</p>
+      <p xml:id="MARLU90041">Si autem supra secundam speciem diatessaron tonus addatur, secunda
+        species diapente consurget, constans ex semitonio et tribus tonis, ut hic:</p>
       <p xml:id="MARLU90042">[GSIII:97,2]</p>
       <p xml:id="MARLU90043">Si vero supra tertiam speciem diatessaron tonus addatur, non consurget
         tertia species diapente: sed quarta, ut hic:</p>
       <p xml:id="MARLU90044">[GSIII:97,3]</p>
-      <p xml:id="MARLU90045">Et ex hoc erroneum videtur esse, quod dicit Bernardus et multi alii musicae
-        doctores, scilicet, quod tertia species diatessaron addito tono supra constituat tertiam
-        speciem diapente, et quod quarta species diatessaron, quae est ut prima, addito tono supra
-        constituat quartam speciem diapente. Nam tres sunt species diatessaron differentes a parte
-        locationis, ut ostensum est: et quatuor sunt species diapente, a parte locationis similiter
-        differentes, ut hic de ipsis patet:</p>
+      <p xml:id="MARLU90045">Et ex hoc erroneum videtur esse, quod dicit Bernardus et multi alii
+        musicae doctores, scilicet, quod tertia species diatessaron addito tono supra constituat
+        tertiam speciem diapente, et quod quarta species diatessaron, quae est ut prima, addito tono
+        supra constituat quartam speciem diapente. Nam tres sunt species diatessaron differentes a
+        parte locationis, ut ostensum est: et quatuor sunt species diapente, a parte locationis
+        similiter differentes, ut hic de ipsis patet:</p>
       <p xml:id="MARLU90046">[GSIII:97,4]</p>
       <p xml:id="MARLU90047">
         <pb n="[98]"/>[GSIII:98,1] <figure>
           <graphic url="/images/MARLU9_04GF.gif"/>
         </figure></p>
-      <p xml:id="MARLU90048">Oportet enim, quod una species diapente ex seipsa formetur. Si vero tertia
-        species diatessaron, ut ipsi dicebant, formaret tertiam speciem diapente, ut hic:</p>
+      <p xml:id="MARLU90048">Oportet enim, quod una species diapente ex seipsa formetur. Si vero
+        tertia species diatessaron, ut ipsi dicebant, formaret tertiam speciem diapente, ut hic:</p>
       <p xml:id="MARLU90049">[GSIII:98,2]</p>
-      <p xml:id="MARLU90050">et quod quarta species diatessaron formaret quartam diapente speciem, ut
-        hic:</p>
+      <p xml:id="MARLU90050">et quod quarta species diatessaron formaret quartam diapente speciem,
+        ut hic:</p>
       <p xml:id="MARLU90051">[GSIII:98,3]</p>
-      <p xml:id="MARLU90052">non essent quatuor species diapente a parte locationis ordine differentes;
-        nam prima cum quarta una esset, existens ex tono, semitonio et duobus tonis, ut hic:</p>
+      <p xml:id="MARLU90052">non essent quatuor species diapente a parte locationis ordine
+        differentes; nam prima cum quarta una esset, existens ex tono, semitonio et duobus tonis, ut
+        hic:</p>
       <p xml:id="MARLU90053">[GSIII:98,4]</p>
-      <p xml:id="MARLU90054">Sed ipsi possent dicere: volumus constituere hanc quartam speciem diapente
-        per [sqb] secundum acutum, ut non sit prima, ut hic:</p>
+      <p xml:id="MARLU90054">Sed ipsi possent dicere: volumus constituere hanc quartam speciem
+        diapente per [sqb] secundum acutum, ut non sit prima, ut hic:</p>
       <p xml:id="MARLU90055">[GSIII:98,5]</p>
-      <p xml:id="MARLU90056">tunc dicimus, quod non erit dissimilis ab illa specie diapente, quae est ab
-        F gravi ad c acutum per dispositionem primi c acuti; nam utraque formatur ex duobus tonis et
-        semitonio et tono, ut hic:</p>
+      <p xml:id="MARLU90056">tunc dicimus, quod non erit dissimilis ab illa specie diapente, quae
+        est ab F gravi ad c acutum per dispositionem primi c acuti; nam utraque formatur ex duobus
+        tonis et semitonio et tono, ut hic:</p>
       <p xml:id="MARLU90057">[GSIII:98,6]</p>
       <p xml:id="MARLU90058">et sic non erunt quatuor species diapente ordine differentes, sed solum
         tres: ergo sic est, quod tertia species diapente surgat de seipsa, constans ex tribus tonis
@@ -308,7 +319,8 @@
         incipitur tertia species diatessaron et tertia diapente. In quarta autem finali, scilicet G
         gravi incipitur quarta species diapente. Et sic sunt quatuor species diapente ordine
         differentes, quas de tonis inferius demonstrabimus, Deo dante.</p>
-      <p xml:id="MARLU90065">Omnis diapente in uno intervallo posita, enarmonicum genus est, ut hic:</p>
+      <p xml:id="MARLU90065">Omnis diapente in uno intervallo posita, enarmonicum genus est, ut
+        hic:</p>
       <p xml:id="MARLU90066">[GSIII:99,4]</p>
       <p xml:id="MARLU90067">In quatuor intervallis posita diatonicum genus est, ut hic:</p>
       <p xml:id="MARLU90068">[GSIII:99,5]</p>
@@ -328,10 +340,10 @@
       <p xml:id="MARLU90079">In diapente et diatessaron, vel e contrario, diatonicum genus est, ut
         hic:</p>
       <p xml:id="MARLU90080">[GSIII:100,5]</p>
-      <p xml:id="MARLU90081">Per has enim species sic interruptas quilibet tropus sive tonus formatur.
-        De quibus, et quomodo per ipsos formetur, videre necesse est. Sed quia quilibet tonus
-        secundum suum nomen in certa mensura consistit, ideo primo, quid sit mensura in musica,
-        breviter videamus.</p>
+      <p xml:id="MARLU90081">Per has enim species sic interruptas quilibet tropus sive tonus
+        formatur. De quibus, et quomodo per ipsos formetur, videre necesse est. Sed quia quilibet
+        tonus secundum suum nomen in certa mensura consistit, ideo primo, quid sit mensura in
+        musica, breviter videamus.</p>
       <p xml:id="MARLU90082">Explicit tractatus nonus.</p>
     </body>
   </text>

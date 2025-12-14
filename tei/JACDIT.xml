@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Tractatus de intonatione tonorum</title>
         <title type="abbrev">JACDIT</title>
-        <author>Jacobus Leodiensis</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Jacobus Leodiensis</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Elisabeth Honn</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Jacobi Leodiensis Tractatus de consonantiis musicalibus, Tractatus de intonatione
@@ -43,9 +53,9 @@
     <body>
       <p xml:id="JACDIT0001">
         <pb n="[47]"/>I In huius opusculi capitulo primo ars tonorum traditur generalis</p>
-      <p xml:id="JACDIT0002">|| [15vb in marg.] Tonus prout antiphona vel alter cantus totus alicuius
-        toni dicitur, est plurium vocum quasi simul tonantium concors sonoritas. Dinoscitur autem
-        cuius toni aliquis cantus sit ex principio, medio atque fine. Propterea nonnulli ipsum
+      <p xml:id="JACDIT0002">|| [15vb in marg.] Tonus prout antiphona vel alter cantus totus
+        alicuius toni dicitur, est plurium vocum quasi simul tonantium concors sonoritas. Dinoscitur
+        autem cuius toni aliquis cantus sit ex principio, medio atque fine. Propterea nonnulli ipsum
         aliter describunt sic: Tonus est principii discretio ascensionisque ac descensionis
         cuiuslibet cantus regularis. Octo sunt autem toni secundum modernos, scilicet primus,
         secundus, tertius, quartus, quintus, sextus, septimus et octavus. Horum quattuor dicuntur
@@ -71,16 +81,16 @@
         esse puto.</p>
       <p xml:id="JACDIT0005">Ex dictis patet distinctio tonorum imparium ab imparibus et parium a
         paribus.</p>
-      <p xml:id="JACDIT0006">Nam ex fine distinguuntur, sed ut appareat distinctio imparium a paribus ut
-        primi a secundo, cum in fine conveniant, || [16ra in marg.] similiter tertii a quarto et sic
-        de aliis, duae regulae teneantur generales quarum prima de imparibus erit, secunda de
-        paribus. Prima regula talis est: Toni impares nonnisi per unam notam sub suo finali debent
-        descendere sed desuper octo regulariter ascendere possunt et de licentia nonam quandoque
-        assumunt. Secunda regula talis est: Toni pares sub suo finali per quattuor vel quinque notas
-        descendere possunt et per totidem regulariter possunt ascendere et de licentia sextam
-        nonnumquam assumunt. Proprium est igitur tonis imparibus acute ascendere et sub suo finali
-        nonnisi una nota descendere. Paribus vero proprium est graviter leniterque circa suum finem
-        procedere et in ascendendo octavam notam septimamve regulariter attingere numquam.</p>
+      <p xml:id="JACDIT0006">Nam ex fine distinguuntur, sed ut appareat distinctio imparium a
+        paribus ut primi a secundo, cum in fine conveniant, || [16ra in marg.] similiter tertii a
+        quarto et sic de aliis, duae regulae teneantur generales quarum prima de imparibus erit,
+        secunda de paribus. Prima regula talis est: Toni impares nonnisi per unam notam sub suo
+        finali debent descendere sed desuper octo regulariter ascendere possunt et de licentia nonam
+        quandoque assumunt. Secunda regula talis est: Toni pares sub suo finali per quattuor vel
+        quinque notas descendere possunt et per totidem regulariter possunt ascendere et de licentia
+        sextam nonnumquam assumunt. Proprium est igitur tonis imparibus acute ascendere et sub suo
+        finali nonnisi una nota descendere. Paribus vero proprium est graviter leniterque circa suum
+        finem procedere et in ascendendo octavam notam septimamve regulariter attingere numquam.</p>
       <p xml:id="JACDIT0007">
         <pb n="[51]"/>Ex dictis ergo concludatur illum cantum qui supra suum finem ultra sex notas
         ascendit et sub illo non descendit, vel si descendat hoc tantum fit una nota, alicuius
@@ -91,21 +101,22 @@
         autem paris determinate fuerit ex fine distinguatur, quia si in .D.solre finem teneat,
         secundi erit toni, si in .E.lami quarti, si in .F.faut sexti, si vero in .G.solreut
         octavi.</p>
-      <p xml:id="JACDIT0008">Istae autem regulae praedictae, licet naturam propriam tonorum exprimant,
-        tamen in plerisque antiphonis et aliis cantibus cassatae inveniuntur. Notandum vero est
-        quod, licet ascensus proprius tonorum imparium ad octavam sive nonam notam a fine stare
-        debeat, tamen quantumcumque aliquis cantus illam nonam notam excedat desuper ascendendo,
-        tonorum imparium denominationem non amittet; attamen irregularis est talis cantus. Contingit
-        autem quandoque aliquem cantum simul duorum tonorum in eodem fine communicantium
-        proprietates servare || [16rb in marg.] et, si aliquis cantus in .D.solre finem habens ultra
-        sex notas vel septem ascendat, proprietatem habebit primi toni. Si vero idem cantus sub fine
-        per duas notas vel plures descendat, secundi proprietatem obtinebit et talis cantus a primo
-        tamquam a digniore denominari debet, et sicut dico de primo et secundo, ita intelligo de
-        aliis. Semper enim talis cantus imparis toni denominationem sortiatur.</p>
+      <p xml:id="JACDIT0008">Istae autem regulae praedictae, licet naturam propriam tonorum
+        exprimant, tamen in plerisque antiphonis et aliis cantibus cassatae inveniuntur. Notandum
+        vero est quod, licet ascensus proprius tonorum imparium ad octavam sive nonam notam a fine
+        stare debeat, tamen quantumcumque aliquis cantus illam nonam notam excedat desuper
+        ascendendo, tonorum imparium denominationem non amittet; attamen irregularis est talis
+        cantus. Contingit autem quandoque aliquem cantum simul duorum tonorum in eodem fine
+        communicantium proprietates servare || [16rb in marg.] et, si aliquis cantus in .D.solre
+        finem habens ultra sex notas vel septem ascendat, proprietatem habebit primi toni. Si vero
+        idem cantus sub fine per duas notas vel plures descendat, secundi proprietatem obtinebit et
+        talis cantus a primo tamquam a digniore denominari debet, et sicut dico de primo et secundo,
+        ita intelligo de aliis. Semper enim talis cantus imparis toni denominationem sortiatur.</p>
       <p xml:id="JACDIT0009">Sunt autem aliquae antiphonae et responsoria quae nec paris toni nec
         imparis proprietates servant, verbi gratia: si aliqua antiphona finiens in .D.solre non
         ascendat ultra quintam notam nec descendat nisi per notam unam, primi toni proprietate
-        privabitur, similiter et secundi. Verum de talibus antiphonis ceterisque <pb n="[52]"/>cantibus similibus, tamen propter brevitatem cum qua per indifferentiam se habent ad tonum
+        privabitur, similiter et secundi. Verum de talibus antiphonis ceterisque <pb n="[52]"
+        />cantibus similibus, tamen propter brevitatem cum qua per indifferentiam se habent ad tonum
         parem et imparem, pauca modo discutimus. Quoniam autem prius tangebatur aliquos irregulares
         esse cantus in praedictis quattuor clavibus alicuius accidentis causa non habentes suos
         fines ut appareant cuius sint toni, notandum est quod omnis cantus finiens in ista voce re,
@@ -116,16 +127,16 @@
         dubitat quis, cuius toni determinate sint, utrum paris vel imparis, regulas prius datas de
         tonorum parium ab imparibus differentia speculetur. Per eas etenim fine considerato scire
         quibit dubitatum.</p>
-      <p xml:id="JACDIT0010">Possunt igitur diversi toni vel, ut proprius loquamur, cantus diversorum
-        tonorum in eadem clave suos obtinere fines ratione diversarum vocum in eadem clave
-        contentarum, || [16va in marg.] ut in .a. acuta, id est in .a.lamire in regula, finire
+      <p xml:id="JACDIT0010">Possunt igitur diversi toni vel, ut proprius loquamur, cantus
+        diversorum tonorum in eadem clave suos obtinere fines ratione diversarum vocum in eadem
+        clave contentarum, || [16va in marg.] ut in .a. acuta, id est in .a.lamire in regula, finire
         possunt tonus primus ac secundus ratione huius vocis re ibi existentis. Similiter tertius et
         quartus ratione ipsius mi. In .G.solreut etiam in spatio quandoque terminatur primus tonus
         ratione ipsius re.</p>
-      <p xml:id="JACDIT0011">Fortassis autem intra se dubitando quis inquiet: "De antiphonis ceterisque
-        cantibus in re vel mi vel fa vel sol terminatis cuius toni sint quoquomodo dicis, sed de
-        cantibus tonorum finientium in ut vel la, cum sint quaedam voces, nihil determinas!" Ad
-        cuius dubitationis solutionem habendam praemittimus quod, licet sex <pb n="[53]"/>sint
+      <p xml:id="JACDIT0011">Fortassis autem intra se dubitando quis inquiet: "De antiphonis
+        ceterisque cantibus in re vel mi vel fa vel sol terminatis cuius toni sint quoquomodo dicis,
+        sed de cantibus tonorum finientium in ut vel la, cum sint quaedam voces, nihil determinas!"
+        Ad cuius dubitationis solutionem habendam praemittimus quod, licet sex <pb n="[53]"/>sint
         voces, scilicet ut re mi fa sol la, tamen quattuor illarum, ut prius tangebatur, scilicet re
         mi fa sol, tantum finales sunt in cantibus regularibus in quibus tonus debet assignari,
         quippe cum ratione cuiuslibet toni seu cuiuslibet cantus toni proprietatem servantis sit
@@ -177,8 +188,8 @@
       <p xml:id="JACDIT0016">
         <pb n="[55]"/>II In hoc capitulo declaratur qualiter antiphonarum tonus per ipsarum
         Seculorum agnosci valeat</p>
-      <p xml:id="JACDIT0017">Hucusque de tonis in generali dictum est, non descendendo ad aliquos cantus
-        speciales. Nunc vero de ipsis specialius prosequamur prout antiphonas concernunt. In
+      <p xml:id="JACDIT0017">Hucusque de tonis in generali dictum est, non descendendo ad aliquos
+        cantus speciales. Nunc vero de ipsis specialius prosequamur prout antiphonas concernunt. In
         antiphonis enim tonorum cognitio personis ecclesiasticis utilitatem gignit maiorem quam in
         cantibus ceteris. Notandum est igitur quod non solum antiphonarum tonus per regulas prius
         datas agnoscitur, verum etiam per quaedam Seculorum attributorum eis. Diversorum enim
@@ -190,23 +201,23 @@
         regulas teneant generales:</p>
       <p xml:id="JACDIT0018">Omnis antiphona finiens in re cuius Seculorum incipit ad quintam notam
         desuper, scilicet la, primi toni est.</p>
-      <p xml:id="JACDIT0019">|| [17rb in marg.] Omnis antiphona finiens in re cuius Seculorum incipit ad
-        tertiam notam desuper, scilicet fa, secundi toni est.</p>
+      <p xml:id="JACDIT0019">|| [17rb in marg.] Omnis antiphona finiens in re cuius Seculorum
+        incipit ad tertiam notam desuper, scilicet fa, secundi toni est.</p>
       <p xml:id="JACDIT0020">Omnis antiphona finiens in mi cuius Seculorum incipit ad sextam notam
         desuper, scilicet fa, tertii toni est.</p>
       <p xml:id="JACDIT0021">
         <pb n="[56]"/>Omnis antiphona finiens in mi cuius Seculorum incipit ad quartam notam
         desuper, scilicet la, quarti toni est.</p>
-      <p xml:id="JACDIT0022">Omnis antiphona finiens in fa vel in ut cuius Seculorum incipit ad quintam
-        notam desuper, scilicet sol vel fa, quinti toni est.</p>
-      <p xml:id="JACDIT0023">Omnis antiphona finiens in fa vel in ut cuius Seculorum incipit ad tertiam
-        notam desuper, scilicet la vel mi, sexti toni est.</p>
-      <p xml:id="JACDIT0024">Omnis antiphona finiens in sol vel in ut cuius Seculorum incipit ad quintam
-        notam desuper, scilicet sol, septimi toni est.</p>
-      <p xml:id="JACDIT0025">Omnis antiphona finiens in sol vel in ut cuius Seculorum incipit ad quartam
-        notam desuper, scilicet fa, octavi toni est, id est esse debet.</p>
-      <p xml:id="JACDIT0026">Et sicut glosso in hac ultima regula est: "id est esse debet", eodem modo
-        ipsum in aliis regulis hic positis glossandum est, propter quasdam antiphonas quibus
+      <p xml:id="JACDIT0022">Omnis antiphona finiens in fa vel in ut cuius Seculorum incipit ad
+        quintam notam desuper, scilicet sol vel fa, quinti toni est.</p>
+      <p xml:id="JACDIT0023">Omnis antiphona finiens in fa vel in ut cuius Seculorum incipit ad
+        tertiam notam desuper, scilicet la vel mi, sexti toni est.</p>
+      <p xml:id="JACDIT0024">Omnis antiphona finiens in sol vel in ut cuius Seculorum incipit ad
+        quintam notam desuper, scilicet sol, septimi toni est.</p>
+      <p xml:id="JACDIT0025">Omnis antiphona finiens in sol vel in ut cuius Seculorum incipit ad
+        quartam notam desuper, scilicet fa, octavi toni est, id est esse debet.</p>
+      <p xml:id="JACDIT0026">Et sicut glosso in hac ultima regula est: "id est esse debet", eodem
+        modo ipsum in aliis regulis hic positis glossandum est, propter quasdam antiphonas quibus
         Seculorum male assignantur; cum sint unius toni, Seculorum habent alterius, ut patet de ista
         antiphona Ecce tu pulchra es. Est enim secundi toni, cum tamen Seculorum primi habeat. Hoc
         autem praesumitur propter convenientiam huiusmodi antiphonae praedictae, maxime in suo
@@ -222,15 +233,15 @@
         tonis imparibus, de paribus dictum esse teneatur.</p>
       <p xml:id="JACDIT0027">
         <pb n="[58]"/>III Capitulum in quo traditur notitia generalis intonationis tonorum</p>
-      <p xml:id="JACDIT0028">His igitur positis regulis quibus quoquo modo antiphonarum tonus apparere
-        potest, nunc qua sciamus super psalmos intonare ipsas, cuiuscumque existerint toni, videamus
-        artem quae ex trium vel quattuor cognitione principaliter dependet. Debet enim volens super
-        psalmum antiphonam intonare, illius Seculorum videre primitus cuiusque toni sit noscere.
-        Secundo scire debet quale principium in sua intonatione teneat ille tonus illudque in psalmi
-        principio si possibile sit observare. Tertio illius toni medium similiter conservare debet.
-        Postremo per cantum sui Seculorum suum psalmum debet terminare. De horum quibusdam in
-        generali prosequamur primo; dehinc vero specialius fiet de omnibus executio, cum ad
-        enarrandum concordantiae modos tonorum quorumlibet sigillatim descendemus. Haec enim
+      <p xml:id="JACDIT0028">His igitur positis regulis quibus quoquo modo antiphonarum tonus
+        apparere potest, nunc qua sciamus super psalmos intonare ipsas, cuiuscumque existerint toni,
+        videamus artem quae ex trium vel quattuor cognitione principaliter dependet. Debet enim
+        volens super psalmum antiphonam intonare, illius Seculorum videre primitus cuiusque toni sit
+        noscere. Secundo scire debet quale principium in sua intonatione teneat ille tonus illudque
+        in psalmi principio si possibile sit observare. Tertio illius toni medium similiter
+        conservare debet. Postremo per cantum sui Seculorum suum psalmum debet terminare. De horum
+        quibusdam in generali prosequamur primo; dehinc vero specialius fiet de omnibus executio,
+        cum ad enarrandum concordantiae modos tonorum quorumlibet sigillatim descendemus. Haec enim
         doctrinae via ignota nobis est, ut videlicet a communioribus ad specialiora procedamus.</p>
       <p xml:id="JACDIT0029">Dicimus itaque quod primus tonus atque sextus fa sol la servant in suae
         intonationis principio. Secundus vero, tertius octavusque ut re fa tenent, sed la sol la
@@ -273,10 +284,11 @@
         intitulatio. Verum est autem quod alia Seculorum primi toni a praetactis in libris quibusdam
         reperiri possunt; quia tamen non multum in usu sunt, ipsorum exempla ponere non curavimus.
         Unde et quaedam horum octo positorum hic ab usu nostro frequenti recesserunt.</p>
-      <p xml:id="JACDIT0046">Nunc ad intonationem antiphonarum primi toni descendamus. Dicimus igitur
-        quod omnes antiphonae huius toni, quodcumque Seculorum habuerint, in simplicibus psalmis et
-        quantum ad principium et quantum ad medium intonandae sunt hoc modo:</p>
-      <p xml:id="JACDIT0047">[DMA A/IXa:61,1; text: Dixit dominus domino meo: sede a dextris meis]</p>
+      <p xml:id="JACDIT0046">Nunc ad intonationem antiphonarum primi toni descendamus. Dicimus
+        igitur quod omnes antiphonae huius toni, quodcumque Seculorum habuerint, in simplicibus
+        psalmis et quantum ad principium et quantum ad medium intonandae sunt hoc modo:</p>
+      <p xml:id="JACDIT0047">[DMA A/IXa:61,1; text: Dixit dominus domino meo: sede a dextris
+        meis]</p>
       <p xml:id="JACDIT0048">Ab hac regula excipiuntur antiphonae hoc Seculorum habentes:</p>
       <p xml:id="JACDIT0049">[DMA A/IXa:61,2; text: Euouae.]</p>
       <p xml:id="JACDIT0050">De quo inter alia exemplificatum non est, quia quidam ipsum dicunt esse
@@ -296,19 +308,20 @@
         in ecclesia solemnius decantantur quam ceteri psalmi, in eorum intonatione variationem
         quandam habuerunt tam in primo tono quam in quibusdam aliis. Sic enim intonanda sunt
         praetacta cantica quoad tonum primum:</p>
-      <p xml:id="JACDIT0055">[DMA A/IXa:62,3; text: Benedictus dominus deus Israhel: quia visitavit et
-        fecit redemptionem plebis suae. Magnificat anima mea dominum.]</p>
+      <p xml:id="JACDIT0055">[DMA A/IXa:62,3; text: Benedictus dominus deus Israhel: quia visitavit
+        et fecit redemptionem plebis suae. Magnificat anima mea dominum.]</p>
       <p xml:id="JACDIT0056">
         <pb n="[63]"/>Si vero propter dictionum vel syllabarum paucitatem ante medium alicuius
         versus stantium intonationis primi toni proprietas quantum ad principium et quantum ad
         medium pariter nequeat observari, tunc dimissa principii proprietate medii proprietas
         salvanda est:</p>
-      <p xml:id="JACDIT0057">[18v in marg.] [DMA A/IXa:63,1; text: Deus deus meus: ad te deluce vigilo.] <figure>
+      <p xml:id="JACDIT0057">[18v in marg.] [DMA A/IXa:63,1; text: Deus deus meus: ad te deluce
+        vigilo.] <figure>
           <graphic url="/images/JACDIT_02GF.gif"/>
         </figure></p>
-      <p xml:id="JACDIT0058">Et quod nunc dictum est de hoc tono veritatem habet in aliis. Habet autem
-        quilibet tonus suam caudam, quae etiam neuma vocatur, sive oda, sive iubilus. Est igitur
-        toni primi cauda talis:</p>
+      <p xml:id="JACDIT0058">Et quod nunc dictum est de hoc tono veritatem habet in aliis. Habet
+        autem quilibet tonus suam caudam, quae etiam neuma vocatur, sive oda, sive iubilus. Est
+        igitur toni primi cauda talis:</p>
       <p xml:id="JACDIT0059">[DMA A/IXa:63,2]</p>
       <p xml:id="JACDIT0060">Est autem notandum quod in multis tonis missarum introitus alios habent
         concordantiae modos seu alias Seculorum differentias aliamque suorum psalmorum intonationem
@@ -320,14 +333,14 @@
       <p xml:id="JACDIT0062">
         <pb n="[64]"/>Debent autem introitus primi toni, quodcumque illorum habuerint Seculorum,
         intonari sic:</p>
-      <p xml:id="JACDIT0063">[DMA A/IXa:64,1; text: Gloria patri et filio et spiritui sancto. Sicut erat
-        in principio et nunc et semper et in secula seculorum. Amen.]</p>
-      <p xml:id="JACDIT0064">Notandum est etiam quod cuiuslibet toni est habere aliquem cantum communem
-        in versibus responsoriorum, qui cantus iccirco "communis" dicitur, quia in ipso multorum
-        responsoriorum versus tonum eundem habentium communicant. Potest tamen dici "proprius" quia
-        competit soli et non omni; et quia talium versuum Gloria in libris notatum est raro ipsorum,
-        quorumcumque tonorum fuerint, exempla ponemus. Versuum igitur communium responsoriorum primi
-        toni Gloria tale est:</p>
+      <p xml:id="JACDIT0063">[DMA A/IXa:64,1; text: Gloria patri et filio et spiritui sancto. Sicut
+        erat in principio et nunc et semper et in secula seculorum. Amen.]</p>
+      <p xml:id="JACDIT0064">Notandum est etiam quod cuiuslibet toni est habere aliquem cantum
+        communem in versibus responsoriorum, qui cantus iccirco "communis" dicitur, quia in ipso
+        multorum responsoriorum versus tonum eundem habentium communicant. Potest tamen dici
+        "proprius" quia competit soli et non omni; et quia talium versuum Gloria in libris notatum
+        est raro ipsorum, quorumcumque tonorum fuerint, exempla ponemus. Versuum igitur communium
+        responsoriorum primi toni Gloria tale est:</p>
       <p xml:id="JACDIT0065">[DMA A/IXa:64,2; text: Gloria patri et filio et spiritui sancto.]</p>
       <p xml:id="JACDIT0066">Et praeterea notandum quod quaedam invitatoria sunt primi toni, quaedam
         secundi, et sic de aliis. Et sicut tonorum diversorum antiphonae Seculorum habent diversa,
@@ -340,7 +353,8 @@
         frequenter unius toni invitatorio toni alterius Venite attribuunt. Ut autem tonorum quis
         naturas servare cupiens aliquantulum in his habere se sciat, ipsorum Venite tonorum
         diversorum hic posita videat exempla. Invitatoria primi toni talia habent Venite:</p>
-      <p xml:id="JACDIT0067">[19r in marg.] [DMA A/IXa:65; text: Venite exultemus domino jubilemus deo.] <figure>
+      <p xml:id="JACDIT0067">[19r in marg.] [DMA A/IXa:65; text: Venite exultemus domino jubilemus
+        deo.] <figure>
           <graphic url="/images/JACDIT_03GF.gif"/>
         </figure></p>
       <p xml:id="JACDIT0068">
@@ -349,16 +363,17 @@
         eundem tonum spectantibus. Nunc autem ad secundum veniamus tonum qualia tetigimus ibi
         tangentes hic et in aliis tonis similiter, eodemque ordine. Sed brevius expediemus nos in
         his aliis tonis quam in primo tono fecerimus.</p>
-      <p xml:id="JACDIT0070">Secundus tonus quinque habet principia scilicet Gammaut, .A.re, .C.faut,
-        .D.solre, .F.faut. Principium tamen eius in Gammaut raro invenitur. Possunt autem primi toni
-        principia similiter et secundi nosci per hunc versum. Versus:</p>
+      <p xml:id="JACDIT0070">Secundus tonus quinque habet principia scilicet Gammaut, .A.re,
+        .C.faut, .D.solre, .F.faut. Principium tamen eius in Gammaut raro invenitur. Possunt autem
+        primi toni principia similiter et secundi nosci per hunc versum. Versus:</p>
       <p xml:id="JACDIT0071">Ce De Fle at primus, Gat A Ce De Flatque secundus.</p>
-      <p xml:id="JACDIT0072">Quamvis autem secundus tonus tot praetacta principia possideat, tamen super
-        antiphonas unum modum concordantiae sive duos tantum habet, ut patet hic:</p>
+      <p xml:id="JACDIT0072">Quamvis autem secundus tonus tot praetacta principia possideat, tamen
+        super antiphonas unum modum concordantiae sive duos tantum habet, ut patet hic:</p>
       <p xml:id="JACDIT0073">[DMA A/IXa:66,1; text: Vel sic: Euouae.]</p>
       <p xml:id="JACDIT0074">Omnes antiphonae huius toni in simplicibus psalmis taliter debent
         intonari:</p>
-      <p xml:id="JACDIT0075">[DMA A/IXa:66,2; text: Dixit dominus domino meo: sede a dextris meis.]</p>
+      <p xml:id="JACDIT0075">[DMA A/IXa:66,2; text: Dixit dominus domino meo: sede a dextris
+        meis.]</p>
       <p xml:id="JACDIT0076">
         <pb n="[67]"/>Est autem notandum quod medium huius toni similiter quarti et octavi per
         dictiones acutum accentum habentes, sive unius syllabae sint, sive plurium, impeditur. Cur
@@ -368,22 +383,23 @@
       <p xml:id="JACDIT0077">[DMA A/IXa:67,1; text: Qui confidunt in domino sicut mons syon: non
         commovebitur in eternum et caetera. Domine ne in furore tuo arguas me: neque in ira tua
         corripias me.]</p>
-      <p xml:id="JACDIT0078">Solemnius autem quam tactum sit, intonatur iste tonus super Benedictus et
-        Magnificat, ut patet hic:</p>
-      <p xml:id="JACDIT0079">[DMA A/IXa:67,2; text: Benedictus dominus deus Israhel: quia visitavit et
-        fecit redemptionem plebis suae. Magnificat anima mea dominum. Cauda secundi toni]</p>
+      <p xml:id="JACDIT0078">Solemnius autem quam tactum sit, intonatur iste tonus super Benedictus
+        et Magnificat, ut patet hic:</p>
+      <p xml:id="JACDIT0079">[DMA A/IXa:67,2; text: Benedictus dominus deus Israhel: quia visitavit
+        et fecit redemptionem plebis suae. Magnificat anima mea dominum. Cauda secundi toni]</p>
       <p xml:id="JACDIT0080">
         <pb n="[68]"/>|| [19v in marg.] Iste tonus super introitus unicum habet Seculorum, hoc
         scilicet:</p>
       <p xml:id="JACDIT0081">[DMA A/IXa:68,1; text: Euouae.] <figure>
           <graphic url="/images/JACDIT_04GF.gif"/>
         </figure></p>
-      <p xml:id="JACDIT0082">Intonatur autem tactum Seculorum super quoscumque secundi toni introitus,
-        quemadmodum istius toni antiphonae super Benedictus et Magnificat intonatae prius sunt.
-        Attamen ponamus exemplum:</p>
-      <p xml:id="JACDIT0083">[DMA A/IXa:68,2; text: Gloria patri et filio et spiritui sancto. Sicut erat
-        in principo et nunc et semper et in secula seculorum. Amen.]</p>
-      <p xml:id="JACDIT0084">Habent autem versus communes responsoriorum toni secundi Gloria tale:</p>
+      <p xml:id="JACDIT0082">Intonatur autem tactum Seculorum super quoscumque secundi toni
+        introitus, quemadmodum istius toni antiphonae super Benedictus et Magnificat intonatae prius
+        sunt. Attamen ponamus exemplum:</p>
+      <p xml:id="JACDIT0083">[DMA A/IXa:68,2; text: Gloria patri et filio et spiritui sancto. Sicut
+        erat in principo et nunc et semper et in secula seculorum. Amen.]</p>
+      <p xml:id="JACDIT0084">Habent autem versus communes responsoriorum toni secundi Gloria
+        tale:</p>
       <p xml:id="JACDIT0085">[DMA A/IXa:68,3; text: Gloria patri et filio et spiritui sancto.]</p>
       <p xml:id="JACDIT0086">Invitatoria huius toni tale habent Venite:</p>
       <p xml:id="JACDIT0087">[DMA A/IXa:68,4; text: Venite exultemus domino jubilemus deo.]</p>
@@ -395,10 +411,11 @@
       <p xml:id="JACDIT0090">[DMA A/IXa:69,1; text: Euouae.]</p>
       <p xml:id="JACDIT0091">Omnes antiphonae huius toni quodcumque positorum habeant Seculorum in
         simplicibus psalmis praeter Benedictus et Magnificat intonari debent sic:</p>
-      <p xml:id="JACDIT0092">[DMA A/IXa:69,2; text: Dixit dominus domino meo: sede a dextris meis.]</p>
+      <p xml:id="JACDIT0092">[DMA A/IXa:69,2; text: Dixit dominus domino meo: sede a dextris
+        meis.]</p>
       <p xml:id="JACDIT0093">Super Benedictus et Magnificat sic:</p>
-      <p xml:id="JACDIT0094">[DMA A/IXa:69,3; text: Benedictus dominus deus Israhel: quia visitavit et
-        fecit redemptionem plebis suae. Magnificat anima mea dominum.]</p>
+      <p xml:id="JACDIT0094">[DMA A/IXa:69,3; text: Benedictus dominus deus Israhel: quia visitavit
+        et fecit redemptionem plebis suae. Magnificat anima mea dominum.]</p>
       <p xml:id="JACDIT0095">
         <pb n="[70]"/>Cauda huius toni talis est:</p>
       <p xml:id="JACDIT0096">[DMA A/IXa:70,1; text: Cauda tertii toni] <figure>
@@ -410,19 +427,20 @@
       <p xml:id="JACDIT0098">|| [20r in marg.] Tactorum Seculorum patent exempla:</p>
       <p xml:id="JACDIT0099">[DMA A/IXa:70,2; text: Euouae.]</p>
       <p xml:id="JACDIT0100">Intonantur huius toni Seculorum praetacta sic:</p>
-      <p xml:id="JACDIT0101">[DMA A/IXa:70,3; text: Gloria patri et filio et spiritui sancto. Sicut erat
-        in principio et nunc et semper et in secula seculorum. Amen.]</p>
+      <p xml:id="JACDIT0101">[DMA A/IXa:70,3; text: Gloria patri et filio et spiritui sancto. Sicut
+        erat in principio et nunc et semper et in secula seculorum. Amen.]</p>
       <p xml:id="JACDIT0102">Versus communes responsoriorum huius toni Gloria tale habent:</p>
       <p xml:id="JACDIT0103">[DMA A/IXa:70,4; text: Gloria patri et filio et spiritui sancto.]</p>
       <p xml:id="JACDIT0104">
         <pb n="[71]"/>Huius toni invitatoria tale habent Venite:</p>
-      <p xml:id="JACDIT0105">[DMA A/IXa:71; text: Venite exultemus domino jubilemus deo et caetera.]</p>
+      <p xml:id="JACDIT0105">[DMA A/IXa:71; text: Venite exultemus domino jubilemus deo et
+        caetera.]</p>
       <p xml:id="JACDIT0106">
         <pb n="[72]"/>VII Capitulum de pertinentibus ad quartum tonum</p>
-      <p xml:id="JACDIT0107">Quartus tonus quinque habet principia, scilicet .C.faut, .D.solre, .E.lami,
-        .F.faut et .G.solreut. Quidam tamen dicunt quod quandoque iste tonus, id est cantus aliqui
-        huius toni incipiunt in .a.lamire, sed hoc est improprie. Nam istud principium tertio tono
-        proprium est. Habet enim tertius tonus principia propria duo, ut ad quartum comparatur
+      <p xml:id="JACDIT0107">Quartus tonus quinque habet principia, scilicet .C.faut, .D.solre,
+        .E.lami, .F.faut et .G.solreut. Quidam tamen dicunt quod quandoque iste tonus, id est cantus
+        aliqui huius toni incipiunt in .a.lamire, sed hoc est improprie. Nam istud principium tertio
+        tono proprium est. Habet enim tertius tonus principia propria duo, ut ad quartum comparatur
         tonum, scilicet .c.solfaut et .a.lamire. Unde antiphonae seu alii cantus incipientes in
         aliqua duarum clavium praetactarum tertii toni debent esse, non quarti. Tria vero principia
         propria quartus habet tonus, prout tertium respicit, scilicet .F.faut, .D.solre, .C.faut.
@@ -445,23 +463,26 @@
       <p xml:id="JACDIT0111">[DMA A/IXa:73,1; text: Euouae.] <figure>
           <graphic url="/images/JACDIT_06GF.gif"/>
         </figure></p>
-      <p xml:id="JACDIT0112">Omnes antiphonae huius toni quodcumque dictorum habuerint Seculorum, primo
-        excepto, intonari debent sic:</p>
-      <p xml:id="JACDIT0113">[DMA A/IXa:73,2; text: Dixit dominus domino meo : sede a dextris meis.]</p>
+      <p xml:id="JACDIT0112">Omnes antiphonae huius toni quodcumque dictorum habuerint Seculorum,
+        primo excepto, intonari debent sic:</p>
+      <p xml:id="JACDIT0113">[DMA A/IXa:73,2; text: Dixit dominus domino meo : sede a dextris
+        meis.]</p>
       <p xml:id="JACDIT0114">|| [20v in marg.] Antiphonae vero primum illorum sex Seculorum habentes
         debent intonari sic:</p>
-      <p xml:id="JACDIT0115">[DMA A/IXa:73,3; text: Lauda Jherusalem dominum: lauda deum tuum Syon.]</p>
+      <p xml:id="JACDIT0115">[DMA A/IXa:73,3; text: Lauda Jherusalem dominum: lauda deum tuum
+        Syon.]</p>
       <p xml:id="JACDIT0116">
         <pb n="[74]"/>Huius toni intonatio super Benedictus et Magnificat talis est:</p>
-      <p xml:id="JACDIT0117">[DMA A/IXa:74,1; text: Benedictus dominus deus Israhel: quia visitavit et
-        fecit redemptionem plebis suae. Magnificat anima mea dominum.]</p>
-      <p xml:id="JACDIT0118">Habet autem tonus iste caudas duas; harem vero prior magis usitata est:</p>
+      <p xml:id="JACDIT0117">[DMA A/IXa:74,1; text: Benedictus dominus deus Israhel: quia visitavit
+        et fecit redemptionem plebis suae. Magnificat anima mea dominum.]</p>
+      <p xml:id="JACDIT0118">Habet autem tonus iste caudas duas; harem vero prior magis usitata
+        est:</p>
       <p xml:id="JACDIT0119">[DMA A/IXa:74,2; text: Cauda quarti toni Vel sic:]</p>
       <p xml:id="JACDIT0120">Introitus huius toni talia Seculorum habent:</p>
       <p xml:id="JACDIT0121">[DMA A/IXa:74,3; text: Vel sic: Euouae.]</p>
       <p xml:id="JACDIT0122">Intonantur autem Seculorum praetacta sic:</p>
-      <p xml:id="JACDIT0123">[DMA A/IXa:74,4; text: Gloria patri et filio et spiritui sancto. Sicut erat
-        in principio et nunc et semper et in secula seculorum. Amen.]</p>
+      <p xml:id="JACDIT0123">[DMA A/IXa:74,4; text: Gloria patri et filio et spiritui sancto. Sicut
+        erat in principio et nunc et semper et in secula seculorum. Amen.]</p>
       <p xml:id="JACDIT0124">
         <pb n="[75]"/>Communium versuum responsoriorum huius toni Gloria talis est:</p>
       <p xml:id="JACDIT0125">[DMA A/IXa:75,1; text: Gloria patri et filio et spiritui sancto.] <figure>
@@ -476,15 +497,15 @@
         .c.solfaut, .a.lamire, .G.solreut, .F.faut. Habet autem iste tonus super antiphonas duo
         Seculorum vel tria tantum, haec scilicet:</p>
       <p xml:id="JACDIT0131">[DMA A/IXa:76,1; text: Euouae.]</p>
-      <p xml:id="JACDIT0132">Omnes antiphonae huius toni tam super Benedictus et Magnificat quam super
-        quoscumque alios psalmos intonandae sunt sic:</p>
+      <p xml:id="JACDIT0132">Omnes antiphonae huius toni tam super Benedictus et Magnificat quam
+        super quoscumque alios psalmos intonandae sunt sic:</p>
       <p xml:id="JACDIT0133">[21r in marg.] [DMA A/IXa:76,2; text: Dixit dominus domino meo: sede a
         dextris meis.]</p>
-      <p xml:id="JACDIT0134">Non enim est alia huius toni intonatio super Benedictus et Magnificat et
-        super alios psalmos quoscumque. Immo super uno ex eodem modo intonantur hic et ibi tam ex
+      <p xml:id="JACDIT0134">Non enim est alia huius toni intonatio super Benedictus et Magnificat
+        et super alios psalmos quoscumque. Immo super uno ex eodem modo intonantur hic et ibi tam ex
         parte principii quam medii. Ut tamen omnis tollatur dubitatio, ponuntur exempla:</p>
-      <p xml:id="JACDIT0135">[DMA A/IXa:76,3; text: Benedictus dominus deus Israhel: quia visitavit et
-        fecit redemptionem plebis]</p>
+      <p xml:id="JACDIT0135">[DMA A/IXa:76,3; text: Benedictus dominus deus Israhel: quia visitavit
+        et fecit redemptionem plebis]</p>
       <p xml:id="JACDIT0136">
         <pb n="[77]"/>[DMA A/IXa:77,1; text: plebis suae. Magnificat anima mea dominum. Cauda quinti
         toni] <figure>
@@ -495,8 +516,8 @@
       <p xml:id="JACDIT0138">[DMA A/IXa:77,2; text: Euouae.]</p>
       <p xml:id="JACDIT0139">Nec est alia horum Seculorum intonatio ab antiphonarum prius tacta
         intonatione. Intonantur enim sic:</p>
-      <p xml:id="JACDIT0140">[DMA A/IXa:77,3; text: Gloria patri et filio et spiritui sancto. Sicut erat
-        in principio et nunc et semper et in secula seculorum. Amen.]</p>
+      <p xml:id="JACDIT0140">[DMA A/IXa:77,3; text: Gloria patri et filio et spiritui sancto. Sicut
+        erat in principio et nunc et semper et in secula seculorum. Amen.]</p>
       <p xml:id="JACDIT0141">Gloria versuum communium responsoriorum huius toni tale est:</p>
       <p xml:id="JACDIT0142">[DMA A/IXa:77,4; text: Gloria patri et filio et spiritui sancto.]</p>
       <p xml:id="JACDIT0143">Huius toni invitatoria tale habent Venite:</p>
@@ -510,15 +531,16 @@
       <p xml:id="JACDIT0147">Ef Ge la ce quintus; Ce Des El Ef al quoque sextus.</p>
       <p xml:id="JACDIT0148">Iste tonus super antiphonas unicum Seculorum habet, hoc scilicet:</p>
       <p xml:id="JACDIT0149">[DMA A/IXa:78,1; text: Euouae.]</p>
-      <p xml:id="JACDIT0150">Huius toni antiphonae omnes in simplicibus psalmis intonationem recipiunt
-        hanc:</p>
-      <p xml:id="JACDIT0151">[DMA A/IXa:78,2; text: Dixit dominus domino meo: sede a dextris meis.]</p>
+      <p xml:id="JACDIT0150">Huius toni antiphonae omnes in simplicibus psalmis intonationem
+        recipiunt hanc:</p>
+      <p xml:id="JACDIT0151">[DMA A/IXa:78,2; text: Dixit dominus domino meo: sede a dextris
+        meis.]</p>
       <p xml:id="JACDIT0152">|| [21v in marg.] Super Benedictus autem et Magnificat huius toni
         antiphonae intonationem <pb n="[79]"/>habent talem qualem habent antiphonae primi toni. Unde
         in nullo est variatio hinc et inde nisi ex parte finis seu ex parte Seculorum; et quod ita
         sit, patet hic:</p>
-      <p xml:id="JACDIT0153">[DMA A/IXa:79,1; text: Benedictus dominus deus Israhel: quia visitavit et
-        fecit redemptionem plebis suae. Magnificat anima mea dominum. Cauda huius toni, Vel sic:] <figure>
+      <p xml:id="JACDIT0153">[DMA A/IXa:79,1; text: Benedictus dominus deus Israhel: quia visitavit
+        et fecit redemptionem plebis suae. Magnificat anima mea dominum. Cauda huius toni, Vel sic:] <figure>
           <graphic url="/images/JACDIT_09GF.gif"/>
         </figure></p>
       <p xml:id="JACDIT0154">Introitus huius toni unicum habet Seculorum, hoc scilicet:</p>
@@ -527,8 +549,8 @@
         suarum antiphonarum super psalmos intonatione ut ex praemissis patet, multum tamen in
         introituum super psalmos suos intonatione disconveniunt, ut ex exemplorum positione debet
         esse manifestum. Intonantur enim sexti toni introitus sic:</p>
-      <p xml:id="JACDIT0157">[DMA A/IXa:79,3; text: Gloria patri et filio et spiritui sancto. Sicut erat
-        in principio et nunc et semper et in secula seculorum. Amen.]</p>
+      <p xml:id="JACDIT0157">[DMA A/IXa:79,3; text: Gloria patri et filio et spiritui sancto. Sicut
+        erat in principio et nunc et semper et in secula seculorum. Amen.]</p>
       <p xml:id="JACDIT0158">
         <pb n="[80]"/>Versus communes responsoriorum huius toni tale habet Gloria:</p>
       <p xml:id="JACDIT0159">[DMA A/IXa:80,1; text: Gloria patri et filio et spiritui sancto.]</p>
@@ -537,27 +559,29 @@
       <p xml:id="JACDIT0161">[DMA A/IXa:80,2; text: Venite exultemus domino.]</p>
       <p xml:id="JACDIT0162">
         <pb n="[81]"/>X Capitulum de pertinentibus ad septimum tonum</p>
-      <p xml:id="JACDIT0163">Septimus tonus quinque habet principia, scilicet .d.lasolre, .c.solfaut,
-        .b.fa.[sqb].mi, .a.lamire et .G.solreut. Unde versus:</p>
+      <p xml:id="JACDIT0163">Septimus tonus quinque habet principia, scilicet .d.lasolre,
+        .c.solfaut, .b.fa.[sqb].mi, .a.lamire et .G.solreut. Unde versus:</p>
       <p xml:id="JACDIT0164">Ges al bes ces del septenus principiatur.</p>
       <p xml:id="JACDIT0165">Habet autem iste tonus super antiphonas Seculorum quattuor, haec
         scilicet:</p>
       <p xml:id="JACDIT0166">[DMA A/IXa:81,1; text: Euouae] <figure>
           <graphic url="/images/JACDIT_10GF.gif"/>
         </figure></p>
-      <p xml:id="JACDIT0167">Omnes antiphonae huius toni in simplicibus psalmis intonati debent sic:</p>
-      <p xml:id="JACDIT0168">[DMA A/IXa:81,2; text: Dixit dominus domino meo: sede a dextris meis.]</p>
+      <p xml:id="JACDIT0167">Omnes antiphonae huius toni in simplicibus psalmis intonati debent
+        sic:</p>
+      <p xml:id="JACDIT0168">[DMA A/IXa:81,2; text: Dixit dominus domino meo: sede a dextris
+        meis.]</p>
       <p xml:id="JACDIT0169">
         <pb n="[82]"/>Solemnius autem intonantur super Benedictus et Magnificat ut patet hic:</p>
-      <p xml:id="JACDIT0170">[22r in marg.] [DMA A/IXa:82,1; text: Benedictus dominus deus Israhel: quia
-        visitavit et fecit redemptionem plebis suae. Magnificat anima mea dominum.]</p>
+      <p xml:id="JACDIT0170">[22r in marg.] [DMA A/IXa:82,1; text: Benedictus dominus deus Israhel:
+        quia visitavit et fecit redemptionem plebis suae. Magnificat anima mea dominum.]</p>
       <p xml:id="JACDIT0171">Cauda huius toni talis est:</p>
       <p xml:id="JACDIT0172">[DMA A/IXa:82,2]</p>
       <p xml:id="JACDIT0173">Huius toni introitus unicum habet Seculorum ut hic patet:</p>
       <p xml:id="JACDIT0174">[DMA A/IXa:82,3; text: Euouae.]</p>
       <p xml:id="JACDIT0175">Intonantur autem praetactum Seculorum sic:</p>
-      <p xml:id="JACDIT0176">[DMA A/IXa:82,4; text: Gloria patri et filio et spiritui sancto. Sicut erat
-        in principio et nunc et semper et in secula seculorum. Amen.]</p>
+      <p xml:id="JACDIT0176">[DMA A/IXa:82,4; text: Gloria patri et filio et spiritui sancto. Sicut
+        erat in principio et nunc et semper et in secula seculorum. Amen.]</p>
       <p xml:id="JACDIT0177">
         <pb n="[83]"/>Huius toni responsoriorum communes versus habent Gloria tale:</p>
       <p xml:id="JACDIT0178">[DMA A/IXa:83,1; text: Gloria patri et filio et spiritui sancto.] <figure>
@@ -573,25 +597,27 @@
       <p xml:id="JACDIT0184">Habet autem iste tonus quattuor concordantiae modos, hos scilicet:</p>
       <p xml:id="JACDIT0185">[DMA A/IXa:84,1; text: Euouae.]</p>
       <p xml:id="JACDIT0186">Hi in simplicibus psalmis intonantur sic:</p>
-      <p xml:id="JACDIT0187">[DMA A/IXa:84,2; text: Dixit dominus domino meo: sede a dextris meis.]</p>
-      <p xml:id="JACDIT0188">Super Benedictus vero et Magnificat huius toni intonatio, quoad principium
-        et quoad medium, eadem est cum secundi toni intonatione similiter et super quoscumque
-        psalmos.</p>
+      <p xml:id="JACDIT0187">[DMA A/IXa:84,2; text: Dixit dominus domino meo: sede a dextris
+        meis.]</p>
+      <p xml:id="JACDIT0188">Super Benedictus vero et Magnificat huius toni intonatio, quoad
+        principium et quoad medium, eadem est cum secundi toni intonatione similiter et super
+        quoscumque psalmos.</p>
       <p xml:id="JACDIT0189">
         <pb n="[85]"/>Quod autem sic sit, exemplorum positio manifestat:</p>
-      <p xml:id="JACDIT0190">[DMA A/IXa:85,1; text: Benedictus dominus deus Israhel: quia visitavit et
-        fecit redemptionem plebis suae.] <figure>
+      <p xml:id="JACDIT0190">[DMA A/IXa:85,1; text: Benedictus dominus deus Israhel: quia visitavit
+        et fecit redemptionem plebis suae.] <figure>
           <graphic url="/images/JACDIT_12GF.gif"/>
         </figure></p>
-      <p xml:id="JACDIT0191">[22v in marg.] [DMA A/IXa:85,2; text: Magnificat anima mea dominum.]</p>
+      <p xml:id="JACDIT0191">[22v in marg.] [DMA A/IXa:85,2; text: Magnificat anima mea
+        dominum.]</p>
       <p xml:id="JACDIT0192">Cauda huius toni talis est:</p>
       <p xml:id="JACDIT0193">[DMA A/IXa:85,3]</p>
       <p xml:id="JACDIT0194">Introitus huius toni unicum habent Seculorum:</p>
       <p xml:id="JACDIT0195">[DMA A/IXa:85,4; text: Euouae.]</p>
       <p xml:id="JACDIT0196">
         <pb n="[86]"/>Cuius exemplum intonatioque patet hic:</p>
-      <p xml:id="JACDIT0197">[DMA A/IXa:86,1; text: Gloria patri et filio et spiritui sancto. Sicut erat
-        in principio et nunc et semper et in secula seculorum. Amen.]</p>
+      <p xml:id="JACDIT0197">[DMA A/IXa:86,1; text: Gloria patri et filio et spiritui sancto. Sicut
+        erat in principio et nunc et semper et in secula seculorum. Amen.]</p>
       <p xml:id="JACDIT0198">Gloria responsoriorum communium huius toni tale est:</p>
       <p xml:id="JACDIT0199">[DMA A/IXa:86,2; text: Gloria patri et filio et spiritui sancto.]</p>
       <p xml:id="JACDIT0200">Fortassis in quibusdam libris invitatoria octavi toni proprietates
@@ -612,8 +638,8 @@
         Seculorum aliqua, de quibus exemplificatum prius non sit, reperiat sive super antiphonis
         sive super introitibus dubitetque de ipsorum tono, ad regulas recurrat prius datas quarum
         speculatione profunda suae dubitationis aculeus, uti reor, evanescet.</p>
-      <p xml:id="JACDIT0201">Hic igitur brevis de tonis tractatus quoad praesens sufficiat. In quo non
-        omnia tonorum arti spectantia explicare studuimus, sed tantum quae visa nobis sunt eorum
+      <p xml:id="JACDIT0201">Hic igitur brevis de tonis tractatus quoad praesens sufficiat. In quo
+        non omnia tonorum arti spectantia explicare studuimus, sed tantum quae visa nobis sunt eorum
         intonationi necessaria magis esse. Non enim intentionis fuit nostrae hic tonorum satisfacere
         velle scientiae, neque enim ad hoc nostri ingenii debilitas sufficeret, sed potius per hoc
         opusculum personae cuiusdam velle praeces exaudire. Fortassis autem aliqua quae de tonis

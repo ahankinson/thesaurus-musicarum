@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Regulae super proportiones</title>
         <title type="abbrev">HOTRSP</title>
-        <author>Hothby, Johannes</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Hothby, Johannes</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Anna Shparberg</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
-        <date>1999</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1999">1999</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Johannes Hothby, <emph>Opera omnia de proportionibus</emph>; Anonymus,
             <emph>Tractatus de contrapuncto (Ms. Venice, lat. VIII.82, coll. 3047)</emph>, ed.
@@ -52,15 +62,15 @@
       <p xml:id="HOTRSP0002">P 26, Fa 25v (24v)</p>
       <p xml:id="HOTRSP0003">Preambula in proportionibus necessaria secundum venerabilem lectorem
         fratrem Johannem Anglicum, artis musicae doctor insigni.</p>
-      <p xml:id="HOTRSP0004">Omnis numerus tot habet partes quot sub se sunt unitates, sicut senarius
-        habet quinque partes, eo quod sub se sunt quinque unitates, quae sunt una, duae, tres,
-        quatuor et quinque. Et sic de ceteris numeris est intelligendum. Partes cuiuscumque numeri
-        aut sunt aliquotae aut non aliquotae. Partes aliquotae sunt quae multotiens sumptae praecise
-        reddunt suum totum, id est numerum cuius sunt partes. Sicut unitas bis sumpta reddit
-        praecise binarium, cuius est medietas; et ter ternarium, cuius est pars tertia, et sic
-        deinceps. Ut binarius bis sumptus reddit quaternarium, cuius est dimidium, et ter sumptus
-        senarium, cuius est pars tertia. Unde pars aliquota bis sumpta dicitur aliquota media vel
-        altera, et ter tertia, et quater quarta, et sic deinceps usque in infinitum.</p>
+      <p xml:id="HOTRSP0004">Omnis numerus tot habet partes quot sub se sunt unitates, sicut
+        senarius habet quinque partes, eo quod sub se sunt quinque unitates, quae sunt una, duae,
+        tres, quatuor et quinque. Et sic de ceteris numeris est intelligendum. Partes cuiuscumque
+        numeri aut sunt aliquotae aut non aliquotae. Partes aliquotae sunt quae multotiens sumptae
+        praecise reddunt suum totum, id est numerum cuius sunt partes. Sicut unitas bis sumpta
+        reddit praecise binarium, cuius est medietas; et ter ternarium, cuius est pars tertia, et
+        sic deinceps. Ut binarius bis sumptus reddit quaternarium, cuius est dimidium, et ter
+        sumptus senarium, cuius est pars tertia. Unde pars aliquota bis sumpta dicitur aliquota
+        media vel altera, et ter tertia, et quater quarta, et sic deinceps usque in infinitum.</p>
       <p xml:id="HOTRSP0005">Partes non aliquotae sunt quae aliquotiens sumptae praecise non reddunt
         suum totum, id est numerum cuius sunt partes. Sicut binarius bis sumptus superat ternarium,
         et superatur a quinario quem ter sumptus superat, et sic deinceps. Ut ternarius bis sumptus
@@ -73,15 +83,15 @@
       <p xml:id="HOTRSP0007">Et primo de divisionibus proportionum.</p>
       <p xml:id="HOTRSP0008">Capitulum 1</p>
       <p xml:id="HOTRSP0009">P 26v, Fa 25v (24v)</p>
-      <p xml:id="HOTRSP0010">Proportio est duplex, scilicet aequalitatis et inaequalitatis. Proportio
-        aequalitatis est duorum ad invicem aequalium habitudo, sicut unum ad unum comparatum, et duo
-        duobus, et sic deinceps usque in infinitum, quamvis una tamtum fit eius species. Proportio
-        inaequalitatis est duorum dissimilium ad invicem comparatorum habitudo, sicut unum ad duo et
-        e converso, vel quatuor ad duo et e converso. Et haec est duplex, scilicet maioris
-        inaequalitatis et minoris inaequalitatis. Proportio maioris inaequalitatis est habitudo
-        maioris ad minorem, sicut binarius ad unitatem, et trinarius ad binarium, et sic deinceps.
-        Cuius species sunt quinque, scilicet multiplex, superparticularis, superpartiens, multiplex
-        superparticularis, et muliplex superpartiens.</p>
+      <p xml:id="HOTRSP0010">Proportio est duplex, scilicet aequalitatis et inaequalitatis.
+        Proportio aequalitatis est duorum ad invicem aequalium habitudo, sicut unum ad unum
+        comparatum, et duo duobus, et sic deinceps usque in infinitum, quamvis una tamtum fit eius
+        species. Proportio inaequalitatis est duorum dissimilium ad invicem comparatorum habitudo,
+        sicut unum ad duo et e converso, vel quatuor ad duo et e converso. Et haec est duplex,
+        scilicet maioris inaequalitatis et minoris inaequalitatis. Proportio maioris inaequalitatis
+        est habitudo maioris ad minorem, sicut binarius ad unitatem, et trinarius ad binarium, et
+        sic deinceps. Cuius species sunt quinque, scilicet multiplex, superparticularis,
+        superpartiens, multiplex superparticularis, et muliplex superpartiens.</p>
       <p xml:id="HOTRSP0011">De specie multiplici</p>
       <p xml:id="HOTRSP0012">Capitulum 2</p>
       <p xml:id="HOTRSP0013">P 26v, Fa 25v (24v)</p>
@@ -97,8 +107,8 @@
       <p xml:id="HOTRSP0016">De specie superparticulari</p>
       <p xml:id="HOTRSP0017">Capitulum 3</p>
       <p xml:id="HOTRSP0018">P 2, Fa 25v (24v)</p>
-      <p xml:id="HOTRSP0019">Superparticulare est quando maior terminus in se semel continet minorem et
-        eius partes aliquotam mediam, tertiam vel quartam, et cetera. Eius species specialissime
+      <p xml:id="HOTRSP0019">Superparticulare est quando maior terminus in se semel continet minorem
+        et eius partes aliquotam mediam, tertiam vel quartam, et cetera. Eius species specialissime
         sunt sexquialtera, sexquitertia, sexquiquarta et sexquequinta, et sic deinceps. Sexquialtera
         est quando maior terminus in se semel continet totum minorem et eius partem aliquotam
         mediam, sicut ternarius ad binarium, senarius ad quaternarium, et sic deinceps. Et haec
@@ -107,20 +117,21 @@
       <p xml:id="HOTRSP0020">De specie superpartienti</p>
       <p xml:id="HOTRSP0021">Capitulum 4</p>
       <p xml:id="HOTRSP0022">P 2, Fa 25v (24v)</p>
-      <p xml:id="HOTRSP0023">Superpartiens est quando maior terminus in se continet totum minorem semel
-        et eius partem non aliquotam duas tertias, vel tres quartas, vel duas quintas, vel tres
-        quintas, et sic deinceps. Cuius species <pb n="[20]"/>specialissime sunt superbipartiens
-        tertias, supertripartiens quartas, superbipartiens quintas, et sic deinceps.</p>
+      <p xml:id="HOTRSP0023">Superpartiens est quando maior terminus in se continet totum minorem
+        semel et eius partem non aliquotam duas tertias, vel tres quartas, vel duas quintas, vel
+        tres quintas, et sic deinceps. Cuius species <pb n="[20]"/>specialissime sunt
+        superbipartiens tertias, supertripartiens quartas, superbipartiens quintas, et sic
+        deinceps.</p>
       <p xml:id="HOTRSP0024">Superbipartiens tertias est quando maior terminus in se semel continet
         totum minorem et eius partem non aliquotam duas tertias, sicut quinarius ad ternarium, et
         sic deinceps. Et haec diffinitio competit omnibus superpartientibus, mutatis mutandis.</p>
       <p xml:id="HOTRSP0025">De specie multiplici superparticulari</p>
       <p xml:id="HOTRSP0026">Capitulum 5</p>
       <p xml:id="HOTRSP0027">P 2, Fa 25v (24v)</p>
-      <p xml:id="HOTRSP0028">Multiplex superparticularis est quando maior terminus in se multipliciter
-        continet totum minorem et eius partem aliquotam mediam, vel tertiam, et cetera. Cuius
-        species specialissime sunt dupla vel tripla vel quadrupla sexquialtera, dupla vel tripla vel
-        quadrupla sexquitertia, et sic de ceteris, componendo multiplices cum
+      <p xml:id="HOTRSP0028">Multiplex superparticularis est quando maior terminus in se
+        multipliciter continet totum minorem et eius partem aliquotam mediam, vel tertiam, et
+        cetera. Cuius species specialissime sunt dupla vel tripla vel quadrupla sexquialtera, dupla
+        vel tripla vel quadrupla sexquitertia, et sic de ceteris, componendo multiplices cum
         superparticularibus.</p>
       <p xml:id="HOTRSP0029">Dupla sexquialtera est quando maior terminus in se continet bis totum
         minorem et eius partem aliquotam mediam, sicut quinarius ad binarium, et denarius ad
@@ -133,21 +144,21 @@
         continet totum minorem et eius partem non aliquotam duas tertias, vel tres quartas, et sic
         deinceps. Cuius species specialissime <pb n="[21]"/>sunt dupla vel tripla vel quadrupla
         supertripartiens quartas, et sic deinceps, componendo multiplices cum superpartientibus.</p>
-      <p xml:id="HOTRSP0034">Dupla superbipartiens tertias est quando maior terminus in se bis continet
-        totum minorem et eius partem non aliquotam duas tertias, sicut octonarius ad ternarium, et
-        sexdecim ad senarium, et sic deinceps. Et haec diffinitio competit aliis multiplicibus
-        superpartientibus, mutatis tamen mutandis.</p>
+      <p xml:id="HOTRSP0034">Dupla superbipartiens tertias est quando maior terminus in se bis
+        continet totum minorem et eius partem non aliquotam duas tertias, sicut octonarius ad
+        ternarium, et sexdecim ad senarium, et sic deinceps. Et haec diffinitio competit aliis
+        multiplicibus superpartientibus, mutatis tamen mutandis.</p>
       <p xml:id="HOTRSP0035">De proportione minoris inaequalitatis</p>
       <p xml:id="HOTRSP0036">Capitulum 7</p>
       <p xml:id="HOTRSP0037">P 28, Fa 26 (25)</p>
-      <p xml:id="HOTRSP0038">Proportio minoris inaequalitatis est habitudo minoris termini ad maiorem.
-        Cuius species sunt quinque, quae sunt submultiplex, subsuperparticularis, subsuperpartiens,
-        submultiplex superparticularis, et submultiplex superpartiens. Quarum species specialissime
-        sunt infinitae, et nominantur ut supra cum additione tamen sub, ut subdupla, subtripla,
-        subsexquialtera, subsexquitertia, subsuperbipartiens tertias, subsupertripartiens quartas,
-        subdupla sexquialtera, subdupla superbipartiens tertias, et sic deinceps. Sed sicut
-        proportiones maioris inaequalitatis infinite augmentantur, ita istae infinite
-        diminuuntur.</p>
+      <p xml:id="HOTRSP0038">Proportio minoris inaequalitatis est habitudo minoris termini ad
+        maiorem. Cuius species sunt quinque, quae sunt submultiplex, subsuperparticularis,
+        subsuperpartiens, submultiplex superparticularis, et submultiplex superpartiens. Quarum
+        species specialissime sunt infinitae, et nominantur ut supra cum additione tamen sub, ut
+        subdupla, subtripla, subsexquialtera, subsexquitertia, subsuperbipartiens tertias,
+        subsupertripartiens quartas, subdupla sexquialtera, subdupla superbipartiens tertias, et sic
+        deinceps. Sed sicut proportiones maioris inaequalitatis infinite augmentantur, ita istae
+        infinite diminuuntur.</p>
       <p xml:id="HOTRSP0039">Deo gratias.</p>
     </body>
   </text>

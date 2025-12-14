@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Sententiae de musica</title>
         <title type="abbrev">ISISEN</title>
-        <author>Isidorus Hispalensis</author>
-        <date notBefore="500" notAfter="799">6th-8th</date>
+        <author><persName>Isidorus Hispalensis</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1992</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1992">1992</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptores ecclesiastici de musica sacra potissimum</emph>, 3 vols., ed. Martin
@@ -175,12 +185,12 @@
         <pb n="[20]"/>Sententiae Isidori Episcopi ad Braulionem Episcopum de musica.</p>
       <p xml:id="ISISEN0002">Caput I.</p>
       <p xml:id="ISISEN0003">De nomine musicae.</p>
-      <p xml:id="ISISEN0004">Musica est peritia modulationis sono cantuque consistens, et dicta Musica
-        per derivationem a Musis. Musae autem appellatae apo tu muson, id est, a quaerendo, quod per
-        eas, sicut antiqui voluerunt, vis carminum et vocis modulatio quaereretur. Quarum sonus,
-        quia sensibilis res est, praeterfluit inter praeteritum tempus, imprimiturque memoriae. Inde
-        a Poetis Iovis et Memoriae filias Musas esse confictum est. Nisi enim ab homine memoria
-        teneantur, soni pereunt, quia scribi non possunt.</p>
+      <p xml:id="ISISEN0004">Musica est peritia modulationis sono cantuque consistens, et dicta
+        Musica per derivationem a Musis. Musae autem appellatae apo tu muson, id est, a quaerendo,
+        quod per eas, sicut antiqui voluerunt, vis carminum et vocis modulatio quaereretur. Quarum
+        sonus, quia sensibilis res est, praeterfluit inter praeteritum tempus, imprimiturque
+        memoriae. Inde a Poetis Iovis et Memoriae filias Musas esse confictum est. Nisi enim ab
+        homine memoria teneantur, soni pereunt, quia scribi non possunt.</p>
       <p xml:id="ISISEN0005">Caput II.</p>
       <p xml:id="ISISEN0006">De inventoribus musicae.</p>
       <p xml:id="ISISEN0007">Moyses dicit, repertorem musicae artis fuisse Tubal, qui fuit de stirpe
@@ -194,8 +204,8 @@
         circumferebatur, et accubantibus singulis ordinabatur convivale genus canticorum.</p>
       <p xml:id="ISISEN0008">Caput III.</p>
       <p xml:id="ISISEN0009">Quid possit musica.</p>
-      <p xml:id="ISISEN0010">Itaque sine Musica nulla disciplina potest esse perfecta; nihil enim est
-        sine illa. Nam et ipse mundus quadam harmonia sonorum fertur esse compositus, et coelum
+      <p xml:id="ISISEN0010">Itaque sine Musica nulla disciplina potest esse perfecta; nihil enim
+        est sine illa. Nam et ipse mundus quadam harmonia sonorum fertur esse compositus, et coelum
         ipsum sub harmoniae modulatione revolvitur. Musica movet affectus, provocat in diversum
         habitum sensus. In praeliis quoque tubae concentus pugnantes accendit, et quanto vehementior
         fuerit clangor, tanto fit ad certamen animus fortior. Siquidem et remiges cantus hortatur ad
@@ -207,14 +217,15 @@
         musicos rhythmos harmoniae virtutibus probatur esse sociatum.</p>
       <p xml:id="ISISEN0011">Caput IV.</p>
       <p xml:id="ISISEN0012">De tribus partibus musicae.</p>
-      <p xml:id="ISISEN0013">Musicae partes sunt tres, id est, harmonica, rhythmica, metrica. Harmonica
-        est, quae discernit in sonis acutum et gravem. Rhythmica est, quae incursionem verborum,
-        utrum bene sonus an male cohaereat. Metrica est, quae mensuram diversorum metrorum probabili
-        ratione cognoscit, ut verbi gratia heroicon, iambicon vel elegiacon, et caetera.</p>
+      <p xml:id="ISISEN0013">Musicae partes sunt tres, id est, harmonica, rhythmica, metrica.
+        Harmonica est, quae discernit in sonis acutum et gravem. Rhythmica est, quae incursionem
+        verborum, utrum bene sonus an male cohaereat. Metrica est, quae mensuram diversorum metrorum
+        probabili ratione cognoscit, ut verbi gratia heroicon, iambicon vel elegiacon, et
+        caetera.</p>
       <p xml:id="ISISEN0014">Caput V.</p>
       <p xml:id="ISISEN0015">De triformi musicae divisione.</p>
-      <p xml:id="ISISEN0016">Ad omnem autem sonum, qui materies cantilenarum est, triformem constat esse
-        naturam. Prima est harmonica, quae ex vocum cantibus constat. Secunda organica, quae ex
+      <p xml:id="ISISEN0016">Ad omnem autem sonum, qui materies cantilenarum est, triformem constat
+        esse naturam. Prima est harmonica, quae ex vocum cantibus constat. Secunda organica, quae ex
         flatu consistit. Tertia rhythmica, quae impulsu digitorum numeros recipit. Nam aut voce
         editur sonus, sicut per fauces; aut flatu, sicut per tubam, vel tibiam; aut impulsu, sicut
         per cytharam, aut per quodlibet aliud, quod percutiendo canorum (sonorum) est.</p>
@@ -262,8 +273,8 @@
         similia instrumenta. Organum vocabulum est generale omnium musicorum vasorum. Hoc autem, cui
         folles adhibentur, alio nomine Graeci adpellant. Ut autem organum dicatur, magis ea
         (vulgaris) est Graecorum consuetudo.</p>
-      <p xml:id="ISISEN0026">Tuba primum a Tyrrhenis inventa, de quibus Virgilius: Tyrrhenusque tubae
-        mugire per aethera clangor. Adhibebatur autem non solum in praeliis, sed et in omnibus
+      <p xml:id="ISISEN0026">Tuba primum a Tyrrhenis inventa, de quibus Virgilius: Tyrrhenusque
+        tubae mugire per aethera clangor. Adhibebatur autem non solum in praeliis, sed et in omnibus
         festis diebus propter laudes vel gaudii claritatem. Unde et in psalmo dicitur: Canite in
         initio mensis tuba, et in die insigni solemnitatis vestrae; praeceptum enim fuerat Iudaeis,
         ut initio novae lunae tuba clangerent, quod etiam adhuc usque (hucusque) faciunt. Tibias
@@ -305,7 +316,8 @@
         eius vocem chorus consonando respondeat. Est autem similitudo cytharae barbaricae in modum
         Deltae literae: sed psalterii et cytharae haec differentia est, quod psalterium lignum illud
         concavum, unde sonus redditur, superius habet, et deorsum feriuntur chordae, et desuper
-        sonant, Cythara vero concavitatem ligni inferius habet. Psalterio autem Hebraei <pb n="[24]"/>decachordo usi sunt propter numerum decalogum legis.</p>
+        sonant, Cythara vero concavitatem ligni inferius habet. Psalterio autem Hebraei <pb n="[24]"
+        />decachordo usi sunt propter numerum decalogum legis.</p>
       <p xml:id="ISISEN0032">Lira dicta apo to lirin, (apo tu lirin) id est, a varietate vocum, quod
         diversos sonos efficiat. Lira primum inventa a Mercurio dicitur hoc modo. Cum regrediens
         Nilus in suos meatus varia in campis reliquisset animalia, relicta etiam testudo est, quae
@@ -314,9 +326,9 @@
         maxime erat studiosus. Unde et aestimatur eadem arte non tantum feras, sed et saxa atque
         silvas cantus modulatione adplicuisse. Hanc musici propter studii amorem et carminis laudem
         etiam inter sidera suarum fabularum commentis collocatam esse finxerunt.</p>
-      <p xml:id="ISISEN0033">Tympanum est pellis vel corium ligno ex una parte extensum; est enim pars
-        media symphoniae in similitudinem cribri. Tympanum autem dicitur, quod medium est, unde et
-        margaretum (margaritum) medium tympanum dicitur, et ipsum ut symphonia ad virgulam
+      <p xml:id="ISISEN0033">Tympanum est pellis vel corium ligno ex una parte extensum; est enim
+        pars media symphoniae in similitudinem cribri. Tympanum autem dicitur, quod medium est, unde
+        et margaretum (margaritum) medium tympanum dicitur, et ipsum ut symphonia ad virgulam
         percutitur. Cymbala et acitabula quaedam sunt, quae percussa invicem se tangunt, et faciunt
         sonum. Dicta autem cymbala, quia cum ballematia (ballematica) simul percutiuntur. Ita enim
         Graeci dicunt cymba ballematia (ballematica).</p>
@@ -325,15 +337,15 @@
       <p xml:id="ISISEN0035">Isis et irato feriat mea limina sistro.</p>
       <p xml:id="ISISEN0036">Unde et hoc mulieres percutiunt, quia inventrix huius generis mulier
         exstitit. Unde et apud Amazonas sistro ad bellum feminarum exercitus vocabatur.</p>
-      <p xml:id="ISISEN0037">Tintinabulum de sono vocis nomen accepit, sicut et plausus manuum, stridor
-        valvarum. Symphonia vulgo adpellatur lignum cavum ex utraque parte pelle extenta (extensa)
-        quam virgulis hinc et inde musice feriunt, fitque in ea ex concordia gravis et acuti
-        suavissimus cantus.</p>
+      <p xml:id="ISISEN0037">Tintinabulum de sono vocis nomen accepit, sicut et plausus manuum,
+        stridor valvarum. Symphonia vulgo adpellatur lignum cavum ex utraque parte pelle extenta
+        (extensa) quam virgulis hinc et inde musice feriunt, fitque in ea ex concordia gravis et
+        acuti suavissimus cantus.</p>
       <p xml:id="ISISEN0038">Caput IX.</p>
       <p xml:id="ISISEN0039">De musicis numeris.</p>
-      <p xml:id="ISISEN0040">Numeros autem secundum musicam ita quaeris. Positis extremis, ut puta VI.
-        et decies dipondius, vides quod a monadibus superest (quod monadibus superetur) sex ac II.
-        et sex monadibus ductis per quadratum, sexies seni faciunt XXXVI. Coniunges extrema illa
+      <p xml:id="ISISEN0040">Numeros autem secundum musicam ita quaeris. Positis extremis, ut puta
+        VI. et decies dipondius, vides quod a monadibus superest (quod monadibus superetur) sex ac
+        II. et sex monadibus ductis per quadratum, sexies seni faciunt XXXVI. Coniunges extrema illa
         prima VI. ad XII. simul efficiunt decem et octo. Partiris tricies sexies per decem octo,
         efficit dipondius: hos iunge cum summa minore, id est sexies, erunt octo, et erit medium
         inter sexies et XII. Quapropter octo superant sex (sexies) duabus monadibus, id est tertia
@@ -349,15 +361,16 @@
         epogdous. Est autem epitritus, cum de duobus numeris maior habet totum minorem, et insuper
         eius tertiam partem, ut sunt IIII. ad III. nam in quatuor sunt tres, et trium tertia pars,
         id est, unitas. De his nascitur symphonia, quae in musica adpellatur diatessaron.</p>
-      <p xml:id="ISISEN0043">Hemiolius est, cum de duobus numeris maior habet minorem, et insuper eius
-        medietatem, ut sunt tres ad duo. Nam in tribus sunt duo, et media pars duorum, id est, unum.
-        Adpellatur hic numerus in arithmetica sesquialter, sed Diapente symphonia vocatur in
+      <p xml:id="ISISEN0043">Hemiolius est, cum de duobus numeris maior habet minorem, et insuper
+        eius medietatem, ut sunt tres ad duo. Nam in tribus sunt duo, et media pars duorum, id est,
+        unum. Adpellatur hic numerus in arithmetica sesquialter, sed Diapente symphonia vocatur in
         musica.</p>
-      <p xml:id="ISISEN0044">Duplaris numerus est, cum duobus numeris minor in maiorem bis nominatur, ut
-        sunt IIII. in II. Ex hoc duplari nascitur symphonia, cui nomen est Diapason.</p>
-      <p xml:id="ISISEN0045">Triplaris autem est, cum de duobus numeris minor ter in maiorem numeratur,
-        ut sunt III. ad unum. Ex hoc triplari nascitur symphonia, quae dicitur Diapason et
-        Diapente.</p>
+      <p xml:id="ISISEN0044">Duplaris numerus est, cum duobus numeris minor in maiorem bis
+        nominatur, ut sunt IIII. in II. Ex hoc duplari nascitur symphonia, cui nomen est
+        Diapason.</p>
+      <p xml:id="ISISEN0045">Triplaris autem est, cum de duobus numeris minor ter in maiorem
+        numeratur, ut sunt III. ad unum. Ex hoc triplari nascitur symphonia, quae dicitur Diapason
+        et Diapente.</p>
       <p xml:id="ISISEN0046">Quadruplaris vero numerus est, cum de duobus numeris minor in maiorem
         quater numeratur, ut sunt quatuor ad unum: qui numerus facit symphoniam, quae dicitur Bis
         Diapason.</p>

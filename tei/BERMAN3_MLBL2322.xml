@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>[De cognicione notulorum]</title>
         <title type="abbrev">BERMAN3_MLBL2322</title>
-        <author>Anonymous</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>T</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Transcriber</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Travis Yeager</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
-        <date>2008</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2008">2008</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> London, British Library, MS Additional 23220, ff. 11v–14r. </bibl>
         <bibl type="work">
@@ -47,42 +57,44 @@
         imperfecto duas, vt hic [L,B,B,B; L,B,B]. Breuis in tempore perfecto valet tres semibreues,
         in imperfecto duas, vt hic [B,S,S,S; B,S,S] Semibreuis in maiori prolatione valet tres
         minimas, in breuiori duas, vt hic [S,M,M,M; S,M,M]</p>
-      <p xml:id="BERMAN3_MLBL23220002">Pro quibus nota quod duplex est modus, perfectus, et imperfectus,
-        perfectus quando longa valet tres breues, Imperfectus [[quod]] quando duas. Item perfectio
-        modi et imperfectio capitur respectu maximarum sicut vel maius longarum, Et item modus
-        vocatur maior [[ved]] [vel corr. in marg.] maximarum, vel breuiorem respectu longarum. Et
-        potest esse maior modus perfectus, breuiore existente imperfecte, et econuerso. [Nota bene
-        in marg.] Item duplex est tempus, perfectum quando breuis valet tres semibreues Imperfectum
-        quando valet duas. ac Item duplex est prolacio scilicet perfecta vel maior, quando
-        semibreuis valet tres minimas. Et imperfecta vel breuior, quando duas, exampla patet ex
-        predictis Insuper notandum quod omnis nota perfecta, potest imperfici, Et omnis imperfecta
-        perfici Perfici imperfici per abstraccionem tercie partis sue valore Imperfici [perfici,
-        corr. supra lin.]. perfici per additionem medie partis sui valoris, nam perfeccio constat in
-        ternario. Imperfeccio in binario Si maxima perfecta in toto, et in partibus potest imperfici
-        multipliciter, scilicet quo ad totum et quo ad partes. quo ad totum dupliciter scilicet a
-        parte ante, et a parte post, a parte ante quando eam precedit sola longa vel eius valor, a
-        parte post quando sequitur, Idem est quando plures precedunt, vel sequuntur, dum tamen
-        perfeccione computata, remaneat sola longa, vel eius valor, vt hic [L,L,L,L,pt,L,L,L,L,L]
-        Quo ad partes autem maxima imperfici, potest scilicet quo ad partes propinquas, remotas et
-        remociores, et ....... Quoniam quod notandum quod partes propinque tocius est in qua <pb n="[f.12r]"/>Ipsum immediate diuiditur, sicuti maximarum sunt longe, longarum breues,
-        breuium semibreues et cetera, Partes remote, sunt partes parcium propinquarum, remociores
-        sunt partes remotarum et cetera, Maxima igitur quo ad propinquas, dupliciter imperficitur
-        scilicet a parte ante, et a parte post, per abstraccionem tercie partis de valore partis
-        propinque, vel duarum parcium propinquarum, et sic similiter quo ad partes remotas, per
-        abstraccionem tercie partis de valore partis remotiore, vel duarum parcium remotarum. Et ita
-        suo modo intelligi potest de longis, breuibus, semibreuibus. exempla patebant inferius. Et
-        pro predictis et infrascriptis, nota has regulas. Prima regula quod longa ante longam, in
-        modo perfecto semper est perfecta quo ad totum. Potest tamen imperfici a parte ante,
-        [[quod]] [quo corr. supra lin.] ad partes propinquas, et remotas. Item breuis ante breuem in
-        tempore perfecto, et semibreuis ante semibreuem in maiori prolacione similiter vt hic
-        [L,L,O,B,B,O,S,S] Secunda regula, quandoque aliqua nota, debet imperfici quo ad totum, sed
-        quod eam sequitur nota maioris vel breuioris forme, vel pausa maioris vel minoris forme quia
-        similis, ante similem non potest imperfici, vt hic [L,B,pt; L,L,B,S,pt,S,B,L,S,M,pt,M,S,L].
-        Tercia regula quandoque post longam, de modo perfecto sequuntur due vel tres breues tantum,
-        nulla nota precedente a qua possit imperfici ante, perfecta est nisi punctus diuisionis
-        ponatur, inter primam breuem, et aliam vel alias sequentes. tunc enim prima breuis
-        imperficet longam precedentem, Et idem intelligendum est de breuibus temporis perfecti
-        respectu semibreuium, et de semibreuium maiorum prolacionis, respectu minimarum, vt hic
+      <p xml:id="BERMAN3_MLBL23220002">Pro quibus nota quod duplex est modus, perfectus, et
+        imperfectus, perfectus quando longa valet tres breues, Imperfectus [[quod]] quando duas.
+        Item perfectio modi et imperfectio capitur respectu maximarum sicut vel maius longarum, Et
+        item modus vocatur maior [[ved]] [vel corr. in marg.] maximarum, vel breuiorem respectu
+        longarum. Et potest esse maior modus perfectus, breuiore existente imperfecte, et econuerso.
+        [Nota bene in marg.] Item duplex est tempus, perfectum quando breuis valet tres semibreues
+        Imperfectum quando valet duas. ac Item duplex est prolacio scilicet perfecta vel maior,
+        quando semibreuis valet tres minimas. Et imperfecta vel breuior, quando duas, exampla patet
+        ex predictis Insuper notandum quod omnis nota perfecta, potest imperfici, Et omnis
+        imperfecta perfici Perfici imperfici per abstraccionem tercie partis sue valore Imperfici
+        [perfici, corr. supra lin.]. perfici per additionem medie partis sui valoris, nam perfeccio
+        constat in ternario. Imperfeccio in binario Si maxima perfecta in toto, et in partibus
+        potest imperfici multipliciter, scilicet quo ad totum et quo ad partes. quo ad totum
+        dupliciter scilicet a parte ante, et a parte post, a parte ante quando eam precedit sola
+        longa vel eius valor, a parte post quando sequitur, Idem est quando plures precedunt, vel
+        sequuntur, dum tamen perfeccione computata, remaneat sola longa, vel eius valor, vt hic
+        [L,L,L,L,pt,L,L,L,L,L] Quo ad partes autem maxima imperfici, potest scilicet quo ad partes
+        propinquas, remotas et remociores, et ....... Quoniam quod notandum quod partes propinque
+        tocius est in qua <pb n="[f.12r]"/>Ipsum immediate diuiditur, sicuti maximarum sunt longe,
+        longarum breues, breuium semibreues et cetera, Partes remote, sunt partes parcium
+        propinquarum, remociores sunt partes remotarum et cetera, Maxima igitur quo ad propinquas,
+        dupliciter imperficitur scilicet a parte ante, et a parte post, per abstraccionem tercie
+        partis de valore partis propinque, vel duarum parcium propinquarum, et sic similiter quo ad
+        partes remotas, per abstraccionem tercie partis de valore partis remotiore, vel duarum
+        parcium remotarum. Et ita suo modo intelligi potest de longis, breuibus, semibreuibus.
+        exempla patebant inferius. Et pro predictis et infrascriptis, nota has regulas. Prima regula
+        quod longa ante longam, in modo perfecto semper est perfecta quo ad totum. Potest tamen
+        imperfici a parte ante, [[quod]] [quo corr. supra lin.] ad partes propinquas, et remotas.
+        Item breuis ante breuem in tempore perfecto, et semibreuis ante semibreuem in maiori
+        prolacione similiter vt hic [L,L,O,B,B,O,S,S] Secunda regula, quandoque aliqua nota, debet
+        imperfici quo ad totum, sed quod eam sequitur nota maioris vel breuioris forme, vel pausa
+        maioris vel minoris forme quia similis, ante similem non potest imperfici, vt hic [L,B,pt;
+        L,L,B,S,pt,S,B,L,S,M,pt,M,S,L]. Tercia regula quandoque post longam, de modo perfecto
+        sequuntur due vel tres breues tantum, nulla nota precedente a qua possit imperfici ante,
+        perfecta est nisi punctus diuisionis ponatur, inter primam breuem, et aliam vel alias
+        sequentes. tunc enim prima breuis imperficet longam precedentem, Et idem intelligendum est
+        de breuibus temporis perfecti respectu semibreuium, et de semibreuium maiorum prolacionis,
+        respectu minimarum, vt hic
         [L,B,B,L,B,B,B,L,B,pt,B,L,B,S,S,B,S,pt,S,B,S,M,M,S,M,M,M,S,M,pt,M,S]. Quarta regula
         quandoque inter duas longas remanet sola breuis, perfeccione computata, tunc prima breuis
         imperficit longam precedentem, nisi per punctum aut alias impediatur et idem de semibreui
@@ -93,9 +105,9 @@
         [Lig2a,L,B,pt,Lig2a,L,Lig2cdsnod,S,Lig2cdsnod,S,pt,S,Lig2a,pt,Lig2cssnod,pt,M,Lig2cssnod,M,M].
         Sexta regula omnis nota que imperficitur imperficitur a propinquiori , exempla colliguntur,
         ex exemplis regule precedentis</p>
-      <p xml:id="BERMAN3_MLBL23220003">Septima regula quandoque inueniuntur due note, vel earum valor
-        simul sole, Ille non debent partiri [[comi]] sed simul computari, Vt colligere, ex tenore de
-        Flos uirginum [Flos virginum in marg.], et alijs cantibus</p>
+      <p xml:id="BERMAN3_MLBL23220003">Septima regula quandoque inueniuntur due note, vel earum
+        valor simul sole, Ille non debent partiri [[comi]] sed simul computari, Vt colligere, ex
+        tenore de Flos uirginum [Flos virginum in marg.], et alijs cantibus</p>
       <p xml:id="BERMAN3_MLBL23220004">Vlterius nota quandoque aliqua nota imperficitur a parte
         propinqua, vel eius valore, hoc fit racione tocius, siue quo ad totum, Si a parte remota,
         vel a partibus remotis, non tamen valentibus vnam partem propinquam, hoc fit quo ad partem
@@ -163,9 +175,9 @@
         et eciam causa necessitatis, quia aliter non potest notari in eodem genere, vnde longa, et
         breuis alteratur, ad perficiendum modum, semibreuis, et tempore, et minima ad prolacionem,
         et hec de alteracione ad presens sufficiant.</p>
-      <p xml:id="BERMAN3_MLBL23220006">SEquitur de puncto. duplex est punctus scilicet perfeccionis et
-        diuisionis. punctus perfeccionis perficit maximam, et longam in omni modo breuem in vtraque
-        tempore, et semibreuem in vtraque prolacione. Punctus diuisionis imperficit maximam
+      <p xml:id="BERMAN3_MLBL23220006">SEquitur de puncto. duplex est punctus scilicet perfeccionis
+        et diuisionis. punctus perfeccionis perficit maximam, et longam in omni modo breuem in
+        vtraque tempore, et semibreuem in vtraque prolacione. Punctus diuisionis imperficit maximam
         diuidendo longas et longam diuidendo breues, breuem diuidendo semibreues, et semibreuem
         diuidendo minimas Ex quibus inferri potest, quod triplex est perfeccio, et diuisio scilicet
         modi, temporis, et prolacionis Videndum est quomodo cognoscitur punctus perfeccionis, a
@@ -197,7 +209,8 @@
         ab imperfectum. Item .6. sunt modi quibus antiquitus solebatur in cantibus procedi. Primus
         procedit ex vna longa et ... altera breui, vt hic [L,Lig2cdsnd,Lig2cdsnd,L]. Secundus
         econuerso, vt hic [Lig2acddx,B,Lig2od,Lig2od,L] Tercius est ex vna longa, et duabus, et
-        tribus breuibus, ut hic [L,Lig3cdsndd,Lig3aod] Quartus econuerso vt hic <pb n="[f.13v]"/>[Lig3ad,Lig4aodacddx]. Quintus ex omnibus longis, vt hic [L,Lig2cdsnd,Lig2cdsnd,B]</p>
+        tribus breuibus, ut hic [L,Lig3cdsndd,Lig3aod] Quartus econuerso vt hic <pb n="[f.13v]"
+        />[Lig3ad,Lig4aodacddx]. Quintus ex omnibus longis, vt hic [L,Lig2cdsnd,Lig2cdsnd,B]</p>
       <p xml:id="BERMAN3_MLBL23220008">Sextus ex omnibus breuibus et semibreuibus, vt hic
         [Lig2cdsnod,Lig3cssnaod,Lig5cdsndodaod]. Dicunt tamen aliqui solum esse 5 modos ponentes
         quintum cum primo et sextum loco quinti</p>
@@ -227,12 +240,12 @@
         note sunt breues, vt hic [Lig4aad,Lig4ddd] nisi prima nota esset, cum proprietate, quia tunc
         secunda nota, esset cum prima pro vna breui iuxta quartam regulam vt hic
         [Lig5adodacddx,Lig4cssndaod,Lig6cssnodadaod] Et hec de ligatura sufficiant intuenti</p>
-      <p xml:id="BERMAN3_MLBL23220010">SEquitur de sincopa, Vnde syncopa, est diuisio cuiusquam figure,
-        per partes separatas, que numerando perfecciones ad inuicem reducuntur. Et potest fieri, in
-        modo, tempore, et prolacione. Si in modo aut perfecto aut imperfecto Si perfecto, tunc est
-        reperire [[est p]] breues separatas, vel valorem earum pro longa que numerando perfecciones
-        ad inuicem reducuntur. Si imperfecto duas vel longam puncto perfeccionis punctatam ad quam
-        breues aliqua reducitur separata, vt hic
+      <p xml:id="BERMAN3_MLBL23220010">SEquitur de sincopa, Vnde syncopa, est diuisio cuiusquam
+        figure, per partes separatas, que numerando perfecciones ad inuicem reducuntur. Et potest
+        fieri, in modo, tempore, et prolacione. Si in modo aut perfecto aut imperfecto Si perfecto,
+        tunc est reperire [[est p]] breues separatas, vel valorem earum pro longa que numerando
+        perfecciones ad inuicem reducuntur. Si imperfecto duas vel longam puncto perfeccionis
+        punctatam ad quam breues aliqua reducitur separata, vt hic
         [R3rvd,Lig2art,Lig3dd,pt,Lig2rcdsnd,Br,pt,Lig3raa,Lig2rcdsnod,pt,Lig3rcdsndd,pt,Lig2rcdsnd,pt,Br,Lig2cdsnd,Lig4ddacddx,pt,Lig2acddx,Lig2od].</p>
       <p xml:id="BERMAN3_MLBL23220011">Sincopa finis est tempore, vel fit in tempore perfecto, alio
         imperfecto. Si perfecto tunc est reperire 3 semibreues, pro breui perfecta vel valorem et
@@ -261,11 +274,11 @@
         parte. Nec pausa breuis temporis, neque maior, nisi prius completo tempore pro maiori parte.
         Nec pausa longe nisi completo modo pro maiori parte, Item nota quod pause non possunt
         imperfici neque alterari</p>
-      <p xml:id="BERMAN3_MLBL23220013">SEquitur de diminucione, quia sepe fit in tenoribus motetorum.
-        Circa quam notandum primo, quod pro maxima, in diminucione ponitur longa, pro longa breuis,
-        pro breui semibreuis, pro semibreui minima, Idem est de pausis</p>
-      <p xml:id="BERMAN3_MLBL23220014">Secundo notandum quando tenor, est de modo perfecto, de tempore
-        quocumque fuit diminucio eciam fit directe per medietatem notarum, et pausarum</p>
+      <p xml:id="BERMAN3_MLBL23220013">SEquitur de diminucione, quia sepe fit in tenoribus
+        motetorum. Circa quam notandum primo, quod pro maxima, in diminucione ponitur longa, pro
+        longa breuis, pro breui semibreuis, pro semibreui minima, Idem est de pausis</p>
+      <p xml:id="BERMAN3_MLBL23220014">Secundo notandum quando tenor, est de modo perfecto, de
+        tempore quocumque fuit diminucio eciam fit directe per medietatem notarum, et pausarum</p>
       <p xml:id="BERMAN3_MLBL23220015">Tercio notandum quandoque tenor est de modo perfecto, et de
         tempore imperfecto, diminucio eciam fit directe, per medietatem, vt pro longa valente, .3.
         breues, valens .3. semibreues et cetera. Quarto notandum quandoque tenor est de modo

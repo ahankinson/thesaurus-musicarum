@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De modorum formulis et cantuum qualitatibus</title>
         <title type="abbrev">GUIMOD</title>
-        <author>Guido d'Arezzo</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Guido d'Arezzo</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Firoozeh Khazrai</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1993</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1993">1993</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptorum de musica medii aevi nova series a Gerbertina altera</emph>, 4 vols., ed.
@@ -82,16 +92,16 @@
       <p xml:id="GUIMOD0006">I. De motione et vocis acumine seu gravitate.</p>
       <p xml:id="GUIMOD0007">II. De integritate et diminutione.</p>
       <p xml:id="GUIMOD0008">III. De consonantia seu neumis convenientia vocum earumdem.</p>
-      <p xml:id="GUIMOD0009">IV. De affinitatibus diversarum vocum. De proprio vel adjectivo accidenti
-        unicuique.</p>
-      <p xml:id="GUIMOD0010">V. De modorum quatuor generibus eorumque participatione cum differentibus
-        distinctionibus.</p>
+      <p xml:id="GUIMOD0009">IV. De affinitatibus diversarum vocum. De proprio vel adjectivo
+        accidenti unicuique.</p>
+      <p xml:id="GUIMOD0010">V. De modorum quatuor generibus eorumque participatione cum
+        differentibus distinctionibus.</p>
       <p xml:id="GUIMOD0011">
         <pb n="[79]"/>VI. De formulis differentiarum, et earum proprietatibus.</p>
       <p xml:id="GUIMOD0012">I.</p>
       <p xml:id="GUIMOD0013">De motione et vocis acumine seu gravitate.</p>
-      <p xml:id="GUIMOD0014">Vox est aer ictus auditu sensibilis quantum in ipso est. Omnis autem vox
-        aut est continua aut divisa. Continua est ubi sic se vocem sequitur ordo, ut unius finis
+      <p xml:id="GUIMOD0014">Vox est aer ictus auditu sensibilis quantum in ipso est. Omnis autem
+        vox aut est continua aut divisa. Continua est ubi sic se vocem sequitur ordo, ut unius finis
         alteriusque principium discerni facile non possit; sicut fit cum in celesti arcu colorum
         spectamus habitudines. Sic enim rubeus cernitur ut tamen ejus initium vel finis comprehendi
         non valeat; sic et in reliquis. Divisa vero que singillatim profertur. Nulla vox fit, nisi
@@ -105,13 +115,14 @@
         vocis, quem et tempus grammatici in syllabis brevibus et longioribus superscribunt.</p>
       <p xml:id="GUIMOD0015">II.</p>
       <p xml:id="GUIMOD0016">De integritate et diminutione.</p>
-      <p xml:id="GUIMOD0017">Ex supradictis autem motibus alii existunt integri, id est qui monochordum
-        regulariter partiuntur, ut tonus et reliqui. Alii autem ab integritate deficiunt qui
-        monochordum equis ponderibus dividi nequeunt, ut semiditonus. Tonus ergo integra dimensio
-        est, quia per sequioctavam proportionem regularis monochordi partitionem assequitur;
-        diatessaron vero per sesquitertiam; diapente autem per sesquialteram. Quapropter tonus omnis
-        fit novenis passibus, diatessaron quaternis, diapente vero ternis. Diapason autem ubique fit
-        duobus passibus, cum et vicissim sibi in consonantiarum partibus succedunt.</p>
+      <p xml:id="GUIMOD0017">Ex supradictis autem motibus alii existunt integri, id est qui
+        monochordum regulariter partiuntur, ut tonus et reliqui. Alii autem ab integritate deficiunt
+        qui monochordum equis ponderibus dividi nequeunt, ut semiditonus. Tonus ergo integra
+        dimensio est, quia per sequioctavam proportionem regularis monochordi partitionem
+        assequitur; diatessaron vero per sesquitertiam; diapente autem per sesquialteram. Quapropter
+        tonus omnis fit novenis passibus, diatessaron quaternis, diapente vero ternis. Diapason
+        autem ubique fit duobus passibus, cum et vicissim sibi in consonantiarum partibus
+        succedunt.</p>
       <p xml:id="GUIMOD0018">III.</p>
       <p xml:id="GUIMOD0019">De consonantia seu neumis convenientia vocum earumdem.</p>
       <p xml:id="GUIMOD0020">Omnis autem cantilena septem dissimilibus vocibus perficitur, ex quibus
@@ -147,32 +158,32 @@
       <p xml:id="GUIMOD0025">V.</p>
       <p xml:id="GUIMOD0026">De modorum quatuor generibus eorumque participatione cum differentibus
         distinctionibus.</p>
-      <p xml:id="GUIMOD0027">Sunt autem modi vocum quatuor, id est, protus, deuterus, tritus, tetrardus;
-        qui et totidem subjugales habent. Et principales quidem autentos dicimus, subjugales plagas
-        nominamus. Eorum differentia talis est: cum quilibet cantus octo vocibus ascendat, descendat
-        vero quinque, atque inter omnes sint duodecim, una ex his bis annumerata graves; omnes cum
-        aliquanta parte acutarum plagis attribuuntur. Porro autentis cuncte acute cum aliquantis
-        gravium conveniunt. Notatoque quod sint tres vocum ordines, id est graves, medie et acute;
-        ex quibus medie semper annectuntur utrisque; acute autem conveniunt authentis et graves
-        plagibus; et sic semper tres ex ambabus partibus utrorumque sunt proprie. Differentiarum
-        autem modorum horum formule secundum principia cantuum disposite sunt; ut quemadmodum
-        finalis vox aliquem proprium modum metitur, sic et rationabiliter principia eorumdem cantuum
-        aptiores sibi formulas coaptent, quatenus sit pulchra connexio que secundum proprios in
-        unaquaque dirigatur motus. Quos motus nempe diximus fore sex, qui, dum tribus applicantur
-        adherectionibus, in unoquoque modo diversas et ampliores et in quibusdam districtiores
-        formulas efficiunt, secundum quod unicuique motiones cum adherectionibus adjungere possunt.
-        Nec aliquis modorum ampliores permittitur habere formulas nisi que ex ipso regulariter
-        generari poterint; ut sicut cautela permaxima in vocum modulis, dum qualitatibus et
-        quantitatibus excreverint.</p>
-      <p xml:id="GUIMOD0028">Quocirca musicus motus continet qualitatem et quantitatem. Quod si desierit
-        qualitatem quantitatemve motus habere, jam non musicus motus erit. Qualitas autem motus est,
-        utrum sit protus vel deuterus aut quilibet alius motus. Quantitas autem utrumnam sit duplus,
-        sesquialter aut sesquitertius. Igitur qualitas in modorum speciebus, quantitas in
-        magnitudine prescribitur motuum. Preterea et modorum diverse species non minima prepollent
-        quantitate seu qualitate, dum unus in modum historie recto et tranquillo feratur cursu.
-        Alter vero anfractis saltibus concinatur. Alius videatur garrulus, et sevus in sublime
-        extollens audientium animos. Alter vero placidus letitiamque indicans morum. Quod cuique
-        prudenti satis patebit, curare si studuerit.</p>
+      <p xml:id="GUIMOD0027">Sunt autem modi vocum quatuor, id est, protus, deuterus, tritus,
+        tetrardus; qui et totidem subjugales habent. Et principales quidem autentos dicimus,
+        subjugales plagas nominamus. Eorum differentia talis est: cum quilibet cantus octo vocibus
+        ascendat, descendat vero quinque, atque inter omnes sint duodecim, una ex his bis annumerata
+        graves; omnes cum aliquanta parte acutarum plagis attribuuntur. Porro autentis cuncte acute
+        cum aliquantis gravium conveniunt. Notatoque quod sint tres vocum ordines, id est graves,
+        medie et acute; ex quibus medie semper annectuntur utrisque; acute autem conveniunt
+        authentis et graves plagibus; et sic semper tres ex ambabus partibus utrorumque sunt
+        proprie. Differentiarum autem modorum horum formule secundum principia cantuum disposite
+        sunt; ut quemadmodum finalis vox aliquem proprium modum metitur, sic et rationabiliter
+        principia eorumdem cantuum aptiores sibi formulas coaptent, quatenus sit pulchra connexio
+        que secundum proprios in unaquaque dirigatur motus. Quos motus nempe diximus fore sex, qui,
+        dum tribus applicantur adherectionibus, in unoquoque modo diversas et ampliores et in
+        quibusdam districtiores formulas efficiunt, secundum quod unicuique motiones cum
+        adherectionibus adjungere possunt. Nec aliquis modorum ampliores permittitur habere formulas
+        nisi que ex ipso regulariter generari poterint; ut sicut cautela permaxima in vocum modulis,
+        dum qualitatibus et quantitatibus excreverint.</p>
+      <p xml:id="GUIMOD0028">Quocirca musicus motus continet qualitatem et quantitatem. Quod si
+        desierit qualitatem quantitatemve motus habere, jam non musicus motus erit. Qualitas autem
+        motus est, utrum sit protus vel deuterus aut quilibet alius motus. Quantitas autem utrumnam
+        sit duplus, sesquialter aut sesquitertius. Igitur qualitas in modorum speciebus, quantitas
+        in magnitudine prescribitur motuum. Preterea et modorum diverse species non minima
+        prepollent quantitate seu qualitate, dum unus in modum historie recto et tranquillo feratur
+        cursu. Alter vero anfractis saltibus concinatur. Alius videatur garrulus, et sevus in
+        sublime extollens audientium animos. Alter vero placidus letitiamque indicans morum. Quod
+        cuique prudenti satis patebit, curare si studuerit.</p>
       <p xml:id="GUIMOD0029">VI.</p>
       <p xml:id="GUIMOD0030">De formulis differentiarum, et earum proprietatibus.</p>
       <p xml:id="GUIMOD0031">Diversas autem habent formulas singuli modorum <pb n="[81]"/>quas
@@ -181,10 +192,10 @@
         quantitate singuli procreantur motus. Vox autem fit preposita, apposita et supposita. Que,
         dum simul permixte fuerint, regulares et probatissimas in unoquoque modo conferent formulas.
         Quod ut facilius pateat, figuram subjecimus quo facilior per oculos via sit.</p>
-      <p xml:id="GUIMOD0032">[Igitur quia, ut dictum est, ejusdem conditionis quatuor et quatuor natura
-        statiut, ita et note pene sunt eedem; solummodo tetracordorum differentia variorum versis
-        caracteribus indicatur. Primus finalis seu terminalis [signum], dasian inclinum S, ad caput,
-        ita: [signum].</p>
+      <p xml:id="GUIMOD0032">[Igitur quia, ut dictum est, ejusdem conditionis quatuor et quatuor
+        natura statiut, ita et note pene sunt eedem; solummodo tetracordorum differentia variorum
+        versis caracteribus indicatur. Primus finalis seu terminalis [signum], dasian inclinum S, ad
+        caput, ita: [signum].</p>
       <p xml:id="GUIMOD0033">Secundus finalis, C, versum ad caput, ita: [signum].</p>
       <p xml:id="GUIMOD0034">Tertius finalis I iota simplex et inclinum, ita: [signum].</p>
       <p xml:id="GUIMOD0035">Quartus finalis C demidium ad caput, ita: [signum].</p>
@@ -193,8 +204,8 @@
       <p xml:id="GUIMOD0038">Excellentes demissi graves, ita: [signa].</p>
       <p xml:id="GUIMOD0039">Incipit de modorum formulis et cantuum qualitatibus.</p>
       <p xml:id="GUIMOD0040">Capitulum I.</p>
-      <p xml:id="GUIMOD0041">Igitur protus decem habet regulares formulas, id est, sex prepositivas et
-        tres appositivas et unam suppositivam. Et he quidem, que prepositive sunt, fiunt tono,
+      <p xml:id="GUIMOD0041">Igitur protus decem habet regulares formulas, id est, sex prepositivas
+        et tres appositivas et unam suppositivam. Et he quidem, que prepositive sunt, fiunt tono,
         ditono, semiditono, vel triemitonio et diapente. Appositive autem sunt que in eadem voce
         quam formula finitur, antiphone principium ponitur. Et he quidem duobus modis fiunt, id est
         aliquando in prima voce, id est ea que finem terminat; interdum in affinibus, in his
@@ -205,15 +216,15 @@
         formulas, libet intueri uberius quibus distinctionibus utreque discerni valeant, cum una ex
         eis sit autentica, altera plagalis; ut secundum quod in proto definitum fuerit, teneatur et
         in reliquis.</p>
-      <p xml:id="GUIMOD0043">Formulas igitur autenti proti quinto loco a finali voce disponimus quod et
-        in reliquis authentis similiter facimus.</p>
-      <p xml:id="GUIMOD0044">Formulas autem ejusdem plage tertio a finali voce constituimus. Hinc itaque
-        constituendum ut in plagis distinctionum fines vel principia nullo modo super formulas sibi
-        attributas ponantur. Quod si evenerit mox in autenti transit potestatem, quia solis autentis
-        licet intendere fines principiave distinctionum ad quintam. Et quemadmodum illicitum est
-        plagis super proprias formulas distinctionum summam intendere; ita et autentis non est
-        opportunum summam eorumdem plagarum vim transferuntur. Sicque singuli propriam amittunt vim,
-        dum alterius nituntur assumere gradum.</p>
+      <p xml:id="GUIMOD0043">Formulas igitur autenti proti quinto loco a finali voce disponimus quod
+        et in reliquis authentis similiter facimus.</p>
+      <p xml:id="GUIMOD0044">Formulas autem ejusdem plage tertio a finali voce constituimus. Hinc
+        itaque constituendum ut in plagis distinctionum fines vel principia nullo modo super
+        formulas sibi attributas ponantur. Quod si evenerit mox in autenti transit potestatem, quia
+        solis autentis licet intendere fines principiave distinctionum ad quintam. Et quemadmodum
+        illicitum est plagis super proprias formulas distinctionum summam intendere; ita et autentis
+        non est opportunum summam eorumdem plagarum vim transferuntur. Sicque singuli propriam
+        amittunt vim, dum alterius nituntur assumere gradum.</p>
       <p xml:id="GUIMOD0045">Incipit prima pars primi modi.</p>
       <p xml:id="GUIMOD0046">Protus adest, denis formarum nexus habenis.</p>
       <p xml:id="GUIMOD0047">Que modum nectunt autentum undique totum:</p>
@@ -297,8 +308,8 @@
       <p xml:id="GUIMOD0123">Cum ejecisset.</p>
       <p xml:id="GUIMOD0124">Iste est Johannes.</p>
       <p xml:id="GUIMOD0125">Appropinquabat.</p>
-      <p xml:id="GUIMOD0126">Et hec subsequens nihil distat a precedente, neque ampliorem tenorem ejus
-        distinctio in finem retinet, et hoc brevior est.</p>
+      <p xml:id="GUIMOD0126">Et hec subsequens nihil distat a precedente, neque ampliorem tenorem
+        ejus distinctio in finem retinet, et hoc brevior est.</p>
       <p xml:id="GUIMOD0127">Erunt prava.</p>
       <p xml:id="GUIMOD0128">Dies Domini.</p>
       <p xml:id="GUIMOD0129">Quid hic statis.</p>
@@ -419,13 +430,13 @@
       <p xml:id="GUIMOD0237">Explicit prima pars primi modi.</p>
       <p xml:id="GUIMOD0238">Capitulum II.</p>
       <p xml:id="GUIMOD0239">Secunda pars ejusdem modi incipit.</p>
-      <p xml:id="GUIMOD0240">Superscriptus autem protus in voce quarta apud quosdam agitur cum omnibus
-        formulis sibi assignatis. Quoniam autem C litteram, que apud veteres tertia habebatur, pro
-        certo comperimus ex numerorum ratione fore primam; idcirco hunc protum in D, id est secunda
-        littera, cum omnibus formulis assignatis disposuimus. Noluimus autem vocum modum in litteris
-        mutare, ne error minus capacibus fieret permaximus. Hoc tantum studuimus ut ea vox, que,
-        secundum numerorum rationem, prima erat, loco primo poneremus, et in monocordo prima
-        affigeretur, servata sibi antiquitatis forma et specie.</p>
+      <p xml:id="GUIMOD0240">Superscriptus autem protus in voce quarta apud quosdam agitur cum
+        omnibus formulis sibi assignatis. Quoniam autem C litteram, que apud veteres tertia
+        habebatur, pro certo comperimus ex numerorum ratione fore primam; idcirco hunc protum in D,
+        id est secunda littera, cum omnibus formulis assignatis disposuimus. Noluimus autem vocum
+        modum in litteris mutare, ne error minus capacibus fieret permaximus. Hoc tantum studuimus
+        ut ea vox, que, secundum numerorum rationem, prima erat, loco primo poneremus, et in
+        monocordo prima affigeretur, servata sibi antiquitatis forma et specie.</p>
       <p xml:id="GUIMOD0241">Quoniam vero protum in secunda et sexta diximus esse voce differentem,
         tamen libet antiphonas, cum propriis formulis, iterum in autentum protum intexere eas
         solummodo que, penitus motuum positione recedunt a proto jam superius relato. Nec videatur
@@ -443,8 +454,8 @@
       <p xml:id="GUIMOD0251">[CSII:85,4; text: Gloria seculorum amen.]</p>
       <p xml:id="GUIMOD0252">
         <pb n="[86]"/>[CSII:86,1; text: Hodie Christus natus est.]</p>
-      <p xml:id="GUIMOD0253">Quod si istas tres differentias nolueris sic cecinere, exemplo retrolatorum
-        dicere potes, nihilque nocet.</p>
+      <p xml:id="GUIMOD0253">Quod si istas tres differentias nolueris sic cecinere, exemplo
+        retrolatorum dicere potes, nihilque nocet.</p>
       <p xml:id="GUIMOD0254">In Introitibus.</p>
       <p xml:id="GUIMOD0255">I</p>
       <p xml:id="GUIMOD0256">[CSII:86,2; text: Gloria seculorum amen. Memento nostri.]</p>
@@ -469,12 +480,12 @@
       <p xml:id="GUIMOD0275">Ego autem in justitia.</p>
       <p xml:id="GUIMOD0276">Ego autem in Domino.</p>
       <p xml:id="GUIMOD0277">Lex Domini nostri.</p>
-      <p xml:id="GUIMOD0278">Iste introitus duorum modorum videtur esse; id est autenti proti et autenti
-        triti et in quantum videre possumus. Rectius esse potest autenti triti quam proti, sed quia
-        culpabimur veterum fore argumentatores, in singulis modis quod proprium habeat dicamus. In
-        proto nullam proprietatem retinet aliam, nisi quod omnes suas distinctiones infra ipsius
-        terminos coarctatur. Si ergo proti eam vis facere, erit ex supraposita differentia et
-        terminabitur, sic:</p>
+      <p xml:id="GUIMOD0278">Iste introitus duorum modorum videtur esse; id est autenti proti et
+        autenti triti et in quantum videre possumus. Rectius esse potest autenti triti quam proti,
+        sed quia culpabimur veterum fore argumentatores, in singulis modis quod proprium habeat
+        dicamus. In proto nullam proprietatem retinet aliam, nisi quod omnes suas distinctiones
+        infra ipsius terminos coarctatur. Si ergo proti eam vis facere, erit ex supraposita
+        differentia et terminabitur, sic:</p>
       <p xml:id="GUIMOD0279">[CSII:86,5; text: Sapientiam praestans parvulis.]</p>
       <p xml:id="GUIMOD0280">Meditatio cordis.</p>
       <p xml:id="GUIMOD0281">Sapientiam sanctorum.</p>
@@ -493,7 +504,8 @@
         </figure></p>
       <p xml:id="GUIMOD0292">In Communionibus.</p>
       <p xml:id="GUIMOD0293">I</p>
-      <p xml:id="GUIMOD0294">[CSII:87,2; text: Gloria seculorum amen. Dominus dabit benignitatem.]</p>
+      <p xml:id="GUIMOD0294">[CSII:87,2; text: Gloria seculorum amen. Dominus dabit
+        benignitatem.]</p>
       <p xml:id="GUIMOD0295">Data est mihi omnis potestas.</p>
       <p xml:id="GUIMOD0296">Cantate Domino alleluia.</p>
       <p xml:id="GUIMOD0297">Ecce virgo concipiet.</p>
@@ -514,23 +526,23 @@
       <p xml:id="GUIMOD0312">[CSII:87,3; text: Gloria seculorum amen. Ego vos elegi.]</p>
       <p xml:id="GUIMOD0313">Notas mihi fecisti.</p>
       <p xml:id="GUIMOD0314">Amen dico vobis.</p>
-      <p xml:id="GUIMOD0315">[CSII:87,4; text: Civitas Jerusalem. Ecce dominator. Gloria patri et filio
-        et spiritui sancto. Sicut erat in principio et nunc et semper et in secula seculorum
+      <p xml:id="GUIMOD0315">[CSII:87,4; text: Civitas Jerusalem. Ecce dominator. Gloria patri et
+        filio et spiritui sancto. Sicut erat in principio et nunc et semper et in secula seculorum
         amen.]</p>
       <p xml:id="GUIMOD0316">Finit modus primus.</p>
       <p xml:id="GUIMOD0317">Capitulum III.</p>
       <p xml:id="GUIMOD0318">Incipit modus secundus.</p>
-      <p xml:id="GUIMOD0319">Qui grece dicitur plagis proti, id est, pars primi. Nam in ea voce finitur
-        in qua et primus; <pb n="[88]"/>nihilque ab eo differt, nisi quod graviores et minus acutas
-        antiphonas recipit.</p>
+      <p xml:id="GUIMOD0319">Qui grece dicitur plagis proti, id est, pars primi. Nam in ea voce
+        finitur in qua et primus; <pb n="[88]"/>nihilque ab eo differt, nisi quod graviores et minus
+        acutas antiphonas recipit.</p>
       <p xml:id="GUIMOD0320">Plagarum tropi sociantur rite secundi.</p>
       <p xml:id="GUIMOD0321">Autenti formas retinent, semperque minores;</p>
       <p xml:id="GUIMOD0322">In quibus et proti primum contexere plagin</p>
       <p xml:id="GUIMOD0323">Libuit, ut recto succedant tramite cuncti.</p>
       <p xml:id="GUIMOD0324">Ardua hic spernit, media et graviora resumit,</p>
       <p xml:id="GUIMOD0325">Et se per duplas patitur constringere formas.</p>
-      <p xml:id="GUIMOD0326">[CSII:88; text: Secundum autem simile est huic. Gloria seculorum amen. De
-        Sion exibit.]</p>
+      <p xml:id="GUIMOD0326">[CSII:88; text: Secundum autem simile est huic. Gloria seculorum amen.
+        De Sion exibit.]</p>
       <p xml:id="GUIMOD0327">Ecce in nubibus.</p>
       <p xml:id="GUIMOD0328">Levabit Dominus.</p>
       <p xml:id="GUIMOD0329">Juste et pie.</p>
@@ -624,14 +636,15 @@
       <p xml:id="GUIMOD0414">Mense septimo.</p>
       <p xml:id="GUIMOD0415">Responsorium Letentur celi et exultet.</p>
       <p xml:id="GUIMOD0416">Orietur in diebus.</p>
-      <p xml:id="GUIMOD0417">[CSII:89,4; text: Gloria patri et filio et spiritui sancto. Sicut erat in
-        principio et nunc et semper et in secula seculorum amen.]</p>
-      <p xml:id="GUIMOD0418">Hic adnotandum est quod, secundum quosdam diligentius perspicientes, multe
-        antiphone quarti modi, maximeque omnes que in duabus formulis subscribuntur, a multis
+      <p xml:id="GUIMOD0417">[CSII:89,4; text: Gloria patri et filio et spiritui sancto. Sicut erat
+        in principio et nunc et semper et in secula seculorum amen.]</p>
+      <p xml:id="GUIMOD0418">Hic adnotandum est quod, secundum quosdam diligentius perspicientes,
+        multe antiphone quarti modi, maximeque omnes que in duabus formulis subscribuntur, a multis
         pronuntiantur in voce prima. Que vox, quamvis deponatur duobus tonis ad similitudinem quarti
         modi, tamen propter elevationem videtur esse secundi modi, quia supradicte antiphone habent
         duos tonos in depositione et rursus tonum et semitonium in elevatione, quod proprium est
-        primi modi prime vocis. Unde a quibusdam inter symphonias prime vocis annumerate <pb n="[90]"/>sunt. Sed si modorum omnium qualitas intueatur et placet istas symphonias sub
+        primi modi prime vocis. Unde a quibusdam inter symphonias prime vocis annumerate <pb
+          n="[90]"/>sunt. Sed si modorum omnium qualitas intueatur et placet istas symphonias sub
         eadem regula constringi, magis pertinent ad tetrardum autentum quam plage deuteri vel proti.
         Certissime enim constat quod deuterus semitonio et non tono elevatur cum iste per tonum ac
         semitonium elevatur. Secundus modus pronuntiatus ergo a cantoribus erit primi modi prime
@@ -643,8 +656,8 @@
         Notandum quoque est quia hi qui eam pronuntiant de plaga deuteri recipiunt in ipsam
         symphoniam juxta primam vocem duas diversas voculas, quod quia sit absurdum, nullus qui
         naturam vocum cognoscit ignorare poterit.</p>
-      <p xml:id="GUIMOD0419">Igitur quemadmodum in proto autentico duas discretas facies depinximus et
-        secundum quod in ipso deffinivimus in ceteris autentis convenire diximus sic et in plagis
+      <p xml:id="GUIMOD0419">Igitur quemadmodum in proto autentico duas discretas facies depinximus
+        et secundum quod in ipso deffinivimus in ceteris autentis convenire diximus sic et in plagis
         diversas et annumeratas distinximus partes. Habebit autem et plagis proti duas dissimiles
         fines id est, finales voces ex quibus prima descripta est nunc posterior subcribitur.</p>
       <p xml:id="GUIMOD0420">Currere qui cupis, ambobus gressibus ito.</p>
@@ -674,12 +687,12 @@
         annomales esse videntur, ex quibus alie videntur plage tetrardi, alie vero plage triti.
         Ratione ergo non modica hic opus est, ut possint rectissime queque antiphone propriis aptare
         modis autentis aut plagis, nec alio permutentur.</p>
-      <p xml:id="GUIMOD0441">Iste autem modus non adeo aliorum autenticam servat regulam; cum enim alii
-        quinque habeant formulas iste insuper sex: unde et fines vel etiam principia distinctionem
-        in sexto a se gradu constituuntur.</p>
-      <p xml:id="GUIMOD0442">Quod non autoritate, sed ex necessitate habet: erat enim nimis difficile
-        tres continuos tonos sine semitonio exprimere; idcirco postposita regulari vocum connexione
-        necessitas est secuta.</p>
+      <p xml:id="GUIMOD0441">Iste autem modus non adeo aliorum autenticam servat regulam; cum enim
+        alii quinque habeant formulas iste insuper sex: unde et fines vel etiam principia
+        distinctionem in sexto a se gradu constituuntur.</p>
+      <p xml:id="GUIMOD0442">Quod non autoritate, sed ex necessitate habet: erat enim nimis
+        difficile tres continuos tonos sine semitonio exprimere; idcirco postposita regulari vocum
+        connexione necessitas est secuta.</p>
       <p xml:id="GUIMOD0443">
         <pb n="[91]"/>Phrygius modus est protus hypolydius deuterus estque</p>
       <p xml:id="GUIMOD0444">Hic aliter modus nescit distinguere vocum</p>
@@ -693,8 +706,8 @@
       <p xml:id="GUIMOD0452">Salva nos Christe.</p>
       <p xml:id="GUIMOD0453">Nemo te condemnavit.</p>
       <p xml:id="GUIMOD0454">Nemo tollit.</p>
-      <p xml:id="GUIMOD0455">Quecumque ergo simile principium habuerint in hac aptabuntur formula; sed
-        hec eadem formula obtinet alium principium. Que in his quidem, que premisse sunt, est
+      <p xml:id="GUIMOD0455">Quecumque ergo simile principium habuerint in hac aptabuntur formula;
+        sed hec eadem formula obtinet alium principium. Que in his quidem, que premisse sunt, est
         preposita per ditonum; in his autem, que sequuntur, supposita per semitonium, ut pote:</p>
       <p xml:id="GUIMOD0456">Inter natos.</p>
       <p xml:id="GUIMOD0457">Sic eum volo.</p>
@@ -733,8 +746,8 @@
       <p xml:id="GUIMOD0489">Domine patior.</p>
       <p xml:id="GUIMOD0490">Jerusalem, Jerusalem.</p>
       <p xml:id="GUIMOD0491">Tu Bethleem.</p>
-      <p xml:id="GUIMOD0492">Sunt preterea plurime antiphonarum que hujus videntur formule, cum sint ex
-        autento proto et prima voce; sic est: Pulchra es, et inter quas quidam autenti deuteri
+      <p xml:id="GUIMOD0492">Sunt preterea plurime antiphonarum que hujus videntur formule, cum sint
+        ex autento proto et prima voce; sic est: Pulchra es, et inter quas quidam autenti deuteri
         faciunt, non bene tonorum semitoniorumque positionem intuentes: vel idcirco eas deuteri
         faciunt quidam quibusdam D, E, F et G finales constitute in omnibus omnino modis vel vocum
         tropis indifferenter et improvide sint.</p>
@@ -779,8 +792,8 @@
       <p xml:id="GUIMOD0529">Ecce oculi Domini.</p>
       <p xml:id="GUIMOD0530">Repleatur os meum.</p>
       <p xml:id="GUIMOD0531">Cognovi Domine quia.</p>
-      <p xml:id="GUIMOD0532">In hac enim regule formula deveniunt alii introitus qui parum perabsimiles
-        sunt ut est:</p>
+      <p xml:id="GUIMOD0532">In hac enim regule formula deveniunt alii introitus qui parum
+        perabsimiles sunt ut est:</p>
       <p xml:id="GUIMOD0533">
         <pb n="[93]"/>Confessio et pulchritudo.</p>
       <p xml:id="GUIMOD0534">Dum sanctificatus fuero.</p>
@@ -800,8 +813,8 @@
       <p xml:id="GUIMOD0548">Tu Domine servabis.</p>
       <p xml:id="GUIMOD0549">Responsorium Audite verbum Domini.</p>
       <p xml:id="GUIMOD0550">Versus Annuntiate et auditum.</p>
-      <p xml:id="GUIMOD0551">[CSII:93,3; text: Gloria patri et filio et spiritui sancto sicut erat in
-        principio et nunc et semper et in secula seculorum amen.]</p>
+      <p xml:id="GUIMOD0551">[CSII:93,3; text: Gloria patri et filio et spiritui sancto sicut erat
+        in principio et nunc et semper et in secula seculorum amen.]</p>
       <p xml:id="GUIMOD0552">Hic notandum est quod tertius modus maluit contra omnem usum et regulam
         incipere suam differentiam in superiori sexta a suo fine quam in quinta, quia vox secunda
         que super ejus finem est quinta, quamvis ipsi fini possit convenire, discordabat tamen a
@@ -812,9 +825,9 @@
       <p xml:id="GUIMOD0553">Explicit deuterus authenti.</p>
       <p xml:id="GUIMOD0554">Capitulum V.</p>
       <p xml:id="GUIMOD0555">Deuterus plagis ejus incipit.</p>
-      <p xml:id="GUIMOD0556">Deuterus perstrictus in quinis formulis subinde texatur ipsius plaga que
-        quondam apud quosdam novenis constitutionibus habitudines suorum instituerat melorum. Nunc
-        autem abstractis tribus que proti et tetrardi erant, applicitas sibi sufficere possunt
+      <p xml:id="GUIMOD0556">Deuterus perstrictus in quinis formulis subinde texatur ipsius plaga
+        que quondam apud quosdam novenis constitutionibus habitudines suorum instituerat melorum.
+        Nunc autem abstractis tribus que proti et tetrardi erant, applicitas sibi sufficere possunt
         senas; detractas autem propriis autentis reddimus quo cuncta suis melius concinant melis.
         Differentie deuteri plage proprie sunt ea que habent antiphonas.</p>
       <p xml:id="GUIMOD0557">
@@ -961,8 +974,8 @@
       <p xml:id="GUIMOD0677">Pater cum essem cum eis.</p>
       <p xml:id="GUIMOD0678">Responsorium Petre, amas me.</p>
       <p xml:id="GUIMOD0679">Versus Symon Joannis.</p>
-      <p xml:id="GUIMOD0680">[CSII:97,1; text: Gloria patri et filio et spiritui sancto sicut erat in
-        principio et nunc et semper et in secula seculorum amen.]</p>
+      <p xml:id="GUIMOD0680">[CSII:97,1; text: Gloria patri et filio et spiritui sancto sicut erat
+        in principio et nunc et semper et in secula seculorum amen.]</p>
       <p xml:id="GUIMOD0681">Explicit plagis deuteri.</p>
       <p xml:id="GUIMOD0682">Capitulum VI.</p>
       <p xml:id="GUIMOD0683">Incipit authentus tritus.</p>
@@ -979,9 +992,9 @@
       <p xml:id="GUIMOD0687">Hic monstrat ceteros super signacula notos</p>
       <p xml:id="GUIMOD0688">Deuterum et protum subscripto ordine primum</p>
       <p xml:id="GUIMOD0689">Claviger ac fortis reserat sic ostia vocis.</p>
-      <p xml:id="GUIMOD0690">Nota quod finis quinti modi noviter emendatus est ad proprietatem ejusdem
-        toni, quia ille finis qui in usu erat non poterat esse hujus toni, nisi finiretur voce
-        tertia. Quod si fieret, quantum ad elevationem pertinet, nulla differentia esset inter
+      <p xml:id="GUIMOD0690">Nota quod finis quinti modi noviter emendatus est ad proprietatem
+        ejusdem toni, quia ille finis qui in usu erat non poterat esse hujus toni, nisi finiretur
+        voce tertia. Quod si fieret, quantum ad elevationem pertinet, nulla differentia esset inter
         autento tetrardo et trito.</p>
       <p xml:id="GUIMOD0691">[CSII:97,2; text: Quinque prudentes intraverunt ad nuptias.]</p>
       <p xml:id="GUIMOD0692">I</p>
@@ -1122,21 +1135,21 @@
       <p xml:id="GUIMOD0805">Honora Dominum.</p>
       <p xml:id="GUIMOD0806">Dixit Andreas.</p>
       <p xml:id="GUIMOD0807">Circuibo et immolabo.</p>
-      <p xml:id="GUIMOD0808">Iste due communiones, que sequuntur, id est Panem de celo et Anima nostra
-        proprie sunt de quinto tono et de secunda differentia.</p>
-      <p xml:id="GUIMOD0809">Preter hos cantus qui subter descripti sunt, qui esse possunt in ea voce
-        que duobus intenditur tonis, et remittur semitonio et duobus tonis vel etiam tribus, sunt
-        alii perplures qui esse non possunt, <pb n="[101]"/>nisi in ea voce que elevatur per duos
-        tonos et deponitur tono et semitonio, ut est G. Quod cum venerit multis erit inpromtum utrum
-        autento deutero an plage tetrardi seu triti conferantur. Prudentia autem in brevi plura
-        patebit.</p>
+      <p xml:id="GUIMOD0808">Iste due communiones, que sequuntur, id est Panem de celo et Anima
+        nostra proprie sunt de quinto tono et de secunda differentia.</p>
+      <p xml:id="GUIMOD0809">Preter hos cantus qui subter descripti sunt, qui esse possunt in ea
+        voce que duobus intenditur tonis, et remittur semitonio et duobus tonis vel etiam tribus,
+        sunt alii perplures qui esse non possunt, <pb n="[101]"/>nisi in ea voce que elevatur per
+        duos tonos et deponitur tono et semitonio, ut est G. Quod cum venerit multis erit inpromtum
+        utrum autento deutero an plage tetrardi seu triti conferantur. Prudentia autem in brevi
+        plura patebit.</p>
       <p xml:id="GUIMOD0810">Responsorium Aspiciebam. Potestas ejus.</p>
       <p xml:id="GUIMOD0811">[CSII:101; text: Gloria patri et filio et spiritui sancto sicut erat in
         principio et nunc et semper et in secula seculorum amen.] <figure>
           <graphic url="/images/GUIMOD_08GF.gif"/>
         </figure></p>
-      <p xml:id="GUIMOD0812">Multa responsoria sunt ex isto modo quo magis finiuntur in tetrardo quam in
-        trito, sicut est: Ego sum id quod sum.</p>
+      <p xml:id="GUIMOD0812">Multa responsoria sunt ex isto modo quo magis finiuntur in tetrardo
+        quam in trito, sicut est: Ego sum id quod sum.</p>
       <p xml:id="GUIMOD0813">Pars tertia plagarum explicit.</p>
       <p xml:id="GUIMOD0814">Capitulum IX.</p>
       <p xml:id="GUIMOD0815">Tetrardus authentus incipit.</p>
@@ -1168,9 +1181,10 @@
       <p xml:id="GUIMOD0822">Laudem dicite.</p>
       <p xml:id="GUIMOD0823">Accipite spiritum.</p>
       <p xml:id="GUIMOD0824">Quomodo fiet.</p>
-      <p xml:id="GUIMOD0825">Predictas autem antiphonas non in propriis differentiis disposuimus, sed
-        ostendimus cujus vobis sint, et quomodo earum psalmi a ceterarum antiphonarum psalmo ejusdem
-        modi discordent. Inter alias autem antiphonas in differentiis propriis subscribuntur.</p>
+      <p xml:id="GUIMOD0825">Predictas autem antiphonas non in propriis differentiis disposuimus,
+        sed ostendimus cujus vobis sint, et quomodo earum psalmi a ceterarum antiphonarum psalmo
+        ejusdem modi discordent. Inter alias autem antiphonas in differentiis propriis
+        subscribuntur.</p>
       <p xml:id="GUIMOD0826">Ultimus autentus tetrardus grece vocatur</p>
       <p xml:id="GUIMOD0827">Corpore detractas in cujus reddere formas</p>
       <p xml:id="GUIMOD0828">Perplacuit certis, valeant quo ciere phtongis</p>
@@ -1210,8 +1224,8 @@
         <pb n="[103]"/>Beata Cecilia.</p>
       <p xml:id="GUIMOD0862">Et erexi Jacob.</p>
       <p xml:id="GUIMOD0863">Erumpant montes.</p>
-      <p xml:id="GUIMOD0864">Sunt quidam qui ex principio harum antiphonarum aliam colligere nituntur
-        differentiam, sed hec mihi inutiliter fore videtur. Sunt autem he et hec earum
+      <p xml:id="GUIMOD0864">Sunt quidam qui ex principio harum antiphonarum aliam colligere
+        nituntur differentiam, sed hec mihi inutiliter fore videtur. Sunt autem he et hec earum
         differentia.</p>
       <p xml:id="GUIMOD0865">II</p>
       <p xml:id="GUIMOD0866">[CSII:103,1; text: Gloria seculorum amen.]</p>
@@ -1359,9 +1373,9 @@
       <p xml:id="GUIMOD1003">Elevata est.</p>
       <p xml:id="GUIMOD1004">Posuisti domine.</p>
       <p xml:id="GUIMOD1005">Hic accipiet.</p>
-      <p xml:id="GUIMOD1006">Iste due differentie que sunt in finem hujus modi ipsius sunt cum subjectis
-        antiphonis, sed vitiose hactenus dicte sunt propter errorem finis antiphonarum; in quarto
-        tono, nunc autem sic eorum finis dicendus est:</p>
+      <p xml:id="GUIMOD1006">Iste due differentie que sunt in finem hujus modi ipsius sunt cum
+        subjectis antiphonis, sed vitiose hactenus dicte sunt propter errorem finis antiphonarum; in
+        quarto tono, nunc autem sic eorum finis dicendus est:</p>
       <p xml:id="GUIMOD1007">[CSII:105,3; text: Dei genitrix intercede pro nobis.]</p>
       <p xml:id="GUIMOD1008">In Introitibus.</p>
       <p xml:id="GUIMOD1009">I</p>
@@ -1399,8 +1413,8 @@
       <p xml:id="GUIMOD1040">Qui memini.</p>
       <p xml:id="GUIMOD1041">Responsorium Aspiciens a longe.</p>
       <p xml:id="GUIMOD1042">Versus Quique terrigene.</p>
-      <p xml:id="GUIMOD1043">[CSII:106,4; text: Gloria patri et filio et spiritui sancto sicut erat in
-        principio et nunc et semper et in secula seculorum amen.]</p>
+      <p xml:id="GUIMOD1043">[CSII:106,4; text: Gloria patri et filio et spiritui sancto sicut erat
+        in principio et nunc et semper et in secula seculorum amen.]</p>
       <p xml:id="GUIMOD1044">Finit autentus tetrardus.</p>
       <p xml:id="GUIMOD1045">Capitulum IX</p>
       <p xml:id="GUIMOD1046">Plagis ejus incipit.</p>
@@ -1532,8 +1546,8 @@
       <p xml:id="GUIMOD1136">Cum venerit.</p>
       <p xml:id="GUIMOD1137">Responsorium Hodie nobis de celo.</p>
       <p xml:id="GUIMOD1138">Versus Hodie illuxit.</p>
-      <p xml:id="GUIMOD1139">[CSII:109,4; text: Gloria patri et filio et spiritui sancto Sicut erat in
-        principio et nunc et semper et in secula seculorum amen.]</p>
+      <p xml:id="GUIMOD1139">[CSII:109,4; text: Gloria patri et filio et spiritui sancto Sicut erat
+        in principio et nunc et semper et in secula seculorum amen.]</p>
       <p xml:id="GUIMOD1140">
         <pb n="[110]"/>Epilogus rhytmicus in modorum formulis.</p>
       <p xml:id="GUIMOD1141">Ars [que] humanas instruit</p>

@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musica</title>
         <title type="abbrev">THEMUSI</title>
-        <author>Theogerus Metensis</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Theogerus Metensis</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>John Gray</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Oliver B. Ellsworth</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Patrologia cursus completus, series latina</emph>, ed. J. P. Migne, 221 vols.
@@ -124,19 +134,20 @@
         omnibus semper musicis habetur, nam Gamma ([Gamma]) ex abundanti (superabundantia)
         superaddita est, ut usui, sicut reor, non (ut) regulae mos geratur.</p>
       <p xml:id="THEMUSI0009">Quod spatium dicatur tonus, quod semitonium et caetera.</p>
-      <p xml:id="THEMUSI0010">Dispositis itaque (his) inter duas chordas (chordis) alias majus spatium
-        cernitur, ut inter [Gamma] et A. et inter A. et B. alias minus ut inter B. et C. et reliqua
-        (et sic de aliis). Et majus quidem spatium tonus dicitur, minus vero (dicitur) semitonium,
-        semis videlicet, id est, non plenus tonus. Item in tribus chordis (tum alicubi) ditonus est,
-        id est, duo toni, ut a c. ad e. tum (alicubi vero) semiditonus, qui habet tantum tonum et
-        semitonium, ut a D. ad F. et reliqua (et sic in caeteris). Diatessaron autem est, cum inter
-        quatuor chordas duo sunt toni, et unum semitonium, ut ab A. ad D. et a B. ad E. et reliqua.
-        Diapente vero uno tono major est, constans quinque chordis, ut ab A. ad E. et a C. ad G. et
-        reliqua. In sex vero chordis existunt diapente cum tono, ut a C. ad a. et diapente cum
-        semitonio, ut ab e. in c. (ut a C. ad a vel ab E. in c.) Denique diapason in octo (chordis)
-        existit, ut ab A. in a. et a B. in [sqb]. et a C. in c. et caetera. Dicitur autem
-        diatessaron, quasi de quatuor, sicut diapente quasi de quinque, quia tot chordas includunt.
-        Diapason autem (dicitur) quasi de omnibus, eo quod (quoad) omnes modos vocum includat.</p>
+      <p xml:id="THEMUSI0010">Dispositis itaque (his) inter duas chordas (chordis) alias majus
+        spatium cernitur, ut inter [Gamma] et A. et inter A. et B. alias minus ut inter B. et C. et
+        reliqua (et sic de aliis). Et majus quidem spatium tonus dicitur, minus vero (dicitur)
+        semitonium, semis videlicet, id est, non plenus tonus. Item in tribus chordis (tum alicubi)
+        ditonus est, id est, duo toni, ut a c. ad e. tum (alicubi vero) semiditonus, qui habet
+        tantum tonum et semitonium, ut a D. ad F. et reliqua (et sic in caeteris). Diatessaron autem
+        est, cum inter quatuor chordas duo sunt toni, et unum semitonium, ut ab A. ad D. et a B. ad
+        E. et reliqua. Diapente vero uno tono major est, constans quinque chordis, ut ab A. ad E. et
+        a C. ad G. et reliqua. In sex vero chordis existunt diapente cum tono, ut a C. ad a. et
+        diapente cum semitonio, ut ab e. in c. (ut a C. ad a vel ab E. in c.) Denique diapason in
+        octo (chordis) existit, ut ab A. in a. et a B. in [sqb]. et a C. in c. et caetera. Dicitur
+        autem diatessaron, quasi de quatuor, sicut diapente quasi de quinque, quia tot chordas
+        includunt. Diapason autem (dicitur) quasi de omnibus, eo quod (quoad) omnes modos vocum
+        includat.</p>
       <p xml:id="THEMUSI0011">De novem modis vocum.</p>
       <p xml:id="THEMUSI0012">(Hi sunt novem modi vocum, quorum (septem) Virgilius vocat septem
         discrimina vocum. Nam diapente cum tono, et diapason diapente cum semitonio antiqui non
@@ -147,11 +158,11 @@
         in cantu ejus usum.</p>
       <p xml:id="THEMUSI0013">
         <pb n="[780]"/>De consideratione numerorum.</p>
-      <p xml:id="THEMUSI0014">Porro nunc paulisper digrediamur ad numerorum considerationem, et mensurae
-        manifestandam et enucleandam rationem, ut et lectori proportiones, et naturam (naturas
-        proportionum) minus intelligenti satisfaciat, et sermo in posterum planius et evidentius
-        precedat. In arithmetica igitur saepe saepius legitur dupla duplex proportio, sesquialtera,
-        sesquitertia, sesquioctava.</p>
+      <p xml:id="THEMUSI0014">Porro nunc paulisper digrediamur ad numerorum considerationem, et
+        mensurae manifestandam et enucleandam rationem, ut et lectori proportiones, et naturam
+        (naturas proportionum) minus intelligenti satisfaciat, et sermo in posterum planius et
+        evidentius precedat. In arithmetica igitur saepe saepius legitur dupla duplex proportio,
+        sesquialtera, sesquitertia, sesquioctava.</p>
       <p xml:id="THEMUSI0015">De proportionibus dupla, sesquialtera et sesquitertia.</p>
       <p xml:id="THEMUSI0016">Proportio autem est similitudo, qua numeri se ad invicem habent. Dupla
         igitur proportio est, ubi major numerus minorem bis in se habet, ut unitatem binarius,
@@ -193,31 +204,32 @@
         quae omnia formavit, in numero, pondere et mensura talia substravit, vel impressit
         exemplaria. Nunc ad rem redeamus, quamvis a re non longe digressi fuerimus.</p>
       <p xml:id="THEMUSI0019">De divisione monochordi.</p>
-      <p xml:id="THEMUSI0020">Monochordum itaque priusquam (postquam) sicut superius praescriptum est,
-        dimensum atque consummatum fuerit, dividitur in quatuor tetrachorda, id est in tetrachordum
-        gravium, in tetrachordum finalium, in tetrachordum superiorum, in tetrachordum
+      <p xml:id="THEMUSI0020">Monochordum itaque priusquam (postquam) sicut superius praescriptum
+        est, dimensum atque consummatum fuerit, dividitur in quatuor tetrachorda, id est in
+        tetrachordum gravium, in tetrachordum finalium, in tetrachordum superiorum, in tetrachordum
         excellentium.</p>
       <p xml:id="THEMUSI0021">Da tetrachordis.</p>
-      <p xml:id="THEMUSI0022">Tetrachordum autem est spatium, quod continet quatuor chordas regulariter
-        dimensas (divisas). Tetrachordum gravium ideo dicitur, quia graves voces ibi sonant.
-        Tetrachordum finalium ideo (dicitur,) quia omnis regularis cantus ibi finitur. Tetrachordum
-        superiorum ideo dicitur, quia superiores voces ibi sonant. Tetrachordum excellentium ideo
-        dicitur, quia excellentiores voces ibi sonant.</p>
+      <p xml:id="THEMUSI0022">Tetrachordum autem est spatium, quod continet quatuor chordas
+        regulariter dimensas (divisas). Tetrachordum gravium ideo dicitur, quia graves voces ibi
+        sonant. Tetrachordum finalium ideo (dicitur,) quia omnis regularis cantus ibi finitur.
+        Tetrachordum superiorum ideo dicitur, quia superiores voces ibi sonant. Tetrachordum
+        excellentium ideo dicitur, quia excellentiores voces ibi sonant.</p>
       <p xml:id="THEMUSI0023">Quomodo constent tetrachorda.</p>
-      <p xml:id="THEMUSI0024">Primum autem tetrachordum constat ex tono, et semitonio et tono, et fit ab
-        A, gravi usque in D. grave. Secundum tetrachordum (similiter) constat ex tono, et semitonio
-        et tono, et fit a D gravi usque in C. (G) grave. Tertium tetrachordum constat (item) ex
-        tono, et semitonio et tono, et fit ab a. acuto usque in d. acutum. Quartum tetrachordum
-        sicut et praecedentia) constat ex tono, et semitonio et tono, et fit a d. acuto usque in g.
-        acutum. In hac divisione quatuor tetrachordorum remanent tres toni, primus inter [Gamma]. et
-        inter A. grave; secundus inter G grave et a. acutum; tertius inter g. acutum et (inter) aa.
-        duplex. His ab initio (etiam) quatuor tetrachordis interseruntur duo tetrachorda, quae
-        vocantur synemmena id est conjuncta; unum constat ex tono et semitonio et tono, et fit a
-        [Gamma]. usque in G. grave. Alterum constat (etiam) ex tono et semitonio et tono, et fit a
-        G. gravi usque in c. acutum. Horum duorum tetrachordorum illud, quod est in acutis, in
-        communi usu habetur et frequentatur; quod vero in gravibus (est) minus necessarium
-        (quibusdam) videtur, et contenditur, ut videtur (contendunt quidam, ut vitetur), <pb n="[782]"/>id (sed) in nostro cantu, quem Gregorianum nos vocamus (jactamus), vitari nullo
-        modo potest, ut in responsorio graduali: In sole posuit; et in aliis (similibus) quae
+      <p xml:id="THEMUSI0024">Primum autem tetrachordum constat ex tono, et semitonio et tono, et
+        fit ab A, gravi usque in D. grave. Secundum tetrachordum (similiter) constat ex tono, et
+        semitonio et tono, et fit a D gravi usque in C. (G) grave. Tertium tetrachordum constat
+        (item) ex tono, et semitonio et tono, et fit ab a. acuto usque in d. acutum. Quartum
+        tetrachordum sicut et praecedentia) constat ex tono, et semitonio et tono, et fit a d. acuto
+        usque in g. acutum. In hac divisione quatuor tetrachordorum remanent tres toni, primus inter
+        [Gamma]. et inter A. grave; secundus inter G grave et a. acutum; tertius inter g. acutum et
+        (inter) aa. duplex. His ab initio (etiam) quatuor tetrachordis interseruntur duo
+        tetrachorda, quae vocantur synemmena id est conjuncta; unum constat ex tono et semitonio et
+        tono, et fit a [Gamma]. usque in G. grave. Alterum constat (etiam) ex tono et semitonio et
+        tono, et fit a G. gravi usque in c. acutum. Horum duorum tetrachordorum illud, quod est in
+        acutis, in communi usu habetur et frequentatur; quod vero in gravibus (est) minus
+        necessarium (quibusdam) videtur, et contenditur, ut videtur (contendunt quidam, ut vitetur),
+          <pb n="[782]"/>id (sed) in nostro cantu, quem Gregorianum nos vocamus (jactamus), vitari
+        nullo modo potest, ut in responsorio graduali: In sole posuit; et in aliis (similibus) quae
         hujusmodi symphonia canuntur, et in caeteris (cantibus) perpluribus: alioquin aut cantus ex
         magna parte mutabitur, aut non certo (finali (recte) finietur, aut omnino intermittetur. Et
         quia voces in speciebus diapason eaedem esse dicuntur, ideo nimirum nos non videmus, si
@@ -250,7 +262,8 @@
         sive) sesquitertia. Et haec est tam naturalis genitura, ut prima primam secundam, secunda
         secundam, tertia tertiam, quarta (tertia) procreat quartam, ea qua diximus mensura: haec
         inquam, est inviolabilis procreatarum forma chordarum secundum rationem dictarum
-        proportionum, et hoc est exemplar dicendarum specierum trium symphoniarum. <pb n="[783]"/>Sunt enim inter supradictos modos vocum tres, qui (quae) dicuntur symphoniae, propter
+        proportionum, et hoc est exemplar dicendarum specierum trium symphoniarum. <pb n="[783]"
+        />Sunt enim inter supradictos modos vocum tres, qui (quae) dicuntur symphoniae, propter
         suaves vocum copulationes, id est, diatessaron, diapente, diapason.</p>
       <p xml:id="THEMUSI0028">De speciebus diatessaron.</p>
       <p xml:id="THEMUSI0029">Sane diatessaron habet bis quatuor principales species, quatuor in
@@ -263,14 +276,14 @@
         superiorum et excellentium duabus constat chordis, fitque prima ab a. in d. secunda a [sqb].
         in e. tertia a c. in f, quarta a d.in g.</p>
       <p xml:id="THEMUSI0030">De speciebus diapente.</p>
-      <p xml:id="THEMUSI0031">Diapente vero habet tantum quatuor principales species, quae non minus,
-        naturaliter fiunt habentes formam quaeque sua sesquialtera (suam sesquialteram). Nam eodem
-        modo prima primis, secunda secundis, tertia tertiis, quarta quartis finalium et superiorum
-        duabus constat chordis, et fit prima a D. in a. secunda ab E. in [sqb] tertia ab F. in c.
-        quarta a G. in d. (Et nota quod in his duobus tetrachordis simul junctis, seu finalium et
-        superiorum potius ponitur generatio specierum diapente quam in aliis; quia nec tetrachordum
-        gravium et finalium, nec tetrachordum superiorum et excellentium simul juncta ad istam
-        sufficient genituram propter paucitatem chordarum.</p>
+      <p xml:id="THEMUSI0031">Diapente vero habet tantum quatuor principales species, quae non
+        minus, naturaliter fiunt habentes formam quaeque sua sesquialtera (suam sesquialteram). Nam
+        eodem modo prima primis, secunda secundis, tertia tertiis, quarta quartis finalium et
+        superiorum duabus constat chordis, et fit prima a D. in a. secunda ab E. in [sqb] tertia ab
+        F. in c. quarta a G. in d. (Et nota quod in his duobus tetrachordis simul junctis, seu
+        finalium et superiorum potius ponitur generatio specierum diapente quam in aliis; quia nec
+        tetrachordum gravium et finalium, nec tetrachordum superiorum et excellentium simul juncta
+        ad istam sufficient genituram propter paucitatem chordarum.</p>
       <p xml:id="THEMUSI0032">De speciebus diapason.</p>
       <p xml:id="THEMUSI0033">Porro diapason sicut (et) diatessaron habet bis quatuor principales
         species, duas primas, duas secundas, duas tertias, duas quartas, quae habent formam quaeque
@@ -301,37 +314,37 @@
         g. acutum et aa duplex. Dicimus diximus) ubique principales, sed tamen id cum differentia
         intelligendum est.</p>
       <p xml:id="THEMUSI0034">Quod graviores sint principaliores.</p>
-      <p xml:id="THEMUSI0035">Graves enim dicuntur principales ut antiquiores, acutae (vero) principales
-        ut juniores; illae ut matrices, istae vero ut obstetrices. Denique ut dicitur solemnitas
-        solemnitatum, ut cantica canticorum; ita illae dici possunt principales principalium, istae
-        vero ultimae vel postremae principalium. Notandum autem quod in constitutione specierum non
-        ita recte octo species sicut bis quatuor species possumus dicere, quod hic (is) qui haec
-        diligenter legit, potest intelligere.</p>
+      <p xml:id="THEMUSI0035">Graves enim dicuntur principales ut antiquiores, acutae (vero)
+        principales ut juniores; illae ut matrices, istae vero ut obstetrices. Denique ut dicitur
+        solemnitas solemnitatum, ut cantica canticorum; ita illae dici possunt principales
+        principalium, istae vero ultimae vel postremae principalium. Notandum autem quod in
+        constitutione specierum non ita recte octo species sicut bis quatuor species possumus
+        dicere, quod hic (is) qui haec diligenter legit, potest intelligere.</p>
       <p xml:id="THEMUSI0036">De constitutione quatuor troporum.</p>
-      <p xml:id="THEMUSI0037">Ex his itaque trium symphoniarum speciebus constituuntur quatuor tropi.
-        Tropus autem dicitur a Graeco tropos, quod interpretatur conversus vel conversio, eo quod
-        (quisque) tropus convertat se a caeteris tropis ad suas regulas, et ad proprias figuras vel
-        modos (vel quia quilibet tropus, quantumcunque ascendat vel descendat, ultimo tamen se ad
-        suam finalem convertit). Guido autem vocat eos modos, et constituit illos quatuor inde, unde
-        nos species constituimus informatque per eos, sicut nos per species, quatuor tropos
+      <p xml:id="THEMUSI0037">Ex his itaque trium symphoniarum speciebus constituuntur quatuor
+        tropi. Tropus autem dicitur a Graeco tropos, quod interpretatur conversus vel conversio, eo
+        quod (quisque) tropus convertat se a caeteris tropis ad suas regulas, et ad proprias figuras
+        vel modos (vel quia quilibet tropus, quantumcunque ascendat vel descendat, ultimo tamen se
+        ad suam finalem convertit). Guido autem vocat eos modos, et constituit illos quatuor inde,
+        unde nos species constituimus informatque per eos, sicut nos per species, quatuor tropos
         videlicet protum, deuterum, tritum, tetrardum.</p>
       <p xml:id="THEMUSI0038">De proto.</p>
-      <p xml:id="THEMUSI0039">Protus autem, id est primus, constituitur ex omnibus primis; deuterus, id
-        est secundus, ex omnibus secundis; tritus, id est tertius, ex omnibus tertiis; tetrardus, id
-        est quartus, ex omnibus quartis, quos ideo graecis nuncupationibus nos nominamus, quia eos
-        ita vocat generalis usus, et quia Graeci forsitan diligentius regulis inhaerent naturalibus.
-        Protus itaque constat ex duabus primis speciebus diatessaron, et prima specie diapente, et
-        duabus primis diapason. Hujus exemplum habemus antiphonam Domine non est alius, quae in
-        letaniis scripta invenitur. Incipitur enim in A. gravi et permeat (permanet) usque ad (in)
-        d. acutum: quae duae chordae omnes primas species includunt.</p>
+      <p xml:id="THEMUSI0039">Protus autem, id est primus, constituitur ex omnibus primis; deuterus,
+        id est secundus, ex omnibus secundis; tritus, id est tertius, ex omnibus tertiis; tetrardus,
+        id est quartus, ex omnibus quartis, quos ideo graecis nuncupationibus nos nominamus, quia
+        eos ita vocat generalis usus, et quia Graeci forsitan diligentius regulis inhaerent
+        naturalibus. Protus itaque constat ex duabus primis speciebus diatessaron, et prima specie
+        diapente, et duabus primis diapason. Hujus exemplum habemus antiphonam Domine non est alius,
+        quae in letaniis scripta invenitur. Incipitur enim in A. gravi et permeat (permanet) usque
+        ad (in) d. acutum: quae duae chordae omnes primas species includunt.</p>
       <p xml:id="THEMUSI0040">
         <pb n="[785]"/>De deutero.</p>
-      <p xml:id="THEMUSI0041">Item duae secundae species diatessaron, et secunda diapente, et secunda
-        (duae) diapason informant deuterum, cujus exemplum satis reperiri potest.</p>
+      <p xml:id="THEMUSI0041">Item duae secundae species diatessaron, et secunda diapente, et
+        secunda (duae) diapason informant deuterum, cujus exemplum satis reperiri potest.</p>
       <p xml:id="THEMUSI0042">De trito.</p>
-      <p xml:id="THEMUSI0043">Tritum vero duae tertiae species diatessaron, et tertia diapente, duaeque
-        tertiae diapason consummant, ut antiphona O Christi pietas, sicut diligens inquisitor
-        inveniet.</p>
+      <p xml:id="THEMUSI0043">Tritum vero duae tertiae species diatessaron, et tertia diapente,
+        duaeque tertiae diapason consummant, ut antiphona O Christi pietas, sicut diligens
+        inquisitor inveniet.</p>
       <p xml:id="THEMUSI0044">De tetrardo.</p>
       <p xml:id="THEMUSI0045">Tetrardus quoque constat ex duabus quartis speciebus diatessaron, et
         quarta diapente, et duabus quartis diapason, cujus exemplum ad presens habemus Responsorium
@@ -367,8 +380,8 @@
         a Graeco est ut aiunt, et dicitur <pb n="[786]"/>discipulus et collateralis vel
         subjugalis.</p>
       <p xml:id="THEMUSI0054">Hanc divisionem non esse recentem.</p>
-      <p xml:id="THEMUSI0055">Nec haec recens est divisio, sed antiqua; vetus (est) non nova. Legimus
-        namque in veteribus gentilium auctoribus pro proto et plaga (plagali) ejus dorius,
+      <p xml:id="THEMUSI0055">Nec haec recens est divisio, sed antiqua; vetus (est) non nova.
+        Legimus namque in veteribus gentilium auctoribus pro proto et plaga (plagali) ejus dorius,
         hypodorius, pro deutero et discipulio (plagali) ejus phrygius, hypophrygius: pro trito et
         collaterali ejus (suo) lydius, lypolydius: pro tetrardo et subjugali ejus mixolydius
         hypomixolydius. Hucusque divino auxilio processimus per omnia fere sententiis in nisi
@@ -404,10 +417,10 @@
         naturaliter constituerimus, tamen et hic ipso usualiter quanto brevius potuerimus,
         constituamus.</p>
       <p xml:id="THEMUSI0058">De primo tono.</p>
-      <p xml:id="THEMUSI0059">Primus igitur tonus vel tropus, sive modus versatur regulari cursu inter
-        D. et d. utpote in suis speciebus, et ex licentia assumit utramque (utrinque) chordam, vel
-        vocem, cujus formula haec est: Ejus saeculorum amen incipit in a. cantus vero (abit) in C.
-        ut antiphona Arguebat. saepius autem in D. quae est ejus finalis, ut antiphona Ecce nomen
+      <p xml:id="THEMUSI0059">Primus igitur tonus vel tropus, sive modus versatur regulari cursu
+        inter D. et d. utpote in suis speciebus, et ex licentia assumit utramque (utrinque) chordam,
+        vel vocem, cujus formula haec est: Ejus saeculorum amen incipit in a. cantus vero (abit) in
+        C. ut antiphona Arguebat. saepius autem in D. quae est ejus finalis, ut antiphona Ecce nomen
         Domini, et Euge, serve bone, et, Columna est, et Domine Dominus noster. In E. sed raro, ut
         Responsorium Veniens a Libano, (et Responsorium Ego te tuli). In F. quoque, ut Biduo vivens.
         et Ave Maria. et Apertis thesauris, Domine si hic (antiphona Beati mundo). In G. ut
@@ -415,36 +428,36 @@
         mundo. Est etiam, quando idem tropus incipit in A. gravi, ut antiphona Domine non est alius
         (Saulus adhuc); hoc tamen rarissime fit, tunc videlicet, eam indifferens est, habens
         diatessaron superius, cum inferius.</p>
-      <p xml:id="THEMUSI0060">[PLCLXIII:787,1; text: Diapason. Protus. Tonus. Diapente. Diatessaron. C.
-        D. E. F. G. a. b[sqb]. c. d. e.] <figure>
+      <p xml:id="THEMUSI0060">[PLCLXIII:787,1; text: Diapason. Protus. Tonus. Diapente. Diatessaron.
+        C. D. E. F. G. a. b[sqb]. c. d. e.] <figure>
           <graphic url="/images/THEMUSI_01GF.gif"/>
         </figure></p>
       <p xml:id="THEMUSI0061">De secundo.</p>
-      <p xml:id="THEMUSI0062">Secundus subjugalis (est) ejus, habet eamdem finalem, quam (et magister,
-        id est, (in) D. grave versaturque inter A. et a. id est, in sua diapason, et assumit
-        utrinque vocem. Haec autem est formula ejus: (quod patet in hac figura) ipsius saeculorum
-        amen incipit in F. (f) cantus vero in [Gamma]. sed raro ut Responsorium Educ de carcere,
-        Natus ante saecula. In A. ut offert. Ad te, Domine, levavi. In C. (c.) ut antiphona Nonne
-        cor nostrum. (Sicut lilium.) In D. (d.) ut antiphona Ecce in nubibus. In E. quamis raro, ut
-        Responsorium Ego te. (antiphona Ecce Maria). In F. ut antiphona Quem vidistis. Reperitur
-        etiam inchoare in B. inferioris synemmeni ut Graduale Salvum fac servum.</p>
+      <p xml:id="THEMUSI0062">Secundus subjugalis (est) ejus, habet eamdem finalem, quam (et
+        magister, id est, (in) D. grave versaturque inter A. et a. id est, in sua diapason, et
+        assumit utrinque vocem. Haec autem est formula ejus: (quod patet in hac figura) ipsius
+        saeculorum amen incipit in F. (f) cantus vero in [Gamma]. sed raro ut Responsorium Educ de
+        carcere, Natus ante saecula. In A. ut offert. Ad te, Domine, levavi. In C. (c.) ut antiphona
+        Nonne cor nostrum. (Sicut lilium.) In D. (d.) ut antiphona Ecce in nubibus. In E. quamis
+        raro, ut Responsorium Ego te. (antiphona Ecce Maria). In F. ut antiphona Quem vidistis.
+        Reperitur etiam inchoare in B. inferioris synemmeni ut Graduale Salvum fac servum.</p>
       <p xml:id="THEMUSI0063">[PLCLXIII:787,2; text: Diapason. Plaga Proti. Tonus. Diatessaron.
         Diapente. [Gamma]. A. B. C. D. E. F. G. a. b[sqb].]</p>
       <p xml:id="THEMUSI0064">De tertio.</p>
-      <p xml:id="THEMUSI0065">Tertius modus finitur in E. gravi, proceditque regulariter ad e. acutum,
-        scilicet per duas (suas) species assumens utrinque chordam: cujus formula haec est (quod
-        patet in figura.) Ejus saeculorum amen (euouae) incipit in C. (c. acuta). cantus vero
+      <p xml:id="THEMUSI0065">Tertius modus finitur in E. gravi, proceditque regulariter ad e.
+        acutum, scilicet per duas (suas) species assumens utrinque chordam: cujus formula haec est
+        (quod patet in figura.) Ejus saeculorum amen (euouae) incipit in C. (c. acuta). cantus vero
         (terminatur) <pb n="[788]"/>in E. ut antiphona Quando natus es. In F. ut Introitus Nunc scio
         vere. In G. ut antiphona Fac benigne. In c. ut ant. Vivo ego. et Unum opus feci.</p>
-      <p xml:id="THEMUSI0066">[PLCLXIII:788,1; text: Diapason. Deuterus. Tonus. Diapente. Diatessaron.
-        D. E. F. G. a. b[sqb]. c. d. e. f.]</p>
+      <p xml:id="THEMUSI0066">[PLCLXIII:788,1; text: Diapason. Deuterus. Tonus. Diapente.
+        Diatessaron. D. E. F. G. a. b[sqb]. c. d. e. f.]</p>
       <p xml:id="THEMUSI0067">De quarto.</p>
-      <p xml:id="THEMUSI0068">Quartus autem plagis ejus (tonus plagalis tertii) eamdem habet finalem,
-        curritque regulariter inter B. et [sqb], assumens utrinque chordam. tangensque persaepe
-        utrumque B. [sqb]. (b.) synemmeni. Formula autem ejus haec est. Ejus saeculorum amen
-        (eououae) incipit in a. sicut primi (primus), cantus vero in C. ut antiphona Hodie natus
-        est. In D. ut antiphona Benedicta tu. In e (E.), ut antiphona Gaude, Maria. In F. (f.) ut
-        antiphona Ecce merces. In G. ut antiphona O mors. In a sed raro, ut antiphona Nisi
+      <p xml:id="THEMUSI0068">Quartus autem plagis ejus (tonus plagalis tertii) eamdem habet
+        finalem, curritque regulariter inter B. et [sqb], assumens utrinque chordam. tangensque
+        persaepe utrumque B. [sqb]. (b.) synemmeni. Formula autem ejus haec est. Ejus saeculorum
+        amen (eououae) incipit in a. sicut primi (primus), cantus vero in C. ut antiphona Hodie
+        natus est. In D. ut antiphona Benedicta tu. In e (E.), ut antiphona Gaude, Maria. In F. (f.)
+        ut antiphona Ecce merces. In G. ut antiphona O mors. In a sed raro, ut antiphona Nisi
         diligenter.</p>
       <p xml:id="THEMUSI0069">[PLCLXIII:788,2; text: Diapason. Plaga Deuteri. Tonus. Diatessaron.
         Diapente. A. B. C. D. E. F. G. a. b[sqb]. c.]</p>
@@ -456,13 +469,13 @@
         F. ut antiphona Adhuc multa, ut antiphona Haurietis. In G. (sed raro, ut communio Non vos
         relinquam) Raro vero in a. (In d.) ut antiphona Exsultabunt omnia. In c. ut antiphona
         Elevamini portae aeternales, et antiphona Ecce jam veniet.</p>
-      <p xml:id="THEMUSI0072">[PLCLXIII:788,3; text: Diapason. Tritus. Diapente. Diatessaron. Tonus. F.
-        G. a. b[sqb]. c. d. e. f. g.]</p>
+      <p xml:id="THEMUSI0072">[PLCLXIII:788,3; text: Diapason. Tritus. Diapente. Diatessaron. Tonus.
+        F. G. a. b[sqb]. c. d. e. f. g.]</p>
       <p xml:id="THEMUSI0073">De sexto.</p>
-      <p xml:id="THEMUSI0074">Sextus vero discipulus ejus eamdem habet finalem, vaditque regulariter a
-        C, in c. per suas species, et hic assumit utrinque chordam cujus formula haec est, (non hic
-        ex parte gravium assumit chordam). Ejus saeculorum amen (euouae) incipit in a. ut primi et
-        quarti; cantus autem in C. grave. ut antiphona Vox <pb n="[789]"/>exsultationis. In D. ut
+      <p xml:id="THEMUSI0074">Sextus vero discipulus ejus eamdem habet finalem, vaditque regulariter
+        a C, in c. per suas species, et hic assumit utrinque chordam cujus formula haec est, (non
+        hic ex parte gravium assumit chordam). Ejus saeculorum amen (euouae) incipit in a. ut primi
+        et quarti; cantus autem in C. grave. ut antiphona Vox <pb n="[789]"/>exsultationis. In D. ut
         antiphona Si ego verus. In F. ut antiphona O admirabile. In G. raro, ut antiphona Nesciens
         mater. Rarius vero in b. synemmeni superioris, ut Com Redime me. Invenitur quoque incipere
         in B. inferioris synemmeni, ut antiphona Adorna thalamum; quae inchoatio rarissima est, et a
@@ -472,20 +485,20 @@
           <graphic url="/images/THEMUSI_02GF.gif"/>
         </figure></p>
       <p xml:id="THEMUSI0076">De septimo.</p>
-      <p xml:id="THEMUSI0077">Septimus modus terminatur in G. proceditque inde in g. suam diapason, et
-        assumit chordam utrinque, cujus formula (est haec), Ejus saeculorum amen (euouae) incipit in
-        d. cantus vero in G. ut antiphona Assumpta est. In a. ut antiphona Ipse praeibit, et
+      <p xml:id="THEMUSI0077">Septimus modus terminatur in G. proceditque inde in g. suam diapason,
+        et assumit chordam utrinque, cujus formula (est haec), Ejus saeculorum amen (euouae) incipit
+        in d. cantus vero in G. ut antiphona Assumpta est. In a. ut antiphona Ipse praeibit, et
         Responsorium Elisabeth. In [sqb]. ut antiphona Cum angelis. In c. ut antiphona Benedicta
         filia. In d. ut antiphona Agathes laetissima.</p>
-      <p xml:id="THEMUSI0078">[PLCLXIII:789,2; text: Diapason. Tetrardus. Tonus. Diapente. Diatessaron.
-        F. G. a. b[sqb]. c. d. e. f. g. a.]</p>
+      <p xml:id="THEMUSI0078">[PLCLXIII:789,2; text: Diapason. Tetrardus. Tonus. Diapente.
+        Diatessaron. F. G. a. b[sqb]. c. d. e. f. g. a.]</p>
       <p xml:id="THEMUSI0079">De octavo.</p>
-      <p xml:id="THEMUSI0080">Octavus collateralis ejus eadem finali terminatur, versaturque inter D. et
-        d. sicut in suis speciebus accipiens (totum) tonum utrinque. Formula (ejus est haec, quae
-        subsequitur). Ejus saeculorum amen incipit in c. sicut tertii et quinti, cantus vere in C.
-        ut antiphona Justorum animae (Cornelius) antiphona Stabunt justi. In D. ut antiphona Dixit
-        Dominus mulieri. In E. ut Responsorium Iste est, qui ante Deum. Et Hodie Maria. In F. ut
-        antiphona Gloria in excelsis. In G. ut antiphona Advenerunt nobis. In a. ut antiphona
+      <p xml:id="THEMUSI0080">Octavus collateralis ejus eadem finali terminatur, versaturque inter
+        D. et d. sicut in suis speciebus accipiens (totum) tonum utrinque. Formula (ejus est haec,
+        quae subsequitur). Ejus saeculorum amen incipit in c. sicut tertii et quinti, cantus vere in
+        C. ut antiphona Justorum animae (Cornelius) antiphona Stabunt justi. In D. ut antiphona
+        Dixit Dominus mulieri. In E. ut Responsorium Iste est, qui ante Deum. Et Hodie Maria. In F.
+        ut antiphona Gloria in excelsis. In G. ut antiphona Advenerunt nobis. In a. ut antiphona
         Apertum est. In c. ut antiphona Aquam quam ego. In d. ut antiphona Tu es qui venturus, ut
         antiphona undecim discipuli, Inchoat etiam aliquando in b. synemmeni superioris, ut vers,
         offert. Notas mihi fecisti.</p>
@@ -497,26 +510,26 @@
         assumere duas, et facere decachordum, quod constat tribus tetrachordis. Horum exempla
         scripta (subscripta) sunt. (Exemplum de primo tono est hoc) Responsorium Haec est Jerusalem,
         et Responsorium Plateae tuae: et Responsorium Filiae Jerusalem.</p>
-      <p xml:id="THEMUSI0083">[PLCLXIII:790,1; text: Diapason. Decachordum primi toni. Diatessaron. D.
-        E. F. G. a. b[sqb]. c. d. e. f.]</p>
+      <p xml:id="THEMUSI0083">[PLCLXIII:790,1; text: Diapason. Decachordum primi toni. Diatessaron.
+        D. E. F. G. a. b[sqb]. c. d. e. f.]</p>
       <p xml:id="THEMUSI0084">Decachordum secundi et exempla ejus.</p>
-      <p xml:id="THEMUSI0085">(Exempla secundi sunt haec) Responsorium Rorate coeli. Responsorium Qui
-        vicerit. Responsorium Angelus Domini. Responsorium Tentavit Deus, et antiphona In spiritu
-        humilitatis. Hoc decachordum secundi a plerisque Teutonicis maxime frequentatum vitant Itali
-        vel Romani, continentes se in b. molli; quos imitantur quidam Teutonici.</p>
-      <p xml:id="THEMUSI0086">[PLCLXIII:790,2; text: Diapason. Decachordorum secundi toni. Diatessaron.
-        A. B. C. D. E. F. G. a. b[sqb]. c.]</p>
+      <p xml:id="THEMUSI0085">(Exempla secundi sunt haec) Responsorium Rorate coeli. Responsorium
+        Qui vicerit. Responsorium Angelus Domini. Responsorium Tentavit Deus, et antiphona In
+        spiritu humilitatis. Hoc decachordum secundi a plerisque Teutonicis maxime frequentatum
+        vitant Itali vel Romani, continentes se in b. molli; quos imitantur quidam Teutonici.</p>
+      <p xml:id="THEMUSI0086">[PLCLXIII:790,2; text: Diapason. Decachordorum secundi toni.
+        Diatessaron. A. B. C. D. E. F. G. a. b[sqb]. c.]</p>
       <p xml:id="THEMUSI0087">Decachordum tertii et exempla ejus.</p>
       <p xml:id="THEMUSI0088">Exempla de decachordo tertii sunt haec) Responsorium Virtute magna.
         Responsorium Peccavi super.</p>
-      <p xml:id="THEMUSI0089">[PLCLXIII:790,3; text: Diapason. Decachordum tertii toni. Diatessaron. E.
-        F. G. a. b[sqb]. c. d. e. f. g.]</p>
+      <p xml:id="THEMUSI0089">[PLCLXIII:790,3; text: Diapason. Decachordum tertii toni. Diatessaron.
+        E. F. G. a. b[sqb]. c. d. e. f. g.]</p>
       <p xml:id="THEMUSI0090">Decachordum octavi et exempla ejus.</p>
-      <p xml:id="THEMUSI0091">(Exempla octavi sunt haec). Responsorium Ecce radix Jesse. Et Responsorium
-        Pretiosus confessor Domini Et Responsorium Oravit Jacob. et Responsorium Nuntiaverunt
-        Jacob.</p>
-      <p xml:id="THEMUSI0092">[PLCLXIII:790,4; text: Diapason. Decachordum octavi toni. Diatessaron. D.
-        E. F. G. a. b[sqb]. c. d. e. f.]</p>
+      <p xml:id="THEMUSI0091">(Exempla octavi sunt haec). Responsorium Ecce radix Jesse. Et
+        Responsorium Pretiosus confessor Domini Et Responsorium Oravit Jacob. et Responsorium
+        Nuntiaverunt Jacob.</p>
+      <p xml:id="THEMUSI0092">[PLCLXIII:790,4; text: Diapason. Decachordum octavi toni. Diatessaron.
+        D. E. F. G. a. b[sqb]. c. d. e. f.]</p>
       <p xml:id="THEMUSI0093">
         <pb n="[791]"/>Non solum haec, sed et alia exempla diligens inquisitor reperire potest,
         maxime in difficiliori cantu. In quinto et sexto et septimo (talem cantum non invenimus,
@@ -529,12 +542,13 @@
         attribuatur, operae pretium duximus audere generales cudere) regulas, quibus autenticos a
         subjugalibus vel communibus (autentos a plagalibus) evidenter segregemus.</p>
       <p xml:id="THEMUSI0094">Generales regulae autentici cantus.</p>
-      <p xml:id="THEMUSI0095">Quicunque igitur cantus diatessaron habet superius ipso (supra) diapente,
-        si descendat etiam usque ad duodecimam chordam, D. videlicet ab aa vel citra in qualibet
-        subsistat, dum tantum (tamen) ad finalem regulariter (currat vel) perveniat. Similiter qui
-        duas chordas supra diapente, utputa [sqb] vel c. et (vel) infra unam vel nullam habet. Item
-        qui supra unam et infra diapente nullum; omnis hujusmodi cantus <pb n="[792]"/>sine
-        contradictione autentico tribuetur, dum tantum (tamen) regulariter terminetur.</p>
+      <p xml:id="THEMUSI0095">Quicunque igitur cantus diatessaron habet superius ipso (supra)
+        diapente, si descendat etiam usque ad duodecimam chordam, D. videlicet ab aa vel citra in
+        qualibet subsistat, dum tantum (tamen) ad finalem regulariter (currat vel) perveniat.
+        Similiter qui duas chordas supra diapente, utputa [sqb] vel c. et (vel) infra unam vel
+        nullam habet. Item qui supra unam et infra diapente nullum; omnis hujusmodi cantus <pb
+          n="[792]"/>sine contradictione autentico tribuetur, dum tantum (tamen) regulariter
+        terminetur.</p>
       <p xml:id="THEMUSI0096">Generalis regula plagalis cantus.</p>
       <p xml:id="THEMUSI0097">Qui autem habet diatessaron inferius, id est gravibus, si ascendat a
         [Gamma] ad decimam (chordam) sive descendat ad decimam citrave, in qualibet remaneat, dum

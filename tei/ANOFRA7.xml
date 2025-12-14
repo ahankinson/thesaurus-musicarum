@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Fragmentum</title>
         <title type="abbrev">ANOFRA7</title>
-        <author>Anonymous</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>John Csonka</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Jan Herlinger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1991</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1991">1991</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Adrien de la Fage, <emph>Essais de dipthérographie musicale</emph>
           (Paris: Legouix, 1864), 496. </bibl>
@@ -50,8 +60,8 @@
         CCCXVIIJ patribus in Niceno concilio congregatis qui hoc constituerunt non est institutum,
         quocumque in loco supputatio memorata in formatis apicibus ponatur, modo tantum ut in eis
         eam liceat deprehendere. Discutiendo non est, aequaliter illud et hoc agatur.</p>
-      <p class="textFig" xml:id="ANOFRA70002">*     *     *     *     *     *     *     *     *     *     *
-        <lb/></p>
+      <p class="textFig" xml:id="ANOFRA70002"
+        >*     *     *     *     *     *     *     *     *     *     * <lb/></p>
       <p xml:id="ANOFRA70003">In nomine [Pi] et [Upsilon] et [Alpha] amen cum adjutorio beati [Pi]
         apostoli [Nu] Dei gratia [Nu] civitatis episcopus [Nu] venerabili coepiscopo salutem in
         Christo perpetuam. Quamquam plures girovagos qui, cum pervenerint ad sacerdotium, nomen

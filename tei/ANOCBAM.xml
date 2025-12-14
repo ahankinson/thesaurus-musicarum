@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>[Compendium breve artis musicae]</title>
         <title type="abbrev">ANOCBAM</title>
-        <author>Anonymous</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Mark Butler</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2001</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2001">2001</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Bernhold Schmid, "Ein Mensuralkompendium aus der Handschrift Clm
           24809," in <emph>Quellen und Studien zur Musiktheorie des Mittelalters</emph>, ed. Michael
@@ -79,45 +89,46 @@
         brevem, tales figure equipollent duabus semibrevibus, quia est regula generalis, quod tantum
         due breves per plicam brevem colligantur pro uno tempore:
         [Lig2pssna,Lig2pssnoa,Lig2pssnd,Lig2pssnod]</p>
-      <p xml:id="ANOCBAM0006">Item notandum, quod in modo perfecto duplex longa valet sex tempora. Ubi
-        cum ea ordinatur una brevis a parte ante vel a parte post et his duobus modis imperficitur
-        duplex longa, et valet tunc quinque tempora, ut est in exemplo: [Lig2aMXcddx,Lig2MXaL] Item
-        duplex longa ante longam. In modo perfecto quelibet longa per se valet tria, ut hic: [L,L]
-        Sic etiam de modo sive tempore perfecto brevis ante brevem valet tres semibreves: [B,B] Et
-        sic semibrevis ante semibrevem in maiori prolatione valet tres minimas, ut hic: [S,S]</p>
-      <p xml:id="ANOCBAM0007">Item notandum, quod longa simplex in modo imperfecto nec plus nec minus
-        valere potest, nisi duo tempora, ut hic: [L], nisi ei attribuatur signum perfectionis, quia
-        tunc valet tria tempora et est perfectionis, ut hic: [L,pt] Sic etiam in minori prolacione
-        semibrevis non plus valet nisi duas minimas, ut hic: [S,M,M], nisi ei attribuatur punctus
-        perfectionis. Tunc est perfecta semibrevis, et valet tres minimas, ut hic: [S,pt,M,M,M] Item
-        duplex est punctus, perfectionis et divisionis. Perfectionis est, qui stat a parte dextra et
-        perficit longam, brevem, semibrevem, ut hic: [L,pt,B,pt,S,pt] Et dicitur perfectionis, quia
-        perficit notam, cui additur. Sed punctus divisionis est, qui dividit longam, brevem,
-        semibrevem et minimam, ne <pb n="[76]"/>tales ordinentur cum secunda. Et idem punctus debet
-        poni a parte sinistra; exemplum ut hic: [pt,L,pt,B,pt,S,pt,M] Consequenter notandum est,
-        quod si in modo perfecto plures breves reperiuntur inter duas longas, tunc tercius et
-        tercius debent computari pro perfectione, id est pro longa perfecta. Et si una remanet in
-        residuo, tunc prima longa imperficitur a prima brevi, ut hic: [L,B,B,B,B,L], nisi punctus
-        primam longam sequatur, quia tunc ultima longa imperficitur, ut hic: [L,pt,B,B,B,B,L] Sed si
-        due breves manent in residuo, tunc iste due faciunt perfectionem ita, quod secunda
-        alterabitur, ut hic: [L,B,B,B,B,B,L] Et valet duo tempora, nisi punctus mediat inter illas.
-        Tunc prima longa et secunda inperficientur et omnes breves essent equales, ut hic:
-        [L,B,B,B,B,pt,B,L] Eodem modo intellige de tempore perfecto, cum plures [145r in marg.]
-        semibreves reperiuntur inter duas breves, ut supra. Exemplum primi, ut hic: [B,S,S,S,S,B]
-        Exemplum secundi, ut hic: [B,pt,S,S,S,S,B] Exemplum tercii, ut habetur hic: [B,S,S,S,S,S,B]
-        Exemplum quarti, ut sic: [B,S,S,S,S,pt,S,B] Et sic etiam in maiori prolacione intellige:
-        quando plures minime reperiuntur inter duas semibreves, et tunc tres et tres debent
-        computari pro perfectione, id est, pro perfecta semibrevi, et si una remanet, tunc prima
-        semibrevis inperficitur a minima prima inmediate eam sequentem. Exemplum, ut hic:
+      <p xml:id="ANOCBAM0006">Item notandum, quod in modo perfecto duplex longa valet sex tempora.
+        Ubi cum ea ordinatur una brevis a parte ante vel a parte post et his duobus modis
+        imperficitur duplex longa, et valet tunc quinque tempora, ut est in exemplo:
+        [Lig2aMXcddx,Lig2MXaL] Item duplex longa ante longam. In modo perfecto quelibet longa per se
+        valet tria, ut hic: [L,L] Sic etiam de modo sive tempore perfecto brevis ante brevem valet
+        tres semibreves: [B,B] Et sic semibrevis ante semibrevem in maiori prolatione valet tres
+        minimas, ut hic: [S,S]</p>
+      <p xml:id="ANOCBAM0007">Item notandum, quod longa simplex in modo imperfecto nec plus nec
+        minus valere potest, nisi duo tempora, ut hic: [L], nisi ei attribuatur signum perfectionis,
+        quia tunc valet tria tempora et est perfectionis, ut hic: [L,pt] Sic etiam in minori
+        prolacione semibrevis non plus valet nisi duas minimas, ut hic: [S,M,M], nisi ei attribuatur
+        punctus perfectionis. Tunc est perfecta semibrevis, et valet tres minimas, ut hic:
+        [S,pt,M,M,M] Item duplex est punctus, perfectionis et divisionis. Perfectionis est, qui stat
+        a parte dextra et perficit longam, brevem, semibrevem, ut hic: [L,pt,B,pt,S,pt] Et dicitur
+        perfectionis, quia perficit notam, cui additur. Sed punctus divisionis est, qui dividit
+        longam, brevem, semibrevem et minimam, ne <pb n="[76]"/>tales ordinentur cum secunda. Et
+        idem punctus debet poni a parte sinistra; exemplum ut hic: [pt,L,pt,B,pt,S,pt,M]
+        Consequenter notandum est, quod si in modo perfecto plures breves reperiuntur inter duas
+        longas, tunc tercius et tercius debent computari pro perfectione, id est pro longa perfecta.
+        Et si una remanet in residuo, tunc prima longa imperficitur a prima brevi, ut hic:
+        [L,B,B,B,B,L], nisi punctus primam longam sequatur, quia tunc ultima longa imperficitur, ut
+        hic: [L,pt,B,B,B,B,L] Sed si due breves manent in residuo, tunc iste due faciunt
+        perfectionem ita, quod secunda alterabitur, ut hic: [L,B,B,B,B,B,L] Et valet duo tempora,
+        nisi punctus mediat inter illas. Tunc prima longa et secunda inperficientur et omnes breves
+        essent equales, ut hic: [L,B,B,B,B,pt,B,L] Eodem modo intellige de tempore perfecto, cum
+        plures [145r in marg.] semibreves reperiuntur inter duas breves, ut supra. Exemplum primi,
+        ut hic: [B,S,S,S,S,B] Exemplum secundi, ut hic: [B,pt,S,S,S,S,B] Exemplum tercii, ut habetur
+        hic: [B,S,S,S,S,S,B] Exemplum quarti, ut sic: [B,S,S,S,S,pt,S,B] Et sic etiam in maiori
+        prolacione intellige: quando plures minime reperiuntur inter duas semibreves, et tunc tres
+        et tres debent computari pro perfectione, id est, pro perfecta semibrevi, et si una remanet,
+        tunc prima semibrevis inperficitur a minima prima inmediate eam sequentem. Exemplum, ut hic:
         [S,M,M,M,M,S] Exemplum secundi, ut hic: [S,pt,M,M,M,M,S] Exemplum tercii, ut hic:
         [S,M,M,M,M,M,S] Exemplum quarti, ut hic: [S,M,M,M,M,pt,M,S]</p>
-      <p xml:id="ANOCBAM0008">Nunc sequitur de modo perfecto: Pro quo notandum, quod primo cantus est de
-        modo perfecto, ubi talis ordo vel positio habetur, scilicet, quando in tenore reperitur
-        linea tria spacia tegens. Secundo, quando brevis per ligaturam vel sine ligatura ordinatur
-        cum longa. Tercio, quando valor brevis, id est pausa unius temporis cum longa ordinatur.
-        Quarto, quando brevis ordinatur cum pausa duorum temporum. Quinto, quando tres breves
-        similiter ordinantur. Sexto, quando valor trium brevium per punctum habetur. Septimo, quando
-        due breves pausam inter se habentes ponuntur, vel quando due breves punctum inter se
+      <p xml:id="ANOCBAM0008">Nunc sequitur de modo perfecto: Pro quo notandum, quod primo cantus
+        est de modo perfecto, ubi talis ordo vel positio habetur, scilicet, quando in tenore
+        reperitur linea tria spacia tegens. Secundo, quando brevis per ligaturam vel sine ligatura
+        ordinatur cum longa. Tercio, quando valor brevis, id est pausa unius temporis cum longa
+        ordinatur. Quarto, quando brevis ordinatur cum pausa duorum temporum. Quinto, quando tres
+        breves similiter ordinantur. Sexto, quando valor trium brevium per punctum habetur. Septimo,
+        quando due breves pausam inter se habentes ponuntur, vel quando due breves punctum inter se
         habentes ponuntur inter duas longas. Octavo, quando longa sequens longam habet punctum post
         se, ut in hoc tenore subsequenti ubi signa et exempla predictorum ponuntur, in quibus lucide
         et manifeste patet, quomodo modus perfectus debet cognosci. Et cetera Hainricus scripsit et

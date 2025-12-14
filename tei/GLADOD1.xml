@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Dodecachordon, Liber primus</title>
         <title type="abbrev">GLADOD1</title>
-        <author>Glareanus, Henricus</author>
-        <date notBefore="1500" notAfter="1599">16th</date>
+        <author><persName>Glareanus, Henricus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Sean Ferguson</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Charles Atkinson</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Henricus Glareanus, <emph>[Dodekachordon]</emph> (Basle: Henrichus
           Petri, 1547), 1–64. </bibl>
@@ -58,31 +68,31 @@
         Dapifero: Baroni in Vualtpurg: Sanctae Romanae Ecclesiae Cardinali, Territorio Sanctae
         Albinae, ac Episcopo Augustidunensis dignissimo ac amplissimo.</p>
       <p xml:id="GLADOD10022">Glareanus salutem dicit plurimam.</p>
-      <p xml:id="GLADOD10023">TIMOTHEVM Milesium, artis Musices authorem celeberrimum, Reuerendissime
-        PATER, Athenaeus libro 14. ex Artemone tradit a Lacedaemonibus reprehensum, ut uetustae ac
-        priscae Musicae corruptorem: quoniam Systemate uteretur, quod chordas plureis Magadide
-        haberet. Diuus autem Seuerinus in Musices praefatione etiam Laconica eiectum esse asserit
-        Timotheum, quod ad consuetos neruos unum addiderit neruum, ac effoeminatiorem Musicen
-        fecerit. Consultumque de eo factum Graecis uerbis refert, in quo contineretur: Iccirco
-        Timotheo Milesio Spartiatas succensuisse, quod multiplicem Musicem reddens puerorum animis,
-        quos acceperat erudiendos, officeret, et a uirtutis modestia praepediret. Haec de Timotheo
-        ex Graecis Boethius. Quae si ita habent, ut fide digni tradiderunt authores, quid de me
-        futurum esse putem? qui ad octo musicarum Cantionum Modos, tot nunc seculis apud omneis
-        celebratos, quatuor superaddam, ac ex Octochordo dodecachordum faciam: Omnem uetustatem
-        uelut inscitiae accusem, ac negligentiae damnem, Quinetiam duos a priscis omnibus reiectos,
-        explosos, in exilium relegatos, ac uelut emortuos, nunc, si Dijs placet, ut in prouerbio
-        est, reuocem, postliminio recipiam, ac in uitam resuscitem: dignus sane qui non ex una
-        Laconica, sed uniuerso orbe terrarum, qua rationales habitant homines, explodar, eijciar, ac
-        exturber. Haec tam dura obiecta, has tam graueis accusationes nisi purgauero, ac Lectori
-        ostendero rem secus habere atque accuser, quid restat, nisi ut uictus dem manus, ac audaciae
-        poenas luam? Verum enimuero, quando, Colendissime Pater, apud aequum iudicem, indicta causa,
-        nemo unquam damnatus fuit, omneis qui me saluum esse, ac reum minime causa succumbere
-        uelint, bonam spem habere iubebo. Facile enim confutabo aduersae partis argumenta, si de
-        Psephismate illo Laconico prius dixero. Athenaeus sane loco, quem dixi, eodem ait,
-        Timotheum, cum <pb n="[f.a2v]"/>Lacon quidam redundanteis in eius Lyra incidere uellet
-        chordas, indicasse apud ipsos etiam Laconas quemdam esse, qui pari chordarum numero Lyra
-        uteretur, hoc ita dicto, ipsum dimissum esse. Itaque cum hoc uariatum historia sit, neque
-        satis certum (cum tamen id multum referat) de Lyrae ne, an de Citharae neruis authores
+      <p xml:id="GLADOD10023">TIMOTHEVM Milesium, artis Musices authorem celeberrimum,
+        Reuerendissime PATER, Athenaeus libro 14. ex Artemone tradit a Lacedaemonibus reprehensum,
+        ut uetustae ac priscae Musicae corruptorem: quoniam Systemate uteretur, quod chordas plureis
+        Magadide haberet. Diuus autem Seuerinus in Musices praefatione etiam Laconica eiectum esse
+        asserit Timotheum, quod ad consuetos neruos unum addiderit neruum, ac effoeminatiorem
+        Musicen fecerit. Consultumque de eo factum Graecis uerbis refert, in quo contineretur:
+        Iccirco Timotheo Milesio Spartiatas succensuisse, quod multiplicem Musicem reddens puerorum
+        animis, quos acceperat erudiendos, officeret, et a uirtutis modestia praepediret. Haec de
+        Timotheo ex Graecis Boethius. Quae si ita habent, ut fide digni tradiderunt authores, quid
+        de me futurum esse putem? qui ad octo musicarum Cantionum Modos, tot nunc seculis apud
+        omneis celebratos, quatuor superaddam, ac ex Octochordo dodecachordum faciam: Omnem
+        uetustatem uelut inscitiae accusem, ac negligentiae damnem, Quinetiam duos a priscis omnibus
+        reiectos, explosos, in exilium relegatos, ac uelut emortuos, nunc, si Dijs placet, ut in
+        prouerbio est, reuocem, postliminio recipiam, ac in uitam resuscitem: dignus sane qui non ex
+        una Laconica, sed uniuerso orbe terrarum, qua rationales habitant homines, explodar,
+        eijciar, ac exturber. Haec tam dura obiecta, has tam graueis accusationes nisi purgauero, ac
+        Lectori ostendero rem secus habere atque accuser, quid restat, nisi ut uictus dem manus, ac
+        audaciae poenas luam? Verum enimuero, quando, Colendissime Pater, apud aequum iudicem,
+        indicta causa, nemo unquam damnatus fuit, omneis qui me saluum esse, ac reum minime causa
+        succumbere uelint, bonam spem habere iubebo. Facile enim confutabo aduersae partis
+        argumenta, si de Psephismate illo Laconico prius dixero. Athenaeus sane loco, quem dixi,
+        eodem ait, Timotheum, cum <pb n="[f.a2v]"/>Lacon quidam redundanteis in eius Lyra incidere
+        uellet chordas, indicasse apud ipsos etiam Laconas quemdam esse, qui pari chordarum numero
+        Lyra uteretur, hoc ita dicto, ipsum dimissum esse. Itaque cum hoc uariatum historia sit,
+        neque satis certum (cum tamen id multum referat) de Lyrae ne, an de Citharae neruis authores
         loquantur, qui eum damnatu scribut: cunque in addendis Citharae chordis etiam laudem
         meruerit, ut qui cum Hestiaeo Colophonio ex Enneachordo Hendecachordum fecisse ab omnibus
         huius artis professoribus praedicetur, consulto omitti potest, et ad rem ipsam deueniamus.
@@ -130,41 +140,41 @@
         difficile, quin quaerendo inuestigari possiet, Saepe inuocato Christo, qui opus ad ipsius
         gloriam ceptum prosperaret, ab ipso solo auxilium petiui, ab ipso solo praemium sperans: Nam
         ab hominibus ferme maledicentiam licet expectare, idque quamlibet leuem ob causam.</p>
-      <p xml:id="GLADOD10024">Alijs enim non satis tersi uidebimur, Quasi uero hic Rhetoricem doceamus,
-        Alijs culpabor haud dubie longior, nonnullis contra, nimis concisus. Sed quis omnibus
-        placere potest? Ego illum satis splendide loqui iudico, quacunque tandem arte tradenda, qui
-        rem ipsam, ut est, ingenue, candide, ac syncere docet, abstinens a fucata ac phalerata
-        oratione, quique magis docere cupiat quam uideri doctus. Neque tamen interea sordide ac
-        barbare loquentem, qui foeda balbutie inquinet artem, commendasse uideri uelim. At de his
-        alibi loquemur copiosius. Hoc magis pro defendendo hoc opere uisum est admonitione dignum,
-        neque enim parum difficultatis nobis ingessit, quod cantus Ecclesiastici sint mire hodie per
-        diuersas nationes uariati, praeterea dioecesibus ac ordinibus mutati, denique, a multis male
-        deprauati. Sed ni fallor Praedicatorum ordo synceriorem reliquis quibusdam ordinibus habet
-        cantum, loquor de eo, qui ad substantialia Missae pertinet, eum nos plaerunque libro secundo
-        secuti sumus, quanquam ne huic quidem ubique accedo. Est coenobium Benedictinae professionis
-        in capite Hercyniae syluae (ad Sanctum Georgium uocant) Fons alter Danubij proxime oritur,
-          <pb n="[f.a3v]"/>Prygen appellant: Herodotus Pyrenen appellasse uidetur. Situs eius est
-        inter Friburgum terrae Brisgoae, et Rotuilam Vilinganque magnifica duo Hercyniae Syluae
-        oppida, ita tamen ut magis Rotuilae ac Vilingae appropinquet quam Friburgo. Ei coenobio
-        Reuerendus Pater ac Dominus Dignus Ioannes Kern Abbas tempestate mea praesidebat. Apud quem
-        codex erat, qui omnium scientiarum tractatus uarios habebat, [engkuklopaidian] uocant
-        Graeci. Inerant quinque Diui Seuerini uolumina de Musicis: Praeterea Guidonis Aretini
-        quaedam, Bernonis, Vuilehelmi, Othonis, Theogeri Episcopi, et Ioannis qui postea Pontifex
-        Maximus XXII eius nominis fuit. Per eos libros audaciorem me factum, maxime per Boethiana
-        opera, quae apud me ante manca fuerant ibi utcumque emaculata, diffiteri non possum, etiamsi
-        in nullo totam Modorum Nomen claturam inueni: Quare necesse fuit praeterea Graecos
-        consulere. Nec id immerito, cum quicquid disciplinarum uspiam est, illis acceptum referre
-        debeamus. Et inter reliquas quidem disciplinas haec tota graeca est, graecis uerbis omnia
-        habens Themata, omnia artis uocabula, Nisi quod latini postea magis compendiosa uia
-        aggressi, multo breuioribus uerbis, et artis uocibus faciliorem fecere, quod nobis in opere
-        ipso ostendendum est. Haec igitur tibi Augustissime PATER, una cum Reuerendissimo
-        Cardinalium caetu, ut omnis Ecclesiastici iuris moderatoribus examinanda subijcio. In
-        CHRISTI laudem hunc sane suscepi laborem. Iudicent igitur hi, quibus CHRISTI ouile commissum
-        est. Quod ad me attinet, ita hocce negocium me tractasse confido, ut sentiant omnes aequi
-        animi iudices, Christianae pietati ac Ecclesiasticae dignitati ex animo me consulere
-        uoluisse. Qui affectus si uotis non potietur, certe uoluntas ad augendam sacram religionem
-        laudabilis fuerit. Sed uerborum satis est, res ipsa loquetur Vale Friburgi Brisgoae. Anno a
-        Christi natali, M.D.XLVII.</p>
+      <p xml:id="GLADOD10024">Alijs enim non satis tersi uidebimur, Quasi uero hic Rhetoricem
+        doceamus, Alijs culpabor haud dubie longior, nonnullis contra, nimis concisus. Sed quis
+        omnibus placere potest? Ego illum satis splendide loqui iudico, quacunque tandem arte
+        tradenda, qui rem ipsam, ut est, ingenue, candide, ac syncere docet, abstinens a fucata ac
+        phalerata oratione, quique magis docere cupiat quam uideri doctus. Neque tamen interea
+        sordide ac barbare loquentem, qui foeda balbutie inquinet artem, commendasse uideri uelim.
+        At de his alibi loquemur copiosius. Hoc magis pro defendendo hoc opere uisum est admonitione
+        dignum, neque enim parum difficultatis nobis ingessit, quod cantus Ecclesiastici sint mire
+        hodie per diuersas nationes uariati, praeterea dioecesibus ac ordinibus mutati, denique, a
+        multis male deprauati. Sed ni fallor Praedicatorum ordo synceriorem reliquis quibusdam
+        ordinibus habet cantum, loquor de eo, qui ad substantialia Missae pertinet, eum nos
+        plaerunque libro secundo secuti sumus, quanquam ne huic quidem ubique accedo. Est coenobium
+        Benedictinae professionis in capite Hercyniae syluae (ad Sanctum Georgium uocant) Fons alter
+        Danubij proxime oritur, <pb n="[f.a3v]"/>Prygen appellant: Herodotus Pyrenen appellasse
+        uidetur. Situs eius est inter Friburgum terrae Brisgoae, et Rotuilam Vilinganque magnifica
+        duo Hercyniae Syluae oppida, ita tamen ut magis Rotuilae ac Vilingae appropinquet quam
+        Friburgo. Ei coenobio Reuerendus Pater ac Dominus Dignus Ioannes Kern Abbas tempestate mea
+        praesidebat. Apud quem codex erat, qui omnium scientiarum tractatus uarios habebat,
+        [engkuklopaidian] uocant Graeci. Inerant quinque Diui Seuerini uolumina de Musicis:
+        Praeterea Guidonis Aretini quaedam, Bernonis, Vuilehelmi, Othonis, Theogeri Episcopi, et
+        Ioannis qui postea Pontifex Maximus XXII eius nominis fuit. Per eos libros audaciorem me
+        factum, maxime per Boethiana opera, quae apud me ante manca fuerant ibi utcumque emaculata,
+        diffiteri non possum, etiamsi in nullo totam Modorum Nomen claturam inueni: Quare necesse
+        fuit praeterea Graecos consulere. Nec id immerito, cum quicquid disciplinarum uspiam est,
+        illis acceptum referre debeamus. Et inter reliquas quidem disciplinas haec tota graeca est,
+        graecis uerbis omnia habens Themata, omnia artis uocabula, Nisi quod latini postea magis
+        compendiosa uia aggressi, multo breuioribus uerbis, et artis uocibus faciliorem fecere, quod
+        nobis in opere ipso ostendendum est. Haec igitur tibi Augustissime PATER, una cum
+        Reuerendissimo Cardinalium caetu, ut omnis Ecclesiastici iuris moderatoribus examinanda
+        subijcio. In CHRISTI laudem hunc sane suscepi laborem. Iudicent igitur hi, quibus CHRISTI
+        ouile commissum est. Quod ad me attinet, ita hocce negocium me tractasse confido, ut
+        sentiant omnes aequi animi iudices, Christianae pietati ac Ecclesiasticae dignitati ex animo
+        me consulere uoluisse. Qui affectus si uotis non potietur, certe uoluntas ad augendam sacram
+        religionem laudabilis fuerit. Sed uerborum satis est, res ipsa loquetur Vale Friburgi
+        Brisgoae. Anno a Christi natali, M.D.XLVII.</p>
       <p xml:id="GLADOD10025">
         <pb n="[f.a4r]"/>Authorum, qui in hoc opere citantur Nomenclatura.</p>
       <p xml:id="GLADOD10026">Graeci</p>
@@ -260,8 +270,8 @@
       <p xml:id="GLADOD10115">De Musices diuisione ac definitione Caput I.</p>
       <p xml:id="GLADOD10116">De Elementis Practices Caput II.</p>
       <p xml:id="GLADOD10117">Quae in Guidonis typo rudibus huius artis consyderanda Caput III.</p>
-      <p xml:id="GLADOD10118">De Clauibus et uocum deductionibus per easdem, de notularum item figuris
-        Caput IIII.</p>
+      <p xml:id="GLADOD10118">De Clauibus et uocum deductionibus per easdem, de notularum item
+        figuris Caput IIII.</p>
       <p xml:id="GLADOD10119">De Quinque Tetrachordis et tribus Modulandi generibus Caput V.</p>
       <p xml:id="GLADOD10120">De uocum permutationibus per omneis claues Caput VI.</p>
       <p xml:id="GLADOD10121">De clauium signatarum siue Characteristicarum transpositione Caput
@@ -276,12 +286,12 @@
       <p xml:id="GLADOD10127">De uulgari Modorum agnitione Caput XIII.</p>
       <p xml:id="GLADOD10128">De Modorum expatiatione ac permixtione Caput XIIII.</p>
       <p xml:id="GLADOD10129">De Modorum usu in Cantantium Choro Caput XV.</p>
-      <p xml:id="GLADOD10130">Quemadmodum Musicae Consonantiae indubitanter aure dijudicari possint ex
-        Boethio, atque inibi de musicorum uocabulorum abusione Caput XVI.</p>
+      <p xml:id="GLADOD10130">Quemadmodum Musicae Consonantiae indubitanter aure dijudicari possint
+        ex Boethio, atque inibi de musicorum uocabulorum abusione Caput XVI.</p>
       <p xml:id="GLADOD10131">Quid Magas, Monochordum. Magadis, similesque quorundam Musicorum
         instrumentorum appellationes Caput XVII.</p>
-      <p xml:id="GLADOD10132">De triplici siue chordarum siue neruorum in scala musica diuisione Caput
-        XVIII.</p>
+      <p xml:id="GLADOD10132">De triplici siue chordarum siue neruorum in scala musica diuisione
+        Caput XVIII.</p>
       <p xml:id="GLADOD10133">Monochordi diuisio in genere Diatonico Caput XIX.</p>
       <p xml:id="GLADOD10134">De inueniendis Consonantijs per Citharae neruos Caput XX.</p>
       <p xml:id="GLADOD10135">Parasceue ad sequentis libri commentationem Caput XXI.</p>
@@ -292,21 +302,22 @@
       <p xml:id="GLADOD10139">
         <pb n="[f.a5r]"/>Quomodo ex connexione Diatessaron ac diapente XXIIII Diapason species
         fiant, e quibus XII reijcantur, XII recipiantur Caput III.</p>
-      <p xml:id="GLADOD10140">Quomodo ex XII Diapason speciebus septem duntaxat fiant Caput IIII.</p>
-      <p xml:id="GLADOD10141">Quid aetas nostra immutasse in his Modis uideatur, et quatenus id fieri
-        liceat. Caput V</p>
-      <p xml:id="GLADOD10142">Quod necesse si XII ponere Modos, siquidem octauus noster recte ab alijs
-        separatus est. Caput VI.</p>
+      <p xml:id="GLADOD10140">Quomodo ex XII Diapason speciebus septem duntaxat fiant Caput
+        IIII.</p>
+      <p xml:id="GLADOD10141">Quid aetas nostra immutasse in his Modis uideatur, et quatenus id
+        fieri liceat. Caput V</p>
+      <p xml:id="GLADOD10142">Quod necesse si XII ponere Modos, siquidem octauus noster recte ab
+        alijs separatus est. Caput VI.</p>
       <p xml:id="GLADOD10143">De Modorum ordine, eorunque appellatione. Caput VII.</p>
       <p xml:id="GLADOD10144">De chordarum grauitate et acumine, ac secundum ea appellatione. Caput
         VIII.</p>
-      <p xml:id="GLADOD10145">Quo pacto sumendi sint Modi, et quae prima omnium Modorum chorda. Caput
-        IX.</p>
-      <p xml:id="GLADOD10146">Authorum aliquot loca discussa, quae traditis a nobis hactenus praeceptis
-        contraria uidentur. Caput X.</p>
+      <p xml:id="GLADOD10145">Quo pacto sumendi sint Modi, et quae prima omnium Modorum chorda.
+        Caput IX.</p>
+      <p xml:id="GLADOD10146">Authorum aliquot loca discussa, quae traditis a nobis hactenus
+        praeceptis contraria uidentur. Caput X.</p>
       <p xml:id="GLADOD10147">De Modorum inuicem commutatioue. Caput XI.</p>
-      <p xml:id="GLADOD10148">Cur septenarius numerus apud Authores tam frequens in rebus musicis. Caput
-        XII.</p>
+      <p xml:id="GLADOD10148">Cur septenarius numerus apud Authores tam frequens in rebus musicis.
+        Caput XII.</p>
       <p xml:id="GLADOD10149">De sono in coelo duae opiniones, atque inibi Ciceronis Plinijque loci
         excussi. Caput XIII.</p>
       <p xml:id="GLADOD10150">Quid per IX Musas intelligendum. Caput XIIII.</p>
@@ -361,7 +372,8 @@
         exemplis ad eam ostendendam opportunis. Denique de VI uocum Musicalium (quas uocant)
         deductionibus exempla. Caput XI.</p>
       <p xml:id="GLADOD10188">De Proportionibus Musicis. Caput XII.</p>
-      <p xml:id="GLADOD10189">Duodecim Modorum exempla, ac primum Hypodorij ac Aeolij. Caput XIII.</p>
+      <p xml:id="GLADOD10189">Duodecim Modorum exempla, ac primum Hypodorij ac Aeolij. Caput
+        XIII.</p>
       <p xml:id="GLADOD10190">De Hypophrygio, et Hyperaeolio exempla. Caput XIIII.</p>
       <p xml:id="GLADOD10191">De Hypolydio, et eius exemplis. Caput XV.</p>
       <p xml:id="GLADOD10192">De Ionico exempla. Caput XVI.</p>
@@ -385,27 +397,23 @@
         <br/>A furore tuo Domine IIII uocum incerti authoris.     430
         <lb/>Agnus Dei ex Iusquini Missa Hercules trium uocum ex una.     221
         <br/>Agnus Dei ex Iusquini Missa Lhome arme super uoces musicales trium uocum ex una cum 
-        <lb/>resolutione.     442
-        <br/>Agnus Dei duo, IIII uocum ex Iusquini Missa fortuna.     388
+        <lb/>resolutione.     442 <br/>Agnus Dei duo, IIII uocum ex Iusquini Missa fortuna.     388
         <lb/>Agnus Dei, duum eiusdem ex Missa de nostra Domina.     305
         <br/>Agnus Dei, duum ex Missa [dringx] Antonij Brumel.     430
         <lb/>Anima mea IIII uocum Henrichi Isaac.     348
         <br/>Attendite Popule meus Ioannis Vannij 4. uocum,     306
         <lb/>Aue Maria IIII Iusquini.     358
         <br/>Aue Verum corpus Christi duum ac trium Iusquini.     288
-        <lb/>Auss hertzen grund latino contextu IIII uocum.     430
-        <br/>B
+        <lb/>Auss hertzen grund latino contextu IIII uocum.     430 <br/>B
         <lb/>Benedictus duum ex una Iusquini Missa Lhome arme super voceis musicales.     441
         <br/>Benedictus duum ex Missa eiusdem Gaudeamus.     220
         <lb/>Benedictus duum ex Missa eiusdem Lhome arme VI toni.     eadem
         <br/>Benedictus duum ex Ockenheim Missa ad omnem tonum.     455
-        <lb/>Benedictus duum ex Missa [dringx] Antonij Brumel.     458
-        <br/>C
+        <lb/>Benedictus duum ex Missa [dringx] Antonij Brumel.     458 <br/>C
         <lb/>CHRISTVS resurgens, Richafort 4. uocum.     292
         <br/>Christe eleeson, ex Missa Sancti Antonij Petri Platensis IIII uocum.     278
         <lb/>Conceptio Mariae Henrichi Isaac IIII uocum.     460
-        <br/>Confitebor Domino. Gregorij Meyer. 4. uocum.     434
-        <lb/>D
+        <br/>Confitebor Domino. Gregorij Meyer. 4. uocum.     434 <lb/>D
         <br/>Deus meus ad te leuaui. trium peruetustum.     252
         <lb/>Deus in adiutorium meum IIII uocum Senflij.     332
         <br/>De profundis IIII uocum Iusquini.     372
@@ -418,38 +426,30 @@
         <lb/>Duum Gregorij Meyer.     281
         <br/>Duae ex una, Iusquini tria exempla.     446 ac deinceps
         <lb/>Duae ex una, De orto.     320
-        <br/>Duae ex una, incerti authoris. uide latius Monas.     346
-        <lb/>E
+        <br/>Duae ex una, incerti authoris. uide latius Monas.     346 <lb/>E
         <br/>Ecce uideo coelos apertos Nicolai Craen trium.     326
         <lb/>Ego dormio, Antonij a uinea. IIII uocum.     254
         <br/>Erue domine animam meam, duum Sixti Dietrichi.     329
-        <lb/>Et in terra pax ex Missa Iusquini de nostra Domina. 4. uocum.     392
-        <br/>I <lb/>IESV Christe, trium Listenij.     439
-        <br/>Iuppiter omnipotens. Adami Luyr Aquaegranensis trium.     290
-        <lb/>F
-        <br/>Fuga ad minimam Iusquini. IIII uocum.     452
-        <lb/>K
+        <lb/>Et in terra pax ex Missa Iusquini de nostra Domina. 4. uocum.     392 <br/>I
+        <lb/>IESV Christe, trium Listenij.     439
+        <br/>Iuppiter omnipotens. Adami Luyr Aquaegranensis trium.     290 <lb/>F
+        <br/>Fuga ad minimam Iusquini. IIII uocum.     452 <lb/>K
         <br/>[Kyrie] trium cum Osanna Andreae Syluani.     432
         <lb/>[Kyrie] ex Missa ad omnem tonum Ockenhemij 4. uocum.     455
-        <br/>[Kyrie] nostra Domina 4. uocum Gregorij Meyer.     302
-        <lb/>L
+        <br/>[Kyrie] nostra Domina 4. uocum Gregorij Meyer.     302 <lb/>L
         <br/>Laudate Dominum omnes gentes Leuendre IIII uocum.     284
         <lb/>Liber generationis IIII uocum Iusquini.     376
         <br/>Loquebar de testimonijs tuis IIII uocum Isaac.     330
-        <lb/>Lutuichi Regis Franciae locosa cantio 4. uocum.     469
-        <br/>M
+        <lb/>Lutuichi Regis Franciae locosa cantio 4. uocum.     469 <br/>M
         <lb/>Magnus es tu Domine Iusquini IIII uocum.     272
         <br/>Miseremini mei 4. uocum Ioannis Mouton.     322
-        <lb/>Monades quinque Gregorij Meyer.     280. 296. 304. 312  354.
-        <br/>N
+        <lb/>Monades quinque Gregorij Meyer.     280. 296. 304. 312  354. <br/>N
         <lb/>Ne laeteris, Damiani a Goes Lusitani 3. uocum.     264
-        <br/>Nesciens mater Ioannis Mouton VIII uocum.     466
-        <lb/>O
+        <br/>Nesciens mater Ioannis Mouton VIII uocum.     466 <lb/>O
         <br/>O Domine Iesu Christe, Sixti Dietrichi trium uocum.     276
         <lb/>Os Iusti. Gerardi a Salice flandri, 4. uocum.     282
         <br/>O IESV fili Dauid. Iusquini. IIII uocum.     356
-        <lb/>O uera lux et gloria. Adami ab Fulda 4. uocum.     262
-        <br/>P
+        <lb/>O uera lux et gloria. Adami ab Fulda 4. uocum.     262 <br/>P
         <lb/>Parce Domine Iacobi Obrechth III uocum.     260
         <br/>Per illud Aue duum Ioannis Mouton.     347
         <lb/>Planxit autem Dauid Iusquini 4 uocum.     418
@@ -463,34 +463,27 @@
         <lb/>Quaternum uocum ex una Duae cantiones Petri Platensis. facies     445
         <br/>Qui mihi ministrat, Lydij IIII uocum Gregorij Meyer.     338
         <lb/>Qui mihi ministrat, Ionici IIII. uocum eiusdem Gregorij.     340
-        <br/>Qui uenit in nomine Domini Antonij Brumel Duum.     297
-        <lb/>S
+        <br/>Qui uenit in nomine Domini Antonij Brumel Duum.     297 <lb/>S
         <br/>Salue mater Saluatoris IIII uocum Ioannis Mouton.     464
         <lb/>Saluum me fac, peruetustum incerti authoris Trium.     266
         <br/>Sapphicum carmen IIII. uocum incerti authoris.     438
         <lb/>Seruus tuus sum ego. Duum Sixti Dieterichi.     328
-        <br/>Si Deus pro nobis Trium. facies     220
-        <lb/>T
+        <br/>Si Deus pro nobis Trium. facies     220 <lb/>T
         <br/>Tota pulchra es IIII. uocum Henrichi Isaac.     268
         <lb/>Trium ex una uoce incerti authoris.     259
         <br/>Trium ex una Ioannis Okenheim absque clauibus.     454
         <lb/>Trium ex una Lutuichi Senflij Tigurini.     444
         <br/>Tulerunt Dominum meum IIII uocum Threni Magdalenes, quidam Isaac adscribunt.     314
-        <lb/>V
-        <br/>Victimae Pascali laudes IIII uocum, Iusquini.     368
+        <lb/>V <br/>Victimae Pascali laudes IIII uocum, Iusquini.     368
         <lb/>Vocum Musicalium ad Fortunam cantio applicita IIII uocum Lutuichi Senflij Tigurini.     
-        <br/>222
-        <lb/>Vocum musicalium simplex deductio.     22
-        <br/>Finis. <lb/>
-        <pb n="[f.b1r]"/> In Dodecachordi treis libros rervm svmmarum index copiosissimus.
-        <br/>A
+        <br/>222 <lb/>Vocum musicalium simplex deductio.     22 <br/>Finis. <lb/>
+        <pb n="[f.b1r]"/> In Dodecachordi treis libros rervm svmmarum index copiosissimus. <br/>A
         <lb/>Acumen et grauitas in neruis. facies     83
         <br/>Adam ab Fulda Germanus Symphonetes.     261
         <lb/>Adam Luyr Aquaegranensis Symphonetes.     288
         <br/>A Dorio ad phrygium quae sit uera eius Adagij causa et ratio.     91
         <lb/>A Dorio ad Phrygium exemplum in cantu mensurali.     372
-        <br/>AEOLII Modi Systema.     70
-        <lb/>Aeolij Modi Natura.     104
+        <br/>AEOLII Modi Systema.     70 <lb/>Aeolij Modi Natura.     104
         <br/>Aeolius est eiusdem cum Hypodorio speciei.     77
         <lb/>Aeolij Modi exempla non sunt eiusdem generis.     104
         <br/>Aeolij Modi primum exemplum in cantu plano.     105
@@ -505,72 +498,51 @@
         <lb/>Aeolij Hypoaeolijque connexorum tertium exemplum in eodem cantu.     155
         <br/>Aeolij Hxpoaeolijque connexorum exemplum in cantu mensurali.     302
         <lb/>Agnus Dei ex Iusquini Fortuna.     365 et 388
-        <br/>Agnus Dei ex Iusquini Hercule.     221
-        <lb/>Alma Redemptoris Antiphona.     16. et 17
+        <br/>Agnus Dei ex Iusquini Hercule.     221 <lb/>Alma Redemptoris Antiphona.     16. et 17
         <br/>Alteratio quid Musicis nostra aetate significet.     211
         <lb/>Alterationis exemplum ex Franchino.     212
-        <br/>Anacephalaeosis omnium modorum.     101
-        <lb/>Andreas Syluanus Symphonetes.     432
-        <br/>Antiphona ut declinetur.     43
-        <lb/>Antonius a uinea Symphonetes.     253
+        <br/>Anacephalaeosis omnium modorum.     101 <lb/>Andreas Syluanus Symphonetes.     432
+        <br/>Antiphona ut declinetur.     43 <lb/>Antonius a uinea Symphonetes.     253
         <br/>Antonius Brumel Symphonetes.     456
         <lb/>Antonius Feuin Aurlianensis Symphonetes.     354
-        <br/>Apotome, id est, semitonium maius.     27
-        <lb/>Apulei locus emaculatus.     89
+        <br/>Apotome, id est, semitonium maius.     27 <lb/>Apulei locus emaculatus.     89
         <br/>Aristoxeni et capellae opiniones compatae,     63
         <lb/>Aristoxeni XII Modorum Typus.     81
         <br/>Arithmetica Mediatio Musicis recentioribus.     22 et 68
-        <lb/>A Solis ortu in cantu plano.     164
-        <br/>Athenaei locus discussus.     89
+        <lb/>A Solis ortu in cantu plano.     164 <br/>Athenaei locus discussus.     89
         <lb/>Athenienses ac Lacedaemonij comparati.     facies 118
-        <br/>Aue Praeclara Prosa iu cantu plano.     159
-        <lb/>Aue Praeclara Prosa laudatur,     176
-        <br/>Aue Maria in Aeolio Modo.     107
-        <lb/>Augmentatio in Musicis quid,     205
+        <br/>Aue Praeclara Prosa iu cantu plano.     159 <lb/>Aue Praeclara Prosa laudatur,     176
+        <br/>Aue Maria in Aeolio Modo.     107 <lb/>Augmentatio in Musicis quid,     205
         <br/>Authentae Modi.     30 et 79 ac deinceps. et 82
         <lb/>Authentae fere intra inferioris Diapason limites meant, ita etiam nonnunquam Plagij.     164
-        <br/>B
-        <lb/>Basis uox omnis concentus fundamentum.     84 et 240
+        <br/>B <lb/>Basis uox omnis concentus fundamentum.     84 et 240
         <br/>Boethij laus.     44 et 54 et 51 et 86
         <lb/>Boethij demonstrationes in Musicis ad quam neruorum formam.     85
         <br/>Benedicta sit Sancta Trinitas Prosa explicata.     149
         <lb/>Breuis nota, qua figura pingitur.     196
-        <br/>[sqb] a nostrae aetatis Musicis inuentum.     2
-        <lb/>C
-        <br/>Cabale apud Suidam quid significet     47
-        <lb/>Calliope Musa, quid.     99
-        <br/>Canon Georgii Vallae.     48
-        <lb/>Cantio in qua communia sunt interualla.     22
+        <br/>[sqb] a nostrae aetatis Musicis inuentum.     2 <lb/>C
+        <br/>Cabale apud Suidam quid significet     47 <lb/>Calliope Musa, quid.     99
+        <br/>Canon Georgii Vallae.     48 <lb/>Cantio in qua communia sunt interualla.     22
         <br/>Cantorum audacia de fine Cantionum.     163
         <lb/>Cantus trium specierum Diatessaron,     165 et 166
-        <br/>Cantus intra quintam cuius Modi.     165 et 166
-        <lb/>Cantus ecclesiastici laus.     176
+        <br/>Cantus intra quintam cuius Modi.     165 et 166 <lb/>Cantus ecclesiastici laus.     176
         <br/>Cantus simplicis commoditates et mensuralis incommoditates.     177 et 178
         <lb/>Caepellae Nomenclatura Modorum.     79
-        <br/>Characteristica uel signata clauis quae.     6
-        <lb/>Chromaticum modulandi genus.     11
-        <br/>Ciceronis locus excussus.     97 et 98
-        <lb/>Cithara ac lyra differunt.     84
-        <br/>Citharae laus.     59 et 441
-        <lb/>Cithare Typus.     58
+        <br/>Characteristica uel signata clauis quae.     6 <lb/>Chromaticum modulandi genus.     11
+        <br/>Ciceronis locus excussus.     97 et 98 <lb/>Cithara ac lyra differunt.     84
+        <br/>Citharae laus.     59 et 441 <lb/>Cithare Typus.     58
         <br/>Clare Sanctorum. Prosa per Glareanum diligenter explicata.     134
-        <lb/>Clauis Quid.     6
-        <br/>Claues in scalam ordinantur.     2 et 3
-        <lb/>Clauis characteristica siue signata.     6
-        <br/>Clauium signatarum transpositio.     15
-        <lb/>Claues essentiales septem.     3
-        <br/>Claues in Guidonis scala XX.     2 et 6
-        <lb/>Color imperfectionis signum.     210
-        <br/>Color in imperfectis cum exemplis.     211
+        <lb/>Clauis Quid.     6 <br/>Claues in scalam ordinantur.     2 et 3
+        <lb/>Clauis characteristica siue signata.     6 <br/>Clauium signatarum transpositio.     15
+        <lb/>Claues essentiales septem.     3 <br/>Claues in Guidonis scala XX.     2 et 6
+        <lb/>Color imperfectionis signum.     210 <br/>Color in imperfectis cum exemplis.     211
         <lb/>Comma quid.     26 <br/>
         <pb n="[f.b1v]"/> Confinalis falsa, Item uera clauis.     31
         <lb/>Consonantia quid, duabus definitionibus.     23
         <br/>Consonantiarum ueterum ratio et numerus.     24
         <lb/>Consonantiarum diuisio apud neotericos.     25
-        <br/>Consonantiae perfectae sunt. 5.     25
-        <lb/>Consonantiae imperfectae sunt 4.     25
-        <br/>Consonantiae ut inueniantur in Citharae neruis.     59
-        <lb/>Cratera.     43
+        <br/>Consonantiae perfectae sunt. 5.     25 <lb/>Consonantiae imperfectae sunt 4.     25
+        <br/>Consonantiae ut inueniantur in Citharae neruis.     59 <lb/>Cratera.     43
         <br/>Credo, in simplici cantu.     106 <lb/>D
         <br/>Damianus a Goes Lusitanus nobilis Symphonetes laudatur.     264
         <lb/>Deductiones VI uocum sunt septem.     6. et 7. et 8
@@ -582,8 +554,7 @@
         <lb/>De octauis idem est iuditium. Regula musica.     5
         <br/>Deprauatio Dorij in Aeolium,     119
         <lb/>De profundis Iusquini cantio explicata.     364
-        <br/>Diapason quid et unde dicta.     21
-        <lb/>Diapason Systema quid.     66
+        <br/>Diapason quid et unde dicta.     21 <lb/>Diapason Systema quid.     66
         <br/>Diapason ut certo deprehendatur in dupla ratione.     45
         <lb/>Diapason cum diapente quo pacto indubitanter in ratione tripla esse reperiatur.     45
         <br/>Diapason duplex mediatio.     21
@@ -629,20 +600,15 @@
         <br/>Diminutionis uariae praeceptiones.     205 et 206
         <lb/>Diminutionis exemplum ex Franchino.     206
         <br/>Discantus siue Cantus laudatur.     239
-        <lb/>Disdiapason maximum in Musicis systema.     10
-        <br/>Disdiapason quale systema.     66
+        <lb/>Disdiapason maximum in Musicis systema.     10 <br/>Disdiapason quale systema.     66
         <lb/>Disdiapason ut uere in ratione quadrupla reperiatur.     45
-        <br/>Dissonantia quid.     24
-        <lb/>Dissonantiae sex intra disdiapason.     26
+        <br/>Dissonantia quid.     24 <lb/>Dissonantiae sex intra disdiapason.     26
         <br/>Ditonus tertia perfecta.     19 <lb/>
         <pb n="[f.b2r]"/> Ditonus cum diapente.     21
         <br/>Dominus uobiscum siue Liber generationis IESV Christi in simplici cantu.     108
-        <lb/>Domine quis habitabit in simplici cantu.     114
-        <br/>DORIVS Modus ex D in d.     66
-        <lb/>Dorius quare Modorum primus.     76
-        <br/>Dorij Modi natura.     118
-        <lb/>Dorium uerum esse Modum Graecum.     eadem
-        <br/>Dorius uiro graui comparatus.     eadem
+        <lb/>Domine quis habitabit in simplici cantu.     114 <br/>DORIVS Modus ex D in d.     66
+        <lb/>Dorius quare Modorum primus.     76 <br/>Dorij Modi natura.     118
+        <lb/>Dorium uerum esse Modum Graecum.     eadem <br/>Dorius uiro graui comparatus.     eadem
         <lb/>Dorius ac Ionicus Modi comperati inuicem ad populorum mores unde nomina habent.     
         <br/>eadem
         <lb/>Dorius Phrygio Ionico ac Lydio, tribus Modis, comparatus a Platone.     eadem
@@ -655,26 +621,21 @@
         <br/>Dorij Hypodorijque connexorum exempla in cantu mensurali.     368 ac deinceps.
         <lb/>Dorij Hypodorijque connexorum exemplum in Phrygij finitum sede.     447
         <br/>Dorij Hypodorijque connexorum exemplum cum semiditono superne.     448
-        <lb/>Dupla proportio.     229
-        <br/>Duplae proportionis duo exempla.     229 et 230
-        <lb/>E
+        <lb/>Dupla proportio.     229 <br/>Duplae proportionis duo exempla.     229 et 230 <lb/>E
         <br/>Ecclesiastici in transponendis cantibus audaces.     31
         <lb/>Egressus Iesus de torrente Cedron Harmonia explicata in cantu plano cum connexis 
-        <br/>commissuris.     146 et 147
-        <lb/>Elementa Musices Practicae.     1
+        <br/>commissuris.     146 et 147 <lb/>Elementa Musices Practicae.     1
         <br/>Elegiaci carminis Harmoniae duae.     212
         <lb/>Emendemus in melius Responsorium.     103
         <br/>Enharmonium, tertium modulandi genus.     11
-        <lb/>Erasmus Roterodamus.     120 et 134 et 190
-        <br/>Eremus Heluetiorum.     154
+        <lb/>Erasmus Roterodamus.     120 et 134 et 190 <br/>Eremus Heluetiorum.     154
         <lb/>Et in terra pax, Cantio de Diua uirgine MARIA explicata in cantu mensurali.     365 et 366
         <br/>Euangelij Matthaei Initium in Aeolio Modo.     108
         <lb/>Exemplum communis Lydij Ionicique in cantu plano.     131
         <br/>Exemplum commune Lydij Ionicique in cantu mensurali.     338
         <lb/>Exemplum cantus eiusdem sed bifariam finiti.     164
-        <br/>Extremum siue ultimum quomodo in chordis.     84 et 85
-        <lb/>F <br/>Fictae uoces quae sint.     5
-        <lb/>Figurae notularum cantus simplicis siue plani.     9
+        <br/>Extremum siue ultimum quomodo in chordis.     84 et 85 <lb/>F
+        <br/>Fictae uoces quae sint.     5 <lb/>Figurae notularum cantus simplicis siue plani.     9
         <br/>Figurae notularum cantu mensuralis.     196
         <lb/>FRANCHINVS Gaforus Laudensis laudatur.     2 et 44 et 195
         <br/>Franchinus arguitur.     60 et 63 et 79 et 109
@@ -685,11 +646,9 @@
         <lb/>Franchini Harmoniae in Sapphicum carmen.     180
         <br/>Fugae ad minimam exemplum ex Iodoco Pratensi.     453
         <lb/>Fuga trium uocum ad tres diatessaron species Okenheim exemplum cantu mensurali.     454
-        <br/>Fusa qualis figura in cantu mensurali.     196
-        <lb/>G <br/>Generalis Musices typus.     4
-        <lb/>Genera modulandi tria.     11
-        <br/>Georgius Valla repraehensus.     77
-        <lb/>Georgius Valla qualis Glareani iudicio.     86
+        <br/>Fusa qualis figura in cantu mensurali.     196 <lb/>G
+        <br/>Generalis Musices typus.     4 <lb/>Genera modulandi tria.     11
+        <br/>Georgius Valla repraehensus.     77 <lb/>Georgius Valla qualis Glareani iudicio.     86
         <br/>Gerardus a Salice Flandrus Symphonetes.     280
         <lb/>GLAREANI praeceptor MICHAEL Rubellus     155
         <br/>Glareani instrumentum pro inueniendis consonantijs,     48
@@ -698,8 +657,7 @@
         <lb/>Glareani iuuenile carmen in Citharae laudem.     470
         <br/>Graue, acutum, imum, extremum, ultimum, quomodo sumenda.     48 et 85
         <lb/>Gregorius Meyer Symphonetes.     336 et 366 et 434
-        <br/>GVIDO Aretinus laudatur.     2 et 46
-        <lb/>H
+        <br/>GVIDO Aretinus laudatur.     2 et 46 <lb/>H
         <br/>Harmoniae in Horatij Odas reiectae.     179
         <lb/>Harmonia in primam Horatij oden ad Dorium.     181
         <br/>Harmonia in tertiam Horatij oden ad Dorium.     181 et 182
@@ -710,54 +668,41 @@
         <lb/>Harmoniae duae Elegiaci carminis.     187
         <br/>Harmonia in quinti generis odarum Horatij ad Phrygium.     189
         <lb/>Harmonia in quintam oden Horatij ad phrygium.     190
-        <br/>Harmonia in Phalecium carmen.     186
-        <lb/>Harmoniae ad Ionicum.     191
+        <br/>Harmonia in Phalecium carmen.     186 <lb/>Harmoniae ad Ionicum.     191
         <br/>Harmonia Ionici carminis apud Horatij librum 3. ode 12. ad Ionicum Hypoionicumque 
-        <lb/>Modos.     193 et 194
-        <br/>Harmonica Mediatio.     21 et 68
-        <lb/>Heluetiorum Eremus.     154
-        <br/>HENRICVS Isaac Symphonetes laudatur.     149
+        <lb/>Modos.     193 et 194 <br/>Harmonica Mediatio.     21 et 68
+        <lb/>Heluetiorum Eremus.     154 <br/>HENRICVS Isaac Symphonetes laudatur.     149
         <lb/>Henricus Isaac Symphonetes describitur,     460
         <br/>Henrici Isaac exemplum admirabile resolutum,     462
         <lb/>Hermanni Contracti comitis a Veringen Monachi Sancti Galli apud Heluetios laus.     16 et 
         <br/>118 et 176 <lb/>
         <pb n="[f.b2v]"/> Hermanni Contracti Elegantissima Prosa.     159 ac deinceps
         <br/>Hermannus Busthius Poeta nobilis.     188
-        <lb/>Heroicorum carminum Harmonia indicata.     188
-        <br/>Hesiodi carmen de IX Musis.     89
-        <lb/>Horatij locus in Sermonibus.     85
-        <br/>Horatianorum carminum laus.     180
+        <lb/>Heroicorum carminum Harmonia indicata.     188 <br/>Hesiodi carmen de IX Musis.     89
+        <lb/>Horatij locus in Sermonibus.     85 <br/>Horatianorum carminum laus.     180
         <lb/>Hypaton primum tetrachordum cum 4. chordis.     10
-        <br/>HYPERAEOLIVS Modus.     71 et 112
-        <lb/>Hyperaeolij Modi exemplum fictum.     113
+        <br/>HYPERAEOLIVS Modus.     71 et 112 <lb/>Hyperaeolij Modi exemplum fictum.     113
         <br/>Hyperaeolij Hyperphrygijque connexionis exemplum     157
         <lb/>Hyperaeolij exempla in cantu mensurali.     276 ac deinceps
         <br/>Hyperbolaeon tetrachordum quintum cum 4 chordis.     10
         <lb/>Hyperiastius cur dictus Modus.     78
         <br/>Hypermixolydius, Ptolemaei inuentum, cum Hypodorio idem habet systema.     66 et 67
         <lb/>Hyperphrygij Modi natura et exempla in cantu plano.     132 et 133
-        <br/>Hyperphrygij exempla in cantu mensurali.     342
-        <lb/>HYPOAEOLII Modi Systema.     70
+        <br/>Hyperphrygij exempla in cantu mensurali.     342 <lb/>HYPOAEOLII Modi Systema.     70
         <br/>Hypoaeolij Modi natura ac exempla in cantu plano.     124 et 125
         <lb/>Hypoaeolij intonationes.     126
         <br/>Hypoaeolius quomodo corrumpatur, in Hypodorium mutatus.     103 et 125
         <lb/>Hypoaeolij exempla in cantu mensurali.     320 ac deinceps
-        <br/>HYPODORIVS ex A in a systemate.     66
-        <lb/>Hypodorij Modi natura.     102
-        <br/>Hypodorius in Hypoaeolium.     103
-        <lb/>Hypodorius quare secundus.     76
+        <br/>HYPODORIVS ex A in a systemate.     66 <lb/>Hypodorij Modi natura.     102
+        <br/>Hypodorius in Hypoaeolium.     103 <lb/>Hypodorius quare secundus.     76
         <br/>Hypodorij uerum exemplum in cantu plano.     103
         <lb/>Hypodorij uaria exempla in cantu mensurali.     242 ac deinceps
-        <br/>HYPOIONICI siue Hypoiastij systema     70
-        <lb/>Hypoionici natura et exempla.     137
+        <br/>HYPOIONICI siue Hypoiastij systema     70 <lb/>Hypoionici natura et exempla.     137
         <br/>Hypoionici exemplum in cantu plano.     137
         <lb/>Hypoionici exempla in cantu mensurali.     354
-        <br/>HYPOLYDIVS ex C in c systemate.     66
-        <lb/>Hypolydius quare sextus.     76
-        <br/>Hypolydij grauitas.     93
-        <lb/>Hypolydij natura et exemplum in cantu plano.     114
-        <br/>Hypolydij exempla in cantu mensurali.     280
-        <lb/>HYPOPHRYGIVS ex [sqb] in b.     66
+        <br/>HYPOLYDIVS ex C in c systemate.     66 <lb/>Hypolydius quare sextus.     76
+        <br/>Hypolydij grauitas.     93 <lb/>Hypolydij natura et exemplum in cantu plano.     114
+        <br/>Hypolydij exempla in cantu mensurali.     280 <lb/>HYPOPHRYGIVS ex [sqb] in b.     66
         <br/>Hypophrygius harmonic[o]s diuidi non potest.     70
         <lb/>Hypophrygius quare quartus Modus.     76
         <br/>Hypophrygij natura ac exemplum in cantu plano.     110
@@ -767,14 +712,12 @@
         <br/>Hypomixolydius Modus ueteribus Ecclesiasticis gratississimus.     70 et 120
         <lb/>Hypomixolydij exemplum in cantu plano.     121
         <br/>Hypomixolydij exempla in cantu mensurali.     308 ac deinceps
-        <lb/>Hypotheses pro tendendis Citharae neruis.     56
-        <br/>I
+        <lb/>Hypotheses pro tendendis Citharae neruis.     56 <br/>I
         <lb/>IACOBVS Ohrechth symphonetes.     256 et 456
         <br/>Iacobus Obrechth Desiderio Erasmo in musicis praeceptor.     296
         <lb/>Iambicorum carminum Harmoniae.     185
         <br/>Imperfectio quid, et quibus in notulis fiat.     207 et 208
-        <lb/>Imperfectionis Regula.     207 et 208
-        <br/>Imperfectionis tria signa.     210
+        <lb/>Imperfectionis Regula.     207 et 208 <br/>Imperfectionis tria signa.     210
         <lb/>Imperfectio in Musicis binario constat.     200
         <br/>Imperfectionis exemplum ex Franchino.     208
         <lb/>Imperfectionis alterum exemplum ex eodem Franchino.     209
@@ -784,14 +727,12 @@
         <lb/>Incertitudinis eiusdem tertium exemplum.     219
         <br/>Instrumenti Boethiani descriptio.     44 et 45
         <lb/>Instrumentorum musicorum immensa nomenclatura.     46
-        <br/>Intonationes Modorum uulgarium.     36 et 37
-        <lb/>Interuallum in Musicis quid.     18
+        <br/>Intonationes Modorum uulgarium.     36 et 37 <lb/>Interuallum in Musicis quid.     18
         <br/>Interualla XV intra diapason a nostrae tempestatis Musicis nominantur.     18
         <lb/>Interuallorum compositio ex tono ac semitonio minore     18
         <br/>Interuallorum species unde sumantur.     23
         <lb/>IOANNES Coclaeus Noricus Theologus.     196
-        <br/>Ioannes Olus Heluetius laudatur.     367
-        <lb/>Ioannes Okenheim laudatur.     441 et 454
+        <br/>Ioannes Olus Heluetius laudatur.     367 <lb/>Ioannes Okenheim laudatur.     441 et 454
         <br/>Ioannes Ghiselin symphonetes.     215
         <lb/>Ioannes Mouton FRANCISCI Francorum Regis Symphonetes.     16 et 296 et 320 et 464
         <br/>Ioannes Richafort Symphonetes.     288
@@ -812,20 +753,15 @@
         <lb/>Ionici Hypoionicique connexorum exemplum cum ditono superne, sed non suo finitum 
         <br/>loco.     449
         <lb/>Ionici Hypoionicique connexorum exemplum finitum ut Phrygius.     446
-        <br/>Isaac quaere Henricus Isaac.     331 et 197
-        <lb/>Iulij Pollucis locus.     128
+        <br/>Isaac quaere Henricus Isaac.     331 et 197 <lb/>Iulij Pollucis locus.     128
         <br/>Iusquini siue Iodoci Pratensis Encomium.     243 et 302 et 441 <lb/>
-        <pb n="[f.b3r]"/> K
-        <br/>[Kyrie] de nostra domina in cantu plano.     153
+        <pb n="[f.b3r]"/> K <br/>[Kyrie] de nostra domina in cantu plano.     153
         <lb/>Idem in cantu figurali.     366 <br/>L
         <lb/>Lacedaemonij Atheniensibus comparati.     118
-        <br/>Liber generationis Iusquini explicata cantio.     365
-        <lb/>Lichanos quid.     10
-        <br/>Loci aliquot Boethij     85
-        <lb/>Longa qualis figura.     197
+        <br/>Liber generationis Iusquini explicata cantio.     365 <lb/>Lichanos quid.     10
+        <br/>Loci aliquot Boethij     85 <lb/>Longa qualis figura.     197
         <br/>Lutuichus Senflius Tigurinus Symphonetes.     221 et 331 et 444
-        <lb/>Luciani locus discussus.     90
-        <br/>Lutuichi Regis Francorum Cantio iocosa.     468
+        <lb/>Luciani locus discussus.     90 <br/>Lutuichi Regis Francorum Cantio iocosa.     468
         <lb/>LYDIVS Modus ex F in f.     66
         <br/>Lydius Modus Arithmetic[o]s diuidi non potest.     70
         <lb/>Lydius quare quintus Modus.     76
@@ -838,35 +774,25 @@
         <br/>Lydij posterioris usus uerum exemplum in cantu plano.     129 et 30
         <lb/>Lydij ac Ionici commune exemplum in cantu plano.     eadem
         <br/>Lydij ac Ionici commune exemplum in cantu figurali.     337
-        <lb/>Lydij intonationes.     129
-        <br/>Lydij exempla in cantu mensurali.     328 ac deinceps
+        <lb/>Lydij intonationes.     129 <br/>Lydij exempla in cantu mensurali.     328 ac deinceps
         <lb/>Lydij Hypolydijque connexio.     144
         <br/>Lydij Hypolydijque connexorum exemplum in cantu plano.     145
-        <lb/>Lydij Hypolydijque connexorum exemplum in cantu mensurali.     338
-        <br/>M <lb/>Macrobius notatur.     94
-        <br/>[Magas] ut inclinandum nomen.     43
-        <lb/>Magas quid nominis significet.     46
-        <br/>Magas quid uere significet.     47
+        <lb/>Lydij Hypolydijque connexorum exemplum in cantu mensurali.     338 <br/>M
+        <lb/>Macrobius notatur.     94 <br/>[Magas] ut inclinandum nomen.     43
+        <lb/>Magas quid nominis significet.     46 <br/>Magas quid uere significet.     47
         <lb/>Magas Canon dicitur Georgio Vallae.     48
         <br/>Magadis quinque nomina ut distinguantur.     48
-        <lb/>Magados dis masculino genere.     47
-        <br/>Magadis idos foeminino genere.     46 et 47
-        <lb/>Magadis altera significatio.     48
-        <br/>[Magazein et magadizein] quid.     48
-        <lb/>Martiani Capellae uerba de XV Modis.     63
-        <br/>Maxaemylianus Caesar laudatur.     118
-        <lb/>Maxima qualis figura.     196
-        <br/>Mediatio diapason duplex.     21 et 68
+        <lb/>Magados dis masculino genere.     47 <br/>Magadis idos foeminino genere.     46 et 47
+        <lb/>Magadis altera significatio.     48 <br/>[Magazein et magadizein] quid.     48
+        <lb/>Martiani Capellae uerba de XV Modis.     63 <br/>Maxaemylianus Caesar laudatur.     118
+        <lb/>Maxima qualis figura.     196 <br/>Mediatio diapason duplex.     21 et 68
         <lb/>Mese et Paramese quid.     10
         <br/>Meson, secundum tetrachordum cum quatuor neruis.     10
-        <lb/>MICHAEL Rubellus Glareani praeceptor.     155
-        <br/>Minima qualis figura.     196
+        <lb/>MICHAEL Rubellus Glareani praeceptor.     155 <br/>Minima qualis figura.     196
         <lb/>Missa [dringx] Antonij Brumel et alia eius opera.     456
         <br/>Missae ad omnem tonum exemplum ex Okenheim.     455
-        <lb/>Mixolydius Modus ex G in g.     66
-        <br/>Mixolydius quare sic dictus.     77
-        <lb/>[Mixolydisti] apud Platonem.     127
-        <br/>Mixolydius quare septimus.     76
+        <lb/>Mixolydius Modus ex G in g.     66 <br/>Mixolydius quare sic dictus.     77
+        <lb/>[Mixolydisti] apud Platonem.     127 <br/>Mixolydius quare septimus.     76
         <lb/>Mixolydij cantiones multae indicatae.     134
         <br/>Mixolydij natura et usus apud ueteres.     133
         <lb/>Mixolydij exemplum in cantu plano.     135 et 136
@@ -877,91 +803,66 @@
         <br/>MODI Musici quid, nempe diapason species.     29
         <lb/>Modi Musici quomodo a nostrae aetatis Musicis tractentur.     29
         <br/>Modi IIII pares totidemque impares.     29
-        <lb/>Modi Musici Improprie toni dicuntur.     29
-        <br/>Modorum VIII. typus.     30
-        <lb/>Modorum uulgaris cognitio.     32
-        <br/>Modorum finis in cantibus.     31
-        <lb/>Modorum ambitus.     34
-        <br/>Modus ambitu suo flumini comparatur.     34
-        <lb/>Modorum uulgarium formula ex Franchino.     33
-        <br/>Modorum connexio.     34
+        <lb/>Modi Musici Improprie toni dicuntur.     29 <br/>Modorum VIII. typus.     30
+        <lb/>Modorum uulgaris cognitio.     32 <br/>Modorum finis in cantibus.     31
+        <lb/>Modorum ambitus.     34 <br/>Modus ambitu suo flumini comparatur.     34
+        <lb/>Modorum uulgarium formula ex Franchino.     33 <br/>Modorum connexio.     34
         <lb/>Modorum usus in cantantium Choro.     35
         <br/>Modorum in intonationibus formulae.     35
         <lb/>Modorum 8. intonationes in psalmis minor.     35 et 36
         <br/>Modorum 8. intonationes in psalmis maioribus.     36 et 37
-        <lb/>MODI Principes 6.     64
-        <br/>Modi Plagij item VI.     64
+        <lb/>MODI Principes 6.     64 <br/>Modi Plagij item VI.     64
         <lb/>Modi tres duntaxat apud Cantorum uulgus.     65
         <br/>Modi distinguuntur ut 7. diapason species.     65
         <lb/>Modi apud graecos Harmoniae uocantur.     65
         <br/>Modorum VII. siue septem Diapason specierum unde Modi sumuntur Boethiana 
-        <lb/>nomenclatura.     66
-        <br/>Modorum per aetates mutatio.     72
-        <lb/>Modi essentia duntaxat sunt VII.     72
-        <br/>Modorum ordo in nomenclatura.     76
+        <lb/>nomenclatura.     66 <br/>Modorum per aetates mutatio.     72
+        <lb/>Modi essentia duntaxat sunt VII.     72 <br/>Modorum ordo in nomenclatura.     76
         <lb/>Modi 6. de impari numero harmonic[o]s diuisi.     78
         <br/>Modi VI de pari numero arithmetic[os] diuisi.     78
         <lb/>Modi tres a Gentibus dicti.     76 et 77 et 78
         <br/>Modorum XII. certa ac per totum librorum contextum obseruanda deinde nomenclatura.     79
         <lb/>Modorum commutatio quaedam facilis quaedam difficilis.     89
-        <br/>Modorum connexio adlongum.     138
-        <lb/>Modorum proprie VI connexiones.     eadem
+        <br/>Modorum connexio adlongum.     138 <lb/>Modorum proprie VI connexiones.     eadem
         <br/>Modi Authentae a Plagijs quarta distant.     eadem
         <lb/>Modorum septima, sed impropria connexio quantum a prioribus differat.     139
         <br/>Modi potissimus per diapason ac eius mediationem secunundum diapente ac diatessaron 
         <lb/>noscuntur.     162
         <br/>Modorum duorum connexionis exempla in cantu mensurali.     362 ac deinceps ad longum.
         <lb/>Modorum occulta cognatio in concentu 4. uocum.     251
-        <br/>Modus in cantu mensurali quid.     201
-        <lb/>Modulandi tria genera.     9 <br/>
+        <br/>Modus in cantu mensurali quid.     201 <lb/>Modulandi tria genera.     9 <br/>
         <pb n="[f.b3v]"/> Monochordum quid authore Guidone.     46
         <lb/>Monochordi forma apud Rheni accolas.     48 et 49
         <br/>Monochordi diuisio qua uetus dubitatur.     49 et 50
         <lb/>Monochordi diuisio ad longum.     52
         <br/>Monochordi diuisio intra disdiapason consistit.     51
-        <lb/>Multiplex proportio.     227 et 228
-        <br/>Multiplex superparticularis proportio.     228
+        <lb/>Multiplex proportio.     227 et 228 <br/>Multiplex superparticularis proportio.     228
         <lb/>Multiplex superpartiens proportio quae.     228
-        <br/>Musicae definitio ac diuisio.     1
-        <lb/>Musice practice.     1
-        <br/>Musices practices elementa.     1
-        <lb/>Musica theorice triplex.     1
+        <br/>Musicae definitio ac diuisio.     1 <lb/>Musice practice.     1
+        <br/>Musices practices elementa.     1 <lb/>Musica theorice triplex.     1
         <br/>Musices generalis typus.     4
         <lb/>Musicum maxime est de Modis erudite iudicare.     251
-        <br/>Musae nouem quid significent.     98
-        <lb/>Mutatio quid in musicis.     12
-        <br/>Mutationis uocum exempla.     13
-        <lb/>Mutationes asperae ac uitandae.     14 <br/>N
-        <lb/>Nerui IIII priscae Musices.     9
-        <br/>[Nete] et Paranete et Trite quid.     10
-        <lb/>Neuma quid, et ut inclinetur.     131 et 43
-        <br/>Nicolaus Craen Symphonetes.     320
+        <br/>Musae nouem quid significent.     98 <lb/>Mutatio quid in musicis.     12
+        <br/>Mutationis uocum exempla.     13 <lb/>Mutationes asperae ac uitandae.     14 <br/>N
+        <lb/>Nerui IIII priscae Musices.     9 <br/>[Nete] et Paranete et Trite quid.     10
+        <lb/>Neuma quid, et ut inclinetur.     131 et 43 <br/>Nicolaus Craen Symphonetes.     320
         <lb/>Nicomachi opinio quo pacto fiat Consonantia.     24
         <br/>Nos qui uiuimus Antiphona Aeolij Modi.     109
         <lb/>Notularum cantus simplicis figurae ex Franchino.     9
         <br/>Notarum cantus mensuralis quae et quot numero.     196
-        <lb/>Notularum ligaturae cautionibus 8. perdiscuntur.     197
-        <br/>O
+        <lb/>Notularum ligaturae cautionibus 8. perdiscuntur.     197 <br/>O
         <lb/>Obiectiones ex Boethio et inibi aliquot eius loci tractati.     86 et 87
         <br/>Obrechth, quaere Iacobus Obrechth.
         <lb/>Octauus Ptolemaei Modus non est noster octauus.     70
-        <br/>Octo uocum Cantio Ioannis Mouton.     466
-        <lb/>Orto Symphonetes.     320
+        <br/>Octo uocum Cantio Ioannis Mouton.     466 <lb/>Orto Symphonetes.     320
         <br/>Ode Diuorum Ambrosij ac Augustini ad Hypophrygium decantata Modum.     110
-        <lb/>Octauarum eadem ratio.     5 <br/>P
-        <lb/>Pange lingua in cantu plano.     163
-        <br/>Passionis Dominicae Harmonia.     34 et 145
-        <lb/>Pater noster in Aeolio Modo.     105
-        <br/>Patrem in simplici cantu.     106
-        <lb/>Pausa et quot numero.     198
-        <br/>Pectis Musicum instrumentum.     47
-        <lb/>Peregrinus dictus Modus.     42
-        <br/>Perfectio in Musicis ternario constat.     200
-        <lb/>Permutatio uocum.     12 et 13
-        <br/>Phalecij carminis Harmonia.     186
-        <lb/>Phonascus et Symphonetes nascuntur.     174
-        <br/>Phonasci laus.     174
-        <lb/>Phrygius Modus ex E in e consistit.     66
+        <lb/>Octauarum eadem ratio.     5 <br/>P <lb/>Pange lingua in cantu plano.     163
+        <br/>Passionis Dominicae Harmonia.     34 et 145 <lb/>Pater noster in Aeolio Modo.     105
+        <br/>Patrem in simplici cantu.     106 <lb/>Pausa et quot numero.     198
+        <br/>Pectis Musicum instrumentum.     47 <lb/>Peregrinus dictus Modus.     42
+        <br/>Perfectio in Musicis ternario constat.     200 <lb/>Permutatio uocum.     12 et 13
+        <br/>Phalecij carminis Harmonia.     186 <lb/>Phonascus et Symphonetes nascuntur.     174
+        <br/>Phonasci laus.     174 <lb/>Phrygius Modus ex E in e consistit.     66
         <br/>Phrygius quare tertius dictus.     76
         <lb/>Phrygij natura explicata, et indicata eius exempla.     123
         <br/>Phrygij Modi exemplum in cantu plano.     124
@@ -970,60 +871,44 @@
         <lb/>Phrygij ac Hypomixolydij exempla inter D ac d, diuersa tamen phrasi.     163
         <br/>Phrygij Hypophrygijque connexio.     142
         <lb/>Phrygij Hypophrygijque connexorum exemplum in cantu plano.     142
-        <br/>Eorundem connexorum exemplum in cantu mensurali.     376
-        <lb/>Phthongus quid.     23
+        <br/>Eorundem connexorum exemplum in cantu mensurali.     376 <lb/>Phthongus quid.     23
         <br/>PLatonis opinio de consonantiae generatione.     24
         <lb/>Platonis locus de Musis.     99
         <br/>Platonis locus e libro 3. de Republica tractatus.     127
         <lb/>Plato quomodo reiecerit Lydium.     127 et 128
         <br/>Plagij Modi quomodo in Authentas cadant.     120
         <lb/>Planxit autem Dauid, in cantu mensurali explicatum.     367
-        <br/>Plinij locus excussus.     97
-        <lb/>Politianus non recte repraehendit Seruium.     83
+        <br/>Plinij locus excussus.     97 <lb/>Politianus non recte repraehendit Seruium.     83
         <br/>Politiani locus ex Panestemone.     88
         <lb/>Politiani et Franchini de Hyperphrygio reiecta opinio,     87 et 132
-        <br/>Porphyrionis locus discussus.     90
-        <lb/>Praeceptor Glareani Michael Rubellus.     155
-        <br/>Prolatio in Musicis quid.     201
-        <lb/>Proportio quid.     227
+        <br/>Porphyrionis locus discussus.     90 <lb/>Praeceptor Glareani Michael Rubellus.     155
+        <br/>Prolatio in Musicis quid.     201 <lb/>Proportio quid.     227
         <br/>Proportionum quinque genera.     228
         <lb/>Proportionum Musicarum nimia multitudo.     228
         <br/>Proslambanomene prima omnium Modorum chorda.     88
-        <lb/>Proslambanomene quare dicta.     10
-        <br/>Pulchra es amica mea in cantu plano.     142
-        <lb/>Punctum quid, et quot eius species.     199
-        <br/>Q
+        <lb/>Proslambanomene quare dicta.     10 <br/>Pulchra es amica mea in cantu plano.     142
+        <lb/>Punctum quid, et quot eius species.     199 <br/>Q
         <lb/>Quadrupla proportio et eius exemplum musicum.     231
         <br/>Quadruplae proportionis alia exempla,     232
         <lb/>Quartae diapente speciei in diezeugmenon exemplum.     439
         <br/>Quatuor uocum nomina noua.     239
         <lb/>Quaestio de praestantia Phonasci ac Symphonetes.     174
-        <br/>Querela de incertitudine huius artis.     214
-        <lb/>Quinque tetrachorda.     9 <br/>R
+        <br/>Querela de incertitudine huius artis.     214 <lb/>Quinque tetrachorda.     9 <br/>R
         <lb/>Regnum mundi Responsorium in cantu plano.     117
         <br/>Reiecta Musicorum opinio de triplici uocum qualitate.     2
-        <lb/>Res humanae mari comparatae.     177
-        <br/>Rotuila in Eremo Heluetiorum oppidum.     154 <lb/>
-        <pb n="[f.b4r]"/> S
-        <br/>Salue Regina in cantu plano.     119
+        <lb/>Res humanae mari comparatae.     177 <br/>Rotuila in Eremo Heluetiorum oppidum.     154 <lb/>
+        <pb n="[f.b4r]"/> S <br/>Salue Regina in cantu plano.     119
         <lb/>Sanctus de diua Virgine Maria in cantu plano.     116
         <br/>Sancti spiritus adsit nobis gratia prosa in cantu plano.     121
         <lb/>Sapphici carminis Harmonia ad Ionici diapason.     191
-        <br/>Schisma dimidium Dieseos.     27
-        <lb/>Sebaldus Heiden Musicus.     6 et 215
-        <br/>Sebastianus Brant.     159
-        <lb/>Semi quid Musicis significet.     18
-        <br/>Semibreuis qualis figura.     196
-        <lb/>Semiditas quid apud Neotericos musicos.     207
-        <br/>Semidiapente, quinta defecta.     20
-        <lb/>Semidiapason, Octaua defecta.     21
-        <br/>Semiditonus, Tertia minor.     19
-        <lb/>Semiditonus cum diapente, Septima minor.     21
-        <br/>Semifusa et semitonium quales figurae.     196
-        <lb/>Semitonium minus quid.     19
+        <br/>Schisma dimidium Dieseos.     27 <lb/>Sebaldus Heiden Musicus.     6 et 215
+        <br/>Sebastianus Brant.     159 <lb/>Semi quid Musicis significet.     18
+        <br/>Semibreuis qualis figura.     196 <lb/>Semiditas quid apud Neotericos musicos.     207
+        <br/>Semidiapente, quinta defecta.     20 <lb/>Semidiapason, Octaua defecta.     21
+        <br/>Semiditonus, Tertia minor.     19 <lb/>Semiditonus cum diapente, Septima minor.     21
+        <br/>Semifusa et semitonium quales figurae.     196 <lb/>Semitonium minus quid.     19
         <br/>Semitonium minus graece diesis siue lemma.     27
-        <lb/>Semitonium maius graece Apotome.     27
-        <br/>Semitonium cum diapente.     20
+        <lb/>Semitonium maius graece Apotome.     27 <br/>Semitonium cum diapente.     20
         <lb/>Semitonij minoris uis in omnium consonantiarum speciebus uariandis.     65 et 23 et 24
         <br/>Semitoniorum binorum loca in VII Diapason speciebus.     68 et 11
         <lb/>Semitonij unius duntaxat uariatio, et diapason speciem, et Modum uariat.     75
@@ -1032,8 +917,7 @@
         <br/>Sermo qualis in disciplinis esse debeat.     3
         <lb/>Seruij opinio de Citharae neruis aduersus Politianum defensa.     83
         <br/>Sesquipla siue sesquialtera proportio.     233
-        <lb/>Sesquialterae tria exempla.     233 et 234
-        <br/>Sesquialterae quartum exemplum.     236
+        <lb/>Sesquialterae tria exempla.     233 et 234 <br/>Sesquialterae quartum exemplum.     236
         <lb/>Sesquialterae quintum exemplum.     238
         <br/>Sicut Malus, Antiphona in cantu plano.     155
         <lb/>Signa Modi temporis ac prolationis.     101
@@ -1045,88 +929,69 @@
         <lb/>Sonus in coelo ac de eo duae opiniones     95
         <br/>Sonus in coelo secundum Pythagoricos authore Plinio.     97
         <lb/>Species in interuallis quomodo sumendae, Boethij regula.     23
-        <br/>Symbolum Nicenum in Aeolio Modo.     106
-        <lb/>Symphonetes et Phonascus quis.     164
-        <br/>Symphonetarum ingenia.     441
-        <lb/>Systema, Tropus, Constitutio quid.     67
+        <br/>Symbolum Nicenum in Aeolio Modo.     106 <lb/>Symphonetes et Phonascus quis.     164
+        <br/>Symphonetarum ingenia.     441 <lb/>Systema, Tropus, Constitutio quid.     67
         <br/>Syncope quid Neotericis Musicis ac eius exemplum.     213
         <lb/>Synemmenon tetrachordum tertium cum 4 chordis.     10
-        <br/>[Syntonolydisti] apud Platonem.     128
-        <lb/>Superparticularis proportio quae.     228
+        <br/>[Syntonolydisti] apud Platonem.     128 <lb/>Superparticularis proportio quae.     228
         <br/>Superpartiens proportio quae.     228 <lb/>T
         <br/>Tactus quid in Musicis et quottuplex.     203 et 204
         <lb/>Tactus notularum resolutione maxime cognoscitur.     204
-        <br/>Te Deum laudamus in cantu plano.     110
-        <lb/>Tempus quid in noua Musica.     201
+        <br/>Te Deum laudamus in cantu plano.     110 <lb/>Tempus quid in noua Musica.     201
         <br/>TENOR quare dicatur.     240
         <lb/>Tenorum, diapason non explentium exempla in cantu mensurali.     430. ac deinceps.
         <br/>Te Sanctum Dominum Responsorium in cantu plano.     154
         <lb/>Terentij locus in eunucho.     85
         <br/>Tetrachordum diezeugmenon ac synemmenon.     2. 9 et 10
-        <lb/>Tetrachordorum ratio sesquitertia.     10
-        <br/>Tetrachorda V. quaternis chordis,     10
+        <lb/>Tetrachordorum ratio sesquitertia.     10 <br/>Tetrachorda V. quaternis chordis,     10
         <lb/>Thomas Tzamen Aquaegranensis Symphonetes.     296
-        <br/>Threni Diuae Magdalenes ad Phrygium Modum.     314
-        <lb/>TONVS secunda perfecta.     19
-        <br/>Tonus cum diapente, sexta maior.     20
-        <lb/>Tonus non uere consonantia.     25
+        <br/>Threni Diuae Magdalenes ad Phrygium Modum.     314 <lb/>TONVS secunda perfecta.     19
+        <br/>Tonus cum diapente, sexta maior.     20 <lb/>Tonus non uere consonantia.     25
         <br/>Toni partitio cum partium definitionibus.     27
         <lb/>Tonus in duo aequa diuidi non potest.     27
         <br/>Tonus quomodo in sesquioctaua ratione certo deprehendatur.     45
         <lb/>Tonus nouenaria diuisione in Monochordi sectione prouenit.     50 et 51
         <br/>Transpositionis regula ac exemplum longum.     15 et 16
         <lb/>Transpositio signatarum clauium.     15 et 16
-        <br/>Tria ad perfectam Musicen necessaria.     44
-        <lb/>Tria modulandi genera.     11
-        <br/>Triplex chordarum diuisio.     50
-        <lb/>Triplex proportio.     230
+        <br/>Tria ad perfectam Musicen necessaria.     44 <lb/>Tria modulandi genera.     11
+        <br/>Triplex chordarum diuisio.     50 <lb/>Triplex proportio.     230
         <br/>Triplae proportionis duo exempla.     230 et 231
         <lb/>Tritonus, quarta diatonico generi inepta.     19
         <br/>Trium aetatum cantus mensurales.     240
         <lb/>Trochaici generis Harmonia ad Ionicum.     191
         <br/>Trochaici generis Harmonia ad Ionicum Hypoionicumque.     192 et 193
-        <lb/>Tropus cum systemate et Modo et constituti. Idem.     66
-        <br/>Tyndarida.     43
+        <lb/>Tropus cum systemate et Modo et constituti. Idem.     66 <br/>Tyndarida.     43
         <lb/>Typus octo uulgarium Modorum.     30
         <br/>Typus XV Modorum apud Martianum Capellam ut pinxit Franchinus.     62
         <lb/>Typus eorundem apud eundem ut pinxit Glareanus.     80
         <br/>Typus XII Aristoxeni Modorum.     81 <lb/>
-        <pb n="[f.b4v]"/> Typus Authentarum ac plagiorum diuisim ac coniunctim in notulis musicis.     82
+        <pb n="[f.b4v]"
+        /> Typus Authentarum ac plagiorum diuisim ac coniunctim in notulis musicis.     82
         <br/>Typus octo Modorum musicorum Ptolemaica descriptione.     67
         <lb/>Typus omnium Modorum et XXIIII constitutionum Diapason ex diapente ac diatessaron 
-        <br/>connexione.     69
-        <lb/>Typus alius omnium Modorum in lineis.     71
+        <br/>connexione.     69 <lb/>Typus alius omnium Modorum in lineis.     71
         <br/>Typus ultimus omnium Modorum in notulis.     73
-        <lb/>Typus connexionum omnium Modorum.     140
-        <br/>Typus Musices generalis.     4
+        <lb/>Typus connexionum omnium Modorum.     140 <br/>Typus Musices generalis.     4
         <lb/>Typus trium Modulandi generum.     12
         <br/>Typus 4 Diapente, 3. diatessaron specierum.     22
         <lb/>Typus ueterum Consonantiarum.     25
         <br/>Typus Consonantiarum ac Dissonantiarum nostrae aetatis.     26
         <lb/>Typus Diuisionis Monochordi in tribus modulandi generibus.     55
         <br/>Typus omnium in Tono partitionum.     28
-        <lb/>Typus duarum opinionum de sono in coelo.     96
-        <br/>Typus IX Musarum.     100
-        <lb/>Typus notularum omnium in cantu mensurali.     196
-        <br/>Typus ligaturarum.     197
-        <lb/>Typus pausarum.     198
-        <br/>Typus Puncti diuisionis ex Franchino.     199
+        <lb/>Typus duarum opinionum de sono in coelo.     96 <br/>Typus IX Musarum.     100
+        <lb/>Typus notularum omnium in cantu mensurali.     196 <br/>Typus ligaturarum.     197
+        <lb/>Typus pausarum.     198 <br/>Typus Puncti diuisionis ex Franchino.     199
         <lb/>Typus puncti perfectionis ac additionis ex Franchino.     200
         <br/>Typus Modi, Temporis, ac prolationis.     101
         <lb/>Typus signorum explicitorum ac implicitorum.     203
-        <br/>Typus resolutionum tres in tactu.     204
-        <lb/>V <br/>Vaqueras Symphonetes.     243
+        <br/>Typus resolutionum tres in tactu.     204 <lb/>V <br/>Vaqueras Symphonetes.     243
         <lb/>Veni Sancte Spiritus in cantu plano.     163
-        <br/>Versus in Gloria Patri Responsoriorum     37 et 38
-        <lb/>Versus introituum.     39 et 40
+        <br/>Versus in Gloria Patri Responsoriorum     37 et 38 <lb/>Versus introituum.     39 et 40
         <br/>Victimae Pascali, Prosa in cantu plano.     28 et 128
         <lb/>Eadem in cantu mensurali explicata.     363
-        <br/>Viginti claues in Guidonis Scala.     45
-        <lb/>Virgilij locus de Calliope.     99
-        <br/>Vnisonus quid.     19
-        <lb/>Vocum Musicarum sex sunt signa.     1
-        <br/>Voces superiores ac inferiores ternae.     2
-        <lb/>Voces fictae quae sint.     6
+        <br/>Viginti claues in Guidonis Scala.     45 <lb/>Virgilij locus de Calliope.     99
+        <br/>Vnisonus quid.     19 <lb/>Vocum Musicarum sex sunt signa.     1
+        <br/>Voces superiores ac inferiores ternae.     2 <lb/>Voces fictae quae sint.     6
         <br/>Vocum permutatio.     12
         <lb/>Voces duas ex una deducere.     441 ac deinceps multa exempla.
         <br/>Voces treis ex una diuersis signis Iusquini.     443
@@ -1135,24 +1000,23 @@
         <lb/>Voces Musicales ad fortunam Senflij.     222
         <br/>Vocum Musicalium deductio in cantu plano.     6
         <lb/>Vocum Musicalium simplex deductio in cantu mensurali.     226
-        <br/>Vtilitas Musicorum Modorum.     29
-        <lb/>Finis Indicis. <br/></p>
+        <br/>Vtilitas Musicorum Modorum.     29 <lb/>Finis Indicis. <br/></p>
       <p xml:id="GLADOD10205">
         <pb n="[1]"/>Henrichi Loriti Glareani, Patritij Claronensis apud Heluetios Dodecachordi,
         Liber I.</p>
       <p xml:id="GLADOD10206">De Musices diuisione ac definitione, Caput I.</p>
-      <p xml:id="GLADOD10207">MVSICA duplex est, Theorice ac practice. Theorice circa rerum musicarum
-        contemplationem uersatur: Ea triplex est authore Boethio libro 1. capite 2. Mundana, quae de
-        harmonia totius et partium mundi consyderat. Humana quae de proportionibus corporis et
-        animae, atque harum inter se partium pertractat. Tertia, quae in quibusdam consistere
-        dicitur instrumentis, ac de ea quidem idem author quinque libris disputat. Practice circa
-        executionem cantus consistit. Haec in Rhythmis est, in metris, in sonis. Et soni quidem,
-        alij in instrumentis, quae et ipsa uaria sunt, alij in humana uoce reperiuntur, de quibus
-        nunc potissimum disserere conabimur. de regulata uidelicet musica, quae de cantu est. Porro
-        cantus duplex est, alter simplex ac uniformis, quo nunc uulgo in templis utuntur, et de hoc
-        tractat musica plana, quam Gregorianam uocant: alter uarius ac multiformis, de quo est
-        musica quam alij figuralem, alij mensuralem nunc uocant. De hoc cantu quando apud ueteres
-        nihil, quod equidem sciam, reperitur certi, aetatis nostrae authorum traditionem in
+      <p xml:id="GLADOD10207">MVSICA duplex est, Theorice ac practice. Theorice circa rerum
+        musicarum contemplationem uersatur: Ea triplex est authore Boethio libro 1. capite 2.
+        Mundana, quae de harmonia totius et partium mundi consyderat. Humana quae de proportionibus
+        corporis et animae, atque harum inter se partium pertractat. Tertia, quae in quibusdam
+        consistere dicitur instrumentis, ac de ea quidem idem author quinque libris disputat.
+        Practice circa executionem cantus consistit. Haec in Rhythmis est, in metris, in sonis. Et
+        soni quidem, alij in instrumentis, quae et ipsa uaria sunt, alij in humana uoce reperiuntur,
+        de quibus nunc potissimum disserere conabimur. de regulata uidelicet musica, quae de cantu
+        est. Porro cantus duplex est, alter simplex ac uniformis, quo nunc uulgo in templis utuntur,
+        et de hoc tractat musica plana, quam Gregorianam uocant: alter uarius ac multiformis, de quo
+        est musica quam alij figuralem, alij mensuralem nunc uocant. De hoc cantu quando apud
+        ueteres nihil, quod equidem sciam, reperitur certi, aetatis nostrae authorum traditionem in
         posterioribus prosequemur.</p>
       <p xml:id="GLADOD10208">Definitio Theorices.</p>
       <p xml:id="GLADOD10209">Mvsica est facultas differentias acutorum et grauium sonorum, sensu ac
@@ -1160,10 +1024,10 @@
       <p xml:id="GLADOD10210">Definitio Practices.</p>
       <p xml:id="GLADOD10211">Mvsica est recte modulandi scientia. Diuus Augustinus.</p>
       <p xml:id="GLADOD10212">De elementis Practices, Caput II.</p>
-      <p xml:id="GLADOD10213">Qvando uero omnis mathesis in demonstratione consistit, et neque res ipsae
-        in disputationem uenire, neque uoces scribi possunt, Vocum signa inuenerunt musici, partim
-        figuris, quas nunc notas uocant, partim syllabarum appellatione, quae sex sunt usu receptae,
-        Vt, re, mi, fa, sol, la. Eas nunc frequentiore uerbo uoces appellant, signo pro re
+      <p xml:id="GLADOD10213">Qvando uero omnis mathesis in demonstratione consistit, et neque res
+        ipsae in disputationem uenire, neque uoces scribi possunt, Vocum signa inuenerunt musici,
+        partim figuris, quas nunc notas uocant, partim syllabarum appellatione, quae sex sunt usu
+        receptae, Vt, re, mi, fa, sol, la. Eas nunc frequentiore uerbo uoces appellant, signo pro re
         significata utentes. Sedes autem harum uocum claueis nominant <pb n="[2]"/>distinctas linea
         ac spacio in cantibus, ac aequis quidem dimensionibus linearum Parallelarum ad oculos, cum
         uoces tamen inter se non omnes aequo interuallo distent, ut postea de interuallis latius
@@ -1197,7 +1061,8 @@
         uocibus sol ac re. E, in spacio similiter duabus, la ac mi. Et F, in quarta parallela
         duabus, fa ac ut. G autem in spacio tribus, sol re et ut. Hic enim incipit sex uocum ordo,
         qui [diezeugmenon], id est, disiunctarum tetrachordum, hoc est mi in b claue habet, cum
-        praecedens ordo, qui in F incipit [synemmenon], id est, connexarum contineat <pb n="[3]"/>tetrachordum, hoc est, fa in b claue. Caeterum hactenus ab A sunt claues quas essentiales
+        praecedens ordo, qui in F incipit [synemmenon], id est, connexarum contineat <pb n="[3]"
+        />tetrachordum, hoc est, fa in b claue. Caeterum hactenus ab A sunt claues quas essentiales
         uocant, A. B. C. D. E. F. G. Reliquae deinde claues eodem modo, ut priores repetuntur,
         adiectis tamen pluribus uocibus propter mi ac fa in b claue, et minutis item literis a b c d
         e f g. post quas deinde geminatae sequntur quinque, aa. bb. cc. dd. ee. Mi tamen et fa in b
@@ -1205,17 +1070,17 @@
         autem semitonio minore. Itaque ipsae uoces duae in eadem, quidem ut uidetur, claue, plus
         distant inter se, quam uel mi a fa in c paruo, uel fa a mi in a paruo, quod postea, cum de
         toni partitione differemus, latius demonstrabimus.</p>
-      <p xml:id="GLADOD10214">[Dodecachordon, 3; text: [Gamma], A, sqb, C, D, E, F, G, a, b, c, d, e, f,
-        g, aa, bb, cc, dd, ee] <figure>
+      <p xml:id="GLADOD10214">[Dodecachordon, 3; text: [Gamma], A, sqb, C, D, E, F, G, a, b, c, d,
+        e, f, g, aa, bb, cc, dd, ee] <figure>
           <graphic url="/images/GLADOD1_01GF.gif"/>
         </figure></p>
-      <p xml:id="GLADOD10215">Si igitur b clauem unius loco numerabimus, erunt guidonicae scalae claues
-        uiginti hoc ordine: [Gamma] ut, A re, [sqb] mi, C fa ut, D sol re, E la mi, F fa ut, G sol
-        re ut, a la mi re, b fa [sqb] mi, c sol fa ut, d la sol re, e la mi, f fa ut, g sol re ut,
-        aa la mi re, bb fa [sqb] mi cc sol fa, dd la sol, ee la. Ita ut in cantu pernotando [Gamma].
-        ueniat in primam lineam, ut diximus. A autem in spatium supra primam lineam. Deinde uero
-        linea ac spacium gradatim sumant uoces in ascensu donec ad finem peruentum fuerit. Ita enim
-        scalae quaedam, siue in ascensu siue in descensu malis, erit imago. Vt in adposita
+      <p xml:id="GLADOD10215">Si igitur b clauem unius loco numerabimus, erunt guidonicae scalae
+        claues uiginti hoc ordine: [Gamma] ut, A re, [sqb] mi, C fa ut, D sol re, E la mi, F fa ut,
+        G sol re ut, a la mi re, b fa [sqb] mi, c sol fa ut, d la sol re, e la mi, f fa ut, g sol re
+        ut, aa la mi re, bb fa [sqb] mi cc sol fa, dd la sol, ee la. Ita ut in cantu pernotando
+        [Gamma]. ueniat in primam lineam, ut diximus. A autem in spatium supra primam lineam. Deinde
+        uero linea ac spacium gradatim sumant uoces in ascensu donec ad finem peruentum fuerit. Ita
+        enim scalae quaedam, siue in ascensu siue in descensu malis, erit imago. Vt in adposita
         descriptione perspicuum fuerit. Porro hoc loco admonitum Lectorem uelim, fieri haud
         potuisse, ut sermonem ex medio uulgi, ab omnibus, qui haec tractant, receptum, prorsus
         effugeremus, aut enim confictis nouis nominibus, cum ad hunc modum antiqua non fuerit
@@ -1251,16 +1116,16 @@
         1728, Ee la, 1536, 18, 34, 56, 78]</p>
       <p xml:id="GLADOD10217">
         <pb n="[5]"/>Quae in Guidonis typo rudibus huius artis consyderanda Caput III.</p>
-      <p xml:id="GLADOD10218">Primum itaque sciendum haud abs re factum esse, cur clauium initio literae
-        ponantur, addiscentibus enim id perutile. Sunt autem claues natura distinctae septem, ac
-        totidem literis a b c d e f g notatae: Per repetitionem uero 20 fiunt, hoc discrimine a
-        musicis pictae, maiusculis quidem formis primae septem post [Gamma] ut: sequentes deinde
-        septem, tenuibus. Porro extremae quinque, geminatis. Atque inde dicimus A magnum siue graue,
-        item a paruum siue acutum, Aa geminatum, et de reliquis clauibus eodem modo. Secundo
-        consyderandae sunt distantiae clauium. Nam clauis a proxima distat secunda: a tertia,
-        tertia: a quarta, quarta: et sic deinceps. Et in uniuersum eiusdem speciei literae, quaeuis
-        a proxima, octaua distat. Vt [Gamma] ut a G sol re ut: A re ab a la mi re, ac inde in
-        reliquis eodem coniectandum modo. Vbi haec regula notanda. De octauis idem esse iudicium,
+      <p xml:id="GLADOD10218">Primum itaque sciendum haud abs re factum esse, cur clauium initio
+        literae ponantur, addiscentibus enim id perutile. Sunt autem claues natura distinctae
+        septem, ac totidem literis a b c d e f g notatae: Per repetitionem uero 20 fiunt, hoc
+        discrimine a musicis pictae, maiusculis quidem formis primae septem post [Gamma] ut:
+        sequentes deinde septem, tenuibus. Porro extremae quinque, geminatis. Atque inde dicimus A
+        magnum siue graue, item a paruum siue acutum, Aa geminatum, et de reliquis clauibus eodem
+        modo. Secundo consyderandae sunt distantiae clauium. Nam clauis a proxima distat secunda: a
+        tertia, tertia: a quarta, quarta: et sic deinceps. Et in uniuersum eiusdem speciei literae,
+        quaeuis a proxima, octaua distat. Vt [Gamma] ut a G sol re ut: A re ab a la mi re, ac inde
+        in reliquis eodem coniectandum modo. Vbi haec regula notanda. De octauis idem esse iudicium,
         quod cum de uocibus, tum non minus de natura cantus intelligitur, Quaecunque enim uoces in G
         sol re ut sunt, eaedem et in [Gamma] ut recte cantari possunt: Et quae in a la mi re, eaedem
         in A re, quae in b fa [sqb] mi, eae itidem in [sqb] mi, nec dissimiliter de supremis
@@ -1316,8 +1181,8 @@
         recenti iuuenum memoriae diligenter inculcemus, hoc est quod uulgo dici solet, ut noscant
         differentiam inter mi ac fa. Subijciam huius unicum exemplum sed contrarijs mi ac fa
         pernotationibus.</p>
-      <p xml:id="GLADOD10225">[Dodecachordon, 8,2; text: Ite in orbem uniuersum, et praedicate dicentes
-        alleluia.]</p>
+      <p xml:id="GLADOD10225">[Dodecachordon, 8,2; text: Ite in orbem uniuersum, et praedicate
+        dicentes alleluia.]</p>
       <p xml:id="GLADOD10226">Nec inutile fuerit fortassis, unam aut alteram cantilenam clauibus
         transponere, ac pueris ostendere quam in diuersum longe abeat harmonia, si ex suis clauibus,
         uelut ianua e cardine, moueatur. Vt si quis cantionem Requiem, in a la mi re incipiat, sed
@@ -1340,46 +1205,48 @@
         idque bifariam, uel perpendiculo superior pingitur, ut hic F. Vel ab latere dextro, et sic
         semper habet caudam, ut hic G.</p>
       <p xml:id="GLADOD10228">[Dodecachordon, 9; text: B, C, D, E, F, G]</p>
-      <p xml:id="GLADOD10229">Verum haec prisca quorundam usus corrupit, maximeque Germania, quanquam
-        apud eos coenobia utcunque antiquitatem seruant. Denique hae picturae in cantorum nunc sunt
-        arbitrio, quo uix aliud hominum genus est morosius.</p>
+      <p xml:id="GLADOD10229">Verum haec prisca quorundam usus corrupit, maximeque Germania,
+        quanquam apud eos coenobia utcunque antiquitatem seruant. Denique hae picturae in cantorum
+        nunc sunt arbitrio, quo uix aliud hominum genus est morosius.</p>
       <p xml:id="GLADOD10230">De quinque Tetrachordis et tribus modulandi generibus, Caput V.</p>
-      <p xml:id="GLADOD10231">A Deo quondam simplex erat musica, authore Nicomacho apud Seuerinum, ut
-        quatuor neruis tota constaret: Idque usque ad Orpheum durauit. Porro tale ex quatuor chordis
-        corpus, tetrachordum appellabant. Deinde paulatim in pentachordon, hexachordon, <pb n="[10]"/>heptachordon, octochordon, enneachordon, decachordon, hendecachordon, dodecachordon,
-        denique in decem ac quatuor chordas excreuit. Quibus deinde addita decima quinta chorda
-        disdiapason impleuit, quae ideo [proslambanomene] dicta est, ut apud eundem Seuerinum libro
-        1. capite 20. diligenter excussum est. Sed tamen prisca chordarum in tetrachorda mansit
-        diuisio, adeo ueterum simplicitas posteritati alicubi placuit. Quare in toto huius scalae
-        ordine graeco quinque tetrachorda ponuntur, quorum singulorum ratio est sesquitertia, et
-        consonantiam habent diatessaron, id est, quartam, mi la. Primum itaque tetrachordon post
-        proslambanomenen incipit, et est [ton hypaton], id est, primarum uel principalium chordarum.
-        Sunt autem hae quatuor: [hypate hypaton. parypate hypaton. lichanos hypaton] et [hypate
-        meson]. In Guidonis uero scala, [sqb]. C. D. E. Secundum tetrachordum est [ton meson], id
-        est, mediarum, connexum priori, quippe quae communem habent chordam. Itaque huius quatuor
-        hae sunt chordae, [hypate meson, parypate meson. lichanos meson] et [mese]. Apud Guidonem,
-        E. F. G. a. Tertium est [ton synemmenon] id est, connexarum, habet autem has quatuor
-        chordas, [Mesen. triten synemmenon. paraneten synemmenon], et [neten synemmenon]. Apud
-        Guidonem, a b c d. Quartum [ton diezeugmenon], id est, disiunctarum, neque enim hoc cum
-        prioribus coniungitur, sed a mese tono distat. Cuius sunt hae chordae: [Paramese. Trite
-        diezeugmenon. paranete diezeugmenon. nete diezeugmenon]. Apud Guidonem [sqb] c d e. Quintum
-        [ton hyperbolaion]. id est, excellentium, communem cum precedente tetrachordo habens neruum.
-        Eius hae sunt chordae, [nete diezeugmenon. trite hyperbolaion. paranete hyperbolaion] et
-        [nete hyperbolaion]. Apud Guidonem, e. f. g. Aa. Tertium sane tetrachordum synemmenon
-        dictum, quod cum mese connexum sit, [apo tou synaptesthai], Corruptum nomen apud authores,
-        ut apud Vitruuium libro 5. capite 4. Vbi [synemmenon], legitur in uulgatis codicibus, pro
-        [synemmenon]. At contraria ratione [diezeugmenon] dictum quod a mese tono se iungatur, ut
-        diximus. Interpretatur et Aulus Gellius libro 16. capite 8. haec ad eundem modum. [Neten]
-        autem quasi [neaten], extremam acutissimamque tetrachordi uocarunt musici chordam.
-        [Paraneten] uero, quod iuxta [neten] sit. [Triten] uero tertiam a nete. [Meson] denique, id
-        est, mediam. [Paramesen], id est, iuxta Mesen. Lichanon, id est, distinctiuam quod nomen [ek
-        tou leicho] Suidas deduci existimat. Cum autem duo coniuncta tetrachorda non impleant
-        diapason, idcirco ad duo infima tetrachorda, uidelicet [meson] ac [hypaton] annexus est
-        tonus inferius, nempe ab hypate hypaton ad proslambanomenen, ad duo item suprema
-        hyperbolaeon ac diezeugmenon alter tonus a paramese ad mesen, itaque utrinque diapason
-        systema completum est, quae simul connexa disdiapason a proslambanomene ad neten
+      <p xml:id="GLADOD10231">A Deo quondam simplex erat musica, authore Nicomacho apud Seuerinum,
+        ut quatuor neruis tota constaret: Idque usque ad Orpheum durauit. Porro tale ex quatuor
+        chordis corpus, tetrachordum appellabant. Deinde paulatim in pentachordon, hexachordon, <pb
+          n="[10]"/>heptachordon, octochordon, enneachordon, decachordon, hendecachordon,
+        dodecachordon, denique in decem ac quatuor chordas excreuit. Quibus deinde addita decima
+        quinta chorda disdiapason impleuit, quae ideo [proslambanomene] dicta est, ut apud eundem
+        Seuerinum libro 1. capite 20. diligenter excussum est. Sed tamen prisca chordarum in
+        tetrachorda mansit diuisio, adeo ueterum simplicitas posteritati alicubi placuit. Quare in
+        toto huius scalae ordine graeco quinque tetrachorda ponuntur, quorum singulorum ratio est
+        sesquitertia, et consonantiam habent diatessaron, id est, quartam, mi la. Primum itaque
+        tetrachordon post proslambanomenen incipit, et est [ton hypaton], id est, primarum uel
+        principalium chordarum. Sunt autem hae quatuor: [hypate hypaton. parypate hypaton. lichanos
+        hypaton] et [hypate meson]. In Guidonis uero scala, [sqb]. C. D. E. Secundum tetrachordum
+        est [ton meson], id est, mediarum, connexum priori, quippe quae communem habent chordam.
+        Itaque huius quatuor hae sunt chordae, [hypate meson, parypate meson. lichanos meson] et
+        [mese]. Apud Guidonem, E. F. G. a. Tertium est [ton synemmenon] id est, connexarum, habet
+        autem has quatuor chordas, [Mesen. triten synemmenon. paraneten synemmenon], et [neten
+        synemmenon]. Apud Guidonem, a b c d. Quartum [ton diezeugmenon], id est, disiunctarum, neque
+        enim hoc cum prioribus coniungitur, sed a mese tono distat. Cuius sunt hae chordae:
+        [Paramese. Trite diezeugmenon. paranete diezeugmenon. nete diezeugmenon]. Apud Guidonem
+        [sqb] c d e. Quintum [ton hyperbolaion]. id est, excellentium, communem cum precedente
+        tetrachordo habens neruum. Eius hae sunt chordae, [nete diezeugmenon. trite hyperbolaion.
+        paranete hyperbolaion] et [nete hyperbolaion]. Apud Guidonem, e. f. g. Aa. Tertium sane
+        tetrachordum synemmenon dictum, quod cum mese connexum sit, [apo tou synaptesthai],
+        Corruptum nomen apud authores, ut apud Vitruuium libro 5. capite 4. Vbi [synemmenon],
+        legitur in uulgatis codicibus, pro [synemmenon]. At contraria ratione [diezeugmenon] dictum
+        quod a mese tono se iungatur, ut diximus. Interpretatur et Aulus Gellius libro 16. capite 8.
+        haec ad eundem modum. [Neten] autem quasi [neaten], extremam acutissimamque tetrachordi
+        uocarunt musici chordam. [Paraneten] uero, quod iuxta [neten] sit. [Triten] uero tertiam a
+        nete. [Meson] denique, id est, mediam. [Paramesen], id est, iuxta Mesen. Lichanon, id est,
+        distinctiuam quod nomen [ek tou leicho] Suidas deduci existimat. Cum autem duo coniuncta
+        tetrachorda non impleant diapason, idcirco ad duo infima tetrachorda, uidelicet [meson] ac
+        [hypaton] annexus est tonus inferius, nempe ab hypate hypaton ad proslambanomenen, ad duo
+        item suprema hyperbolaeon ac diezeugmenon alter tonus a paramese ad mesen, itaque utrinque
+        diapason systema completum est, quae simul connexa disdiapason a proslambanomene ad neten
         hyperbolaeon constituunt, maximum in musica systema. Praeterea in Guidonis scala numerus in
-        medio positus, chordarum rationes explicat. Nam [proslambanomene], ad mesen duplam <pb n="[11]"/>habet rationem, per hos numeros ostensam 9216. et 4608. Eandem et Mese ad neten
+        medio positus, chordarum rationes explicat. Nam [proslambanomene], ad mesen duplam <pb
+          n="[11]"/>habet rationem, per hos numeros ostensam 9216. et 4608. Eandem et Mese ad neten
         hyperbolaeon his numeris, 4608. et 2304. Quare a proslambanomene ad neten hyperbolaeon ratio
         est quadrupla. Id in minoribus numeris, ut Typo quoque adscripsimus facilius uideri potest.
         Ipse autem Seuerinus tam magnis numeris utitur propter schismata Commatis partes, quod in
@@ -1425,34 +1292,34 @@
           <graphic url="/images/GLADOD1_04GF.gif"/>
         </figure></p>
       <p xml:id="GLADOD10233">De uocum permutationibus per omneis claues, Caput VI.</p>
-      <p xml:id="GLADOD10234">Mvtationem hic uocamus consonam uocis in aliam uariationem. Voces autem
-        (ait Franchinus) ipsas hexachordarum syllabas intelligo. Non igitur uox mutatur in uocem per
-        intentionem aut remissionem, <pb n="[13]"/>sed syllaba in syllabam. Ea autem de causa
-        mutationem inuenere Musici, quod unica deductio, hoc est, sex syllabarum progressio, non
-        sufficit ad ascensum, ac descensum quem habent cantilenae. Ideoque septem deductiones hoc
-        pacto dispositae sunt, ut mutuis ipsae se officijs leuent, atque aliae alijs succenturient.
-        Ita tamen ut uocibus obuiam ueniant uoces eiusdem utraque naturae. Sic prima deductio in E
-        la mi desinit, ubi obuenit uox mi, eiusdem cum la naturae, distat enim ab ea quarta, diximus
-        autem quartam quanquam uocem eiusdem esse a quarta naturae. Neque uero uelim rem non admodum
-        difficilem, tot praeceptionibus confundi, ut uidere licet apud quosdam nostra aetate
-        musicos, monstrosa propemodum praecipientes. Sed omnino mutationes fiunt, ascensu uocis
-        superioris in inferiorem, descensu contra inferioris in superiorem. Vt in C fa ut, ascensu
-        fa in ut, descensu, ut in fa, sic in D sol re, sol in re, et re in sol. In E la mi, la in
-        mi, et mi in la. In F fa ut prorsus ut in C fa ut.</p>
+      <p xml:id="GLADOD10234">Mvtationem hic uocamus consonam uocis in aliam uariationem. Voces
+        autem (ait Franchinus) ipsas hexachordarum syllabas intelligo. Non igitur uox mutatur in
+        uocem per intentionem aut remissionem, <pb n="[13]"/>sed syllaba in syllabam. Ea autem de
+        causa mutationem inuenere Musici, quod unica deductio, hoc est, sex syllabarum progressio,
+        non sufficit ad ascensum, ac descensum quem habent cantilenae. Ideoque septem deductiones
+        hoc pacto dispositae sunt, ut mutuis ipsae se officijs leuent, atque aliae alijs
+        succenturient. Ita tamen ut uocibus obuiam ueniant uoces eiusdem utraque naturae. Sic prima
+        deductio in E la mi desinit, ubi obuenit uox mi, eiusdem cum la naturae, distat enim ab ea
+        quarta, diximus autem quartam quanquam uocem eiusdem esse a quarta naturae. Neque uero uelim
+        rem non admodum difficilem, tot praeceptionibus confundi, ut uidere licet apud quosdam
+        nostra aetate musicos, monstrosa propemodum praecipientes. Sed omnino mutationes fiunt,
+        ascensu uocis superioris in inferiorem, descensu contra inferioris in superiorem. Vt in C fa
+        ut, ascensu fa in ut, descensu, ut in fa, sic in D sol re, sol in re, et re in sol. In E la
+        mi, la in mi, et mi in la. In F fa ut prorsus ut in C fa ut.</p>
       <p xml:id="GLADOD10235">Exempla clauium duarum uocum</p>
       <p xml:id="GLADOD10236">[Dodecachordon, 13; text: C, D, E, F]</p>
-      <p xml:id="GLADOD10237">In clauibus uero ternas habentibus uoces unica cautio est, ut diligenter
-        inspiciamus b fa [sqb] mi clauem, ad eam sane omnia dirigenda. Habet enim aliquando fa,
-        quoties b tenue a marginibus pingitur, aliquando mi, cum nullum b adpingitur. Et secundum ea
-        quidem necesse est reliquas disponere uoces. Nam si ascendas, ac in b fa [sqb] mi claue mi
-        canatur, in G accipiendum est Vt, non Re, quod Vt in descensu, rursus in sol mutatur. Contra
-        si in b fa [sqb] mi canatur fa, tum eadem in claue G, re sumendum, non ut. Idemque re in
-        descensu in sol uertetur: Consimili modo de a dicendum. In superioribus autem clauibus, d la
-        sol re, la habet, siquidem fa in b fuerit, Sol uero, si mi, in eadem. Pari modo de c
-        considerandum. At dicet aliquis, unde sciam quando fa, quando mi in b fuerit claue? aio
-        musicos nostri seculi (quam uetustus hic mos sit, mihi parum liquet) consuesse b tenue ab
-        cantilenarum initio ponere, quoties fa cantandum in b claue, quoties uero mi, nihil nota
-        reconsuesse. Codicum autem errorem, Modorum peritus facile pernoscet, sed id postea
+      <p xml:id="GLADOD10237">In clauibus uero ternas habentibus uoces unica cautio est, ut
+        diligenter inspiciamus b fa [sqb] mi clauem, ad eam sane omnia dirigenda. Habet enim
+        aliquando fa, quoties b tenue a marginibus pingitur, aliquando mi, cum nullum b adpingitur.
+        Et secundum ea quidem necesse est reliquas disponere uoces. Nam si ascendas, ac in b fa
+        [sqb] mi claue mi canatur, in G accipiendum est Vt, non Re, quod Vt in descensu, rursus in
+        sol mutatur. Contra si in b fa [sqb] mi canatur fa, tum eadem in claue G, re sumendum, non
+        ut. Idemque re in descensu in sol uertetur: Consimili modo de a dicendum. In superioribus
+        autem clauibus, d la sol re, la habet, siquidem fa in b fuerit, Sol uero, si mi, in eadem.
+        Pari modo de c considerandum. At dicet aliquis, unde sciam quando fa, quando mi in b fuerit
+        claue? aio musicos nostri seculi (quam uetustus hic mos sit, mihi parum liquet) consuesse b
+        tenue ab cantilenarum initio ponere, quoties fa cantandum in b claue, quoties uero mi, nihil
+        nota reconsuesse. Codicum autem errorem, Modorum peritus facile pernoscet, sed id postea
         docebimus. Sint autem haec exempla clauium ternas habentium uoces.</p>
       <p xml:id="GLADOD10238">
         <pb n="[14]"/>[Dodecachordon, 14,1; text: G, a, d, c] <figure>
@@ -1465,30 +1332,31 @@
         species fa fa canitur, deinde ad finem cantus quarta efficitur, ut sol, mutatione mi in fa,
         in b claue. Eius hoc est exemplum.</p>
       <p xml:id="GLADOD10240">[Dodecachordon, 14,2]</p>
-      <p xml:id="GLADOD10241">Et ad euitandum tritonum, uno quidem saltu, in genere diatonico inauditum
-        insuauemque, saepe eadem mi in fa permutatio contingat, necesse est, ut in his exemplis.</p>
+      <p xml:id="GLADOD10241">Et ad euitandum tritonum, uno quidem saltu, in genere diatonico
+        inauditum insuauemque, saepe eadem mi in fa permutatio contingat, necesse est, ut in his
+        exemplis.</p>
       <p xml:id="GLADOD10242">[Dodecachordon, 14,3]</p>
       <p xml:id="GLADOD10243">Caeterum qualia mox subnectemus, dura illa fugienda existimo, et ad
         extremos Garamantas releganda, nisi subsit certa ratio, quam in Gradualibus esse diximus.
         Sed sint haec Franchini exempla eam rem ostendentia.</p>
       <p xml:id="GLADOD10244">
         <pb n="[15]"/>[Dodecachordon, 15,1]</p>
-      <p xml:id="GLADOD10245">In b fa [sqb] mi autem fieri mutationem, cum non sit eadem uocum altitudo,
-        plane ineptum est. Et cantus ita institutus ut nullum sit mutandi alibi quam in b refugium
-        et ipse ineptus est, genus enim diatonicum, quo solo nunc utimur, minime hoc patitur. Est
-        huius etiam exemplum ex Franchino.</p>
+      <p xml:id="GLADOD10245">In b fa [sqb] mi autem fieri mutationem, cum non sit eadem uocum
+        altitudo, plane ineptum est. Et cantus ita institutus ut nullum sit mutandi alibi quam in b
+        refugium et ipse ineptus est, genus enim diatonicum, quo solo nunc utimur, minime hoc
+        patitur. Est huius etiam exemplum ex Franchino.</p>
       <p xml:id="GLADOD10246">[Dodecachordon, 15,2]</p>
-      <p xml:id="GLADOD10247">Illud postremo notandum in longis saltibus ut octauis, septimis, sextis,
-        nullam fieri mutationem. Item in quintis mi mi: fa fa. Nam hae hexachordorum ordinem
+      <p xml:id="GLADOD10247">Illud postremo notandum in longis saltibus ut octauis, septimis,
+        sextis, nullam fieri mutationem. Item in quintis mi mi: fa fa. Nam hae hexachordorum ordinem
         egrediuntur, sed simpliciter uoces sunt appraehendendae, ut in clauibus inueniuntur.
         Exempla.</p>
       <p xml:id="GLADOD10248">[Dodecachordon, 15,3]</p>
       <p xml:id="GLADOD10249">De clauium signatarum transpositione, Caput VII.</p>
-      <p xml:id="GLADOD10250">Mos hactenus apud Musicos huius seculi mansit, ut non plus quinque lineis
-        cantum notarent, saepius etiam quatuor. Atqui cantus has aliquando excedit. Ergo inuenta est
-        transpositio per claueis, hae enim in lineis mutantur, et ut ipsae cedunt, ita cum eis
-        notulae uariant. Hic autem unice hoc obseruandum, ut respiciamus, qua in claue prior notula
-        steterit, atque ex aequo, ubi posterior. Deinde facta comparatione, distantia facile
+      <p xml:id="GLADOD10250">Mos hactenus apud Musicos huius seculi mansit, ut non plus quinque
+        lineis cantum notarent, saepius etiam quatuor. Atqui cantus has aliquando excedit. Ergo
+        inuenta est transpositio per claueis, hae enim in lineis mutantur, et ut ipsae cedunt, ita
+        cum eis notulae uariant. Hic autem unice hoc obseruandum, ut respiciamus, qua in claue prior
+        notula steterit, atque ex aequo, ubi posterior. Deinde facta comparatione, distantia facile
         dinoscetur. Vt si prior notula in F fa ut fuerit, posterior uero in c sol fa ut, certum est
         illas distare quinta. Cautius tamen agunt, quoties fieri poterit, qui a marginibus claueis
         transponunt. Nam ita absque errore cantantis ipse cantus transcurritur. Est item nostratium
@@ -1513,8 +1381,8 @@
         libro plura. Denique haec cantio, si in F ordiemur, ut nunc receptum est, sex lineis
         continetur, quinque autem spacijs. At si principium in C, sumat, quod nunc aboleuit, quinque
         lineis pernotabitur, adiecta unica superne inferneque notula.</p>
-      <p xml:id="GLADOD10251">[Dodecachordon, 16; text: Alma Redemptoris mater, quae peruia coeli Porta
-        manens, et stella maris, succurre cadenti, Surgere qui curat, Populo. Tu quae] <figure>
+      <p xml:id="GLADOD10251">[Dodecachordon, 16; text: Alma Redemptoris mater, quae peruia coeli
+        Porta manens, et stella maris, succurre cadenti, Surgere qui curat, Populo. Tu quae] <figure>
           <graphic url="/images/GLADOD1_06GF.gif"/>
         </figure></p>
       <p xml:id="GLADOD10252">
@@ -1527,39 +1395,39 @@
         illud aue peccatorum miserere Euouae.] <figure>
           <graphic url="/images/GLADOD1_07GF.gif"/>
         </figure></p>
-      <p xml:id="GLADOD10254">De interuallis musicis et quomodo consonantiarum species sumendae, Caput
-        VIII.</p>
-      <p xml:id="GLADOD10255">Magnum hoc est negotium, et in quo maior musicae cogitationis est portio,
-        utpote de elementis ac principijs huius disciplinae, quae nos tamen breuiter recensebimus.
-        Primum quid nostra aetas de his praecipiat, deinde aliquam saltem priscae traditionis
-        degustationem faciemus. Interuallum igitur, definitore Boethio, est soni acuti grauisque
-        distantia, quemadmodum ut re, ut mi, ut fa, et caetera. Vtile autem fuerit, si interuallorum
-        singulorum nomina aperiamus, et secundum nomina, quid unumquodque eorum sit, explicemus.
-        Quindecim igitur sunt interualla, quemadmodum nostra aetate docent musici. Vnisonus: Tonus:
-        Semitonium minus: Ditonus: Semiditonus: Tritonus: Diatessaron: Diapente: Semidiapente: Tonus
-        cum diapeute: Semitonium cum diapente: Ditonus cum diapente: Semiditonus cum diapente:
-        Diapason: Semidiapason. Hi unisonum ita interuallum uocant, ut Arithmetici monada, numerum.
-        Reliqua omnia bina, perfectum ac imperfectum, ipsa uoce semi non medietatem, sed
-        impefectionem notante. Compositio omnium interuallorum ex tono, ac semitonio minore constat
-        inter septem essentialium clauium, ac ipsius Diapason limites manente theoria. Loquimur
-        autem hic de genere diatonico, in quod non uenit Apotome, id est, semitonium maius. Sed de
-        his postea clarius. Nunc ipsa interualla ordine recensebimus.</p>
+      <p xml:id="GLADOD10254">De interuallis musicis et quomodo consonantiarum species sumendae,
+        Caput VIII.</p>
+      <p xml:id="GLADOD10255">Magnum hoc est negotium, et in quo maior musicae cogitationis est
+        portio, utpote de elementis ac principijs huius disciplinae, quae nos tamen breuiter
+        recensebimus. Primum quid nostra aetas de his praecipiat, deinde aliquam saltem priscae
+        traditionis degustationem faciemus. Interuallum igitur, definitore Boethio, est soni acuti
+        grauisque distantia, quemadmodum ut re, ut mi, ut fa, et caetera. Vtile autem fuerit, si
+        interuallorum singulorum nomina aperiamus, et secundum nomina, quid unumquodque eorum sit,
+        explicemus. Quindecim igitur sunt interualla, quemadmodum nostra aetate docent musici.
+        Vnisonus: Tonus: Semitonium minus: Ditonus: Semiditonus: Tritonus: Diatessaron: Diapente:
+        Semidiapente: Tonus cum diapeute: Semitonium cum diapente: Ditonus cum diapente: Semiditonus
+        cum diapente: Diapason: Semidiapason. Hi unisonum ita interuallum uocant, ut Arithmetici
+        monada, numerum. Reliqua omnia bina, perfectum ac imperfectum, ipsa uoce semi non
+        medietatem, sed impefectionem notante. Compositio omnium interuallorum ex tono, ac semitonio
+        minore constat inter septem essentialium clauium, ac ipsius Diapason limites manente
+        theoria. Loquimur autem hic de genere diatonico, in quod non uenit Apotome, id est,
+        semitonium maius. Sed de his postea clarius. Nunc ipsa interualla ordine recensebimus.</p>
       <p xml:id="GLADOD10256">
         <pb n="[19]"/>I.</p>
-      <p xml:id="GLADOD10257">Vnisonus est quando eadem uox iterum atque iterum repetitur, ut si saepius
-        ut ut ut, re re re, mi mi mi, et caetera repetamus. Psallendo sane hoc nunc in templis
-        maxime utuntur, totus enim uersus unisonum habet, praeter mediae pausae unam alteramue
-        notulas, et caudam, ut uocant, finalem.</p>
+      <p xml:id="GLADOD10257">Vnisonus est quando eadem uox iterum atque iterum repetitur, ut si
+        saepius ut ut ut, re re re, mi mi mi, et caetera repetamus. Psallendo sane hoc nunc in
+        templis maxime utuntur, totus enim uersus unisonum habet, praeter mediae pausae unam
+        alteramue notulas, et caudam, ut uocant, finalem.</p>
       <p xml:id="GLADOD10258">[Dodecachordon, 19,1; text: Vnisonus]</p>
       <p xml:id="GLADOD10259">II.</p>
-      <p xml:id="GLADOD10260">Tonus, secunda perfecta, de proxima quaque notula in proximam, uelut ex ut
-        in re, ex re in mi, demptis duntaxat mi fa simul connexis, hae enim uoces non faciunt tonum,
-        sed minus quam toni dimidium: At diuisae inter se, ac cum alijs nexae, tonum non minus
-        faciunt, quam aliae, ut mi cum re, fa cum sol.</p>
+      <p xml:id="GLADOD10260">Tonus, secunda perfecta, de proxima quaque notula in proximam, uelut
+        ex ut in re, ex re in mi, demptis duntaxat mi fa simul connexis, hae enim uoces non faciunt
+        tonum, sed minus quam toni dimidium: At diuisae inter se, ac cum alijs nexae, tonum non
+        minus faciunt, quam aliae, ut mi cum re, fa cum sol.</p>
       <p xml:id="GLADOD10261">[Dodecachordon, 19,2; text: Tonus]</p>
       <p xml:id="GLADOD10262">III.</p>
-      <p xml:id="GLADOD10263">Semitonium minus, secunda imperfecta, ex mi in fa, ut iam diximus. Porro
-        ex his duobus interuallis tono ac hemitonio minore, reliqua omnia conficiuntur, itaque
+      <p xml:id="GLADOD10263">Semitonium minus, secunda imperfecta, ex mi in fa, ut iam diximus.
+        Porro ex his duobus interuallis tono ac hemitonio minore, reliqua omnia conficiuntur, itaque
         primum memoriae commendanda, praecipue minorum hemitoniorum loca. Nam ex eis, interuallorum
         species potissimum sumuntur.</p>
       <p xml:id="GLADOD10264">[Dodecachordon, 19,3; text: Semitonium minus]</p>
@@ -1569,22 +1437,22 @@
         Enharmonico.</p>
       <p xml:id="GLADOD10267">[Dodecachordon, 19,4; text: Ditonus]</p>
       <p xml:id="GLADOD10268">V.</p>
-      <p xml:id="GLADOD10269">Semiditonus, tertia imperfecta ac mollior, ex tono ac hemitonio minore.
-        Eius item duae species, ex re in fa, et ex mi in sol, hac etiam consonantia separantur nete
-        ac paranete chordae in chromate, ut antea diximus.</p>
+      <p xml:id="GLADOD10269">Semiditonus, tertia imperfecta ac mollior, ex tono ac hemitonio
+        minore. Eius item duae species, ex re in fa, et ex mi in sol, hac etiam consonantia
+        separantur nete ac paranete chordae in chromate, ut antea diximus.</p>
       <p xml:id="GLADOD10270">[Dodecachordon, 19,5; text: Semiditonus]</p>
       <p xml:id="GLADOD10271">VI.</p>
-      <p xml:id="GLADOD10272">Tritonus, quarta dura, et generi diatonico plane inepta, ex tribus tonis
-        constat, quo uno saltu nemo in cantu utitur, sed in secunda atque tertia diapente speciebus
-        est, semitonio minore inferne superneque con nexo, ab F fa ut in mi, quod est in b
+      <p xml:id="GLADOD10272">Tritonus, quarta dura, et generi diatonico plane inepta, ex tribus
+        tonis constat, quo uno saltu nemo in cantu utitur, sed in secunda atque tertia diapente
+        speciebus est, semitonio minore inferne superneque con nexo, ab F fa ut in mi, quod est in b
         claue.</p>
       <p xml:id="GLADOD10273">[Dodecachordon, 19,6; text: Tritonus]</p>
       <p xml:id="GLADOD10274">
         <pb n="[20]"/>VII.</p>
-      <p xml:id="GLADOD10275">Diatessaron, quarta mollior, et quae omnibus modulandi generibus apta est,
-        uidelicet qua omnium tetrachordorum extremae distant chordae, magnitudo uero haec ex duobus
-        tonis ac semitonio minore est, ut ut medij instituantur nerui. Tres eius sunt species,
-        secundum tria hemitoniorum loca, ex re in sol. ex mi in la, ex ut in fa.</p>
+      <p xml:id="GLADOD10275">Diatessaron, quarta mollior, et quae omnibus modulandi generibus apta
+        est, uidelicet qua omnium tetrachordorum extremae distant chordae, magnitudo uero haec ex
+        duobus tonis ac semitonio minore est, ut ut medij instituantur nerui. Tres eius sunt
+        species, secundum tria hemitoniorum loca, ex re in sol. ex mi in la, ex ut in fa.</p>
       <p xml:id="GLADOD10276">[Dodecachordon, 20,1; text: [Diatessaron]. id est, per quatuor.]</p>
       <p xml:id="GLADOD10277">VIII.</p>
       <p xml:id="GLADOD10278">Diapente, quinta perfecta ex tribus tonis ac hemitonio minore. Eius
@@ -1593,16 +1461,16 @@
         consonantia suauius in aure hominis tinniens, si suo ponatur loco.</p>
       <p xml:id="GLADOD10279">[Dodecachordon, 20,2; text: [Diapente]. id est, per quinque]</p>
       <p xml:id="GLADOD10280">IX.</p>
-      <p xml:id="GLADOD10281">Semidiapente, quinta imperfecta, ex duobus tonis, totidemque hemitonijs
-        minoribus, ut saepe ex E claue in fa quod est in b claue. Haec in cantu non admittitur uno
-        saltu, sed continuato uel descensu uel ascensu. Et cum sit quinta, deficit tamen comate a
-        tritono, et diatessaron semitonio duntaxat minore uincit.</p>
+      <p xml:id="GLADOD10281">Semidiapente, quinta imperfecta, ex duobus tonis, totidemque
+        hemitonijs minoribus, ut saepe ex E claue in fa quod est in b claue. Haec in cantu non
+        admittitur uno saltu, sed continuato uel descensu uel ascensu. Et cum sit quinta, deficit
+        tamen comate a tritono, et diatessaron semitonio duntaxat minore uincit.</p>
       <p xml:id="GLADOD10282">[Dodecachordon, 20,3; text: Semidiapente.]</p>
       <p xml:id="GLADOD10283">X.</p>
-      <p xml:id="GLADOD10284">Tonus cum diapente (duobus hic nominibus, quemadmodum et in sequentibus,
-        unum circum loquimur interuallum) sexta perfecta, ex quatuor tonis ac hemitonio minore, et
-        haec uno saltu uix admittitur, est enim oppido quam dura, hac inductiones suas Guido
-        constituit.</p>
+      <p xml:id="GLADOD10284">Tonus cum diapente (duobus hic nominibus, quemadmodum et in
+        sequentibus, unum circum loquimur interuallum) sexta perfecta, ex quatuor tonis ac hemitonio
+        minore, et haec uno saltu uix admittitur, est enim oppido quam dura, hac inductiones suas
+        Guido constituit.</p>
       <p xml:id="GLADOD10285">[Dodecachordon, 20,4; text: Tonus cum diapente.]</p>
       <p xml:id="GLADOD10286">XI.</p>
       <p xml:id="GLADOD10287">Semitonium cum diapente, sexta imperfcta ex tribus tonis, et duobus
@@ -1612,9 +1480,9 @@
       <p xml:id="GLADOD10288">[Dodecachordon, 20,5; text: Senitonium cum diapente.]</p>
       <p xml:id="GLADOD10289">
         <pb n="[21]"/>XII</p>
-      <p xml:id="GLADOD10290">Ditonus cum diapente, septima maior ex quinque tonis, ac hemitonio minore,
-        quemadmodum ut mi ex C fa ut ad b fa [sqb] mi, et plaerisque alijs locis, haec uno saltu
-        euitanda est, deficit a diapason semitonio minore, Superat semidiapason commate.</p>
+      <p xml:id="GLADOD10290">Ditonus cum diapente, septima maior ex quinque tonis, ac hemitonio
+        minore, quemadmodum ut mi ex C fa ut ad b fa [sqb] mi, et plaerisque alijs locis, haec uno
+        saltu euitanda est, deficit a diapason semitonio minore, Superat semidiapason commate.</p>
       <p xml:id="GLADOD10291">[Dodecachordon, 21,1; text: Ditonus cum diapente.]</p>
       <p xml:id="GLADOD10292">XIII</p>
       <p xml:id="GLADOD10293">Semiditonus cum diapente, septima minor ex quatuor tonis, ac duobus
@@ -1634,12 +1502,12 @@
       <p xml:id="GLADOD10297">[Dodecachordon, 21,3; text: [Diapason], id est, per omneis, Harmonica
         mediatio. Arithmetica mediatio.]</p>
       <p xml:id="GLADOD10298">XV</p>
-      <p xml:id="GLADOD10299">Semidiapason, octaua imperfecta est, ex quatuor tonis ac tribus hemitonijs
-        minoribus, eodem modo de litera ad eiusdem speciei literam, sed ut mi contra fa ponatur,
-        sicut ex [sqb] mi ad fa in b fa [sqb] mi, haec nusquam inuenitur: Et cum dicatur octaua,
-        deficit tamen, ut dictum est, commate a septima maiore, hoc est a duodecimo interuallo,
-        uidelicet a ditono cum diapente, cuius simile antea etiam de semidiapente ac tritono
-        diximus.</p>
+      <p xml:id="GLADOD10299">Semidiapason, octaua imperfecta est, ex quatuor tonis ac tribus
+        hemitonijs minoribus, eodem modo de litera ad eiusdem speciei literam, sed ut mi contra fa
+        ponatur, sicut ex [sqb] mi ad fa in b fa [sqb] mi, haec nusquam inuenitur: Et cum dicatur
+        octaua, deficit tamen, ut dictum est, commate a septima maiore, hoc est a duodecimo
+        interuallo, uidelicet a ditono cum diapente, cuius simile antea etiam de semidiapente ac
+        tritono diximus.</p>
       <p xml:id="GLADOD10300">[Dodecachordon, 21,4; text: Semidiapason.]</p>
       <p xml:id="GLADOD10301">
         <pb n="[22]"/>Quare satis luculenter patet, dimensiones hasce notularum ad oculos tantummodo
@@ -1647,14 +1515,14 @@
         has iam enumeratas intercapedines alia eueniant interualla, facile ex his iam enumeratis
         iudicabuntur, componendo cum diapason tonum, ditonum et caetera, usque ad disdiapason, quod
         maximum est omnium phthongorum consonantium systema.</p>
-      <p xml:id="GLADOD10302">Atque haec est nostrae aetatis musicorum praeceptio, quam ut non prorsus
-        friuolam, ita nec omnino absolutam iudicamus. Volumus et ob rudium profectum uulgatam
-        subnectere cantilenam, ad memoriam addiscentium oppido utilem, uidelicet quae ea duntaxat
-        commemorat interualla, quae in frequentiore sunt usu. Idcirco autem ter ternos ait modos,
-        cum tamen quindecim sint interualla, quod neque tritonum, neque semidiapente, neque ditonum
-        cum diapente, neque semiditonum cum diapente enumerat, ut quae uno saltu prope in nullo sint
-        usu, sed neque semidiapason, ut quae prorsus euitanda. Vnisonum numerat quidem, sed
-        interuallum esse non putat. Improprie autem modos uocat interualla, cum Modi sint, quos
+      <p xml:id="GLADOD10302">Atque haec est nostrae aetatis musicorum praeceptio, quam ut non
+        prorsus friuolam, ita nec omnino absolutam iudicamus. Volumus et ob rudium profectum
+        uulgatam subnectere cantilenam, ad memoriam addiscentium oppido utilem, uidelicet quae ea
+        duntaxat commemorat interualla, quae in frequentiore sunt usu. Idcirco autem ter ternos ait
+        modos, cum tamen quindecim sint interualla, quod neque tritonum, neque semidiapente, neque
+        ditonum cum diapente, neque semiditonum cum diapente enumerat, ut quae uno saltu prope in
+        nullo sint usu, sed neque semidiapason, ut quae prorsus euitanda. Vnisonum numerat quidem,
+        sed interuallum esse non putat. Improprie autem modos uocat interualla, cum Modi sint, quos
         nostra aetas tonos uocat, quanquam etiam hoc ipsum improprie, cum toni uox si perfectae
         secundae data, ut satis ex superioribus liquet, a perfecte sonando appellata, ut nonnulli
         tradiderunt.</p>
@@ -1678,8 +1546,8 @@
         liquidius appareant, hoc typo oculis subijcere placuit.</p>
       <p xml:id="GLADOD10305">[Dodecachordon, 23; text: 3. diatessaron species. 4. diapente species.
         Septem Diapason species.]</p>
-      <p xml:id="GLADOD10306">Quid phthongus, consonantia, et dissonantia, tum consonantiarum species
-        quot apud priscos, quod aqud neotericos, Caput IX.</p>
+      <p xml:id="GLADOD10306">Quid phthongus, consonantia, et dissonantia, tum consonantiarum
+        species quot apud priscos, quod aqud neotericos, Caput IX.</p>
       <p xml:id="GLADOD10307">Seuerinus libro primo capite 8. Phthongus, inquit, est uocis casus
         emmeles, id est, aptus melo in unam intensionem. Alij phthongum definiunt, unam quandam
         minimam partem meli. Alij nerui unius certum quendam strepitum. Nonnulli sonum, unum et
@@ -1760,8 +1628,8 @@
         quantum ego iudico, magis hac de causa aliquando adsciscunt, ut in sublimi celsissimae uelut
         colludent uoces, quam ut constet concentus ratio, atque sonorum uera commixtio, Sed omnium
         harum sit haec descriptio.</p>
-      <p xml:id="GLADOD10317">[Dodecachordon, 26,2; text: Quinque consonantiae perfectae. 1, 5, 8, 12,
-        15, Quatuor imperfectae, 3, 6, 10, 13, Sex dissonantiae. 2, 4, 7, 9, 11, 14]</p>
+      <p xml:id="GLADOD10317">[Dodecachordon, 26,2; text: Quinque consonantiae perfectae. 1, 5, 8,
+        12, 15, Quatuor imperfectae, 3, 6, 10, 13, Sex dissonantiae. 2, 4, 7, 9, 11, 14]</p>
       <p xml:id="GLADOD10318">
         <pb n="[27]"/>De toni partitione eiusque partium definitione, Caput X.</p>
       <p xml:id="GLADOD10319">Qvando autem octauo capite commatis, in superioribus etiam saepe
@@ -1788,9 +1656,10 @@
         usurpatur, ut in Enharmonico ueteres nominarunt, impropriam.</p>
       <p xml:id="GLADOD10320">
         <pb n="[28]"/>Sed nunc Typum subijciamus.</p>
-      <p xml:id="GLADOD10321">[Dodecachordon, 28; text: [Apotome] in figura Semitonium maius. [Diesis],
-        id est, Semitonium minus. Tonus in sesquioctava Ratione, a, 4608. [Diaschisma], g, 4491. f,
-        4374. [Schisma], e, 4352, d, 4330, [Comma]. c, 4213, [sqb], 4096, [Diesis], [Apotome]]</p>
+      <p xml:id="GLADOD10321">[Dodecachordon, 28; text: [Apotome] in figura Semitonium maius.
+        [Diesis], id est, Semitonium minus. Tonus in sesquioctava Ratione, a, 4608. [Diaschisma], g,
+        4491. f, 4374. [Schisma], e, 4352, d, 4330, [Comma]. c, 4213, [sqb], 4096, [Diesis],
+        [Apotome]]</p>
       <p xml:id="GLADOD10322">Sit a [sqb] tonus. [sqb] d, uel fa semitonium minus, siue, ut Graeci
         uocant, authore Boethio libro 2. capite 27. [leimma] siue [Diesis]. [sqb] f. uel d a
         semitonium maius, quod graece [Apotome] dicitur. [sqb] c et c d: item f g, et g a,
@@ -1808,16 +1677,16 @@
         octo commata, nonum non impleat.</p>
       <p xml:id="GLADOD10323">
         <pb n="[29]"/>De octo Modis musicis nostrae aetatis praeceptio, Caput XI.</p>
-      <p xml:id="GLADOD10324">Vix aliam Musices ullam partem aequae dignam relatu, aeque necessariam,
-        denique aeque iucundam existimamus, atque ea est, quam nunc dicturi sumus, de Modis musicis
-        tractatio. Quippe quae naturae humanae adeo conuenit, ut haud abs re multis hominibus innata
-        uideatur, nec modo ad omnem cantum dijudicandum utilissima, sed etiam ad Poetarum carmina
-        modulanda, multosque in eximijs authoribus intelligendos locos aptissima. Ideoque omneis
-        studiosos plurimum hortamur, ut hic acriter animum intendant, percepturi fructum, cuius
-        profecto nunquam poeniteat, postquam haec penitus perspecta habuerint. Sed nunc institutum
-        ipsum aggrediamur.</p>
-      <p xml:id="GLADOD10325">Modi musici nihil aliud sunt quam ipsius Diapason consonantiae species,
-        quae et ipsae ex uarijs diapente ac diatessaron speciebus conflantur, ut supra de
+      <p xml:id="GLADOD10324">Vix aliam Musices ullam partem aequae dignam relatu, aeque
+        necessariam, denique aeque iucundam existimamus, atque ea est, quam nunc dicturi sumus, de
+        Modis musicis tractatio. Quippe quae naturae humanae adeo conuenit, ut haud abs re multis
+        hominibus innata uideatur, nec modo ad omnem cantum dijudicandum utilissima, sed etiam ad
+        Poetarum carmina modulanda, multosque in eximijs authoribus intelligendos locos aptissima.
+        Ideoque omneis studiosos plurimum hortamur, ut hic acriter animum intendant, percepturi
+        fructum, cuius profecto nunquam poeniteat, postquam haec penitus perspecta habuerint. Sed
+        nunc institutum ipsum aggrediamur.</p>
+      <p xml:id="GLADOD10325">Modi musici nihil aliud sunt quam ipsius Diapason consonantiae
+        species, quae et ipsae ex uarijs diapente ac diatessaron speciebus conflantur, ut supra de
         interuallis diximus. Quare si quis ea, quae ibi tradidimus, bene perspecta habuerit, nullo
         negocio modorum naturam pernoscet. Quanquam nos alias quoque agnitiones postea docebimus.
         Sed nunc more nostro primum, quae nostra aetate musici docent, exequemur: Deinde priscorum
@@ -1853,25 +1722,25 @@
         collocans. Est autem horum haec descriptio.</p>
       <p xml:id="GLADOD10326">[Dodecachordon, 30; text: D, E, F, G, I, II, III, IIII, V, VI, VII,
         VIII]</p>
-      <p xml:id="GLADOD10327">Quidam etiam quartas ac quintas omnium modorum per uoces discriminant, non
-        inutili me hercule ad memoriam inuento, caeterum superne appellatione coepta, in imparibus
-        diatessaron prius nominant, posterius uero diapente. Contra in paribus prius diapente,
-        posterius diatessaron, ad hanc formam. Primum modum, sol re, la re: Secundum, la re, sol re:
-        Tertium, la mi, mi mi: Quartum, mi mi, la mi: Quintum, fa ut, sol ut: Sextum, sol ut, fa ut:
-        Septimum, sol re, sol ut: Octauum, sol ut, sol re.</p>
+      <p xml:id="GLADOD10327">Quidam etiam quartas ac quintas omnium modorum per uoces discriminant,
+        non inutili me hercule ad memoriam inuento, caeterum superne appellatione coepta, in
+        imparibus diatessaron prius nominant, posterius uero diapente. Contra in paribus prius
+        diapente, posterius diatessaron, ad hanc formam. Primum modum, sol re, la re: Secundum, la
+        re, sol re: Tertium, la mi, mi mi: Quartum, mi mi, la mi: Quintum, fa ut, sol ut: Sextum,
+        sol ut, fa ut: Septimum, sol re, sol ut: Octauum, sol ut, sol re.</p>
       <p xml:id="GLADOD10328">
         <pb n="[31]"/>De fine cantuum Modis, Caput XII.</p>
-      <p xml:id="GLADOD10329">De fine autem cantilenarum in omnibus modis, ijdem ita praecipiunt: Omnis
-        cantus desinit aut in re, aut in mi, aut in ut, et in ut quidem uel connexo, uel disiuncto.
-        Connexum appellant, quod fa habet in b fa [sqb] mi, Disiunctum quod mi. In re finiuntur
-        cantus primi atque secundi modorum: in mi, tertij ac quarti: in ut connexo, quinti et sexti,
-        ut nunc utuntur: Disiuncto, septimi et octaui. Quisquis igitur diapason species probe
-        pernoscet, facile cuiusuis modi cantum dijudicabit. Quod ideo libenter toties inculcamus,
-        quoniam cantus positionibus uariantur. Quamuis enim primi ac secundi modorum sedes sit D sol
-        re, tamen saepius etiam G sol re ut, praesertim in quatuor uocum cantilenis, non tamen
-        absque fa in b claue. Quod fit, ut ima uox, quae cum media octauam sonat, intra Guidonis
-        scalam permaneat. Et quanquam id necessarium non est, tamen quorsum attinet extra uagari
-        uoces, cum in scala commode locari possint? Aliquando etiam alamire, sed duntaxat in
+      <p xml:id="GLADOD10329">De fine autem cantilenarum in omnibus modis, ijdem ita praecipiunt:
+        Omnis cantus desinit aut in re, aut in mi, aut in ut, et in ut quidem uel connexo, uel
+        disiuncto. Connexum appellant, quod fa habet in b fa [sqb] mi, Disiunctum quod mi. In re
+        finiuntur cantus primi atque secundi modorum: in mi, tertij ac quarti: in ut connexo, quinti
+        et sexti, ut nunc utuntur: Disiuncto, septimi et octaui. Quisquis igitur diapason species
+        probe pernoscet, facile cuiusuis modi cantum dijudicabit. Quod ideo libenter toties
+        inculcamus, quoniam cantus positionibus uariantur. Quamuis enim primi ac secundi modorum
+        sedes sit D sol re, tamen saepius etiam G sol re ut, praesertim in quatuor uocum cantilenis,
+        non tamen absque fa in b claue. Quod fit, ut ima uox, quae cum media octauam sonat, intra
+        Guidonis scalam permaneat. Et quanquam id necessarium non est, tamen quorsum attinet extra
+        uagari uoces, cum in scala commode locari possint? Aliquando etiam alamire, sed duntaxat in
         cantibus quae diapente non egrediuntur, alioqui neque primus modus superne, neque secundus
         inferne suam diatessaron seruarint, denique la mi, pro sol re eueniet, contra horum modorum
         naturam. Ecclesiastici sane in transponendis cantilenis immodica utuntur licentia, qua
@@ -1889,21 +1758,22 @@
         b claue fuerit, et de primis quidem duobus iam ostendimus. De tertio uero ac quarto ex typo
         praecedente satis constat. Manebit enim ex mi in E magno ad la in aalamire idem duorum
         systema, quod est ex mi in [sqb] magno, ad la, in e paruo. Quintus et sextus etiamnum
-        trnspositi per diatessaron uulgo habentur. Vera alioqui ipsorum sedes erat C ut diximus. <pb n="[32]"/>De septimo et octauo idem dico quod de tertio ac quarto. Et Iodocus a Prato in
+        trnspositi per diatessaron uulgo habentur. Vera alioqui ipsorum sedes erat C ut diximus. <pb
+          n="[32]"/>De septimo et octauo idem dico quod de tertio ac quarto. Et Iodocus a Prato in
         Missa de nostra domina Dei genitrice cantionem: Sanctus, quae est octaui modi, haud obscure
         in c paruum emouit, non absque fa in b claui.</p>
       <p xml:id="GLADOD10330">De uulgari modorum agnitione, Caput XIII.</p>
-      <p xml:id="GLADOD10331">Poterunt et cantus notitia quadam a posteriore, ut Philosophi loquuntur,
-        pernosci, regulis quibusdam leuioribus, ac omnino uulgatis, quae tamen, quod iuuant
-        memoriam, atque a non indoctis huius artis praeceptoribus traditae sunt, non omittendae
-        uidentur. Sunt autem huiusmodi: Cantilenae primi modi frequenter ex re in la saliunt.
-        Exempla sunt: Gaudeamus omnes. Salue regina. Aue maris stella. Secundi ex re in fa. Exempla:
-        Salue sancta parens. Terribilis est. Emendemus in melius. Tertij ex mi in fa, quod ab eo
-        distat sexta, ut in Pange lingua. Discubuit Iesus. Omnia quae fecisti nobis domine. Quarti
-        ex mi in la. Exempla: Tota pulchra es. Resurrexi. Spiritus ubi uult spirat. Quinti ex mi in
-        sol. Exempla: O sacrum. Regnum mundi. Illuminare Hierusalem. Sexti ex fa in la. Exempla: O
-        quam admirabile. Homo quidam fecit. Septimi ex ut in sol. Exempla: Puer natus est nobis.
-        Viri Galilaei. Summae Trinitatis. Octaui ex ut in fa. Exempla: Veni sancte Spiritus.
+      <p xml:id="GLADOD10331">Poterunt et cantus notitia quadam a posteriore, ut Philosophi
+        loquuntur, pernosci, regulis quibusdam leuioribus, ac omnino uulgatis, quae tamen, quod
+        iuuant memoriam, atque a non indoctis huius artis praeceptoribus traditae sunt, non
+        omittendae uidentur. Sunt autem huiusmodi: Cantilenae primi modi frequenter ex re in la
+        saliunt. Exempla sunt: Gaudeamus omnes. Salue regina. Aue maris stella. Secundi ex re in fa.
+        Exempla: Salue sancta parens. Terribilis est. Emendemus in melius. Tertij ex mi in fa, quod
+        ab eo distat sexta, ut in Pange lingua. Discubuit Iesus. Omnia quae fecisti nobis domine.
+        Quarti ex mi in la. Exempla: Tota pulchra es. Resurrexi. Spiritus ubi uult spirat. Quinti ex
+        mi in sol. Exempla: O sacrum. Regnum mundi. Illuminare Hierusalem. Sexti ex fa in la.
+        Exempla: O quam admirabile. Homo quidam fecit. Septimi ex ut in sol. Exempla: Puer natus est
+        nobis. Viri Galilaei. Summae Trinitatis. Octaui ex ut in fa. Exempla: Veni sancte Spiritus.
         Spiritus domini. Vespere autem sabbati. Pro memoria etiam adijciunt haec incondita uelut
         carmina, neutiquam reijcienda.</p>
       <p xml:id="GLADOD10332">Pri. re la. Se. re fa. Ter. mi fa. Quart quoque mi la.</p>
@@ -1926,9 +1796,9 @@
         fecit esse Germanos. O uirgo uirginum Maria, stella maris, succurre nobis miseris.]</p>
       <p xml:id="GLADOD10337">
         <pb n="[34]"/>De Modorum expatiatione ac permixtione, Caput XIIII.</p>
-      <p xml:id="GLADOD10338">Principio cantilenae adeo simplices fuere apud primores Ecclesiae, ut uix
-        diapente [arsei kai thesei], Vel (ut alij loqui malunt) [prolepsei kai eklepsei], hoc est,
-        ascensu ac descensu implerent. Cui consuetudini proxime accessisse dicuntur Ambrosiani.
+      <p xml:id="GLADOD10338">Principio cantilenae adeo simplices fuere apud primores Ecclesiae, ut
+        uix diapente [arsei kai thesei], Vel (ut alij loqui malunt) [prolepsei kai eklepsei], hoc
+        est, ascensu ac descensu implerent. Cui consuetudini proxime accessisse dicuntur Ambrosiani.
         Deinde paulatim ad Diapason deuentum, uerum omnium Modorum systema. Porro deinde, ut alijs
         in rebus fieri solet, ne his quidem permansere limitibus, sed superne inferneque illam
         excessere, ut id passim uidere licet. Quare non inepte, meo quidem iudicatu, Modi ipsi intra
@@ -1979,8 +1849,8 @@
         uersuum luculentum esset omnium Modorum discrimen, ad euitandam, quae saepius accidere solet
         inter cantantes confusionem.</p>
       <p xml:id="GLADOD10343">Intonationes Psalmorum minorum.</p>
-      <p xml:id="GLADOD10344">[Dodecachordon, 35,2; text: Dixit dominus domino meo, sede a dextris meis.
-        Credidi propter quod locutus sum.]</p>
+      <p xml:id="GLADOD10344">[Dodecachordon, 35,2; text: Dixit dominus domino meo, sede a dextris
+        meis. Credidi propter quod locutus sum.]</p>
       <p xml:id="GLADOD10345">
         <pb n="[36]"/>[Dodecachordon, 36,1; text: Dixit dominus domino meo, sede a dextris meis.
         Credidi propter quod locutus sum.]</p>
@@ -2002,12 +1872,12 @@
         </figure></p>
       <p xml:id="GLADOD10353">
         <pb n="[39]"/>Introituum uersus.</p>
-      <p xml:id="GLADOD10354">[Dodecachordon, 39; text: Eructauit cor meum uerbum bonum, dico ego opera
-        mea regi. Sentiant omnes tuum leuamen, quicunque celebrant tuam commemorationem. Benedic
-        anima mea Domino, et omnia quae intra me sunt nomini sancto eius, Attendite popule meus
-        legem meam, inclinate aurem uestram in uerba oris mei. Beati immaculati in uia, Qui ambulant
-        in lege Domini. Noli aemulari in malignantibus, neque zelaueris facientes iniquitatem.
-        Cantate Domino canticum nouum, quia mirabilia fecit.] <figure>
+      <p xml:id="GLADOD10354">[Dodecachordon, 39; text: Eructauit cor meum uerbum bonum, dico ego
+        opera mea regi. Sentiant omnes tuum leuamen, quicunque celebrant tuam commemorationem.
+        Benedic anima mea Domino, et omnia quae intra me sunt nomini sancto eius, Attendite popule
+        meus legem meam, inclinate aurem uestram in uerba oris mei. Beati immaculati in uia, Qui
+        ambulant in lege Domini. Noli aemulari in malignantibus, neque zelaueris facientes
+        iniquitatem. Cantate Domino canticum nouum, quia mirabilia fecit.] <figure>
           <graphic url="/images/GLADOD1_15GF.gif"/>
         </figure></p>
       <p xml:id="GLADOD10355">
@@ -2029,8 +1899,8 @@
         nobis quidem in totum negligendae uisae, utatur qui uelit. Neque enim iritandum cantorum
         uulgus, quod omnino propitium mihi uelim. Ideoque Lector etiam hoc boni consulat. Sunt autem
         huiusmodi.</p>
-      <p xml:id="GLADOD10357">[Dodecachordon, 40,2; text: Primi Modi Euouae Differentiae, Secundi modi
-        Euouae, Tertij modi Euouae. Differentiae]</p>
+      <p xml:id="GLADOD10357">[Dodecachordon, 40,2; text: Primi Modi Euouae Differentiae, Secundi
+        modi Euouae, Tertij modi Euouae. Differentiae]</p>
       <p xml:id="GLADOD10358">
         <pb n="[41]"/>[Dodecachordon, 41,1; text: Quarti Euouae Differentiae, Quinti Euouae
         Differentiae, Sexti Euouae. Differentia, Septimi Euouae Differentiae, Octaui Euouae
@@ -2047,24 +1917,25 @@
         <pb n="[42]"/>[Dodecachordon, 42,1; text: Quinti, Sexti, Septimi, Octaui] <figure>
           <graphic url="/images/GLADOD1_17GF.gif"/>
         </figure></p>
-      <p xml:id="GLADOD10362">Peregrinum adijciunt tonum, qui pascatis die ad Babtisterium super psalmum
-        centesimum decimum tertium in his regionibus canitur.</p>
+      <p xml:id="GLADOD10362">Peregrinum adijciunt tonum, qui pascatis die ad Babtisterium super
+        psalmum centesimum decimum tertium in his regionibus canitur.</p>
       <p xml:id="GLADOD10363">De quo multa Franchinus, non satis accurate ut sequente libro dicturi
         sumus. Nos ut uulgo cantatur eum adponemus, ne etiam hoc loco desimus harum rerum
         studiosis.</p>
       <p xml:id="GLADOD10364">[Dodecachordon, 42,2; text: In exitu Israel de AEgypto domus Iacob de
         populo barbaro.]</p>
-      <p xml:id="GLADOD10365">Mvlta alia annexenda erant, sed ne, aliorum affectui plusquam necesse est
-        inseruire cupiens, ineptus ac ridiculus merito uidear, quiescendum omnino hic puto. Caeterum
-        de monochordi partitione paucula sub nectemus, partim ex Boethio, partim ex alijs
+      <p xml:id="GLADOD10365">Mvlta alia annexenda erant, sed ne, aliorum affectui plusquam necesse
+        est inseruire cupiens, ineptus ac ridiculus merito uidear, quiescendum omnino hic puto.
+        Caeterum de monochordi partitione paucula sub nectemus, partim ex Boethio, partim ex alijs
         authoribus, rem non minus iucundam quam necessariam.</p>
-      <p xml:id="GLADOD10366">Quemadmodum consonantiae Musicae indubitanter aure dijudicari possint ex
-        Boethio, atque inibi de musicorum uocabulorum abusione. Caput XVI.</p>
-      <p xml:id="GLADOD10367">Peruentum iam erat ad operis huius, in quo aliorum scita magis quam nostra
-        tractamus, optatum finem. Sed placuit nobis, ut auctior commentatio haec incederet, de
-        multiplici monochordi partitione, rem oppido necessariam addere. Quo in negocio id praefari
-        mihi uisum est admodum necesse, ne candidus lector nobis uel uitio uertat, uel arrogantiae
-        adscribat, quod aliter, quam plaerique nostra aetate Musici consueuere, <pb n="[34 recte 43]"/>uerbis quibusdam utamur. Nam ut inficias ire nemo potest, ab
+      <p xml:id="GLADOD10366">Quemadmodum consonantiae Musicae indubitanter aure dijudicari possint
+        ex Boethio, atque inibi de musicorum uocabulorum abusione. Caput XVI.</p>
+      <p xml:id="GLADOD10367">Peruentum iam erat ad operis huius, in quo aliorum scita magis quam
+        nostra tractamus, optatum finem. Sed placuit nobis, ut auctior commentatio haec incederet,
+        de multiplici monochordi partitione, rem oppido necessariam addere. Quo in negocio id
+        praefari mihi uisum est admodum necesse, ne candidus lector nobis uel uitio uertat, uel
+        arrogantiae adscribat, quod aliter, quam plaerique nostra aetate Musici consueuere, <pb
+          n="[34 recte 43]"/>uerbis quibusdam utamur. Nam ut inficias ire nemo potest, ab
         octingentis plus annis id calamitatis omnibus accidisse disciplinis, ut multa
         corrumperentur, plaeraque mutilarentur: ita in Musicis multa perperam tradita ab annis
         aliquot, multa etiam in uulgus falso edita quae nemo non uidet. Nonnullos quoque fuisse
@@ -2097,7 +1968,8 @@
         [katholicos] admittamus. Porro qui haec ita properam usurpant, facile ueniam impetrabunt,
         quando eo tempore uixerunt, quo omnes honestae disciplinae una cum bonis literis plusquam
         sopitae iacebant. In quorum numero sunt Guido, Otto, Berno, Theogerus Episcopus,
-        Vuillehelmus et Ioannes Pontifex postea factus, et alij eiusdem aetatis uiri. At <pb n="[44]"/>nostra aetate quidam, qui sibi adeo splendide ac eleganter (cum nihil minus
+        Vuillehelmus et Ioannes Pontifex postea factus, et alij eiusdem aetatis uiri. At <pb
+          n="[44]"/>nostra aetate quidam, qui sibi adeo splendide ac eleganter (cum nihil minus
         possint) loqui uidentur, excusationem hercules istam non habent. Parco hic nominibus,
         contentus rem ipsam ob studiosorum utilitatem uno notasse uerbo. Hoc unum doleo horum
         balbutie plurima obteri ingenia, quae scite et ingenue docentem a fucato praeceptore
@@ -2153,19 +2025,19 @@
         quinque diuisum fuerit, quatuor ad unum dabunt disdiapason, at tria ad duo, diapente, ubi
         uero spacium perseptem, ibi tum 4. ad 3. diatessaron creant. Denique ubi pe 17. spacium
         sectum est, ibi 9. ad 8. tonum aedunt. Huius typum subijcere placuit.</p>
-      <p xml:id="GLADOD10372">[Dodecachordon, 45; text: A, B, C, D, E, F, K, 1, 2, 3, 4, 5, 6, 7, 8, 9,
-        10, 11, 12, 13, 14, 15, 16, 17]</p>
+      <p xml:id="GLADOD10372">[Dodecachordon, 45; text: A, B, C, D, E, F, K, 1, 2, 3, 4, 5, 6, 7, 8,
+        9, 10, 11, 12, 13, 14, 15, 16, 17]</p>
       <p xml:id="GLADOD10373">
         <pb n="[46]"/>Quid Magas, monochordum, Magadis, similesque quorundam musicorum
         instrumentorum apellationes, Caput XVII.</p>
-      <p xml:id="GLADOD10374">Monochordi appellatio haud dubie ab una chorda nomen habet, ut trichordum
-        a tribus chordis, a quatuor tetrachordum, pentachordum a quinque, ac deinceps. Sed per
-        monochordum tamen non modo ipsam unam chordam, uerum totum instrumentum, super quod unica
-        chorda intenta est, intelligimus. Ita [Magas] hemisphaerium illud est, a quo chordae et
-        incipit et desinit sonus. Necesse enim est, ut chorda duas habeat extremitates. Quippe quae
-        infinita esse non potest, eae magades appellantur. Sed nihilominus totum instrumentum, super
-        quo consistunt magades, Magas nominatur, si Suidae credimus, qui ita inquit. [Magas. Sanis
-        tetragonos hypokuphos, dechomene eph' heaute tas tes kitharas neuras, kai apotelousa
+      <p xml:id="GLADOD10374">Monochordi appellatio haud dubie ab una chorda nomen habet, ut
+        trichordum a tribus chordis, a quatuor tetrachordum, pentachordum a quinque, ac deinceps.
+        Sed per monochordum tamen non modo ipsam unam chordam, uerum totum instrumentum, super quod
+        unica chorda intenta est, intelligimus. Ita [Magas] hemisphaerium illud est, a quo chordae
+        et incipit et desinit sonus. Necesse enim est, ut chorda duas habeat extremitates. Quippe
+        quae infinita esse non potest, eae magades appellantur. Sed nihilominus totum instrumentum,
+        super quo consistunt magades, Magas nominatur, si Suidae credimus, qui ita inquit. [Magas.
+        Sanis tetragonos hypokuphos, dechomene eph' heaute tas tes kitharas neuras, kai apotelousa
         phthongon]. Quae uerba Guido ita uertisse uidetur: Monochordum est (inquit) lignum longum
         quadratum, intus concauum superducta chorda, cuius sonitu uocum uarietates appraehendimus.
         Haec haud dubie ab aliquo, qui Graece nouit, inaudiuit, neque enim Suidae uerba ex equo
@@ -2234,19 +2106,19 @@
         uel Magadis, ut alij uocant, canon atiam a Georgio Valla dictus instrumentum musicum uarijs
         modis fieri potest. Georgius ipse tabellam ponit quam chordotonon nonminari ait, quod super
         ipsa chordae explicentur intendanturque.</p>
-      <p xml:id="GLADOD10375">[Dodecachordon, 48; text: [Digamma],[Gamma], A, B, [sqb], C, D, E, F, G,
-        a, b, c, d, e, f, g, Aa, Bb, [sqb][sqb], Cc, Dd, Ee]</p>
-      <p xml:id="GLADOD10376">In ea parallelogrammum rectangulum altera parte longius describi iubet,
-        longum decem, latum quinque palmos, ut longitudo dupla sit ad latitudinem. Quidam monstrosae
-        longitudinis faciunt, quidam duarum ulnarum, binorum uero digitorum latum, spissumque. Ego
-        cum primum eam rem tentare animo constituissem, nec quicquam tale ad manum haberem, iussi
-        mihi a fabro fieri, crassiore Minerua (ut aiunt) trium pedum longum, quadrantali
-        crassitudine, trietali latitudine, duabus immobilibus a longitudinis utrinque extremitate
-        magadibus, magade una mobili. Huic quaternas chordas induxi, ut una uelut thema esset, ad
-        quam reliquas pro sectionum partibus in tribus modulandi generibus, imminutas referrem,
-        quaquam inueni postea duas sufficere, eo satis commode ad hoc, quod inquirere uolebamus,
-        sumus usi, atque adhuc utimur. Porro Germani <pb n="[49]"/>atque Galli, Rheni accole
-        instrumenta proxime ad eam formam externis asserculis conglutinata in modum Trigoniae
+      <p xml:id="GLADOD10375">[Dodecachordon, 48; text: [Digamma],[Gamma], A, B, [sqb], C, D, E, F,
+        G, a, b, c, d, e, f, g, Aa, Bb, [sqb][sqb], Cc, Dd, Ee]</p>
+      <p xml:id="GLADOD10376">In ea parallelogrammum rectangulum altera parte longius describi
+        iubet, longum decem, latum quinque palmos, ut longitudo dupla sit ad latitudinem. Quidam
+        monstrosae longitudinis faciunt, quidam duarum ulnarum, binorum uero digitorum latum,
+        spissumque. Ego cum primum eam rem tentare animo constituissem, nec quicquam tale ad manum
+        haberem, iussi mihi a fabro fieri, crassiore Minerua (ut aiunt) trium pedum longum,
+        quadrantali crassitudine, trietali latitudine, duabus immobilibus a longitudinis utrinque
+        extremitate magadibus, magade una mobili. Huic quaternas chordas induxi, ut una uelut thema
+        esset, ad quam reliquas pro sectionum partibus in tribus modulandi generibus, imminutas
+        referrem, quaquam inueni postea duas sufficere, eo satis commode ad hoc, quod inquirere
+        uolebamus, sumus usi, atque adhuc utimur. Porro Germani <pb n="[49]"/>atque Galli, Rheni
+        accole instrumenta proxime ad eam formam externis asserculis conglutinata in modum Trigoniae
         Pyramidos leniter et in longum acuminata hodie in usu habent, Tympani Schizam uocant, chorda
         super una superficie inter magadas tenta, arcu, quo Lyrae chordas hodie equinis setis, pice
         illitis, radunt uerius quam uerberant, pulsatur aut uerritur potius. Quidam alteram duplo
@@ -2344,10 +2216,10 @@
         opera, cura et industria Henrichi Petri, in authoribus ueteribus restituendis primarij uiri.
         Sed nunc propositum ordiamur opus.</p>
       <p xml:id="GLADOD10379">Monochordi diuisio in genere diatonico, Caput XIX.</p>
-      <p xml:id="GLADOD10380">Disposito itaque monochordo ligneo, quadroque, quemadmodum supra docuimus,
-        ab eius extremitatibus duae immobiles ponantur magades, quibus chorda intendatur, quarum
-        prior sit [Digamma] digamma Aeolicum, altera [Phi]. Quod uero his interiacet spacium, in
-        nouem aequas primum diuidatur parteis. Quo secto in primum post [Digamma] punctum ponito
+      <p xml:id="GLADOD10380">Disposito itaque monochordo ligneo, quadroque, quemadmodum supra
+        docuimus, ab eius extremitatibus duae immobiles ponantur magades, quibus chorda intendatur,
+        quarum prior sit [Digamma] digamma Aeolicum, altera [Phi]. Quod uero his interiacet spacium,
+        in nouem aequas primum diuidatur parteis. Quo secto in primum post [Digamma] punctum ponito
         [Gamma],et habebis ex hac prima nouenaria sectione primum tonum extra Guidonis scalam, quem
         nos ideo praeter ueterum (ueteres hic uoco ab quadringentis et infra annis) consuetudinem
         posuimus, quod Ionici semper, plaerunque etiam Dorici cantus in basi eam desyderant. In
@@ -2487,10 +2359,10 @@
         professorem decere in primis existimo, ut pro uera ac perpetua laude acquirenda, addat et
         laborem. Sed de Cithara satis.</p>
       <p xml:id="GLADOD10386">Parasceue ad sequentis libri commentationem, Caput XXI.</p>
-      <p xml:id="GLADOD10387">Cvm iam hunc librum, extrema adiecta manu, ad umbilicum usque deduxissem,
-        quod antea me facturum citius promiseram, ecce insperato, quod multis quidem annis
-        desyderauimus, nec tamen unquam assequi potuimus, opera ac industria D. Bartolemaei Libys
-        amici nostri snmmi, uenit in manus nostras Franchini illud de Harmonia instrumentorum
+      <p xml:id="GLADOD10387">Cvm iam hunc librum, extrema adiecta manu, ad umbilicum usque
+        deduxissem, quod antea me facturum citius promiseram, ecce insperato, quod multis quidem
+        annis desyderauimus, nec tamen unquam assequi potuimus, opera ac industria D. Bartolemaei
+        Libys amici nostri snmmi, uenit in manus nostras Franchini illud de Harmonia instrumentorum
         musicorum opus (ita enim inscripsit) nunquam in his regionibus mihi, quod equidem sciam,
         uisum. Quod ex eius quidem uiri lucubrationibus ultimum existimo. Anno enim a Christi natali
         M. D. XVIII. Ioanni Grolierio Lugdunensi, qui Francisci Francorum Regis Quaestorem tum
@@ -2553,14 +2425,14 @@
         discentibus appareant, diagrammatis dimensionem hoc ordine subijcimus. Haec ille.</p>
       <p xml:id="GLADOD10388">
         <pb n="[62]"/>Typus XV Modorum Martiani Capellae secundum Franchini opinionem.</p>
-      <p xml:id="GLADOD10389">[Dodecachordon, 62; text: Deductio tredecim modorum Aristoxeni, ac duorum
-        a posteris superductorum cum dimensione singulorum tonorum in duo semitonia spacio aequalia.
-        Hypodorius, Hypoiastus, Hypophrygius, Hpoaeolius, Hypolydius, Dorius, Iastius, Phrygius,
-        Aeolius, Lydius, Hyperdorius, Hyperastius, Hyperphrigius, Hyperaeolius, hyperlydius,
-        Proslambanomene, Hypate hypaton, Parhypate hypaton, Lichanos hypaton, Hypate meson,
-        Parhypate meson, Lichanos meson, MESE, Paramese, Trite diezeugmenon, Paranete diezeugmenon,
-        Nete diezeugmenon, Trite hyperbolaeon, Paranete hyperbolaeon, Nete hyperbolaeon, Tonus,
-        Semitonium] <figure>
+      <p xml:id="GLADOD10389">[Dodecachordon, 62; text: Deductio tredecim modorum Aristoxeni, ac
+        duorum a posteris superductorum cum dimensione singulorum tonorum in duo semitonia spacio
+        aequalia. Hypodorius, Hypoiastus, Hypophrygius, Hpoaeolius, Hypolydius, Dorius, Iastius,
+        Phrygius, Aeolius, Lydius, Hyperdorius, Hyperastius, Hyperphrigius, Hyperaeolius,
+        hyperlydius, Proslambanomene, Hypate hypaton, Parhypate hypaton, Lichanos hypaton, Hypate
+        meson, Parhypate meson, Lichanos meson, MESE, Paramese, Trite diezeugmenon, Paranete
+        diezeugmenon, Nete diezeugmenon, Trite hyperbolaeon, Paranete hyperbolaeon, Nete
+        hyperbolaeon, Tonus, Semitonium] <figure>
           <graphic url="/images/GLADOD1_20GF.gif"/>
         </figure></p>
       <p xml:id="GLADOD10390">
@@ -2598,7 +2470,8 @@
         ausum. Sed et nos, quoniam huiusce negocij fundamenta nondum iecimus, multis uerbis eam
         refellere non duximus faciundum, luce clariora omnia facturi, posteaquam serio, et ex nostra
         opinione haec tractare ceperimus. Hoc interim Lectorem serio admonemus, Quamuis ingentem
-        nominum coaceruationem nihil mutare de Modorum natura. Nec fieri posse ullo pacto <pb n="[64]"/>ut plures reuera sint Modi quam diapason species, quomodocumque enim instituatur
+        nominum coaceruationem nihil mutare de Modorum natura. Nec fieri posse ullo pacto <pb
+          n="[64]"/>ut plures reuera sint Modi quam diapason species, quomodocumque enim instituatur
         Harmonia, necessario in has septem diapason incidet species, Hic cardo est, haec summa
         totius negocij. Ideoque nomina non turbent nos, manet certe, manet inquam rerum immutabilis
         ordo in infinitum multiplicatis nominibus. Vnde haud immerito, idem Franchinus arguitur, cum

@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De die natali liber</title>
         <title type="abbrev">CENDIE</title>
-        <author>Censorinus</author>
-        <date notBefore="200" notAfter="499">3rd-5th</date>
+        <author><persName>Censorinus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Anastasia Arapova</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2001</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2001">2001</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Censorini de die natali liber</emph>, ed. Fridericus Hultsch (Leipzig: B. G.
@@ -67,26 +77,27 @@
         possiderent, partem quandam templis sacellisque, ubi eos colerent, dicaverunt: quidam etiam
         pro cetera corporis bona valetudine crinem deo sacrum pascebant. ita ego, a quo plura in
         litteris percepi, tibi haec exigua reddo libamina.</p>
-      <p xml:id="CENDIE0002">[2 in marg.] Nunc quoniam liber de die natali inscribitur, a votis auspicia
-        sumantur. itaque hunc diem, quod ait Persius, numera meliore lapillo, idque quam saepissime
-          <pb n="[5]"/>facias exopto, et, quod idem subiungit, funde merum genio.</p>
-      <p xml:id="CENDIE0003">Hic forsitan quis quaerat, quid causae sit ut merum fundendum genio, non
-        hostia faciendum putaverit. quod scilicet, ut Varro testatur in eo libro cui titulus est
+      <p xml:id="CENDIE0002">[2 in marg.] Nunc quoniam liber de die natali inscribitur, a votis
+        auspicia sumantur. itaque hunc diem, quod ait Persius, numera meliore lapillo, idque quam
+        saepissime <pb n="[5]"/>facias exopto, et, quod idem subiungit, funde merum genio.</p>
+      <p xml:id="CENDIE0003">Hic forsitan quis quaerat, quid causae sit ut merum fundendum genio,
+        non hostia faciendum putaverit. quod scilicet, ut Varro testatur in eo libro cui titulus est
         Atticus et est de numeris, id moris institutique maiores nostri tenuerunt, ut, cum die
         natali munus annale genio solverent, manum a caede ac sanguine abstinerent, ne die qua ipsi
         lucem accepissent alii demerent. denique Deli ad Apollinis genitoris aram, ut Timaeus auctor
         est, nemo hostiam caedit. illud etiam in hoc die observandum, quod genio factum neminem
         oportet ante gustare quam eum qui fecerit.</p>
-      <p xml:id="CENDIE0004">Sed et hoc a quibusdam saepe quaesitum solvendum videtur, qui sit genius,
-        curve eum potissimum suo quisque natali veneremur. genius est deus, cuius in tutela ut [3 in
-        marg.] quisque natus est vivit. hic sive quod ut genamur curat, sive quod una genitur
-        nobiscum, sive etiam quod nos genitos suscipit ac tutatur, certe a genendo genius
+      <p xml:id="CENDIE0004">Sed et hoc a quibusdam saepe quaesitum solvendum videtur, qui sit
+        genius, curve eum potissimum suo quisque natali veneremur. genius est deus, cuius in tutela
+        ut [3 in marg.] quisque natus est vivit. hic sive quod ut genamur curat, sive quod una
+        genitur nobiscum, sive etiam quod nos genitos suscipit ac tutatur, certe a genendo genius
         appellatur. eundem esse genium et larem multi veteres memoriae prodiderunt, in quis etiam
         Granius Flaccus in libro quem ad Caesarem de indigitamentis scriptum reliquit. hunc in nos
         maximam, quin immo omnem habere potestatem creditum est. nonnulli binos genios in his
         dumtaxat domibus quae essent maritae colendos putaverunt: Euclides autem Socraticus duplicem
         omnibus omnino nobis genium dicit adpositum, quam rem apud Lucilium in libro satirarum XVI
-        licet cognoscere. genio igitur potissimum per omnem aetatem quotannis sacrificamus; <pb n="[6]"/>quamquam non solum hic, sed et alii sunt praeterea dei conplures hominum vitam
+        licet cognoscere. genio igitur potissimum per omnem aetatem quotannis sacrificamus; <pb
+          n="[6]"/>quamquam non solum hic, sed et alii sunt praeterea dei conplures hominum vitam
         pro sua quisque portione adminiculantes, quos volentem cognoscere indigitamentorum libri
         satis edocebunt. sed omnes hi semel in uno quoque homine numinum suorum effectum
         repraesentant, quocirca non per omne vitae spatium novis religionibus arcessuntur: genius
@@ -105,7 +116,8 @@
         est, quod, cum constet homines singulos ex parentum seminibus procreatos successione prolis
         multa saecula propagare, alii semper homines fuisse nec umquam nisi ex hominibus natos adque
         eorum generi caput exordiumque nullum extitisse arbitrati sunt, alii vero fuisse tempus cum
-        homines non essent, et his ortum aliquem principiumque natura tributum. sed prior illa <pb n="[7]"/>sententia, qua semper humanum genus fuisse creditur, auctores habet Pythagoran
+        homines non essent, et his ortum aliquem principiumque natura tributum. sed prior illa <pb
+          n="[7]"/>sententia, qua semper humanum genus fuisse creditur, auctores habet Pythagoran
         Samium et Ocellum Lucanum et Archytan Tarentinum omnesque adeo Pythagoricos. sed et Plato
         Atheniensis et Xenocrates et Dicaearchus Messenius itemque antiquae academiae philosophi non
         aliud videntur opinati, Aristoteles quoque Stagirites et Theophrastus multique praeterea non
@@ -144,8 +156,8 @@
         se necatis pauci superasse traduntur, qui in conditu Thebarum Cadmo fuerint adiumento, nec
         non in agro Tarquiniensi puer dicitur divinus exaratus nomine Tages, qui disciplinam
         cecinerit extispicii, quam lucumones tum Etruriae potentes exscripserunt.</p>
-      <p xml:id="CENDIE0007">[5 in marg.] Hactenus de prima hominum origine: ceterum quod ad praesentes
-        nostros pertinet natales eorumque initia, quam potero conpendio dicam.</p>
+      <p xml:id="CENDIE0007">[5 in marg.] Hactenus de prima hominum origine: ceterum quod ad
+        praesentes nostros pertinet natales eorumque initia, quam potero conpendio dicam.</p>
       <p xml:id="CENDIE0008">Igitur semen unde exeat inter sapientiae professores non constat.
         Parmenides enim tum ex dextris tum e laevis partibus oriri putavit. Hipponi vero Metapontino
         sive, ut Aristoxenus auctor est, Samio ex medullis profluere semen videtur, idque eo
@@ -166,9 +178,9 @@
         nascitur aliturque. sunt qui id opinentur ipsa fieri natura, ut Aristoteles adque Epicurus;
         sunt qui potentia spiritus semen comitantis, ut stoici ferme universi: sunt qui aetherium
         calorem inesse arbitrentur, qui membra disponat, Anaxagoran secuti.</p>
-      <p xml:id="CENDIE0010">Utcumque tamen formatus infans quemadmodum in matris utero alatur, duplex
-        opinio est. Anaxagorae enim ceterisque conpluribus per umbilicum cibus administrari videtur.
-        at Diogenes et Hippon existimarunt esse in alvo prominens quiddam, quod infans ore
+      <p xml:id="CENDIE0010">Utcumque tamen formatus infans quemadmodum in matris utero alatur,
+        duplex opinio est. Anaxagorae enim ceterisque conpluribus per umbilicum cibus administrari
+        videtur. at Diogenes et Hippon existimarunt esse in alvo prominens quiddam, quod infans ore
         adprehendat et ex <pb n="[11]"/>eo alimentum ita trahat ut, cum editus est, ex matris
         uberibus.</p>
       <p xml:id="CENDIE0011">Ceterum ut mares feminaeve nascantur quid causae esset, varie ab isdem
@@ -186,19 +198,20 @@
         parentis faciem referre liberos iudicavit, qui seminis amplius contulisset. ceterum
         Parmenidis sententia est, cum dexterae partes semina dederint, tunc filios esse patri
         consimiles, cum laevae, tunc matri.</p>
-      <p xml:id="CENDIE0012">Sequitur de geminis, qui ut aliquando nascantur modo seminis fieri Hippon
-        ratus est: id enim cum amplius est quam uni satis fuit, bifariam deduci. id ipsum ferme <pb n="[12]"/>Empedocles videtur sensisse: nam causas quidem cur divideretur non posuit,
-        partiri tantummodo ait, et si utrumque sedes aeque calidas occupaverit, utrumque marem
-        nasci, si frigidas aeque, utramque feminam, si vero alterum calidiorem, alterum frigidiorem,
-        dispari sexu partum futurum.</p>
-      <p xml:id="CENDIE0013">[7 in marg.] Superest dicere de temporibus quibus partus soleant esse ad
-        nascendum maturi; qui locus eo mihi cura maiore tractandus est, quod quaedam necesse est de
-        astrologia musicaque et arithmetica attingere.</p>
-      <p xml:id="CENDIE0014">Iam primum quoto post conceptionem mense infantes edi soleant, frequenter
-        agitatum inter veteres nondum convenit. Hippon Metapontinus a septimo ad decimum mensem
-        nasci posse aestimavit. nam septimo partum iam esse maturum eo quod in omnibus numerus
-        septenarius plurimum possit, siquidem septem formemur mensibus, additisque alteris recti
-        consistere incipiamus, et post septimum mensem dentes nobis innascantur, idemque post
+      <p xml:id="CENDIE0012">Sequitur de geminis, qui ut aliquando nascantur modo seminis fieri
+        Hippon ratus est: id enim cum amplius est quam uni satis fuit, bifariam deduci. id ipsum
+        ferme <pb n="[12]"/>Empedocles videtur sensisse: nam causas quidem cur divideretur non
+        posuit, partiri tantummodo ait, et si utrumque sedes aeque calidas occupaverit, utrumque
+        marem nasci, si frigidas aeque, utramque feminam, si vero alterum calidiorem, alterum
+        frigidiorem, dispari sexu partum futurum.</p>
+      <p xml:id="CENDIE0013">[7 in marg.] Superest dicere de temporibus quibus partus soleant esse
+        ad nascendum maturi; qui locus eo mihi cura maiore tractandus est, quod quaedam necesse est
+        de astrologia musicaque et arithmetica attingere.</p>
+      <p xml:id="CENDIE0014">Iam primum quoto post conceptionem mense infantes edi soleant,
+        frequenter agitatum inter veteres nondum convenit. Hippon Metapontinus a septimo ad decimum
+        mensem nasci posse aestimavit. nam septimo partum iam esse maturum eo quod in omnibus
+        numerus septenarius plurimum possit, siquidem septem formemur mensibus, additisque alteris
+        recti consistere incipiamus, et post septimum mensem dentes nobis innascantur, idemque post
         septimum cadant annum, quarto decimo autem pubescere soleamus. sed hanc a septem mensibus
         incipientem maturitatem usque ad decem perductam ideo quod in aliis omnibus haec eadem
         natura est, ut septem mensibus annisve tres aut menses aut anni ad consummationem accedant:
@@ -374,8 +387,8 @@
         Herophilus autem, artis eiusdem professor, venarum pulsus rhythmis musicis ait moveri.
         itaque si et in corporis et in animi motu est harmonia, procul dubio a natalibus nostris
         musica non est aliena.</p>
-      <p xml:id="CENDIE0020">[13 in marg.] Ad haec accedit quod Pythagoras prodidit hunc totum mundum
-        musica factum ratione, septemque stellas inter caelum et terram vagas, quae mortalium
+      <p xml:id="CENDIE0020">[13 in marg.] Ad haec accedit quod Pythagoras prodidit hunc totum
+        mundum musica factum ratione, septemque stellas inter caelum et terram vagas, quae mortalium
         geneses moderantur, motum habere enrythmon et intervalla musicis diastematis congrua.
         sonitusque varios reddere pro sua <pb n="[23]"/>quaque altitudine ita concordes, ut
         dulcissimam quidem concinant melodian, sed nobis inaudibilem propter vocis magnitudinem,
@@ -393,7 +406,8 @@
         stellam Martis, cui nomen est pyrois, tantumdem intervalli esse quantum a terra ad lunam,
         idque facere tonon; hinc ad Iovis stellam, quae phaethon appellatur, dimidium eius, quod
         faciat hemitonion; tantundem a Iove ad Saturni stellam, cui phaenon nomen est, id est aliud
-        hemitonion; inde ad summum caelum, ubi signa sunt, perinde hemitonion. itaque a <pb n="[24]"/>caelo summo ad solem diastema esse dia tessaron, id est duorum tonorum et dimidi, ad
+        hemitonion; inde ad summum caelum, ubi signa sunt, perinde hemitonion. itaque a <pb n="[24]"
+        />caelo summo ad solem diastema esse dia tessaron, id est duorum tonorum et dimidi, ad
         terrae autem summitatem ab eodem caelo tonos esse sex, in quibus sit dia pason symphonia.
         praeterea multa quae musici tractant ad alias rettulit stellas et hunc omnem mundum
         enarmonion esse ostendit. quare Dorylaus scripsit esse mundum organum dei: alii addiderunt
@@ -473,7 +487,8 @@
         maior annorum centum fuit. Democritum quoque Abderiten et Isocraten rhetorem ferunt prope ad
         id aetatis pervenisse quo Gorgian Leontinum, quem omnium veterum maxime senem fuisse et octo
         supra centum annos habuisse constat. quod si cultoribus sapientiae sive per animi virtutem
-        seu lege fati diutina obtigit vita, non despero quin te quoque diu corpore adque <pb n="[29]"/>animo valentem longior maneat senectus. quem enim veterum nunc memoria
+        seu lege fati diutina obtigit vita, non despero quin te quoque diu corpore adque <pb
+          n="[29]"/>animo valentem longior maneat senectus. quem enim veterum nunc memoria
         suspicimus prudentia vel temperantia vel iustitia vel fortitudine tibi antestare [dicimus]?
         quis eorum, si adesset, non in te omnium virtutum praedicationem conferret? quis tuis
         laudibus se postponi erubesceret? illud certe, ut arbitror, dignum est praedicatione, quod,
@@ -490,72 +505,73 @@
         commemorandis supersedebo. de eloquentia quoque sileo, quam omnia provinciarum nostrarum
         tribunalia, omnes praesides noverunt, quam denique urbs Roma et auditoria sacra mirata sunt.
         haec se et ad praesens et in futura saecula satis ipsa nobilitat.</p>
-      <p xml:id="CENDIE0023">[16 in marg.] Nunc vero quatenus de die natali scribo, meum munus inplere
-        conabor, tempusque hodiernum, quo maxime <pb n="[30]"/>flores, quam potero lucidissimis
-        notis signabo; ex quo etiam primus ille tuus natalis liquido noscetur. tempus autem non diem
-        tantummodo vel mensem vel annum vertentem appello, sed et quod quidam lustrum aut annum
-        magnum vocant, et quod saeculum nominant. ceterum de aevo, quod est tempus unum et maximum,
-        non multum est quod in praesentia dicatur. est enim inmensum, sine origine, sine fine, quod
-        eodem modo semper fuit et semper futurum est, neque ad quemquam hominum magis quam ad
-        alterum pertinet. hoc in tria dividitur tempora, praeteritum, praesens, futurum. e quibus
-        praeteritum initio caret, exitu futurum, praesens autem, quod medium est, adeo exiguum et
-        inconprehensibile est, ut nullam recipiat longitudinem neque aliud esse videatur quam
-        transacti futurique coniunctio, adeo porro instabile, ut ibidem sit numquam, et quidquid
-        transcurrit a futuro decerpit et adponit praeterito. haec inter se tempora, ante actum dico
-        et venturum, neque paria sunt neque ita ut alterum altero longius breviusve videatur:
-        quidquid enim non habet finem, conlationem mensurae non recipit. quapropter aevum neque
-        annorum nec saeculorum numero nec denique ullo finiti temporis modulo metiri conabor: haec
-        enim ad aetatem infinitam non sunt brumalis unius instar horae.</p>
+      <p xml:id="CENDIE0023">[16 in marg.] Nunc vero quatenus de die natali scribo, meum munus
+        inplere conabor, tempusque hodiernum, quo maxime <pb n="[30]"/>flores, quam potero
+        lucidissimis notis signabo; ex quo etiam primus ille tuus natalis liquido noscetur. tempus
+        autem non diem tantummodo vel mensem vel annum vertentem appello, sed et quod quidam lustrum
+        aut annum magnum vocant, et quod saeculum nominant. ceterum de aevo, quod est tempus unum et
+        maximum, non multum est quod in praesentia dicatur. est enim inmensum, sine origine, sine
+        fine, quod eodem modo semper fuit et semper futurum est, neque ad quemquam hominum magis
+        quam ad alterum pertinet. hoc in tria dividitur tempora, praeteritum, praesens, futurum. e
+        quibus praeteritum initio caret, exitu futurum, praesens autem, quod medium est, adeo
+        exiguum et inconprehensibile est, ut nullam recipiat longitudinem neque aliud esse videatur
+        quam transacti futurique coniunctio, adeo porro instabile, ut ibidem sit numquam, et
+        quidquid transcurrit a futuro decerpit et adponit praeterito. haec inter se tempora, ante
+        actum dico et venturum, neque paria sunt neque ita ut alterum altero longius breviusve
+        videatur: quidquid enim non habet finem, conlationem mensurae non recipit. quapropter aevum
+        neque annorum nec saeculorum numero nec denique ullo finiti temporis modulo metiri conabor:
+        haec enim ad aetatem infinitam non sunt brumalis unius instar horae.</p>
       <p xml:id="CENDIE0024">Itaque ut saecula possim percurrere et hoc nostrum praesens designare,
         omissis aureis argenteisque et hoc genus poeticis, a conditu urbis Romae, patriae nostrae
         [17 in marg.] communis, exordiar, et quoniam saecula aut naturalia sunt aut civilia, prius
         de naturalibus dicam.</p>
-      <p xml:id="CENDIE0025">Saeculum est spatium vitae humanae longissimum <pb n="[31]"/>partu et morte
-        definitum. quare qui annos triginta saeculum putarunt multum videntur errasse. hoc enim
-        tempus genean vocari Heraclitus auctor est, quia orbis aetatis in eo sit spatio. orbem autem
-        vocat aetatis, dum natura ab sementi humana ad sementim revertitur. hoc quidem geneas tempus
-        alii aliter definierunt. Herodicus annos quinque et viginti scribit dici genean, Zenon
-        triginta. saeculum autem quid sit, usque adhuc arbitror ad subtile examinatum non esse.
-        poetae quidem multa incredibilia scripserunt, nec minus historici Graeci, quamvis eos a vero
-        par non fuit decedere; ut Herodotus, apud quem legimus Arganthonion Tartessiorum regem
-        centum et quinquaginta annorum fuisse, aut Ephorus, qui tradit Arcadas dicere apud se reges
-        antiquos aliquot ad trecentos vixisse annos. verum haec ut fabulosa praetereo: sed inter
-        ipsos astrologos, qui in stellarum signorumque ratione verum scrutantur, nequaquam etiam
-        convenit. Epigenes in centum duodecim annis longissimam vitam constituit, Berosos autem
-        centum sedecim: alii ad centum viginti annos produci posse, quidam etiam ultra crediderunt.
-        fuerunt qui non idem putarunt ubique observandum, sed varie per diversas regiones, pro ut in
-        singulis sit caeli ad circulum finitorem inclinatio, quod vocatur clima.</p>
-      <p xml:id="CENDIE0026">Sed licet veritas in obscuro lateat, tamen in una quaque civitate quae sint
-        naturalia saecula, rituales Etruscorum libri videntur docere, in quis scriptum esse fertur
-        initia sic poni saeculorum. quo die urbes adque civitates constituerentur, de his qui eo die
-        nati essent eum qui <pb n="[32]"/>diutissime vixisset die mortis suae primi saeculi modulum
-        finire, eoque die qui essent reliqui in civitate, de his rursum eius mortem, qui longissimam
-        egisset aetatem, finem esse saeculi secundi. sic deinceps tempus reliquorum terminari. sed
-        ea quod ignorarent homines, portenta mitti divinitus, quibus admonerentur unum quodque
-        saeculum esse finitum. haec portenta Etrusci pro haruspicii disciplinaeque suae peritia
-        diligenter observata in libros rettulerunt. quare in Tuscis historiis, quae octavo eorum
-        saeculo scriptae sunt, ut Varro testatur, et quot numero saecula ei genti data sint, et
-        transactorum singula quanta fuerint quibusve ostentis eorum exitus designati sint
+      <p xml:id="CENDIE0025">Saeculum est spatium vitae humanae longissimum <pb n="[31]"/>partu et
+        morte definitum. quare qui annos triginta saeculum putarunt multum videntur errasse. hoc
+        enim tempus genean vocari Heraclitus auctor est, quia orbis aetatis in eo sit spatio. orbem
+        autem vocat aetatis, dum natura ab sementi humana ad sementim revertitur. hoc quidem geneas
+        tempus alii aliter definierunt. Herodicus annos quinque et viginti scribit dici genean,
+        Zenon triginta. saeculum autem quid sit, usque adhuc arbitror ad subtile examinatum non
+        esse. poetae quidem multa incredibilia scripserunt, nec minus historici Graeci, quamvis eos
+        a vero par non fuit decedere; ut Herodotus, apud quem legimus Arganthonion Tartessiorum
+        regem centum et quinquaginta annorum fuisse, aut Ephorus, qui tradit Arcadas dicere apud se
+        reges antiquos aliquot ad trecentos vixisse annos. verum haec ut fabulosa praetereo: sed
+        inter ipsos astrologos, qui in stellarum signorumque ratione verum scrutantur, nequaquam
+        etiam convenit. Epigenes in centum duodecim annis longissimam vitam constituit, Berosos
+        autem centum sedecim: alii ad centum viginti annos produci posse, quidam etiam ultra
+        crediderunt. fuerunt qui non idem putarunt ubique observandum, sed varie per diversas
+        regiones, pro ut in singulis sit caeli ad circulum finitorem inclinatio, quod vocatur
+        clima.</p>
+      <p xml:id="CENDIE0026">Sed licet veritas in obscuro lateat, tamen in una quaque civitate quae
+        sint naturalia saecula, rituales Etruscorum libri videntur docere, in quis scriptum esse
+        fertur initia sic poni saeculorum. quo die urbes adque civitates constituerentur, de his qui
+        eo die nati essent eum qui <pb n="[32]"/>diutissime vixisset die mortis suae primi saeculi
+        modulum finire, eoque die qui essent reliqui in civitate, de his rursum eius mortem, qui
+        longissimam egisset aetatem, finem esse saeculi secundi. sic deinceps tempus reliquorum
+        terminari. sed ea quod ignorarent homines, portenta mitti divinitus, quibus admonerentur
+        unum quodque saeculum esse finitum. haec portenta Etrusci pro haruspicii disciplinaeque suae
+        peritia diligenter observata in libros rettulerunt. quare in Tuscis historiis, quae octavo
+        eorum saeculo scriptae sunt, ut Varro testatur, et quot numero saecula ei genti data sint,
+        et transactorum singula quanta fuerint quibusve ostentis eorum exitus designati sint
         continetur. itaque scriptum est quattuor prima saecula annorum fuisse centenum, quintum
         centum viginti trium, sextum undeviginti et centum, septimum totidem, octavum tum demum agi,
         nonum et decimum superesse, quibus transactis finem fore nominis Etrusci.</p>
-      <p xml:id="CENDIE0027">Romanorum autem saecula quidam ludis saecularibus putant distingui: cui rei
-        fides si certa est, modus Romani saeculi est incertus. temporum enim intervalla, quibus ludi
-        isti debeant referri, non modo quanta fuerint retro ignoratur, sed ne quanta quidem esse
-        debeant scitur. nam ita institutum esse, ut centesimo quoque anno fierent, id cum Antias
-        aliique historici auctores sunt, tum Varro de scaenicis originibus libro primo ita scriptum
-        reliquit: cum multa portenta fierent, et murus ac turris, quae sunt inter portam Collinam et
-        Esquilinam, de caelo tacta essent, et ideo <pb n="[33]"/>libros Sibyllinos X viri adissent,
-        renuntiarunt uti Diti patri et Proserpinae ludi Tarentini in campo Martio fierent tribus
-        noctibus, et hostiae furvae immolarentur, utique ludi centesimo quoque anno fierent. item
-        Titus Livius libro CXXXVI: eodem anno ludos saeculares Caesar ingenti apparatu fecit, quos
-        centesimo quoque anno (his enim terminari saeculi *) fieri mos * ut *. contra ut decimo
-        centesimoque anno repetantur tam commentarii XV virorum quam Divi Augusti edicta testari
-        videntur, adeo ut Horatius Flaccus in carmine quod saecularibus ludis cantatum est id tempus
-        hoc modo designaverit: Certus undenos decies per annos Orbis ut cantus referatque ludos Ter
-        die clara totiensque grata Nocte frequentes. quae dissensio temporum, si veterum revolventur
-        annales, longe magis in incerto invenietur. primos enim ludos saeculares exactis regibus
-        post Romam conditam annis CCXLV a Valerio Publicola institutos esse ** ad XV virorum
+      <p xml:id="CENDIE0027">Romanorum autem saecula quidam ludis saecularibus putant distingui: cui
+        rei fides si certa est, modus Romani saeculi est incertus. temporum enim intervalla, quibus
+        ludi isti debeant referri, non modo quanta fuerint retro ignoratur, sed ne quanta quidem
+        esse debeant scitur. nam ita institutum esse, ut centesimo quoque anno fierent, id cum
+        Antias aliique historici auctores sunt, tum Varro de scaenicis originibus libro primo ita
+        scriptum reliquit: cum multa portenta fierent, et murus ac turris, quae sunt inter portam
+        Collinam et Esquilinam, de caelo tacta essent, et ideo <pb n="[33]"/>libros Sibyllinos X
+        viri adissent, renuntiarunt uti Diti patri et Proserpinae ludi Tarentini in campo Martio
+        fierent tribus noctibus, et hostiae furvae immolarentur, utique ludi centesimo quoque anno
+        fierent. item Titus Livius libro CXXXVI: eodem anno ludos saeculares Caesar ingenti apparatu
+        fecit, quos centesimo quoque anno (his enim terminari saeculi *) fieri mos * ut *. contra ut
+        decimo centesimoque anno repetantur tam commentarii XV virorum quam Divi Augusti edicta
+        testari videntur, adeo ut Horatius Flaccus in carmine quod saecularibus ludis cantatum est
+        id tempus hoc modo designaverit: Certus undenos decies per annos Orbis ut cantus referatque
+        ludos Ter die clara totiensque grata Nocte frequentes. quae dissensio temporum, si veterum
+        revolventur annales, longe magis in incerto invenietur. primos enim ludos saeculares exactis
+        regibus post Romam conditam annis CCXLV a Valerio Publicola institutos esse ** ad XV virorum
         conmentarios, anno CCXCVIII M. Valerio Spurio Verginio consulibus ** anno post urbem
         conditam octavo et quadringentensimo, ut vero in commentariis XV virorum scriptum est anno
         CCCC et decimo M. Valerio Corvino II <pb n="[34]"/>C. Poetilio consulibus. tertii ludi
@@ -589,19 +605,20 @@
         mortuos sallunt constare hominem plus centum annos vivere non posse, idque cor hominum
         declarare eorum qui integri perierunt sine corporis tabe; ideo quod multis annis pendendo
         cor omnis aetatis incrementa et deminutiones conseruere: et anniculi pendere duas dragmas,
-        bimi quattuor, et sic in annos singulos usque ad quinquaginta accedere binas; ab <pb n="[36]"/>iis centum dragmis abusque anno quinquagensimo item decedere in uno quoque
+        bimi quattuor, et sic in annos singulos usque ad quinquaginta accedere binas; ab <pb
+          n="[36]"/>iis centum dragmis abusque anno quinquagensimo item decedere in uno quoque
         binas; ex quo perspicuum sit centensimo anno redire ad anni primi pondus nec longius vitam
         posse producere.</p>
-      <p xml:id="CENDIE0029">Quoniam igitur civile Romanorum saeculum centum annis transigitur, scire
-        licet in decimo saeculo et primum natalem tuum fuisse et hodiernum esse. quot autem saecula
-        urbi Romae debeantur, dicere meum non est: sed quid apud Varronem legerim non tacebo, qui
-        libro antiquitatum duodevicensimo ait fuisse Vettium Romae in augurio non ignobilem, ingenio
-        magno, cuivis docto in disceptando parem: eum se audisse dicentem, si ita esset ut traderent
-        historici de Romuli urbis condendae auguriis ac XII vulturis, quoniam CXX annos incolumis
-        praeterisset populus Romanus, ad mille et ducentos perventurum.</p>
-      <p xml:id="CENDIE0030">[18 in marg.] Hactenus dictum de saeculo: nunc de annis maioribus dicam,
-        quorum magnitudo adeo diversa tam gentibus observata quam auctoribus tradita est, ut alii
-        annum magnum esse in annis vertentibus duobus, alii in multis milibus annorum arbitrati
+      <p xml:id="CENDIE0029">Quoniam igitur civile Romanorum saeculum centum annis transigitur,
+        scire licet in decimo saeculo et primum natalem tuum fuisse et hodiernum esse. quot autem
+        saecula urbi Romae debeantur, dicere meum non est: sed quid apud Varronem legerim non
+        tacebo, qui libro antiquitatum duodevicensimo ait fuisse Vettium Romae in augurio non
+        ignobilem, ingenio magno, cuivis docto in disceptando parem: eum se audisse dicentem, si ita
+        esset ut traderent historici de Romuli urbis condendae auguriis ac XII vulturis, quoniam CXX
+        annos incolumis praeterisset populus Romanus, ad mille et ducentos perventurum.</p>
+      <p xml:id="CENDIE0030">[18 in marg.] Hactenus dictum de saeculo: nunc de annis maioribus
+        dicam, quorum magnitudo adeo diversa tam gentibus observata quam auctoribus tradita est, ut
+        alii annum magnum esse in annis vertentibus duobus, alii in multis milibus annorum arbitrati
         sint. quod quale sit, iam hinc conabor absolvere. veteres in Graecia civitates cum
         animadverterent, dum sol annuo cursu orbem suum circumit, lunam novam interdum tridecies
         exoriri idque saepe alternis fieri, arbitrati sunt lunares duodecim menses et dimidiatum ad
@@ -656,26 +673,27 @@
         quinquagensima quarta olympias numeratur, eiusque annus hic secundus. idem tempus anni magni
         Romanis fuit, quod lustrum appellabant, ita quidem a Servio Tullio institutum, ut quinto
         quoque anno censu civium habito lustrum conderetur, sed non ita a posteris servatum. nam cum
-        inter primum a Servio rege conditum lustrum et id quod ab imperatore Vespasiano V <pb n="[40]"/>et T. Caesare III consuli factum est anni interfuerunt paulo minus DCL, lustra
+        inter primum a Servio rege conditum lustrum et id quod ab imperatore Vespasiano V <pb
+          n="[40]"/>et T. Caesare III consuli factum est anni interfuerunt paulo minus DCL, lustra
         tamen per ea tempora non plura quam LXXII sunt facta et postea plane fieri desierunt. rursus
         tamen annus idem magnus per Capitolinos agonas coeptus est diligentius servari, quorum
         agonum primus a Domitiano institutus fuit duodecimo eius et Servi Corneli Dolabellae
         consulatu. itaque hoc nunc anno qui celebratus est agon undequadragensimus numeratur. quod
         ad annos pertinet magnos in praesentia satis dictum: nunc de annis vertentibus dicendi
         locus.</p>
-      <p xml:id="CENDIE0031">[19 in marg.] Annus vertens est natura, dum sol percurrens XII signa eodem
-        unde profectus est redit. hoc tempus quot dierum esset ad certum nondum astrologi reperire
-        potuerunt. Philolaus annum naturalem dies habere prodidit CCCLXIIII et dimidiatum,
+      <p xml:id="CENDIE0031">[19 in marg.] Annus vertens est natura, dum sol percurrens XII signa
+        eodem unde profectus est redit. hoc tempus quot dierum esset ad certum nondum astrologi
+        reperire potuerunt. Philolaus annum naturalem dies habere prodidit CCCLXIIII et dimidiatum,
         Aphrodisius CCCLXV et partem diei octavam, Callippus autem CCCLXV et Aristarchus Samius
         tantumdem et praeterea diei partem MDCXXIII, Meton vero CCCLXV et dierum quinque
         undevicensimam partem, Oenopides CCCLXV et dierum duum et viginti partem undesexagensimam,
         Harpalus autem CCCLXV et horas aequinoctiales XIII, at noster Ennius CCCLXVI. plerique
         praeterea inconprehensibile quiddam et inenuntiabile esse existimarunt, sed pro vero quod
         proximum putabant amplexi sunt, dies scilicet CCCLXV.</p>
-      <p xml:id="CENDIE0032">Igitur cum tanta inter viros doctissimos fuerit dissensio, quid mirum si
-        anni civiles, quos diversae civitates <pb n="[41]"/>rudes etiam tum sibi quaeque statuebant,
-        tam inter se discrepent quam cum illo naturali non congruant? et in Aegypto quidem
-        antiquissimum ferunt annum menstruum fuisse, post deinde ab Isone rege quadrimenstrem
+      <p xml:id="CENDIE0032">Igitur cum tanta inter viros doctissimos fuerit dissensio, quid mirum
+        si anni civiles, quos diversae civitates <pb n="[41]"/>rudes etiam tum sibi quaeque
+        statuebant, tam inter se discrepent quam cum illo naturali non congruant? et in Aegypto
+        quidem antiquissimum ferunt annum menstruum fuisse, post deinde ab Isone rege quadrimenstrem
         factum, novissime Arminon ad XIII menses et dies quinque perduxisse. item in Achaia Arcades
         trimestrem annum primo habuisse dicuntur, et ob id proselenoe appellati, non, ut quidam
         putant, quod ante sint nati quam lunae astrum caelo esset, sed quod prius habuerint annum
@@ -685,16 +703,16 @@
         pentaeteridis annum magnum dicebant. Cares autem et Acarnanes semenstres habuerunt annos et
         inter se dissimiles, quibus alternis dies augescerent aut senescerent, eosque coniunctos
         velut trieterida annum magnum.</p>
-      <p xml:id="CENDIE0033">[20 in marg.] Sed ut hos annos omittam caligine iam profundae vetustatis
-        obductos, in his quoque, qui sunt recentioris memoriae et ad cursum lunae vel solis
-        instituti, quanta sit varietas facile est cognoscere, si quis vel in unius Italiae gentibus,
-        ne dicam peregrinis, velit inquirere. nam <pb n="[42]"/>ut alium Ferentini alium Lavinii
-        itemque Albani vel Romani habuerunt annum, ita et aliae gentes. omnibus tamen fuit
+      <p xml:id="CENDIE0033">[20 in marg.] Sed ut hos annos omittam caligine iam profundae
+        vetustatis obductos, in his quoque, qui sunt recentioris memoriae et ad cursum lunae vel
+        solis instituti, quanta sit varietas facile est cognoscere, si quis vel in unius Italiae
+        gentibus, ne dicam peregrinis, velit inquirere. nam <pb n="[42]"/>ut alium Ferentini alium
+        Lavinii itemque Albani vel Romani habuerunt annum, ita et aliae gentes. omnibus tamen fuit
         propositum suos civiles annos varie intercalandis mensibus ad unum illum verum naturalemque
         corrigere. de quibus omnibus disserere quoniam longum est, ad Romanorum annum
         transibimus.</p>
-      <p xml:id="CENDIE0034">Annum vertentem Romae Licinius quidem Macer et postea Fenestella statim ab
-        initio duodecim mensum fuisse scripserunt: sed magis Iunio Gracchano et Fulvio et Varroni
+      <p xml:id="CENDIE0034">Annum vertentem Romae Licinius quidem Macer et postea Fenestella statim
+        ab initio duodecim mensum fuisse scripserunt: sed magis Iunio Gracchano et Fulvio et Varroni
         sed et Suetonio aliisque credendum, qui decem mensum putarunt fuisse, ut tunc Albanis erat,
         unde orti Romani. hi decem menses dies CCCIIII hoc modo habebant: Martius XXXI, Aprilis XXX,
         Maius XXXI, Iunius XXX, Quintilis XXXI, Sextilis et September tricenos, October XXXI,
@@ -733,55 +751,55 @@
         si qui decemmenstres fuerunt, nec Romae modo vel per Italiam, sed et aput gentes omnes,
         quantum poterat, idem fuerunt correcti. itaque cum de aliquo annorum numero hic dicetur, non
         alios par erit quam naturales accipere.</p>
-      <p xml:id="CENDIE0035">[21 in marg.] Et si origo mundi in hominum notitiam venisset, inde exordium
-        sumeremus: nunc vero id intervallum temporis tractabo quod historicon Varro appellat. hic
-        enim tria discrimina temporum esse tradit, primum ab hominum principio ad cataclysmum
-        priorem, quod propter ignorantiam vocatur adelon, secundum a cataclysmo priore ad olympiadem
-        primam, quod, quia multa in eo fabulosa referuntur, mythicon nominatur, tertium a prima
-        olympiade ad nos, quod dicitur historicon, quia res in eo gestae veris historiis
-        continentur. primum tempus, sive habuit initium seu semper fuit, certe quot annorum sit non
-        potest conprehendi. secundum non plane quidem scitur, sed tamen ad mille circiter et
-        sescentos annos esse creditur. a priore scilicet cataclysmo, quem dicunt et Ogygii, ad
-        Inachi regnum annos circiter CCCC * *, hinc <pb n="[45]"/>ad olympiadem primam paulo plus
-        CCCC. quos solos, quamvis mythici temporis postremos, tamen quia a memoria scriptorum
-        proximos quidam certius definire voluerunt. et quidem Sosibius scripsit esse CCCXCV,
-        Eratosthenes autem septem et quadringentos, Timaeus CCCCXVII, Aretes DXIIII, et praeterea
-        multi diverse, quorum etiam ipsa dissensio incertum esse declarat. de tertio autem tempore
-        fuit quidem aliqua inter auctores dissensio in sex septemve tantummodo annis versata: sed
-        hoc quodcumque caliginis Varro discussit, et pro cetera sua sagacitate nunc diversarum
-        civitatium conferens tempora, nunc defectus eorumque intervalla retro dinumerans eruit verum
-        lucemque ostendit, per quam numerus certus non annorum modo sed et dierum perspici possit.
-        secundum quam rationem nisi fallor hic annus, cuius velut index et titulus quidam est V. C.
-        Pii et Pontiani consulatus, ab olympiade prima millensimus est et quartus decimus, ex diebus
-        dumtaxat aestivis, quibus agon Olympicus celebratur; a Roma autem condita nongentensimus
-        nonagensimus primus, et quidem ex Parilibus, unde urbis anni numerantur; eorum vero annorum
-        quibus Iulianis nomen est ducentesimus octogensimus tertius, sed ex die Kalendarum
-        Januariarum, unde Iulius Caesar anni a se constituti fecit principium; at eorum qui vocantur
-        anni Augustorum ducentesimus sexagensimus quintus, perinde <pb n="[46]"/>ex Kalendis
-        Januariis, quamvis ex ante diem XVI Kalendas Februarias imperator Caesar, Divi filius,
-        sententia L. Munati Planci a senatu ceterisque civibus Augustus appellatus est se VII et M.
-        Vipsanio Agrippa III consulibus. sed Aegyptii, quod biennio ante in potestatem dicionemque
-        populi Romani venerunt, hunc Augustorum annum ducentesimum sexagensimum septimum numerant.
-        nam ut a nostris ita ab Aegyptiis quidam anni in litteras relati sunt, ut quos Nabonnazaru
-        nominant, quod a primo imperii eius anno consurgunt, quorum hic nongentesimus octogensimus
-        sextus est; item Philippi, qui ab excessu Alexandri Magni numerantur et ad hunc usque
-        perducti annos DLXII consummant. sed horum initia semper a primo die mensis eius sumuntur
-        cui apud Aegyptios nomen est Thouth, quique hoc anno fuit ante diem VII Kalendas Iulii, cum
-        abhinc annos centum imperatore Antonino Pio II Bruttio Praesente Romae consulibus idem dies
-        fuerit ante diem XIII Kalendas Augusti, quo tempore solet canicula in Aegypto facere
-        exortum. quare scire etiam licet anni illius magni, qui, ut supra dictum est, solaris et
-        canicularis et dei annus vocatur, nunc agi vertentem annum centensimum. initia autem istorum
-        annorum propterea notavi, ne quis eos aut ex Kalendis Januariis aut ex aliquo tempore simul
-        putaret incipere, cum in his conditorum voluntates non minus diversae sint quam opiniones
-        philosophorum. idcirco aliis a novo sole, id est a bruma, aliis ab aestivo solstitio,
-        plerisque ab aequinoctio verno, partim ab autumnali aequinoctio, <pb n="[47]"/>quibusdam ab
-        ortu vergiliarum, nonnullis ab earum occasu, multis a canis exortu incipere annus naturalis
-        videtur.</p>
-      <p xml:id="CENDIE0036">[22 in marg.] Mensium genera duo: nam alii sunt naturales, alii civiles.
-        naturalium species duae, quod partim solis partim lunae esse dicuntur. secundum solem fit
-        mensis, dum sol unum quodque in zodiaco orbe signum percurrit; lunaris est autem temporis
-        quoddam spatium a nova luna. civiles menses sunt numeri quidam dierum quos una quaeque
-        civitas suo instituto observat, ut nunc Romani a kalendis in kalendas. naturales et
+      <p xml:id="CENDIE0035">[21 in marg.] Et si origo mundi in hominum notitiam venisset, inde
+        exordium sumeremus: nunc vero id intervallum temporis tractabo quod historicon Varro
+        appellat. hic enim tria discrimina temporum esse tradit, primum ab hominum principio ad
+        cataclysmum priorem, quod propter ignorantiam vocatur adelon, secundum a cataclysmo priore
+        ad olympiadem primam, quod, quia multa in eo fabulosa referuntur, mythicon nominatur,
+        tertium a prima olympiade ad nos, quod dicitur historicon, quia res in eo gestae veris
+        historiis continentur. primum tempus, sive habuit initium seu semper fuit, certe quot
+        annorum sit non potest conprehendi. secundum non plane quidem scitur, sed tamen ad mille
+        circiter et sescentos annos esse creditur. a priore scilicet cataclysmo, quem dicunt et
+        Ogygii, ad Inachi regnum annos circiter CCCC * *, hinc <pb n="[45]"/>ad olympiadem primam
+        paulo plus CCCC. quos solos, quamvis mythici temporis postremos, tamen quia a memoria
+        scriptorum proximos quidam certius definire voluerunt. et quidem Sosibius scripsit esse
+        CCCXCV, Eratosthenes autem septem et quadringentos, Timaeus CCCCXVII, Aretes DXIIII, et
+        praeterea multi diverse, quorum etiam ipsa dissensio incertum esse declarat. de tertio autem
+        tempore fuit quidem aliqua inter auctores dissensio in sex septemve tantummodo annis
+        versata: sed hoc quodcumque caliginis Varro discussit, et pro cetera sua sagacitate nunc
+        diversarum civitatium conferens tempora, nunc defectus eorumque intervalla retro dinumerans
+        eruit verum lucemque ostendit, per quam numerus certus non annorum modo sed et dierum
+        perspici possit. secundum quam rationem nisi fallor hic annus, cuius velut index et titulus
+        quidam est V. C. Pii et Pontiani consulatus, ab olympiade prima millensimus est et quartus
+        decimus, ex diebus dumtaxat aestivis, quibus agon Olympicus celebratur; a Roma autem condita
+        nongentensimus nonagensimus primus, et quidem ex Parilibus, unde urbis anni numerantur;
+        eorum vero annorum quibus Iulianis nomen est ducentesimus octogensimus tertius, sed ex die
+        Kalendarum Januariarum, unde Iulius Caesar anni a se constituti fecit principium; at eorum
+        qui vocantur anni Augustorum ducentesimus sexagensimus quintus, perinde <pb n="[46]"/>ex
+        Kalendis Januariis, quamvis ex ante diem XVI Kalendas Februarias imperator Caesar, Divi
+        filius, sententia L. Munati Planci a senatu ceterisque civibus Augustus appellatus est se
+        VII et M. Vipsanio Agrippa III consulibus. sed Aegyptii, quod biennio ante in potestatem
+        dicionemque populi Romani venerunt, hunc Augustorum annum ducentesimum sexagensimum septimum
+        numerant. nam ut a nostris ita ab Aegyptiis quidam anni in litteras relati sunt, ut quos
+        Nabonnazaru nominant, quod a primo imperii eius anno consurgunt, quorum hic nongentesimus
+        octogensimus sextus est; item Philippi, qui ab excessu Alexandri Magni numerantur et ad hunc
+        usque perducti annos DLXII consummant. sed horum initia semper a primo die mensis eius
+        sumuntur cui apud Aegyptios nomen est Thouth, quique hoc anno fuit ante diem VII Kalendas
+        Iulii, cum abhinc annos centum imperatore Antonino Pio II Bruttio Praesente Romae consulibus
+        idem dies fuerit ante diem XIII Kalendas Augusti, quo tempore solet canicula in Aegypto
+        facere exortum. quare scire etiam licet anni illius magni, qui, ut supra dictum est, solaris
+        et canicularis et dei annus vocatur, nunc agi vertentem annum centensimum. initia autem
+        istorum annorum propterea notavi, ne quis eos aut ex Kalendis Januariis aut ex aliquo
+        tempore simul putaret incipere, cum in his conditorum voluntates non minus diversae sint
+        quam opiniones philosophorum. idcirco aliis a novo sole, id est a bruma, aliis ab aestivo
+        solstitio, plerisque ab aequinoctio verno, partim ab autumnali aequinoctio, <pb n="[47]"
+        />quibusdam ab ortu vergiliarum, nonnullis ab earum occasu, multis a canis exortu incipere
+        annus naturalis videtur.</p>
+      <p xml:id="CENDIE0036">[22 in marg.] Mensium genera duo: nam alii sunt naturales, alii
+        civiles. naturalium species duae, quod partim solis partim lunae esse dicuntur. secundum
+        solem fit mensis, dum sol unum quodque in zodiaco orbe signum percurrit; lunaris est autem
+        temporis quoddam spatium a nova luna. civiles menses sunt numeri quidam dierum quos una
+        quaeque civitas suo instituto observat, ut nunc Romani a kalendis in kalendas. naturales et
         antiquiores et omnium gentium communes sunt, civiles et posterius instituti et ad unam
         quamque pertinent civitatem. qui sunt caelestes, sive solis seu lunae, neque peraeque inter
         se pares sunt nec dies habent totos. quippe sol in aquario moratur circiter undetriginta, in
@@ -799,14 +817,14 @@
         ratione neque ad lunam menses, ut oportebat, neque annos ad solem convenire, maluit annum
         corrigere, ut sic etiam menses civiles cum veris illis solaribus, etsi non singuli, tamen
         universi ad anni finem necessario concurrerent.</p>
-      <p xml:id="CENDIE0037">Nomina decem mensibus antiquis Romulum fecisse Fulvius et Iunius auctores
-        sunt. et quidem duos primos a parentibus suis nominasse, Martium a Marte patre, Aprilem ab
-        Aphrodite, id est Venere, unde maiores eius oriundi dicebantur. proximos duos a populo,
-        Maium a maioribus natu, Iunium a iunioribus. ceteros ab ordine quo singuli erant, Quintilem
-        usque Decembrem perinde a numero. Varro autem Romanos a Latinis nomina mensum accepisse
-        arbitratus auctores eorum antiquiores quam urbem fuisse satis argute docet. itaque Martium
-        mensem a Marte quidem nominatum credit, non quia Romuli fuerit pater, sed quod gens Latina
-        bellicosa. Aprilem autem non ab Aphrodite, sed ab aperiendo, quod tunc ferme cuncta
+      <p xml:id="CENDIE0037">Nomina decem mensibus antiquis Romulum fecisse Fulvius et Iunius
+        auctores sunt. et quidem duos primos a parentibus suis nominasse, Martium a Marte patre,
+        Aprilem ab Aphrodite, id est Venere, unde maiores eius oriundi dicebantur. proximos duos a
+        populo, Maium a maioribus natu, Iunium a iunioribus. ceteros ab ordine quo singuli erant,
+        Quintilem usque Decembrem perinde a numero. Varro autem Romanos a Latinis nomina mensum
+        accepisse arbitratus auctores eorum antiquiores quam urbem fuisse satis argute docet. itaque
+        Martium mensem a Marte quidem nominatum credit, non quia Romuli fuerit pater, sed quod gens
+        Latina bellicosa. Aprilem autem non ab Aphrodite, sed ab aperiendo, quod tunc ferme cuncta
         gignantur et nascendi claustra aperiat natura. Maium vero non a maioribus, sed a Maia nomen
         accepisse, quod eo mense tam Romae quam antea in Latio res divina Maiae fit et Mercurio.
         Iunium quoque a Iunone potius quam iunioribus, quod illo mense maxime Iunoni honores

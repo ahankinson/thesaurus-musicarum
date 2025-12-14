@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De institutione musica, liber quartus</title>
         <title type="abbrev">BOEMUS4</title>
-        <author>Boethius, Anicius Manlius Severinus</author>
-        <date notBefore="500" notAfter="799">6th-8th</date>
+        <author><persName>Boethius, Anicius Manlius Severinus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Claudia Di Luca</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Boetii De institutione musica libri quinque</emph>, ed. Godofredus Friedlein
@@ -486,8 +496,8 @@
       <p xml:id="BOEMUS40013">XII. Ratio superius dispositae descriptionis.</p>
       <p xml:id="BOEMUS40014">XIII. De stantibus vocibus ac mobilibus.</p>
       <p xml:id="BOEMUS40015">XIIII. De consonantiarum speciebus.</p>
-      <p xml:id="BOEMUS40016">XV. De modorum exordiis, in quo dispositio notarum per singulos modos ac
-        voces.</p>
+      <p xml:id="BOEMUS40016">XV. De modorum exordiis, in quo dispositio notarum per singulos modos
+        ac voces.</p>
       <p xml:id="BOEMUS40017">
         <pb n="[301]"/>XVI. Descriptio continens modorum ordinem ac differentias.</p>
       <p xml:id="BOEMUS40018">XVII. Ratio superius dispositae modorum descriptionis.</p>
@@ -528,9 +538,7 @@
         est .D. quaternarius ad .C. unitatem. Est enim quadruplus quaternarius unitatis et binario
         multiplicata medietas, quod est intervallum .BC.</p>
       <p class="textFig" xml:id="BOEMUS40025">
-        <lb/>IIII.     II.      I.
-        <br/>D.        B.       C.
-        <lb/></p>
+        <lb/>IIII.     II.      I. <br/>D.        B.       C. <lb/></p>
       <p xml:id="BOEMUS40026">
         <pb n="[303]"/>Si intervallum binario multiplicatum multiplex effecerit intervallum, ipsum
         quoque multiplex erit. Sit intervallum .BC. et fiat ut .C. ad .B. ita .B. ad .D. et .D. sit
@@ -544,8 +552,7 @@
         dimidium eius erit. Igitur .BC. proportio dupla est. Sed duplum multiplex est. Erit igitur
         .BC. proportio multiplex.</p>
       <p class="textFig" xml:id="BOEMUS40027">
-        <br/>D.     B.      C.
-        <lb/>IIII.  II.     I. <br/></p>
+        <br/>D.     B.      C. <lb/>IIII.  II.     I. <br/></p>
       <p xml:id="BOEMUS40028">Superparticularis intervalli medius numerus neque unus neque plures
         proportionaliter intervenient. Sit enim .BC. proportio superparticularis et in eadem
         proportione minimi sint .DF. et .G. Quoniam .DF. et .G. minimi sunt in eadem proportione,
@@ -563,16 +570,13 @@
         quod est inconveniens. Quare ne inter .X. quidem atque .XV. quisquam invenietur numerus, qui
         talem ad .X. obtineat proportionem, qualem ad eum tenent .XV.</p>
       <p class="textFig" xml:id="BOEMUS40029">
-        <lb/>                     D.
-        <br/>                     I.
-        <lb/>B.        C.         F.        G.
-        <br/>XV.       X.        III.       II.
-        <lb/></p>
-      <p xml:id="BOEMUS40030">Si intervallum non multiplex binario multiplicetur, nec multiplex est, nec
-        superparticulare. Sit enim intervallum non multiplex .BC. et fiat, ut .C. ad .B. sic .B. ad
-        .D. Dico, quoniam .D. eius, quod est .C. neque multiplex est, neque superparticularis. Sit
-        enim, si fieri potest, primum .D. eius, quod est .C. multiplex. Et quoniam cognitum est, si
-        intervallum binario multiplicatum sit et multiplex intervallum creatum, id quod
+        <lb/>                     D. <br/>                     I.
+        <lb/>B.        C.         F.        G. <br/>XV.       X.        III.       II. <lb/></p>
+      <p xml:id="BOEMUS40030">Si intervallum non multiplex binario multiplicetur, nec multiplex est,
+        nec superparticulare. Sit enim intervallum non multiplex .BC. et fiat, ut .C. ad .B. sic .B.
+        ad .D. Dico, quoniam .D. eius, quod est .C. neque multiplex est, neque superparticularis.
+        Sit enim, si fieri potest, primum .D. eius, quod est .C. multiplex. Et quoniam cognitum est,
+        si intervallum binario multiplicatum sit et multiplex intervallum creatum, id quod
         multiplicatum est bis intervallum <pb n="[305]"/>esse multiplex, erit igitur .BC. multiplex.
         Sed non est positum, non igitur erit .D. eius, quod est .C., multiplex. Nec vero
         superparticulare. Nam superparticularis proportionis medius proportionaliter terminus nullus
@@ -583,13 +587,13 @@
         quemlibet numerum. Hic erit igitur novenarius, qui quaternarii neque multiplex neque
         superparticularis est.</p>
       <p class="textFig" xml:id="BOEMUS40031">
-        <br/>D.        B.       C.
-        <lb/>VIIII.    VI.      IIII. <br/></p>
-      <p xml:id="BOEMUS40032">Si intervallum binario multiplicetur atque id, quod ex ea multiplicatione
-        creabitur, multiplex non sit, ipsum quoque non erit multiplex. Sit enim intervallum .BC.
-        fiatque, ut .C. ad .B. ita .B. ad .D. et non sit .D. eius quod est .C. multiplex. Dico,
-        quoniam nec .B. eius, quod est .C., erit multiplex. Si enim est, et .D. eius quod est .C.
-        multiplex est. At non est. Non erit igitur .B. eius, quod est .C., multiplex.</p>
+        <br/>D.        B.       C. <lb/>VIIII.    VI.      IIII. <br/></p>
+      <p xml:id="BOEMUS40032">Si intervallum binario multiplicetur atque id, quod ex ea
+        multiplicatione creabitur, multiplex non sit, ipsum quoque non erit multiplex. Sit enim
+        intervallum .BC. fiatque, ut .C. ad .B. ita .B. ad .D. et non sit .D. eius quod est .C.
+        multiplex. Dico, quoniam nec .B. eius, quod est .C., erit multiplex. Si enim est, et .D.
+        eius quod est .C. multiplex est. At non est. Non erit igitur .B. eius, quod est .C.,
+        multiplex.</p>
       <p xml:id="BOEMUS40033">Duplex intervallum ex duobus maximis superparticularibus coniungitur,
         sesqualtero et sesquitertio. Sit enim .A. quidem eius, quod est .B., sesqualter, .B. vero
         eius, quod est .C., sesquitertius. Dico, quoniam .A. eius, quod est .C. duplex est. Quoniam
@@ -604,18 +608,18 @@
         sesquitertius] <figure>
           <graphic url="/images/BOEMUS4_01GF.gif"/>
         </figure></p>
-      <p xml:id="BOEMUS40035">Ex duplici intervallo atque sesqualtero triplex nascitur intervallum. Sit
-        enim .A. eius, quod est .B., duplex, .B. autem eius, quod est .C., sesqualter. Dico quoniam
-        .A. eius, quod est .C. triplex est. Nam quoniam .A. eius, quod est .B., duplex est, .A.
-        igitur aequus est duobus .B. Rursus quoniam .B. eius, quod est .C., sesqualter est, .B.
+      <p xml:id="BOEMUS40035">Ex duplici intervallo atque sesqualtero triplex nascitur intervallum.
+        Sit enim .A. eius, quod est .B., duplex, .B. autem eius, quod est .C., sesqualter. Dico
+        quoniam .A. eius, quod est .C. triplex est. Nam quoniam .A. eius, quod est .B., duplex est,
+        .A. igitur aequus est duobus .B. Rursus quoniam .B. eius, quod est .C., sesqualter est, .B.
         igitur habet in se totum .C. et eius dimidiam partem. Duo igitur .B. aequi sunt tribus .C.
         Sed duo .B. aequi erant uni .A. Et unus igitur .A. aequus est tribus .C. Igitur .A. uno .C.
         triplex est. Et in numeris. Sit duplex quidem senarius ternario, sesqualter vero ternarius
         binario, senarius igitur triplex est binario.</p>
       <p xml:id="BOEMUS40036">[Friedlein, 306,2; text: triplus, A. B. C. VI. III. II. duplus,
         sesqualter.]</p>
-      <p xml:id="BOEMUS40037">Si sesqualtero intervallo sesquitertium demptum fuerit intervallum, erit
-        quod relinquitur sesquioctavum. Sit enim <pb n="[307]"/>.A. quidem eius quod est .B.,
+      <p xml:id="BOEMUS40037">Si sesqualtero intervallo sesquitertium demptum fuerit intervallum,
+        erit quod relinquitur sesquioctavum. Sit enim <pb n="[307]"/>.A. quidem eius quod est .B.,
         sesqualter, at vero .C. eius, quod est .B., sesquitertius. Dico quoniam .A. eius, quod est
         .C., sesquioctavus est. Quoniam enim .A. eius, quod est .B., sesqualter est, .A. igitur
         habet in se .B. et eius dimidiam partem. Octo igitur .A. aequi sunt ad duodecim .B. Rursus
@@ -627,11 +631,11 @@
         senarium. Novem igitur ad octo sesquioctava proportio est.</p>
       <p xml:id="BOEMUS40038">[Friedlein, 307; text: sesquioctavus, A. C. B. VIIII. VIII. VI.
         sesquitertius, sesqualter]</p>
-      <p xml:id="BOEMUS40039">Sex proportiones sesquioctavae maiores sunt uno duplici intervallo. Sit
-        enim quidam numerus .A., huius autem sit sesquioctavus .B., huius autem sequioctavus .C.,
-        huius autem sesquioctavus .D. et huius sesquioctavus .F. eiusque sesquioctavus .G. atque
-        huius sesquioctavus .K. Id autem fiat secundum descriptum in arithmetica modum. Et sint
-        numeri A. B. C. D. F. G. K. Et sit .A. CCLXII[macron supra lin.].CXLIIII., huius autem
+      <p xml:id="BOEMUS40039">Sex proportiones sesquioctavae maiores sunt uno duplici intervallo.
+        Sit enim quidam numerus .A., huius autem sit sesquioctavus .B., huius autem sequioctavus
+        .C., huius autem sesquioctavus .D. et huius sesquioctavus .F. eiusque sesquioctavus .G.
+        atque huius sesquioctavus .K. Id autem fiat secundum descriptum in arithmetica modum. Et
+        sint numeri A. B. C. D. F. G. K. Et sit .A. CCLXII[macron supra lin.].CXLIIII., huius autem
         sesquioctavus, qui est .B., CCXCIIII[macron supra lin.].DCCCCXII., huius autem
         sesquioctavus, qui est .C., <pb n="[308]"/>.CCCXXXI[macron supra lin.].DCCLXXVI., huius
         autem sesquioctavus, qui est .D., CCCLXXIII[macron supra lin.].CCXLVIII., huius autem
@@ -646,11 +650,11 @@
         CCCLXXIII[macron supra lin.].CCXLVIII. CCCCXVIIII[macron supra lin.].DCCCCIIII. G. K.
         CCCCLXXII[macron supra lin.].CCCXCII. DXXXI[macron supra lin.].CCCCXLI.]</p>
       <p xml:id="BOEMUS40041">Musicarum notarum per graecas ac latinas litteras nuncupatio.</p>
-      <p xml:id="BOEMUS40042">III. Restat nunc quoniam sumus nervum secundum praedictas consonantias per
-        regulam divisuri, quoniamque necessarios sonos tribus generibus cantilenae exhibebit ista
-        partitio, musicas interim notas apponere, ut, cum divisam lineam isdem notulis signaverimus;
-        quod unicuique nomen sit, facillime possit agnosci. Veteres enim <pb n="[309]"/>musici
-        propter conpendium scriptionis, ne integra semper nomina necesse esset apponere,
+      <p xml:id="BOEMUS40042">III. Restat nunc quoniam sumus nervum secundum praedictas consonantias
+        per regulam divisuri, quoniamque necessarios sonos tribus generibus cantilenae exhibebit
+        ista partitio, musicas interim notas apponere, ut, cum divisam lineam isdem notulis
+        signaverimus; quod unicuique nomen sit, facillime possit agnosci. Veteres enim <pb n="[309]"
+        />musici propter conpendium scriptionis, ne integra semper nomina necesse esset apponere,
         excogitavere notulas quasdam, quibus nervorum vocabula notarentur, easque per genera
         modosque divisere, simul etiam hac brevitate captantes, ut, si quando melos aliquod musicus
         voluisset adscribere super versum rythmica metri compositione distentum, has sonorum notulas
@@ -679,7 +683,8 @@
         iacens .[signum]., trite synemmenon, quae est tertia coniunctarum theta et lambda supinum
         .[signum]., synemmenon enarmonios, quae est coniunctarum enarmonios, eta graecum et lambda
         iacens conversum per medium habens virgulam .[signum]., synemmenon chromatice, quae est
-        coniunctarum chromatica, eta graecum habens virgulam et lambda conversum habens <pb n="[311]"/>virgulam .[signum]., synemmenon diatonos, quae est coniunctarum extenta, gamma
+        coniunctarum chromatica, eta graecum habens virgulam et lambda conversum habens <pb
+          n="[311]"/>virgulam .[signum]., synemmenon diatonos, quae est coniunctarum extenta, gamma
         et ny .[signum]., nete synemmenon, quae est ultima coniunctarum [Omega] quadratum supinum et
         zeta .[signum]., paramesos, quae est submedia, zeta et pi graecum iacens, .[signum]., trite
         diezeugmenon, quae est tertia divisarum, e quadratum et pi graecum supinum .[signum].,
@@ -697,9 +702,9 @@
         et lambda iacens habens acutam .[signum].</p>
       <p xml:id="BOEMUS40044">Musicarum notarum per voces convenientes dispositio in tribus
         generibus.</p>
-      <p xml:id="BOEMUS40045">[Friedlein, 312; text: IIII. Proslambanomenos, Hypate hypaton, Parhypate
-        hypaton, Lichanos hypaton enarmonios, Lichanos hypaton chromatice, Lichanos hypaton
-        diatonos, Hypate meson, Parhypate meson.]</p>
+      <p xml:id="BOEMUS40045">[Friedlein, 312; text: IIII. Proslambanomenos, Hypate hypaton,
+        Parhypate hypaton, Lichanos hypaton enarmonios, Lichanos hypaton chromatice, Lichanos
+        hypaton diatonos, Hypate meson, Parhypate meson.]</p>
       <p xml:id="BOEMUS40046">
         <pb n="[313]"/>[Friedlein, 313; text: Lichanos meson enarmonios, Lichanos meson chromatice,
         Lichanos meson diatonos, Mese, Trite synemmenon, Paranete synemmenon enarmonios, Paranete
@@ -713,8 +718,8 @@
         hyperboleon enarmonios, Paranete Hyperboleon chromatice, Paranete hyperboleon diatonos, Nete
         hyperboleon.]</p>
       <p xml:id="BOEMUS40048">Monochordi regularis partitio in genere diatonico.</p>
-      <p xml:id="BOEMUS40049">V. Sed iam tempus est, ad regularis monochordi divisionem venire. De qua
-        re illud est praedicendum, quod, sive in mensura nervi, sive in numeris atque eorum
+      <p xml:id="BOEMUS40049">V. Sed iam tempus est, ad regularis monochordi divisionem venire. De
+        qua re illud est praedicendum, quod, sive in mensura nervi, sive in numeris atque eorum
         proportione statuatur describenda divisio, maius spatium chordae et maior numeri multitudo
         sonos graviores efficiet. At si fuerit nervi longitudo contractior et in numeris non multa
         pluralitas, acutiores voces edi necesse est. Atque ex hac comparatione, quantum unaquaeque
@@ -739,7 +744,8 @@
         hyperboleon, quoniam .EB. eius, quae est .DB., dimidia quidem est in quantitate, dupla vero
         est in acumine. Rursus quoniam eadem .EB. eius, quae est .AB., quarta pars est in spatio,
         quadrupla erit ab eadem in acumine. Erit igitur, ut dictum est, nete hyperboleon dupla in
-        acumine ab ea, quae est mese, mese autem dupla in acumine ab ea, quae est <pb n="[316]"/>proslambanomenos. Nete vero hyperboleon quadrupla in acumine ab ea, quae est
+        acumine ab ea, quae est mese, mese autem dupla in acumine ab ea, quae est <pb n="[316]"
+        />proslambanomenos. Nete vero hyperboleon quadrupla in acumine ab ea, quae est
         proslambanomenos. Consonabit igitur proslambanomenos ad mesen diapason, mese ad neten
         hyperboleon diapason, proslambanomenos ad neten hyperboleon bis diapason. Rursus quoniam
         aequae partes sunt .AC. .CD. .DE. .EB., est autem .AB. quattuor earundem partium, .CB. autem
@@ -756,8 +762,9 @@
       <p xml:id="BOEMUS40050">[Friedlein, 316; text: A, F, C, D, E, B] <figure>
           <graphic url="/images/BOEMUS4_03GF.gif"/>
         </figure></p>
-      <p xml:id="BOEMUS40051">Superior descriptio inferiora signa quae continet eius sunt descriptionis,
-        ubi chordis notulas apposuimus, quoniam earum nomina longum fuit adscribere.</p>
+      <p xml:id="BOEMUS40051">Superior descriptio inferiora signa quae continet eius sunt
+        descriptionis, ubi chordis notulas apposuimus, quoniam earum nomina longum fuit
+        adscribere.</p>
       <p xml:id="BOEMUS40052">
         <pb n="[317]"/>Item si .AB. tribus incisionibus partiamur, erit pars tertia .AG.; duae
         igitur eiusdem erunt .GB. Consonabit igitur .AB. proslambanomenos ad .GB., quae est hypate
@@ -804,11 +811,11 @@
         supra lin.].CCCIIII.</p>
       <p xml:id="BOEMUS40056">[Friedlein, 319; text: A. O. LL. VIIII[macron supra lin.].CCXVI.
         IIII[macron supra lin.].DCVIII, II[macron supra lin.].CCCIIII.]</p>
-      <p xml:id="BOEMUS40057">Si igitur ex .II[macron supra lin.].CCCIIII. octavam abstulero partem, id
-        est .CCLXXXVIII. eisdemque adiecero, fient mihi .II[macron supra lin.].DXCII. eritque .KK.
-        .II[macron supra lin.].DXCII., quae est paranete hyperboleon ad neten hyperboleon obtinens
-        distantiam tonum. Rursus eius, quae est .KK. id est .II[macron supra lin.].DXCII. aufero
-        octavam, <pb n="[320]"/>quae est .CCCXXIIII. eamque eis, quorum est octava, subiungo
+      <p xml:id="BOEMUS40057">Si igitur ex .II[macron supra lin.].CCCIIII. octavam abstulero partem,
+        id est .CCLXXXVIII. eisdemque adiecero, fient mihi .II[macron supra lin.].DXCII. eritque
+        .KK. .II[macron supra lin.].DXCII., quae est paranete hyperboleon ad neten hyperboleon
+        obtinens distantiam tonum. Rursus eius, quae est .KK. id est .II[macron supra lin.].DXCII.
+        aufero octavam, <pb n="[320]"/>quae est .CCCXXIIII. eamque eis, quorum est octava, subiungo
         eruntque .II[macron supra lin.].DCCCCXVI. fietque mihi .FF. trite hyperboleon diatonos in
         diatonico scilicet genere .II[macron supra lin.].DCCCCXVI., tonum quidem distans ab ea, quae
         est paranete hyperboleon diatonos, ditonum vero ab ea, quae est nete hyperboleon. Eadem vero
@@ -856,7 +863,8 @@
       <p xml:id="BOEMUS40060">VII. Tria igitur tetrachorda tali nobis ratione descripta sunt.
         Tetrachordum enim omne diatessaron resonat consonantiam. Igitur nete hyperboleon et nete
         diezeugmenon in tribus generibus, id est vel in diatono vel in chromate vel in enarmonio,
-        diatessaron continet symphoniam. Diatessaron autem consonantia constat duobus tonis et <pb n="[323]"/>semitonio minore. Id hoc modo per tria genera in suprascriptis tetrachordis
+        diatessaron continet symphoniam. Diatessaron autem consonantia constat duobus tonis et <pb
+          n="[323]"/>semitonio minore. Id hoc modo per tria genera in suprascriptis tetrachordis
         divisum est. In diatonico enim genere, quod est primum, paranete hyperboleon, id est
         .II[macron supra lin.].DXCII., ad neten hyperboleon, id est .II[macron supra lin.].CCCIIII.
         obtinet distantiam tonum, quod tali notula inscripsimus .[signum]. Rursus trite hyperboleon
@@ -892,17 +900,17 @@
         commemorationibus in ceteris, cum ab hac descriptione etiam in aliis sumi possit
         exemplum.</p>
       <p xml:id="BOEMUS40061">Monochordi netarum diezeugmenon per tria genera partitio.</p>
-      <p xml:id="BOEMUS40062">VIII. Netes igitur diezeugmenon, quae est .III[macron supra lin.].LXXII.,
-          <pb n="[325]"/>si dimidium sumam, erunt .I[macron supra lin.].DXXXVI., qui eisdem additi
-        fiunt .IIII[macron supra lin.].DCVIII., quae est mese, quam .O. littera designavimus. Quod
-        si eiusdem netes diezeugmenon, id est .DD., scilicet .III[macron supra lin.].LXXII., auferam
-        tertiam partem, erunt .I[macron supra lin.].XXIIII., qui eisdem coniuncti facient
-        .IIII[macron supra lin.].XCVI., quae vocabitur paramese, X littera subnotata. Nete igitur
-        diezeugmenon, id est .III[macron supra lin.].LXXII. ad mesen id est .IIII[macron supra
-        lin.].DCVIII., quoniam in sesqualtera comparatione consistit, diapente, consonabit
-        symphoniam. Eadem vero nete diezeugmenon id est .III[macron supra lin.].LXXII. ad paramesen,
-        id est .IIII[macron supra lin.].XCVI., quae ad eam in sesquitertia proportione composita
-        est, diatessaron retinet consonantiam. Si igitur ab ea, quae est nete diezeugmenon
+      <p xml:id="BOEMUS40062">VIII. Netes igitur diezeugmenon, quae est .III[macron supra
+        lin.].LXXII., <pb n="[325]"/>si dimidium sumam, erunt .I[macron supra lin.].DXXXVI., qui
+        eisdem additi fiunt .IIII[macron supra lin.].DCVIII., quae est mese, quam .O. littera
+        designavimus. Quod si eiusdem netes diezeugmenon, id est .DD., scilicet .III[macron supra
+        lin.].LXXII., auferam tertiam partem, erunt .I[macron supra lin.].XXIIII., qui eisdem
+        coniuncti facient .IIII[macron supra lin.].XCVI., quae vocabitur paramese, X littera
+        subnotata. Nete igitur diezeugmenon, id est .III[macron supra lin.].LXXII. ad mesen id est
+        .IIII[macron supra lin.].DCVIII., quoniam in sesqualtera comparatione consistit, diapente,
+        consonabit symphoniam. Eadem vero nete diezeugmenon id est .III[macron supra lin.].LXXII. ad
+        paramesen, id est .IIII[macron supra lin.].XCVI., quae ad eam in sesquitertia proportione
+        composita est, diatessaron retinet consonantiam. Si igitur ab ea, quae est nete diezeugmenon
         .III[macron supra lin.].LXXII. octavam auferam partem, id est .CCCLXXXIIII. eisque adiciam,
         fient .III[macron supra lin.].CCCCLVI. Eritque haec paranete diezeugmenon diatonos .CC.
         litteris pernotata, ad neten diezeugmenon obtinens tonum. Ab hac vero si octavam auferam
@@ -942,9 +950,9 @@
           <graphic url="/images/BOEMUS4_04GF.gif"/>
         </figure></p>
       <p xml:id="BOEMUS40063">Monochordi netarum synemmenon per tria genera partitio.</p>
-      <p xml:id="BOEMUS40064">VIIII. Duo quidem tetrachorda, quae sibimet quidem coniuncta sunt, a mese
-        vero disiuncta, trium generum superior descriptio quemadmodum locarentur ostendit. Nunc ad
-        illud tetrachordum veniendum est, quod synemmenon vocatur, quod iunctum est ei, quae est
+      <p xml:id="BOEMUS40064">VIIII. Duo quidem tetrachorda, quae sibimet quidem coniuncta sunt, a
+        mese vero disiuncta, trium generum superior descriptio quemadmodum locarentur ostendit. Nunc
+        ad illud tetrachordum veniendum est, quod synemmenon vocatur, quod iunctum est ei, quae est
         mese. Quoniam enim inter neten diezeugmenon et mesen diapente consonantiam esse praediximus,
         est autem diapente consonantia trium tonorum ac semitonii, tres vero toni sunt in hoc
         pentachordo, quorum unus quidem netes diezeugmenon ad paraneten diezeugmenon diatonon, alter
@@ -1036,37 +1044,37 @@
         </figure></p>
       <p xml:id="BOEMUS40067">Monochordi hypaton per tria genera partitio et totius dispositio
         descriptionis.</p>
-      <p xml:id="BOEMUS40068">XI. Nunc ergo hypaton tetrachordon per tria genera dividendum est. Sumo
-        hypates meson, id est .VI[macron supra lin.].CXLIIII. dimidiam partem, quae fit .III[macron
-        supra lin.].LXXII. Hanc eidem si adiecero, fient .VIIII[macron supra lin.].CCXVI., quae est
-        proslambanomenos ad hypaten meson diapente consonantiam servans. Eiusdem autem hypates
-        meson, id est .VI[macron supra lin.].CXLIIII., si auferam tertiam partem, quae est
-        .II[macron supra lin.].XLVIII. eidemque adiecero, fient .VIII[macron supra lin.].CXCII. et
-        haec est .B. hypate hypaton. Igitur hypates meson ad proslambanomenon diapente est
-        consonantia, ad hypaten hypaton vero diatessaron. Ab hac igitur hypate meson, id est
-        .VI[macron supra lin.].CXLIIII. pars auferatur octava, erit .DCCLXVIII. Hanc eisdem si quis
-        adiungat, fient .VI[macron supra lin.].DCCCCXII., quae est .E. lichanos hypaton diatonos ad
-        hypaten meson toni obtinens proportionem. Rursus de .VI[macron supra lin.].DCCCCXII. pars
-        auferatur octava. Ea est .DCCCLXIIII. Haec si eidem copuletur, fient .VII[macron supra
-        lin.].DCCLXXVI., quae est .C. parhypate hypaton diatonos ad lichanon hypaton diatonon toni,
-        ad hypaten meson duorum tonorum distantiam servans. Relinquitur igitur semitonium inter
-        parhypaten hypaton diatonon et hypaten hypaton, <pb n="[333]"/>id est inter .VII[macron
-        supra lin.].DCCLXXVI. et .VIII[macron supra lin.].CXCII. Et diatonici quidem generis hypaton
-        tale tetrachordum est, chromaticum vero tali ratione dividimus. Sumo enim differentiam
-        hypates meson et eius, quae est lichanos hypaton diatonos, id est .VI[macron supra
-        lin.].CXLIIII. et .VI[macron supra lin.].DCCCCXII. Ea est .DCCLXVIII. Hanc dimidiam partior,
-        ut duo efficiam semitonia, fient .CCCLXXXIIII. Hanc adicio .VI[macron supra lin.].DCCCCXII,
-        ut tria semitonia fiant; erunt .VII[macron supra lin.].CCXCVI. Haec erit .F. lichanos
-        hypaton chromatice ab ea, quae est hypate meson, tribus semitoniis distans. Relinquuntur
-        ergo duo semitonia, unum quidem inter lichanon hypaton chromaticen et parhypaten hypaton
-        chromaticen, id est inter .VII[macron supra lin.].CCXCVI. et .VII[macron supra
-        lin.].DCCLXXVI., aliud vero inter parhypaten hypaton chromaticen et hypaten hypaton, id est
-        inter .VII[macron supra lin.].DCCLXXVI. et .VIII[macron supra lin.].CXCII. Restat enarmonium
-        genus, cuius ad superius exemplar talis divisio est. Quoniam enim parhypate hypaton diatonos
-        vel parhypate hypaton chromatice, quae .VII[macron supra lin.].DCCLXXVI. unitatibus
-        insignita est, duobus tonis distat ab ea, quae est hypate meson, eadem erit in genere
-        enarmonio lichanos hypaton enarmonios, quae ab hypate meson duobus integris differat tonis.
-        Restat igitur ex diatessaron consonantia semitonium, quod est inter lichanon hypaton
+      <p xml:id="BOEMUS40068">XI. Nunc ergo hypaton tetrachordon per tria genera dividendum est.
+        Sumo hypates meson, id est .VI[macron supra lin.].CXLIIII. dimidiam partem, quae fit
+        .III[macron supra lin.].LXXII. Hanc eidem si adiecero, fient .VIIII[macron supra
+        lin.].CCXVI., quae est proslambanomenos ad hypaten meson diapente consonantiam servans.
+        Eiusdem autem hypates meson, id est .VI[macron supra lin.].CXLIIII., si auferam tertiam
+        partem, quae est .II[macron supra lin.].XLVIII. eidemque adiecero, fient .VIII[macron supra
+        lin.].CXCII. et haec est .B. hypate hypaton. Igitur hypates meson ad proslambanomenon
+        diapente est consonantia, ad hypaten hypaton vero diatessaron. Ab hac igitur hypate meson,
+        id est .VI[macron supra lin.].CXLIIII. pars auferatur octava, erit .DCCLXVIII. Hanc eisdem
+        si quis adiungat, fient .VI[macron supra lin.].DCCCCXII., quae est .E. lichanos hypaton
+        diatonos ad hypaten meson toni obtinens proportionem. Rursus de .VI[macron supra
+        lin.].DCCCCXII. pars auferatur octava. Ea est .DCCCLXIIII. Haec si eidem copuletur, fient
+        .VII[macron supra lin.].DCCLXXVI., quae est .C. parhypate hypaton diatonos ad lichanon
+        hypaton diatonon toni, ad hypaten meson duorum tonorum distantiam servans. Relinquitur
+        igitur semitonium inter parhypaten hypaton diatonon et hypaten hypaton, <pb n="[333]"/>id
+        est inter .VII[macron supra lin.].DCCLXXVI. et .VIII[macron supra lin.].CXCII. Et diatonici
+        quidem generis hypaton tale tetrachordum est, chromaticum vero tali ratione dividimus. Sumo
+        enim differentiam hypates meson et eius, quae est lichanos hypaton diatonos, id est
+        .VI[macron supra lin.].CXLIIII. et .VI[macron supra lin.].DCCCCXII. Ea est .DCCLXVIII. Hanc
+        dimidiam partior, ut duo efficiam semitonia, fient .CCCLXXXIIII. Hanc adicio .VI[macron
+        supra lin.].DCCCCXII, ut tria semitonia fiant; erunt .VII[macron supra lin.].CCXCVI. Haec
+        erit .F. lichanos hypaton chromatice ab ea, quae est hypate meson, tribus semitoniis
+        distans. Relinquuntur ergo duo semitonia, unum quidem inter lichanon hypaton chromaticen et
+        parhypaten hypaton chromaticen, id est inter .VII[macron supra lin.].CCXCVI. et .VII[macron
+        supra lin.].DCCLXXVI., aliud vero inter parhypaten hypaton chromaticen et hypaten hypaton,
+        id est inter .VII[macron supra lin.].DCCLXXVI. et .VIII[macron supra lin.].CXCII. Restat
+        enarmonium genus, cuius ad superius exemplar talis divisio est. Quoniam enim parhypate
+        hypaton diatonos vel parhypate hypaton chromatice, quae .VII[macron supra lin.].DCCLXXVI.
+        unitatibus insignita est, duobus tonis distat ab ea, quae est hypate meson, eadem erit in
+        genere enarmonio lichanos hypaton enarmonios, quae ab hypate meson duobus integris differat
+        tonis. Restat igitur ex diatessaron consonantia semitonium, quod est inter lichanon hypaton
         enarmonion et hypaten hypaton, id est inter .VII[macron supra lin.].DCCLXXVI. et
         .VIII[macron supra lin.].CXCII. Hoc in duas diesis ita dividimus. Sumo differentiam eius,
         quae est lichanos hypaton enarmonios, et hypates hypaton, id est .VII[macron supra
@@ -1099,8 +1107,8 @@
         nete vero diezeugmenon extrema, quintum vero est hyperboleon, cuius est quidem princeps nete
         diezeugmenon, ad neten vero hyperboleon terminatur extremam.</p>
       <p xml:id="BOEMUS40072">De stantibus vocibus et mobilibus.</p>
-      <p xml:id="BOEMUS40073">XIII. Harum vero omnium vocum partim sunt in totum inmobiles, partim in
-        totum mobiles, partim vero nec in totum inmobiles nec in totum mobiles sonant. In totum
+      <p xml:id="BOEMUS40073">XIII. Harum vero omnium vocum partim sunt in totum inmobiles, partim
+        in totum mobiles, partim vero nec in totum inmobiles nec in totum mobiles sonant. In totum
         inmobiles sunt proslambanomenos, hypate hypaton, hypate meson, mese, nete synemmenon,
         paramesos, nete diezeugmenon nete hyperboleon idcirco, quoniam in omnibus tribus generibus
         eaedem sunt, nec loca nec nomina permutantes sive pentachorda sive tetrachorda contineant:
@@ -1143,15 +1151,15 @@
         quas parhypatas, tritas in diatono vel chromate, lichanus autem vel paranetas in enarmonio
         genere dicimus.</p>
       <p xml:id="BOEMUS40074">De consonantiarum speciebus.</p>
-      <p xml:id="BOEMUS40075">XIIII. Nunc de speciebus primarum consonantiarum tractandum est. Primae
-        autem consonantiae sunt diapason, diapente, diatessaron. Species autem est quaedam positio
-        propriam habens formam secundum unumquodque genus in uniuscuiusque proportionis consonantiam
-        facientis terminis constituta; ut in diatonico genere. Nam si diezeugmenon tetrachordum
-        inter hyperboleon tetrachordum <pb n="[338]"/>mesenque ponamus, subtracto scilicet
-        synemmenon tetrachordo, erunt .XV. nervi. At si ab his proslambanomenos detrahatur, erunt
-        .XIIII. Hi ergo disponantur hoc modo. Sit .A. hypate hypaton .B. parhypate hypaton, .C.
-        hypaton lichanos, .D. hypate meson, .E. parhypate meson, .F. lichanos meson, .G. mese., .H.
-        paramese, .I. trite diezeugmenon, .K. paranete diezeugmenon, .L. nete diezeugmenon, .M.
+      <p xml:id="BOEMUS40075">XIIII. Nunc de speciebus primarum consonantiarum tractandum est.
+        Primae autem consonantiae sunt diapason, diapente, diatessaron. Species autem est quaedam
+        positio propriam habens formam secundum unumquodque genus in uniuscuiusque proportionis
+        consonantiam facientis terminis constituta; ut in diatonico genere. Nam si diezeugmenon
+        tetrachordum inter hyperboleon tetrachordum <pb n="[338]"/>mesenque ponamus, subtracto
+        scilicet synemmenon tetrachordo, erunt .XV. nervi. At si ab his proslambanomenos detrahatur,
+        erunt .XIIII. Hi ergo disponantur hoc modo. Sit .A. hypate hypaton .B. parhypate hypaton,
+        .C. hypaton lichanos, .D. hypate meson, .E. parhypate meson, .F. lichanos meson, .G. mese.,
+        .H. paramese, .I. trite diezeugmenon, .K. paranete diezeugmenon, .L. nete diezeugmenon, .M.
         trite hyperboleon, .N. paranete hyperboleon, .O. nete hyperboleon. Ab hypate igitur ad
         paramesen diapason consonantia est, ab eadem vero paramese ad hypaten meson diapente, a mese
         vero ad hypaten meson diatessaron. Erit igitur diapason quidem octo chordarum, diatessaron
@@ -1202,25 +1210,18 @@
         specierum <pb n="[341]"/>ordo contexitur. Quorum omnium intellegentiam subiecta descriptio
         faciet esse notiorem.</p>
       <p class="textFig" xml:id="BOEMUS40076">
-        <lb/>A    Hypate hypaton
-        <br/>B    Parhypate hypaton
-        <lb/>C    Hypaton lichanos
-        <br/>D    Hypate meson
-        <lb/>E    Parhypate meson
-        <br/>F    Lichanos meson <lb/>G    Mese
-        <br/>H    Paramese <lb/>I    Trite diezeugmenon
-        <br/>K    Paranete diezeugmenon
-        <lb/>L    Nete diezeugmenon
-        <br/>M    Trite hyperboleon
-        <lb/>N    Paranete hyperboleon
+        <lb/>A    Hypate hypaton <br/>B    Parhypate hypaton <lb/>C    Hypaton lichanos
+        <br/>D    Hypate meson <lb/>E    Parhypate meson <br/>F    Lichanos meson <lb/>G    Mese
+        <br/>H    Paramese <lb/>I    Trite diezeugmenon <br/>K    Paranete diezeugmenon
+        <lb/>L    Nete diezeugmenon <br/>M    Trite hyperboleon <lb/>N    Paranete hyperboleon
         <br/>O    Nete hyperboleon. <lb/></p>
       <p xml:id="BOEMUS40077">De modorum exordiis, in quo dispositio notarum per singulos modos ac
         voces.</p>
-      <p xml:id="BOEMUS40078">XV. Ex diapason igitur consonantiae speciebus existunt, qui appellantur
-        modi, quos eosdem tropos vel tonos nominant. Sunt autem tropi constitutiones in totis vocum
-        ordinibus vel gravitate vel acumine differentes. Constitutio vero est plenum veluti
-        modulationis corpus ex consonantiarum coniunctione consistens quale est vel diapason vel
-        diapason et diatessaron vel bis diapason. Est enim diapason <pb n="[342]"/>constitutio a
+      <p xml:id="BOEMUS40078">XV. Ex diapason igitur consonantiae speciebus existunt, qui
+        appellantur modi, quos eosdem tropos vel tonos nominant. Sunt autem tropi constitutiones in
+        totis vocum ordinibus vel gravitate vel acumine differentes. Constitutio vero est plenum
+        veluti modulationis corpus ex consonantiarum coniunctione consistens quale est vel diapason
+        vel diapason et diatessaron vel bis diapason. Est enim diapason <pb n="[342]"/>constitutio a
         proslambanomeno in mesen ceteris quae sunt mediae vocibus adnumeratis, vel a mese rursus in
         neten hyperboleon cum vocibus interiectis, vel ab hypate meson in neten diezeugmenon cum
         his, quas extremae voces medias claudunt. Synemmenon vero constitutio ea est, quae a
@@ -1237,15 +1238,16 @@
         modus. Quod si in hypophrygio toni rursus intentionem voces acceperint, hypolydii modulatio
         nascetur. At si hypolydium quis semitonio intendat, dorium faciet. Et in aliis quidem
         similis est in acumen intentionemque processus, quorum non ut intellegentia solum ratio
-        conprehendatur, verum oculis quoque forma possit agnosci, ab antiquis tradita <pb n="[343]"/>musicis descriptio subponenda est. Sed quoniam per singulos modos a veteribus musicis
+        conprehendatur, verum oculis quoque forma possit agnosci, ab antiquis tradita <pb n="[343]"
+        />musicis descriptio subponenda est. Sed quoniam per singulos modos a veteribus musicis
         unaquaeque vox diversis notulis insignita est, descriptio prius notularum videtur esse
         ponenda, ut his primum per se cognitis in modorum descriptione facilis possit esse
         dispectio. (Vide descriptionem primam in tabula seorsum addita.) <figure>
           <graphic url="/images/BOEMUS4_08GF.gif"/>
         </figure></p>
       <p xml:id="BOEMUS40079">Descriptio continens modorum ordinem ac differentias.</p>
-      <p xml:id="BOEMUS40080">XVI. Superior igitur descriptio chordarum nomina tenet adscripta, notulas
-        vero iuxta positas et quae cuiuscunque sit modi sive lydii sive phrygii sive dorii,
+      <p xml:id="BOEMUS40080">XVI. Superior igitur descriptio chordarum nomina tenet adscripta,
+        notulas vero iuxta positas et quae cuiuscunque sit modi sive lydii sive phrygii sive dorii,
         vocabulorum signat adiectio. Sed quoniam hos modos diximus in speciebus diapason
         consonantiae repperiri, age eosdem in diatonico tantum genere describamus, ut, qui eorum
         ordo sit, sub aspectum cadens intellegentiam non moretur. (Vide descriptionem secundam in
@@ -1253,44 +1255,44 @@
           <graphic url="/images/BOEMUS4_09GF.gif"/>
         </figure></p>
       <p xml:id="BOEMUS40081">Ratio superius dispositae modorum descriptionis.</p>
-      <p xml:id="BOEMUS40082">XVII. Septem quidem esse praediximus modos, sed nihil videatur incongruum,
-        quod octavus super adnexus est. Huius enim adiectionis rationem paulo posterius eloquemur.
-        Nunc illud est considerandum, quod hae paginulae, <pb n="[344]"/>quas inter se rectus
-        linearum ordo distinguit, aliae quidem habent notulas musicas, aliae vero minime veluti in
-        eo modo, qui inscribitur hypermixolydius, prima quidem paginula .[Omega]., tertia .[Phi].
-        litteris adnotatur, secunda notulis vacat. In hac igitur intercapedine notularum tonus
-        interesse monstratur. Quod vero .[Phi]. tertiae atque .[Upsilon]. quartae paginae notam non
-        paginula dividit, sed versus recto ordine deductus, semitonium eas differre pronuntiat. Quod
-        probatur hoc modo. Nam si .[Omega]. proslambanomenos est, .[Phi]. hypate hypaton,
-        .[Upsilon]. parhypate hypaton, necesse est inter proslambanomenon, quod est .[Omega]. et
-        inter hypaten hypaton, quod est .[Phi]., toni esse distantiam, inter hypaten autem hypaton,
-        quod est .[Phi]. et parhypaten hypaton, quod est .[Upsilon]., semitonii differentiam
-        contineri. Itaque hoc regulariter in cunctis est considerandum, ut, si vocum notulas integra
-        pagina disgregaverit, toni inter eas sciamus esse distantiam, sin versus notulas ac non
-        pagina distinguet, semitonii non ignoremus esse distantiam. His igitur ita praemissis si duo
-        ordines in bis diapason consonantia constituti sibi invicem comparentur, ut, qui ordo sit
-        gravior, possit agnosci, si proslambanomenos proslambanomeno fuerit gravior, vel quaelibet
-        alia vox eiusdem loci voce gravior pernotetur, in eodem scilicet genere constituta, totum
-        quoque necesse est ordinem esse graviorem. Tamen id melius sumetur a media, quae est mese.
-        Duorum enim ordinum bis diapason consonantium, cuius mese fuerit gravior, eiusdem totus
-        quoque ordo gravior erit. Nam ceterae singulae singulis comparatae, graviores nihilo minus
-        inveniuntur. Itaque si media ab alia media tono aut <pb n="[345]"/>acutior videatur aut
-        gravior, omnes quoque nervi si in eodem genere sint, singuli singulis sibimet comparati tono
-        acutiores aut graviores esse videbuntur. Quattuor autem mediis si prima ad quartam
-        diatessaron distantiam servet, prima vero a secunda tono differat, secunda vero a tertia
-        eodem differat tono, tertia ad quartam semitonii faciet differentiam hoc modo. Sint quattuor
-        mediae .A.B.C.D. et .A. ei, quae est .D., comparata servet ad eam sesquitertiam
-        proportionem, quae est diatessaron, item, .A. a .B. distet tono, .B. a .C. distet tono.
-        relinquitur, ut .C. ad .D. semitonii distantiam servet.</p>
+      <p xml:id="BOEMUS40082">XVII. Septem quidem esse praediximus modos, sed nihil videatur
+        incongruum, quod octavus super adnexus est. Huius enim adiectionis rationem paulo posterius
+        eloquemur. Nunc illud est considerandum, quod hae paginulae, <pb n="[344]"/>quas inter se
+        rectus linearum ordo distinguit, aliae quidem habent notulas musicas, aliae vero minime
+        veluti in eo modo, qui inscribitur hypermixolydius, prima quidem paginula .[Omega]., tertia
+        .[Phi]. litteris adnotatur, secunda notulis vacat. In hac igitur intercapedine notularum
+        tonus interesse monstratur. Quod vero .[Phi]. tertiae atque .[Upsilon]. quartae paginae
+        notam non paginula dividit, sed versus recto ordine deductus, semitonium eas differre
+        pronuntiat. Quod probatur hoc modo. Nam si .[Omega]. proslambanomenos est, .[Phi]. hypate
+        hypaton, .[Upsilon]. parhypate hypaton, necesse est inter proslambanomenon, quod est
+        .[Omega]. et inter hypaten hypaton, quod est .[Phi]., toni esse distantiam, inter hypaten
+        autem hypaton, quod est .[Phi]. et parhypaten hypaton, quod est .[Upsilon]., semitonii
+        differentiam contineri. Itaque hoc regulariter in cunctis est considerandum, ut, si vocum
+        notulas integra pagina disgregaverit, toni inter eas sciamus esse distantiam, sin versus
+        notulas ac non pagina distinguet, semitonii non ignoremus esse distantiam. His igitur ita
+        praemissis si duo ordines in bis diapason consonantia constituti sibi invicem comparentur,
+        ut, qui ordo sit gravior, possit agnosci, si proslambanomenos proslambanomeno fuerit
+        gravior, vel quaelibet alia vox eiusdem loci voce gravior pernotetur, in eodem scilicet
+        genere constituta, totum quoque necesse est ordinem esse graviorem. Tamen id melius sumetur
+        a media, quae est mese. Duorum enim ordinum bis diapason consonantium, cuius mese fuerit
+        gravior, eiusdem totus quoque ordo gravior erit. Nam ceterae singulae singulis comparatae,
+        graviores nihilo minus inveniuntur. Itaque si media ab alia media tono aut <pb n="[345]"
+        />acutior videatur aut gravior, omnes quoque nervi si in eodem genere sint, singuli singulis
+        sibimet comparati tono acutiores aut graviores esse videbuntur. Quattuor autem mediis si
+        prima ad quartam diatessaron distantiam servet, prima vero a secunda tono differat, secunda
+        vero a tertia eodem differat tono, tertia ad quartam semitonii faciet differentiam hoc modo.
+        Sint quattuor mediae .A.B.C.D. et .A. ei, quae est .D., comparata servet ad eam
+        sesquitertiam proportionem, quae est diatessaron, item, .A. a .B. distet tono, .B. a .C.
+        distet tono. relinquitur, ut .C. ad .D. semitonii distantiam servet.</p>
       <p xml:id="BOEMUS40083">[Friedlein, 345; text: diatessaron, A, B, C, D]</p>
-      <p xml:id="BOEMUS40084">Et si quinque sint mediae, eodem modo. Si enim prima a quinta sesqualtera
-        destiterit proportione, primaque a secunda, ac secunda a tertia tertiaque a quarta singulis
-        destiterint tonis, quarta ad quintam semitonii faciet differentiam. Item quaecunque mediae
-        aliorum modorum proslambanomenis accedunt, hae graviores modos operantur, quaecunque netis,
-        illae acutiores efficiunt. Quoniam igitur in superiore pagina descriptis modis partem
-        sinistram legentis primi proslambanomeni tenent, dextera vero legentis extremis clauditur
-        netis, erit omnibus quidem acutior modus, qui inscribitur hypermixolydius, omnibus vero
-        gravior is, qui hypodorius. Nos vero a gravissimo, id <pb n="[346]"/>est hypodorio
+      <p xml:id="BOEMUS40084">Et si quinque sint mediae, eodem modo. Si enim prima a quinta
+        sesqualtera destiterit proportione, primaque a secunda, ac secunda a tertia tertiaque a
+        quarta singulis destiterint tonis, quarta ad quintam semitonii faciet differentiam. Item
+        quaecunque mediae aliorum modorum proslambanomenis accedunt, hae graviores modos operantur,
+        quaecunque netis, illae acutiores efficiunt. Quoniam igitur in superiore pagina descriptis
+        modis partem sinistram legentis primi proslambanomeni tenent, dextera vero legentis extremis
+        clauditur netis, erit omnibus quidem acutior modus, qui inscribitur hypermixolydius, omnibus
+        vero gravior is, qui hypodorius. Nos vero a gravissimo, id <pb n="[346]"/>est hypodorio
         inchoantes ceteros quam inter se habeant differentiam designabimus. Namque in hypodorio modo
         mese, quae est .[Omega]., ab ea mese, quae est in modo hypophrygio, tono distat. Quod in hoc
         facile perspicietur, si quis ad mesen hypophrygii, quae est .[Phi]., eiusdem hypophrygii
@@ -1322,13 +1324,15 @@
         diatonico genere, in quolibet modo si comparetur, diapente consonantiam distat. Cur autem
         octavus modus, qui est hypermixolydius, adiectus sit, hinc patet. Sit bis diapason
         consonantia haec:</p>
-      <p xml:id="BOEMUS40085">[Friedlein, 347; text: A, B, C, D, E, F, G, H, I, K, L, M, N, O, P]</p>
+      <p xml:id="BOEMUS40085">[Friedlein, 347; text: A, B, C, D, E, F, G, H, I, K, L, M, N, O,
+        P]</p>
       <p xml:id="BOEMUS40086">Diapason igitur consonantiam servat .A. ad id, quod est .H. Octo enim
         vocibus continetur. Primam igitur diximus esse speciem diapason eam, quae est .AH., secundam
         vero .BI. tertiam .CK. quartam .DL. quintam .EM. sextam <pb n="[348]"/>.FN. septimam .GO.
         Relinquitur igitur extra .HP., quae ut totus ordo inpleretur, adiecta est. Atque hic est
         octavus modus, quem Ptolomaeus superadnexuit.</p>
-      <p xml:id="BOEMUS40087">Quemadmodum indubitanter musicae consonantiae aure diiudicari possint.</p>
+      <p xml:id="BOEMUS40087">Quemadmodum indubitanter musicae consonantiae aure diiudicari
+        possint.</p>
       <p xml:id="BOEMUS40088">XVIII. Ut vero indubitanter consonantiarum ratio colligatur, tali
         brevissimo ac simplici effici poterit instrumento. Sit regula diligenter extensa .AD. Cui
         duo semispheria, quas magadas Graeci vocant, insuper apponantur ita, ut ab ea, quae est .E.
@@ -1402,8 +1406,8 @@
         hyperboleon enarmonios, II[macron supra lin.].DCCCC.XVI. HH. paranete hyperboleon
         chromatice, II[macron supra lin.].DCC.XXXVI. KK. paranete hyperboleon diatonos, II[macron
         supra lin.].DXCII. LL. nete hyperboleon, II[macron supra lin.].CCCIIII.]</p>
-      <p xml:id="BOEMUS40094">[Friedlein, Appendix to 334; text: A. B. C. D. E. F. H. I. K. L. M. N. O.
-        P. Q. R. S. T. V. X. Y. Z. AA. BB. CC. DD. EE. FF. HH. KK. LL. proslambanomenos,
+      <p xml:id="BOEMUS40094">[Friedlein, Appendix to 334; text: A. B. C. D. E. F. H. I. K. L. M. N.
+        O. P. Q. R. S. T. V. X. Y. Z. AA. BB. CC. DD. EE. FF. HH. KK. LL. proslambanomenos,
         VIIII[macron supra lin.].CC.XVI. tonus, hypate hypaton. VIII[macron supra lin.].C.XCII.
         semitonium, parhypate hypaton enarmonios, VII[macron supra lin.].D.CCCC.LXXX.IIII. parhypate
         hypaton diatonos, VII[macron supra lin.].DCC.LXXVI. parhypate hypaton chromatice, lichanos

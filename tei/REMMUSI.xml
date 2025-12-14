@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musica</title>
         <title type="abbrev">REMMUSI</title>
-        <author>Remigius Altisiodorensis</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Remigius Altisiodorensis</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>John Gray</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Oliver B. Ellsworth</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Patrologia cursus completus, series latina</emph>, ed. J. P. Migne, 221 vols.
@@ -97,15 +107,16 @@
         Acumen vero dicitur, id est altitudo, quod in aciem, id est in acumen vocis, tenualam,
         extenuatam, id est subtilem gracilis et erectae modulationis, id est extentae, non remissae,
         sed in altum acute extenditur.</p>
-      <p xml:id="REMMUSI0004">Ex supradictis itaque sonis, id est XVIII, qui et singulis scilicet tropis
-        et omnibus tropis, id est XV, in singulis et in omnibus tropis (rite conveniunt), omnes <pb n="[934]"/>enim tropi ex praedictis sonis componuntur, et in singulis tropis inveniuntur,
-        symphoniae tres sunt, quarum prima diatessaron, ut est "tibi dixit cor meum" quae Latine
-        appellatur ex quatuor, sicut est scilicet quod fit in quatuor chordis, et recipit sonos
-        quatuor, id est chordas vel voces, spatia tria, quae sunt inter chordas et chordas, ita
-        quatuor, productiones duas, id est tonos duos, et dimidiam, id est hemitonium, id est
-        dimidium. Verum est, quod dicitur diatessaron habere tonos et hemitonion, hoc est quinque
-        hemitonia, cum unus tonus nonnisi duo hemitonia habeat. Ad quod dicendum, quod illud quintum
-        hemitonium, quod ibi succrescit, incomprehensibiliter fit, quod inter illa quatuor
+      <p xml:id="REMMUSI0004">Ex supradictis itaque sonis, id est XVIII, qui et singulis scilicet
+        tropis et omnibus tropis, id est XV, in singulis et in omnibus tropis (rite conveniunt),
+        omnes <pb n="[934]"/>enim tropi ex praedictis sonis componuntur, et in singulis tropis
+        inveniuntur, symphoniae tres sunt, quarum prima diatessaron, ut est "tibi dixit cor meum"
+        quae Latine appellatur ex quatuor, sicut est scilicet quod fit in quatuor chordis, et
+        recipit sonos quatuor, id est chordas vel voces, spatia tria, quae sunt inter chordas et
+        chordas, ita quatuor, productiones duas, id est tonos duos, et dimidiam, id est hemitonium,
+        id est dimidium. Verum est, quod dicitur diatessaron habere tonos et hemitonion, hoc est
+        quinque hemitonia, cum unus tonus nonnisi duo hemitonia habeat. Ad quod dicendum, quod illud
+        quintum hemitonium, quod ibi succrescit, incomprehensibiliter fit, quod inter illa quatuor
         excrescit. Nam sonum, id est tonum productionem vocavi. Est autem, scilicet diatessaron, id
         est hemitoniorum quinque, quae ad productiones, id est tonos, plenas et integras mediatenus,
         id est usque ad medietatem, valent; dieseon decem, genitivus Graecus, id est quartarum
@@ -125,11 +136,12 @@
         tonus, hemitonium, ecce diatessaron: tonus, tonus, hemitonium, tonus, ecce diapente, ex
         ratione diplasia, hoc est duplici; nam acutissimus ejus sonus duplo gravissimos superat, ut
         est [mese] ad [hypaten hypaton].</p>
-      <p xml:id="REMMUSI0005">Tropi vero sunt XV, sed principales V scilicet sunt. Notandum, quod Graeci
-        secundum numerum divisionis linguarum apud eos, quibus utuntur, principalium numerum
+      <p xml:id="REMMUSI0005">Tropi vero sunt XV, sed principales V scilicet sunt. Notandum, quod
+        Graeci secundum numerum divisionis linguarum apud eos, quibus utuntur, principalium numerum
         troporum constituerunt, quibus bini scilicet tropi cohaerent, scilicet Lydius, ecce primum:
         lydius dicitur, quod Lydii eo utuntur; cui adhaerent [hypolydios] hypolydius et
-        [hyperlydios] hyperlydius, id est super Lydium, id est acutior Lydio; hypolydius, id <pb n="[935]"/>est sub lydio, id est gravior Lydio. Secundus scilicet tropus Iastius;
+        [hyperlydios] hyperlydius, id est super Lydium, id est acutior Lydio; hypolydius, id <pb
+          n="[935]"/>est sub lydio, id est gravior Lydio. Secundus scilicet tropus Iastius;
         [iastios] dicitur quod eo Eones untuntur. Item, id est tertius, AEolius, AEolius dicitur,
         quod eo AEoles utuntur, cum [hypoaiolio] hypoaeolio et [hyperaiolio] hyperaeolio. Quartus
         Phrygius; Phrygius dicitur, quod in Phrygia repertus et usitatus est, cum duobus
@@ -153,14 +165,14 @@
         id est principiorum et inventionum (ratum ordinem redeamus), quo ordine inventa est
         harmonia. Praedicta enim, id est, ea quae superius dicta sunt, ideo primo dicta sunt,
         scilicet a me, ut altus tenerentur, id est, profundius in memoria figerentur.</p>
-      <p xml:id="REMMUSI0006">Prima quippe, id est, ante dicta quam divulgaret mortalibus ea, scilicet
-        genera Ermion vir Lassus ex Surse, scilicet oppido et regione, tria tantum mei genera
-        putabantur, mei, id est, harmoniae, et est genitivus primitivi. Primum genus est Ydikon:
-        Quae genera formae inveniuntur. Formarum autem tres sunt species, quarum prima in sonis,
-        secunda in numeris, tertia in verbis. Illa autem prima, id est, quae in sonis invenitur, ad
-        harmoniam pertinet; non <pb n="[936]"/>enim in ea verba aliquid significantia, sed soni
-        tantum sibimet ipsis aliqua ratione conjuncti quaeruntur. Secunda autem, quae ad numeros
-        pertinet, nihil aliud requirit, nisi tantum convenientem numerum sonorum nihil
+      <p xml:id="REMMUSI0006">Prima quippe, id est, ante dicta quam divulgaret mortalibus ea,
+        scilicet genera Ermion vir Lassus ex Surse, scilicet oppido et regione, tria tantum mei
+        genera putabantur, mei, id est, harmoniae, et est genitivus primitivi. Primum genus est
+        Ydikon: Quae genera formae inveniuntur. Formarum autem tres sunt species, quarum prima in
+        sonis, secunda in numeris, tertia in verbis. Illa autem prima, id est, quae in sonis
+        invenitur, ad harmoniam pertinet; non <pb n="[936]"/>enim in ea verba aliquid significantia,
+        sed soni tantum sibimet ipsis aliqua ratione conjuncti quaeruntur. Secunda autem, quae ad
+        numeros pertinet, nihil aliud requirit, nisi tantum convenientem numerum sonorum nihil
         significantium, aut nihil aut aliquid significantium absque ullo termino. Tertia vero, quae
         vocatur metrica, non solum sonos certis temporibus terminatos inquirit, sed etiam cogit, ut
         aliquid significent, et certum numerum terminumque non excedant: quorum exempla sunt versus
@@ -193,8 +205,8 @@
         cantus: [hypokritikon] simulativum, quae, se licet omnia genera, inferius, id est in
         praecedentibus vel in sequentibus rerum ordo disponet. Nunc de prima voce, id est de ipsa
         voce, quae prima est, velut de parente sonitus totius dicemus.</p>
-      <p xml:id="REMMUSI0007">Omnis vox in duo genera dividitur, continuum atque divisum. Continuum est
-        velut juge colloquium, id est, frequens narratio, quae inter duos fit, quae non fit per
+      <p xml:id="REMMUSI0007">Omnis vox in duo genera dividitur, continuum atque divisum. Continuum
+        est velut juge colloquium, id est, frequens narratio, quae inter duos fit, quae non fit per
         cola, id est commata. Divisum genus est quod dividitur per cola et commata, certosque pedes
         in modulatione, id est cantum. Est et medium, scilicet carmen, id est, neque juge neque
         divisum (quod in utroque) permixtum, scilicet est (ac) neque alterius speciei, id est
@@ -207,35 +219,35 @@
         pertinet (aptanda est. Quae quidem) harmonica, scilicet pars habet partes disputationis
         septem, quae virgulas dicunt:</p>
       <p xml:id="REMMUSI0008">Alloquitur numeris septem discrimina vocum.</p>
-      <p xml:id="REMMUSI0009">Primam, scilicet partem habet de sonis; secundam scilicet partem, habet de
-        spatiis, id est de diastematibus; tertiam de systematis. Graecus dixit, genitivum, scilicet
-        pro ablativo nostro ponens Quartam, scilicet partem habet de genere, silicet quod est
-        trinum, id est chromaticum, diatonicum et enarmonicum, Quintam de tonis, id est phthongis;
-        sextam commutationibus, id est metabolis; septimam scilicet partem habet de modulatione,
-        quam melopaeiam vocamus id est melodiae facturam. Ac prius de sonis scilicet dicamus, ubi
-        artis est elementum, id est materies artis.</p>
-      <p xml:id="REMMUSI0010">Sonus quippe tanti, toties, id est tanti valet apud nos scilicet musicos
-        (loci est) quanti in geometricis signum, id est punctus, in Arithmeticis singulum, id est
-        unitas. Phthongos sonos dicimus, hinc diphthongus dicitur dualis sonus. (Verum phthongus
-        dicitur vocis modulatae particula) una intentione, id est, simili tenore producta aut gravi
-        aut acuto. Est autem intensio, id est productio, quam dicimus tasin, productionem, in qua,
-        scilicet intensione vos consistit <pb n="[938]"/>ac perseverat, scilicet aequaliter. Sonus
-        phthongus vel speciatim, id est singulas voces, vel generaliter appellatur; sed generale
-        vocabulum, scilicet quod est sonus specialia habent, quae idiotitia [idioteta] specialia, id
-        est propriam habentia positionem, graia, id est Graeca voce perhibentur. Ut si quemadmodum,
-        id est quo accentu, nobis scribendum sit, cogitemus, quemadmodum unaquaequae syllaba suum
-        accentum habet, ita unusquisquis sonus notam (ita haec virtus phthongi docet, quid) acuminis
-        et remissionis, exeramus, extendamus vel in altitudinem producamus et lenius remittamus,
-        gravemus. Verum ex istis, scilicet phtongis, alia faciunt (alia patiuntur, Faciunt),
-        intensio scilicet chordae, id est cum tenditur chorda, et remissio, scilicet chordae, id est
-        quando relaxatur chorda: patiuntur acumen et gravitas. In chorda fit actus in intensione et
-        remissione, passio vero fit in voce, quae patimur, id est sustinet chordae arteriarum
-        extensionem et remissionem. Productio autem est, hoc est, epitasis, id est superintensio,
-        vocis commotio a loco graviore in acutum locum: anesis vero contra, id est cum de acuto
-        movetur in gravem (nam ab acuminis culmine in grave quiddam seriumque descendit).
-        Paracterica est repersussio vocis, serum tardum grave. (Fit autem soni gravi as, cum) ex
-        intimo, id est ex profundo pectoris (quidam spiritus trahitur; acumen vero) ex superficie
-        oris, id est ex labris (emittitur).</p>
+      <p xml:id="REMMUSI0009">Primam, scilicet partem habet de sonis; secundam scilicet partem,
+        habet de spatiis, id est de diastematibus; tertiam de systematis. Graecus dixit, genitivum,
+        scilicet pro ablativo nostro ponens Quartam, scilicet partem habet de genere, silicet quod
+        est trinum, id est chromaticum, diatonicum et enarmonicum, Quintam de tonis, id est
+        phthongis; sextam commutationibus, id est metabolis; septimam scilicet partem habet de
+        modulatione, quam melopaeiam vocamus id est melodiae facturam. Ac prius de sonis scilicet
+        dicamus, ubi artis est elementum, id est materies artis.</p>
+      <p xml:id="REMMUSI0010">Sonus quippe tanti, toties, id est tanti valet apud nos scilicet
+        musicos (loci est) quanti in geometricis signum, id est punctus, in Arithmeticis singulum,
+        id est unitas. Phthongos sonos dicimus, hinc diphthongus dicitur dualis sonus. (Verum
+        phthongus dicitur vocis modulatae particula) una intentione, id est, simili tenore producta
+        aut gravi aut acuto. Est autem intensio, id est productio, quam dicimus tasin, productionem,
+        in qua, scilicet intensione vos consistit <pb n="[938]"/>ac perseverat, scilicet aequaliter.
+        Sonus phthongus vel speciatim, id est singulas voces, vel generaliter appellatur; sed
+        generale vocabulum, scilicet quod est sonus specialia habent, quae idiotitia [idioteta]
+        specialia, id est propriam habentia positionem, graia, id est Graeca voce perhibentur. Ut si
+        quemadmodum, id est quo accentu, nobis scribendum sit, cogitemus, quemadmodum unaquaequae
+        syllaba suum accentum habet, ita unusquisquis sonus notam (ita haec virtus phthongi docet,
+        quid) acuminis et remissionis, exeramus, extendamus vel in altitudinem producamus et lenius
+        remittamus, gravemus. Verum ex istis, scilicet phtongis, alia faciunt (alia patiuntur,
+        Faciunt), intensio scilicet chordae, id est cum tenditur chorda, et remissio, scilicet
+        chordae, id est quando relaxatur chorda: patiuntur acumen et gravitas. In chorda fit actus
+        in intensione et remissione, passio vero fit in voce, quae patimur, id est sustinet chordae
+        arteriarum extensionem et remissionem. Productio autem est, hoc est, epitasis, id est
+        superintensio, vocis commotio a loco graviore in acutum locum: anesis vero contra, id est
+        cum de acuto movetur in gravem (nam ab acuminis culmine in grave quiddam seriumque
+        descendit). Paracterica est repersussio vocis, serum tardum grave. (Fit autem soni gravi as,
+        cum) ex intimo, id est ex profundo pectoris (quidam spiritus trahitur; acumen vero) ex
+        superficie oris, id est ex labris (emittitur).</p>
       <p xml:id="REMMUSI0011">Sunt igitur innumerabiles soni sed specialiter per singulos tropos,
         scilicet qui sunt XV et XXVIII tantum poterunt convenire. Omnia ista in cantilena deprehendi
         possunt. Si volueris diatonicum tantum commemorare, tunc XVIII habebis. Si autem chromaticum
@@ -284,7 +296,8 @@
         complevit, ac producente media sequentem tonum, mese producit tonum quod tonus est inter
         mesen et paramesen, ille qui sequitur sonus, id est chorda, [paramesos], id est juxta mesen
         nominatur, quod hunc, id est paramesen, satis proximum sonus adjunctae modulalionis,
-        scilicet tonum, oflendat, id est, inveniat. Dehinc, scilicet sequitur, <pb n="[940]"/>divisarum tertia, id est trite Zeygmenon, tertia scilicet ab ultima, quae plenum systema,
+        scilicet tonum, oflendat, id est, inveniat. Dehinc, scilicet sequitur, <pb n="[940]"
+        />divisarum tertia, id est trite Zeygmenon, tertia scilicet ab ultima, quae plenum systema,
         id est spatium diapason finit; unde disjunctarum tertia, scilicet a fine, perhibetur. Post
         hanc, scilicet tertiam, soni caeteri. id est illi tres [enarmonios, chromatikos] et
         [diatonos] consequuntur. Sonus vero divisarum ideo hoc nomen accepit, quia uno et dimidio
@@ -337,11 +350,11 @@
         reperti sunt tropi; quibusdam enim sonus gravis convenit, quibusdam acutus, quibusdam
         medius. Alium quippe morem, scilicet generum, acuta significant, alium graviora, quod
         quaedam gentes delectantur acutissimo, quaedam gravi.</p>
-      <p xml:id="REMMUSI0014">Nunc jam de diastematis disserendum, scilicet est, Graece de diastematis,
-        genitivum scilicet pro ablativo nostro ponens, Graeci enim non habent ablativum, pro loco
-        ejus genitivo utuntur. Diastema [diastema] est vocis spatium, quo acuta, scilicet vox, id
-        est in quantum acuta, et gravior, id est in quantum gravior, includitur, id est
-        comprehenditur. Sed in diastematis, Graece dixit sicut et supra genitivum pro ablavito
+      <p xml:id="REMMUSI0014">Nunc jam de diastematis disserendum, scilicet est, Graece de
+        diastematis, genitivum scilicet pro ablativo nostro ponens, Graeci enim non habent
+        ablativum, pro loco ejus genitivo utuntur. Diastema [diastema] est vocis spatium, quo acuta,
+        scilicet vox, id est in quantum acuta, et gravior, id est in quantum gravior, includitur, id
+        est comprehenditur. Sed in diastematis, Graece dixit sicut et supra genitivum pro ablavito
         ponens, alia, scilicet sunt, graviora (Meibom, breviora) illa scilicet, quae sunt in diesi.
         Enarmonia, id est in quarta parte toni; majora vero sunt, scilicet diastemata (quae per
         singulos tropos), bis ex omnibus vel bis diapason faciunt (quo nihil majus in tropis
@@ -413,37 +426,38 @@
         lichanos meson diatonos, in excellentium diatonon, id est in paraneten hyperbolaeon diatonos
         exsurgit, excurrit. Octavum, quod a media, id est a mese, excellentium in ultimam ducitur,
         id est in neten hyperbolaeon.</p>
-      <p xml:id="REMMUSI0017">Quibus, scilicet systematis, excursis genera tetrachordorum modulandique
-        discurram, id est breviter exponam. Tetrachordon, est nominativus Graecus, est chordarum
-        divisio cum certa qualitate, id est proportione. Genera modulandi sunt tria, Enarmonion,
-        Chroma, Diatonon. Enarmonium interpretatur <pb n="[944]"/>inadunatum, chroma coloratum,
-        diatonon extentum. Enarmonion, scilicet genus, dicitur, quod pluribus, id est majoribus
-        spatiis, et angustioribus, id est minoribus proportionibus, diesis videlicet, separatur,
-        distinguitur. Diatonon vero, scilicet genus, quod tonis copiosum, scilicet est, id est
-        abundans tonis. Diatonon genus duobus tonis et semitonio constat, quod genus est clarissimum
-        et minutissimum, licet diversis gentibus conveniat, sicut Gothis, qui minutissime canunt,
-        Theodissi ab tissone. Winedi et Hebraei cum murmure. Chroma, scilicet genus quod de
-        hemitoniis componitur: sicut enim quod inter album nigrumque est, color dicitur; ita hoc,
-        scilicet tertium genus, chroma nominatum, scilicet est, quod inter utrumque est, id est
-        inter harmonium, et diatonum. Et enarmonion quidem, scilicet genus, cum ab immutabilibus, id
-        est gravioribus, sonis cingitur, id est vallatur, (sic enim surgit, tonus, tonus, diesis in
-        acumen per dieresin, scilicet surgit, quod diatonon et enarmonion, id est per duos tonos
-        incompositum, quod duo toni in una regione sunt tria hemitonia, hoc totum clare patet in
-        paginis Boetii de Musica; in gravem, scilicet melodiam, per diversum, id est ex contrario
-        mutato ordine). At vero diatonum, id est diatonicum genus, ipsis contentum, scilicet est,
-        sonis (in acumen quidem ita accipiet, modulationem, ut per hemitonium, et tonum, et tonum,
-        modum integrum compleat: at vero graviorem: id est, conjunctum, per contrarium ordinem, id
-        est, per tonum, et tonum et hemitonium persequetur. Sed nunc, id est hoc tempore, maxime
-        diatono utimur, id est usui habemus, eo quod pulchrior caeteris sit; quod ideo dicitur, quia
-        Afer erat iste; in Africa enim maxime viget diatonicum genus. Sed horum alia modulamur
-        peragogen, [agogen], id est sursum ductionem, vel per ascensionem in acumen; alia per plocen
-        [ploken], id est geminationem vel copulationem. Per agogen est, scilicet modulatio, cum per
-        ordinem sonus sequetur, scilicet seipsum. Ploce autem dicitur, cum diversa sociamus, id est
-        diversas chordas conjungimus, quartam chordam ad primam. Ploce copulatio vel geminatio,
-        quidquid enim geminatur vel ex diversis locis colligitur, ploce appellatur.</p>
-      <p xml:id="REMMUSI0018">Ex hinc in modulando alia, scilicet modulatio, euthia [eutheia] dicitur,
-        quod est recta, scilicet modulatio in acumen: alia anacamptos [anakamptos], quod est
-        revertens, id est in gravitatem descendens; alia peripheres [peripheres], hoc est
+      <p xml:id="REMMUSI0017">Quibus, scilicet systematis, excursis genera tetrachordorum
+        modulandique discurram, id est breviter exponam. Tetrachordon, est nominativus Graecus, est
+        chordarum divisio cum certa qualitate, id est proportione. Genera modulandi sunt tria,
+        Enarmonion, Chroma, Diatonon. Enarmonium interpretatur <pb n="[944]"/>inadunatum, chroma
+        coloratum, diatonon extentum. Enarmonion, scilicet genus, dicitur, quod pluribus, id est
+        majoribus spatiis, et angustioribus, id est minoribus proportionibus, diesis videlicet,
+        separatur, distinguitur. Diatonon vero, scilicet genus, quod tonis copiosum, scilicet est,
+        id est abundans tonis. Diatonon genus duobus tonis et semitonio constat, quod genus est
+        clarissimum et minutissimum, licet diversis gentibus conveniat, sicut Gothis, qui
+        minutissime canunt, Theodissi ab tissone. Winedi et Hebraei cum murmure. Chroma, scilicet
+        genus quod de hemitoniis componitur: sicut enim quod inter album nigrumque est, color
+        dicitur; ita hoc, scilicet tertium genus, chroma nominatum, scilicet est, quod inter
+        utrumque est, id est inter harmonium, et diatonum. Et enarmonion quidem, scilicet genus, cum
+        ab immutabilibus, id est gravioribus, sonis cingitur, id est vallatur, (sic enim surgit,
+        tonus, tonus, diesis in acumen per dieresin, scilicet surgit, quod diatonon et enarmonion,
+        id est per duos tonos incompositum, quod duo toni in una regione sunt tria hemitonia, hoc
+        totum clare patet in paginis Boetii de Musica; in gravem, scilicet melodiam, per diversum,
+        id est ex contrario mutato ordine). At vero diatonum, id est diatonicum genus, ipsis
+        contentum, scilicet est, sonis (in acumen quidem ita accipiet, modulationem, ut per
+        hemitonium, et tonum, et tonum, modum integrum compleat: at vero graviorem: id est,
+        conjunctum, per contrarium ordinem, id est, per tonum, et tonum et hemitonium persequetur.
+        Sed nunc, id est hoc tempore, maxime diatono utimur, id est usui habemus, eo quod pulchrior
+        caeteris sit; quod ideo dicitur, quia Afer erat iste; in Africa enim maxime viget diatonicum
+        genus. Sed horum alia modulamur peragogen, [agogen], id est sursum ductionem, vel per
+        ascensionem in acumen; alia per plocen [ploken], id est geminationem vel copulationem. Per
+        agogen est, scilicet modulatio, cum per ordinem sonus sequetur, scilicet seipsum. Ploce
+        autem dicitur, cum diversa sociamus, id est diversas chordas conjungimus, quartam chordam ad
+        primam. Ploce copulatio vel geminatio, quidquid enim geminatur vel ex diversis locis
+        colligitur, ploce appellatur.</p>
+      <p xml:id="REMMUSI0018">Ex hinc in modulando alia, scilicet modulatio, euthia [eutheia]
+        dicitur, quod est recta, scilicet modulatio in acumen: alia anacamptos [anakamptos], quod
+        est revertens, id est in gravitatem descendens; alia peripheres [peripheres], hoc est
         circumstans, reflexa, quam cantores vinolam dicunt. Euthia est, scilicet modulatio, quae a
         gravi in acumen erigitur; anacamptos, quae e contrario, id est ab acumine in gravem deficit.
         Peripheres, circumvoluta, rotunda, quae ad utramque. <pb n="[945]"/>id est ad acutam et
@@ -468,9 +482,9 @@
         hoc est in diatono, et efficiunt hemitonium, a quo incipit diatonicum genus, et hemiolion
         dicitur diatonicum, quod in ipso genere diapente abundat, quae in extremis suis sonis
         sesquialtera copulatur ratione.</p>
-      <p xml:id="REMMUSI0019">Sed nunc de tonis, scilicet dicamus: Tonus est spatii magnitudo, id est
-        intervalli inter chordam et chordam, et vocem et vocem; qui ideo tonus dictus est, quod per
-        hoc spatium ante omnes, scilicet voces et divisiones vocum sive chordarum prima vox quae
+      <p xml:id="REMMUSI0019">Sed nunc de tonis, scilicet dicamus: Tonus est spatii magnitudo, id
+        est intervalli inter chordam et chordam, et vocem et vocem; qui ideo tonus dictus est, quod
+        per hoc spatium ante omnes, scilicet voces et divisiones vocum sive chordarum prima vox quae
         fuerit, extenditur, hoc est, de nota qualibet in notam, id est, de chorda in chordam,
         singulae enim chordae habent suas notulas, sicut habetur in Boetio; ut a media, scilicet
         chorda, id est a mese in paramesen, id est in illam quae est prope mediam, ut est in Lydio,
@@ -478,8 +492,8 @@
         id est notulae concurrant. Verum quod hemitonia diesisque, id est quartae partis et tertiae,
         quando tritemoria vocatur, quid vel quantae qualesve sint, docui. Troporum etiam nomina, id
         est, quomodo vocantur, numerumque monstravi, id est, quod sint XV.</p>
-      <p xml:id="REMMUSI0020">Nunc de tetrachordis eloquimur, (nam singuli quique <pb n="[946]"/>tropi
-        tetrachorda quina custodiunt, sicut superius quoque notavi). Verum horum, scilicet
+      <p xml:id="REMMUSI0020">Nunc de tetrachordis eloquimur, (nam singuli quique <pb n="[946]"
+        />tropi tetrachorda quina custodiunt, sicut superius quoque notavi). Verum horum, scilicet
         tetrachordorum extremos, id est primum hypaton, quod ultimum netarum hyperbolaeon,
         sequitertia enim proportione sibimet conjunguntur extremi soni omnium tetrachordorum (sibi
         aptandos esse non dubium est. Tetrachordum quippe est) quatuor sonorum, id est chordarum,
@@ -541,18 +555,18 @@
         cum ex alia specie modulandi, verbi gratia, de gravi in acuto, in aliam transilimus,
         descendimus; vel cum a virili cantilena, id est robusta vel tubali, transitus in femineos,
         id est graciles modos fit.</p>
-      <p xml:id="REMMUSI0023">De genere modulandi consequenter exponi, id est, <pb n="[948]"/>edisseram.
-        Melopaeia, id est melorum factura, est habitus, id est, dispositio ut habeatur modulationis
-        effectae, id est aptatae. Melos autem est actus acuti aut gravioris soni, id est, ipse
-        cantus cum agitur, et acutus aut gravis sonus. Modulatio est soni multiplicis, id est,
-        varii, expressio, quod non fit cum una voce, sed ex multis et diversis, gravibus videlicet,
-        et acutis. Melopaeiae species sunt tres, hypatoides, id est species principalis quae est
-        gravis, nam ideo species dicitur: mesoides, id est media, quae neque nimis gravis, neque
-        nimis acuta: netoides, id est, ultima, et acuta, haec in minoribus cordis fit. Et hypatoides
-        est, quae appellatur tragica, quae per graviores sonos constat: tragica dicitur propter
-        graves sonos, namtragicum carnem grave semper est. Mesoides, quae et lipara iambica, propter
-        iambum pedem lipara id est pinguia, quod non sunt gravia sicut hepatoides, nec acuta sicut
-        netoides; iambica propter iambum pedem, qui nec totus logus constat, nec totus brevis
+      <p xml:id="REMMUSI0023">De genere modulandi consequenter exponi, id est, <pb n="[948]"
+        />edisseram. Melopaeia, id est melorum factura, est habitus, id est, dispositio ut habeatur
+        modulationis effectae, id est aptatae. Melos autem est actus acuti aut gravioris soni, id
+        est, ipse cantus cum agitur, et acutus aut gravis sonus. Modulatio est soni multiplicis, id
+        est, varii, expressio, quod non fit cum una voce, sed ex multis et diversis, gravibus
+        videlicet, et acutis. Melopaeiae species sunt tres, hypatoides, id est species principalis
+        quae est gravis, nam ideo species dicitur: mesoides, id est media, quae neque nimis gravis,
+        neque nimis acuta: netoides, id est, ultima, et acuta, haec in minoribus cordis fit. Et
+        hypatoides est, quae appellatur tragica, quae per graviores sonos constat: tragica dicitur
+        propter graves sonos, namtragicum carnem grave semper est. Mesoides, quae et lipara iambica,
+        propter iambum pedem lipara id est pinguia, quod non sunt gravia sicut hepatoides, nec acuta
+        sicut netoides; iambica propter iambum pedem, qui nec totus logus constat, nec totus brevis
         (dithyrambica nominatur): quae tonos aequales, id est, integros, et medios custodit, id est
         temperatos et in medietate constitutos inter graves et acutos. Netoides, id est ultima, quae
         et nomicos, id est legatis propter legem acuminis, quam servat, consuevit appellari quae
@@ -584,38 +598,38 @@
         conjuncta. Cum omnis musica numero constat, sola tamen humana vox, propter dignitatem
         rationabilitatis, rhythmus vocatur, unde Virgilius:</p>
       <p xml:id="REMMUSI0025">..Numeros memini, si verba tenerem.</p>
-      <p xml:id="REMMUSI0026">Rursum sic definitur, scilicet rhytmus: (numerus est diversorum modorum,
-        tonorum, temporum, et pedum (ordinata) connexio, junctura (tempori), pro ratione, secundum
-        rationem (modulationis) inserviens, obediens, (per id, quod aut) efferenda, sublevanda in
-        acumen, vox (fuerit) aut premenda, scilicet in gravitatem, et qui, scilicet numerus, nos
-        constringat a licentia, scilicet vulgari, modulationis, id est inordinata, quae est sine
-        regula, ad artem, id est, ad certum aliquid, disciplinamque, scilicet ne forte evagetur vox,
-        et libere effluat. Interest tamen inter rhythmum et rhythmizomenon; quippe rhythmizomenon,
-        numerandum vel numerabile, quod in numerum et artem redigi potest, materia est numerorum,
-        pedes videlicet, qui praestant numeris materiam, nam per pedes scansio: numerus autem (velut
-        quidam artifex aut species modulationis) id est ipsa materies apponitur, id est additur
-        propter materiam ipsius numeri. Omnis igitur numerus triplici ratione, id est tribus modis
-        discernitur, visu, audituque et tactu: visu, sicut sunt ea quae motu corporis colliguntur,
-        id est gestus corporis et saltationes: Auditu, cum ad judicium a modulationis intendimus,
-        scilicet in organicis sive humanis vocibus: tactu, haec species ad medicos pertinet, ut ex
-        digitis exploramus venarum indicia, scilicet in corporibus hominum, pulsus videlicet, nam et
-        ipsi secundum ipsos rhythmos fiunt, et explorantur indicia signa pulsus. Verum nobis, id
-        est, musicis attribuitur maxime in auditu visuque. Sed rhytmice est ars, id est numeralis
-        positio, omnis in numeris, quae numeros quosdam propriae conversionis accipiat, id est,
-        reditus proprios, ut unde veniat, et ea redeat ipsa vox, fleaeusque, id est, reditus vel
-        circuitus legitimos, id est rationabiles sortiatur.</p>
-      <p xml:id="REMMUSI0027">(Est quoque distantia inter rhythmum metrumque non parva sicut posterius
-        memorabo. Sed quia visus auditusque numero) dictus, scilicet est a me (accidere); hi quoque,
-        id est visus et auditus, in tria itidem, id est similiter, genera dividuntur, in corporis
-        motum, id est gestum: in sonorum modulandique rationem: <pb n="[950]"/>atque in verba, quae
-        scilicet verba, apta ratio modis, id est modulationibus colligarit, quae cuncta, id est haec
-        tria socia, pro sociata, perfectam faciunt cantilenam. Dividitur sane numerus in oratione
-        (per syllabas), id pertinet ad verba; in modulatione per arsin ac thesin, hoc pertinet ad
-        sonum, cum elevatur aut deponitur vox; in gestu, figuris, flexionibus membrorum
+      <p xml:id="REMMUSI0026">Rursum sic definitur, scilicet rhytmus: (numerus est diversorum
+        modorum, tonorum, temporum, et pedum (ordinata) connexio, junctura (tempori), pro ratione,
+        secundum rationem (modulationis) inserviens, obediens, (per id, quod aut) efferenda,
+        sublevanda in acumen, vox (fuerit) aut premenda, scilicet in gravitatem, et qui, scilicet
+        numerus, nos constringat a licentia, scilicet vulgari, modulationis, id est inordinata, quae
+        est sine regula, ad artem, id est, ad certum aliquid, disciplinamque, scilicet ne forte
+        evagetur vox, et libere effluat. Interest tamen inter rhythmum et rhythmizomenon; quippe
+        rhythmizomenon, numerandum vel numerabile, quod in numerum et artem redigi potest, materia
+        est numerorum, pedes videlicet, qui praestant numeris materiam, nam per pedes scansio:
+        numerus autem (velut quidam artifex aut species modulationis) id est ipsa materies
+        apponitur, id est additur propter materiam ipsius numeri. Omnis igitur numerus triplici
+        ratione, id est tribus modis discernitur, visu, audituque et tactu: visu, sicut sunt ea quae
+        motu corporis colliguntur, id est gestus corporis et saltationes: Auditu, cum ad judicium a
+        modulationis intendimus, scilicet in organicis sive humanis vocibus: tactu, haec species ad
+        medicos pertinet, ut ex digitis exploramus venarum indicia, scilicet in corporibus hominum,
+        pulsus videlicet, nam et ipsi secundum ipsos rhythmos fiunt, et explorantur indicia signa
+        pulsus. Verum nobis, id est, musicis attribuitur maxime in auditu visuque. Sed rhytmice est
+        ars, id est numeralis positio, omnis in numeris, quae numeros quosdam propriae conversionis
+        accipiat, id est, reditus proprios, ut unde veniat, et ea redeat ipsa vox, fleaeusque, id
+        est, reditus vel circuitus legitimos, id est rationabiles sortiatur.</p>
+      <p xml:id="REMMUSI0027">(Est quoque distantia inter rhythmum metrumque non parva sicut
+        posterius memorabo. Sed quia visus auditusque numero) dictus, scilicet est a me (accidere);
+        hi quoque, id est visus et auditus, in tria itidem, id est similiter, genera dividuntur, in
+        corporis motum, id est gestum: in sonorum modulandique rationem: <pb n="[950]"/>atque in
+        verba, quae scilicet verba, apta ratio modis, id est modulationibus colligarit, quae cuncta,
+        id est haec tria socia, pro sociata, perfectam faciunt cantilenam. Dividitur sane numerus in
+        oratione (per syllabas), id pertinet ad verba; in modulatione per arsin ac thesin, hoc
+        pertinet ad sonum, cum elevatur aut deponitur vox; in gestu, figuris, flexionibus membrorum
         determinatis, id est distributis, schematisque completur, pro schematibus, figuris et
         schematibus idem est.</p>
-      <p xml:id="REMMUSI0028">Verum numeri genero sunt septem: primum de temporibus, scilicet longis et
-        brevibus. Secundum de enumeratione verborum, cum consideramus, quae metra vel rhythmi
+      <p xml:id="REMMUSI0028">Verum numeri genero sunt septem: primum de temporibus, scilicet longis
+        et brevibus. Secundum de enumeratione verborum, cum consideramus, quae metra vel rhythmi
         quatuor partes recipiant, quae in numerum cadere non possunt, scilicet quod excedunt
         legitimos pedes, qui sunt in quaternario numero; quae, scilicet verba, rhythmoides, id est
         similia numeris judicantur, id est sic scanduntur, quia sibi terminatur pars, ubi finitur
@@ -656,8 +670,8 @@
         in quatuor dieses dividitur; sicut enim ille, id est tonus, per quatuor species, id est
         dieses, dividitur, deest ita, hic, scilicet pes, etiam quaternaria temporum modulatione
         concluditur, id est dupla, tripla et quadrupla.</p>
-      <p xml:id="REMMUSI0030">Sed eorum temporum, quae ad numeros copulantur, alia sunt, quae enrhythma,
-        id est numerabilia, tempora nominantur alia quae arhythma, id est sine numero et
+      <p xml:id="REMMUSI0030">Sed eorum temporum, quae ad numeros copulantur, alia sunt, quae
+        enrhythma, id est numerabilia, tempora nominantur alia quae arhythma, id est sine numero et
         innumerabilia: alia quae arhythmoides, id est similia numeris, perhibentur. Et enrhythma
         quidem sunt. quae ratione certa ordinem servant, ut in duplici vel hemiolo, id est sescuplo
         vel sesquialtero, vel in aliis, id est in epitritis, quae alia ratione, scilicet tripli et
@@ -668,21 +682,22 @@
         hoc est, rotunda perhibentur; strongylus [storngulos] versus dicitur in quo nulla pars
         orationis integra locum pedis obtinet, ut:</p>
       <p xml:id="REMMUSI0031">Immortale nihil mundi compage tenetur:</p>
-      <p xml:id="REMMUSI0032">in hoc enim versu nullus pes terminat partem orationis. Alia periples id
-        est superabundantia. Et rotunda sunt, quae proclinus, id est velocius, et facilius, quam
+      <p xml:id="REMMUSI0032">in hoc enim versu nullus pes terminat partem orationis. Alia periples
+        id est superabundantia. Et rotunda sunt, quae proclinus, id est velocius, et facilius, quam
         gradus quidam, scilicet ticut fit in illis versibus, qui ex vocalibus colliduntur, ut:</p>
       <p xml:id="REMMUSI0033">Atque ea diversa penitus dum parte geruntur.</p>
       <p xml:id="REMMUSI0034">Sive hoc fit, quanda in omnibus pedibus finitur pars, ut est</p>
-      <p xml:id="REMMUSI0035">Respice me, Pater, ut bona quae peto nec mihi praestes; <pb n="[952]"/>atque ordo legitimus expetit, id est, requirit, praecipitantur, id est, velociter
+      <p xml:id="REMMUSI0035">Respice me, Pater, ut bona quae peto nec mihi praestes; <pb n="[952]"
+        />atque ordo legitimus expetit, id est, requirit, praecipitantur, id est, velociter
         cantantur et scanduntur. Periples vero, quae amplius, quam docet, moras compositae
         modulationis innectunt, id est praestruunt, scilicet sicut sunt illi versus, ubi multitudo
         consonantium incurrit, ut</p>
       <p xml:id="REMMUSI0036">Posita spe sibi quisque</p>
-      <p xml:id="REMMUSI0037">seque ipsa tardiore pronuntiatione suspendant, remorantur, propter crebras
-        consonantes, quas habent.</p>
-      <p xml:id="REMMUSI0038">(Sed temporum alia simplicia sunt, quae podica etiam perhibentar), podica
-        [podika], id est pedalia vel pedibus apta, pos [pous] namque Graece pes dicitur. Pes vero
-        est numeri, id est rhythmicae; formam superius dixi, prima progressio. dispositio vel
+      <p xml:id="REMMUSI0037">seque ipsa tardiore pronuntiatione suspendant, remorantur, propter
+        crebras consonantes, quas habent.</p>
+      <p xml:id="REMMUSI0038">(Sed temporum alia simplicia sunt, quae podica etiam perhibentar),
+        podica [podika], id est pedalia vel pedibus apta, pos [pous] namque Graece pes dicitur. Pes
+        vero est numeri, id est rhythmicae; formam superius dixi, prima progressio. dispositio vel
         elementum numeri, per legitimos, id est proportionales, et necessarios sonos conjuncta. Illi
         pedes, qui proportionaliter ponuntur, legitimi dicuntur: cujus, scilicet pedis, partes tuae
         sunt, arsis id est elevatio, et thesis, id est depositio ac remissio vocis (Sed pedum
@@ -712,45 +727,45 @@
         autem tempus, quod insequitur, angustius, scilicet est; vel cum per contrarium ordinem
         praedicta tempora vertuntur, sicut in iambo, ut primo sit breve tempus, deinde longum, quod
         in trochaeo ex contrario evenit.</p>
-      <p xml:id="REMMUSI0039">Rhythmica vero, id est numerorum ordo, genera sunt tria, quae alias, id
-        est aliquando, dactylica, ipsa est aequa divisio; iambica, dupla divisio; paeonica, sescupla
-        divisio, quae est hemiolia et sesquialtera (nominantur); alias aequalia, id est dactylica,
-        alias hemiolia, id est paeonica; duplicia, id est iambica. Denique etiam Epitritus sociatur,
-        scilicet in proportione sesquitertia. Etenim unus, scilicet pes, semper cum sibi fuerit
-        aptatus, scilicet ut puta, ut quasi aequalis convenit, sicut pyrrhichius, qui aequali
-        proportione partitur. Tria vero ad duo numerus sesquialter, sescuplus, hemiolius est,
-        scilicet ut in prone. Duplex vero, scilicet proportio vel res, qui fuerit ad singularem, id
-        est, ad unam, geminum, id est duplam rationem tam syllabarum quam temporum servat. lambus et
-        trochaeus in temporibus duplicem proportionem habent, non autem in syllabis. Tribrachys vero
-        et molossus non solum in temporibus, verum etiam in syllabis duplam possident proportionem.
-        Quatuor vero ad tria epitriti; id est, sesquialterum modum, id est mensuram faciunt. Sed
-        quae aequalia diximus, eadem dactylica esse dicemus, quod in dactylo sortitur ista divisio.
-        Deinde in dactylico genere signa, scilicet temporum, id est virgulae quibus constant brevia
-        et longa nectuntur sibi aequali jure, scilicet notarum. Sicut unum ad alterum, id est sicut
-        unum ad unum, sicut in Pyrrhichio de binario dicitur, qui secundum Boetium alter numerus
-        dicitur sive geminus, ibi enim aequa proportio est ad alterum: hoc dicit, quod omnes pedes,
-        qui aequali proportione dividuntur dactylico genere comprehenduntur, quam ad dactylo regulam
-        divisionis accipiunt. Dum ergo regula procedit in dactylo, caeteri ad eamdem regulam
-        considerantur. Ecce quod dicitur (Verum ad alterum, vel ad numerum geminum duo, velut forte
-        aequalitas numerosa decurret) verum decurret, post dactylicum videlicet, aequalitas numerosa
-        usque ad sedecim pedes, sed ida aequalitas ad alterum, hoc est unum ad unum, ut in
-        Pyrrhichio, vel duo ad numerum geminum, id est duo ad duo, ut in proceleusmatico est, si
-        sola tempora consideraveris, in dactylis et anapaesto caeterisque similibus. Forte autem
-        dixit, ac si dixisset: sic acceperis a synzygis pedes eiusdem formae, major erit
-        numerositas; nam sub hac regula aequalitatis nonnisi decem simplices adduntnr autem ex
-        synzygis sex, vel ad numerum geminum sicut sunt duo ad duo, sicut in proceleusmatico, duo
-        scilicet tempora, velut, scilicet sunt numerosa. (Sequitur Iambicum, genus quod) diplasion,
-        id est duplum (superius expressi, in quo) pedum signa, id est virgulae similiter ut supra,
-        duplicem rationem (ad invicem servant) sicut unum ad duo, sive unus ad duo, ut in iambo
-        (sive ad quatuor) <pb n="[954]"/>gemini, id est bini ut in iambo (vel quidquid ad duplum
-        currit. (Hemiolium, semitonium, id est sesquialterum, sane quod paeonicum memoratum,
-        scilicet est tunc est, scilicet illa divisio, cum pedum signa, id est illae virgulae,
-        hemiolii rationem usque sectantur, ut ad duo tres (sunt. Accidit autem etiam in epitriti
-        ratione saepe) numerus, scilicet hemioliae divisionis, (cum pes) in eo, id est in tali jure
-        (accipitur), qui, scilicet pes, sit ad tres quatuor. Istud Martianus superquartam vocat. Sed
-        jam ad ordinem redeamus.</p>
-      <p xml:id="REMMUSI0040">AEquale est igitur numeri genus, id est, aquae divisionis, quod a disemo,
-        id est a pede duorum temporum brevium, sicut est Pyrrhichius, usque ad sedecim pedes
+      <p xml:id="REMMUSI0039">Rhythmica vero, id est numerorum ordo, genera sunt tria, quae alias,
+        id est aliquando, dactylica, ipsa est aequa divisio; iambica, dupla divisio; paeonica,
+        sescupla divisio, quae est hemiolia et sesquialtera (nominantur); alias aequalia, id est
+        dactylica, alias hemiolia, id est paeonica; duplicia, id est iambica. Denique etiam
+        Epitritus sociatur, scilicet in proportione sesquitertia. Etenim unus, scilicet pes, semper
+        cum sibi fuerit aptatus, scilicet ut puta, ut quasi aequalis convenit, sicut pyrrhichius,
+        qui aequali proportione partitur. Tria vero ad duo numerus sesquialter, sescuplus, hemiolius
+        est, scilicet ut in prone. Duplex vero, scilicet proportio vel res, qui fuerit ad
+        singularem, id est, ad unam, geminum, id est duplam rationem tam syllabarum quam temporum
+        servat. lambus et trochaeus in temporibus duplicem proportionem habent, non autem in
+        syllabis. Tribrachys vero et molossus non solum in temporibus, verum etiam in syllabis
+        duplam possident proportionem. Quatuor vero ad tria epitriti; id est, sesquialterum modum,
+        id est mensuram faciunt. Sed quae aequalia diximus, eadem dactylica esse dicemus, quod in
+        dactylo sortitur ista divisio. Deinde in dactylico genere signa, scilicet temporum, id est
+        virgulae quibus constant brevia et longa nectuntur sibi aequali jure, scilicet notarum.
+        Sicut unum ad alterum, id est sicut unum ad unum, sicut in Pyrrhichio de binario dicitur,
+        qui secundum Boetium alter numerus dicitur sive geminus, ibi enim aequa proportio est ad
+        alterum: hoc dicit, quod omnes pedes, qui aequali proportione dividuntur dactylico genere
+        comprehenduntur, quam ad dactylo regulam divisionis accipiunt. Dum ergo regula procedit in
+        dactylo, caeteri ad eamdem regulam considerantur. Ecce quod dicitur (Verum ad alterum, vel
+        ad numerum geminum duo, velut forte aequalitas numerosa decurret) verum decurret, post
+        dactylicum videlicet, aequalitas numerosa usque ad sedecim pedes, sed ida aequalitas ad
+        alterum, hoc est unum ad unum, ut in Pyrrhichio, vel duo ad numerum geminum, id est duo ad
+        duo, ut in proceleusmatico est, si sola tempora consideraveris, in dactylis et anapaesto
+        caeterisque similibus. Forte autem dixit, ac si dixisset: sic acceperis a synzygis pedes
+        eiusdem formae, major erit numerositas; nam sub hac regula aequalitatis nonnisi decem
+        simplices adduntnr autem ex synzygis sex, vel ad numerum geminum sicut sunt duo ad duo,
+        sicut in proceleusmatico, duo scilicet tempora, velut, scilicet sunt numerosa. (Sequitur
+        Iambicum, genus quod) diplasion, id est duplum (superius expressi, in quo) pedum signa, id
+        est virgulae similiter ut supra, duplicem rationem (ad invicem servant) sicut unum ad duo,
+        sive unus ad duo, ut in iambo (sive ad quatuor) <pb n="[954]"/>gemini, id est bini ut in
+        iambo (vel quidquid ad duplum currit. (Hemiolium, semitonium, id est sesquialterum, sane
+        quod paeonicum memoratum, scilicet est tunc est, scilicet illa divisio, cum pedum signa, id
+        est illae virgulae, hemiolii rationem usque sectantur, ut ad duo tres (sunt. Accidit autem
+        etiam in epitriti ratione saepe) numerus, scilicet hemioliae divisionis, (cum pes) in eo, id
+        est in tali jure (accipitur), qui, scilicet pes, sit ad tres quatuor. Istud Martianus
+        superquartam vocat. Sed jam ad ordinem redeamus.</p>
+      <p xml:id="REMMUSI0040">AEquale est igitur numeri genus, id est, aquae divisionis, quod a
+        disemo, id est a pede duorum temporum brevium, sicut est Pyrrhichius, usque ad sedecim pedes
         procedit, scilicet, qui aequali proportione gaudent. Disemus autem appellatur pes, qui per
         arsin et thesin primus constare dicitur, scilicet ut est leo. Duplum vero, id est dupla
         divisio, incipit a trisemo id est a pede trium brevium temporum, ut est tribrachus; XVIII
@@ -776,7 +791,8 @@
         accipere debemus, id est in pedes extemporum, ut molossus in hexasemo ubi in duo ambo et in
         numeros temporum, habet enim bis terna, et in pedes, habet enim bis iambum, resolvitur;
         molossus vero in numeros temporum, secundum vero; nisi forte quis dicat, illum posse solvi
-        in spondaeum, et in unam syllabam longam, quae pro Pyrrhichio accipitur. (At <pb n="[955]"/>vero eorum, qui compositi esse dicuntur) alii per copulas, id est pedum juncturas, id est
+        in spondaeum, et in unam syllabam longam, quae pro Pyrrhichio accipitur. (At <pb n="[955]"
+        />vero eorum, qui compositi esse dicuntur) alii per copulas, id est pedum juncturas, id est
         synzygias veluti cum dicimus compositionem et appositionem; alii vero per periodum
         colligantur, id est, conjunguntur inter se. Inter synzygiam et periodum talis differentia
         est, quod synzygia duorum solummodo pedum. (Etenim syzygia, id est copula duorum pedum in
@@ -794,35 +810,36 @@
         etiam pedem posse sufficere, quod vocatur monocolon, id est unius membri, ad complendam,
         periodon, si solus, scilicet pes, caeteris, id est, si ex alio genere fuerit, inaequalis,
         dissimilis illis, inseritur.</p>
-      <p xml:id="REMMUSI0042">Sed eorum, id est, earum divisionum, quae in pedem recidunt, id est, sub
-        regulis pedum cadunt, sicut sunt simplices et reliquae, dactylicum genus, id est aequalis,
-        primum est, id est principale (in quo genere pedes) incompositi sibi similes (vocabuntur,
-        qui numero sunt sex) id est, poceleusmaticus, anapaestus, (spondaeus simplex) et spondaeus
-        major est, id est dispondaeus. Ac proceleusmaticus, ipse est Pyrrhichius, quidem est) qui et
-        positionem (brevem) thesin, et elationem (brevem) (arsin retinet. Utetur autem hic idem) id
-        est proceleusmaticus tretrasemo, scilicet pede quatuor temporum frequentius, id est saepius.
-        Namque et disemus hujus, scilicet divisisionis pes, id est Pyrrhichius effingitur, id est
-        efficitur (id est, qui duobus temporibus impletur, proceleusmaticus quidem, sed brevior
-        nominatur: ille vero major est, qui ex quatuor brevius efficitur. At vero) brevior (id est)
-        disemus syneches vocatur, id est continuus vel continuatus, hic synecha passio vocatur, id
-        est, continua febris, (quia ipsa assiduitas et frequenlia comprehendentis se invicem
-        syllabae, nec magnitudinem, id est proxilitatem, aliquam nec modum divisae potestatis,
-        illius videlicet, quae est in <pb n="[956]"/>duas, scilicet syllabas diversas, extendit quod
-        omnes breves sunt, (ideoque eo) raro uti decet, scilicet in metro, (ne assiduitas brevis
-        syllabae carmen ipsum quod cum dignitate aliqua proferri oportet) incidat, minuat, conterat.
-        (In permixtione vero aliorum pedum, qui longiores ponuntur,) decenter aptatus, scilicet ipse
-        Pyrrhichius major, id est proceleusmaticus, ut illorum, scilicet pedum qui ex longis
-        constant, prolixam moram interveniente sua celeritate compenset, id est contemperet. (Quare
-        proceleusmaticus, qui) ad numeros, id est ad rhythmos numerorum (aptatur) a quadrisemo, id
-        est, a pede quatuor temporum brevium, exordium debet accipere. (Anapaestus, qui vocatur
-        minor, accipiet elationem pedis unius temporis, positionem vero duorum temporum faciet).
-        Minorem anapaestum vocat iambum propter similitudinem syllabarum, quod ille ex duabus
-        brevibus et longa, iambus ex brevi et longa. Monochronon quippe dicitur tempus, scilicet in
-        anapaesto, id est in iambo, etiam cum longe ponitur, quae longa duo tempora recipere
-        consuevit: et cum tria tempora simul brevia collocantur, scilicet similiter monochronon
-        appellatur, ut in iambo et trochaeo, in quibus tria tempora computantur: vel cum sunt
-        quatuor numero, scilicet sicut in spondaeo, in quo quatuor brevia, et duo longa
-        connumerantur; quae omnia scilicet brevia, ad comparationem longae syllabae computantur.</p>
+      <p xml:id="REMMUSI0042">Sed eorum, id est, earum divisionum, quae in pedem recidunt, id est,
+        sub regulis pedum cadunt, sicut sunt simplices et reliquae, dactylicum genus, id est
+        aequalis, primum est, id est principale (in quo genere pedes) incompositi sibi similes
+        (vocabuntur, qui numero sunt sex) id est, poceleusmaticus, anapaestus, (spondaeus simplex)
+        et spondaeus major est, id est dispondaeus. Ac proceleusmaticus, ipse est Pyrrhichius,
+        quidem est) qui et positionem (brevem) thesin, et elationem (brevem) (arsin retinet. Utetur
+        autem hic idem) id est proceleusmaticus tretrasemo, scilicet pede quatuor temporum
+        frequentius, id est saepius. Namque et disemus hujus, scilicet divisisionis pes, id est
+        Pyrrhichius effingitur, id est efficitur (id est, qui duobus temporibus impletur,
+        proceleusmaticus quidem, sed brevior nominatur: ille vero major est, qui ex quatuor brevius
+        efficitur. At vero) brevior (id est) disemus syneches vocatur, id est continuus vel
+        continuatus, hic synecha passio vocatur, id est, continua febris, (quia ipsa assiduitas et
+        frequenlia comprehendentis se invicem syllabae, nec magnitudinem, id est proxilitatem,
+        aliquam nec modum divisae potestatis, illius videlicet, quae est in <pb n="[956]"/>duas,
+        scilicet syllabas diversas, extendit quod omnes breves sunt, (ideoque eo) raro uti decet,
+        scilicet in metro, (ne assiduitas brevis syllabae carmen ipsum quod cum dignitate aliqua
+        proferri oportet) incidat, minuat, conterat. (In permixtione vero aliorum pedum, qui
+        longiores ponuntur,) decenter aptatus, scilicet ipse Pyrrhichius major, id est
+        proceleusmaticus, ut illorum, scilicet pedum qui ex longis constant, prolixam moram
+        interveniente sua celeritate compenset, id est contemperet. (Quare proceleusmaticus, qui) ad
+        numeros, id est ad rhythmos numerorum (aptatur) a quadrisemo, id est, a pede quatuor
+        temporum brevium, exordium debet accipere. (Anapaestus, qui vocatur minor, accipiet
+        elationem pedis unius temporis, positionem vero duorum temporum faciet). Minorem anapaestum
+        vocat iambum propter similitudinem syllabarum, quod ille ex duabus brevibus et longa, iambus
+        ex brevi et longa. Monochronon quippe dicitur tempus, scilicet in anapaesto, id est in
+        iambo, etiam cum longe ponitur, quae longa duo tempora recipere consuevit: et cum tria
+        tempora simul brevia collocantur, scilicet similiter monochronon appellatur, ut in iambo et
+        trochaeo, in quibus tria tempora computantur: vel cum sunt quatuor numero, scilicet sicut in
+        spondaeo, in quo quatuor brevia, et duo longa connumerantur; quae omnia scilicet brevia, ad
+        comparationem longae syllabae computantur.</p>
       <p xml:id="REMMUSI0043">Igitur major anapaestus; major autem dicitur anapaestus vel ipse
         anapaestus vel dactylus, qui est totidem temporum: sive majorem dicit anapaestum ad
         comparationem iambi, qui major (lege minor) anapaestus dicitur, elationem quidem suscipiet,
@@ -858,9 +875,9 @@
         inoequalem sonum, habet enim duas longas duasque correptas, quo pedum carmine) multi soepe
         reprehensi sunt, veteres enim in theatris per hunc pedem, id est, ionicum reprehensibiles
         reprehendebant.</p>
-      <p xml:id="REMMUSI0044">Ac de dactylis, id est de illis, qui habent dactylicam divisionem, satis
-        scilicet dictum: nunc iambicam, id est duplam memoremus; in quo, scilicet iambico, genere
-        numeri incompositi, id est simplices errant quatuor, id est, discurrunt, variantur et
+      <p xml:id="REMMUSI0044">Ac de dactylis, id est de illis, qui habent dactylicam divisionem,
+        satis scilicet dictum: nunc iambicam, id est duplam memoremus; in quo, scilicet iambico,
+        genere numeri incompositi, id est simplices errant quatuor, id est, discurrunt, variantur et
         vagantur: compositi duo per copulam, id est, syzygiam: ut vero per periodum, id est, per
         conjunctionem multorum pedum, sunt duodecim. Qui igitur incompositi errant, id est,
         discurrunt, isti sunt. Iambus ex dimidia elatione, id est ex brevi tempore, quae brevis est,
@@ -870,7 +887,8 @@
         est honestus, orcita enim Graece item dicitur honestas, qui ex tetrasemi, scilicet sicut est
         spondaeus, elatione, id est arsi, et octasemi, id est octo temporum, sicut est
         proceleusmaticus et dispondaeus: [ordoo] octo (positione constabit, ita ut duodecim tempora
-        hic pes recepisse videatur). Atque habet, scilicet ipse orthius, <pb n="[958]"/>propinquitatem (aliquam cum iambico pede quatuor enim primis temporibus ad iambum
+        hic pes recepisse videatur). Atque habet, scilicet ipse orthius, <pb n="[958]"
+        />propinquitatem (aliquam cum iambico pede quatuor enim primis temporibus ad iambum
         consonat, reliquis octo temporibus adjunctis.) Ut enim in iambo unum ad duo duplici
         proportione, ita in orthio IIII. ad VIII. in eadem proportione junguntur. Dehinc Croesus
         [Chroisos], qui constat ex trochaeo et ditrochaeo; Croesus vocatur, quod placuit Croeso regi
@@ -939,10 +957,10 @@
         syllabas habet, vel quatuor membris, quatuor paeonibus, ex quibus duae diversitates
         efficiuntur, id est, duo pedes incompositi, et duabus diversitatibus copulatur, scilicet
         quod duo et duo junguntur.</p>
-      <p xml:id="REMMUSI0046">Verum haec genera, scilicet omnia superiora, cum permixta fuerint, id est,
-        cum inde factae fuerint syzygiae, in speciebus numerorum, (primae species erunt istae, quae
-        dochmiacae docimenae, id est, approbatae, nominantur: docimenae a verbo [doko] approbo; inde
-        docimenae species, id est approbativae dicuntur. (E quibus prius quod fuerit, hac lege
+      <p xml:id="REMMUSI0046">Verum haec genera, scilicet omnia superiora, cum permixta fuerint, id
+        est, cum inde factae fuerint syzygiae, in speciebus numerorum, (primae species erunt istae,
+        quae dochmiacae docimenae, id est, approbatae, nominantur: docimenae a verbo [doko] approbo;
+        inde docimenae species, id est approbativae dicuntur. (E quibus prius quod fuerit, hac lege
         componitur, ut sit ex iambo et poeone, qui [diaguios] vocatur hunc [lysium] posteriores
         Graeci cognominarunt). Secunda est species, periodi, vel syzygiae, quae ex iambo dactylico
         et poeone constare monstratur, (qui autem) deducti numeri, id est producti, extenti
@@ -961,7 +979,8 @@
         enim iambus pro una syllaba accipitur, sicut in trochaeo prima syllaba arsin tenet. Secundus
         vero iambus dividitur in unam brevem, et unam longam in ratione dupla. Si quis quaerit cur
         de una brevi et una longa unam elationem longam fecit, respondendum est, quod iste pes
-        irrationabilis est: et numero quidem, scilicet divisionis, est ad dactylum similis, <pb n="[961]"/>scilicet, qui habet unam longam in arsi et duo in thesi et in syllabis;
+        irrationabilis est: et numero quidem, scilicet divisionis, est ad dactylum similis, <pb
+          n="[961]"/>scilicet, qui habet unam longam in arsi et duo in thesi et in syllabis;
         partibus vero, id est syllabis, ad numerum ionicum, de Ionico minore dicitur, jungitur,
         scilicet in duplam, et iambicinum, id est, iambicum in dupla. (Alius vero est numerus, qui
         trochoides nominatur, id est, qui figuram quamdam speciemque trochaei habere, videtur, ex
@@ -992,15 +1011,15 @@
         caeteris generibus computabitur. Rhythmus autem, scilicet numerum certum vocat, (opere
         quodam virilis actus) tam formam soni, scilicet utrum elevatur aut deponatur, (quam varios
         praestat effectus.</p>
-      <p xml:id="REMMUSI0048">(Quae eum harmonia) intentis diligenter audientibus heroum populis, id est
-        hemitheis, augusta, ampla <pb n="[962]"/>et nobili (quadam suavitate) percurreret, breviter
-        exponeret, (ad cautus carminumque dulcedines decenter regressa conticuit,) continuit. Si
-        lectum fuerit continuit, sicut hic habet, id est, perseverare voluit, ut quod docuit per
-        regulas artis, probaret exemplis carminis. Si vero conticuit legerimus, significat tacuit,
-        et subaudiendum est, a perceptis. (Tuncque Jove assurgente, divisque) praeambulis, id est,
-        praeambulantibus illum Jovem, symesin, accentus Graecus est, id est, speciem carminis,
-        permixtam et variam, modulata, scilicet ipsa harmonia (in thalamum quoque virginis magna
-        cunctorum) velaptate, delectatione, (pervenit.).</p>
+      <p xml:id="REMMUSI0048">(Quae eum harmonia) intentis diligenter audientibus heroum populis, id
+        est hemitheis, augusta, ampla <pb n="[962]"/>et nobili (quadam suavitate) percurreret,
+        breviter exponeret, (ad cautus carminumque dulcedines decenter regressa conticuit,)
+        continuit. Si lectum fuerit continuit, sicut hic habet, id est, perseverare voluit, ut quod
+        docuit per regulas artis, probaret exemplis carminis. Si vero conticuit legerimus,
+        significat tacuit, et subaudiendum est, a perceptis. (Tuncque Jove assurgente, divisque)
+        praeambulis, id est, praeambulantibus illum Jovem, symesin, accentus Graecus est, id est,
+        speciem carminis, permixtam et variam, modulata, scilicet ipsa harmonia (in thalamum quoque
+        virginis magna cunctorum) velaptate, delectatione, (pervenit.).</p>
       <p xml:id="REMMUSI0049">Habes senilem Martiane, scilicet o fili, fabulam, scilicet finitam;
         iambicum senarium trimetron. Epilogus est Martiani patris ad Martianum filium suum. Senilem,
         antiquam, anilem, delirantem, anus enim delirae sunt prae senectute. Miscillo, vario, mixto
@@ -1023,7 +1042,8 @@
         tortuosas vel circulares; nam circulare neque initium, neque finem habet: sic et artes
         propter difficultatem cyclicae vocantur, quod perfectae et consummatae vix unquam capiuntur,
         nullus enim ad earum perfectionem perfectam attingit, quae Graece [katorthoma] dicitur; unde
-        Cicero de quodam ait: Per artium catorthoma assecutus fuerat, id est, perfectam <pb n="[963]"/>artium perceptionem. Aliter cyclicae disciplinae dicuntur, quod in
+        Cicero de quodam ait: Per artium catorthoma assecutus fuerat, id est, perfectam <pb
+          n="[963]"/>artium perceptionem. Aliter cyclicae disciplinae dicuntur, quod in
         similitudinem virtutis in semetipsas redeant, ideoque omnis ars et disciplina virtutis
         nomine appellatur. Garrire, inhoneste pronuntiare, agresti, rustico, plasmate, figmento,
         finxit, scilicet ipsa satyra, id est, simulavit, cruda, nova vel indocta, hac ipsa, scilicet

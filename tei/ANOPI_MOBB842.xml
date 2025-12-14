@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>[De proportionibus et de intervallis]</title>
         <title type="abbrev">ANOPI_MOBB842</title>
-        <author>Anonymous</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>T</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Transcriber</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Michael W. Lundell</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Oxford, Bodleian Library, MS Bodley 842 (S.C. 2575), ff. 74r–75v.
         </bibl>
@@ -62,9 +72,9 @@
         parte auctus in acutam partem unum nona vero iunnctus alium in grave terminent tonum talis
         est autem .72. cuius .8. pars est .9. nona. si augeatur fiet .8. si minuatur fiet scilicet 4
         horum autem ultimi ditonum terminant</p>
-      <p xml:id="ANOPI_MOBB8420003">Semitonij autem minoris ad proporcionem in.venienda a minori summa
-        numerorum terminancium ditonum intende <pb n="[f.75r]"/>diatesseron terciam suam partem
-        adiciones et inter maiorem numerum ditonij et maiorem diatesseron semitonij appareat
+      <p xml:id="ANOPI_MOBB8420003">Semitonij autem minoris ad proporcionem in.venienda a minori
+        summa numerorum terminancium ditonum intende <pb n="[f.75r]"/>diatesseron terciam suam
+        partem adiciones et inter maiorem numerum ditonij et maiorem diatesseron semitonij appareat
         proporcio Set quamvis hij numeri se .72.81 primo faciant duos tonos continuos tamen Se
         probantur terciam partem non habere si igitur omnes hij numeri multiplicentur modorum eis
         tercia pars contingit et omnes in eadem proporcione durabunt qua prius fient. C 4.2.1.42
@@ -80,23 +90,24 @@
         semitonium numerus semitonio maiori quod est apotome erit totum maius quidem quam .9. comota
         set apome et semitonium minus unum efficiunt tonum Tonus igitur maius est octo comotibus
         minus vero quam novem est ante coma ultimum quod comprehendere possit auditus</p>
-      <p xml:id="ANOPI_MOBB8420005">Tresdecim sunt species quibus omnis cantus texitur scilicet unisonus
-        semitonium semiditonius cum diapente tonus <pb n="[f.75v]"/>semitonium cum diapente tonus
-        cum diapente semitonius cum diapente diapasson unisonus dicitur sonus unius vocis a qua non
-        fit processus sive progressio et semper habet esse in spacio eodem vel in linea eadem sine
-        interpretacione aliquam occurrente per hanc lineam vel per spacium. Hoc quia si progrediatur
-        a quadam voce vocem tangendo propinque tunc aliquando fit tonus aliquando semitonium</p>
+      <p xml:id="ANOPI_MOBB8420005">Tresdecim sunt species quibus omnis cantus texitur scilicet
+        unisonus semitonium semiditonius cum diapente tonus <pb n="[f.75v]"/>semitonium cum diapente
+        tonus cum diapente semitonius cum diapente diapasson unisonus dicitur sonus unius vocis a
+        qua non fit processus sive progressio et semper habet esse in spacio eodem vel in linea
+        eadem sine interpretacione aliquam occurrente per hanc lineam vel per spacium. Hoc quia si
+        progrediatur a quadam voce vocem tangendo propinque tunc aliquando fit tonus aliquando
+        semitonium</p>
       <p xml:id="ANOPI_MOBB8420006">Semitonium est spacium perfectum duarum vocum quod si set vocem
         hominis non licet dedi</p>
       <p xml:id="ANOPI_MOBB8420007">[ClefC3,L,L,L,L,L,L,ClefF2,L,L,L,L,L,L,L,L,L on staff3]</p>
-      <p xml:id="ANOPI_MOBB8420008">unde sciendum est quod nunquam fit semitonium nisi de mi et fa vel
-        de fa et mi. eciam b. gravem et [sqb] est consonancia simplex non composita non enim ideo
-        dicitur semitonium vero est tantum .7. pars 4 tantum non est medietas ad .9. non enim
+      <p xml:id="ANOPI_MOBB8420008">unde sciendum est quod nunquam fit semitonium nisi de mi et fa
+        vel de fa et mi. eciam b. gravem et [sqb] est consonancia simplex non composita non enim
+        ideo dicitur semitonium vero est tantum .7. pars 4 tantum non est medietas ad .9. non enim
         composita est nec consonancia set simplex et dicitur quia inperfectus tonus</p>
       <p xml:id="ANOPI_MOBB8420009">[ClefC2,Lig2a,Lig2cdsnd,[rob],Lig2acddx,Lig2cdsnd on staff3]</p>
-      <p xml:id="ANOPI_MOBB8420010">Tonus est perfectum spacium duorum vocum divisio semitonia continens
-        non equalea est enim tonus percussio aeris indissoluta usque ad auditum eiusdem de gravium
-        ad acutum ut de .g. ad a et econtra et vocatur omnis simplex tam in ascencione quam
+      <p xml:id="ANOPI_MOBB8420010">Tonus est perfectum spacium duorum vocum divisio semitonia
+        continens non equalea est enim tonus percussio aeris indissoluta usque ad auditum eiusdem de
+        gravium ad acutum ut de .g. ad a et econtra et vocatur omnis simplex tam in ascencione quam
         discencione preter spacium id quod est inter mi et fa ut verbi gracia. ut re re ut re mi mi
         re mi fa sol fa sol la la sol que consonancia id est simplex quia fit sine saltum notam
         naturaliter sic iuncta naturaliter enim primus ut sequeris de ceteris et dicitur a tono as

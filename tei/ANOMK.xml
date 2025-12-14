@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De numeris musicis et de consonantiis</title>
         <title type="abbrev">ANOMK</title>
-        <author>Anonymous</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>David Schneider</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2008</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2008">2008</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Christian Meyer, "Aus der Werkstatt des Kompilators," in <emph>Quellen
             und Studien zur Musiktheorie des Mittelalters,</emph> vol. 2, ed. Michael Bernhard,
@@ -47,20 +57,20 @@
       <p xml:id="ANOMK0001">
         <pb n="[10]"/>Anonymus MK</p>
       <p xml:id="ANOMK0002">De numeris musicis et de consonantiis</p>
-      <p xml:id="ANOMK0003">Ex omni innumera varietate numerorum pauci et numerabiles inventi sunt qui
-        sibi ad efficiendam musicam convenirent. Sunt autem ex his omnibus sex, epytritus, emiolius,
-        duplaris, triplaris, quadruplus et epdogdous. Est autem epitritus cum de duobus numeris
-        maior habet minorem in se totum et insuper eius terciam partem, ut sunt IIII ad III deque eo
-        nascitur symphonia quae appellatur diatesseron. Emiolius est cum maior numerus minorem habet
-        totum et insuper eius medietatem ut sunt III ad duo isque vocatur sesqualter, sicut superior
-        id est epytritus vocatur sesquitercius et ex hoc id est emiolio sive sesqualtero nascitur
-        symphonia quae dicitur diapente. Duplaris numerus est cum maior minorem habet in se bis ut
-        sunt IIII ad II vel VIII ad IIII et ex hoc nascitur symphonia cui nomen est diapason.
-        Triplaris est cum minor numerus ter in maiore habetur ut sunt III ad unum vel VIIII ad III
-        et ex hoc procedit symphonia quae dicitur diapason kay diapente. Quadruplus est cum maior
-        minorem quater habet ut sunt IIII ad unum XII ad III qui numerus facit symphoniam quam
-        dicunt bisdiapason. Epogdous est cum maior minorem habet in se et eius octavam partem ut
-        sunt VIIII ad VIII et hic numerus sonum parit quem musici tonum vocant. Sonum vero tono
+      <p xml:id="ANOMK0003">Ex omni innumera varietate numerorum pauci et numerabiles inventi sunt
+        qui sibi ad efficiendam musicam convenirent. Sunt autem ex his omnibus sex, epytritus,
+        emiolius, duplaris, triplaris, quadruplus et epdogdous. Est autem epitritus cum de duobus
+        numeris maior habet minorem in se totum et insuper eius terciam partem, ut sunt IIII ad III
+        deque eo nascitur symphonia quae appellatur diatesseron. Emiolius est cum maior numerus
+        minorem habet totum et insuper eius medietatem ut sunt III ad duo isque vocatur sesqualter,
+        sicut superior id est epytritus vocatur sesquitercius et ex hoc id est emiolio sive
+        sesqualtero nascitur symphonia quae dicitur diapente. Duplaris numerus est cum maior minorem
+        habet in se bis ut sunt IIII ad II vel VIII ad IIII et ex hoc nascitur symphonia cui nomen
+        est diapason. Triplaris est cum minor numerus ter in maiore habetur ut sunt III ad unum vel
+        VIIII ad III et ex hoc procedit symphonia quae dicitur diapason kay diapente. Quadruplus est
+        cum maior minorem quater habet ut sunt IIII ad unum XII ad III qui numerus facit symphoniam
+        quam dicunt bisdiapason. Epogdous est cum maior minorem habet in se et eius octavam partem
+        ut sunt VIIII ad VIII et hic numerus sonum parit quem musici tonum vocant. Sonum vero tono
         minorem veteres quidem semitonium vocare voluerunt, sed non ita accipiendum est ut dimidius
         tonus putetur quia nec semivocalis in litteris pro medietate litterae vocalis accipitur, sed
         semum dicebant antiqui quia ad integritatem non pervenit quasi imperfectum.</p>
@@ -80,15 +90,15 @@
       <p xml:id="ANOMK0005">Synaphe quae coniunctio dicitur duorum tetracordorum vox est media,
         superioris quidem gravissima inferioris vero acutissima. Diezeuxis appellatur quae
         disiunctio dici potest, quotiens duo tetracorda toni medietate separantur.</p>
-      <p xml:id="ANOMK0006">De vocibus musicis. Vocum autem aliae sunt consonae aliae aequisonae aliae
-        unisonae alie emmeles aliae dissonae aliae ekmeles. Unisonae sunt quae singillatim pulsatae
-        unum atque eundem sonum reddunt. Equisonae sunt quae simul pulsatae unum ex duobus atque
-        simplicem sonum efficiunt, ut est diapason eaque duplicata quae est bis diapason. Consonae
-        autem sunt quae compositum quidem permixtumque suavem tamen efficiunt sonum ut diapente et
-        diatesseron. Emmeles autem sunt quaecumque consonae quidem non sunt recte tamen ad melos
-        aptari possunt ut tonus et ceterae intervallorum species. Dissonae sunt quae non permiscent
-        sonos atque insuaviter feriunt sensum. Ekmeles autem dicuntur quae in consonantiarum
-        coniunctione ut melos effici possit non recipiuntur ut B et F.</p>
+      <p xml:id="ANOMK0006">De vocibus musicis. Vocum autem aliae sunt consonae aliae aequisonae
+        aliae unisonae alie emmeles aliae dissonae aliae ekmeles. Unisonae sunt quae singillatim
+        pulsatae unum atque eundem sonum reddunt. Equisonae sunt quae simul pulsatae unum ex duobus
+        atque simplicem sonum efficiunt, ut est diapason eaque duplicata quae est bis diapason.
+        Consonae autem sunt quae compositum quidem permixtumque suavem tamen efficiunt sonum ut
+        diapente et diatesseron. Emmeles autem sunt quaecumque consonae quidem non sunt recte tamen
+        ad melos aptari possunt ut tonus et ceterae intervallorum species. Dissonae sunt quae non
+        permiscent sonos atque insuaviter feriunt sensum. Ekmeles autem dicuntur quae in
+        consonantiarum coniunctione ut melos effici possit non recipiuntur ut B et F.</p>
       <p xml:id="ANOMK0007">
         <pb n="[12]"/>Ex quibus proportionum numeris constet symphonia. Diapason ex minimo numero
         efficitur ut est unus ad duo, diapente ut duo ad tres, diatesseron ut III ad IIII, tonus ut

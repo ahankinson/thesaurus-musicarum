@@ -1,30 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Epistola Sancti Bernardi De revisione cantus Cisterciensis, et Tractatus cantum quem
           Cisterciensis Ordinis ecclesiae cantare</title>
         <title type="abbrev">BEREPI</title>
-        <author>Anonymous</author>
-        <date notBefore="1100" notAfter="1199">12th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1992</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1992">1992</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Epistola S. Bernardi De revisione cantus Cisterciensis, et Tractatus Cantum quem
@@ -143,35 +153,37 @@
         gravis cantuum oriri potest dissimilitudo. Insuper et singulos cantus in propriis studeant
         terminare finalibus, per quarum inconsultam transmutationem tanta in cantibus orta est
         confusio, ut plures eorum alterius sint maneriae et alteri deputentur.</p>
-      <p xml:id="BEREPI0014">Quattuor enim sunt diversitates sive maneriae cantuum, quibus omnis ipsorum
-        multiplicitas includitur. Hae apud Graecos vocantur protus, deuterus, tritus, tetrardus. Hae
-        inter se oppositae sunt, et certis ab invicem differunt proprietatibus. Prima enim maneria
-        est quae ab ea voce qua terminatur ascendit <pb n="[26]"/>per tonum et semitonium et
-        descendit per tonum. Haec duas tantum habet finales, D et A, quarum utraque habet supra se
-        prius tonum, post semitonium, et sub se tonum. Secunda maneria est quae a voce qua
-        terminatur ascendit per semitonium et tonum, et descendit per tonum. Haec iterum duas habet
-        finales, E et B [quadra]tum, apud quas nimirum illum ascensum et descensum naturaliter
-        invenies. Tertia maneria est quae ascendit per duos tonos, et descendit per semitonium, quae
-        nihilominus duas habet finales, F et C, utpote talium proprietatum susceptivas. Quarta
-        ascendit per duos tonos et descendit per tonum, et haec unam tantum habet finalem, G.</p>
-      <p xml:id="BEREPI0015">Prima maneria duos continet modos, qui toni vulgariter dicuntur, videlicet
-        primum et secundum; secunda duos, tertium et quartum; tertia duos, quintum et sextum; quarta
-        duos, septimum et octavum. Bini vero et bini toni qui sub sungulis continentur maneriis non
-        distinguuntur a se diversitate finalium, quas prorsus easdem habent, sed progressione et
-        compositione, quarum altera quantitatem, altera qualitatem determinat.</p>
-      <p xml:id="BEREPI0016">[III. Correctiones musicae: b) antiphonae male compositae; errores ex usu B
-        rotundi.]</p>
-      <p xml:id="BEREPI0017">Qui ergo libros notaturus es, tuae diligenter imprime memoriae quod omnes
-        cantus primae maneriae qui facti sunt vel qui regulariter fieri possunt, in D tantum et in A
-        terminari habent, et quicumque cantus finem non potest ponere nisi in aliqua illarum, primae
-        profecto et maneriae, id est primi vel secundi <pb n="[27]"/>toni. Utrumque, inquies, falsum
-        est, quia nec omnes cantus primae maneriae in illis tantum possunt terminari, cum etiam in G
-        finem ponant per B rotundum, nec omnes qui in illis terminantur primae sunt maneriae, quia
-        Benedicta tu, et Petre amas me, et multae consimiles antiphonae, in A tantum habent
-        terminari, et tamen secundae sunt maneriae, quarto tono deputatae.</p>
-      <p xml:id="BEREPI0018">Haec quidem opinio multos iam fefellit, quam adduxit in medium B rotundi
-        adiectio, per quam multis erroribus musicam maculavit ineptorum praesumptio. Sane non
-        secundum aliquid accidentaliter adiectum, sed secundum primam ac propriam litterarum
+      <p xml:id="BEREPI0014">Quattuor enim sunt diversitates sive maneriae cantuum, quibus omnis
+        ipsorum multiplicitas includitur. Hae apud Graecos vocantur protus, deuterus, tritus,
+        tetrardus. Hae inter se oppositae sunt, et certis ab invicem differunt proprietatibus. Prima
+        enim maneria est quae ab ea voce qua terminatur ascendit <pb n="[26]"/>per tonum et
+        semitonium et descendit per tonum. Haec duas tantum habet finales, D et A, quarum utraque
+        habet supra se prius tonum, post semitonium, et sub se tonum. Secunda maneria est quae a
+        voce qua terminatur ascendit per semitonium et tonum, et descendit per tonum. Haec iterum
+        duas habet finales, E et B [quadra]tum, apud quas nimirum illum ascensum et descensum
+        naturaliter invenies. Tertia maneria est quae ascendit per duos tonos, et descendit per
+        semitonium, quae nihilominus duas habet finales, F et C, utpote talium proprietatum
+        susceptivas. Quarta ascendit per duos tonos et descendit per tonum, et haec unam tantum
+        habet finalem, G.</p>
+      <p xml:id="BEREPI0015">Prima maneria duos continet modos, qui toni vulgariter dicuntur,
+        videlicet primum et secundum; secunda duos, tertium et quartum; tertia duos, quintum et
+        sextum; quarta duos, septimum et octavum. Bini vero et bini toni qui sub sungulis
+        continentur maneriis non distinguuntur a se diversitate finalium, quas prorsus easdem
+        habent, sed progressione et compositione, quarum altera quantitatem, altera qualitatem
+        determinat.</p>
+      <p xml:id="BEREPI0016">[III. Correctiones musicae: b) antiphonae male compositae; errores ex
+        usu B rotundi.]</p>
+      <p xml:id="BEREPI0017">Qui ergo libros notaturus es, tuae diligenter imprime memoriae quod
+        omnes cantus primae maneriae qui facti sunt vel qui regulariter fieri possunt, in D tantum
+        et in A terminari habent, et quicumque cantus finem non potest ponere nisi in aliqua
+        illarum, primae profecto et maneriae, id est primi vel secundi <pb n="[27]"/>toni. Utrumque,
+        inquies, falsum est, quia nec omnes cantus primae maneriae in illis tantum possunt
+        terminari, cum etiam in G finem ponant per B rotundum, nec omnes qui in illis terminantur
+        primae sunt maneriae, quia Benedicta tu, et Petre amas me, et multae consimiles antiphonae,
+        in A tantum habent terminari, et tamen secundae sunt maneriae, quarto tono deputatae.</p>
+      <p xml:id="BEREPI0018">Haec quidem opinio multos iam fefellit, quam adduxit in medium B
+        rotundi adiectio, per quam multis erroribus musicam maculavit ineptorum praesumptio. Sane
+        non secundum aliquid accidentaliter adiectum, sed secundum primam ac propriam litterarum
         institutionem distincta est finalium proprietas, apud quas nimirum principale ac maximum de
         cantu versatur iudicium. In naturali autem computo litterarum, septem tantum invenies quae
         graves nominantur. Hae, ut cantus liberius discurreret, duplicatae, quaedam vero ex ipsis
@@ -182,8 +194,8 @@
         est proprium sic ascendere et descendere. G ergo excluditur, quod in naturali ordine
         litterarum, et ubi prius ponitur et ubi repetitur, nequaquam per tonum et semitonium sed per
         duos tonos directe ascendit.</p>
-      <p xml:id="BEREPI0019">In hoc litterarum ordine non computatur B rotundum: patet enim omnibus quod
-        non sit aliqua de gravibus, cum etiam inter <pb n="[28]"/>eas nusquam ponatur. Sed nec
+      <p xml:id="BEREPI0019">In hoc litterarum ordine non computatur B rotundum: patet enim omnibus
+        quod non sit aliqua de gravibus, cum etiam inter <pb n="[28]"/>eas nusquam ponatur. Sed nec
         aliqua est de acutis, cum nulli gravium per duplarem coniungatur proportionem. Est autem
         inventum non ad proprietatem finalium determinandam, sed ad servandam in plerisque cantibus
         euphoniam, quam apud eos minueret vel auferret tritonus qui apud B quadratum terminatur.
@@ -195,32 +207,34 @@
         Si ergo in G per ipsum, aliquem cantum terminares primae maneriae, contra inventionem eius
         omnino ageres, et institutioni obviares finalium, quia nullus cantus extra finalem suae
         maneriae terminari debet.</p>
-      <p xml:id="BEREPI0020">Quod si dixeris G finalem esse primae maneriae per B rotundum, respondeo
-        hoc esse non posse. Ad hoc enim ut finalis esset primae maneriae, necessarium esset ut
-        secundum naturalem litterarum dispositionem ascenderet per tonum et semitonium, quod nec B
-        rotundum nec aliud quippiam ei potest conferre. Licet igitur concedi possit cantus primae
-        maneriae quoquomodo posse notari vel cantari in G per B rotundum, nullatenus tamen
-        concedendum est vel sic vel aliter G esse finalem illius, impediente quam diximus
+      <p xml:id="BEREPI0020">Quod si dixeris G finalem esse primae maneriae per B rotundum,
+        respondeo hoc esse non posse. Ad hoc enim ut finalis esset primae maneriae, necessarium
+        esset ut secundum naturalem litterarum dispositionem ascenderet per tonum et semitonium,
+        quod nec B rotundum nec aliud quippiam ei potest conferre. Licet igitur concedi possit
+        cantus primae maneriae quoquomodo posse notari vel cantari in G per B rotundum, nullatenus
+        tamen concedendum est vel sic vel aliter G esse finalem illius, impediente quam diximus
         necessitate. Proinde quae utilitas, quaeve industria est ut in aliena finali cantum aliquem
         accidentaliter notes, quem in naturali ac propria notare <pb n="[29]"/>potes, eo securius
         quo irreprehensibilius, eo laudabilius quo diligentius, eo gratius quo verius? Propter hoc
         ne vitiosus aut superfluus inveniaris, ubi necesse est, B rotundum studeas apponere, quod
         nimirum necessitas adinvenit.</p>
-      <p xml:id="BEREPI0021">Nullus enim cantus qui sine ipso notari potest, per ipsum notari debet. Qui
-        sunt qui sine ipso notari non possunt? Qui apud eandem litteram modo tonum modo semitonium
-        habent. Quia tamen superacutas et vicinas ipsis litteras minus notas habent imperfecti
-        cantores, infirmitati eorum condescendens consuetudo, quosdam cantus per B rotundum notat
-        inferius qui apud praedictas litteras sine ipso commodius possent notari. Nos vero volentes
-        ut sicut inferiores ita et superiores in usu habeantur et in notitia, aliter enim frustra
-        haberentur, quoscumque cantus natura confert inferioribus, eos in ipsis terminatos reperies.
-        Terminantur vero in superioribus qui eas naturaliter habent finales.</p>
-      <p xml:id="BEREPI0022">Similiter sciendum est de hac antiphona Benedicta tu et consimilibus quae
-        in A tantum terminari possunt, quod secundum huiusmodi dispositionem procul dubio primae
-        sunt maneriae, et non quarto sed secundo tono applicandae sunt. Ecce enim haec antiphona
-        Benedicta tu in quodam loco supra finalem, tonum, postea semitonium naturaliter habet per B
-        quadratum, alibi prius semitonium, deinde tonum per B rotundum. Quae obsecro perspicacitas
-        est ad iudicandum de cantu illo cuius sit maneriae, accidens praeferri naturae; et cum sit
-        primae secundum naturalem, iudicari secundae secundum accidentalem dispositionem?</p>
+      <p xml:id="BEREPI0021">Nullus enim cantus qui sine ipso notari potest, per ipsum notari debet.
+        Qui sunt qui sine ipso notari non possunt? Qui apud eandem litteram modo tonum modo
+        semitonium habent. Quia tamen superacutas et vicinas ipsis litteras minus notas habent
+        imperfecti cantores, infirmitati eorum condescendens consuetudo, quosdam cantus per B
+        rotundum notat inferius qui apud praedictas litteras sine ipso commodius possent notari. Nos
+        vero volentes ut sicut inferiores ita et superiores in usu habeantur et in notitia, aliter
+        enim frustra haberentur, quoscumque cantus natura confert inferioribus, eos in ipsis
+        terminatos reperies. Terminantur vero in superioribus qui eas naturaliter habent
+        finales.</p>
+      <p xml:id="BEREPI0022">Similiter sciendum est de hac antiphona Benedicta tu et consimilibus
+        quae in A tantum terminari possunt, quod secundum huiusmodi dispositionem procul dubio
+        primae sunt maneriae, et non quarto sed secundo tono applicandae sunt. Ecce enim haec
+        antiphona Benedicta tu in quodam loco supra finalem, tonum, postea semitonium naturaliter
+        habet per B quadratum, alibi prius semitonium, deinde tonum per B rotundum. Quae obsecro
+        perspicacitas est ad iudicandum de cantu illo cuius sit maneriae, accidens praeferri
+        naturae; et cum sit primae secundum naturalem, iudicari secundae secundum accidentalem
+        dispositionem?</p>
       <p xml:id="BEREPI0023">Ut autem magis mireris et abhorreas huiusmodi ineptiam, inspice hanc
         antiphonam Petre amas me et multas alias huiusmodi; eas profecto invenies naturaliter habere
         supra finalem, <pb n="[30]"/>tonum et semitonium per B quadratum, et nusquam semitonium et
@@ -232,30 +246,32 @@
         obsecro musicus patienter ferat ut cantus qui propriam ac naturalem habet finalem D octavo
         tono attribuatur, qui vero propriam ac naturalem habet finalem A, sub quarto tono
         contineatur?</p>
-      <p xml:id="BEREPI0025">Horum ergo cantuum in A terminantium in quibus naturam suffocat similitudo,
-        necessaria correctio est, quia dissoluti per oppositionem quae partes compositionis
-        contaminat, alterum in principio, alterum in fine tonum redolent. In vetustissimis enim
-        magnorum monasteriorum bibliothecis elegantissimum quoddam artis musicae brevarium repperi
-        quod sic incipit, Quoniam pauci sunt; quod quidem in parte legi, sed nomen auctoris me
-        legisse non recolo. In eo, si bene memini, huiusmodi cantus nothi, id est degeneres et non
-        legitimi, appellati sunt eo quod, ut ibi legitur, a septimo tono incipiant, et eundem in
-        medio servantes, circa finem degenerent, aliis in primo, aliis in quarto tono desinentibus:
-        in primo, sicut Ex quo facta est, in quarto, sicut Benedicta tu. Fine proinde competenter
-        mutato, omnes huiusmodi cantus ad septimum tonum redactos reperies.</p>
-      <p xml:id="BEREPI0026">Horum cantuum duae sunt diversitates. Quidam enim eorum ab ea littera in
-        qua incipiunt hilari motu ascendunt ad quintam et pausant in ea, qua nisi prius esset tonus,
-        deinde semitonium, postea tres toni, quae dispositio potest reperiri tantum sub ea littera
-        quae quinta est a finali septimi toni, non possent ibi notari reliquae partes illorum
-        cantuum, ut patet in Benedicta tu et consimilibus cantibus, qui tam in capite quam in <pb n="[31]"/>toto corpore tali utentes dispositione, transmutato circa finem per B rotundum
-        semitonio, naturam secundi toni et similitudinem quarti inordinate recipiunt. Propter hoc
-        circa finem mutatione indigentes, in ea parte correcti sunt. Quidam vero sunt qui ab ea
-        littera in qua incipiunt tono statim deponuntur, et redeuntes ad quartam pausant in ea, quod
-        magis proprium videtur plagalium esse, sicut Dominus regit me, Post partum. Hos ergo non
-        solum in fine sed etiam in principio mutatos invenies ut septimo tono ubique arrideant.</p>
+      <p xml:id="BEREPI0025">Horum ergo cantuum in A terminantium in quibus naturam suffocat
+        similitudo, necessaria correctio est, quia dissoluti per oppositionem quae partes
+        compositionis contaminat, alterum in principio, alterum in fine tonum redolent. In
+        vetustissimis enim magnorum monasteriorum bibliothecis elegantissimum quoddam artis musicae
+        brevarium repperi quod sic incipit, Quoniam pauci sunt; quod quidem in parte legi, sed nomen
+        auctoris me legisse non recolo. In eo, si bene memini, huiusmodi cantus nothi, id est
+        degeneres et non legitimi, appellati sunt eo quod, ut ibi legitur, a septimo tono incipiant,
+        et eundem in medio servantes, circa finem degenerent, aliis in primo, aliis in quarto tono
+        desinentibus: in primo, sicut Ex quo facta est, in quarto, sicut Benedicta tu. Fine proinde
+        competenter mutato, omnes huiusmodi cantus ad septimum tonum redactos reperies.</p>
+      <p xml:id="BEREPI0026">Horum cantuum duae sunt diversitates. Quidam enim eorum ab ea littera
+        in qua incipiunt hilari motu ascendunt ad quintam et pausant in ea, qua nisi prius esset
+        tonus, deinde semitonium, postea tres toni, quae dispositio potest reperiri tantum sub ea
+        littera quae quinta est a finali septimi toni, non possent ibi notari reliquae partes
+        illorum cantuum, ut patet in Benedicta tu et consimilibus cantibus, qui tam in capite quam
+        in <pb n="[31]"/>toto corpore tali utentes dispositione, transmutato circa finem per B
+        rotundum semitonio, naturam secundi toni et similitudinem quarti inordinate recipiunt.
+        Propter hoc circa finem mutatione indigentes, in ea parte correcti sunt. Quidam vero sunt
+        qui ab ea littera in qua incipiunt tono statim deponuntur, et redeuntes ad quartam pausant
+        in ea, quod magis proprium videtur plagalium esse, sicut Dominus regit me, Post partum. Hos
+        ergo non solum in fine sed etiam in principio mutatos invenies ut septimo tono ubique
+        arrideant.</p>
       <p xml:id="BEREPI0027">[III. Correctiones musicae: c) amplior descriptio tertiae et quartae
         maneriae.]</p>
-      <p xml:id="BEREPI0028">Iterum praemuniendus es de finalibus tertiae et quartae maneriae, apud quas
-        similiter magna invenitur confusio. Sunt enim quidam miserrimi cantus nullius maneriae
+      <p xml:id="BEREPI0028">Iterum praemuniendus es de finalibus tertiae et quartae maneriae, apud
+        quas similiter magna invenitur confusio. Sunt enim quidam miserrimi cantus nullius maneriae
         habentes proprietatem, qui aeque terminari possunt in C et in G, quae diversarum finales
         sunt maneriarum. Quidam super hoc rem diligentius intuentes dicunt, et bene dicunt, omnes
         illos cantus esse irregulares quos nullius maneriae certitudo distinguit, et iudicant omnium
@@ -263,15 +279,16 @@
         finalibus diversarum maneriarum terminari nullatenus possint, vel proprie non possint. His
         proinde miserrimis cantibus suam incertitudinem leviter et breviter ablatam invenies, ut iam
         non sis dubius quibus singulos finalibus applicare debeas.</p>
-      <p xml:id="BEREPI0029">Omnes igitur cantus primae maneriae, id est primi vel secundi <pb n="[32]"/>toni, termines, ut diximus, in D vel in A; omnes secundae maneriae, id est tertii et
-        quarti toni, in E vel in B quadratum: B quadratum tamen licet tam autentorum quam plagalium
-        naturaliter susceptivum sit, nullum tamen autentum in antiphonario reperies, quem in ipso
-        terminare valeas. Si enim est responsorium, versus illius autenti non potest ei competere
-        qui sub sexta littera in qua incipit semitonium habet. Si vero est antiphona, saeculorum
-        eiusdem autenti non potest recipere, propter eandem causam.</p>
-      <p xml:id="BEREPI0030">Nullum siquidem cantum qui per diapente et semitonium ascendat ad sextam
-        terminare potes in B quadrato, quod supra se diapente non habet. Propter hoc non satis
-        commode invenerunt in tertio tono versum, neuma et saeculorum. Utrumque tamen forsitan
+      <p xml:id="BEREPI0029">Omnes igitur cantus primae maneriae, id est primi vel secundi <pb
+          n="[32]"/>toni, termines, ut diximus, in D vel in A; omnes secundae maneriae, id est
+        tertii et quarti toni, in E vel in B quadratum: B quadratum tamen licet tam autentorum quam
+        plagalium naturaliter susceptivum sit, nullum tamen autentum in antiphonario reperies, quem
+        in ipso terminare valeas. Si enim est responsorium, versus illius autenti non potest ei
+        competere qui sub sexta littera in qua incipit semitonium habet. Si vero est antiphona,
+        saeculorum eiusdem autenti non potest recipere, propter eandem causam.</p>
+      <p xml:id="BEREPI0030">Nullum siquidem cantum qui per diapente et semitonium ascendat ad
+        sextam terminare potes in B quadrato, quod supra se diapente non habet. Propter hoc non
+        satis commode invenerunt in tertio tono versum, neuma et saeculorum. Utrumque tamen forsitan
         consideraverunt, et sterilitatem B quadrati et habilitatem: sterilitatem, componentes
         versum, neuma et saeculorum cantibus in E terminantibus tantum competentia; habilitatem,
         sexta pro quinta utentes, ut si quando sterilitati illius finalis foecunditas succederet,
@@ -282,11 +299,11 @@
         parti autentorum, C vero omnibus fere plagalibus attribuens. Omnes vero cantus quartae
         maneriae, id est septimi et octavi toni, in G tantum terminare debes.</p>
       <p xml:id="BEREPI0031">[III. Correctiones musicae: d) propria progressio cantuum.]</p>
-      <p xml:id="BEREPI0032">Harum septem litterarum non unam magis et aliam minus, sed omnes aequaliter
-        principales ac proprias finales esse noveris, habentes nimirum plenariam tam autentorum
-        elevationem quam depositionem plagalium. Incipiunt autem a D gravi, et in C acuto definiunt;
-        supra enim vel infra nullam invenies cui non desit elevationis vel depositionis perfectio.
-        Ut autem unaquaeque earum progressionis praecelleret plenitudine, fecerunt musici
+      <p xml:id="BEREPI0032">Harum septem litterarum non unam magis et aliam minus, sed omnes
+        aequaliter principales ac proprias finales esse noveris, habentes nimirum plenariam tam
+        autentorum elevationem quam depositionem plagalium. Incipiunt autem a D gravi, et in C acuto
+        definiunt; supra enim vel infra nullam invenies cui non desit elevationis vel depositionis
+        perfectio. Ut autem unaquaeque earum progressionis praecelleret plenitudine, fecerunt musici
         dispositionem litteram a [Gamma] Graeco usque in D superacutum, non quia maluissent abundare
         quam deficere, sed quia nec superabundare nec deficere voluerunt, facientes dispositionem
         quae neque sine incommoditate contractior nec sine superfluitate posset esse prolixior. Ut
@@ -306,8 +323,8 @@
         naturae? Luce siquidem clarius est cantum illum male et inordinate compositum qui vel ita
         deprimitur quatenus prout decet audiri nequeat, vel ita elevatur ut cantari non valeat. Sic
         enim debet fieri ut in inferioribus auditorem habeat et in superioribus prolatorem.</p>
-      <p xml:id="BEREPI0034">Huius mediocritatis tenorem quidam in octo, quidam in novem vocibus esse
-        voluerunt, non clamosarum sed vocum mediocrium possibilitatem considerantes. Verumtamen
+      <p xml:id="BEREPI0034">Huius mediocritatis tenorem quidam in octo, quidam in novem vocibus
+        esse voluerunt, non clamosarum sed vocum mediocrium possibilitatem considerantes. Verumtamen
         secundum illos quorum exquisitior videtur esse sententia, usque ad decem voces potest cantus
         progredi, propter auctoritatem psalterii, quod decacordum est, et ut aequalis sint
         dignitatis singulae voces diapason, quae octo sunt, quatenus ultimae sicut et mediae geminam
@@ -357,37 +374,38 @@
         plani, secundum alteram acuti et alti, versus et psalmi uno eodemque modo prolati, diversis
         competenter aptari non possunt. Quod enim subiungitur, si est grave, cum acutis non
         convenit, si acutum, a gravibus discordat. Prohibet etiam idem Guido ne huiusmodi abusio
-        elevationis et depositionis fiat in antiphonis et responsoriis, quorum cantus <pb n="[37]"/>psalmis et versibus coaptandi sunt. Cum enim cantus sit communis et duplex, versus autem
+        elevationis et depositionis fiat in antiphonis et responsoriis, quorum cantus <pb n="[37]"
+        />psalmis et versibus coaptandi sunt. Cum enim cantus sit communis et duplex, versus autem
         et saeculorum vel tantum autentice vel tantum plagaliter canantur, illiusmodi cantui
         competenter non possunt aptari, cum plures sint in quibus adeo confunditur gravitas et
         acumen, ut vix possit adverti cui magis, id est, autento vel plagae, conferantur.</p>
-      <p xml:id="BEREPI0038">Prohibentibus itaque metis naturae necessariis, plusquam quattuor cantuum
-        manerias inveniri impossibile est, quae et ipsae secundum depositionem plagalium et
+      <p xml:id="BEREPI0038">Prohibentibus itaque metis naturae necessariis, plusquam quattuor
+        cantuum manerias inveniri impossibile est, quae et ipsae secundum depositionem plagalium et
         autentorum elevationem octo modos exprimunt. Quorum bini et bini, autentus videlicet et
         plaga eius, conveniunt omnino in maneria, sed differunt hinc in depositione et elevatione
         progressionis, inde in hilaritate et gravitate compositionis: elevationem siquidem et
         hilaritatem usurpantibus autentis, depositionem vero et gravitatem plagis retinentibus.</p>
       <p xml:id="BEREPI0039">[III. Correctiones musicae: f) correctio neumatum.]</p>
-      <p xml:id="BEREPI0040">Ad hos inter se distinguendos, neumata inventa sunt, singulis subiicienda
-        antiphonis, quae apud quosdam stivae vocantur, et apud Graecos signantur per haec verba,
-        nona, noe, ane, et noe ais, et his similia, quae quidem nihil significant, sed ad hoc tantum
-        ab ipsis Graecis sunt reperta ut per eorum diversos ac dissimiles sonos tonorum admiranda
-        varietas aure simul et mente posset comprehendi. Haec ita maneriam et compositionem suorum
-        modorum debent exprimere, ut postquam tuae diligentius memoriae impressa fuerint,
-        frequentatis aliquandiu cantuum diversitatibus, quibus arrideant cantibus auditu etiam
-        facile <pb n="[38]"/>cognoscas. Unumquodque ergo eorum suo modo singulare debet esse et
-        sufficiens: in hoc sufficiens, ut cuilibet finali sui modi convenire possit; in hoc
+      <p xml:id="BEREPI0040">Ad hos inter se distinguendos, neumata inventa sunt, singulis
+        subiicienda antiphonis, quae apud quosdam stivae vocantur, et apud Graecos signantur per
+        haec verba, nona, noe, ane, et noe ais, et his similia, quae quidem nihil significant, sed
+        ad hoc tantum ab ipsis Graecis sunt reperta ut per eorum diversos ac dissimiles sonos
+        tonorum admiranda varietas aure simul et mente posset comprehendi. Haec ita maneriam et
+        compositionem suorum modorum debent exprimere, ut postquam tuae diligentius memoriae
+        impressa fuerint, frequentatis aliquandiu cantuum diversitatibus, quibus arrideant cantibus
+        auditu etiam facile <pb n="[38]"/>cognoscas. Unumquodque ergo eorum suo modo singulare debet
+        esse et sufficiens: in hoc sufficiens, ut cuilibet finali sui modi convenire possit; in hoc
         singulare, ut cantui alterius modi convenire non possit. Non enim ad discernendos modos a se
         invicem neumata competenter essent inventa nisi unumquodque suo modo sufficeret, et eum
         evidenter ab aliis discerneret. Debet ergo maneriam et formam tam communem quam propriam sui
         modi exprimere: maneriam videlicet per dispositionem, formam vero per compositionem.</p>
-      <p xml:id="BEREPI0041">Praetermissis interim neumatibus plagalium, quae competenter inventa esse
-        videntur, utpote sufficientia suis modis atque singularia--de neumatibus autentorum sciendum
-        est omnia male esse inventa vel post inventionem corrupta praeter neuma primi toni. Vide
-        siquidem neuma quinti toni, et incompetenter inventum reperies, quia suo modo nec sufficiens
-        nec singulare est. Cum enim ascendat per duos tonos et semitonium, licet naturaliter C
-        finalem habeat, in F tamen nisi accidentaliter terminari non potest. Unde non est
-        sufficiens, quia naturaliter utrique finali debet convenire, non per B rotundum, quod a
+      <p xml:id="BEREPI0041">Praetermissis interim neumatibus plagalium, quae competenter inventa
+        esse videntur, utpote sufficientia suis modis atque singularia--de neumatibus autentorum
+        sciendum est omnia male esse inventa vel post inventionem corrupta praeter neuma primi toni.
+        Vide siquidem neuma quinti toni, et incompetenter inventum reperies, quia suo modo nec
+        sufficiens nec singulare est. Cum enim ascendat per duos tonos et semitonium, licet
+        naturaliter C finalem habeat, in F tamen nisi accidentaliter terminari non potest. Unde non
+        est sufficiens, quia naturaliter utrique finali debet convenire, non per B rotundum, quod a
         distinguendis tonorum proprietatibus omnino excluditur. Valde enim absurdum est ut in eisdem
         litteris in quibus cantus totus comprehenditur, suum neuma, quod ipsius naturam debet
         ostendere, recipere non possit--quod tibi contingit in hoc modo in cantibus ascendentibus
@@ -403,19 +421,20 @@
         neutrum exprimit; nec minus competenter assignari potest octavo tono, qui plagalis est.
         Propter hoc utrumque mutatum invenies ita plane ut suo modo unumquodque sufficiens sit et
         singulare, nec superflua utatur circuitione.</p>
-      <p xml:id="BEREPI0042">Neuma similiter tertii toni insufficiens est quia autentis qui terminari
-        possunt in B quadrato convenire non potest, et ideo sub sexta semitonium ablatum invenies.
-        Has neumatum exquisitas proprietates esse scias admodum necessarias ad distinguendos quosdam
-        autentos a suis plagalibus. Haec enim antiphona Sede a dextris meis, quae semel quintam
-        tangit et se totam sub ea colligit, omnino plagalis esset nisi propriam sui autenti
-        compositionem haberet, quam in neumate ipsius invenis, videlicet a finali per tonum
-        descendere et inde surgere per diatessaron constans ex duobus tonis et semitonio; postea per
-        duos tonos ascendere ad quintam, et inde per quasdam interpositiones redire ad finalem.
-        Curre per quaslibet antiphonas primi toni; hanc fere in omnibus compositionem reperies. Idem
-        reperire potes in neumatibus aliorum autentorum. Caveant autem quicumque de cantuum
-        distinctione perfectam volunt habere notitiam, ne propter aliquod brevitatis desiderium haec
-        neumata quasi superflua <pb n="[40]"/>praetermittant, adeptae siquidem brevitatis non tantum
-        valeret compendium quantum amissae commoditatis noceret dispendium.</p>
+      <p xml:id="BEREPI0042">Neuma similiter tertii toni insufficiens est quia autentis qui
+        terminari possunt in B quadrato convenire non potest, et ideo sub sexta semitonium ablatum
+        invenies. Has neumatum exquisitas proprietates esse scias admodum necessarias ad
+        distinguendos quosdam autentos a suis plagalibus. Haec enim antiphona Sede a dextris meis,
+        quae semel quintam tangit et se totam sub ea colligit, omnino plagalis esset nisi propriam
+        sui autenti compositionem haberet, quam in neumate ipsius invenis, videlicet a finali per
+        tonum descendere et inde surgere per diatessaron constans ex duobus tonis et semitonio;
+        postea per duos tonos ascendere ad quintam, et inde per quasdam interpositiones redire ad
+        finalem. Curre per quaslibet antiphonas primi toni; hanc fere in omnibus compositionem
+        reperies. Idem reperire potes in neumatibus aliorum autentorum. Caveant autem quicumque de
+        cantuum distinctione perfectam volunt habere notitiam, ne propter aliquod brevitatis
+        desiderium haec neumata quasi superflua <pb n="[40]"/>praetermittant, adeptae siquidem
+        brevitatis non tantum valeret compendium quantum amissae commoditatis noceret
+        dispendium.</p>
       <p xml:id="BEREPI0043">[IV. Conclusio: ratio duxit discussores in opere correctionis.]</p>
       <p xml:id="BEREPI0044">His et aliis rationum probabilitatibus contra usum omnium ecclesiarum
         antiphonarium hoc corrigere coacti sumus, magis nimirum naturam quam usum aemulantes. Nec
@@ -429,11 +448,12 @@
         loquar ecclesiis, sume Remense antiphonarium, et confer illud Belvacensi vel Ambianensi, seu
         Suessionensi antiphonario, quod quasi ad ianuam habet; si identitatem inveneris, age Deo
         gratias.</p>
-      <p xml:id="BEREPI0045">Nolumus autem latere posteros quod hortatu dominorum et patrum nostrorum
-        multa retinuimus de veteri antiphonario, quae quidem tolerabilia sunt, sed multo melius
-        possent haberi. Duo tamen incorrecta reliquimus digna penitus correctione, videlicet metrum
-        quarti toni, metrumque septimi. Quae licet in gradali correximus, propter usum tamen
-        psalmorum in antiphonario non potuimus corrigere, reclamantibus eisdem <pb n="[41]"/>patribus nostris, quorum assensu ac benedictione cetera pro viribus executi sumus.
+      <p xml:id="BEREPI0045">Nolumus autem latere posteros quod hortatu dominorum et patrum
+        nostrorum multa retinuimus de veteri antiphonario, quae quidem tolerabilia sunt, sed multo
+        melius possent haberi. Duo tamen incorrecta reliquimus digna penitus correctione, videlicet
+        metrum quarti toni, metrumque septimi. Quae licet in gradali correximus, propter usum tamen
+        psalmorum in antiphonario non potuimus corrigere, reclamantibus eisdem <pb n="[41]"
+        />patribus nostris, quorum assensu ac benedictione cetera pro viribus executi sumus.
         Praedicta metra quare vitiosa sint ratio in promptu est. Cantus enim psalmorum quarti toni,
         impediente solo metro, nullus antiphonis potest aptari quae terminentur in B quadrato;
         metrum vero septimi toni in ea littera pausat in qua tonus ille nullum principium sumit,

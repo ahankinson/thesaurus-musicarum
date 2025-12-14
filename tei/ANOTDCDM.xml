@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>[Tractatus de contrapuncto et de musica mensurabili]</title>
         <title type="abbrev">ANOTDCDM</title>
-        <author>Anonymous</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Anna Gercas</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
-        <date>1999</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1999">1999</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Tractatus de contrapuncto et de musica mensurabili (Mss. Munich, Staatsbibliothek,
@@ -56,21 +66,21 @@
         incipitur: Gammaut, Are, Bmi, Cfaut, Dsolre, Elami, Ffaut, Gsolreut, alamire, bfabmi,
         csolfaut, dlasolre, elami, ffaut, gsolreut, aalamire, bbfabmi, ccsolfa, ddlasol, eela, item
         sic retrogradendo.</p>
-      <p xml:id="ANOTDCDM0006">Gammaut in linea, Are in spatio, Bmi in linea, Cfaut in spatio, Dsolre in
-        linea, Elami in spatio, Ffaut in linea, Gsolreut in spatio, alamire in linea, bfabmi in
-        spatio, csolfaut in linea, dsolre in spatio, elami in linea, ffaut in spatio, gsolreut in
-        linea, aalamire in spatio, bbfabmi in linea, ccsolfa in spatio, ddlasol in linea, eela in
-        spatio, item retrogradendo.</p>
+      <p xml:id="ANOTDCDM0006">Gammaut in linea, Are in spatio, Bmi in linea, Cfaut in spatio,
+        Dsolre in linea, Elami in spatio, Ffaut in linea, Gsolreut in spatio, alamire in linea,
+        bfabmi in spatio, csolfaut in linea, dsolre in spatio, elami in linea, ffaut in spatio,
+        gsolreut in linea, aalamire in spatio, bbfabmi in linea, ccsolfa in spatio, ddlasol in
+        linea, eela in spatio, item retrogradendo.</p>
       <p xml:id="ANOTDCDM0007">Gammaut habet unam litteram, unam vocem et nullam mutationem quia cum
         sola voce non potest fieri mutatio; .G. est littera, ut est vox.</p>
-      <p xml:id="ANOTDCDM0008">Are habet unam litteram, unam vocem et nullam mutationem; .A. est littera
-        et re est vox.</p>
+      <p xml:id="ANOTDCDM0008">Are habet unam litteram, unam vocem et nullam mutationem; .A. est
+        littera et re est vox.</p>
       <p xml:id="ANOTDCDM0009">
         <pb n="[48]"/>Bmi habet unam litteram et unam vocem et nullam mutationem; .B. est littera et
         mi est vox.</p>
-      <p xml:id="ANOTDCDM0010">Cfaut habet unam litteram et duas voces et duas mutationes quia ubi sunt
-        duae voces sunt duae mutationes; .C. est littera, fa et ut sunt voces, fa pro ut et ut pro
-        fa sunt mutationes: fa pro ut fit propter ascendere de b quadro in naturam ut hic:
+      <p xml:id="ANOTDCDM0010">Cfaut habet unam litteram et duas voces et duas mutationes quia ubi
+        sunt duae voces sunt duae mutationes; .C. est littera, fa et ut sunt voces, fa pro ut et ut
+        pro fa sunt mutationes: fa pro ut fit propter ascendere de b quadro in naturam ut hic:
         [CSM40:48,1] <figure>
           <graphic url="/images/ANOTDCDM_01GF.gif"/>
         </figure>; ut pro fa fit propter descendere de natura in b quadrum, exemplum ut hic:
@@ -86,20 +96,21 @@
         ascendere de b quadro in naturam, exemplum ut hic: [CSM40:48,5] ; mi pro la fit propter
         descendere de natura in b quadrum, exemplum ut hic: [CSM40:48,6] .</p>
       <p xml:id="ANOTDCDM0013">Ffaut habet unam litteram et duas voces et duas mutationes; .F. est
-        littera, fa et ut sunt voces, fa pro ut et ut pro fa sunt mutationes: fa pro <pb n="[49]"/>ut fit propter ascendere de natura in b molle, ut hic: [CSM40:49,1] ; ut pro fa fit
+        littera, fa et ut sunt voces, fa pro ut et ut pro fa sunt mutationes: fa pro <pb n="[49]"
+        />ut fit propter ascendere de natura in b molle, ut hic: [CSM40:49,1] ; ut pro fa fit
         propter descendere de b molle in naturam, ut hic: [CSM40:49,2] .</p>
-      <p xml:id="ANOTDCDM0014">Gsolreut habet unam litteram, tres voces, sex mutationes. Nam ubi sunt
-        tres voces, ibi sunt sex mutationes. .G. est littera, sol re ut sunt voces, sol pro re et re
-        pro sol, re pro ut et ut pro re, sol pro ut et ut pro sol sunt mutationes: sol pro re fit
-        propter ascendere de natura in b molle, ut hic: [CSM40:49,3] ; re pro sol fit propter
+      <p xml:id="ANOTDCDM0014">Gsolreut habet unam litteram, tres voces, sex mutationes. Nam ubi
+        sunt tres voces, ibi sunt sex mutationes. .G. est littera, sol re ut sunt voces, sol pro re
+        et re pro sol, re pro ut et ut pro re, sol pro ut et ut pro sol sunt mutationes: sol pro re
+        fit propter ascendere de natura in b molle, ut hic: [CSM40:49,3] ; re pro sol fit propter
         descendere de b molle in naturam, ut hic: [CSM40:49,4] ; re pro ut fit propter ascendere de
         b molle in b quadrum, exemplum ut hic: [CSM40:49,5] ; ut pro re fit propter descendere de b
         quadro in b molle, ut hic: [CSM40:49,6] ; sol pro ut fit propter ascendere de natura in b
         quadrum, ut hic: [CSM40:49,7] ; ut pro sol fit propter descendere de b quadro in naturam,
         exemplum ut hic: [CSM40:49,8] .</p>
-      <p xml:id="ANOTDCDM0015">alamire habet unam litteram, tres voces, sex mutationes; .a. est littera,
-        la mi re sunt voces, la pro mi [et] mi pro la, mi pro re et re pro mi, la pro re et re pro
-        la sunt mutationes: la pro mi fit propter ascendere de natura in b molle, ut hic:
+      <p xml:id="ANOTDCDM0015">alamire habet unam litteram, tres voces, sex mutationes; .a. est
+        littera, la mi re sunt voces, la pro mi [et] mi pro la, mi pro re et re pro mi, la pro re et
+        re pro la sunt mutationes: la pro mi fit propter ascendere de natura in b molle, ut hic:
         [CSM40:49,9] ; mi pro la fit propter descendere de b molle in naturam, ut hic: [CSM40:49,10]
         ; mi pro re fit propter ascendere de b molle in b quadrum, ut hic: [CSM40:49,11] ; re pro mi
         fit propter descendere de b quadro in b molle, ut hic: [CSM40:49,12] ; la pro re fit propter
@@ -143,8 +154,8 @@
         [CSM40:51,6] ; re pro ut fit propter ascendere de b molle in b quadrum, ut hic: [CSM40:51,7]
         ; ut pro re fit propter descendere de b quadro in b molle, ut hic: [CSM40:51,8] ; sol pro ut
         fit propter</p>
-      <p xml:id="ANOTDCDM0022">ascendere de natura in b quadrum, ut hic [CSM40:51,9] ; ut pro sol fit
-        propter descendere de b quadro in naturam, ut hic: [CSM40:51,10] .</p>
+      <p xml:id="ANOTDCDM0022">ascendere de natura in b quadrum, ut hic [CSM40:51,9] ; ut pro sol
+        fit propter descendere de b quadro in naturam, ut hic: [CSM40:51,10] .</p>
       <p xml:id="ANOTDCDM0023">aalamire habet unam litteram, tres voces, sex mutationes; .aa. est
         littera, la mi re sunt voces, la pro mi, mi pro la, mi pro re, re pro mi, la pro re, re pro
         la sunt mutationes: la pro mi fit propter ascendere de natura in b molle, ut hic:
@@ -174,34 +185,36 @@
       <p xml:id="ANOTDCDM0029">Prima autem proprietas incipit in .G. gravi et finit in .E. gravi,
         dicendo ut re mi fa sol la, et omnes illae voces cantantur per primam proprietatem sive
         proprium cantum b quadrum. Nam prima proprietas tantum valet sicut primum b quadrum.</p>
-      <p xml:id="ANOTDCDM0030">Secunda proprietas incipit in .C. gravi et finit in .a. acuto, dicendo ut
-        re mi fa sol la, et illae voces cantantur per secundam proprietatem sive proprium cantum
-        naturalem, quia secunda proprietas tantum valet sicut prima natura.</p>
-      <p xml:id="ANOTDCDM0031">Tertia proprietas incipit in .F. gravi et finit in .d. acuto, dicendo ut
-        re mi fa sol la, et illae voces cantantur per tertiam proprietatem sive per primum b molle.
-        Nam tertia proprietas valet tantum sicut primum b molle.</p>
-      <p xml:id="ANOTDCDM0032">Quarta proprietas incipit in .g. acuto et finit in .e. acuto incipiendo
-        in ut et ascendendo usque ad la, dicendo ut re mi fa sol la, et omnes illae voces cantantur
-        per quartam proprietatem sive per secundum b quadrum. Nam quarta proprietas valet tantum
-        sicut secundum b quadrum.</p>
+      <p xml:id="ANOTDCDM0030">Secunda proprietas incipit in .C. gravi et finit in .a. acuto,
+        dicendo ut re mi fa sol la, et illae voces cantantur per secundam proprietatem sive proprium
+        cantum naturalem, quia secunda proprietas tantum valet sicut prima natura.</p>
+      <p xml:id="ANOTDCDM0031">Tertia proprietas incipit in .F. gravi et finit in .d. acuto, dicendo
+        ut re mi fa sol la, et illae voces cantantur per tertiam proprietatem sive per primum b
+        molle. Nam tertia proprietas valet tantum sicut primum b molle.</p>
+      <p xml:id="ANOTDCDM0032">Quarta proprietas incipit in .g. acuto et finit in .e. acuto
+        incipiendo in ut et ascendendo usque ad la, dicendo ut re mi fa sol la, et omnes illae voces
+        cantantur per quartam proprietatem sive per secundum b quadrum. Nam quarta proprietas valet
+        tantum sicut secundum b quadrum.</p>
       <p xml:id="ANOTDCDM0033">Quinta proprietas incipit in .c. acuto et finit in .aa. superacuto,
-        dicendo ut re mi fa sol la, et omnes illae voces cantantur per quintam <pb n="[54]"/>proprietatem sive per secundam naturam. Nam quinta proprietas tantum valet sicut secunda
+        dicendo ut re mi fa sol la, et omnes illae voces cantantur per quintam <pb n="[54]"
+        />proprietatem sive per secundam naturam. Nam quinta proprietas tantum valet sicut secunda
         natura.</p>
       <p xml:id="ANOTDCDM0034">Sexta proprietas incipit in .f. acuto et finit in .dd. superacuto,
         dicendo ut re mi fa sol la, et omnes illae voces cantantur per sextam proprietatem sive per
         secundum b molle. Nam sexta proprietas tantum valet sicut secundum b molle.</p>
-      <p xml:id="ANOTDCDM0035">Septima et ultima incipit in .gg. superacuto et finit in .ee. superacuto,
-        dicendo ut re mi fa sol la, et omnes illae voces cantantur per septimam proprietatem sive
-        per tertium b quadrum. Nam septima proprietas tantum valet sicut tertium b quadrum.</p>
-      <p xml:id="ANOTDCDM0036">Item quaelibet proprietas continet in [se] sex voces, videlicet ut re mi
-        fa sol la. Ubi in manu ponitur .g., ibi incipit b quadrum; ubi autem ponitur .c., ibi
+      <p xml:id="ANOTDCDM0035">Septima et ultima incipit in .gg. superacuto et finit in .ee.
+        superacuto, dicendo ut re mi fa sol la, et omnes illae voces cantantur per septimam
+        proprietatem sive per tertium b quadrum. Nam septima proprietas tantum valet sicut tertium b
+        quadrum.</p>
+      <p xml:id="ANOTDCDM0036">Item quaelibet proprietas continet in [se] sex voces, videlicet ut re
+        mi fa sol la. Ubi in manu ponitur .g., ibi incipit b quadrum; ubi autem ponitur .c., ibi
         incipit natura; ubi ponitur .f., ibi incipit b molle.</p>
-      <p xml:id="ANOTDCDM0037">Item in manu ponuntur sive habentur viginti litterae sive claves, quarum
-        septem dicuntur graves, septem acutae et sex superacutae. Graves dicuntur de prima gamma
-        sive de primo .g. usque ad secundum .g., gsolreut in spatio. De secundo .g., de gsolreut in
-        spatio, usque ad tertium .g., gsolreut in linea, vocantur acutae. De tertio .g., de gsolreut
-        in linea, usque ad finem, vocantur superacutae quia proprietates libere mutantur in
-        principio proprietatis b quadri et hoc ideo quia b quadrum est maioris proprietatis quam
+      <p xml:id="ANOTDCDM0037">Item in manu ponuntur sive habentur viginti litterae sive claves,
+        quarum septem dicuntur graves, septem acutae et sex superacutae. Graves dicuntur de prima
+        gamma sive de primo .g. usque ad secundum .g., gsolreut in spatio. De secundo .g., de
+        gsolreut in spatio, usque ad tertium .g., gsolreut in linea, vocantur acutae. De tertio .g.,
+        de gsolreut in linea, usque ad finem, vocantur superacutae quia proprietates libere mutantur
+        in principio proprietatis b quadri et hoc ideo quia b quadrum est maioris proprietatis quam
         sunt aliae proprietates sive cantus.</p>
       <p xml:id="ANOTDCDM0038">
         <pb n="[55]"/>Item septem in manu litterae speciales, videlicet G A B C D E F g. Primum G
@@ -245,7 +258,8 @@
         quia raro vel nunquam ponuntur in biscantu. Et dicitur raro propter cantum planum qui est ad
         voluntatem discantantis.</p>
       <p xml:id="ANOTDCDM0044">De speciebus perfectis autem sciendum est quod unisonus dicitur quasi
-        unus in voce, ut dicendo: ut, ut. Tertia autem aliquando continet in se <pb n="[57]"/>ditonum, aliquando semiditonum; ditonum ut hic: [CSM40:57,1] <figure>
+        unus in voce, ut dicendo: ut, ut. Tertia autem aliquando continet in se <pb n="[57]"
+        />ditonum, aliquando semiditonum; ditonum ut hic: [CSM40:57,1] <figure>
           <graphic url="/images/ANOTDCDM_03GF.gif"/>
         </figure>, semiditonum ut hic: [CSM40:57,2] . Quinta in se continet diapente, videlicet tres
         tonos cum dimidio, ut hic: [CSM40:57,3] . Aliquando continet in se diatessaron cum
@@ -269,58 +283,58 @@
         dicuntur consonantes quia in ipsis cantus habet incipi et finiri. Dissonantes sunt quattuor,
         scilicet tertia, sexta, decima, <pb n="[58]"/>tredecima. Et dicuntur dissonantes quia in
         ipsis cantus non potest incipit necque finiri.</p>
-      <p xml:id="ANOTDCDM0048">Viso de tonis specierum, videlicet quot tonos species in se continent,
-        videndum est de ordinatione contrapuncti, quomodo et qualiter ordinatur. Et primo de
-        appetitione specierum: est sciendum quod unisonus appetit post se tertiam cantu descendendo
-        per unam vocem, ut hic: [CSM40:58,1] . Item tertia appetit quintam cantu descendendo per
-        unam vocem, ut hic: [CSM40:58,2] . Item duae vel tres tertiae possunt simul fieri cantu
-        ascendendo et descendendo per unam vocem, sed numquam aequaliter. Item quando cantus
-        descendit per quattuor,</p>
-      <p xml:id="ANOTDCDM0049">tunc post tertiam potest fieri octava, ut hic: [CSM40:58,3] . Item quinta
-        appetit octava cantu descendendo per duas voces; exemplum ut hic: [CSM40:58,4] . Item
+      <p xml:id="ANOTDCDM0048">Viso de tonis specierum, videlicet quot tonos species in se
+        continent, videndum est de ordinatione contrapuncti, quomodo et qualiter ordinatur. Et primo
+        de appetitione specierum: est sciendum quod unisonus appetit post se tertiam cantu
+        descendendo per unam vocem, ut hic: [CSM40:58,1] . Item tertia appetit quintam cantu
+        descendendo per unam vocem, ut hic: [CSM40:58,2] . Item duae vel tres tertiae possunt simul
+        fieri cantu ascendendo et descendendo per unam vocem, sed numquam aequaliter. Item quando
+        cantus descendit per quattuor,</p>
+      <p xml:id="ANOTDCDM0049">tunc post tertiam potest fieri octava, ut hic: [CSM40:58,3] . Item
+        quinta appetit octava cantu descendendo per duas voces; exemplum ut hic: [CSM40:58,4] . Item
         numquam duae quintae possunt fieri pariter, nec ascendendo nec descendendo nec aequaliter.
         Item quando cantus descendit per unam vocem, tunc quinta appetit sextam et illa sexta
         appetit octavam si cantus descendit per unam vocem. Si autem descendit cantus per tres
         voces, tunc sexta appetit decimam; exemplum de quinta ad</p>
-      <p xml:id="ANOTDCDM0050">sextam, de sexta ad octavam et ad decimam: [CSM40:58,5] . Octava nullam
-        speciem appetit quia species consonans. Decima appetit duodecimam cantu descendendo per unam
-        vocem, ut hic: [CSM40:58,6] . Item duae vel tres decimae possunt poni pariter ascendendo et
-        descendendo per unam vocem, sed numquam aequaliter. Item post duodecimam sequitur tredecima
-        cantu descendendo per unam vocem, et tredecima appetit quintamdecimam cantu descendendo per
-        unam vocem. Et duae vel tres tredecimae possunt simul poni <pb n="[59]"/>descendendo et
-        ascendendo per unam vocem, sed numquam aequaliter; exemplum qualiter post duodecimam
-        sequitur tredecima et tredecimam quintadecima et quomodo tredecimae pariter ponuntur
-        ascendendo et descendendo: [CSM40:59,1] . Item quando ascendit, discantans debet descendere
-        et econverso quando cantus descendit, discantans debet ascendere nisi in speciebus
-        dissonantiis, quia cum illo potest ascendere et descendere, ut supra dictum est. Item
-        discantans semper debet uti propinquiori specie in ascendendo et descendendo. Item mi non
-        potest poni contra fa in speciebus consonantiis. Item quando cantus est planus, tunc est ad
-        voluntatem discantantis, ut hic: [CSM40:59,2] . Item numquam duae quintae, sive octavae,
+      <p xml:id="ANOTDCDM0050">sextam, de sexta ad octavam et ad decimam: [CSM40:58,5] . Octava
+        nullam speciem appetit quia species consonans. Decima appetit duodecimam cantu descendendo
+        per unam vocem, ut hic: [CSM40:58,6] . Item duae vel tres decimae possunt poni pariter
+        ascendendo et descendendo per unam vocem, sed numquam aequaliter. Item post duodecimam
+        sequitur tredecima cantu descendendo per unam vocem, et tredecima appetit quintamdecimam
+        cantu descendendo per unam vocem. Et duae vel tres tredecimae possunt simul poni <pb
+          n="[59]"/>descendendo et ascendendo per unam vocem, sed numquam aequaliter; exemplum
+        qualiter post duodecimam sequitur tredecima et tredecimam quintadecima et quomodo tredecimae
+        pariter ponuntur ascendendo et descendendo: [CSM40:59,1] . Item quando ascendit, discantans
+        debet descendere et econverso quando cantus descendit, discantans debet ascendere nisi in
+        speciebus dissonantiis, quia cum illo potest ascendere et descendere, ut supra dictum est.
+        Item discantans semper debet uti propinquiori specie in ascendendo et descendendo. Item mi
+        non potest poni contra fa in speciebus consonantiis. Item quando cantus est planus, tunc est
+        ad voluntatem discantantis, ut hic: [CSM40:59,2] . Item numquam duae quintae, sive octavae,
         sive duodecimae, sive quintaedecimae, possunt poni pariter, nec ascendendo nec descendendo
         nec aequaliter.</p>
-      <p xml:id="ANOTDCDM0051">Viso de ordinatione contrapuncti, qui contrapunctus vocatur contrapunctus
-        grossus, qui est fundamentum totius biscantus, quia sicut sine grammatica quemadmodum
-        loquendi ad alias scientias pervenire non possumus, ita sine contrapunctu ad verum biscantum
-        pervenire nequeamus, videndum est de fracturis contrapuncti quomodo et qualiter fracturae
-        ordinantur. Et primo notandum est quod sicut in contrapunctu una species appetit aliam, ita
-        similiter in fracturis, nisi quod in fracturis modus et species pluribus aliis modis
-        variantur, quia in fracturis possumus frangere de octava ad octavam, de quinta ad quintam,
-        de duodecima ad duodecimam, sed illo non obstante sicut contrapunctus ponitur, ita similiter
-        fracturae ut postea patebit. Item quaedam sunt fracturae de minori, quaedam de majori. Item
-        quaedam de tempore <pb n="[60]"/>perfecto, quaedam de tempore imperfecto, quaedam de
-        semibrevi. Et primo de una semibrevi majoris prolationis fracturae ponendae sunt. Incipiendo
-        primo quomodo de unisono frangitur ad tertiam et de unisono ad unisonum, de tertia ad
-        tertiam:</p>
+      <p xml:id="ANOTDCDM0051">Viso de ordinatione contrapuncti, qui contrapunctus vocatur
+        contrapunctus grossus, qui est fundamentum totius biscantus, quia sicut sine grammatica
+        quemadmodum loquendi ad alias scientias pervenire non possumus, ita sine contrapunctu ad
+        verum biscantum pervenire nequeamus, videndum est de fracturis contrapuncti quomodo et
+        qualiter fracturae ordinantur. Et primo notandum est quod sicut in contrapunctu una species
+        appetit aliam, ita similiter in fracturis, nisi quod in fracturis modus et species pluribus
+        aliis modis variantur, quia in fracturis possumus frangere de octava ad octavam, de quinta
+        ad quintam, de duodecima ad duodecimam, sed illo non obstante sicut contrapunctus ponitur,
+        ita similiter fracturae ut postea patebit. Item quaedam sunt fracturae de minori, quaedam de
+        majori. Item quaedam de tempore <pb n="[60]"/>perfecto, quaedam de tempore imperfecto,
+        quaedam de semibrevi. Et primo de una semibrevi majoris prolationis fracturae ponendae sunt.
+        Incipiendo primo quomodo de unisono frangitur ad tertiam et de unisono ad unisonum, de
+        tertia ad tertiam:</p>
       <p xml:id="ANOTDCDM0052">[CSM40:60,1] <figure>
           <graphic url="/images/ANOTDCDM_04GF.gif"/>
         </figure>.</p>
       <p xml:id="ANOTDCDM0053">Item qualiter frangitur de tertia ad quintam, de quinta ad sextam, de
         sexta ad octavam, de octava ad decimam et de octava ad octavam et de sexta ad sextam:</p>
-      <p xml:id="ANOTDCDM0054">[CSM40:60,2; text: de tertia ad quintam; de quinta ad sextam; de sexta ad
-        sextam, de sexta ad octavam; de octava ad octavam et de octava ad decimam]</p>
-      <p xml:id="ANOTDCDM0055">Item quomodo frangitur de decima ad duodecimam. Item quomodo franguntur
-        duae vel tres decimae pariter stantes ascendendo et descendendo. Item quomodo de duodecima
-        ad tredecimam, de tredecima ad quintadecima. Exemplum ut hic:</p>
+      <p xml:id="ANOTDCDM0054">[CSM40:60,2; text: de tertia ad quintam; de quinta ad sextam; de
+        sexta ad sextam, de sexta ad octavam; de octava ad octavam et de octava ad decimam]</p>
+      <p xml:id="ANOTDCDM0055">Item quomodo frangitur de decima ad duodecimam. Item quomodo
+        franguntur duae vel tres decimae pariter stantes ascendendo et descendendo. Item quomodo de
+        duodecima ad tredecimam, de tredecima ad quintadecima. Exemplum ut hic:</p>
       <p xml:id="ANOTDCDM0056">[CSM40:60,3; text: de decima ad decimam et de decima ad duodecimam;
         quomodo tres decimae franguntur ad duodecimam ascendendo et descendendo; quomodo de
         duodecima ad tredecimam et de tredecima ad quintadecimam; Quomodo frangitur de octava ad
@@ -329,9 +343,9 @@
       <p xml:id="ANOTDCDM0057">
         <pb n="[61]"/>Viso de fracturis unius semibrevis majoris, videndum est de fracturis duarum,
         videlicet de tempore imperfecto similiter majoris:</p>
-      <p xml:id="ANOTDCDM0058">[CSM40:61; text: Quomodo frangitur de unisono ad tertiam et de tertia ad
-        quintam in tempore imperfecto; Quomodo de octava ad octavam cantum descendendo per duas; [De
-        quinta ad octavam]; de decima ad decimam descendendo; de decima ad decimam ascendendo et
+      <p xml:id="ANOTDCDM0058">[CSM40:61; text: Quomodo frangitur de unisono ad tertiam et de tertia
+        ad quintam in tempore imperfecto; Quomodo de octava ad octavam cantum descendendo per duas;
+        [De quinta ad octavam]; de decima ad decimam descendendo; de decima ad decimam ascendendo et
         descendendo; Quomodo frangitur de octava ad octavam ascendendo et descendendo; Quomodo de
         sexta ad sextam; de decima ad decimam et de decima ad duodecimam; de sexta ad decimam] <figure>
           <graphic url="/images/ANOTDCDM_05GF.gif"/>
@@ -340,10 +354,10 @@
         <pb n="[62]"/>Viso de fracturis majoris prolationis tam de semibrevi quam de tempore,
         videndum est de fracturis unius temporis minoris prolationis ubi tempus imperfectum valet
         quattuor minimas, semibrevis duas:</p>
-      <p xml:id="ANOTDCDM0060">[CSM40:62; text: De unisono ad tertiam, de tertia ad quintam, de quinta
-        ad sextam, de sexta ad octavam; de octava ad octavam et iterum de octava ad octavam, de
-        octava ad decimam, de decima ad duodecimam; de octava ad sextam et de sexta ad decimam; de
-        octava ad octavam sincopando; de sexta ad octavam sincopando] <figure>
+      <p xml:id="ANOTDCDM0060">[CSM40:62; text: De unisono ad tertiam, de tertia ad quintam, de
+        quinta ad sextam, de sexta ad octavam; de octava ad octavam et iterum de octava ad octavam,
+        de octava ad decimam, de decima ad duodecimam; de octava ad sextam et de sexta ad decimam;
+        de octava ad octavam sincopando; de sexta ad octavam sincopando] <figure>
           <graphic url="/images/ANOTDCDM_06GF.gif"/>
         </figure></p>
       <p xml:id="ANOTDCDM0061">Item volens considerare fracturas debet considerare contrapunctum et
@@ -360,23 +374,23 @@
         similiter pro duabus longis. Et una longa ponitur pro duabus brevibus et brevis ponitur pro
         tribus semibrevibus et semibrevis pro tribus minimis et minima pro duabus semiminimis, sicut
         infra in figura patebit.</p>
-      <p xml:id="ANOTDCDM0064">Prolatio minor temporis perfecti est illa in qua duplex longa ponitur pro
-        duabus longis, longa pro duabus brevibus, brevis pro tribus semibrevibus, semibrevis pro
+      <p xml:id="ANOTDCDM0064">Prolatio minor temporis perfecti est illa in qua duplex longa ponitur
+        pro duabus longis, longa pro duabus brevibus, brevis pro tribus semibrevibus, semibrevis pro
         duabus minimis, minima pro duabus semiminimis.</p>
       <p xml:id="ANOTDCDM0065">De tempore imperfecto. Autem duplex longa ponitur pro duabus longis,
         longa pro duabus brevibus, brevis pro duabus semibrevibus, semibrevis pro duabus minimis,
         minima pro duabus semiminimis.</p>
       <p xml:id="ANOTDCDM0066">Item in tempore perfecto semper duplex longa ponitur pro duodecim
         semibrevibus, longa pro sex, brevis pro tribus.</p>
-      <p xml:id="ANOTDCDM0067">Item in tempore imperfecto duplex longa ponitur pro octo semibrevibus,
-        longa pro quattuor, brevis pro duabus, sicut clare in figuris praecedentibus apparebit ipsam
-        figuram clare considerare volentibus, et caetera.</p>
-      <p xml:id="ANOTDCDM0068">Item in omni prolatione sive de majori sive de minori, sive de tempore
-        perfecto sive de imperfecto, duplex longa valet duas longas, longa valet duas breves. Sed
-        brevis temporis perfecti valet tres semibreves et <pb n="[64]"/>temporis imperfecti duas.
-        Item semibrevis majoris prolationis valet tres minimas sive de perfecto tempore sive de
-        imperfecto. Et semibrevis in minori prolatione non valet nisi duas minimas sive de perfecto
-        tempore sive de imperfecto, sicut infra in figura bene apparet.</p>
+      <p xml:id="ANOTDCDM0067">Item in tempore imperfecto duplex longa ponitur pro octo
+        semibrevibus, longa pro quattuor, brevis pro duabus, sicut clare in figuris praecedentibus
+        apparebit ipsam figuram clare considerare volentibus, et caetera.</p>
+      <p xml:id="ANOTDCDM0068">Item in omni prolatione sive de majori sive de minori, sive de
+        tempore perfecto sive de imperfecto, duplex longa valet duas longas, longa valet duas
+        breves. Sed brevis temporis perfecti valet tres semibreves et <pb n="[64]"/>temporis
+        imperfecti duas. Item semibrevis majoris prolationis valet tres minimas sive de perfecto
+        tempore sive de imperfecto. Et semibrevis in minori prolatione non valet nisi duas minimas
+        sive de perfecto tempore sive de imperfecto, sicut infra in figura bene apparet.</p>
       <p xml:id="ANOTDCDM0069">
         <pb n="[65]"/>[CSM40:65; text: duplex longa valens duas longas de perfecto sive de
         imperfecto sive de majori sive de minori, longa valens duas breves de perfecto sive de
@@ -399,39 +413,39 @@
         de tempore imperfecto, videndum est de valoribus notularum similiter et de modis cantus tam
         de modo perfecto quam de modo imperfecto. Et primo videndum est de valoribus notularum, quia
         aliquae notae ponuntur copulative, aliquae ad invicem ligantur.</p>
-      <p xml:id="ANOTDCDM0071">De copulatis autem notandum est quando duae notae ad invicem copulatae
-        ponuntur descendendo, si prima illarum habeat caudam ascendentem a parte sinistra, ambae
-        aequipollent uni brevi ita quod prima valeat semibrevem et secunda; exemplum ut hic:
+      <p xml:id="ANOTDCDM0071">De copulatis autem notandum est quando duae notae ad invicem
+        copulatae ponuntur descendendo, si prima illarum habeat caudam ascendentem a parte sinistra,
+        ambae aequipollent uni brevi ita quod prima valeat semibrevem et secunda; exemplum ut hic:
         [Lig2cssnd,Lig2cssnd on staff3].</p>
       <p xml:id="ANOTDCDM0072">Si autem prima habeat caudam descendentem, tunc prima aequipollet uni
         brevi, secunda autem aequipollet uni longae; exemplum ut hic: [Lig2cdsnd,Lig2cdsnd on
         staff3].</p>
-      <p xml:id="ANOTDCDM0073">Item si nulla illarum est caudata, tunc quaelibet aequipollet uni longae;
-        exemplum ut hic: [Lig2d,Lig2d on staff3].</p>
-      <p xml:id="ANOTDCDM0074">Item si plures adinvicem copulantur descendendo, si prima habeat caudam
-        ascendentem, tunc primae duae aequipollent uni brevi, sequentes autem aequipollent brevi,
-        posita in fine autem aequipollet uni longae quia omnis nota in fine copulae cantu
+      <p xml:id="ANOTDCDM0073">Item si nulla illarum est caudata, tunc quaelibet aequipollet uni
+        longae; exemplum ut hic: [Lig2d,Lig2d on staff3].</p>
+      <p xml:id="ANOTDCDM0074">Item si plures adinvicem copulantur descendendo, si prima habeat
+        caudam ascendentem, tunc primae duae aequipollent uni brevi, sequentes autem aequipollent
+        brevi, posita in fine autem aequipollet uni longae quia omnis nota in fine copulae cantu
         descendendo valet duo tempora. Item si prima habeat caudam descendentem, tunc quaelibet
         illarum aequipollet uni brevi nisi in fine valet longam. Si autem prima non sit caudata,
         tunc aequipollet sicut supra dictum est. Si autem sunt plures ascendentes et prima habeat
         caudam ascendentem, tunc primae duae <pb n="[67]"/>aequipollent sicut in descendendo, aliae
         autem aequipollent brevibus, nisi ultima habeat caudam descendentem, tunc aequipollet
         longae; exemplum ut hic: [Lig4cssnaaacddx on staff3].</p>
-      <p xml:id="ANOTDCDM0075">Si autem prima non sit caudata neque ultima, tunc quaelibet aequipollet
-        uni brevi, ut hic: [Lig4aaa on staff3].</p>
-      <p xml:id="ANOTDCDM0076">In ligaturis autem de primis duabus datur eadem regula sicut de copulatis
-        sive ascendendo sive descendendo, sive cum cauda sive sine cauda, nisi quod in ligatura
-        ultima nota valet nisi unum tempus ubi in copula valet duo; exemplum ut hic:
+      <p xml:id="ANOTDCDM0075">Si autem prima non sit caudata neque ultima, tunc quaelibet
+        aequipollet uni brevi, ut hic: [Lig4aaa on staff3].</p>
+      <p xml:id="ANOTDCDM0076">In ligaturis autem de primis duabus datur eadem regula sicut de
+        copulatis sive ascendendo sive descendendo, sive cum cauda sive sine cauda, nisi quod in
+        ligatura ultima nota valet nisi unum tempus ubi in copula valet duo; exemplum ut hic:
         [Lig2cdsnod,Lig2oa,Lig2od,Lig2cssnod,Lig2cssnoa on staff3].</p>
-      <p xml:id="ANOTDCDM0077">Si autem plures notae ponerentur ascendendo et descendendo, primae duae
-        semper valent sicut in copula. Sed quaelibet illarum sequentium non aequipollet nisi brevi;
-        exemplum ut hic: [Lig8odaodaodaod on staff4].</p>
-      <p xml:id="ANOTDCDM0078">Item aliquando copula cum omni ligatura ponitur; tunc quaelibet copula
-        valet sicut supra dictum est similiter et quaelibet ligatura, ut hic: [Lig7cssnddodaodacddx;
-        Lig6cdsnodaadd on staff4].</p>
-      <p xml:id="ANOTDCDM0079">Item copula est quando quaelibet nota ponitur sub uno corpore, ut hic:
-        [Lig3dd on staff3], ligatura autem quando duae notae comprehenduntur sub uno corpore, ut
-        hic: [Lig2od on staff3]. Et totum istud intelligitur de tempore imperfecto et de modo
+      <p xml:id="ANOTDCDM0077">Si autem plures notae ponerentur ascendendo et descendendo, primae
+        duae semper valent sicut in copula. Sed quaelibet illarum sequentium non aequipollet nisi
+        brevi; exemplum ut hic: [Lig8odaodaodaod on staff4].</p>
+      <p xml:id="ANOTDCDM0078">Item aliquando copula cum omni ligatura ponitur; tunc quaelibet
+        copula valet sicut supra dictum est similiter et quaelibet ligatura, ut hic:
+        [Lig7cssnddodaodacddx; Lig6cdsnodaadd on staff4].</p>
+      <p xml:id="ANOTDCDM0079">Item copula est quando quaelibet nota ponitur sub uno corpore, ut
+        hic: [Lig3dd on staff3], ligatura autem quando duae notae comprehenduntur sub uno corpore,
+        ut hic: [Lig2od on staff3]. Et totum istud intelligitur de tempore imperfecto et de modo
         imperfecto, sive de majori prolatione sive de minori. De tempore perfecto autem modi
         imperfecti, notandum est quod eaedem sunt aequipollentiae, nisi quod in imperfecto tempore
         brevis valet duas <pb n="[68]"/>semibreves et in perfecto tempore brevis valet tres
@@ -440,8 +454,8 @@
         prima illarum valet unam semibrevem, secunda autem duas. Ita quod faciunt unum tempus
         perfectum, aliae autem sequentes, sicut praescriptum est, valorem brevis sive longae, tam de
         perfecto quam de imperfecto tempore, ut in figura sequenti clare videre potestis.</p>
-      <p xml:id="ANOTDCDM0080">Item de semibrevibus in tempore perfecto datur regula talis, quod quando
-        duae semibreves ponuntur inter duo tempora perfecta, tunc ultima illarum valet duas
+      <p xml:id="ANOTDCDM0080">Item de semibrevibus in tempore perfecto datur regula talis, quod
+        quando duae semibreves ponuntur inter duo tempora perfecta, tunc ultima illarum valet duas
         semibreves et alteratur, ut hic: [B,pt,S,S,B on staff3], nisi cum punctu divisionis illae
         semibreves dividerentur, ut hic: [B,S,pt,S,B on staff3]. Et quando sic dividitur, tunc
         quaelibet semibrevis computatur cum sua brevi. De minima datur talis regula: minima in
@@ -456,8 +470,8 @@
         in majori. Alteratio brevis intelligitur de modo perfecto, quia in modo imperfecto brevis
         non <pb n="[69]"/>valet nisi semet per ipsam, nisi in copulatis et ligaturis sicut supra
         dictum est. Item alteratio longae raro invenitur et ponitur.</p>
-      <p xml:id="ANOTDCDM0081">Viso de valoribus notularum temporis perfecti et imperfecti similiter et
-        modi imperfecti, viso etiam de alterationibus, videndum est de valoribus notularum modi
+      <p xml:id="ANOTDCDM0081">Viso de valoribus notularum temporis perfecti et imperfecti similiter
+        et modi imperfecti, viso etiam de alterationibus, videndum est de valoribus notularum modi
         perfecti. Circa quem modum notandum est quod modus perfectus aut est de tempore perfecto aut
         imperfecto. Item modus perfectus cognoscitur ad hoc quia longa in modo perfecto semper valet
         tria tempora, nisi brevis per distinctionem anteponeretur vel postponeretur, quia modus
@@ -471,8 +485,9 @@
         duas longas, tunc ultima alteratur nisi per punctum divisionis dividetur, ut hic:
         [L,pt,B,B,L,pt,L,B,pt,B,L,B,L on staff1]. Item si modus perfectus sit de tempore perfecto,
         tunc quodlibet tempus valet tres semibreves, si de tempore imperfecto tunc duas.</p>
-      <p xml:id="ANOTDCDM0083">Item si in modo perfecto ponuntur notae rubeae sive vacuae, signum est
-        quod sunt de modo imperfecto, quia nota rubea sive vacua amittit tertiam <pb n="[70]"/>partem propriae virtutis; quia longa nigra in modo perfecto valet tria tempora, rubea
+      <p xml:id="ANOTDCDM0083">Item si in modo perfecto ponuntur notae rubeae sive vacuae, signum
+        est quod sunt de modo imperfecto, quia nota rubea sive vacua amittit tertiam <pb n="[70]"
+        />partem propriae virtutis; quia longa nigra in modo perfecto valet tria tempora, rubea
         autem nisi duo. Item semibrevis rubea posita in majori prolatione non valet nisi duas
         minimas, nigra autem tres. Item minimae rubeae positae in majori prolatione signant de
         minori quia tertiam amittunt partem, ut supra dictum est. Item de notis rubeis et vacuis
@@ -480,9 +495,10 @@
       <p xml:id="ANOTDCDM0084">[ClefF2[a supra lin.],L,L,L,pt,Lig6vaddaod,L,pt; Lig2cssnod[b supra
         lin.],Sv,Sv,Sv,B,S; ClefF2[c supra
         lin.],M,M,M,M,M,M,pt,Mv,Mv,Mv,Mv,Mv,Mv,Mv,Mv,M,M,M,M,M,M,pt on staff4]</p>
-      <p xml:id="ANOTDCDM0085">Item nota rubea sive vacua posita in minori prolatione temporis perfecti
-        totquot ponuntur, signant temporis imperfectionem. Et sic dicta de notis rubeis sive vacuis,
-        similiter et de modo perfecto temporis perfecti sive imperfecti dicta sufficiunt.</p>
+      <p xml:id="ANOTDCDM0085">Item nota rubea sive vacua posita in minori prolatione temporis
+        perfecti totquot ponuntur, signant temporis imperfectionem. Et sic dicta de notis rubeis
+        sive vacuis, similiter et de modo perfecto temporis perfecti sive imperfecti dicta
+        sufficiunt.</p>
       <p xml:id="ANOTDCDM0086">Ulterius de modo pausandi aliquae sunt notanda. Nam aliqua est pausa
         minimae, aliqua semibrevis, aliqua brevis et aliqua longae. In pausa minimae, tangit medium
         spatium supra lineam, ut hic: [MP on staff2]. Pausa semibrevis tangit medium spatium sub

@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Tractatus de musica compendium cantus figurati</title>
         <title type="abbrev">ANOCOMP</title>
-        <author>Anonymous</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1996</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1996">1996</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Jill Palmer, "A Late Fifteenth-Century Anonymous Mensuration Treatise
           (Ssp) Salzburg, Erzabtei St. Peter, a VI 44, 1490; cod. pap.; 206 x 149 mm. 75ff.,"
@@ -67,13 +77,13 @@
         unum finem redacta concordia.</p>
       <p xml:id="ANOCOMP0008">Capitulum secundum</p>
       <p xml:id="ANOCOMP0009">Ssp 68v-69r</p>
-      <p xml:id="ANOCOMP0010">Species notarum sunt duplices, scilicet principales et minus principales.
-        Principales sunt quinque, scilicet maxima, ut hic: [MXv]; longa, ut hic: [Lv]; brevis, ut
-        hic: [Bv]; semibrevis, ut hic: <pb n="[90]"/>[Sv]; minima, ut hic: [Mv] Et dicuntur
-        principales quia eis tres gradus musicae figurativae principaliter quoad sui perfectionem et
-        imperfectionem consideratur, scilicet prolatio, modus, et tempus. Aliae sunt minus
-        principales et sunt quatuor, scilicet semiminima, ut hic: [M] vel sic: [SMv]; fusa, ut sic:
-        [SM] vel sic: [Mv2vx]; semifusa, ut sic: [M2vx] vel sic: [Mv3vx]; et oblonga seu dupla
+      <p xml:id="ANOCOMP0010">Species notarum sunt duplices, scilicet principales et minus
+        principales. Principales sunt quinque, scilicet maxima, ut hic: [MXv]; longa, ut hic: [Lv];
+        brevis, ut hic: [Bv]; semibrevis, ut hic: <pb n="[90]"/>[Sv]; minima, ut hic: [Mv] Et
+        dicuntur principales quia eis tres gradus musicae figurativae principaliter quoad sui
+        perfectionem et imperfectionem consideratur, scilicet prolatio, modus, et tempus. Aliae sunt
+        minus principales et sunt quatuor, scilicet semiminima, ut hic: [M] vel sic: [SMv]; fusa, ut
+        sic: [SM] vel sic: [Mv2vx]; semifusa, ut sic: [M2vx] vel sic: [Mv3vx]; et oblonga seu dupla
         [Lig2vcdsnod,Lig2vcssnod,Lig2vod], quae dicuntur oblonga propter earum figurationem oblongam
         seu obliquam. Sed dicuntur duplae quia duas species vel unam bis in se continent. Illa enim
         quae sic formatur [Lig2vod] continet longam et brevem. Sed [Lig2vcdsnod] continet brevem et
@@ -85,8 +95,8 @@
         </figure></p>
       <p xml:id="ANOCOMP0012">Capitulum tertium</p>
       <p xml:id="ANOCOMP0013">Ssp 69r-69v</p>
-      <p xml:id="ANOCOMP0014">Sciendum quod solum quatuor sunt species notarum quae intrant ligaturam,
-        scilicet maxima, longa, brevis, et semibrevis. Unde ligatura describitur sic: est
+      <p xml:id="ANOCOMP0014">Sciendum quod solum quatuor sunt species notarum quae intrant
+        ligaturam, scilicet maxima, longa, brevis, et semibrevis. Unde ligatura describitur sic: est
         praedictarum notarum ad invicem coniunctura secundum ascensum vel descensum earum in
         rectitudine vel obliquitate earum, de qua tales dantur regulae. Prima regula: maxima
         ubicumque posita fuerit in ligatura in principio, medio, vel fine, semper maxima est:</p>
@@ -111,9 +121,9 @@
       <p xml:id="ANOCOMP0018">
         <pb n="[92]"/>Capitulum quartum</p>
       <p xml:id="ANOCOMP0019">Ssp 69v-70r</p>
-      <p xml:id="ANOCOMP0020">Modus est duplex, scilicet perfectus et imperfectus. Modus perfectus est
-        trium longarum contra unam maximam, vel trium brevium contra unam longam positio. Vel sic:
-        modus perfectus est quando maxima mensuratur tribus longis, et longa tribus brevibus:
+      <p xml:id="ANOCOMP0020">Modus est duplex, scilicet perfectus et imperfectus. Modus perfectus
+        est trium longarum contra unam maximam, vel trium brevium contra unam longam positio. Vel
+        sic: modus perfectus est quando maxima mensuratur tribus longis, et longa tribus brevibus:
         exemplum [MXv,Lv,Lv,Lv], [Lv,Bv,Bv,Bv] Sed modus imperfectus est duarum longarum contra unam
         [maximam] positio. Vel sic: modus imperfectus est quando maxima mensuratur duabus longis, et
         una longa duabus brevibus: exemplum [MXv,Lv,Lv], [Lv,Bv,Bv], ex qua diminutione modi
@@ -124,7 +134,8 @@
         tegens tria spatia. Tertio quando brevis cum longa ordinatur vel ipsius brevis equivalens ad
         talem longam pertinens. Quarto quando inter duas longas ponuntur duae breves, ut sic de
         singulis:</p>
-      <p xml:id="ANOCOMP0021">[MD39:92; text: Exemplum primi, secundi, tertii, quarti, Equivalentes]</p>
+      <p xml:id="ANOCOMP0021">[MD39:92; text: Exemplum primi, secundi, tertii, quarti,
+        Equivalentes]</p>
       <p xml:id="ANOCOMP0022">Si autem in aliquo tenore illa signa hic posita non reperiuntur, vel
         aliqua ex eis, talis cantus est de modo imperfecto quia privative cognosci potest.</p>
       <p xml:id="ANOCOMP0023">Capitulum quintum</p>
@@ -157,14 +168,14 @@
       <p xml:id="ANOCOMP0030">[MD39:94,1; text: Exemplum primi, secundi, tertii, quarti] <figure>
           <graphic url="/images/ANOCOMP_02GF.gif"/>
         </figure></p>
-      <p xml:id="ANOCOMP0031">Pro quo nota quod tres sunt gradus musicae figurativae, scilicet modus,
-        tempus, et prolatio, de quibus dictum est, per quos procedendum est tamquam per notiora et
-        fundamentaliora quibus ignotis necesse est ignora omnia quae in arte musicae figurativae
-        sunt tradita. Qui tres gradus significantur nobis per haec signa tria, scilicet numerum,
-        circulum, et punctum, ut: [Od3,O2] Numerus quidam significat modum perfectum, absentia eius
-        significat modum imperfectum. Integritas circulo significat tempus perfectum, medietas eius
-        tempus imperfectum. Punctus in circulo vel semicirculo significat maiorem prolationem,
-        absentia vero eius prolationem minorem: [C,Cd,O,O2,Od3]</p>
+      <p xml:id="ANOCOMP0031">Pro quo nota quod tres sunt gradus musicae figurativae, scilicet
+        modus, tempus, et prolatio, de quibus dictum est, per quos procedendum est tamquam per
+        notiora et fundamentaliora quibus ignotis necesse est ignora omnia quae in arte musicae
+        figurativae sunt tradita. Qui tres gradus significantur nobis per haec signa tria, scilicet
+        numerum, circulum, et punctum, ut: [Od3,O2] Numerus quidam significat modum perfectum,
+        absentia eius significat modum imperfectum. Integritas circulo significat tempus perfectum,
+        medietas eius tempus imperfectum. Punctus in circulo vel semicirculo significat maiorem
+        prolationem, absentia vero eius prolationem minorem: [C,Cd,O,O2,Od3]</p>
       <p xml:id="ANOCOMP0032">[MD39:94,2; text: Modus est duplex, Perfectus, Imperfectus, Tempus est
         duplex, Perfectum, Imperfectum, Prolatio est duplex, Maior, Minor]</p>
       <p xml:id="ANOCOMP0033">
@@ -172,11 +183,11 @@
         in musica, binarium vero imperfectum.</p>
       <p xml:id="ANOCOMP0034">Capitulum septimum</p>
       <p xml:id="ANOCOMP0035">Ssp 71r-71v</p>
-      <p xml:id="ANOCOMP0036">Pausa describitur sic: est obmissio vocis in quantitate debita alicuius
-        gradus facta, de qua tales dantur regulae. Prima regula: pausa omnia tegens spatia dicitur
-        pausa generalis ubi omnes voces simul pausantur. Secunda regula: pausa tria tegens spatia
-        tria valet tempora, et fit solummodo in cantu de modo perfecto. Tertia regula: pausa duo
-        tegens spatia duo valet tempora, et hoc indifferenter fit tam in modo perfecto quam
+      <p xml:id="ANOCOMP0036">Pausa describitur sic: est obmissio vocis in quantitate debita
+        alicuius gradus facta, de qua tales dantur regulae. Prima regula: pausa omnia tegens spatia
+        dicitur pausa generalis ubi omnes voces simul pausantur. Secunda regula: pausa tria tegens
+        spatia tria valet tempora, et fit solummodo in cantu de modo perfecto. Tertia regula: pausa
+        duo tegens spatia duo valet tempora, et hoc indifferenter fit tam in modo perfecto quam
         imperfecto. Quarta regula: pausa tegens unum spatium unum valet tempus. Quinta regula: pausa
         descendens a linea ad medium spatii dicitur pausa semibrevis. Sexta regula: pausa ascendens
         ad medium spatii dicitur pausa minima. Septima regula: pausa minima cum unco deorsum in
@@ -184,16 +195,16 @@
         deorsum ad dexteram tractis dicitur pausa fusae. Nona regula: pausa minimae cum tribus uncis
         deorsum a dextro latere tractis dicitur pausa semifusae, quarum exempla patent per ordinem
         inferius.</p>
-      <p xml:id="ANOCOMP0037">[MD39:95; text: Exemplum primi, secundi, tertii, quarti, quinti, sexti,
-        septimi, octavi, noni]</p>
+      <p xml:id="ANOCOMP0037">[MD39:95; text: Exemplum primi, secundi, tertii, quarti, quinti,
+        sexti, septimi, octavi, noni]</p>
       <p xml:id="ANOCOMP0038">
         <pb n="[96]"/>Capitulum octavum</p>
       <p xml:id="ANOCOMP0039">Ssp 71v-72r</p>
-      <p xml:id="ANOCOMP0040">Signa musicae sunt duplicia, scilicet intrinseca et extrinseca. De signis
-        intrinsecis dictum est superius in quarto, quinto, et sexto capitulis. Sed hic extrinseca
-        sunt multiplicia. Aliquod est signum modi perfecti et est numerus ternarius adiunctus
-        circulo vel semicirculo, ut hic: [O3,C3] Dicitur notanter adiunctus circulo quia numerus
-        ternarius se solo positus est signum proportionis triplae, ut patebit capitulo de
+      <p xml:id="ANOCOMP0040">Signa musicae sunt duplicia, scilicet intrinseca et extrinseca. De
+        signis intrinsecis dictum est superius in quarto, quinto, et sexto capitulis. Sed hic
+        extrinseca sunt multiplicia. Aliquod est signum modi perfecti et est numerus ternarius
+        adiunctus circulo vel semicirculo, ut hic: [O3,C3] Dicitur notanter adiunctus circulo quia
+        numerus ternarius se solo positus est signum proportionis triplae, ut patebit capitulo de
         proportionibus. Aliquod est signum temporis perfecti et est circulus rotundus et integer, ut
         hic: [O], quod signum est circulus integer et perfectus perfecto cantui deserviens. Aliquod
         est signum prolationis maioris et est punctus positus in medio circuli vel semicirculi, ut
@@ -210,8 +221,8 @@
       <p xml:id="ANOCOMP0042">Et haec sufficiunt de signis.</p>
       <p xml:id="ANOCOMP0043">Capitulum nonum</p>
       <p xml:id="ANOCOMP0044">Ssp 72r</p>
-      <p xml:id="ANOCOMP0045">Punctus, licet sit in quantitate minus, est tamen in virtute maximus, quia
-        respectu illius causatur perfectio et imperfectio, ut patebit inferius. Et est duplex,
+      <p xml:id="ANOCOMP0045">Punctus, licet sit in quantitate minus, est tamen in virtute maximus,
+        quia respectu illius causatur perfectio et imperfectio, ut patebit inferius. Et est duplex,
         scilicet additionis seu perfectionis, et divisionis seu imperfectionis. Punctus additionis
         est qui notam de sui natura imperfectionem perficit, scilicet addendo sibi dimidium sui
         valoris, et habet poni ad medium corpus notae lateris dextri, ut hic: [Lv,pt,Sv,pt,Bv,pt]
@@ -221,22 +232,22 @@
         [sufficiunt].</p>
       <p xml:id="ANOCOMP0046">Capitulum decimum</p>
       <p xml:id="ANOCOMP0047">Ssp72r-72v</p>
-      <p xml:id="ANOCOMP0048">Perficere est notam imperfectam perfectam reddere et hoc mediante puncto
-        additionis, et habet causari in cantu de gradibus imperfectis. Pro quo notandum primo, quod
-        quando punctus additionis additur maximae vel longae in modo imperfecto, talis reddit eas
-        perfectas. Exempla, ut hic: [MXv,pt,Lv,pt], in quibus exemplis maxima valet tres longas et
-        longa valet tres breves et hoc per punctum additionis, ac si staret in modo perfecto, sine
-        puncto. Secundo, nota quando punctus additionis additur brevi in tempore imperfecto, reddit
-        eam perfectam, ut hic: [Bv,pt], in quo exemplo brevis per puncti additionem valet tres
-        semibreves, ac si staret in tempore perfecto, <pb n="[98]"/>sine puncto. Tertio, nota quod
-        semibrevis per puncti additionem in prolatione minori redditur perfecta, ut hic: [Sv,pt], in
-        quo exemplo semibrevis valet tres minimas per puncti additionem, ac si staret in prolatione
-        maiori, sine puncto. Ex quibus invenitur quod punctus additionis addit medietatem notae cui
-        additur, et cetera.</p>
+      <p xml:id="ANOCOMP0048">Perficere est notam imperfectam perfectam reddere et hoc mediante
+        puncto additionis, et habet causari in cantu de gradibus imperfectis. Pro quo notandum
+        primo, quod quando punctus additionis additur maximae vel longae in modo imperfecto, talis
+        reddit eas perfectas. Exempla, ut hic: [MXv,pt,Lv,pt], in quibus exemplis maxima valet tres
+        longas et longa valet tres breves et hoc per punctum additionis, ac si staret in modo
+        perfecto, sine puncto. Secundo, nota quando punctus additionis additur brevi in tempore
+        imperfecto, reddit eam perfectam, ut hic: [Bv,pt], in quo exemplo brevis per puncti
+        additionem valet tres semibreves, ac si staret in tempore perfecto, <pb n="[98]"/>sine
+        puncto. Tertio, nota quod semibrevis per puncti additionem in prolatione minori redditur
+        perfecta, ut hic: [Sv,pt], in quo exemplo semibrevis valet tres minimas per puncti
+        additionem, ac si staret in prolatione maiori, sine puncto. Ex quibus invenitur quod punctus
+        additionis addit medietatem notae cui additur, et cetera.</p>
       <p xml:id="ANOCOMP0049">Capitulum undecimum</p>
       <p xml:id="ANOCOMP0050">Ssp 72v-73r</p>
-      <p xml:id="ANOCOMP0051">Imperficere est notam perfectam imperfectam reddere, et habet causari in
-        cantu de gradibus perfectis.</p>
+      <p xml:id="ANOCOMP0051">Imperficere est notam perfectam imperfectam reddere, et habet causari
+        in cantu de gradibus perfectis.</p>
       <p xml:id="ANOCOMP0052">Pro quo notandum primo, quandocumque in modo perfecto brevis sequitur
         longam mediante puncto divisionis, tunc temporis longa redditur imperfecta, ut hic:
         [Lv,Bv,pt], in quo exemplo longa solum valet duas breves; et idem erit iudicium si brevis
@@ -251,9 +262,10 @@
         secundo: a parte post, ut hic: [Lv,Sv], in quibus exemplis longa valet quinque semibreves.
         Tertio: a parte ante et a parte post simul, ut hic: [Sv,Lv,Sv], ubi longa solum valet
         quatuor semibreves.</p>
-      <p xml:id="ANOCOMP0054">Tertio, nota [quod] brevis in tempore perfecto imperficitur a semibrevi
-        dupliciter, scilicet a parte ante et a parte post. Exemplum primi, ut hic: [pt,Sv,Bv],
-        secundi, ut hic: [Bv,Sv,pt]; in quibus exemplis brevis solum valet duas semibreves.</p>
+      <p xml:id="ANOCOMP0054">Tertio, nota [quod] brevis in tempore perfecto imperficitur a
+        semibrevi dupliciter, scilicet a parte ante et a parte post. Exemplum primi, ut hic:
+        [pt,Sv,Bv], secundi, ut hic: [Bv,Sv,pt]; in quibus exemplis brevis solum valet duas
+        semibreves.</p>
       <p xml:id="ANOCOMP0055">
         <pb n="[99]"/>Quarto, nota quod semibrevis in prolatione maiori potest imperfici a minima,
         et hoc dupliciter, scilicet a parte ante et a parte post. Exemplum primi, ut hic: [Mv,Sv],
@@ -271,15 +283,16 @@
         [sufficiunt], et cetera.</p>
       <p xml:id="ANOCOMP0057">Capitulum duodecimum</p>
       <p xml:id="ANOCOMP0058">Ssp 73r-74r</p>
-      <p xml:id="ANOCOMP0059">Alteratio describitur sic: est notae minoris respectu maioris dupla eius
-        acceptio, et habet causari in cantu de gradibus perfectis.</p>
-      <p xml:id="ANOCOMP0060">Pro quo sciendum quod quandocumque in modo perfecto duae <pb n="[100]"/>breves ponuntur inter duas longas sine puncto divisionis, tunc secunda brevis alteratur,
+      <p xml:id="ANOCOMP0059">Alteratio describitur sic: est notae minoris respectu maioris dupla
+        eius acceptio, et habet causari in cantu de gradibus perfectis.</p>
+      <p xml:id="ANOCOMP0060">Pro quo sciendum quod quandocumque in modo perfecto duae <pb n="[100]"
+        />breves ponuntur inter duas longas sine puncto divisionis, tunc secunda brevis alteratur,
         ut hic: [Lv,Bv,Bv,Lv], in quo exemplo secunda brevis [valet duo tempora] per alterationem.
         Dicitur sine puncto quia, si inter illas duas breves ponitur punctus, tunc nulla causatur
         alteratio, sed prima brevis imperficit [primam] longam et secunda secundam, ut hic:
         [Lv,Bv,pt,Bv,Lv]</p>
-      <p xml:id="ANOCOMP0061">Secundo, sciendum quod quandocumque in tempore perfecto duae semibreves
-        ponuntur inter duas breves sine puncto, tunc secunda brevis alteratur, ut hic:
+      <p xml:id="ANOCOMP0061">Secundo, sciendum quod quandocumque in tempore perfecto duae
+        semibreves ponuntur inter duas breves sine puncto, tunc secunda brevis alteratur, ut hic:
         [Bv,Sv,Sv,Bv], in quo exemplo secunda semibrevis valet duas semibreves per alterationem, et
         ambae breves tam prima quam ultima stant pro se ipsis perfecte. Dicitur sine puncto quia, si
         punctus ponitur inter illas duas semibreves, tunc nulla causatur alteratio, sed prima
@@ -291,9 +304,9 @@
         Et hoc est verum dummodo punctus divisionis non mediaverit inter ultimam semibrevem et
         penultimam, quia si sic, tunc ultima semibrevis imperficit ultimam brevem et prima brevis
         stabit perfecta, ut hic: [Bv,Sv,Sv,Sv,pt,Sv,Bv]</p>
-      <p xml:id="ANOCOMP0062">Tertio, nota quandocumque in prolatione maiori duae minimae ponuntur inter
-        duas semibreves sine puncto, tunc secunda minima alteratur, ut hic: [Sv,Mv,Mv,Sv], in quo
-        exemplo secunda minima valet duas minimas per alterationem. Dicitur sine puncto quia, si
+      <p xml:id="ANOCOMP0062">Tertio, nota quandocumque in prolatione maiori duae minimae ponuntur
+        inter duas semibreves sine puncto, tunc secunda minima alteratur, ut hic: [Sv,Mv,Mv,Sv], in
+        quo exemplo secunda minima valet duas minimas per alterationem. Dicitur sine puncto quia, si
         punctus mediaverit inter illas minimas, tunc prima minima imperficit primam semibrevem et
         secunda secundam, ut hic: [Sv,Mv,pt,Mv,Sv] Si vero tres minimae ordinantur inter duas
         semibreves, tunc illae <pb n="[101]"/>tres minimae valent unam semibrevem perfectam, et
@@ -325,8 +338,8 @@
       <p xml:id="ANOCOMP0068">
         <pb n="[102]"/>Capitulum quartumdecimum</p>
       <p xml:id="ANOCOMP0069">Ssp 74v</p>
-      <p xml:id="ANOCOMP0070">Duplicatio secundum musicum sic describitur: est unius semibrevis positae
-        inter duas minimas respective se tenentis ad eas divisio, cuius declaratio patet.
+      <p xml:id="ANOCOMP0070">Duplicatio secundum musicum sic describitur: est unius semibrevis
+        positae inter duas minimas respective se tenentis ad eas divisio, cuius declaratio patet.
         Quandocumque talis ordinatio fit notarum quod primo ponitur semibrevis, et post ea minima,
         item semibrevis, post ea minima, et item semibrevis, item minima, et ceteris, tunc prima
         semibrevis manet per se indivisa. Secunda, vero quae tenet se respective ad duas minimas
@@ -352,10 +365,10 @@
         quatuor ad unum 4/1, octo ad duas 8/2, duodecim ad tria 12/3, et cetera infinitum. Musice
         quadrupla est [quando] quatuor species contra unam, vel octo contra duas, vel 12 contra tres
         proferuntur.</p>
-      <p class="textFig" xml:id="ANOCOMP0074">                 Modus respicit maximam et longam [MXv,Lv]
+      <p class="textFig" xml:id="ANOCOMP0074"
+        >                 Modus respicit maximam et longam [MXv,Lv]
         <lb/>Gradus musicae   Tempus brevem et semibrevem respicit [Bv,Sv]
-        <br/>                 Prolatio semibrevem et minimam respicit [Sv,Mv]
-        <lb/></p>
+        <br/>                 Prolatio semibrevem et minimam respicit [Sv,Mv] <lb/></p>
     </body>
   </text>
 </TEI>

@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Interpolationen</title>
         <title type="abbrev">BERNINT</title>
-        <author>Berno Augiensis</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Berno Augiensis</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Elisabeth Honn</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Bernonis Augiensis Abbatis De arte musica disputationes traditae: Quae ratio est
@@ -151,8 +161,8 @@
       <p xml:id="BERNINT0003">sequitur post GS II, 63b: "Si tamen synemmenon non desit."</p>
       <p xml:id="BERNINT0004">__________________________________________________________________</p>
       <p xml:id="BERNINT0005">b in K1 M6 Me R Tr V3</p>
-      <p xml:id="BERNINT0006">Alia quoque quattuor tetrachorda etiam aliis nominibus titulantur, et ex
-        principalium in eis chordarum vocabulis nominantur.</p>
+      <p xml:id="BERNINT0006">Alia quoque quattuor tetrachorda etiam aliis nominibus titulantur, et
+        ex principalium in eis chordarum vocabulis nominantur.</p>
       <p xml:id="BERNINT0007">sequitur post GS II, 63b: "... quintum tetrachordum, quod dicitur
         synemmenon, id est coniunctum."</p>
       <p xml:id="BERNINT0008">__________________________________________________________________</p>
@@ -193,11 +203,11 @@
         octavam a mese per paramese et trite diezeugmenon intendendo ad nete hyperboleon adieceris,
         a prima non dissentire videbis. Si vero ab eadem mese per trite synemmenon et paranete
         synemmenon ascenderis, eandem quintae notabis.</p>
-      <p xml:id="BERNINT0013">Sic igitur diapason septem habet species: unam minus quam voces, in quibus
-        octo modorum diversa sit positio, quod sequens expediet oratio. Septem vero tantum modos
-        secundum diapason species primum fuisse, sed Ptolemaeum octavum superaddidisse, Boethium in
-        Musica scimus tradidisse, quorum nomina diversitatemque, quoniam brevitati studemus,
-        secundum ecclesiasticum usum expediamus.</p>
+      <p xml:id="BERNINT0013">Sic igitur diapason septem habet species: unam minus quam voces, in
+        quibus octo modorum diversa sit positio, quod sequens expediet oratio. Septem vero tantum
+        modos secundum diapason species primum fuisse, sed Ptolemaeum octavum superaddidisse,
+        Boethium in Musica scimus tradidisse, quorum nomina diversitatemque, quoniam brevitati
+        studemus, secundum ecclesiasticum usum expediamus.</p>
       <p xml:id="BERNINT0014">DE VIII MODIS</p>
       <p xml:id="BERNINT0015">Octo itaque cantionum modis, quos abusive tonos vocamus, ordo
         ecclesiasticus utitur; quorum quattuor excelsiores monochordi voces sortiti sic vocantur:
@@ -211,24 +221,25 @@
         regulas dantes latinis utamur nominibus, et excelsiores magistros, inferiores vero
         discipulos nominemus. Sed antequam eorum intensiones vel remissiones incipiamus, finales
         omnium nervos ostendamus.</p>
-      <p xml:id="BERNINT0016">Quattuor sunt voces, quae vocantur finales, eo quod in unaqualibet harum
-        regulares finiantur cantiones, videlicet D.E.F.G., quae sunt lichanos hypaton, hypate meson,
-        parhypate meson, lichanos meson; quae idcirco ex omnibus electae sunt finales, quod inter
-        septem vocum discrimina inveniantur sonoriores; extra quas si vel vetus vel nova cantio
-        finiatur, irregularis et illegitima sine dubio iudicatur. Cantus igitur magistri eiusque
-        discipuli, id est primi et secundi modi, in .D. finitur, secundi magistri eiusque discipuli,
-        id est tertii et quarti modi, in .E., tertii magistri eiusque subiecti, id est quinti et
-        sexti modi, in .F., quarti magistri eiusque discipuli, id est septimi et octavi modi, in .G.
-        Sed, quia nomina et finales eorum diximus, intensionis et remissionis limites aperiamus.</p>
+      <p xml:id="BERNINT0016">Quattuor sunt voces, quae vocantur finales, eo quod in unaqualibet
+        harum regulares finiantur cantiones, videlicet D.E.F.G., quae sunt lichanos hypaton, hypate
+        meson, parhypate meson, lichanos meson; quae idcirco ex omnibus electae sunt finales, quod
+        inter septem vocum discrimina inveniantur sonoriores; extra quas si vel vetus vel nova
+        cantio finiatur, irregularis et illegitima sine dubio iudicatur. Cantus igitur magistri
+        eiusque discipuli, id est primi et secundi modi, in .D. finitur, secundi magistri eiusque
+        discipuli, id est tertii et quarti modi, in .E., tertii magistri eiusque subiecti, id est
+        quinti et sexti modi, in .F., quarti magistri eiusque discipuli, id est septimi et octavi
+        modi, in .G. Sed, quia nomina et finales eorum diximus, intensionis et remissionis limites
+        aperiamus.</p>
       <p xml:id="BERNINT0017">__________________________________________________________________</p>
       <p xml:id="BERNINT0018">
         <pb n="[33]"/>d in K1 M6 Me R Tr GS</p>
       <p xml:id="BERNINT0019">itaque authentus, id est primus magister</p>
       <p xml:id="BERNINT0020">__________________________________________________________________</p>
       <p xml:id="BERNINT0021">e in K1 M6 Me R Tr GS</p>
-      <p xml:id="BERNINT0022">non quod ibi prima eius species exordiatur; sed quod forma et similitudo
-        primae illius speciei, quae inferius est, hic sub eadem chordarum dispositione contineatur,
-        tono scilicet et semitonio et tono</p>
+      <p xml:id="BERNINT0022">non quod ibi prima eius species exordiatur; sed quod forma et
+        similitudo primae illius speciei, quae inferius est, hic sub eadem chordarum dispositione
+        contineatur, tono scilicet et semitonio et tono</p>
       <p xml:id="BERNINT0023">__________________________________________________________________</p>
       <p xml:id="BERNINT0024">f in K1 M6 Me R Tr GS</p>
       <p xml:id="BERNINT0025">qui est tonus septimus</p>
@@ -239,15 +250,15 @@
       <p xml:id="BERNINT0030">
         <pb n="[34]"/>h in K1 M6 Me R Tr GS</p>
       <p xml:id="BERNINT0031">RECAPITULATIO EIUSDEM REI SECUNDUM IUNIORES</p>
-      <p xml:id="BERNINT0032">Primus igitur modus vel tonus intenditur ad acutam .d., id est paranete
-        diezeugmenon, raro autem ad .e., quae est nete diezeugmenon, et descendit ad .C., id est
-        parhypate hypaton, rarissime vero ad .B., quae est hypate hypaton, habens inter .D. et .d.
-        quartam diapason formam, supra vero et infra chordam, et ut dictum est, rarissime duas
-        inferius. Secundus modus ascendit ad .a., id est mese, raro autem ad .b. vel .[sqb]., id est
-        ad trite synemmenon vel paramese; remittitur ad .A., quae est proslambanomenos, interdumque
-        adhuc tono inferius, quem moderni, ut suprascriptum est, addiderunt, et .[Gamma]. graeca
-        littera notaverunt. Possidet autem hic modus inter .A. et .a. primam diapason speciem, supra
-        vero rarius et infra vocem.</p>
+      <p xml:id="BERNINT0032">Primus igitur modus vel tonus intenditur ad acutam .d., id est
+        paranete diezeugmenon, raro autem ad .e., quae est nete diezeugmenon, et descendit ad .C.,
+        id est parhypate hypaton, rarissime vero ad .B., quae est hypate hypaton, habens inter .D.
+        et .d. quartam diapason formam, supra vero et infra chordam, et ut dictum est, rarissime
+        duas inferius. Secundus modus ascendit ad .a., id est mese, raro autem ad .b. vel .[sqb].,
+        id est ad trite synemmenon vel paramese; remittitur ad .A., quae est proslambanomenos,
+        interdumque adhuc tono inferius, quem moderni, ut suprascriptum est, addiderunt, et
+        .[Gamma]. graeca littera notaverunt. Possidet autem hic modus inter .A. et .a. primam
+        diapason speciem, supra vero rarius et infra vocem.</p>
       <p xml:id="BERNINT0033">Et hi sunt magister primus eiusque discipulus. Magistri autem, id est
         primi toni, cantus incipitur sex nervis, scilicet C.D.E.F.G.a., habens cola et commata, id
         est membra et incisiones, quas distinctiones cantus appellamus, in eisdem. Cantus vero
@@ -257,37 +268,37 @@
         intendas, ut cuiusmodi sit, ascendendo discernas. Si vero secundi cantum in eisdem
         inceperis, non minus quam ad .B. deponas, ut cuius sit, remittendo ostendas. Sed meo iudicio
         quattuor tantum principia unicuique dabuntur discipulo.</p>
-      <p xml:id="BERNINT0034">Tertius modus intenditur ad .e., id est nete diezeugmenon, raro autem ad
-        .f. et remittitur ad .D., quae est lichanos hypaton. Habet principia cantus et distinctiones
-        nervis sex, D.E.F.G.a.[sqb]., possidens inter .E. et .e., id est inter hypate meson et nete
-        diezeugmenon, quintam diapason speciem, supra vero et infra vocem.</p>
-      <p xml:id="BERNINT0035">Quartus modus ascendit ad .[sqb]., id est paramese, raro ad .c., quae est
-        trite diezeugmenon; descendit vero ad .B., continens inter .B. et .[sqb]. secundam diapason
-        formam, supra vero chordam. Cuius cantus secundum quosdam sex nervis, legaliter vero
-        quattuor incipitur B.C.D.E. et sex distinguitur B.C.D.E.F.G.</p>
-      <p xml:id="BERNINT0036">Et hi sunt secundus magister eiusque discipulus. Quodsi magistri cantum
-        .D. vel .E. inceperis, non minor quam ad .d., id est paranete diezeugmenon, sit modus
+      <p xml:id="BERNINT0034">Tertius modus intenditur ad .e., id est nete diezeugmenon, raro autem
+        ad .f. et remittitur ad .D., quae est lichanos hypaton. Habet principia cantus et
+        distinctiones nervis sex, D.E.F.G.a.[sqb]., possidens inter .E. et .e., id est inter hypate
+        meson et nete diezeugmenon, quintam diapason speciem, supra vero et infra vocem.</p>
+      <p xml:id="BERNINT0035">Quartus modus ascendit ad .[sqb]., id est paramese, raro ad .c., quae
+        est trite diezeugmenon; descendit vero ad .B., continens inter .B. et .[sqb]. secundam
+        diapason formam, supra vero chordam. Cuius cantus secundum quosdam sex nervis, legaliter
+        vero quattuor incipitur B.C.D.E. et sex distinguitur B.C.D.E.F.G.</p>
+      <p xml:id="BERNINT0036">Et hi sunt secundus magister eiusque discipulus. Quodsi magistri
+        cantum .D. vel .E. inceperis, non minor quam ad .d., id est paranete diezeugmenon, sit modus
         intensionis; si discipuli, non minor quam ad .C. depositionis, ut cuiusmodi sit, intendendo
         vel remittendo discernas.</p>
-      <p xml:id="BERNINT0037">Quintus modus intenditur ad .f., quae est trite hyperboleon, raro autem ad
-        .g. et remittitur ad .E., hoc est ad hypate meson, continens inter .F. et .f. sextam
-        diapason speciem, supra vero et infra vocem. Cuius cantus principia et distinctiones sunt
-        sex E.F.G.a.[sqb].c., ab hypate meson ad trite diezeugmenon.</p>
-      <p xml:id="BERNINT0038">Sextus modus ascendit ad .c., quae est trite diezeugmenon, raro autem ad
-        .d., hoc est ad paranete diezeugmenon, et descendit ad .C., quae est parhypate hypaton,
+      <p xml:id="BERNINT0037">Quintus modus intenditur ad .f., quae est trite hyperboleon, raro
+        autem ad .g. et remittitur ad .E., hoc est ad hypate meson, continens inter .F. et .f.
+        sextam diapason speciem, supra vero et infra vocem. Cuius cantus principia et distinctiones
+        sunt sex E.F.G.a.[sqb].c., ab hypate meson ad trite diezeugmenon.</p>
+      <p xml:id="BERNINT0038">Sextus modus ascendit ad .c., quae est trite diezeugmenon, raro autem
+        ad .d., hoc est ad paranete diezeugmenon, et descendit ad .C., quae est parhypate hypaton,
         possidens inter .C. et .c. tertiam diapason formam, supra vero aliquando chordam. Cuius
         cantus principia legalia sunt quattuor, C.D.E.F., secundum quosdam sex, sicut et
         distinctiones C.D.E.F.G.a.</p>
-      <p xml:id="BERNINT0039">Et hi sunt tertius magister eiusque discipulus. Si magistri cantum .E. vel
-        .F. inchoaveris, ad .e., quae est nete diezeugmenon, sit minimus modus intensionis,
+      <p xml:id="BERNINT0039">Et hi sunt tertius magister eiusque discipulus. Si magistri cantum .E.
+        vel .F. inchoaveris, ad .e., quae est nete diezeugmenon, sit minimus modus intensionis,
         discipuli vero ad .D. remissionis, ut cui deputari debeat, tali differentia patefiat.</p>
-      <p xml:id="BERNINT0040">Septimus modus intenditur ad .g., id est paranete hyperboleon, raro autem
-        ad .a., quae est nete hyperboleon, et remittitur ad .F., id est ad parhypate meson,
+      <p xml:id="BERNINT0040">Septimus modus intenditur ad .g., id est paranete hyperboleon, raro
+        autem ad .a., quae est nete hyperboleon, et remittitur ad .F., id est ad parhypate meson,
         continens inter .G. et .g. septimam diapason speciem, supra vero et infra vocem. Huius
         cantus principia et distinctiones sunt sex, F.G.a.[sqb].c.d.</p>
-      <p xml:id="BERNINT0041">Octavus modus ascendit ad .d., id est paranete diezeugmenon, raro autem ad
-        .e., <pb n="[35]"/>descendit vero ad .D., id est lichanos hypaton, possidens inter .D. et
-        .d. secundum primum magistrum quartam diapason formam, supra vero chordam. Hunc enim
+      <p xml:id="BERNINT0041">Octavus modus ascendit ad .d., id est paranete diezeugmenon, raro
+        autem ad .e., <pb n="[35]"/>descendit vero ad .D., id est lichanos hypaton, possidens inter
+        .D. et .d. secundum primum magistrum quartam diapason formam, supra vero chordam. Hunc enim
         Ptolemaeus annexuit, et quia diapason octava specie caret, quartam ut primus obtinuit: qui
         quamvis eandem habeat speciem, diversam habet finalem, et non eandem ad .C. remissionem.
         Huius cantus initia ut aliorum discipulorum legalia sunt quattuor: D.E.F.G., usurpata sex
@@ -302,9 +313,9 @@
         cantuum indifferentes inter authentos et subiugales descensus testantur. Unde in pluribus
         interdum pro ascensu, maxime vero pro descensu fit saepe dubietas, utrum authento an plagi
         eorum tribuatur proprietas.</p>
-      <p xml:id="BERNINT0043">Hinc iuniores subtilius et acutius diiudicantes, et certius legaliusque
-        discriminantes, nec ex toto antiquis consentiunt, nec ex toto dissentiunt. Aiunt enim
-        oportere inter modos certas esse differentias, ut cuiuscumque sint, cognoscere possimus
+      <p xml:id="BERNINT0043">Hinc iuniores subtilius et acutius diiudicantes, et certius
+        legaliusque discriminantes, nec ex toto antiquis consentiunt, nec ex toto dissentiunt. Aiunt
+        enim oportere inter modos certas esse differentias, ut cuiuscumque sint, cognoscere possimus
         cantilenas. Sed si primus modus ab acuta .e. ad .A., id est a nete diezeugmenon ad
         proslambanomenon remittatur, secundus vero a paramese, quae est .[sqb]., ad eandem .A.
         deponatur, si inter .a. et .A., id est inter mese et proslambanomenon, cantus non excedens
@@ -314,20 +325,20 @@
       <p xml:id="BERNINT0044">__________________________________________________________________</p>
       <p xml:id="BERNINT0045">
         <pb n="[36]"/>i in K1 Me R Tr</p>
-      <p xml:id="BERNINT0046">Potest tamen haec eadem antiphona in illo loco hymnum dicat emendari, et
-        ad tertium tonum sine obstaculo decantari, ita: Benedicat terra domino et omnia nascentia in
-        ea hymnum dicat alleluia.</p>
+      <p xml:id="BERNINT0046">Potest tamen haec eadem antiphona in illo loco hymnum dicat emendari,
+        et ad tertium tonum sine obstaculo decantari, ita: Benedicat terra domino et omnia nascentia
+        in ea hymnum dicat alleluia.</p>
       <p xml:id="BERNINT0047">sequitur post GS II, 72b: "... poteris ad finalem pervenire."</p>
       <p xml:id="BERNINT0048">__________________________________________________________________</p>
       <p xml:id="BERNINT0049">k in K1 Me R</p>
-      <p xml:id="BERNINT0050">Considerata tamen sonorum natura, octavo vel septimo satis concordant. De
-        cotidianis vero feriarum antiphonis plurimae per incuriam ita sunt depravatae, ut quaedam,
-        quae sunt primi toni ad quartum, quaedam secundi ad octavum sint declinatae; et quod adhuc
-        peius vel turpius est, in fine nec quarti nec octavi nec alicuius octo modorum regulam
-        sequantur. Sed nescio, qua superstitiosa usurpatione contra legem omnium modorum mirabiliter
-        vel potius miserabiliter et turpiter inolita consuetudine finiantur. Cuius rei exemplum est
-        in antiphonis his: Antiphona Credidi propter quod locutus sum. Item: Facti sumus sicut
-        consolati.</p>
+      <p xml:id="BERNINT0050">Considerata tamen sonorum natura, octavo vel septimo satis concordant.
+        De cotidianis vero feriarum antiphonis plurimae per incuriam ita sunt depravatae, ut
+        quaedam, quae sunt primi toni ad quartum, quaedam secundi ad octavum sint declinatae; et
+        quod adhuc peius vel turpius est, in fine nec quarti nec octavi nec alicuius octo modorum
+        regulam sequantur. Sed nescio, qua superstitiosa usurpatione contra legem omnium modorum
+        mirabiliter vel potius miserabiliter et turpiter inolita consuetudine finiantur. Cuius rei
+        exemplum est in antiphonis his: Antiphona Credidi propter quod locutus sum. Item: Facti
+        sumus sicut consolati.</p>
       <p xml:id="BERNINT0051">Idem fit in pluribus aliis. Quae cum tono regantur dissimili, fine
         clauduntur consimili. Qui finis cum neutrae antiphonae concordet principio, in ultimo sono
         videtur similis quinto, cum tamen non sit ipsius, nec octo modorum alicuius. Unde nequeo
@@ -349,8 +360,8 @@
         transpositionum loca vagari, ne, quattuor finalibus quattuor compares addendo, octo finales
         habere videantur, ac per hoc sedecim modos, quod nulla ratio admittit, habere convincantur.
         Restat ergo, ut omnia depravata emendentur, et propria loca sortiantur.</p>
-      <p xml:id="BERNINT0056">Responsorium enim Factum est emendandum est in eo loco caelum Heliseus et
-        pater mi. Sic enim canendum est Factum est dum tolleret dominus Heliam per turbinem in
+      <p xml:id="BERNINT0056">Responsorium enim Factum est emendandum est in eo loco caelum Heliseus
+        et pater mi. Sic enim canendum est Factum est dum tolleret dominus Heliam per turbinem in
         caelum Heliseus clamabat dicens pater mi. Responsorium autem Terribilis est corrigendum est
         ibi domus dei et porta caeli. Apparuit autem ibi in convivio meo cum fratribus tuis.
         Communio autem Cantabo sic est canenda Cantabo domino qui bona tribuit mihi. Illa vero
@@ -362,8 +373,8 @@
         li, virgula non flexa ponenda, aut secundum sextum his est in locis emendanda adducere et
         vocem meam audient et fiet unum ovile. Illa etiam Domine qui operati sunt in eo loco in
         tabernaculo tuo.</p>
-      <p xml:id="BERNINT0057">Haec et alia eiusmodi doctus cantor considerans, ubi oportet, decenter et
-        congrue corrigat; et quemque cantum suo modo, suo ordini, suo finali potius quam vario
+      <p xml:id="BERNINT0057">Haec et alia eiusmodi doctus cantor considerans, ubi oportet, decenter
+        et congrue corrigat; et quemque cantum suo modo, suo ordini, suo finali potius quam vario
         transpositionum et socialium errori attribuat.</p>
       <p xml:id="BERNINT0058">sequitur post GS II, 76a: "... in superioribus non invenerat."</p>
       <p xml:id="BERNINT0059">__________________________________________________________________</p>

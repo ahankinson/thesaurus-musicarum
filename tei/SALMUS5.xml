@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De musica, liber quintus</title>
         <title type="abbrev">SALMUS5</title>
-        <author>Salinas, Franciscus</author>
-        <date notBefore="1500" notAfter="1599">16th</date>
+        <author><persName>Salinas, Franciscus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Albert C. Rotola</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>S.J.</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1996</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1996">1996</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Francisci Salinae Burgensis Abbatis Sancti Pancratii de Rocca Scalegna in regno
@@ -38,17 +48,17 @@
     <body>
       <p xml:id="SALMUS50001">
         <pb n="[235]"/>DE MVSICA LIBER QVINTVS.</p>
-      <p xml:id="SALMUS50002">QVID SIT RHYTHMVS, A quo altera Musicae pars Rhythmica nominatur, iuxta
-        Philoxeni et Platonis, et aliorum definitiones, et quo pacto Rhythmus Oratorius, et Poeticus
-        a Musico differant. CAPVT PRIMVM.</p>
-      <p xml:id="SALMUS50003">QVatuor superioribus libris a nobis tractatum est de priore Musicae parte,
-        quae ad Harmoniam spectat, et Harmonica nominatur; in cuius tractatione, non solum ea, quae
-        ad ipsam Harmoniam, et ad singulas eius pertinent partes, luculenter et dilucide (ni fallor)
-        explicata sunt: sed iacta etiam esse arbitror satis fidelia fundamenta, ad superstruendam
-        alteram Musicae partem, quae ad Rhyhtmum attinet, a quo Rhythmica nuncupatur. Actum est enim
-        in primo huius operis libro, de numeris, et numerorum inter se collationibus, ex quibus
-        proportiones oriuntur: quarum doctrina vtrique Musicae parti non minus Rhyhmicae, quam
-        Harmonicae, necessaria est. Tribus autem libris qui sequuntur, de Rhythmica, quae non
+      <p xml:id="SALMUS50002">QVID SIT RHYTHMVS, A quo altera Musicae pars Rhythmica nominatur,
+        iuxta Philoxeni et Platonis, et aliorum definitiones, et quo pacto Rhythmus Oratorius, et
+        Poeticus a Musico differant. CAPVT PRIMVM.</p>
+      <p xml:id="SALMUS50003">QVatuor superioribus libris a nobis tractatum est de priore Musicae
+        parte, quae ad Harmoniam spectat, et Harmonica nominatur; in cuius tractatione, non solum
+        ea, quae ad ipsam Harmoniam, et ad singulas eius pertinent partes, luculenter et dilucide
+        (ni fallor) explicata sunt: sed iacta etiam esse arbitror satis fidelia fundamenta, ad
+        superstruendam alteram Musicae partem, quae ad Rhyhtmum attinet, a quo Rhythmica nuncupatur.
+        Actum est enim in primo huius operis libro, de numeris, et numerorum inter se collationibus,
+        ex quibus proportiones oriuntur: quarum doctrina vtrique Musicae parti non minus Rhyhmicae,
+        quam Harmonicae, necessaria est. Tribus autem libris qui sequuntur, de Rhythmica, quae non
         minoris vtilitatis, quam Harmonica, et maioris etiam iucunditatis esse reperitur, agendum
         est. Ad cuius definitionem priusquam accedamus, Rhythmus ipse, vnde nomen duxisse manifestum
         est, definiendus, aut certe describendus esse videtur: vt cognita Rhythmi natura, quae
@@ -122,7 +132,8 @@
         ergo sonis, sed in illis dumtaxat Rhythmum inueniri credendum est, qui a certo mentis sensu
         profecti, et ex temporibus pedibusque compositi, non solum audiri, sed etiam intelligi
         possunt. In quibus aliqua temporis, aut motus numerositas inuenitur. Et hoc Rhythmi genus
-        aliquanto propius est ei, quod quaerimus: non omnino tamen is Rhythmus est, de quo <pb n="[237]"/>hic agimus: quia non immodulatione solum, sed in soluta etiam oratione
+        aliquanto propius est ei, quod quaerimus: non omnino tamen is Rhythmus est, de quo <pb
+          n="[237]"/>hic agimus: quia non immodulatione solum, sed in soluta etiam oratione
         reperitur. Quod Cicero in oratore significat, cum affirmat, quidquid sub aurium mensuram
         cadit, etiam si absit a versu, numerum vocari. Vocatur autem hic numerus Oratorius: qui
         quanque a Musico, tanquam omnis numeri seu Rhythmi parente originem duxit; vsque adeo tamen
@@ -134,28 +145,28 @@
         sermonem vulgi referant,</p>
       <p xml:id="SALMUS50005">Et quae loquuntur, sumpta de vita putes,</p>
       <p xml:id="SALMUS50006">Vitiant iambos tractibus spondaicis,</p>
-      <p xml:id="SALMUS50007">vel anapesticis in omnibus fere locis. Neque iam bis tantum pedibus trium
-        temporum, sed trochaeis etiam eiusdem quantitatis omnes pedes quatuor temporum inserunt.
-        quod Musicis facere non licet, ne plausu mensura claudicare cogatur. Post hos etiam a Musica
-        puritate Tragici recedunt: quoniam idem quod Comici faciunt; quamuis non omnibus in locis,
-        vt illi, sed in disparibus solum ac sinistris. Lyrici etiam pro choriambicis epitritis
-        vtuntur: qui ad Musicum numerum inepti iudicantur. Praeterea Rhythmus Poeticus sine verbis
-        nunquam esse potest: neque a metro, aut versu (quod equidem sciam) separatus inuenitur: vnde
-        diuersis idiomatis alijs aliter astrictus est. Rhythmus autem Musicus nullius est idiomatis,
-        quare et in verbis, et citra verba, et cum metro, et seorsum a metro reperiri potest: et in
-        omnibus linguis idem est, vt variarum exemplis linguarum inferius ostendemus. Reperitur
-        etiam sine melo siue harmonia, vt in tympanis: et cum melo coniunctus, vt in Organis et
-        Citharis; quibus ludentes, temporum suo quodam modo dimensorum ordine et proportione
-        contenti, vtcunque ratio cantici postulat, vel procurrunt, vel subsistunt. Et hunc Rhythmum
-        suum aerem vocant. Atque haec de Rhythmo in genere praemittere voluimus, plura speciatim,
-        quae ad eius institutionem attinent, toto hoc quinto libro dicturi, quae vel ex varia
-        lectione collegimus, vel ipsi excogitauimus: vt in re magnis tenebris inuoluta, studiosis
-        hominibus aliquam quasi lucem, praeferre possimus.</p>
+      <p xml:id="SALMUS50007">vel anapesticis in omnibus fere locis. Neque iam bis tantum pedibus
+        trium temporum, sed trochaeis etiam eiusdem quantitatis omnes pedes quatuor temporum
+        inserunt. quod Musicis facere non licet, ne plausu mensura claudicare cogatur. Post hos
+        etiam a Musica puritate Tragici recedunt: quoniam idem quod Comici faciunt; quamuis non
+        omnibus in locis, vt illi, sed in disparibus solum ac sinistris. Lyrici etiam pro
+        choriambicis epitritis vtuntur: qui ad Musicum numerum inepti iudicantur. Praeterea Rhythmus
+        Poeticus sine verbis nunquam esse potest: neque a metro, aut versu (quod equidem sciam)
+        separatus inuenitur: vnde diuersis idiomatis alijs aliter astrictus est. Rhythmus autem
+        Musicus nullius est idiomatis, quare et in verbis, et citra verba, et cum metro, et seorsum
+        a metro reperiri potest: et in omnibus linguis idem est, vt variarum exemplis linguarum
+        inferius ostendemus. Reperitur etiam sine melo siue harmonia, vt in tympanis: et cum melo
+        coniunctus, vt in Organis et Citharis; quibus ludentes, temporum suo quodam modo dimensorum
+        ordine et proportione contenti, vtcunque ratio cantici postulat, vel procurrunt, vel
+        subsistunt. Et hunc Rhythmum suum aerem vocant. Atque haec de Rhythmo in genere praemittere
+        voluimus, plura speciatim, quae ad eius institutionem attinent, toto hoc quinto libro
+        dicturi, quae vel ex varia lectione collegimus, vel ipsi excogitauimus: vt in re magnis
+        tenebris inuoluta, studiosis hominibus aliquam quasi lucem, praeferre possimus.</p>
       <p xml:id="SALMUS50008">De Musicae Rhythmicae definitione, et quo pacto Rhythmica differat ab
         Harmonica, et ab ea Grammaticae parte, quae de Poetica tractat. CAPVT II.</p>
-      <p xml:id="SALMUS50009">EX his ergo, quae de Rhythmo dicata sunt, huius partis Musicae, quae ad
-        eum pertinet, definitionem elici facile posse crediderim. Nam iuxta Platonis doctrinam, quo
-        Rhythmum ordinem motuum esse dixit; Rhythmica erit facultas differentias sonorum in
+      <p xml:id="SALMUS50009">EX his ergo, quae de Rhythmo dicata sunt, huius partis Musicae, quae
+        ad eum pertinet, definitionem elici facile posse crediderim. Nam iuxta Platonis doctrinam,
+        quo Rhythmum ordinem motuum esse dixit; Rhythmica erit facultas differentias sonorum in
         tarditate et celeritate perpendens: est enim motus proprium, tardum, aut celerem dici. Iuxta
         vero Philoxeni sententiam, qui Rhythmum temporum ordinem definiuit, erit facultas sonorum
         differentias in temporis longitudine et breuitate considerans. Ita namque longum, aut breue
@@ -274,7 +285,8 @@
         syllabarum, et verborum accentus custodiatur: atque etiam vt ex versuum Latinorum mensura,
         ipsorum in cantu modulationes, et contra ex cantionum vulgarium canticis, quibus eae Latinis
         versibus aut metris respondeant, commodissime possit agnosci.</p>
-      <p xml:id="SALMUS50012">Qui sint in Rhythmica iudices et quod sit eius subiectum. CAPVT III.</p>
+      <p xml:id="SALMUS50012">Qui sint in Rhythmica iudices et quod sit eius subiectum. CAPVT
+        III.</p>
       <p xml:id="SALMUS50013">SVnt etiam in Rhythmica, quemadmodum in Harmonica, iudices sensus, et
         ratio: nam cum soni, ex quibus melos conficitur, sint naturaliter ita constituti, vt vel
         singula, vel plura tempora contineant, et iuncta tempora duo, pluraue pedem faciant; e
@@ -323,17 +335,17 @@
         exemplarem accipiendum esse dicimus. Et iam tandem quot, et quae sint ipsius Rhythmicae
         partes, circa quas vis eius tota versatur, exquiramus; et singulas, vt ratio, atque ordo
         doctrinae postulat, explicare tentemus.</p>
-      <p xml:id="SALMUS50014">Quid sit tempus Rhythmicum atque idem esse tempus in Rhythmica, quod sonus
-        in Harmonica; et cui cantus figurae respondeat, et quid sit arsis et thesis in Rhythmica, et
-        quid in Harmonica. CAPVT IIII.</p>
-      <p xml:id="SALMUS50015">TRia sunt autem circa quae Musica Rhythmica versatur, Rhythmus, Metrum, et
-        Versus; in quibus tota vis eius ostenditur, licet non eodem modo; magis namque in metro,
-        quem in rhythmo, et in versu, quam in vtroque declaratur: de quibus singulis, libros etiam
-        singulos instituimus. Et quoniam tam rhythmus, quam metrum, et versus, e rite copulatis
-        pedibus componuntur: et pedes ex temporibus apte dispositis fiunt; priusquam de singulis
-        eorum agere incipiamus, de temporibus, et pedibus, nouo quodam ordine, et ad musciam
-        institutionem magis (vt reor) accommodato, quam a Grammaticis actum est, agendum esse
-        censemus. Et principio tempus, vt hic accipitur, definiendum est, vt a Martiano Capella
+      <p xml:id="SALMUS50014">Quid sit tempus Rhythmicum atque idem esse tempus in Rhythmica, quod
+        sonus in Harmonica; et cui cantus figurae respondeat, et quid sit arsis et thesis in
+        Rhythmica, et quid in Harmonica. CAPVT IIII.</p>
+      <p xml:id="SALMUS50015">TRia sunt autem circa quae Musica Rhythmica versatur, Rhythmus,
+        Metrum, et Versus; in quibus tota vis eius ostenditur, licet non eodem modo; magis namque in
+        metro, quem in rhythmo, et in versu, quam in vtroque declaratur: de quibus singulis, libros
+        etiam singulos instituimus. Et quoniam tam rhythmus, quam metrum, et versus, e rite
+        copulatis pedibus componuntur: et pedes ex temporibus apte dispositis fiunt; priusquam de
+        singulis eorum agere incipiamus, de temporibus, et pedibus, nouo quodam ordine, et ad
+        musciam institutionem magis (vt reor) accommodato, quam a Grammaticis actum est, agendum
+        esse censemus. Et principio tempus, vt hic accipitur, definiendum est, vt a Martiano Capella
         libro nono de philologia, et septem artibus liberalibus definitur, vbi tempus, inquit,
         Rhythmicum est, quod in morem atomi nullas habet partes, nec momenta recisionis admittit.
         Quae definitio eadem est cum ea, quam nos sub alijs verbis comprehensam surpa posuimus. Est
@@ -381,9 +393,9 @@
         videntur Terentianus et eius sectator Victorinus confundere, cum eas in pedibus examinant.
         Nos autem hic non de his, quae ad harmonicam pertinent, sed de illis, quae ad rhythmicam
         spectant, agimus, de qua tractare nostri est instituti.</p>
-      <p xml:id="SALMUS50016">Quo nam pacto ex temporum inter se collatione pedes procreentur et spatium
-        vnius temporis in sonis minimae practicorum figura, et duorum semibreuis debere signari.
-        CAPVT V.</p>
+      <p xml:id="SALMUS50016">Quo nam pacto ex temporum inter se collatione pedes procreentur et
+        spatium vnius temporis in sonis minimae practicorum figura, et duorum semibreuis debere
+        signari. CAPVT V.</p>
       <p xml:id="SALMUS50017">ARsis ergo et thesis, quae Latine sublatio et positio dicuntur,
         significant in rhythmica manus, vel pedis motum, in quo earum vtralibet, vt minimum, vnum
         tempus consumit, et ex vti aque pedes per eas gradientes constituuntur, quibus metrorum
@@ -394,7 +406,8 @@
         metiuntur, ex sonorum inter se comparatione pedes oriri necesse est: et cum soni inter se
         conferuntur, motus quidam conferuntur, in quibus possint quidam etiam temporis numeri,
         mensura diuturnitatis inquiri. Motus enim est omne quod sonat, quandoquidem sine motus sonus
-        fieri non potest. In vno etiam sono non fit comparatio: quoniam omnis <pb n="[243]"/>singularitas comparationem fugit. comparantur autem, aut vnus vni, aut vnus vel duo,
+        fieri non potest. In vno etiam sono non fit comparatio: quoniam omnis <pb n="[243]"
+        />singularitas comparationem fugit. comparantur autem, aut vnus vni, aut vnus vel duo,
         duobus vel tribus, et deinceps in pluribus. Rursus hoc etiam animaduertendum est, sonos et
         in syllabis dictionum et sine his reperiri: fiunt enim modulationes absque verbis in musicis
         instrumentis, quae per syllabas quasdam a canentibus inuentas voce pronunciantur; et
@@ -427,9 +440,9 @@
       <p xml:id="SALMUS50021">Carmine Dij superi placantur, carmine manes,</p>
       <p xml:id="SALMUS50022">et Ouidius primo de Tristia</p>
       <p xml:id="SALMUS50023">Exorant magnos carmina saepe Deos.</p>
-      <p xml:id="SALMUS50024">Atque hodie experientia compertum est, nullam esse gentem tam efferam, tam
-        ab humano cultu semotam, quae non in omni, quantumuis humili cantus materia, quidquid canit,
-        alique metri specie conetur inuoluere. Quod etiam in canticis hymnorum, quae a viris
+      <p xml:id="SALMUS50024">Atque hodie experientia compertum est, nullam esse gentem tam efferam,
+        tam ab humano cultu semotam, quae non in omni, quantumuis humili cantus materia, quidquid
+        canit, alique metri specie conetur inuoluere. Quod etiam in canticis hymnorum, quae a viris
         eruditis instituta templorum in choris canuntur, obseruare licet: quorum in cantibus
         fortasse primus horum, quibus nunc vtimur, characterum inuentor (siue ijs Ioannes de Muris
         cantor Parisiensis (vt quidam volunt) seu quicunque alius fuit) inaequales sonorum moras,
@@ -440,7 +453,8 @@
         caeperunt. Sed melius ac verius semibreuium ac minimarum characteribus signari potuissent,
         vel (quod certius esse crediderim) cum essent huius scientiae prorsus ignari, et pedum ac
         rhythmorum nec omnia quidem nossent, vim tamen eorum in cantu natura duce sentirent, pedes
-        ipsos aut rhythmos, quibus diuersimode cantus incedit, tempora vocauerunt. <pb n="[244]"/>Quorum diuersitatem perfecti temporis et imperfecti varijs signis ostendere conati sunt:
+        ipsos aut rhythmos, quibus diuersimode cantus incedit, tempora vocauerunt. <pb n="[244]"
+        />Quorum diuersitatem perfecti temporis et imperfecti varijs signis ostendere conati sunt:
         quibus opus non est ijs, qui pedum cognitionem habent, vt inferius manifestum erit. Ex
         quibus constat non idem esse tempus, quod hic consideramus, et minimi plausus dimidium esse
         dicimus, cum eo, quod illi considerant; in quo nunc plausum vnum, nunc duos ac saepe tres,
@@ -450,8 +464,8 @@
         syllabis in cantu respondentes, minimarum, et longis semibreuium figuris, notauimus: eas a
         practicis accipientes, vt tam a Musicis, qui syllabarum quantitatem nescierint, quam a
         Grammaticis, qui cognitionem eius habuerint, exactius et facilius possimus intelligi.</p>
-      <p xml:id="SALMUS50025">Quid sit pes, et a quot temporibus sumat initium, et vtrum ex vnius soni
-        duratione, quae sit duorum pluriumue temporum, pes rite constituatur. CAPVT VI.</p>
+      <p xml:id="SALMUS50025">Quid sit pes, et a quot temporibus sumat initium, et vtrum ex vnius
+        soni duratione, quae sit duorum pluriumue temporum, pes rite constituatur. CAPVT VI.</p>
       <p xml:id="SALMUS50026">INcipiamus ergo sonos, aut syllabas, vel potius tempora, quae illas
         metiuntur, inter se conferre, et quos ad sese habeant numeros diligenter exquiramus. Et
         quoniam in huius operis initio de numeris, ac numerorum proportionibus late diffuseque
@@ -490,8 +504,8 @@
       <p xml:id="SALMUS50028">Altera aut simplo vicissim temporis duplum dabit:</p>
       <p xml:id="SALMUS50029">Sexcuplo vel vna vincet alterius singulum:</p>
       <p xml:id="SALMUS50030">Quidquid istis discrepabit absonum, reddat melos.</p>
-      <p xml:id="SALMUS50031">Et volens ostendere, potius hanc tractationem ad Musicos, quam ad Oratores
-        aut Poetas pertinere, subdit:</p>
+      <p xml:id="SALMUS50031">Et volens ostendere, potius hanc tractationem ad Musicos, quam ad
+        Oratores aut Poetas pertinere, subdit:</p>
       <p xml:id="SALMUS50032">Latius tractant magistri Rhythmici, vel Musici.</p>
       <p xml:id="SALMUS50033">Laudatur autem in oratoria dictione Paean, ob mediocritatem, quam
         sesquialtera tenet inter celeritatem duplae, et tarditatem aequae: nam exempli gratia, si
@@ -583,8 +597,9 @@
         inferius copiosius differentur, <pb n="[247]"/>et apertius demonstrabuntur, satis erit nunc
         obiter attigisse, vt iam tandem pedum ipsorum tractationem, quantum ad musicam attinet
         institutionem, qua maiori claritate ac breuitate possumus, exordiamur.</p>
-      <p xml:id="SALMUS50042">De minimo et vnico pede duorum temporum, et de tribus pedibus trium, et de
-        quibusdam quae circa plausum trium temporum a practicis perperam asseruntur. CAPVT VII.</p>
+      <p xml:id="SALMUS50042">De minimo et vnico pede duorum temporum, et de tribus pedibus trium,
+        et de quibusdam quae circa plausum trium temporum a practicis perperam asseruntur. CAPVT
+        VII.</p>
       <p xml:id="SALMUS50043">COnferuntur igitur primo tempora vnum vni: ex qua collatione consurgit
         primus pes, et minimus ex duobus sonis monochronis (hoc est vnius temporis compositus) in
         quorum priori fit positio manus vel pedis, et in posteriori sublatio; et quoniam tantundem
@@ -643,8 +658,8 @@
       <p xml:id="SALMUS50046">Nec minus currit Trochaeus lege versa temporum</p>
       <p xml:id="SALMUS50047">Syllaba longus priore, parcior nouissima,</p>
       <p xml:id="SALMUS50048">Chorius idem nuncupatur a magistris plurimis.</p>
-      <p xml:id="SALMUS50049">hunc vt currentem damnat Aristoteles in oratoria dicendi grauitate, sed
-        Hephestio laudat in numerosa canendi suauitate, quod ex eo hymni, praesertim in honorem
+      <p xml:id="SALMUS50049">hunc vt currentem damnat Aristoteles in oratoria dicendi grauitate,
+        sed Hephestio laudat in numerosa canendi suauitate, quod ex eo hymni, praesertim in honorem
         Bacchi, componebantur olim ab antiquis, et nunc tetrametra fiunt, quibus in saltationibus
         vulgo frequenter vtuntur: et cantilenae etiam vulgares hoc pede, maxime apud Hispanos,
         procurrunt. Potest etiam dici Trochaeus Iambus inuersus vt ostendit haec Hispana dictio, a
@@ -710,7 +725,8 @@
         precantes. Hic pes vtramque recipit in plausu percussionem, quoniam nunc incipit a positione
         manus, nunc a sublatione, cuius ratio est, quod priore manente longa, et posteriore in duas
         breues soluta, procreatur secundus pes quatuor temporum, qui dactylus nuncupatur, et incipit
-        a positione manus; et posteriore manente longa, et priore in duas soluta breues fit <pb n="[250]"/>illi contrarius percussione, qui dicitur antidactylus siue anapaestus ex duabus
+        a positione manus; et posteriore manente longa, et priore in duas soluta breues fit <pb
+          n="[250]"/>illi contrarius percussione, qui dicitur antidactylus siue anapaestus ex duabus
         breuibus tertia longa constitutus, qui a sublatione manus incipit, et in positionem desinit.
         Quare cum reperietur ei dactylus admistus, in priore percutietur, et cum anapaestus in
         posteriore. Est ergo secundus pes quatuor temporum dactylus, ex tribus sonis, vt tribus
@@ -744,27 +760,27 @@
       <p xml:id="SALMUS50052">Par pari figura non est, pugnat vnum cum tribus</p>
       <p xml:id="SALMUS50053">Nec modum dupli rependit, nec tenetur sesquiplo</p>
       <p xml:id="SALMUS50054">Exigunt idcirco talem qui sequuntur musicam.</p>
-      <p xml:id="SALMUS50055">Vtrum autem a musica exigi debeat, inferius considerabitur cum de congrua
-        pedum copulatione nobis habebitur sermo. Nunc dicendum est de quinto pede qui superest
-        quatuor temporum, et quatuor etiam sonorum, vt syllabarum qui proceleusmaticus dicitur,
-        cuius exemplum in sonis, [ClefC3,Mv,Mv,Mv,Mv on staff5] in syllabis, animula, dictus a
-        [prokeleusai], hoc est a iubendo, et praeeundo verbis vel cantu, quod, vt traditur, in
-        sacrificijs Mineruae quondam, versus ex proceleusmatico pede compositi, praecini solebant,
-        et ad eorum exordia caeteri canentes vniformiter respondere, cantuque subsequi; id quod et
-        in celeusmate, hoc est, in cantu et clamore nautico (quod verbum ab eadem origine descendit)
-        dum nauigarem fieri saepius audiui. Siue vt alijs placet, quod proceleusmatici versus, quos
-        et pyrrhiacos Hephestio appellari ait, (nisi quis pyrrhichiacos dici debere contendat, a
-        pyrrhichio pede videlicet, ex quo proceleusmaticus <pb n="[251]"/>componitur) ob celeritatem
-        et cursum syllabarum, canticum simile clamori nautico generare videantur. Ex his ergo, quae
-        dicta sunt, constat quinque pedes quatuor temporum inueniri, qui hoc poterunt etiam ordine
-        commodissime disponi, vt primus sit spondaeus dissyllabus, incipiens, vt plurimum, a
-        positione manus in priori longa, nisi cum ponitur cum anapaesto; nam tunc incipit a
-        sublatione vt, ille. alter dactylus trisyllabus incipiens etiam a positione manus in prima
-        longa, et est primus trisyllaborum, qui ex vna longa et duabus breuibus constat, quoniam
-        habet longam in primo loco. Tertius et in ordine trisyllaborum secundus, erit amphibrachus
-        quoniam habet longam in medio, et in ea fiet manus percussio. Quartus et in ordine
-        trisyllaborum tertius, erit anapaestus, quoniam habet longam in tertio, in qua etiam fiet
-        manus percussio, vt amphibrachus sit medius inter dactylum anapaestum, in plausus
+      <p xml:id="SALMUS50055">Vtrum autem a musica exigi debeat, inferius considerabitur cum de
+        congrua pedum copulatione nobis habebitur sermo. Nunc dicendum est de quinto pede qui
+        superest quatuor temporum, et quatuor etiam sonorum, vt syllabarum qui proceleusmaticus
+        dicitur, cuius exemplum in sonis, [ClefC3,Mv,Mv,Mv,Mv on staff5] in syllabis, animula,
+        dictus a [prokeleusai], hoc est a iubendo, et praeeundo verbis vel cantu, quod, vt traditur,
+        in sacrificijs Mineruae quondam, versus ex proceleusmatico pede compositi, praecini
+        solebant, et ad eorum exordia caeteri canentes vniformiter respondere, cantuque subsequi; id
+        quod et in celeusmate, hoc est, in cantu et clamore nautico (quod verbum ab eadem origine
+        descendit) dum nauigarem fieri saepius audiui. Siue vt alijs placet, quod proceleusmatici
+        versus, quos et pyrrhiacos Hephestio appellari ait, (nisi quis pyrrhichiacos dici debere
+        contendat, a pyrrhichio pede videlicet, ex quo proceleusmaticus <pb n="[251]"/>componitur)
+        ob celeritatem et cursum syllabarum, canticum simile clamori nautico generare videantur. Ex
+        his ergo, quae dicta sunt, constat quinque pedes quatuor temporum inueniri, qui hoc poterunt
+        etiam ordine commodissime disponi, vt primus sit spondaeus dissyllabus, incipiens, vt
+        plurimum, a positione manus in priori longa, nisi cum ponitur cum anapaesto; nam tunc
+        incipit a sublatione vt, ille. alter dactylus trisyllabus incipiens etiam a positione manus
+        in prima longa, et est primus trisyllaborum, qui ex vna longa et duabus breuibus constat,
+        quoniam habet longam in primo loco. Tertius et in ordine trisyllaborum secundus, erit
+        amphibrachus quoniam habet longam in medio, et in ea fiet manus percussio. Quartus et in
+        ordine trisyllaborum tertius, erit anapaestus, quoniam habet longam in tertio, in qua etiam
+        fiet manus percussio, vt amphibrachus sit medius inter dactylum anapaestum, in plausus
         percussione cum per se ponitur; nam cum iungitur anapaesto, quod frequentissime fit in
         cantilenis vulgaribus, assumit eius percussionem et cum dactylo itidem percutitur; vt, ille.
         Quintus est proceleusmaticus, qui recipit percussionem in prima vt spondaeus et dactylus; in
@@ -864,10 +880,10 @@
         agemus, exemplis rem ipsam manifestam facientibus ostendemus.</p>
       <p xml:id="SALMUS50058">De tredecim pedibus sex temporum, a tribus sonis dichronis ad sex
         monochronos vsque progredientibus. CAPVT X.</p>
-      <p xml:id="SALMUS50059">POst quinorum temporum pedes ipsius ordo rationis flagitat, vt de pedibus
-        sex temporum dicamus, ad quae vsque tempora plausus, quem practici perfecti, seu ternarij
-        temporis appellant, vim suam extendere reperitur: in quibus aut quaterna, binis, aut terna
-        ternis tempora conferuntur, vt partim dupla, partim aequa proportione constare
+      <p xml:id="SALMUS50059">POst quinorum temporum pedes ipsius ordo rationis flagitat, vt de
+        pedibus sex temporum dicamus, ad quae vsque tempora plausus, quem practici perfecti, seu
+        ternarij temporis appellant, vim suam extendere reperitur: in quibus aut quaterna, binis,
+        aut terna ternis tempora conferuntur, vt partim dupla, partim aequa proportione constare
         deprehendantur. Qui omnes a tribus sonis dichronis ad sex monochronos inueniuntur, et in
         syllabis primus eorum trisyllabus est, et vltimus hexasyllabus, medij vero tetrasyllabi, et
         pentasyllabi, vt in sonis tetraphthongi, et pentaphthongi. Primus ergo est molossus, ex
@@ -893,7 +909,8 @@
         quod versus eius in se redeant, et tanquam in orbem reuoluantur. Fit autem ex molosso primo
         sono dichrono in duos monochronos soluto, et habet percussionem in plausu contrariam Ionico
         a maiori, quemadmodum Iambus trochaeo, quoniam Ionicus a maiori, vt dictum est, incipit a
-        positione manus, et percutitur in primo sono, qui dichronus est: hic autem a sublatione, <pb n="[254]"/>et percutitur in tertio priore ex duobus dichronis, vt inferius exemplis
+        positione manus, et percutitur in primo sono, qui dichronus est: hic autem a sublatione, <pb
+          n="[254]"/>et percutitur in tertio priore ex duobus dichronis, vt inferius exemplis
         patebit. Sequitur quartus pes choriambus ex choraeo et Iambo compositus, vnde etiam nomen
         habet, et sonis quatuor constat primo et vltimo dichronis, duobus medijs monochronis, quia
         fit ex molosso medio dichrono in duos monochronos soluto, et quatuor syllabis, prima et
@@ -982,7 +999,8 @@
         aptos esse dixit, quidquid ab his discreparet, absonum reddere melos asseruit. Vnde
         epitritos, quorum partes nullam harum inter se rationem custodire possunt, a musica prorsus
         alienos esse necesse est: quod illis accidit propter numerum temporum septenarium, qui
-        nullas in partes diuidi potest, quae aliquam e tribus proportionem efficiant: nam cum <pb n="[256]"/>in duo aequa partiri nequeat, si proxima ei, quae in duo aequa fit, partitione
+        nullas in partes diuidi potest, quae aliquam e tribus proportionem efficiant: nam cum <pb
+          n="[256]"/>in duo aequa partiri nequeat, si proxima ei, quae in duo aequa fit, partitione
         diuidatur, sesquitertiam proportionem partes habebunt, vt quatuor ad tria, atque ita in
         diuisione primi numeri binarij reperietur aequa inter duas vnitates, et in ternarij dupla,
         et in quinarij secundi imparis sesquialtera, et in septenarij tertij sesquitertia. Ex quo
@@ -1074,13 +1092,13 @@
         quam omnia referre conatur. Veruntamen nos, qui non tam syllabis aut sonis pedes ac rhythmos
         quam temporum numero metimur, rem multo aliter <pb n="[258]"/>se habere censemus, atque octo
         temporum pedes triginta et quatuor dicimus inueniri.</p>
-      <p xml:id="SALMUS50066">De quatuor et triginta pedibus octo temporum, et cur omnes pedes sexaginta
-        quatuor et maximus pes octo temporum esse debeat. CAPVT XIII.</p>
-      <p xml:id="SALMUS50067">SVnt autem hi trigintaquatuor pedes, si per modum solutionis disponantur,
-        vnus ac primus ex quatuor sonis dichronis consistens, quem superius dispondaeum diximus
-        appellari, cuius exemplum erit in sonis [ClefC1,Sv,Sv,Sv,Sv on staff3] et in verbis, adsit
-        nobis. Quinque sonorum erunt decem, tribus dichronis et duobus monochronis constantes, ex
-        quibus quatuor fiunt per superioris singulorum dichronorum solutionem, duobus monochronis
+      <p xml:id="SALMUS50066">De quatuor et triginta pedibus octo temporum, et cur omnes pedes
+        sexaginta quatuor et maximus pes octo temporum esse debeat. CAPVT XIII.</p>
+      <p xml:id="SALMUS50067">SVnt autem hi trigintaquatuor pedes, si per modum solutionis
+        disponantur, vnus ac primus ex quatuor sonis dichronis consistens, quem superius dispondaeum
+        diximus appellari, cuius exemplum erit in sonis [ClefC1,Sv,Sv,Sv,Sv on staff3] et in verbis,
+        adsit nobis. Quinque sonorum erunt decem, tribus dichronis et duobus monochronis constantes,
+        ex quibus quatuor fiunt per superioris singulorum dichronorum solutionem, duobus monochronis
         absque vllius dichroni interpositione, per quatuor loca deductis, quod haec ostendent
         exempla [ClefC1,Svcd,Svcd,Sv,Sv,Sv on staff3] bene fac nobis: [ClefC1,Sv,Mv,Mv,Sv,Sv on
         staff3] fac bene nobis: [ClefC1,Sv,Sv,Mv,Mv,Sv on staff3] nobis bene fac:
@@ -1095,8 +1113,8 @@
         interpositionem, vt in priori monochroni sint primus et quartus, in posteriori secundus et
         quintus, hoc modo [ClefC1,Svcd,Sv,Sv,Mv,Sv on staff3] viri maximi, [ClefC1,Sv,Svcd,Sv,Sv,Mv
         on staff3] dulcis et pulchra.</p>
-      <p xml:id="SALMUS50069">Per interpositionem trium vnicus, vt, [ClefC1,Svcd,Sv,Sv,Sv,Mv on staff3]
-        comae flauentis.</p>
+      <p xml:id="SALMUS50069">Per interpositionem trium vnicus, vt, [ClefC1,Svcd,Sv,Sv,Sv,Mv on
+        staff3] comae flauentis.</p>
       <p xml:id="SALMUS50070">Sex autem sonorum quindecim, ex quibus sonis duo dichroni et quatuor
         monochroni, nam quinque fiunt duobus dichronis absque monochroni interpositione, a primo
         loco ad quintum vsque variatis, per hunc modum [ClefC1,Sv,Sv,Mv,Mv,Mv,Mv on staff3] altis
@@ -1104,16 +1122,17 @@
         [ClefC1,Svcd,Svcd,Sv,Sv,Mv,Mv on staff3] nitidis lancibus: [ClefC1,Svcd,Svcd,Svcd,Sv,Sv,Mv
         on staff3] fragilibus rebus: [ClefC1,Svcd,Svcd,Mv,Mv,Sv,Sv on staff3] capitibus altis.
         Quatuor per vnius monochroni locationem inter duos dichronos: [ClefC1,Sv,Svcd,Sv,Mv,Mv,Mv on
-        staff3] fortitudinibus: [ClefC1,Svcd,Sv,Svcd,Sv,Mv,Mv on staff3] benignitatibus: <pb n="[259]"/>[ClefC1,Svcd,Svcd,Sv,Mv,Sv,Mv on staff3] animis duabus:
+        staff3] fortitudinibus: [ClefC1,Svcd,Sv,Svcd,Sv,Mv,Mv on staff3] benignitatibus: <pb
+          n="[259]"/>[ClefC1,Svcd,Svcd,Sv,Mv,Sv,Mv on staff3] animis duabus:
         [ClefC1,Svcd,Svcd,Svcd,Sv,Mv,Sv on staff3] animulis suis. Tres per interpositionem duorum,
         vt [ClefC1,Sv,Svcd,Svcd,Sv,Mv,Mv on staff3] face bene dic bene:
         [ClefC1,Svcd,Sv,Svcd,Mv,Sv,Mv on staff3] suis animabus: [ClefC1,Svcd,Svcd,Sv,Mv,Mv,Sv on
         staff3] bene fac bene dic: Duo per interpositionem trium in hunc modum
         [ClefC1,Sv,Svcd,Svcd,Mv,Sv,Mv on staff3] sunt bona caduca: et [ClefC1,Svcd,Sv,Svcd,Mv,Mv,Sv
         on staff3] caduca bona sunt.</p>
-      <p xml:id="SALMUS50071">Vnus quatuor interpositis, vt [ClefC1,Sv,Svcd,Svcd,Mv,Mv,Sv on staff3] fac
-        bene bene dic. Septem sonorum fiunt septem ex vno dichrono et sex monochronis, dichrono a
-        primo ad vltimum per singulos variato: primus [ClefC1,Sv,Svcd,Svcd,Mv,Mv,Mv,Mv on staff3]
+      <p xml:id="SALMUS50071">Vnus quatuor interpositis, vt [ClefC1,Sv,Svcd,Svcd,Mv,Mv,Sv on staff3]
+        fac bene bene dic. Septem sonorum fiunt septem ex vno dichrono et sex monochronis, dichrono
+        a primo ad vltimum per singulos variato: primus [ClefC1,Sv,Svcd,Svcd,Mv,Mv,Mv,Mv on staff3]
         est animus hominis: secundus [ClefC1,Svcd,Sv,Svcd,Mv,Mv,Mv,Mv on staff3] amicus hominibus:
         tertius erit huiusmodi [ClefC1,Svcd,Svcd,Sv,Mv,Mv,Mv,Mv on staff3] homo sis hominibus:
         quartus [ClefC1,Svcd,Svcd,Svcd,Sv,Mv,Mv,Mv on staff3] animus est hominis: quintus
@@ -1122,15 +1141,15 @@
         [ClefC1,Svcd,Svcd,Svcd,Mv,Mv,Mv,Sv on staff3] animus hominis est. Vnus et vltimus octo
         sonorum, vt et temporum ex omnibus monochronis, vt [ClefC1,Svcd,Svcd,Svcd,Mv,Mv,Mv,Mv,Mv on
         staff3] animus hominis erit.</p>
-      <p xml:id="SALMUS50072">Qui omnes in summam redacti sunt triginta et quatuor: ex quibus vni primo
-        dispondaeo nomen inditum est; reliqui quoniam adhuc a nemine considerati sunt nominibus
-        carent. Quod si quis obijciat, hoc numeros esse potius quam pedes, nec solum numeros sed
-        metra etiam ac versus in illis inueniri, nos id non inficiamur, potest enim idem spatium
-        temporis diuersis rationibus, vt pes et numerus ac metrum considerari, cuius omne iudicium
-        ad plausum referri debebit: nam quidquid sub vnica plausus mensura comprehenditur, quod
-        spatium octo temporum longissimum esse dicimus, id omne pes appellatur; si vero plures in eo
-        manus sublationes et positiones fiant, id iam rhythmus ac metrum esse poterit. Quam ob rem
-        aut dispondaeus non vt pes considerandus est, aut hi triginta et tres pedes, qui a nobis
+      <p xml:id="SALMUS50072">Qui omnes in summam redacti sunt triginta et quatuor: ex quibus vni
+        primo dispondaeo nomen inditum est; reliqui quoniam adhuc a nemine considerati sunt
+        nominibus carent. Quod si quis obijciat, hoc numeros esse potius quam pedes, nec solum
+        numeros sed metra etiam ac versus in illis inueniri, nos id non inficiamur, potest enim idem
+        spatium temporis diuersis rationibus, vt pes et numerus ac metrum considerari, cuius omne
+        iudicium ad plausum referri debebit: nam quidquid sub vnica plausus mensura comprehenditur,
+        quod spatium octo temporum longissimum esse dicimus, id omne pes appellatur; si vero plures
+        in eo manus sublationes et positiones fiant, id iam rhythmus ac metrum esse poterit. Quam ob
+        rem aut dispondaeus non vt pes considerandus est, aut hi triginta et tres pedes, qui a nobis
         positi sunt, necessario debebunt considerari: qui si triginta superius positis annumerentur,
         erunt omnes ad musicam apti pedes quatuor et sexaginta, qui numerus praeter hoc quod ex
         vnitate per duplam progressionem, sexies aucta pruducitur, inuenitur esse primus cubicus et
@@ -1154,9 +1173,9 @@
         plausum duplam habet longitudinem, sic etiam senarius ad ternarium duplus est, qui quoniam
         non solum in partes duplam et simplam, sed in aequas etiam diuidi potest, arsis et thesis in
         eo vtramque proportionem aequam et duplam habere poterunt.</p>
-      <p xml:id="SALMUS50073">Quas proportiones arsis et thesis pedum sexaginta quatuor efficiant, et
-        quibus rationibus pedis minimi et maximi a binario ad octonarium quantitas constituta sit.
-        CAPVT XIIII.</p>
+      <p xml:id="SALMUS50073">Quas proportiones arsis et thesis pedum sexaginta quatuor efficiant,
+        et quibus rationibus pedis minimi et maximi a binario ad octonarium quantitas constituta
+        sit. CAPVT XIIII.</p>
       <p xml:id="SALMUS50074">HOrum ergo pedum partes pratim in aequa proportione consistunt, vt
         pyrrhichij, et quatuor quaternorum temporum et ex pedibus sex temporum, in quibus terna
         ternis possunt comparari, qui sunt choriambus, et antispastus, et dijambus, et ditrochaeus,
@@ -1247,24 +1266,24 @@
         praefixit, vt vera ac determinata de numerositatibus temporum doctrina posset haberi: atque
         ita minimum pedem non pauciorum, quam duorum temporum, nec maximum plurium quam octo, vt
         etiam octo sonos Diapason repraesentaret, esse constituit.</p>
-      <p xml:id="SALMUS50075">Quo nam pacto pedes inter se rite misceantur, et de grauissimorum autorum
-        dissensione circa pedis amphibrachi ad rhythmos musicos admissionem, aut ab illis
+      <p xml:id="SALMUS50075">Quo nam pacto pedes inter se rite misceantur, et de grauissimorum
+        autorum dissensione circa pedis amphibrachi ad rhythmos musicos admissionem, aut ab illis
         exclusionem. CAPVT XV.</p>
-      <p xml:id="SALMUS50076">HActenus a nobis dictum est, qui pedes et quot numero ad musici rhythmi
-        constitutionem apti sint: nunc autem dicendum est, qui pedes cum quibus rite misceantur, et
-        quid ex eorum legitima commistione proueniat. Nam quemadmodum non quaelibet litera cum
-        qualibet ad constituendam syllabam apte coniungitur, nec in Harmonica quodlibet cum quolibet
-        interuallum commode copulatur, vt in tertia huius operis parte demonstratum est; sic etiam
-        non quilibet pes cuilibet rite miscetur. Sed in eorum mistione seruanda est omnino, quoad
-        fieri possit, aequalitas: nam principio ijdem pedes cum eisdem optime copulantur, quoniam
-        inter eos summa reperitur aequalitas, et vt est in prouerbio, pares cum paribus facillime
-        congregantur. Quare pyrrhichio recte miscebitur pyrrhichius, et iambo iambus, atque idem in
-        caeteris optime fit. Deinde rite copulabuntur inter se pedes, qui licet idem non sint
-        propter sonorum imparitatem, aut aliam ob causam, erunt tamen temporibus pares et
-        percussione non dissimiles: quandoquidem, vt Diuus Augustinus ait, nihil auribus potest esse
-        iucundius, quam vt varietate demulceantur, et aequalitate non defraudentur. Quam ob rem
-        pyrrhichio nullus alius pes rite miscebitur, quia non est alius pes duorum temporum, qui cum
-        eo possit aequari; quod si in metris saepe cum alijs admistus inuenitur, id fit per
+      <p xml:id="SALMUS50076">HActenus a nobis dictum est, qui pedes et quot numero ad musici
+        rhythmi constitutionem apti sint: nunc autem dicendum est, qui pedes cum quibus rite
+        misceantur, et quid ex eorum legitima commistione proueniat. Nam quemadmodum non quaelibet
+        litera cum qualibet ad constituendam syllabam apte coniungitur, nec in Harmonica quodlibet
+        cum quolibet interuallum commode copulatur, vt in tertia huius operis parte demonstratum
+        est; sic etiam non quilibet pes cuilibet rite miscetur. Sed in eorum mistione seruanda est
+        omnino, quoad fieri possit, aequalitas: nam principio ijdem pedes cum eisdem optime
+        copulantur, quoniam inter eos summa reperitur aequalitas, et vt est in prouerbio, pares cum
+        paribus facillime congregantur. Quare pyrrhichio recte miscebitur pyrrhichius, et iambo
+        iambus, atque idem in caeteris optime fit. Deinde rite copulabuntur inter se pedes, qui
+        licet idem non sint propter sonorum imparitatem, aut aliam ob causam, erunt tamen temporibus
+        pares et percussione non dissimiles: quandoquidem, vt Diuus Augustinus ait, nihil auribus
+        potest esse iucundius, quam vt varietate demulceantur, et aequalitate non defraudentur. Quam
+        ob rem pyrrhichio nullus alius pes rite miscebitur, quia non est alius pes duorum temporum,
+        qui cum eo possit aequari; quod si in metris saepe cum alijs admistus inuenitur, id fit per
         silentiorum interpositionem, de cuius necessitate et conuenientia insequentibus habebitur
         sermo. Et iambo ac trochaeo tribrachus rite copulatur, quia trium est temporum, vt illi, et
         ex vtriusque resolutione fit. Iambus autem et trochaeus non rite miscentur, quia licet
@@ -1301,8 +1320,8 @@
       <p xml:id="SALMUS50081">vbi maechi, spondaeus, lia fa, est anapaestus pro altero spondaeo aut
         dactylo positus. Est autem, maechilia, simile illi, quod est apud Horatium</p>
       <p xml:id="SALMUS50082">Haedilia</p>
-      <p xml:id="SALMUS50083">vbi Horatius posuit, haedilia lupos, hoc est spondaeum et proceleusmaticum
-        pro duobus dactylis, quod semel fecit eo in versu,</p>
+      <p xml:id="SALMUS50083">vbi Horatius posuit, haedilia lupos, hoc est spondaeum et
+        proceleusmaticum pro duobus dactylis, quod semel fecit eo in versu,</p>
       <p xml:id="SALMUS50084">Nec martiales haedilia lupos,</p>
       <p xml:id="SALMUS50085">aequiualet enim sequenti,</p>
       <p xml:id="SALMUS50086">Vtcunque dulci Tyndari fistula</p>
@@ -1367,10 +1386,10 @@
         examinabimus, cum de senorum temporum pedibus inter se commiscendis tractauerimus: quoniam
         ex illorum quadam subtili consideratione dependet, interim quonam pacto pedes quinorum
         temporum inuicem misceantur, examinemus.</p>
-      <p xml:id="SALMUS50090">De legitima quinorum et senorum temporum collatione, et de ratione propter
-        quam amphibrachus ad musicam debet admitti. CAPVT XVI.</p>
-      <p xml:id="SALMUS50091">EX pedibus quinorum temporum rite videntur posse misceri bacchius et paeon
-        secundus, quoniam vterque incipit a breui et longa, et alter in longam, alter in duas
+      <p xml:id="SALMUS50090">De legitima quinorum et senorum temporum collatione, et de ratione
+        propter quam amphibrachus ad musicam debet admitti. CAPVT XVI.</p>
+      <p xml:id="SALMUS50091">EX pedibus quinorum temporum rite videntur posse misceri bacchius et
+        paeon secundus, quoniam vterque incipit a breui et longa, et alter in longam, alter in duas
         breues, quae illi aequiualent, desinit: quam ob rem eandem habent percussionem. Antibacchio
         seu palimbacchio optime sociari possunt paeon primus et tertius, quoniam ille incipit a
         duabus longis et desinit in breuem, et paeon primus incipit a longa et duabus breuibus, quae
@@ -1558,26 +1577,26 @@
       <p xml:id="SALMUS50100">Breues vicissim contrahi in longam valent:</p>
       <p xml:id="SALMUS50101">Quia solida findi magnitudo non vetat:</p>
       <p xml:id="SALMUS50102">Diuisa iungi rursus in vnum non quaeunt.</p>
-      <p xml:id="SALMUS50103">Ac si liceat longam pro duabus breuibus ponere (vt dicunt qui de metris ac
-        versibus poeticis scripserunt) ima non pes pro pede, sed syllaba vnica pro pede poneretur,
-        quae rationes quantum habeant in poetica momenti illis, qui ea de re ex professo tractant,
-        examinandum relinquimus; nos hic musicam, non poeticam profitemur: nec minus in ea, quam in
-        poetica syneresin et dieresin inuenimus, qua de re superius nonnihil dictum est et inferius
-        plura dicentur. Sed vt ordinem pedum a Diuo Augustino positum sequamur, post rhythmum
-        pyrrhichiacum agendum est de iambico, cui nullus alius pes rite copulatur in musica nisi
-        tribrachus, quia trium est temporum, vt ille, et eandem arsis et thesis habet proportionem,
-        et dignitate posterior est, quia quamuis temporibus sint pares, hic tribus, ille duobus
-        sonis constat, et binarius prior est ternario: quare non poterit illum regno suo pellere
-        cuius exemplum in rhythmo ad decem pedes vsque protracto ponemus, quod versus dici non
-        poterit, quando nullus iambicus plurium, quam octo pedum communiter inenitur, vnde quadrati
-        nomen maximus accepit; et erit huiusmodi in eodem sono
+      <p xml:id="SALMUS50103">Ac si liceat longam pro duabus breuibus ponere (vt dicunt qui de
+        metris ac versibus poeticis scripserunt) ima non pes pro pede, sed syllaba vnica pro pede
+        poneretur, quae rationes quantum habeant in poetica momenti illis, qui ea de re ex professo
+        tractant, examinandum relinquimus; nos hic musicam, non poeticam profitemur: nec minus in
+        ea, quam in poetica syneresin et dieresin inuenimus, qua de re superius nonnihil dictum est
+        et inferius plura dicentur. Sed vt ordinem pedum a Diuo Augustino positum sequamur, post
+        rhythmum pyrrhichiacum agendum est de iambico, cui nullus alius pes rite copulatur in musica
+        nisi tribrachus, quia trium est temporum, vt ille, et eandem arsis et thesis habet
+        proportionem, et dignitate posterior est, quia quamuis temporibus sint pares, hic tribus,
+        ille duobus sonis constat, et binarius prior est ternario: quare non poterit illum regno suo
+        pellere cuius exemplum in rhythmo ad decem pedes vsque protracto ponemus, quod versus dici
+        non poterit, quando nullus iambicus plurium, quam octo pedum communiter inenitur, vnde
+        quadrati nomen maximus accepit; et erit huiusmodi in eodem sono
         [ClefC2,Mv,Sv,2LP,Mv,Sv,2LP,Mv,Sv,2LP,Mv,Sv,2LP,Mv,Sv,2LP,Mv,Sv,2LP,Mv,Sv,2LP,Mv,Sv,2LP,Mv,Sv,2LP,Mv,Sv,2LP
         on staff3] in diuersis cum melo sic
         [ClefC2,Mv,Sv,Mv,Sv,Svcd,Sv,Svcd,Sv,Svcd,Sv,Mv,Sv,Mv,Sv,Mv,Sv,Mv,Sv,Mv,Sv on staff3] et in
         syllabis versus hic,</p>
       <p xml:id="SALMUS50104">Faselus ille quem videtis hospites,</p>
-      <p xml:id="SALMUS50105">rhythmus et non versus dici poterit, si praeponamus illi duos iambos, duos
-        item addamus quod ita fiet</p>
+      <p xml:id="SALMUS50105">rhythmus et non versus dici poterit, si praeponamus illi duos iambos,
+        duos item addamus quod ita fiet</p>
       <p xml:id="SALMUS50106">Adest celer faselus ille quem uidetis hospites Sabinus est,</p>
       <p xml:id="SALMUS50107">et posito cantui commode adaptabitur. Cum tribracho ineunitur apud
         Horatium in hoc versu</p>
@@ -1617,8 +1636,9 @@
         on staff3] Quo poterunt haec verba pangi;</p>
       <p xml:id="SALMUS50113">Fugite bona fragilia nec amet homo quod erit in homine leue fugibile
         fluidum.</p>
-      <p xml:id="SALMUS50114">In secundo plaudi poterit praeposito, re, tam in sonis, quam in verbis, ad
-        hunc modum. [ClefC2,Mv,Svcd,Svcd,2LP,Mv,Mv,Mv on staff3] et caetera: in verbis sic</p>
+      <p xml:id="SALMUS50114">In secundo plaudi poterit praeposito, re, tam in sonis, quam in
+        verbis, ad hunc modum. [ClefC2,Mv,Svcd,Svcd,2LP,Mv,Mv,Mv on staff3] et caetera: in verbis
+        sic</p>
       <p xml:id="SALMUS50115">Refugite bona et caetera</p>
       <p xml:id="SALMUS50116">In tertio hoc modo.
         [ClefC2,Mv,Svcd,Svcd,2LP,Svcd,Mv,Mv,2LP,Mv,Mv,Svcd,2LP,Mv,Mv,Mv on staff3] et caetera in
@@ -1628,50 +1648,52 @@
       <p xml:id="SALMUS50119">SEquuntur nunc ex ordine proposito rhythmi, qui constant ex pedibus
         quaternorum temporum, quorum primus procedit spondaeo pede, et spondaicus dicitur, cui recte
         copulari possunt reliqui quatuor temporum pedes: quia, licet sint illi temporibus pares,
-        sunt tamen dignitate et ordine posteriores: quam ob rem nec eum principatu pellere, nec <pb n="[271]"/>illi nomen auferre possunt, cuius exemplum in eodem sono tale esse potest
+        sunt tamen dignitate et ordine posteriores: quam ob rem nec eum principatu pellere, nec <pb
+          n="[271]"/>illi nomen auferre possunt, cuius exemplum in eodem sono tale esse potest
         [ClefC2,Sv,Sv,2LP,Sv,Sv,2LP,Sv,Sv,2LP,Sv,Sv,2LP,Sv,Sv,2LP,Sv,Sv,2LP,Sv,Sv,2LP,Sv,Sv,2LP on
         staff3] et in diuersis cum melo tale
         [ClefC2,Sv,Sv,2LP,Sv,Sv,2LP,Sv,Sv,2LP,Sv,Sv,2LP,Sv,Sv,2LP,Sv,Sv,2LP,Sv,Sv,2LP,Sv,Sv,2LP on
         staff3] quibus possunt hae dictiones adaptari,</p>
       <p xml:id="SALMUS50120">Solus liber vere ac non falso securam vitam viuit.</p>
-      <p xml:id="SALMUS50121">quod si aliquis metrum hoc esse contendat, quoniam illud Diuus Augustinus
-        inter metro connumerat, facile poterit additione plurium spondaeorum in longius quantum
-        volet efficere, vt omnino rhythmus et non metrum dici queat. Aduertendum etiam esse reor,
-        hunc rhythmum aliter cum anapaestus ei miscetur, quam cum dactylus, esse plaudendum; quoniam
-        anapaestus, et dactylus diuersimode plauduntur: hic in primo sono, ille in tertio, nisi dum
-        vterque simul cum spondaeo mistus reperitur, tunc enim vt dactylus plaudi debebit, tam
-        anapaestus, quam spondaeus; quia dignitate dactylus prior est anapaesto; vt in illo Maronis
-        versu,</p>
+      <p xml:id="SALMUS50121">quod si aliquis metrum hoc esse contendat, quoniam illud Diuus
+        Augustinus inter metro connumerat, facile poterit additione plurium spondaeorum in longius
+        quantum volet efficere, vt omnino rhythmus et non metrum dici queat. Aduertendum etiam esse
+        reor, hunc rhythmum aliter cum anapaestus ei miscetur, quam cum dactylus, esse plaudendum;
+        quoniam anapaestus, et dactylus diuersimode plauduntur: hic in primo sono, ille in tertio,
+        nisi dum vterque simul cum spondaeo mistus reperitur, tunc enim vt dactylus plaudi debebit,
+        tam anapaestus, quam spondaeus; quia dignitate dactylus prior est anapaesto; vt in illo
+        Maronis versu,</p>
       <p xml:id="SALMUS50122">Fluuiorum rex Eridanus camposque per omnes,</p>
-      <p xml:id="SALMUS50123">vbi fluuio, qui anapaestus est, in prima syllaba plaudi debet; quia pro
-        spondaeo, aut dactylo collocatur. Nec arbitror hic, rhythmi spondaici, cum alijs quaternorum
-        pedibus misti, exempla poni oportere; quandoquidem multis iam rationibus ostensum est, duos
-        sonos monochronos pro vno dichrono, vt duas syllabas breues pro vna longa, commode posse
-        collorcari. Sequitur dactylicus rhythmus cui rite miscentur amphibrachus, et
-        proceleusmaticus, vt cum de metris agemus, ex eorum exemplis manifestum fiet. Anapaestus
-        autem non videtur illi satis commode posse misceri; quoniam contrarij sunt percussione, vt
-        iambus et trochaeus, et in hoc maluimus iudicium sensus cum ratione coniunctum sequi, quam
-        Diui Augustini positionem tenere, qui nullam in eis contrarietatem esse dicit; quandoquidem
-        ille nos docuit, rationem omni homine meliorem esse, hoc est, cuiuslibet hominis autoritati
-        debere praeferri. Erit autem dactylicus rhythmus ex solis dactylis huiusmodi
+      <p xml:id="SALMUS50123">vbi fluuio, qui anapaestus est, in prima syllaba plaudi debet; quia
+        pro spondaeo, aut dactylo collocatur. Nec arbitror hic, rhythmi spondaici, cum alijs
+        quaternorum pedibus misti, exempla poni oportere; quandoquidem multis iam rationibus
+        ostensum est, duos sonos monochronos pro vno dichrono, vt duas syllabas breues pro vna
+        longa, commode posse collorcari. Sequitur dactylicus rhythmus cui rite miscentur
+        amphibrachus, et proceleusmaticus, vt cum de metris agemus, ex eorum exemplis manifestum
+        fiet. Anapaestus autem non videtur illi satis commode posse misceri; quoniam contrarij sunt
+        percussione, vt iambus et trochaeus, et in hoc maluimus iudicium sensus cum ratione
+        coniunctum sequi, quam Diui Augustini positionem tenere, qui nullam in eis contrarietatem
+        esse dicit; quandoquidem ille nos docuit, rationem omni homine meliorem esse, hoc est,
+        cuiuslibet hominis autoritati debere praeferri. Erit autem dactylicus rhythmus ex solis
+        dactylis huiusmodi
         [ClefC2,Sv,Mv,Mv,2LP,Sv,Mv,Mv,2LP,Sv,Mv,Mv,2LP,Sv,Mv,Mv,2LP,Sv,Mv,Mv,2LP,Sv,Mv,Mv,2LP,Sv,Mv,Mv,2LP,Sv,Mv,Mv,2LP
         on staff3] cum melo tale
         [ClefC2,Sv,Mv,Mv,Sv,Mv,Mv,Sv,Svcd,Svcd,Sv,Svcd,Svcd,Sv,Mv,Mv,Sv,Mv,Svcd,Sv,Svcd,Svcd,Sv,Svcd,Svcd
         on staff3] et cum verbis ex Marone hoc exemplum sumi potest, additis hexametro versui breui
         syllaba, et duobus dactylis, vt positis exemplis accommodari valeat,</p>
       <p xml:id="SALMUS50124">Stat sua cuique dies breue et irreparabile tempus, et irremeabile</p>
-      <p xml:id="SALMUS50125">Sequitur anapaestus rhythmus, dactylico prorsus percussione contrarius,
-        qui ex dactylo fit ablato primo sono in principio, et in finem transposito sic.
+      <p xml:id="SALMUS50125">Sequitur anapaestus rhythmus, dactylico prorsus percussione
+        contrarius, qui ex dactylo fit ablato primo sono in principio, et in finem transposito sic.
         [ClefC2,Mv,Mv,Sv,Mv,Mv,Sv,Svcd,Svcd,Sv,Svcd,Svcd,Sv,Mv,Mv,Sv,Mv,Svcd,Sv,Mv,Svcd,Sv,Svcd,Svcd,Sv
         on staff3] quod etiam in verbis sic fieri potest.</p>
       <p xml:id="SALMUS50126">Sua cuique dies breue et irreparabile tempus et irremeabile stat.</p>
       <p xml:id="SALMUS50127">quemadmodum ex iambico fit trochaicus ablata prima breui sic,</p>
       <p xml:id="SALMUS50128">Adest celer faselus ille</p>
       <p xml:id="SALMUS50129">Est celer faselus ille,</p>
-      <p xml:id="SALMUS50130">quod idem fit addita in principio longa, vt nunc adest celer faselus ille,
-        et ex anapaestico praeposita in principio longa rursus fiet dactylicus, facta semper, vt
-        supra dixi, in syllaba longa <pb n="[272]"/>percussione: ita vt in dactylico fiat in prima,
-        et in anapaestico in tertia. Est autem hic rhythmus anapaesticus multo frequentior in
+      <p xml:id="SALMUS50130">quod idem fit addita in principio longa, vt nunc adest celer faselus
+        ille, et ex anapaestico praeposita in principio longa rursus fiet dactylicus, facta semper,
+        vt supra dixi, in syllaba longa <pb n="[272]"/>percussione: ita vt in dactylico fiat in
+        prima, et in anapaestico in tertia. Est autem hic rhythmus anapaesticus multo frequentior in
         saltationibus, quam reliquorum pedum quaternorum temporum: praesertim apud Hispanos, qui
         grauiores saltandi modos fere semper ad hunc rhythmum instituunt, vt leuiores ad
         tribrachicum; quod in metrorum tractatione manifestius fiet. Ex amphibrachis continuatis fit
@@ -1680,8 +1702,8 @@
         amphibrachis decem cum melo erit huiusmodi
         [ClefC2,Mv,Sv,Mv,2LP,Mv,Sv,Mv,2LP,Mv,Sv,Mv,2LP,Mv,Sv,Mv,2LP,Mv,Sv,Svcd,2LP,Svcd,Sv,Svcd,2LP,Svcd,Sv,Mv,2LP,Mv,Sv,Mv,2LP,Mv,Sv,Mv,2LP,Mv,Sv,Mv
         on staff3] Cum his verbis.</p>
-      <p xml:id="SALMUS50131">Amore, timore, odioque carete, et iniqua fugabitis, atque videbitis optima
-        semper.</p>
+      <p xml:id="SALMUS50131">Amore, timore, odioque carete, et iniqua fugabitis, atque videbitis
+        optima semper.</p>
       <p xml:id="SALMUS50132">Fit autem ex anapaestico ablata prima breui a principio, et in fine
         adiecta, vt analogiae mirabilis ordo inter dactylum et anapaestum, et amphibrachum
         inueniatur, quandoquidem ex dactylico fit anapaesticus, et ex anapaestico amphibrachicus,
@@ -1748,23 +1770,24 @@
         melo tale, [ClefC3,Sv,Mv,Sv,2LP,Sv,Svcd,Sv,2LP,Sv,Mv,Sv,2LP,Sv,Mv,Sv on staff3] verba hoc
         pede currentia huiusmodi esse possunt,</p>
       <p xml:id="SALMUS50142">Iuppiter maximus rex Deum dictus est.</p>
-      <p xml:id="SALMUS50143">Quibus optime miscebuntur paeon primus et quartus, vt in his dictionibus
-        ostenditur cum eodem melo. [ClefC3,Sv,Mv,Svcd,Svcd,Sv,Svcd,Sv,Mv,Mv,Mv,Sv,Sv,Mv,Sv on
-        staff3]</p>
+      <p xml:id="SALMUS50143">Quibus optime miscebuntur paeon primus et quartus, vt in his
+        dictionibus ostenditur cum eodem melo.
+        [ClefC3,Sv,Mv,Svcd,Svcd,Sv,Svcd,Sv,Mv,Mv,Mv,Sv,Sv,Mv,Sv on staff3]</p>
       <p xml:id="SALMUS50144">Ambrosia ponitur patinulis aureis.</p>
       <p xml:id="SALMUS50145">In quibus primus pes primus etiam est paeon, tertius paeon quartus,
         secundus et quartus cretici. Potest etiam his misceri paeon tertius, si in prima
         percutiatur, ita incipiendo</p>
       <p xml:id="SALMUS50146">[ClefC3,Mv,Mv,Sv,Svcd,Sv,Svcd,Sv on staff3] moderata sumito.</p>
-      <p xml:id="SALMUS50147">Fit etiam rhythmus ex palimbachio continuato, cuius exemplum hoc inuenitur
-        apud Carisium</p>
+      <p xml:id="SALMUS50147">Fit etiam rhythmus ex palimbachio continuato, cuius exemplum hoc
+        inuenitur apud Carisium</p>
       <p xml:id="SALMUS50148">Bacchare laetare praesente Frontone,</p>
       <p xml:id="SALMUS50149">Et in sonis ex cantilena vulgari Hispanica tale sumi potest.
         [ClefC3,Sv,Sv,Mv,Sv,Sv,Svcd,Sv,Sv,Mv,Sv,Sv,Mv on staff3] habet autem (vt Diuus Augustinus
         ait) congruos et copulabiles paeones omnes, prater secundum, quia eius diuisio a duobus
         temporibus incipiens in tria desinit. Ego vero primum et tertium paeones illi congrue
         copulari facile crediderim: quoniam alter a longa incipit, vt ille, et duae breues, quae
-        sequuntur aequiualent illius longae secundae: alter incipit a duabus <pb n="[274]"/>breuibus, quae aequiualent illius primae longae, et tertia huius longa respondet illius
+        sequuntur aequiualent illius longae secundae: alter incipit a duabus <pb n="[274]"
+        />breuibus, quae aequiualent illius primae longae, et tertia huius longa respondet illius
         secundae, et tam ille, quam hi duo in breuem desinunt, quam ob rem in eodem tempore facta
         percussione, hoc est, in tertio, rite misceri possunt, quod in eisdem sonis percipi potest.
         [ClefC3,Sv,Svcd,Svcd,Svcd,Svcd,Svcd,Sv,Svcd,Mv,Mv,Sv,Mv,Sv,Sv,Mv on staff3] in quibus primus
@@ -1783,13 +1806,13 @@
       <p xml:id="SALMUS50153">in sonis [ClefC2,Sv,Svcd,Sv,Sv,Svcd,Sv,Sv,Mv,Sv,Sv,Mv,Sv on staff3]
         bacchij nunc palimbacchij,</p>
       <p xml:id="SALMUS50154">Pater maximus rex Deum dictus est hic, in sonis sic.</p>
-      <p xml:id="SALMUS50155">[ClefC2,Svcd,Sv,Sv,Svcd,Sv,Sv,Mv,Sv,Sv,Mv,Sv,Sv on staff3] Est etiam in
-        hoc ordine collocationis illud consideratione dignum, quod primus incipit a duabus longis,
-        hoc est, a quatuor temporibus, secundus a longa, hoc est, a duobus, tertius a breui, id est,
-        ab vno, in quo Geometrica proportionalitas mirifice reperitur: quae analogiae ratio cum
-        exacto sensu iudicio consentiens non omnino aspernanda, se prorsus amplectenda est. Videtur
-        autem ratio cantus exigere, vt primus in secunda, secundus in prima, tertius in tertia
-        syllaba percuti debeant, nec incongruum est musicae disciplinae, tertium nunc in
+      <p xml:id="SALMUS50155">[ClefC2,Svcd,Sv,Sv,Svcd,Sv,Sv,Mv,Sv,Sv,Mv,Sv,Sv on staff3] Est etiam
+        in hoc ordine collocationis illud consideratione dignum, quod primus incipit a duabus
+        longis, hoc est, a quatuor temporibus, secundus a longa, hoc est, a duobus, tertius a breui,
+        id est, ab vno, in quo Geometrica proportionalitas mirifice reperitur: quae analogiae ratio
+        cum exacto sensu iudicio consentiens non omnino aspernanda, se prorsus amplectenda est.
+        Videtur autem ratio cantus exigere, vt primus in secunda, secundus in prima, tertius in
+        tertia syllaba percuti debeant, nec incongruum est musicae disciplinae, tertium nunc in
         secunda,nunc in tertia syllaba plaudi, nam in secunda plausus tria ponet et duo leuabit
         tempora, in tertia vero tria leuabit, et duo ponet, et in vtralibet harum diuisionum
         sesquialtera proportio custoditur. Reliquum est, vt dicamus de quatuor Rhythmis, qui fiunt
@@ -1815,40 +1838,40 @@
         [ClefC2,Svcd,Svcd,Svcd,Sv,Svcd,Svcd,Sv,Svcd,Mv,Svcd,Svcd,sv,Svcd,Svcd,Sv,Mv on staff3] et in
         verbis sic</p>
       <p xml:id="SALMUS50156">Facilitas moderata fuit et est mihi grata:</p>
-      <p xml:id="SALMUS50157">quae si cum cantu repetantur absque silentio, aures mirifice demulcebunt,
-        quanquam hunc cantum Ioannes Motonius ad terna tempora plaudit in ea cantione, quae incipit,
-        Gaude Barbara, producta vltima syllaba in vtroque paeone tertio vsque ad tria tempora.
-        Vltimus Rhythmus pedum quinorum temporum erit, qui fit ex orthijs continuatis, in quo nullus
-        alius pes iure misceri potest, quoniam omnes, qui sunt temporibus pares, sunt eius dignitate
-        et ordine priores, et si cum eis commiscerentur, Rhythmo, qui ex ipsis fit, principatum ac
-        nomen auferrent. ipse autem omnibus alijs potest admisceri, quia cum sit vltimus ordine et
-        dignitate, nullum regno suo pellere poterit: nec huius Rhythmi exemplum necesse est
-        apponere, ex exemplis enim aliorum omnium sumi potest quolibet sono dichrono in duos
-        monochronos resoluto.</p>
+      <p xml:id="SALMUS50157">quae si cum cantu repetantur absque silentio, aures mirifice
+        demulcebunt, quanquam hunc cantum Ioannes Motonius ad terna tempora plaudit in ea cantione,
+        quae incipit, Gaude Barbara, producta vltima syllaba in vtroque paeone tertio vsque ad tria
+        tempora. Vltimus Rhythmus pedum quinorum temporum erit, qui fit ex orthijs continuatis, in
+        quo nullus alius pes iure misceri potest, quoniam omnes, qui sunt temporibus pares, sunt
+        eius dignitate et ordine priores, et si cum eis commiscerentur, Rhythmo, qui ex ipsis fit,
+        principatum ac nomen auferrent. ipse autem omnibus alijs potest admisceri, quia cum sit
+        vltimus ordine et dignitate, nullum regno suo pellere poterit: nec huius Rhythmi exemplum
+        necesse est apponere, ex exemplis enim aliorum omnium sumi potest quolibet sono dichrono in
+        duos monochronos resoluto.</p>
       <p xml:id="SALMUS50158">De Rhythmis, qui fiunt ex pedibus senorum et octonorum temporum. CAPVT
         XXI.</p>
-      <p xml:id="SALMUS50159">RHythmorum, qui oriuntur ex pedibus senorum temporum primus est, qui fit
-        ex molosso continuato, cui (vt Diuo Augustino placet) omnes posteriores coniungi possunt,
-        partim propter simpli duplique rationem, partim propter illam, quam plausus nobis ostendit
-        partitionem longae syllabae, quae singula tempora parti vtrique concedit. quam ob causam et
-        molossus et ambo ionici non solum in simplum et duplum, sed etiam in aequas partes per terna
-        tempora diuiduntur. Hinc efficitur, vt deinceps omnibus sex temporum pedibus, omnes totidem
-        temporum posteriores copulari queant: quorum omnium pedum vnius post alterum collocatorum
-        exemplum supra capite decimosexto positum est. Sed vt de singulis aliquid in medium
-        afferamus, primum dicimus molossicum Rhythmum frequentissime fabris ferrarijs in vsu esse:
-        nec mirum cuipiam videri debet, quod fabros ferrarios Rhythmis vti dicamus, ita enim Rhythmi
-        omnibus vitae communis actionibus naturaliter insiti sunt, atque adeo ab ipsa natura omnes
-        ad numeros propensi sumus, vt non fari, non ingredi, non vesci, nihil denique sine illis
-        decenter fieri posse credatur. quod in loquutione non solum populares conciones ostendunt,
-        quae nisi numerosae sint nihil aut parum mouent, nec vlla delectatione audientium animos
-        afficiunt, quin potius eruditorum aures vehementer offendunt, sed etiam in familiari sermone
-        saepe concinni numeri deprehenduntur. Cum decoro item ambulare Graeci [euruthmos badizein],
-        hoc est, numerose progredi, dicunt: et statuas ipsas hilaritatem quandam prae se ferentes
-        [andriantas euruthmous] appellant. Et qui pedes inaequaliter, aut alioqui inepte mouent,
-        casum minari videntur. In mandendis item cibis si quando non debita plausu mensura seruatur,
-        saepe inter se mandibulae colliduntur, quare minime mirandum est, apud fabros ferrarios
-        rhythmos inueniri, quandoquidem apud eos principio Harmonicae consonatiae inuentae fuisse
-        dicuntur, hoc etiam Maro videtur ostendisse, cum de fabris Vulcani loquens ait,</p>
+      <p xml:id="SALMUS50159">RHythmorum, qui oriuntur ex pedibus senorum temporum primus est, qui
+        fit ex molosso continuato, cui (vt Diuo Augustino placet) omnes posteriores coniungi
+        possunt, partim propter simpli duplique rationem, partim propter illam, quam plausus nobis
+        ostendit partitionem longae syllabae, quae singula tempora parti vtrique concedit. quam ob
+        causam et molossus et ambo ionici non solum in simplum et duplum, sed etiam in aequas partes
+        per terna tempora diuiduntur. Hinc efficitur, vt deinceps omnibus sex temporum pedibus,
+        omnes totidem temporum posteriores copulari queant: quorum omnium pedum vnius post alterum
+        collocatorum exemplum supra capite decimosexto positum est. Sed vt de singulis aliquid in
+        medium afferamus, primum dicimus molossicum Rhythmum frequentissime fabris ferrarijs in vsu
+        esse: nec mirum cuipiam videri debet, quod fabros ferrarios Rhythmis vti dicamus, ita enim
+        Rhythmi omnibus vitae communis actionibus naturaliter insiti sunt, atque adeo ab ipsa natura
+        omnes ad numeros propensi sumus, vt non fari, non ingredi, non vesci, nihil denique sine
+        illis decenter fieri posse credatur. quod in loquutione non solum populares conciones
+        ostendunt, quae nisi numerosae sint nihil aut parum mouent, nec vlla delectatione audientium
+        animos afficiunt, quin potius eruditorum aures vehementer offendunt, sed etiam in familiari
+        sermone saepe concinni numeri deprehenduntur. Cum decoro item ambulare Graeci [euruthmos
+        badizein], hoc est, numerose progredi, dicunt: et statuas ipsas hilaritatem quandam prae se
+        ferentes [andriantas euruthmous] appellant. Et qui pedes inaequaliter, aut alioqui inepte
+        mouent, casum minari videntur. In mandendis item cibis si quando non debita plausu mensura
+        seruatur, saepe inter se mandibulae colliduntur, quare minime mirandum est, apud fabros
+        ferrarios rhythmos inueniri, quandoquidem apud eos principio Harmonicae consonatiae inuentae
+        fuisse dicuntur, hoc etiam Maro videtur ostendisse, cum de fabris Vulcani loquens ait,</p>
       <p xml:id="SALMUS50160">Illi intersese multa vi brachia tollunt In numerum, versantque tenaci
         forcipe massam;</p>
       <p xml:id="SALMUS50161">qui numerus absque dubio molossicus erat, tres enim erant, qui brachia
@@ -1867,11 +1890,11 @@
       <p xml:id="SALMUS50165">si praeponamus primo pedi duas syllabas longas, et in duas breues
         desinamus hoc modo;</p>
       <p xml:id="SALMUS50166">O quam miserarum est neque amori dare ludum neque.</p>
-      <p xml:id="SALMUS50167">Quanquam metra, quae oriuntur ex hoc Rhythmo, plaerumque terminantur in
-        duarum longarum semipedem, a quibus hic pes incipit, vt concinniori fine claudantur, quod in
-        metris ostendemus. Hunc Rhythmum sequuntur tres alij, choriambicus, et qui fit ex ionico a
-        minori, et antispasticus, eodem analogicae rationis artificio, quo creticus eum, qui fit ex
-        palimbacchio; et bacchiacus creticum sequuntur, illo, quem supra posuimus, ordine, mutato
+      <p xml:id="SALMUS50167">Quanquam metra, quae oriuntur ex hoc Rhythmo, plaerumque terminantur
+        in duarum longarum semipedem, a quibus hic pes incipit, vt concinniori fine claudantur, quod
+        in metris ostendemus. Hunc Rhythmum sequuntur tres alij, choriambicus, et qui fit ex ionico
+        a minori, et antispasticus, eodem analogicae rationis artificio, quo creticus eum, qui fit
+        ex palimbacchio; et bacchiacus creticum sequuntur, illo, quem supra posuimus, ordine, mutato
         aliquantulum eo, quem Diuus Augustinus secutus est, subracto videlicet in principio primo
         sono et addito in fine; choriambicus,</p>
       <p xml:id="SALMUS50168">[ClefC3,rob,Sv,Svcd,Svcd,Sv,Sv,Svcd,Svcd,Sv,Sv,Mv,Mv,Sv,Sv,Mv,Mv,Sv on
@@ -1880,36 +1903,36 @@
       <p xml:id="SALMUS50170">[ClefC2,Mv,Mv,Sv,Sv,Mv,Mv,Sv,Sv,Mv,Mv,Sv,Sv,Mv,Mv,Sv,Sv on staff3]
         Miserarum est neque amori dare ludum neque dulci.</p>
       <p xml:id="SALMUS50171">Antispasticus erit huiusmodi.</p>
-      <p xml:id="SALMUS50172">[ClefC2,Mv,Sv,Sv,Mv,Mv,Sv,Sv,Mv,Mv,Sv,Sv,Mv,Mv,Sv,Sv,Mv on staff3] Malarum
-        est neque amori dare ludum neque dulci ma.</p>
+      <p xml:id="SALMUS50172">[ClefC2,Mv,Sv,Sv,Mv,Mv,Sv,Sv,Mv,Mv,Sv,Sv,Mv,Mv,Sv,Sv,Mv on staff3]
+        Malarum est neque amori dare ludum neque dulci ma.</p>
       <p xml:id="SALMUS50173">Quo si procedamus ordine, rursus redibit Rhythmus ex ionico a maiori,
         vt</p>
       <p xml:id="SALMUS50174">Rarum est neque amori dare</p>
-      <p xml:id="SALMUS50175">Et post eum circulatim reliqui sequentur. Restant duo quatuor sonorum, qui
-        fiunt alter ex altero, primo et vltimo ex sonis aut syllabis permutatis, quemadmodum
+      <p xml:id="SALMUS50175">Et post eum circulatim reliqui sequentur. Restant duo quatuor sonorum,
+        qui fiunt alter ex altero, primo et vltimo ex sonis aut syllabis permutatis, quemadmodum
         trochaicum ex iambico, et iambicum ex trochaico supra fieri docuimus: quoniam ex illis
         duplicatis constant, nam prior fit ex dijambis hunc in modum continuatis.</p>
       <p xml:id="SALMUS50176">[ClefC2,Mv,Sv,Mv,Sv,Svcd,Sv,Svcd,Sv,Svcd,Sv,Svcd,Sv,Svcd,Sv,Mv,Sv on
         staff3] Beatus ille qui procul negotijs remotus est.</p>
-      <p xml:id="SALMUS50177">Et qui fit ex ditrochaeis, est huic percussione contrarius, vt trochaeus
-        iambo, quod ostendunt hi soni</p>
+      <p xml:id="SALMUS50177">Et qui fit ex ditrochaeis, est huic percussione contrarius, vt
+        trochaeus iambo, quod ostendunt hi soni</p>
       <p xml:id="SALMUS50178">[ClefC2,Sv,Mv,Sv,Svcd,Sv,Svcd,Sv,Svcd,Sv,Svcd,Sv,Svcd,Sv,Mv,Sv,Mv on
         staff3] A Deo creata cuncta, quae videntur hoc in orbe</p>
-      <p xml:id="SALMUS50179">Post hos sese offerunt rhythmi, qui fiunt ex quinque pedibus sex temporum
-        et quinque sonorum, ex quibus vnus dichronus, reliqui monochroni, et in his eodem ordine,
-        quo in quatuor paeonibus, proceditur: quorum vniuscuiusque exemplum binorum pedum apponemus,
-        primi <pb n="[277]"/>[ClefC2,Sv,Svcd,Mv,Mv,Mv,Sv,Svcd,Mv,Mv,Mv on staff3] constituere,
-        constituere. Secundi [ClefC2,Mv,Sv,Svcd,Mv,Mv,Mv,Sv,Svcd,Mv,Mv on staff3] adulteria,
-        adulteria. Tertij sic [ClefC2,Mv,Mv,Sv,Svcd,Mv,Mv,Mv,Sv,Svcd,Mv on staff3] adhibebimus
-        adhibebimus. Quarti [ClefC2,Mv,Mv,Mv,Sv,Svcd,Mv,Mv,Mv,Sv,Svcd on staff3] similitudo
-        similitudo. Quinti [ClefC2,Svcd,Mv,Mv,Mv,Sv,Svcd,Mv,Mv,Mv,Sv on staff3] adhibuerint
-        adhibuerint. Reliquus et vltimus Rhythmus est, qui procedit pedibus sex temporum et totidem
-        sonorum, cui nullus alius pes sex temporum misceri potest, qui non tollat ei nomen et
-        principatum: quoniam nomnes pedes sex temporum sunt ordine et dignitate priores, cum sonis
-        in paucioribus constituti sint. hic vero pes omnibus iure miscetur per dichronorum sonorum
-        resolutionem, neque ab his nomen aut regnum auferre potest, cuius exemplum etiam binorum
-        pedum erit huiusmodi [ClefC2,Svcd,Svcd,Svcd,Mv,Mv,Svcd,Svcd,Svcd,Svcd,Mv,Svcd,Svcd on
-        staff3] adhibueritis adhibueritis. Ex pedibus septenorum temporum, quos epitritos vocant,
+      <p xml:id="SALMUS50179">Post hos sese offerunt rhythmi, qui fiunt ex quinque pedibus sex
+        temporum et quinque sonorum, ex quibus vnus dichronus, reliqui monochroni, et in his eodem
+        ordine, quo in quatuor paeonibus, proceditur: quorum vniuscuiusque exemplum binorum pedum
+        apponemus, primi <pb n="[277]"/>[ClefC2,Sv,Svcd,Mv,Mv,Mv,Sv,Svcd,Mv,Mv,Mv on staff3]
+        constituere, constituere. Secundi [ClefC2,Mv,Sv,Svcd,Mv,Mv,Mv,Sv,Svcd,Mv,Mv on staff3]
+        adulteria, adulteria. Tertij sic [ClefC2,Mv,Mv,Sv,Svcd,Mv,Mv,Mv,Sv,Svcd,Mv on staff3]
+        adhibebimus adhibebimus. Quarti [ClefC2,Mv,Mv,Mv,Sv,Svcd,Mv,Mv,Mv,Sv,Svcd on staff3]
+        similitudo similitudo. Quinti [ClefC2,Svcd,Mv,Mv,Mv,Sv,Svcd,Mv,Mv,Mv,Sv on staff3]
+        adhibuerint adhibuerint. Reliquus et vltimus Rhythmus est, qui procedit pedibus sex temporum
+        et totidem sonorum, cui nullus alius pes sex temporum misceri potest, qui non tollat ei
+        nomen et principatum: quoniam nomnes pedes sex temporum sunt ordine et dignitate priores,
+        cum sonis in paucioribus constituti sint. hic vero pes omnibus iure miscetur per dichronorum
+        sonorum resolutionem, neque ab his nomen aut regnum auferre potest, cuius exemplum etiam
+        binorum pedum erit huiusmodi [ClefC2,Svcd,Svcd,Svcd,Mv,Mv,Svcd,Svcd,Svcd,Svcd,Mv,Svcd,Svcd
+        on staff3] adhibueritis adhibueritis. Ex pedibus septenorum temporum, quos epitritos vocant,
         nullus Rhythmus potest inueniri: quoniam omnes ad Rhythmum ineptos esse, multis rationibus
         superius demonstratum est: atque etiam quia plausus per eos progredienti minime concinna
         percussione continuari potest. Ex dispondaeo autem octo temporum pede continuato non solum
@@ -1926,10 +1949,10 @@
         Rhythmi, singuli ex singulis eodem modo atque ordine seruato, quem in pedibus quinorum et
         senorum temporum seruandum esse praecepimus, vt, scilicet, nunc ijdem pedes, nunc diuersi
         continuentur, et Rhythmi a pedibus dignitate prioribus denominabuntur.</p>
-      <p xml:id="SALMUS50182">De quibusdam, quae circa Rhythmum Diuus Augustinus considerat, et quibus
-        ea rationibus confirmat. CAPVT XXII.</p>
-      <p xml:id="SALMUS50183">VIdetur autem his, quae dicta sunt, Diuus Augustinus aduersari: quaerit
-        enim vtrum aliqua dimensio pedis, quamuis octo tempora non excedat, quae dispondaeus
+      <p xml:id="SALMUS50182">De quibusdam, quae circa Rhythmum Diuus Augustinus considerat, et
+        quibus ea rationibus confirmat. CAPVT XXII.</p>
+      <p xml:id="SALMUS50183">VIdetur autem his, quae dicta sunt, Diuus Augustinus aduersari:
+        quaerit enim vtrum aliqua dimensio pedis, quamuis octo tempora non excedat, quae dispondaeus
         obtinet, excedere tamen possit numerum syllabarum: quandoquidem sine vlla fraude et
         offensione aurium, siue quod ad plausum, siue ad diuisionem pedum, siue quod ad spatium
         temporis pertinet, pro vna longa syllaba, duas posse poni breues dictum est. Vnde pro iambo
@@ -1981,7 +2004,8 @@
         debere nuncupari, sed vlterius progressum esse neminem et illos, quibus hoc placuit,
         negasse, ad rhythmum aut metrum per se gignendum oportere, tam longos pedes adhiberi. Quam
         ob rem nec nomina quidem his indidisse, quo circa verissimum esse illum progressionis modum,
-        qui ad quatuor syllabas vsque progreditur: quandoquidem qui sextam in syllabam vsque <pb n="[279]"/>sunt progressi, nomen tantum pedum in illos transferri ausi sunt: ad
+        qui ad quatuor syllabas vsque progreditur: quandoquidem qui sextam in syllabam vsque <pb
+          n="[279]"/>sunt progressi, nomen tantum pedum in illos transferri ausi sunt: ad
         principatum vero, qui est in rhythmus et metris nequaquam eos aspirare permiserunt, sed cum
         pro longis breues duplicantur, etiam ad septimam atque octauam (vt iam ostendit ratio)
         syllabam peruenitur: ad quem numerum nemo tetendit pedem. Ex quibus tandem concludit,
@@ -1990,9 +2014,9 @@
         est.</p>
       <p xml:id="SALMUS50184">Quonam pacto Diui Augustini rationibus responderi sufficienter posse
         videatur. CAPVT XXIII.</p>
-      <p xml:id="SALMUS50185">HAEC atque alia circa pedes ac rhythmos Diui Augustini tertio suae Musicae
-        libro considerat: quae nobis huc transferre non ab re visum est, vt quanta fuerit in illo
-        viro sanctissimo ingenij perspicacitas in argumentis inueniendis, et rationibus
+      <p xml:id="SALMUS50185">HAEC atque alia circa pedes ac rhythmos Diui Augustini tertio suae
+        Musicae libro considerat: quae nobis huc transferre non ab re visum est, vt quanta fuerit in
+        illo viro sanctissimo ingenij perspicacitas in argumentis inueniendis, et rationibus
         excogitandis, quibus id quod opinabatur astrueret, ingeniosis omnibus innotesceret, et
         quanquam potius admiratione, quam examinatione digna mihi videantur, non ingenij ostentandi,
         sed veritatis inueniendae gratia, paucissimis dicam quid sentiam. Et ante omnia ingenue
@@ -2032,19 +2056,20 @@
         <pb n="[280]"/>Quid sit in causa, cur apud veteres Rhythmorum a metris separatorum exempla
         non reperiantur, et de vulgaribus cantilenis, Rhythmi ne an meta etiam esse censeantur.
         CAPVT XXIIII.</p>
-      <p xml:id="SALMUS50187">FVisse autem apud veteres in vsu Rhythmos istos, qui verborum contextum et
-        connexionem pedum, vt versus ac metra postularent, neque tamen aut versus, aut metra essent,
-        aut oratio soluta, non solum Diuus Augustinus ostendit docens, quos pedes reciperent, quos
-        non reciperent, sed Grammaticorum etiam adstipulatio declarat, qui etiam quo modo fierent,
-        quadam tenus indicarunt. Terentianus certe Grammaticus eruditus, cum de hexametro heroico
-        loqueretur, et in eo frequentem inueniri dactylum ostenderet, ita inquit:</p>
+      <p xml:id="SALMUS50187">FVisse autem apud veteres in vsu Rhythmos istos, qui verborum
+        contextum et connexionem pedum, vt versus ac metra postularent, neque tamen aut versus, aut
+        metra essent, aut oratio soluta, non solum Diuus Augustinus ostendit docens, quos pedes
+        reciperent, quos non reciperent, sed Grammaticorum etiam adstipulatio declarat, qui etiam
+        quo modo fierent, quadam tenus indicarunt. Terentianus certe Grammaticus eruditus, cum de
+        hexametro heroico loqueretur, et in eo frequentem inueniri dactylum ostenderet, ita
+        inquit:</p>
       <p xml:id="SALMUS50188">Hoc sat erit monuisse, locis quod quinque frequenter</p>
       <p xml:id="SALMUS50189">Iugem videmus inueniri dactylum:</p>
       <p xml:id="SALMUS50190">Sed non et sextum pes hic sibi vendicat vnquam,</p>
       <p xml:id="SALMUS50191">Nisi quando Rhythmum non metrum componimus.</p>
-      <p xml:id="SALMUS50192">Quibus ex verbis liquet, Rhythmum dactylicum ita componi solitum, vt sexto
-        etiam loco dactylus poneretur, quem nos superius octo dactylis constantem exempli gratia
-        posuimus. Martianus quoque Capella quatuor rhythmorum genera ponit, aequale, duplum,
+      <p xml:id="SALMUS50192">Quibus ex verbis liquet, Rhythmum dactylicum ita componi solitum, vt
+        sexto etiam loco dactylus poneretur, quem nos superius octo dactylis constantem exempli
+        gratia posuimus. Martianus quoque Capella quatuor rhythmorum genera ponit, aequale, duplum,
         sesquiplex, et epitriton, et quanquam breuiter et obscure, tamen quomodo fieri solerent,
         ostendit. Quintilianus libro nono rephrehensum dicit a quibusdam Marcum Tullium, cum dixit
         hoc totum constare numeris, et Demosthenis fulmina numeris contorta ferri, quod orationem ad
@@ -2088,16 +2113,16 @@
       <p xml:id="SALMUS50201">Rerum creator omnium,</p>
       <p xml:id="SALMUS50202">Qui eras ante secula,</p>
       <p xml:id="SALMUS50203">Semper cum patre filius.</p>
-      <p xml:id="SALMUS50204">Item ad formam metri trochaici, rhythmum, qui canitur de die in diem per
-        alphabetum.</p>
+      <p xml:id="SALMUS50204">Item ad formam metri trochaici, rhythmum, qui canitur de die in diem
+        per alphabetum.</p>
       <p xml:id="SALMUS50205">Apparebit repentina</p>
       <p xml:id="SALMUS50206">Dies magna Domini</p>
       <p xml:id="SALMUS50207">In obscura velut nocte</p>
       <p xml:id="SALMUS50208">Improuisos occupans,</p>
       <p xml:id="SALMUS50209">In tremendo die iudicij.</p>
-      <p xml:id="SALMUS50210">Sed haec cacometra potius esse dicenda, quam rhythmos nemo paulo eruditior
-        non intelliget. Quidam etiam ex recentioribus vir alioqui non parum eruditus, sed in
-        oratorio magis quam in musico numero exercitatus, in primo libro eorum, quos de oratorio
+      <p xml:id="SALMUS50210">Sed haec cacometra potius esse dicenda, quam rhythmos nemo paulo
+        eruditior non intelliget. Quidam etiam ex recentioribus vir alioqui non parum eruditus, sed
+        in oratorio magis quam in musico numero exercitatus, in primo libro eorum, quos de oratorio
         numero conscripsit, haec ait; e pedibus autem connexis nascuntur rhythmi, quorum alij e
         paribus membris, similiter vel desinentibus, vel cadentibus constant: neque in ijs quantae,
         se quot sint syllabae, obseruatur. Horum alij senas, alij septenas, alij octonas, alij etiam
@@ -2150,16 +2175,16 @@
         omnis vis eius in hoc sita est, vt cuilibet proposito numero debita tempora reddantur. Verum
         de his, cum de metris agemus, diffusior habebitur sermo: nunc reliqua, quae ad rhythmi
         musici considerationem attinent, paucis, vt promisimus, absoluamus.</p>
-      <p xml:id="SALMUS50233">Quod in modulationibus, quae in musicis fiunt instrumentis, et in cantu
-        plurium vocum maxime vim suam rhythmus ostendit. CAPVT XXV.</p>
-      <p xml:id="SALMUS50234">SEd quoniam hos hic de musico potius, quam de poetico rhythmo tractationem
-        instituimus, qui latissime patet, et in omni idiomate idem esse dignoscitur, primum illum in
-        sonis considerandum esse dicimus, qui non humanae voluntatis arbitrio, vt verba ipsa, sed
-        suapte natura idem apud omnes significant. Deinde verba in canticis, quae ex sonis varie tam
-        acumine et grauitate, quam longitudine et breuitate permistis conficiuntur, considerari
-        debere censemus: praesertim quae numeris aut rhythmis adstricta sunt, <pb n="[283]"/>in
-        quibus canticorum ipsorum tanquam imagines quaedam inesse cernuntur, quare nullum
-        accommodatius exemplum rhythmi sine metro percipiendi potui afferri, quam illud, quod
+      <p xml:id="SALMUS50233">Quod in modulationibus, quae in musicis fiunt instrumentis, et in
+        cantu plurium vocum maxime vim suam rhythmus ostendit. CAPVT XXV.</p>
+      <p xml:id="SALMUS50234">SEd quoniam hos hic de musico potius, quam de poetico rhythmo
+        tractationem instituimus, qui latissime patet, et in omni idiomate idem esse dignoscitur,
+        primum illum in sonis considerandum esse dicimus, qui non humanae voluntatis arbitrio, vt
+        verba ipsa, sed suapte natura idem apud omnes significant. Deinde verba in canticis, quae ex
+        sonis varie tam acumine et grauitate, quam longitudine et breuitate permistis conficiuntur,
+        considerari debere censemus: praesertim quae numeris aut rhythmis adstricta sunt, <pb
+          n="[283]"/>in quibus canticorum ipsorum tanquam imagines quaedam inesse cernuntur, quare
+        nullum accommodatius exemplum rhythmi sine metro percipiendi potui afferri, quam illud, quod
         attulit Diuus Augustinus de tympanis, cum sine tibijs audiuntur, et nos ad exemplum rhythmi
         a metro separati euidenter ostendendum, non minus aptas arbitramur esse modulationes, quae
         in Organis, aut alijs musicis instrumentis absque verbis fieri solent: quando nullum in
@@ -2208,31 +2233,31 @@
       <p xml:id="SALMUS50238">
         <pb n="[284]"/>Nec non Treicius longa cum veste sacerdos</p>
       <p xml:id="SALMUS50239">Obloquitur numeris septem discrimina vocum.</p>
-      <p xml:id="SALMUS50240">Per vocum discrimina melos, et per numeros rhythmos significare volens.
-        Quam etiam differentiam in hac dictione, modus, Horatius expressit, qui singularitatis
-        numero de vniuersis, ait, a natura ordine constitutis, est modus in rebus, cum autem ad
-        testudinem suam loquitur sic inquit;</p>
+      <p xml:id="SALMUS50240">Per vocum discrimina melos, et per numeros rhythmos significare
+        volens. Quam etiam differentiam in hac dictione, modus, Horatius expressit, qui
+        singularitatis numero de vniuersis, ait, a natura ordine constitutis, est modus in rebus,
+        cum autem ad testudinem suam loquitur sic inquit;</p>
       <p xml:id="SALMUS50241">Tuque testudo resonare septem</p>
       <p xml:id="SALMUS50242">Callida neruis;</p>
       <p xml:id="SALMUS50243">Nec loquax olim, neque grata, nunc et</p>
       <p xml:id="SALMUS50244">Diuitum mensis et amica templis</p>
       <p xml:id="SALMUS50245">Dic modos Lyde, quibus obstinatas</p>
       <p xml:id="SALMUS50246">Applicet aures.</p>
-      <p xml:id="SALMUS50247">Cantum hunc figuratum Hispani Organicum vocant, qui ex diuersis hominibus,
-        velut vnum Organorum instrumentum conficitur, ijs, qui vocibus grauioribus praediti sunt,
-        cannarum magnarum; qui vero medijs mediarum; et qui acutissimis minimarum vocibus
-        attributis, in quo non aliter se gessisse mihi videntur, qui cantum Organorum aut citharae,
-        quem vnus exercere principio solitus erat, ita vt a pluribus cantari posset, instituerunt,
-        quam tragici et comici, qui fabulas aut historias, quas vnus carmine aut oratione soluta
-        prius recensebat, in actus deduxerunt: vt a pluribus agendo narratae non audirentur modo,
-        verum etiam spectarentur. Scio autem dubitari vehementer etiamnum hac aetate inter eximie
-        doctos viros, fuerintne apud veteres huiusmodi cantus plurium vocum, cum apud nullum autorem
-        veterem quidquam huius cantus videant inueniri, vnde quibusdam non videtur quatuor pluriumve
-        vocum concentus olim in vsu fuisse, et hoc etiam adijciunt, quodsi ad citharam canebat
-        citharoedus, vnam quidem vocem vnus cantabat: sin multi, et illi vnam cantabant, aut cantus
-        amibaeus erat, vt alternatim canerent: quod apud antiquos frequentissimo in vsu fuisse, et
-        Aristoteles in problematis ostendit, et nunc etiam vulgares homines alternis canere solent,
-        iuxta illud Maronis:</p>
+      <p xml:id="SALMUS50247">Cantum hunc figuratum Hispani Organicum vocant, qui ex diuersis
+        hominibus, velut vnum Organorum instrumentum conficitur, ijs, qui vocibus grauioribus
+        praediti sunt, cannarum magnarum; qui vero medijs mediarum; et qui acutissimis minimarum
+        vocibus attributis, in quo non aliter se gessisse mihi videntur, qui cantum Organorum aut
+        citharae, quem vnus exercere principio solitus erat, ita vt a pluribus cantari posset,
+        instituerunt, quam tragici et comici, qui fabulas aut historias, quas vnus carmine aut
+        oratione soluta prius recensebat, in actus deduxerunt: vt a pluribus agendo narratae non
+        audirentur modo, verum etiam spectarentur. Scio autem dubitari vehementer etiamnum hac
+        aetate inter eximie doctos viros, fuerintne apud veteres huiusmodi cantus plurium vocum, cum
+        apud nullum autorem veterem quidquam huius cantus videant inueniri, vnde quibusdam non
+        videtur quatuor pluriumve vocum concentus olim in vsu fuisse, et hoc etiam adijciunt, quodsi
+        ad citharam canebat citharoedus, vnam quidem vocem vnus cantabat: sin multi, et illi vnam
+        cantabant, aut cantus amibaeus erat, vt alternatim canerent: quod apud antiquos
+        frequentissimo in vsu fuisse, et Aristoteles in problematis ostendit, et nunc etiam vulgares
+        homines alternis canere solent, iuxta illud Maronis:</p>
       <p xml:id="SALMUS50248">Alternis dicetis: amant alterna camoenae.</p>
       <p xml:id="SALMUS50249">Sed multo rectius visum est alijs plurium vtique vocum aliquem apud
         veteres vsum fuisse; quorsum enim alioqui attinebat, tot de consonantijs praecepta scriptis
@@ -2251,7 +2276,8 @@
         reperitur, neque enim cantus vnius vocis, quem semper in vsu fuisse negare non possumus, quo
         veteres vtebantur, vestigium vllum apparet. Nec quia vnus ad citharam caneret, aut multi
         vnam atque eandem vocem personarent, ideo vocis vnius cantu et non plurium veteres vti
-        solitos esse censendum est. Quod etiam nunc fit, illum nanque cantum plurium esse vocum <pb n="[285]"/>et non vnius tantum palam est omnibus, qui musica in re suam possunt sententiam
+        solitos esse censendum est. Quod etiam nunc fit, illum nanque cantum plurium esse vocum <pb
+          n="[285]"/>et non vnius tantum palam est omnibus, qui musica in re suam possunt sententiam
         interponere: quoniam in eo cithara tres quatuorve voces vni citharoedi subministrat, vt quod
         quatuor quinqueve per partes singulatim libris conspectis concinere soliti erant, vnus, cui
         liquidam pater vocem cum cithara dedit, memoriter instrumento adiutus artificiali cantare

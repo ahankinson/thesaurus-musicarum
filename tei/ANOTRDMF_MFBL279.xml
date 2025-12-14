@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>[Tractatulus de musica]</title>
         <title type="abbrev">ANOTRDMF_MFBL279</title>
-        <author>Anonymous</author>
-        <date notBefore="1200" notAfter="1299">13th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>T</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Transcriber</resp>
           <persName>Michael W. Lundell</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1999</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1999">1999</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Florence, Biblioteca Medicea Laurenziana, MS Plut. XXVII dex. 9, ff.
           143v–145r. </bibl>
@@ -42,10 +52,10 @@
         semitonii. In talibus quippe uocum dictanciis specialiter quatuor corde continue cum in
         quolibet genere psallere placuit. fuerant temperate. Sed cromaticum genus. quia eius
         mollicies multos effeminauit ab antiquioribus est dampnatum.</p>
-      <p xml:id="ANOTRDMF_MFBL2790003">Enarmonium uero propter eius difficultatem et hominum desidiam
-        Iam dudum ab aula recessit. Vixque diatonicum in usu remansit. Hoc autem diatonicum genus.
-        sicut et duo reliqua genera in quinque melodiis siue consonanciis tota consistit. que sunt
-        diatessaron [.I. supra lin.]. diapente [.II. supra lin.]. diapason [.III. supra lin.].
+      <p xml:id="ANOTRDMF_MFBL2790003">Enarmonium uero propter eius difficultatem et hominum
+        desidiam Iam dudum ab aula recessit. Vixque diatonicum in usu remansit. Hoc autem diatonicum
+        genus. sicut et duo reliqua genera in quinque melodiis siue consonanciis tota consistit. que
+        sunt diatessaron [.I. supra lin.]. diapente [.II. supra lin.]. diapason [.III. supra lin.].
         Diapason [.IIII. supra lin.] cum diapente. bisorapason [.V. supra lin.]. Diatessaron autem
         omnium minima symphoniarum in sexquitercia proporcione consistit. sed a tessara quod est
         quatuor nomen accepit. eo quod quelibet corda in cythara ad quamlibet a se quartam
@@ -80,23 +90,24 @@
         ternarius ad unum proporcione triplici colligatur. Sicut ergo ex duplo et sexqualtero
         proporcio tripla colligitur. Ita ex diapason et diapente superaddita illa que ex utriusque
         nomine conficitur scilicet diapason. cum diapente consonancia resultabit.</p>
-      <p xml:id="ANOTRDMF_MFBL2790004">Maxima denique symphonia est que bisdiapason sic dicta quia ex
-        duobus diapason conficitur. in quadrupla proporcione consistere per subiectos numeros facile
-        comprobatur. ecce .I.II.IIII. quoniam medius ad primum et tercius ad ipsum medium duplus
-        existit duo diapason continua procreabunt. Sicut ergo ultimus id est quaternarius ad primam
-        unitatem qua quadruplus comparatur. Ita bisdiapason in proporcione quadrupla continetur. et
-        sicut super diapente addita diatessaron diapason efficit. Et rursus ex addita diapente super
-        diapason. diapason cum diapente. noua consonancia est producta. ita possunt infinite alie
-        symphonie per addicionem diapente et diapason super alias consimiliter procreari. Sed
-        quoniam non alia. sed omnino eadem ipsarum fieret generacio nulla quoque corda uel uox in
-        infinitum poterit tendi in dictis quinque symphoniis artis institucio finem fecit.</p>
-      <p xml:id="ANOTRDMF_MFBL2790005">Nunc quemadmodum dicte consonancie sint reperte nisi forte longum
-        sit ad maiorem ipsarum explanacionem non ab re est enarrare. primo igitur apud Grecos diuino
-        nutu studiosus Pytagoras per officinas transiens fabrorum exaudit ex diuersis sonis quatuor
-        malleorum quandam suauissimam [consonanciam add. in marg.] personare. Vnde attonitus. et
-        diuersitatem sonorum uires efficere feriencium arbitratus malleos inperat permutare.
-        nihilominus tamen sonorum proprietas non ferientes sed mutatos malleos imitatas. quod ille
-        auertens pondus examinat malleorum quorum pondera subiectis numeris exempli gracia
+      <p xml:id="ANOTRDMF_MFBL2790004">Maxima denique symphonia est que bisdiapason sic dicta quia
+        ex duobus diapason conficitur. in quadrupla proporcione consistere per subiectos numeros
+        facile comprobatur. ecce .I.II.IIII. quoniam medius ad primum et tercius ad ipsum medium
+        duplus existit duo diapason continua procreabunt. Sicut ergo ultimus id est quaternarius ad
+        primam unitatem qua quadruplus comparatur. Ita bisdiapason in proporcione quadrupla
+        continetur. et sicut super diapente addita diatessaron diapason efficit. Et rursus ex addita
+        diapente super diapason. diapason cum diapente. noua consonancia est producta. ita possunt
+        infinite alie symphonie per addicionem diapente et diapason super alias consimiliter
+        procreari. Sed quoniam non alia. sed omnino eadem ipsarum fieret generacio nulla quoque
+        corda uel uox in infinitum poterit tendi in dictis quinque symphoniis artis institucio finem
+        fecit.</p>
+      <p xml:id="ANOTRDMF_MFBL2790005">Nunc quemadmodum dicte consonancie sint reperte nisi forte
+        longum sit ad maiorem ipsarum explanacionem non ab re est enarrare. primo igitur apud Grecos
+        diuino nutu studiosus Pytagoras per officinas transiens fabrorum exaudit ex diuersis sonis
+        quatuor malleorum quandam suauissimam [consonanciam add. in marg.] personare. Vnde
+        attonitus. et diuersitatem sonorum uires efficere feriencium arbitratus malleos inperat
+        permutare. nihilominus tamen sonorum proprietas non ferientes sed mutatos malleos imitatas.
+        quod ille auertens pondus examinat malleorum quorum pondera subiectis numeris exempli gracia
         proponuntur .VI.VIII.IX.XII. Et ecce malleus octo ad malleum sex ponderum. et similiter
         duodecim ad nouem utrumque sexquitercii diatessaron resonabant nouem uero ad sex sicut et
         duodenarius ad octonarium est sexqualter et hii utrumque diapente consonancia iungebantur
@@ -116,25 +127,25 @@
         componencia probantur habere. Nouissime uero bisdiapason uocum quidem quindecim tot quot duo
         diapason tonos ac semitonos habens ex proporcione quadrupla procreatur. quibus nihil amplius
         in musica in musica reperitur.</p>
-      <p xml:id="ANOTRDMF_MFBL2790006">Nunc ad huius doctrine consummacionem est breuiter explicandum.
-        qualiter post beatum Gregorium. et uenerabilem Odonem abbatem. Vt creditur nouissimus in suo
-        Micronogo id est breui sermone de musica institucionem musice que in cantu discernitur Guido
-        monachus ex superiore musica mutuarit. In hac quidem musica cantus que in diatonico genere
-        naturaliter consistit fuerant olim quatuor psallendi modi solum. Sicut primitus est cythara
-        ut refert Nichomacus tantum corde quatuor exstiterunt ut quatuor numeris ad quatuor
-        elementorum similitudinem musica tota constaret. et illud usque ad Orpheum perdurauit.
-        Dictos uero quatuor canendi <pb n="[f.144v]"/>modos iam in noua significacione toni. ab
-        scilicet intonando tonos quatuor appellarunt qui usque ad tempus nostrum grecis nominibus
-        nuncupantur. Videlicet prothus deuterus. tritus. tetrardus. quod latine sonat primus
-        secundus tercius. quartus. Sed quia in unoquoque dictorum modorum nunc alte. nunc demisse
-        uarie psallebatur. posteriores in duos tonos modum quemlibet diuiserunt ipsum qui alte
-        resonabat autentum id est maiorem et qui demisse canebat eius dixere plagalem id est
-        collateralem. siue minorem. Et facti sunt quatuor toni auctenti et quatuor plagales. hiis
-        nominibus secundum ordinem nuncupati. prothus autentus et plaga prothi. Deuterus auctentus
-        et plaga [deuteri tritus autentus et plaga. add. in marg.] triti. Tetrardus autentus et
-        plaga tetrardi.</p>
-      <p xml:id="ANOTRDMF_MFBL2790007">Abusio autem ut ait Guido tradidit latinis pro autento protho et
-        plaga prothi dicere primus et secundus. et pro autento deutero et plaga deuteri. tercius
+      <p xml:id="ANOTRDMF_MFBL2790006">Nunc ad huius doctrine consummacionem est breuiter
+        explicandum. qualiter post beatum Gregorium. et uenerabilem Odonem abbatem. Vt creditur
+        nouissimus in suo Micronogo id est breui sermone de musica institucionem musice que in cantu
+        discernitur Guido monachus ex superiore musica mutuarit. In hac quidem musica cantus que in
+        diatonico genere naturaliter consistit fuerant olim quatuor psallendi modi solum. Sicut
+        primitus est cythara ut refert Nichomacus tantum corde quatuor exstiterunt ut quatuor
+        numeris ad quatuor elementorum similitudinem musica tota constaret. et illud usque ad
+        Orpheum perdurauit. Dictos uero quatuor canendi <pb n="[f.144v]"/>modos iam in noua
+        significacione toni. ab scilicet intonando tonos quatuor appellarunt qui usque ad tempus
+        nostrum grecis nominibus nuncupantur. Videlicet prothus deuterus. tritus. tetrardus. quod
+        latine sonat primus secundus tercius. quartus. Sed quia in unoquoque dictorum modorum nunc
+        alte. nunc demisse uarie psallebatur. posteriores in duos tonos modum quemlibet diuiserunt
+        ipsum qui alte resonabat autentum id est maiorem et qui demisse canebat eius dixere plagalem
+        id est collateralem. siue minorem. Et facti sunt quatuor toni auctenti et quatuor plagales.
+        hiis nominibus secundum ordinem nuncupati. prothus autentus et plaga prothi. Deuterus
+        auctentus et plaga [deuteri tritus autentus et plaga. add. in marg.] triti. Tetrardus
+        autentus et plaga tetrardi.</p>
+      <p xml:id="ANOTRDMF_MFBL2790007">Abusio autem ut ait Guido tradidit latinis pro autento protho
+        et plaga prothi dicere primus et secundus. et pro autento deutero et plaga deuteri. tercius
         atque quartus. pro autento trito. et plaga triti. quintus et sextus. pro autento tetrardo et
         plaga tetrardi. septimus et octauus. et quoniam omnia a fine tanquam ab optimo nominantur.
         et isti toni a fine suo merito dinoscuntur. Sunt autem illis omnibus quatuor tantummodo
@@ -147,34 +158,35 @@
         generalis quod omnes autenti a fine suo ascendunt diapason id est regulariter octo uoces. et
         quandoque eciam ad nonam uel decimam. de illius auctoritatis licencia exaltantur. In
         psalterio decem cordarum psallite illi. Vt patet in antiphona Alma redemptoris mater.</p>
-      <p xml:id="ANOTRDMF_MFBL2790008">Deponunt quoque autenti tonum. et id est sub suo fine uoce unica
-        remittuntur. Vnde fit ut omnes autenti infra nouem uoces in ascensu et descensu quasi infra
-        nouem ordines commorentur. sed due uoces ut dictum est quandoque de licencia superuadunt.
-        Plage uero omnes a fine suo diapente deponunt. et per diapente ascendunt id est quinque
-        uocibus remittuntur. et quinque uocibus intenduntur. Ita fit ut eciam plagales ascendendo et
-        eciam descendendo infra nouem uoces sicut autenti regulariter coartentur. Assumunt tamen
-        super has quandoque sicut autenti de licencia uoces duas et usque ad sextam uocem a fine suo
-        uel septimam aliquociens intenduntur. Quicumque igitur cantus desinit in .d. graui prothus.
-        uel plaga prothi proculdubio iudicetur. prothis quidem autentus erit si a fine suo diapason
-        ascendat uel ad minus ad sextam uocem multumque in alto quasi cursor fortissimus commoretur.
-        et numquam sub fine suo plusquam una uoce aliquatenus remittatur. Sed plagam prothi non
-        dubium ipsum esse si desinens in .d. graui diapente solummodo intendatur. uel unam uel forte
-        quod raro fit duas uoces de licencia ulterius coassumat. et sub eodem fine suo diatessaron.
-        uel diapente descendat. nec in altis sed pocius in ymis frequenter uocibus quasi grauior
-        commoretur. Si uero in .e. graui cantus aliquis terminetur. deuterus autentus erit. uel
-        utique plaga eius. et qualis ipse fuerit, ex intensione uel remissione cantus lucide
-        cognoscetur. Quoniam omnes autenti a fine suo ut dictum est, per diapason regulariter
-        intenduntur. et numquam sub fine plus uoce unica remittuntur. et hoc in omnibus autentis
-        firmiter teneatur. plage uero quasi grauiores et multum ascendere inpotentes in ymis uocibus
-        conuersantur. et descendunt a fine suo et eciam ascendunt regulariter diapente. Rursus si in
-        .f. graui cancio aliqua finiatur tritus autentus uel plaga triti continuo habeatur. sed eius
-        a fine ualidus ac frequens ascensus et grauis ac tristis a fine descensus qualis fuerit
-        demonstrabit. Denique cum in .f. graui cancio finem facit, erit tetrardus autentus. uel
-        plaga tetrardi. Sed cuiusmodi et ipse fuerit ipsius ascensio leta uel merens sub fine
-        descensio concito declarabit. exempla autem dictorum octo tonorum in antiphonis nocturnorum
-        dominicalium secundum ordinem incipiendo a primo poterunt inueniri. Quarum prima antiphona.
-        Pro fidei meritis inchoatur. eadem quoque exempla secundum ordinem in Beati Thome hystorie
-        antiphonis. et eiusdem responsoriis suauius connectantur.</p>
+      <p xml:id="ANOTRDMF_MFBL2790008">Deponunt quoque autenti tonum. et id est sub suo fine uoce
+        unica remittuntur. Vnde fit ut omnes autenti infra nouem uoces in ascensu et descensu quasi
+        infra nouem ordines commorentur. sed due uoces ut dictum est quandoque de licencia
+        superuadunt. Plage uero omnes a fine suo diapente deponunt. et per diapente ascendunt id est
+        quinque uocibus remittuntur. et quinque uocibus intenduntur. Ita fit ut eciam plagales
+        ascendendo et eciam descendendo infra nouem uoces sicut autenti regulariter coartentur.
+        Assumunt tamen super has quandoque sicut autenti de licencia uoces duas et usque ad sextam
+        uocem a fine suo uel septimam aliquociens intenduntur. Quicumque igitur cantus desinit in
+        .d. graui prothus. uel plaga prothi proculdubio iudicetur. prothis quidem autentus erit si a
+        fine suo diapason ascendat uel ad minus ad sextam uocem multumque in alto quasi cursor
+        fortissimus commoretur. et numquam sub fine suo plusquam una uoce aliquatenus remittatur.
+        Sed plagam prothi non dubium ipsum esse si desinens in .d. graui diapente solummodo
+        intendatur. uel unam uel forte quod raro fit duas uoces de licencia ulterius coassumat. et
+        sub eodem fine suo diatessaron. uel diapente descendat. nec in altis sed pocius in ymis
+        frequenter uocibus quasi grauior commoretur. Si uero in .e. graui cantus aliquis terminetur.
+        deuterus autentus erit. uel utique plaga eius. et qualis ipse fuerit, ex intensione uel
+        remissione cantus lucide cognoscetur. Quoniam omnes autenti a fine suo ut dictum est, per
+        diapason regulariter intenduntur. et numquam sub fine plus uoce unica remittuntur. et hoc in
+        omnibus autentis firmiter teneatur. plage uero quasi grauiores et multum ascendere
+        inpotentes in ymis uocibus conuersantur. et descendunt a fine suo et eciam ascendunt
+        regulariter diapente. Rursus si in .f. graui cancio aliqua finiatur tritus autentus uel
+        plaga triti continuo habeatur. sed eius a fine ualidus ac frequens ascensus et grauis ac
+        tristis a fine descensus qualis fuerit demonstrabit. Denique cum in .f. graui cancio finem
+        facit, erit tetrardus autentus. uel plaga tetrardi. Sed cuiusmodi et ipse fuerit ipsius
+        ascensio leta uel merens sub fine descensio concito declarabit. exempla autem dictorum octo
+        tonorum in antiphonis nocturnorum dominicalium secundum ordinem incipiendo a primo poterunt
+        inueniri. Quarum prima antiphona. Pro fidei meritis inchoatur. eadem quoque exempla secundum
+        ordinem in Beati Thome hystorie antiphonis. et eiusdem responsoriis suauius
+        connectantur.</p>
       <p xml:id="ANOTRDMF_MFBL2790009">De uocum coniunccionibus</p>
       <p xml:id="ANOTRDMF_MFBL2790010">QVoniam autem dum canitur uox sequens proxime precedenti
         diuersimode copulatur. sciendum est sex tantum coniuncciones uocum existere naturales.
@@ -184,17 +196,17 @@
         acuendo uel remittendo deprimendo uocem uariemus ad proximam uel terciam. uel quartam siue
         quintam et non ultra commode transilimus. Et de <pb n="[f.145r]"/>simplici Guidonis musica
         sufficiant supradicta.</p>
-      <p xml:id="ANOTRDMF_MFBL2790011">Iam nunc dyaphone id est discantus seu organi precepta breuiter
-        exequamur. Est autem dyaphonia cum plures uoces disiuncte et concorditer dissonant. et
-        dissonanter concordant. nulla autem uox uoci iuxta poterit concordare nisi in consonanciis
-        superius memoratis. Et quia nimis acuta uox arterias simul et aures ledit. plures eciam
-        homines uocem multum exaltare sunt inpotentes. tres prime et inferiores aliis symphonis
-        scilicet dyatessaron. [dyatesseron ante corr.] diapente ac diapason. sunt nielo et organo
-        apciores. Ditonus eciam [et add. in marg.] semiditonus a quibusdam cantoribus acceptantur.
-        [quid add. in marg.] apud quos suauem dissonanciam reddere iudicantur. aliis uero modis uox
-        uoci nullatenus concordabit. nisi quantum interdum cantor in inferioribus longas
-        distincciones facit. Superior discurrentibus sub celeritate uocibus prestolanti in aliqua
-        dictarum consonanciarum occurrit. uel forte ad eandem uocem quam tenet inferior
+      <p xml:id="ANOTRDMF_MFBL2790011">Iam nunc dyaphone id est discantus seu organi precepta
+        breuiter exequamur. Est autem dyaphonia cum plures uoces disiuncte et concorditer dissonant.
+        et dissonanter concordant. nulla autem uox uoci iuxta poterit concordare nisi in
+        consonanciis superius memoratis. Et quia nimis acuta uox arterias simul et aures ledit.
+        plures eciam homines uocem multum exaltare sunt inpotentes. tres prime et inferiores aliis
+        symphonis scilicet dyatessaron. [dyatesseron ante corr.] diapente ac diapason. sunt nielo et
+        organo apciores. Ditonus eciam [et add. in marg.] semiditonus a quibusdam cantoribus
+        acceptantur. [quid add. in marg.] apud quos suauem dissonanciam reddere iudicantur. aliis
+        uero modis uox uoci nullatenus concordabit. nisi quantum interdum cantor in inferioribus
+        longas distincciones facit. Superior discurrentibus sub celeritate uocibus prestolanti in
+        aliqua dictarum consonanciarum occurrit. uel forte ad eandem uocem quam tenet inferior
         condescendit. Et nota quod in cantu qui communiter organum appellatur quatuor modos canendi
         concernimus usitatos. Videlicet unum quem discanticum proprie nuncupamus. quo utimur in
         Kyrie eleyson. ymnis. et aliis ecclesie concentibus modulantes.</p>

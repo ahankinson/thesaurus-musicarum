@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Opusculum musice</title>
         <title type="abbrev">FELOP</title>
-        <author>Sebastianus de Felstin</author>
-        <date notBefore="1500" notAfter="1599">16th</date>
+        <author><persName>Sebastianus de Felstin</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Sergei Lebedev</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Olga Lebedeva</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1996</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1996">1996</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Opusculum musice compilatum nouiter per dominum Sebastianum presbiterum de Felstin.
@@ -84,31 +94,31 @@
         versatur in instrumento vt in Organo, Cithara, Choro, Sistro, Luthina de duabus musicis
         nihil ponam, verum de humana presens erit nostra tractatio. Et talis musica humana est
         duplex scilicet speculatiua et practica.</p>
-      <p xml:id="FELOP0024">Speculatiua est, quae in solis numerorum speciebus consistit vt est musica
-        magistri Ioannis de Muris in qua proportiones musicales per malleorum pondera a Pitagora
-        reperte describuntur.</p>
+      <p xml:id="FELOP0024">Speculatiua est, quae in solis numerorum speciebus consistit vt est
+        musica magistri Ioannis de Muris in qua proportiones musicales per malleorum pondera a
+        Pitagora reperte describuntur.</p>
       <p xml:id="FELOP0025">Practica est <pb n="[f.Aijv]"/>Quae duntaxat de sono datur et diffinitur
         sic. Musica est bene vel vere modulandi scientia et de tali musica hic docebitur Musica
         igitur practica est duplex scilicet Simplex et Mensuralis.</p>
-      <p xml:id="FELOP0026">Simplex musica est, quae omnes notas simpliciter considerat scilicet vna et
-        eadem mensura vt est cantus Graegorianus. Mensuralis vero musica considerat aliam notam
+      <p xml:id="FELOP0026">Simplex musica est, quae omnes notas simpliciter considerat scilicet vna
+        et eadem mensura vt est cantus Graegorianus. Mensuralis vero musica considerat aliam notam
         longam vt [Lv] aliam breuem vt [Bv] aliam semibrem vt o. Et de tali non docebitur hic. Ad
         simplicem musicam requiritur. Primo vox, secundo vocum distantia vel saltus, vt est per
         terciam, per quintam et octauam. Diuiditur autem simplex musica in tria capitula. Primum
         capitulum erit de manu musicali, et de modis musicalibus. Secundum capitulum de facili et
         vera arte solmisationis. Tercium capitulum erit de cognitione tonorum et scala ficta quam
         veteres coniunctas nominant.</p>
-      <p xml:id="FELOP0027">Ad cognitionem autem Scale vel manus musicalis necnon modorum musicalium.
-        Primo requiruntur sex voces scilicet vt, re, mi, fa, sol, la. Quarum aliae sunt voces
-        naturales re et sol, quia naturaliter ascendunt et descendunt et tam ascendendo quam
+      <p xml:id="FELOP0027">Ad cognitionem autem Scale vel manus musicalis necnon modorum
+        musicalium. Primo requiruntur sex voces scilicet vt, re, mi, fa, sol, la. Quarum aliae sunt
+        voces naturales re et sol, quia naturaliter ascendunt et descendunt et tam ascendendo quam
         descendendo tonum efficiunt hoc est secundam virilem. Tonus autem vt hic sumitur, non
         accipitur hic pro intonatione psalmorum. Sed dicitur hic tonus a tono, as.are quod sonare
         fortiter significat. Aliae sunt bmolles scilicet vt et fa, quia ascendunt viriliter et
         descendunt molliter. Aliae voces sunt [sqb] durales, scilicet mi et la, quia viriliter
         descendunt et molliter ascendunt Ex qua vocum distinctione triplex cantus elicitur scilicet
         [sqb] duralis naturalis et bmollis, vt patet in praesenti figura.</p>
-      <p xml:id="FELOP0028">[Felstin, Opusculum, f.Aijv; text: [sqb] durales, bmolles, naturales, Vt,
-        Re, Mi, Fa, Sol, La] <figure>
+      <p xml:id="FELOP0028">[Felstin, Opusculum, f.Aijv; text: [sqb] durales, bmolles, naturales,
+        Vt, Re, Mi, Fa, Sol, La] <figure>
           <graphic url="/images/FELOP_02GF.gif"/>
         </figure></p>
       <p xml:id="FELOP0029">Sequitur Scala</p>
@@ -129,41 +139,42 @@
         supra eela extra manum quartam ascendunt ponentes mi in eela et ascendunt mi fa sol la, et
         secundum eorum positionem erunt viginti octo claues.</p>
       <p xml:id="FELOP0033">Capitulum primum de Modis.</p>
-      <p xml:id="FELOP0034">MOdus in proposito est certa melodia et debita vocum distantia. Et dicitur
-        modus a modificatione siue a mensura. Quia omnis ascensus vel descensus debita mensura
-        continetur.</p>
-      <p xml:id="FELOP0035">Sunt autem nouem modi quibus omnis melodia componitur scilicet Semitonium
-        Tonus, Semidytonus, Dytonus, Diatesseron, Diapente, Semitonium, cum diapente, tonus cum
-        diapente et diapason. Vnisonus proprie loquendo non est modus, quia nihil mensurat vel
-        modificat. Est tamen vnisonus principium modorum.</p>
-      <p xml:id="FELOP0036">Semitonium. Est ascensus vel descensus per secundam molliter, et fit tantum
-        per vocem bmollem et [sqb] duralem, vt est distantia inter mi et fa, vel inter la et fa.</p>
-      <p xml:id="FELOP0037">Tonus. Est ascensus vel descensus per secundam viriliter sonans vt est omnis
-        secunda praeter mi et fa, vel la et fa.</p>
-      <p xml:id="FELOP0038">Semiditonus constituitur ex tono et semitonio, vt est de re ad fa vel de mi
-        ad sol.</p>
-      <p xml:id="FELOP0039">Dytonus constituitur ex duobus tonis, sicut est, de vt ad mi, vel de fa ad
-        la. Diatesseron constituitur ex duobus tonis et vno semitonio. Et dicitur primus modus
+      <p xml:id="FELOP0034">MOdus in proposito est certa melodia et debita vocum distantia. Et
+        dicitur modus a modificatione siue a mensura. Quia omnis ascensus vel descensus debita
+        mensura continetur.</p>
+      <p xml:id="FELOP0035">Sunt autem nouem modi quibus omnis melodia componitur scilicet
+        Semitonium Tonus, Semidytonus, Dytonus, Diatesseron, Diapente, Semitonium, cum diapente,
+        tonus cum diapente et diapason. Vnisonus proprie loquendo non est modus, quia nihil mensurat
+        vel modificat. Est tamen vnisonus principium modorum.</p>
+      <p xml:id="FELOP0036">Semitonium. Est ascensus vel descensus per secundam molliter, et fit
+        tantum per vocem bmollem et [sqb] duralem, vt est distantia inter mi et fa, vel inter la et
+        fa.</p>
+      <p xml:id="FELOP0037">Tonus. Est ascensus vel descensus per secundam viriliter sonans vt est
+        omnis secunda praeter mi et fa, vel la et fa.</p>
+      <p xml:id="FELOP0038">Semiditonus constituitur ex tono et semitonio, vt est de re ad fa vel de
+        mi ad sol.</p>
+      <p xml:id="FELOP0039">Dytonus constituitur ex duobus tonis, sicut est, de vt ad mi, vel de fa
+        ad la. Diatesseron constituitur ex duobus tonis et vno semitonio. Et dicitur primus modus
         perfectus, quia in se semper tenet eandem mensuram, sicut est de vt ad fa, vel de re ad sol,
         vel de mi ad la.</p>
       <p xml:id="FELOP0040">Diapente constituitur ex tribus tonis et vno semitonio, et dicitur alter
         modus perfectus, sicut est, omnis quinta vt est de vt ad sol, et de re ad la, de mi ad mi,
         de fa ad fa. Et nota quod nunquam pro quarta vel pro quinta accipiendum est post mi fa, vel
         post fa mi, <pb n="[f.Aiiijr]"/>quia sic esset falsus saltus et variaretur mensuratio.</p>
-      <p xml:id="FELOP0041">Semitonium cum diapenthe, constituitur ex tribus tonis et duobus semitonijs,
-        et non ex quattuor tonis, quia duo semitonia non complent tonum Ex quo duo semitonia minora
-        sunt: vt est ascensus de re quod est in are, ad fa scilicet in ffaut per sextam. Tonus autem
-        non diuiditur per duo equalia semitonia, sed maius et minus. Sicut enim nouem diuiditur in
-        quatuor et quinque. Vnde sicut bis quatuor, non faciunt nouem. Sic etiam duo semitonia
-        minora, quae sunt musicae considerationis non complent tonum.</p>
-      <p xml:id="FELOP0042">Tonus cum diapente, Constituitur ex quatuor tonis, et vno semitonio vt est
-        ascensus, de vt ad la per sextam.</p>
-      <p xml:id="FELOP0043">Diapason constituitur ex quinque tonis, et duobus semitonijs vt est ascensus
-        de vt ad fa per octauam, vel de re ad sol per octauam et cetera quia omnis octaua diapason
-        dicitur. Etiam nunquam pro octaua fa post mi sequitur, quoniam diapason est prima
+      <p xml:id="FELOP0041">Semitonium cum diapenthe, constituitur ex tribus tonis et duobus
+        semitonijs, et non ex quattuor tonis, quia duo semitonia non complent tonum Ex quo duo
+        semitonia minora sunt: vt est ascensus de re quod est in are, ad fa scilicet in ffaut per
+        sextam. Tonus autem non diuiditur per duo equalia semitonia, sed maius et minus. Sicut enim
+        nouem diuiditur in quatuor et quinque. Vnde sicut bis quatuor, non faciunt nouem. Sic etiam
+        duo semitonia minora, quae sunt musicae considerationis non complent tonum.</p>
+      <p xml:id="FELOP0042">Tonus cum diapente, Constituitur ex quatuor tonis, et vno semitonio vt
+        est ascensus, de vt ad la per sextam.</p>
+      <p xml:id="FELOP0043">Diapason constituitur ex quinque tonis, et duobus semitonijs vt est
+        ascensus de vt ad fa per octauam, vel de re ad sol per octauam et cetera quia omnis octaua
+        diapason dicitur. Etiam nunquam pro octaua fa post mi sequitur, quoniam diapason est prima
         perfectio.</p>
-      <p xml:id="FELOP0044">Modi sunt duplices. Quidam perfecti, quidam imperfecti. Modi Perfecti sunt,
-        qui eandem mensuram quam retinent mutare non possunt, sicut est diapason, diapente
+      <p xml:id="FELOP0044">Modi sunt duplices. Quidam perfecti, quidam imperfecti. Modi Perfecti
+        sunt, qui eandem mensuram quam retinent mutare non possunt, sicut est diapason, diapente
         diatesseron id est octaua, quinta, quarta. Modi Imperfecti sunt, qui iam plus iam minus de
         proportione sibi assummunt sicut sexta, tercia et secunda. Nam alia est sexta maior, quae
         dicitur tonus cum diapente Alia minor quae dicitur semitonium cum diapente. Alia est tercia
@@ -205,10 +216,10 @@
         clauem signatam vt si ffaut ponitur in medio quinque linearum faciliter potest cognosci quod
         in proxima linea inferiori ponitur dsolre in alia bmi et sic non exprimat aliquam vocem in
         spacio vel linea quae ibi non ponitur et cetera.</p>
-      <p xml:id="FELOP0055">Secunda regula. Volens perfecte et ornate solmisare non debet mutare voce
-        explicita sed implicita quod fieri debet vt prius dictum est. Si cantus ascendit nimium ita
-        quod per sex voces compleri nequeat tunc vt communiter inferiorem vocem exprimat. Si vero
-        cantus descendit nimium tunc vocem superiorem exprimat vt in exemplo.</p>
+      <p xml:id="FELOP0055">Secunda regula. Volens perfecte et ornate solmisare non debet mutare
+        voce explicita sed implicita quod fieri debet vt prius dictum est. Si cantus ascendit nimium
+        ita quod per sex voces compleri nequeat tunc vt communiter inferiorem vocem exprimat. Si
+        vero cantus descendit nimium tunc vocem superiorem exprimat vt in exemplo.</p>
       <p xml:id="FELOP0056">[Felstin, Opusculum, f.Avijr; text: Discantus. Tenor. Contra.]</p>
       <p xml:id="FELOP0057">
         <pb n="[f.Avijv]"/>Tercia regula. Quoniam omnis ars solmisandi dificultatem facit penes mi
@@ -223,8 +234,8 @@
         descendendo. Exemplum primi toni vbi mi et fa in eodem cantu exprimitur et non est
         transpositus.</p>
       <p xml:id="FELOP0058">[Felstin, Opusculum, f.Avijv; text: Discantus. Tenor. Contra.]</p>
-      <p xml:id="FELOP0059">Exemplum vbi in bfa[sqb]mi fa canitur quando primus et secundus toni sunt
-        transpositi de dsolre ad gsolreut.</p>
+      <p xml:id="FELOP0059">Exemplum vbi in bfa[sqb]mi fa canitur quando primus et secundus toni
+        sunt transpositi de dsolre ad gsolreut.</p>
       <p xml:id="FELOP0060">
         <pb n="[f.Aviijr]"/>[Felstin, Opusculum, f.Aviijr; text: Discantus. Tenor. Contra.]</p>
       <p xml:id="FELOP0061">Quarta regula. Consideret solmisans quam vocem assumere debet mutando,
@@ -241,20 +252,20 @@
         <pb n="[f.Aviijv]"/>[Felstin, Opusculum, f.Aviijv; text: Discantus. Tenor. Contra.] <figure>
           <graphic url="/images/FELOP_06GF.gif"/>
         </figure></p>
-      <p xml:id="FELOP0063">Quinta regula. Si in aliqua claue canitur fa tunc si ab ea fit saltus per
-        quartam, vel quintam vel octauam. Similiter. fa debet exprimi, et si mi exprimitur in aliqua
-        claue, si fit saltus ad quartam quintam vel octauam semper debet exprimi la vel mi secundum
-        quod post saltum vel ascenditur vel descenditur. Si autem in aliqua claue exprimitur alia
-        vox praeter fa vel mi, et ab ea fit saltus per quintam sextam vel octauam tunc semper
-        inspiciendum est proximum fa in quod cantus ascendendo vel descendendo tendit, tunc
-        manifeste patebit, quae vox post saltum debeat exprimi. Exemplum.</p>
+      <p xml:id="FELOP0063">Quinta regula. Si in aliqua claue canitur fa tunc si ab ea fit saltus
+        per quartam, vel quintam vel octauam. Similiter. fa debet exprimi, et si mi exprimitur in
+        aliqua claue, si fit saltus ad quartam quintam vel octauam semper debet exprimi la vel mi
+        secundum quod post saltum vel ascenditur vel descenditur. Si autem in aliqua claue
+        exprimitur alia vox praeter fa vel mi, et ab ea fit saltus per quintam sextam vel octauam
+        tunc semper inspiciendum est proximum fa in quod cantus ascendendo vel descendendo tendit,
+        tunc manifeste patebit, quae vox post saltum debeat exprimi. Exemplum.</p>
       <p xml:id="FELOP0064">
         <pb n="[f.Bir]"/>[Felstin, Opusculum, f.Bir; text: Discantus, Tenor, Contra.]</p>
-      <p xml:id="FELOP0065">Sexta regula. Ascendendo in quolibet cantu post la semper potest exprimi mi
-        vel fa per secundam, quod autem eorum exprimi debet, patebit si ad proximum fa aspexerimus
-        et hoc ascendendo. Et e conuerso descendendo <pb n="[f.Biv]"/>per secundam semper post fa
-        vel mi potest proferri la. Et hec regula intelligitur maxime de bfa[sqb]mi et alamre.
-        Exemplum in quolibet tenore superius notato potest manifeste haberi. Supius etiam in
+      <p xml:id="FELOP0065">Sexta regula. Ascendendo in quolibet cantu post la semper potest exprimi
+        mi vel fa per secundam, quod autem eorum exprimi debet, patebit si ad proximum fa
+        aspexerimus et hoc ascendendo. Et e conuerso descendendo <pb n="[f.Biv]"/>per secundam
+        semper post fa vel mi potest proferri la. Et hec regula intelligitur maxime de bfa[sqb]mi et
+        alamre. Exemplum in quolibet tenore superius notato potest manifeste haberi. Supius etiam in
         cantibus transponuntur claues, quando cantus multum ascendit et non potest in quinque
         quatuor vel tribus lineis comprehendi de quibus dantur duae regule. Prima regula. quantum
         clauis transposita ascendit tantum nota sequens descendit. Et quantum clauis transposita
@@ -272,21 +283,21 @@
       <p xml:id="FELOP0068">UNde tonus in proposito est certa melodia et distinctio. Ad quem omnis
         cantus finaliter reducitur. Et propter quem omnes regule tam modorum quam solmisationis
         reperte sunt. Quia tonus finis et principium artis musicae est.</p>
-      <p xml:id="FELOP0069">Diuiditur autem tonus in Autentos et Plagales. Autenti toni sunt qui possunt
-        ascendere a nota finali octauam vel vltra. Et descendere sub nota finali secundam et raro
-        terciam vt sunt quatuor impares primus tercius quintus et septimus. Plagales vero sunt qui
-        possunt descendere a nota finali quartam quintam vt sunt quatuor pares, secundus, quartus,
-        sextus et octauus. Ex quibus patet quod in toto erunt octo toni, quatuor autenti et quatuor
-        plagales. Omnis autem tonus aut transponitur aut non. Si non transponitur tunc quatuor
-        claues erunt finalia omnium tonorum scilicet dsolre elami ffaut gsolreut, nam in dsolre
-        primus et secundus finiuntur, in elami tercius cum quarto, in ffaut quintus cum sexto, in
-        gsolreut septimus et octauus. Si vero transponuntur, tunc quatuor claues erunt distincte ab
-        hijs quatuor predictis scilicet alamire bfa[sqb]mi csolfaut dlasolre. Nam in alamire finitur
-        primus cum secundo in bfa[sqb]mi tercius et quartus, in csolfaut quintus et sextus, in
-        dlasolre vero tantum secundus. Quia septimus et octauus nunquam in re finiuntur. Vel etiam
-        quia septimus nimium ascendit et iste octo claues in vsu sunt quo ad cantum Gregorianum. In
-        mensurali vero cantu in pluribus clauibus et quasi in omnibus cantus finiri potest seruata
-        debita repercussione tonorum.</p>
+      <p xml:id="FELOP0069">Diuiditur autem tonus in Autentos et Plagales. Autenti toni sunt qui
+        possunt ascendere a nota finali octauam vel vltra. Et descendere sub nota finali secundam et
+        raro terciam vt sunt quatuor impares primus tercius quintus et septimus. Plagales vero sunt
+        qui possunt descendere a nota finali quartam quintam vt sunt quatuor pares, secundus,
+        quartus, sextus et octauus. Ex quibus patet quod in toto erunt octo toni, quatuor autenti et
+        quatuor plagales. Omnis autem tonus aut transponitur aut non. Si non transponitur tunc
+        quatuor claues erunt finalia omnium tonorum scilicet dsolre elami ffaut gsolreut, nam in
+        dsolre primus et secundus finiuntur, in elami tercius cum quarto, in ffaut quintus cum
+        sexto, in gsolreut septimus et octauus. Si vero transponuntur, tunc quatuor claues erunt
+        distincte ab hijs quatuor predictis scilicet alamire bfa[sqb]mi csolfaut dlasolre. Nam in
+        alamire finitur primus cum secundo in bfa[sqb]mi tercius et quartus, in csolfaut quintus et
+        sextus, in dlasolre vero tantum secundus. Quia septimus et octauus nunquam in re finiuntur.
+        Vel etiam quia septimus nimium ascendit et iste octo claues in vsu sunt quo ad cantum
+        Gregorianum. In mensurali vero cantu in pluribus clauibus et quasi in omnibus cantus finiri
+        potest seruata debita repercussione tonorum.</p>
       <p xml:id="FELOP0070">
         <pb n="[f.Bijv]"/>Hec Figura ostendit fines tonorum.</p>
       <p xml:id="FELOP0071">[Felstin, Opusculum, f.Bijv; text: Non transpositi Cantus. Transpositi
@@ -309,18 +320,18 @@
         repercussio. Sexti repercussio. Octaui repercussio]</p>
       <p xml:id="FELOP0075">
         <pb n="[f.Biijv]"/>Sequuntur finalia tonorum.</p>
-      <p xml:id="FELOP0076">[Felstin, Opusculum, f.Biijv,1; text: Primus. Secundus. Tercius. Quartus.
-        Quintus. Sextus. Septimus. Octauus] <figure>
+      <p xml:id="FELOP0076">[Felstin, Opusculum, f.Biijv,1; text: Primus. Secundus. Tercius.
+        Quartus. Quintus. Sextus. Septimus. Octauus] <figure>
           <graphic url="/images/FELOP_08GF.gif"/>
         </figure></p>
-      <p xml:id="FELOP0077">Primus Tonus non transpositus finitur in dsolre et habet suam repercussionem
-        per quintam scilicet de re ad la. Et dicitur primus tonus autentus, quia a nota finali
-        potest ascendere octauam vel vltra, et potest descendere infra notam finalem secundam et
-        raro plus. Et in eodem tono in csolfaut semper canitur fa, et maior consideratio debet
-        haberi ad alamire et bfa[sqb]mi secundum regulas solmisationis predictas. Et etiam in ffaut
-        semper fa canitur. Vt in exemplis.</p>
-      <p xml:id="FELOP0078">[Felstin, Opusculum, f.Biijv,2; text: Capitalis differentia prima. Secunda.
-        Tercia.]</p>
+      <p xml:id="FELOP0077">Primus Tonus non transpositus finitur in dsolre et habet suam
+        repercussionem per quintam scilicet de re ad la. Et dicitur primus tonus autentus, quia a
+        nota finali potest ascendere octauam vel vltra, et potest descendere infra notam finalem
+        secundam et raro plus. Et in eodem tono in csolfaut semper canitur fa, et maior consideratio
+        debet haberi ad alamire et bfa[sqb]mi secundum regulas solmisationis predictas. Et etiam in
+        ffaut semper fa canitur. Vt in exemplis.</p>
+      <p xml:id="FELOP0078">[Felstin, Opusculum, f.Biijv,2; text: Capitalis differentia prima.
+        Secunda. Tercia.]</p>
       <p xml:id="FELOP0079">
         <pb n="[f.Biiijr]"/>[Felstin, Opusculum, f.Biiijr,1; text: Quarta. Laudate pueri dominum,
         laudate nomen domini. Nunc dimittis seruum tuum domine, secundum verbi. Magnificat anima mea
@@ -331,8 +342,8 @@
         <pb n="[f.Biiijv]"/>[Felstin, Opusculum, f.Biiijv,1; text: Contra.] <figure>
           <graphic url="/images/FELOP_09GF.gif"/>
         </figure></p>
-      <p xml:id="FELOP0083">Unde psalmi minores primi toni incipiuntur in alamire et finiuntur secundum
-        finale toni. Maiores vero incipiuntur in ffaut et etiam finiuntur secundum finale
+      <p xml:id="FELOP0083">Unde psalmi minores primi toni incipiuntur in alamire et finiuntur
+        secundum finale toni. Maiores vero incipiuntur in ffaut et etiam finiuntur secundum finale
         differentiarum suarum.</p>
       <p xml:id="FELOP0084">De Secundo tono.</p>
       <p xml:id="FELOP0085">Secundus tonus plagalis est, et finitur cum primo in dsolre sed a nota
@@ -359,15 +370,16 @@
         gsolreut. Minores vero in csolfaut, sed quarti toni psalmi maiores incipiunt in elami,
         minores autem in alamire et finiuntur secundum ipsorum finalia.</p>
       <p xml:id="FELOP0093">Tercius cum suis differentijs.</p>
-      <p xml:id="FELOP0094">[Felstin, Opusculum, f.Civ,2; text: Capitalis. Prima differentia. Secunda
-        differentia. Tercia differentia. Quarta differentia. Laudate pueri dominum, laudate nomen
-        domini. Nunc dimittis seruum tuum domine, secundum verbum. Magnificat anima mea dominum.
-        Benedictus dominus deus Israel, quia visitauit et fecit redemptionem plebis sue.]</p>
+      <p xml:id="FELOP0094">[Felstin, Opusculum, f.Civ,2; text: Capitalis. Prima differentia.
+        Secunda differentia. Tercia differentia. Quarta differentia. Laudate pueri dominum, laudate
+        nomen domini. Nunc dimittis seruum tuum domine, secundum verbum. Magnificat anima mea
+        dominum. Benedictus dominus deus Israel, quia visitauit et fecit redemptionem plebis
+        sue.]</p>
       <p xml:id="FELOP0095">
         <pb n="[f.Cijr]"/>Ambitus tercij toni cum solmisationibus.</p>
-      <p xml:id="FELOP0096">[Felstin, Opusculum, f.Cijr; text: Discantus. Tenor. Contra. De quarto tono
-        cum differentijs, Capitalis. Prima. Secunda. Tercia. Quarta. Laudate pueri dominum, laudate,
-        Nunc dimittis seruum tuum domine,]</p>
+      <p xml:id="FELOP0096">[Felstin, Opusculum, f.Cijr; text: Discantus. Tenor. Contra. De quarto
+        tono cum differentijs, Capitalis. Prima. Secunda. Tercia. Quarta. Laudate pueri dominum,
+        laudate, Nunc dimittis seruum tuum domine,]</p>
       <p xml:id="FELOP0097">
         <pb n="[f.Cijv]"/>[Felstin, Opusculum, f.Cijv,1; text: nomen domini. secundum verbum tuum in
         pace. Magnificat anima mea dominum, Benedictus dominus deus Israel, quia visitauit] <figure>
@@ -376,19 +388,20 @@
       <p xml:id="FELOP0098">Ambitus quarti toni</p>
       <p xml:id="FELOP0099">[Felstin, Opusculum, f.Cijv,2; text: Discantus. Teuor. Contra.]</p>
       <p xml:id="FELOP0100">De Quinto et Sexto tono.</p>
-      <p xml:id="FELOP0101">Quintus et sextus tonus finitur in ffaut. Repercussio autem quinti toni est
-        de vt ad sol, de ffaut ad csolfaut, et sexti toni repercussio est de fa ad la per terciam
-        scilicet de ffaut ad alamire. In quibus tonis in csolfaut <pb n="[f.Ciijr]"/>semper canitur
-        sol. Et in bfa[sqb]mi semper b rotundum signari debet. Et in quinto tono semper habeatur
-        aduertentia ad la in dlasolre et ad mi in alamire. In sexto vero ad la in alamire propter
-        descensum. Psalmi maiores tam quinti toni quam sexti in ffaut incipiuntur. Minores vero
-        quinti toni in csolfaut. Ratio quare in bfa[sqb]mi signatur b rotundum in sexto tono et
+      <p xml:id="FELOP0101">Quintus et sextus tonus finitur in ffaut. Repercussio autem quinti toni
+        est de vt ad sol, de ffaut ad csolfaut, et sexti toni repercussio est de fa ad la per
+        terciam scilicet de ffaut ad alamire. In quibus tonis in csolfaut <pb n="[f.Ciijr]"/>semper
+        canitur sol. Et in bfa[sqb]mi semper b rotundum signari debet. Et in quinto tono semper
+        habeatur aduertentia ad la in dlasolre et ad mi in alamire. In sexto vero ad la in alamire
+        propter descensum. Psalmi maiores tam quinti toni quam sexti in ffaut incipiuntur. Minores
+        vero quinti toni in csolfaut. Ratio quare in bfa[sqb]mi signatur b rotundum in sexto tono et
         quinto propter quartam perfectam de ffaut ad bfa[sqb]mi et econtra. Nam si mi in bfa[sqb]mi
         canitur falsa comittetur quarta vt prius dictum est in Capitulo Modorum.</p>
       <p xml:id="FELOP0102">Psalmi minores Quinti toni.</p>
-      <p xml:id="FELOP0103">[Felstin, Opusculum, f.Ciijr,1; text: Capitalis. Prima differentia. Laudate
-        pueri dominum, laudate nomen domini. Nunc dimittis seruum tuum domine secundum verbum tuum
-        in pace. Psalmi maiores. Magnificat anima mea dominum. Benedictus dominus deus Israel.]</p>
+      <p xml:id="FELOP0103">[Felstin, Opusculum, f.Ciijr,1; text: Capitalis. Prima differentia.
+        Laudate pueri dominum, laudate nomen domini. Nunc dimittis seruum tuum domine secundum
+        verbum tuum in pace. Psalmi maiores. Magnificat anima mea dominum. Benedictus dominus deus
+        Israel.]</p>
       <p xml:id="FELOP0104">Ambitus Quinti toni cum modo solmisandi.</p>
       <p xml:id="FELOP0105">[Felstin, Opusculum, f.Ciijr,2; text: Discantus. Tenor.]</p>
       <p xml:id="FELOP0106">
@@ -396,21 +409,21 @@
           <graphic url="/images/FELOP_12GF.gif"/>
         </figure></p>
       <p xml:id="FELOP0107">Sexti Toni psalmi minores.</p>
-      <p xml:id="FELOP0108">[Felstin, Opusculum, f.Ciijv,2; text: Capitalis, Prima differentia. Laudate
-        pueri dominum, laudate nomen domini. Nunc dimittis seruum tuum domine secundum verbum.
-        Magnificat anima mea dominum. Benedictus dominus deus Israel, quia visitauit.]</p>
+      <p xml:id="FELOP0108">[Felstin, Opusculum, f.Ciijv,2; text: Capitalis, Prima differentia.
+        Laudate pueri dominum, laudate nomen domini. Nunc dimittis seruum tuum domine secundum
+        verbum. Magnificat anima mea dominum. Benedictus dominus deus Israel, quia visitauit.]</p>
       <p xml:id="FELOP0109">Sexti toni ambitus.</p>
       <p xml:id="FELOP0110">[Felstin, Opusculum, f.Ciijv,3; text: Discantus.]</p>
       <p xml:id="FELOP0111">
         <pb n="[f.Ciiijr]"/>[Felstin, Opusculum, f.Ciiijr,1; text: Tenor, Contra.]</p>
       <p xml:id="FELOP0112">De Septimo tono.</p>
-      <p xml:id="FELOP0113">Septimus tonus finitur in gsolreut et habet suam repercussionem de vt ad sol
-        per quintam scilicet de gsolreut ad dlasolre. Et habet de gsolreut per octauam sol, in quo
-        maior aduertentia est in dlasolre vt superiorem vocem pro descensu accipiat scilicet
+      <p xml:id="FELOP0113">Septimus tonus finitur in gsolreut et habet suam repercussionem de vt ad
+        sol per quintam scilicet de gsolreut ad dlasolre. Et habet de gsolreut per octauam sol, in
+        quo maior aduertentia est in dlasolre vt superiorem vocem pro descensu accipiat scilicet
         sol.</p>
       <p xml:id="FELOP0114">Septimi toni psalmi minores.</p>
-      <p xml:id="FELOP0115">[Felstin, Opusculum, f.Ciiijr,2; text: Capitalis. Prima differentia. Secunda
-        differentia. Tercia differentia.]</p>
+      <p xml:id="FELOP0115">[Felstin, Opusculum, f.Ciiijr,2; text: Capitalis. Prima differentia.
+        Secunda differentia. Tercia differentia.]</p>
       <p xml:id="FELOP0116">
         <pb n="[f.Ciiijv]"/>[Felstin, Opusculum, f.Ciiijv,1; text: Quarta differentia, Laudate pueri
         dominum, laudate nomen domini. Nunc dimittis seruum tuum domine, secundum verbum. Magnificat
@@ -429,10 +442,10 @@
         quae differentia melodiam octaui toni habet et finem. Ideo autem dicitur irregularis, quia
         finis differentie dicte super melodiam regulatam nimium descendit. Sed tamen iste finis
         facilitatis causa positus est. Sicut et alie differentie primi toni, tercij et quarti.</p>
-      <p xml:id="FELOP0121">[Felstin, Opusculum, f.Dir,2; text: Capitalis. Prima differentia. Secunda
-        differentia. Tercia differentia. Peregrinus. Nos qui viuimus. Tali tenore tonus cantabitur
-        peregrinus. In exitu Israel de Egypto. Laudate pueri dominum, laudate nomen domini. Nunc
-        dimittis seruum tuum domine, secundum verbum tuum in pace.]</p>
+      <p xml:id="FELOP0121">[Felstin, Opusculum, f.Dir,2; text: Capitalis. Prima differentia.
+        Secunda differentia. Tercia differentia. Peregrinus. Nos qui viuimus. Tali tenore tonus
+        cantabitur peregrinus. In exitu Israel de Egypto. Laudate pueri dominum, laudate nomen
+        domini. Nunc dimittis seruum tuum domine, secundum verbum tuum in pace.]</p>
       <p xml:id="FELOP0122">
         <pb n="[f.Div]"/>[Felstin, Opusculum, f.Div,1; text: Magnificat anima mea dominum.
         Benedictus dominus deus Israel quia visitauit et fecit redemptionem plebis sue.] <figure>
@@ -442,17 +455,17 @@
       <p xml:id="FELOP0124">[Felstin, Opusculum, f.Div,2; text: Discantus. Tenor. Contra.]</p>
       <p xml:id="FELOP0125">
         <pb n="[f.Dijr]"/>De transpositione tonorum.</p>
-      <p xml:id="FELOP0126">Notandum omnes toni transponuntur praeter septimum et octauum hoc propter
-        nimium ascensum, possent tamen transponi ad aliquam clauem inferiorem preter dlasolre. Toni
-        autem transponi debent in clauibus vbi habent repercussiones. Tonus enim primus et secundus
-        transponuntur a dsolre ad alamire. Tercius et quartus ab elami ad bfa[sqb]mi. Quintus et
-        sextus ab ffaut ad csolfaut. Et si transponitur cantus ad dlasolre erit secundi toni quia a
-        dsolre ad dlasolre per octauam transponitur. Notandum item quod tam autenti quam plagales
-        toni, dum transponuntur seruant easdem repercussiones quas in clauibus non transpositis
-        habebant. Aduertendum etiam quod omnis autentus tonus transpositus potest descendere sub
-        notam finalem per quartam vel quintam. Et potest ascendere a nota finali quintam vel sextam.
-        Sed tonus plagalis transpositus econtta ascendit a nota finali per quartam vel quintam et
-        descendit sub nota finali per quintam vel sextam. Vt in Exemplo.</p>
+      <p xml:id="FELOP0126">Notandum omnes toni transponuntur praeter septimum et octauum hoc
+        propter nimium ascensum, possent tamen transponi ad aliquam clauem inferiorem preter
+        dlasolre. Toni autem transponi debent in clauibus vbi habent repercussiones. Tonus enim
+        primus et secundus transponuntur a dsolre ad alamire. Tercius et quartus ab elami ad
+        bfa[sqb]mi. Quintus et sextus ab ffaut ad csolfaut. Et si transponitur cantus ad dlasolre
+        erit secundi toni quia a dsolre ad dlasolre per octauam transponitur. Notandum item quod tam
+        autenti quam plagales toni, dum transponuntur seruant easdem repercussiones quas in clauibus
+        non transpositis habebant. Aduertendum etiam quod omnis autentus tonus transpositus potest
+        descendere sub notam finalem per quartam vel quintam. Et potest ascendere a nota finali
+        quintam vel sextam. Sed tonus plagalis transpositus econtta ascendit a nota finali per
+        quartam vel quintam et descendit sub nota finali per quintam vel sextam. Vt in Exemplo.</p>
       <p xml:id="FELOP0127">[Felstin, Opusculum, f.Dijr; text: Discantus. Tenor. Primus tonus sic
         transponitur,]</p>
       <p xml:id="FELOP0128">
@@ -462,19 +475,19 @@
         </figure></p>
       <p xml:id="FELOP0129">
         <pb n="[f.Diijr]"/>[Felstin, Opusculum, f.Diijr,1]</p>
-      <p xml:id="FELOP0130">Nota in omnibus tonis transpositis in bfa[sqb]mi mi canitur. Et in csolfaut
-        fa, si in predictis clauibus finiuntur scilicet alamire bfa[sqb]mi csolfaut. Omnium itaque
-        tonorum transpositorum eadem est intonatio psalmorum tam minorum quam maiorum que et in
-        clauibus non transpositorum.</p>
-      <p xml:id="FELOP0131">[Felstin, Opusculum, f.Diijr,2; text: Primus. Secundus. Tercius. Quartus.
-        Quintus. Sextus. Septimus. Octauus.]</p>
+      <p xml:id="FELOP0130">Nota in omnibus tonis transpositis in bfa[sqb]mi mi canitur. Et in
+        csolfaut fa, si in predictis clauibus finiuntur scilicet alamire bfa[sqb]mi csolfaut. Omnium
+        itaque tonorum transpositorum eadem est intonatio psalmorum tam minorum quam maiorum que et
+        in clauibus non transpositorum.</p>
+      <p xml:id="FELOP0131">[Felstin, Opusculum, f.Diijr,2; text: Primus. Secundus. Tercius.
+        Quartus. Quintus. Sextus. Septimus. Octauus.]</p>
       <p xml:id="FELOP0132">Sequitur de Scala ficta.</p>
       <p xml:id="FELOP0133">Vltimo videndum est de musica siue Scala ficta. Quae a pluribus dicitur
         coniuncte. Ideo autem ficta dicitur quia per eam in cantu voces exprimuntur que in clauibus
         non continentur de qua dantur due regule.</p>
-      <p xml:id="FELOP0134">Prima regula. Si in bfa[sqb]mi fa canitur, vt fit in quinto et sexto tono
-        non transpositis, vt est ostensum supra in exemplis predictorum tonorum, vel quando primus
-        aut secundus tonus transponitur ad gsolreut, vt prius patuit in exemplo tercie regule
+      <p xml:id="FELOP0134">Prima regula. Si in bfa[sqb]mi fa canitur, vt fit in quinto et sexto
+        tono non transpositis, vt est ostensum supra in exemplis predictorum tonorum, vel quando
+        primus aut secundus tonus transponitur ad gsolreut, vt prius patuit in exemplo tercie regule
         solmisationis. Etiam aliquando quintus et sextus transponuntur ad bfa[sqb]mi, et tunc in
         bfa[sqb]mi canitur fa, cum ergo sic fit tunc etiam in eius octaua inferiori similiter debet
         exprimi fa scilicet in [sqb]mi. Et sic etiam in octaua superiori scilicet bfa[sqb]mi exprimi
@@ -488,8 +501,8 @@
         clauibus superioribus videlicet excellentibus et etiam grauibus. Et hoc fit ideo ne fiat
         saltus per quartam quintam aut octauam indirectam de mi ad fa. Et econtra exemplum
         facilliter intelligi potest dictarum regularum in Scala sequenti.</p>
-      <p xml:id="FELOP0136">[Felstin, Opusculum, f.Diijv; text: [Gamma], F, c, g, dd, Vt, Re, Mi, Fa,
-        Sol, [rob], Sic solmisatur omnis cantus qui habet mi in bfa[sqb]mi. Sic solmisatur omnis
+      <p xml:id="FELOP0136">[Felstin, Opusculum, f.Diijv; text: [Gamma], F, c, g, dd, Vt, Re, Mi,
+        Fa, Sol, [rob], Sic solmisatur omnis cantus qui habet mi in bfa[sqb]mi. Sic solmisatur omnis
         cantus habens fa in bfa[sqb]mi. Sic solmisatur omnis cantus per musicam fictam, siue vt
         aliqui dicunt per coniunctas.]</p>
       <p xml:id="FELOP0137">
@@ -504,14 +517,14 @@
       <p xml:id="FELOP0141">
         <pb n="[f.Diiijv]"/>Tres sunt consonantie musicales primum a Pithagora inuente scilicet
         dyapasson diapenthe et dyatesseron.</p>
-      <p xml:id="FELOP0142">Prima consonantia diapason, constituta est in dupla proportione. Est autem
-        dupla proportio, vbi numerus maior continet minorem numerum precise bis, vt malleus primus
-        duodecim ponderum continet in se malleum quartum sex ponderum precise bis et consonant
-        octauam. Et dicitur dyapason a dya quod est duo et pan quod est totum, eo quod numerus maior
-        continet minorem in se precise bis. Et dicitur prima perfectio diapason. Quia eius diuisio
-        fundatur super vno bis repetito. Exemplum.</p>
-      <p xml:id="FELOP0143">[Felstin, Opusculum, f.Diiijv,1; text: 18, 12, 8, 6, 4, 2, Vbique precise
-        bis, 3, 1, Dupla proportio, dyapason id est octaua.] <figure>
+      <p xml:id="FELOP0142">Prima consonantia diapason, constituta est in dupla proportione. Est
+        autem dupla proportio, vbi numerus maior continet minorem numerum precise bis, vt malleus
+        primus duodecim ponderum continet in se malleum quartum sex ponderum precise bis et
+        consonant octauam. Et dicitur dyapason a dya quod est duo et pan quod est totum, eo quod
+        numerus maior continet minorem in se precise bis. Et dicitur prima perfectio diapason. Quia
+        eius diuisio fundatur super vno bis repetito. Exemplum.</p>
+      <p xml:id="FELOP0143">[Felstin, Opusculum, f.Diiijv,1; text: 18, 12, 8, 6, 4, 2, Vbique
+        precise bis, 3, 1, Dupla proportio, dyapason id est octaua.] <figure>
           <graphic url="/images/FELOP_16GF.gif"/>
         </figure></p>
       <p xml:id="FELOP0144">Secunda consonantia est diapenthe, et constituitur in sesquialtera
@@ -526,19 +539,19 @@
         minoris.</p>
       <p xml:id="FELOP0145">[Felstin, Opusculum, f.Diiijv,2; text: 16, 15, 12, 9, 6, 3, Sesquialtera
         proportio, diapente id est quinta. 5, 4, 2, 1, 10, 8]</p>
-      <p xml:id="FELOP0146">Tercia consonantia. Est diatesseron id est quarta. Dicitur autem diatesseron
-        a dia quod est de et tesseron quod est quatuor quasi consonantia ex quatuor vocibus
-        constituta, Constituitur autem diatesseron in sesquitercia <pb n="[f.Dvr]"/>proportione.
-        Sesquitercia proportio est, vbi numerus maior continet in se minorem totum et eius terciam
-        partem scilicet minoris, vt malleus duodecim ponderum, cum malleo nouem ponderum consonant
-        diatesseron id est quartam. Hic malleus duodecim ponderum continet in se malleum secundum
-        nouem ponderum et eius terciam partem scilicet minoris, vt quando subtraho nouem a duodecim
-        manent tria, et tria est tercia pars de nouem. Et dicitur sesquitercia a sesqui id est totum
-        et tercia id est tercia pars propter eandem causam, et etiam quarta seu diatesseron. Dicitur
-        tercia perfectio, ideo quia eius diuisio fundatur super numero ternario id est tercia parte,
-        vt in exemplo.</p>
-      <p xml:id="FELOP0147">[Felstin, Opusculum, f.Dvr,1; text: 20, 16, 12, 8, 4, 5, 3, 2, 1, 15, 9, 6,
-        Sesquitertia proportio diatesseron id est quarta.]</p>
+      <p xml:id="FELOP0146">Tercia consonantia. Est diatesseron id est quarta. Dicitur autem
+        diatesseron a dia quod est de et tesseron quod est quatuor quasi consonantia ex quatuor
+        vocibus constituta, Constituitur autem diatesseron in sesquitercia <pb n="[f.Dvr]"
+        />proportione. Sesquitercia proportio est, vbi numerus maior continet in se minorem totum et
+        eius terciam partem scilicet minoris, vt malleus duodecim ponderum, cum malleo nouem
+        ponderum consonant diatesseron id est quartam. Hic malleus duodecim ponderum continet in se
+        malleum secundum nouem ponderum et eius terciam partem scilicet minoris, vt quando subtraho
+        nouem a duodecim manent tria, et tria est tercia pars de nouem. Et dicitur sesquitercia a
+        sesqui id est totum et tercia id est tercia pars propter eandem causam, et etiam quarta seu
+        diatesseron. Dicitur tercia perfectio, ideo quia eius diuisio fundatur super numero ternario
+        id est tercia parte, vt in exemplo.</p>
+      <p xml:id="FELOP0147">[Felstin, Opusculum, f.Dvr,1; text: 20, 16, 12, 8, 4, 5, 3, 2, 1, 15, 9,
+        6, Sesquitertia proportio diatesseron id est quarta.]</p>
       <p xml:id="FELOP0148">Tonus quamuis consonantia non sit id est concordantia, quia est pars
         consonantiarum, tamen constitutus est in proportione sesquioctaua. Proportio sesquioctaua
         est vbi numerus maior continet minorem in se totum, et eius octauam partem, vt malleus

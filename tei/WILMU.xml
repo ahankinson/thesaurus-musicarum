@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musica</title>
         <title type="abbrev">WILMU</title>
-        <author>Willehelmus Hirsaugensis</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Willehelmus Hirsaugensis</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Sean Ferguson</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Charles Atkinson</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1993</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1993">1993</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptores ecclesiastici de musica sacra potissimum</emph>, 3 vols., ed. Martin
@@ -67,14 +77,15 @@
         quatenus post praecepta rerum, quae ad astronomiam pertinent, non sine harmonia, ut aiunt
         Philosophi, currentium, ipsius etiam harmonicae artis originem et naturam, quantum auctor
         naturae concesserit, adhuc latentem proferas.</p>
-      <p xml:id="WILMU0005">Wilhelmus. Rem satis arduam, utpote a peritissimis hucusque intactam iubes.
-        Sed quia freno me caritatis potenti manu tenes, in quaecumque montana duxeris, facilius
-        aestimo relabi aut retro cadere, quam recalcitrare. Verumtamen ne post diurnae viae terminum
-        castrametandi tempore novam et nondum certam inconsulte aggrediamur, respirationi atque
-        meditationi reliquum diei concedatur spatium, et cras in nomine IESU congregemur; sicque <pb n="[155]"/>ipso nos mediante ac ducente propositum iter incipiamus.</p>
-      <p xml:id="WILMU0006">Wilhelmus. Hesterni promissi debitum, quod a me, carissime frater! exigis,
-        aliter persolvere nequeo, nisi eorum recordatione vel recognitione, quae tam ex musica
-        Boetii, quam ex probabilibus modernorum scriptis tibi cognita sunt, isagogen quamdam
+      <p xml:id="WILMU0005">Wilhelmus. Rem satis arduam, utpote a peritissimis hucusque intactam
+        iubes. Sed quia freno me caritatis potenti manu tenes, in quaecumque montana duxeris,
+        facilius aestimo relabi aut retro cadere, quam recalcitrare. Verumtamen ne post diurnae viae
+        terminum castrametandi tempore novam et nondum certam inconsulte aggrediamur, respirationi
+        atque meditationi reliquum diei concedatur spatium, et cras in nomine IESU congregemur;
+        sicque <pb n="[155]"/>ipso nos mediante ac ducente propositum iter incipiamus.</p>
+      <p xml:id="WILMU0006">Wilhelmus. Hesterni promissi debitum, quod a me, carissime frater!
+        exigis, aliter persolvere nequeo, nisi eorum recordatione vel recognitione, quae tam ex
+        musica Boetii, quam ex probabilibus modernorum scriptis tibi cognita sunt, isagogen quamdam
         praeparem ad incognita.</p>
       <p xml:id="WILMU0007">Othlohus. Nihil iocundius illo tractatu, quo proferuntur nova et vetera:
         quin immo ad hoc etiam nolentem precibus obnixis traherem, quatenus veterum et modernorum
@@ -85,9 +96,10 @@
         alpinam itineris difficultatem, nec modicas iumenti animi vires in onerando consideras.
         Caeterum ne non fiducialiter agam in Domino, ita onustus viam carpere tentabo, et primam a
         praecedentibus musicis tritam ingrediar, donec divertendi locus occurrat.</p>
-      <p xml:id="WILMU0009">II. Incipit Musica Wilhelmi Abbatis de regularis monochordi structura.</p>
-      <p xml:id="WILMU0010">Wilhelmus. Tota regularis monochordi structura constat quindecim chordis in
-        duo diapason distinctis; quorum inferius est a proslambanomenos usque mese, at superius a
+      <p xml:id="WILMU0009">II. Incipit Musica Wilhelmi Abbatis de regularis monochordi
+        structura.</p>
+      <p xml:id="WILMU0010">Wilhelmus. Tota regularis monochordi structura constat quindecim chordis
+        in duo diapason distinctis; quorum inferius est a proslambanomenos usque mese, at superius a
         mese usque ad nete hyperboleon; et utrumque continet, ut notum est, septem discrimina vocum.
         In ipsis quindecim chordis inveniuntur tetrachorda nominibus, genere, specie valde diversa,
         id est, Hypaton, Meson, Diezeugmenon, Hyperboleon. Item tetrachordum gravium, finalium,
@@ -105,63 +117,65 @@
         remanente seu disiungente tono, tertium dimittitur ab A. in E. quartum ab E. in B. itemque
         tonus supererit. Econtra ex istis primum ascendit ab A. in D. secundum a D. in G. ubi tono
         restante tertium scandit ab a. in d. quartum a d. in g. tono item superfluo. Illa sunt
-        notabilia. Ista nomino, sicut et sunt, principalia. Hae sunt specificae <pb n="[156]"/>tetrachordorum differentiae. Musica enim species est quaedam habitudo diversae positionis
+        notabilia. Ista nomino, sicut et sunt, principalia. Hae sunt specificae <pb n="[156]"
+        />tetrachordorum differentiae. Musica enim species est quaedam habitudo diversae positionis
         tonorum et semitoniorum.</p>
-      <p xml:id="WILMU0011">Othlohus. Video, quod frustra de impositis tibi quaestionibus conquestus es.
-        Potenti enim apertissime novaque ac vetera proferentis institutionis gressu arripuisti viam;
-        unde perveniendi vires tibi etiam onustiori sufficere non dubitem. Iam in diversis musicorum
-        scriptis eadem, quae dixisti, colliguntur quidem tetrachordorum vocabula; differentias autem
-        eorum, et proprietatum qualitates ab omnibus pene intactas, et hucusque inauditas esse
-        fateor. Et quoniam a praecedentium semita iam divertisti, perge quaeso! ac praetermissis
-        prioribus ad mensuram tantummodo spectantibus tetrachordis, de his, quae ad melodiam
-        pertinent, quomodo plus aliis ad eam pertineant, et unde ipsa principalia dicas, expone.
-        Denique vulgaria eorum vocabula, id est, gravium, finalium, superiorum, excellentium, quod
-        dicta sint, norunt etiam simpliciores.</p>
+      <p xml:id="WILMU0011">Othlohus. Video, quod frustra de impositis tibi quaestionibus conquestus
+        es. Potenti enim apertissime novaque ac vetera proferentis institutionis gressu arripuisti
+        viam; unde perveniendi vires tibi etiam onustiori sufficere non dubitem. Iam in diversis
+        musicorum scriptis eadem, quae dixisti, colliguntur quidem tetrachordorum vocabula;
+        differentias autem eorum, et proprietatum qualitates ab omnibus pene intactas, et hucusque
+        inauditas esse fateor. Et quoniam a praecedentium semita iam divertisti, perge quaeso! ac
+        praetermissis prioribus ad mensuram tantummodo spectantibus tetrachordis, de his, quae ad
+        melodiam pertinent, quomodo plus aliis ad eam pertineant, et unde ipsa principalia dicas,
+        expone. Denique vulgaria eorum vocabula, id est, gravium, finalium, superiorum,
+        excellentium, quod dicta sint, norunt etiam simpliciores.</p>
       <p xml:id="WILMU0012">III. De principalitate quatuor tetrachordorum.</p>
-      <p xml:id="WILMU0013">Wilhelmus. Quatuor haec tetrachorda omnia quidem et sunt, et vocanda sunt
-        principalia, eoquod omnium specierum, modorum, troporum in se continent vim, ordinem atque
-        naturam: sed in his omnibus unum deprehenditur, a quo caetera nomen et vim, dignitatemque,
-        et ipsum Esse suum sortiuntur: non illud, quod Mercurius invenisse dicitur, id est, meson;
-        neque illud, quod ab antiquis Musicis hypaton est appellatum; sed neque hoc, quod moderni
-        sapientes primum esse affirmant, id est, finalium.</p>
-      <p xml:id="WILMU0014">Othlohus. Quod illud sit, velociter quaeso pronunties, ne cupidissimum vel
-        ad momentum suspendas.</p>
-      <p xml:id="WILMU0015">Wilhelmus. Illud est, quod natura, immo naturae auctor, primo per quadrupla
-        proferri voluit, dico autem tetrachordum gravium. Ex hoc nimirum, quia caetera veluti fonte
-        quodam derivantur, nomen principalitatis effectumque naturae mirabilem ab ipso mutuantur.
-        Namque tetrachorda finalium, superiorum, excellentiam, nihil aliud sunt, nisi huius quaterna
-        positio, sive terna repetitio. Quod multiplicibus ex causis principale vocari videtur: in
-        primis, quia primum est omnium; secundo, quod primis principalium tetrachordorum nervis
-        clauditur; tertio, quod troporum differentiae ex eo producuntur, si harmonia infra septem
-        principalia duum tetrachordorum, gravis scilicet et finalis, discrimina coarctatur; quarto
-        quod (in) generali constitutione troporum ex hoc constituitur protus, sicut a finali
+      <p xml:id="WILMU0013">Wilhelmus. Quatuor haec tetrachorda omnia quidem et sunt, et vocanda
+        sunt principalia, eoquod omnium specierum, modorum, troporum in se continent vim, ordinem
+        atque naturam: sed in his omnibus unum deprehenditur, a quo caetera nomen et vim,
+        dignitatemque, et ipsum Esse suum sortiuntur: non illud, quod Mercurius invenisse dicitur,
+        id est, meson; neque illud, quod ab antiquis Musicis hypaton est appellatum; sed neque hoc,
+        quod moderni sapientes primum esse affirmant, id est, finalium.</p>
+      <p xml:id="WILMU0014">Othlohus. Quod illud sit, velociter quaeso pronunties, ne cupidissimum
+        vel ad momentum suspendas.</p>
+      <p xml:id="WILMU0015">Wilhelmus. Illud est, quod natura, immo naturae auctor, primo per
+        quadrupla proferri voluit, dico autem tetrachordum gravium. Ex hoc nimirum, quia caetera
+        veluti fonte quodam derivantur, nomen principalitatis effectumque naturae mirabilem ab ipso
+        mutuantur. Namque tetrachorda finalium, superiorum, excellentiam, nihil aliud sunt, nisi
+        huius quaterna positio, sive terna repetitio. Quod multiplicibus ex causis principale vocari
+        videtur: in primis, quia primum est omnium; secundo, quod primis principalium tetrachordorum
+        nervis clauditur; tertio, quod troporum differentiae ex eo producuntur, si harmonia infra
+        septem principalia duum tetrachordorum, gravis scilicet et finalis, discrimina coarctatur;
+        quarto quod (in) generali constitutione troporum ex hoc constituitur protus, sicut a finali
         tetrardus; quinto, quod omnis specierum naturalis ordo et calculatio, ipsa etiam caetera
         tria tetrachorda, totaque, ut praediximus, harmonia, sed et quatuor troporum elementa sive
         mutatoria, ex ipso quasi quodam naturae fonte producuntur et derivantur. Quorum quaedam ad
         praesens exponuntur, quaedam vero post suis in locis plenius exponenda reservantur.</p>
       <p xml:id="WILMU0016">IV. Ex quibus causis vocentur principalia.</p>
-      <p xml:id="WILMU0017">Primum autem et omnium, quia mira et naturali quadam investigatione, non <pb n="[157]"/>solum ante alia tetrachorda, sed ante omnia minorum sonorum intervalla statim
-        in ipso mensurandi monochordi effulget initio. Tanta enim vis et virtus inest proportioni
-        quadruplae, ut quidquid per eam fiat, totum nomine, voce et dignitate sit primum. Itaque
-        monochordo in quatuor spatia primitus diviso, primum spatium est quasi vacuum, secundum
-        diapason, tertium diapente, quartum idem sibi vendicat diatessaron. Caeterum si ex altera
-        parta versa vice mensura incipiatur ipsum tetrachordum, harmoniae totius manifestum erit
-        primordium. Sed haec tria, id est, diatessaron, diapente, diapason inter omnia intervalla
-        nomine et dignitate prima esse et earumdem consonantiarum primas species in eisdem spatiis
-        consistere, ipsa etiam puncta singulorum principalium tetrachordorum, solo primo
-        excellentium puncto praetermisso, primas voces efficere, scire volentibus liquet. Primis
-        etiam chordis clauditur, quia cum in quatuor tetrachordis quatuor sint primae, quatuor
-        secundae, quatuor tertiae, quatuor quartae, ipsum diatessaron non solum inter primas, sed
-        etiam inter primarum primas locatur. His ergo aliisque adhuc exponendis causis merito et
-        ipsi, et ab ipso aliis ex ipso ita, ut dictum est, manantibus tetrachordis nomen conceditur
-        principalitatis. Sed competens narrationis ordo iam cum supernae illustrationis auxilio
-        intueri nos admonet, quantum vim potentiamque naturae vel ipsum in se contineat, vel
-        caeteris ex se profluentibus tetrachordis mirum in modum transfundat.</p>
+      <p xml:id="WILMU0017">Primum autem et omnium, quia mira et naturali quadam investigatione, non
+          <pb n="[157]"/>solum ante alia tetrachorda, sed ante omnia minorum sonorum intervalla
+        statim in ipso mensurandi monochordi effulget initio. Tanta enim vis et virtus inest
+        proportioni quadruplae, ut quidquid per eam fiat, totum nomine, voce et dignitate sit
+        primum. Itaque monochordo in quatuor spatia primitus diviso, primum spatium est quasi
+        vacuum, secundum diapason, tertium diapente, quartum idem sibi vendicat diatessaron.
+        Caeterum si ex altera parta versa vice mensura incipiatur ipsum tetrachordum, harmoniae
+        totius manifestum erit primordium. Sed haec tria, id est, diatessaron, diapente, diapason
+        inter omnia intervalla nomine et dignitate prima esse et earumdem consonantiarum primas
+        species in eisdem spatiis consistere, ipsa etiam puncta singulorum principalium
+        tetrachordorum, solo primo excellentium puncto praetermisso, primas voces efficere, scire
+        volentibus liquet. Primis etiam chordis clauditur, quia cum in quatuor tetrachordis quatuor
+        sint primae, quatuor secundae, quatuor tertiae, quatuor quartae, ipsum diatessaron non solum
+        inter primas, sed etiam inter primarum primas locatur. His ergo aliisque adhuc exponendis
+        causis merito et ipsi, et ab ipso aliis ex ipso ita, ut dictum est, manantibus tetrachordis
+        nomen conceditur principalitatis. Sed competens narrationis ordo iam cum supernae
+        illustrationis auxilio intueri nos admonet, quantum vim potentiamque naturae vel ipsum in se
+        contineat, vel caeteris ex se profluentibus tetrachordis mirum in modum transfundat.</p>
       <p xml:id="WILMU0018">V. Quod a tetrachordo gravium caetera nascantur.</p>
-      <p xml:id="WILMU0019">Igitur a principio repetens, non in ea, quae stultitia est apud Deum, sed in
-        ea, quae superborum et sublimium colla philosophorum calcat, sapientia videtur, quia omnis
-        musicae artis disciplina, totaque monochordi structura, ex illo, quod gravium vocant, ego
-        autem principale nomino, producitur tetrachordo. Hoc siquidem in inferiori diapason
+      <p xml:id="WILMU0019">Igitur a principio repetens, non in ea, quae stultitia est apud Deum,
+        sed in ea, quae superborum et sublimium colla philosophorum calcat, sapientia videtur, quia
+        omnis musicae artis disciplina, totaque monochordi structura, ex illo, quod gravium vocant,
+        ego autem principale nomino, producitur tetrachordo. Hoc siquidem in inferiori diapason
         duplicatum generat ex se tetrachordum finalium, et ex his duobus procedunt septem
         principalia vocum discrimina. Nam septies septena diversa discrimina vocum in monochordo
         reperiuntur. Et ipsa denuo in superiori diapason repetita, phthongo nete hyperboleon
@@ -211,31 +225,32 @@
         noveris. <pb n="[159]"/>Qualiter autem biformes sint in dispositione troporum, plenius
         clarebit; sunt namque inter praedicta tetrachorda quaedam, quae comparata proferunt ex se
         species diatessaron: quaedam item sunt, quae collata diapente species ex se producunt.</p>
-      <p xml:id="WILMU0022">VII. In quibus chordis species diatessaron, diapente et diapason naturaliter
-        consistant.</p>
-      <p xml:id="WILMU0023">Videamus ergo, quae sint illa, et qualiter ex ipsis probabili ratione absque
-        ordinis confusione, plano itinere ac sine offendiculo procedant. Ex naturali coadunatione
-        tetrachordorum principalis ac finalis omnes diatessaron species prodeunt. Prima ergo gravium
-        et prima finalium depromunt primam; secunda item gravium et secunda finalium reddunt
-        secundam; iterum tertia gravium et tertia finalium proferunt tertiam; quarta item gravium et
-        quarta finalium vice quartae iterum repraesentant primam, sive, ut verius dicamus, in forma
-        primae retinent quartam. Quae licet specie prima esse videatur, harmoniae tamen natura
-        diligentius perspecta, triplo quarta esse declaratur, primo quod inter quartas continetur,
-        secundo quod in generali troporum dispositione, ut praediximus, pertinet ad tetrardum,
-        tertio quod contraria est primae, quoniam sicut melodia a prima intenditur, ita a quarta
-        semper remittitur, ut in hoc eodem finalium tetrachordo haec testantur exempla. Protus
-        antiphona fac mecum. antiphona a bimatu. Tetrardus antiphona dabo in Sion. Iudaea.</p>
-      <p xml:id="WILMU0024">Media item tetrachorda, finalium dico, et superiorum, si conferantur, omnes
-        diapente species eodem naturae et ordinis decore nascuntur. Nam prima finalium et prima
-        superiorum continent primam, et utriusque tetrachordi secundae secundam, tertiae tertiam, et
-        quartae concludunt quartam. Ultima bina, quae restant tetrachorda, superiorum scilicet et
-        excellentium, si comparentur, diatessaron item reddunt species, quemadmodum et prima, quia,
-        sicut dictum est, eadem sunt in natura. Prima superiorum et prima excellentium demonstrant
-        primam, secundae secundam, tertiae tertiam, quartaeque iterum in specie primae continent
-        quartam. Ergo si diatessaron species inter illa, quae ad diapente, vel diapente species
-        inter illa, quae ad diatessaron pertinent, quaesieris, offendiculum incurris, quia ratum
-        ordinem earum invenire non poteris. Sed ut manifestius, quod dicimus animadvertas, si quo in
-        loco praeter illa, quae exposita sunt, species easdem repereris, minus regulares esse
+      <p xml:id="WILMU0022">VII. In quibus chordis species diatessaron, diapente et diapason
+        naturaliter consistant.</p>
+      <p xml:id="WILMU0023">Videamus ergo, quae sint illa, et qualiter ex ipsis probabili ratione
+        absque ordinis confusione, plano itinere ac sine offendiculo procedant. Ex naturali
+        coadunatione tetrachordorum principalis ac finalis omnes diatessaron species prodeunt. Prima
+        ergo gravium et prima finalium depromunt primam; secunda item gravium et secunda finalium
+        reddunt secundam; iterum tertia gravium et tertia finalium proferunt tertiam; quarta item
+        gravium et quarta finalium vice quartae iterum repraesentant primam, sive, ut verius
+        dicamus, in forma primae retinent quartam. Quae licet specie prima esse videatur, harmoniae
+        tamen natura diligentius perspecta, triplo quarta esse declaratur, primo quod inter quartas
+        continetur, secundo quod in generali troporum dispositione, ut praediximus, pertinet ad
+        tetrardum, tertio quod contraria est primae, quoniam sicut melodia a prima intenditur, ita a
+        quarta semper remittitur, ut in hoc eodem finalium tetrachordo haec testantur exempla.
+        Protus antiphona fac mecum. antiphona a bimatu. Tetrardus antiphona dabo in Sion.
+        Iudaea.</p>
+      <p xml:id="WILMU0024">Media item tetrachorda, finalium dico, et superiorum, si conferantur,
+        omnes diapente species eodem naturae et ordinis decore nascuntur. Nam prima finalium et
+        prima superiorum continent primam, et utriusque tetrachordi secundae secundam, tertiae
+        tertiam, et quartae concludunt quartam. Ultima bina, quae restant tetrachorda, superiorum
+        scilicet et excellentium, si comparentur, diatessaron item reddunt species, quemadmodum et
+        prima, quia, sicut dictum est, eadem sunt in natura. Prima superiorum et prima excellentium
+        demonstrant primam, secundae secundam, tertiae tertiam, quartaeque iterum in specie primae
+        continent quartam. Ergo si diatessaron species inter illa, quae ad diapente, vel diapente
+        species inter illa, quae ad diatessaron pertinent, quaesieris, offendiculum incurris, quia
+        ratum ordinem earum invenire non poteris. Sed ut manifestius, quod dicimus animadvertas, si
+        quo in loco praeter illa, quae exposita sunt, species easdem repereris, minus regulares esse
         noveris, eoquod uno eodemque minus includuntur numero.</p>
       <p xml:id="WILMU0025">Videsne, frater carissime! quomodo in hac nostra specierum constitutione
         ipsarum specierum et chordarum tam nominis quam dignitatis, ut dictum est, naturalis ordo
@@ -259,8 +274,8 @@
         institutionem spectantium, primae ex principalis tetrachordi prima, sic omnes secundae ex
         ipsius secunda, sic tertiae ex tertia, et quartae ex quarta quasi ex quatuor diversae
         naturae elementis producuntur, sive nata tonis derivantur.</p>
-      <p xml:id="WILMU0026">Othlohus. Placent cuncta admodum quae dicis, et non solum haec perpendo, sed
-        et alia quaedam prius obscura iam ex eorum illustratione satis perspicaciter video, quae
+      <p xml:id="WILMU0026">Othlohus. Placent cuncta admodum quae dicis, et non solum haec perpendo,
+        sed et alia quaedam prius obscura iam ex eorum illustratione satis perspicaciter video, quae
         dudum interrogassem, nisi quod novarum rerum et dulcedine captus, et admiratione attonitus
         iocundissimam verborum tuorum seriem interrumpere nolui. Video inquam, non leviter peccasse
         quemdam ex modernis, quia species diatessaron et diapente constituens, primae speciei
@@ -278,30 +293,31 @@
         ordinem specierum earumdem statueris ascendendo.</p>
       <p xml:id="WILMU0027">
         <pb n="[161]"/>VIII. Quare a quibusdam species descendendo disponantur.</p>
-      <p xml:id="WILMU0028">Wilhelmus. A quibuscumque id factum inveneris, fecundum remissionem, quae se
-        species magis declarat cantando, ordinatum esse noveris, non secundum intensionem, licet
-        intensio ubique prior sit quam remissio, ut in arcu, ut in sagitta sursum directa, ut in
-        pluvia; haec enim et huiusmodi omnia prius intenduntur, quam illo, unde procedebant,
+      <p xml:id="WILMU0028">Wilhelmus. A quibuscumque id factum inveneris, fecundum remissionem,
+        quae se species magis declarat cantando, ordinatum esse noveris, non secundum intensionem,
+        licet intensio ubique prior sit quam remissio, ut in arcu, ut in sagitta sursum directa, ut
+        in pluvia; haec enim et huiusmodi omnia prius intenduntur, quam illo, unde procedebant,
         remittantur. Denique et species singulae ordine praedicto de tetrachordo in tetrachordum
         intensae si remittantur, initio sumto ab ultimis, ubi terminum earum statuimus, omnes eadem
         via, qua venerunt, ad principale tetrachordum velut ad originis suae fontem recurrunt;
         quamquam omnis melodia a principali digressa, a finali, ut praediximus, moderetur, regatur
         iam et diiudicetur.</p>
-      <p xml:id="WILMU0029">Othlohus. Nunc igitur, dilectissime! quia et in hac quaestione satisfecisti,
-        post pulcherrimam e naturali thalamo suo specierum diatessaron et diapente productionem,
-        post tetrachordorum processionem, post subtilem primarum, secundarum, tertiarum et quartarum
-        chordarum ex tetrachordo principali, ac per hoc harmoniae totius, ut promiseras,
-        derivationem, diapason quoque species eodem quaeso decore, quo et minores, facias
-        procedere.</p>
+      <p xml:id="WILMU0029">Othlohus. Nunc igitur, dilectissime! quia et in hac quaestione
+        satisfecisti, post pulcherrimam e naturali thalamo suo specierum diatessaron et diapente
+        productionem, post tetrachordorum processionem, post subtilem primarum, secundarum,
+        tertiarum et quartarum chordarum ex tetrachordo principali, ac per hoc harmoniae totius, ut
+        promiseras, derivationem, diapason quoque species eodem quaeso decore, quo et minores,
+        facias procedere.</p>
       <p xml:id="WILMU0030">VIIII. De Speciebus Diapason.</p>
-      <p xml:id="WILMU0031">Wilhelmus. De speciebus diapason quid amplius nosse laboras, nisi quod omnes
-        Musici asseverant, scilicet septem esse secundum septem discrimina vocum, et quia eadem
-        discrimina in monochordo geminata sunt, primam a primo discrimine ad primum, id est, ab A.
-        ad a. secundum a secundo ad secundam, id est, a B. in [sqb]. ascendere, sicque semitonio vel
-        tono per ordines litterarum scandere, donec septima in g. superacuta finiatur.</p>
-      <p xml:id="WILMU0032">Othlohus. Si tu, quem naturae Niliaco fonte occultioris investigatoribus non
-        paucis facile pertulerim (lege praetulerim) hanc specierum diapason constitutionem ea, qua
-        promisisti, ratione probaveris, id est, quod a principalibus tetrachordis inoffenso
+      <p xml:id="WILMU0031">Wilhelmus. De speciebus diapason quid amplius nosse laboras, nisi quod
+        omnes Musici asseverant, scilicet septem esse secundum septem discrimina vocum, et quia
+        eadem discrimina in monochordo geminata sunt, primam a primo discrimine ad primum, id est,
+        ab A. ad a. secundum a secundo ad secundam, id est, a B. in [sqb]. ascendere, sicque
+        semitonio vel tono per ordines litterarum scandere, donec septima in g. superacuta
+        finiatur.</p>
+      <p xml:id="WILMU0032">Othlohus. Si tu, quem naturae Niliaco fonte occultioris investigatoribus
+        non paucis facile pertulerim (lege praetulerim) hanc specierum diapason constitutionem ea,
+        qua promisisti, ratione probaveris, id est, quod a principalibus tetrachordis inoffenso
         naturalis ordinis pede progressa sit, nihil est, quod ultra de his quaerere laborem.</p>
       <p xml:id="WILMU0033">Wilhelmus. Antiqui et moderni musicae artis auctores multa scripsere
         probabilia, multa utilia et valde necessaria, quin immo primas eiusdem artis invenere venas,
@@ -343,8 +359,8 @@
         primis minorum consonantiarum speciebus instituuntur? An quae a secundis, quaeve a tertiis,
         five a quartis eodem modo informantur, non sunt merito secundae, vel tertiae, vel
         quartae?</p>
-      <p xml:id="WILMU0034">Othlohus. Potenti et insuperabili ratione probasti ea, quae promisisti: sed
-        perge, quaeso, velociter, ut Domino iuvante ad effectum operis pervenire valeas.</p>
+      <p xml:id="WILMU0034">Othlohus. Potenti et insuperabili ratione probasti ea, quae promisisti:
+        sed perge, quaeso, velociter, ut Domino iuvante ad effectum operis pervenire valeas.</p>
       <p xml:id="WILMU0035">Wilhelmus. Itaque octo speciebus naturaliter constitutis illorum, quos
         abusive tonos dicunt, octo troporum naturalis oritur dispositio, ita ut quatuor priores in
         quatuor subiugales, et quatuor sequentes in quatuor autenticos transeant. Si enim tropi, qui
@@ -379,12 +395,12 @@
         ipsum complentur: ita principalium chordarum operatio sub genere quidem, quod est musica
         disciplina, patitur (partitur) coaequevas, eandem tamen quodammodo peragit, disponit et
         moderatur.</p>
-      <p xml:id="WILMU0038">Othlohus. Ego iam factam specierum omnium constitutionem dispositionemque
-        troporum ita perfectissimam crediderim, ut si quid amplius addatur, superfluum sit, non
-        necessarium, quippe quae specierum primas inter primas chordarum collocavit, secundas inter
-        secundas, tertias inter tertias, quartas inter quartas; et quae tropos ita naturaliter
-        disposuit, ut protus cum subiugali suo ex utrisque primis speciebus diapason consistat,
-        deuterus ex secundis, tritus ex tertiis, tetrardus ex quartis.</p>
+      <p xml:id="WILMU0038">Othlohus. Ego iam factam specierum omnium constitutionem
+        dispositionemque troporum ita perfectissimam crediderim, ut si quid amplius addatur,
+        superfluum sit, non necessarium, quippe quae specierum primas inter primas chordarum
+        collocavit, secundas inter secundas, tertias inter tertias, quartas inter quartas; et quae
+        tropos ita naturaliter disposuit, ut protus cum subiugali suo ex utrisque primis speciebus
+        diapason consistat, deuterus ex secundis, tritus ex tertiis, tetrardus ex quartis.</p>
       <p xml:id="WILMU0039">
         <pb n="[164]"/>Wilhelmus. Nulla in his, neque in aliis adhuc proferendis absque plena
         principalium chordarum operatione poterit esse profectio: quam operationem facilius tandem
@@ -393,48 +409,48 @@
         sortiantur nomina, et quomodo plus in maioribus, in minoribus minus operentur, quod Dominus
         dederit, exposuero.</p>
       <p xml:id="WILMU0040">XI. Qua sint principales chordae, et quae operationes ipsarum.</p>
-      <p xml:id="WILMU0041">Eaedem ergo chordae, quae in constitutione specierum primae dicuntur, quia
-        primam speciem includunt; et quae secundae, quia secundam; et quae tertiae, quia tertiam; et
-        quae nominantur quartae, quia quartam determinant, in dispositione troporum principales
-        appellantur: eo quod, licet in caeteris omnibus generaliter maximam, ut praefatus sum,
-        habeant potentiam, in hac tamen specialiter mira et ineffabili dignitate principantur, et in
-        ipsa, utpote spatiis maiore, multo plura, quam in constitutione specierum diatessaron vel
-        diapente operantur. Diatessaron enim vel diapente, quae singulae per se tetrachordae vel
-        pentachordae sunt, in primis aut secundis, vel tertiis sive quartis chordis incipi tantum et
-        finiri sufficit: diapason vero, unde tropi disponuntur, et quae singulae ex utrisque, id
-        est, diatessaron et diapente consistunt, octochordae sunt; et ideo quasi maiores spatio
-        eisdem principalibus chordis non solum initiantur et terminantur, verum etiam in medio sui
-        variis distinguuntur modis. Quatuor namque species diapason, quae subiugales totidem
-        statuunt medias, huiusmodi quaerunt distinctiones, ut ipsae medietate diapente habeant
-        supra, et diatessaron infra. Illae autem, quae in autenticos transeunt, ita mediandae sunt,
-        ut diatessaron superius, et diapente sistant inferius. Et ut iam non de speciebus diapason,
-        sed de tropis, qui ex his constant, loquamur, et quemadmodum ipsae in tropos transferuntur:
-        sic nostra quoque ad ipsis ad eos vertatur collatio.</p>
+      <p xml:id="WILMU0041">Eaedem ergo chordae, quae in constitutione specierum primae dicuntur,
+        quia primam speciem includunt; et quae secundae, quia secundam; et quae tertiae, quia
+        tertiam; et quae nominantur quartae, quia quartam determinant, in dispositione troporum
+        principales appellantur: eo quod, licet in caeteris omnibus generaliter maximam, ut
+        praefatus sum, habeant potentiam, in hac tamen specialiter mira et ineffabili dignitate
+        principantur, et in ipsa, utpote spatiis maiore, multo plura, quam in constitutione
+        specierum diatessaron vel diapente operantur. Diatessaron enim vel diapente, quae singulae
+        per se tetrachordae vel pentachordae sunt, in primis aut secundis, vel tertiis sive quartis
+        chordis incipi tantum et finiri sufficit: diapason vero, unde tropi disponuntur, et quae
+        singulae ex utrisque, id est, diatessaron et diapente consistunt, octochordae sunt; et ideo
+        quasi maiores spatio eisdem principalibus chordis non solum initiantur et terminantur, verum
+        etiam in medio sui variis distinguuntur modis. Quatuor namque species diapason, quae
+        subiugales totidem statuunt medias, huiusmodi quaerunt distinctiones, ut ipsae medietate
+        diapente habeant supra, et diatessaron infra. Illae autem, quae in autenticos transeunt, ita
+        mediandae sunt, ut diatessaron superius, et diapente sistant inferius. Et ut iam non de
+        speciebus diapason, sed de tropis, qui ex his constant, loquamur, et quemadmodum ipsae in
+        tropos transferuntur: sic nostra quoque ad ipsis ad eos vertatur collatio.</p>
       <p xml:id="WILMU0042">XII. Naturalis Dispositio troporum separatim in VIII. coniunctim in
         IIII.</p>
-      <p xml:id="WILMU0043">Octo troporum singuli unam tantummodo mediam distinctionem habent, iuncti
-        vero et naturaliter positi duas. Quod ut enucleatius proferatur, omnes hic pariter
+      <p xml:id="WILMU0043">Octo troporum singuli unam tantummodo mediam distinctionem habent,
+        iuncti vero et naturaliter positi duas. Quod ut enucleatius proferatur, omnes hic pariter
         ordinentur, et separatim in octo, et coniunctim in quatuor, ut per initia et fines,
         mediasque distinctiones eorum, plena in eis principalium chordarum, specialisque regiminis
         dignitas exprimatur. Autenticus protus, qui est a D. in d. mediam distinctionem habet in a;
         subiugalis eius, qui est ab A. in a. medium distinctionem ponit in D. qui si iungantur, ut
         indifferenter sit protus, ascendit ab A. in d. duas continens distinctiones medias, id est,
         D. et a.</p>
-      <p xml:id="WILMU0044">Autenticus deuterus, qui est ab E. in e. medium distinctionem sortitur in
-        [sqb]. subiugalis eius, qui est B. in b. mediam distinctionem locat in E. qui si adunentur,
-        ut continuatim sit deuterus, scandit a B. <pb n="[165]"/>in e. duas recipiens distinctiones
-        medias, id est, E. et b.</p>
+      <p xml:id="WILMU0044">Autenticus deuterus, qui est ab E. in e. medium distinctionem sortitur
+        in [sqb]. subiugalis eius, qui est B. in b. mediam distinctionem locat in E. qui si
+        adunentur, ut continuatim sit deuterus, scandit a B. <pb n="[165]"/>in e. duas recipiens
+        distinctiones medias, id est, E. et b.</p>
       <p xml:id="WILMU0045">Autenticus tritus, qui est ab F. in f. mediam distinctionem elicit in c.
         subiugalis eius, qui est a C. in c. mediam distinctionem signat in F. qui si copulentur, ut
         uniformiter sit tritus, surgit a C. in f. duas capiens distinctiones medias, id est F. et
         c.</p>
-      <p xml:id="WILMU0046">Autenticus tetrardus, qui est a G. in g. mediam distinctionem delibat in d.
-        subiugalis eius, qui est a D. in d. mediam distinctionem notat in G. qui si connectantur, ut
-        naturaliter unus sit tetrardus, attingit a D. in g. duas determinans distinctiones medias,
-        id est G. et d. Haec autem troporum dispositio, licet distincte pleniterque, ut arbitror,
-        iam peracta sit; ne forte ipsa sui plenitudine aciem intellectus, dum singula penetrare
-        laborat, quovis nubilo perplexionis obtundat; manifestius adhuc tam corporis tam cordis visu
-        figurae huius perspicacia subiiciatur. Vide Figuram A.</p>
+      <p xml:id="WILMU0046">Autenticus tetrardus, qui est a G. in g. mediam distinctionem delibat in
+        d. subiugalis eius, qui est a D. in d. mediam distinctionem notat in G. qui si connectantur,
+        ut naturaliter unus sit tetrardus, attingit a D. in g. duas determinans distinctiones
+        medias, id est G. et d. Haec autem troporum dispositio, licet distincte pleniterque, ut
+        arbitror, iam peracta sit; ne forte ipsa sui plenitudine aciem intellectus, dum singula
+        penetrare laborat, quovis nubilo perplexionis obtundat; manifestius adhuc tam corporis tam
+        cordis visu figurae huius perspicacia subiiciatur. Vide Figuram A.</p>
       <p xml:id="WILMU0047">[GSII:Figura A. Paginula II. ad paginam 165; text: Unusquisque quatuor
         troporum totus, id est indivisius, constat ex omibus, id est, ex quatuor principalibus
         proprietatis suae chordis, et speciebus, utputa protus ex prima gravium, prima finalium,
@@ -452,8 +468,8 @@
           <graphic url="/images/WILMU_01GF.gif"/>
         </figure></p>
       <p xml:id="WILMU0048">XIII.</p>
-      <p xml:id="WILMU0049">In qua nimirum figura totam susceptae a nobis materiae abyssum, quae iam in
-        satis latum constitutionis omnium specierum ac dispositionis troporum aequor collationis
+      <p xml:id="WILMU0049">In qua nimirum figura totam susceptae a nobis materiae abyssum, quae iam
+        in satis latum constitutionis omnium specierum ac dispositionis troporum aequor collationis
         nostrae ductu diffusa est, velut infra parvissimi laci marginem naturali quodam aestu
         receptum collectumque mirabere. Habet enim quaternos tramites in vice quatuor naturalium
         troporum, id est, cum subiugalibus unitorum positos, quorum singuli eiusdem tropi, cuius
@@ -474,8 +490,9 @@
         hae duae species diapason protum indifferenter conficiant duabus mediis distinctionibus
         dilatatum, et quam omnino mirando moderamine naturae omnis primarum chordarum operatio solum
         protum constituat.</p>
-      <p xml:id="WILMU0050">Similiter in secundo tramite, qui deutero praesignatur, secundis omnibus;
-        atque in tertio, qui trito praenotatur, omnibus tertiis; nec non in quarto, qui <pb n="[166]"/>tetrardo praescribitur, omnibus quartis eadem, qua dixi, spatiorum proportione
+      <p xml:id="WILMU0050">Similiter in secundo tramite, qui deutero praesignatur, secundis
+        omnibus; atque in tertio, qui trito praenotatur, omnibus tertiis; nec non in quarto, qui <pb
+          n="[166]"/>tetrardo praescribitur, omnibus quartis eadem, qua dixi, spatiorum proportione
         ordinatis, non tardo hebetantis animi aenigmate, sed momentanea sensibilis obtutus
         perlustratione, quasi facie ad faciem cognoscitur: quia unaquaeque ipsarum principalium
         chordarum series in illo tropo, cui adscripta est, eamdem quam primae in proto regendi
@@ -484,9 +501,9 @@
         in caeteris. Et ut hoc similiter corporeo videas intuitu, singulos figurae nostrae tramites,
         quos in quatuor naturalium troporum vice positos brevi principalium chordarum descriptione
         constrinximus, in regularis licentiae diffusionem relaxemus hoc modo. Vide Figuram B.</p>
-      <p xml:id="WILMU0051">[GSII:Figura B. Paginula II. ad paginam 166; text: Domni Willehelmi Abbatis
-        Theorema Troporum, seu Cribrum Monochordi. Hypodorius. Hypolidius. Hypomixolidius. Dorius.
-        Frigius. Lidius. Mixolidius. Protus. Deuterus. Tritus. Tetrardus. Graves. Finales.
+      <p xml:id="WILMU0051">[GSII:Figura B. Paginula II. ad paginam 166; text: Domni Willehelmi
+        Abbatis Theorema Troporum, seu Cribrum Monochordi. Hypodorius. Hypolidius. Hypomixolidius.
+        Dorius. Frigius. Lidius. Mixolidius. Protus. Deuterus. Tritus. Tetrardus. Graves. Finales.
         Superiores. Excellentes. [Gamma]. A. synemmenon, B. C. D. E. F. G. a. b. [sqb]. c. d. e. f.
         g. aa. bb. [sqb][sqb]. cc. dd.] <figure>
           <graphic url="/images/WILMU_02GF.gif"/>
@@ -519,8 +536,8 @@
         biformes <pb n="[167]"/>fiant ac duplices. Sane tres modi biformitatis atque duplicitatis
         eoram patenter hic ostenduntur.</p>
       <p xml:id="WILMU0056">XV. Unde biformes et duplices sint D. et d.</p>
-      <p xml:id="WILMU0057">Primus, quod in ordine sive numero chordarum principalium tetrachordorum et
-        ultimae sunt gravium ac superiorum, et primae finalium ac excellentium. Secundus, quod in
+      <p xml:id="WILMU0057">Primus, quod in ordine sive numero chordarum principalium tetrachordorum
+        et ultimae sunt gravium ac superiorum, et primae finalium ac excellentium. Secundus, quod in
         dispositione troporum eaedem uno ac eodem spatio et autenticum protum et subiugalem
         tetrardum includunt. Tertius, quod in differentia modorum, id est, agnitione troporum eaedem
         et primum modum instituunt et quartum: qui tertius duplicitatis modus interim tibi erit
@@ -538,8 +555,8 @@
         ac modernorum potissimi Otto et Guido offenderint, in memomoriam reducamus.</p>
       <p xml:id="WILMU0058">XVI. Qualiter Boetius et caeteri Musici in D. et d. erraverint, et quod
         duplex A. necessario assumatur.</p>
-      <p xml:id="WILMU0059">Boetius in dispositione octo figuraliter descripta, ubi tropos primis eorum
-        nominibus, protum autenticum dorium, deuterum phrygium, tertium lydium, tetrardum
+      <p xml:id="WILMU0059">Boetius in dispositione octo figuraliter descripta, ubi tropos primis
+        eorum nominibus, protum autenticum dorium, deuterum phrygium, tertium lydium, tetrardum
         mixolydium, subiugales hypodorium, hypophrygium, hypolidium, hypomixolydium vocans in tantum
         deviavit, ut cum subiugales inde dicantur, quod subiugati et subditi sive suppositi sint
         autenticis, ipsi subiugalem tetrardi, quem nos octavum dicimus, autentico suo mixolydio
@@ -582,10 +599,10 @@
         id est, sexdecim chordis infra spatium quatuordecim chordarum existere, iam, ut arbitror,
         manifestum est.</p>
       <p xml:id="WILMU0060">XVII. Qualiter moderni erraverint in eisdem chordis.</p>
-      <p xml:id="WILMU0061">Hactenus de offensionis loco secundum veteres. Iam videamus de ipso secundum
-        illos, quos proposuimus modernos, et hoc eo districtius, qua latius de antiquorum scandalo
-        planae intelligentiae causa tractavimus. Otto in enchiriade sua satis declarat, quia solus
-        eumdem communis offendiculi locum naturalis ingenii <pb n="[169]"/>sublimitate
+      <p xml:id="WILMU0061">Hactenus de offensionis loco secundum veteres. Iam videamus de ipso
+        secundum illos, quos proposuimus modernos, et hoc eo districtius, qua latius de antiquorum
+        scandalo planae intelligentiae causa tractavimus. Otto in enchiriade sua satis declarat,
+        quia solus eumdem communis offendiculi locum naturalis ingenii <pb n="[169]"/>sublimitate
         deprehenderat; sed dum nimis cantus et quasi caeteris circumspectior circa illum extitit,
         caeteris gravius in ipsum offendit. Solus enim biformes duplicesque D. et d. intellexit, et
         dum hoc distincte aperteque omnibus intelligendum proferre studuit, modum in distinguendo
@@ -619,7 +636,8 @@
         primam, secundam, tertiam et quartam suam, initium quoque ac finem suum in singulis nervis
         pleniter distincteque tribuere voluit, et hac intentione naturalem coadunationem
         coniunctionemque primae ac quartae in D. et d. non satis cauta nec bene provisa
-        interpositione toni disiecit, sicque totius monochordi structuram regulari <pb n="[170]"/>eius ordine disturbato destruxit; et tam eam quae est secundum antiquos atque modernos,
+        interpositione toni disiecit, sicque totius monochordi structuram regulari <pb n="[170]"
+        />eius ordine disturbato destruxit; et tam eam quae est secundum antiquos atque modernos,
         quam eam quae est secundum naturae ipsius auctoritatem, harmoniae speculationem omnem
         confundit. Ut enim ibi quaerentibus manifestum est, nulla vel usualis vel naturalis in eius
         descriptione invenitur constitutio specierum, nulla dispositio troporum, nulla principalium
@@ -628,8 +646,8 @@
         unanimi omnium assertione et insuperabili naturae veritate comprobatur. Haec de venerabilis
         viri Ottonis offensione dicta sufficiant, cui si diutius promisso immorati sumus, propter
         vix solubilem et eluctabilem nodositatis eius difficultatem veniabile putamus.</p>
-      <p xml:id="WILMU0063">Othlohus. Nihil hic praeter utile ac necessarium dixisse argueris: nam quod
-        repetisti quaedam superius dicta, sed ad haec ita prorsus pertinentia, ut sine ipsorum
+      <p xml:id="WILMU0063">Othlohus. Nihil hic praeter utile ac necessarium dixisse argueris: nam
+        quod repetisti quaedam superius dicta, sed ad haec ita prorsus pertinentia, ut sine ipsorum
         illustratione nullo modo pelleretur obscuritatis nebula, (nec) superfluum neque absurdum
         est. Non enim absque re saepius repetitur, quod adeo semper sciendum est, ut si semel
         nesciatur, perutilis multarum ex hoc procedentium rerum scientia evacuetur: unde securior de
@@ -646,20 +664,20 @@
         uno ponit in ordine, et singulis proprium tropum cum subiugali suo attitulat, scilicet
         singulis primis primum cum secundo, singulis secundis tertium cum quarto, singulis tertiis
         quintum cum sexto, singulis quartis septimum cum octavo, hoc modo describens</p>
-      <p class="textFig" xml:id="WILMU0066">I   III   V    I   III   V   VII   I   III    V   I   III   V   VII   I
+      <p class="textFig" xml:id="WILMU0066"
+        >I   III   V    I   III   V   VII   I   III    V   I   III   V   VII   I
         <lb/>A    B    C    D    E    F    G    a   [sqb]  c   d    e    f    g    aa
-        <br/>II  IIII  VI   II  IIII  VI  VIII  II  IIII   VI  II  IIII  VI  VIII  II
-        <lb/></p>
+        <br/>II  IIII  VI   II  IIII  VI  VIII  II  IIII   VI  II  IIII  VI  VIII  II <lb/></p>
       <p xml:id="WILMU0067">In hac igitur descriptione quantum ad id, quod tetrachordis gravium et
-        superiorum quartam suam ademit, et quoad duplicitatem D. et d. non intellexit. Si <pb n="[171]"/>enim intellexisset, utrimque primum cum secundo, et septimum cum octavo pariter
+        superiorum quartam suam ademit, et quoad duplicitatem D. et d. non intellexit. Si <pb
+          n="[171]"/>enim intellexisset, utrimque primum cum secundo, et septimum cum octavo pariter
         annotasset hoc modo:</p>
-      <p class="textFig" xml:id="WILMU0068">VII. I.      VII. I.
-        <br/>    D.           d.
+      <p class="textFig" xml:id="WILMU0068">VII. I.      VII. I. <br/>    D.           d.
         <lb/>VIII. II.   VIII. II. <br/></p>
-      <p xml:id="WILMU0069">Et quod caeteris omnibus tropis indifferentibus quatuor principales chordas
-        tribuens, soli tetrardo nonnisi duas concedit, antiquorum devia secutus est. Quantum ad id
-        vero, quod in eadem descriptione septem vocum discrimina secundum antiquissimos adeo non
-        intendit, quin octavum modum recipiat, et quod eum recipiens inter A. et a. secundum
+      <p xml:id="WILMU0069">Et quod caeteris omnibus tropis indifferentibus quatuor principales
+        chordas tribuens, soli tetrardo nonnisi duas concedit, antiquorum devia secutus est. Quantum
+        ad id vero, quod in eadem descriptione septem vocum discrimina secundum antiquissimos adeo
+        non intendit, quin octavum modum recipiat, et quod eum recipiens inter A. et a. secundum
         Ptolomaeum autentico suo superiorem non ponit, ipsos, post quos abierat, seductos esse
         sentiens quodammodo substitit, nec omnia seductionis eorum vestigia pererrando collegit.
         Rursus quantum ad id, quod eidem octavo modo inter G. et g. id est, in spatio autentici sui,
@@ -667,10 +685,10 @@
         alias bis in ipso communi offendit scandalo, quod quia de modis vocum sive agnitione
         troporum loquens fecisse deprehenditur. Post illa quae nobis Dominus inde loqui concesserit,
         consequentius et ad intelligendum facilius dicetur.</p>
-      <p xml:id="WILMU0070">Othlohus. Quaecumque a te dicta sunt, cum ex lucidissimo narrationis ordine,
-        tum ex manifestissimo figurae tuae iudicio mihi pervidere videar, praeter hoc solum, utrum
-        omnes totius monochordalis descriptionis chordae sint principales, an quaedam, et si omnes,
-        quod verius videtur, utrum simul, an vicissim principales fiant.</p>
+      <p xml:id="WILMU0070">Othlohus. Quaecumque a te dicta sunt, cum ex lucidissimo narrationis
+        ordine, tum ex manifestissimo figurae tuae iudicio mihi pervidere videar, praeter hoc solum,
+        utrum omnes totius monochordalis descriptionis chordae sint principales, an quaedam, et si
+        omnes, quod verius videtur, utrum simul, an vicissim principales fiant.</p>
       <p xml:id="WILMU0071">XIX. Quod ommes chordae, cum sint principales, quomodo sibi invicem
         principentur, et iterum sibi invicem subiiciantur.</p>
       <p xml:id="WILMU0072">Wilhelmus. Si universalis monochordi structura in tetrachorda secundum
@@ -685,15 +703,15 @@
       <p xml:id="WILMU0073">Othlohus. Quanto plura in hunc tractatum dilata sunt, tanto minus ipsi
         aliquid volo interponas; sed protinus non incompetenti, ut mihi videtur, ordine
         incipias.</p>
-      <p xml:id="WILMU0074">Wilhelmus. Consequentem, fateor, observasti ordinem, scilicet ut postquam ex
-        illis quatuor rebus, in quarum notitia summa musicae artis consistit, tres explanavimus,
-        quartam, id est, modos vocum subiungere debeamus. In quo, sicut in omnibus, quia caritati
-        tuae obsecundari libet, primum quid sint modi vocum, et <pb n="[172]"/>quare verius
-        agnitiones troporum dicantur, exponamus, ut eo facilius intellectu capiantur, quaecumque de
-        ipsis dixerimus.</p>
+      <p xml:id="WILMU0074">Wilhelmus. Consequentem, fateor, observasti ordinem, scilicet ut
+        postquam ex illis quatuor rebus, in quarum notitia summa musicae artis consistit, tres
+        explanavimus, quartam, id est, modos vocum subiungere debeamus. In quo, sicut in omnibus,
+        quia caritati tuae obsecundari libet, primum quid sint modi vocum, et <pb n="[172]"/>quare
+        verius agnitiones troporum dicantur, exponamus, ut eo facilius intellectu capiantur,
+        quaecumque de ipsis dixerimus.</p>
       <p xml:id="WILMU0075">XX. De quatuor modis Vocum.</p>
-      <p xml:id="WILMU0076">Modi vocum sunt proprietates specierum cantilenae, id est, troporum. Ipsi
-        enim quatuor tropi, quos naturales et indifferentes dicimus, quatuor sunt species
+      <p xml:id="WILMU0076">Modi vocum sunt proprietates specierum cantilenae, id est, troporum.
+        Ipsi enim quatuor tropi, quos naturales et indifferentes dicimus, quatuor sunt species
         cantilenae, tanta neumarum disparitate ab invicem diversae, ut sicut venerabilis Guido
         testatur, nulla earum alteri in sua sede locum tribuat, neumamque alterius aut numquam
         recipiat aut receptam transformet. Quatuor ergo troporum singuli, quos abusive tonos
@@ -706,17 +724,17 @@
         huius dialogi principio postulasti; scilicet ut, si quid de his venerandus Guido minus
         dixerit, adiiciatur; si quid obscurum, exponatur; si quid non caute, non in ostentationis
         temeritate sed in caritatis obedientia humiliter corrigatur.</p>
-      <p xml:id="WILMU0077">Igitur secundum numerum quatuor naturalium troporum quatuor modi vocum sunt,
-        ex quibus singulis eorumdem troporum singuli, ut dictum est, agnoscuntur, quos dominus Guido
-        sic exponit. Primus modus vocum est, cum vox tono deponitur, et tono semitonio et duobus
-        tonis intenditur, ut A. et D. Secundus modus est, cum vox duobus tonis remissa, semitonio et
-        duobus tonis intenditur, ut B. et E. Tertius modus est, qui semitonio et duobus tonis
-        descendit, duobus vero tonis ascendit, ut C. et F. Quartus vero deponitur tono, surgit autem
-        per duos tonos et semitonium, ut (D. et) G. Post haec subiungens ait: et nota, quod se per
-        ordinem sequuntur; primus in A. secundus in B. tertius in C. itemque primus in D. secundus
-        in E. tertius in F. quartus in G.</p>
-      <p xml:id="WILMU0078">Qui primitus musicam artem invenerunt, vel post compositas chordas diverso
-        modo inventas ea usi sunt, principium monochordi in hypate hypaton, quae inde quoque
+      <p xml:id="WILMU0077">Igitur secundum numerum quatuor naturalium troporum quatuor modi vocum
+        sunt, ex quibus singulis eorumdem troporum singuli, ut dictum est, agnoscuntur, quos dominus
+        Guido sic exponit. Primus modus vocum est, cum vox tono deponitur, et tono semitonio et
+        duobus tonis intenditur, ut A. et D. Secundus modus est, cum vox duobus tonis remissa,
+        semitonio et duobus tonis intenditur, ut B. et E. Tertius modus est, qui semitonio et duobus
+        tonis descendit, duobus vero tonis ascendit, ut C. et F. Quartus vero deponitur tono, surgit
+        autem per duos tonos et semitonium, ut (D. et) G. Post haec subiungens ait: et nota, quod se
+        per ordinem sequuntur; primus in A. secundus in B. tertius in C. itemque primus in D.
+        secundus in E. tertius in F. quartus in G.</p>
+      <p xml:id="WILMU0078">Qui primitus musicam artem invenerunt, vel post compositas chordas
+        diverso modo inventas ea usi sunt, principium monochordi in hypate hypaton, quae inde quoque
         principalis principalium interpretatur, statuentes quatuordecim tantum chordas in
         conficiendis cantilenis habuerunt: postea Ptolomaeus Rex Aegypti vocem proslambanomenos A.
         id est adquisitam aut potius prosmelodon, id est aptum melo in principio apposuit. Hae sunt
@@ -774,8 +792,8 @@
         diatessaron, diapente, diapason; compositae diapason cum diatessaron, diapason cum diapente,
         bis diapason.</p>
       <p xml:id="WILMU0086">XXIII. Unde constent Intervalla.</p>
-      <p xml:id="WILMU0087">Diatessaron constat ex duobus tonis et semitonio, diapente ex tribus tonis
-        et semitonio, diapason ex quinque tonis et duobus semitoniis.</p>
+      <p xml:id="WILMU0087">Diatessaron constat ex duobus tonis et semitonio, diapente ex tribus
+        tonis et semitonio, diapason ex quinque tonis et duobus semitoniis.</p>
       <p xml:id="WILMU0088">XXIIII. Quot sint species earumdem Consonantiarum.</p>
       <p xml:id="WILMU0089">Diatessaron tres species habet, diapente quatuor, diapason septem. Prima
         species diatessaron habet semitonium in medio, ut ab A. in D. Secunda in primo, ut a B. in
@@ -783,8 +801,8 @@
         postea ditonum, ut a D. in a. Secunda in primo semitonium, postea tritonum, ut ab E. in
         [sqb]. Tertia in ultimo post tritonum, ut ab F. in c. Quarta post ditonum semitonium, dehinc
         tonum, ut ab G. in d.</p>
-      <p xml:id="WILMU0090">Ordo specierum diapason secundum positionum litterarum in monochordo habitus
-        est, id est, prima species ab A. in a. secunda a B. in b. tertia a C. in c. et sic
+      <p xml:id="WILMU0090">Ordo specierum diapason secundum positionum litterarum in monochordo
+        habitus est, id est, prima species ab A. in a. secunda a B. in b. tertia a C. in c. et sic
         caeterae.</p>
       <p xml:id="WILMU0091">Exempla intervallorum vel consonantiarum in versibus illustrissimi viri
         Hermanni patebunt:</p>
@@ -792,14 +810,16 @@
         semitonium, tonus, semiditonus, ditonus, diatessaron, diapente, diapente cum semitonio,
         diapente cum tono.</p>
       <p xml:id="WILMU0093">XXV. Quibus proportionibus constent Intervalla.</p>
-      <p xml:id="WILMU0094">Diatessaron constat ex sesquitertia proportione, diapente ex sesquialtera,
-        diapason ex dupla, tonus ex sesquioctava, semitonii partes apotomae dicuntur.</p>
+      <p xml:id="WILMU0094">Diatessaron constat ex sesquitertia proportione, diapente ex
+        sesquialtera, diapason ex dupla, tonus ex sesquioctava, semitonii partes apotomae
+        dicuntur.</p>
       <p xml:id="WILMU0095">XXVI. In quot chordas ascendat vel descendat quisque Troporum.</p>
-      <p xml:id="WILMU0096">Quilibet autenticus tropus a finali suo in decimam chordam licenter, et non
-        ulterius, praeter tetrardum, qui nonnisi in nonum phthongum, ascendit; infra <pb n="[175]"/>finalem vero autentus quisque in vicinum vel tertium, numquam in quartum, descendit, nisi
-        sit communis cantus, qui est tropus indifferens. Plagae vero a finali ultra diapente in
-        sextam, raro vero in septimam vocem scandunt; infra finalem autem ad diatessaron tonum
-        assumunt.</p>
+      <p xml:id="WILMU0096">Quilibet autenticus tropus a finali suo in decimam chordam licenter, et
+        non ulterius, praeter tetrardum, qui nonnisi in nonum phthongum, ascendit; infra <pb
+          n="[175]"/>finalem vero autentus quisque in vicinum vel tertium, numquam in quartum,
+        descendit, nisi sit communis cantus, qui est tropus indifferens. Plagae vero a finali ultra
+        diapente in sextam, raro vero in septimam vocem scandunt; infra finalem autem ad diatessaron
+        tonum assumunt.</p>
       <p xml:id="WILMU0097">XXVII. Cuius Tropi sint quaelibet chordae.</p>
       <p xml:id="WILMU0098">Singulorum tetrachordorum primae principales chordae sunt proti et eius
         plagae, scilicet A. D. a. d. deuteri secundae B. E. [sqb]. e. triti tertiae C. F. c. f.
@@ -817,52 +837,55 @@
         eisdem chordis troporum neumae distinguuntur et producuntur. Quarto quod secundae et quartae
         principales chordae concludunt autenticos, primae vero et tertiae subiugales.</p>
       <p xml:id="WILMU0100">XXVIII. De sedibus Troporum.</p>
-      <p xml:id="WILMU0101">Sedes vel metae troporum octo, legitimae autem nonnisi in quatuor locis esse
-        noscuntur, id est in C. in G. in a. in c. Videamus igitur, quot metae vel intervalla metarum
-        in monochordo fieri possint, et cur in praefatis locis magis legitimae esse dicantur, quam
-        in aliis, sicut superius dictum est. Secundum melodiae modum vel institutionem troporum
-        quatuor tetrachorda in monochordo firmantur, id est gravium A. B. C. D. finalium D. E. F. G.
-        superiorum a. b. c. d. excellentium d. e. f. g. cuiuscumque horum tetrachordorum tonum ex
-        utraque parte addideris, oritur tibi aliqua meta troporum, utpote a gravibus prima meta est
-        a [Gamma]. in E; a finalibus secunda a C. in a: a superioribus tertia a G. in e: ab
-        excellentibus quarta a c. in aa. quinta per synemmenon nasci poterit ab F. in d. Prima
-        igitur meta ab [Gamma]. in E. quia regulari tono orditur, et minus perfecte in semitonio
-        terminatur, nullam tropi sedem ex illa percipiunt, ideoque legitima non est. Secunda et a
-        regulari tono incipit et in regulari tono, id est, mese finitur, ideoque nobilissima et
-        perfecta est, et in initio eius et in fine tropi quasi in quibusdam sedibus requiescunt.
-        Tertia a regulari tono quidem, id est in G. incipit, sed minus perfecte in semitonio, <pb n="[176]"/>id est in e. desinit, ideoque legitima est in initio suo, finis vero non
-        recipitur. Quarta a regulari tono, id est in c. incipiens ideo non perfecta est, quia
-        terminatur in aa, sed quia synemmenon in monochordo sedes troporum esse non poterit, quinta
-        in medio posita propter minus regulare synemmenon penitus non recipitur. Vides igitur,
-        legitimas troporum sedes in illis locis esse, in quibus dictum est.</p>
+      <p xml:id="WILMU0101">Sedes vel metae troporum octo, legitimae autem nonnisi in quatuor locis
+        esse noscuntur, id est in C. in G. in a. in c. Videamus igitur, quot metae vel intervalla
+        metarum in monochordo fieri possint, et cur in praefatis locis magis legitimae esse
+        dicantur, quam in aliis, sicut superius dictum est. Secundum melodiae modum vel
+        institutionem troporum quatuor tetrachorda in monochordo firmantur, id est gravium A. B. C.
+        D. finalium D. E. F. G. superiorum a. b. c. d. excellentium d. e. f. g. cuiuscumque horum
+        tetrachordorum tonum ex utraque parte addideris, oritur tibi aliqua meta troporum, utpote a
+        gravibus prima meta est a [Gamma]. in E; a finalibus secunda a C. in a: a superioribus
+        tertia a G. in e: ab excellentibus quarta a c. in aa. quinta per synemmenon nasci poterit ab
+        F. in d. Prima igitur meta ab [Gamma]. in E. quia regulari tono orditur, et minus perfecte
+        in semitonio terminatur, nullam tropi sedem ex illa percipiunt, ideoque legitima non est.
+        Secunda et a regulari tono incipit et in regulari tono, id est, mese finitur, ideoque
+        nobilissima et perfecta est, et in initio eius et in fine tropi quasi in quibusdam sedibus
+        requiescunt. Tertia a regulari tono quidem, id est in G. incipit, sed minus perfecte in
+        semitonio, <pb n="[176]"/>id est in e. desinit, ideoque legitima est in initio suo, finis
+        vero non recipitur. Quarta a regulari tono, id est in c. incipiens ideo non perfecta est,
+        quia terminatur in aa, sed quia synemmenon in monochordo sedes troporum esse non poterit,
+        quinta in medio posita propter minus regulare synemmenon penitus non recipitur. Vides
+        igitur, legitimas troporum sedes in illis locis esse, in quibus dictum est.</p>
       <p xml:id="WILMU0102">XXIX. In quibus tetrachordis uniuscuiusque Tropi principales chordae
         constent.</p>
-      <p xml:id="WILMU0103">Prima principalis chorda est in quolibet tropo finalium, secunda superiorum,
-        tertia excellentium, quarta gravium, utputa proti D. d. et propterea gravissima est ultima,
-        quia autenticus prius per has chordas debet construi, quam plaga eius; quae sicut autenticus
-        sursum, sic ipsa debet construi deorsum. Separemus autenticum protum a plaga sua: hic
-        incipit in D. et finitur in d. et habet has principales tres chordas D. a. d. sursum:
-        subiugalis vero incipiens in A. et finiens in a. habet et ipsa has tres a. B. A. deorsum,
-        quae simul iunctae sex fiunt. Similiter de caeteris facias.</p>
-      <p xml:id="WILMU0104">XXX. Quot chordae communes sint autenticis et plagis, et quae propriae.</p>
-      <p xml:id="WILMU0105">Autentici duas communes cum subiugalibus in finalibus, et in superioribus
-        principales chordas habent, et propriam unam in excellentibus: plagae vero unam habent
-        propriam in gravibus, et duas itidem communes cum autenticis suis, in finalibus videlicet et
-        in superioribus, sicut protus a D. in d. conscendens primam et mediam habet communes cum
-        plaga, tertiam habet propriam. Plaga vero ab A. in a. tendens primam A. habet propriam,
-        secundam D. et tertiam a. cum autentico communes. Hinc est, quod superius dictum est, quia
-        quae simplices sunt, simplicem tropum et modum vocum percipiunt, quae duplae duplicem; quia
-        duae mediae autenticum et plagam communiter concludunt, prima vero A. simplicem plagam,
-        quarta a. simplicem autenticum determinat.</p>
+      <p xml:id="WILMU0103">Prima principalis chorda est in quolibet tropo finalium, secunda
+        superiorum, tertia excellentium, quarta gravium, utputa proti D. d. et propterea gravissima
+        est ultima, quia autenticus prius per has chordas debet construi, quam plaga eius; quae
+        sicut autenticus sursum, sic ipsa debet construi deorsum. Separemus autenticum protum a
+        plaga sua: hic incipit in D. et finitur in d. et habet has principales tres chordas D. a. d.
+        sursum: subiugalis vero incipiens in A. et finiens in a. habet et ipsa has tres a. B. A.
+        deorsum, quae simul iunctae sex fiunt. Similiter de caeteris facias.</p>
+      <p xml:id="WILMU0104">XXX. Quot chordae communes sint autenticis et plagis, et quae
+        propriae.</p>
+      <p xml:id="WILMU0105">Autentici duas communes cum subiugalibus in finalibus, et in
+        superioribus principales chordas habent, et propriam unam in excellentibus: plagae vero unam
+        habent propriam in gravibus, et duas itidem communes cum autenticis suis, in finalibus
+        videlicet et in superioribus, sicut protus a D. in d. conscendens primam et mediam habet
+        communes cum plaga, tertiam habet propriam. Plaga vero ab A. in a. tendens primam A. habet
+        propriam, secundam D. et tertiam a. cum autentico communes. Hinc est, quod superius dictum
+        est, quia quae simplices sunt, simplicem tropum et modum vocum percipiunt, quae duplae
+        duplicem; quia duae mediae autenticum et plagam communiter concludunt, prima vero A.
+        simplicem plagam, quarta a. simplicem autenticum determinat.</p>
       <p xml:id="WILMU0106">XXXI. Quae chordae autenticos, qua plagam includant.</p>
       <p xml:id="WILMU0107">Secunda igitur et quarta principalium chordarum concludunt autenticum,
         tertiaque media est; prima, et tertia plagam, et secunda media est, utpote protum D. et d.
         concludunt, cuius media distinctio est a. plagam eius A. et a. concludunt, media est D.</p>
       <p xml:id="WILMU0108">XXXII. De octo Tropis.</p>
-      <p xml:id="WILMU0109">Octo modi troporum sunt, cum separatim ostenditur, qualem symphoniam singuli
-        octo troporum proprias neumas conficiant.</p>
+      <p xml:id="WILMU0109">Octo modi troporum sunt, cum separatim ostenditur, qualem symphoniam
+        singuli octo troporum proprias neumas conficiant.</p>
       <p xml:id="WILMU0110">XXXIII. De circulis Troporum.</p>
-      <p xml:id="WILMU0111">Circuli troporum sunt, cum cantus singulorum in regulari suo cursu <pb n="[177]"/>ductus, et reductus ad finalem suum saepius recurrit.</p>
+      <p xml:id="WILMU0111">Circuli troporum sunt, cum cantus singulorum in regulari suo cursu <pb
+          n="[177]"/>ductus, et reductus ad finalem suum saepius recurrit.</p>
       <p xml:id="WILMU0112">XXXIIII. Quomodo Tropi sint similes.</p>
       <p xml:id="WILMU0113">In hoc pene consimiles habentur, quod autenticus tetrardus et subiugalis
         eius per eamdem speciem diatessaron melodiam suam componunt; in hoc vero valde dissimiles,
@@ -879,12 +902,13 @@
         potest, quod deuterus ac tritus in modis vocum habent in diatessaron, hoc protus et
         tetrardus habent in diapente, hi in intendendo, illi in remittendo.</p>
       <p xml:id="WILMU0114">XXXV. De refragatione Troporum.</p>
-      <p xml:id="WILMU0115">Refragatio deuteri vel triti primo fit in modis vocum, quia quod protus et
-        tetrardus habent in diapente, isti habent in diatessaron. Secundo, quod bifariam per
+      <p xml:id="WILMU0115">Refragatio deuteri vel triti primo fit in modis vocum, quia quod protus
+        et tetrardus habent in diapente, isti habent in diatessaron. Secundo, quod bifariam per
         diapente et diatessaron constitui non possunt in diapason, quemadmodum caeteri, deuterus in
         plaga, tritus in autentico. Tertio, quod deuterus principalem sui chordam propter sedes
         troporum infra ac supra rarissime contingit.</p>
-      <p xml:id="WILMU0116">XXXVI. Qualiter tres subiugales species diapente infra finaleam habeant.</p>
+      <p xml:id="WILMU0116">XXXVI. Qualiter tres subiugales species diapente infra finaleam
+        habeant.</p>
       <p xml:id="WILMU0117">Quod subiugales tres magis vi quam potentia naturae propriam speciem
         diapente intra finalem expetunt, inde fit, quod inferius synemmenon a modernis inventum,
         minus regulare, ideoque minus est naturale. Primus subiugalis per D. C. B. A. [Gamma]. per
@@ -898,10 +922,10 @@
         sed et propriam speciem diapente expetunt, excepto subiugali quarto.</p>
       <p xml:id="WILMU0118">
         <pb n="[178]"/>XXXVII. Quod per elevationem et depositionem varie construantur Tropi.</p>
-      <p xml:id="WILMU0119">Diapason proti a D. in a. diapente, ab a. in d. diatessaron; e converso a d.
-        in G. diapente, a G. in D. diatessaron bifariam construunt: idem quoque facere poteris de
-        diapason, plagae eius, et de diapason autentici deuteri. Diapason vero subiugalis deuteri a
-        B. in b. per diapente (et) diatessaron secunda vice construi non potest propter duo
+      <p xml:id="WILMU0119">Diapason proti a D. in a. diapente, ab a. in d. diatessaron; e converso
+        a d. in G. diapente, a G. in D. diatessaron bifariam construunt: idem quoque facere poteris
+        de diapason, plagae eius, et de diapason autentici deuteri. Diapason vero subiugalis deuteri
+        a B. in b. per diapente (et) diatessaron secunda vice construi non potest propter duo
         semitonia dumtaxat B. F. infra quae tritonus non habetur, quia diapente semitonio uno et
         tribus tonis conficitur. Similiter autenticus tritus in suo diapason bifariam per diapente
         et diatessaron non construitur, quia infra duo semitonia tritonus deest. Si autem semel
@@ -923,11 +947,11 @@
         chordas habent in gravibus, easdem habent in acutis; sicut protus in gravibus A. et D. et
         similiter in acutis a. et d. principales chordas habet. Sic et de caeteris.</p>
       <p xml:id="WILMU0122">XXXVIII. De modis Vocum.</p>
-      <p xml:id="WILMU0123">Primus modus vocum fit, ubicumque vox tono poterit remitti, et prima specie
-        diapente intendi, ut in A. D. a. d. principalibus chordis proti potest agnosci, ideoque idem
-        modus proto indifferenter aptatur, quemadmodum haec autentica antiphona probat: Prophetae
-        praedicaverunt. Secundum modum vox ditono remissa, et secunda specie diatessaron intensa
-        pandit, qui fit in B. E. [sqb]. e. principalibus chordis deuteri, cui et idem modus
+      <p xml:id="WILMU0123">Primus modus vocum fit, ubicumque vox tono poterit remitti, et prima
+        specie diapente intendi, ut in A. D. a. d. principalibus chordis proti potest agnosci,
+        ideoque idem modus proto indifferenter aptatur, quemadmodum haec autentica antiphona probat:
+        Prophetae praedicaverunt. Secundum modum vox ditono remissa, et secunda specie diatessaron
+        intensa pandit, qui fit in B. E. [sqb]. e. principalibus chordis deuteri, cui et idem modus
         attitulatur, hunc plagalis haec antiphona pandit: Gloria haec est. Tertius modus tertia
         specie diatessaron remittitur, et ditono intenditur, sicut triti principales chordae C. F.
         c. f. declarant, cuius et idem modus est; huiusmodi indicium est in hac plagali antiphona:
@@ -940,10 +964,10 @@
         inferiori synemmenon propriam speciem diapente infra finalem suum non potest habere, praeter
         tetrardum.</p>
       <p xml:id="WILMU0124">XXXVIIII. Quomodo proportionibus quatuor consonantiae constent.</p>
-      <p xml:id="WILMU0125">Diatessaron constat ex sesquitertia proportione, sicut est quatuor ad tria,
-        ubi maior numerus habet in se minorem numerum totum et insuper eius tertiam partem, id est
-        unitatem, qui simul iuncti fiunt septem: per septem igitur monochordum metiens habebis in
-        medio ex utraque parte certissimam diatessaron consonantiam. Diapente constat ex
+      <p xml:id="WILMU0125">Diatessaron constat ex sesquitertia proportione, sicut est quatuor ad
+        tria, ubi maior numerus habet in se minorem numerum totum et insuper eius tertiam partem, id
+        est unitatem, qui simul iuncti fiunt septem: per septem igitur monochordum metiens habebis
+        in medio ex utraque parte certissimam diatessaron consonantiam. Diapente constat ex
         sesquialtera proportione, sicut est tria ad duo, ubi maior numerus minorem habet in se, et
         eius alteram partem, quos simul coniungens habebis quinque: per quinque enim monochordum
         metiens diapente consonantiam reperies. Diapason constat ex dupla proportione, sicut quatuor
@@ -965,22 +989,23 @@
         inscribenda primae sint syllabae singulorum quatuor troporum PR. DE TR. TE. Haec autem
         monogrammata ita tenaci memoriae debes commendare, ut cum aliquid nominaveris, statim cuius
         tropi sit illud intervallum, intelligas.</p>
-      <p xml:id="WILMU0128">Positis itaque, ut diximus, quinque intervallis linearum ductu distinctis,
-        in ultima utrimque linea secundum mensuram Guidonis puncta e diverso ponantur; <pb n="[180]"/>ad quae citius invenienda ipsius domini Guidonis placet ut celeriori mensura utaris, quam
-        et hic subscribere non piguit, ut eam habeat in promtu, qui prius non habuit in usu. Cum
-        primum a [Gamma]. usque ad finem novem passus id est particulas facias, primus passus
-        terminabit in A. secundus vacat, tertius in D. quartus vacat, quintus in a. sextus in d.
-        septimus in aa. reliqui vacant. Item dum ab A. ad finem novenis partiris, primus passus
-        terminabit in B. secundus vacat, tertius in E. quartus vacat, quintus in [sqb].sextus in e.
-        septimus in [sqb][sqb]. reliqui vacant. Item cum a [Gamma]. ad finem quaternis dividis,
-        primus passus terminabit in C. secundus in G. tertius in d. quartus finit. A C. vero ad
-        finem similiter quatuor passus dum facis, primus terminabit in F. secundus in c. tertius in
-        cc. quartus finit. Ab F. autem quaternorum passuum primus terminabit in b. rotundum, id est
-        synemmenon, secundus in f. reliqui vacant. A b. item rotunda ad finem duorum passuum prior
-        terminabit in bb. secundus finit. A d. vero ad finem duorum passuum prior terminabit in dd.
-        secundus finit.</p>
-      <p xml:id="WILMU0129">Secundum hanc ergo dimensionem in lineis terminalibus punctis impressis, et
-        ad singula puncta litteris affixis, totam structuram facillime ordinabis. Sed quia
+      <p xml:id="WILMU0128">Positis itaque, ut diximus, quinque intervallis linearum ductu
+        distinctis, in ultima utrimque linea secundum mensuram Guidonis puncta e diverso ponantur;
+          <pb n="[180]"/>ad quae citius invenienda ipsius domini Guidonis placet ut celeriori
+        mensura utaris, quam et hic subscribere non piguit, ut eam habeat in promtu, qui prius non
+        habuit in usu. Cum primum a [Gamma]. usque ad finem novem passus id est particulas facias,
+        primus passus terminabit in A. secundus vacat, tertius in D. quartus vacat, quintus in a.
+        sextus in d. septimus in aa. reliqui vacant. Item dum ab A. ad finem novenis partiris,
+        primus passus terminabit in B. secundus vacat, tertius in E. quartus vacat, quintus in
+        [sqb].sextus in e. septimus in [sqb][sqb]. reliqui vacant. Item cum a [Gamma]. ad finem
+        quaternis dividis, primus passus terminabit in C. secundus in G. tertius in d. quartus
+        finit. A C. vero ad finem similiter quatuor passus dum facis, primus terminabit in F.
+        secundus in c. tertius in cc. quartus finit. Ab F. autem quaternorum passuum primus
+        terminabit in b. rotundum, id est synemmenon, secundus in f. reliqui vacant. A b. item
+        rotunda ad finem duorum passuum prior terminabit in bb. secundus finit. A d. vero ad finem
+        duorum passuum prior terminabit in dd. secundus finit.</p>
+      <p xml:id="WILMU0129">Secundum hanc ergo dimensionem in lineis terminalibus punctis impressis,
+        et ad singula puncta litteris affixis, totam structuram facillime ordinabis. Sed quia
         aliquantula perplexionis inde generatur difficultas, quod cuiusque tropi mensura suis certis
         in locis habet synemmenon, ipsa synemmena et eis proxima semitonia per duas syllabas SY et
         SE. hoc modo distinguimus. Monogrammatibus, quibus apposita est SY. synemmena, quibus vero
@@ -1008,8 +1033,8 @@
         hisque singulis singula eadem adscribantur nomina, graves in D. finales in G. et sic reliqui
         per ordinem. Ergo peracta structura litterae duplices nete excellentes deleantur, ut figura
         per se integritate sui consistat.</p>
-      <p xml:id="WILMU0131">Sed quoniam ad exercitandum valde utilis est, etiam ipsa differentiarum loca
-        intimanda videntur. In ordine proti et triti autenticorum differentiae in quinto,
+      <p xml:id="WILMU0131">Sed quoniam ad exercitandum valde utilis est, etiam ipsa differentiarum
+        loca intimanda videntur. In ordine proti et triti autenticorum differentiae in quinto,
         subiugalium ipsorum in tertio a finali loco ponuntur, in ordine deuteri et tetrardi;
         autentici deuteri differentiae in sexto, tetrardi in quinto, subiugales eorum in quarto a
         finali loco locantur. En habes mensuram metrice et prosaice; sed metricam propter acutiores,
@@ -1041,9 +1066,9 @@
       <p xml:id="WILMU0155">Sed monogrammatibus liquido Synemena notamus,</p>
       <p xml:id="WILMU0156">Est quibus appositum SY; lymmata vero quibus SE.</p>
       <p xml:id="WILMU0157">Quaeque vicina tenes.</p>
-      <p xml:id="WILMU0158">[GSII:182; text: [Gamma]. A. S. B. C. D. E. F. G. a. [sqb]. c. d. e. f. g.
-        aa. bb. [sqb][sqb]. cc. dd. Graves. Finales. Superiores. Excellentes. TE. TR. DE. PR. Syn.
-        Se.] <figure>
+      <p xml:id="WILMU0158">[GSII:182; text: [Gamma]. A. S. B. C. D. E. F. G. a. [sqb]. c. d. e. f.
+        g. aa. bb. [sqb][sqb]. cc. dd. Graves. Finales. Superiores. Excellentes. TE. TR. DE. PR.
+        Syn. Se.] <figure>
           <graphic url="/images/WILMU_03GF.gif"/>
         </figure></p>
       <p xml:id="WILMU0159">Sic autem lymmata quaeres:</p>

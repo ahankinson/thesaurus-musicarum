@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musica</title>
         <title type="abbrev">ANO1MU</title>
-        <author>Anonymous I</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Anonymous I</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>John Gray</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Oliver B. Ellsworth</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Patrologia cursus completus, series latina</emph>, ed. J. P. Migne, 221 vols.
@@ -53,22 +63,23 @@
       <p xml:id="ANO1MU0002">Argumentum.--1. Triplicis generis divisio in monochordo. 2. Diatonicum
         genus. 3. Chromaticum et enharmonicum. 4. Chordarum nomina. 5. Quinque tetrachorda. 6.
         Consonantiae. 7. Earumque species. 8. Octo cantionum modi.</p>
-      <p xml:id="ANO1MU0003">I. Duo semisphaeria, quas magadas vocant, concavo instrumento hinc et hinc
-        superponuntur, inter quas porrecta epiphania lineae quasi chordae supra tensae divisiones
-        exarantur. Si tria monochordorum genera mensurare disponas, superficiem a magada ad magadam
-        lineis protentis in tria dividas, et in subteriori diatonicum, in medio chromaticum, in
-        superiori enarmonicum secundum regulam componas. Sed priusquameorum dimensionem incipiam,
-        rationem vocabulorum paucis absolvam. Diatonicum enim dicitur, quod tonorum dimensione et
-        compositione exquiritur: quod reliqua non obtinent, dum haec per semitonia, illud per
-        dieses, quod in sequentibus patefiet, exaratur. Hoc genus fortius et durius comprobatur. Et
-        ne animi audientium vel canentium dulcedine cantus emolliantur, ecclesiastico usui eligitur.
-        Musica enim suavitate vel morositate animos commutari et quilibet in se ipso potest
-        experiri, et sapientium scripta novimus attestari. Chromaticum quasi coloratum dicitur, quod
-        a diatonico primum discedens alterius sit quasi coloris; chroma enim color dicitur. Hoc
-        genus mollissimum comprobatur, quocirca ecclesiastico usui non applicatur. Enarmonium autem,
-        quod ex utrisque his modeste compactum et temperatum sit, nomen accepit ab harmonia, <pb n="[674]"/>quae est diversarum rerum concordabilis convenientia. Hoc genus quasi
-        medietatis locum possedit, ut nec durum nec molle sit, sed ex utrisque compositum
-        dulcescit.</p>
+      <p xml:id="ANO1MU0003">I. Duo semisphaeria, quas magadas vocant, concavo instrumento hinc et
+        hinc superponuntur, inter quas porrecta epiphania lineae quasi chordae supra tensae
+        divisiones exarantur. Si tria monochordorum genera mensurare disponas, superficiem a magada
+        ad magadam lineis protentis in tria dividas, et in subteriori diatonicum, in medio
+        chromaticum, in superiori enarmonicum secundum regulam componas. Sed priusquameorum
+        dimensionem incipiam, rationem vocabulorum paucis absolvam. Diatonicum enim dicitur, quod
+        tonorum dimensione et compositione exquiritur: quod reliqua non obtinent, dum haec per
+        semitonia, illud per dieses, quod in sequentibus patefiet, exaratur. Hoc genus fortius et
+        durius comprobatur. Et ne animi audientium vel canentium dulcedine cantus emolliantur,
+        ecclesiastico usui eligitur. Musica enim suavitate vel morositate animos commutari et
+        quilibet in se ipso potest experiri, et sapientium scripta novimus attestari. Chromaticum
+        quasi coloratum dicitur, quod a diatonico primum discedens alterius sit quasi coloris;
+        chroma enim color dicitur. Hoc genus mollissimum comprobatur, quocirca ecclesiastico usui
+        non applicatur. Enarmonium autem, quod ex utrisque his modeste compactum et temperatum sit,
+        nomen accepit ab harmonia, <pb n="[674]"/>quae est diversarum rerum concordabilis
+        convenientia. Hoc genus quasi medietatis locum possedit, ut nec durum nec molle sit, sed ex
+        utrisque compositum dulcescit.</p>
       <p xml:id="ANO1MU0004">2. Nunc diatonici mensuram ordiamur. A dextro semisphaerio, quod est T.
         usque ad simistrum, quod est A., protenta epiphania quadripartiatur, et lineae ductae his
         litteris annotentur: S. prima in dextram partem, H. media, D. tertia. Dehinc a T. usque ad
@@ -116,8 +127,8 @@
         afferunt, praetermittenda videntur, ut eorum loco dicantur utiliora. Quantum enim ad
         utilitatem attinet, si primum nervum proslambanomenos dixeris, tantum si eum A. nominaveris.
         Quare, his omissis, alia videamus.</p>
-      <p xml:id="ANO1MU0007">5. Quinque tetrachorda in monochordi dimensione inveniuntur, quae pari modo
-        semitonio, id est, non <pb n="[676]"/>dimidio sed imperfecto tono (semum enim Graece
+      <p xml:id="ANO1MU0007">5. Quinque tetrachorda in monochordi dimensione inveniuntur, quae pari
+        modo semitonio, id est, non <pb n="[676]"/>dimidio sed imperfecto tono (semum enim Graece
         imperfectum dicunt) et duobus tonis complentur. Tonum vero dicimus sesquioctavam
         proportionem, quem etiam epogdoum vocant. Nam si a T. usque ad S. in octo partiaris, et
         nonam superadjiceris, tonum inter S. et R. te invenisse videbis: et sic spatium a T. usque
@@ -170,24 +181,25 @@
         inquit Virgilius:</p>
       <p xml:id="ANO1MU0011">Obloquitur numeris septem discrimina vocum.</p>
       <p xml:id="ANO1MU0012">Aliarum autem nomina haec scienti sunt manifesta.</p>
-      <p xml:id="ANO1MU0013">7. Nunc his praetaxatis, species earum ostendamus. Diatessaron, quae minima
-        est, tres tantum habet species, una minus quatuor voces: quarum prima constat tono semitonio
-        et tono, quae est A B C D. secunda forma est B C D E. quod est semitonium et ditonum. Tertia
-        C D E F. quod est ditonum et semitonium; et sic per quaternas per omnem chordarum seriem
-        computando, excepto inter F et M, et I et P. has alternatim tres formas te scias inventurum.
-        Diapente vero, quae unam plus vocem, unam plus habet et speciem: quarum prima est D E F G H.
-        Secunda E F C H M. Tertia F G H M N. Quarta G H M N O. Has si diligenter inspicias, tonorum
-          <pb n="[678]"/>et semitoniorum positiones invenies diversas, et per seriem vocum
-        alternatim dispositas, exceptis tribus locis: videlicet inter B. et F. et E. et I. et M. et
-        Q. Diapason autem, quoniam his duabus consonantiis completur, tot habebit formas, quot sub
-        his amplectuntur. Septem igitur continet species, pro diapente quatuor, pro diatessaron
-        tres; quarum prima inter A. et H. continetur. Secundam B ad M porrigitur. Tertia C et N.
-        terminatur. Quarta a D ad O. protenditur. Quinta E et P. limitatur. Sexta ab F ad Q.
-        intenditur. Septima ab R ad G. remittitur. Quas omnes, si tonorum et semitoniorum situm
-        inspexeris, a se invicem distantes videbis. Quod si octavam ad H per M et N. intendendo ad
-        S. adjeceris, a prima non dissentire videbis. Quod si ab H. per I et K. ad S. ascenderis,
-        eamdem quintae notabis. Sic ergo diapason septem habet species, unam minus quam voces, in
-        quibus septem modorum diversa sit positio, quod sequens expediet ratio.</p>
+      <p xml:id="ANO1MU0013">7. Nunc his praetaxatis, species earum ostendamus. Diatessaron, quae
+        minima est, tres tantum habet species, una minus quatuor voces: quarum prima constat tono
+        semitonio et tono, quae est A B C D. secunda forma est B C D E. quod est semitonium et
+        ditonum. Tertia C D E F. quod est ditonum et semitonium; et sic per quaternas per omnem
+        chordarum seriem computando, excepto inter F et M, et I et P. has alternatim tres formas te
+        scias inventurum. Diapente vero, quae unam plus vocem, unam plus habet et speciem: quarum
+        prima est D E F G H. Secunda E F C H M. Tertia F G H M N. Quarta G H M N O. Has si
+        diligenter inspicias, tonorum <pb n="[678]"/>et semitoniorum positiones invenies diversas,
+        et per seriem vocum alternatim dispositas, exceptis tribus locis: videlicet inter B. et F.
+        et E. et I. et M. et Q. Diapason autem, quoniam his duabus consonantiis completur, tot
+        habebit formas, quot sub his amplectuntur. Septem igitur continet species, pro diapente
+        quatuor, pro diatessaron tres; quarum prima inter A. et H. continetur. Secundam B ad M
+        porrigitur. Tertia C et N. terminatur. Quarta a D ad O. protenditur. Quinta E et P.
+        limitatur. Sexta ab F ad Q. intenditur. Septima ab R ad G. remittitur. Quas omnes, si
+        tonorum et semitoniorum situm inspexeris, a se invicem distantes videbis. Quod si octavam ad
+        H per M et N. intendendo ad S. adjeceris, a prima non dissentire videbis. Quod si ab H. per
+        I et K. ad S. ascenderis, eamdem quintae notabis. Sic ergo diapason septem habet species,
+        unam minus quam voces, in quibus septem modorum diversa sit positio, quod sequens expediet
+        ratio.</p>
       <p xml:id="ANO1MU0014">8. Septem tantum, secundum diapason species, modos primum fuisse, sed
         Ptolomaeum octavum superaddidisse, Boetium in Musicis tradidisse novimus: quorum nomina
         diversitatemque, quoniam brevitatem et simplicitatem promisimus, secundum ecclesiasticum
@@ -202,10 +214,10 @@
         inferior sit: simili ratione Plagis deuteri, Plagis triti, Plagis tetrardi. Sed nos eorum
         regulas dantes, latinis utamur nominibus, et excelsiores magistros, inferiores vero
         discipulos appellemus.</p>
-      <p xml:id="ANO1MU0015">Sed antequam eorum intensiones vel remissionem incipiamus, finales omnium
-        nervos ostendamus. Quatuor sunt voces, quae vocantur finales, quod in unaqualibet regulares
-        finiantur cantiones, D E F G. id est, lychanos hypaton, hypate meson, parhypate meson,
-        lychanos meson; quae idcirco ex omnibus electae sunt finales, quod inter septem vocum
+      <p xml:id="ANO1MU0015">Sed antequam eorum intensiones vel remissionem incipiamus, finales
+        omnium nervos ostendamus. Quatuor sunt voces, quae vocantur finales, quod in unaqualibet
+        regulares finiantur cantiones, D E F G. id est, lychanos hypaton, hypate meson, parhypate
+        meson, lychanos meson; quae idcirco ex omnibus electae sunt finales, quod inter septem vocum
         discrimina inveniantur sonoriores: extra quas si vel vetus vel nova cantio fiat, irregularis
         sine dubio judicetur. Cantus igitur primi magistri ejusque discipuli D. finitur: secundi
         ejusque discipuli E: tertii ejusque discipuli F: quarti ejusque discipuli E. tertii ejusque
@@ -225,7 +237,8 @@
         enim, inter modos esse certas oportere differentias, ut, cujuscumque sint, cognoscere
         possimus cantilenas. Sed si primus modus remittatur ad A. secundus vero ab M. ad idem
         descendat A. si inter H. et A. cantus non excedens componatur, et in D. finali utriusque
-        regulariter terminetur, incertum est, cui potius deputetur. Pari modo, si tertius <pb n="[680]"/>a Q. deponatur ad B. quartus vero ab N. ad idem remittatur B. cantus, qui intra
+        regulariter terminetur, incertum est, cui potius deputetur. Pari modo, si tertius <pb
+          n="[680]"/>a Q. deponatur ad B. quartus vero ab N. ad idem remittatur B. cantus, qui intra
         M. et B. compositus est, finitur cujus potius duorum sit, incertum habetur. Idem contingit
         in caeteris: ad quam incertitudinem propulsandam Juniorum comprobamus regulam, cujus quoniam
         est probabilior tractatus, fiat diligentior.</p>
@@ -250,12 +263,12 @@
         C D E F G vel H. Et hi sunt secundus magister, ejusque discipulus. Quod si magistri cantum D
         vel E. inceperis, non minor quam ad O. sit modus intensionis. Si discipuli, non minor quam
         ad C. depositionis, ut cujus modi sit, intendendo vel remittendo discernas.</p>
-      <p xml:id="ANO1MU0019">Quintus modus intenditur ab E ad Q. raro autem ad R. continens sextam inter
-        F et O. diapason speciem, supra vero et infra vocem: cujus cantus principia et distinctiones
-        sunt sex, E F G H M N. Sextus modus ascendit a C. ad N. rarenter vero ad O. possidens
-        tertiam inter C et N diapason formam, supra vero chordam: cujus cantus legalia principia
-        sunt quatuor C D E F. distinctiones sex C D E F G H. Et hi sunt tertius magister ejusque
-        discipulus. Si magistri cantum E vel F. ad R. rarenter autem ad P. sit minimus modus
+      <p xml:id="ANO1MU0019">Quintus modus intenditur ab E ad Q. raro autem ad R. continens sextam
+        inter F et O. diapason speciem, supra vero et infra vocem: cujus cantus principia et
+        distinctiones sunt sex, E F G H M N. Sextus modus ascendit a C. ad N. rarenter vero ad O.
+        possidens tertiam inter C et N diapason formam, supra vero chordam: cujus cantus legalia
+        principia sunt quatuor C D E F. distinctiones sex C D E F G H. Et hi sunt tertius magister
+        ejusque discipulus. Si magistri cantum E vel F. ad R. rarenter autem ad P. sit minimus modus
         intensionis: discipuli vero ad D. remissionis, ut cui imputari debeat, tali differentia
         patefiat.</p>
       <p xml:id="ANO1MU0020">

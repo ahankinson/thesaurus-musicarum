@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Somnium Scipionis</title>
         <title type="abbrev">MACCOMSS</title>
-        <author>Cicero, Marcus Tullius</author>
-        <date notBefore="200" notAfter="499">3rd-5th</date>
+        <author><persName>Cicero, Marcus Tullius</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Anastasia Arapova</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2001</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2001">2001</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Macrobius</emph>, ed. Franciscus Eyssenhardt (Leipzig: B. G. Teubner, 1868), 642–52.
@@ -48,14 +58,15 @@
         cogitare et loqui -- Africanus se ostendit ea forma quae mihi ex imagine eius quam ex ipso
         erat notior. quem ubi agnoui, equidem cohorrui sed ille 'ades' inquit 'animo et omitte
         timorem Scipio et quae dicam trade memoriae.</p>
-      <p xml:id="MACCOMSS0003">[II in marg.] Videsne illam urbem quae parere populo Romano coacta per me
-        renouat pristina bella nec potest quiescere' -- ostendebat autem Carthaginem de excelso et
-        pleno stellarum illustri et claro quodam loco -- 'ad quam tu oppugnandam nunc uenis paene
-        miles? hanc hoc biennio consul euertes eritque cognomen id tibi per te partum quod habes
-        adhuc a nobis hereditarium. cum autem Carthaginem deleueris, triumphum egeris censorque
-        fueris et obieris legatus Aegyptum Syriam Asiam Graeciam, delegere iterum consul absens
-        bellumque maximum conficies, Numantiam excindes. sed cum eris curru in Capitolium inuectus,
-        offendes rem publicam consiliis perturbatam nepotis mei. hic tu Africane ostendas <pb n="[644]"/>oportebit patriae lumen animi ingenii consiliique tui. sed eius temporis
+      <p xml:id="MACCOMSS0003">[II in marg.] Videsne illam urbem quae parere populo Romano coacta
+        per me renouat pristina bella nec potest quiescere' -- ostendebat autem Carthaginem de
+        excelso et pleno stellarum illustri et claro quodam loco -- 'ad quam tu oppugnandam nunc
+        uenis paene miles? hanc hoc biennio consul euertes eritque cognomen id tibi per te partum
+        quod habes adhuc a nobis hereditarium. cum autem Carthaginem deleueris, triumphum egeris
+        censorque fueris et obieris legatus Aegyptum Syriam Asiam Graeciam, delegere iterum consul
+        absens bellumque maximum conficies, Numantiam excindes. sed cum eris curru in Capitolium
+        inuectus, offendes rem publicam consiliis perturbatam nepotis mei. hic tu Africane ostendas
+          <pb n="[644]"/>oportebit patriae lumen animi ingenii consiliique tui. sed eius temporis
         ancipitem uideo quasi fatorum uiam. nam cum aetas tua septenos octies solis amfractus
         reditusque conuerterit duoque hi numeri quorum uterque plenus, alter altera de causa
         habetur, circuitu naturali summam tibi fatalem confecerint, in te unum atque in tuum nomen
@@ -64,12 +75,12 @@
         impias propinquorum manus effugeris'. hic cum exclamauisset Laelius ingemuissentque
         uehementius ceteri, leniter arridens Scipio 'st! quaeso' inquit 'ne me e sommo excitetis et
         parumper audite cetera.</p>
-      <p xml:id="MACCOMSS0004">[III in marg.] Sed quo sis Africane alacrior ad tutandam rem publicam,
-        sic habeto: omnibus qui patriam conseruauerint adiuuerint auxerint, certum esse in caelo
-        definitum locum ubi beati aeuo sempiterno fruantur. nihil est enim illi principi deo qui
-        omnem mundum regit, quod quidem in terris fiat, acceptius quam concilia coetusque hominum
-        iure sociati, quae ciuitates uocantur. harum rectores et conseruatores hinc profecti huc
-        reuertuntur.' hic ego etsi eram perterritus non tam mortis metu quam insidiarum a meis,
+      <p xml:id="MACCOMSS0004">[III in marg.] Sed quo sis Africane alacrior ad tutandam rem
+        publicam, sic habeto: omnibus qui patriam conseruauerint adiuuerint auxerint, certum esse in
+        caelo definitum locum ubi beati aeuo sempiterno fruantur. nihil est enim illi principi deo
+        qui omnem mundum regit, quod quidem in terris fiat, acceptius quam concilia coetusque
+        hominum iure sociati, quae ciuitates uocantur. harum rectores et conseruatores hinc profecti
+        huc reuertuntur.' hic ego etsi eram perterritus non tam mortis metu quam insidiarum a meis,
         quaesiui tamen uiueretne ipse et Paulus pater et alii quos nos extinctos arbitraremur. 'immo
         uero' inquit 'hi uiuunt qui e corporum uinclis tamquam e carcere euolauerunt, uestra uero
         quae dicitur uita <pb n="[645]"/>mors est. quin tu aspicias ad te uenientem Paulum patrem.'
@@ -94,11 +105,11 @@
         minima quae ultima a caelo, citima terris luce lucebat aliena, stellarum autem globi terrae
         magnitudinem facile uincebant -- iam ipsa terra ita mihi parua uisa est ut me imperii nostri
         quo quasi punctum eius attingimus paeniteret.</p>
-      <p xml:id="MACCOMSS0005">[IIII in marg.] Quam cum magis intuerer 'quaeso' inquit Africanus 'quo
-        usque humi defixa tua mens erit? nonne aspicis quae in templa ueneris? nouem tibi orbibus
-        uel potius globis conexa sunt omnia, quorum unus est caelestis extumus qui reliquos omnes
-        conplectitur, summus ipse deus, arcens et continens ceteros in quo sunt infixi illi qui
-        uoluuntur stellarum cursus sempiterni. cui subiecti sunt septem qui uersantur retro
+      <p xml:id="MACCOMSS0005">[IIII in marg.] Quam cum magis intuerer 'quaeso' inquit Africanus
+        'quo usque humi defixa tua mens erit? nonne aspicis quae in templa ueneris? nouem tibi
+        orbibus uel potius globis conexa sunt omnia, quorum unus est caelestis extumus qui reliquos
+        omnes conplectitur, summus ipse deus, arcens et continens ceteros in quo sunt infixi illi
+        qui uoluuntur stellarum cursus sempiterni. cui subiecti sunt septem qui uersantur retro
         contrario motu atque caelum. e quibus unum globum possidet illa quam in terris Saturniam
         nominant, deinde est hominum generi prosperus et salutaris ille fulgor qui dicitur Iouis,
         tum rutilus horribilisque terris quem Martium dicitis, deinde subter mediam fere regionem
@@ -108,9 +119,9 @@
         infra autem iam nihil est nisi mortale et caducum praeter animos munere deorum hominum
         generi datos, supra lunam sunt aeterna omnia. nam ea quae <pb n="[647]"/>est media et nona
         tellus neque mouetur et infima est et in eam feruntur omnia nutu suo pondera.'</p>
-      <p xml:id="MACCOMSS0006">[V in marg.] Quae cum intuerer stupens ut me recepi 'quid? hic' inquam
-        'quis est qui conplet aures meas tantus et tam dulcis sonus?' 'hic est' inquit 'ille qui
-        interuallis coniunctus imparibus sed tamen pro rata parte ratione distinctis, impulsu et
+      <p xml:id="MACCOMSS0006">[V in marg.] Quae cum intuerer stupens ut me recepi 'quid? hic'
+        inquam 'quis est qui conplet aures meas tantus et tam dulcis sonus?' 'hic est' inquit 'ille
+        qui interuallis coniunctus imparibus sed tamen pro rata parte ratione distinctis, impulsu et
         motu ipsorum orbium efficitur et acuta cum grauibus temperans uarios aequabiliter concentus
         efficit. nec enim silentio tanti motus incitari possunt et natura fert ut extrema ex altera
         parte grauiter, ex altera autem acute sonent. quam ob causam summus ille caeli stellifer
@@ -126,8 +137,8 @@
         mundi incitatissima conuersione sonitus ut eum aures hominum capere non possint, sicut
         intueri solem aduersum nequitis eiusque radiis acies uestra uincitur.' haec ego admirans
         referebam tamen oculos ad terram identidem.</p>
-      <p xml:id="MACCOMSS0007">[VI in marg.] Tum Africanus 'sentio' inquit 'te sedem etiam nunc hominum
-        ac domum contemplari. quae si tibi parua ut est, ita uidetur, haec caelestia semper
+      <p xml:id="MACCOMSS0007">[VI in marg.] Tum Africanus 'sentio' inquit 'te sedem etiam nunc
+        hominum ac domum contemplari. quae si tibi parua ut est, ita uidetur, haec caelestia semper
         spectato, illa humana contemnito. tu enim quam celebritatem sermonis hominum aut quam
         expetendam consequi gloriam potes? uides habitari in terra raris et angustis in locis et in
         ipsis quasi maculis, ubi habitatur, uastas solitudines interiectas eosque qui incolant
@@ -168,25 +179,25 @@
         sed loquentur tamen. sermo autem omnis ille et angustiis cingitur eis regionum quas uides
         nec umquam de ullo perennis fuit et obruitur hominum interitu et obliuione posteritatis
         extinguitur.'</p>
-      <p xml:id="MACCOMSS0009">[VIII in marg.] Quae cum dixisset 'ego uero' inquam 'Africane, si quidem
-        bene meritis de patria quasi limes ad caeli aditum patet, quamquam a pueritia uestigiis
-        ingressus patris et tuis decori uestro non defui, nunc tamen tanto praemio exposito enitar
-        multo uigilantius'. et ille 'tu uero enitere et sic habeto non esse te mortalem sed corpus
-        hoc. nec enim tu is es quem forma ista declarat sed mens cuiusque is est quisque non ea
-        figura qnae digito demonstrari potest. deum te igitur scito esse si quidem est deus qui
-        uiget qui sentit qui meminit qui prouidet qui tam regit et moderatur et mouet id corpus cui
-        praepositus est quam hunc mundum ille princeps deus, et ut ille mundum ex quadam parte
-        mortalem ipse <pb n="[651]"/>deus aeternus sic fragile corpus animus sempiternus mouet. nam
-        quod semper mouetur, aeternum est, quod autem motum adfert alicui quodque ipsum agitatur
-        aliunde, quando finem habet motus, uiuendi finem habeat necesse est. solum igitur quod sese
-        mouet quia numquam deseritur a se, numquam ne moueri quidem desinit, quin etiam ceteris quae
-        mouentur hic fons hoc principium est mouendi. principio autem nulla est origo, nam ex
-        principio oriuntur omnia, ipsum autem nulla ex re alia nasci potest: nec enim esset id
-        principium quod gigneretur aliunde. quod si numquam oritur, nec occidit quidem umquam. nam
-        principium extinctum nec ipsum ab alio renascetur nec ex se aliud creabit si quidem necesse
-        est a principio oriri omnia. ita fit ut motus principium ex eo sit quod ipsum a se mouetur,
-        id autem nec nasci potest nec mori uel concidat omne caelum omnisque natura et consistat
-        necesse est nec uim ullam nanciscatur qua a primo impulsa moueatur.</p>
+      <p xml:id="MACCOMSS0009">[VIII in marg.] Quae cum dixisset 'ego uero' inquam 'Africane, si
+        quidem bene meritis de patria quasi limes ad caeli aditum patet, quamquam a pueritia
+        uestigiis ingressus patris et tuis decori uestro non defui, nunc tamen tanto praemio
+        exposito enitar multo uigilantius'. et ille 'tu uero enitere et sic habeto non esse te
+        mortalem sed corpus hoc. nec enim tu is es quem forma ista declarat sed mens cuiusque is est
+        quisque non ea figura qnae digito demonstrari potest. deum te igitur scito esse si quidem
+        est deus qui uiget qui sentit qui meminit qui prouidet qui tam regit et moderatur et mouet
+        id corpus cui praepositus est quam hunc mundum ille princeps deus, et ut ille mundum ex
+        quadam parte mortalem ipse <pb n="[651]"/>deus aeternus sic fragile corpus animus
+        sempiternus mouet. nam quod semper mouetur, aeternum est, quod autem motum adfert alicui
+        quodque ipsum agitatur aliunde, quando finem habet motus, uiuendi finem habeat necesse est.
+        solum igitur quod sese mouet quia numquam deseritur a se, numquam ne moueri quidem desinit,
+        quin etiam ceteris quae mouentur hic fons hoc principium est mouendi. principio autem nulla
+        est origo, nam ex principio oriuntur omnia, ipsum autem nulla ex re alia nasci potest: nec
+        enim esset id principium quod gigneretur aliunde. quod si numquam oritur, nec occidit quidem
+        umquam. nam principium extinctum nec ipsum ab alio renascetur nec ex se aliud creabit si
+        quidem necesse est a principio oriri omnia. ita fit ut motus principium ex eo sit quod ipsum
+        a se mouetur, id autem nec nasci potest nec mori uel concidat omne caelum omnisque natura et
+        consistat necesse est nec uim ullam nanciscatur qua a primo impulsa moueatur.</p>
       <p xml:id="MACCOMSS0010">[VIIII in marg.] Cum pateat igitur aeternum id esse quod a se ipso
         moueatur, quis est qui hanc naturam animis esse tributam neget? inanimum est enim omne quod
         pulsu agitatur externo, quod autem est animal id motu cietur interiore et suo, nam haec est

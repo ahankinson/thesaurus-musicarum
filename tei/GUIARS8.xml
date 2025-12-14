@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Ars musicorum liber VIII</title>
         <title type="abbrev">GUIARS8</title>
-        <author>Guillermus de Podio</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Guillermus de Podio</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Guillermus de Podio, <emph>Ars musicorum libri VI et VIII</emph>, ed.
           Albert Seay, Critical Texts, no. 8 (Colorado Springs: Colorado College Music Press, 1978),
@@ -43,17 +53,18 @@
         <pb n="[9]"/>Commentariorum musices liber octavus atque ultimus, in quo de proportionibus
         cantandi agitur.</p>
       <p xml:id="GUIARS80002">De recta proportionum cantandi consideratione. Capitulum I.</p>
-      <p xml:id="GUIARS80003">De proportionibus cantandi hoc in ultimo volumi dicturi; animadvertendum
-        in primis quod longe alia consideratione in praesentiarum quae in praecedentibus dictum fuit
-        etsi non alia lege accipiuntur. Illic enim earum termini disiunctim sive seorsum positi ad
-        se invicem, istic vero prima atque propria contemplatione nullatenus sic comparantur.
-        Rursus, ibi quacumque duo ad quodlibet unum in dupla se habent proportione, hic autem neque
-        ita considerantur, quamvis enim duae maximae ad unam longam, brevem, semibrevem vel minimam
-        aut e contra minores, scilicet, praecedendo et maiores subsequendo eam quam praediximus,
-        simpliciter efficiant proportionem, non tamen secundum praesentem speculationem.</p>
-      <p xml:id="GUIARS80004">In hac enim si recte comparatio fiat, dispositis primo omnium sub binario
-        aut ternario numero figuris prout praecedenti libro factum extitit, secundo loco unamquamque
-        illarum ad eius quaslibet partes, scilicet, propinquas, remotas, remotiores vel
+      <p xml:id="GUIARS80003">De proportionibus cantandi hoc in ultimo volumi dicturi;
+        animadvertendum in primis quod longe alia consideratione in praesentiarum quae in
+        praecedentibus dictum fuit etsi non alia lege accipiuntur. Illic enim earum termini
+        disiunctim sive seorsum positi ad se invicem, istic vero prima atque propria contemplatione
+        nullatenus sic comparantur. Rursus, ibi quacumque duo ad quodlibet unum in dupla se habent
+        proportione, hic autem neque ita considerantur, quamvis enim duae maximae ad unam longam,
+        brevem, semibrevem vel minimam aut e contra minores, scilicet, praecedendo et maiores
+        subsequendo eam quam praediximus, simpliciter efficiant proportionem, non tamen secundum
+        praesentem speculationem.</p>
+      <p xml:id="GUIARS80004">In hac enim si recte comparatio fiat, dispositis primo omnium sub
+        binario aut ternario numero figuris prout praecedenti libro factum extitit, secundo loco
+        unamquamque illarum ad eius quaslibet partes, scilicet, propinquas, remotas, remotiores vel
         remotissimas, si tot habere valeat, sub altero dictorum numerorum comparamus. Comparamus,
         inquam, non tamen ad extra, sed tamquam intra illas existentes vel subintellectas, quoniam
         in eas resolvuntur.</p>
@@ -61,8 +72,8 @@
         illarum, et longa duarum brevium ad alteram earundem, et reliquae eiusdem valoris figurae ad
         immediatas comparatae eadem duple relatione iunguntur quod omnium modulatorum scientia atque
         practica comprobatur eorum qui circa huiusmodi speculationem recte contemplati sunt.</p>
-      <p xml:id="GUIARS80006">Quamobrem qui omnem proportionum habitudinem dupliciter fieri dicunt, id
-        est, vel per respectum ad numerum figurarum praecedentium vel earum <pb n="[10]"/>quae in
+      <p xml:id="GUIARS80006">Quamobrem qui omnem proportionum habitudinem dupliciter fieri dicunt,
+        id est, vel per respectum ad numerum figurarum praecedentium vel earum <pb n="[10]"/>quae in
         tenore, ut duodecim semibreves ad sex, in hac de qua agimus proportione comparate, iam ab
         hac veritate declinasse inventi sunt. Quamquam enim praedicti numeri figurarum ad se invicem
         relati duplam efficiant proportionem, numquam tamen sub illius virtute decantabuntur, nisi
@@ -75,20 +86,21 @@
         in motu adauctus vel imminutus fuerit, unde talis proportio sumit originem solerte
         scrutatur, ut enim sit pulsus, necesse est motum antecedere primo musices dicitur, quorum
         ille in impetu, iste vero in numero consideretur.</p>
-      <p xml:id="GUIARS80007">Quibus de rebus iterum reliquitur, omnem proportionem recte distributam
-        non modo per valoris figurarum subtractionem de qua intendimus, sed etiam per additionem
-        cantabilem fieri. Inde enim de quacumque figura valore binaria aut ternaria, ab antiquis
-        atque sapientibus modulatioribus dictum est, "Crescit in duplo," "Crescit in triplo,"
-        quapropter, si figurae ipsae de quibus agimus, altera proportionum supradictarum augmenti
-        secundum valorem susceptibiles existunt, ita et decrementi passibiles erunt. Quod enim de
-        altero istorum dicitur, de altero etiam per oppositum necessario conceditur. Contrariorum
-        enim eadem est disciplina.</p>
-      <p xml:id="GUIARS80008">Itaque ad huius proportionis institutionem de qua agimus, etiam si alter
-        terminorum ad extra numquam praecedat, quemadmodum isti contendunt, nihil refert. Sufficit
-        enim ut per figuras secundum valorem binarias constituatur, quae ad unitatem eiusdem
-        proportionis virtute convertantur vel resolvantur. Hinc enim ut quanta fuerit ostendatur,
-        ita ab omnibus de necessitate consignatur 2/1, et ut qualis existat, altero istorum signorum
-        [Odim,Cdim] eius effectum, de quo dictum est, insinuantibus demonstratur.</p>
+      <p xml:id="GUIARS80007">Quibus de rebus iterum reliquitur, omnem proportionem recte
+        distributam non modo per valoris figurarum subtractionem de qua intendimus, sed etiam per
+        additionem cantabilem fieri. Inde enim de quacumque figura valore binaria aut ternaria, ab
+        antiquis atque sapientibus modulatioribus dictum est, "Crescit in duplo," "Crescit in
+        triplo," quapropter, si figurae ipsae de quibus agimus, altera proportionum supradictarum
+        augmenti secundum valorem susceptibiles existunt, ita et decrementi passibiles erunt. Quod
+        enim de altero istorum dicitur, de altero etiam per oppositum necessario conceditur.
+        Contrariorum enim eadem est disciplina.</p>
+      <p xml:id="GUIARS80008">Itaque ad huius proportionis institutionem de qua agimus, etiam si
+        alter terminorum ad extra numquam praecedat, quemadmodum isti contendunt, nihil refert.
+        Sufficit enim ut per figuras secundum valorem binarias constituatur, quae ad unitatem
+        eiusdem proportionis virtute convertantur vel resolvantur. Hinc enim ut quanta fuerit
+        ostendatur, ita ab omnibus de necessitate consignatur 2/1, et ut qualis existat, altero
+        istorum signorum [Odim,Cdim] eius effectum, de quo dictum est, insinuantibus
+        demonstratur.</p>
       <p xml:id="GUIARS80009">
         <pb n="[11]"/>Cum igitur hic sit verus modus procedendi in dupla proportione et illa prima
         omnium atque huius speculationis tamquam thema quoddam fuerit, necesse est quod caeterae
@@ -102,16 +114,16 @@
         semibrevium, alius vero maiorem proferat non variata pronunciatione; idemque de maioribus
         atque minoribus sive minimis figuris dicendum, etsi de his propter earum imperfectarum
         commensurationem vel non integrum compassum quibusdam alia mens fuerit.</p>
-      <p xml:id="GUIARS80010">Numquam enim ita aeque bene modulari possunt quin semper aliqua fuerit in
-        tempore pronunciandi disparitas, unde praestantium quorundam modulatorum nostrorum temporum
-        valde miramur, qui de omnibus proportionibus conati sunt per notulas tradere exempla, quae
-        tamen alios docere nequaquam potuerunt. Alii autem post optime descriptam duplam, si
-        sesquialteram consequenter distribuere voluerint, illam ita instituunt ut neque maioris
-        termini in minorem conversione quod oportebat, sicut in praecedenti dupla factum fuerat,
-        neque determinato maiore eius termino, id est, ternario numero, ut secundum illius summam
-        multotiens sumpto ad binas atque binas praecedentium correspondeat, quod saltem necessarium
-        erat, sed tantum ut figurae ipsae ternae pro singulis compassibus accipi valeant quod neque
-        ad intra neque ad extra vera sesquialtera fuerit.</p>
+      <p xml:id="GUIARS80010">Numquam enim ita aeque bene modulari possunt quin semper aliqua fuerit
+        in tempore pronunciandi disparitas, unde praestantium quorundam modulatorum nostrorum
+        temporum valde miramur, qui de omnibus proportionibus conati sunt per notulas tradere
+        exempla, quae tamen alios docere nequaquam potuerunt. Alii autem post optime descriptam
+        duplam, si sesquialteram consequenter distribuere voluerint, illam ita instituunt ut neque
+        maioris termini in minorem conversione quod oportebat, sicut in praecedenti dupla factum
+        fuerat, neque determinato maiore eius termino, id est, ternario numero, ut secundum illius
+        summam multotiens sumpto ad binas atque binas praecedentium correspondeat, quod saltem
+        necessarium erat, sed tantum ut figurae ipsae ternae pro singulis compassibus accipi valeant
+        quod neque ad intra neque ad extra vera sesquialtera fuerit.</p>
       <p xml:id="GUIARS80011">Caeterum, quadruplam immediate subiungentes et ita illam recte
         decantantes, sesquitertiam ad praecedentem sesquialteram velut quaternarium ternario
         comparantes propria dimissa quadruple relatione esse dicunt atque praeter rationem ita illam
@@ -130,11 +142,11 @@
         Cum enim praedicta signa diverarum fuerint quantitatum demonstrativa, impossibile est quod
         simul agant secundum virtutem. Si autem singillatim accipiantur, necesse est ut illorum
         quodlibet aequaliter se habeat ad omnes sub illo descriptas figuras.</p>
-      <p xml:id="GUIARS80013">Haec autem quantum praeter omnem rationem extiterint ex dictis manifestum
-        est. Unde ex his atque similibus positionibus plurimum evenit, ut quod ab uno modulatore
-        conflatum fuerit ab alio quantumcumque perito, nisi tantum per quandem contrapuncti
-        examinationem quomodo decantandum existat, inveniri minime possit, quo nihil ridiculosius
-        nihilque verecundius maxime conficientibus. Nulla enim scientia ducuntur.</p>
+      <p xml:id="GUIARS80013">Haec autem quantum praeter omnem rationem extiterint ex dictis
+        manifestum est. Unde ex his atque similibus positionibus plurimum evenit, ut quod ab uno
+        modulatore conflatum fuerit ab alio quantumcumque perito, nisi tantum per quandem
+        contrapuncti examinationem quomodo decantandum existat, inveniri minime possit, quo nihil
+        ridiculosius nihilque verecundius maxime conficientibus. Nulla enim scientia ducuntur.</p>
       <p xml:id="GUIARS80014">Cum igitur omnem supradictorum modulatorum traditionem circa huiusmodi
         speculationem alienam esse a veritate praeclarum fuerit, hinc merito illam missam facientes
         dicimus. Ad veritatem huiusce disputationis pertinet imo necesse est ut omnes cantandi
@@ -146,8 +158,8 @@
         dicantur.</p>
       <p xml:id="GUIARS80015">
         <pb n="[13]"/>De triplici consideratione. Capitulum II.</p>
-      <p xml:id="GUIARS80016">Figurarum cantus mensurabilis triplex duntaxat est contemplatio, aut enim
-        secundum proprium valorem, aut secundum valoris diminutionem, aut secundum augmentum de
+      <p xml:id="GUIARS80016">Figurarum cantus mensurabilis triplex duntaxat est contemplatio, aut
+        enim secundum proprium valorem, aut secundum valoris diminutionem, aut secundum augmentum de
         quibus intendimus considerantur. Sed quoniam de prima atque principali proximo antecedenti
         volumine abunde meminimus, age nunc de reliquis in ordine pertractemus.</p>
       <p xml:id="GUIARS80017">De secunda figurarum consideratione. Capitulum III.</p>
@@ -185,14 +197,15 @@
       <p xml:id="GUIARS80024">
         <pb n="[15]"/>[CCMP/CT8:15]</p>
       <p xml:id="GUIARS80025">De tripla proportione. Capitulum V.</p>
-      <p xml:id="GUIARS80026">Secunda figurarum diminutio est quae per secundam agitur proportionem, id
-        est, triplam, in qua figurae ipsae ternariae secundum valorem ponuntur, et ad unitatem per
-        duarum partium amissionem reducuntur. Est enim trium ad unum comparatio, unde maxima eiusdem
-        valoris ad unam longam intra illam existentem vel sub intellectam convertitur, longa ad
-        brevem, brevis ad semibrevem, semibrevis ad minimam, minima vero ad praecedentem <pb n="[16]"/>reducitur proportionem, verum enim semibreves semper ternae ponuntur et ita pro
+      <p xml:id="GUIARS80026">Secunda figurarum diminutio est quae per secundam agitur proportionem,
+        id est, triplam, in qua figurae ipsae ternariae secundum valorem ponuntur, et ad unitatem
+        per duarum partium amissionem reducuntur. Est enim trium ad unum comparatio, unde maxima
+        eiusdem valoris ad unam longam intra illam existentem vel sub intellectam convertitur, longa
+        ad brevem, brevis ad semibrevem, semibrevis ad minimam, minima vero ad praecedentem <pb
+          n="[16]"/>reducitur proportionem, verum enim semibreves semper ternae ponuntur et ita pro
         singulis compassibus accipiuntur; signatur autem utoque eius termino, ut hic: 3/1.</p>
-      <p xml:id="GUIARS80027">Possunt autem quaecumque figurae sub hac proportione existentes etiam sub
-        proportione dupla quantum ad seipsas optime distribui.</p>
+      <p xml:id="GUIARS80027">Possunt autem quaecumque figurae sub hac proportione existentes etiam
+        sub proportione dupla quantum ad seipsas optime distribui.</p>
       <p xml:id="GUIARS80028">Exemplum triplae proportionis</p>
       <p xml:id="GUIARS80029">[CCMP/CT8:16] <figure>
           <graphic url="/images/GUIARS8_02GF.gif"/>
@@ -206,12 +219,12 @@
         quattuor ad unum comparatio, unde quemadmodum dupla proportio per figurarum immediatarum
         comparationem, ut maximae ad longam, longae ad brevem, et sic in amplius ita et haec per
         mediatas una, scilicet, tamen intermissa conficitur.</p>
-      <p xml:id="GUIARS80033">Quamobrem si maximae ad brevem, longae ad semibrevem, brevis ad minimam,
-        semibrevis ad minimam plenam sive tractum curvatum habentem, minimaeque simplicis ad minimam
-        utroque supradictorum accidentium affectam reductio fiat, et altera per altera in eodem
-        ordine proferatur, in praedicta semper erunt quadrupla proportione. Signatur autem utroque
-        eius termino hoc modo: 4/1 vel utriusque simil duplae proportionis signis, ut hic: [2Cdim],
-        autem e contra: [Cdim2].</p>
+      <p xml:id="GUIARS80033">Quamobrem si maximae ad brevem, longae ad semibrevem, brevis ad
+        minimam, semibrevis ad minimam plenam sive tractum curvatum habentem, minimaeque simplicis
+        ad minimam utroque supradictorum accidentium affectam reductio fiat, et altera per altera in
+        eodem ordine proferatur, in praedicta semper erunt quadrupla proportione. Signatur autem
+        utroque eius termino hoc modo: 4/1 vel utriusque simil duplae proportionis signis, ut hic:
+        [2Cdim], autem e contra: [Cdim2].</p>
       <p xml:id="GUIARS80034">Exemplum quadruplae proportionis</p>
       <p xml:id="GUIARS80035">[CCMP/CT8:17,2] <figure>
           <graphic url="/images/GUIARS8_03GF.gif"/>
@@ -221,26 +234,27 @@
         Eptachordon]</p>
       <p xml:id="GUIARS80037">
         <pb n="[19]"/>De sextupla proportione. Capitulum VII.</p>
-      <p xml:id="GUIARS80038">Sed quoniam quintupla proportio causa iam dicta nullo modo secundum hanc
-        speculationem dabilis est, hinc quarta figurarum diminutio sextupla fit proportione, quae
-        caeteris in sui distributione valde dissimilis est. Neque enim per figuras omnino secundum
-        valorem ternarias neque binarias, quod tamen reliquae faciunt, assignari potest.</p>
-      <p xml:id="GUIARS80039">Maxima enim secundum totum et secundum partes ternaria trium est longarum
-        novemque brevium. Maxima vero binaria duarum longarum, quattuor brevium et octo semibrevium,
-        senarium numquam producentes numerum in quem resolverentur quod oportebat.</p>
-      <p xml:id="GUIARS80040">Quod quamquam ita fuerit, tamen per figuras partim ternarias, partim vero
-        binarias, nulli dubium tripliciter atque optime valet exemplificari. Primo enim per figuras
-        natura aut positione binarias, per accidens vero ternarias, id est, puncto perfectionis
-        adauctas. Maxima enim binaria duarum, scilicet, longarum ac quattuor brevium trium erit hoc
-        modo longarum atque sex brevium e quibus quinque reiectis, sexta reiectis, sexta superit
-        decantanda, et ita in caeteris figuris, est enim sex ad unum comparatio.</p>
-      <p xml:id="GUIARS80041">Secundo autem per figuras quantum ad totum ternarias quantum vero ad earum
-        partes, binarias ut maxima trium longarum, sex brevium, et longa trium brevium, sex
+      <p xml:id="GUIARS80038">Sed quoniam quintupla proportio causa iam dicta nullo modo secundum
+        hanc speculationem dabilis est, hinc quarta figurarum diminutio sextupla fit proportione,
+        quae caeteris in sui distributione valde dissimilis est. Neque enim per figuras omnino
+        secundum valorem ternarias neque binarias, quod tamen reliquae faciunt, assignari
+        potest.</p>
+      <p xml:id="GUIARS80039">Maxima enim secundum totum et secundum partes ternaria trium est
+        longarum novemque brevium. Maxima vero binaria duarum longarum, quattuor brevium et octo
+        semibrevium, senarium numquam producentes numerum in quem resolverentur quod oportebat.</p>
+      <p xml:id="GUIARS80040">Quod quamquam ita fuerit, tamen per figuras partim ternarias, partim
+        vero binarias, nulli dubium tripliciter atque optime valet exemplificari. Primo enim per
+        figuras natura aut positione binarias, per accidens vero ternarias, id est, puncto
+        perfectionis adauctas. Maxima enim binaria duarum, scilicet, longarum ac quattuor brevium
+        trium erit hoc modo longarum atque sex brevium e quibus quinque reiectis, sexta reiectis,
+        sexta superit decantanda, et ita in caeteris figuris, est enim sex ad unum comparatio.</p>
+      <p xml:id="GUIARS80041">Secundo autem per figuras quantum ad totum ternarias quantum vero ad
+        earum partes, binarias ut maxima trium longarum, sex brevium, et longa trium brevium, sex
         semibrevium, et in amplius.</p>
-      <p xml:id="GUIARS80042">Tertio et ultimo, per figuras utriusque modi ac etiam temporis imperfecti
-        prolationis vero perfectae, sed quoniam omnium supradictarum positionum ultima non solum
-        sextuplam ad intra, id est, secundum interioris valoris reductionem, sed etiam ad extra
-        saltem in prolatione in qua sex semibreves per uno compassu, ut vulgato utamur verbo
+      <p xml:id="GUIARS80042">Tertio et ultimo, per figuras utriusque modi ac etiam temporis
+        imperfecti prolationis vero perfectae, sed quoniam omnium supradictarum positionum ultima
+        non solum sextuplam ad intra, id est, secundum interioris valoris reductionem, sed etiam ad
+        extra saltem in prolatione in qua sex semibreves per uno compassu, ut vulgato utamur verbo
         cantorum recte accipimus, praecise efficere potest. Missis igitur duabus prioribus hanc
         tamen sequimur, ita ut ad ipsam prolationem semper fiat respectus, semibrevis enim trium
         simplicium minimarum existens, sex etiam minimarum aut tractum curvatum habentium aut plene
@@ -253,25 +267,25 @@
           <graphic url="/images/GUIARS8_04GF.gif"/>
         </figure></p>
       <p xml:id="GUIARS80045">De octupla proportione. Capitulum VIII.</p>
-      <p xml:id="GUIARS80046">Quinta figurarum diminutio, quoniam septula etiam ratione iam assignata
-        dari non valet, octupla accidit proportione, in qua figurae ipsae binarii valoris pro
-        quaternarium multiplicati describuntur, et ad unitatem reducuntur.</p>
-      <p xml:id="GUIARS80047">Est enim octo ad unum comparatio. Hac igitur proportione maxima secundum
-        valorem binaria in semibrevem reducitur, longa in minimam, brevis autem in minimam plenam
-        vel curvatam, semibrevis vero in minimam utrumque <pb n="[21]"/>supradictorum accidentium
-        patientem, duabus semper intermissis figuris, signatur autem utroque eius termino ut hic:
-        8/1.</p>
+      <p xml:id="GUIARS80046">Quinta figurarum diminutio, quoniam septula etiam ratione iam
+        assignata dari non valet, octupla accidit proportione, in qua figurae ipsae binarii valoris
+        pro quaternarium multiplicati describuntur, et ad unitatem reducuntur.</p>
+      <p xml:id="GUIARS80047">Est enim octo ad unum comparatio. Hac igitur proportione maxima
+        secundum valorem binaria in semibrevem reducitur, longa in minimam, brevis autem in minimam
+        plenam vel curvatam, semibrevis vero in minimam utrumque <pb n="[21]"/>supradictorum
+        accidentium patientem, duabus semper intermissis figuris, signatur autem utroque eius
+        termino ut hic: 8/1.</p>
       <p xml:id="GUIARS80048">Exemplum octuplae proportionis.</p>
       <p xml:id="GUIARS80049">[CCMP/CT8:21; text: Tenor] <figure>
           <graphic url="/images/GUIARS8_05GF.gif"/>
         </figure></p>
       <p xml:id="GUIARS80050">De sedecupla proportione. Capitulum IX.</p>
-      <p xml:id="GUIARS80051">Sexta figurarum diminutio sedecupla proportione optime efficitur in qua
-        ipsae figurae a binario numero ducentes originem per octonarium in se multiplicatum illam
-        conficientes ad unitatem reducuntur. Est enim sedecim <pb n="[22]"/>ad illam comparatio. Hac
-        igitur proportione maximam binariam in minimam convertimus, longam in minimam plenam, brevem
-        autem in qua de necessitate finem facimus, in minimam plenam atque tractum curvatum sinul
-        habentem; signatur autem utrisque eius terminis: 16/1.</p>
+      <p xml:id="GUIARS80051">Sexta figurarum diminutio sedecupla proportione optime efficitur in
+        qua ipsae figurae a binario numero ducentes originem per octonarium in se multiplicatum
+        illam conficientes ad unitatem reducuntur. Est enim sedecim <pb n="[22]"/>ad illam
+        comparatio. Hac igitur proportione maximam binariam in minimam convertimus, longam in
+        minimam plenam, brevem autem in qua de necessitate finem facimus, in minimam plenam atque
+        tractum curvatum sinul habentem; signatur autem utrisque eius terminis: 16/1.</p>
       <p xml:id="GUIARS80052">Exemplum sedecuplae proportionis</p>
       <p xml:id="GUIARS80053">[CCMP/CT8:22; text: Tenor] <figure>
           <graphic url="/images/GUIARS8_06GF.gif"/>
@@ -297,9 +311,9 @@
         reponamus exemplum. Erit enim etsi a pluribus facile sit intelligere tamquam vehiculum
         quoddam novis scholaribus quibus prodesse duntaxat intendimus; signatur autem utroque eius
         termino ut hic: 3/2.</p>
-      <p xml:id="GUIARS80058">Si autem huiusmodi figurarum ad earum partes remotas comparatio fiat, ut
-        maximae novem brevium ad maximam quattuor, erit dupla sesquiquarta quam consulte praeterire
-        volumus.</p>
+      <p xml:id="GUIARS80058">Si autem huiusmodi figurarum ad earum partes remotas comparatio fiat,
+        ut maximae novem brevium ad maximam quattuor, erit dupla sesquiquarta quam consulte
+        praeterire volumus.</p>
       <p xml:id="GUIARS80059">Exemplum sesquialterae proportionis.</p>
       <p xml:id="GUIARS80060">[CCMP/CT8:23; text: Tenor] <figure>
           <graphic url="/images/GUIARS8_07GF.gif"/>
@@ -368,10 +382,10 @@
       <p xml:id="GUIARS80076">
         <pb n="[28]"/>De tertia et ultima sesquitertiae proportionis descriptione. Capitulum
         XIIII.</p>
-      <p xml:id="GUIARS80077">Sesquitertia etiam sub proportione dupla optime institui potest. Tunc enim
-        maxima binaria quattuor brevium in longam binariam quattuor semibrevium virtute duple primo
-        omnium convertitur, natura enim caeteras antecedit. Ab his autem sesquitertiae potante si
-        quarta pars auferatur, remanent tres semibreves in quas maxima ipsa ultimo quantum ad hoc
+      <p xml:id="GUIARS80077">Sesquitertia etiam sub proportione dupla optime institui potest. Tunc
+        enim maxima binaria quattuor brevium in longam binariam quattuor semibrevium virtute duple
+        primo omnium convertitur, natura enim caeteras antecedit. Ab his autem sesquitertiae potante
+        si quarta pars auferatur, remanent tres semibreves in quas maxima ipsa ultimo quantum ad hoc
         propositum attinet dissolvetur; similiter autem longa in semibrevem puncto augmentationis
         affectam, brevis quidem in minimam eodem puncto adauctam. Si autem supradictae figurae
         coloratae vel plenae efficiantur, tunc maxima sicut iam meminimus virtute coloris tria parte
@@ -393,11 +407,11 @@
       <p xml:id="GUIARS80082">Quamquam autem de proportionum superius descriptarum signis figurarum
         diminutionem secundum valorem demonstrantibus singulatim dictum fuerit, nunc etiam illa
         repetere non erit inutile.</p>
-      <p xml:id="GUIARS80083">Dupla igitur, quae prima omnium est quoniam duorum ad unum est comparatio,
-        per numeri binarii et unitatis figuras ostenditur, ut hic: 2/1, aut saltem per maiorem
-        illarum, prout usus obtinuit. Et quoniam non est duplum praeter dimidium, potest etiam per
-        circulum aut semicirculum linea intersectum, quod nimium vulgatum est, alio istorum modorum
-        demonstrari, scilicet: [Odim,Cddim,Cdim].</p>
+      <p xml:id="GUIARS80083">Dupla igitur, quae prima omnium est quoniam duorum ad unum est
+        comparatio, per numeri binarii et unitatis figuras ostenditur, ut hic: 2/1, aut saltem per
+        maiorem illarum, prout usus obtinuit. Et quoniam non est duplum praeter dimidium, potest
+        etiam per circulum aut semicirculum linea intersectum, quod nimium vulgatum est, alio
+        istorum modorum demonstrari, scilicet: [Odim,Cddim,Cdim].</p>
       <p xml:id="GUIARS80084">Tripla autem per ternarii numeri et unitatis figuras: 3/1.</p>
       <p xml:id="GUIARS80085">Si autem quadrupla fuerit per quaternarii et unitatis signa: 4/1. Aut
         etiam per dupli et dimidii caracteres simul, ut hic: [2Cdim] vel e <pb n="[30]"/>contra
@@ -411,10 +425,10 @@
         tertium signum ad simplicem duplam redire, verum enim si inter secundum atque tertium signum
         quaedam notulae ut in prima illarum consideratione inserte inveniantur, tunc recte fieri
         potest.</p>
-      <p xml:id="GUIARS80088">Similiter autem modo in octupla atque sedecupla vertendum est. Si autem
-        sesquialtera fuerit, per ternarii et binarii numeri figuras 3/2 demonstratur, aut ut in
-        consuetudinem ventum est, saltem per maiorem illarum quamquam improprie. Eadem enin figura
-        etiam triplam intelligere possumus. Quidam autem quot tempora sesquialtera habuerit,
+      <p xml:id="GUIARS80088">Similiter autem modo in octupla atque sedecupla vertendum est. Si
+        autem sesquialtera fuerit, per ternarii et binarii numeri figuras 3/2 demonstratur, aut ut
+        in consuetudinem ventum est, saltem per maiorem illarum quamquam improprie. Eadem enin
+        figura etiam triplam intelligere possumus. Quidam autem quot tempora sesquialtera habuerit,
         tantarum unitatum figuris superflue tamen illam demonstrant. Non enim numerum notularum
         illius sed eius tamen relationem quaerimus quam per simplices ipsius terminos qui et radices
         appellantur promptius quia prius natura demonstratur.</p>
@@ -424,20 +438,20 @@
         temporis imperfecti ad perfectum et prolationis perfectae ad imperfectam comparatione, eadem
         proportione sibi opponantur. Et quidam per semicirculum iterum cum puncto ad simplicem
         semicirculum: [C,CLd], tamquam in prolatione tamen sesquialteram custodientes.</p>
-      <p xml:id="GUIARS80090">In sesquitertia vero per quaternarii numeri et ternarii figuras quando sui
-        ipsius gratis ponitur recte demonstratio fit 4/3. Quando autem e contra, id est, respective
-        describitur, de qua nullam fecimus mentionem, tunc <pb n="[31]"/>solet per semicirculum
-        absque puncto conversim ad circulum etiam sine puncto vel semicirculum cum puncto positum
-        ostendi, ut hic: [O,CL],[Cd,CL].</p>
+      <p xml:id="GUIARS80090">In sesquitertia vero per quaternarii numeri et ternarii figuras quando
+        sui ipsius gratis ponitur recte demonstratio fit 4/3. Quando autem e contra, id est,
+        respective describitur, de qua nullam fecimus mentionem, tunc <pb n="[31]"/>solet per
+        semicirculum absque puncto conversim ad circulum etiam sine puncto vel semicirculum cum
+        puncto positum ostendi, ut hic: [O,CL],[Cd,CL].</p>
       <p xml:id="GUIARS80091">Demonstrant enim maiorem illius terminum a binario numero in seipsum
         multiplicato originem habere et ad ternarium vel in tempore vel prolatione antecedente
         existentem relationem facere.</p>
-      <p xml:id="GUIARS80092">Similter autem quando post sesquialteram respective sumptam ad binarias
-        per medium secundum valorem intersectas redeunt figuras, quidam eodem semicirculo converso
-        [CL] duplam demonstrare nec tamen improprie contendunt et quidam quadrumplam, quod nulla
-        ratione defendi posse videtur.</p>
-      <p xml:id="GUIARS80093">De tertia et ultima figurarum consideratione, quae est secundum valoris
-        augmentum. Capitulum XVI.</p>
+      <p xml:id="GUIARS80092">Similter autem quando post sesquialteram respective sumptam ad
+        binarias per medium secundum valorem intersectas redeunt figuras, quidam eodem semicirculo
+        converso [CL] duplam demonstrare nec tamen improprie contendunt et quidam quadrumplam, quod
+        nulla ratione defendi posse videtur.</p>
+      <p xml:id="GUIARS80093">De tertia et ultima figurarum consideratione, quae est secundum
+        valoris augmentum. Capitulum XVI.</p>
       <p xml:id="GUIARS80094">Tertia et ultima figurarum consideratio est secundum valoris augmentum
         quae per oppositum praecedentis efficitur. In illa enim per duplum, triplum aut alium
         superius dictorum modorum maiorem numerum minori comparando ac maiorem pro minori figuram
@@ -446,8 +460,8 @@
         tamen nostri etsi modernorum quibusdam alia mens atque operatio quamquam non recta fuerit,
         numquam illarum nominibus in hac facultate utendum esse, ita ut subduplam, subtriplam et ita
         in caeteris dicamus, sed neque earum signis optime statuerunt.</p>
-      <p xml:id="GUIARS80095">Nullam enim ut in descriptione consonantiarum et earum elementorum patuit,
-        habent in illa potestate, unde loco dictarum proportionum et earum nominum, his
+      <p xml:id="GUIARS80095">Nullam enim ut in descriptione consonantiarum et earum elementorum
+        patuit, habent in illa potestate, unde loco dictarum proportionum et earum nominum, his
         superscriptionibus duntaxat uti dictissime decreverunt, "Crescit in duplo," "Crescit in
         triplo," atque ita in amplius secundum augmentationis modum quod a sapientibus modulatorum
         ad hanc usque diem recte observatum est. Quare relinquitur necessario ut genera ipsa minoris
@@ -481,32 +495,33 @@
         superparticularis generis proportione. Proinde cantetur in proportione sesquitertia, vel
         cantetur sub diatesseron consonantia, vel cantetur in secunda superparticularis generis
         specie.</p>
-      <p xml:id="GUIARS80101">Ut enim a Boethio, libro primo, optime dicitur: "Dupla in numeris diapason
-        est in sonis, tripla diapason diapente, quadrupla bisdiapason, sesquialtera diapente,
-        sesquitertia diatesseron." Deinde autem poterit nominibus chordarum citherae, de quibus
-        libro secundo dictum est, uti, aliam, scilicet, pro alia in confectione atque principio meli
-        adaptando et reliquas sequentes eodem ordine. Si enim melum primi modi conflare ac omnem
-        contrapunctum pariforma illi eiusdem toni melo semper permanente describere poterit. Verum
-        enimvero quoniam hoc modo illum cantando ipse per omnia dissonare inveniretur, tunc his
-        verbis aut similibus in fine tenoris descriptis utatur, "Praetermissa proslambanosmenon sume
-        tibi lycanos ypaton," ab hac enim incipiendum erat. Et ita in amplius semper per diatesseron
-        intensam caeteras transferendo chordas. Sed inter haec cavendus est error illorum summopere
-        qui proslambanomenos ita per eius syllabas quemadmodum per consueta nomina vocum decantant,
-        similiter autem hypate ypaton, et ita consequenter quorum tam crassam supinamque ruditatem
-        non possum non satis mirari, singularium enim chordarum nomina tantum sunt, ut ostensum
-        est.</p>
+      <p xml:id="GUIARS80101">Ut enim a Boethio, libro primo, optime dicitur: "Dupla in numeris
+        diapason est in sonis, tripla diapason diapente, quadrupla bisdiapason, sesquialtera
+        diapente, sesquitertia diatesseron." Deinde autem poterit nominibus chordarum citherae, de
+        quibus libro secundo dictum est, uti, aliam, scilicet, pro alia in confectione atque
+        principio meli adaptando et reliquas sequentes eodem ordine. Si enim melum primi modi
+        conflare ac omnem contrapunctum pariforma illi eiusdem toni melo semper permanente
+        describere poterit. Verum enimvero quoniam hoc modo illum cantando ipse per omnia dissonare
+        inveniretur, tunc his verbis aut similibus in fine tenoris descriptis utatur, "Praetermissa
+        proslambanosmenon sume tibi lycanos ypaton," ab hac enim incipiendum erat. Et ita in amplius
+        semper per diatesseron intensam caeteras transferendo chordas. Sed inter haec cavendus est
+        error illorum summopere qui proslambanomenos ita per eius syllabas quemadmodum per consueta
+        nomina vocum decantant, similiter autem hypate ypaton, et ita consequenter quorum tam
+        crassam supinamque ruditatem non possum non satis mirari, singularium enim chordarum nomina
+        tantum sunt, ut ostensum est.</p>
       <p xml:id="GUIARS80102">Praeterea si tenorem cuiuscumque meli modi perfecti instituat, in quo
         longae ternarii valoris, id est, trium brevium, existunt, poterit modulator in terminis
         trium vocum illas statuere, in quibus prima immobili permanente, reliquas in locum quem
         unamquamque illarum secundum ordinem horum nominum, ut, re, mi, fa, sol, la viderit
         possidere mente transferre, et ita contrapunctum illi adaptare. At si duae tantum quocumque
-        in loco fuerint voces, tunc loco tertiae pausa unius temporis describatur. Quare <pb n="[34]"/>si in a la mi re, g sol re ut atque f fa ut, tunc secunda vox primi termini erit
+        in loco fuerint voces, tunc loco tertiae pausa unius temporis describatur. Quare <pb
+          n="[34]"/>si in a la mi re, g sol re ut atque f fa ut, tunc secunda vox primi termini erit
         in e remissa, tertia vero in d. Consequenter autem secunda secundi termini erit in d tertia,
         quidem in c ubi etiam secunda tertii decantabitur. Et quoniam breves ipsae partes sunt
         longarum, simili canone modulator ipse poterit uti, "Ab alto descendentes longae fecerunt
         proles suas in locum quem fundarunt illis."</p>
-      <p xml:id="GUIARS80103">Hic est igitur modus recte instituendi canones qui secundum hanc formas
-        terminis artis semper observatis in infinitum variari potest. Atque hic est.</p>
+      <p xml:id="GUIARS80103">Hic est igitur modus recte instituendi canones qui secundum hanc
+        formas terminis artis semper observatis in infinitum variari potest. Atque hic est.</p>
     </body>
   </text>
 </TEI>

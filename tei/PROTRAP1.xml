@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Tractatus practice de musica mensurabili</title>
         <title type="abbrev">PROTRAP1</title>
-        <author>Prosdocimo de' Beldomandi</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Prosdocimo de' Beldomandi</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>C. Matthew Balensuela</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
-        <date>1990</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1990">1990</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptorum de musica medii aevi nova series a Gerbertina altera</emph>, 4 vols., ed.
@@ -59,27 +69,28 @@
         Johannis de Muris quas in totum observando, dubia et prolixa in ipsius expositionibus per me
         tradita quasi dimittendo, et hoc ut brevitate gaudentes citius ad finem optatum pervenire
         valeant.</p>
-      <p xml:id="PROTRAP10004">Tractatum ergo meum incipiendo dico quod sex sunt figure quibus utimur in
-        cantu mensurabili, scilicet maxima que alio nomine duplex longa nominatur, longa, brevis que
-        alio nomine tempus nominatur, semibrevis, minima et semiminima, et tales per ordinem sic
-        figurari habent: [MX,L,B,S,M,SM on staff4] Et si alique reperiredtur figure nullam istarum
-        figurationem totaliter habentes, subtiliter est intuendum quoniam reperiretur eas ad aliquam
-        supradictarum reduci debere.</p>
+      <p xml:id="PROTRAP10004">Tractatum ergo meum incipiendo dico quod sex sunt figure quibus
+        utimur in cantu mensurabili, scilicet maxima que alio nomine duplex longa nominatur, longa,
+        brevis que alio nomine tempus nominatur, semibrevis, minima et semiminima, et tales per
+        ordinem sic figurari habent: [MX,L,B,S,M,SM on staff4] Et si alique reperiredtur figure
+        nullam istarum figurationem totaliter habentes, subtiliter est intuendum quoniam reperiretur
+        eas ad aliquam supradictarum reduci debere.</p>
       <p xml:id="PROTRAP10005">Istarum autem sex figurarum solum quatuor prime sunt perfectibiles et
         imperfectibiles; perfectibiles namque sunt, quando sunt imperfecte, imperfectibiles vero,
         quando sunt perfecte.</p>
-      <p xml:id="PROTRAP10006">Perfecte namque et imperfecte tres prime istarum possunt esse dupliciter,
-        scilicet quo ad totum et quo ad partem vel partes: quo ad totum sunt perfecte, quando valent
-        tres de immediate sequentibus; imperfecte vero quo ad totum sunt, quando de eis valent solum
-        duas; et intelligo figuram sive notam mediate vel immediate sequi respectu ordinis sub quo
-        prius numerate sunt, et sic semper in posterum intelligam, quando de immediatione sive
-        mediatione notarum faciam mentionem. Verbi gratia: nam maxima tunc est perfecta quo ad
-        totum, quando valet tres longas; imperfecta vero quo ad totum, quando valet solum duas.
-        Longa etiam tunc quo ad totum est perfecta, quando valent tres breves, imperfecta <pb n="[201]"/>vero quo ad totum est, quando valet solum duas. Brevis etiam tunc quo ad totum
-        perfecta est, quando valet tres semibreves; imperfecta vero tunc quo ad totum est, quando
-        valet solum duas. Semibrevis etiam, que non potest imperfici nisi quo ad totum, perfecta
-        est, quando valet tres minimas; imperfecta vero tunc quo ad totum est, quando valet solum
-        duas.</p>
+      <p xml:id="PROTRAP10006">Perfecte namque et imperfecte tres prime istarum possunt esse
+        dupliciter, scilicet quo ad totum et quo ad partem vel partes: quo ad totum sunt perfecte,
+        quando valent tres de immediate sequentibus; imperfecte vero quo ad totum sunt, quando de
+        eis valent solum duas; et intelligo figuram sive notam mediate vel immediate sequi respectu
+        ordinis sub quo prius numerate sunt, et sic semper in posterum intelligam, quando de
+        immediatione sive mediatione notarum faciam mentionem. Verbi gratia: nam maxima tunc est
+        perfecta quo ad totum, quando valet tres longas; imperfecta vero quo ad totum, quando valet
+        solum duas. Longa etiam tunc quo ad totum est perfecta, quando valent tres breves,
+        imperfecta <pb n="[201]"/>vero quo ad totum est, quando valet solum duas. Brevis etiam tunc
+        quo ad totum perfecta est, quando valet tres semibreves; imperfecta vero tunc quo ad totum
+        est, quando valet solum duas. Semibrevis etiam, que non potest imperfici nisi quo ad totum,
+        perfecta est, quando valet tres minimas; imperfecta vero tunc quo ad totum est, quando valet
+        solum duas.</p>
       <p xml:id="PROTRAP10007">Quo ad partem vel partes vero perfecte sunt tres prime figure, quando
         ipsarum pars vel partes sunt perfecte. Imperfecte vero quo ad partem vel partes tunc sunt,
         quando ipsarum pars vel partes imperfecte sunt, verbi gratia: nam maxima tunc quod ad partem
@@ -107,11 +118,11 @@
         figure majores sicut statim dicetur; hoc nunquam visum est, nec ipsi concederent; ergo
         perficere non habent minimam nec semiminimam per punctum quod fuit declarandum; relinquenda
         est ergo eorum opinio.</p>
-      <p xml:id="PROTRAP10008">Ultra predicta est sciendum quod quelibet supradictarum quatuor figurarum
-        perfectibilium et imperfectibilium suam habent mensuram sibi appropriatam. Maxima namque,
-        que prima est in ordine hanc, mensuram que modus maximarum sive modus major dicitur, pro se
-        habet et sic difinitur: modus maximarum est mensura cujus perfectio et imperfectio per
-        perfectionem et imperfectionem maximarum habet mensurari. Longa vero, que secunda est in
+      <p xml:id="PROTRAP10008">Ultra predicta est sciendum quod quelibet supradictarum quatuor
+        figurarum perfectibilium et imperfectibilium suam habent mensuram sibi appropriatam. Maxima
+        namque, que prima est in ordine hanc, mensuram que modus maximarum sive modus major dicitur,
+        pro se habet et sic difinitur: modus maximarum est mensura cujus perfectio et imperfectio
+        per perfectionem et imperfectionem maximarum habet mensurari. Longa vero, que secunda est in
         ordine, hanc mensuram que modus longarum sive modus minor dicitur, pro se possidet, et sic
         diffinitur modus: longarum est mensura cujus perfectio et imperfectio per perfectionem et
         imperfectionem longarum habet mensurari. Brevis vero habet hanc mensuram que dicitur tempus,
@@ -121,31 +132,31 @@
         perfectionem <pb n="[202]"/>et imperfectionem semibrevium habet mensurari; per perfectionem
         et imperfectionem notarum positam in istis descriptionibus intelligendo perfectionem et
         imperfectionem ipsarum notarum quo ad totum, et non quo ad partem vel partes.</p>
-      <p xml:id="PROTRAP10009">Item est sciendum quod quelibet istarum quatuor mensurarum quatuor primis
-        figuris correspondentium bipartitur, quoniam ipsarum quelibet, aut est perfecta, aut
+      <p xml:id="PROTRAP10009">Item est sciendum quod quelibet istarum quatuor mensurarum quatuor
+        primis figuris correspondentium bipartitur, quoniam ipsarum quelibet, aut est perfecta, aut
         imperfecta, et ideo notanter dixi in earum diffinitionibus sive descriptionibus cujus
         perfectio et imperfectio et cetera.</p>
-      <p xml:id="PROTRAP10010">Modus ergo maximarum qui primum mensurarum locum obtinet, ut dixi, est
-        duplex, scilicet perfectus et imperfectus: modus perfectus maximarum tunc est, quando maxima
-        de sui natura est perfecta et propter hoc dicimus quod tunc ille cantus est de modo perfecto
-        maximarum, quando sic se habet quod omnes maxime in ipso reperte de sui natura sunt
+      <p xml:id="PROTRAP10010">Modus ergo maximarum qui primum mensurarum locum obtinet, ut dixi,
+        est duplex, scilicet perfectus et imperfectus: modus perfectus maximarum tunc est, quando
+        maxima de sui natura est perfecta et propter hoc dicimus quod tunc ille cantus est de modo
+        perfecto maximarum, quando sic se habet quod omnes maxime in ipso reperte de sui natura sunt
         perfecte. Modus vero maximarum tunc est perfectus, quando maxima de sui natura est
         imperfecta, et propter hoc etiam dicimus quod tunc ille cantus est de modo imperfecto
         maximarum, quando sic se habet quod omnes maxime in ipso reperte de sui natura sunt
         imperfecte.</p>
-      <p xml:id="PROTRAP10011">Modus vero longarum etiam est duplex, scilicet perfectus et imperfectus:
-        modus longarum tunc perfectus est, quando longa de sui natura est perfecta, et propter hoc
-        dicimus quod tunc ille cantus est de modo perfecto longarum, quando sic se habet quod omnes
-        longe in ipso reperte de sui natura sunt perfecte. Modus vero longarum tunc est imperfectus,
-        quando longa de sui natura est imperfecta, et propter hoc dicimus quod tunc ille cantus est
-        de modo imperfecto longarum, quando sic se habet quod omnes longe in ipso reperte de sui
-        natura sunt imperfecte.</p>
-      <p xml:id="PROTRAP10012">Tempus vero etiam duplex est, scilicet perfectum et imperfectum: tempus
-        perfectum tunc est, quando brevis de sui natura est perfecta propter quod dicimus quod tunc
-        ille cantus est de tempore perfecto, quando omnes breves in ipso reperte de sui natura sunt
-        perfecte. Tempus vero imperfectum tunc est, quando brevis de sui natura est imperfecta
-        propter quod dicimus quod tunc ille cantus est de tempore imperfecto, quando omnes breves in
-        ipso reperte de sui natura sunt imperfecte.</p>
+      <p xml:id="PROTRAP10011">Modus vero longarum etiam est duplex, scilicet perfectus et
+        imperfectus: modus longarum tunc perfectus est, quando longa de sui natura est perfecta, et
+        propter hoc dicimus quod tunc ille cantus est de modo perfecto longarum, quando sic se habet
+        quod omnes longe in ipso reperte de sui natura sunt perfecte. Modus vero longarum tunc est
+        imperfectus, quando longa de sui natura est imperfecta, et propter hoc dicimus quod tunc
+        ille cantus est de modo imperfecto longarum, quando sic se habet quod omnes longe in ipso
+        reperte de sui natura sunt imperfecte.</p>
+      <p xml:id="PROTRAP10012">Tempus vero etiam duplex est, scilicet perfectum et imperfectum:
+        tempus perfectum tunc est, quando brevis de sui natura est perfecta propter quod dicimus
+        quod tunc ille cantus est de tempore perfecto, quando omnes breves in ipso reperte de sui
+        natura sunt perfecte. Tempus vero imperfectum tunc est, quando brevis de sui natura est
+        imperfecta propter quod dicimus quod tunc ille cantus est de tempore imperfecto, quando
+        omnes breves in ipso reperte de sui natura sunt imperfecte.</p>
       <p xml:id="PROTRAP10013">Prolatio vero etiam est duplex, scilicet perfecta et imperfecta, sive
         major et minor quod idem est: prolatio namque perfecta sive major tunc est, quando
         semibrevis de sui natura est perfecta propter quod dicimus quod tunc ille cantus est de
@@ -194,18 +205,18 @@
         perficitur, ipsa per talem punctum quo ad totum perficitur, et non quo ad partem vel partes,
         ista regula de se clarissima est, quoniam de ratione puncti perfectionis est perficere totum
         cui additur, et non partem vel partes, ut patere potest bene intelligenti.</p>
-      <p xml:id="PROTRAP10019">Quarta regula est ista, quod omnis imperfectio que fit per evacuationem
-        vel transmutationem ad alium colorem, fit quo ad totum, et non quo ad partem vel partes, et
-        ratio est, quoniam omnis imperfectio, facta per evacuationem vel transmutationem ad alium
-        colorem, solum concernit mensuram note que per talem evacuationem seu transmutationem ad
-        alium colorem imperficitur; et ergo talis nota per talem evacuationem seu transmutationem ad
-        alium colorem solum quo ad mensuram propriam imperficitur; et si sic, ipsa quod ad totum
-        imperficitur, et non quo ad partem vel ad partes. Quid autem sit evacuare notam vel ipsam ad
-        alium colorem transmutare in proprio capitulo determinabitur.</p>
-      <p xml:id="PROTRAP10020">Quinta regula est ista, quod omnis nota que imperficitur a nota minori
-        sibi immediate vel ejus pausa vel valore, imperficitur solum quo ad totum, et ratio est
-        quoniam ab ipsa solum abstrahitur tertia pars valoris respectu cujus quo ad totum dicitur
-        esse perfecta vel imperfecta.</p>
+      <p xml:id="PROTRAP10019">Quarta regula est ista, quod omnis imperfectio que fit per
+        evacuationem vel transmutationem ad alium colorem, fit quo ad totum, et non quo ad partem
+        vel partes, et ratio est, quoniam omnis imperfectio, facta per evacuationem vel
+        transmutationem ad alium colorem, solum concernit mensuram note que per talem evacuationem
+        seu transmutationem ad alium colorem imperficitur; et ergo talis nota per talem evacuationem
+        seu transmutationem ad alium colorem solum quo ad mensuram propriam imperficitur; et si sic,
+        ipsa quod ad totum imperficitur, et non quo ad partem vel ad partes. Quid autem sit evacuare
+        notam vel ipsam ad alium colorem transmutare in proprio capitulo determinabitur.</p>
+      <p xml:id="PROTRAP10020">Quinta regula est ista, quod omnis nota que imperficitur a nota
+        minori sibi immediate vel ejus pausa vel valore, imperficitur solum quo ad totum, et ratio
+        est quoniam ab ipsa solum abstrahitur tertia pars valoris respectu cujus quo ad totum
+        dicitur esse perfecta vel imperfecta.</p>
       <p xml:id="PROTRAP10021">Sexta regula est ista, quod omnis nota que imperficitur a nota minori
         sibi mediata vel ejus pausa vel valore, quo ad partem solum imperficitur et non quo ad totum
         vel partes, patet <pb n="[204]"/>quoniam talis nota imperficitur et non imperficitur quo ad
@@ -224,15 +235,16 @@
         imperficere, et ergo imperficitur quo ad partem vel partes; quo ad partem, ut si brevis
         majoris prolationis imperficeretur a duabus semiminimis, quo ad partes, ut si ipsa
         imperficeretur a duabus minimis.</p>
-      <p xml:id="PROTRAP10023">Si vero tales partes tali note mediate possent constituere unam partem
-        sibi immediatam sufficientem talem notam quo ad totum imperficere, si quo ad totum perfecta
-        foret, tunc talis nota non imperficeretur quo ad partem vel partes, sed quo ad totum,
-        quoniam tunc ab ipsa abstraheretur tertia pars ipsius valoris respectu cujus quo ad totum
-        perfecta vel imperfecta dicitur, vel ipsius valor, et hoc etiam vult Johannes de Muris.</p>
-      <p xml:id="PROTRAP10024">Sed licet hoc verum sit, possemus tamen probabiliter substentare, quod
-        tales partes tali note mediate et divise que possunt constituere unam partem sibi immediatam
-        sufficientem talem notam quo ad totum imperficere, si talis nota quo ad totum perfecta
-        foret, non imperficiunt ipsam notam quo ad totum, sed quo ad omnes partes ejus sibi
+      <p xml:id="PROTRAP10023">Si vero tales partes tali note mediate possent constituere unam
+        partem sibi immediatam sufficientem talem notam quo ad totum imperficere, si quo ad totum
+        perfecta foret, tunc talis nota non imperficeretur quo ad partem vel partes, sed quo ad
+        totum, quoniam tunc ab ipsa abstraheretur tertia pars ipsius valoris respectu cujus quo ad
+        totum perfecta vel imperfecta dicitur, vel ipsius valor, et hoc etiam vult Johannes de
+        Muris.</p>
+      <p xml:id="PROTRAP10024">Sed licet hoc verum sit, possemus tamen probabiliter substentare,
+        quod tales partes tali note mediate et divise que possunt constituere unam partem sibi
+        immediatam sufficientem talem notam quo ad totum imperficere, si talis nota quo ad totum
+        perfecta foret, non imperficiunt ipsam notam quo ad totum, sed quo ad omnes partes ejus sibi
         immediatas, verbi gratia: nam possemus dicere quod brevis perfecta majoris prolationis
         posset imperfici a tribus minimis quo ad omnes ejus semibreves, et non quo ad ipsam totam
         imo ipsa tota adhuc perfecta remanente, quoniam ita adhuc valeret tres semibreves sicut et
@@ -245,10 +257,10 @@
         est hic, quia a tali brevi non abstrahitur una de tribus semibrevibus respectu quarum quo ad
         totum perfecta vel imperfecta dicitur, quoniam ita valent adhuc semibreves sicut et prius,
         ut paulo ante dictum est.</p>
-      <p xml:id="PROTRAP10025">Octava regula est ista, quod quotiens aliqua nota quo ad se totam vel quo
-        ad ipsius partem vel partes est divisibilis in tres partes sibi immediatas, totiens potest
-        imperfici per abstractionem illius tertie partis immediate vel valoris ejus; et quando
-        cessat talis divisio, cessat talis imperfectio; hec regula satis evidens est bene
+      <p xml:id="PROTRAP10025">Octava regula est ista, quod quotiens aliqua nota quo ad se totam vel
+        quo ad ipsius partem vel partes est divisibilis in tres partes sibi immediatas, totiens
+        potest imperfici per abstractionem illius tertie partis immediate vel valoris ejus; et
+        quando cessat talis divisio, cessat talis imperfectio; hec regula satis evidens est bene
         advertenti.</p>
       <p xml:id="PROTRAP10026">Nona regula est ista, quod quando imperficiens preponitur illi quod
         imperficitur, tunc illud quod imperficitur dicitur imperfici a parte ante quando vero
@@ -274,37 +286,39 @@
         coacti, quia facilius est eis imperficere notam a parte post quam a parte ante, ut dictum
         est; et hoc est propter inclinationem naturalem quam habet nota minor ad notam majorem ipsam
         precedentem in ejus perfectione. Exemplum regule in omni mensura est hoc:</p>
-      <p xml:id="PROTRAP10028">[ClefC2,R3rvd,MX,L,MX; R3rvd,L,B,L; O,B,S,B; C3d,S,Mcd,S on staff4]</p>
+      <p xml:id="PROTRAP10028">[ClefC2,R3rvd,MX,L,MX; R3rvd,L,B,L; O,B,S,B; C3d,S,Mcd,S on
+        staff4]</p>
       <p xml:id="PROTRAP10029">Exemplum prime exceptionis regule in omni mensura est hoc:
         [ClefC2,R3rvd,MX,pt,L,MX; R3rvd,L,pt,B,L; O,B,pt,S,B; C3d,S,pt,Mcd,S on staff4]</p>
       <p xml:id="PROTRAP10030">Exemplum secunde exceptionis regule in omni mensura est hoc:</p>
       <p xml:id="PROTRAP10031">[ClefC2,R3rvd,L,MX,L,MX; R3rvd,B,L,B,L; O,S,B,S,B; C3d,M,S,M,S on
         staff4]</p>
-      <p xml:id="PROTRAP10032">Undecima regula est ista, quod quando inter aliquas duas figuras ibidem
-        imperfectibiles reperiuntur due figure minores, quarum quelibet sit sufficiens ipsas duas
-        notas majores inter quas ponuntur imperficere quo ad totum, vel saltim secundam ipsarum, vel
-        reperitur ipsarum valor, dummodo ultima sit sufficiens secundum figurarum majorum
-        imperficere quo ad totum, tunc prima nota, inter quas ponuntur, dicitur esse perfecta, nisi
-        sit impeditio puncti vel imperfectionis precedentis. Si vero quelibet talium figurarum
-        minorum, vel saltim ultima, non esset sufficiens tales duas notas majores, inter quas
-        ponuntur, imperficere quo ad totum, vel saltim secunda ipsarum, sed bene quo ad partem vel
-        partes, vel si ultima ipsarum sit pausa, tunc prima talium duarum notarum majorum ab omnibus
-        istis figuris intermediis semper imperficitur, et si non ab omnibus saltim ab aliquibus vel
-        aliqua ipsarum, nisi sit impeditio puncti vel imperfectionis precedentis. Alii autem
-        dicerent quod non semper sed aliquando sic et aliquando non, deductis impedimentis
+      <p xml:id="PROTRAP10032">Undecima regula est ista, quod quando inter aliquas duas figuras
+        ibidem imperfectibiles reperiuntur due figure minores, quarum quelibet sit sufficiens ipsas
+        duas notas majores inter quas ponuntur imperficere quo ad totum, vel saltim secundam
+        ipsarum, vel reperitur ipsarum valor, dummodo ultima sit sufficiens secundum figurarum
+        majorum imperficere quo ad totum, tunc prima nota, inter quas ponuntur, dicitur esse
+        perfecta, nisi sit impeditio puncti vel imperfectionis precedentis. Si vero quelibet talium
+        figurarum minorum, vel saltim ultima, non esset sufficiens tales duas notas majores, inter
+        quas ponuntur, imperficere quo ad totum, vel saltim secunda ipsarum, sed bene quo ad partem
+        vel partes, vel si ultima ipsarum sit pausa, tunc prima talium duarum notarum majorum ab
+        omnibus istis figuris intermediis semper imperficitur, et si non ab omnibus saltim ab
+        aliquibus vel aliqua ipsarum, nisi sit impeditio puncti vel imperfectionis precedentis. Alii
+        autem dicerent quod non semper sed aliquando sic et aliquando non, deductis impedimentis
         recitatis, quia aliquando ille intermedie figure remanerent sole, et ad ipsas reduceretur
         aliqua tertia pars vel valor pro complemento <pb n="[206]"/>perfectionis, sed de hoc plenius
         videbitur in septima-decima regula istius capituli.</p>
-      <p xml:id="PROTRAP10033">Prima pars regule patet, quoniam si non sint impeditiones supradicte, in
-        illis duabus figuris minoribus vel valore repertis inter illas duas notas majores, bene
+      <p xml:id="PROTRAP10033">Prima pars regule patet, quoniam si non sint impeditiones supradicte,
+        in illis duabus figuris minoribus vel valore repertis inter illas duas notas majores, bene
         possumus perfectionem invenire, scilicet secundam alterando. Quid autem sit alteratio in suo
         proprio capitulo patebit.</p>
       <p xml:id="PROTRAP10034">Secunda vero pars regule patet per rationem adductam ad probationem
         regule immediate precedentis, scilicet decime. Exemplum prime partis regule in omni mensura
         est hoc:</p>
-      <p xml:id="PROTRAP10035">[R3rvd,MX,L,L,MX; R3rvd,L,B,B,L; O,B,S,S,B; C3d,S,M,M,S on staff4]</p>
-      <p xml:id="PROTRAP10036">Exemplum prime exceptionis prime partis regule in omni mensura est hoc:
-        [R3rvd,MX,L,pt,L,MX; R3rvd,L,B,pt,B,L; O,B,S,pt,S,B; C3d,S,M,pt,M,S on staff4]</p>
+      <p xml:id="PROTRAP10035">[R3rvd,MX,L,L,MX; R3rvd,L,B,B,L; O,B,S,S,B; C3d,S,M,M,S on
+        staff4]</p>
+      <p xml:id="PROTRAP10036">Exemplum prime exceptionis prime partis regule in omni mensura est
+        hoc: [R3rvd,MX,L,pt,L,MX; R3rvd,L,B,pt,B,L; O,B,S,pt,S,B; C3d,S,M,pt,M,S on staff4]</p>
       <p xml:id="PROTRAP10037">Exemplum secunde exceptionis prime partis regule in omni mensura est
         hoc:</p>
       <p xml:id="PROTRAP10038">[R3rvd,L,MX,L,L,MX, R3rvd,B,L,B,B,L; O,S,B,S,S,B; C3d,M,S,M,M,S on
@@ -316,14 +330,14 @@
         hoc:</p>
       <p xml:id="PROTRAP10042">[R3rvd,MX,B,pt,B,MX; O,L,S,pt,S,L; O3d,B,M,pt,M,B;
         C3d,S,pt,SMvxsn,SMvxsn,S on staff4]</p>
-      <p xml:id="PROTRAP10043">Exemplum secunde exceptionis secunde partis regule in omni mensura est
-        hoc:</p>
+      <p xml:id="PROTRAP10043">Exemplum secunde exceptionis secunde partis regule in omni mensura
+        est hoc:</p>
       <p xml:id="PROTRAP10044">[R3rvd,L,Lig2d,MX,B,B,MX; O,B,S,S,L,S,S,L; O3d,S,M,M,B,M,M,B;
         M,S,SMvxsn,SMvxsn,S on staff4]</p>
-      <p xml:id="PROTRAP10045">Duodecima regula est ista quod, quando inter aliquas duas notas ibidem
-        imperfectibiles, ubi reperiuntur plures duabus figuris, quarum quelibet sufficiat tales duas
-        notas majores imperficere vel earum valore, de perfectionibus quas habent, si quas vel
-        aliquam habent reperitur perfectio completa, tunc prima illarum duarum notarum
+      <p xml:id="PROTRAP10045">Duodecima regula est ista quod, quando inter aliquas duas notas
+        ibidem imperfectibiles, ubi reperiuntur plures duabus figuris, quarum quelibet sufficiat
+        tales duas notas majores imperficere vel earum valore, de perfectionibus quas habent, si
+        quas vel aliquam habent reperitur perfectio completa, tunc prima illarum duarum notarum
         imperfectibilium cum perfectionibus suis remanent intacta, nisi per punctum divisionis aut
         per imperfectionem precedentem fuerit impedita, et hoc evidens est, quoniam tunc a nullo
         imperficitur. Exemplum regule in omni mensura est hoc:</p>
@@ -334,8 +348,8 @@
       <p xml:id="PROTRAP10048">[R3rvd,MX,L,pt,L,L,MX; R3rvd,L,B,pt,B,B,L; O,B,S,pt,S,S,B;
         C3d,S,M,pt,M,M,S on staff4]</p>
       <p xml:id="PROTRAP10049">Exemplum secunde exceptionis regule in omni mensura est hoc:</p>
-      <p xml:id="PROTRAP10050">[R3rvd,L,MX,L,L,L,MX; R3rvd,BL,B,B,B,L; O,S,B,S,S,S,B; C3d,M,S,Mcd,S,M,S
-        on staff4]</p>
+      <p xml:id="PROTRAP10050">[R3rvd,L,MX,L,L,L,MX; R3rvd,BL,B,B,B,L; O,S,B,S,S,S,B;
+        C3d,M,S,Mcd,S,M,S on staff4]</p>
       <p xml:id="PROTRAP10051">Tertia-decima regula est ista, quod, quando inter aliquas duas notas
         ibidem imperfectibiles ubi reperiuntur plures duabus figuris quarum quelibet sufficiat tales
         duas notas imperfectibiles imperficere vel earum valor, de perfectionibus quas habent, si
@@ -357,13 +371,13 @@
         ab aliquibus figurarum immediate sequentium potenti vel potentibus ipsam respectu talis
         perfectionis imperficere, vel ab ipsius valore, nisi sit impeditio puncti vel imperfectionis
         precedentis, hoc patet ex declaratione undecime regule.</p>
-      <p xml:id="PROTRAP10053">Alii autem diceret, et credo melius, quod non semper, sed quod aliquando
-        illa prima nota remaneret intacta nisi forent impeditiones supradicte et quod ad illas duas
-        remanentes reducere haberemus aliquam tertiam pro complemento perfectionis; sed de hoc
-        plenius videbitur in regula septima-decima istius capituli</p>
+      <p xml:id="PROTRAP10053">Alii autem diceret, et credo melius, quod non semper, sed quod
+        aliquando illa prima nota remaneret intacta nisi forent impeditiones supradicte et quod ad
+        illas duas remanentes reducere haberemus aliquam tertiam pro complemento perfectionis; sed
+        de hoc plenius videbitur in regula septima-decima istius capituli</p>
       <p xml:id="PROTRAP10054">Exemplum prime partis regule in omni mensura est hoc:</p>
-      <p xml:id="PROTRAP10055">[R3rvd,MX,L,L,L,L,MX; R3rvd,L,B,B,B,B,L; O,B,S,S,S,S,B; C3d,S,M,M,M,M,S
-        on staff4]</p>
+      <p xml:id="PROTRAP10055">[R3rvd,MX,L,L,L,L,MX; R3rvd,L,B,B,B,B,L; O,B,S,S,S,S,B;
+        C3d,S,M,M,M,M,S on staff4]</p>
       <p xml:id="PROTRAP10056">Exemplum prime exceptionis prime partis regule in omni mensura est
         hoc:</p>
       <p xml:id="PROTRAP10057">[R3rvd,MX,pt,L,L,L,L,MX; R3rvd,L,pt,B,B,B,B,L; O,B,pt,S,S,S,S,B;
@@ -375,12 +389,12 @@
       <p xml:id="PROTRAP10060">Exemplum secunde partis regule in omni mensura est hoc:</p>
       <p xml:id="PROTRAP10061">[R3rvd,MX,L,L,L,L,L,MX; R3rvd,L,B,B,B,B,B,L; O,B,S,S,S,S,S,B;
         C3d,S,M,M,M,M,M,S on staff4]</p>
-      <p xml:id="PROTRAP10062">Exemplum prime exceptionis secunde partis in regule in omni mensura est
-        hoc:</p>
-      <p xml:id="PROTRAP10063">[R3rvd,MX,L,pt,L,L,L,L,MX; R3rvd,L,B,pt,B,B,B,B,L; O,B,S,pt,S,S,S,S,B;
-        C3d,S,M,pt,M,M,M,M,S on staff4]</p>
-      <p xml:id="PROTRAP10064">Exemplum secunde exceptionis secunde partis regule in omni mensura est
-        hoc:</p>
+      <p xml:id="PROTRAP10062">Exemplum prime exceptionis secunde partis in regule in omni mensura
+        est hoc:</p>
+      <p xml:id="PROTRAP10063">[R3rvd,MX,L,pt,L,L,L,L,MX; R3rvd,L,B,pt,B,B,B,B,L;
+        O,B,S,pt,S,S,S,S,B; C3d,S,M,pt,M,M,M,M,S on staff4]</p>
+      <p xml:id="PROTRAP10064">Exemplum secunde exceptionis secunde partis regule in omni mensura
+        est hoc:</p>
       <p xml:id="PROTRAP10065">[R3rvd,L,MX,L,L,L,L,L,MX; R3rvd,B,L,B,B,B,B,B,L; O,S,B,S,S,S,S,S,B;
         C3d,M,S,M,M,M,M,M,S on staff4]</p>
       <p xml:id="PROTRAP10066">Exemplum tertie partis regule in omni mensura est hoc:</p>
@@ -388,23 +402,24 @@
         C3d,S,M,M,M,M,MP,S on staff4]</p>
       <p xml:id="PROTRAP10068">Exemplum prime exceptionis tertie partis regule in omni mensura est
         hoc:</p>
-      <p xml:id="PROTRAP10069">[R3rvd,MX,pt,L,L,L,L,LP,MX; R3rvd,L,pt,B,B,B,B,BP,L; O,B,pt,S,S,S,S,SP,B;
-        C3d,S,pt,M,M,M,M,MP,S on staff4]</p>
+      <p xml:id="PROTRAP10069">[R3rvd,MX,pt,L,L,L,L,LP,MX; R3rvd,L,pt,B,B,B,B,BP,L;
+        O,B,pt,S,S,S,S,SP,B; C3d,S,pt,M,M,M,M,MP,S on staff4]</p>
       <p xml:id="PROTRAP10070">Exemplum secunde exceptionis tertie partis regule in omni mensura est
         hoc:</p>
-      <p xml:id="PROTRAP10071">[R3rvd,L,MX,L,L,L,L,LP,MX; R3rvd,B,L,B,B,B,B,BP,L; O,S,B,S,S,S,S,SP,B;
-        C3d,M,S,M,M,M,M,MP,S on staff4]</p>
-      <p xml:id="PROTRAP10072">Quarta-decima regula est ista, quod quotienscumque aliqua nota vel ejus
-        valor in numeratione alicujus perfectionis aliis locatis, si alique alie sint, remanet sola,
-        ipsa reduci debet ad priorem locum quem habere potest. Hec regula satis rationabilis est, et
-        evidens de se.</p>
+      <p xml:id="PROTRAP10071">[R3rvd,L,MX,L,L,L,L,LP,MX; R3rvd,B,L,B,B,B,B,BP,L;
+        O,S,B,S,S,S,S,SP,B; C3d,M,S,M,M,M,M,MP,S on staff4]</p>
+      <p xml:id="PROTRAP10072">Quarta-decima regula est ista, quod quotienscumque aliqua nota vel
+        ejus valor in numeratione alicujus perfectionis aliis locatis, si alique alie sint, remanet
+        sola, ipsa reduci debet ad priorem locum quem habere potest. Hec regula satis rationabilis
+        est, et evidens de se.</p>
       <p xml:id="PROTRAP10073">Quinta-decima regula est ista, quod, quando aliquam figuram ibidem
         imperfectibilem precedit aliqua figura vel ipsius pausa sufficiens ipsam figuram
         imperfectibilem imperficere vel plures, dummodo omnes simul sufficientes sint ipsam notam
         imperfectibilem imperficere, et hoc dico nulla alia figura vel ejus pausa precedente, tunc
         ipsa figura imperfectibilis ab illa figura precedente vel ejus pausa, vel ab ipsis omnibus
         figuris precedentibus vel ipsarum pausis imperficitur, nisi sit impeditio puncti vel
-        similitudinis, patet regula quoniam talis figura precedens sive tales figure <pb n="[209]"/>precedentes non videntur habere posse locum habiliorem quam figuram majorem immediate
+        similitudinis, patet regula quoniam talis figura precedens sive tales figure <pb n="[209]"
+        />precedentes non videntur habere posse locum habiliorem quam figuram majorem immediate
         sequentem, nisi sint impeditiones supradicte. Exemplum regule in omni mensura est hoc:</p>
       <p xml:id="PROTRAP10074">[R3rvd,L,MX; R3rvd,B,L; O,S,B; C3d,M,S on staff4]</p>
       <p xml:id="PROTRAP10075">Exemplum prime exceptionis regule in omni mensura est hoc:</p>
@@ -425,15 +440,16 @@
       <p xml:id="PROTRAP10080">Exemplum prime partis regule in omni mensura est hoc:</p>
       <p xml:id="PROTRAP10081">[R3rvd,L,L,MX; R3rvd,B,B,L; O,S,S,B; C3d,M,M,S on staff4]</p>
       <p xml:id="PROTRAP10082">Exemplum exceptionis prime partis regule in omni mensura est hoc:</p>
-      <p xml:id="PROTRAP10083">[R3rvd,L,pt,LMX; R3rvd,B,pt,B,L; O,S,pt,S,B; C3d,M,pt,M,S on staff4]</p>
+      <p xml:id="PROTRAP10083">[R3rvd,L,pt,LMX; R3rvd,B,pt,B,L; O,S,pt,S,B; C3d,M,pt,M,S on
+        staff4]</p>
       <p xml:id="PROTRAP10084">Exemplum secunde partis regule in omni mensura est hoc:</p>
       <p xml:id="PROTRAP10085">[R3rvd,L,LP,MX; R3rvd,B,BP,L; O,S,SB,B; C3d,M,MP,S on staff4]</p>
       <p xml:id="PROTRAP10086">Exemplum prime exceptionis secunde partis regule in omni mensura est
         hoc:</p>
       <p xml:id="PROTRAP10087">[R3rvd,L,LP,MX,pt; R3rvd,B,BP,L,pt; O,S,SP,B,pt; C3d,M,MP,S,pt on
         staff4]</p>
-      <p xml:id="PROTRAP10088">Exemplum secunde exceptionis secunde partis regule in omni mensura est
-        hoc:</p>
+      <p xml:id="PROTRAP10088">Exemplum secunde exceptionis secunde partis regule in omni mensura
+        est hoc:</p>
       <p xml:id="PROTRAP10089">[R3rvd,L,LP,MX,MX; R3rvd,B,BP,L,L; O,S,SP,B,B; C3d,M,MP,S,S on
         staff4]</p>
       <p xml:id="PROTRAP10090">Septima-decima regula est ista, quod quando aliquam figuram ibidem
@@ -443,8 +459,8 @@
         aliquam habet, nihil remanet vel aliquid; si nihil, tunc illa nota imperfectibilis perfecta
         est, nisi sit impeditio puncti, vel imperfectionis sequentis, hoc patet quoniam ibi a nullo
         imperfici potest.</p>
-      <p xml:id="PROTRAP10091">Si vero aliquid remanet, vel solum una pars perfectionis remanet vel due;
-        si una, tunc ipsa nota imperfectibilis ab illa parte imperficitur, nisi sit impeditio
+      <p xml:id="PROTRAP10091">Si vero aliquid remanet, vel solum una pars perfectionis remanet vel
+        due; si una, tunc ipsa nota imperfectibilis ab illa parte imperficitur, nisi sit impeditio
         puncti, vel similitudinis, hoc patet per quartam-decimam regulam, cum ille sit prior locus
         quam habere possit illa tertia pars perfectionis.</p>
       <p xml:id="PROTRAP10092">
@@ -462,9 +478,9 @@
         similitudinis; reliqua vero pars de duabus partibus remanentibus reduci habet ad priorem
         locum quem habere potest secundum regulam quartam-decimam, cum sola remaneat, et hoc volunt
         aliqui.</p>
-      <p xml:id="PROTRAP10094">Aliqui vero alii volunt quod in tali casu talis nota imperfectibilis a
-        parte ante intacta remaneat, et ad hoc probandam adducunt regulam Johannis de Muris, que est
-        quod, quando alique due figure remanet sole, ille non debent partiri, id est ab invicem
+      <p xml:id="PROTRAP10094">Aliqui vero alii volunt quod in tali casu talis nota imperfectibilis
+        a parte ante intacta remaneat, et ad hoc probandam adducunt regulam Johannis de Muris, que
+        est quod, quando alique due figure remanet sole, ille non debent partiri, id est ab invicem
         separari, sed simul computari. Tu tamen qui legis, elige quam partem vis, quoniam utraque
         satis rationabilis est; sed prima opinio habere regulam Johannis de Muris, absolute negare,
         vel dicere Johannem de Muris suam regulam intellexisse, quando secunda illarum duarum
@@ -491,18 +507,20 @@
       <p xml:id="PROTRAP10105">
         <pb n="[211]"/>Exemplum secunde exceptionis secunde partis regule in omni mensura est
         hoc:</p>
-      <p xml:id="PROTRAP10106">[R3rvd,L,L,L,L,MX,MX; R3rvd,B,B,B,B,L,L; O,S,S,S,S,B,B; C3d,M,M,M,M,S,S
-        on staff4]</p>
+      <p xml:id="PROTRAP10106">[R3rvd,L,L,L,L,MX,MX; R3rvd,B,B,B,B,L,L; O,S,S,S,S,B,B;
+        C3d,M,M,M,M,S,S on staff4]</p>
       <p xml:id="PROTRAP10107">Exemplum tertie partis regule in omni mensura est hoc:</p>
       <p xml:id="PROTRAP10108">[R3rvd,L,L,L,B,B,MX; OR3rvd,B,B,B,S,S,L; O3d,S,S,S,M,M,Bpsdx;
         C3d,M,M,M,SMvxsn,SMvxsn,S on staff4]</p>
-      <p xml:id="PROTRAP10109">Exemplum exceptionis tertie partis regule in omni mensura est hoc:</p>
+      <p xml:id="PROTRAP10109">Exemplum exceptionis tertie partis regule in omni mensura est
+        hoc:</p>
       <p xml:id="PROTRAP10110">[R3rvd,L,L,L,B,pt,B,MX; OR3rvd,B,B,B,S,pt,S,L; O3d,S,S,S,M,pt,M,B;
         C3d,M,M,M,SMvxsn,SMvxsn,S,pt on staff4]</p>
       <p xml:id="PROTRAP10111">Exemplum quarte partis regule in omni mensura est hoc:</p>
-      <p xml:id="PROTRAP10112">[R3rvd,L,L,L,L,L,MX; R3rvd,B,B,B,B,B,L; O,S,S,S,S,S,B; C3d,M,M,M,M,M,S on
-        staff4]</p>
-      <p xml:id="PROTRAP10113">Exemplum exceptionis quarte partis regule in omni mensura est hoc:</p>
+      <p xml:id="PROTRAP10112">[R3rvd,L,L,L,L,L,MX; R3rvd,B,B,B,B,B,L; O,S,S,S,S,S,B;
+        C3d,M,M,M,M,M,S on staff4]</p>
+      <p xml:id="PROTRAP10113">Exemplum exceptionis quarte partis regule in omni mensura est
+        hoc:</p>
       <p xml:id="PROTRAP10114">[R3rvd,L,L,L,L,pt,L,MX; R3rvd,B,B,B,B,pt,B,L; O,S,S,S,S,pt,S,B;
         C3d,M,M,M,M,pt,M,S on staff4]</p>
       <p xml:id="PROTRAP10115">Exemplum quinte partis regule in omni mensura est hoc:</p>
@@ -510,25 +528,25 @@
         C3d,M,M,M,M,SMvxsn,SMvxsn,S on staff4]</p>
       <p xml:id="PROTRAP10117">Exemplum prime exceptionis quinte partis regule in omni mensura est
         hoc:</p>
-      <p xml:id="PROTRAP10118">[R3rvd,L,L,L,L,L,B,MX,pt; R3rvdO,B,B,B,B,B,S,L,pt; O3d,S,S,S,S,S,M,B,pt;
-        C3d,M,M,M,M,SMvxsn,SMvxsn,S,pt on staff4]</p>
+      <p xml:id="PROTRAP10118">[R3rvd,L,L,L,L,L,B,MX,pt; R3rvdO,B,B,B,B,B,S,L,pt;
+        O3d,S,S,S,S,S,M,B,pt; C3d,M,M,M,M,SMvxsn,SMvxsn,S,pt on staff4]</p>
       <p xml:id="PROTRAP10119">Exemplum secunda exceptionis quinte partis regule in omni mensura est
         hoc:</p>
-      <p xml:id="PROTRAP10120">[R3rvd,L,L,L,L,L,B,MX,MX; R3rvdO,B,B,B,B,B,S,L,L; O3d,S,S,S,S,S,M,B,B;
-        C2d,M,M,M,M,SMvxsn,SMvxsn,S,S on staff4]</p>
+      <p xml:id="PROTRAP10120">[R3rvd,L,L,L,L,L,B,MX,MX; R3rvdO,B,B,B,B,B,S,L,L;
+        O3d,S,S,S,S,S,M,B,B; C2d,M,M,M,M,SMvxsn,SMvxsn,S,S on staff4]</p>
       <p xml:id="PROTRAP10121">De alteratione.</p>
-      <p xml:id="PROTRAP10122">Sequitur capitulum de alteratione. Unde alteratio in musica non est aliud
-        quam duplatio proprii valoris note que alteratur secundum ipsius <pb n="[212]"/>note formam;
-        similiter alterare notam in musica non est aliud quam duplare ipsius proprium valorem. Causa
-        vero necessitatis alteratio fuit propter complere perfectiones que aliter compleri non
-        poterant, nisi alterando, ex quo sequitur semiminimam nulla modo debere alterari, eo quod
-        per ipsius alterationem nulla adimpletur perfectio.</p>
-      <p xml:id="PROTRAP10123">Unde de ipsa alteratione observande sunt iste regule, quarum prima est
-        hoc, quod alteratio nunquam debet fieri nisi loco necessitatis in numeratione ipsarum
+      <p xml:id="PROTRAP10122">Sequitur capitulum de alteratione. Unde alteratio in musica non est
+        aliud quam duplatio proprii valoris note que alteratur secundum ipsius <pb n="[212]"/>note
+        formam; similiter alterare notam in musica non est aliud quam duplare ipsius proprium
+        valorem. Causa vero necessitatis alteratio fuit propter complere perfectiones que aliter
+        compleri non poterant, nisi alterando, ex quo sequitur semiminimam nulla modo debere
+        alterari, eo quod per ipsius alterationem nulla adimpletur perfectio.</p>
+      <p xml:id="PROTRAP10123">Unde de ipsa alteratione observande sunt iste regule, quarum prima
+        est hoc, quod alteratio nunquam debet fieri nisi loco necessitatis in numeratione ipsarum
         perfectionum; patet regula quoniam ad hunc finem inventa fuit alteratio, ut patet per
         antedicta.</p>
-      <p xml:id="PROTRAP10124">Secunda regula est ista, quod nulla nota debet alterari nisi ante notam
-        majorem sibi immediatam, sicut longa ante maximam, brevis ante longam, semibrevis ante
+      <p xml:id="PROTRAP10124">Secunda regula est ista, quod nulla nota debet alterari nisi ante
+        notam majorem sibi immediatam, sicut longa ante maximam, brevis ante longam, semibrevis ante
         brevem et minima ante semibrevem, vel ante ipsarum pausas; declaratur regula, nam prima nota
         non debet alterari ante sibi similem nec ante minorem se, cum in numeratione perfectionis
         nulla sit ibi necessitas alterandi, quoniam possemus tot de sequentibus sibi similibus vel
@@ -547,14 +565,15 @@
         majorem non proximam, vel ante majorem proximam; sed non ante sibi similem, nec ante minorem
         se, nec ante majorem non proximam per superius probata; relinquitur ergo quod ante majorem
         proximam, que fuit regula nostra.</p>
-      <p xml:id="PROTRAP10126">Sed forsan diceret adversarius instando contra regulam, quod etiam non
-        esset necessitas alterandi notam ante proximam majorem, quoniam possemus ipsam figuram quam
-        dicimus alterari debere, ad figuram immediate majorem transmutare, et sic ipsam duplaremus
-        absque ipsius alteratione, et esset illa figura transmutata imperfecta a parte ante.</p>
-      <p xml:id="PROTRAP10127">Domino adversario est respondendum, quod nunquam ante proximam majorem
-        facere debemus talem transmutationem, quoniam si ipsam faceremus, statim in errore contra
-        secundam regulam de perfectione et imperfectione notarum incurreremus, quia similem ante
-        similem imperficeremus.</p>
+      <p xml:id="PROTRAP10126">Sed forsan diceret adversarius instando contra regulam, quod etiam
+        non esset necessitas alterandi notam ante proximam majorem, quoniam possemus ipsam figuram
+        quam dicimus alterari debere, ad figuram immediate majorem transmutare, et sic ipsam
+        duplaremus absque ipsius alteratione, et esset illa figura transmutata imperfecta a parte
+        ante.</p>
+      <p xml:id="PROTRAP10127">Domino adversario est respondendum, quod nunquam ante proximam
+        majorem facere debemus talem transmutationem, quoniam si ipsam faceremus, statim in errore
+        contra secundam regulam de perfectione et imperfectione notarum incurreremus, quia similem
+        ante similem imperficeremus.</p>
       <p xml:id="PROTRAP10128">Ex ista regula una cum causa necessitatis alterationis sequitur, quod
         maxima nullo modo potest alterari, quia nullam figuram majorem se habet ante quam alterari
         possit. Item quia assignari non posset perfectio que per talem alterationem completur. Item
@@ -567,14 +586,14 @@
         longa, brevis, semibrevis et minima, scilicet recta et altera: recta quando ponitur
         simpliciter pro sui valore, altera quando ponitur pro duplici, ut patet ex diffinitione
         alterationis superius posita in principio capituli.</p>
-      <p xml:id="PROTRAP10129">Tertia regula est ista, quod nota nunquam alteratur nisi in imperfectione
-        mensure illius figure ante quam fit talis alteratio, et hoc solummodo fit ut perfectio
-        mensure talis note per talem alterationem compleatur, hec regula satis de se patet bene
-        advertenti.</p>
-      <p xml:id="PROTRAP10130">Quarta regula est ista, quod quando inter aliquas duas figuras majores
-        vel inter punctum et figuram majorem vel inter notam et figuram majorem, scilicet proximam
-        vel ipsarum pausas, imperfectione suarum mensurarum reperiuntur due figure minores vel
-        plures, dummodo in numeratione perfectionum ipsarum mensurarum solum due remaneant vel
+      <p xml:id="PROTRAP10129">Tertia regula est ista, quod nota nunquam alteratur nisi in
+        imperfectione mensure illius figure ante quam fit talis alteratio, et hoc solummodo fit ut
+        perfectio mensure talis note per talem alterationem compleatur, hec regula satis de se patet
+        bene advertenti.</p>
+      <p xml:id="PROTRAP10130">Quarta regula est ista, quod quando inter aliquas duas figuras
+        majores vel inter punctum et figuram majorem vel inter notam et figuram majorem, scilicet
+        proximam vel ipsarum pausas, imperfectione suarum mensurarum reperiuntur due figure minores
+        vel plures, dummodo in numeratione perfectionum ipsarum mensurarum solum due remaneant vel
         ipsarum valor sine puncto in medio, tunc ultima alteratur, si ultima sufficiens sit notam
         ante quam immediate ponitur quo ad totum imperficere, hec regula patet, quoniam aliter
         compleri non posset perfectio mensure illius note ante quam fit talis alteratio. Et hec de
@@ -582,11 +601,11 @@
       <p xml:id="PROTRAP10131">[R3rvd,MX,L,L,MX,L,pt,L,L,MX; L,L,MX,R3rvd,L,B,B,L,B,pt,B,B,L; B,B,L;
         O,B,S,S,B,S,pt,S,S,B; S,S,B,C3d,S,M,M,S,M,pt,M,M,S; M,M,S on staff4]</p>
       <p xml:id="PROTRAP10132">De puncto.</p>
-      <p xml:id="PROTRAP10133">Sequitur capitulum de puncto, cujus puncti quid nominis tanquam omnibus
-        notum dimitendo unam de ipso talem pono divisionem que est, quod duplex est punctus in
-        musica, scilicet punctus perfectionis et punctus divisionis; nam ubicumque ponatur punctus
-        in musica, saltim mensurata, exercet aliquod istorum duorum, quoniam aut perficit, aut
-        dividit. Et ergo punctus perfectionis dicitur punctus qui perficit et cum hoc ponitur ad
+      <p xml:id="PROTRAP10133">Sequitur capitulum de puncto, cujus puncti quid nominis tanquam
+        omnibus notum dimitendo unam de ipso talem pono divisionem que est, quod duplex est punctus
+        in musica, scilicet punctus perfectionis et punctus divisionis; nam ubicumque ponatur
+        punctus in musica, saltim mensurata, exercet aliquod istorum duorum, quoniam aut perficit,
+        aut dividit. Et ergo punctus perfectionis dicitur punctus qui perficit et cum hoc ponitur ad
         notam quam perficit a parte post, sic ergo patet quod duo requiruntur ad hoc quod aliquis
         punctus sit punctus perfectionis; primo namque requiritur quod aliquid perficiat, secundo
         requiritur quod addatur note quam perficit immediate a parte post, quorum duorum uno
@@ -601,11 +620,12 @@
       <p xml:id="PROTRAP10134">Pro majori declaratione supradictorum notande sunt iste regule quarum
         prima est hec, quod punctus perfectionis perficit figuram cui additur tam in imperfectione
         sue mensure quam in ipsius perfectione, et ipsam quo ad totum semper perfectam reddit ut
-        ponit tertia regula de perfectione et imperfectione notarum, hoc evidentissime <pb n="[214]"/>patet, quoniam in utraque mensura reperibilis est figura que imperfecta foret si puncto
+        ponit tertia regula de perfectione et imperfectione notarum, hoc evidentissime <pb n="[214]"
+        />patet, quoniam in utraque mensura reperibilis est figura que imperfecta foret si puncto
         tali punctata non foret.</p>
-      <p xml:id="PROTRAP10135">Secunda regula est ista, quod ubicumque ponitur punctus divisionis semper
-        dividit perfectionem alicujus mensure, quoniam aut dividit perfectionem maximarum, et tunc
-        dicimus illum cantum esse de modo perfecto maximarum; aut dividit perfectionem modi
+      <p xml:id="PROTRAP10135">Secunda regula est ista, quod ubicumque ponitur punctus divisionis
+        semper dividit perfectionem alicujus mensure, quoniam aut dividit perfectionem maximarum, et
+        tunc dicimus illum cantum esse de modo perfecto maximarum; aut dividit perfectionem modi
         longarum, et tunc dicimus illum cantum esse de modo perfecto longarum; aut dividit
         perfectionem temporis, et tunc dicimus illum cantum esse de tempore perfecto; aut dividit
         perfectionem prolationis, et tunc dicimus illum cantum esse perfecte sive majoris
@@ -619,53 +639,53 @@
         dividat, sequitur quod quidquid dividit talis punctus, dividit imperfectionem alicujus
         mensure, quod fuit probandum, vel semper dividit perfectionem alicujus mensure quod idem
         est, que fuit regula nostra.</p>
-      <p xml:id="PROTRAP10136">Tertia regula est ista, quod quotienscumque invenitur punctus immediate
-        post maximam positus, sive ipsi maxime additus a parte post, tunc talis punctus est punctus
-        perfectionis, et nullo modo divisionis, patet, quoniam tunc nichil dividit ut perpendere
-        potes, si inspicere vis, quia ibi non dividit modum maximarum, nec modum longarum, nec
-        tempus, nec prolationem, ergo nihil.</p>
-      <p xml:id="PROTRAP10137">Quarta regula est ista, quod quotiescumque invenitur punctus immediate
-        post minimam vel semiminimam positus, semper est punctus divisionis, et nullo modo
+      <p xml:id="PROTRAP10136">Tertia regula est ista, quod quotienscumque invenitur punctus
+        immediate post maximam positus, sive ipsi maxime additus a parte post, tunc talis punctus
+        est punctus perfectionis, et nullo modo divisionis, patet, quoniam tunc nichil dividit ut
+        perpendere potes, si inspicere vis, quia ibi non dividit modum maximarum, nec modum
+        longarum, nec tempus, nec prolationem, ergo nihil.</p>
+      <p xml:id="PROTRAP10137">Quarta regula est ista, quod quotiescumque invenitur punctus
+        immediate post minimam vel semiminimam positus, semper est punctus divisionis, et nullo modo
         perfectionis, patet, quoniam si esset punctus perfectionis, tunc aliquid perficeret, sed non
         videtur quod ibi aliud perficere debeat quam minimam vel semiminimam post quas ponitur, ergo
         ipsas perficiet, quod est falsissimum, cum minima et semiminima nullo modo possint perfici
         nec imperfici quod superius probatur in principio primi capituli.</p>
-      <p xml:id="PROTRAP10138">Quinta regula est ista, quod quotiescumque aliquis punctus addatur alicui
-        note perfectibili et imperfectibili immediate a parte post, tunc talis punctus dicitur esse
-        punctus perfectionis, hoc clarissime patet ex quid nominis puncti perfectionis. Et hec de
-        puncto pro nunc sufficiant.</p>
+      <p xml:id="PROTRAP10138">Quinta regula est ista, quod quotiescumque aliquis punctus addatur
+        alicui note perfectibili et imperfectibili immediate a parte post, tunc talis punctus
+        dicitur esse punctus perfectionis, hoc clarissime patet ex quid nominis puncti perfectionis.
+        Et hec de puncto pro nunc sufficiant.</p>
       <p xml:id="PROTRAP10139">De signis mensure.</p>
       <p xml:id="PROTRAP10140">Sequitur capitulum de signis per que mensure distinguntur ab invicem
         quantum ad ipsarum perfectionem vel imperfectionem, et quia talia signa sunt duplicia,
         scilicet extrinseca vel non essentialia, et intrinseca vel essentialia, ideo primo prima
         declarabo, secundo vero secunda.</p>
-      <p xml:id="PROTRAP10141">Dico ergo primo de signis extrinsecis, quod quadrangulus non quadratus
-        cum tribus tractulis in medio ponitur pro modo perfecto maximarum, ut hic: [R3rvd], cum
-        duobus vero tractulis in medio ponitur pro modo imperfecto maximarum, ut hic: [R2rvd]. Et
-        tale pono signum pro modo maximarum, eo quod habet longitudinum ad modum maximarum; pono
-        etiam tres tractulos pro perfectione, et duos pro imperfectione, eo quod perfectio consistit
-        in numero ternario, et imperfectio in binario, ut habitum est supra. Dico secundo, quod
-        quadrangulus quadratus cum tribus tractulis in medio, ponitur pro modo perfecto longarum, ut
-        hic: [R3rvd], cum duobus vero <pb n="[215]"/>tractulis in medio, pro imperfecto modo
-        longarum ponitur, ut hic: [R2rvd], et tale pono signum pro modo longarum, eo quod habet
-        quadratam figuram ad modum longarum, pono etiam illos tractulos eadem de causa qua
-        ponebantur tractuli in signo modi maximarum. Dico tertio, quod circulus ponitur pro tempore
-        perfecto, ut hic: [O] et semicirculus ponitur pro tempore imperfecto, ut hic: [C], et ista
-        signa pono pro tanto quoniam circulus inter omnes alias figuras obtinet perfectionem, et
-        ideo pro perfectione temporis ponitur, et semicirculus pro imperfectione. Dico quarto, quod
-        si in isto circulo vel semicirculo reperiantur tria puncta, tunc signum majoris sive
-        perfecte prolationis esse dicitur, ut hic: [O3d; C3d]. Si vero solum duo, tunc est signum
-        minoris sive imperfecte prolationis, ut hic: [O2d; C2d], et ista puncta pono eadem de causa
-        qua positi fuerunt tractuli in signis modi maximarum et modi longarum. Sunt tamen aliqui
-        moderni qui pro perfectione modorum ponunt unicum solum tractulum, et pro perfectione
-        prolationis unicum solum punctum, ut hic: [R4rvd; R3rvd; O1d; C1d] et pro ipsorum modorum
-        sive ipsius prolationis imperfectione nullum [R2rhdxR2rhsn; R2rvd; O; C]</p>
-      <p xml:id="PROTRAP10142">Sed istis nullatenus est adherendum, quoniam absque ratione opperantur,
-        et cetera.</p>
-      <p xml:id="PROTRAP10143">Pro declaratione autem suprascriptorum signorum que est evacuatio notarum
-        seu ipsarum ad alium colorem transmutatio, primo premitto, quod omnis amissio valoris
-        alicujus note per ipsius evacuationem vel ad alium colorem transmutationem non est aliud
-        quam quedam imperfectio, ex quo presupposito sequitur quod nota, que nullo modo potest
+      <p xml:id="PROTRAP10141">Dico ergo primo de signis extrinsecis, quod quadrangulus non
+        quadratus cum tribus tractulis in medio ponitur pro modo perfecto maximarum, ut hic:
+        [R3rvd], cum duobus vero tractulis in medio ponitur pro modo imperfecto maximarum, ut hic:
+        [R2rvd]. Et tale pono signum pro modo maximarum, eo quod habet longitudinum ad modum
+        maximarum; pono etiam tres tractulos pro perfectione, et duos pro imperfectione, eo quod
+        perfectio consistit in numero ternario, et imperfectio in binario, ut habitum est supra.
+        Dico secundo, quod quadrangulus quadratus cum tribus tractulis in medio, ponitur pro modo
+        perfecto longarum, ut hic: [R3rvd], cum duobus vero <pb n="[215]"/>tractulis in medio, pro
+        imperfecto modo longarum ponitur, ut hic: [R2rvd], et tale pono signum pro modo longarum, eo
+        quod habet quadratam figuram ad modum longarum, pono etiam illos tractulos eadem de causa
+        qua ponebantur tractuli in signo modi maximarum. Dico tertio, quod circulus ponitur pro
+        tempore perfecto, ut hic: [O] et semicirculus ponitur pro tempore imperfecto, ut hic: [C],
+        et ista signa pono pro tanto quoniam circulus inter omnes alias figuras obtinet
+        perfectionem, et ideo pro perfectione temporis ponitur, et semicirculus pro imperfectione.
+        Dico quarto, quod si in isto circulo vel semicirculo reperiantur tria puncta, tunc signum
+        majoris sive perfecte prolationis esse dicitur, ut hic: [O3d; C3d]. Si vero solum duo, tunc
+        est signum minoris sive imperfecte prolationis, ut hic: [O2d; C2d], et ista puncta pono
+        eadem de causa qua positi fuerunt tractuli in signis modi maximarum et modi longarum. Sunt
+        tamen aliqui moderni qui pro perfectione modorum ponunt unicum solum tractulum, et pro
+        perfectione prolationis unicum solum punctum, ut hic: [R4rvd; R3rvd; O1d; C1d] et pro
+        ipsorum modorum sive ipsius prolationis imperfectione nullum [R2rhdxR2rhsn; R2rvd; O; C]</p>
+      <p xml:id="PROTRAP10142">Sed istis nullatenus est adherendum, quoniam absque ratione
+        opperantur, et cetera.</p>
+      <p xml:id="PROTRAP10143">Pro declaratione autem suprascriptorum signorum que est evacuatio
+        notarum seu ipsarum ad alium colorem transmutatio, primo premitto, quod omnis amissio
+        valoris alicujus note per ipsius evacuationem vel ad alium colorem transmutationem non est
+        aliud quam quedam imperfectio, ex quo presupposito sequitur quod nota, que nullo modo potest
         imperfici, nihil per sui evacuationem seu ad alium colorem transmutationem amittit de suo
         valore. Secondo premitto quartam regulam positam in capitulo de perfectione et imperfectione
         notarum et ibidem probatam que talis est, quod omnis nota que per vacuationem vel
@@ -675,10 +695,10 @@
         premitto, quod licet minime et semiminime per ipsarum evacuationem vel transmutationem ad
         alium colorem nihil amittant de sui valore, mutant tamen prolationem per talem evacuationem
         vel transmutationem ad alium colorem.</p>
-      <p xml:id="PROTRAP10144">Istis sic premissis, dico quod quotienscumque in aliquo cantu reperiuntur
-        figure sic per plenitudinem et vacuitatem vel transmutationem ad alium colorem variate, tunc
-        figure vacue vel ad alium colorem transmutate, si imperfectibilis sunt, quo ad totum
-        recipiunt imperfectionem; si vero non imperfectibiles sunt, efficiuntur minoris sive
+      <p xml:id="PROTRAP10144">Istis sic premissis, dico quod quotienscumque in aliquo cantu
+        reperiuntur figure sic per plenitudinem et vacuitatem vel transmutationem ad alium colorem
+        variate, tunc figure vacue vel ad alium colorem transmutate, si imperfectibilis sunt, quo ad
+        totum recipiunt imperfectionem; si vero non imperfectibiles sunt, efficiuntur minoris sive
         imperfecte prolationis; et hoc dico propter minimas et semiminimas, que imperfectibiles sunt
         ut quam pluries dictum est atque superius in principio primi capituli probatur. Nigre vero
         plene sibi similes in figura quo ad totum sunt perfecte, et non e contra, ut dicunt aliqui,
@@ -719,10 +739,10 @@
         sit signum universale nobis demonstrans quod cantare debemus figuras ipsum sequentes in
         proportione sexquitertia ad figuras in suis propriis valoribus, sicut quatuor pro tribus,
         vel octo pro sex.</p>
-      <p xml:id="PROTRAP10147">Istis ergo sic narratis, et ad secundum accedendo, dico istorum primum
-        presuppositum fore falsissimum, scilicet quod omnis cauda sive inferius sive superius tracta
-        habeat in notis non ligatis semper diminuere, eo quod licet cauda superius tracta hoc semper
-        exerceat, ut omnibus est notum, inferius tamen tracta augmentare debet, cum opposita
+      <p xml:id="PROTRAP10147">Istis ergo sic narratis, et ad secundum accedendo, dico istorum
+        primum presuppositum fore falsissimum, scilicet quod omnis cauda sive inferius sive superius
+        tracta habeat in notis non ligatis semper diminuere, eo quod licet cauda superius tracta hoc
+        semper exerceat, ut omnibus est notum, inferius tamen tracta augmentare debet, cum opposita
         oppositas debent operari operationes, ut ex dictis philosophorum plerumque colligitur. Item
         quia si eorum presuppositum foret verum, sequeretur quod brevis per appositionem caude a
         parte dextra descendentis non assumeret denominationem atque valorem longe, quod est
@@ -736,61 +756,62 @@
         agit, ut in ligatura ascendente quando prima ut caudata cauda descendente a parte sinistra.
         Quod tamen ipsi nolunt, quia volunt caudam descendentem etiam semper diminuere, ut habitum
         est supra per ipsorum dicta.</p>
-      <p xml:id="PROTRAP10148">Item falsum assumunt quando dicunt quod cauda sive inferius sive superius
-        tracta in notis ligatis semper diminuat, quoniam, ut habitum est paulo ante, cauda inferius
-        tracta in notis ligatis aliquando diminuit, et aliquando augmentat, et aliquando nihil agit,
-        et ergo non semper diminuit. Ad secundum vero eorum pressuppositum dico ipsum esse
-        voluntarie positum, et sine ratione aliqua, quoniam nullam habent rationem per quam dicere
-        habeant caudam inferius tractam subduplum diminuere ad illud quod diminuit cauda superius
-        tracta, immo potius dicere haberent, si se fundare volunt super cauda inferius tracta
-        diminuente posita in ligatura, quod ipsa cauda inferius tracta in notis non ligatis habet
-        diminuere sub sexquialterum, vel sub superbipartiens tertium, vel sub sexquitertium, vel sub
-        sexquiquartum ad illud quod diminuit cauda superius tracta, sicut fit in exemplo per ipsos
-        tradito.</p>
-      <p xml:id="PROTRAP10149">Ad aliud vero quod dicunt alii de puncto, dico quod punctus nullo modo
-        potest evacuari, et ratio est, quia ipse est indivisibilis nullam habens magnitudinem neque
-        partem, ut patere potest per initium primi Elementorum Euclidis punctum sic ibidem
+      <p xml:id="PROTRAP10148">Item falsum assumunt quando dicunt quod cauda sive inferius sive
+        superius tracta in notis ligatis semper diminuat, quoniam, ut habitum est paulo ante, cauda
+        inferius tracta in notis ligatis aliquando diminuit, et aliquando augmentat, et aliquando
+        nihil agit, et ergo non semper diminuit. Ad secundum vero eorum pressuppositum dico ipsum
+        esse voluntarie positum, et sine ratione aliqua, quoniam nullam habent rationem per quam
+        dicere habeant caudam inferius tractam subduplum diminuere ad illud quod diminuit cauda
+        superius tracta, immo potius dicere haberent, si se fundare volunt super cauda inferius
+        tracta diminuente posita in ligatura, quod ipsa cauda inferius tracta in notis non ligatis
+        habet diminuere sub sexquialterum, vel sub superbipartiens tertium, vel sub sexquitertium,
+        vel sub sexquiquartum ad illud quod diminuit cauda superius tracta, sicut fit in exemplo per
+        ipsos tradito.</p>
+      <p xml:id="PROTRAP10149">Ad aliud vero quod dicunt alii de puncto, dico quod punctus nullo
+        modo potest evacuari, et ratio est, quia ipse est indivisibilis nullam habens magnitudinem
+        neque partem, ut patere potest per initium primi Elementorum Euclidis punctum sic ibidem
         describentis, punctus est cujus pars non est. Si ergo punctus partes non habet, evacuari non
         potest, cum evacuatio non sit aliud quam quarumdam partium extractio.</p>
-      <p xml:id="PROTRAP10150">Ad ultimum vero quod alii dicunt de semicirculo dextro quod est signum et
-        cetera, dico quod imaginari non valeo quomodo talis semicirculus magis nobis demonstret quod
-        cantare debeamus in proportione sexquitertia quam in dupla vel sexquialtera vel in alia
-        proportione, licet forsan habere possent rationem quare plus diminuit quam semicirculus
-        sinister qui taliter figuratur: [C], quam rationem tetigi in alio meo opere quod scripsi
-        super tractatu cantus mensurabilis Johannis de Muris magis late, et hic succinte ipsam
-        recitabo; ratio ergo potest esse ista, quia cum semicirculus sive dexter sive sinister
-        diminuere habeat in respectu ad circulum completum, et cum dexter semicirculus partem
-        imperfectiorem, scilicet sinistram aspiciat, semicirculus vero si sinister partem
+      <p xml:id="PROTRAP10150">Ad ultimum vero quod alii dicunt de semicirculo dextro quod est
+        signum et cetera, dico quod imaginari non valeo quomodo talis semicirculus magis nobis
+        demonstret quod cantare debeamus in proportione sexquitertia quam in dupla vel sexquialtera
+        vel in alia proportione, licet forsan habere possent rationem quare plus diminuit quam
+        semicirculus sinister qui taliter figuratur: [C], quam rationem tetigi in alio meo opere
+        quod scripsi super tractatu cantus mensurabilis Johannis de Muris magis late, et hic
+        succinte ipsam recitabo; ratio ergo potest esse ista, quia cum semicirculus sive dexter sive
+        sinister diminuere habeat in respectu ad circulum completum, et cum dexter semicirculus
+        partem imperfectiorem, scilicet sinistram aspiciat, semicirculus vero si sinister partem
         perfectiorem, scilicet dexteram, sequitur quod semicirculus dexter plus habeat diminuere,
         quam sinister sive magis imperficere cum diminutio sit quedam imperfectio large sumendo
         imperfectionem quod est propositum.</p>
-      <p xml:id="PROTRAP10151">Positionibus vero istis sic improbatis et ad tertium accedendo premitto
-        aliqua, ut superius dixi, per que quilibet bene advertens atque intelligens per se
+      <p xml:id="PROTRAP10151">Positionibus vero istis sic improbatis et ad tertium accedendo
+        premitto aliqua, ut superius dixi, per que quilibet bene advertens atque intelligens per se
         infinitas, ut sic loquar, extraneas poterit fabricare figuras, et hoc cum ratione, nemini
         auctorum antiquorum contradicendo.</p>
-      <p xml:id="PROTRAP10152">Primum premitendum est hoc quod, licet multe sint figure que nullo modo
-        imperfici possunt, ut superius habitum est, ipse tamen diminui possunt tamquam contigue, cum
-        in infinitum contiguum divisibile sit, hoc clarissime de se est manifestum.</p>
+      <p xml:id="PROTRAP10152">Primum premitendum est hoc quod, licet multe sint figure que nullo
+        modo imperfici possunt, ut superius habitum est, ipse tamen diminui possunt tamquam
+        contigue, cum in infinitum contiguum divisibile sit, hoc clarissime de se est
+        manifestum.</p>
       <p xml:id="PROTRAP10153">Secundum premittendum est hoc, quod omnis cauda superius erecta
         semibrevique non ligate addita, ipsum semibrevem diminuere habet, hoc ab omnibus tenetur;
         ideo ipsum aliter non proba.</p>
-      <p xml:id="PROTRAP10154">Tertium premittendum est hoc, quod omnis inferius tracta semibrevique non
-        ligate addita ipsam semibrevem augumentare habet; et ratio est, quia operari debet oppositam
-        operationem operationi quam operatur cauda sibi oppositas operari debent operationes, ut
-        supra dictum est.</p>
-      <p xml:id="PROTRAP10155">Quartum premittendum est hoc, quod ad tantum precipue augumentare debet
-        cauda inferius <pb n="[218]"/>tracta addita semibrevi non ligate ad quam diminuit cauda sibi
-        opposita superius tracta, patet, quoniam non videtur ratio quare plus vel minus augmentare
-        debeat quam diminuat sua sibi opposita; ergo et cetera.</p>
+      <p xml:id="PROTRAP10154">Tertium premittendum est hoc, quod omnis inferius tracta semibrevique
+        non ligate addita ipsam semibrevem augumentare habet; et ratio est, quia operari debet
+        oppositam operationem operationi quam operatur cauda sibi oppositas operari debent
+        operationes, ut supra dictum est.</p>
+      <p xml:id="PROTRAP10155">Quartum premittendum est hoc, quod ad tantum precipue augumentare
+        debet cauda inferius <pb n="[218]"/>tracta addita semibrevi non ligate ad quam diminuit
+        cauda sibi opposita superius tracta, patet, quoniam non videtur ratio quare plus vel minus
+        augmentare debeat quam diminuat sua sibi opposita; ergo et cetera.</p>
       <p xml:id="PROTRAP10156">Quintum premittendum est hoc, quod cauda addita semibrevi non ligate
         potest superius erigi et inferius trahi dupliciter, scilicet recte et a latere, hoc per se
         evidentissime patet.</p>
-      <p xml:id="PROTRAP10157">Sextum premitendum est hoc, quod cauda superius erecta a latere semibrevi
-        non ligate addita, habet ipsam semibrevem diminuere ad subduplum ad illud ad quod diminuere
-        habet cauda sibi similis recte superius erecta ipsique semibrevi non ligate addita patet,
-        nam primo talis cauda diminuit, cum ipsa superius erecta sit, modo omnis talis diminuere
-        habet per secundum premissum, sed quod ad subduplum satis evidens est, cum quodammodo medium
-        teneat in rectum ascensum et rectum descensum.</p>
+      <p xml:id="PROTRAP10157">Sextum premitendum est hoc, quod cauda superius erecta a latere
+        semibrevi non ligate addita, habet ipsam semibrevem diminuere ad subduplum ad illud ad quod
+        diminuere habet cauda sibi similis recte superius erecta ipsique semibrevi non ligate addita
+        patet, nam primo talis cauda diminuit, cum ipsa superius erecta sit, modo omnis talis
+        diminuere habet per secundum premissum, sed quod ad subduplum satis evidens est, cum
+        quodammodo medium teneat in rectum ascensum et rectum descensum.</p>
       <p xml:id="PROTRAP10158">Septimum premittendum est hoc, quod cauda inferius tracta a latere
         semibrevi non ligateque adelita, habet ipsam semibrevem augumentare ad subduplum, ad illud
         ad quod augumentare habet cauda sibi similis recte inferius tracta ipsi semibrevi non
@@ -801,8 +822,8 @@
         superius dictum est. Item poterit quilibet ista intelligens, si bene ipsa consciderabit,
         perpendere quasi omnes extraneas figurationes a modernis fabricatas esse taliter qualiter
         positas atque sine aliqua ratione mundi.</p>
-      <p xml:id="PROTRAP10159">Sed quia signa superius posita, scilicet caudationes supraposite non sunt
-        signa communia omnibus figuris atque ipsarum pausis deservire potentia, ideo intendo
+      <p xml:id="PROTRAP10159">Sed quia signa superius posita, scilicet caudationes supraposite non
+        sunt signa communia omnibus figuris atque ipsarum pausis deservire potentia, ideo intendo
         ostendere modum inveniendi aliqua signa communia omnibus figuris atque ipsarum pausis
         deservire potentia, per que poterimus quamcunque figuram sive ejus pausam diminuere ad
         quamcunque proportionem nobis delectabilem. Et notanter dico diminuere et non imperficere,
@@ -817,9 +838,9 @@
         proportionare, ut simile simili, sicut maximam maxime, et longam longe et sic ulterius, tunc
         nos opporteret in cantu tot ponere signa quod extraneum valde videretur, et ergo teneamus
         premissum nostrum, et talem pluralitatem signorum haberemus.</p>
-      <p xml:id="PROTRAP10161">Isto premisso dico, quod si cantare volumus in proportione dupla vel duas
-        pro una, tale debemus ponere signum 2/1. Si vero cantare volumus in proportione tripla vel
-        tres pro una, tale debemus ponere signum 3/1. Si vero discantare volumus in proportione
+      <p xml:id="PROTRAP10161">Isto premisso dico, quod si cantare volumus in proportione dupla vel
+        duas pro una, tale debemus ponere signum 2/1. Si vero cantare volumus in proportione tripla
+        vel tres pro una, tale debemus ponere signum 3/1. Si vero discantare volumus in proportione
         sexquialtera vel tres pro duabus, tale debemus ponere signum 3/2. Si vero discantare volumus
         in proportione sexquitertia vel quatuor pro tribus, tale debemus ponere signum 4/3. Si vero
         discantare volumus in proportione dupla sexquiquarta vel novem pro quatuor, tale debemus
@@ -838,8 +859,8 @@
         invenies mensuras ad quas reducuntur si subtiliter speculaberis. Et hec de signis pro nunc
         sufficiant.</p>
       <p xml:id="PROTRAP10163">De ligaturis.</p>
-      <p xml:id="PROTRAP10164">Sequitur capitulum de ligaturis. Unde ligatura non est aliud quam quedam
-        note ad invicem ligate per aliquod ligamentum, sive ad invicem conjuncte sine aliquo
+      <p xml:id="PROTRAP10164">Sequitur capitulum de ligaturis. Unde ligatura non est aliud quam
+        quedam note ad invicem ligate per aliquod ligamentum, sive ad invicem conjuncte sine aliquo
         ligamento; propter quod primo notare debes, quod differentia est inter caudam sive tractum
         ex una parte, et ligamentum ex alia, nam cauda sive tractus est una linea alicui note
         addita, inferius sive superiusque erecta, et in nullam notam terminata. Ligamentum vero
@@ -848,8 +869,8 @@
         quedam descendens. Ligatura ascendens dicitur esse quando secunda nota in ligatura posita
         est altior prima. Ligatura vero descendens dicitur esse quando prima nota in ligatura est
         altior secunda.</p>
-      <p xml:id="PROTRAP10165">Istis sic notatis pono aliquas regulas de ipsis ligaturis sive notis ad
-        invicem ligatis; et primo de prima nota in ligatura posita sit hec regula prima, quod
+      <p xml:id="PROTRAP10165">Istis sic notatis pono aliquas regulas de ipsis ligaturis sive notis
+        ad invicem ligatis; et primo de prima nota in ligatura posita sit hec regula prima, quod
         quandocunque ligatura est descendens, et prima nota ligature habuerit caudam sive tractum a
         parte sinistra descendentem, sive fuerit quadra sive obliqua, assumit denominationem atque
         valorem brevis. Exemplum regule, est hoc: [Lig3cdsndod,Lig2cdsnod on staff4]</p>
@@ -872,12 +893,13 @@
         sit quadra sive obliqua sive quadrangula non quadrata, assumit denominationem atque valorem
         semibrevis una cum nota secunda secum immediate ligata, ut hic patet:
         [Lig2cssna,Lig2cssnoa,Lig2cssnMXa,Lig3cssndod,Lig2cssnod on staff4]</p>
-      <p xml:id="PROTRAP10169">De nota vero ultima in ligatura sint iste regule: et primo hec et quinta
-        in ordine, quod in omni ligatura sive ascendente sive descendente ultima nota ligature
-        descendens respectu penultime, si sit quadrangula non quadrata, assumit denominationem atque
-        valorem maxime. Si vero sit quadrangula et quadrata assumit denominationem atque valorem
-        longe. Si vero sit obliqua assumit denominationem atque valorem brevis. Exemplum regule est
-        hic inferius positum: [Lig2cdsndMX,Lig2cdsnd,Lig2cdsnod on staff4]</p>
+      <p xml:id="PROTRAP10169">De nota vero ultima in ligatura sint iste regule: et primo hec et
+        quinta in ordine, quod in omni ligatura sive ascendente sive descendente ultima nota
+        ligature descendens respectu penultime, si sit quadrangula non quadrata, assumit
+        denominationem atque valorem maxime. Si vero sit quadrangula et quadrata assumit
+        denominationem atque valorem longe. Si vero sit obliqua assumit denominationem atque valorem
+        brevis. Exemplum regule est hic inferius positum: [Lig2cdsndMX,Lig2cdsnd,Lig2cdsnod on
+        staff4]</p>
       <p xml:id="PROTRAP10170">Sexta regula est ista, quod in omni ligatura sive ascendente sive
         descendente ultima nota in ipsa ligatura stans directe supra penultimam, vel stans a latere,
         sed tunc habens caudam sive tractum a parte dextra descendentem, si est quadrangula non
@@ -892,9 +914,9 @@
         dicuntur breves, nisi prima habuerit caudam sive tractum a parte sinistra ascendentem,
         quoniam tunc talis cauda faceret duas primas notas in ligatura positas esse semibreves, ut
         ponit regula quarta.</p>
-      <p xml:id="PROTRAP10172">Octava regula est ista, quod nulla maxima atque longa ligabilis est in
-        medio ligature; hanc regulam affirmant omnes auctores musice, sicut Franco et alii in suis
-        capitulis de ligaturis. ipsam ergo teneamus quoniam nobis licitum non est eis in aliquo
+      <p xml:id="PROTRAP10172">Octava regula est ista, quod nulla maxima atque longa ligabilis est
+        in medio ligature; hanc regulam affirmant omnes auctores musice, sicut Franco et alii in
+        suis capitulis de ligaturis. ipsam ergo teneamus quoniam nobis licitum non est eis in aliquo
         obviare; et potest etiam sic persuaderi, nam omnis perfectio solum in principio vel fine
         consistit, quoniam omnia que perfecta sunt, solum ratione principii vel finis perfecta
         dicuntur, si sic, ergo cum quelibet longa et etiam maxima dicantur cum perfectione saltim in
@@ -905,7 +927,8 @@
         possibile ligare notas ad diversos modos sive ad diversa tempora pertinentes ad invicem. Hec
         regula sic declaratur, nam in arte, quod clarius est tenendum, est et obscurius ejiciendum,
         sed clarius est notas non ad diversos modos sive non ad diversa tempora pertinentes ad
-        invicem ligare, quoniam sic faciendo statim nobis punctato aliquo cantu cognoscimus <pb n="[221]"/>cujus mensure ipse sit, et que suarum figurarum perfectibilium et
+        invicem ligare, quoniam sic faciendo statim nobis punctato aliquo cantu cognoscimus <pb
+          n="[221]"/>cujus mensure ipse sit, et que suarum figurarum perfectibilium et
         imperfectibilium sit perfecta, et que non, et que altera, et que non, quam notas ad diversos
         modos sive ad diversa tempora pertinentes ad invicem ligare, quoniam tunc in majorem laborem
         incurrimus, quoniam nobis punctato aliquo cantu cognoscere non possumus cujus mensure ipse
@@ -915,13 +938,13 @@
         modos sive ad diversa tempora pertinentes ad invicem in quantum nobis est possibile,
         abjiciendo quod fuit declarandum. Et hec de ligaturis nunc sufficiant.</p>
       <p xml:id="PROTRAP10174">De pausis.</p>
-      <p xml:id="PROTRAP10175">Sequitur capitulum de pausis. Unde est notandum, quod sicut inveniuntur
-        alique figure in principio tractatus nominate que sunt signa nobis demonstrantia quantum
-        vocem elongare vel breviare debemus, ita reperiuntur quedam signa nobis demonstrantia
-        quantum a cantu desistere debemus, et talia signa pausas nominamus. Unde pausa sic
-        describitur: Pausa est signum nobis demonstrans quantum a cantu desistere debemus. Sed quia
-        a cantu desistere possumus dupliciter, scilicet mensurate et immensurate, ideo duplex est
-        pausa, scilicet mensurata et immensurata. Pausa immensurata est quidam tractus in prima
+      <p xml:id="PROTRAP10175">Sequitur capitulum de pausis. Unde est notandum, quod sicut
+        inveniuntur alique figure in principio tractatus nominate que sunt signa nobis demonstrantia
+        quantum vocem elongare vel breviare debemus, ita reperiuntur quedam signa nobis
+        demonstrantia quantum a cantu desistere debemus, et talia signa pausas nominamus. Unde pausa
+        sic describitur: Pausa est signum nobis demonstrans quantum a cantu desistere debemus. Sed
+        quia a cantu desistere possumus dupliciter, scilicet mensurate et immensurate, ideo duplex
+        est pausa, scilicet mensurata et immensurata. Pausa immensurata est quidam tractus in prima
         linearum linee incohatus, usque ad ipsarum ultimam protractus, a minima intermedia spatiaque
         occupans, atque finem cantus sive ipsius partis nobis immensurate demonstrans, ut hic: [3BP
         on staff4]. Et vocari etiam potest talis pausa immensurata, alio nomine pausa generalis,
@@ -935,8 +958,8 @@
         eamdem causam qua et immensurata. Et talis pausa mensurata est multiplex, quia quedam est
         pausa semiminime, quedam est pausa minime, quedam est pausa semibrevis, quedam est pausa
         brevis, quedam est pausa longe, et quedam est pausa maxime, licet raro inveniatur.</p>
-      <p xml:id="PROTRAP10176">Pausa semiminime est quidam tractus in linea incohatus, sursum usque ad
-        medium spatiique erectus, atque in summitate retortus, ut: [SMP].</p>
+      <p xml:id="PROTRAP10176">Pausa semiminime est quidam tractus in linea incohatus, sursum usque
+        ad medium spatiique erectus, atque in summitate retortus, ut: [SMP].</p>
       <p xml:id="PROTRAP10177">Pausa minime est quidam tractus in linea incohatus, sursum usque ad
         medium spatiique erectus sine aliqua retortione, ut hic: [MP]. Pausa semibrevis est quidam
         tractus in linea incohatus, deorsumque usque ad medium spatii protractus, sine aliqua
@@ -959,14 +982,14 @@
         est pausa maxime perfecte sive imperfecte quo ad totum cujus omnes longe sunt perfecte quo
         ad totum, et quedam est pausa maxime perfecte quo ad totum cujus omnes longe sunt imperfecte
         sive imperfecte quo ad totum.</p>
-      <p xml:id="PROTRAP10180">Pausa maxime imperfecte quo ad totum cujus omnes longe sunt imperfecte
-        quo ad totum est quedam tractus in linea incohatus, usque ad aliam lineam linee incohationis
-        mediatam protractus, solum quatuor occupans spatia; et talis pausa non potest figurari in
-        linea pauciorum linearum quam sex, quoniam aliter fieret immensurata. Exemplum pause, est
-        hoc: [4BP on staff6]</p>
-      <p xml:id="PROTRAP10181">Pausa maxime imperfecte quo ad totum cujus omnes longe sunt perfecte quo
-        ad totum, vel pausa maxime perfecte quo ad totum cujus omnes longe sunt imperfecte quo ad
-        totum, est quidam tractus in linea incohatus, usque ad lineam linee incohationis mediatam
+      <p xml:id="PROTRAP10180">Pausa maxime imperfecte quo ad totum cujus omnes longe sunt
+        imperfecte quo ad totum est quedam tractus in linea incohatus, usque ad aliam lineam linee
+        incohationis mediatam protractus, solum quatuor occupans spatia; et talis pausa non potest
+        figurari in linea pauciorum linearum quam sex, quoniam aliter fieret immensurata. Exemplum
+        pause, est hoc: [4BP on staff6]</p>
+      <p xml:id="PROTRAP10181">Pausa maxime imperfecte quo ad totum cujus omnes longe sunt perfecte
+        quo ad totum, vel pausa maxime perfecte quo ad totum cujus omnes longe sunt imperfecte quo
+        ad totum, est quidam tractus in linea incohatus, usque ad lineam linee incohationis mediatam
         protractus, solum sex occupans spatia; et talis pausa figurari non potest in linea pauciorum
         linearum quam octo, quoniam aliter fieret immensurata. Exemplum pause est hoc: [5BP on
         staff7] Pausa maxime perfecte quo ad totum cujus omnes longe sunt perfecte quo ad totum, est
@@ -985,16 +1008,16 @@
         aliquando reperiatur linea sex linearum; et ideo dixit Johannes de Muris pausam plura spatia
         quam tria occupantem non esse ponendam, eo quod suo tempore non reperiebatur linea plurium
         linearum quam quinque, et ideo subjunxit quod si talis poneretur esse immensurata.</p>
-      <p xml:id="PROTRAP10182">Notandum est ulterius, quod pausarum quedam fuerunt principaliter invente
-        propter ornare cantus, <pb n="[223]"/>sicut pausa minime et pausa semiminime, que . . . . in
-        musica nominantur. Quedam vero fuerunt principaliter invente propter auxiliari nature
-        fatigate in cantando, sicut pausa maxime, si qua talis inveniatur, pausa longe, pausa brevis
-        et pausa semibrevis. Unde dato quod pausa minime et pausa semiminime aliquando ponantur
-        propter auxiliari nature fatigate in cantando, licet raro, quoniam natura humana in cantando
-        fatigata ex tali pausatione parvissimum potest suscipere subsidium, et licet etiam pausa
-        maxime, si qua talis inveniatur, pausa longe, pausa brevis et pausa semibrevis, aliquando
-        ponantur propter ornare cantus, ad hoc tamen principaliter invente non fuerunt, ut dictum
-        est.</p>
+      <p xml:id="PROTRAP10182">Notandum est ulterius, quod pausarum quedam fuerunt principaliter
+        invente propter ornare cantus, <pb n="[223]"/>sicut pausa minime et pausa semiminime, que .
+        . . . in musica nominantur. Quedam vero fuerunt principaliter invente propter auxiliari
+        nature fatigate in cantando, sicut pausa maxime, si qua talis inveniatur, pausa longe, pausa
+        brevis et pausa semibrevis. Unde dato quod pausa minime et pausa semiminime aliquando
+        ponantur propter auxiliari nature fatigate in cantando, licet raro, quoniam natura humana in
+        cantando fatigata ex tali pausatione parvissimum potest suscipere subsidium, et licet etiam
+        pausa maxime, si qua talis inveniatur, pausa longe, pausa brevis et pausa semibrevis,
+        aliquando ponantur propter ornare cantus, ad hoc tamen principaliter invente non fuerunt, ut
+        dictum est.</p>
       <p xml:id="PROTRAP10183">Item notandum, quod nunquam est ponenda pausa maxime, si qua talis
         inveniatur, nisi completo modo maximarum; nec unquam est ponanda pausa longe, nec major, si
         qua talis inveniatur, nisi completo modo longarum; nec unquam est ponenda pausa brevis, nec
@@ -1022,37 +1045,38 @@
         etiam in cantu temporis perfecti ubi omnes breves de sui natura sunt perfecte, quod earum
         pause sine aliquo signo habeant imperfectionem ut sic loquar, sive sint pause brevium atque
         semibrevium imperfectarum.</p>
-      <p xml:id="PROTRAP10186">Item nunquam in cantu de modo perfecto longarum est ponenda pausa longe
-        imperfecte sine signo extrinseco vel intrinseco. Item in cantu do modo perfecto maximarum
-        nunquam est ponenda pausa maxime imperfecte sine signo intrinseco vel extrinseco, si qua
-        talis inveniatur; hoc declaratur sic, nam sicut non est ponenda pausa semibrevis imperfecti
-        in cantu majoris prolationis sine aliquo signo intrinseco vel extrinseco, et sicut non est
-        ponenda pausa brevis imperfecte in cantu temporis perfecti sine aliquo signo intrinseco vel
-        extrinseco; que ambo concedunt omnes cantores atque superius probata fuerunt, ita non est
-        ponenda pausa longe imperfecte in cantu de modo perfecto longarum sine aliquo signo
-        intrinseco vel extrinseco, et etiam non <pb n="[224]"/>est ponenda pausa maxime imperfecte
-        signa talis inveniatur in cantu de modo perfecto maximarum sine aliquo signo intrinseco vel
-        extrinseco, cujus oppositum quasi omnes operantur, et si non est sic detur causa
-        diversitatis. Item etiam, quia non videtur rationabile imperfectione istarum mensurarum ubi
-        omnes maxime et longe de sui natura habent perfectionem, quod ponantur pause similium
-        figurarum imperfectarum, et hoc sine signo ut superius dictum est. Et hec de pausis pro nunc
-        sufficiant.</p>
+      <p xml:id="PROTRAP10186">Item nunquam in cantu de modo perfecto longarum est ponenda pausa
+        longe imperfecte sine signo extrinseco vel intrinseco. Item in cantu do modo perfecto
+        maximarum nunquam est ponenda pausa maxime imperfecte sine signo intrinseco vel extrinseco,
+        si qua talis inveniatur; hoc declaratur sic, nam sicut non est ponenda pausa semibrevis
+        imperfecti in cantu majoris prolationis sine aliquo signo intrinseco vel extrinseco, et
+        sicut non est ponenda pausa brevis imperfecte in cantu temporis perfecti sine aliquo signo
+        intrinseco vel extrinseco; que ambo concedunt omnes cantores atque superius probata fuerunt,
+        ita non est ponenda pausa longe imperfecte in cantu de modo perfecto longarum sine aliquo
+        signo intrinseco vel extrinseco, et etiam non <pb n="[224]"/>est ponenda pausa maxime
+        imperfecte signa talis inveniatur in cantu de modo perfecto maximarum sine aliquo signo
+        intrinseco vel extrinseco, cujus oppositum quasi omnes operantur, et si non est sic detur
+        causa diversitatis. Item etiam, quia non videtur rationabile imperfectione istarum
+        mensurarum ubi omnes maxime et longe de sui natura habent perfectionem, quod ponantur pause
+        similium figurarum imperfectarum, et hoc sine signo ut superius dictum est. Et hec de pausis
+        pro nunc sufficiant.</p>
       <p xml:id="PROTRAP10187">De sincopa.</p>
-      <p xml:id="PROTRAP10188">Sequitur capitulum de sincopa. Unde sincopa est divisio figure ex omni
-        parte per partes separatas, que partes reducuntur ad invicem numerando perfectiones vel
+      <p xml:id="PROTRAP10188">Sequitur capitulum de sincopa. Unde sincopa est divisio figure ex
+        omni parte per partes separatas, que partes reducuntur ad invicem numerando perfectiones vel
         imperfectiones mensurarum, de qua sincopa sunt solum ista duo notanda.</p>
-      <p xml:id="PROTRAP10189">Primum est, quod sincopa potest fieri in quacumque mensura sive perfecta
-        sive imperfecta.</p>
-      <p xml:id="PROTRAP10190">Secundum notandum est, quod nunquam nota vel ipsius pausa debet reduci
-        per sincopam ultra pausam figure majoris, ut puta semiminima vel ipsius pausa ultra pausam
-        minime vel majorem, vel minimam, vel ipsius pausa ultra pausam semibrevis vel majorem, vel
-        semibrevis, vel ipsius pausa ultra pausam brevis vel majorem, vel brevis, vel ipsius pausa
-        ultra pausam longe vel majorem, si qua talis inveniatur; vel longa vel ejus pausa ultra
-        pausam maxime si qua talis inveniatur; et ratio est, quia si oppositum operaremur, tunc aut
-        poneremus pausam maxime, si qua talis inveniatur, non completo modo maximarum, aut poneremus
-        pausam longe non completo modo longarum, aut poneremus pausam brevis non completo tempore,
-        aut poneremus pausam semibrevis non completa prolatione, quod est contra penultimum notabile
-        positum in capitulo de pausis. Et hec de sincopa pro nunc sufficiant.</p>
+      <p xml:id="PROTRAP10189">Primum est, quod sincopa potest fieri in quacumque mensura sive
+        perfecta sive imperfecta.</p>
+      <p xml:id="PROTRAP10190">Secundum notandum est, quod nunquam nota vel ipsius pausa debet
+        reduci per sincopam ultra pausam figure majoris, ut puta semiminima vel ipsius pausa ultra
+        pausam minime vel majorem, vel minimam, vel ipsius pausa ultra pausam semibrevis vel
+        majorem, vel semibrevis, vel ipsius pausa ultra pausam brevis vel majorem, vel brevis, vel
+        ipsius pausa ultra pausam longe vel majorem, si qua talis inveniatur; vel longa vel ejus
+        pausa ultra pausam maxime si qua talis inveniatur; et ratio est, quia si oppositum
+        operaremur, tunc aut poneremus pausam maxime, si qua talis inveniatur, non completo modo
+        maximarum, aut poneremus pausam longe non completo modo longarum, aut poneremus pausam
+        brevis non completo tempore, aut poneremus pausam semibrevis non completa prolatione, quod
+        est contra penultimum notabile positum in capitulo de pausis. Et hec de sincopa pro nunc
+        sufficiant.</p>
       <p xml:id="PROTRAP10191">De diminutione.</p>
       <p xml:id="PROTRAP10192">Sequitur capitulum de diminutione. Unde diminutio sumitur dupliciter,
         sumitur namque primo diminutio pro quacumque diminutione sive in pronuntiatione talis
@@ -1061,8 +1085,8 @@
         pronuntiatione ponitur valor note minoris pro valore note sibi immediate majoris, et sic
         sumitur in propositio et diffinitur sic diminutio est pronuntiatio note majoris in valore
         note sibi immediate minoris.</p>
-      <p xml:id="PROTRAP10193">Pro ista diminutione sic secundo modo accepta sunt notande he regule; et
-        prima est hec, quod in tali diminutione semper ponitur nota minor pro nota sibi immediate
+      <p xml:id="PROTRAP10193">Pro ista diminutione sic secundo modo accepta sunt notande he regule;
+        et prima est hec, quod in tali diminutione semper ponitur nota minor pro nota sibi immediate
         majori, verbi gratia, nam in tali diminutione semper pro maxima ponitur longa, et pro longa
         brevis, et pro brevi semibrevis, et pro semibrevi minima, et pro minima semiminima.</p>
       <p xml:id="PROTRAP10194">Secunda regula est hoc, quod in tali diminutione est semper pro nota
@@ -1071,52 +1095,52 @@
         et imperfectibilis sit; si vero non, uti est minima et semiminima, ponenda est ut jacet, si
         nota pro qua ponitur perfecta sit de sui natura; si vero perfecta esset per punctum ponenda
         est ut jacet cum ipsius medietate.</p>
-      <p xml:id="PROTRAP10195">Tertia regula est hec, quod in tali diminutione ponenda est semper pro
-        nota recta sive non alterata quod idem est, alia nota recta sive non alterata, et pro nota
-        alterata alia nota alterata, si nota que pro alio ponitur alterabilis sit; si vero non, uti
-        est semiminima, ponenda est bis ut jacet, vel una minima que tantum valet.</p>
+      <p xml:id="PROTRAP10195">Tertia regula est hec, quod in tali diminutione ponenda est semper
+        pro nota recta sive non alterata quod idem est, alia nota recta sive non alterata, et pro
+        nota alterata alia nota alterata, si nota que pro alio ponitur alterabilis sit; si vero non,
+        uti est semiminima, ponenda est bis ut jacet, vel una minima que tantum valet.</p>
       <p xml:id="PROTRAP10196">
         <pb n="[225]"/>Quarta regula est hec, quod cujuslibet note quo ad totum perfecte sive recte
         sive alterate diminutio fit directe duabus partibus respectu quarum quo ad totum perfecta
         vel imperfecta dicitur ablata, tertia remanente.</p>
-      <p xml:id="PROTRAP10197">Quinta regula est hec, quod cujuslibet note quo ad totum imperfecte sive
-        recte sive alterate diminutio fit directe medietate una de partibus respectu quarum quo ad
-        totum perfecta vel imperfecta dicitur ablata, alia medietate remanente.</p>
+      <p xml:id="PROTRAP10197">Quinta regula est hec, quod cujuslibet note quo ad totum imperfecte
+        sive recte sive alterate diminutio fit directe medietate una de partibus respectu quarum quo
+        ad totum perfecta vel imperfecta dicitur ablata, alia medietate remanente.</p>
       <p xml:id="PROTRAP10198">Sexta regula est hec, quod quicquid dictum est de figuris quantum ad
         ipsarum veram diminutionem, intelligere etiam habemus de ipsarum pausis in ipsas vere
         diminuendo. Et hec de diminutione pro nunc sufficiant.</p>
       <p xml:id="PROTRAP10199">De augmentatione.</p>
-      <p xml:id="PROTRAP10200">Sequitur capitulum de augmentatione. Unde augmentatio sumitur dupliciter
-        uti sumitur diminutio, cum quot modis sumitur unum oppositorum, tot modis sumi debeat
-        reliquum per Aristotelem in Topicis. Sumitur namque primo augmentatio pro quacumque
+      <p xml:id="PROTRAP10200">Sequitur capitulum de augmentatione. Unde augmentatio sumitur
+        dupliciter uti sumitur diminutio, cum quot modis sumitur unum oppositorum, tot modis sumi
+        debeat reliquum per Aristotelem in Topicis. Sumitur namque primo augmentatio pro quacumque
         augmentatione, sive in pronuntiatione talis augmentationis ponatur valor note majoris pro
         valore note sibi immediate minoris, sive non, et sic non sumitur in proposito. Alio modo
         sumitur augmentatio solum pro augmentatione in cujus pronuntiatione ponitur valor note
         majoris pro valore note sibi immediate minoris, et sic sumitur in proposito et diffinitur
         sic: augmentatio est pronuntiatio note minoris in valore note sibi immediate majoris, pro
         qua augmentatione sic secundo modo accepta notande sunt he regule.</p>
-      <p xml:id="PROTRAP10201">Prima est hec, quod in tali augmentatione semper ponitur nota major pro
-        nota sibi immediate minori, verbi gratia, nam in tali augumentatione semper pro semiminima
-        ponitur minima, et pro minima semibrevis, et pro semibrevi brevis et pro brevi longa et pro
-        longa maxima.</p>
-      <p xml:id="PROTRAP10202">Secunda regula est hec, quod in tali augmentatione ponenda est semper pro
-        nota imperfecta quo ad totum alia nota imperfecta quo ad totum, alia nota perfecta quo ad
-        totum.</p>
-      <p xml:id="PROTRAP10203">Tertia regula est hec, quod in tali augmentatione ponenda est semper pro
-        nota recta sive non alterata alia nota recta sive non alterata, et pro nota alterata alia
-        nota alterata, si nota que pro alia ponitur alterabilis sit, si vero non uti est maxima, bis
-        ponenda est ut jacet.</p>
-      <p xml:id="PROTRAP10204">Quarta regula est ista, quod cujuslibet note quo ad totum perfecte sive
-        recte sive alterate augmentatio fit directe per additionem dupli ad ipsam.</p>
-      <p xml:id="PROTRAP10205">Quinta regula est ista, quod cujuslibet note quo ad totum imperfecte sive
-        recte sive alterate augmentatio fit directe per ipsius duplationem.</p>
+      <p xml:id="PROTRAP10201">Prima est hec, quod in tali augmentatione semper ponitur nota major
+        pro nota sibi immediate minori, verbi gratia, nam in tali augumentatione semper pro
+        semiminima ponitur minima, et pro minima semibrevis, et pro semibrevi brevis et pro brevi
+        longa et pro longa maxima.</p>
+      <p xml:id="PROTRAP10202">Secunda regula est hec, quod in tali augmentatione ponenda est semper
+        pro nota imperfecta quo ad totum alia nota imperfecta quo ad totum, alia nota perfecta quo
+        ad totum.</p>
+      <p xml:id="PROTRAP10203">Tertia regula est hec, quod in tali augmentatione ponenda est semper
+        pro nota recta sive non alterata alia nota recta sive non alterata, et pro nota alterata
+        alia nota alterata, si nota que pro alia ponitur alterabilis sit, si vero non uti est
+        maxima, bis ponenda est ut jacet.</p>
+      <p xml:id="PROTRAP10204">Quarta regula est ista, quod cujuslibet note quo ad totum perfecte
+        sive recte sive alterate augmentatio fit directe per additionem dupli ad ipsam.</p>
+      <p xml:id="PROTRAP10205">Quinta regula est ista, quod cujuslibet note quo ad totum imperfecte
+        sive recte sive alterate augmentatio fit directe per ipsius duplationem.</p>
       <p xml:id="PROTRAP10206">Sexta regula est ista, quod quicquid dictum est de figuris quantum ad
         ipsarum veram augmentationem, intelligere etiam habemus de ipsis pausis in ipsas vere
         agumentando. Et hec de augmentatione pro nunc sufficiant.</p>
       <p xml:id="PROTRAP10207">De colore et talea.</p>
-      <p xml:id="PROTRAP10208">Sequitur capitulum de colore et talea. Unde est sciendum, quod de colore
-        et talea tres reperiuntur varie opiniones, quarum una fuit Johannis de Muris; secunda vero
-        quorumdam aliorum musicorum qui tempore Johannis de Muris fuerunt, quam opinionem etiam
+      <p xml:id="PROTRAP10208">Sequitur capitulum de colore et talea. Unde est sciendum, quod de
+        colore et talea tres reperiuntur varie opiniones, quarum una fuit Johannis de Muris; secunda
+        vero quorumdam aliorum musicorum qui tempore Johannis de Muris fuerunt, quam opinionem etiam
         recitat Johannes de Muris in suo tractatu cantus mensurabilis in capitulo de colore et
         talea; tertia vero est quorumdam modernorum aliter quam priores de colore et talea
         sentientium, partim tamen concordantium cum quolibet priorum, quam opinionem quia satis
@@ -1130,11 +1154,11 @@
         posito, venio ad declarationem opinionum jam dictarum, quibus recitatis et intellectis,
         scire tunc bene poterimus quod sit ipse color, et ipsa talea, et differentiam inter ipsa, si
         inter ipsa differentiam ponere volemus.</p>
-      <p xml:id="PROTRAP10210">Prima ergo opinio, que fuit Johannis de Muris ut dixi, vult quod nulla
-        sit differentia inter colorem et talem, immo quod unam et idem sint, et ideo in suo Libello
-        de cantu mensurato colorem diffinivit et non talem, eo quod diffinitionem quam dabat de
-        colore intelligebat etiam de talea. Unde color et talea in musica secundum istam opinionem
-        sic simul in una diffinitione diffiniri possunt.</p>
+      <p xml:id="PROTRAP10210">Prima ergo opinio, que fuit Johannis de Muris ut dixi, vult quod
+        nulla sit differentia inter colorem et talem, immo quod unam et idem sint, et ideo in suo
+        Libello de cantu mensurato colorem diffinivit et non talem, eo quod diffinitionem quam dabat
+        de colore intelligebat etiam de talea. Unde color et talea in musica secundum istam
+        opinionem sic simul in una diffinitione diffiniri possunt.</p>
       <p xml:id="PROTRAP10211">Color sive talea in musica est unus processus similium figurarum
         repetitus, pluries in aliquo cantu secundum eumdem ordinem. Habes igitur secundum istam
         opinionem quomodo duo requiruntur ad hoc quod aliquis processus figurarum dicatur color vel
@@ -1143,11 +1167,11 @@
         eumdem ordinem sive similem; et hec omnia debent intelligi fore in eodem cantu, quorum
         duorum uno deficiente non erit talis processus color neque talea secundum istam
         opinionem.</p>
-      <p xml:id="PROTRAP10212">Secunda vero opinio quam etiam, ut dixi, recitat Johannes de Muris in suo
-        Libello de cantu mensurato, in capitulo de colore et talea, vult quod differentia sit inter
-        colorem et taleam; que differentia manifeste apparet in eorum descriptionibus que tales
-        sunt: Color in musica est unus processus solum similium vocum repetitus pluries in cantu
-        aliquo secundum eumdem ordinem. Talea vero in musica est unus processus solum similium
+      <p xml:id="PROTRAP10212">Secunda vero opinio quam etiam, ut dixi, recitat Johannes de Muris in
+        suo Libello de cantu mensurato, in capitulo de colore et talea, vult quod differentia sit
+        inter colorem et taleam; que differentia manifeste apparet in eorum descriptionibus que
+        tales sunt: Color in musica est unus processus solum similium vocum repetitus pluries in
+        cantu aliquo secundum eumdem ordinem. Talea vero in musica est unus processus solum similium
         figurarum repetitus pluries in aliquo cantu secundum eumdem ordinem. Habes ergo ex his
         descriptionibus differentiam talem inter colorem et taleam secundum istam opinionem, quia in
         colore repetuntur solum similes voces, in talea vero repetuntur solum similes figure; et sic
@@ -1165,7 +1189,8 @@
         fiat repetitio similium vocum et similium figurarum simul et per hoc disconvenit cum utraque
         preteritarum opinionum; et quod in talea fiat repetitio solum similium figurarum, et per hoc
         convenit cum utraque ipsarum; convenit etiam cum ambabus in alia conditione recitata in
-        prima opinione, et si aliquis processus figurarum denominari habeat talea, ex ista ergo <pb n="[227]"/>opinione tales potes sumere diffinitiones de colore et de talea. Color ergo
+        prima opinione, et si aliquis processus figurarum denominari habeat talea, ex ista ergo <pb
+          n="[227]"/>opinione tales potes sumere diffinitiones de colore et de talea. Color ergo
         secundum istam opinionem sic diffinitur: color est unus processus similium figurarum atque
         similium vocum repetitus pluries in medio alicujus cantus secundum eumdem ordinem. Talea
         vero sic diffinitur secundum ipsam: talea est unus processus solum similium figurarum
@@ -1209,10 +1234,10 @@
         reperiatur semibrevis puncto perfectionis punctata, ex quo puncto non sequatur separatio
         alicujus minime vel valoris ab ipsa semibrevi, tunc talis cantus vel pars dicitur esse
         minoris prolationis.</p>
-      <p xml:id="PROTRAP10222">Sexta regula est hec, quod si in aliquo cantu vel ipsius parte reperiatur
-        brevis puncto perfectionis punctata, ex quo puncto non sequatur <pb n="[228]"/>separatio
-        alicujus semibrevis vel valoris ab ipsa brevi, tunc talis cantus vel pars dicitur esse
-        temporis imperfecti.</p>
+      <p xml:id="PROTRAP10222">Sexta regula est hec, quod si in aliquo cantu vel ipsius parte
+        reperiatur brevis puncto perfectionis punctata, ex quo puncto non sequatur <pb n="[228]"
+        />separatio alicujus semibrevis vel valoris ab ipsa brevi, tunc talis cantus vel pars
+        dicitur esse temporis imperfecti.</p>
       <p xml:id="PROTRAP10223">Septima regula est hec, quod si in aliquo cantu vel ipsius parte
         reperiatur longa puncto perfectionis punctata, ex quo puncto non sequatur separatio alicujus
         brevis vel valoris ab ipsa longa, tunc talis cantus vel pars dicitur esse modi longarum
@@ -1225,21 +1250,21 @@
         sic talis cantus foret male figuratus. Nota tamen, quod omnes regulas supradictas
         intelligere debes, si talia puncta superius nominata reperiantur inter notas per signa non
         nominatas.</p>
-      <p xml:id="PROTRAP10225">Sed quia multociens contigit defectus signorum supradictorum, tum quia in
-        aliquo cantu non reperitur aliquod supradictorum signorum, tum quia dato quod reperiatur,
-        est tamen dubium quid ibi operetur, sicut est de puncto divisionis qui, licet reperiatur
-        inter minimas, est tamen dubium utrum dividat prolationem, vel tempus, vel modum, ideo do
-        tibi nonam et ultimam regulam talem, quod si noscere vis cujus mensure sit aliquis cantus
-        tibi propositus, debes ipsum cantare, vel aliquid sibi proportionale facere, sicut ipsius
-        contrapunctum numerare, et per hoc infallenter in notitiam mensure cujuscumque cantus tibi
-        propositi devenire poteris, si laborare voles.</p>
+      <p xml:id="PROTRAP10225">Sed quia multociens contigit defectus signorum supradictorum, tum
+        quia in aliquo cantu non reperitur aliquod supradictorum signorum, tum quia dato quod
+        reperiatur, est tamen dubium quid ibi operetur, sicut est de puncto divisionis qui, licet
+        reperiatur inter minimas, est tamen dubium utrum dividat prolationem, vel tempus, vel modum,
+        ideo do tibi nonam et ultimam regulam talem, quod si noscere vis cujus mensure sit aliquis
+        cantus tibi propositus, debes ipsum cantare, vel aliquid sibi proportionale facere, sicut
+        ipsius contrapunctum numerare, et per hoc infallenter in notitiam mensure cujuscumque cantus
+        tibi propositi devenire poteris, si laborare voles.</p>
       <p xml:id="PROTRAP10226">Et hec de modo cognoscendi mensuras cantuum, atque de totali tractatu
         anno Domini 1408, Padue compilata, pro nunc sufficiant volentibus sub brevitate colligere ea
         que diffusius dilatavi in quodam meo opere quod scripsi super tractatu pratice cantus
         mensurabilis Johannis de Muris. Si vero quis dubia alia que prolixa hic recitata atque ibi
         pertractata videre vellet, illuc recurrat; et ibidem videbit, si quid boni erit. Amen.</p>
-      <p xml:id="PROTRAP10227">Explicit tractatus pratice cantus mensurabilis Prosdocimo de Beldemandis
-        de Padua compositus. Deo gratias. Amen.</p>
+      <p xml:id="PROTRAP10227">Explicit tractatus pratice cantus mensurabilis Prosdocimo de
+        Beldemandis de Padua compositus. Deo gratias. Amen.</p>
     </body>
   </text>
 </TEI>

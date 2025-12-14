@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Ritus canendi vetustissimus et novus, liber primus</title>
         <title type="abbrev">GALRIT1</title>
-        <author>Johannes Gallicus dictus Carthusiensis seu de Mantua</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Johannes Gallicus dictus Carthusiensis seu de Mantua</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Luminita Florea Aluas</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1991</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1991">1991</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptorum de musica medii aevi nova series a Gerbertina altera</emph>, 4 vols., ed.
@@ -89,11 +99,11 @@
         inquisitorem. Sileant igitur quicunque multas opinari volent esse musicas! necque doceri
         posse ferunt hanc universalem scientiam nisi per sex illas sillabas, sed et suam gerant
         confusionem, qui tam nobilem artem cifris et phantasiis autumant esse subjectam.</p>
-      <p xml:id="GALRIT10009">Obmutescant iterum atque rursum et erubescant, jactantes illam sub petris
-        inventam aut in guttis acquarum ab alto, nescitur unde cadentibus: que quidem omnia tali
-        levitate deridenda sunt, quali ab insensatis viris dicta vel scripta.</p>
-      <p xml:id="GALRIT10010">Nos autem hujusce virtutis practicam variis ab antiquo modis edoctam ac
-        denuo doceri posse monstrabilimus et tamen quo ritu primum innotuerit hominibus. Auctore
+      <p xml:id="GALRIT10009">Obmutescant iterum atque rursum et erubescant, jactantes illam sub
+        petris inventam aut in guttis acquarum ab alto, nescitur unde cadentibus: que quidem omnia
+        tali levitate deridenda sunt, quali ab insensatis viris dicta vel scripta.</p>
+      <p xml:id="GALRIT10010">Nos autem hujusce virtutis practicam variis ab antiquo modis edoctam
+        ac denuo doceri posse monstrabilimus et tamen quo ritu primum innotuerit hominibus. Auctore
         Deo, sine quo nihil est, non silebimus.</p>
       <p xml:id="GALRIT10011">Explicit prologus.</p>
       <p xml:id="GALRIT10012">Incipit Liber Primus.</p>
@@ -112,7 +122,8 @@
         tempore fabrorum invenit. Refert quoque Yosephus, grandis auctoritatis apud Hebreos, Graecos
         et Latinos historiographus, hunc Jubal adeo tenuisse caram sonorum quam exquisierat artem,
         ut illam in duabus columnis verens diluvium sculperet; quarum unam postea gens renovata
-        vidit. Prophetarat etenim illis Adam, quod mundus cito perieret aut per ignem aut per <pb n="[300]"/>aquam, ob quod Jubal unam de columnis illis fecit latericiam, ne solveretur ab
+        vidit. Prophetarat etenim illis Adam, quod mundus cito perieret aut per ignem aut per <pb
+          n="[300]"/>aquam, ob quod Jubal unam de columnis illis fecit latericiam, ne solveretur ab
         ignibus, alteram vero marmoream ne putrifieret in fluctibus. Alibi quoque legitur prius
         illum, per tedio pastorali mitigando, cecinesse dein ad sonitum sui fratris malleorum,
         causam rei nimis subtiliter exquisisse. Quod, si quis noscere cupit qualiter, legat, prius
@@ -154,26 +165,26 @@
         iunctae simul in varias hujus artis concrescunt vocum resonantias, quae tamen in ipsis
         resolvi queant omnia phthongis.</p>
       <p xml:id="GALRIT10019">Capitulum III.</p>
-      <p xml:id="GALRIT10020">Quid sit sonus, quid thongus, quid tonus, quod semitonium minus, cum his
-        quae redundant ex illis.</p>
-      <p xml:id="GALRIT10021">Ecce liquet quam Jubal, quem natura primum <pb n="[301]"/>canere docuit,
-        sicut suum ydioma proprium, absque vocalibus et consonantibus enuntiare nequibat, ita nec
-        ullatenus cantare, si non aliquas de suprascriptis melorum speciebus, aut, ut magis proprie
-        loquar, e toni semitoniique compositionibus proferrent. Ob quod, absurdum non estimo, non
-        aliter quam alphabeti nostri litteras in vocales partiri solemus et consonantes, ac iterum
-        in mutas, semivocales ac liquidas; hujusmodi quoque musicales sillabas et sonoras,
+      <p xml:id="GALRIT10020">Quid sit sonus, quid thongus, quid tonus, quod semitonium minus, cum
+        his quae redundant ex illis.</p>
+      <p xml:id="GALRIT10021">Ecce liquet quam Jubal, quem natura primum <pb n="[301]"/>canere
+        docuit, sicut suum ydioma proprium, absque vocalibus et consonantibus enuntiare nequibat,
+        ita nec ullatenus cantare, si non aliquas de suprascriptis melorum speciebus, aut, ut magis
+        proprie loquar, e toni semitoniique compositionibus proferrent. Ob quod, absurdum non
+        estimo, non aliter quam alphabeti nostri litteras in vocales partiri solemus et consonantes,
+        ac iterum in mutas, semivocales ac liquidas; hujusmodi quoque musicales sillabas et sonoras,
         quonammodo dictiones, hic primum suis in partibus dividere, quo necnon vocabulo quaelibet
         per se vocitetur, quove modo deffiniatur declarare. Quin, ut dixi, Jubal haec omnia prius
         humana voce discrevit, ac forsitan in organo, liris et cytharis, sola juvante natura, multum
         exercuit; ubi vero rerum causas inquirendo multa naturae secreta reserasset normam docendi
         coaevos invenit.</p>
-      <p xml:id="GALRIT10022">Diffinitio soni generalis: Sonus ergo, juxta Boetium, est percussio aeris
-        indissoluta usque ad auditum. Sonus non autem non ille generalis, sed quem Graeci phthongon
-        appellant, est; ut ait isdem Boetius, vocis casus emmeles, id est aptus melo, in unam
-        intentionem. Intervallum vero dicit adhuc soni est acuti gravisque distantia, Phthongi ergo
-        soni sunt, sed proprie musici, qui scilicet legitimis ab invicem distant spaciis, et sunt ad
-        cantandum aptissimi. Illud autem spacium, quod est inter phthongon et phthongon appellatur
-        intervallum.</p>
+      <p xml:id="GALRIT10022">Diffinitio soni generalis: Sonus ergo, juxta Boetium, est percussio
+        aeris indissoluta usque ad auditum. Sonus non autem non ille generalis, sed quem Graeci
+        phthongon appellant, est; ut ait isdem Boetius, vocis casus emmeles, id est aptus melo, in
+        unam intentionem. Intervallum vero dicit adhuc soni est acuti gravisque distantia, Phthongi
+        ergo soni sunt, sed proprie musici, qui scilicet legitimis ab invicem distant spaciis, et
+        sunt ad cantandum aptissimi. Illud autem spacium, quod est inter phthongon et phthongon
+        appellatur intervallum.</p>
       <p xml:id="GALRIT10023">De tono: Tonus est duorum phthongorum legitimis spaciis ab invicem
         distantium quam integra modulatio. Diciturque tonus a tonando quod de phthongo perfecte
         tonet in phthongum, nec habere valet ultra solum intervallum. Omnes siquidem hujusmodi
@@ -192,9 +203,9 @@
       <p xml:id="GALRIT10027">De tritono: Tritonus quatuor phthongorum est ac trium tonorum valde
         discors aggregatio, sed a "tris" atque "tonus" dicta, cum sit ex tribus tonis contiguis tota
         confecta.</p>
-      <p xml:id="GALRIT10028">De diatesseron prima consonantia: Diatesseron quatuor est phthongorum ac
-        duorum tonorum uniusque semitonii minoris aggregatio, dicta quidem a "dya" quod est "de" vel
-        "per" et "tessara" quatuor, eo quod sit de quatuor sonis effecta. Haec est prima trium
+      <p xml:id="GALRIT10028">De diatesseron prima consonantia: Diatesseron quatuor est phthongorum
+        ac duorum tonorum uniusque semitonii minoris aggregatio, dicta quidem a "dya" quod est "de"
+        vel "per" et "tessara" quatuor, eo quod sit de quatuor sonis effecta. Haec est prima trium
         perfectarum consonantiarum atque simplicium: sicut enim in alphabeto, demptis quinque
         vocalibus, aliae litterae consonantes sunt, ita quidem, separatis hic tribus perfectis
         consonantiis, aliae sunt omnes dissonantiae, quamquam dytonus ac semidytonus, tonus cum
@@ -209,29 +220,29 @@
       <p xml:id="GALRIT10030">De dyapente imperfecto: Dyapente non est perfectum etiam quinque
         phthongorum, sed duorum duntaxat tonorum et duorum minoris semitonorum, discors quaedam
         compositio.</p>
-      <p xml:id="GALRIT10031">De tono cum dyapente: Tonus [cum] dyapente sex phthongorum est et unius
-        semitonii minoris cum quatuor tonis. Quaedam auditui compassibilis copulatio.</p>
-      <p xml:id="GALRIT10032">De semitonio cum dyapente: Semitonium cum dyapente sex etiam phthongorum
-        est, sed duorum minorum semitoniorum cum tribus sonis integris, quaedam quoque non tota
-        discors associatio.</p>
-      <p xml:id="GALRIT10033">De dytono cum dyapente: Dytonus cum dyapente septem est phthongorum et cum
-        uno minori semitonio discors tota quinque tonorum associatio.</p>
+      <p xml:id="GALRIT10031">De tono cum dyapente: Tonus [cum] dyapente sex phthongorum est et
+        unius semitonii minoris cum quatuor tonis. Quaedam auditui compassibilis copulatio.</p>
+      <p xml:id="GALRIT10032">De semitonio cum dyapente: Semitonium cum dyapente sex etiam
+        phthongorum est, sed duorum minorum semitoniorum cum tribus sonis integris, quaedam quoque
+        non tota discors associatio.</p>
+      <p xml:id="GALRIT10033">De dytono cum dyapente: Dytonus cum dyapente septem est phthongorum et
+        cum uno minori semitonio discors tota quinque tonorum associatio.</p>
       <p xml:id="GALRIT10034">De semiditono cum dyapente: Semidytonus cum dyapente septem est etiam
         phthongorum sed cum duobus semitoniis minoribus quatuor tonorum quae tota discordat
         collectio.</p>
-      <p xml:id="GALRIT10035">De dyapason, perfectissima consonantiarum ac tertia simplicium: Dyapason
-        est octo phthongorum legitimis ab invicem spaciis distantium, ac quinque tonorum cum duobus
-        semitoniis minoribus dulcissima modulatio: dicta videlicet a "dya" quod est "de" vel "per"
-        et "pan", omne vel totum: eo quae omnes hujusmodi vocum aggregationes ipsa contineat, et, ut
-        pia mater, in sinu suo foveat ac enutriat. Haec tertia consonantia simplex atque perfecta,
-        quae juxta datam regulam octo voces habet, intervalla septem et septem species, de quibus
-        disserendum est, dum tempus venerit, per singula. Quam profecto, si sibi dyapente copules,
-        jam duplicem effectam dyapason dyapente vocabis: et si dyapason duplices, bisdyapason erit:
-        sicque bisdyapason cum dyapente, et terdyapason replicare potes in infinitum. Inter quas
-        etiam cadunt dytonus cum dyapason, aut semiditonus cum eodem, et tonus cum dyapason,
-        dyapente, vel semitonium identedem: quae quidem dissonantiae compositae sunt, sed
-        compassibiles, ut in simplicibus. Non haec tamen rerum innovatio. Sed praecedentium ejusdem
-        naturae vocum replicatio. Quod totum utique simul in una figura collectum, si paucis
+      <p xml:id="GALRIT10035">De dyapason, perfectissima consonantiarum ac tertia simplicium:
+        Dyapason est octo phthongorum legitimis ab invicem spaciis distantium, ac quinque tonorum
+        cum duobus semitoniis minoribus dulcissima modulatio: dicta videlicet a "dya" quod est "de"
+        vel "per" et "pan", omne vel totum: eo quae omnes hujusmodi vocum aggregationes ipsa
+        contineat, et, ut pia mater, in sinu suo foveat ac enutriat. Haec tertia consonantia simplex
+        atque perfecta, quae juxta datam regulam octo voces habet, intervalla septem et septem
+        species, de quibus disserendum est, dum tempus venerit, per singula. Quam profecto, si sibi
+        dyapente copules, jam duplicem effectam dyapason dyapente vocabis: et si dyapason duplices,
+        bisdyapason erit: sicque bisdyapason cum dyapente, et terdyapason replicare potes in
+        infinitum. Inter quas etiam cadunt dytonus cum dyapason, aut semiditonus cum eodem, et tonus
+        cum dyapason, dyapente, vel semitonium identedem: quae quidem dissonantiae compositae sunt,
+        sed compassibiles, ut in simplicibus. Non haec tamen rerum innovatio. Sed praecedentium
+        ejusdem naturae vocum replicatio. Quod totum utique simul in una figura collectum, si paucis
         subjectis litteris demonstretur, puto visus humanus in ea satis delectabitur et sensus
         capatior erit. Sic igitur A B tonus; B C semitonium minus; C D tonus; D E tonus; E F
         semitonium minus; F G tonus; G et iterum A tonus; A autem et [sqb] sic quadratum, tonus. Sed
@@ -283,61 +294,63 @@
         demonstrat. Si ergo diatessaron A B tonus autem B C, quisque A C diapente sit negare
         poterit? Iterumque si B D diapente sit et diatessaron A B resonabit, et A D diapason
         perfectissimum erit:</p>
-      <p xml:id="GALRIT10040">[CSIV:304; text: * Hoc tetracordum omnium primum ac vetustissimum creasse
-        Graeci jactant, ac fecisse Mercurium; sed illud magis traditum renovatis hominibus a Noe
-        visceribus, opinor post diluvium. Diapason intensa, Diatessaron, Diapente intensa, A B C D,
-        Diapente remissa, Diapason remissa] <figure>
+      <p xml:id="GALRIT10040">[CSIV:304; text: * Hoc tetracordum omnium primum ac vetustissimum
+        creasse Graeci jactant, ac fecisse Mercurium; sed illud magis traditum renovatis hominibus a
+        Noe visceribus, opinor post diluvium. Diapason intensa, Diatessaron, Diapente intensa, A B C
+        D, Diapente remissa, Diapason remissa] <figure>
           <graphic url="/images/GALRIT1_02GF.gif"/>
         </figure></p>
       <p xml:id="GALRIT10041">Capitulum V.</p>
-      <p xml:id="GALRIT10042">Porro philosophi Graeci quatuor illis nervis adhuc undecim alias apposuere
-        cordas, per intervalla temporum quod qualiter, aut quomodo, si scire cupis lege Boetii in
-        primo suae musicae libro: ibique reperies non id modo quod quaeris, sed <pb n="[305]"/>ipsorum quoque nomina philosophorum. Sensati namque viri quod omnis vox aut continua sit,
-        aut intervallis suspensa, non ignorabant, et idcirco se posse plures adhuc tantillo numero
-        superaddere cordas non dubitarunt. Attamen quindenum numerum transcendere nunquam voluerunt.
-        Est etenim vox illa continua qua prosas legere solemus et historias, aut verba loquendo
-        verbis subjungere, quae nimirum a sola natura moderari potest ne sit infinita, dum loqui
-        tantum valeat homo, seu legere, quantum hanelitus ejus duret aut queat respirare. Quae vero
-        dicitur intervallis suspensa vox est, qua musicos elevare solent homines aut deprimere
-        sonos: quae quidem et ipsa modum non habet si non refrenetur a natura, nam ultra non gravat
-        homo vocem quam valeat sonos alacriter exprimere. Nec adeo, si sit prudens, scandit in
-        altum, ut dubitet deficere. Quisnam oro mortalium, si vocem elevet ultra quintamdecimam,
-        fere non deficiat, aut si tantum illam relaxet, confusus non embescat. Quod, si quis se
-        vidisse voces humanas objecerit ad praefatum numerum superandum aptissimas, respondemus quod
-        paucae sunt ad totius humani generis comparationem, et de his quae rara accidunt non datur
-        regula generalis. Egit in hoc ergo per omnia prudenter philosophorum auctoritas, quae nobis
-        ad cantandum docendum ac discendum, et omne quod canitur, si velimus describendum optimo
-        providit nihilque superfluum aute inepte per incuriam ordinatum reliquit.</p>
+      <p xml:id="GALRIT10042">Porro philosophi Graeci quatuor illis nervis adhuc undecim alias
+        apposuere cordas, per intervalla temporum quod qualiter, aut quomodo, si scire cupis lege
+        Boetii in primo suae musicae libro: ibique reperies non id modo quod quaeris, sed <pb
+          n="[305]"/>ipsorum quoque nomina philosophorum. Sensati namque viri quod omnis vox aut
+        continua sit, aut intervallis suspensa, non ignorabant, et idcirco se posse plures adhuc
+        tantillo numero superaddere cordas non dubitarunt. Attamen quindenum numerum transcendere
+        nunquam voluerunt. Est etenim vox illa continua qua prosas legere solemus et historias, aut
+        verba loquendo verbis subjungere, quae nimirum a sola natura moderari potest ne sit
+        infinita, dum loqui tantum valeat homo, seu legere, quantum hanelitus ejus duret aut queat
+        respirare. Quae vero dicitur intervallis suspensa vox est, qua musicos elevare solent
+        homines aut deprimere sonos: quae quidem et ipsa modum non habet si non refrenetur a natura,
+        nam ultra non gravat homo vocem quam valeat sonos alacriter exprimere. Nec adeo, si sit
+        prudens, scandit in altum, ut dubitet deficere. Quisnam oro mortalium, si vocem elevet ultra
+        quintamdecimam, fere non deficiat, aut si tantum illam relaxet, confusus non embescat. Quod,
+        si quis se vidisse voces humanas objecerit ad praefatum numerum superandum aptissimas,
+        respondemus quod paucae sunt ad totius humani generis comparationem, et de his quae rara
+        accidunt non datur regula generalis. Egit in hoc ergo per omnia prudenter philosophorum
+        auctoritas, quae nobis ad cantandum docendum ac discendum, et omne quod canitur, si velimus
+        describendum optimo providit nihilque superfluum aute inepte per incuriam ordinatum
+        reliquit.</p>
       <p xml:id="GALRIT10043">Capitulum VI.</p>
       <p xml:id="GALRIT10044">Istarum quindecim vocabula cordarum ac interpretationes earum.</p>
-      <p xml:id="GALRIT10045">Corda prima: Collectis itaque prout tradit Boetius quindecim tantummodo
-        cordis: primam et omnium gravissimam vocavere philosophi graece "proslambanomenos", hoc est
-        additam vel appositam seu acquisitam, eo quod quanquam ultima fuerit inventa, caeteris tamen
-        sit necessario praelata.</p>
-      <p xml:id="GALRIT10046">Corda secunda: "Ypateypaton" idem est quae gravissima gravissimarum quod
-        quippe vocabulum antequam esset proslambanomenos, jure sibi competebat cum tunc esset prima,
-        nunc vero tenet illud adhuc quamvis illa tono sit altior et secunda.</p>
+      <p xml:id="GALRIT10045">Corda prima: Collectis itaque prout tradit Boetius quindecim
+        tantummodo cordis: primam et omnium gravissimam vocavere philosophi graece
+        "proslambanomenos", hoc est additam vel appositam seu acquisitam, eo quod quanquam ultima
+        fuerit inventa, caeteris tamen sit necessario praelata.</p>
+      <p xml:id="GALRIT10046">Corda secunda: "Ypateypaton" idem est quae gravissima gravissimarum
+        quod quippe vocabulum antequam esset proslambanomenos, jure sibi competebat cum tunc esset
+        prima, nunc vero tenet illud adhuc quamvis illa tono sit altior et secunda.</p>
       <p xml:id="GALRIT10047">Corda tertia: "Parsypateypaton" juxta gravissimam interpretatur
         gravissimarum, quae cum ab illo solo minori semitonio remota sit, suum optime gerit nomen ac
         vocabulum.</p>
-      <p xml:id="GALRIT10048">Corda quarta: "Lycanoypaton", index appellatur, non ab re gravissimarum,
-        nam cum antiquitus esset in loco tertio distans a secunda corda tono, mox indici monocordum
-        occurebat tangenti digito.</p>
-      <p xml:id="GALRIT10049">Corda quinta: "Ypatemeson" gravissima recte vocitatur, mediarum distans
-        enim a praecedenti vicina tono, sicuti voces finit gravissimas, ita quidam inchoare probatur
-        et medias.</p>
-      <p xml:id="GALRIT10050">Corda sexta: "Parypatemeson" interpretatur juxta gravissimam mediarum, nam
-        ab illo solo scitur distare minori semitonio, quod est initium tetracordi mediarum et
+      <p xml:id="GALRIT10048">Corda quarta: "Lycanoypaton", index appellatur, non ab re
+        gravissimarum, nam cum antiquitus esset in loco tertio distans a secunda corda tono, mox
+        indici monocordum occurebat tangenti digito.</p>
+      <p xml:id="GALRIT10049">Corda quinta: "Ypatemeson" gravissima recte vocitatur, mediarum
+        distans enim a praecedenti vicina tono, sicuti voces finit gravissimas, ita quidam inchoare
+        probatur et medias.</p>
+      <p xml:id="GALRIT10050">Corda sexta: "Parypatemeson" interpretatur juxta gravissimam mediarum,
+        nam ab illo solo scitur distare minori semitonio, quod est initium tetracordi mediarum et
         origo.</p>
-      <p xml:id="GALRIT10051">Corda septima: "Lycanosmeson", latine sonat "index mediarum". Quae tono
-        distans a sua praecedenti socia, nomen alterius "lycanos" a loci similitudine sortitur ac
-        vocabulum.</p>
-      <p xml:id="GALRIT10052">Corda octava: "Mese" quae dicitur media, jure duplici tale nomen habere
-        debet, a subdita namque sibi vicina tono se tantum elevans, primum finit diapason, a
+      <p xml:id="GALRIT10051">Corda septima: "Lycanosmeson", latine sonat "index mediarum". Quae
+        tono distans a sua praecedenti socia, nomen alterius "lycanos" a loci similitudine sortitur
+        ac vocabulum.</p>
+      <p xml:id="GALRIT10052">Corda octava: "Mese" quae dicitur media, jure duplici tale nomen
+        habere debet, a subdita namque sibi vicina tono se tantum elevans, primum finit diapason, a
         principali proslambamenos vocula, rursusque sedens in loco medio, mater est omnium
         sequentium vocularum ac domina.</p>
-      <p xml:id="GALRIT10053">Corda nona: "Paramese", juxta mese, non immerito dicitur, nam si sit ab
-        illa plus minusve tono remota, nusquam de septem diapason speciebus apparet una.</p>
+      <p xml:id="GALRIT10053">Corda nona: "Paramese", juxta mese, non immerito dicitur, nam si sit
+        ab illa plus minusve tono remota, nusquam de septem diapason speciebus apparet una.</p>
       <p xml:id="GALRIT10054">Corda decima: "Trytedyezeumenon", optime quidem interpretatur tertia
         disjunctarum, est etenim a mese locum habens tertium, quamquam ad paramese minus reddat
         semitonium.</p>
@@ -345,29 +358,29 @@
         <pb n="[306]"/>Corda undecima: "Paranetedyezeumenon", juxta nete disjunctarum, versa de
         graeco significat in latinum eo quod tryten uno tono superans, ad neten quoque tonando semel
         ascendat.</p>
-      <p xml:id="GALRIT10056">Corda duodecima: "Netedyezeumenon", a graeco verbo neate juxta Boetium,
-        inferior appellatur disjunctarum, tono namque prescriptam paranete cordam superans,
+      <p xml:id="GALRIT10056">Corda duodecima: "Netedyezeumenon", a graeco verbo neate juxta
+        Boetium, inferior appellatur disjunctarum, tono namque prescriptam paranete cordam superans,
         novissimam omnium disjunctarum vocem emittit atque juniorem.</p>
-      <p xml:id="GALRIT10057">Corda tertiadecima: "Tryteyperboleon", jure tertia nominatur superiorum
-        aut excellentium, altius namque solo minori semitonio quam nete vicina sua, prodiens, et si
-        certe graviorem, tertium nihilominus a superiore nete locum occupat.</p>
-      <p xml:id="GALRIT10058">Corda quartadecima: "Paraneteyperboleon", juxta nete dicitur superiorum
-        eadem ratione, qua paranetedyezeumenon scilicet pro eo quod ad illam per tonum pergat
-        similiter.</p>
+      <p xml:id="GALRIT10057">Corda tertiadecima: "Tryteyperboleon", jure tertia nominatur
+        superiorum aut excellentium, altius namque solo minori semitonio quam nete vicina sua,
+        prodiens, et si certe graviorem, tertium nihilominus a superiore nete locum occupat.</p>
+      <p xml:id="GALRIT10058">Corda quartadecima: "Paraneteyperboleon", juxta nete dicitur
+        superiorum eadem ratione, qua paranetedyezeumenon scilicet pro eo quod ad illam per tonum
+        pergat similiter.</p>
       <p xml:id="GALRIT10059">Corda quintadecima: "Neteyperboleon", inferior superiorum interpretata
         probatur, eodem argumento quo netedyezeumenon, videlicet, ultima namque superiorum est,
         sicut illa disjunctarum solo quod tono vicina sibi subdictum superat.</p>
       <p xml:id="GALRIT10060">Capitulum VII.</p>
       <p xml:id="GALRIT10061">Has quindecim cordas hic more graeco per solum genus dyatonicum
         divisas.</p>
-      <p xml:id="GALRIT10062">His igitur expeditis, ac quindecem illis phthongorum vocum, sive sonorum,
-        vocabulis satis ad propositum interpretatis, scire non erit absonum Graecis antiquis, valde
-        curiosis, unam harum quindecim vocum nequaquam suffecisse distinctionem, imo tribus illas
-        permutando tonos ac semitonia distinxere modis. Primam utpote modulando formam genus
-        dyatonicum, secundam autem enarmonicum, tertiam vero cromaticum appellantes, verum tamen de
-        solo dyatonico, quod primum est verum ac perfectum tractare dispono, quamquam de caeteris
-        etiam duobus in totum silere nolim, captato tempore siquidem et loco congruo. Mater enim
-        ecclesia de tribus his generibus solum dyatonicum ad omne quod canere velis aptissimum
+      <p xml:id="GALRIT10062">His igitur expeditis, ac quindecem illis phthongorum vocum, sive
+        sonorum, vocabulis satis ad propositum interpretatis, scire non erit absonum Graecis
+        antiquis, valde curiosis, unam harum quindecim vocum nequaquam suffecisse distinctionem, imo
+        tribus illas permutando tonos ac semitonia distinxere modis. Primam utpote modulando formam
+        genus dyatonicum, secundam autem enarmonicum, tertiam vero cromaticum appellantes, verum
+        tamen de solo dyatonico, quod primum est verum ac perfectum tractare dispono, quamquam de
+        caeteris etiam duobus in totum silere nolim, captato tempore siquidem et loco congruo. Mater
+        enim ecclesia de tribus his generibus solum dyatonicum ad omne quod canere velis aptissimum
         elegit, aliis reprobatis duobus. Deum utique laudare volens adlibitum, idque totum quod
         curiosum est magisve difficile quam consonum a se rejiciens. Has igitur Graeci quindecim
         cordas in quatuor primo divisere tetracordis, primum appellantes tetracordum ypaton id est
@@ -394,10 +407,10 @@
           <graphic url="/images/GALRIT1_03GF.gif"/>
         </figure></p>
       <p xml:id="GALRIT10064">Capitulum VIII.</p>
-      <p xml:id="GALRIT10065">Alia duo tetracorda primus duobus simillima, cur sint ab illis per unum
-        tonum disjuncta.</p>
-      <p xml:id="GALRIT10066">Haec natura rerum satis exercuit solertiam philosophorum, aut certe coacti
-        sunt in duas partes tonum secare, vel humanas aures trium discordia tonorum sibi
+      <p xml:id="GALRIT10065">Alia duo tetracorda primus duobus simillima, cur sint ab illis per
+        unum tonum disjuncta.</p>
+      <p xml:id="GALRIT10066">Haec natura rerum satis exercuit solertiam philosophorum, aut certe
+        coacti sunt in duas partes tonum secare, vel humanas aures trium discordia tonorum sibi
         succedentium vehementer offendere. In illo enim quem supra depinximus heptacorda diapason
         habere non potest, eo quod ibi sint septem tummodo cordae sive voces, ipsa vero
         consonantiarum consonantia minus quamque octo cordas habere non debet. Graeci namque
@@ -423,114 +436,116 @@
         haec quatuor tetracorda video distantiam, cum et ista duo tres diatessaron demonstrent,
         species, sicut et illa nisi quod ibi tantummodo graves, hic autem acutae voces resonent,
         quod totum esse verum hic depicta probabit figura:</p>
-      <p xml:id="GALRIT10067">[CSIV:308; text: * Haec duoligata simul sunt ceteris simillima, risi quod
-        voces acutae occupant illas graves, in quo quidem ostenditur, quod quicquam voces resonent,
-        totum quippe dirigitur tripli dyatessaron. His duobus tetracordis surgit istud eptacordum,
-        Secunda species diatessaron, Tertia species diatessaron, Tota primae similis haec, Prima
-        speeies diatessaron, Tetracordum diezeumenon, Tetracordum yperboleon, Netcyperboteon. Tonus.
-        Paranete yperboleon. Trite yperboleon. Semitonium. Netediezeumenon. Paranete diezeumenon.
-        Trite diezeumenon. Paramese.] <figure>
+      <p xml:id="GALRIT10067">[CSIV:308; text: * Haec duoligata simul sunt ceteris simillima, risi
+        quod voces acutae occupant illas graves, in quo quidem ostenditur, quod quicquam voces
+        resonent, totum quippe dirigitur tripli dyatessaron. His duobus tetracordis surgit istud
+        eptacordum, Secunda species diatessaron, Tertia species diatessaron, Tota primae similis
+        haec, Prima speeies diatessaron, Tetracordum diezeumenon, Tetracordum yperboleon,
+        Netcyperboteon. Tonus. Paranete yperboleon. Trite yperboleon. Semitonium. Netediezeumenon.
+        Paranete diezeumenon. Trite diezeumenon. Paramese.] <figure>
           <graphic url="/images/GALRIT1_04GF.gif"/>
         </figure></p>
       <p xml:id="GALRIT10068">Capitulum IX.</p>
       <p xml:id="GALRIT10069">Cur quintum sit inventum tetracordum et cum corda mese ligatum.</p>
-      <p xml:id="GALRIT10070">Nunc autem ad id quod de tribus tonis contiguis supra motum est convertere
-        stylum nos oportet circa quod primo quaerendum est. Ad quod philosophi graeci quintum, illis
-        quatuor, addere voluerunt tetracordum, et cum satis alligata, mese corda totaliter
-        connectere, cum presertim illa quatuor sufficiant ad canendum tetracorda. Sicut vides in
-        optimo genere dyatonico distincta, tamque decenter per diapason ac diapason simul adunata.
-        Videtur praeterea superfluum ac inane totum istud tetracordum, quam etsi nomina mutata sint
-        cordarum, est tonus identidem et tonus inter trite [et] paranete, nete quod synemenon, sicut
-        inter trite, paranete ac netedyezeumenon erat. Sed si rem <pb n="[309]"/>diligenter
-        consideremus non parvam inter has cordas differentiam esse videmus. Providi namque
-        philosophi trium illorum tonorum discordia quae cadit a parypatemeson in paramese concitati,
-        rursus et aliam inter mesen et paramesen constituere cordam trytesynemenon hoc est tertiam
-        conjunctarum illam ea de causa qua et trytey[per]boleon vocitantes. Quae procul dubio tonum
-        ab ipso mese in paramese secat et dividit, sed non equaliter, dum ad mesen minus reddat
-        semitonium, et ad parypatemeson, per consequens, non jam tres tonos successivos uno veram
-        diatesseron generat. A paramese vero distat apothome quod est majus semitonum, id quod totum
-        non cernitur solum oculo, sed et manu facile tangitur in monocordo. Quoties ergo necesse est
-        hoc uti quinto tetracordo, relictis tetracordi dyezeumenon cordis, totiens naturalem
-        deserere paramesen et hac arte factam trytesynemenon recipere nos oportet. Tunc quod tonum
-        inter ipsam paranetesynemenon, quae prius trytedyezeumenon erat proferre, rursusque tonum ab
-        ipsa paranetesynemenon ad netesynemenon, quae corda paranetedyezeumenon fuerat, ut ad tempus
-        tetracordo disjunctarum seposito, quod naturale totum est atque facillimum, quintum istud
-        difficile recipiatur, quod currat etiam per minus semitonium ac tonum et tonum. Difficile,
-        dico quidem, et non naturale, quam (ut vides) arte quadam hic tonus, quod pauci capiunt,
-        dividitur, minorique semitonio cum corda mese ligato: majus quod et apotheme cum sequenti
-        disjunctarum minori semitonium jungitur, sic quod ex majori (et) minorique conficitur. Hanc
-        itaque Graeci maluere cum pessimo tritono jugem habere colluctationem, quam unam (ut dixi)
-        non posse describere diapason speciem. Nec ab eis ob aliud tetracordum istud synemenon est
-        cum corda mese copulatum, nisi quod tanta trium tonorum duritia mutaretur in diatessaron
-        perfectam. Quid amplius. Tolle si potes tritonum, et nihil valet istud tetracordum. Quo viso
-        melius est ipsum ab aliis naturalibus atque semper necessariis tetracordos (ut hic)
-        depingendo seiungere, quam ab eo quod per se clarum est intricare:</p>
-      <p xml:id="GALRIT10071">[CSIV:309; text: * Istud quintum tetracordum totum erit superfluum, sinon
-        discors ac nimius (disssnus) nobis occurat tritonus, quem delet diatessaron. Prima species
-        diatessaron. Tetracordum synemenon id est conjunctum, Netc synemenon. Tonus. Paranete
-        synemenon. Trite synemenon. Semitonium. Mese] <figure>
+      <p xml:id="GALRIT10070">Nunc autem ad id quod de tribus tonis contiguis supra motum est
+        convertere stylum nos oportet circa quod primo quaerendum est. Ad quod philosophi graeci
+        quintum, illis quatuor, addere voluerunt tetracordum, et cum satis alligata, mese corda
+        totaliter connectere, cum presertim illa quatuor sufficiant ad canendum tetracorda. Sicut
+        vides in optimo genere dyatonico distincta, tamque decenter per diapason ac diapason simul
+        adunata. Videtur praeterea superfluum ac inane totum istud tetracordum, quam etsi nomina
+        mutata sint cordarum, est tonus identidem et tonus inter trite [et] paranete, nete quod
+        synemenon, sicut inter trite, paranete ac netedyezeumenon erat. Sed si rem <pb n="[309]"
+        />diligenter consideremus non parvam inter has cordas differentiam esse videmus. Providi
+        namque philosophi trium illorum tonorum discordia quae cadit a parypatemeson in paramese
+        concitati, rursus et aliam inter mesen et paramesen constituere cordam trytesynemenon hoc
+        est tertiam conjunctarum illam ea de causa qua et trytey[per]boleon vocitantes. Quae procul
+        dubio tonum ab ipso mese in paramese secat et dividit, sed non equaliter, dum ad mesen minus
+        reddat semitonium, et ad parypatemeson, per consequens, non jam tres tonos successivos uno
+        veram diatesseron generat. A paramese vero distat apothome quod est majus semitonum, id quod
+        totum non cernitur solum oculo, sed et manu facile tangitur in monocordo. Quoties ergo
+        necesse est hoc uti quinto tetracordo, relictis tetracordi dyezeumenon cordis, totiens
+        naturalem deserere paramesen et hac arte factam trytesynemenon recipere nos oportet. Tunc
+        quod tonum inter ipsam paranetesynemenon, quae prius trytedyezeumenon erat proferre,
+        rursusque tonum ab ipsa paranetesynemenon ad netesynemenon, quae corda paranetedyezeumenon
+        fuerat, ut ad tempus tetracordo disjunctarum seposito, quod naturale totum est atque
+        facillimum, quintum istud difficile recipiatur, quod currat etiam per minus semitonium ac
+        tonum et tonum. Difficile, dico quidem, et non naturale, quam (ut vides) arte quadam hic
+        tonus, quod pauci capiunt, dividitur, minorique semitonio cum corda mese ligato: majus quod
+        et apotheme cum sequenti disjunctarum minori semitonium jungitur, sic quod ex majori (et)
+        minorique conficitur. Hanc itaque Graeci maluere cum pessimo tritono jugem habere
+        colluctationem, quam unam (ut dixi) non posse describere diapason speciem. Nec ab eis ob
+        aliud tetracordum istud synemenon est cum corda mese copulatum, nisi quod tanta trium
+        tonorum duritia mutaretur in diatessaron perfectam. Quid amplius. Tolle si potes tritonum,
+        et nihil valet istud tetracordum. Quo viso melius est ipsum ab aliis naturalibus atque
+        semper necessariis tetracordos (ut hic) depingendo seiungere, quam ab eo quod per se clarum
+        est intricare:</p>
+      <p xml:id="GALRIT10071">[CSIV:309; text: * Istud quintum tetracordum totum erit superfluum,
+        sinon discors ac nimius (disssnus) nobis occurat tritonus, quem delet diatessaron. Prima
+        species diatessaron. Tetracordum synemenon id est conjunctum, Netc synemenon. Tonus.
+        Paranete synemenon. Trite synemenon. Semitonium. Mese] <figure>
           <graphic url="/images/GALRIT1_05GF.gif"/>
         </figure></p>
       <p xml:id="GALRIT10072">
         <pb n="[310]"/>Capitulum X.</p>
-      <p xml:id="GALRIT10073">Ad sonitum malleorum Tubalchayne Jubal concepisse totam in numeris musicam
-        consistere.</p>
-      <p xml:id="GALRIT10074">Quoniam de diviso tono mentionem fecimus ac de monocordo, putavi non esse
-        vanum parumper ad Jubal redire, quoque ritu subjectam invenit esse numeris musicam breviter
-        aperire. Quatenus in hoc saltem me vidisse Boetii musicam, evidenter appareat, ac ejus
-        arithmeticam non nescisse. Et priusquam dispersa superius illa quinque simul aggregentur
-        tetracorda, viso quod nil a me loquar aut novi quippiam de proprio cerebro cudam, lector
-        lectione fidem adhibeat, et si forsan dubitaverit, ad fontem relicto rivo properet. Jubal
-        igitur ille dum jam multis diebus, uti credendum est, a natura cantasset, aliosque suos
-        coevos ad ipsum provocasset, non ei sufficit sonos auditu tantum discernere, quin potius
-        coepit paulisper in dies meditando causas inquirere. Qui cum apud se talia crebro cogitaret,
-        ac omnino cur sic soni permixti consonent aut dissonent investigare vellet, audit una dierum
-        super incude fratris sui Jubal Chayn qui faber est ut resonare tonum diatessaron, diapente
-        simulque diapason, et ait: "Mutate, quaeso, malleos ac iterum percutite, non enim parvum aut
-        in vestris brachiis, aut in ipsis malleis latere sentio naturae secretum". Dubitavit
-        sequidem vir sensus habens ob longam aetatem exercitatos, ne causa tantae novitatis quam
-        aure captabat, inesset ferientium viribus. Sed nec sic aliud ibi concipiens quam quod ante
-        senserat, malleos concitus ponderavit. Quo facto, singula singulis comparans, pondera
-        malleis, quosdam ab invicem duplo distare deprehendit numero, quosdam autem epitrito sive
-        sexquitertio, quosdam necnon sexquialtero, sed et quosdam simul sexquioctavam reddere videt
-        proportionem. Exempli gratia. Si quis libras duodecim ad novem comparet, mox proportionem
-        sexquitertium habet. Sed si novem ad octo sexqueoctavam, et si rursum duodecim ad octo
-        sexquealteram, quod si duodecim iterum ad sex consideret invenit duplam. Haec autem subjecta
-        demonstrat figura quae solus musicus capere solet. Nam qui se musicum reputat ignorans
-        arithmeticam, haud secus quam si se rhetorem praedicet nesciens grammaticam:</p>
-      <p xml:id="GALRIT10075">[CSIV:310; text: * Iradunt Graeci Pytagoram hanc invenisse fabricam. Sed
-        magis puto consonum opinari dictum Iubal. Sunt fratres Iubal et Chayn frequentasse
+      <p xml:id="GALRIT10073">Ad sonitum malleorum Tubalchayne Jubal concepisse totam in numeris
+        musicam consistere.</p>
+      <p xml:id="GALRIT10074">Quoniam de diviso tono mentionem fecimus ac de monocordo, putavi non
+        esse vanum parumper ad Jubal redire, quoque ritu subjectam invenit esse numeris musicam
+        breviter aperire. Quatenus in hoc saltem me vidisse Boetii musicam, evidenter appareat, ac
+        ejus arithmeticam non nescisse. Et priusquam dispersa superius illa quinque simul
+        aggregentur tetracorda, viso quod nil a me loquar aut novi quippiam de proprio cerebro
+        cudam, lector lectione fidem adhibeat, et si forsan dubitaverit, ad fontem relicto rivo
+        properet. Jubal igitur ille dum jam multis diebus, uti credendum est, a natura cantasset,
+        aliosque suos coevos ad ipsum provocasset, non ei sufficit sonos auditu tantum discernere,
+        quin potius coepit paulisper in dies meditando causas inquirere. Qui cum apud se talia
+        crebro cogitaret, ac omnino cur sic soni permixti consonent aut dissonent investigare
+        vellet, audit una dierum super incude fratris sui Jubal Chayn qui faber est ut resonare
+        tonum diatessaron, diapente simulque diapason, et ait: "Mutate, quaeso, malleos ac iterum
+        percutite, non enim parvum aut in vestris brachiis, aut in ipsis malleis latere sentio
+        naturae secretum". Dubitavit sequidem vir sensus habens ob longam aetatem exercitatos, ne
+        causa tantae novitatis quam aure captabat, inesset ferientium viribus. Sed nec sic aliud ibi
+        concipiens quam quod ante senserat, malleos concitus ponderavit. Quo facto, singula singulis
+        comparans, pondera malleis, quosdam ab invicem duplo distare deprehendit numero, quosdam
+        autem epitrito sive sexquitertio, quosdam necnon sexquialtero, sed et quosdam simul
+        sexquioctavam reddere videt proportionem. Exempli gratia. Si quis libras duodecim ad novem
+        comparet, mox proportionem sexquitertium habet. Sed si novem ad octo sexqueoctavam, et si
+        rursum duodecim ad octo sexquealteram, quod si duodecim iterum ad sex consideret invenit
+        duplam. Haec autem subjecta demonstrat figura quae solus musicus capere solet. Nam qui se
+        musicum reputat ignorans arithmeticam, haud secus quam si se rhetorem praedicet nesciens
+        grammaticam:</p>
+      <p xml:id="GALRIT10075">[CSIV:310; text: * Iradunt Graeci Pytagoram hanc invenisse fabricam.
+        Sed magis puto consonum opinari dictum Iubal. Sunt fratres Iubal et Chayn frequentasse
         fabricantem qui ferro pater extitit ac aere malleantium. VI. VIII. VIII. XII.]</p>
       <p xml:id="GALRIT10076">
         <pb n="[311]"/>Capitulum XI.</p>
-      <p xml:id="GALRIT10077">Quibus proportionibus numerorum Jubal adaptari voluit consonantias vocum
-        atque sonorum.</p>
-      <p xml:id="GALRIT10078">At Jubal his cognitis non nesciens voces acutas e pluribus ac velocioribus
-        quam graves fieri motibus omnemque pluralitatem ad paucitatem non aliter haberi, quam si
-        numerus comparetur ad numerum, in epitrito numero judicat esse diatessaron consonantiam, eo
-        quod illam inter duos ejusdem numeri malleos aure concepisset, motosque suos se sic invicem
-        habere non ambigit tam graves quam acutos. Certus quoque per arithmeticam ex epitrito numero
-        et sexqueoctavo gigni sexquealterum, in illo tono, et in hoc, diapente constituit, juxta
-        quod in malleis talium proportionum resonare praesenserat. Et quidem bene. Scimus enim ex
-        diatessaron et tono diapente fieri, et ex sexquetertia cum sexqueoctava sexquealteram
-        generare propter quod necesse est, ut tonus sexqueoctavam et diapente sexquealteram occupet.
-        Porro duplam inveniens proportionem, ubi dulcis diapason resonabat in malleis, totam in
-        duplo numero naturam ejus esse conscit, cum presertim diapente cum diatessaron aut e
-        converso componere diapason aspiceret quemadmodum epitritus numerus et sexquealter duplum
-        generat, quod totum sequens figura monstrabit. Haec est tonus, haec diatessaron, haec
-        diapente, et haec diapason, quae profecto veris suis partibus aequis, ac integris totam
-        monocordi metiuntur cordam, neque sunt aliae phthongorum vocum aut sonorum aggregationes,
-        quae tantam arrogare sibi presumant omnino gloriam, de quo guippe monocordo post haec
-        disputare cogito, monstrare volens oculo tonum ac diatessaron cum reliquis perfectis
-        consonantiis non nisi per praefatas proportiones in corda posse creari, vel resonare,
-        videlicet per duplam, per sexqualteram, per sexquitertiam et per sexqueoctavam proportionem,
-        partes quoque toni principales esse majus atque minus semitonium palpare velle disponens,
-        nec ullatenus in aequa tonum ipsum dividi. Nullum enim est aliud penes musicos ita verum
-        approbans instrumentum et hoc propter continuum ibi varie per praescriptas proportiones ac
-        justissime compartitum omnia si quidem ut ait sapiens, in mesura numero et pondere
-        consistunt:</p>
-      <p xml:id="GALRIT10079">[CSIV:311; text: * Hic Iubal prior cecinit, ac primus artem reperit. Omne
-        sumens judicium, ut hic patet in numeris, quam demum in marmoribus. Sculpsit ac in
+      <p xml:id="GALRIT10077">Quibus proportionibus numerorum Jubal adaptari voluit consonantias
+        vocum atque sonorum.</p>
+      <p xml:id="GALRIT10078">At Jubal his cognitis non nesciens voces acutas e pluribus ac
+        velocioribus quam graves fieri motibus omnemque pluralitatem ad paucitatem non aliter
+        haberi, quam si numerus comparetur ad numerum, in epitrito numero judicat esse diatessaron
+        consonantiam, eo quod illam inter duos ejusdem numeri malleos aure concepisset, motosque
+        suos se sic invicem habere non ambigit tam graves quam acutos. Certus quoque per
+        arithmeticam ex epitrito numero et sexqueoctavo gigni sexquealterum, in illo tono, et in
+        hoc, diapente constituit, juxta quod in malleis talium proportionum resonare praesenserat.
+        Et quidem bene. Scimus enim ex diatessaron et tono diapente fieri, et ex sexquetertia cum
+        sexqueoctava sexquealteram generare propter quod necesse est, ut tonus sexqueoctavam et
+        diapente sexquealteram occupet. Porro duplam inveniens proportionem, ubi dulcis diapason
+        resonabat in malleis, totam in duplo numero naturam ejus esse conscit, cum presertim
+        diapente cum diatessaron aut e converso componere diapason aspiceret quemadmodum epitritus
+        numerus et sexquealter duplum generat, quod totum sequens figura monstrabit. Haec est tonus,
+        haec diatessaron, haec diapente, et haec diapason, quae profecto veris suis partibus aequis,
+        ac integris totam monocordi metiuntur cordam, neque sunt aliae phthongorum vocum aut sonorum
+        aggregationes, quae tantam arrogare sibi presumant omnino gloriam, de quo guippe monocordo
+        post haec disputare cogito, monstrare volens oculo tonum ac diatessaron cum reliquis
+        perfectis consonantiis non nisi per praefatas proportiones in corda posse creari, vel
+        resonare, videlicet per duplam, per sexqualteram, per sexquitertiam et per sexqueoctavam
+        proportionem, partes quoque toni principales esse majus atque minus semitonium palpare velle
+        disponens, nec ullatenus in aequa tonum ipsum dividi. Nullum enim est aliud penes musicos
+        ita verum approbans instrumentum et hoc propter continuum ibi varie per praescriptas
+        proportiones ac justissime compartitum omnia si quidem ut ait sapiens, in mesura numero et
+        pondere consistunt:</p>
+      <p xml:id="GALRIT10079">[CSIV:311; text: * Hic Iubal prior cecinit, ac primus artem reperit.
+        Omne sumens judicium, ut hic patet in numeris, quam demum in marmoribus. Sculpsit ac in
         lateribus, nec percat in diluvio vel solvatur in incendio. Proportio dupla, Proportio
         sexquattera, Proportio sexquitertia, Proportio sexquioctava, XII VIIII VIII VI, Diatessaron,
         Tonus, Diapente, Diapason] <figure>
@@ -539,9 +554,9 @@
       <p xml:id="GALRIT10080">
         <pb n="[312]"/>Capitulum XII.</p>
       <p xml:id="GALRIT10081">Numeros ejusdem esse naturae voces et sonos.</p>
-      <p xml:id="GALRIT10082">Nemini quidem grave videri debet si numeros ejusdem esse naturae dicam et
-        sonos cum et si lingua sileat aut scribere cesset calamus, non aliud ipsa natura clamat. Nam
-        oro quod est numerare, nisi de decem unitatibus crescendo quasdam summas varias aut
+      <p xml:id="GALRIT10082">Nemini quidem grave videri debet si numeros ejusdem esse naturae dicam
+        et sonos cum et si lingua sileat aut scribere cesset calamus, non aliud ipsa natura clamat.
+        Nam oro quod est numerare, nisi de decem unitatibus crescendo quasdam summas varias aut
         decrescendo congregare, totumque si sit opus, in primam unitatem et omnium matrem resolvere.
         Decem autem varii tantummodo numeri sunt et quicquid ultra numeretur, non est novum, sed
         unum et idem totiens quotiens volueris replicatum. Quidve quaeso canere, nisi de solis sex

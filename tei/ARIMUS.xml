@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musica</title>
         <title type="abbrev">ARIMUS</title>
-        <author>Aribo</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Aribo</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Sean Ferguson</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Charles Atkinson</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1993</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1993">1993</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptores ecclesiastici de musica sacra potissimum</emph>, 3 vols., ed. Martin
@@ -93,34 +103,35 @@
         perceptionem. Post seriarum rerum laboriosam intensionem, in istis aliquando quasi ludi
         blandientem habeatis remissionem.</p>
       <p xml:id="ARIMUS0004">De Quadripartita Modernorum Figura.</p>
-      <p xml:id="ARIMUS0005">Est quaedam quadripartita figura modernis adeo venerabilis, ut paucissima
-        sine ea sint monochorda. Quae ita construitur, ut una series primi insimul et secundi toni
-        mensuram contineat, secunda tertii et quarti, tertia quinti et sexti, quarta septimi et
-        octavi. Cuius dispositio non ultimae famulatur commoditati. Nam sicut post Abecedarii
-        indiscretam generalemque seriem specialiter erant coadunandae vocales, semivocales, mutae;
-        ita post naturalem monochordi permixtionem specialius erant tropi cum suis subiugalibus
-        discernendi, sicut etiam elementa lucidius apparuerunt discreta relicto sinu primitivae
-        confusionis. Dispositis separatim tropis evidentius intuemur, qualiter protus cum suo
-        subiugali constet prima gravium, in A. prima finalium in D. Distinctius quoque videmus,
-        quomodo Deuterus cum suo plaga construatur secunda gravium, secunda finalium, secunda
-        superiorum, secunda excellentium, in B. E. [sqb]. e. Quomodo tritus cum plagali constituatur
-        omnibus tertiis, in C. F. c. f. Qualiter tetrardus sibique plaga subiunctus disponantur ex
-        omnibus quartis, quarta gravium, in D. quae est <pb n="[198]"/>duplicis naturae: quia sicut
-        est quarta gravium, ita est prima finalium. Quae omnia lucebunt in sequentibus, cum de
-        troporum tetrachordorum principalium chordarum natura disseremus abundantius, quia praesens
-        tractatus principaliter est de quadripartita figura praetitulandus.</p>
+      <p xml:id="ARIMUS0005">Est quaedam quadripartita figura modernis adeo venerabilis, ut
+        paucissima sine ea sint monochorda. Quae ita construitur, ut una series primi insimul et
+        secundi toni mensuram contineat, secunda tertii et quarti, tertia quinti et sexti, quarta
+        septimi et octavi. Cuius dispositio non ultimae famulatur commoditati. Nam sicut post
+        Abecedarii indiscretam generalemque seriem specialiter erant coadunandae vocales,
+        semivocales, mutae; ita post naturalem monochordi permixtionem specialius erant tropi cum
+        suis subiugalibus discernendi, sicut etiam elementa lucidius apparuerunt discreta relicto
+        sinu primitivae confusionis. Dispositis separatim tropis evidentius intuemur, qualiter
+        protus cum suo subiugali constet prima gravium, in A. prima finalium in D. Distinctius
+        quoque videmus, quomodo Deuterus cum suo plaga construatur secunda gravium, secunda
+        finalium, secunda superiorum, secunda excellentium, in B. E. [sqb]. e. Quomodo tritus cum
+        plagali constituatur omnibus tertiis, in C. F. c. f. Qualiter tetrardus sibique plaga
+        subiunctus disponantur ex omnibus quartis, quarta gravium, in D. quae est <pb n="[198]"
+        />duplicis naturae: quia sicut est quarta gravium, ita est prima finalium. Quae omnia
+        lucebunt in sequentibus, cum de troporum tetrachordorum principalium chordarum natura
+        disseremus abundantius, quia praesens tractatus principaliter est de quadripartita figura
+        praetitulandus.</p>
       <p xml:id="ARIMUS0006">De vitio Quadripartitae.</p>
-      <p xml:id="ARIMUS0007">Est tamen aliquid in eadem figura, quod mihi, ut minus sapiens dico, non
-        videtur usque ad fundum penitus esse limpidum.</p>
+      <p xml:id="ARIMUS0007">Est tamen aliquid in eadem figura, quod mihi, ut minus sapiens dico,
+        non videtur usque ad fundum penitus esse limpidum.</p>
       <p xml:id="ARIMUS0008">Adtentum facit praesulem.</p>
       <p xml:id="ARIMUS0009">Huc pater auriculas converte benignius ambas.</p>
       <p xml:id="ARIMUS0010">Has praesul nugas meditans sis totus in illis.</p>
       <p xml:id="ARIMUS0011">Homines reprehendere degenerantes.</p>
-      <p xml:id="ARIMUS0012">Solent homines admodum improbare, cum vident aliquem de parentum virtute
-        degenerare. Scimus autem et istam et omnem musicam figuram nativitatis suae primordium
-        sumpsisse de primitiva regularis monochordi dispositione. Cum autem hic videamus collecta,
-        quae ibi sunt dispersa, hic dispersa quae ibi sunt collecta, nonne ista figura degenerat a
-        sua genitrice, monochordi videlicet mensura?</p>
+      <p xml:id="ARIMUS0012">Solent homines admodum improbare, cum vident aliquem de parentum
+        virtute degenerare. Scimus autem et istam et omnem musicam figuram nativitatis suae
+        primordium sumpsisse de primitiva regularis monochordi dispositione. Cum autem hic videamus
+        collecta, quae ibi sunt dispersa, hic dispersa quae ibi sunt collecta, nonne ista figura
+        degenerat a sua genitrice, monochordi videlicet mensura?</p>
       <p xml:id="ARIMUS0013">De perversa Tetrachordorum. collectione.</p>
       <p xml:id="ARIMUS0014">In ista figura collectae sunt in unum locum omnes graves, in unum locum
         omnes finales, similiter in unum omnes superiores, omnes etiam excellentes, quod penitus non
@@ -129,7 +140,8 @@
       <p xml:id="ARIMUS0016">In ista figura disiunctae sunt quarta gravium; prima finalium, quarta
         superiorum, prima excellentium, quae in monochordi naturali structura unum et eundem obtinet
         locum, utpote in una et eadem littera.</p>
-      <p xml:id="ARIMUS0017">De acumine non naturali proti, et gravitate tetrardi non competenti.</p>
+      <p xml:id="ARIMUS0017">De acumine non naturali proti, et gravitate tetrardi non
+        competenti.</p>
       <p xml:id="ARIMUS0018">In hac eadem quadripartita figura protus est acutissimus, tetrardus
         gravissimus, quod quam contrarium sit naturae monochordi potest quivis etiam mediocriter his
         imbutus facillime contemplari.</p>
@@ -156,28 +168,28 @@
         divisiones troporum constituit, et naturale secundum monochordum gravitatis et acuminis
         eorum differentiam evidenter proponit.</p>
       <p xml:id="ARIMUS0025">De naturali capreae veritate et eiusdem mensurae magna facilitate.</p>
-      <p xml:id="ARIMUS0026">Haec cum tantam habeat naturae veritatem secundum antiquissimam monochordi
-        nativitatem, potest eam et hoc commendare uberius, quod simplex monochordi mensura fiat hac
-        parum celerius. Omnis tonus, omne semitonium, omne etiam synemmenon, omnis denique IIII.
-        troporum mensura est aequissime sibimet opposita; sed illius, quae mihi causa fuit huius,
-        tanta est in metiendo difficultas, tam inextricabilis perplexio, ut admodum dura sit eiusdem
-        textura.</p>
+      <p xml:id="ARIMUS0026">Haec cum tantam habeat naturae veritatem secundum antiquissimam
+        monochordi nativitatem, potest eam et hoc commendare uberius, quod simplex monochordi
+        mensura fiat hac parum celerius. Omnis tonus, omne semitonium, omne etiam synemmenon, omnis
+        denique IIII. troporum mensura est aequissime sibimet opposita; sed illius, quae mihi causa
+        fuit huius, tanta est in metiendo difficultas, tam inextricabilis perplexio, ut admodum dura
+        sit eiusdem textura.</p>
       <p xml:id="ARIMUS0027">Quare caprea tali nomine censeatur, et quid praesuli offeratur.</p>
-      <p xml:id="ARIMUS0028">Nostri theorematis novitatem propter eius mensurae celeritatem nuncupavi
-        capream: et quia velocius occurrebat cum venabar eam, voluntas enim Dei fuit ut cito
-        occurreret mihi quod volebam, eandem pater venerande capream vobis offero degustandam cordis
-        palato, ut siquid vobis in ea sapiat, benedicat mihi anima vestra.</p>
+      <p xml:id="ARIMUS0028">Nostri theorematis novitatem propter eius mensurae celeritatem
+        nuncupavi capream: et quia velocius occurrebat cum venabar eam, voluntas enim Dei fuit ut
+        cito occurreret mihi quod volebam, eandem pater venerande capream vobis offero degustandam
+        cordis palato, ut siquid vobis in ea sapiat, benedicat mihi anima vestra.</p>
       <p xml:id="ARIMUS0029">Quae sit in caprea commoditas.</p>
       <p xml:id="ARIMUS0030">Habetis in ea planam mensurandi facilitatem, naturae non redarguendam
         veritatem, quae omnia monochordi repraesentat legitima sicut decet. Nam de primitivo
         monochordo derivativam aliter quam monochordum velit componere figuram, hoc est iuxta pedem
         dextrum calceum formare sinistrum. Quod quomodo theoremate in nostro sit devitatum, vestro
         penitus sit iudicio reservatum.</p>
-      <p xml:id="ARIMUS0031">Quae causa sit contrarietatis inter monochordum et Quadripartitam figuram
-        modernorum.</p>
-      <p xml:id="ARIMUS0032">Causam autem contrarietatis inter illam quam moderni diligunt figuram et
-        monochordum, arbitror esse imo scio, quod dispositiones troporum ita varie incipiunt, ut I.
-        II. tono, II. III. tono, III. IIII. semitonio praecedat, cum potius in illis procurari
+      <p xml:id="ARIMUS0031">Quae causa sit contrarietatis inter monochordum et Quadripartitam
+        figuram modernorum.</p>
+      <p xml:id="ARIMUS0032">Causam autem contrarietatis inter illam quam moderni diligunt figuram
+        et monochordum, arbitror esse imo scio, quod dispositiones troporum ita varie incipiunt, ut
+        I. II. tono, II. III. tono, III. IIII. semitonio praecedat, cum potius in illis procurari
         deberet, quatenus primae <pb n="[200]"/>dispositionis gravis, id est A. secundae
         dispositionis gravem in B. tono praecederet; secundae dispositionis gravis, idem videlicet
         B. tertiae dispositionis gravem in C. semitonio praeiret: tertiae dispositionis gravis
@@ -185,12 +197,13 @@
         facillimum esset si ab uno principio ipsas mensurarum integritates inchoarent, aut a
         gravibus incipientes dictam diversitatem inceptionis observarent. Sed haec hactenus de
         caprea: Qua in vestrae gratiae scrutinio derelicta, tendimus ad alia.</p>
-      <p xml:id="ARIMUS0033">De hoc quod monochordum nec in disiuncta nec in coniuncta dividitur.</p>
-      <p xml:id="ARIMUS0034">Monochordum una diapason non esse contentum, triplex esse causa creditur.
-        Una quod simplicioribus curtum videretur, qui irreflexibili voce ad organalem ignorant
-        reverti gravitatem. Sicut equus indocilis rigidaeque cervicis non potest in arcto circinari
-        clipeo. Secunda quod vox acutior mulcet aures gratiosius, sicut etiam gracile corpus
-        blanditur oculis iocundius. Tertia quod ipsa naturalis chordae ac vocis possibilitas
+      <p xml:id="ARIMUS0033">De hoc quod monochordum nec in disiuncta nec in coniuncta
+        dividitur.</p>
+      <p xml:id="ARIMUS0034">Monochordum una diapason non esse contentum, triplex esse causa
+        creditur. Una quod simplicioribus curtum videretur, qui irreflexibili voce ad organalem
+        ignorant reverti gravitatem. Sicut equus indocilis rigidaeque cervicis non potest in arcto
+        circinari clipeo. Secunda quod vox acutior mulcet aures gratiosius, sicut etiam gracile
+        corpus blanditur oculis iocundius. Tertia quod ipsa naturalis chordae ac vocis possibilitas
         ulteriores spontanea petit metas. Sicut nonnumquam in amaena loca voluntate procedimus non
         necessitate.</p>
       <p xml:id="ARIMUS0035">Cur diapason tres non sint in monochordo.</p>
@@ -209,19 +222,21 @@
         obviaret importunitas, quoniam quidem ab A. in E. est diapente, et ibi sequitur semitonium
         faciens dissimilitudinem.</p>
       <p xml:id="ARIMUS0039">Tetrachorda quaedam esse primae quaedam secundae similitudinis.</p>
-      <p xml:id="ARIMUS0040">Tetrachordorum ergo quaedam primae, quaedam similitudinis sunt secundae.
-        Primae gravium, finalium, superiorum, excellentium, quia plena similitudine et intenduntur
-        et remittuntur tono, semitonio, tono. Quaedam sunt similitudinis secundae, hyperboleon,
-        diezeugmenon, meson, hypaton: quae quamvis invicem comparata nihil differant intensa et
-        remissa; quia unumquodque illorum intenditur semitonio, et ditono, remittitur autem ditono
-        et semitonio: ipsa tamen <pb n="[201]"/>intensio et remissio dissimilis est. Quae in
-        prioribus est simillima, quia sicut tono, semitonio, tono, intenduntur, ita et
+      <p xml:id="ARIMUS0040">Tetrachordorum ergo quaedam primae, quaedam similitudinis sunt
+        secundae. Primae gravium, finalium, superiorum, excellentium, quia plena similitudine et
+        intenduntur et remittuntur tono, semitonio, tono. Quaedam sunt similitudinis secundae,
+        hyperboleon, diezeugmenon, meson, hypaton: quae quamvis invicem comparata nihil differant
+        intensa et remissa; quia unumquodque illorum intenditur semitonio, et ditono, remittitur
+        autem ditono et semitonio: ipsa tamen <pb n="[201]"/>intensio et remissio dissimilis est.
+        Quae in prioribus est simillima, quia sicut tono, semitonio, tono, intenduntur, ita et
         remittuntur.</p>
       <p xml:id="ARIMUS0041">De similitudine Neumarum.</p>
-      <p xml:id="ARIMUS0042">Similitudo tetrachordorum similitudini servit neumarum: quia eadem neuma,
-        quae intenditur ab A. in D. intenditur a D. in G. quae remittitur a G. in D. remittitur
-        etiam a D. in A. sic etiam in caeteris, ut facillime potest perpendere quivis.</p>
-      <p xml:id="ARIMUS0043">De hoc quod Monochordum nec in disiuncta, nec in coniuncta dividitur.</p>
+      <p xml:id="ARIMUS0042">Similitudo tetrachordorum similitudini servit neumarum: quia eadem
+        neuma, quae intenditur ab A. in D. intenditur a D. in G. quae remittitur a G. in D.
+        remittitur etiam a D. in A. sic etiam in caeteris, ut facillime potest perpendere
+        quivis.</p>
+      <p xml:id="ARIMUS0043">De hoc quod Monochordum nec in disiuncta, nec in coniuncta
+        dividitur.</p>
       <p xml:id="ARIMUS0044">Monochordum non esse divisum vel in penitus coniuncta vel in penitus
         disiuncta tetrachorda, haec est ratio: quod praedicta tunc cessaret similitudo. Si enim
         inciperet tetrachordum superiorum in G. ubi desinit finalium, similitudo deficeret: quia
@@ -232,28 +247,28 @@
       <p xml:id="ARIMUS0046">Priori patet ratione quod tetrachorda diezeugmenon et synemmenon sint
         necessaria. Si enim aut coniunctio aut disiunctio tetrachordorum esset penitus, et
         similitudo periret, et creber in cantu defectus occurreret.</p>
-      <p xml:id="ARIMUS0047">De hoc quod quaelibet chorda superius et inferius quartam et quintam velint
-        habere propter diatessaron et diapente quae multum dominantur in cantu.</p>
+      <p xml:id="ARIMUS0047">De hoc quod quaelibet chorda superius et inferius quartam et quintam
+        velint habere propter diatessaron et diapente quae multum dominantur in cantu.</p>
       <p xml:id="ARIMUS0048">Propter diatessaron et diapente, quae in cantilenis pollent praecipue,
         desiderat unaquaeque chorda vel littera quartam quintamque supra vel infra habere.
         Quapropter F. et f. admodum indigent synemmenon, ut gravis supra quartam, acuta infra habeat
         quintam ad se resultantem per diapente.</p>
       <p xml:id="ARIMUS0049">De communione Tetrachordorum.</p>
-      <p xml:id="ARIMUS0050">Eadem intensio et remissio omnibus est illis tetrachordis, quae ascendunt,
-        id est gravium, finalium, superiorum, excellentium. Omnibus autem descendentibus id est
-        hyperboleon, diezeugmenon, meson, hypaton eadem est intensio, eadem quoque remissio, quamvis
-        ascensus sit dissimilis et descensus, quia ascensus est semitonio, ditono, descensus ditono,
-        semitonio.</p>
+      <p xml:id="ARIMUS0050">Eadem intensio et remissio omnibus est illis tetrachordis, quae
+        ascendunt, id est gravium, finalium, superiorum, excellentium. Omnibus autem descendentibus
+        id est hyperboleon, diezeugmenon, meson, hypaton eadem est intensio, eadem quoque remissio,
+        quamvis ascensus sit dissimilis et descensus, quia ascensus est semitonio, ditono, descensus
+        ditono, semitonio.</p>
       <p xml:id="ARIMUS0051">De differentia tetrachordorum ascendentium et descendentium.</p>
-      <p xml:id="ARIMUS0052">Qualiter autem eadem differant tetrachorda, si vacat, et placiti rationem
-        admittitis, edam. Differunt nomine, quod est planum, differunt qualitate, quod debet
-        explanari, quia latine nuncupata potius sunt constitutiva specierum trium symphoniarum,
-        diatessaron, diapente, diapason, quam graece vocata. Differunt specie, quia haec in medio,
-        illa semitonium habent in extremo.</p>
+      <p xml:id="ARIMUS0052">Qualiter autem eadem differant tetrachorda, si vacat, et placiti
+        rationem admittitis, edam. Differunt nomine, quod est planum, differunt qualitate, quod
+        debet explanari, quia latine nuncupata potius sunt constitutiva specierum trium
+        symphoniarum, diatessaron, diapente, diapason, quam graece vocata. Differunt specie, quia
+        haec in medio, illa semitonium habent in extremo.</p>
       <p xml:id="ARIMUS0053">
         <pb n="[202]"/>De quibus litteris et chordis unumquodque tetrachordum consistat.</p>
-      <p xml:id="ARIMUS0054">Tetrachordum gravium secundum Guidonem constat A. B. C. D. quod idem iuxta
-        Boetium est proslambanomenos, hypate hypaton, parypate hypaton, lichanos hypaton.
+      <p xml:id="ARIMUS0054">Tetrachordum gravium secundum Guidonem constat A. B. C. D. quod idem
+        iuxta Boetium est proslambanomenos, hypate hypaton, parypate hypaton, lichanos hypaton.
         Tetrachordum finalium est Guidonice D. E. F. G. hoc ipsum est in Boetio lichanos hypaton,
         hypate meson, parypate meson, lichanos meson. Tetrachordum superiorum iuxta modernos est a.
         [sqb]. c. d. Idem est Boetii mese, paramese, trite diezeugmenon, paranete diezeugmenon.
@@ -272,14 +287,14 @@
         finales, idipsum fiat inter superiores et excellentes: quia sicut eaedem superiores quae
         graves, ita sunt eaedem excellentes, quae finales.</p>
       <p xml:id="ARIMUS0057">Quod diatessaron et diapente inter diversa constent tetrachorda.</p>
-      <p xml:id="ARIMUS0058">Omnes ergo IIII. diapente species ita inter finales constant et superiores,
-        sicut omnes diatessaron, aut inter graves et finales, aut inter superiores consistunt et
-        excellentes, eodemque ordine disponentis naturae ut I. de primis, et quaelibet species de
-        sui nominis constet chordis ac literis.</p>
+      <p xml:id="ARIMUS0058">Omnes ergo IIII. diapente species ita inter finales constant et
+        superiores, sicut omnes diatessaron, aut inter graves et finales, aut inter superiores
+        consistunt et excellentes, eodemque ordine disponentis naturae ut I. de primis, et quaelibet
+        species de sui nominis constet chordis ac literis.</p>
       <p xml:id="ARIMUS0059">Quod in locis diatessaron diapente non inveniatur, nec diatessaron in
         sedibus diapente.</p>
-      <p xml:id="ARIMUS0060">Admodum naturale esse generationem specierum inter graves ac finales, et
-        inter superiores ac excellentes; diapente autem specierum inter finales et superiores
+      <p xml:id="ARIMUS0060">Admodum naturale esse generationem specierum inter graves ac finales,
+        et inter superiores ac excellentes; diapente autem specierum inter finales et superiores
         naturalem esse ortum, ex hoc potest perpendi: quod nec naturaliter inter graves et finales,
         aut superiores et excellentes diapente procedunt species, ubi diatessaron naturales habent
         sedes, nec inter finales et superiores inveniuntur naturales diatessaron sedes, sicut
@@ -287,19 +302,19 @@
         sui nominis literis consistentes, ut I. de primis, et caetera.</p>
       <p xml:id="ARIMUS0061">
         <pb n="[203]"/>De formalibus Speciebus.</p>
-      <p xml:id="ARIMUS0062">De formalibus tempestivum est dicere speciebus. Formales sunt dicendae quae
-        formam habent non naturam, sicut est a D. in G. forma est primae speciei diatessaron habens
-        semitonium in medio. Sed quia non inter duas constat primas, sed inter primam et quartam,
-        dicenda est prima formalis, non prima naturalis. Naturalis autem est prima, quae non solum
-        in medio habet semitonium, sed inter duas primas consistit, ut illa quae est inter A. et D.
-        quarum altera prima est gravium, altera finalium. Sic species diapente inter A. et E. prima
-        est formalis non naturalis, quia licet ut prima naturalis scandat tono, semitonio, tono, et
-        tono, non tamen inter duas primas, sed inter primam constat ac secundam, sicut illa quae est
-        inter D. finalem et A. superiorem.</p>
+      <p xml:id="ARIMUS0062">De formalibus tempestivum est dicere speciebus. Formales sunt dicendae
+        quae formam habent non naturam, sicut est a D. in G. forma est primae speciei diatessaron
+        habens semitonium in medio. Sed quia non inter duas constat primas, sed inter primam et
+        quartam, dicenda est prima formalis, non prima naturalis. Naturalis autem est prima, quae
+        non solum in medio habet semitonium, sed inter duas primas consistit, ut illa quae est inter
+        A. et D. quarum altera prima est gravium, altera finalium. Sic species diapente inter A. et
+        E. prima est formalis non naturalis, quia licet ut prima naturalis scandat tono, semitonio,
+        tono, et tono, non tamen inter duas primas, sed inter primam constat ac secundam, sicut illa
+        quae est inter D. finalem et A. superiorem.</p>
       <p xml:id="ARIMUS0063">Quod principales chordae dicantur quae constitutivae sunt troporum.</p>
-      <p xml:id="ARIMUS0064">Principales chordae dicuntur quae in troporum dispositionibus principatum
-        sortiuntur, sicut in autento proto principales sunt istae: prima finalium, prima superiorum,
-        prima excellentium. Finalis est merito principalis in primis: quia si secundum
+      <p xml:id="ARIMUS0064">Principales chordae dicuntur quae in troporum dispositionibus
+        principatum sortiuntur, sicut in autento proto principales sunt istae: prima finalium, prima
+        superiorum, prima excellentium. Finalis est merito principalis in primis: quia si secundum
         convenientiam, quam ipsa praedocet, cantum incipimus, et usque ad finem procedere non
         possumus, ostendit illum esse aut vitiosum, aut iuxta alium modum gubernandum. Quidam
         cantant illam antiphonam Alliga Domine in vinculis, secundum finalis convenientiam
@@ -314,14 +329,15 @@
         fines conversantur in illa, aut aliqua musica proportione distant ab illa, id est aut tono
         vel semitonio, sive semiditono, seu ditono, aut diatessaron, diapenteve. Principalis est
         merito, cum omnis cantilenae finis et requies sit in eius hospicio.</p>
-      <p xml:id="ARIMUS0065">Superiores chordae ideo principalitatis dignantur nomine, quia principales
-        autentorum partes diapente videlicet ac diatessaron medietatis vinculo copulant: et quod ad
-        eas nonnumquam pertingant neumae principales, principia dico distinctionum ac fines, ac
-        tonorum differentiae. Excellentes iure sunt principales, quae ita dominantur autentis, ut in
-        ipsis sit ascensionis eorum finis.</p>
+      <p xml:id="ARIMUS0065">Superiores chordae ideo principalitatis dignantur nomine, quia
+        principales autentorum partes diapente videlicet ac diatessaron medietatis vinculo copulant:
+        et quod ad eas nonnumquam pertingant neumae principales, principia dico distinctionum ac
+        fines, ac tonorum differentiae. Excellentes iure sunt principales, quae ita dominantur
+        autentis, ut in ipsis sit ascensionis eorum finis.</p>
       <p xml:id="ARIMUS0066">Quae chordae sint principales in cantibus plagalibus.</p>
-      <p xml:id="ARIMUS0067">In plagalibus quoque eadem ratione dicuntur principales graves, finales,
-        superiores. <pb n="[204]"/>Quapropter non difficile inde huc similitudinem transferre.</p>
+      <p xml:id="ARIMUS0067">In plagalibus quoque eadem ratione dicuntur principales graves,
+        finales, superiores. <pb n="[204]"/>Quapropter non difficile inde huc similitudinem
+        transferre.</p>
       <p xml:id="ARIMUS0068">Quod principalitas chordarum discernenda sit.</p>
       <p xml:id="ARIMUS0069">Principalitas chordarum accipi discretive debet, non ubivis illa
         principalitas sed in sua specie consideretur. Sicut prima gravium, prima finalium, prima
@@ -333,8 +349,8 @@
         constitutivae sunt III. et IIII. gravium, finalium, superiorum, tertiae et quartae speciei
         plagalium troporum, id est sexti et octavi toni.</p>
       <p xml:id="ARIMUS0070">De autenticis protis.</p>
-      <p xml:id="ARIMUS0071">Prima finalium, prima superiorum, prima excellentium sunt principales in
-        prima specie autentorum cantuum, id est in primo tono quem principaliter constituunt:
+      <p xml:id="ARIMUS0071">Prima finalium, prima superiorum, prima excellentium sunt principales
+        in prima specie autentorum cantuum, id est in primo tono quem principaliter constituunt:
         secunda finalium, secunda superiorum, secunda excellentium, principales sunt in secunda
         autentica specie diapason, id est in tertio tono cuius principaliter sunt constitutivae: sic
         de tertiis tertia autentica diapason constituitur, quarta de quartis.</p>
@@ -356,14 +372,14 @@
         Hoc dico propterea, quia tonus, qui est ab a. in [sqb]. cum illo tono qui est a b. in c.
         participat spacium, quod est a b. in [sqb]. quod est maius toni spacium, quod apotome
         dicitur, quia</p>
-      <p xml:id="ARIMUS0074">[GSII:post204; text: Dispositio plagis eius chorus matronalis. Dispositio
-        autentici proti chorus virilis. V Chordae communes utrique. sociales finales sunt A per
-        diatessaron, et a superius per diapente. Principia et fines. A, B, C, D, E, F, G, a, [sqb],
-        c, d, e, f, g, Dispositio autentici deutri chorus virilis. sociales finales sunt B inferius
-        per diatessaron, [sqb] superius per diapente. Dispositio autentici triti chorus virilis.
-        sociales finales sunt C inferius per diatessaron, c superius per diapente. Dispositio
-        autentici tetrardi chorus virilis. sociales finales sunt D inferius per diatessaron, d
-        superius per diapente.] <figure>
+      <p xml:id="ARIMUS0074">[GSII:post204; text: Dispositio plagis eius chorus matronalis.
+        Dispositio autentici proti chorus virilis. V Chordae communes utrique. sociales finales sunt
+        A per diatessaron, et a superius per diapente. Principia et fines. A, B, C, D, E, F, G, a,
+        [sqb], c, d, e, f, g, Dispositio autentici deutri chorus virilis. sociales finales sunt B
+        inferius per diatessaron, [sqb] superius per diapente. Dispositio autentici triti chorus
+        virilis. sociales finales sunt C inferius per diatessaron, c superius per diapente.
+        Dispositio autentici tetrardi chorus virilis. sociales finales sunt D inferius per
+        diatessaron, d superius per diapente.] <figure>
           <graphic url="/images/ARIMUS_01GF.gif"/>
         </figure></p>
       <p xml:id="ARIMUS0075">
@@ -393,37 +409,37 @@
         quintam, cum etiam raro mittat ad quartam.</p>
       <p xml:id="ARIMUS0085">Vide Figuram A. [cf. <a href="ARIMUS_01GF.gif">ARIMUS 01GF</a>]</p>
       <p xml:id="ARIMUS0086">Iterum differentia Tetrachordorum.</p>
-      <p xml:id="ARIMUS0087">Tetrachordorum quoque differentia est nonnulla, quia tetrachordorum gravium
-        et superiorum claves sunt plagalium, tetrachordum finalium et excellentium claves sunt
-        autentorum. Et medietatis vicem obtinent finales et superiores: finales plagalium,
+      <p xml:id="ARIMUS0087">Tetrachordorum quoque differentia est nonnulla, quia tetrachordorum
+        gravium et superiorum claves sunt plagalium, tetrachordum finalium et excellentium claves
+        sunt autentorum. Et medietatis vicem obtinent finales et superiores: finales plagalium,
         superiores autenticorum diatessaron et diapente convincientes, ex hisque diapason
         componentes.</p>
       <p xml:id="ARIMUS0088">Quomodo tetrachordum gravium mystice pertineat ad Matthaeum et ad
         humanitatem Christi.</p>
-      <p xml:id="ARIMUS0089">Tetrachordum gravium typice congruit salvatoris humanitati quam Matthaeus
-        describit, in qua Christus gravia quaeque sustinuit, esuriendo sub infructuosa ficulnea,
-        sitiendo et lassescendo super puteum, vulpibus pauperior ac volucribus foveas ac nidos
-        habentibus, cum non haberet, ubi caput suum reclinaret.</p>
+      <p xml:id="ARIMUS0089">Tetrachordum gravium typice congruit salvatoris humanitati quam
+        Matthaeus describit, in qua Christus gravia quaeque sustinuit, esuriendo sub infructuosa
+        ficulnea, sitiendo et lassescendo super puteum, vulpibus pauperior ac volucribus foveas ac
+        nidos habentibus, cum non haberet, ubi caput suum reclinaret.</p>
       <p xml:id="ARIMUS0090">
         <pb n="[206]"/>Quomodo tetrachordum finalium Salvatoris passioni congruat et morti.</p>
-      <p xml:id="ARIMUS0091">Tetrachordum finalium vitalem Christi mortem significat: cum non solum ipse
-        ad tempus vitam finivit, sed etiam ad finem tetenderunt templi velum, soliditas petrarum,
-        solis claritas, terrae stabilitas.</p>
+      <p xml:id="ARIMUS0091">Tetrachordum finalium vitalem Christi mortem significat: cum non solum
+        ipse ad tempus vitam finivit, sed etiam ad finem tetenderunt templi velum, soliditas
+        petrarum, solis claritas, terrae stabilitas.</p>
       <p xml:id="ARIMUS0092">Quomodo Tetrachordum superiorum Christi significet resurrectionem.</p>
-      <p xml:id="ARIMUS0093">Tetrachordum superiorum Christi gloriosam designat resurrectionem: in qua
-        ad huius vitae superiora remeavit, nobisque vitae supernae hereditatem delegavit.</p>
+      <p xml:id="ARIMUS0093">Tetrachordum superiorum Christi gloriosam designat resurrectionem: in
+        qua ad huius vitae superiora remeavit, nobisque vitae supernae hereditatem delegavit.</p>
       <p xml:id="ARIMUS0094">Quomodo Tetrachordum excellentium Christi significet Ascensionem.</p>
-      <p xml:id="ARIMUS0095">Tetrachordum excellentium typice iubilat excellentiam ascensionis Christi,
-        in qua ascendit Deus in iubilatione et Dominus in voce tubae ostendens se excellentissimum
-        esse.</p>
+      <p xml:id="ARIMUS0095">Tetrachordum excellentium typice iubilat excellentiam ascensionis
+        Christi, in qua ascendit Deus in iubilatione et Dominus in voce tubae ostendens se
+        excellentissimum esse.</p>
       <p xml:id="ARIMUS0096">Quod duo tetrachorda ad humilitatem, duo ad Christi pertineant
         Celsitudinem.</p>
-      <p xml:id="ARIMUS0097">Quorum tetrachordorum duo id est gravium et finalium sicut sunt humilia,
-        ita humilitatem Christi quae fuit in humanitate et passione designant: duo excelsa id est
-        superiorum et excellentium celsitudinem Salvatoris, quae in resurrectione et ascensione
-        patuit, declarant.</p>
-      <p xml:id="ARIMUS0098">Item de discordia tetrachordorum, et quod quaedam incipiant quaedam species
-        finiant.</p>
+      <p xml:id="ARIMUS0097">Quorum tetrachordorum duo id est gravium et finalium sicut sunt
+        humilia, ita humilitatem Christi quae fuit in humanitate et passione designant: duo excelsa
+        id est superiorum et excellentium celsitudinem Salvatoris, quae in resurrectione et
+        ascensione patuit, declarant.</p>
+      <p xml:id="ARIMUS0098">Item de discordia tetrachordorum, et quod quaedam incipiant quaedam
+        species finiant.</p>
       <p xml:id="ARIMUS0099">Discordant tetrachorda quoniam quoddam est specierum diatessaron et
         diapente inceptivum non finitivum, ut gravium; quoddam diffinitivum non inceptivum, ut
         excellentium. Quaedam et inchoativa et determinantia, ut finalium et superiorum: quia
@@ -432,9 +448,9 @@
         incipiat seu terminet, sive faciat utrumque inter primas prima, secundas secunda, tertias
         tertia, et inter quartas quarta sit species vel diatessaron seu diapente.</p>
       <p xml:id="ARIMUS0100">Quomodo graves sui nominis species diatessaron incipiant.</p>
-      <p xml:id="ARIMUS0101">Prima gravium incipit primam speciem diatessaron, secunda secundam, tertia
-        tertiam, quarta gravium id est D. quae biformis est, quartam speciem diatessaron incipit,
-        quae et finit primam, secundum quod prima finalis est.</p>
+      <p xml:id="ARIMUS0101">Prima gravium incipit primam speciem diatessaron, secunda secundam,
+        tertia tertiam, quarta gravium id est D. quae biformis est, quartam speciem diatessaron
+        incipit, quae et finit primam, secundum quod prima finalis est.</p>
       <p xml:id="ARIMUS0102">Quomodo finales finiant et incipiant species.</p>
       <p xml:id="ARIMUS0103">Prima finalis idem videlicet D. finit primam diatessaron, sed incipit
         primam diapente speciem, E. secunda finalium, secundam diatessaron, et diapente speciem
@@ -444,13 +460,13 @@
       <p xml:id="ARIMUS0105">E contrario prima superiorum id est, A. primam finit speciem diapente,
         incipit <pb n="[207]"/>primam diatessaron, quam finit prima excellentium.</p>
       <p xml:id="ARIMUS0106">Oppositio Tetrachordi.</p>
-      <p xml:id="ARIMUS0107">Opposita sunt tetrachorda finalium et excellentium tetrachordo gravium et
-        superiorum. Nam ista omnes diatessaron incipiunt, illa finiunt, sed etiam media opponuntur,
-        id est finalium et superiorum, quia omnes diapente species incipiunt finales, finiunt
-        superiores. Opposita quoque sunt ultima sicut media tetrachorda: quia gravium solummodo
-        omnes diatessaron species incipit, excellentium easdem tantum finit. Finalium omnes diapente
-        species incipit, superiorum finit. Finalium omnes diatessaron species finit, superiorum
-        incipit.</p>
+      <p xml:id="ARIMUS0107">Opposita sunt tetrachorda finalium et excellentium tetrachordo gravium
+        et superiorum. Nam ista omnes diatessaron incipiunt, illa finiunt, sed etiam media
+        opponuntur, id est finalium et superiorum, quia omnes diapente species incipiunt finales,
+        finiunt superiores. Opposita quoque sunt ultima sicut media tetrachorda: quia gravium
+        solummodo omnes diatessaron species incipit, excellentium easdem tantum finit. Finalium
+        omnes diapente species incipit, superiorum finit. Finalium omnes diatessaron species finit,
+        superiorum incipit.</p>
       <p xml:id="ARIMUS0108">Quod tria sint in inchoando, tria in determinando, duo in utroque.</p>
       <p xml:id="ARIMUS0109">Tria sunt in inchoando similia, gravium, finalium, superiorum, tria in
         determinando, finalium, superiorum, et excellentium; duo in utroque, finalium, superiorum
@@ -462,8 +478,8 @@
         eodem modo remittitur a G. in D. secunda intenditur a B. in E. semitonio, ditono, tertia
         remittitur ab F. in C. semitonio, ditono.</p>
       <p xml:id="ARIMUS0112">De oppositis diapente speciebus.</p>
-      <p xml:id="ARIMUS0113">Prima species diapente ascendit tono, semitonio, ditono a D. finali in a.
-        superius. Quarta descendit tono, semitonio, ditono a D. superiori in G. finalem. Secunda
+      <p xml:id="ARIMUS0113">Prima species diapente ascendit tono, semitonio, ditono a D. finali in
+        a. superius. Quarta descendit tono, semitonio, ditono a D. superiori in G. finalem. Secunda
         suspenditur ab E. finali in [sqb]. b. superius, semitonio tritono. Tertia deponitur
         semitonio, tritono a c. superiori in F. finalem.</p>
       <p xml:id="ARIMUS0114">Quod oppositio specierum ad similitudinem fiat Metricorum pedum.</p>
@@ -490,9 +506,9 @@
         finalium E. Tertia species diatessaron incipit a tertia gravium C. desinit in tertia
         finalium F. Quarta species diatessaron incipit et desinit a quarta et in quarta D. G.</p>
       <p xml:id="ARIMUS0122">Quod similiter incipiant et finiant omnes diapente species.</p>
-      <p xml:id="ARIMUS0123">Eodem modo species diapente inchoant et expliciunt. Prima a prima finalium,
-        et in primam superiorum D. A. secunda a secunda et in secundam E. [sqb]. Tertia a tertiis,
-        quarta constat a quartis E. c. G. d.</p>
+      <p xml:id="ARIMUS0123">Eodem modo species diapente inchoant et expliciunt. Prima a prima
+        finalium, et in primam superiorum D. A. secunda a secunda et in secundam E. [sqb]. Tertia a
+        tertiis, quarta constat a quartis E. c. G. d.</p>
       <p xml:id="ARIMUS0124">Quod ad eumdem modum species diapason incipiant et finiant omnes.</p>
       <p xml:id="ARIMUS0125">Prima species diapason constat a prima gravium, prima finalium, prima
         superiorum: ita ut gravis et superior legitimi sint ascensus, descensusque claves, finalis
@@ -500,8 +516,8 @@
         secunda species diapason, secunda gravium, secunda superiorum clauditur. B. [sqb]. et
         secunda finalium E. vinculatur. Tertia tertiis, quarta quartis et clauditur, et dimidiatur
         C. F. c. D. G. d.</p>
-      <p xml:id="ARIMUS0126">Quod eodem modo ab aliis speciebus consistant autenticae species sicut a
-        praelibatis speciebus subiugales.</p>
+      <p xml:id="ARIMUS0126">Quod eodem modo ab aliis speciebus consistant autenticae species sicut
+        a praelibatis speciebus subiugales.</p>
       <p xml:id="ARIMUS0127">Sicut istae quatuor species diapason, id est quatuor plagarum constant
         gravibus et superioribus, dimidiantur autem finalibus, prima primis, secunda secundis,
         tertia tertiis, quarta quartis; sic quatuor sequentes ad autenticos pertinentes clauduntur
@@ -511,23 +527,24 @@
         venatrices mentes investigare concessit.</p>
       <p xml:id="ARIMUS0128">Utrum sint VII. vel octo discrimina vocum, cum synemmenon videatur
         octavum.</p>
-      <p xml:id="ARIMUS0129">Synemmenon octavum vocis discrimen non facit, quia nunquam b. molle atque
-        quadratum in unam conveniunt neumam. Cum omne discrimen vocis fiat <pb n="[209]"/>aut tono
-        vel semitonio, seu ex his compositis consonantiis, et inter b. et [sqb]. nulla sit
+      <p xml:id="ARIMUS0129">Synemmenon octavum vocis discrimen non facit, quia nunquam b. molle
+        atque quadratum in unam conveniunt neumam. Cum omne discrimen vocis fiat <pb n="[209]"/>aut
+        tono vel semitonio, seu ex his compositis consonantiis, et inter b. et [sqb]. nulla sit
         consonantia, patet profecto quod illae duae litterae sint pro uno discrimine. Illarum
         litterarum neumae nunquam in unum conveniunt, sicut libra et aries pariter non videntur.
         Consurgens aries libram, libra vellera mergit.</p>
-      <p xml:id="ARIMUS0130">Quod divisio monochordi fiat aut per quantitatem aut per qualitatem.</p>
-      <p xml:id="ARIMUS0131">Monochordi divisio fit bipartito. Cum enim dico totum monochordum in duas
-        dividi diapason vel duobus passibus fieri diapason, tribus diapente, quatuor diatessaron,
-        tonum novem, quantitatis est et numeri ad mensuram pertinens monochordi. Cum autem
-        tetrachorda quaedam dico intendi per tonum, semitonium, tonum, quaedam vero remitti per
-        ditonum et semitonium, designo qualitatem ad melodiam pertinentem, quasi dicerem: Cum
+      <p xml:id="ARIMUS0130">Quod divisio monochordi fiat aut per quantitatem aut per
+        qualitatem.</p>
+      <p xml:id="ARIMUS0131">Monochordi divisio fit bipartito. Cum enim dico totum monochordum in
+        duas dividi diapason vel duobus passibus fieri diapason, tribus diapente, quatuor
+        diatessaron, tonum novem, quantitatis est et numeri ad mensuram pertinens monochordi. Cum
+        autem tetrachorda quaedam dico intendi per tonum, semitonium, tonum, quaedam vero remitti
+        per ditonum et semitonium, designo qualitatem ad melodiam pertinentem, quasi dicerem: Cum
         tetrachordum gravium, finalium, superiorum, excellentium, intendatur et remittatur per
         tonum, semitonium, tonum, potes quamlibet neumam susum iusumque resultare: sic et de illis
         quae descendunt perpendas tetrachordis.</p>
-      <p xml:id="ARIMUS0132">Utrum idem modus qui dicitur Dorius dicendus sit hypomixolidius propter D.
-        d. quod est biforme.</p>
+      <p xml:id="ARIMUS0132">Utrum idem modus qui dicitur Dorius dicendus sit hypomixolidius propter
+        D. d. quod est biforme.</p>
       <p xml:id="ARIMUS0133">Antiquitus erant quatuor tantum naturales tropi. Quare autem quatuor
         naturales dicam tropos, quaestionis scrutinio dignum est. Cum quis autenticus adiuncto sibi
         suo subiugali constet prima gravium, prima finalium, prima superiorum, prima excellentium,
@@ -540,11 +557,11 @@
         divideretur, quorum uterque integra tantum diapason esset contentus, ut quilibet sibi
         subiunctum suum posset aequiparare discursum, sicut nonnunquam propter infirmiorem comitis
         caballum vicinius petimus diversorium.</p>
-      <p xml:id="ARIMUS0134">De hoc quod quadripartita figura et caprea sint imitatrices antiquitatis
-        troporum.</p>
-      <p xml:id="ARIMUS0135">Quatuor troporum naturalis antiquitas in quadripartita modernorum figura et
-        in nostra patet caprea. Divisionem autem eorum nostra circularis repraesentat figura, quam
-        de virilibus femineisque choreis compinximus.</p>
+      <p xml:id="ARIMUS0134">De hoc quod quadripartita figura et caprea sint imitatrices
+        antiquitatis troporum.</p>
+      <p xml:id="ARIMUS0135">Quatuor troporum naturalis antiquitas in quadripartita modernorum
+        figura et in nostra patet caprea. Divisionem autem eorum nostra circularis repraesentat
+        figura, quam de virilibus femineisque choreis compinximus.</p>
       <p xml:id="ARIMUS0136">De hoc quod quatuor tropi dividuntur in octo.</p>
       <p xml:id="ARIMUS0137">Maiores nostri perpendentes quemlibet tropum adhuc indivisum quatuor
         principalibus ita chordis consistere, ut altrinsecus collatae duas diapason species possent
@@ -570,14 +587,16 @@
         litterae potentes naturaliter tam plagalem quam autenticam constituere speciem. Unde ille
         biformis modus propter antiquorum non acquisivit suae subiugali naturae debitum nomen, ut
         diceretur hypomixolidius, id est, mixolidii septimi videlicet toni subiectus.</p>
-      <p xml:id="ARIMUS0139">Quomodo iuniores eiusdem modi geminam intellexerint vim atque naturam.</p>
-      <p xml:id="ARIMUS0140">Solertius autem praelibati modi naturam et efficaciam iuniores intuentes
-        plagales sibi formulas vel differentias attribuerunt. Octo sunt beatitudines. Seculorum
-        amen. In illa die et caeteras. Seculorum amen. Dum medium silentium.</p>
-      <p xml:id="ARIMUS0141">Quod sanctus Gregorius eiusdem modi duplicem perspexerit operationem.</p>
-      <p xml:id="ARIMUS0142">Patet admodum, beatum Gregorium totius pene ecclesiastici cantus auctorem
-        duplicem eius cognovisse operationem, qui in autento non potius autenticas, quam plagales
-        diligit odas. Cum autem aureo ipsius et sancti Ambrosii plagalis esse comprobetur
+      <p xml:id="ARIMUS0139">Quomodo iuniores eiusdem modi geminam intellexerint vim atque
+        naturam.</p>
+      <p xml:id="ARIMUS0140">Solertius autem praelibati modi naturam et efficaciam iuniores
+        intuentes plagales sibi formulas vel differentias attribuerunt. Octo sunt beatitudines.
+        Seculorum amen. In illa die et caeteras. Seculorum amen. Dum medium silentium.</p>
+      <p xml:id="ARIMUS0141">Quod sanctus Gregorius eiusdem modi duplicem perspexerit
+        operationem.</p>
+      <p xml:id="ARIMUS0142">Patet admodum, beatum Gregorium totius pene ecclesiastici cantus
+        auctorem duplicem eius cognovisse operationem, qui in autento non potius autenticas, quam
+        plagales diligit odas. Cum autem aureo ipsius et sancti Ambrosii plagalis esse comprobetur
         testimonio, quid nobis est dubitandum, quin, ut est, dicamus illum non solum dorium sed
         hypomixolidium?</p>
       <p xml:id="ARIMUS0143">Quod idem modus habeat materiam plagalis.</p>
@@ -605,9 +624,9 @@
         semitonus iambicus ascendat, non descendat, nisi si duo semitoni convinculentur: quia tunc
         uterque semitonus, et trochaeicus et iambicus intendentur, remittenturque convenientius.</p>
       <p xml:id="ARIMUS0149">De distinctionibus cantuum, et cur finales dicantur ac superiores.</p>
-      <p xml:id="ARIMUS0150">Quamvis principia, praesertim tamen fines distinctionum sunt considerandi,
-        qui praecipue debent finales repetere, ut domnus Guido dogmatizat dicens: Item ut ad
-        principalem vocem, id est, finalem pene omnes distinctiones currant, hoc tamen rarius
+      <p xml:id="ARIMUS0150">Quamvis principia, praesertim tamen fines distinctionum sunt
+        considerandi, qui praecipue debent finales repetere, ut domnus Guido dogmatizat dicens: Item
+        ut ad principalem vocem, id est, finalem pene omnes distinctiones currant, hoc tamen rarius
         invenitur, quam crebrius. Invenitur in hac antiphona Nativitas tua Dei genitrix virgo.
         Gaudium annuntiavit universo mundo. Ex te enim ortus est sol iustitiae Christus Deus noster.
         Et confundens mortem donavit nobis vitam sempiternam.</p>
@@ -625,11 +644,11 @@
       <p xml:id="ARIMUS0153">Praemissis modulationi utilitatibus cum domno Guidone nobis communibus,
         quia sua non solum verba exposuimus, sed etiam commodiores motuum species, quas ipse penitus
         reticuit, proposuimus, ad singularia dona iubilandi nobis divinitus concessa veniamus.</p>
-      <p xml:id="ARIMUS0154">Solum protum autentum sumamus nobis in exemplum, ut modulandi commoditatem
-        in aliis modis reperire non desperemus, quam in huius experiamur speciebus.</p>
-      <p xml:id="ARIMUS0155">Protus autentus, id est, primus tonus V. species diatessaron includit, unam
-        primam formalem, unam secundam formalem, unam tertiam naturalem, unam tertiam formalem, unam
-        primam naturalem. Quarum V. unaquaeque tres habet mutationes, saltatricem continuam vel
+      <p xml:id="ARIMUS0154">Solum protum autentum sumamus nobis in exemplum, ut modulandi
+        commoditatem in aliis modis reperire non desperemus, quam in huius experiamur speciebus.</p>
+      <p xml:id="ARIMUS0155">Protus autentus, id est, primus tonus V. species diatessaron includit,
+        unam primam formalem, unam secundam formalem, unam tertiam naturalem, unam tertiam formalem,
+        unam primam naturalem. Quarum V. unaquaeque tres habet mutationes, saltatricem continuam vel
         spissam, ternariam. Saltatrix duas ultimas tangit chordas, continua cunctas, ternaria tres.
         Saltatrix et spissa duplices sunt intendendo et remittendo. Ternaria quadrupla, utpote
         duplex intendendo, duplex remittendo, quia quinque species sunt diatessaron, quarum
@@ -657,13 +676,13 @@
         utpote duabus de unaquaque et insimul collectis XXVIII. de LXXX. abiiciemus et remanebunt
         LII. habiles cantilenas comminiscentibus et opportunae.</p>
       <p xml:id="ARIMUS0156">De varia Oppositione Neumarum.</p>
-      <p xml:id="ARIMUS0157">Interdum saltatrix contra saltatricem, spissa contra spissam, quaternaria
-        contra quaternariam, et caeterae aequivocales sunt constituendae, interdum variandae, ut
-        spissa contra saltatricem, vel quaternariam vel ternariam opponatur, vel spissa diapente
-        contra diatessaron, ut laudabilis similitudo vel dissimilitudo discernere scientibus
-        commendetur: qui non solum hoc sed neumarum proportionem requirant, ut triplex sit suavitas,
-        una cantionis, quae comprobetur ab auriculis; secunda proportionis vocum, et neumarum ac
-        distinctionum, quae delectatio est rationis; tertia pulchrae similitudinis ac
+      <p xml:id="ARIMUS0157">Interdum saltatrix contra saltatricem, spissa contra spissam,
+        quaternaria contra quaternariam, et caeterae aequivocales sunt constituendae, interdum
+        variandae, ut spissa contra saltatricem, vel quaternariam vel ternariam opponatur, vel
+        spissa diapente contra diatessaron, ut laudabilis similitudo vel dissimilitudo discernere
+        scientibus commendetur: qui non solum hoc sed neumarum proportionem requirant, ut triplex
+        sit suavitas, una cantionis, quae comprobetur ab auriculis; secunda proportionis vocum, et
+        neumarum ac distinctionum, quae delectatio est rationis; tertia pulchrae similitudinis ac
         dissimilitudinis sex consonantiarum.</p>
       <p xml:id="ARIMUS0158">De Nobilitate et ignobilitate consonantiarum.</p>
       <p xml:id="ARIMUS0159">Sex consonantiarum tres nobiles, tres sunt ignobiles. Nobiles diapente,
@@ -671,13 +690,13 @@
         sesquialterae, haec sesquitertiae, haec sesquioctavae sit proportionis, unde etiam eas
         credimus esse minus dulcisonas.</p>
       <p xml:id="ARIMUS0160">De consideratione constitutivarum partium diatessaron et diapente.</p>
-      <p xml:id="ARIMUS0161">Aliquotiens considerationem constitutivarum habeamus partium in diatessaron
-        et diapente, aliquotiens specierum suarum, nonnunquam etiam interpositionis minorum
-        consonantiarum. Constitutivae partes sunt diatessaron tonus et semiditonus, vel ditonus et
-        semitonium. Interdum partes praeponamus, interdum postponamus, et si una vice praeponamus
-        vel postponamus istas, alia vice illas, aliquando quoque cingamus diatessaron partibus, ipsa
-        in medio vice dominae constituta. Constitutivae partes praeponuntur, sequitur ipsa
-        diatessaron in hunc modum. Ecce ego mitto vos sicut. Praeponitur tonus intensus: Ecce;
+      <p xml:id="ARIMUS0161">Aliquotiens considerationem constitutivarum habeamus partium in
+        diatessaron et diapente, aliquotiens specierum suarum, nonnunquam etiam interpositionis
+        minorum consonantiarum. Constitutivae partes sunt diatessaron tonus et semiditonus, vel
+        ditonus et semitonium. Interdum partes praeponamus, interdum postponamus, et si una vice
+        praeponamus vel postponamus istas, alia vice illas, aliquando quoque cingamus diatessaron
+        partibus, ipsa in medio vice dominae constituta. Constitutivae partes praeponuntur, sequitur
+        ipsa diatessaron in hunc modum. Ecce ego mitto vos sicut. Praeponitur tonus intensus: Ecce;
         praeponitur semiditonus intensus et remissus: Ego; sequitur diatessaron spissa per
         remissionem, saltatrix per intensionem: Mitto vos sicut. Ambae partes diatessaron
         praeponuntur tonus semiditonus, semitonium ditonus sequente diatessaron ut in hac: Rogo ergo
@@ -689,19 +708,19 @@
         inveniatur. Sed ut ita fieri oporteat naturaliter, cum sine partibus totum non esse, nec
         positis possit abesse.</p>
       <p xml:id="ARIMUS0162">De Contubernio diatessaron et diapente.</p>
-      <p xml:id="ARIMUS0163">Aliquotiens diatessaron et diapente commilitent, ita ut si altera saltatrix
-        intendatur, altera spissa remittatur, aut si <pb n="[214]"/>haec quaternaria remittatur,
-        haec ternaria intendatur. Tum diapente sibimet conferatur, ut si haec surgat spissa, illa
-        deponatur saltatrix, vel quaternaria, vel ternaria. Interdum per commixtum motum, quem
-        praelibavimus, sibimet convinculetur. Eodem modo diatessaron: aliae quoque consonantiae aut
-        pariter bis deponantur, vel simul intendantur, seu in commixto concatenentur. Et propter
-        iocunditatem suam species illae gemellae diatessaron et diapente admodum in quibusdam
-        cantilenis suum ostendunt contubernium.</p>
+      <p xml:id="ARIMUS0163">Aliquotiens diatessaron et diapente commilitent, ita ut si altera
+        saltatrix intendatur, altera spissa remittatur, aut si <pb n="[214]"/>haec quaternaria
+        remittatur, haec ternaria intendatur. Tum diapente sibimet conferatur, ut si haec surgat
+        spissa, illa deponatur saltatrix, vel quaternaria, vel ternaria. Interdum per commixtum
+        motum, quem praelibavimus, sibimet convinculetur. Eodem modo diatessaron: aliae quoque
+        consonantiae aut pariter bis deponantur, vel simul intendantur, seu in commixto
+        concatenentur. Et propter iocunditatem suam species illae gemellae diatessaron et diapente
+        admodum in quibusdam cantilenis suum ostendunt contubernium.</p>
       <p xml:id="ARIMUS0164">De Consideratione proportionum in his speciebus.</p>
-      <p xml:id="ARIMUS0165">In his ergo omnibus considerationem proportionis observemus: ut si diapente
-        saltatrix sit in ista neuma, in hac sit vel tonus vel alia saltatrix: sive sit in diapente,
-        sive in diatessaron, sive in ditono, seu semiditono, ut aequa sit responsio. Aut contra
-        saltatricem ponamus aut spissam diatessaron, aut diapente quaternariam, ut dupla fiat
+      <p xml:id="ARIMUS0165">In his ergo omnibus considerationem proportionis observemus: ut si
+        diapente saltatrix sit in ista neuma, in hac sit vel tonus vel alia saltatrix: sive sit in
+        diapente, sive in diatessaron, sive in ditono, seu semiditono, ut aequa sit responsio. Aut
+        contra saltatricem ponamus aut spissam diatessaron, aut diapente quaternariam, ut dupla fiat
         proportio. Aut contra saltatricem constituamus ternariam diatessaron vel diapente, aut
         ditonum semiditonumve spissum, ut sesquialtera fiat responsio, ut sine subtili collationis
         consideratione nihil temere fiat ignoranterque penes nos, qui histrionibus dulce
@@ -724,20 +743,20 @@
         remittitur. Iam persolvimus, quae cantilenarum auctoribus non nihil profore credidimus. Vide
         Figuram B. [cf. <a>ARIMUS 02GF</a>and <a>ARIMUS 03GF</a>]</p>
       <p xml:id="ARIMUS0168">De Caprea repetitio commendationis.</p>
-      <p xml:id="ARIMUS0169">Capream, domine, quam vobis obtuli, in vestram commendo gratiam, ut ipsa
-        natura vestrae experientiae commendet eam. Evidentem troporum divisionem ostendit, propter
-        quadripartita penes modernos laudem promeruit. Sed si ipsa non naturaliter hoc faciens est
-        gratiosa,</p>
-      <p xml:id="ARIMUS0170">[GSII:post214; text: Saltatrix, Intensio, Remissio, Spissa, Quaternaria,
-        Ternaria, E, E, F, G, a, [sqb], c, d, Prima species intensa ut epitritus est secundus,
-        remissa ut tertius. Secunda species intensa ut primus epitritus, remissa ut quartus. Tertia
-        species intensa ut epitritus quartus, remissa ut primus. Quarta intensa ut epitritus
-        tertius, remissa ut secundus. Prima. Saltatrix potius placet Teutonicis, quam Longobardis.
-        Spissa omnes tangit. Quaternaria pulchrior est omnibus. Secunda. Saltatrix tres movet.
-        Tertia. Quarta. In istis duabus speciebus saltatrix primae, ternaria secundae. Spissa et
-        quaternaria sonoritatis sunt pessimae. Prima et quarta species diapente secundam et tertiam
-        multum praecellunt sua dignitate. Epitritus secundus. Epitritus tertius. Epitritus primus.
-        Epitritus quartus.]</p>
+      <p xml:id="ARIMUS0169">Capream, domine, quam vobis obtuli, in vestram commendo gratiam, ut
+        ipsa natura vestrae experientiae commendet eam. Evidentem troporum divisionem ostendit,
+        propter quadripartita penes modernos laudem promeruit. Sed si ipsa non naturaliter hoc
+        faciens est gratiosa,</p>
+      <p xml:id="ARIMUS0170">[GSII:post214; text: Saltatrix, Intensio, Remissio, Spissa,
+        Quaternaria, Ternaria, E, E, F, G, a, [sqb], c, d, Prima species intensa ut epitritus est
+        secundus, remissa ut tertius. Secunda species intensa ut primus epitritus, remissa ut
+        quartus. Tertia species intensa ut epitritus quartus, remissa ut primus. Quarta intensa ut
+        epitritus tertius, remissa ut secundus. Prima. Saltatrix potius placet Teutonicis, quam
+        Longobardis. Spissa omnes tangit. Quaternaria pulchrior est omnibus. Secunda. Saltatrix tres
+        movet. Tertia. Quarta. In istis duabus speciebus saltatrix primae, ternaria secundae. Spissa
+        et quaternaria sonoritatis sunt pessimae. Prima et quarta species diapente secundam et
+        tertiam multum praecellunt sua dignitate. Epitritus secundus. Epitritus tertius. Epitritus
+        primus. Epitritus quartus.]</p>
       <p xml:id="ARIMUS0171">[GSII:ante215; text: Prima, Secunda, Tertia, Quarta, Saltatrix, Spissa,
         Ternaria. Rusticae sonoritatis, Insule, Antibachius, Bachius ex brevi et duabus longis,
         Amphimacratica species, [Gamma], A, B, [sqb], C, D, E, F, G, a, c, Diapason et Diapente,
@@ -809,20 +828,20 @@
         Habeatis syllabam. In dixit finalis. xit. aliquantulum protendatur. In dixit Dominus finalis
         nus producatur amplius. In dixit Dominus mulieri Cananeae finalis protendatur
         diutissime.</p>
-      <p xml:id="ARIMUS0175">Proponat sibi musicus, quibus ex his divisionibus incedentem faciat cantum,
-        vel quae sint illae divisiones. Sicut enim metrorum plurimae sunt divisiones, quia quaedam
-        sunt Asclepiadea, quaedam Saphica, quaedam Alchaica, et ad hunc modum Hyponactica, nonnulla
-        etiam Gliconica: sic melodiarum neumae plurimas habent divisiones, dum una sit divisio
-        aequarum ad aequas, altera et tertia duplarum triplarumque ad simplices, quarta quintave ut
-        sesquialterarum sesquitertiarumque distinctiones distinctionibus sunt aequales, ut in bene
-        procuratis cantibus apparet sicut in illo Responsorium Ecce nunc tempus acceptabile, una
-        distinctio. Ecce nunc dies salutis, altera. Commendemus nosmetipsos, tertia. In multa
-        patientia, quarta. In ieiuniis multis, quinta. Per arma iustitiae, sexta. Virtutis Dei,
-        septima. Quae omnes pene sunt commensurabiles, ut in modum currentis equi voces ad locum
-        respirationis accedant. Spissim autem et raro prout oportet notae compositae huius rei
-        poterunt indicium dare. <pb n="[217]"/>Equus dum currit, crebrius ungulas figit, dum cessare
-        cogitat, rarius vestigia collocat, ita iuxta finem distinctionum ut rariores, id est
-        tardiores voces succedant est procurandum. Quod autem dicit, spissim autem et raro prout
+      <p xml:id="ARIMUS0175">Proponat sibi musicus, quibus ex his divisionibus incedentem faciat
+        cantum, vel quae sint illae divisiones. Sicut enim metrorum plurimae sunt divisiones, quia
+        quaedam sunt Asclepiadea, quaedam Saphica, quaedam Alchaica, et ad hunc modum Hyponactica,
+        nonnulla etiam Gliconica: sic melodiarum neumae plurimas habent divisiones, dum una sit
+        divisio aequarum ad aequas, altera et tertia duplarum triplarumque ad simplices, quarta
+        quintave ut sesquialterarum sesquitertiarumque distinctiones distinctionibus sunt aequales,
+        ut in bene procuratis cantibus apparet sicut in illo Responsorium Ecce nunc tempus
+        acceptabile, una distinctio. Ecce nunc dies salutis, altera. Commendemus nosmetipsos,
+        tertia. In multa patientia, quarta. In ieiuniis multis, quinta. Per arma iustitiae, sexta.
+        Virtutis Dei, septima. Quae omnes pene sunt commensurabiles, ut in modum currentis equi
+        voces ad locum respirationis accedant. Spissim autem et raro prout oportet notae compositae
+        huius rei poterunt indicium dare. <pb n="[217]"/>Equus dum currit, crebrius ungulas figit,
+        dum cessare cogitat, rarius vestigia collocat, ita iuxta finem distinctionum ut rariores, id
+        est tardiores voces succedant est procurandum. Quod autem dicit, spissim autem et raro prout
         oportet notae compositae, huius rei poterunt indicium dare, arctius est scribendi et
         neumandi distinctio, donec ad finem appropinquet. Iuxta finem autem dissipetur scriptura cum
         neumis, ut cantori sit indicium praedictae tarditatis in hunc modum, Miserere mei, fili
@@ -844,12 +863,12 @@
       <p xml:id="ARIMUS0178">De proprietate Protorum, Deuterorum, Tritorum, Tetrardorum.</p>
       <p xml:id="ARIMUS0179">Proprietas est protorum, ut concordent in elevatione per diapente, in
         depositione per tonum.</p>
-      <p xml:id="ARIMUS0180">Proprietas est deuterorum cum integra diatessaron per intensionem, ditono
-        per remissionem.</p>
+      <p xml:id="ARIMUS0180">Proprietas est deuterorum cum integra diatessaron per intensionem,
+        ditono per remissionem.</p>
       <p xml:id="ARIMUS0181">Proprietas est tritorum, ut concordent intensione ditono, diatessaron
         remissione.</p>
-      <p xml:id="ARIMUS0182">Proprietas est tetrardorum, ut protis opponantur; quatenus horum elevatio
-        istorum sit remissio.</p>
+      <p xml:id="ARIMUS0182">Proprietas est tetrardorum, ut protis opponantur; quatenus horum
+        elevatio istorum sit remissio.</p>
       <p xml:id="ARIMUS0183">Quod non sit firmius argumentum, quam proprietas.</p>
       <p xml:id="ARIMUS0184">Quamvis satis sit probatum, quod de plagali materia, videlicet quarta
         gravium, quarta superiorum, quarta plagalis species, id est, tonus octavus possit
@@ -863,18 +882,19 @@
         illorum remissio. Sed D. ita remittitur per tonum, semitonium, tonum, sicut A. protus tono,
         semitonio, tono intenditur.</p>
       <p xml:id="ARIMUS0186">Quod aequaliter de se praedicentur species et propria.</p>
-      <p xml:id="ARIMUS0187">Omnis homo risibilis est, et omne risibile homo est. Omnis tetrardus per
-        tonum, semitonium, tonum remissibilis est, et omnis remissio toni, semitonii, toni tetrardus
-        est. Sed D. d. remittitur tono, semitonio, tono; ergo tetrardus est. Si tetrardus est; aut
-        autentus, aut plagalis. Sed necesse est, ut sit plagalis, quia nullus autentus gravibus et
-        superioribus constat. Irrefragabilibus transactis argumentationibus, et prolixo naturae suae
-        finito scrutinio, baptizemus eundem modum, nominantes eum hypomixolidium, ut sic sit
-        binomius, sicut eum biformem novimus.</p>
+      <p xml:id="ARIMUS0187">Omnis homo risibilis est, et omne risibile homo est. Omnis tetrardus
+        per tonum, semitonium, tonum remissibilis est, et omnis remissio toni, semitonii, toni
+        tetrardus est. Sed D. d. remittitur tono, semitonio, tono; ergo tetrardus est. Si tetrardus
+        est; aut autentus, aut plagalis. Sed necesse est, ut sit plagalis, quia nullus autentus
+        gravibus et superioribus constat. Irrefragabilibus transactis argumentationibus, et prolixo
+        naturae suae finito scrutinio, baptizemus eundem modum, nominantes eum hypomixolidium, ut
+        sic sit binomius, sicut eum biformem novimus.</p>
       <p xml:id="ARIMUS0188">Cur dicantur Tropi.</p>
       <p xml:id="ARIMUS0189">Tropi dicuntur a reversione; quia ubiubi cantus quocumque ascendat seu
         descendat, ad ultimum in finalis revertitur domicilium.</p>
-      <p xml:id="ARIMUS0190">Utrum Trite Synemmenon infra vel supra transductoriam ponenda sit lineam,
-        et utrum molle b. rotundumque sit magis necessarium, minusve quam quadratum [sqb].</p>
+      <p xml:id="ARIMUS0190">Utrum Trite Synemmenon infra vel supra transductoriam ponenda sit
+        lineam, et utrum molle b. rotundumque sit magis necessarium, minusve quam quadratum
+        [sqb].</p>
       <p xml:id="ARIMUS0191">Causa est antiquior quam effectus, ut ignis combustionem praecedit. Cum
         hiatus diezeuxis, id est disiunctionis tetrachordorum, patribus nostris plurima canendi
         praetendisset offendicula: quia tritus finalis F. supra quarta, tritus excellens f. infra
@@ -885,14 +905,14 @@
         de sede secunda cederet, aut quarta socialiter. Ergo synemmenon infra collocetur, non supra.
         Quae harum sit utilior chordarum, perpendere possumus, si discernemus, cuius sit frequentior
         usus.</p>
-      <p xml:id="ARIMUS0192">Quod tritus maxime indigeat synemmenon, cum ipsa suppleat vicem superioris
-        triti.</p>
-      <p xml:id="ARIMUS0193">Cantus quinti et sexti toni potissimum indigent synemmenon, cum ipsa sit
-        vicaria triti superioris. In proto quoque succinit, sed rarissime, ut in Ecce nomen Domini
-        venit de longinquo Quadratum autem [sqb]. non solum in deutero, qui suus domesticus est, sed
-        etiam in proto, in tetrardo, in ipso quoque trito conversatur assidue: quamvis trito
-        familiari non sit vicinitate coniunctum, quia nec a finali F. nec ab excellenti f. aliqua
-        distat consonantia. Hinc licet perpendere b. utile, [sqb]. autem multum utilius esse,
+      <p xml:id="ARIMUS0192">Quod tritus maxime indigeat synemmenon, cum ipsa suppleat vicem
+        superioris triti.</p>
+      <p xml:id="ARIMUS0193">Cantus quinti et sexti toni potissimum indigent synemmenon, cum ipsa
+        sit vicaria triti superioris. In proto quoque succinit, sed rarissime, ut in Ecce nomen
+        Domini venit de longinquo Quadratum autem [sqb]. non solum in deutero, qui suus domesticus
+        est, sed etiam in proto, in tetrardo, in ipso quoque trito conversatur assidue: quamvis
+        trito familiari non sit vicinitate coniunctum, quia nec a finali F. nec ab excellenti f.
+        aliqua distat consonantia. Hinc licet perpendere b. utile, [sqb]. autem multum utilius esse,
         ideoque admodum esse commodiorem coniunctione disiunctionem. Qua etiam ratione frequentioris
         utilitatis et rarioris possumus colligere <pb n="[219]"/>infra b. supra [sqb]. notandum esse
         in hunc modum.</p>
@@ -922,8 +942,8 @@
         gemellipara, quosdam germanorum primigenas, vel, ut ita dicamus, secundigenas, tertigenas,
         quartigenas dicere possumus, nullum autem quintigenam, cum eorum nemo quinta vice sit
         genitus, quamvis octo tamen esse non dubitemus.</p>
-      <p xml:id="ARIMUS0199">Quod quidam unam musam, quidam duas, tres, quatuor, quinque, sex, septem,
-        octo, novem esse possint dicere secundum multiplices rationes.</p>
+      <p xml:id="ARIMUS0199">Quod quidam unam musam, quidam duas, tres, quatuor, quinque, sex,
+        septem, octo, novem esse possint dicere secundum multiplices rationes.</p>
       <p xml:id="ARIMUS0200">Unam musam possumus asserere, generalem, scilicet monochordum vocis
         humanae, quae ex una fistula colli efficacissime iubilat omnia melorum genera, cui nullae
         hydrauliae, nullae aliae comparantur fistulae. Haec cum cunctarum suppleat officium, duas
@@ -943,19 +963,20 @@
         procellarum dulcisonam imitatur melodiam, quae cum dulcedine sua praetereuntes contrahit,
         miserabili nonnunquam naufragio submergit. Sicut huius mundi Syrenae blandientes, videlicet
         illecebrae, nostri similes periculosissimo animarum submergunt naufragio.</p>
-      <p xml:id="ARIMUS0202">Quatuor musas temere non arbitramur aut quatuor continuos antiquorum, quos
-        praelibavimus tropos, vel quatuor tetrachorda, G. F. S. E. omnem melodiam possidentia. Sive
-        pythagoricos quatuor malleos, quibus quatuor symphoniarum, toni, diatessaron, diapente,
+      <p xml:id="ARIMUS0202">Quatuor musas temere non arbitramur aut quatuor continuos antiquorum,
+        quos praelibavimus tropos, vel quatuor tetrachorda, G. F. S. E. omnem melodiam possidentia.
+        Sive pythagoricos quatuor malleos, quibus quatuor symphoniarum, toni, diatessaron, diapente,
         diapason, reperit proportionem, seu quadripartitam monochordi distributionem, quae
         ascendendo primo constitutivo passu diatessaron, secundo diapente, tertio diapason
         constituit; descendendo autem econtrario primo constitutivo passu diapason, secundo
         diapente, tertio diatessaron.</p>
-      <p xml:id="ARIMUS0203">Quinque credimus musas V. maiores symphonias sesquitertiam, sesquialteram,
-        duplam, triplam, quadruplam, aut V. vocales, sine quibus non fiunt voces litterales, seu ad
-        V. referamus musas omnes penitus litteras, V. modis divisas: quia quaedam sunt vocales [I.
-        supra lin.], quaedam semivocales [II. supra lin.]: hae mutae [III. supra lin.], illae
-        liquidae [IIII. supra lin.], duplices [V. supra lin.] aliquae. Seu intelligamus V. musas V.
-        sensuum noxias fenestras, per quas anima bibit temporalium delectationes et musas.</p>
+      <p xml:id="ARIMUS0203">Quinque credimus musas V. maiores symphonias sesquitertiam,
+        sesquialteram, duplam, triplam, quadruplam, aut V. vocales, sine quibus non fiunt voces
+        litterales, seu ad V. referamus musas omnes penitus litteras, V. modis divisas: quia quaedam
+        sunt vocales [I. supra lin.], quaedam semivocales [II. supra lin.]: hae mutae [III. supra
+        lin.], illae liquidae [IIII. supra lin.], duplices [V. supra lin.] aliquae. Seu intelligamus
+        V. musas V. sensuum noxias fenestras, per quas anima bibit temporalium delectationes et
+        musas.</p>
       <p xml:id="ARIMUS0204">Sex musas sex minores perpendamus esse consonantias: semitonium, tonum,
         semiditonum, ditonum, diatessaron, diapente: quibus omnis conformatur neuma regularis. Has
         sex dumtaxat domnus Guido diligebat.</p>
@@ -963,38 +984,38 @@
         caeterae non additio sunt, sed earumdem repetitio: vel septem planetas.</p>
       <p xml:id="ARIMUS0206">Octo musas octo tonos intelligamus, quorum magisterio totum corpus
         cantionis disponimus, et gubernamus.</p>
-      <p xml:id="ARIMUS0207">Novem esse musas omnis consensit antiquitas, imitatrix mundanae, quae novem
-        circulis continetur, musicae. Coeli et terrae duo circuli, septem planetis adiuncti novem
-        perficiunt: ad quam similitudinem in terrestri nostra musica novem computaverant musas,
-        novem videlicet consonantias. Voces unisonas, semitonium, tonum, semiditonum, ditonum,
-        diatessaron, diapason, diapente cum semitonio, diapente cum tono. Unisonae voces ut: Adiuva
-        nos Deus salutaris noster semitonium ut Missus est Gabriel angelus ad Mariam sed puerile est
-        de tam manifestis uti exemplis. De novissimis tantum duabus exempla proponamus: id est, de
-        diapente cum semitonio <pb n="[221]"/>de diapente cum tono, quia hae et minus proportionales
-        et minus usuales. Diapente cum semitonio sonat in illius hymni principio. Mare, fons,
-        ostium. atque diapente cum tono in: Ad te levavi animam meam deus meus in te. Et in: Iam non
-        estis hospites et advenae, sed estis cives sanctorum et domestici.</p>
+      <p xml:id="ARIMUS0207">Novem esse musas omnis consensit antiquitas, imitatrix mundanae, quae
+        novem circulis continetur, musicae. Coeli et terrae duo circuli, septem planetis adiuncti
+        novem perficiunt: ad quam similitudinem in terrestri nostra musica novem computaverant
+        musas, novem videlicet consonantias. Voces unisonas, semitonium, tonum, semiditonum,
+        ditonum, diatessaron, diapason, diapente cum semitonio, diapente cum tono. Unisonae voces
+        ut: Adiuva nos Deus salutaris noster semitonium ut Missus est Gabriel angelus ad Mariam sed
+        puerile est de tam manifestis uti exemplis. De novissimis tantum duabus exempla proponamus:
+        id est, de diapente cum semitonio <pb n="[221]"/>de diapente cum tono, quia hae et minus
+        proportionales et minus usuales. Diapente cum semitonio sonat in illius hymni principio.
+        Mare, fons, ostium. atque diapente cum tono in: Ad te levavi animam meam deus meus in te. Et
+        in: Iam non estis hospites et advenae, sed estis cives sanctorum et domestici.</p>
       <p xml:id="ARIMUS0208">De simplici cymbalorum mensura sesquitertia et sesquialtera proportione
         intensa et remissa, et cur similis sit monochordi cymbalorumque mensura.</p>
-      <p xml:id="ARIMUS0209">Arbitror idcirco eodem modo se habere mensuram monochordi, cymbalorumque,
-        quod pulsatio sonum excitat utrimque, tinnitus chordae et cymbali ferit aerem liberum nullis
-        circumstantiis clausum. Sed distat ab illis mensura fistularum, fortassis propter aerem in
-        ipsis coarctatum, qui dum se dilatandi libertatem fistulae circumstantiis cohibitus non
-        habeat, quaerit non solum longitudinis, sed etiam grossitudinis adiectionem. Unde in
-        reperiendo tono non solum priores fistulae longitudinis, sed grossitudinis, id est diametri
-        octavam partem assumimus, ut patebit in sequentibus: sed ad cymbala redeamus.</p>
-      <p xml:id="ARIMUS0210">Propter toni tarditatem sesquitertia sesquialteraque proportione mensuram
-        statui intendere et remittere. Octo cymbala sunt ratione dimetienda reponderatione cerae,
-        quam ad primum cymbalum expendas, duas diligenter provideas: quarum alteram in duas, alteram
-        in tres partes distribuas. Et isti, quam in duas divisisti, propria medietate, illi tertia
-        sui adiecta parte formes tibi duo cymbala, primo per diatessaron et diapente respondentia,
-        habeas quoque illius, quam in duo distribuisti, reponderationem, quam dividens in quatuor
-        dimoveas quartam de tribus partibus secundum cymbalum compositurus. Eiusdem secundi cymbali
-        reponderationem cerae sumas, et eius medietate sibimet superposita formam sexti fingas
-        cymbali. Cuius reponderationem quatuor partibus distribuens, quartam secernens, de tribus
-        tertium conformes cymbalum, quod per medium dividens tantumque ut est dimidium superaddens,
-        proponas septimum. Cuius reponderationem quadripartiens quartamque reiiciens, de tribus
-        synemmenon conficias.</p>
+      <p xml:id="ARIMUS0209">Arbitror idcirco eodem modo se habere mensuram monochordi,
+        cymbalorumque, quod pulsatio sonum excitat utrimque, tinnitus chordae et cymbali ferit aerem
+        liberum nullis circumstantiis clausum. Sed distat ab illis mensura fistularum, fortassis
+        propter aerem in ipsis coarctatum, qui dum se dilatandi libertatem fistulae circumstantiis
+        cohibitus non habeat, quaerit non solum longitudinis, sed etiam grossitudinis adiectionem.
+        Unde in reperiendo tono non solum priores fistulae longitudinis, sed grossitudinis, id est
+        diametri octavam partem assumimus, ut patebit in sequentibus: sed ad cymbala redeamus.</p>
+      <p xml:id="ARIMUS0210">Propter toni tarditatem sesquitertia sesquialteraque proportione
+        mensuram statui intendere et remittere. Octo cymbala sunt ratione dimetienda reponderatione
+        cerae, quam ad primum cymbalum expendas, duas diligenter provideas: quarum alteram in duas,
+        alteram in tres partes distribuas. Et isti, quam in duas divisisti, propria medietate, illi
+        tertia sui adiecta parte formes tibi duo cymbala, primo per diatessaron et diapente
+        respondentia, habeas quoque illius, quam in duo distribuisti, reponderationem, quam dividens
+        in quatuor dimoveas quartam de tribus partibus secundum cymbalum compositurus. Eiusdem
+        secundi cymbali reponderationem cerae sumas, et eius medietate sibimet superposita formam
+        sexti fingas cymbali. Cuius reponderationem quatuor partibus distribuens, quartam secernens,
+        de tribus tertium conformes cymbalum, quod per medium dividens tantumque ut est dimidium
+        superaddens, proponas septimum. Cuius reponderationem quadripartiens quartamque reiiciens,
+        de tribus synemmenon conficias.</p>
       <p xml:id="ARIMUS0211">Monochordi mensura eiusdem proportionibus constituta.</p>
       <p xml:id="ARIMUS0212">Totum monochordum a gamma quatuor passibus dividas, et in primi fine C.
         secundi G. tertii g. ponas. Post a gamma tribus passibus ascendas, ac in primi fine D.
@@ -1045,7 +1066,8 @@
         reliquum eius usque ad plectrum spatium in tria divide, et tertia in summitate separata,
         quintam cum diapente aggregasti. Sextam appositurus secundae fistulae longitudini item
         medietatem diametri abscide, reliquum eius spatium in tres partire, et tertia relicta sextam
-        subiunxisti. Synemmenon ostensurus quartae fistulae tertiam diametri reseca, <pb n="[223]"/>residuum ad plectrum spatium in quatuor divide, et quarta parte omissa synemmenon
+        subiunxisti. Synemmenon ostensurus quartae fistulae tertiam diametri reseca, <pb n="[223]"
+        />residuum ad plectrum spatium in quatuor divide, et quarta parte omissa synemmenon
         designasti. Septimam invenies si tertiae medietatem diametri amputabis, et reliquum in tres
         divides, et tertia in summitate reiecta, septimam finalem constituisti. His ita dispositis
         octavam a prima, nonam a secunda, decimam a tertia, undecimam a quarta, duodecimam a quinta,
@@ -1061,8 +1083,8 @@
         dispositio. Primae ergo longitudo, sicut placuit domno Willehelmo, usque ad plectrum haec
         est. Grossitudinem autem quae aequalis est omnibus, iste designat circulus.</p>
       <p xml:id="ARIMUS0230">[GSII:223; text: tertia, media, Diametri partes.]</p>
-      <p xml:id="ARIMUS0231">Primae igitur fistulae quantitas in octo dividatur, eique octava pars cum
-        octava diametri apponatur, et erit secunda: secundae item longitudo in octo partiatur,
+      <p xml:id="ARIMUS0231">Primae igitur fistulae quantitas in octo dividatur, eique octava pars
+        cum octava diametri apponatur, et erit secunda: secundae item longitudo in octo partiatur,
         additaque octava cum diametri octava, erit tertia. Primae item in tres dividatur, additaque
         tertia cum tertia diametri habebis diatessaron in ipsa quarta peractum. In hac ipsa incipit
         integer minor ordo priorque. Tertia item fistula in octo dividatur, additaque octava cum
@@ -1076,24 +1098,24 @@
       <p xml:id="ARIMUS0232">
         <pb n="[224]"/>Aribunculina fistularum mensura, nec in toto remissibilis, nec in toto
         intensibilis sesquitertia et sesquialtera proportione.</p>
-      <p xml:id="ARIMUS0233">Nos autem in utraque progredientes modo hanc intendendo et abiiciendo, modo
-        illam remittendo et adiiciendo, sequentes in neutram declinamus, quia tonum per octo novemve
-        particulas reperire nolumus. Non sine ratione quidem; quanto enim mensura celerior, tanto et
-        verior est. Alicuius spatii quartam vel tertiam dimidiumve octava vel nona parte quaeri
-        certius et velocius pene patet omnibus. Unde sesquitertia sesquialteraque tendere susumque
-        iusumque disposuimus proportione. Primae fistulae pars tertia cum tertia diametri sibimet
-        addita format quartam. Item primae medietas cum diametri medietate sibi iuncta generat
-        quintam. Quinta quarta sui parte cum tertia diametri deposita secundae staturam proponit.
-        Secunda sui diametrique medietate praesumta, sexta est mensura. Sexta quarta sui tertiaque
-        diametri reiecta tertiam constituit. Tertiae medietas cum diametri medietate sibimet
-        superposita, mater est septimae. Cuius quarta cum diametri tertia detruncata, quod restat,
-        fistulae synemmenon retinentis longitudinem praestat. Vela sollicitudinis deponamus, quia
-        iam securitatis portum occupamus. Prima duplex cum integro diametro reddit octavam, secunda
-        nonam, tertia decimam, quarta undecimam, synemmenon aliud synemmenon, quinta duodecimam,
-        sexta decimam tertiam, septima decimam quartam: totidem etenim organicis fistulis uti
-        placuit experientiae domni Willehelmi, qui duobus ordinibus, quatuordecim videlicet fistulis
-        tres adiecit, ut tetrachordum praestrueret, ut competens acumen in minimis, et opportuna
-        gravitas responderet in maximis.</p>
+      <p xml:id="ARIMUS0233">Nos autem in utraque progredientes modo hanc intendendo et abiiciendo,
+        modo illam remittendo et adiiciendo, sequentes in neutram declinamus, quia tonum per octo
+        novemve particulas reperire nolumus. Non sine ratione quidem; quanto enim mensura celerior,
+        tanto et verior est. Alicuius spatii quartam vel tertiam dimidiumve octava vel nona parte
+        quaeri certius et velocius pene patet omnibus. Unde sesquitertia sesquialteraque tendere
+        susumque iusumque disposuimus proportione. Primae fistulae pars tertia cum tertia diametri
+        sibimet addita format quartam. Item primae medietas cum diametri medietate sibi iuncta
+        generat quintam. Quinta quarta sui parte cum tertia diametri deposita secundae staturam
+        proponit. Secunda sui diametrique medietate praesumta, sexta est mensura. Sexta quarta sui
+        tertiaque diametri reiecta tertiam constituit. Tertiae medietas cum diametri medietate
+        sibimet superposita, mater est septimae. Cuius quarta cum diametri tertia detruncata, quod
+        restat, fistulae synemmenon retinentis longitudinem praestat. Vela sollicitudinis deponamus,
+        quia iam securitatis portum occupamus. Prima duplex cum integro diametro reddit octavam,
+        secunda nonam, tertia decimam, quarta undecimam, synemmenon aliud synemmenon, quinta
+        duodecimam, sexta decimam tertiam, septima decimam quartam: totidem etenim organicis
+        fistulis uti placuit experientiae domni Willehelmi, qui duobus ordinibus, quatuordecim
+        videlicet fistulis tres adiecit, ut tetrachordum praestrueret, ut competens acumen in
+        minimis, et opportuna gravitas responderet in maximis.</p>
       <p xml:id="ARIMUS0234">Organicae dispositionis mensura.</p>
       <p xml:id="ARIMUS0235">Ex a. suspende primum diatessaron in D.</p>
       <p xml:id="ARIMUS0236">Ex a. rursus in E. resupinam duc diapente.</p>
@@ -1103,13 +1125,13 @@
       <p xml:id="ARIMUS0240">Intendas a c. contingens G. diapente.</p>
       <p xml:id="ARIMUS0241">A D. suspendi debet diatessaron in Sy.</p>
       <p xml:id="ARIMUS0242">Qualiter ipsae congruenter fiant fistulae.</p>
-      <p xml:id="ARIMUS0243">Sicut fistulae eiusdem sunt grossitudinis, ita laminae, de quibus fiant,
-        eiusdem sunt latitudinis. Prius iuxta domnum Willehelmum grossitudinis depinximus circulum.
-        Qui de qua latitudine possit provenire, caute debemus perpendere. Dicit Macrobius de somnio
-        Scipionis: Omne diametrum cuiusque orbis triplicatum cum adiectione septimae partis suae
-        mensuram facit circuli. Haec sunt verba Macrobii. Unde eius auctoritatem sequentes
-        praescripti circuli diametrum triplicemus, septimamque diametri simul adiungamus: et
-        secundum quantitatem lineae, quae inde procedat, omnium laminarum fistulis materialium
+      <p xml:id="ARIMUS0243">Sicut fistulae eiusdem sunt grossitudinis, ita laminae, de quibus
+        fiant, eiusdem sunt latitudinis. Prius iuxta domnum Willehelmum grossitudinis depinximus
+        circulum. Qui de qua latitudine possit provenire, caute debemus perpendere. Dicit Macrobius
+        de somnio Scipionis: Omne diametrum cuiusque orbis triplicatum cum adiectione septimae
+        partis suae mensuram facit circuli. Haec sunt verba Macrobii. Unde eius auctoritatem
+        sequentes praescripti circuli diametrum triplicemus, septimamque diametri simul adiungamus:
+        et secundum quantitatem lineae, quae inde procedat, omnium laminarum fistulis materialium
         latitudo fiat. Hae laminae in lateralibus extremitatibus attenuantur; praecipue, quae
         extremitates cum fabrili manu eas incurvante conveniant, non superponantur sibimet, sed
         osculo tantum collidantur coniunctissimo. Ad cuius osculi commissuram tegendam praeparentur
@@ -1165,56 +1187,57 @@
         Coridonem; sed tamen est obsequio cantilenae nonnunquam necessarius, sicut rusticus Coridon
         dominorum sumptibus.</p>
       <p xml:id="ARIMUS0248">De Opportunitate modulandi.</p>
-      <p xml:id="ARIMUS0249">Duplex est iubilandi dulcedo, si ita proportionaliter conferantur neumae
-        distinctionesque, sicut ipsae monochordi voces dispositae, sicut domnus Guido docet, musicus
-        quidem tempore novissimus, utilitate primus, cuius merito alios eiusdem artis praeceptores
-        ita comparamus, ut mutas vocalibus, cuius haec sunt verba: "Ac summopere caveatur talis
-        neumarum distributio, ut cum neumae eiusdem soni repercussione, tum duarum aut plurium
-        connexione fiant, semper tamen aut in numero vocum, aut in ratione tonorum neumae alterutrum
-        conferantur atque respondeant: nunc aequae aequis, nunc duplae, vel triplae simplicibus,
-        atque alias collatione sesquialtera vel sesquitertia. Item ut more versuum distinctiones
-        aequales sint, et aliquotiens eaedem repetitae, aut aliqua vel parva mutatione variatae, et
-        cum perpulcre fuerint duplicatae habentes partes, non nimis diversas, et quae aliquotiens
-        eaedem transformentur per modos, aut similes intensae et remissae inveniantur. Item ut
-        reciprocata neuma eadem via redeat qua venerat, ac per eaeadem vestigia recurrat. Item ut
-        qualem habitum, vel lineam una facit saliendo ab acutis, talem altera inclinata e regione
-        opponat respondendo a gravibus. Item aliquando una syllaba unam vel plures habeat neumas,
-        aliquando una neuma plures dividatur in syllabas."</p>
-      <p xml:id="ARIMUS0250">Quoniam quidem domnus Guido has praeceptiones suas sine exemplis reliquit,
-        quia eas, ut sunt satis manifestas, credidit, nos eas valde simplicibus pro nostro captu
-        exponemus. Neumae nempe unius soni fiunt repercussione, cum simplices sunt, id est vel una
-        virgula, vel una iacens, vel cum duplices aut triplices in eiusdem sunt soni repercussione,
-        tum <pb n="[227]"/>duorum aut plurium connexione fiant. Duorum aut plurium sonorum
-        connexione fiunt omnes neumae, exceptis praescriptis. Duae tribus . . . tres tribus . . . et
-        aliae de amplioribus, quas modo praeterimus. Semper tamen aut in numero vocum, aut in
-        ratione tonorum alterutrum conferantur, nunc aequae aequis. AEquae aequis conferuntur, cum
-        simplices simplicibus, duplices duplicibus, triplices triplicibus opponuntur. Et hoc aut in
-        numero vocum, ut in aequis duae duabus, tres tribus conferantur. In duplis duae uni, quatuor
-        duabus, triplae simplis, aut in ratione tonorum. Tenor dicitur mora vocis, qui in aequis
-        est, si quatuor vocibus duae comparantur, et quantum sit numerus duarum minor, tantum earum
-        mora sit maior. Unde in antiquioribus antiphonariis utrisque c. t. m. reperimus persaepe,
-        quae celeritatem, tarditatem, mediocritatem innuunt. Antiquitus fuit magna circumspectio non
-        solum cantus inventoribus, sed etiam ipsis cantoribus, ut quilibet proportionaliter et
-        invenirent et canerent. Quae consideratio iam dudum obiit, imo sepulta est. Nunc tantum
-        sufficit, ut aliquid dulcisonum comminiscamur, non attendentes dulciorem collationis
-        iubilationem. Item ut more versuum distinctiones aequales sint. Sicut in bene procuratis
-        cantibus invenimus, quos metricos dicere possumus, ut: Non vos relinquam orphanos, alleluia.
-        Vado et veniam [II. supra lin.] ad vos, alleluia, et gaudebit [III. supra lin.] cor vestrum,
-        alleluia. Talis consideratio similis est rhetorico colori, qui compar dicitur, qui constat
-        fere ex pari numero syllabarum. Hoc non de murmatione nostra fiet, dicit Tullius, nam id
-        puerile est, sed tantum afferet usus. "Et aliquotiens eaedem repetitae, vel parva mutatione
-        variatae," diversitatem neumarum ostendit, quia similitudo mater est societatis, ut Tullius
-        dicit. Exemplum sit istud: In Iherusalem . . . .</p>
-      <p xml:id="ARIMUS0251">"Eaedem repetitae vel parva mutatione variatae." Pater resuscitat mortuos
-        membraque curat debilia. Fluxum Sanguinis constrinxit et satiavit de panibus quinque millia.
-        "Et cum perpulcre fuerint duplicatae," quasi exegesis est et expositio priorum, tamquam si
-        diceret: Eaedem sint repetitae, sed tunc cum perpulcrae fuerint. "Et quae aliquotiens eaedem
-        transformentur per modos," ut Festum nunc celebre semitonius est utrimque, sed diversi modi
-        qualitatisque similis intensae et remissae, ut qui cogitaverunt. "Item ut reciprocata neuma
-        eadem via redeat qua venerat" ut sydera maria continens arva. "Item ut qualem habitum vel
-        lineam una facit saliendo ab acutis, talem altera inclinata e regione opponat respondendo a
-        gravibus" ut: O admirabile. "Item aliquando una syllaba unam vel plures habeat neumas" ut
-        laudes Deo; "aliquando una neuma plures dividatur in syllabas" ut Christi pugna.</p>
+      <p xml:id="ARIMUS0249">Duplex est iubilandi dulcedo, si ita proportionaliter conferantur
+        neumae distinctionesque, sicut ipsae monochordi voces dispositae, sicut domnus Guido docet,
+        musicus quidem tempore novissimus, utilitate primus, cuius merito alios eiusdem artis
+        praeceptores ita comparamus, ut mutas vocalibus, cuius haec sunt verba: "Ac summopere
+        caveatur talis neumarum distributio, ut cum neumae eiusdem soni repercussione, tum duarum
+        aut plurium connexione fiant, semper tamen aut in numero vocum, aut in ratione tonorum
+        neumae alterutrum conferantur atque respondeant: nunc aequae aequis, nunc duplae, vel
+        triplae simplicibus, atque alias collatione sesquialtera vel sesquitertia. Item ut more
+        versuum distinctiones aequales sint, et aliquotiens eaedem repetitae, aut aliqua vel parva
+        mutatione variatae, et cum perpulcre fuerint duplicatae habentes partes, non nimis diversas,
+        et quae aliquotiens eaedem transformentur per modos, aut similes intensae et remissae
+        inveniantur. Item ut reciprocata neuma eadem via redeat qua venerat, ac per eaeadem vestigia
+        recurrat. Item ut qualem habitum, vel lineam una facit saliendo ab acutis, talem altera
+        inclinata e regione opponat respondendo a gravibus. Item aliquando una syllaba unam vel
+        plures habeat neumas, aliquando una neuma plures dividatur in syllabas."</p>
+      <p xml:id="ARIMUS0250">Quoniam quidem domnus Guido has praeceptiones suas sine exemplis
+        reliquit, quia eas, ut sunt satis manifestas, credidit, nos eas valde simplicibus pro nostro
+        captu exponemus. Neumae nempe unius soni fiunt repercussione, cum simplices sunt, id est vel
+        una virgula, vel una iacens, vel cum duplices aut triplices in eiusdem sunt soni
+        repercussione, tum <pb n="[227]"/>duorum aut plurium connexione fiant. Duorum aut plurium
+        sonorum connexione fiunt omnes neumae, exceptis praescriptis. Duae tribus . . . tres tribus
+        . . . et aliae de amplioribus, quas modo praeterimus. Semper tamen aut in numero vocum, aut
+        in ratione tonorum alterutrum conferantur, nunc aequae aequis. AEquae aequis conferuntur,
+        cum simplices simplicibus, duplices duplicibus, triplices triplicibus opponuntur. Et hoc aut
+        in numero vocum, ut in aequis duae duabus, tres tribus conferantur. In duplis duae uni,
+        quatuor duabus, triplae simplis, aut in ratione tonorum. Tenor dicitur mora vocis, qui in
+        aequis est, si quatuor vocibus duae comparantur, et quantum sit numerus duarum minor, tantum
+        earum mora sit maior. Unde in antiquioribus antiphonariis utrisque c. t. m. reperimus
+        persaepe, quae celeritatem, tarditatem, mediocritatem innuunt. Antiquitus fuit magna
+        circumspectio non solum cantus inventoribus, sed etiam ipsis cantoribus, ut quilibet
+        proportionaliter et invenirent et canerent. Quae consideratio iam dudum obiit, imo sepulta
+        est. Nunc tantum sufficit, ut aliquid dulcisonum comminiscamur, non attendentes dulciorem
+        collationis iubilationem. Item ut more versuum distinctiones aequales sint. Sicut in bene
+        procuratis cantibus invenimus, quos metricos dicere possumus, ut: Non vos relinquam
+        orphanos, alleluia. Vado et veniam [II. supra lin.] ad vos, alleluia, et gaudebit [III.
+        supra lin.] cor vestrum, alleluia. Talis consideratio similis est rhetorico colori, qui
+        compar dicitur, qui constat fere ex pari numero syllabarum. Hoc non de murmatione nostra
+        fiet, dicit Tullius, nam id puerile est, sed tantum afferet usus. "Et aliquotiens eaedem
+        repetitae, vel parva mutatione variatae," diversitatem neumarum ostendit, quia similitudo
+        mater est societatis, ut Tullius dicit. Exemplum sit istud: In Iherusalem . . . .</p>
+      <p xml:id="ARIMUS0251">"Eaedem repetitae vel parva mutatione variatae." Pater resuscitat
+        mortuos membraque curat debilia. Fluxum Sanguinis constrinxit et satiavit de panibus quinque
+        millia. "Et cum perpulcre fuerint duplicatae," quasi exegesis est et expositio priorum,
+        tamquam si diceret: Eaedem sint repetitae, sed tunc cum perpulcrae fuerint. "Et quae
+        aliquotiens eaedem transformentur per modos," ut Festum nunc celebre semitonius est
+        utrimque, sed diversi modi qualitatisque similis intensae et remissae, ut qui cogitaverunt.
+        "Item ut reciprocata neuma eadem via redeat qua venerat" ut sydera maria continens arva.
+        "Item ut qualem habitum vel lineam una facit saliendo ab acutis, talem altera inclinata e
+        regione opponat respondendo a gravibus" ut: O admirabile. "Item aliquando una syllaba unam
+        vel plures habeat neumas" ut laudes Deo; "aliquando una neuma plures dividatur in syllabas"
+        ut Christi pugna.</p>
       <p xml:id="ARIMUS0252">Dicit item domnus Guido: Motus motui tum erit praepositus, id est in
         superioribus positus: tum appositus, id est cum in eandem vocem unius finis erit,
         alteriusque principium; tum interpositus, id est quando unus modus infra alium positus et
@@ -1234,7 +1257,8 @@
         ad principium prioris per diatessaron et diapente, ad finem autem eius per tonum ditonumque
         resultet: aliis modis minus erit commode, cum proportionis commoditasque et concinentia non
         consideratur. Idem quoque motus tantum fit ascensione.</p>
-      <p xml:id="ARIMUS0255">De commoditate apposita, et quod tam ascendendo, quam descendendo fit.</p>
+      <p xml:id="ARIMUS0255">De commoditate apposita, et quod tam ascendendo, quam descendendo
+        fit.</p>
       <p xml:id="ARIMUS0256">Appositus ut ascensioni, ita est obnoxius et descensioni, ut Ecce ego
         mitto. Et dicent gloria tibi Domine. Item intensus: Benedic Domine qui motus honestior erit,
         si in proto ita fiat intensio: ut si prior surgat per tonum, appositus ascendat, aut per
@@ -1255,8 +1279,7 @@
       <p class="textFig" xml:id="ARIMUS0257">
         <lb/>[Gamma] A B C D E F G. a b  [sqb] c d e f g. aa bb [sqb][sqb] cc dd.
         <br/>a       e i o u.a e i  o   u.     a e i o u. a    e           i  o
-        <lb/>o       u.a e i o u.a  e   i      o u.a e i  o    u.          a .e
-        <br/></p>
+        <lb/>o       u.a e i o u.a  e   i      o u.a e i  o    u.          a .e <br/></p>
       <p xml:id="ARIMUS0258">
         <pb n="[229]"/>Et quibusdam interpositis subiungit: sed ne gravis tibi imponatur necessitas,
         quod ad hunc modum vix cuilibet symphoniae V. accidant voces, et ipsas transgredi saepe ad
@@ -1266,8 +1289,8 @@
         ultima videlicet huius versus parte, quia hau syllabae sunt, h. et u. et e. et musicus
         causam tradit, cur ita mutaverit, quia convenientius sonat hau in F. quam in G. quae
         tetrardi finalis debet esse.</p>
-      <p xml:id="ARIMUS0259">[GSII:229; text: a, e, i, o, u, A, [sqb], C, D, E, F, G, Linguam refrenans
-        temperet ne litis horror in sonet visum fovendo contegat ne vanitates hauriat.] <figure>
+      <p xml:id="ARIMUS0259">[GSII:229; text: a, e, i, o, u, A, [sqb], C, D, E, F, G, Linguam
+        refrenans temperet ne litis horror in sonet visum fovendo contegat ne vanitates hauriat.] <figure>
           <graphic url="/images/ARIMUS_05GF.gif"/>
         </figure></p>
       <p xml:id="ARIMUS0260">Aribonis sententia.</p>
@@ -1276,12 +1299,12 @@
         sexti, et octavi. Nam formulae primi, tertii, quinti, septimi non conveniunt, nisi cum
         cantus descendit ab alto, et in gravem devenerit finem.</p>
       <p xml:id="ARIMUS0262">Alia sententia utiliter explanata.</p>
-      <p xml:id="ARIMUS0263">Quamvis cantus sit autenticus, tamen plures eius neumae et soni versantur
-        in V. eius chordis, quae communes sunt autentis et plagalibus, quam versibus, quae autentis
-        separatim deputantur; ideoque saepius et melius formulis plagalium etiam neumae autenticorum
-        conveniunt, in quibus saepius morantur in antiphonis: Ecce nomen Domini quamvis sit
-        autentica, plures tamen eius neumae possunt plagales videri quam autenticae, utputa: Ecce,
-        et nomen, et Domini, et de longinquo, ac et claritas, et eius, et replet, et orbem, et
+      <p xml:id="ARIMUS0263">Quamvis cantus sit autenticus, tamen plures eius neumae et soni
+        versantur in V. eius chordis, quae communes sunt autentis et plagalibus, quam versibus, quae
+        autentis separatim deputantur; ideoque saepius et melius formulis plagalium etiam neumae
+        autenticorum conveniunt, in quibus saepius morantur in antiphonis: Ecce nomen Domini quamvis
+        sit autentica, plures tamen eius neumae possunt plagales videri quam autenticae, utputa:
+        Ecce, et nomen, et Domini, et de longinquo, ac et claritas, et eius, et replet, et orbem, et
         terrarum sunt plagales, utpote spatio plagalium currentes; sola venit est autentica, omnes
         tamen eius neumae plagales sunt dicendae, quia a finalis quinta non transcendit chordam: sic
         in pluribus eadem ratio est habenda, de quibus modo non est dicendum per singula. Quando

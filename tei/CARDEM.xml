@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De musica liber</title>
         <title type="abbrev">CARDEM</title>
-        <author>Cardanus, Hieronymus</author>
-        <date notBefore="1500" notAfter="1599">16th</date>
+        <author><persName>Cardanus, Hieronymus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>James Rodgers</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2001</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2001">2001</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Hieronymi Cardani Mediolanensis philosophi ac medici celeberrimi operum tomus
@@ -38,8 +48,8 @@
       <p xml:id="CARDEM0002">DE MVSICA LIBER.</p>
       <p xml:id="CARDEM0003">CAPVT I.</p>
       <p xml:id="CARDEM0004">De Laude Musicae et eius praestantia.</p>
-      <p xml:id="CARDEM0005">MVsicam neque ab antiquitate nec ab inuentorum gloria, quae duo ferme sunt
-        cunctis artium laudandarum prooemiis communia, sed ab ipsa vtilitate excellentia
+      <p xml:id="CARDEM0005">MVsicam neque ab antiquitate nec ab inuentorum gloria, quae duo ferme
+        sunt cunctis artium laudandarum prooemiis communia, sed ab ipsa vtilitate excellentia
         subtilitatéque laudanda ac caeteris aliis tum artibus tum disciplinis praeferenda existimo.
         Non quod vel vetustate, vel inuentorum dignitate cuiquam sit inferior, nempe ...</p>
       <p xml:id="CARDEM0006">CAPVT II.</p>
@@ -53,14 +63,14 @@
         proportiones hae differentiae, at proportiones quantitatibus propriae sunt. Secundum has
         etiam differentias sumuntur genera omnium vocum, vnde manifestum est, quod haec est soni
         vera magnitudo:</p>
-      <p xml:id="CARDEM0010">3 Sed qualis est proportio fidium aut instrumentotum in magnitudine talis
-        est sonorum in grauitate, vbi aequaliter chordae tendantur. At contraria ratione talis est
-        proportio in acuitate, qualis chordarum in longitudine, sed tamen commutata ratiane, velut
-        si sint chordae duae, quarum vna alteri dupla sit, breuioris sonus duplus dicetur in
+      <p xml:id="CARDEM0010">3 Sed qualis est proportio fidium aut instrumentotum in magnitudine
+        talis est sonorum in grauitate, vbi aequaliter chordae tendantur. At contraria ratione talis
+        est proportio in acuitate, qualis chordarum in longitudine, sed tamen commutata ratiane,
+        velut si sint chordae duae, quarum vna alteri dupla sit, breuioris sonus duplus dicetur in
         acuitate longiori, longioris autem breuiori in grauitate duplus.</p>
-      <p xml:id="CARDEM0011">4 Sed dubitatur, si longior dimidio breuiore sit longior, non videtur fieri
-        posse, vt breuioris sonus sit dimidio acutior grauiore ac souo longioris, nam nullo modo
-        fieri potest vt duo ad tria sexquialteram obtineant proportionem. Sed dicemus ita
+      <p xml:id="CARDEM0011">4 Sed dubitatur, si longior dimidio breuiore sit longior, non videtur
+        fieri posse, vt breuioris sonus sit dimidio acutior grauiore ac souo longioris, nam nullo
+        modo fieri potest vt duo ad tria sexquialteram obtineant proportionem. Sed dicemus ita
         contingere, nec est huic rei aliud exemplum simile: verùm consonantia fiat grauis ad acutum,
         acuta à graui dissonare non potest, aliter simul dissonarent ac consonarent. At hoc esse
         necesse est, vbi proportio commutetur: igitur acuti ad grauem et grauis ad acutum proportio
@@ -74,8 +84,8 @@
         angulo obtuso comparari potest vt acuta acuto. Sed videtur acuta maior esse, quia
         vehementius ferit aërem quod breue est ab aequali robore. Ob hoc antiqui in acutioribus
         maiores numeros descripserunt.</p>
-      <p xml:id="CARDEM0013">6 Robur est vocis Constantia, nam cum idem neruus eodem modo tensus, seu
-        feriatur vehementer seu languidè, eandem soni magnitudinem referat: cum tamen vehementer
+      <p xml:id="CARDEM0013">6 Robur est vocis Constantia, nam cum idem neruus eodem modo tensus,
+        seu feriatur vehementer seu languidè, eandem soni magnitudinem referat: cum tamen vehementer
         longissimè exauditur, cum languidè non ita, manifestum est aliam esse rationem roboris
         vocis, aliam magnitudinis. Consonans vox non dicitur aut dissonans penes robur, sed iuxta
         solam magnitudinem.</p>
@@ -97,8 +107,8 @@
         ea vt diapason diapente. Vltimò sunt ditonus et trihemitonium seu sexquitonus. Primum genus
         vocarunt Homophonum, secundum cum tertio symphonum, quartum autem Emelem quasi bene
         sonantem, cui opponitur Eemeles inconcinna.</p>
-      <p xml:id="CARDEM0017">10 Cum enim ex his quae in libris de subtilitate demonstrata sunt, dum de
-        pulchritudine loqueremur, simplicissima proportio sit auribus maximè congrua atque ideò
+      <p xml:id="CARDEM0017">10 Cum enim ex his quae in libris de subtilitate demonstrata sunt, dum
+        de pulchritudine loqueremur, simplicissima proportio sit auribus maximè congrua atque ideò
         iucundissima, simplicissima autem sit vnisonus, quia aequalitate constat, erit haec etiam
         iucundissima: inde Diapason et post bisdiapason quae quadrupla constat proportione, vt
         terdiapason octupla et quaterdiapason sexdecupla; ea autem constat vocibus viginti novem
@@ -108,8 +118,8 @@
         dissonant, nam auris non percipet interuallum, incognitum autem nec diligi potest nec odio
         haberi, vnde ter diapason et quater diapason, nec intelligitur nec bene sonare multum
         videtur, nisi intermediis vocibus extremae inuicem iungantur.</p>
-      <p xml:id="CARDEM0019">12 His verò quae optimé consonant quaecunque propinquiores fuerint magis
-        consonabunt. Sextupla igitur proportio quae est bis diapason diapente duodecupla magis
+      <p xml:id="CARDEM0019">12 His verò quae optimé consonant quaecunque propinquiores fuerint
+        magis consonabunt. Sextupla igitur proportio quae est bis diapason diapente duodecupla magis
         consonabit propter undecima axioma ac suppositionem duodecupla nonupla id est ter diapason
         addito tono ob praesentem suppositionem; licet enim duodecupla maior sit nonupla et nonupla
         integra, attamen nonupla longè remotior est à duplae natura, in qua perfectissima existit
@@ -129,34 +139,34 @@
         Emniele symphono seu sexta Diapaso, licet non sit melior per se, ob varietatem redditur
         melior. Atque ita non solùm Emmele tolleratur, sed et Eemele in vsum veniunt, dicemus autem
         quomodo.</p>
-      <p xml:id="CARDEM0022">15 Non igitur duae perfectae consonantes vt duae diapason aut duo diapente
-        sibi succedere possunt, nam neque altera alterâ melior, quod tertia decima regula postulat,
-        nec varietas vlla quod praecedens edocet. Sed et videbitur in diapaso superflua vna vox,
-        quoniam est ac si per vnisonum progrederentur. Est enim diapason symphonia adeò perfecta vt
-        propinqua sit valde homophono. Igitur manifestum est quod non solùm propter tres causas
-        diapason mutatis vocibus potest succedere, sed quod nec diapente diapente.</p>
-      <p xml:id="CARDEM0023">16 Ex quo manifestum est eadem ratione nec bene sonare, si vel duae sextae
-        maiores aut duae minores aut duae eadem ratione tertiae maiores aut minores, quod obseruauit
-        optimè Adrianus, iunctae erant; nam ex tribus causis quae in diapaso et diapente descriptae
-        adsunt, duae militant etiam in Emmele, cum similis simili successerit, scilicet vt nec
-        altera melior sit, nec varietate iucundior: admittitur tamen à plerisque hoc, quod tertia
-        causa desit, nam non idem dicere videretur. At sextam maiorem aut tertiam maiorem minori,
-        aut minores maiori succedere optimum est, ac secundum praecepta semper quartae decimae
-        regulae plerumque etiam tertiae decimae.</p>
+      <p xml:id="CARDEM0022">15 Non igitur duae perfectae consonantes vt duae diapason aut duo
+        diapente sibi succedere possunt, nam neque altera alterâ melior, quod tertia decima regula
+        postulat, nec varietas vlla quod praecedens edocet. Sed et videbitur in diapaso superflua
+        vna vox, quoniam est ac si per vnisonum progrederentur. Est enim diapason symphonia adeò
+        perfecta vt propinqua sit valde homophono. Igitur manifestum est quod non solùm propter tres
+        causas diapason mutatis vocibus potest succedere, sed quod nec diapente diapente.</p>
+      <p xml:id="CARDEM0023">16 Ex quo manifestum est eadem ratione nec bene sonare, si vel duae
+        sextae maiores aut duae minores aut duae eadem ratione tertiae maiores aut minores, quod
+        obseruauit optimè Adrianus, iunctae erant; nam ex tribus causis quae in diapaso et diapente
+        descriptae adsunt, duae militant etiam in Emmele, cum similis simili successerit, scilicet
+        vt nec altera melior sit, nec varietate iucundior: admittitur tamen à plerisque hoc, quod
+        tertia causa desit, nam non idem dicere videretur. At sextam maiorem aut tertiam maiorem
+        minori, aut minores maiori succedere optimum est, ac secundum praecepta semper quartae
+        decimae regulae plerumque etiam tertiae decimae.</p>
       <p xml:id="CARDEM0024">17 Sed dissonans stare non potest. Vt enim in his qui nimio iam frigore
         obriguerunt calor etiam ostendit, quod iam confirmata sit frigiditas, ita consonans vox
         succedens dissonanti, si dissonans non moram traxerit vehementius ex tertia decima regula
         aurem delectat: vt verò moram traxerit, dissonans vox totam euertit harmoniam.</p>
-      <p xml:id="CARDEM0025">18 Ob id igitur et toni et semitonia et dieses plurimùm delectant cum moram
-        non traxerint, aliter autem totam euertunt harmoniam. Igitur Enarmonicum genus quod in
+      <p xml:id="CARDEM0025">18 Ob id igitur et toni et semitonia et dieses plurimùm delectant cum
+        moram non traxerint, aliter autem totam euertunt harmoniam. Igitur Enarmonicum genus quod in
         diesibus constat nunquam quiescit in his fidibus, quae diesi distinguuntur à reliquis.</p>
-      <p xml:id="CARDEM0026">19 Quamobrem Enarmonicum genus aptius instrumentis quam modulandis humanis
-        vocibus, tum quia fides celerius <pb n="[107]"/>sonum mutent et amittant quàm humanae voces
-        et instrumenta quae spiritu inflantur, tum quia in tanta varietate et tam exigua non tam
-        facilè est seruare metam vocum humanarum, tum quia fidium voces suo loco sunt
+      <p xml:id="CARDEM0026">19 Quamobrem Enarmonicum genus aptius instrumentis quam modulandis
+        humanis vocibus, tum quia fides celerius <pb n="[107]"/>sonum mutent et amittant quàm
+        humanae voces et instrumenta quae spiritu inflantur, tum quia in tanta varietate et tam
+        exigua non tam facilè est seruare metam vocum humanarum, tum quia fidium voces suo loco sunt
         constantes.</p>
-      <p xml:id="CARDEM0027">20 At verò vox facilius mutatur ad propinquissimam quàm ad distantem Cum
-        enim vt dictum est in secunda regula vocis ratio sit in magnitudine per quam vox voci
+      <p xml:id="CARDEM0027">20 At verò vox facilius mutatur ad propinquissimam quàm ad distantem
+        Cum enim vt dictum est in secunda regula vocis ratio sit in magnitudine per quam vox voci
         concordat aut dissonat, magnitudo autem sensim et in tempore acquiratur, necesse est
         quamlibet vocem celerius ad diesim quàm ad semitonium, et ad semitonium quàm tonum, et ad
         tonum quàm ditonum, et ad ditonum quàm diatessaron, ad hoc autem celerius quàm ad diapente,
@@ -199,25 +209,25 @@
         tonus. Sed neutrum est verum, sed semitonium est interuallum inter mi et fa et non mi vel fa
         vnde dicendo re mi vel fa sol fit tonus et non semitonium. Et dicendo fa mi vel mi fa fit
         semitonium, ideo est interuallum.</p>
-      <p xml:id="CARDEM0033">25 Interualla igitur quaedam sunt vtilia et quaedam inutilia. Inutilia sunt
-        coma Tritonúsque et Aposthome seu semitonium maius et schisma quod est comatis dimidium.
-        Vtilia sunt Tonus semitonium minus et diesis item quae ex his proueniunt pleraque vt
-        ditonus, diatessaron, diapente, Dixi pleraque, nam si componatur tonus cum duobus semitonis
-        minoribus fit ditonus imperfectus. Et si duo minora semitonia cum duobus tonis fit diapente
-        imperfectum quae sunt inutilia.</p>
-      <p xml:id="CARDEM0034">26 Vt igitur sciamus quae sint species interuallorum vtilium sciendum, quod
-        tonui consistit in sexquioctaua vt demonstrabo et dimidium qquod consistit in proportione
-        18. ad 17. et vocatur semitonium minus et diesis quae est quarta pars toni, et dimidium
-        minoris semitonij, et consistit in proportione 35 ad 34 et est minimum interuallum, quod
-        cani possit vt demonstrabo sunt de genere vtilium, vnde praeterea quod comma cum sit minor
-        diesi non potest per se cani: ideo consideratio de comate et schismate facta à Iacobo Fabro
-        Stephalenti est potius ambitiosa quàm vtilis. Cum sint praesertim tot vtilia consideranda in
-        hac arte quae vel exoleuerunt venustate, vel nondum in lucem prodierunt. Sed ex vtilibus est
-        etiam Diapason quod in dupla consistit, diapente quod in interuallo sexquialtero, et
-        diatessaron quod in sexquitertio seu epitrito. Haec autem in instrumentorum fidibus et
-        interuallis spatiorum ex tertia regula demonstrari possunt. Sunt et vt dixi ditonus et
-        trihemitonium <pb n="[108]"/>et sexta maior et minor, post secunda et septima, vt sint in
-        vniuersum addito vnisono interualla duodecim vt in figura vides.</p>
+      <p xml:id="CARDEM0033">25 Interualla igitur quaedam sunt vtilia et quaedam inutilia. Inutilia
+        sunt coma Tritonúsque et Aposthome seu semitonium maius et schisma quod est comatis
+        dimidium. Vtilia sunt Tonus semitonium minus et diesis item quae ex his proueniunt pleraque
+        vt ditonus, diatessaron, diapente, Dixi pleraque, nam si componatur tonus cum duobus
+        semitonis minoribus fit ditonus imperfectus. Et si duo minora semitonia cum duobus tonis fit
+        diapente imperfectum quae sunt inutilia.</p>
+      <p xml:id="CARDEM0034">26 Vt igitur sciamus quae sint species interuallorum vtilium sciendum,
+        quod tonui consistit in sexquioctaua vt demonstrabo et dimidium qquod consistit in
+        proportione 18. ad 17. et vocatur semitonium minus et diesis quae est quarta pars toni, et
+        dimidium minoris semitonij, et consistit in proportione 35 ad 34 et est minimum interuallum,
+        quod cani possit vt demonstrabo sunt de genere vtilium, vnde praeterea quod comma cum sit
+        minor diesi non potest per se cani: ideo consideratio de comate et schismate facta à Iacobo
+        Fabro Stephalenti est potius ambitiosa quàm vtilis. Cum sint praesertim tot vtilia
+        consideranda in hac arte quae vel exoleuerunt venustate, vel nondum in lucem prodierunt. Sed
+        ex vtilibus est etiam Diapason quod in dupla consistit, diapente quod in interuallo
+        sexquialtero, et diatessaron quod in sexquitertio seu epitrito. Haec autem in instrumentorum
+        fidibus et interuallis spatiorum ex tertia regula demonstrari possunt. Sunt et vt dixi
+        ditonus et trihemitonium <pb n="[108]"/>et sexta maior et minor, post secunda et septima, vt
+        sint in vniuersum addito vnisono interualla duodecim vt in figura vides.</p>
       <p xml:id="CARDEM0035">1 Diesis.</p>
       <p xml:id="CARDEM0036">2 Semithonus minus.</p>
       <p xml:id="CARDEM0037">3 Tonus.</p>
@@ -250,22 +260,22 @@
         proportionem 9/8 duco superiorem numerum in se fit 81 et inferiorem in se fit 64 et
         proportio 81/64 est duae sexquioctauae id est ditonus,</p>
       <p xml:id="CARDEM0052">[Cardanus, De musica, 108,2; text: 9, 8, 81, 64]</p>
-      <p xml:id="CARDEM0053">eadem ratione habebo tritonum ducendo bis 9 in se et fit 729 et bis 8 in se
-        et fit 512 et proportio 729/512 est tritonus. Et vt inueniam singulos tonos addo termino
-        inferiori sexqioctauas, vt in dictono addita octaua parte 64 fit 72 primus tonus inter 72 et
-        64 addo rursus octauam partem ad 72 quae est 9. fit 8. tonus inter 81 et 72.</p>
-      <p xml:id="CARDEM0054">[Cardanus, De musica, 108,3; text: Ditonus, 64. 72. 81. Tritonus, 512. 576.
-        648. 729.]</p>
+      <p xml:id="CARDEM0053">eadem ratione habebo tritonum ducendo bis 9 in se et fit 729 et bis 8
+        in se et fit 512 et proportio 729/512 est tritonus. Et vt inueniam singulos tonos addo
+        termino inferiori sexqioctauas, vt in dictono addita octaua parte 64 fit 72 primus tonus
+        inter 72 et 64 addo rursus octauam partem ad 72 quae est 9. fit 8. tonus inter 81 et 72.</p>
+      <p xml:id="CARDEM0054">[Cardanus, De musica, 108,3; text: Ditonus, 64. 72. 81. Tritonus, 512.
+        576. 648. 729.]</p>
       <p xml:id="CARDEM0055">Et ita in tritono primus tonus est inter 576. et 512. et secundus tonus
         inter 648 et 576 et tertius tonus inter 729. et 648.</p>
-      <p xml:id="CARDEM0056">29 Cùm verò volueris detrahere proportionem à proportione vt à proportione
-        3/2 quae est sexquialtera diapente consonantia 9/8 sexquioctauam quae est tonus gratia
-        exempli: ducito 3 in 8 in crucem et fit 24 pro denominatore qui sumitur à denominatore
-        maioris proportionis et ita in crucem ducito 2 in 9. fit 18, consurget igitur proportio
-        24/18 quae est vt 4/3 Epitrita diatessaron.</p>
+      <p xml:id="CARDEM0056">29 Cùm verò volueris detrahere proportionem à proportione vt à
+        proportione 3/2 quae est sexquialtera diapente consonantia 9/8 sexquioctauam quae est tonus
+        gratia exempli: ducito 3 in 8 in crucem et fit 24 pro denominatore qui sumitur à
+        denominatore maioris proportionis et ita in crucem ducito 2 in 9. fit 18, consurget igitur
+        proportio 24/18 quae est vt 4/3 Epitrita diatessaron.</p>
       <p xml:id="CARDEM0057">[Cardanus, De musica, 108,4; text: 3, 2, X, 24, 18, 9, 8]</p>
-      <p xml:id="CARDEM0058">Ex quo habemus quod detractio haec est potius diuisio sicut aggregatum est
-        multiplicatio in proportionibus. Et hoc cur sit vt dixi suo loco est declaratum.</p>
+      <p xml:id="CARDEM0058">Ex quo habemus quod detractio haec est potius diuisio sicut aggregatum
+        est multiplicatio in proportionibus. Et hoc cur sit vt dixi suo loco est declaratum.</p>
       <p xml:id="CARDEM0059">30 Sed si volo diuidere vnam proportionem per aequalia vtpote tonum 9/8
         possum hoc facere verè et arithmeticè tantum vere est duplices vtrumque terminum seu numerum
         et fiunt 18 et 16 et post capies numerum aequaliter distantem ab vtroque qui est 17 et
@@ -277,8 +287,8 @@
         proportionis 9/8 duc 9 in 8 fit 72, accipe latus seu radicem quae est radix 72 et huius
         proportio ad 8 hoc modo radix 72/8 est semitonium verè. Eadem ratione diesis erit radix
         4608/8. Haec autem est proximè valde 239/232 vel 35/34 et proximior 35/34 quàm 26/35.</p>
-      <p xml:id="CARDEM0062">31 Cum fuerint tres numeri quorum proportio primi ad tertium fuerit sicut
-        distantiae primi et secundi ad distantiam secundi ad tertium, tunc dicetur habere
+      <p xml:id="CARDEM0062">31 Cum fuerint tres numeri quorum proportio primi ad tertium fuerit
+        sicut distantiae primi et secundi ad distantiam secundi ad tertium, tunc dicetur habere
         proportionem musicam vt vides in rribus exemplis.</p>
       <p xml:id="CARDEM0063">[Cardanus, De musica, 108,6; text: 6. 3. 2. 4. 187. 85. 55. Primus.
         Secundus. Tertius.]</p>
@@ -299,17 +309,17 @@
         etiam in quintupla quàm in tripla et in septupla quàm quintupla, sed latebunt et
         consonantiae nisi cum ad terminum venerint. Igitur amplior ibi copia vocum, sed ob
         difficultatem plerúmque negligitur.</p>
-      <p xml:id="CARDEM0066">33 Voces igitur dissonae tribus modis admittuntur, vel quia incertum habent
-        tempus vt in syncopa et proportionibus, ita vt non ictus primam partem occupent, vel quia
-        celerrimè transeant, vel quia temporis locum minimè principalem obtineant. Collocantur autem
-        tres ob causas vel ad augendum iucunditatem consonantiae vt septima ante diapason, quod
-        maximè est in vsu, vel ob varietatem vt in chromatico et Enarmonico diatessaro seu
+      <p xml:id="CARDEM0066">33 Voces igitur dissonae tribus modis admittuntur, vel quia incertum
+        habent tempus vt in syncopa et proportionibus, ita vt non ictus primam partem occupent, vel
+        quia celerrimè transeant, vel quia temporis locum minimè principalem obtineant. Collocantur
+        autem tres ob causas vel ad augendum iucunditatem consonantiae vt septima ante diapason,
+        quod maximè est in vsu, vel ob varietatem vt in chromatico et Enarmonico diatessaro seu
         constitutione, vel ad augendam musicae materiam.</p>
       <p xml:id="CARDEM0067">CAPVT III.</p>
       <p xml:id="CARDEM0068">De Tetrachordorum generibus.</p>
-      <p xml:id="CARDEM0069">CAusa, inuentionis diuersorum generum tetrachordorum fuit triplex: prima
-        quòd, cum esset vox humana angustis terminis contenta, vt vix proportionem sexdecim ad vnum
-        admitteret, atque in diapaso solùm voces vtiles illae duodecim de quibus dictum est
+      <p xml:id="CARDEM0069">CAusa, inuentionis diuersorum generum tetrachordorum fuit triplex:
+        prima quòd, cum esset vox humana angustis terminis contenta, vt vix proportionem sexdecim ad
+        vnum admitteret, atque in diapaso solùm voces vtiles illae duodecim de quibus dictum est
         continerentur. Oportuit excogitare tum maximè in fidibus, vt non solùm sex in diapaso sed
         plures propter chromaticum genus collocarentur, ac vsque ad tredecim in Enarmonico. Secunda
         vt voces, quae paruis interuallis distant dissonae alioquin celeriter ex vicesima regula
@@ -334,33 +344,34 @@
         maximè varietatem hanc tetrachordorum excogitatam conduxisse.</p>
       <p xml:id="CARDEM0070">CAPVT IV.</p>
       <p xml:id="CARDEM0071">De Instrumentorum Musicorum differentia.</p>
-      <p xml:id="CARDEM0072">CVm omnia instrumenta Musica sono constent, necesse est vt Sonus ille vel
-        fiat in gutture vel ex aëris impulsu qui ex ore prodiens sonum efficiat, velut absque nostro
-        spiritu fiat, atque tunc etiam duplex discrimen: vel euim fit ex aëre collecto, vel libero;
-        liber autem aër non potest sonos sub certâ ratione reddere, nisi mensura et tenuitate fidium
-        causam praebente. Ergo quatuor erunt in vniuersum instrumentorum genera, quae vocem reddunt
-        in gutture formatam, vocantur autem fistulae, súntque vnius tantûm generis. Quae verò
-        spiritum solum recipiunt vocem autem formant in se sunt vt Buccinae, litui, cornua, tibiae,
-        tubae, Elymae quas vocamus Flautos, Phipholae, syringes. Tertij generis sunt Organa et
-        Hydraulica. Quarti generis sunt lyra quae antiquissima est, cithara, Sambucae, chelis,
-        Psalteria, clauicitheria, clauicordia, clauicymbala, Magades, Barbithi, Naula, monochorda,
-        cornua, testudines, tricordia, Simica, Epigonia. Sunt et quaedam instrumenta imperfecta vt
-        Tympana, Cymbala, Gotala, Nolae, Sistra, Tintinabula, Hemicyclia, Vrcei Turcarum inuentum.
-        Sunt etiam quaedam composita ex his. Materia, AEs, Cornu, Vitrum, ebur, ferrum, Arundo,
-        plumbum album, lignum, cortex maximè lauri humilioris, orichalcum aliáque innumera. Sunt et
-        aliae differentiae, nam instrumentorum quaedam sunt omninò imperfecta vt cornua monochorda
-        trichordia, quaedam perfecta vt Chelis et organum et cornua, quaedam non vt tuba claua,
-        cymbalum, tibia, Elyma. Quaedam rursus vnam tantùm edunt vocem vt lyrae maiores, quas
-        vocamus vulgò crurales, et monochorda et fistulae, tibiae tubae tympana, quaedam plures vt
-        cithara, chelis organum. Quaedam rursus sunt distincta suis locis: vt inter tibiarum <pb n="[110]"/>genera Elyme, inter citharas lutina, quaedam solum spatio, vt inter ea quae
-        Spiritu inflantur tuba mobilis, inter citharas trichordia. Quaedam nullo modo, sed singuli
-        nerui suis seruiunt vocibus, vt lyra simica, clauichordia, organa. Porro cum sint multae
-        aliae differentiae instrumentorum velle eas hic recitare generaliter cum imperitis methodi
-        haec scribantur, potius esset ambitiosi viri, quàm volentis haec docere. Quamobrem singula
-        suis locis explicabuntur, haec tamen praeterire non licuit.</p>
+      <p xml:id="CARDEM0072">CVm omnia instrumenta Musica sono constent, necesse est vt Sonus ille
+        vel fiat in gutture vel ex aëris impulsu qui ex ore prodiens sonum efficiat, velut absque
+        nostro spiritu fiat, atque tunc etiam duplex discrimen: vel euim fit ex aëre collecto, vel
+        libero; liber autem aër non potest sonos sub certâ ratione reddere, nisi mensura et
+        tenuitate fidium causam praebente. Ergo quatuor erunt in vniuersum instrumentorum genera,
+        quae vocem reddunt in gutture formatam, vocantur autem fistulae, súntque vnius tantûm
+        generis. Quae verò spiritum solum recipiunt vocem autem formant in se sunt vt Buccinae,
+        litui, cornua, tibiae, tubae, Elymae quas vocamus Flautos, Phipholae, syringes. Tertij
+        generis sunt Organa et Hydraulica. Quarti generis sunt lyra quae antiquissima est, cithara,
+        Sambucae, chelis, Psalteria, clauicitheria, clauicordia, clauicymbala, Magades, Barbithi,
+        Naula, monochorda, cornua, testudines, tricordia, Simica, Epigonia. Sunt et quaedam
+        instrumenta imperfecta vt Tympana, Cymbala, Gotala, Nolae, Sistra, Tintinabula, Hemicyclia,
+        Vrcei Turcarum inuentum. Sunt etiam quaedam composita ex his. Materia, AEs, Cornu, Vitrum,
+        ebur, ferrum, Arundo, plumbum album, lignum, cortex maximè lauri humilioris, orichalcum
+        aliáque innumera. Sunt et aliae differentiae, nam instrumentorum quaedam sunt omninò
+        imperfecta vt cornua monochorda trichordia, quaedam perfecta vt Chelis et organum et cornua,
+        quaedam non vt tuba claua, cymbalum, tibia, Elyma. Quaedam rursus vnam tantùm edunt vocem vt
+        lyrae maiores, quas vocamus vulgò crurales, et monochorda et fistulae, tibiae tubae tympana,
+        quaedam plures vt cithara, chelis organum. Quaedam rursus sunt distincta suis locis: vt
+        inter tibiarum <pb n="[110]"/>genera Elyme, inter citharas lutina, quaedam solum spatio, vt
+        inter ea quae Spiritu inflantur tuba mobilis, inter citharas trichordia. Quaedam nullo modo,
+        sed singuli nerui suis seruiunt vocibus, vt lyra simica, clauichordia, organa. Porro cum
+        sint multae aliae differentiae instrumentorum velle eas hic recitare generaliter cum
+        imperitis methodi haec scribantur, potius esset ambitiosi viri, quàm volentis haec docere.
+        Quamobrem singula suis locis explicabuntur, haec tamen praeterire non licuit.</p>
       <p xml:id="CARDEM0073">CAPVT V.</p>
-      <p xml:id="CARDEM0074">De causa et materia soni in instrumentis et differentia ex materia, ex qua
-        instrumenta constant.</p>
+      <p xml:id="CARDEM0074">De causa et materia soni in instrumentis et differentia ex materia, ex
+        qua instrumenta constant.</p>
       <p xml:id="CARDEM0075">SOnus est accidens aurium sensu proprio quod percipi potest ob aërem
         percussum. Sonus autem perfectus sit, quotiens aër inter duo dura corpora percutitur, vel
         cum vnum corpus vt in fidibus aërem percutiendo alteri corpori illidit. Generaliter verò fit
@@ -409,16 +420,16 @@
         temperet.</p>
       <p xml:id="CARDEM0077">CAPVT VI.</p>
       <p xml:id="CARDEM0078">De Instrumentorum nobilitate.</p>
-      <p xml:id="CARDEM0079">INstrumentorum nobilitas ex nouem habetur conditionibus, amplo systemate,
-        vt scilicet saltem bis diapason excedat, <pb n="[111]"/>velut chelis quae ad viginti
-        peruenit vocem, organum ad quater diapason, suaui voce non asperâ non obstrepente, quòd
-        facilè pulsentur. Et ob has tres causas litui imperfecti sunt et ignobiles. Difficilius enim
-        longè inflantur elymis, rauci sunt et obstrepunt, nec supra diapason nisi vna duntaxat voce
-        ascendunt: cornua verò etiam his duas has ob vltimas causas sunt viliora. Quarta conditio
-        est vt cum humana voce et aliis instrumentis facilè conueniant. Hanc ob causam elymae minimè
-        laudantur, vix enim vllum aliud instrumentum minus conuenit. Quinta quod polyphona meliora
-        sunt tricordiis dicordiis et monophonis. Quaecunque etiam vocem retinent, vt organa
-        praestantiora sunt fugacem habentibus, sic pedales lyrae clauichordiis ac chelis
+      <p xml:id="CARDEM0079">INstrumentorum nobilitas ex nouem habetur conditionibus, amplo
+        systemate, vt scilicet saltem bis diapason excedat, <pb n="[111]"/>velut chelis quae ad
+        viginti peruenit vocem, organum ad quater diapason, suaui voce non asperâ non obstrepente,
+        quòd facilè pulsentur. Et ob has tres causas litui imperfecti sunt et ignobiles. Difficilius
+        enim longè inflantur elymis, rauci sunt et obstrepunt, nec supra diapason nisi vna duntaxat
+        voce ascendunt: cornua verò etiam his duas has ob vltimas causas sunt viliora. Quarta
+        conditio est vt cum humana voce et aliis instrumentis facilè conueniant. Hanc ob causam
+        elymae minimè laudantur, vix enim vllum aliud instrumentum minus conuenit. Quinta quod
+        polyphona meliora sunt tricordiis dicordiis et monophonis. Quaecunque etiam vocem retinent,
+        vt organa praestantiora sunt fugacem habentibus, sic pedales lyrae clauichordiis ac chelis
         praeferuntur. Quae etiam vocem habent amplam: his quae tenuem habent praestant. Octaua est,
         quod instrumenta quae minimis interuallis ac frequentioribus diuisum habent systema, his
         quae maioribus ac paucioribus praepollent. Hac de causa chelis est praestantior organo, nam
@@ -449,35 +460,36 @@
       <p xml:id="CARDEM0083">[Cardanus, De musica, 111; text: A, C, D, E, F, G, H, K, L, M, N, B] <figure>
           <graphic url="/images/CARDEM_02GF.gif"/>
         </figure></p>
-      <p xml:id="CARDEM0084">cuius superius foramen per quod Spiritus immittitur dicat A, B ex aduerso,
-        dico quod per B emittitur Spiritus ac vox, de spiritu quidem opposita manu sentitur. Quod
-        autem etiam vox emittatur, tribus aut etiam quatuor modis potest demonstrari: primus quod si
-        occludantur foramina D E F G H L M N B exauditur sibilus solùm non vox ex C, aperto autem B
-        exauditur vox grauissima, igitur vox illa per B. effertur. Secundus quod in paruis Elymis:
-        si occludatur B ex parte vox exacuitur vt etiam aperto D. igitur per B vox effertur. Tertius
-        est quod in cornibus occlusio ex parte B fit vox suauior. Quartus quod vox augetur vna in
-        elymis, imo omnes eo foramine diuersis modis hiante quadruplices euadunt. Deferri autem
-        vocem vsque ad imum instrumenti hoc argumento deprehenditur, quia conclusis omnibus
-        formaminibus exceptis A B C exauditur vox grauissima. Sed idem contingit relictis apertis A
-        B N, occluso autem B cum aliis, quia exauditur vox tono altior grauissima, sicut relicto B
-        aperto et N. quare vox ipsa fertur quàm longissime, verùm cum longius fertur vt audiatur vox
-        eò maiore indiget nixu. Inditio aurem est duo foramina A et B. sufficere ad sonum, et quod
-        magno indigeant Spiritu quibus haec tantùm adsunt, quòd Buccinae et cornua cursorum sonant,
-        cum tamen haec tantùm habeant foramina, sed magno spiritu indigent, et procul etiam quia
-        vehementius inflantur, audiuntur: Ob id ergo, vt facilius possint inflari; obducta rotula
-        foramen reddunt <pb n="[112]"/>angustissimum, verùm si nulla rotula obducatur A foramen,
-        quanquam difficilius inflentur, longè tamen dulcius sonant, vocantúrque cornua surda, atque
-        haec solent vocibus associari: nam cum humana voce magis conueniunt.</p>
-      <p xml:id="CARDEM0085">In instrumentis autem in quibus adsunt foramina vtilia, B foramen adiicit
-        vocum numero extremam, quia obstructis omnibus foraminibus si B obstruatur non resonat, sed
-        aperto fungitur officio resonátque vltima grauiorum. Sed in aliis vocibus F G H E L et M
-        facit vt tutius adhibeatur plenus Spiritus. Aliter si B ocludatur transit vox in schilum seu
-        ad diapason superius. Et ideo manifestum est cur in paruis Elymis occluso vt dictum est B,
-        vox transit ad superius diapason, occluditur autem vt dixi non totum: vocis igitur proprium
-        est maximè descendere, cum verò impedita per superiora foramina cogitur erumpere, pleniore
-        indiget spiritu, quare ad diapason transit superius. Cum verò aperitur B facilius resonat,
-        igitur minori indiget spiritu instrumentum, igitur dulcius sonabit, igitur B foramen facit
-        ad dulcedinem omnium vocum, etiam praeter id quod vnam vt dictum est vocem adiicit.</p>
+      <p xml:id="CARDEM0084">cuius superius foramen per quod Spiritus immittitur dicat A, B ex
+        aduerso, dico quod per B emittitur Spiritus ac vox, de spiritu quidem opposita manu
+        sentitur. Quod autem etiam vox emittatur, tribus aut etiam quatuor modis potest demonstrari:
+        primus quod si occludantur foramina D E F G H L M N B exauditur sibilus solùm non vox ex C,
+        aperto autem B exauditur vox grauissima, igitur vox illa per B. effertur. Secundus quod in
+        paruis Elymis: si occludatur B ex parte vox exacuitur vt etiam aperto D. igitur per B vox
+        effertur. Tertius est quod in cornibus occlusio ex parte B fit vox suauior. Quartus quod vox
+        augetur vna in elymis, imo omnes eo foramine diuersis modis hiante quadruplices euadunt.
+        Deferri autem vocem vsque ad imum instrumenti hoc argumento deprehenditur, quia conclusis
+        omnibus formaminibus exceptis A B C exauditur vox grauissima. Sed idem contingit relictis
+        apertis A B N, occluso autem B cum aliis, quia exauditur vox tono altior grauissima, sicut
+        relicto B aperto et N. quare vox ipsa fertur quàm longissime, verùm cum longius fertur vt
+        audiatur vox eò maiore indiget nixu. Inditio aurem est duo foramina A et B. sufficere ad
+        sonum, et quod magno indigeant Spiritu quibus haec tantùm adsunt, quòd Buccinae et cornua
+        cursorum sonant, cum tamen haec tantùm habeant foramina, sed magno spiritu indigent, et
+        procul etiam quia vehementius inflantur, audiuntur: Ob id ergo, vt facilius possint inflari;
+        obducta rotula foramen reddunt <pb n="[112]"/>angustissimum, verùm si nulla rotula obducatur
+        A foramen, quanquam difficilius inflentur, longè tamen dulcius sonant, vocantúrque cornua
+        surda, atque haec solent vocibus associari: nam cum humana voce magis conueniunt.</p>
+      <p xml:id="CARDEM0085">In instrumentis autem in quibus adsunt foramina vtilia, B foramen
+        adiicit vocum numero extremam, quia obstructis omnibus foraminibus si B obstruatur non
+        resonat, sed aperto fungitur officio resonátque vltima grauiorum. Sed in aliis vocibus F G H
+        E L et M facit vt tutius adhibeatur plenus Spiritus. Aliter si B ocludatur transit vox in
+        schilum seu ad diapason superius. Et ideo manifestum est cur in paruis Elymis occluso vt
+        dictum est B, vox transit ad superius diapason, occluditur autem vt dixi non totum: vocis
+        igitur proprium est maximè descendere, cum verò impedita per superiora foramina cogitur
+        erumpere, pleniore indiget spiritu, quare ad diapason transit superius. Cum verò aperitur B
+        facilius resonat, igitur minori indiget spiritu instrumentum, igitur dulcius sonabit, igitur
+        B foramen facit ad dulcedinem omnium vocum, etiam praeter id quod vnam vt dictum est vocem
+        adiicit.</p>
       <p xml:id="CARDEM0086">Omne etiam instrumentum quantò latiora habet foramina maiore Spiritu vt
         resonet indiget, nam per valde patentia loca, cum non collidatur, aër nullus fit, sonus
         igitur quantò latiora foramina, eò absunt à collisione magis aëris, quare cum magnus
@@ -489,22 +501,23 @@
         inflantur. Rursus quod eo concluso foramine Elyme vix resonat. In phipholis autem, quia
         eodem foramine vox redditur quo immittitur spiritus, vt in sua figura videre potes, adeò vt
         C vicem gerat A, ideo minore quàm litui et cornua spiritu indigent.</p>
-      <p xml:id="CARDEM0087">Foramina quantò latiora eò magis vocem mutant: pari enim exeunte spiritu
-        vox mutatur sensim iuxta latitudinem foraminis, quod demonstratur ex hoc, quòd si ex dimidio
-        foramen occludator semitoneo vox deprimitur: quantò etiam propinquiora sunt foramina, eò
-        magis vocem mutant, quia quò propinquiora sunt A eò remotiora sint B necesse est. Cum igitur
-        vox acutior requiritut ac longè maior, foramina ampla fiant, et in superiore parte, vt verò
-        per semitonia et dieses distinguatur strictis foraminibus ac procul distantibus à priore
-        foramine versus B vtendum est. Ergo causa patet cur aperto D vox acutior diapaso reddatnr,
-        quia D eò propinquius est F, quò diapason tonum continet, atque etiam latius. Igitur aperto
-        D omnes voces ad diapason ex aequo ascendunt, quasi mututa elyma aut cornu. Quòd si tantùm
-        ex dimidio occludatur D ascendit ad bis diapason vnaquaeque vox, appellaturque supraschilus.
-        Oportet autem ex dimidio foramen D concludere, non quod angustia foraminis exacuat vocem;
-        dictum est enim quod amplitudo non angustia exacuit, sed quia vel vox non redderetur remisso
-        spiritu, vel intenso nimium stridens, atque ideo dissona cum aliis vocibus. Ponitur autem, à
-        tergo commodi causa, vt pollice possit concludi, atque etiam vt magis exacuat vocem. Ergo
-        amplum sit duas ob causas oportet, prima vt magis exacuat voces, secunda vt perfectius ad
-        bis diapason transeat, nam arctum et ex dimidio obstructum vix resonat.</p>
+      <p xml:id="CARDEM0087">Foramina quantò latiora eò magis vocem mutant: pari enim exeunte
+        spiritu vox mutatur sensim iuxta latitudinem foraminis, quod demonstratur ex hoc, quòd si ex
+        dimidio foramen occludator semitoneo vox deprimitur: quantò etiam propinquiora sunt
+        foramina, eò magis vocem mutant, quia quò propinquiora sunt A eò remotiora sint B necesse
+        est. Cum igitur vox acutior requiritut ac longè maior, foramina ampla fiant, et in superiore
+        parte, vt verò per semitonia et dieses distinguatur strictis foraminibus ac procul
+        distantibus à priore foramine versus B vtendum est. Ergo causa patet cur aperto D vox
+        acutior diapaso reddatnr, quia D eò propinquius est F, quò diapason tonum continet, atque
+        etiam latius. Igitur aperto D omnes voces ad diapason ex aequo ascendunt, quasi mututa elyma
+        aut cornu. Quòd si tantùm ex dimidio occludatur D ascendit ad bis diapason vnaquaeque vox,
+        appellaturque supraschilus. Oportet autem ex dimidio foramen D concludere, non quod angustia
+        foraminis exacuat vocem; dictum est enim quod amplitudo non angustia exacuit, sed quia vel
+        vox non redderetur remisso spiritu, vel intenso nimium stridens, atque ideo dissona cum
+        aliis vocibus. Ponitur autem, à tergo commodi causa, vt pollice possit concludi, atque etiam
+        vt magis exacuat vocem. Ergo amplum sit duas ob causas oportet, prima vt magis exacuat
+        voces, secunda vt perfectius ad bis diapason transeat, nam arctum et ex dimidio obstructum
+        vix resonat.</p>
       <p xml:id="CARDEM0088">Quintum autem genus foraminum quo voces variantur F G H L M N distat
         integris tonis, nisi quod inter G et H maius est spatium quàm pro tono, fit autem ob
         distantiae magnitudinem vt dictum est Apothome. De his autem dicetur in Elymis.</p>
@@ -526,8 +539,8 @@
         non ad amussim retinebunt sed discordabunt. Medius spiritus in mediis vocibus et
         instrumentis <pb n="[113]"/>conueniet vt in lituis, media enim haec inter cornua et
         elymas.</p>
-      <p xml:id="CARDEM0092">Pleni non eadem est ratio quae remissi, licet enim grauioribus vocibus et
-        instrumentis conueniat, non tamen his quae facilè inflantur, sed quae difficilè. Inani in
+      <p xml:id="CARDEM0092">Pleni non eadem est ratio quae remissi, licet enim grauioribus vocibus
+        et instrumentis conueniat, non tamen his quae facilè inflantur, sed quae difficilè. Inani in
         paruis instrumentis acutis vocibus, sed instrumentis, quae facilè inflantur: plenissimo
         igitur et incitato vtemur in cornibus maximis, plenissimo et remisso in maioribus elymis,
         inani et incitato in paruis elymis, paruis cornibus incitatus et plenus ob inflandi
@@ -561,52 +574,54 @@
         cuius foramen M, quia digitus ad ipsum pertingere non potest omninò, ideo fit latius, quare
         excederet totum, ea de causa fit remotius, quamobrem adduntur virgulae, quibus compressis
         concluditur foramen M.</p>
-      <p xml:id="CARDEM0097">[Cardanus, De musica, 113; text: A, C, D, E, F, G, H, K, L, M, N, B]</p>
-      <p xml:id="CARDEM0098">Sint igitur hae regulae: (1.) D apertum omnes voces ad diapason deducit,
-        acutius intento spiritu, ex dimidio autem conclusum ad magis intento spiritu facit bis
-        diapason. (2.) Foramen omne à praecedenti integro tono distat praeter G H, quia ita Elyma
-        constituitur. (3.) Occluso sequente vno relicto inter medio semper fit semitonium, vt si
-        conclusum sit E, inde concludatur etiam G relicto F aperto, fit semitonium, et ita ex H in L
-        et ex K in M et ita de aliis praeterquam ex F in H et ex G in K, quia spatium G H non est vt
-        diximus integri toni, haec autem patent ex regula dicta in capitulo sexto (4.) Semitonium
-        fit etiam quotiens sub eodem spiritu foramen sequens ex toto claudi non solet, vt ex E in F
-        ex F in G. Demonstratur, quia si ex toto clauditur fit tono grauior, si nihil remanet eadem,
-        igitur clausa parte media fiet grauior semitonio. In quantitate autem partis claudendae auri
-        accommodetur. (5.) cum aperto remotiore foramine propinqnius superiori clauditur vox
-        descendit semitonio, veluti si clauso E et G dicamus Fa aperto G et clauso F dicemus Mi.
-        Haec sic demonstrantur, nam clauso solo E si claudatur F fit tono grauior per secundam
-        regulam, et si loco F claudatur G sit semitonio grauior per tertiam regulam: igitur E F
-        clausis fit vox semitonio grauior E G clausis. Ergo clausis E G et aperto G et clauso F fiet
-        vox semitonio grauior, quod erat probandum. (6.) est propria vni voci et est cum apertis
-        foraminibus omnibus fit vox clausis D et F tantùm fit vox tono grauior. Ex hac sequitur
-        septima.</p>
-      <p xml:id="CARDEM0099">(7) Cum aperta tota Elyma fit vox et volueris descendere solo semitonio,
-        claude solum D. Demonstratur, nam si clauso D claudatur E fit tonus per secundam, si loco E
-        claudatur F fit semitonium per tertiam: igitur si aperta elyma inde clausis D F fit tonus
-        per sextum, clauso D tantùm ab elyma <pb n="[114]"/>aperta fiet semitonium quod erat
-        demonstrandum.</p>
-      <p xml:id="CARDEM0100">(8) Idem ferme refert aperto D vt concludantnr foramina ab E vsque ad L,
-        seu remaneant aperta, in optimis enim elymis multum est discrimen. Cum igitur descendimus
+      <p xml:id="CARDEM0097">[Cardanus, De musica, 113; text: A, C, D, E, F, G, H, K, L, M, N,
+        B]</p>
+      <p xml:id="CARDEM0098">Sint igitur hae regulae: (1.) D apertum omnes voces ad diapason
+        deducit, acutius intento spiritu, ex dimidio autem conclusum ad magis intento spiritu facit
+        bis diapason. (2.) Foramen omne à praecedenti integro tono distat praeter G H, quia ita
+        Elyma constituitur. (3.) Occluso sequente vno relicto inter medio semper fit semitonium, vt
+        si conclusum sit E, inde concludatur etiam G relicto F aperto, fit semitonium, et ita ex H
+        in L et ex K in M et ita de aliis praeterquam ex F in H et ex G in K, quia spatium G H non
+        est vt diximus integri toni, haec autem patent ex regula dicta in capitulo sexto (4.)
+        Semitonium fit etiam quotiens sub eodem spiritu foramen sequens ex toto claudi non solet, vt
+        ex E in F ex F in G. Demonstratur, quia si ex toto clauditur fit tono grauior, si nihil
+        remanet eadem, igitur clausa parte media fiet grauior semitonio. In quantitate autem partis
+        claudendae auri accommodetur. (5.) cum aperto remotiore foramine propinqnius superiori
+        clauditur vox descendit semitonio, veluti si clauso E et G dicamus Fa aperto G et clauso F
+        dicemus Mi. Haec sic demonstrantur, nam clauso solo E si claudatur F fit tono grauior per
+        secundam regulam, et si loco F claudatur G sit semitonio grauior per tertiam regulam: igitur
+        E F clausis fit vox semitonio grauior E G clausis. Ergo clausis E G et aperto G et clauso F
+        fiet vox semitonio grauior, quod erat probandum. (6.) est propria vni voci et est cum
+        apertis foraminibus omnibus fit vox clausis D et F tantùm fit vox tono grauior. Ex hac
+        sequitur septima.</p>
+      <p xml:id="CARDEM0099">(7) Cum aperta tota Elyma fit vox et volueris descendere solo
+        semitonio, claude solum D. Demonstratur, nam si clauso D claudatur E fit tonus per secundam,
+        si loco E claudatur F fit semitonium per tertiam: igitur si aperta elyma inde clausis D F
+        fit tonus per sextum, clauso D tantùm ab elyma <pb n="[114]"/>aperta fiet semitonium quod
+        erat demonstrandum.</p>
+      <p xml:id="CARDEM0100">(8) Idem ferme refert aperto D vt concludantnr foramina ab E vsque ad
+        L, seu remaneant aperta, in optimis enim elymis multum est discrimen. Cum igitur descendimus
         per schilos E vsque ad K loco L claudendi aperimus totam elymam, vt sit facilius.</p>
-      <p xml:id="CARDEM0101">(9.) Ex duabus regulis semitoniorum fiunt dieses; constant autem quod ex
-        tertia, quarta, quinta, et sexta regula fiant semitonia, sed quarta regula sola cum aliis
+      <p xml:id="CARDEM0101">(9.) Ex duabus regulis semitoniorum fiunt dieses; constant autem quod
+        ex tertia, quarta, quinta, et sexta regula fiant semitonia, sed quarta regula sola cum aliis
         potest commisceri, et etiam cum seipsa bis ea vtendo scilicet concludendo quartam partem
         foraminis tantum.</p>
-      <p xml:id="CARDEM0102">(10) Fiunt et dieses repercussione sola linguae, quia vt in sexto capite
-        demonstratum est reflexa lingua cohibetur spiritus, igitur vox fit grauior paulò, et hoc
-        discrimen attingit diesim. (11) Cum autem B foramen ex dimidio clauseris, fiet tono grauior
-        vox conclusis omnibus foraminibus, quàm si sola alia foramina absque B claudantur. Fit autem
-        hoc Elyma sensim applicata cruri et remisso spiritu, vocatúrque vox addita. Quòd si solùm
-        quarta pars claudatur, fiet semitonio grauior solum, et hanc vocem me docuit. Leo Oglonus
-        magister meus in Musica. (12) Auxilio huius praecedentis regulae voces omnes ad semitonia ac
-        dieses deduci possunt, nam si ex dimidio concludatur B foramen toni semitonio fient
-        grauiores. Semitonia autem ad dieses, obstructo autem B ex quarta parte integri toni diesi
-        fient grauiores.</p>
-      <p xml:id="CARDEM0103">(13) Voces pleraeque in schilis permutari possunt locis intento aut remisso
-        spiritu: vt tantum ex vna addatur quantum ex altero detrahitur, vnde etiam apothome in
-        semitonia. His visis ponatur Elyma A B tenoris, et clauis. F D conclusis foraminibus. Quia
-        igitur aperto E et concluso F fit Fa, igitur per quintam regulam aperiendo F et concludendo.
-        E fit Mi. Quia igitur inter E et F est tonus, igitur sic voces in tenore constituentur.</p>
+      <p xml:id="CARDEM0102">(10) Fiunt et dieses repercussione sola linguae, quia vt in sexto
+        capite demonstratum est reflexa lingua cohibetur spiritus, igitur vox fit grauior paulò, et
+        hoc discrimen attingit diesim. (11) Cum autem B foramen ex dimidio clauseris, fiet tono
+        grauior vox conclusis omnibus foraminibus, quàm si sola alia foramina absque B claudantur.
+        Fit autem hoc Elyma sensim applicata cruri et remisso spiritu, vocatúrque vox addita. Quòd
+        si solùm quarta pars claudatur, fiet semitonio grauior solum, et hanc vocem me docuit. Leo
+        Oglonus magister meus in Musica. (12) Auxilio huius praecedentis regulae voces omnes ad
+        semitonia ac dieses deduci possunt, nam si ex dimidio concludatur B foramen toni semitonio
+        fient grauiores. Semitonia autem ad dieses, obstructo autem B ex quarta parte integri toni
+        diesi fient grauiores.</p>
+      <p xml:id="CARDEM0103">(13) Voces pleraeque in schilis permutari possunt locis intento aut
+        remisso spiritu: vt tantum ex vna addatur quantum ex altero detrahitur, vnde etiam apothome
+        in semitonia. His visis ponatur Elyma A B tenoris, et clauis. F D conclusis foraminibus.
+        Quia igitur aperto E et concluso F fit Fa, igitur per quintam regulam aperiendo F et
+        concludendo. E fit Mi. Quia igitur inter E et F est tonus, igitur sic voces in tenore
+        constituentur.</p>
       <p xml:id="CARDEM0104">D. la sol re apertis omnibus foraminibus.</p>
       <p xml:id="CARDEM0105">C. sol fa vt clausis, solum D F.</p>
       <p xml:id="CARDEM0106">B. fa B mi clausis solum D E per B quadratum.</p>
@@ -616,25 +631,25 @@
       <p xml:id="CARDEM0110">E. la mi clausis D E F G H K</p>
       <p xml:id="CARDEM0111">D. sol re clausis D E F G H K L</p>
       <p xml:id="CARDEM0112">C. sol fa vt loco C fa vt clausis D E F G H K L M.</p>
-      <p xml:id="CARDEM0113">B. fa B mi loco B mi clausis D E F G H K L M et quarta parte B, et hoc per
-        B quadratum.</p>
-      <p xml:id="CARDEM0114">Per B molle autem est differentia, quia superius B fa B mi fit conclusis D
-        E G cum in B fa B mi quadrato concludatur D E tantum. In B fa B mi autem inferiore per B
-        molle seu verius in B mi molle intelligendo fa ibi vt dicamus B fa B mi concludemus omnia
-        foramina cum medietate B. Hae omnes voces ex regulis supra positis demonstrantur. Hic etiam
-        manifestum est, cur in faciendo F fa vt oportet deprimere H L simul et non tantum H. dico
-        quia, vt visum est deprimendo H tantum fit semitonium propter tertiam regulam, et per eandem
-        occluso L fit aliud semitonium, igitur occlusis H L simul fit tonus. Schili autem vt dixi
-        formantur aperto D, quia A B L supra fit diapason. Sed diapason D E F G H K L est elyma
-        vacua, et diapason D E F G H K L M est D F conclusis. Vltra autem ascendere est superuacuum
-        quia habetur Elyma cantus acutior. Sed vt ex his patet licet etiam facere dieses vbique, Nam
-        concluso D E si concludatur G fit semitonium, si G concluso concludatur H, leni spiritu
-        igitur concluso H loco alterius ita concludatur D E H fit diesis.</p>
-      <p xml:id="CARDEM0115">Supposita modo grauiore elyma A B rursus erit constructio ad vnguem eadem.
-        Quia construuntur in diapente omnes elymae inuicem cum succedentibus, igitur si clauis est D
-        F in tenore C sol fa vt in grauiore elyma erit F fa vt. Supponatur igitur F fa vt clauis in
-        D F conclusis erit G sol re vt omnibus apertis foraminibus, sed E la mi ex demonstratis
-        conclusis D E igitur erunt voces vt vides.</p>
+      <p xml:id="CARDEM0113">B. fa B mi loco B mi clausis D E F G H K L M et quarta parte B, et hoc
+        per B quadratum.</p>
+      <p xml:id="CARDEM0114">Per B molle autem est differentia, quia superius B fa B mi fit
+        conclusis D E G cum in B fa B mi quadrato concludatur D E tantum. In B fa B mi autem
+        inferiore per B molle seu verius in B mi molle intelligendo fa ibi vt dicamus B fa B mi
+        concludemus omnia foramina cum medietate B. Hae omnes voces ex regulis supra positis
+        demonstrantur. Hic etiam manifestum est, cur in faciendo F fa vt oportet deprimere H L simul
+        et non tantum H. dico quia, vt visum est deprimendo H tantum fit semitonium propter tertiam
+        regulam, et per eandem occluso L fit aliud semitonium, igitur occlusis H L simul fit tonus.
+        Schili autem vt dixi formantur aperto D, quia A B L supra fit diapason. Sed diapason D E F G
+        H K L est elyma vacua, et diapason D E F G H K L M est D F conclusis. Vltra autem ascendere
+        est superuacuum quia habetur Elyma cantus acutior. Sed vt ex his patet licet etiam facere
+        dieses vbique, Nam concluso D E si concludatur G fit semitonium, si G concluso concludatur
+        H, leni spiritu igitur concluso H loco alterius ita concludatur D E H fit diesis.</p>
+      <p xml:id="CARDEM0115">Supposita modo grauiore elyma A B rursus erit constructio ad vnguem
+        eadem. Quia construuntur in diapente omnes elymae inuicem cum succedentibus, igitur si
+        clauis est D F in tenore C sol fa vt in grauiore elyma erit F fa vt. Supponatur igitur F fa
+        vt clauis in D F conclusis erit G sol re vt omnibus apertis foraminibus, sed E la mi ex
+        demonstratis conclusis D E igitur erunt voces vt vides.</p>
       <p xml:id="CARDEM0116">G sol re vt omnibus foraminibus vacuis.</p>
       <p xml:id="CARDEM0117">F fa vt clausis solùm D F</p>
       <p xml:id="CARDEM0118">E la mi clausis solùm D E</p>
@@ -645,18 +660,18 @@
       <p xml:id="CARDEM0123">G vt clausis D E F G H K L</p>
       <p xml:id="CARDEM0124">F fa vt clausis D E F G H K L M et quarta parte B</p>
       <p xml:id="CARDEM0125">E la mi clausis D E F G H K L M</p>
-      <p xml:id="CARDEM0126">Hic tria sunt consideranda, primùm quod cum descendendo ex C fa vt in B mi
-        fit semitonium et hoc coniungit claudendo H post D E F G nam fit apothome, sed nos volumus
-        semitoninm minus tantùm, igitur oportet intendere Spiritum paulisper vt ex apothome fiat
-        semitonium. Secundum quòd inter tenorem et grauiorem elymam est duplex discrimen 1. quod vox
-        sub claue fit in tenore duobus modis per B quadratum claudendo D E et per B molle claudendo
-        D E G, sed in grauiore fit solùm claudendo D E semper quia inter F fa vt et Elami est
-        semitonium semper nisi in Musica ficta, tunc enim signato B in Elamo vox illa fieret per D E
-        G vt in tenore. 2. discrimen est in tertio considerandum. Tertium quod in B mi quadrato fit
-        vox per D E F G H conclusa foramina, sed si apponatur B molle fit per D E F G H L vt in F fa
-        vt Tenoris semper ita hoc est conuersum praecedentis: nam in voce sub claue est varietas in
-        tenore non in grauiore Elyma, sed in quinta voce sub claue in Basso seu grauiore est
-        varietas, non autem in tenore nisi in Musica ficta.</p>
+      <p xml:id="CARDEM0126">Hic tria sunt consideranda, primùm quod cum descendendo ex C fa vt in B
+        mi fit semitonium et hoc coniungit claudendo H post D E F G nam fit apothome, sed nos
+        volumus semitoninm minus tantùm, igitur oportet intendere Spiritum paulisper vt ex apothome
+        fiat semitonium. Secundum quòd inter tenorem et grauiorem elymam est duplex discrimen 1.
+        quod vox sub claue fit in tenore duobus modis per B quadratum claudendo D E et per B molle
+        claudendo D E G, sed in grauiore fit solùm claudendo D E semper quia inter F fa vt et Elami
+        est semitonium semper nisi in Musica ficta, tunc enim signato B in Elamo vox illa fieret per
+        D E G vt in tenore. 2. discrimen est in tertio considerandum. Tertium quod in B mi quadrato
+        fit vox per D E F G H conclusa foramina, sed si apponatur B molle fit per D E F G H L vt in
+        F fa vt Tenoris semper ita hoc est conuersum praecedentis: nam in voce sub claue est
+        varietas in tenore non in grauiore Elyma, sed in quinta voce sub claue in Basso seu grauiore
+        est varietas, non autem in tenore nisi in Musica ficta.</p>
       <p xml:id="CARDEM0127">
         <pb n="[115]"/>Dieses autem et schilos sumes vt iu tenore, atque eadem ratione. Nec in his
         ob causam dictam in tenore quaerendi sunt supraschili, nam tales fieri possunt elyma
@@ -675,37 +690,37 @@
       <p xml:id="CARDEM0135">A la mi re occlusis D E F G H K L</p>
       <p xml:id="CARDEM0136">G sol re vt inferius occlusis D E F G H K L M</p>
       <p xml:id="CARDEM0137">F fa vt occlusa tota Elyma et medietate foraminis B.</p>
-      <p xml:id="CARDEM0138">Per B molle autem est differentia quia vox D E F G H K M debet esse loco D
-        E F G H K ex tertia regula. Est autem illud generale in omnibus instrumentis, nullam esse
-        varietatem semitoniorum praeterquam in B fa B mi et ideo reliqua erunt similia, nam B fa B
-        mi vario loco sedem habent, atque semitonio inferiorem, si per B molle scribatur, ea quam
-        habet per B quadratum. Postquam verò ascendere per schilos volumus eadem ratio est quae in
-        aliis, sed Syluester Ganasus septem praeter alias addit voces: vltima enim vocum est in E la
-        et est vltima seu acutissima vocum manus Guidonis. Haec per praedicta inuenitur in vltimo
+      <p xml:id="CARDEM0138">Per B molle autem est differentia quia vox D E F G H K M debet esse
+        loco D E F G H K ex tertia regula. Est autem illud generale in omnibus instrumentis, nullam
+        esse varietatem semitoniorum praeterquam in B fa B mi et ideo reliqua erunt similia, nam B
+        fa B mi vario loco sedem habent, atque semitonio inferiorem, si per B molle scribatur, ea
+        quam habet per B quadratum. Postquam verò ascendere per schilos volumus eadem ratio est quae
+        in aliis, sed Syluester Ganasus septem praeter alias addit voces: vltima enim vocum est in E
+        la et est vltima seu acutissima vocum manus Guidonis. Haec per praedicta inuenitur in vltimo
         schilo scilicet D E F. Si igitur velis ascendere per diapason vsque ad aliud E la additis
         septem vocibus non aperto toto foramine, sed tantùm illius medietate intentoque Spiritu
         voces illas septem sic formabis.</p>
       <p xml:id="CARDEM0139">Voces septem additae.</p>
       <p xml:id="CARDEM0140">E la occlusis E G K vel E G K L M vel concluso E tantùm.</p>
-      <p xml:id="CARDEM0141">D la sol occlusis omnibus praeter F et ipso F ex medietate, vt E G H K L,
-        vel E F G M.</p>
+      <p xml:id="CARDEM0141">D la sol occlusis omnibus praeter F et ipso F ex medietate, vt E G H K
+        L, vel E F G M.</p>
       <p xml:id="CARDEM0142">C sol fa occlusis E F K vel E K tantum, vel E et dimidio K sed fit
         semitonium.</p>
       <p xml:id="CARDEM0143">B fa B mi occlusis omnibus foraminibus vel F G K L M.</p>
       <p xml:id="CARDEM0144">A la mi re occlusis F G H vel F G K L M et dimidio H.</p>
       <p xml:id="CARDEM0145">G sol re vt occlusis omnibus praeter F et ipso ex dimidio.</p>
-      <p xml:id="CARDEM0146">F fa vt occlusis E G K L M vel E G K L et dimidio M vel E F G et dimidio
-        L.</p>
-      <p xml:id="CARDEM0147">Sunt et voces quaedam difficientes semitonio praeter regulam, nam de his
-        quae scribunt in Musica ficta dicam postea in hoc capitulo. Igitur in D la sol fit vox
+      <p xml:id="CARDEM0146">F fa vt occlusis E G K L M vel E G K L et dimidio M vel E F G et
+        dimidio L.</p>
+      <p xml:id="CARDEM0147">Sunt et voces quaedam difficientes semitonio praeter regulam, nam de
+        his quae scribunt in Musica ficta dicam postea in hoc capitulo. Igitur in D la sol fit vox
         semitonio inferior occlusis omnibus foraminibus praeter K vel occlusis. E G H K L item in C
         sol fa fit semitonium occlusis E et K tantùm, vel E et dimidio K, item in G sol re vt
         occlusis E G H L M vel E G H K L et dimidio M, in F fa vt verò occlusi si E et K tantùm vel
         E K L.</p>
-      <p xml:id="CARDEM0148">Sed in B fa B mi vbi B molle adsit fiet semper occlusis F G solum. D autem
-        dixi semper ex dimidio concludi debet intento maximè spiritu vt habeant voces hae.</p>
-      <p xml:id="CARDEM0149">Ego verò tam in his vocibus quam in aliis, quae per primos fiunt altiore
-        elyma vtor, idest vt sit altior diapente elyma cantus et nona seu bis diapente elyma
+      <p xml:id="CARDEM0148">Sed in B fa B mi vbi B molle adsit fiet semper occlusis F G solum. D
+        autem dixi semper ex dimidio concludi debet intento maximè spiritu vt habeant voces hae.</p>
+      <p xml:id="CARDEM0149">Ego verò tam in his vocibus quam in aliis, quae per primos fiunt
+        altiore elyma vtor, idest vt sit altior diapente elyma cantus et nona seu bis diapente elyma
         tenoris. Hoc igitur constituto erit clauis. G. sol re vt conclusus D E F G H L, nam inter D
         F et D E F G H L semper est distantia diapente. Igitur voces hoc modo tunc
         constituentur.</p>
@@ -719,16 +734,16 @@
       <p xml:id="CARDEM0157">E la mi occlusis D E F G H K L</p>
       <p xml:id="CARDEM0158">D la sol re occlusis omnibus foraminibus</p>
       <p xml:id="CARDEM0159">C sol fa vt occlusa tota Elyma et medietate foraminis B.</p>
-      <p xml:id="CARDEM0160">Sed vbi scribitur B molle in B fa B mi tunc claudemus D E F integrè et G
-        non integrè per quartam regulam. Ex quo patet quod hic modus habet duplicem difficultatem
+      <p xml:id="CARDEM0160">Sed vbi scribitur B molle in B fa B mi tunc claudemus D E F integrè et
+        G non integrè per quartam regulam. Ex quo patet quod hic modus habet duplicem difficultatem
         primam in B fa B mi molli B, quia transit ex D E G in D E F cum dimidio G quae est mutatio
         duorum digitorum cum spiritu. Alia est ex G sol re vt in F fa vt in qua duo digiti simul
         permutantur, atque ideo dura atque difficilis. Sed pro schilis est valde aperta, quia primus
         schilus ascendit extra manum et vltimus schilus ad G sol re vt extra manum. Et ita non
         desunt nisi duae voces ad inuentionem perficiendam Syluestri Genasi Veneti.</p>
-      <p xml:id="CARDEM0161">Sed vbi scripta sit clauis C sol fa vt in cantu, nam vt visa est vtraque
-        absque discrimine solet apponi erunt voces vt supra, quia clauis est ex dictis diapente
-        inferior G sol re vt, igitur occlusis D E F G H L, vnde non erit varietas vlla à
+      <p xml:id="CARDEM0161">Sed vbi scripta sit clauis C sol fa vt in cantu, nam vt visa est
+        vtraque absque discrimine solet apponi erunt voces vt supra, quia clauis est ex dictis
+        diapente inferior G sol re vt, igitur occlusis D E F G H L, vnde non erit varietas vlla à
         descriptione clauis G sol re vt sed voces eisdem locis disponentur; eadem ratio etiam
         semitoniorum quae supra, nam mutatio haec clauis non mutat in Elyma loca, quia ambae suo
         loco manent. Voces autem Musicae ex his nobis erunt manifestae quae in regulis tertiis,
@@ -736,31 +751,31 @@
         quòd vera vox est clausis omnibus vocibus praeter L et M, igitur, clauso M et relicto solo L
         sit semitonium ex tertia regula, et ita vt dictum est in D la sol re solo D clauso, caeteris
         omnibus apertis foraminibus.</p>
-      <p xml:id="CARDEM0162">Contingunt huic instrumento quae sunt aliis communia, sed huic tamen magis
-        propria. Propria est imitatio humanae <pb n="[116]"/>vocis non simpliciter, nam hoc vt
+      <p xml:id="CARDEM0162">Contingunt huic instrumento quae sunt aliis communia, sed huic tamen
+        magis propria. Propria est imitatio humanae <pb n="[116]"/>vocis non simpliciter, nam hoc vt
         ostendetur commune est omnibus instrumentis, sed exactè imitare huic proprium. Id autem fit
         in flebilibus remissa voce, in incitatis aucta, in grauibus continuata, atque ita de aliis
         affectibus de quibus in secundo et quarto libro maximè dictum est.</p>
-      <p xml:id="CARDEM0163">Est praeter id obseruandum vt spiritus nitidus non confusus aut inconstans
-        sed stabilis reddatur, vtque varietatem suam debito tempore nec procrastinando recipiat,
-        atque haec obseruatio promptitudo appellatur. Inde considerandum est vt vox tremula persaepe
-        diesi vel semitonio redditur acutior remissiórve: dupliciter autem tremula spiritu quidem ac
-        motu tremulo digitorum. Hic si fiat foraminibus pluribus quandoque ditonum, quandoque
-        trisemitonium consurgit plerúmque autem dimidio eius quod fit plenè aperto foramine; vel
-        igitur semitonio tremente, vel etiam tono leuissimè aperto fit discursus per dieses, quibus
-        nihil melius nihil suauius nihil iucundius esse potest. Viuaces igitur voces sunt cum digiti
-        vel constant occludendo vel aperiendo, suaues cum tremunt: vt autem fiant voces suauissimae,
-        tribus opus est obseruationibus. Prima vt grauiores non acutiores voces tremant, secunda vt
-        leuiter digiti aperiantur ac valde parum: tertia vt reflexio non quiescat sed tremat velut
-        vibratus vehementur ensis saepius in se rediens. Voces mediae fiunt accutioribus tremebundo
-        motu digitorum variatis: spiritus autem lenis suauis incitatus asperas edit voces. His
-        subsequitur aliud et est vt voces vocibus quasi absque interuallo iungantur, quod eo melius
-        est quò suauius, suauis res est sed non caret difficultate. Itaque non parum studendum est,
-        ne manus ab Elyma vnquam remoueatur, nec spiritus intermittat. Instrumentis enim minimè
-        cessatio conuenit.</p>
-      <p xml:id="CARDEM0164">Cum vero haec duo praeter vocem sint propria instrumentis non quiescere in
-        vna voce nec tacere, sed perpetuò ipsas voces variare, ideo conuenit eas quae scriptae sunt
-        voces diuidere aut in geminas aut quaternas aut octonas, vel etiam fictis punctorum
+      <p xml:id="CARDEM0163">Est praeter id obseruandum vt spiritus nitidus non confusus aut
+        inconstans sed stabilis reddatur, vtque varietatem suam debito tempore nec procrastinando
+        recipiat, atque haec obseruatio promptitudo appellatur. Inde considerandum est vt vox
+        tremula persaepe diesi vel semitonio redditur acutior remissiórve: dupliciter autem tremula
+        spiritu quidem ac motu tremulo digitorum. Hic si fiat foraminibus pluribus quandoque
+        ditonum, quandoque trisemitonium consurgit plerúmque autem dimidio eius quod fit plenè
+        aperto foramine; vel igitur semitonio tremente, vel etiam tono leuissimè aperto fit
+        discursus per dieses, quibus nihil melius nihil suauius nihil iucundius esse potest. Viuaces
+        igitur voces sunt cum digiti vel constant occludendo vel aperiendo, suaues cum tremunt: vt
+        autem fiant voces suauissimae, tribus opus est obseruationibus. Prima vt grauiores non
+        acutiores voces tremant, secunda vt leuiter digiti aperiantur ac valde parum: tertia vt
+        reflexio non quiescat sed tremat velut vibratus vehementur ensis saepius in se rediens.
+        Voces mediae fiunt accutioribus tremebundo motu digitorum variatis: spiritus autem lenis
+        suauis incitatus asperas edit voces. His subsequitur aliud et est vt voces vocibus quasi
+        absque interuallo iungantur, quod eo melius est quò suauius, suauis res est sed non caret
+        difficultate. Itaque non parum studendum est, ne manus ab Elyma vnquam remoueatur, nec
+        spiritus intermittat. Instrumentis enim minimè cessatio conuenit.</p>
+      <p xml:id="CARDEM0164">Cum vero haec duo praeter vocem sint propria instrumentis non quiescere
+        in vna voce nec tacere, sed perpetuò ipsas voces variare, ideo conuenit eas quae scriptae
+        sunt voces diuidere aut in geminas aut quaternas aut octonas, vel etiam fictis punctorum
         argumentis. Alias etiam ternis senis duodenis aut etiam fictis punctis quod vt difficilius
         ita tutius. Tertiò per sexquialteram, ita vt minima quasi minima et semiminima componatur,
         prior autem pars scilicet minima locum pristinum retineat. Hoc autem in quarto libro

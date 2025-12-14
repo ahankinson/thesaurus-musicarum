@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Libellus de rudimentis musices: De choro et organo compendium</title>
         <title type="abbrev">ROSLIB2</title>
-        <author>Rossetti, Biagio</author>
-        <date notBefore="1500" notAfter="1599">16th</date>
+        <author><persName>Rossetti, Biagio</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Nigel Gwee</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Biagio Rossetti, <emph>Libellus de rudimentis musices</emph>, ed.
           Albert Seay, Critical Texts, no. 12 (Colorado Springs: Colorado College Music Press,
@@ -34,11 +44,11 @@
         <pb n="[62]"/>Don Blasii Rossetti, in Veronensi ecclesia residentis, de choro et organo
         compendium.</p>
       <p xml:id="ROSLIB20002">I.</p>
-      <p xml:id="ROSLIB20003">Habitis itaque atque utcumque enucleatis musices rudimentis quibus pueri
-        ad eius principia informentur, reliquum est ut de choro atque eius observatione abusibusque
-        tollendis. Nonnihil pro nostra virili subinferamus, id tamen lectorem exoratum velim, siquid
-        forte acrius videbitur, boni consulat. Novit enim omnium Opifex quo zelo haec tractatui
-        praecedenti annectam, neque enim is meus est animus ut cuiquam detraham, quem quam
+      <p xml:id="ROSLIB20003">Habitis itaque atque utcumque enucleatis musices rudimentis quibus
+        pueri ad eius principia informentur, reliquum est ut de choro atque eius observatione
+        abusibusque tollendis. Nonnihil pro nostra virili subinferamus, id tamen lectorem exoratum
+        velim, siquid forte acrius videbitur, boni consulat. Novit enim omnium Opifex quo zelo haec
+        tractatui praecedenti annectam, neque enim is meus est animus ut cuiquam detraham, quem quam
         subsannem, aliquem irritem, cuiusvis aut honori decorive derogem, sed ut nonnulli auferantur
         abusis, dimoveantur insolentiae, corrigantur errata. Tametsi mihi minus conveniat errata
         corrigere, qui propriis scateam, cui nimirum id dictum ex sententia Domini obici merito
@@ -54,16 +64,17 @@
         choro cantantium; quisquis voce discrepaverit offendit auditum et perturbat chorum. Et divus
         Hieronymus: Ubicumque chorus est, ibi diversae cordae unam vocem efficiunt cantici, sic et
         diversae voces quum simul fuerint congregatae chorum Domini efficiunt. Chorus itaque
-        multorum vocibus et concentum constat, teste Macrobio sic disserente: Non vides quam <pb n="[63]"/>multorum vocibus chorus constet? Unus tamen ex omnibus redditur sonus, aliqua
+        multorum vocibus et concentum constat, teste Macrobio sic disserente: Non vides quam <pb
+          n="[63]"/>multorum vocibus chorus constet? Unus tamen ex omnibus redditur sonus, aliqua
         enim ibi acuta est, alia gravis, alia media. Accedunt viris foeminae, interponuntur tibiae,
         singulorum illic latent voces, omnium apparent.</p>
-      <p xml:id="ROSLIB20012">Antiqui enim chorum dicebant conventum et multitudinem, velut coronam ad
-        laudes convenientium, saltatium, cantantium atque choreis indulgentium, chorum namque a
+      <p xml:id="ROSLIB20012">Antiqui enim chorum dicebant conventum et multitudinem, velut coronam
+        ad laudes convenientium, saltatium, cantantium atque choreis indulgentium, chorum namque a
         chorea dictum volebant.</p>
-      <p xml:id="ROSLIB20013">Sed nos, huiusmodi choris posthabitis, de sacro choro loqui intendimus,
-        quem dicimus esse multitudinem cantantium in sacris collectam, divinis laudibus intentam.
-        Alii chorum dicunt a concordia consistente in caritate, quia qui caritate non nitet
-        convenienter superis cantare nequit.</p>
+      <p xml:id="ROSLIB20013">Sed nos, huiusmodi choris posthabitis, de sacro choro loqui
+        intendimus, quem dicimus esse multitudinem cantantium in sacris collectam, divinis laudibus
+        intentam. Alii chorum dicunt a concordia consistente in caritate, quia qui caritate non
+        nitet convenienter superis cantare nequit.</p>
       <p xml:id="ROSLIB20014">Duo igitur chori quibus ut plurimum in templis canimus divis laudes,
         angelos et beatorum spiritus intimare videntur. Videntur enim quasi reciproca voluntate
         laudare Deum optimum maximum, nec minus sese ad bona exercenda opera cohortari. Bifarius
@@ -108,8 +119,8 @@
         Accedat autem ad devotionem mentis ipsa corporis honestas, ut oculi aut libris intenti aut
         (si quid forte canatur quod memoriae sit <pb n="[65]"/>conditum) in terram defixi
         avertantur, ne videant vanitatem.</p>
-      <p xml:id="ROSLIB20018">Sed proh dolor, quam plures videmus non satis probato oris hiatu aut in
-        ridiculos cachinnos labiis distractis, aut certe gesticularibus modulis verba sine sensu
+      <p xml:id="ROSLIB20018">Sed proh dolor, quam plures videmus non satis probato oris hiatu aut
+        in ridiculos cachinnos labiis distractis, aut certe gesticularibus modulis verba sine sensu
         proferre. Alios etiam videas attonitos oculis, habitu effrenes, vestium stamina ostentantes,
         immulierculas lumina vibrantes, corpore stantes in choro, mente in foro. Datur itidem alios
         cernere fabulis intentos, identidem oscitantes plerumque dormitantes, psalmorum verba vel
@@ -122,33 +133,33 @@
         crassior merces imminet, utpote quum defunctis impenduntur spiritualia in choro adminicula,
         iam non se subtrahunt (nimirum excusationem non admittente absentia) hi omnes fructus
         faciunt (si tamen aliquem fructum faciunt) non suos.</p>
-      <p xml:id="ROSLIB20019">Ideoque non exultationis sed deplorationis eorum est chorus, qui merito
-        dicere queant cum propheta Hieremia, Trenorum, capite quinto: Versus est in luctum chorus
-        noster. Nec eo inficias dignum esse (iuxta Apostolum) servientem altari vivere posse ab
-        altari, nemo enim suis stipendiis militare tenetur, sed si eo tamen nostra tendat intentio,
-        ut transitoria captemus commoda. Iam mercenarii sumus, et Domino asserente recipimus
-        mercedem nostram. Seposito igitur horum mercenariorum (vel magis luporum) choro, nos qui ad
-        coelestia suspiramus, qui choris angelicis inseri cupimus, ad Dei optimi maximi cultum
-        accendentes, elevemus ad astra mentes nostras cum vocibus, omnia singulaque verba devote, et
-        competenti acceleratione proferentes, mediocritate tamen servata, ut iuxta divi Hieronimi ad
-        Eustochium praeceptum: Sic morositas, sic velocitas teneatur in modo, quod nec fastidium,
-        nec linguae impeditio possit oriri, si enim saeculi huius oratores legatione principium
-        fungentes aut cuiusvis populi principem adituri, aut senatum quempiam debite se componunt,
-        verba quibus benevolentiam aut <pb n="[66]"/>id quod postulat legatio praemeditantes
-        adamussim pensitant, pensitata cum gravitate debita vocisque concinnentia mensuraque
-        retoricantur, quo magis nos, qui Regem Regum accessuri et coram eo et angelis eius oraturi
-        disponente nos, habemus quo ei nostra placeat oratio?</p>
-      <p xml:id="ROSLIB20020">Et quidem principes mundi huius falli possunt ab oratoribus, quippe aliud
-        quandoque perorantibus, aliud mente versantibus, sed nos in choro psallentes, ante tribunal
-        consistimus Iesu Christi non modo verba trutinantis, sed et scrutantis renes et corda, huius
-        ergo intenta mentis acie dignas laudes persolvere curemus. Tunc laus digna censebitur, si ab
-        intimis praecordiis manet laudantis et ei exhibeatur qui dignus sit laudari. Atque utinam
-        nos tam digni inveniamur Christum laudibus effere, quam ipse dignus est laudari, non enim
-        tamen nostram sed omnem excedit laudem angelicam simul et humanam; Ecclesiastes,
-        Benedicantes Deum, laudate eum, et exaltate quoniam potens est, maior est enim omni laude.
-        Quum igitur petit Deus laudari a nobis, hoc non agit propter se sed propter nos. Unde divus
-        Aurelius super psalmis: Laudari a te vult Deus, et hoc ut tu proficias, non ut ipse
-        sublimetur. Non a te amat quod illum augeas (id enim non potes), sed quod te ad illum
+      <p xml:id="ROSLIB20019">Ideoque non exultationis sed deplorationis eorum est chorus, qui
+        merito dicere queant cum propheta Hieremia, Trenorum, capite quinto: Versus est in luctum
+        chorus noster. Nec eo inficias dignum esse (iuxta Apostolum) servientem altari vivere posse
+        ab altari, nemo enim suis stipendiis militare tenetur, sed si eo tamen nostra tendat
+        intentio, ut transitoria captemus commoda. Iam mercenarii sumus, et Domino asserente
+        recipimus mercedem nostram. Seposito igitur horum mercenariorum (vel magis luporum) choro,
+        nos qui ad coelestia suspiramus, qui choris angelicis inseri cupimus, ad Dei optimi maximi
+        cultum accendentes, elevemus ad astra mentes nostras cum vocibus, omnia singulaque verba
+        devote, et competenti acceleratione proferentes, mediocritate tamen servata, ut iuxta divi
+        Hieronimi ad Eustochium praeceptum: Sic morositas, sic velocitas teneatur in modo, quod nec
+        fastidium, nec linguae impeditio possit oriri, si enim saeculi huius oratores legatione
+        principium fungentes aut cuiusvis populi principem adituri, aut senatum quempiam debite se
+        componunt, verba quibus benevolentiam aut <pb n="[66]"/>id quod postulat legatio
+        praemeditantes adamussim pensitant, pensitata cum gravitate debita vocisque concinnentia
+        mensuraque retoricantur, quo magis nos, qui Regem Regum accessuri et coram eo et angelis
+        eius oraturi disponente nos, habemus quo ei nostra placeat oratio?</p>
+      <p xml:id="ROSLIB20020">Et quidem principes mundi huius falli possunt ab oratoribus, quippe
+        aliud quandoque perorantibus, aliud mente versantibus, sed nos in choro psallentes, ante
+        tribunal consistimus Iesu Christi non modo verba trutinantis, sed et scrutantis renes et
+        corda, huius ergo intenta mentis acie dignas laudes persolvere curemus. Tunc laus digna
+        censebitur, si ab intimis praecordiis manet laudantis et ei exhibeatur qui dignus sit
+        laudari. Atque utinam nos tam digni inveniamur Christum laudibus effere, quam ipse dignus
+        est laudari, non enim tamen nostram sed omnem excedit laudem angelicam simul et humanam;
+        Ecclesiastes, Benedicantes Deum, laudate eum, et exaltate quoniam potens est, maior est enim
+        omni laude. Quum igitur petit Deus laudari a nobis, hoc non agit propter se sed propter nos.
+        Unde divus Aurelius super psalmis: Laudari a te vult Deus, et hoc ut tu proficias, non ut
+        ipse sublimetur. Non a te amat quod illum augeas (id enim non potes), sed quod te ad illum
         perducas; id circo ergo laudes suas indicat ut valeamus cum adeuntes cognoscere,
         cognoscentes amare, amantes sequi, sequentes adipisci, adiposcentes vero eius visione
         perfrui. Ergo in interiori homine simul et exteriori te examina ut sicut ipse est omni laude
@@ -158,7 +169,8 @@
         vestigiis Iesu inhaerentes ipsum imitantur fide et devotione, volentibus ergo eum imitari,
         et cum eo semper esse.</p>
       <p xml:id="ROSLIB20021">IV.</p>
-      <p xml:id="ROSLIB20022">Faciundum est illud Isidori (ait enim) volentem, cum Deo semper esse <pb n="[67]"/>frequenter oportet legere, frequenter orare, quum enim legimus Deus, nobis
+      <p xml:id="ROSLIB20022">Faciundum est illud Isidori (ait enim) volentem, cum Deo semper esse
+          <pb n="[67]"/>frequenter oportet legere, frequenter orare, quum enim legimus Deus, nobis
         loquitur. Quum oramus, ad Deum loquimur, quia scripturae sunt a Deo, et quod dicunt
         scripturae, dicit Deus. Ideo magis credendum scripturis (sacras et canonice ad missas ab
         orthodoxis dico) quam vivo cuipiam aut vita vuncto quam etiam Angelo. Angelus namque
@@ -171,24 +183,24 @@
         oret. Tunc vere oramus quando alias vanitates mente non revoluimus. Unde divus Aurelius:
         Tota die laudat qui omnia bene agit, nec desinit orare qui non desinit bene agere; semper
         ergo bene agentes oramus.</p>
-      <p xml:id="ROSLIB20023">Sed praesertim quum saecularibus post habitis negociis soli Deo loquimur,
-        et divus ille Alexander ab Aureliano interrogatus quare taceret respondisse legitur, quia
-        orationis tempore Christianus cum Deo loquitur. In hac ergo oratione habenda est intentio,
-        ut, iuxta ipsius diffinitionem, oratio sit ascensus intellectus in Deum. Caeterum luce
-        clarius patet oratione non intenta intellectum non ascendere in Deum, quare merito nec talis
-        est dicenda oratio, nec enim a Deo auditur qui intente non orat, vel, Apostolo teste, primae
-        ad Corinthios, capite XIIII: Si orem, inquit, lingua, mens mea sine fructu est, quid ergo?
-        Orabo spiritu, orabo et mente, psallam spiritu, psallam et mente.</p>
-      <p xml:id="ROSLIB20024">Orationi huius triplicem datur, tribuere attentationem primam, videlicet,
-        ad verba ne ea recitantes erremus, secundam, qua sensui verborum inhaereamus, tertiam, qua
-        ad orationis finem tendamus. Haec per maxime observanda est, quoad omnium finem (Deum dico
-        optimum maximum) et terminum pertingamus. Nec priores duae spernendae, quippe illis mediis
-        (modo cordis affectus in Deum tendat) ad hanc pervenimus, hiis itaque attentionibus
-        innitentes una cum Apostolo, oremus spiritu, oremus et mente, indefesse ad horas quas
-        dicimus canonicae currentes, et in eis perseverantes. <pb n="[68]"/>Quid enim iuvat initiis
-        adesse nisi in finem usque perseveraverimus? An ignoramus inter omnes virtutes unam
-        perseverantiam coronari? Esto omnes festinent ad bravium? Ubi (omnium pace servata) occurrit
-        menti videre me crebrius, horis postpositis per templum deambulare risibus, atque
+      <p xml:id="ROSLIB20023">Sed praesertim quum saecularibus post habitis negociis soli Deo
+        loquimur, et divus ille Alexander ab Aureliano interrogatus quare taceret respondisse
+        legitur, quia orationis tempore Christianus cum Deo loquitur. In hac ergo oratione habenda
+        est intentio, ut, iuxta ipsius diffinitionem, oratio sit ascensus intellectus in Deum.
+        Caeterum luce clarius patet oratione non intenta intellectum non ascendere in Deum, quare
+        merito nec talis est dicenda oratio, nec enim a Deo auditur qui intente non orat, vel,
+        Apostolo teste, primae ad Corinthios, capite XIIII: Si orem, inquit, lingua, mens mea sine
+        fructu est, quid ergo? Orabo spiritu, orabo et mente, psallam spiritu, psallam et mente.</p>
+      <p xml:id="ROSLIB20024">Orationi huius triplicem datur, tribuere attentationem primam,
+        videlicet, ad verba ne ea recitantes erremus, secundam, qua sensui verborum inhaereamus,
+        tertiam, qua ad orationis finem tendamus. Haec per maxime observanda est, quoad omnium finem
+        (Deum dico optimum maximum) et terminum pertingamus. Nec priores duae spernendae, quippe
+        illis mediis (modo cordis affectus in Deum tendat) ad hanc pervenimus, hiis itaque
+        attentionibus innitentes una cum Apostolo, oremus spiritu, oremus et mente, indefesse ad
+        horas quas dicimus canonicae currentes, et in eis perseverantes. <pb n="[68]"/>Quid enim
+        iuvat initiis adesse nisi in finem usque perseveraverimus? An ignoramus inter omnes virtutes
+        unam perseverantiam coronari? Esto omnes festinent ad bravium? Ubi (omnium pace servata)
+        occurrit menti videre me crebrius, horis postpositis per templum deambulare risibus, atque
         vaniloquiis vacantes quibus si cordi essent verba Christi (dicentis, domus mea domus
         orationis vocabitur), simul et acta, dum contexto funiculo flagellans eliceret operantes
         talia, quae extra templum licite exerceri potuissent, ab istius modi vesania (ni fallor)
@@ -203,13 +215,14 @@
         insistamus, neu cancrorum more retrogradi frigidiores in earum calce quam initiis
         reperiamur.</p>
       <p xml:id="ROSLIB20025">V.</p>
-      <p xml:id="ROSLIB20026">Sed nec inter horae contendendum, quin magis siquid dubii inter has oriri
-        potest, id ante inchoationem discutiatur, ne altercantium mentes ira accendantur, ne
+      <p xml:id="ROSLIB20026">Sed nec inter horae contendendum, quin magis siquid dubii inter has
+        oriri potest, id ante inchoationem discutiatur, ne altercantium mentes ira accendantur, ne
         audientium coetus scandalizetur, ne divina mysteria interrumpantur, ne denique occasio
         murmuris alicui tribuatur, praesertim a nobis clericis, clerici enim dicimur a cleros, quod
         est sors, quia in sortem Dei positi sumus. Si ergo hac sorte abutimur, abutimur haereditate
         Domini, quum tamen in principio nostrae initiationis fidenter dicamus Dominus pars
-        haereditatis meae, huius itaque haereditatis memores nulli scandalo simus, <pb n="[69]"/>omnium in extremo examine nostrorum actorum (iuxta Apostoli dictum) reddituri rationem
+        haereditatis meae, huius itaque haereditatis memores nulli scandalo simus, <pb n="[69]"
+        />omnium in extremo examine nostrorum actorum (iuxta Apostoli dictum) reddituri rationem
         Christo quem nil latet. Interea quam diu sumus in corpore, peregrinantes a Domino per fidem
         quae per dilectionem operatur ambulemus, cupientes non tamen Deum placere, sed et
         offendicula laicorum sustollere, ut luceat lux nostra coram hominibus, non tamen inde
@@ -256,19 +269,19 @@
         sapientia Patris a quo nulla invenio verba, quibus te sufficienter valeam explanare, quia te
         decet laus, te decet hymnis, tibi debetur omnis honor, et caetera.</p>
       <p xml:id="ROSLIB20030">VI.</p>
-      <p xml:id="ROSLIB20031">Obmutescentes tales vel certe mente continuata circa alia vagantes, quibus
-        curae non sunt quae dicant aud dicere debeant. Non carent mortali culpa aliquando evomituri
-        in tormentis quae hic comedunt. Psallamus igitur voce et mente, ne a Domino increpemur.
-        Tanquam canes muti non valentes latrare, quia taliter conticentibus aut certe sine mente
-        canentibus eveniet, divo Gregorio teste, quod aquae baptismatis, quae peccata baptizatorum
-          <pb n="[71]"/>diluens illos transmittit ad astra. Ipsa vero in cloacam descendit ne etiam
-        eveniat in nos illud dictum, videlicet, iusto Dei iudicio sine verbo moritur, qui in Dei
-        servitio negligenter loquitur. Currentes autem ad bravium supernae vocationis indefessim
-        conveniamus ad psallendum Domino horis, videlicet, ab Ecclesia devote institutis matutinis
-        nimirum: Primus, Tertia, Sexta, Nona, Vespera et Complectorio. Non enim vocata mysterio
-        diurnus hic septenarius, quem David se observasse profitetur, dicens: Septies in die laudem
-        dixi tibi, Domino, super iudicia iustitiae tuae. Laudes hic matutinas intimare voluit cum
-        sex reliquis, Prima, Tertia, et caetera.</p>
+      <p xml:id="ROSLIB20031">Obmutescentes tales vel certe mente continuata circa alia vagantes,
+        quibus curae non sunt quae dicant aud dicere debeant. Non carent mortali culpa aliquando
+        evomituri in tormentis quae hic comedunt. Psallamus igitur voce et mente, ne a Domino
+        increpemur. Tanquam canes muti non valentes latrare, quia taliter conticentibus aut certe
+        sine mente canentibus eveniet, divo Gregorio teste, quod aquae baptismatis, quae peccata
+        baptizatorum <pb n="[71]"/>diluens illos transmittit ad astra. Ipsa vero in cloacam
+        descendit ne etiam eveniat in nos illud dictum, videlicet, iusto Dei iudicio sine verbo
+        moritur, qui in Dei servitio negligenter loquitur. Currentes autem ad bravium supernae
+        vocationis indefessim conveniamus ad psallendum Domino horis, videlicet, ab Ecclesia devote
+        institutis matutinis nimirum: Primus, Tertia, Sexta, Nona, Vespera et Complectorio. Non enim
+        vocata mysterio diurnus hic septenarius, quem David se observasse profitetur, dicens:
+        Septies in die laudem dixi tibi, Domino, super iudicia iustitiae tuae. Laudes hic matutinas
+        intimare voluit cum sex reliquis, Prima, Tertia, et caetera.</p>
       <p xml:id="ROSLIB20032">Sed nec de nocturnis conticuit, quum diceret: Media nocte surgebam ad
         confitendum, et caetera. Propter hanc tamen davidicam imitationem, plura complectitur
         mysteria sacratus hic horarum numerus. Noctu etenim laudatur Dominus (nocturni enim a nocte
@@ -282,13 +295,14 @@
         tempore excitamur ab alite diei nuntio gallo, videlicet, ut ad eius exemplar canamus Domino;
         tunc Petrum ter inficiatum respexit Iesus oculis pietatis, quum Petrus mox exiit foras et
         flevit amare.</p>
-      <p xml:id="ROSLIB20033">Hora prima Domino confitemur, hanc enim per se sacravit, Christus Iesus,
-        quum in ea festinaret ad templum quo omnis populus mane festinabat ad ipsum, teste Luca
-        Evangeliste, capite XXI. In hac Angelus Christi resurrectionem mundo patefecit, ipse sese
-        mulieribus ostendi, Magdalenae in ortolani specie apparuit, Petro condonatum crimen trinae
-        negationis per Angelum intimavit, quum diceret: Ite, dicete discipulis eius, et Petro quia,
-        et caetera.</p>
-      <p xml:id="ROSLIB20034">Hora tertia laudatur Dominus, quia tunc unigenitus Dei Patris ad <pb n="[72]"/>columnam ligatus, flagellis attritus, morti addictus fuit, in ea post
+      <p xml:id="ROSLIB20033">Hora prima Domino confitemur, hanc enim per se sacravit, Christus
+        Iesus, quum in ea festinaret ad templum quo omnis populus mane festinabat ad ipsum, teste
+        Luca Evangeliste, capite XXI. In hac Angelus Christi resurrectionem mundo patefecit, ipse
+        sese mulieribus ostendi, Magdalenae in ortolani specie apparuit, Petro condonatum crimen
+        trinae negationis per Angelum intimavit, quum diceret: Ite, dicete discipulis eius, et Petro
+        quia, et caetera.</p>
+      <p xml:id="ROSLIB20034">Hora tertia laudatur Dominus, quia tunc unigenitus Dei Patris ad <pb
+          n="[72]"/>columnam ligatus, flagellis attritus, morti addictus fuit, in ea post
         clarificationem et ascensum ad dexteram Patris in discipulos Sanctum emisit Spiritum, quo
         duce, quo rectore, omnium gentium linguas callentes Evangelium per omnes mundi cardines
         regionesque divulgarunt.</p>
@@ -300,19 +314,19 @@
         stipite crucis, in manus altissimi Patris emisit spiritum, in ea latus lancea perforatum,
         unde sanguis nostrae redemptionis, et sacri baptismatis profluxit unda. In ea Christus
         coelos ascendens, viam nobis prius interdictam reseravit.</p>
-      <p xml:id="ROSLIB20037">Vespertina hora laudandus est Dominus, quo iuxta Prophetam oratio nostra
-        vespertina ascendat ad ipsum; in hac enim hora Christus vivificum corpus et sanguinem in
-        sacramentum et testamentum instituit, aboleto veteris phasce, agnique paschalis typo. In hac
-        discipulorum pedes abluit exemplum eis praestans. In hac longum illum et amoris plenissimum
-        edidit sermonem, quam in Evangelio a Deo dilecti discipuli est legere. In hac post
-        resurrectionem suam habitu peregrinus apparuit, discipulis vacillantibus scripturarum
+      <p xml:id="ROSLIB20037">Vespertina hora laudandus est Dominus, quo iuxta Prophetam oratio
+        nostra vespertina ascendat ad ipsum; in hac enim hora Christus vivificum corpus et sanguinem
+        in sacramentum et testamentum instituit, aboleto veteris phasce, agnique paschalis typo. In
+        hac discipulorum pedes abluit exemplum eis praestans. In hac longum illum et amoris
+        plenissimum edidit sermonem, quam in Evangelio a Deo dilecti discipuli est legere. In hac
+        post resurrectionem suam habitu peregrinus apparuit, discipulis vacillantibus scripturarum
         archana aperuit, cor eorum flamma suae praesentiae accendit, seque in fractione panis
         praebuit cognoscendum.</p>
-      <p xml:id="ROSLIB20038">Horam Completorii Deum optimum maximum veneramur. In hac namque Christus
-        in agonia positus verum hominem assumpsisse se comprobans Patrem oravit, sudorem sanguineum
-        manavit, tristari se professus est; in hac datur sepulturae, in hac post resurrectionem ad
-        discipulos clauso caenaculi hostio intravit, pacem tribuit, spiritum sanctum insufflavit,
-        potestatem dimittendi retinendique peccata praestitit.</p>
+      <p xml:id="ROSLIB20038">Horam Completorii Deum optimum maximum veneramur. In hac namque
+        Christus in agonia positus verum hominem assumpsisse se comprobans Patrem oravit, sudorem
+        sanguineum manavit, tristari se professus est; in hac datur sepulturae, in hac post
+        resurrectionem ad discipulos clauso caenaculi hostio intravit, pacem tribuit, spiritum
+        sanctum insufflavit, potestatem dimittendi retinendique peccata praestitit.</p>
       <p xml:id="ROSLIB20039">Horum ergo tantorumque beneficiorum memores, angelorum aemuli Domino
         laudes persolvimus septenis istis horis, et nocte surgimus ad confitendum nomini Domini
         psalmis. In his per maxime insistentes quorum nimirum <pb n="[73]"/>melodia cum verborum
@@ -326,8 +340,8 @@
         soluto Deus optimus est glorificandus, qui et velle nobis et posse se laudare
         praestitit.</p>
       <p xml:id="ROSLIB20040">VII.</p>
-      <p xml:id="ROSLIB20041">His igitur horis insistentes curemus omni opera dictiones syllabasque in
-        integrum proferre, etiam si privatim in aedibus aut in templo persolvamus.</p>
+      <p xml:id="ROSLIB20041">His igitur horis insistentes curemus omni opera dictiones syllabasque
+        in integrum proferre, etiam si privatim in aedibus aut in templo persolvamus.</p>
       <p xml:id="ROSLIB20042">Officium namque vocale esse convenit, ita ut ipse legens sese audiat.
         Necesse est enim per exterioris vocis organum excitari devotionem interiorem mentis. Nam per
         exteriora signa movetur mens hominis secundum appraehensionem, et per consequens secundum
@@ -336,18 +350,18 @@
         illud daviticum: Laetatum est cor meum et exultavit lingua mea. Neque id circo orationem
         vocalem dicimus esse debere, ut aliquid ignotum Deo manifestetur, sed (ut diximus) ut mens
         orantis vel aliorum excitatur ad Deum.</p>
-      <p xml:id="ROSLIB20043">Idque fiet, si cuncta debite proferentes singulas quasque dictiones suis
-        accentibus pronunciemus, non plures ad invicem collidentes, aut unam in duas secantes,
+      <p xml:id="ROSLIB20043">Idque fiet, si cuncta debite proferentes singulas quasque dictiones
+        suis accentibus pronunciemus, non plures ad invicem collidentes, aut unam in duas secantes,
         semper unam normam pronunciationis servantes ne velocius principium, medio, fineve versus
         psalmi inveniatur, ut nonnullorum est <pb n="[74]"/>abusus, qui absorbentes litteras
         collidunt, aut certo finalem litteram unius dictionis alteri annectentes significata
         confundunt, ut verbi gratia, quum aequaliter psalmodiam concinere oporteat et distincta, ut
         hic patet:</p>
       <p xml:id="ROSLIB20044">Bene:</p>
-      <p xml:id="ROSLIB20045">[CCMP/CT12:74,1; text: Domine labia mea aperies: et os meum annunciabit
-        laudem tuam. Deus in adiutorium meum intende Domine ad adiuuandum me festina, gloria patri
-        et filio et spiritui sancto sicut erat in principio et nunc et semper et in saecula
-        saeculorum amen, alleluia laus tibi Domine rex eternae gloriae] <figure>
+      <p xml:id="ROSLIB20045">[CCMP/CT12:74,1; text: Domine labia mea aperies: et os meum
+        annunciabit laudem tuam. Deus in adiutorium meum intende Domine ad adiuuandum me festina,
+        gloria patri et filio et spiritui sancto sicut erat in principio et nunc et semper et in
+        saecula saeculorum amen, alleluia laus tibi Domine rex eternae gloriae] <figure>
           <graphic url="/images/ROSLIB2_01GF.gif"/>
         </figure></p>
       <p xml:id="ROSLIB20046">Isti e diverso hoc modo pronunciantes et grammaticam et musicam
@@ -369,9 +383,9 @@
         praevaleant. Sed duobus his exemplis minus contenti pauculas pronunciationes subiiciemus,
         quibus facile laudabiles et veri modi psallendi comprobabuntur, et abusus facile
         diiudicabuntur. Bene etenim legimus:</p>
-      <p xml:id="ROSLIB20050">[CCMP/CT12:75; text: Bene, Abusive, Aue maria gratia plena Dominus tecum,
-        Au ma ri a gra ti a plena domnus tecum, quia mandata tua non sum oblitus, qui a mandata tua
-        no so noblitus] <figure>
+      <p xml:id="ROSLIB20050">[CCMP/CT12:75; text: Bene, Abusive, Aue maria gratia plena Dominus
+        tecum, Au ma ri a gra ti a plena domnus tecum, quia mandata tua non sum oblitus, qui a
+        mandata tua no so noblitus] <figure>
           <graphic url="/images/ROSLIB2_02GF.gif"/>
         </figure></p>
       <p xml:id="ROSLIB20051">Etiam in capitulo de Domina ad Vesperas: Bene "In habitatione sancta,
@@ -382,31 +396,31 @@
         ladate superexaltateum min saecula."</p>
       <p xml:id="ROSLIB20053">In versiculo: Bene; "Iustum deduxit per vias rectas." Male; "per via
         reta." Bene: "Et ostendit illi regnum Dei." Male: "Et ostendit illum regum Dei."</p>
-      <p xml:id="ROSLIB20054">In oratione, "Omnes sancti tui quaesumus:" Bene: "Adiuvent ut dum eorum."
-        Male: "Adiuven tudum." [Bene]: "Tempora sint tua." Male: "Tempora sin tua," et in plerisque
-        locis.</p>
-      <p xml:id="ROSLIB20055">[CCMP/CT12:76,1; text: Bene: quem terra pontus aethera, Male: quem te ra
-        pontus aethera] <figure>
+      <p xml:id="ROSLIB20054">In oratione, "Omnes sancti tui quaesumus:" Bene: "Adiuvent ut dum
+        eorum." Male: "Adiuven tudum." [Bene]: "Tempora sint tua." Male: "Tempora sin tua," et in
+        plerisque locis.</p>
+      <p xml:id="ROSLIB20055">[CCMP/CT12:76,1; text: Bene: quem terra pontus aethera, Male: quem te
+        ra pontus aethera] <figure>
           <graphic url="/images/ROSLIB2_03GF.gif"/>
         </figure></p>
-      <p xml:id="ROSLIB20056">Hic namque videntur collidi duae illae dictiones, "quem terra," et "pontus
-        aethera," et redigi in unum, quod absurdum est, et sic undique considerandum est in
+      <p xml:id="ROSLIB20056">Hic namque videntur collidi duae illae dictiones, "quem terra," et
+        "pontus aethera," et redigi in unum, quod absurdum est, et sic undique considerandum est in
         psalmodia, et praesertim in istius modi collisionibus, et cave dixeris:</p>
       <p xml:id="ROSLIB20057">[CCMP/CT12:76,2; text: Male: e te le uami ni porte terna les]</p>
       <p xml:id="ROSLIB20058">Videris enim ex duabus dictionibus agglutinare unam, sed dic:</p>
       <p xml:id="ROSLIB20059">[CCMP/CT12:76,3; text: Bene: et elauamini portae aeternales]</p>
-      <p xml:id="ROSLIB20060">Et sic in plerisque locis, ut cave dixeris, "Praeoccupemus faciem meius in
-        confessione," sed dic: "Praeoccupemus faciem, "et post hanc syllabam <pb n="[77]"/>"em"
-        tantillum comprime labra, et demum dic "eius." Et sic dicere cavendum "Est requiem
+      <p xml:id="ROSLIB20060">Et sic in plerisque locis, ut cave dixeris, "Praeoccupemus faciem
+        meius in confessione," sed dic: "Praeoccupemus faciem, "et post hanc syllabam <pb n="[77]"
+        />"em" tantillum comprime labra, et demum dic "eius." Et sic dicere cavendum "Est requiem
         meternam;" dicendum est "Requiem eternam." Et iterum cave dixeris "Venitexultemus Domino,"
         sed dic "Exultemus Domino." Psallentes enim non decet observare legem metricam, qua saepius
         vocales et littera "m" absorbentur ab subsequente vocali, hic namque agitur pedestri
         sermone, non numeris metricis. Et circa haec possem infinitos adducere abusus, sed
         brevitatis causa omitto.</p>
       <p xml:id="ROSLIB20061">VIII.</p>
-      <p xml:id="ROSLIB20062">Qui enim horum omnium quaerit vitare barbariem Priscianum amplectatur, et
-        in omnibus affatim erudietur. Praeter psalmodiam autem in aliis scilicet, cantibus, non his
-        contentamur limitibus, quippe ipsi prae se ferunt notulas, per suas canantur, sed et hoc
+      <p xml:id="ROSLIB20062">Qui enim horum omnium quaerit vitare barbariem Priscianum amplectatur,
+        et in omnibus affatim erudietur. Praeter psalmodiam autem in aliis scilicet, cantibus, non
+        his contentamur limitibus, quippe ipsi prae se ferunt notulas, per suas canantur, sed et hoc
         diversimode. Alter enim modulus observatur in canendis antiphonis, alter in responsoriis,
         alter in missarum introitibus, gradualibus, offerendis (ut aiunt) et communionibus,
         antiphonae enim dicuntur quasi ante psalmum tonantes. Unde secundum earum tonum psalmorum
@@ -443,8 +457,8 @@
         et in Antiphona, "Euge serve bone," dicunt "bono ne," et in illa Antiphona de Assumptione,
         "Pulchra es et decora," dicunt "de conoora," et in Versiculo Complectorii in illa dictione
         "commendo," dicunt "comendo," et faciunt brevem illa syllabam "men."</p>
-      <p xml:id="ROSLIB20065">In introitus enim quasi voce praeconia nos ad divina excitamus tanquam a
-        somno, iuxta Apostoli monita, surgentes, atque ideo ut plerumque in introitibus alacriter
+      <p xml:id="ROSLIB20065">In introitus enim quasi voce praeconia nos ad divina excitamus tanquam
+        a somno, iuxta Apostoli monita, surgentes, atque ideo ut plerumque in introitibus alacriter
         alteque concinnimus. In gradualibus (quae a gradibus in quibus cani consueverant nomen
         sortita sunt) plane et protense, humiliataque voce incedimus. Sed in tractibus, quia laborem
         et afflictionem notant (a trahendo namque dicuntur) tractim et cum asperitate vocum
@@ -518,14 +532,14 @@
         administrentur necessaria, maxime his qui laborant in verbo, alios instruendo in fide,
         doctrina et moribus, et caetera.</p>
       <p xml:id="ROSLIB20071">XI.</p>
-      <p xml:id="ROSLIB20072">Sed paucos nunc est invenire qui laborent in verbo, immo vix est reperire,
-        qui debito libramine trutinent conscientiam priusquam ad sancta sanctorum accedant. Quum
-        tamen, iuxta Apostoli monita: Probare se debeat homo et sic edere de pane vitae, quem dedit
-        nobis Christus in spirituale medicamen, hic etenim cibus, caro videlicet, et sanguis
-        Christi, divo Bernardo attestate, ut est aegris medicina, peregrinantibus via, mortuis vita.
-        Debiles confortat, valentes delectat, languorem sanat, sanitatem servat, sic indigne
-        sumentibus nulli est commodo. Quin potius indigna <pb n="[82]"/>communio peccatis hominem
-        illaqueat, damnationem praeparat, proximam scandalizat, mentem excaecat, tentationi
+      <p xml:id="ROSLIB20072">Sed paucos nunc est invenire qui laborent in verbo, immo vix est
+        reperire, qui debito libramine trutinent conscientiam priusquam ad sancta sanctorum
+        accedant. Quum tamen, iuxta Apostoli monita: Probare se debeat homo et sic edere de pane
+        vitae, quem dedit nobis Christus in spirituale medicamen, hic etenim cibus, caro videlicet,
+        et sanguis Christi, divo Bernardo attestate, ut est aegris medicina, peregrinantibus via,
+        mortuis vita. Debiles confortat, valentes delectat, languorem sanat, sanitatem servat, sic
+        indigne sumentibus nulli est commodo. Quin potius indigna <pb n="[82]"/>communio peccatis
+        hominem illaqueat, damnationem praeparat, proximam scandalizat, mentem excaecat, tentationi
         subiugat, Deum irritat, vitam temporalem breviat, gratuitis spoliat. Quae cuncta fere
         ordinatim enumerat Psalmographus dicens: Fiat mensa eorum coram ipsis in laqueum, et in
         retributionem et in scandalum, obscurentur oculi eorum ne videant, et dorsum eorum semper
@@ -538,22 +552,23 @@
         qua animam suam pro nobis posuit, antequam quisque praesumat tractare, solicito examine
         scrutetur suam mentem, ne forte laetali gravatus crimine impudenter simul et perniciose se
         praecipitet.</p>
-      <p xml:id="ROSLIB20073">Sed ad confessionis (in qua omnia lavantur) confugiens subsidium, simulque
-        poenitentiae salutaris accepto antidoto, confidens tum de misericordia Dei optimi etiam
-        tremebundus accedat, sed pudet dicere. Est enim videre nonnullos abrupte praecipitanterque
-        sacrarium adeuntes ministrum tumultuose minabundos inclamare quo se celeriter vestiant, qui
-        tamen forsitan nondum matutinas laudes persolverint. Tanta denique importunitate se amicire
-        incipiunt, ut ipsius amictus aliquando funiculos discerpant, sic albae, sic manipuli, sic
-        stolae caeterarumque induviarum sacrarum nusquam ab aliquibus habetur ratio, quin magis
-        distrahunt, dilaniant nimia festinatione ducti. Interim nec sacra meditantes, nec parum
-        quidem orantes, vel ipsum Psalmum, "Miserere mei Deus," ruminantes, quin magis saepe inter
-        induendum verba vana, ociosa et (quod peius est) quandoque lasciva cachinando, petulce
-        ridendo depromunt. Moxque ut sacris induti fuerint, ministro minantur quo ocius se ad altare
-        ducant, nec ab ira, nec verberibus temperantes, si forte clericus momento diutius moretur.
-        Sicque citatissimo gressu omni post habita reverentia, oculos huc illucque vibrantes ad
-        vivificum altare properant, non secus atque in forum novarum rerum inspiciendarum causa
-        volitarent, <pb n="[83]"/>demum ad altare progressi (quia praevidere missam in sacrario
-        neglexerant) cartas missalis hinc inde violenter citeque volutantes dilacerant.</p>
+      <p xml:id="ROSLIB20073">Sed ad confessionis (in qua omnia lavantur) confugiens subsidium,
+        simulque poenitentiae salutaris accepto antidoto, confidens tum de misericordia Dei optimi
+        etiam tremebundus accedat, sed pudet dicere. Est enim videre nonnullos abrupte
+        praecipitanterque sacrarium adeuntes ministrum tumultuose minabundos inclamare quo se
+        celeriter vestiant, qui tamen forsitan nondum matutinas laudes persolverint. Tanta denique
+        importunitate se amicire incipiunt, ut ipsius amictus aliquando funiculos discerpant, sic
+        albae, sic manipuli, sic stolae caeterarumque induviarum sacrarum nusquam ab aliquibus
+        habetur ratio, quin magis distrahunt, dilaniant nimia festinatione ducti. Interim nec sacra
+        meditantes, nec parum quidem orantes, vel ipsum Psalmum, "Miserere mei Deus," ruminantes,
+        quin magis saepe inter induendum verba vana, ociosa et (quod peius est) quandoque lasciva
+        cachinando, petulce ridendo depromunt. Moxque ut sacris induti fuerint, ministro minantur
+        quo ocius se ad altare ducant, nec ab ira, nec verberibus temperantes, si forte clericus
+        momento diutius moretur. Sicque citatissimo gressu omni post habita reverentia, oculos huc
+        illucque vibrantes ad vivificum altare properant, non secus atque in forum novarum rerum
+        inspiciendarum causa volitarent, <pb n="[83]"/>demum ad altare progressi (quia praevidere
+        missam in sacrario neglexerant) cartas missalis hinc inde violenter citeque volutantes
+        dilacerant.</p>
       <p xml:id="ROSLIB20074">Explicito post haec corporali (quod dicunt) impetu non modico inchoant
         dicentes "In nomine Patris et Filii et Spiritus Sancti," "Introibo," et caetera, non
         curataque missalis rubrica psalmum omittunt, "Iudica me Deus," et caetera. Quum tamen et hic
@@ -567,10 +582,10 @@
         elekson], ne maiestati divinae derogent, quod si ante principem saeculi facerent, quanto
         facerent, quanto infinitius ante Deum, quem tangentes deberent usque ad ungues pedum
         contremiscere.</p>
-      <p xml:id="ROSLIB20075">Sed hi non tantum in "Kyrie eleison" verum in omnibus fere missae partibus
-        absque ulla attentione gesticulantur, potiusque intelligentes Deum venerentur. Interque alia
-        canonem transcurrentes quum ad elevationem iam sanctissimi corporis unigeniti Dei
-        pervenerint, tanta velocitate (ne dixerim scurrilitate) elevant, et rursum super altari
+      <p xml:id="ROSLIB20075">Sed hi non tantum in "Kyrie eleison" verum in omnibus fere missae
+        partibus absque ulla attentione gesticulantur, potiusque intelligentes Deum venerentur.
+        Interque alia canonem transcurrentes quum ad elevationem iam sanctissimi corporis unigeniti
+        Dei pervenerint, tanta velocitate (ne dixerim scurrilitate) elevant, et rursum super altari
         deponunt, ut iure dicere possis hos se ad ludum pilae trigonalis disponere. Similiter
         consecrationis calicis facta sine veneratione aliqua calicem elevant (neglecta rubrica
         romana de cerimoniis missarum, aedita per Reverendum Dominum Ioannem Burckardum argentinum,
@@ -608,13 +623,14 @@
         non attendentes quia taliter sacrificantibus non placatur Deus sed indignatur. Scriptum enim
         est oratio iusti impinguat altare, deprecatio impii non liberabit eum et item sprevit
         Dominus altare suum propter iniquitatem ministrantium Malachias quoque horum non subticet
-        exterminium: Ad vos (inquit) sacerdotes qui despicitis nomen meum, ad vos est mandatum. <pb n="[85]"/>O Sacerdotes, ecce ego proiiciam vobis brachium irae meae, et disperam super
+        exterminium: Ad vos (inquit) sacerdotes qui despicitis nomen meum, ad vos est mandatum. <pb
+          n="[85]"/>O Sacerdotes, ecce ego proiiciam vobis brachium irae meae, et disperam super
         vultus vestros stercus, et iterum dedi vos contemptibiles omnibus populis.</p>
       <p xml:id="ROSLIB20078">XII.</p>
-      <p xml:id="ROSLIB20079">Sed isti, de quibus nunc dolens loquor, omnes has minas floccipendentes
-        comedunt, morticina mortuorum, non lotis manibus, polluto ore in mundo corde Christi
-        vivificum corpus et sacrata vasa contingere praesumentes, et hoc fortasse non nisi parvi
-        lucri gratia, non nisi aliquid temporaliter accepturi. Meminerint saltem quaeso post
+      <p xml:id="ROSLIB20079">Sed isti, de quibus nunc dolens loquor, omnes has minas
+        floccipendentes comedunt, morticina mortuorum, non lotis manibus, polluto ore in mundo corde
+        Christi vivificum corpus et sacrata vasa contingere praesumentes, et hoc fortasse non nisi
+        parvi lucri gratia, non nisi aliquid temporaliter accepturi. Meminerint saltem quaeso post
         indecentem sumptionem redire ad cor, ut vel non subiaceant turpissimo ingratitudinis vicio
         cum praevaricationis noxa, etenim qui vel post sumptum tamen sacramentum a peccatis non se
         coercet, triplex malum incurrere dinoscitur. Primo, quia Christum quem utcumque suscepit
@@ -650,9 +666,9 @@
         multis tractatibus detur legere consulent tamen boni, qui et haec breviter perstricta
         legerint.</p>
       <p xml:id="ROSLIB20080">XIII.</p>
-      <p xml:id="ROSLIB20081">Sacris igitur induviis succinctus fulcitusque sacerdos priusque altaris
-        gradus conscendat, simul cum astantibus vel generaliter confitetur, praemittens Psalmum,
-        "Iudica me, Domine," (ex instituo coelestini), ut purior et cum contritione saltem
+      <p xml:id="ROSLIB20081">Sacris igitur induviis succinctus fulcitusque sacerdos priusque
+        altaris gradus conscendat, simul cum astantibus vel generaliter confitetur, praemittens
+        Psalmum, "Iudica me, Domine," (ex instituo coelestini), ut purior et cum contritione saltem
         peccatorum ingrediatur, ut intra se dicere queat, "Iudica me, Domine, quoniam ego in
         innocentia mea ingressus sum." Percutit autem pectus peccata confitens exemplo publicani,
         qui dixit: "Deus, propitius esto mihi peccatori." Deinde oro circumstantibus precatus
@@ -678,14 +694,15 @@
         totumque se illi dare et nihil sentire de corpore. Modus autem hic respondendi sumptus est
         ex verbo Pauli, dicentis Timotheo, capite sexto: Dominus noster Iesus Christus sic cum
         spiritu tuo.</p>
-      <p xml:id="ROSLIB20083">Hinc sacerdos dicit orationem quae ideo nomen collectae sortita est, quia
-        olim non dicebatur nisi multitudine populi collecta. Vel forte quia oratio illa petitionem
-        populi colligit quam offert Deo sacerdos pro populo intercedens. Hic non praetermittendum
-        omnes fere orationes concludi per "Dominum nostrum Iesum Christum," Christus enim Iesus
-        mediator Dei et hominum homines Deo Patri reconciliavit, redimens hominem praecioso
-        sanguine, per eum ergo petimus exaudiri mediate quo sumus redempti. Nec enim Pater spernere
-        poterit precatus qui in nomine unigeniti sui offeruntur pro mundo quum tantum dilexerit Deus
-        mundum, ut eundem filium suum daret pro mundi redemptione, et caetera.</p>
+      <p xml:id="ROSLIB20083">Hinc sacerdos dicit orationem quae ideo nomen collectae sortita est,
+        quia olim non dicebatur nisi multitudine populi collecta. Vel forte quia oratio illa
+        petitionem populi colligit quam offert Deo sacerdos pro populo intercedens. Hic non
+        praetermittendum omnes fere orationes concludi per "Dominum nostrum Iesum Christum,"
+        Christus enim Iesus mediator Dei et hominum homines Deo Patri reconciliavit, redimens
+        hominem praecioso sanguine, per eum ergo petimus exaudiri mediate quo sumus redempti. Nec
+        enim Pater spernere poterit precatus qui in nomine unigeniti sui offeruntur pro mundo quum
+        tantum dilexerit Deus mundum, ut eundem filium suum daret pro mundi redemptione, et
+        caetera.</p>
       <p xml:id="ROSLIB20084">
         <pb n="[88]"/>Ut autem Deus ostendatur indivisibilis in numero impari (ut multum) dicuntur
         orationes, numerus enim impar indivisibilis est. Orationem sequitur epistola, qua doctrina
@@ -703,9 +720,9 @@
         Affertur vero et crux, quia doctrina evangeliorum vexillum vivificae crucis in universo
         mundo erexit. Lecto evangelio canitur vel dicitur symbolum, quod dicitur collatio, ab
         [sumballo], id est, confero.</p>
-      <p xml:id="ROSLIB20085">A pluribus namque in unum collatum est abs trecentis, videlicet, et decem
-        et octo partibus in Nycena synodo, esto in eo non sint alii articuli quam in primo illo ab
-        apostolis aedito. Dilucidatiores tamen sunt hi quam illi propter diversas haereses
+      <p xml:id="ROSLIB20085">A pluribus namque in unum collatum est abs trecentis, videlicet, et
+        decem et octo partibus in Nycena synodo, esto in eo non sint alii articuli quam in primo
+        illo ab apostolis aedito. Dilucidatiores tamen sunt hi quam illi propter diversas haereses
         emergentes; deinde post "Dominus vobiscum" subinfertur offertorium (quod dicunt), sub eo
         namque prisci laici oblationem suam altari superponere consueverunt, qui mos etiam huiusque
         in plerisque Ecclesiis servatur. Sed tunc sacerdos post "Oremus" nullam infert collectam,
@@ -734,8 +751,8 @@
         meritis quam de meritis martyrum, quorum aliquorum suffragia implorantur in canone, sed
         eorum de quorum meritis et martyrio extitit omnimoda certitudo. Principaliter autem in
         canone interpellantur suffragia apostolorum tamquam fidei orthodoxe fundatorum.</p>
-      <p xml:id="ROSLIB20088">Verum antequam canonem incipiat, sacerdos intret sui cubiculum cordis et
-        hostio sensuum corporis clauso, Deum Patrem exoret qui exauditor est clamoris cordis non
+      <p xml:id="ROSLIB20088">Verum antequam canonem incipiat, sacerdos intret sui cubiculum cordis
+        et hostio sensuum corporis clauso, Deum Patrem exoret qui exauditor est clamoris cordis non
         vocis, debetque canon dici mediocritate servata, non tam tractim ut astantibus sit tedio,
         nec tam cursim ut syllaba aut dictio aliqua praetermittatur. Idcirco namque in testamento
         veteri sub figura prohibetur offerri sacrificium sine sale (discretione, scilicet), utque
@@ -787,16 +804,16 @@
         tonorum significationes proprietatesque ostendit, verum etiam in tempore quo et a quibus
         personis inventi fuere. Nicolaum quoque Bursium reliquosque quam plures habet, quibus
         perlustratis facile assequetur quod optat.</p>
-      <p xml:id="ROSLIB20092">Organi solius nos utcumque agimus partes. Nec tamen omnis organi quippe
-        scientes quod quicquid aptatur ad cantilenam corporeumque est iuxta Augustini diffinitionem
-        organum dici iure potest. Sed de illo tantum intendimus instrumento quod follibus inflatum
-        multis meatibus quasi cicutis imparibus compactum voces et concentum cum bombulo emittit,
-        hoc enim solo nunc utimur in Ecclesiis Dei. Cunctis aliis propter abusum hystrionum reiectis
-        instrumentis musicis, adeo tamen in nonnullis locis inolevit abusus tibias, tubas, ductiles,
-        corneasque invehere sacris ut magis iudices classicum cani, vel cani receptui, quam ad sacra
-        hortari. Huc accedunt lascivi <pb n="[92]"/>conventus his instrumentis invitati magis in
-        divorum contumeliam amantumque petulantiam quam in sacrorum observationem, quae quam sit
-        vaesanum admittere quisquis sane mentis facile iudicaverit.</p>
+      <p xml:id="ROSLIB20092">Organi solius nos utcumque agimus partes. Nec tamen omnis organi
+        quippe scientes quod quicquid aptatur ad cantilenam corporeumque est iuxta Augustini
+        diffinitionem organum dici iure potest. Sed de illo tantum intendimus instrumento quod
+        follibus inflatum multis meatibus quasi cicutis imparibus compactum voces et concentum cum
+        bombulo emittit, hoc enim solo nunc utimur in Ecclesiis Dei. Cunctis aliis propter abusum
+        hystrionum reiectis instrumentis musicis, adeo tamen in nonnullis locis inolevit abusus
+        tibias, tubas, ductiles, corneasque invehere sacris ut magis iudices classicum cani, vel
+        cani receptui, quam ad sacra hortari. Huc accedunt lascivi <pb n="[92]"/>conventus his
+        instrumentis invitati magis in divorum contumeliam amantumque petulantiam quam in sacrorum
+        observationem, quae quam sit vaesanum admittere quisquis sane mentis facile iudicaverit.</p>
       <p xml:id="ROSLIB20093">Admissum est autem organum in templis, ut canentes per vicissitudine
         organi recreentur, ne in continuo cantuum tractu plus aequo fatigentur, sed quo alacrius ad
         suas partes concinendas exurgant. Unde merito etiam in organis observanda est religiositas,
@@ -821,14 +838,15 @@
         sui effectus degenerare cogit, quippe ad animandum mentes et recreandum vires institutum, ad
         enervandos animos mentesque distrahendas servire compellit.</p>
       <p xml:id="ROSLIB20095">Possumus ergo quattuor inducere genere organistarum:</p>
-      <p xml:id="ROSLIB20096">1. Sint enim nonnulli sese exercitantes in pulsando contrapuncto <pb n="[93]"/>(quod aiunt) sub cantu plano, prosarum, videlicet, hymnorum, antiphonarum,
+      <p xml:id="ROSLIB20096">1. Sint enim nonnulli sese exercitantes in pulsando contrapuncto <pb
+          n="[93]"/>(quod aiunt) sub cantu plano, prosarum, videlicet, hymnorum, antiphonarum,
         sequentiarum aliorumque id genus in qua parte ut multum pollent ultramontani, non sine
         Italorum rubore. Hi itaque veri et Ecclesiastici censendi sunt organistae.</p>
-      <p xml:id="ROSLIB20097">2. Alios videas ex suis imaginationibus praeambula non improbanda concinne
-        colligere, super missarum partibus ex tempore de sua industria eleganter vagari, servato
-        tamen undique musices vigore. Sed et hi nomen sortiuntur boni organistae.</p>
-      <p xml:id="ROSLIB20098">3. Aliquos itidem videas toto conamine carmina cantu mensurabili compacta
-        pulsare, choro canentium in cantu plano se commodare, nec usquam a tramite cantus
+      <p xml:id="ROSLIB20097">2. Alios videas ex suis imaginationibus praeambula non improbanda
+        concinne colligere, super missarum partibus ex tempore de sua industria eleganter vagari,
+        servato tamen undique musices vigore. Sed et hi nomen sortiuntur boni organistae.</p>
+      <p xml:id="ROSLIB20098">3. Aliquos itidem videas toto conamine carmina cantu mensurabili
+        compacta pulsare, choro canentium in cantu plano se commodare, nec usquam a tramite cantus
         mensurabilis deviare, ita ut singulas quasque carminis partes possis auribus haurire. Hi
         quoque summo commendandi atque inter organistas primarii dici possunt.</p>
       <p xml:id="ROSLIB20099">4. Sed plerosque videas organa concutere, nec cantum nec eius rationes
@@ -846,7 +864,8 @@
         est. Haecque cuncta sub quanta potui brevitate complexus sum; non tamen ausim affirmare
         undique scopum me artigisse, verum in multis mutilum, in aliis barbarum, in nonnullis item
         forte aliis superfluum nauseabundumque me praestiti (verum, ut ingenue fatear). Prodesse
-        quaesivi magis quam commendari, atque in hoc morem mihi geri veniaque dignus <pb n="[94]"/>censeri opto. Et si quid proficui ex his meis nugis emersisse sensero, mecum optime actum
+        quaesivi magis quam commendari, atque in hoc morem mihi geri veniaque dignus <pb n="[94]"
+        />censeri opto. Et si quid proficui ex his meis nugis emersisse sensero, mecum optime actum
         putavero qui in aliquo saltem utilis inventus fuero. Agamque grates immortali Deo optimo
         maximo, qui est benedictus in saecula. Amen.</p>
       <p xml:id="ROSLIB20101">LAUS DEO</p>

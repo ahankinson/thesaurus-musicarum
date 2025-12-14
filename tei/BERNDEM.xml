@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De mensurando monochordo</title>
         <title type="abbrev">BERNDEM</title>
-        <author>Berno Augiensis</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Berno Augiensis</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Elisabeth Honn</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Bernonis Augiensis Abbatis De arte musica disputationes traditae: De mensurando
@@ -161,11 +171,11 @@
       <p xml:id="BERNDEM0098">
         <pb n="[51]"/>Rursus a T. usque ad N. vel K., interstitio quadripartito, ubi tertia
         evenerit, linea Q. signetur.</p>
-      <p xml:id="BERNDEM0099">Hinc a T. usque ad P., intervallo tripartito, quarta superapponatur, quae
-        lineam transversam non transibit,</p>
+      <p xml:id="BERNDEM0099">Hinc a T. usque ad P., intervallo tripartito, quarta superapponatur,
+        quae lineam transversam non transibit,</p>
       <p xml:id="BERNDEM0100">sed subtraducta M. notetur.</p>
-      <p xml:id="BERNDEM0101">Dehinc a T. usque ad Q. superficie bipartita, et tertia superiuncta linea
-        transversam non transiens,</p>
+      <p xml:id="BERNDEM0101">Dehinc a T. usque ad Q. superficie bipartita, et tertia superiuncta
+        linea transversam non transiens,</p>
       <p xml:id="BERNDEM0102">sed superiorem partem tenens, I. notetur.</p>
       <p xml:id="BERNDEM0103">Rursus a T. usque ad H., interstitio tripartito,</p>
       <p xml:id="BERNDEM0104">et quarta addita linea ducta E. signetur.</p>
@@ -181,25 +191,25 @@
       <p xml:id="BERNDEM0113">Sic diatonicum exaratur.</p>
       <p xml:id="BERNDEM0114">
         <pb n="[55]"/>II DE LINEIS MONOCHORDI IN CHROMATICO</p>
-      <p xml:id="BERNDEM0115">Post haec vero lineae, quae B. et C. notantur, in chromaticum ducantur, et
-        spatium inter D. et E. bipartiatur: et retro inter D. et C. medietate posita linea ducatur.
-        Pari modo E. et F. ducantur, et spatii, quod est inter G. et H., medietate retro inter G. et
-        F. data linea trahatur. Post H. et I. et L. ut in diatonico, sic et in isto ducantur: et ab
-        H. usque L. linea divisionis ducatur, et subtus M. et N. trahantur. Tunc interstitium, quod
-        est inter K. et L., dividatur, et retro inter K. et L. medietate posita lineam transversam
-        transiens notetur. Hinc spatii inter P. et L. medietas inter L. et K. ponatur, et linea
-        subtus transversam ducatur. Eodem modo P. et Q. ducantur, et medio interstitii, quod (est)
-        inter R. et S., retro inter R. et Q. data linea ducatur, et, ultima S. tracta, chromaticum
-        compleatur.</p>
+      <p xml:id="BERNDEM0115">Post haec vero lineae, quae B. et C. notantur, in chromaticum
+        ducantur, et spatium inter D. et E. bipartiatur: et retro inter D. et C. medietate posita
+        linea ducatur. Pari modo E. et F. ducantur, et spatii, quod est inter G. et H., medietate
+        retro inter G. et F. data linea trahatur. Post H. et I. et L. ut in diatonico, sic et in
+        isto ducantur: et ab H. usque L. linea divisionis ducatur, et subtus M. et N. trahantur.
+        Tunc interstitium, quod est inter K. et L., dividatur, et retro inter K. et L. medietate
+        posita lineam transversam transiens notetur. Hinc spatii inter P. et L. medietas inter L. et
+        K. ponatur, et linea subtus transversam ducatur. Eodem modo P. et Q. ducantur, et medio
+        interstitii, quod (est) inter R. et S., retro inter R. et Q. data linea ducatur, et, ultima
+        S. tracta, chromaticum compleatur.</p>
       <p xml:id="BERNDEM0116">III DE LINEIS IN ENHARMONIO</p>
-      <p xml:id="BERNDEM0117">Deinde lineae B. et C. ut in diatonico et chromatico, sic et in enharmonio
-        ducantur, et earum interstitium linea media dividatur. Rursus E. et F. ducantur, et in duas
-        dieses semitonium diducatur. Post H. ducta et I. et L. linea divisionis, ut in aliis, ab H.
-        ad L. ducatur, et inter H. et I. media ponatur. Sic sub transversa M. et N. ductis media
-        inseratur. Pari modo P., Q., S. tractis et inter P. et Q. media posita enharmonium finiatur.
-        Sic diatonicum per duos tonos et semitonium; chromaticum per semitonium, semitonium et
-        trihemitonium incompositum; enharmonium vero per diesin, diesin--id est dimidium
-        semitonium--et ditonum incompositum exaratur.</p>
+      <p xml:id="BERNDEM0117">Deinde lineae B. et C. ut in diatonico et chromatico, sic et in
+        enharmonio ducantur, et earum interstitium linea media dividatur. Rursus E. et F. ducantur,
+        et in duas dieses semitonium diducatur. Post H. ducta et I. et L. linea divisionis, ut in
+        aliis, ab H. ad L. ducatur, et inter H. et I. media ponatur. Sic sub transversa M. et N.
+        ductis media inseratur. Pari modo P., Q., S. tractis et inter P. et Q. media posita
+        enharmonium finiatur. Sic diatonicum per duos tonos et semitonium; chromaticum per
+        semitonium, semitonium et trihemitonium incompositum; enharmonium vero per diesin,
+        diesin--id est dimidium semitonium--et ditonum incompositum exaratur.</p>
       <p xml:id="BERNDEM0118">
         <pb n="[59]"/>IV DE NOMINIBUS CHORDARUM</p>
       <p xml:id="BERNDEM0119">Sed, quoniam mensurandi regulam dedimus,</p>
@@ -239,18 +249,20 @@
       <p xml:id="BERNDEM0152">Quare his omissis alia videamus.</p>
       <p xml:id="BERNDEM0153">
         <pb n="[65]"/>V DE QUINQUE TETRACHORDIS MONOCHORDI</p>
-      <p xml:id="BERNDEM0154">Quinque tetrachorda in monochordi dimensione inveniuntur, quae pari modo
-        semitonio</p>
+      <p xml:id="BERNDEM0154">Quinque tetrachorda in monochordi dimensione inveniuntur, quae pari
+        modo semitonio</p>
       <p xml:id="BERNDEM0155">--id est non dimidio, sed imperfecto tono;</p>
       <p xml:id="BERNDEM0156">semum enim Graeci imperfectum dicunt--</p>
       <p xml:id="BERNDEM0157">et duobus tonis complentur.</p>
       <p xml:id="BERNDEM0158">Tonum vero dicimus: sesquioctavam proportionem,</p>
       <p xml:id="BERNDEM0159">quem etiam epogdoum vocant.</p>
-      <p xml:id="BERNDEM0160">Nam si a T. usque ad S. in octo partiaris, et nonam superadieceris,</p>
+      <p xml:id="BERNDEM0160">Nam si a T. usque ad S. in octo partiaris, et nonam
+        superadieceris,</p>
       <p xml:id="BERNDEM0161">tonum inter S. et R. te invenisse videbis,</p>
       <p xml:id="BERNDEM0162">et sic spatium a T. usque ad R. intervallum a T. usque ad S.</p>
       <p xml:id="BERNDEM0163">totum et insuper eius octavam continebit:</p>
-      <p xml:id="BERNDEM0164">ut si novem octonario contuleris, eum totum et eius continet octavam,</p>
+      <p xml:id="BERNDEM0164">ut si novem octonario contuleris, eum totum et eius continet
+        octavam,</p>
       <p xml:id="BERNDEM0165">videlicet unitatem.</p>
       <p xml:id="BERNDEM0166">Sic tonus, ut simpliciter et breviter describatur,</p>
       <p xml:id="BERNDEM0167">in sesquioctava proportione invenitur.</p>
@@ -273,7 +285,8 @@
       <p xml:id="BERNDEM0183">quia tono interiecto a medio disparatur.</p>
       <p xml:id="BERNDEM0184">Quintum autem, quod est P. Q. R. S.,</p>
       <p xml:id="BERNDEM0185">hyperboleon, id est excellens, dicitur,</p>
-      <p xml:id="BERNDEM0186">quod in acutioribus et idcirco excellentioribus vocibus inveniatur.</p>
+      <p xml:id="BERNDEM0186">quod in acutioribus et idcirco excellentioribus vocibus
+        inveniatur.</p>
       <p xml:id="BERNDEM0187">Et haec quinque tetrachorda</p>
       <p xml:id="BERNDEM0188">pari modo semitonio et duobus tonis adimplentur.</p>
       <p xml:id="BERNDEM0189">Sed his breviter libatis ad consonantias veniamus.</p>
@@ -355,8 +368,8 @@
       <p xml:id="BERNDEM0255">tres tantum habet species,</p>
       <p xml:id="BERNDEM0256">unam minus quam voces.</p>
       <p xml:id="BERNDEM0257">Quarum (:)</p>
-      <p xml:id="BERNDEM0258">|| [f. 54r a in marg.] prima constat: tono, semitonio et tono, quae est A.
-        B. C. D.</p>
+      <p xml:id="BERNDEM0258">|| [f. 54r a in marg.] prima constat: tono, semitonio et tono, quae
+        est A. B. C. D.</p>
       <p xml:id="BERNDEM0259">Secunda forma est B. C. D. E., quod est semitonium et ditonus.</p>
       <p xml:id="BERNDEM0260">Tertia C. D. E. F., quod est ditonus et semitonium.</p>
       <p xml:id="BERNDEM0261">Et sic per quaternas,</p>
@@ -365,8 +378,8 @@
       <p xml:id="BERNDEM0264">has alternatim tres formas (:) te scias inventurum.</p>
       <p xml:id="BERNDEM0265">Diapente vero, quae unam plus vocem:</p>
       <p xml:id="BERNDEM0266">unam plus habet et speciem.</p>
-      <p xml:id="BERNDEM0267">Quarum prima est D. E. F. G. H.; secunda E. F. G. H. M.; tertia F. G. H.
-        M. N.; quarta G. H. M. N. O.</p>
+      <p xml:id="BERNDEM0267">Quarum prima est D. E. F. G. H.; secunda E. F. G. H. M.; tertia F. G.
+        H. M. N.; quarta G. H. M. N. O.</p>
       <p xml:id="BERNDEM0268">Has si diligenter inspicias,</p>
       <p xml:id="BERNDEM0269">tonorum et semitoniorum positiones invenies diversas,</p>
       <p xml:id="BERNDEM0270">et per seriem vocum alternatim dispositas,</p>
@@ -410,7 +423,8 @@
       <p xml:id="BERNDEM0306">Octo cantionum modis</p>
       <p xml:id="BERNDEM0307">--quos abusive tonos vocant--</p>
       <p xml:id="BERNDEM0308">ecclesiasticus ordo utitur,</p>
-      <p xml:id="BERNDEM0309">quorum quattuor excelsiores, voces monochordi sortiti, sic vocantur:</p>
+      <p xml:id="BERNDEM0309">quorum quattuor excelsiores, voces monochordi sortiti, sic
+        vocantur:</p>
       <p xml:id="BERNDEM0310">Authenticus protus id est primus magister;</p>
       <p xml:id="BERNDEM0311">authenticus deuterus id est secundus magister;</p>
       <p xml:id="BERNDEM0312">authenticus tritus id est tertius magister;</p>
@@ -434,7 +448,8 @@
       <p xml:id="BERNDEM0328">
         <pb n="[95]"/>IX DE FINALIBUS TONORUM</p>
       <p xml:id="BERNDEM0329">Quattuor sunt voces, quae vocantur finales,</p>
-      <p xml:id="BERNDEM0330">eo, quod in unaqualibet regulares finiantur cantiones: D. E. F. G.,</p>
+      <p xml:id="BERNDEM0330">eo, quod in unaqualibet regulares finiantur cantiones: D. E. F.
+        G.,</p>
       <p xml:id="BERNDEM0331">id est lichanos hypaton, hypate meson, parhypate meson, lichanos
         meson.</p>
       <p xml:id="BERNDEM0332">Quae idcirco ex omnibus electae sunt finales,</p>
@@ -580,8 +595,8 @@
       <p xml:id="BERNDEM0463">qui quamvis eandem teneat speciem,</p>
       <p xml:id="BERNDEM0464">diversam tamen habet finalem,</p>
       <p xml:id="BERNDEM0465">et non eandem ad C. remissionem.</p>
-      <p xml:id="BERNDEM0466">Huius cantus initia, ut aliorum discipulorum, legalia sunt quattuor: D. E.
-        F. G.,</p>
+      <p xml:id="BERNDEM0466">Huius cantus initia, ut aliorum discipulorum, legalia sunt quattuor:
+        D. E. F. G.,</p>
       <p xml:id="BERNDEM0467">distinctiones sex: D. E. F. G. H. M. vel I.</p>
       <p xml:id="BERNDEM0468">Et hi sunt quartus magister eiusque discipulus.</p>
       <p xml:id="BERNDEM0469">Si magistri cantum F. vel G. inchoaveris,</p>
@@ -606,37 +621,23 @@
         placet, nomina singulis per ordinem alphabeti litteris annotentur, ut postmodum mensura
         compendiosius dicatur ad hunc modum:</p>
       <p class="textFig" xml:id="BERNDEM0485">
-        <lb/>A. proslambanomenos, acquisitus
-        <br/>        tonus
-        <lb/>B. hypate hypaton, princeps principalium
-        <br/>        semitonium
-        <lb/>C. parhypate hypaton, prope principem principalium
-        <br/>        tonus
-        <lb/>D. lichanos hypaton, index principalium
-        <br/>        tonus
-        <lb/>E. hypate meson, princeps mediorum
-        <br/>        semitonium
-        <lb/>F. parhypate meson, prope principem mediorum
-        <br/>        tonus
-        <lb/>G. lichanos meson, index mediorum
-        <br/>        tonus <lb/>H. mese, medium
+        <lb/>A. proslambanomenos, acquisitus <br/>        tonus
+        <lb/>B. hypate hypaton, princeps principalium <br/>        semitonium
+        <lb/>C. parhypate hypaton, prope principem principalium <br/>        tonus
+        <lb/>D. lichanos hypaton, index principalium <br/>        tonus
+        <lb/>E. hypate meson, princeps mediorum <br/>        semitonium
+        <lb/>F. parhypate meson, prope principem mediorum <br/>        tonus
+        <lb/>G. lichanos meson, index mediorum <br/>        tonus <lb/>H. mese, medium
         <br/>        tonus                                    semitonium
         <lb/>I. paramese, prope medium        SM. trite synemmenon, tertia coniunctorum
-        <br/>        semitonium
-        <lb/>K. trite diezeugmenon, tertia disiunctorum,
-        <br/>vel paranete synemmenon, prope ultimam coniunctorum
-        <lb/>        tonus
+        <br/>        semitonium <lb/>K. trite diezeugmenon, tertia disiunctorum,
+        <br/>vel paranete synemmenon, prope ultimam coniunctorum <lb/>        tonus
         <br/>L. paranete diezeugmenon, prope ultimam disiunctorum,
-        <lb/>vel nete synemmenon, id est (ultima) coniunctorum
-        <br/>        tonus
-        <lb/>M. nete diezeugmenon, ultima disiunctorum
-        <br/>        semitonium
-        <lb/>N. trite hyperboleon, tertia excellentium
-        <br/>        tonus
-        <lb/>O. paranete hyperboleon, prope ultimam excellentium
-        <br/>        tonus
-        <lb/>P. nete hyperboleon, ultima excellentium
-        <br/>        semitonium <lb/></p>
+        <lb/>vel nete synemmenon, id est (ultima) coniunctorum <br/>        tonus
+        <lb/>M. nete diezeugmenon, ultima disiunctorum <br/>        semitonium
+        <lb/>N. trite hyperboleon, tertia excellentium <br/>        tonus
+        <lb/>O. paranete hyperboleon, prope ultimam excellentium <br/>        tonus
+        <lb/>P. nete hyperboleon, ultima excellentium <br/>        semitonium <lb/></p>
       <p xml:id="BERNDEM0486">
         <pb n="[119]"/>Harum autem chordarum commensurationem hoc modo discernimus: Si totius
         monochordi inter finales magadas longitudo A.-Z., hanc in quattuor aequa divido, et haec
@@ -649,27 +650,28 @@
         id est P.-Z., in tria divido, et quarta parte adiecta M. locum invenio, sicque inter M. et
         N. semitonium habeo. Huc usque, id est a P. ad M., erit diatessaron consonantia et
         tetrachordum hyperboleon constans tono, tono et semitonio.</p>
-      <p xml:id="BERNDEM0488">Quod deinde sequitur, L. sive per octavam partem M.-Z. adiecta nona, sive
-        per tertiam O.-Z. adiecta quarta, seu per duo P.-Z. adiecta tertia invenio; et huc usque, a
-        P. scilicet ad L., diapente erit symphonia constans duobus tonis, semitonio et tono. Rursum,
-        quod sequitur, K. sive per octavam L.-Z., sive per tertiam N.-Z., seu per duo O.-Z.
-        invenietur. Sequens autem I. per tertiam M.-Z. adiecta quarta erit metiendum. Huc usque, ab
-        M. scilicet ad I., diezeugmenon tetrachordum pertingit constans item, ut et hyperboleon,
-        tono, tono et semitonio. Restat tonus usque ad medietatem totius monochordi, quam dudum H.
-        littera signavi. Et huc usque diapason pertingit consonantia constans ex diatessaron et
-        diapente, id est quinque tonis et duobus semitoniis. Sed hoc in loco, id est ab I. ad H.,
-        synemmenon tetrachordum erit innectendum, cuius prima chorda ipsa est I., secunda ipsa est
-        K.; tertia(m) vero--id est S., quae intermisso I. a K. tono et a H. semitonio distare
-        debet--sive per octavam K.-Z. addita nona, sive per duo N.-Z. addita tertia metibor (!). Mox
-        G., quod post H. metiendum erit, vel per octavam H.-Z., vel per tertiam K.-Z., vel per duo
-        I.-Z., vel per duplicationem O.-Z. assignabor (!). Item sequens F. per octavam G.-Z., vel
-        per tertiam S.-Z., vel per duo K.-Z., vel per duplicationem N.-Z. Post vero E. vel per
-        tertiam N.-Z., vel per duo I.-Z., vel per duplicationem M.-Z. colloco. Et huc usque
-        tetrachordum meson a H. ad E. pertinet constans item tono, tono et semitonio.</p>
-      <p xml:id="BERNDEM0489">Sequitur exinde D., quod in quarta portione totius monochordi in primis
-        notavi. Post hinc autem C. vel per octavam D.-Z., vel per tertiam F.-Z., vel per duo G.-Z.,
-        vel per duplicationem K.-Z. mensurandum est. B. autem, quod ad signandum restat, sive per
-        tertiam E.-Z., sive per duplicationem I.-Z. colloco; et hoc loco quintum tetrachordum
+      <p xml:id="BERNDEM0488">Quod deinde sequitur, L. sive per octavam partem M.-Z. adiecta nona,
+        sive per tertiam O.-Z. adiecta quarta, seu per duo P.-Z. adiecta tertia invenio; et huc
+        usque, a P. scilicet ad L., diapente erit symphonia constans duobus tonis, semitonio et
+        tono. Rursum, quod sequitur, K. sive per octavam L.-Z., sive per tertiam N.-Z., seu per duo
+        O.-Z. invenietur. Sequens autem I. per tertiam M.-Z. adiecta quarta erit metiendum. Huc
+        usque, ab M. scilicet ad I., diezeugmenon tetrachordum pertingit constans item, ut et
+        hyperboleon, tono, tono et semitonio. Restat tonus usque ad medietatem totius monochordi,
+        quam dudum H. littera signavi. Et huc usque diapason pertingit consonantia constans ex
+        diatessaron et diapente, id est quinque tonis et duobus semitoniis. Sed hoc in loco, id est
+        ab I. ad H., synemmenon tetrachordum erit innectendum, cuius prima chorda ipsa est I.,
+        secunda ipsa est K.; tertia(m) vero--id est S., quae intermisso I. a K. tono et a H.
+        semitonio distare debet--sive per octavam K.-Z. addita nona, sive per duo N.-Z. addita
+        tertia metibor (!). Mox G., quod post H. metiendum erit, vel per octavam H.-Z., vel per
+        tertiam K.-Z., vel per duo I.-Z., vel per duplicationem O.-Z. assignabor (!). Item sequens
+        F. per octavam G.-Z., vel per tertiam S.-Z., vel per duo K.-Z., vel per duplicationem N.-Z.
+        Post vero E. vel per tertiam N.-Z., vel per duo I.-Z., vel per duplicationem M.-Z. colloco.
+        Et huc usque tetrachordum meson a H. ad E. pertinet constans item tono, tono et
+        semitonio.</p>
+      <p xml:id="BERNDEM0489">Sequitur exinde D., quod in quarta portione totius monochordi in
+        primis notavi. Post hinc autem C. vel per octavam D.-Z., vel per tertiam F.-Z., vel per duo
+        G.-Z., vel per duplicationem K.-Z. mensurandum est. B. autem, quod ad signandum restat, sive
+        per tertiam E.-Z., sive per duplicationem I.-Z. colloco; et hoc loco quintum tetrachordum
         hypaton terminatur ab E. ad B. constans, ut priora, tono, tono et semitono. Restat adhuc
         tonus a B. ad A. totius monochordi mensuram in bisdiapason rite consummans. Et haec est
         mensura diatonici generis, in quo omnis legitimus nostri temporis cantus absque omni

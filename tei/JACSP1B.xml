@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Speculum musicae, Liber primus</title>
         <title type="abbrev">JACSP1B</title>
-        <author>Jacobus Leodiensis</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Jacobus Leodiensis</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>John Gray</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Oliver B. Ellsworth</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Luminita Florea Aluas</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1992</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1992">1992</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Jacobi Leodiensis Speculum musicae</emph>, ed. Roger Bragard, Corpus scriptorum de
@@ -61,13 +71,13 @@
         latitudinem, vel secundum profunditatem, nihil unquam alterum inde proveniat, | [P2, 29r in
         marg.] nulla alia quantitas inde excrescat. Semel enim unum, unum est; semel duo, duo sunt;
         semel tria non sunt nisi tria.</p>
-      <p xml:id="JACSP1B0004">Non sic autem est de binario vel numero alio quocumque, sed binarius, qui
-        primo recedit ab unitatis natura, <pb n="[143]"/>principium omnis alteritatis et divisionis
-        est; unde si se ipsum multiplicet sive per latitudinem dicendo bis duo, vel per latitudinem
-        et profunditatem dicendo bis duo bis, vel terminum quemcumque alium, etiam unitatem, semper
-        inde veniens terminus alter est a termino multiplicato; bis enim unum non sunt unum, sed
-        duo; bis duo non sunt duo, sed quattuor; bis tria non sunt tria, sed sex; et sic de
-        quibuscumque aliis terminis binario multiplicatis. Merito igitur binarius alteritatis
+      <p xml:id="JACSP1B0004">Non sic autem est de binario vel numero alio quocumque, sed binarius,
+        qui primo recedit ab unitatis natura, <pb n="[143]"/>principium omnis alteritatis et
+        divisionis est; unde si se ipsum multiplicet sive per latitudinem dicendo bis duo, vel per
+        latitudinem et profunditatem dicendo bis duo bis, vel terminum quemcumque alium, etiam
+        unitatem, semper inde veniens terminus alter est a termino multiplicato; bis enim unum non
+        sunt unum, sed duo; bis duo non sunt duo, sed quattuor; bis tria non sunt tria, sed sex; et
+        sic de quibuscumque aliis terminis binario multiplicatis. Merito igitur binarius alteritatis
         principium est qui immediatius ab unitate recedit; primus omnium unitati est dissimilis,
         primus omnium ab unitate disiungitur. Sicut igitur recedens a simplicissimo (eiusmodi Deus
         est) ad aliquam accedit compositionem vel componibilitatem, ut sit, in se, compositum
@@ -80,19 +90,19 @@
         constituitur et binario. Superat autem trinarius binarium in sola unitate, et consimiliter
         est in aliis numeris longilateris. Sicut enim unus a duobus uno tantum alter est, ut ait
         Boethius, sic horum latera a se uno sunt altera, quia una tantum differunt unitate.</p>
-      <p xml:id="JACSP1B0005">Voluit autem Boethius quod sicut omnium numerorum parium binarius princeps
-        est et radix, sicut et imparium unitas quae, secundum ipsum, effectrix et quodammodo forma
-        quaedam est imparitatis, ideo, secundum eundem, conditiones unitatis magis numeris insunt
-        imparibus quam paribus ut incommutabilitas et perfectio. Posuerunt enim Philosophi ternarium
-        perfectionem importare. Ait enim Philosophus, primo Coeli et Mundi, quod de tribus primo
-        dicitur omne; omne autem totum et perfectum; idem et numero Deus impari gaudet, qui omnia in
-        numero, <pb n="[144]"/>pondere fecit et mensura, ut in omnibus trinitas divina, quae
-        perfectissima est, reluceret, quantum ad partes vestigii vel imaginis; binarius autem
-        infamis dicitur, quia primo recedit ab unitate et paritatis princeps est.</p>
-      <p xml:id="JACSP1B0006">Differt autem numerus impar a pari, non tantum quia dividi nequit in duas
-        partes aequales quae ipsum praecise faciant sicut numerus par, sed quia sic numerus impar in
-        partibus dividitur inaequalibus ut altera illarum imparitatem, reliqua paritatem semper
-        importet, quantum ad partes illas duas quae, simul iunctae, numerum illum praecise
+      <p xml:id="JACSP1B0005">Voluit autem Boethius quod sicut omnium numerorum parium binarius
+        princeps est et radix, sicut et imparium unitas quae, secundum ipsum, effectrix et
+        quodammodo forma quaedam est imparitatis, ideo, secundum eundem, conditiones unitatis magis
+        numeris insunt imparibus quam paribus ut incommutabilitas et perfectio. Posuerunt enim
+        Philosophi ternarium perfectionem importare. Ait enim Philosophus, primo Coeli et Mundi,
+        quod de tribus primo dicitur omne; omne autem totum et perfectum; idem et numero Deus impari
+        gaudet, qui omnia in numero, <pb n="[144]"/>pondere fecit et mensura, ut in omnibus trinitas
+        divina, quae perfectissima est, reluceret, quantum ad partes vestigii vel imaginis; binarius
+        autem infamis dicitur, quia primo recedit ab unitate et paritatis princeps est.</p>
+      <p xml:id="JACSP1B0006">Differt autem numerus impar a pari, non tantum quia dividi nequit in
+        duas partes aequales quae ipsum praecise faciant sicut numerus par, sed quia sic numerus
+        impar in partibus dividitur inaequalibus ut altera illarum imparitatem, reliqua paritatem
+        semper importet, quantum ad partes illas duas quae, simul iunctae, numerum illum praecise
         redderent, ut quinarius in tria et duo, septenarius in quattuor et tria; et hoc in cunctis
         imparibus invenitur. Neque unquam in imparis divisione praeter se possunt hae duae partes
         esse quae naturaliter unum numeri substantiamque componunt. Numerus autem par, etsi
@@ -104,59 +114,61 @@
         quinarios vel in VII et tria, vel in VIII et II, vel in VI et IIII, neque unquam fieri
         potest, non solum in tacto pari numero, sed nec in quocumque alio pari termino, ut, cum una
         pars divisionis par fuerit, alia impar inveniri possit, aut e converso.</p>
-      <p xml:id="JACSP1B0007">In hoc tamen numerus par convenit cum impari ut, sicut numerus impar in
-        unitate numerum parem superat vel superatur ab eodem, similiter et par imparem.</p>
-      <p xml:id="JACSP1B0008">Adhuc in hoc conveniunt quod omnis numerus, par vel impar, circumpositorum
-        suorum numerorum et naturali dispositione sibimet iunctorum medietas est, ita scilicet quod,
-        si duo numeri laterales, inter quos aliquis numerus mediat, simul coniungantur, numeri inde
-        venientis numerus ille medians vera medietas est; patet | [P2, 29v in marg.] hoc numeris in
-        singulis. Mediat | [P1, 23v in marg.] trinarius inter binarium et quaternarium qui dicuntur
-        circumpositi, respectu illius modo numeri provenientis ex compositione partium illarum;
-        cuiusmodi est senarius; trinarius est medietas. Similiter quaternarius <pb n="[145]"/>medians inter trinarium et quinarium medietas est octonarii qui surgit ex unione quinarii
-        ad ternarium: bis enim quattuor octo sunt praecise. Et idem in omnibus aliis evenit, etiam
-        in binario mediante inter unitatem et trinarium: est enim binarius medietas quatrinarii qui
-        surgit ex coniunctione unitatis ad trinarium. Sola autem unitas est quae circumquaque se
-        terminos non habet inter quos mediare possit. Ideo eius termini qui prope se est, idest
-        binarii, medietas est, quod nulli alii termino competit, ut possit esse medietas termini
-        illum immediate sequentis.</p>
-      <p xml:id="JACSP1B0009">Item in hoc conveniunt quod, sicut si impar imparem multiplicet, qui inde
-        nascitur impar est similiter; si par parem, semper gignitur par; sed differunt quia, si
+      <p xml:id="JACSP1B0007">In hoc tamen numerus par convenit cum impari ut, sicut numerus impar
+        in unitate numerum parem superat vel superatur ab eodem, similiter et par imparem.</p>
+      <p xml:id="JACSP1B0008">Adhuc in hoc conveniunt quod omnis numerus, par vel impar,
+        circumpositorum suorum numerorum et naturali dispositione sibimet iunctorum medietas est,
+        ita scilicet quod, si duo numeri laterales, inter quos aliquis numerus mediat, simul
+        coniungantur, numeri inde venientis numerus ille medians vera medietas est; patet | [P2, 29v
+        in marg.] hoc numeris in singulis. Mediat | [P1, 23v in marg.] trinarius inter binarium et
+        quaternarium qui dicuntur circumpositi, respectu illius modo numeri provenientis ex
+        compositione partium illarum; cuiusmodi est senarius; trinarius est medietas. Similiter
+        quaternarius <pb n="[145]"/>medians inter trinarium et quinarium medietas est octonarii qui
+        surgit ex unione quinarii ad ternarium: bis enim quattuor octo sunt praecise. Et idem in
+        omnibus aliis evenit, etiam in binario mediante inter unitatem et trinarium: est enim
+        binarius medietas quatrinarii qui surgit ex coniunctione unitatis ad trinarium. Sola autem
+        unitas est quae circumquaque se terminos non habet inter quos mediare possit. Ideo eius
+        termini qui prope se est, idest binarii, medietas est, quod nulli alii termino competit, ut
+        possit esse medietas termini illum immediate sequentis.</p>
+      <p xml:id="JACSP1B0009">Item in hoc conveniunt quod, sicut si impar imparem multiplicet, qui
+        inde nascitur impar est similiter; si par parem, semper gignitur par; sed differunt quia, si
         impar parem, vel e converso, nunquam impar, sed semper par procreatur.</p>
       <p xml:id="JACSP1B0010">Quae proprietates ad arithmeticam pertinent medietatem.</p>
       <p xml:id="JACSP1B0011">Capitulum LI.</p>
-      <p xml:id="JACSP1B0012">De sufficientia quinque specierum maioris et minoris inaequalitatis.</p>
+      <p xml:id="JACSP1B0012">De sufficientia quinque specierum maioris et minoris
+        inaequalitatis.</p>
       <p xml:id="JACSP1B0013">Dictum est de quinque speciebus numerorum maioris minorisque
         inaequalitatis per se et divisim. Ad hoc, ad maiorem ipsarum habendam notitiam, de eisdem
         comparative loquamur. Conferemus autem illas ad invicem quoad sufficientiam, convenientiam,
         differentiam, ordinem et originem.</p>
-      <p xml:id="JACSP1B0014">Circa primum videretur forsitan aliquibus quod plures debeant esse species
-        illae quam quinque, ut sint tres species compositae, sicut sunt tres simplices. Nam sicut
-        multiplex cum superparticulari et cum superpartiente componitur, et ex hoc duae species
-        oriuntur, sic superparticularis cum superpartiente componibilis est vel e converso, et sic
-        erunt sex species. Item multiplex componi potest cum multiplici, ut duplex cum duplici vel
-        cum triplici, <pb n="[146]"/>quadruplici et sic de aliis, et superparticularis cum
-        superparticulari et superpartiens cum superpartiente, et, secundum hoc, multo plures essent
-        illae species quam quinque.</p>
-      <p xml:id="JACSP1B0015">Et dicendum quod Boethius rationabiliter tantum posuit in genere quinque
-        species numerorum ad aliquid maioris et minoris inaequalitatis, illas, scilicet, quae dictae
-        sunt, non plures, non pauciores. Omnis enim numerus ad aliquid, alteri inaequalis, sub
-        aliqua illarum reponitur. Numerus enim omnis, alteri inaequalis, vel est illo maior, vel
-        minor. Si maior, aut continet illum plus quam semel, aut non. Si habeat illum plus quam
-        semel, aut praecise, quia continet illum bis, ter, vel quater et nihil ultra, et sic est
-        numerus multiplex, vel continet eum plus quam semel, sed non praecise, quia aliquid ultra
-        continet et illud, ultra contentum, vel est una pars numeri illius contenti, sic est
-        multiplex superparticularis, vel plures, sic est numerus multiplex superpartiens. Si vero
-        numerus alio maior non habet eum totum pluries sed vel excedit eum in una parte, sic est
-        numerus superparticularis, vel in pluribus, sic est superpartiens. Vel sic, ut in idem
-        redit: Omnis numerus maior alio, aut est maior illo in toto, pro quanto continet illum totum
-        pluries, aut igitur continet illum pluries praecise quia continet illum totum bis, ter,
-        quater, vel pluries et nihil ultra, sic est numerus multiplex, vel superat eum in toto et,
-        cum hoc, in aliqua una parte illius, sic est multiplex superparticularis, vel in pluribus
-        partibus, sic est multiplex superpartiens, vel si est maior non tamen in toto sed in parte,
-        sic est superparticularis, vel in partibus, sic est superpartiens. Et cum non possit aliquis
-        numerus alios esse maior quin sub aliqua dictarum specierum quinque collocetur, non erunt
-        nisi quinque species numerorum ad aliquid maioris inaequalitatis iam praedictae. Et ex
-        eisdem patet sufficientia numerorum ad aliquid minoris inaequalitatis.</p>
+      <p xml:id="JACSP1B0014">Circa primum videretur forsitan aliquibus quod plures debeant esse
+        species illae quam quinque, ut sint tres species compositae, sicut sunt tres simplices. Nam
+        sicut multiplex cum superparticulari et cum superpartiente componitur, et ex hoc duae
+        species oriuntur, sic superparticularis cum superpartiente componibilis est vel e converso,
+        et sic erunt sex species. Item multiplex componi potest cum multiplici, ut duplex cum
+        duplici vel cum triplici, <pb n="[146]"/>quadruplici et sic de aliis, et superparticularis
+        cum superparticulari et superpartiens cum superpartiente, et, secundum hoc, multo plures
+        essent illae species quam quinque.</p>
+      <p xml:id="JACSP1B0015">Et dicendum quod Boethius rationabiliter tantum posuit in genere
+        quinque species numerorum ad aliquid maioris et minoris inaequalitatis, illas, scilicet,
+        quae dictae sunt, non plures, non pauciores. Omnis enim numerus ad aliquid, alteri
+        inaequalis, sub aliqua illarum reponitur. Numerus enim omnis, alteri inaequalis, vel est
+        illo maior, vel minor. Si maior, aut continet illum plus quam semel, aut non. Si habeat
+        illum plus quam semel, aut praecise, quia continet illum bis, ter, vel quater et nihil
+        ultra, et sic est numerus multiplex, vel continet eum plus quam semel, sed non praecise,
+        quia aliquid ultra continet et illud, ultra contentum, vel est una pars numeri illius
+        contenti, sic est multiplex superparticularis, vel plures, sic est numerus multiplex
+        superpartiens. Si vero numerus alio maior non habet eum totum pluries sed vel excedit eum in
+        una parte, sic est numerus superparticularis, vel in pluribus, sic est superpartiens. Vel
+        sic, ut in idem redit: Omnis numerus maior alio, aut est maior illo in toto, pro quanto
+        continet illum totum pluries, aut igitur continet illum pluries praecise quia continet illum
+        totum bis, ter, quater, vel pluries et nihil ultra, sic est numerus multiplex, vel superat
+        eum in toto et, cum hoc, in aliqua una parte illius, sic est multiplex superparticularis,
+        vel in pluribus partibus, sic est multiplex superpartiens, vel si est maior non tamen in
+        toto sed in parte, sic est superparticularis, vel in partibus, sic est superpartiens. Et cum
+        non possit aliquis numerus alios esse maior quin sub aliqua dictarum specierum quinque
+        collocetur, non erunt nisi quinque species numerorum ad aliquid maioris inaequalitatis iam
+        praedictae. Et ex eisdem patet sufficientia numerorum ad aliquid minoris inaequalitatis.</p>
       <p xml:id="JACSP1B0016">Cum igitur dicitur quod numerus superparticularis potest componi cum
         superpartiente, vel e contrario, multiplex cum multiplici, superparticularis cum
         superparticulari <pb n="[147]"/>et superpartiens cum superpartiente, dicendum quod, hoc
@@ -165,45 +177,46 @@
         vel proportionem multiplicem, vel superparticularem, vel superpartientem, vel multiplicem
         superparticularem, vel multiplicem superpartientem reducitur, et non ad aliquam aliam
         distinctam ab illis.</p>
-      <p xml:id="JACSP1B0017">Et hoc declaremus primo, cum superpartiens numerus cum superparticulari
-        coniungitur, vel e converso; inter senarium et quinarium est superparticularis proportio,
-        quia sesquiquinta, inter quinarium et trinarium superpartiens, et tamen inter senarium et
-        trinarium est multiplex proportio quia dupla. Iuxta quod notandum est quod quandoque ex
-        additione superpartientis proportionis ad superparticularem, vel e converso nascitur inter
-        extremos terminos multiplex proportio, ut iam visum est; quandoque superparticularis, namque
-        inter IX et VII est superbipartiens proportio, inter VII et VI sesquisexta, inter IX et VI
-        sesqualtera; quandoque proportio mixta, vel ex multiplici et superparticulari, nam quinarius
-        ad trinarium superbipartiens est, trinarius binario sesqualter, quinarius | [P2, 30r in
-        marg.] vero binario duplex sesqualter est; vel, ex dictarum proportionum partiali mixtione
-        inter extremos inde venientes terminos, oritur proportio multiplex superpartiens; patet hoc
-        inter terminos sequentes XII IX et V. Multa alia poni possent exempla de additione
-        proportionis superpartientis ad superparticularem, vel e contrario. Nunquam tamen ex
-        quibuscumque talibus exemplis sequitur mixta proportio ex superparticulari et
-        superpartiente, sed si sequatur mixta proportio talis, mixtio fit vel ex multiplici et
-        superparticulari, vel ex multiplici et superpartiente. Ad hoc enim, ut aliqua proportio sit
-        mixta ex superparticulari et superpartiente, oportet ut, inter terminos extremos illius
-        coniunctionis, ut inter se comparantur, maneat illa duplex proportio, sicut fit in
-        proportione mixta, ex multiplici et superparticulari, vel ex multiplici et
+      <p xml:id="JACSP1B0017">Et hoc declaremus primo, cum superpartiens numerus cum
+        superparticulari coniungitur, vel e converso; inter senarium et quinarium est
+        superparticularis proportio, quia sesquiquinta, inter quinarium et trinarium superpartiens,
+        et tamen inter senarium et trinarium est multiplex proportio quia dupla. Iuxta quod notandum
+        est quod quandoque ex additione superpartientis proportionis ad superparticularem, vel e
+        converso nascitur inter extremos terminos multiplex proportio, ut iam visum est; quandoque
+        superparticularis, namque inter IX et VII est superbipartiens proportio, inter VII et VI
+        sesquisexta, inter IX et VI sesqualtera; quandoque proportio mixta, vel ex multiplici et
+        superparticulari, nam quinarius ad trinarium superbipartiens est, trinarius binario
+        sesqualter, quinarius | [P2, 30r in marg.] vero binario duplex sesqualter est; vel, ex
+        dictarum proportionum partiali mixtione inter extremos inde venientes terminos, oritur
+        proportio multiplex superpartiens; patet hoc inter terminos sequentes XII IX et V. Multa
+        alia poni possent exempla de additione proportionis superpartientis ad superparticularem,
+        vel e contrario. Nunquam tamen ex quibuscumque talibus exemplis sequitur mixta proportio ex
+        superparticulari et superpartiente, sed si sequatur mixta proportio talis, mixtio fit vel ex
+        multiplici et superparticulari, vel ex multiplici et superpartiente. Ad hoc enim, ut aliqua
+        proportio sit mixta ex superparticulari et superpartiente, oportet ut, inter terminos
+        extremos illius coniunctionis, ut inter se comparantur, maneat illa duplex proportio, sicut
+        fit in proportione mixta, ex multiplici et superparticulari, vel ex multiplici et
         superpartiente.</p>
-      <p xml:id="JACSP1B0018">Non enim arguitur mixtio alicuius proportionis ex alia et alia proportione
-        alicuius medii termini ad extremos aliquos terminos; alias, proportio dupla, quae prima et
-          <pb n="[148]"/>simplicissima videtur inter proportiones numerorum inaequalium composita
-        esse, confundetur inter tales terminos, inter quos mediare potest talis medius terminus ad
-        quem maior terminus proportionem habet sesquitertiam, et ille idem medius terminus ad
-        minorem habitudinem habet sesqualteram, ut patet inter hos terminos: IIII III et II.</p>
-      <p xml:id="JACSP1B0019">Dico ulterius quod, licet una species multiplicitatis cum se ipsa vel alia
-        multiplicitatis specie combinari possit, ex hoc tamen nunquam sequitur alia a praedictis
-        inaequalitatis species, sed semper invenitur, inter terminos extremos nascentes ex huiusmodi
-        combinationibus, proportio multiplex simplex, licet sub alia | [P1, 24r in marg.]
-        multiplicitatis specie quam fuerint combinationum illarum particulares proportiones. Patet
-        ubi duplex duplici coniungitur, ut ostendunt termini sequentes: VIII IIII II, vel ubi duplex
-        triplici sociatur si sequentes sumantur termini: XII IIII II, vel in quibuscumque aliis
-        combinationibus, distinctarum specierum multiplicitatis inter se. Haec enim una
+      <p xml:id="JACSP1B0018">Non enim arguitur mixtio alicuius proportionis ex alia et alia
+        proportione alicuius medii termini ad extremos aliquos terminos; alias, proportio dupla,
+        quae prima et <pb n="[148]"/>simplicissima videtur inter proportiones numerorum inaequalium
+        composita esse, confundetur inter tales terminos, inter quos mediare potest talis medius
+        terminus ad quem maior terminus proportionem habet sesquitertiam, et ille idem medius
+        terminus ad minorem habitudinem habet sesqualteram, ut patet inter hos terminos: IIII III et
+        II.</p>
+      <p xml:id="JACSP1B0019">Dico ulterius quod, licet una species multiplicitatis cum se ipsa vel
+        alia multiplicitatis specie combinari possit, ex hoc tamen nunquam sequitur alia a
+        praedictis inaequalitatis species, sed semper invenitur, inter terminos extremos nascentes
+        ex huiusmodi combinationibus, proportio multiplex simplex, licet sub alia | [P1, 24r in
+        marg.] multiplicitatis specie quam fuerint combinationum illarum particulares proportiones.
+        Patet ubi duplex duplici coniungitur, ut ostendunt termini sequentes: VIII IIII II, vel ubi
+        duplex triplici sociatur si sequentes sumantur termini: XII IIII II, vel in quibuscumque
+        aliis combinationibus, distinctarum specierum multiplicitatis inter se. Haec enim una
         multiplicitatis proprietas est ut, si intervallum multiplex intervallo multiplici
         coniungatur, inde intervallum multiplex est.</p>
-      <p xml:id="JACSP1B0020">Ulterius dico quod, ex additione unius superparticularis proportionis ad
-        aliam superparticularem proportionem quamcumque, nunquam nascitur alia proportio vel species
-        ab illis quinque praedictis, sed provenit idem vel multiplex proportio. Patet inter
+      <p xml:id="JACSP1B0020">Ulterius dico quod, ex additione unius superparticularis proportionis
+        ad aliam superparticularem proportionem quamcumque, nunquam nascitur alia proportio vel
+        species ab illis quinque praedictis, sed provenit idem vel multiplex proportio. Patet inter
         sequentes terminos: IIII III II. Inter quaternarium et trinarium sesquitertia est proportio,
         inter trinarium et binarium sesqualtera; sed, inter quaternarium et binarium, dupla. Nec est
         dicendum duplam proportionem, quae simplex est, ut est dictum, ex sesquitertia et
@@ -212,7 +225,8 @@
         sesqualter est, nec sesquitertius. Eodem modo est de terminis sequentibus: 6 4 3. Senarius
         enim ad trinarium sic est duplex, quod nec sesqualter est, nec sesquitertius; quod tamen
         requiretur ad hoc ut illa proportio composita esset ex sesqualtera et sesquitertia. Quare
-        enim dicitur quinarius ad binarium duplex sesqualter, nisi quia manet inter terminos <pb n="[149]"/>illos duplex et sesqualtera simul proportio, quia maior minorem bis continet et
+        enim dicitur quinarius ad binarium duplex sesqualter, nisi quia manet inter terminos <pb
+          n="[149]"/>illos duplex et sesqualtera simul proportio, quia maior minorem bis continet et
         mediam eius partem? Vel quandoque ex duabus superparticularibus proportionibus provenit una
         alia superparticularis proportio prior illis; patet cum senarius quinario et quinarius
         quaternario comparantur et ex his senarius quaternario conferatur. Proportio enim
@@ -230,15 +244,15 @@
         superparticularis, aut superpartiens, nunquam vero multiplex superparticularis, nunquam
         multiplex superpartiens. Probatur etiam, ibidem, superparticularium proportionum solam
         sesqualteram geminatam multiplicem superparticularem procreare.</p>
-      <p xml:id="JACSP1B0022">Dico ulterius quod ex duabus superpertientibus proportionibus vel nascitur
-        | [P2, 30v in marg.] multiplex proportio duplex, ut ostendunt hi termini: VIII XI XVI vel
-        triplex, ut hi: VI XI XVIII; sic de aliis multiplicitatis speciebus. Vel nascitur ex duabus
-        superpartientibus proportionibus superparticularis proportio; patet hoc in terminis qui
-        sunt: X XIII XV; vel superpartiens, ut ex terminis patet <pb n="[150]"/>sequentibus: V VII
-        IX; vel duplex superparticularis, ut hoc: IIII VII X. Vel duplex superpartiens, ut
+      <p xml:id="JACSP1B0022">Dico ulterius quod ex duabus superpertientibus proportionibus vel
+        nascitur | [P2, 30v in marg.] multiplex proportio duplex, ut ostendunt hi termini: VIII XI
+        XVI vel triplex, ut hi: VI XI XVIII; sic de aliis multiplicitatis speciebus. Vel nascitur ex
+        duabus superpartientibus proportionibus superparticularis proportio; patet hoc in terminis
+        qui sunt: X XIII XV; vel superpartiens, ut ex terminis patet <pb n="[150]"/>sequentibus: V
+        VII IX; vel duplex superparticularis, ut hoc: IIII VII X. Vel duplex superpartiens, ut
         manifestant termini sequentes: IIII VII XI.</p>
-      <p xml:id="JACSP1B0023">Multae aliae numerorum fieri possent combinationes. Ex nulla tamen illarum
-        sequitur species nova vel proportio distincta a multiplici, superparticulari,
+      <p xml:id="JACSP1B0023">Multae aliae numerorum fieri possent combinationes. Ex nulla tamen
+        illarum sequitur species nova vel proportio distincta a multiplici, superparticulari,
         superpartiente, multiplici superparticulari, vel multiplici superpartiente. Dicendum igitur
         quod si superparticularis cum superpartiente coniungatur, vel e contrario, multiplex cum
         multiplici, superparticularis cum superparticulari, superpartiens cum superpartiente, nulla
@@ -264,25 +278,26 @@
         <pb n="[151]"/>Capitulum LII.</p>
       <p xml:id="JACSP1B0025">Comparatio specierum numerorum ad aliquid penes convenientiam et
         differentiam.</p>
-      <p xml:id="JACSP1B0026">Conveniunt omnes numeri ad aliquid, sub quacumque specie reponantur, idest
-        relationem importando. Ideo ad sui consistentiam duos requirunt terminos, sicut et omnis
-        relatio, et illi termini vel aequales sunt, et dicitur tunc relatio cuiusdam aequiparantiae
-        vel aequalitatis; vel sunt inaequales, et est inter illos relatio disquiparantiae, vel
-        inaequiparantiae, quae dici potest supereminentiae et superpositionis, vel cuiusdam
-        maioritatis, quoad maiores terminos, vel subiectionis et minoritatis, quoad minores terminos
-        maioribus comparatos. Aequalitas igitur terminos requirit aequales, sicut inaequalitas
-        inaequales. Inde est quod inter numerum quemcumque et unitatem aequalitatis relatio fundari
-        non potest, similiter nec inter numerum parem et imparem, sed inter unitatem et unitatem,
-        binarium et binarium, trinarium et trinarium, sic de aliis terminis aequalibus inter quos
-        est mutua relatio nominum aequalium. Haec igitur relatio nullam inter terminos suos patitur
-        disparitatem, inaequalitatem, et consonantiam super eam fundatam, cuiusmodi est unisonus,
-        nullam discordiam.</p>
-      <p xml:id="JACSP1B0027">Ab aequalitate autem procedit inaequalitas non formaliter et intrinsece,
-        sed secundum quendam recessum. Recedere | [P1, 24v in marg.] enim ab aequalitate, in
-        inaequalitatem incidere, sicut recedere ab unitate, est labi in aliquam multitudinem
-        actualem et formalem. Sed sic numerus ab unitate nascitur, quod ipsa materialiter numerum
-        constituit. Ipsa tamen de se numerus actualiter et formaliter non existit. Aequalitas vero
-        de se quaedam vera relatio est formaliter et in actu, nec est inaequalitatis materia.</p>
+      <p xml:id="JACSP1B0026">Conveniunt omnes numeri ad aliquid, sub quacumque specie reponantur,
+        idest relationem importando. Ideo ad sui consistentiam duos requirunt terminos, sicut et
+        omnis relatio, et illi termini vel aequales sunt, et dicitur tunc relatio cuiusdam
+        aequiparantiae vel aequalitatis; vel sunt inaequales, et est inter illos relatio
+        disquiparantiae, vel inaequiparantiae, quae dici potest supereminentiae et superpositionis,
+        vel cuiusdam maioritatis, quoad maiores terminos, vel subiectionis et minoritatis, quoad
+        minores terminos maioribus comparatos. Aequalitas igitur terminos requirit aequales, sicut
+        inaequalitas inaequales. Inde est quod inter numerum quemcumque et unitatem aequalitatis
+        relatio fundari non potest, similiter nec inter numerum parem et imparem, sed inter unitatem
+        et unitatem, binarium et binarium, trinarium et trinarium, sic de aliis terminis aequalibus
+        inter quos est mutua relatio nominum aequalium. Haec igitur relatio nullam inter terminos
+        suos patitur disparitatem, inaequalitatem, et consonantiam super eam fundatam, cuiusmodi est
+        unisonus, nullam discordiam.</p>
+      <p xml:id="JACSP1B0027">Ab aequalitate autem procedit inaequalitas non formaliter et
+        intrinsece, sed secundum quendam recessum. Recedere | [P1, 24v in marg.] enim ab
+        aequalitate, in inaequalitatem incidere, sicut recedere ab unitate, est labi in aliquam
+        multitudinem actualem et formalem. Sed sic numerus ab unitate nascitur, quod ipsa
+        materialiter numerum constituit. Ipsa tamen de se numerus actualiter et formaliter non
+        existit. Aequalitas vero de se quaedam vera relatio est formaliter et in actu, nec est
+        inaequalitatis materia.</p>
       <p xml:id="JACSP1B0028">
         <pb n="[152]"/>Reperitur autem aequalitas in quantitatibus tam continuis quam discretis,
         similiter et inaequalitas, quae locum habet, prout sonat nomen suum, inter terminos
@@ -342,10 +357,10 @@
         pertinens speciem vocatur superbipartiens; ad secundam vero pertinens speciem,
         supertripartiens dicitur, ad tertiam superquadripartiens, et sic in infinitum istius
         labuntur species, ut sequens species priorem superet in unius partis appositione.</p>
-      <p xml:id="JACSP1B0035">Item convenit multiplex cum superparticulari, et distinguuntur in hoc ab
-        aliis tribus speciebus, quia quilibet terminus submultiplex pars est aliquota vel praecisa
-        numeri multiplicis cui comparatur, ut per illius multiplicationem ad integritatem et
-        unitatem praecisam redeat illius. Binarius enim, si bis sumatur, ad unitatem redit
+      <p xml:id="JACSP1B0035">Item convenit multiplex cum superparticulari, et distinguuntur in hoc
+        ab aliis tribus speciebus, quia quilibet terminus submultiplex pars est aliquota vel
+        praecisa numeri multiplicis cui comparatur, ut per illius multiplicationem ad integritatem
+        et unitatem praecisam redeat illius. Binarius enim, si bis sumatur, ad unitatem redit
         quaternarii cui subduplus est, et, si ter sumatur, ad integritatem venit senarii cui
         subtriplus est, et, si quater, ad unitatem octonarii cui quadruplus est, et sic de ceteris.
         Similiter, superparticularis et subsuperparticularis in aliqua parte conveniunt aliquota
@@ -355,20 +370,21 @@
         reddit, ter vero sumptus | [P2, 31v in marg.] senarium constituit, et, per additionem
         binarii ad quaternarium, quaternarius ad integritatem vadit senarii. Consimili modo est in
         aliis speciebus numeri superparticularis.</p>
-      <p xml:id="JACSP1B0036">Ex hac proprietate, ut dicetur infra, sumpsit Boethius rationem unam quare
-        consonantias proprie dictas posuit fundari in solis proportionibus multiplicibus et
+      <p xml:id="JACSP1B0036">Ex hac proprietate, ut dicetur infra, sumpsit Boethius rationem unam
+        quare consonantias proprie dictas posuit fundari in solis proportionibus multiplicibus et
         superparticularibus, non autem in proportionibus aliarum trium specierum, quibus | [P1, 25r
         in marg.] haec non inest proprietas, quamvis communi nomine sumendo consonantias, quaedam in
         illis <pb n="[155]"/>tribus fundentur numeris, scilicet superpartientibus, multiplicibus
         superparticularibus, et multiplicibus superpartientibus. Et quae sint istae et quae illae,
         dicetur infra.</p>
-      <p xml:id="JACSP1B0037">In multis aliis proprietatibus possunt dictae species maioris minorisque
-        inaequalitatis secundum convenientiam et differentiam comparari. Sed quae tactae sunt in
-        quadam generali summa sufficiant. Nunc specialem quandam illarum tangamus comparationem,
-        qualiter videlicet una oriatur ab altera et omnis inaequalitas mediate vel immediate ab
-        aequalitate nascatur.</p>
+      <p xml:id="JACSP1B0037">In multis aliis proprietatibus possunt dictae species maioris
+        minorisque inaequalitatis secundum convenientiam et differentiam comparari. Sed quae tactae
+        sunt in quadam generali summa sufficiant. Nunc specialem quandam illarum tangamus
+        comparationem, qualiter videlicet una oriatur ab altera et omnis inaequalitas mediate vel
+        immediate ab aequalitate nascatur.</p>
       <p xml:id="JACSP1B0038">Capitulum LIII.</p>
-      <p xml:id="JACSP1B0039">Quod omnis inaequalitas ab aequalitate mediate vel immediate procedit.</p>
+      <p xml:id="JACSP1B0039">Quod omnis inaequalitas ab aequalitate mediate vel immediate
+        procedit.</p>
       <p xml:id="JACSP1B0040">Prius quendam generationis modum specierum maioris et minoris
         inaequalitatis tetigimus, eum videlicet qui inspicit ad numeri naturalem dispositionem.
         Visum enim est multiplicitatis species, quoad primos numeros, secundum ordinem suum, ad
@@ -379,14 +395,14 @@
         numeri dispositione, ipsum a trinario disponendo, declaratur et habetur: prima enim species
         in illis ad trinarium, secunda ad quaternarium, tertia ad quinarium, quarta ad senarium, sic
         in infinitum, terminantur.</p>
-      <p xml:id="JACSP1B0041">Nunc autem videbimus qualiter una harum specierum ab alia trahat originem.
-        Et cum multiplicitas prima <pb n="[156]"/>sit species omnium inaequalitatis numerorum et,
-        per consequens, non habens aliam inaequalitatis speciem priorem, unde nasci possit, et ad
-        illam, ut ad suam radicem comparari, ostendemus qualiter ipsa immediate ab aequalitate, quae
-        omnem antecedit inaequalitatem, oriatur, et ceterae species, secundum suum ordinem, ab illa.
-        Ex quo sequitur secundum locum, a primo ad ultimum, omnem inaequalitatem ab aequalitate
-        procreari. Haec autem disciplina, secundum Boethium, ad omnem naturae vim rerumque
-        integritatem maxima pertinet ratione.</p>
+      <p xml:id="JACSP1B0041">Nunc autem videbimus qualiter una harum specierum ab alia trahat
+        originem. Et cum multiplicitas prima <pb n="[156]"/>sit species omnium inaequalitatis
+        numerorum et, per consequens, non habens aliam inaequalitatis speciem priorem, unde nasci
+        possit, et ad illam, ut ad suam radicem comparari, ostendemus qualiter ipsa immediate ab
+        aequalitate, quae omnem antecedit inaequalitatem, oriatur, et ceterae species, secundum suum
+        ordinem, ab illa. Ex quo sequitur secundum locum, a primo ad ultimum, omnem inaequalitatem
+        ab aequalitate procreari. Haec autem disciplina, secundum Boethium, ad omnem naturae vim
+        rerumque integritatem maxima pertinet ratione.</p>
       <p xml:id="JACSP1B0042">Sicut igitur omnis multitudo ab unitate nascitur, sic et omnis
         inaequalitas ab aequalitate procreatur, intelligendo sane ut tactum prius est. Nam, sicut
         omnis numeri absolute considerati unitas radix est et principium, sic omnis inaequalitatis,
@@ -421,9 +437,9 @@
         est quaternarius; aequatur enim unitati, duabus unitatibus et unitati, quia claudit in se
         quattuor unitates. Sit igitur dispositio talis:</p>
       <p class="textFig" xml:id="JACSP1B0046">1 1 1 <lb/>1 2 4 <br/></p>
-      <p xml:id="JACSP1B0047">Apparet hic qualiter ab aequalitate, secundum dicta tria praecepta, prima
-        multiplicitatis species procreatur. Idem autem esset si alii aequales termini statuerentur.
-        Et sufficiat exemplum de binario.</p>
+      <p xml:id="JACSP1B0047">Apparet hic qualiter ab aequalitate, secundum dicta tria praecepta,
+        prima multiplicitatis species procreatur. Idem autem esset si alii aequales termini
+        statuerentur. Et sufficiat exemplum de binario.</p>
       <p xml:id="JACSP1B0048">De binario sic:</p>
       <p class="textFig" xml:id="JACSP1B0049">2 2 2 <lb/>2 4 8 <br/></p>
       <p xml:id="JACSP1B0050">Ex duplicibus autem directis, secundum dicta praecepta, triplices
@@ -431,39 +447,36 @@
         terminus illi aequus, ut est unitas; ponatur sub secundo terminus aequus primo et secundo,
         qui est trinarius; deinde, sub <pb n="[158]"/>tertio, ponatur terminus aequus primo et
         secundo duplicato et tertio, et ille est novem, et sit haec dispositio:</p>
-      <p class="textFig" xml:id="JACSP1B0051">1 1 1 <lb/>1 2 4 <br/>1 3 9
-        <lb/></p>
-      <p xml:id="JACSP1B0052">Quod si ex triplis sic fiat, nascentur quadrupli, ut sit primus terminus
-        aequalis primo termino, scilicet unitas, secundus aequalis primo et secundo, scilicet
-        quaternarius; tertius vero sit aequalis primo et duobus secundis, sive secundo duplicato, et
-        tertio, scilicet 16. Et sic haec descriptio:</p>
-      <p class="textFig" xml:id="JACSP1B0053">Aequales  1 1  1
-        <br/>Dupli     1 2  4
-        <lb/>Tripli    1 3  9
-        <br/>Quadrupli 1 4 16 <lb/></p>
-      <p xml:id="JACSP1B0054">Consimili modo, quintupli ex quadruplis, sextupli ex quintuplis, et sic de
-        aliis sequentibus multiplicitatis speciebus, producuntur.</p>
+      <p class="textFig" xml:id="JACSP1B0051">1 1 1 <lb/>1 2 4 <br/>1 3 9 <lb/></p>
+      <p xml:id="JACSP1B0052">Quod si ex triplis sic fiat, nascentur quadrupli, ut sit primus
+        terminus aequalis primo termino, scilicet unitas, secundus aequalis primo et secundo,
+        scilicet quaternarius; tertius vero sit aequalis primo et duobus secundis, sive secundo
+        duplicato, et tertio, scilicet 16. Et sic haec descriptio:</p>
+      <p class="textFig" xml:id="JACSP1B0053">Aequales  1 1  1 <br/>Dupli     1 2  4
+        <lb/>Tripli    1 3  9 <br/>Quadrupli 1 4 16 <lb/></p>
+      <p xml:id="JACSP1B0054">Consimili modo, quintupli ex quadruplis, sextupli ex quintuplis, et
+        sic de aliis sequentibus multiplicitatis speciebus, producuntur.</p>
       <p xml:id="JACSP1B0055">Capitulum LIIII.</p>
       <p xml:id="JACSP1B0056">Superparticularium ex multiplicibus creatio.</p>
       <p xml:id="JACSP1B0057">Superparticulares vero ex multiplicibus, secundum dicta praecepta,
         nascuntur cum multiplices, ordine converso ab illo quo ab aequalitate producti sunt,
         disponuntur, ut terminus qui primus erat ultimus sit, et primus | [P1, 25v in marg.] sit qui
         fuerat ultimus; medius autem non mutetur, sed in loco maneat medio. Et est hic notandum quod
-        prima species superparticularitatis ex prima specie multiplicitatis exoritur, <pb n="[159]"/>ut sesqualtera ex dupla, secunda ex secunda, ut sesquitertia ex tripla, tertia ex tertia,
+        prima species superparticularitatis ex prima specie multiplicitatis exoritur, <pb n="[159]"
+        />ut sesqualtera ex dupla, secunda ex secunda, ut sesquitertia ex tripla, tertia ex tertia,
         et sic de aliis. Positis igitur tribus terminis duplicibus, ordine converso quo ab
         aequalitate creati sunt, sic: 4 2 1, ponatur sub termino primo terminus aequus qui est 4;
         deinde, sub secundo termino, ponatur terminus aequalis primo et secundo, et ille est 6;
         tertio, ponatur, sub tertio termino, terminus primo aequus et duobus secundis et tertio, qui
         est 9, et disponatur modo qui sequitur:</p>
-      <p class="textFig" xml:id="JACSP1B0058">Duplices    4 2 1
-        <br/>Sesqualtera 4 6 9 <lb/></p>
+      <p class="textFig" xml:id="JACSP1B0058">Duplices    4 2 1 <br/>Sesqualtera 4 6 9 <lb/></p>
       <p xml:id="JACSP1B0059">Patet hic sesqualteros ex duplicibus esse progenitos. Consimiliter
         sesquitertii ex triplicibus conversis producuntur. Disponantur igitur tres triplices modo
         qui sequitur: 9 3 1. Ponatur igitur, iuxta praedictum modum, primus primo par vel aequalis,
         et est 9, secundus primo et secundo, idest 12, tertius primo, duobus secundis et tertio,
         scilicet 16, et sic disponantur:</p>
-      <p class="textFig" xml:id="JACSP1B0060">Triplices    9  3  1
-        <br/>Sesquitertii 9 12 16 <lb/></p>
+      <p class="textFig" xml:id="JACSP1B0060">Triplices    9  3  1 <br/>Sesquitertii 9 12 16
+        <lb/></p>
       <p xml:id="JACSP1B0061">Et si idem fiat de quadruplis, confestim sesquiquarti creabuntur, et
         sesquiquinti ex quintuplis; eodem modo, secundum ordinem suum, aliae superparticularitatis
         species ex multiplicibus proveniunt. Ex dictis patere potest quod, in multiplicibus, modo
@@ -494,38 +507,39 @@
         exemplum:</p>
       <p class="textFig" xml:id="JACSP1B0067">Sesquitertii      16 12  9
         <br/>Supertripartiente 16 28 49 <lb/></p>
-      <p xml:id="JACSP1B0068">Rursus, si idem fiat de sesquiquartis, superquadripartientes oriuntur ut
-        sic:</p>
+      <p xml:id="JACSP1B0068">Rursus, si idem fiat de sesquiquartis, superquadripartientes oriuntur
+        ut sic:</p>
       <p class="textFig" xml:id="JACSP1B0069">
-        <br/>Sesquiquarti          25 20 16
-        <lb/>Superquadripartientes 25 45 81 <br/></p>
+        <br/>Sesquiquarti          25 20 16 <lb/>Superquadripartientes 25 45 81 <br/></p>
       <p xml:id="JACSP1B0070">
         <pb n="[161]"/>Consimili modo, ceteri superpartientes, secundum ordinem suum, ex
         superparticularibus generantur. Sed de his exempla sufficiant posita.</p>
       <p xml:id="JACSP1B0071">Capitulum LVI.</p>
-      <p xml:id="JACSP1B0072">Quod multiplices superparticulares ex superparticularibus generentur.</p>
-      <p xml:id="JACSP1B0073">Multiplices vero superparticulares ex superparticularibus, non conversis,
-        sed directis, ortum habent: duplex sesqualter ex simplici sesqualtero, duplex sesquitertius
-        ex sesquitertio, et sic de aliis. Disponantur igitur tres termini sesqualteri secundum suum
-        directum ordinem quo a multiplicibus producti sunt sic: 4 6 9. Subscribatur tunc terminus
-        par primo, scilicet 4, deinde par primo et secundo, scilicet 10, tertio par primo et secundo
-        duplicato et tertio, scilicet 25, ut hic:</p>
+      <p xml:id="JACSP1B0072">Quod multiplices superparticulares ex superparticularibus
+        generentur.</p>
+      <p xml:id="JACSP1B0073">Multiplices vero superparticulares ex superparticularibus, non
+        conversis, sed directis, ortum habent: duplex sesqualter ex simplici sesqualtero, duplex
+        sesquitertius ex sesquitertio, et sic de aliis. Disponantur igitur tres termini sesqualteri
+        secundum suum directum ordinem quo a multiplicibus producti sunt sic: 4 6 9. Subscribatur
+        tunc terminus par primo, scilicet 4, deinde par primo et secundo, scilicet 10, tertio par
+        primo et secundo duplicato et tertio, scilicet 25, ut hic:</p>
       <p class="textFig" xml:id="JACSP1B0074">Sesqualteri          4  6  9
         <lb/>Duplices sesqualteri 4 10 25 <br/></p>
       <p xml:id="JACSP1B0075">Si vero sesquitertii disponantur, nascuntur directi inferius duplices
         sesquitertii, ut hic patet:</p>
       <p class="textFig" xml:id="JACSP1B0076">Sesquitertii          9 12 16
         <lb/>Duplices sesquitertii 9 21 49 <br/></p>
-      <p xml:id="JACSP1B0077">Simili modo, duplices sesquiquarti ex sesquiquartis proveniunt, duplices
-        sesquiquinti ex sesquiquintis, sic de aliis secundum ipsorum communes denominationes. Sed
-        non video ex hoc modo generationis species multiplicium superparticularium variari, nisi ex
-        parte superparticularitatis, cum soli duplices sesqualteri, sesquitertii, sesquiquarti, sic
-        de aliis, non triplices, non quadruplices procreentur.</p>
+      <p xml:id="JACSP1B0077">Simili modo, duplices sesquiquarti ex sesquiquartis proveniunt,
+        duplices sesquiquinti ex sesquiquintis, sic de aliis secundum ipsorum communes
+        denominationes. Sed non video ex hoc modo generationis species multiplicium
+        superparticularium variari, nisi ex parte superparticularitatis, cum soli duplices
+        sesqualteri, sesquitertii, sesquiquarti, sic de aliis, non triplices, non quadruplices
+        procreentur.</p>
       <p xml:id="JACSP1B0078">
         <pb n="[162]"/>Capitulum LVII.</p>
       <p xml:id="JACSP1B0079">Multiplices superpartientes ex superpartientibus producuntur.</p>
-      <p xml:id="JACSP1B0080">Sicut ex superparticularibus duplices superparticulares ortum habent, sic,
-        secundum dicta praecepta, multiplices superpartientes ex superpartientibus directis
+      <p xml:id="JACSP1B0080">Sicut ex superparticularibus duplices superparticulares ortum habent,
+        sic, secundum dicta praecepta, multiplices superpartientes ex superpartientibus directis
         descendunt, duplices superbipartientes ex superbipartientibus, duplices supertripartientes
         ex supertripartientibus, sic de aliis. Ordinentur igitur superbipartientes sic: 9 15 25.
         Subscribatur terminus aequus primo, scilicet 9, secundus aequus primo et secundo, scilicet
@@ -541,19 +555,19 @@
         superquadripartientes constituunt, et sic fit in aliis, nec apparet hic ex superpartientibus
         nasci nisi duplices superpartientes, non triplices, non quadruplices. Sed de his | [P2, 33r
         in marg.] hactenus.</p>
-      <p xml:id="JACSP1B0085">Patet igitur omne genus inaequalitatis ab aequalitate derivari, secundum
-        locum, a primo ad ultimum, mediate scilicet vel immediate. Sola enim prima multiplicitatis
-        species, idest duplicitas, ab aequalitate immediate descendit et, ipsa mediante, ceterae
-        aequalitatem aspiciunt. Quare non immerito duplicitas omnem inaequalitatis speciem
-        naturaliter <pb n="[163]"/>praecedit, non tantum quia immediatius unitatem sequitur, sed
-        propterea quia in aequalitate immediatius radicatur.</p>
-      <p xml:id="JACSP1B0086">Est autem hic notandum quod, in tacto totius inaequalitatis ab aequalitate
-        processu, quasi quidam gradus aequalitatis observatur, quia, licet tres termini a tribus
-        terminis aequalibus venientes, inaequales sint naturaliter, quia unus maior est alio,
-        aequales tamen sunt proportionaliter, quia, qualis est proportio maioris ad medium, talis
-        est proportio illius medii termini ad minimum terminum et illae duae aequales proportiones
-        non sunt discontinuae, cum medio termino utamur pro duobus, ut patet in omnibus prius
-        positis exemplis; et ex his habetur una via inveniendi duas proportiones aequales et
+      <p xml:id="JACSP1B0085">Patet igitur omne genus inaequalitatis ab aequalitate derivari,
+        secundum locum, a primo ad ultimum, mediate scilicet vel immediate. Sola enim prima
+        multiplicitatis species, idest duplicitas, ab aequalitate immediate descendit et, ipsa
+        mediante, ceterae aequalitatem aspiciunt. Quare non immerito duplicitas omnem inaequalitatis
+        speciem naturaliter <pb n="[163]"/>praecedit, non tantum quia immediatius unitatem sequitur,
+        sed propterea quia in aequalitate immediatius radicatur.</p>
+      <p xml:id="JACSP1B0086">Est autem hic notandum quod, in tacto totius inaequalitatis ab
+        aequalitate processu, quasi quidam gradus aequalitatis observatur, quia, licet tres termini
+        a tribus terminis aequalibus venientes, inaequales sint naturaliter, quia unus maior est
+        alio, aequales tamen sunt proportionaliter, quia, qualis est proportio maioris ad medium,
+        talis est proportio illius medii termini ad minimum terminum et illae duae aequales
+        proportiones non sunt discontinuae, cum medio termino utamur pro duobus, ut patet in omnibus
+        prius positis exemplis; et ex his habetur una via inveniendi duas proportiones aequales et
         continuas.</p>
       <p xml:id="JACSP1B0087">Tangemus autem postea vias alias reperiendi non solum duas continuas
         proportiones, sed quotquot quis voluerit.</p>
@@ -566,8 +580,8 @@
         componantur ex litteris, dictiones ex syllabis, orationes ex dictionibus, finaliter haec ad
         litteras ordine resolutorio revertuntur sicque fit et in consonantiis ut ad tonum vel
         diesim, unde via generationis et materialiter procedunt, via redeant resolutoria.</p>
-      <p xml:id="JACSP1B0091">Cum igitur omne genus inaequalitatis ab aequalitate quodam ordine nasci
-        sit ostensum, qualiter in eam revertatur ostendamus. Sed cum ab aequalitate terminorum
+      <p xml:id="JACSP1B0091">Cum igitur omne genus inaequalitatis ab aequalitate quodam ordine
+        nasci sit ostensum, qualiter in eam revertatur ostendamus. Sed cum ab aequalitate terminorum
         inaequalitas veniat terminorum inter quos tamen aequalitas servatur proportionum, videndum
         est qualiter, datis <pb n="[164]"/>quibuscumque tribus terminis inaequalibus inter quos
         tamen manet proportionum aequalitas (quia qualem proportionem habet maior terminorum illorum
@@ -585,16 +599,16 @@
         secundo, et quod remanet scribatur pro termino medio; tertio, tollatur primus terminus, qui
         maior inter alios dicitur, a tertio termino, et duo secundi, sive secundus qui remanserat
         duplicatus, et quod relinquitur pro tertio ponatur termino.</p>
-      <p xml:id="JACSP1B0093">Haec autem specialiter declaremus in aliquibus inaequalitatis numeris et
-        primo in multiplicibus.</p>
-      <p xml:id="JACSP1B0094">Statuantur igitur tres termini quadrupli sic: 4 16 64. Supponatur terminus
-        aequus primo, scilicet 4; secundo, tollatur primus de medio, idest 4 de 16, et remanet 12
-        qui, cum primo, disponatur sic: 4 12; deinde tollatur primus de tertio, idest 4 de 64, et
-        remanent 60; rursus de 60 tollantur duo medii termini, sive medius terminus duplicatus,
-        idest bis duodecim, et remanent, de 60, 36. Hic tertio loco disponatur una cum aliis
-        prioribus terminis sic:</p>
-      <p class="textFig" xml:id="JACSP1B0095">Quadruplices 4 16 64
-        <lb/>Triplices    4 12 36 <br/></p>
+      <p xml:id="JACSP1B0093">Haec autem specialiter declaremus in aliquibus inaequalitatis numeris
+        et primo in multiplicibus.</p>
+      <p xml:id="JACSP1B0094">Statuantur igitur tres termini quadrupli sic: 4 16 64. Supponatur
+        terminus aequus primo, scilicet 4; secundo, tollatur primus de medio, idest 4 de 16, et
+        remanet 12 qui, cum primo, disponatur sic: 4 12; deinde tollatur primus de tertio, idest 4
+        de 64, et remanent 60; rursus de 60 tollantur duo medii termini, sive medius terminus
+        duplicatus, idest bis duodecim, et remanent, de 60, 36. Hic tertio loco disponatur una cum
+        aliis prioribus terminis sic:</p>
+      <p class="textFig" xml:id="JACSP1B0095">Quadruplices 4 16 64 <lb/>Triplices    4 12 36
+        <br/></p>
       <p xml:id="JACSP1B0096">
         <pb n="[165]"/>Patet hic quadruplam proportionem in triplam immediate reverti, quia
         propinquior est aequalitati quam esset quadrupla. Idem si fiat de triplis, dupla redit
@@ -604,19 +618,16 @@
         tollatur primus terminus a tertio termino, idest 4 a 36, et remanent 32; rursus, a 32
         tollatur medius terminus, qui remanserat, duplicatus, scilicet bis octo, et remanent 16. Et
         sic cum praecedentibus disponantur:</p>
-      <p class="textFig" xml:id="JACSP1B0097">Quadruplices 4 16 64
-        <lb/>Triplices    4 12 36
+      <p class="textFig" xml:id="JACSP1B0097">Quadruplices 4 16 64 <lb/>Triplices    4 12 36
         <br/>Duplices     4  8 16 <lb/></p>
-      <p xml:id="JACSP1B0098">Hic, ut apparet, ex tripla dupla redit proportio. Ex qua si idem fiat, ad
-        aequalitatem terminorum et proportionum summa revertitur. Statuantur enim tacti tres
+      <p xml:id="JACSP1B0098">Hic, ut apparet, ex tripla dupla redit proportio. Ex qua si idem fiat,
+        ad aequalitatem terminorum et proportionum summa revertitur. Statuantur enim tacti tres
         duplices termini sic: 4 8 16. Scribatur igitur terminus aequus primo, idest 4; deinde dictus
         terminus primus dematur a secundo, idest 4 ab 8, et remanent 4 et sic ordinentur 4 4;
         tertio, tollatur terminus primus a tertio, scilicet 4 a 16, et secundus duplicatus, idest
         bis 4, et remanent 4. Et sic ordinentur:</p>
-      <p class="textFig" xml:id="JACSP1B0099">Quadruplices 4 16 64
-        <br/>Triplices    4 12 36
-        <lb/>Duplices     4  8 16
-        <br/>Aequales     4  4  4 <lb/></p>
+      <p class="textFig" xml:id="JACSP1B0099">Quadruplices 4 16 64 <br/>Triplices    4 12 36
+        <lb/>Duplices     4  8 16 <br/>Aequales     4  4  4 <lb/></p>
       <p xml:id="JACSP1B0100">Et sic patet quod prima nobis aequalitas reversa est.</p>
       <p xml:id="JACSP1B0101">Ad hoc de sesqualteris exemplum ponamus. Diligens enim lector idem
         experiri poterit in reliquis.</p>
@@ -627,8 +638,7 @@
         secundus duplicatus, scilicet bis 4, a tertio, scilicet a 18, et remanent duo qui, una cum
         praedictis, describantur sic:</p>
       <p class="textFig" xml:id="JACSP1B0103">| [P1, 26v in marg.] Sesqualteri 8 12 18
-        <br/>                     Duplices    8  4  2
-        <lb/></p>
+        <br/>                     Duplices    8  4  2 <lb/></p>
       <p xml:id="JACSP1B0104">Ecce qualiter sesqualtera proportio ad duplam revertitur; dupla vero
         quomodo in aequalitatem relabatur iam visum est. Ideo autem, ut hoc fiat, oportet terminos
         illos duplices convertere, quia maior terminus a minore demi non potest. Consimili modo fit
@@ -645,8 +655,8 @@
         <pb n="[167]"/>Haec autem, secundum Boethium, non iam ad musicas speculationes, vel ad
         astronomicas subtilitates, vel ad geometriae usum, sed etiam ad veterum collectionum
         intelligentiam prodesse possunt.</p>
-      <p xml:id="JACSP1B0109">Est igitur proportio duorum terminorum ad se invicem quaedam habitudo et
-        quasi quodammodo continentia, quorum compositio proportionalitatem efficit. Dicitur autem
+      <p xml:id="JACSP1B0109">Est igitur proportio duorum terminorum ad se invicem quaedam habitudo
+        et quasi quodammodo continentia, quorum compositio proportionalitatem efficit. Dicitur autem
         "proportio habitudo duorum terminorum", quia relatio duo requirit extrema et specialiter si
         sit proportio simplex; "duorum" dicitur "terminorum", quia, si sint tres vel plures, non
         erit ibi proportio simplex sed mixta, quae proportionalitas vel medietas nuncupatur. Adhuc
@@ -668,7 +678,8 @@
         termino qui alteri comparatur, non a termino ad quem comparatio terminatur, ut proportio
         binarii ad quaternarium dicitur subdupla; si, vero, e converso, quaternarius binario
         conferatur, dicitur illa proportio dupla, nec fit illa denominatio ab illis terminis
-        absolute sumptis, quia non dicitur illa proportio binaria et haec <pb n="[168]"/>quaternaria, sed ab illis terminis ut includunt relationem et dicuntur termini naturales
+        absolute sumptis, quia non dicitur illa proportio binaria et haec <pb n="[168]"
+        />quaternaria, sed ab illis terminis ut includunt relationem et dicuntur termini naturales
         ad aliquid, scilicet dimidium, sive subduplum et duplum, sic de aliis.</p>
       <p xml:id="JACSP1B0112">Cum igitur terminorum alii vel sint aequales, alii inaequales,
         proportionum quaedam est aequalitatis, alia inaequalitatis; et quae est aequalitatis
@@ -689,8 +700,8 @@
         dicatur quaedam sesqualtera, quaedam sesquitertia, sic de ceteris. Et, eodem modo, nosci
         possunt distingui et nominari quaeque proportiones terminorum ad aliquid maioris et minoris
         inaequalitatis.</p>
-      <p xml:id="JACSP1B0114">In talibus igitur relationibus est quaedam disparitas, supereminentia et
-        subiectio, unde sunt relationes dissimilium nominum. Ideo, ut dictum est, variatur ibi
+      <p xml:id="JACSP1B0114">In talibus igitur relationibus est quaedam disparitas, supereminentia
+        et subiectio, unde sunt relationes dissimilium nominum. Ideo, ut dictum est, variatur ibi
         proportio quando maior terminus minori comparatur; et quando, e converso; quod locum non
         habet in aequalitatis proportione.</p>
       <p xml:id="JACSP1B0115">Salvatur autem, in proportione terminorum aequalium, illud geometricum
@@ -702,19 +713,19 @@
         demantur, quae remanent inaequalia esse necesse est, ut, statutis duobus quaternariis,
         tollatur unitas ab uno, binarius ab alio, remanent ternarius et binarius quos constat
         inaequales esse.</p>
-      <p xml:id="JACSP1B0116">In terminis autem inaequalibus consimiliter, si aequale est quod tollitur
-        ab utroque, qui remanent termini, inaequales sunt, sed non habent aequalem proportionem cum
-        terminis prioribus, ut, si, a senario et quaternario simul comparatis, unitas tollatur,
-        remanent quinarius et ternarius qui inaequales sunt, nec habent talem proportionem qualem
-        habebant priores termini; senarius enim sesqualter est quaternario, quinarius vero
-        superbipartiens est trinario. Quodsi ab inaequalibus terminis inaequalia sunt quae
-        tolluntur, ad aequalitatem redire poterunt, ut, si a senario trinarius, a quatrinario unitas
-        demantur, trinarius ex utraque parte relinquitur.</p>
-      <p xml:id="JACSP1B0117">Habet autem proportio locum, non tantum in quantatibus discretis, ut in
-        numeris et orationibus, sed in continuis, | [P1, 27r in marg.] ut in lineis, superficiebus
-        figuris, solidis quantitatibus sive corporibus, similiter, in tempore, in sonis et
-        consonantiis. Et ad multas alias res proportionis nomen extenditur. Generaliter enim ad quae
-        se extendit musica, proportio se videtur extendere.</p>
+      <p xml:id="JACSP1B0116">In terminis autem inaequalibus consimiliter, si aequale est quod
+        tollitur ab utroque, qui remanent termini, inaequales sunt, sed non habent aequalem
+        proportionem cum terminis prioribus, ut, si, a senario et quaternario simul comparatis,
+        unitas tollatur, remanent quinarius et ternarius qui inaequales sunt, nec habent talem
+        proportionem qualem habebant priores termini; senarius enim sesqualter est quaternario,
+        quinarius vero superbipartiens est trinario. Quodsi ab inaequalibus terminis inaequalia sunt
+        quae tolluntur, ad aequalitatem redire poterunt, ut, si a senario trinarius, a quatrinario
+        unitas demantur, trinarius ex utraque parte relinquitur.</p>
+      <p xml:id="JACSP1B0117">Habet autem proportio locum, non tantum in quantatibus discretis, ut
+        in numeris et orationibus, sed in continuis, | [P1, 27r in marg.] ut in lineis,
+        superficiebus figuris, solidis quantitatibus sive corporibus, similiter, in tempore, in
+        sonis et consonantiis. Et ad multas alias res proportionis nomen extenditur. Generaliter
+        enim ad quae se extendit musica, proportio se videtur extendere.</p>
       <p xml:id="JACSP1B0118">Differt autem proportio a terminis ex quibus denominatur, ut proportio
         dupla a termino duplici, tripla a triplici, sicut relatio a suo fundamento, ut paternitas a
         patre, filiatio a filio, large sumendo fundamentum pro mediato vel immediato fundamento.
@@ -741,28 +752,30 @@
         differentia inter illos unitas est; inter tria et quinque, dualitas. Et, generaliter,
         positis aliquibus terminis inaequalibus, illa quantitas vel quantitatis particula in qua
         maior terminus minorem superat, vel minor a maiore superatur, differentia nuncupatur.</p>
-      <p xml:id="JACSP1B0123">Ex his patet differentiam locum non habere inter aequales terminos, in quo
-        distinguitur differentia a proportione quae locum habet inter terminos, tam aequales, quam
-        inaequales. Ad hoc differunt, quia, in proportione, termini, ad invicem comparati,
-        colliguntur et uniuntur; in differentia autem, distinguuntur. Item alia est proportio, <pb n="[171]"/>cum maior terminus minori comparatur, alia cum e converso. Sed eadem est
+      <p xml:id="JACSP1B0123">Ex his patet differentiam locum non habere inter aequales terminos, in
+        quo distinguitur differentia a proportione quae locum habet inter terminos, tam aequales,
+        quam inaequales. Ad hoc differunt, quia, in proportione, termini, ad invicem comparati,
+        colliguntur et uniuntur; in differentia autem, distinguuntur. Item alia est proportio, <pb
+          n="[171]"/>cum maior terminus minori comparatur, alia cum e converso. Sed eadem est
         differentia hinc et inde. Haec tamen aliqualiter conveniunt, maxime ut proportionalitatem
         respiciunt, quia, sicut ex aequalitate proportionum aliquae proportionalitates conficiuntur
         et denominantur, ut proportionalitates geometricae, similiter ex aequalitate differentiarum,
         ut arithmeticae, aliae vero ex illis quodammodo sunt confectae.</p>
-      <p xml:id="JACSP1B0124">Ideo, in definitione proportionalitatis dicitur quod est "habitudo duarum
-        proportionum vel plurium", etiamsi non eisdem quantitatibus et differentiis constitutae
-        sint. Est igitur proportionalitas habitudo, proprietas, seu relatio ex natura rei et
-        intrinsece sequens ad comparationem proportionum plurium aequalium, vel differentiarum
-        similium, vel ex his mixtarum, sicut proportio ad collationem duorum terminorum. Inde est
-        quod, sicut proportio et differentia necessario duos requirunt terminos invicem comparatos,
-        ita medietas proportiones duas vel habitudines, ut generalius loquaris.</p>
-      <p xml:id="JACSP1B0125">Duae autem proportiones tres ad minus requirunt terminos. Ideo medietas
-        non in paucioribus quam in tribus salvari potest terminis. Si igitur sic dicatur: "Sicut se
-        habet 8 ad 4, sic 4 ad 2", proportionalitas est. Est enim hic comparatio duarum similium
-        proportionum in tribus terminis fundatarum quorum tamen unus bis sumitur. Idem fieri posset
-        in pluribus sic: "Sicut se habent 64 ad 32, sic se habent 16 ad 8, et 4 ad 2". Habet autem
-        proportionalitas locum non iam in terminis et proportionibus multiplicibus in quibus
-        exemplificatum est, sed in ceteris terminis maioris minorisque inaequalitatis, ut in
+      <p xml:id="JACSP1B0124">Ideo, in definitione proportionalitatis dicitur quod est "habitudo
+        duarum proportionum vel plurium", etiamsi non eisdem quantitatibus et differentiis
+        constitutae sint. Est igitur proportionalitas habitudo, proprietas, seu relatio ex natura
+        rei et intrinsece sequens ad comparationem proportionum plurium aequalium, vel
+        differentiarum similium, vel ex his mixtarum, sicut proportio ad collationem duorum
+        terminorum. Inde est quod, sicut proportio et differentia necessario duos requirunt terminos
+        invicem comparatos, ita medietas proportiones duas vel habitudines, ut generalius
+        loquaris.</p>
+      <p xml:id="JACSP1B0125">Duae autem proportiones tres ad minus requirunt terminos. Ideo
+        medietas non in paucioribus quam in tribus salvari potest terminis. Si igitur sic dicatur:
+        "Sicut se habet 8 ad 4, sic 4 ad 2", proportionalitas est. Est enim hic comparatio duarum
+        similium proportionum in tribus terminis fundatarum quorum tamen unus bis sumitur. Idem
+        fieri posset in pluribus sic: "Sicut se habent 64 ad 32, sic se habent 16 ad 8, et 4 ad 2".
+        Habet autem proportionalitas locum non iam in terminis et proportionibus multiplicibus in
+        quibus exemplificatum est, sed in ceteris terminis maioris minorisque inaequalitatis, ut in
         superparticularibus, sic: "Sicut se habent 9 ad 6, sic 6 ad 4". Consimiliter exemplificari
         posset in aliis et, generaliter loquendo, locum habet in omnibus in quibus locum habet
         proportio, magis proprie tamen inter terminos quantitativos. Et cum locum habeat proportio
@@ -790,17 +803,17 @@
         proportionalitas quae musica nuncupatur.</p>
       <p xml:id="JACSP1B0127">Capitulum LXI.</p>
       <p xml:id="JACSP1B0128">Proportionalitatis divisio.</p>
-      <p xml:id="JACSP1B0129">Medietatum seu proportionalitatum alia est continua seu indisiuncta, alia
-        vero discontinua vel disiuncta.</p>
-      <p xml:id="JACSP1B0130">Continua in tribus habet fieri terminis quorum tamen medius bis sumitur
-        et, respectu minoris, dux dicitur, secundum <pb n="[173]"/>Boethium, respectu maioris,
-        comes. Si igitur sic dicatur: "Sicut se habent 2 ad 4, sic 4 ad 8" | [P1, 27v in marg.] est
-        hic medietas continua, quia comparationes duae in termino uno coniunguntur; vel sic: "Sicut
-        se habent 9 ad 12, sic 12 ad 16". Posset autem continua medietas in pluribus esse terminis
-        quam in tribus, dum tamen quilibet mediorum terminorum bis sumeretur, sic: "Sicut se habent
-        unum ad duo et duo ad quattuor, et quattuor ad octo, sic octo ad sedecim". Et ibi notandum
-        est quod unius termini additio unam addit proportionem, et non sunt ibi duae proportiones
-        tantum, sed plures. Infinita alia poni possent exempla.</p>
+      <p xml:id="JACSP1B0129">Medietatum seu proportionalitatum alia est continua seu indisiuncta,
+        alia vero discontinua vel disiuncta.</p>
+      <p xml:id="JACSP1B0130">Continua in tribus habet fieri terminis quorum tamen medius bis
+        sumitur et, respectu minoris, dux dicitur, secundum <pb n="[173]"/>Boethium, respectu
+        maioris, comes. Si igitur sic dicatur: "Sicut se habent 2 ad 4, sic 4 ad 8" | [P1, 27v in
+        marg.] est hic medietas continua, quia comparationes duae in termino uno coniunguntur; vel
+        sic: "Sicut se habent 9 ad 12, sic 12 ad 16". Posset autem continua medietas in pluribus
+        esse terminis quam in tribus, dum tamen quilibet mediorum terminorum bis sumeretur, sic:
+        "Sicut se habent unum ad duo et duo ad quattuor, et quattuor ad octo, sic octo ad sedecim".
+        Et ibi notandum est quod unius termini additio unam addit proportionem, et non sunt ibi duae
+        proportiones tantum, sed plures. Infinita alia poni possent exempla.</p>
       <p xml:id="JACSP1B0131">Disiuncta medietas quattuor distinctos ad minus requirit terminos sic:
         "Sicut se habent duo ad quattuor, sic octo ad sedecem". Est hic disiuncta medietas. Posset
         autem salvari in pluribus terminis quam in quattuor, dum tamen neuter illorum bis sumeretur
@@ -812,8 +825,8 @@
         proportionibus, sed, quemadmodum maximus terminus se habet ad minimum, ita se habet maior
         terminorum differentia ad minorum differentiam terminorum, ut in his patet numeris: 3 4 6.
         Harum trium medietatum simul exempla subiecimus:</p>
-      <p xml:id="JACSP1B0133">[CSMIII/1:173; text: Arithmetica, Geometrica, Harmonica, I, II, III, IIII,
-        VI] <figure>
+      <p xml:id="JACSP1B0133">[CSMIII/1:173; text: Arithmetica, Geometrica, Harmonica, I, II, III,
+        IIII, VI] <figure>
           <graphic url="/images/JACSP1B_01GF.gif"/>
         </figure></p>
       <p xml:id="JACSP1B0134">Sunt autem et aliae medietates sed, quia hae tres sunt principaliores,
@@ -856,25 +869,26 @@
         dicemus. Arithmetica autem cum, primo et principalius, de numero, ut est prius dictum,
         consideret, principalius passiones, quae, in numeris, secundum suam naturalem insunt
         dispositionem, ceteris paribus, considerare habebit.</p>
-      <p xml:id="JACSP1B0141">Adhuc, ut ait Boethius, huius medietatis proportio in numeri quantitate
-        consistit. Et, quia arithmetica ceteras mathematicales antecedit scientias et naturalis
-        numerorum ordo nobis hanc ostendit, iure prius de hac arithmetica medietate, quae ceteras
-        antiquitate superat, tractandum est.</p>
-      <p xml:id="JACSP1B0142">Per prius enim numeros inaequales sequitur differentia quam proportionis
-        habitudo, quia nec videntur numeri tales dici ad aliquid ratione differentiae, sed ratione
-        proportionis, <pb n="[176]"/>quia, inter terminos inaequales, esset aequalitatis relatio,
-        cum, positis duobus inaequalibus terminis, uno maiore, altero minore, aequali differentia
-        qua maior differt a minore et e converso, ut est prius dictum, differt minor a maiore. Et
-        est hic advertendum quod, si termini huius medietatis immediate sese consequentur ut in
-        naturali numerorum sit ordine, differentiam tenet unitas; si vero unus praetermittatur
+      <p xml:id="JACSP1B0141">Adhuc, ut ait Boethius, huius medietatis proportio in numeri
+        quantitate consistit. Et, quia arithmetica ceteras mathematicales antecedit scientias et
+        naturalis numerorum ordo nobis hanc ostendit, iure prius de hac arithmetica medietate, quae
+        ceteras antiquitate superat, tractandum est.</p>
+      <p xml:id="JACSP1B0142">Per prius enim numeros inaequales sequitur differentia quam
+        proportionis habitudo, quia nec videntur numeri tales dici ad aliquid ratione differentiae,
+        sed ratione proportionis, <pb n="[176]"/>quia, inter terminos inaequales, esset aequalitatis
+        relatio, cum, positis duobus inaequalibus terminis, uno maiore, altero minore, aequali
+        differentia qua maior differt a minore et e converso, ut est prius dictum, differt minor a
+        maiore. Et est hic advertendum quod, si termini huius medietatis immediate sese consequentur
+        ut in naturali numerorum sit ordine, differentiam tenet unitas; si vero unus praetermittatur
         numerus, binarius; si duo, trinarius; si tres, quaternarius et sic, de aliis, ut de
         aliquibus, patet hic:</p>
-      <p xml:id="JACSP1B0143">[CSMIII/1:176,1; text: Hic unitas est differentia, I, II, III, IIII, V,
-        Differentiae, Medietas arithmetica, VI, VIII, X, Hic binarius differentiae locum tenet]</p>
+      <p xml:id="JACSP1B0143">[CSMIII/1:176,1; text: Hic unitas est differentia, I, II, III, IIII,
+        V, Differentiae, Medietas arithmetica, VI, VIII, X, Hic binarius differentiae locum
+        tenet]</p>
       <p xml:id="JACSP1B0144">| [P2, 36r in marg.] Capitulum LXIII.</p>
       <p xml:id="JACSP1B0145">Arithmeticae medietatis proprietates.</p>
-      <p xml:id="JACSP1B0146">| [P1, 28r in marg.] Medietatis arithmeticae proprietas una est, ut, si
-        sit in tribus terminis, quoad continuam, medius terminus medietas est numeri venientis ex
+      <p xml:id="JACSP1B0146">| [P1, 28r in marg.] Medietatis arithmeticae proprietas una est, ut,
+        si sit in tribus terminis, quoad continuam, medius terminus medietas est numeri venientis ex
         coniunctione duorum extremorum terminorum ut, si ponantur hi termini: I II III, dualitas
         medietas est quaternarii surgentis ex additione unitatis ad trinarium qui extremi erant
         termini. Huius exemplum patet hic:</p>
@@ -911,13 +925,13 @@
       <p xml:id="JACSP1B0152">[CSMIII/1:178; text: II, IIII, VI, XVI, XII] <figure>
           <graphic url="/images/JACSP1B_02GF.gif"/>
         </figure></p>
-      <p xml:id="JACSP1B0153">Posset, de hoc, exemplum poni de aliis quibuscumque tribus terminis huius
-        medietatis, quia tenet in omnibus, dum tamen differentiam differentiae non simul iungas, sed
-        ipsam in se ducas; alias, non teneret, ubi unitas differentia est, quae in se ducta non
-        reddit nisi unitatem, alteri vero iuncta soli facit binarium.</p>
-      <p xml:id="JACSP1B0154">Tenet etiam proprietas haec immediate disiuncta, sed de hoc Boethius non
-        exemplificat et qualiter ibi teneat non declarat. Disponantur quattuor termini sic: 3 5 7 9.
-        | [P2, 36v in marg.] Ad hoc, ut dicta proprietas hic teneat, oportet ut unus extremorum
+      <p xml:id="JACSP1B0153">Posset, de hoc, exemplum poni de aliis quibuscumque tribus terminis
+        huius medietatis, quia tenet in omnibus, dum tamen differentiam differentiae non simul
+        iungas, sed ipsam in se ducas; alias, non teneret, ubi unitas differentia est, quae in se
+        ducta non reddit nisi unitatem, alteri vero iuncta soli facit binarium.</p>
+      <p xml:id="JACSP1B0154">Tenet etiam proprietas haec immediate disiuncta, sed de hoc Boethius
+        non exemplificat et qualiter ibi teneat non declarat. Disponantur quattuor termini sic: 3 5
+        7 9. | [P2, 36v in marg.] Ad hoc, ut dicta proprietas hic teneat, oportet ut unus extremorum
         terminorum multiplicetur per alium, sicut ter <pb n="[179]"/>novem. Ad hoc requiritur ut
         alter terminorum mediorum ducatur in alium, sic quinquies septem, vel e converso. Item
         requiritur quod differentia, quae est dualitas, in se ipsum bis ducatur et, si sic fiat,
@@ -928,8 +942,8 @@
         veniente ex ductu ipsius differentiae in se ipsum bis; nam 35 superant XXVII numero
         octonario. Patent haec in figura subposita:</p>
       <p xml:id="JACSP1B0155">[CSMIII/1:179; text: II, VIII, 3, 5, 7, 9, 35, XXVII]</p>
-      <p xml:id="JACSP1B0156">Ad hoc est alia arithmeticae medietatis proprietas ceteris antiquior et
-        notior et, ad iudicandum de consonantiis, quae melior, et quae non utilior est. Est autem
+      <p xml:id="JACSP1B0156">Ad hoc est alia arithmeticae medietatis proprietas ceteris antiquior
+        et notior et, ad iudicandum de consonantiis, quae melior, et quae non utilior est. Est autem
         haec proprietas ut, id hac medietate tam continua quam disiuncta, in minoribus terminis est
         proportio maior et, in maioribus, minor. Patet hoc in hac dispositione: 1 2 3 4 5. Minores
         termini sunt tria et duo quam quinque et quattuor, et tamen maior est proportio trium ad duo
@@ -945,21 +959,20 @@
         medietatis.</p>
       <p xml:id="JACSP1B0157">Capitulum LXIIII.</p>
       <p xml:id="JACSP1B0158">Arithmetica mediates qualiter ab aequalitate procreetur.</p>
-      <p xml:id="JACSP1B0159">Sunt autem duo modi quibus medietatem arithmeticam ab aequalitate nasci
-        demonstratur. Primus talis: Disponantur, in loco superiore, lateraliter, tres termini aequi
-        sic: I I I. Tunc supponatur terminus aequus primo, scilicet unitas; secundo, ponatur
+      <p xml:id="JACSP1B0159">Sunt autem duo modi quibus medietatem arithmeticam ab aequalitate
+        nasci demonstratur. Primus talis: Disponantur, in loco superiore, lateraliter, tres termini
+        aequi sic: I I I. Tunc supponatur terminus aequus primo, scilicet unitas; secundo, ponatur
         terminus aequus primo et secundo superioribus, scilicet duo; tertio, ponatur inferius
         terminus aequus primo, secundo ac tertio, hoc est tribus terminis superioribus, scilicet
         tres. Et sic describantur:</p>
       <p class="textFig" xml:id="JACSP1B0160">Aequitas             I  I   I
         <br/>Arithmetica medietas I II III <lb/></p>
-      <p xml:id="JACSP1B0161">Patet hic ab aequalitate terminos, inter quos est arithmetica medietas,
-        progenitos esse. Idem autem esset <pb n="[181]"/>si binarius aequalitatis locum teneret vel
-        trinarius, vel quicumque numerus alius. Et de binario et ternario exemplum ponatur hic et
-        simile intelligatur de aliis:</p>
+      <p xml:id="JACSP1B0161">Patet hic ab aequalitate terminos, inter quos est arithmetica
+        medietas, progenitos esse. Idem autem esset <pb n="[181]"/>si binarius aequalitatis locum
+        teneret vel trinarius, vel quicumque numerus alius. Et de binario et ternario exemplum
+        ponatur hic et simile intelligatur de aliis:</p>
       <p class="textFig" xml:id="JACSP1B0162">Aequitas             II   II II
-        <br/>Arithmetica medietas II IIII VI
-        <lb/>Aequitas             III III III
+        <br/>Arithmetica medietas II IIII VI <lb/>Aequitas             III III III
         <br/>Arithmetica medietas III  VI  IX <lb/></p>
       <p xml:id="JACSP1B0163">Et est notandum quod, dum unitas locum tenet unitatis, tenet et
         differentiae, ut in primo patet exemplo. Sin vero binarius tenet aequalitatem, tenet
@@ -967,11 +980,11 @@
         trinarius teneat aequalitatem, tenebit et differentiam, ut tertium manifestat exemplum. Et
         similiter esset in aliis, et ad hanc intentionem forsitan posita est superius | [P2, 37r in
         marg.] secunda huius medietatis proprietas.</p>
-      <p xml:id="JACSP1B0164">Secundus modus procreandi ab aequalitate arithmeticae medietatis terminos
-        iste est: Ponantur, in superiore loco, tres termini aequi sic: I I I. Subscribatur terminus
-        aequus primo et secundo, scilicet binarius; secundo, inferius scribatur terminus aequus
-        primo et duobus secundis, scilicet tres; tertio, ponatur inferius consequenter terminus
-        aequus primo ac secundo duplicato, et tertio, et ille est quaternarius. Et sic
+      <p xml:id="JACSP1B0164">Secundus modus procreandi ab aequalitate arithmeticae medietatis
+        terminos iste est: Ponantur, in superiore loco, tres termini aequi sic: I I I. Subscribatur
+        terminus aequus primo et secundo, scilicet binarius; secundo, inferius scribatur terminus
+        aequus primo et duobus secundis, scilicet tres; tertio, ponatur inferius consequenter
+        terminus aequus primo ac secundo duplicato, et tertio, et ille est quaternarius. Et sic
         describantur:</p>
       <p class="textFig" xml:id="JACSP1B0165">Aequalitas            I   I    I
         <br/>Arithmetica medietas II III IIII <lb/></p>
@@ -986,10 +999,10 @@
         hoc:</p>
       <p class="textFig" xml:id="JACSP1B0167">Aequalitas             II II   II
         <br/>Arithmetica medietas IIII VI VIII <lb/></p>
-      <p xml:id="JACSP1B0168">Differt autem haec secunda via a prima. In prima enim via, terminus primus
-        inferior semper erat aequalis termino primo superiori, non autem hic, sed conveniunt in
-        conclusione et fine, quia idem habetur per modum utrumque. Et haec de arithmetica medietate
-        nunc dicta sufficiant; de geometrica prosequamur.</p>
+      <p xml:id="JACSP1B0168">Differt autem haec secunda via a prima. In prima enim via, terminus
+        primus inferior semper erat aequalis termino primo superiori, non autem hic, sed conveniunt
+        in conclusione et fine, quia idem habetur per modum utrumque. Et haec de arithmetica
+        medietate nunc dicta sufficiant; de geometrica prosequamur.</p>
       <p xml:id="JACSP1B0169">Capitulum LXV.</p>
       <p xml:id="JACSP1B0170">Quid sit geometrica medietas.</p>
       <p xml:id="JACSP1B0171">Geometrica medietas est cum, propositis tribus terminis vel pluribus,
@@ -1000,7 +1013,8 @@
         haec medietas in omni specie maioris et minoris inaequalitatis et, secundum illas,
         distinctas recipit denominationes. Unde, ubi sunt proportiones duplae inter terminos huius
         proportionalitatis, ut in exemplis patet praedictis, dupla dicitur proportionalitas; et, ubi
-        sunt proportiones triplae, dicitur tripla medietas, ut inter sequentes: 9 3 1; et <pb n="[183]"/>quadrupla, ubi quadruplae, ut ostendunt hi termini: 64 16 4 l. Eodem modo
+        sunt proportiones triplae, dicitur tripla medietas, ut inter sequentes: 9 3 1; et <pb
+          n="[183]"/>quadrupla, ubi quadruplae, ut ostendunt hi termini: 64 16 4 l. Eodem modo
         dicitur sesqualtera medietas terminorum sesqualteram proportionem inter se habentium, sicut
         patet dicendo sic: "Sicut se habent 9 ad 6, sic 6 ad 4". Sic de sesquitertia, de
         superpartiente et ceteris. Ubicumque enim fuerit talium terminorum ad invicem collatio quod,
@@ -1028,22 +1042,22 @@
         duplices, 16, Differentiae triplices, 2, 6, 18, 54, Termini triplices, 1, 3, 9, 27, 81] <figure>
           <graphic url="/images/JACSP1B_03GF.gif"/>
         </figure></p>
-      <p xml:id="JACSP1B0176">Haec proprietas non solum tenet in terminis duplicibus et triplis, sed in
-        aliis quibuscumque speciebus multiplicibus, similiter et in superparticularibus et ceteris
-        aliis inaequitatum terminis. Et de sesqualteris sesquitertiisque, exempla patent subscripta,
-        et consimiliter intelligatur in ceteris:</p>
+      <p xml:id="JACSP1B0176">Haec proprietas non solum tenet in terminis duplicibus et triplis, sed
+        in aliis quibuscumque speciebus multiplicibus, similiter et in superparticularibus et
+        ceteris aliis inaequitatum terminis. Et de sesqualteris sesquitertiisque, exempla patent
+        subscripta, et consimiliter intelligatur in ceteris:</p>
       <p xml:id="JACSP1B0177">[CSMIII/1:184,2; text: Differentiae sesqualterae, 4, 6, 9, Termini
         sesqualteri, 8, 12, 18, 27, Differentiae sesquitertiae, 9, 12, 16, Termini sesquitertii, 27,
         36, 48, 64]</p>
-      <p xml:id="JACSP1B0178">Secunda huius medietatis proprietas est quod semper maior terminus minorem
-        terminum, cui comparatur, in se continet totum et, cum hoc, differentiam qua differt ab
-        illo. Patet hoc in terminis duplis et aliis prius positis et qui poni possent. Binarius enim
-        continet unitatem ad quam duplus est et, cum hoc, adhuc unitatem quae inter illos terminos
-        differentiae locum tenet. Similiter, quaternarius binarium in se claudit et, cum hoc,
-        binarium qui inter illos differentiae locum gerit. Similiter, in triplis, trinarius continet
-        unitatem ad quam triplus est et, cum hoc, binarium qui ipsorum est differentia. Et idem
-        modus servatur in aliis duplicitatis speciebus, similiter et in superparticularitatis et
-        superpartientium terminis. In hac igitur <pb n="[185]"/>proprietate sic est ut maior
+      <p xml:id="JACSP1B0178">Secunda huius medietatis proprietas est quod semper maior terminus
+        minorem terminum, cui comparatur, in se continet totum et, cum hoc, differentiam qua differt
+        ab illo. Patet hoc in terminis duplis et aliis prius positis et qui poni possent. Binarius
+        enim continet unitatem ad quam duplus est et, cum hoc, adhuc unitatem quae inter illos
+        terminos differentiae locum tenet. Similiter, quaternarius binarium in se claudit et, cum
+        hoc, binarium qui inter illos differentiae locum gerit. Similiter, in triplis, trinarius
+        continet unitatem ad quam triplus est et, cum hoc, binarium qui ipsorum est differentia. Et
+        idem modus servatur in aliis duplicitatis speciebus, similiter et in superparticularitatis
+        et superpartientium terminis. In hac igitur <pb n="[185]"/>proprietate sic est ut maior
         terminus terminum, cui comparatur, totum contineat et, cum hoc, differentiam qua differt ab
         illo; et hoc generale est in speciebus omnibus maioris minorisque inaequalitatis quantum ad
         medietatem hanc.</p>
@@ -1056,15 +1070,16 @@
         quadruplicato, et sic de ceteris multiplicatis speciebus. Ratio autem horum est. Nam duplex
         minorem cui comparatur bis praecise continet, triplex ter, quadruplex quater, sic de aliis,
         et de his subduntur exempla quantum ad duplos, triplos et quadruplos:</p>
-      <p xml:id="JACSP1B0180">[CSMIII/1:185; text: Differentiae duplices, 32, 64, 128, Termini dupli,
-        256, Differentiae triplae, 486, 1458,Termini tripli, 243, 729, 2187, Differentiae
+      <p xml:id="JACSP1B0180">[CSMIII/1:185; text: Differentiae duplices, 32, 64, 128, Termini
+        dupli, 256, Differentiae triplae, 486, 1458,Termini tripli, 243, 729, 2187, Differentiae
         quadruplae, 3, 12, 48, Termini quadrupli: 1, 4, 16, 64]</p>
-      <p xml:id="JACSP1B0181">Tertia huius medietatis proprietas est ut, positis tribus terminis, quoad
-        medietatem continuam, qualis est summa proveniens ex multiplicatione terminorum extremorum
-        inter se, talis est summa nascens ex multiplicatione medii termini per se ipsum. Sint enim
-        hi termini: 2 4 8. Illud quod fit ex bis octo, scilicet 16, idem fit ex quater quattuor.
-        Vel, quoad triplam proportionem, hi termini: 2 6 18; quod fit ex bis decem et octo, <pb n="[186]"/>scilicet 36, idem fit ex sexies sex. Vel, in superparticularibus, sint hi
-        termini: 4 6 9; quod fit ex quater novem planum est idem fieri ex sexies sex. Et, in
+      <p xml:id="JACSP1B0181">Tertia huius medietatis proprietas est ut, positis tribus terminis,
+        quoad medietatem continuam, qualis est summa proveniens ex multiplicatione terminorum
+        extremorum inter se, talis est summa nascens ex multiplicatione medii termini per se ipsum.
+        Sint enim hi termini: 2 4 8. Illud quod fit ex bis octo, scilicet 16, idem fit ex quater
+        quattuor. Vel, quoad triplam proportionem, hi termini: 2 6 18; quod fit ex bis decem et
+        octo, <pb n="[186]"/>scilicet 36, idem fit ex sexies sex. Vel, in superparticularibus, sint
+        hi termini: 4 6 9; quod fit ex quater novem planum est idem fieri ex sexies sex. Et, in
         superpartientibus, sint hi termini: 9 15 25; quod fit ex novies 25 idest 225, idem fit ex
         decies quinquies quindecim. Si vero fuerit haec medietas disiuncta in quattuor scilicet
         terminis, tunc summa proveniens ex ductu extremorum terminorum inter se, | [P2, 38r in
@@ -1074,19 +1089,19 @@
         fit ubi ex aequalitate diximus inaequalitatis species nasci. Ibi enim, tam in multiplicibus,
         in superparticularibus et ceteris cunctis speciebus, geometrica proportionalitas
         custoditur.</p>
-      <p xml:id="JACSP1B0182">Notandum quod haec proprietas non est proprie propria isti medietati, quia
-        non competit omni. Item haec proprietas pluribus speciebus competit continuae medietatis
-        quam disiunctae, licet non competat omnibus. Paterent ista ei qui ipsam examinaret in
-        omnibus speciebus maioris minorisque inaequalitatis et maxime in superpartientibus et, adhuc
-        amplius, in compositis inaequitatum terminis, ut in multiplicibus superparticularibus et
-        multiplicibus superpartientibus.</p>
-      <p xml:id="JACSP1B0183">Quarta huius medietatis proprietas iam tacta est. Haec enim est quae, in
-        maioribus vel in minoribus terminis, aequales semper requirit proportiones. Haec proprietas
-        multum est notabilis et huic soli et omni atque semper inest medietati propter quam
-        proprietatem, ut est dictum, haec sola vel maxime proportionalitas nuncupatur. Quod autem
-        haec proprietas soli isti competat medietati, patet aliarum medietatum cernenti qualitates;
-        quod etiam competat omni per sufficientes liquet inductiones. <pb n="[187]"/>Apparet autem,
-        secundum Boethium, haec proprietas in ipsis binis aequalibus proportionibus
+      <p xml:id="JACSP1B0182">Notandum quod haec proprietas non est proprie propria isti medietati,
+        quia non competit omni. Item haec proprietas pluribus speciebus competit continuae
+        medietatis quam disiunctae, licet non competat omnibus. Paterent ista ei qui ipsam
+        examinaret in omnibus speciebus maioris minorisque inaequalitatis et maxime in
+        superpartientibus et, adhuc amplius, in compositis inaequitatum terminis, ut in
+        multiplicibus superparticularibus et multiplicibus superpartientibus.</p>
+      <p xml:id="JACSP1B0183">Quarta huius medietatis proprietas iam tacta est. Haec enim est quae,
+        in maioribus vel in minoribus terminis, aequales semper requirit proportiones. Haec
+        proprietas multum est notabilis et huic soli et omni atque semper inest medietati propter
+        quam proprietatem, ut est dictum, haec sola vel maxime proportionalitas nuncupatur. Quod
+        autem haec proprietas soli isti competat medietati, patet aliarum medietatum cernenti
+        qualitates; quod etiam competat omni per sufficientes liquet inductiones. <pb n="[187]"
+        />Apparet autem, secundum Boethium, haec proprietas in ipsis binis aequalibus proportionibus
         superparticularibus ipsis numeris altera parte longioribus quadratisque alternatim ab
         unitate dispositis, prout subiecta monstrat descriptio:</p>
       <p class="textFig" xml:id="JACSP1B0184">| [P1, 29v in marg.] Tetragonus in potentia   I
@@ -1101,21 +1116,20 @@
         <br/>                     Parte altera longior   XXX  sesquiquinta
         <lb/>                     Tetragonus           XXXVI  sesquiquinta
         <br/>                     Parte altera longior  XLII  sesquisexta
-        <lb/>                     Tetragonus            XLIX  sesquisexta
-        <br/></p>
-      <p xml:id="JACSP1B0185">Est autem advertendum, secundum Boethium, quod haec medietas multum valet
-        ad intellectum disputationis cuiusdam, quam ponit Plato in Timaeo ubi de planis et cubis
-        numerus facit mentionem, eos ad invicem comparando, quantum ad medietates quae inter illos
-        possunt reperiri. Quare notandum est quod numerus planus est qui ad modum superficiei se
-        habet, duas habens dimensiones sive extremitates; cubus vero vel solidus numerus tres habet
-        dimensiones ad modum corporis. Quantum autem ad numeros planos, sufficiat nunc loqui de
-        tetragonis.</p>
-      <p xml:id="JACSP1B0186">Est autem tetragonus, ut prius tactum est, quadratus aequilaterus surgens
-        ex ductu alicuius numeri in se ipsum semel, unde quaternarius est primus tetragonus in actu;
-        surgit enim ex ductu binarii in se ipsum semel nam, bis duo, quattuor sunt. Novenarius vero
-        est secundus tetragonus in actu surgens ex ductu ternarii in se ipsum, nam, ter tria, IX
-        sunt, nec potest inter illos alius cadere tetragonus; unde consequenter se habent. Tertius
-        vero tetragonus sunt XVI, sic de aliis.</p>
+        <lb/>                     Tetragonus            XLIX  sesquisexta <br/></p>
+      <p xml:id="JACSP1B0185">Est autem advertendum, secundum Boethium, quod haec medietas multum
+        valet ad intellectum disputationis cuiusdam, quam ponit Plato in Timaeo ubi de planis et
+        cubis numerus facit mentionem, eos ad invicem comparando, quantum ad medietates quae inter
+        illos possunt reperiri. Quare notandum est quod numerus planus est qui ad modum superficiei
+        se habet, duas habens dimensiones sive extremitates; cubus vero vel solidus numerus tres
+        habet dimensiones ad modum corporis. Quantum autem ad numeros planos, sufficiat nunc loqui
+        de tetragonis.</p>
+      <p xml:id="JACSP1B0186">Est autem tetragonus, ut prius tactum est, quadratus aequilaterus
+        surgens ex ductu alicuius numeri in se ipsum semel, unde quaternarius est primus tetragonus
+        in actu; surgit enim ex ductu binarii in se ipsum semel nam, bis duo, quattuor sunt.
+        Novenarius vero est secundus tetragonus in actu surgens ex ductu ternarii in se ipsum, nam,
+        ter tria, IX sunt, nec potest inter illos alius cadere tetragonus; unde consequenter se
+        habent. Tertius vero tetragonus sunt XVI, sic de aliis.</p>
       <p xml:id="JACSP1B0187">
         <pb n="[188]"/>Numerus | [P2, 38v in marg.] autem solidus, sive cubus, est ille qui surgit
         ex ductu alicuius numeri in se ipsum bis, ut bis duo bis, vel in suum quadratum semel, ut
@@ -1147,27 +1161,27 @@
         Similiter, ubi tetragonus in tetragonum ducitur, nascitur inde tetragonus; quater enim IX
         faciunt XXXVI qui est tetragonus, nam sexies sex XXXVI sunt. Multa alia de his possent dici
         quae obdimitto.</p>
-      <p xml:id="JACSP1B0189">Geometrica medietas qualiter ab aequalitate procreetur visum prius est.
-        Ubi enim ostenditur omnem inaequalitatem ab aequalitate generari, termini tres qui
+      <p xml:id="JACSP1B0189">Geometrica medietas qualiter ab aequalitate procreetur visum prius
+        est. Ubi enim ostenditur omnem inaequalitatem ab aequalitate generari, termini tres qui
         producuntur, secundum quamcumque inaequalitatis speciem, hanc servat medietatem, quia,
         qualis est proportio maioris producti termini ad medium, talis est illius medii ad minorem
         extremum; non est autem inter terminos illos aequalitas differentiarum.</p>
       <p xml:id="JACSP1B0190">Sed iam ad harmonicam medietatem descendamus.</p>
       <p xml:id="JACSP1B0191">Capitulum LXVII.</p>
       <p xml:id="JACSP1B0192">Quid sit harmonica medietas.</p>
-      <p xml:id="JACSP1B0193">Harmonica seu musica medietas est quae tales tres requirit terminos ut,
-        quemadmodum maior se habet ad minorem, sic differentia maioris ad terminum medium se habet
-        ad differentiam medii termini ad terminum minimum, ut in his patet terminis: 3 4 6, si sic
-        dicatur: "Sicut se habent sex ad tria, sic differentia senarii ad quaternarium, cuius modi
-        est dualitas, se habet ad differentiam quae est inter quaternarium et trinarium, cuius modi
-        est unitas". Utrobique enim proportio dupla est. <pb n="[190]"/>Similiter exemplum poni
+      <p xml:id="JACSP1B0193">Harmonica seu musica medietas est quae tales tres requirit terminos
+        ut, quemadmodum maior se habet ad minorem, sic differentia maioris ad terminum medium se
+        habet ad differentiam medii termini ad terminum minimum, ut in his patet terminis: 3 4 6, si
+        sic dicatur: "Sicut se habent sex ad tria, sic differentia senarii ad quaternarium, cuius
+        modi est dualitas, se habet ad differentiam quae est inter quaternarium et trinarium, cuius
+        modi est unitas". Utrobique enim proportio dupla est. <pb n="[190]"/>Similiter exemplum poni
         posset in quo inter extremos terminos proportio esset tripla, ut sint hi: 2 3 6, si enim sic
         dicatur: "Sicut se habent sex ad duo, sic differentia qua differt senarius a trinario,
         scilicet trinarius, se habet ad differentiam qua differt trinarius a binario, quae est
         unitas". Utrobique enim tripla est proportio. Haec autem amplius in subiectis patent
         exemplis:</p>
-      <p xml:id="JACSP1B0194">[P2, 39r in marg.] [CSMIII/1:190; text: differentia duplae, I, II, III,
-        IIII, VI, termini dupli, differentia triplae, termini tripli] <figure>
+      <p xml:id="JACSP1B0194">[P2, 39r in marg.] [CSMIII/1:190; text: differentia duplae, I, II,
+        III, IIII, VI, termini dupli, differentia triplae, termini tripli] <figure>
           <graphic url="/images/JACSP1B_04GF.gif"/>
         </figure></p>
       <p xml:id="JACSP1B0195">| [P1, 30r in marg.] Vocatur autem tacta medietas harmonica, secundum
@@ -1192,21 +1206,22 @@
         sesquitertia proportio est in qua fundatur diatessaron. In dispositione autem alia in qua
         extremi termini sunt tripli inter differentiam maioris ad minimum, quae est 4, et
         differentiam illius maioris ad medium terminum, quae est 3, sesquitertia proportio est, et
-        consimilis proportio est inter differentiam extremorum terminorum triplorum <pb n="[192]"/>et differentiam extremorum terminorum duplorum. Et haec amplius in subiectis patent
+        consimilis proportio est inter differentiam extremorum terminorum triplorum <pb n="[192]"
+        />et differentiam extremorum terminorum duplorum. Et haec amplius in subiectis patent
         figuris:</p>
       <p xml:id="JACSP1B0198">[CSMIII/1:192,1; text: diatessaron, 2, 3, 4, 6, differentia] <figure>
           <graphic url="/images/JACSP1B_05GF.gif"/>
         </figure></p>
-      <p xml:id="JACSP1B0199">Item, in tactis harmonicae medietatis exemplis, diapente proportio, quae
-        est sesqualtera, reperitur, nam, ubi termini extremi sunt duplices, maioris ad medium est
-        sesqualtera proportio, scilicet senarii ad quaternarium et differentiae terminorum illorum
-        extremorum ad differentiam maioris termini ad medium, idest ternarii ad binarium. Ubi vero
-        termini extremi sunt triplices, medius ad minimum extremum sesqualteram servat proportionem,
-        scilicet trinarius ad binarium, et, consimili modo, | [P2, 39v in marg.] differentia maioris
-        termini ad medium se habet ad parvissimum extremum, et ibi potest attendi etiam unisoni
-        proportio, qui in quadam consistit aequalitate, nam inter differentiam maioris termini ad
-        medium et medium illum terminum aequalitas est. Utrobique enim trinarius est. Sed haec magis
-        patet in exemplis subpositis:</p>
+      <p xml:id="JACSP1B0199">Item, in tactis harmonicae medietatis exemplis, diapente proportio,
+        quae est sesqualtera, reperitur, nam, ubi termini extremi sunt duplices, maioris ad medium
+        est sesqualtera proportio, scilicet senarii ad quaternarium et differentiae terminorum
+        illorum extremorum ad differentiam maioris termini ad medium, idest ternarii ad binarium.
+        Ubi vero termini extremi sunt triplices, medius ad minimum extremum sesqualteram servat
+        proportionem, scilicet trinarius ad binarium, et, consimili modo, | [P2, 39v in marg.]
+        differentia maioris termini ad medium se habet ad parvissimum extremum, et ibi potest
+        attendi etiam unisoni proportio, qui in quadam consistit aequalitate, nam inter differentiam
+        maioris termini ad medium et medium illum terminum aequalitas est. Utrobique enim trinarius
+        est. Sed haec magis patet in exemplis subpositis:</p>
       <p xml:id="JACSP1B0200">[CSMIII/1:192,2; text: differentia, III, II, diapente, 3, 4, 6, III,
         unisonus, 2]</p>
       <p xml:id="JACSP1B0201">
@@ -1344,8 +1359,8 @@
         in media parte ipsius binarii quae est unitas. In eadem parte ipsius senarii ipse senarius
         trinarium superat, scilicet in trinario qui media pars est senarii, sicut unitas media pars
         est binarii.</p>
-      <p xml:id="JACSP1B0215">Non sic autem est in aliis praedictis medietatibus. In arithmetica enim
-        medietate, medius terminus in eadem parte, absolute loquendo, qua minorem superat, et a
+      <p xml:id="JACSP1B0215">Non sic autem est in aliis praedictis medietatibus. In arithmetica
+        enim medietate, medius terminus in eadem parte, absolute loquendo, qua minorem superat, et a
         maiore superatur; sed non eadem parte ipsius minoris minor a medio superatur qua parte
         ipsius medii medius a maiore vincitur. Statuantur hi termini medietatis arithmeticae: 2 3 4.
         Sicut trinarius, qui est medius terminus, in hac parte, quae est unitas, superat binarium,
@@ -1373,10 +1388,10 @@
         supervadit, vel superat extremitatem minorem qua parte sui maior extremitas medium superat
         terminum.</p>
       <p xml:id="JACSP1B0216">Haec harmonicae medietatis proprietas subtilis est et pulchra.</p>
-      <p xml:id="JACSP1B0217">Restat autem una alia pulchra, non autem ad exponendum eam ita taediosa,
-        quae talis est: si duas extremitates huius medietatis in unum redactas medius terminus
-        multiplicavit, dupla quantitas inde colligitur quam si inter se duae extremitates se
-        multiplicent. Sint enim hi termini: 3 4 6. Iungantur extremitates, idest trinarius cum
+      <p xml:id="JACSP1B0217">Restat autem una alia pulchra, non autem ad exponendum eam ita
+        taediosa, quae talis est: si duas extremitates huius medietatis in unum redactas medius
+        terminus multiplicavit, dupla quantitas inde colligitur quam si inter se duae extremitates
+        se multiplicent. Sint enim hi termini: 3 4 6. Iungantur extremitates, idest trinarius cum
         senario, et sunt 9. Multiplicetur novenarius quaternario qui medius terminus est dicendo:
         "Quater novem", et sunt 36; deinde una extremitatum aliam multiplicet dicendo: "Ter sex",
         vel e converso, et sunt 18. Planum est autem numerum, qui est 36, duplum esse ad 18. Eodem |
@@ -1388,32 +1403,28 @@
       <p xml:id="JACSP1B0219">
         <pb n="[201]"/>Capitulum LXIX.</p>
       <p xml:id="JACSP1B0220">Harmonicae medietatis ab aequalitate productio.</p>
-      <p xml:id="JACSP1B0221">Medietas harmonica ab aequalitate sic nascitur: Disponantur tres termini
-        aequi sic: I I I. Ponatur inferius, in latere sinistro, terminus aequus primo ac duobus
-        secundis, et ille est trinarius, quia includit in se tres unitates. Deinde inferius | [P1,
-        31v in marg.] ponitur terminus aequus duobus primis superioribus et duobus secundis, hoc est
-        quaternarius qui claudit in se duas et duas unitates, hoc est quattuor, et sic ordinentur:
-        III IV. Deinde consequeninferius ponatur terminus aequus primo et duobus secundis, sive
-        secundo duplicato, et tribus tertiis, hoc est tertio triplicato, et ille est senarius qui
-        sex in se claudit unitates. Hi igitur erunt termini ab aequalitate procreati : III IV VI.
-        Ubi igitur, in talis medietatis ab aequalitate procreatione, unitas aequalitatem tenet,
-        primus terminus inferior est trinarius per regulam tactam, secundus quaternarius, tertius
-        senarius. Quod si binarius aequalitatem teneat, primus terminus inferior est VI, secundus
-        VIII, tertius XII. Quod si trinarius, primus terminus inferior est IX, secundus XII, tertius
-        XVIII, ut subiecta monstrat descriptio:</p>
-      <p class="textFig" xml:id="JACSP1B0222">I   I    I
-        <lb/>III IIII VI <br/>II II   II <lb/>VI VIII XII
-        <br/>III III   III <lb/>IX  XII   XVIII
-        <br/></p>
-      <p xml:id="JACSP1B0223">Est autem inter extremos terminos positorum exemplorum dupla proportio.
-        Quod si facienda est in extremitatibus, tripla proportio, tribus aequis terminis
+      <p xml:id="JACSP1B0221">Medietas harmonica ab aequalitate sic nascitur: Disponantur tres
+        termini aequi sic: I I I. Ponatur inferius, in latere sinistro, terminus aequus primo ac
+        duobus secundis, et ille est trinarius, quia includit in se tres unitates. Deinde inferius |
+        [P1, 31v in marg.] ponitur terminus aequus duobus primis superioribus et duobus secundis,
+        hoc est quaternarius qui claudit in se duas et duas unitates, hoc est quattuor, et sic
+        ordinentur: III IV. Deinde consequeninferius ponatur terminus aequus primo et duobus
+        secundis, sive secundo duplicato, et tribus tertiis, hoc est tertio triplicato, et ille est
+        senarius qui sex in se claudit unitates. Hi igitur erunt termini ab aequalitate procreati :
+        III IV VI. Ubi igitur, in talis medietatis ab aequalitate procreatione, unitas aequalitatem
+        tenet, primus terminus inferior est trinarius per regulam tactam, secundus quaternarius,
+        tertius senarius. Quod si binarius aequalitatem teneat, primus terminus inferior est VI,
+        secundus VIII, tertius XII. Quod si trinarius, primus terminus inferior est IX, secundus
+        XII, tertius XVIII, ut subiecta monstrat descriptio:</p>
+      <p class="textFig" xml:id="JACSP1B0222">I   I    I <lb/>III IIII VI <br/>II II   II
+        <lb/>VI VIII XII <br/>III III   III <lb/>IX  XII   XVIII <br/></p>
+      <p xml:id="JACSP1B0223">Est autem inter extremos terminos positorum exemplorum dupla
+        proportio. Quod si facienda est in extremitatibus, tripla proportio, tribus aequis terminis
         constitutis, primus quidem faciendus est ex primo ac secundo, secundus <pb n="[202]"/>vero
         ex primo ac duobus secundis, tertius autem ex primo duobus secundis ac tribus tertiis, ut
         hic patet:</p>
-      <p class="textFig" xml:id="JACSP1B0224">I   I    I
-        <lb/>II  III  VI <br/>II   II II
-        <lb/>IIII VI XII <br/>III III   III
-        <lb/>IX  IX    XVIII <br/></p>
+      <p class="textFig" xml:id="JACSP1B0224">I   I    I <lb/>II  III  VI <br/>II   II II
+        <lb/>IIII VI XII <br/>III III   III <lb/>IX  IX    XVIII <br/></p>
       <p xml:id="JACSP1B0225">Capitulum LXX.</p>
       <p xml:id="JACSP1B0226">De septem posterioribus medietatibus.</p>
       <p xml:id="JACSP1B0227">Praeter praedictas tres medietates, sunt septem aliae quas posteriores
@@ -1424,11 +1435,11 @@
         inaequalitatis in denario repositae sunt numero, quia quinque sunt ex una parte et quinque
         sunt ex alia. In quo etiam numero Aristoteles sumit praedicamenta quae, ut ferunt, antea
         Archytas Pythagoricus invenerat.</p>
-      <p xml:id="JACSP1B0228">| [P2, 42r in marg.] Adhuc, inter has septem medietates de quibus breviter
-        et quasi exemplariter acturi sumus, tres sunt quae alias quattuor praecesserunt; et sic
-        erant in numero senario qui perfectus est; deinde, illis, quattuor aliae sunt appositae, ut
-        in numero essent denario. Non habent hae septem medietates nomina propria, ut priores, sed
-        prima illarum vocatur quarta medietas, alia quinta, et sic consequenter. Et a tribus
+      <p xml:id="JACSP1B0228">| [P2, 42r in marg.] Adhuc, inter has septem medietates de quibus
+        breviter et quasi exemplariter acturi sumus, tres sunt quae alias quattuor praecesserunt; et
+        sic erant in numero senario qui perfectus est; deinde, illis, quattuor aliae sunt appositae,
+        ut in numero essent denario. Non habent hae septem medietates nomina propria, ut priores,
+        sed prima illarum vocatur quarta medietas, alia quinta, et sic consequenter. Et a tribus
         principalioribus ortum habent, quamvis in aliquibus illis contrarientur.</p>
       <p xml:id="JACSP1B0229">Est igitur quarta medietas, quae prima est inter has septem, in qua,
         tribus positis terminis, quemadmodum maximus terminus se habet ad parvissimum, sic
@@ -1442,19 +1453,19 @@
         huic medietati proprium ut summa veniens ex ductu medii termini in maximum dupla sit ad
         summam venientem ex ductu minoris termini in medium; quinquies enim sex sunt 30, sed ter
         quinque sunt quindecim.</p>
-      <p xml:id="JACSP1B0230">Quinta medietas est quotiens, in tribus terminis, se habet sic differentia
-        minoris extremi ad medium ad differentiam medii termini ad maiorem extremum, quemadmodum se
-        habet medius terminus ad minorem terminum. Nam, in hac dispositione: 2 4 5, quemadmodum se
-        habent quattuor ad duo, sic duo ad unitatem. Binarius autem est differentia minoris termini
-        ad medium; unitas, medii ad maiorem extremum. Haec medietas, quantum ad aliquid,
-        contrariatur geometricae medietati, similiter et musicae. In illis enim, quemadmodum se
-        habent extrema ad invicem, sic differentia maioris termini ad medium habet se ad
-        differentiam medii termini ad minimum terminum; hic vero, e converso, quantum ad
+      <p xml:id="JACSP1B0230">Quinta medietas est quotiens, in tribus terminis, se habet sic
+        differentia minoris extremi ad medium ad differentiam medii termini ad maiorem extremum,
+        quemadmodum se habet medius terminus ad minorem terminum. Nam, in hac dispositione: 2 4 5,
+        quemadmodum se habent quattuor ad duo, sic duo ad unitatem. Binarius autem est differentia
+        minoris termini ad medium; unitas, medii ad maiorem extremum. Haec medietas, quantum ad
+        aliquid, contrariatur geometricae medietati, similiter et musicae. In illis enim,
+        quemadmodum se habent extrema ad invicem, sic differentia maioris termini ad medium habet se
+        ad differentiam medii termini ad minimum terminum; hic vero, e converso, quantum ad
         comparationem differentiarum, proprium est huic medietati, ut numerus veniens ex ductu medii
         termini in maximum, vel e converso, dicendo: "Sit quater quinque" et sunt 20. Duplus sit ad
         numerum nascentem ex ductu extremorum inter se, dicendo: "Bis quinque" et sunt X.</p>
-      <p xml:id="JACSP1B0231">Sexta medietas est, cum, tribus statutis terminis, sicut maior se habet ad
-        medium, sic minoris ad medium differentia se habet ad differentiam medii ad maiorem
+      <p xml:id="JACSP1B0231">Sexta medietas est, cum, tribus statutis terminis, sicut maior se
+        habet ad medium, sic minoris ad medium differentia se habet ad differentiam medii ad maiorem
         extremum, ut in his patet terminis: 1 4 6. Nam sicut <pb n="[204]"/>senarius sesqualter est
         quaternario, sic trinarius, qui est differentia minoris termini ad medium, sesqualter est
         binario, qui est differentia inter quaternarium et senarium. Et haec medietas contraria est
@@ -1471,8 +1482,8 @@
         sesqualter est senario, qui sunt extremi termini, sic trinarius, qui est differentia inter
         extremos positos terminos, sesqualter est binario, qui differentia est inter septenarium et
         novenarium.</p>
-      <p xml:id="JACSP1B0234">Nona medietas est quando, tribus dispositis terminis, qualis est proportio
-        medii termini ad minimum terminum, talis est proportio differentiae extremorum ad
+      <p xml:id="JACSP1B0234">Nona medietas est quando, tribus dispositis terminis, qualis est
+        proportio medii termini ad minimum terminum, talis est proportio differentiae extremorum ad
         differentiam medii ad minimum extremum, ut in sequentibus patet terminis: 4 6 7. Quemadmodum
         enim se habet senarius qui est medius terminus, ad quatrinarium, qui est minimus, sic se
         habet trinarius, qui est differentia extremorum terminorum, ad binarium, quo differt medius
@@ -1481,26 +1492,22 @@
       <p xml:id="JACSP1B0235">Decima et ultima medietas tunc cernitur cum, in tribus dispositis
         terminis, invenitur talis proportio differentiae terminorum extremorum ad differentiam
         maioris extremi ad medium, qualis est proportio medii termini ad parvissimum terminum, ut
-        hic patet: 3 5 8. Quinarius enim superbipartiens est trinario, similiter differentia <pb n="[205]"/>extremorum, quia illa est quinarius; superbipartiens est enim ad differentiam
+        hic patet: 3 5 8. Quinarius enim superbipartiens est trinario, similiter differentia <pb
+          n="[205]"/>extremorum, quia illa est quinarius; superbipartiens est enim ad differentiam
         maioris extremi ad medium terminum, quia illa est trinarius; et sic utrobique est comparatio
         quinarii ad trinarium.</p>
       <p xml:id="JACSP1B0236">Sic igitur decem habemus medietates quarum infra aliqualiter patebit
         sufficientia; sed hic omnis in ordine suo disponamus:</p>
       <p class="textFig" xml:id="JACSP1B0237">Prima    Arithmetica            1  2  3
-        <lb/>Secunda  Geometrica             1  2  4
-        <br/>Tertia   Harmonica              3  4  6
-        <lb/>Quarta   Contraria harmonicae   3  5  6
-        <br/>Quinta   Contraria geometricae  2  4  5
-        <lb/>Sexta    Contraria geometricae  1  4  6
-        <br/>Septima  Inter quatuor prima    6  8  9
-        <lb/>Octava   Inter quatuor secunda  6  7  9
-        <br/>Nona     Inter quatuor tertia   4  6  7
-        <lb/>Decima   Inter quatuor quarta   3  5  8
-        <br/></p>
+        <lb/>Secunda  Geometrica             1  2  4 <br/>Tertia   Harmonica              3  4  6
+        <lb/>Quarta   Contraria harmonicae   3  5  6 <br/>Quinta   Contraria geometricae  2  4  5
+        <lb/>Sexta    Contraria geometricae  1  4  6 <br/>Septima  Inter quatuor prima    6  8  9
+        <lb/>Octava   Inter quatuor secunda  6  7  9 <br/>Nona     Inter quatuor tertia   4  6  7
+        <lb/>Decima   Inter quatuor quarta   3  5  8 <br/></p>
       <p xml:id="JACSP1B0238">Capitulum LXXI.</p>
       <p xml:id="JACSP1B0239">Medietatum ad invicem collatio.</p>
-      <p xml:id="JACSP1B0240">Visum est de medietatibus divisim et absolute. Nunc, ad hoc, aliquid de
-        eisdem videamus collative.</p>
+      <p xml:id="JACSP1B0240">Visum est de medietatibus divisim et absolute. Nunc, ad hoc, aliquid
+        de eisdem videamus collative.</p>
       <p xml:id="JACSP1B0241">Conveniunt tactae medietates, quia quaelibet aliquam inter comparata
         requirit aequalitatem: arithmetica in differentiis tantum, geometrica in proportionibus
         solum, harmonica, similiter et ceterae septem, proportionem aliquorum terminorum ad
@@ -1511,8 +1518,8 @@
         nec est aequalitas differentiarum, nec proportionum, sed subtiliter reducunt proportionem
         aliquorum terminorum ad aequalem proportionem differentiarum terminorum aliquorum
         suorum.</p>
-      <p xml:id="JACSP1B0242">Item convenit harmonica medietas et ceterae septem cum arithmetica, quia
-        hae et illa differentias intuentur, sed arithmetica in solis differentiis aequalitatem
+      <p xml:id="JACSP1B0242">Item convenit harmonica medietas et ceterae septem cum arithmetica,
+        quia hae et illa differentias intuentur, sed arithmetica in solis differentiis aequalitatem
         reperire contenta est, de suoruum terminorum proportionibus aequalitatem non curans; et cum
         geometrica, quia tam geometrica quam harmonica, cum aliis septem, quandam proportionis
         aequalitatem satagunt invenire, sed illa in terminis tantummodo suis, aliae in terminis et
@@ -1544,8 +1551,8 @@
         supponitur descriptio:</p>
       <p xml:id="JACSP1B0245">[CSMIII/1:207; text: arithmetica, medietas, differentia, 6, 15,
         geometrica, 24, armonica, 25, 40, 20, 10, 16]</p>
-      <p xml:id="JACSP1B0246">Convenit autem harmonica medietas cum aliis septem medietatibus, quia in
-        omnibus illis est comparatio non solum terminorum aliquorum ad invicem, quin etiam! et
+      <p xml:id="JACSP1B0246">Convenit autem harmonica medietas cum aliis septem medietatibus, quia
+        in omnibus illis est comparatio non solum terminorum aliquorum ad invicem, quin etiam! et
         differentiarum, licet differentur, ut patebit. Sic igitur medietatum penes ipsarum
         convenientiam aliqualis patet collatio.</p>
       <p xml:id="JACSP1B0247">Qualiter autem differant, ex prius dictis satis liquet, et statim
@@ -1553,18 +1560,18 @@
       <p xml:id="JACSP1B0248">
         <pb n="[208]"/>Capitulum LXXII.</p>
       <p xml:id="JACSP1B0249">Medietatum sufficientia.</p>
-      <p xml:id="JACSP1B0250">Quamvis medietates, ut est tactum, in numerum redactae sunt denarium, quia
-        numerus ille, propter suam perfectionem, Pythagorae complacuit, posset tamen aliqualiter ex
-        dictis elici ratio ex ipsarum distinctione, quare in tali sint numero, et ibi ipsarum
-        declarari (prout haec requirit et patitur materia) quidam sufficientiae earum modus, non
-        quin aliae illis possunt addi medietates, sed, quae positae sunt, non coincidunt, sed
+      <p xml:id="JACSP1B0250">Quamvis medietates, ut est tactum, in numerum redactae sunt denarium,
+        quia numerus ille, propter suam perfectionem, Pythagorae complacuit, posset tamen
+        aliqualiter ex dictis elici ratio ex ipsarum distinctione, quare in tali sint numero, et ibi
+        ipsarum declarari (prout haec requirit et patitur materia) quidam sufficientiae earum modus,
+        non quin aliae illis possunt addi medietates, sed, quae positae sunt, non coincidunt, sed
         convenienter ab invicem distinguuntur.</p>
-      <p xml:id="JACSP1B0251">Omnis enim medietas ad minus tres requirit terminos duasque comparationes
-        circa quas quandam attendit aequalitatem.</p>
-      <p xml:id="JACSP1B0252">Aut igitur illam aequalitatem attendit in terminorum suorum differentiis
-        tantum; sic est arithmetica medietas, ut ostendunt hi termini: 2 3 4. Aut illam attendit in
-        terminorum suorum proportionibus solum; sic est medietas geometrica. Patet hoc in his
-        terminis: 2 4 8. Aut in utrisque, in terminis scilicet et differentiis, et hoc
+      <p xml:id="JACSP1B0251">Omnis enim medietas ad minus tres requirit terminos duasque
+        comparationes circa quas quandam attendit aequalitatem.</p>
+      <p xml:id="JACSP1B0252">Aut igitur illam aequalitatem attendit in terminorum suorum
+        differentiis tantum; sic est arithmetica medietas, ut ostendunt hi termini: 2 3 4. Aut illam
+        attendit in terminorum suorum proportionibus solum; sic est medietas geometrica. Patet hoc
+        in his terminis: 2 4 8. Aut in utrisque, in terminis scilicet et differentiis, et hoc
         multipliciter, quia, aut attendit aequalitatem proportionis inter habitudinem terminorum
         extremorum suorum ad differentiarum habitudinem; aut inter habitudinem termini medii ad
         alterum extremorum ad habitudinem differentiarum.</p>
@@ -1637,13 +1644,13 @@
         aequales, sic et duae secundae, sed secundae proportiones nec sunt uniformes primis, nec
         aequales, quia variatur terminorum comparatio. Dictum autem est supra quod distinctio
         terminorum comparatorum distinctionem arguit proportionum.</p>
-      <p xml:id="JACSP1B0262">Tenet etiam permutata proportio non solum in medietate geometrica in qua
-        exemplificatum est, sed in arithmetica si dicatur sic: "Sicut se habent 3 ad 4, sic 5 ad 6".
-        Ergo permutatim: "Sicut se habent 3 ad 5, sic 4 ad 6". Utrobique enim est eadem differentia
-        in hac conversa comparatione, scilicet dualitas, sicut, in priore et directa, unitas. Illud
-        igitur bene sequitur inspiciendo ad medietatem arithmeticam, non autem inspiciendo ad
-        medietatem geometricam quae aequalitatem requirit proportionum; quod igitur sequitur
-        secundum unam illarum, non sequitur secundum aliam.</p>
+      <p xml:id="JACSP1B0262">Tenet etiam permutata proportio non solum in medietate geometrica in
+        qua exemplificatum est, sed in arithmetica si dicatur sic: "Sicut se habent 3 ad 4, sic 5 ad
+        6". Ergo permutatim: "Sicut se habent 3 ad 5, sic 4 ad 6". Utrobique enim est eadem
+        differentia in hac conversa comparatione, scilicet dualitas, sicut, in priore et directa,
+        unitas. Illud igitur bene sequitur inspiciendo ad medietatem arithmeticam, non autem
+        inspiciendo ad medietatem geometricam quae aequalitatem requirit proportionum; quod igitur
+        sequitur secundum unam illarum, non sequitur secundum aliam.</p>
       <p xml:id="JACSP1B0263">Potest autem ex dictis apparere permutatam proportionem locum habere
         tantum in discontinua medietate, cum quattuor requirat terminos et proportiones quattuor
         comparando, tam directas quam commutatas, et haec est forte ratio una quare non tenet in
@@ -1654,13 +1661,13 @@
       <p xml:id="JACSP1B0264">
         <pb n="[212]"/>Capitulum LXXIIII.</p>
       <p xml:id="JACSP1B0265">De maxima perfectaque harmonia.</p>
-      <p xml:id="JACSP1B0266">Sed hic aliquid de maxima perfectaque disseramus harmonia de qua tractat
-        Boethius immediate post quam de medietatibus disseruit. Et nos ita faciamus. In his et aliis
-        libenter talem et tantum imitemur doctorem.</p>
-      <p xml:id="JACSP1B0267">Etiam hic, quantum ad aliquid, locum habet transmutata proportio, de qua
-        immediate tractavimus, ut materiae sese consequantur.</p>
-      <p xml:id="JACSP1B0268">Dicit autem Boethius quod haec maxima harmonia, quae in tribus intervallis
-        quattuor vero terminis constituta est, magnam vim obtinet in musici modulaminis
+      <p xml:id="JACSP1B0266">Sed hic aliquid de maxima perfectaque disseramus harmonia de qua
+        tractat Boethius immediate post quam de medietatibus disseruit. Et nos ita faciamus. In his
+        et aliis libenter talem et tantum imitemur doctorem.</p>
+      <p xml:id="JACSP1B0267">Etiam hic, quantum ad aliquid, locum habet transmutata proportio, de
+        qua immediate tractavimus, ut materiae sese consequantur.</p>
+      <p xml:id="JACSP1B0268">Dicit autem Boethius quod haec maxima harmonia, quae in tribus
+        intervallis quattuor vero terminis constituta est, magnam vim obtinet in musici modulaminis
         temperamentis et in speculatione naturalium quaestionum. Cum enim, ut dictum est, in tribus
         consistat intervallis, perfectissimi corporis naturam substantiamque demonstrat, atque
         aliqualiter cubum trina dimensione crassatum representat. Haec igitur maxima perfectaque
@@ -1732,15 +1739,16 @@
         consonantia. Nec deficiet ibi bis diapason, si VIII comparentur ad II, inter quos terminos
         quadrupla noscitur esse proportio, in qua bis diapason radicatur. Haec autem ut appareant
         magis, describamus in figura vel figuris:</p>
-      <p xml:id="JACSP1B0272">[CSMIII/1:215; text: arithmetica medietas, geometrica medietas, armonica
-        medietas, iuncti extremi dupli sunt medio qui est IX, XVIII, multiplicatio extremorum LXXII
-        aequatur multiplicationi mediorum, multiplicatio mediorum, iunctae extremitates atque
-        octuplatae, medietates per se multiplicatae, CXLIIII, XII, VI, VIII, differentia, III,
-        proportio sesquitertia, diatessaron, proportio sesqualtera, diapente, differentia .IIII.
-        pars tertia maioris, differentia .IIII. pars tertia minoris, consonantiae musicales, tripla
-        proportio in qua diapason cum diapente, sesquitertia proportio: diatessaron, quadrupla
-        proportio bis diapason, II, dupla proportio: diapason, sesquioctava proportio: epogdous vel
-        tonus, sesqualtera proportio: diapente, tripla proportio in qua diapason cum diapente] <figure>
+      <p xml:id="JACSP1B0272">[CSMIII/1:215; text: arithmetica medietas, geometrica medietas,
+        armonica medietas, iuncti extremi dupli sunt medio qui est IX, XVIII, multiplicatio
+        extremorum LXXII aequatur multiplicationi mediorum, multiplicatio mediorum, iunctae
+        extremitates atque octuplatae, medietates per se multiplicatae, CXLIIII, XII, VI, VIII,
+        differentia, III, proportio sesquitertia, diatessaron, proportio sesqualtera, diapente,
+        differentia .IIII. pars tertia maioris, differentia .IIII. pars tertia minoris, consonantiae
+        musicales, tripla proportio in qua diapason cum diapente, sesquitertia proportio:
+        diatessaron, quadrupla proportio bis diapason, II, dupla proportio: diapason, sesquioctava
+        proportio: epogdous vel tonus, sesqualtera proportio: diapente, tripla proportio in qua
+        diapason cum diapente] <figure>
           <graphic url="/images/JACSP1B_09GF.gif"/>
         </figure></p>
       <p xml:id="JACSP1B0273">
@@ -1769,44 +1777,44 @@
         numeri superparticularis ad minimos, scilicet numeros | [P1, 34r in marg.] in quibus primo
         reperitur talis proportio ut, in sesqualteris, sunt trinarius et binarius, in sesquitertiis,
         quaternarius et trinarius, et sic de aliis.</p>
-      <p xml:id="JACSP1B0277">Quantum ad primam artem, primo declaremus qualiter sesqualterae continuae
-        proportiones possint multiplicari et quot quis voluerit reperiri. Disponantur igitur numeri
-        duplices secundum ordinem suum immediatum et naturalem sic: 1 2 4 8 16 32, et cetera. Qui
-        igitur hunc vult unam solam sesqualteram proportionem, primum sumat duplicem in actu, ille
-        est binarius ad quem trinarius sesqualter, nec ulterius potest illa sesqualtera continuari
-        proportio quia trinarius medietate caret; indivisibilis est enim in duas partes aequales,
-        ideo subsesqualter esse non potest. Si vero duae quaerantur proportiones sesqualterae
-        continuae, secundus duplex in actu sumatur, scilicet quaternarius; ad ipsum enim senarius
-        sesqualter est, et, ad senarium, novenarius, ad quem nullus numerus sesqualter potest esse,
-        quia caret medietate. Generaliter enim loquendo: nullus numerus impar potest esse
-        subsesqualter, quia in duas partes aequales dividi non potest, et, per consequens, omnis
-        numerus par potest esse subsesqualter. Sesqualterorum vero alii sunt pares, alii impares. Ad
-        ipsos enim requiritur quod divisibiles sint in tres partes aequales, et hoc potest competere
-        tam paribus quam imparibus numeris. Quod si quaerantur tres sesqualterae proportiones
-        continuae, tertius in ordine duplorum sumatur numerus, idest octonarius, ad quem duodenarius
-        sesqualter est, et, ad hunc, XVIII, ad quem XXVII; et ibi cessat huius proportionis
-        continuatio, cum sit numerus impar propter causam dictam. Consimili modo, si quattuor
-        quaerantur tales continuae proportiones, quartus sumatur numerus duplex, scilicet XVI; si
-        quinque, quintus, scilicet XXXII; si sex, sextus, scilicet LXIIII; et sic, in infinitum,
-        possent multiplicari proportiones sesqualterae continuae. Sufficiat autem exemplum de hoc
-        ponere usque ad quintum duplum sic:</p>
+      <p xml:id="JACSP1B0277">Quantum ad primam artem, primo declaremus qualiter sesqualterae
+        continuae proportiones possint multiplicari et quot quis voluerit reperiri. Disponantur
+        igitur numeri duplices secundum ordinem suum immediatum et naturalem sic: 1 2 4 8 16 32, et
+        cetera. Qui igitur hunc vult unam solam sesqualteram proportionem, primum sumat duplicem in
+        actu, ille est binarius ad quem trinarius sesqualter, nec ulterius potest illa sesqualtera
+        continuari proportio quia trinarius medietate caret; indivisibilis est enim in duas partes
+        aequales, ideo subsesqualter esse non potest. Si vero duae quaerantur proportiones
+        sesqualterae continuae, secundus duplex in actu sumatur, scilicet quaternarius; ad ipsum
+        enim senarius sesqualter est, et, ad senarium, novenarius, ad quem nullus numerus sesqualter
+        potest esse, quia caret medietate. Generaliter enim loquendo: nullus numerus impar potest
+        esse subsesqualter, quia in duas partes aequales dividi non potest, et, per consequens,
+        omnis numerus par potest esse subsesqualter. Sesqualterorum vero alii sunt pares, alii
+        impares. Ad ipsos enim requiritur quod divisibiles sint in tres partes aequales, et hoc
+        potest competere tam paribus quam imparibus numeris. Quod si quaerantur tres sesqualterae
+        proportiones continuae, tertius in ordine duplorum sumatur numerus, idest octonarius, ad
+        quem duodenarius sesqualter est, et, ad hunc, XVIII, ad quem XXVII; et ibi cessat huius
+        proportionis continuatio, cum sit numerus impar propter causam dictam. Consimili modo, si
+        quattuor quaerantur tales continuae proportiones, quartus sumatur numerus duplex, scilicet
+        XVI; si quinque, quintus, scilicet XXXII; si sex, sextus, scilicet LXIIII; et sic, in
+        infinitum, possent multiplicari proportiones sesqualterae continuae. Sufficiat autem
+        exemplum de hoc ponere usque ad quintum duplum sic:</p>
       <p xml:id="JACSP1B0278">
         <pb n="[218]"/>[CSMIII/1:218; text: Latitudo, Longitudo, Angularitas, 1, 2, 4, 8, 16, 32, 3,
         6, 12, 24, 48, 9, 18, 36, 72, 27, 54, 108, 81, 162, 243] <figure>
           <graphic url="/images/JACSP1B_10GF.gif"/>
         </figure></p>
-      <p xml:id="JACSP1B0279">Notandum est hic, primo, clarum esse sesqualteros ex duplicibus procreari.
-        Secundo, potest hic notari quod, sicut in ordine latitudinis numerus maior ad terminum sibi
-        proximum duplex est, ut 32 ad 16 et iste ad 8, qui ad 4, qui ad binarium, qui ad unitatem,
-        similiter in ceteris lineis lateralibus. Et, sicut in ordine longitudinis qui directe vadit
-        ab inferiore ad superius, vel e converso, maior minori sibi vicino sesqualter est, ut
-        trinarius binario, et, quantum ad aliam longitudinis | [P2, 45v in marg.] lineam, novenarius
-        senario, qui quaternario, sic de aliis longitudinis lineis. Sic in ordine angularitatis
-        maior ad sibi proximum triplex est, ut trinarius unitati, novenarius trinario, cui 27, cui
-        81, cui 243; similiter et in aliis lineis angularibus. Adhuc si quis consideret, potest
-        invenire unum alium modum angularitatis secundum quem unus ad alium sesquitertius est, ut 4
-        ad 3, octonarius ad senarium, 16 ad 12, qui numerus 12 ad novenarium similiter sesquitertius
-        est, et sic de ceteris.</p>
+      <p xml:id="JACSP1B0279">Notandum est hic, primo, clarum esse sesqualteros ex duplicibus
+        procreari. Secundo, potest hic notari quod, sicut in ordine latitudinis numerus maior ad
+        terminum sibi proximum duplex est, ut 32 ad 16 et iste ad 8, qui ad 4, qui ad binarium, qui
+        ad unitatem, similiter in ceteris lineis lateralibus. Et, sicut in ordine longitudinis qui
+        directe vadit ab inferiore ad superius, vel e converso, maior minori sibi vicino sesqualter
+        est, ut trinarius binario, et, quantum ad aliam longitudinis | [P2, 45v in marg.] lineam,
+        novenarius senario, qui quaternario, sic de aliis longitudinis lineis. Sic in ordine
+        angularitatis maior ad sibi proximum triplex est, ut trinarius unitati, novenarius trinario,
+        cui 27, cui 81, cui 243; similiter et in aliis lineis angularibus. Adhuc si quis consideret,
+        potest invenire unum alium modum angularitatis secundum quem unus ad alium sesquitertius
+        est, ut 4 ad 3, octonarius ad senarium, 16 ad 12, qui numerus 12 ad novenarium similiter
+        sesquitertius est, et sic de ceteris.</p>
       <p xml:id="JACSP1B0280">Si quis autem sesquitertias proportiones continuas cupit reperire
         triplices ex quibus, ut visum est, oriuntur, sic statuat: 1 3 9 27 81 243. Et possent poni
         plures, prout plures tales proportiones continuas vellet reperire. Qui igitur unam tantum
@@ -1817,8 +1825,8 @@
         si tres, tertium sumas, scilicet 27; si quattuor, quartum statuas, scilicet 81; si quinque,
         quintum ordines, scilicet 243; sic de aliis; et si sic facias, indubitanter, quod quaeris,
         invenies, ut usque ad quinque subscripta monstrat figura:</p>
-      <p xml:id="JACSP1B0281">[CSMIII/1:219,1; text: Latitudo, Longitudo, Angularitas, 1, 3, 9, 27, 81,
-        243, 4, 12, 36, 108, 324, 16, 48, 144, 432, 64, 192, 476, 256, 768, 1024]</p>
+      <p xml:id="JACSP1B0281">[CSMIII/1:219,1; text: Latitudo, Longitudo, Angularitas, 1, 3, 9, 27,
+        81, 243, 4, 12, 36, 108, 324, 16, 48, 144, 432, 64, 192, 476, 256, 768, 1024]</p>
       <p xml:id="JACSP1B0282">In hac tacta descriptione patet non solum illud ad quod principaliter
         posita est, sed et multa alia, ut quod ex triplis oriantur sesquitertii, quod in linea
         latitudinis maior numerus ad minorem sibi proximiorem triplex est, in linea longitudinis
@@ -1828,11 +1836,11 @@
         reperies, ut declarat sequens descriptio:</p>
       <p xml:id="JACSP1B0284">[CSMIII/1:219,2; text: Latitudo, Longitudo, Angularitas, 1, 4, 16, 64,
         246, 1024, 5, 20, 80, 320, 1280, 25, 100, 400, 1600, 125, 500, 2000, 625, 2500, 3125]</p>
-      <p xml:id="JACSP1B0285">In hac descriptione possunt notari consimilia quae in praedictis notata
-        sunt, scilicet quod ex quadruplis generentur sesquiquarti, quod, in linea latitudinis, maior
-        ad sibi proximum minorem est quadruplus, in longitudine vero sesquiquartus, sed in
-        angularitate quintuplus et, in alio modo angularitatis, triplex sesquiquintus (patet inter
-        16 et 5, inter 64 et 20).</p>
+      <p xml:id="JACSP1B0285">In hac descriptione possunt notari consimilia quae in praedictis
+        notata sunt, scilicet quod ex quadruplis generentur sesquiquarti, quod, in linea
+        latitudinis, maior ad sibi proximum minorem est quadruplus, in longitudine vero
+        sesquiquartus, sed in angularitate quintuplus et, in alio modo angularitatis, triplex
+        sesquiquintus (patet inter 16 et 5, inter 64 et 20).</p>
       <p xml:id="JACSP1B0286">
         <pb n="[220]"/>Adhuc apparet ibi quod omnes extremi, in lineis longitudinis, inferius
         descendendo, terminantur | [P1, 34v in marg.] in quinarium qui fuit sesquiquartus. Similiter
@@ -1849,8 +1857,8 @@
         ditonus, tritonus, sic de aliis consonantiis ex puris integris tonis compositis. Per hoc
         etiam probari potest quod diapason non continet in se sex integros tonos, sed superant sex
         integri toni diapason in commate, ut infra probabitur.</p>
-      <p xml:id="JACSP1B0287">Ideo de continuis | [P2, 46r in marg.] sesquioctavis proportionibus, usque
-        ad sex, exemplum subiecimus:</p>
+      <p xml:id="JACSP1B0287">Ideo de continuis | [P2, 46r in marg.] sesquioctavis proportionibus,
+        usque ad sex, exemplum subiecimus:</p>
       <p xml:id="JACSP1B0288">[CSMIII/1:220; text: Latitudo, Longitudo, Angularitas, 1, 8, 64, 512,
         4096, 32768, 262144, 9, 72, 575, 4608, 36864, 294912, 81, 648, 5184, 41472, 331776, 729,
         5832, 46646, 373248, 6561, 52488, 419904, 59049, 472392, 531441] <figure>
@@ -1866,20 +1874,21 @@
         72, in quantum est sesquioctavus, divisibilis est in 9 partes aequales, quia debet alium
         continere totum et eius octavam partem; et, in quantum est sub sesquioctavus ad alium
         numerum, divisibilis est in octo partes aequales.</p>
-      <p xml:id="JACSP1B0290">Ubicumque igitur venitur in distinctis octuplis ad numerum indivisibilem
-        in octo partes aequales, cessat continuatio sesquioctavae proportionis; repugnat autem
-        numero impari dividi in octo partes aequales. Ideo, ut apparet in proposita descriptione,
-        omnes enim ultimi, in quibus cessat continuatio sesquioctavae proportionis, impares sunt
-        termini.</p>
-      <p xml:id="JACSP1B0291">Item, per praedictam descriptionem, patet sesquioctavos nasci ex octuplis.
-        Item ibidem sicut, in linea latitudinis, maior ad minorem sibi proximum octuplus est, sic,
-        in linea longitudinis, maior ad minorem sesquioctavus est; in angularitate vero, maior ad
-        minorem nuncuplus est, ut novenarius ad unitatem, 81 ad novenarium; in alio autem modo
-        angularitatis, maior ad minorem est septemcuplus sesquinonus, ut se habent 64 ad 9, 512 ad
-        72.</p>
+      <p xml:id="JACSP1B0290">Ubicumque igitur venitur in distinctis octuplis ad numerum
+        indivisibilem in octo partes aequales, cessat continuatio sesquioctavae proportionis;
+        repugnat autem numero impari dividi in octo partes aequales. Ideo, ut apparet in proposita
+        descriptione, omnes enim ultimi, in quibus cessat continuatio sesquioctavae proportionis,
+        impares sunt termini.</p>
+      <p xml:id="JACSP1B0291">Item, per praedictam descriptionem, patet sesquioctavos nasci ex
+        octuplis. Item ibidem sicut, in linea latitudinis, maior ad minorem sibi proximum octuplus
+        est, sic, in linea longitudinis, maior ad minorem sesquioctavus est; in angularitate vero,
+        maior ad minorem nuncuplus est, ut novenarius ad unitatem, 81 ad novenarium; in alio autem
+        modo angularitatis, maior ad minorem est septemcuplus sesquinonus, ut se habent 64 ad 9, 512
+        ad 72.</p>
       <p xml:id="JACSP1B0292">Alia possent ibi notari quae dimitto.</p>
       <p xml:id="JACSP1B0293">Capitulum LXXVI.</p>
-      <p xml:id="JACSP1B0294">Regula secunda vel ars multiplicandi proportiones superparticulares.</p>
+      <p xml:id="JACSP1B0294">Regula secunda vel ars multiplicandi proportiones
+        superparticulares.</p>
       <p xml:id="JACSP1B0295">Ponit autem Boethius, libro secundo Musicae suae, modum alium augendi
         continuas superparticulares proportiones qui radices proportionum aspicit
         superparticularium. <pb n="[222]"/>Sunt autem radices, ut prius tactum est, numeri primi et
@@ -1892,8 +1901,8 @@
         sunt 6, et sic disponantur 4 6. Rursus trinarius crescat se ipso, idest trinario, et sunt 9.
         Et hi, cum suis radicibus, ordinentur sic:</p>
       <p xml:id="JACSP1B0296">[CSMIII/1:222,1; text: 2, 3, 4, 6, 9]</p>
-      <p xml:id="JACSP1B0297">Patet hic duas sesqualteras continuas proportiones esse procreatas. Sit
-        nunc propositum tres tales reperire proportiones continuas ad hoc habendum; praedicta
+      <p xml:id="JACSP1B0297">Patet hic duas sesqualteras continuas proportiones esse procreatas.
+        Sit nunc propositum tres tales reperire proportiones continuas ad hoc habendum; praedicta
         numerorum statuatur descriptio quae, in exquirendis duabus tactis proportionibus, posita
         est, et sic fiat de tribus terminis | [P2, 46v in marg.] duarum proportionum repertarum,
         qualiter factum fuit de duobus primis terminis radicalibus. Multiplicetur igitur
@@ -1901,16 +1910,17 @@
         novenarius crescat binario, et sunt 18; rursus, novenarius multiplicetur trinario, et erunt
         27. Hi, cum praescriptis, iungantur sic:</p>
       <p xml:id="JACSP1B0298">[CSMIII/1:222,2; text: 2, 3, 4, 6, 9, 8, 12, 18, 27]</p>
-      <p xml:id="JACSP1B0299">Consimili modo, ex quattuor terminis trium sesqualterarum proportionum,
-        produci possent quinque alii termini inter quos essent quattuor sesqualterae proportiones |
-        [P1, 35r in marg.] continuae, et ex quinque sex, et ex sex septem, et sic in <pb n="[223]"/>infinitum, hoc semper observando ut quilibet terminorum, usque ad ultimum, multiplicetur
-        binario solum, et summa proveniens inde subscribatur. Ultimus autem terminus bis est
-        multiplicandus primo binario, et summa proveniens subscribenda est; deinde, trinario, et
-        illius summa convenienter est ponenda; et sic semper ex ultimo termino, duo nascuntur
-        termini. Et de hoc modo multiplicandi sesqualteras proportiones continuas usque ad sex
-        exemplum subiecimus:</p>
-      <p xml:id="JACSP1B0300">[CSMIII/1:223; text: Latitudo, Longitudo, Angularitas, 2, 3, 4, 6, 9, 8,
-        12, 18, 27, 16, 24, 36, 54, 81, 32, 48, 72, 108, 162, 243, 64, 96, 144, 216, 324, 486,
+      <p xml:id="JACSP1B0299">Consimili modo, ex quattuor terminis trium sesqualterarum
+        proportionum, produci possent quinque alii termini inter quos essent quattuor sesqualterae
+        proportiones | [P1, 35r in marg.] continuae, et ex quinque sex, et ex sex septem, et sic in
+          <pb n="[223]"/>infinitum, hoc semper observando ut quilibet terminorum, usque ad ultimum,
+        multiplicetur binario solum, et summa proveniens inde subscribatur. Ultimus autem terminus
+        bis est multiplicandus primo binario, et summa proveniens subscribenda est; deinde,
+        trinario, et illius summa convenienter est ponenda; et sic semper ex ultimo termino, duo
+        nascuntur termini. Et de hoc modo multiplicandi sesqualteras proportiones continuas usque ad
+        sex exemplum subiecimus:</p>
+      <p xml:id="JACSP1B0300">[CSMIII/1:223; text: Latitudo, Longitudo, Angularitas, 2, 3, 4, 6, 9,
+        8, 12, 18, 27, 16, 24, 36, 54, 81, 32, 48, 72, 108, 162, 243, 64, 96, 144, 216, 324, 486,
         729]</p>
       <p xml:id="JACSP1B0301">Hic autem si aliquis advertat, inveniet ut, sicut lateralium maior ad
         minorem sibi propinquum sesqualter est, sic angularium unus reliquo duplex est, et, secundum
@@ -1932,10 +1942,10 @@
       <p xml:id="JACSP1B0302">[CSMIII/1:224; text: 3, 4, 6, 8, 12] <figure>
           <graphic url="/images/JACSP1B_12GF.gif"/>
         </figure></p>
-      <p xml:id="JACSP1B0303">Patet hic quod, ex multiplicatione radicis sesquitertiae, non proveniunt
-        duae sesquitertiae proportiones continuae, licet sit hic observatus ille idem modus quem
-        observavimus in multiplicatione terminorum radicis sesqualterae. Et consimiliter quis
-        deficeret, si tactum teneret modum in sesquiquartis, sesquisextis et ceteris
+      <p xml:id="JACSP1B0303">Patet hic quod, ex multiplicatione radicis sesquitertiae, non
+        proveniunt duae sesquitertiae proportiones continuae, licet sit hic observatus ille idem
+        modus quem observavimus in multiplicatione terminorum radicis sesqualterae. Et consimiliter
+        quis deficeret, si tactum teneret modum in sesquiquartis, sesquisextis et ceteris
         superparticularibus proportionibus multiplicandis. Quare ergo dicit Boethius: Atque hic
         modus erit in ceteris, qui scilicet observatus est in radicibus sesqualteris. Et dicendum ad
         hoc quod, sicut, in augendis proportionibus sesqualteris, statutis terminis radicalibus
@@ -1969,8 +1979,8 @@
         et sunt 36; tertio, 16 crescant trinario, et sunt 48; rursus sedecim multiplicentur
         quaternario, et fiunt 64. Et hi termini cum praedictis ordinentur hoc modo, et alii usque ad
         quinque tales proportiones habendas:</p>
-      <p xml:id="JACSP1B0307">[CSMIII/1:225,2; text: Latitudo, Longitudo, Angularitas, 3, 4, 9, 12, 16,
-        27, 36, 48, 64, 81, 108, 144, 192, 256, 243, 324, 432, 576, 768, 1024]</p>
+      <p xml:id="JACSP1B0307">[CSMIII/1:225,2; text: Latitudo, Longitudo, Angularitas, 3, 4, 9, 12,
+        16, 27, 36, 48, 64, 81, 108, 144, 192, 256, 243, 324, 432, 576, 768, 1024]</p>
       <p xml:id="JACSP1B0308">
         <pb n="[226]"/>| [P1, 35v in marg.] Invenitur hic ut, sicut in linea latitudinis, sive
         transversali, maior terminus ad terminum sibi proximum minorem sesquitertius est, sic in
@@ -1995,30 +2005,30 @@
       <p xml:id="JACSP1B0309">Iam igitur, ut puto, satis expositus est tactus secundus modus
         multiplicandi proportiones superparticulares continuas, nisi quod hoc ipsum applicare | [P2,
         47v in marg.] volumus ad proportiones sesquioctavas, quia specialis utilitas iacet ibi.</p>
-      <p xml:id="JACSP1B0310">Sit igitur propositum, secundum hunc modum, duas reperire sesquioctavas
-        proportiones. Disponatur radix sesquioctava sic: 8 9. Multiplicetur octonarius se ipso,
-        idest octonario, dicendo. "Octies octo", et sunt 64; deinde crescat novenarius octonario, et
-        sunt 72; ad hoc crescat novenarius novenario, et sunt 81. Et hi cum terminis radicalibus
-        disponantur modo qui sequitur:</p>
+      <p xml:id="JACSP1B0310">Sit igitur propositum, secundum hunc modum, duas reperire
+        sesquioctavas proportiones. Disponatur radix sesquioctava sic: 8 9. Multiplicetur octonarius
+        se ipso, idest octonario, dicendo. "Octies octo", et sunt 64; deinde crescat novenarius
+        octonario, et sunt 72; ad hoc crescat novenarius novenario, et sunt 81. Et hi cum terminis
+        radicalibus disponantur modo qui sequitur:</p>
       <p xml:id="JACSP1B0311">
         <pb n="[227]"/>[CSMIII/1:227,1; text: 1, 8, 9 , 64, 72, 81] <figure>
           <graphic url="/images/JACSP1B_13GF.gif"/>
         </figure></p>
-      <p xml:id="JACSP1B0312">Quodsi tres quaeras sesquioctavas proportiones, circa tres terminos duarum
-        sesquioctavarum proportionum iam iuventarum, qui sunt: 64 72 81, operare sic: Multiplica
-        primum octonario, et sunt 512; crescat secundus terminus octonario et sunt 576; deinde
-        crescat terminus tertius octonario et sunt 648; rursum crescat ultimus terminus novenario,
-        et fiunt 729. Hi termini trium proportionum sesquioctavarum, cum praedictis, et alii, usque
-        ad sex tales proportiones continuas, descriptionem quae sequitur recipiant:</p>
-      <p xml:id="JACSP1B0313">[CSMIII/1:227,2; text: Latitudo, Longitudo, Angularitas,1, 8, 9, 64, 72,
-        81, 512, 576, 648, 729, 4096, 4608, 5184, 5832, 6561, 32768, 36864, 41472, 46656, 52488,
+      <p xml:id="JACSP1B0312">Quodsi tres quaeras sesquioctavas proportiones, circa tres terminos
+        duarum sesquioctavarum proportionum iam iuventarum, qui sunt: 64 72 81, operare sic:
+        Multiplica primum octonario, et sunt 512; crescat secundus terminus octonario et sunt 576;
+        deinde crescat terminus tertius octonario et sunt 648; rursum crescat ultimus terminus
+        novenario, et fiunt 729. Hi termini trium proportionum sesquioctavarum, cum praedictis, et
+        alii, usque ad sex tales proportiones continuas, descriptionem quae sequitur recipiant:</p>
+      <p xml:id="JACSP1B0313">[CSMIII/1:227,2; text: Latitudo, Longitudo, Angularitas,1, 8, 9, 64,
+        72, 81, 512, 576, 648, 729, 4096, 4608, 5184, 5832, 6561, 32768, 36864, 41472, 46656, 52488,
         59049, 262144, 294912, 331776, 373288, 419904, 472392, 531441]</p>
       <p xml:id="JACSP1B0314">Apparet in tacta descriptione quod, sicut numerorum, qui in linea sunt
         latitudinis, maior ad sibi proximum minorem sesquioctavus est, sic, in angularitate, quae a
         sinistris tendit sursum, maior ad minorem octuplus est; in angularitate vero, quae a dextris
         sursum tendit, maior ad minorem nuncuplus est, ut 81 ad novem.</p>
-      <p xml:id="JACSP1B0315">Ex his satis patet, ut opinor, studioso lectori duas tactas regulas, vias,
-        modos vel artes esse veras et generales ad inveniendum quales et quot quis voluerit
+      <p xml:id="JACSP1B0315">Ex his satis patet, ut opinor, studioso lectori duas tactas regulas,
+        vias, modos vel artes esse veras et generales ad inveniendum quales et quot quis voluerit
         superparticulares <pb n="[228]"/>proportiones. Sed illas Boethius, sicut nos fecimus, ad
         solas superparticulares applicat proportiones, quia utile multum est illas scire reperire
         et, nisi quis de hoc artem haberet, multum posset ibi laborare et de levi in errorem cadere.

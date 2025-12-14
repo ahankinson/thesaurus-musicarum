@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Liber musicae</title>
         <title type="abbrev">ANOLIBM</title>
-        <author>Anonymous</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>John Gray</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Oliver B. Ellsworth</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> G. Pannain, "Liber musicae. Un teorico anonimo del XIV secolo,"
             <emph>Rivista musicale Italiana</emph> 27 (1920): 409-40, 409–39. </bibl>
@@ -52,11 +62,11 @@
       <p xml:id="ANOLIBM0002">Decem sunt modi quorum tantum tres dicuntur consonantiae, scilicet
         diatesseron, diapente, diapason, et quaedam ab eis compositae, ut enim diapason diapente et
         bis diapason. De quibus cetero tractandum est.</p>
-      <p xml:id="ANOLIBM0003">Unde notandum quod diatesseron dicitur minor consonantia, diapente maior,
-        diapason maxima. Et nota quod consonantia est dissimilium inter se vocum in unum redacta
-        concordia. Unde Nicomachus: consonantiam non efficit vocum similitudo sed dissimilitudo.
-        Item diatesseron de quattuor sonat. Unde Boetius: diatesseron est vocum quattuor,
-        intervallorum vero trium. Nota quod intervallorum dicitur acuti soni gravisque
+      <p xml:id="ANOLIBM0003">Unde notandum quod diatesseron dicitur minor consonantia, diapente
+        maior, diapason maxima. Et nota quod consonantia est dissimilium inter se vocum in unum
+        redacta concordia. Unde Nicomachus: consonantiam non efficit vocum similitudo sed
+        dissimilitudo. Item diatesseron de quattuor sonat. Unde Boetius: diatesseron est vocum
+        quattuor, intervallorum vero trium. Nota quod intervallorum dicitur acuti soni gravisque
         distantia.</p>
       <p xml:id="ANOLIBM0004">Item diatesseron constat et duobus tonis ex integro semitonio. Huius
         species aliae sunt formales, aliae sunt naturales. Naturales sunt quae naturali a tetracordo
@@ -76,10 +86,10 @@
         quartam acutarum, idest, inter g et d. Aliae dicuntur formales, quando non hoc ordine, sed
         alio formantur, quae tamen naturalium vim et similitudinem servant.</p>
       <p xml:id="ANOLIBM0007">Unde constet diapason.</p>
-      <p xml:id="ANOLIBM0008">Diapason maxima consonantiarum a graeco nomen accepit et dicitur diapason,
-        quasi de omnibus, sive quod omnes consonantias in se concludit, sive quod omnes vocum
-        varietates continet. Diapason quidem vocum est octo, intervallorum septem et constat ex
-        duabus consonantiis, scilicet diatesseron et diapente. Item alia est naturalis, alia
+      <p xml:id="ANOLIBM0008">Diapason maxima consonantiarum a graeco nomen accepit et dicitur
+        diapason, quasi de omnibus, sive quod omnes consonantias in se concludit, sive quod omnes
+        vocum varietates continet. Diapason quidem vocum est octo, intervallorum septem et constat
+        ex duabus consonantiis, scilicet diatesseron et diapente. Item alia est naturalis, alia
         formalis. Naturalis quinque sunt species. Prima est a prima gravium in primam acutarum,
         secunda a secunda gravium in secundam acutarum, tertia a tertia gravium in tertiam acutarum,
         quarta a prima finalium in ultima acutarum, quinta a secunda finalium in primam
@@ -108,17 +118,17 @@
         latus contingit, ut cui a gravibus sonat diatesseron ipsi etiam ab acutis respondeat
         diapente et e converso.</p>
       <p xml:id="ANOLIBM0011">De appositione consonantiarum in diatonico genere.</p>
-      <p xml:id="ANOLIBM0012">In hoc tractatu consonantiarum considerandum est quod quaedam consonantiae
-        consonantiis appositae alias quasdam efficiunt consonantias. Habuimus quod haec duae
-        consonantiae diatesseron et diapente coniunctae constituunt diapason quod Boetius hoc modo
-        demonstrat. Duo ad tria sesquialtera proportione quae est diapente et tria ad quattuor
+      <p xml:id="ANOLIBM0012">In hoc tractatu consonantiarum considerandum est quod quaedam
+        consonantiae consonantiis appositae alias quasdam efficiunt consonantias. Habuimus quod haec
+        duae consonantiae diatesseron et diapente coniunctae constituunt diapason quod Boetius hoc
+        modo demonstrat. Duo ad tria sesquialtera proportione quae est diapente et tria ad quattuor
         sesquitercia proportione, <pb n="[412]"/>quae est diatesseron, constituunt duplam quae
         dicitur diapason.</p>
       <p xml:id="ANOLIBM0013">Item in cromatico genere.</p>
-      <p xml:id="ANOLIBM0014">Item considerandum est quod si huic duple in diapason coniungatur diapente
-        fit consonantia quae ex utrisque vocabulis nuncupatur diapason cum diapente. Unde idem
-        Boetius in primo: si diapason se habet ut duo ad quattuor, diapente vero ut quattuor ad sex
-        triplam facient symphoniam quae est diapason cum diapente.</p>
+      <p xml:id="ANOLIBM0014">Item considerandum est quod si huic duple in diapason coniungatur
+        diapente fit consonantia quae ex utrisque vocabulis nuncupatur diapason cum diapente. Unde
+        idem Boetius in primo: si diapason se habet ut duo ad quattuor, diapente vero ut quattuor ad
+        sex triplam facient symphoniam quae est diapason cum diapente.</p>
       <p xml:id="ANOLIBM0015">Item de enarmonico genere.</p>
       <p xml:id="ANOLIBM0016">Item nota, si huic triple addatur diatesseron, fiet quadrupla. Unde
         Pythagoras: Bis diapason quadrupla collatione perficitur. Boetius de eodem: Duo ad quattuor
@@ -158,13 +168,13 @@
         intensionem et remissionem in se concludit.</p>
       <p xml:id="ANOLIBM0021">
         <pb n="[414]"/>Quomodo sonus constituat notam et nota neumas.</p>
-      <p xml:id="ANOLIBM0022">Quoniam huius artis utiliora prelibavimus, consequenter ad totius operis
-        constitutionem, quod sit nota, quod neuma degustare studeamus. Unde notandum est quod quam
-        admodum in metris sunt licterae et sillabae, dictiones, distinctiones et versus et sicut
-        licterae constituunt sillabam, sillabae dictiones, dictiones distinctiones et versus, ita in
-        symphonia sunt toni, notae, neumae et pausationes, verbi gratia, unus sonus vel plures
-        faciunt notam. Notarum vero alia simplex, alia repercussa, alia composita. Ita ex sonis
-        constat nota, ex notis neuma, ex neumis pausationes. Unde Guido: Neuma est sub una
+      <p xml:id="ANOLIBM0022">Quoniam huius artis utiliora prelibavimus, consequenter ad totius
+        operis constitutionem, quod sit nota, quod neuma degustare studeamus. Unde notandum est quod
+        quam admodum in metris sunt licterae et sillabae, dictiones, distinctiones et versus et
+        sicut licterae constituunt sillabam, sillabae dictiones, dictiones distinctiones et versus,
+        ita in symphonia sunt toni, notae, neumae et pausationes, verbi gratia, unus sonus vel
+        plures faciunt notam. Notarum vero alia simplex, alia repercussa, alia composita. Ita ex
+        sonis constat nota, ex notis neuma, ex neumis pausationes. Unde Guido: Neuma est sub una
         prolatione competens notarum copulatio. Plures vero neumae in cantu efficiunt pausationem in
         congruum respirationis locum. Hoc modo comparatur symphonia metris. Unde Guido: Non prava
         similitudo est metris et cantibus, cum notae sint loco sillabarum. neumae loco dictionum,
@@ -219,9 +229,10 @@
         agnitione docuimus. Posmodum vero de ipsorum qualitate iudicio et corretione lenius
         tractaturi sumus.</p>
       <p xml:id="ANOLIBM0028">Quid sint toni et unde dicti.</p>
-      <p xml:id="ANOLIBM0029">Animadvertendum est quam quos Boetius tropos, Guido modos, Graeci ptongos,
-        nos, secundum Johannem, tonos appellamus. Quae autem tropi vel modi vel ptongi vel toni
-        discantur videamus. Tropi a conversione dicuntur quia ubicumque cantus <pb n="[419]"/>incipiatur et quomodocumque in cursu varietur semper ad finalem suum per tropos, idest,
+      <p xml:id="ANOLIBM0029">Animadvertendum est quam quos Boetius tropos, Guido modos, Graeci
+        ptongos, nos, secundum Johannem, tonos appellamus. Quae autem tropi vel modi vel ptongi vel
+        toni discantur videamus. Tropi a conversione dicuntur quia ubicumque cantus <pb n="[419]"
+        />incipiatur et quomodocumque in cursu varietur semper ad finalem suum per tropos, idest,
         per tonos convenienti conversione convertitur. Unde Guido: Tropus est species cantionis qui
         et modus dictus est. Boetius de eodem: Tropi sunt constitutiones in totis vocum ordinibus
         gravitate vel acumine differentes. Institutio autem in musica dicitur plenum modulationis
@@ -260,8 +271,8 @@
         dicemus.</p>
       <p xml:id="ANOLIBM0032">
         <pb n="[421]"/>De diversis vocabulis et interpretationibus tonorum.</p>
-      <p xml:id="ANOLIBM0033">Quattuor modi antiquorum qui sunt prothus, deuterus, tritus, tetrardus a
-        modernis in octo partiti sunt, quorum quattuor dicuntur autenti, quorum quattuor plagales,
+      <p xml:id="ANOLIBM0033">Quattuor modi antiquorum qui sunt prothus, deuterus, tritus, tetrardus
+        a modernis in octo partiti sunt, quorum quattuor dicuntur autenti, quorum quattuor plagales,
         verbi gratia, autentus protus, latine primus tonus dicitur, plagis prothi secundus, autentus
         deuterus tertius, plagis deuteri quartus, autentus tritus quintus, plagis triti sextus,
         autentus tetrardus septimus, plagis tetrardi octavus. Item considerandum quod Graeci
@@ -281,9 +292,9 @@
         Sed qui differant dictione vel sillaba sed dicuntur differentiae eo quod differant tantum in
         intensione et remissione a suo tono.</p>
       <p xml:id="ANOLIBM0034">De qualitate tonorum.</p>
-      <p xml:id="ANOLIBM0035">Primus tonus dicitur mobilis et habilis eo quod ad omnis effectus aptus
-        sit. Secundus gravius et flebilis quia modulatio eius convenienter videtur tristibus et
-        miseris. Tertius dicitur severus et incitabilis in cursu suo, fractos habens saltus, per
+      <p xml:id="ANOLIBM0035">Primus tonus dicitur mobilis et habilis eo quod ad omnis effectus
+        aptus sit. Secundus gravius et flebilis quia modulatio eius convenienter videtur tristibus
+        et miseris. Tertius dicitur severus et incitabilis in cursu suo, fractos habens saltus, per
         hunc modum quem plurimi provocantur ad furiam. Unde Boetius: <pb n="[422]"/>Quia Pythagoras
         adolescentem quidam tertii modi sono incitatum, per secundum reddiderit minorem. Quartus
         describitur blandus et garrulus qui maxime adulatoribus convenit. Quintus modestus et
@@ -292,34 +303,34 @@
         lacrimas. Septimus dicitur lascivus et iucundus varios homines saltus et esse modus
         adolescentiae. Octavus suavis et morosus et esse modus discretorum.</p>
       <p xml:id="ANOLIBM0036">De naturali musica et vi tonorum.</p>
-      <p xml:id="ANOLIBM0037">In superiori tractatu dictum est musicam non parvam vim habere commovendi
-        animos audentium. Unde Boetius dicit musicam ita naturaliter nobis esse coniunctam ut si ea
-        quidem carere velimus non possimus. Idem de eodem idem nimirum scientes quod tota animae
-        nostrae corporis compago musica coaptatione coniuncta sit. Unde considerandum quod licet
-        omnes naturaliter simus musici. Non equidem eiusdem simus modi. Errat quisque suo more quia
-        qui asperiores sunt asperioribus utuntur modis. Qui mansueti mediocribus. Qui vero lascivi
-        mollibus et iucundis ita quisque delectatur suo modo. Unde Aristoxenus: Lascivus animus
-        lascivioribus utuntur modis sive delectatur modis. Aspera vero ruens duris et incitatioribus
-        asperatur. Unde nequid fieri ut mollia duris vel duri mollioribus annectentur congaudeant
-        sed amorem delectationemque similitudo conciliat. Unde Boetius: Amica est similitudo
-        dissimilitudo autem odiosa atque <pb n="[423]"/>contraria. Secundum hanc vero rationem in
-        quolibet homine notandum videtur cuius toni sit, idest, quis tonus ipse cognat. Unde
-        Boetius: Ut sese corporis habet affectus ita etiam pullus cordis motibus incitantur. Guido
-        de eodem: Congrue diversitas modorum diversitati mentium coaptatur quia unus autenti deuteri
-        fractis saltibus incitatur. Alteri eisdem plagalis garrulitas placet. Alius plagalis triti
-        diligit voluptatem alteri plagalis tetrardi probat suavitatem et simile de reliquis. Item
-        Johannes de eodem: Diversi diversis delectantur tonis. Alios namque mobilis evagatio primi
-        delectat. Alios secundi gravitas iuvat. Alios tertii incitatio capit. Alios quarti
-        garrulitas at[t]rahit. Quidam modesta voce quinti movetur. Quidam lacrimosa voce sexti
-        mulcentur. Alii varios saltus septimi gratanter audiunt. Alius decentem et morosum octavi
-        canorem diligit. Nos vero dicimus non esse mirandum si diversis sonis delectentur audire cum
-        variis coloribus gratuletur visus et variis odoribus foveatur olfatus mutatisque saporibus
-        lingua congaudeat.</p>
+      <p xml:id="ANOLIBM0037">In superiori tractatu dictum est musicam non parvam vim habere
+        commovendi animos audentium. Unde Boetius dicit musicam ita naturaliter nobis esse
+        coniunctam ut si ea quidem carere velimus non possimus. Idem de eodem idem nimirum scientes
+        quod tota animae nostrae corporis compago musica coaptatione coniuncta sit. Unde
+        considerandum quod licet omnes naturaliter simus musici. Non equidem eiusdem simus modi.
+        Errat quisque suo more quia qui asperiores sunt asperioribus utuntur modis. Qui mansueti
+        mediocribus. Qui vero lascivi mollibus et iucundis ita quisque delectatur suo modo. Unde
+        Aristoxenus: Lascivus animus lascivioribus utuntur modis sive delectatur modis. Aspera vero
+        ruens duris et incitatioribus asperatur. Unde nequid fieri ut mollia duris vel duri
+        mollioribus annectentur congaudeant sed amorem delectationemque similitudo conciliat. Unde
+        Boetius: Amica est similitudo dissimilitudo autem odiosa atque <pb n="[423]"/>contraria.
+        Secundum hanc vero rationem in quolibet homine notandum videtur cuius toni sit, idest, quis
+        tonus ipse cognat. Unde Boetius: Ut sese corporis habet affectus ita etiam pullus cordis
+        motibus incitantur. Guido de eodem: Congrue diversitas modorum diversitati mentium coaptatur
+        quia unus autenti deuteri fractis saltibus incitatur. Alteri eisdem plagalis garrulitas
+        placet. Alius plagalis triti diligit voluptatem alteri plagalis tetrardi probat suavitatem
+        et simile de reliquis. Item Johannes de eodem: Diversi diversis delectantur tonis. Alios
+        namque mobilis evagatio primi delectat. Alios secundi gravitas iuvat. Alios tertii incitatio
+        capit. Alios quarti garrulitas at[t]rahit. Quidam modesta voce quinti movetur. Quidam
+        lacrimosa voce sexti mulcentur. Alii varios saltus septimi gratanter audiunt. Alius decentem
+        et morosum octavi canorem diligit. Nos vero dicimus non esse mirandum si diversis sonis
+        delectentur audire cum variis coloribus gratuletur visus et variis odoribus foveatur olfatus
+        mutatisque saporibus lingua congaudeat.</p>
       <p xml:id="ANOLIBM0038">De finalibus tonorum.</p>
-      <p xml:id="ANOLIBM0039">Octo tonorum proprie quattuor sunt finales, scilicet D.E.F.G. et equidem D
-        finalis primi et secundi, E finalis tertii et quarti, F finalis quinti et sexti, G finalis
-        septimi et octavi. Proprie ideo diximus quia et alias finales interdum cantus sibi usurpat
-        de quibus loco suo dicemus. Item considerandum est quod tota vis cantuum ad finales
+      <p xml:id="ANOLIBM0039">Octo tonorum proprie quattuor sunt finales, scilicet D.E.F.G. et
+        equidem D finalis primi et secundi, E finalis tertii et quarti, F finalis quinti et sexti, G
+        finalis septimi et octavi. Proprie ideo diximus quia et alias finales interdum cantus sibi
+        usurpat de quibus loco suo dicemus. Item considerandum est quod tota vis cantuum ad finales
         respicit, ubicumque cantus incipiatur et quomodocumque in cursu varietur. Semper illi toto
         ad iudicandum est in cursu finali rariter cessaverit. Et sciendum quod haud incongrue
         musicorum previdentiae visum est uti modorum considerationem fini attribuerent. Cum in
@@ -329,35 +340,37 @@
         secundum finem indicitur.</p>
       <p xml:id="ANOLIBM0040">
         <pb n="[424]"/>De gloria et tenoribus tonorum.</p>
-      <p xml:id="ANOLIBM0041">Tractaturi de tenoribus tonorum necessarium videtur. Ut primum de gloria
-        cuiuslibet toni ubi sit incipiendum lectorem <pb n="[425]"/>certum reddamus. Incipit enim
-        gloria secundi in C gravi, quarti in E finali, primi quinti et sexti in F finali, tertii et
-        octavi in G finali, septimi in b quadrata. De tenoribus tonorum considerandum est quod sicut
-        octo sunt toni ita octo eorumdem sunt tenores. Tenor enim a tenendo dicitur quia claves
-        modulationis tenet et ad cantum cognoscendum nobis additum est. Tenor vero in musica dicimus
-        loca illa ubi primam sillabam de saeculorum amen incipimus. Guido quando ultimae vocis moram
-        tenorem appellat sed prior ratio magis videtur autentica esse tenenda. Item notandum est
-        quod sicut fines octo tonorum quattuor attributae sunt, scilicet f. a. c. d. sed diverso
-        modo semper enim duorum tonorum finis ad unam notam respicit. Item duorum ad unam et sic de
-        ceteris. In tenoribus vero tonorum aliter accipiendum est nam tum unus in una consideratur
-        tum tres in una, verbi gratia, unus in una consideratur ut tenor secundi in f finali, tres
-        in una ut primi quarti et sexti in a acuta, item tertii quarti et octavi in c acuta, septimi
-        in d acuta. Et sciendum est quod non incongrue secundus tonus et septimus singulari loca
-        sibi vindicaverunt quod secundus maxime descendit, septimus vero prae omnibus ascendit.</p>
+      <p xml:id="ANOLIBM0041">Tractaturi de tenoribus tonorum necessarium videtur. Ut primum de
+        gloria cuiuslibet toni ubi sit incipiendum lectorem <pb n="[425]"/>certum reddamus. Incipit
+        enim gloria secundi in C gravi, quarti in E finali, primi quinti et sexti in F finali,
+        tertii et octavi in G finali, septimi in b quadrata. De tenoribus tonorum considerandum est
+        quod sicut octo sunt toni ita octo eorumdem sunt tenores. Tenor enim a tenendo dicitur quia
+        claves modulationis tenet et ad cantum cognoscendum nobis additum est. Tenor vero in musica
+        dicimus loca illa ubi primam sillabam de saeculorum amen incipimus. Guido quando ultimae
+        vocis moram tenorem appellat sed prior ratio magis videtur autentica esse tenenda. Item
+        notandum est quod sicut fines octo tonorum quattuor attributae sunt, scilicet f. a. c. d.
+        sed diverso modo semper enim duorum tonorum finis ad unam notam respicit. Item duorum ad
+        unam et sic de ceteris. In tenoribus vero tonorum aliter accipiendum est nam tum unus in una
+        consideratur tum tres in una, verbi gratia, unus in una consideratur ut tenor secundi in f
+        finali, tres in una ut primi quarti et sexti in a acuta, item tertii quarti et octavi in c
+        acuta, septimi in d acuta. Et sciendum est quod non incongrue secundus tonus et septimus
+        singulari loca sibi vindicaverunt quod secundus maxime descendit, septimus vero prae omnibus
+        ascendit.</p>
       <p xml:id="ANOLIBM0042">Quid sit intensio quid remissio.</p>
       <p xml:id="ANOLIBM0043">Quantum de cursu modorum dicendum restat quomodo cursum eorum vocemus
         discutiendum est. Cursum modorum sive tonorum dicimus legem quae sub certa regula
         cohercetur, scilicet quartus quisque tonus ascendere vel descendere quintus intendi vel
         remicti debeat. Sed quia cum cantus aut intenditur aut remictitur, ascensio vel descensio
         dici potest. Quid proprie vel intensio vel remissio sit, necessario distinguendum esse
-        videtur. Ascensionem et descensionem appellamus certam illam legem quantusquisque <pb n="[426]"/>tonus a finali suo in cursu descendat vel ascendat. Intensionem vero
+        videtur. Ascensionem et descensionem appellamus certam illam legem quantusquisque <pb
+          n="[426]"/>tonus a finali suo in cursu descendat vel ascendat. Intensionem vero
         remissionem Johannes notat per quanta vocum intervalla a finali suo quisque tonus principium
         habet.</p>
       <p xml:id="ANOLIBM0044">De regulari cursu modorum.</p>
-      <p xml:id="ANOLIBM0045">Dictum est de intensione et remissione, item de regulari cursu modorum et
-        licentiam proponamus. Ac differentiam autem autentorum vel plagalium considerandum est quod
-        omnis autentus a finali suo regulariter ascendit ad octavam quae est diapason, licenter ad
-        nonam vel ad decimam. Et nota quod licentiam a regula segregavimus quia voces quae per
+      <p xml:id="ANOLIBM0045">Dictum est de intensione et remissione, item de regulari cursu modorum
+        et licentiam proponamus. Ac differentiam autem autentorum vel plagalium considerandum est
+        quod omnis autentus a finali suo regulariter ascendit ad octavam quae est diapason, licenter
+        ad nonam vel ad decimam. Et nota quod licentiam a regula segregavimus quia voces quae per
         licentiam habentur quanto raro attingendae sunt. Quae vero per regulam conceduntur et quasi
         per regulam habentur. Item omnes autenti si necessarium fuerit tamen habent unum tonum
         subfinali, idest, descendit ad proximam quae est sub finali. Si necessarium dico et non per
@@ -388,8 +401,8 @@
         quemadmodum secundum ordinem semper duo toni idest, autentus et eius plagalis coherentur.
         Sic et eorum diapason connectuntur, ita videlicet ut in eis facile animadverti possit.</p>
       <p xml:id="ANOLIBM0049">Quid sit cursus modorum.</p>
-      <p xml:id="ANOLIBM0050">Quae supra dicta sunt necessarium determinanda videntur, scilicet, quomodo
-        accipiendum sit quod omnes autentos ad <pb n="[428]"/>octavas et plagales ad quintas
+      <p xml:id="ANOLIBM0050">Quae supra dicta sunt necessarium determinanda videntur, scilicet,
+        quomodo accipiendum sit quod omnes autentos ad <pb n="[428]"/>octavas et plagales ad quintas
         ascendere per hoc intelligitur quod sic alte potentiam ascendendi habeant si necessarium
         fuerit nec tamen cogent, regula est quod omnis cantus autentorum ad octavas ascendat vel
         plagalium canorum ad quintam pertingat: ut patet in hac antiphona primi toni: In tuo
@@ -411,14 +424,15 @@
         irrefutabili antiquitate. In quibus horum cantuum perturbatio fit tollerabiliter; sunt hii
         protus, deuterus, tritus. His musici idcirco legis transgressionem ignoscunt, quia habent
         affines voces per quas excusari possunt.</p>
-      <p xml:id="ANOLIBM0053">Affines sive affinales dicimus illas voces quae finalibus in remissione et
-        intensione, elevatione et depositione concordant. Verbi gratia D finalis cum a acuta, quae
-        enim eius affinalis intensione et remissione concordat, quia simili tono remictuntur et
-        semiditono intenduntur. Item E finali cum b quadrata eius affinali eodem modo concordat. Sic
-        et F finalis cum c acuta. Et nota quod affinales finalibus hoc modo concordant, licet minus
-        proprie tantum ex necessitate. Solus vero tetrardus delicti venia caret, quod non habet
-        affinalem ad quam recurrat. Unde sciendum quod si in eius cantu aliqua evenit aberratio
-        dicimus eam esse ex cantorum inscientia et corrigendam musicorum prudentia.</p>
+      <p xml:id="ANOLIBM0053">Affines sive affinales dicimus illas voces quae finalibus in
+        remissione et intensione, elevatione et depositione concordant. Verbi gratia D finalis cum a
+        acuta, quae enim eius affinalis intensione et remissione concordat, quia simili tono
+        remictuntur et semiditono intenduntur. Item E finali cum b quadrata eius affinali eodem modo
+        concordat. Sic et F finalis cum c acuta. Et nota quod affinales finalibus hoc modo
+        concordant, licet minus proprie tantum ex necessitate. Solus vero tetrardus delicti venia
+        caret, quod non habet affinalem ad quam recurrat. Unde sciendum quod si in eius cantu aliqua
+        evenit aberratio dicimus eam esse ex cantorum inscientia et corrigendam musicorum
+        prudentia.</p>
       <p xml:id="ANOLIBM0054">
         <pb n="[430]"/>De exemplis affinalium.</p>
       <p xml:id="ANOLIBM0055">Diximus quod in cantu praedictorum tonorum, scilicet prothi deuteri et
@@ -434,15 +448,16 @@
         Haec et his similia quisquis in affinalibus finalium cantaverit absque errore ad finem
         perveniet.</p>
       <p xml:id="ANOLIBM0056">De cantu componendo.</p>
-      <p xml:id="ANOLIBM0057">Inter ceteras musice artis utilitates quattuor proposuimus, scilicet, in
-        ignotum cantum cognoscere et de eius qualitate iudicare falsum corrigere et novum componere.
-        Haec tria scilicet de agnitione iudicio et correctione partim persecuti sumus. Nunc vero de
-        quarto, scilicet, cantus compositione ad ultimum capitulum huius voluminis, tractandum
-        distulimus. In cantu componendo diligenti musico considerandum est ut cuilibet materiae <pb n="[431]"/>modus cantandi conveniat. Proponat et enim musicus ex quibus superdictis
-        neumarum divisionibus tam decentem et inreprensibilem cantum componat ut secundum sensum
-        verborum varietur qualitas neumarum. Unde Guido: Haec ars notanda est tam in rationabili
-        varietate quantum in vocum disponsione. Hanc vero rationbilitatem, si quando in cantu
-        componendo minime comprehendimus, actamur quia haec ars non tanta legis necessitate
+      <p xml:id="ANOLIBM0057">Inter ceteras musice artis utilitates quattuor proposuimus, scilicet,
+        in ignotum cantum cognoscere et de eius qualitate iudicare falsum corrigere et novum
+        componere. Haec tria scilicet de agnitione iudicio et correctione partim persecuti sumus.
+        Nunc vero de quarto, scilicet, cantus compositione ad ultimum capitulum huius voluminis,
+        tractandum distulimus. In cantu componendo diligenti musico considerandum est ut cuilibet
+        materiae <pb n="[431]"/>modus cantandi conveniat. Proponat et enim musicus ex quibus
+        superdictis neumarum divisionibus tam decentem et inreprensibilem cantum componat ut
+        secundum sensum verborum varietur qualitas neumarum. Unde Guido: Haec ars notanda est tam in
+        rationabili varietate quantum in vocum disponsione. Hanc vero rationbilitatem, si quando in
+        cantu componendo minime comprehendimus, actamur quia haec ars non tanta legis necessitate
         constringitur, rationabilis quidam credatur quia quandoque mens in contrariis delectatur!
         Verum tamen Johannes dicit: Modulatori adnitendum est in quantum valet, uti hoc modo cantum
         moduletur. Ut quod verba sonant cantus exprimere videatur. Item in cantu componendo
@@ -464,7 +479,8 @@
         cantionis imitentur affectus. Ita videlicet Guido: ut in tristi materia graves sint neumae
         et in tranquillis iucundae. Et sic secundum diversitatem gentium ac mentium fiant varietates
         cantuum quia quod huic displicet ab alio laudatur. Unum oblectat consona, alterum probat
-        diversa. Ita quisque suo delectatur tono de qua diversitate in fine huius <pb n="[432]"/>tractatus plaenius dicemus. Item notandum quod cantuum alius est decens et morosus,
+        diversa. Ita quisque suo delectatur tono de qua diversitate in fine huius <pb n="[432]"
+        />tractatus plaenius dicemus. Item notandum quod cantuum alius est decens et morosus,
         senilis et severus, alias iuvenilis et lascivus, alias lamentabilis iustitiae aptus. In hiis
         vero cantibus regularitas et inregularitas consideranda est; quem decentem morosum dicimus
         praecipue regularis fiat quae eo in divino obsequio saepio utimur. Ceteri vero cantus et si
@@ -496,17 +512,17 @@
         considerandum est secundum qualitatem tonorum et diversitatem cantuum quae voces
         contingendae sunt libere, quae saepius, quae raro, quae nunquam, quod apertissime subiecta
         monstrat figura.</p>
-      <p xml:id="ANOLIBM0062">[Liber musicae, 433; text: Figura 2, cantus autenti proprie qui sint ue
-        plagalis et noua fingenti regimen dat formula talis, plagalis, autentus, I, II, III, IV, V,
-        VI, VII, VIII, [Gamma]a, dg, a[sqb], ab, ea, [sqb]c, Bc, f[sqb], cd, Gc, de, ef, [sqb]e, fg,
-        e, f, cf, ga, dg, aacc, numquam, sepe, raro, plaga prothus, plaga deuterus, plaga tritus,
-        plaga tetrardus, autentus prothus, autentus deuterus, autentus tritus, autentus tetrardus,
-        legi non potest] <figure>
+      <p xml:id="ANOLIBM0062">[Liber musicae, 433; text: Figura 2, cantus autenti proprie qui sint
+        ue plagalis et noua fingenti regimen dat formula talis, plagalis, autentus, I, II, III, IV,
+        V, VI, VII, VIII, [Gamma]a, dg, a[sqb], ab, ea, [sqb]c, Bc, f[sqb], cd, Gc, de, ef, [sqb]e,
+        fg, e, f, cf, ga, dg, aacc, numquam, sepe, raro, plaga prothus, plaga deuterus, plaga
+        tritus, plaga tetrardus, autentus prothus, autentus deuterus, autentus tritus, autentus
+        tetrardus, legi non potest] <figure>
           <graphic url="/images/ANOLIBM_02GF.gif"/>
         </figure></p>
       <p xml:id="ANOLIBM0063">De diaphonia</p>
-      <p xml:id="ANOLIBM0064">Erant primitus instrumenta musicae artis incerta canentium vero multitudo
-        sed caeca. Nullus enim hominum vocum differentias, <pb n="[434]"/>aut monochordi
+      <p xml:id="ANOLIBM0064">Erant primitus instrumenta musicae artis incerta canentium vero
+        multitudo sed caeca. Nullus enim hominum vocum differentias, <pb n="[434]"/>aut monochordi
         diminutionem, vel symphoniae descriptionem, vel armoniae considerationem ulla argumentatione
         collegerat. <pb n="[435]"/>Nec unquam quid certi de hac arte novisset si non divina bonitas
         mirabili quodam mitu eam quibus predecessoribus <pb n="[436]"/>nostris inspirasset. Habuimus
@@ -536,7 +552,8 @@
         alia composita, alia repetita, alia reciprocata. Item dictum est de tribus consonantiis quae
         constituunt diaphoniam. Ita videlicet ut dicantanti saepius in cursu frequenter in
         distinctione quarta vel quinta vel octava, corda subcedat. Verbi gratia Sit cantus in c,
-        discantus erit in f quae est quarta, sive in g quae est quinta, sive in c <pb n="[437]"/>quae est octava. Item si cantus in d, discantus erit in d, vel in a, vel in d (d1). Haec
+        discantus erit in f quae est quarta, sive in g quae est quinta, sive in c <pb n="[437]"
+        />quae est octava. Item si cantus in d, discantus erit in d, vel in a, vel in d (d1). Haec
         brevis regula de quibuslibet cordarum sit tenenda. Item componenti considerandum est quod si
         libet discantus cum cantu incipi licet vel in quinta vel in octava. Sed in quinta vel in
         octava hoc modo ut aliquantulus tenor fit in quarta vel in septima et inde progrediatur ad
@@ -560,16 +577,16 @@
         excepto b quadrato quod si in aliqua distinctione evenerit e subponendum [scolium: est
         dimictendum] ipsum b molle erit quia per diapente non concordat molle b sed quadratum.</p>
       <p xml:id="ANOLIBM0065">Differentia inter discantum et organum.</p>
-      <p xml:id="ANOLIBM0066">Item consideranda est differentia inter discantum et organum. Discantus
-        namque tamen in simplicibus notis vel <pb n="[438]"/>neumis discurrit, organum vero tum in
-        diversis. Unde organum componenti diligentius intuendum est de qualitate ipsius cantus ut
-        sit decens et morosus non habens neumas nimis diversas. Ut de universis pauciora et aptius
-        respondentia eligat. Superflua abiciat. Substrata suppleat, compressa resolvat, producta
-        nimia contrahat et nimis contracta distendat. Ut in utrisque decentes neumas neumarumque
-        copulationes efficiat. Item easdem distinctiones eadem initia habeant organum quae et data
-        sunt de discantu. Item organanti providendum est ut cum cantus moram fecerit in gravibus,
-        organum suspensum teneatur in acutis per diapason, deinde decens occursus fiat ab utrisque.
-        Si vero cantus ad acutas ascenderit tunc opus est ut organum minime in gravibus
+      <p xml:id="ANOLIBM0066">Item consideranda est differentia inter discantum et organum.
+        Discantus namque tamen in simplicibus notis vel <pb n="[438]"/>neumis discurrit, organum
+        vero tum in diversis. Unde organum componenti diligentius intuendum est de qualitate ipsius
+        cantus ut sit decens et morosus non habens neumas nimis diversas. Ut de universis pauciora
+        et aptius respondentia eligat. Superflua abiciat. Substrata suppleat, compressa resolvat,
+        producta nimia contrahat et nimis contracta distendat. Ut in utrisque decentes neumas
+        neumarumque copulationes efficiat. Item easdem distinctiones eadem initia habeant organum
+        quae et data sunt de discantu. Item organanti providendum est ut cum cantus moram fecerit in
+        gravibus, organum suspensum teneatur in acutis per diapason, deinde decens occursus fiat ab
+        utrisque. Si vero cantus ad acutas ascenderit tunc opus est ut organum minime in gravibus
         distinctionem faciat, sed discurrentibus sub celeritate vocibus cantum competenter redeundo
         subveniat et congruum respirationis locum faciat. Item a Guidone habemus quod cantus organo
         et organum cum cantu potest diversis neumis multiplicari si placuerit. Ad quod dicimus

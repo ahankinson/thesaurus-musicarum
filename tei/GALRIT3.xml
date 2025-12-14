@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Ritus canendi vetustissimus et novus, liber tertius</title>
         <title type="abbrev">GALRIT3</title>
-        <author>Johannes Gallicus dictus Carthusiensis seu de Mantua</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Johannes Gallicus dictus Carthusiensis seu de Mantua</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Luminita Florea Aluas</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1991</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1991">1991</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptorum de musica medii aevi nova series a Gerbertina altera</emph>, 4 vols., ed.
@@ -80,29 +90,29 @@
         omni genere modulandi istud minus semitonium, a primo non debeat magis quam ab aliis duobus
         sumere vocabulum? Et si dyatonicum fuerit, jam nullum est enarmonicum aut unum et idem
         erit.</p>
-      <p xml:id="GALRIT30005">[CSIV:329; text: * Istud primum tetracordum enarmonicum genus ponitur hic
-        in exemplum pro caeteris sequentibus, quod nunc est tam superfluum quam ignotum hominibus.
-        Primum tetracordum enarmonicum, Diatessaron, Semitonium minus, Hypatemeson, Dytonus,
-        Lycanosypaton, Diesis, Parhypatehypaton, Diesis, Hypatehypaton] <figure>
+      <p xml:id="GALRIT30005">[CSIV:329; text: * Istud primum tetracordum enarmonicum genus ponitur
+        hic in exemplum pro caeteris sequentibus, quod nunc est tam superfluum quam ignotum
+        hominibus. Primum tetracordum enarmonicum, Diatessaron, Semitonium minus, Hypatemeson,
+        Dytonus, Lycanosypaton, Diesis, Parhypatehypaton, Diesis, Hypatehypaton] <figure>
           <graphic url="/images/GALRIT3_01GF.gif"/>
         </figure></p>
       <p xml:id="GALRIT30006">Capitulum II.</p>
       <p xml:id="GALRIT30007">Tertium modulandi genus esse chromaticum.</p>
-      <p xml:id="GALRIT30008">Genus autem modulandi tertium ab eo, quod chroma dicitur, id est color,
-        chromaticum est appellatum. Nam sicut permutatae superficies in alterum transeunt colorem,
-        ita genus istud canendi tanquam color immutatus ab aliis differebat. Ejus vero tetracorda
-        per minus ac majus semitonium procedebant, uterumque per semidytonum in uno scilicet
-        intervalli positum: ita quod ab ypateypaton erat semper minus semitonium, et ab ea majus in
-        lycanosypaton, quod totum tonus est, a qua profecto lycanos in ypatemeson unius intervalli
-        semidytonas erat, qui diatessaron, et sic <pb n="[330]"/>in caeteris complebat. De hoc ergo
-        genere Boetius sic ait "Chroma autem, quod dicitur color, quasi jam ab hujus modi intentione
-        mutatio cantatur per semitonium, et semitonium ac tria semitonia. Tota enim", inquit
-        "diatessaron consonantia duorum tonorum est ac semitonii, sed non pleni". Atque post
-        paululum de enarmonico. Enarmonicum vero quidem magis coaptum est, quod cantatur in omnibus
-        tetracordis per dyesin et dyesin et dytonum. Dyesis autem est semitonii dimidium". Haec de
-        his Boetius. Cum non sit itaque tam eximio musico non credere, cui nec ipsa natura
-        discordat, sed quaecumque scribit approbat, absque dubio phantasticum illud Marchetti
-        semitonium omnino non est, quod de quatuor dyesibus velle fabricare praesumpsit et
+      <p xml:id="GALRIT30008">Genus autem modulandi tertium ab eo, quod chroma dicitur, id est
+        color, chromaticum est appellatum. Nam sicut permutatae superficies in alterum transeunt
+        colorem, ita genus istud canendi tanquam color immutatus ab aliis differebat. Ejus vero
+        tetracorda per minus ac majus semitonium procedebant, uterumque per semidytonum in uno
+        scilicet intervalli positum: ita quod ab ypateypaton erat semper minus semitonium, et ab ea
+        majus in lycanosypaton, quod totum tonus est, a qua profecto lycanos in ypatemeson unius
+        intervalli semidytonas erat, qui diatessaron, et sic <pb n="[330]"/>in caeteris complebat.
+        De hoc ergo genere Boetius sic ait "Chroma autem, quod dicitur color, quasi jam ab hujus
+        modi intentione mutatio cantatur per semitonium, et semitonium ac tria semitonia. Tota
+        enim", inquit "diatessaron consonantia duorum tonorum est ac semitonii, sed non pleni".
+        Atque post paululum de enarmonico. Enarmonicum vero quidem magis coaptum est, quod cantatur
+        in omnibus tetracordis per dyesin et dyesin et dytonum. Dyesis autem est semitonii
+        dimidium". Haec de his Boetius. Cum non sit itaque tam eximio musico non credere, cui nec
+        ipsa natura discordat, sed quaecumque scribit approbat, absque dubio phantasticum illud
+        Marchetti semitonium omnino non est, quod de quatuor dyesibus velle fabricare praesumpsit et
         chromaticum appellare. Natura namque viros ab antiquo peritissimos edocuit in duo primum non
         aequa posse dividi tonum, qui partemque majorem apothome nominarunt, partemque minorem
         dyesin. Aliquo tempore verum invento postea genere enarmonico, dictum est minus semitonium,
@@ -112,11 +122,11 @@
         coma vocitata est. Utque fiat quatuor cum comate dyesium; descriptio sit: A B dyesis, B C
         dyesis, C D dyesis, D E dyesis, et E F coma paululum, A C quidem minus erit semitonium a C F
         majus, uterumque, C E minus semitonium et E F coma praedictum, A F autem tonus:</p>
-      <p xml:id="GALRIT30009">[CSIV:330; text: Tonus, Semitonium minus, Semitonium majus, A, Diesis, B,
-        C, D, E, Coma, F]</p>
-      <p xml:id="GALRIT30010">In hoc ergo, quod Marchettus primum de suis semitoniis duas habere dyeses
-        assuerit, errando veraciter non erravit, inquam, illud appellando magis enarmonicum quam
-        dyatonicum aut cromaticum. Ut dixi superius, unum est et idem in omni genere minus
+      <p xml:id="GALRIT30009">[CSIV:330; text: Tonus, Semitonium minus, Semitonium majus, A, Diesis,
+        B, C, D, E, Coma, F]</p>
+      <p xml:id="GALRIT30010">In hoc ergo, quod Marchettus primum de suis semitoniis duas habere
+        dyeses assuerit, errando veraciter non erravit, inquam, illud appellando magis enarmonicum
+        quam dyatonicum aut cromaticum. Ut dixi superius, unum est et idem in omni genere minus
         semitonium, quamquam dicendo duas dyesis habet non desipuerit. Dicens autem de secundo suo
         semitonio dyatonico quod tres dyeses habeat, id non est auditum a seculo. Cum nihil sit
         aliud quam Apothome supra descriptum et ex parvo residuo toni quadripartiti, duabus dyesibus
@@ -134,13 +144,13 @@
         </figure></p>
       <p xml:id="GALRIT30012">Capitulum III.</p>
       <p xml:id="GALRIT30013">Tres esse diatessaron species.</p>
-      <p xml:id="GALRIT30014">Descriptis breviter duobus illis apud nos tam ignotis quam non necessariis
-        canendi generibus, volens ego, quod promisi, de tonis, tropis, sive modis antiquis ad
-        effectum perducere, prius me oportet species diatessaron diapente, et diapason, diligenter
-        exprimere. Licet Boetius exclusa prima proslambanomenos corda cum tetracorda synemenon
-        demonstrans et a mese corda primo, dein a neteyperboleon inchoans, versus ypateypaton
-        declinet, nos nihilominus usitatum nobis ordinem et modum servantes, ab ipsa voce prima,
-        cunctisque nunc notissima sumere malumus exordium. Et primo quidem ab admirabili
+      <p xml:id="GALRIT30014">Descriptis breviter duobus illis apud nos tam ignotis quam non
+        necessariis canendi generibus, volens ego, quod promisi, de tonis, tropis, sive modis
+        antiquis ad effectum perducere, prius me oportet species diatessaron diapente, et diapason,
+        diligenter exprimere. Licet Boetius exclusa prima proslambanomenos corda cum tetracorda
+        synemenon demonstrans et a mese corda primo, dein a neteyperboleon inchoans, versus
+        ypateypaton declinet, nos nihilominus usitatum nobis ordinem et modum servantes, ab ipsa
+        voce prima, cunctisque nunc notissima sumere malumus exordium. Et primo quidem ab admirabili
         diatessaron, virtuosaque nimis quamquam parvula, dum quicquid in musica fiat, ab illa
         prodire prius videas, nec ullam sine se fieri velit aliam consonantiam. Tolle quaeso, si
         potes, diatessaron parvissimam omnium perfectarum, ubi tunc perfectio earum? Nam nec ipsa
@@ -161,8 +171,8 @@
           <pb n="[332]"/>E F G A tam primum quam secundum. Tertiam autem C F tam primum quam
         secundum in uno demonstrant intervallo diatessaron speciem aut C D F in duobus aut C D E F
         in tribus veluti G C vel G A C vel G A B C quolibet in loco repertum.</p>
-      <p xml:id="GALRIT30015">Omnis itaque consonantia minus unum habet intervallum quam habent voces,
-        ut supradictum est, et quot intervalla tot species, ut in hac figura patet:</p>
+      <p xml:id="GALRIT30015">Omnis itaque consonantia minus unum habet intervallum quam habent
+        voces, ut supradictum est, et quot intervalla tot species, ut in hac figura patet:</p>
       <p xml:id="GALRIT30016">[CSIV:332; text: * Haec prima consonantia, nobilis quamquam parvula,
         tribus his differentiis, quicquid canitur colligit; nam ultra dyatessaron nil novum est in
         musica. Haec tertia diatessaron species ex tono procedens et tono minorique semitonio. F,
@@ -172,20 +182,20 @@
       <p xml:id="GALRIT30017">
         <pb n="[333]"/>Capitulum IV.</p>
       <p xml:id="GALRIT30018">Quatuor esse diapente species.</p>
-      <p xml:id="GALRIT30019">Diapente quamvis parumper diatessaron sit majuscula robustior, perfectior,
-        ac aequalilati propinquior; nequit tamen veram aequalitatis assequi perfectionem sine illa.
-        Cur hoc? Quam quidem neque spes absque fide, neque fides absque spe, veram illam quae in Deo
-        est non apprehendit caritatem. Fides ab humilitate prodit, et diatessaron e tonis constat et
-        semitoniis, quae tantum ab aequalitate distant quantum alta differunt ab ymis. Fides spem,
-        ea majorem atque caritati propinquiorem, generat, et diatessaron diapente gignit sese
-        praestantiorem ac perfectissimae consonantiarum, quae diapason est, vicimorem. Simul junctae
-        fides et spes caritatem efficiunt, et diatessaron ac diapente, si copulentur, ad summam
-        concordiam aequalitatis ac unitatis perveniunt. Quid amplius? Adeo sunt hae duae primae
-        consonantiae duabus illis virtutibus, spei videlicet atque fidei, similes, ut quemadmodum
-        una spes est in malis actibus, et mortua fides absque bonis operibus, ita falsa diatessaron
-        de tribus tonis integris, ac falsum diapente de duobus tonis cum totidem minoribus
-        semitoniis. Illae nunquam junctae simul veram caritatem apprehendunt. Sicut et istae
-        perfectam diapason collegatae discordem reddunt. Haec est diapente trium primarum
+      <p xml:id="GALRIT30019">Diapente quamvis parumper diatessaron sit majuscula robustior,
+        perfectior, ac aequalilati propinquior; nequit tamen veram aequalitatis assequi perfectionem
+        sine illa. Cur hoc? Quam quidem neque spes absque fide, neque fides absque spe, veram illam
+        quae in Deo est non apprehendit caritatem. Fides ab humilitate prodit, et diatessaron e
+        tonis constat et semitoniis, quae tantum ab aequalitate distant quantum alta differunt ab
+        ymis. Fides spem, ea majorem atque caritati propinquiorem, generat, et diatessaron diapente
+        gignit sese praestantiorem ac perfectissimae consonantiarum, quae diapason est, vicimorem.
+        Simul junctae fides et spes caritatem efficiunt, et diatessaron ac diapente, si copulentur,
+        ad summam concordiam aequalitatis ac unitatis perveniunt. Quid amplius? Adeo sunt hae duae
+        primae consonantiae duabus illis virtutibus, spei videlicet atque fidei, similes, ut
+        quemadmodum una spes est in malis actibus, et mortua fides absque bonis operibus, ita falsa
+        diatessaron de tribus tonis integris, ac falsum diapente de duobus tonis cum totidem
+        minoribus semitoniis. Illae nunquam junctae simul veram caritatem apprehendunt. Sicut et
+        istae perfectam diapason collegatae discordem reddunt. Haec est diapente trium primarum
         consonantiarum mediocris ac secunda, quae tres et ipsa sibi pares in quantitate sed in
         qualitate dispares ex se generat, pro quo jure dicitur habere quatuor species seu
         varietates. Primam ex tono, semitonio minori, tono, et tono, secundam ex semitonio minori,
@@ -212,13 +222,14 @@
         </figure></p>
       <p xml:id="GALRIT30021">Capitulum V.</p>
       <p xml:id="GALRIT30022">Septem esse diapason species, septem quoque constitutiones.</p>
-      <p xml:id="GALRIT30023">Diapason maxima trium primarum consonantiarum atque perfectarum ex pulchra
-        diatessaron et pulchriori diapente conficitur pulcherrima; velut ex vera fide veraque spe
-        caritas non ficta. Quis, quaeso, parum apud se cogitans scire non debeat, quam sit diapason
-        caritati simillima? Quantumlibet enim coelestis ille musicus Paulus Apostolus <pb n="[335]"/>aequisonam caritatem, ut ita loquar, commendet in virtutum armonia, tantum nostram
-        extollere diapason non vereor in musicali concinentia. Non aemulata illa patiens est,
-        benigna est, non agit perperam, non gaudet super iniquitate, non querit quae sua sit, cum
-        his et similibus, quae sunt ibi de se commemorata. Haec autem aequisona dulcissimaque
+      <p xml:id="GALRIT30023">Diapason maxima trium primarum consonantiarum atque perfectarum ex
+        pulchra diatessaron et pulchriori diapente conficitur pulcherrima; velut ex vera fide
+        veraque spe caritas non ficta. Quis, quaeso, parum apud se cogitans scire non debeat, quam
+        sit diapason caritati simillima? Quantumlibet enim coelestis ille musicus Paulus Apostolus
+          <pb n="[335]"/>aequisonam caritatem, ut ita loquar, commendet in virtutum armonia, tantum
+        nostram extollere diapason non vereor in musicali concinentia. Non aemulata illa patiens
+        est, benigna est, non agit perperam, non gaudet super iniquitate, non querit quae sua sit,
+        cum his et similibus, quae sunt ibi de se commemorata. Haec autem aequisona dulcissimaque
         musicalis consonantia sive simplex, sive duplex, aut quotienslibet multiplex, non solum
         nusquam discordiam generat sed unum et idem ubique semper consonat, auribus humanis
         accaepta, prae caeteris consonantiis, placens, hilaris et joconda, suavium suavissima,
@@ -327,11 +338,11 @@
         et ex prima diatessaron D E F G superius, uti patet in hac figura quam hic subjecimus et
         recipit omnem cantum qui litteras istas impleat earumve sicut in caeteris imitatur
         concinentiam:</p>
-      <p xml:id="GALRIT30031">[CSIV:338; text: * His constitutionibus omnis quidem colligitur diapason
-        varictas, quae supra depingitur, nam si bene perpenderis, duas quaetibet exprimit diapason
-        maneries. Prima quartam atque primam, sequens quintam et secundam, tertia tamen jungit et
-        sextam, sed quarta quartam replicat cum septima diapason diapason. A B C D E F G, Haec
-        quarta diapason diatessaron constitutio, Haec tertia diapason diatessaron constitutio,
+      <p xml:id="GALRIT30031">[CSIV:338; text: * His constitutionibus omnis quidem colligitur
+        diapason varictas, quae supra depingitur, nam si bene perpenderis, duas quaetibet exprimit
+        diapason maneries. Prima quartam atque primam, sequens quintam et secundam, tertia tamen
+        jungit et sextam, sed quarta quartam replicat cum septima diapason diapason. A B C D E F G,
+        Haec quarta diapason diatessaron constitutio, Haec tertia diapason diatessaron constitutio,
         Paranete hyperboteon, Trite hyperboteon, Nete diezeumenon, Paranete diezeumenon, Trite
         diezeumenon, Paramese, Mese, Lycanos meson, Parypate meson, Hypate meson, Lycanos hypaton,
         Parhypate hypaton, Hypate hypaton, Haec secunda diapason diatessaron constitutio,
@@ -376,10 +387,10 @@
         </figure></p>
       <p xml:id="GALRIT30036">
         <pb n="[341]"/>Capitulum IX.</p>
-      <p xml:id="GALRIT30037">Impossibile veram haberi de tropis, tonis sive modis notitiam et praefatas
-        nescire constitutiones.</p>
-      <p xml:id="GALRIT30038">Boetius in allegato superius quarto suae musicae libro capitulo nec non
-        eodem quarto decimo tropos, tonos sive modos diffinit in haec verba. Sunt aut tropi
+      <p xml:id="GALRIT30037">Impossibile veram haberi de tropis, tonis sive modis notitiam et
+        praefatas nescire constitutiones.</p>
+      <p xml:id="GALRIT30038">Boetius in allegato superius quarto suae musicae libro capitulo nec
+        non eodem quarto decimo tropos, tonos sive modos diffinit in haec verba. Sunt aut tropi
         constitutiones in totis vocum ordinibus vel gravitate vel acumine differentes. Vis videre
         quot ita sit. Figuras illas de constitutionibus diligenter aspice; prima namque gravior est
         uno tono secunda, si rem juste discurreris, et secunda tono similiter altior prima magisque
@@ -467,9 +478,9 @@
         litteras graecas quam latinas debitis suis lineis et spaciis distinctas per media vocabula
         phylosophorum disponam, dein cantum non lascivum sed angelicum per easdem litteras in
         exemplum multis describam:</p>
-      <p xml:id="GALRIT30046">[CSIV:343; text: * Hic apparet evidenter posse decantari voces per septem
-        graecas litteras et latinas, et hebreas, semel et bis replicatas; ac ter quoque, si sit
-        opus. Aut si vis in infinitum. Neteyperboleon. Paraneteyperboleon. Triteyperboleon.
+      <p xml:id="GALRIT30046">[CSIV:343; text: * Hic apparet evidenter posse decantari voces per
+        septem graecas litteras et latinas, et hebreas, semel et bis replicatas; ac ter quoque, si
+        sit opus. Aut si vis in infinitum. Neteyperboleon. Paraneteyperboleon. Triteyperboleon.
         Netedyezeumenon. Paranetedyezeumenon. Ypatedyezeumenon. Paramese. Mese. Lycanosmeson.
         Parypatemeson. Ypatemeson. Lycanosypaton. Parypateypaton. Ypateypaton. Proslambanomenos. A B
         C D E F G [Alpha] [Beta] [Kappa] [Delta] [Epsilon] [Phi] [Gamma]] <figure>
@@ -477,11 +488,11 @@
         </figure></p>
       <p xml:id="GALRIT30047">
         <pb n="[344]"/>Cantus latine descriptus, qui sit exemplum omnibus:</p>
-      <p xml:id="GALRIT30048">[CSIV:344,1; text: Kyrie fons bonitatis pater ingenite a quo bona cuncta
-        procedunt eleyson.]</p>
+      <p xml:id="GALRIT30048">[CSIV:344,1; text: Kyrie fons bonitatis pater ingenite a quo bona
+        cuncta procedunt eleyson.]</p>
       <p xml:id="GALRIT30049">Hic iisdem graecis litteris, quod fieret ac hebraecis:</p>
-      <p xml:id="GALRIT30050">[CSIV:344,2; text: Kyrie fons bonitatis pater in genite a quo bona cunta
-        procedunt eleyson.]</p>
+      <p xml:id="GALRIT30050">[CSIV:344,2; text: Kyrie fons bonitatis pater in genite a quo bona
+        cunta procedunt eleyson.]</p>
       <p xml:id="GALRIT30051">Capitulum XII.</p>
       <p xml:id="GALRIT30052">Grandem esse distantiam inter musicum et cantorem.</p>
       <p xml:id="GALRIT30053">Expleta tandem hujus opusculi parte prima libet paululumde differentia
@@ -510,15 +521,15 @@
         cantilenas suaves et tinnulas excogitate, tempus circa longas breves semibreves ac minimas
         consumite. Nam cum haec omnia perfecte nec aliud noveritis <pb n="[345]"/>non dico quidem
         musici, sed neque veri cantores estis.</p>
-      <p xml:id="GALRIT30054">Haec omnia Namurci didiceram a cunabulis, quod est oppidum in Gallia. Sed
-        cum ad Ytaliam venissem, ac sub optimo viro, Magistro Feltrensi, musicam Boetii diligenter
-        audissem, qui me prius musicum estimabam, vidi necdum veram hujus artis attigisse practicam.
-        Vera namque practica musicae funditus tunc ignorabam, haec est: universa, quae scripta sunt
-        hic et e puro fonte Boetii prorsus exhausta velle scire, quae vero supra tetigimus non
-        ignorare. Verus ergo cantor erit, qui totum quod nunc canitur, ex hac vera practica
-        procedere videbit. Nam ut ad id veniam, pro quo tot et tanta praemissa sunt, hoc est ad
-        angelicum seu ecclesiasticum cantum, quis cantorum scire non debeat omne quod canimus in
-        ecclesia Dei vetus et novum ab ipso ritu vetustissimo, quem e Graeco transtulit Boetius
+      <p xml:id="GALRIT30054">Haec omnia Namurci didiceram a cunabulis, quod est oppidum in Gallia.
+        Sed cum ad Ytaliam venissem, ac sub optimo viro, Magistro Feltrensi, musicam Boetii
+        diligenter audissem, qui me prius musicum estimabam, vidi necdum veram hujus artis attigisse
+        practicam. Vera namque practica musicae funditus tunc ignorabam, haec est: universa, quae
+        scripta sunt hic et e puro fonte Boetii prorsus exhausta velle scire, quae vero supra
+        tetigimus non ignorare. Verus ergo cantor erit, qui totum quod nunc canitur, ex hac vera
+        practica procedere videbit. Nam ut ad id veniam, pro quo tot et tanta praemissa sunt, hoc
+        est ad angelicum seu ecclesiasticum cantum, quis cantorum scire non debeat omne quod canimus
+        in ecclesia Dei vetus et novum ab ipso ritu vetustissimo, quem e Graeco transtulit Boetius
         emeritissimus phylosophorum, imo nil aliud esse vel unquam fuisse nec futurum esse quam id
         ipsum. Hinc est quod secundam hujus libelli partem, quae de diversis in ecclesia canendi
         tractat usibus, clericis devovi totam ac viris religiosis qui, si quando forsan in illis

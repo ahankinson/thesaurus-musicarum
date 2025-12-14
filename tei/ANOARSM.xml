@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Ars musicae mensurabilis secundum Franconem</title>
         <title type="abbrev">ANOARSM</title>
-        <author>Anonymous</author>
-        <date notBefore="1200" notAfter="1299">13th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1992</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1992">1992</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Petrus Picardus, <emph>Ars motettorum compilata breviter</emph>, ed.
           F. Alberto Gallo; Anonymus, <emph>Ars musicae mensurabilis secundum Franconem (Mss. Paris,
@@ -62,48 +72,48 @@
       <p xml:id="ANOARSM0008">[B,L,B,B,L; B,L,B,B,B,L]</p>
       <p xml:id="ANOARSM0009">et nisi modi divisio ponatur post primam brevem: tunc longa valet 2
         tempora [L,B,pt,B,L; L,B,pt,B,B,L].</p>
-      <p xml:id="ANOARSM0010">Longa valens tria tempora perfecta dicitur, valens autem duo imperfecta
-        dicitur. Duplex longa sic formata [2L] valet sex tempora. Nota: idem est iudicium de pausis
-        et de figuris et de brevibus et semibrevibus in regulis prius dictis.</p>
+      <p xml:id="ANOARSM0010">Longa valens tria tempora perfecta dicitur, valens autem duo
+        imperfecta dicitur. Duplex longa sic formata [2L] valet sex tempora. Nota: idem est iudicium
+        de pausis et de figuris et de brevibus et semibrevibus in regulis prius dictis.</p>
       <p xml:id="ANOARSM0011">[L,LP,L,B,B,L,B,B,B,L,LP,L,LP,B,L,S,S,S,B,L]</p>
       <p xml:id="ANOARSM0012">
         <pb n="[43]"/>Brevis sic formata [B] valet unum tempus, nisi computandis perfectionibus
         ponantur duae breves, vel valor unius brevis et brevis, ante longam: tunc secunda brevis
         valet duo tempora: [L,B,B,L,S,S,B,L].</p>
-      <p xml:id="ANOARSM0013">Brevis valens unum tempus dicitur recta, valens autem duo dicitur altera.
-        Semibrevium sic factarum [S,S] alia minor, alia maior in valore, sed non in fractione,
-        quarum secundum artem plures quam tres nec minus quam duae pro tempore non ponuntur. Sed
-        nimis frangentes et nimis in prolatione unius temporis spectantes verum modum proferendi, id
-        est tempus pervertentes, ponuntur pro uno tempore 4, 5, 6, 7, modi divisione taliter
-        intermixta.</p>
+      <p xml:id="ANOARSM0013">Brevis valens unum tempus dicitur recta, valens autem duo dicitur
+        altera. Semibrevium sic factarum [S,S] alia minor, alia maior in valore, sed non in
+        fractione, quarum secundum artem plures quam tres nec minus quam duae pro tempore non
+        ponuntur. Sed nimis frangentes et nimis in prolatione unius temporis spectantes verum modum
+        proferendi, id est tempus pervertentes, ponuntur pro uno tempore 4, 5, 6, 7, modi divisione
+        taliter intermixta.</p>
       <p xml:id="ANOARSM0014">[S,S,pt,S,S,S; S,S,S,S; S,S,S,S,S; [S,S,S,S,S,S; S,S,S,S,S,S,S]]</p>
       <p xml:id="ANOARSM0015">
         <pb n="[45]"/>De plicis in figuris simplicibus</p>
-      <p xml:id="ANOARSM0016">Plica est nota divisionis eiusdem soni in gravem vel in acutum, et debet
-        formari in gutture cum epygloto. Plica longa est cuius tractus dexter longior est sinistro
-        [Lpdsn,Bpssncsdx], brevis vero cuius tractus dexter brevior est sinistro:
+      <p xml:id="ANOARSM0016">Plica est nota divisionis eiusdem soni in gravem vel in acutum, et
+        debet formari in gutture cum epygloto. Plica longa est cuius tractus dexter longior est
+        sinistro [Lpdsn,Bpssncsdx], brevis vero cuius tractus dexter brevior est sinistro:
         [Bcdsnpddx,Bcssnpsdx]. Semibrevis sic plicatur: [S,S,Scsodx]. Nec mirum cum diffinitio
         plicae sibi contradicat. Valor plicarum in temporibus cognoscitur ex praedictis, ibi longa
         sic formata, etc.</p>
       <p xml:id="ANOARSM0017">De ligaturis et earum proprietatibus</p>
-      <p xml:id="ANOARSM0018">Ligatura est coniunctio figurarum simplicium per tractos debitos ordinata.
-        Ligaturarum alia ascendens, alia descendens. Ascendens est cuius secundus punctus altior est
-        primo.</p>
+      <p xml:id="ANOARSM0018">Ligatura est coniunctio figurarum simplicium per tractos debitos
+        ordinata. Ligaturarum alia ascendens, alia descendens. Ascendens est cuius secundus punctus
+        altior est primo.</p>
       <p xml:id="ANOARSM0019">[Lig2art,Lig3ad,Lig4cssnaodart,Lig2La]</p>
       <p xml:id="ANOARSM0020">Descendens vero dicitur cuius secundus punctus inferior est primo:
         [Lig2od,Lig2d,Lig3odart].</p>
       <p xml:id="ANOARSM0021">
         <pb n="[47]"/>Ascendens carens omni tractu, cum proprietate dicitur.</p>
       <p xml:id="ANOARSM0022">[Lig2art,Lig3aod,Lig3aodart,Lig2oa]</p>
-      <p xml:id="ANOARSM0023">Omnis ligatura ascendens habens vero tractum descendentem a parte sinistra
-        vel a parte dextra, quod est magis proprium, sine proprietate dicitur:
+      <p xml:id="ANOARSM0023">Omnis ligatura ascendens habens vero tractum descendentem a parte
+        sinistra vel a parte dextra, quod est magis proprium, sine proprietate dicitur:
         [Lig2cdsnoacddx,Lig2La,Lig3Lad,Lig3cdsnaart,Lig4cdsnaodart].</p>
-      <p xml:id="ANOARSM0024">Istae tres differentiae, scilicet proprietas et inproprietas et opposita
-        proprietas, acceduntur in principio ligaturae. Istae vero duae differentiae, scilicet
-        perfectio et inperfectio, acceduntur in fine. Proprietas est nota primariae inventionis
-        ligaturae a plana musica data, et inproprietas dicit privationem huius; perfectio et
-        inperfectio idem dicunt, sed in fine differunt. Ligatura descendens, habens tractum
-        descendentem a parte sinistra, cum proprietate dicitur:
+      <p xml:id="ANOARSM0024">Istae tres differentiae, scilicet proprietas et inproprietas et
+        opposita proprietas, acceduntur in principio ligaturae. Istae vero duae differentiae,
+        scilicet perfectio et inperfectio, acceduntur in fine. Proprietas est nota primariae
+        inventionis ligaturae a plana musica data, et inproprietas dicit privationem huius;
+        perfectio et inperfectio idem dicunt, sed in fine differunt. Ligatura descendens, habens
+        tractum descendentem a parte sinistra, cum proprietate dicitur:
         [Lig2cdsnd,Lig2cdsnod,Lig3cdsndod,Lig3cdsnodart]; carens vero sine:
         [Lig2d,Lig2od,Lig3dod,Lig3odart].</p>
       <p xml:id="ANOARSM0025">Ascendens autem ligatura et descendens, habentes tractus desuper
@@ -116,8 +126,8 @@
         ligaturae recte stans supra primum et penultimum, vel sub primo et penultimo, est longa et
         dicitur cum perfectione.</p>
       <p xml:id="ANOARSM0028">[Lig2art,Lig3aart,Lig4aodart,Lig2cdsnd]</p>
-      <p xml:id="ANOARSM0029">Ultima omnis ligaturae oblique stans supra primum vel penultimum, vel sub
-        primo vel penultimo, est brevis et dicitur sine perfectione: [Lig2a,Lig5aadoacddx;
+      <p xml:id="ANOARSM0029">Ultima omnis ligaturae oblique stans supra primum vel penultimum, vel
+        sub primo vel penultimo, est brevis et dicitur sine perfectione: [Lig2a,Lig5aadoacddx;
         Lig2cdsnodcddx,Lig4cdsnoddodcddx].</p>
       <p xml:id="ANOARSM0030">Opposita tamen proprietas est signum semibrevitatis duarum.</p>
       <p xml:id="ANOARSM0031">[Lig3cssnaart,Lig2cssna; Lig2cssnod,Lig3cssndod]</p>
@@ -137,14 +147,15 @@
       <p xml:id="ANOARSM0037">Modus est variatio soni ex longitudine et brevitate ordinata. Sex sunt
         modi. Primus procedit ex longa et brevi et longa, etc., [L,B,L,B,L,B,L,B,L], secundus e
         converso [B,L,B,L,B,B; L,B], tertius ex longa et 2 brevibus et longa, etc. [L,B,B,L,B,B,L],
-        quartus e converso [B,B,L,B,B,L,B], quintus ex omnibus longis [L,L,L,L,L,L], <pb n="[53]"/>sextus e converso, scilicet ex omnibus brevibus et semibrevibus.</p>
+        quartus e converso [B,B,L,B,B,L,B], quintus ex omnibus longis [L,L,L,L,L,L], <pb n="[53]"
+        />sextus e converso, scilicet ex omnibus brevibus et semibrevibus.</p>
       <p xml:id="ANOARSM0038">[B,B,B,S,S,B; B,B,B,S,S,S,B]</p>
       <p xml:id="ANOARSM0039">De pausis</p>
-      <p xml:id="ANOARSM0040">Pausa est obmissio rectae vocis facta in aliquo modorum recta quantitate.
-        Pausae valent tot tempora quot spatia comprehendunt, excepta illa quae omnes lineas et
-        spatia comprehendit, quae immensurabilis appellatur. Pausae semibrevis minoris et maioris
-        habetur differentia quoad situm. Unde si ponatur ante semibrevem notam, tunc est minor; si
-        vero postponatur, tunc est maior. [CSM15:53] <figure>
+      <p xml:id="ANOARSM0040">Pausa est obmissio rectae vocis facta in aliquo modorum recta
+        quantitate. Pausae valent tot tempora quot spatia comprehendunt, excepta illa quae omnes
+        lineas et spatia comprehendit, quae immensurabilis appellatur. Pausae semibrevis minoris et
+        maioris habetur differentia quoad situm. Unde si ponatur ante semibrevem notam, tunc est
+        minor; si vero postponatur, tunc est maior. [CSM15:53] <figure>
           <graphic url="/images/ANOARSM_01GF.gif"/>
         </figure></p>
       <p xml:id="ANOARSM0041">Modi divisio sic formata nihil valet de se, sed dat aliis significare.

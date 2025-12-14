@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Libri tres de institutione harmonica, liber tertius</title>
         <title type="abbrev">AARIH3</title>
-        <author>Aaron, Petrus</author>
-        <date notBefore="1500" notAfter="1599">16th</date>
+        <author><persName>Aaron, Petrus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Jessica Burr</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Elisabeth Honn</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1996</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1996">1996</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Libri tres de institutione harmonica editi a Petro Aaron Florentino</emph>
@@ -36,24 +46,24 @@
     <body>
       <p xml:id="AARIH30001">
         <pb n="[f.Eviiiv]"/>
-        <anchor xml:id="BK3"/>PETRI AARON FLORENTINI HARMONICAE INSTITVTIONIS AD MAGNIFICVM
-        EQVITEM AC IVRIS PERITISSIMVM HIERONYMVM SANCTVM PETRVM LIBER TERTIVS. IOANNE ANTONIO
-        FLAMINIO FOROCORNELIENSI INTERPRETE.</p>
+        <anchor xml:id="BK3"/>PETRI AARON FLORENTINI HARMONICAE INSTITVTIONIS AD MAGNIFICVM EQVITEM
+        AC IVRIS PERITISSIMVM HIERONYMVM SANCTVM PETRVM LIBER TERTIVS. IOANNE ANTONIO FLAMINIO
+        FOROCORNELIENSI INTERPRETE.</p>
       <p xml:id="AARIH30002">
         <anchor xml:id="CH300"/>FLAMINIVS</p>
-      <p xml:id="AARIH30003">NON POSSEM MI AARON VERBIS assequi, quanta te de hisce rebus disserentem
-        uoluptate audierim. Putabam equidem, fore magna quae dicturus esses, quia te clarum in arte
-        musica semper audieram, et diu quidem expertus sum, Verum longe maiora mihi uidentur, quam
-        uel ipse, uel opinione conceperam. Quae quidem adeo iam creuere, ut nesciam, an credere
-        debeam, iis te posse maiora subiungere. Quam uaria dii boni quam multiplex, quam exuberans
-        materia se se diffudit, quanta eruditione: ac suauitate pollens, quam luculenta, quam diues,
-        et florida, ut mirari non desinam, sed satis non possim, cum repeto, quae iam dicta sunt
-        omnia, quodque restare adhuc plurima mihi saepe iam dixeris, quaequidem (sicut ego ex
-        antedictis coniecturam facio) multo adhuc praestantiora se inferent. AARON. Gratulor nostris
-        laboribus, atque uigiliis mi Flamini, et musicae simul studiosis, quando haec tibi talia
-        uidentur, ut tantam tibi et uoluptatem, et admirationem pariter ingenerent. Sed multo magis
-        postmodum mirabere, cum illa dictauero, quae nunc mente uoluto, tanta quidem, illa, et tam
-        scitu praeclara, atque iucunda, ut me quoque admiratio quaedam ex illorum consyderatioue
+      <p xml:id="AARIH30003">NON POSSEM MI AARON VERBIS assequi, quanta te de hisce rebus
+        disserentem uoluptate audierim. Putabam equidem, fore magna quae dicturus esses, quia te
+        clarum in arte musica semper audieram, et diu quidem expertus sum, Verum longe maiora mihi
+        uidentur, quam uel ipse, uel opinione conceperam. Quae quidem adeo iam creuere, ut nesciam,
+        an credere debeam, iis te posse maiora subiungere. Quam uaria dii boni quam multiplex, quam
+        exuberans materia se se diffudit, quanta eruditione: ac suauitate pollens, quam luculenta,
+        quam diues, et florida, ut mirari non desinam, sed satis non possim, cum repeto, quae iam
+        dicta sunt omnia, quodque restare adhuc plurima mihi saepe iam dixeris, quaequidem (sicut
+        ego ex antedictis coniecturam facio) multo adhuc praestantiora se inferent. AARON. Gratulor
+        nostris laboribus, atque uigiliis mi Flamini, et musicae simul studiosis, quando haec tibi
+        talia uidentur, ut tantam tibi et uoluptatem, et admirationem pariter ingenerent. Sed multo
+        magis postmodum mirabere, cum illa dictauero, quae nunc mente uoluto, tanta quidem, illa, et
+        tam scitu praeclara, atque iucunda, ut me quoque admiratio quaedam ex illorum consyderatioue
         teneat, et ad ea prosequenda cotidie magis inflammer. Crescet opus, uideo, et multo quidem,
         quam initio putaram, uberius fiet, et copiosius, Neque te (quantum coniicio) labor iste
         grauabit, aut taedium ac sacietatem prolixitas affert. FLAMINIVS. Ego mi Aaron talem (ni
@@ -98,22 +108,23 @@
         Hexachordon, siue sexta. Heptachordon, quae est septima.</p>
       <p xml:id="AARIH30008">
         <anchor xml:id="CH303"/>DE CONSONANTIIS perfectis et imperfectis. Caput .III.</p>
-      <p xml:id="AARIH30009">EX his consonantiis aliae perfectae, imperfectae aliae dicuntur. Perfectae
-        quidem tres sunt, Monachordon: siue unisonus Diapente idest Quinta. Diapason, idest Octaua.
-        Imperfectae sunt duae Tertia maior, siue Ditonus: Et sexta, siue Hexachordon.</p>
+      <p xml:id="AARIH30009">EX his consonantiis aliae perfectae, imperfectae aliae dicuntur.
+        Perfectae quidem tres sunt, Monachordon: siue unisonus Diapente idest Quinta. Diapason,
+        idest Octaua. Imperfectae sunt duae Tertia maior, siue Ditonus: Et sexta, siue
+        Hexachordon.</p>
       <p xml:id="AARIH30010">
         <anchor xml:id="CH304"/>DE DISSONANTIIS. CAPVT .IIII.</p>
       <p xml:id="AARIH30011">DIsonantiae tres sunt: Secunda: Quarta: et Septima.</p>
       <p xml:id="AARIH30012">
         <anchor xml:id="CH305"/>DE CONSONANTIIS COMPOSITIS. CAPVT .V.</p>
-      <p xml:id="AARIH30013">COmpositae consonantiae a simplicibus originem trahunt. Sunt autem omnino
-        quinque quibus in contrapuncto uti mos est, scilicet Octaua. Decima. Vndecima. Duodecima.
-        Tertiadecima. Nam quartadecima est dissonantia: est enim duplicatum heptachordon, Igitur de
-        tertia maiori octauae iuncta decima fit maior. Minor uero decima si tertiam octauae minorem
-        addideris. Si diapason iunxeris cum diatessaron, hoc est quartam eidem octauae, undecimam
-        facies. Si diapente Duodecimam. Si Hexacordon, siue sextam decima tertia constituetur.
-        Quinta decima ex duplicato Diapason, Nam nihil est aliud Decima quinta, quam duplicata
-        octaua.</p>
+      <p xml:id="AARIH30013">COmpositae consonantiae a simplicibus originem trahunt. Sunt autem
+        omnino quinque quibus in contrapuncto uti mos est, scilicet Octaua. Decima. Vndecima.
+        Duodecima. Tertiadecima. Nam quartadecima est dissonantia: est enim duplicatum heptachordon,
+        Igitur de tertia maiori octauae iuncta decima fit maior. Minor uero decima si tertiam
+        octauae minorem addideris. Si diapason iunxeris cum diatessaron, hoc est quartam eidem
+        octauae, undecimam facies. Si diapente Duodecimam. Si Hexacordon, siue sextam decima tertia
+        constituetur. Quinta decima ex duplicato Diapason, Nam nihil est aliud Decima quinta, quam
+        duplicata octaua.</p>
       <p xml:id="AARIH30014">
         <anchor xml:id="CH306"/>DE CONSONANTIIS REPLICATIS. CAPVT .VI.</p>
       <p xml:id="AARIH30015">
@@ -161,59 +172,60 @@
         singulis, ac de iis, quae ad illarum cognitionem atque structuram pertinent, suo quidem
         ordine dicemus.</p>
       <p xml:id="AARIH30020">
-        <anchor xml:id="CH309"/>VSQVE AD QVEM NVMERVM PARTIVM CANTILENA COMponi et quomodo
-        possit. Caput .IX.</p>
-      <p xml:id="AARIH30021">SCio non deesse, qui arbitrentur cantilenam ad duodecim et quattuordecim
-        partes, ac ultra posse propagari. Possunt quidem, sed nequaquam adhibitis ligaminibus ad
-        ipsam compositionem pertinentibus. Hoc autem ideo accidit, quia nec humana uox, nec
-        instrumentalis potest illa pronunciare. Sicuti facile poteris experiendo uidere. Non enim ad
-        tantam uocis depressionem, aut ellationem, hoc est profunditatem, uel altitudinem: quanta
-        dictis ligaminibus necessaria est, descendi potest, uel ascendi. Oportet enim uoces illas
-        omneis esse diuersimode ligatas, si pariter, ac eodem momento temporis pronunciandae sunt,
-        quae sic quidem nullo pacto pronunciari queunt. Poterit quidem compositio ad arbitrium
-        componentis numero partium plurimarum augeri, si plureis unisonos, et pausarum moras, ac
-        dillationes adhibuerit, uerum eiusmodi compositio non duodecim, aut quattuordecim, uel
-        plurium esse partium dici, sed uel octo, uel nouem tantummodo, aut forsan pauciorum poterit.
-        Quam quidem numerositatem, et quasi luxuriantem uocum exuberantiam minime laudo <pb n="[f.Fiiir]"/>in qua nihil praeter laborem, et artificium probari possit. Sed, quia
-        fortasse quispiam desyderat nosse, ad quantum numerum uocum possit componi, ac pronunciari,
-        et quomodo id fieri debeat, propositis exemplis aperiemus. Scito igitur, cantilenam posse
-        quidem ad partes duodecim, et non amplius propagari, non enim ultra eum numerum uox humana,
-        instrumentalisue potest extendi. Quae tamen cantilena erit incommoda, nisi uoces canentium
-        admodum depressas, et acutas fuerit nacta, quae quidem licet inueniri queant: attamen durae
-        sunt potius, et insuaues auribus, quam gratae. Sed in undecim partibus multo gratior fiet
-        concentus. In hac autem compositione hoc potius modo, quam illo ligando accidere quidem
-        poterit ut aliquando partes deficiant, nonnunquam exuberent, sicut exemplo postmodum
-        ostendam. At primum quidem illud monebo: cum plures quidem cantus, ac Tenores, Bassos, et
-        Altos in tanto partium numero facere possis, non erit necesse, uel hunc, uel illum appellare
-        primum cantum uel tenorem, Bassum uel Altum Hoc enim componenti liberum fit. Illud quoque
-        memineris, fore, ut in talibus ligaminibus undecimae plures, ac decimaetertiae contingant.
-        Igitur, ubi primum cantum inchoare uolueris: cantum esse te oportebit idest in partibus
-        acutioribus principium auspicari, ut partes graues queant in locis ordinariis constitui
-        absque linearum accidentalium additione. Vt igitur exemplo, quod me propositurum dixi,
-        planum hoc fiat, primum quidem cantum in C sol fa exordiemur, et duos proponemus locos, in
-        quibus uidebimus, quot partes seruari queant, Et primo quidem modo secundam partem infra per
-        tertiam comitabimur, secundo autem modo per quartam. Igitur, si per tertiam sociabis: Tertia
-        quidem pars cantui subesse debebit in quinta, quarta uero sub dicto cantu in octaua, quae in
-        C sol fa ut erit. At pars quinta in A la mi re, quae decima cantui consonabit. Sexta in F fa
-        ut graui, quae cum dicto cantu duodecima continget. Septima in C fa ut, quae cum cantu
-        decimaquinta fiet. Octaua in A re, quae cum ipso cantu decimaseptima eueniet. Nona uero
-        primo quidem in loco sub Gamma ut: entque cum cantu uigesimanona. Quibus quidem ligaminibns
-        non erit inferius descendendum propter locos accidentales: qui quidem subsequendo inferius
-        reperientur, et ob difficultatem, quae canent <pb n="[f.Fiiiv]"/>gigneretur. Ergo ex
-        huiusmodi compositione nouem partes contingunt. Duas etiam poteris (si uoles) addere: ut
-        fiant undecim: Nam decimam partem facies, si tetrachordon adieceris supra cantum: quem in C
-        sol fa iam constituimus: quod quidem tetrachordon supra E la: idest extra naturalem manum
-        est: fietque cum basso inferiori consonantia: quae triplicatum Diapason complectitur, et
-        uigesima secunda dicitur. Vltima uero pars: hoc est undecima supra dictum primum cantum
-        locabitur per Hexachordon: quod extra manum ordinariam positum in secunda est diatessaron
-        specie idest Mi la: et cum ultimo quidem basso per uigesimam quartam: quae quidem ex tertia
-        et decima nascitur. Habes primum quidem modum: per quem ostenditur: quantum commode uox
-        humana progredi possit.</p>
+        <anchor xml:id="CH309"/>VSQVE AD QVEM NVMERVM PARTIVM CANTILENA COMponi et quomodo possit.
+        Caput .IX.</p>
+      <p xml:id="AARIH30021">SCio non deesse, qui arbitrentur cantilenam ad duodecim et
+        quattuordecim partes, ac ultra posse propagari. Possunt quidem, sed nequaquam adhibitis
+        ligaminibus ad ipsam compositionem pertinentibus. Hoc autem ideo accidit, quia nec humana
+        uox, nec instrumentalis potest illa pronunciare. Sicuti facile poteris experiendo uidere.
+        Non enim ad tantam uocis depressionem, aut ellationem, hoc est profunditatem, uel
+        altitudinem: quanta dictis ligaminibus necessaria est, descendi potest, uel ascendi. Oportet
+        enim uoces illas omneis esse diuersimode ligatas, si pariter, ac eodem momento temporis
+        pronunciandae sunt, quae sic quidem nullo pacto pronunciari queunt. Poterit quidem
+        compositio ad arbitrium componentis numero partium plurimarum augeri, si plureis unisonos,
+        et pausarum moras, ac dillationes adhibuerit, uerum eiusmodi compositio non duodecim, aut
+        quattuordecim, uel plurium esse partium dici, sed uel octo, uel nouem tantummodo, aut forsan
+        pauciorum poterit. Quam quidem numerositatem, et quasi luxuriantem uocum exuberantiam minime
+        laudo <pb n="[f.Fiiir]"/>in qua nihil praeter laborem, et artificium probari possit. Sed,
+        quia fortasse quispiam desyderat nosse, ad quantum numerum uocum possit componi, ac
+        pronunciari, et quomodo id fieri debeat, propositis exemplis aperiemus. Scito igitur,
+        cantilenam posse quidem ad partes duodecim, et non amplius propagari, non enim ultra eum
+        numerum uox humana, instrumentalisue potest extendi. Quae tamen cantilena erit incommoda,
+        nisi uoces canentium admodum depressas, et acutas fuerit nacta, quae quidem licet inueniri
+        queant: attamen durae sunt potius, et insuaues auribus, quam gratae. Sed in undecim partibus
+        multo gratior fiet concentus. In hac autem compositione hoc potius modo, quam illo ligando
+        accidere quidem poterit ut aliquando partes deficiant, nonnunquam exuberent, sicut exemplo
+        postmodum ostendam. At primum quidem illud monebo: cum plures quidem cantus, ac Tenores,
+        Bassos, et Altos in tanto partium numero facere possis, non erit necesse, uel hunc, uel
+        illum appellare primum cantum uel tenorem, Bassum uel Altum Hoc enim componenti liberum fit.
+        Illud quoque memineris, fore, ut in talibus ligaminibus undecimae plures, ac decimaetertiae
+        contingant. Igitur, ubi primum cantum inchoare uolueris: cantum esse te oportebit idest in
+        partibus acutioribus principium auspicari, ut partes graues queant in locis ordinariis
+        constitui absque linearum accidentalium additione. Vt igitur exemplo, quod me propositurum
+        dixi, planum hoc fiat, primum quidem cantum in C sol fa exordiemur, et duos proponemus
+        locos, in quibus uidebimus, quot partes seruari queant, Et primo quidem modo secundam partem
+        infra per tertiam comitabimur, secundo autem modo per quartam. Igitur, si per tertiam
+        sociabis: Tertia quidem pars cantui subesse debebit in quinta, quarta uero sub dicto cantu
+        in octaua, quae in C sol fa ut erit. At pars quinta in A la mi re, quae decima cantui
+        consonabit. Sexta in F fa ut graui, quae cum dicto cantu duodecima continget. Septima in C
+        fa ut, quae cum cantu decimaquinta fiet. Octaua in A re, quae cum ipso cantu decimaseptima
+        eueniet. Nona uero primo quidem in loco sub Gamma ut: entque cum cantu uigesimanona. Quibus
+        quidem ligaminibns non erit inferius descendendum propter locos accidentales: qui quidem
+        subsequendo inferius reperientur, et ob difficultatem, quae canent <pb n="[f.Fiiiv]"
+        />gigneretur. Ergo ex huiusmodi compositione nouem partes contingunt. Duas etiam poteris (si
+        uoles) addere: ut fiant undecim: Nam decimam partem facies, si tetrachordon adieceris supra
+        cantum: quem in C sol fa iam constituimus: quod quidem tetrachordon supra E la: idest extra
+        naturalem manum est: fietque cum basso inferiori consonantia: quae triplicatum Diapason
+        complectitur, et uigesima secunda dicitur. Vltima uero pars: hoc est undecima supra dictum
+        primum cantum locabitur per Hexachordon: quod extra manum ordinariam positum in secunda est
+        diatessaron specie idest Mi la: et cum ultimo quidem basso per uigesimam quartam: quae
+        quidem ex tertia et decima nascitur. Habes primum quidem modum: per quem ostenditur: quantum
+        commode uox humana progredi possit.</p>
       <p xml:id="AARIH30022">
         <anchor xml:id="CH310"/>VNDE, ETIAM SECVNDVM VETERES, INCHOANDA SIT MOdulatio et ubi
         terminanda. Caput .X.</p>
-      <p xml:id="AARIH30023">MOdulatio quidem secundum ueterum morem: et institutionem primum quidem a
-        cantu inchoanda est. Subsequi tenor debet. Tertio loco Bassus. Quarto demum, qui dicitur
+      <p xml:id="AARIH30023">MOdulatio quidem secundum ueterum morem: et institutionem primum quidem
+        a cantu inchoanda est. Subsequi tenor debet. Tertio loco Bassus. Quarto demum, qui dicitur
         Altus. Sed quia saepenumero accidit: ut partes hae quattuor in quinque: in sex etiam
         augeantur: Nam tenor: aut pars alia geminari solet: id cum fiet: liberum componenti est:
         postquam sua praedictis ordinariis partibus assignauerit loca: reliquas, ut ipsi commodius
@@ -304,16 +316,17 @@
       <p xml:id="AARIH30031">
         <anchor xml:id="CH314"/>QVOMODO PERFECTAE CONSONANTIAE DIVERSI generis sibi inuicem
         succedant. Caput .XIIII.</p>
-      <p xml:id="AARIH30032">NOtandum illud quoque est, plures diuersi generis perfectas consonantias
-        recte aliam post aliam statim locari sine aliarum, quae imperfectae dicuntur interpositione
-        posse. Ergo unisonum quinta, quintam octaua: octauam duodecima, duodecimam quintadecima
-        subsequi poterit. Idem quoque de reliquis similibus intelligendum est, in quibus talis
-        quidem successio cum uenustate fieri poterit.</p>
+      <p xml:id="AARIH30032">NOtandum illud quoque est, plures diuersi generis perfectas
+        consonantias recte aliam post aliam statim locari sine aliarum, quae imperfectae dicuntur
+        interpositione posse. Ergo unisonum quinta, quintam octaua: octauam duodecima, duodecimam
+        quintadecima subsequi poterit. Idem quoque de reliquis similibus intelligendum est, in
+        quibus talis quidem successio cum uenustate fieri poterit.</p>
       <p xml:id="AARIH30033">
         <anchor xml:id="CH315"/>MI CONTRA FA CVR VITARI debeat. Caput .XV.</p>
-      <p xml:id="AARIH30034">PRaetera diligenter ubique cauendum est, ne in perfectis consonantiis Mi
-        contra Fa ponatur. Sunt autem hae in quibus id caueri debet, Diapente, atque Diapason, et
-        Diapentae quidem quattuor in locis talis inuenitur, quorum duo sunt naturales. Reliqui <pb n="[f.Fvv]"/>accidentales: et naturalium quidem primus est a [sqb] mi ad F fa ut Alterum
+      <p xml:id="AARIH30034">PRaetera diligenter ubique cauendum est, ne in perfectis consonantiis
+        Mi contra Fa ponatur. Sunt autem hae in quibus id caueri debet, Diapente, atque Diapason, et
+        Diapentae quidem quattuor in locis talis inuenitur, quorum duo sunt naturales. Reliqui <pb
+          n="[f.Fvv]"/>accidentales: et naturalium quidem primus est a [sqb] mi ad F fa ut Alterum
         uero a mi b fa [sqb] mi acuti in fa F fa ut item acuti extenditur. Quibus quidem in locis
         quinta: quae de tribus tonis: et semitonio minori constare debet, semitonium unum maius
         citra plenitudinem suam perdit, Et prior quidem quinta nihil a posteriore, nisi remissione
@@ -337,18 +350,18 @@
         <anchor xml:id="CH316"/>PROBATIO QVINTAE IMPERFECTAE ET OCTAVAE PER MONOCHORDVM. Caput
         .XVI.</p>
       <p xml:id="AARIH30036">FLAMINIVS.</p>
-      <p xml:id="AARIH30037">VEllem mi Aarron: quia modo quintam, et octauam imperfectas quando illis
-        semitonium maius deest ostendisti: si qua ratione id apertius deprehendi possit, aperies.
-        AARON. In Monochordo uel organo id facile apparebit. <pb n="[f.Fvir]"/>FLAMINIVS. Memini
-        certe: nunc uenit in mentem, Achillem meum Philerotem Bochium, qui quidem (ut nosti) organi
-        ac instrumentorum eiusmodi peritissimus est, hoc idem dicere solitum. Sed tunc minus talia
-        curabam: quem nunc adeo musice delectat. Quare tu uelim arcanum istud mihi pandas: coniicio
-        enim rem esse cognitu pulcherrimam. AARON. Faciam libenter quod petis. Igitur, si digitis
-        Monochordi tactos (ut uulgus appellat) apprehenderis duos, alterum quidem, in quo est [sqb]
-        mi alterum, in quo est F fa ut: quintam facies mi re discordem quia plena non est: et
-        semitonium, quod diximus illi abest. Vt autem hoc esse uerum deprehendas, tactum: in quo est
-        F fa ut: dimitte, ac semitonium, quod est inter F fa ut, et G sol re ut apprehende, tantam
-        quintae dissonantiam: quae pauloante imperfecta erat, in suauem concordiam recidisse
+      <p xml:id="AARIH30037">VEllem mi Aarron: quia modo quintam, et octauam imperfectas quando
+        illis semitonium maius deest ostendisti: si qua ratione id apertius deprehendi possit,
+        aperies. AARON. In Monochordo uel organo id facile apparebit. <pb n="[f.Fvir]"/>FLAMINIVS.
+        Memini certe: nunc uenit in mentem, Achillem meum Philerotem Bochium, qui quidem (ut nosti)
+        organi ac instrumentorum eiusmodi peritissimus est, hoc idem dicere solitum. Sed tunc minus
+        talia curabam: quem nunc adeo musice delectat. Quare tu uelim arcanum istud mihi pandas:
+        coniicio enim rem esse cognitu pulcherrimam. AARON. Faciam libenter quod petis. Igitur, si
+        digitis Monochordi tactos (ut uulgus appellat) apprehenderis duos, alterum quidem, in quo
+        est [sqb] mi alterum, in quo est F fa ut: quintam facies mi re discordem quia plena non est:
+        et semitonium, quod diximus illi abest. Vt autem hoc esse uerum deprehendas, tactum: in quo
+        est F fa ut: dimitte, ac semitonium, quod est inter F fa ut, et G sol re ut apprehende,
+        tantam quintae dissonantiam: quae pauloante imperfecta erat, in suauem concordiam recidisse
         uidebis. Idem quoque efficies si apprehendens priorem quintam: quae imperfecta erat, ad
         semitonium sinistrae manus, quod inter A re, ac [sqb] mi locum habet, eodem modo: quo supra
         diximus, apprehenderis: Nam ibi perfici quintam: sed adhuc pleniorem, ac magis, quam illam
@@ -397,8 +410,8 @@
         nihil aures offendant. Habes arcanum Flamini minime contemnendum, et ex intima quidem arte
         depromptum: quod quanti faciendum sit, ipsi artis periti iudicent.</p>
       <p xml:id="AARIH30038">
-        <anchor xml:id="CH317"/>QVOMODO PARTES MODVLATIONIS INTER se ordinandae sint ac primum
-        de cantu ac tenore. Caput .XVII.</p>
+        <anchor xml:id="CH317"/>QVOMODO PARTES MODVLATIONIS INTER se ordinandae sint ac primum de
+        cantu ac tenore. Caput .XVII.</p>
       <p xml:id="AARIH30039">IGitur ad rationem, et praecepta componendi redeuntes: a cantu quidem,
         atque tenore principium auspicabimur, et exempla, ut omnia fiant cognitu faciliora,
         proponemus. Cantum ergo in C sol fa ut locabimus, quod quando fiet, Tenor ab uni sono
@@ -406,34 +419,34 @@
         consonantiae non altiores cantu: sed inferiores inueniantur.</p>
       <p xml:id="AARIH30040">
         <anchor xml:id="CH318"/>DE BASSO. CAPVT .XVIII.</p>
-      <p xml:id="AARIH30041">SI tenor cum cantu in unisono fuerit, Bassus debebit in octaua inferiori
-        locum habere, quae quidem in C fa ut erit.</p>
+      <p xml:id="AARIH30041">SI tenor cum cantu in unisono fuerit, Bassus debebit in octaua
+        inferiori locum habere, quae quidem in C fa ut erit.</p>
       <p xml:id="AARIH30042">
         <anchor xml:id="CH319"/>DE ALTO VBI SIT LOCANDVS. CAPVT .XIX.</p>
-      <p xml:id="AARIH30043">ALtus inter Cantum, et Bassum debet medium tenere locum, et ita temperandus
-        est: ut Basso per Quintam sit altior, Cantu uero per Quartam sit inferior, qui quidem locus
-        in G sol re ut acuto est.</p>
+      <p xml:id="AARIH30043">ALtus inter Cantum, et Bassum debet medium tenere locum, et ita
+        temperandus est: ut Basso per Quintam sit altior, Cantu uero per Quartam sit inferior, qui
+        quidem locus in G sol re ut acuto est.</p>
       <p xml:id="AARIH30044">
         <anchor xml:id="CH320"/>DE ALIO CANTVS LOCO ET RELIQVARVM PARTIVM. CAPVT .XX.</p>
-      <p xml:id="AARIH30045">SI cantus in D la sol re fuerit, Tenor cum ipso cantu in tertia locetur,
-        quod in b fa [sqb] mi acuto fiet, tunc Bassus in quinta cum eodem cantu, id autem in G sol
-        re ut acuto continget, esse poterit, quae cum Tenore tertia fiet. Quod quidem ligamen Alti
-        locum infuscabit. Erit enim opus, usque ad G sol re ut superacutum ascendere. Verum, ne in
-        dicto principio idest in D la sol re fiat tanta Bassi distantia, quae quidem distantia,
-        Octaua <pb n="[f.Fviiv]"/>sub tenore idest in [sqb] mi fieret, et decima minor cum cantu
-        esset: primum quidem ligamen, et locum, quem dedimus supra non remouebimus, suauior enim
-        Inde concentus emanabit.</p>
+      <p xml:id="AARIH30045">SI cantus in D la sol re fuerit, Tenor cum ipso cantu in tertia
+        locetur, quod in b fa [sqb] mi acuto fiet, tunc Bassus in quinta cum eodem cantu, id autem
+        in G sol re ut acuto continget, esse poterit, quae cum Tenore tertia fiet. Quod quidem
+        ligamen Alti locum infuscabit. Erit enim opus, usque ad G sol re ut superacutum ascendere.
+        Verum, ne in dicto principio idest in D la sol re fiat tanta Bassi distantia, quae quidem
+        distantia, Octaua <pb n="[f.Fviiv]"/>sub tenore idest in [sqb] mi fieret, et decima minor
+        cum cantu esset: primum quidem ligamen, et locum, quem dedimus supra non remouebimus,
+        suauior enim Inde concentus emanabit.</p>
       <p xml:id="AARIH30046">
         <anchor xml:id="CH321"/>DE BASSO ITERVM CVM TENORE. Caput .XXI.</p>
-      <p xml:id="AARIH30047">SI uero Tenorem in quinta cum cantu locaueris, Bassum oportet in octaua,
-        tenori subesse. Quod quidem in Gamma ut continget: eritque cum cantu duodecima. Tunc autem
-        opus: Altum uel in G sol re ut superacuto esse: ut decimaquinta cum Basso resonet uel in b
-        fa [sqb] mi acuto: ut sit cum Basso decima quidem maior, mi tamen non fa sumendo, uel in
-        quinta supra Bassum: sic enim optimus fiet concentus.</p>
+      <p xml:id="AARIH30047">SI uero Tenorem in quinta cum cantu locaueris, Bassum oportet in
+        octaua, tenori subesse. Quod quidem in Gamma ut continget: eritque cum cantu duodecima. Tunc
+        autem opus: Altum uel in G sol re ut superacuto esse: ut decimaquinta cum Basso resonet uel
+        in b fa [sqb] mi acuto: ut sit cum Basso decima quidem maior, mi tamen non fa sumendo, uel
+        in quinta supra Bassum: sic enim optimus fiet concentus.</p>
       <p xml:id="AARIH30048">
         <anchor xml:id="CH322"/>DE BASSO RVRSVM CVM TENOre. Caput .XXII.</p>
-      <p xml:id="AARIH30049">SIn autem in sexta tenor cum cantu fuerit, tunc Bassus quintam sub tenore
-        postulabit: quae quidem in [sqb] mi erit: quod quidem [sqb] mi tunc per b molle cani
+      <p xml:id="AARIH30049">SIn autem in sexta tenor cum cantu fuerit, tunc Bassus quintam sub
+        tenore postulabit: quae quidem in [sqb] mi erit: quod quidem [sqb] mi tunc per b molle cani
         oportet, propter uocem fa, quae in F fa ut est, siquidem mi contra fa non licere poni, supra
         quidem in ordinandis consonantiis admonuimus: quia quinta eiusmodi imperfecta est. Altus
         uero potest in b fa [sqb] mi acuto poni fa tamen non mi sumendo, ut octauae inferiori
@@ -476,59 +489,59 @@
         usurpant.</p>
       <p xml:id="AARIH30054">
         <anchor xml:id="CH325"/>DE DIESI. CAPVT .XXV.</p>
-      <p xml:id="AARIH30055">DE diesi quaedam supra: prout res, ac locus exigere uidebatur, diximus: ubi
-        de semitonio tractauimus. Sed nunc: quoniam quasi membra ad suum corpus reducimus, hoc est
-        ipsam modulationem <pb n="[f.Fviiiv]"/>formamus, rem cognitu pulchram, et scitu necessariam
-        minime praetereundam putauimus. Diximus, ubi de semitonio egimus: illum quidem treis uoces,
-        uerum per spatia imperfecta complecti: unde nomen illi: quasi non sint pleni duo toni,
-        inditum esse monstrauimus: Neque uim suam, ac proprietatem mutat. Verumtamen ubicunque
-        uideris in modulatione diesim illi appositam, scito ibi tonum quidem imperfectum sic augeri,
-        ut de minori semitonio in integrum tonum pertranseat, siquidem tali diescos signo, ac
-        indicio imperfectae illi uoci semitonium maius adiicitur, ac tonus integer efficitur. Illud
-        tamen memoria tenendum est, hoc tantum in ascensu fieri. Vbi uero in descensu diesim eandem
-        uideris, scito rem fieri quidem admodum superiori contrariam, additur enim ascendendo
-        semitonium maius, et ex semiditono ditonus integer emergit, Contra descendendo subtrahitur
-        tantumdem, atque surripitur: quantum ascendendo erogaueras: Nam qui amoto diescos signo
-        tonus integer erat, eadem apposito in semitonium minus, ut est mi fa semitonio maiori
-        fraudatus exhauritur.</p>
+      <p xml:id="AARIH30055">DE diesi quaedam supra: prout res, ac locus exigere uidebatur, diximus:
+        ubi de semitonio tractauimus. Sed nunc: quoniam quasi membra ad suum corpus reducimus, hoc
+        est ipsam modulationem <pb n="[f.Fviiiv]"/>formamus, rem cognitu pulchram, et scitu
+        necessariam minime praetereundam putauimus. Diximus, ubi de semitonio egimus: illum quidem
+        treis uoces, uerum per spatia imperfecta complecti: unde nomen illi: quasi non sint pleni
+        duo toni, inditum esse monstrauimus: Neque uim suam, ac proprietatem mutat. Verumtamen
+        ubicunque uideris in modulatione diesim illi appositam, scito ibi tonum quidem imperfectum
+        sic augeri, ut de minori semitonio in integrum tonum pertranseat, siquidem tali diescos
+        signo, ac indicio imperfectae illi uoci semitonium maius adiicitur, ac tonus integer
+        efficitur. Illud tamen memoria tenendum est, hoc tantum in ascensu fieri. Vbi uero in
+        descensu diesim eandem uideris, scito rem fieri quidem admodum superiori contrariam, additur
+        enim ascendendo semitonium maius, et ex semiditono ditonus integer emergit, Contra
+        descendendo subtrahitur tantumdem, atque surripitur: quantum ascendendo erogaueras: Nam qui
+        amoto diescos signo tonus integer erat, eadem apposito in semitonium minus, ut est mi fa
+        semitonio maiori fraudatus exhauritur.</p>
       <p xml:id="AARIH30056">
         <anchor xml:id="CH326"/>QVOMODO PLVRES TERTIAE PLVRESQVE SEXTAE alia post aliam locari
         possint. Caput .XXVI.</p>
-      <p xml:id="AARIH30057">SVpra, cum de Tenore cum Cantu loqueremur, quia unius tertiae tantummodo,
-        ac sextae mentionem fecimus, errorem qui suboriri posset: ac dubitationem tollendam putamus:
-        ut, quae in consonantiis supra diximus, in extruenda modulatio ne ipsa uera esse
-        comprobemus. Nunc ergo quomodo plures tertiae, pluresque sextae alia post aliam locari
-        possint, explicabimus: et modum, qui seruari debeat, componere uolenti facilem, et apertum
-        monstrabimus. Nam si antedictum Tenoris cum cantu ordinem seruare quis uelit, consonantiae
-        sibi inuicem non respondebunt. Vt autem exemplo id: quod dicimus ita esse constet, Cantum in
-        D la sol re ponemus, Tenorem uero in tertia idest in b fa [sqb] mi: sicut dictum est,
-        inferiori locabimus: Bassum uero in G sol re ut acuto statuemus, quae quidem erit Quinta
-        cantu inferior. Altus deinde in G sol re ut superacuto constituatur. Quod uero Tenor in
-        dicto ligamine cum cantu ad aliam tertiam progredi non <pb n="[f.Gir]"/>possit: exemplo
-        patebit. Moueatur de loco D la sol re cantus: et in E la mi acutum ascendat. Tenor in alia
-        tertia, sicut prius erat subsequatur: quae in C sol fa ut erit: fiet quidem: ut Bassus non
-        possit antedictum ordinem seruare: erat enim quinta cum cantu: qui cantus in D la sol re
-        erat: Bassus autem in G sol re ut acuto. Ergo si Cantus in praedictum E la mi transferatur:
-        et Bassus eodem modo per quintam progrediatur: idest per quintam sequatur, uitium: quod
-        maxime cauendum diximus, exoritur: siquidem quinta statim post quintam subsequitur: quod
-        quidem fieri non debere rationibus: supra monstrauimus. Idem uitium in aliis quoque
-        accideret ligaminibus: Nam plures continuatae fierent, eiusdem generis consonantiae: quae
-        uitiosam proculdubio modulationem redderent. Quod quidem ne acidat: quid et quando faciundum
-        sit diligenti ordine monstrabimus. Primum igitur liberum componenti relinquimus: ut unde
-        uelit incipiat. Postea uero si per duas: treis: quattuor: aut plures tertias ascendendo, uel
-        descendendo uoluerit tenorem cum cantu procedere: per ipsas quidem tertias hac modo
-        ascendat, uel etiam descendat: ut cantus ipse a D la sol re incipiat: et gradatim: idest
-        nota post notam usque ad G sol re ut superacutum progrediatur. Qui quidem progressus si fiat
-        sociatus cum dicto tenore per tertias quattuor ab antedicto b fa [sqb] mi inchoando: et
-        usque ad E la mi acutum procedendo: prima quidem tertia in dicto b fa [sqb] mi ordinata sub
-        cantu sub se Bassum habebit in octaua: quae quidem in [sqb] mi erit: quod tunc quidem in b
-        molle transferri non debet, et erit cum cantu decima. Altus uero uel cum cantu, uel cum
-        tenore in unisono sit, quia locus illi proprius deest: quem in F fa ut graui habet. Ratio
-        autem est quia quinta cum Basso imperfecta esset: quae quidem, sicuti patet, inter [sqb] mi,
-        et F fa ut est. In F fa ut autem acuto locari non potest: nam fieret ibi quoque quinta
-        imperfecta cum dicto tenore, qui supradicto b fa [sqb] mi positus est: nec basso etiam
-        respondere posset: quia in duodecima quidem imperfecta est. Quae sane coniunctiones, ut
-        supra ostendimus, tolerabiles non sunt. Altus igitur propter eiusmodi imperfectarum
+      <p xml:id="AARIH30057">SVpra, cum de Tenore cum Cantu loqueremur, quia unius tertiae
+        tantummodo, ac sextae mentionem fecimus, errorem qui suboriri posset: ac dubitationem
+        tollendam putamus: ut, quae in consonantiis supra diximus, in extruenda modulatio ne ipsa
+        uera esse comprobemus. Nunc ergo quomodo plures tertiae, pluresque sextae alia post aliam
+        locari possint, explicabimus: et modum, qui seruari debeat, componere uolenti facilem, et
+        apertum monstrabimus. Nam si antedictum Tenoris cum cantu ordinem seruare quis uelit,
+        consonantiae sibi inuicem non respondebunt. Vt autem exemplo id: quod dicimus ita esse
+        constet, Cantum in D la sol re ponemus, Tenorem uero in tertia idest in b fa [sqb] mi: sicut
+        dictum est, inferiori locabimus: Bassum uero in G sol re ut acuto statuemus, quae quidem
+        erit Quinta cantu inferior. Altus deinde in G sol re ut superacuto constituatur. Quod uero
+        Tenor in dicto ligamine cum cantu ad aliam tertiam progredi non <pb n="[f.Gir]"/>possit:
+        exemplo patebit. Moueatur de loco D la sol re cantus: et in E la mi acutum ascendat. Tenor
+        in alia tertia, sicut prius erat subsequatur: quae in C sol fa ut erit: fiet quidem: ut
+        Bassus non possit antedictum ordinem seruare: erat enim quinta cum cantu: qui cantus in D la
+        sol re erat: Bassus autem in G sol re ut acuto. Ergo si Cantus in praedictum E la mi
+        transferatur: et Bassus eodem modo per quintam progrediatur: idest per quintam sequatur,
+        uitium: quod maxime cauendum diximus, exoritur: siquidem quinta statim post quintam
+        subsequitur: quod quidem fieri non debere rationibus: supra monstrauimus. Idem uitium in
+        aliis quoque accideret ligaminibus: Nam plures continuatae fierent, eiusdem generis
+        consonantiae: quae uitiosam proculdubio modulationem redderent. Quod quidem ne acidat: quid
+        et quando faciundum sit diligenti ordine monstrabimus. Primum igitur liberum componenti
+        relinquimus: ut unde uelit incipiat. Postea uero si per duas: treis: quattuor: aut plures
+        tertias ascendendo, uel descendendo uoluerit tenorem cum cantu procedere: per ipsas quidem
+        tertias hac modo ascendat, uel etiam descendat: ut cantus ipse a D la sol re incipiat: et
+        gradatim: idest nota post notam usque ad G sol re ut superacutum progrediatur. Qui quidem
+        progressus si fiat sociatus cum dicto tenore per tertias quattuor ab antedicto b fa [sqb] mi
+        inchoando: et usque ad E la mi acutum procedendo: prima quidem tertia in dicto b fa [sqb] mi
+        ordinata sub cantu sub se Bassum habebit in octaua: quae quidem in [sqb] mi erit: quod tunc
+        quidem in b molle transferri non debet, et erit cum cantu decima. Altus uero uel cum cantu,
+        uel cum tenore in unisono sit, quia locus illi proprius deest: quem in F fa ut graui habet.
+        Ratio autem est quia quinta cum Basso imperfecta esset: quae quidem, sicuti patet, inter
+        [sqb] mi, et F fa ut est. In F fa ut autem acuto locari non potest: nam fieret ibi quoque
+        quinta imperfecta cum dicto tenore, qui supradicto b fa [sqb] mi positus est: nec basso
+        etiam respondere posset: quia in duodecima quidem imperfecta est. Quae sane coniunctiones,
+        ut supra ostendimus, tolerabiles non sunt. Altus igitur propter eiusmodi imperfectarum
         dissonantiam in praedicto unisono relinquendus est.</p>
       <p xml:id="AARIH30058">
         <anchor xml:id="CH327"/>QVOMODO PLVres sectae componi queant. Caput .XXVII.</p>
@@ -558,7 +571,8 @@
         receptum est, da operam semper, si fieri possit, ut octaua sequatur. Quod si plures forte
         facere sextas uolueris, nihil impedimus, modo in duabus tantum partibus: aut ad summum
         tribus id fiat. Quod si in tribus, tertiam oportebit in medio duarum locare idest in quarta
-        Diatessaron uoce sub prima parte. Quando autem melius sit ob tale quidem ligamen <pb n="[f.Giir]"/>Bassum in dictam octauam desinere, exemplo, ut pateat faciam. Ergo cantum in
+        Diatessaron uoce sub prima parte. Quando autem melius sit ob tale quidem ligamen <pb
+          n="[f.Giir]"/>Bassum in dictam octauam desinere, exemplo, ut pateat faciam. Ergo cantum in
         F fa ut acuto ponamus, et Fa fa dicamus, et eodem ligamine tenor progrediatur, quod erit
         primum fa cum dicto tenore in sexta, secundum uero in quinta, quam licet imperfecta sit,
         concedimus, cum cantus ad tertiam procedat quia fit audienti grata, et ultima quoque ad
@@ -570,14 +584,13 @@
         orationem conuertam.</p>
       <p xml:id="AARIH30062">
         <anchor xml:id="CH329"/>DE SECVNDA TERTIA TENORIS CVM CANTV. CAPVT .XXIX.</p>
-      <p xml:id="AARIH30063">SEcunda uero Tertia Tenoris cum cantu sub se Bassum in sexta debet habere.
-        Ea fiet in E la mi graui: quae Cantui octaua continget. Altus uero in G sol re ut acuto
-        constituatur, fietque supra Bassum Tertia, et semper fieri debet permanente tali partium
-        ligamine. Quod si forte dictus Altus difficilis canenti fieret, incommodusque, uel unisono
-        memineris, uel pausa duritiem eiusmodi, ac difficultatem lenire.</p>
+      <p xml:id="AARIH30063">SEcunda uero Tertia Tenoris cum cantu sub se Bassum in sexta debet
+        habere. Ea fiet in E la mi graui: quae Cantui octaua continget. Altus uero in G sol re ut
+        acuto constituatur, fietque supra Bassum Tertia, et semper fieri debet permanente tali
+        partium ligamine. Quod si forte dictus Altus difficilis canenti fieret, incommodusque, uel
+        unisono memineris, uel pausa duritiem eiusmodi, ac difficultatem lenire.</p>
       <p xml:id="AARIH30064">
-        <anchor xml:id="CH330"/>DE ORDINATIONE TERTIAE, TERTIAE TENORIS CVM CANTV. CAPVT
-        .XXX.</p>
+        <anchor xml:id="CH330"/>DE ORDINATIONE TERTIAE, TERTIAE TENORIS CVM CANTV. CAPVT .XXX.</p>
       <p xml:id="AARIH30065">TErtia uero tertia tenoris eiusdem cum cantu octauam habeat. Post illam
         sexta sequatur, quae cum Cantu Decima fiet. Altus uero in quinta supra Bassum locetur. Quod
         si forte fieret canenti difficile, ad unisonum, uel pausam (uti iam monuimus) confugiendum
@@ -604,19 +617,19 @@
         paulo ante monstrauimus.</p>
       <p xml:id="AARIH30066">
         <anchor xml:id="CH331"/>QVOMODO TERTIIS IISDEM IN DESCENSV SIT VTENDVM. CAPVT .XXXI.</p>
-      <p xml:id="AARIH30067">SI forte antedictum ordinem in descensu seuare uolueris idest ut cantus:
-        qui in G sol re ut sit (de superacuto loquor) usque ad D la sol re descendat: et idem per
-        tertias faciat tenor ab E la mi secundo in b fa [sqb] mi acutum descendendo, necesse erit,
-        Bassum in decima sub tenore ponere. Is autem locus in C fa ut erit, quae duodecima fiet cum
-        cantu consonantia. <pb n="[f.Giiir]"/>Altus uero in quinta sub cantu locandus erit, quae
-        quidem octaua supra Bassum continget. In secunda uero tertia Bassus in octaua erit
-        inferiori, quae cum cantu in decimam euadet minorem. Altus uero supra in quinta cum Basso,
-        quae quidem cum tenore Diatessaron fiet, cum cantu uero suberit sexta. Tertia deinde tertia
-        Bassum in decima sub se postulabit, quae quidem in A re est et duodecima cum cantu
-        respondet. Altus uero in octaua sit supra Bassum. Ex quo quidem ligamine, quinta cum cantu,
-        at sub tenore tertia respondebit. Quarto aut loco Bassus tenori suberit in octaua, idest in
-        [sqb] mi, sed non per b molle cantato, nam sic dictam octauam redderet imperfectam, et ita
-        cum cantu decima continget. Ex hoc autem ligamine non extabit locus, ubi Altus possit
+      <p xml:id="AARIH30067">SI forte antedictum ordinem in descensu seuare uolueris idest ut
+        cantus: qui in G sol re ut sit (de superacuto loquor) usque ad D la sol re descendat: et
+        idem per tertias faciat tenor ab E la mi secundo in b fa [sqb] mi acutum descendendo,
+        necesse erit, Bassum in decima sub tenore ponere. Is autem locus in C fa ut erit, quae
+        duodecima fiet cum cantu consonantia. <pb n="[f.Giiir]"/>Altus uero in quinta sub cantu
+        locandus erit, quae quidem octaua supra Bassum continget. In secunda uero tertia Bassus in
+        octaua erit inferiori, quae cum cantu in decimam euadet minorem. Altus uero supra in quinta
+        cum Basso, quae quidem cum tenore Diatessaron fiet, cum cantu uero suberit sexta. Tertia
+        deinde tertia Bassum in decima sub se postulabit, quae quidem in A re est et duodecima cum
+        cantu respondet. Altus uero in octaua sit supra Bassum. Ex quo quidem ligamine, quinta cum
+        cantu, at sub tenore tertia respondebit. Quarto aut loco Bassus tenori suberit in octaua,
+        idest in [sqb] mi, sed non per b molle cantato, nam sic dictam octauam redderet imperfectam,
+        et ita cum cantu decima continget. Ex hoc autem ligamine non extabit locus, ubi Altus possit
         constitui, in dicto enim ligamine locum non misi in D sol re habet, quae quidem erit supra
         Bassum tertia sed duriuscula. Quare melius in F fa ut graui, et acuto ponetur, hac tamen
         lege: ut dictum ligamen per b molle canatur, quia in iis quidem locis ob eas, quas
@@ -657,7 +670,8 @@
         adhibeatur artificium. Exemplo id quidem ostendam. Quando periti compositores uolunt
         eiusmodi quinta uti, iam animo suo praesumpserunt, ac praecogitarunt, in confugio pulchrae
         alicuius coronae, siue receptus conquiescere: et ad unam tertiam deuenire, quemadmodum ex
-        iis patere poterit, quae subiiciemus, Cantus in A la mi re supradicto erit, quo <pb n="[f.Giiiir]"/>in loco duae semibreues repetentur, ac bis la la dicetur. At postquam duae
+        iis patere poterit, quae subiiciemus, Cantus in A la mi re supradicto erit, quo <pb
+          n="[f.Giiiir]"/>in loco duae semibreues repetentur, ac bis la la dicetur. At postquam duae
         illae notae dictae fuerint, uno tantum gradu et uoce in G sol re ut superacutum descendetur,
         in quo quidem loco quiescetur, ac respirabitur. Tunc tenor sub prima illam uoce, quae est la
         per sextam procedet, quae in C sol fa ut est. Illa uero secunda uox la per quintam
@@ -685,19 +699,20 @@
       <p xml:id="AARIH30072">
         <pb n="[f.Giiiiv]"/>
         <anchor xml:id="CH334"/>DE ALIA STRVCTVRA CANTILENAE. CAPVT .XXXIIII.</p>
-      <p xml:id="AARIH30073">SI cantilenam formare uolueris, in qua Tenorem in unisono socies, Bassum
-        debebis in octaua, uel in Decima subiungere. Tunc Altus in quinta supra Bassum constituatur,
-        si Bassus ipse in octaua fuerit. Quod si in Decima, tunc Altus in octaua superiori locum
-        habeat. Verum ligamen quod prius dixi, erit melius, atque suauius. Quod si per Tertiam
-        sequeris, octauam quidem exigeret. Verum, quia primum una quidem cum dicto tenore octaua
-        sequitur, Bassus cum tenore in Decima sociabitur. Altus uero supra Bassum in octaua. Et
-        quoties Tenorem in Tertiis cum Cantu inueneris toties Bassum in octaua, Altum in Quinta
-        supra Bassum constitues, nisi forte ascensus quispiam, uel descensus canenti incommodus, ac
-        difficilis inciderit. Quod si forte continget ad pausam uel unisonum recurrendum erit.
-        Praeterea si tenor in sexta cum cantu fuerit, semper Bassus in quinta sub tenore, Altus uero
-        in octaua supra Bassum locetur. Quod si dicta octaua forte incommoda fuerit, Tertiam supra
-        dictum facere Bassum poteris: et hoc quidem, quamdiu possit, seruandum erit. Quod si non
-        possit ad opem unisoni, uel pausae (ut saepe iam monuimus) confugiendum erit.</p>
+      <p xml:id="AARIH30073">SI cantilenam formare uolueris, in qua Tenorem in unisono socies,
+        Bassum debebis in octaua, uel in Decima subiungere. Tunc Altus in quinta supra Bassum
+        constituatur, si Bassus ipse in octaua fuerit. Quod si in Decima, tunc Altus in octaua
+        superiori locum habeat. Verum ligamen quod prius dixi, erit melius, atque suauius. Quod si
+        per Tertiam sequeris, octauam quidem exigeret. Verum, quia primum una quidem cum dicto
+        tenore octaua sequitur, Bassus cum tenore in Decima sociabitur. Altus uero supra Bassum in
+        octaua. Et quoties Tenorem in Tertiis cum Cantu inueneris toties Bassum in octaua, Altum in
+        Quinta supra Bassum constitues, nisi forte ascensus quispiam, uel descensus canenti
+        incommodus, ac difficilis inciderit. Quod si forte continget ad pausam uel unisonum
+        recurrendum erit. Praeterea si tenor in sexta cum cantu fuerit, semper Bassus in quinta sub
+        tenore, Altus uero in octaua supra Bassum locetur. Quod si dicta octaua forte incommoda
+        fuerit, Tertiam supra dictum facere Bassum poteris: et hoc quidem, quamdiu possit, seruandum
+        erit. Quod si non possit ad opem unisoni, uel pausae (ut saepe iam monuimus) confugiendum
+        erit.</p>
       <p xml:id="AARIH30074">
         <anchor xml:id="CH335"/>DE INDICIBVS CANTILLENARVM ET CADENTIIS. CAPVT .XXXV.</p>
       <p xml:id="AARIH30075">DVo sunt in usu cantilenis indices, qui quoddam canenti respiramen, et
@@ -740,17 +755,16 @@
         facere debebis. At si octauam malueris, facito, ut illam sexta subsequatur. Tertio autem
         loco similiter in octauam desinas, ut recto cantum, et grato fine concludas.</p>
       <p xml:id="AARIH30080">
-        <anchor xml:id="CH338"/>QVOMODO SINT ORDINANDAE DVPLICATAE CADENTIAE. CAPVT
-        .XXXVIII.</p>
-      <p xml:id="AARIH30081">VErum, quia potest accidere, ut praecepta de hac re, quae tibi proposui,
-        tanquam paulo difficiliora non satis perceperis, ut plenius tibi faciam satis, et nihil
-        ultra desyderes: apertiorem adhuc ordinem in praedictis cadentiis tibi proponam et cuilibet
-        cadentiae iuxta progressum supra monstratum, ut omnia faciliora fiant, tenorem, bassum, et
-        altum sociabimus. Igitur sub prima cadentia, FA MI FA, uel SOL FA SOL tibi sic faciundum
-        erit. Sub priori quidem Fa tenor, si octauam fecerit, sub MI sextam reddet dicendo VT RE VT
-        de C fa ut. Si uero sextam, MI RE VT consonabis. Quod uero ad Bassum attinet, hoc tibi
-        seruandum erit, ut cum prima tenoris nota Bassus tertiam faciat, cum secunda, quintam cum
-        ultima uero, octauam coniungat inferriorem, si tamen id commode fieri poterit: si non
+        <anchor xml:id="CH338"/>QVOMODO SINT ORDINANDAE DVPLICATAE CADENTIAE. CAPVT .XXXVIII.</p>
+      <p xml:id="AARIH30081">VErum, quia potest accidere, ut praecepta de hac re, quae tibi
+        proposui, tanquam paulo difficiliora non satis perceperis, ut plenius tibi faciam satis, et
+        nihil ultra desyderes: apertiorem adhuc ordinem in praedictis cadentiis tibi proponam et
+        cuilibet cadentiae iuxta progressum supra monstratum, ut omnia faciliora fiant, tenorem,
+        bassum, et altum sociabimus. Igitur sub prima cadentia, FA MI FA, uel SOL FA SOL tibi sic
+        faciundum erit. Sub priori quidem Fa tenor, si octauam fecerit, sub MI sextam reddet dicendo
+        VT RE VT de C fa ut. Si uero sextam, MI RE VT consonabis. Quod uero ad Bassum attinet, hoc
+        tibi seruandum erit, ut cum prima tenoris nota Bassus tertiam faciat, cum secunda, quintam
+        cum ultima uero, octauam coniungat inferriorem, si tamen id commode fieri poterit: si non
         poterit, ad unisonum, uel quintam supra tenorem se recipiat, Nam finem huiusmodi liberum
         componenti relinquimus: praeter quam in cadentia in superacutum A LA MI RE desinente, in qua
         non poteris eo modo teminare, praecipue, si tenor sub indice b mollis cantetur, nam si
@@ -766,49 +780,50 @@
       <p xml:id="AARIH30082">
         <anchor xml:id="CH339"/>DE LOCIS CADENTIARVM ORDINARIIS AC ILLARVM SVSPENSIONIBVS. CAPVT
         .XXXIX.</p>
-      <p xml:id="AARIH30083">VErum ut clariora fiant, quae ad cadentias pertinent omnia, et certo quidem
-        ordine faciliora, ponemus locos: ac dicemus puta, FA MI FA. SOL FA SOL, et primum quidem FA
-        MI FA per [sqb] quadrum canetur. Secundum autem, idest SOL FA SOL per b rotundum. Vtrunque
-        in C sol fa ut inuenietur. Secundo autem loco RE VT RE: uel LA SOL LA: uel SOL FA SOL per
-        naturam acutam per b molle graue, per [sqb] quadrum acutum, in D LA SOL RE. Tertio MI RE MI,
-        aut LA SOL LA per naturam acutam, ac per [sqb] quadrum, item acutum in E LA MI secundo.
-        Quarto FA MI FA per naturam tantum acutam in F fa ut acuto. Quinto SOL FA SOL, aut RE VT RE
-        per eandem naturam et per b molle acutum in G sol re ut superacuto. Sexto LA SOL LA, aut MI
-        RE MI, aut RE VT RE, et quidem LA SOL LA per naturam acutam. MI RE MI per b molle acutum. RE
-        VT RE per [sqb] quadrum superacutum in A la mi re superacuto. Septimo autem loco FA MI FA
-        per b molle acutum, aut MI RE MI per b quadrum superacutum in b fa [sqb] mi superacuto.
-        Octauo FA MI FA per [sqb] quadrum superacutum, aut SOL FA SOL per b molle superacutum in C
-        sol fa nono SOL FA SOL per [sqb] quadrum superacutum. LA SOL LA per b molle superacutum in D
-        la sol. Decimo ac ultimo loco sed quod rarissime contingit, LA SOL LA tantummodo per [sqb]
-        quadrum superacutum in E la. Id autem, quia sicut dixi, rarissimum est arbitrio componentis
-        relinquitur. Ergo ex his, quae dicta sunt, atque ex ordine quem monstrauimus cadentiae
-        quidem locos habent numero decem. Sed re uera: ac nomine ipso quinque tantum sunt, uidelicet
-        RE VT RE. <pb n="[f.Gviv]"/>MI RE MI. FA MI FA. SOL FA SOL. LA SOL LA Sciendum autem illud
-        est, cadentias omneis, quae terminatae per tonos monstrantur, debere supspendi, et primum
-        quidem secundum ordinem locum tenet RE VT RE. Sequuntur autem MI RE MI. SOL FA SOL. LA SOL
-        LA. Quae uero per semitonium pronunciantur, suspendendae non sunt, sicut FA MI FA: Nam haec
-        quidem naturalem secum habet suspensionem. Cuius sane rei quia supra quidem nulla quidem
-        mentio facta est, quomodo se habeant, et componendae sint nunc praemonstrabimus.</p>
+      <p xml:id="AARIH30083">VErum ut clariora fiant, quae ad cadentias pertinent omnia, et certo
+        quidem ordine faciliora, ponemus locos: ac dicemus puta, FA MI FA. SOL FA SOL, et primum
+        quidem FA MI FA per [sqb] quadrum canetur. Secundum autem, idest SOL FA SOL per b rotundum.
+        Vtrunque in C sol fa ut inuenietur. Secundo autem loco RE VT RE: uel LA SOL LA: uel SOL FA
+        SOL per naturam acutam per b molle graue, per [sqb] quadrum acutum, in D LA SOL RE. Tertio
+        MI RE MI, aut LA SOL LA per naturam acutam, ac per [sqb] quadrum, item acutum in E LA MI
+        secundo. Quarto FA MI FA per naturam tantum acutam in F fa ut acuto. Quinto SOL FA SOL, aut
+        RE VT RE per eandem naturam et per b molle acutum in G sol re ut superacuto. Sexto LA SOL
+        LA, aut MI RE MI, aut RE VT RE, et quidem LA SOL LA per naturam acutam. MI RE MI per b molle
+        acutum. RE VT RE per [sqb] quadrum superacutum in A la mi re superacuto. Septimo autem loco
+        FA MI FA per b molle acutum, aut MI RE MI per b quadrum superacutum in b fa [sqb] mi
+        superacuto. Octauo FA MI FA per [sqb] quadrum superacutum, aut SOL FA SOL per b molle
+        superacutum in C sol fa nono SOL FA SOL per [sqb] quadrum superacutum. LA SOL LA per b molle
+        superacutum in D la sol. Decimo ac ultimo loco sed quod rarissime contingit, LA SOL LA
+        tantummodo per [sqb] quadrum superacutum in E la. Id autem, quia sicut dixi, rarissimum est
+        arbitrio componentis relinquitur. Ergo ex his, quae dicta sunt, atque ex ordine quem
+        monstrauimus cadentiae quidem locos habent numero decem. Sed re uera: ac nomine ipso quinque
+        tantum sunt, uidelicet RE VT RE. <pb n="[f.Gviv]"/>MI RE MI. FA MI FA. SOL FA SOL. LA SOL LA
+        Sciendum autem illud est, cadentias omneis, quae terminatae per tonos monstrantur, debere
+        supspendi, et primum quidem secundum ordinem locum tenet RE VT RE. Sequuntur autem MI RE MI.
+        SOL FA SOL. LA SOL LA. Quae uero per semitonium pronunciantur, suspendendae non sunt, sicut
+        FA MI FA: Nam haec quidem naturalem secum habet suspensionem. Cuius sane rei quia supra
+        quidem nulla quidem mentio facta est, quomodo se habeant, et componendae sint nunc
+        praemonstrabimus.</p>
       <p xml:id="AARIH30084">
         <anchor xml:id="CH340"/>DE DVOBVS SVSPENSIONVM modis. Caput .XL.</p>
-      <p xml:id="AARIH30085">PRaedictarum autem suspensionum duo sunt modi quorum alter rationis est,
-        uel compositionis, alter (uti nobis est mos dicere) signi. Id autem signum figura dieseos
-        est quae posita sub ea nota: quae suspendenda est eorum causa, qui minus periti sunt: illam
-        quam dixi, suspensionem indicat.</p>
+      <p xml:id="AARIH30085">PRaedictarum autem suspensionum duo sunt modi quorum alter rationis
+        est, uel compositionis, alter (uti nobis est mos dicere) signi. Id autem signum figura
+        dieseos est quae posita sub ea nota: quae suspendenda est eorum causa, qui minus periti
+        sunt: illam quam dixi, suspensionem indicat.</p>
       <p xml:id="AARIH30086">
         <anchor xml:id="CH341"/>QVANDO SVSPENdendae non sunt cadentiae. Caput .XLI.</p>
-      <p xml:id="AARIH30087">SVpra diximus omnes quidem cadentias, quae per tonos terminantur, suspendi
-        et id quidem generaliter, ac naturaliter dictum uolumus. Id autem intelligendum est, quam
-        tenores per duos tonos procedunt hoc pacto VT RE VT, uel MI RE VT, uel sic RE MI RE, tunc
-        enim superior cadentia suspenditur, ut ab RE VT ad VT de D la sol re ipsum VT suspendendum
-        erit propter sextam minorem, quae in MI, quod est in E la mi graui nasceretur. Et si maiori
-        sexta opus fuerit uti hic modus suspendendi seruandus erit. Sed ut res apertior: et facilior
-        fiat, scito, quoties tenor per unum semitonium ante ipsam terminationem procedat, cadentias
-        cantus, quamuis per tonum respondeant, non suspendi, quia perfectum ibi siue maius
-        Hexachordon inuenitur, ut ab E la mi graui ad F fa ut graue. Idem ab A la mi re acuto ad b
-        fa [sqb] mi acutum contingit per b molle cantatum, et ab eodem b fa [sqb] mi ad C sol fa ut,
-        idem in caeteris fiet locis. Huiusmodi autem suspensiones, ut meliores fierent consonantiae
-        sunt inuentae.</p>
+      <p xml:id="AARIH30087">SVpra diximus omnes quidem cadentias, quae per tonos terminantur,
+        suspendi et id quidem generaliter, ac naturaliter dictum uolumus. Id autem intelligendum
+        est, quam tenores per duos tonos procedunt hoc pacto VT RE VT, uel MI RE VT, uel sic RE MI
+        RE, tunc enim superior cadentia suspenditur, ut ab RE VT ad VT de D la sol re ipsum VT
+        suspendendum erit propter sextam minorem, quae in MI, quod est in E la mi graui nasceretur.
+        Et si maiori sexta opus fuerit uti hic modus suspendendi seruandus erit. Sed ut res
+        apertior: et facilior fiat, scito, quoties tenor per unum semitonium ante ipsam
+        terminationem procedat, cadentias cantus, quamuis per tonum respondeant, non suspendi, quia
+        perfectum ibi siue maius Hexachordon inuenitur, ut ab E la mi graui ad F fa ut graue. Idem
+        ab A la mi re acuto ad b fa [sqb] mi acutum contingit per b molle cantatum, et ab eodem b fa
+        [sqb] mi ad C sol fa ut, idem in caeteris fiet locis. Huiusmodi autem suspensiones, ut
+        meliores fierent consonantiae sunt inuentae.</p>
       <p xml:id="AARIH30088">
         <anchor xml:id="CH342"/>DE DVOBVS LOCIS CAdentiarum tenoris. Caput .XLII.</p>
       <p xml:id="AARIH30089">
@@ -837,14 +852,15 @@
         uocis profunditatem tum propter linearum accidentalium necessitatem, et componenti, et
         canenti fieret admodum incommodus. Si tamen libuerit, talem poteris accidentalem ordinem
         sequi: Nam quae supra de duobus dixi locis, uelim, secundum naturalem ordinem dicta
-        intelligi. Poteris, aliam quoque partem supra primum cantum constituere: quae <pb n="[f.Gviiv]"/>quidem in E la mi tertiae maior fiet, et octo partes naturales, et commodae
+        intelligi. Poteris, aliam quoque partem supra primum cantum constituere: quae <pb
+          n="[f.Gviiv]"/>quidem in E la mi tertiae maior fiet, et octo partes naturales, et commodae
         quidem coniungetur. Vt autem antedicta ligamina ob numerositatem inter se differentia esse
         dignoscantur, indicio [sqb] quadri, et mollis demonstranda erunt.</p>
       <p xml:id="AARIH30092">
-        <anchor xml:id="CH344"/>DE LIGAMINVM DIFFERENTIA PER [SQB] QVADRVM AC ROtundum
-        compositorum. Caput .XLIIII.</p>
-      <p xml:id="AARIH30093">CVm partem ultimam inferiorem per signum [sqb] quadri constituerimus, ac b
-        mollis, diligenter erit examinandum: quaenam illi societas copulari queat. In inferiori
+        <anchor xml:id="CH344"/>DE LIGAMINVM DIFFERENTIA PER [SQB] QVADRVM AC ROtundum compositorum.
+        Caput .XLIIII.</p>
+      <p xml:id="AARIH30093">CVm partem ultimam inferiorem per signum [sqb] quadri constituerimus,
+        ac b mollis, diligenter erit examinandum: quaenam illi societas copulari queat. In inferiori
         quidem loco prima uox locabitur in semiditono scilicet sub Gamma ut mi dicendo. Secunda uox
         tertia superior in eodem Gamma ut erit. Tertia uero in [sqb] mi, quae quinta supra primam
         uocem ueniet. Quarta in E la mi graui, quae supra uocem primam fiet octaua. Quinta in G sol
@@ -857,38 +873,38 @@
         [sqb] quadri, non est ultra progrediendum.</p>
       <p xml:id="AARIH30094">
         <anchor xml:id="CH345"/>DE PROGRESSV EIVSDEM LIGAMINIS PER B MOLLE. CAPVT .XLV.</p>
-      <p xml:id="AARIH30095">QVomodo autem per signum b mollis procedendum sit nunc ostendemus. Posito
-        primo cantu in b fa [sqb] mi fa dicendo, cautum esse te oporrtebit, ut cum supradictus
-        cantus per b molle cantetur, succedentes reliquae partes in eodem signo canantur. Aliter
-        enim quinta incideret imperfecta inter F fa ut secundum, et b fa [sqb] mi primum. Praeterea
-        Diapason quoque imperfectum, quod quidem a secundo b fa [sqb] mi ad primum astenditur. Alia
-        quoque uitia de illis uenientia in partibus, quae graues sunt generata patrarentur. Hac de
-        causa signum b mollis <pb n="[f.Gviiir]"/>antedictum sequi oportebit. In ipso igitur b fa
-        [sqb] mi secundo cantum locabis fa dicendo. Secunda uox in F fa ut acuto erit, quae in
-        quarta uoce respondet. Tertia uox eidem cantui suberit in sexta: quae in D la sol re locum
-        habet. Quarta in b fa [sqb] mi priori: quae octauam efficiet. Quinta in F fa ut priori: quae
-        quidem erit cum dicto cantu undecima. Sexta in D sol re: quae decimatertia consonabit.
-        Septima in [sqb] mi per antedictum b molle cantato. Octaua in Gamma ut: quae decimaseptima
-        efficietur. Nona, et ultima locum in parte accidentali habebit post antedictum Gamma ut per
-        tertiam maiorem: quae per signum b mollis cantabitur: siquidem consyderatis aliis partibus
-        superioribus stare aliter non posset: quiquidem locus decimanona sub cantu erit. Ad
-        inferiora pars haec non descendit, propter incommoda: quae supra in talibus progressibus
-        narrata sunt. Haec autem ideo proponere uolui, ne ignorares, paruam quidem inesse
-        differentiam, uel per [sqb] quadrum componas, aut canas, uel per b rotundum: Nam multis in
-        locis partes alias sic ordinatas, et praedicto modo procedentes ligare poteris, et erunt
-        aequales, ac similes, aut parum quidem inter se differentes. Id autem proximo superiori
-        exemplo, et posteriori, in quibus ambobus locos nouem complexi sumus, apertum fecimus. Sed
-        partem insuper aliam huic ultimo exemplo arbitrariam addimus: ut in E la scilicet alia uox
-        inchoari queat: quae uigesimasecunda consonabit, si fa in dicto E la dixeris. Aliter enim si
-        diligenter, et attente consyderes, fieri nequit. Quare, ut finem his faciam, si prima
-        praecepta accurate seruaueris, facile quidem, ac breui omnia: quae cognitu necessaria sunt,
-        consequeris, facilem enim et apertam monstrauimus uiam, qua sic quidem in aliis quoque
-        positionibus, ac ligaminibus partes cum partibus ordinare, ac remouere ascendendo, et
-        descendendo poteris, si pausis, et unisonis, semibreuibus: ac minimis: et aliis similibus
-        (ut res postulabit) cantilenam iuueris, donec illam simplicem, ac diminutam ad exitum, quo
-        fieri poterit meliori modo, perduxeris: Nam cum sit tibi cum tot partibus certamen, et
-        ingenio, et arte non mediocri opus erit. Sed omnia tibi ex sententia succedent, si praecepta
-        haec nostra memineris ac diligenter seruaueris.</p>
+      <p xml:id="AARIH30095">QVomodo autem per signum b mollis procedendum sit nunc ostendemus.
+        Posito primo cantu in b fa [sqb] mi fa dicendo, cautum esse te oporrtebit, ut cum
+        supradictus cantus per b molle cantetur, succedentes reliquae partes in eodem signo
+        canantur. Aliter enim quinta incideret imperfecta inter F fa ut secundum, et b fa [sqb] mi
+        primum. Praeterea Diapason quoque imperfectum, quod quidem a secundo b fa [sqb] mi ad primum
+        astenditur. Alia quoque uitia de illis uenientia in partibus, quae graues sunt generata
+        patrarentur. Hac de causa signum b mollis <pb n="[f.Gviiir]"/>antedictum sequi oportebit. In
+        ipso igitur b fa [sqb] mi secundo cantum locabis fa dicendo. Secunda uox in F fa ut acuto
+        erit, quae in quarta uoce respondet. Tertia uox eidem cantui suberit in sexta: quae in D la
+        sol re locum habet. Quarta in b fa [sqb] mi priori: quae octauam efficiet. Quinta in F fa ut
+        priori: quae quidem erit cum dicto cantu undecima. Sexta in D sol re: quae decimatertia
+        consonabit. Septima in [sqb] mi per antedictum b molle cantato. Octaua in Gamma ut: quae
+        decimaseptima efficietur. Nona, et ultima locum in parte accidentali habebit post antedictum
+        Gamma ut per tertiam maiorem: quae per signum b mollis cantabitur: siquidem consyderatis
+        aliis partibus superioribus stare aliter non posset: quiquidem locus decimanona sub cantu
+        erit. Ad inferiora pars haec non descendit, propter incommoda: quae supra in talibus
+        progressibus narrata sunt. Haec autem ideo proponere uolui, ne ignorares, paruam quidem
+        inesse differentiam, uel per [sqb] quadrum componas, aut canas, uel per b rotundum: Nam
+        multis in locis partes alias sic ordinatas, et praedicto modo procedentes ligare poteris, et
+        erunt aequales, ac similes, aut parum quidem inter se differentes. Id autem proximo
+        superiori exemplo, et posteriori, in quibus ambobus locos nouem complexi sumus, apertum
+        fecimus. Sed partem insuper aliam huic ultimo exemplo arbitrariam addimus: ut in E la
+        scilicet alia uox inchoari queat: quae uigesimasecunda consonabit, si fa in dicto E la
+        dixeris. Aliter enim si diligenter, et attente consyderes, fieri nequit. Quare, ut finem his
+        faciam, si prima praecepta accurate seruaueris, facile quidem, ac breui omnia: quae cognitu
+        necessaria sunt, consequeris, facilem enim et apertam monstrauimus uiam, qua sic quidem in
+        aliis quoque positionibus, ac ligaminibus partes cum partibus ordinare, ac remouere
+        ascendendo, et descendendo poteris, si pausis, et unisonis, semibreuibus: ac minimis: et
+        aliis similibus (ut res postulabit) cantilenam iuueris, donec illam simplicem, ac diminutam
+        ad exitum, quo fieri poterit meliori modo, perduxeris: Nam cum sit tibi cum tot partibus
+        certamen, et ingenio, et arte non mediocri opus erit. Sed omnia tibi ex sententia succedent,
+        si praecepta haec nostra memineris ac diligenter seruaueris.</p>
       <p xml:id="AARIH30096">
         <anchor xml:id="CH346"/>DE MODO ET COMPOSITIONE VOCVM QVAE MVTATAE DICVNTVR. CAPVT
         .XLVI.</p>
@@ -933,21 +949,21 @@
         erunt, sed naturales.</p>
       <p xml:id="AARIH30098">
         <anchor xml:id="CH347"/>DE CADENTIIS PER unisonum faciendis. CAPVT .XLVII.</p>
-      <p xml:id="AARIH30099">ERgo, ut cadentiae per unisonum sociandae modum ostendam, et praeceptum,
-        quod modo proposui, apertius faciam, exemplum afferam. Cantum igitur in eodem A la mi re
-        terminemus, dicamusque RE VT RE. Si antedictas partes commode uolemus disponere, danda erit
-        opera, ut prima tenoris nota, quae supra primam cantus respondebit, in unisono societur, aut
-        in tertia superiori, quae quidem in C sol fa ut erit, et secunda in b fa [sqb] mi acuto,
-        quae per tertiam similiter procedet. Dein uero ultima in alterum unisonum deueniat, quae
-        quidem in antedicto erit A la mi re. Sic quidem locos in Basso habebimus ordinarios: ac
-        naturales prout Bassi, et alti societatem, quod sequenti capite apparebit
+      <p xml:id="AARIH30099">ERgo, ut cadentiae per unisonum sociandae modum ostendam, et
+        praeceptum, quod modo proposui, apertius faciam, exemplum afferam. Cantum igitur in eodem A
+        la mi re terminemus, dicamusque RE VT RE. Si antedictas partes commode uolemus disponere,
+        danda erit opera, ut prima tenoris nota, quae supra primam cantus respondebit, in unisono
+        societur, aut in tertia superiori, quae quidem in C sol fa ut erit, et secunda in b fa [sqb]
+        mi acuto, quae per tertiam similiter procedet. Dein uero ultima in alterum unisonum
+        deueniat, quae quidem in antedicto erit A la mi re. Sic quidem locos in Basso habebimus
+        ordinarios: ac naturales prout Bassi, et alti societatem, quod sequenti capite apparebit
         constituerimus.</p>
       <p xml:id="AARIH30100">
         <anchor xml:id="CH348"/>DE SOCIETATE ET COMPOSITIONE IVXTA PRAECEPTVM ANTEDIctum. Caput
         .XLVIII.</p>
-      <p xml:id="AARIH30101">SI supra tenorem in tertiam cantum terminaueris: qui locus, ac terminus in
-        C sol fa ut erit, Bassus quidem sub dicto tenore in decima respondebit, quae erit in A re,
-        sub cantu uero <pb n="[f.Hiv]"/>Diapason. Altus in E la mi acuto, qui duodecimam supra
+      <p xml:id="AARIH30101">SI supra tenorem in tertiam cantum terminaueris: qui locus, ac terminus
+        in C sol fa ut erit, Bassus quidem sub dicto tenore in decima respondebit, quae erit in A
+        re, sub cantu uero <pb n="[f.Hiv]"/>Diapason. Altus in E la mi acuto, qui duodecimam supra
         Bassum faciet, supra tenorem uero tertiam, supra cantum quintam. In secunda dicti cantus
         uoce in antedicto E la mi remanebit, et octauam supra Bassum reddet, supra cantum sextam,
         supra tenorem quartam. In ultima uero cantus uoce Bassum in octaua sub cantu constituemus et
@@ -967,63 +983,65 @@
       <p xml:id="AARIH30102">
         <anchor xml:id="CH349"/>DE TERMINATIONE ET COMPOSITIONE TERTII ET QVARTI TONI. CAPVT
         .XLIX.</p>
-      <p xml:id="AARIH30103">SI cantilenae terminationem in E la mi acuto constitues non poteris iisdem
-        ligaminibus: aut similibus, sicut superiori exemplo monstratum est, procedere ob uitia, quae
-        (sicut ostendam) inciderent. Igitur, si cantilenam in E la mi antedicto posuerimus, ac
-        dixerimus, Mi re mi, cadentia huiusmodi ordinaria esse non poterit, quemadmodum in capite de
-        cadentiis monstratum est, nec etiam in praesenti per unisonum cadentia. Quod si per primam
-        uocem mi cantus cum tenore progredi uoluerimus, oportebit, per octauam, aut sextam (sicut
-        eodem capite monuimus) d facere. Sequens autem uox cantus scilicet RE tenorem sub se <pb n="[f.Hiir]"/>habebit in sexta, quae in F fa ut graui respondebit. Vltima demum uox in
-        octaua, ubi si Bassum sociare uolueris seruata etiam cadentiarum lege, ac praeceptis, minime
-        poteris, quia suo loco Bassum ponendo sub prima tenoris uoce, quae in F fa ut graui est,
-        idem Bassus per diapente responderet: quod quidem ligamen propter quintam imperfectam non
-        conceditur: quae quidem a [sqb] mi ad F fa ut graue reperitur. Si uero sub ultima uoce
-        terminare uolueris, iuxta ordinem, ac praecepta: quae de Bassi ligaminibus supra tradidimus
-        Bassus necesse est, per diapason descendat, quod quidem proculdubio in positione accidentali
-        fiet tribus sub Gamma ut uocibus mi dicendo, Et quia descensus, quem faceres a [sqb] mi per
-        b molle cantato descendendo cum dicto fa ad quintam inferiorem dicendo mi, ualde laboriosus,
-        et incommodus esset: tollerabilis non est. Quod si uolueris etiam ascendere, et antedictam
-        ultimam uocem tenori in unisono sociare, et relinquere antedictum [sqb] mi per b molle
-        cantatum: ascensus quidem per infamem, ac abominabilem tritonum fieret dicendo Fa fictum:
-        quod in [sqb] mi usque ad E la mi graue est. In quibus quidem ligaminibus duo iam ostendimus
-        uitia. Tertium restat, de quo etiam dicemus. Si uolueris: dictam quoque uocem ultimam facere
-        quintam supra tenorem, et in eadem quintam terminare necesse erit, ut mi non non autem fa
-        dicamus. Ratio quidem est, quia tenor in illa uoce mi: quae est in E la mi sub cantu in
-        octauam terminatur. Quare ne imperfectum diapente commitatur, mi pronunciandum est: quod
-        nequaquam conceditur, quia si a Fa recesseris, quod in [sqb] mi fingitur, et octauam supra
-        ipsum [sqb] mi facias, uox quidem non sine maxima difficultate pronunciari potest. Quare, ut
-        eiusmodi uitia uitentur, talis quidem ordo non seruabitur.</p>
+      <p xml:id="AARIH30103">SI cantilenae terminationem in E la mi acuto constitues non poteris
+        iisdem ligaminibus: aut similibus, sicut superiori exemplo monstratum est, procedere ob
+        uitia, quae (sicut ostendam) inciderent. Igitur, si cantilenam in E la mi antedicto
+        posuerimus, ac dixerimus, Mi re mi, cadentia huiusmodi ordinaria esse non poterit,
+        quemadmodum in capite de cadentiis monstratum est, nec etiam in praesenti per unisonum
+        cadentia. Quod si per primam uocem mi cantus cum tenore progredi uoluerimus, oportebit, per
+        octauam, aut sextam (sicut eodem capite monuimus) d facere. Sequens autem uox cantus
+        scilicet RE tenorem sub se <pb n="[f.Hiir]"/>habebit in sexta, quae in F fa ut graui
+        respondebit. Vltima demum uox in octaua, ubi si Bassum sociare uolueris seruata etiam
+        cadentiarum lege, ac praeceptis, minime poteris, quia suo loco Bassum ponendo sub prima
+        tenoris uoce, quae in F fa ut graui est, idem Bassus per diapente responderet: quod quidem
+        ligamen propter quintam imperfectam non conceditur: quae quidem a [sqb] mi ad F fa ut graue
+        reperitur. Si uero sub ultima uoce terminare uolueris, iuxta ordinem, ac praecepta: quae de
+        Bassi ligaminibus supra tradidimus Bassus necesse est, per diapason descendat, quod quidem
+        proculdubio in positione accidentali fiet tribus sub Gamma ut uocibus mi dicendo, Et quia
+        descensus, quem faceres a [sqb] mi per b molle cantato descendendo cum dicto fa ad quintam
+        inferiorem dicendo mi, ualde laboriosus, et incommodus esset: tollerabilis non est. Quod si
+        uolueris etiam ascendere, et antedictam ultimam uocem tenori in unisono sociare, et
+        relinquere antedictum [sqb] mi per b molle cantatum: ascensus quidem per infamem, ac
+        abominabilem tritonum fieret dicendo Fa fictum: quod in [sqb] mi usque ad E la mi graue est.
+        In quibus quidem ligaminibus duo iam ostendimus uitia. Tertium restat, de quo etiam dicemus.
+        Si uolueris: dictam quoque uocem ultimam facere quintam supra tenorem, et in eadem quintam
+        terminare necesse erit, ut mi non non autem fa dicamus. Ratio quidem est, quia tenor in illa
+        uoce mi: quae est in E la mi sub cantu in octauam terminatur. Quare ne imperfectum diapente
+        commitatur, mi pronunciandum est: quod nequaquam conceditur, quia si a Fa recesseris, quod
+        in [sqb] mi fingitur, et octauam supra ipsum [sqb] mi facias, uox quidem non sine maxima
+        difficultate pronunciari potest. Quare, ut eiusmodi uitia uitentur, talis quidem ordo non
+        seruabitur.</p>
       <p xml:id="AARIH30104">
         <anchor xml:id="CH350"/>QVOD ETIAM NON CONCEDITVR ANTEDICTAM Cantilenam per unisonum
         terminari. Caput .L.</p>
-      <p xml:id="AARIH30105">QVod tenor cum cantu per unisonum in antedicto E la mi terminari non possit
-        ratione constabit. Si tenorem cum dicta cadentia mi re mi in unisono posueris, oportebit,
-        secundam notam per tertiam unam supra cantum locari, quae in F fa ut acuto respondebit fa
-        dicendo. Si autem Bassi notam sociare uolueris <pb n="[f.Hiiv]"/>sub antedicto fa tenoris,
-        quod est in F fa ut, necesse est, ut quintam cum dicto fa reddat, et quia imperfecta est non
-        conceditur, si quidem inter [sqb] mi, et F fa ut quintam eiusmodi esse constat. Quare, ut
-        similia omnia de cantilena tollantur uitia, quae etiam in caeteris possent accidere
-        ligaminibus, cautus esse debebis: et alium quempiam commodiorem modum, sicut in superioribus
-        apparet praeceptis, seruare. Quod etiam accideret, si cadentiam in b fa [sqb] mi priori
-        facere uelles, ac diceres mi re mi: Nam in partibus inferioribus multa quidem alia uitia
-        contingerent, quemadmodum sequenti quoque exemplo monstrabimus. Quae autem de hoc priori b
-        fa [sqb] mi fuerint: de posteriori quoque dicta intellige. Diuersi quidem loci, sed idem
-        effectus. Igitur, si in dicto b fa [sqb] mi dixeris in cantu mi re mi: et uolueris tenorem
-        per sextam, uel per octauam in cadentia ordinaria procedere, Bassus idoneos non habebit
-        locos, quia tenor sub prima quidem nota cantus idest sub mi erit in octaua, et in locum
-        [sqb] mi incidet. Post uero secundum dictum ordinem sub secunda cantus nota idest sub re per
-        sextam sociabitur: quae est in C fa ut. Bassus autem una nota sub Gamma ut fa dicendo,
-        eritque sub tenore quinta. Vltima uero tenoris cantum in octaua terminabit, quae quidem erit
-        in [sqb] mi. Bassus autem per mi non poterit, in octaua procedere, quia nota, quae praecedit
-        sonat Fa. Per dictum autem Fa descendere per quintam, quia est incommoda, ac non respondens,
-        minime conceditur. Quod si forte dictum finem sociare cum tenore in unisono uolueris, opus
-        erit perfugiendum tritonum ascendere, qui quidem est ab antedicto Fa usque ad [sqb] mi: quod
-        quidem tollerabile non est. Quod si etiam in ultimum eius locum quem habere potest idest in
-        quintam supra tenorem antedictum, quae in F fa ut graui est, reducere uolueris, nequaquam
-        poteris, quia supra tenorem antedictum diapente imperfectum respondet, scilicet a [sqb] mi
-        ad F fa ut, atque ab eam causam non conceditur. Vides manifestis rationibus et exemplis
-        comprobata esse, quantum oportuit, ea, quae diximus. Tu quidem in similibus, si examine
-        diligenti omnia perpenderis, iam cautior esse poteris.</p>
+      <p xml:id="AARIH30105">QVod tenor cum cantu per unisonum in antedicto E la mi terminari non
+        possit ratione constabit. Si tenorem cum dicta cadentia mi re mi in unisono posueris,
+        oportebit, secundam notam per tertiam unam supra cantum locari, quae in F fa ut acuto
+        respondebit fa dicendo. Si autem Bassi notam sociare uolueris <pb n="[f.Hiiv]"/>sub
+        antedicto fa tenoris, quod est in F fa ut, necesse est, ut quintam cum dicto fa reddat, et
+        quia imperfecta est non conceditur, si quidem inter [sqb] mi, et F fa ut quintam eiusmodi
+        esse constat. Quare, ut similia omnia de cantilena tollantur uitia, quae etiam in caeteris
+        possent accidere ligaminibus, cautus esse debebis: et alium quempiam commodiorem modum,
+        sicut in superioribus apparet praeceptis, seruare. Quod etiam accideret, si cadentiam in b
+        fa [sqb] mi priori facere uelles, ac diceres mi re mi: Nam in partibus inferioribus multa
+        quidem alia uitia contingerent, quemadmodum sequenti quoque exemplo monstrabimus. Quae autem
+        de hoc priori b fa [sqb] mi fuerint: de posteriori quoque dicta intellige. Diuersi quidem
+        loci, sed idem effectus. Igitur, si in dicto b fa [sqb] mi dixeris in cantu mi re mi: et
+        uolueris tenorem per sextam, uel per octauam in cadentia ordinaria procedere, Bassus idoneos
+        non habebit locos, quia tenor sub prima quidem nota cantus idest sub mi erit in octaua, et
+        in locum [sqb] mi incidet. Post uero secundum dictum ordinem sub secunda cantus nota idest
+        sub re per sextam sociabitur: quae est in C fa ut. Bassus autem una nota sub Gamma ut fa
+        dicendo, eritque sub tenore quinta. Vltima uero tenoris cantum in octaua terminabit, quae
+        quidem erit in [sqb] mi. Bassus autem per mi non poterit, in octaua procedere, quia nota,
+        quae praecedit sonat Fa. Per dictum autem Fa descendere per quintam, quia est incommoda, ac
+        non respondens, minime conceditur. Quod si forte dictum finem sociare cum tenore in unisono
+        uolueris, opus erit perfugiendum tritonum ascendere, qui quidem est ab antedicto Fa usque ad
+        [sqb] mi: quod quidem tollerabile non est. Quod si etiam in ultimum eius locum quem habere
+        potest idest in quintam supra tenorem antedictum, quae in F fa ut graui est, reducere
+        uolueris, nequaquam poteris, quia supra tenorem antedictum diapente imperfectum respondet,
+        scilicet a [sqb] mi ad F fa ut, atque ab eam causam non conceditur. Vides manifestis
+        rationibus et exemplis comprobata esse, quantum oportuit, ea, quae diximus. Tu quidem in
+        similibus, si examine diligenti omnia perpenderis, iam cautior esse poteris.</p>
       <p xml:id="AARIH30106">
         <anchor xml:id="CH351"/>CAVTIO ADVERSVS uitia supra monstrata. Caput .LI.</p>
       <p xml:id="AARIH30107">QVia terminatio, siue cadentia, quam supra ostendimus tertii, quartique
@@ -1091,54 +1109,55 @@
         tenore quintam. Hinc processus, et huiusmodi copulatio uocum probabilior erit, quam in
         caeteris quidem similibus seruandum monemus.</p>
       <p xml:id="AARIH30108">
-        <anchor xml:id="CH352"/>DE VARIA CANTILENAE COMPOSITIONE QVAE PER FVGAM VVLGO dicitur.
-        Caput .LII.</p>
-      <p xml:id="AARIH30109">IMitatio in Cantilenis, siue fugatio de parte in partem fieri solet. Est
-        autem ideo dicta imitatio, siue fugatio: quia subsequens: uel antecedens praecedentis uoces
-        partis, uel subsequentis easdem nomine, sed locis diuersas repetit: et uel quasi imitando
-        pronunciat, uel quasi subsequendo fugare uidetur. Cuius etiam rei, quia uariis fieri modis
-        consueuit: praecepta trademus. Igitur imitatio huiusmodi, siue fugatio duobus quidem in
-        locis hoc est ante, ac post fieri solet per tertias omnes, per omnes item sextas, per
-        quintas et sextas simul: idest ut quintae praecedant, sextae subsequantur. Item eodem modo
-        per tertias, et sextas. Demum per continuas decimas: per tertiam unam prius, et per sextam,
-        postquam per tertias fugabis. Igitur si Cantum in C sol fa ut posueris, ac dixeris VT RE MI
-        FA SOL LA: Tunc Tenor per duas pausas semibreuium morabitur, ac easdem notas, atque in eadem
-        positione: idest in C sol fa ut resumens repetet, donec placuerit. Si uero per sextas id
-        facere uolueris expectabis duas etiam semibreuium pausas, et tenor easdem repetens notas a G
-        sol re ut acuto inchoabit per <pb n="[f.Hiiiiv]"/>quintam, et sextam simul in ascensu id
-        fit, atque descensu. Et in ascensu quidem tenor aliquando prius per quintam, aliquando etiam
-        prius per sextam subsequetur, et id quidem exemplo monstrabimus. Si cantus in D la sol re
-        inchoabitur, et dicetur Re mi fa sol la: tenor sub eo quintam faciet pausam unam de minimis
-        expectando, quae quinta in G sol re ut acuto erit, et easdem cantus notas retinet. Illud
-        tamen sciendum, oportere tunc ipsum tenorem per b molle cantari, neque enim aliter notas
-        cantus imitaretur, quas diximus, et ex hoc quidem ligamine quintam semper prius habebis:
-        posterius sextam. Quod si per sextam uoles ascendere: ut quinta sequatur, oportet quidem, ut
-        pausam unam semibreuium expectes, et ut prima tenoris nota, per quam ascendes, minima sit:
-        reliquae semibreues, et sic sextam prius semper habebis, quintam posterius. At si per easdem
-        notas descendes, tenor etiam in ipso descensu per quintam unam symcopatam in eandem euadet
-        compositionem. Verum, ut noris: cur in tali compositione fuga dicatur symcopata: quae non
-        solum in descensu fit, sed etiam in ascensu: scito quintam antedictam: quae symcopata
-        dicitur, esse illam quidem notam b mollis: quae in D la sol re est: nam si tenor eodem
-        ordine descendat: necesse quidem est, la sol fa mi re dicat, et illud la nota sit minima,
-        reliquae uero semibreues. Cantus autem subsequens tenorem ab A la mi re incipiens per omnes
-        semibreues dicat ipse quoque la sol fa mi re. In quo quidem ligamine semper tenor illum per
-        unam minimam praecedet: ac per quintam, et sextam (sicut uidere poteris) descendet. Hoc
-        autem tam per fugationem diminutam, quam per simplicem facere poteris, et hinc fuga simplex
-        diminuta, et symcopata nascetur. Quod si per decimas hoc etiam facere uolueris: exemplo
-        quidem, quomodo id quoque faciundum sit ostendam. Cantum puta in E la mi constitues acuto:
-        dicesque Mi fa sol re mi fa. Si uoles ut tenor, uel Bassus eundem progressum imitetur: ac
-        per decimas fuget, necesse quidem erit: ut per duas semibreuium pausas praestoleris: ac
-        moram facias, et in E la mi graui tu quoque inchoes et sic fugatio per decimas continget, et
-        tu quidem tunc posterior eris, in descensu tamen prior. Si uolueris tu quoque per antedictum
-        progressum descendere: atque ut cantus post te per decimas sequatur, facito, ut cantus per
-        duas expectet pausas, ac sic te subsequetur: <pb n="[f.Hvr]"/>et eundem sorcietur exitum.
-        Possent haec quidem multis etiam alii fieri modis, quos, ne sim prolixior, praetereo. Si
-        tamen haec in usum: ac exercitationem trahantur, sufficere poterunt. Parum enim praecepta
-        diligenter tradita proderunt, nisi elaborata, et frequens exercitatio sequatur.</p>
+        <anchor xml:id="CH352"/>DE VARIA CANTILENAE COMPOSITIONE QVAE PER FVGAM VVLGO dicitur. Caput
+        .LII.</p>
+      <p xml:id="AARIH30109">IMitatio in Cantilenis, siue fugatio de parte in partem fieri solet.
+        Est autem ideo dicta imitatio, siue fugatio: quia subsequens: uel antecedens praecedentis
+        uoces partis, uel subsequentis easdem nomine, sed locis diuersas repetit: et uel quasi
+        imitando pronunciat, uel quasi subsequendo fugare uidetur. Cuius etiam rei, quia uariis
+        fieri modis consueuit: praecepta trademus. Igitur imitatio huiusmodi, siue fugatio duobus
+        quidem in locis hoc est ante, ac post fieri solet per tertias omnes, per omnes item sextas,
+        per quintas et sextas simul: idest ut quintae praecedant, sextae subsequantur. Item eodem
+        modo per tertias, et sextas. Demum per continuas decimas: per tertiam unam prius, et per
+        sextam, postquam per tertias fugabis. Igitur si Cantum in C sol fa ut posueris, ac dixeris
+        VT RE MI FA SOL LA: Tunc Tenor per duas pausas semibreuium morabitur, ac easdem notas, atque
+        in eadem positione: idest in C sol fa ut resumens repetet, donec placuerit. Si uero per
+        sextas id facere uolueris expectabis duas etiam semibreuium pausas, et tenor easdem repetens
+        notas a G sol re ut acuto inchoabit per <pb n="[f.Hiiiiv]"/>quintam, et sextam simul in
+        ascensu id fit, atque descensu. Et in ascensu quidem tenor aliquando prius per quintam,
+        aliquando etiam prius per sextam subsequetur, et id quidem exemplo monstrabimus. Si cantus
+        in D la sol re inchoabitur, et dicetur Re mi fa sol la: tenor sub eo quintam faciet pausam
+        unam de minimis expectando, quae quinta in G sol re ut acuto erit, et easdem cantus notas
+        retinet. Illud tamen sciendum, oportere tunc ipsum tenorem per b molle cantari, neque enim
+        aliter notas cantus imitaretur, quas diximus, et ex hoc quidem ligamine quintam semper prius
+        habebis: posterius sextam. Quod si per sextam uoles ascendere: ut quinta sequatur, oportet
+        quidem, ut pausam unam semibreuium expectes, et ut prima tenoris nota, per quam ascendes,
+        minima sit: reliquae semibreues, et sic sextam prius semper habebis, quintam posterius. At
+        si per easdem notas descendes, tenor etiam in ipso descensu per quintam unam symcopatam in
+        eandem euadet compositionem. Verum, ut noris: cur in tali compositione fuga dicatur
+        symcopata: quae non solum in descensu fit, sed etiam in ascensu: scito quintam antedictam:
+        quae symcopata dicitur, esse illam quidem notam b mollis: quae in D la sol re est: nam si
+        tenor eodem ordine descendat: necesse quidem est, la sol fa mi re dicat, et illud la nota
+        sit minima, reliquae uero semibreues. Cantus autem subsequens tenorem ab A la mi re
+        incipiens per omnes semibreues dicat ipse quoque la sol fa mi re. In quo quidem ligamine
+        semper tenor illum per unam minimam praecedet: ac per quintam, et sextam (sicut uidere
+        poteris) descendet. Hoc autem tam per fugationem diminutam, quam per simplicem facere
+        poteris, et hinc fuga simplex diminuta, et symcopata nascetur. Quod si per decimas hoc etiam
+        facere uolueris: exemplo quidem, quomodo id quoque faciundum sit ostendam. Cantum puta in E
+        la mi constitues acuto: dicesque Mi fa sol re mi fa. Si uoles ut tenor, uel Bassus eundem
+        progressum imitetur: ac per decimas fuget, necesse quidem erit: ut per duas semibreuium
+        pausas praestoleris: ac moram facias, et in E la mi graui tu quoque inchoes et sic fugatio
+        per decimas continget, et tu quidem tunc posterior eris, in descensu tamen prior. Si
+        uolueris tu quoque per antedictum progressum descendere: atque ut cantus post te per decimas
+        sequatur, facito, ut cantus per duas expectet pausas, ac sic te subsequetur: <pb n="[f.Hvr]"
+        />et eundem sorcietur exitum. Possent haec quidem multis etiam alii fieri modis, quos, ne
+        sim prolixior, praetereo. Si tamen haec in usum: ac exercitationem trahantur, sufficere
+        poterunt. Parum enim praecepta diligenter tradita proderunt, nisi elaborata, et frequens
+        exercitatio sequatur.</p>
       <p xml:id="AARIH30110">
         <anchor xml:id="CH353"/>DE PROPORTIONIBVS. CAPVT .LIII.</p>
-      <p xml:id="AARIH30111">VEnio nunc ad ultimam huius operis partem, ac difficillimam, quae est de
-        proportionibus, quas tamen sic me quidem explicaturum spero, ut facilia, et peruia fiant
+      <p xml:id="AARIH30111">VEnio nunc ad ultimam huius operis partem, ac difficillimam, quae est
+        de proportionibus, quas tamen sic me quidem explicaturum spero, ut facilia, et peruia fiant
         studiosis omnia. Primum quid sit proportio dicemus. Dein caetera: quae ad illius cognitionem
         pertinere uidebuntur, et illarum genera quinque explicabimus. FLAMINIVS. Audiui ego quidem
         mi Aaron non paucos de hac re differentes, qui rem suapte natura difficilem uisi sunt mihi
@@ -1184,7 +1203,8 @@
         potestate perfectae fierent: ac semibreues alterarentur, frustra quidem (ut opinor) musici
         indicem perfectionis excogitassent. Quare, mea quidem sententia, minime illis assentiendum
         est, quia breues perfectae, ac semibreues alteratae solummodo sub indice perfecti temporis,
-        idest sub circulo: non autem sub semicirculo esse possunt. Ergo, qui <pb n="[f.Hvir]"/>uolet, in proportione sesqualtera breues esse perfectas, ac semibreues alterari, indicem
+        idest sub circulo: non autem sub semicirculo esse possunt. Ergo, qui <pb n="[f.Hvir]"
+        />uolet, in proportione sesqualtera breues esse perfectas, ac semibreues alterari, indicem
         perfecti temporis in fronte cantilenae affigere debebit: Omnis enim proportio ad
         antecedentem indicem reducitur. Quare (ut dictum est) breues quidem perfectae, ac smibreues
         alteratae in proportione sesqualtera sub circulo monstrabuntur. At in proportione temporis
@@ -1210,18 +1230,19 @@
         super partiens. Composita multiplex super particulare: et multiplex super patiens.</p>
       <p xml:id="AARIH30114">
         <anchor xml:id="CH355"/>MVLTIPLEX GENVS. CAPVT .LV.</p>
-      <p xml:id="AARIH30115">MVltiplex genus est numerus ille maior: qui pluries in se minorem continet:
-        sicut duo ad unum relata. Tria ad unum. Quattuor item ad unum, et quinque ad unum. Sex etiam
-        ad unum. Ex quo quidem progressu complures generantur species. Prima <pb n="[f.Hviv]"/>quidem species dupla proportio est: ut sunt duo ad unum: quia numerus maior idest duo bis
-        minorem hoc est unum continet: et huiusmodi proportio in cantilenis frequens est, et non
-        incommode cantatur. In cantilenis quinque modis hac utimur. Primus quidem modus est cum
-        semicirculo secto contra semicirculum non sectum: et punctum non habentem: sicut in capite
-        de comparationibus indicum ostendimus. Secundus, quando nota numeralis: quae duo significat:
-        inscribitur et uni opponitur: duo enim hi numeri duplam proculdubio proportionem indicant.
-        Tertius est, quando semicirculus sectus contra semicirculum sectum inuenitur: apud quem sit
-        nota numeralis: quae duo significat. Quartus autem quando index perfecti temporis idest
-        circulus sine puncto non sectus alteri circulo secto oppositus inuenitur. Quintus denique
-        modus est: quando sub indice temporis imperfecti semicirculus in contrarium uersus
+      <p xml:id="AARIH30115">MVltiplex genus est numerus ille maior: qui pluries in se minorem
+        continet: sicut duo ad unum relata. Tria ad unum. Quattuor item ad unum, et quinque ad unum.
+        Sex etiam ad unum. Ex quo quidem progressu complures generantur species. Prima <pb
+          n="[f.Hviv]"/>quidem species dupla proportio est: ut sunt duo ad unum: quia numerus maior
+        idest duo bis minorem hoc est unum continet: et huiusmodi proportio in cantilenis frequens
+        est, et non incommode cantatur. In cantilenis quinque modis hac utimur. Primus quidem modus
+        est cum semicirculo secto contra semicirculum non sectum: et punctum non habentem: sicut in
+        capite de comparationibus indicum ostendimus. Secundus, quando nota numeralis: quae duo
+        significat: inscribitur et uni opponitur: duo enim hi numeri duplam proculdubio proportionem
+        indicant. Tertius est, quando semicirculus sectus contra semicirculum sectum inuenitur: apud
+        quem sit nota numeralis: quae duo significat. Quartus autem quando index perfecti temporis
+        idest circulus sine puncto non sectus alteri circulo secto oppositus inuenitur. Quintus
+        denique modus est: quando sub indice temporis imperfecti semicirculus in contrarium uersus
         inuenitur: qui et ipse duplam significat. Secunda species tripla dicitur: quae fit, quando
         maior numerus idest tria in se minorem ter continet, hoc est unum: quae quidem proportio uno
         tantum modo ostenditur scilicet per litteram siue nota numeralem: quae tria significat
@@ -1239,7 +1260,8 @@
       <p xml:id="AARIH30116">
         <anchor xml:id="CH356"/>SVPERPARTICVLARE GENVS. CAPVT .LVI.</p>
       <p xml:id="AARIH30117">SEcundum genus super particulare dicitur: qui quidem est numerus maior
-        minorem semel in se continens, ac insuper partem ipsius numeri aliquotam: utcum trium <pb n="[f.Hviir]"/>ad duo fit comparatio: sex ad quattuor: nouem ad sex. De caeteris idem
+        minorem semel in se continens, ac insuper partem ipsius numeri aliquotam: utcum trium <pb
+          n="[f.Hviir]"/>ad duo fit comparatio: sex ad quattuor: nouem ad sex. De caeteris idem
         intellige. De quo etiam genere plurimae quidem species oriuntur, quarum prima est proportio
         sesqualtera. Secunda sesquitertia. Tertia sesquiquarta. Poteris ultra, quantum uoles
         progredi. Sesqualtera dicitur, quia maior numerus minorem continet: ac partem eiusdem
@@ -1286,10 +1308,11 @@
         in treis partes aequaleis diuidi nequeunt.</p>
       <p xml:id="AARIH30120">
         <anchor xml:id="CH358"/>MVLTIPLEX SVPERPARTICVLAre. Caput .LVIII.</p>
-      <p xml:id="AARIH30121">QVartum genus multiplex super particulare. Est autem quando maior numerus
-        totum minorem numerum bis et praeterea partem illius continet: ut quinque ad duo relata.
-        Septem ut tria: sunt enim in quinque bis duo, et praeterea unum: quod est duorum pars. Eodem
-        modo septem consyderantur, et reliquae huiusce generis species, sed in usu non sunt.</p>
+      <p xml:id="AARIH30121">QVartum genus multiplex super particulare. Est autem quando maior
+        numerus totum minorem numerum bis et praeterea partem illius continet: ut quinque ad duo
+        relata. Septem ut tria: sunt enim in quinque bis duo, et praeterea unum: quod est duorum
+        pars. Eodem modo septem consyderantur, et reliquae huiusce generis species, sed in usu non
+        sunt.</p>
       <p xml:id="AARIH30122">
         <anchor xml:id="CH359"/>MVLTIPLEX SVPERPARTIEns genus. Caput .LVIIII.</p>
       <p xml:id="AARIH30123">
@@ -1302,17 +1325,17 @@
         quidem intelligimus quantum diligenter legentibus fructum allatura sint.</p>
       <p xml:id="AARIH30124">
         <anchor xml:id="CH360"/>DE LIGATVRIS CANTILENARVM. CAPVT .LX.</p>
-      <p xml:id="AARIH30125">IN fine operis, quasi uincientes omnia, quae de arte nobis tractata sunt,
-        de ligaturis demum, quibus plurimum rimum cantilenae ornantur, ac muniuntur, agemus, rem
-        quidem pulcherrimam, et cognitu maxime necessariam tractaturi, Ac primum quid sit ligatura,
-        quae ipso nomine uinculum quoddam praesefert, edisseram. Igitur ligatura in cantilenis: quae
-        mensurabiles sunt, est ordinatio siue collectio, ac plurium simul notarum complexio. Est
-        autem duplex ascendens, atque descendens. Notae uero, de quibus ligaturae conficiuntur, hae
-        quidem sunt Maxima. Longa. Breuis, ac semibreuis. Quae sane figurae partim quadrangularem,
-        partim obliquam formam recipiunt: Et aliae cum proprietatae quidem, aliae sine proprietate
-        sunt. Praeterea haec potest esse maxima, illa uero longa. Breuis alia in principio, medio:
-        ac fine. Sed semibreuis in principio tantum: nam aliae quidem compositoris arbitrio
-        relinquuntur. Et quia proprietatis mentio facta est, quid illa sit aperiemus. Ergo
+      <p xml:id="AARIH30125">IN fine operis, quasi uincientes omnia, quae de arte nobis tractata
+        sunt, de ligaturis demum, quibus plurimum rimum cantilenae ornantur, ac muniuntur, agemus,
+        rem quidem pulcherrimam, et cognitu maxime necessariam tractaturi, Ac primum quid sit
+        ligatura, quae ipso nomine uinculum quoddam praesefert, edisseram. Igitur ligatura in
+        cantilenis: quae mensurabiles sunt, est ordinatio siue collectio, ac plurium simul notarum
+        complexio. Est autem duplex ascendens, atque descendens. Notae uero, de quibus ligaturae
+        conficiuntur, hae quidem sunt Maxima. Longa. Breuis, ac semibreuis. Quae sane figurae partim
+        quadrangularem, partim obliquam formam recipiunt: Et aliae cum proprietatae quidem, aliae
+        sine proprietate sunt. Praeterea haec potest esse maxima, illa uero longa. Breuis alia in
+        principio, medio: ac fine. Sed semibreuis in principio tantum: nam aliae quidem compositoris
+        arbitrio relinquuntur. Et quia proprietatis mentio facta est, quid illa sit aperiemus. Ergo
         proprietatem in ipsis notis esse dicimus: uirgulam illam: siue caudam malis appellare quae
         in ipsis est notis in parte dextra, uel sinistra ascendens supra notam, uel infra
         descendens: quae in cantilenis mensurabilibus ubique conspicitur, et quidem tam in obliquis,
@@ -1372,8 +1395,8 @@
         erit.</p>
       <p xml:id="AARIH30128">
         <anchor xml:id="CH362"/>DE LIGATVRIS LONGArum breuium. Caput .LXII.</p>
-      <p xml:id="AARIH30129">SI notae connexae cum proprietate in parte dextra siue ascenderint: siue
-        descenderint, longe semper erunt. Si uero in parte sinistra inferiori, breues. In parte
+      <p xml:id="AARIH30129">SI notae connexae cum proprietate in parte dextra siue ascenderint:
+        siue descenderint, longe semper erunt. Si uero in parte sinistra inferiori, breues. In parte
         superiori, semibreues. <pb n="[f.Hviiiiv]"/>Sed illud meminisse oportet, quod longae tantum
         in principio, medio, ac fine esse cum proprietate queunt. Breues autem nitio solum. Si
         plures erunt sine proprietate notae descendentes quot quot fuerint, prima semper, et ultima
@@ -1405,8 +1428,8 @@
         quae descendant, et quadrangulares sint, longae quidem erunt. Sin uero ascendant, breues, ut
         ante diximus. Quae quidem praecepta si diligenter inspexeris, et ad memoriam redegeris,
         facilis tibi ad canendum uia patebit.</p>
-      <p xml:id="AARIH30130">Impressum Bononiae in Aedibus Benedicti Hectoris Bibliopolae Bononiensis.
-        Tempore Pontificatus domini nostri Leonis Pape Decimi. M CCCCC XVI.</p>
+      <p xml:id="AARIH30130">Impressum Bononiae in Aedibus Benedicti Hectoris Bibliopolae
+        Bononiensis. Tempore Pontificatus domini nostri Leonis Pape Decimi. M CCCCC XVI.</p>
       <p xml:id="AARIH30131">REGESTVM</p>
       <p xml:id="AARIH30132">A ii B iiii C iiii D iiii E iiii F iiii G iiii H v</p>
     </body>

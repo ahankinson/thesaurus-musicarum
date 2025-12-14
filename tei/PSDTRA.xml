@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Tractatus de Musica</title>
         <title type="abbrev">PSDTRA</title>
-        <author>Petrus de Sancto Dionysio</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Petrus de Sancto Dionysio</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1992</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1992">1992</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Johannis de Muris Notitia artis musicae et Compendium musicae practicae</emph>;
@@ -50,15 +60,15 @@
     <body>
       <p xml:id="PSDTRA0001">
         <pb n="[147]"/>Prologus</p>
-      <p xml:id="PSDTRA0002">Incipit tractatus fratris Petri de Sancto Dionysio, qui est in duas partes
-        divisus, in theoricam scilicet et practicam, cui non est inconveniens, quodammodo quamdam
-        theoricam implicari. Hoc enim necessarium est in omni arte, ut id, quod scitum est in
-        universali et hoc per theoricam, ad singulare per practicam valeat applicari.</p>
+      <p xml:id="PSDTRA0002">Incipit tractatus fratris Petri de Sancto Dionysio, qui est in duas
+        partes divisus, in theoricam scilicet et practicam, cui non est inconveniens, quodammodo
+        quamdam theoricam implicari. Hoc enim necessarium est in omni arte, ut id, quod scitum est
+        in universali et hoc per theoricam, ad singulare per practicam valeat applicari.</p>
       <p xml:id="PSDTRA0003">Prima pars. Musica theorica.</p>
       <p xml:id="PSDTRA0004">CAPITULUM PRIMUM. De sono et quid sit.</p>
-      <p xml:id="PSDTRA0005">Musica est scientia bene modulandi, secundum Augustinum primo libro musicae
-        suae; et subdit, musica est scientia bene modulandi et bene <pb n="[148]"/>movendi. Bene
-        autem movendi dici potest, quidquid numerositate servatur temporum atque intervallorum
+      <p xml:id="PSDTRA0005">Musica est scientia bene modulandi, secundum Augustinum primo libro
+        musicae suae; et subdit, musica est scientia bene modulandi et bene <pb n="[148]"/>movendi.
+        Bene autem movendi dici potest, quidquid numerositate servatur temporum atque intervallorum
         dimensionibus movetur. Ex quibus verbis habere possumus, quod sonus musicus constat in motu
         et numero. De motu quidem patet, nam secundum Augustinum, secundo musicae libro: "In motu
         etiam est omne quod sonat." Cuius rationem assignans Boethius dicit: Si foret omnium rerum
@@ -68,8 +78,8 @@
         congruum est videre de sono tamquam de principali musicae quid sit, cum secundum Isidorum
         tertio libro etymologiarum: Musica constat ex sonis et cantibus. Boethius: Sonus est
         percussio aeris indissoluta, id est inrupta, veniens usque ad auditum.</p>
-      <p xml:id="PSDTRA0006">Hucbaldus: Sonus est generale nomen qualiumcumque vocum. Sed sonus canorae
-        vocis graece phthongos.</p>
+      <p xml:id="PSDTRA0006">Hucbaldus: Sonus est generale nomen qualiumcumque vocum. Sed sonus
+        canorae vocis graece phthongos.</p>
       <p xml:id="PSDTRA0007">Sonorum vel phthongorum alius gravis, alius acutus. Gravis est, qui ex
         tardioribus et rarioribus motibus generatur, acutus vero, qui ex velocioribus et
         spissioribus aggregatur. In acutis igitur... (N 1 I 9s.).</p>
@@ -77,7 +87,8 @@
         <pb n="[149]"/>Capitulum secundum. De proportionibus numerorum.</p>
       <p xml:id="PSDTRA0009">Quia igitur musica constat ex sonis proportionalibus ad invicem
         quodammodo... (N 1 II 1ss.).</p>
-      <p xml:id="PSDTRA0010">Capitulum tertium. De inventione musicae per Pythagoram philosophum.</p>
+      <p xml:id="PSDTRA0010">Capitulum tertium. De inventione musicae per Pythagoram
+        philosophum.</p>
       <p xml:id="PSDTRA0011">Pythagoras nolens aurium ... (N 1 III 1-9) ... sesquioctava proportione
         tonum formant.</p>
       <p xml:id="PSDTRA0012">Secundum namque Boethii dicta in proportionibus numerorum tonus est
@@ -105,8 +116,8 @@
       <p xml:id="PSDTRA0017">
         <pb n="[151]"/>Secunda pars. Musica practica.</p>
       <p xml:id="PSDTRA0018">Capitulum quintum. Quid sonus, quid tempus, quid mensura.</p>
-      <p xml:id="PSDTRA0019">Viso aliqualiter de theorica musicae nunc restat de eius practica ... (N 2
-        I 1 usque ad N 2 II 8) ... numerus sit infamis.</p>
+      <p xml:id="PSDTRA0019">Viso aliqualiter de theorica musicae nunc restat de eius practica ...
+        (N 2 I 1 usque ad N 2 II 8) ... numerus sit infamis.</p>
       <p xml:id="PSDTRA0020">Sed venera huius persuasiones licet sint pulcrae, tamen quoniam mihi
         videtur salva eorum reverentia non faciunt fidem aliquam de intento, cum similibus
         persuasionibus possit de aliis numeris simile declarari. Possum nam per similia quaternarium
@@ -121,10 +132,10 @@
         uniterque quatuor facies, quatuor pennae, quatuor pedes, in quolibet pede quatuor ungulae,
         quatuor circuli constituti ex rota in medio rotae, quatuor animi passiones, scilicet
         gaudium, dolor, spes et timor, et multa talia.</p>
-      <p xml:id="PSDTRA0021">Similiter possemus arguare de binario numero, quia omnis perfecta et bona
-        divisio per Boethium est bimembris vel ad bimembrum reducitur. Duo testamenta, duae vitae
-        bonae, activa scilicet et contemplativa, duo gladii qui sufficiunt, duplex natura videlicet
-        humana et divina, duplex cognitio: sensitiva et intellectiva. Inter duos fit omnis
+      <p xml:id="PSDTRA0021">Similiter possemus arguare de binario numero, quia omnis perfecta et
+        bona divisio per Boethium est bimembris vel ad bimembrum reducitur. Duo testamenta, duae
+        vitae bonae, activa scilicet et contemplativa, duo gladii qui sufficiunt, duplex natura
+        videlicet humana et divina, duplex cognitio: sensitiva et intellectiva. Inter duos fit omnis
         disputatio scilicet opponentem et respondentem, duplex solutio per interemptionem vel
         praedistinctionem et infinita talia, ex quibus omnibus nulla sequitur perfectio vel
         imperfectio.</p>
@@ -139,21 +150,22 @@
         nisi alicuius principii. Transitus autem non est a principio usque ad finem, cum sint
         extrema, nisi per medium. Sed in numero ternario est ista tria reperire ut patet de se, ergo
         est totus et per consequens perfectus.</p>
-      <p xml:id="PSDTRA0025">Et respondet Augustinus ad quamdam Antiphoram, quia si quis instar et quod
-        in binario numero vel quaternario esset ista tria reperire, maxime in quaternario vel
+      <p xml:id="PSDTRA0025">Et respondet Augustinus ad quamdam Antiphoram, quia si quis instar et
+        quod in binario numero vel quaternario esset ista tria reperire, maxime in quaternario vel
         similibus numeris paribus, hoc non valet de binario. Patet, quia tunc non esset binarius, si
         inter duas unitates caderet unitas media. Sed de quaternario probat, quia sicut de
         quidditiva ratione numeri imparis est quod sit divisibilis in duas partes inaequales, ita de
         quidditiva ratione numeri paris est, quod sit divisibilis in duas partes aequales. Et si
         haec iam non erit ibi dare tertium vel medium.</p>
-      <p xml:id="PSDTRA0026">Quod si quis calumpniaretur ulterius, quia quaternarius dividetur in duas
-        unitates extremas et unam dualitatem tamquam medium, hoc non valet, ut idem Augustinus dicit
-        ibidem, quia omne medium debet esse individuum et indivisum. Dualitas autem non est
+      <p xml:id="PSDTRA0026">Quod si quis calumpniaretur ulterius, quia quaternarius dividetur in
+        duas unitates extremas et unam dualitatem tamquam medium, hoc non valet, ut idem Augustinus
+        dicit ibidem, quia omne medium debet esse individuum et indivisum. Dualitas autem non est
         indivisibilis, quare et caetera.</p>
-      <p xml:id="PSDTRA0027">Et si dicas, quaternarius dividetur sic, quod una dualitas et una unitas
-        erunt duo extrema, reliqua vero unitas erit media et indivisibilis, hanc rationem refellit
-        idem Augustinus, quia non dicit ibidem, medium debet esse tale quod absolitum et remotum;
-        extrema sint inter se aequalia, ex quo relinquitur, quod ternarius sit perfectus.</p>
+      <p xml:id="PSDTRA0027">Et si dicas, quaternarius dividetur sic, quod una dualitas et una
+        unitas erunt duo extrema, reliqua vero unitas erit media et indivisibilis, hanc rationem
+        refellit idem Augustinus, quia non dicit ibidem, medium debet esse tale quod absolitum et
+        remotum; extrema sint inter se aequalia, ex quo relinquitur, quod ternarius sit
+        perfectus.</p>
       <p xml:id="PSDTRA0028">Secunda ratio est fulcimentum primae rationis, nam prima ratio arguit
         solum, quod nullus par numerus dicatur perfectus. Non autem arguit hoc de numero impari,
         quod patet, quia prima ratio probat ternarium perfectum, quia ibi est dare principium,
@@ -177,37 +189,37 @@
         distabit a constituentibus. Tria namque et quatuor faciunt septem, quae distant duobus
         mediantibus, quatuor et quinque faciunt novem, quae distant tribus, et sic plus augmentando
         fit elongatio semper maior. Relinquitur ergo perfectio in ternario singulario.</p>
-      <p xml:id="PSDTRA0031">Advertendum tamen propter callumpniantes, quod quantum ad praesens spectat,
-        duplex est perfectio: una entitiva, quia videlicet quaelibet res est id, quod est entitative
-        secundum rationem suae speciei. Et isto modo quaelibet res non orbata hiis, quae secundum
-        unam rationem specificatam sibi debentur, perfecta est, et isto modo si accipiatur
+      <p xml:id="PSDTRA0031">Advertendum tamen propter callumpniantes, quod quantum ad praesens
+        spectat, duplex est perfectio: una entitiva, quia videlicet quaelibet res est id, quod est
+        entitative secundum rationem suae speciei. Et isto modo quaelibet res non orbata hiis, quae
+        secundum unam rationem specificatam sibi debentur, perfecta est, et isto modo si accipiatur
         perfectio, ita est perfectus binarius sicut ternarius; et formica, sicut homo secundum
         Avicernam. Nam nulli talium deficit aliquid sibi debitum secundum suam essentiam. Sed sic
         non loquitur hic de perfectione, ut intelligitur ab aliquibus quorumdam musicorum modernorum
         nolentium dare tempus imperfectum in musica dicentes, quod in arte qualibet contingit non
         imperfectum reperiri.</p>
-      <p xml:id="PSDTRA0032">Talio modo accipitur perfectio, quae dicitur transcendens vel simplex, quod
-        fit per comparationem unius speciei ad aliam speciem secundum quem modum comparando animal
-        ad animal. Dicimus secundum doctrinam philosophi, quod illud animal est perfectius quod
-        habet plus de potentiis animae. Perfectio est enim, quod movetur secundum locum? quam solum
-        sensitivum et intellectivum magis quam motum, et de ista perfectione loquor ego in praesente
-        materia, quia ut visum est, ternario habet esse perfectionibus numerorum, quas non habent
-        alii numeri sive sint impares sive pares.</p>
+      <p xml:id="PSDTRA0032">Talio modo accipitur perfectio, quae dicitur transcendens vel simplex,
+        quod fit per comparationem unius speciei ad aliam speciem secundum quem modum comparando
+        animal ad animal. Dicimus secundum doctrinam philosophi, quod illud animal est perfectius
+        quod habet plus de potentiis animae. Perfectio est enim, quod movetur secundum locum? quam
+        solum sensitivum et intellectivum magis quam motum, et de ista perfectione loquor ego in
+        praesente materia, quia ut visum est, ternario habet esse perfectionibus numerorum, quas non
+        habent alii numeri sive sint impares sive pares.</p>
       <p xml:id="PSDTRA0033">Cum vox tempore mensurata ... (N 2 II 10ss.).</p>
       <p xml:id="PSDTRA0034">
         <pb n="[154]"/>Capitulum sextum. De virtute numeri ternarii.</p>
-      <p xml:id="PSDTRA0035">Quum dictum sit musicam in numero ternario sumere perfectionem ... (N 2 III
-        5ss.).</p>
+      <p xml:id="PSDTRA0035">Quum dictum sit musicam in numero ternario sumere perfectionem ... (N 2
+        III 5ss.).</p>
       <p xml:id="PSDTRA0036">Capitulum septimum. De forma figurarum et de valore earum (N 2 IV).</p>
       <p xml:id="PSDTRA0037">Capitulum octavum. De nominibus ipsarum figurarum (N 2 V).</p>
       <p xml:id="PSDTRA0038">Capitulum nonum. De perfecto et imperfecto et differentia unius ad
         alterum.</p>
-      <p xml:id="PSDTRA0039">(N 2 VI 1-8) ... in figura inferius scripta ut hic (Sequitur tabula N 2 V
-        8).</p>
-      <p xml:id="PSDTRA0040">Et isti gradus videntur mihi sufficere et quam aliis pluribus. Verumptamen
-        Phillipotus addit unum gradum ratione graduum comparationis, quem gradum non reprobo tamquam
-        impossibilem, sed mihi non videtur necessarius nec regularis propter ductiones ternarii
-        superius declaratas.</p>
+      <p xml:id="PSDTRA0039">(N 2 VI 1-8) ... in figura inferius scripta ut hic (Sequitur tabula N 2
+        V 8).</p>
+      <p xml:id="PSDTRA0040">Et isti gradus videntur mihi sufficere et quam aliis pluribus.
+        Verumptamen Phillipotus addit unum gradum ratione graduum comparationis, quem gradum non
+        reprobo tamquam impossibilem, sed mihi non videtur necessarius nec regularis propter
+        ductiones ternarii superius declaratas.</p>
       <p xml:id="PSDTRA0041">Modus autem suus hic est:</p>
       <p xml:id="PSDTRA0042">
         <pb n="[155]"/>[CSM17:155; text: longissima, semilonga, minima vel, 3, brevissima, 243,
@@ -215,36 +227,38 @@
         54, longa, semibrevior, 27, 4 Ch] <figure>
           <graphic url="/images/PSDTRA_01GF.gif"/>
         </figure></p>
-      <p xml:id="PSDTRA0043">Primum ex istis modis propter superfluitatem relinquo, quia quatuor ultimi
-        gradus sufficiunt, et secundum istos proceditur in hoc libro.</p>
+      <p xml:id="PSDTRA0043">Primum ex istis modis propter superfluitatem relinquo, quia quatuor
+        ultimi gradus sufficiunt, et secundum istos proceditur in hoc libro.</p>
       <p xml:id="PSDTRA0044">Primus gradus.</p>
       <p xml:id="PSDTRA0045">Primus modus: [MX,L,pt on staff1]. Secundus modus: [L,MX,pt on staff1].
         Tertius: [MX,L,L,MX on staff1]. Quartus: [L,L,MX on staff1] Quintus: [MX,MX,MX,L,L,L on
         staff1]</p>
       <p xml:id="PSDTRA0046">
         <pb n="[156]"/>Secundus gradus.</p>
-      <p xml:id="PSDTRA0047">Primus modus: [L,B,pt on staff1]. Secundus: [B,L,pt on staff1]. Tertius:
-        [pt,L,B,B,L,pt on staff1]. Quartus: [B,B,L on staff1]. Quintus: [B,B,B,S,S,S on staff1]</p>
+      <p xml:id="PSDTRA0047">Primus modus: [L,B,pt on staff1]. Secundus: [B,L,pt on staff1].
+        Tertius: [pt,L,B,B,L,pt on staff1]. Quartus: [B,B,L on staff1]. Quintus: [B,B,B,S,S,S on
+        staff1]</p>
       <p xml:id="PSDTRA0048">Tertius gradus.</p>
-      <p xml:id="PSDTRA0049">Primus modus: [B,S on staff1]. Secundus: [S,B on staff1]. Tertius: [B,S,S,B
-        on staff1]. Quartus: [S,S,B on staff1]. Quintus: [S,S,S,M,M,M on staff1]</p>
+      <p xml:id="PSDTRA0049">Primus modus: [B,S on staff1]. Secundus: [S,B on staff1]. Tertius:
+        [B,S,S,B on staff1]. Quartus: [S,S,B on staff1]. Quintus: [S,S,S,M,M,M on staff1]</p>
       <p xml:id="PSDTRA0050">Quartus gradus.</p>
-      <p xml:id="PSDTRA0051">Primus modus: [S,M on staff1]. Secundus: [M,S on staff1]. Tertius: [S,M,M,S
-        on staff1] Quartus: [M,M,S on staff1]. Quintus: [M,M,M,A,A,A on staff1]</p>
-      <p xml:id="PSDTRA0052">De ligaturis autem sufficiant, quae dicta sunt in canonibus antiquorum.</p>
+      <p xml:id="PSDTRA0051">Primus modus: [S,M on staff1]. Secundus: [M,S on staff1]. Tertius:
+        [S,M,M,S on staff1] Quartus: [M,M,S on staff1]. Quintus: [M,M,M,A,A,A on staff1]</p>
+      <p xml:id="PSDTRA0052">De ligaturis autem sufficiant, quae dicta sunt in canonibus
+        antiquorum.</p>
       <p xml:id="PSDTRA0053">Capitulum decimum. De pausis.</p>
-      <p xml:id="PSDTRA0054">Magna altercatio versatur hodie inter musicos nostros quibus dicentibus,
-        quod non sit dare pausam minimam, quod manifeste falsum est. Nam quicquid contingit
-        exprimere, contingit pausare. Immo levius est tacere quam exprimere, et tamen exprimimus
-        minimas, ergo tacere possumus eas. Sed tacere musice non est aliud quam pausare, ergo et
-        caetera.</p>
-      <p xml:id="PSDTRA0055">Idcirco, ut a pluribus conceditur, secundum omnem gradum notarum est dare
-        gradum etiam et pausarum, sed diversi diversimode hoc assignant.</p>
-      <p xml:id="PSDTRA0056">Nam Magister Johannes de Muris sic assignat secundum quatuor dictos gradus,
-        ut apparet in hac descriptione: Duae primae faciunt primum gradum cum tertia, quae tertia
-        cum duabus sequentibus facit secundum gradum, quarum duarum sequentium ultima, quae prima
-        est inter breves scilicet ista: [BP], quae occupat unicum spatium, cum duabus sequentibus
-        constituerit tertium, et illa tertia cum reliquis duabus quartum gradum:</p>
+      <p xml:id="PSDTRA0054">Magna altercatio versatur hodie inter musicos nostros quibus
+        dicentibus, quod non sit dare pausam minimam, quod manifeste falsum est. Nam quicquid
+        contingit exprimere, contingit pausare. Immo levius est tacere quam exprimere, et tamen
+        exprimimus minimas, ergo tacere possumus eas. Sed tacere musice non est aliud quam pausare,
+        ergo et caetera.</p>
+      <p xml:id="PSDTRA0055">Idcirco, ut a pluribus conceditur, secundum omnem gradum notarum est
+        dare gradum etiam et pausarum, sed diversi diversimode hoc assignant.</p>
+      <p xml:id="PSDTRA0056">Nam Magister Johannes de Muris sic assignat secundum quatuor dictos
+        gradus, ut apparet in hac descriptione: Duae primae faciunt primum gradum cum tertia, quae
+        tertia cum duabus sequentibus facit secundum gradum, quarum duarum sequentium ultima, quae
+        prima est inter breves scilicet ista: [BP], quae occupat unicum spatium, cum duabus
+        sequentibus constituerit tertium, et illa tertia cum reliquis duabus quartum gradum:</p>
       <p xml:id="PSDTRA0057">[CSM17:156]</p>
       <p xml:id="PSDTRA0058">
         <pb n="[157]"/>Sed hoc non placet mihi pro tanto, quia dividere unum spatium per partes
@@ -264,8 +278,8 @@
       <p xml:id="PSDTRA0062">Sed haec descriptio mihi videtur mirabilis, quod videlicet ista [Odim],
         quae est unius spatii, aequipolleat illi, quae sequitur eam quae occupat tria spatia, ex quo
         enim eadem pausa est; quare figurabitur diversimode? Hoc idem apparet per omnes gradus.</p>
-      <p xml:id="PSDTRA0063">Item mirabile videtur, quod ista [BP], cum sit unius spatii, sit minima.
-        Item cum ipse sequatur antiquos in tertio gradu, de quo bene tractaverunt. quare non
+      <p xml:id="PSDTRA0063">Item mirabile videtur, quod ista [BP], cum sit unius spatii, sit
+        minima. Item cum ipse sequatur antiquos in tertio gradu, de quo bene tractaverunt. quare non
         sequitur eos in quarto gradu, de quo etiam tractaverunt? Ideo, inter istos navigans mihi
         videtur taliter pausandum esse ut hic:</p>
       <p xml:id="PSDTRA0064">Vide exemplum 2) in pagina sequente.</p>
@@ -284,9 +298,9 @@
       <p xml:id="PSDTRA0067">
         <pb n="[158]"/>[CSM17:158,1; text: 1), 243, 162, 81, Primus gradus, 54, 27, Secundus gradus,
         18, 9, Tertius gradus, 6, 3, Quartus gradus, 2, 1, Quintus gradus]</p>
-      <p xml:id="PSDTRA0068">[CSM17:158,2; text: 2), 81, 54, 27, 18, 9, 6, 3, 2, 1, Longissima, Longior,
-        Longa perfecta, Longa imperfecta, Brevis perfecta, Brevis imperfecta, Parva, Minor, Minima,
-        Primus gradus, Secundus gradus, Tertius gradus, Quartus gradus]</p>
+      <p xml:id="PSDTRA0068">[CSM17:158,2; text: 2), 81, 54, 27, 18, 9, 6, 3, 2, 1, Longissima,
+        Longior, Longa perfecta, Longa imperfecta, Brevis perfecta, Brevis imperfecta, Parva, Minor,
+        Minima, Primus gradus, Secundus gradus, Tertius gradus, Quartus gradus]</p>
       <p xml:id="PSDTRA0069">
         <pb n="[159]"/>addere gradus alios insequendo et ad differentiam semibrevis imperfecte, quae
         minor dicitur. Pausae minimae punctum addidi vel quodcumque aliud signum si melius habeatur,
@@ -301,10 +315,10 @@
         tertia parte sui reducitur ad imperfectum. Nam ut supra dictum est, imperfectum dividitur in
         duo aequalia et perfectum in tria. Sed brevis est tertia pars longae perfectae, ut de se
         patet, ergo et caetera. Sive ipsa brevis praeponatur vel postponatur: [B,L,pt,L,B].</p>
-      <p xml:id="PSDTRA0074">Quod brevis possit imperfici per semibrevem, quae parva dicitur, et quod
-        ipsa parva possit imperfici per minimam.</p>
-      <p xml:id="PSDTRA0075">Haec conclusiones duae sequuntur ex prima. Nam sicut se habet brevis ... (N
-        2 IX 3ss.--N 2 XII 3) ... Et per simile semibrevem alteram imperfici per minimam est
+      <p xml:id="PSDTRA0074">Quod brevis possit imperfici per semibrevem, quae parva dicitur, et
+        quod ipsa parva possit imperfici per minimam.</p>
+      <p xml:id="PSDTRA0075">Haec conclusiones duae sequuntur ex prima. Nam sicut se habet brevis
+        ... (N 2 IX 3ss.--N 2 XII 3) ... Et per simile semibrevem alteram imperfici per minimam est
         tenendum.</p>
       <p xml:id="PSDTRA0076">Explicit explicite, quod erat implicite.</p>
       <p xml:id="PSDTRA0077">Fons atrox eria pedalis truncus usya</p>

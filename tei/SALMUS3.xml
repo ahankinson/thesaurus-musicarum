@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De musica, liber tertius</title>
         <title type="abbrev">SALMUS3</title>
-        <author>Salinas, Franciscus</author>
-        <date notBefore="1500" notAfter="1599">16th</date>
+        <author><persName>Salinas, Franciscus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Claudia Di Luca</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1996</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1996">1996</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Francisci Salinae Burgensis Abbatis Sancti Pancratii de Rocca Scalegna in regno
@@ -144,13 +154,13 @@
         consonantiae repleri possunt, tria etiam genera nos cum antiquis esse dicimus; Diatonum, et
         Chroma, et Harmoniam; nec plura, aut pauciora esse posse: atque etiam ea inter se penes
         spissum, et non spissum differre affirmamus.</p>
-      <p xml:id="SALMUS30007">Sed non eodem modo hic spissum a nobis accipitur, quo ab antiquis. Illi
-        enim id vocabant spissum, in quo acutissimum interuallum reliquis duobus maius erat, vt in
-        Chromate, et Enharmonio; non spissum vero, in quo duo grauiora simul sumpta erant acutissimo
-        maiora, vt in Diatono. nos autem illud genus non spissum dicimus, in quo consonantiae
-        rarioribus, et paucioribus interuallis inueniuntur intermediatae: cuiusmodi est Diatonum, in
-        quo per Tonos, et Semitonium maius (quae interualla ex minoribus rarissima sunt)
-        consonantiae intersecantur; et Diatessaron, verbi gratia, in tria interualla diuisa
+      <p xml:id="SALMUS30007">Sed non eodem modo hic spissum a nobis accipitur, quo ab antiquis.
+        Illi enim id vocabant spissum, in quo acutissimum interuallum reliquis duobus maius erat, vt
+        in Chromate, et Enharmonio; non spissum vero, in quo duo grauiora simul sumpta erant
+        acutissimo maiora, vt in Diatono. nos autem illud genus non spissum dicimus, in quo
+        consonantiae rarioribus, et paucioribus interuallis inueniuntur intermediatae: cuiusmodi est
+        Diatonum, in quo per Tonos, et Semitonium maius (quae interualla ex minoribus rarissima
+        sunt) consonantiae intersecantur; et Diatessaron, verbi gratia, in tria interualla diuisa
         reperitur. Spissum autem, in quo omnes consonantiae spissioribus, et pluribus interuallis
         sunt intercisae: quale est Chroma, in quo per Semitonium maius, et minus proceditur, quae
         spissiora sunt interualla, quam Toni; et Diatessaron in sex interualla, et septem sonos
@@ -207,7 +217,8 @@
         vnde Graece, [diapente], hoc est, per quinque, et Quinaria a quibusdam Latine dicta est: et
         Diatessaron, tria interualla habet, sonos vero quatuor, vnde etiam [diatessaron], hoc est,
         per quatuor, et a quibusdam Latine Quaternaria vocatur. quae nomina tunc his consonantijs
-        indita fuisse credibile est, cum solum genus Diatonicum erat in vsu; atque <pb n="[105]"/>homines naturalibus tantum contenti sonis, simplici, ac virili Musica potius, quam
+        indita fuisse credibile est, cum solum genus Diatonicum erat in vsu; atque <pb n="[105]"
+        />homines naturalibus tantum contenti sonis, simplici, ac virili Musica potius, quam
         multiplici, ac euirata delectabantur. Primum igitur Diapason inuenta est diuisa in duo
         Diatessaron, et Tonum ea disiungentem, quod in dupla (ea quae est a 12. ad 6.) in duas
         sesquitertias diuisa, et sesquioctauam eas disiungentem, ostensum est, vt hi numeri
@@ -228,26 +239,26 @@
         respondent Tonus minor, et Semiditonum; vel ex posteriore desquiquarta, et
         sesquidecimaquinta, ex quibus oriuntur Ditonum, et Semitonium maius, vt in his numeris
         consequenter apparet:</p>
-      <p xml:id="SALMUS30012">[Salinas, De musica, 105,2; text: Diatessaron, Tonus minor, Semiditonum,
-        Ditonum, Semitonium maius. 9. 10. 12. 15. 16. 1. 2. 3. 1. Differentiae]</p>
-      <p xml:id="SALMUS30013">Et quoniam in genere Diatono consonantias oportet omnes inueniri diuisas,
-        minora vero interualla indiuisa manere; sesquinona, cui Tonus minor, et sesquidecimaquinta,
-        cui Semitonium maius respondet, neutiquam erunt diuidendae. Sesquiquinta autem, et
-        sesquiquarta, quibus Semiditonum et Ditonum consonantiae respondent, necessario diuidentur,
-        sesquiquinta quidem (quia Semiditonum, quod ex ea nascitur, consonantia est imperfecta)
-        sicut Diatessaron, non per aequales differentias in sesquidecimam, et sesquiundecimam erit
-        diuidenda; sed per duplas in sesquidecimaquinta, et sesquioctaua, quibus Semitonium maius,
-        et Tonus maior respondent, in his numeris:</p>
+      <p xml:id="SALMUS30012">[Salinas, De musica, 105,2; text: Diatessaron, Tonus minor,
+        Semiditonum, Ditonum, Semitonium maius. 9. 10. 12. 15. 16. 1. 2. 3. 1. Differentiae]</p>
+      <p xml:id="SALMUS30013">Et quoniam in genere Diatono consonantias oportet omnes inueniri
+        diuisas, minora vero interualla indiuisa manere; sesquinona, cui Tonus minor, et
+        sesquidecimaquinta, cui Semitonium maius respondet, neutiquam erunt diuidendae. Sesquiquinta
+        autem, et sesquiquarta, quibus Semiditonum et Ditonum consonantiae respondent, necessario
+        diuidentur, sesquiquinta quidem (quia Semiditonum, quod ex ea nascitur, consonantia est
+        imperfecta) sicut Diatessaron, non per aequales differentias in sesquidecimam, et
+        sesquiundecimam erit diuidenda; sed per duplas in sesquidecimaquinta, et sesquioctaua,
+        quibus Semitonium maius, et Tonus maior respondent, in his numeris:</p>
       <p xml:id="SALMUS30014">
         <pb n="[106]"/>[Salinas, De musica, 106,1; text: Semiditonum, Semitonium maius, Tonus maior,
         15. 16. 18. 1. 2. Differentiae]</p>
       <p xml:id="SALMUS30015">Sesquiquarta vero (quoniam Ditonum, cuius est forma, consonantia est
         perfecta) per aequales differentias erit diuidenda in sesquioctaua, et sesquinona, quibus
         Tonus maior, et Tonus minor respondent, vt in his:</p>
-      <p xml:id="SALMUS30016">[Salinas, De musica, 106,2; text: Ditonum, Tonus maior, Tonus minor, 8. 9.
-        10. 1. Differentiae]</p>
-      <p xml:id="SALMUS30017">Quae duae diuisiones eodem recidunt; nam ex ipsis simul, perinde atque ex
-        sola Diatessaron, emergunt haec tria interualla, Tonus maior, Tonus minor, et Semitonium
+      <p xml:id="SALMUS30016">[Salinas, De musica, 106,2; text: Ditonum, Tonus maior, Tonus minor,
+        8. 9. 10. 1. Differentiae]</p>
+      <p xml:id="SALMUS30017">Quae duae diuisiones eodem recidunt; nam ex ipsis simul, perinde atque
+        ex sola Diatessaron, emergunt haec tria interualla, Tonus maior, Tonus minor, et Semitonium
         maius; per quae genus Diatonum procedere dictum est. Potest autem hoc sex modis contingere,
         qui omnes in perfecto instrumento, iuxta genus Diatonum disposito, reperiuntur: quoniam
         vnumquodque trium interuallorum postest esse acutissimum, medium, et grauissimum, reliquis
@@ -262,14 +273,14 @@
       <p xml:id="SALMUS30018">[Salinas, De musica, 106,3: text: Sex modi diuidendae Diatessaron. 15,
         Semitonium maius, 16, Tonus maior, 18, Tonus minor, 20, 135, 144, 160, 180, 24, 27, 30, 32,
         120, 36, 40, 45, Semitonium maius, 48]</p>
-      <p xml:id="SALMUS30019">Sed quamuis omnes hos modos diuidendi Diatessaron in haec tria interualla,
-        in perfecto instrumento, Diatonica dispositione constituto, necesse sit inueniri, vt
-        inferius demonstrabitur; non tamen omnes sunt aequalis perfectionis: est enim alius alio
-        melior, atque; concinnior: et inter eos omnium optimi sunt primus, et vltimus; cuius causa
-        est sesquioctaua, medio loco posita, quae efficit, vt in vtroque sesquiquarta, et
-        sesquiquinta, quibus Ditonum, et Semiditonum respondent, inueniantur: vt in primo a 15. ad
-        18. sesquiquinta Semiditonum, a 16. ad 20. sesquiquarta Ditonum: et in vltimo a 36. ad 45.
-        sesquiquarta Ditonum, a 40. ad 48. sesquiquinta. Semiditonum: ita vt primus sonus cum
+      <p xml:id="SALMUS30019">Sed quamuis omnes hos modos diuidendi Diatessaron in haec tria
+        interualla, in perfecto instrumento, Diatonica dispositione constituto, necesse sit
+        inueniri, vt inferius demonstrabitur; non tamen omnes sunt aequalis perfectionis: est enim
+        alius alio melior, atque; concinnior: et inter eos omnium optimi sunt primus, et vltimus;
+        cuius causa est sesquioctaua, medio loco posita, quae efficit, vt in vtroque sesquiquarta,
+        et sesquiquinta, quibus Ditonum, et Semiditonum respondent, inueniantur: vt in primo a 15.
+        ad 18. sesquiquinta Semiditonum, a 16. ad 20. sesquiquarta Ditonum: et in vltimo a 36. ad
+        45. sesquiquarta Ditonum, a 40. ad 48. sesquiquinta. Semiditonum: ita vt primus sonus cum
         tertio, et secundus cum quarto consoni sint, sicut primus cum quarto. Quae ratio potissima
         est, cur in vltimo, iuxta quem Ptolemaeus genus Diatonum contentum constituit, sesquinona in
         acutissimo, et sesquioctaua in medio interuallo collocari debeat, multo illa verior, quam
@@ -322,7 +333,8 @@
         ratio optimae ipsius constitutionis maxime resplendet. Ad constituendum autem in hoc genere
         perfectum Diapason systema, vt superioris diuisionis (cuius numeri erant 6.8.9.12) non solum
         sesquitertia, quae erat ab 8. ad 6, sed etiam, quae erat a 12. a 9, per easdem proportiones;
-        et vtraque Diatessaron interuallis eisdem diuisa inueniatur, et Tonus sit etiam, <pb n="[108]"/>qui eas disiungat; ducenda sunt duo extrema, 6. et 12, alterum per alterum; vel
+        et vtraque Diatessaron interuallis eisdem diuisa inueniatur, et Tonus sit etiam, <pb
+          n="[108]"/>qui eas disiungat; ducenda sunt duo extrema, 6. et 12, alterum per alterum; vel
         duo media, quae sunt 8. et 9, et ex vtraque multiplicatione prouenient 72, a quo numero ad
         144. inuenietur ipsa Diapason in duo Diatessaron, et Tonum ea disiungentem diuisa, in his
         numeris, 72.96.108.144, quos minimi, 6.8.9.12, in vltimum ducti, producunt.</p>
@@ -382,17 +394,17 @@
       <p xml:id="SALMUS30025">--Si collibuisset, ab ouo</p>
       <p xml:id="SALMUS30026">Vsque ad mala citaret io Bacche modo summa</p>
       <p xml:id="SALMUS30027">Voce, modo hac resonans, quae chordis quattuor ima</p>
-      <p xml:id="SALMUS30028">Per summam Neten hyperbolaeon omnium acutissimam significans, et per imam
-        Hypaten hypaton, id est, grauissimam Tetrachordi principalium. AEgyptij vero (vt Demetrius
-        Phaleraeus est autor) septem sonis Diapason, septem vocalium Graecarum nomina indiderunt, in
-        octauo prima repetita. At vero Latini, cum plures, quam quinque, non haberent, id facere non
-        potuerunt, quare illos septem primis Alphabeti literis nominauerunt A B C D E F G, in octauo
-        etiam a repetentes: quas modo, in praedicta Diapason constitutione, Graecis sonorum
-        nominibus, quo rectius intelligantur, coniungemus.</p>
-      <p xml:id="SALMUS30029">[Salinas, De musica, 109; text: Duo Tetrachorda assumpta a Ptolemaeo ad
-        perfecti systematis Diapason compositionem. Tetrachordum Diezeugmenon, Tetrachordum Meson,
-        e. Nete Diezeugmenon. d. Paranete Diezeugmenon. c. Trite Diezeugmenon, [sqb]. Paramese. a.
-        Mese. G. Lichanos Meson. F. Parhypate Meson. E. Hypate Meson.]</p>
+      <p xml:id="SALMUS30028">Per summam Neten hyperbolaeon omnium acutissimam significans, et per
+        imam Hypaten hypaton, id est, grauissimam Tetrachordi principalium. AEgyptij vero (vt
+        Demetrius Phaleraeus est autor) septem sonis Diapason, septem vocalium Graecarum nomina
+        indiderunt, in octauo prima repetita. At vero Latini, cum plures, quam quinque, non
+        haberent, id facere non potuerunt, quare illos septem primis Alphabeti literis nominauerunt
+        A B C D E F G, in octauo etiam a repetentes: quas modo, in praedicta Diapason constitutione,
+        Graecis sonorum nominibus, quo rectius intelligantur, coniungemus.</p>
+      <p xml:id="SALMUS30029">[Salinas, De musica, 109; text: Duo Tetrachorda assumpta a Ptolemaeo
+        ad perfecti systematis Diapason compositionem. Tetrachordum Diezeugmenon, Tetrachordum
+        Meson, e. Nete Diezeugmenon. d. Paranete Diezeugmenon. c. Trite Diezeugmenon, [sqb].
+        Paramese. a. Mese. G. Lichanos Meson. F. Parhypate Meson. E. Hypate Meson.]</p>
       <p xml:id="SALMUS30030">Et quanquam alij ab A ad a, quae grauissima est Diapason species,
         incipiunt; nos tamen, quoniam Ptolemaei positionem in hoc genere secuti sumus, quae non
         potest in alia, nisi in ea Diapason specie, quae est ab e ad E, reperiri, hanc coacti sumus
@@ -452,8 +464,8 @@
         Tetrachorda secundum vltimum modum disponuntur. Tetrachordum, Tonus disiunctiuus. C, D, E,
         F, G, a, [sqb], c, d, e, 180. 162. 160. 144. 135. 120. 108. 96. 90. 81. 80. 72. Altera
         species Diapason, in qua duo extrema Tetrachorda secundum primum modum disponuntur.]</p>
-      <p xml:id="SALMUS30040">Sed ad chordae diuisionem faciendam, eam accepimus, quae prius est posita
-        ab e ad E: quoniam duae Diapente, quae exeunt ab extremis sonis ipsius, diuiduntur
+      <p xml:id="SALMUS30040">Sed ad chordae diuisionem faciendam, eam accepimus, quae prius est
+        posita ab e ad E: quoniam duae Diapente, quae exeunt ab extremis sonis ipsius, diuiduntur
         Arithmetice: quae diuisio multo facilius circino fit, quia per aequalia spatia partitur;
         quam quae per inaequalia, qualis fit in altera specie Diapason, in qua diuiduntur Harmonice.
         Accipiatur ergo charta aut tabula, in qua facienda est diuisio chordae per omnia Diatonici
@@ -469,8 +481,8 @@
         magnum, vt signet punctum F; ita vt a sit aequidistans inter F, et d. Postremo diuidatur
         spatium e [sqb] in tria aequa spatia, et in primo, quod erit e proximum, signetur punctum d
         quibus punctis ita dispositis, totus generis Diatonici typus erit constructus hoc modo:</p>
-      <p xml:id="SALMUS30041">[Salinas, De musica, 111,2; text: 144. 135. 120. 108. 96. 90. 81. 80. 72.
-        E, F, G, a, [sqb], c, d, e, 4, 3, 2, 6, 5, 10, 9, 8, 12, 0]</p>
+      <p xml:id="SALMUS30041">[Salinas, De musica, 111,2; text: 144. 135. 120. 108. 96. 90. 81. 80.
+        72. E, F, G, a, [sqb], c, d, e, 4, 3, 2, 6, 5, 10, 9, 8, 12, 0]</p>
       <p xml:id="SALMUS30042">Superioris Typi declaratio.</p>
       <p xml:id="SALMUS30043">Continet hic Typus chordae et diuisionem, et eius diuidendae modum, et
         rationem, cur ita sit diuidenda. Nam suprema linea chordae loco diuisa est in interualla
@@ -503,19 +515,20 @@
         ijs, quibus vtimur, instrumentis inueniri solent, iuxta veras suarum proportionum formas:
         quae quamuis tam ex numerorum, quam ex clauium collatione notissimae sint, tamen quo
         facilius appareant, quae quoties, et a quibus clauibus contineantur, asscribere lubet.</p>
-      <p xml:id="SALMUS30044">Consonantiae, quae intra Diapason E e, Diatonice diuisam, continentur.</p>
-      <p xml:id="SALMUS30045">[Salinas, De musica, 112,1; text: Diapason semel continetur, cuius soni
-        extremi sunt E e. Diapente quater, [sqb], F, c, G, d, s, et, a, e. Diatessaron quater, j,
-        Ditonum ter, Semiditonum ter, Hexachordum maius bis, Hexachordum minus semel] <figure>
+      <p xml:id="SALMUS30044">Consonantiae, quae intra Diapason E e, Diatonice diuisam,
+        continentur.</p>
+      <p xml:id="SALMUS30045">[Salinas, De musica, 112,1; text: Diapason semel continetur, cuius
+        soni extremi sunt E e. Diapente quater, [sqb], F, c, G, d, s, et, a, e. Diatessaron quater,
+        j, Ditonum ter, Semiditonum ter, Hexachordum maius bis, Hexachordum minus semel] <figure>
           <graphic url="/images/SALMUS3_03GF.gif"/>
         </figure></p>
       <p xml:id="SALMUS30046">Intelligendum vero per, ds[[signum] supra lin.], d superius; et per,
         dj[[signum] supra lin.], d inferius; et in caeteris Commatibus similiter.</p>
       <p xml:id="SALMUS30047">Interualla minora haec inueniuntur:</p>
-      <p xml:id="SALMUS30048">[Salinas, De musica, 112,2; text: Tonus maior quater, F, G, a, [sqb], c,
-        d, s, j, e. Tonus minor ter, Semitonium maius bis, E, Comma semel]</p>
-      <p xml:id="SALMUS30049">Has consonantias atque interualla is, qui sequitur, Typus, sonis chordae
-        (intra semicirculos, qui sonos coniungunt) asscripta, continet.</p>
+      <p xml:id="SALMUS30048">[Salinas, De musica, 112,2; text: Tonus maior quater, F, G, a, [sqb],
+        c, d, s, j, e. Tonus minor ter, Semitonium maius bis, E, Comma semel]</p>
+      <p xml:id="SALMUS30049">Has consonantias atque interualla is, qui sequitur, Typus, sonis
+        chordae (intra semicirculos, qui sonos coniungunt) asscripta, continet.</p>
       <p xml:id="SALMUS30050">
         <pb n="[113]"/>[Salinas, De musica, 113; text: DIVISIO DIATONICI GENERIS, DIAPASON,
         DIAPENTE, DIATESSARON, DITONVS, SEMIDITONVS, semitonium, Tonus maior, Tonus minor, COMA, E,
@@ -553,8 +566,8 @@
         sciendum est iuxta illud disposita esse plectra alba, seorsum a nigris accepta; et iuxta
         illud etiam dispositas esse chordas in Cithara chordarum vnius ordinis, quam vulgo sine
         Semitonijs vocant.</p>
-      <p xml:id="SALMUS30052">De genere Chromatico: atque eius in Diapason systemate dispositione. CAPVT
-        VI.</p>
+      <p xml:id="SALMUS30052">De genere Chromatico: atque eius in Diapason systemate dispositione.
+        CAPVT VI.</p>
       <p xml:id="SALMUS30053">MVltis ego seculis crediderim, Diatonum genus hominibus solum in vsu
         fuisse, rudibus adhuc, et multarum harmoniarum expertibus, donec eius duritiem pertaesus
         Olympus, aut Marsias, siue quicunque fuit alius, ab eo variare coepit; et Toni diuisionem
@@ -587,17 +600,17 @@
         maiorem, et Semitonium maius: sic etiam in Chromate Tonus minor diuiditur in Semitonium
         maius, et minus; et Tonus maior in Semitonium minus, et Semitonium maius, et Comma; vt in
         his ostenditur numeris:</p>
-      <p xml:id="SALMUS30054">[Salinas, De musica, 115; text: TONVS MINOR. Semitonium minus, Semitonium
-        maius, Comma, 72. 75. 80. 81. TONVS MAIOR]</p>
-      <p xml:id="SALMUS30055">Sed quoniam in constitutione Diapason generis Chromatici diuersimode inter
-        Tonos Semitonia collocari necesse est, (nunc enim Semitonium maius ad graue, et minus ad
-        acutum, nunc contra collocata reperiuntur) sciendum est, trifariam hoc posse contingere. nam
-        e et [sqb] habent Semitonium minus inferne; quoniam in genere Diatono habent maius superne,
-        quod, vt dictum est, indiuisum manere oportet: d et a nullum habent Semitonium minus, nec
-        inferne, nec superne; quoniam c et G habent illud superne, vnde d et a inter duo Semitonia
-        maiora manent inclusi; F vero habet Semitonium minus superne, quoniam habet maius Diatonicum
-        inferne. Ex quo elicitur, Semitonium minus inter duos sonos Semitonij maioris non inueniri,
-        ne creetur in hoc genere aliud minus interuallum: quod manifeste apparet in his
+      <p xml:id="SALMUS30054">[Salinas, De musica, 115; text: TONVS MINOR. Semitonium minus,
+        Semitonium maius, Comma, 72. 75. 80. 81. TONVS MAIOR]</p>
+      <p xml:id="SALMUS30055">Sed quoniam in constitutione Diapason generis Chromatici diuersimode
+        inter Tonos Semitonia collocari necesse est, (nunc enim Semitonium maius ad graue, et minus
+        ad acutum, nunc contra collocata reperiuntur) sciendum est, trifariam hoc posse contingere.
+        nam e et [sqb] habent Semitonium minus inferne; quoniam in genere Diatono habent maius
+        superne, quod, vt dictum est, indiuisum manere oportet: d et a nullum habent Semitonium
+        minus, nec inferne, nec superne; quoniam c et G habent illud superne, vnde d et a inter duo
+        Semitonia maiora manent inclusi; F vero habet Semitonium minus superne, quoniam habet maius
+        Diatonicum inferne. Ex quo elicitur, Semitonium minus inter duos sonos Semitonij maioris non
+        inueniri, ne creetur in hoc genere aliud minus interuallum: quod manifeste apparet in his
         instrumentis, quae per alba plectra, et nigra pulsantur, in quibus inter [sqb] et E, et
         inter E et F, nullum plectrum nigrum inuenitur, quia Semitonij maioris interuallum
         continent, et reliqua alba plectra nigris intersecta reperiuntur. Nunc antequam typum huius
@@ -606,8 +619,8 @@
         etiam in hoc genere omnis Diapente (quoad fieri possit) quae in Diatono erat Arithmetice,
         reperiatur Harmonice diuisa; et contra. Quod in eius typi constructione manifestum omnibus
         apparebit.</p>
-      <p xml:id="SALMUS30056">De constructione typi generis Chromatici; atque eius expositione. CAPVT
-        VII.</p>
+      <p xml:id="SALMUS30056">De constructione typi generis Chromatici; atque eius expositione.
+        CAPVT VII.</p>
       <p xml:id="SALMUS30057">
         <pb n="[116]"/>CVm in genere Diatono quinque sint Toni, et duo Semitonia maiora; et Tonos
         tantum in genere Chromatico diuidi oporteat, Semitonia autem indiuisa manere; quinque soni
@@ -630,15 +643,16 @@
         ponantur, deerunt aliquae consonantiae, sine quibus hoc genus stare non potest. Nam F
         Diatonicum, nisi b molle inferius sit, carebit sono Diatessaron acutiore; et nisi ponatur F
         superius, [sqb] non habebit sonum Diatessaron grauiorem.</p>
-      <p xml:id="SALMUS30058">Sciendum est etiam, sonos generis Chromatici non habere propria nomina,
-        sed eisdem literis nominari, quibus Diatonici soni, a quibus per Semitonium minus distant in
-        graue, aut in acutum. Nam cum Practici sonos, minori inter se Semitonio distantes, licet duo
-        sint, pro vno accipiant, et eodem nomine nuncupent, pro vno signo, vt illi dicunt, eos
-        habentes, vt [sqb] et b, merito nobis quoque, vt noua nomina vitemus, concedetur, vt hosce
-        sonos, solo Semitonio minori a Diatonicis distantes, eisdem cum illis literis nominemus: ne
-        tamen interim cum illis confundantur, Chromaticos, differentiae causa, cognominabimus.</p>
-      <p xml:id="SALMUS30059">Accepta igitur, ad huius generis Typum construendum, longiori tabula, aut
-        charta, quam ad Diatonici constructionem accepimus, (quoniam plura interualla, et plura
+      <p xml:id="SALMUS30058">Sciendum est etiam, sonos generis Chromatici non habere propria
+        nomina, sed eisdem literis nominari, quibus Diatonici soni, a quibus per Semitonium minus
+        distant in graue, aut in acutum. Nam cum Practici sonos, minori inter se Semitonio
+        distantes, licet duo sint, pro vno accipiant, et eodem nomine nuncupent, pro vno signo, vt
+        illi dicunt, eos habentes, vt [sqb] et b, merito nobis quoque, vt noua nomina vitemus,
+        concedetur, vt hosce sonos, solo Semitonio minori a Diatonicis distantes, eisdem cum illis
+        literis nominemus: ne tamen interim cum illis confundantur, Chromaticos, differentiae causa,
+        cognominabimus.</p>
+      <p xml:id="SALMUS30059">Accepta igitur, ad huius generis Typum construendum, longiori tabula,
+        aut charta, quam ad Diatonici constructionem accepimus, (quoniam plura interualla, et plura
         puncta vice sonorum eam habere necesse erit) facienda est primum generis Diatonici
         constructio, eo modo, quo dictum est. Deinde sit tantum spatij relictum, vt posito vno pede
         circini in c, et altero in G; manente qui est in c, circumduci possit qui erit in G, vt
@@ -676,46 +690,47 @@
         quaerenda est, 16. inueniuntur soni. quod non sine miro rationis artificio contingit, non
         humanitus excogitato, sed ex ipsa numerorum harmonicorum natura desumpto, vt manifeste
         ostendet typus, quem hic oculis subijciendum curauimus.</p>
-      <p xml:id="SALMUS30060">[Salinas, De musica, 117; text: 2880. 2700. 2592. 2560. 2400. 2304. 2160.
-        2025. 2000. 1920. 1800. 1728. 1620. 1600. 1500. 1440. E, F, #, G, a, b, [sqb], c, d, e, 27,
-        0, 25, 24, 6, 5, 4, 20, 18, 16, 15, 3, 12]</p>
+      <p xml:id="SALMUS30060">[Salinas, De musica, 117; text: 2880. 2700. 2592. 2560. 2400. 2304.
+        2160. 2025. 2000. 1920. 1800. 1728. 1620. 1600. 1500. 1440. E, F, #, G, a, b, [sqb], c, d,
+        e, 27, 0, 25, 24, 6, 5, 4, 20, 18, 16, 15, 3, 12]</p>
       <p xml:id="SALMUS30061">Huius Typi expositio.</p>
-      <p xml:id="SALMUS30062">Continet hic Typus omnes sonos Chromaticos, Semitonio minore a Diatonicis
-        in graue vel in acutum distantes, qui cum eodem cum Diatonicis nomine nuncupentur, vt paulo
-        ante dictum est, ne literis ijsdem geminatis, vel trigeminatis, soni diuersorum generum non
-        facile internoscerentur, malui solos Diatonicos literis designare; Chromaticorum vero acutos
-        seu sustentos signo #, graues seu molles signo b rotundi. Habet praeterea hic Typus cum
-        superiori illud commune, quod loco punctorum numeri signantur. singulae autem diuisiones seu
-        numerorum ordines lineis longioribus distinguuntur, quas quae transuersim secant, ostendunt,
-        qui soni Chromatici a quibus punctis seu numeris oriantur. In numeris quoque, perinde vt
-        supra, illis, qui nulli sono respondent, suppressis, eorum loco figura o. signata est.
-        Quodsi quis hos sex numerorum ordines in vnum atque eundem cum Diatonicis redigere velit, is
-        numeros cuiusque ordinis eos, qui Diatonicis respondent, cum ijsdem conferet, quos primi
-        quidem, et secundi, et sexti ordinis numeri metiuntur, in tertio autem et quarto ordine
-        partes quintae, in quinto vero quartae post diuisionem <pb n="[118]"/>. remanent itaque
-        omnes numeri Diatonici per quater quinque, hoc est, per viginti, multiplicandi sunt, quibus
-        deinde Chromatici ratione proportionis, quemadmodum paulo ante ostensum est, miscebuntur.
-        quo facto, orietur continuus ille numerorum ordo, qui clauibus est asscriptus. Interualla
-        tum consona, tum dissona, quae a sonis Chromaticis, tam inter se, quam cum Diatonicis
-        collatis, constituuntur, haec sunt:</p>
+      <p xml:id="SALMUS30062">Continet hic Typus omnes sonos Chromaticos, Semitonio minore a
+        Diatonicis in graue vel in acutum distantes, qui cum eodem cum Diatonicis nomine
+        nuncupentur, vt paulo ante dictum est, ne literis ijsdem geminatis, vel trigeminatis, soni
+        diuersorum generum non facile internoscerentur, malui solos Diatonicos literis designare;
+        Chromaticorum vero acutos seu sustentos signo #, graues seu molles signo b rotundi. Habet
+        praeterea hic Typus cum superiori illud commune, quod loco punctorum numeri signantur.
+        singulae autem diuisiones seu numerorum ordines lineis longioribus distinguuntur, quas quae
+        transuersim secant, ostendunt, qui soni Chromatici a quibus punctis seu numeris oriantur. In
+        numeris quoque, perinde vt supra, illis, qui nulli sono respondent, suppressis, eorum loco
+        figura o. signata est. Quodsi quis hos sex numerorum ordines in vnum atque eundem cum
+        Diatonicis redigere velit, is numeros cuiusque ordinis eos, qui Diatonicis respondent, cum
+        ijsdem conferet, quos primi quidem, et secundi, et sexti ordinis numeri metiuntur, in tertio
+        autem et quarto ordine partes quintae, in quinto vero quartae post diuisionem <pb n="[118]"
+        />. remanent itaque omnes numeri Diatonici per quater quinque, hoc est, per viginti,
+        multiplicandi sunt, quibus deinde Chromatici ratione proportionis, quemadmodum paulo ante
+        ostensum est, miscebuntur. quo facto, orietur continuus ille numerorum ordo, qui clauibus
+        est asscriptus. Interualla tum consona, tum dissona, quae a sonis Chromaticis, tam inter se,
+        quam cum Diatonicis collatis, constituuntur, haec sunt:</p>
       <p xml:id="SALMUS30063">CONSONANTIAE, quae inter sonos Chromaticos inueniuntur.</p>
       <p xml:id="SALMUS30064">[Salinas, De musica, 118,1; text: Diapente semel, F, #, j, et, c,
         Diatessaron bis, G, b, s, e] <figure>
           <graphic url="/images/SALMUS3_04GF.gif"/>
         </figure></p>
-      <p xml:id="SALMUS30065">Signum # literae adiectum significat sonum Chromaticum sustentum, b vero
-        mollem: at b solo posito, significatur b Chromaticum molle. Per j[[signum] supra lin.] autem
-        inferius, et per s[[signum] supra lin.] superius esse accipiendum, supra quoque admonui.</p>
+      <p xml:id="SALMUS30065">Signum # literae adiectum significat sonum Chromaticum sustentum, b
+        vero mollem: at b solo posito, significatur b Chromaticum molle. Per j[[signum] supra lin.]
+        autem inferius, et per s[[signum] supra lin.] superius esse accipiendum, supra quoque
+        admonui.</p>
       <p xml:id="SALMUS30066">Inter alterum Chromaticum, alterum Diatonicum.</p>
-      <p xml:id="SALMUS30067">[Salinas, De musica, 118,2; text: Diatessaron bis, F, #, s, [sqb], b, j.
-        Ditonum quater, d, E, G, a, c, Semiditonum quinquies, e, Hexachordum maius semel,
+      <p xml:id="SALMUS30067">[Salinas, De musica, 118,2; text: Diatessaron bis, F, #, s, [sqb], b,
+        j. Ditonum quater, d, E, G, a, c, Semiditonum quinquies, e, Hexachordum maius semel,
         Hexachordum minus quater]</p>
       <p xml:id="SALMUS30068">INTERVALLA MINORA inter sonos Chromaticos.</p>
       <p xml:id="SALMUS30069">[Salinas, De musica, 118,3; text: Tonus maior semel, F, #, j, G, Tonus
         minor semel, s, Comma bis, b]</p>
       <p xml:id="SALMUS30070">Inter alterum Chromaticum, alterum Diatonicum.</p>
-      <p xml:id="SALMUS30071">[Salinas, De musica, 118,4; text: Tonus maior bis, E, F, #, s, b, j, c.
-        Tonus minor ter, [sqb], Semitonium maius quinquies, G, a, d, e, Semitonium minus
+      <p xml:id="SALMUS30071">[Salinas, De musica, 118,4; text: Tonus maior bis, E, F, #, s, b, j,
+        c. Tonus minor ter, [sqb], Semitonium maius quinquies, G, a, d, e, Semitonium minus
         quinquies]</p>
       <p xml:id="SALMUS30072">Et haec quidem interualla a sonis Chromaticis vel inter se, vel cum
         Diatonicis collatis, proficiscuntur; a solis autem Diatonicis, inter se comparatis, quae
@@ -747,8 +762,8 @@
         fieri non potuit: nam tametsi numerus 90, qui proximus est numero 81, habeat subduplum 45,
         et Diapason generis Diatonici ab eo ad 90. inueniri posse videatur, tamen cadet ab F ad f,
         vt ostendunt hi numeri.</p>
-      <p xml:id="SALMUS30075">[Salinas, De musica, 120,1; text: f, e, d, c, [sqb], a, G, s, j. F. 45.
-        48. 54. 60. 64. 72. 80. 81. 90.] <figure>
+      <p xml:id="SALMUS30075">[Salinas, De musica, 120,1; text: f, e, d, c, [sqb], a, G, s, j. F.
+        45. 48. 54. 60. 64. 72. 80. 81. 90.] <figure>
           <graphic url="/images/SALMUS3_06GF.gif"/>
         </figure></p>
       <p xml:id="SALMUS30076">Sed tunc Comma cadit in G, quod, vt demonstratum est, in d necessario
@@ -756,8 +771,8 @@
         conseruare possimus. Quare illud ab E ad e in minimis numeris statuimus, et in vna atque
         eadem specie Diapason haec tria genera ostendere voluimus, vt mirificus ordo, quo inter se
         cohaerent, appareat.</p>
-      <p xml:id="SALMUS30077">De genere Enharmonio; et de ipsius Typi constructione, atque expositione.
-        CAPVT VIII.</p>
+      <p xml:id="SALMUS30077">De genere Enharmonio; et de ipsius Typi constructione, atque
+        expositione. CAPVT VIII.</p>
       <p xml:id="SALMUS30078">REliquum est tertium genus, quod dicitur Enharmonium, quasi optime
         coaptatum, omnium spississimum, et perfectissimum, et quod in se reliqua duo continet, vt
         potentia rationalis continet vegetandi, et sentiendi facultates. Et sicut iam non tres sed
@@ -792,8 +807,8 @@
         habeant Semitonium maius, et minus; grauis in acutum, et acutus in graue, eundem ad modum,
         quo Diapason in duas Diatessaron, et Tonum eas disiungentem inuenitur diuisa. Quod in his
         minimis numeris poterit inueniri:</p>
-      <p xml:id="SALMUS30081">[Salinas, De musica, 121; text: TONVS MINOR, Semitonium maius, Semitonium
-        minus, Diesis, 360. 375. 384. 400.]</p>
+      <p xml:id="SALMUS30081">[Salinas, De musica, 121; text: TONVS MINOR, Semitonium maius,
+        Semitonium minus, Diesis, 360. 375. 384. 400.]</p>
       <p xml:id="SALMUS30082">In quibus numeris medij, alter per alterum ducti, eandem summam
         conficiunt, quam extremi, quod ipsum quoque supra in simili Diapason diuisione obseruatum
         est. Postquam igitur in ea facta fuerit Diatoni, et Chromatis constructio, eo, quo dictum
@@ -845,14 +860,15 @@
         excogitari. Quod vt in typo conspici possit, ipsum hic apponendum curauimus, omnibus suis
         numeris etiam tam qui singulis diuisionibus, quam qui numeris in vnum ordinem contractis
         respondent, appositis, vt oculorum, et rationis iudicio valeat exactissime perpendi.</p>
-      <p xml:id="SALMUS30083">[Salinas, De musica, 122; text: 57600. 55296. 54000. 51840. 51200. 50625.
-        50000. 48000. 46080. 45000. 43200. 41472. 40960. 40500. 40000. 38400. 36864. 36000. 34560.
-        33750. 32400. 32000. 30720. 30000. 28800. E, #, F, b, G, a, [sqb], c, d, e, 6, 5, 4, 3, 15,
-        0, 12, 10, 9, 8, 16]</p>
+      <p xml:id="SALMUS30083">[Salinas, De musica, 122; text: 57600. 55296. 54000. 51840. 51200.
+        50625. 50000. 48000. 46080. 45000. 43200. 41472. 40960. 40500. 40000. 38400. 36864. 36000.
+        34560. 33750. 32400. 32000. 30720. 30000. 28800. E, #, F, b, G, a, [sqb], c, d, e, 6, 5, 4,
+        3, 15, 0, 12, 10, 9, 8, 16]</p>
       <p xml:id="SALMUS30084">Typi praemissi expositio.</p>
-      <p xml:id="SALMUS30085">Typus hic ingenio est confectus eodem, quo superior in genere Chromatico:
-        itaque expositioni eius nihil immorandum puto. Ratio tamen, quamobrem superioris Typi numeri
-        sint immutati, silentio praetereunda non est. Ordines numerorum, qui diuisionum puncta <pb n="[123]"/>declarauit, sunt nouem, qui omnes ad Chromatici Typi numeros sunt
+      <p xml:id="SALMUS30085">Typus hic ingenio est confectus eodem, quo superior in genere
+        Chromatico: itaque expositioni eius nihil immorandum puto. Ratio tamen, quamobrem superioris
+        Typi numeri sint immutati, silentio praetereunda non est. Ordines numerorum, qui diuisionum
+        puncta <pb n="[123]"/>declarauit, sunt nouem, qui omnes ad Chromatici Typi numeros sunt
         submultiplices praeter ordinem tertium, sextum, et septimum; in quibus aliquae post
         diuisionem partes remanent; in sexto dimidia, in septimo tres quartae, in tertio quatuor
         quintae. quare, vt hi tres ordines eidem aggregari possint, necesse est, vt omnes numeri
@@ -862,29 +878,30 @@
         nunc omnes consonantiae, atque interualla minora, quae a sonis Enharmonicis vel inter se,
         vel cum Chromaticis, vel cum Diatonicis collatis, oriuntur.</p>
       <p xml:id="SALMUS30086">Consonantiae sonorum Enharmonicorum</p>
-      <p xml:id="SALMUS30087">[Salinas, De musica, 123,1; text: Diapente duae, E, #, [sqb], G, b, j, d,
-        Diatessaron tria, a, s, Semiditonum vnum.] <figure>
+      <p xml:id="SALMUS30087">[Salinas, De musica, 123,1; text: Diapente duae, E, #, [sqb], G, b, j,
+        d, Diatessaron tria, a, s, Semiditonum vnum.] <figure>
           <graphic url="/images/SALMUS3_07GF.gif"/>
         </figure></p>
       <p xml:id="SALMUS30088">Nota per puncta, literis imposita, sonos Enharmonicos a Diatonicis
         discerni.</p>
       <p xml:id="SALMUS30089">Enharmonicorum et Chromaticorum.</p>
-      <p xml:id="SALMUS30090">[Salinas, De musica, 123,2; text: Diapente duo, a, b, e, G, #, d, Ditona
-        quinque, j, s, F, [sqb], Semiditona tria, E, c, Hexachorda maiora duo, Hexachordum minus
-        vnum]</p>
+      <p xml:id="SALMUS30090">[Salinas, De musica, 123,2; text: Diapente duo, a, b, e, G, #, d,
+        Ditona quinque, j, s, F, [sqb], Semiditona tria, E, c, Hexachorda maiora duo, Hexachordum
+        minus vnum]</p>
       <p xml:id="SALMUS30091">Enharmonicorum et Diatonicorum.</p>
-      <p xml:id="SALMUS30092">[Salinas, De musica, 123,3; text: Ditona duo, a, b, c, [sqb], d, #]</p>
+      <p xml:id="SALMUS30092">[Salinas, De musica, 123,3; text: Ditona duo, a, b, c, [sqb], d,
+        #]</p>
       <p xml:id="SALMUS30093">INTERVALLA MINORA sonorum Enharmonicorum.</p>
       <p xml:id="SALMUS30094">[Salinas, De musica, 123,4; text: Toni maiores duo, G, b, s, a, #, j,
         [sqb], Toni minores duo, Commata duo]</p>
       <p xml:id="SALMUS30095">Enharmonicorum et Chromaticorum.</p>
-      <p xml:id="SALMUS30096">[Salinas, De musica, 123,5; text: Toni maiores tres, a, b, s, c, #, d, G,
-        Toni minores duo, j, Semitonia maiora duo, E, F, [sqb], Dieses quinque]</p>
+      <p xml:id="SALMUS30096">[Salinas, De musica, 123,5; text: Toni maiores tres, a, b, s, c, #, d,
+        G, Toni minores duo, j, Semitonia maiora duo, E, F, [sqb], Dieses quinque]</p>
       <p xml:id="SALMUS30097">Enharmonicorum et Diatonicorum.</p>
-      <p xml:id="SALMUS30098">[Salinas, De musica, 123,6; text: Semitonia maiora quatuor, F, G, b, j, a,
-        #, s, [sqb], c, d, Semitonia minora sex, E, Dieses duae]</p>
-      <p xml:id="SALMUS30099">Haec omnia interualla vna cum Diatonicis et Chromaticis, in sequenti Typo
-        sonis asscripta reperiuntur.</p>
+      <p xml:id="SALMUS30098">[Salinas, De musica, 123,6; text: Semitonia maiora quatuor, F, G, b,
+        j, a, #, s, [sqb], c, d, Semitonia minora sex, E, Dieses duae]</p>
+      <p xml:id="SALMUS30099">Haec omnia interualla vna cum Diatonicis et Chromaticis, in sequenti
+        Typo sonis asscripta reperiuntur.</p>
       <p xml:id="SALMUS30100">
         <pb n="[124]"/>[Salinas, De musica, 124; text: Totius harmoniae vis hoc diagrammate fulget.
         Cui nihil omnino iungi, adimique potest. Litera sola genus primum: signata secundum: At
@@ -927,9 +944,9 @@
       <p xml:id="SALMUS30103">
         <pb n="[126]"/>[Salinas, De musica, 126; text: E, #. F, b. G, a, [sqb], c, d, e, 1, 2, 3, 4,
         5, 6, 7]</p>
-      <p xml:id="SALMUS30104">Etsi autem in hac Diapason specie, quae est ab e ad E, non potest huius
-        generis dispositio in minoribus numeris inueniri, quam a 28800 ad 57600: poterit tamen in ea
-        Diapason, quae est ab f superiori Chromatico paruo ad idem magnum, inueniri a 25600 ad
+      <p xml:id="SALMUS30104">Etsi autem in hac Diapason specie, quae est ab e ad E, non potest
+        huius generis dispositio in minoribus numeris inueniri, quam a 28800 ad 57600: poterit tamen
+        in ea Diapason, quae est ab f superiori Chromatico paruo ad idem magnum, inueniri a 25600 ad
         51200. neque ad minores reduci potest, quoniam 50625, cui respondet G molle Enharmonium
         inferius, propter ipsius imparitatem subduplo caret: quare necessum est, a subduplo 51200,
         qui est illi proximus, inchoare. Sed nos hoc etiam genus, vt Chromaticum, in eadem Diapason,
@@ -939,14 +956,15 @@
         cuiusmodi est Missa illa Ioannis Montoni, quae Trium b mollium dicitur, atque aliae, quae
         Moteta, et Madrigalia vulgo vocant, in quibus Semitonium maius, quod est a G Chromatico ad a
         Diatonicum, reperitur per a molle diuisum in Diesim Chromaticam, et Enharmoniam, quod
-        nequaquam esse potest generis Chromatici: quoniam in eo duo tantum mollia reperiuntur, <pb n="[127]"/>e et b. Et plurima instrumenta Musica ex his, quae per alba, et nigra plectra
+        nequaquam esse potest generis Chromatici: quoniam in eo duo tantum mollia reperiuntur, <pb
+          n="[127]"/>e et b. Et plurima instrumenta Musica ex his, quae per alba, et nigra plectra
         pulsantur, secundum hoc genus disposita sunt (qualia memini me audire Florentiae) sed omnium
         perfectissimum est, quod ego Romae faciendum curaui; et hic habeo Salmanticae. In quo
         vtrumque reperitur instrumentum, tam perfectum, quam id, quo vtimur, imperfectum; et
         alterius ad alterum potest fieri collatio: et in vtroque tria melodiarum genera maxima cura,
         atque diligentia perfectissime demonstrantur.</p>
-      <p xml:id="SALMUS30106">Quomodo, inuenta Diatonici generis dispositione, reliquorum etiam duorum
-        generum dispositio facilime valeat inueniri. CAPVT IX.</p>
+      <p xml:id="SALMUS30106">Quomodo, inuenta Diatonici generis dispositione, reliquorum etiam
+        duorum generum dispositio facilime valeat inueniri. CAPVT IX.</p>
       <p xml:id="SALMUS30107">INuestigandus autem est modus, per quem, dispositis in Diapason iuxta
         genus Diatonicum sonis, et interuallis, (quod ex his, quae superius dicta sunt, factu
         facilimum est) iuxta reliqua etiam duo genera facilime, et commodissime disponi queant. Qui
@@ -1011,11 +1029,11 @@
         etiam potentia e molle Chromaticum inferne, sicut e paruum actu: et sic deinceps ad quotquot
         Diapason volueris, poteris procedere. Quae omnia subiectum Typum intuenti erunt meridiana
         luce clariora.</p>
-      <p xml:id="SALMUS30108">[Salinas, De musica, 128; text: Diapason Diatonicae Chromatica diuisio,
-        orta ex duplici diuisione Diapente, Arithmetica, et Harmonica: Media enim duo sunt, prius
-        Arithmeticum, posterius Harmonicum, et eorundem alterum Diatonicum, alterum Chromaticum. Sex
-        Diapente Diatonicae medio Diatonico et Chromatico, praeter a molle Enharmonium. D, E, F, #,
-        G, b, a, [sqb], c, d, e, f, g] <figure>
+      <p xml:id="SALMUS30108">[Salinas, De musica, 128; text: Diapason Diatonicae Chromatica
+        diuisio, orta ex duplici diuisione Diapente, Arithmetica, et Harmonica: Media enim duo sunt,
+        prius Arithmeticum, posterius Harmonicum, et eorundem alterum Diatonicum, alterum
+        Chromaticum. Sex Diapente Diatonicae medio Diatonico et Chromatico, praeter a molle
+        Enharmonium. D, E, F, #, G, b, a, [sqb], c, d, e, f, g] <figure>
           <graphic url="/images/SALMUS3_10GF.gif"/>
         </figure></p>
       <p xml:id="SALMUS30109">
@@ -1024,8 +1042,8 @@
         Diatonicum, altera Enharmonicum. C, #, D, b, E, F, G, a, [sqb], c, d, e, f, g, Sex Diapente
         Chromaticae, medio tam Arithmetico quam Harmonico diuisae.]</p>
       <p xml:id="SALMUS30110">Breuis in has figuras annotatio.</p>
-      <p xml:id="SALMUS30111">Saepius admonui, per literas significari sonos Diatonicos, per signa, b et
-        #, Chromaticos; per eadem cum puncto, Enharmonicos. Signa autem aut literis addo, aut
+      <p xml:id="SALMUS30111">Saepius admonui, per literas significari sonos Diatonicos, per signa,
+        b et #, Chromaticos; per eadem cum puncto, Enharmonicos. Signa autem aut literis addo, aut
         separatim pono. Separatim ea pono, cum literae simul scribuntur, hoc est, cum soni Diatonici
         (a quibus per Semitonium minus distant) simul exprimuntur. at cum soni Chromatici, vel
         Enharmonij soli ponuntur, tunc, quia signa sola absque literis sonos non satis explicant,
@@ -1080,15 +1098,15 @@
         graue, neque in acutum potest habere Ditonum; quandoquidem neque habet quintam partem, quae
         ei detrahi, neque quartam, quae addi possit, et idcirco nullum aliud Comma potest admittere,
         vt sequens ostendit descriptio:</p>
-      <p xml:id="SALMUS30114">[Salinas, De musica, 130; text: Caret Ditono. bs, d, f, #, s, 100. 81. 80.
-        64. Comma, Ditonum] <figure>
+      <p xml:id="SALMUS30114">[Salinas, De musica, 130; text: Caret Ditono. bs, d, f, #, s, 100. 81.
+        80. 64. Comma, Ditonum] <figure>
           <graphic url="/images/SALMUS3_11GF.gif"/>
         </figure></p>
-      <p xml:id="SALMUS30115">In Chromate vero a quocunque sono incipiat Diapason, qui sit d inferiore
-        acutior, etiamsi sit ab aa ad a, semper inuenietur hoc Comma Diatonicum in minimis eius
-        numeris a 1600 ad 1620, qui sunt vicecupli ad minimos eius numeros, neque in minoribus in
-        genere Chromatico poterit inueniri. Sed in his Diapason speciebus, quae incipiunt a sonis d
-        superiore grauioribus, inuenietur in eorum duplis, qui sunt 3200.3240. Sic autem se habent
+      <p xml:id="SALMUS30115">In Chromate vero a quocunque sono incipiat Diapason, qui sit d
+        inferiore acutior, etiamsi sit ab aa ad a, semper inuenietur hoc Comma Diatonicum in minimis
+        eius numeris a 1600 ad 1620, qui sunt vicecupli ad minimos eius numeros, neque in minoribus
+        in genere Chromatico poterit inueniri. Sed in his Diapason speciebus, quae incipiunt a sonis
+        d superiore grauioribus, inuenietur in eorum duplis, qui sunt 3200.3240. Sic autem se habent
         1600 et 1620, vt vnicum Ditonum habeant in graue, et vnicum in acutum. In graue 2000 et
         2025, quibus respondebunt in sonis b molle superius, et b molle inferius, quae diuident
         Tonum maiorem ab a ad [sqb] in Semitonium maius ad graue, et minus ad acutum. Neque erit in
@@ -1137,9 +1155,9 @@
         f, #, a, [sqb], Tonus minor, Comma, Ditonum] <figure>
           <graphic url="/images/SALMUS3_12GF.gif"/>
         </figure></p>
-      <p xml:id="SALMUS30124">Nec potest in his numeris aliud Ditonum continuari in acutum, quia minimus
-        numerus 18432 caret quinta parte, quae ab eo detrahi possit; nec in graue, quia maximus
-        56250 caret quarta, quae ei possit addi. Quamuis autem F molle Enharmonium a generis
+      <p xml:id="SALMUS30124">Nec potest in his numeris aliud Ditonum continuari in acutum, quia
+        minimus numerus 18432 caret quinta parte, quae ab eo detrahi possit; nec in graue, quia
+        maximus 56250 caret quarta, quae ei possit addi. Quamuis autem F molle Enharmonium a generis
         Enharmonij dispositione repellendum esse dixerimus, quod Semitonio minore ab F Diatonico
         distat in graue, et pro eo E sustentum assumpserimus, quod Diesi grauius est, his rationibus
         adducti, quae praecedenti capite positae sunt. videtur tamen harmoniae ratio vtrumuis
@@ -1189,49 +1207,49 @@
         quibusdam in grauissimo interuallo, vt facile quiuis poterit inuenire. Plura etiam alia in
         his poterant considerari, quae nos relinquimus ingeniosis inuestiganda, haec illis tantum
         velut innuisse contenti.</p>
-      <p xml:id="SALMUS30130">De multiplici Analogia, quae inter haec tria genera tam in numeris, quam
-        in sonis mirabilis inuenitur. CAPVT XI.</p>
-      <p xml:id="SALMUS30131">EX hac trium generum constitutione oritur inter illa certa analogia, et
-        quasi quaedam cognatio non solum Harmonicae, verum etiam Geometricae rationi valde
+      <p xml:id="SALMUS30130">De multiplici Analogia, quae inter haec tria genera tam in numeris,
+        quam in sonis mirabilis inuenitur. CAPVT XI.</p>
+      <p xml:id="SALMUS30131">EX hac trium generum constitutione oritur inter illa certa analogia,
+        et quasi quaedam cognatio non solum Harmonicae, verum etiam Geometricae rationi valde
         consentanea: quae neque in Pythagoraeorum, aut aliorum antiquorum positionibus inuenitur. Et
         primo ea reperitur in numeris, in quibus vnum post aliud in eadem Diapason specie necesse
         est disposita reperiri. Nam vbi desinit Diatonum, ibi incipit Chroma, et vbi desinit Chroma,
         ibi incipit Enharmonium, addita tamen illa nota algoristica, o, quae cum per se nihil sit,
         cuiuis adiuncta numero, illum in decuplum auget. Et si duae sint in centuplum crescit, vt in
         his numeris manifeste potest ostendi:</p>
-      <p xml:id="SALMUS30132">[Salinas, De musica, 133,2; text: Diatonum, Chroma, Enharmonium, 72. 144.
-        1440. 2880. 28800. 57600.]</p>
-      <p xml:id="SALMUS30133">Quod vt in Diapason ab e ad E, ita quoque in omnibus alijs speciebus verum
-        esse contingit. <pb n="[134]"/>Idem manifestissime apparet in Commatis interuallo, quod
-        inter duo d in genere Diatono reperitur ab 81 ad 80, inter numeros sola vnitate distantes,
-        ad quorum maiorem signandum algoristica illa, quam diximus, nota opus est nulla; ad minorem
-        vna; nec potest hoc Comma ad minores numeros reduci, propter vnitatis interuentum, quae
-        indiuisibilis est. in Chromatico vero idem Comma inter duo d reperitur a 1620 ad 1600. qui
-        sunt priorum dupli, addita nota algoristica, o: neque in minoribus in Diapason, iuxta hoc
-        genus constituta, poterit inueniri: in Enharmonio autem inuenitur in numeris ad Chromaticos
-        duplos addita illis alia nota algoristica, qui erunt quadrupli ad Diatonicos duabus notis
-        auctos; sunt autem, 32400.32000: neque in minoribus potest inueniri in Diapason generis
-        Enharmonij, vt haec descriptio, suo procedens ordine, ostendit:</p>
+      <p xml:id="SALMUS30132">[Salinas, De musica, 133,2; text: Diatonum, Chroma, Enharmonium, 72.
+        144. 1440. 2880. 28800. 57600.]</p>
+      <p xml:id="SALMUS30133">Quod vt in Diapason ab e ad E, ita quoque in omnibus alijs speciebus
+        verum esse contingit. <pb n="[134]"/>Idem manifestissime apparet in Commatis interuallo,
+        quod inter duo d in genere Diatono reperitur ab 81 ad 80, inter numeros sola vnitate
+        distantes, ad quorum maiorem signandum algoristica illa, quam diximus, nota opus est nulla;
+        ad minorem vna; nec potest hoc Comma ad minores numeros reduci, propter vnitatis
+        interuentum, quae indiuisibilis est. in Chromatico vero idem Comma inter duo d reperitur a
+        1620 ad 1600. qui sunt priorum dupli, addita nota algoristica, o: neque in minoribus in
+        Diapason, iuxta hoc genus constituta, poterit inueniri: in Enharmonio autem inuenitur in
+        numeris ad Chromaticos duplos addita illis alia nota algoristica, qui erunt quadrupli ad
+        Diatonicos duabus notis auctos; sunt autem, 32400.32000: neque in minoribus potest inueniri
+        in Diapason generis Enharmonij, vt haec descriptio, suo procedens ordine, ostendit:</p>
       <p xml:id="SALMUS30134">[Salinas, De musica, 134,1; text: Numeri Commatis, dd, crescentes
         vicecuplo, seu duplo et figura, o. In Diatono, In Chromatico, In Enharmonio, 81. 80. 1620.
         1600. 32400. 32000.]</p>
-      <p xml:id="SALMUS30135">Ex quibus constat, omnes numeros generis Chromatici ad numeros Diatonici
-        esse duplos cum nota illa algoristica, o, hoc est, duplos decuplatos, et numeros generis
-        Enharmonij ad numeros Chromatici etiam duplos decuplatos, et ad numeros Diatonici quadruplos
-        centuplatos, quod duae notae algoristicae, o o, ostendunt. In quo non solum harmoniae
-        rationis vis apparet, sed et Geometrica, iuxta quam in his numeris deprehenduntur Linea,
-        Superficies, et Corpus. Nam genus Diatonum consideratur vt linea, in quo Diapason inuenitur
-        a binario ad vnitatem constituta; et vnitas in numeris instar puncti est in continuis; et
-        binarius linearis est numerus, neque vlla ex eo figura confici potest. Et, ex his, quae
-        dicta sunt, si Diatonum in vnitate ad binarium constituatur, Chroma reperietur a binario ad
-        quaternarium, hoc est, a linea ad superficiem: neque ad qualemcunque superficiei figuram,
-        sed ad quadratam, quae non solum inter quadrilateras, sed inter omnes figuras planas
-        rectilineas est praestantissima. et Enharmonium a quaternario ad octonarium, hoc est, a
-        superficie ad corpus: in quo numero primus cubus actu reperitur, quae figura inter solidas
+      <p xml:id="SALMUS30135">Ex quibus constat, omnes numeros generis Chromatici ad numeros
+        Diatonici esse duplos cum nota illa algoristica, o, hoc est, duplos decuplatos, et numeros
+        generis Enharmonij ad numeros Chromatici etiam duplos decuplatos, et ad numeros Diatonici
+        quadruplos centuplatos, quod duae notae algoristicae, o o, ostendunt. In quo non solum
+        harmoniae rationis vis apparet, sed et Geometrica, iuxta quam in his numeris deprehenduntur
+        Linea, Superficies, et Corpus. Nam genus Diatonum consideratur vt linea, in quo Diapason
+        inuenitur a binario ad vnitatem constituta; et vnitas in numeris instar puncti est in
+        continuis; et binarius linearis est numerus, neque vlla ex eo figura confici potest. Et, ex
+        his, quae dicta sunt, si Diatonum in vnitate ad binarium constituatur, Chroma reperietur a
+        binario ad quaternarium, hoc est, a linea ad superficiem: neque ad qualemcunque superficiei
+        figuram, sed ad quadratam, quae non solum inter quadrilateras, sed inter omnes figuras
+        planas rectilineas est praestantissima. et Enharmonium a quaternario ad octonarium, hoc est,
+        a superficie ad corpus: in quo numero primus cubus actu reperitur, quae figura inter solidas
         est perfectissima. De his subiecta videatur descriptio:</p>
-      <p xml:id="SALMUS30136">[Salinas, De musica, 134,2; text: Diatonum. Chroma. Enharmonium. 72. 144.
-        1440. 2880. 28800. 57600. 1. 2. 20. 40.400. 800. Punctus 1: Linea 2: Superficies 4: Corpus
-        8. Diatonicum, Chromaticum, Enharmonium]</p>
+      <p xml:id="SALMUS30136">[Salinas, De musica, 134,2; text: Diatonum. Chroma. Enharmonium. 72.
+        144. 1440. 2880. 28800. 57600. 1. 2. 20. 40.400. 800. Punctus 1: Linea 2: Superficies 4:
+        Corpus 8. Diatonicum, Chromaticum, Enharmonium]</p>
       <p xml:id="SALMUS30137">Ex his liquido constat, in tribus melodiae generibus omnes tres
         dimensiones Geometricas inueniri. Habent autem haec genera cum dimensionibus, id quoque
         commune, quod sicut in corpore sunt superficies, et linea; sic in genere Enharmonio
@@ -1338,8 +1356,8 @@
         Toni maiores inter duo Semitonia maiora, vt in his ostenditur numeris:</p>
       <p xml:id="SALMUS30144">
         <pb n="[137]"/>Interuallorum Diatonicorum dispositio:</p>
-      <p xml:id="SALMUS30145">[Salinas, De musica, 137,1; text: 144. 135. 120. 108. 96. 90. 81. 80. 72.
-        E, F, G, a, [sqb], c, d, e, Semitonium, Tonus minor, Tonus maior, Comma] <figure>
+      <p xml:id="SALMUS30145">[Salinas, De musica, 137,1; text: 144. 135. 120. 108. 96. 90. 81. 80.
+        72. E, F, G, a, [sqb], c, d, e, Semitonium, Tonus minor, Tonus maior, Comma] <figure>
           <graphic url="/images/SALMUS3_13GF.gif"/>
         </figure></p>
       <p xml:id="SALMUS30146">Quod si quis obijciat, in hac generis Diatonici constitutione reperiri
@@ -1357,16 +1375,16 @@
         Chromatici vero sustenti a parte literae dextra signo # molles autem a sinistra signo b
         rotundi notantur hoc ordine:</p>
       <p xml:id="SALMUS30147">Sexdecim soni generis Chromatici.</p>
-      <p xml:id="SALMUS30148">[Salinas, De musica, 137,2; text: E, F, #, G, a, b, [sqb], c, d, e, 1, 2,
-        3, 4, 5, 6, 7, 8, 9, Nouem soni Diatonici. Septem soni Chromatici.]</p>
-      <p xml:id="SALMUS30149">Interualla vero sunt septem Semitonia maiora; duo generis Diatonici, et
-        quinque, quae proueniunt ex diuisione singulorum Tonorum, ex ea enim quinque Semitonia
+      <p xml:id="SALMUS30148">[Salinas, De musica, 137,2; text: E, F, #, G, a, b, [sqb], c, d, e, 1,
+        2, 3, 4, 5, 6, 7, 8, 9, Nouem soni Diatonici. Septem soni Chromatici.]</p>
+      <p xml:id="SALMUS30149">Interualla vero sunt septem Semitonia maiora; duo generis Diatonici,
+        et quinque, quae proueniunt ex diuisione singulorum Tonorum, ex ea enim quinque Semitonia
         maiora oriuntur, et quinque minora, quae cum duobus prioribus duodecim faciunt, quibus si
         annumerentur tria Commata, vnum Diatonicum, et duo Chromatica; erunt omnia quindecim, vt
         patet in hoc Typo:</p>
       <p xml:id="SALMUS30150">Interualla Diapason in genere Chromatico.</p>
-      <p xml:id="SALMUS30151">[Salinas, De musica, 137,3; text: E, F, #, G, a, b, [sqb], c, d, e, 1, 2,
-        Duo Semitonia maiora Diatonica, 3, 4, 5, Quinque Semitonia maiora Chromatica, Quinque
+      <p xml:id="SALMUS30151">[Salinas, De musica, 137,3; text: E, F, #, G, a, b, [sqb], c, d, e, 1,
+        2, Duo Semitonia maiora Diatonica, 3, 4, 5, Quinque Semitonia maiora Chromatica, Quinque
         Semitonia minora Chromatica, Vnum Comma Diatonicum, Duo Commata Chromatica]</p>
       <p xml:id="SALMUS30152">Diapason autem generis Enharmonij continet vigintiquinque sonos et
         vigintiquatuor interualla: nam complectitur sedecim sonos generis Chromatici, et septem, qui
@@ -1376,23 +1394,24 @@
         Enharmonici ijsdem signis et puncto, b #, hoc ordine:</p>
       <p xml:id="SALMUS30153">
         <pb n="[138]"/>Vigintiquinque soni Enharmonici.</p>
-      <p xml:id="SALMUS30154">[Salinas, De musica, 138,1; text: E, #, F, b, G, a, [sqb], c, d, e, 1. 2.
-        3. 4. 5. 6. 7. 8. 9. Nouem soni Diatonici, Septem soni Chromatici, Nouem soni Enharmonici] <figure>
+      <p xml:id="SALMUS30154">[Salinas, De musica, 138,1; text: E, #, F, b, G, a, [sqb], c, d, e, 1.
+        2. 3. 4. 5. 6. 7. 8. 9. Nouem soni Diatonici, Septem soni Chromatici, Nouem soni
+        Enharmonici] <figure>
           <graphic url="/images/SALMUS3_14GF.gif"/>
         </figure></p>
-      <p xml:id="SALMUS30155">Interualla vero sunt vigintiquatuor nam duodecim sunt Semitonia minora,
-        quorum septem nascuntur ex diuisione septem Semitoniorum maiorum, et quinque quae ex
+      <p xml:id="SALMUS30155">Interualla vero sunt vigintiquatuor nam duodecim sunt Semitonia
+        minora, quorum septem nascuntur ex diuisione septem Semitoniorum maiorum, et quinque quae ex
         diuisione quinque Tonorum in duo Semitonia prouenerant: Dieses vero septem ex diuisione
         septem Semitoniorum maiorum in Semitonium minus, et Diesin oriuntur, quae cum duodecim
         Semitonijs constituunt interualla undeuiginti; quibus quinque Commata adiecta componunt
         numerum interuallorum vigintiquatuor. vt in hac descriptione apparet:</p>
       <p xml:id="SALMUS30156">Interualla Diapason in genere Enharmonio.</p>
-      <p xml:id="SALMUS30157">[Salinas, De musica, 138,2; text: E, #, F, b, G, a, [sqb], c, d, e, 1, 2,
-        3, 4, 5, Quinque Semitonia minora Chromatica, 6, 7, Septem Semitonia minora Enharmonica,
+      <p xml:id="SALMUS30157">[Salinas, De musica, 138,2; text: E, #, F, b, G, a, [sqb], c, d, e, 1,
+        2, 3, 4, 5, Quinque Semitonia minora Chromatica, 6, 7, Septem Semitonia minora Enharmonica,
         Septem Dieses, Quinque Commata, Haec duo interualla Commate a Diesi deficiunt, itaque cum
         vtrolibet circumstantium sonorum efficiunt Diesin.]</p>
-      <p xml:id="SALMUS30158">Quae omnia typos singulorum generum intuenti statim erunt valde manifesta:
-        eademque subiecta quoque tabula breuius complectitur.</p>
+      <p xml:id="SALMUS30158">Quae omnia typos singulorum generum intuenti statim erunt valde
+        manifesta: eademque subiecta quoque tabula breuius complectitur.</p>
       <p xml:id="SALMUS30159">Numerus sonorum et interuallorum omnium generum.</p>
       <p xml:id="SALMUS30160">[Salinas, De musica, 138,3; text: In Genere Diatonico, Soni nouem.
         Interualla octo. duo Toni maiores. tres Toni minores. duo Semitonia maiora. unum Comma.
@@ -1529,8 +1548,8 @@
         524288. 531441. Sex sesquioctauae] <figure>
           <graphic url="/images/SALMUS3_15GF.gif"/>
         </figure></p>
-      <p xml:id="SALMUS30167">Ideo et sex Toni in sesquioctaua ratione positi superabunt Diapason, ea
-        proportione, qua sex sesquioctauae superant duplam, in qua positum erat Comma
+      <p xml:id="SALMUS30167">Ideo et sex Toni in sesquioctaua ratione positi superabunt Diapason,
+        ea proportione, qua sex sesquioctauae superant duplam, in qua positum erat Comma
         Pythagoraeorum; At sex Toni, quibus in artificialibus vtimur instrumentis, Diapason non modo
         non superant, sed integra Diesi ab ea deficiunt: quare nequaquam possunt esse sesquioctaui.
         Sed nec sesquinoni esse possunt, quoniam sex sesquinonae deficiunt a dupla, ea proportione,
@@ -1541,10 +1560,10 @@
         superant Diapason. comma pythagoricum, sex toni minores deficiunt a Diapason. Tonus maior,
         Tonus minor, 262144. 294912. 331776. 373248. 419904. 472392. 500000. 524288. 531441. 590490.
         656100. 729000. 810000. 900000. 1000000.]</p>
-      <p xml:id="SALMUS30169">Proportioni autem a 500000, ad 531441 respondent in sonis Diesis, et tria
-        Commata, quae proxime Semitonium maius accedunt, vt apparet in his numeris:</p>
-      <p xml:id="SALMUS30170">[Salinas, De musica, 142,2; text: Semitonium maius, Diesis, Comma, 500000.
-        512000. 518400. 524880. 531441. 533333 1/3, Excessus sex sesquinoni et Duplae]</p>
+      <p xml:id="SALMUS30169">Proportioni autem a 500000, ad 531441 respondent in sonis Diesis, et
+        tria Commata, quae proxime Semitonium maius accedunt, vt apparet in his numeris:</p>
+      <p xml:id="SALMUS30170">[Salinas, De musica, 142,2; text: Semitonium maius, Diesis, Comma,
+        500000. 512000. 518400. 524880. 531441. 533333 1/3, Excessus sex sesquinoni et Duplae]</p>
       <p xml:id="SALMUS30171">Quare cum sex toni instrumentorum artificialium ad duplam propius
         accedant, quam sesquioctaui et sesquinoni, hos ab illis diuersos esse necesse est. quod
         autem dictum est ad duplam proxime accedere sex tonos instrumentorum, id de Organis atque id
@@ -1560,9 +1579,9 @@
       <p xml:id="SALMUS30172">
         <pb n="[143]"/>Quod tres sint inuentae temperamenti constitutiones in Musicis, quibus
         vtimur, instrumentis: et de illarum prima. CAPVT XV.</p>
-      <p xml:id="SALMUS30173">CVm igitur ex his quae dicta sunt, vt Toni aequales fiant, necessum sit
-        minorem augeri, et maiorem minui: sciendum est, id pluribus modis fieri contingere. Quoniam
-        Comma, quo inter se differunt, multis modis diuidi potest; ex quibus tres adhuc sunt
+      <p xml:id="SALMUS30173">CVm igitur ex his quae dicta sunt, vt Toni aequales fiant, necessum
+        sit minorem augeri, et maiorem minui: sciendum est, id pluribus modis fieri contingere.
+        Quoniam Comma, quo inter se differunt, multis modis diuidi potest; ex quibus tres adhuc sunt
         excogitati, qui mihi videntur aptissimi: vnde tres instrumentorum imperfectorum
         temperandorum modi nascuntur. Quorum primus est, si diuidatur Comma in tres partes aeque
         proportionales, ex quibus Tonus minor augeatur vna, et Tonus maior minuatur duabus, vt ex
@@ -1628,7 +1647,8 @@
         tertijs Tonus maior minuitur in hoc temperamento, Diapente minuetur vna, Diatessaron autem
         augebitur vna, qua Diapente minuitur: nam quod vni adimitur, adijcitur alteri: atque etiam
         quia superat Semiditonum Tono minori, qui tertia augetur ex suppositione. Et Hexachordum
-        minus augebitur tertia, qua minuitur Ditonum; quoniam est illi oppositum: atque <pb n="[145]"/>etiam vt Ditonum, quo ab altero extremo Diapason distat, eadem minuatur.
+        minus augebitur tertia, qua minuitur Ditonum; quoniam est illi oppositum: atque <pb
+          n="[145]"/>etiam vt Ditonum, quo ab altero extremo Diapason distat, eadem minuatur.
         Hexachordum maius iam ostensum est, nullam alterationem pati. Et hunc ad modum reperiuntur
         in hoc temperamento omnes consonantiae imperfectae tertia Commatis parte praeter Diapason,
         et Hexachordum maius, et Semiditonum. Quae imperfectio quamuis maior esse videatur, quam ea,
@@ -1646,63 +1666,65 @@
         est, aut potius distributum Atque haec de augmento, et decremento omnium consonantiarum, ac
         minorum interuallorum dicenda nobis fuerunt. nunc quo pacto soni remittuntur, et intenduntur
         in huius temperamenti constitutione, dicamus.</p>
-      <p xml:id="SALMUS30178">Quo modo remittantur, et intendantur soni in omnibus generibus iuxta huius
-        temperamenti constitutionem. CAPVT XVI.</p>
-      <p xml:id="SALMUS30179">VT autem scire possimus, qui soni, et qua quantitate sint intendendi, et
-        remittendi in hoc temperamento, accipienda est chorda eius magnitudinis, cuius instrumentum
-        esse volemus, conuenienter tensa, vt sonum reddat harmonicum, quae vocetur C: quoniam ab ea,
-        hac aetate Organa, et Cymbala sumunt initium: credo quod in ea Diapason specie, quae est a C
-        ad c, duae Diapente, quae procedunt a duobus Diapason extremis, inueniuntur harmonice
-        diuisae, et facilius, ac melius temperari possunt, quam Arithmetice. Posito ergo C sono
-        positione primo; D inferioris sonus intendendus est tertia parte Commatis, qui erit secundus
-        in genere Diatono: quoniam Tono minore acutior est primo. D superius minuendum est duabus;
-        quoniam Tono maiori distat a G, vt extincto Commate duo D concurrant, et ex illis vnum fiat.
-        E remittendum est vna, quoniam Ditono distat a C; vt Tonus D E sit aequalis Tono C D. F
-        intendendum est vna; quoniam Diatessaron acutius est C; et Semitonium maius E F erit auctum
-        duabus; altera, qua E remittitur, et altera, qua F intenditur. G remittendum est vna, vt
-        Tonus maior, quo distat ab F, minuatur duabus: altera, qua F intensum est, altera, qua ipsum
-        G remittitur. Et a, neque intenditur, neque remittitur; quoniam Hexachordo maiori distat a
-        C, quod ostensum est in hoc temperamento non alterari. Et [sqb] remittendum est duabus;
-        quoniam Semitonio maiori distat in graue a c paruo, quod, quia extremum est Diapason, non
-        alteratur. Et per hunc modum nouem soni, qui reperiuntur in Diapason instrumenti perfecti,
-        iuxta genus Diatonicum dispositi, reducentur ad octo, qui reperiuntur in his, quibus vtimur
-        instrumentis, et omnes Toni inueniuntur aequales. Et ex his octo sonis tres manent immoti,
-        vt erant in perfecto, C a c tres remittuntur, [sqb] G E duo intenduntur. D inferius, et F,
-        vnus remittitur, vel tollitur omnino D superius. Reducendi sunt nunc septem soni generis
-        Chromatici instrumenti perfecti ad quinque, qui reperiuntur in his, quibus vtimur
-        instrumentis. Ex quibus C Chromaticum remittendum est vna; quoniam Semitonio <pb n="[146]"/>minore distat a C Diatonico. E Chromaticum nec remittitur, neque intenditur; quoniam
-        Semiditono distat ab eodem C Diatonico, quod in hac positione non alteratur. F Chromaticum
-        inferius nequaquam etiam mouetur; quoniam Semiditono distat in graue ab a Diatonico, quod
-        ostendimus non moueri. F Chromaticum superius, vel remittitur integro Commate, vt concurrat
-        cum inferiori, vel omnino tollitur. G Chromaticum remittitur duabus, quoniam Semitonio
-        minore distat a G diatonico, quod remissum est vna. Et b Chromaticum inferius intendendum
-        est duabus; quoniam Tono maiore distat in graue a c paruo; vel omnino tollendum, quoniam
-        Commate distat a b Chromatico superiori, quod remittendum est vna; quia Tono minore distat
-        in graue a c paruo. Atque ita septem soni generis Chromatici reducti sunt ad quinque: ex
-        quibus duo manent immoti E et F: tres remittuntur C G b superius; duo tolluntur F superius,
-        et b inferius. Nouem autem soni generis Enharmonij instrumenti perfecti, hoc modo reducentur
-        ad septem imperfecti. D molle Enharmonium intendendum est duabus, quoniam Semitonio maiore
-        distat a C Diatonico. D sustentum Enharmonium remittendum est tribus, hoc est, integro
-        Commate, quoniam Diesi distat in graue ab E Chromatico, quod non mouetur. E Enharmonium
-        remittendum est duabus; quoniam E Diatonicum, a quo Semitonio minore distat in acutum,
-        remissum est vna. G molle Enharmonium inferius aut intendendum est tribus, vt concurrat cum
-        G superiori, aut omnino tollendum. G superius Enharmonium non mouetur; quoniam Semiditono
-        distat in acutum ab E Chromatico. Et a molle Enharmonium intendendum est vna; quoniam
-        Semitonio minore distat in graue ab a Diatonico, quod non mouetur. Et a sustentum
-        Enharmonium inferius remittendum est vna, quoniam Semitonio minore distat ab a Diatonico in
-        acutum, quod diximus non moueri. Et a superius aut remittendum est quatuor, vt cum inferiori
-        concurrat; aut omnino tollendum est. Et [sqb] Enharmonium remittendum est tribus, quoniam
-        Diesi distat in graue a c paruo; atque ita nouem soni generis Enharmonij reducti sunt ad
-        septem: vnum tantum immobilem, qui est G superius: quatuor remissos D E a [sqb] sustenta:
-        duos intensos D molle, et a molle, duobus sublatis, G inferiori, et a superiori. Et facti
-        sunt omnes viginti soni, vt hoc ordine simul inuenientur dispositi. C Diatonicum fixum. C
-        Chromaticum remissum vna: D molle Enharmonium intensum duabus: D Diatonicum inferius
-        intensum vna. D sustentum Enharmonium remissum tribus: E Chromaticum fixum: E Diatonicum
-        remissum vna: E Enharmonium remissum duabus: F Diatonicum intensum vna: F Chromaticum
-        inferius fixum: G Enharmonium superius fixum: G Diatonicum remissum vna: G Chromaticum
-        remissum duabus: a molle Enharmonium intensum vna: a Diatonicum fixum: a Enharmonium
-        sustentum inferius remissum vna: b Chromaticum inferius intensum duabus: [sqb] Diatonicum
-        remissum duabus: b Enharmonium remissum tribus: c paruum fixum.</p>
+      <p xml:id="SALMUS30178">Quo modo remittantur, et intendantur soni in omnibus generibus iuxta
+        huius temperamenti constitutionem. CAPVT XVI.</p>
+      <p xml:id="SALMUS30179">VT autem scire possimus, qui soni, et qua quantitate sint intendendi,
+        et remittendi in hoc temperamento, accipienda est chorda eius magnitudinis, cuius
+        instrumentum esse volemus, conuenienter tensa, vt sonum reddat harmonicum, quae vocetur C:
+        quoniam ab ea, hac aetate Organa, et Cymbala sumunt initium: credo quod in ea Diapason
+        specie, quae est a C ad c, duae Diapente, quae procedunt a duobus Diapason extremis,
+        inueniuntur harmonice diuisae, et facilius, ac melius temperari possunt, quam Arithmetice.
+        Posito ergo C sono positione primo; D inferioris sonus intendendus est tertia parte
+        Commatis, qui erit secundus in genere Diatono: quoniam Tono minore acutior est primo. D
+        superius minuendum est duabus; quoniam Tono maiori distat a G, vt extincto Commate duo D
+        concurrant, et ex illis vnum fiat. E remittendum est vna, quoniam Ditono distat a C; vt
+        Tonus D E sit aequalis Tono C D. F intendendum est vna; quoniam Diatessaron acutius est C;
+        et Semitonium maius E F erit auctum duabus; altera, qua E remittitur, et altera, qua F
+        intenditur. G remittendum est vna, vt Tonus maior, quo distat ab F, minuatur duabus: altera,
+        qua F intensum est, altera, qua ipsum G remittitur. Et a, neque intenditur, neque
+        remittitur; quoniam Hexachordo maiori distat a C, quod ostensum est in hoc temperamento non
+        alterari. Et [sqb] remittendum est duabus; quoniam Semitonio maiori distat in graue a c
+        paruo, quod, quia extremum est Diapason, non alteratur. Et per hunc modum nouem soni, qui
+        reperiuntur in Diapason instrumenti perfecti, iuxta genus Diatonicum dispositi, reducentur
+        ad octo, qui reperiuntur in his, quibus vtimur instrumentis, et omnes Toni inueniuntur
+        aequales. Et ex his octo sonis tres manent immoti, vt erant in perfecto, C a c tres
+        remittuntur, [sqb] G E duo intenduntur. D inferius, et F, vnus remittitur, vel tollitur
+        omnino D superius. Reducendi sunt nunc septem soni generis Chromatici instrumenti perfecti
+        ad quinque, qui reperiuntur in his, quibus vtimur instrumentis. Ex quibus C Chromaticum
+        remittendum est vna; quoniam Semitonio <pb n="[146]"/>minore distat a C Diatonico. E
+        Chromaticum nec remittitur, neque intenditur; quoniam Semiditono distat ab eodem C
+        Diatonico, quod in hac positione non alteratur. F Chromaticum inferius nequaquam etiam
+        mouetur; quoniam Semiditono distat in graue ab a Diatonico, quod ostendimus non moueri. F
+        Chromaticum superius, vel remittitur integro Commate, vt concurrat cum inferiori, vel omnino
+        tollitur. G Chromaticum remittitur duabus, quoniam Semitonio minore distat a G diatonico,
+        quod remissum est vna. Et b Chromaticum inferius intendendum est duabus; quoniam Tono maiore
+        distat in graue a c paruo; vel omnino tollendum, quoniam Commate distat a b Chromatico
+        superiori, quod remittendum est vna; quia Tono minore distat in graue a c paruo. Atque ita
+        septem soni generis Chromatici reducti sunt ad quinque: ex quibus duo manent immoti E et F:
+        tres remittuntur C G b superius; duo tolluntur F superius, et b inferius. Nouem autem soni
+        generis Enharmonij instrumenti perfecti, hoc modo reducentur ad septem imperfecti. D molle
+        Enharmonium intendendum est duabus, quoniam Semitonio maiore distat a C Diatonico. D
+        sustentum Enharmonium remittendum est tribus, hoc est, integro Commate, quoniam Diesi distat
+        in graue ab E Chromatico, quod non mouetur. E Enharmonium remittendum est duabus; quoniam E
+        Diatonicum, a quo Semitonio minore distat in acutum, remissum est vna. G molle Enharmonium
+        inferius aut intendendum est tribus, vt concurrat cum G superiori, aut omnino tollendum. G
+        superius Enharmonium non mouetur; quoniam Semiditono distat in acutum ab E Chromatico. Et a
+        molle Enharmonium intendendum est vna; quoniam Semitonio minore distat in graue ab a
+        Diatonico, quod non mouetur. Et a sustentum Enharmonium inferius remittendum est vna,
+        quoniam Semitonio minore distat ab a Diatonico in acutum, quod diximus non moueri. Et a
+        superius aut remittendum est quatuor, vt cum inferiori concurrat; aut omnino tollendum est.
+        Et [sqb] Enharmonium remittendum est tribus, quoniam Diesi distat in graue a c paruo; atque
+        ita nouem soni generis Enharmonij reducti sunt ad septem: vnum tantum immobilem, qui est G
+        superius: quatuor remissos D E a [sqb] sustenta: duos intensos D molle, et a molle, duobus
+        sublatis, G inferiori, et a superiori. Et facti sunt omnes viginti soni, vt hoc ordine simul
+        inuenientur dispositi. C Diatonicum fixum. C Chromaticum remissum vna: D molle Enharmonium
+        intensum duabus: D Diatonicum inferius intensum vna. D sustentum Enharmonium remissum
+        tribus: E Chromaticum fixum: E Diatonicum remissum vna: E Enharmonium remissum duabus: F
+        Diatonicum intensum vna: F Chromaticum inferius fixum: G Enharmonium superius fixum: G
+        Diatonicum remissum vna: G Chromaticum remissum duabus: a molle Enharmonium intensum vna: a
+        Diatonicum fixum: a Enharmonium sustentum inferius remissum vna: b Chromaticum inferius
+        intensum duabus: [sqb] Diatonicum remissum duabus: b Enharmonium remissum tribus: c paruum
+        fixum.</p>
       <p xml:id="SALMUS30180">[Salinas, De musica, 146; text: C, #, b, D, E, F, G, a, [sqb]] <figure>
           <graphic url="/images/SALMUS3_17GF.gif"/>
         </figure></p>
@@ -1775,24 +1797,25 @@
         19440, 18750, 16200. 15625. 13500]</p>
       <p xml:id="SALMUS30184">De secundo imperfectorum instrumentorum temperamento, et quo modo per
         illud Tonus maior, et minor ad aequalitatem reducantur. CAPVT XVIII.</p>
-      <p xml:id="SALMUS30185">PRimus quidem modus reducendi Tonum maiorem et minorem ad aequalitatem sic
-        habet; quem nemo adhuc (quod equidem sciam) tradidit, nec forsitan considerauit. nunc autem
-        agendum est de secundo; in quo, quamuis omnes toni fiant aequales per augmentum minoris, et
-        minutionem maioris, quod omnibus temperamentis imperfectorum instrumentorum debet esse
-        commune; multo tamen id aliter fit in hoc, quam in primo nam in superiore diuiso Commate in
-        tres partes, Tonus minor augebatur vna, et maiorem reliquis duabus necesse erat minui. Vnde
-        tonus, qui ex ea participatione proueniebat, erat paulo maior minore, et multo minor maiore:
-        in hoc autem diuiso Commate in septem partes Tonus minor augetur tribus, et Tonus maior
-        minuetur quatuor. Et licet augmentum, et minutio aequalia non sint; quoniam septenarius
-        numerus in duo aequa partiri non potest: est tamen haec partitio proxima ei, quae potest in
-        duo fieri. Ex qua Commatis distributione, sequitur in hoc temperamento omnes consonantias,
-        et omnia Harmonica interualla debere alterari, praeter Diapason, et Semitonium minus, quod
-        est differentia Ditoni et Semiditoni, ex quibus hoc in primo temperamento diximus non
-        alterari, et illud in tertio dicemus. Et ex consequenti eius oppositum Semidiapason, quod
-        est interuallum Semitonio minore minus ipsa Diapason, et interuallum, quod componitur ex
-        duobus Semitonijs minoribus: quale est ab E Chromatico ad E Enharmonium. Quod autem
-        Semitonium minus in huius temperamenti constitutione nequaquam alteretur, sic potest
-        ostendi. Nam cum Diapason in nullius temperamenti constitutione debeat <pb n="[149]"/>alterari, in quaecunque duo interualla diuidatur, aut neutrum, aut vtrumque alterationem
+      <p xml:id="SALMUS30185">PRimus quidem modus reducendi Tonum maiorem et minorem ad aequalitatem
+        sic habet; quem nemo adhuc (quod equidem sciam) tradidit, nec forsitan considerauit. nunc
+        autem agendum est de secundo; in quo, quamuis omnes toni fiant aequales per augmentum
+        minoris, et minutionem maioris, quod omnibus temperamentis imperfectorum instrumentorum
+        debet esse commune; multo tamen id aliter fit in hoc, quam in primo nam in superiore diuiso
+        Commate in tres partes, Tonus minor augebatur vna, et maiorem reliquis duabus necesse erat
+        minui. Vnde tonus, qui ex ea participatione proueniebat, erat paulo maior minore, et multo
+        minor maiore: in hoc autem diuiso Commate in septem partes Tonus minor augetur tribus, et
+        Tonus maior minuetur quatuor. Et licet augmentum, et minutio aequalia non sint; quoniam
+        septenarius numerus in duo aequa partiri non potest: est tamen haec partitio proxima ei,
+        quae potest in duo fieri. Ex qua Commatis distributione, sequitur in hoc temperamento omnes
+        consonantias, et omnia Harmonica interualla debere alterari, praeter Diapason, et Semitonium
+        minus, quod est differentia Ditoni et Semiditoni, ex quibus hoc in primo temperamento
+        diximus non alterari, et illud in tertio dicemus. Et ex consequenti eius oppositum
+        Semidiapason, quod est interuallum Semitonio minore minus ipsa Diapason, et interuallum,
+        quod componitur ex duobus Semitonijs minoribus: quale est ab E Chromatico ad E Enharmonium.
+        Quod autem Semitonium minus in huius temperamenti constitutione nequaquam alteretur, sic
+        potest ostendi. Nam cum Diapason in nullius temperamenti constitutione debeat <pb n="[149]"
+        />alterari, in quaecunque duo interualla diuidatur, aut neutrum, aut vtrumque alterationem
         pati necesse est: et qua vnum minuetur quantitate, eadem alterum augebitur, vt quantum
         adimitur vni, tantundem alteri adijciatur. Vt exempli gratia diuisa in Hexachordum maius, et
         Semiditonum: si Hexachordum maius augebitur quarta Commatis, eadem minuetur Semiditonum.
@@ -1989,12 +2012,12 @@
         electus fuisse: vt intra se omnem harmoniae vim vnus contineret. Sed generum singulorum haec
         potest esse descriptio.</p>
       <p xml:id="SALMUS30190">[Salinas, De musica, 153; text: #, b, D, E, F, G, a, [sqb], c]</p>
-      <p xml:id="SALMUS30191">De collatione primi, et secundi temperamenti, et quibus in rebus alterum
-        ab altero reperiatur excedi. CAPVT XXI.</p>
-      <p xml:id="SALMUS30192">HAEC autem duo temperamenta, quae superius posita sunt, si quis inter se
-        conserre volet, comperiet, alterum ab altero varijs in rebus excedi; ita vt non facile sit
-        iudicare, vtrum eorum his, quibus vtimur, instrumentis magis conueniat. In illo enim priori
-        commodissimam inueniet eius typi construendi rationem, per quam ab instrumentorum
+      <p xml:id="SALMUS30191">De collatione primi, et secundi temperamenti, et quibus in rebus
+        alterum ab altero reperiatur excedi. CAPVT XXI.</p>
+      <p xml:id="SALMUS30192">HAEC autem duo temperamenta, quae superius posita sunt, si quis inter
+        se conserre volet, comperiet, alterum ab altero varijs in rebus excedi; ita vt non facile
+        sit iudicare, vtrum eorum his, quibus vtimur, instrumentis magis conueniat. In illo enim
+        priori commodissimam inueniet eius typi construendi rationem, per quam ab instrumentorum
         artificibus in opus facilime deducatur: quandoquidem in eo satis est Tritonum a 25 ad 18
         tres in partes aeque proportionales diuidere, quae tres erunt eius temperamenti toni, quod
         adminiculo Mesolabij facilimum erit. Neque opus erit Comma in tria aequa partiri; quoniam in
@@ -2036,8 +2059,8 @@
         Arithmetica. Quae omnia, et multa alia considerato Commate in 21 partes diuiso, quilibet
         ingeniosus Lector marte suo poterit inuestigare. Reliquum est, vt tertij temperamenti
         constitutionem, quae his duabus videtur exactior, iam tandem explicare tentemus.</p>
-      <p xml:id="SALMUS30193">De tertio instrumentorum imperfectorum temperamento, quod multo quam duo
-        superiora, et intellectu facilius, et instrumentis accommodatius esse videtur. CAPVT
+      <p xml:id="SALMUS30193">De tertio instrumentorum imperfectorum temperamento, quod multo quam
+        duo superiora, et intellectu facilius, et instrumentis accommodatius esse videtur. CAPVT
         XXII.</p>
       <p xml:id="SALMUS30194">REliquum est, vt de tertio imperfectorum instrumentorum temperamento
         dicamus. Quod magis quam duo superiora ad perfecti constitutionem accedit; et propter
@@ -2104,24 +2127,24 @@
         <pb n="[156]"/>Huius tertij temperamenti constitutionis in sonorum intensionibus, et
         remissionibus demonstratio, et de ipsius cum secundo collatione consideratio. CAPVT
         XXIII.</p>
-      <p xml:id="SALMUS30196">NVnc autem ostendendum est, qui soni maneant immoti, et qui remittantur,
-        aut intendantur, et quanta cuiuslibet intensio, aut remissio esse debeat. Quod vt recte
-        faciamus, assumenda est eadem Diapason, quae est a C ad c, in qua posito C magno immobili C
-        Chromaticum, quoniam a C distat Semitonio minore in acutum, intendendum est quarta. D molle
-        Enharmonium, quoniam a Chromatico distat Diesi, intendendum est etiam quarta, vt Diesis
-        maneat in sua proportione. D Diatonicum inferius intendendum est duabus quartis, quoniam C
-        Chromaticum, et D molle Enharmonium intensa sunt singulis: et ipsum distat a D molli
-        Semitonio minori, quod quarta debet augeri; quare duabus ipsum oportet intendi. D Diatonicum
-        superius remittendum est etiam duabus, vt cum D inferiore coniungatur, et vnum fiat ex
-        duobus. D sustentum Enharmonium remittendum est quarta, vt Semitonium minus, quo distat in
-        acutum a D superiori Diatonico, quod duabus remissum est, augeatur quarta. E Chromaticum
-        remittendum est quarta, quoniam distat a C Diatonico Semiditono, quod quarta minuendum esse
-        diximus. Et C immobili manente, E Chromaticum remitti necesse est. E Diatonicum neque
-        intendendum est, neque remittendum, quoniam distat Ditono a C Diatonico, quod non mouetur. E
-        Enharmonium intendendum est quarta, quoniam distat Semitonio minore ab E Diatonico. F
-        Diatonicum intendendum est etiam quarta, quoniam distat Semitonio maiori ab E Diatonico, et
-        Diese ab E Enharmonio, vt illud augeatur, haec maneat intacta. F Chromaticum inferius
-        intendendum est duabus quartis; altera, qua F Diatonicum intensum est, altera, qua
+      <p xml:id="SALMUS30196">NVnc autem ostendendum est, qui soni maneant immoti, et qui
+        remittantur, aut intendantur, et quanta cuiuslibet intensio, aut remissio esse debeat. Quod
+        vt recte faciamus, assumenda est eadem Diapason, quae est a C ad c, in qua posito C magno
+        immobili C Chromaticum, quoniam a C distat Semitonio minore in acutum, intendendum est
+        quarta. D molle Enharmonium, quoniam a Chromatico distat Diesi, intendendum est etiam
+        quarta, vt Diesis maneat in sua proportione. D Diatonicum inferius intendendum est duabus
+        quartis, quoniam C Chromaticum, et D molle Enharmonium intensa sunt singulis: et ipsum
+        distat a D molli Semitonio minori, quod quarta debet augeri; quare duabus ipsum oportet
+        intendi. D Diatonicum superius remittendum est etiam duabus, vt cum D inferiore coniungatur,
+        et vnum fiat ex duobus. D sustentum Enharmonium remittendum est quarta, vt Semitonium minus,
+        quo distat in acutum a D superiori Diatonico, quod duabus remissum est, augeatur quarta. E
+        Chromaticum remittendum est quarta, quoniam distat a C Diatonico Semiditono, quod quarta
+        minuendum esse diximus. Et C immobili manente, E Chromaticum remitti necesse est. E
+        Diatonicum neque intendendum est, neque remittendum, quoniam distat Ditono a C Diatonico,
+        quod non mouetur. E Enharmonium intendendum est quarta, quoniam distat Semitonio minore ab E
+        Diatonico. F Diatonicum intendendum est etiam quarta, quoniam distat Semitonio maiori ab E
+        Diatonico, et Diese ab E Enharmonio, vt illud augeatur, haec maneat intacta. F Chromaticum
+        inferius intendendum est duabus quartis; altera, qua F Diatonicum intensum est, altera, qua
         Semitonium minus, quo distat ab eo, augendum est. F superius duabus remittendum est, vt
         Comma, quo inter se distant, extinguatur, et vnum F medium ex duobus fiat. Idem faciendum
         est in duobus G mollibus Enharmonijs, quoniam Diesi distant a Chromaticis duobus, vt grauius
@@ -2272,16 +2295,17 @@
       <p xml:id="SALMUS30203">[Salinas, De musica, 160; text: C, D, E, F, G, a, [sqb], c, 10, 8, 5] <figure>
           <graphic url="/images/SALMUS3_20GF.gif"/>
         </figure></p>
-      <p xml:id="SALMUS30204">Quonam pacto omnes soni trium generum iuxta hoc temperamentum dispositi
-        facilime valeant inueniri. CAPVT XXV.</p>
-      <p xml:id="SALMUS30205">QVod si sonos Chromatici generis habere volemus, auferemus ab E chorda,
-        vel canna quintam partem, et habebimus G Chromaticum ab ea Ditono distans in acutum, <pb n="[161]"/>deinde assumemus dimidium chordae D medij, et habebimus d paruum distans ab ea
-        Diapason in acutum: cui addita quinta pars dabit nobis b molle distans ab eo per Ditonum in
-        graue. Et rursus diuisa chorda D medij in quinque spatia, et assumptis quatuor, habebimus F
-        Chromaticum ab eo distans Ditono in acutum: postea diuiso a, in quinque spatia, et assumptis
-        quatuor, habebimus c paruum Chromaticum: cuius chorda duplicata dabit nobis C magnum
-        Chromaticum. Postremo diuisa chorda G Diatonici in quatuor partes, et addita illis quinta,
-        habebimus E molle Chromaticum: et per hunc modum artifices instrumentorum poterunt
+      <p xml:id="SALMUS30204">Quonam pacto omnes soni trium generum iuxta hoc temperamentum
+        dispositi facilime valeant inueniri. CAPVT XXV.</p>
+      <p xml:id="SALMUS30205">QVod si sonos Chromatici generis habere volemus, auferemus ab E
+        chorda, vel canna quintam partem, et habebimus G Chromaticum ab ea Ditono distans in acutum,
+          <pb n="[161]"/>deinde assumemus dimidium chordae D medij, et habebimus d paruum distans ab
+        ea Diapason in acutum: cui addita quinta pars dabit nobis b molle distans ab eo per Ditonum
+        in graue. Et rursus diuisa chorda D medij in quinque spatia, et assumptis quatuor, habebimus
+        F Chromaticum ab eo distans Ditono in acutum: postea diuiso a, in quinque spatia, et
+        assumptis quatuor, habebimus c paruum Chromaticum: cuius chorda duplicata dabit nobis C
+        magnum Chromaticum. Postremo diuisa chorda G Diatonici in quatuor partes, et addita illis
+        quinta, habebimus E molle Chromaticum: et per hunc modum artifices instrumentorum poterunt
         construere typum, quem Diapason appellant, ad cuius normam rite obseruatam nihil erit, quod
         addere, aut subtrahere debeant in fabricandis Organis, ac Cymbalis. In quibus ad sonos
         generis Chromatici, et Diatonici adiungent duos saltem alios generis Enharmonij, videlicet a
@@ -2328,8 +2352,8 @@
         in graue et in acutum, et eisdem literis oportuit esse signatos, et omnes vel sustenti, vel
         molles sunt, commodius visum est, molles per b, sustentos per quatuor virgulas #, tantum
         notari, et Enharmonijs puncta insuper apponi, vt a Chromaticis distinguantur.</p>
-      <p xml:id="SALMUS30206">[Salinas, De musica, 162; text: 1000, 800, 640, 625, C, #, b, D, E, F, G,
-        a, [sqb]]</p>
+      <p xml:id="SALMUS30206">[Salinas, De musica, 162; text: 1000, 800, 640, 625, C, #, b, D, E, F,
+        G, a, [sqb]]</p>
       <p xml:id="SALMUS30207">Sunt ergo quinque soni instrumenti perfecti Ditono inuicem distantes a
         graui in acutum a molle extra Diapason in graue: C Diatonicum primum, et grauissimum
         Diapason. E Diatonicum medium inter quatuor Ditona: G Chromaticum [sqb] Enharmonium, quibus
@@ -2402,7 +2426,8 @@
         superant tres septimas: tertij vero minus quam secundi eo, quo tres septimae Commatis
         superant quartam eius partem, hoc est, quinque vicesimis octauis. Semitonium minus secundi,
         maius est Semitonio minore primi tertia Commatis: tertij vero secundi quarta et primi
-        duodecima. Diesis tandem secundi minor est quam primi quatuor septimis <pb n="[164]"/>Commatis, quibus integrum Comma superat tres eius septimas: tertij vero minus est quam
+        duodecima. Diesis tandem secundi minor est quam primi quatuor septimis <pb n="[164]"
+        />Commatis, quibus integrum Comma superat tres eius septimas: tertij vero minus est quam
         secundi tribus septimis, et primi integro Commate. Quae Commatis partes, nisi dimidium
         Commatis superent, aut aequent, nihil aut admodum parum auribus percipiuntur, vt in
         consonantijs experiri licet: in quibus nulla maior, aut minor est consonantijs perfectis,
@@ -2424,7 +2449,8 @@
         proportionalitatem harmonicam inter se custodire voluisse videantur. Nam in primo
         decrementum, ad augmentum duplam facit, in secundo sesquitertiam, in tertio aequam, in
         quibus harmonica proportionalitas inuenitur, vt ostendunt hi numeri.</p>
-      <p xml:id="SALMUS30210">[Salinas, De musica, 164; text: 3, 6, 4, Dupla, Sesquitertia, AEqua]</p>
+      <p xml:id="SALMUS30210">[Salinas, De musica, 164; text: 3, 6, 4, Dupla, Sesquitertia,
+        AEqua]</p>
       <p xml:id="SALMUS30211">Atque de his haec dixisse sit satis, vt nos ad alia, maxima etiam
         consideratione digna, conferre possimus.</p>
       <p xml:id="SALMUS30212">De praua constitutione cuiusdam instrumenti, quod in Italia citra
@@ -2438,7 +2464,8 @@
         interualla, atque omnes consonantias (vt sibi videntur) inferne, et superne, et post certam
         periodum ad eundem, aut aequiualentem sibi sonum post 31 interualla reditur. si sint Dieses
         in Diapason; si semitonia minora, in Disdiapason; si maiora, in Trisdiapason: et sic in tot
-        Diapason, quot Diesibus interuallum constabit tricies, et semel repetitum. <pb n="[165]"/>Existimant enim posse in eo fieri, quod in humana voce. Diuidunt autem Tonum ad hunc
+        Diapason, quot Diesibus interuallum constabit tricies, et semel repetitum. <pb n="[165]"
+        />Existimant enim posse in eo fieri, quod in humana voce. Diuidunt autem Tonum ad hunc
         modum. accipiunt, verbi gratia, duos sonos grauissimi toni C D, et a sono D, qui est acutus,
         protrahunt in graue Semitonium maius, qui erit C Chromaticum, distans a C Diatonico
         Semitonio minore in acutum. Deinde protrahunt a C Diatonico Semitonium maius in acutum, quod
@@ -2524,12 +2551,13 @@
         in eo genere instrumentorum, quae Lyrae, aut Violae vulgo vocantur, recte etiam fit per
         Participationem, de qua nobis nunc agendum est, et quo nam pacto fieri debeat, per artem est
         demonstrandum.</p>
-      <p xml:id="SALMUS30214">De alio instrumentorum genere, quae Lyrae, et vulgo Violae vocantur, in
-        quibus alio modo, quam in Organis, ac Cymbalis, imperfectio Participata reperitur. CAPVT
+      <p xml:id="SALMUS30214">De alio instrumentorum genere, quae Lyrae, et vulgo Violae vocantur,
+        in quibus alio modo, quam in Organis, ac Cymbalis, imperfectio Participata reperitur. CAPVT
         XXVIII.</p>
-      <p xml:id="SALMUS30215">REliquum est, vt nunc ostendamus, non in omnibus Musicis, quibus vtimur
-        instrumentis, eodem modo imperfectionem inueniri. Nam perfectio vnica est, et semper eadem:
-        cuiusmodi est, quae in perfecto instrumento reperiri demonstrata est. Imperfectio <pb n="[167]"/>vero pluribus modis potest contingere, sed uobus tantum in musicis instrumentis
+      <p xml:id="SALMUS30215">REliquum est, vt nunc ostendamus, non in omnibus Musicis, quibus
+        vtimur instrumentis, eodem modo imperfectionem inueniri. Nam perfectio vnica est, et semper
+        eadem: cuiusmodi est, quae in perfecto instrumento reperiri demonstrata est. Imperfectio <pb
+          n="[167]"/>vero pluribus modis potest contingere, sed uobus tantum in musicis instrumentis
         inuenitur: altero, in Organis, atque id genus instrumentis, per distributionem Commatis, et
         tonorum aequalitatem (de quo satis iam multa dicta sunt) altero, qui reperitur in lyris,
         atque in eo genere cythararum, quae vulgo Violae dicuntur, quarum chordae digitis, aut
@@ -2615,12 +2643,13 @@
         Semitonia in eo temperamento, quo nunc in Violis vtimur, esse prorsus aequalia. Quam ob rem
         quo nam pacto id fieri debeat, aptissimo inuestigandi modo perspicue, ac plane demonstrare
         tentemus.</p>
-      <p xml:id="SALMUS30216">Quo modo per Dieseos distributionem viginti soni trium generum instrumenti
-        participati reducantur ad tredecim in Lyris, ac Violis. CAPVT XXIX.</p>
-      <p xml:id="SALMUS30217">VT reducantur ergo viginti soni instrumenti perfecti, qui per omnia tria
-        genera in cymbalis ex 25 instrumenti perfecti relicti sunt ad tredecim, quos in Lyris, ac
-        Violis necesse est reperiri, tollendae sunt, aut potius confundendae septem Dieses, quae in
-        cymbalis ex diuisione septem Semitoniorum minorum generis Chromatici in Enharmonio <pb n="[169]"/>nascuntur. vt ex quatuordecim sonis, quibus illae constant, septem tantummodo
+      <p xml:id="SALMUS30216">Quo modo per Dieseos distributionem viginti soni trium generum
+        instrumenti participati reducantur ad tredecim in Lyris, ac Violis. CAPVT XXIX.</p>
+      <p xml:id="SALMUS30217">VT reducantur ergo viginti soni instrumenti perfecti, qui per omnia
+        tria genera in cymbalis ex 25 instrumenti perfecti relicti sunt ad tredecim, quos in Lyris,
+        ac Violis necesse est reperiri, tollendae sunt, aut potius confundendae septem Dieses, quae
+        in cymbalis ex diuisione septem Semitoniorum minorum generis Chromatici in Enharmonio <pb
+          n="[169]"/>nascuntur. vt ex quatuordecim sonis, quibus illae constant, septem tantummodo
         relinquantur. Ad quod faciendum necesse est, omnes consonantias, atque omnia interualla tam
         minora, quam maiora denuo alterari: alia per augmentum, alia per imminutionem, quemadmodum
         in Commatis distributione factum est, praeter Diapason, et vnisonantiam, quae in omnibus
@@ -2695,13 +2724,13 @@
         explicitum; sed Chromaticum, et Enharmonium confusa, et implicita. Idem namque sunt soni
         Chromatici, et Enharmonij: quoniam Diesibus inter se distabant, quae prorsus omnes ablatae
         sunt, vt in hoc diagrammate conspicari licebit.</p>
-      <p xml:id="SALMUS30218">[Salinas, De musica, 170; text: iiij, iij, ij, 0, 1, 2, 3, 4, C, S, D, E,
-        F, G, a, [sqb], c, 7, 5, 9, 11, 6, 8, 10, 12, #, b] <figure>
+      <p xml:id="SALMUS30218">[Salinas, De musica, 170; text: iiij, iij, ij, 0, 1, 2, 3, 4, C, S, D,
+        E, F, G, a, [sqb], c, 7, 5, 9, 11, 6, 8, 10, 12, #, b] <figure>
           <graphic url="/images/SALMUS3_21GF.gif"/>
         </figure></p>
-      <p xml:id="SALMUS30219">Alter modus demonstrandi superiorem Dieseos Participationem in Lyris, ac
-        Violis exactissimam esse: et quod necesse fuerit, eas multo aliter, quam Cymbala temperari.
-        CAPVT XXX.</p>
+      <p xml:id="SALMUS30219">Alter modus demonstrandi superiorem Dieseos Participationem in Lyris,
+        ac Violis exactissimam esse: et quod necesse fuerit, eas multo aliter, quam Cymbala
+        temperari. CAPVT XXX.</p>
       <p xml:id="SALMUS30220">
         <pb n="[171]"/>SEd quoniam huiusmodi sonorum temperatura, ac interuallorum dispositio in
         Lyris, ac Violis omnibus reperitur, a nemine tamen adhuc (quantum scire potuerim)
@@ -2767,34 +2796,35 @@
         constitutionem non varietur in Violis temperamentum superius positum, sed idem semper,
         immotumque manere contingat: et qualiter data quaeuis linea recta, in quotcunque segmenta
         inuicem proportionalia diuidenda sit. CAPVT XXXI.</p>
-      <p xml:id="SALMUS30222">POterit autem dubitari, vtrum ex variatione trium temperamentorum, quae in
-        Organis inuenta sunt, varietur etiam Violarum temperamentum; propterea quod Dieses in illis
-        diuersae quantitatis esse reperiantur: sed dicimus, nullam prorsus in Violarum temperamento
-        variationem contingere, quin idem semper esse, et eodem modo se habere. Vnde constat, hanc
-        temperamenti constitutionem exactissimam esse; nihil enim refert, maior ne an minor sit
-        Diesis, quae in Organis reperitur ad temperamenti Violarum constitutionem, dummodo illa in
-        duodecim partes aeque proportionales diuisa distribuatur. Vt exempli gratia. Diesis primi,
-        quae a Diesi perfecti Commate aucta est, diuidetur in duodecim partes, singulas duodecima
-        Commatis auctas, et Diesis secundi, in duodecim etiam, singulas vigesima octaua Commatis
-        parte maiores: tertij vero in duodecim partes, nec auctas, nec diminutas. Vnde in Organorum
-        temperamentis poterunt consonantiae, et interualla inueniri diuersa, propter eorum diuersam
-        constitutionem: in lyris tamen, ac Violis semper erunt eaedem, propter vnicam ipsarum
-        temperamenti constitutionem. Quae facilime poterit inueniri, si Diapason consonantia,
-        quoniam eius extrema solum in hoc temperamento manent immota, eodem modo diuidatur, quo
-        Ditonum in tertio temperamento cymbalorum diuidendum esse demonstratum est: vt in duas
-        partes aeque proportionales diuisa sit. Est enim valde similis modus faciendae temperamenti
-        Violarum constitutionis, tertio cymbalorum. Nam quemadmodum in eo diuiditur Ditonum in duos
-        tonos aequales, sublato Commate: sic etiam in hoc diuiditur Diapason in duo Tritona
-        aequalia, et Tonus in duo Semitonia etiam aequalia, sublata Diesi. Assumimus autem potius
-        Diapason, quam aliam consonantiam, aut interuallum; quoniam eius duo soni extremi immoti
-        manent in Viola, sicut Ditoni in cymbalis. Et quemadmodum diuiso Ditono in duo aequa,
+      <p xml:id="SALMUS30222">POterit autem dubitari, vtrum ex variatione trium temperamentorum,
+        quae in Organis inuenta sunt, varietur etiam Violarum temperamentum; propterea quod Dieses
+        in illis diuersae quantitatis esse reperiantur: sed dicimus, nullam prorsus in Violarum
+        temperamento variationem contingere, quin idem semper esse, et eodem modo se habere. Vnde
+        constat, hanc temperamenti constitutionem exactissimam esse; nihil enim refert, maior ne an
+        minor sit Diesis, quae in Organis reperitur ad temperamenti Violarum constitutionem, dummodo
+        illa in duodecim partes aeque proportionales diuisa distribuatur. Vt exempli gratia. Diesis
+        primi, quae a Diesi perfecti Commate aucta est, diuidetur in duodecim partes, singulas
+        duodecima Commatis auctas, et Diesis secundi, in duodecim etiam, singulas vigesima octaua
+        Commatis parte maiores: tertij vero in duodecim partes, nec auctas, nec diminutas. Vnde in
+        Organorum temperamentis poterunt consonantiae, et interualla inueniri diuersa, propter eorum
+        diuersam constitutionem: in lyris tamen, ac Violis semper erunt eaedem, propter vnicam
+        ipsarum temperamenti constitutionem. Quae facilime poterit inueniri, si Diapason
+        consonantia, quoniam eius extrema solum in hoc temperamento manent immota, eodem modo
+        diuidatur, quo Ditonum in tertio temperamento cymbalorum diuidendum esse demonstratum est:
+        vt in duas partes aeque proportionales diuisa sit. Est enim valde similis modus faciendae
+        temperamenti Violarum constitutionis, tertio cymbalorum. Nam quemadmodum in eo diuiditur
+        Ditonum in duos tonos aequales, sublato Commate: sic etiam in hoc diuiditur Diapason in duo
+        Tritona aequalia, et Tonus in duo Semitonia etiam aequalia, sublata Diesi. Assumimus autem
+        potius Diapason, quam aliam consonantiam, aut interuallum; quoniam eius duo soni extremi
+        immoti manent in Viola, sicut Ditoni in cymbalis. Et quemadmodum diuiso Ditono in duo aequa,
         reperitur etiam Comma diuisum: sic quoque in Violis in duo aequa diuisa Diapason, non solum
         Tonus, sed etiam Diesis reperitur diuisa in F, quae est secundus tactus tertiae inter F
         Chromaticum sustentum, et G molle Enharmonium. Et vtriusque vice fungitur, distans ab
         vtroque Diapason extremo tribus tonis, qui necessario erunt maiores tribus tonis cymbalorum,
         dimidio Dieseos in duodecim partes diuisae, hoc est, sex partibus: et Ditonum erit maius
         quatuor, Tonus duabus. Vnde Tonus, qui est a primo tactu tertiae ad tertium eiusdem, hoc
-        est, ab F Diatonico ad G Diatonicum, augendus erit duabus: altera per remissionem <pb n="[173]"/>F, et altera per intensionem G: et reliqui soni intendentur, et minuentur, vt
+        est, ab F Diatonico ad G Diatonicum, augendus erit duabus: altera per remissionem <pb
+          n="[173]"/>F, et altera per intensionem G: et reliqui soni intendentur, et minuentur, vt
         superius ostensum est. Vnum hoc Violarum artificibus obseruandum esse iudicamus, vt
         regularis fiat tactuum dispositio, diuidendam esse Diapason in duodecim partes aeque
         proportionales, quae duodecim erunt aequalia Semitonia. Et quoniam hoc nec per nonam sexti,
@@ -2819,41 +2849,42 @@
         eorundem elementorum, est vt a b, ad segmentum a e, sic idem segmentum a e, ad reliquum c
         d.</p>
       <p xml:id="SALMUS30223">[Salinas, De musica, 173; text: a, e, f, g, h, i, b, d, c]</p>
-      <p xml:id="SALMUS30224">Diuisa est igitur a b, linea recta proportionaliter, seu media et extrema
-        ratione in puncto e: cuius segmentum maius est a e, minus vero segmentum e b.</p>
-      <p xml:id="SALMUS30225">Cum autem praefata segmenta proportionalia, sub discretis operae pretium
-        fuerit habere quantitatibus (saltem quantum ars ipsa patitur numerorum) ducenda erit a b in
-        seipsam, et dimidium eiusdem a b, cuiusmodi est b c, per seipsum itidem multiplicandum, et
-        ambo quadrata in vnum componenda numerum: cuius radix quadrata, erit ipsius a c longitudo,
-        per 47 primi elementorum. Ex qua quidem a c, demenda erit b c, hoc est, ipsius a b dimidia:
-        relinquetur enim segmentum maius a e. Idem porro segmentum a e, subductum <pb n="[174]"/>ex
-        tota a b, relinquet segmentum minus e b. Et quoniam si recta linea proportionaliter
-        diuidatur, et segmentum illius maius toti lineae in directum componatur: consurgit linea
-        itidem proportionaliter diuisa, cuius segmentum maius est ipsa linea a principio data, minus
-        vero segmentum idem segmentum maius ita compositum, per quintam tredecimi elementorum.
-        Igitur a conuersa ratione, cuiuslibet lineae rectae proportionaliter diuisae segmentum
-        minus, est segmentum maius proportionale segmenti maioris ipsius lineae datae: Et quod per
-        subtractionem eiusdem segmenti minoris ab ipso maiori segmento relinquitur, est maius
-        segmentum proportionale eiusdem segmenti minoris. Et proinde si a maiori segmento a e,
-        ipsius a b, lineae datae, auferatur cohaerens segmentum minus e b, relinquetur segmentum
-        maius e f, ipsius segmenti minoris e b: Quo detracto ab eodem segmento minori e b,
-        relinquetur segmentum minus f b, praefati segmenti minoris e b. Et si idem segmentum minus f
-        b tollatur ex maiori segmento e f, relinquetur, segmentum maius f g: Quod detractum ex ipso
-        f b, relinquet segmentum minus g b. Et deinceps in hunc modum quantum libet: vt de reliquis
-        segmentis proportionalibus g h, h b, et h i, i b, periculum facere licet. Hoc igitur
-        artificio, data quaeuis alia linea recta, in quotcunque segmenta proportionalia pendenter
-        diuidetur. Erit ergo linea taliter diuisa in Viola totum illud chordae spatium, quod
-        interiacet a retinaculo vbi sonare incipit ad ponticulum vbi sonare desinit. ex quibus illud
-        erit a, hoc b, et literae i h g f e erunt tactus, qui distant inuicem aequalibus Semitonijs,
-        et e erit tactus acutissimi quotuscunque libuerit, et si sit duodecimus, erit tota chorda
-        Diapason acutior, et f penultimus Semitonio grauior. Atque ita reliqui vsque ad b proximum,
-        qui erit primus tactus, tota chorda Semitonio acutior. Quod quoniam et intellectu facilimum,
-        et factu non difficile iudicamus, hic de his plura dicere supersedemus.</p>
-      <p xml:id="SALMUS30226">Quod necesse fuerit de imperfectorum instrumentorum temperamentis ea, quae
-        dicta sunt, adduxisse, vt his, qui perfecti cognitionem habent, via pateret ad imperfectum:
-        et his, qui non habent, quoquo modo satisfieret. CAPVT XXXII.</p>
-      <p xml:id="SALMUS30227">MIrum autem alicui fortasse videri poterit, quod tam multis egerimus de
-        instrumentorum imperfectorum temperamentis, vt plura pene de his, quam de ipsius perfecti
+      <p xml:id="SALMUS30224">Diuisa est igitur a b, linea recta proportionaliter, seu media et
+        extrema ratione in puncto e: cuius segmentum maius est a e, minus vero segmentum e b.</p>
+      <p xml:id="SALMUS30225">Cum autem praefata segmenta proportionalia, sub discretis operae
+        pretium fuerit habere quantitatibus (saltem quantum ars ipsa patitur numerorum) ducenda erit
+        a b in seipsam, et dimidium eiusdem a b, cuiusmodi est b c, per seipsum itidem
+        multiplicandum, et ambo quadrata in vnum componenda numerum: cuius radix quadrata, erit
+        ipsius a c longitudo, per 47 primi elementorum. Ex qua quidem a c, demenda erit b c, hoc
+        est, ipsius a b dimidia: relinquetur enim segmentum maius a e. Idem porro segmentum a e,
+        subductum <pb n="[174]"/>ex tota a b, relinquet segmentum minus e b. Et quoniam si recta
+        linea proportionaliter diuidatur, et segmentum illius maius toti lineae in directum
+        componatur: consurgit linea itidem proportionaliter diuisa, cuius segmentum maius est ipsa
+        linea a principio data, minus vero segmentum idem segmentum maius ita compositum, per
+        quintam tredecimi elementorum. Igitur a conuersa ratione, cuiuslibet lineae rectae
+        proportionaliter diuisae segmentum minus, est segmentum maius proportionale segmenti maioris
+        ipsius lineae datae: Et quod per subtractionem eiusdem segmenti minoris ab ipso maiori
+        segmento relinquitur, est maius segmentum proportionale eiusdem segmenti minoris. Et proinde
+        si a maiori segmento a e, ipsius a b, lineae datae, auferatur cohaerens segmentum minus e b,
+        relinquetur segmentum maius e f, ipsius segmenti minoris e b: Quo detracto ab eodem segmento
+        minori e b, relinquetur segmentum minus f b, praefati segmenti minoris e b. Et si idem
+        segmentum minus f b tollatur ex maiori segmento e f, relinquetur, segmentum maius f g: Quod
+        detractum ex ipso f b, relinquet segmentum minus g b. Et deinceps in hunc modum quantum
+        libet: vt de reliquis segmentis proportionalibus g h, h b, et h i, i b, periculum facere
+        licet. Hoc igitur artificio, data quaeuis alia linea recta, in quotcunque segmenta
+        proportionalia pendenter diuidetur. Erit ergo linea taliter diuisa in Viola totum illud
+        chordae spatium, quod interiacet a retinaculo vbi sonare incipit ad ponticulum vbi sonare
+        desinit. ex quibus illud erit a, hoc b, et literae i h g f e erunt tactus, qui distant
+        inuicem aequalibus Semitonijs, et e erit tactus acutissimi quotuscunque libuerit, et si sit
+        duodecimus, erit tota chorda Diapason acutior, et f penultimus Semitonio grauior. Atque ita
+        reliqui vsque ad b proximum, qui erit primus tactus, tota chorda Semitonio acutior. Quod
+        quoniam et intellectu facilimum, et factu non difficile iudicamus, hic de his plura dicere
+        supersedemus.</p>
+      <p xml:id="SALMUS30226">Quod necesse fuerit de imperfectorum instrumentorum temperamentis ea,
+        quae dicta sunt, adduxisse, vt his, qui perfecti cognitionem habent, via pateret ad
+        imperfectum: et his, qui non habent, quoquo modo satisfieret. CAPVT XXXII.</p>
+      <p xml:id="SALMUS30227">MIrum autem alicui fortasse videri poterit, quod tam multis egerimus
+        de instrumentorum imperfectorum temperamentis, vt plura pene de his, quam de ipsius perfecti
         constructione dixisse videamur: cum huiusmodi tractatio potius ad Practicum Musicum, quam ad
         Harmonicum pertinere videatur: nec quisquam ex antiquis illius reperiatur fecisse mentionem.
         Et scientia Musicae, qua de agit Theoretice, de perfectis sit, et quae semper eodem modo se

@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>[Tractatus brevis de musica mensurata]</title>
         <title type="abbrev">ANOUPS3</title>
-        <author>Anonymous</author>
-        <date notBefore="1200" notAfter="1299">13th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Anastasia Arapova</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Mark Butler</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2001</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2001">2001</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Carl Allan Moberg, "Om flerstämmig musik i Sverige under medeltiden,"
             <emph>Svensk Tidskrift för Musikforskning</emph> 10 (1928): 62-67, 82–86. </bibl>
@@ -52,9 +62,9 @@
         quadratus, habens (hs.: huius) tractum a parte dextra uel ascendentem uel descendentem, ut
         hic (fig. Nr 88) [L,Bcsdx,L,Bcsdx]. Breuis dicitur cuius punctus caret omni tractu, ut hic
         (fig. Nr 89) [B,B,B,B,B,B]. Semibreuis sic formatur (fig. Nr 90) [S,S,S].</p>
-      <p xml:id="ANOUPS30004">Longarum alia perfecta, alia imperfecta, alia plus quam perfecta. Perfecta
-        ualet tria tempora, imperfecta ualet duo. Plus quam perfecta uocatur duplex longa et ualet
-        sex tempora et formatur sic (fig. Nr 91) [MX,MXcsdx].</p>
+      <p xml:id="ANOUPS30004">Longarum alia perfecta, alia imperfecta, alia plus quam perfecta.
+        Perfecta ualet tria tempora, imperfecta ualet duo. Plus quam perfecta uocatur duplex longa
+        et ualet sex tempora et formatur sic (fig. Nr 91) [MX,MXcsdx].</p>
       <p xml:id="ANOUPS30005">
         <pb n="[83]"/>Breuium alia recta breuis, alia altera breuis dicitur. Omnis breuis diuiditur
         rectae breues, nisi quando duas breues ponuntur inter duas longas, ut hic (fig. Nr 92)
@@ -69,8 +79,8 @@
         discordet, tunc causa concordantiae quandocumque fit aequo, ut hic (fig. Nr 96) [staff4]. Si
         uero tres pro uno tempore ponantur, omnes sunt aequales, ut hic (fig. Nr 97) [staff4]; si
         autem plures quam tres, semibreuis minor debet diuidi et mensurari ad modum breuis.</p>
-      <p xml:id="ANOUPS30007">Plica simplex (!) dicitur nota, habens tractum ex utraque parte, ut hic
-        (fig. Nr 98) [Bpdsnpddx,Bpssnpsdx,Bpdsnpddx,Bpssnpsdx(!)], praeter semibreuem, quae solo
+      <p xml:id="ANOUPS30007">Plica simplex (!) dicitur nota, habens tractum ex utraque parte, ut
+        hic (fig. Nr 98) [Bpdsnpddx,Bpssnpsdx,Bpdsnpddx,Bpssnpsdx(!)], praeter semibreuem, quae solo
         tractu plicatur, ut hic (fig. Nr 99)
         [Scddxosn,Scddxosn,Scddxosn,Scsdxosn,Scsdxosn,Scsdxosn]. Longa dicitur, cuius tractus dexter
         est longior sinistro, ut hic (fig. Nr 100) [Bpssncsdx,Bpssncsdx,Bpdsncddx]; breuis autem
@@ -103,15 +113,15 @@
         perfectionis', ut hic (fig. Nr 117, [* * *]) [L,B,B,L; B,L,B; B,B,B,L]; comparando autem ad
         notulas sequentes dicitur 'diuisio modi'; ponimus autem inter semibreues, dicitur
         'distinctio', quasi sic (fig. Nr 118) [S,S; S,S; S,S,S; S,S,S,S; S,S,S; S,S,S,S,S,S].</p>
-      <p xml:id="ANOUPS30009">Praepositus autem notulae dicitur 'acceptio syllabarum', ut hic (fig. Nr
-        119).</p>
+      <p xml:id="ANOUPS30009">Praepositus autem notulae dicitur 'acceptio syllabarum', ut hic (fig.
+        Nr 119).</p>
       <p xml:id="ANOUPS30010">[STM10:85; text: Alleluyaa.] <figure>
           <graphic url="/images/ANOUPS3_01GF.gif"/>
         </figure></p>
-      <p xml:id="ANOUPS30011">Pausa dicitur quidam tractus inter notulas, per se positus signum uocis
-        omissionis (hs.: o--em). Et sciendum, quod pausa debet ualeri tot tempora, quot continet
-        spatia partis, [excepta] illa (hs.: illam), quae continet omnes lineas, quae immensurabilis
-        dicitur. Exemplum temporale de omnibus (fig. Nr 120).</p>
+      <p xml:id="ANOUPS30011">Pausa dicitur quidam tractus inter notulas, per se positus signum
+        uocis omissionis (hs.: o--em). Et sciendum, quod pausa debet ualeri tot tempora, quot
+        continet spatia partis, [excepta] illa (hs.: illam), quae continet omnes lineas, quae
+        immensurabilis dicitur. Exemplum temporale de omnibus (fig. Nr 120).</p>
       <p xml:id="ANOUPS30012">[STM10:85]</p>
       <p xml:id="ANOUPS30013">Sciendum uero, quod eodem modo perficiunt et imperficiunt pausae et
         notulae, et idem est quantum ad modum et perfectiones, quacumque sunt modi mensurandi.</p>
@@ -122,13 +132,14 @@
       <p xml:id="ANOUPS30017">[STM10:85]</p>
       <p xml:id="ANOUPS30018">tertius ex longa et duabus breuibus, ut hic (fig. Nr 123)</p>
       <p xml:id="ANOUPS30019">[STM10:85]</p>
-      <p xml:id="ANOUPS30020">[f. 27ro], quartus ex duabus breuibus et longa, ut hic (fig. Nr 124),</p>
+      <p xml:id="ANOUPS30020">[f. 27ro], quartus ex duabus breuibus et longa, ut hic (fig. Nr
+        124),</p>
       <p xml:id="ANOUPS30021">[STM10:85]</p>
       <p xml:id="ANOUPS30022">quintus ex omnibus breuibus uel semibreuibus, ut patet hic (fig. Nr
         125).</p>
       <p xml:id="ANOUPS30023">[STM10:85]</p>
-      <p xml:id="ANOUPS30024">Sciendum [est], quod longa cum longam semper est perfecta. Praeterea in
-        primo modo et secundo omnes longae sunt imperfectae, in tertio et in quarto omnes longae
+      <p xml:id="ANOUPS30024">Sciendum [est], quod longa cum longam semper est perfecta. Praeterea
+        in primo modo et secundo omnes longae sunt imperfectae, in tertio et in quarto omnes longae
         sunt perfectae. Et per haec sufficiunt regulae tam simplicium [figurarum] quam ligaturarum.
         [Explicit.]</p>
     </body>

@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Brevis compilatio</title>
         <title type="abbrev">MARBREV</title>
-        <author>Marchetus de Padua</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Marchetus de Padua</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Jessica Sisk</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2003</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2003">2003</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Giuseppe Vecchi, "Su la composizione del Pomerium di Marchetto da
           Padova e la Brevis Compilatio," <emph>Quadrivium</emph> 1 (1956): 177-205, 177–205. As a
@@ -54,15 +64,15 @@
         mensuratur, et quoniam temporum musicorum aliud perfectum, aliud imperfectum, et quoniam
         perfectum precedit imperfectum; ideo videndum est quid sit tempus musicale; et primo de
         perfecto cum eius divisionibus et subdivisionibus videamus.</p>
-      <p xml:id="MARBREV0006">Ubi primo sciendum est quod tempus perfectum musicum est illud quod est
-        minimum in plenitudine vocis; et hoc secundum Franconem. Quam diffinitionem sic probamus.
-        Unumquodque perficitur minimo sui generis; et hec clara. Nam unitas, que est principium
-        numeri et est minimum, perficit totum numerum; nam dicere quattuor est dicere quattuor
-        unitates, et cetera. Cum igitur mensura <pb n="[178]"/>ipsius cantus sive notarum consistat
-        in tempore, ut dictum est, concluditur quod minimum tempus quod est reperiri in ipsa
-        mensura, sit causa et perfectio mensurandi totum ipsum cantum. Hoc est autem illud tempus in
-        quo debet formari plenitudo vocis; et ob hoc bene subiunxit Francus, cum dixit: Non
-        quodcumque minimum, sed quod est minimum in plenitudine vocis.</p>
+      <p xml:id="MARBREV0006">Ubi primo sciendum est quod tempus perfectum musicum est illud quod
+        est minimum in plenitudine vocis; et hoc secundum Franconem. Quam diffinitionem sic
+        probamus. Unumquodque perficitur minimo sui generis; et hec clara. Nam unitas, que est
+        principium numeri et est minimum, perficit totum numerum; nam dicere quattuor est dicere
+        quattuor unitates, et cetera. Cum igitur mensura <pb n="[178]"/>ipsius cantus sive notarum
+        consistat in tempore, ut dictum est, concluditur quod minimum tempus quod est reperiri in
+        ipsa mensura, sit causa et perfectio mensurandi totum ipsum cantum. Hoc est autem illud
+        tempus in quo debet formari plenitudo vocis; et ob hoc bene subiunxit Francus, cum dixit:
+        Non quodcumque minimum, sed quod est minimum in plenitudine vocis.</p>
       <p xml:id="MARBREV0007">QUESTIO. Sed dicet aliquis: Da mihi illud minimum.</p>
       <p xml:id="MARBREV0008">RESPONSIO. Dicimus: Dictum est alibi in nostro opere musice plane quot
         sint instrumenta necessaria ad vocem formandam. Quando ergo plene dicta instrumenta
@@ -71,12 +81,12 @@
         decenti inflatione ventris ad hoc exprimendum, emittitur anhelitus feritque sic auditum quod
         sentit proferens hunc prolatum sonum in sui ipsius, seu in alterius proferentis pectore, seu
         in quodam tintinnabulo resonare.</p>
-      <p xml:id="MARBREV0009">Hoc est tempus quod format omnia tempora musice mensurate. Et quia musica
-        sequitur numeros, quia de proportione numerorum est ipsa, igitur sicut est de numeris, sic
-        est de notis. Sed in numeris ita est, quod unus numerat duos et tres, per quos duos et tres
-        omnes alii numeri numerantur. Nam dicere quattuor est dicere bis duo, et dicere quinque est
-        dicere duo et tria, et cetera. Sic similiter est de notis; nam unum tempus mensurat duo et
-        tria tempora per que mensurantur omnia alia tempora in musica mensurata.</p>
+      <p xml:id="MARBREV0009">Hoc est tempus quod format omnia tempora musice mensurate. Et quia
+        musica sequitur numeros, quia de proportione numerorum est ipsa, igitur sicut est de
+        numeris, sic est de notis. Sed in numeris ita est, quod unus numerat duos et tres, per quos
+        duos et tres omnes alii numeri numerantur. Nam dicere quattuor est dicere bis duo, et dicere
+        quinque est dicere duo et tria, et cetera. Sic similiter est de notis; nam unum tempus
+        mensurat duo et tria tempora per que mensurantur omnia alia tempora in musica mensurata.</p>
       <p xml:id="MARBREV0010">QUESTIO. Sed si dicatur: Quid est perfectius in numeris, unum quod
         mensurat duo et tria, an duo et tria?</p>
       <p xml:id="MARBREV0011">
@@ -87,58 +97,58 @@
         temporum, ratione data de numeris. Itaque sic est quod nota trium temporum perfectior est,
         continens primum gradum; nota vero duorum temporum imperfectior est, continens secundum
         gradum; sed nota unius temporis brevis est, continens tercium gradum.</p>
-      <p xml:id="MARBREV0013">Nunc autem restat videre figuras ipsis notis competentes; ubi dicimus quod
-        figure, in quibus debet poni tempus dictarum notarum, depingi debent quadre plane et recte
-        ad modum quadranguli, nullam innuentes sissuram per angulos, neque divisionem, neque
+      <p xml:id="MARBREV0013">Nunc autem restat videre figuras ipsis notis competentes; ubi dicimus
+        quod figure, in quibus debet poni tempus dictarum notarum, depingi debent quadre plane et
+        recte ad modum quadranguli, nullam innuentes sissuram per angulos, neque divisionem, neque
         adiectionem, sed cum aliquibus proprietatibus adiuntis eis per quas cognoscamus ipsas ad
         invicem esse distinctas, sic videlicet quod nota quadrata sine aliqua proprietate competat
         brevi; nota autem quadrata cum cauda in deorsum a latere dextro competat longe.</p>
-      <p xml:id="MARBREV0014">Cuius ratio est quod cauda semper longitudinis est in rebus, ut infra de
-        caudis dicetur; et ipsa cauda est propria proprietas ipsius longe. Propria autem proprietas
-        note duorum temporum est situs in quo necessario figuratur, quia nota brevis potest poni in
-        principio perfectionis et in fine.</p>
+      <p xml:id="MARBREV0014">Cuius ratio est quod cauda semper longitudinis est in rebus, ut infra
+        de caudis dicetur; et ipsa cauda est propria proprietas ipsius longe. Propria autem
+        proprietas note duorum temporum est situs in quo necessario figuratur, quia nota brevis
+        potest poni in principio perfectionis et in fine.</p>
       <p xml:id="MARBREV0015">
         <pb n="[180]"/>Nota autem duorum temporum, que dicitur altera brevis, semper debet poni et
         necessario in ultimo loco perfectionis, quem locum appellamus ubi tria tempora sunt
         completa, puta quando duas breves sequitur longa; nam prima brevis valet unum tempus,
         secunda valet duo, et vocatur altera brevis.</p>
-      <p xml:id="MARBREV0016">Silogizamus enim sic. Propria proprietas alicuius est que convenit omni,
-        et soli et semper; sicut risibile convenit omni homini, et soli homini et semper homini; sed
-        locari in ultimo loco perfectionis convenit omni altere brevi, et soli altere brevi, et
-        semper altere brevi; ergo talis locatio est propria proprietas ipsius altere brevis, per
-        quam cognoscimus ipsam esse distinctam a longa et a brevi.</p>
+      <p xml:id="MARBREV0016">Silogizamus enim sic. Propria proprietas alicuius est que convenit
+        omni, et soli et semper; sicut risibile convenit omni homini, et soli homini et semper
+        homini; sed locari in ultimo loco perfectionis convenit omni altere brevi, et soli altere
+        brevi, et semper altere brevi; ergo talis locatio est propria proprietas ipsius altere
+        brevis, per quam cognoscimus ipsam esse distinctam a longa et a brevi.</p>
       <p xml:id="MARBREV0017">Dicamus ergo sic: Nota brevis de se principaliter et per se habet unum
         tempus; altera brevis vero de se principaliter et per se, non per subtractionem, habet duo
         tempora.</p>
-      <p xml:id="MARBREV0018">QUESTIO. Quomodo ergo nota duorum temporum est caudata in latere dextro,
-        sicut longa perfecta, in cantibus mensuratis?</p>
-      <p xml:id="MARBREV0019">RESPONSIO. Dicimus quod hoc est per subtractionem, scilicet quando longam
-        perfectam sequitur vel precedit sola brevis, ut infra de modis dicetur.</p>
+      <p xml:id="MARBREV0018">QUESTIO. Quomodo ergo nota duorum temporum est caudata in latere
+        dextro, sicut longa perfecta, in cantibus mensuratis?</p>
+      <p xml:id="MARBREV0019">RESPONSIO. Dicimus quod hoc est per subtractionem, scilicet quando
+        longam perfectam sequitur vel precedit sola brevis, ut infra de modis dicetur.</p>
       <p xml:id="MARBREV0020">II</p>
       <p xml:id="MARBREV0021">De tempore perfecto</p>
       <p xml:id="MARBREV0022">A. De principali divisione partium temporis perfecti</p>
-      <p xml:id="MARBREV0023">NUnc autem applicatum est tempus secundum ipsas notas sed secundum totum
-        et non secundum divisionem. Sed <pb n="[181]"/>quomodo tempus applicari debeat notis
+      <p xml:id="MARBREV0023">NUnc autem applicatum est tempus secundum ipsas notas sed secundum
+        totum et non secundum divisionem. Sed <pb n="[181]"/>quomodo tempus applicari debeat notis
         secundum eius divisionem videamus.</p>
-      <p xml:id="MARBREV0024">Ubi sciendum est quod tempus perfectum, ut perfectum est, debet applicari
-        illi divisioni que est perfectior. Secundo, tempus perfectum debet dividi secundum ternariam
-        divisionem, et tunc secundum binariam, que est imperfectior; quod sic probatum est: Illa
-        divisio dicitur esse perfectior que comprehendit aliam tamquam partem sui; sed ternaria
-        divisio comprehendit binariam, tamquam partem sui; ergo, et cetera.</p>
-      <p xml:id="MARBREV0025">QUESTIO. Sed instatum est sic: Tempus perfectum multociens dividitur in
-        duas semibreves, ut hic patet:</p>
+      <p xml:id="MARBREV0024">Ubi sciendum est quod tempus perfectum, ut perfectum est, debet
+        applicari illi divisioni que est perfectior. Secundo, tempus perfectum debet dividi secundum
+        ternariam divisionem, et tunc secundum binariam, que est imperfectior; quod sic probatum
+        est: Illa divisio dicitur esse perfectior que comprehendit aliam tamquam partem sui; sed
+        ternaria divisio comprehendit binariam, tamquam partem sui; ergo, et cetera.</p>
+      <p xml:id="MARBREV0025">QUESTIO. Sed instatum est sic: Tempus perfectum multociens dividitur
+        in duas semibreves, ut hic patet:</p>
       <p xml:id="MARBREV0026">Exemplum 1.</p>
       <p xml:id="MARBREV0027">[Marchettus, Compilatio, 181,1] <figure>
           <graphic url="/images/MARBREV_01GF.gif"/>
         </figure></p>
-      <p xml:id="MARBREV0028">RESPONSIO. Dicimus hoc verum esse, quia tunc ille due semibreves continent
-        tres partes temporis indivisi, videlicet sic quod prima ponitur una pars, in secunda vero
-        due, quia secunda finis est; finis enim est causa causarum et omnibus causis nobilior. Omnia
-        enim que agunt, propter finem agunt; et tunc res habet suam perfectionem, quando habet suum
-        finem. Patet ex dictis quod perfectiores partes debent sumi a parte finis et non a parte
-        principii, et dicimus via nature; via autem artis, que quidem est per accidens, possumus in
-        prima semibrevi duas partes ponere eidem, scilicet per accidens a nigredo, que est cauda in
-        deorsum, ut hic:</p>
+      <p xml:id="MARBREV0028">RESPONSIO. Dicimus hoc verum esse, quia tunc ille due semibreves
+        continent tres partes temporis indivisi, videlicet sic quod prima ponitur una pars, in
+        secunda vero due, quia secunda finis est; finis enim est causa causarum et omnibus causis
+        nobilior. Omnia enim que agunt, propter finem agunt; et tunc res habet suam perfectionem,
+        quando habet suum finem. Patet ex dictis quod perfectiores partes debent sumi a parte finis
+        et non a parte principii, et dicimus via nature; via autem artis, que quidem est per
+        accidens, possumus in prima semibrevi duas partes ponere eidem, scilicet per accidens a
+        nigredo, que est cauda in deorsum, ut hic:</p>
       <p xml:id="MARBREV0029">Exemplum 2.</p>
       <p xml:id="MARBREV0030">[Marchettus, Compilatio, 181,2]</p>
       <p xml:id="MARBREV0031">
@@ -151,11 +161,11 @@
         reliquis remanentibus in ternaria.</p>
       <p xml:id="MARBREV0035">QUESTIO. Sed si queratur: Quare due prime non dicuntur maiores?</p>
       <p xml:id="MARBREV0036">RESPONSIO. Respondeo: Ex duplici ratione:</p>
-      <p xml:id="MARBREV0037">Prima ratio est que superius de duabus dicta est, scilicet quod maiores
-        partes debent sumi a parte finis, et non a parte principii.</p>
-      <p xml:id="MARBREV0038">Secunda ratio est quod ratione totius divisibilis est quod primo dividatur
-        in partes, et si partes illas dividere volumus, primo debemus dividere primam, secundo
-        secundam et tercio terciam dividere debemus.</p>
+      <p xml:id="MARBREV0037">Prima ratio est que superius de duabus dicta est, scilicet quod
+        maiores partes debent sumi a parte finis, et non a parte principii.</p>
+      <p xml:id="MARBREV0038">Secunda ratio est quod ratione totius divisibilis est quod primo
+        dividatur in partes, et si partes illas dividere volumus, primo debemus dividere primam,
+        secundo secundam et tercio terciam dividere debemus.</p>
       <p xml:id="MARBREV0039">Unde si tribus semibrevibus addatur una, ut sint quattuor, prima pars
         primo dividitur, scilicet semibrevis, et vocabitur ipsa addita sibi minor, ambe pertinentes
         ad secundam divisionem, reliquis remanentibus in prima.</p>
@@ -169,10 +179,10 @@
         <pb n="[183]"/>Quod si sex, ut hic patet:</p>
       <p xml:id="MARBREV0045">Exemplum 5.</p>
       <p xml:id="MARBREV0046">[Marchettus, Compilatio, 183,1]</p>
-      <p xml:id="MARBREV0047">tunc ratione superius dicta, prima pars primo dividetur, secundo secunda,
-        tercio tercia, que omnes minores dicentur, ad primam et secundam divisionem pertinentes. Et
-        quod dictum est de dictis semibrevis intelligendum est de ipsis via nature, hoc est
-        uniformiter figuratis.</p>
+      <p xml:id="MARBREV0047">tunc ratione superius dicta, prima pars primo dividetur, secundo
+        secunda, tercio tercia, que omnes minores dicentur, ad primam et secundam divisionem
+        pertinentes. Et quod dictum est de dictis semibrevis intelligendum est de ipsis via nature,
+        hoc est uniformiter figuratis.</p>
       <p xml:id="MARBREV0048">Via autem artis potest aliter sumi; nam si due semibreves ponuntur pro
         tempore, prima potest dici maior via artis, signis artis eidem additis, scilicet cauda in
         deorsum, ut hic inferius patet:</p>
@@ -183,12 +193,12 @@
         patet:</p>
       <p xml:id="MARBREV0053">Exemplum 7.</p>
       <p xml:id="MARBREV0054">[Marchettus, Compilatio, 183,3]</p>
-      <p xml:id="MARBREV0055">continebit tres partes temporis divisionis secunde que est in sex, cuius
-        ratio est quod cauda que additur ipsi semibrevi necessario aliquid addit sibi ultra illud
-        quod habebat. Si primo habebat terciam partem divisionis secunde, scilicet unam de sex, et
-        sic habebat tres de sex, et sic prima que caudetur, ratione predicta, continet tres et
-        vocatur maior per artem, quia in valore excedit maiorem per naturam; secunda vero habet unam
-        de sex, et vocatur minor ultima divisione.</p>
+      <p xml:id="MARBREV0055">continebit tres partes temporis divisionis secunde que est in sex,
+        cuius ratio est quod cauda que additur ipsi semibrevi necessario aliquid addit sibi ultra
+        illud quod habebat. Si primo habebat terciam partem divisionis secunde, scilicet unam de
+        sex, et sic habebat tres de sex, et sic prima que caudetur, ratione predicta, continet tres
+        et vocatur maior per artem, quia in valore excedit maiorem per naturam; secunda vero habet
+        unam de sex, et vocatur minor ultima divisione.</p>
       <p xml:id="MARBREV0056">Si vero secunda caudetur, ut hic inferius patet:</p>
       <p xml:id="MARBREV0057">Exemplum 8.</p>
       <p xml:id="MARBREV0058">[Marchettus, Compilatio, 183,4]</p>
@@ -200,8 +210,8 @@
       <p xml:id="MARBREV0062">[Marchettus, Compilatio, 184,1]</p>
       <p xml:id="MARBREV0063">tunc prima habet unam de sex, secunda vero habet duas de sex, eo quod
         finis est duarum naturalium, ultima vero habet tres.</p>
-      <p xml:id="MARBREV0064">QUESTIO. Si dicatur quare caudata in deorsum de tribus non continet duas
-        partes temporis perfecti prime divisionis, et due subsequentes contieneant aliam partem
+      <p xml:id="MARBREV0064">QUESTIO. Si dicatur quare caudata in deorsum de tribus non continet
+        duas partes temporis perfecti prime divisionis, et due subsequentes contieneant aliam partem
         terciam, et vocentur minores;</p>
       <p xml:id="MARBREV0065">RESPONSIO. Respondeo que ratione superius dicta, scilicet quod quando
         partes debent dividi, primo debemus dividere primam, secundo secundam, et cetera. Sed hic
@@ -221,13 +231,13 @@
       <p xml:id="MARBREV0071">[Marchettus, Compilatio, 185,1] <figure>
           <graphic url="/images/MARBREV_02GF.gif"/>
         </figure></p>
-      <p xml:id="MARBREV0072">QUESTIO. Sed si dicatur quare semibrevi prime de quattuor, vel secunde,
-        adduntur due partes senarie divisionis per caudam que additur eisdem, et duabus reliquis,
-        scilicet tercie et quarte, per caudam que additur eisdem, non additur singulariter nisi una
-        pars que manifesta patet; (quia prima semibrevis et secunda naturali via continebunt secunde
-        divisionis singulariter solum unam; nunc si caudetur, tres continent; tercia autem et quarta
-        naturali via continebunt secunde divisionis singulariter duas; nunc eisdem si additur cauda,
-        non addimus nisi unam partem divisionis predicte):</p>
+      <p xml:id="MARBREV0072">QUESTIO. Sed si dicatur quare semibrevi prime de quattuor, vel
+        secunde, adduntur due partes senarie divisionis per caudam que additur eisdem, et duabus
+        reliquis, scilicet tercie et quarte, per caudam que additur eisdem, non additur singulariter
+        nisi una pars que manifesta patet; (quia prima semibrevis et secunda naturali via
+        continebunt secunde divisionis singulariter solum unam; nunc si caudetur, tres continent;
+        tercia autem et quarta naturali via continebunt secunde divisionis singulariter duas; nunc
+        eisdem si additur cauda, non addimus nisi unam partem divisionis predicte):</p>
       <p xml:id="MARBREV0073">RESPONSIO. Respondeo quod artifex minus laborat et minus ponit de suo
         artificio ad operandum quid de linea quattuor ulnarum quam de linea trium; et quia due prime
         semibreves de quattuor sunt minores, ideo plus indigent de adiutorio artis ad proportionem
@@ -240,42 +250,42 @@
       <p xml:id="MARBREV0077">tunc caudate, quecunque sint ille, ad primam pertinent divisionem, et
         vocantur maiores via artificiali, licet essentialiter contineant tempus unius naturalis,
         reliquis non caudatis remanentibus in secunda.</p>
-      <p xml:id="MARBREV0078">Si autem de quinque caudetur una quecunque sit illa preterquam ultima, que
-        caudari non debet quia finis, ut hic inferius patet:</p>
+      <p xml:id="MARBREV0078">Si autem de quinque caudetur una quecunque sit illa preterquam ultima,
+        que caudari non debet quia finis, ut hic inferius patet:</p>
       <p xml:id="MARBREV0079">Exemplum 13.</p>
       <p xml:id="MARBREV0080">[Marchettus, Compilatio, 185,3]</p>
       <p xml:id="MARBREV0081">
         <pb n="[186]"/>continet unam partem prime divisionis, et vocatur maior artificialis, licet
         essentialiter unius naturalis, reliquis remanentibus in secunda.</p>
       <p xml:id="MARBREV0082">QUESTIO. Si autem queritur utrum de quinque possint caudari due;</p>
-      <p xml:id="MARBREV0083">RESPONSIO. Respondeo quod non, in secunda divisione existente, que est in
-        sex, sed transeundo ad terciam divisionem, que est in novem vel duodecim, possunt due
+      <p xml:id="MARBREV0083">RESPONSIO. Respondeo quod non, in secunda divisione existente, que est
+        in sex, sed transeundo ad terciam divisionem, que est in novem vel duodecim, possunt due
         caudari. Et quod dictum est de dictis semibrevibus caudatis dicimus in deorsum.</p>
-      <p xml:id="MARBREV0084">De sex autem non potest aliqua caudari, nisi ad divisionem novenariam sive
-        ad duodenariam transeamus.</p>
+      <p xml:id="MARBREV0084">De sex autem non potest aliqua caudari, nisi ad divisionem novenariam
+        sive ad duodenariam transeamus.</p>
       <p xml:id="MARBREV0085">QUESTIO. Sed posset aliquis dicere: Tu primo dividis tempus perfectum
         secundum ternariam divisionem, quam dicis esse maiorem et perfectiorem divisionem. Sed
         videtur quod tu non bene procedas. Nam si tempus perfectum, tu dicis, dividis secundum
         ternariam divisionem, quam dicis esse maiorem et perfectiorem, partes eius si debes dividere
         eo modo quo divisum est tempus, debes dividere in tres, ut sint novem, et non in duas, ut
         sint sex.</p>
-      <p xml:id="MARBREV0086">RESPONSIO. Respondeo quod, quando tempus est divisum et dividere volumus
-        partes, debemus incipere ab inferiori divisione; sicut incipiendo ab unitate devenimus in
-        omnem cognitionem numeri. Sed quia inferior est binaria diviso quam ternaria, ergo debemus
-        incipere in divisione talium a binaria divisione et non a ternaria, ut possimus post hec eas
-        dividere secundum omnem numerum divisionis ipsarum. Et solvimus illud, scilicet quod partes
-        alicuius perfecti temporis non debent necessario primo dividi secundum quod divisum est
-        tempus, quia tempus perfectum est de quo agimus, et eidem applicamus perfectiorem
-        divisionem. Partibus autem suis tamquam imperfectis applicamus omnem modum divisionis qui
-        cadere potest in divisionem talium partium, non a divisione ternaria tamquam a secunda, sed
-        a prima, que est binaria, inchoando.</p>
+      <p xml:id="MARBREV0086">RESPONSIO. Respondeo quod, quando tempus est divisum et dividere
+        volumus partes, debemus incipere ab inferiori divisione; sicut incipiendo ab unitate
+        devenimus in omnem cognitionem numeri. Sed quia inferior est binaria diviso quam ternaria,
+        ergo debemus incipere in divisione talium a binaria divisione et non a ternaria, ut possimus
+        post hec eas dividere secundum omnem numerum divisionis ipsarum. Et solvimus illud, scilicet
+        quod partes alicuius perfecti temporis non debent necessario primo dividi secundum quod
+        divisum est tempus, quia tempus perfectum est de quo agimus, et eidem applicamus
+        perfectiorem divisionem. Partibus autem suis tamquam imperfectis applicamus omnem modum
+        divisionis qui cadere potest in divisionem talium partium, non a divisione ternaria tamquam
+        a secunda, sed a prima, que est binaria, inchoando.</p>
       <p xml:id="MARBREV0087">
         <pb n="[187]"/>Si autem ultra sex semibreves pro tempore figurantur, ut hic inferius
         patet:</p>
       <p xml:id="MARBREV0088">Exemplum 14.</p>
       <p xml:id="MARBREV0089">[Marchettus, Compilatio, 187,1]</p>
-      <p xml:id="MARBREV0090">tunc transimus ad terciam divisionem, que est in duodecim, que vocantur
-        minime, quia dicitur ex minoribus partibus.</p>
+      <p xml:id="MARBREV0090">tunc transimus ad terciam divisionem, que est in duodecim, que
+        vocantur minime, quia dicitur ex minoribus partibus.</p>
       <p xml:id="MARBREV0091">Quod si septem uniformiter figurantur, ut hic inferius patet:</p>
       <p xml:id="MARBREV0092">Exemplum 15.</p>
       <p xml:id="MARBREV0093">[Marchettus, Compilatio, 187,2]</p>
@@ -283,7 +293,8 @@
         pertinentes, reliquis remanentibus in senaria. Et ratio est que superius de quttuor
         semibrevibus dicta est, scilicet quod si partes alique dividuntur, primo debent dividi
         prime, secundo secunde, tercio tercie.</p>
-      <p xml:id="MARBREV0095">Si autem octo semibreves sumantur pro tempore, ut hic inferius patet:</p>
+      <p xml:id="MARBREV0095">Si autem octo semibreves sumantur pro tempore, ut hic inferius
+        patet:</p>
       <p xml:id="MARBREV0096">Exemplum 16.</p>
       <p xml:id="MARBREV0097">[Marchettus, Compilatio, 187,3]</p>
       <p xml:id="MARBREV0098">tunc quattuor prime ad duodenariam pertinent divisionem, reliquis
@@ -319,23 +330,24 @@
         inferius patet:</p>
       <p xml:id="MARBREV0112">Exemplum 20.</p>
       <p xml:id="MARBREV0113">[Marchettus, Compilatio, 189,1]</p>
-      <p xml:id="MARBREV0114">tunc decem prime ad duodenariam pertinent divisionem, ultima in senaria
-        existente; et tunc prima pars, secunda, tercia, quarta et quinta divisionis senarie est
-        divisa. Et quod dictum est de dictis semibrevibus intelligendum est via nature; via autem
-        artis possunt aliter diversificari, videlicet illis que ad duodenariam pertinent divisionem
-        in sursum caudam addendo, reliquis remanentibus naturaliter figuratis, ut infra
+      <p xml:id="MARBREV0114">tunc decem prime ad duodenariam pertinent divisionem, ultima in
+        senaria existente; et tunc prima pars, secunda, tercia, quarta et quinta divisionis senarie
+        est divisa. Et quod dictum est de dictis semibrevibus intelligendum est via nature; via
+        autem artis possunt aliter diversificari, videlicet illis que ad duodenariam pertinent
+        divisionem in sursum caudam addendo, reliquis remanentibus naturaliter figuratis, ut infra
         ostendetur.</p>
-      <p xml:id="MARBREV0115">Si autem duodecim semibreves pro tempore posite fuerint, ut hic inferius
-        patet:</p>
+      <p xml:id="MARBREV0115">Si autem duodecim semibreves pro tempore posite fuerint, ut hic
+        inferius patet:</p>
       <p xml:id="MARBREV0116">Exemplum 21.</p>
       <p xml:id="MARBREV0117">[Marchettus, Compilatio, 189,2]</p>
-      <p xml:id="MARBREV0118">tunc omnes uniformiter figurate vocantur minime et equaliter proferuntur;
-        nam tunc omnes sex partes divisionis senarie sunt divise.</p>
-      <p xml:id="MARBREV0119">Per artem vero possumus semibreves ad duodenariam pertinentes divisionem
-        cum septem, cum octo, cum novem, cum decem, <pb n="[190]"/>cum undecim, in principio, in
-        medio et in fine locare, ipsas caudando necessario in sursum, ut infrascriptis figuris
-        clarius apparebit:</p>
-      <p xml:id="MARBREV0120">[Marchettus, Compilatio, 190; text: Exemplum 22. 23. 24. 25. 26. 27.]</p>
+      <p xml:id="MARBREV0118">tunc omnes uniformiter figurate vocantur minime et equaliter
+        proferuntur; nam tunc omnes sex partes divisionis senarie sunt divise.</p>
+      <p xml:id="MARBREV0119">Per artem vero possumus semibreves ad duodenariam pertinentes
+        divisionem cum septem, cum octo, cum novem, cum decem, <pb n="[190]"/>cum undecim, in
+        principio, in medio et in fine locare, ipsas caudando necessario in sursum, ut infrascriptis
+        figuris clarius apparebit:</p>
+      <p xml:id="MARBREV0120">[Marchettus, Compilatio, 190; text: Exemplum 22. 23. 24. 25. 26.
+        27.]</p>
       <p xml:id="MARBREV0121">
         <pb n="[191]"/>B. De secunda divisione partium temporis perfecti scilicet quomodo ipse
         divisibiles in novem partes sint</p>
@@ -367,8 +379,8 @@
       <p xml:id="MARBREV0131">Quod si sex, ut hic inferius patet:</p>
       <p xml:id="MARBREV0132">Exemplum 30.</p>
       <p xml:id="MARBREV0133">[Marchettus, Compilatio, 192,1]</p>
-      <p xml:id="MARBREV0134">tres non inmediate caudabuntur in sursum continentes tres partes de novem,
-        reliquis continentibus singulariter duas de novem.</p>
+      <p xml:id="MARBREV0134">tres non inmediate caudabuntur in sursum continentes tres partes de
+        novem, reliquis continentibus singulariter duas de novem.</p>
       <p xml:id="MARBREV0135">Quod si septem, ut hic inferius patet:</p>
       <p xml:id="MARBREV0136">Exemplum 31.</p>
       <p xml:id="MARBREV0137">[Marchettus, Compilatio, 192,2]</p>
@@ -384,28 +396,28 @@
       <p xml:id="MARBREV0145">
         <pb n="[193]"/>tunc sex prime sex partes de novem continebunt, septima continet duas, ultima
         vero unam continebit, que necessario in sursum caudabitur.</p>
-      <p xml:id="MARBREV0146">Possunt tamen aliter diversificari per artem, ut hic inferius patet per
-        exemplum:</p>
+      <p xml:id="MARBREV0146">Possunt tamen aliter diversificari per artem, ut hic inferius patet
+        per exemplum:</p>
       <p xml:id="MARBREV0147">Exemplum 34.</p>
       <p xml:id="MARBREV0148">[Marchettus, Compilatio, 193,1]</p>
       <p xml:id="MARBREV0149">Quod si novem, ut hic patet per exemplum:</p>
       <p xml:id="MARBREV0150">Exemplum 35.</p>
       <p xml:id="MARBREV0151">[Marchettus, Compilatio, 193,2]</p>
-      <p xml:id="MARBREV0152">tunc uniformiter figurate tempus perfectum secundum divisionem novenariam
-        adequabunt.</p>
+      <p xml:id="MARBREV0152">tunc uniformiter figurate tempus perfectum secundum divisionem
+        novenariam adequabunt.</p>
       <p xml:id="MARBREV0153">III</p>
       <p xml:id="MARBREV0154">De tempore imperfecto</p>
       <p xml:id="MARBREV0155">VIso de tempore perfecto musice mensurate per nos etiam de imperfecto
         similiter est videndum.</p>
-      <p xml:id="MARBREV0156">Tempus enim imperfectum musicum mensuratum est illud quod est minimum non
-        in plenitudine, sed in semiplenitudine vocis. <pb n="[194]"/>Et hanc diffinitionem sic
+      <p xml:id="MARBREV0156">Tempus enim imperfectum musicum mensuratum est illud quod est minimum
+        non in plenitudine, sed in semiplenitudine vocis. <pb n="[194]"/>Et hanc diffinitionem sic
         probamus. Certum est enim quod sicut tempus perfectum est cui nihil deest, ita imperfectum
         est cui aliquid deest; sed certum est per diffinitionem superius probatam de tempore
         perfecto quod tempus perfectum est illud quod est minimum in plenitudine integre vocis, modo
         ibi declarato; oportet ergo quod tempus imperfectum, cum deficiat a perfecto, sit non in
         integra plenitudine vocis.</p>
-      <p xml:id="MARBREV0157">Tempus autem imperfectum deficit a perfecto in tercia parte sui; quod sic
-        probamus. Certum est enim quod tempus imperfectum non est tantum in quantitate quantum
+      <p xml:id="MARBREV0157">Tempus autem imperfectum deficit a perfecto in tercia parte sui; quod
+        sic probamus. Certum est enim quod tempus imperfectum non est tantum in quantitate quantum
         perfectum, quia sic non esset imperfectum; oportet ergo quod deficiat a perfecto in aliqua
         quantitate. Deficere autem non potest in minus quam in una parte, quia si dicas in dimidia,
         illa dimidia erit una, licet possit esse dimidia alterius partis.</p>
@@ -418,20 +430,21 @@
         unius reperitur loquendo de tempore imperfecto sicut et de perfecto et eodem modo etiam
         figurantur, et accidentia omnia quo ad pausas, puncta, caudas, et ad omnia alia accidentia
         ita se habent in cantu temporis imperfecti, sicut et perfecti. Et ratio est hec: quia de
-        imperfectis nunquam potest esse scientia mentalis, nec etiam cognitio sensitiva, <pb n="[195]"/>nisi per comparationem ad perfectum. Nunquam enim nec per intellectum, nec per
+        imperfectis nunquam potest esse scientia mentalis, nec etiam cognitio sensitiva, <pb
+          n="[195]"/>nisi per comparationem ad perfectum. Nunquam enim nec per intellectum, nec per
         sensum possemus cognoscere aliquid esse imperfectum, nisi cognosceremus quid esset ei
         necesse ad hoc ut esset perfectum.</p>
-      <p xml:id="MARBREV0160">Dividitur enim tempus imperfectum, sua primaria divisione, in duas partes,
-        que sunt equales in valore et equivalent duabus de tribus primarie divisionis temporis
-        perfecti. Et ideo debent similiter figurari, ut hic inferius patet:</p>
+      <p xml:id="MARBREV0160">Dividitur enim tempus imperfectum, sua primaria divisione, in duas
+        partes, que sunt equales in valore et equivalent duabus de tribus primarie divisionis
+        temporis perfecti. Et ideo debent similiter figurari, ut hic inferius patet:</p>
       <p xml:id="MARBREV0161">Exemplum 36.</p>
       <p xml:id="MARBREV0162">[Marchettus, Compilatio, 195,1] <figure>
           <graphic url="/images/MARBREV_05GF.gif"/>
         </figure></p>
       <p xml:id="MARBREV0163">et tales due vocantur semibreves maiores naturales, eo quod duabus
         maioribus perfecti temporis comparantur.</p>
-      <p xml:id="MARBREV0164">Si autem ipsarum duarum caudetur una, tunc secundum Ytalicos transimus ad
-        secundam divisionem ipsius temporis imperfecti que est in quattuor que vocantur minores
+      <p xml:id="MARBREV0164">Si autem ipsarum duarum caudetur una, tunc secundum Ytalicos transimus
+        ad secundam divisionem ipsius temporis imperfecti que est in quattuor que vocantur minores
         adequantes ipsum tempus equaliter. Et tunc dicta caudata sive sit prima, sive secunda, tres
         partes continet ipsius, reliqua vero unam, ut hic inferius patet exemplum:</p>
       <p xml:id="MARBREV0165">Exemplum 37.</p>
@@ -440,23 +453,24 @@
         tempus predictum non secundum quaternariam <pb n="[196]"/>divisionem, sed secundum senariam,
         dicta semibrevis caudata continet quinque partes de sex, reliqua vero unam; que quidem
         partes sex minime nuncupantur.</p>
-      <p xml:id="MARBREV0168">Si autem tres semibreves pro dicto tempore figurentur uniformiter, ut hic
-        inferius patet:</p>
+      <p xml:id="MARBREV0168">Si autem tres semibreves pro dicto tempore figurentur uniformiter, ut
+        hic inferius patet:</p>
       <p xml:id="MARBREV0169">Exemplum 38.</p>
       <p xml:id="MARBREV0170">[Marchettus, Compilatio, 196]</p>
-      <p xml:id="MARBREV0171">tunc secundum Ytalicum modum prime due ad secundam pertinent divisionem,
-        que est in quattuor, ultima vero, eo quod finis, ad primam pertinet divisionem.</p>
-      <p xml:id="MARBREV0172">Secundum autem modum Gallicum dicte tres semibreves sic se habent, quod
-        prima unam partem prime divisionis habet, scilicet medietatem; secunda duas partes secunde
-        divisionis, scilicet duas de sex, et vocatur minor; tercia vero unam partem continet de sex,
-        et minima nuncupatur.</p>
-      <p xml:id="MARBREV0173">QUESTIO. Sed posset aliquis dicere: Quomodo tres semibreves uniformiter
-        figurate possunt diversimode modulari? Quia si diversimode cantari debent, oportet quod
-        diversimode figurentur. Nam si diversorum diversa sunt genera, et diversorum cantuum debent
-        esse diversa signa.</p>
-      <p xml:id="MARBREV0174">RESPONSIO. Respondeo quod in divisione parium partium temporis imperfecti
-        Gallici naturaliter constituunt sex partes quibus correspondent sex semibreves note
-        uniformiter et naturaliter figurate, et talis divisio partium fit secundum ternariam
+      <p xml:id="MARBREV0171">tunc secundum Ytalicum modum prime due ad secundam pertinent
+        divisionem, que est in quattuor, ultima vero, eo quod finis, ad primam pertinet
+        divisionem.</p>
+      <p xml:id="MARBREV0172">Secundum autem modum Gallicum dicte tres semibreves sic se habent,
+        quod prima unam partem prime divisionis habet, scilicet medietatem; secunda duas partes
+        secunde divisionis, scilicet duas de sex, et vocatur minor; tercia vero unam partem continet
+        de sex, et minima nuncupatur.</p>
+      <p xml:id="MARBREV0173">QUESTIO. Sed posset aliquis dicere: Quomodo tres semibreves
+        uniformiter figurate possunt diversimode modulari? Quia si diversimode cantari debent,
+        oportet quod diversimode figurentur. Nam si diversorum diversa sunt genera, et diversorum
+        cantuum debent esse diversa signa.</p>
+      <p xml:id="MARBREV0174">RESPONSIO. Respondeo quod in divisione parium partium temporis
+        imperfecti Gallici naturaliter constituunt sex partes quibus correspondent sex semibreves
+        note uniformiter et naturaliter figurate, et talis divisio partium fit secundum ternariam
         divisionem, et <pb n="[197]"/>non secundum binariam, licet prime partes ipsius temporis
         secundum binariam, et non secundum ternariam, sint divise. Si vero tres semibreves dentur,
         in quibus sex partes predicte includantur, prima continebit tres, secunda duas, tercia vero
@@ -469,9 +483,9 @@
       <p xml:id="MARBREV0176">Ytalici vero in divisione parium partium temporis imperfecti ponunt
         quattuor semibreves uniformiter et naturaliter figuratas. Nam in talium partium divisione
         ipsi procedunt secundum binariam divisionem, et non secundum ternariam.</p>
-      <p xml:id="MARBREV0177">Si vero tres semibreves naturaliter fuerint figurate, in quibus debeant
-        includi quattuor partes predicte, in duabus primis ponunt duas, in ultima vero duas. Nam
-        ipsi conantur imperfectum reducere ad perfectum, et ideo maiores partes sumunt a parte
+      <p xml:id="MARBREV0177">Si vero tres semibreves naturaliter fuerint figurate, in quibus
+        debeant includi quattuor partes predicte, in duabus primis ponunt duas, in ultima vero duas.
+        Nam ipsi conantur imperfectum reducere ad perfectum, et ideo maiores partes sumunt a parte
         finis, sicut de tempore perfecto superius est ostensum; quare dicimus quod utraque
         procedendi via rationabilis et naturalis existit. Sufficit enim quod solum dentur signa in
         cantibus, per que possimus cognoscere quando notas secundum Ytalicum modum aut secundum
@@ -488,16 +502,16 @@
       <p xml:id="MARBREV0182">Secundum autem Gallicos prima dicitur minor, cum secunda que dicitur
         minima faciens mediatatem temporis, tercia minor cum quarta que minima est faciens aliam
         medietatem.</p>
-      <p xml:id="MARBREV0183">Si vero quinque fuerint uniformiter figurate, tunc secundum Ytalicos due
-        prime duas partes de octo continent, reliquis continentibus de quattuor singulariter solum
-        unam, ut hic inferius patet per exemplum:</p>
+      <p xml:id="MARBREV0183">Si vero quinque fuerint uniformiter figurate, tunc secundum Ytalicos
+        due prime duas partes de octo continent, reliquis continentibus de quattuor singulariter
+        solum unam, ut hic inferius patet per exemplum:</p>
       <p xml:id="MARBREV0184">Exemplum 40.</p>
       <p xml:id="MARBREV0185">[Marchettus, Compilatio, 198,2]</p>
-      <p xml:id="MARBREV0186">Secundum autem Gallicos tres prime tres partes continent de sex, quarta
-        duas, ultima vero unam.</p>
-      <p xml:id="MARBREV0187">Si vero sex fuerint uniformiter figurate, tunc secundum Ytalicos quattuor
-        prime quattuor partes continent de octo, reliquis continentibus de quattuor singulariter
-        solum unam, ut hic patet:</p>
+      <p xml:id="MARBREV0186">Secundum autem Gallicos tres prime tres partes continent de sex,
+        quarta duas, ultima vero unam.</p>
+      <p xml:id="MARBREV0187">Si vero sex fuerint uniformiter figurate, tunc secundum Ytalicos
+        quattuor prime quattuor partes continent de octo, reliquis continentibus de quattuor
+        singulariter solum unam, ut hic patet:</p>
       <p xml:id="MARBREV0188">Exemplum 41.</p>
       <p xml:id="MARBREV0189">[Marchettus, Compilatio, 198,3]</p>
       <p xml:id="MARBREV0190">
@@ -507,14 +521,15 @@
         continent, ultima, eo quod finis, continet duas, ut hic inferius patet:</p>
       <p xml:id="MARBREV0192">Exemplum 42.</p>
       <p xml:id="MARBREV0193">[Marchettus, Compilatio, 199,1]</p>
-      <p xml:id="MARBREV0194">Gallici autem non transeunt ultra sex, licet possent, ut in opere nostro
-        mensurate musice alibi est tractatum.</p>
+      <p xml:id="MARBREV0194">Gallici autem non transeunt ultra sex, licet possent, ut in opere
+        nostro mensurate musice alibi est tractatum.</p>
       <p xml:id="MARBREV0195">Si vero octo fuerint, tunc omnes minime secundum Ytalicos equaliter
         proferuntur, ut hic inferius patet:</p>
       <p xml:id="MARBREV0196">Exemplum 43.</p>
       <p xml:id="MARBREV0197">[Marchettus, Compilatio, 199,2]</p>
-      <p xml:id="MARBREV0198">Possunt tamen et in modo Gallico et in modo Ytalico semibreves superius
-        dicte aliter diversificari per artem, ut infrascriptis figuris clarius apparebit:</p>
+      <p xml:id="MARBREV0198">Possunt tamen et in modo Gallico et in modo Ytalico semibreves
+        superius dicte aliter diversificari per artem, ut infrascriptis figuris clarius
+        apparebit:</p>
       <p xml:id="MARBREV0199">[Marchettus, Compilatio, 199,3; text: Exemplum 44. 45.] <figure>
           <graphic url="/images/MARBREV_06GF.gif"/>
         </figure></p>
@@ -525,30 +540,30 @@
       <p xml:id="MARBREV0202">De figuris compositis seu ligatis</p>
       <p xml:id="MARBREV0203">DIcto de figuris simplicibus tam longis quam brevibus quam etiam
         semibrevibus, dicendum est de compositis seu ligatis, quod idem est.</p>
-      <p xml:id="MARBREV0204">Ubi sciendum est primo quod ligatura est coniunctio figurarum simplicium
-        per tractus debitos ordinata.</p>
-      <p xml:id="MARBREV0205">Ligaturarum enim alia ascendens et alia descendens: ascendens dicitur illa
-        cuius secundus punctus altior est primo, ut hic inferius patet:</p>
+      <p xml:id="MARBREV0204">Ubi sciendum est primo quod ligatura est coniunctio figurarum
+        simplicium per tractus debitos ordinata.</p>
+      <p xml:id="MARBREV0205">Ligaturarum enim alia ascendens et alia descendens: ascendens dicitur
+        illa cuius secundus punctus altior est primo, ut hic inferius patet:</p>
       <p xml:id="MARBREV0206">Exemplum 53.</p>
       <p xml:id="MARBREV0207">[Marchettus, Compilatio, 201,1]</p>
-      <p xml:id="MARBREV0208">Descendens dicitur illa cuius primus punctus altior est secundo, ut hic
-        inferius patet:</p>
+      <p xml:id="MARBREV0208">Descendens dicitur illa cuius primus punctus altior est secundo, ut
+        hic inferius patet:</p>
       <p xml:id="MARBREV0209">Exemplum 54.</p>
       <p xml:id="MARBREV0210">[Marchettus, Compilatio, 201,2]</p>
-      <p xml:id="MARBREV0211">Sed quia a parte principii, medii, sive finis ligaturarum sumuntur longe,
-        breves et semibreves, idcirco que ligature dicant longitudinem, <pb n="[202]"/>brevitatem et
-        semibrevitatem videre oportet. Ubi dicimus quod, si prima nota ligature ascendentis careat
-        omni tractu, brevis est, ut hic inferius patet:</p>
+      <p xml:id="MARBREV0211">Sed quia a parte principii, medii, sive finis ligaturarum sumuntur
+        longe, breves et semibreves, idcirco que ligature dicant longitudinem, <pb n="[202]"
+        />brevitatem et semibrevitatem videre oportet. Ubi dicimus quod, si prima nota ligature
+        ascendentis careat omni tractu, brevis est, ut hic inferius patet:</p>
       <p xml:id="MARBREV0212">Exemplum 55.</p>
       <p xml:id="MARBREV0213">[Marchettus, Compilatio, 202,1] <figure>
           <graphic url="/images/MARBREV_07GF.gif"/>
         </figure></p>
-      <p xml:id="MARBREV0214">Si autem habeat tractum in parte dextra descendentem, longa dicitur, ut
-        hic inferius patet:</p>
+      <p xml:id="MARBREV0214">Si autem habeat tractum in parte dextra descendentem, longa dicitur,
+        ut hic inferius patet:</p>
       <p xml:id="MARBREV0215">Exemplum 56.</p>
       <p xml:id="MARBREV0216">[Marchettus, Compilatio, 202,2]</p>
-      <p xml:id="MARBREV0217">Si vero tractum habeat in sinistra parte in sursum, semibrevis dicetur, ut
-        hic inferius patet:</p>
+      <p xml:id="MARBREV0217">Si vero tractum habeat in sinistra parte in sursum, semibrevis
+        dicetur, ut hic inferius patet:</p>
       <p xml:id="MARBREV0218">Exemplum 57.</p>
       <p xml:id="MARBREV0219">[Marchettus, Compilatio, 202,3]</p>
       <p xml:id="MARBREV0220">Si autem prima nota ligature descendentis careat omni tractu, longa
@@ -564,11 +579,12 @@
         patet:</p>
       <p xml:id="MARBREV0227">Exemplum 60.</p>
       <p xml:id="MARBREV0228">[Marchettus, Compilatio, 203,2]</p>
-      <p xml:id="MARBREV0229">Item omnis nota que directe ponitur supra penultimam, longa dicetur, ut
-        hic inferius patet:</p>
+      <p xml:id="MARBREV0229">Item omnis nota que directe ponitur supra penultimam, longa dicetur,
+        ut hic inferius patet:</p>
       <p xml:id="MARBREV0230">Exemplum 61.</p>
       <p xml:id="MARBREV0231">[Marchettus, Compilatio, 203,3]</p>
-      <p xml:id="MARBREV0232">Que autem indirecte ponitur, brevis dicetur, ut hic inferius patet:</p>
+      <p xml:id="MARBREV0232">Que autem indirecte ponitur, brevis dicetur, ut hic inferius
+        patet:</p>
       <p xml:id="MARBREV0233">Exemplum 62.</p>
       <p xml:id="MARBREV0234">[Marchettus, Compilatio, 203,4]</p>
       <p xml:id="MARBREV0235">
@@ -576,8 +592,8 @@
         longa, ut hic inferius patet:</p>
       <p xml:id="MARBREV0236">Exemplum 63.</p>
       <p xml:id="MARBREV0237">[Marchettus, Compilatio, 204,1]</p>
-      <p xml:id="MARBREV0238">Omnis ultima nota quadrata in fine descendentis ligature, longa dicetur,
-        ut hic inferius patet:</p>
+      <p xml:id="MARBREV0238">Omnis ultima nota quadrata in fine descendentis ligature, longa
+        dicetur, ut hic inferius patet:</p>
       <p xml:id="MARBREV0239">Exemplum 64.</p>
       <p xml:id="MARBREV0240">[Marchettus, Compilatio, 204,2]</p>
       <p xml:id="MARBREV0241">tractu vero obliquo, brevis dicetur, ut hic inferius patet:</p>

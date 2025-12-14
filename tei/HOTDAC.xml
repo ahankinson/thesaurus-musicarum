@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>[De arte contrapuncti]</title>
         <title type="abbrev">HOTDAC</title>
-        <author>Hothby, Johannes</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Hothby, Johannes</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Kirk Ditzler</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Johannes Hothby, <emph>De arte contrapuncti</emph>, ed. Gilbert
           Reaney, Corpus scriptorum de musica, vol. 26 (n.p.: American Institute of Musicology,
@@ -48,13 +58,14 @@
         octava procedit quinta decima qui habet suum originallem a unisono; et sic procedo de septem
         in septem. Possent bene esse voces numero infinito, sed distincte voces sunt xx quasi xx
         ponti sunt in manu, unde supradicti septem dat originale.</p>
-      <p xml:id="HOTDAC0004">Quid sit tonus et semitonus? silicet voces dictae sunt formatae de tono et
-        semitono; videndum est quid sit tonus et semitonus. Nota esse tonus sicut est ut re, re mi,
-        fa sol, sol la, et e converso, quomodo videtur hic per exemplum. Semitonus intelligitur esse
-        cum fit mi fa sive fa mi, de quod tonis in semitonia sit formata aliqua consonantia et
+      <p xml:id="HOTDAC0004">Quid sit tonus et semitonus? silicet voces dictae sunt formatae de tono
+        et semitono; videndum est quid sit tonus et semitonus. Nota esse tonus sicut est ut re, re
+        mi, fa sol, sol la, et e converso, quomodo videtur hic per exemplum. Semitonus intelligitur
+        esse cum fit mi fa sive fa mi, de quod tonis in semitonia sit formata aliqua consonantia et
         dissonantia. Igitur dico quod consonantia unisonus non est formata de aliquo tono nec
         semitono, quia tenor et contrapontum est in eodem loco sonus, et ab uno ab alio non est
-        aliqua distantia altitudinis nec basitudinis. Et qui amaret istam talem <pb n="[44]"/>consonantiam, unisonum teneat, sed altera consonantia formata est tonis et semitonis per
+        aliqua distantia altitudinis nec basitudinis. Et qui amaret istam talem <pb n="[44]"
+        />consonantiam, unisonum teneat, sed altera consonantia formata est tonis et semitonis per
         distantia quae est tenore contraponto.</p>
       <p xml:id="HOTDAC0005">Consonantia quinta est formata tribus tonis et uno semitono, sicut per
         exemplum videbis, faciendo notas tenoris nigrae et notae contraponti sunt vacuae; et tunc
@@ -63,14 +74,15 @@
         Disonantia tertia maior est formata duabus tonis, et tunc talis tertia vocatur ditona, sicut
         patet per exemplum. Disonantia tertia minor est formata uno tono et uno semitono, et tunc
         vocatur talis tertia semiditona, sicut patet per exemplum.</p>
-      <p xml:id="HOTDAC0007">Item inteligitur quarta duarum spezierum, scilicet quarta formata duobus
-        tonis et uno semitono, sicut esset C.F, sive D.G, sive E.a, sive G.c, sive a.d salendo; sed
-        nomine notarum quarta est formata da ut fa, re sol, mi la, et e converso, sicut hic videbis.
-        Et hec est illa quarta quia non debemus uti in canti che sono a tre, et vocatur istam tallem
-        quartam diateseron; quare dictum in primis quartam esse discordantia, est difiniri quia sim
-        ad presens sit trare consonantia. Dico quartam esse consonantiam in quantum verum unam est
-        alterius discordantie, potes componere in tribus cantis quod non sit auditori inimichivolo;
-        e per questo in questo si basteve a difinirla essere consonanza subreviata.</p>
+      <p xml:id="HOTDAC0007">Item inteligitur quarta duarum spezierum, scilicet quarta formata
+        duobus tonis et uno semitono, sicut esset C.F, sive D.G, sive E.a, sive G.c, sive a.d
+        salendo; sed nomine notarum quarta est formata da ut fa, re sol, mi la, et e converso, sicut
+        hic videbis. Et hec est illa quarta quia non debemus uti in canti che sono a tre, et vocatur
+        istam tallem quartam diateseron; quare dictum in primis quartam esse discordantia, est
+        difiniri quia sim ad presens sit trare consonantia. Dico quartam esse consonantiam in
+        quantum verum unam est alterius discordantie, potes componere in tribus cantis quod non sit
+        auditori inimichivolo; e per questo in questo si basteve a difinirla essere consonanza
+        subreviata.</p>
       <p xml:id="HOTDAC0008">[text continues in Italian]</p>
     </body>
   </text>

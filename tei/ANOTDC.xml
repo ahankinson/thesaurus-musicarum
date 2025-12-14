@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Tractatus de contrapuncto</title>
         <title type="abbrev">ANOTDC</title>
-        <author>Anonymous</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Anna Shparberg</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
-        <date>1999</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1999">1999</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Johannes Hothby, <emph>Opera omnia de proportionibus</emph>; Anonymus,
             <emph>Tractatus de contrapuncto (Ms. Venice, lat. VIII.82, coll. 3047)</emph>, ed.
@@ -46,13 +56,13 @@
       <p xml:id="ANOTDC0002">TRACTATUS DE CONTRAPUNTO</p>
       <p xml:id="ANOTDC0003">Preambula</p>
       <p xml:id="ANOTDC0004">V 30</p>
-      <p xml:id="ANOTDC0005">Inprimis dicetur qualiter contrapuntus de iure debet diffiniri. Secundo de
-        speciebus ipsius contrapuntus magis principalibus et minus principalibus. Et quare vocantur
-        magis et minus principales. Et quae earum sunt perfectae et imperfectae. Et quare vocentur
-        perfectae et imperfectae. Tertio a qua specie inchoari debet contrapunctus et finiri. Quarto
-        quae species requirit alteram. Quinto de tredecim speciebus musicae. Sexto qualiter una
-        species est magis perfecta quam alia et minus perfecta. Septimo qualiter ordinari debeat ut
-        facilius intelligatur divinae magestati finaliter gratias referendo.</p>
+      <p xml:id="ANOTDC0005">Inprimis dicetur qualiter contrapuntus de iure debet diffiniri. Secundo
+        de speciebus ipsius contrapuntus magis principalibus et minus principalibus. Et quare
+        vocantur magis et minus principales. Et quae earum sunt perfectae et imperfectae. Et quare
+        vocentur perfectae et imperfectae. Tertio a qua specie inchoari debet contrapunctus et
+        finiri. Quarto quae species requirit alteram. Quinto de tredecim speciebus musicae. Sexto
+        qualiter una species est magis perfecta quam alia et minus perfecta. Septimo qualiter
+        ordinari debeat ut facilius intelligatur divinae magestati finaliter gratias referendo.</p>
       <p xml:id="ANOTDC0006">Diffinitio contrapuntus</p>
       <p xml:id="ANOTDC0007">Capitulum 1</p>
       <p xml:id="ANOTDC0008">V 30</p>
@@ -66,9 +76,9 @@
         <pb n="[45]"/>De speciebus contrapuntus</p>
       <p xml:id="ANOTDC0011">Capitulum 2</p>
       <p xml:id="ANOTDC0012">V 30</p>
-      <p xml:id="ANOTDC0013">Circa secundum est notandum quod quinque sunt species contrapuntus magis
-        principales, scilicet unisonus, tertia, quinte, sexta, octava. Et dicuntur principales quia
-        non habent reductionem ad alias species, sed aliae species reducuntur ad ipsas. Quarum
+      <p xml:id="ANOTDC0013">Circa secundum est notandum quod quinque sunt species contrapuntus
+        magis principales, scilicet unisonus, tertia, quinte, sexta, octava. Et dicuntur principales
+        quia non habent reductionem ad alias species, sed aliae species reducuntur ad ipsas. Quarum
         quinque specierum tres sunt perfectae et aliae duae sunt imperfectae. Perfectae sunt
         unisonus, quinta et octava. Et dicuntur perfectae quia perfectum sensum generant in animis
         audientium. Imperfectae vero sunt haec: tertia et sexta. Et dicuntur imperfectae quia non
@@ -81,20 +91,20 @@
       <p xml:id="ANOTDC0016">Octava est perfecta consonantia octo vocum, velut in medio harum patet
         rigarum.</p>
       <p xml:id="ANOTDC0017">[CSM39:45,2]</p>
-      <p xml:id="ANOTDC0018">Quinta est perfecta consonantia quinque vocum, velut in medio harum patet
-        rigarum.</p>
+      <p xml:id="ANOTDC0018">Quinta est perfecta consonantia quinque vocum, velut in medio harum
+        patet rigarum.</p>
       <p xml:id="ANOTDC0019">[CSM39:45,3]</p>
-      <p xml:id="ANOTDC0020">Tertia est imperfecta consonantia trium vocum, velut in medio harum patet
-        rigarum.</p>
+      <p xml:id="ANOTDC0020">Tertia est imperfecta consonantia trium vocum, velut in medio harum
+        patet rigarum.</p>
       <p xml:id="ANOTDC0021">
         <pb n="[46]"/>[CSM39:46,1]</p>
       <p xml:id="ANOTDC0022">Sexta est imperfecta consonantia sex vocum, velut in medio harum patet
         rigarum.</p>
       <p xml:id="ANOTDC0023">[CSM39:46,2]</p>
-      <p xml:id="ANOTDC0024">Postquam dictum est de speciebus magis principalibus, consequenter dicendum
-        est de speciebus minus principalibus secundum ordinem prius datum. Notandum igitur quod
-        quatuor sunt species minus principales, scilicet decima, duodecima, tertia decima et quinta
-        decima. Et dicuntur minus principales quia reductionem habent ad principales in suis
+      <p xml:id="ANOTDC0024">Postquam dictum est de speciebus magis principalibus, consequenter
+        dicendum est de speciebus minus principalibus secundum ordinem prius datum. Notandum igitur
+        quod quatuor sunt species minus principales, scilicet decima, duodecima, tertia decima et
+        quinta decima. Et dicuntur minus principales quia reductionem habent ad principales in suis
         consonantiis. Nam decima reducitur ad tertiam, quia sonum facit sicut tertia. Et duodecima
         reducitur ad quintam propter eandem causam. Et tertia decima ad sextam eadem ratione. Quinta
         decima vero ad octavam eadem de causa.</p>
@@ -113,21 +123,22 @@
         <pb n="[47]"/>Quomodo inchoari et finiri debet contrapuntus</p>
       <p xml:id="ANOTDC0027">Capitulum 3</p>
       <p xml:id="ANOTDC0028">V 31</p>
-      <p xml:id="ANOTDC0029">Circa tertium est notandum quod semper contrapuntus debet inchoari a specie
-        perfecta, et similiter finiri hoc probatur sic. Nam semper a digniori inchoandum est, sed
-        species perfecta est dignior specie imperfecta, ergo a specie perfecta est inchoandum. Et
-        quod finiri debeat in specie perfecta manifestum est, eo quod omnis perfectio de iure in
+      <p xml:id="ANOTDC0029">Circa tertium est notandum quod semper contrapuntus debet inchoari a
+        specie perfecta, et similiter finiri hoc probatur sic. Nam semper a digniori inchoandum est,
+        sed species perfecta est dignior specie imperfecta, ergo a specie perfecta est inchoandum.
+        Et quod finiri debeat in specie perfecta manifestum est, eo quod omnis perfectio de iure in
         fine attenditur, sed penultima tamen semper debet esse imperfecta.</p>
       <p xml:id="ANOTDC0030">Quae species requirit alteram</p>
       <p xml:id="ANOTDC0031">Capitulum 4</p>
       <p xml:id="ANOTDC0032">V 31</p>
-      <p xml:id="ANOTDC0033">Circa quartum est notandum quod, si tenor gradatim ascendit et descendit et
-        non per saltus, in descendendo unisonus requirit tertiam, tertia vero requirit quintam,
-        quintaque sextam, sexta vero requirit octavam, octava vero decimam, decima vero duodecimam,
-        duodecima vero tertiam decimam, tertia decima vero quintam decimam. Sed si cantus planus
-        sive tenor ascenderit gradatim, quinta decima requirit tertiam decimam, tertia decima vero
-        duodecimam, duodecima vero decimam, decima vero octavam, octava vero sextam, sextamque
-        quintam, et quinta tertiam, tertia vero unisonum; sed tot diversimode ut postea patebit.</p>
+      <p xml:id="ANOTDC0033">Circa quartum est notandum quod, si tenor gradatim ascendit et
+        descendit et non per saltus, in descendendo unisonus requirit tertiam, tertia vero requirit
+        quintam, quintaque sextam, sexta vero requirit octavam, octava vero decimam, decima vero
+        duodecimam, duodecima vero tertiam decimam, tertia decima vero quintam decimam. Sed si
+        cantus planus sive tenor ascenderit gradatim, quinta decima requirit tertiam decimam, tertia
+        decima vero duodecimam, duodecima vero decimam, decima vero octavam, octava vero sextam,
+        sextamque quintam, et quinta tertiam, tertia vero unisonum; sed tot diversimode ut postea
+        patebit.</p>
       <p xml:id="ANOTDC0034">De tredecim speciebus musicae</p>
       <p xml:id="ANOTDC0035">Capitulum 5</p>
       <p xml:id="ANOTDC0036">V 31v</p>
@@ -155,16 +166,16 @@
         est certa pars toni. Semiditonus est species musicae continens tonum cum semitonio, ut in
         medio harum patet rigarum.</p>
       <p xml:id="ANOTDC0046">[CSM39:49,1]</p>
-      <p xml:id="ANOTDC0047">Ditonus est species musicae continens duos tonos, ut in medio harum patet
-        rigarum.</p>
+      <p xml:id="ANOTDC0047">Ditonus est species musicae continens duos tonos, ut in medio harum
+        patet rigarum.</p>
       <p xml:id="ANOTDC0048">[CSM39:49,2]</p>
       <p xml:id="ANOTDC0049">Dyatesaron est species musicae continens duos tonos cum semitonio; et
         dicitur a dya quod est "de" et thesa "quatuor" et seron quod est vox. Quia dyatesaron est
         species musicae continens quatuor voces, quae in se comprehendunt duos tonos cum semitonio
         uno, ut in medio harum patet rigarum.</p>
       <p xml:id="ANOTDC0050">[CSM39:49,3]</p>
-      <p xml:id="ANOTDC0051">Dyapente est species musicae in se continens tres tonos cum semitonio uno;
-        et dicitur a dya quod est "de" et penta "quinque". Quia dyapente est species musicae
+      <p xml:id="ANOTDC0051">Dyapente est species musicae in se continens tres tonos cum semitonio
+        uno; et dicitur a dya quod est "de" et penta "quinque". Quia dyapente est species musicae
         continens quinque voces, quae in se comprehendunt tres tonos cum semitonio uno, ut in medio
         harum patet rigarum.</p>
       <p xml:id="ANOTDC0052">[CSM39:49,4]</p>
@@ -181,27 +192,27 @@
       <p xml:id="ANOTDC0056">Tonus cum dyapente est spatium quatuor tonorum cum dimidio, ut in medio
         harum patet rigarum.</p>
       <p xml:id="ANOTDC0057">[CSM39:50,2]</p>
-      <p xml:id="ANOTDC0058">Semitonium cum dyapente est spatium trium tonorum cum duobus semitoniis, ut
-        in medio harum patet rigarum.</p>
+      <p xml:id="ANOTDC0058">Semitonium cum dyapente est spatium trium tonorum cum duobus
+        semitoniis, ut in medio harum patet rigarum.</p>
       <p xml:id="ANOTDC0059">[CSM39:50,3]</p>
-      <p xml:id="ANOTDC0060">Ditonus cum dyapente est spatium quinque tonorum cum semitonio uno, ut in
-        medio harum patet rigarum.</p>
+      <p xml:id="ANOTDC0060">Ditonus cum dyapente est spatium quinque tonorum cum semitonio uno, ut
+        in medio harum patet rigarum.</p>
       <p xml:id="ANOTDC0061">[CSM39:50,4]</p>
-      <p xml:id="ANOTDC0062">Semiditonus cum dyapente est spatium quatuor tonorum cum duobus semitoniis,
-        ut in medio harum patet rigarum.</p>
+      <p xml:id="ANOTDC0062">Semiditonus cum dyapente est spatium quatuor tonorum cum duobus
+        semitoniis, ut in medio harum patet rigarum.</p>
       <p xml:id="ANOTDC0063">[CSM39:50,5]</p>
       <p xml:id="ANOTDC0064">
         <pb n="[51]"/>Dyapason est species musicae continens in se quinque tonos cum duobus
         semitoniis, ut in medio harum patet rigarum.</p>
       <p xml:id="ANOTDC0065">[CSM39:51]</p>
-      <p xml:id="ANOTDC0066">Et dicitur a dya quod est "de" et pason quod est "totum" et odos "cantus",
-        quia dyapason in se continet totum cantum, id est sub se comprehendit omnes quinque species
-        principales melodiae consonantes. Quaeritur quare hic consideratur de hiis tredecim
-        speciebus et ad quem finem. Respondetur quia hic consideratur de hiis speciebus ad habendum
-        notitiam pleniorem contrapuntus, et hoc dupliciter. Uno modo ad cognoscendum qualiter una
-        species potest esse magis et minus perfecta secundum quod hiis magis et minus abundant
-        speciebus. Alio modo quia deserviunt multum in ordinatione contrapuntus, de qua dicendum est
-        inferius.</p>
+      <p xml:id="ANOTDC0066">Et dicitur a dya quod est "de" et pason quod est "totum" et odos
+        "cantus", quia dyapason in se continet totum cantum, id est sub se comprehendit omnes
+        quinque species principales melodiae consonantes. Quaeritur quare hic consideratur de hiis
+        tredecim speciebus et ad quem finem. Respondetur quia hic consideratur de hiis speciebus ad
+        habendum notitiam pleniorem contrapuntus, et hoc dupliciter. Uno modo ad cognoscendum
+        qualiter una species potest esse magis et minus perfecta secundum quod hiis magis et minus
+        abundant speciebus. Alio modo quia deserviunt multum in ordinatione contrapuntus, de qua
+        dicendum est inferius.</p>
       <p xml:id="ANOTDC0067">Qualiter una species est magis vel minus perfecta quam alia</p>
       <p xml:id="ANOTDC0068">Capitulum 6</p>
       <p xml:id="ANOTDC0069">V 33</p>
@@ -221,11 +232,11 @@
       <p xml:id="ANOTDC0073">Tertia vero imperfecta solum continet tonum cum semitonio, ut in medio
         harum patet rigarum.</p>
       <p xml:id="ANOTDC0074">[CSM39:52,2]</p>
-      <p xml:id="ANOTDC0075">Item quinta perfecta solum continet tres tonos cum semitonio, ut in medio
-        harum patet rigarum.</p>
+      <p xml:id="ANOTDC0075">Item quinta perfecta solum continet tres tonos cum semitonio, ut in
+        medio harum patet rigarum.</p>
       <p xml:id="ANOTDC0076">[CSM39:52,3]</p>
-      <p xml:id="ANOTDC0077">Item quinta imperfecta solum continet duos tonos cum duobus semitoniis, ut
-        in medio harum patet rigarum.</p>
+      <p xml:id="ANOTDC0077">Item quinta imperfecta solum continet duos tonos cum duobus semitoniis,
+        ut in medio harum patet rigarum.</p>
       <p xml:id="ANOTDC0078">[CSM39:52,4]</p>
       <p xml:id="ANOTDC0079">Et ita in reliquis speciebus est perfectio et imperfectio secundum quod
         magis et minus ipsae species hiis tredecim abundant speciebus. Nam sexta dicitur perfecta
@@ -244,39 +255,40 @@
         dummodo post earum penultimam sequatur species perfecta, ipsi penultimae requisita aliis
         nota, ut hic designatum extitit.</p>
       <p xml:id="ANOTDC0084">[CSM39:53; text: Tenor, Biscantus]</p>
-      <p xml:id="ANOTDC0085">Quod non est licitum per perfectas concordantias cum tenore ascendere et
-        descendere</p>
+      <p xml:id="ANOTDC0085">Quod non est licitum per perfectas concordantias cum tenore ascendere
+        et descendere</p>
       <p xml:id="ANOTDC0086">Capitulum 8</p>
       <p xml:id="ANOTDC0087">V 34v</p>
-      <p xml:id="ANOTDC0088">Item regula est quod quando cantus planus gradatim ascendit et descendit,
-        nunquam possunt fieri plures species perfectae eaedem nec diversae, et hoc intelligitur
-        ascendendo vel descendendo. Unde ex hac regula manifestum est quod duae quintae, duaeque
-        octavae et duae duodecimae vel quaecumque aliae plures pariter species perfectae <pb n="[54]"/>non possunt fieri invicem ascendendo vel descendendo cantu plano. Et porro per
-        istam regulam manifestum est quod unisonus ascendendo vel descendendo cum cantu inferiore
-        non potest fieri post quintam, nec quinta post octavam, nec octava post duodecimam, nec e
-        converso. Et sic de aliis speciebus perfectis intelligendum est, quamvis aliqui compositores
-        cantuum quandoque faciunt duas octavas vel tres alias species perfectas in eadem linea vel
-        spatio. Hoc fieri non minus prohibitum est, sed prohibitum est plures perfectae species
-        pariter fieri debere ascendendo vel descendendo cum tenore, quia alias non esset distinctio
-        biscantus et tenoris.</p>
+      <p xml:id="ANOTDC0088">Item regula est quod quando cantus planus gradatim ascendit et
+        descendit, nunquam possunt fieri plures species perfectae eaedem nec diversae, et hoc
+        intelligitur ascendendo vel descendendo. Unde ex hac regula manifestum est quod duae
+        quintae, duaeque octavae et duae duodecimae vel quaecumque aliae plures pariter species
+        perfectae <pb n="[54]"/>non possunt fieri invicem ascendendo vel descendendo cantu plano. Et
+        porro per istam regulam manifestum est quod unisonus ascendendo vel descendendo cum cantu
+        inferiore non potest fieri post quintam, nec quinta post octavam, nec octava post
+        duodecimam, nec e converso. Et sic de aliis speciebus perfectis intelligendum est, quamvis
+        aliqui compositores cantuum quandoque faciunt duas octavas vel tres alias species perfectas
+        in eadem linea vel spatio. Hoc fieri non minus prohibitum est, sed prohibitum est plures
+        perfectae species pariter fieri debere ascendendo vel descendendo cum tenore, quia alias non
+        esset distinctio biscantus et tenoris.</p>
       <p xml:id="ANOTDC0089">Item notandum quod si tenor ascenderit et biscantus descenderit, vel si
         tenor descenderit et biscantus ascenderit, bene possunt fieri plures species perfectae
         dummodo sint diversae ad invicem, ut designatum extitit.</p>
       <p xml:id="ANOTDC0090">[CSM39:54,1; text: Tenor, Biscantus] <figure>
           <graphic url="/images/ANOTDC_03GF.gif"/>
         </figure></p>
-      <p xml:id="ANOTDC0091">Item permittitur etiam quod, quando biscantus se ponit in dyapente supra
-        tenorem, et tenore firmiter stante, biscantus potest facere dyapason, ut hic designatum
-        extitit.</p>
+      <p xml:id="ANOTDC0091">Item permittitur etiam quod, quando biscantus se ponit in dyapente
+        supra tenorem, et tenore firmiter stante, biscantus potest facere dyapason, ut hic
+        designatum extitit.</p>
       <p xml:id="ANOTDC0092">[CSM39:54,2; text: Tenor, Biscantus]</p>
-      <p xml:id="ANOTDC0093">Item permittitur etiam quod, quando biscantus ponit se in dyapason supra
-        tenorem, et tenor ascendit postea in dyapente, quod biscantus se ponat in dyapente. Sed hoc
-        non potest fieri secundum regulas, quamvis permittatur fieri ex quo talis ordinatio placet
-        animis multorum audientium, ut hic designatum extitit.</p>
+      <p xml:id="ANOTDC0093">Item permittitur etiam quod, quando biscantus ponit se in dyapason
+        supra tenorem, et tenor ascendit postea in dyapente, quod biscantus se ponat in dyapente.
+        Sed hoc non potest fieri secundum regulas, quamvis permittatur fieri ex quo talis ordinatio
+        placet animis multorum audientium, ut hic designatum extitit.</p>
       <p xml:id="ANOTDC0094">
         <pb n="[55]"/>[CSM39:55,1; text: Tenor, Biscantus]</p>
-      <p xml:id="ANOTDC0095">Item permittitur quandoque quod, si biscantus ponat se in dyapason supra
-        tenore, et tenor postea ascenderit dyapason, quod biscantus valeat ascendere cum cantu
+      <p xml:id="ANOTDC0095">Item permittitur quandoque quod, si biscantus ponat se in dyapason
+        supra tenore, et tenor postea ascenderit dyapason, quod biscantus valeat ascendere cum cantu
         plano, ponendo se in dyapente, ut hic designatum extitit.</p>
       <p xml:id="ANOTDC0096">[CSM39:55,2; text: Tenor, Biscantus]</p>
       <p xml:id="ANOTDC0097">Quod superius canens debet procedere cum speciebus propinquioribus si
@@ -296,9 +308,9 @@
       <p xml:id="ANOTDC0102">Alia regula propter varios discursus et saltus tenoris</p>
       <p xml:id="ANOTDC0103">Capitulum 10</p>
       <p xml:id="ANOTDC0104">V 36</p>
-      <p xml:id="ANOTDC0105">Item si contigerit quod hoc fieri non poterit propter varios discursus et
-        diversos saltus tenoris, alia regula talis est. Semper superius canens debet procedere cum
-        vocibus propinquioribus consonans species constituentibus. Ut verbi gratia, si superius
+      <p xml:id="ANOTDC0105">Item si contigerit quod hoc fieri non poterit propter varios discursus
+        et diversos saltus tenoris, alia regula talis est. Semper superius canens debet procedere
+        cum vocibus propinquioribus consonans species constituentibus. Ut verbi gratia, si superius
         canens ponat se in dyapente supra tenorem et tenor descendat dyatesaron, tunc superius
         canens non potest procedere cum specie ei magis propinqua, quae est ditonus aut tonus cum
         dyapente; sed opportet ut sequatur vocem propinquiorem consonam speciem constituentem. Ut
@@ -309,18 +321,18 @@
         unam nonam, quae est inconsona species. Et ideo regula vult quod superius canens debeat
         procedere ut hic designatum extitit.</p>
       <p xml:id="ANOTDC0106">[CSM39:56,2; text: Tenor, Biscantus]</p>
-      <p xml:id="ANOTDC0107">Item si superius canens ponat se in ditono vel in semiditono supra tenorem,
-        tunc biscantus sequens vocem sibi magis propinquam semitonium ascendit, et etiam quandoque
-        tonum, ut hic designatum extitit.</p>
+      <p xml:id="ANOTDC0107">Item si superius canens ponat se in ditono vel in semiditono supra
+        tenorem, tunc biscantus sequens vocem sibi magis propinquam semitonium ascendit, et etiam
+        quandoque tonum, ut hic designatum extitit.</p>
       <p xml:id="ANOTDC0108">
         <pb n="[57]"/>[CSM39:57,1; text: Tenor, Biscantus]</p>
       <p xml:id="ANOTDC0109">Item si cantus ponat se in dyapente supra tenorem et tenor ascendat
         dyapason, tunc biscantus sequens vocem ei magis propinquam debet poni in dyapason, et est
         conveniens ordinatio contrapuntus, ut hic designatum extitit.</p>
       <p xml:id="ANOTDC0110">[CSM39:57,2; text: Tenor, Biscantus]</p>
-      <p xml:id="ANOTDC0111">Et multae aliae concordantiae in variis discursibus cantuum fieri possunt
-        per hanc regulam (quae causa brevitatis non scribuntur). Nam ipsam regulam intelligens omnes
-        tales discursus agnoscit.</p>
+      <p xml:id="ANOTDC0111">Et multae aliae concordantiae in variis discursibus cantuum fieri
+        possunt per hanc regulam (quae causa brevitatis non scribuntur). Nam ipsam regulam
+        intelligens omnes tales discursus agnoscit.</p>
       <p xml:id="ANOTDC0112">
         <pb n="[58]"/>De pratica contrapuntus</p>
       <p xml:id="ANOTDC0113">Capitulum 11</p>

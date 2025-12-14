@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Abreviatio Magistri Franconis</title>
         <title type="abbrev">BALABM</title>
-        <author>Johannes dictus Balloce</author>
-        <date notBefore="1200" notAfter="1299">13th</date>
+        <author><persName>Johannes dictus Balloce</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Johannes dictus Balloce, <emph>Abreviatio magistri Franconis</emph>;
           Anonymus, <emph>Compendium musicae mensurabilis artis antiquae (Ms. Saint-Dié, Bibl.
@@ -52,7 +62,8 @@
       <p xml:id="BALABM0005">Gaudent brevitate moderni. Quandocumque punctus quadratus vel nota
         quadrata, tractum habens descendentem vel ascendentem a parte dextra, longa dicitur, ut hic:
         [L,L,L,L,Bcsdx,Bcsdx,Bcsdx,L,L,L on staff2]</p>
-      <p xml:id="BALABM0006">Longa vero ascendendo vel descendendo plicata, sicut plicatur, ut hic:</p>
+      <p xml:id="BALABM0006">Longa vero ascendendo vel descendendo plicata, sicut plicatur, ut
+        hic:</p>
       <p xml:id="BALABM0007">[[Lpdsn],Lpdsn,Lpdsn,Bpssncsdx,Bpssncsdx,Bpssncsdx on staff2]</p>
       <p xml:id="BALABM0008">Quandocunque punctus quadratus invenitur qui caret omni tractu, brevis
         dicitur, ut hic:</p>
@@ -60,16 +71,16 @@
       <p xml:id="BALABM0010">Brevis plicata ascendendo vel descendendo hoc modo dicitur plicare:
         [[Bcssnpsdx,Bcssnpsdx,Bcssnpsdx,Bcdsnpddx,Bcdsnpddx,Bcdsnpddx on staff4]]</p>
       <p xml:id="BALABM0011">Semibrevis dicitur vero: ad modum losenge formatur, ut hic:</p>
-      <p xml:id="BALABM0012">[S,S,S,S,S,S,S,S,S,S,S,S on staff4] <pb n="[14]"/>Et plicari non possunt,
-        nisi quando tres super unam sillabam inveniuntur, ut hic:</p>
+      <p xml:id="BALABM0012">[S,S,S,S,S,S,S,S,S,S,S,S on staff4] <pb n="[14]"/>Et plicari non
+        possunt, nisi quando tres super unam sillabam inveniuntur, ut hic:</p>
       <p xml:id="BALABM0013">[[S,S,Scsdxodx,S,S,Scsdxodx,S,S,Scsdxodx,S,S,Scsdxodx on staff4]]</p>
       <p xml:id="BALABM0014">Quando sola brevis praecedit longam, imperficit eam, et etiam quando
         sequitur, ut hic:</p>
       <p xml:id="BALABM0015">[L,B,BP,B,L on staff4]</p>
       <p xml:id="BALABM0016">nisi per divisionem modi autem distinguitur, ut hic:</p>
       <p xml:id="BALABM0017">[L,pt,B,L on staff4]</p>
-      <p xml:id="BALABM0018">Tunc prima longa habet tria tempora et brevis sequens refertur ad longam
-        sequentem, et imperficit eam. Longa ante longam valet tria tempora, ut hic:</p>
+      <p xml:id="BALABM0018">Tunc prima longa habet tria tempora et brevis sequens refertur ad
+        longam sequentem, et imperficit eam. Longa ante longam valet tria tempora, ut hic:</p>
       <p xml:id="BALABM0019">[L,L,L,L,Bcsdx,Bcsdx on staff4]</p>
       <p xml:id="BALABM0020">Duplex longa valet sex tempora, et plicari potest ad modum longae
         simplicis, ut hic:</p>
@@ -81,56 +92,59 @@
       <p xml:id="BALABM0023">[L,B,B,L,S,S,S,B,L,L,B,B,B,L on staff4]</p>
       <p xml:id="BALABM0024">nisi per divisionem modi aliter distingatur, ut hic patet exemplum:</p>
       <p xml:id="BALABM0025">[L,B,pt,B,L,L,S,S,S,pt,S,S,S,L on staff4]</p>
-      <p xml:id="BALABM0026">Tunc prima brevis imperficiet primam longam, et secunda brevis imperficiet
-        longam sequentem. Item si plures breves inter duas longas inveniuntur, vel et sine prima
-        longa, ita tamen quod ultima semper remaneat longa, tres insimul debent poni pro
+      <p xml:id="BALABM0026">Tunc prima brevis imperficiet primam longam, et secunda brevis
+        imperficiet longam sequentem. Item si plures breves inter duas longas inveniuntur, vel et
+        sine prima longa, ita tamen quod ultima semper remaneat longa, tres insimul debent poni pro
         perfectione; et si duo in fine, ultima brevis valebit duo tempora et vocabitur altera
         brevis, ut hic:</p>
       <p xml:id="BALABM0027">[L,B,B,L,B,B,B,B,B,B,L on staff4]</p>
-      <p xml:id="BALABM0028">Notandum quod, quando tres breves inveniuntur inter duas longas, quod sunt
-        aequales, nisi per divisionem modi aliter distingantur, ut hic:</p>
+      <p xml:id="BALABM0028">Notandum quod, quando tres breves inveniuntur inter duas longas, quod
+        sunt aequales, nisi per divisionem modi aliter distingantur, ut hic:</p>
       <p xml:id="BALABM0029">[L,B,SP,B,B,L on staff4]</p>
-      <p xml:id="BALABM0030">Tunc prima brevis imperficiet primam longam, secunda habebit unum tempus,
-        et tertia sive ultima habebit duo tempora et erit altera brevis, ut hic:</p>
+      <p xml:id="BALABM0030">Tunc prima brevis imperficiet primam longam, secunda habebit unum
+        tempus, et tertia sive ultima habebit duo tempora et erit altera brevis, ut hic:</p>
       <p xml:id="BALABM0031">[L,B,pt,B,B,L on staff4]</p>
       <p xml:id="BALABM0032">Sciendum est quod, quandocumque duae semibreves inveniuntur inter duas
         longas vel breves, sunt inaequales; prima vocatur minor, secunda vero maior, ut hic:</p>
       <p xml:id="BALABM0033">
         <pb n="[16]"/>[L,S,S,L,S,S,L on staff4]</p>
-      <p xml:id="BALABM0034">Et est maior semibrevis quae habet duas partes unius temporis brevis; minor
-        est illa quae habet tertiam partem unius temporis brevis. Quandocumque tres semibreves
+      <p xml:id="BALABM0034">Et est maior semibrevis quae habet duas partes unius temporis brevis;
+        minor est illa quae habet tertiam partem unius temporis brevis. Quandocumque tres semibreves
         inveniuntur inter duas longas vel breves, aequales sunt ut hic:</p>
       <p xml:id="BALABM0035">[L,S,S,S,L,S,S,S,B,S,S,S,B on staff4]</p>
-      <p xml:id="BALABM0036">Item si plures semibreves inveniuntur inter duas longas vel breves, omnes
-        sunt inaequales, nisi in fine tres remaneant, ut hic:</p>
+      <p xml:id="BALABM0036">Item si plures semibreves inveniuntur inter duas longas vel breves,
+        omnes sunt inaequales, nisi in fine tres remaneant, ut hic:</p>
       <p xml:id="BALABM0037">[L,S,S,S,S,S,S,S,S,S,S,S,L on staff4]</p>
-      <p xml:id="BALABM0038">Sed si tres in fine remaneant, illae tres erunt aequales, quia duae et duae
-        semper pro recta brevi computantur, nisi per divisionem modi aliter distingatur, ut hic:</p>
+      <p xml:id="BALABM0038">Sed si tres in fine remaneant, illae tres erunt aequales, quia duae et
+        duae semper pro recta brevi computantur, nisi per divisionem modi aliter distingatur, ut
+        hic:</p>
       <p xml:id="BALABM0039">[[L,S,S,S,pt,S,S,S,pt,S,S,pt,S,S,L on staff4]]</p>
       <p xml:id="BALABM0040">Tunc aliquando erunt duae pro recta brevi, aliquando tres, aliquando
         quatuor, et sic de aliis.</p>
       <p xml:id="BALABM0041">Capitulum 2</p>
       <p xml:id="BALABM0042">De figuris ligatis</p>
       <p xml:id="BALABM0043">P123v</p>
-      <p xml:id="BALABM0044">Ligatura ascendens est quando secundus punctus altior est primo. Descendens
-        vero ligatura est quando primus punctus altior est secundo, ut hic:</p>
+      <p xml:id="BALABM0044">Ligatura ascendens est quando secundus punctus altior est primo.
+        Descendens vero ligatura est quando primus punctus altior est secundo, ut hic:</p>
       <p xml:id="BALABM0045">
         <pb n="[17]"/>[Lig3aart,Lig2art,Lig4aaart,Lig3dd,Lig4ddd on staff4]</p>
-      <p xml:id="BALABM0046">In ligatura ascendente, quando primus caret omni tractu, brevis dicitur, ut
-        hic:</p>
+      <p xml:id="BALABM0046">In ligatura ascendente, quando primus caret omni tractu, brevis
+        dicitur, ut hic:</p>
       <p xml:id="BALABM0047">[Lig3aa,Lig3aa,Lig3aart,Lig3aart,Lig2a on staff4]</p>
-      <p xml:id="BALABM0048">In ligatura vero descendente, quando primus punctus tractum habet a parte
-        sinistra descendente, brevis est, ut hic:</p>
+      <p xml:id="BALABM0048">In ligatura vero descendente, quando primus punctus tractum habet a
+        parte sinistra descendente, brevis est, ut hic:</p>
       <p xml:id="BALABM0049">[Lig2cdsnd,Lig2cdsnod,Lig2cdsnd,Lig4cdsnodad on staff4]</p>
-      <p xml:id="BALABM0050">Item omnis ligatura ascendens, quando primus punctus tractum habet a parte
-        dextra descendente, longus dicitur, ut hic: [Lig4Laodart,Lig3Lad,Lig6Ladaodart on
+      <p xml:id="BALABM0050">Item omnis ligatura ascendens, quando primus punctus tractum habet a
+        parte dextra descendente, longus dicitur, ut hic: [Lig4Laodart,Lig3Lad,Lig6Ladaodart on
         staff4]</p>
       <p xml:id="BALABM0051">Item in ligatura descendente, quando primus punctus caret omni tractu,
         longus dicitur, ut hic:</p>
       <p xml:id="BALABM0052">[Lig3dod,Lig2d,Lig4ddod,Lig2d on staff4]</p>
-      <p xml:id="BALABM0053">Item omnis ligatura descendens sine proprietate, prima longa ut hic:</p>
+      <p xml:id="BALABM0053">Item omnis ligatura descendens sine proprietate, prima longa ut
+        hic:</p>
       <p xml:id="BALABM0054">[Lig3dd,Lig2od,Lig3dod on staff4]</p>
-      <p xml:id="BALABM0055">Omnis ligatura ascendens sine proprietate, prima brevis dicitur ut hic:</p>
+      <p xml:id="BALABM0055">Omnis ligatura ascendens sine proprietate, prima brevis dicitur ut
+        hic:</p>
       <p xml:id="BALABM0056">[Lig3aa,Lig3aacddx,Lig3aa on staff4]</p>
       <p xml:id="BALABM0057">
         <pb n="[18]"/>Quandocumque ultimus punctus ligaturae ascendentis recte stat supra penultimam
@@ -139,38 +153,40 @@
       <p xml:id="BALABM0059">Quando ultimus punctus ligaturae descendentis quadratus invenitur cum
         perfectione, longus dicitur ut hic:</p>
       <p xml:id="BALABM0060">[Lig2cdsnd,Lig3cssndd,Lig4cdsnodad on staff4]</p>
-      <p xml:id="BALABM0061">Omnis ligatura cum perfectione est longa. Item quandocumque ultimus punctus
-        ligaturae ascendentis stat supra penultimam capite adverso obliquo, brevis dicitur, ut patet
-        hic:</p>
+      <p xml:id="BALABM0061">Omnis ligatura cum perfectione est longa. Item quandocumque ultimus
+        punctus ligaturae ascendentis stat supra penultimam capite adverso obliquo, brevis dicitur,
+        ut patet hic:</p>
       <p xml:id="BALABM0062">[Lig4ada,Lig7odadaoda on staff4]</p>
       <p xml:id="BALABM0063">Item quandocumque duae notae in uno corpore obliquo in fine ligaturae
         inveniuntur, ultima dicitur brevis, ut hic:</p>
       <p xml:id="BALABM0064">[Lig3cdsndod,Lig3cssndod,Lig4cssnddod on staff4]</p>
-      <p xml:id="BALABM0065">Opposita proprietas est quando in primo punctu ligaturae ascendentis vel
-        descendentis tractus ascendens invenitur, ut hic:</p>
+      <p xml:id="BALABM0065">Opposita proprietas est quando in primo punctu ligaturae ascendentis
+        vel descendentis tractus ascendens invenitur, ut hic:</p>
       <p xml:id="BALABM0066">[Lig2cssna,Lig2cssnoa,Lig2cssnod,Lig3cssndod on staff4]</p>
-      <p xml:id="BALABM0067">Opposita proprietas est signum semibrevitatis. Omnes mediae sunt breves,
-        nisi per oppositam proprietatem deffendantur.</p>
+      <p xml:id="BALABM0067">Opposita proprietas est signum semibrevitatis. Omnes mediae sunt
+        breves, nisi per oppositam proprietatem deffendantur.</p>
       <p xml:id="BALABM0068">[Lig7cssndddddd,Lig7cssnaaaaaa on staff4]</p>
       <p xml:id="BALABM0069">
         <pb n="[19]"/>Ligatura quae est cum perfectione sic plicatur, ut hic:</p>
-      <p xml:id="BALABM0070">[[Lig3aacddx,Lig3aacsdx,Lig2acsdx,Lig2cdsndcddx,Lig3cdsnddcddx,Lig2cdsndcddx on
+      <p xml:id="BALABM0070"
+        >[[Lig3aacddx,Lig3aacsdx,Lig2acsdx,Lig2cdsndcddx,Lig3cdsnddcddx,Lig2cdsndcddx on
         staff4]]</p>
-      <p xml:id="BALABM0071">Ligatura quae est sine perfectione ascendendo et descendendo sic plicatur,
-        ut patet in hoc exemplo:</p>
-      <p xml:id="BALABM0072">[Lig2cdsnodcsdx,Lig2cdsnodcsdx,Lig4cssnaaodcsdx,Lig4odaodcsdx,Lig2cdsnodcsdx,Lig2cdsnodcsdx,Lig4ddodcsdx
+      <p xml:id="BALABM0071">Ligatura quae est sine perfectione ascendendo et descendendo sic
+        plicatur, ut patet in hoc exemplo:</p>
+      <p xml:id="BALABM0072"
+        >[Lig2cdsnodcsdx,Lig2cdsnodcsdx,Lig4cssnaaodcsdx,Lig4odaodcsdx,Lig2cdsnodcsdx,Lig2cdsnodcsdx,Lig4ddodcsdx
         on staff4]</p>
       <p xml:id="BALABM0073">Capitulum 3</p>
       <p xml:id="BALABM0074">De pausis</p>
       <p xml:id="BALABM0075">P123v</p>
-      <p xml:id="BALABM0076">Pausationum sex sunt species. Prima vocatur minor, secunda maior, tertia
-        recta brevis, quarta imperfecta, quinta perfecta, sexta finis punctorum.</p>
-      <p xml:id="BALABM0077">Minor pausa valet tertiam partem unius temporis, et tertiam partem unius
-        spatii continet. Maior pausa valet duas partes unius temporis, et duas partes unius spatii
-        continet. Recta brevis pausa est quae valet unam rectam brevem, et unum spatium continet.
-        Imperfecta pausa est quae valet duo tempora, et duo spatia continet. Perfecta pausa est quae
-        valet tria tempora, et tria spatia continet. Ultima pausa est finis punctorum et
-        immensurabilis; et omnia exempla patent hic:</p>
+      <p xml:id="BALABM0076">Pausationum sex sunt species. Prima vocatur minor, secunda maior,
+        tertia recta brevis, quarta imperfecta, quinta perfecta, sexta finis punctorum.</p>
+      <p xml:id="BALABM0077">Minor pausa valet tertiam partem unius temporis, et tertiam partem
+        unius spatii continet. Maior pausa valet duas partes unius temporis, et duas partes unius
+        spatii continet. Recta brevis pausa est quae valet unam rectam brevem, et unum spatium
+        continet. Imperfecta pausa est quae valet duo tempora, et duo spatia continet. Perfecta
+        pausa est quae valet tria tempora, et tria spatia continet. Ultima pausa est finis punctorum
+        et immensurabilis; et omnia exempla patent hic:</p>
       <p xml:id="BALABM0078">[CSM34:19] <figure>
           <graphic url="/images/BALABM_01GF.gif"/>
         </figure></p>
@@ -187,8 +203,8 @@
       <p xml:id="BALABM0087">[L,B,B,pt; B,B,pt,L on staff4]</p>
       <p xml:id="BALABM0088">Quartus modus procedit ex duabus brevibus et una longa:</p>
       <p xml:id="BALABM0089">[B,B,L,B,B,L on staff4]</p>
-      <p xml:id="BALABM0090">Quintus modus procedit ex omnibus brevibus et semibrevibus, ut patet hic
-        exemplum:</p>
+      <p xml:id="BALABM0090">Quintus modus procedit ex omnibus brevibus et semibrevibus, ut patet
+        hic exemplum:</p>
       <p xml:id="BALABM0091">[B,B,B,B,B,B,B,Lig2cssnod,Lig2cssnod on staff4]</p>
       <p xml:id="BALABM0092">Exempla ligaturarum</p>
       <p xml:id="BALABM0093">Ligaturae unius temporis per oppositam proprietatem:</p>
@@ -198,9 +214,11 @@
       <p xml:id="BALABM0096">[Lig3cssndod,Lig2cdsnod,Lig2a,Lig2cssna,Lig4cssnaaoa on staff4]</p>
       <p xml:id="BALABM0097">Ligaturae trium temporum secundum quinque modos; apparet hic exemplum
         inferius:</p>
-      <p xml:id="BALABM0098">[Lig3dd,BP,Lig2cssnod,Lig2od,2LP,Lig2cssna,Lig3odart,3LP,Lig2art,Lig2cdsnd,3LP,Lig4dodart,Lig4cssnddd,L,L
+      <p xml:id="BALABM0098"
+        >[Lig3dd,BP,Lig2cssnod,Lig2od,2LP,Lig2cssna,Lig3odart,3LP,Lig2art,Lig2cdsnd,3LP,Lig4dodart,Lig4cssnddd,L,L
         on staff4]</p>
-      <p xml:id="BALABM0099">Explicit abreviatio magistri Franconis edita a Johanne dicto Baloce.</p>
+      <p xml:id="BALABM0099">Explicit abreviatio magistri Franconis edita a Johanne dicto
+        Baloce.</p>
     </body>
   </text>
 </TEI>

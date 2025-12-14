@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musica, liber primus</title>
         <title type="abbrev">TDMUS1_MOBB842</title>
-        <author>Theinredus Doverensis</author>
-        <date notBefore="1100" notAfter="1199">12th</date>
+        <author><persName>Theinredus Doverensis</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>T</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Transcriber</resp>
           <persName>John Snyder</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1996</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1996">1996</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Oxford, Bodleian Library, MS Bodley 842 (S.C. 2575), ff. 1r–18v. </bibl>
         <bibl type="work">
@@ -40,8 +50,8 @@
       <p xml:id="TDMUS1_MOBB8420001">
         <pb n="[f.1r]"/>Alueredo Cantuariensi. Theinredus Douerensis. de legitimis ordinibus
         pentachordorum et tetrachordorum.</p>
-      <p xml:id="TDMUS1_MOBB8420002">Quoniam musicorum de hijs cantibus frequens est dissensio. qui in
-        uno octo chordo plures semitoniorum habentes transposiciones. in ordinem pentachordorum
+      <p xml:id="TDMUS1_MOBB8420002">Quoniam musicorum de hijs cantibus frequens est dissensio. qui
+        in uno octo chordo plures semitoniorum habentes transposiciones. in ordinem pentachordorum
         Guydonice distinccionis non admittuntur. quorum alij quidem Guydonicum ordinem existimantes
         esse perfectum. cum in huiusmodi cantibus nichil dissonum auditus percipiat. nulla tum
         racione subiecta eos intra regularium. non admittunt consorcium; Alij vero quoniam musica
@@ -73,21 +83,21 @@
         manu rec.] reperpereris. festinum cohibeto iudicium expectans pocius quid racio edoceat.
         quam presumens quod nuda nec bene munita auctoritas.</p>
       <p xml:id="TDMUS1_MOBB8420003">De proporcionibus musicorum sonorum capitulum primum.</p>
-      <p xml:id="TDMUS1_MOBB8420004">Cum musicam artem modulandi dicimus et musicum sonum modulacionis
-        musice aptum dicere possumus. Oportet autem musicum sonum esse eundem et constantem. ad
-        alium secundum sui quantitates relatiuum. Referuntur autem musici soni ad se inuicem;
-        secundum sui quantitates aliquando secundum tempus quod poetice vel lyrice consideracionis
-        est. [lirica namque modula; metrica est in sonis secundum poetica in sillabis. in marg.]
-        aliquando secundum acumen et grauitatem. quod ad musicam contemplacionem attinet. Qui vero
-        secundum acumen et grauitatem ad se referuntur. Allij in eadem quantitate comparantur sibi
-        Alij secundum diuersas a se differunt. Et quidem qui eiusdem quantitatis sunt. unisoni qui
-        vero diuersarum; diuersisoni sunt.</p>
-      <p xml:id="TDMUS1_MOBB8420005">[Oxford, Bodleian Library, Bodley 842, f.2r; text: soni, unisoni,
-        diuersisoni, equissoni, iniquisoni, consoni, Dissoni] <figure>
+      <p xml:id="TDMUS1_MOBB8420004">Cum musicam artem modulandi dicimus et musicum sonum
+        modulacionis musice aptum dicere possumus. Oportet autem musicum sonum esse eundem et
+        constantem. ad alium secundum sui quantitates relatiuum. Referuntur autem musici soni ad se
+        inuicem; secundum sui quantitates aliquando secundum tempus quod poetice vel lyrice
+        consideracionis est. [lirica namque modula; metrica est in sonis secundum poetica in
+        sillabis. in marg.] aliquando secundum acumen et grauitatem. quod ad musicam contemplacionem
+        attinet. Qui vero secundum acumen et grauitatem ad se referuntur. Allij in eadem quantitate
+        comparantur sibi Alij secundum diuersas a se differunt. Et quidem qui eiusdem quantitatis
+        sunt. unisoni qui vero diuersarum; diuersisoni sunt.</p>
+      <p xml:id="TDMUS1_MOBB8420005">[Oxford, Bodleian Library, Bodley 842, f.2r; text: soni,
+        unisoni, diuersisoni, equissoni, iniquisoni, consoni, Dissoni] <figure>
           <graphic url="/images/TDMUS1_01GF.gif"/>
         </figure></p>
-      <p xml:id="TDMUS1_MOBB8420006">Diuersisonorum autem alij sunt equisoni. alij iniquisoni. Equisoni
-        sunt; qui cum sint diuersisoni; eque tamen. sonant ut qui diapason semel vel sepius
+      <p xml:id="TDMUS1_MOBB8420006">Diuersisonorum autem alij sunt equisoni. alij iniquisoni.
+        Equisoni sunt; qui cum sint diuersisoni; eque tamen. sonant ut qui diapason semel vel sepius
         terminant. Iniquisoni sunt. qui non eque sonant. ut qui diapente vel tonum terminant.
         Utrorumque autem alij sunt consoni. alij dissoni. Consoni sunt. qui si simul fiunt. musice
         racione concordant. Dissoni sunt qui si simul fiunt musice racione discordant. Unde
@@ -115,7 +125,8 @@
         Iniquisonancia; iniquisonorum. Consonancia; consonorum. Dissonancia; dissonorum.</p>
       <p xml:id="TDMUS1_MOBB8420011">Unde singulis conueniencijs nomina.</p>
       <p xml:id="TDMUS1_MOBB8420012">Quarum prime sunt. quas et proprijs priores assignare nominibus
-        diapason. Diapente. Diatessaron. et tonus. Cum enim musica melodia per equales minucias <pb n="[f.3r]"/>et inequalem distinguatur illam autem inequalitatem consonancie terminacio
+        diapason. Diapente. Diatessaron. et tonus. Cum enim musica melodia per equales minucias <pb
+          n="[f.3r]"/>et inequalem distinguatur illam autem inequalitatem consonancie terminacio
         occurens efficiat; ille vero occursus. aut pentachordi est. aut tetrachordi. que eciam illam
         distinccionem per suam differenciam progenerant; eam quidem que est .5. sonorum diapente.
         que vero .4. diatessaron vocauerunt. Ipsam quoque harum [id est diapente et diatessaron in
@@ -164,14 +175,15 @@
         continere; certum est non esse maiores dimidijs. Set vero minores sunt dimidijs et .b.d.
         maiores sunt dimidijs. Continenciores ergo sunt diapente. Quoniam autem minus continentes
         sunt; relinquitur a. et .c. non esse minores dimidijs.</p>
-      <p xml:id="TDMUS1_MOBB8420018">[Oxford, Bodleian Library, Bodley 842, f.4r; text: tonus. diapente.
-        .a. .c. .b. .d.]</p>
-      <p xml:id="TDMUS1_MOBB8420019">Amplius cum ditonus ex duabus equalibus partibus <pb n="[f.4v]"/>constituatur. et in duas equales rursus diuidatur; ex duabus equalibus partibus terminorum
+      <p xml:id="TDMUS1_MOBB8420018">[Oxford, Bodleian Library, Bodley 842, f.4r; text: tonus.
+        diapente. .a. .c. .b. .d.]</p>
+      <p xml:id="TDMUS1_MOBB8420019">Amplius cum ditonus ex duabus equalibus partibus <pb n="[f.4v]"
+        />constituatur. et in duas equales rursus diuidatur; ex duabus equalibus partibus terminorum
         constitui. vel in duas equales eorum rursus diuidi. inpossibile est. set cum ex duobus tonis
         constituatur in duos tonos medio termino [interposito in marg.] diuidis. unde intelligis non
         terminos set terminorum in quantitatibus determinatis habitudines constituere ditonum.</p>
-      <p xml:id="TDMUS1_MOBB8420020">Nec si habitudines eedem sunt in rebus. nulla conueniencia musica
-        conuenientibus ut in lineis. ea racione non sunt consonancie. Idem enim in diuersis.
+      <p xml:id="TDMUS1_MOBB8420020">Nec si habitudines eedem sunt in rebus. nulla conueniencia
+        musica conuenientibus ut in lineis. ea racione non sunt consonancie. Idem enim in diuersis.
         diuersos habet effectus. Quod si natura pateretur ut quis lineas quantitatiuas sonitum motas
         reddere faceret; quam habitudinem habent in quantitatibus suis eandem in sonis
         proferrent.</p>
@@ -183,15 +195,15 @@
         semper una duorum. Cetere vero numerum equiperant differencium. Nouenarius namque et
         senarius secundum quantitatem quidem ternario. secundum qualitatem vero paritate differunt
         et imparitate.</p>
-      <p xml:id="TDMUS1_MOBB8420023">Proporcio namque est habitudo secundum quantitatem. secundum idem
-        differenciam; huius autem diffinicionis racio hec est. habitudo. proporcionis genus est.
-        habent enim se ad se libra et dimidia. que quoniam extra proporcionem multa est. adiungitur
-        secundum quantitatem [habent enim se ad se secundum quantitatem in marg.] libra et dimidia.
-        Set quia non dum sufficiens est paritas. enim <pb n="[f.5r]"/>habitudo secundum quantitatem
-        est. nec tamen proporcio est. adicitur differenciam. Differunt enim a se libra et dimidia
-        Quia vero nec dum consummata est. cum unisoni se habeant ad se secundum quantitatem.
-        differant quoque a se planicie sonitus et asperitate; apponitur secundum idem id est
-        secundum quantitatem [differunt enim a se secundum quantitatem in marg.] libra et
+      <p xml:id="TDMUS1_MOBB8420023">Proporcio namque est habitudo secundum quantitatem. secundum
+        idem differenciam; huius autem diffinicionis racio hec est. habitudo. proporcionis genus
+        est. habent enim se ad se libra et dimidia. que quoniam extra proporcionem multa est.
+        adiungitur secundum quantitatem [habent enim se ad se secundum quantitatem in marg.] libra
+        et dimidia. Set quia non dum sufficiens est paritas. enim <pb n="[f.5r]"/>habitudo secundum
+        quantitatem est. nec tamen proporcio est. adicitur differenciam. Differunt enim a se libra
+        et dimidia Quia vero nec dum consummata est. cum unisoni se habeant ad se secundum
+        quantitatem. differant quoque a se planicie sonitus et asperitate; apponitur secundum idem
+        id est secundum quantitatem [differunt enim a se secundum quantitatem in marg.] libra et
         dimidia.</p>
       <p xml:id="TDMUS1_MOBB8420024">De singulis proporcionibus.</p>
       <p xml:id="TDMUS1_MOBB8420025">Est autem alia multiplex alia superparticularis. alia
@@ -207,7 +219,8 @@
         superparticularis est quorum maius quantitatem minoris cum unius tam partis eius adieccione
         sepius continet. ut quinanarij et binarij [2.5.4.10. in marg.] Nam quinarius quantitatem
         binarij cum unitatis adieccione bis continet At multiplex superparciens est; quorum maius
-        quantitatem minoris cum multarum parcium eius adieccione sepius continet. ut octonarij <pb n="[f.5v]"/>et ternarij [.8 3. in marg.]. Nam octonarius quantitatem ternarij cum duarum
+        quantitatem minoris cum multarum parcium eius adieccione sepius continet. ut octonarij <pb
+          n="[f.5v]"/>et ternarij [.8 3. in marg.]. Nam octonarius quantitatem ternarij cum duarum
         unitatum adieccione bis continet.</p>
       <p xml:id="TDMUS1_MOBB8420026">Est eciam multiplicium alia dupla alia tripla alia quadrupla et
         deinceps. eo ordine in infinitum progreditur. Dupla igitur eorum proporcio est. quorum maius
@@ -217,23 +230,24 @@
         in marg.]. Nam ternarius quantitatem unitatis sic continet. Quadrupla est autem; quorum
         maius quantitatem minoris sine partis eius adieccione quater continet. ut quaternarij et
         unitatis [.4 1. in marg.]. Nam quaternarius quantitatis unitatis sic continet.</p>
-      <p xml:id="TDMUS1_MOBB8420027">Superparticularium quoque alia est sesqualtera alia sesquetercia
-        alia sexquiquarta; eo ordine fit infinita progressio. Sesqualtera ergo eorum proporcio est;
-        quorum maius quantitatem minoris cum dimidie partis eius adieccione semel continet. ut
-        ternarij et binarij [.3 2. in marg.]. Nam ternarius quantitatem binarij cum unitatis
-        adieccione semel continet Sexquitercia autem est quorum maius quantitatem minoris cum tercie
-        partis eius semel continet ut quaternarij et ternarij [.4 3. in marg.] Nam quaternarius
-        quantitatem ternarij cum unitatis adieccione semel continet. Sesquiquarta vero est; quorum
-        maius quantitatem minoris cum quarte partis eius adieccione semel continet. ut quinarij et
-        quaternarij [.5 4. in marg.] Nam quinarius quantitatem quaternarij cum unitatis. <pb n="[f.6r]"/>adieccione. semel continet.</p>
-      <p xml:id="TDMUS1_MOBB8420028">Superparciencium vero; alia est superparciens duas tercias. alia
-        duas quintas. alia tres quartas. alia tres quintas. et dinde secundum quod quot et quote
-        superparciuntur in infinitum; proceditur. Quot vero et quote superpartiri possint; hinc
-        cognosces. Scrutare qui numeri nullam habeant communem mensuram preter unitatem; et partes
-        quot unitatum minor est; tote [tote non dicitur hi a totus tocius set a tot. in marg.]
-        possunt esse in superparciencia; quot unitatum maior est. ut si .quatuor. cum .5. vel .7.
-        vel .9. vel .11. vel .13. nullam habet communem mensuram preter id est possunt esse vel .4.
-        quinte vel .4. septime vel .4. none vel .4. undecime vel .4. terciedecime.</p>
+      <p xml:id="TDMUS1_MOBB8420027">Superparticularium quoque alia est sesqualtera alia
+        sesquetercia alia sexquiquarta; eo ordine fit infinita progressio. Sesqualtera ergo eorum
+        proporcio est; quorum maius quantitatem minoris cum dimidie partis eius adieccione semel
+        continet. ut ternarij et binarij [.3 2. in marg.]. Nam ternarius quantitatem binarij cum
+        unitatis adieccione semel continet Sexquitercia autem est quorum maius quantitatem minoris
+        cum tercie partis eius semel continet ut quaternarij et ternarij [.4 3. in marg.] Nam
+        quaternarius quantitatem ternarij cum unitatis adieccione semel continet. Sesquiquarta vero
+        est; quorum maius quantitatem minoris cum quarte partis eius adieccione semel continet. ut
+        quinarij et quaternarij [.5 4. in marg.] Nam quinarius quantitatem quaternarij cum unitatis.
+          <pb n="[f.6r]"/>adieccione. semel continet.</p>
+      <p xml:id="TDMUS1_MOBB8420028">Superparciencium vero; alia est superparciens duas tercias.
+        alia duas quintas. alia tres quartas. alia tres quintas. et dinde secundum quod quot et
+        quote superparciuntur in infinitum; proceditur. Quot vero et quote superpartiri possint;
+        hinc cognosces. Scrutare qui numeri nullam habeant communem mensuram preter unitatem; et
+        partes quot unitatum minor est; tote [tote non dicitur hi a totus tocius set a tot. in
+        marg.] possunt esse in superparciencia; quot unitatum maior est. ut si .quatuor. cum .5. vel
+        .7. vel .9. vel .11. vel .13. nullam habet communem mensuram preter id est possunt esse vel
+        .4. quinte vel .4. septime vel .4. none vel .4. undecime vel .4. terciedecime.</p>
       <p xml:id="TDMUS1_MOBB8420029">Mensura numerorum dicitur numerus. si quociens possit ductus in
         ipsis nec ultra mensuratorum terminos protenditur. nec infra relinquitur. ut ternarius
         senarij et nouenarij. atque duodenarij Ductus namque quociens possit in ipsis; videlicet in
@@ -242,7 +256,8 @@
         unitatum minor est tote possunt esse quot unitatum maior est. ut si .6. cum .8. vel .9. vel
         .10. vel .12. comunem habet mensuram .2. vel .3. vel .6. non dicuntur in superparciencia .6.
         octaue vel .6. none vel .6. decime vel .6. duedicime set .3. quarte vel .2. tercie vel .3.
-        quinte vel pars dimidia. Superparciens igitur duas tercias est eorum proporcio <pb n="[f.6v]"/>quorum maius quantitatem minoris cum duarum terciarum parcium adieccione semel
+        quinte vel pars dimidia. Superparciens igitur duas tercias est eorum proporcio <pb
+          n="[f.6v]"/>quorum maius quantitatem minoris cum duarum terciarum parcium adieccione semel
         continet ut quinarij et ternarij [.53. in marg.] Nam quinarius quantitatem ternarij. cum
         duarum unitatum adieccione semel continet. Superparciens vero duas quintas est; quorum maius
         quantitatem minoris cum duarum quintarum parcium adieccione semel continet. ut septenarij et
@@ -254,17 +269,18 @@
         minoris cum trium quintarum parcium eius adieccione semel continet. ut octonarij et quinarij
         [.85. in marg.]. Nam octonarius quantitatem quinarij cum trium unitatum adieccione semel
         continet.</p>
-      <p xml:id="TDMUS1_MOBB8420030">Multiplicium autem superparticularium; alia est dupla sexquialtera.
-        alia dupla sesquitercia. alia tripla sexquialtera. alia tripla sesquitercia. et deinceps ex
-        utriusque generis videlicet multiplicis et superparticularis specierum coniunccione fit
-        interminabilis progressio. Dupla igitur sesquialtera eorum proporcio est; quorum maius
-        quantitatem minoris cum dimidie partis eius adieccione bis continet. ut quinarij et binarij
-        [.52. in marg.]. Quinarius enim quantitatem binarij cum unitatis adieccione; bis continet.
-        Dupla vero sesquitercia est; quorum maius quantitatem minoris cum tercie partis <pb n="[f.7r]"/>eius adieccione. bis continet. ut septenarij et ternarij [.73. in marg.].
-        Septenarius namque quantitatem ternarij cum unitatis adieccione bis continet. Tripla autem
-        sesquialtera est; quorum maius quantitatem minoris cum dimidie partis eius adieccione ter
-        continet. ut septenarij et binarij. Septenarius enim quantitatem binarij cum unitatis
-        adieccione ter continet [.72. in marg.]. Tripla vero sesquitercia est quorum maius
+      <p xml:id="TDMUS1_MOBB8420030">Multiplicium autem superparticularium; alia est dupla
+        sexquialtera. alia dupla sesquitercia. alia tripla sexquialtera. alia tripla sesquitercia.
+        et deinceps ex utriusque generis videlicet multiplicis et superparticularis specierum
+        coniunccione fit interminabilis progressio. Dupla igitur sesquialtera eorum proporcio est;
+        quorum maius quantitatem minoris cum dimidie partis eius adieccione bis continet. ut
+        quinarij et binarij [.52. in marg.]. Quinarius enim quantitatem binarij cum unitatis
+        adieccione; bis continet. Dupla vero sesquitercia est; quorum maius quantitatem minoris cum
+        tercie partis <pb n="[f.7r]"/>eius adieccione. bis continet. ut septenarij et ternarij [.73.
+        in marg.]. Septenarius namque quantitatem ternarij cum unitatis adieccione bis continet.
+        Tripla autem sesquialtera est; quorum maius quantitatem minoris cum dimidie partis eius
+        adieccione ter continet. ut septenarij et binarij. Septenarius enim quantitatem binarij cum
+        unitatis adieccione ter continet [.72. in marg.]. Tripla vero sesquitercia est quorum maius
         quantitatem minoris cum tercie partis eius adieccione ter continet. ut denarij et ternarij
         [.103. in marg.]. Denarius enim quantitatem ternarij cum unitatis adieccione ter
         continet.</p>
@@ -278,7 +294,8 @@
         duarum quintarum parcium eius adieccione bis continet. ut duodenarij et quinarij.
         Duodenarius namque quantitatem quinarij cum duarum unitatum adieccione bis continet. Tripla
         vero superparciens .2. tercias est; quorum maius quantitatem minoris cum duarum terciarum
-        parcium eius adieccione ter continet. ut undenarij et ternarij. Undenarius <pb n="[f.7v]"/>namque quantitatem ternarij cum duarum unitatum adieccione ter continet. Tripla vero
+        parcium eius adieccione ter continet. ut undenarij et ternarij. Undenarius <pb n="[f.7v]"
+        />namque quantitatem ternarij cum duarum unitatum adieccione ter continet. Tripla vero
         superparciens duas quintas est; quorum maius quantitatem minoris cum duarum quintarum
         parcium eius adieccione ter continet. ut denarij septenarij et quinarij. Denarius
         septenarius namque. quinarium cum duarum unitatum adieccione ter continet. Et maiora quidem
@@ -295,8 +312,8 @@
         quarum termini conuenienciarum. quibus proporcionibus conueniant. partim probabilibus.
         partim necessarijs. quidem set a probabilium constancia ductis ostendam argumentis.</p>
       <p xml:id="TDMUS1_MOBB8420034">Qua proporcione termini diapason conueniant.</p>
-      <p xml:id="TDMUS1_MOBB8420035">Diapason igitur terminos dupla proporcione conuenire probabile est.
-        Si enim corda in <pb n="[f.8r]"/>tria sibi equalia diuisa solido corpore aliquo secundo
+      <p xml:id="TDMUS1_MOBB8420035">Diapason igitur terminos dupla proporcione conuenire probabile
+        est. Si enim corda in <pb n="[f.8r]"/>tria sibi equalia diuisa solido corpore aliquo secundo
         puncto apponito utriusque pellitur. diapason resonat. hoc autem inde contingit quod altera
         pars alteri; dupla est.</p>
       <p xml:id="TDMUS1_MOBB8420036">Qua diapente.</p>
@@ -320,8 +337,8 @@
         </figure></p>
       <p xml:id="TDMUS1_MOBB8420041">
         <pb n="[f.8v]"/>Diuisio diapason in diapente. et diatessaron.</p>
-      <p xml:id="TDMUS1_MOBB8420042">Ut ergo sesquialtera proporcio et sexquitercia. diuidunt duplam.
-        Ita diapente et diatessaron diuidunt diapason; quam diuisionem si in numeris videre
+      <p xml:id="TDMUS1_MOBB8420042">Ut ergo sesquialtera proporcio et sexquitercia. diuidunt
+        duplam. Ita diapente et diatessaron diuidunt diapason; quam diuisionem si in numeris videre
         desideras. quoniam inter .1. et .2. nullus tercius inuenitur terminus qui duplam in
         sesquealteram et sexquitercia diuidat. Terminus uterque per aliquem numerum enim est
         multiplicandus. Cuiuscumque enim proporcionis termini per aliquem numerum creuerint. eandem
@@ -332,18 +349,18 @@
       <p xml:id="TDMUS1_MOBB8420043">[Oxford, Bodleian Library, Bodley 842, f.8v; text: diapente.
         diapason. diatessaron. .2. .3. .4.]</p>
       <p xml:id="TDMUS1_MOBB8420044">De terminis diapason cum diapente.</p>
-      <p xml:id="TDMUS1_MOBB8420045">Diapason autem cum diapente in .1. et .3. unum enim et .2. diapason
-        terminant .2. autem et .3. diapente. Unum igitur et .3. diapason cum diapente qui tripla
-        proporcione conueniunt.</p>
+      <p xml:id="TDMUS1_MOBB8420045">Diapason autem cum diapente in .1. et .3. unum enim et .2.
+        diapason terminant .2. autem et .3. diapente. Unum igitur et .3. diapason cum diapente qui
+        tripla proporcione conueniunt.</p>
       <p xml:id="TDMUS1_MOBB8420046">
         <pb n="[f.9r]"/>[Oxford, Bodleian Library, Bodley 842, f.9r,1; text: diapason. diapason cum
         diapente. diapente. .1. .2. .3.]</p>
       <p xml:id="TDMUS1_MOBB8420047">De bis diapason.</p>
-      <p xml:id="TDMUS1_MOBB8420048">Bis vero diapason in .1. et .4. unum enim et .2. diapason terminant
-        .2. autem et .4. diapason rursum. unum igitur et .4. bis diapason terminant. Qui se se
-        quadrupla proporcione respiciunt</p>
-      <p xml:id="TDMUS1_MOBB8420049">[Oxford, Bodleian Library, Bodley 842, f.9r,2; text: diapason. bis
-        diapason. diapason. .1. .2. .4.]</p>
+      <p xml:id="TDMUS1_MOBB8420048">Bis vero diapason in .1. et .4. unum enim et .2. diapason
+        terminant .2. autem et .4. diapason rursum. unum igitur et .4. bis diapason terminant. Qui
+        se se quadrupla proporcione respiciunt</p>
+      <p xml:id="TDMUS1_MOBB8420049">[Oxford, Bodleian Library, Bodley 842, f.9r,2; text: diapason.
+        bis diapason. diapason. .1. .2. .4.]</p>
       <p xml:id="TDMUS1_MOBB8420050">De diapason cum diatessaron.</p>
       <p xml:id="TDMUS1_MOBB8420051">Diapason cum diatessaron autem terminorum ita inuestigabis
         proporcionem. Quere quis primus numerorum in duas et in tres equas partes separari possit ut
@@ -357,14 +374,14 @@
           <graphic url="/images/TDMUS1_03GF.gif"/>
         </figure></p>
       <p xml:id="TDMUS1_MOBB8420053">De toni</p>
-      <p xml:id="TDMUS1_MOBB8420054">Toni vero ita. Quere primum numerum qui in duas et in tres equas
-        partes diuidi possit. ut intensa diapente dimidietate apposita et intensa diatessaron.
+      <p xml:id="TDMUS1_MOBB8420054">Toni vero ita. Quere primum numerum qui in duas et in tres
+        equas partes diuidi possit. ut intensa diapente dimidietate apposita et intensa diatessaron.
         tercia parte adiecta. toni terminorum quo diapente transcendit diatessaron proporcionem
         inuenias. Est autem supradictus senarius a quo intenduntur diapente quidem ad .9.
         dimidietate addita. diatessaron vero ad .8. tercia parte adiuncta .8. igitur et .9. tonum
         terminant proporcione sesquioctaua sese respicientes.</p>
-      <p xml:id="TDMUS1_MOBB8420055">[Oxford, Bodleian Library, Bodley 842, f.9v,2; text: diatessaron.
-        diapente. tonus. .6. .8. .9.]</p>
+      <p xml:id="TDMUS1_MOBB8420055">[Oxford, Bodleian Library, Bodley 842, f.9v,2; text:
+        diatessaron. diapente. tonus. .6. .8. .9.]</p>
       <p xml:id="TDMUS1_MOBB8420056">De eiusdem</p>
       <p xml:id="TDMUS1_MOBB8420057">Sunt qui idem per binam diuisionem diapason in diapente et
         diatessaron firmiori siue videntur probare argumento. Querunt enim in quibus numeris
@@ -379,11 +396,12 @@
       <p xml:id="TDMUS1_MOBB8420058">[Oxford, Bodleian Library, Bodley 842, f.10r; text: diapason.
         diapente. tonus. diatessaron. .6. .8. .9. .12.]</p>
       <p xml:id="TDMUS1_MOBB8420059">De semiditoni.</p>
-      <p xml:id="TDMUS1_MOBB8420060">Semiditoni autem hoc modo. quere quis numerus in .4. et .9. equas
-        partes se iungi possit ut quarta parte eius abstracta. remittens diatessaron. nona vero
-        ablata remittens tonum in minoribus terminis diatessaron et toni proporcionem semiditoni
-        differencie inuenias. hic autem est; 36. aufer igitur quartam partem et erit .27. Nonam <pb n="[f.10v]"/>et erit .32. In .27. ergo et .32. semiditonum terminari non dubitas. Quo si
-        de proporcione que sit ambigis. hanc regulam considera. De quorumcumque terminorum
+      <p xml:id="TDMUS1_MOBB8420060">Semiditoni autem hoc modo. quere quis numerus in .4. et .9.
+        equas partes se iungi possit ut quarta parte eius abstracta. remittens diatessaron. nona
+        vero ablata remittens tonum in minoribus terminis diatessaron et toni proporcionem
+        semiditoni differencie inuenias. hic autem est; 36. aufer igitur quartam partem et erit .27.
+        Nonam <pb n="[f.10v]"/>et erit .32. In .27. ergo et .32. semiditonum terminari non dubitas.
+        Quo si de proporcione que sit ambigis. hanc regulam considera. De quorumcumque terminorum
         proporcione que sit dubius fueris; minorem a maiore subtrahito. Iterum si alterum minorem
         reliqueris; adimito illum maiori. donec sibi reddantur equales. Tantumque communis mensura
         eorum est. quantus utrolibet primo illam minucionem remanserit. Si ergo id minor terminus
@@ -414,8 +432,8 @@
         alium in grauem terminet. hic autem est .72. scilicet occies .9. vel nonies .8. Qui octaua
         parte sui crescens reddit .81. nona vero decrescens; facit .64. horum itaque ultimi ditonum
         proporcione superparciente .17. sexagesimas quartas terminant.</p>
-      <p xml:id="TDMUS1_MOBB8420065">[Oxford, Bodleian Library, Bodley 842, f.11v,1; text: 64. 81. 47.
-        17. 30. 13. 4. 9. 5. 1. 3. 2.] <figure>
+      <p xml:id="TDMUS1_MOBB8420065">[Oxford, Bodleian Library, Bodley 842, f.11v,1; text: 64. 81.
+        47. 17. 30. 13. 4. 9. 5. 1. 3. 2.] <figure>
           <graphic url="/images/TDMUS1_05GF.gif"/>
         </figure></p>
       <p xml:id="TDMUS1_MOBB8420066">[Oxford, Bodleian Library, Bodley 842, f.11v,2; text: tonus.
@@ -439,10 +457,11 @@
           <graphic url="/images/TDMUS1_06GF.gif"/>
         </figure></p>
       <p xml:id="TDMUS1_MOBB8420071">Ad semitonij maioris.</p>
-      <p xml:id="TDMUS1_MOBB8420072">Ad semitonij vero maioris. a minori termino semitonij minoris qui
-        est .243. intende tonum octauam partem superaddens. ut inter maiorem semitonij minoris et
-        maiorem toni semitonij maioris proporcionem inuenias. Set quia simplex octauam partem non
-        habet. per quem primum numerum multiplicatus octauam partem recipiet <pb n="[f.13r]"/>secundum hanc regulam inuenies. Quotacumque pars cuiuslibet numeri queritur. totus
+      <p xml:id="TDMUS1_MOBB8420072">Ad semitonij vero maioris. a minori termino semitonij minoris
+        qui est .243. intende tonum octauam partem superaddens. ut inter maiorem semitonij minoris
+        et maiorem toni semitonij maioris proporcionem inuenias. Set quia simplex octauam partem non
+        habet. per quem primum numerum multiplicatus octauam partem recipiet <pb n="[f.13r]"
+        />secundum hanc regulam inuenies. Quotacumque pars cuiuslibet numeri queritur. totus
         diuidendus est in quot possit numeros tantos. quota pars eius queritur. Et si quidem totus
         in tantos diuiditur; totam partem habet. Si vero in ipsa diuisione super est quicquam;
         quisquis numerus parti que super est primus totam partem quota queritur sua multiplicacione
@@ -473,8 +492,8 @@
           <graphic url="/images/TDMUS1_07GF.gif"/>
         </figure></p>
       <p xml:id="TDMUS1_MOBB8420075">De comatis.</p>
-      <p xml:id="TDMUS1_MOBB8420076">Alia quoque racione et euidenciore quod maius sit et quanto maius
-        sit probare poteris. si a duobus tonis et hoc semitonio diatessaron. exemeris. cuius
+      <p xml:id="TDMUS1_MOBB8420076">Alia quoque racione et euidenciore quod maius sit et quanto
+        maius sit probare poteris. si a duobus tonis et hoc semitonio diatessaron. exemeris. cuius
         excisionis residuum. veteres coma dixerunt. huius autem terminorum proporcionem; ita
         inuenies. A maiori summa huius semitonij que est .2187. Intende duos tonos continuos. ut
         inter minorem semitonij huius et minorem diatessaron. comatis eorum differencie appareat
@@ -493,8 +512,8 @@
       <p xml:id="TDMUS1_MOBB8420077">[Oxford, Bodleian Library, Bodley 842, f.14v; text: semitonium
         maius. tonus intensus. .16384. .17496. 19683. 1112. differencia. .2187. semiditonus maior.
         .2048. per 8. multiplicatus. .2187.]</p>
-      <p xml:id="TDMUS1_MOBB8420078">A quo remitte diatessaron. quartam ei partem subtrahens. Quem quia
-        parte quarta <pb n="[f.15r]"/>caret. in quaternarios namque partito superesse videbis
+      <p xml:id="TDMUS1_MOBB8420078">A quo remitte diatessaron. quartam ei partem subtrahens. Quem
+        quia parte quarta <pb n="[f.15r]"/>caret. in quaternarios namque partito superesse videbis
         ternarium quem .4. primus quarta parte impertit. per .4. multiplicare oportet. Que
         multiplicacio gignit .708588. et ut inter minorem terminum semitonij huius et minorem
         diatessaron remittende comatis proporcionem reperias; et minorem ipsius semitonij terminum
@@ -524,22 +543,23 @@
         Ibique terminus huius intensionis est. si vero tres .4. per binarium multiplicet et fiet .8.
         A quo una intenditur ad .12. Alia a .12 ad .18. Tercia a .18. ad .27. Ibique terminatur illa
         intensio.</p>
-      <p xml:id="TDMUS1_MOBB8420082">[Oxford, Bodleian Library, Bodley 842, f.15v; text: sesqualtera, 8.
-        12, 18, 27, 4, 6, 9, 2, 3]</p>
-      <p xml:id="TDMUS1_MOBB8420083">Si autem duas superparcientes duas tercias. cognito quod a .3. qui
-        primus subsuperparciens duas tercias est una tantum intenditur .3. per se ipsum multiplicet.
-        et fiet .9. unde undena intenditur ad .15. alia a .15. ad .25. <pb n="[f.16r]"/>nisi finis
-        huius intensionis occurrit. Si vero .3 .9. per .3. multiplicet et fiet .27. A quo una
-        intenditur ad .45. alia a .45. ad .75. Tercia a .75. ad .125. qui hanc intensionem terminat.
-        Si vero duplas duas sexquealteras percepto a .2. qui primus subduplas sexquealtera est; unam
-        tantum posse intendi. .2. per seipsum multiplicet et fiet .4. unde una intenditur ad 10.
-        alia a .10. 10. .25. ubi quia dimidiam partem non recipit. hec intensio terminatur.</p>
-      <p xml:id="TDMUS1_MOBB8420084">[Oxford, Bodleian Library, Bodley 842, f.16r,1; text: superbitercia
-        .27. 45. 75. 125. 9. 15. 25. 3. .5.] <figure>
+      <p xml:id="TDMUS1_MOBB8420082">[Oxford, Bodleian Library, Bodley 842, f.15v; text:
+        sesqualtera, 8. 12, 18, 27, 4, 6, 9, 2, 3]</p>
+      <p xml:id="TDMUS1_MOBB8420083">Si autem duas superparcientes duas tercias. cognito quod a .3.
+        qui primus subsuperparciens duas tercias est una tantum intenditur .3. per se ipsum
+        multiplicet. et fiet .9. unde undena intenditur ad .15. alia a .15. ad .25. <pb n="[f.16r]"
+        />nisi finis huius intensionis occurrit. Si vero .3 .9. per .3. multiplicet et fiet .27. A
+        quo una intenditur ad .45. alia a .45. ad .75. Tercia a .75. ad .125. qui hanc intensionem
+        terminat. Si vero duplas duas sexquealteras percepto a .2. qui primus subduplas sexquealtera
+        est; unam tantum posse intendi. .2. per seipsum multiplicet et fiet .4. unde una intenditur
+        ad 10. alia a .10. 10. .25. ubi quia dimidiam partem non recipit. hec intensio
+        terminatur.</p>
+      <p xml:id="TDMUS1_MOBB8420084">[Oxford, Bodleian Library, Bodley 842, f.16r,1; text:
+        superbitercia .27. 45. 75. 125. 9. 15. 25. 3. .5.] <figure>
           <graphic url="/images/TDMUS1_09GF.gif"/>
         </figure></p>
-      <p xml:id="TDMUS1_MOBB8420085">[Oxford, Bodleian Library, Bodley 842, f.16r,2; text: 1. 82. 2. 93.
-        3. 104. 4. 1. 115. 5. 6. 126. 16. 137. 27. 148. 38. 159. 49. 170. 69. 181. 71. 192.]</p>
+      <p xml:id="TDMUS1_MOBB8420085">[Oxford, Bodleian Library, Bodley 842, f.16r,2; text: 1. 82. 2.
+        93. 3. 104. 4. 1. 115. 5. 6. 126. 16. 137. 27. 148. 38. 159. 49. 170. 69. 181. 71. 192.]</p>
       <p xml:id="TDMUS1_MOBB8420086">
         <pb n="[f.16v]"/>[Oxford, Bodleian Library, Bodley 842, f.16v; text: 203. 209556. 481370.
         531441. 214. 216709. 488523. 7153. 225. 2236 495676. 236. 231015. 502829. 247. 238168.
@@ -564,18 +584,18 @@
         sexquialtera, 8. 20. 50. 125. 4. 10 25. 2. 5.] <figure>
           <graphic url="/images/TDMUS1_11GF.gif"/>
         </figure></p>
-      <p xml:id="TDMUS1_MOBB8420089">Multiplicis vero generis proporcio ut sepius intendatur continue
-        nulla termini multiplicacione eget. Qui ergo .8. primus subsexquioctauus est et ab eo una
-        tam proporcio sesquioctaua intenditur; quinque autem hinc adicere intendunt .8. per se ipsum
-        cum summus ex crescentibus quinquies multiplicant. Et prima quidem multiplicacio reddit .64.
-        Unde una intenditur ad .72. alia a; .72. ad .81. qui octauam partem non habet. Secunda autem
-        progenerat .512. a quo intenditur una ad .576. alia a .576. ad .648. Tercia a; 648. ad .729.
-        qui octaua parte caret Tercia vero procreat .4096. a quo una intenditur ad .4608. alia a;
-        .4608. ad .5184. Tercia a .4184. ad .5832. Quarta a .5832. ad .6561. qui in .8. equalia non
-        diuiditur. Quarta autem; multiplicacione componitur .32768. a quo intenditur ad .36864. ad
-        .41472. Tercia a; 41472. ad .46656. Quarta a; 46656. ad .52488. Quinta a; 52488. ad .59049.
-        qui octaue partis expers est. At quinta procreatur .262144. a quo una intenditur ad .294912.
-        alia a; 294912. ad .331776. Tercia a .331776.</p>
+      <p xml:id="TDMUS1_MOBB8420089">Multiplicis vero generis proporcio ut sepius intendatur
+        continue nulla termini multiplicacione eget. Qui ergo .8. primus subsexquioctauus est et ab
+        eo una tam proporcio sesquioctaua intenditur; quinque autem hinc adicere intendunt .8. per
+        se ipsum cum summus ex crescentibus quinquies multiplicant. Et prima quidem multiplicacio
+        reddit .64. Unde una intenditur ad .72. alia a; .72. ad .81. qui octauam partem non habet.
+        Secunda autem progenerat .512. a quo intenditur una ad .576. alia a .576. ad .648. Tercia a;
+        648. ad .729. qui octaua parte caret Tercia vero procreat .4096. a quo una intenditur ad
+        .4608. alia a; .4608. ad .5184. Tercia a .4184. ad .5832. Quarta a .5832. ad .6561. qui in
+        .8. equalia non diuiditur. Quarta autem; multiplicacione componitur .32768. a quo intenditur
+        ad .36864. ad .41472. Tercia a; 41472. ad .46656. Quarta a; 46656. ad .52488. Quinta a;
+        52488. ad .59049. qui octaue partis expers est. At quinta procreatur .262144. a quo una
+        intenditur ad .294912. alia a; 294912. ad .331776. Tercia a .331776.</p>
       <p xml:id="TDMUS1_MOBB8420090">[Oxford, Bodleian Library, Bodley 842, f.17r,2 ; text: duplex
         superbitercia. 27. 72. 192. 512. 9. 24. 64. .3. 8]</p>
       <p xml:id="TDMUS1_MOBB8420091">
@@ -598,15 +618,15 @@
         diapason. Comma. 262144. 524288. 531441. .7153. differencia.] <figure>
           <graphic url="/images/TDMUS1_12GF.gif"/>
         </figure></p>
-      <p xml:id="TDMUS1_MOBB8420095">Si autem diapente cum semitonio remitte diapente a .C. ad .D. Et ab
-        .a. bisdiatessaron intende ad .E. D. igitur et .E. diapente cum semitonio terminant. Si vero
-        diatessaron cum semitonio ab .E. intende diatessaron ad .f. Qui cum .C. diatessaron cum
-        semitonio terminabit. Quod si diapente cum ditono remitte diapente ab .E. ad .G. qui relatus
-        ad .B. diapente cum ditono terminabit. Reliquarum autem conuenienciarum per intensiones et
-        remissiones ut superius insinuatum est. multiplicatis numeris cum quibus carent partibus
-        eguerint. terminorum proporciones inuenies. Diaschismatis autem et schismatis terminorum
-        proporciones inuestigare omitte. quoniam ab humane vocis musica longe sunt aliena. Explicit
-        liber primus.</p>
+      <p xml:id="TDMUS1_MOBB8420095">Si autem diapente cum semitonio remitte diapente a .C. ad .D.
+        Et ab .a. bisdiatessaron intende ad .E. D. igitur et .E. diapente cum semitonio terminant.
+        Si vero diatessaron cum semitonio ab .E. intende diatessaron ad .f. Qui cum .C. diatessaron
+        cum semitonio terminabit. Quod si diapente cum ditono remitte diapente ab .E. ad .G. qui
+        relatus ad .B. diapente cum ditono terminabit. Reliquarum autem conuenienciarum per
+        intensiones et remissiones ut superius insinuatum est. multiplicatis numeris cum quibus
+        carent partibus eguerint. terminorum proporciones inuenies. Diaschismatis autem et
+        schismatis terminorum proporciones inuestigare omitte. quoniam ab humane vocis musica longe
+        sunt aliena. Explicit liber primus.</p>
       <p xml:id="TDMUS1_MOBB8420096">
         <pb n="[f.18v]"/>[Oxford, Bodleian Library, Bodley 842, f.18v; text: diapente remissa. bis
         diapente intensa. diatessaron remissa. diatessaron intensa. bis diatessaron intensa. .A. D

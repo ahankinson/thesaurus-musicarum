@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musica</title>
         <title type="abbrev">HERMUSE</title>
-        <author>Hermannus Contractus</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Hermannus Contractus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>John Snyder</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1992</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1992">1992</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Musica Hermanni Contracti</emph>, ed. and trans. Leonard Ellinwood, Eastman School
@@ -43,8 +53,8 @@
     <body>
       <p xml:id="HERMUSE0001">
         <pb n="[18]"/>Incipit musica eiusdem sapientis (Hermannus)</p>
-      <p xml:id="HERMUSE0002">In consideranda monochordi positione ea prima speculatio occurrit, quod
-        omnis eius integritas quadruplo, id est bis diapason comprehenditur: quorum utrumque
+      <p xml:id="HERMUSE0002">In consideranda monochordi positione ea prima speculatio occurrit,
+        quod omnis eius integritas quadruplo, id est bis diapason comprehenditur: quorum utrumque
         sesquialteri ac sesquitercii id est diapente et diatesseron collatione perficitur. Quare
         autem non ultra quadruplum extendatur, vel infra sesquitercium coartetur, haec est ratio:
         quod cum diapente et diatesseron unum diapason perficiant, diapason autem V tonis et duobus
@@ -55,7 +65,8 @@
         inter se diversae; nam nulla earum cum alia perfecte concordat, nisi cum sua octava.
         Diapason superius, quia gravibus modulatur vocibus, apte literis insignitur maioribus:
         posterius vero causa acuminis eisdem quidem literis, sed acutis notatur formulis. Ubi
-        intuendum non alias atque alias denuo nasci; sed semel natas more VII septimanae dierum <pb n="[19]"/>iterum repeti sive innovari. Quare autem non amplius quam VII diversae sint; non
+        intuendum non alias atque alias denuo nasci; sed semel natas more VII septimanae dierum <pb
+          n="[19]"/>iterum repeti sive innovari. Quare autem non amplius quam VII diversae sint; non
         debet mirum videri. Eo usque enim in definiendis rebus diversitas, quousque diversae
         desinant videri requiritur. Ut enim ex multis pauca dicamus, sicut grammatica ad VIII
         isagoge ad V praedicamenta ad X varietates rediguntur, itemque aliae atque aliae in aliis;
@@ -75,8 +86,8 @@
         diatesseron differentia sit tonus, ipseque quamvis a consonantiis exclusus consonantias
         tamen iungat; videamus an ipsius quoque proportio Pythagoricis malleis producta in his
         primis lateat seminibus.</p>
-      <p xml:id="HERMUSE0004">Ubi primum nobis quaedam ammiratio de toni qualitate occurrit. Ipse enim
-        consonantiis non indiget; consonantiae vero ipso destitutae videntur spaciorum raritate
+      <p xml:id="HERMUSE0004">Ubi primum nobis quaedam ammiratio de toni qualitate occurrit. Ipse
+        enim consonantiis non indiget; consonantiae vero ipso destitutae videntur spaciorum raritate
         quasi quadam vastitate sesquialterae. Quod quo modo sit; cum post de inveniendis singulis
         vocibus docuerimus apparebit. Nunc interim ut eum ad suum hiatum complendum valeant
         corrogare; omnes suas mensurabiles partes ut eum efficiant properent comportare. Ergo
@@ -168,16 +179,16 @@
         magistrum, vel cum ipso, sed semper inferius locum accipit. Omnis enim autenticus praeter
         deuterum quinto a finali loco; omnis autem subiugalis subtus in secunda vel tertia chorda
         differentiam collocat.</p>
-      <p xml:id="HERMUSE0010">Quaeritur etiam quare cum quatuor tantum sint quadrichorda; tam subiugales
-        quam autentici tria possideant. Quod facile considerata processionis eorum ratione solvitur.
-        Nam cum omnis autenticus a propria finali incipiens, propria diapason specie per superiores
-        in suam transeat excellentem, omnis quoque subiugalis a sua gravi per finales in suam
-        ascendat superiorem, necesse est, ut duo extrema semel, duo vero media quia dupliciter sunt
-        pervia bis numerentur. Qua ex re quoque colligitur, quod graves et superiores subiugales,
-        finales vero et excellentes includunt autenticos, suntque subiugalium extremitates graves et
-        superiores, finales mediae; autenticorum vero extremitates finales et excellentes,
-        superiores mediae. Quae autem principalium, finalium, superiorum, excellentium sint officia
-        iam diximus et adhuc dicemus.</p>
+      <p xml:id="HERMUSE0010">Quaeritur etiam quare cum quatuor tantum sint quadrichorda; tam
+        subiugales quam autentici tria possideant. Quod facile considerata processionis eorum
+        ratione solvitur. Nam cum omnis autenticus a propria finali incipiens, propria diapason
+        specie per superiores in suam transeat excellentem, omnis quoque subiugalis a sua gravi per
+        finales in suam ascendat superiorem, necesse est, ut duo extrema semel, duo vero media quia
+        dupliciter sunt pervia bis numerentur. Qua ex re quoque colligitur, quod graves et
+        superiores subiugales, finales vero et excellentes includunt autenticos, suntque subiugalium
+        extremitates graves et superiores, finales mediae; autenticorum vero extremitates finales et
+        excellentes, superiores mediae. Quae autem principalium, finalium, superiorum, excellentium
+        sint officia iam diximus et adhuc dicemus.</p>
       <p xml:id="HERMUSE0011">
         <pb n="[26]"/>Interim quasi segnibus non est delassandum; sed quia in monochordo
         quadrichorda bifariam fiunt, quae eorum differentia sit videndum. Ea quidem quae dextrorsum
@@ -233,11 +244,12 @@
         terminatur. Sed cum haec confusio si per ordinem sic numerentur oriatur, quantum ille
         deliquit qui solas formas non autem naturalium constitutionum intuens causas D, G primam, E,
         a secundam, terciam G, c nimis incaute definivit, solam iterum primam id est a, d recte
-        ponens, sed sibi ipsi contrarius, qui prius D, G, primam posuit. Quod ideo tam isti <pb n="[29]"/>quam omnibus musicis evenit quia in positione primae, nulla quartae consideratio
+        ponens, sed sibi ipsi contrarius, qui prius D, G, primam posuit. Quod ideo tam isti <pb
+          n="[29]"/>quam omnibus musicis evenit quia in positione primae, nulla quartae consideratio
         est.</p>
-      <p xml:id="HERMUSE0016">His igitur ita se habentibus; sciendum est quod si quis ea quae dicta sunt
-        in secundo diapason facere tentaverit, non aliam genituram diatesseron nasci, sed eam quae
-        iam dicta est repeti videbit et quod in gravibus vel principalibus factum est, in
+      <p xml:id="HERMUSE0016">His igitur ita se habentibus; sciendum est quod si quis ea quae dicta
+        sunt in secundo diapason facere tentaverit, non aliam genituram diatesseron nasci, sed eam
+        quae iam dicta est repeti videbit et quod in gravibus vel principalibus factum est, in
         superioribus qui eiusdem naturae sunt efficere valebit. Sicque colligitur quatuor esse
         primas A, D, a, d, quatuor secundas B, E, [sqb], e, quatuor tercias C, F, c, f, quatuor
         quartas D, G, d, g.</p>
@@ -252,8 +264,8 @@
         nitens literis. Tercia F, c, constans tono, tono, tono, semitonio, et propriis hinc inde
         munita literis. Quarta G, d, constans tono, tono, semitonio, tono, et propriis literis tam
         se ipsam quam utrumque finiens quadrichordum.</p>
-      <p xml:id="HERMUSE0018">Quas ut manifestiores reddamus; aliis eas verbis replicemus. Prima D, a,
-        constat ex prima finali et ex prima superiori; secunda E, [sqb], ex <pb n="[30]"/>secunda
+      <p xml:id="HERMUSE0018">Quas ut manifestiores reddamus; aliis eas verbis replicemus. Prima D,
+        a, constat ex prima finali et ex prima superiori; secunda E, [sqb], ex <pb n="[30]"/>secunda
         finali et ex secunda superiori; tercia F, c, ex tercia finali et ex tercia superiori; quarta
         G, d, ex quarta finali et ex quarta superiori. Quae si vicissim ad graves transponantur,
         occurrit prima A, E, naturali quidem positione, tonorum dico et semitoniorum, sed non ex
@@ -269,8 +281,8 @@
         tantum si [Gamma] Grecum apponatur synemenon quoque interponatur fieri poterit, ut sit quasi
         prima [Gamma], A, [signum], C, D, secunda A, [signum], C, D, E, tercia [signum], C, D, E, F,
         quarta C, D, E, F, G.</p>
-      <p xml:id="HERMUSE0019">Nunc etiam de diapason speciebus videamus. Superius dictum est quod duo
-        septena vocum discrimina quatuor reddunt quadrichorda, quae <pb n="[31]"/>omnia secundum
+      <p xml:id="HERMUSE0019">Nunc etiam de diapason speciebus videamus. Superius dictum est quod
+        duo septena vocum discrimina quatuor reddunt quadrichorda, quae <pb n="[31]"/>omnia secundum
         uniformem troporum positionem sunt aequalia, secundum institutionem vero specierum diapente
         et diatesseron, primum tercio, secundum aequale est quarto. Unde necesse est ut cum
         superiores gravium excellentes octavae sint finalium quatuor diapason species inceptae a
@@ -298,10 +310,11 @@
         secundum dignitatem; nam unusquisque eorum per se autenticus est, hoc est auctor sive
         magister. Protus tono a deutero, sed ipse semitonio a trito, qui item tono distat a
         tetrardo.</p>
-      <p xml:id="HERMUSE0021">Nunc quod huc usque longo tractum est sermone hoc compendio terminemus, ut
-        unumquemque tropum suis principalibus literis, propriis etiam omnium consonantiarum
-        speciebus informemus; quatenus proto omne primum, deutero omne secundum, trito omne tercium,
-        tetrardo omne suscipiente quartum, nil ociosum nil superfluum relinquatur.</p>
+      <p xml:id="HERMUSE0021">Nunc quod huc usque longo tractum est sermone hoc compendio
+        terminemus, ut unumquemque tropum suis principalibus literis, propriis etiam omnium
+        consonantiarum speciebus informemus; quatenus proto omne primum, deutero omne secundum,
+        trito omne tercium, tetrardo omne suscipiente quartum, nil ociosum nil superfluum
+        relinquatur.</p>
       <p xml:id="HERMUSE0022">Protus cum suo subiugali, quia primi sunt, necessario omnia quae prima
         sunt requirunt, primas videlicet in omnibus quadrichordis literas, quae sunt A, D, a, d,
         primas species diapason quae sunt A, a, et D, d, primam speciem diapente quae est D, a,
@@ -326,18 +339,19 @@
         tribus formatur literis, id est B, E, [sqb], et est diapason B, [sqb], id est eius
         acutissimum et gravissimum; E vero media finit eum cum magistro, cum quo etiam diapente
         communitur diatesseron vero possidet in gravibus.</p>
-      <p xml:id="HERMUSE0024">Tritus cum suo subiugali quia tercii sunt, necessario omnia quae tercia
-        sunt exposcunt; tercias videlicet in omnibus quadrichordis litteras quae sunt C, F, c, f;
-        tercias diapason species quae sunt C, c, F, f; terciam speciam diapente quae est F, c;
-        terciam speciam diatesseron quae est C, F. Haec generalis institutio ita utrique <pb n="[34]"/>subdividitur. Ex quatuor praedictis literis tribus autenticus dominatur, id est
+      <p xml:id="HERMUSE0024">Tritus cum suo subiugali quia tercii sunt, necessario omnia quae
+        tercia sunt exposcunt; tercias videlicet in omnibus quadrichordis litteras quae sunt C, F,
+        c, f; tercias diapason species quae sunt C, c, F, f; terciam speciam diapente quae est F, c;
+        terciam speciam diatesseron quae est C, F. Haec generalis institutio ita utrique <pb
+          n="[34]"/>subdividitur. Ex quatuor praedictis literis tribus autenticus dominatur, id est
         F, c, f, et est F, f, diapason id est eius acutissimum et gravissimum; c vero media per
         saeculorum amen est officiosa. Habet diapente F, c; diatesseron c, f, in superioribus.
         Subiugalis eius similiter tribus constituitur literis, quae sunt C, F, c, et est C, c
         diapason, id est acutissimum et eius gravissimum; F vero media finit eum cum magistro, cum
         quo etiam diapente communitur, diatesseron vero suscipit in gravibus.</p>
-      <p xml:id="HERMUSE0025">Tetrardus cum suo subiugali quia quarti sunt necessario omnia quae quarta
-        sunt requiritur, quartas videlicet in omnibus quadrichordis literas quae sunt D, G, d, g,
-        quartas diapason species quae sunt D, d, G, g, quartam diapente speciem quae est G, d,
+      <p xml:id="HERMUSE0025">Tetrardus cum suo subiugali quia quarti sunt necessario omnia quae
+        quarta sunt requiritur, quartas videlicet in omnibus quadrichordis literas quae sunt D, G,
+        d, g, quartas diapason species quae sunt D, d, G, g, quartam diapente speciem quae est G, d,
         quartam quoque diatesseron speciem quae est D, G. Haec generalis institutio ita illis
         subdividitur. Ex quatuor praedictis literis tres sibi sumit autenticus, id est G, d, g, et
         est G, g diapason, id est eius acutissimum et gravissimum d vero media saeculorum amen
@@ -346,8 +360,9 @@
         et gravissimum; G vero media finit eum cum magistro, cumquo etiam diapente communitur,
         diatesseron vero collocat in gravibus. Ecce omnis ordinatim expensae; cum tropis etiam
         literae finitae sunt.</p>
-      <p xml:id="HERMUSE0026">[Ellinwood, 34; text: Graves, Finales, Superiores, Excellentes, A, B, C,
-        D, E, F, G, a, [sqb], c, d, e, f, g, aa, Subiugalium complexio, Autenticorum comprehensio] <figure>
+      <p xml:id="HERMUSE0026">[Ellinwood, 34; text: Graves, Finales, Superiores, Excellentes, A, B,
+        C, D, E, F, G, a, [sqb], c, d, e, f, g, aa, Subiugalium complexio, Autenticorum
+        comprehensio] <figure>
           <graphic url="/images/HERMUSE_01GF.gif"/>
         </figure></p>
       <p xml:id="HERMUSE0027">
@@ -366,7 +381,8 @@
         quod est absurdissimum cum eius dispositio ab a in aa consistat, non aliam quam Ypodoricam
         positionem de qua etiam praedictum est incurrit. Nulla enim alia positio est a mese ad
         neteyperboleon, quam quae est a proslambanomenon ad mese; et ideo ipsa lege naturae utrimque
-        Ypodorica est; est enim a, aa diapason id est acutissimum et gravissimum, <pb n="[36]"/>media vero d quae item non alius tropi finalis quam proti suique subiugalis esse poterit.
+        Ypodorica est; est enim a, aa diapason id est acutissimum et gravissimum, <pb n="[36]"
+        />media vero d quae item non alius tropi finalis quam proti suique subiugalis esse poterit.
         Item e, f, quae deuteri sunt et triti non erunt mediae inter a et aa; ideo nec finales. Quid
         ergo? Quia discipulus est tetrardi fortasse sui magistri literam id est g sortitur mediam et
         ideo finalem. Sed g non est media inter a et aa; ergo nec finalis. Amplius. Omnis subiugalis
@@ -387,14 +403,14 @@
       <p xml:id="HERMUSE0032">Ypomixolidius ordinatur a D in d, mediatur et finitur G.</p>
       <p xml:id="HERMUSE0033">[Ellinwood, 37; text: A, B, C, D, E, F, G, a, [sqb], c, d, Extremitas,
         Gravissima, Graves, Mediae quae et Finales, Extremitas acutissima, superiores]</p>
-      <p xml:id="HERMUSE0034">Hic notandum est quod omnis subiugalis in quarto, omnis autem autenticus
-        ut post patebit in quinto loco mediam sortitur. Quod non est mirum. Nam quartus quadrupli
-        passus a quo subiugales oriuntur, quatuor; tercius autem a quo autentici procedunt quinque
-        voces includit. Unde cum unaquaeque ex quatuor gravibus suam in quatuor finalibus pro media
-        vel finali suam octavam in quatuor superioribus acceperit; recte quatuor subiugales per
-        graves, finales, superiores, gravati, mediati, exaltati, dispositionem suam terminaverunt.
-        Ubi hoc vigilanter intuendum est; quod si subiugalis quartus socios suos quarto loco non
-        sequeretur; G quoque sola ex mediis medietate privaretur.</p>
+      <p xml:id="HERMUSE0034">Hic notandum est quod omnis subiugalis in quarto, omnis autem
+        autenticus ut post patebit in quinto loco mediam sortitur. Quod non est mirum. Nam quartus
+        quadrupli passus a quo subiugales oriuntur, quatuor; tercius autem a quo autentici procedunt
+        quinque voces includit. Unde cum unaquaeque ex quatuor gravibus suam in quatuor finalibus
+        pro media vel finali suam octavam in quatuor superioribus acceperit; recte quatuor
+        subiugales per graves, finales, superiores, gravati, mediati, exaltati, dispositionem suam
+        terminaverunt. Ubi hoc vigilanter intuendum est; quod si subiugalis quartus socios suos
+        quarto loco non sequeretur; G quoque sola ex mediis medietate privaretur.</p>
       <p xml:id="HERMUSE0035">Nunc his non inutiliter inspectis; de autenticis similia faciamus:</p>
       <p xml:id="HERMUSE0036">Dorius disponitur a D in d, mediatur et iniciatur a.</p>
       <p xml:id="HERMUSE0037">Frigius construitur ab E in e, mediatur sed non iniciatur [sqb].</p>
@@ -428,8 +444,9 @@
         extremitates; et quae secundae subiugalibus ad medietates, autenticis provenient ad
         extremitates. Sit ergo propositum primas literas HIKL secundas LMNO haberi. Has igitur pro
         exemplo in quatuor disponamus quadrichordis,</p>
-      <p xml:id="HERMUSE0042">[Ellinwood, 39; text: Graves, Finales, Superiores, Excellentes, H, I, K,
-        L, M, N, O, h, i, k, l, m, n, o, hh, A, B, C, D, E, F, G, a, [sqb], c, d, e, f, g, aa]</p>
+      <p xml:id="HERMUSE0042">[Ellinwood, 39; text: Graves, Finales, Superiores, Excellentes, H, I,
+        K, L, M, N, O, h, i, k, l, m, n, o, hh, A, B, C, D, E, F, G, a, [sqb], c, d, e, f, g,
+        aa]</p>
       <p xml:id="HERMUSE0043">Videsne quaeso quod literarum mutatio nihil praedictam autenticorum et
         subiugalium rationem mutet, sed quae pro primis habitae sunt autenticorum quae pro secundis
         subiugalium teneant medietatem? Ex his omnibus illos <pb n="[40]"/>etiam errasse colligitur,
@@ -446,12 +463,12 @@
         ipsis primis literis sorte cecidit, unde et ex eo sicut praedictum est autentici
         principalitatem sicut ex sequenti medio cui secunda troporum positio cum secundis literis
         contigit suam subiugales accipiunt dignitatem.</p>
-      <p xml:id="HERMUSE0045">Excellens non de maiori dignitate sed de acutissima vocis qualitate nomen
-        accepit; quod etiam positivum nomen ostendit. Cui cum finale tam positione quam literis sit
-        aequale quaeri potest quare illi potius quam isti fines cantionum deputatae sint. Ad quod
-        dicendum, quia prior est intensio quam remissio; et cuiuslibet operis processus intensionem,
-        finis vero quaerit remissionem. Unde et cantilenae post excellentium intensionem in
-        inferioribus finem requirunt vel remissionem ideoque et finales dicuntur.</p>
+      <p xml:id="HERMUSE0045">Excellens non de maiori dignitate sed de acutissima vocis qualitate
+        nomen accepit; quod etiam positivum nomen ostendit. Cui cum finale tam positione quam
+        literis sit aequale quaeri potest quare illi potius quam isti fines cantionum deputatae
+        sint. Ad quod dicendum, quia prior est intensio quam remissio; et cuiuslibet operis
+        processus intensionem, finis vero quaerit remissionem. Unde et cantilenae post excellentium
+        intensionem in inferioribus finem requirunt vel remissionem ideoque et finales dicuntur.</p>
       <p xml:id="HERMUSE0046">
         <pb n="[41]"/>In quo loco quaeri potest quare autentici per tria quadrichorda ascendentes et
         per eadem descendentes requiescant; subiugales vero similiter quoque per tria ascendentes,
@@ -459,25 +476,26 @@
         solvitur. Congruum est ut duo principalia officia, id est saeculorum amen et fines, in
         principalitate duarum medietatum teneantur; ut sicut simul in primaria medietate saeculorum
         amen, ita in secundaria simul omnes fines suos possideant.</p>
-      <p xml:id="HERMUSE0047">Quia ergo nobis propositum est quaecumque idonea suggerit speculatio ad
-        dilucidandas multiplices monochordi obscuritates in hoc opusculum quasi in unum fasciculum
-        conferre; nolumus et illud esse occultum quare tam Ypomixolidius quam Dorius inter D et d
-        dispositionem accipiat. Potest enim mirum videri; quomodo in una eademque regione duo
-        diversi efficiantur modi. Quod hac solvitur ratione. Cum quatuordecim voces ex quatuor
-        reddantur quadrichordis; necesse est eas secundum paris numeri naturam duas medietates quae
-        et praedictam diezeuxin faciunt habere. Hae sunt autem G et a quarum una subiugalium
-        medietates vel fines terminat altera autenticorum medietates inchoat. Unde necesse est ut ea
-        quae quarto loco subiugales terminat, secundum medietates tetrardi eiusque subiugalis qui
-        quarti sunt propria sit, id est G; illa vero quae autenticos secundum medietates inchoat
-        solius proti propria sit, id est a. Hae igitur duae medietates inter unum diapason duos
-        diversos de quibus agitur modos hoc ratione conficiunt. Protus dispositus a D in d mediam
-        habet a; finalem D. Ergo per cola et commata finemque has suas proprias saepius <pb n="[42]"/>frequentans literas, proprias quoque diatesseron et diapente species quae sunt a, d, et D,
-        a, in cantando recognoscens Ypomixolidio omnino dissimilis redditur. Item propter saepe
-        dictam septenarum vocum medietatem, quae sicut duo quadrichorda connectit, ita etiam duorum
-        dispositionem troporum accipit, Ypomixolidius quoque a D in d dispositus mediam habet G; ad
-        quam et ipse per cola, commata, finem saepius sive intensus sive remissus recurrens proprias
-        quoque diatesseron et diapente species quae sunt D, G et G, d frequentans, proto omnino
-        contrarius efficitur.</p>
+      <p xml:id="HERMUSE0047">Quia ergo nobis propositum est quaecumque idonea suggerit speculatio
+        ad dilucidandas multiplices monochordi obscuritates in hoc opusculum quasi in unum
+        fasciculum conferre; nolumus et illud esse occultum quare tam Ypomixolidius quam Dorius
+        inter D et d dispositionem accipiat. Potest enim mirum videri; quomodo in una eademque
+        regione duo diversi efficiantur modi. Quod hac solvitur ratione. Cum quatuordecim voces ex
+        quatuor reddantur quadrichordis; necesse est eas secundum paris numeri naturam duas
+        medietates quae et praedictam diezeuxin faciunt habere. Hae sunt autem G et a quarum una
+        subiugalium medietates vel fines terminat altera autenticorum medietates inchoat. Unde
+        necesse est ut ea quae quarto loco subiugales terminat, secundum medietates tetrardi eiusque
+        subiugalis qui quarti sunt propria sit, id est G; illa vero quae autenticos secundum
+        medietates inchoat solius proti propria sit, id est a. Hae igitur duae medietates inter unum
+        diapason duos diversos de quibus agitur modos hoc ratione conficiunt. Protus dispositus a D
+        in d mediam habet a; finalem D. Ergo per cola et commata finemque has suas proprias saepius
+          <pb n="[42]"/>frequentans literas, proprias quoque diatesseron et diapente species quae
+        sunt a, d, et D, a, in cantando recognoscens Ypomixolidio omnino dissimilis redditur. Item
+        propter saepe dictam septenarum vocum medietatem, quae sicut duo quadrichorda connectit, ita
+        etiam duorum dispositionem troporum accipit, Ypomixolidius quoque a D in d dispositus mediam
+        habet G; ad quam et ipse per cola, commata, finem saepius sive intensus sive remissus
+        recurrens proprias quoque diatesseron et diapente species quae sunt D, G et G, d
+        frequentans, proto omnino contrarius efficitur.</p>
       <p xml:id="HERMUSE0048">His cognitis non est scitum ignobile, etiam indifferentes troporum
         positiones cognoscere. In qua descriptione, quod octo specialiter, hoc quatuor generaliter
         accipiunt hoc modo:</p>
@@ -487,8 +505,8 @@
       <p xml:id="HERMUSE0052">Tetrardus modulatur a D in g, mediatur G et d.</p>
       <p xml:id="HERMUSE0053">Ut ergo omnia priora fiant manifestiora; omnium troporum singillatim
         dispositionem sternamus in ordine hoc modo:</p>
-      <p xml:id="HERMUSE0054">[Ellinwood, 42; text: Ypodorius, Diapason, Diapente, Diatesseron, [Gamma],
-        A, B, C, D. E, F, G, a, [rob], tonus, semitonium ]</p>
+      <p xml:id="HERMUSE0054">[Ellinwood, 42; text: Ypodorius, Diapason, Diapente, Diatesseron,
+        [Gamma], A, B, C, D. E, F, G, a, [rob], tonus, semitonium ]</p>
       <p xml:id="HERMUSE0055">
         <pb n="[43]"/>[Ellinwood, 43; text: Ypofrigius, Ypolidius, Ypomixolidius, Dorius, Frigius,
         Lidius, Mixolidius, Diapason, Diapente, Diatesseron, A, B, C, D, E, F, G, a, [sqb], c, d, e,
@@ -508,35 +526,35 @@
         <lb/>D    E    F     G     a     [sqb] c     d
         <br/>E    F    G     A     [sqb] c     d     e
         <lb/>F    G    a     [sqb] c     d     e     f
-        <br/>G    a    [sqb] c     d     e     f     g
-        <lb/></p>
-      <p xml:id="HERMUSE0058">In praecedenti figura diligentissime disposita etiam minus intelligentibus
-        patet, quibus diapason, diapente, diatesseron speciebus omnis tropus consistat, quod
-        autenticos finales et excellentes, subiugales vero graves includant et superiores, quod
-        autenticos finales superiores et excellentes, subiugales vero graves, finales, superiores
-        deprimant, medient, exaltent, quod subiugales primum diatesseron dein diapente, autentici
-        vero primum diapente, post ea habeant diatesseron; quod autenticis regulariter in graves,
-        subiugalibus <pb n="[46]"/>similiter non sit transitus in excellentes; quod autentici
-        subiugalibus per diapente in finalibus, subiugales vero autenticis per diatesseron
-        communicent in superioribus; quod diapente in gravibus, diatesseron vero in finalibus formis
-        tantum non legitima institutione inveniatur; quod tres diversae species diatesseron, quatuor
-        diapente, octo vero constituant diapason, propter octo troporum qualitates, octava quippe
-        specie inter unum idemque diapason quo et protus disponitur sed diversa medietate diversis
-        quoque diapente et diatesseron speciebus distincta quod et superius plenius dictum est; quod
-        D sola inter omnes chordas biformis sit, hoc est quia quarta gravium et prima est finalium,
-        et quia secundum id quod prima est, protum autenticum, secundum id vero quod quarta, quartum
-        quoque informat subiugalem; secundum id quod prima primas diatesseron et diapente species
-        unam claudit, alteram inchoat secundum id quod quarta, quartam diatesseron speciem in
-        positione primae repraesentat. Similiter acutum d quarta est superiorum et prima
-        excellentium, secundum id quod prima, primas iterum diatesseron et diapente species unam
-        claudit alteram inchoat, secundum id quod quarta iterum quartam diatesseron speciem
-        repraesentat, secundum id quod prima protum quantum ad legem altissimo ascensu, secundum id
-        quod quarta quartum etiam subiugalem cum proto claudit; tetrardum vero quartum autenticum
-        per saeculorum amen incipit. Et ut manifestius dicamus, in nomine primae et quartae primum
-        autenticum et quartum subiugalem hinc per gravissimum deprimit descensum, proto ad huc
-        specialiter in ea finem habente, inde eosdem per altissimum elevat ascensum, tetrardo ad huc
-        in ea saeculorum amen specialiter modulante. Haec ideo breviter sunt <pb n="[47]"/>recapitulata; ut uno intuitu lectoris oculis ingesta, promptiori et tenaciori capiantur
-        memoria.</p>
+        <br/>G    a    [sqb] c     d     e     f     g <lb/></p>
+      <p xml:id="HERMUSE0058">In praecedenti figura diligentissime disposita etiam minus
+        intelligentibus patet, quibus diapason, diapente, diatesseron speciebus omnis tropus
+        consistat, quod autenticos finales et excellentes, subiugales vero graves includant et
+        superiores, quod autenticos finales superiores et excellentes, subiugales vero graves,
+        finales, superiores deprimant, medient, exaltent, quod subiugales primum diatesseron dein
+        diapente, autentici vero primum diapente, post ea habeant diatesseron; quod autenticis
+        regulariter in graves, subiugalibus <pb n="[46]"/>similiter non sit transitus in
+        excellentes; quod autentici subiugalibus per diapente in finalibus, subiugales vero
+        autenticis per diatesseron communicent in superioribus; quod diapente in gravibus,
+        diatesseron vero in finalibus formis tantum non legitima institutione inveniatur; quod tres
+        diversae species diatesseron, quatuor diapente, octo vero constituant diapason, propter octo
+        troporum qualitates, octava quippe specie inter unum idemque diapason quo et protus
+        disponitur sed diversa medietate diversis quoque diapente et diatesseron speciebus distincta
+        quod et superius plenius dictum est; quod D sola inter omnes chordas biformis sit, hoc est
+        quia quarta gravium et prima est finalium, et quia secundum id quod prima est, protum
+        autenticum, secundum id vero quod quarta, quartum quoque informat subiugalem; secundum id
+        quod prima primas diatesseron et diapente species unam claudit, alteram inchoat secundum id
+        quod quarta, quartam diatesseron speciem in positione primae repraesentat. Similiter acutum
+        d quarta est superiorum et prima excellentium, secundum id quod prima, primas iterum
+        diatesseron et diapente species unam claudit alteram inchoat, secundum id quod quarta iterum
+        quartam diatesseron speciem repraesentat, secundum id quod prima protum quantum ad legem
+        altissimo ascensu, secundum id quod quarta quartum etiam subiugalem cum proto claudit;
+        tetrardum vero quartum autenticum per saeculorum amen incipit. Et ut manifestius dicamus, in
+        nomine primae et quartae primum autenticum et quartum subiugalem hinc per gravissimum
+        deprimit descensum, proto ad huc specialiter in ea finem habente, inde eosdem per altissimum
+        elevat ascensum, tetrardo ad huc in ea saeculorum amen specialiter modulante. Haec ideo
+        breviter sunt <pb n="[47]"/>recapitulata; ut uno intuitu lectoris oculis ingesta, promptiori
+        et tenaciori capiantur memoria.</p>
       <p xml:id="HERMUSE0059">Oportet autem nos scire, quod omnis musicae rationis ad hoc spectat
         intentio, ut cantilenae rationabiliter componendae, regulariter iudicandae, decenter
         modulandae scientia comparetur. Quorum trium cui facultas affuerit; is demum musicus recte
@@ -565,8 +583,8 @@
         vocis usu memoriae inculcaverit. Non enim quemvis audiens tropum quis sit indubitanter
         pronuntiare poterit; nisi iam dictis et deinceps dicendis diu multumque exercitatus fuerit.
         Sic ergo susum et iusum diatesseron species modulare:</p>
-      <p xml:id="HERMUSE0061">[Ellinwood, 48; text: Proti, Deuteri, Triti, Tetrardi, Intense, Remisse,
-        A, B, C, D, E, F, G] <figure>
+      <p xml:id="HERMUSE0061">[Ellinwood, 48; text: Proti, Deuteri, Triti, Tetrardi, Intense,
+        Remisse, A, B, C, D, E, F, G] <figure>
           <graphic url="/images/HERMUSE_03GF.gif"/>
         </figure></p>
       <p xml:id="HERMUSE0062">Videsne ut omnes regulari et inconfuso ordine a propriis gravibus vel
@@ -578,13 +596,13 @@
         melodiam inceperis, et propria diffinitione terminaveris. Quae quidem diffinitiones licet
         pleniter et perfecte in finalibus cantentur et superioribus; tamen ultimae neumae in
         unoquoque quadrichordo a suo non discordant tropo.</p>
-      <p xml:id="HERMUSE0063">Ut autem longe superius dictum est quasi quaedam diatesseron species F,
-        [sqb] videtur; sed quare non sit quia ibi non est dictum, hic dicendum videtur. Ubi primum
-        simpliciter dicimus, quod cum tres diversae diatesseron species per graves disponantur et
-        finales; nulla harum tritoni positione consistit. Item. Quia omnis diatesseron species
-        duobus tonis constat et semitonio, F, [sqb], quia e contra tritono continuo continetur,
-        diatesseron non reputatur. Item. Omnis diatesseron et diapente species duorum
-        quadrichordorum collatione perficiuntur; diatesseron quidem ex gravibus et finalibus,
+      <p xml:id="HERMUSE0063">Ut autem longe superius dictum est quasi quaedam diatesseron species
+        F, [sqb] videtur; sed quare non sit quia ibi non est dictum, hic dicendum videtur. Ubi
+        primum simpliciter dicimus, quod cum tres diversae diatesseron species per graves
+        disponantur et finales; nulla harum tritoni positione consistit. Item. Quia omnis
+        diatesseron species duobus tonis constat et semitonio, F, [sqb], quia e contra tritono
+        continuo continetur, diatesseron non reputatur. Item. Omnis diatesseron et diapente species
+        duorum quadrichordorum collatione perficiuntur; diatesseron quidem ex gravibus et finalibus,
         diapente vero ex finalibus et superioribus. Ergo si volo D, G primam diatesseron speciem
         dicere, quia ex duobus non fit quadrichordis mentior; erit ergo necessario quarta constans
         ex quarta gravi et ex quarta finali. Si dixero eam primam; forma me non institutione dixisse
@@ -606,9 +624,9 @@
         formalem perimo. Sed hoc ut longe superius diximus non est mirum; nam tercius primae
         mensurationis passus, quia quinque voces includit potius in his locis pentachorda quam
         tetrachorda operatur.</p>
-      <p xml:id="HERMUSE0064">Est ad huc subtilior ratio; quare F, [sqb] diatesseron non habeatur. Haec
-        ita consideratur. <pb n="[51]"/>Intendo D, G diatesseron, et possum remittere diapente G, C,
-        quia diatesseron ac diapente tono differunt. Item, Intendo D, a diapente, et possum
+      <p xml:id="HERMUSE0064">Est ad huc subtilior ratio; quare F, [sqb] diatesseron non habeatur.
+        Haec ita consideratur. <pb n="[51]"/>Intendo D, G diatesseron, et possum remittere diapente
+        G, C, quia diatesseron ac diapente tono differunt. Item, Intendo D, a diapente, et possum
         remittere diatesseron A, E; quia iterum differentia non repugnat. Item. Intendo E, a,
         diatesseron, et possum remittere diapente a, D; quia differentia sesquialteri ac
         sesquitercii congruit. Item intendo E, [sqb] diapente sed non possum remittere diatesseron
@@ -629,8 +647,8 @@
       <p xml:id="HERMUSE0067">
         <pb n="[52]"/>Perceptis autem perfecte diatesseron vocibus; sic susum et iusum diapente
         species cantabis:</p>
-      <p xml:id="HERMUSE0068">[Ellinwood, 52; text: Proti, Deuteri, Triti, Tetrardi, Intense, Remisse,
-        D, E, F, G, a, [sqb], c, d]</p>
+      <p xml:id="HERMUSE0068">[Ellinwood, 52; text: Proti, Deuteri, Triti, Tetrardi, Intense,
+        Remisse, D, E, F, G, a, [sqb], c, d]</p>
       <p xml:id="HERMUSE0069">Nonne consideras diligens lector, ut etiam diapente species a propriis
         finalibus naturali ordine incipiantur, in propriis superioribus exaltentur; in offenso
         gressu ad exordium suum revertantur? Quas item sicut superius dixi si consuetis differentiis
@@ -672,12 +690,12 @@
         demonstravit. Hoc autem quia a nobis saepe in superioribus dictum iam notissimum est; non
         est amplius immorandum. Qua propter ulterius iam transeamus; et quae ad agnitiones troporum
         utilia sunt adhuc videamus.</p>
-      <p xml:id="HERMUSE0071">Itaque speciebus diapente et diatesseron singillatim ut supra dictum est
-        tam voce quam chorda in usum versis, accedit adhuc maior troporum agnitio, quae talis est;
-        ut iunctis binis et binis speciebus, id est prima cum prima, secunda cum secunda, tercia cum
-        tercia, quarta cum quarta in autenticis quidem diapente diatesseron, in subiugalibus vero
-        diatesseron praeposito diapente; integrum cuiusque tropi ordinem proprietatemque susum et
-        iusum recitare discas hoc modo:</p>
+      <p xml:id="HERMUSE0071">Itaque speciebus diapente et diatesseron singillatim ut supra dictum
+        est tam voce quam chorda in usum versis, accedit adhuc maior troporum agnitio, quae talis
+        est; ut iunctis binis et binis speciebus, id est prima cum prima, secunda cum secunda,
+        tercia cum tercia, quarta cum quarta in autenticis quidem diapente diatesseron, in
+        subiugalibus vero diatesseron praeposito diapente; integrum cuiusque tropi ordinem
+        proprietatemque susum et iusum recitare discas hoc modo:</p>
       <p xml:id="HERMUSE0072">
         <pb n="[55]"/>[Ellinwood, 55; text: Ypodorius Ypofrigius Ypolidius, Lidius, Mixolidius, A,
         B, C, D, E, F, G, a, [sqb], c, d e, f, g] <figure>
@@ -688,16 +706,17 @@
         monstrat figura omnia octochorda, hoc est cuiusque tropi diapason a propriis literis
         inchoaverint, mediaverint, exaltaverint, finierint? Sicut enim duae minores symphoniae quod
         suum est duabus inaequalibus sed tamen propriis literis clauduntur; sic e contra maxima, id
-        est diapason quod suum est duabus aequalibus propter aequisonantiae naturam utrimque <pb n="[56]"/>concluditur, mediatur autem vel distinguitur una dissimili sed tamen aeque
+        est diapason quod suum est duabus aequalibus propter aequisonantiae naturam utrimque <pb
+          n="[56]"/>concluditur, mediatur autem vel distinguitur una dissimili sed tamen aeque
         propria. Quod sicut longe ante dictum est non mirum debet videri, quia cum propriis literis
         unumquodque diatesseron sibique conveniens diapente debeat in medio copulari; tamen cum
         nondum ibi sit aequisonantia, ab his quae diapason claudunt necessario erunt diversae.</p>
-      <p xml:id="HERMUSE0074">Unde longe a veritate discordant, qui fere ubique in quintis locis eadem
-        signa quasi ibi perfecta concordia sit ponunt, quibus etiam hoc vitio contingit. ut contra
-        communem omnium musicorum consensum immo contra ipsius iura naturae eadem signa in nona
-        potius quam in octava regione veniant, sicque quod nimis absurdum est caracteres tantum non
-        voces aequalitatem habeant. Quo circa talis dispositionis studio immorantibus considerandum
-        est, quod ubi dissipata principalium chordarum operatione perturbata specierum
+      <p xml:id="HERMUSE0074">Unde longe a veritate discordant, qui fere ubique in quintis locis
+        eadem signa quasi ibi perfecta concordia sit ponunt, quibus etiam hoc vitio contingit. ut
+        contra communem omnium musicorum consensum immo contra ipsius iura naturae eadem signa in
+        nona potius quam in octava regione veniant, sicque quod nimis absurdum est caracteres tantum
+        non voces aequalitatem habeant. Quo circa talis dispositionis studio immorantibus
+        considerandum est, quod ubi dissipata principalium chordarum operatione perturbata specierum
         constitutione, disiecto troporum ordine nil fere veritatis nil pene certitudinis constat,
         nihil se verum, nihil certum acturos sciant. Quod ut manifestius fiat; eandem suboculis
         dispositionem ponamus.</p>
@@ -733,15 +752,15 @@
         in his antiphonis, Si vere fratres, et Multi venient et similibus potest dinosci. Quae ergo
         dicta sunt in sex vocibus constructa tam senarii numeri quam maximi intervalli quod tot
         vocibus constat perfectionem demonstrant.</p>
-      <p xml:id="HERMUSE0080">Et haec secundum nostram speculationem dicta sunt; caeterum maiores in his
-        effodiendis agiles, in expurgandis segnes, dum saepe dictam D biformitatem non attendebant,
-        in quarto loco quarti tropi agnitionem subtrahentes offendebant, non considerantes tropos
-        invicem converti, ut protus tono depositus, prima specie diapente intendatur, tetrardus vero
-        e contra quarto ei loco oppositus tono intensus quarta specie diapente remittatur, deuterus
-        ditono remissus secunda specie diatesseron intendatur, tritus vero e contra ditono intensus,
-        tercia specie diatesseron remittatur. Ubi et hoc notandum, quod extremi id est protus et
-        tetrardus per tonum et proprias species diapente, medii vero id est deuterus et tritus per
-        ditonum et proprias species diatesseron variantur.</p>
+      <p xml:id="HERMUSE0080">Et haec secundum nostram speculationem dicta sunt; caeterum maiores in
+        his effodiendis agiles, in expurgandis segnes, dum saepe dictam D biformitatem non
+        attendebant, in quarto loco quarti tropi agnitionem subtrahentes offendebant, non
+        considerantes tropos invicem converti, ut protus tono depositus, prima specie diapente
+        intendatur, tetrardus vero e contra quarto ei loco oppositus tono intensus quarta specie
+        diapente remittatur, deuterus ditono remissus secunda specie diatesseron intendatur, tritus
+        vero e contra ditono intensus, tercia specie diatesseron remittatur. Ubi et hoc notandum,
+        quod extremi id est protus et tetrardus per tonum et proprias species diapente, medii vero
+        id est deuterus et tritus per ditonum et proprias species diatesseron variantur.</p>
       <p xml:id="HERMUSE0081">
         <pb n="[60]"/>Ergo uno vulnere in hac offensione sanato, alteram tribus aegram vulneribus
         requiramus; et humiliter sanitati restituamus. Hi ergo de quibus loquimur, ignorantes ea
@@ -772,9 +791,9 @@
         dictum est.</p>
       <p xml:id="HERMUSE0083">Non nihil quoque ad agnitionem prodest troporum, siquis simul omnium
         troporum diversitates dinumeratis hoc modo locis intuetur.</p>
-      <p xml:id="HERMUSE0084">[Ellinwood, 61; text: Species Diatesseron, Species Diapente, I.S. II.S.
-        III.S. IV.S. I.A. II.A. III.A. IV.A. i, ii, iii, iiii, v, vi, vii, A, B, C, D, E, F, G, a,
-        [SQB], c, d , e, f, g, tonus, semitonium]</p>
+      <p xml:id="HERMUSE0084">[Ellinwood, 61; text: Species Diatesseron, Species Diapente, I.S.
+        II.S. III.S. IV.S. I.A. II.A. III.A. IV.A. i, ii, iii, iiii, v, vi, vii, A, B, C, D, E, F,
+        G, a, [SQB], c, d , e, f, g, tonus, semitonium]</p>
       <p xml:id="HERMUSE0085">
         <pb n="[63]"/>Siquis igitur ita hebetis ingenii fuerit, ut praecedentium lectione minus
         proficere possit, saltem in praesentem figuram oculos infigat, digitum impingat, et absque

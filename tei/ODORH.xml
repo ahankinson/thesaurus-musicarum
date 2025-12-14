@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Regulae de rhythmimachia</title>
         <title type="abbrev">ODORH</title>
-        <author>Odo</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Odo</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Patrologia cursus completus, series latina</emph>, ed. J. P. Migne, 221 vols.
@@ -54,7 +64,8 @@
         proponantur multiplici, dupli, quadrupli, sescupli, octupli. His opponantur octo minores
         nigri ejusdem generis, tripli, quincupli, septupli, nonupli. Retro minores albos octo
         existant rubri ex genere superparticulari, ita ut sesquialteri adhaereant duplis,
-        sesquiquarti quadruplis, sesquisexti sescuplis, sesquioctavi octuplis. Item <pb n="[796]"/>retro minores nigros octo existant majores albi ex genere superparticulari, ut
+        sesquiquarti quadruplis, sesquisexti sescuplis, sesquioctavi octuplis. Item <pb n="[796]"
+        />retro minores nigros octo existant majores albi ex genere superparticulari, ut
         sesquitertii juncti sint triplis, sesquiquinti quincuplis, sesquiseptimi septuplis,
         sesquinoni nonuplis. Retro rubros octo existant minores nigri ex genere superpartienti, ut
         superbipartientes juncti sint sesquialteris, superquadripartientes sesquiquartis,
@@ -62,8 +73,8 @@
         minores octo existant ex genere superpartienti, ut supertripartientes adhaereant
         sesquitertiis, superquinquepartientes sesquiquintis, superseptipartientes sesquiseptimis,
         supernonipartientes sesquinonis.</p>
-      <p xml:id="ODORH0005">His ita dispositis legitimi fiant tractus ex alterutra parte alternatim, ut
-        multiplices trahantur in secundum ante retro, dextrorsum, sinistrorsum, angulariter:
+      <p xml:id="ODORH0005">His ita dispositis legitimi fiant tractus ex alterutra parte alternatim,
+        ut multiplices trahantur in secundum ante retro, dextrorsum, sinistrorsum, angulariter:
         superparticulares in tertium, superpartientes in quartum. Quicumque numerus contrariae
         partis numerum in suo legitimo cursu offendit, illum qui sit ejusdem quantitatis auferat. Si
         numerus circumponitur contrariae partis, qui multiplicati et compositi efficiant
@@ -79,8 +90,8 @@
         Non solum his basibus XXXVI et LXIV pyramides auferantur, sed quicunque numeri cum
         quantitate spatiorum multiplicati easdem bases efficiant, auferant pyramides, et simul omnes
         tetragonos, quibus constant.</p>
-      <p xml:id="ODORH0007">Qui tendit ad victoriam, summopere studeat in capite adversarii maximam et
-        perfectam harmoniam constituere, quae quatuor constans terminis caeteras in se continet
+      <p xml:id="ODORH0007">Qui tendit ad victoriam, summopere studeat in capite adversarii maximam
+        et perfectam harmoniam constituere, quae quatuor constans terminis caeteras in se continet
         tres, geometricam, arithmeticam, harmonicam, et insuper proportiones omnium musicarum
         symphoniarum. Si haec fieri non possit, terminis ejus per praedam non acquisitis aut per
         incuriam perditis, sufficiat ad victoriam arithmetica et harmonica, quarum utraque ex tribus
@@ -90,22 +101,22 @@
         auferri. In utraque termini abundant arithmetici. Harmonicorum per praedam unus acquirendus
         est: quem primum pones, ex nomine indices adversario, in tali cautione pones, ut illum adhuc
         nullus ponendorum possit interrepere.</p>
-      <p xml:id="ODORH0008">Nemo existimet me inconfuse et inordinate hos calculos posuisse: sed memor
-        praeceptorum trium Boetii, quibus hunc conflictum secundum eadem me posuisse, modo neglecto
-        propter evitandam numerositatem monadum, diabum, tradium, et caeterarum geniturarum. Qui
-        quaerit binariam monadem, si ternariam triplicet, si quaternariam quadruplicet si quinariam
-        quintuplicet, si senariam sescuplicet ab hostibus undique circumventus captivatur unus,
-        quatuor cum pyramide eadunt: aliter quatuor obsideri possunt. Senarius per ternarium in
-        secundo campo cadit: octonarius per adjunctos, videlicet quinque et tres: sextemdecim per
-        novem et septem: triginta sex per novenarium in quarto, sive eadem quantitate: sexaginta
-        quatuor eadem quantitate, sive per sexdecim in quarto: novenarius per ternarium in tertio,
-        sive eadem quantitate: viginti quinque per quinque in quinto: quindecim per quinarium in
-        tertio: quadraginta duo per septenarium in sexto: quadraginta novem in septimo: septuaginta
-        duo per novenarium in octavo: octoginta et unus per novenarium in nono campo: quindecim per
-        tria in quinto, sive per quinarium in tertio: quadraginta quinque per novenarium in quinto:
-        centum sexaginta novem per tricesimum in quarto, et remanent quadraginta novem: centum
-        quinquaginta tres per viginti quinque in sexto, adjuncto ternario: ducenti octoginta novem
-        per quinquaginta sex in quinto, et remanent novem.</p>
+      <p xml:id="ODORH0008">Nemo existimet me inconfuse et inordinate hos calculos posuisse: sed
+        memor praeceptorum trium Boetii, quibus hunc conflictum secundum eadem me posuisse, modo
+        neglecto propter evitandam numerositatem monadum, diabum, tradium, et caeterarum
+        geniturarum. Qui quaerit binariam monadem, si ternariam triplicet, si quaternariam
+        quadruplicet si quinariam quintuplicet, si senariam sescuplicet ab hostibus undique
+        circumventus captivatur unus, quatuor cum pyramide eadunt: aliter quatuor obsideri possunt.
+        Senarius per ternarium in secundo campo cadit: octonarius per adjunctos, videlicet quinque
+        et tres: sextemdecim per novem et septem: triginta sex per novenarium in quarto, sive eadem
+        quantitate: sexaginta quatuor eadem quantitate, sive per sexdecim in quarto: novenarius per
+        ternarium in tertio, sive eadem quantitate: viginti quinque per quinque in quinto: quindecim
+        per quinarium in tertio: quadraginta duo per septenarium in sexto: quadraginta novem in
+        septimo: septuaginta duo per novenarium in octavo: octoginta et unus per novenarium in nono
+        campo: quindecim per tria in quinto, sive per quinarium in tertio: quadraginta quinque per
+        novenarium in quinto: centum sexaginta novem per tricesimum in quarto, et remanent
+        quadraginta novem: centum quinquaginta tres per viginti quinque in sexto, adjuncto ternario:
+        ducenti octoginta novem per quinquaginta sex in quinto, et remanent novem.</p>
       <p xml:id="ODORH0009">Binarius, quinarius, septenarius ab hostibus circumventi, dum evadere
         nequeunt, captivantur. Novenarius novenarium in suo legitimo cursu, octoginta unus per
         novenarium in novenario: sexdecim <pb n="[798]"/>per quatuor in quarto campo, sive per
@@ -154,7 +165,8 @@
       <p xml:id="ODORH0013">Qui velit definitivam victoriam acquirere, ita ut numeri universitas non
         possit diutius rebellare. studeat modis omnibus aliquam harmonicam medietatem facere ultra
         direptoriam lineam, id est, in regno adversarii. Quam in quo loco agere praecogites
-        cautissima loca, in quibus tuos, qui debeant triumphare, ponas, prius ut aliquibus tuis <pb n="[800]"/>obsideas, aut aliis tibi innoxiis obsessa praevideas ut nullus ex adversariis
+        cautissima loca, in quibus tuos, qui debeant triumphare, ponas, prius ut aliquibus tuis <pb
+          n="[800]"/>obsideas, aut aliis tibi innoxiis obsessa praevideas ut nullus ex adversariis
         possit interrumpere: nam debes contrario indicare, illumque primum ad faciendam victoriam
         ponas, ut cum sit minimus aut medius aut maximus, et illum ex eo loco nusquam trahendi
         licentiam habeas, sed alios duos quanto citius possis appone.</p>
@@ -169,34 +181,34 @@
         medium, et pone XII, illuc tam potestative, ac si sit tuus. XCI pyramis perfecta. Haec
         pyramis rapitur per XII super tres campos, aut per IX super quatuor campos, aut per XXXVI
         super tres campos, id est, in suo legitimo tractu, quia comes est, et ejus basis est.</p>
-      <p xml:id="ODORH0015">[PLCXXXIII:799-800,1; text: I, II, III, IIII, V, VI, VIII, XVI, XXV, XXXVI,
-        Latera, Basis] <figure>
+      <p xml:id="ODORH0015">[PLCXXXIII:799-800,1; text: I, II, III, IIII, V, VI, VIII, XVI, XXV,
+        XXXVI, Latera, Basis] <figure>
           <graphic url="/images/ODORH_01GF.gif"/>
         </figure></p>
       <p xml:id="ODORH0016">
         <pb n="[799]"/>De perfecta pyramide.</p>
-      <p xml:id="ODORH0017">Pyramis ex parte parium, id est XCI, tollenda est per XII super campos tres;
-        ter enim XII faciunt XXXVI, qui est basis XCI. Aut rapitur per IX super quatuor campos;
-        quater IX faciunt XXXVI. Cum enim traxeris duodecim contra pyramidem <pb n="[800]"/>XCI;
-        donec in campos ad ipsam habeas, dic, ter duodecim faciunt XXXVI, et aufer imprimis
+      <p xml:id="ODORH0017">Pyramis ex parte parium, id est XCI, tollenda est per XII super campos
+        tres; ter enim XII faciunt XXXVI, qui est basis XCI. Aut rapitur per IX super quatuor
+        campos; quater IX faciunt XXXVI. Cum enim traxeris duodecim contra pyramidem <pb n="[800]"
+        />XCI; donec in campos ad ipsam habeas, dic, ter duodecim faciunt XXXVI, et aufer imprimis
         pyramidem XCI, et dein basin ejus XXXVI, et latera basis, id est, omnes numeros, qui infra
         senarium numerum per semetipsos multiplicantur, id est XXV, XVI, IX, IV, II. Victoria
         pyramidum ex victoria fit.</p>
-      <p xml:id="ODORH0018">[PLCXXXIII:799-800,2; text: De tercurita pyramide. I, II, III, IIII, V, VI,
-        VII, VIII, XVI, XXV, XXXVI, XLIX, LXIII, VItI, Latera, Basis.]</p>
+      <p xml:id="ODORH0018">[PLCXXXIII:799-800,2; text: De tercurita pyramide. I, II, III, IIII, V,
+        VI, VII, VIII, XVI, XXV, XXXVI, XLIX, LXIII, VItI, Latera, Basis.]</p>
       <p xml:id="ODORH0019">
         <pb n="[799]"/>Basis.</p>
-      <p xml:id="ODORH0020">Hanc pyramidem CXC rapit VIII per VIII campos, aut per XVI, super IV campos,
-        vel basis ejus LXIV rapit ipsam pyramidem a proximo campo quia est pes pyramidis tercurtae
-        CXC.</p>
-      <p xml:id="ODORH0021">Pyramis ex impari, id est CXC debet auferri cum <pb n="[800]"/>octo super
-        octo campos; octies enim octo faciunt LXIV, quod est basis ejudem pyramidis: aut rapitur cum
-        XVI super quatuor campos; nam quater XVI faciunt item LXIV, si tibi copia fiat, ita XVI aut
-        VIII contra pyramidem posse trahere. Ut cum illis possis hanc multiplicationem facere in
-        pyramidem, aufer ipsam pyramidem et basim ejus, cujus <pb n="[801]"/>est ita multiplicatio
-        LXIV, et simul tolle latera basis, id est omnes numeros, qui infra octonarium per se
-        multiplicantur, id est XLIX; XXXVI, XXV, XVI; nam septies septem faciunt XLIX, sexies sex
-        XXXVI, quinquies quinque XXV, quater quatuor faciunt XVI, ideo per se multiplicantur.
+      <p xml:id="ODORH0020">Hanc pyramidem CXC rapit VIII per VIII campos, aut per XVI, super IV
+        campos, vel basis ejus LXIV rapit ipsam pyramidem a proximo campo quia est pes pyramidis
+        tercurtae CXC.</p>
+      <p xml:id="ODORH0021">Pyramis ex impari, id est CXC debet auferri cum <pb n="[800]"/>octo
+        super octo campos; octies enim octo faciunt LXIV, quod est basis ejudem pyramidis: aut
+        rapitur cum XVI super quatuor campos; nam quater XVI faciunt item LXIV, si tibi copia fiat,
+        ita XVI aut VIII contra pyramidem posse trahere. Ut cum illis possis hanc multiplicationem
+        facere in pyramidem, aufer ipsam pyramidem et basim ejus, cujus <pb n="[801]"/>est ita
+        multiplicatio LXIV, et simul tolle latera basis, id est omnes numeros, qui infra octonarium
+        per se multiplicantur, id est XLIX; XXXVI, XXV, XVI; nam septies septem faciunt XLIX, sexies
+        sex XXXVI, quinquies quinque XXV, quater quatuor faciunt XVI, ideo per se multiplicantur.
         Pyramis non potest per ullum numerum multiplicari aut circumponi, ideo debet tolli per
         multiplicationem <pb n="[802]"/>suae basis. Tres residui numeri, I, III, II, ideo non
         numerantur in pyramide, quia isti quatuor, id est XLIX, XXXVI, XXV, XVI, basi, id est LXIV,
@@ -222,10 +234,10 @@
         CLIII; quae CLIII si in novem dividas, uniuscujusque partis erit XVII: tunc omitte unum
         XVII, et remanent CXXXVI. Hos adde ad CLIII, et faciunt CCLXXXIX. Ex parte imparium sunt
         pedites isti numeri.</p>
-      <p xml:id="ODORH0024">[PLCXXXIII:801-2,2; text: Tripli, Quincupli, Sextupli, Nonupli, VIII, III,
-        XXV, V, XLIX, VII, LXXXI, IX, Superparticulares sunt isti numeri, id est medii et comites.
-        Sesquitertii, Sesquiquinti, Sesquiseptimi, Sesquinoni, XVI, XII, XXX, LXIIII, LVI, C, XC,
-        Supertientes sunt isti, id est, medii et maximi, qui et duces. Superbipartiens,
+      <p xml:id="ODORH0024">[PLCXXXIII:801-2,2; text: Tripli, Quincupli, Sextupli, Nonupli, VIII,
+        III, XXV, V, XLIX, VII, LXXXI, IX, Superparticulares sunt isti numeri, id est medii et
+        comites. Sesquitertii, Sesquiquinti, Sesquiseptimi, Sesquinoni, XVI, XII, XXX, LXIIII, LVI,
+        C, XC, Supertientes sunt isti, id est, medii et maximi, qui et duces. Superbipartiens,
         Superquadripartiens, Supersextipartiens, Superoctipartiens, XV, XLV, CLXIX, XCI, CCLXXXIX,
         CLIII]</p>
       <p xml:id="ODORH0025">
@@ -296,20 +308,20 @@
         IV, VI, VIII, e totidem nimirum numeris, quos binarius duplo, quaternarius quadruplo,
         senarius sexcuplo, octonarius octuplo in sese multiplicatos quasi sociali copulatione sibi
         asciscunt.</p>
-      <p xml:id="ODORH0033">Hic notandum quod unitas totius pluralitatis genitrix naturaliter singularis
-        nullam recipiat paritatis et imparitatis sectionem, quia paritate sibi propria caeteris
-        principaliter exstans sui dignitate, minorari vel augeri nesciens unitas perseverat. Et ut
-        ad proposita redeamus, quod superius protulimus exempli causa, ipsius multiplicationis opere
-        apertius expergendo discutiamus sic. Bis duo sunt quatuor ecce habes duplas, id est, quatuor
-        ad duo; habe enim quaternarius binarium duplo in se. Quate <pb n="[805]"/>quatuor sunt XVI,
-        ecce quadruplos, id est XVI ad IV; continent namque XVI quater quaternarium in se. Sexies
-        sex sunt XXXVI, ecce sexcuplos, id est, XXXVI ad VI: habent enim XXXVI in se sexies sex.
-        Octies octo sunt LXIV, ecce habes octuplus, id est sexaginta quatuor ad octo; continent
-        namque LXIV in se octies octo. In constitutione autem tabulae horum semper binos,
-        multiplicatorem et multiplicatum conjunctius campis sibi institue, ut verbi gratia IV cum
-        II, XVI cum IV, XXXVI cum VI, LXIV cum VIII, concordantes studeas constituere, Haec breviter
-        memorasse sufficiat de genere multiplici: jam aliquid enucleare conemur de
-        superparticulari.</p>
+      <p xml:id="ODORH0033">Hic notandum quod unitas totius pluralitatis genitrix naturaliter
+        singularis nullam recipiat paritatis et imparitatis sectionem, quia paritate sibi propria
+        caeteris principaliter exstans sui dignitate, minorari vel augeri nesciens unitas
+        perseverat. Et ut ad proposita redeamus, quod superius protulimus exempli causa, ipsius
+        multiplicationis opere apertius expergendo discutiamus sic. Bis duo sunt quatuor ecce habes
+        duplas, id est, quatuor ad duo; habe enim quaternarius binarium duplo in se. Quate <pb
+          n="[805]"/>quatuor sunt XVI, ecce quadruplos, id est XVI ad IV; continent namque XVI
+        quater quaternarium in se. Sexies sex sunt XXXVI, ecce sexcuplos, id est, XXXVI ad VI:
+        habent enim XXXVI in se sexies sex. Octies octo sunt LXIV, ecce habes octuplus, id est
+        sexaginta quatuor ad octo; continent namque LXIV in se octies octo. In constitutione autem
+        tabulae horum semper binos, multiplicatorem et multiplicatum conjunctius campis sibi
+        institue, ut verbi gratia IV cum II, XVI cum IV, XXXVI cum VI, LXIV cum VIII, concordantes
+        studeas constituere, Haec breviter memorasse sufficiat de genere multiplici: jam aliquid
+        enucleare conemur de superparticulari.</p>
       <p xml:id="ODORH0034">Superparticularis dicitur numerus numero comparatus, quoties major in se
         continent numerum minorem, et insuper ejus aliquam partem. Si enim major numerus minorem
         totum habeat, et insuper ejus medium, hemiolios, id est, sesquialter vocatur; si ejus
@@ -320,8 +332,8 @@
         prior sesquialterae proportionis numerus. Quater V sunt XX, et hic prior sesquiquartae.
         Sexies septem XLII, hic est prior sesquisextae Octies novem sunt LXXII, et hic prior
         sesquioctavae proportionis numerus.</p>
-      <p xml:id="ODORH0035">Si vero facilius et naturalius eosdem numeros velis reperire, omnes pares,
-        quos superius in multiplici genere singulos in sese multiplicasti, multiplicatorem et
+      <p xml:id="ODORH0035">Si vero facilius et naturalius eosdem numeros velis reperire, omnes
+        pares, quos superius in multiplici genere singulos in sese multiplicasti, multiplicatorem et
         multiplicatum compone sic: ad sesquialteram II et IV junge, et fiunt VI; ad sesquiquartam IV
         et XVI, et erunt XX; ad sesquisextam VI et XXXVI, et fiunt quadraginta duo; ad sesquioctavam
         VIII et LXIV, fiunt LXXII. Et quia ipsarum proportionum priores, ut ita dicam, syllabas
@@ -336,23 +348,23 @@
         priorem acquisisti, adjunge quartam partem sui, id est V, fiunt XXV, qui est ei
         proportionalis; habet enim XXV totum XX in se et ejus quartam partem, <pb n="[806]"/>id est
         V. Ecce est perfecta sesquiquarta proportio id est XXV ad XX. Sic de aliis.</p>
-      <p xml:id="ODORH0036">Nunc ad superpartientes numeros transeamus. Constat enim quia major numerus
-        minorem duabus tertiis supercrescit, cum dicitur superbipartiens, subaudiri tertias necesse
-        est. Quia igitur a binario oritur superbipartiens, et subaudis tertias, II et III, per
-        eumdem subauditium ternarium multiplica, et quae summa inde excrevit, prior numerus erit in
-        proportione ipsa. Quod si experiri libuerit quomodo geminetur a superparticularibus, nihil
-        refert quin idem tibi crescat numerus. Sesquialteram proportionem VI et IX compone, fiunt
-        XV, qui est prior superpartientis numerus. Huic tertiam partem sui, id est V, bis augebis,
-        et fiunt XXV; haec superbipartiens proportio, id est XXV ad XV. Sesquiquartam XXV et XX
-        insimul pone, fiunt XLV. Eidem sui quintam partem adhibe, erunt LXXXI. Sic de aliis facies,
-        jungendo sesquisextam et octavam invenies. Sunt igitur impares multiplicis generis,
+      <p xml:id="ODORH0036">Nunc ad superpartientes numeros transeamus. Constat enim quia major
+        numerus minorem duabus tertiis supercrescit, cum dicitur superbipartiens, subaudiri tertias
+        necesse est. Quia igitur a binario oritur superbipartiens, et subaudis tertias, II et III,
+        per eumdem subauditium ternarium multiplica, et quae summa inde excrevit, prior numerus erit
+        in proportione ipsa. Quod si experiri libuerit quomodo geminetur a superparticularibus,
+        nihil refert quin idem tibi crescat numerus. Sesquialteram proportionem VI et IX compone,
+        fiunt XV, qui est prior superpartientis numerus. Huic tertiam partem sui, id est V, bis
+        augebis, et fiunt XXV; haec superbipartiens proportio, id est XXV ad XV. Sesquiquartam XXV
+        et XX insimul pone, fiunt XLV. Eidem sui quintam partem adhibe, erunt LXXXI. Sic de aliis
+        facies, jungendo sesquisextam et octavam invenies. Sunt igitur impares multiplicis generis,
         ternarius, quinarius, septenarius, novenarius. Hi suos proportionales educent sic: ter ter
         sunt novem. Isti sunt tripli. Quinquies quinque sunt XXV; isti sunt quincupli, hoc est XXV
         ad V. Septies VII sunt XLIV, hi sunt septupli, id est XLIX ad VII. Novies novem LXXXI, hi
         sunt nonupli, id est, LXXXI ad IX.</p>
-      <p xml:id="ODORH0037">De variis tamen figuris, quae ibidem multimode disponuntur, pyramides tantum
-        et bases et basis latera in rhythmimachia, quali numero positione fiant, opportunum videtur
-        depromere. Disponuntur itaque rhythmimachia pyramides duae, una a paribus, altera ab
+      <p xml:id="ODORH0037">De variis tamen figuris, quae ibidem multimode disponuntur, pyramides
+        tantum et bases et basis latera in rhythmimachia, quali numero positione fiant, opportunum
+        videtur depromere. Disponuntur itaque rhythmimachia pyramides duae, una a paribus, altera ab
         imparibus, quarum prior perfecta, altera vocatur ter curta. Perfecta pyramis est XCI; oritur
         a XXXVI, qui numerus idcirco ejus basis dicitur, eo quod ipsa pyramis quasi columna basi
         imposita supra basin innitatur. Erigitur autem ipsa pyramis super basi a VI usque ad
@@ -368,7 +380,8 @@
         XVI sunt. Omnis ergo iste numerus in summam collectus efficit ter curtam pyramidem CXC, et
         quia a quaternario ulterius non erigitur; desunt enim tres numeri, id est ter tria, bis duo,
         semel unus: ideo secundum arithmeticam ter curta vocatur. <pb n="[807]"/>Sunt autem ipsius
-        basis latera octo, et omnes illi, qui basis illius efficiunt quantitatem; <pb n="[808]"/>habet enim basis latera tot unitates in se, quot unitates singulae continent pyramides in
+        basis latera octo, et omnes illi, qui basis illius efficiunt quantitatem; <pb n="[808]"
+        />habet enim basis latera tot unitates in se, quot unitates singulae continent pyramides in
         latere.</p>
       <p xml:id="ODORH0039">Finiuntur.</p>
     </body>

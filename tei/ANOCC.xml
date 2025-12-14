@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>[Compilatio Caroloruhensis]</title>
         <title type="abbrev">ANOCC</title>
-        <author>Anonymous</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>David Schneider</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2008</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2008">2008</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Christian Meyer, "Aus der Werkstatt des Kompilators," in <emph>Quellen
             und Studien zur Musiktheorie des Mittelalters,</emph> vol. 2, ed. Michael Bernhard,
@@ -484,9 +494,9 @@
         decimaseptima quam decimasexta. Sed tamen utraque semitonia nuncupantur, non quod omnino
         semitonia ex aequo sint media, sed quod semum dici solet, quod ad integritatem usque non
         pervenit. Sed inter haec unum maius semitonium nuncupatur, aliud minus.</p>
-      <p xml:id="ANOCC0004">Dyapason consonantia constat ex V tonis et duobus semitoniis, quae tamen non
-        unum impleant tonum. Dyapente ex tribus tonis ac semitonio. Dyatesseron ex duobus tonis et
-        semitonio.</p>
+      <p xml:id="ANOCC0004">Dyapason consonantia constat ex V tonis et duobus semitoniis, quae tamen
+        non unum impleant tonum. Dyapente ex tribus tonis ac semitonio. Dyatesseron ex duobus tonis
+        et semitonio.</p>
       <p xml:id="ANOCC0005">Dyapason in minimo numero efficitur ut I ad II, diapente ut II ad III,
         diatesseron ut III ad quattuor. Tonus ut VIII ad VIIII, semitonium ut CCtiLVI ad CCtosXLIII,
         quod ita probatur. Disponantur ex ordine quattuor termini CXCII CCXVI CCXLIII CCLVI.
@@ -503,26 +513,26 @@
         ioviali circulo consimilis est G marti tradidere. A medium sol obtinuit, b venus habet. C
         mercurius regit. D lunaris circuli tenet exemplum. Igitur contra Tullium saturnus gravissimo
         pro circuli latitudine, luna autem acutissimo pro circuli angustia movetur sono.</p>
-      <p xml:id="ANOCC0008">Quoniam facillima est dupli descriptio optimam Nichomachus putat diapason
-        consonantiam. Post hanc dyapente, quae medium tenet, deinde diapente ac dyapason, quae
-        triplum, ceteraque secundum eundem modum.</p>
+      <p xml:id="ANOCC0008">Quoniam facillima est dupli descriptio optimam Nichomachus putat
+        diapason consonantiam. Post hanc dyapente, quae medium tenet, deinde diapente ac dyapason,
+        quae triplum, ceteraque secundum eundem modum.</p>
       <p xml:id="ANOCC0009">Tria sunt genera quae circa artem musicam versantur. Unum genus est quod
         instrumentis agitur. Aliud fingit carmina, tertium quod instrumentorum opus carmenque
         diudicat. Itaque duo priora genera quoniam nihil afferunt rationis a musica secernuntur.
         Solum tercium genus quod iudicandi peritiam sumit assumitur. Isque musicus est cui adest
         facultas secundum speculationem de omnibus generibus cantilenarum ac de poetarum carminibus
         iudicandi.</p>
-      <p xml:id="ANOCC0010">In musica arte non est aurium sensui dandum omne iudicium sed exhibenda est
-        etiam ratio quae errantem sensum regat ac temperet, qua labens sensus deficiensque veluti
-        bacula innitatur. Nam ut singulae artes habent instrumenta quaedam, quibus partim confuse
-        aliquid informent, ut asciculum, partim vero ut integrum deprehendant ut circinum, ita etiam
-        armonica vis habet duas iudicii partes, unam quidem huiusmodi, per quam sensu conprehendit
-        subiectarum differentias vocum, aliam vero per quam ipsarum differentiarum integrum modum
-        mensuramque consideret. Huiusmodi igitur instrumentum in quo rationis adhibito modo sonorum
-        differentiae perquiruntur vocatur monocordum sive armonica regula. Cuius ea diffinitur
-        intentio ut nihil auribus rationique possit esse contrarium sed id quod sensus iudicat,
-        ratio quoque perpendat, et ita ratio proportiones inveniat, ut ne sensus reclamet, duorumque
-        horum concordia omnis armonicae intentio misceatur.</p>
+      <p xml:id="ANOCC0010">In musica arte non est aurium sensui dandum omne iudicium sed exhibenda
+        est etiam ratio quae errantem sensum regat ac temperet, qua labens sensus deficiensque
+        veluti bacula innitatur. Nam ut singulae artes habent instrumenta quaedam, quibus partim
+        confuse aliquid informent, ut asciculum, partim vero ut integrum deprehendant ut circinum,
+        ita etiam armonica vis habet duas iudicii partes, unam quidem huiusmodi, per quam sensu
+        conprehendit subiectarum differentias vocum, aliam vero per quam ipsarum differentiarum
+        integrum modum mensuramque consideret. Huiusmodi igitur instrumentum in quo rationis
+        adhibito modo sonorum differentiae perquiruntur vocatur monocordum sive armonica regula.
+        Cuius ea diffinitur intentio ut nihil auribus rationique possit esse contrarium sed id quod
+        sensus iudicat, ratio quoque perpendat, et ita ratio proportiones inveniat, ut ne sensus
+        reclamet, duorumque horum concordia omnis armonicae intentio misceatur.</p>
       <p xml:id="ANOCC0011">Continue voces ab harmonica facultate separantur, discrete vero, id est
         dissimiles eidem subiciuntur. Potest enim distantium sibique dissimilium vocum differentia
         deprehendi, in quibus, quae iunctae efficere melos possunt, emmeles, id est apte melo,
@@ -538,14 +548,14 @@
         coniunctionem, ut unus atque idem nervus esse videatur. Quocirca si qua consonantia fuerit
         addita, integra inviolataque servatur. Ita enim diapason consonantiae additur tamquam uni
         nervo.</p>
-      <p xml:id="ANOCC0014">Vocum alie sunt unisone, aliae equisone aliae consonae, aliae emmelis, aliae
-        dissonae, alie ekmelis. Et unisonae quidem sunt quae singillatim pulsae unum atque eundem
-        reddunt sonum. Aequisonae vero quae simul pulsae unum ex duobus atque simplicem efficiunt
-        sonum, ut est diapason, eaque duplicata quae est bis diapason. Consonae autem sunt quae
-        compositum permixtumque suavem tamen efficiunt sonum ut diapente et diatessaron. Emmelis
-        autem sunt quaecunque consonae quidem non sunt, possunt tamen aptari recte ad melos, ut
-        tonus et ceterae intervallorum species. Dissonae vero sunt, quae non permiscent sonos atque
-        insuaviter feriunt sensum. Ekmelis autem quae non recipiuntur in consonantiarum
+      <p xml:id="ANOCC0014">Vocum alie sunt unisone, aliae equisone aliae consonae, aliae emmelis,
+        aliae dissonae, alie ekmelis. Et unisonae quidem sunt quae singillatim pulsae unum atque
+        eundem reddunt sonum. Aequisonae vero quae simul pulsae unum ex duobus atque simplicem
+        efficiunt sonum, ut est diapason, eaque duplicata quae est bis diapason. Consonae autem sunt
+        quae compositum permixtumque suavem tamen efficiunt sonum ut diapente et diatessaron.
+        Emmelis autem sunt quaecunque consonae quidem non sunt, possunt tamen aptari recte ad melos,
+        ut tonus et ceterae intervallorum species. Dissonae vero sunt, quae non permiscent sonos
+        atque insuaviter feriunt sensum. Ekmelis autem quae non recipiuntur in consonantiarum
         coniunctione.</p>
     </body>
   </text>

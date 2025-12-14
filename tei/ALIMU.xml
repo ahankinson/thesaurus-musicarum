@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Alia musica</title>
         <title type="abbrev">ALIMU</title>
-        <author>Anonymous</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Jingfa Sun</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Patrologia cursus completus, series latina</emph>, ed. J. P. Migne, 221 vols.
@@ -55,30 +65,30 @@
     <body>
       <p xml:id="ALIMU0001">
         <pb n="[929]"/>ALIA MUSICA.</p>
-      <p xml:id="ALIMU0002">De harmonica consideratione Boetius ita disseruit <pb n="[930]"/>quia neque
-        solum in terminis speculationem proportionis habet, neque solum in differentiis; sed in
-        utrisque communitur. Quaerit enim, ut quemadmodum sunt ad se extremi termini, sic majoris ad
-        medium differentia contineat differentiam medietatis ad ultimum. Ipsarum quoque musicarum
+      <p xml:id="ALIMU0002">De harmonica consideratione Boetius ita disseruit <pb n="[930]"/>quia
+        neque solum in terminis speculationem proportionis habet, neque solum in differentiis; sed
+        in utrisque communitur. Quaerit enim, ut quemadmodum sunt ad se extremi termini, sic majoris
+        ad medium differentia contineat differentiam medietatis ad ultimum. Ipsarum quoque musicarum
         consonantiarum, quas symphonias nominant, proportiones in hac pene sola medietate frequenter
         invenies. Namque symphonia diatessaron, quae princeps est, et quodammodo vim obtinet
         elementi, in hujusmodi harmonicis medietatibus invenitur. Ut sunt VI. ad VIII. sint ergo
         hujusmodi medietatis termini, quorum extremi sint dupli, et alii, quorum extremi tripli sint
         ita.</p>
       <p xml:id="ALIMU0003">| VI. | VIII. | XII. || IIII. | VI. | XII.</p>
-      <p xml:id="ALIMU0004">Duodenarius igitur ad senarium duplus est; et in alia dispositione XII. ad
-        IIII. triplus est. Horum si differentias colligamus, et ad se invicem comparemus, epitrita
-        proportio, id est, diatessaron symphonia colligitur. Inter VI. enim et XII. senarius est, et
-        inter IIII. et XII. octonarius: quia scilicet octonarius ad senarium sesquitertiam efficit
-        proportionem. In eadem quoque medietate et diapente symphonia componitur. In duplici
-        videlicet XII. ad VIII. et in triplici VI. ad IIII. sesquialtera est. Post hunc autem
-        diapason consonantia est, ut VI. ad XII. In triplici quoque dispositione simul diapente et
-        diapason symphonia componitur: ut sunt VI. VIIII. XVIII. Et quoniam triplus duas continet
-        consonantias, diapente scilicet ac diapason, in differentiis ejusdem triplicis eumdem
-        triplum reperiemus. Nam inter VI. et VIII. tenarius differentia est, et inter VIIII. et
-        XVIII. novenarius, qui ad ternarium triplus est. In dupla vero dispositione major terminus
-        ad medii termini contra se differentiam triplus est. Et rursus minor terminus ad
-        differentiam sui et medii termini triplus est. Nam inter VIII. et XII. quaternarius est, qui
-        ad eumdem duodenarium triplus est, et inter VI. et VIII. binarius, qui rursus ad eumdem
+      <p xml:id="ALIMU0004">Duodenarius igitur ad senarium duplus est; et in alia dispositione XII.
+        ad IIII. triplus est. Horum si differentias colligamus, et ad se invicem comparemus,
+        epitrita proportio, id est, diatessaron symphonia colligitur. Inter VI. enim et XII.
+        senarius est, et inter IIII. et XII. octonarius: quia scilicet octonarius ad senarium
+        sesquitertiam efficit proportionem. In eadem quoque medietate et diapente symphonia
+        componitur. In duplici videlicet XII. ad VIII. et in triplici VI. ad IIII. sesquialtera est.
+        Post hunc autem diapason consonantia est, ut VI. ad XII. In triplici quoque dispositione
+        simul diapente et diapason symphonia componitur: ut sunt VI. VIIII. XVIII. Et quoniam
+        triplus duas continet consonantias, diapente scilicet ac diapason, in differentiis ejusdem
+        triplicis eumdem triplum reperiemus. Nam inter VI. et VIII. tenarius differentia est, et
+        inter VIIII. et XVIII. novenarius, qui ad ternarium triplus est. In dupla vero dispositione
+        major terminus ad medii termini contra se differentiam triplus est. Et rursus minor terminus
+        ad differentiam sui et medii termini triplus est. Nam inter VIII. et XII. quaternarius est,
+        qui ad eumdem duodenarium triplus est, et inter VI. et VIII. binarius, qui rursus ad eumdem
         senarium triplus est. Illa autem maxima symphonia, quae vocatur bisdiapason, velut bis
         duplum, ex duplici proportione colligitur. Quoniam medius terminus ad minoris suique
         differentiam quadruplus invenitur, ut inter VI. et VIII. binarius, qui ad eumdem octonarium
@@ -88,7 +98,8 @@
         etiam dispositione, qua medius terminus ad minorem resonat diatessaron, ad majorem vero
         diapente, si extremitates in unum redigantur, et a medietate multiplicentur, duplus erit ab
         eo numero, quem solae extremitates multiplicatae perfecerint, ut VI. VIII. XII. Hinc junctae
-        extremitates VI, et XII. conficiunt X. VIII. qui per octonarium multiplicati in CXLIIII. <pb n="[931]"/>excrescunt, cujus summae medietas est LXXII. qui conficiuntur ex multiplicatis
+        extremitates VI, et XII. conficiunt X. VIII. qui per octonarium multiplicati in CXLIIII. <pb
+          n="[931]"/>excrescunt, cujus summae medietas est LXXII. qui conficiuntur ex multiplicatis
         in se VI. et XII.</p>
       <p xml:id="ALIMU0005">Hanc quoque habet naturam talis dispositio, ut medius alius sua parte
         minorem praecedat, et alia sua parte ad majorem praecedatur; eadem autem parte minoris
@@ -98,13 +109,14 @@
         dicenda est, quam harmonica. Illa est enim vere harmonica medietas, quae cubi determinatione
         colligitur. Omnis enim cubus habet latera XII. angulos VIII. superficies VI. qui disponantur
         ita | VI. | VIII | XII.</p>
-      <p xml:id="ALIMU0006">His praemissis ad VIII. troporum, quos Latini modos nuncupant, dispositionem
-        veniamus. Primoque sciendum, quod tropus de Graeco in Latinum conversio dicitur idcirco quod
-        excepta sua proporietate alter in alterum convertitur. Toni vero ideo dicuntur, quod
-        exceptis semitoniis ipsi omnium troporum communis mensura sint. Modi etiam dicti sunt, eo
-        quod unusquisque troporum proprium modum teneat, nec mensuram excedat. Siquidem facta una
-        constitutione, quae intexatur duplis, triplis, quadruplis, sesquialteris ac sesquitertiis
-        cum XV. nervorum vocibus interjectis hos VIII. tropos vel modos designari necesse est.</p>
+      <p xml:id="ALIMU0006">His praemissis ad VIII. troporum, quos Latini modos nuncupant,
+        dispositionem veniamus. Primoque sciendum, quod tropus de Graeco in Latinum conversio
+        dicitur idcirco quod excepta sua proporietate alter in alterum convertitur. Toni vero ideo
+        dicuntur, quod exceptis semitoniis ipsi omnium troporum communis mensura sint. Modi etiam
+        dicti sunt, eo quod unusquisque troporum proprium modum teneat, nec mensuram excedat.
+        Siquidem facta una constitutione, quae intexatur duplis, triplis, quadruplis, sesquialteris
+        ac sesquitertiis cum XV. nervorum vocibus interjectis hos VIII. tropos vel modos designari
+        necesse est.</p>
       <p xml:id="ALIMU0007">Erit ergo primus modus omnium gravissimus hypodorius ex prima specic
         diapason, et terminatur eo, qui meses dicitur, medio nervo. Secundum modum hypophrygium
         secunda species diapason efficit, quae in paramesen finit. Tertium modum hypolydium tertia
@@ -124,71 +136,74 @@
         invicem succedit. Unde constat quod tres species diatessaron tres primas species diapente
         uno tono adjecto <pb n="[932]"/>constituunt. Quarta vero species semitonio terminatur, et
         prima a nete diezeugmenon sumit initium.</p>
-      <p xml:id="ALIMU0008">Restat ut proprietates specierum diapason investigemus. Prima itaque species
-        tertio et scxto loco utitur semitonio: secunda quarto et septimo: tertia primo et quinto:
-        quarta secundo et sexto: quinta tertio et septimo: sexta primo et quarto: septima secundo et
-        quinto: octava sicut et prima tertio et sexto.</p>
+      <p xml:id="ALIMU0008">Restat ut proprietates specierum diapason investigemus. Prima itaque
+        species tertio et scxto loco utitur semitonio: secunda quarto et septimo: tertia primo et
+        quinto: quarta secundo et sexto: quinta tertio et septimo: sexta primo et quarto: septima
+        secundo et quinto: octava sicut et prima tertio et sexto.</p>
       <p xml:id="ALIMU0009">Caeterum ut ad ipsas species diapason redeamus, quoniam lichanos hypaton
         hypodorii est, proslambanomenos dorii, meses dorii, quae est paranete diezeugmenon
         hypodorii, integra consonantia diatessaron acutior est a mese ejusdem hypodorii. Similiter
         differentia est inter Phrygium et hypophrygium, Lydium quoque et hypolydium. Nam mixolydius
         ab hypermixolydio tantum distat tono.</p>
-      <p xml:id="ALIMU0010">Nunc de cubicis numeris, qui harmonicam considerationem suggerunt, qualiter
-        praedictas octo modorum species differre faciant, paululum est disserendum, Praelibato
-        tamen, quod diatessaron per VII. id est per III. et IIII. diapente vero per V. id est, per
-        II. et III. in harmonica regula mensuratur. Nam et ex minoribus numeris majores, et ex
-        majoribus minores in eadem proportione numeros cognoscimus. Atque hoc est, quod ait Boetius
-        in libro secundo capitulo nono: si duos numeros eorum differentia integre fuerit permensa,
-        in eadem sunt proportione numeri, quos sua differentia mensa est, in qua erunt proportione
-        et numeri, secundum quos eos sua mensa est differentia: ut inter VI. et VIII. binarius est,
-        qui senarium ter, octonarium quater metitur. Similiter inter VIIII. et XII. est ternarius,
-        qui novenarium ter, duodenarium quater mititur. Sicque fit, ut in quantiscumque numeris,
-        licet magnis, proportio sesquitertia incurrat, eam ternarius, et quaternarius non
-        relinquant, qui primi et quasi radices sunt sesquitertiae proportionis. Eodem modo in
-        sesquialtera proportione inter VI. et VIIII. est ternarius, qui senarium bis, novenarium ter
-        metitur. Quae omnia in harmonica regula fiunt circino notiora; siquidem eo instrumento omnis
-        duplus in aequa parte partitur: et propositis ad duplum faciendum quibuslibet numeris,
-        semper medius invenitur, qui aequis differentiis ab utrisque extremis segregetur: ut inter
-        II. et IIII. ternarius, qui ab utroque extremo singulis differt unitatibus. Inter IIII. et
-        VIII. senarius eodem modo est medius: Inter VI. et XII. novenarius; et inter XII. ac XXIIII.
-        sunt XVIII. et utrique dupli distant a medio, ille quidem ternario, hic vero senario. Sunt
-        enim praedicti numeri aliqualiter sibi incommensurabiles, quia binarium, quo mensurantur VI.
-        VIII. XII. novenarius respuit, et contra ternarium, quo mensurantur VI. VIIII. XII.
-        octonarius non recipit. Quaternarius octonarii et duodenarii, est mensura communis: et ob id
-        juxta quosdam triplus hypodorii a quaternario incipit, et in duodenarium desinit.</p>
+      <p xml:id="ALIMU0010">Nunc de cubicis numeris, qui harmonicam considerationem suggerunt,
+        qualiter praedictas octo modorum species differre faciant, paululum est disserendum,
+        Praelibato tamen, quod diatessaron per VII. id est per III. et IIII. diapente vero per V. id
+        est, per II. et III. in harmonica regula mensuratur. Nam et ex minoribus numeris majores, et
+        ex majoribus minores in eadem proportione numeros cognoscimus. Atque hoc est, quod ait
+        Boetius in libro secundo capitulo nono: si duos numeros eorum differentia integre fuerit
+        permensa, in eadem sunt proportione numeri, quos sua differentia mensa est, in qua erunt
+        proportione et numeri, secundum quos eos sua mensa est differentia: ut inter VI. et VIII.
+        binarius est, qui senarium ter, octonarium quater metitur. Similiter inter VIIII. et XII.
+        est ternarius, qui novenarium ter, duodenarium quater mititur. Sicque fit, ut in
+        quantiscumque numeris, licet magnis, proportio sesquitertia incurrat, eam ternarius, et
+        quaternarius non relinquant, qui primi et quasi radices sunt sesquitertiae proportionis.
+        Eodem modo in sesquialtera proportione inter VI. et VIIII. est ternarius, qui senarium bis,
+        novenarium ter metitur. Quae omnia in harmonica regula fiunt circino notiora; siquidem eo
+        instrumento omnis duplus in aequa parte partitur: et propositis ad duplum faciendum
+        quibuslibet numeris, semper medius invenitur, qui aequis differentiis ab utrisque extremis
+        segregetur: ut inter II. et IIII. ternarius, qui ab utroque extremo singulis differt
+        unitatibus. Inter IIII. et VIII. senarius eodem modo est medius: Inter VI. et XII.
+        novenarius; et inter XII. ac XXIIII. sunt XVIII. et utrique dupli distant a medio, ille
+        quidem ternario, hic vero senario. Sunt enim praedicti numeri aliqualiter sibi
+        incommensurabiles, quia binarium, quo mensurantur VI. VIII. XII. novenarius respuit, et
+        contra ternarium, quo mensurantur VI. VIIII. XII. octonarius non recipit. Quaternarius
+        octonarii et duodenarii, est mensura communis: et ob id juxta quosdam triplus hypodorii a
+        quaternario incipit, et in duodenarium desinit.</p>
       <p xml:id="ALIMU0011">
         <pb n="[933]"/>Itaque melodia primi tropi, quae est NONANOEANE. VIII. et XII. videntur
         claudere: sed eidem clausulae, quae constat diapente, quidam addunt tonum, ut prius in eadem
         melodia resonet prima species diatessaron; deinde secunda, ut postmodum intendatur tertia:
         ad extremum ex ordine remittatur ab VIII. ad XII. prima species diapente.</p>
-      <p xml:id="ALIMU0012">Hic incipit melodia secundi tropi, quae est NOEAGIS, et non ad VIII, sed ad
-        VIIII, pertingit, sicut omnes cantilenae ejusdem tropi. Clauduntur enim duabus diatessaron
-        consonantiis. De reliquo senarius, qui simplex est in Dorio, triplicatus in hypodorio et
-        Phrygio, quadruplicatur in Phrygio et Lydio. In quibus vero senarius ad Dorium triplicatur,
-        octonarius ad eumdem dupliciter habetur. Et rursus in quibus ille quadruplicatur, iste
-        triplicatione repetitur. Tandem novenarius, qui in Dorio est simpliciter, in reliquis est
-        dupliciter, excepto Lydio, qui ejus quadruplicatione et duodenarii triplicitate gaudet.
-        Hypophrygius duodenarii repetitione laetatur, sicut et hypolydius. Contra quam repetitionem
-        hypolydii senarius sexies, octonarius ter, novenarius quater respondet. Mixolydius
-        duodenarium et novenarium semel uno tenore repetit, senarium et octonarium triplicare
-        contendit. Altero autem tenore duodenarium et octonarium triplicat, senarium et novenarium
-        quadruplicat, sua vero propria consonantia duodenarium quater exhibet, senarium octies,
-        octonarium sexies. Ad extrenum hypermixolydius una serie duodenarium et novenarium semel
-        repetit, senarium et octonarium triplicatos exponit. Altera vero serie duodenarium et
-        octonarium triplicat; senarium quoque et novenarium quadruplicat. Denique sciendum, quod
-        post symphonias ex arbitrio musici propositas, id est, diapason, diapente ac diatessaron,
-        aliquando unus tonus ad gravem vel acutam partem additur, qui emmeles, [emmeles] id est,
-        aptus melo vocatur. Sane in illa constitutione, ubi XV. nervos dicimus, serie
-        proportionaliter dispositos, diapason, id est, bis sex, vel bis VIII. vel bis XI.</p>
-      <p xml:id="ALIMU0013">Tandem in cujusdam expositionem, de praefatis tropis vel modis veniamus, ut
-        eidem expositioni, Deo juvante, aliquid lucis infundamus. Omnis, inquit, primus tonus, quem
-        Dorium dicimus, aut ter sex habebit in dupla proportione, id est, diapason: ut est: Rorate
-        coeli desuper: aut quater V. quod est XX. id est, II. de VIII. et III. de XII. In
+      <p xml:id="ALIMU0012">Hic incipit melodia secundi tropi, quae est NOEAGIS, et non ad VIII, sed
+        ad VIIII, pertingit, sicut omnes cantilenae ejusdem tropi. Clauduntur enim duabus
+        diatessaron consonantiis. De reliquo senarius, qui simplex est in Dorio, triplicatus in
+        hypodorio et Phrygio, quadruplicatur in Phrygio et Lydio. In quibus vero senarius ad Dorium
+        triplicatur, octonarius ad eumdem dupliciter habetur. Et rursus in quibus ille
+        quadruplicatur, iste triplicatione repetitur. Tandem novenarius, qui in Dorio est
+        simpliciter, in reliquis est dupliciter, excepto Lydio, qui ejus quadruplicatione et
+        duodenarii triplicitate gaudet. Hypophrygius duodenarii repetitione laetatur, sicut et
+        hypolydius. Contra quam repetitionem hypolydii senarius sexies, octonarius ter, novenarius
+        quater respondet. Mixolydius duodenarium et novenarium semel uno tenore repetit, senarium et
+        octonarium triplicare contendit. Altero autem tenore duodenarium et octonarium triplicat,
+        senarium et novenarium quadruplicat, sua vero propria consonantia duodenarium quater
+        exhibet, senarium octies, octonarium sexies. Ad extrenum hypermixolydius una serie
+        duodenarium et novenarium semel repetit, senarium et octonarium triplicatos exponit. Altera
+        vero serie duodenarium et octonarium triplicat; senarium quoque et novenarium quadruplicat.
+        Denique sciendum, quod post symphonias ex arbitrio musici propositas, id est, diapason,
+        diapente ac diatessaron, aliquando unus tonus ad gravem vel acutam partem additur, qui
+        emmeles, [emmeles] id est, aptus melo vocatur. Sane in illa constitutione, ubi XV. nervos
+        dicimus, serie proportionaliter dispositos, diapason, id est, bis sex, vel bis VIII. vel bis
+        XI.</p>
+      <p xml:id="ALIMU0013">Tandem in cujusdam expositionem, de praefatis tropis vel modis veniamus,
+        ut eidem expositioni, Deo juvante, aliquid lucis infundamus. Omnis, inquit, primus tonus,
+        quem Dorium dicimus, aut ter sex habebit in dupla proportione, id est, diapason: ut est:
+        Rorate coeli desuper: aut quater V. quod est XX. id est, II. de VIII. et III. de XII. In
         sesquialtera proportione faciens diapente; ut est, Et nubes pluant justum: aperiatur: aut
         ter VII. quod est XXI. id est, III. de VIIII. ad III. de XII. qui in sesquitertio faciunt
         diatessaron: ut est: terra, et geminet Salvatorem. Quam gradalem antiphonam per singulas
         incisiones singulis symphoniis subditam, hoc modo pandimus. Inter VI. et XII. qui faciunt
-        XVIII. senarius est differentia, quia melodia primae incisionis ascendendo <pb n="[934]"/>totam percurrit, a lichanos hypaton videlicet in paraneten diezeugmenon, praemisso ad
+        XVIII. senarius est differentia, quia melodia primae incisionis ascendendo <pb n="[934]"
+        />totam percurrit, a lichanos hypaton videlicet in paraneten diezeugmenon, praemisso ad
         gravem partem tono, qui emmeles dicitur, id est, melo aptus. Denique eamdem differentiam
         tenarius in aequa partitur, et ita a senario in novenarium diapente terminatur. Quae
         symphonia quoniam constat diatessaron et tono, secundum incisionem antiphonae excurrit
@@ -217,9 +232,9 @@
         XII. in VIII. in arundineto discurrent in aeternum. ab VIII. vel potius a VIIII. in VI. Nec
         abest ab hoc tropo responsorium gradale, quod est: posuisti Domine.</p>
       <p xml:id="ALIMU0014">ITEM CUJUSDAM DE EADEM RE NOVA EXPOSITIO.</p>
-      <p xml:id="ALIMU0015">A prima quoque specie diapason, quae est mese, id est O. inchoatur primus
-        tropus: finiturque in diapente remissum, quod est E. et haec est forma NOANNOEANE. habet
-        enim V. differentias et VIIII. <pb n="[935]"/>loca in nocturnis. Est namque prima
+      <p xml:id="ALIMU0015">A prima quoque specie diapason, quae est mese, id est O. inchoatur
+        primus tropus: finiturque in diapente remissum, quod est E. et haec est forma NOANNOEANE.
+        habet enim V. differentias et VIIII. <pb n="[935]"/>loca in nocturnis. Est namque prima
         differentia in O. quae habet duo, primum in se: Veniet Dominus, secundum in I. enarmonico
         remisso: apertis thesauris suis. Secunda vero differentia in M. lichanos meson, quae habet
         tria loca in se: canite tuba. Diatessaron remissum in E. ecce nomen Domini. diapente
@@ -237,41 +252,42 @@
         ea nulla differentia insignitur. Hujus enim in nocturnis sic currit versus. Gloria Patri, et
         caetera In diurnis sic currit versus: Gloria, et caetera.</p>
       <p xml:id="ALIMU0016">DE SECUNDO TONO.</p>
-      <p xml:id="ALIMU0017">Sequitur in eadem expositione troporum modus secundus, ter VI. id est XVIII.
-        ad XII. qui faciunt simul XXX. per sesquialteram proportionem reddunt diapente. Ad VI. autem
-        de primo tono isti ter VI. de secunda tripla proportio est, quia triplicatus eum superat.
-        Item bis VIII. ad XII. sunt XXVIII. id est, quater VII. et faciunt per sesquitertiam
-        proportionem diatessaron. Ipsa ergo proportio numeri, id est, bis VIII. ad VIII. de primo
-        tono, duplum est, et ideo in diapason cadit XXIIII. id est quater sex, et bis XII. Item bis
-        VIIII. qui sunt XVIII. ad XII. faciunt diapente, ut supra. Omnis enim melodiae secundi toni,
-        aut per diapente denarium numerabis totum, ut est Antiphona Ecce advenit. in quo sunt V. vel
-        X. aut per diatessaron totum, id est, per VII. ut est Antiphona Veni et ostende. Item
-        antiphona diapentica: Omnipotens sermo tuus. et diatessaron, ut est: Dominus Deus auxiliator
-        meus. Si autem in diapason venerit proportio secundi toni, id est, XII. ad VI. et bis VIIII.
-        ad VIIII. et bis VIII. ad VIII. primum tonum efficit: quoniam singuli modi suam propriam
-        habent constitutionem: semper se gemini e latere respiciunt, ut aliquando fraterna concordia
-        alter in alterum segregatus reclinet, alter in alterum ascendendo se exaltet. Nam hypodorius
-        in Dorium transit, si <pb n="[936]"/>sua diapason excesserit. Et hoc est, quod ait, si XII.
-        ad VI. pervenerint: quandoquidem hypodorius ad illum comparatus triplo gravior existit. Si
-        enim in hac plaga nete hyperbolaeon ascribantur VI. meses habebit XII. lichanos hypaton
-        XVIII. proslambanomenon XXIIII. et erit XII. differentia inter XII. et XXIIII. Hanc, igitur
-        differentiam. vix excedit hujus plagae melodia ad acutam partem in antiphonis, sed inferius,
-        sive diatessaron per VII. sive diapente per X. numerabis. Est autem integra diatessaron
-        consonantia inter utrumque modum: dum lichanos hypaton hypodorii sit, proslambanomenos
-        dorii. Siquidem ex duplo et triplo hanc consonantiam procreari Boetius ita dicit. Sint
-        hujusmodi medietatis termini, quorum extremi sint dupli, et alii, quorum extremi sint tripli
-        ita.</p>
+      <p xml:id="ALIMU0017">Sequitur in eadem expositione troporum modus secundus, ter VI. id est
+        XVIII. ad XII. qui faciunt simul XXX. per sesquialteram proportionem reddunt diapente. Ad
+        VI. autem de primo tono isti ter VI. de secunda tripla proportio est, quia triplicatus eum
+        superat. Item bis VIII. ad XII. sunt XXVIII. id est, quater VII. et faciunt per
+        sesquitertiam proportionem diatessaron. Ipsa ergo proportio numeri, id est, bis VIII. ad
+        VIII. de primo tono, duplum est, et ideo in diapason cadit XXIIII. id est quater sex, et bis
+        XII. Item bis VIIII. qui sunt XVIII. ad XII. faciunt diapente, ut supra. Omnis enim melodiae
+        secundi toni, aut per diapente denarium numerabis totum, ut est Antiphona Ecce advenit. in
+        quo sunt V. vel X. aut per diatessaron totum, id est, per VII. ut est Antiphona Veni et
+        ostende. Item antiphona diapentica: Omnipotens sermo tuus. et diatessaron, ut est: Dominus
+        Deus auxiliator meus. Si autem in diapason venerit proportio secundi toni, id est, XII. ad
+        VI. et bis VIIII. ad VIIII. et bis VIII. ad VIII. primum tonum efficit: quoniam singuli modi
+        suam propriam habent constitutionem: semper se gemini e latere respiciunt, ut aliquando
+        fraterna concordia alter in alterum segregatus reclinet, alter in alterum ascendendo se
+        exaltet. Nam hypodorius in Dorium transit, si <pb n="[936]"/>sua diapason excesserit. Et hoc
+        est, quod ait, si XII. ad VI. pervenerint: quandoquidem hypodorius ad illum comparatus
+        triplo gravior existit. Si enim in hac plaga nete hyperbolaeon ascribantur VI. meses habebit
+        XII. lichanos hypaton XVIII. proslambanomenon XXIIII. et erit XII. differentia inter XII. et
+        XXIIII. Hanc, igitur differentiam. vix excedit hujus plagae melodia ad acutam partem in
+        antiphonis, sed inferius, sive diatessaron per VII. sive diapente per X. numerabis. Est
+        autem integra diatessaron consonantia inter utrumque modum: dum lichanos hypaton hypodorii
+        sit, proslambanomenos dorii. Siquidem ex duplo et triplo hanc consonantiam procreari Boetius
+        ita dicit. Sint hujusmodi medietatis termini, quorum extremi sint dupli, et alii, quorum
+        extremi sint tripli ita.</p>
       <p xml:id="ALIMU0018">VI. | VIII. | XII. | IIII. | VI. | XII.</p>
-      <p xml:id="ALIMU0019">Duodenarius igitur ad senarium duplus est, et in alia dispositione XII. ad
-        IIII. triplus est. Horum si differentias colligamus, et ad se invicem comparemus, epitrita
-        proportio, id est, diatessaron symphonia colligitur, et reliqua. Cum haec ita sint, certum
-        est quod paranete diezeugmenon hypodorii, cui adscribuntur sex, sit meses dorii. Adquam
-        mesen dorii si pervenerit cantus secundi tropi, jam potius dicetur dorii, quam hypodorii, ut
-        est in responsorio gradali: universi, qui te expectant. Quod responsorium per differentiam,
-        quae est XII. passim excurrit inter bis XII et XII. cujus versus habens in primodio intensum
-        diapente, a XVIII. videlicet in XII. percurrit VIIII. qui sunt in differentia a bis VIIII.
-        in VIIII. Responsorium quoque nocturnale, quod est Circumdederunt me, cum suo versu unum
-        tonum ultra differentiam, quam diximus constare inter XXIIII. et XII. acuendo peragit.</p>
+      <p xml:id="ALIMU0019">Duodenarius igitur ad senarium duplus est, et in alia dispositione XII.
+        ad IIII. triplus est. Horum si differentias colligamus, et ad se invicem comparemus,
+        epitrita proportio, id est, diatessaron symphonia colligitur, et reliqua. Cum haec ita sint,
+        certum est quod paranete diezeugmenon hypodorii, cui adscribuntur sex, sit meses dorii.
+        Adquam mesen dorii si pervenerit cantus secundi tropi, jam potius dicetur dorii, quam
+        hypodorii, ut est in responsorio gradali: universi, qui te expectant. Quod responsorium per
+        differentiam, quae est XII. passim excurrit inter bis XII et XII. cujus versus habens in
+        primodio intensum diapente, a XVIII. videlicet in XII. percurrit VIIII. qui sunt in
+        differentia a bis VIIII. in VIIII. Responsorium quoque nocturnale, quod est Circumdederunt
+        me, cum suo versu unum tonum ultra differentiam, quam diximus constare inter XXIIII. et XII.
+        acuendo peragit.</p>
       <p xml:id="ALIMU0020">ITEM DE SECUNDO TONO NOVA CUIUSDAM EXPOSITIO.</p>
       <p xml:id="ALIMU0021">A quarta specie diapason, quae est in C. ubi finitur primus tropus,
         inchoatur secundus; ibique finitur, ubi et inchoatur. Concluditur autem ejus forma intra
@@ -283,15 +299,15 @@
         Servite. de necessitatibus. Hujus tropi in nocturnis sic currit versus Gloria Patri, et
         caetera. In diurnis autem sic currit versus: Gloria Patri, et caetera.</p>
       <p xml:id="ALIMU0022">DE TERTIO TONO.</p>
-      <p xml:id="ALIMU0023">Tertius tonus duo A habet, unum propter mensuram autenti deuteri, alterum
-        propter plagam ejus, in cujus diapason suum semitonium explicat, <pb n="[937]"/>et alterum
-        semitonium in diapason secundi tropi, propter triplam, ut dictum est, et quadruplam, propter
-        quater VI. ad unam III. de primo. Quater enim VI. ad quater III. de XII. quater IX. sunt,
-        qui sunt XXXVI, diapason, id est sexies sex. et III. XII. similiter ter VIII. ad XII, quia
-        duplae proportiones sunt. Bis VIIII. ad XII. sesquialtera proportio est, id est, diapente in
-        XXX. Unde iste tertius tonus aut diapason erit, aut diapente: ut sunt gradales antiphonae:
-        Confessio et pulchritudo. Dispersit dedit. et Cognovi Domine. Nocturnales antiphonae: qui de
-        terra est. Quando natus es. Malos male perdet.</p>
+      <p xml:id="ALIMU0023">Tertius tonus duo A habet, unum propter mensuram autenti deuteri,
+        alterum propter plagam ejus, in cujus diapason suum semitonium explicat, <pb n="[937]"/>et
+        alterum semitonium in diapason secundi tropi, propter triplam, ut dictum est, et quadruplam,
+        propter quater VI. ad unam III. de primo. Quater enim VI. ad quater III. de XII. quater IX.
+        sunt, qui sunt XXXVI, diapason, id est sexies sex. et III. XII. similiter ter VIII. ad XII,
+        quia duplae proportiones sunt. Bis VIIII. ad XII. sesquialtera proportio est, id est,
+        diapente in XXX. Unde iste tertius tonus aut diapason erit, aut diapente: ut sunt gradales
+        antiphonae: Confessio et pulchritudo. Dispersit dedit. et Cognovi Domine. Nocturnales
+        antiphonae: qui de terra est. Quando natus es. Malos male perdet.</p>
       <p xml:id="ALIMU0024">Tonus, inquit, tertius duo O habet, id est bis XII. O enim pro XII.
         accipitur. Unum, inquit, propter mensuram autenti deuteri, id est phrygii, et alterum
         propter plagam ejus, id est hypophrygium. Nam meses phrygii, id est XII. est nete
@@ -345,7 +361,8 @@
         diatessaron, XLII. sunt, et bis VI. ad bis IX. quod diapente. XXX. sunt. Ad ultimum bis VI.
         ad quater VI. quod est diapason sunt XXXVI.</p>
       <p xml:id="ALIMU0029">Quapropter praemissus expositor adjecit. Tonus quartus, quem nos
-        hypophrygium dicimus, habet bis XII. ad bis VIIII et ter VIII. ad ter VI. in una <pb n="[939]"/>consonantia numerorum; est enim bis diatessaron. In diapason vero VI. ad XII.
+        hypophrygium dicimus, habet bis XII. ad bis VIIII et ter VIII. ad ter VI. in una <pb
+          n="[939]"/>consonantia numerorum; est enim bis diatessaron. In diapason vero VI. ad XII.
         id est XVIII. conveniunt. Idcirco ter VI non ad bis XII. comparatur, quoniam per ter non
         dividitur, sed, ut dictum est, ter VIII. ad ter VI; et bis XII. ad bis VIIII. ad
         sesquitertiam proportionem, qui sunt XLII. Nam totus iste tonus erit per diatessaron semper.
@@ -354,10 +371,10 @@
         diatessaron habens, semper septenario mensurabitur, ut in gradalibus antiphonis: Resurrexi.
         Misericordiae Domini. et In voluntate tua Domine. In nocturnalibus quoque: Rubum quem
         viderat. Turba multa. Tria sunt munera.</p>
-      <p xml:id="ALIMU0030">In hac expositione hoc tantum quaerendum videtur, quod ait: ter VI. non ad
-        bis XII. comparari, quoniam per te non dividitur: ac si bis XII. id est XXIIII. per tertiam
-        partem metiri impossibile sit. Dum autem XXIIII. et per binarium et per ternarium metiri
-        possit, certum est, quod binarium binario, ternarium ternario in eadem consonantia
+      <p xml:id="ALIMU0030">In hac expositione hoc tantum quaerendum videtur, quod ait: ter VI. non
+        ad bis XII. comparari, quoniam per te non dividitur: ac si bis XII. id est XXIIII. per
+        tertiam partem metiri impossibile sit. Dum autem XXIIII. et per binarium et per ternarium
+        metiri possit, certum est, quod binarium binario, ternarium ternario in eadem consonantia
         respondere voluit, ubi ternarium binario respondere contradixit. Quod vero adjecit, VI. ad
         XII. diapason fieri, cum jam posuisset bis XII, recolendum est, quod non solum in vocibus,
         sed etiam inter voces differentiarum mensura colligenda sit. Nam quia bis XII. dixit VI. ad
@@ -375,8 +392,8 @@
         paramesen praeterit. Alleluia etiam Pascha nostrum in hoc tropo consistit, quod pene ad suum
         diapason pervenit.</p>
       <p xml:id="ALIMU0031">DE TERTIO ET QUARTO TONO NOVA CUJUSDAM EXPOSITIO</p>
-      <p xml:id="ALIMU0032">A prima specie diapason et primus, propter quamdam naturam, inchoatur, et
-        tertius tropus, finiturque in diatessaron: in hoc scilicet concluditur ejus forma intra
+      <p xml:id="ALIMU0032">A prima specie diapason et primus, propter quamdam naturam, inchoatur,
+        et tertius tropus, finiturque in diatessaron: in hoc scilicet concluditur ejus forma intra
         diapente O ad e et diatessaron <pb n="[940]"/>O ad cc. Hujus enim tropi talis est forma
         NOEOEANE. Habet enim hic tropus in nocturnis differentias tres, unam in M. quae habet unum
         locum, scilicet qui odit animam. Alteram in O. quae habet unum locum, diatessaron remissum
@@ -386,15 +403,15 @@
         sic currit versus: Gloria Patri, et caetera. In diurnis enim sic currit versus Gloria Patri,
         et caetera.</p>
       <p xml:id="ALIMU0033">DE QUARTO.</p>
-      <p xml:id="ALIMU0034">A quinta specie diapason, ubi finitur tertius tropus, inchoatur et quartus,
-        ab H. scilicet et finitur in eadem H. Concluditur haec ejus forma intra diapente, quod est
-        ab O. ad e. addito sesquioctavo remisso c. ad e. Hujus enim tropi haec est forma NOEAGIS.
-        Habet enim hic tropus in nocturnis differentias H. Primam in h, quae habet quatuor loca in
-        c. O quam clarus est, id est, Jerusalem; sesquioctavum remissum in C. Rubum quem viderat.
-        Secunda differentia est in c. quae habet unum locum in C. Betleem non es minima. Unde
-        constat, ut hic tropus duas habet differentias et dedicata loca in nocturnis. In diurnis
-        enim hic tropus unam habet differentiam in M. ut Resurrexi. Hujus enim in nocturnis sic
-        currit versus: Gloria Patri, et caetera. In diurnis sic: Gloria Patri, et caetera.</p>
+      <p xml:id="ALIMU0034">A quinta specie diapason, ubi finitur tertius tropus, inchoatur et
+        quartus, ab H. scilicet et finitur in eadem H. Concluditur haec ejus forma intra diapente,
+        quod est ab O. ad e. addito sesquioctavo remisso c. ad e. Hujus enim tropi haec est forma
+        NOEAGIS. Habet enim hic tropus in nocturnis differentias H. Primam in h, quae habet quatuor
+        loca in c. O quam clarus est, id est, Jerusalem; sesquioctavum remissum in C. Rubum quem
+        viderat. Secunda differentia est in c. quae habet unum locum in C. Betleem non es minima.
+        Unde constat, ut hic tropus duas habet differentias et dedicata loca in nocturnis. In
+        diurnis enim hic tropus unam habet differentiam in M. ut Resurrexi. Hujus enim in nocturnis
+        sic currit versus: Gloria Patri, et caetera. In diurnis sic: Gloria Patri, et caetera.</p>
       <p xml:id="ALIMU0035">ITEM DE QUINTO.</p>
       <p xml:id="ALIMU0036">Tonus quintus, quem nobis Lydium dicimus, totus per denarium, semper est
         diapenticus: quia ter VIII. per sesquialteram proportionem in diapente cadunt, quorum
@@ -422,57 +439,58 @@
         quinaria cadit: quoniam ter VIII. et quater VI. ab bis XII. rediguntur. Quater vero VIII, ad
         ter XII. ut binarius et ternarius qui faciunt V. conservent suum diapente.</p>
       <p xml:id="ALIMU0037">DE QUINTO TONO NOVA CUJUSDAM EXPOSITIO.</p>
-      <p xml:id="ALIMU0038">A tertia specie diapason, quae (est) Y. inchoatur quintus tropus, finiturque
-        in diapente, quod est I. concluditur enim ejus forma diapente, quod est. I ad DD. Hujus enim
-        tropi haec est forma NOEOEANE. Habet enim hic tropus duas differentias in nocturnis, unam in
-        O. quae habet duo loca, scilicet antiphona Obsecro Domine, enarmonicum remissum in I. Vox
-        clamantis. Alteram differentiam in Y. quae habet unum locum, scilicet Hodie nobis. In
-        diurnis enim hic tropus quatuor habet differentias et tria loca, scilicet Exaudi Deus.
-        Alteram in M. quae habet unum locum in I. Circumdederunt me. Tertiam in Y. Justus Dominus.
-        Hujus tropi in nocturnis sic currit versus: Gloria Patri, et caetera. In diurnis sic currit
-        versus: Gloria Patri, et caetera.</p>
+      <p xml:id="ALIMU0038">A tertia specie diapason, quae (est) Y. inchoatur quintus tropus,
+        finiturque in diapente, quod est I. concluditur enim ejus forma diapente, quod est. I ad DD.
+        Hujus enim tropi haec est forma NOEOEANE. Habet enim hic tropus duas differentias in
+        nocturnis, unam in O. quae habet duo loca, scilicet antiphona Obsecro Domine, enarmonicum
+        remissum in I. Vox clamantis. Alteram differentiam in Y. quae habet unum locum, scilicet
+        Hodie nobis. In diurnis enim hic tropus quatuor habet differentias et tria loca, scilicet
+        Exaudi Deus. Alteram in M. quae habet unum locum in I. Circumdederunt me. Tertiam in Y.
+        Justus Dominus. Hujus tropi in nocturnis sic currit versus: Gloria Patri, et caetera. In
+        diurnis sic currit versus: Gloria Patri, et caetera.</p>
       <p xml:id="ALIMU0039">ITEM DE SEXTO TONO.</p>
-      <p xml:id="ALIMU0040">Tonus sextus est species sexies VI, ad sexies IIII, de bis XII. et quater
-        VIIII. ad quater VI. de bis XII. quia sesquialtera proportio in diapente cadit et sexies
-        IIII. de ter VIII. sicut sexies IIII. de bis XII. in consonantia diapason, id est. ad XII.
-        perveniunt per bis XII. et quater VIIII. qui sunt XLVIII, sicut sexies VI. et quater VIIII.
-        sunt LXXII. Totus enim iste tonus aut per diapason consonantiam, id est, VI. ad XII. aut per
-        diapente, denario scilicet, mensurabitur, ut in gradalibus antiphonis Os justi. Omnes
-        gentes. Quasi modo geniti. In nocturnalibus quoque antiphonis O admirabile. Vade Satana.
-        Virgo hodie fidelis. O quam gloriosum est. Quia sunt octo tropi, quorum quatuor dicuntur
-        autentici vel principales; reliqui plagii vel subjugales. <pb n="[942]"/>Sciendum est, quod
-        a se invicem, hoc est, principalis a suo subjugali non discrepet, aut ratione numerorum, aut
-        natura symphoniarum. Quapropter hujusmodi mensurae et numeri magis lydio principali
-        competunt, quam subjugali: quoniam ille sextam partem de bis XII. quod est IIII. et quartam,
-        quod est VI. frequentius percurrit: iste vero in quibusdam antiphonis more subjugalium vix
-        ab bis XII. pertingit. Denique quod bis XII. id est XXIIII. sexta parte vel quarta metiri
-        praecepit: hoc est, quod post modum ait ejusdem tropi consonantiam, quod est diapente,
-        denario mensurari: quandoquidem VI et IIII denarii mensurae competit. Quod vero sexies VI.
-        ad sexies IIII. quod est LX. comparari voluit, idem valet, ac si diceret, XXXVI. ad XXIIII,
-        per diapente consonantiam comparari. Deinde ter VIII. et bis XII. in consonantia dixit
-        diapason fieri per VI. ad XII. quod nihil est aliud, nisi quia ter VIII. et bis XII. idem
-        valent ad XII. quod praedicta diapason in minoribus numeris, hoc est VI. ad XII. Nam a sua
-        finali, quae est parypate meson, diapente superius et diatessaron inferius currit. Ex quibus
-        utriusque consonantiis semper diapason existit, sicut animadvertere potes in antiphona quae
-        est: Omnes gentes. Quandoquidem et ad parypate hypaton descendit et ad trite diezeugmenon,
-        ut dictum est, diapason existit. Eodem modo ascendit et descendit offertorium: Stetit
-        angelus. Nocturnale quoque responsorium cum suo versu, quod est Aspiciebam, et Esto nobis:
-        ad nete hyperbolaeon videntur ascendere. Alleluia Etiam Omnes gentes, ejusdem tropi melodia,
-        quae est AANNES. intonando retinet. Siquidem ipsa melodia ascendendo mesen tangit, ac
-        postea, tertiam speciem diatessaron descendendo remittit.</p>
+      <p xml:id="ALIMU0040">Tonus sextus est species sexies VI, ad sexies IIII, de bis XII. et
+        quater VIIII. ad quater VI. de bis XII. quia sesquialtera proportio in diapente cadit et
+        sexies IIII. de ter VIII. sicut sexies IIII. de bis XII. in consonantia diapason, id est. ad
+        XII. perveniunt per bis XII. et quater VIIII. qui sunt XLVIII, sicut sexies VI. et quater
+        VIIII. sunt LXXII. Totus enim iste tonus aut per diapason consonantiam, id est, VI. ad XII.
+        aut per diapente, denario scilicet, mensurabitur, ut in gradalibus antiphonis Os justi.
+        Omnes gentes. Quasi modo geniti. In nocturnalibus quoque antiphonis O admirabile. Vade
+        Satana. Virgo hodie fidelis. O quam gloriosum est. Quia sunt octo tropi, quorum quatuor
+        dicuntur autentici vel principales; reliqui plagii vel subjugales. <pb n="[942]"/>Sciendum
+        est, quod a se invicem, hoc est, principalis a suo subjugali non discrepet, aut ratione
+        numerorum, aut natura symphoniarum. Quapropter hujusmodi mensurae et numeri magis lydio
+        principali competunt, quam subjugali: quoniam ille sextam partem de bis XII. quod est IIII.
+        et quartam, quod est VI. frequentius percurrit: iste vero in quibusdam antiphonis more
+        subjugalium vix ab bis XII. pertingit. Denique quod bis XII. id est XXIIII. sexta parte vel
+        quarta metiri praecepit: hoc est, quod post modum ait ejusdem tropi consonantiam, quod est
+        diapente, denario mensurari: quandoquidem VI et IIII denarii mensurae competit. Quod vero
+        sexies VI. ad sexies IIII. quod est LX. comparari voluit, idem valet, ac si diceret, XXXVI.
+        ad XXIIII, per diapente consonantiam comparari. Deinde ter VIII. et bis XII. in consonantia
+        dixit diapason fieri per VI. ad XII. quod nihil est aliud, nisi quia ter VIII. et bis XII.
+        idem valent ad XII. quod praedicta diapason in minoribus numeris, hoc est VI. ad XII. Nam a
+        sua finali, quae est parypate meson, diapente superius et diatessaron inferius currit. Ex
+        quibus utriusque consonantiis semper diapason existit, sicut animadvertere potes in
+        antiphona quae est: Omnes gentes. Quandoquidem et ad parypate hypaton descendit et ad trite
+        diezeugmenon, ut dictum est, diapason existit. Eodem modo ascendit et descendit offertorium:
+        Stetit angelus. Nocturnale quoque responsorium cum suo versu, quod est Aspiciebam, et Esto
+        nobis: ad nete hyperbolaeon videntur ascendere. Alleluia Etiam Omnes gentes, ejusdem tropi
+        melodia, quae est AANNES. intonando retinet. Siquidem ipsa melodia ascendendo mesen tangit,
+        ac postea, tertiam speciem diatessaron descendendo remittit.</p>
       <p xml:id="ALIMU0041">ITEM DE SEXTO TONO NOVA CUJUSDAM EXPOSITIO.</p>
-      <p xml:id="ALIMU0042">A sexta specie diapason, ubi finitur quintus tropus, inchoatur sextus, ab I.
-        videlicet. Concluditur tamen ejus forma diapente, quod est O. ad E. addita sesquioctava
-        proportione ad gravem partem scilicet E. ad C. hujus enim tropi haec est forma NOEAGIS.
-        Habet enim hic tropus in nocturnis differentiam unam, quae habet tria loca, scilicet
-        Aspiciebam. Enarmonicum intensum in O. Modo veniet. Diatessaron remissum in C. Per
+      <p xml:id="ALIMU0042">A sexta specie diapason, ubi finitur quintus tropus, inchoatur sextus,
+        ab I. videlicet. Concluditur tamen ejus forma diapente, quod est O. ad E. addita
+        sesquioctava proportione ad gravem partem scilicet E. ad C. hujus enim tropi haec est forma
+        NOEAGIS. Habet enim hic tropus in nocturnis differentiam unam, quae habet tria loca,
+        scilicet Aspiciebam. Enarmonicum intensum in O. Modo veniet. Diatessaron remissum in C. Per
         memetipsum. Itaque hic tropus una differentia cum tribus insignitur locis. In diurnis enim
         ipsa differentia duo habet, loca, scilicet Os justi. Diatessaron remissum in C. Qui
         manducat. Hujus tropi in nocturnis sic currit versus: Gloria Patri, et caetera. In diurnis
         sic: Gloria Patri, et caetera.</p>
       <p xml:id="ALIMU0043">DE SEPTIMO TONO.</p>
       <p xml:id="ALIMU0044">Tonus septimus, quem nos mixolydion dicimus; in proportione quarti toni
-        habet totum diatessaron, in proportione quinti toni totum diapente, et in <pb n="[943]"/>proportione propria habet quater XII. quod est diapason. Quod ait, ex quarti et quinti
+        habet totum diatessaron, in proportione quinti toni totum diapente, et in <pb n="[943]"
+        />proportione propria habet quater XII. quod est diapason. Quod ait, ex quarti et quinti
         toni proportionibus mixolydium fieri, qui idcirco dictus est, eo quod ex Lydio mixtus sit,
         scire oportet, quod in quarto tono bis VIIII. ad bis XII, et ter VI. ad ter VIII, per XLII.
         diatessaron consistit. In quinto vero sexies VI. ad sexies IIII. de bis XII et quater VIIII.
@@ -548,16 +566,17 @@
         Gelboe. et Dixit Ruben. Diurna responsoria Dilexisti. et Qui sedes. Offertorium Si
         ambulavero.</p>
       <p xml:id="ALIMU0047">ITEM DE SEPTIMO ET OCTAVO TONO NOVA CUJUSDAM EXPOSITIO.</p>
-      <p xml:id="ALIMU0048">A quarta specie diapason, quae est supra mese, inchoatur septimus tropus, id
-        est, cc. et finitur in diapente m. Concluditur ejus forma intra diapente, quod est cc. ad m.
-        addita sesquioctava proportione, quod est ab m. ad i. Hujus tropi haec est forma NOEOEAGIS.
-        Habet enim in nocturnis differentias tres, unam in cc. quae habet unum locum, diapente
-        remissum in m. ut Summae Trinitati. Alteram in y. quae habet duo loca in se. ut Dixit Judas.
-        tonum intensum in cc. ut Aspiciens. Tertia differentia est in O, quae habet duo loca in se.
-        Attende Domine ad me. tonum remissum in m. ut Missus est Gabriel. Et de hac differentia sunt
-        omnes antiphonae, quas vitio finis in quarto ponimus: ut Benedicta tu. In diurnis huic tropo
-        una differentia in m. quae habet unum locum in se, scilicet Puer natus est. Sic enim in
-        nocturnis currit versus: Gloria Patri, et caetera. In diurnis: Gloria Patri, et caetera.</p>
+      <p xml:id="ALIMU0048">A quarta specie diapason, quae est supra mese, inchoatur septimus
+        tropus, id est, cc. et finitur in diapente m. Concluditur ejus forma intra diapente, quod
+        est cc. ad m. addita sesquioctava proportione, quod est ab m. ad i. Hujus tropi haec est
+        forma NOEOEAGIS. Habet enim in nocturnis differentias tres, unam in cc. quae habet unum
+        locum, diapente remissum in m. ut Summae Trinitati. Alteram in y. quae habet duo loca in se.
+        ut Dixit Judas. tonum intensum in cc. ut Aspiciens. Tertia differentia est in O, quae habet
+        duo loca in se. Attende Domine ad me. tonum remissum in m. ut Missus est Gabriel. Et de hac
+        differentia sunt omnes antiphonae, quas vitio finis in quarto ponimus: ut Benedicta tu. In
+        diurnis huic tropo una differentia in m. quae habet unum locum in se, scilicet Puer natus
+        est. Sic enim in nocturnis currit versus: Gloria Patri, et caetera. In diurnis: Gloria
+        Patri, et caetera.</p>
       <p xml:id="ALIMU0049">DE OCTAVO TONO.</p>
       <p xml:id="ALIMU0050">A septima specie diapason, quae est M. ubi finitur septimus, inchoatur
         octavus: ibi finitur, ubi inchoatur. Concluditur ejus forma intra diapente intensum m. ad
@@ -616,15 +635,15 @@
         in sesquialtera, sextus sicut tertius in diapason simul ac diapente: diapason quoquo ac
         diatessaron in septimo: dupla diapason in octavo, unacum duplo triplo. Horum omnium rationem
         superius per unumquemque tropum singillatim complexus sum.</p>
-      <p xml:id="ALIMU0054">Nunc duodenarii potentiam praeterire non debeo, ad quem omnis numerus, qui
-        per ter et quater dividitur, musicis consonantiis aptatur. Nam duodenarii membra sive partes
-        sunt sex, quarum prima est unitas, secunda senarius, tertia quaternarius, quarta ternarius,
-        sexta binarius. Habet quoque hoc proprium, ut quia a primo impari surgit, ejus, id est,
-        senarius, medietas constat tribus membris, et est primus perfectus in numeris. Si ergo XII,
-        duplicentur, qui ad VI. procul dubio pro duplo accipiuntur, in hac duplicatione colligitur,
-        quod qui duplicantur per impares numeros se sequentes, sua membra, hoc est, suas partes
-        sortiuntur. Verbi causa, a ternario duplicantur hi VI. XII. XXIIII. XLVIII. et horum primus
-        tribus membris insignitur secundus quinque, tertius septem, quartus novem. Si vero a
+      <p xml:id="ALIMU0054">Nunc duodenarii potentiam praeterire non debeo, ad quem omnis numerus,
+        qui per ter et quater dividitur, musicis consonantiis aptatur. Nam duodenarii membra sive
+        partes sunt sex, quarum prima est unitas, secunda senarius, tertia quaternarius, quarta
+        ternarius, sexta binarius. Habet quoque hoc proprium, ut quia a primo impari surgit, ejus,
+        id est, senarius, medietas constat tribus membris, et est primus perfectus in numeris. Si
+        ergo XII, duplicentur, qui ad VI. procul dubio pro duplo accipiuntur, in hac duplicatione
+        colligitur, quod qui duplicantur per impares numeros se sequentes, sua membra, hoc est, suas
+        partes sortiuntur. Verbi causa, a ternario duplicantur hi VI. XII. XXIIII. XLVIII. et horum
+        primus tribus membris insignitur secundus quinque, tertius septem, quartus novem. Si vero a
         quaternio duodenarius sumat initium, qui duplicantur, quaternario excrescunt. Nam in XXIIII.
         sunt VIII. qui producti sunt ex duplicato quaternario, et in LXVIII, adduntur ad eosdem
         VIII. sic quater XII. in XLVIII. Et hoc est, quod ait: musicos esse numeros, qui per ter et
@@ -656,27 +675,27 @@
         Tonus septimus. Item de eodem. Item propria et consonantia diapason. Tonns octavus. Item ex
         eodem. Diapente. Diatessaron. XII [a supra lin.]. VI [e supra lin.]. VI [c supra lin.], VIII
         [B supra lin.]. VIIII [d supra lin.].]</p>
-      <p xml:id="ALIMU0058">Hic continentur proportiones octo tonorum, qui efficiuntur ex V. tonis, et
-        duobus semitoniis, et <pb n="[950]"/>sex symphoniae speciebus, et quinque proportionibus XII
-        [a supra lin.]. VI [c supra lin.]. VIII [B supra lin.]. VIIII [d supra lin.]. Primus tonus
-        est in XVIII. diapason, VI. ad XII. et XX. diapente, VIII. ad XII. et in XXI. diatessaron,
-        VIIII. ad XII. Secundus tonus est XII [a supra lin.]. VI [c supra lin.]. VI [c supra lin.].
-        VI [c supra lin.]. VIII [b supra lin.]. VIII [b supra lin.]. VIIII [d supra lin.]. VIIII [d
-        supra lin.]. et in XXX. per ter VI. ad XII. et per bis VIIII. ad XII. in quibus est
-        diapente. et in XXVIII. diatessaron per bis VIII. ad XII.</p>
-      <p xml:id="ALIMU0059">Tertius tonus est XII [a supra lin.]. VI [c supra lin.]. VI [c supra lin.].
-        VI [c supra lin.]. VI [c supra lin.]. VIII [b supra lin.]. VIII [b supra lin.]. VIII [b
-        supra lin.]. VIIII [d supra lin.]. VIIII [d supra lin.], In XXXVI. diapason, per quater VI.
-        ad XII. aut in XXX. diapente per bis VIIII. ad XII. Quartus tonus est XII [a supra lin.].
-        XII [a supra lin.]. VI [c supra lin.]. VI [c supra lin.]. VI [c supra lin.]. VIII [b supra
-        lin.]. VIII [b supra lin.]. VIII [b supra lin.]. VIIII [d supra lin.]. VIIII [d supra lin.].
-        Diatessaron per ter VI. ad ter VIII. et per bis VIIII. ad bis XII. qui sunt XLII. Quintus
-        tonus est XII [a supra lin.]. XII [a supra lin.]. XII [a supra lin.]. VI [c supra lin.]. VI
-        [c supra lin.]. VI [c supra lin.]. VIII [b supra lin.]. VIII [b supra lin.]. VIII [b supra
-        lin.]. VIIII [d supra lin.]. VIIII [d supra lin.]. et est diapenticus per ter VIII. ad ter
-        XII. qui sunt XXXVI. et quater VI. ad quater VIII. qui sunt LX. Sextus tonus est XII [a
-        supra lin.]. XII [a supra lin.]. VI [c supra lin.]. VI [c supra lin.]. VI [c supra lin.]. VI
-        [c supra lin.]. VI [c supra lin.]. VI [c supra lin.]. VIII [b supra lin.]. VIII [b supra
+      <p xml:id="ALIMU0058">Hic continentur proportiones octo tonorum, qui efficiuntur ex V. tonis,
+        et duobus semitoniis, et <pb n="[950]"/>sex symphoniae speciebus, et quinque proportionibus
+        XII [a supra lin.]. VI [c supra lin.]. VIII [B supra lin.]. VIIII [d supra lin.]. Primus
+        tonus est in XVIII. diapason, VI. ad XII. et XX. diapente, VIII. ad XII. et in XXI.
+        diatessaron, VIIII. ad XII. Secundus tonus est XII [a supra lin.]. VI [c supra lin.]. VI [c
+        supra lin.]. VI [c supra lin.]. VIII [b supra lin.]. VIII [b supra lin.]. VIIII [d supra
+        lin.]. VIIII [d supra lin.]. et in XXX. per ter VI. ad XII. et per bis VIIII. ad XII. in
+        quibus est diapente. et in XXVIII. diatessaron per bis VIII. ad XII.</p>
+      <p xml:id="ALIMU0059">Tertius tonus est XII [a supra lin.]. VI [c supra lin.]. VI [c supra
+        lin.]. VI [c supra lin.]. VI [c supra lin.]. VIII [b supra lin.]. VIII [b supra lin.]. VIII
+        [b supra lin.]. VIIII [d supra lin.]. VIIII [d supra lin.], In XXXVI. diapason, per quater
+        VI. ad XII. aut in XXX. diapente per bis VIIII. ad XII. Quartus tonus est XII [a supra
+        lin.]. XII [a supra lin.]. VI [c supra lin.]. VI [c supra lin.]. VI [c supra lin.]. VIII [b
+        supra lin.]. VIII [b supra lin.]. VIII [b supra lin.]. VIIII [d supra lin.]. VIIII [d supra
+        lin.]. Diatessaron per ter VI. ad ter VIII. et per bis VIIII. ad bis XII. qui sunt XLII.
+        Quintus tonus est XII [a supra lin.]. XII [a supra lin.]. XII [a supra lin.]. VI [c supra
+        lin.]. VI [c supra lin.]. VI [c supra lin.]. VIII [b supra lin.]. VIII [b supra lin.]. VIII
+        [b supra lin.]. VIIII [d supra lin.]. VIIII [d supra lin.]. et est diapenticus per ter VIII.
+        ad ter XII. qui sunt XXXVI. et quater VI. ad quater VIII. qui sunt LX. Sextus tonus est XII
+        [a supra lin.]. XII [a supra lin.]. VI [c supra lin.]. VI [c supra lin.]. VI [c supra lin.].
+        VI [c supra lin.]. VI [c supra lin.]. VI [c supra lin.]. VIII [b supra lin.]. VIII [b supra
         lin.]. VIII [b supra lin.]. VIIII [d supra lin.]. VIIII [d supra lin.]. VIIII [d supra
         lin.]. et est diapason per sexies VI. ad bis XII. qui sunt LX. et per ter VIII. ad bis XII.
         qui sunt XLVIII. aut diapente per quater VIIII. ad bis XII. qui sunt LX</p>
@@ -696,7 +715,8 @@
       <p xml:id="ALIMU0061">Octavus tonus est, qui constat ex supradictis quarti et quinti toni
         diatessaron et diapente XII [a supra lin.]. XII [a supra lin.]. VI [c supra lin.]. VI [c
         supra lin.]. VI [c supra lin.]. VIII [b supra lin.]. VIII [b supra lin.]. VIII [b supra
-        lin.]. VIIII. VIIII. qui faciunt VI. ad ter VIII. et bis VIII. ad bis XII. in septenario <pb n="[951]"/>diatessaron. Item XII [a supra lin.]. XII [a supra lin.]. XII [a supra lin.].
+        lin.]. VIIII. VIIII. qui faciunt VI. ad ter VIII. et bis VIII. ad bis XII. in septenario <pb
+          n="[951]"/>diatessaron. Item XII [a supra lin.]. XII [a supra lin.]. XII [a supra lin.].
         VI [c supra lin.]. VI [c supra lin.]. VI [c supra lin.]. VI [c supra lin.]. VIII [b supra
         lin.]. VIII [b supra lin.]. VIII [b supra lin.]. VIIII [d supra lin.]. VIIII [d supra lin.].
         VIIII [d supra lin.]. VIIII [d supra lin.]. qui faciunt quater VIIII. ad quater VI. et ter
@@ -728,37 +748,38 @@
         aut per diapente denarium numerabit totum, ut est Antiphona Ecce advenit in qua sunt LXV.
         aut diatessaron totum, vel ter VII. ut est: Veni et ostende. Item antiphona diapentica
         Omnipotens sermo tuus Domine. et diatessaron: ut Dominus Deus auxiliator meus. Si autem in
-        diapason venerit proportio secundi toni, vel VI. ad XII. ad primum est ut ter VI. <pb n="[952]"/>ad VI. primi, et bis VIII. ad VIII. primi toni efficit.</p>
-      <p xml:id="ALIMU0065">Tonus tertius est, qui duo A. habet propter primam mensuram autenti deuteri,
-        et secundum A. propter plagam autenti deuteri, in cujus diapason suum semitonium explicat,
-        et secundi toni, qui ambo sunt semitonia, propter triplam, ut dictum est, et quadruplam,
-        propter quater VI. ad unum VI. de primo. Quater enim VI. ad quater III. de XII. quater octo
-        sunt, qui sunt XXXVI. diapason, id est, sexies VI. et ter XII. Similiter VI. ad XII. quia
-        duplae proportiones sunt: bis VIIII. ad XII. quia sesquialtera proportio est XXX. diapente
-        fiunt. Unde iste tertius tonus aut diapason erit per VI. ad XII. aut diapente, id est XXX.
-        ut in Introitibus: Confessio et pulchritudo. et Dispersit dedit. et Cognovi Domine. et
-        Antiphonis Qui de terra est. et Quando natus es. et Malos male perdet. et Homo quidam
+        diapason venerit proportio secundi toni, vel VI. ad XII. ad primum est ut ter VI. <pb
+          n="[952]"/>ad VI. primi, et bis VIII. ad VIII. primi toni efficit.</p>
+      <p xml:id="ALIMU0065">Tonus tertius est, qui duo A. habet propter primam mensuram autenti
+        deuteri, et secundum A. propter plagam autenti deuteri, in cujus diapason suum semitonium
+        explicat, et secundi toni, qui ambo sunt semitonia, propter triplam, ut dictum est, et
+        quadruplam, propter quater VI. ad unum VI. de primo. Quater enim VI. ad quater III. de XII.
+        quater octo sunt, qui sunt XXXVI. diapason, id est, sexies VI. et ter XII. Similiter VI. ad
+        XII. quia duplae proportiones sunt: bis VIIII. ad XII. quia sesquialtera proportio est XXX.
+        diapente fiunt. Unde iste tertius tonus aut diapason erit per VI. ad XII. aut diapente, id
+        est XXX. ut in Introitibus: Confessio et pulchritudo. et Dispersit dedit. et Cognovi Domine.
+        et Antiphonis Qui de terra est. et Quando natus es. et Malos male perdet. et Homo quidam
         fecit.</p>
-      <p xml:id="ALIMU0066">Tonus quartus bis XII. ad ter VIII. et. ad ter VI bis VIII. una consonantia
-        numerorum in diapason VI. ad XII id est XXIIII, conveniunt. Idcirco ter Vl. non ad bis XII.
-        comparatur, quoniam per ter non dividitur. sed ter VIII. ad ter VI. comparatur; et bis
-        VIIII. ad bis XII. per sesquitertiam proportionem. Totus iste tonus erit diatessaron semper,
-        consonantia autem diapason, id est, sex VI. ad XII. ter VI. et bis VIIII. et ter VIII. et
-        bis XII. faciunt. Quorum proportio, id est, comparatio majoris ad minorem, et minoris ad
-        majorem semper diatessaron, id est, septenario mensurabitur: ut introitus. Resurrexi. et
-        Misericordia Domini. et In voluntate tua. et Antiphonae Rubum quem viderat. et Turba multa.
-        Tria sunt munera.</p>
-      <p xml:id="ALIMU0067">Tonus quintus totus semper diapenticus per denarium est, quia ter VIIII. ad
-        ter XII. et quater VI. ad quater VIII. id est, per sesquialteram proportionem in diapente
+      <p xml:id="ALIMU0066">Tonus quartus bis XII. ad ter VIII. et. ad ter VI bis VIII. una
+        consonantia numerorum in diapason VI. ad XII id est XXIIII, conveniunt. Idcirco ter Vl. non
+        ad bis XII. comparatur, quoniam per ter non dividitur. sed ter VIII. ad ter VI. comparatur;
+        et bis VIIII. ad bis XII. per sesquitertiam proportionem. Totus iste tonus erit diatessaron
+        semper, consonantia autem diapason, id est, sex VI. ad XII. ter VI. et bis VIIII. et ter
+        VIII. et bis XII. faciunt. Quorum proportio, id est, comparatio majoris ad minorem, et
+        minoris ad majorem semper diatessaron, id est, septenario mensurabitur: ut introitus.
+        Resurrexi. et Misericordia Domini. et In voluntate tua. et Antiphonae Rubum quem viderat. et
+        Turba multa. Tria sunt munera.</p>
+      <p xml:id="ALIMU0067">Tonus quintus totus semper diapenticus per denarium est, quia ter VIIII.
+        ad ter XII. et quater VI. ad quater VIII. id est, per sesquialteram proportionem in diapente
         cadunt, quorum consonantia diapason est, id est, in duodenarium quater VIIII. et ter XII. et
         quater VI. et ter VIII. ut Introitus: Domine refugium. Circumdederunt me. et Domine in tua
         misericordia. Et antiphonae Solvite templum hoc. Salve Crux. Exultet spiritus meus. Et
         similia.</p>
-      <p xml:id="ALIMU0068">Tonus sextus est sexies VI. ad sexies IIII. de bis XII. et quater VIIII. ad
-        quater VI. de bis XII. quia sesquialtera proportio in diapente cadit, et sexies IIII. de ter
-        VIII. et sexies IIII. de bis XII. in consonantia diapason, id est, VI. et XII. veniunt per
-        VIII, qui sunt XLVIII. sicut sexies VI. et quater VIIII. in LXXII. Totus enim iste tonus aut
-        per diapason consonantiam, id est, VI. et XII. aut per diapente, id est, denarium
+      <p xml:id="ALIMU0068">Tonus sextus est sexies VI. ad sexies IIII. de bis XII. et quater VIIII.
+        ad quater VI. de bis XII. quia sesquialtera proportio in diapente cadit, et sexies IIII. de
+        ter VIII. et sexies IIII. de bis XII. in consonantia diapason, id est, VI. et XII. veniunt
+        per VIII, qui sunt XLVIII. sicut sexies VI. et quater VIIII. in LXXII. Totus enim iste tonus
+        aut per diapason consonantiam, id est, VI. et XII. aut per diapente, id est, denarium
         mensurabitur. Ut introitus: Os justi. Omnes gentes. Et Quasi modo geniti. Et Antiphonae O
         Admirabile. et Virgo hodie fidelis.</p>
       <p xml:id="ALIMU0069">
@@ -766,11 +787,11 @@
         proportione quinti toni habet totum diapente, et in proportione propria habet duodecies XII.
         diapason, qui sunt CXLIIII. Tonum octavum require ut supra.</p>
       <p xml:id="ALIMU0070">DE MENSURIS ORGANICARUM FISTULARUM.</p>
-      <p xml:id="ALIMU0071">Prima habeat octies suum diametrum. Secunda habeat primam et ejus octavam,
-        et diametri octavam: Tertia secundam et ejus octavam et diametri octavam. Quarta primam et
-        ejus tertiam et diametri tertiam. Quinta primam et ejus mediam, et diametri mediam; vel
-        quartam et ejus octavam, et diametri octavam. Sexta habeat quintam in se, et ejus octavam,
-        et diametri octavam. Octava primam habeat duplam in se.</p>
+      <p xml:id="ALIMU0071">Prima habeat octies suum diametrum. Secunda habeat primam et ejus
+        octavam, et diametri octavam: Tertia secundam et ejus octavam et diametri octavam. Quarta
+        primam et ejus tertiam et diametri tertiam. Quinta primam et ejus mediam, et diametri
+        mediam; vel quartam et ejus octavam, et diametri octavam. Sexta habeat quintam in se, et
+        ejus octavam, et diametri octavam. Octava primam habeat duplam in se.</p>
       <p xml:id="ALIMU0072">Item unde supra aliter.</p>
       <p xml:id="ALIMU0073">Prima per octavam metiatur E. T. Secunda sesquioctava sit primae D. T.
         Tertia sesquioctava secundae C. S. Quarta sesquitertia primae B. T. Quinta vel sesquialtera
@@ -794,12 +815,13 @@
         foramine ea amplior parte medietas, vel foraminis transversitas ex diductiori parte, qua
         inspiratur fistula, et cui subjacet foraminis via.</p>
       <p xml:id="ALIMU0078">Aliter.</p>
-      <p xml:id="ALIMU0079">Si tonum quaeris, major fistula minorem habeat, et ejus octavam, et ipsius
-        octavae octavam. Si diatessaron, <pb n="[954]"/>major minorem, et ejus tertiam et tertiae
-        undecimam, et undecimae sextam. Si diapente, major minorem et ejus mediam, et medietatis
-        octavam, et octavae octavam. Si diapason, major minorem duplo, et insuper ejus unam octavam,
-        et octavae octavam. Si diapason et diapente, major minorem triplo, et ejus duas octavas, id
-        est, quartam. Si bis diapason, major minorem quadruplo, et insuper ejus tres octavas.</p>
+      <p xml:id="ALIMU0079">Si tonum quaeris, major fistula minorem habeat, et ejus octavam, et
+        ipsius octavae octavam. Si diatessaron, <pb n="[954]"/>major minorem, et ejus tertiam et
+        tertiae undecimam, et undecimae sextam. Si diapente, major minorem et ejus mediam, et
+        medietatis octavam, et octavae octavam. Si diapason, major minorem duplo, et insuper ejus
+        unam octavam, et octavae octavam. Si diapason et diapente, major minorem triplo, et ejus
+        duas octavas, id est, quartam. Si bis diapason, major minorem quadruplo, et insuper ejus
+        tres octavas.</p>
       <p xml:id="ALIMU0080">Item.</p>
       <p xml:id="ALIMU0081">Si fistulae aequalis grossitudinis fuerint, et major minorem in sua
         longitudine bis habuerit, et insuper concavitatis ejus diametrum: diapason consonantiam
@@ -807,8 +829,8 @@
       <p xml:id="ALIMU0082">Si fistula major fistulae minoris longitudinem quater in se habuerit, et
         insuper diametri, quod in cavo est, ter mensuram contineat: bis diapason consonantiam
         resonabunt.</p>
-      <p xml:id="ALIMU0083">Si fistula major minorem in se totam habeat, et insuper ejus tertiam partem,
-        nec non et diametri, quod in cavo est, diatessaron consonantiam resonabunt.</p>
+      <p xml:id="ALIMU0083">Si fistula major minorem in se totam habeat, et insuper ejus tertiam
+        partem, nec non et diametri, quod in cavo est, diatessaron consonantiam resonabunt.</p>
       <p xml:id="ALIMU0084">Si fistula major minorem in se habuerit, et insuper ejus longitudinis
         medietatem, simul cum medietate diametri, quod in cavo est, diapente cosonantiam
         resonabunt.</p>
@@ -820,39 +842,40 @@
         sesquioctavum secundi. Quartum sesquitertium primi. Quintum sequioctavum quarti. Sextum
         sesquioctavum quinti. Septimum sesquitertium quarti.</p>
       <p xml:id="ALIMU0088">De Modis</p>
-      <p xml:id="ALIMU0089">Autentus auctoralis, et auctoritate plenus. Protus id est, primus: deuterus
-        secundus: tritus tertius: tetrardus quartus. Quibus ordinatim supponuntur quatuor laterales,
-        quos vocant plagis proti, plagis deuteri, plagis triti, plagis tetrardi. Item in Graeco
-        ANNANEANE. NANANEAGIES. AGIANNEAGIES. NENOTEANES. NOEAGIS. Item parapteres NENNOTENEAGIS.
-        Antiphona mea nox. Antiphona o mors. Antiphona miserere mei Deus. ANAIETANENAGIS
-        AIANNEAGIES. Antiphona Nos qui vivimus. Item parapteres, qui supra scripti sunt, necesse
-        est, ut teneamus, qui in antiphonis minutis comprobantur, maxime de psalmis, qui non
-        finiuntur ita ut inchoant. Parapteres dicti, eo quod iter praeparant versibus descendi in
-        antiphonis. NENOTENARSIS Parapter primus contingit tonum secundum, et intrat in versum, ut
-        tonus secundus. <pb n="[955]"/>et finit sicut tonus primus, ut est illud: Miserere mei Deus,
-        Et A delicto. Et aliae plures. ANOS Parapter secundus contingit tonum quartum, et ibi finit.
-        Hae sunt antiphonae Quia mirabilia. Sede a dextris. Speret Israel. Omnis terra. Et aliae
-        plures. ANAGETANENAGIS Parapter tertius contingit tonum septimum, et finit in tono quarto.
-        Sunt vero multae antiphonae, quae ibi descendunt, quas nobis dinumerare longum est. Sed in
-        aliquantulum dicamus, Antiphonae Benedicta. Rorate. Erit etiam AIANNEAGIES. Parapter vero
-        quartus contingit tonum octavum, sed non ascendit in alteram vocem, et mediocris in ipsam
-        finitur, et parumper inveniuntur, nisi quatuor aut quinque antiphonae: Nos qui vivimus. In
-        ecclesiis. Martyres Domini. Angeli Domini. Virgines Domini.</p>
+      <p xml:id="ALIMU0089">Autentus auctoralis, et auctoritate plenus. Protus id est, primus:
+        deuterus secundus: tritus tertius: tetrardus quartus. Quibus ordinatim supponuntur quatuor
+        laterales, quos vocant plagis proti, plagis deuteri, plagis triti, plagis tetrardi. Item in
+        Graeco ANNANEANE. NANANEAGIES. AGIANNEAGIES. NENOTEANES. NOEAGIS. Item parapteres
+        NENNOTENEAGIS. Antiphona mea nox. Antiphona o mors. Antiphona miserere mei Deus.
+        ANAIETANENAGIS AIANNEAGIES. Antiphona Nos qui vivimus. Item parapteres, qui supra scripti
+        sunt, necesse est, ut teneamus, qui in antiphonis minutis comprobantur, maxime de psalmis,
+        qui non finiuntur ita ut inchoant. Parapteres dicti, eo quod iter praeparant versibus
+        descendi in antiphonis. NENOTENARSIS Parapter primus contingit tonum secundum, et intrat in
+        versum, ut tonus secundus. <pb n="[955]"/>et finit sicut tonus primus, ut est illud:
+        Miserere mei Deus, Et A delicto. Et aliae plures. ANOS Parapter secundus contingit tonum
+        quartum, et ibi finit. Hae sunt antiphonae Quia mirabilia. Sede a dextris. Speret Israel.
+        Omnis terra. Et aliae plures. ANAGETANENAGIS Parapter tertius contingit tonum septimum, et
+        finit in tono quarto. Sunt vero multae antiphonae, quae ibi descendunt, quas nobis
+        dinumerare longum est. Sed in aliquantulum dicamus, Antiphonae Benedicta. Rorate. Erit etiam
+        AIANNEAGIES. Parapter vero quartus contingit tonum octavum, sed non ascendit in alteram
+        vocem, et mediocris in ipsam finitur, et parumper inveniuntur, nisi quatuor aut quinque
+        antiphonae: Nos qui vivimus. In ecclesiis. Martyres Domini. Angeli Domini. Virgines
+        Domini.</p>
       <p xml:id="ALIMU0090">DE QUINQUE SYMPHONIIS, TRIBUS SIMPLICIBUS, ET TRIBUS COMPOSITIS.</p>
-      <p xml:id="ALIMU0091">[PLCXXXII:955,1; text: Diapason symphonia est, quae fit duplo, ut est hoc.
-        II. Diapente vero est, quae his numeris constat. DIAPENTE, III. Sesquialtera. Diatessaron
-        vero est, quae in hac proportione consistit. Diatessaron, IIII. Sesquitertia. Tonus vero
-        sesquioctava proportione concluditur VIII. Tonus, Sesquioctava, VIIII, Diapason et diapente
-        tripla comparatione colligitur hoc modo. Diapason ac Diapente. Tripla, Diapason, Diapente,
-        VI. Bis diapason quadrupla collatione perficitur. Quadrupla, Bis Diapason, VIII. Diatessaron
-        ac diapente unum perficiunt diapason hoc modo. Sesquitertius. Dupla.] <figure>
+      <p xml:id="ALIMU0091">[PLCXXXII:955,1; text: Diapason symphonia est, quae fit duplo, ut est
+        hoc. II. Diapente vero est, quae his numeris constat. DIAPENTE, III. Sesquialtera.
+        Diatessaron vero est, quae in hac proportione consistit. Diatessaron, IIII. Sesquitertia.
+        Tonus vero sesquioctava proportione concluditur VIII. Tonus, Sesquioctava, VIIII, Diapason
+        et diapente tripla comparatione colligitur hoc modo. Diapason ac Diapente. Tripla, Diapason,
+        Diapente, VI. Bis diapason quadrupla collatione perficitur. Quadrupla, Bis Diapason, VIII.
+        Diatessaron ac diapente unum perficiunt diapason hoc modo. Sesquitertius. Dupla.] <figure>
           <graphic url="/images/ALIMU_02GF.gif"/>
         </figure></p>
       <p xml:id="ALIMU0092">De consonantiis tribus.</p>
-      <p xml:id="ALIMU0093">[PLCXXXII:955,2; text: c, d, e, f, g, h, Symphonia dicta aeolice diatessaron
-        tono constat tonoque cum copula semitonii taliter aptam ratam dulcemque melodia resonans.
-        Haec secunda forma modulatur tono ac hemitonio tonoque pulchre sonans. Tertia quae symphonia
-        hujus semitonii tono tono species constat.]</p>
+      <p xml:id="ALIMU0093">[PLCXXXII:955,2; text: c, d, e, f, g, h, Symphonia dicta aeolice
+        diatessaron tono constat tonoque cum copula semitonii taliter aptam ratam dulcemque melodia
+        resonans. Haec secunda forma modulatur tono ac hemitonio tonoque pulchre sonans. Tertia quae
+        symphonia hujus semitonii tono tono species constat.]</p>
       <p xml:id="ALIMU0094">
         <pb n="[956]"/>[PLCXXXII:956; text: a, h, c, d, e, f, g, Consonantia dicta sesquialtera
         diapente prima species tono constat tonoque cum copula semitonii addito quoque tono amplius
@@ -869,17 +892,18 @@
         duo, et si duo addam super XXIIdam, id est, bis sesquiseptimam decimam, erunt XVIIII, quae
         XVIIII. non faciunt sesquioctavam proportionem ad XVII. Nam deest octava pars unitatis, et
         ex hoc intelligitur, quia faciunt duae sesquiseptimae decimae tonum integrum.</p>
-      <p xml:id="ALIMU0097">Si vis scire XVImam partem in XVII. collige numerum, qui perveniat ad XVII.
-        de quibus unum subtrahe, et remanebunt XVI. unitates. Ex quibus XVI. unitatibus recipe XVIam
-        unitatem, et divide in XVI. partes. Ex quibus XVI. partibus XVIma pars est unitatis, diviso
-        septimi numeri, quem prius tulisti de XVI. antequam illum divideres in XVIcim partes.</p>
-      <p xml:id="ALIMU0098">Beatus Augustinus perhibet quia poenaliter peccat, quem in divinis canticis
-        altitudo magis quam sensus (verborum) delectat; quia ideo non voce, sed corde canendum est.
-        Hoc enim usus psallendi constitutus est; ut sicut David in citharizando nequam spiritum in
-        Saule eompescebat: ita cantores modulando vel jubilando, quaelibet diabolica desideria de
-        cordibus audientium expellant, et coelestibus harmoniis interesse persuadeant. Qua propter
-        satagendum est, ne usum canendi deseramus, et per vocis exaltationem ne delinquamus. Hinc
-        David: Beatus populus, qui scit jubilationem.</p>
+      <p xml:id="ALIMU0097">Si vis scire XVImam partem in XVII. collige numerum, qui perveniat ad
+        XVII. de quibus unum subtrahe, et remanebunt XVI. unitates. Ex quibus XVI. unitatibus recipe
+        XVIam unitatem, et divide in XVI. partes. Ex quibus XVI. partibus XVIma pars est unitatis,
+        diviso septimi numeri, quem prius tulisti de XVI. antequam illum divideres in XVIcim
+        partes.</p>
+      <p xml:id="ALIMU0098">Beatus Augustinus perhibet quia poenaliter peccat, quem in divinis
+        canticis altitudo magis quam sensus (verborum) delectat; quia ideo non voce, sed corde
+        canendum est. Hoc enim usus psallendi constitutus est; ut sicut David in citharizando nequam
+        spiritum in Saule eompescebat: ita cantores modulando vel jubilando, quaelibet diabolica
+        desideria de cordibus audientium expellant, et coelestibus harmoniis interesse persuadeant.
+        Qua propter satagendum est, ne usum canendi deseramus, et per vocis exaltationem ne
+        delinquamus. Hinc David: Beatus populus, qui scit jubilationem.</p>
       <p xml:id="ALIMU0099">Cognitum esse debet omni musicam scientiam habere cupienti, quod omnes
         musicae consonantiae aut <pb n="[957]"/>in duplici: ut II. ad III. aut in triplici: ut II ad
         VI. aut in quadrupla: ut sunt II. ad VIII. aut in sesquialtera: ut III. ad II. aut in
@@ -895,9 +919,9 @@
         consonantiam resonarent, medii ad se invicem atque ad extremos diapente ac diatessaron, ut
         nihil in his esset inconsonum ad mutationem mundanae scilicet musicae, quae ex IIII. constat
         elementis; cujus quadrichordi Mercurius dicitur inventor.</p>
-      <p xml:id="ALIMU0101">Fertur a quibusdam, tempore quodam Nilum multipliciter redundasse, ita ut
-        terrae circa ejus littus operirentur, post cujus recessum pisces innumerabiles absque aqua
-        per campos relictos periisse, <pb n="[958]"/>acciditque eo tempore Mercurium (cochleam)
+      <p xml:id="ALIMU0101">Fertur a quibusdam, tempore quodam Nilum multipliciter redundasse, ita
+        ut terrae circa ejus littus operirentur, post cujus recessum pisces innumerabiles absque
+        aqua per campos relictos periisse, <pb n="[958]"/>acciditque eo tempore Mercurium (cochleam)
         invenisse, quam cochleam Mercurius accipiens nihil praeter nervos quatuor ejus piscis, qui
         in ea fuerat, invenisse dicitur: quos singillatim tangens hoc tetrachordum primus reperisse
         narratur.</p>

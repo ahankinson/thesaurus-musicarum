@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Micrologus</title>
         <title type="abbrev">GUIMIC</title>
-        <author>Guido d'Arezzo</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Guido d'Arezzo</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Laurel Carter</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Luminita Florea Aluas</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1991</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1991">1991</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptores ecclesiastici de musica sacra potissimum</emph>, 3 vols., ed. Martin
@@ -323,8 +333,8 @@
       <p xml:id="GUIMIC0007">Ordine me scripsi primo qui carmina finxi.</p>
       <p xml:id="GUIMIC0008">Epistola Guidonis Monachi ac musici ad Teudaldum episcopum suum, De
         disciplina artis musicae.</p>
-      <p xml:id="GUIMIC0009">Divini timoris, totiusque prudentiae fulgore clarissimo ac dulcissimo Patri
-        et reverendissimo Domino Theodaldo Sacerdotum ac praesulum dignissimo, Guido suorum
+      <p xml:id="GUIMIC0009">Divini timoris, totiusque prudentiae fulgore clarissimo ac dulcissimo
+        Patri et reverendissimo Domino Theodaldo Sacerdotum ac praesulum dignissimo, Guido suorum
         monachorum utinam minimus, quidquid servus et filius.</p>
       <p xml:id="GUIMIC0010">Dum solitariae vitae saltem modicam exsequi cupio quantitatem, vestrae
         benignitatis dignatio ad sacri verbi studium meam sibi sociari voluit parvitatem: non quod
@@ -398,8 +408,8 @@
         naturam imitata discrevit, primitus videamus.</p>
       <p xml:id="GUIMIC0039">Caput II.</p>
       <p xml:id="GUIMIC0040">Quae vel quales sint notae, vel quot?</p>
-      <p xml:id="GUIMIC0041">Notae autem in monochordo hae sunt. In primis ponatur [Gamma]. graecum a
-        modernis adiunctum. Sequuntur septem alphabeti litterae graves, ideoque maioribus litteris
+      <p xml:id="GUIMIC0041">Notae autem in monochordo hae sunt. In primis ponatur [Gamma]. graecum
+        a modernis adiunctum. Sequuntur septem alphabeti litterae graves, ideoque maioribus litteris
         insignitae hoc modo. A B C D E F G. Post has hae eaedem septem litterae acutae repetuntur,
         sed minoribus litteris describuntur, in quibus tamen inter a. et [sqb]. aliam b. ponimus,
         quam rotundam facimus; alteram vero quadravimus. Ita a. b. [sqb]. c. d. e. f. g. Addimus his
@@ -423,17 +433,17 @@
         D. aliam d. et E. aliam e. et F. aliam f. et G. aliam g. et a. aliam aa. et b. aliam bb. et
         [sqb] aliam [sqb][sqb]. et c. aliam cc. et d. aliam dd. Eodem modo posses in infinitum ita
         progredi sursum vel deorsum, nisi artis praeceptum sua te auctoritate compesceret.</p>
-      <p xml:id="GUIMIC0045">De multiplicibus diversisque divisionibus monochordi unam apposui, ut cum a
-        multis ad unam intenderetur, sine scrupulo caperetur. Praesertim cum sit tantae utilitatis,
-        ut et facile intelligatur, et ut intellecta vix obliviscatur. Alius dividendi modus
-        sequitur, qui etsi minus memoriae adiungitur, eo tamen monochordum velociore celeritate
-        componitur, hoc modo: cum primum a [Gamma]. ad finem passus novem, id est, particulas
-        facies, primus passus terminabitur in A. secundus vacat: tertius in D. quartus vacat:
-        quintus in a. sextus in d. septimus in aa. reliqui vacant. Item cum ab A. usque ad finem
-        novenis passibus partiris, primus passus terminabitur in B. secundus vacat: tertius in E.
-        quartus vacat: quintus in [sqb]. sextus in e. septimus in [sqb][sqb]. reliqui vacant. Item
-        cum a [Gamma]. ad finem quaternis dividis, primus passus terminabitur in C. secundus in G.
-        tertius in g. quartus finit. Ab C. vero ad finem similiter quatuor passuum, primus
+      <p xml:id="GUIMIC0045">De multiplicibus diversisque divisionibus monochordi unam apposui, ut
+        cum a multis ad unam intenderetur, sine scrupulo caperetur. Praesertim cum sit tantae
+        utilitatis, ut et facile intelligatur, et ut intellecta vix obliviscatur. Alius dividendi
+        modus sequitur, qui etsi minus memoriae adiungitur, eo tamen monochordum velociore
+        celeritate componitur, hoc modo: cum primum a [Gamma]. ad finem passus novem, id est,
+        particulas facies, primus passus terminabitur in A. secundus vacat: tertius in D. quartus
+        vacat: quintus in a. sextus in d. septimus in aa. reliqui vacant. Item cum ab A. usque ad
+        finem novenis passibus partiris, primus passus terminabitur in B. secundus vacat: tertius in
+        E. quartus vacat: quintus in [sqb]. sextus in e. septimus in [sqb][sqb]. reliqui vacant.
+        Item cum a [Gamma]. ad finem quaternis dividis, primus passus terminabitur in C. secundus in
+        G. tertius in g. quartus finit. Ab C. vero ad finem similiter quatuor passuum, primus
         terminabitur in E. secundus in c. tertius in cc. quartus finit. Ab F. vero quaternorum
         passuum primus terminabitur in b. rotundum, secundus in f. tertius in c. A b. vero rotunda
         quatuor passuum in secundo invenies [sqb][sqb]. reliqui vacant. Ab aa. vero superacuta
@@ -449,7 +459,8 @@
         est, non plenus tonus. Item inter aliquam vocem et tertiam a se tum ditonus est, id est, duo
         toni, ut a C. ad E. tum semiditonus, qui habet tantum tonum et semitonium, ut a D. in F. et
         reliquas. Diatessaron autem est, cum inter duas voces quocumque modo duo sunt toni, et unum
-        semitonium, ut ab A. ad D. et a B. in E. et reliquas. Diapente vero uno tono <pb n="[6]"/>maior est, cum inter quaslibet voces tres sunt toni, et unum semitonium, ut ab A. in E. et
+        semitonium, ut ab A. ad D. et a B. in E. et reliquas. Diapente vero uno tono <pb n="[6]"
+        />maior est, cum inter quaslibet voces tres sunt toni, et unum semitonium, ut ab A. in E. et
         a C. in G. et reliquas. Habes itaque sex vocum consonantias, id est, tonum, semitonium,
         ditonum, semiditonum, diatessaron, et diapente. [Quibus adhuc consonantiis duae aliae
         modorum species a nonnullis cantoribus superadduntur, hoc est, diapente cum semitonio: ut ab
@@ -464,8 +475,8 @@
         faciliusque possidere.</p>
       <p xml:id="GUIMIC0049">Caput V.</p>
       <p xml:id="GUIMIC0050">De diapason. Et cur tantum septem sint notae.</p>
-      <p xml:id="GUIMIC0051">Diapason autem est, in qua diatessaron et diapente iunguntur; cum enim ab
-        A. in D. sit diatessaron, et ab eadem D. in a. acutum sit diapente, ab A. in alteram a.
+      <p xml:id="GUIMIC0051">Diapason autem est, in qua diatessaron et diapente iunguntur; cum enim
+        ab A. in D. sit diatessaron, et ab eadem D. in a. acutum sit diapente, ab A. in alteram a.
         diapason existit: cuius vis est eamdem litteram in utroque habere latere, ut a B. in [sqb].
         a. C. in c. a D. in d. et reliquas. Sicut enim utraque vox eadem littera notatur, ita per
         omnia eiusdem qualitatis, perfectissimaeque similitudinis utraque habetur et creditur. Nam
@@ -477,8 +488,8 @@
         vocibus eamdem quamlibet symphoniam incipient et decantent, miraberis, te easdem voces
         diversis locis, sed minime diversas habere, eundemque cantum gravem et acutum et superacutum
         tamen univoce resonare hoc modo.</p>
-      <p xml:id="GUIMIC0052">[GSII:6; text: Superacutae. Acutae. Graves. gaa, aa, [sqb][sqb], cc, g, Ga.
-        a. [sqb], c, a, G, [Gamma] A. A. B. C, A, [Gamma], Summi regis archangele Michael.] <figure>
+      <p xml:id="GUIMIC0052">[GSII:6; text: Superacutae. Acutae. Graves. gaa, aa, [sqb][sqb], cc, g,
+        Ga. a. [sqb], c, a, G, [Gamma] A. A. B. C, A, [Gamma], Summi regis archangele Michael.] <figure>
           <graphic url="/images/GUIMIC_01GF.gif"/>
         </figure></p>
       <p xml:id="GUIMIC0053">
@@ -510,8 +521,8 @@
         monochordo recipiunt.</p>
       <p xml:id="GUIMIC0057">Caput VII.</p>
       <p xml:id="GUIMIC0058">De modis quatuor et affinitatibus vocum.</p>
-      <p xml:id="GUIMIC0059">Cum autem septem sint voces, quia, ut diximus, aliae, id est, octavae voces
-        sunt eaedem, septenas sufficit explicare, quae diversorum modorum, et diversarum sunt
+      <p xml:id="GUIMIC0059">Cum autem septem sint voces, quia, ut diximus, aliae, id est, octavae
+        voces sunt eaedem, septenas sufficit explicare, quae diversorum modorum, et diversarum sunt
         qualitatum. Primus modus vocum est, cum vox tono deponitur, et tono et semitonio, et duobus
         tonis intenditur, ut A. et D. Secundus modus est, cum vox duobus tonis remissa, semitonio et
         duobus tonis intenditur, ut B. et E. Tertius est modus, qui semitonio et duobus tonis
@@ -521,8 +532,8 @@
         tertius in F. quartus in G. Itemque nota has vocum affinitates per diatessaron et diapente
         constructas: A. enim ad D, et B. ad E, et C. ad F, et D. ad G, a gravibus diatessaron, ab
         acutis vero diapente coniungitur hoc modo:</p>
-      <p xml:id="GUIMIC0060">[GSII:8; text: Diatessaron. Diapente. A. B. C. D. E. F. G. a. [sqb]. c. d.
-        et caetera] <figure>
+      <p xml:id="GUIMIC0060">[GSII:8; text: Diatessaron. Diapente. A. B. C. D. E. F. G. a. [sqb]. c.
+        d. et caetera] <figure>
           <graphic url="/images/GUIMIC_02GF.gif"/>
         </figure></p>
       <p xml:id="GUIMIC0061">Caput VIII.</p>
@@ -559,36 +570,36 @@
         nullae vero in utroque se exhibent similes cum aliis, nisi in diapason. Sed horum
         similitudinem omnium in hac figura, quam subiecimus, quisquis requisierit, reperire
         poterit.</p>
-      <p xml:id="GUIMIC0065">[GSII:9; text: c. d. e. Diatessaron in elevatione. Diapason in elevatione.
-        Diapason in depositione. Diapente similis in depositione. F. G. a. [sqb]. Diatessaron
-        similis in depositione. Diapente similis in elevatione. C. D. E.] <figure>
+      <p xml:id="GUIMIC0065">[GSII:9; text: c. d. e. Diatessaron in elevatione. Diapason in
+        elevatione. Diapason in depositione. Diapente similis in depositione. F. G. a. [sqb].
+        Diatessaron similis in depositione. Diapente similis in elevatione. C. D. E.] <figure>
           <graphic url="/images/GUIMIC_03GF.gif"/>
         </figure></p>
       <p xml:id="GUIMIC0066">
         <pb n="[10]"/>Caput IX.</p>
       <p xml:id="GUIMIC0067">De similitudine vocum in cantu, quarum diapason sola perfecta est.</p>
-      <p xml:id="GUIMIC0068">Supradictae voces, prout similes sunt, utpote aliae in elevatione, ut C. et
-        G. D. et a. aliae in depositione, ut a. et E. G. et D. aliae in utroque, ut C. et G. E. et
-        [sqb]. ita similes faciunt neumas, adeo ut unius cognitio pandat tibi alteram, in quibus
-        vero nulla similitudo monstrata est, vel quae diversorum modorum sunt, altera alterius
-        neumam cantumque non recipit: quod si compellas recipere, transformabis; utputa si quis
-        vellet antiphonam, cuius principium est in D. in E vel in F. quae sunt alterius modi voces,
-        incipere, mox auditu perciperet, quanta diversitatis transformatio fieret. In D. vero et a.
-        quae unius sunt modi, saepissime possumus eumdem cantum incipere vel finire: saepissime
-        autem dixi, et non semper, quia similitudo, nisi in diapason, perfecta non est. Ubi enim
-        diversa est tonorum semitoniorumque positio, fiat necesse est et neumarum. In praedictis
-        namque vocibus, et quae unius modi dicuntur, dissimilitudines inveniuntur; D. enim deponitur
-        tono, a. vero ditono; sic et in reliquis.</p>
+      <p xml:id="GUIMIC0068">Supradictae voces, prout similes sunt, utpote aliae in elevatione, ut
+        C. et G. D. et a. aliae in depositione, ut a. et E. G. et D. aliae in utroque, ut C. et G.
+        E. et [sqb]. ita similes faciunt neumas, adeo ut unius cognitio pandat tibi alteram, in
+        quibus vero nulla similitudo monstrata est, vel quae diversorum modorum sunt, altera
+        alterius neumam cantumque non recipit: quod si compellas recipere, transformabis; utputa si
+        quis vellet antiphonam, cuius principium est in D. in E vel in F. quae sunt alterius modi
+        voces, incipere, mox auditu perciperet, quanta diversitatis transformatio fieret. In D. vero
+        et a. quae unius sunt modi, saepissime possumus eumdem cantum incipere vel finire:
+        saepissime autem dixi, et non semper, quia similitudo, nisi in diapason, perfecta non est.
+        Ubi enim diversa est tonorum semitoniorumque positio, fiat necesse est et neumarum. In
+        praedictis namque vocibus, et quae unius modi dicuntur, dissimilitudines inveniuntur; D.
+        enim deponitur tono, a. vero ditono; sic et in reliquis.</p>
       <p xml:id="GUIMIC0069">Caput X.</p>
       <p xml:id="GUIMIC0070">De modis, et falsi meli agnitione et correctione.</p>
-      <p xml:id="GUIMIC0071">Hi sunt quatuor modi vel tropi, quos abusive tonos nominant, qui sic sunt
-        naturali ab invicem diversitate disiuncti, ut alter alteri in sua sede locum non tribuat,
-        alterque alterius neumam aut transformet aut recipiat numquam; dissonantia quoque per
-        falsitatem ita in canendo subrepit, cum aut de bene dimensis vocibus parum quid gravantes
-        demunt, vel adiiciunt intendentes; quod pravae voces hominum faciunt, cum aut praedictam
-        rationem plus iusto intendentes vel remittentes, neumam cuiuslibet modi aut in alium modum
-        pervertunt, aut in loco, qui vocem non recipit, inchoant, vel quasdam faciunt subductiones
-        in trito, quae dieses appellantur, cum non oporteat eas in usum admittere, nisi
+      <p xml:id="GUIMIC0071">Hi sunt quatuor modi vel tropi, quos abusive tonos nominant, qui sic
+        sunt naturali ab invicem diversitate disiuncti, ut alter alteri in sua sede locum non
+        tribuat, alterque alterius neumam aut transformet aut recipiat numquam; dissonantia quoque
+        per falsitatem ita in canendo subrepit, cum aut de bene dimensis vocibus parum quid
+        gravantes demunt, vel adiiciunt intendentes; quod pravae voces hominum faciunt, cum aut
+        praedictam rationem plus iusto intendentes vel remittentes, neumam cuiuslibet modi aut in
+        alium modum pervertunt, aut in loco, qui vocem non recipit, inchoant, vel quasdam faciunt
+        subductiones in trito, quae dieses appellantur, cum non oporteat eas in usum admittere, nisi
         supervenientibus certis locis. Quod ut facile pateat, proponimus exemplum:</p>
       <p xml:id="GUIMIC0072">[GSII:10; text: F, a, c, G, E, [sqb], D, Desiderium] <figure>
           <graphic url="/images/GUIMIC_04GF.gif"/>
@@ -597,7 +608,8 @@
         reperiatur in alio, penitus emendanda est; non solum autem ipsa, sed et radix, ex qua
         inutiliter processit, eradicanda est.</p>
       <p xml:id="GUIMIC0074">Notandum, quod, quia a a quibusdam semitonii loco admittitur, ideo
-        harmoniam in modum plaustri vergentis per petrosam semitam conficiunt. Ideo autem <pb n="[11]"/>plus quam omnium artium musicae sunt regulae dissolutae, quia, dum nusquam
+        harmoniam in modum plaustri vergentis per petrosam semitam conficiunt. Ideo autem <pb
+          n="[11]"/>plus quam omnium artium musicae sunt regulae dissolutae, quia, dum nusquam
         aliqui potuerunt se ad semitam admittere, imo dum pleni fluminis (fortasse instar) cui dum
         non sufficit proprius alveus, per compita diffunditur; ita ipsi omni loco, quo semitonia
         accreverunt, aliam semitam elegerunt, scilicet metuentes arctum ingredi specum, ne
@@ -629,18 +641,19 @@
         deuterum, tritum, tetrardum.</p>
       <p xml:id="GUIMIC0077">Caput XI.</p>
       <p xml:id="GUIMIC0078">Quae vox, et quare in cantu obtineat principatum.</p>
-      <p xml:id="GUIMIC0079">Cum autem quilibet cantus omnibus vocibus et modis fiat, vox tamen, quae
-        cantum terminat, obtinet principatum; ea enim et diutius et morosius sonat. Et praemissae
-        voces, quae tantum exercitatis patent, ita ad eam adaptantur, ut mirum in modum quamdam ab
-        ea coloris faciem ducere videantur. Per supradictas nempe sex consonantias voci, quae <pb n="[12]"/>neumam terminat, reliquae voces concordare debent. Voci vero, quae cantum
+      <p xml:id="GUIMIC0079">Cum autem quilibet cantus omnibus vocibus et modis fiat, vox tamen,
+        quae cantum terminat, obtinet principatum; ea enim et diutius et morosius sonat. Et
+        praemissae voces, quae tantum exercitatis patent, ita ad eam adaptantur, ut mirum in modum
+        quamdam ab ea coloris faciem ducere videantur. Per supradictas nempe sex consonantias voci,
+        quae <pb n="[12]"/>neumam terminat, reliquae voces concordare debent. Voci vero, quae cantum
         terminat, principatum eius, cunctarumque distinctionum fines, vel etiam principia, opus est
         adhaerere. Excipitur Tribus miraculis, quia cum cantus in E. terminat saepe in c. qui ab ea
         diapente et semitonium distat, principium facit in hac antiphona:</p>
-      <p xml:id="GUIMIC0080">[GSII:12; text: C. F. c, a, G, [sqb], F, E, D. cc, d, aa, Tertia dies est,
-        quod haec facta sunt.]</p>
-      <p xml:id="GUIMIC0081">Praeterea cum aliquem cantare audimus, primam eius vocem, cuiusmodi sit,
-        ignoramus; quia utrum toni vel semitonia reliquaeve species sequantur, nescimus. Finito vero
-        cantu ultimae vocis modum ex praeteritis aperte agnoscimus. Incepto enim cantu, quid
+      <p xml:id="GUIMIC0080">[GSII:12; text: C. F. c, a, G, [sqb], F, E, D. cc, d, aa, Tertia dies
+        est, quod haec facta sunt.]</p>
+      <p xml:id="GUIMIC0081">Praeterea cum aliquem cantare audimus, primam eius vocem, cuiusmodi
+        sit, ignoramus; quia utrum toni vel semitonia reliquaeve species sequantur, nescimus. Finito
+        vero cantu ultimae vocis modum ex praeteritis aperte agnoscimus. Incepto enim cantu, quid
         sequatur, ignoras, finito autem, quid praecesserit, vides. Itaque finalis vox est, quam
         melius intuemur. Deinde si eidem cantui versum aut psalmum, aut aliquid velis subiungere, ad
         finalem vocem permaxime opus est coaptare, non ad primae vel aliarum adeo inspectionem
@@ -678,8 +691,8 @@
         variatur. Ad quos in cantibus discernendos etiam quaedam neumae inventae sunt, ex quarum
         aptitudine ita modum cantionis agnoscimus, sicut saepe ex aptitudine corporis, quae cuius
         sit tunica, reperimus: ut</p>
-      <p xml:id="GUIMIC0089">Primum [Dac a supra lin.] querite [a G FE supra lin.] regnum [G FE supra
-        lin.] Dei [DD CFGaGaGFEFGaGFEFD. supra lin.]</p>
+      <p xml:id="GUIMIC0089">Primum [Dac a supra lin.] querite [a G FE supra lin.] regnum [G FE
+        supra lin.] Dei [DD CFGaGaGFEFGaGFEFD. supra lin.]</p>
       <p xml:id="GUIMIC0090">Mox enim ut cum fine alicuius antiphonae hanc neumam bene viderimus
         convenire, quod autenti proti sit, non est opus dubitare; sic et de reliquis.</p>
       <p xml:id="GUIMIC0091">Ad hoc etiam cognoscendum plurimum valent et versus nocturnalium
@@ -691,30 +704,32 @@
         vero, praeter deuterum, eadem principia et fines distinctionum minime licet ad sextas
         intendere, plagae vero proti vel triti ad tertias intendunt; et plagae deuteri et tetrardi
         ad quartas intendunt.</p>
-      <p xml:id="GUIMIC0092">Memineris praeterea, quod sicut usualium cantuum attestatione perhibetur,
-        autenti vix a suo fine plus una voce descendunt. Ex quibus autentus tritus rarissime id
-        facere propter subiectam semitonii imperfectionem videtur. Ascendunt autem autenti usque ad
-        octavam et nonam, vel etiam decimam. Plagae vero ad quintas remittuntur et intenduntur. Sed
-        intensioni sexta vel septima auctoritate tribuitur, sicut in autentis nona et decima. Plagae
-        vero proti, deuteri, et triti aliquando in a. [sqb]. c. acutas necessario finiuntur.</p>
-      <p xml:id="GUIMIC0093">Supradictae autem regulae permaxime caventur in antiphonis et responsoriis,
-          <pb n="[14]"/>quorum cantus ut psalmis et versibus coaptentur, oportet, communibus regulis
-        fulciantur. Alioquin plures cantus invenies, in quibus adeo confunditur gravitas et acumen,
-        ut non possit adverti, cui magis, id est, autento an plagae conferantur. Praeterea et in
-        ignotorum cantuum inquisitione, praedictarum neumarum et subiunctionum appositione plurimum
-        adiuvamur, cum talium aptitudine soni cuiusque proprietatem per vim tropicam intuemur. Est
-        autem tropus species cantionis, qui et modus dictus est, et adhuc dicendum est de eo.</p>
+      <p xml:id="GUIMIC0092">Memineris praeterea, quod sicut usualium cantuum attestatione
+        perhibetur, autenti vix a suo fine plus una voce descendunt. Ex quibus autentus tritus
+        rarissime id facere propter subiectam semitonii imperfectionem videtur. Ascendunt autem
+        autenti usque ad octavam et nonam, vel etiam decimam. Plagae vero ad quintas remittuntur et
+        intenduntur. Sed intensioni sexta vel septima auctoritate tribuitur, sicut in autentis nona
+        et decima. Plagae vero proti, deuteri, et triti aliquando in a. [sqb]. c. acutas necessario
+        finiuntur.</p>
+      <p xml:id="GUIMIC0093">Supradictae autem regulae permaxime caventur in antiphonis et
+        responsoriis, <pb n="[14]"/>quorum cantus ut psalmis et versibus coaptentur, oportet,
+        communibus regulis fulciantur. Alioquin plures cantus invenies, in quibus adeo confunditur
+        gravitas et acumen, ut non possit adverti, cui magis, id est, autento an plagae conferantur.
+        Praeterea et in ignotorum cantuum inquisitione, praedictarum neumarum et subiunctionum
+        appositione plurimum adiuvamur, cum talium aptitudine soni cuiusque proprietatem per vim
+        tropicam intuemur. Est autem tropus species cantionis, qui et modus dictus est, et adhuc
+        dicendum est de eo.</p>
       <p xml:id="GUIMIC0094">Caput XIV.</p>
       <p xml:id="GUIMIC0095">De tropis, et virtute musicae.</p>
-      <p xml:id="GUIMIC0096">Horum quidam troporum exercitati usu ita proprietates et discretas facies,
-        ut ita dicam, extemplo ut audierint, recognoscunt, sicut peritus gentium coram positis
-        multis habitus eorum intueri potest et dicere: hic Graecus est, ille Hispanus, hic Latinus
-        et ille Teutonicus, iste vero Gallus: atque ita diversitas troporum diversitati mentium
-        coaptatur, ut unus autenti deuteri fractis saltibus delectetur; alius plagae triti eligat
-        voluptatem; uni garrulitas tetrardi autenti magis placet; alter eiusdem plagae suavitatem
-        probat; sic et de reliquis.</p>
-      <p xml:id="GUIMIC0097">Nec mirum, si varietate sonorum delectatur auditus, cum varietate colorum
-        gratuletur visus, varietate odorum foveatur olfactus, mutatisque saporibus lingua
+      <p xml:id="GUIMIC0096">Horum quidam troporum exercitati usu ita proprietates et discretas
+        facies, ut ita dicam, extemplo ut audierint, recognoscunt, sicut peritus gentium coram
+        positis multis habitus eorum intueri potest et dicere: hic Graecus est, ille Hispanus, hic
+        Latinus et ille Teutonicus, iste vero Gallus: atque ita diversitas troporum diversitati
+        mentium coaptatur, ut unus autenti deuteri fractis saltibus delectetur; alius plagae triti
+        eligat voluptatem; uni garrulitas tetrardi autenti magis placet; alter eiusdem plagae
+        suavitatem probat; sic et de reliquis.</p>
+      <p xml:id="GUIMIC0097">Nec mirum, si varietate sonorum delectatur auditus, cum varietate
+        colorum gratuletur visus, varietate odorum foveatur olfactus, mutatisque saporibus lingua
         congaudeat. Sic enim per fenestram corporis delectabilium rerum suavitas intrat mirabiliter
         penetralia cordis. Inde est, quod sicut quibusdam saporibus, coloribus et odoribus, vel
         etiam colorum intuitu salus tam cordis quam corporis vel minuitur vel augetur. Ita quondam,
@@ -728,20 +743,21 @@
         videamus.</p>
       <p xml:id="GUIMIC0098">Caput XV.</p>
       <p xml:id="GUIMIC0099">De commoda componenda modulatione.</p>
-      <p xml:id="GUIMIC0100">Igitur quemadmodum in metris sunt litterae et syllabae, partes et pedes, ac
-        versus; ita et in harmonia sunt phthongi, id est, soni, quorum unus, duo, vel tres aptantur
-        in syllabas, ipsaeque solae vel duplicatae neumam, id est, partem constituunt cantilenae;
-        sed pars una vel plures distinctionem faciunt, id est, congruum respirationis locum. De
-        quibus illud est notandum, quod tota pars compresse et notanda et exprimenda est, syllaba
-        vero compressius, tenor vero, id est, mora ultimae vocis, qui in syllaba quantuluscumque est
-        amplior in parte, diutissimus <pb n="[15]"/>vero in distinctione, signum in his divisionibus
-        existit, sicque opus est, ut quasi metricis pedibus cantilena plaudatur, et aliae voces ab
-        aliis morulam duplo longiorem, vel duplo breviorem, aut tremulam habeant, id est, varium
-        tenorem, quem longum aliquotiens litterae virgula plana apposita significat: ac summopere
-        caveatur talis neumarum distributio, ut cum neumae tum eiusdem soni repercussione, tum
-        duorum aut plurium connexione fiant, semper tamen aut in numero vocum aut in ratione tonorum
-        neumae alterutrum conferantur, atque respondeant, nunc aequae aequis, nunc duplae vel
-        triplae simplicibus, atque alias collatione sesquialtera vel sesquitertia.</p>
+      <p xml:id="GUIMIC0100">Igitur quemadmodum in metris sunt litterae et syllabae, partes et
+        pedes, ac versus; ita et in harmonia sunt phthongi, id est, soni, quorum unus, duo, vel tres
+        aptantur in syllabas, ipsaeque solae vel duplicatae neumam, id est, partem constituunt
+        cantilenae; sed pars una vel plures distinctionem faciunt, id est, congruum respirationis
+        locum. De quibus illud est notandum, quod tota pars compresse et notanda et exprimenda est,
+        syllaba vero compressius, tenor vero, id est, mora ultimae vocis, qui in syllaba
+        quantuluscumque est amplior in parte, diutissimus <pb n="[15]"/>vero in distinctione, signum
+        in his divisionibus existit, sicque opus est, ut quasi metricis pedibus cantilena plaudatur,
+        et aliae voces ab aliis morulam duplo longiorem, vel duplo breviorem, aut tremulam habeant,
+        id est, varium tenorem, quem longum aliquotiens litterae virgula plana apposita significat:
+        ac summopere caveatur talis neumarum distributio, ut cum neumae tum eiusdem soni
+        repercussione, tum duorum aut plurium connexione fiant, semper tamen aut in numero vocum aut
+        in ratione tonorum neumae alterutrum conferantur, atque respondeant, nunc aequae aequis,
+        nunc duplae vel triplae simplicibus, atque alias collatione sesquialtera vel
+        sesquitertia.</p>
       <p xml:id="GUIMIC0101">[GSII:15; text: De collatione proportionum. Quadrupla. Tripla. Dupla.
         Simpla. G. Tonus. A. Diatessaron. D. Diapente. a. Diapason. aa. Sesquioctava. Sesquitertia.
         Sesquialtera. De construendo cantu. Dupla. Sesquitertia. I. Diapason. II. Diapente. III.
@@ -749,80 +765,82 @@
           <graphic url="/images/GUIMIC_05GF.gif"/>
         </figure></p>
       <p xml:id="GUIMIC0102">Proponatque sibi Musicus, quibus ex his divisionibus incedentem faciat
-        cantum, sicut Metricus, quibus pedibus faciat versum; nisi quod Musicus non se <pb n="[16]"/>tanta legis necessitate constringit, quia in omnibus se haec ars in vocum dispositione
+        cantum, sicut Metricus, quibus pedibus faciat versum; nisi quod Musicus non se <pb n="[16]"
+        />tanta legis necessitate constringit, quia in omnibus se haec ars in vocum dispositione
         rationabili varietate permutat. Quam rationabilitatem etsi saepe non comprehendamus,
         rationale tamen creditur id, quo mens, in qua est ratio, delectatur. Sed haec et huiusmodi
         melius colloquendo quam conscribendo monstrantur.</p>
-      <p xml:id="GUIMIC0103">Oportet ergo, ut more versuum distinctiones aequales sint, et aliquotiens
-        eaedem repetitae, aut aliqua vel parva mutatione variatae, et cum plures fuerint duplicatae,
-        habentes partes non nimis diversas, et quae aliquotiens eaedem transformentur per modos, aut
-        similes intensae et remissae inveniantur. Item ut reciprocata neuma eadem via, qua venerat,
-        redeat, ac per eadem vestigia recurrat. Item ut qualem ambitum vel lineam una facit saliendo
-        ab acutis, talem inclinatam altera e regione opponat respondendo a gravibus, sicut fit, cum
-        in puteo nos cum imagine nostra contra speculamur. Item aliquando una syllaba unam vel
-        plures habeat neumas, aliquando una neuma plures dividatur in syllabas. Variabuntur hae vel
-        omnes neumae, cum alias ab eadem voce incipiant, alias de dissimilibus secundum laxationis
-        et acuminis varias qualitates. Item ut ad principalem vocem, id est, finalem, vel si quam
-        affinem eius pro ipsa elegerint, pene omnes distinctiones currant, et eadem aliquando vox,
-        quae terminat neumas omnes, vel plures distinctiones finiat, aliquando et incipiat; sicut
-        apud Ambrosium curiosus invenire poterit. Sunt vero quasi prosaici cantus, qui haec minus
-        observant, in quibus non est curae, si aliae maiores, aliae minores partes et distinctiones
-        per loca sine discretione inveniantur more prosarum.</p>
-      <p xml:id="GUIMIC0104">Metricos autem cantus dico, quia saepe ita canimus, ut quasi versus pedibus
-        scandere videamur, sicut fit, cum ipsa metra canimus, in quibus cavendum est, ne superfluae
-        continuentur neumae dissyllabae sine admixtione trisyllabarum ac tetrasyllabarum. Sicut enim
-        Lirici poetae nunc hos nunc alios adiunxere pedes, ita et qui cantum faciunt, rationabiliter
-        discretas ac diversas componunt neumas; rationabilis vero discretio est, si ita fit neumarum
-        et distinctionum moderata varietas, ut tamen neumae neumis et distinctiones distinctionibus
-        quadam semper similitudine sibi consonanter respondeant, id est, ut sit similitudo
-        dissimilis, more perdulcis Ambrosii. Non autem parva similitudo est metris et cantibus, cum
-        et neumae loco sint pedum, et distinctiones loco versuum, utpote ista neuma dactylico, illa
-        vero spondaico, illa iambico metro decurreret, et distinctionem nunc tetrametram nunc
-        pentametram, alias quasi hexametram cernes, et multa alia, ut elevatio et positio tum ipsa
-        sibi, tum altera alteri similis vel dissimilis praeponatur, supponatur, apponatur,
-        interponatur, alias coniunctim, alias divise, alias commixtim, ad hunc modum. Item ut in
-        unum terminentur partes et distinctiones neumarum atque verborum, nec <pb n="[17]"/>tenor
-        longus in quibusdam brevibus syllabis, aut brevis in longis sit, quia obscoenitatem parit,
-        quod tamen raro opus erit curare. Item ut rerum eventus sic cantionis imitetur effectus, ut
-        in tristibus rebus graves sint neumae, in tranquillis rebus iucundae, in prosperis
-        exultantes, et reliquae. Item saepe vocibus gravem et acutum accentum superponimus, quia
-        saepe ut maiori impulsu quasdam, ita etiam minori efferimus: adeo ut eiusdem saepe vocis
-        repetitio elevatio vel depositio esse videatur. Item ut in modum currentis equi semper in
-        fine distinctionum rarius voces ad locum respirationis accedant, ut quasi gravi more ad
-        repausandum lassae perveniant. Spissim autem et rare, prout oportet, notae compositae huius
-        saepe rei poterunt indicium dare. Liquescunt vero in multis voces more litterarum, ita ut
-        inceptus modus unius ad alteram limpide transiens nec finiri videatur. Porro liquescenti
-        voci punctum quasi maculando superponimus hoc modo:</p>
+      <p xml:id="GUIMIC0103">Oportet ergo, ut more versuum distinctiones aequales sint, et
+        aliquotiens eaedem repetitae, aut aliqua vel parva mutatione variatae, et cum plures fuerint
+        duplicatae, habentes partes non nimis diversas, et quae aliquotiens eaedem transformentur
+        per modos, aut similes intensae et remissae inveniantur. Item ut reciprocata neuma eadem
+        via, qua venerat, redeat, ac per eadem vestigia recurrat. Item ut qualem ambitum vel lineam
+        una facit saliendo ab acutis, talem inclinatam altera e regione opponat respondendo a
+        gravibus, sicut fit, cum in puteo nos cum imagine nostra contra speculamur. Item aliquando
+        una syllaba unam vel plures habeat neumas, aliquando una neuma plures dividatur in syllabas.
+        Variabuntur hae vel omnes neumae, cum alias ab eadem voce incipiant, alias de dissimilibus
+        secundum laxationis et acuminis varias qualitates. Item ut ad principalem vocem, id est,
+        finalem, vel si quam affinem eius pro ipsa elegerint, pene omnes distinctiones currant, et
+        eadem aliquando vox, quae terminat neumas omnes, vel plures distinctiones finiat, aliquando
+        et incipiat; sicut apud Ambrosium curiosus invenire poterit. Sunt vero quasi prosaici
+        cantus, qui haec minus observant, in quibus non est curae, si aliae maiores, aliae minores
+        partes et distinctiones per loca sine discretione inveniantur more prosarum.</p>
+      <p xml:id="GUIMIC0104">Metricos autem cantus dico, quia saepe ita canimus, ut quasi versus
+        pedibus scandere videamur, sicut fit, cum ipsa metra canimus, in quibus cavendum est, ne
+        superfluae continuentur neumae dissyllabae sine admixtione trisyllabarum ac tetrasyllabarum.
+        Sicut enim Lirici poetae nunc hos nunc alios adiunxere pedes, ita et qui cantum faciunt,
+        rationabiliter discretas ac diversas componunt neumas; rationabilis vero discretio est, si
+        ita fit neumarum et distinctionum moderata varietas, ut tamen neumae neumis et distinctiones
+        distinctionibus quadam semper similitudine sibi consonanter respondeant, id est, ut sit
+        similitudo dissimilis, more perdulcis Ambrosii. Non autem parva similitudo est metris et
+        cantibus, cum et neumae loco sint pedum, et distinctiones loco versuum, utpote ista neuma
+        dactylico, illa vero spondaico, illa iambico metro decurreret, et distinctionem nunc
+        tetrametram nunc pentametram, alias quasi hexametram cernes, et multa alia, ut elevatio et
+        positio tum ipsa sibi, tum altera alteri similis vel dissimilis praeponatur, supponatur,
+        apponatur, interponatur, alias coniunctim, alias divise, alias commixtim, ad hunc modum.
+        Item ut in unum terminentur partes et distinctiones neumarum atque verborum, nec <pb
+          n="[17]"/>tenor longus in quibusdam brevibus syllabis, aut brevis in longis sit, quia
+        obscoenitatem parit, quod tamen raro opus erit curare. Item ut rerum eventus sic cantionis
+        imitetur effectus, ut in tristibus rebus graves sint neumae, in tranquillis rebus iucundae,
+        in prosperis exultantes, et reliquae. Item saepe vocibus gravem et acutum accentum
+        superponimus, quia saepe ut maiori impulsu quasdam, ita etiam minori efferimus: adeo ut
+        eiusdem saepe vocis repetitio elevatio vel depositio esse videatur. Item ut in modum
+        currentis equi semper in fine distinctionum rarius voces ad locum respirationis accedant, ut
+        quasi gravi more ad repausandum lassae perveniant. Spissim autem et rare, prout oportet,
+        notae compositae huius saepe rei poterunt indicium dare. Liquescunt vero in multis voces
+        more litterarum, ita ut inceptus modus unius ad alteram limpide transiens nec finiri
+        videatur. Porro liquescenti voci punctum quasi maculando superponimus hoc modo:</p>
       <p xml:id="GUIMIC0105">Ad [G supra lin.] te [DE supra lin.] levavi [GA a G supra lin.].</p>
       <p xml:id="GUIMIC0106">Si autem eam vis plenius proferre non liquefaciens, nihil nocet, saepe
         autem magis placet. Et omnia, quae diximus, nec nimis raro, nec nimis continue facias, sed
         cum discretione.</p>
       <p xml:id="GUIMIC0107">Caput XVI.</p>
       <p xml:id="GUIMIC0108">De multiplici varietate sonorum et neumarum.</p>
-      <p xml:id="GUIMIC0109">Illud vero non debet mirum videri, cur tanta copia tam diversorum cantuum
-        tam paucis formata sit vocibus, quae voces non nisi sex modis, ut diximus, sibi iungantur
-        tam per elevationem quam per depositionem; cum et de paucis litteris, etsi non perplures,
-        conficiantur syllabae, poterit enim colligi numerus syllabarum; infinita tamen partium
-        pluralitas concrevit ex syllabis, et in metris de paucis pedibus quam plura fiunt genera
-        metrorum, et unius generis metrum plurimis varietatibus invenitur diversum, ut hexametrum;
-        quod quomodo fiat, videant grammatici, quoniam illud dicere alterius est negotii. Nos, si
-        possumus, videamus, quibus modis distantes ab invicem neumas constituere valeamus.</p>
-      <p xml:id="GUIMIC0110">Igitur motus vocum, qui sex modis consonanter fieri dictus est, fit arsi et
-        thesi, id est, elevatione et depositione: quorum gemino motu, id est, arsis et thesis, omnis
-        neuma formatur, praeter repercussas aut simplices. Deinde arsis et thesis tum sibimet
-        iunguntur, ut arsis arsi, thesis thesi, tum altera alteri, ut arsis thesi, et thesis arsi
-        coniungitur, ipsaque coniunctio tum fit ex similibus, tum ex dissimilibus. Dissimilitudo
-        autem erit, si ex praedictis motibus, id est, tonis, semitoniis, ditonis et caeteris alius
-        alio plures paucioresve habeat voces, aut magis coniunctas vel disiunctas dissimiliter,
-        deinde vel similiter facta coniunctione motus motui tum erit praepositus, id est, in
-        superioribus positus, tum suppositus, tum appositus, id est, cum in eadem voce unius motus
-        finis erit, alteriusque principium; tum interpositus, id est, quando unus motus infra alium
-        positus et minus est gravis et minus acutus; tum commixtus, id est, partim interpositus
-        partimque suppositus, aut praepositus, <pb n="[18]"/>aut appositus, rursusque hae positiones
-        dirimi possunt secundum laxationis et acuminis, augmenti et detrimenti, modorum quoque
-        varias qualitates. Neumae quoque per eosdem modos arsis et thesis poterunt variari, et
-        distinctiones aliquando. Qua de re et descriptionem subiecimus, quo facilior per oculos via
-        sit.</p>
+      <p xml:id="GUIMIC0109">Illud vero non debet mirum videri, cur tanta copia tam diversorum
+        cantuum tam paucis formata sit vocibus, quae voces non nisi sex modis, ut diximus, sibi
+        iungantur tam per elevationem quam per depositionem; cum et de paucis litteris, etsi non
+        perplures, conficiantur syllabae, poterit enim colligi numerus syllabarum; infinita tamen
+        partium pluralitas concrevit ex syllabis, et in metris de paucis pedibus quam plura fiunt
+        genera metrorum, et unius generis metrum plurimis varietatibus invenitur diversum, ut
+        hexametrum; quod quomodo fiat, videant grammatici, quoniam illud dicere alterius est
+        negotii. Nos, si possumus, videamus, quibus modis distantes ab invicem neumas constituere
+        valeamus.</p>
+      <p xml:id="GUIMIC0110">Igitur motus vocum, qui sex modis consonanter fieri dictus est, fit
+        arsi et thesi, id est, elevatione et depositione: quorum gemino motu, id est, arsis et
+        thesis, omnis neuma formatur, praeter repercussas aut simplices. Deinde arsis et thesis tum
+        sibimet iunguntur, ut arsis arsi, thesis thesi, tum altera alteri, ut arsis thesi, et thesis
+        arsi coniungitur, ipsaque coniunctio tum fit ex similibus, tum ex dissimilibus.
+        Dissimilitudo autem erit, si ex praedictis motibus, id est, tonis, semitoniis, ditonis et
+        caeteris alius alio plures paucioresve habeat voces, aut magis coniunctas vel disiunctas
+        dissimiliter, deinde vel similiter facta coniunctione motus motui tum erit praepositus, id
+        est, in superioribus positus, tum suppositus, tum appositus, id est, cum in eadem voce unius
+        motus finis erit, alteriusque principium; tum interpositus, id est, quando unus motus infra
+        alium positus et minus est gravis et minus acutus; tum commixtus, id est, partim
+        interpositus partimque suppositus, aut praepositus, <pb n="[18]"/>aut appositus, rursusque
+        hae positiones dirimi possunt secundum laxationis et acuminis, augmenti et detrimenti,
+        modorum quoque varias qualitates. Neumae quoque per eosdem modos arsis et thesis poterunt
+        variari, et distinctiones aliquando. Qua de re et descriptionem subiecimus, quo facilior per
+        oculos via sit.</p>
       <p xml:id="GUIMIC0111">[GSII:18; text: Musica motus est vocum. Tonus. Semitonium. Ditonus.
         Semiditonus. Diatessaron. Diapente, Elevatio, Depositio. Arsis. Thesis. Iunguntur, altera
         alteri, ipsa sibi, Similiter, dissimiliter. Praeposite, Supposite, Interposite, Apposite,
@@ -844,17 +862,18 @@
         persaepe videmus consonos et sibimet alterutrum respondentes versus in metris, ut quamdam
         quasi symphoniam grammaticae admireris. Cui si musica responsione simili iungatur, duplici
         modulatione delecteris.</p>
-      <p xml:id="GUIMIC0115">Has itaque quinque vocales sumamus, forsitan cum tantum concordiae tribuunt
-        verbis, non minus Cantilenae praestabunt et neumis. Supponantur itaque per ordinem litteris
-        monochordi, et quia quinque tantum sunt, tamdiu repetantur, donec unicuique sono sua
-        subscribatur vocalis, hoc modo:</p>
-      <p class="textFig" xml:id="GUIMIC0116">[Gamma] A B C D  E F G. a b [sqb] c d e f g. aa bb [sqb][sqb] cc dd.
-        <lb/>a       e i o u. a e i  o u.      a e i o u. a  e             i  o
-        <br/></p>
-      <p xml:id="GUIMIC0117">In qua descriptione id modo perpende, quia cum his quinque litteris omnis
-        locutio moveatur, moveri quoque et quinque voces ad se invicem, ut diximus, non negetur.
-        Quod cum ita sit, sumamus modo aliquam locutionem, eiusque syllabas illis sonis adhibitis
-        decantemus, quas earumdem syllabarum vocales subscriptae monstraverint, hoc modo:</p>
+      <p xml:id="GUIMIC0115">Has itaque quinque vocales sumamus, forsitan cum tantum concordiae
+        tribuunt verbis, non minus Cantilenae praestabunt et neumis. Supponantur itaque per ordinem
+        litteris monochordi, et quia quinque tantum sunt, tamdiu repetantur, donec unicuique sono
+        sua subscribatur vocalis, hoc modo:</p>
+      <p class="textFig" xml:id="GUIMIC0116"
+        >[Gamma] A B C D  E F G. a b [sqb] c d e f g. aa bb [sqb][sqb] cc dd.
+        <lb/>a       e i o u. a e i  o u.      a e i o u. a  e             i  o <br/></p>
+      <p xml:id="GUIMIC0117">In qua descriptione id modo perpende, quia cum his quinque litteris
+        omnis locutio moveatur, moveri quoque et quinque voces ad se invicem, ut diximus, non
+        negetur. Quod cum ita sit, sumamus modo aliquam locutionem, eiusque syllabas illis sonis
+        adhibitis decantemus, quas earumdem syllabarum vocales subscriptae monstraverint, hoc
+        modo:</p>
       <p xml:id="GUIMIC0118">[GSII:19; text: G. u, F. o, E. i, D. e, C. a, Sancte Ioannes meritorum
         tuorum copias nequeo digne canere.] <figure>
           <graphic url="/images/GUIMIC_07GF.gif"/>
@@ -874,14 +893,14 @@
         hauriat:] <figure>
           <graphic url="/images/GUIMIC_08GF.gif"/>
         </figure></p>
-      <p xml:id="GUIMIC0121">In sola enim ultima parte hoc argumentum reliquimus, ut melum suo tetrardo
-        conveniens redderemus. Cum itaque suis tantum vocalibus quidam cantus quamdam aptam sibi
-        vendicet adeo cantilenam, non est dubium, quin fiat aptissima, si in multis exercitatus de
-        pluribus potiora tantum, sibique aptius respondentia eligas, hiantia suppleas, compressa
+      <p xml:id="GUIMIC0121">In sola enim ultima parte hoc argumentum reliquimus, ut melum suo
+        tetrardo conveniens redderemus. Cum itaque suis tantum vocalibus quidam cantus quamdam aptam
+        sibi vendicet adeo cantilenam, non est dubium, quin fiat aptissima, si in multis exercitatus
+        de pluribus potiora tantum, sibique aptius respondentia eligas, hiantia suppleas, compressa
         resolvas, producta nimium contrahas, ac nimis contracta distendas, ut unum quod accuratum
         opus efficias.</p>
-      <p xml:id="GUIMIC0122">Illud praeterea scire te volo, quod in morem puri argenti omnis cantus quo
-        magis usitatur, eo magis coloratur, et quod modo displicet, per usum quasi lima politum
+      <p xml:id="GUIMIC0122">Illud praeterea scire te volo, quod in morem puri argenti omnis cantus
+        quo magis usitatur, eo magis coloratur, et quod modo displicet, per usum quasi lima politum
         postea collaudatur, ac pro diversitate gentium ac mentium, quod huic displicet, ab alio
         amplectitur, et hunc oblectat consona, ille magis probat diversa; iste continuationem et
         mollitiem secundum suae mentis lasciviam quaerit; ille, utpote gravis, sobriis cantibus
@@ -894,19 +913,19 @@
         Iam nunc diaphoniae praecepta exequamur breviter.</p>
       <p xml:id="GUIMIC0123">Caput XVIII.</p>
       <p xml:id="GUIMIC0124">De diaphonia, id est, organi praecepto.</p>
-      <p xml:id="GUIMIC0125">Diaphonia vocum disiunctio sonat, quam nos organum vocamus, cum disiunctae
-        ab invicem voces et concorditer dissonant, et dissonantes concordant. Qua quidem ita
-        utuntur, ut canenti semper chorda quarta succedat, ut A. ad D. ubi si organum per acutum a.
-        duplices, ut sit D. a resonabit A. ad D. diatessaron, ad a. diapason, D. vero ad utramque A.
-        a. diatessaron et diapente, a. acutum ad graviores diapente et diapason. Et quia hae tres
+      <p xml:id="GUIMIC0125">Diaphonia vocum disiunctio sonat, quam nos organum vocamus, cum
+        disiunctae ab invicem voces et concorditer dissonant, et dissonantes concordant. Qua quidem
+        ita utuntur, ut canenti semper chorda quarta succedat, ut A. ad D. ubi si organum per acutum
+        a. duplices, ut sit D. a resonabit A. ad D. diatessaron, ad a. diapason, D. vero ad utramque
+        A. a. diatessaron et diapente, a. acutum ad graviores diapente et diapason. Et quia hae tres
         species ad tantam organi societatem se permiscent ac suavitate, ut similitudinem vocum
         fecisse superius sunt monstratae symphoniae, ideo apte vocum copulationes dicuntur, cum
         symphonia de cantu omni dicatur. Dictae autem diaphoniae hoc est exemplum:</p>
-      <p class="textFig" xml:id="GUIMIC0126">Diapason    c d e c d e d c c c [sqb] a g       c d e d d c.
+      <p class="textFig" xml:id="GUIMIC0126"
+        >Diapason    c d e c d e d c c c [sqb] a g       c d e d d c.
         <lb/>Diapente    F G a F G a G F F F E     D C       F G a G G F.
         <br/>            Miserere mei Deus.
-        <lb/>Diatessaron C D E C D E D C C C B     A [Gamma] C D E D D C.
-        <br/></p>
+        <lb/>Diatessaron C D E C D E D C C C B     A [Gamma] C D E D D C. <br/></p>
       <p xml:id="GUIMIC0127">Haec autem figura aperte emendata continet praecedentes voces huius
         antiphonae Miserere mei Deus. subsequentes organizando per diatessaron, quod vulgariter
         dicitur organum supra voce, id est, sub his, praecedentes acutas voces retinet organizantes
@@ -920,8 +939,8 @@
         noster vero mollis, ad quem semitonium et diapente non admittimus; tonum vero et ditonum et
         semiditonum cum diatessaron recipimus, sed semiditonum in his infimatum, diatessaron vero
         obtinet principatum.</p>
-      <p xml:id="GUIMIC0129">His itaque quatuor concordiis diaphoniae cantum subsequitur; troporum vero
-        alii apti, alii aptiores, alii aptissimi existunt. Apti sunt, qui per solam diatessaron
+      <p xml:id="GUIMIC0129">His itaque quatuor concordiis diaphoniae cantum subsequitur; troporum
+        vero alii apti, alii aptiores, alii aptissimi existunt. Apti sunt, qui per solam diatessaron
         quartis a se vocibus organum reddunt, ut deuterus in B. et E: aptiores sunt, qui non solum
         quartis, sed tertiis et secundis per tonum et semiditonum, licet raro, respondent, ut protus
         in A. et D. Aptissimi vero, qui saepissime suaviusque id faciunt, ut tetrardus et tritus in
@@ -962,9 +981,9 @@
       <p xml:id="GUIMIC0133">[GSII:22; text: F, G, D, E, C, Ipsi soli] <figure>
           <graphic url="/images/GUIMIC_09GF.gif"/>
         </figure></p>
-      <p xml:id="GUIMIC0134">Ecce finis distinctionis in trito C. a quo non deponimus organum, quia non
-        habet sub se tonum vel ditonum, quibus fit occursus, sed habet semiditonum, per quem non fit
-        occursus. <pb n="[23]"/></p>
+      <p xml:id="GUIMIC0134">Ecce finis distinctionis in trito C. a quo non deponimus organum, quia
+        non habet sub se tonum vel ditonum, quibus fit occursus, sed habet semiditonum, per quem non
+        fit occursus. <pb n="[23]"/></p>
       <p xml:id="GUIMIC0135">[GSII:23,1; text: F, G, a, E, C, D, servo fidem] <figure>
           <graphic url="/images/GUIMIC_10GF.gif"/>
         </figure></p>
@@ -979,19 +998,22 @@
         Hierusalem.]</p>
       <p xml:id="GUIMIC0142">Ecce distinctio in deutero E. in qua ditoni occursus vel simplex vel
         intermissus placet.</p>
-      <p xml:id="GUIMIC0143">[GSII:23,5; text: C, F, D, E, A, Veni ad docendum nos viam prudentiae.]</p>
-      <p xml:id="GUIMIC0144">Distinctio in proto A. In hac distinctione in inferiore trito C, qui fini
-        proxime subest D, voces admissae sunt, et locus prior finita gravitate repetitus est, ubi
-        diximus viam prudentiae. Et in hac similiter:</p>
+      <p xml:id="GUIMIC0143">[GSII:23,5; text: C, F, D, E, A, Veni ad docendum nos viam
+        prudentiae.]</p>
+      <p xml:id="GUIMIC0144">Distinctio in proto A. In hac distinctione in inferiore trito C, qui
+        fini proxime subest D, voces admissae sunt, et locus prior finita gravitate repetitus est,
+        ubi diximus viam prudentiae. Et in hac similiter:</p>
       <p xml:id="GUIMIC0145">[GSII:23,6; text: F, G, a, D, E, C, Sexta hora sedit super puteum.]</p>
-      <p xml:id="GUIMIC0146">Ecce ut ascendit organum, ne in ultima distinctione succineret cavens.</p>
+      <p xml:id="GUIMIC0146">Ecce ut ascendit organum, ne in ultima distinctione succineret
+        cavens.</p>
       <p xml:id="GUIMIC0147">[GSII:23,7; text: F, G, D, C, E, a, Sexta hora sedit super puteum.]</p>
-      <p xml:id="GUIMIC0148">Ecce quomodo admittente cantore graviores voces organum suspensum tenemus
-        in trito.</p>
+      <p xml:id="GUIMIC0148">Ecce quomodo admittente cantore graviores voces organum suspensum
+        tenemus in trito.</p>
       <p xml:id="GUIMIC0149">[GSII:23,8; text: c, d, a, b, G, F, Victor ascendit coelos unde
         descendet]</p>
-      <p xml:id="GUIMIC0150">Ecce ut ad G. et a in fine subsequitur F. Idem in plagali trito invenies
-        usurpatum, ut ad C et d ita [sqb] subsequatur, sicut ad G et ad a sequitur F. hoc modo:</p>
+      <p xml:id="GUIMIC0150">Ecce ut ad G. et a in fine subsequitur F. Idem in plagali trito
+        invenies usurpatum, ut ad C et d ita [sqb] subsequatur, sicut ad G et ad a sequitur F. hoc
+        modo:</p>
       <p xml:id="GUIMIC0151">[GSII:23,9; text: e, c, d, b, [sqb], Venite Adoremus]</p>
       <p xml:id="GUIMIC0152">Caput XX.</p>
       <p xml:id="GUIMIC0153">Quomodo musica ex malleorum sonitu sit inventa.</p>
@@ -1001,8 +1023,8 @@
         symphoniae discretionem poterat aliqua argumentatione colligere; neque posset unquam certum
         aliquid de hac arte cognoscere, nisi tandem bonitas divina, quod sequitur, suo nutu
         disponeret.</p>
-      <p xml:id="GUIMIC0155">Cum Pythagoras quidam magnus philosophus forte iter ageret, ventum est ad
-        fabricam, in qua super unam incudem quinque mallei feriebant: quorum suavem concordiam
+      <p xml:id="GUIMIC0155">Cum Pythagoras quidam magnus philosophus forte iter ageret, ventum est
+        ad fabricam, in qua super unam incudem quinque mallei feriebant: quorum suavem concordiam
         miratus philosophus accessit, primumque in manuum varietate <pb n="[24]"/>sperans vim soni
         ac modulationis existere, mutavit malleos; quo facto sua vis quemque secuta est. Subtracto
         itaque, qui dissonus erat a caeteris, alios ponderavit, mirumque in modum divino nutu primus

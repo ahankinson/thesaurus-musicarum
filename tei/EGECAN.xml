@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Cantuagium</title>
         <title type="abbrev">EGECAN</title>
-        <author>Eger von Kalkar, Heinrich</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Eger von Kalkar, Heinrich</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Sergei Lebedev</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Anastasia Arapova</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2001</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2001">2001</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Das Cantuagium des Heinrich Eger von Kalkar</emph>, ed. Heinrich Hüschen, Beiträge
@@ -51,49 +61,50 @@
     <body>
       <p xml:id="EGECAN0001">
         <pb n="[34]"/>p.1 Cantuagium</p>
-      <p xml:id="EGECAN0002">Dilecti in Christo, sicut alias pro aliquali introductione ad rhetoricam,
-        ut clarius et citius sacram intelligeretis paginam, quendam vobis compilavi libellum nomine
-        Loquagium, ita et nunc, ut advertentius cantetis, pro musica maxime ecclesiastica, quam
-        pauci curant inventis tantum utentes, aliqualiter intelligenda alium propino tractatulum
-        nomine Cantuagium. In quo primo modicum de musica pono in communi, secundo divisionem doceo
-        monochordi cum litteris suis, syllabis cantualibus, sonis et eorum nominibus, tertio de
-        combinationibus sonorum, quibus omnis contexitur cantus, quarto de ipsarum concordantiis et
-        discordantiis cum characteribus notarum seu signis, quinto de tonorum naturis seu
-        significationibus, finibus, principiis et mediis ambitibusque et transgressionibus,
-        ornatibus etiam et tenoribus atque indiciis, sexto et ultimo de modo componendi cantus
-        ecclesiasticos seu simplices alios, prout haec omnia pro titulis primae dictiones in
-        singulis pandunt capitulis.</p>
+      <p xml:id="EGECAN0002">Dilecti in Christo, sicut alias pro aliquali introductione ad
+        rhetoricam, ut clarius et citius sacram intelligeretis paginam, quendam vobis compilavi
+        libellum nomine Loquagium, ita et nunc, ut advertentius cantetis, pro musica maxime
+        ecclesiastica, quam pauci curant inventis tantum utentes, aliqualiter intelligenda alium
+        propino tractatulum nomine Cantuagium. In quo primo modicum de musica pono in communi,
+        secundo divisionem doceo monochordi cum litteris suis, syllabis cantualibus, sonis et eorum
+        nominibus, tertio de combinationibus sonorum, quibus omnis contexitur cantus, quarto de
+        ipsarum concordantiis et discordantiis cum characteribus notarum seu signis, quinto de
+        tonorum naturis seu significationibus, finibus, principiis et mediis ambitibusque et
+        transgressionibus, ornatibus etiam et tenoribus atque indiciis, sexto et ultimo de modo
+        componendi cantus ecclesiasticos seu simplices alios, prout haec omnia pro titulis primae
+        dictiones in singulis pandunt capitulis.</p>
       <p xml:id="EGECAN0003">Capitulum primum.</p>
-      <p xml:id="EGECAN0004">Musica septem artium liberalium de quadruvio scilicet est una arithmeticae,
-        quia de numero tractat sonoro, principaliter supposita, quam ob hoc nequaquam ignorare decet
-        artistam. Est autem ipsa musica ars sonorum seu vocum regulabilium differentias certis
-        proportionibus dijudicans et diciter a musa, instrumento olim magis usitato. Hanc ante
-        diluvium invenisse creditur Tubal vel Jubal secundum aliquos, a quo etiam "jubilare" dictum
-        est, quidam de stirpe Cayn, de quo scribitur Genesis (in capitulo) <pb n="[35]"/>quarto,
-        quod fuit pater canentium in cithara et organo. Delectatus enim in sonis malleorum fratris
-        sui Tubalcayn, qui ibidem /p. 2/ dicitur fuisse malleator et faber in cuncta opera aeris et
-        ferri, ex proportionibus ponderum ipsorum, ut dicitur in historia scholastica, musicas
-        advertit consonantias. Quas, ne aqua perirent aut igne, quibus Adam praedixisse audiverat
-        Deum mundum judicaturum, prout in aqua diluvii jam factum est et in igne fiet circa diem
-        novissimum, in duabus scripsit columnis, scilicet una marmorea et altera latericea. Graeci
-        scribunt Pythagoram philosophum musicam ex malleorum ponderibus, quia subtilis erat
-        geometria et arithmetica, in paucis tantum clavibus invenisse, multiplicatam deinde per
-        alios et demum per Boetium ac doctores ecclesiasticos litteris graecis imbutos et latinis
-        publicatam. Est autem modulatio musica mirae in commovendis animis potentiae, ita, ut sua
-        dulcedine tristos animos saepe relevet et anxios, mansueret rigidos, dulceret amaros,
-        luxuriosos quandoque revocet a libidine, freneticos a rabie, daemoniacos a furore, iracundos
-        mitiget, proeliatores animet, passiones temperet et mentem subtiliter quietet. Immo expertum
-        est pueros ipsam audientes in cunabulis se movisse, vetulas gestivisse et bestias quasi
-        tripudiasse. Quapropter rationabiliter pro devotione excitanda populi ea usi sunt sancti,
-        Ignatius Antiochensis scilicet, Gregorius et Ambrosius et plures alii cantum sub ipsa per
-        spiritum sanctum ordinantes ecclesiasticum. Incitamur etiam in veteri testamento
-        multipliciter et novo ad laudes Deo instrumentis decantandas musicis. Unde David in ultimo
-        psalmo novem tangens genera instrumentorum novem angelorum choris proportionalium ita dicit:
-        "Laudate eum in tympano et choro, laudate eum in chordis et organo, laudate eum in cymbalis
-        jubilationis et laudate eum in sono tubae, laudate eum in psalterio et cithara, /p. 3/
-        tandem valedicendo omnis spiritus laudet Dominum!" Placeat igitur cantibus insistere
-        ecclesiasticis, <pb n="[36]"/>organis et uti aliis instrumentis non ad lasciviam ut quidam
-        discoli, sed ad laudem Dei, salutem propriam et aedificationem proximi.</p>
+      <p xml:id="EGECAN0004">Musica septem artium liberalium de quadruvio scilicet est una
+        arithmeticae, quia de numero tractat sonoro, principaliter supposita, quam ob hoc nequaquam
+        ignorare decet artistam. Est autem ipsa musica ars sonorum seu vocum regulabilium
+        differentias certis proportionibus dijudicans et diciter a musa, instrumento olim magis
+        usitato. Hanc ante diluvium invenisse creditur Tubal vel Jubal secundum aliquos, a quo etiam
+        "jubilare" dictum est, quidam de stirpe Cayn, de quo scribitur Genesis (in capitulo) <pb
+          n="[35]"/>quarto, quod fuit pater canentium in cithara et organo. Delectatus enim in sonis
+        malleorum fratris sui Tubalcayn, qui ibidem /p. 2/ dicitur fuisse malleator et faber in
+        cuncta opera aeris et ferri, ex proportionibus ponderum ipsorum, ut dicitur in historia
+        scholastica, musicas advertit consonantias. Quas, ne aqua perirent aut igne, quibus Adam
+        praedixisse audiverat Deum mundum judicaturum, prout in aqua diluvii jam factum est et in
+        igne fiet circa diem novissimum, in duabus scripsit columnis, scilicet una marmorea et
+        altera latericea. Graeci scribunt Pythagoram philosophum musicam ex malleorum ponderibus,
+        quia subtilis erat geometria et arithmetica, in paucis tantum clavibus invenisse,
+        multiplicatam deinde per alios et demum per Boetium ac doctores ecclesiasticos litteris
+        graecis imbutos et latinis publicatam. Est autem modulatio musica mirae in commovendis
+        animis potentiae, ita, ut sua dulcedine tristos animos saepe relevet et anxios, mansueret
+        rigidos, dulceret amaros, luxuriosos quandoque revocet a libidine, freneticos a rabie,
+        daemoniacos a furore, iracundos mitiget, proeliatores animet, passiones temperet et mentem
+        subtiliter quietet. Immo expertum est pueros ipsam audientes in cunabulis se movisse,
+        vetulas gestivisse et bestias quasi tripudiasse. Quapropter rationabiliter pro devotione
+        excitanda populi ea usi sunt sancti, Ignatius Antiochensis scilicet, Gregorius et Ambrosius
+        et plures alii cantum sub ipsa per spiritum sanctum ordinantes ecclesiasticum. Incitamur
+        etiam in veteri testamento multipliciter et novo ad laudes Deo instrumentis decantandas
+        musicis. Unde David in ultimo psalmo novem tangens genera instrumentorum novem angelorum
+        choris proportionalium ita dicit: "Laudate eum in tympano et choro, laudate eum in chordis
+        et organo, laudate eum in cymbalis jubilationis et laudate eum in sono tubae, laudate eum in
+        psalterio et cithara, /p. 3/ tandem valedicendo omnis spiritus laudet Dominum!" Placeat
+        igitur cantibus insistere ecclesiasticis, <pb n="[36]"/>organis et uti aliis instrumentis
+        non ad lasciviam ut quidam discoli, sed ad laudem Dei, salutem propriam et aedificationem
+        proximi.</p>
       <p xml:id="EGECAN0005">Capitulum secundum.</p>
       <p xml:id="EGECAN0006">Monochordum unius chordae instrumentum est musicum omnium aliorum
         instrumentorum fundamentum, per quod, quia ex proportionibus partium sonantium certissime
@@ -178,14 +189,14 @@
         usque ad infimam et semper divisim, quod tantum monochordum facit conjunctim. Quapropter
         etiam monochordum fideliter examinat omnem cantum.</p>
       <p xml:id="EGECAN0008">Capitulum tertium.</p>
-      <p xml:id="EGECAN0009">Combinationes seu consonantiae sonorum, quibus, sicut quasi ex litteris,
-        syllabis et dictionibus componitur oratio, omnis sub sex syllabis cantualibus supratactis
-        contexitur cantus, tredecim fiunt modis, quos per ordinem prosequimur. Unisonus est
-        consonantia unius soni in eodem spatio vel linea bis vel pluries ab uno <pb n="[40]"/>vel
-        pluribus sonantibus repercussi sicut sol, sol, la, la. Semitonium est, quando per unam notam
-        modicum ab unisono tali declinatur; et fit communiter a fa in mi vel econverso. Pro quo
-        notandum, quod tonus est, quando duae voces sibi immediatae sub proportione sesquioctava a
-        linea in spatium continuantur vel econverso; et fit communiter seu usualiter in omnibus
+      <p xml:id="EGECAN0009">Combinationes seu consonantiae sonorum, quibus, sicut quasi ex
+        litteris, syllabis et dictionibus componitur oratio, omnis sub sex syllabis cantualibus
+        supratactis contexitur cantus, tredecim fiunt modis, quos per ordinem prosequimur. Unisonus
+        est consonantia unius soni in eodem spatio vel linea bis vel pluries ab uno <pb n="[40]"
+        />vel pluribus sonantibus repercussi sicut sol, sol, la, la. Semitonium est, quando per unam
+        notam modicum ab unisono tali declinatur; et fit communiter a fa in mi vel econverso. Pro
+        quo notandum, quod tonus est, quando duae voces sibi immediatae sub proportione sesquioctava
+        a linea in spatium continuantur vel econverso; et fit communiter seu usualiter in omnibus
         syllabis cantualibus praeterquam inter mi et fa et econverso, quatuor scilicet modis, de ut
         in re, de re in mi, de fa in sol, de sol in la /p. 8/ et econverso. Nec potest tonus talis
         perfectus in duo aequalia dividi propter naturam proportionis sesquioctavae in partes
@@ -244,19 +255,19 @@
           <graphic url="/images/EGECAN_01GF.gif"/>
         </figure></p>
       <p xml:id="EGECAN0011">p. 11 Capitulum quartum.</p>
-      <p xml:id="EGECAN0012">Concordant autem ex his combinationibus sive consonantiis aliquae, si simul
-        proferantur sub duobus instrumentis vel vocibus, aliquae discordant. Est enim concordantia
-        duorum vel plurimum sonorum simul prolatorum harmonia auditui complacens; quanto autem plus
-        se compatiuntur secundum auditum, tanto meliorem faciunt concordantiam. Et si quae
-        nullatenus se compatiuntur apud <pb n="[43]"/>auditum, sed quaelibet per se proferri velint,
-        illae penitus discordant. Tres autem sunt concordantiarum species, perfecta scilicet,
-        imperfecta et media. Perfecta est, quando sic se compatiuntur, quod auditus vix inter eas
-        valet distinguere, et tales sunt duae, scilicet unisonus et diapason, quibus ob hoc magis
-        utitur ecclesia. Imperfecta est, quando ab auditu multum differre sentiuntur, non tamen
-        discordant, et sunt duo, scilicet semiditonus et ditonus. Semiditonus tamen melior est, ex
-        quo semitonium habet, cujus dulcedinem omnis concordantia requirit; licet semitonium per se
-        sumptum discordantiam faciat. Media est, quarum harmonia melior est quam imperfectae, non
-        tamen tanta sicut perfectae, et sunt duae, scilicet diatesseron et diapente, quae simul
+      <p xml:id="EGECAN0012">Concordant autem ex his combinationibus sive consonantiis aliquae, si
+        simul proferantur sub duobus instrumentis vel vocibus, aliquae discordant. Est enim
+        concordantia duorum vel plurimum sonorum simul prolatorum harmonia auditui complacens;
+        quanto autem plus se compatiuntur secundum auditum, tanto meliorem faciunt concordantiam. Et
+        si quae nullatenus se compatiuntur apud <pb n="[43]"/>auditum, sed quaelibet per se proferri
+        velint, illae penitus discordant. Tres autem sunt concordantiarum species, perfecta
+        scilicet, imperfecta et media. Perfecta est, quando sic se compatiuntur, quod auditus vix
+        inter eas valet distinguere, et tales sunt duae, scilicet unisonus et diapason, quibus ob
+        hoc magis utitur ecclesia. Imperfecta est, quando ab auditu multum differre sentiuntur, non
+        tamen discordant, et sunt duo, scilicet semiditonus et ditonus. Semiditonus tamen melior
+        est, ex quo semitonium habet, cujus dulcedinem omnis concordantia requirit; licet semitonium
+        per se sumptum discordantiam faciat. Media est, quarum harmonia melior est quam imperfectae,
+        non tamen tanta sicut perfectae, et sunt duae, scilicet diatesseron et diapente, quae simul
         sumptae constituunt diapason; et aptius est, ut diatesseron supra diapente ponatur quam
         econverso, quia diapente dulcior est, ex quo in majori proportione fundatur numerorum.
         Poteris autem experiri pulchram simplicem harmoniam, si (quis) grossae vocis cantet cantum
@@ -280,18 +291,18 @@
         ante diapason et unisonum. Plana musica consonantiam diapason excedentem non recipit, sed
         discantualis bene propter cursum cantuum diversimodum, prout in discantibus olim factis sub
         tenore, triplo et motetis videre poteris.</p>
-      <p xml:id="EGECAN0013">Characteres seu signa vel notas certum modum cantandi designantes antiqui
-        habuere musici, quos communiter ad hoc saecularium tenent libri, quorum nomina etiam forte
-        pro dolore dentium valentia cum /p. 13/ notulis pro solacio scribo pueris versibus his. Unde
-        versus:</p>
-      <p xml:id="EGECAN0014">[Eger, Cantuagium, 44; text: Eptaphonus, strophicus, punctus, porrectus,
-        oriscus, virgula, cephalicus, clivis, quilisma, podatus, scandicus, et salicus, climacus,
-        torculus, ancus, et pressus minor, et major]</p>
-      <p xml:id="EGECAN0015">nec pluribus utor. Eptaphonus dicitur quasi aptus sonus, scilicet propter
-        dulcedinem suam, strophicus similis est signis, quae ponuntur in strophis et in cingulis ad
-        decorem, porrectus quasi protractus punctus, oriscus, quia de ore subtiliter formatus,
-        cephalicus, quia caput habet quasi clausum, clivis, quia declinat, quilisma ad modum
-        aniculae quidem ac podatus quasi pedatus, climacus, quia climaliter id est gradatim
+      <p xml:id="EGECAN0013">Characteres seu signa vel notas certum modum cantandi designantes
+        antiqui habuere musici, quos communiter ad hoc saecularium tenent libri, quorum nomina etiam
+        forte pro dolore dentium valentia cum /p. 13/ notulis pro solacio scribo pueris versibus
+        his. Unde versus:</p>
+      <p xml:id="EGECAN0014">[Eger, Cantuagium, 44; text: Eptaphonus, strophicus, punctus,
+        porrectus, oriscus, virgula, cephalicus, clivis, quilisma, podatus, scandicus, et salicus,
+        climacus, torculus, ancus, et pressus minor, et major]</p>
+      <p xml:id="EGECAN0015">nec pluribus utor. Eptaphonus dicitur quasi aptus sonus, scilicet
+        propter dulcedinem suam, strophicus similis est signis, quae ponuntur in strophis et in
+        cingulis ad decorem, porrectus quasi protractus punctus, oriscus, quia de ore subtiliter
+        formatus, cephalicus, quia caput habet quasi clausum, clivis, quia declinat, quilisma ad
+        modum aniculae quidem ac podatus quasi pedatus, climacus, quia climaliter id est gradatim
         descendit, torculus quasi retortus, ancus quasi uncus; cetera (signa) patent ex vocabulis
         suis. Sed quia ex notulis his non redactis ad mensuram cantari contigit olim satis
         discorditer, ideo quidam magni artistae Parisius, quorum <pb n="[45]"/>nomina in quodam
@@ -326,21 +337,22 @@
         monosyllabis dictionibus ipsamet dictio, in dissyllabis latinis semper prima, in
         polysyllabis longa ultimae proxima, in hebraicis vero et graecis semper ultima.</p>
       <p xml:id="EGECAN0016">Capitulum quintum.</p>
-      <p xml:id="EGECAN0017">Tonus, prout in hoc capitulo finitur, est plurium notarum certis principio,
-        medio et fine proinde certa decantanda regulatarum artificiosa combinatio. Quatuor tantum
-        olim apud Graecos erant toni juxta illud psalmi "Psallite Deo nostro, psallite, psallite
-        Regi nostro, <pb n="[47]"/>psallite!" Quorum primus dicebatur protus, secundus deuterus,
-        tertius tritus, quartus tetrardus. Ex nominibus etiam gentium seu terrarum vocabant primum
-        dorium, secundum phrygium, tertium lydium, quartum mixolydium. Hos autem quatuor tonos
-        principales diviserunt tandem moderniores ex causis infra dicendis in octo dantes eis nomina
-        imparis numeri, et sunt primus, tertius, quintus et septimus apud nos, quos etiam vocabant
-        autentos, addentes pro nominibus illorum, qui paris sunt numeri, pro secundo scilicet,
-        quarto, sexto et octavo hoc nomen plagius vel plagalis ad prima quatuor nomina. Sicque
-        secundus noster vocabatur apud eos plagius proti vel plagalis, quartus noster plagius
-        deuteri vel plagalis et sic de aliis. Sed ad alia quatuor nomina, scilicet dorius, phrygius,
-        etiam pro plagalibus addiderunt "hypo", id est "sub", et sic secundus noster dicebatur
-        hypodorius, id est subditus dorii vel plagalis, quartus hypophrygius et sic de reliquis. Nos
-        autem plane vocamus illos octo primum, secundum, tertium et sic consequenter.</p>
+      <p xml:id="EGECAN0017">Tonus, prout in hoc capitulo finitur, est plurium notarum certis
+        principio, medio et fine proinde certa decantanda regulatarum artificiosa combinatio.
+        Quatuor tantum olim apud Graecos erant toni juxta illud psalmi "Psallite Deo nostro,
+        psallite, psallite Regi nostro, <pb n="[47]"/>psallite!" Quorum primus dicebatur protus,
+        secundus deuterus, tertius tritus, quartus tetrardus. Ex nominibus etiam gentium seu
+        terrarum vocabant primum dorium, secundum phrygium, tertium lydium, quartum mixolydium. Hos
+        autem quatuor tonos principales diviserunt tandem moderniores ex causis infra dicendis in
+        octo dantes eis nomina imparis numeri, et sunt primus, tertius, quintus et septimus apud
+        nos, quos etiam vocabant autentos, addentes pro nominibus illorum, qui paris sunt numeri,
+        pro secundo scilicet, quarto, sexto et octavo hoc nomen plagius vel plagalis ad prima
+        quatuor nomina. Sicque secundus noster vocabatur apud eos plagius proti vel plagalis,
+        quartus noster plagius deuteri vel plagalis et sic de aliis. Sed ad alia quatuor nomina,
+        scilicet dorius, phrygius, etiam pro plagalibus addiderunt "hypo", id est "sub", et sic
+        secundus noster dicebatur hypodorius, id est subditus dorii vel plagalis, quartus
+        hypophrygius et sic de reliquis. Nos autem plane vocamus illos octo primum, secundum,
+        tertium et sic consequenter.</p>
       <p xml:id="EGECAN0018">Sciendum igitur, quod non, ut simplices putant, quaelibet materia
         indifferenter /p. 16/ quolibet tono regulariter in ecclesiasticis cantibus decantata est a
         sanctis vel adhuc ab aliis decantanda, immo alii et alii toni diversis competunt materiis,
@@ -351,7 +363,8 @@
         vage currens, ob hoc tamquam egregius, advocatus historiis cantuum saepe praepositus ut ibi
         "O pastor aeterne" et "Gloria tibi trinitas". Secundus vero, plagalis ejus seu collateralis,
         flebilis est et gravis seu raucus, ob hoc ad tristes materias maxime idoneus; quapropter
-        omnia illa "O sapientia", quibus ecclesia cum tristitia quasi et taedio exspectans <pb n="[48]"/>adventum Domini se desiderare commemorat, solus sibi venditat. Tertius severus
+        omnia illa "O sapientia", quibus ecclesia cum tristitia quasi et taedio exspectans <pb
+          n="[48]"/>adventum Domini se desiderare commemorat, solus sibi venditat. Tertius severus
         dicitur et indignans, ad furias quasi incitans et ad bella, crudelis et petulans, habilis ob
         hoc ad materias fortitudinem, potentiam et victoriam innuentes, sicut est in responsorio
         "Angelus Domini" in pascha, quando Dominus mortem morte subegerat. Quartus adulatus est seu
@@ -385,59 +398,59 @@
         ideo b-molle tenebit, F pius, invitat fletus, praedulcior omnium, G laetans saltat,
         lascivus, dulcia cantat, H matronalis, garrit gaudetque, morosus, iste senum fertur, nam
         leniter graditur.</p>
-      <p xml:id="EGECAN0019">Fines seu finales habere debent toni certos, unde, quia antiquorum quatuor
-        tantum toni quatuor etiam habuere finales, scilicet D-solre, E-lami, F-faut, G-solreut.
-        Moderni postea ipsos in octo dividentes eosdem ipsis finales reliquerunt, duobus tonis
-        tamquam sociis unum deputantes finalem ita, quod, quicumque cantus terminantur in D-solre,
-        primi sint toni vel secundi, qui in E-lami, tertii sint vel quarti, et sic de aliis. Ab his
-        igitur finalibus tamquam a tonorum seu cantuum domiciliis musici suos regulant cantus.
-        Quicumque enim cantus secundum principium suum vel medium dubius videat et vagus, in sua
-        tamen finali, si regularis est, capitur et certus dijudicatur, nimirum, quia perfectio rerum
-        finis est et exitus acta probant omnisque laus in fine incanitur. Merito autem illa quatuor
-        loca sunt finalia, cum, quia plus decet cantum sobrie descendendo finire quam ascendendo
-        turpiter finire, tum etiam, quia illis locis eorum syllabae cantuales, quae tantum debent
-        esse finales, scilicet re, mi, fa, /p. 19/ sol, principalius inveniuntur. Ex quo enim de
-        natura tonorum est, aliquando ascendere posse et aliquando descendere, et ut, quia notarum
-        infima est, sub se descensum dictum per se non patitur nec la supra se ascensum, ideo ut et
-          <pb n="[50]"/>la finales esse non possunt, sed quatuor dictae tantum in locis illis
-        aptioribus. Quapropter, si cantus aliquando in aliis locis finalem habuerit, scilicet in
-        quarta vel in quinta, octava vel alia supra loca praedicta, quod permittitur, quia superius
-        saepe cantatur aptius vel dulcius propter vel semitonium vel b-molle ibidem existens, hoc
-        tamen fit pro eo, quod praedictae syllabae terminales seu finales in illis proportionaliter
-        reperiuntur clavibus. Sicque ex hoc primus et secundus a-lamire pro finali propter re ipsius
-        habere possunt, similiter et tertius et quartus propter mi ipsius et sic de aliis. Et si
-        aliquando cantus terminatur in ut, sicut saepe fit in octavo tono et quandoque in quinto,
-        hoc tantum fit propter sol vel fa ibi latentes, ex quibus talis cognoscitur cantus. Breviter
-        igitur a finalibus omnis regulatur cantus.</p>
-      <p xml:id="EGECAN0020">Principia etiam habere debent toni certa. Ex quo enim in quatuor finalibus
-        octo pendent toni, oportet cuilibet propter differentiam habendam certa assignare loca,
-        quibus quisque sub finali vel supra habeat principium vel hemitonia id est inceptiones, quae
-        fiunt in medio cantuum post pausationes. Et hoc vocabant antiqui intentionem toni et
-        remissionem, de quo breviter se expedientes dixerunt et bene, quod autenti, id est toni
-        imparis numeri, scilicet primus, tertius, quintus et septimus, possint intendere supra
-        finalem ad quintam inclusive excepto solo tertio, qui hoc facit ad sextam, remittere vero
-        possint ad proximam sub finali, plagales vero, id est secundus, quartus, sextus /p. 20/ et
-        octavus, possint ad quartam intendere et ad quintam quandoque remittere. Moderniores vero
-        retorquentes cantus sub ambitibus certis infra dicendis volunt, quod autenti regulariter sub
-        finali excepto solo primo non habeant principium nec plagales ultra quartam infra excepto
-        solo octavo ita, quod soli primus et octavus in hoc sunt transgressiones. Et quia nec
-        autenti nec plagales in quibuslibet mediis illorum terminorum sub et supra, sed in quibusdam
-        tantum inchoari possint et in quibusdam non, de quo versus tres hic posui vocum: Principiant
-        primum C-gravis cum quinque, quae quartum versant, A, C, D, F alterum, E, G, a, c tertium,
-        F, G, a, c quintum, C, D, F <pb n="[51]"/>sextum, G, a, b, c, d septimum, absque b, C, c
-        octavum. Quorum summa est haec, quod primus tonus potest inchoari a C-faut usque a-lamire
-        inclusive, sed quia rarius in E-lami et G-solreut, ideo sibi aliqui tantum quatuor
-        asserebunt initia; similiter quartus habet eadem principia, sed quia rarius in a-lamire,
-        ideo quidam quinque sibi tantum assignant. Tertius ab E-lami, G-solreut, a-lamire, c-solfaut
-        (potest inchoari), quintus ab F-faut, G-solreut, a-lamire, c-solfaut, sextus a C-faut,
-        D-solre et F-faut, septimus a G-solreut, a-lamire, b-fami, c-solfaut et d-lasolre, octavus a
-        C-faut usque ad c-solfaut inclusive excepto solo b-fami. Si cui autem placuerit, poterit ex
-        principiis his tonorum comparando discutare, quae, quibus vel quot communia fuerint vel
-        propria. Quando etiam cantus elevatur extra locum proprium ad quintam vel quartam, ut supra
-        tactum est, cum finali tunc nimirum proportionaliter elevatur et ejus principium; propter
-        quod antiphona "Dominus regit me" et similes, quae quarti sunt et terminantur in a-lamire
-        propter mi ipsius, inchoantur /p. 21/ a b-fami. Propter principia haec diversa cantuum
-        mutari solent caudae, ut infra dicetur, seu fines tonorum.</p>
+      <p xml:id="EGECAN0019">Fines seu finales habere debent toni certos, unde, quia antiquorum
+        quatuor tantum toni quatuor etiam habuere finales, scilicet D-solre, E-lami, F-faut,
+        G-solreut. Moderni postea ipsos in octo dividentes eosdem ipsis finales reliquerunt, duobus
+        tonis tamquam sociis unum deputantes finalem ita, quod, quicumque cantus terminantur in
+        D-solre, primi sint toni vel secundi, qui in E-lami, tertii sint vel quarti, et sic de
+        aliis. Ab his igitur finalibus tamquam a tonorum seu cantuum domiciliis musici suos regulant
+        cantus. Quicumque enim cantus secundum principium suum vel medium dubius videat et vagus, in
+        sua tamen finali, si regularis est, capitur et certus dijudicatur, nimirum, quia perfectio
+        rerum finis est et exitus acta probant omnisque laus in fine incanitur. Merito autem illa
+        quatuor loca sunt finalia, cum, quia plus decet cantum sobrie descendendo finire quam
+        ascendendo turpiter finire, tum etiam, quia illis locis eorum syllabae cantuales, quae
+        tantum debent esse finales, scilicet re, mi, fa, /p. 19/ sol, principalius inveniuntur. Ex
+        quo enim de natura tonorum est, aliquando ascendere posse et aliquando descendere, et ut,
+        quia notarum infima est, sub se descensum dictum per se non patitur nec la supra se
+        ascensum, ideo ut et <pb n="[50]"/>la finales esse non possunt, sed quatuor dictae tantum in
+        locis illis aptioribus. Quapropter, si cantus aliquando in aliis locis finalem habuerit,
+        scilicet in quarta vel in quinta, octava vel alia supra loca praedicta, quod permittitur,
+        quia superius saepe cantatur aptius vel dulcius propter vel semitonium vel b-molle ibidem
+        existens, hoc tamen fit pro eo, quod praedictae syllabae terminales seu finales in illis
+        proportionaliter reperiuntur clavibus. Sicque ex hoc primus et secundus a-lamire pro finali
+        propter re ipsius habere possunt, similiter et tertius et quartus propter mi ipsius et sic
+        de aliis. Et si aliquando cantus terminatur in ut, sicut saepe fit in octavo tono et
+        quandoque in quinto, hoc tantum fit propter sol vel fa ibi latentes, ex quibus talis
+        cognoscitur cantus. Breviter igitur a finalibus omnis regulatur cantus.</p>
+      <p xml:id="EGECAN0020">Principia etiam habere debent toni certa. Ex quo enim in quatuor
+        finalibus octo pendent toni, oportet cuilibet propter differentiam habendam certa assignare
+        loca, quibus quisque sub finali vel supra habeat principium vel hemitonia id est
+        inceptiones, quae fiunt in medio cantuum post pausationes. Et hoc vocabant antiqui
+        intentionem toni et remissionem, de quo breviter se expedientes dixerunt et bene, quod
+        autenti, id est toni imparis numeri, scilicet primus, tertius, quintus et septimus, possint
+        intendere supra finalem ad quintam inclusive excepto solo tertio, qui hoc facit ad sextam,
+        remittere vero possint ad proximam sub finali, plagales vero, id est secundus, quartus,
+        sextus /p. 20/ et octavus, possint ad quartam intendere et ad quintam quandoque remittere.
+        Moderniores vero retorquentes cantus sub ambitibus certis infra dicendis volunt, quod
+        autenti regulariter sub finali excepto solo primo non habeant principium nec plagales ultra
+        quartam infra excepto solo octavo ita, quod soli primus et octavus in hoc sunt
+        transgressiones. Et quia nec autenti nec plagales in quibuslibet mediis illorum terminorum
+        sub et supra, sed in quibusdam tantum inchoari possint et in quibusdam non, de quo versus
+        tres hic posui vocum: Principiant primum C-gravis cum quinque, quae quartum versant, A, C,
+        D, F alterum, E, G, a, c tertium, F, G, a, c quintum, C, D, F <pb n="[51]"/>sextum, G, a, b,
+        c, d septimum, absque b, C, c octavum. Quorum summa est haec, quod primus tonus potest
+        inchoari a C-faut usque a-lamire inclusive, sed quia rarius in E-lami et G-solreut, ideo
+        sibi aliqui tantum quatuor asserebunt initia; similiter quartus habet eadem principia, sed
+        quia rarius in a-lamire, ideo quidam quinque sibi tantum assignant. Tertius ab E-lami,
+        G-solreut, a-lamire, c-solfaut (potest inchoari), quintus ab F-faut, G-solreut, a-lamire,
+        c-solfaut, sextus a C-faut, D-solre et F-faut, septimus a G-solreut, a-lamire, b-fami,
+        c-solfaut et d-lasolre, octavus a C-faut usque ad c-solfaut inclusive excepto solo b-fami.
+        Si cui autem placuerit, poterit ex principiis his tonorum comparando discutare, quae, quibus
+        vel quot communia fuerint vel propria. Quando etiam cantus elevatur extra locum proprium ad
+        quintam vel quartam, ut supra tactum est, cum finali tunc nimirum proportionaliter elevatur
+        et ejus principium; propter quod antiphona "Dominus regit me" et similes, quae quarti sunt
+        et terminantur in a-lamire propter mi ipsius, inchoantur /p. 21/ a b-fami. Propter principia
+        haec diversa cantuum mutari solent caudae, ut infra dicetur, seu fines tonorum.</p>
       <p xml:id="EGECAN0021">Mediaque debent habere toni certa, ut duo in uno convenientes finali ab
         ipso nec ascendendo nec descendendo certis currentes limitibus ab invicem differant, quod et
         antiqui ascensionem tonorum et descensionem vocabant. Videntes enim moderniores, quod
@@ -519,30 +532,30 @@
         aliquae finalium haberent praedictorum et, sic tantum accipitur, a cantibus differrent
         regularibus. Quapropter nec excellentes post g-supremum superfluunt nec ambitus vel toni
         plures erunt.</p>
-      <p xml:id="EGECAN0023">/p. 25/ Comparare autem hos ambitus vel tonos ad invicem pro differentiis
-        videndis et convenientiis, si pueris placet, et primo autentum ad plagalem suum, scribe
-        litteras omnes primi plagalis et sui autenti alphabetariter vel monochorditer, incipiendo
-        scilicet ab A-re usque ad d-lasolre inclusive, et interclude duobus circulis, lineis vel
-        arcubus se intersecantibus uno litteras plagalis et alio litteras autenti cum annotatione.
-        Quis, cujus sit, et invenies, quod plagalis tres habet claves infra finalem regulariter sibi
-        proprias et <pb n="[55]"/>autentus totidem supra quintam a finali plagali regulariter
-        prohibitas; quinque vero mediae utrique (sunt) communes. Consimiliter scribe, si vis, pro
-        aliis, et idem in ipsis videbis. Secundo autentos inter se, si comparare vis, scribe sicut
-        prius ambitus autentorum, scilicet a D-solre usque ad g-supremum intersecans singulos
-        litteris inclusive similibus, et invenies, quod, licet inferiores ascendere possint in
-        ambitus seu regiones superiorum, hoc est, commutent in clavibus superiorum, tamen superiores
-        in inferiorum ambitus non regulariter regulabuntur, quia finales eorum saltem non habent,
-        item, quod duo extremi autenti proprias habent claves aliis non attingibiles, scilicet
-        primus D-finalem et septimus g-supremum; aliae vero claves intermediae sunt communes,
-        quaedam duobus, ut E-finalis primo et tertio et f-supremum septimo et quinto, ceterae vero
-        intermediae communes sunt ut G, a, b, c, d. Tertio, si comparare vis plagales inter se,
-        scribe ut supra ambitus omnium plagalium, incipiendo ab A-re usque ad d-lasolre inclusive,
-        dividens singulos per circulos intersecantes se litteris similibus inclusive, et invenies,
-        quod, sicut est in autentis, quod uterque extremorum unam habet clavem sibi propriam aliis
-        regulariter non attingibilem /p. 26/ et reliqui nullam, ita etiam est et in duobus
-        plagalibus extremis et duobus intermediis, quia claves intermediae communes sunt aut duobus
-        aut tribus aut omnibus. Sed differunt in hoc, quod ambitus plagalium inferiores sunt quam
-        ambitus autentorum. Quarto, si autentos omnes et plagales inter se comparare volueris,
+      <p xml:id="EGECAN0023">/p. 25/ Comparare autem hos ambitus vel tonos ad invicem pro
+        differentiis videndis et convenientiis, si pueris placet, et primo autentum ad plagalem
+        suum, scribe litteras omnes primi plagalis et sui autenti alphabetariter vel monochorditer,
+        incipiendo scilicet ab A-re usque ad d-lasolre inclusive, et interclude duobus circulis,
+        lineis vel arcubus se intersecantibus uno litteras plagalis et alio litteras autenti cum
+        annotatione. Quis, cujus sit, et invenies, quod plagalis tres habet claves infra finalem
+        regulariter sibi proprias et <pb n="[55]"/>autentus totidem supra quintam a finali plagali
+        regulariter prohibitas; quinque vero mediae utrique (sunt) communes. Consimiliter scribe, si
+        vis, pro aliis, et idem in ipsis videbis. Secundo autentos inter se, si comparare vis,
+        scribe sicut prius ambitus autentorum, scilicet a D-solre usque ad g-supremum intersecans
+        singulos litteris inclusive similibus, et invenies, quod, licet inferiores ascendere possint
+        in ambitus seu regiones superiorum, hoc est, commutent in clavibus superiorum, tamen
+        superiores in inferiorum ambitus non regulariter regulabuntur, quia finales eorum saltem non
+        habent, item, quod duo extremi autenti proprias habent claves aliis non attingibiles,
+        scilicet primus D-finalem et septimus g-supremum; aliae vero claves intermediae sunt
+        communes, quaedam duobus, ut E-finalis primo et tertio et f-supremum septimo et quinto,
+        ceterae vero intermediae communes sunt ut G, a, b, c, d. Tertio, si comparare vis plagales
+        inter se, scribe ut supra ambitus omnium plagalium, incipiendo ab A-re usque ad d-lasolre
+        inclusive, dividens singulos per circulos intersecantes se litteris similibus inclusive, et
+        invenies, quod, sicut est in autentis, quod uterque extremorum unam habet clavem sibi
+        propriam aliis regulariter non attingibilem /p. 26/ et reliqui nullam, ita etiam est et in
+        duobus plagalibus extremis et duobus intermediis, quia claves intermediae communes sunt aut
+        duobus aut tribus aut omnibus. Sed differunt in hoc, quod ambitus plagalium inferiores sunt
+        quam ambitus autentorum. Quarto, si autentos omnes et plagales inter se comparare volueris,
         scribe ut supra ambitus omnium simul, incipiendo ab A-re usque ad g-supremum inclusive, cum
         circulis intersecantibus et similes litteras intercludentibus, et invenies, quod aequa
         proportione alter ab altero distat et quod duae claves tantum, scilicet G-finalis et
@@ -587,24 +600,24 @@
         strepitu aptius /p. 28/ solent fieri. Prohibitivi seu anormali sunt, qui nec regulam servant
         artis suae nec excusari possunt; legitime fugiendi sunt ob hoc penitus sicut in grammatica
         barbarismus et soleocismus.</p>
-      <p xml:id="EGECAN0025">Ornatus etiam habet musica proprios sicut rhetorica. Ornat etiam cantum, si
-        cuilibet materiae, sicut supra tactum est, proprius adaptetur tonus, si cantus sententiarum
-        seu verborum sequatur cursum, in laetis saliens et lasciviens, in tristibus bassius et
-        modestius gradiens, si interrogationes aliqualiter exacuat, si exclamationes exaltet, si
-        involutiones multis notis super unam dictionem vel syllabam cohaerentibus exprimat, et
-        breviter, si, quid verbis vel sententiis innuitur, cantus quasi loqui et exprimere videatur.
-        Ornat etiam, si cantus distinctiones habeat legitimas, hoc est, si in puncto sententiae
-        suspensivo dictio colon, id est membrum apud rhetores, diastema vero, id est disjunctus
-        ornatus apud musicos, non in finali, sed in alia clave decenter pauset, sique in puncto
-        legitimo dictio comma, id est incisio, et apud musicos systema, id est conjunctus ornatus,
-        in finali pauset, et si in puncto ultimato dictio periodus, id est clausura vel circuitus, a
-        musicis teleusis, semper pauset in finali. In plagalibus etiam ornat, si finalem saepe
-        repetant et circa illam currendo ludant in quarta a finali rarissime pausantes et in quinta
-        nunquam, immo, si quintam quandoque tetigerint, quasi timentes statim desiliant, per
-        diatesseron licite cadentes et resurgentes praeter quartum tonum, qui hoc competenter
-        quandoque facit per diapente, cum et suus autentus <pb n="[58]"/>melius faciat idem per
-        sextam. In autentis autem ornat, si in acutis magis versentur et si, cum in quinta ab enim
-        finali quandoque pausaverint, finalem postea /p. 29/ revisant et rursus festinanter
+      <p xml:id="EGECAN0025">Ornatus etiam habet musica proprios sicut rhetorica. Ornat etiam
+        cantum, si cuilibet materiae, sicut supra tactum est, proprius adaptetur tonus, si cantus
+        sententiarum seu verborum sequatur cursum, in laetis saliens et lasciviens, in tristibus
+        bassius et modestius gradiens, si interrogationes aliqualiter exacuat, si exclamationes
+        exaltet, si involutiones multis notis super unam dictionem vel syllabam cohaerentibus
+        exprimat, et breviter, si, quid verbis vel sententiis innuitur, cantus quasi loqui et
+        exprimere videatur. Ornat etiam, si cantus distinctiones habeat legitimas, hoc est, si in
+        puncto sententiae suspensivo dictio colon, id est membrum apud rhetores, diastema vero, id
+        est disjunctus ornatus apud musicos, non in finali, sed in alia clave decenter pauset, sique
+        in puncto legitimo dictio comma, id est incisio, et apud musicos systema, id est conjunctus
+        ornatus, in finali pauset, et si in puncto ultimato dictio periodus, id est clausura vel
+        circuitus, a musicis teleusis, semper pauset in finali. In plagalibus etiam ornat, si
+        finalem saepe repetant et circa illam currendo ludant in quarta a finali rarissime pausantes
+        et in quinta nunquam, immo, si quintam quandoque tetigerint, quasi timentes statim
+        desiliant, per diatesseron licite cadentes et resurgentes praeter quartum tonum, qui hoc
+        competenter quandoque facit per diapente, cum et suus autentus <pb n="[58]"/>melius faciat
+        idem per sextam. In autentis autem ornat, si in acutis magis versentur et si, cum in quinta
+        ab enim finali quandoque pausaverint, finalem postea /p. 29/ revisant et rursus festinanter
         ascendant saepius per diapente cadentes et resurgentes; quintus tamen pulchre per ditonum a
         finali saepe surgit. Diatesseron autem et diapente, si convenienter situentur, satis
         adornant, et hoc, si remissa quandoque statim in eisdem vocibus eleventur, et praecipue
@@ -625,7 +638,8 @@
         Omnium autem praedictorum exempla in cantibus ecclesiasticis invenies sanctorum, si
         diligenter eos inspexeris. Et miraberis, quam artificialiter cantus illi a sanctis
         doctoribus /p. 30/ compositi mentium exprimant conceptiones, rerum habitudines et cantantium
-        voluntates, ita, quod nec una quidem nota in ipsis inveniatur superflua aut specialis <pb n="[59]"/>intentionis vacua vel otiosa. Immo, si alte clamandum est quasi in caelum
+        voluntates, ita, quod nec una quidem nota in ipsis inveniatur superflua aut specialis <pb
+          n="[59]"/>intentionis vacua vel otiosa. Immo, si alte clamandum est quasi in caelum
         rogando, inchoant cantum altisone ut in responsorio "Da mihi Domine" et "Emitte Domine" de
         historia Augustini, si aperte publicandum est vel docendum, similiter sicut in antiphona
         "Hoc est praeceptum meum" et "Post dies octo" et antiphona "Stephanus autem", si jubilandum
@@ -671,40 +685,40 @@
         ita miserabiliter ipsos corruperunt, quod vix invenitur aliquis in fontalibus suis
         subsistere notis, prout leviter videbis, si artem istam et libros cantusque communiter
         discordantes diligenter adverteris.</p>
-      <p xml:id="EGECAN0026">Tenores etiam habent toni singuli certos. Psalmodia enim in singulis tonis
-        per unam certam chordam currit et communiter in linea excepto septimo tono, in quo currit in
-        spatio, a qua chorda tonali in principio sive medio et fine psalmodia ipsa declinat modicum
-        declinantibus <pb n="[61]"/>ab ipsa plus hinc inde antiphonis vel introitibus sub et supra.
-        Et haec declinatio ab ipsa in fine dicitur tenor. Est igitur tenor cursus cantualis circa
-        finem psalmodiae a chorda cantuali declinans et ex hoc et certum tonum indicans. Et dicitur
-        a tenendo, quia totum cantum et psalmodiam sicut medium quoddam continet ludentibus hinc
-        inde supra ipsum et infra aliis notis cantuum. Subscribuntur autem communiter tenoribus
-        vocales de "saeculorum amen", scilicet EUOUAE, propter finem psalmodiae sub cursu ipsorum
-        antiphonis vel introitibus applicandum. Et sunt octo tenores octo tonis correspondentes.
-        Unde autenti, quia octavam a finali attingere possunt, tenores in chorda sua tonali jam
-        dicta, quae scilicet semper in quinta a finali currit, ab eadem tamquam a medio sui cantus
-        inchoant excepto tertio tono, qui hoc facit ex sexta, vitando scilicet duplicem notarum,
-        mollis et durae, quae habetur in b-fami. Plagales vero, quia quintam a finali possunt
-        attingere, tenores suos etiam in chorda sua tonali, vel a tertia a finali, sicut secundus et
-        sextus, vel a quarta, sicut quartus et octavus, inchoant finem principalis tenoris semper
-        habentes revertentem ad finalem, quia in gravibus ambulant, quod in principalibus tenoribus
-        autentorum non fit, quia scilicet in acutioribus currunt. Sunt enim quidam tenores
-        necessarii vel /p. 33/ principales, illi scilicet, quos olim musici primitivi singulos
-        singulis adaptavere tonis cuilibet tono unum tantum dantes tenorem, qui adhuc aptissime
-        sufficerent ipsis. Quidam (sunt) curiosi seu curiales, illi scilicet, quos moderniores
-        postea in cantibus lascivientes adinvenerunt addentes principalibus praedictis caudas
-        diversas, et hoc, ut corresponderent diversis antiphonarum et introituum inchoationibus,
-        quae variationes caudarum etiam adhuc vocantur differentiae. His autem differentiis
-        confuderunt tonos omnes exceptis secundo, quinto et septimo implentes libros et contentiones
-        saepe procurantes ac confusiones. Et quia diversae dioeceses, collegia et religiones
-        usualiter habent differentias illas diversimodas, non potest ipsarum poni certus numerus nec
-        sub <pb n="[62]"/>arte cadunt, sed sequuntur quaelibet suos libros; scire volens eas
-        videlicet legat autores de ipsis tractantes! Audivi olim in quibusdam ecclesiis differentias
-        illas seu caudas non ad quemlibet psalmodiae reiterari versum, sed tantum in fine super
-        "saeculorum amen" propter congruentiam deveniendi ad principium antiphonae vel introitus,
-        quod laudo, quia displicenter satis et taediose ad singulos repetuntur versus. Quidam
-        tenores dicuntur peregrini seu usuales, illi scilicet, quos usuardi quidam et indocti in
-        diversis ecclesiis psalmodiis applicuere finalibus nec principales curantes antiquorum
+      <p xml:id="EGECAN0026">Tenores etiam habent toni singuli certos. Psalmodia enim in singulis
+        tonis per unam certam chordam currit et communiter in linea excepto septimo tono, in quo
+        currit in spatio, a qua chorda tonali in principio sive medio et fine psalmodia ipsa
+        declinat modicum declinantibus <pb n="[61]"/>ab ipsa plus hinc inde antiphonis vel
+        introitibus sub et supra. Et haec declinatio ab ipsa in fine dicitur tenor. Est igitur tenor
+        cursus cantualis circa finem psalmodiae a chorda cantuali declinans et ex hoc et certum
+        tonum indicans. Et dicitur a tenendo, quia totum cantum et psalmodiam sicut medium quoddam
+        continet ludentibus hinc inde supra ipsum et infra aliis notis cantuum. Subscribuntur autem
+        communiter tenoribus vocales de "saeculorum amen", scilicet EUOUAE, propter finem psalmodiae
+        sub cursu ipsorum antiphonis vel introitibus applicandum. Et sunt octo tenores octo tonis
+        correspondentes. Unde autenti, quia octavam a finali attingere possunt, tenores in chorda
+        sua tonali jam dicta, quae scilicet semper in quinta a finali currit, ab eadem tamquam a
+        medio sui cantus inchoant excepto tertio tono, qui hoc facit ex sexta, vitando scilicet
+        duplicem notarum, mollis et durae, quae habetur in b-fami. Plagales vero, quia quintam a
+        finali possunt attingere, tenores suos etiam in chorda sua tonali, vel a tertia a finali,
+        sicut secundus et sextus, vel a quarta, sicut quartus et octavus, inchoant finem principalis
+        tenoris semper habentes revertentem ad finalem, quia in gravibus ambulant, quod in
+        principalibus tenoribus autentorum non fit, quia scilicet in acutioribus currunt. Sunt enim
+        quidam tenores necessarii vel /p. 33/ principales, illi scilicet, quos olim musici primitivi
+        singulos singulis adaptavere tonis cuilibet tono unum tantum dantes tenorem, qui adhuc
+        aptissime sufficerent ipsis. Quidam (sunt) curiosi seu curiales, illi scilicet, quos
+        moderniores postea in cantibus lascivientes adinvenerunt addentes principalibus praedictis
+        caudas diversas, et hoc, ut corresponderent diversis antiphonarum et introituum
+        inchoationibus, quae variationes caudarum etiam adhuc vocantur differentiae. His autem
+        differentiis confuderunt tonos omnes exceptis secundo, quinto et septimo implentes libros et
+        contentiones saepe procurantes ac confusiones. Et quia diversae dioeceses, collegia et
+        religiones usualiter habent differentias illas diversimodas, non potest ipsarum poni certus
+        numerus nec sub <pb n="[62]"/>arte cadunt, sed sequuntur quaelibet suos libros; scire volens
+        eas videlicet legat autores de ipsis tractantes! Audivi olim in quibusdam ecclesiis
+        differentias illas seu caudas non ad quemlibet psalmodiae reiterari versum, sed tantum in
+        fine super "saeculorum amen" propter congruentiam deveniendi ad principium antiphonae vel
+        introitus, quod laudo, quia displicenter satis et taediose ad singulos repetuntur versus.
+        Quidam tenores dicuntur peregrini seu usuales, illi scilicet, quos usuardi quidam et indocti
+        in diversis ecclesiis psalmodiis applicuere finalibus nec principales curantes antiquorum
         tenores nec curiosos, scilicet artificiales novos. De quibus reputatur tenor usualis illius
         psalmi "In exitu Israel de Aegypto" super antiphonam "Nos, qui vivimus", qui octavi magis
         debet dici quam alterius propter antiphonam ex finali octavo debitam. Concessus est autem
@@ -771,7 +785,8 @@
         antiquorum, quod esset contra divisionem ipsorum in octo, ut supra dictum est et
         regulationem ambituum, unde, quia invenimus tenores tonorum, hoc est EUOUAE, saepe
         diversimode et per consequens non recte signatos, sicut patet in antiphona "Domus mea" in
-        quibusdam libris assignata primo, cujusdam et est, in quibusdam secundo, et in <pb n="[65]"/>multis aliis libris necnon et in cantibus ecclesiasticis ablatas notas aliquas et aliquas
+        quibusdam libris assignata primo, cujusdam et est, in quibusdam secundo, et in <pb n="[65]"
+        />multis aliis libris necnon et in cantibus ecclesiasticis ablatas notas aliquas et aliquas
         additas neumasque miserabiliter variatas quia discordantes; nec deceat musicam irregularem
         esse atque confusam aut tonos effrenos seu vagabundos. Habeamus divisionem sequentem tamquam
         regulam infallibilem pro novis cantibus faciendis et antiquis /p. 37/ regulandis vel saltem
@@ -803,10 +818,10 @@
         aliis habuerit differentias, suis scribat sociis, quia pauci vel nulli in numero ipsarum
         conveniunt vel in aliis usualibus.</p>
       <p xml:id="EGECAN0027">Capitulum sextum et ultimum.</p>
-      <p xml:id="EGECAN0028">Modus autem componendi cantus ecclesiasticos vel alios regulares simplices
-        ex supradictis breviter habentur bene perpensis. Commoveo tamen novum volentem facere
-        cantum, quod ante omnia materiam cantus consideret, qualis sit, et secundum hoc de tono
-        aptiori juxta supradicta de naturis tonorum vel significationibus sollicitus sit. Verum
+      <p xml:id="EGECAN0028">Modus autem componendi cantus ecclesiasticos vel alios regulares
+        simplices ex supradictis breviter habentur bene perpensis. Commoveo tamen novum volentem
+        facere cantum, quod ante omnia materiam cantus consideret, qualis sit, et secundum hoc de
+        tono aptiori juxta supradicta de naturis tonorum vel significationibus sollicitus sit. Verum
         tamen, si materia non nimis fuerit notabilis, ex speciali scilicet laetitia vel tristitia,
         tonum pro tono ad commovendum animos ad placentiam vel displicentiam vel aliquid hujusmodi
         ponere poterit, ut scilicet primi toni vel octavi vel alterius cujuslibet eadem materia ex

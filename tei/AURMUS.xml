@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musica disciplina</title>
         <title type="abbrev">AURMUS</title>
-        <author>Aurelianus Reomensis</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Aurelianus Reomensis</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1992</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1992">1992</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptores ecclesiastici de musica sacra potissimum</emph>, 3 vols., ed. Martin
@@ -205,30 +215,30 @@
         iuxta constitutionem patrum praecedentium praecinuntur in ecclesia. XX.</p>
       <p xml:id="AURMUS0029">Caput primum.</p>
       <p xml:id="AURMUS0030">De laude Musicae disciplinae.</p>
-      <p xml:id="AURMUS0031">Musicam disciplinam non esse contemnendam, multa et antiquorum, gentilium
-          <pb n="[30]"/>videlicet et sanctorum, librorum affirmat auctoritas. Innumera siquidem
-        inveniuntur et apud gentiles et apud nostros per eam acta proficua. Ut enim fabulosa taceam,
-        quomodo scilicet Orpheus coniugem ab inferis lyrae modulamine pellentis, qui apud inferos
-        erant, ad superos revocaverit; et qualiter bestias, tygres ac delphines, marina scilicet
-        animalia, nec non serpentes quidam cantilena mites reddiderunt: certe Asclepiadem asserunt
-        certissime hominem mente captum per musicam dulcedinem sanitati propriae restituisse. Ut
-        vero ad nostros veniam, quid praeclarius agi in talibus potuit, quam quod legimus, per hanc
-        artem David egisse, ut scilicet Saulem cantu citharae a daemone liberaret, quem medicorum
-        ars victa desperabat? Certe et beatum Elisaeum, cum sibi spiritus prophetiae deesset, per
-        cantilenae modulam legimus mentem suam dulcorasse, et sic veniente Spiritu sancto, quae ante
-        ignorabat, ab eo didicisse. Quid plura? etiam apud supernos cives legimus huius artis
-        insignia celebrari, ut in Apocalypsi; habentes citharas Dei; et alibi: sicut citharoedorum
-        citharizantium in citharis suis. Hinc ergo colligendum est, quam gratum sit Deo officium
-        cantandi, si intenta mente peragatur; quando in hoc angelorum choros imitamur, quos sine
-        intermissione Domini laudes concinere traditur. Nempe munde istius compago, convenientiaque
-        naturalis harmonicam quodammodo continet congruentiam. Si enim rimeris, qualiter sole altius
-        procedente caetera congaudeant; qualiter scilicet aer purior fiat, terrae facies floribus
-        venustatem pubescat; mare a suo fervore requiescat: deprehendis, quod omnis creatura, mira
-        harmonia sociata, sibi conveniat. Homo etiam ipse quanta congruentia huic aptetur
-        disciplinae, non dubitabit, qui scierit, omnia se habere, quae solent huic arti tribuere.
-        Habet enim cantandi fistulam in gutture; quamdam citharam in pectore pulmonis fibris quasi
-        quibusdam distinctam chordis; elevationes atque gravationes in venarum pulsuumque reflua
-        mutatione.</p>
+      <p xml:id="AURMUS0031">Musicam disciplinam non esse contemnendam, multa et antiquorum,
+        gentilium <pb n="[30]"/>videlicet et sanctorum, librorum affirmat auctoritas. Innumera
+        siquidem inveniuntur et apud gentiles et apud nostros per eam acta proficua. Ut enim
+        fabulosa taceam, quomodo scilicet Orpheus coniugem ab inferis lyrae modulamine pellentis,
+        qui apud inferos erant, ad superos revocaverit; et qualiter bestias, tygres ac delphines,
+        marina scilicet animalia, nec non serpentes quidam cantilena mites reddiderunt: certe
+        Asclepiadem asserunt certissime hominem mente captum per musicam dulcedinem sanitati
+        propriae restituisse. Ut vero ad nostros veniam, quid praeclarius agi in talibus potuit,
+        quam quod legimus, per hanc artem David egisse, ut scilicet Saulem cantu citharae a daemone
+        liberaret, quem medicorum ars victa desperabat? Certe et beatum Elisaeum, cum sibi spiritus
+        prophetiae deesset, per cantilenae modulam legimus mentem suam dulcorasse, et sic veniente
+        Spiritu sancto, quae ante ignorabat, ab eo didicisse. Quid plura? etiam apud supernos cives
+        legimus huius artis insignia celebrari, ut in Apocalypsi; habentes citharas Dei; et alibi:
+        sicut citharoedorum citharizantium in citharis suis. Hinc ergo colligendum est, quam gratum
+        sit Deo officium cantandi, si intenta mente peragatur; quando in hoc angelorum choros
+        imitamur, quos sine intermissione Domini laudes concinere traditur. Nempe munde istius
+        compago, convenientiaque naturalis harmonicam quodammodo continet congruentiam. Si enim
+        rimeris, qualiter sole altius procedente caetera congaudeant; qualiter scilicet aer purior
+        fiat, terrae facies floribus venustatem pubescat; mare a suo fervore requiescat:
+        deprehendis, quod omnis creatura, mira harmonia sociata, sibi conveniat. Homo etiam ipse
+        quanta congruentia huic aptetur disciplinae, non dubitabit, qui scierit, omnia se habere,
+        quae solent huic arti tribuere. Habet enim cantandi fistulam in gutture; quamdam citharam in
+        pectore pulmonis fibris quasi quibusdam distinctam chordis; elevationes atque gravationes in
+        venarum pulsuumque reflua mutatione.</p>
       <p xml:id="AURMUS0032">Haec omnia convenienter sobria mens sibi convenire ita facile poterit
         cognoscere, ut non dubitet, hanc disciplinam in omnibus, quae sunt condita, auctoris
         sapientia effulgere, ideoque cuncta, quae sunt condita, conditorem proprium continua
@@ -240,15 +250,15 @@
       <p xml:id="AURMUS0033">Caput II.</p>
       <p xml:id="AURMUS0034">De nomine et inventoribus eius: et quomodo formae numerorum inventae
         fuerint.</p>
-      <p xml:id="AURMUS0035">Musica autem est scientia recte modulandi sono cantuque congrua. Appellata
-          <pb n="[31]"/>est autem secundum Graecos [apo tou masou] id est, a quaerendo, eoquod per
-        illam sonus visque modulationis quaereretur. Dicebantur autem Musae, a quibus nomen sumsit,
-        et a quibus reperta tradebatur, filiae Iovis fuisse, quae ferebantur memoriam ministrare,
-        eoquod haec ars, nisi memoriae infigatur, non retineatur. Apud Graecos autem traditur
-        Pythagoras ex malleorum fabrilium sonitu huius artis scientiam cognovisse, atque aliis
-        tradidisse: quem Euclides Ptolomaeusque secuti, studio clariore eius praecepta luculentius
-        posteris tradidere. Apud nos autem scripturae auctoritas refert, primum Tubal ante diluvium
-        huius artis fuisse praecipuum: posteaque beatissimum David cantantium habuisse
+      <p xml:id="AURMUS0035">Musica autem est scientia recte modulandi sono cantuque congrua.
+        Appellata <pb n="[31]"/>est autem secundum Graecos [apo tou masou] id est, a quaerendo,
+        eoquod per illam sonus visque modulationis quaereretur. Dicebantur autem Musae, a quibus
+        nomen sumsit, et a quibus reperta tradebatur, filiae Iovis fuisse, quae ferebantur memoriam
+        ministrare, eoquod haec ars, nisi memoriae infigatur, non retineatur. Apud Graecos autem
+        traditur Pythagoras ex malleorum fabrilium sonitu huius artis scientiam cognovisse, atque
+        aliis tradidisse: quem Euclides Ptolomaeusque secuti, studio clariore eius praecepta
+        luculentius posteris tradidere. Apud nos autem scripturae auctoritas refert, primum Tubal
+        ante diluvium huius artis fuisse praecipuum: posteaque beatissimum David cantantium habuisse
         abundantissimum chorum, qui laude gloriosa super Domini sacrificia musa personarent
         dulcedinem carminum, ibidemque filium eius Salomonem habuisse manifestum est. Apud antiquos
         enim sicut litteras nemo liberorum permittebatur ignorare, ita turpe erat et musicam non
@@ -265,13 +275,14 @@
         caetera, quae in authentu trito inveniuntur. VIII. vero ad IX. in sesquioctava proportione
         resonabant tonum; iuxta illud Antiphona Puer natus est nobis. et omnia, quae authenti
         tetrardi adscribuntur normae.</p>
-      <p xml:id="AURMUS0037">Etenim sunt quatuor toni, scilicet authentus protus, authentus deuterus,
-        authentus tritus, authentus tetrardus, qui geminati ex se octo reddere videntur: quos quidam
-        latus, quidam autem discipulos nuncupantiphona Quod ut evidentius appareat, si volueris
-        segregare a magistro discipulum, id est, ab authentu proto plagis proti, et coniungere cum
-        aliquo altero tono, non vales. Similiter et de caeteris intelligendum est tonis, quia semper
-        origo inferioris a superiori initium ducit. Quod enucleatius in authentu tetrardi et plagis
-        eiusdem valet intelligi, quia eodem, quo finitur modo superior, finitur et inferior.</p>
+      <p xml:id="AURMUS0037">Etenim sunt quatuor toni, scilicet authentus protus, authentus
+        deuterus, authentus tritus, authentus tetrardus, qui geminati ex se octo reddere videntur:
+        quos quidam latus, quidam autem discipulos nuncupantiphona Quod ut evidentius appareat, si
+        volueris segregare a magistro discipulum, id est, ab authentu proto plagis proti, et
+        coniungere cum aliquo altero tono, non vales. Similiter et de caeteris intelligendum est
+        tonis, quia semper origo inferioris a superiori initium ducit. Quod enucleatius in authentu
+        tetrardi et plagis eiusdem valet intelligi, quia eodem, quo finitur modo superior, finitur
+        et inferior.</p>
       <p xml:id="AURMUS0038">Haec memorata superius quatuor principia a Pythagora inventa, eadem ex
         semet procreant sibi cohaerentia, de quibus posterius liquebit. Puto enim, quia non nisi
         divino nutu iam saepe dictus Pythagoras proportionum varietates, ut sonorum iungerentur
@@ -289,27 +300,27 @@
         quibusdam praecipue aucta est.</p>
       <p xml:id="AURMUS0039">Caput III.</p>
       <p xml:id="AURMUS0040">Quod Musicae tria sint genera.</p>
-      <p xml:id="AURMUS0041">Musicae genera tria noscuntur esse: prima quidem mundana, secunda humana,
-        tertia quae quibusdam constat instrumentis. Mundana quippe in his maxime perspicienda est
-        rebus, quae in ipso coelo vel terra, elementorumque vel temporum varietate videntur. Dicunt
-        namque philosophi, coelum volubile esse. Quomodo enim fieri potest, ut tam velox coeli
-        machina tacito silentique cursu moveatur? Etsi ad aures nostras sonus ille non pervenit,
-        tamen novimus, quia quaedam harmonia modulationis inest huic coelo; maxime cum dicat Dominus
-        ad Iob: aut concentum coeli quis dormire facit? Iam vero quatuor elementorum diversitates,
-        scilicet hyemis, veris, aestatis, autumni, nisi quaedam harmonia coniungeret, quomodo fieri
-        posset, ut in unum corpus materiamque convenirent? Verum quidquid illud est, aut suos affert
-        fructus, aut aliis auxiliatur, ut afferantiphona Et sicut in gravibus citharae chordis is
-        modus est, ut non ad taciturnitatem usque gravitas descendat, atque in acutis ille
-        custoditur acuminis modus, ne per vim nimium tensae vocis tenuitate rumpantur, sed totum sit
-        sibi consentaneum atque conveniens: ita etiam in mundi musica pervidemus, ita nihil esse
-        nimium posse, ut alterum propria nimietate dissolvat. Nam quod constringit hyems, ver laxat;
-        torret aestas, maturat autumnus: atque, ut supra dictum est, vel ipsi suos afferunt fructus,
-        vel etiam aliis, ut afferant, subministrantiphona Asserunt non solum gentiles, sed et
-        Catholici viri, ob intemperatum solis ardorem ad instar lapidum durare aquas, atque nubes
-        vento commotas fulgurare in terram. Quod utique propter inconvenientiam est huiusce
-        disciplinae, eo quod solis ardor vigorem consumat aquarum.</p>
-      <p xml:id="AURMUS0042">Humana denique musica in microcosmo, id est, in minori mundo, qui homo a
-        philosophis nominatur, plenissime abundat. Micros autem graece, latine minor cognominatur,
+      <p xml:id="AURMUS0041">Musicae genera tria noscuntur esse: prima quidem mundana, secunda
+        humana, tertia quae quibusdam constat instrumentis. Mundana quippe in his maxime
+        perspicienda est rebus, quae in ipso coelo vel terra, elementorumque vel temporum varietate
+        videntur. Dicunt namque philosophi, coelum volubile esse. Quomodo enim fieri potest, ut tam
+        velox coeli machina tacito silentique cursu moveatur? Etsi ad aures nostras sonus ille non
+        pervenit, tamen novimus, quia quaedam harmonia modulationis inest huic coelo; maxime cum
+        dicat Dominus ad Iob: aut concentum coeli quis dormire facit? Iam vero quatuor elementorum
+        diversitates, scilicet hyemis, veris, aestatis, autumni, nisi quaedam harmonia coniungeret,
+        quomodo fieri posset, ut in unum corpus materiamque convenirent? Verum quidquid illud est,
+        aut suos affert fructus, aut aliis auxiliatur, ut afferantiphona Et sicut in gravibus
+        citharae chordis is modus est, ut non ad taciturnitatem usque gravitas descendat, atque in
+        acutis ille custoditur acuminis modus, ne per vim nimium tensae vocis tenuitate rumpantur,
+        sed totum sit sibi consentaneum atque conveniens: ita etiam in mundi musica pervidemus, ita
+        nihil esse nimium posse, ut alterum propria nimietate dissolvat. Nam quod constringit hyems,
+        ver laxat; torret aestas, maturat autumnus: atque, ut supra dictum est, vel ipsi suos
+        afferunt fructus, vel etiam aliis, ut afferant, subministrantiphona Asserunt non solum
+        gentiles, sed et Catholici viri, ob intemperatum solis ardorem ad instar lapidum durare
+        aquas, atque nubes vento commotas fulgurare in terram. Quod utique propter inconvenientiam
+        est huiusce disciplinae, eo quod solis ardor vigorem consumat aquarum.</p>
+      <p xml:id="AURMUS0042">Humana denique musica in microcosmo, id est, in minori mundo, qui homo
+        a philosophis nominatur, plenissime abundat. Micros autem graece, latine minor cognominatur,
         Cosmos autem <pb n="[33]"/>mundus dicitur. Nuncupatur vero minor mundus homo, Domino
         dicente: praedicate Evangelium omni creaturae; soli utique homini: quod Beatus Gregorius
         satis superque exposuit. Quid est enim, quod illam incorpoream rationis vivacitatem corpori
@@ -318,11 +329,11 @@
         iungat, qui, ut Aristoteli placet, ex rationabili irrationabilique coniunctus est; scilicet
         a sole accipere spiritum, a luna corpus. Quid vero est, quod corporis elementa permiscet,
         aut partes sibimet rata coaptatione contineat, praeter hanc?</p>
-      <p xml:id="AURMUS0043">Tertia est musica, quae in quibusdam consistit instrumentis: videlicet ut
-        sunt organa, citharae, lyrae, et caetera plura. Sed istud, quod in instrumentis positum est,
-        a musicae scientia intellectuque seiunctum est, administraturque aut intensione, ut nervis;
-        aut spiritu, ut tibiis; vel his, quae aqua moventur, ut organa; aut percussione quadam, ut
-        in his, quae ad concava aerea feriuntur, atque inde diversi efficiuntur soni.</p>
+      <p xml:id="AURMUS0043">Tertia est musica, quae in quibusdam consistit instrumentis: videlicet
+        ut sunt organa, citharae, lyrae, et caetera plura. Sed istud, quod in instrumentis positum
+        est, a musicae scientia intellectuque seiunctum est, administraturque aut intensione, ut
+        nervis; aut spiritu, ut tibiis; vel his, quae aqua moventur, ut organa; aut percussione
+        quadam, ut in his, quae ad concava aerea feriuntur, atque inde diversi efficiuntur soni.</p>
       <p xml:id="AURMUS0044">Caput IV.</p>
       <p xml:id="AURMUS0045">Quot habeat humana Musica partes.</p>
       <p xml:id="AURMUS0046">Hactenus de musicae disputavimus generibus, tresque esse musicas
@@ -338,12 +349,12 @@
         sed tantum concentus est Rhythmica modulatione. Qui scintillam vel perparvam habet metrorum,
         hic cognoscere valet nostrum de hac re sermonem. Etenim metrum est ratio cum modulatione;
         rhythmus vero est modulatio sine ratione, et per syllabarum discernitur numerum.</p>
-      <p xml:id="AURMUS0047">Metrica est, quae mensuram diversorum probabili ratione cognoscit metrorum,
-        verbi causa heroicum, elegiacum, sapphicum, et caeterorum metrorum. Nam ipsius cantilenae
-        vox si recto canitur tramite, per ordinem discurrit pedum, <pb n="[34]"/>et ubi synalipha
-        vel ectatemsis scansione metri, cani simili modo debet per synalypha, ut: aspera conditio,
-        et sors irrevocabilis ore; vel edemsis, ut in hoc carmine: Inmortale in quarto eiusdem
-        versu: nam statuit genitor irrevocabile tempus.</p>
+      <p xml:id="AURMUS0047">Metrica est, quae mensuram diversorum probabili ratione cognoscit
+        metrorum, verbi causa heroicum, elegiacum, sapphicum, et caeterorum metrorum. Nam ipsius
+        cantilenae vox si recto canitur tramite, per ordinem discurrit pedum, <pb n="[34]"/>et ubi
+        synalipha vel ectatemsis scansione metri, cani simili modo debet per synalypha, ut: aspera
+        conditio, et sors irrevocabilis ore; vel edemsis, ut in hoc carmine: Inmortale in quarto
+        eiusdem versu: nam statuit genitor irrevocabile tempus.</p>
       <p xml:id="AURMUS0048">Igitur secundum Nicomachum tertia pars humanae musicae, quae metrica
         nuncupatur, quoniam non tam speculatione ac ipsius artis ratione, quam naturali instinctu
         fertur ad carmen; ideo a musica, quamquam ab ea originem trahat, segregandam putat. Rhythmus
@@ -391,13 +402,13 @@
         congruenter copulati compagem efficiant vocum; ne videlicet aut acutus plus quam decet
         elevatus minus gravi conveniat; aut gravis multum depressus altitudini acuti non
         congruat.</p>
-      <p xml:id="AURMUS0056">In rhythmica autem provisio manet, ut cum verbis modulatio apte concurrat:
-        ne scilicet contra rationem verborum cantilenae vox inepte formetur. Metrica vero proditur
-        unumquodque genus metri, qua cantilena modulatur, rationeque probabili discernitur, unum
-        quodlibet metrum qua mensura metiatur.</p>
-      <p xml:id="AURMUS0057">Constat autem omnis musica symphoniis sex, sonitibus quindecim, tenoribus
-        octo. Symphoniam autem dicimus temperamentum sonorum, id est, convenientiam gravis cum
-        acuto, acutique cum presso. Vocatur autem prima diatessaron, secunda diapente, tertia
+      <p xml:id="AURMUS0056">In rhythmica autem provisio manet, ut cum verbis modulatio apte
+        concurrat: ne scilicet contra rationem verborum cantilenae vox inepte formetur. Metrica vero
+        proditur unumquodque genus metri, qua cantilena modulatur, rationeque probabili discernitur,
+        unum quodlibet metrum qua mensura metiatur.</p>
+      <p xml:id="AURMUS0057">Constat autem omnis musica symphoniis sex, sonitibus quindecim,
+        tenoribus octo. Symphoniam autem dicimus temperamentum sonorum, id est, convenientiam gravis
+        cum acuto, acutique cum presso. Vocatur autem prima diatessaron, secunda diapente, tertia
         diapason, quarta diapason simul et diatessaron, quinta diapason simul et diapente, sexta bis
         diapason. Quorum qui vult rationem nosse, sufficienter eum Boetii Viri doctissimi studiosa
         lectio poterit perdocere; cuius sunt verba et figurae, quae subter tenentur insertae. Nam
@@ -408,20 +419,20 @@
       <p xml:id="AURMUS0058">[GSI:35; text: III. IIII. VI. II. III. VI. dupli, tripli] <figure>
           <graphic url="/images/AURMUS_01GF.gif"/>
         </figure></p>
-      <p xml:id="AURMUS0059">Senarius igitur ad ternarium duplus est: idem autem in alia dispositione
-        senarius ad binarium triplus est. Horum igitur si differentias colligamus et ad se invicem
-          <pb n="[36]"/>comparemus, epitrita proportio colligatur, unde diatessaron symphonia
-        resonabit. Inter tres enim et sex ternarius est, et inter binarium et senarium quaternarius,
-        qui sibimet comparati sesquitertiam efficiunt proportionem hoc modo</p>
+      <p xml:id="AURMUS0059">Senarius igitur ad ternarium duplus est: idem autem in alia
+        dispositione senarius ad binarium triplus est. Horum igitur si differentias colligamus et ad
+        se invicem <pb n="[36]"/>comparemus, epitrita proportio colligatur, unde diatessaron
+        symphonia resonabit. Inter tres enim et sex ternarius est, et inter binarium et senarium
+        quaternarius, qui sibimet comparati sesquitertiam efficiunt proportionem hoc modo</p>
       <p xml:id="AURMUS0060">[GSI:36,1; text: III. IIII. VI. Differentia. Diatessaron. Sesquitertia.
         II.]</p>
-      <p xml:id="AURMUS0061">In eadem quoque medietate diapente symphonia componitur, quam sesquialtera
-        habitudo restituit. Nam in utrisque dispositionibus his, quae subiectae sunt, in duplici
-        senarius ad quaternarium sesquialter est, et in triplici ternarius ad binarium, ex quibus
-        utrisque diapente symphonia coniungitur</p>
+      <p xml:id="AURMUS0061">In eadem quoque medietate diapente symphonia componitur, quam
+        sesquialtera habitudo restituit. Nam in utrisque dispositionibus his, quae subiectae sunt,
+        in duplici senarius ad quaternarium sesquialter est, et in triplici ternarius ad binarium,
+        ex quibus utrisque diapente symphonia coniungitur</p>
       <p xml:id="AURMUS0062">[GSI:36,2; text: Sesquialter diapente, III. IIII. VI. II. III.]</p>
-      <p xml:id="AURMUS0063">Post hunc autem diapason consonantia, quae fit ex duplici, ut est subiecta
-        formula</p>
+      <p xml:id="AURMUS0063">Post hunc autem diapason consonantia, quae fit ex duplici, ut est
+        subiecta formula</p>
       <p xml:id="AURMUS0064">[GSI:36,3; text: III. IIII. VI. duplex diapason.]</p>
       <p xml:id="AURMUS0065">In triplici quoque dispositione simul diapente et diapason symphonia
         componitur, servans sesquialteram et duplicem rationem, quod subiecta descriptio docet:</p>
@@ -430,8 +441,8 @@
       <p xml:id="AURMUS0067">Et quoniam triplus duas continet consonantias, diapente scilicet et
         diapason, in huius triplicis dispositione in differentiis eumdem rursus triplum reperimus,
         secundum subter descriptum modum, videlicet</p>
-      <p xml:id="AURMUS0068">[GSI:36,5; text: Triplus diapente et diapason. Differentiae. I. II. III.
-        VI. Termini.]</p>
+      <p xml:id="AURMUS0068">[GSI:36,5; text: Triplus diapente et diapason. Differentiae. I. II.
+        III. VI. Termini.]</p>
       <p xml:id="AURMUS0069">In dupla vero dispositione maior terminus ad medii termini contra se
         differentiam triplus est, et rursus minor terminus ad medii contra minorem terminum
         comparatus differentiam, triplus est, ut hic.</p>
@@ -443,16 +454,17 @@
         quoniam diapason symphonia ex duplici proportione colligitur, huic se iuncturae harmonicae
         medietatis interserit. Nam in duplici proportione medius terminus ad minoris suique
         differentiam quadruplus invenitur, ut in hoc exemplo patet:</p>
-      <p xml:id="AURMUS0072">[GSI:37; text: Differentia. I. quadruplus bis diapason, III. IIII. VI.]</p>
+      <p xml:id="AURMUS0072">[GSI:37; text: Differentia. I. quadruplus bis diapason, III. IIII.
+        VI.]</p>
       <p xml:id="AURMUS0073">In triplicibus quoque extremitatibus maior differentia ad minorem
         differentiam quadrupla est, et bis diapason symphoniam emittit. Nam in dispositione II. III.
         VI. extremorum differentia, id est, senarii et binarii IIII. Minor vero differentia, id est,
         ternarii et binarii unus. Quarta vero uno quadrupla maior est relatione: quae comparatio bis
         diapason consonantiam tenet.</p>
-      <p xml:id="AURMUS0074">Quo autem ordine sonitus quindecim efficiant, ac symphonias sex, et tonos
-        octo, hinc contemplari licebit, cum inspexeris acute, quantum singuli se superent, quousque
-        altitudinem ultimi conscendat; ita ut singuli sese hemitono, id est, medio tono superent,
-        quousque decimus quintus primum octo tonis praecedat.</p>
+      <p xml:id="AURMUS0074">Quo autem ordine sonitus quindecim efficiant, ac symphonias sex, et
+        tonos octo, hinc contemplari licebit, cum inspexeris acute, quantum singuli se superent,
+        quousque altitudinem ultimi conscendat; ita ut singuli sese hemitono, id est, medio tono
+        superent, quousque decimus quintus primum octo tonis praecedat.</p>
       <p xml:id="AURMUS0075">Hypodorius tonus est omnium gravissime sonans, propter quod et inferior
         nuncupatur. Hypoiastius autem hypodorium hemitonio praecedit. Hypophrygius est hypoiastium
         hemitonio, hypodorium tono praecedens. Hypoaeolius est hypophrygium hemitonio, hypoiastium
@@ -483,24 +495,24 @@
         symphonia, dorium tribus tonis, hypolydium tribus semis tonis, hoc est, diapente symphonia,
         hypoaeolium quatuor tonis, hypophrygium quatuor semis, hypoiastium quinque tonis, hypodorium
         quinque semis (praecedens).</p>
-      <p xml:id="AURMUS0080">Hyperphrygius (est) hyperiastium hemitonio, hypodorium (hyperdorium) tono,
-        Lydium tono semis, aeolium duobus phrygium duobus semis, hoc est, diatessaron symphonia,
-        iastium tribus tonis, dorium tribus semis, hoc est, diapente symphonia, hypolydium quatuor
-        tonis, hypoaeolium quatuor semis, hypophrygium quinque, hypoiastium quinque semis,
-        hypodorium sex, hoc est, diapason symphonia praecedens.</p>
-      <p xml:id="AURMUS0081">Hyperaeolius est hyperphrygium hemitonio, hyperiastium tono, hyperdorium
-        tono semis, lydium duobus tonis, aeolium duobus semis, hoc est, diatessaron symphonia,
-        phrygium tribus tonis, iastium tribus semis tonis, hoc est, diapente symphonia, dorium
-        quatuor tonis, hypolydium quatuor semis, hoc est, diapente symphonia, hypoaeolium quinque,
-        hypophrygium quinque semis, hypoiastium sex tonis, hoc est, symphonia diapason, hypodorium
-        sex tonis semis (praecedens).</p>
-      <p xml:id="AURMUS0082">Hyperlydius est novissimus et acutissimus omnium, hyperaeolium hemitonio,
-        hyperphrygium tono semis, hyperiastium duobus tonis, lydium duobus semis, hoc est,
-        diatessaron symphonia, aeolium tribus, phrygium tribus semis, hoc est, diapente symphonia,
-        iastium quatuor tonis, dorium quatuor (supplevi semis) hypolydium quinque, hypoaeolium
-        quinque semis tonis, hyperphrygium (lege hypophrygium) sex tonis, hoc est, diapason
-        symphonia, hypoiastium sex tonis semis, hypodorium septem tonis. Unde claret, quoniam
-        hyperlydius tonus omnium acutissimus septem tonis praecedit hypodorium omnium
+      <p xml:id="AURMUS0080">Hyperphrygius (est) hyperiastium hemitonio, hypodorium (hyperdorium)
+        tono, Lydium tono semis, aeolium duobus phrygium duobus semis, hoc est, diatessaron
+        symphonia, iastium tribus tonis, dorium tribus semis, hoc est, diapente symphonia,
+        hypolydium quatuor tonis, hypoaeolium quatuor semis, hypophrygium quinque, hypoiastium
+        quinque semis, hypodorium sex, hoc est, diapason symphonia praecedens.</p>
+      <p xml:id="AURMUS0081">Hyperaeolius est hyperphrygium hemitonio, hyperiastium tono,
+        hyperdorium tono semis, lydium duobus tonis, aeolium duobus semis, hoc est, diatessaron
+        symphonia, phrygium tribus tonis, iastium tribus semis tonis, hoc est, diapente symphonia,
+        dorium quatuor tonis, hypolydium quatuor semis, hoc est, diapente symphonia, hypoaeolium
+        quinque, hypophrygium quinque semis, hypoiastium sex tonis, hoc est, symphonia diapason,
+        hypodorium sex tonis semis (praecedens).</p>
+      <p xml:id="AURMUS0082">Hyperlydius est novissimus et acutissimus omnium, hyperaeolium
+        hemitonio, hyperphrygium tono semis, hyperiastium duobus tonis, lydium duobus semis, hoc
+        est, diatessaron symphonia, aeolium tribus, phrygium tribus semis, hoc est, diapente
+        symphonia, iastium quatuor tonis, dorium quatuor (supplevi semis) hypolydium quinque,
+        hypoaeolium quinque semis tonis, hyperphrygium (lege hypophrygium) sex tonis, hoc est,
+        diapason symphonia, hypoiastium sex tonis semis, hypodorium septem tonis. Unde claret,
+        quoniam hyperlydius tonus omnium acutissimus septem tonis praecedit hypodorium omnium
         gravissimum.</p>
       <p xml:id="AURMUS0083">Caput VII.</p>
       <p xml:id="AURMUS0084">Quid sit inter Musicum et Cantorem.</p>
@@ -542,18 +554,19 @@
         magistrum dicimus vel exemplar: Unde et libros antiquissimos atque firmos authenticos
         vocamus, utpote qui pro sui firmitate aliis possint auctoritatem magisteriumque
         praebere.</p>
-      <p xml:id="AURMUS0089">Primus autem eorum protus vocatur, quod nomen apud nos primum significat:
-          <pb n="[40]"/>unde et protomartyrem Abel in lege veteri, in nova autem Stephanum dicimus
-        primos martyres. Secundus autem deuterus, id est, secundum; deuterosis enim eadem graeca
-        lingua secundatio sive recapitulatio vocatur. Inde et Deuteronomium, id est, secunda lex vel
-        legislatio, nominatur. Tertius tritus dicitur, qui similiter, eoquod tertius sit in ordine,
-        triti nuncupatur nomine. Quartus tetrarchus, (lege tetrardus) qui eodem quo et caeteri modo
-        ab ordine sui vocabulum sumpsit; quia videlicet quartum principatus locum obtinuerit. Tetra
-        enim apud Graecos quatuor dicuntur: unde et nomen Dei tetragrammaton, eo quod quatuor
-        litteris scribitur. Inde et tetrarchia, id est, quarta pars regni. Plagi autem eis coniuncti
-        dicuntur omnes quatuor, quod nomen significare dicitur latus vel pars, sive inferiores
-        eorum; quia scilicet quasi quidam latus vel quaedam partes sunt eorum, dum ab eis ex toto
-        non recedunt; et inferiores, quia sonus eorum pressior quam superiorum deprehenditur.</p>
+      <p xml:id="AURMUS0089">Primus autem eorum protus vocatur, quod nomen apud nos primum
+        significat: <pb n="[40]"/>unde et protomartyrem Abel in lege veteri, in nova autem Stephanum
+        dicimus primos martyres. Secundus autem deuterus, id est, secundum; deuterosis enim eadem
+        graeca lingua secundatio sive recapitulatio vocatur. Inde et Deuteronomium, id est, secunda
+        lex vel legislatio, nominatur. Tertius tritus dicitur, qui similiter, eoquod tertius sit in
+        ordine, triti nuncupatur nomine. Quartus tetrarchus, (lege tetrardus) qui eodem quo et
+        caeteri modo ab ordine sui vocabulum sumpsit; quia videlicet quartum principatus locum
+        obtinuerit. Tetra enim apud Graecos quatuor dicuntur: unde et nomen Dei tetragrammaton, eo
+        quod quatuor litteris scribitur. Inde et tetrarchia, id est, quarta pars regni. Plagi autem
+        eis coniuncti dicuntur omnes quatuor, quod nomen significare dicitur latus vel pars, sive
+        inferiores eorum; quia scilicet quasi quidam latus vel quaedam partes sunt eorum, dum ab eis
+        ex toto non recedunt; et inferiores, quia sonus eorum pressior quam superiorum
+        deprehenditur.</p>
       <p xml:id="AURMUS0090">Quod autem octo sint, coelestes motus videntur imitari. Tradunt namque
         philosophi, superiorem esse circulum coeli, qui Zodiacus nuncupatur, id est, signifer, et
         alio nomine aplanes ([aplanes]) appellatur, id est, sine errore, eoquod recto cursu feratur,
@@ -575,9 +588,9 @@
         consonantiam efficere: quam etiam Dominus in ea responsione, quam de turbine fecit ad
         sanctum Iob, concentum coeli nominat, Sed ista utrum ad praefatas regulas pertineat, meum
         non est diffinire.</p>
-      <p xml:id="AURMUS0092">Caeterum aliae sunt, quas scriptores huius artis invenerunt. Dicunt enim,
-          <pb n="[41]"/>omnes musicae artis rationes ex numeris constare. Computus computi, id est,
-        numerus. Computus computus, id est, numeratio. Apud Graecos arithmos, et altera ratione
+      <p xml:id="AURMUS0092">Caeterum aliae sunt, quas scriptores huius artis invenerunt. Dicunt
+        enim, <pb n="[41]"/>omnes musicae artis rationes ex numeris constare. Computus computi, id
+        est, numerus. Computus computus, id est, numeratio. Apud Graecos arithmos, et altera ratione
         dyeos appellatur; apud AEgyptios Lacerbus, apud Macedonas calculus, apud Latinos computus
         vocatur vel numerus. Nam philosophiam in tres partes distinguere maluerunt, id est,
         physicam, ethicam, logicam, quae latine dicuntur naturalis, moralis, rationalis. Naturalis
@@ -612,9 +625,9 @@
         esse communes, et eorum habere contubernium <pb n="[42]"/>philosophiacum Latinorum, et ne
         forte inferiores invenirentur gradu, itidemque quatuor ediderunt tonos; quorum hic
         praescribere censui litteraturam:</p>
-      <p xml:id="AURMUS0095">Neno teneano noneano annoannes. Qui tamen toni modernis temporibus inventi
-        tam Latinorum, quam Graecorum, licet litteraturam inaequalem habeant, tamen semper ad
-        priores octo eorum revertitur modulatio. Et sicuti quit nemo octo partes grammaticae
+      <p xml:id="AURMUS0095">Neno teneano noneano annoannes. Qui tamen toni modernis temporibus
+        inventi tam Latinorum, quam Graecorum, licet litteraturam inaequalem habeant, tamen semper
+        ad priores octo eorum revertitur modulatio. Et sicuti quit nemo octo partes grammaticae
         adimplere disciplinae, ut ampliores addat partes: ita nec quisquam tonorum valet ampliare
         magnitudinem; quia nisi quis alterius fecerit generis modulationem; prorsus nec tonorum
         poterit maiorem reddere magnitudinem. Quamobrem non necesse est priorum monimenta linquere
@@ -649,22 +662,22 @@
         (fortasse aptari) queat ipsius initio. Tertia haec antiphona Suscepimus <pb n="[43]"/>Deus.
         In qua ultima versiculi pars diuscule moras agit, quam in primo et secundo, extolliturque
         vox in sublime, ut capiti possit aptari introitus.</p>
-      <p xml:id="AURMUS0102">Qua de re animus movetur lectitantis, cur unus solummodo tonus tot habeat
-        varietatum modos, ut aliquando ultima versiculi syllaba sursum erigatur, nonnumquam iusum
-        deprimatur, plerumque etiam graviter enuntietur, et in quibusdam plures, in quibusdam
+      <p xml:id="AURMUS0102">Qua de re animus movetur lectitantis, cur unus solummodo tonus tot
+        habeat varietatum modos, ut aliquando ultima versiculi syllaba sursum erigatur, nonnumquam
+        iusum deprimatur, plerumque etiam graviter enuntietur, et in quibusdam plures, in quibusdam
         pauciores inveniantur modulationum enormitates, sicut in his tribus introitibus in fine
         versuum. Caeterum qui plenitudinem huiusce vult nosse scientiae, ad musicam eum mittimus, et
         si in ipsa voluerit versari, ad consonantiam proportionum ac speculationem intervallorum,
         nec non ad certitudinem oculos vertat numerorum, et tunc nosse poterit, quamobrem in una
         eademque litteratura diversus efficiatur sonoritatis concentus, et caetera plura, quae
         longum est edicere.</p>
-      <p xml:id="AURMUS0103">Denique de his tribus introitibus, qua possumus brevitate, quiddam pandamus
-        excepta (lege ex certa) norma musicae disciplinae. Primus siquidem in se idcirco directe
-        finis versuum (lege ex superiori: finem versus vel versiculi) recipit, quia et indirectum
-        inchoat, nec nox sinuosos decurrit per anfractus, atque in tertia tonus invenitur syllaba,
-        scilicet in te, ut gaudete. In secundo vero ideo sursum pars ultima sublimatur, quia tonus
-        in prima est syllaba, id est, in ius ut Iustus es Domine. In tertia vero idcirco altius
-        finis erigitur, morasque habere diutius patitur, quoniam perfectus tonus in secunda
+      <p xml:id="AURMUS0103">Denique de his tribus introitibus, qua possumus brevitate, quiddam
+        pandamus excepta (lege ex certa) norma musicae disciplinae. Primus siquidem in se idcirco
+        directe finis versuum (lege ex superiori: finem versus vel versiculi) recipit, quia et
+        indirectum inchoat, nec nox sinuosos decurrit per anfractus, atque in tertia tonus invenitur
+        syllaba, scilicet in te, ut gaudete. In secundo vero ideo sursum pars ultima sublimatur,
+        quia tonus in prima est syllaba, id est, in ius ut Iustus es Domine. In tertia vero idcirco
+        altius finis erigitur, morasque habere diutius patitur, quoniam perfectus tonus in secunda
         reperitur syllaba, nec in tertia, ut in primo, nec in prima, ut in secundo, sed in secunda,
         hoc est, in ce. ut suscepimus Deus. ideoque non immerito longe finis protrahitur versiculi,
         altiusque profertur. Per hos, sicut supra dictum est, tonos omnis modulatio harmonica
@@ -673,54 +686,56 @@
         offertoria, communiones, responsoriaque nocturni temporis, et antiphonas eiusdem subnotare;
         quod versus offertoriarum per tonos in ipsis intromittantur, cantor nemo (est) qui
         dubitet.</p>
-      <p xml:id="AURMUS0104">Est ergo offertorium hoc huiusce toni: Offertorium Super flumina Babylonis.
-        in quo versus in hoc loco intromittitur: dum recordaremur tui Sion. Haec autem melodia, quae
-        fit in on in ultima syllaba huius offertorii, aequalis est his duobus responsoriis in fine
-        eorumdem responsoriorum: haec sunt Responsorium Posuisti Domini. itemque Responsorium
-        Sacerdotes eius. nihil enim differt alterum ab altero. Porro autem duas hic tonus
-        communionum amplectitur diffinitiones. Prima est Communio Dominus dabit benignitatem. in qua
-        simpliciter finis versiculi intromittitur, sicuti in prima huius toni divisione. Secunda
-        vero haec communio Amen dico vobis, quidquid orantes petitis. huius versiculi finis tertiae
-        aptatur diffinitioni, quia et initium habet eiusdem sonoritas (lege sonoritatis) iuxta
-        inchoationem sonoritatis tertiae differentiae. Responsoriorum divisiones <pb n="[44]"/>praesertim in eorumdem versibus recipit has Responsorium Tria sunt munera. Versus Reges
-        Tharsis. Iste necessitatis causa in altum provehitur in suimet fine, inferior vero iusum
-        profertur, scilicet versiculi tantum ultima pars vel syllaba. Itemque Responsorium Recordare
-        mei. quod quidam responsorium rati sunt offertorii nomine censeri, quidam autem nocturnalem
-        arbitrantur responsorium, atque hunc psalmi habere versiculum: quod plerumque agitur, ut
-        deficiente sensu responsorii in historia, de qua amittitur; ita ut neque superius, neque
-        inferius inibi inveniatur: undecumque talis eligitur, qui ei digne aptetur, quemadmodum hic
-        Versus Exurge Domine, non confortetur homo, iudicentur gentes in conspectu tuo. repetitur
-        hic: in aeternum. Ergo si offertorium fuerit, debet vel unum quemlibet habere versum, sicut
-        habent et caetera offertoria. Taliter autem ab eis exponitur, qui ei iungunt iam dictum
-        versum: Exurge Domine non confortetur homo. Metaphorice dicitur exurgere, qui numquam sedit:
-        non confortetur homo, id est, Aman, qui filius extitit Amadati Macedonis. Iudicentur gentes
-        in conspectu tuo. nulli dubium, quin cognatio eius, ex qua decem viri iam memorati suspensi
-        sunt filii, seu reliquae gentes, quibus Israel traditus erat tunc temporis ad perimendum;
-        licet in psalmo alium habeat sensum, de Antichristo scilicet ac sociis eius, vel etiam de
-        diabolo. Tamen haec ita digesta in hoc opusculo idcirco teneant locum, ut noverit cantor,
-        propriam perfectamque inesse debere responsorio litteraturam; versum autem eiusdem ita
-        debere aptari, quatenus iunctus repetitioni integrum litterae servet sensum.</p>
+      <p xml:id="AURMUS0104">Est ergo offertorium hoc huiusce toni: Offertorium Super flumina
+        Babylonis. in quo versus in hoc loco intromittitur: dum recordaremur tui Sion. Haec autem
+        melodia, quae fit in on in ultima syllaba huius offertorii, aequalis est his duobus
+        responsoriis in fine eorumdem responsoriorum: haec sunt Responsorium Posuisti Domini.
+        itemque Responsorium Sacerdotes eius. nihil enim differt alterum ab altero. Porro autem duas
+        hic tonus communionum amplectitur diffinitiones. Prima est Communio Dominus dabit
+        benignitatem. in qua simpliciter finis versiculi intromittitur, sicuti in prima huius toni
+        divisione. Secunda vero haec communio Amen dico vobis, quidquid orantes petitis. huius
+        versiculi finis tertiae aptatur diffinitioni, quia et initium habet eiusdem sonoritas (lege
+        sonoritatis) iuxta inchoationem sonoritatis tertiae differentiae. Responsoriorum divisiones
+          <pb n="[44]"/>praesertim in eorumdem versibus recipit has Responsorium Tria sunt munera.
+        Versus Reges Tharsis. Iste necessitatis causa in altum provehitur in suimet fine, inferior
+        vero iusum profertur, scilicet versiculi tantum ultima pars vel syllaba. Itemque
+        Responsorium Recordare mei. quod quidam responsorium rati sunt offertorii nomine censeri,
+        quidam autem nocturnalem arbitrantur responsorium, atque hunc psalmi habere versiculum: quod
+        plerumque agitur, ut deficiente sensu responsorii in historia, de qua amittitur; ita ut
+        neque superius, neque inferius inibi inveniatur: undecumque talis eligitur, qui ei digne
+        aptetur, quemadmodum hic Versus Exurge Domine, non confortetur homo, iudicentur gentes in
+        conspectu tuo. repetitur hic: in aeternum. Ergo si offertorium fuerit, debet vel unum
+        quemlibet habere versum, sicut habent et caetera offertoria. Taliter autem ab eis exponitur,
+        qui ei iungunt iam dictum versum: Exurge Domine non confortetur homo. Metaphorice dicitur
+        exurgere, qui numquam sedit: non confortetur homo, id est, Aman, qui filius extitit Amadati
+        Macedonis. Iudicentur gentes in conspectu tuo. nulli dubium, quin cognatio eius, ex qua
+        decem viri iam memorati suspensi sunt filii, seu reliquae gentes, quibus Israel traditus
+        erat tunc temporis ad perimendum; licet in psalmo alium habeat sensum, de Antichristo
+        scilicet ac sociis eius, vel etiam de diabolo. Tamen haec ita digesta in hoc opusculo
+        idcirco teneant locum, ut noverit cantor, propriam perfectamque inesse debere responsorio
+        litteraturam; versum autem eiusdem ita debere aptari, quatenus iunctus repetitioni integrum
+        litterae servet sensum.</p>
       <p xml:id="AURMUS0105">Est in hoc tono quaedam divisio in nocturnalibus responsoriis, quam non
         uspiam memini me in latitudine totius (sic) responsoriorum versibus reperisse, nisi
         solummodo in versibus istorum duorum responsoriorum. Hi autem sunt. Responsorium Domine ne
         in ira tua. Versus Timor et tremor. et item Responsorium Peccantem me quotidie. Versus Deus
         in nomine. Qui cum ordinem possidere queant caeterorum; tamen quia apud antiquos ita mansit,
         apud nos quoque ob eorum memoriam necesse est permanere.</p>
-      <p xml:id="AURMUS0106">Notandum sane, quia in offertoriis et responsoriis atque invitatoriis non
-        aliubi requirendi sunt toni, nisi ubi fines versuum intromittuntur, maximeque servandus est
-        sensus litteraturae quam modulationis. In itroitis (lege introitibus) vero, antiphonis, nec
-        non communionibus semper in capite requirantur.</p>
-      <p xml:id="AURMUS0107">Antiphonarum quatuor sunt hoc in tono differentiae, quarum prima haec est:
-        Antiphona Tradent enim vos. finisque versiculi tremulam emittit vocem. Secunda est, cuius
-        ultima versus syllaba oppido diverse profertur. Adest exemplum antiphona Fulgebunt iusti.
-        Tertia vero differentia est, quando finis versus producitur, aequaturque antiphonae
+      <p xml:id="AURMUS0106">Notandum sane, quia in offertoriis et responsoriis atque invitatoriis
+        non aliubi requirendi sunt toni, nisi ubi fines versuum intromittuntur, maximeque servandus
+        est sensus litteraturae quam modulationis. In itroitis (lege introitibus) vero, antiphonis,
+        nec non communionibus semper in capite requirantur.</p>
+      <p xml:id="AURMUS0107">Antiphonarum quatuor sunt hoc in tono differentiae, quarum prima haec
+        est: Antiphona Tradent enim vos. finisque versiculi tremulam emittit vocem. Secunda est,
+        cuius ultima versus syllaba oppido diverse profertur. Adest exemplum antiphona Fulgebunt
+        iusti. Tertia vero differentia est, quando finis versus producitur, aequaturque antiphonae
         principio. Iuxta hoc antiphona Misso Herodes. Quarta est, cuius versiculi finis ad instar
         puncti in altum erigitur, cursimque profertur. Unde est illud antiphona Mihi vivere Christus
         est.</p>
-      <p xml:id="AURMUS0108">Hactenus de primo tono, ut quivimus, sub brevitate perstringere succincte
-        curavimus. Primum omnium cantorem <pb n="[45]"/>monentes, ne invitatorium per omnes requirat
-        tonos; quia, ni fallor, non poterit invenire. Caeterum ubicumque fuerint, adminiculo fultus
-        divino, ut quivero, certis strictim in locis pandere curabo.</p>
+      <p xml:id="AURMUS0108">Hactenus de primo tono, ut quivimus, sub brevitate perstringere
+        succincte curavimus. Primum omnium cantorem <pb n="[45]"/>monentes, ne invitatorium per
+        omnes requirat tonos; quia, ni fallor, non poterit invenire. Caeterum ubicumque fuerint,
+        adminiculo fultus divino, ut quivero, certis strictim in locis pandere curabo.</p>
       <p xml:id="AURMUS0109">Caput XI.</p>
       <p xml:id="AURMUS0110">De Plagis Proti.</p>
       <p xml:id="AURMUS0111">Plagis protus habet introitum hunc. antiphona Dominus illuminatio mea.
@@ -741,15 +756,16 @@
         universa sancta civitate Hierusalem. in responsorio quidem ablativus est casus, in
         repetitione autem est accusativus, ita: Versus Ecce quam bonum et quam iucundum, habitare
         fratres in unum. (repetitio) Et universam sanctam civitatem Hierusalem.</p>
-      <p xml:id="AURMUS0112">Itidem operae pretium videtur, coniunctiones, vel caeteras quaslibet partes
-        intermittere in repetitione responsoriorum, ut queat adscisci cum versiculi sensu; sicuti in
-        hoc responsorio: Veni Domine et noli tardare. in versu ipsius: A solis ortu et occasu, ab
-        aquilone et mari. dempta coniunctione et repetitur hic: revoca dispersos in terram suam. Hoc
-        multis in locis reperies, taliterque hoc fieri debet, ut vim propriam in responsorio suam
-        obtineat sensus, similiter et versus eiusdem nexus repetitioni plenam habeat perfectamque
-        coaptationem. Antiphona O Sapientia: quamquam a palatinis ob excelsiorem vocis modulationem
-        de primo intonatur tono. Antiphona Iuste et pie vivamus. versus huiusce antiphonae in sui
-        fine simpliciter intrat. Neque, ut arbitror, ullam habet exceptis his divisionem.</p>
+      <p xml:id="AURMUS0112">Itidem operae pretium videtur, coniunctiones, vel caeteras quaslibet
+        partes intermittere in repetitione responsoriorum, ut queat adscisci cum versiculi sensu;
+        sicuti in hoc responsorio: Veni Domine et noli tardare. in versu ipsius: A solis ortu et
+        occasu, ab aquilone et mari. dempta coniunctione et repetitur hic: revoca dispersos in
+        terram suam. Hoc multis in locis reperies, taliterque hoc fieri debet, ut vim propriam in
+        responsorio suam obtineat sensus, similiter et versus eiusdem nexus repetitioni plenam
+        habeat perfectamque coaptationem. Antiphona O Sapientia: quamquam a palatinis ob excelsiorem
+        vocis modulationem de primo intonatur tono. Antiphona Iuste et pie vivamus. versus huiusce
+        antiphonae in sui fine simpliciter intrat. Neque, ut arbitror, ullam habet exceptis his
+        divisionem.</p>
       <p xml:id="AURMUS0113">Caput XII.</p>
       <p xml:id="AURMUS0114">De Authento Deutero.</p>
       <p xml:id="AURMUS0115">Authentus deuterus in introitis bifariam habet divisionem. Quarum prima
@@ -839,16 +855,16 @@
         ante primam distinctionem totam, quae finit in Domino, memini me non alicubi reperisse in
         prolixitate totius antiphonarii, nisi hic et in versu paschalis festivitatis responsorii:
         Responsorium Haec dies. in eiusdem versu: Confitemini Domino.</p>
-      <p xml:id="AURMUS0123">Est altera divisio in fine versuum nocturnalium responsoriorum, quae ita
-        finem versus peragit, ut modulatio est responsorii ante ipsius repetitionem, veluti hic.
+      <p xml:id="AURMUS0123">Est altera divisio in fine versuum nocturnalium responsoriorum, quae
+        ita finem versus peragit, ut modulatio est responsorii ante ipsius repetitionem, veluti hic.
         Responsorium Isti sunt triumphatores. Versus Isti sunt, qui venerunt ex magna tribulatione,
         et laverunt stolas suas in sanguine agni. Etenim ipsa modulatio, quae est in aeterna, in
         ultima ipsius partis syllaba na, ante repetitionem responsorii Modo, ipsa in fine versus
         canitur Agni in secunda syllaba ni. Huic simile Responsorium Vidi coniunctos viros. Versus
         Vidi Angelum Dei.</p>
-      <p xml:id="AURMUS0124">Inter haec sciendum est, quia quadriformes, ut sunt huic tono antiphonae,
-        quarum prima haec est. antiphona Maria et flumina. antiphona Mane surgens Iacob. Cuius
-        antiphonae versiculi finis iusum perparum deprimitur, ut aequari principio possit
+      <p xml:id="AURMUS0124">Inter haec sciendum est, quia quadriformes, ut sunt huic tono
+        antiphonae, quarum prima haec est. antiphona Maria et flumina. antiphona Mane surgens Iacob.
+        Cuius antiphonae versiculi finis iusum perparum deprimitur, ut aequari principio possit
         antiphonae. Secunda vero haec Antiphona Nox praecessit. Item antiphona Iusti autem. finis
         autem huius versiculi in altum sustollitur. Est autem praeter hanc quaepiam divisio, quam
         nonnulli similem esse asseverant: quidam vero ultimam versus syllabam vinolam oppido
@@ -862,10 +878,10 @@
         simul totus gravi canitur voce.</p>
       <p xml:id="AURMUS0125">Caput XIV.</p>
       <p xml:id="AURMUS0126">De Authentu Trito.</p>
-      <p xml:id="AURMUS0127">Authentus tritus huiusmodi habet introitum. Introitus in Dominica nona post
-        Pentecosten <pb n="[49]"/>Ecce Deus adiuvat me. Cuius versiculi finis in meditullio tenoris
-        ultimam sustinet syllabam. Neque enim sursum sublimatur, neque deorsum deprimitur, sed
-        initio contentus est introiti (lege introitus). Sunt namque quidam, qui hunc dicunt duas
+      <p xml:id="AURMUS0127">Authentus tritus huiusmodi habet introitum. Introitus in Dominica nona
+        post Pentecosten <pb n="[49]"/>Ecce Deus adiuvat me. Cuius versiculi finis in meditullio
+        tenoris ultimam sustinet syllabam. Neque enim sursum sublimatur, neque deorsum deprimitur,
+        sed initio contentus est introiti (lege introitus). Sunt namque quidam, qui hunc dicunt duas
         habere diffinitiones, quarum prior haec sit, introitus in Dominica Septuagesima
         Circumdederunt me gemitus mortis. Quidam vero abnegant non amplius habere quam unam, quae
         est circumdederunt me. dicentes, quoniam hoc, quod in fine versiculi additur, non
@@ -886,23 +902,23 @@
         profertur.</p>
       <p xml:id="AURMUS0128">Caput XV.</p>
       <p xml:id="AURMUS0129">De Plagis Triti.</p>
-      <p xml:id="AURMUS0130">Plagis tritus, ut reor, nullam in introitis habet differentiam. Est autem
-        ipsius toni introitus in Dominica septima post Pentecosten Antiphona Omnes gentes plaudite
-        manibus. finis ipsius versiculi, gravem promit vocem. Toni istius offertorii, hoc est,
-        offertorium Stetit Angelus. repetitur hic, et ascendit. Communio Exultavit ut Gigas. (Ita
-        docet Priscianus nominativum fieri.) finis huiusce versiculi contemptus, (sic) est finis
-        superioris introitus. Responsorium Aspiciebam in visu noctis. Versus Ecce dominator Dominus
-        cum virtute venit. non veniet futuri temporis, sed venit praesentis; quia sic ipsius sese
-        repetitio habet responsorii: et datum est ei regnum. Etenim tempora debent temporibus iungi,
-        scilicet praesens cum praesenti, et futurum cum futuro: quod omnino in litteratura nisi
-        observetur, sensus humanus quasi quibusdam fragoribus concussus intercipitur. Ac per hoc,
-        quia in usu non est, ut ita cantetur, videlicet: cum virtute venit praeteriti temporis, ideo
-        iungunt ei quidam de eodem propheta versum: potestas eius potestas aeterna. Nempe secunda
-        est diffinitio huius toni in nocturnalibus responsoriis, quae tantum minoribus iungitur, et
-        eis, in quibus litterarum deficit plenitudo. <pb n="[50]"/>Responsorium Reges Tharsis et
-        insulae munera offerent. Versus Reges Arabum et Saba dona adducent. Est etiam tertia, quae
-        in eius tantum modo invenitur responsorii versu, Versus A facie inimici. Quarta est
-        varietas, quae inferius annotabitur.</p>
+      <p xml:id="AURMUS0130">Plagis tritus, ut reor, nullam in introitis habet differentiam. Est
+        autem ipsius toni introitus in Dominica septima post Pentecosten Antiphona Omnes gentes
+        plaudite manibus. finis ipsius versiculi, gravem promit vocem. Toni istius offertorii, hoc
+        est, offertorium Stetit Angelus. repetitur hic, et ascendit. Communio Exultavit ut Gigas.
+        (Ita docet Priscianus nominativum fieri.) finis huiusce versiculi contemptus, (sic) est
+        finis superioris introitus. Responsorium Aspiciebam in visu noctis. Versus Ecce dominator
+        Dominus cum virtute venit. non veniet futuri temporis, sed venit praesentis; quia sic ipsius
+        sese repetitio habet responsorii: et datum est ei regnum. Etenim tempora debent temporibus
+        iungi, scilicet praesens cum praesenti, et futurum cum futuro: quod omnino in litteratura
+        nisi observetur, sensus humanus quasi quibusdam fragoribus concussus intercipitur. Ac per
+        hoc, quia in usu non est, ut ita cantetur, videlicet: cum virtute venit praeteriti temporis,
+        ideo iungunt ei quidam de eodem propheta versum: potestas eius potestas aeterna. Nempe
+        secunda est diffinitio huius toni in nocturnalibus responsoriis, quae tantum minoribus
+        iungitur, et eis, in quibus litterarum deficit plenitudo. <pb n="[50]"/>Responsorium Reges
+        Tharsis et insulae munera offerent. Versus Reges Arabum et Saba dona adducent. Est etiam
+        tertia, quae in eius tantum modo invenitur responsorii versu, Versus A facie inimici. Quarta
+        est varietas, quae inferius annotabitur.</p>
       <p xml:id="AURMUS0131">Interea mos considerandus est veteranorum cantorum, praesertim Gallias
         degentium, qui non omnem toni sequentes authoritatem, versus responsoriorum aliter ac
         aliter, quam sonoritas tonorum sese habeat, praepediente multitudine syllabarum, in diversam
@@ -916,28 +932,29 @@
         die ante altare residens sanctae Mariae, quae domus Rotunda dicitur, divino favente nutu hoc
         composuit responsorium, ac statim lumine, quo privatus erat multo iam tempore, illuminari
         meruit atque iubare potiri genuino.</p>
-      <p xml:id="AURMUS0132">Antiphona O quam gloriosum est regnum. istius versiculi finis fine aequatur
-        priori introitui. Excipiuntur de hoc tono in fine antiphonarum quaedam antiphonae, ut
-        antiphona Puer Iesus. itemque antiphona Vobis datum est nosse mysterium. Nam quamdiu psalmus
-        canitur, ipsarum finis antiphonarum, de quo fuerint tono, de eodem propter diaphoniam dignum
-        est finiri. Ad ultimum vero in repetitione psalmi, unde eorum est initium, inde finiantur,
-        scilicet de plagis triti: quia ob numerum litterarum inaequaliter sonantes sunt. A plagis
-        enim triti sumunt orginem, ab authentu sed proto finem recipiunt. Inde est haec normula:
-        quod antiphona, quae initium habuerit de quolibet et finem de altero, si recte finiri
-        potuerit, de quo eius est initium, finiatur; ut hae duae superiores: si vero non quiverit
-        finiri de eodem tono, a quo inchoationem ducit, finis eiusdem perficiatur antiphonae. Adest
-        isthiccine exemplum. Antiphona Quare detraxistis.</p>
+      <p xml:id="AURMUS0132">Antiphona O quam gloriosum est regnum. istius versiculi finis fine
+        aequatur priori introitui. Excipiuntur de hoc tono in fine antiphonarum quaedam antiphonae,
+        ut antiphona Puer Iesus. itemque antiphona Vobis datum est nosse mysterium. Nam quamdiu
+        psalmus canitur, ipsarum finis antiphonarum, de quo fuerint tono, de eodem propter
+        diaphoniam dignum est finiri. Ad ultimum vero in repetitione psalmi, unde eorum est initium,
+        inde finiantur, scilicet de plagis triti: quia ob numerum litterarum inaequaliter sonantes
+        sunt. A plagis enim triti sumunt orginem, ab authentu sed proto finem recipiunt. Inde est
+        haec normula: quod antiphona, quae initium habuerit de quolibet et finem de altero, si recte
+        finiri potuerit, de quo eius est initium, finiatur; ut hae duae superiores: si vero non
+        quiverit finiri de eodem tono, a quo inchoationem ducit, finis eiusdem perficiatur
+        antiphonae. Adest isthiccine exemplum. Antiphona Quare detraxistis.</p>
       <p xml:id="AURMUS0133">Caput XVI.</p>
       <p xml:id="AURMUS0134">De Authentu Tetrardi.</p>
-      <p xml:id="AURMUS0135">Formulae authenti tetrardi in introitibus sunt duae. Primae haec Antiphona
-        In die nativitatis Domini in Missa Tertia. Puer natus est nobis. finis eiusdem versiculi in
-        ultima syllaba alte erigitur. Secunda est, quae finem suimet versiculi declivem reddit, ut
-        hic, Antiphona in feria sexta post Cineres Audivit Dominus. Offertorium In virtute tua.
-        repetitur hic: desiderium. Communio Dicite pusillanimes. aequatur istius finis versiculi
-        fine superioris introitus iusum depressi.</p>
+      <p xml:id="AURMUS0135">Formulae authenti tetrardi in introitibus sunt duae. Primae haec
+        Antiphona In die nativitatis Domini in Missa Tertia. Puer natus est nobis. finis eiusdem
+        versiculi in ultima syllaba alte erigitur. Secunda est, quae finem suimet versiculi declivem
+        reddit, ut hic, Antiphona in feria sexta post Cineres Audivit Dominus. Offertorium In
+        virtute tua. repetitur hic: desiderium. Communio Dicite pusillanimes. aequatur istius finis
+        versiculi fine superioris introitus iusum depressi.</p>
       <p xml:id="AURMUS0136">Invitatoriarum duas amplectitur divisiones, quarum prima haec est.
         Antiphona Non sit vobis vanum. huiusce finis versiculi suspensa canitur voce. Secunda haec
-        est, quae iusum extremitatem versiculi deponit, ut hic, antiphona Deus magnus Dominus. <pb n="[51]"/>Interea in versibus responsoriorum nocturnalium hic tonus trimodam recipit
+        est, quae iusum extremitatem versiculi deponit, ut hic, antiphona Deus magnus Dominus. <pb
+          n="[51]"/>Interea in versibus responsoriorum nocturnalium hic tonus trimodam recipit
         varietatem. Prima est, quae naturalis existit, ut hic, Responsorium Aspiciens a longe.
         Versus Quique terrigenae. hoc quidam apocryphum iudicant responsorium; quidam vero ex
         sermonibus viri sancti, cuius nomen in scripturis sacris reperi, scilicet Baruch notarii
@@ -951,8 +968,8 @@
         hoc est Responsorium Veni hodie ad fontem. Versus Igitur puella. Denique quarta est, quae
         multum ab his distat, sicut in hoc versu responsorii vales dinoscere. Responsorium Dixit
         autem David ad Gad. Versus Cumque extendisset Angelus manum.</p>
-      <p xml:id="AURMUS0137">Sane notandum, quia hic tonus multimodas in fine versuum antiphonarum habet
-        alternationum varietates. Qua de re decem parvitatula nostra ostensura est. Prima est,
+      <p xml:id="AURMUS0137">Sane notandum, quia hic tonus multimodas in fine versuum antiphonarum
+        habet alternationum varietates. Qua de re decem parvitatula nostra ostensura est. Prima est,
         quando vox in altum extollitur, ut hoc Responsorium Surge aquilo. Secunda est, quae non
         tantum erigitur, sed si dici potest, volubilem in ultima syllaba retinet accentum, iuxta
         hoc: si vere fratres. Tertia est, cuius versiculi finis fertur in altum, sed subtrahitur
@@ -993,9 +1010,9 @@
         sui aequiparatrices fecerit soni, tunc versiculum eiusdem in medio non debere erigi.</p>
       <p xml:id="AURMUS0139">Caput XVII.</p>
       <p xml:id="AURMUS0140">De Plagis Tetrardi.</p>
-      <p xml:id="AURMUS0141">Plagis tetrardus habet introitum hunc, Antiphona Ad te levavi. Versus eius
-        in ultima syllaba mediocriter sustollitur, quo eius initio possit aequari. Offertorium Si
-        ambulavero. repetitio: et super iram. Communio Vox in Rama. huius finis versus suimet
+      <p xml:id="AURMUS0141">Plagis tetrardus habet introitum hunc, Antiphona Ad te levavi. Versus
+        eius in ultima syllaba mediocriter sustollitur, quo eius initio possit aequari. Offertorium
+        Si ambulavero. repetitio: et super iram. Communio Vox in Rama. huius finis versus suimet
         prioris introitui aequatur alternatione Responsorium Iste homo. huius versus propter
         uberiorem sonoritatis euphoniam ita mutatur a quibusdam. Versus Ecce homo sine querela.
         usque ad finem. repetitio: dedit illi Dominus. Proinde quatuor in horum versibus
@@ -1006,8 +1023,8 @@
         Versus Cumque vidissent Ioseph. Quinta est, quae iuxta quosdam in his tantum duobus
         consistit responsoriorum versibus ob protelationem syllabarum. Responsorium Dixit Ruben.
         Versus Merito haec patimur. Responsorium Merito haec patimur. Versus Dixit Ruben.</p>
-      <p xml:id="AURMUS0142">Nempe antiphonarum divisiones in hoc sunt quinque; quarum prima haec est,
-        antiphona Repleti sunt omnes Spiritu sancto. ultima in huius versus syllaba suspensa
+      <p xml:id="AURMUS0142">Nempe antiphonarum divisiones in hoc sunt quinque; quarum prima haec
+        est, antiphona Repleti sunt omnes Spiritu sancto. ultima in huius versus syllaba suspensa
         canitur, veluti antiphonae principium. Secunda est divisio; quae moras longiuscule
         protrahit, quemadmodum hic. Antiphona Dum medium silentium. Tertia est, quae ultimam suae
         partis syllabam ab imis incipiens ad superiora provehit, ut <pb n="[53]"/>est illud,
@@ -1042,10 +1059,10 @@
       <p xml:id="AURMUS0146">De authentu proto. Sane authentus protus septemdecim in sese continet
         varietates, videlicet introituum tres, offertoriarum unam, communionum duas, responsoriorum
         sex, antiphonarum quinque, quae simul iunctae septemdecim faciunt.</p>
-      <p xml:id="AURMUS0147">De plagis proti. Porro autem plagis protus senario sufficiens est numero;
-        habet quippe in introitibus definitionem unam, in offertoriis unam, in Communionibus unam,
-        in responsoriis duas, in <pb n="[54]"/>antiphonis unam. Eidem (lege Eaedem) simul nexae sex
-        reddere videntur.</p>
+      <p xml:id="AURMUS0147">De plagis proti. Porro autem plagis protus senario sufficiens est
+        numero; habet quippe in introitibus definitionem unam, in offertoriis unam, in Communionibus
+        unam, in responsoriis duas, in <pb n="[54]"/>antiphonis unam. Eidem (lege Eaedem) simul
+        nexae sex reddere videntur.</p>
       <p xml:id="AURMUS0148">De authentu deuteri. Authentus deuterus duodecim in se continet
         definitiones, nam introituum recipit duas, offertoriorum unam, communionum unam,
         invitatoriorum duas, responsoriorum duas, antiphonarum quatuor. Hae simul iunctae duodecim
@@ -1054,10 +1071,10 @@
         varietatum alternationes; etenim in introitibus habet duas, in offertoriis unam, in
         communionibus unam, in invitatoriis quatuor, in responsoriis quinque, in antiphonis quinque.
         Qui numerus simul iunctus octodecim faciunt.</p>
-      <p xml:id="AURMUS0150">De authentu trito. Authentus tritus novenarium arridet numerum. Sed enim in
-        introitibus ipsius duae continentur varietates, in offertoriis una, in communionibus una, in
-        invitatoriis duae, in responsoriis duae, in antiphonis una. Hae simul iunctae novenarium
-        implent numerum.</p>
+      <p xml:id="AURMUS0150">De authentu trito. Authentus tritus novenarium arridet numerum. Sed
+        enim in introitibus ipsius duae continentur varietates, in offertoriis una, in communionibus
+        una, in invitatoriis duae, in responsoriis duae, in antiphonis una. Hae simul iunctae
+        novenarium implent numerum.</p>
       <p xml:id="AURMUS0151">De plagis triti. Prorsus plagis triti octonarium in suis divisionibus
         congratulatur recipere numerum, videlicet in introitibus unam, offertoriis unam,
         communionibus unam, responsoriis quatuor, antiphonis unam. Hic simul adscitus numerus octo
@@ -1086,20 +1103,20 @@
         <pb n="[55]"/>Caput XIX.</p>
       <p xml:id="AURMUS0156">Normae, qualiter Versuum spissitudo, raritas, celsitudo, profunditasque
         discernatur omnium tonorum.</p>
-      <p xml:id="AURMUS0157">Libet interea mentis oculum unacum acie styli ad modulationes inflectere
-        versuum, et quae propria unicuique sit sonoritas toni in eius litteratura, verbis pauculis
-        indagare: uti prudens dinoscere queat cantor varietates versuum in harmonica vertenes
-        (fortasse harmonico vertentes) tenore; quoniam quidem sunt nonnulli toni, qui prope uno
-        eodemque modo ordinem versuum in suamet retinent inflectione, et nisi aut in medio aut in
-        fine provida inspectione aut perspicaciore antea circumvallentur oculo, unius toni tenor in
-        alterius permutabitur. Quod studiosus cantor in his duobus tonis, videlicet plagis proti et
-        plagis tetrardi ocyus valet agnoscere. Porro autem etsi opinio me non fefellit, licet
+      <p xml:id="AURMUS0157">Libet interea mentis oculum unacum acie styli ad modulationes
+        inflectere versuum, et quae propria unicuique sit sonoritas toni in eius litteratura, verbis
+        pauculis indagare: uti prudens dinoscere queat cantor varietates versuum in harmonica
+        vertenes (fortasse harmonico vertentes) tenore; quoniam quidem sunt nonnulli toni, qui prope
+        uno eodemque modo ordinem versuum in suamet retinent inflectione, et nisi aut in medio aut
+        in fine provida inspectione aut perspicaciore antea circumvallentur oculo, unius toni tenor
+        in alterius permutabitur. Quod studiosus cantor in his duobus tonis, videlicet plagis proti
+        et plagis tetrardi ocyus valet agnoscere. Porro autem etsi opinio me non fefellit, licet
         quispiam cantoris censeatur vocabulo, minime tamen perfectus esse poterit, nisi modulationem
         omnium versuum per omnes tonos, discretionemque tam tonorum, quam versuum antiphonarum seu
         introituum, nec ne (lege nec non) responsoriorum in theca cordis memoriter insitam
         habuerit.</p>
-      <p xml:id="AURMUS0158">De authentu proto. His igitur, ut sese veritas rei habet, ita haec (lege
-        ex) sententia animi prolatis, authenti proti videre melodiam, quam in sua retinet
+      <p xml:id="AURMUS0158">De authentu proto. His igitur, ut sese veritas rei habet, ita haec
+        (lege ex) sententia animi prolatis, authenti proti videre melodiam, quam in sua retinet
         litteratura, cum subnixa cognatione caeterorum decrevi tonorum. Sed enim habet authentus
         protus quamdam contiguationem in litteraturae modulatione cum authento deutero et authento
         tetrardo. Nam finita vocabula ipsorum tonorum cum fine ultimarum litterarum post primam
@@ -1141,8 +1158,8 @@
         media; et hoc plerisque in locis ob imperitiam agitur. Non autem abnegamus, hanc, ubi
         correptio verbi minime adfuerit, expressius inumerandam (lege dinumerandam) esse
         sonoritatem.</p>
-      <p xml:id="AURMUS0161">Porro antiphonarum versus si duodenarium in sese continuerit numerum, ut
-        hic: Magnificat anima mea Dominum: tunc prior, id est Ma. plenum reddit sonum; secunda,
+      <p xml:id="AURMUS0161">Porro antiphonarum versus si duodenarium in sese continuerit numerum,
+        ut hic: Magnificat anima mea Dominum: tunc prior, id est Ma. plenum reddit sonum; secunda,
         videlicet gni, alte scandetur: tertia vero et quarta, id est fi et cat, mediocriter
         tenebuntur. Quinta, hoc est a. acuetur: sexta et septima, id est ni et ma, mediocriter
         proferentur; me autem et a circumflexe volventur, quamquam dispariliter: decima, id est Do,
@@ -1179,10 +1196,10 @@
         toni iunguntur sonoritati versuum authenti proti usque prope finem, excepto, quod is
         hypodoricam, plusquam prior, congratulatur vocem, ita: Quia respexit humilitatem ancillae
         suae, ecce enim ex hoc beatam me dicent omnes generationes.</p>
-      <p xml:id="AURMUS0164">De plagis Deuteri. Adest litteratura plagis deuteri cum sonoritatis figura
-        Noeane. En versus introitui: Beata immaculati in via, qui ambulant in lege Domini. Est
-        quaedam plane in huius toni responsoriis norma, quae a plerisque ignoratur cantoribus, atque
-        ideo intercipitur alterius sonoritas toni ab altero; ut in hoc, et authentu proto ad
+      <p xml:id="AURMUS0164">De plagis Deuteri. Adest litteratura plagis deuteri cum sonoritatis
+        figura Noeane. En versus introitui: Beata immaculati in via, qui ambulant in lege Domini.
+        Est quaedam plane in huius toni responsoriis norma, quae a plerisque ignoratur cantoribus,
+        atque ideo intercipitur alterius sonoritas toni ab altero; ut in hoc, et authentu proto ad
         liquidum edocemur. Habet nempe hic tonus canorem huius responsorii, Responsorium In
         ecclesiis benedicite Deum. Etenim in fine huius responsorii in tertia syllaba ante finem
         versus, eadem, videlicet syllaba le terna circumvolvitur iteratione, hoc modo cum notarum
@@ -1204,14 +1221,14 @@
         solis ortu et occasu, ab aquilone et mari. Ecce antiphonarum: Et misericordia eius a
         progenie in progenies timentibus eum. Qui ordo versuum tam introituum, quamque
         responsoriorum, atque antiphonarum a caeteris segregatur tonis.</p>
-      <p xml:id="AURMUS0167">De plagis triti. Series plagis triti iuxta notarum inflexiones haec est:
-        Noeane. In versibus introituum haec subter insertam continet notarum figuram: Noli aemulari
-        in malignantibus, neque Zelaveris facientes iniquitatem. Responsorium versus toni sequentes
-        auctoritatem, ita in hoc subternotantur tono: Versus Et dixit mihi, nequaquam vocaberis
-        Iacob, sed Israel erit nomen tuum. Denique tandem aliquando his in antiphonarum versibus
-        consentaneus est authentis proti melodiae. Sed tamen hypodoricam is plus illo retinet vocem;
-        et una discernuntur in fine notarum eiusdem figura: Fecit potentiam in brachio suo,
-        dispersit superbos mente cordis sui.</p>
+      <p xml:id="AURMUS0167">De plagis triti. Series plagis triti iuxta notarum inflexiones haec
+        est: Noeane. In versibus introituum haec subter insertam continet notarum figuram: Noli
+        aemulari in malignantibus, neque Zelaveris facientes iniquitatem. Responsorium versus toni
+        sequentes auctoritatem, ita in hoc subternotantur tono: Versus Et dixit mihi, nequaquam
+        vocaberis Iacob, sed Israel erit nomen tuum. Denique tandem aliquando his in antiphonarum
+        versibus consentaneus est authentis proti melodiae. Sed tamen hypodoricam is plus illo
+        retinet vocem; et una discernuntur in fine notarum eiusdem figura: Fecit potentiam in
+        brachio suo, dispersit superbos mente cordis sui.</p>
       <p xml:id="AURMUS0168">De authentu tetrardo. Authenti tetrardi melodia cum ipsius litteratura
         Noioeane. Nempe in versibus introituum prima syllaba, id est Glo. arsim patietur, exin
         secunda, hoc est ri. diesin: in tertia vero, scilicet a, acutus scandetur accentus: quartae
@@ -1262,12 +1279,12 @@
         persolvere solebant laudes; vel ab Ignatio beatissimo Martyre traditum suscepit, qui voces
         angelicas Domino <pb n="[60]"/>decantantes in coelestibus audivit, eumdemque modum suae
         ecclesiae condidit, atque inde in alias ecclesias eadem laudabilis consuetudo inolevit.</p>
-      <p xml:id="AURMUS0173">Sane nocturnum officium in antiphonis responsoriisque consistit. Antiphona
-        dicitur vox reciproca, eo quod a choris alternatim cantetur: quia scilicet chorus, qui eam
-        cepit, ab altero choro iterum eam cantandam suscipiat, imitans in hoc Seraphim, de quibus
-        scriptum est: Et clamabant alter ad alterum: Sanctus, sanctus, sanctus Dominus Deus Saboath.
-        Reperta autem sunt primum a Graecis, a quibus et nomina sumpserunt. Apud Latinos autem
-        auctor earum beatissimus exstitit Ambrosius Mediolanensis Antistes, a quo hunc morem
+      <p xml:id="AURMUS0173">Sane nocturnum officium in antiphonis responsoriisque consistit.
+        Antiphona dicitur vox reciproca, eo quod a choris alternatim cantetur: quia scilicet chorus,
+        qui eam cepit, ab altero choro iterum eam cantandam suscipiat, imitans in hoc Seraphim, de
+        quibus scriptum est: Et clamabant alter ad alterum: Sanctus, sanctus, sanctus Dominus Deus
+        Saboath. Reperta autem sunt primum a Graecis, a quibus et nomina sumpserunt. Apud Latinos
+        autem auctor earum beatissimus exstitit Ambrosius Mediolanensis Antistes, a quo hunc morem
         suscepit omnis Occidentalis Ecclesia. Responsoria autem ab Italis primum reperta sunt: dicta
         autem responsoria, eoquod uno cantante (moris enim fuit apud priscos a singulis responsoria
         cani) reliqui omnes cantanti respondere. (lege responderent.) Missarum vero officium constat
@@ -1277,11 +1294,11 @@
         ecclesiam, et congruam suscipiant stationem. Et sic tandem litania finita, qua Deus
         Christusque vocatur, ut populo suo misereatur, imitans sacerdos angelum, qui gloriam Deo in
         coelis, pacemque in terra hominibus annuntiavit, idem canticum voce intonat salutari.</p>
-      <p xml:id="AURMUS0174">Cantatur autem et responsorium, quod gradale dicitur a gradibus ei nomine
-        imposito: eo quod consuetudinis fuerit antiquis, ut vel cantantes vel loquentes in gradibus
-        consisterent. Unde et de Esra dicitur: Stetit Esras super gradum ligneum, quem fecerat ad
-        loquendum. Et psalmi graduum quindecim dicuntur ob hoc, quantum ad litteram attinet, quod in
-        gradibus cantarentur.</p>
+      <p xml:id="AURMUS0174">Cantatur autem et responsorium, quod gradale dicitur a gradibus ei
+        nomine imposito: eo quod consuetudinis fuerit antiquis, ut vel cantantes vel loquentes in
+        gradibus consisterent. Unde et de Esra dicitur: Stetit Esras super gradum ligneum, quem
+        fecerat ad loquendum. Et psalmi graduum quindecim dicuntur ob hoc, quantum ad litteram
+        attinet, quod in gradibus cantarentur.</p>
       <p xml:id="AURMUS0175">Alleluia autem ab Ebraeis sumpsimus, quorum et lingua est; dicitur enim
         laudate Deum. quod pro dignitate sui in nulla lingua transmutatum est: quod et congrue ante
         Evangelium canitur, ut per hoc canticum mentes fidelium quodammodo ad audiendum salutis
@@ -1298,8 +1315,8 @@
         Canitur etiam illi adiunctum aliud carmen, quod Commune (lege communio) vocatur, ut quamdiu
         populus fidelis suscipit coelestem benedictionem, dulcissima modulatione mens eius trahatur
         et suspendatur in sublimissimam contemplationem.</p>
-      <p xml:id="AURMUS0178">Hac autem (lege arte) subnixum, hisque regulis atque ordine compositum hunc
-        libellum cantoribus praebemus relegendum, et cum auctoritate superius posita discendum,
+      <p xml:id="AURMUS0178">Hac autem (lege arte) subnixum, hisque regulis atque ordine compositum
+        hunc libellum cantoribus praebemus relegendum, et cum auctoritate superius posita discendum,
         denuntiantes, nemini posse adesse perfectam cantandi modulationem, qui non studuerit
         superius scriptam eiusdem artis habere notitiam.</p>
       <p xml:id="AURMUS0179">Explicit liber de disciplina musicae artis editus pro captu meo, quem
@@ -1327,7 +1344,8 @@
         Romam veniens retulit, atque Romanae Ecclesiae clericis, sicut audierat, memoriae
         contradidit, mutantesque versum, scilicet Versus In omnem terram exivit sonus eorum et
         cetera non solum ab ipsis, sed et etiam ab omni cantatur ecclesia. In civitate, quae
-        Antisiodorensis vocatur, ferunt fuisse valde religiosum presbyterum, qui inter caetera <pb n="[62]"/>religionis augmenta hoc sibi adsciverat, ut basilicae signo pulsante illico
+        Antisiodorensis vocatur, ferunt fuisse valde religiosum presbyterum, qui inter caetera <pb
+          n="[62]"/>religionis augmenta hoc sibi adsciverat, ut basilicae signo pulsante illico
         assurgeret, extemploque in ecclesiam properaret. Dum in his et huiusmodi floreret actibus,
         quadam nocte, cum a propria egrederetur domo, quae parieti haerebat basilicae in honorem
         sancti Albini martyris, angelorum audivit chorum consona canere voce Alleluia cum psalmo
@@ -1341,11 +1359,11 @@
         Et merito, ut his (lege is) cui revelata sunt coelestia, et aliis tradidit, quamquam amore
         boni ductus Zeli, tamen (ad) Deo referendas laudes aliis maneret, et isti a memoria
         recederet.</p>
-      <p xml:id="AURMUS0181">Cuius rei concordat illud, quod B. Gregorius in libris Dialogorum de quodam
-        puero refert, qui coelestia cum agnovisset verba, et proprietates multarum sciret linguarum,
-        in semet reversus cepit pandere, qui illo de loco, et quanti et quando migraturi essent.
-        Quamobrem ille proprios dilanians lacertus, ultimum vitalemque emisit spiritum. Quod et
-        Apostolus Paulus metuens de seipso dicit: Audivit secreta verba, quae non licet homini
+      <p xml:id="AURMUS0181">Cuius rei concordat illud, quod B. Gregorius in libris Dialogorum de
+        quodam puero refert, qui coelestia cum agnovisset verba, et proprietates multarum sciret
+        linguarum, in semet reversus cepit pandere, qui illo de loco, et quanti et quando migraturi
+        essent. Quamobrem ille proprios dilanians lacertus, ultimum vitalemque emisit spiritum. Quod
+        et Apostolus Paulus metuens de seipso dicit: Audivit secreta verba, quae non licet homini
         loqui. Et Iohanni praecipitur, ne scribat de voce septem tonitruorum.</p>
       <p xml:id="AURMUS0182">Explicit.</p>
       <p xml:id="AURMUS0183">Editum pro captu meo libellum hunc tibi, dilectissime ac nimium

@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Tractatus de musica</title>
         <title type="abbrev">ANO2TRDM</title>
-        <author>Anonymous II</author>
-        <date notBefore="1100" notAfter="1199">12th</date>
+        <author><persName>Anonymous II</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>John Gray</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Oliver B. Ellsworth</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Patrologia cursus completus, series latina</emph>, ed. J. P. Migne, 221 vols.
@@ -129,10 +139,10 @@
         constat tribus tonis et semitonio minore. Diapason rursus constat ex diatessaron et
         diapente, id est, ex quinque tonis et duobus semitoniis minoribus, qui non impleant
         tonum.</p>
-      <p xml:id="ANO2TRDM0003">Hae igitur tres principales consonantiae diatessaron videlicet, diapente
-        ac diapason in decem et octo chordis per tetrachorda et pentachorda et octochorda apte
-        distinguuntur. Nam omne quod est tetrachordum resonat consonantiam diatessaron; sunt enim
-        quinque principalia tetrachorda, hypaton videlicet, meson, synemmenon, diezeugmenon,
+      <p xml:id="ANO2TRDM0003">Hae igitur tres principales consonantiae diatessaron videlicet,
+        diapente ac diapason in decem et octo chordis per tetrachorda et pentachorda et octochorda
+        apte distinguuntur. Nam omne quod est tetrachordum resonat consonantiam diatessaron; sunt
+        enim quinque principalia tetrachorda, hypaton videlicet, meson, synemmenon, diezeugmenon,
         hyperboleon: quae in diatonico genere melorum resonant consonantiam diatessaron. Tria
         siquidem sunt genera melorum, diatonon scilicet, chroma et enarmonium; sed diatonon durius
         et naturalius est caeteris: unde quasi repudiatis aliis hoc usitatius habetur. Dicitur autem
@@ -147,23 +157,24 @@
         enim, ut dictum est, ex quinque tonis et duobus semitoniis minoribus, continens videlicet in
         se diatessaron et diapente. Habet autem et ipsa species septem, quae quoniam in raro usu
         habentur, brevitatis causa a nobis praetermittentur.</p>
-      <p xml:id="ANO2TRDM0004">Nomina autem chordarum, in quibus hae consonantiae distinguuntur, haec
-        sunt. Prima et gravissima omnium est proslambanomenos, duplici ratione immobilis, vel quia
-        scilicet fundamentum est reliquarum vocum, vel quia in tribus generibus melorum, diatonico
-        videlicet, chromatico et enarmonio, sono et nomine permanet uniformis. Ad quam obtinet toni
-        proportionem sequens hypate hypaton, et ipsa similiter duplici ex causa immobilis: vel quia
-        scilicet in tribus generibus est consimilis, vel quia a prima praecedente ad tertiam
-        sequentem sine hac non potest cantilena intendi, neque a tertia sequente ad primam sine hac
-        remitti. Tertia namque sequens post has est parhypate hypaton, nec in totum mobilis, nec in
-        totum immobilis: quia in diatonico quidem et chromatico genere uniformis habetur, in
-        enarmonio vero variatur. Et rursus a praecedente secunda ad sequentem quartam sine hac
-        tertia potest cantus intendi, vel a quarta consequente ad secundam praecedentem remitti. Est
-        itaque semitonii inter hypate hypaton, et parhypate hypaton. Post has itaque consequitur
-        quarta lychanos hypaton mobilis per omnia, quia videlicet in tribus generibus variatur, et
-        ab inferioribus ad superiora, vel a superioribus ad inferiora sine hac facilis patet in
-        intensione vel remissione modulandi via. Est autem tonus inter parhypate hypaton et lychanos
-        hypaton. A prima igitur proslambanomenos ad quartam lychanos hypaton intenditur consonantia,
-        diatessaron, et ab eadem quarta ad primam per tonum et semitonium et tonum remittitur.</p>
+      <p xml:id="ANO2TRDM0004">Nomina autem chordarum, in quibus hae consonantiae distinguuntur,
+        haec sunt. Prima et gravissima omnium est proslambanomenos, duplici ratione immobilis, vel
+        quia scilicet fundamentum est reliquarum vocum, vel quia in tribus generibus melorum,
+        diatonico videlicet, chromatico et enarmonio, sono et nomine permanet uniformis. Ad quam
+        obtinet toni proportionem sequens hypate hypaton, et ipsa similiter duplici ex causa
+        immobilis: vel quia scilicet in tribus generibus est consimilis, vel quia a prima
+        praecedente ad tertiam sequentem sine hac non potest cantilena intendi, neque a tertia
+        sequente ad primam sine hac remitti. Tertia namque sequens post has est parhypate hypaton,
+        nec in totum mobilis, nec in totum immobilis: quia in diatonico quidem et chromatico genere
+        uniformis habetur, in enarmonio vero variatur. Et rursus a praecedente secunda ad sequentem
+        quartam sine hac tertia potest cantus intendi, vel a quarta consequente ad secundam
+        praecedentem remitti. Est itaque semitonii inter hypate hypaton, et parhypate hypaton. Post
+        has itaque consequitur quarta lychanos hypaton mobilis per omnia, quia videlicet in tribus
+        generibus variatur, et ab inferioribus ad superiora, vel a superioribus ad inferiora sine
+        hac facilis patet in intensione vel remissione modulandi via. Est autem tonus inter
+        parhypate hypaton et lychanos hypaton. A prima igitur proslambanomenos ad quartam lychanos
+        hypaton intenditur consonantia, diatessaron, et ab eadem quarta ad primam per tonum et
+        semitonium et tonum remittitur.</p>
       <p xml:id="ANO2TRDM0005">Quinta dehinc subsequitur hypate meson immobilis, sicut et hypate
         hypaton, tono quidem distans a lychanos hypaton, ad hypate hypaton autem resonans
         consonantiam diatessaron, ad proslambanomenos quoque sympheniam diapente, sive a
@@ -185,21 +196,22 @@
         conversimque a proslambanomenos in lychanos hypaton intensa diatessaron, et ab eadem in mese
         intensa diapente; rursusque a proslambanomenos in hypate meson intensa diapente, et ab eadem
         in mese intensa diatessaron. A mese igitur in proslambanomenos remissa diapason.</p>
-      <p xml:id="ANO2TRDM0006">Deinde sequuntur duo tetrachorda partim synemmenon partim diezeugmenou;
-        sed synemmenon tetrachordum conjungitur cum mese per semitonium, quod est inter mese et
-        trite synemmenon; diezeugmenon autem tetrachordum disjungitur a mese per tonum, qui est
-        inter mese et paramese. Unde et illud appellatur synemmenon, id est, conjunctarum; istud
-        vero diezeugmenon, id est, disjunctarum. Si igitur a mese, quae est octava, intendas
-        semitonium, occurret nona trite synemmenon, nec in totum mobilis, nec in totum immobilis,
-        faciens ad parhypate meson consonantiam diatessaron. A qua si rursus intendatur tonus,
-        occurret decima, parahete synemmenon, mobilis per omnia, et facit diatessaron ad lychanos
-        meson per tonum semitonium et tonum; ad parhypate meson vero resonat consonantiam diapente.
-        Post hanc quoque intenso tono sequitur nete synemmenon undecima, quae ad mesen quidem
-        resonat consonantia diatessaron, ad lychanos vero meson diapente. Si autem a mese quis
-        intendat tonum, occurret paramese quae relicto tetrachordo synemmenon quasi post mesen
-        videtur esse nona, sed hoc aptato comprobatur esse duodecima. Est autem immobilis et ipsa
-        sicut et hypate hypaton, ad quam videlicet ipsa facit consonantiam diapason. Haec eadem
-        quoque paramese ad hypate meson quidem remittit consonantiam diapente per <pb n="[684]"/>tres tonos continuos et semitonium, sed ad parhypate meson non valet remittere
+      <p xml:id="ANO2TRDM0006">Deinde sequuntur duo tetrachorda partim synemmenon partim
+        diezeugmenou; sed synemmenon tetrachordum conjungitur cum mese per semitonium, quod est
+        inter mese et trite synemmenon; diezeugmenon autem tetrachordum disjungitur a mese per
+        tonum, qui est inter mese et paramese. Unde et illud appellatur synemmenon, id est,
+        conjunctarum; istud vero diezeugmenon, id est, disjunctarum. Si igitur a mese, quae est
+        octava, intendas semitonium, occurret nona trite synemmenon, nec in totum mobilis, nec in
+        totum immobilis, faciens ad parhypate meson consonantiam diatessaron. A qua si rursus
+        intendatur tonus, occurret decima, parahete synemmenon, mobilis per omnia, et facit
+        diatessaron ad lychanos meson per tonum semitonium et tonum; ad parhypate meson vero resonat
+        consonantiam diapente. Post hanc quoque intenso tono sequitur nete synemmenon undecima, quae
+        ad mesen quidem resonat consonantia diatessaron, ad lychanos vero meson diapente. Si autem a
+        mese quis intendat tonum, occurret paramese quae relicto tetrachordo synemmenon quasi post
+        mesen videtur esse nona, sed hoc aptato comprobatur esse duodecima. Est autem immobilis et
+        ipsa sicut et hypate hypaton, ad quam videlicet ipsa facit consonantiam diapason. Haec eadem
+        quoque paramese ad hypate meson quidem remittit consonantiam diapente per <pb n="[684]"
+        />tres tonos continuos et semitonium, sed ad parhypate meson non valet remittere
         diatessaron; unde et remota videtur a tetrachordo meson, et omnimodis est contraria trite
         synemmenon, adeo, ut si utralibet harum in cantu proferatur, altera nullatenus inferatur. Ab
         eadem paramese intenso semitonio consequitur decima tertia trite diezeugmenon, nec in totum
@@ -224,8 +236,8 @@
         proslambanomenos ad mesen intendit diapason, ita mese ad nete hyperboleon. Unde et
         proslambanomenos ad nete hyperboleon facit bisdiapason, quae et quadrupla nuncupatur. Sed
         haec, ut dictum est, in nostris cantilenis non adhibetur.</p>
-      <p xml:id="ANO2TRDM0007">Ex supradictis igitur speciebus consonantiarum nascentur octo modi sive
-        tropi, per quos omnis cantus moderatur. Horum primus et omnium gravissimus vocatur
+      <p xml:id="ANO2TRDM0007">Ex supradictis igitur speciebus consonantiarum nascentur octo modi
+        sive tropi, per quos omnis cantus moderatur. Horum primus et omnium gravissimus vocatur
         hypodorius, secundus hypophrygius, tertius hypolydius, quartus dorius, quintus phrygius,
         sextus lydius, septimus mixolydius vel hyperdorius, octavus hypermixolydius. Et primus
         quidem superatur a secundo in cacumine tono: secundus autem a tertio tono: tertius vero a

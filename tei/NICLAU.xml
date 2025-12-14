@@ -1,30 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De laude et utilitate spiritualium canticorum, quae fiunt in ecclesia Christiana; seu
           de psalmodiae bono</title>
         <title type="abbrev">NICLAU</title>
-        <author>Nicetius, episcopus</author>
-        <date notBefore="500" notAfter="799">6th-8th</date>
+        <author><persName>Nicetius, episcopus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1992</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1992">1992</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptores ecclesiastici de musica sacra potissimum</emph>, 3 vols., ed. Martin
@@ -43,8 +53,8 @@
         evangelicis et apostolicis sumus omnino eruditi magisteriis, <pb n="[10]"/>eorum dicta et
         facta ante oculos proponamus, per quos sumus omne quod sumus, et quam sint grata et accepta
         Deo spiritualia cantica, a primordio repetentes iisdem auctoribus asseramus.</p>
-      <p xml:id="NICLAU0003">2. Si autem quaeramus, quis omnium primus hoc genus carminis invexerit, non
-        inveniemus alium, nisi Moysen, qui canticum Deo insigne gestavit, quando AEgypto decem
+      <p xml:id="NICLAU0003">2. Si autem quaeramus, quis omnium primus hoc genus carminis invexerit,
+        non inveniemus alium, nisi Moysen, qui canticum Deo insigne gestavit, quando AEgypto decem
         plagis percussa, et Pharaoni demerso populus per insueta maris itinera ad desertum
         gratulabundus egressus est, dicens: cantemus Domino, gloriose enim glorificatus est. Exodi
         XV. 1. Primus igitur Moyses dux tribuum Israeli choros instituit, et utrumque sexum
@@ -55,10 +65,10 @@
         sequerentur, si a Deo recessissent. O nimis miseri atque miserandi, qui tali tamque evidenti
         denuntiatione praetermissa noluerunt a peccatis et illicitis superstitionibus
         praecavere.</p>
-      <p xml:id="NICLAU0004">3. Iam vero postea multos invenies non solum viros, sed et feminas, Spiritu
-        divino impletas, Dei cecinisse mysteria etiam ante David, qui a pueritia in hoc munus a
-        Domino specialiter electus, et cantorum princeps, carminum thesaurus esse promeruit. Qui
-        adhuc puer in cithara suaviter fortiterque canens malignum spiritum, qui operabatur in
+      <p xml:id="NICLAU0004">3. Iam vero postea multos invenies non solum viros, sed et feminas,
+        Spiritu divino impletas, Dei cecinisse mysteria etiam ante David, qui a pueritia in hoc
+        munus a Domino specialiter electus, et cantorum princeps, carminum thesaurus esse promeruit.
+        Qui adhuc puer in cithara suaviter fortiterque canens malignum spiritum, qui operabatur in
         Saulem, compescuit, non quod citharae illius tanta virtus esset, sed quia figura crucis
         Christi, quae in ligno et extensione nervorum mystice gerebatur iam tunc, spiritum daemonis
         opprimebat.</p>
@@ -71,8 +81,8 @@
         divites, ut se agnoscant, admonet, et ne superbiant, increpat. Omnibus omnino suscipientibus
         se acceptam medicinam tribuit; nec peccatores despicit, sed remedium eis per poenitentiam
         lacrymosam salubriter ingerit.</p>
-      <p xml:id="NICLAU0006">5. Dominus itaque Deus noster per David servum suum confecit potionem, quae
-        dulcis esset gustu per cantionem, et efficax ad curanda vulnera peccatorum per suam
+      <p xml:id="NICLAU0006">5. Dominus itaque Deus noster per David servum suum confecit potionem,
+        quae dulcis esset gustu per cantionem, et efficax ad curanda vulnera peccatorum per suam
         virtutem; [suaviter enim auditur psalmus, dum canitur; <pb n="[11]"/>penetrat animum, cum
         delectat. Facile psalmi memoria retinentur, si frequenter psallantur; et quod legis
         austeritas ab humanis mentibus extorquere non poterat, hi per dulcedinem cantionis
@@ -90,12 +100,12 @@
         et terrae renovatio revelatur, postquam quidem erit in gloria Domini sempiternum iustorum
         regnum, peccatorum perenne supplicium.</p>
       <p xml:id="NICLAU0007">Caput II.</p>
-      <p xml:id="NICLAU0008">Haec sunt cantica Dei, quae canit catholica ecclesia Dei. Haec sunt, quae
-        hic conventus noster sono etiam vocis exercet. Hi non solum cantus lascivos non resolvunt
-        sed potius stringunt. Non luxuriam suscitant, sed extinguunt. Haec cantica placent Deo, ubi
-        totum, quod agitur, spectat ad gloriam creatoris. Merito idem Propheta nos et omnia ad
-        laudem Dei cuncta gubernantis hortatur dicens: omnis spiritus laudet Dominum. Psalmus CL. 6.
-        Seipsum quoque pollicens laudatorem dicebat: laudabo nomen Domini cum cantico, et
+      <p xml:id="NICLAU0008">Haec sunt cantica Dei, quae canit catholica ecclesia Dei. Haec sunt,
+        quae hic conventus noster sono etiam vocis exercet. Hi non solum cantus lascivos non
+        resolvunt sed potius stringunt. Non luxuriam suscitant, sed extinguunt. Haec cantica placent
+        Deo, ubi totum, quod agitur, spectat ad gloriam creatoris. Merito idem Propheta nos et omnia
+        ad laudem Dei cuncta gubernantis hortatur dicens: omnis spiritus laudet Dominum. Psalmus CL.
+        6. Seipsum quoque pollicens laudatorem dicebat: laudabo nomen Domini cum cantico, et
         magnificabo eum in laude. Psalmus LXIII. 31. Laudate Dominum in vita vestra. Immolate Deo
         sacrificium laudis pro animae vita vestrae. Et per ipsum ostenditur vobis in anima vestra
         via, qua ad eius perveniatis salutare. Delectat Dominum nostrum de pura conscientia laus
@@ -108,16 +118,16 @@
         meis salvus ero. Psalmus XVII. 4. Tali luctamine, et tali clypeo armatus etiam fortissimum
         illum Goliam gigantem straverat et saepe de alienis victoriam reportarat.</p>
       <p xml:id="NICLAU0009">Caput III.</p>
-      <p xml:id="NICLAU0010">6. Longum erit, carissimi, singula quae Sanctorum historia continet dicere,
-        praesertim cum res exigat, de novo testamento aliqua ad veterum confirmationem deberi
-        proferri. Ergo in Evangelio invenies primum Zachariam patrem magni Iohannis post longum
-        illud silentium in hymni voce prophetasse. Nec Elisabeth diu sterilis edito de promissione
-        filio Deum de ipsa anima magnificare cessavit. Notandum etiam, quod in terris Christo nato
-        laudem sonuit exercitus Angelorum: Gloria in excelsis Deo, et in terra pax hominibus bonae
-        voluntatis. Annuntiantes pueri in templo Osanna David filio clamaverunt: nec Pharisaeis
-        livore strepentibus Dominus ora innocentium clausit, sed potius aperuit dicens eis: Non
-        legistis scriptum: ex ore infantium et lactentium perfecisti laudem? Et si isti tacuerint,
-        clamabunt lapides.</p>
+      <p xml:id="NICLAU0010">6. Longum erit, carissimi, singula quae Sanctorum historia continet
+        dicere, praesertim cum res exigat, de novo testamento aliqua ad veterum confirmationem
+        deberi proferri. Ergo in Evangelio invenies primum Zachariam patrem magni Iohannis post
+        longum illud silentium in hymni voce prophetasse. Nec Elisabeth diu sterilis edito de
+        promissione filio Deum de ipsa anima magnificare cessavit. Notandum etiam, quod in terris
+        Christo nato laudem sonuit exercitus Angelorum: Gloria in excelsis Deo, et in terra pax
+        hominibus bonae voluntatis. Annuntiantes pueri in templo Osanna David filio clamaverunt: nec
+        Pharisaeis livore strepentibus Dominus ora innocentium clausit, sed potius aperuit dicens
+        eis: Non legistis scriptum: ex ore infantium et lactentium perfecisti laudem? Et si isti
+        tacuerint, clamabunt lapides.</p>
       <p xml:id="NICLAU0011">7. Ipse Dominus in verbis doctor, in factis consummator, ut hymnorum
         ministerium gratissimum comprobaret, cum discipulis hymno dicto exiit in montem Oliveti.
         Quis iam tali documento de psalmorum et hymnorum religione dubitaverit, quando ille, qui a
@@ -127,21 +137,21 @@
         nullus debet ambigere, hoc vigiliarum sanctarum ministerium, si digna fide et vera devotione
         celebretur, Angelis esse coniunctum, quos constat, sine somni occupatione indefinenter
         laudare Deum in coelis, et benedicere salvatorem.</p>
-      <p xml:id="NICLAU0012">8. Quae cum ita sint, fratres, iam pleniore fiducia hymnorum ministerium
-        fideliter impleamus, magnam nos credentes a Deo gratiam consecutos, quibus concessum est,
-        cum tantis et talibus Sanctis, Prophetis dico, atque Martyribus Dei aeterni cantare
-        miracula. Hic cum David Domino confitemur, quoniam bonus est: cum Moyse potentiam Domini
-        magnis illis canticis personamus: cum Anna, quae ecclesiae typum gessit, olim sterili, nunc
-        foecunda, in Dei laude corda confirmamus: cum Esaia de nocte vigilantes psallimus: cum
-        Abacuc, cum Iona, cum Ieremia sanctissimis Patribus orando cantamus: cum tribus aeque
-        pueris, qui in fornace positi, convocata omni creatura, creatori omnium benedicentes
-        psallimus.</p>
+      <p xml:id="NICLAU0012">8. Quae cum ita sint, fratres, iam pleniore fiducia hymnorum
+        ministerium fideliter impleamus, magnam nos credentes a Deo gratiam consecutos, quibus
+        concessum est, cum tantis et talibus Sanctis, Prophetis dico, atque Martyribus Dei aeterni
+        cantare miracula. Hic cum David Domino confitemur, quoniam bonus est: cum Moyse potentiam
+        Domini magnis illis canticis personamus: cum Anna, quae ecclesiae typum gessit, olim
+        sterili, nunc foecunda, in Dei laude corda confirmamus: cum Esaia de nocte vigilantes
+        psallimus: cum Abacuc, cum Iona, cum Ieremia sanctissimis Patribus orando cantamus: cum
+        tribus aeque pueris, qui in fornace positi, convocata omni creatura, creatori omnium
+        benedicentes psallimus.</p>
       <p xml:id="NICLAU0013">9. Quid hac utilitate commodius? quid hac dilectione iocundius? qua et
         psalmis delectamur, <pb n="[13]"/>et orationibus irrigamur, et interpositis lectionibus
         pascimur. Et vere sicut boni convivae ferculorum varietate delectantur: ita nostrae animae
         multiplici lectionum et hymnorum exhibitione saginantur.</p>
-      <p xml:id="NICLAU0014">10. Tantum carissimi intermittentes fabulas superfluas, intento sensu et
-        vigilanti mente psallamus, et Deo non displiceamus. Sic enim nos hortatur psalmus dicens:
+      <p xml:id="NICLAU0014">10. Tantum carissimi intermittentes fabulas superfluas, intento sensu
+        et vigilanti mente psallamus, et Deo non displiceamus. Sic enim nos hortatur psalmus dicens:
         quoniam rex omnis terrae Deus, psallite sapienter. Psalmus XLVI. 8. Id est, intelligenter.
         Non solum spiritu, hoc est, sono vocis, sed et mente psallamus, et ipsum, quod psallimus,
         cogitemus, ne mens captivata fabulis aut extraneis cogitationibus laborem habeat
@@ -166,7 +176,8 @@
         suavis erit tota laudatio, qui in domo sua, sicut legitur, unanimes habitare facit.</p>
       <p xml:id="NICLAU0015">11. Quando illic psallitur, psallatur ab omnibus; cum oratur, oretur ab
         omnibus; cum lectio legitur, facto silentio aeque audiatur ab omnibus, ut legente lectore
-        omnino clamosis vocibus nemo perstrepat; et omnes, antequam legatur, <pb n="[14]"/>convenite. Si quis autem supervenerit, cum lectio celebratur, adoret tantum Deum, et
+        omnino clamosis vocibus nemo perstrepat; et omnes, antequam legatur, <pb n="[14]"
+        />convenite. Si quis autem supervenerit, cum lectio celebratur, adoret tantum Deum, et
         praesignata fronte aurem legi Dei sollicite accommodet.</p>
       <p xml:id="NICLAU0016">12. Patet tempus orandi, cum omnes oramus: patet, cum volueritis et
         quotiens volueritis privatim orare, ne obtentu orationis defleas te perdidisse lectionem:

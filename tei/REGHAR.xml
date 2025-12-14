@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Epistola de harmonica institutione</title>
         <title type="abbrev">REGHAR</title>
-        <author>Regino Prumiensis</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Regino Prumiensis</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1993</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1993">1993</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptores ecclesiastici de musica sacra potissimum</emph>, 3 vols., ed. Martin
@@ -85,8 +95,8 @@
       <p xml:id="REGHAR0001">
         <pb n="[230]"/>Regino Prumiensis de harmonica institutione.</p>
       <p xml:id="REGHAR0002">Synopsis.</p>
-      <p xml:id="REGHAR0003">1. Occasio ratioque Tonarii huic epistolae subnexi. 2. Anomaliae modorum
-        seu octo tonorum. 3. Octo toni seu modi musici. 4. Tonus et musica naturalis atque
+      <p xml:id="REGHAR0003">1. Occasio ratioque Tonarii huic epistolae subnexi. 2. Anomaliae
+        modorum seu octo tonorum. 3. Octo toni seu modi musici. 4. Tonus et musica naturalis atque
         artificialis. 5. Musica in motu corporum coelestium. 6. Naturalis musica eiusque effectus.
         7. Musica artificialis primum in instrumentis. 8. Musicae etymon. 9. Quid vox, quid sonus.
         10. Consonantiae et intervalla. 11. Iuxta Pythagorae inventum. 12. De septem liberalibus
@@ -111,32 +121,32 @@
         tonos distinxi, verum etiam introitus ad Missas, et Communiones: nec non et responsoria,
         quae nocturnis horis in divinam laudem canuntur, consonantibus sibi tonorum convenientiis
         associare summo studio elaboravi.</p>
-      <p xml:id="REGHAR0007">2. Scire autem oportet peritum cantorem, quod non omnis tonorum consonantia
-        in quibusdam antiphonis facile cognoscatur. Sunt namque quaedam antiphonae, quas nothas, id
-        est, degeneres et non-legitimas appellamus, quae ab uno tono incipiunt, alterius sunt in
-        medio, et in tertio finiuntur: quorum dissonantiam et ambiguitatem in breviario operis
-        subsequentis suis in locis patefecimus. Sed tamen ut evidentior ratio clarescat, nonnullas
-        exempli causa hoc in loco inserimus. Ante me non est formatus Deus. Ex quo facta est vox. Ex
-        AEgypto vocavi. Ad te Domine levavi animam meam. Sion renovaberis. O mors ero mors tua. Vade
-        iam et noli peccare. Hae praedictae antiphonae a septimo tono incipiunt, et quaedam in
-        primo, aliae in quarto finiuntur tono. Similiter antiphonae: ne reminiscaris. Tulit ergo
-        paralyticus. a tertio tono inchoant, sed quarto finiuntur. Ita: quare detraxistis. Multa
-        quidem et alia signa. a tertio tono incipiunt, sed sexto finiuntur. Qui odit animam suam. Et
-        respicientes. a tertio incipiunt, sed octavo finiuntur. Quod uni ex minimis meis. a septimo
-        incipit, sed primo finitur: et multa his similia. Verum non solum antiphonae his
-        ambiguitatibus et dubietatibus tonorum permixtae sunt, sed etiam nonnulli introitus ab uno
-        incipiunt tono, sed alio finiuntur: siquidem Deus in adiutorium meum intende, ab octavo
-        incipit tono, sed septimo finitur. Similiter: accipite iocunditatem, et Deus dum
-        egrederetur, ab octavo incipiunt, sed quarto finiuntur. Repleatur os meum. et charitas Dei.
-        a tertio incipiunt, et quarto finiuntur. Iudica Domine nocentes me. a quarto incipit, sed
-        septimo finitur. Victricem manum tuam, a tertio incipit, sed octavo finitur. Eduxit Dominus
-        populum suum, a quarto incipit, sed finitur octavo. Ecce oculi Domini, a tertio incipit, sed
-        quarto finitur. Loquetur Dominus, a tertio incipit, sed quarto finitur. Iustus non
-        conturbabitur, incipit a secundo, sed finitur primo. Dicit Dominus, sermones, incipit
-        tertio, finitur primo; et his similia. Illud autem summopere prudens cantor observare debet,
-        ut semper magis principium antiphonae, introitus vel communionis attendat in toni
-        sonoritate, quam finem. Et e contrario in responsoriis magis consideret finem, et exitum in
-        toni consonantia, quam initium.</p>
+      <p xml:id="REGHAR0007">2. Scire autem oportet peritum cantorem, quod non omnis tonorum
+        consonantia in quibusdam antiphonis facile cognoscatur. Sunt namque quaedam antiphonae, quas
+        nothas, id est, degeneres et non-legitimas appellamus, quae ab uno tono incipiunt, alterius
+        sunt in medio, et in tertio finiuntur: quorum dissonantiam et ambiguitatem in breviario
+        operis subsequentis suis in locis patefecimus. Sed tamen ut evidentior ratio clarescat,
+        nonnullas exempli causa hoc in loco inserimus. Ante me non est formatus Deus. Ex quo facta
+        est vox. Ex AEgypto vocavi. Ad te Domine levavi animam meam. Sion renovaberis. O mors ero
+        mors tua. Vade iam et noli peccare. Hae praedictae antiphonae a septimo tono incipiunt, et
+        quaedam in primo, aliae in quarto finiuntur tono. Similiter antiphonae: ne reminiscaris.
+        Tulit ergo paralyticus. a tertio tono inchoant, sed quarto finiuntur. Ita: quare
+        detraxistis. Multa quidem et alia signa. a tertio tono incipiunt, sed sexto finiuntur. Qui
+        odit animam suam. Et respicientes. a tertio incipiunt, sed octavo finiuntur. Quod uni ex
+        minimis meis. a septimo incipit, sed primo finitur: et multa his similia. Verum non solum
+        antiphonae his ambiguitatibus et dubietatibus tonorum permixtae sunt, sed etiam nonnulli
+        introitus ab uno incipiunt tono, sed alio finiuntur: siquidem Deus in adiutorium meum
+        intende, ab octavo incipit tono, sed septimo finitur. Similiter: accipite iocunditatem, et
+        Deus dum egrederetur, ab octavo incipiunt, sed quarto finiuntur. Repleatur os meum. et
+        charitas Dei. a tertio incipiunt, et quarto finiuntur. Iudica Domine nocentes me. a quarto
+        incipit, sed septimo finitur. Victricem manum tuam, a tertio incipit, sed octavo finitur.
+        Eduxit Dominus populum suum, a quarto incipit, sed finitur octavo. Ecce oculi Domini, a
+        tertio incipit, sed quarto finitur. Loquetur Dominus, a tertio incipit, sed quarto finitur.
+        Iustus non conturbabitur, incipit a secundo, sed finitur primo. Dicit Dominus, sermones,
+        incipit tertio, finitur primo; et his similia. Illud autem summopere prudens cantor
+        observare debet, ut semper magis principium antiphonae, introitus vel communionis attendat
+        in toni sonoritate, quam finem. Et e contrario in responsoriis magis consideret finem, et
+        exitum in toni consonantia, quam initium.</p>
       <p xml:id="REGHAR0008">
         <pb n="[232]"/>3. Inveniuntur vero in naturali musica, id est, in cantilena, quae in divinis
         laudibus modulatur, quatuor principales toni, qui ita graeco vocabulo nuncupantur:
@@ -167,21 +177,21 @@
         auctoritate inter se differant, nullumque recipiant semitonium, nec diesin, nec apotomen,
         aut tristemoria, aut tetrastemoria: siquidem in his partibus tonus artificialis musicae
         dividitur.</p>
-      <p xml:id="REGHAR0010">Ex hac itaque dissonantia apparet, quod illi saepe dicti octo, qui dicuntur
-        toni, non tam toni dicendi sunt, quam modi, vel differentiae seu tropi consonantiarum
-        musicae modulationis; qui pulchra varietate harmonicae delectationis ex gravibus acutisque
-        sonis mixti, quasi quibusdam floribus respersi blandam atque convenientem reddunt melodiae
-        suavitatem. Huc <pb n="[233]"/>accedit, quod omnis musicae disciplinae peritia arithmeticis
-        regulis metitur atque coarctatur. Fit enim aut duplis aut quadruplis, aut sesquialteris, seu
-        sesquitertiis vel sesquioctavis numerorum proportionibus. Quae dimensiones, ut arbitror,
-        difficile reperiri possunt in supradictis tonis. Oportet enim, ut omnes integri atque
-        perfecti toni inter se differant aequis dimensionibus, id est, octava sui parte. Quae
-        distantia inter octonarium et novenarium numeros potest demonstrari. Continet quippe
-        novenarius totum octonarium numerum intra se, et insuper eius octavam partem, id est, unum.
-        Et hanc differentiam appellant musici intervallum, arithmetici vero sesquioctavam
-        proportionem. Dicitur autem intervallum soni acuti gravisque distantia.</p>
-      <p xml:id="REGHAR0011">Tonus itaque aut transcendit alium tonum, aut transcenditur ab alio tono
-        octava sui parte. Sed quae tonorum aut supradictarum consonantiarum ratio sit, vel
+      <p xml:id="REGHAR0010">Ex hac itaque dissonantia apparet, quod illi saepe dicti octo, qui
+        dicuntur toni, non tam toni dicendi sunt, quam modi, vel differentiae seu tropi
+        consonantiarum musicae modulationis; qui pulchra varietate harmonicae delectationis ex
+        gravibus acutisque sonis mixti, quasi quibusdam floribus respersi blandam atque convenientem
+        reddunt melodiae suavitatem. Huc <pb n="[233]"/>accedit, quod omnis musicae disciplinae
+        peritia arithmeticis regulis metitur atque coarctatur. Fit enim aut duplis aut quadruplis,
+        aut sesquialteris, seu sesquitertiis vel sesquioctavis numerorum proportionibus. Quae
+        dimensiones, ut arbitror, difficile reperiri possunt in supradictis tonis. Oportet enim, ut
+        omnes integri atque perfecti toni inter se differant aequis dimensionibus, id est, octava
+        sui parte. Quae distantia inter octonarium et novenarium numeros potest demonstrari.
+        Continet quippe novenarius totum octonarium numerum intra se, et insuper eius octavam
+        partem, id est, unum. Et hanc differentiam appellant musici intervallum, arithmetici vero
+        sesquioctavam proportionem. Dicitur autem intervallum soni acuti gravisque distantia.</p>
+      <p xml:id="REGHAR0011">Tonus itaque aut transcendit alium tonum, aut transcenditur ab alio
+        tono octava sui parte. Sed quae tonorum aut supradictarum consonantiarum ratio sit, vel
         quemadmodum ipsae consonantiae musicae reperiantur, vel qualiter ad invicem coaptentur, seu
         ab invicem seiungantur, in subsequentibus manifestius demonstrabimus. Interim supra
         memoratae disputationi sub mediocri intelligentia credulitas adhibenda est; tunc indubia
@@ -204,23 +214,23 @@
         coniicitur, in coeli motu ratum modulationis ordinem inesse. Consonantia siquidem, quae
         omnem modulationem regit musicae, absque sono fieri non potest. Sonus vero absque aliquo
         impulsu vel ictu non redditur. Rursus pulsus non fit, nisi praecesserit motus.</p>
-      <p xml:id="REGHAR0013">Motuum vero alii sunt velociores, alii tardiores: et si tardus ac varius
-        fuerit motus, graves sonos efficit: sin vero celeres ac spissi, acutos necesse est reddi
-        sonos. In re enim immobili nullus umquam fit sonus. Idcirco definiunt musici sonum ita:
-        sonus est percussio aeris indissoluta <pb n="[234]"/>usque ad auditum. Ex pluribus itaque
-        motibus tam acumem quam gravitas constat.</p>
-      <p xml:id="REGHAR0014">Ex hac igitur coniectura dicunt Astrologi vel musici inter extimam sphaeram
-        et circulos septem planetarum omnes musicas consonantias impleri. Nam a Saturno usque ad
-        sphaeram coelestem, aiunt acutissimum fieri sonum, a terra usque ad lunarem circulum
-        gravissimum: licet quidam aliter sentiant. Denique a Saturno usque ad sphaeram graviorem
-        sonum, a terra vero usque ad lunarem circulum acutiorem fieri asserunt: idcirco quia, quod
-        strictius et brevius est, necesse est, ut acutius resonet, sicut e contra, quod longius,
-        gravius. Inter circulum vero Saturni et Lunae per totam amplitudinem planetarum varietas
-        diversorum tonorum et omnes musicae perficiuntur consonantiae. Quae omnia figurate Martianus
-        in libro, quem de nuptiis Philologiae et Mercurii conscribit, in nemore Apollinis fuisse
-        confingit, videlicet qui ipse est Sol moderator musicae coelestis. Nam, inquit, eminentiora
-        culmina, id est, rami altiores, perinde distenta, id est, valde extenta, acuto sonitu, id
-        est, subtili et gracili resultabant, id est, resonabant.</p>
+      <p xml:id="REGHAR0013">Motuum vero alii sunt velociores, alii tardiores: et si tardus ac
+        varius fuerit motus, graves sonos efficit: sin vero celeres ac spissi, acutos necesse est
+        reddi sonos. In re enim immobili nullus umquam fit sonus. Idcirco definiunt musici sonum
+        ita: sonus est percussio aeris indissoluta <pb n="[234]"/>usque ad auditum. Ex pluribus
+        itaque motibus tam acumem quam gravitas constat.</p>
+      <p xml:id="REGHAR0014">Ex hac igitur coniectura dicunt Astrologi vel musici inter extimam
+        sphaeram et circulos septem planetarum omnes musicas consonantias impleri. Nam a Saturno
+        usque ad sphaeram coelestem, aiunt acutissimum fieri sonum, a terra usque ad lunarem
+        circulum gravissimum: licet quidam aliter sentiant. Denique a Saturno usque ad sphaeram
+        graviorem sonum, a terra vero usque ad lunarem circulum acutiorem fieri asserunt: idcirco
+        quia, quod strictius et brevius est, necesse est, ut acutius resonet, sicut e contra, quod
+        longius, gravius. Inter circulum vero Saturni et Lunae per totam amplitudinem planetarum
+        varietas diversorum tonorum et omnes musicae perficiuntur consonantiae. Quae omnia figurate
+        Martianus in libro, quem de nuptiis Philologiae et Mercurii conscribit, in nemore Apollinis
+        fuisse confingit, videlicet qui ipse est Sol moderator musicae coelestis. Nam, inquit,
+        eminentiora culmina, id est, rami altiores, perinde distenta, id est, valde extenta, acuto
+        sonitu, id est, subtili et gracili resultabant, id est, resonabant.</p>
       <p xml:id="REGHAR0015">Quicquid vero terrae confine et propinquum fuerat, rami videlicet
         inclinatiores et humiliores ac terrae viciniores quatiebat, id est, impellebat,
         repercutiebat rauca gravitas. At media, id est, mediae partes ipsius silvae, coniuncta sibi
@@ -231,37 +241,37 @@
         intervallo iuncturis, id est, consonantiis. Hic tonum tangit, licet intervenirent limmata,
         id es, semitonia. Hic tangit duo semitonia. Ex quibus omnibus summa totius musicae
         consistit. Sed haec omnia suo in loco manifestius demonstrabuntur.</p>
-      <p xml:id="REGHAR0016">Nec illud omittendum, quod etiam nervi, id est, chordae coelesti musicae
-        comparantur. Nam hypate meson a musicis Saturno est attributa. Parypate Ioviali circulo
-        consimilis est. Lichanos meson Marti tradidere. Sol meson obtinuit. Triten synemmenon Venus
-        habet. Paranete synemmenon Mercurius regit. Nete autem lunaris circuli tenet exemplum. Haec
-        secundum Boetium. Porro Cicero contrarium ordinem facit. Nam in somnio Scipionis ita
-        asserit, et natura fert, ut extrema ex altera parte graviter, ex altera autem acute sonent.
-        Quam ob causam summus ille coeli stellifer currus, cuius conversio est concitatior, acuto et
-        excitato movetur sono, gravissimo autem hic lunaris atque infimus. Nam terra nona immobilis
-        manens una sede semper haeret. In hoc igitur loco Cicero terram quasi silentium ponit,
-        scilicet immobilem. Post hanc, qui proximus a silentio est, dat Lunae gravissimum sonum, ut
-        sit Luna proslambanomenos, quae chorda <pb n="[235]"/>gravissime resonat; Mercurius hypate
-        hypaton, Venus parypate hypaton, Sol lichanos hypaton, Mars hypate Meson; Iovis parypate
-        meson, Saturnus lichanos meson, sphaera coelestis mese. Luna ergo Mercurio comparata tonum
-        resonat. Eadem Luna cum Marte diapente consonantiam creat, cum Sole diatessaron, cum sphaera
-        coelesti diapason. Ecce habes in coeli motu totius musicae summam. Igitur haec pauca de
-        coelesti musica sufficiant. Si quis autem haec plenius scire desiderat, legat secundum
-        librum Macrobii egregii philosophi, in supra dicto somnio Scipionis. Hoc unum addimus, non
-        solum gentilium philosophos, verum etiam Christianae fidei strenuos praedicatores in hac
-        coelesti harmonia assentire.</p>
-      <p xml:id="REGHAR0017">6. His omissis ad contemplandum humanam musicam transire oportet. Omnibus
-        hominibus et omnibus aetatibus, omnique sexui naturaliter musicam esse coniunctam, nulli,
-        qui semetipsum intelligit, dubium est. Quae enim aetas, aut qui sexus musicis non delectatur
-        cantilenis? Proprium quidem humanitatis est, oblectari animum dulcibus modis, exasperari
-        contrariis. Namque infantes ac iuvenes, nec non etiam senes ita naturaliter affectu quodam
-        spontaneo modulationibus musicis implicantur, ut nulla sit omnino aetas, quae expers sit
-        delectatione dulcis cantilenae. Etsi sunt nonnulli, qui docte ac suaviter aliis canere non
-        possunt, sibi tamen aliquid insuaviter suave canunt.</p>
-      <p xml:id="REGHAR0018">Sciendum praeterea, quod mores hominum per musicam cognoscuntur. Lascivus
-        quippe ac petulans animus lascivioribus delectatur modis, aut frequenter eos audiens
-        emollitur atque effeminatur. E contra durior atque ferocior mens vel asperioribus gaudet,
-        vel asperioribus incitatur. Neque enim fieri potest, ut mollia duris, dura mollibus
+      <p xml:id="REGHAR0016">Nec illud omittendum, quod etiam nervi, id est, chordae coelesti
+        musicae comparantur. Nam hypate meson a musicis Saturno est attributa. Parypate Ioviali
+        circulo consimilis est. Lichanos meson Marti tradidere. Sol meson obtinuit. Triten
+        synemmenon Venus habet. Paranete synemmenon Mercurius regit. Nete autem lunaris circuli
+        tenet exemplum. Haec secundum Boetium. Porro Cicero contrarium ordinem facit. Nam in somnio
+        Scipionis ita asserit, et natura fert, ut extrema ex altera parte graviter, ex altera autem
+        acute sonent. Quam ob causam summus ille coeli stellifer currus, cuius conversio est
+        concitatior, acuto et excitato movetur sono, gravissimo autem hic lunaris atque infimus. Nam
+        terra nona immobilis manens una sede semper haeret. In hoc igitur loco Cicero terram quasi
+        silentium ponit, scilicet immobilem. Post hanc, qui proximus a silentio est, dat Lunae
+        gravissimum sonum, ut sit Luna proslambanomenos, quae chorda <pb n="[235]"/>gravissime
+        resonat; Mercurius hypate hypaton, Venus parypate hypaton, Sol lichanos hypaton, Mars hypate
+        Meson; Iovis parypate meson, Saturnus lichanos meson, sphaera coelestis mese. Luna ergo
+        Mercurio comparata tonum resonat. Eadem Luna cum Marte diapente consonantiam creat, cum Sole
+        diatessaron, cum sphaera coelesti diapason. Ecce habes in coeli motu totius musicae summam.
+        Igitur haec pauca de coelesti musica sufficiant. Si quis autem haec plenius scire desiderat,
+        legat secundum librum Macrobii egregii philosophi, in supra dicto somnio Scipionis. Hoc unum
+        addimus, non solum gentilium philosophos, verum etiam Christianae fidei strenuos
+        praedicatores in hac coelesti harmonia assentire.</p>
+      <p xml:id="REGHAR0017">6. His omissis ad contemplandum humanam musicam transire oportet.
+        Omnibus hominibus et omnibus aetatibus, omnique sexui naturaliter musicam esse coniunctam,
+        nulli, qui semetipsum intelligit, dubium est. Quae enim aetas, aut qui sexus musicis non
+        delectatur cantilenis? Proprium quidem humanitatis est, oblectari animum dulcibus modis,
+        exasperari contrariis. Namque infantes ac iuvenes, nec non etiam senes ita naturaliter
+        affectu quodam spontaneo modulationibus musicis implicantur, ut nulla sit omnino aetas, quae
+        expers sit delectatione dulcis cantilenae. Etsi sunt nonnulli, qui docte ac suaviter aliis
+        canere non possunt, sibi tamen aliquid insuaviter suave canunt.</p>
+      <p xml:id="REGHAR0018">Sciendum praeterea, quod mores hominum per musicam cognoscuntur.
+        Lascivus quippe ac petulans animus lascivioribus delectatur modis, aut frequenter eos
+        audiens emollitur atque effeminatur. E contra durior atque ferocior mens vel asperioribus
+        gaudet, vel asperioribus incitatur. Neque enim fieri potest, ut mollia duris, dura mollibus
         adnectantur aut gaudeant, sed amorem delectationemque similitudo morum, ut dictum est,
         conciliat. Nam quae asperiores sunt gentes, durioribus delectantur modis; quae vero
         mansuetae ac pacificae, lenioribus.</p>
@@ -282,12 +292,12 @@
         dicimus? Qui cum a rege interrogatus intellexisset, illa hora spiritum prophetiae in se non
         esse, praecepit sibi psaltem adducere, cumque coram eo psalleret, repente descendit in eum
         spiritus, et prophetavit.</p>
-      <p xml:id="REGHAR0021">Itaque sicut pro certo patet, quod in bello pugnantium animi cantu tubarum
-        accenduntur; ita non est dubium, quod conturbationem mentis modestior ac suavior carminum
-        modus possit temperare. Ex his omnibus perspicue et indubitanter apparet, ita nobis musicam
-        naturaliter esse coniunctam, ut ea, nec si velimus quidem, canere possimus. Quo circa
-        erigenda est mentis intentio, ut id, quod naturaliter in nobis est insitum, scientia quoque
-        possit esse comprehensum.</p>
+      <p xml:id="REGHAR0021">Itaque sicut pro certo patet, quod in bello pugnantium animi cantu
+        tubarum accenduntur; ita non est dubium, quod conturbationem mentis modestior ac suavior
+        carminum modus possit temperare. Ex his omnibus perspicue et indubitanter apparet, ita nobis
+        musicam naturaliter esse coniunctam, ut ea, nec si velimus quidem, canere possimus. Quo
+        circa erigenda est mentis intentio, ut id, quod naturaliter in nobis est insitum, scientia
+        quoque possit esse comprehensum.</p>
       <p xml:id="REGHAR0022">Nunc restat, ut tertium genus musicae naturalis videamus, quod supra
         meminimus in irrationabili creatura esse. De hoc itaque talis philosophorum opinio est. Et
         non mirum inquiunt, si inter homines musicae tanta dominatio est; cum aves quoque, ut
@@ -319,52 +329,54 @@
         musica, sicut a gramma grammatica, et a rhetoreon, [rhetoreion] id est, elocutionis copia,
         rhetorica, et ab arithmo, id est, numero, arithmetica, et a ge, [ge] id est, terra,
         geometria, et ab astro, id est, stella, astrologia.</p>
-      <p xml:id="REGHAR0025">9. Sed antequam partes musicae institutionis discernamus, primum de voce et
-        sono aliquid dicamus. Quamquam itaque omnis vox sonus sit, non tamen omnis sonus recte vox
-        dici potest. Ea igitur creatura, quae vitali spiritu adspiratur, vocem reddit; quae vero
-        pulsu, ictu vel flatu impellitur, sonum. Omnis autem vox aut syneches est, id est continua,
-        qua loquentes aut lectionem legentes, verba continuatim percurrimus: aut diastematice, id
-        est, cum intervallo suspensa, quam canendo suspendimus, in qua non sermonibus, sed modulis
-        inservimus; de qua modo sermo versatur.</p>
-      <p xml:id="REGHAR0026">10. Sciendum autem, quod ex voce aut tono procreatur consonantia. Sed et
-        hoc attendendum, quod in his vocibus aut sonis, quae nulla inaequalitate discordant, nulla
-        omnino consonantia est. Diffinitur autem ita consonantia: consonantia est dissimilium inter
-        se vocum in unum redacta concordia. Aliter: consonantia est acuti soni gravisque mixtura,
-        suaviter uniformiterque auribus accidens. Et contra dissonantia est duorum sonorum sibimet
-        permixtorum ad aurem veniens aspera atque iniucunda percussio. Consonantiam vero licet
-        aurium sensus diiudicet, ratio tamen perpendit. Quotiens enim duae chordae intenduntur, et
-        una ex his gravius, altera acutius resonat, simulque pulsae reddunt permixtum quodammodo et
-        suavem sonum, duaeque voces in unum quasi coniunctae coalescunt, tunc fit ea, quae dicitur
-        consonantia. Cum vero simul pulsis sibi quisque contraire nititur, nec permiscent ad aurem
-        suavem atque unum ex duobus compositum sonum, tunc est, quae dicitur dissonantia.</p>
-      <p xml:id="REGHAR0027">Sunt autem numeri, qui consonantias creant, aut per quos ipsae consonantiae
-        discernuntur, tantummodo sex, id est, epitritus, hemiolius, duplaris, triplaris, quadruplus,
-        et epogdous. Est autem epitritus, cum de duobus numeris maior habet totum minorem, et
-        insuper eius tertiam partem, ut sunt quatuor ad tria. Nam in quatuor sunt tria, et tertia
-        pars trium, id est, unum. Et is numerus vocatur in arithmetica sesquitertius, deque eo
-        nascitur symphonia, id est, consonantia, quae in musica appellatur diatessaron.</p>
-      <p xml:id="REGHAR0028">Hemiolius est, cum de duobus numeris maior habet totum minorem, et insuper
-        eius medietatem, ut sunt tria ad <pb n="[238]"/>duo. Nam in tribus sunt duo, et media pars
-        eorum, id est, unum. Et appellatur hic numerus sesquialter in arithmetica, et de eo fit
-        symphonia, quae nuncupatur Diapente. Duplaris numerus est, cum de duobus numeris minor in
-        maiore bis numeratur, ut sunt quatuor ad duo; et ex hoc duplari nascitur symphonia, cui
-        nomen est Diapason.</p>
-      <p xml:id="REGHAR0029">Triplaris est, cum de duobus numeris minor ter in maiore numeratur, ut sunt
-        tria ad unum, et ex hoc triplari oritur symphonia, quae nuncupatur Diapason cum Diapente.
-        Quadruplaris numerus est, cum de duobus numeris minor quater in maiore numeratur, ut sunt
-        quatuor ad unum: qui numerus facit symphoniam, quam dicunt bis diapason.</p>
-      <p xml:id="REGHAR0030">Epogdous est numerus, qui intra se habet minorem, et insuper eius octavam
-        parte, ut novem ad octo, quia in novem et octo sunt, et insuper octava pars eorum, id est,
-        unum. Appellant autem hunc numerum arithmetici sesquioctavum. Parit vero hic numerus sonum,
-        quem tonum musici vocavere. Sonum vero tono minorem veteres quidem semitonium vocitare
-        voluerunt: sed non ita accipiendum est, ut dimidius tonus putetur, quia nec semivocalem in
-        litteris pro medietate vocalis accipimus. Deinde tonus per naturam sui in duo dividi sibi
-        aequalia non poterit. Cum enim ex novenario numero constet, novem autem numquam aequaliter
-        dividantur, tonus in duas dividi medietates recusat. Sed semitonium vocaverunt sonum tono
-        minorem, quem tam parvo intervallo distare deprehensum est, quam hi duo numeri inter se
-        distant, id est, ducenta quadraginta tria, et ducenta quinquaginta sex. Hoc sem tonium
-        Pythagorici quidam veteres diesin nominabant; sed sequens usus sonum se minorem diesin
-        constituit nominandum. Plato semitonium limma vocitavit.</p>
+      <p xml:id="REGHAR0025">9. Sed antequam partes musicae institutionis discernamus, primum de
+        voce et sono aliquid dicamus. Quamquam itaque omnis vox sonus sit, non tamen omnis sonus
+        recte vox dici potest. Ea igitur creatura, quae vitali spiritu adspiratur, vocem reddit;
+        quae vero pulsu, ictu vel flatu impellitur, sonum. Omnis autem vox aut syneches est, id est
+        continua, qua loquentes aut lectionem legentes, verba continuatim percurrimus: aut
+        diastematice, id est, cum intervallo suspensa, quam canendo suspendimus, in qua non
+        sermonibus, sed modulis inservimus; de qua modo sermo versatur.</p>
+      <p xml:id="REGHAR0026">10. Sciendum autem, quod ex voce aut tono procreatur consonantia. Sed
+        et hoc attendendum, quod in his vocibus aut sonis, quae nulla inaequalitate discordant,
+        nulla omnino consonantia est. Diffinitur autem ita consonantia: consonantia est dissimilium
+        inter se vocum in unum redacta concordia. Aliter: consonantia est acuti soni gravisque
+        mixtura, suaviter uniformiterque auribus accidens. Et contra dissonantia est duorum sonorum
+        sibimet permixtorum ad aurem veniens aspera atque iniucunda percussio. Consonantiam vero
+        licet aurium sensus diiudicet, ratio tamen perpendit. Quotiens enim duae chordae
+        intenduntur, et una ex his gravius, altera acutius resonat, simulque pulsae reddunt
+        permixtum quodammodo et suavem sonum, duaeque voces in unum quasi coniunctae coalescunt,
+        tunc fit ea, quae dicitur consonantia. Cum vero simul pulsis sibi quisque contraire nititur,
+        nec permiscent ad aurem suavem atque unum ex duobus compositum sonum, tunc est, quae dicitur
+        dissonantia.</p>
+      <p xml:id="REGHAR0027">Sunt autem numeri, qui consonantias creant, aut per quos ipsae
+        consonantiae discernuntur, tantummodo sex, id est, epitritus, hemiolius, duplaris,
+        triplaris, quadruplus, et epogdous. Est autem epitritus, cum de duobus numeris maior habet
+        totum minorem, et insuper eius tertiam partem, ut sunt quatuor ad tria. Nam in quatuor sunt
+        tria, et tertia pars trium, id est, unum. Et is numerus vocatur in arithmetica
+        sesquitertius, deque eo nascitur symphonia, id est, consonantia, quae in musica appellatur
+        diatessaron.</p>
+      <p xml:id="REGHAR0028">Hemiolius est, cum de duobus numeris maior habet totum minorem, et
+        insuper eius medietatem, ut sunt tria ad <pb n="[238]"/>duo. Nam in tribus sunt duo, et
+        media pars eorum, id est, unum. Et appellatur hic numerus sesquialter in arithmetica, et de
+        eo fit symphonia, quae nuncupatur Diapente. Duplaris numerus est, cum de duobus numeris
+        minor in maiore bis numeratur, ut sunt quatuor ad duo; et ex hoc duplari nascitur symphonia,
+        cui nomen est Diapason.</p>
+      <p xml:id="REGHAR0029">Triplaris est, cum de duobus numeris minor ter in maiore numeratur, ut
+        sunt tria ad unum, et ex hoc triplari oritur symphonia, quae nuncupatur Diapason cum
+        Diapente. Quadruplaris numerus est, cum de duobus numeris minor quater in maiore numeratur,
+        ut sunt quatuor ad unum: qui numerus facit symphoniam, quam dicunt bis diapason.</p>
+      <p xml:id="REGHAR0030">Epogdous est numerus, qui intra se habet minorem, et insuper eius
+        octavam parte, ut novem ad octo, quia in novem et octo sunt, et insuper octava pars eorum,
+        id est, unum. Appellant autem hunc numerum arithmetici sesquioctavum. Parit vero hic numerus
+        sonum, quem tonum musici vocavere. Sonum vero tono minorem veteres quidem semitonium
+        vocitare voluerunt: sed non ita accipiendum est, ut dimidius tonus putetur, quia nec
+        semivocalem in litteris pro medietate vocalis accipimus. Deinde tonus per naturam sui in duo
+        dividi sibi aequalia non poterit. Cum enim ex novenario numero constet, novem autem numquam
+        aequaliter dividantur, tonus in duas dividi medietates recusat. Sed semitonium vocaverunt
+        sonum tono minorem, quem tam parvo intervallo distare deprehensum est, quam hi duo numeri
+        inter se distant, id est, ducenta quadraginta tria, et ducenta quinquaginta sex. Hoc sem
+        tonium Pythagorici quidam veteres diesin nominabant; sed sequens usus sonum se minorem
+        diesin constituit nominandum. Plato semitonium limma vocitavit.</p>
       <p xml:id="REGHAR0031">Hae sunt partes, in quibus omnis musica resolvitur. Sunt igitur quinque
         symphoniae, id est, consonantiae: diatessaron, diapente, diapason, et diapente, et bis
         diapason. Constitunt itaque omnes musicae consonantiae aut in duplici, aut in triplici, aut
@@ -372,23 +384,24 @@
         quae in numeris est sesquitertia, diatessaron in sonis: quae in numeris sesquialtera,
         diapente appellatur in vocibus: quae dupla in numeris, diapason in consonantiis: tripla vero
         diapente ac diapason: quadrupla autem bis diapason.</p>
-      <p xml:id="REGHAR0032">Agnoscat autem diligens lector, quod consonantiae consonantiis superpositae
-        alias quasdam consonantias effecere. Nam diapente et diaessaron iunctae diapason
-        consonantiam creant. Huic vero, id est, diapason, si diapente iungatur, fit consonantia,
-        quae ex utrisque vocabulis nuncupatur, diapason scilicet et diapente. Cui si diatessaron
-        additur, fit bis diapason.</p>
-      <p xml:id="REGHAR0033">Illud praeterea sciendum, quod si diapason et diatessaron iungantur, nullam
-        efficiant consonantiam. Statim enim in superpartiente inaequalitatis genere cadit, nec
-        servat vel multiplicatis ordinem, vel superparticularitatis simplicitatem. Qualiter vero hoc
-        approbari possit, longum est hoc loco inserere. Quisquis autem id plenius scire desiderat,
-        legat secundum Boetii librum de institutione harmonica. Hoc tamen unum breviter <pb n="[239]"/>commemorasse sufficiat, quod ab inaequalibus numeris concordia fit
+      <p xml:id="REGHAR0032">Agnoscat autem diligens lector, quod consonantiae consonantiis
+        superpositae alias quasdam consonantias effecere. Nam diapente et diaessaron iunctae
+        diapason consonantiam creant. Huic vero, id est, diapason, si diapente iungatur, fit
+        consonantia, quae ex utrisque vocabulis nuncupatur, diapason scilicet et diapente. Cui si
+        diatessaron additur, fit bis diapason.</p>
+      <p xml:id="REGHAR0033">Illud praeterea sciendum, quod si diapason et diatessaron iungantur,
+        nullam efficiant consonantiam. Statim enim in superpartiente inaequalitatis genere cadit,
+        nec servat vel multiplicatis ordinem, vel superparticularitatis simplicitatem. Qualiter vero
+        hoc approbari possit, longum est hoc loco inserere. Quisquis autem id plenius scire
+        desiderat, legat secundum Boetii librum de institutione harmonica. Hoc tamen unum breviter
+          <pb n="[239]"/>commemorasse sufficiat, quod ab inaequalibus numeris concordia fit
         consonantiarum. Quae vero sunt inaequalia numerorum genera, quinque inter se modis
         dissentiunt in sua inaequalitate. Aut enim alterum ab altero multiplicitate transcenditur,
         aut singulis partibus, aut pluribus, aut multiplicitate et parte, aut multiplicitate et
         partibus. Si quis autem has inaequalitatum species considerare desiderat, primum Boetii in
         Arithmetica librum legat.</p>
-      <p xml:id="REGHAR0034">Notandum autem, quod ex supradictis quinque inaequalitatum generibus duo
-        tantum ad harmonicas formandas consonantias adsumuntur, id est, multiplex et
+      <p xml:id="REGHAR0034">Notandum autem, quod ex supradictis quinque inaequalitatum generibus
+        duo tantum ad harmonicas formandas consonantias adsumuntur, id est, multiplex et
         superparticularis. Multiplex ille numerus dicitur, qui minorem numerum duplo aut triplo aut
         quadruplo in se continet. Et ex hoc formantur diapason consonantiae. Superparticularis vero
         ille numerus dicitur, qui minorem numerum totum in se habet, et insuper eius medietatem, aut
@@ -438,10 +451,10 @@
         locutio, audiri potest, videri non potest. Reliquae quatuor, id est, arithmetica,
         geometrica, musica, et astrologia nequaquam animo ad liquidum percipiuntur, nisi oculo
         videantur, digito demonstrentur.</p>
-      <p xml:id="REGHAR0038">13. Quamobrem nobis utile et pernecessarium videtur, ut primo de chordis et
-        earum nominibus parumper disseramus, et unicuique chordae suum subiiciamus tonum, ut cum de
-        supradictis consonantiis aliquid apertius et manifestius ceperimus tractare, mittere
-        possimus sobrium cantorem ad praefatas chordas, ut ibi oculo inspiciat, et digito
+      <p xml:id="REGHAR0038">13. Quamobrem nobis utile et pernecessarium videtur, ut primo de
+        chordis et earum nominibus parumper disseramus, et unicuique chordae suum subiiciamus tonum,
+        ut cum de supradictis consonantiis aliquid apertius et manifestius ceperimus tractare,
+        mittere possimus sobrium cantorem ad praefatas chordas, ut ibi oculo inspiciat, et digito
         contrectet, quod a nobis verbo et scripto aure percipit. De inventione autem chordarum, vel
         qualiter a diversis per diversa tempora additus sit numerus earum, brevitatis causa
         praetermittimus. Disponantur itaque per ordinem nervi, in quibus perficitur et demonstratur
@@ -516,8 +529,8 @@
         in hac epistola explanare, cum eius perplexam subtilitatem vix valuerit insignis auctor
         Boetius in quinque libris explicare. Illud tantum notamus, quod praedicta tetrachorda quina
         in viginti octo chordis extenduntur.</p>
-      <p xml:id="REGHAR0058">16. Haec de chordis, et earum nominibus praemissis: iam tempus est, ut de
-        consonantiarum vocabulis, earumque vocibus propter minus intelligentes paullo planius et
+      <p xml:id="REGHAR0058">16. Haec de chordis, et earum nominibus praemissis: iam tempus est, ut
+        de consonantiarum vocabulis, earumque vocibus propter minus intelligentes paullo planius et
         apertius disseramus. Quamquam enim omnia, quae ad musicam pertinent, ex maxima parte
         superius commemoravimus, tamen quia nomina graeca sunt, expositorem requirunt. Diatessaron
         igitur graece ex quatuor latine dici potest: non ea ratione, quod ex quatuor constet numeris
@@ -528,25 +541,26 @@
         minorem sonum totum in se continet, et insuper tertiam partem minoris vocis aut toni,
         diatessaron consonantiam creat, fitque semper in quarta chorda; denique a proslambanomenos
         ad lichanos hypaton resonat diatessaron, ut supra monstratum est.</p>
-      <p xml:id="REGHAR0059">Diapente interpretatur ex quinque, dia graece ex, praepositio est, pente
-        quinque. Diapente dicitur, eoquod ex quinque vocibus aut sonis perficiatur; estque vocum
-        quidem quinque, intervallorum vero quatuor. Igitur quando maior vox minorem <pb n="[243]"/>vocem tota sui praecedit quanitate, et insuper superatae vocis medietatem transcendit,
-        sive in acumine sive in gravitate, haec symphonia diapente dicitur, fitque semper in quinta
-        chorda. Nam lichanos hypaton ad mesen, diapente consonantiam resonat.</p>
-      <p xml:id="REGHAR0060">Diapason interpretari potest ex omnibus, ex omnibus enim semitoniis, tonis
-        et consonantiis fit. Siquidem ex diapente et diatessaron constat diapason. Igitur quando
-        maior vox minorem vocem dupla sui quantitate superat, sive in extensione acuminis, sive in
-        remissione gravitatis, haec talis symphonia appellatur diapason, fitque semper in octava
-        chorda. Nam proslambanomenos ad mesen, diapason consonantiam resonat, estque principalior
-        atque honorabilior ceteris consonantiis. Porro diapason et diapente consonantia formatur,
-        cum maior vox vel sonus minorem vocem vel sonum tripla sui quantitate transcendit in acumine
-        aut gravitate, fitque semper in duodecima chorda. Denique proslambanomenos ad neten
-        diezeugmenon diapason et diapente consonantiam resonat. Bisdiapason consonantia dicitur,
-        quando maior vox vel sonus minorem vocem vel sonum quadrupla sui quantitate excedit in
-        acumine, aut gravitate; fitque semper in quinta decima chorda. Nam proslambanomenos ad neten
-        hyperboleon bis diapason consonantiam resonat.</p>
-      <p xml:id="REGHAR0061">17. Tonus vero vocatur, quando maior vox aut tonus minorem vocem aut sonum
-        totum possidet, et insuper eius octavam partem, fitque semper in secunda chorda. Nam
+      <p xml:id="REGHAR0059">Diapente interpretatur ex quinque, dia graece ex, praepositio est,
+        pente quinque. Diapente dicitur, eoquod ex quinque vocibus aut sonis perficiatur; estque
+        vocum quidem quinque, intervallorum vero quatuor. Igitur quando maior vox minorem <pb
+          n="[243]"/>vocem tota sui praecedit quanitate, et insuper superatae vocis medietatem
+        transcendit, sive in acumine sive in gravitate, haec symphonia diapente dicitur, fitque
+        semper in quinta chorda. Nam lichanos hypaton ad mesen, diapente consonantiam resonat.</p>
+      <p xml:id="REGHAR0060">Diapason interpretari potest ex omnibus, ex omnibus enim semitoniis,
+        tonis et consonantiis fit. Siquidem ex diapente et diatessaron constat diapason. Igitur
+        quando maior vox minorem vocem dupla sui quantitate superat, sive in extensione acuminis,
+        sive in remissione gravitatis, haec talis symphonia appellatur diapason, fitque semper in
+        octava chorda. Nam proslambanomenos ad mesen, diapason consonantiam resonat, estque
+        principalior atque honorabilior ceteris consonantiis. Porro diapason et diapente consonantia
+        formatur, cum maior vox vel sonus minorem vocem vel sonum tripla sui quantitate transcendit
+        in acumine aut gravitate, fitque semper in duodecima chorda. Denique proslambanomenos ad
+        neten diezeugmenon diapason et diapente consonantiam resonat. Bisdiapason consonantia
+        dicitur, quando maior vox vel sonus minorem vocem vel sonum quadrupla sui quantitate excedit
+        in acumine, aut gravitate; fitque semper in quinta decima chorda. Nam proslambanomenos ad
+        neten hyperboleon bis diapason consonantiam resonat.</p>
+      <p xml:id="REGHAR0061">17. Tonus vero vocatur, quando maior vox aut tonus minorem vocem aut
+        sonum totum possidet, et insuper eius octavam partem, fitque semper in secunda chorda. Nam
         proslambanomenos ad hypaten hypaton tonum resonat. Idque sciendum est, quod dicitur epogdous
         in arithmetica, tonus appellatur in musica. Epogdous autem dicitur, quasi epiogdous, id est,
         superoctavus. Dividitur autem tonus in duobus semitoniis: non quod omnino semitonia ex aequo
@@ -586,17 +600,17 @@
         duobus tonis. Comma vero est spatium, quo maior est sesquioctava proportio duabus diesibus,
         id est, duobus semitoniis minoribus. Schisma est dimidium commatis, diaschisma vero dimidium
         dieseos, id est, semitonii minoris.</p>
-      <p xml:id="REGHAR0063">Ex quibus illud colligitur, quamquam tonus quidem dividitur principaliter
-        in semitonium minus atque apotomen; dividitur etiam in duo semitonia et comma: quo fit, ut
-        dividatur in duo diaschismata et comma. Integrum vero dimidium toni, quod est semitonium;
-        constat ex duobus diaschismatibus, quod est unum semitonium minus, et schisma quod est
-        dimidium commatis. Quamquam enim totus tonus ex duobus semitoniis minoribus et commate
-        coniunctus est, si quis id integre dividere velit, faciat unum semitonium minus, commatisque
-        dimidium. Sed unum semitonium minus dividitur in duo schismata; dimidium vero commatis unum
-        schisma. Recte igitur dictum est, integre dimidium tonum in duo diaschismata atque unum
-        schisma posse partiri. Quo fit, ut integrum semitonium minora semitonia uno schismate
-        differre videatur: Apotome autem a minore semitonio duobus schismatibus differre; differt
-        enim commate. Sed duo schismata unum perficiunt comma.</p>
+      <p xml:id="REGHAR0063">Ex quibus illud colligitur, quamquam tonus quidem dividitur
+        principaliter in semitonium minus atque apotomen; dividitur etiam in duo semitonia et comma:
+        quo fit, ut dividatur in duo diaschismata et comma. Integrum vero dimidium toni, quod est
+        semitonium; constat ex duobus diaschismatibus, quod est unum semitonium minus, et schisma
+        quod est dimidium commatis. Quamquam enim totus tonus ex duobus semitoniis minoribus et
+        commate coniunctus est, si quis id integre dividere velit, faciat unum semitonium minus,
+        commatisque dimidium. Sed unum semitonium minus dividitur in duo schismata; dimidium vero
+        commatis unum schisma. Recte igitur dictum est, integre dimidium tonum in duo diaschismata
+        atque unum schisma posse partiri. Quo fit, ut integrum semitonium minora semitonia uno
+        schismate differre videatur: Apotome autem a minore semitonio duobus schismatibus differre;
+        differt enim commate. Sed duo schismata unum perficiunt comma.</p>
       <p xml:id="REGHAR0064">Hoc totum idcirco posuimus, ut difficultatem semitoniorum ostenderemus,
         quae magis numerorum proportionibus, quam sonorum varietate exprimi et demonstrari possunt.
         Si quis vero tantae <pb n="[245]"/>profunditatis ac perplexae subtilitatis curiosus
@@ -604,23 +618,23 @@
         ibi fortassis non solum eius curiositati satisfiet, verum etiam suum experiri poterit
         ingenium. Si enim ad haec capienda idoneus inventus fuerit, noverit, nihil sibi difficile in
         septem liberalibus disciplinis.</p>
-      <p xml:id="REGHAR0065">Omissis ergo, quae paucorum intellectus capit, ea dicamus, quae multorum
-        sensus colligere potest. Sciendum itaque est, quod quamquam octo sint toni, qui diapason
-        consonantiam complent, tamen non sunt amplius, quam septem dissimiles soni, tono inter se
-        distantes, quia octavus idem est, qui et primus in duplo. Nonus idem est, qui et secundus in
-        duplo; sic et in ceteris. Horum conscius Virgilius dicit: Est mihi disparibus septem
-        compacta cicutis Fistula.</p>
+      <p xml:id="REGHAR0065">Omissis ergo, quae paucorum intellectus capit, ea dicamus, quae
+        multorum sensus colligere potest. Sciendum itaque est, quod quamquam octo sint toni, qui
+        diapason consonantiam complent, tamen non sunt amplius, quam septem dissimiles soni, tono
+        inter se distantes, quia octavus idem est, qui et primus in duplo. Nonus idem est, qui et
+        secundus in duplo; sic et in ceteris. Horum conscius Virgilius dicit: Est mihi disparibus
+        septem compacta cicutis Fistula.</p>
       <p xml:id="REGHAR0066">Ex septem igitur disparibus cicutis fistula fit, quia ex septem
         dissimilibus vocibus aut sonis tota perficitur consonantia. Unde et quidam septem tantum
         volunt tonos.</p>
-      <p xml:id="REGHAR0067">Quod vero Martianus introducit novem musas in nuptiis philologiae diversa
-        carmina cantantes, ad harmoniam coelestem pertinet, quae novem ordines habere dignoscitur,
-        scilicet propter septem planetas, octavamque sphaeram coelestem, et nonam terram. Sed octo
-        omnes consonantias resonant; nona, id est, terra, perpetuo silentio tacet, quia immobilis
-        est. Hinc est, quod cum octo musae subvectae in circulis coelestibus essent, nona, id est,
-        Thalia in terra remansit. Nam cum Urania sphaeram coelestem, Polymnia Saturni, Euterpe
-        Iovis, Erato Martis, Melpomene Solis, Terpsichore Veneris, Calliope Mercurii, Clio Lunae
-        circulos subintrassent, ut ibi dulces resonarent modos: sola Thalia derelicta in ipso
+      <p xml:id="REGHAR0067">Quod vero Martianus introducit novem musas in nuptiis philologiae
+        diversa carmina cantantes, ad harmoniam coelestem pertinet, quae novem ordines habere
+        dignoscitur, scilicet propter septem planetas, octavamque sphaeram coelestem, et nonam
+        terram. Sed octo omnes consonantias resonant; nona, id est, terra, perpetuo silentio tacet,
+        quia immobilis est. Hinc est, quod cum octo musae subvectae in circulis coelestibus essent,
+        nona, id est, Thalia in terra remansit. Nam cum Urania sphaeram coelestem, Polymnia Saturni,
+        Euterpe Iovis, Erato Martis, Melpomene Solis, Terpsichore Veneris, Calliope Mercurii, Clio
+        Lunae circulos subintrassent, ut ibi dulces resonarent modos: sola Thalia derelicta in ipso
         florentis campi ubere, id est, in circulo terrae resedit, eoquod vector eius, id est,
         deportator cygnus impatiens oneris, et etiam subvolandi, id est, cum nollet eam ferre et
         subvolare, id est, sursum volare, petiit alumna stagna, id est, nutritoria et sibi cara.
@@ -630,26 +644,26 @@
         novem rebus formatur. Primo appulsu quatuor dentium, repercussione duorum labrorum, plectro
         linguae, cavo gutturis, respiratione pulmonis. Si enim ex his aliquid defuerit, vox perfecta
         non erit.</p>
-      <p xml:id="REGHAR0068">18. Sed ecce dum tonos ostendere conamur, per vastissimam et profundissimam
-        musicae institutionis silvam longius evagati sumus, quae tantae caliginis obscuritate
-        involvitur, ut a notitia humana recessisse videatur. Namque cum perpauci sint, qui eius vim
-        et naturam certa ratione perpendant, tamen quod de ea intelligunt, manuum opere ad liquidum
-        demonstrare non possunt. Rursus cum multi sint, qui eam digitis operentur, vel vocis sono
-        promant, eius tamen vim atque naturam minime intelligunt. Denique si roges citharoedum sive
-        lyricum, vel alium quemlibet (ut) instrumentorum musicorum <pb n="[246]"/>notitiam, aut
-        consonantias ostendat, cognationem chordarum, qualiter illa chorda ad aliam rata numerorum
-        proportione societur; nullum tibi penitus ex his dabit responsum. Solum hoc confitebitur,
-        quod haec ita faciat, sicut a magistro accepit et didicit. Cum igitur a scientibus et a
-        nescientibus se musica ex permaxima parte abscondit, quasi profundo obtecta caligine iacet.
-        Hinc aiunt fabulam Orphei et Eurydicis esse confictam. Siquidem Orpheus Eurydicem nympham
-        amavit, quam sono citharae mulcens uxorem duxit. Hanc Aristeus pastor dum amans sequitur,
-        illa sugiens in serpentem incidit, et mortua est. Quod cum maritus cognovisset, eam sono
-        citharae de inferno ad superos conatus est revocare; sed minime valuit. Orpheus dicitur
-        quasi oreon phone, id est, optima vox. Eurydices interpretatur profunda diiudicatio. Orpheus
-        ergo vult revocare de inferno Eurydicem sono citharae, sed non praevalet, quia humanum
-        ingenium conatur profunditatem harmonicae subtilitatis penetrare, et eam certis rationibus
-        diiudicare et discernere, et ad lucem, id est, ad scientiam revocare; sed illa humanam
-        cognitionem refugiens in tenebris ignorantiae latet.</p>
+      <p xml:id="REGHAR0068">18. Sed ecce dum tonos ostendere conamur, per vastissimam et
+        profundissimam musicae institutionis silvam longius evagati sumus, quae tantae caliginis
+        obscuritate involvitur, ut a notitia humana recessisse videatur. Namque cum perpauci sint,
+        qui eius vim et naturam certa ratione perpendant, tamen quod de ea intelligunt, manuum opere
+        ad liquidum demonstrare non possunt. Rursus cum multi sint, qui eam digitis operentur, vel
+        vocis sono promant, eius tamen vim atque naturam minime intelligunt. Denique si roges
+        citharoedum sive lyricum, vel alium quemlibet (ut) instrumentorum musicorum <pb n="[246]"
+        />notitiam, aut consonantias ostendat, cognationem chordarum, qualiter illa chorda ad aliam
+        rata numerorum proportione societur; nullum tibi penitus ex his dabit responsum. Solum hoc
+        confitebitur, quod haec ita faciat, sicut a magistro accepit et didicit. Cum igitur a
+        scientibus et a nescientibus se musica ex permaxima parte abscondit, quasi profundo obtecta
+        caligine iacet. Hinc aiunt fabulam Orphei et Eurydicis esse confictam. Siquidem Orpheus
+        Eurydicem nympham amavit, quam sono citharae mulcens uxorem duxit. Hanc Aristeus pastor dum
+        amans sequitur, illa sugiens in serpentem incidit, et mortua est. Quod cum maritus
+        cognovisset, eam sono citharae de inferno ad superos conatus est revocare; sed minime
+        valuit. Orpheus dicitur quasi oreon phone, id est, optima vox. Eurydices interpretatur
+        profunda diiudicatio. Orpheus ergo vult revocare de inferno Eurydicem sono citharae, sed non
+        praevalet, quia humanum ingenium conatur profunditatem harmonicae subtilitatis penetrare, et
+        eam certis rationibus diiudicare et discernere, et ad lucem, id est, ad scientiam revocare;
+        sed illa humanam cognitionem refugiens in tenebris ignorantiae latet.</p>
       <p xml:id="REGHAR0069">Interea sciendum est, quod non ille dicitur musicus, qui eam manibus
         tantummodo operatur, sed ille veraciter musicus est, qui de musica naturaliter novit
         disputare, et certis rationibus eius sensus enodare. Omnis enim ars, omnisque disciplina
@@ -663,15 +677,15 @@
         cithara dicitur, lyricus ex lyra, tibicina a tibia, ceterique suorum instrumentorum
         vocabulis nuncupantur. Musicus autem non ab aliquo instrumento, sed ab ipsa musica nomen
         accepit.</p>
-      <p xml:id="REGHAR0070">Is itaque Musicus est, qui ratione perpensa canendi scientiam non servitio
-        operis, sed imperio speculationis adsumsit. Quisquis igitur harmonicae institutionis vim
-        atque rationem penitus ignorat, frustra sibi nomen cantoris usurpat, tametsi cantare optime
-        sciat. Neque enim ille, qui lectionem legit, sed qui lectionem exponit, magister appellatur.
-        Et licet pueri psalmorum verba memoriter decantent, ab eorum tamen scientia alieni existunt,
-        quia eorum sensus mysticos penetrare nesciunt. Itaque sicut non sufficit in visu eruditis
-        viris, colores formasque conspicere, nisi etiam, quae sit horum proprietas, investigaverint:
-        sic non sufficit cantilenis musicis animum oblectari, nisi etiam, quali inter se iunctae
-        sint sonorum vel vocum proportione, discatur.</p>
+      <p xml:id="REGHAR0070">Is itaque Musicus est, qui ratione perpensa canendi scientiam non
+        servitio operis, sed imperio speculationis adsumsit. Quisquis igitur harmonicae
+        institutionis vim atque rationem penitus ignorat, frustra sibi nomen cantoris usurpat,
+        tametsi cantare optime sciat. Neque enim ille, qui lectionem legit, sed qui lectionem
+        exponit, magister appellatur. Et licet pueri psalmorum verba memoriter decantent, ab eorum
+        tamen scientia alieni existunt, quia eorum sensus mysticos penetrare nesciunt. Itaque sicut
+        non sufficit in visu eruditis viris, colores formasque conspicere, nisi etiam, quae sit
+        horum proprietas, investigaverint: sic non sufficit cantilenis musicis animum oblectari,
+        nisi etiam, quali inter se iunctae sint sonorum vel vocum proportione, discatur.</p>
       <p xml:id="REGHAR0071">Haec ex multis pauca perstrinximus, ne musicis ac peritis cantoribus de
         nostra <pb n="[247]"/>imperitia risum praeberemus. Nequaquam autem haec legenda Walcaudo
         proponimus, aut ad talia discenda eius animum provocamus; frustra enim lyra asino canitur.

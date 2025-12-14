@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De musica et tonis tractatus</title>
         <title type="abbrev">METANO1</title>
-        <author>Anonymous</author>
-        <date notBefore="1100" notAfter="1199">12th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1993</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1993">1993</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Dominicus Mettenleiter, <emph>Musikgeschichte der Stadt
             Regensburg</emph> (Regensburg: Bössenecker, 1866), 13–21. </bibl>
@@ -44,11 +54,11 @@
         <pb n="[13]"/>Anonymi cujusdam de Musica et Tonis Tractatus.</p>
       <p xml:id="METANO10002">
         <pb n="[14]"/>I. De Numeris Musicis Et De Consonantiis.</p>
-      <p xml:id="METANO10003">Ex omni innumera varietate numerorum pauci <pb n="[15]"/>et numerabiles
-        inventi sunt, qui sibi ad efficiendam musicam convenirent. Sunt autem ex his omnibus sex
-        epytritus emiolus duplaris triplaris quadruplus et epogdous.</p>
-      <p class="textFig" xml:id="METANO10004">*      *      *      *      *      *      *      *      *      *
-        <lb/></p>
+      <p xml:id="METANO10003">Ex omni innumera varietate numerorum pauci <pb n="[15]"/>et
+        numerabiles inventi sunt, qui sibi ad efficiendam musicam convenirent. Sunt autem ex his
+        omnibus sex epytritus emiolus duplaris triplaris quadruplus et epogdous.</p>
+      <p class="textFig" xml:id="METANO10004"
+        >*      *      *      *      *      *      *      *      *      * <lb/></p>
       <p xml:id="METANO10005">III. Breviarium de Musica.</p>
       <p xml:id="METANO10006">Compendiosum de musica breviarium collecturi et quasi quamdam
         introductionem facturi primum quid sit musica dicamus ut per eius deffinitionem promptiores
@@ -81,40 +91,41 @@
       <p xml:id="METANO10007">IV. De inventione et ordine chordarum.</p>
       <p xml:id="METANO10008">Simplicem in principio fuisse musicam boetius auctore nicomacho refert
         adeo ut quatuor nervis tota constaret notitia. Ejus quadricordi mercurius dicitur inventor
-        fuisse idque usque ad orpheum duravisse. Quatuor autem his quintum postea <pb n="[16]"/>nervum chorebus lydiae rex adjecit, sextum hyagnis phrix apposuit, septimum terpander
+        fuisse idque usque ad orpheum duravisse. Quatuor autem his quintum postea <pb n="[16]"
+        />nervum chorebus lydiae rex adjecit, sextum hyagnis phrix apposuit, septimum terpander
         lesbius adiunxit, sicque ad similitudinem septem planetarum ex tetrachordo eptachordum
         reddulit.</p>
-      <p class="textFig" xml:id="METANO10009">*      *      *      *      *      *      *      *      *      *
-        <br/></p>
-      <p xml:id="METANO10010">Veluti si senex gravi voce aliquid praecinat puerulus autem idipsum acuta
-        et equali voce seni concinat vel si puer praecinat acuta voce senex autem idipsum puero
-        concinat graviore.</p>
-      <p class="textFig" xml:id="METANO10011">*      *      *      *      *      *      *      *      *      *
-        <lb/></p>
-      <p xml:id="METANO10012">Qui cupias priscum modulandi noscere nisum Huc venias nam certa tonorum
-        hic patet analogia itaque minorum Octo tonis totum constat perpendere cantum. Homine major
-        distinctis Quatuor hos nervi discernunt lege canendi. Singulus ut varios teneat simul ordine
-        binos perpatemeson secundum Primum major lychanos hypatonque minorum. Post simul amborum hg
-        Ordo hinc quem poscat meson parybate noscat. In concordia fine; Quartum et eorundem lychanos
-        meson praebet idem. Quod loquor est tale. sit ut haec Quatuor est non maiorum ascensio
-        nervus. Et quidem non totidem fecit quoque raro minorum Omnibus inmixtis simul est descensio
-        quintus Ista probatur mente circans species diapente Gnarus quis cordi figit tactor
-        monochordi.</p>
-      <p class="textFig" xml:id="METANO10013">*      *      *      *      *      *      *      *      *      *
-        <br/></p>
+      <p class="textFig" xml:id="METANO10009"
+        >*      *      *      *      *      *      *      *      *      * <br/></p>
+      <p xml:id="METANO10010">Veluti si senex gravi voce aliquid praecinat puerulus autem idipsum
+        acuta et equali voce seni concinat vel si puer praecinat acuta voce senex autem idipsum
+        puero concinat graviore.</p>
+      <p class="textFig" xml:id="METANO10011"
+        >*      *      *      *      *      *      *      *      *      * <lb/></p>
+      <p xml:id="METANO10012">Qui cupias priscum modulandi noscere nisum Huc venias nam certa
+        tonorum hic patet analogia itaque minorum Octo tonis totum constat perpendere cantum. Homine
+        major distinctis Quatuor hos nervi discernunt lege canendi. Singulus ut varios teneat simul
+        ordine binos perpatemeson secundum Primum major lychanos hypatonque minorum. Post simul
+        amborum hg Ordo hinc quem poscat meson parybate noscat. In concordia fine; Quartum et
+        eorundem lychanos meson praebet idem. Quod loquor est tale. sit ut haec Quatuor est non
+        maiorum ascensio nervus. Et quidem non totidem fecit quoque raro minorum Omnibus inmixtis
+        simul est descensio quintus Ista probatur mente circans species diapente Gnarus quis cordi
+        figit tactor monochordi.</p>
+      <p class="textFig" xml:id="METANO10013"
+        >*      *      *      *      *      *      *      *      *      * <br/></p>
       <p xml:id="METANO10014">
         <pb n="[17]"/>Multi tamen auctoritatem illorum in eisdem intervallis sequebantur, quod etiam
         versus sequentes de his perquirenda compositi testantur.</p>
-      <p xml:id="METANO10015">Ut [G supra lin.] cantor [F D supra lin.] iunctis [G G supra lin.] derives
-        [G d c supra lin.] singula [e c d supra lin.] punctis [d G supra lin.] Intervalla novem
-        dabit hec lex agnitionem Primus habet limma quo non vox strictior ulla Assonat huic ptongus
-        subiectum limma secundus. Emicat inde tonus conexo limmate ternus Quatuor atque modum
-        quartum dat vis atomorum Hinc quintum captas si sic diatesseron aptas Hinc sextum recinis si
-        binam diesin addes Vox diapentinam sonat emmele septima formam Juncto dichotomo sonat hinc
-        ogdoa formam. Procinis inde sonum conexo limmate nonum Iste suo cunctos concludit lyra mate
-        ptongos.</p>
-      <p class="textFig" xml:id="METANO10016">*      *      *      *      *      *      *      *      *      *
-        <lb/></p>
+      <p xml:id="METANO10015">Ut [G supra lin.] cantor [F D supra lin.] iunctis [G G supra lin.]
+        derives [G d c supra lin.] singula [e c d supra lin.] punctis [d G supra lin.] Intervalla
+        novem dabit hec lex agnitionem Primus habet limma quo non vox strictior ulla Assonat huic
+        ptongus subiectum limma secundus. Emicat inde tonus conexo limmate ternus Quatuor atque
+        modum quartum dat vis atomorum Hinc quintum captas si sic diatesseron aptas Hinc sextum
+        recinis si binam diesin addes Vox diapentinam sonat emmele septima formam Juncto dichotomo
+        sonat hinc ogdoa formam. Procinis inde sonum conexo limmate nonum Iste suo cunctos concludit
+        lyra mate ptongos.</p>
+      <p class="textFig" xml:id="METANO10016"
+        >*      *      *      *      *      *      *      *      *      * <lb/></p>
       <p xml:id="METANO10017">Quatuor [E E t supra lin.] modi [t ts supra lin.] sunt [t supra lin.]
         quibus [e t supra lin.] omnis [t ts supra lin.] cantilena [s t t t supra lin.] dinoscitur [s
         t ts s supra lin.], quos istis notulis prenotamus. Primus modus talis habetur. qui diapente
@@ -123,20 +134,20 @@
         sustollitur. diapente reflectitur. Si quis hos modos memoriae commendaverit. facile omnem
         tropum agnoscere valebit. nec non aeque hactenus inauditam cantilenam corrigere quibit
         depravatam.</p>
-      <p class="textFig" xml:id="METANO10018">*      *      *      *      *      *      *      *      *      *
-        <br/></p>
+      <p class="textFig" xml:id="METANO10018"
+        >*      *      *      *      *      *      *      *      *      * <br/></p>
       <p xml:id="METANO10019">Quid significent et operentur he note.</p>
-      <p xml:id="METANO10020">E Voces unisonas equat. S Semitonii distantiam signat. T toni differentiam
-        tonat. S cum T semiditonum statuit. TT Duplicata ditonum titulat. d Diatesseron symphoniam
-        denotat. [Delta] Delta diapente consonantiam discriminat. [Delta]S Delta cum S limma cum
-        tritono limmata docet. T[Delta] cum T quater nos culimmate tonos maximum videlicet in
-        cantilenis ptongorum intervallum determinat.</p>
+      <p xml:id="METANO10020">E Voces unisonas equat. S Semitonii distantiam signat. T toni
+        differentiam tonat. S cum T semiditonum statuit. TT Duplicata ditonum titulat. d Diatesseron
+        symphoniam denotat. [Delta] Delta diapente consonantiam discriminat. [Delta]S Delta cum S
+        limma cum tritono limmata docet. T[Delta] cum T quater nos culimmate tonos maximum videlicet
+        in cantilenis ptongorum intervallum determinat.</p>
       <p xml:id="METANO10021">Sunt he note cum punctis remissis. sine punctis intensas vocum
         differentias discernunt ptaxata.</p>
-      <p class="textFig" xml:id="METANO10022">*      *      *      *      *      *      *      *      *      *
-        <lb/></p>
-      <p xml:id="METANO10023">Frutoteus nenis ceu stultus frat. istis Dans tamen octonis congrua multa
-        modis.</p>
+      <p class="textFig" xml:id="METANO10022"
+        >*      *      *      *      *      *      *      *      *      * <lb/></p>
+      <p xml:id="METANO10023">Frutoteus nenis ceu stultus frat. istis Dans tamen octonis congrua
+        multa modis.</p>
       <p xml:id="METANO10024">Quid teneat proprium varius sonus octo modorum. Scilicet antiphonis
         noscendis atque regendis. Ac distent inquo subscriptus continet ordo <pb n="[18]"/>Principii
         limam primus tenet hanc medicinam. Differt primum sic. Primum querite regnum Hinc etiam
@@ -164,30 +175,31 @@
         Dominus subjunge secunde Justorum. Dixit Sapentia. tercia sumit. Quarta. Priusquam te. Sic.
         lumen. In israel. Ecce Quinta. Deus meus es. Omnis Plebs Ponit. Euntes. Illos et. in.
         ecclesiis sexta sit barbara quamvis Tot vicibus variis cantus discernitur omnis.</p>
-      <p class="textFig" xml:id="METANO10026">*      *      *      *      *      *      *      *      *      *
-        <br/></p>
+      <p class="textFig" xml:id="METANO10026"
+        >*      *      *      *      *      *      *      *      *      * <br/></p>
       <p xml:id="METANO10027">Principio norme monochordum quadriforme. Lignum quadratum mensura
         quadruplicatum. Sedenas monstrat chordas. quis cantio constat Per grave finitum superans
         altum tetracordum. Protus dum scandit finali. nona reclangit. Dumque cadens refluit sibi
         cordula trita remugit Sex scandens plagis boat. et post tergula quadris. Hoc primi cuncti
         sunt undique firmate cincti. Ne decimam capite tangant. quartam neque calce. Subiectis
         reliquis contendis lege prioris.</p>
-      <p class="textFig" xml:id="METANO10028">*      *      *      *      *      *      *      *      *      *
-        <lb/></p>
-      <p xml:id="METANO10029">Primi toni melodiam psalles indirectum. Primus. Secundum autem in fine et
-        in medio sic variabis. Secundus. Tercium suspende in medio et in fime pcipita. Tertius.
+      <p class="textFig" xml:id="METANO10028"
+        >*      *      *      *      *      *      *      *      *      * <lb/></p>
+      <p xml:id="METANO10029">Primi toni melodiam psalles indirectum. Primus. Secundum autem in fine
+        et in medio sic variabis. Secundus. Tercium suspende in medio et in fime pcipita. Tertius.
         Quartus inprimis gradatim ascendit; tandem de alto cadit. Quartus. Quinti medietas secundo
         similis sed finis dissimilis. Quintus. Sextus. item ut primus imponitur sed aliter
         exponitur. Sextus. Septimus. quartum in medio respicit sed ad finem despicit. Septimus.
         Octavus quinto in medio respondens tali tenet et concluditur. Octavus.</p>
-      <p class="textFig" xml:id="METANO10030">*      *      *      *      *      *      *      *      *      *
-        <br/></p>
-      <p xml:id="METANO10031">Autentus primus tonus dicitur nobilis eo qd adoms affect apt sit. plagis
-        vero cantat flebilis. qua modulatio ejus esse vementior videtur tristibus rebus et miseris.
-        Autentus deuterus incitabilis plagis ejus modestus et gravis. Autentus tritus iocundus
-        plagis ejus voluptuosusus. Aut tetrardus letus et hilaris plagis eius suavis et dulcis.</p>
-      <p class="textFig" xml:id="METANO10032">*      *      *      *      *      *      *      *      *      *
-        <lb/></p>
+      <p class="textFig" xml:id="METANO10030"
+        >*      *      *      *      *      *      *      *      *      * <br/></p>
+      <p xml:id="METANO10031">Autentus primus tonus dicitur nobilis eo qd adoms affect apt sit.
+        plagis vero cantat flebilis. qua modulatio ejus esse vementior videtur tristibus rebus et
+        miseris. Autentus deuterus incitabilis plagis ejus modestus et gravis. Autentus tritus
+        iocundus plagis ejus voluptuosusus. Aut tetrardus letus et hilaris plagis eius suavis et
+        dulcis.</p>
+      <p class="textFig" xml:id="METANO10032"
+        >*      *      *      *      *      *      *      *      *      * <lb/></p>
       <p xml:id="METANO10033">
         <pb n="[20]"/>Eadem mensura pertotum in sequentibus septem feruetur. idem unaqueque prioris
         duplicate mensuretur. Si etenim mensurasti primam ad inueniendam octavam. sic sua quantitate
@@ -202,11 +214,11 @@
         Volunt autem quidam fistulam primam et longissimam hanc longitudinem habere. ut lineam hic
         exterius in margine positam novies in se possit continere circulum vero subpositum
         latitudinem esse omniumque caeterarum implere.</p>
-      <p class="textFig" xml:id="METANO10034">*      *      *      *      *      *      *      *      *      *
-        <br/></p>
+      <p class="textFig" xml:id="METANO10034"
+        >*      *      *      *      *      *      *      *      *      * <br/></p>
       <p xml:id="METANO10035">Alia Regula Domni Willihelmi de Fistulis:</p>
-      <p xml:id="METANO10036">In metiendis organorum fistulis novam artem ingredientes a minima usque ad
-        maximam conuertimus mensuram. et hoc lieet hactenus incognitum sit et inauditum. a
+      <p xml:id="METANO10036">In metiendis organorum fistulis novam artem ingredientes a minima
+        usque ad maximam conuertimus mensuram. et hoc lieet hactenus incognitum sit et inauditum. a
         peritioribus tamen organistis. eo gratius ut speramus accipietur. cet.--Ergo si ita ut
         dictum est disponantur. minimeque quantitas ut prenotatum est diligentius longitudine et
         latitudine obseruetur. neutrum de predictis modis excedunt. gravissime perflari queunt.
@@ -214,14 +226,15 @@
         possunt hoc modo (Vide figura in tabella II.) Prime ergo fistule quantitas idem longitudo
         eius in octo diuidatur. eique octava pars cum octava parte diametri apponatur. et erit
         secunda. eritque inter has tonus.</p>
-      <p class="textFig" xml:id="METANO10037">*      *      *      *      *      *      *      *      *      *
-        <lb/></p>
+      <p class="textFig" xml:id="METANO10037"
+        >*      *      *      *      *      *      *      *      *      * <lb/></p>
       <p xml:id="METANO10038">Versus cujusdam de eadem re:</p>
       <p xml:id="METANO10039">Si tibi surgat amor qd formes cymbala fusor. Herennas nostrum sumere
         consilium. semper id facias. Cum cera formes. sit adhuc tanta cera supstes. Et cantus
         recolas. C. Intresequi libres primam ceram tu dunae par tres. Quia scda vice formatur. G.
         Sintque due partes quinte forma secunda nole. D. Tercia forma nole sic est generanda scde.
-        Tercia vice formatur. G. Augeat ut quintae tercia pars positae. D. Ipsa secunda <pb n="[21]"/>tribus resecabitur atque duabus. A. Conflatur sexte formula quarta nole. Quarta vice
+        Tercia vice formatur. G. Augeat ut quintae tercia pars positae. D. Ipsa secunda <pb n="[21]"
+        />tribus resecabitur atque duabus. A. Conflatur sexte formula quarta nole. Quarta vice
         formatur. A. G. Tercia per sextam sic debet formam sumere. A. Unica sit ut sexte tercia pars
         sibimet. E. Tercia formatur tribus. unaq pronunciatur. F. Septima finalis fiat ut ex
         reliquis. C. Partes bis binas tunc primam cera scinde perequas. F. Cum tribus hinc quartam

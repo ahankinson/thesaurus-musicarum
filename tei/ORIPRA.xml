@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Practicae musicae utriusque praecepta brevia</title>
         <title type="abbrev">ORIPRA</title>
-        <author>Oridryus, Johannes</author>
-        <date notBefore="1500" notAfter="1599">16th</date>
+        <author><persName>Oridryus, Johannes</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Travis Yeager</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2007</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2007">2007</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Renate Federhofer-Königs, <emph>Johannes Oridryus und sein
             Musiktraktat (Düsseldorf 1557)</emph>, Beiträge zur rheinischen Musikgeschichte, vol. 24
@@ -39,9 +49,9 @@
       <p xml:id="ORIPRA0004">M. D. LVII</p>
       <p xml:id="ORIPRA0005">
         <pb n="[66]"/>Epistola dedicationis</p>
-      <p xml:id="ORIPRA0006">Ornatissimo viro Joanni ab Hoengen Wassenbergensi, Illustrissimi Principis
-        ac Domini D.Guilielmi Ducis Juliae, Cliviae et Montis et cetera consiliario quaestorique et
-        prudentissimo et fidelissimo salus.</p>
+      <p xml:id="ORIPRA0006">Ornatissimo viro Joanni ab Hoengen Wassenbergensi, Illustrissimi
+        Principis ac Domini D.Guilielmi Ducis Juliae, Cliviae et Montis et cetera consiliario
+        quaestorique et prudentissimo et fidelissimo salus.</p>
       <p xml:id="ORIPRA0007">Obsecuti honestissimae, Tuae Honestatis, voluntati ac mandato, vir
         ornatissime, ad praelectionem Musicae, artis liberalissimae, nos libenter paravimus. Ne quid
         enim in nobili vestra schola, quae magnis sumptibus Illustrissimi Principis pridem aperta
@@ -88,17 +98,18 @@
         erudiri communi lege sanxerunt, non ad lasciviae incitamenta, quibus ars ipsa vilescit, sed
         ad motus animi certa ratione moderandos.</p>
       <p xml:id="ORIPRA0015">/pag.5/ De definitione et divisione <lb/>Caput primum</p>
-      <p xml:id="ORIPRA0016">Musica est liberalis ars certe ac scite canendi; idque quatenus ea ad sonos
-        spectat.</p>
-      <p xml:id="ORIPRA0017">Canitur autem tribus modis: voce humana, fistulis ac fidibus. Linguae vocem
-        motu, fistuale sonum flatu, fides tinitum pulsu edunt.</p>
+      <p xml:id="ORIPRA0016">Musica est liberalis ars certe ac scite canendi; idque quatenus ea ad
+        sonos spectat.</p>
+      <p xml:id="ORIPRA0017">Canitur autem tribus modis: voce humana, fistulis ac fidibus. Linguae
+        vocem motu, fistuale sonum flatu, fides tinitum pulsu edunt.</p>
       <p xml:id="ORIPRA0018">Dicitur autem a Musis, quas veteres pro ingenuarum artium praesidibus
         coluerunt. Nimirum, quod illi hoc nomine quamdam animi humani divinitus infusam
         promptitudinem ac studii sedulitatem significarent, quibus in perdiscendis artibus
         liberalibus tamquam praesenti numine maxime opus habeatur. Atque id est, cur Musae Jovis et
         Memoriae filiae esse fingantur.</p>
-      <p xml:id="ORIPRA0019">[Oridryus, Practicae musicae, 68; text: Divisio, Musica alia est: theorica,
-        practica haec vel, poetica, vocalis, instrumentalis, usualis, regulata, choralis, figurata.] <figure>
+      <p xml:id="ORIPRA0019">[Oridryus, Practicae musicae, 68; text: Divisio, Musica alia est:
+        theorica, practica haec vel, poetica, vocalis, instrumentalis, usualis, regulata, choralis,
+        figurata.] <figure>
           <graphic url="/images/ORIPRA_01GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0020">
@@ -106,34 +117,36 @@
         cognitione tantum versatur, sonos non auribus, sed ingenio ac ratione perpendens cuius finis
         est scire. Hinc theoricus musicus, qui artem ipsam novit, verum hoc ipso contentus, neque
         canit neque ullam cantilenam componit.</p>
-      <p xml:id="ORIPRA0021">Practica seu activa dicitur, quae circa sonorum ac consonantiarum praxin
-        consistit et in opus ipsum prodit, nullo tamen post actum opere relicto, cuius finis est
-        agere. Unde practicus musicus, qui praeter artis cognitionem alios docet in eaque se canendo
-        exercet, quare et cantor dicitur vulgo.</p>
+      <p xml:id="ORIPRA0021">Practica seu activa dicitur, quae circa sonorum ac consonantiarum
+        praxin consistit et in opus ipsum prodit, nullo tamen post actum opere relicto, cuius finis
+        est agere. Unde practicus musicus, qui praeter artis cognitionem alios docet in eaque se
+        canendo exercet, quare et cantor dicitur vulgo.</p>
       <p xml:id="ORIPRA0022">Vocalis, quae humana voce melos efficit.</p>
-      <p xml:id="ORIPRA0023">Usualis, quae caret principiis, quibus regi deberet estque imperitorum.</p>
+      <p xml:id="ORIPRA0023">Usualis, quae caret principiis, quibus regi deberet estque
+        imperitorum.</p>
       <p xml:id="ORIPRA0024">Regulata, quae certis legibus cantum producit qualis est peritorum.</p>
-      <p xml:id="ORIPRA0025">Choralis, quae in suis notulis aequalem servat mensuram sine augmentatione
-        ac diminutione prolationis. Haec alio nomine gregoriana, simplex, plana et vetus dicitur, de
-        qua priore huius libelli parte, qua poterimus brevitate et perspicuitate agemus.</p>
-      <p xml:id="ORIPRA0026">Figurata, quae mensuram et notarum /pag.7/ quantitatem variat pro signorum
-        ac figurarum diversitate. Haec etiam mensuralis et nova appellatur quam in posteriore huius
-        libelli parte ita, ut nunc maxime apud optimos artifices et auctores est usitata,
-        tractabimus.</p>
-      <p xml:id="ORIPRA0027">Poetica seu activa ea est, quae neque artis cognitione neque solo exercitio
-        contenta, aliquid post laborem relinquit operis, nempe cum praecepta artis aut cantio aliqua
-        a quopiam conscribitur, cuius finis est opus absolutum et perfectum.</p>
+      <p xml:id="ORIPRA0025">Choralis, quae in suis notulis aequalem servat mensuram sine
+        augmentatione ac diminutione prolationis. Haec alio nomine gregoriana, simplex, plana et
+        vetus dicitur, de qua priore huius libelli parte, qua poterimus brevitate et perspicuitate
+        agemus.</p>
+      <p xml:id="ORIPRA0026">Figurata, quae mensuram et notarum /pag.7/ quantitatem variat pro
+        signorum ac figurarum diversitate. Haec etiam mensuralis et nova appellatur quam in
+        posteriore huius libelli parte ita, ut nunc maxime apud optimos artifices et auctores est
+        usitata, tractabimus.</p>
+      <p xml:id="ORIPRA0027">Poetica seu activa ea est, quae neque artis cognitione neque solo
+        exercitio contenta, aliquid post laborem relinquit operis, nempe cum praecepta artis aut
+        cantio aliqua a quopiam conscribitur, cuius finis est opus absolutum et perfectum.</p>
       <p xml:id="ORIPRA0028">
         <pb n="[70]"/>De scala et clavibus <br/>Caput secundum</p>
-      <p xml:id="ORIPRA0029">Scala imprimis est cognoscenda ob multiplicem eius usum in clavium ac vocum
-        diversitate et cuiusque cantus natura perspecienda in vocum mutatione et earum progressione
-        recte discenda.</p>
+      <p xml:id="ORIPRA0029">Scala imprimis est cognoscenda ob multiplicem eius usum in clavium ac
+        vocum diversitate et cuiusque cantus natura perspecienda in vocum mutatione et earum
+        progressione recte discenda.</p>
       <p xml:id="ORIPRA0030">Est autem scala linearum et spatiorum recte et aequaliter productorum
         constitutio, quibus omnis generis cantionum notulae sunt inscriptae. Nomen hoc sortita, ut
         videtur, a forma et usu scalarum portatilium.</p>
-      <p xml:id="ORIPRA0031">Habet porro lineas quasi gradus decem, in quibus et quarum intervallis hae
-        septem /pag.8/ litterae a, b, c, d, e, f, g triplici ordine singulatim notantur, quae claves
-        dicuntur.</p>
+      <p xml:id="ORIPRA0031">Habet porro lineas quasi gradus decem, in quibus et quarum intervallis
+        hae septem /pag.8/ litterae a, b, c, d, e, f, g triplici ordine singulatim notantur, quae
+        claves dicuntur.</p>
       <p xml:id="ORIPRA0032">Clavis vero nihil est aliud quam littera, quae cuiusque lineae ac
         intervalli musicalem vocem indicat. Principium enim cuiusque clavis est littera, finis vero
         vox. Eleganti autem metaphora claves dicuntur. Nam ut claves seris insertae ac circumactae
@@ -151,27 +164,25 @@
         sol, la]</p>
       <p xml:id="ORIPRA0035">Dividuntur autem claves a litterarum dispositione in:</p>
       <p class="textFig" xml:id="ORIPRA0036">
-        <lb/>  {capitales,  <br/>  {minutas, 
-        <lb/>  {duplices,  <br/></p>
+        <lb/>  {capitales,  <br/>  {minutas,  <lb/>  {duplices,  <br/></p>
       <p xml:id="ORIPRA0037">quod partim grandiusculis, partim pusillis, partim duplicatis litteris
         scribantur.</p>
       <p xml:id="ORIPRA0038">Differunt etiam inter se sono dum aliae sunt:</p>
       <p class="textFig" xml:id="ORIPRA0039">
-        <lb/>  {graves,  <br/>  {acutae, 
-        <lb/>  {excellentes. <br/></p>
+        <lb/>  {graves,  <br/>  {acutae,  <lb/>  {excellentes. <br/></p>
       <p xml:id="ORIPRA0040">Graves, quod cantiones per eas deductae voce demissa et crassa cantari
         solent, quem sonum /pag.10/ gravem vulgo bassum vocant.</p>
       <p xml:id="ORIPRA0041">Acutae, quae et mediae, quod quamdam vocem mediam acutam tamen, inter
         gravem et intensam, exigant, qualem in concentu tenoris et alti, ut vocant, audimus.</p>
-      <p xml:id="ORIPRA0042">Excellentes, quae intentissimam et acutissimam vocem edunt, quam discantum
-        passim nominant. Sunt et finales quatuor: D-sol-re, E-la-mi, F-fa-ut, G-sol-re-ut, quod
-        omnis cantus regularis in iis finiatur ac desistat.</p>
+      <p xml:id="ORIPRA0042">Excellentes, quae intentissimam et acutissimam vocem edunt, quam
+        discantum passim nominant. Sunt et finales quatuor: D-sol-re, E-la-mi, F-fa-ut, G-sol-re-ut,
+        quod omnis cantus regularis in iis finiatur ac desistat.</p>
       <p xml:id="ORIPRA0043">
         <pb n="[72]"/>Typus clavium et syntagma et differentias continens:</p>
-      <p xml:id="ORIPRA0044">[Oridryus, Practicae musicae, 72; text: Claves sunt triplices: Capitales
-        octo, Finales 4, Graves 4, Minutae septem dividuntur in acutas et superacutas. Geminatae
-        quinque; dicuntur etiam excellentes. [Gamma], A, [sqb], C, D, E, F, G, a, b, c, d, e, f, g,
-        aa, bb, cc, dd, ee, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. /pag.11/]</p>
+      <p xml:id="ORIPRA0044">[Oridryus, Practicae musicae, 72; text: Claves sunt triplices:
+        Capitales octo, Finales 4, Graves 4, Minutae septem dividuntur in acutas et superacutas.
+        Geminatae quinque; dicuntur etiam excellentes. [Gamma], A, [sqb], C, D, E, F, G, a, b, c, d,
+        e, f, g, aa, bb, cc, dd, ee, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. /pag.11/]</p>
       <p xml:id="ORIPRA0045">Porro, quamobrem musici [Gamma]-graecum in pede clavium musicalium
         collocarint, ratio haec est, ut nemo nesciret hanc artem ut ceteras quidem omnes liberales a
         Graecis nos esse mutuatos. Ceterum usus clavium hoc modo gradatim lineis ac spatiis scalae
@@ -197,23 +208,24 @@
       <p xml:id="ORIPRA0049">[Oridryus, Practicae musicae, 73; text: [Gamma], F, c, g, dd] <figure>
           <graphic url="/images/ORIPRA_02GF.gif"/>
         </figure></p>
-      <p xml:id="ORIPRA0050">/pag.13/ Quaelibet harum trium F, c, g in cantibus praescripta ilico locum
-        scalae pueris ostendit. Siquidem linea, cui characteristica in cantione insidet, eadem ipsa
-        semper est, quam et in scala clavis eadem occupat. Ceteraeque omnes claves et lineae infra
-        supraque, eodem per omnia ordine, quo in scala digestae sunt, etiam in cantilenis
+      <p xml:id="ORIPRA0050">/pag.13/ Quaelibet harum trium F, c, g in cantibus praescripta ilico
+        locum scalae pueris ostendit. Siquidem linea, cui characteristica in cantione insidet, eadem
+        ipsa semper est, quam et in scala clavis eadem occupat. Ceteraeque omnes claves et lineae
+        infra supraque, eodem per omnia ordine, quo in scala digestae sunt, etiam in cantilenis
         repraesentantur. Rotundum vero b et [sqb] quadratum qualitatem cantilenae, b-mollis ne an
         [sqb] dura sit, ostendunt.</p>
       <p xml:id="ORIPRA0051">De clavium syllabis seu vocibus <lb/>Caput tertium</p>
-      <p xml:id="ORIPRA0052">Claves constant litteris et syllabis. Littera cuiusque clavis initium est,
-        syllabae eam subsequentes voces sunt, quae notularum nomenclaturas edunt. Sunt autem sex in
-        usum omnium consensu receptae, quas Guido Aretinus ex hymno <pb n="[74]"/>illo Divi Joannis
-        Baptistae "Ut queant laxis" et cetera invenisse dicitur, ut, re, mi, fa, sol, la.</p>
-      <p xml:id="ORIPRA0053">Quomodo vero in hoc hymno comprehensae sint, tenor subsequentis exercitii
-        et bassus indicabit:</p>
+      <p xml:id="ORIPRA0052">Claves constant litteris et syllabis. Littera cuiusque clavis initium
+        est, syllabae eam subsequentes voces sunt, quae notularum nomenclaturas edunt. Sunt autem
+        sex in usum omnium consensu receptae, quas Guido Aretinus ex hymno <pb n="[74]"/>illo Divi
+        Joannis Baptistae "Ut queant laxis" et cetera invenisse dicitur, ut, re, mi, fa, sol,
+        la.</p>
+      <p xml:id="ORIPRA0053">Quomodo vero in hoc hymno comprehensae sint, tenor subsequentis
+        exercitii et bassus indicabit:</p>
       <p xml:id="ORIPRA0054">/pag.14/-pag.15/</p>
-      <p xml:id="ORIPRA0055">[Oridryus, Practicae musicae, 74; text: Discantus, Altus, Tenor, Bassus, Ut
-        queant laxis, resonare fibris, mirae gestorum, famuli tuorum, solve polluti, labii reatum,
-        Sancte Joannes.]</p>
+      <p xml:id="ORIPRA0055">[Oridryus, Practicae musicae, 74; text: Discantus, Altus, Tenor,
+        Bassus, Ut queant laxis, resonare fibris, mirae gestorum, famuli tuorum, solve polluti,
+        labii reatum, Sancte Joannes.]</p>
       <p xml:id="ORIPRA0056">
         <pb n="[75]"/>[Oridryus, Practicae musicae, 75,1; text: /pag.16/ Dividuntur porro hae
         syllabae seu voces in: superiores, la, sol, fa, inferiores, mi, re, ut] <figure>
@@ -247,7 +259,8 @@
         <pb n="[78]"/>[Oridryus, Practicae musicae, 78,1]</p>
       <p xml:id="ORIPRA0072">/pag.20/-pag.21/</p>
       <p xml:id="ORIPRA0073">Aliud exemplum quatuor partium</p>
-      <p xml:id="ORIPRA0074">[Oridryus, Practicae musicae, 78,2; text: Discantus, Altus, Tenor, Bassus] <figure>
+      <p xml:id="ORIPRA0074">[Oridryus, Practicae musicae, 78,2; text: Discantus, Altus, Tenor,
+        Bassus] <figure>
           <graphic url="/images/ORIPRA_05GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0075">
@@ -261,8 +274,8 @@
         </figure></p>
       <p xml:id="ORIPRA0079">
         <pb n="[81]"/>[Oridryus, Practicae musicae, 81]</p>
-      <p xml:id="ORIPRA0080">/pag.27/ De mutatione vocum ad solmisationem valde necessaria <br/>Caput
-        quartum</p>
+      <p xml:id="ORIPRA0080">/pag.27/ De mutatione vocum ad solmisationem valde necessaria
+        <br/>Caput quartum</p>
       <p xml:id="ORIPRA0081">Quoniam vero hae sex voces Musicae ad cuiuslibet cantus ascensum et
         descensum non sufficiunt, eo plerumque ultra sextam ascendente vel descendente nec ulla alia
         vox sit vel supra la vel infra ut, necesse est, ut voces hae mutuo sese levent. Idque, ut
@@ -273,28 +286,28 @@
         b-fa-[sqb]mi. Quae, quod duplex sit, non una clavis ut ceterae ob molliorem sonum vocis fa,
         duriorem vero mi, duplicem quoque cantum nobis constituit [sqb] duralem scilicet et
         b-mollarem.</p>
-      <p xml:id="ORIPRA0082">Cantus quidem [sqb] duralis is est, qui ab initio aut nullum b rotundum aut
-        tale [sqb] quadratum habet praescriptum, quod indicat mi vocem esse canendam in
+      <p xml:id="ORIPRA0082">Cantus quidem [sqb] duralis is est, qui ab initio aut nullum b rotundum
+        aut tale [sqb] quadratum habet praescriptum, quod indicat mi vocem esse canendam in
         b-fa-[sqb]mi, ut ex subiecta /pag.28/ scala, quae ab hoc cantu et [sqb] duralis est dicta,
         facile est cognoscere.</p>
-      <p xml:id="ORIPRA0083">Mutatio autem (ut eo redeam) in hoc cantu [sqb] durali fit ascendendo in d
-        et a, descendendo vero in e et a suisque octavis, quae omnia et sequens demonstrabit scala
-        et quae post subjicientur exempla.</p>
+      <p xml:id="ORIPRA0083">Mutatio autem (ut eo redeam) in hoc cantu [sqb] durali fit ascendendo
+        in d et a, descendendo vero in e et a suisque octavis, quae omnia et sequens demonstrabit
+        scala et quae post subjicientur exempla.</p>
       <p xml:id="ORIPRA0084">Scala cantus [sqb] duralis</p>
-      <p xml:id="ORIPRA0085">[Oridryus, Practicae musicae, 82; text: [Gamma], c, g, dd, ut, re, mi, fa,
-        sol, la, ascendendo, descendendo] <figure>
+      <p xml:id="ORIPRA0085">[Oridryus, Practicae musicae, 82; text: [Gamma], c, g, dd, ut, re, mi,
+        fa, sol, la, ascendendo, descendendo] <figure>
           <graphic url="/images/ORIPRA_07GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0086">
         <pb n="[83]"/>Observatio I</p>
-      <p xml:id="ORIPRA0087">Omnis mutatio ascendendo fit proprie per vocem /pag.29/ re, descendendo per
-        la, improprie per viciniores, dum propriae suis locis absunt.</p>
+      <p xml:id="ORIPRA0087">Omnis mutatio ascendendo fit proprie per vocem /pag.29/ re, descendendo
+        per la, improprie per viciniores, dum propriae suis locis absunt.</p>
       <p xml:id="ORIPRA0088">Observatio II</p>
       <p xml:id="ORIPRA0089">Notari debent claves et loca in quibus mutationes contingunt.</p>
       <p xml:id="ORIPRA0090">Observatio III</p>
-      <p xml:id="ORIPRA0091">Ad haec, si vocem la notula quaepiam excesserit uno tantum intervallo, ea
-        canenda est per fa sine mutatione. Si vero talis per tertiam sive quartam supra a-la-mi-re
-        elevatur, tunc mi in b-fa-[sqb]mi necessario est canendum.</p>
+      <p xml:id="ORIPRA0091">Ad haec, si vocem la notula quaepiam excesserit uno tantum intervallo,
+        ea canenda est per fa sine mutatione. Si vero talis per tertiam sive quartam supra
+        a-la-mi-re elevatur, tunc mi in b-fa-[sqb]mi necessario est canendum.</p>
       <p xml:id="ORIPRA0092">/pag.29/-pag.30/</p>
       <p xml:id="ORIPRA0093">Exempla mutationis in cantu [sqb] durali</p>
       <p xml:id="ORIPRA0094">[Oridryus, Practicae musicae, 83; text: Discantus, Altus, Tenor,
@@ -302,13 +315,13 @@
       <p xml:id="ORIPRA0095">
         <pb n="[84]"/>/pag.30/-pag.32/</p>
       <p xml:id="ORIPRA0096">Aliud exemplum</p>
-      <p xml:id="ORIPRA0097">[Oridryus, Practicae musicae, 84,1; text: Discantus, Altus, Tenor, Bassus,
-        Huc ades supremi, filus tonantis, virginisque partus, unicus puellae.] <figure>
+      <p xml:id="ORIPRA0097">[Oridryus, Practicae musicae, 84,1; text: Discantus, Altus, Tenor,
+        Bassus, Huc ades supremi, filus tonantis, virginisque partus, unicus puellae.] <figure>
           <graphic url="/images/ORIPRA_08GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0098">Aliud /pag.32/-pag.34/</p>
-      <p xml:id="ORIPRA0099">[Oridryus, Practicae musicae, 84,2; text: Discantus, Altus, Tenor, Bassus,
-        Paschalis agnus inter]</p>
+      <p xml:id="ORIPRA0099">[Oridryus, Practicae musicae, 84,2; text: Discantus, Altus, Tenor,
+        Bassus, Paschalis agnus inter]</p>
       <p xml:id="ORIPRA0100">
         <pb n="[85]"/>[Oridryus, Practicae musicae, 85,1; text: interit, se Christus agnus obtulit,
         qui corpus atque Sanguinem, suis fruendum praecipit.]</p>
@@ -318,14 +331,14 @@
           <graphic url="/images/ORIPRA_09GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0104">De cantu et scala b-mollari</p>
-      <p xml:id="ORIPRA0105">Cantus vero b-mollaris is est, qui ab initio b rotundum in suis locis habet
-        asscriptum, quod significat fa vocem in b-fa-[sqb]mi esse canendam.</p>
+      <p xml:id="ORIPRA0105">Cantus vero b-mollaris is est, qui ab initio b rotundum in suis locis
+        habet asscriptum, quod significat fa vocem in b-fa-[sqb]mi esse canendam.</p>
       <p xml:id="ORIPRA0106">
         <pb n="[86]"/>Mutatio autem in hoc cantu fit ascendendo in d, g; descendendo in d, a et suis
         octavis, ut scala exemplaque sequentia docebunt:</p>
       <p xml:id="ORIPRA0107">/pag.36/</p>
-      <p xml:id="ORIPRA0108">[Oridryus, Practicae musicae, 86; text: [Gamma], b, c, g, dd, ut, re, mi,
-        fa, sol, la, ascendendo, descendendo]</p>
+      <p xml:id="ORIPRA0108">[Oridryus, Practicae musicae, 86; text: [Gamma], b, c, g, dd, ut, re,
+        mi, fa, sol, la, ascendendo, descendendo]</p>
       <p xml:id="ORIPRA0109">Observatio I</p>
       <p xml:id="ORIPRA0110">Ne mirum sit tibi hic in [Gamma]-ut cani re et A re, mi. Ea ratio ex
         octavis earum clavium petenda est. De octavis enim idem semper est iudicium, quod et ad
@@ -337,9 +350,9 @@
         omnes ad durum referuntur.</p>
       <p xml:id="ORIPRA0113">
         <pb n="[87]"/>Observatio III</p>
-      <p xml:id="ORIPRA0114">In cantu quidem plano nec infra [Gamma]-ut ulla descensio nec ultra ee-la
-        ulla fit evagatio; ideoque tres supremae claves voces non habent inferiores, quibus altius
-        ascenditur neque tres infimae superiores, quibus descendatur inferius.</p>
+      <p xml:id="ORIPRA0114">In cantu quidem plano nec infra [Gamma]-ut ulla descensio nec ultra
+        ee-la ulla fit evagatio; ideoque tres supremae claves voces non habent inferiores, quibus
+        altius ascenditur neque tres infimae superiores, quibus descendatur inferius.</p>
       <p xml:id="ORIPRA0115">/pag.37/-pag.39/</p>
       <p xml:id="ORIPRA0116">Exempla mutationis in cantu b-mollari</p>
       <p xml:id="ORIPRA0117">[Oridryus, Practicae musicae, 87; text: Discantus, Altus, Tenor,
@@ -347,17 +360,17 @@
       <p xml:id="ORIPRA0118">
         <pb n="[88]"/>/pag.39/-pag.41/</p>
       <p xml:id="ORIPRA0119">Aliud exemplum</p>
-      <p xml:id="ORIPRA0120">[Oridryus, Practicae musicae, 88; text: Discantus, Altus, Tenor, Bassus,
-        Quod Isaias dixerat intacta virgo concipit, ut semen illud conterens, caput draconis
+      <p xml:id="ORIPRA0120">[Oridryus, Practicae musicae, 88; text: Discantus, Altus, Tenor,
+        Bassus, Quod Isaias dixerat intacta virgo concipit, ut semen illud conterens, caput draconis
         prodeat.] <figure>
           <graphic url="/images/ORIPRA_10GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0121">
         <pb n="[89]"/>/pag.41/-pag.43/</p>
       <p xml:id="ORIPRA0122">Aliud exemplum</p>
-      <p xml:id="ORIPRA0123">[Oridryus, Practicae musicae, 89; text: Discantus, Altus, Tenor, Bassus,
-        Iam vox deficit et suo non lingu' officio fungitur amplius, torpent corda malis et lachrymas
-        dat dolor aridas.] <figure>
+      <p xml:id="ORIPRA0123">[Oridryus, Practicae musicae, 89; text: Discantus, Altus, Tenor,
+        Bassus, Iam vox deficit et suo non lingu' officio fungitur amplius, torpent corda malis et
+        lachrymas dat dolor aridas.] <figure>
           <graphic url="/images/ORIPRA_11GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0124">
@@ -385,18 +398,19 @@
         <pb n="[93]"/>[Oridryus, Practicae musicae, 93]</p>
       <p xml:id="ORIPRA0138">
         <pb n="[94]"/>/pag.48/ De cantu seu scala ficta</p>
-      <p xml:id="ORIPRA0139">Porro ex hac scala b-mollari ducit originem et alia, quam fictam vocant.
-        Nam si b praescriptum alienum non suum locum occupat, cantum fictum faciet, in quo tum
-        neglectis regularibus vocibus scalae suppositiciae aliae fingendae sunt prout infra fa in b
-        scripto mi, re, ut; supra autem sol, la congruit. Neque ad ullam aliam clavem, extra b, in
-        talibus cantibus respectus est. Finguntur enim in quacumque clave quaecumque voces
+      <p xml:id="ORIPRA0139">Porro ex hac scala b-mollari ducit originem et alia, quam fictam
+        vocant. Nam si b praescriptum alienum non suum locum occupat, cantum fictum faciet, in quo
+        tum neglectis regularibus vocibus scalae suppositiciae aliae fingendae sunt prout infra fa
+        in b scripto mi, re, ut; supra autem sol, la congruit. Neque ad ullam aliam clavem, extra b,
+        in talibus cantibus respectus est. Finguntur enim in quacumque clave quaecumque voces
         peregrinae contra clavis naturam et proprietatem. Atque ea est ratio, quare cantus fictus
         seu Musica vel scala ficta dicatur. Et quia omnino ex b praescripto pendet, a cantu
         b-mollari eum separare noluimus. Praeterea, cum non magnus sit eius usus, ne re supervacua
         onerentur adolescentes, satis esse putavimus, si exemplo uno aut altero, quae sit in eo
         cantu mutatio, ob oculos ponatur.</p>
       <p xml:id="ORIPRA0140">Exemplum scalae fictae</p>
-      <p xml:id="ORIPRA0141">[Oridryus, Practicae musicae, 94,1; text: Discantus, Altus, Tenor, Bassus] <figure>
+      <p xml:id="ORIPRA0141">[Oridryus, Practicae musicae, 94,1; text: Discantus, Altus, Tenor,
+        Bassus] <figure>
           <graphic url="/images/ORIPRA_14GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0142">Aliud simplex exemplum</p>
@@ -409,17 +423,18 @@
       <p xml:id="ORIPRA0148">In cantu ficto praecipue debet observari fa in a et e et mi in F et c;
         sicque facile occurret tertia, in qua re vel la accipiatur.</p>
       <p xml:id="ORIPRA0149">Observatio II</p>
-      <p xml:id="ORIPRA0150">Dubitari hoc loco non iniuria posset, quamobrem cantus naturalis a nobis
-        hactenus nulla sit facta mentio; quandoquidem in tria genera omnem cantum certum est vulgo
-        distribui: in cantum naturalem, b-mollem et [sqb]-durum. Nos in hac re commoditatem docendi
-        sumus secuti, neglectus enim hic cantus et non animadversus longe commodiorem instituendi
-        rationem praebet. Nam illius nomenclatione omissa tum multo evidentior et aptior divisio
-        omnium cantionum per b ab initio /pag.51/ aut asscriptum aut non asscriptum efficitur.
-        Deinde utriusque scalae mutationibus ex aequo servit, quas ex clave b-fa-[sqb]mi solum
-        pendere diximus, quam hic cantus non attingit, dum intra suum senarium consistit. Habet enim
-        suum ut in C, fa in F, la in a clavibus. Verum raro sic aliqua cantio constituitur, ut in
-        his clavibus perficiatur et non aut in cantus #-duri aut b-mollis septa coincidat. Quod dum
-        fit, etiam eorum leges sequitur ita, ut nihil novi sit praecipiendum.</p>
+      <p xml:id="ORIPRA0150">Dubitari hoc loco non iniuria posset, quamobrem cantus naturalis a
+        nobis hactenus nulla sit facta mentio; quandoquidem in tria genera omnem cantum certum est
+        vulgo distribui: in cantum naturalem, b-mollem et [sqb]-durum. Nos in hac re commoditatem
+        docendi sumus secuti, neglectus enim hic cantus et non animadversus longe commodiorem
+        instituendi rationem praebet. Nam illius nomenclatione omissa tum multo evidentior et aptior
+        divisio omnium cantionum per b ab initio /pag.51/ aut asscriptum aut non asscriptum
+        efficitur. Deinde utriusque scalae mutationibus ex aequo servit, quas ex clave b-fa-[sqb]mi
+        solum pendere diximus, quam hic cantus non attingit, dum intra suum senarium consistit.
+        Habet enim suum ut in C, fa in F, la in a clavibus. Verum raro sic aliqua cantio
+        constituitur, ut in his clavibus perficiatur et non aut in cantus #-duri aut b-mollis septa
+        coincidat. Quod dum fit, etiam eorum leges sequitur ita, ut nihil novi sit
+        praecipiendum.</p>
       <p xml:id="ORIPRA0151">Admonitio</p>
       <p xml:id="ORIPRA0152">Quae hactenus de clavibus, vocibus, scalis et mutationibus diximus, ad
         quemvis cantum solmisandum hoc est, syllabas ac vocum nomina canendo recte exprimendum non
@@ -437,8 +452,8 @@
         cantu vel sono. Canendo enim nota tantum ascendit, quantum clavis descendit et contra,
         tantum descendit, quantum illa ascendit, quod sequens exemplum facile docebit.</p>
       <p xml:id="ORIPRA0158">/pag.52/-pag.54/</p>
-      <p xml:id="ORIPRA0159">[Oridryus, Practicae musicae, 96; text: Discantus, Altus, Tenor, Bassus,
-        Haec sunt convivi]</p>
+      <p xml:id="ORIPRA0159">[Oridryus, Practicae musicae, 96; text: Discantus, Altus, Tenor,
+        Bassus, Haec sunt convivi]</p>
       <p xml:id="ORIPRA0160">
         <pb n="[97]"/>[Oridryus, Practicae musicae, 97,1; text: via, quae tibi placent, o Patris
         sapientia.]</p>
@@ -448,7 +463,8 @@
         quinque lineis semper utuntur, tum, quod potius sextam adiciant lineam, ut in exemplo
         sequenti est videre.</p>
       <p xml:id="ORIPRA0164">/pag.54/-pag.55/</p>
-      <p xml:id="ORIPRA0165">[Oridryus, Practicae musicae, 97,2; text: Discantus, Altus, Tenor, Bassus] <figure>
+      <p xml:id="ORIPRA0165">[Oridryus, Practicae musicae, 97,2; text: Discantus, Altus, Tenor,
+        Bassus] <figure>
           <graphic url="/images/ORIPRA_15GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0166">
@@ -465,8 +481,8 @@
       <p xml:id="ORIPRA0169">[Oridryus, Practicae musicae, 98,2]</p>
       <p xml:id="ORIPRA0170">Tonus</p>
       <p xml:id="ORIPRA0171">[Oridryus, Practicae musicae, 98,3]</p>
-      <p xml:id="ORIPRA0172">Est perfecta secunda, cum vox deducitur a linea in proximum spatium aut a
-        spatio in contiguam lineam, exceptis mi-fa, fa-mi.</p>
+      <p xml:id="ORIPRA0172">Est perfecta secunda, cum vox deducitur a linea in proximum spatium aut
+        a spatio in contiguam lineam, exceptis mi-fa, fa-mi.</p>
       <p xml:id="ORIPRA0173">
         <pb n="[99]"/>/pag.57/</p>
       <p xml:id="ORIPRA0174">Semitonium</p>
@@ -506,8 +522,8 @@
         queant, putavi esse consultum hanc cantionem veterem subicere, quam, canendo saepius si
         ediscant adolescentes, sine negotio quaevis intervalla, usitatiora dico, comprehendent.</p>
       <p xml:id="ORIPRA0201">/pag.59/-pag.61/</p>
-      <p xml:id="ORIPRA0202">[Oridryus, Practicae musicae, 100; text: Ter trini sunt modi, quibus omnis
-        cantilena contexitur, scilicet: Unisonus, Semitonium, Tonus, Semiditonus, Ditonus,
+      <p xml:id="ORIPRA0202">[Oridryus, Practicae musicae, 100; text: Ter trini sunt modi, quibus
+        omnis cantilena contexitur, scilicet: Unisonus, Semitonium, Tonus, Semiditonus, Ditonus,
         Diatessaron, Diapente, Semitonium cum Diapente, tonus cum diapente, ad haec sonus Diapason,
         si quem delectat eius, hunc modum esse cognoscat. Cumque tam paucis modulis tota harmonia
         formetur, utilissimum est eas altae memoriae commendare, nec prius ab huius modi studio
@@ -515,19 +531,20 @@
         notitiam. euouae.]</p>
       <p xml:id="ORIPRA0203">
         <pb n="[101]"/>/pag.62/ De vi ac natura tonorum <lb/>Caput septimum</p>
-      <p xml:id="ORIPRA0204">Imprimis ad quemlibet cantum recte solmisandum (ut loquuntur) requiritur
-        tonorum cognitio. Ea enim facit, ne voces et vocum sedes inepte confundamus durumque molli
-        et molle duro commutemus ac misceamus. Tonus siquidem scalam cantusque naturam et ambitum
-        indicat, quod ad boatum ineptumque screatum figiendum haud parum momenti habet.</p>
+      <p xml:id="ORIPRA0204">Imprimis ad quemlibet cantum recte solmisandum (ut loquuntur)
+        requiritur tonorum cognitio. Ea enim facit, ne voces et vocum sedes inepte confundamus
+        durumque molli et molle duro commutemus ac misceamus. Tonus siquidem scalam cantusque
+        naturam et ambitum indicat, quod ad boatum ineptumque screatum figiendum haud parum momenti
+        habet.</p>
       <p xml:id="ORIPRA0205">Est enim tonus certa quaedam qualitas melodiae seu potius affectus
         cantionis. Ut enim affectuum animi alii alacres ac laeti, alii graves ac sedati, quidam
         tristes ac gemebundi, rursus iracundi alii ac impetuosi, ita et melodiae cantuum, quod aliae
         aliter afficiant, varie distinctae sunt a musicis.</p>
-      <p xml:id="ORIPRA0206">Numerantur hodie toni octo, quibus omnem cantum Latini (nam Graeci tantum
-        quatuor tonis utebantur) concluserunt; quemadmodum octo orationis partibus, omne id, quod
-        dicitur, est comprehensum.</p>
-      <p xml:id="ORIPRA0207">Dividuntur in [authentous], id est clamosos et [plagious], id est obliquos,
-        quos plagales vocant.</p>
+      <p xml:id="ORIPRA0206">Numerantur hodie toni octo, quibus omnem cantum Latini (nam Graeci
+        tantum quatuor tonis utebantur) concluserunt; quemadmodum octo orationis partibus, omne id,
+        quod dicitur, est comprehensum.</p>
+      <p xml:id="ORIPRA0207">Dividuntur in [authentous], id est clamosos et [plagious], id est
+        obliquos, quos plagales vocant.</p>
       <p xml:id="ORIPRA0208">Authenti sunt de numero impari, ut: primus, /pag.63/ tertius, quintus,
         septimus. Ideoque a clamore nomen habent, quod supra finalem ut plurimum ad octavam,
         nonnumquam ad decimam conscendunt, infra vero eam vix ad secundam quidem descendunt; atque
@@ -535,7 +552,8 @@
         cognosci potest.</p>
       <p xml:id="ORIPRA0209">
         <pb n="[102]"/>/pag.63/-pag.64/</p>
-      <p xml:id="ORIPRA0210">[Oridryus, Practicae musicae, 102; text: Discantus, Altus, Tenor, Bassus] <figure>
+      <p xml:id="ORIPRA0210">[Oridryus, Practicae musicae, 102; text: Discantus, Altus, Tenor,
+        Bassus] <figure>
           <graphic url="/images/ORIPRA_17GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0211">
@@ -561,9 +579,9 @@
         paucis ob oculos posuerimus.</p>
       <p xml:id="ORIPRA0216">/pag.67/-pag.68/</p>
       <p xml:id="ORIPRA0217">Repercussiones tonorum</p>
-      <p xml:id="ORIPRA0218">[Oridryus, Practicae musicae, 104; text: Re, la, fit primi, Re, fa, norma
-        secundi, Mi, si, dat tertius, Mi, la posuit sibi quartus. Ut, sol, quintus petit. Sextus fa,
-        la, sibi quaerit. Ut, sol, hebdomus. Ut, fa postremus habebit.] <figure>
+      <p xml:id="ORIPRA0218">[Oridryus, Practicae musicae, 104; text: Re, la, fit primi, Re, fa,
+        norma secundi, Mi, si, dat tertius, Mi, la posuit sibi quartus. Ut, sol, quintus petit.
+        Sextus fa, la, sibi quaerit. Ut, sol, hebdomus. Ut, fa postremus habebit.] <figure>
           <graphic url="/images/ORIPRA_18GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0219">
@@ -576,7 +594,8 @@
       <p xml:id="ORIPRA0223">
         <pb n="[106]"/>/pag.70/-pag.71/</p>
       <p xml:id="ORIPRA0224">Tenor toni imperfecti</p>
-      <p xml:id="ORIPRA0225">[Oridryus, Practicae musicae, 106; text: Discantus, Altus, Tenor, Bassus] <figure>
+      <p xml:id="ORIPRA0225">[Oridryus, Practicae musicae, 106; text: Discantus, Altus, Tenor,
+        Bassus] <figure>
           <graphic url="/images/ORIPRA_19GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0226">
@@ -587,23 +606,24 @@
         vel hinnitum potius /pag.72/ exeant haec paulo altiore, ne murmur fiat tandem, sunt
         incipienda.</p>
       <p xml:id="ORIPRA0229">Observatio II</p>
-      <p xml:id="ORIPRA0230">Tonum cuiusque cantionis tribus modis cognosci dicunt: principio, medio et
-        fine. Cantus enim mox in principio supra finalem notam ad quintam ascendens authenti est
+      <p xml:id="ORIPRA0230">Tonum cuiusque cantionis tribus modis cognosci dicunt: principio, medio
+        et fine. Cantus enim mox in principio supra finalem notam ad quintam ascendens authenti est
         toni. Qui vero infra finalem statim ad quintam vel quartam ceciderit, est plagalis. Verum
         hic cognoscendi modus non tam certus est.</p>
-      <p xml:id="ORIPRA0231">Medio, si ascensus vel descensus expendatur, dum enim cantus circa medium
-        octavam contigerit, is quoque ad authentum pertinebit sin secus ad plagalem.</p>
+      <p xml:id="ORIPRA0231">Medio, si ascensus vel descensus expendatur, dum enim cantus circa
+        medium octavam contigerit, is quoque ad authentum pertinebit sin secus ad plagalem.</p>
       <p xml:id="ORIPRA0232">Fine certissima est cognitio. Supra enim quatuor claves finales
         constituimus, in quas omnis cantus regularis desinat: D, E, F, G. In D-sol-re exit, qui
         primi vel secundi est toni; in E-la-mi, qui tertii vel quarti; in F-fa-ut, qui quinti vel
         sexti; in G-sol-re-ut, qui septimi vel octavi. Discrimen autem eorum, qui unius sunt clavis,
         facit ascensus et descensus supra vel infra finalem, ut ante diximus.</p>
       <p xml:id="ORIPRA0233">Observatio III</p>
-      <p xml:id="ORIPRA0234">Est et cantus, qui transpositus et irregularis appellatur, videlicet, qui
-        non terminatur in clavibus, quas finales vocamus, sed vel per /pag.73/ quartam vel per
+      <p xml:id="ORIPRA0234">Est et cantus, qui transpositus et irregularis appellatur, videlicet,
+        qui non terminatur in clavibus, quas finales vocamus, sed vel per /pag.73/ quartam vel per
         quintam transponitur atque hic [sqb]-duralis et ille b-mollis efficitur. Quod fit, ut
         vitentur voces fictae seu modi parum usitati. Sunt autem claves, in quas desinunt cantus
-        transpositi: A-la-mi-re, B-fa-[sqb]mi, C-sol-fa-ut, quae propterea affinales dicuntur. <pb n="[108]"/>In A primi vel secundi toni cantus transponitur, in B tertii vel quarti, in C
+        transpositi: A-la-mi-re, B-fa-[sqb]mi, C-sol-fa-ut, quae propterea affinales dicuntur. <pb
+          n="[108]"/>In A primi vel secundi toni cantus transponitur, in B tertii vel quarti, in C
         quinti vel sexti. In septimo vel octavo tono numquam vel raro fit transpositio.</p>
       <p xml:id="ORIPRA0235">Observatio IV</p>
       <p xml:id="ORIPRA0236">In cantu figurato non tam clavis habetur ratio quam vocis extremae.
@@ -611,12 +631,12 @@
         cantus in re desinens, est primi vel secundi toni, in fa quinti vel sexti, in sol septimi
         vel octavi toni.</p>
       <p xml:id="ORIPRA0237">Observatio V</p>
-      <p xml:id="ORIPRA0238">Est et rudis quaedam tonorum cognitio ex tropis seu differentiis eorundem,
-        quae sunt breviusculi concentus ad repercussiones tonorum accommodati. Solent autem ad
-        antiphonas (ut vocant) et introitus in fine notari hac dictione EVOVAE, quae vocales sunt
-        duarum vocum "saeculorum Amen". Porro hae tonorum differentiae singulis paene non dico
-        nationibus, /pag.74/ sed ecclesiis diversae sunt et propriae quae usu observari debent. Unam
-        formam in singulis tonis hoc exemplo studiosi habeant.</p>
+      <p xml:id="ORIPRA0238">Est et rudis quaedam tonorum cognitio ex tropis seu differentiis
+        eorundem, quae sunt breviusculi concentus ad repercussiones tonorum accommodati. Solent
+        autem ad antiphonas (ut vocant) et introitus in fine notari hac dictione EVOVAE, quae
+        vocales sunt duarum vocum "saeculorum Amen". Porro hae tonorum differentiae singulis paene
+        non dico nationibus, /pag.74/ sed ecclesiis diversae sunt et propriae quae usu observari
+        debent. Unam formam in singulis tonis hoc exemplo studiosi habeant.</p>
       <p xml:id="ORIPRA0239">/pag.74/-pag.77/</p>
       <p xml:id="ORIPRA0240">Fuga post tria tempora in hypodiapason</p>
       <p xml:id="ORIPRA0241">[Oridryus, Practicae musicae, 108; text: Discantus, Altus, Tenor
@@ -636,8 +656,8 @@
       <p xml:id="ORIPRA0245">Peregrinus tonus</p>
       <p xml:id="ORIPRA0246">[Oridryus, Practicae musicae, 111,1; text: domus Jacob de populo
         barbaro.]</p>
-      <p xml:id="ORIPRA0247">Ne vero et iis desit quidquam, qui in ecclesiis latinis, adhuc versari et
-        aliquando praecinere in animum suum induxerunt, ratio quaedam et modus intonandi seu
+      <p xml:id="ORIPRA0247">Ne vero et iis desit quidquam, qui in ecclesiis latinis, adhuc versari
+        et aliquando praecinere in animum suum induxerunt, ratio quaedam et modus intonandi seu
         praecinendi psalmos nequaquam est praetermittendus. Dividuntur autem psalmi a musicis
         bifariam, in /pag.78/ minores, qui a regio propheta Davide creduntur editi, et maiores, qui
         ex sacrosancto evangelio desumpti in matutinis et vespertinis horis decantantur, ut sunt
@@ -645,8 +665,9 @@
         "Magnificat" et iusti Simeonis "Nunc dimittis servum". Ratio vero praecinendi in singulis
         tonis fere talis observatur, qualem sequentia ostendunt.</p>
       <p xml:id="ORIPRA0248">/pag.78/-pag.79/</p>
-      <p xml:id="ORIPRA0249">[Oridryus, Practicae musicae, 111,2; text: Primi toni. Dixit dominus domino
-        meo: sede a dextris meis. Magnificat anima mea Dominum. Benedictus Dominus Deus Israel.] <figure>
+      <p xml:id="ORIPRA0249">[Oridryus, Practicae musicae, 111,2; text: Primi toni. Dixit dominus
+        domino meo: sede a dextris meis. Magnificat anima mea Dominum. Benedictus Dominus Deus
+        Israel.] <figure>
           <graphic url="/images/ORIPRA_22GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0250">
@@ -672,18 +693,18 @@
       <p xml:id="ORIPRA0256">/pag.84/ Unum restat, quod paucis est etiam attingendum ratio videlicet
         lectiones sacras apte recitandi. Haec observatur in virgula, commate, colo et
         interrogatione.</p>
-      <p xml:id="ORIPRA0257">Virgulam nominant distinctionem, quae inter plures dictiones eiusdem membri
-        orationis locatur, quas distincte legendas uno tamen spiritu seu continua pronuntiatione
-        sine longa mora designat. Hanc quidem in fine attolunt quidam sine ulla elevatione vocis
-        aequaliter pronuntiant. Hic usus sequendus est.</p>
-      <p xml:id="ORIPRA0258">Comma semper per tertiam descendit; excipe dictiones monosyllabas (praeter
-        encliticas: que, ve, ne). Item barbaras, graecas, hebraicas, quae latinam declinationem non
-        admittunt. Hae enim acuuntur, ut: me, te, se, nos, vos, sum, est, Abraham, Ascaroth,
-        Seneherib, Hierusalem et cetera.</p>
+      <p xml:id="ORIPRA0257">Virgulam nominant distinctionem, quae inter plures dictiones eiusdem
+        membri orationis locatur, quas distincte legendas uno tamen spiritu seu continua
+        pronuntiatione sine longa mora designat. Hanc quidem in fine attolunt quidam sine ulla
+        elevatione vocis aequaliter pronuntiant. Hic usus sequendus est.</p>
+      <p xml:id="ORIPRA0258">Comma semper per tertiam descendit; excipe dictiones monosyllabas
+        (praeter encliticas: que, ve, ne). Item barbaras, graecas, hebraicas, quae latinam
+        declinationem non admittunt. Hae enim acuuntur, ut: me, te, se, nos, vos, sum, est, Abraham,
+        Ascaroth, Seneherib, Hierusalem et cetera.</p>
       <p xml:id="ORIPRA0259">Colon semper per quintam deprimitur quemadmodum et periodus.</p>
-      <p xml:id="ORIPRA0260">Interrogatio, cuius tale est signum "?". Ultimam dictionis syllabam, cui
-        iungitur, acuto accentu proferrendam demonstrat sive habeat in fine dictionem monosyllabam
-        sive dissyllabam sive polysyllabam.</p>
+      <p xml:id="ORIPRA0260">Interrogatio, cuius tale est signum "?". Ultimam dictionis syllabam,
+        cui iungitur, acuto accentu proferrendam demonstrat sive habeat in fine dictionem
+        monosyllabam sive dissyllabam sive polysyllabam.</p>
       <p xml:id="ORIPRA0261">
         <pb n="[115]"/>[Oridryus, Practicae musicae, 115,1; text: Exemplum virgulae. Fructus autem
         spiritus est, caritas, gaudium, pax, patientia, bonitas, fides, mansuetudo, continentia,
@@ -692,9 +713,9 @@
           <graphic url="/images/ORIPRA_24GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0262">/pag.86/-pag.87/</p>
-      <p xml:id="ORIPRA0263">[Oridryus, Practicae musicae, 115,2; text: Exemplum coli. Si quid patimini
-        propter justitiam, beati eritis. Timorem autem eorum ne timueritis neque conturbemini.
-        interrogationis. Unde es tu? Quid est homo? Quot panes habetis.]</p>
+      <p xml:id="ORIPRA0263">[Oridryus, Practicae musicae, 115,2; text: Exemplum coli. Si quid
+        patimini propter justitiam, beati eritis. Timorem autem eorum ne timueritis neque
+        conturbemini. interrogationis. Unde es tu? Quid est homo? Quot panes habetis.]</p>
       <p xml:id="ORIPRA0264">
         <pb n="[116]"/>Finiendae lectionis peculiaris quaedam clausula est, quae in eadem clavi, in
         qua fuit initium descendendo quiescit, hoc modo:</p>
@@ -766,16 +787,15 @@
       <p xml:id="ORIPRA0274">De notis earumque figuris <br/>Caput primum</p>
       <p xml:id="ORIPRA0275">Musica figurata varias habet notulas, quae, secundum varias figuras,
         colores ac varie praescripta signa, aliam subinde quantitatem accipiunt.</p>
-      <p xml:id="ORIPRA0276">Sunt autem notulae certi characteres, quibus vocis sonive et <pb n="[120]"/>remissio et intensio demonstratur. Ad eas recte cognoscendas locus et figura requiruntur.
-        Locus docet, quatenus vox intendi aut remitti debeat. Huc proprie pertinet, quidquid de
-        solmisatione est ante dictum. Figura vero, quae habitus ac dispositio quaedam est notarum,
-        quantitatem earundem in producenda ac corripienda voce significat. Atque huc pertinebunt,
-        quaecumque porro de notularum valore, in reliquis capitibus pro variis accidentibus,
-        tradentur.</p>
+      <p xml:id="ORIPRA0276">Sunt autem notulae certi characteres, quibus vocis sonive et <pb
+          n="[120]"/>remissio et intensio demonstratur. Ad eas recte cognoscendas locus et figura
+        requiruntur. Locus docet, quatenus vox intendi aut remitti debeat. Huc proprie pertinet,
+        quidquid de solmisatione est ante dictum. Figura vero, quae habitus ac dispositio quaedam
+        est notarum, quantitatem earundem in producenda ac corripienda voce significat. Atque huc
+        pertinebunt, quaecumque porro de notularum valore, in reliquis capitibus pro variis
+        accidentibus, tradentur.</p>
       <p class="textFig" xml:id="ORIPRA0277">
-        <lb/>Suntque notae aliae:   {simplices, 
-        <br/>                       {ligatae.
-        <lb/></p>
+        <lb/>Suntque notae aliae:   {simplices,  <br/>                       {ligatae. <lb/></p>
       <p xml:id="ORIPRA0278">Figurae notarum simplicium sunt octo:</p>
       <p xml:id="ORIPRA0279">[Oridryus, Practicae musicae, 120; text: /pag.94/ Quarum nomina sunt,
         maxima, VIII, longa, IV, brevis, II, semibrevis, I, minima, semiminima, fusa, semifusa, XVI,
@@ -784,13 +804,13 @@
         </figure></p>
       <p xml:id="ORIPRA0280">/pag.95/</p>
       <p xml:id="ORIPRA0281">Observatio I</p>
-      <p xml:id="ORIPRA0282">In simplicibus notarum figuris nihil refert, sive cauda ascendat sive ea
-        descendat.</p>
+      <p xml:id="ORIPRA0282">In simplicibus notarum figuris nihil refert, sive cauda ascendat sive
+        ea descendat.</p>
       <p xml:id="ORIPRA0283">Observatio II</p>
-      <p xml:id="ORIPRA0284">Duarum posteriorum usus magis in instrumentis musicis ob celeritatem nimiam
-        quam humanis vocibus spectatur. Non enim tanta est linguae volubilitas, quanta digitorum in
-        instrumentis, quae etiam plures species aculeatarum ferunt. Ceterum in augmentationem
-        frequenter quoque incidunt, ut post vidibimus.</p>
+      <p xml:id="ORIPRA0284">Duarum posteriorum usus magis in instrumentis musicis ob celeritatem
+        nimiam quam humanis vocibus spectatur. Non enim tanta est linguae volubilitas, quanta
+        digitorum in instrumentis, quae etiam plures species aculeatarum ferunt. Ceterum in
+        augmentationem frequenter quoque incidunt, ut post vidibimus.</p>
       <p xml:id="ORIPRA0285">
         <pb n="[121]"/>/pag.95/-97/</p>
       <p xml:id="ORIPRA0286">Exercitia simplicium figuarum</p>
@@ -803,16 +823,16 @@
         </figure></p>
       <p xml:id="ORIPRA0291">
         <pb n="[123]"/>De ligaturis <br/>Caput secundum</p>
-      <p xml:id="ORIPRA0292">/pag.99/ Ligatura est apta duarum vel plurium notarum simplicium in dextra
-        vel sinistra parte per virgulam connexio. Huius colligationis causae videri possunt duae:
-        prior, ut verborum contextus queat commodius applicari; altera, ut varietas in prolixa
+      <p xml:id="ORIPRA0292">/pag.99/ Ligatura est apta duarum vel plurium notarum simplicium in
+        dextra vel sinistra parte per virgulam connexio. Huius colligationis causae videri possunt
+        duae: prior, ut verborum contextus queat commodius applicari; altera, ut varietas in prolixa
         notularum serie delectet et exornet simul cantum.</p>
       <p xml:id="ORIPRA0293">Ligatura duplex est: recta et obliqua.</p>
-      <p xml:id="ORIPRA0294">Recta, cuius notae quadrato pinguntur corpore. Obliqua, cuius notae obliquo
-        et transverso corpore scribuntur.</p>
-      <p xml:id="ORIPRA0295">Colligantur vero tantum quatuor: maxima, longa, brevis, semibrevis, quae
-        pro varia connexione et formam et quantitatem immutant, praeter unam, maximam, quae ubique
-        sui similis manet. Porro ligantur ex aequo omnes in principio, medio et fine. Unde ea
+      <p xml:id="ORIPRA0294">Recta, cuius notae quadrato pinguntur corpore. Obliqua, cuius notae
+        obliquo et transverso corpore scribuntur.</p>
+      <p xml:id="ORIPRA0295">Colligantur vero tantum quatuor: maxima, longa, brevis, semibrevis,
+        quae pro varia connexione et formam et quantitatem immutant, praeter unam, maximam, quae
+        ubique sui similis manet. Porro ligantur ex aequo omnes in principio, medio et fine. Unde ea
         initialis dicitur, a qua ligatura incipit. Media est, quaelibet inter primam et ultimam
         comprehensa. Finalis, quae ligaturam absolvit, ut alia nota non consequatur.</p>
       <p xml:id="ORIPRA0296">Pro valore ligaturarum cognoscendo et observando subiectae regulae sunt
@@ -822,12 +842,13 @@
         corpore, a fronte sinistram virgulam sursum protendens, primarias duas semibreves
         constituit, sic: [Oridryus, Practicae musicae, 123,1]</p>
       <p xml:id="ORIPRA0299">Secunda</p>
-      <p xml:id="ORIPRA0300">Si prima virgulam seu caudam sinistra demiserit, ipsa sola brevis est.</p>
+      <p xml:id="ORIPRA0300">Si prima virgulam seu caudam sinistra demiserit, ipsa sola brevis
+        est.</p>
       <p xml:id="ORIPRA0301">[Oridryus, Practicae musicae, 123,2]</p>
       <p xml:id="ORIPRA0302">
         <pb n="[124]"/>Tertia</p>
-      <p xml:id="ORIPRA0303">Ligatura conscendens quadro vel obliquo corpore, cuius primam notam nullam
-        habet caudam, primam brevem efficit.</p>
+      <p xml:id="ORIPRA0303">Ligatura conscendens quadro vel obliquo corpore, cuius primam notam
+        nullam habet caudam, primam brevem efficit.</p>
       <p xml:id="ORIPRA0304">[Oridryus, Practicae musicae, 124,1]</p>
       <p xml:id="ORIPRA0305">Quarta</p>
       <p xml:id="ORIPRA0306">Prima carens cauda longa est, pendente secunda.</p>
@@ -835,32 +856,32 @@
       <p xml:id="ORIPRA0308">[Oridryus, Practicae musicae, 124,2]</p>
       <p xml:id="ORIPRA0309">De mediis cognoscendis</p>
       <p xml:id="ORIPRA0310">Quinta</p>
-      <p xml:id="ORIPRA0311">In mediis nulla valoris diversitas est. Omnia quippe media, quacumque forma
-        fuerit expressa, brevis est, nisi quae praecedat forte caudam in sinistra parte surrigat.
-        Longam in medio ligari nec veterum permittit auctoritas nec ulla exempla probant, licet hac
-        nostra tempestate a quibusdam contra fiat.</p>
+      <p xml:id="ORIPRA0311">In mediis nulla valoris diversitas est. Omnia quippe media, quacumque
+        forma fuerit expressa, brevis est, nisi quae praecedat forte caudam in sinistra parte
+        surrigat. Longam in medio ligari nec veterum permittit auctoritas nec ulla exempla probant,
+        licet hac nostra tempestate a quibusdam contra fiat.</p>
       <p xml:id="ORIPRA0312">De ultimis</p>
       <p xml:id="ORIPRA0313">Sexta</p>
-      <p xml:id="ORIPRA0314">Ultima conscendens brevis est quaecumque ligata, excipitur, caudam tollens
-        ex parte sinistra maxima cum longa hic similis fuerit sibi semper.</p>
+      <p xml:id="ORIPRA0314">Ultima conscendens brevis est quaecumque ligata, excipitur, caudam
+        tollens ex parte sinistra maxima cum longa hic similis fuerit sibi semper.</p>
       <p xml:id="ORIPRA0315">[Oridryus, Practicae musicae, 124,3]</p>
       <p xml:id="ORIPRA0316">Septima</p>
-      <p xml:id="ORIPRA0317">Ultima dependens quadrangula sit tibi longa. Oblique vero descendens, haec
-        brevis esto.</p>
+      <p xml:id="ORIPRA0317">Ultima dependens quadrangula sit tibi longa. Oblique vero descendens,
+        haec brevis esto.</p>
       <p xml:id="ORIPRA0318">/pag.102/</p>
       <p xml:id="ORIPRA0319">[Oridryus, Practicae musicae, 124,4]</p>
       <p xml:id="ORIPRA0320">
         <pb n="[125]"/>Octava</p>
-      <p xml:id="ORIPRA0321">Maxima, ut iam ante diximus, semper sui similis est quocumque loco fuerit
-        posita, hoc est, valorem non immutat.</p>
+      <p xml:id="ORIPRA0321">Maxima, ut iam ante diximus, semper sui similis est quocumque loco
+        fuerit posita, hoc est, valorem non immutat.</p>
       <p xml:id="ORIPRA0322">[Oridryus, Practicae musicae, 125,1] <figure>
           <graphic url="/images/ORIPRA_27GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0323">Si harum regularum quaeris exempla, cantionis huius Georgii Rhaui
         diligenter tenorem inspice, ibi enim velut in unum acervum omnia sunt congesta.</p>
       <p xml:id="ORIPRA0324">/pag.102/-pag.104/</p>
-      <p xml:id="ORIPRA0325">[Oridryus, Practicae musicae, 125,2; text: Tenor, Bassus, Primae, Secundae,
-        Tertiae, Quartae et septimae]</p>
+      <p xml:id="ORIPRA0325">[Oridryus, Practicae musicae, 125,2; text: Tenor, Bassus, Primae,
+        Secundae, Tertiae, Quartae et septimae]</p>
       <p xml:id="ORIPRA0326">
         <pb n="[126]"/>[Oridryus, Practicae musicae, 126; text: Quintae et Octavae, Sextae]</p>
       <p xml:id="ORIPRA0327">/pag.104/ De pausis <lb/>Caput tertium</p>
@@ -876,15 +897,16 @@
         est usus, praeterquam in finibus cantuum.</p>
       <p xml:id="ORIPRA0330">/pag.105</p>
       <p xml:id="ORIPRA0331">Maxima perfecta [MX,MXP,MXP,MXcsdx on staff5]</p>
-      <p xml:id="ORIPRA0332">Si qua vero ad quartam lineam pertingit pausa, modi minoris seu perfectae
-        longae vocatur seu pausa modalis.</p>
+      <p xml:id="ORIPRA0332">Si qua vero ad quartam lineam pertingit pausa, modi minoris seu
+        perfectae longae vocatur seu pausa modalis.</p>
       <p xml:id="ORIPRA0333">Longa perfecta [Lv,3LP,3LP,Bvcsdx on staff5]</p>
-      <p xml:id="ORIPRA0334">Quae virgula tertiam lineam attingit, ea est pausae longae imperfectae.</p>
+      <p xml:id="ORIPRA0334">Quae virgula tertiam lineam attingit, ea est pausae longae
+        imperfectae.</p>
       <p xml:id="ORIPRA0335">Longa imperfecta [Lv,2LP,2LP,2LP,2LP,Bvcsdx on staff5]</p>
       <p xml:id="ORIPRA0336">Quae ad alteram pertingit lineam, brevis pausa est.</p>
       <p xml:id="ORIPRA0337">Brevis pausa [Bv,BP,BP,BP,BP,Bv,BP,BP,BP,BP on staff5]</p>
-      <p xml:id="ORIPRA0338">Quae virgula a linea in medium tantum spatium dependet, semibrevis pausa
-        dicitur. At ea aequaliter geminata temporis perfecti indicium habet.</p>
+      <p xml:id="ORIPRA0338">Quae virgula a linea in medium tantum spatium dependet, semibrevis
+        pausa dicitur. At ea aequaliter geminata temporis perfecti indicium habet.</p>
       <p xml:id="ORIPRA0339">
         <pb n="[127]"/>/pag.106/ Semibrevis pausa [Sv,SP,Sv,SP,Sv,SP,Sv,SP,Sv,SP,SP on staff3]</p>
       <p xml:id="ORIPRA0340">Quae vero a linea in medium spatium assurgit, eam pausam minimae seu
@@ -897,56 +919,57 @@
       <p xml:id="ORIPRA0344">At si geminum aculeum, fusae pausa appellatur. Si triplicem, tum
         semifusae.</p>
       <p xml:id="ORIPRA0345">Observatio I</p>
-      <p xml:id="ORIPRA0346">Pausae per omnia suis notulis, quarum nomina referunt, aequantur, excepto,
-        quod ipsae perfectae, ab omni imperfectione ac alteratione immunes, perfecti signi
+      <p xml:id="ORIPRA0346">Pausae per omnia suis notulis, quarum nomina referunt, aequantur,
+        excepto, quod ipsae perfectae, ab omni imperfectione ac alteratione immunes, perfecti signi
         quatitatem, quoad ipsum durat, retinent.</p>
       <p xml:id="ORIPRA0347">Observatio II</p>
-      <p xml:id="ORIPRA0348">/pag.107/ Pausas aeque ac notas proportionum diminutionibus subesse volunt
-        musici.</p>
+      <p xml:id="ORIPRA0348">/pag.107/ Pausas aeque ac notas proportionum diminutionibus subesse
+        volunt musici.</p>
       <p xml:id="ORIPRA0349">Observatio III</p>
-      <p xml:id="ORIPRA0350">Pausas instituerunt musici, cum ad vocis reparationem et anhelitus, ne ob
-        cantus perpetuitatem deficiant, tum, ut suavitati ac dulcedini serviant et vitentur
+      <p xml:id="ORIPRA0350">Pausas instituerunt musici, cum ad vocis reparationem et anhelitus, ne
+        ob cantus perpetuitatem deficiant, tum, ut suavitati ac dulcedini serviant et vitentur
         intervalla prohibita perfectaeque species concurrentes.</p>
       <p xml:id="ORIPRA0351">De tactu et mensura <br/>Caput quartum</p>
-      <p xml:id="ORIPRA0352">Notularum pausarumque figuris breviter explicatis deinceps de tactu musico
-        esse agendum, ipsa monet necessitas. Quis enim illarum usus, si ad tactum non accommodentur?
-        Quantum enim temporis cuique sit attribuendum, nulla ratione alia <pb n="[128]"/>quam tactu
-        potest definiri. Immo plane nihil certi de notularum quantitate, perfectione, imperfectione,
-        augmentatione et diminutione neque doceri neque percipi potest, nisi prius certum de tactu
-        iudicium constituatur. Constituimus itaque hic talem tactum, cuius singulae vices aeque
-        distantes, singulis semibrevibus notulis sub his signis [O], [C] aequali temporis quantitate
-        /pag.108/ respondeant. Ad quam tactuum ac semibrevium notularum aequalitatem deinceps omnes
-        aliae notulae, et maiores et minores, relative appendi debebunt. Est itaque tactus continua
-        motio, praecentoris manu facta ad certam mensuram omnium notularum ac pausarum quantitates
-        aptans. Ex hac definitione liquet, sine certa mensura tactum constare non posse. Est enim
-        mensura certus quoque motus temporis ad cuius vices, per tactum aequaliter distinctas,
-        omnium cantionum notulae et pausae pro diversis signis accommodantur. Ut autem rationem
-        aliquam mensurae observare (quod initio quidem aliquid habet in se molestiae) consuescant
-        pueri, melius consilium iis nequeo dare, quam ut saepius ac diligenter malleorum ictus
-        animadvertant, quibus ex aedibus sacris fiunt horarum indicia. Hi enim ictus aequalibus
-        intervallis audiuntur, eandem semper quantitatis rationem servant ita, ut numerandis horis
-        sive plures syllabas usurpes, non tamen extendantur sive pauciores non contrahantur. Tam
-        enim commode intra ictus numeras [to] duodecima, quae dictio est quinque syllabarum quam
-        prima, quae est duarum. Sic etiam ad unum tactum /pag.109/ saepe plures notulae pronuntiari
-        debent et absolvi, ut duae minimae ad alium quatuor semiminimae et cetera, quemadmodum et
-        una semibrevis uno tactu canendo comprehenditur. Sunt, qui tria tactuum genera constituunt;
-        quam et cantorum vulgus approbat sententiam. Verum si naturam ipsius artis et
-        probatissimorum musicorum cantiones accuratius perspiciamus, comperiemus non nisi unicum
-        tactus genus esse, quod omnis generis probatis cantilenis aptari et possit et debeat. Non
-        enim, si omnino dividendus tactus sit, ex eo alius erit, si lentius aut concitatius <pb n="[129]"/>ipse moveatur, sed potius, si aut plures aut pauciores notulas absolvat. Quod
-        vetustiores musici, si concitatiorem aut lentiorem cantum vellent, id non per celeriorem aut
-        tardiorem tactum, sed per ipsarum notularum aut protractiorem aut contractiorem valorem
-        praestiterunt. Nam ob eam solum causam signa diminuentia et proportiones generis multiplicis
-        in Musicam venisse, nemo dubitare potest. Ut ita non tactuum, sed notularum quantitatem
-        subinde pro variis signis prolationum, temporum, modorum ac proportionum distinguere operae
-        pretium sit. Idem enim tactus in cantu perfecto non diminuto unicam semibrevem tanti facit,
-        quanti /pag.110/ in diminuto aut proportione dupla duas, in tripla tres, in sesquialtera
-        unam et semissem. Id, quod suis locis post exemplis demonstrabimus. Satis sit hoc loco
-        pueros didicisse, in iam describendo valore notularum ac pausarum per numerum tactuum
-        totidem semper semibreves notulas, quatenus eae non auctae diminutaeve sint, intelligi
-        oportere. Est enim essentialis valor semibrevium notularum, ut singulae singulis tactibus
-        valenat. At quod alio, qui pro variorum signorum asscriptione plus minusve valeant, id non
-        est ipsarum essentiae, sed accidentis cuiusdam artificii.</p>
+      <p xml:id="ORIPRA0352">Notularum pausarumque figuris breviter explicatis deinceps de tactu
+        musico esse agendum, ipsa monet necessitas. Quis enim illarum usus, si ad tactum non
+        accommodentur? Quantum enim temporis cuique sit attribuendum, nulla ratione alia <pb
+          n="[128]"/>quam tactu potest definiri. Immo plane nihil certi de notularum quantitate,
+        perfectione, imperfectione, augmentatione et diminutione neque doceri neque percipi potest,
+        nisi prius certum de tactu iudicium constituatur. Constituimus itaque hic talem tactum,
+        cuius singulae vices aeque distantes, singulis semibrevibus notulis sub his signis [O], [C]
+        aequali temporis quantitate /pag.108/ respondeant. Ad quam tactuum ac semibrevium notularum
+        aequalitatem deinceps omnes aliae notulae, et maiores et minores, relative appendi debebunt.
+        Est itaque tactus continua motio, praecentoris manu facta ad certam mensuram omnium
+        notularum ac pausarum quantitates aptans. Ex hac definitione liquet, sine certa mensura
+        tactum constare non posse. Est enim mensura certus quoque motus temporis ad cuius vices, per
+        tactum aequaliter distinctas, omnium cantionum notulae et pausae pro diversis signis
+        accommodantur. Ut autem rationem aliquam mensurae observare (quod initio quidem aliquid
+        habet in se molestiae) consuescant pueri, melius consilium iis nequeo dare, quam ut saepius
+        ac diligenter malleorum ictus animadvertant, quibus ex aedibus sacris fiunt horarum indicia.
+        Hi enim ictus aequalibus intervallis audiuntur, eandem semper quantitatis rationem servant
+        ita, ut numerandis horis sive plures syllabas usurpes, non tamen extendantur sive pauciores
+        non contrahantur. Tam enim commode intra ictus numeras [to] duodecima, quae dictio est
+        quinque syllabarum quam prima, quae est duarum. Sic etiam ad unum tactum /pag.109/ saepe
+        plures notulae pronuntiari debent et absolvi, ut duae minimae ad alium quatuor semiminimae
+        et cetera, quemadmodum et una semibrevis uno tactu canendo comprehenditur. Sunt, qui tria
+        tactuum genera constituunt; quam et cantorum vulgus approbat sententiam. Verum si naturam
+        ipsius artis et probatissimorum musicorum cantiones accuratius perspiciamus, comperiemus non
+        nisi unicum tactus genus esse, quod omnis generis probatis cantilenis aptari et possit et
+        debeat. Non enim, si omnino dividendus tactus sit, ex eo alius erit, si lentius aut
+        concitatius <pb n="[129]"/>ipse moveatur, sed potius, si aut plures aut pauciores notulas
+        absolvat. Quod vetustiores musici, si concitatiorem aut lentiorem cantum vellent, id non per
+        celeriorem aut tardiorem tactum, sed per ipsarum notularum aut protractiorem aut
+        contractiorem valorem praestiterunt. Nam ob eam solum causam signa diminuentia et
+        proportiones generis multiplicis in Musicam venisse, nemo dubitare potest. Ut ita non
+        tactuum, sed notularum quantitatem subinde pro variis signis prolationum, temporum, modorum
+        ac proportionum distinguere operae pretium sit. Idem enim tactus in cantu perfecto non
+        diminuto unicam semibrevem tanti facit, quanti /pag.110/ in diminuto aut proportione dupla
+        duas, in tripla tres, in sesquialtera unam et semissem. Id, quod suis locis post exemplis
+        demonstrabimus. Satis sit hoc loco pueros didicisse, in iam describendo valore notularum ac
+        pausarum per numerum tactuum totidem semper semibreves notulas, quatenus eae non auctae
+        diminutaeve sint, intelligi oportere. Est enim essentialis valor semibrevium notularum, ut
+        singulae singulis tactibus valenat. At quod alio, qui pro variorum signorum asscriptione
+        plus minusve valeant, id non est ipsarum essentiae, sed accidentis cuiusdam artificii.</p>
       <p xml:id="ORIPRA0353">De tribus Musicae gradibus <lb/>Caput quintum</p>
       <p xml:id="ORIPRA0354">In labyrinthum illum deinceps musicorum graduum ac signorum paulatim
         devolvimur, cuius in praefatiuncula memineramus. Labyrinthum non iniuria nomino, cum non
@@ -961,13 +984,11 @@
         eorumque signa, pro quibus mensura seu quantitas notularum plurimum variatur, cognita
         explorataque habeantur.</p>
       <p class="textFig" xml:id="ORIPRA0356">
-        <br/>Numerantur itaque gradus     {modus, 
-        <lb/>musici tres, scilicet:       {tempus, 
-        <br/>                             {prolatio.
-        <lb/></p>
-      <p xml:id="ORIPRA0357">Qui quidem, ut summatim dicam, nihil sunt aliud, quam indicium quoddam et
-        documentum, quo cognoscimus mensuras seu valores notularum, quot videlicet tactus singulae
-        valeant.</p>
+        <br/>Numerantur itaque gradus     {modus,  <lb/>musici tres, scilicet:       {tempus, 
+        <br/>                             {prolatio. <lb/></p>
+      <p xml:id="ORIPRA0357">Qui quidem, ut summatim dicam, nihil sunt aliud, quam indicium quoddam
+        et documentum, quo cognoscimus mensuras seu valores notularum, quot videlicet tactus
+        singulae valeant.</p>
       <p xml:id="ORIPRA0358">De modo</p>
       <p xml:id="ORIPRA0359">Modus est mensura, quae maximis longisque suam quantitatem certam
         praescribit estque duplex:</p>
@@ -976,8 +997,8 @@
       <p xml:id="ORIPRA0361">Maior habet mensuram longarum in maximis et est duplex:</p>
       <p class="textFig" xml:id="ORIPRA0362">
         <lb/>   {perfectus,  <br/>   {imperfectus. <lb/></p>
-      <p xml:id="ORIPRA0363">/pag.112/ Modus maior perfectus est, quando maxima valet tres longas, hoc
-        est, XXVII tactus conficit. Cuius signum est circulus perfectus cum numero ternario pone
+      <p xml:id="ORIPRA0363">/pag.112/ Modus maior perfectus est, quando maxima valet tres longas,
+        hoc est, XXVII tactus conficit. Cuius signum est circulus perfectus cum numero ternario pone
         asscripto, sic:</p>
       <p xml:id="ORIPRA0364">[O3,MXv] 27 valet [Lv]9 [Lv]9 [Lv]9</p>
       <p xml:id="ORIPRA0365">
@@ -986,18 +1007,18 @@
       <p xml:id="ORIPRA0366">[C3,MXv] 12 valet [Lv]6 [Lv]6</p>
       <p xml:id="ORIPRA0367">Modus minor est mensura brevium in longis, qui etiam est duplex:</p>
       <p class="textFig" xml:id="ORIPRA0368">
-        <br/>   {minor perfectus, 
-        <lb/>   {minor imperfectus. <br/></p>
+        <br/>   {minor perfectus,  <lb/>   {minor imperfectus. <br/></p>
       <p xml:id="ORIPRA0369">Modus minor perfectus est trium brevium in una longa dimensio, hoc est
         mensura VI tactuum. Cuius signum est circulus perfectus, binario numero sociatus, sic:</p>
       <p xml:id="ORIPRA0370">[O2,Lv] 6 valet [Bv]2 [Bv]2 [Bv]2</p>
-      <p xml:id="ORIPRA0371">Modus minor imperfectus est, qui longam /pag.113/ duabus brevibus metitur,
-        hoc est, tactibus quatuor. Cuius signum est semicirculus cum binario numero, sic:</p>
+      <p xml:id="ORIPRA0371">Modus minor imperfectus est, qui longam /pag.113/ duabus brevibus
+        metitur, hoc est, tactibus quatuor. Cuius signum est semicirculus cum binario numero,
+        sic:</p>
       <p xml:id="ORIPRA0372">[C2,Lv] 4 valet [Bv]2 [Bv]2</p>
-      <p xml:id="ORIPRA0373">Non autem semper asscribuntur illa signa, sed interdum signis internis vel
-        implicitis (ut vocant) graduum fit cognitio duobus videlicet modis, pausarum geminatione et
-        colore notularum. Duae pausae modales simul iunctae modum maiorem perfectum signant vel tres
-        coloratae maximae, quae tamen occurrunt rarissime.</p>
+      <p xml:id="ORIPRA0373">Non autem semper asscribuntur illa signa, sed interdum signis internis
+        vel implicitis (ut vocant) graduum fit cognitio duobus videlicet modis, pausarum geminatione
+        et colore notularum. Duae pausae modales simul iunctae modum maiorem perfectum signant vel
+        tres coloratae maximae, quae tamen occurrunt rarissime.</p>
       <p xml:id="ORIPRA0374">[O,3LP,3LP,3LP,3LP,3LP,3LP; MXvcsdx,MXvcsdx,MX on staff5]</p>
       <p xml:id="ORIPRA0375">Unica pausa modalis vel tres denigratae longae aut duae longae et duae
         breves etiam coloratae modum minorem perfectum indicant, hoc pacto:</p>
@@ -1013,36 +1034,33 @@
       <p xml:id="ORIPRA0381">Tempus est mensura, qua brevis notulae valor indicatur, prout ea nunc
         plures, nunc pauciores semibreves comprehendit.</p>
       <p class="textFig" xml:id="ORIPRA0382">
-        <lb/>Tempus est duplex:    {perfectum, 
-        <br/>                      {imperfectum.
-        <lb/></p>
-      <p xml:id="ORIPRA0383">Perfectum tempus est, quod brevem notulam tribus semibrevibus censet, hoc
-        est, cuius mora trium est tactuum. Cuius signum est circulus perfectus, sic:</p>
+        <lb/>Tempus est duplex:    {perfectum,  <br/>                      {imperfectum. <lb/></p>
+      <p xml:id="ORIPRA0383">Perfectum tempus est, quod brevem notulam tribus semibrevibus censet,
+        hoc est, cuius mora trium est tactuum. Cuius signum est circulus perfectus, sic:</p>
       <p xml:id="ORIPRA0384">[O,Bv] 3 valet [Sv]1 [Sv]1 [Sv]1</p>
       <p xml:id="ORIPRA0385">Imperfectum tempus est, quando brevis duas semibreves complectitur, hoc
         est, duos tactus conficit. Cuius signum est semicirculus, sic:</p>
       <p xml:id="ORIPRA0386">/pag.115/</p>
       <p xml:id="ORIPRA0387">[C] [Bv] 2 valet [Sv]1 [Sv]1</p>
-      <p xml:id="ORIPRA0388">Et hic interna signa quemadmodum et in modis locum habent. Nam duae pausae
-        semibreves ex una linea dependentes vel tres breves denigratae, tempus quoque perfectum
-        indicant, ad hunc modum:</p>
+      <p xml:id="ORIPRA0388">Et hic interna signa quemadmodum et in modis locum habent. Nam duae
+        pausae semibreves ex una linea dependentes vel tres breves denigratae, tempus quoque
+        perfectum indicant, ad hunc modum:</p>
       <p xml:id="ORIPRA0389">[SP,SP,SP,SP,SP,SP,B,B,B,B,B,B on staff5]</p>
       <p xml:id="ORIPRA0390">
         <pb n="[133]"/>De prolatione</p>
-      <p xml:id="ORIPRA0391">Prolatio est mensura, qua quantitas semibrevis notulae censetur, hoc est,
-        quot minimas in se contineat, ostenditur.</p>
+      <p xml:id="ORIPRA0391">Prolatio est mensura, qua quantitas semibrevis notulae censetur, hoc
+        est, quot minimas in se contineat, ostenditur.</p>
       <p class="textFig" xml:id="ORIPRA0392">
         <br/>Prolatio quoque duplex est:   {perfecta, 
-        <lb/>                              {imperfecta.
-        <br/></p>
+        <lb/>                              {imperfecta. <br/></p>
       <p xml:id="ORIPRA0393">Perfecta ea est, qua semibrevis notula tribus minimis, quarum singulae
         singulis tactibus valent, in cantu appenditur. Quemadmodum hoc videre est, quoties in cantu
         quopiam diversis signis aliarum vocum absque punctis, circulus cum puncto opponitur.</p>
       <p xml:id="ORIPRA0394">Cognoscitur autem prolatio perfecta per punctum integro circulo aut
         semicirculo inscriptum, /pag.116/ sic:</p>
       <p xml:id="ORIPRA0395">[Od,Cd,Sv] 3 valet [Mv]1 [Mv]1 [Mv]1</p>
-      <p xml:id="ORIPRA0396">Nonnumquam etiam absque punctis per ternas semibreves denigratas aut per
-        duas pausas minimas, aequaliter ab eadem linea assurgentes, cognoscitur, sic:</p>
+      <p xml:id="ORIPRA0396">Nonnumquam etiam absque punctis per ternas semibreves denigratas aut
+        per duas pausas minimas, aequaliter ab eadem linea assurgentes, cognoscitur, sic:</p>
       <p xml:id="ORIPRA0397">[S,S,S; MP,MP,MP,MP,MP,MP on staff5]</p>
       <p xml:id="ORIPRA0398">In quocumque itaque cantu aliquod horum signorum conspexerint pueri,
         prolationem perfectam esse sciant et quasque semibreves perfectas tribus tactibus, singulas
@@ -1050,8 +1068,8 @@
         notulis (nam in semiminima, fusa et semifusa his signis idem valor manet et idem numerus) ac
         pausis multiplicent, quoties illae has in se continent, quemadmodum haec figura
         demonstrat:</p>
-      <p xml:id="ORIPRA0399">[Oridryus, Practicae musicae, 133; text: 1, 3, 6, 9, 12, 18, 24, 36, 1/2,
-        et cetera.]</p>
+      <p xml:id="ORIPRA0399">[Oridryus, Practicae musicae, 133; text: 1, 3, 6, 9, 12, 18, 24, 36,
+        1/2, et cetera.]</p>
       <p xml:id="ORIPRA0400">/pag.117/ Observabunt tamen hic pueri ea, quae post de imperfectione
         tradentur ac diligenter expendent, suamne perfectionem retineant notulae an aliquo forsan
         casu amittant.</p>
@@ -1062,58 +1080,57 @@
         Haec cognoscitur, si circulis nulla puncta sunt inscripta, [O], [C]. Ut enim praesentia
         puncti perfectam, ita absentia imperfectam demonstrat prolationem.</p>
       <p xml:id="ORIPRA0402">Observatio</p>
-      <p xml:id="ORIPRA0403">Numeri, quos in singulis gradibus post signa et notulas in demonstratione
-        posuimus priores quidem post unicam notulam subiecti, quoties ea minores se subsequentes
-        contineat, indicant. Posteriores vero singulis notulis subiecti, quot tactus illae
-        conficiant, docebunt adolescentes studiosos.</p>
+      <p xml:id="ORIPRA0403">Numeri, quos in singulis gradibus post signa et notulas in
+        demonstratione posuimus priores quidem post unicam notulam subiecti, quoties ea minores se
+        subsequentes contineat, indicant. Posteriores vero singulis notulis subiecti, quot tactus
+        illae conficiant, docebunt adolescentes studiosos.</p>
       <p xml:id="ORIPRA0404">De signis <lb/>Caput sextum</p>
-      <p xml:id="ORIPRA0405">Signa hic repetere non valde erat necessarium propterea, quod de iis simul
-        in singulis /pag.118/ gradibus explicandis docendi commoditatem secuti egimus. Verum cum
-        adhuc restent quaedam minus principalia (ut vocant) signa, quae cum aliis commodum tractare
-        non potuimus, nisi ordine nimis perturbato, visum nobis fuit consultum, ea hoc capite
-        strictim persequi et tamquam in tabellam redacta ob oculos proponere unaque cum iis et
-        graduum signa repetere, ut, sic per se posita, rectius et facilius cum in oculos tum in
+      <p xml:id="ORIPRA0405">Signa hic repetere non valde erat necessarium propterea, quod de iis
+        simul in singulis /pag.118/ gradibus explicandis docendi commoditatem secuti egimus. Verum
+        cum adhuc restent quaedam minus principalia (ut vocant) signa, quae cum aliis commodum
+        tractare non potuimus, nisi ordine nimis perturbato, visum nobis fuit consultum, ea hoc
+        capite strictim persequi et tamquam in tabellam redacta ob oculos proponere unaque cum iis
+        et graduum signa repetere, ut, sic per se posita, rectius et facilius cum in oculos tum in
         animos studiosorum incurrere queant. Itaque sic primum definiamus:</p>
       <p xml:id="ORIPRA0406">Signum est index musicorum graduum et quorumdam aliorum in cantu
         accidentium.</p>
       <p class="textFig" xml:id="ORIPRA0407">
-        <br/>Signum est duplex:   {externum, 
-        <lb/>                     {internum.
-        <br/></p>
-      <p xml:id="ORIPRA0408">Externum, quod principio cantus expresse praefigitur, ex quo statim primo
-        intuito musicos gradus extrinsecus cognoscimus. Signatur autem tribus modis: puncto, circulo
-          <pb n="[135]"/>et numero.</p>
+        <br/>Signum est duplex:   {externum,  <lb/>                     {internum. <br/></p>
+      <p xml:id="ORIPRA0408">Externum, quod principio cantus expresse praefigitur, ex quo statim
+        primo intuito musicos gradus extrinsecus cognoscimus. Signatur autem tribus modis: puncto,
+        circulo <pb n="[135]"/>et numero.</p>
       <p xml:id="ORIPRA0409">Numerus additus circulo significat modum: ternarius maiorem, binarius
         minorem.</p>
-      <p xml:id="ORIPRA0410">Circulus tempus designat, integer perfectum, semicirculus imperfectum.</p>
-      <p xml:id="ORIPRA0411">Punctus inscriptus circulo aut semicirculo indicat prolationem perfectam
-        seu maiorem /pag.119/ absentia puncti imperfectam seu minorem, quae nihil differt a
-        tempore.</p>
+      <p xml:id="ORIPRA0410">Circulus tempus designat, integer perfectum, semicirculus
+        imperfectum.</p>
+      <p xml:id="ORIPRA0411">Punctus inscriptus circulo aut semicirculo indicat prolationem
+        perfectam seu maiorem /pag.119/ absentia puncti imperfectam seu minorem, quae nihil differt
+        a tempore.</p>
       <p xml:id="ORIPRA0412">[Oridryus, Practicae musicae, 135; text: Signorum aliud est, modi,
         temporis, prolationis perfectae seu maioris, minoris, perfecti, imperfecti, 3, 2, in his
         semper est prolatio minor] <figure>
           <graphic url="/images/ORIPRA_28GF.gif"/>
         </figure></p>
-      <p xml:id="ORIPRA0413">/pag.120/ Signa minus principalia sunt, quae ad cognitionem graduum parum
-        aut nihil faciunt; ideoque hoc nomen sunt sortita, quae sic aut similiter pinguntur. Hoc
-        signum repetitionis :||: dicitur, quod cantionum canendo repetendam esse demonstrat toties,
-        ut quidam volunt, quot puncta illi ad utrumque latus affinguntur; verum istuc a praeclaris
-        musicis non observatur.</p>
+      <p xml:id="ORIPRA0413">/pag.120/ Signa minus principalia sunt, quae ad cognitionem graduum
+        parum aut nihil faciunt; ideoque hoc nomen sunt sortita, quae sic aut similiter pinguntur.
+        Hoc signum repetitionis :||: dicitur, quod cantionum canendo repetendam esse demonstrat
+        toties, ut quidam volunt, quot puncta illi ad utrumque latus affinguntur; verum istuc a
+        praeclaris musicis non observatur.</p>
       <p xml:id="ORIPRA0414">[signum] In hoc signo fit mora aut est signum concordantiae vocum (ut
         vocant) cardinalis, ubi scilicet simul omnes voces aliquantisper quiescunt.</p>
-      <p xml:id="ORIPRA0415">[signum] Signum est convenientiae, in quo voces conveniunt. Hoc in fugis
-        praesertim sui usum praebet, dum sequentis vocis inceptionem, alterius vero cassationem
-        indicat.</p>
+      <p xml:id="ORIPRA0415">[signum] Signum est convenientiae, in quo voces conveniunt. Hoc in
+        fugis praesertim sui usum praebet, dum sequentis vocis inceptionem, alterius vero
+        cassationem indicat.</p>
       <p xml:id="ORIPRA0416">
         <pb n="[136]"/>[signum] Huius signi usu est in significanda voce dura in clave b-fa-[sqb]mi
         aut si forte alio aliquo in loco obiter ea vox inciderit. Haec breviter de signis et
         gradibus pueri observent ne ulterius se labore parum utili excrucient.</p>
-      <p xml:id="ORIPRA0417">Commodum vero hic nunc videor exemplum aliquod subiecturus, in quo ea, quae
-        de signis et gradibus sunt dicta, demonstrentur.</p>
+      <p xml:id="ORIPRA0417">Commodum vero hic nunc videor exemplum aliquod subiecturus, in quo ea,
+        quae de signis et gradibus sunt dicta, demonstrentur.</p>
       <p xml:id="ORIPRA0418">/pag.120/-pag.124/</p>
-      <p xml:id="ORIPRA0419">[Oridryus, Practicae musicae, 136; text: Discantus, Altus, Tenor, Bassus,
-        In prolatione perfecta seu maiore. Exemplum prolationis perfectae. Exemplum modi minoris
-        perfecti. In Tempore perfecto.]</p>
+      <p xml:id="ORIPRA0419">[Oridryus, Practicae musicae, 136; text: Discantus, Altus, Tenor,
+        Bassus, In prolatione perfecta seu maiore. Exemplum prolationis perfectae. Exemplum modi
+        minoris perfecti. In Tempore perfecto.]</p>
       <p xml:id="ORIPRA0420">
         <pb n="[137]"/>[Oridryus, Practicae musicae, 137] <figure>
           <graphic url="/images/ORIPRA_29GF.gif"/>
@@ -1121,8 +1138,8 @@
       <p xml:id="ORIPRA0421">
         <pb n="[138]"/>[Oridryus, Practicae musicae, 138,1]</p>
       <p xml:id="ORIPRA0422">Exemplum ad tempus perfectum</p>
-      <p xml:id="ORIPRA0423">[Oridryus, Practicae musicae, 138,2; text: (Discantus), Secundus Discantus,
-        Altus, Tenor, Bassus, Resolutio, Fuga] <figure>
+      <p xml:id="ORIPRA0423">[Oridryus, Practicae musicae, 138,2; text: (Discantus), Secundus
+        Discantus, Altus, Tenor, Bassus, Resolutio, Fuga] <figure>
           <graphic url="/images/ORIPRA_30GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0424">
@@ -1145,9 +1162,9 @@
       <p xml:id="ORIPRA0430">In omnis generis cantionibus, quod ad veram artem pertinet, non nisi
         unicum, adeoque simplicissimum modum tactuum observandum esse.</p>
       <p xml:id="ORIPRA0431">Altera</p>
-      <p xml:id="ORIPRA0432">Omnia cantionum ac proportionum quatumlibet diversa signa tum augentia tum
-        diminuentia ad essentialem semibrevis notulae valorem tamquam totius proportionabilitatis
-        basim referri oportere.</p>
+      <p xml:id="ORIPRA0432">Omnia cantionum ac proportionum quatumlibet diversa signa tum augentia
+        tum diminuentia ad essentialem semibrevis notulae valorem tamquam totius
+        proportionabilitatis basim referri oportere.</p>
       <p xml:id="ORIPRA0433">Augmentatio</p>
       <p xml:id="ORIPRA0434">Est incrementum notarum, dum per certa signa vel canones communis seu
         essentialis valor augetur. Haec prolationi perfectae non admodum est dissimilis, quamobrem
@@ -1156,8 +1173,8 @@
         partibus, augmentatio vero in una tantum parte locum habeat. Atque ibi per puncti
         inscriptionem semibrevem perfectam tribus metimur tactibus, imperfectam duobus, minimum
         unico.</p>
-      <p xml:id="ORIPRA0435">Agnoscitur porro extrinsecus iis signis iam depictis, intrinsecus vero vel
-        notularum paucitate in una aliqua cantionis parte sine repetitionis signo vel canonis
+      <p xml:id="ORIPRA0435">Agnoscitur porro extrinsecus iis signis iam depictis, intrinsecus vero
+        vel notularum paucitate in una aliqua cantionis parte sine repetitionis signo vel canonis
         asscriptione, ut brevis sit maxima, semibrevis longa et cetera vel crescit in duplo, triplo
         et cetera. Etiam per oppositionem signorum in diversis partibus non obscura fit
         cognitio.</p>
@@ -1169,22 +1186,22 @@
       <p xml:id="ORIPRA0439">
         <pb n="[143]"/>[Oridryus, Practicae musicae, 143]</p>
       <p xml:id="ORIPRA0440">/pag.132/ De diminutione <br/>Caput octavum</p>
-      <p xml:id="ORIPRA0441">Diminutio est contraria augmentationi. Est enim certum quoddam notularum
-        /pag.133/ decrementum, quod ad mensuram seu valorem earum attinet. Significatur quoque
-        plurimis modis.</p>
-      <p xml:id="ORIPRA0442">Primo per canonicam inscriptionem iuxta cuiusque artificis arbitrium, ut
-        maxima sit longa, longa sit brevis, item decrescit in duplo, triplo, quadruplo.</p>
-      <p xml:id="ORIPRA0443">Secundo per virgulam medios circulos aut semicirculos intersecantem, hoc
-        modo: [Odim] [Cdim] [Oddim] [Cddim]</p>
+      <p xml:id="ORIPRA0441">Diminutio est contraria augmentationi. Est enim certum quoddam
+        notularum /pag.133/ decrementum, quod ad mensuram seu valorem earum attinet. Significatur
+        quoque plurimis modis.</p>
+      <p xml:id="ORIPRA0442">Primo per canonicam inscriptionem iuxta cuiusque artificis arbitrium,
+        ut maxima sit longa, longa sit brevis, item decrescit in duplo, triplo, quadruplo.</p>
+      <p xml:id="ORIPRA0443">Secundo per virgulam medios circulos aut semicirculos intersecantem,
+        hoc modo: [Odim] [Cdim] [Oddim] [Cddim]</p>
       <p xml:id="ORIPRA0444">Tertio per hemicycli inversionem, sic: [CL] [CLd]</p>
       <p xml:id="ORIPRA0445">Quarto per numerum circulis aut semicirculis ita pone asscriptum [O2],
         [C2], [Od2], [Cd2]. Item per numerum in proportionibus expressum, ut sunt: dupla 2/1, tripla
         3/1, quadrupla 4/1.</p>
       <p xml:id="ORIPRA0446">Observationes tres</p>
-      <p xml:id="ORIPRA0447">His omnibus modis diminutio aufert dimidiam partem notularum et pausarum,
-        ut semibrevis tantum dimidio tactu, brevis imperfecta integro, longa duobus valeat. Excipe
-        canonicam et proportionatam diminutionem, in quibus interdum plus, interdum minus aufertur,
-        ut ipse canon et proportio praescripta significant.</p>
+      <p xml:id="ORIPRA0447">His omnibus modis diminutio aufert dimidiam partem notularum et
+        pausarum, ut semibrevis tantum dimidio tactu, brevis imperfecta integro, longa duobus
+        valeat. Excipe canonicam et proportionatam diminutionem, in quibus interdum plus, interdum
+        minus aufertur, ut ipse canon et proportio praescripta significant.</p>
       <p xml:id="ORIPRA0448">
         <pb n="[144]"/>Secunda</p>
       <p xml:id="ORIPRA0449">/pag.134/ Plerumque evenit, ut in eodem signo plures diminutiones
@@ -1195,35 +1212,35 @@
         possit, quidam censent numerum in modis asscribendum, in diminutionibus vero et
         proportionibus subscribendum, hoc pacto:</p>
       <p class="textFig" xml:id="ORIPRA0452">
-        <lb/>Signa modi    [O3], [O2], [C3], [C2]
-        <br/>diminutionis  [O/3] [O/2] [C/3] [C/2] <lb/></p>
+        <lb/>Signa modi    [O3], [O2], [C3], [C2] <br/>diminutionis  [O/3] [O/2] [C/3] [C/2]
+        <lb/></p>
       <p xml:id="ORIPRA0453">/pag.134/-pag.136/</p>
       <p xml:id="ORIPRA0454">Exemplum diminutionis</p>
       <p xml:id="ORIPRA0455">[Oridryus, Practicae musicae, 144; text: Discantus, Tenor diminutionis,
         Bassus]</p>
       <p xml:id="ORIPRA0456">
         <pb n="[145]"/>/pag.136/ De imperfectione <br/>Caput nonum</p>
-      <p xml:id="ORIPRA0457">Diminutioni valde est affinis imperfectio, quandoquidem ea nihil est aliud
-        quam perfectarum notularum diminutio. Eas vero perfectas dicimus notulas, quae tres suarum
-        minorum in se comprehendunt, quales sunt: maxima in modo maiori perfecto, longa in modo
-        minori perfecto, brevis in tempore perfecto et semibrevis in prolatione maiori seu
+      <p xml:id="ORIPRA0457">Diminutioni valde est affinis imperfectio, quandoquidem ea nihil est
+        aliud quam perfectarum notularum diminutio. Eas vero perfectas dicimus notulas, quae tres
+        suarum minorum in se comprehendunt, quales sunt: maxima in modo maiori perfecto, longa in
+        modo minori perfecto, brevis in tempore perfecto et semibrevis in prolatione maiori seu
         perfecta.</p>
       <p xml:id="ORIPRA0458">Fit autem imperfectio tribus modis: notula, pausa et colore.</p>
       <p xml:id="ORIPRA0459">Notula minor semper imperficit maiorem non ediverso.</p>
       <p xml:id="ORIPRA0460">Pausa quidem imperficit semper, at numquam imperficitur.</p>
-      <p xml:id="ORIPRA0461">Color (quando videlicet duae vel tres notulae ordine denigratur) aufert in
-        signis perfectis tertiam partem, in imperfectis quartam. Aliquando etiam hemioliam
+      <p xml:id="ORIPRA0461">Color (quando videlicet duae vel tres notulae ordine denigratur) aufert
+        in signis perfectis tertiam partem, in imperfectis quartam. Aliquando etiam hemioliam
         proportionem significat; de qua in capite ultimo. Interdum etiam alterationis causa
         amovendae fit denigratio.</p>
       <p xml:id="ORIPRA0462">/pag.137/ Imperfectio dividitur bifarium in:</p>
       <p class="textFig" xml:id="ORIPRA0463">
         <lb/>   {totalem,  <br/>   {partialem. <lb/></p>
-      <p xml:id="ORIPRA0464">Totalis dicitur, cum maior notula aliqua in signo perfecto tertiam partem
-        sui valoris amittit ob immediate sequentem suam minorem, ut: maxima ob longam, longa ob
-        brevem et cetera aut pausas earundem aliasve notulas valore pares. Ut, si ad hunc modum in
-        cantionibus collocatae, occurant.</p>
-      <p xml:id="ORIPRA0465">[Oridryus, Practicae musicae, 145,1; text: In modo maiore. Modo minore. In
-        signo temporis perfecti. In prolatione perfecta.] <figure>
+      <p xml:id="ORIPRA0464">Totalis dicitur, cum maior notula aliqua in signo perfecto tertiam
+        partem sui valoris amittit ob immediate sequentem suam minorem, ut: maxima ob longam, longa
+        ob brevem et cetera aut pausas earundem aliasve notulas valore pares. Ut, si ad hunc modum
+        in cantionibus collocatae, occurant.</p>
+      <p xml:id="ORIPRA0465">[Oridryus, Practicae musicae, 145,1; text: In modo maiore. Modo minore.
+        In signo temporis perfecti. In prolatione perfecta.] <figure>
           <graphic url="/images/ORIPRA_33GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0466">Partialis est remotio non tertiae partis notulae, sed alicuius partis,
@@ -1232,24 +1249,25 @@
       <p xml:id="ORIPRA0468">
         <pb n="[146]"/>/pag.138/</p>
       <p xml:id="ORIPRA0469">Observationes</p>
-      <p xml:id="ORIPRA0470">Quaedam notulae imperficiunt et imperficiuntur, diverso tamen respectu, ut:
-        longa, brevis, semibrevis. Maxima tantum imperficitur, minima vero semper imperficit nec
+      <p xml:id="ORIPRA0470">Quaedam notulae imperficiunt et imperficiuntur, diverso tamen respectu,
+        ut: longa, brevis, semibrevis. Maxima tantum imperficitur, minima vero semper imperficit nec
         contra.</p>
       <p xml:id="ORIPRA0471">Observatio II</p>
       <p xml:id="ORIPRA0472">Quando inter duas breves in tempore perfecto duae semibreves fuerint
         positae et punctus divisionis his interponatur, utraque brevis imperficitur. Quod etiam post
         de punctis indicabitur.</p>
       <p xml:id="ORIPRA0473">Observatio III</p>
-      <p xml:id="ORIPRA0474">Cum vero tres semibreves inter duas breves perfectas locantur nullo puncto
-        adhibito, nulla quoque fit imperfectio. Si autem punctus divisionis vel alterationis
+      <p xml:id="ORIPRA0474">Cum vero tres semibreves inter duas breves perfectas locantur nullo
+        puncto adhibito, nulla quoque fit imperfectio. Si autem punctus divisionis vel alterationis
         interseratur, facile erit discernere, in quam notulam cadat imperfectio.</p>
       <p xml:id="ORIPRA0475">Observatio IV</p>
-      <p xml:id="ORIPRA0476">Si semibrevis in tempore perfecto longam subsequatur vel antecedat, long
-        illa imperficitur /pag.139/ partialiter per semibrevem antecedentem vel consequentem vel ex
-        utraque parte, si interponatur longa.</p>
+      <p xml:id="ORIPRA0476">Si semibrevis in tempore perfecto longam subsequatur vel antecedat,
+        long illa imperficitur /pag.139/ partialiter per semibrevem antecedentem vel consequentem
+        vel ex utraque parte, si interponatur longa.</p>
       <p xml:id="ORIPRA0477">Observatio V</p>
-      <p xml:id="ORIPRA0478">Etsi pausa numquam imperficitur, sed (ut diximus) imperficit tamen, si duae
-        semibreves contiguae brevem sequantur in tempore perfecto, tum nulla fit imperfectio.</p>
+      <p xml:id="ORIPRA0478">Etsi pausa numquam imperficitur, sed (ut diximus) imperficit tamen, si
+        duae semibreves contiguae brevem sequantur in tempore perfecto, tum nulla fit
+        imperfectio.</p>
       <p xml:id="ORIPRA0479">Exempla observationum</p>
       <p xml:id="ORIPRA0480">[Oridryus, Practicae musicae, 146; text: Secundae, Tertiae, Quartae,
         Quintae]</p>
@@ -1268,22 +1286,22 @@
         perfecto; semibrevis in tempore perfecto; minima in prolatione perfecta, quando videlicet
         duae minores sequuntur suam maiorem post punctum, quem alterationis ab officio nominant; nam
         hic alterationis est index, ut capite proximo docebimus.</p>
-      <p xml:id="ORIPRA0487">/pag.142/ Alteratur autem posterior semper non prior notula. Pausa quidem
-        non alteratur, verum tamen, si cum sua notula post illum punctum sic collocetur, ut priorem
-        locum obtineat, ipsa certe notula alterationem patietur.</p>
-      <p xml:id="ORIPRA0488">Fit interdum et alteratio in posteriore parte ligaturae duarum semibrevium,
-        quando inter duas breves in tempore perfecto conclusae sunt. Quae quidem omnia, ut studiosi
-        rectius percipiant, in haec exempla convertant suos oculos.</p>
-      <p xml:id="ORIPRA0489">[Oridryus, Practicae musicae, 148; text: Longae alteratio. Brevis in modo
-        minori perfecto. Semibrevis in tempore perfecto. In ligatura. Minimae in prolatione
+      <p xml:id="ORIPRA0487">/pag.142/ Alteratur autem posterior semper non prior notula. Pausa
+        quidem non alteratur, verum tamen, si cum sua notula post illum punctum sic collocetur, ut
+        priorem locum obtineat, ipsa certe notula alterationem patietur.</p>
+      <p xml:id="ORIPRA0488">Fit interdum et alteratio in posteriore parte ligaturae duarum
+        semibrevium, quando inter duas breves in tempore perfecto conclusae sunt. Quae quidem omnia,
+        ut studiosi rectius percipiant, in haec exempla convertant suos oculos.</p>
+      <p xml:id="ORIPRA0489">[Oridryus, Practicae musicae, 148; text: Longae alteratio. Brevis in
+        modo minori perfecto. Semibrevis in tempore perfecto. In ligatura. Minimae in prolatione
         perfecta.] <figure>
           <graphic url="/images/ORIPRA_34GF.gif"/>
         </figure></p>
-      <p xml:id="ORIPRA0490">/pag.143/ Observa alterationem tolli denigratione notularum (quod et supra
-        monuimus) ac puncto divisionis, de quo nunc iam agemus.</p>
+      <p xml:id="ORIPRA0490">/pag.143/ Observa alterationem tolli denigratione notularum (quod et
+        supra monuimus) ac puncto divisionis, de quo nunc iam agemus.</p>
       <p xml:id="ORIPRA0491">De punctis <lb/>Caput undecimum</p>
-      <p xml:id="ORIPRA0492">Punctorum aliquoties mentionem fecimus, quare etiam nunc tempus postulat,
-        ut eorum usum breviter ostendamus ac primum definitione aperiamus.</p>
+      <p xml:id="ORIPRA0492">Punctorum aliquoties mentionem fecimus, quare etiam nunc tempus
+        postulat, ut eorum usum breviter ostendamus ac primum definitione aperiamus.</p>
       <p xml:id="ORIPRA0493">Est igitur punctus apex quidam minimus notulis adiectus vel ad augendum
         earum valorem vel ad dividenda tempora. Hunc a quadripartita functione non inepte
         quadruplicem statuerimus aliumque dixerimus</p>
@@ -1291,27 +1309,25 @@
         <pb n="[149]"/>
       </p>
       <p class="textFig" xml:id="ORIPRA0495">
-        <br/>          {additionis, 
-        <lb/>punctum   {perfectionis, 
-        <br/>          {divisionis, 
+        <br/>          {additionis,  <lb/>punctum   {perfectionis,  <br/>          {divisionis, 
         <lb/>          {alterationis. <br/></p>
       <p xml:id="ORIPRA0496">Punctus additionis is dicitur, qui notulis quibuslibet a tergo statim
         appositus ex unicis /pag.144/ sesquialteras facit, hoc est, dimidiam partem valoris eis
         addit. Apponitur vero imperfectis notulis, quae videlicet binario censentur numero, sic:
         [MXv,pt,MXvcsdx,Bv; Lv,pt,Bvcsdx,Bv; Sv,pt,Sv,Mv; Svcd,pt,Mv,M; Scd,pt,M,SM]</p>
-      <p xml:id="ORIPRA0497">Punctus perfectionis est, qui notulae perfectae a tergo affigitur, non, ut
-        eam augeat, sed tantum, ut in perfectione conservet, ne a minori notula imperficiatur, hoc
-        modo:</p>
+      <p xml:id="ORIPRA0497">Punctus perfectionis est, qui notulae perfectae a tergo affigitur, non,
+        ut eam augeat, sed tantum, ut in perfectione conservet, ne a minori notula imperficiatur,
+        hoc modo:</p>
       <p xml:id="ORIPRA0498">[Oridryus, Practicae musicae, 149,1]</p>
-      <p xml:id="ORIPRA0499">Punctus divisionis est, qui inter duas notulas in signo perfecto locatas
-        eas neque auget neque minuit, sed, ne connumerentur, se iungit et discernit tempora. Notatur
-        autem paulo altius a notula quam additionis punctus. Quando autem ad tertiam aut quartam
-        notulam ponitur, significat illam notulam cui adhae ret esse transferendam ad tertiam aut
-        quartam ac tum punctus transportationis dicitur. Huius usus est tantum in perfectis
-        gradibus, quia /pag.145/ trinam perfectionem intendit conficere, ut hic:</p>
+      <p xml:id="ORIPRA0499">Punctus divisionis est, qui inter duas notulas in signo perfecto
+        locatas eas neque auget neque minuit, sed, ne connumerentur, se iungit et discernit tempora.
+        Notatur autem paulo altius a notula quam additionis punctus. Quando autem ad tertiam aut
+        quartam notulam ponitur, significat illam notulam cui adhae ret esse transferendam ad
+        tertiam aut quartam ac tum punctus transportationis dicitur. Huius usus est tantum in
+        perfectis gradibus, quia /pag.145/ trinam perfectionem intendit conficere, ut hic:</p>
       <p xml:id="ORIPRA0500">[Oridryus, Practicae musicae, 149,2]</p>
-      <p xml:id="ORIPRA0501">Punctus alterationis est, qui in suo valore duplicat secundam notulam in
-        ordine sequentem illum punctum, hoc est, bis tantum valere facit, quantum simplex alias
+      <p xml:id="ORIPRA0501">Punctus alterationis est, qui in suo valore duplicat secundam notulam
+        in ordine sequentem illum punctum, hoc est, bis tantum valere facit, quantum simplex alias
         valebat. Huius usum <pb n="[150]"/>satis ostendimus eo capite, quo de alteratione agebamus.
         Exempla de punctis satis multa passim in cantilenis obvia sunt. Ubicumque enim tempus,
         prolatio et augmentatio visa fuerint, numquam fere ibi puncti deerunt. Unum tamen exemplum
@@ -1319,14 +1335,14 @@
       <p xml:id="ORIPRA0502">[Oridryus, Practicae musicae, 150; text: Tenor, Bassus, Perfectionis,
         Divisionis. Additionis]</p>
       <p xml:id="ORIPRA0503">/pag.147/ De syncopatione <lb/>Caput duodecimum</p>
-      <p xml:id="ORIPRA0504">Multis saepe cantionibus notularum quemdam ductum quasi coactum usu venire
-        videmus ita, ut aequabilitati tactus videatur quasi obstrepere ac repugnare. Hoc ubi fit,
-        nihil debet tactus aequabilitati de notularum quantitate concedi, sed canendo fortiter
+      <p xml:id="ORIPRA0504">Multis saepe cantionibus notularum quemdam ductum quasi coactum usu
+        venire videmus ita, ut aequabilitati tactus videatur quasi obstrepere ac repugnare. Hoc ubi
+        fit, nihil debet tactus aequabilitati de notularum quantitate concedi, sed canendo fortiter
         obsisti, donec ipsae notulae cum tactu quasi gratiam redeant. Hanc autem discrepantiam
         appellarunt quondam huius artis magistri syncopationem. Cuius, si quis forte definitionem
         requirat, ea haec est.</p>
-      <p xml:id="ORIPRA0505">Syncopatio est minoris unius notulae ultra maiorem ad aequalem sibi notam
-        cui connumeratur, deductio, cum videlicet inter duas minimas una seu plures semibreves
+      <p xml:id="ORIPRA0505">Syncopatio est minoris unius notulae ultra maiorem ad aequalem sibi
+        notam cui connumeratur, deductio, cum videlicet inter duas minimas una seu plures semibreves
         contra tactum canuntur, hunc in modum.</p>
       <p xml:id="ORIPRA0506">
         <pb n="[151]"/>/pag.147/-pag.148/</p>
@@ -1336,33 +1352,34 @@
       <p xml:id="ORIPRA0510">Minima notula ultra pausam brevem non est transferenda. Similiter
         semibrevis ultra pausam brevem raro, numquam vero ultra longae pausam debet deduci.</p>
       <p xml:id="ORIPRA0511">De proportione <br/>Caput tredecimum</p>
-      <p xml:id="ORIPRA0512">/pag.149/ Proportionum tanta est varietas, tam diversae sunt species, ut
-        earum hic nomina recensere, nedum tractationem de omnibus aliquam instituere non libeat. Re
-        ipsa enim <pb n="[152]"/>comperi, quantopere hinc abhorrere soleant artis huius studiosorum
-        animi eo, quod ad theoricam magis ista pertineant, qua parum adolescentia solet affici;
-        praxi magis et motu iisque, quibus externi sensus afficiuntur, delectatur. Omissis ergo iis,
-        quae propter difficultatem in usum raro veniunt, duplam, triplam, sesquialteram et hemioliam
-        proportiones satis fuerit proposuisse studiosis easque bene cognovisse.</p>
-      <p xml:id="ORIPRA0513">Est igitur proportio quaedam collatio, qua diversi numeri notularum inter
-        se et tactuum conferentur.</p>
+      <p xml:id="ORIPRA0512">/pag.149/ Proportionum tanta est varietas, tam diversae sunt species,
+        ut earum hic nomina recensere, nedum tractationem de omnibus aliquam instituere non libeat.
+        Re ipsa enim <pb n="[152]"/>comperi, quantopere hinc abhorrere soleant artis huius
+        studiosorum animi eo, quod ad theoricam magis ista pertineant, qua parum adolescentia solet
+        affici; praxi magis et motu iisque, quibus externi sensus afficiuntur, delectatur. Omissis
+        ergo iis, quae propter difficultatem in usum raro veniunt, duplam, triplam, sesquialteram et
+        hemioliam proportiones satis fuerit proposuisse studiosis easque bene cognovisse.</p>
+      <p xml:id="ORIPRA0513">Est igitur proportio quaedam collatio, qua diversi numeri notularum
+        inter se et tactuum conferentur.</p>
       <p xml:id="ORIPRA0514">Observatio I</p>
-      <p xml:id="ORIPRA0515">Proportio omnis tollitur, si statim contraria subjiciatur vel per temporis
-        signum post proportionem positum vel per signorum inversionem.</p>
+      <p xml:id="ORIPRA0515">Proportio omnis tollitur, si statim contraria subjiciatur vel per
+        temporis signum post proportionem positum vel per signorum inversionem.</p>
       <p xml:id="ORIPRA0516">Observatio II</p>
       <p xml:id="ORIPRA0517">Nonnumquam per canonis inscriptionem absque numeris innuitur proportio
         tentandi ingenii brevitatisque causa, dum dicitur decrescit in duplo, triplo, et cetera.</p>
       <p xml:id="ORIPRA0518">/pag.150/</p>
       <p xml:id="ORIPRA0519">Observatio III</p>
-      <p xml:id="ORIPRA0520">Est autem imaginaria quaedam praeceptio, qua ex iis, quae posita sunt, pars
-        cantilenae non posita vel expressa elicitur. Huius exempla supra visa sunt nonnulla.</p>
+      <p xml:id="ORIPRA0520">Est autem imaginaria quaedam praeceptio, qua ex iis, quae posita sunt,
+        pars cantilenae non posita vel expressa elicitur. Huius exempla supra visa sunt
+        nonnulla.</p>
       <p xml:id="ORIPRA0521">De proportione dupla</p>
       <p xml:id="ORIPRA0522">Ea est quando maior notularum numerus, minori aequatur, ut brevis
         semibrevi, haec minimae, hoc est, quae omnis generis notulis ac pausis dimidium sui valoris
         adimit. Ut ita per eam duae eiusdem speciei notulae non pluris valeant, quam alias earundem
         una solebat.</p>
-      <p xml:id="ORIPRA0523">Dupla autem dicitur respectu integrae semibrevis, quod unicae duas aequare
-        faciat. Signatur vero haec proportio sic 2/1, 4/2 vel signis transversis, hoc modo: [CL]
-        [C]</p>
+      <p xml:id="ORIPRA0523">Dupla autem dicitur respectu integrae semibrevis, quod unicae duas
+        aequare faciat. Signatur vero haec proportio sic 2/1, 4/2 vel signis transversis, hoc modo:
+        [CL] [C]</p>
       <p xml:id="ORIPRA0524">
         <pb n="[153]"/>/pag.150/-pag.151/</p>
       <p xml:id="ORIPRA0525">Exemplum duplae</p>
@@ -1380,8 +1397,8 @@
       <p xml:id="ORIPRA0532">
         <pb n="[154]"/>[Oridryus, Practicae musicae, 154,1]</p>
       <p xml:id="ORIPRA0533">De sesquialtera</p>
-      <p xml:id="ORIPRA0534">Haec proportio metitur minimas. In ea enim tres minimae aut semibrevis et
-        minima uni tactui accinuntur. Signatur hoc modo: 3/2, 6/4. /pag.153/ Interdum etiam
+      <p xml:id="ORIPRA0534">Haec proportio metitur minimas. In ea enim tres minimae aut semibrevis
+        et minima uni tactui accinuntur. Signatur hoc modo: 3/2, 6/4. /pag.153/ Interdum etiam
         implectione notularum in una aliqua cantilenae parte citra ullam numerorum aut characterum
         asscriptionem agnoscitur. Verum, si ea denigratio in omnibus cantilenae partibus usu veniat
         uno eodemque tempore, tum potius tripla proportio aut, si mavis, hemiolia censebitur.</p>
@@ -1398,8 +1415,8 @@
         tactibus accommodandas significat. Eius signum est circulus vel semicirculus subscripto
         numero ternario. Etiam notularum nigror.</p>
       <p xml:id="ORIPRA0541">Exemplum hemioliae proportionis</p>
-      <p xml:id="ORIPRA0542">[Oridryus, Practicae musicae, 155,2; text: Discantus, Altus, Tenor, Bassus,
-        Hemiolia Diminutiones, Tripla integra. Hemiolia prolationis] <figure>
+      <p xml:id="ORIPRA0542">[Oridryus, Practicae musicae, 155,2; text: Discantus, Altus, Tenor,
+        Bassus, Hemiolia Diminutiones, Tripla integra. Hemiolia prolationis] <figure>
           <graphic url="/images/ORIPRA_36GF.gif"/>
         </figure></p>
       <p xml:id="ORIPRA0543">
@@ -1421,10 +1438,9 @@
         alacritatem et progressionem aliquam. Valete, vestrumque Oridryum mutuo diligite.</p>
       <p xml:id="ORIPRA0546">Errata:</p>
       <p xml:id="ORIPRA0547">C IIII    fa.I, C-sol-fa-ut pro g-sol-re-ut,</p>
-      <p xml:id="ORIPRA0548">G III    fa II, in prima regula ligatarum obliqua
-        posita est sine cauda, quam habere debebat, ut sit semibrevis,</p>
-      <p xml:id="ORIPRA0549">H II    in modo maiore et minore non debent occultari
-        caudae.</p>
+      <p xml:id="ORIPRA0548">G III    fa II, in prima regula ligatarum obliqua posita est sine
+        cauda, quam habere debebat, ut sit semibrevis,</p>
+      <p xml:id="ORIPRA0549">H II    in modo maiore et minore non debent occultari caudae.</p>
     </body>
   </text>
 </TEI>

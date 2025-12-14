@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Tractatus musicae scientiae</title>
         <title type="abbrev">PERTRA</title>
-        <author>Person, Gobelinus</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Person, Gobelinus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Sandra Pinegar</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Hermann Müller, "Der tractatus musicae scientiae des Gobelinus
           Person," <emph>Kirchenmusikalisches Jahrbuch</emph> 20 (1907): 177-96, 180–96. </bibl>
@@ -62,11 +72,11 @@
       <p xml:id="PERTRA0012">Pica scit, ex usu scit capra domum remeare.</p>
       <p xml:id="PERTRA0013">Scire, quod est commune feris, nescire sciatis.</p>
       <p xml:id="PERTRA0014">Decipitur, qui sic loquitur bene scire per usum.</p>
-      <p xml:id="PERTRA0015">Ut igitur musicalium regularum notitia sectantes usum et artem ignorantes
-        valeat efficere cautiores irregularitasque et deformitas cantuum facilius possit deprehendi
-        et deprehensa justius recusari, compendium quoddam de hujus scientiae principiis duxi
-        conscribendum; non quidem, quod ego peritiam musicae artis habeam, sed quod ea, quae sparsim
-        in diversis libris contineri perspexi, breviori, qua possum, summa concludam.</p>
+      <p xml:id="PERTRA0015">Ut igitur musicalium regularum notitia sectantes usum et artem
+        ignorantes valeat efficere cautiores irregularitasque et deformitas cantuum facilius possit
+        deprehendi et deprehensa justius recusari, compendium quoddam de hujus scientiae principiis
+        duxi conscribendum; non quidem, quod ego peritiam musicae artis habeam, sed quod ea, quae
+        sparsim in diversis libris contineri perspexi, breviori, qua possum, summa concludam.</p>
       <p xml:id="PERTRA0016">Capitulum primum: De diffinitione musicae et speciebus ejus.</p>
       <p xml:id="PERTRA0017">Musica a quibusdam sic describitur: "Musica est ars vocum distantias
         symphoniasque proportionabiliter dijudicans."</p>
@@ -78,17 +88,17 @@
         musica rhythmica.</p>
       <p xml:id="PERTRA0020">Musica harmonica consistit in vocibus humanis; et illa ab exordio
         creationis humanae habuisse videtur initium.</p>
-      <p xml:id="PERTRA0021">Musica organica est, quae fit per flatus, prout fit in fistulis; et hujus
-        inventor Moyse teste Jubal, filius Lamech, septimi ab Adam, fuisse dicitur.</p>
+      <p xml:id="PERTRA0021">Musica organica est, quae fit per flatus, prout fit in fistulis; et
+        hujus inventor Moyse teste Jubal, filius Lamech, septimi ab Adam, fuisse dicitur.</p>
       <p xml:id="PERTRA0022">Musica rhythmica est, quae fit per tactus nervorum et cordarum, quae
         exercetur in citharis et silibus; qua Amphion, qui apud Thebas Graeciae regnabat, post
         tempora Jubal praedicti quasi annis tribus millibus quadringentis primus claruisse
         refertur.</p>
-      <p xml:id="PERTRA0023">Post quem quasi annis sexcentis Pythagoras philosophus, qui temporibus Cyri
-        regis Persarum claruit, certas regulas musicae scientiae primus tradidisse creditur; quare
-        Graeci dicunt ipsum fuisse musicae scientiae inventorem.</p>
-      <p xml:id="PERTRA0024">Boethius vero senator Romanus et exconsul musicam transtulit de Graeco in
-        Latinum.</p>
+      <p xml:id="PERTRA0023">Post quem quasi annis sexcentis Pythagoras philosophus, qui temporibus
+        Cyri regis Persarum claruit, certas regulas musicae scientiae primus tradidisse creditur;
+        quare Graeci dicunt ipsum fuisse musicae scientiae inventorem.</p>
+      <p xml:id="PERTRA0024">Boethius vero senator Romanus et exconsul musicam transtulit de Graeco
+        in Latinum.</p>
       <p xml:id="PERTRA0025">Capitulum secundum: De nominibus graduum scalae musicalis.</p>
       <p xml:id="PERTRA0026">Sciendum est igitur, quod certa nomina designantia gradus ascensuum et
         descensuum cantuum a musicis sint prioribus instituta; quorum ordinationes graduum secundum,
@@ -96,19 +106,19 @@
         "scala tonaria" nominatur. Pro quorum quidem nominum compositione septem primae litterae
         alphabeti cum his sex vocibus: ut re mi fa sol la, quae litterae "claves" nominantur, a
         Latinis sunt receptae.</p>
-      <p xml:id="PERTRA0027">Advertendum est autem, quod vetustissimi musici tantum quindecim, secundum
-        alios quatuordecim gradus in scala musicali posuerunt; undo ab A re inceperunt et in aa la
-        mi re terminaverunt. Sed posteriores musici, considerantes, quod secundum tonos quinque sub
-        suo finali requiritur diapente, apposuerunt unum gradum in principio, cui attribuebant g
-        litteram, quae in processu graduum praedictorum immediate sub A etiam ponitur, sed sub
-        figura graeca, quae talis est: [Gamma], ad insinuandum, quod musica a Graecis ad eos foret
-        derivata; et addiderunt ei hanc vocem: ut, quae etiam in processu praedictorum sub re
-        ponitur; et sic nomen illius est: gamma ut, quod ita debet scribi: [Gamma] ut. Insuper
-        adiecerunt tres, secundum alios: quatuor extremos gradus. Et sic sunt numero decem et novem
-        gradus scalae musicalis. Etiam addiderunt b molle, quod prius non habebant, --unde, ubi nunc
-        dicimus b fa [sqb] mi, ipsi antiqui dicebant [sqb] mi--; sed gradum eundem cum b quadrato
-        sibi reliquerunt; et nihilominus voces in b fa et [sqb] mi sibi dissonae remanserunt, et
-        propter hoc sibi invicem commutari non possunt.</p>
+      <p xml:id="PERTRA0027">Advertendum est autem, quod vetustissimi musici tantum quindecim,
+        secundum alios quatuordecim gradus in scala musicali posuerunt; undo ab A re inceperunt et
+        in aa la mi re terminaverunt. Sed posteriores musici, considerantes, quod secundum tonos
+        quinque sub suo finali requiritur diapente, apposuerunt unum gradum in principio, cui
+        attribuebant g litteram, quae in processu graduum praedictorum immediate sub A etiam
+        ponitur, sed sub figura graeca, quae talis est: [Gamma], ad insinuandum, quod musica a
+        Graecis ad eos foret derivata; et addiderunt ei hanc vocem: ut, quae etiam in processu
+        praedictorum sub re ponitur; et sic nomen illius est: gamma ut, quod ita debet scribi:
+        [Gamma] ut. Insuper adiecerunt tres, secundum alios: quatuor extremos gradus. Et sic sunt
+        numero decem et novem gradus scalae musicalis. Etiam addiderunt b molle, quod prius non
+        habebant, --unde, ubi nunc dicimus b fa [sqb] mi, ipsi antiqui dicebant [sqb] mi--; sed
+        gradum eundem cum b quadrato sibi reliquerunt; et nihilominus voces in b fa et [sqb] mi sibi
+        dissonae remanserunt, et propter hoc sibi invicem commutari non possunt.</p>
       <p xml:id="PERTRA0028">Bis septem veteres contenti clavibus olim</p>
       <p xml:id="PERTRA0029">Contentos propria voluere tonos quoque norma.</p>
       <p xml:id="PERTRA0030">At claustris adeo strictis tantum retinere</p>
@@ -170,15 +180,15 @@
       <p xml:id="PERTRA0066">e super; excellunt, quas inchoat a duplicata.</p>
       <p xml:id="PERTRA0067">De vocibus graduum.</p>
       <p xml:id="PERTRA0068">Dicto de litteris dicendum est de vocibus.</p>
-      <p xml:id="PERTRA0069">Sex vocibus latini musici utuntur, videlicet: ut, re, mi, fa, sol, la. Quae
-        dicuntur receptae ex illo hymno: "Ut queant laxis," cujus primae sex distinctiones seu metra
-        prima sex primis syllabis suis continent has voces. Ut patet in his dictionibus ut resonare
-        mira famuli solve labiis. Fertur enim, quod, dum Paulus, diaconus ecclesiae Romanae, debuit
-        ad benedicendum cereum paschalem illam benedictionem "Exsultet angelica turba coelorum" et
-        raucitate vocis nimium tenebatur impeditus, reducto ad memoriam, qualiter meritis beati
-        Joannis Baptistae patri suo Zachariae muto vox fuit restituta, hunc hymnum in honore beati
-        Joannis composuit et vocis sonoritas ei statim fuerat restituta. Et inde placuit has sex
-        voces recipi pro vocibus musicalibus.</p>
+      <p xml:id="PERTRA0069">Sex vocibus latini musici utuntur, videlicet: ut, re, mi, fa, sol, la.
+        Quae dicuntur receptae ex illo hymno: "Ut queant laxis," cujus primae sex distinctiones seu
+        metra prima sex primis syllabis suis continent has voces. Ut patet in his dictionibus ut
+        resonare mira famuli solve labiis. Fertur enim, quod, dum Paulus, diaconus ecclesiae
+        Romanae, debuit ad benedicendum cereum paschalem illam benedictionem "Exsultet angelica
+        turba coelorum" et raucitate vocis nimium tenebatur impeditus, reducto ad memoriam, qualiter
+        meritis beati Joannis Baptistae patri suo Zachariae muto vox fuit restituta, hunc hymnum in
+        honore beati Joannis composuit et vocis sonoritas ei statim fuerat restituta. Et inde
+        placuit has sex voces recipi pro vocibus musicalibus.</p>
       <p xml:id="PERTRA0070">Et sic ex eis et litteris supradictis nomina graduum praedictorum sunt
         conjuncta. Sed ante illa tempora per ipsas litteras a b c et caetera introductiones fiebant
         in cantum ipsum. Aliae gentes alia signa ad hoc habebant, prout habent.</p>
@@ -204,61 +214,61 @@
       <p xml:id="PERTRA0090">Sunt aliae gentes aliter modulando canentes;</p>
       <p xml:id="PERTRA0091">Introductive quidam cantant: a, b, c, d.</p>
       <p xml:id="PERTRA0092">Nos: ut, re, mi, fa, dicta prius ordine causa.</p>
-      <p xml:id="PERTRA0093">Praeterea sciendum, quod gradus supradicti apud Graecos alia consideratione
-        certis nominibus graecis nominantur. Pro quo notandum, <pb n="[183]"/>quod antiquissimi
-        musici apud Graecos quatuor tetrachordia in monochordo disposuerunt. Primum fuit ab A usque
-        D; et hoc vocabant tetrachordum principalium, eo, quod illae notae in principio locatae
-        essent. Secundum est ab E usque ad a; et hoc vocabant mediarum, quod per eas medias, id est
-        mediatrices, cantus a gravibus ad acutas progrederetur. Tertium a [sqb] usque e; quod
-        appellabant disjunctarum, quod per eas a praecedentibus disjunctas, id est differentes,
-        videbant et in figura et in soni accentuatione. Quartum vero fuit a praemissa e usque ad aa
-        duplicatum; et hoc vocabant excellentium. Et hac quadripartita distributione incipiendo ab A
-        re vocabula musicis vocibus imponebant.</p>
-      <p xml:id="PERTRA0094">Unde apud eos A vocatur proslambanomenos, id est acquisita sive assumpta,
-        quia primi musici eam non habebant. Sed incipiebant a B, quam ipsi vocant hypate hypaton, id
-        est principalis principalium. C vocant parhypate hypaton, id est juxta principalem
-        principalium. D vocabant lichanos hypaton, id est digitalis principalium. E vocabant hypate
-        meson, id est principalis mediarum. F vocabant parhypate meson, id est juxta principalem
-        mediarum. G lichanos meson, id est digitalis mediarum. a acutam vocabant mese, id est media,
-        scilicet inter A capitalem et aa duplicatam. Nulla enim nota apud illos vetustiores ter
-        repetebatur nisi ista. b quadratum appellabant paramese, id est juxta mediam. c dicitur
-        trite diezeugmenon, id est tertia disjunctarum. d dicitur paranete diezeugmenon, id est
-        iuxta ultimam disjunctarum, quia est juxta eam, quae vocatur nete diezeugmenon, id est
-        ultima disjunctarum. Sequitur f, quae vocatur trite hvperbolaeon, id est tertia
-        excellentium. g dicitur paranete hyperboleon, juxta ultimam excellentium, quod est juxta aa,
-        quae vocatur nete hyperbolaeon, id est ultima excellentium. Et ibi terminabant veteres
-        scalam musicalem.</p>
+      <p xml:id="PERTRA0093">Praeterea sciendum, quod gradus supradicti apud Graecos alia
+        consideratione certis nominibus graecis nominantur. Pro quo notandum, <pb n="[183]"/>quod
+        antiquissimi musici apud Graecos quatuor tetrachordia in monochordo disposuerunt. Primum
+        fuit ab A usque D; et hoc vocabant tetrachordum principalium, eo, quod illae notae in
+        principio locatae essent. Secundum est ab E usque ad a; et hoc vocabant mediarum, quod per
+        eas medias, id est mediatrices, cantus a gravibus ad acutas progrederetur. Tertium a [sqb]
+        usque e; quod appellabant disjunctarum, quod per eas a praecedentibus disjunctas, id est
+        differentes, videbant et in figura et in soni accentuatione. Quartum vero fuit a praemissa e
+        usque ad aa duplicatum; et hoc vocabant excellentium. Et hac quadripartita distributione
+        incipiendo ab A re vocabula musicis vocibus imponebant.</p>
+      <p xml:id="PERTRA0094">Unde apud eos A vocatur proslambanomenos, id est acquisita sive
+        assumpta, quia primi musici eam non habebant. Sed incipiebant a B, quam ipsi vocant hypate
+        hypaton, id est principalis principalium. C vocant parhypate hypaton, id est juxta
+        principalem principalium. D vocabant lichanos hypaton, id est digitalis principalium. E
+        vocabant hypate meson, id est principalis mediarum. F vocabant parhypate meson, id est juxta
+        principalem mediarum. G lichanos meson, id est digitalis mediarum. a acutam vocabant mese,
+        id est media, scilicet inter A capitalem et aa duplicatam. Nulla enim nota apud illos
+        vetustiores ter repetebatur nisi ista. b quadratum appellabant paramese, id est juxta
+        mediam. c dicitur trite diezeugmenon, id est tertia disjunctarum. d dicitur paranete
+        diezeugmenon, id est iuxta ultimam disjunctarum, quia est juxta eam, quae vocatur nete
+        diezeugmenon, id est ultima disjunctarum. Sequitur f, quae vocatur trite hvperbolaeon, id
+        est tertia excellentium. g dicitur paranete hyperboleon, juxta ultimam excellentium, quod
+        est juxta aa, quae vocatur nete hyperbolaeon, id est ultima excellentium. Et ibi terminabant
+        veteres scalam musicalem.</p>
       <p xml:id="PERTRA0095">De triplici cantu et vocum distinctione. Capitulum tertium.</p>
-      <p xml:id="PERTRA0096">Cantus in tres species distinguitur, Unus vocatur bduralis, alius naturalis
-        et alius bmollialis. Cantus b-duralis semper incipit in g. Et g ter ponitur in scala
-        musicali. Unde tres sunt cantus bdurales: primus incipit in [Gamma] ut, secundus in G sol re
-        ut et tertius in g sol re ut. Cantus naturalis semper incipit in c. Unde duo sunt cantus
-        naturales: primus in C fa ut, secundua in c sol fa ut. Cantus bmollialis semper incipit in
-        f. Unde primus incipit in F fa ut, et secundus in f fa ut.</p>
-      <p xml:id="PERTRA0097">Et propter tam diversas species cantuum oportuit voces in certis gradibus
-        plus vel minus multiplicare. Unde primus gradus scalae musicalis, qui est principium primi
-        cantus bduralis, pro prima sua syllaba habet litteram g. videlicet gamma, graecam litteram,
-        cui addita est haec vox: ut sola, quia alium cantum non recipit; unde nomen ejus est [Gamma]
-        ut. Et sic suo modo nomen secundi gradus est A re, nomen tertii B mi. Quartus vero gradus C
-        litteram habet, cui ex parte primi bduralis datur haec syllaba: fa, et ex parte primi
-        naturalis, cujus ibidem est initium, additur ei haec vox: ut; unde nomen ejus est C fa ut.
-        Et sic suo modo quintus dicitur D sol re et sextus dicitur E la mi. Septimus gradus pro sua
-        prima syllaba habet litteram F et ratione primi cantus naturalis hanc vocem: fa, et ex parte
-        primi bmollialis hanc vocem: ut, quod est principium ipsius primi bmollialis; unde nomen
-        ejus est F fa ut. In octavo vero gradu praedictis litteris iterato resumptis G litteram
-        primam syllabarum illius constituit, cui ex parte primi naturalis sol, ex parte primi
-        bmollialis re, et ex parte secundi bduralis, qui habet ibidem initium, ut syllabae sunt
-        adjunctae; unde nomen ejus est G sol re ut. Et sic suo modo gradus immediate sequens dicitur
-        a la mi re. Decimus vero gradus duas litteras b habet. Unde sciendum, quod, prout superius
-        dictum est, iste gradus in una voce augmentatus est videlicet fa, cum prius solam habuerit
-        mi; et quia istae voces sunt sibi dissonae, quia mi est altius ipso fa, prout plenius infra
-        dicetur, cuilibet voci propria littera est apposita. Hic namque gradus ex parte primi b
-        mollialis habet fa, cui praeponitur b rotundum; et habet mi ex parte secundi bduralis cui
-        praeponitur b quadratum. Unde nomen ejus est b fa [sqb] mi. Undecimus gradus c litteram pro
-        sua prima syllaba habet ex parte secundae distributionis litterarum, et habet sol ex parte
-        primi bmollialis, fa ex parte secundi bduralis, et ut ex parte secundi naturalis, qui habet
-        in eo initium; unde nomen ejus est c sol fa ut. Et sic de ceteris gradibus suo modo.
-        Versus:</p>
+      <p xml:id="PERTRA0096">Cantus in tres species distinguitur, Unus vocatur bduralis, alius
+        naturalis et alius bmollialis. Cantus b-duralis semper incipit in g. Et g ter ponitur in
+        scala musicali. Unde tres sunt cantus bdurales: primus incipit in [Gamma] ut, secundus in G
+        sol re ut et tertius in g sol re ut. Cantus naturalis semper incipit in c. Unde duo sunt
+        cantus naturales: primus in C fa ut, secundua in c sol fa ut. Cantus bmollialis semper
+        incipit in f. Unde primus incipit in F fa ut, et secundus in f fa ut.</p>
+      <p xml:id="PERTRA0097">Et propter tam diversas species cantuum oportuit voces in certis
+        gradibus plus vel minus multiplicare. Unde primus gradus scalae musicalis, qui est
+        principium primi cantus bduralis, pro prima sua syllaba habet litteram g. videlicet gamma,
+        graecam litteram, cui addita est haec vox: ut sola, quia alium cantum non recipit; unde
+        nomen ejus est [Gamma] ut. Et sic suo modo nomen secundi gradus est A re, nomen tertii B mi.
+        Quartus vero gradus C litteram habet, cui ex parte primi bduralis datur haec syllaba: fa, et
+        ex parte primi naturalis, cujus ibidem est initium, additur ei haec vox: ut; unde nomen ejus
+        est C fa ut. Et sic suo modo quintus dicitur D sol re et sextus dicitur E la mi. Septimus
+        gradus pro sua prima syllaba habet litteram F et ratione primi cantus naturalis hanc vocem:
+        fa, et ex parte primi bmollialis hanc vocem: ut, quod est principium ipsius primi
+        bmollialis; unde nomen ejus est F fa ut. In octavo vero gradu praedictis litteris iterato
+        resumptis G litteram primam syllabarum illius constituit, cui ex parte primi naturalis sol,
+        ex parte primi bmollialis re, et ex parte secundi bduralis, qui habet ibidem initium, ut
+        syllabae sunt adjunctae; unde nomen ejus est G sol re ut. Et sic suo modo gradus immediate
+        sequens dicitur a la mi re. Decimus vero gradus duas litteras b habet. Unde sciendum, quod,
+        prout superius dictum est, iste gradus in una voce augmentatus est videlicet fa, cum prius
+        solam habuerit mi; et quia istae voces sunt sibi dissonae, quia mi est altius ipso fa, prout
+        plenius infra dicetur, cuilibet voci propria littera est apposita. Hic namque gradus ex
+        parte primi b mollialis habet fa, cui praeponitur b rotundum; et habet mi ex parte secundi
+        bduralis cui praeponitur b quadratum. Unde nomen ejus est b fa [sqb] mi. Undecimus gradus c
+        litteram pro sua prima syllaba habet ex parte secundae distributionis litterarum, et habet
+        sol ex parte primi bmollialis, fa ex parte secundi bduralis, et ut ex parte secundi
+        naturalis, qui habet in eo initium; unde nomen ejus est c sol fa ut. Et sic de ceteris
+        gradibus suo modo. Versus:</p>
       <p xml:id="PERTRA0098">
         <pb n="[184]"/>Gamma ut in capite ponatur pollicis; A re</p>
       <p xml:id="PERTRA0099">In medio; B mi radice manu bene pansa;</p>
@@ -270,18 +280,18 @@
       <p xml:id="PERTRA0105">Quo prius ascendens tribuisti; notaque cuique</p>
       <p xml:id="PERTRA0106">Articulo. Nec erit labor omnia promere promptu.</p>
       <p xml:id="PERTRA0107">De mutationibus vocum et diversitate modorum. Capitulum quartum.</p>
-      <p xml:id="PERTRA0108">Ex diversitate cantuum supradictorum in progressu cantandi oportet saepius
-        voces invicem mutari. Quare de mutationibus earum consequenter est videndum. Sed quia
-        mutationes huiusmodi, propter adventum novi modi fiunt, aut quia cantus cantum excedit,
+      <p xml:id="PERTRA0108">Ex diversitate cantuum supradictorum in progressu cantandi oportet
+        saepius voces invicem mutari. Quare de mutationibus earum consequenter est videndum. Sed
+        quia mutationes huiusmodi, propter adventum novi modi fiunt, aut quia cantus cantum excedit,
         prius dicendum est de modis.</p>
-      <p xml:id="PERTRA0109">Pro quo notandum, quod novem modi sunt, quibus omnis melodia contexitur:
-        videlicet unisonus, semitonium, tonus, semiditonus, ditonus, diatessaron, diapente,
-        semitonium cum diapente, tonus cum diapente.</p>
+      <p xml:id="PERTRA0109">Pro quo notandum, quod novem modi sunt, quibus omnis melodia
+        contexitur: videlicet unisonus, semitonium, tonus, semiditonus, ditonus, diatessaron,
+        diapente, semitonium cum diapente, tonus cum diapente.</p>
       <p xml:id="PERTRA0110">Unisonus dicitur quasi unus sonus; est enim ejusdem clavis seu vocis
         repetitio, sic dicendo re re.</p>
-      <p xml:id="PERTRA0111">Tonus est cohaerentia duarum vocum, ubi nulla alia vox intermediare scit.
-        Et dicitur a "tono", quod est "potenter sono", quia fortem habet sonum respectu semitonii.
-        Et sunt ista: ut re, re mi, fa sol, sol la.</p>
+      <p xml:id="PERTRA0111">Tonus est cohaerentia duarum vocum, ubi nulla alia vox intermediare
+        scit. Et dicitur a "tono", quod est "potenter sono", quia fortem habet sonum respectu
+        semitonii. Et sunt ista: ut re, re mi, fa sol, sol la.</p>
       <p xml:id="PERTRA0112">Semitonium est imperfectus tonus. Et dicitur a "semis", quod est
         "imperfectum", et "tonus". Et sic a Vergilio Phryges dicuntur semiviri, id est imperfecti
         viri, propter mollitiem vestium. Alii credunt, quod semitonium dicatur a "semis", quod est
@@ -295,13 +305,13 @@
         mi.</p>
       <p xml:id="PERTRA0113">Ditonus habet in se duos tonos, scilicet ut, fa la. Et dicitur a "dyo",
         quod est duo, et "tonus".</p>
-      <p xml:id="PERTRA0114">Semiditonus dicitur, quod non sit plenus ditonus. Hujus sunt duae species.
-        Una constat ex tono et semitonio, ut dicendo re fa, sol mi. Altera semitonio et tono, ut
-        dicendo mi sol, fa re.</p>
-      <p xml:id="PERTRA0115">Diatessaron constat ex quatuor vocibus. Et dicitur a "dia", quod est "de",
-        et "tessaron", quod est "quatuor"; ut dicendo ut fa, re sol, mi la et econtra.</p>
-      <p xml:id="PERTRA0116">Diapente constat ex quinque vocibus. Et dicitur a "dia", quod est "de", et
-        "pente", quod est "quinque". Et habet in se diatessaron et tonum. Et fit quatuor modis.
+      <p xml:id="PERTRA0114">Semiditonus dicitur, quod non sit plenus ditonus. Hujus sunt duae
+        species. Una constat ex tono et semitonio, ut dicendo re fa, sol mi. Altera semitonio et
+        tono, ut dicendo mi sol, fa re.</p>
+      <p xml:id="PERTRA0115">Diatessaron constat ex quatuor vocibus. Et dicitur a "dia", quod est
+        "de", et "tessaron", quod est "quatuor"; ut dicendo ut fa, re sol, mi la et econtra.</p>
+      <p xml:id="PERTRA0116">Diapente constat ex quinque vocibus. Et dicitur a "dia", quod est "de",
+        et "pente", quod est "quinque". Et habet in se diatessaron et tonum. Et fit quatuor modis.
         Primus inter C et G, secundus inter D et a, tertius inter E et [sqb], quartus inter F et
         c.</p>
       <p xml:id="PERTRA0117">Semitonium cum diapente significat sonos duorum graduum extremorum,
@@ -332,10 +342,11 @@
         Propter quod ut re in G sol re ut et in g sol re ut, et re mi in a la mi re et in aa la mi
         re, quae fiunt ascendendo. Excipitur etiam b fa [sqb] mi, quod propter vocum dissonantiam
         nullam habet mutationem, sicut patet per superius dicta.</p>
-      <p xml:id="PERTRA0122">C fa ut igitur duas habet mutationes, scilicet fa ut ascendendo de primo
-        bdurali in primum naturalem, et ut fa descendendo de primo naturali in primum bduralem.</p>
-      <p xml:id="PERTRA0123">G sol re ut habet sex mutationes, sol re ascendendo de primo naturali in
-        primum bmollialem, re sol descendendo de primo bmolliali in primum naturalem, sol ut
+      <p xml:id="PERTRA0122">C fa ut igitur duas habet mutationes, scilicet fa ut ascendendo de
+        primo bdurali in primum naturalem, et ut fa descendendo de primo naturali in primum
+        bduralem.</p>
+      <p xml:id="PERTRA0123">G sol re ut habet sex mutationes, sol re ascendendo de primo naturali
+        in primum bmollialem, re sol descendendo de primo bmolliali in primum naturalem, sol ut
         ascendenda de primo naturali in secundum bduralem, ut sol descendendo de secundo bdurali ad
         primum naturalem, re ut ascendendo de primo bmolliali in secundum bduralem, ut re ascendendo
         de secundo bdurali in primum bmollialem.</p>
@@ -344,7 +355,8 @@
         bmolliali in secundum bduralem, fa sol descendendo de secundo bdurali in primum bmollialem,
         sol ut ascendendo de primo bmolliali in secundum naturalem, ut sol descendendo de secundo
         naturali in primum bmollem, fa ut ascendendo de secundo bdurali in secundum naturalem.</p>
-      <p xml:id="PERTRA0126">Et sic suo modo de d la sol re et ceteris gradibus secundum supradicta.</p>
+      <p xml:id="PERTRA0126">Et sic suo modo de d la sol re et ceteris gradibus secundum
+        supradicta.</p>
       <p xml:id="PERTRA0127">Et haec omnia patent his versibus:</p>
       <p xml:id="PERTRA0128">Mutandi modulos hinc pertractare libebit.</p>
       <p xml:id="PERTRA0129">Gamma ut, A re, B mi debet mutatio demi.</p>
@@ -420,41 +432,42 @@
       <p xml:id="PERTRA0197">Ut igitur praemissa clarius valeant intelligi, videatur figura manus
         sinistrae infra depicta cum annotatione antiphonae "Ter trini sunt modi".</p>
       <p xml:id="PERTRA0198">De introductione tonarii et tonorum. Capitulum quintum.</p>
-      <p xml:id="PERTRA0199">Declarata scala tonaria seu musicali restat subiungere declarationes libri
-        tonarii et praesertim juxta mentem versuum quorundam ex micrologo Guidonis, musici
+      <p xml:id="PERTRA0199">Declarata scala tonaria seu musicali restat subiungere declarationes
+        libri tonarii et praesertim juxta mentem versuum quorundam ex micrologo Guidonis, musici
         peritissimi, compositorum, quos etiam suis in locis cum ceteris infra dicendis annotabo.</p>
       <p xml:id="PERTRA0200">Primo igitur notandum quod tonus multis modis accipitur. Uno modo tonus
         idem est quod accentus. Et ita accipitur a Donato in barbarismo, cum dicit: Toni quoque per
         has species commutantur. Et sic non est ad propositum.</p>
       <p xml:id="PERTRA0201">Alio modo tonus dicitur nota tendens a linea in spatium proximum vel e
         converso, plenum sonum faciens.</p>
-      <p xml:id="PERTRA0202">Item tonus est propria notificatio cantus per "Saeculorum. Amen". Et de his
-        infra dicitur.</p>
+      <p xml:id="PERTRA0202">Item tonus est propria notificatio cantus per "Saeculorum. Amen". Et de
+        his infra dicitur.</p>
       <p xml:id="PERTRA0203">Item in alia significatione sumitur tonus et describitur sic. Tonus est
         "regula de unoquoque cantu maxime in fine dijudicans". Et dicitur tonus a "phthongis"
         graece, quod est "sonus" latine.</p>
-      <p xml:id="PERTRA0204">Tonus sumptus in hac significatione sic dividitur. Tonorum alius authentus
-        et alius plagalis; hoc est alius est principalis et alius collateralis. Et quia Graeci
-        dicunt "authentum", quod sonat latine "autoritas", inde sonus authentus dicitur
+      <p xml:id="PERTRA0204">Tonus sumptus in hac significatione sic dividitur. Tonorum alius
+        authentus et alius plagalis; hoc est alius est principalis et alius collateralis. Et quia
+        Graeci dicunt "authentum", quod sonat latine "autoritas", inde sonus authentus dicitur
         "magistralis". Et plagalis exponitur "partialis" seu "collateralis", a "plaga", quod
         significat partem terrae", sicut dicimus: in illa "plaga" terrae, id est parte vel
         regione.</p>
-      <p xml:id="PERTRA0205">Quatuor fuerunt toni apud Graecos antiquos, et non plures. Primus vocabatur
-        protus, id est primus; alius deuterus, id est secundus; alius tritus, id est tertius; alius
-        tetrardus, id est quartus. Quos tamen ipsi aliis nominabant nominibus, videlicet a gentibus,
-        apud quas inventi vel magis frequentati fuerunt. Unde protus vocabatur dorius, quod in
-        Cappadocia dicebatur repertus. Deuterus dicebatur phrygius, quod in Phrygia, ubi Troja fuit
-        condita, fuit inventus. Et tetrardus dicebatur mixolydius. Unde dicit Boethius: Musici tropi
-        gentium vocabulis designantur; et: Gens modis gaudet ad morum similitudinem. Et in signum
-        hujus quadripartitae divisionis tonorum adhuc habemus tantum quatuor finales tonorum, de
-        quibus supra dictum est.</p>
+      <p xml:id="PERTRA0205">Quatuor fuerunt toni apud Graecos antiquos, et non plures. Primus
+        vocabatur protus, id est primus; alius deuterus, id est secundus; alius tritus, id est
+        tertius; alius tetrardus, id est quartus. Quos tamen ipsi aliis nominabant nominibus,
+        videlicet a gentibus, apud quas inventi vel magis frequentati fuerunt. Unde protus vocabatur
+        dorius, quod in Cappadocia dicebatur repertus. Deuterus dicebatur phrygius, quod in Phrygia,
+        ubi Troja fuit condita, fuit inventus. Et tetrardus dicebatur mixolydius. Unde dicit
+        Boethius: Musici tropi gentium vocabulis designantur; et: Gens modis gaudet ad morum
+        similitudinem. Et in signum hujus quadripartitae divisionis tonorum adhuc habemus tantum
+        quatuor finales tonorum, de quibus supra dictum est.</p>
       <p xml:id="PERTRA0206">Sed postea alii musici, videntes cantum ejusdem modi nunc in gravibus
         principium habere et circa ipsas vagari, similiter in acutis inchoari et ibidem maxime
         commorari, ad evitandum dissonantiam, unumquemque praedictorum tonorum in duos diviserunt.
         Et sic principalem vocabant authentum, qui magis versatur in acutis, et alterum vocabant
         plagalem, qui magis versatur in gravibus; et sic octo tonos instituerunt. Quorum primus
         vocatur authentus protus, quod apud nos dicitur simpliciter primus tonus. Secundus dicitur
-        plagalis proti, quem nos vocamus secundum. Tertius vocatur authentus <pb n="[187]"/>deuterus, id est principalis secundus. Et quartus vocatur plagalis deuteri. Quintus
+        plagalis proti, quem nos vocamus secundum. Tertius vocatur authentus <pb n="[187]"
+        />deuterus, id est principalis secundus. Et quartus vocatur plagalis deuteri. Quintus
         vocatur authentus tritus, id est principalis tertius. Et sextus dicitur plagalis tertii, id
         est collateralis tertii. Septimus dicitur authentus tetrardus, id est principalis quartus.
         Et octavus dicitur plagalis tetrardi. Et hos plagales tonos Graeci per hanc praepositionem
@@ -479,15 +492,15 @@
       <p xml:id="PERTRA0223">Dorius et phrygius, lydius mixolydiusque</p>
       <p xml:id="PERTRA0224">Authentus suberunt, si cuilibet additur "hypo".</p>
       <p xml:id="PERTRA0225">De proprietate tonorum.</p>
-      <p xml:id="PERTRA0226">Habent etiam proprietates suas, quae tamen non multum advertuntur. Ut tamen
-        notitia illorum omnino non pereat, aliquid de his delectat recitandum.</p>
-      <p xml:id="PERTRA0227">Unde primas motivus et habilis est ad movendum animum ad varios affectus.
-        Unde plerumque tamquam egregius advocatus historiarum in initio praeponitur, ut "Virgo
-        prudentissima" de assumptione, et "O pulchra" in nativitate Beatae virginis, et de sancto
-        Nicolao "O pastor".</p>
-      <p xml:id="PERTRA0228">Plagalis ejus, videlicet secundus, flebilis et gravis, ad materias tristes
-        aptus est. Unde omnes illae antiphonae "O sapientia" et sequentes de adventu Domini secundi
-        toni sunt, et in ascensione Domini "O rex gloriae".</p>
+      <p xml:id="PERTRA0226">Habent etiam proprietates suas, quae tamen non multum advertuntur. Ut
+        tamen notitia illorum omnino non pereat, aliquid de his delectat recitandum.</p>
+      <p xml:id="PERTRA0227">Unde primas motivus et habilis est ad movendum animum ad varios
+        affectus. Unde plerumque tamquam egregius advocatus historiarum in initio praeponitur, ut
+        "Virgo prudentissima" de assumptione, et "O pulchra" in nativitate Beatae virginis, et de
+        sancto Nicolao "O pastor".</p>
+      <p xml:id="PERTRA0228">Plagalis ejus, videlicet secundus, flebilis et gravis, ad materias
+        tristes aptus est. Unde omnes illae antiphonae "O sapientia" et sequentes de adventu Domini
+        secundi toni sunt, et in ascensione Domini "O rex gloriae".</p>
       <p xml:id="PERTRA0229">Deuterus, id est tertius, severus et ad bella provocare dicitur. Unde
         primum Responsorium in resurrectione Domini, videlicet "Angelus Domini", tertii toni est,
         ubi Christus mortem vicisse commemoratur. Et sic iste tonus apte ponitur, ubi aliquid
@@ -497,18 +510,18 @@
       <p xml:id="PERTRA0231">Tritus sive quintus laetificativus et dulcis est, eo quod b molle sibi
         frequentissime deservit, ut in his antiphonis "Verbum caro factum est", et "Alleluia;
         resurrexit Dominus".</p>
-      <p xml:id="PERTRA0232">Plagalis ejus, id est sextus, omnium dulcissimus, animum ad pietatem et ad
-        lacrimas provocat, ut in hac antiphona "O quam suavis est, Domine."</p>
+      <p xml:id="PERTRA0232">Plagalis ejus, id est sextus, omnium dulcissimus, animum ad pietatem et
+        ad lacrimas provocat, ut in hac antiphona "O quam suavis est, Domine."</p>
       <p xml:id="PERTRA0233">Tetrardus sive septimus saliens est et lascivus, ut in his antiphonis
         "Assumpta est Maria", "In civitate Domini".</p>
-      <p xml:id="PERTRA0234">Plagalis ejus sive octavus senior est, ut puta morosus et suavis, ut in hac
-        antiphona "Dum ortus fuerit sol".</p>
-      <p xml:id="PERTRA0235">Sicut ergo non omnium ora eodem cibo delectantur, ita profecto non omnium
-        aures ejusdem modi sono delectantur. Alios namque morosa et curialis vagatio primi delectat,
-        alios secundi gravitas capit, alios severa et quasi indignans tertii persultatio juvat,
-        aliosque adulatorius quarti sonus attrahit. Alii modesta petulantia quinti ac subitaneo ad
-        finem casu moventur, alii voce lacrimosa sexti mulcentur, alii septimi saltus libenter
-        audiunt, et alii decentem et quasi matronalem octavi canorem diligunt.</p>
+      <p xml:id="PERTRA0234">Plagalis ejus sive octavus senior est, ut puta morosus et suavis, ut in
+        hac antiphona "Dum ortus fuerit sol".</p>
+      <p xml:id="PERTRA0235">Sicut ergo non omnium ora eodem cibo delectantur, ita profecto non
+        omnium aures ejusdem modi sono delectantur. Alios namque morosa et curialis vagatio primi
+        delectat, alios secundi gravitas capit, alios severa et quasi indignans tertii persultatio
+        juvat, aliosque adulatorius quarti sonus attrahit. Alii modesta petulantia quinti ac
+        subitaneo ad finem casu moventur, alii voce lacrimosa sexti mulcentur, alii septimi saltus
+        libenter audiunt, et alii decentem et quasi matronalem octavi canorem diligunt.</p>
       <p xml:id="PERTRA0236">
         <pb n="[188]"/>Mobilis est habilisque protus, quia venit ad omnes</p>
       <p xml:id="PERTRA0237">Affectus homini flectere neuma proti.</p>
@@ -527,33 +540,33 @@
       <p xml:id="PERTRA0250">Octavus morulus, gaudens gradiensque decenter;</p>
       <p xml:id="PERTRA0251">Creditur esse magis gratus in ore senum.</p>
       <p xml:id="PERTRA0252">De ornatu et pausis cantus.</p>
-      <p xml:id="PERTRA0253">Notandum est etiam, quod quaedam consideranda sunt circa cantum, quae magis
-        ad ornatum fiunt quam necessitate artis, ut cantus in materia tristi deprimatur, ut in
+      <p xml:id="PERTRA0253">Notandum est etiam, quod quaedam consideranda sunt circa cantum, quae
+        magis ad ornatum fiunt quam necessitate artis, ut cantus in materia tristi deprimatur, ut in
         offertorio "Dum fabricator", et prosperis et laetis elevetur, ut "Cum rex gloriae" et "Sedit
         angelus".</p>
       <p xml:id="PERTRA0254">Item quod caveat, ne vitiosa repetitio vocum fiat. In quibusdam autem
         pulchrum est, si bis eaedem voces repetuntur, sed non ultra continue, ut per infinita
         saecula.</p>
-      <p xml:id="PERTRA0255">Sciendum etiam, quod in principalibus ad finem cantum paulatim ducere laus
-        est, in collateralibus praecipitare decet.</p>
+      <p xml:id="PERTRA0255">Sciendum etiam, quod in principalibus ad finem cantum paulatim ducere
+        laus est, in collateralibus praecipitare decet.</p>
       <p xml:id="PERTRA0256">Item ornat cantum, si secundum sensum pausatio fiat.</p>
       <p xml:id="PERTRA0257">Item cantus subiugalium saepius finem revisent, in quarta rarissime
         pausent, in quinta a finali numquam; sed si quintam contigerit plagalis, raptim et quasi
         formidando recurrat. Authenti autem magis in acutis vagentur et postquam in quinta bis vel
         ter pausaverint, finalem repetant, rursusque festinando ad superiora se transferant.</p>
-      <p xml:id="PERTRA0258">Caveant autem plagales elevationem diapente omnino, diatessaron vero supra
-        et infra libere fiat; quarti tamen toni cantus competentius per diapente quam diatessaron
-        cadit et resurgit. In authentis pulchrum est per diapente elevari et deponi.</p>
-      <p xml:id="PERTRA0259">Cantus etiam plagalis quintam infra finalem propter nimiam gravitatem et
-        quintam supra finalem propter nimiam sonoritatem, ne authento attribuatur, rarissime
+      <p xml:id="PERTRA0258">Caveant autem plagales elevationem diapente omnino, diatessaron vero
+        supra et infra libere fiat; quarti tamen toni cantus competentius per diapente quam
+        diatessaron cadit et resurgit. In authentis pulchrum est per diapente elevari et deponi.</p>
+      <p xml:id="PERTRA0259">Cantus etiam plagalis quintam infra finalem propter nimiam gravitatem
+        et quintam supra finalem propter nimiam sonoritatem, ne authento attribuatur, rarissime
         tangat.</p>
       <p xml:id="PERTRA0260">De distinctionibus et pausis.</p>
       <p xml:id="PERTRA0261">Notandum igitur, quod, sicut in prosa considerantur tres distinctiones,
         quae pausae vel pausationes possunt appellari, scilicet colon, id est membrum, comma, id est
         incisio, et periodus, id est clausura vel circuitus, ita etiam tres pausae advertantur in
         cantu.</p>
-      <p xml:id="PERTRA0262">In prosa quippe, quando suspensive legitur et unus punctus ponitur, colon
-        vocatur, quando per legitima puncta sententia dividitur, comma est, et quando ad finem
+      <p xml:id="PERTRA0262">In prosa quippe, quando suspensive legitur et unus punctus ponitur,
+        colon vocatur, quando per legitima puncta sententia dividitur, comma est, et quando ad finem
         sententia deducitur, periodus est. Verbi gratia: "Anno quinto decimo imperii Tiberii
         Caesaris", hic in omnibus punctis colon est, demum, ubi subditur "sub principibus Anna et
         Caipha", comma est, in fine autem versus, ubi dicit "Zachariae filium in deserto", periodus
@@ -563,10 +576,10 @@
         finalem pervenit, periodus est. Ut in hac antiphona: "Ecce nomen Domini" "Emmanuel" est
         colon, "quod annuntiatum est per Gabrielem" comma est, et in fine, ubi dicitur "magnus rex",
         periodus est.</p>
-      <p xml:id="PERTRA0264">Habent tamen hae pausae in musica alia nomina, scilicet diastema, systema
-        et teleusis. Significat enim diastema "distinctum ornatum", qui fit. quando cantus non in
-        finali, sed in alia decenter pausat. Systema "conjunctum ornatum" indicat, quotiens in
-        finali decens melodiae pausatio fit. Teleusis "finis" est cantus.</p>
+      <p xml:id="PERTRA0264">Habent tamen hae pausae in musica alia nomina, scilicet diastema,
+        systema et teleusis. Significat enim diastema "distinctum ornatum", qui fit. quando cantus
+        non in finali, sed in alia decenter pausat. Systema "conjunctum ornatum" indicat, quotiens
+        in finali decens melodiae pausatio fit. Teleusis "finis" est cantus.</p>
       <p xml:id="PERTRA0265">Est diastema cantus distinctio prima,</p>
       <p xml:id="PERTRA0266">In medio systema facis, sed fine teleusim.</p>
       <p xml:id="PERTRA0267">Utque colon membrum vel comma incisio, sive</p>
@@ -574,12 +587,13 @@
         <pb n="[189]"/>Clausula periodus, horum conformis ad instar</p>
       <p xml:id="PERTRA0269">Musica grammaticae respondet pausula pausae.</p>
       <p xml:id="PERTRA0270">De finalibus tonorum. Capitulum sextum.</p>
-      <p xml:id="PERTRA0271">Quia quatuor toni antiquorum musicorum divisi sunt in octo, ita ut quilibet
-        eorum in duos esset divisus, duo et duo eundem finalem retinent, videlicet authentus cum suo
-        plagali; per quem quilibet cantus discernitur, cujus sit toni. Unde protus cum suo plagali
-        habet finalem in D sol re. Deuterus et plagalis ejus habent domicilium suum in E la mi. Et
-        sic quintus et sextus in F fa ut, et septimus et octavus in G sol re ut. Et quamvis cantus
-        per ascensus et descensus varios fit dubius, a fine tamen, cujus toni sit, judicatur.</p>
+      <p xml:id="PERTRA0271">Quia quatuor toni antiquorum musicorum divisi sunt in octo, ita ut
+        quilibet eorum in duos esset divisus, duo et duo eundem finalem retinent, videlicet
+        authentus cum suo plagali; per quem quilibet cantus discernitur, cujus sit toni. Unde protus
+        cum suo plagali habet finalem in D sol re. Deuterus et plagalis ejus habent domicilium suum
+        in E la mi. Et sic quintus et sextus in F fa ut, et septimus et octavus in G sol re ut. Et
+        quamvis cantus per ascensus et descensus varios fit dubius, a fine tamen, cujus toni sit,
+        judicatur.</p>
       <p xml:id="PERTRA0272">Unde versus:</p>
       <p xml:id="PERTRA0273">Claves finales constat bene quatuor esse,</p>
       <p xml:id="PERTRA0274">Quarum judicio subjacet omne melos.</p>
@@ -593,14 +607,14 @@
       <p xml:id="PERTRA0282">Advertendum est insuper, quod quilibet tonus habet ambitum suum, in quo
         regulariter decurrit. Unde ambitus est "distantia sive spatium proprium, quod regula
         unicuique tono in scala musicali tribuit."</p>
-      <p xml:id="PERTRA0283">Et iste ambitus omnibus est aequalis in numero vocum, quod quilibet tonus
-        ambitu octo vocum concluditur regulariter.</p>
+      <p xml:id="PERTRA0283">Et iste ambitus omnibus est aequalis in numero vocum, quod quilibet
+        tonus ambitu octo vocum concluditur regulariter.</p>
       <p xml:id="PERTRA0284">Primus igitur et octavus eundem habent ambitum a D finali ad d acutam
         inclusive. Ambitus secundi toni est inter A gravem et a acutam. Ambitus tertii toni inter E
         et e. Quarti inter B gravem et b acutam. Quinti inter F et f. Sexti inter C gravem et c
         acutam. Septimi ambitus est inter G finalem et g superacutam.</p>
-      <p xml:id="PERTRA0285">Et licet idem sit ambitus primi et octavi, differunt tamen in hoc, quod D
-        finalis et d acuta sunt termini primi toni ut authenti, et sunt termini octavi toni ut
+      <p xml:id="PERTRA0285">Et licet idem sit ambitus primi et octavi, differunt tamen in hoc, quod
+        D finalis et d acuta sunt termini primi toni ut authenti, et sunt termini octavi toni ut
         plagalis. Praeterea D et d non sunt eodem modo termini primi et octavi. Nam D finalis est
         terminus primo tono ut dicitur ejus "domicilium"; sed est terminus octavo tono non ut dans
         ei domicilium, sed ut recipiens ejus ultimum descensum.</p>
@@ -637,13 +651,13 @@
       <p xml:id="PERTRA0307">Ergo necesse fuit tantum fore climata septem,</p>
       <p xml:id="PERTRA0308">Octo tonos propriae naturae quos secat ordo.</p>
       <p xml:id="PERTRA0309">De differentia tonorum et eorum convenientia. Capitulum septimum.</p>
-      <p xml:id="PERTRA0310">Sequitur videre de differentiis et convenienta tonorum. Ubi sciendum est
-        primo de quolibet authento cum suo plagali, deinde <pb n="[190]"/>de authentis inter se, et
-        demum de plagalibus inter se.</p>
-      <p xml:id="PERTRA0311">Pro quibus est notandum, quod clavium aliae sunt propriae, aliae communes.
-        Propriae sunt, quae alicui soli tono tangendae debentur, quemadmodum A gravis soli debetur
-        propria secundo. Communes sunt, quae pluribus tonis communiter tangendo conceduntur, quales
-        sunt F et G finales.</p>
+      <p xml:id="PERTRA0310">Sequitur videre de differentiis et convenienta tonorum. Ubi sciendum
+        est primo de quolibet authento cum suo plagali, deinde <pb n="[190]"/>de authentis inter se,
+        et demum de plagalibus inter se.</p>
+      <p xml:id="PERTRA0311">Pro quibus est notandum, quod clavium aliae sunt propriae, aliae
+        communes. Propriae sunt, quae alicui soli tono tangendae debentur, quemadmodum A gravis soli
+        debetur propria secundo. Communes sunt, quae pluribus tonis communiter tangendo conceduntur,
+        quales sunt F et G finales.</p>
       <p xml:id="PERTRA0312">Comparando ergo quemlibet authentum cum suo plagali, notandum est, quod
         quilibet authentus tres habet claves supra sibi soli proprias, quas attingere non habet
         plagalis; et totidem claves plagalis habet infra inhibitas authento; quinque vero habent
@@ -730,9 +744,9 @@
         aliquando septimam, sed rarius, ut patet in his antiphonis "O sapientia" et ceteris. Et
         descendit infra finalem regulariter ad quartam, et quandoque de licentia ad quintam.
         Nonnumquam etiam ascendit de largissima licentia ad octavam.</p>
-      <p xml:id="PERTRA0356">Tertia regula talis est: Si cantus a finali ascendens quintam supra finalem
-        ter vel amplius percusserit, licet quartum sub finali attigerit semel, potius authento quam
-        plagali deputabitur, ut patet in hac antiphona "Ecce tu pulchra es."</p>
+      <p xml:id="PERTRA0356">Tertia regula talis est: Si cantus a finali ascendens quintam supra
+        finalem ter vel amplius percusserit, licet quartum sub finali attigerit semel, potius
+        authento quam plagali deputabitur, ut patet in hac antiphona "Ecce tu pulchra es."</p>
       <p xml:id="PERTRA0357">Quarta regula: Omnis cantus tangens quintam, non descendens sub finali,
         infallibiliter est authenti et non plagalis.</p>
       <p xml:id="PERTRA0358">Quinta regula: Omnis cantus tangens quintam non iterando eam nec moram
@@ -820,11 +834,11 @@
       <p xml:id="PERTRA0419">Transcendunt, sola superat sed septimus una.</p>
       <p xml:id="PERTRA0420">Est plagibus commune, sui quod fine tenoris</p>
       <p xml:id="PERTRA0421">Hospitium repetant; non hoc natura supernis.</p>
-      <p xml:id="PERTRA0422">Sequitur videre, in quibus clavibus incipiunt "Gloria Patri" uniuscujusque
-        toni. Ubi notandum, quod primus tonus, quintus et sextus incipiunt suum "Gloria" in F
-        finali, sed primus et sextus gradatim ascendunt per fa sol la et quintus fa la re fa.
-        Secundus incipit suum "Gloria" in C gravi per ut re. Tertius et octavus incipiunt in G
-        finali per ut re. Quartus incipit in E finali per mi sol la ascendens. Et septimus incipit
+      <p xml:id="PERTRA0422">Sequitur videre, in quibus clavibus incipiunt "Gloria Patri"
+        uniuscujusque toni. Ubi notandum, quod primus tonus, quintus et sextus incipiunt suum
+        "Gloria" in F finali, sed primus et sextus gradatim ascendunt per fa sol la et quintus fa la
+        re fa. Secundus incipit suum "Gloria" in C gravi per ut re. Tertius et octavus incipiunt in
+        G finali per ut re. Quartus incipit in E finali per mi sol la ascendens. Et septimus incipit
         in b quadrata ascendens per mi fa sol.</p>
       <p xml:id="PERTRA0423">In C secundus habet, in E quartus "Gloria"; primus,</p>
       <p xml:id="PERTRA0424">Quintus, sextus in F; octavus, tertius in G.</p>
@@ -843,19 +857,20 @@
         gravis, secundum est D, tertium F, quartum G finales et quintum est a acuta.</p>
       <p xml:id="PERTRA0435">Secundus tonus habet quatuor principia et nullam differentiam. Primum
         principium est A gravis, secundum C gravis, tertium D finalis et quartum F finalis.</p>
-      <p xml:id="PERTRA0436">Tertius habet tria principia et tres differentias. Primum principium est E
-        finalis, secundum G finalis, tertium c acuta. Quidam volunt, quod iste tonus nunquam recipit
-        b molle.</p>
-      <p xml:id="PERTRA0437">Quartus secundum quosdam habet sex principia et sex differentias. Primum
-        est C gravis, secundum D finalis, tertium E finalis, quartum F finalis, quintum G finalis,
-        sextum a acuta, quod non habetur nisi cantu transposito, ut in antiphona "Quaerite Dominum";
-        nec sextam differentiam habent libri nostri.</p>
-      <p xml:id="PERTRA0438">Quintus habet tria principia et unam differentiam. Primum est F finalis,
-        secundum est a acuta, tertium est c acuta.</p>
+      <p xml:id="PERTRA0436">Tertius habet tria principia et tres differentias. Primum principium
+        est E finalis, secundum G finalis, tertium c acuta. Quidam volunt, quod iste tonus nunquam
+        recipit b molle.</p>
+      <p xml:id="PERTRA0437">Quartus secundum quosdam habet sex principia et sex differentias.
+        Primum est C gravis, secundum D finalis, tertium E finalis, quartum F finalis, quintum G
+        finalis, sextum a acuta, quod non habetur nisi cantu transposito, ut in antiphona "Quaerite
+        Dominum"; nec sextam differentiam habent libri nostri.</p>
+      <p xml:id="PERTRA0438">Quintus habet tria principia et unam differentiam. Primum est F
+        finalis, secundum est a acuta, tertium est c acuta.</p>
       <p xml:id="PERTRA0439">Sextus habet duo principia et unam differentiam. Primum est C gravis,
         secundum est F finalis.</p>
-      <p xml:id="PERTRA0440">Septimus habet quinque principia et quatuor differentias; sed quidam addunt
-        quintam. Primum est G finalis et ceterae quatuor superius sequentes sibi continuae.</p>
+      <p xml:id="PERTRA0440">Septimus habet quinque principia et quatuor differentias; sed quidam
+        addunt quintam. Primum est G finalis et ceterae quatuor superius sequentes sibi
+        continuae.</p>
       <p xml:id="PERTRA0441">Octavus habet septem principia et quatuor differentias. Primum est C
         gravis; ultimum c acuta cum omnibus clavibus intermediis excepta b acuta.</p>
       <p xml:id="PERTRA0442">Primum principiant C D vel F atque duae post.</p>
@@ -870,11 +885,11 @@
       <p xml:id="PERTRA0451">Bis duo septenus et sibi junctus habet.</p>
       <p xml:id="PERTRA0452">Ter tritus differt, quintus sextus semel a se;</p>
       <p xml:id="PERTRA0453">Se tantum primi collateralis habet.</p>
-      <p xml:id="PERTRA0454">Circa praemissas differentias est notandum, quod differentiarum, quae tonis
-        adscribuntur, aliae sunt competentes et necessariae; aliae, etsi competentes, non tamen sunt
-        necessariae; aliae sunt neque competentes neque necessariae. Competentes et necessariae
-        sunt, quas usus cantorum habet ab antiquis musicis constitutas. Competentes et non
-        necessariae dicuntur, quae solius curiositatis causa adjunguntur, ut quinti toni
+      <p xml:id="PERTRA0454">Circa praemissas differentias est notandum, quod differentiarum, quae
+        tonis adscribuntur, aliae sunt competentes et necessariae; aliae, etsi competentes, non
+        tamen sunt necessariae; aliae sunt neque competentes neque necessariae. Competentes et
+        necessariae sunt, quas usus cantorum habet ab antiquis musicis constitutas. Competentes et
+        non necessariae dicuntur, quae solius curiositatis causa adjunguntur, ut quinti toni
         "Saeculorum. Amen" in "Alma redemptoris mater." Neque competentes neque necessariae
         dicuntur, quae solum ad libitum canentium adaptantur, ut quidam dicunt de differentia
         antiphonae "Nos qui vivimus." Undo quidam, etiam allegatus supra, sic ait versificando:</p>
@@ -886,12 +901,12 @@
       <p xml:id="PERTRA0460">Unde modus non est idem, nec forma tonandi</p>
       <p xml:id="PERTRA0461">Omnibus aequalis, quamvis ars est generalis.</p>
       <p xml:id="PERTRA0462">De convenientia authentorum interse et plagalium inter se.</p>
-      <p xml:id="PERTRA0463">Omnes authenti toni in hoc conveniunt, quod nullus eorum habet principium
-        infra suum finalem, praeter primum, qui habet principium in C gravi. Item conveniunt in hoc,
-        quod omnes habent sua principia in quinta supra a suo finali, excepto tertio, qui pro quinta
-        quandoque habet sextam.</p>
-      <p xml:id="PERTRA0464">Item plagales talem habent convenientiam, quod nec infra nec supra habent
-        principia sua ultra quartam. Unde patet, quod errant, qui volunt antiphonam "Ista est
+      <p xml:id="PERTRA0463">Omnes authenti toni in hoc conveniunt, quod nullus eorum habet
+        principium infra suum finalem, praeter primum, qui habet principium in C gravi. Item
+        conveniunt in hoc, quod omnes habent sua principia in quinta supra a suo finali, excepto
+        tertio, qui pro quinta quandoque habet sextam.</p>
+      <p xml:id="PERTRA0464">Item plagales talem habent convenientiam, quod nec infra nec supra
+        habent principia sua ultra quartam. Unde patet, quod errant, qui volunt antiphonam "Ista est
         speciosa" esse quarti toni, cum ejus initium est, in c acuta; et satis patet consideranti
         supradicta, quod ipsa est tertii toni. Hic tamen excipitur octavus tonus, qui quandoque
         habet principium in C gravi. Unde sicut ipse protus inter authentos solus excedit
@@ -909,8 +924,8 @@
       <p xml:id="PERTRA0474">Excedunt quartam; si sit semel ultimus extra,</p>
       <p xml:id="PERTRA0475">Solus et excessor sicut primus fuit illic,</p>
       <p xml:id="PERTRA0476">Solus transgressor sic est postremus et istic.</p>
-      <p xml:id="PERTRA0477">Cavendum est etiam in cantu, ne quis, nimium intendens principio, putet ex
-        hoc se tonum posse judicare; cum saepe contingit, quod diversorum tonorum cantus eadem
+      <p xml:id="PERTRA0477">Cavendum est etiam in cantu, ne quis, nimium intendens principio, putet
+        ex hoc se tonum posse judicare; cum saepe contingit, quod diversorum tonorum cantus eadem
         habent initia. Verbi gratis: "Iste puer" primi toni et assimilatur antiphonis quarti toni,
         ut sunt haec "In odorem", "Ante tonum". Item "Dirupisti Domine" septimi toni; "Da mercedem"
         quarti. "Malos male", "Novit dominus" octavi; "Domine spes", "Tu Bethlehem" sunt tertii.
@@ -929,12 +944,13 @@
         inceptiones vocum, qua: fiunt post pausationem in medio cantus. Proprie tamen hemitonia
         semitonia dicuntur.</p>
       <p xml:id="PERTRA0481">Capitulum nonum de regularitate et irregularitate cantum.</p>
-      <p xml:id="PERTRA0482">His visis jam colligi potest, quis cantus regularis sit censendus, et quis
-        irregularis. Illum cantum regularem dicimus, qui fas sibi indultum non excedit. Irregularem
-        dicimus illum cantum, qui, sive sursum sive deorsum, excedit metas praescriptas. Similiter
-        ct irregularem dicimus illum, qui proprio principio vel proprio caret domicilio.</p>
-      <p xml:id="PERTRA0483">Sciendum autem, quod quaedam irregularitas excusabilis est, quaedam vero
-        non. Irregularitas excusabilis est illa, quando cantus decenter et moderate et propter
+      <p xml:id="PERTRA0482">His visis jam colligi potest, quis cantus regularis sit censendus, et
+        quis irregularis. Illum cantum regularem dicimus, qui fas sibi indultum non excedit.
+        Irregularem dicimus illum cantum, qui, sive sursum sive deorsum, excedit metas praescriptas.
+        Similiter ct irregularem dicimus illum, qui proprio principio vel proprio caret
+        domicilio.</p>
+      <p xml:id="PERTRA0483">Sciendum autem, quod quaedam irregularitas excusabilis est, quaedam
+        vero non. Irregularitas excusabilis est illa, quando cantus decenter et moderate et propter
         aliquam rationem transgreditur metas in suo medio. Inexcusabilis vero est, quando cantus
         errat a proprio domicilio vel principio, vel etiam quando immoderate et sine ratione excedit
         metas in suo medio. Unde notandum, quod si authentus usus est clave, quam licentia indulget
@@ -988,17 +1004,17 @@
         cedrus".</p>
       <p xml:id="PERTRA0509">Etiam ratione exclamationis cantus ultra tonum extollitur, ut de sancto
         Nicolao "O Christi pietas".</p>
-      <p xml:id="PERTRA0510">Item ratione indignationis vel causa dolendi videtur cantus excusari, ut in
-        illo responsorio de passione Domini "Viri impii dixerunt". Imponens enim, considerata
+      <p xml:id="PERTRA0510">Item ratione indignationis vel causa dolendi videtur cantus excusari,
+        ut in illo responsorio de passione Domini "Viri impii dixerunt". Imponens enim, considerata
         irregularitate impietatis, de qua materia tractabat, cantum irregulariter, ut rei consonus
         esset, imponebat.</p>
-      <p xml:id="PERTRA0511">Item, sicut causa majoris demonstrationis aliqua oratio admittitur, quae
-        simpliciter esset nugatoria, apud grammaticos, ita et in musica causa majoris devotionis
-        plerumque excusatur enormitas, sicut in responsorio "Beatus Nicolaus".</p>
-      <p xml:id="PERTRA0512">Praterea sciendum, quod quidam cantus in proprio cursu deficiunt et alienas
-        sibi finales usurpant. In quibusdam enim cantibus perturbatio tolerabilis evenit. Et sunt
-        protus, deuterus et tritus. His enim legis transgressionem musici idcirco ignoscunt, quia
-        affines habent. Affines autem illas voces dicimus, quae in elevatione et depositione
+      <p xml:id="PERTRA0511">Item, sicut causa majoris demonstrationis aliqua oratio admittitur,
+        quae simpliciter esset nugatoria, apud grammaticos, ita et in musica causa majoris
+        devotionis plerumque excusatur enormitas, sicut in responsorio "Beatus Nicolaus".</p>
+      <p xml:id="PERTRA0512">Praterea sciendum, quod quidam cantus in proprio cursu deficiunt et
+        alienas sibi finales usurpant. In quibusdam enim cantibus perturbatio tolerabilis evenit. Et
+        sunt protus, deuterus et tritus. His enim legis transgressionem musici idcirco ignoscunt,
+        quia affines habent. Affines autem illas voces dicimus, quae in elevatione et depositione
         concordant. Verbi gratia: D finalis cum acuta a concordat, ambo enim tono deponuntur et tono
         et semitonio elevantur. Item E finalis deuteri cum b quadrato similiter deponitur et
         elevatur. Et F finalis triti cum c acuta in depositione et elevatione convenit. Propria
@@ -1017,8 +1033,8 @@
       <p xml:id="PERTRA0519">
         <pb n="[196]"/>Namque licet medium supra varietur et infra,</p>
       <p xml:id="PERTRA0520">Principium norma finemque jubet fore ficta.</p>
-      <p xml:id="PERTRA0521">Adhuc notandum est, quod cuilibet tono debetur sua neuma, per quam tamquam
-        per signum posterius consequens in fine cantus ab altero distinguitur.</p>
+      <p xml:id="PERTRA0521">Adhuc notandum est, quod cuilibet tono debetur sua neuma, per quam
+        tamquam per signum posterius consequens in fine cantus ab altero distinguitur.</p>
       <p xml:id="PERTRA0522">Item notandum, quod juxta octo tonos sunt modi sive melodiae incipiendi
         psalmum secundum suum tonum, qui nec in principio nec in medio, sed in fine versus solummodo
         secundum diversas differentias tonorum diversimode variatur.</p>
@@ -1028,28 +1044,28 @@
         versus responsoriorum, qui in cotidiano usu sunt, sic ordinati sunt, quod quilibet versus
         ibi habet principium, ubi tenor sive "Saeculorum" illius toni principium habet; excepto
         secundo tono, qui hoc non semper tenet.</p>
-      <p class="textFig" xml:id="PERTRA0524">*      *      *      *      *      *      *      *     *
-        <lb/></p>
-      <p xml:id="PERTRA0525">Nota. Quidam addunt hic unam aliam differentiam octavi toni, quam vocant
-        "tonum peregrinum". Qui a peritis musicis antiquis non traditur. Nec etiam in pluribus
-        ecclesiis admittitur. Et quod non cadit sub octavo tono, patet ex eo, quod octavus tonus
-        habet suum tenorem in c sol fa ut, et ista differentia habet eum in G sol re ut. Item omnis
-        plagalis tenore suo reflectitur ad suum domicilium, quod hic non fit. Et ergo non est octavi
-        toni illa differentia. Nec potest dici, quod sit distinctus tonis ab aliis, quia plures quam
-        octo non sunt. Et ergo aliqui ponunt hanc antiphonam "Nos, qui vivimus" sub prima
-        differentia octavi toni, ut hic etiam posita est.</p>
-      <p class="textFig" xml:id="PERTRA0526">*      *      *      *      *      *      *      *     *
-        <br/></p>
+      <p class="textFig" xml:id="PERTRA0524"
+        >*      *      *      *      *      *      *      *     * <lb/></p>
+      <p xml:id="PERTRA0525">Nota. Quidam addunt hic unam aliam differentiam octavi toni, quam
+        vocant "tonum peregrinum". Qui a peritis musicis antiquis non traditur. Nec etiam in
+        pluribus ecclesiis admittitur. Et quod non cadit sub octavo tono, patet ex eo, quod octavus
+        tonus habet suum tenorem in c sol fa ut, et ista differentia habet eum in G sol re ut. Item
+        omnis plagalis tenore suo reflectitur ad suum domicilium, quod hic non fit. Et ergo non est
+        octavi toni illa differentia. Nec potest dici, quod sit distinctus tonis ab aliis, quia
+        plures quam octo non sunt. Et ergo aliqui ponunt hanc antiphonam "Nos, qui vivimus" sub
+        prima differentia octavi toni, ut hic etiam posita est.</p>
+      <p class="textFig" xml:id="PERTRA0526"
+        >*      *      *      *      *      *      *      *     * <br/></p>
       <p xml:id="PERTRA0527">Notandum, quod quaedam ecclesiae habent plures differentias tonorum,
         quaedam pauciores. Et quaedam habent alia principia cantuum etiam ejusdem toni, quam aliae;
         quod tamen plerumque magis ex errore quam ex arte contingit; quare expedit cantorem esse
         circumspectum in illis, ne temere judicet de quolibet cantu, et praesertim in libris
         antiquis.</p>
-      <p class="textFig" xml:id="PERTRA0528">*      *      *      *      *      *      *      *     *
-        <lb/></p>
-      <p xml:id="PERTRA0529">Collectus est iste tractatus musicae scientiae a domino Gobelino, decano
-        oppidi Bilveldiae, Paderbornensis dioecesis, anno Incarnationis Dominicae MCCCCXVII mensis
-        Augusti.</p>
+      <p class="textFig" xml:id="PERTRA0528"
+        >*      *      *      *      *      *      *      *     * <lb/></p>
+      <p xml:id="PERTRA0529">Collectus est iste tractatus musicae scientiae a domino Gobelino,
+        decano oppidi Bilveldiae, Paderbornensis dioecesis, anno Incarnationis Dominicae MCCCCXVII
+        mensis Augusti.</p>
     </body>
   </text>
 </TEI>

@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Enchiridion utriusque musicae practicae</title>
         <title type="abbrev">RHAENC</title>
-        <author>Rhau, Georg</author>
-        <date notBefore="1500" notAfter="1599">16th</date>
+        <author><persName>Rhau, Georg</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Enchiridion utriusque musicae practicae a Georgio Rhau ex varijs musicorum libris,
@@ -106,8 +116,8 @@
         Valete.</p>
       <p xml:id="RHAENC0014">
         <pb n="[f.Aiiijv]"/>De mvsicae inventoribus.</p>
-      <p xml:id="RHAENC0015">Mvsicam artem multis retro seculis floruisse, nemo est qui neget. Nam vt
-        taceam Orpheum, Linum, Amphiona, quos omnes antiquitas, huius artis veluti primarios
+      <p xml:id="RHAENC0015">Mvsicam artem multis retro seculis floruisse, nemo est qui neget. Nam
+        vt taceam Orpheum, Linum, Amphiona, quos omnes antiquitas, huius artis veluti primarios
         celebrabat, Tum olim ad conuiuia adhibebatur, vbi ad cytharam, egregia Mauortium virorum
         gesta, non sine mirabili tacitae circumstantis turbae stupore de promebant. Multi tamen
         huius artis inuentum, multis acceptum ferunt, quidam Dyonisio, quidam Zeto et Amphioni
@@ -116,7 +126,8 @@
         preparatione Euangelistarum huius artis studium, ab Hebraeis excultum, auctum,
         propagatumque, Quando quidem legitur, Davida Psalmos suos ad cytharae modulos aptasse, quod
         cum Arca illa in Hyerusalem inueheretur, ipse saltabundus, carminibus cytharae coeuntibus,
-        praecessit, Pratereo Mosen, Iobum, et reliquos Hebraeos, Et multa alia argumenta, <pb n="[f.Avr]"/>velut e ruina (vt dicitur) colligi possunt, quibus apparet, nobilem illam
+        praecessit, Pratereo Mosen, Iobum, et reliquos Hebraeos, Et multa alia argumenta, <pb
+          n="[f.Avr]"/>velut e ruina (vt dicitur) colligi possunt, quibus apparet, nobilem illam
         musicam, ab Hebraeis, velut per cannales emanasse. Haec optime lector, mihi de huius artis
         inuentione non aliena visa sunt, tu si meliora et forsan reconditiora in medium conferre
         potes, non grauatim feremus.</p>
@@ -127,14 +138,14 @@
         quapropter ea, ceu nihil ad rem facientia, a nostro Enchiridio excludere constituimus,
         simplicem illam, et veluti in triuijs iactatam diuisionem enarraturi, qua et in Theoricam et
         Practicam scinditur.</p>
-      <p xml:id="RHAENC0018">Theorica est, quae diuersorum sonorum proportionem, et toni dasparem, id
-          <pb n="[f.Avv]"/>est, inaequalem dimensionem, triaque meli genera, non aurium iudicio
+      <p xml:id="RHAENC0018">Theorica est, quae diuersorum sonorum proportionem, et toni dasparem,
+        id <pb n="[f.Avv]"/>est, inaequalem dimensionem, triaque meli genera, non aurium iudicio
         (quarum sunt obtusa iudicia) sed ingenio et ratione, considerat, perpenditque Haec non nihil
         difficultatis habet, quam tamen facile intelliget is, quem laboris non piget, et cui non
         omnino stupidum est ingenium. Hanc describit Seuerinus, cui inter musicae scriptores primi
         debentur honores Item Franchinus Gafforus et Faber Stapulensis, et alij.</p>
-      <p xml:id="RHAENC0019">PRACTICA siue actiua dicitur, quae circa sonorum ac consonantiarum praxim
-        consistit. Haec bimembrem suscipit particionem, Est enim alia INSTRUMENTALIS, quae ad
+      <p xml:id="RHAENC0019">PRACTICA siue actiua dicitur, quae circa sonorum ac consonantiarum
+        praxim consistit. Haec bimembrem suscipit particionem, Est enim alia INSTRUMENTALIS, quae ad
         instrumenta spectat, puta quae concentum perficit aut flatu, vt organis, tibijs, monaulis,
         Sistris, tympanis et huiusmodi, Vel manu, vt instrumentis quae clauium articulatione
         gubernantur. Altera VOCALIS, quae humana voce efficit melos. Haec pariformiter est duplex,
@@ -162,21 +173,23 @@
         musicalis metaphoricos, Quemadmodum enim claue aperiuntur ea, quae abstrusa et in
         penitissimis angulis occlusa iacent, ita et per claues musicas, totius cantus vim et naturam
         remoto omni obstaculo, expromimus, exponimusque. Ne autem haec metaphora dura videatur,
-        Beroaldus noster dixit Ciceronem eloquentiae clauem habere. Tum dicemus <pb n="[f.Avijr]"/>nos, quod eo modo, ad huius rei intelligentiam, veluti per clauem peruenimus.</p>
-      <p xml:id="RHAENC0025">De numero vero clauim, aliter prisci, aliter moderniores sensere. Veteres
-        namque septem clauibus contentos fuisse legimus, vtpote A B C D E F G, teste Virgilio, qui,
-        vt nullius fere disciplinae, ita necque musicae ignarus fuit, Nam de Orpheo modulante sic
-        scribit, vi. Enei.</p>
+        Beroaldus noster dixit Ciceronem eloquentiae clauem habere. Tum dicemus <pb n="[f.Avijr]"
+        />nos, quod eo modo, ad huius rei intelligentiam, veluti per clauem peruenimus.</p>
+      <p xml:id="RHAENC0025">De numero vero clauim, aliter prisci, aliter moderniores sensere.
+        Veteres namque septem clauibus contentos fuisse legimus, vtpote A B C D E F G, teste
+        Virgilio, qui, vt nullius fere disciplinae, ita necque musicae ignarus fuit, Nam de Orpheo
+        modulante sic scribit, vi. Enei.</p>
       <p xml:id="RHAENC0026">Nec non treijcius longa eum ueste sacerdos</p>
       <p xml:id="RHAENC0027">Obloquitur numeris, septem discrimina vocum.</p>
       <p xml:id="RHAENC0028">Et alibi.</p>
       <p xml:id="RHAENC0029">Est mihi disparibus septem compacta cieutis</p>
       <p xml:id="RHAENC0030">Fistula et caetera.</p>
-      <p xml:id="RHAENC0031">Recenciores vero musici, cuncta subtilius circa artem perscrutantes, dictam
-        septem clauium dispositionem videntes minus sufficere, ad omne genus cantuum reserandum,
-        binas ad huc clauium dispositiones addidere. Boetius namque praedictis, alias septem,
-        scilicet a b c d e f g, superaddidit. Guido autem Aretinus videns, quia cantus maneriarum,
-        progressiones suas legitimas, in tam districto literarum et clauium concentu, <pb n="[f.Avijv]"/>habere non posset, addidit ad principium sui Introductorij [Gamma], ad
+      <p xml:id="RHAENC0031">Recenciores vero musici, cuncta subtilius circa artem perscrutantes,
+        dictam septem clauium dispositionem videntes minus sufficere, ad omne genus cantuum
+        reserandum, binas ad huc clauium dispositiones addidere. Boetius namque praedictis, alias
+        septem, scilicet a b c d e f g, superaddidit. Guido autem Aretinus videns, quia cantus
+        maneriarum, progressiones suas legitimas, in tam districto literarum et clauium concentu,
+          <pb n="[f.Avijv]"/>habere non posset, addidit ad principium sui Introductorij [Gamma], ad
         finem vero literas duplicatas, scilicet aa bb [sqb][sqb] cc dd ee. Viginti itaque in
         Introductorio claues sunt, tot sane pro humana sufficiunt voce, Earum vero nomina cum
         vocibus, pueri hoc modo exprimunt, [Gamma]ut, Are, [sqb]mi, Cfaut Dsolre, Elami, Ffaut,
@@ -184,8 +197,8 @@
         discriberet, respexit tum ad hoc, quod vox humana suis limitibus conclusa est, tum etiam,
         quod cuiusque toni cantilenae, intra hos fines facillime comprehenduntur, Longe vero plures
         superaddi possent claues, per eiusdem literae crebram repetitionem.</p>
-      <p xml:id="RHAENC0032">Venerabilis namque Guilhelmus Duffay musicorum sui aevi facile princeps,
-        superaddidit F graue subtus [Gamma], Vltra ee vero addidit etiam ff duplicatum, ob
+      <p xml:id="RHAENC0032">Venerabilis namque Guilhelmus Duffay musicorum sui aevi facile
+        princeps, superaddidit F graue subtus [Gamma], Vltra ee vero addidit etiam ff duplicatum, ob
         tetradyapason consonantiam, ritumque progressum figuratiui cantus. Nostra autem aetate
         crescentibus ingenijs, moderniores nec his contenti sunt, saepe numero tam in sub, quam
         supra excedentes, <pb n="[f.Aviijr]"/>et hoc in cantu figuratiuo, Quorum tamen ratio, iuxta
@@ -218,10 +231,10 @@
         dispositione. Inferior enim et primus ordo, grandiusculis literis scribitur, Secundus
         pusillis literis, et Tertius duplicatis. Graues vero dicuntur ideo, quia grauem sonum
         respectu aliarum emittunt. Finales vero, nam omnis cantus regulariter in his desistit.</p>
-      <p xml:id="RHAENC0043">Propterea vero musici [Gamma] in pede clauium musicalium collocarunt, vt
-        nemo non sciret musicam ex graecorum fontibus, in Romanorum riuos scaturijsse, totumque eius
-        negotium a graecis mutuo nos accepisse. Quis enim non videt omnia, quibus musici vtuntur
-        vocabula, ex graeco cadere fonte, aut graecam originem sapere? vt, [tonos, emitonos,
+      <p xml:id="RHAENC0043">Propterea vero musici [Gamma] in pede clauium musicalium collocarunt,
+        vt nemo non sciret musicam ex graecorum fontibus, in Romanorum riuos scaturijsse, totumque
+        eius negotium a graecis mutuo nos accepisse. Quis enim non videt omnia, quibus musici
+        vtuntur vocabula, ex graeco cadere fonte, aut graecam originem sapere? vt, [tonos, emitonos,
         diatessaron, diapente, diapason, disdiapason], et caetera, Vnde non mirum est, nostro seculo
         tam raros esse musicos, et cantorum tam immensum pelagus, nempe quod vix vnus aut alter est,
         quam graecae linguae gnarus sit, aut eam amplexetur. Additum est etiam [Gamma],
@@ -239,21 +252,21 @@
         dis diapason veteres non transgrediebantur) Quod etiam ex hoc potissimum conijcimus, quod
         vix vltra sex consonantias, vnam inuenies apud celebres scriptores nominatam, Et quando
         illi, de consonantiarum ordine disceptant, non nisi quinque enumerant.</p>
-      <p xml:id="RHAENC0046">Tetrachordum grauium, his literis constituitur, [Gamma] A B C, sic dictum,
-        quod <pb n="[f.Bijr]"/>reddant sonum vel bombum omnium grauissimum.</p>
-      <p xml:id="RHAENC0047">Tetrachordum finalium comprehenditur his clauibus, D E F G, Eo quod sit in
-        eo finis omnium tonorum legittime currentium.</p>
-      <p xml:id="RHAENC0048">Tetrachordum superiorum, quod sit superius constitutum ex quatuor literis
-        minutulis a [sqb] c d.</p>
+      <p xml:id="RHAENC0046">Tetrachordum grauium, his literis constituitur, [Gamma] A B C, sic
+        dictum, quod <pb n="[f.Bijr]"/>reddant sonum vel bombum omnium grauissimum.</p>
+      <p xml:id="RHAENC0047">Tetrachordum finalium comprehenditur his clauibus, D E F G, Eo quod sit
+        in eo finis omnium tonorum legittime currentium.</p>
+      <p xml:id="RHAENC0048">Tetrachordum superiorum, quod sit superius constitutum ex quatuor
+        literis minutulis a [sqb] c d.</p>
       <p xml:id="RHAENC0049">Excellentium, quia excellit sonos aliorum trium, hisque characteribus
         formatur, e f g aa.</p>
-      <p xml:id="RHAENC0050">In medio horum solet interseri quintum, quod dicitur Synemmenon, id est,
-        coniunctum, propter vitandam duritiem tritoni, Ex quibus patet vnam esse proprietatem
+      <p xml:id="RHAENC0050">In medio horum solet interseri quintum, quod dicitur Synemmenon, id
+        est, coniunctum, propter vitandam duritiem tritoni, Ex quibus patet vnam esse proprietatem
         bmollem, Et quod veteres non sunt transgressi numerum in musica, videlicet dis diapason.</p>
       <p xml:id="RHAENC0051">De clavibvs signatis.</p>
-      <p xml:id="RHAENC0052">Ex dictis autem clauibus, saltem quinque ante cantus inchoationem ponuntur,
-        vocanturque sigatae siue signandae, eo quod expresse in cantus exordio ponuntur, et sunt
-        [Gamma] vt Ffaut, csolfaut, gsolreut, et ddlasol.</p>
+      <p xml:id="RHAENC0052">Ex dictis autem clauibus, saltem quinque ante cantus inchoationem
+        ponuntur, vocanturque sigatae siue signandae, eo quod expresse in cantus exordio ponuntur,
+        et sunt [Gamma] vt Ffaut, csolfaut, gsolreut, et ddlasol.</p>
       <p xml:id="RHAENC0053">
         <pb n="[f.Bijv]"/>De clavibvs.</p>
       <p xml:id="RHAENC0054">[Rhau, Enchiridion, f.Bijv; text: Signa clauium signatarum in vtroque
@@ -263,10 +276,11 @@
       <p xml:id="RHAENC0056">Linea signatae, sustentat scilicet omnes.</p>
       <p xml:id="RHAENC0057">Et distant inter se mutuo per diapenten.</p>
       <p xml:id="RHAENC0058">F tamen ab [gamma] distinguat septima quamuis.</p>
-      <p xml:id="RHAENC0059">Nec illud praetereundum duximus, antiquos cantores Ffaut rubro, csolfaut
-        glauco depinxisse colore, Id quod adhuc hodie in omnibus ferme priscorum libris videre
-        licet. Posteritas vero, omnes signandas claues, aut inicialibus suis literis, aut quibusdam
-        alijs characteribus et signis figurat, Sunt et aliae quaedam claues signandae, puta, <pb n="[f.Biijr]"/>b et [sqb]#, Et dicuntur minus praecipue. De quibus infra de
+      <p xml:id="RHAENC0059">Nec illud praetereundum duximus, antiquos cantores Ffaut rubro,
+        csolfaut glauco depinxisse colore, Id quod adhuc hodie in omnibus ferme priscorum libris
+        videre licet. Posteritas vero, omnes signandas claues, aut inicialibus suis literis, aut
+        quibusdam alijs characteribus et signis figurat, Sunt et aliae quaedam claues signandae,
+        puta, <pb n="[f.Biijr]"/>b et [sqb]#, Et dicuntur minus praecipue. De quibus infra de
         coniunctis.</p>
       <p xml:id="RHAENC0060">Plvres claves in cantv fracto, quam in simplici et chorali.</p>
       <p xml:id="RHAENC0061">Quas modo legisti claues, pro simplice quouis</p>
@@ -276,14 +290,14 @@
       <p xml:id="RHAENC0065">Vsurpat plures, quarum signacula produnt</p>
       <p xml:id="RHAENC0066">Octauae (facile hoc scitu est) Si linea clauem</p>
       <p xml:id="RHAENC0067">Sustinet, octaua in spacio iacet, et universa.</p>
-      <p xml:id="RHAENC0068">Si ergo extra literas scalae, vel in imo vel supremo loco, aliquae voces
-        exspaciantur, oportet illas ad octauam referre, Quaelibet enim literarum habet sibi similem
-        in octaua.</p>
+      <p xml:id="RHAENC0068">Si ergo extra literas scalae, vel in imo vel supremo loco, aliquae
+        voces exspaciantur, oportet illas ad octauam referre, Quaelibet enim literarum habet sibi
+        similem in octaua.</p>
       <p xml:id="RHAENC0069">De vocibvs.</p>
-      <p xml:id="RHAENC0070">Vox musicalis, est syllaba, qua clauium tenor exprimitur, Et sunt sex, in
-        communem vsum iam omnium consensu admissae. scilicet, Vt, re, mi, fa, sol, la, Sumptae (vt
-        aiunt) ex hymno, Vt queant laxis et caetera. Quem Paulum diaconum composuisse ferunt, At si
-        credimus Alberto magno in Lucam scribenti, <pb n="[f.Biijv]"/>diuus Hieronymus eum hymnum
+      <p xml:id="RHAENC0070">Vox musicalis, est syllaba, qua clauium tenor exprimitur, Et sunt sex,
+        in communem vsum iam omnium consensu admissae. scilicet, Vt, re, mi, fa, sol, la, Sumptae
+        (vt aiunt) ex hymno, Vt queant laxis et caetera. Quem Paulum diaconum composuisse ferunt, At
+        si credimus Alberto magno in Lucam scribenti, <pb n="[f.Biijv]"/>diuus Hieronymus eum hymnum
         composuit. Sumpserunt vero musici ex quolibet versiculo, priorem et mediam syllabam sic,</p>
       <p xml:id="RHAENC0071">VT queant laxis REsonare fibris</p>
       <p xml:id="RHAENC0072">MIra gestorum FAmuli tuorum</p>
@@ -296,14 +310,14 @@
       <p xml:id="RHAENC0079">Ordo vocvm.</p>
       <p xml:id="RHAENC0080">Infima uox est ut, re sequens, mi tertia, quarta</p>
       <p xml:id="RHAENC0081">Extat in ordine fa, est sol quinta, suprema la fertur.</p>
-      <p xml:id="RHAENC0082">Hae sex voces apud musicos in vsu sunt, non profecto quod non interim aliae
-        aut comminisci, aut in vsum cadere potuissent, Sed quia vulgaris musicorum consensus, in has
-        voces veluti conspirauit, extra quas non tutum est alias effingere, Propterea et nos illis
-        contenti erimus.</p>
+      <p xml:id="RHAENC0082">Hae sex voces apud musicos in vsu sunt, non profecto quod non interim
+        aliae aut comminisci, aut in vsum cadere potuissent, Sed quia vulgaris musicorum consensus,
+        in has voces veluti conspirauit, extra quas non tutum est alias effingere, Propterea et nos
+        illis contenti erimus.</p>
       <p xml:id="RHAENC0083">
         <pb n="[f.Biiijr]"/>Exercicium hymni supradicti.</p>
-      <p xml:id="RHAENC0084">[Rhau, Enchiridion, f.Biiijr; text: Vt queant laxis Resonare fibris. Altvs.
-        Tenor. Bassvs.] <figure>
+      <p xml:id="RHAENC0084">[Rhau, Enchiridion, f.Biiijr; text: Vt queant laxis Resonare fibris.
+        Altvs. Tenor. Bassvs.] <figure>
           <graphic url="/images/RHAENC_03GF.gif"/>
         </figure></p>
       <p xml:id="RHAENC0085">
@@ -323,19 +337,19 @@
         <pb n="[f.Bvjr]"/>Exercitatio prima sex vocum musicalium, qua sese discentes concinendo
         exerceant in cantu [sqb] durali.</p>
       <p xml:id="RHAENC0089">[Rhau, Enchiridion, f.Bvjr; text: Discantvs. Altvs. Tenor. Bassvs.]</p>
-      <p xml:id="RHAENC0090">Dictae sex voces, sub trina locantur differentia, nam quaedam mollissimam
-        praebent resonantiam, et sunt, vt fa, Quaedam vero <pb n="[f.Bvjv]"/>durissimam reddunt
-        sonoritatem, veluti, mi la, Quaedam naturalem et mediocrem causant melodiam, scilicet, re
-        sol. Vnde.</p>
+      <p xml:id="RHAENC0090">Dictae sex voces, sub trina locantur differentia, nam quaedam
+        mollissimam praebent resonantiam, et sunt, vt fa, Quaedam vero <pb n="[f.Bvjv]"/>durissimam
+        reddunt sonoritatem, veluti, mi la, Quaedam naturalem et mediocrem causant melodiam,
+        scilicet, re sol. Vnde.</p>
       <p xml:id="RHAENC0091">Vt cum fa mollis uox est, quia cantica mollit</p>
       <p xml:id="RHAENC0092">Mi cum la dura est, nam duras efficit Odas,</p>
       <p xml:id="RHAENC0093">Sol naturales (quoniam neutras facit) et re.</p>
-      <p xml:id="RHAENC0094">Ista vocum differentia bene obseruata, dulcisonum facit omnem cantum, quam
-        ob rem ipsarum vsum pueri non negligant, sed constanter in illis sese exerceant. Quoniam
-        omnes artes, omniaque opera, quotidiano vsu et iugi exercitatione proficiunt, meminerint
-        insuper improbum laborem omnia superare posse, Non cuiquam contingunt res sublimes citra
-        laborem, Literae enim, Hieronymo teste, marsupium non sequuntur, sed laboris comites sunt,
-        sociae ieiuniorum non saturitatis, continentiae, non luxuriae.</p>
+      <p xml:id="RHAENC0094">Ista vocum differentia bene obseruata, dulcisonum facit omnem cantum,
+        quam ob rem ipsarum vsum pueri non negligant, sed constanter in illis sese exerceant.
+        Quoniam omnes artes, omniaque opera, quotidiano vsu et iugi exercitatione proficiunt,
+        meminerint insuper improbum laborem omnia superare posse, Non cuiquam contingunt res
+        sublimes citra laborem, Literae enim, Hieronymo teste, marsupium non sequuntur, sed laboris
+        comites sunt, sociae ieiuniorum non saturitatis, continentiae, non luxuriae.</p>
       <p xml:id="RHAENC0095">Ingenui igitur pueri, et qui degenere non estis animo, nullo parcite
         labori, nullas vigilias recusate, ad praeciosas animi diuicias (disciplinas dico liberales,
         et ingenua studia) et bona gemmis et auro digniora consequenda, Mementote vosipsos, ad
@@ -350,7 +364,8 @@
         summo dedecore, ignari, inglorij, et sera penitudine tristes, miseram trahetis vitam, Haec
         alta mente reponite, haec saepius animo peruoluite, his quasi stimulis, torpentia corda ad
         studium excitate. Sed ad institutum a quo paululum digressi sumus, redeamus, Vt igitur
-        pueris prodessemus, non solum vocum explicatione et earundem differentia <pb n="[f.Bvijv]"/>contenti sumus, sed paradigma, quod ad rem facit, vocumque discrimen egregie explicat,
+        pueris prodessemus, non solum vocum explicatione et earundem differentia <pb n="[f.Bvijv]"
+        />contenti sumus, sed paradigma, quod ad rem facit, vocumque discrimen egregie explicat,
         subiungemus.</p>
       <p xml:id="RHAENC0096">Exemplum quatuor partium, vocum discrimen declarans.</p>
       <p xml:id="RHAENC0097">[Rhau, Enchiridion, f.Bvijv; text: Discantvs. Altvs. Tenor. Bassvs.] <figure>
@@ -358,7 +373,8 @@
         </figure></p>
       <p xml:id="RHAENC0098">
         <pb n="[f.Bviijr]"/>Alia vocum exercitatio.</p>
-      <p xml:id="RHAENC0099">[Rhau, Enchiridion, f.Bviijr; text: Discantvs. Altvs. Tenor. Bassvs.]</p>
+      <p xml:id="RHAENC0099">[Rhau, Enchiridion, f.Bviijr; text: Discantvs. Altvs. Tenor.
+        Bassvs.]</p>
       <p xml:id="RHAENC0100">
         <pb n="[f.Bviijv]"/>Dictae tamen sex voces, ad cuiuslibet cantus ascensum et descensum non
         sufficiunt, cantus enim plerumque vltra sextam ascendit, nec vltra la, ulla vox superior,
@@ -377,25 +393,27 @@
       <p xml:id="RHAENC0107">
         <pb n="[f.Cjv]"/>Caput secundum</p>
       <p xml:id="RHAENC0108">De Hexachordis.</p>
-      <p xml:id="RHAENC0109">In primo capite dictum est, Guidonem, septem vocum hexachorda (hoc est, vt
-        pueri clarius intelligant, septies, vt re mi fa sol la) instituisse, quae tamen ita ordine
-        posuit, vt et ascensu, descensuque sese mutuo leuent, nam varie in progressione cuiuscumque
-        melodiae commiscentur, vna voce in aliam mutata, vt clare sequens demonstrat Exemplum.</p>
+      <p xml:id="RHAENC0109">In primo capite dictum est, Guidonem, septem vocum hexachorda (hoc est,
+        vt pueri clarius intelligant, septies, vt re mi fa sol la) instituisse, quae tamen ita
+        ordine posuit, vt et ascensu, descensuque sese mutuo leuent, nam varie in progressione
+        cuiuscumque melodiae commiscentur, vna voce in aliam mutata, vt clare sequens demonstrat
+        Exemplum.</p>
       <p xml:id="RHAENC0110">[Rhau, Enchiridion, f.Cjv] <figure>
           <graphic url="/images/RHAENC_08GF.gif"/>
         </figure></p>
       <p xml:id="RHAENC0111">Hic hexachordum naturale leuatur a [sqb]durali, et contra [sqb]durale a
         bmolli, et bmolle iterum a naturali.</p>
-      <p xml:id="RHAENC0112">Primum igitur hexachordum habet suum principium in [Gamma] finem vero in E
-        graui, Diciturque [sqb]durale, quia in concentu vocum suarum musicalium [sqb]durum
+      <p xml:id="RHAENC0112">Primum igitur hexachordum habet suum principium in [Gamma] finem vero
+        in E graui, Diciturque [sqb]durale, quia in concentu vocum suarum musicalium [sqb]durum
         complectitur, leuatur quoque hoc hexachordum in permutatione vocum a secundo, quod in C
-        magno exorditur, finem vero habet in a acuto, et vocatur naturale, eo quod neutrum <pb n="[f.Cijr]"/>illorum, hoc est, nec [sqb]durum, nec b molle in bfa[sqb]mi habeat, non enim
+        magno exorditur, finem vero habet in a acuto, et vocatur naturale, eo quod neutrum <pb
+          n="[f.Cijr]"/>illorum, hoc est, nec [sqb]durum, nec b molle in bfa[sqb]mi habeat, non enim
         intrat b clauem.</p>
       <p xml:id="RHAENC0113">Tertium hexachordorum habet principium in F graui, finem in d acuto. Et
         cantatur per b rotundum. Quartum habet principium in G, finem in e, Et sic deinceps de
         singulis.</p>
-      <p xml:id="RHAENC0114">Species vero hexachordorum, ex typo clauium, clarissime cognoscuntur, vt,
-        enim vbique est caput et principium aliarum syllabarum sibi succedentium, la vero finis,
+      <p xml:id="RHAENC0114">Species vero hexachordorum, ex typo clauium, clarissime cognoscuntur,
+        vt, enim vbique est caput et principium aliarum syllabarum sibi succedentium, la vero finis,
         iuxta illud.</p>
       <p xml:id="RHAENC0115">In c natural, F bmol, G que [sqb]dural</p>
       <p xml:id="RHAENC0116">[sqb]durum triplico, reliquos cantus geminabo</p>
@@ -415,17 +433,17 @@
       <p xml:id="RHAENC0122">Dvae svnt regvlae veram cantus solfizationem, vocumque mutationem
         docentes.</p>
       <p xml:id="RHAENC0123">Prima.</p>
-      <p xml:id="RHAENC0124">Cum cantilenarum compositio fuerit facta ad cantum [sqb]duralem, mutationes
-        ferme omnes occurrunt in tribus clauibus, scilicet, D d, a et c, aliquando et in G g, licet
-        raro, cuius regulae sequens intueatur exemplum</p>
+      <p xml:id="RHAENC0124">Cum cantilenarum compositio fuerit facta ad cantum [sqb]duralem,
+        mutationes ferme omnes occurrunt in tribus clauibus, scilicet, D d, a et c, aliquando et in
+        G g, licet raro, cuius regulae sequens intueatur exemplum</p>
       <p xml:id="RHAENC0125">
         <pb n="[f.Ciijr]"/>[Rhau, Enchiridion, f.Ciijr; text: Discantvs, Tenor.]</p>
       <p xml:id="RHAENC0126">
         <pb n="[f.Ciijv]"/>[Rhau, Enchiridion, f.Ciijv,1; text: Altvs] <figure>
           <graphic url="/images/RHAENC_09GF.gif"/>
         </figure></p>
-      <p xml:id="RHAENC0127">In mutatione vocum semper mentalis, non vocalis mutatio facienda est, nisi
-        duae vel tres notae ponantur in eodem loco mutabili.</p>
+      <p xml:id="RHAENC0127">In mutatione vocum semper mentalis, non vocalis mutatio facienda est,
+        nisi duae vel tres notae ponantur in eodem loco mutabili.</p>
       <p xml:id="RHAENC0128">[Rhau, Enchiridion, f.Ciijv,2; text: Bassvs.]</p>
       <p xml:id="RHAENC0129">
         <pb n="[f.Ciiijr]"/>Scala cantus [sqb]duralis, quae docet, quonam pacto cantor regulariter
@@ -448,12 +466,13 @@
         cantus naturam referendum est. Quemadmodum enim in tres sunt voces, sic etiam in A. Sic
         [Gamma] eiusdem est naturae cum G et g, easdem igitur voces habeat oportet, Pro huius
         regulae declaratione, sequens videatur typus.</p>
-      <p xml:id="RHAENC0136">Cognoscitur autem an cantus, vel fa, vel mi in bfa[sqb]mi habeat, ex b et
-        [sqb] descriptione, hoc namque mi, illud fa representat, Principaliter autem ex tono
+      <p xml:id="RHAENC0136">Cognoscitur autem an cantus, vel fa, vel mi in bfa[sqb]mi habeat, ex b
+        et [sqb] descriptione, hoc namque mi, illud fa representat, Principaliter autem ex tono
         cognoscitur, Nam omnes toni in b claue mi habent, exceptis, v. et vi. qui (vt nostra
         tempestate musici cantilenas edunt) fa in ea exposcunt, nisi speciatim qualitatum (vt saepe
         sit) permutatio vtrimque accidat, quod in his [sqb]durum, in illis b molle signant.</p>
-      <p xml:id="RHAENC0137">Seqvitvr exemplvm cuiuslibet vocis murationem in cantu molli exprimens.</p>
+      <p xml:id="RHAENC0137">Seqvitvr exemplvm cuiuslibet vocis murationem in cantu molli
+        exprimens.</p>
       <p xml:id="RHAENC0138">
         <pb n="[f.Cvv]"/>[Rhau, Enchiridion, f.Cvv; text: Discantvs. Altvs. Tenor. Bassvs.] <figure>
           <graphic url="/images/RHAENC_10GF.gif"/>
@@ -471,10 +490,10 @@
       <p xml:id="RHAENC0147">Iudicium sit idem reliquo de quoque tonorum</p>
       <p xml:id="RHAENC0148">Non uariat cantum translatio, sed melodia</p>
       <p xml:id="RHAENC0149">Seu transponatur seu non, semper tonus idem est.</p>
-      <p xml:id="RHAENC0150">Hoc etiam nec perperam notandum, quod in cantu plano infra [Gamma] pergere
-        non licet, nec vltra eela vagari, hinc tres supremae claues, voces non habent inferiores,
-        quia vltra eas non fit ascensus, nec tres infimae superiores, quia infra eas non fit
-        descensus. Quotiescunque igitur in cantu mensurali, vltra extremas vagamur claues (quod
+      <p xml:id="RHAENC0150">Hoc etiam nec perperam notandum, quod in cantu plano infra [Gamma]
+        pergere non licet, nec vltra eela vagari, hinc tres supremae claues, voces non habent
+        inferiores, quia vltra eas non fit ascensus, nec tres infimae superiores, quia infra eas non
+        fit descensus. Quotiescunque igitur in cantu mensurali, vltra extremas vagamur claues (quod
         saepius fieri solet) ab octauis voces sumamus, Neque has voces imperitorum vulgus recte
         fictas appellat, sicut neque eas, quae non in suis locis (vt infra patebit) sed in octauis
         reperiuntur. Exemplum.</p>
@@ -486,10 +505,10 @@
         <pb n="[f.Cvijr]"/>[Rhau, Enchiridion, f.Cvijr,1; text: Tenor.]</p>
       <p xml:id="RHAENC0154">Alivd exemplvm.</p>
       <p xml:id="RHAENC0155">[Rhau, Enchiridion, f.Cvijr,2; text: Tenor. Bassvs.]</p>
-      <p xml:id="RHAENC0156">Hic cantus descendit infra [Gamma], quare hae uoces citra licentiam cantui
-        accommodari possunt.</p>
-      <p xml:id="RHAENC0157">In bfa[sqb]mi, et sua octaua, nulla fit mutatio, tum, quia voces non sunt
-        vnisonae, tum, quoniam bfa et [sqb]mi duae (vt periti tradunt musici) claues sunt.</p>
+      <p xml:id="RHAENC0156">Hic cantus descendit infra [Gamma], quare hae uoces citra licentiam
+        cantui accommodari possunt.</p>
+      <p xml:id="RHAENC0157">In bfa[sqb]mi, et sua octaua, nulla fit mutatio, tum, quia voces non
+        sunt vnisonae, tum, quoniam bfa et [sqb]mi duae (vt periti tradunt musici) claues sunt.</p>
       <p xml:id="RHAENC0158">
         <pb n="[f.Cvijv]"/>In longis saltibus solum rapimus vocem ex fa in fa, ex mi in mi,
         quemadmodum in diapason et in diapente contingit maiori, hoc est, quinta perfecta, ab c ad
@@ -514,20 +533,20 @@
         <pb n="[f.Djr]"/>Capvt qvartvm</p>
       <p xml:id="RHAENC0168">De solfizatione.</p>
       <p xml:id="RHAENC0169">I.</p>
-      <p xml:id="RHAENC0170">Si cantum quempiam volueris solfizare, aut artificiose resonare, consideres
-        oportet inprimis eius tonum, quoniam qui cantum sine toni agnitione canit, idem facit quod
-        is, qui syllogismum extra modum ac figuram componit. Dicere vero cuius toni hic vel ille sit
-        cantus, non est eius, qui de solfizationibus, sed qui de ipsis tonis differit, docere, quare
-        locus de his postea magis oportunus. Solfizare vero, est syllabas ac vocum nomina
-        exprimere.</p>
+      <p xml:id="RHAENC0170">Si cantum quempiam volueris solfizare, aut artificiose resonare,
+        consideres oportet inprimis eius tonum, quoniam qui cantum sine toni agnitione canit, idem
+        facit quod is, qui syllogismum extra modum ac figuram componit. Dicere vero cuius toni hic
+        vel ille sit cantus, non est eius, qui de solfizationibus, sed qui de ipsis tonis differit,
+        docere, quare locus de his postea magis oportunus. Solfizare vero, est syllabas ac vocum
+        nomina exprimere.</p>
       <p xml:id="RHAENC0171">II.</p>
       <p xml:id="RHAENC0172">Scalam, sub qua cantus decurrit, vigilanter attendat puer, ne ex molli
         durum, aut ex duro mollem faciat. In solfizatione enim respicienda est, b clauis, in ea enim
         totum negotium vertitur, nultum enim refert, mi an fa ibi cantandum.</p>
       <p xml:id="RHAENC0173">III.</p>
-      <p xml:id="RHAENC0174">Scala cognita, principium cantus intuendum est, quod si in altum tendit,
-        recipienda <pb n="[f.Djv]"/>est vox inferior primae clauis, si vero descendit, sumenda venit
-        vox superior eiusdem clauis.</p>
+      <p xml:id="RHAENC0174">Scala cognita, principium cantus intuendum est, quod si in altum
+        tendit, recipienda <pb n="[f.Djv]"/>est vox inferior primae clauis, si vero descendit,
+        sumenda venit vox superior eiusdem clauis.</p>
       <p xml:id="RHAENC0175">IIII.</p>
       <p xml:id="RHAENC0176">Solmizans videat, an cantus regularis nec ne existat, cantus enim
         transpositio, mutationis scalae plaerumque est occasio.</p>
@@ -545,15 +564,15 @@
       <p xml:id="RHAENC0184">De mi duc ad mi, de faque salubrius ad fa.</p>
       <p xml:id="RHAENC0185">
         <pb n="[f.Dijr]"/>VII.</p>
-      <p xml:id="RHAENC0186">Quoties vel fa vel mi praeter cantus naturam signatur, oportet solfizantem
-        signaturam sequi quoad durauerit</p>
+      <p xml:id="RHAENC0186">Quoties vel fa vel mi praeter cantus naturam signatur, oportet
+        solfizantem signaturam sequi quoad durauerit</p>
       <p xml:id="RHAENC0187">VIII.</p>
       <p xml:id="RHAENC0188">In octauis idem est vocum vsus et eadem mutatio. Vnde.</p>
       <p xml:id="RHAENC0189">Quam profers uocem modulando in claue minuta</p>
       <p xml:id="RHAENC0190">Sumere non spernas (quamuis ibi non sit) eandem</p>
       <p xml:id="RHAENC0191">In simili capitali claue, uel in geminata.</p>
-      <p xml:id="RHAENC0192">Fit autem hoc raro in cantu plano, quod tamen a plerisque, si vsu venerit,
-        coniunctis ascribitur. Vt infra de coniunctis patebit.</p>
+      <p xml:id="RHAENC0192">Fit autem hoc raro in cantu plano, quod tamen a plerisque, si vsu
+        venerit, coniunctis ascribitur. Vt infra de coniunctis patebit.</p>
       <p xml:id="RHAENC0193">Capvt qvintvm</p>
       <p xml:id="RHAENC0194">Clavivm transpositionem declarat.</p>
       <p xml:id="RHAENC0195">Transpositio, est clauis signatae, ob cantus ascensum vel descensum, de
@@ -561,14 +580,14 @@
         autem vocum mutatio non debet fieri praeter necessitatem ita nec clauium transpositio. De ea
         talis datur</p>
       <p xml:id="RHAENC0196">Regvla.</p>
-      <p xml:id="RHAENC0197">Quantum clauis transposita ascendit, tantum nota immediate sequens, a suo
-        situ descendit, Et contra, Quantum clauis descendit, tantum nota ascendit, Vnde.</p>
+      <p xml:id="RHAENC0197">Quantum clauis transposita ascendit, tantum nota immediate sequens, a
+        suo situ descendit, Et contra, Quantum clauis descendit, tantum nota ascendit, Vnde.</p>
       <p xml:id="RHAENC0198">Transpositas unam per normam discute claues</p>
       <p xml:id="RHAENC0199">Quantum conscendit clauis, tantum nota rursus</p>
       <p xml:id="RHAENC0200">Descendit, uerso quoque sic intellige sensu.</p>
       <p xml:id="RHAENC0201">Exemplum.</p>
-      <p xml:id="RHAENC0202">[Rhau, Enchiridion, f.Dijv; text: Haec sunt conuiuia quae tibi placent O
-        patris sapientia. Discantvs]</p>
+      <p xml:id="RHAENC0202">[Rhau, Enchiridion, f.Dijv; text: Haec sunt conuiuia quae tibi placent
+        O patris sapientia. Discantvs]</p>
       <p xml:id="RHAENC0203">
         <pb n="[f.Diijr]"/>[Rhau, Enchiridion, f.Diijr; text: Altvs, Tenor. Haec sunt conuiuia quae
         tibi placent O patris sapientia.]</p>
@@ -576,8 +595,8 @@
         <pb n="[f.Diijv]"/>[Rhau, Enchiridion, f.Diijv,1; text: Bassvs.] <figure>
           <graphic url="/images/RHAENC_13GF.gif"/>
         </figure></p>
-      <p xml:id="RHAENC0205">In cantu figurali rarius cernitur clauium transpositio, tum quod quinque
-        lineis semper vtantur, tum quod potius sextam adijciant lineam, vt hic.</p>
+      <p xml:id="RHAENC0205">In cantu figurali rarius cernitur clauium transpositio, tum quod
+        quinque lineis semper vtantur, tum quod potius sextam adijciant lineam, vt hic.</p>
       <p xml:id="RHAENC0206">[Rhau, Enchiridion, f.Diijv,2; text: Discantvs. Altvs.]</p>
       <p xml:id="RHAENC0207">
         <pb n="[f.Diiijr]"/>[Rhau, Enchiridion, f.Diiijr; text: Tenor. Bassvs.]</p>
@@ -593,11 +612,11 @@
         alijs, non dissimili modo vsu venit, ideoque e pari coniectura pendere illorum iudicium
         crediderim, quales sunt, tonus cum diapente, tonus cum diapason, et prioribus quadam
         cognatione affines.</p>
-      <p xml:id="RHAENC0211">Nos vero (ne pueros longis amphractibus moremur) iuxta maiorum traditionem
-        nouem ponimus modos, instar humanae vocis, quae nouem constat officijs, plectro linguae,
-        pulsu quatuor dentium, repercussione duorum labiorum in modum cymbalorum, cauitate gutturis,
-        et adiutorio pulmonis, qui in modum follis aerem recipit et remittit, Simili de causa etiam
-        antiquores Apollini nouem musas assignant.</p>
+      <p xml:id="RHAENC0211">Nos vero (ne pueros longis amphractibus moremur) iuxta maiorum
+        traditionem nouem ponimus modos, instar humanae vocis, quae nouem constat officijs, plectro
+        linguae, pulsu quatuor dentium, repercussione duorum labiorum in modum cymbalorum, cauitate
+        gutturis, et adiutorio pulmonis, qui in modum follis aerem recipit et remittit, Simili de
+        causa etiam antiquores Apollini nouem musas assignant.</p>
       <p xml:id="RHAENC0212">
         <pb n="[f.Dvr]"/>Unissonus. Est fundamentum aliorum modorum, et semper manet immobilis,
         Fitque, quando in eadem claue, eadem vox iterum atque iterum reperitur, quemadmodum, vt vt,
@@ -605,12 +624,13 @@
       <p xml:id="RHAENC0213">[Rhau, Enchiridion, f.Dvr,1]</p>
       <p xml:id="RHAENC0214">Semitonium est tenuis et remissa distantia, fitque solum ex mi in fa
         proximum, et ex fa in mi proximum. Tonus est intensus motus in proximam secundam.</p>
-      <p xml:id="RHAENC0215">Tonus vero fit inter omnes voces ad secundam, mi et fa demptis, quae tamen
-        cum alijs notulis sursum ac deorsum connexae, tonum constituunt. Non desunt qui eundem a
-        tonando, id est viriliter sonando, dici volunt.</p>
+      <p xml:id="RHAENC0215">Tonus vero fit inter omnes voces ad secundam, mi et fa demptis, quae
+        tamen cum alijs notulis sursum ac deorsum connexae, tonum constituunt. Non desunt qui eundem
+        a tonando, id est viriliter sonando, dici volunt.</p>
       <p xml:id="RHAENC0216">[Rhau, Enchiridion, f.Dvr,2]</p>
-      <p xml:id="RHAENC0217">Semiditonus tertia mollis, est toni ac semitonij commixtio. Ditonus tertia
-        dura, ex duobus tonis conflata. Diatessaron est intervallum vocis a voce, per quartam.</p>
+      <p xml:id="RHAENC0217">Semiditonus tertia mollis, est toni ac semitonij commixtio. Ditonus
+        tertia dura, ex duobus tonis conflata. Diatessaron est intervallum vocis a voce, per
+        quartam.</p>
       <p xml:id="RHAENC0218">
         <pb n="[f.Dvv]"/>[Rhau, Enchiridion, f.Dvv,1] <figure>
           <graphic url="/images/RHAENC_14GF.gif"/>
@@ -618,14 +638,14 @@
       <p xml:id="RHAENC0219">Diapente est saltus ad quintam, ex tribus tonis et vno semitonio.
         Semitonium diapente, est sexta imperfecta, ex iij tonis et semitonio.</p>
       <p xml:id="RHAENC0220">[Rhau, Enchiridion, f.Dvv,2]</p>
-      <p xml:id="RHAENC0221">Tonus diapente, est sexta perfecta, ex quatuor tonis et semitonio minore.
-        Diapason est saltus per octauam, et quicquid in vna, hoc etiam in alia porest cantari
-        notula.</p>
+      <p xml:id="RHAENC0221">Tonus diapente, est sexta perfecta, ex quatuor tonis et semitonio
+        minore. Diapason est saltus per octauam, et quicquid in vna, hoc etiam in alia porest
+        cantari notula.</p>
       <p xml:id="RHAENC0222">Diapason habet septem species, vt claret ex literis maioribus ad
         minores.</p>
-      <p xml:id="RHAENC0223">Ad maiorem igitvr vsum cantus acquirendum, notetur cantilena sequens, quae
-        modos (quos cantores notarum interualla vocant) includit, quibus cognitis, vsus facillime
-        acquiritur.</p>
+      <p xml:id="RHAENC0223">Ad maiorem igitvr vsum cantus acquirendum, notetur cantilena sequens,
+        quae modos (quos cantores notarum interualla vocant) includit, quibus cognitis, vsus
+        facillime acquiritur.</p>
       <p xml:id="RHAENC0224">
         <pb n="[f.Dvjr]"/>[Rhau, Enchiridion, f.Dvjr; text: Ter trini sunt modi quibus omnis
         cantilena contexitur scilicet, Vnissonus Semitonium Tonus Semiditonus Ditonus Diatessaron,
@@ -642,8 +662,8 @@
         apprehendere noticiam. EVOVAE.]</p>
       <p xml:id="RHAENC0227">
         <pb n="[f.Dvijv]"/>De intervallis prohibitis.</p>
-      <p xml:id="RHAENC0228">Tritonus est quarta dura, nil prorsus symphoniae habens, Ledit enim ille
-        modus ac omnino viciat cantum, et fit ex tribus tonis, Vnde.</p>
+      <p xml:id="RHAENC0228">Tritonus est quarta dura, nil prorsus symphoniae habens, Ledit enim
+        ille modus ac omnino viciat cantum, et fit ex tribus tonis, Vnde.</p>
       <p xml:id="RHAENC0229">Duriter in quartam, tritonus meat unde tonos tres</p>
       <p xml:id="RHAENC0230">Continet, a fa ad mi gradiens, sed abutimur illo.</p>
       <p xml:id="RHAENC0231">Semidiapente.</p>
@@ -654,16 +674,17 @@
       <p xml:id="RHAENC0236">Est octaua quidem, quam semitonat diapason</p>
       <p xml:id="RHAENC0237">At sonitu turpis, nam de mi tenditur ad fa</p>
       <p xml:id="RHAENC0238">Semitonos ternos claudendo tonosque quaternos.</p>
-      <p xml:id="RHAENC0239">Si autem maiores quam diapason obueniant intercapedines, cum prioribus in
-        octaua aequisonant, sunt proinde cum ipsis eiusdem naturae, vt tonus cum diapason,
+      <p xml:id="RHAENC0239">Si autem maiores quam diapason obueniant intercapedines, cum prioribus
+        in octaua aequisonant, sunt proinde cum ipsis eiusdem naturae, vt tonus cum diapason,
         Semitonium cum diapason, Et eodem modo, de reliquis, vsque ad disdiapason.</p>
       <p xml:id="RHAENC0240">
         <pb n="[f.Dviijr]"/>Disdiapason.</p>
-      <p xml:id="RHAENC0241">Interuallum est per decimam quintam, intra quod natura humanae voci, quasi
-        metam praefixit, vsque adeo, vt extra illius cancellos vox naturalis egredi non possit, Et
-        quotiescuncque vltra praescriptos illius ascensus terminos sese extulerit, facticia vox est,
-        Hoc interuallium igitur, qui caute agunt non transiliunt, Vt super hac re disputat Boetius
-        Seuerinus, et Erasmus Roterodamensis in Chiliadibus, et Henricus Glareanus.</p>
+      <p xml:id="RHAENC0241">Interuallum est per decimam quintam, intra quod natura humanae voci,
+        quasi metam praefixit, vsque adeo, vt extra illius cancellos vox naturalis egredi non
+        possit, Et quotiescuncque vltra praescriptos illius ascensus terminos sese extulerit,
+        facticia vox est, Hoc interuallium igitur, qui caute agunt non transiliunt, Vt super hac re
+        disputat Boetius Seuerinus, et Erasmus Roterodamensis in Chiliadibus, et Henricus
+        Glareanus.</p>
       <p xml:id="RHAENC0242">Capvt septimvm</p>
       <p xml:id="RHAENC0243">De conivnctis sev musica ficta, quam greci [synemmenon] vocant.</p>
       <p xml:id="RHAENC0244">Mvsica ficta est, quae per voces fictas modulatur, Dicuntur autem voces
@@ -679,13 +700,14 @@
       <p xml:id="RHAENC0249">Exprimere more suo, ueramque subinde redito</p>
       <p xml:id="RHAENC0250">Ad scalae solsam, coniunctis Organa multis</p>
       <p xml:id="RHAENC0251">Indigeant opus est, propter uariamina cantus.</p>
-      <p xml:id="RHAENC0252">Euitatur autem coniuncta, hoc est musica ficta, per rranspositionem cantus,
-        vel per quartam, quintam vel octauam, aliquando per secundam, secundum verae solmizationis
-        exigentiam.</p>
-      <p xml:id="RHAENC0253">Duo sunt signa coniunctarum, scilicet [sqb] quadrum, quod coniunctam fieri
-        demonstrat in locis b mollaribus. Et b molle, quod in locis [sqb] duralibus eam indicat.
-        [sqb] enim quadrum mi, orbiculare fa notat, quippe fa [euphonian], mi vero [kakophaton]
-        sanat. Admittuntur autem coniunctae, cum propter cantus necessitatem, tum iuncunditatem.</p>
+      <p xml:id="RHAENC0252">Euitatur autem coniuncta, hoc est musica ficta, per rranspositionem
+        cantus, vel per quartam, quintam vel octauam, aliquando per secundam, secundum verae
+        solmizationis exigentiam.</p>
+      <p xml:id="RHAENC0253">Duo sunt signa coniunctarum, scilicet [sqb] quadrum, quod coniunctam
+        fieri demonstrat in locis b mollaribus. Et b molle, quod in locis [sqb] duralibus eam
+        indicat. [sqb] enim quadrum mi, orbiculare fa notat, quippe fa [euphonian], mi vero
+        [kakophaton] sanat. Admittuntur autem coniunctae, cum propter cantus necessitatem, tum
+        iuncunditatem.</p>
       <p xml:id="RHAENC0254">
         <pb n="[f.Ejr]"/>Capvt octavvm</p>
       <p xml:id="RHAENC0255">Tonorum vim ac naturam explicat.</p>
@@ -696,9 +718,9 @@
         artificialiter modulari, nisi praecognoscamus tonum eius, Cuiusque enim toni ratio, ex eius
         fine et motu hincinde, colligitur.</p>
       <p xml:id="RHAENC0257">De tonorvm nvmero.</p>
-      <p xml:id="RHAENC0258">Toni priscis erant quatuor, [protos, deuteros, tritos, tetartos], quibus
-        adhuc hodie tantum quatuor correspondent finales. Omnes enim cantilenae quadrifariam sibi
-        finem constituunt, his scilicet vocibus, re, mi, fa, sol. Graeci dictos quatuor tonos
+      <p xml:id="RHAENC0258">Toni priscis erant quatuor, [protos, deuteros, tritos, tetartos],
+        quibus adhuc hodie tantum quatuor correspondent finales. Omnes enim cantilenae quadrifariam
+        sibi finem constituunt, his scilicet vocibus, re, mi, fa, sol. Graeci dictos quatuor tonos
         [autentous], id est, clamosos vocant. Posteritas vero, studiosa locupletandi concentus,
         cuilibet ex dictis quatuor, [plagion] id est, obliquum <pb n="[f.Ejv]"/>addidit, vnde octo
         emerserunt toni apud Latinos, quibus omnis cantilena secundum arsim et thesim regitur,
@@ -706,9 +728,9 @@
         moderetur, quemadmodum octo partibus orationis omne quod dicitur, hos enim tali distinguimus
         differentia, nam quosdam autentos, nonnullos plagales vocamus.</p>
       <p xml:id="RHAENC0259">De toni avtenti expatiatione seu ambitu.</p>
-      <p xml:id="RHAENC0260">Autenti sunt numero impari, vt Primus, Tertius, Quintus, et septimus. Et hi
-        crebro diapason supra finalem vocem contingunt, infra eam nec ditonum quidem. Dicuntur et
-        autentici, quia authoritatem ascendendi maiorem habent caeteris.</p>
+      <p xml:id="RHAENC0260">Autenti sunt numero impari, vt Primus, Tertius, Quintus, et septimus.
+        Et hi crebro diapason supra finalem vocem contingunt, infra eam nec ditonum quidem. Dicuntur
+        et autentici, quia authoritatem ascendendi maiorem habent caeteris.</p>
       <p xml:id="RHAENC0261">Vnde.</p>
       <p xml:id="RHAENC0262">Impare de numero tonus est autentus in altum</p>
       <p xml:id="RHAENC0263">Cuius neuma salit, sede a propria diapason</p>
@@ -719,9 +741,9 @@
           <graphic url="/images/RHAENC_16GF.gif"/>
         </figure></p>
       <p xml:id="RHAENC0266">De toni plagalis ambitu.</p>
-      <p xml:id="RHAENC0267">Plagales numero pari constant, vt Secundus, quartus, sextus, et octauus. Hi
-        supra chordam statiuam (quam et finalem dicimus) <pb n="[f.Eijv]"/>diapenten statuere
-        volunt, diatessaron vero infra eandem chordam collocare.</p>
+      <p xml:id="RHAENC0267">Plagales numero pari constant, vt Secundus, quartus, sextus, et
+        octauus. Hi supra chordam statiuam (quam et finalem dicimus) <pb n="[f.Eijv]"/>diapenten
+        statuere volunt, diatessaron vero infra eandem chordam collocare.</p>
       <p xml:id="RHAENC0268">Vult pare de numero tonus esse plagalis, in ima</p>
       <p xml:id="RHAENC0269">Ab regione sua descendens ad diapenten</p>
       <p xml:id="RHAENC0270">Cui datur ad quintam, raroque ascendere sextam.</p>
@@ -731,12 +753,12 @@
         <pb n="[f.Eiijr]"/>Sic itaque quisque tonorum diapason complectitur, quamuis frequenter et
         infra et supra, nonnunquam vtrinque tonus addatur, Id quod videre est pene in omnibus
         cantilenis.</p>
-      <p xml:id="RHAENC0274">Sed cum plurima interdum carmina reperiantur vtrumque ambitum amplecti, de
-        expatiatione siue permixtione eorundem paulisper differere necessum est.</p>
+      <p xml:id="RHAENC0274">Sed cum plurima interdum carmina reperiantur vtrumque ambitum amplecti,
+        de expatiatione siue permixtione eorundem paulisper differere necessum est.</p>
       <p xml:id="RHAENC0275">De permixtione tonorum.</p>
-      <p xml:id="RHAENC0276">Hoc libet etiam obiter commemorare, quod non oportet autenticum semper ad
-        diapason scandere, et plagalem ad diapenten deprimi, sed intelligi debet, quod ascendendi et
-        descendendi potestatem habeant, Crebro enim cantus totum systema suum adimplet, aliquando
+      <p xml:id="RHAENC0276">Hoc libet etiam obiter commemorare, quod non oportet autenticum semper
+        ad diapason scandere, et plagalem ad diapenten deprimi, sed intelligi debet, quod ascendendi
+        et descendendi potestatem habeant, Crebro enim cantus totum systema suum adimplet, aliquando
         deficit ex vtraque parte, non raro superexcrescit, puta, non contentus diapason, sed
         diatessaron, nonnunquam diapenten cum diapason coniungit, interdum permixtim duorum tonorum
         sistemata in vna cantilena coniungit, nonnunquam cantiones vltra prosiliunt, et tunc
@@ -749,8 +771,8 @@
       <p xml:id="RHAENC0278">Qui uelut autentus conscenderit, utque plagalis</p>
       <p xml:id="RHAENC0279">Depressus fuerit tonus, ipsum dicito mixtum.</p>
       <p xml:id="RHAENC0280">Vide exemplum.</p>
-      <p xml:id="RHAENC0281">[Rhau, Enchiridion, f.Eiijv; text: Tenor. Discantvs. Altvs. Hic quintus et
-        sextus sunt permixti.] <figure>
+      <p xml:id="RHAENC0281">[Rhau, Enchiridion, f.Eiijv; text: Tenor. Discantvs. Altvs. Hic quintus
+        et sextus sunt permixti.] <figure>
           <graphic url="/images/RHAENC_17GF.gif"/>
         </figure></p>
       <p xml:id="RHAENC0282">
@@ -784,25 +806,25 @@
       <p class="textFig" xml:id="RHAENC0294">              Gsolreut           Septimi vel octaui
         <lb/>Omnis         Ffaut      est     Quinti vel sexti
         <br/>cantus        Elami      toni    Tertii vel quarti
-        <lb/>exiens in     Dsolre             Primi vel secundi
-        <br/></p>
+        <lb/>exiens in     Dsolre             Primi vel secundi <br/></p>
       <p xml:id="RHAENC0295">In D protus deuterque sedet, cum quarto in E tritus</p>
       <p xml:id="RHAENC0296">Quintus in F cum sexto, octavo septimus in G.</p>
       <p xml:id="RHAENC0297">De tonorvm transpositione.</p>
       <p xml:id="RHAENC0298">Per quartam tamen aut quintam, transponimus illos</p>
       <p xml:id="RHAENC0299">Sedibus aut proprijs, si non possunt modulari.</p>
       <p xml:id="RHAENC0300">De ambitibvs tonorum.</p>
-      <p xml:id="RHAENC0301">Ambitus est circuitus seu spacium, tonis pro ascensu ac descensu musicorum
-        autoritate concessum, Conceduntur autem vnicuique tonorum, non plus quam decem notae seu <pb n="[f.Fjv]"/>voces, in quibus cursum suum habeat, licet nunc neotericorum luxurians
-        licentia, vndecimam cuilibet superaddat.</p>
+      <p xml:id="RHAENC0301">Ambitus est circuitus seu spacium, tonis pro ascensu ac descensu
+        musicorum autoritate concessum, Conceduntur autem vnicuique tonorum, non plus quam decem
+        notae seu <pb n="[f.Fjv]"/>voces, in quibus cursum suum habeat, licet nunc neotericorum
+        luxurians licentia, vndecimam cuilibet superaddat.</p>
       <p xml:id="RHAENC0302">Tonus cognoscitur tripliciter.</p>
-      <p xml:id="RHAENC0303">Principio. Nam omnis cantus in principio vltra notam finalem mox scandens
-        ad quintam, autenti est toni. Qui vero ad tertiam vel quartam infra finalem mox ceciderit,
-        plagalis.</p>
-      <p xml:id="RHAENC0304">Medio, penes ascensum, Nam cantus qui in medio octauam tetigerit, autenti
-        est toni, qui vero non, plagalis. Extant etiam peculiaria quaedam indicia cuiusque toni, ex
-        motu deprehensa, ex quibus solo auditu, cuius toni sit cantus quiuis dinoscitur, dicunturque
-        repercussiones tonorum. Vnde.</p>
+      <p xml:id="RHAENC0303">Principio. Nam omnis cantus in principio vltra notam finalem mox
+        scandens ad quintam, autenti est toni. Qui vero ad tertiam vel quartam infra finalem mox
+        ceciderit, plagalis.</p>
+      <p xml:id="RHAENC0304">Medio, penes ascensum, Nam cantus qui in medio octauam tetigerit,
+        autenti est toni, qui vero non, plagalis. Extant etiam peculiaria quaedam indicia cuiusque
+        toni, ex motu deprehensa, ex quibus solo auditu, cuius toni sit cantus quiuis dinoscitur,
+        dicunturque repercussiones tonorum. Vnde.</p>
       <p xml:id="RHAENC0305">Noscitur ex medio dum cantus uocibus ullus</p>
       <p xml:id="RHAENC0306">Saepe repercutitur proprijs uersandus in illis</p>
       <p xml:id="RHAENC0307">Nam tonus omnis habet proprias, quas sape relidit</p>
@@ -817,12 +839,12 @@
       <p xml:id="RHAENC0315">Cum Deutro primus, cum quarto tertius in mi</p>
       <p xml:id="RHAENC0316">Quintus cum sexto in fa, octavo septimus in sol</p>
       <p xml:id="RHAENC0317">Exitus est idem, uariatur origo tonorum.</p>
-      <p xml:id="RHAENC0318">Initium tamen cantilenarum, doctissimorum musicorum iudicio, erroneam et
-        penitus hesitabundam toni demonstrat cognitionem, quare proprie omnis cantus, a fine tanquam
-        a perfectione denominandus erit.</p>
+      <p xml:id="RHAENC0318">Initium tamen cantilenarum, doctissimorum musicorum iudicio, erroneam
+        et penitus hesitabundam toni demonstrat cognitionem, quare proprie omnis cantus, a fine
+        tanquam a perfectione denominandus erit.</p>
       <p xml:id="RHAENC0319">De tonorvm finibvs in cantu transposito.</p>
-      <p xml:id="RHAENC0320">Transpositio cantus, est coniunctarum euitatio. Dum enim coniunctas vitare
-        intendimus, cantum ex loco proprio sui finis sursum ad quintam eleuamus, interdum ad
+      <p xml:id="RHAENC0320">Transpositio cantus, est coniunctarum euitatio. Dum enim coniunctas
+        vitare intendimus, cantum ex loco proprio sui finis sursum ad quintam eleuamus, interdum ad
         quartam. Non enim omnis cantilena primi et secundi tonorum in D exit, sed nonnunquam etiam
         in a et d, Frequentissime in cantu mensurali in G, non tamen absque fa in b claue, Quod
         potissimum ea ratione symphonistae faciunt, ne voces extra Guidonis scalam expatiari
@@ -842,8 +864,8 @@
         Si ergo vox finalis cantilenae fuerit <pb n="[f.Fiijr]"/>re, incunctanter iam scio eam primi
         aut secundi esse toni, Si mi, tertij aut quarti, Si fa, quinti aut sexti toni normam scio
         ipsam imitari et caetera.</p>
-      <p xml:id="RHAENC0324">Haec de tonorum fine et agnitione sufficere arbitror, in qu bus plus vsus
-        spectari debet, quam tot praeceptiones plane pueriles, Nam inter tonum autenticum et
+      <p xml:id="RHAENC0324">Haec de tonorum fine et agnitione sufficere arbitror, in qu bus plus
+        vsus spectari debet, quam tot praeceptiones plane pueriles, Nam inter tonum autenticum et
         plagalem non semper potest absoluta et exacta haberi cognitio et differentia, imo ex
         coniectura saepe cantus tono autentico vel plagali attribuitur.</p>
       <p xml:id="RHAENC0325">De tropis tonorum.</p>
@@ -868,57 +890,58 @@
       <p xml:id="RHAENC0331">
         <pb n="[f.Fiiijr]"/>[Rhau, Enchiridion, f.Fiiijr; text: Tropus tertij. Quarti. Tropus
         quinti. Sexti. Tropus septimi, Tenor octaui.]</p>
-      <p xml:id="RHAENC0332">Duplices sunt psalmi, quibus in diuinis vtimur rebus, Maiores qui ex sacro
-        Euangelio deprompti sunt, vt Benedictus Zachariae canticum, et Magnificat diuae virginis.
-        Minores sunt omnes alij praeter dictos, puta qui a Regio Poeta creduntur editi.</p>
+      <p xml:id="RHAENC0332">Duplices sunt psalmi, quibus in diuinis vtimur rebus, Maiores qui ex
+        sacro Euangelio deprompti sunt, vt Benedictus Zachariae canticum, et Magnificat diuae
+        virginis. Minores sunt omnes alij praeter dictos, puta qui a Regio Poeta creduntur
+        editi.</p>
       <p xml:id="RHAENC0333">Psalmodiae vero tonorum, consuetudine et vsu cuiuscunque diocesis siue
         choro variantur, tamque passim hac in re obruit varietas, vt qui de hac conetur
         praescribere, plane luserit operam.</p>
       <p xml:id="RHAENC0334">
         <pb n="[f.Fiiijv]"/>Seqvvntvr tonorvm psalmodiae.</p>
-      <p xml:id="RHAENC0335">[Rhau, Enchiridion, f.Fiiijv; text: Discantvs. Altvs. Tenor. Bassvs. Dixit
-        dominus domino meo, sede a dextris meis.] <figure>
+      <p xml:id="RHAENC0335">[Rhau, Enchiridion, f.Fiiijv; text: Discantvs. Altvs. Tenor. Bassvs.
+        Dixit dominus domino meo, sede a dextris meis.] <figure>
           <graphic url="/images/RHAENC_18GF.gif"/>
         </figure></p>
       <p xml:id="RHAENC0336">
         <pb n="[f.Fvr]"/>Secvndvs tonvs.</p>
-      <p xml:id="RHAENC0337">[Rhau, Enchiridion, f.Fvr; text: Discantvs. Altvs. Tenor. Bassvs. Laudate
-        pueri dominum. laudate nomen domini.]</p>
+      <p xml:id="RHAENC0337">[Rhau, Enchiridion, f.Fvr; text: Discantvs. Altvs. Tenor. Bassvs.
+        Laudate pueri dominum. laudate nomen domini.]</p>
       <p xml:id="RHAENC0338">
         <pb n="[f.Fvv]"/>Tertivs tonvs.</p>
-      <p xml:id="RHAENC0339">[Rhau, Enchiridion, f.Fvv; text: Discantvs. Altvs. Tenor. Bassvs. Gloria
-        patri et filio, et spiritui sancto.] <figure>
+      <p xml:id="RHAENC0339">[Rhau, Enchiridion, f.Fvv; text: Discantvs. Altvs. Tenor. Bassvs.
+        Gloria patri et filio, et spiritui sancto.] <figure>
           <graphic url="/images/RHAENC_19GF.gif"/>
         </figure></p>
       <p xml:id="RHAENC0340">
         <pb n="[f.Fvjr]"/>Qvartvs tonvs.</p>
-      <p xml:id="RHAENC0341">[Rhau, Enchiridion, f.Fvjr; text: Discantvs. Altvs. Tenor. Bassvs. Dixit
-        dominus domino meo, sede a dextris meis.]</p>
+      <p xml:id="RHAENC0341">[Rhau, Enchiridion, f.Fvjr; text: Discantvs. Altvs. Tenor. Bassvs.
+        Dixit dominus domino meo, sede a dextris meis.]</p>
       <p xml:id="RHAENC0342">
         <pb n="[f.Fvjv]"/>Qvintvs tonvs.</p>
-      <p xml:id="RHAENC0343">[Rhau, Enchiridion, f.Fvjv; text: Discantvs. Altvs. Tenor. Bassvs. Laudate
-        pueri dominum. laudate nomen domini.] <figure>
+      <p xml:id="RHAENC0343">[Rhau, Enchiridion, f.Fvjv; text: Discantvs. Altvs. Tenor. Bassvs.
+        Laudate pueri dominum. laudate nomen domini.] <figure>
           <graphic url="/images/RHAENC_20GF.gif"/>
         </figure></p>
       <p xml:id="RHAENC0344">
         <pb n="[f.Fvijr]"/>Sextvs tonvs.</p>
-      <p xml:id="RHAENC0345">[Rhau, Enchiridion, f.Fvijr; text: Discantvs. Altvs. Tenor. Bassvs. Dixit
-        dominus domino meo, sede a dextris meis.]</p>
+      <p xml:id="RHAENC0345">[Rhau, Enchiridion, f.Fvijr; text: Discantvs. Altvs. Tenor. Bassvs.
+        Dixit dominus domino meo, sede a dextris meis.]</p>
       <p xml:id="RHAENC0346">
         <pb n="[f.Fvijv]"/>Septimvs tonvs.</p>
-      <p xml:id="RHAENC0347">[Rhau, Enchiridion, f.Fvijv; text: Discantvs. Altvs. Tenor. Bassvs. Dixit
-        dominus domino meo, sede a dextris meis.] <figure>
+      <p xml:id="RHAENC0347">[Rhau, Enchiridion, f.Fvijv; text: Discantvs. Altvs. Tenor. Bassvs.
+        Dixit dominus domino meo, sede a dextris meis.] <figure>
           <graphic url="/images/RHAENC_21GF.gif"/>
         </figure></p>
       <p xml:id="RHAENC0348">
         <pb n="[f.Fviijr]"/>Octavvs tonvs.</p>
-      <p xml:id="RHAENC0349">[Rhau, Enchiridion, f.Fviijr; text: Discantvs. Altvs. Tenor. Bassvs. Dixit
-        dominus domino meo, sede a dextris meis.]</p>
+      <p xml:id="RHAENC0349">[Rhau, Enchiridion, f.Fviijr; text: Discantvs. Altvs. Tenor. Bassvs.
+        Dixit dominus domino meo, sede a dextris meis.]</p>
       <p xml:id="RHAENC0350">
         <pb n="[f.Fviijv]"/>Sequitur differentia peregrina, sic dicta, quod in nostris canciunculis
         raro admodum occurrit, nam non nisi ad vnum Psalmum decantatur.</p>
-      <p xml:id="RHAENC0351">[Rhau, Enchiridion, f.Fviijv; text: Discantvs. Tenor. In exitu Israel de
-        Egypto domus Iacob de populo barbaro] <figure>
+      <p xml:id="RHAENC0351">[Rhau, Enchiridion, f.Fviijv; text: Discantvs. Tenor. In exitu Israel
+        de Egypto domus Iacob de populo barbaro] <figure>
           <graphic url="/images/RHAENC_22GF.gif"/>
         </figure></p>
       <p xml:id="RHAENC0352">
@@ -966,10 +989,10 @@
         Magnificat anima mea Dominum.]</p>
       <p xml:id="RHAENC0369">
         <pb n="[f.Gvv]"/>De clavsvlarvm punctis, modoque legendi choraliter, Additio.</p>
-      <p xml:id="RHAENC0370">Ad oratoriam pronunctiationem, non solum vox, et aptus corporis motus (quae
-        orationem illustrant et eloquentiam commendant) verum etiam punctorum obseruatio apprime
-        necessaria accersitur et acquiritur, quorum ignorantia, legentis insciciam indicat et pre se
-        fert, et audienti fastidium parit.</p>
+      <p xml:id="RHAENC0370">Ad oratoriam pronunctiationem, non solum vox, et aptus corporis motus
+        (quae orationem illustrant et eloquentiam commendant) verum etiam punctorum obseruatio
+        apprime necessaria accersitur et acquiritur, quorum ignorantia, legentis insciciam indicat
+        et pre se fert, et audienti fastidium parit.</p>
       <p xml:id="RHAENC0371">Punctum igitur, est signum segregans intellectum: et spiritum recreans
         prolatoris. Dixit admodum pulchre id Ausonius:</p>
       <p xml:id="RHAENC0372">Distinctio sensum,</p>
@@ -994,13 +1017,14 @@
         predicandum Euangelium, id est, bonum nuncium.</p>
       <p xml:id="RHAENC0381">
         <pb n="[f.Gvjv]"/>Prophecia.</p>
-      <p xml:id="RHAENC0382">Est oratio veteri sumpta testamento. Huius legendi modus vulgo duplex est,
-        quidam enim virgulam in fine eleuant, quidam non, sed aequaliter tenent. Comma tamen semper
-        per tertiam descendit / nisi fuerit dictio monosyllaba, aut hebraica / aut indeclinabilis /
-        quae eleuari desiderat / sicut et in psalmodijs, contra naturam eleuatur. Interrogatio?
-        semper eleuatur. Colon vero semper per quintam deprimitur, vt in sequenti conspicitur
-        exemplo.</p>
-      <p xml:id="RHAENC0383">[Rhau, Enchiridion, f.Gvjv; text: Virgula / Comma: Colon. Interrogatio?] <figure>
+      <p xml:id="RHAENC0382">Est oratio veteri sumpta testamento. Huius legendi modus vulgo duplex
+        est, quidam enim virgulam in fine eleuant, quidam non, sed aequaliter tenent. Comma tamen
+        semper per tertiam descendit / nisi fuerit dictio monosyllaba, aut hebraica / aut
+        indeclinabilis / quae eleuari desiderat / sicut et in psalmodijs, contra naturam eleuatur.
+        Interrogatio? semper eleuatur. Colon vero semper per quintam deprimitur, vt in sequenti
+        conspicitur exemplo.</p>
+      <p xml:id="RHAENC0383">[Rhau, Enchiridion, f.Gvjv; text: Virgula / Comma: Colon.
+        Interrogatio?] <figure>
           <graphic url="/images/RHAENC_27GF.gif"/>
         </figure></p>
       <p xml:id="RHAENC0384">Finis musicae planae.</p>

@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Breviarium regulare musicae</title>
         <title type="abbrev">WILBRE</title>
-        <author>Willelmus</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Willelmus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1991</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1991">1991</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Ms. Oxford, Bodley 842 (Willelmus), Breviarium regulare musicae</emph>; <emph>Ms.
@@ -50,13 +60,13 @@
       <p xml:id="WILBRE0001">
         <pb n="[15]"/>Incipit Breviarium regulare musicae</p>
       <p xml:id="WILBRE0002">Prologus</p>
-      <p xml:id="WILBRE0003">Multorum cantorum scripturas varias ac opera ad practicam musicae laborata
-        investigando dispersa conspexi, quae ad meam iuvenumque utilitatem.....</p>
+      <p xml:id="WILBRE0003">Multorum cantorum scripturas varias ac opera ad practicam musicae
+        laborata investigando dispersa conspexi, quae ad meam iuvenumque utilitatem.....</p>
       <p xml:id="WILBRE0004">Capitulum I</p>
       <p xml:id="WILBRE0005">Apotomen maiorem esse quam quatuor commata, minorem quam quinque; tonum
         maiorem quam octo, minorem quam novem</p>
-      <p xml:id="WILBRE0006">Inter .d. igitur atque .c. est differentia 33777 et sit .g. Comatis vero
-        differentia, quae est 7153, sit .k. sicut prius. Si ergo .k., quod est coma, quinquies
+      <p xml:id="WILBRE0006">Inter .d. igitur atque .c. est differentia 33777 et sit .g. Comatis
+        vero differentia, quae est 7153, sit .k. sicut prius. Si ergo .k., quod est coma, quinquies
         multiplicetur, fiet 35765, et sic hoc .r. Si vero eundem .k. quater multiplicem, fiet .n.
         numerus, qui est 28612. .r. igitur maior est .g., .n. vero minor est .g. Sed .r. quinquies
         aucto comate succuruit, .n. vero quater. Est autem apothome differentia .g. Iure igitur
@@ -69,7 +79,8 @@
         comprehendere possit auditus.</p>
       <p xml:id="WILBRE0007">Capituum II</p>
       <p xml:id="WILBRE0008">Divisio monochordi</p>
-      <p xml:id="WILBRE0009">Ad evidentiam supradictorum breviter monochordi subiungo divisionem <pb n="[16]"/>in primo capitulo dimissam. Monochordi figurae vel notae sunt istae:
+      <p xml:id="WILBRE0009">Ad evidentiam supradictorum breviter monochordi subiungo divisionem <pb
+          n="[16]"/>in primo capitulo dimissam. Monochordi figurae vel notae sunt istae:
         .[Gamma].A.B.[sqb].C.D.E.F.G, et dicuntur graves quia maioribus litteris scribuntur:
         .a.b.[sqb].c.d.e.f.g, et acutae dicuntur quia minoribus et simplicibus litteris scribuntur:
         .aa.bb.[sqb][sqb].cc.dd, quae dupplicantur et superacutae dicuntur. Et in monocordo sic
@@ -89,28 +100,30 @@
         ab eodem .b. et in fine illius ponatur .B. rotundum grave. Item dividatur de .d. usque in
         finem in duos passus. Primus terminatur in .dd. superacutum, et sic patet divisio
         monocrordi.</p>
-      <p xml:id="WILBRE0010">Hiis ita dispositis inter notam et notam, alicubi et spatium maius, alicubi
-        minus; et maius tonus dicitur ut .[Gamma].A. vel .A.[sqb]., spatium minus dicitur semitonium
-        ut .[sqb].C. Oportet igitur quod linea monochordi, quamquam prius multimode divisa sit et
-        variis notis distincta, iterum dividatur, primis tamen remanentibus notis. Dividitur ergo in
-        12 passus aequales, qui etiam numeris sic subtus distinguntur. Ponatur subtus .[Gamma]. 12,
-        subtus .C. 9, subtus .D. 8, subtus .G. 6, subtus .d. 4, subtus .g. 3, subtus .dd. 2. <pb n="[17]"/>Alii numeri locis sibi competentibus ponentur. Erit 3 tantum spatium cuiuslibet
-        divisionis quantum est inter .C. et .D. Ex hiis numeris et proportionibus eorum patet vocum
-        proportio. Nam quanta est proportio inter 12 et 9, tanta est inter .[Gamma]. et .C. Est
-        autem sesquetertia unde diatessaron fit. Item quanta es inter 9 et 6, tanta est inter .C. et
-        .G. Est autem sesquealtera unde diapente causatur. Item quanta est inter 6 et tria, tanta
-        est inter .G. et .g. Est autem dupla unde fit diapason. Et licet haec tria spatia praedicta,
-        scilicet .[Gamma].C., .C.G. et .G.g., aequaliter distent quantum ad loci mensuram, non tamen
-        quantum ad numeros, proportiones et sonos. Nec fallit hic ordo quodcumque, enim spatium
-        sonat diatessaron, tantundem proximum spatium versus finem monochordi dat diapente, et quod
-        inmediate sequitur sonat diapason. Immo si aliquod spatium sonat sextum ab eo, sonat
-        diatessaron, septimum diapente, octavum diapason. Est autem tanta proportio inter .C. et .D.
-        quanta inter 9 et 8. Est autem sesqueoctava unde tonus fit. Est autem tripla proportio inter
-        .[Gamma]. et .d. sicut inter 12 et quatuor, et facit diapason cum diapente. Est autem
-        quadrupla inter .[Gamma]. et .g. sicut inter 12 et tria, unde bis diapason fit.</p>
-      <p xml:id="WILBRE0011">Haec autem ultima monocordi divisio in 12 passus aequales potest etiam ab
-        aliis litteris inchoari, scilicet ab .A. vel .C., et gravetur a qualibet littera quae, cum
-        sua simili sonans diapason, continet etiam in utroque latere diatessaron et diapente, ut
+      <p xml:id="WILBRE0010">Hiis ita dispositis inter notam et notam, alicubi et spatium maius,
+        alicubi minus; et maius tonus dicitur ut .[Gamma].A. vel .A.[sqb]., spatium minus dicitur
+        semitonium ut .[sqb].C. Oportet igitur quod linea monochordi, quamquam prius multimode
+        divisa sit et variis notis distincta, iterum dividatur, primis tamen remanentibus notis.
+        Dividitur ergo in 12 passus aequales, qui etiam numeris sic subtus distinguntur. Ponatur
+        subtus .[Gamma]. 12, subtus .C. 9, subtus .D. 8, subtus .G. 6, subtus .d. 4, subtus .g. 3,
+        subtus .dd. 2. <pb n="[17]"/>Alii numeri locis sibi competentibus ponentur. Erit 3 tantum
+        spatium cuiuslibet divisionis quantum est inter .C. et .D. Ex hiis numeris et proportionibus
+        eorum patet vocum proportio. Nam quanta est proportio inter 12 et 9, tanta est inter
+        .[Gamma]. et .C. Est autem sesquetertia unde diatessaron fit. Item quanta es inter 9 et 6,
+        tanta est inter .C. et .G. Est autem sesquealtera unde diapente causatur. Item quanta est
+        inter 6 et tria, tanta est inter .G. et .g. Est autem dupla unde fit diapason. Et licet haec
+        tria spatia praedicta, scilicet .[Gamma].C., .C.G. et .G.g., aequaliter distent quantum ad
+        loci mensuram, non tamen quantum ad numeros, proportiones et sonos. Nec fallit hic ordo
+        quodcumque, enim spatium sonat diatessaron, tantundem proximum spatium versus finem
+        monochordi dat diapente, et quod inmediate sequitur sonat diapason. Immo si aliquod spatium
+        sonat sextum ab eo, sonat diatessaron, septimum diapente, octavum diapason. Est autem tanta
+        proportio inter .C. et .D. quanta inter 9 et 8. Est autem sesqueoctava unde tonus fit. Est
+        autem tripla proportio inter .[Gamma]. et .d. sicut inter 12 et quatuor, et facit diapason
+        cum diapente. Est autem quadrupla inter .[Gamma]. et .g. sicut inter 12 et tria, unde bis
+        diapason fit.</p>
+      <p xml:id="WILBRE0011">Haec autem ultima monocordi divisio in 12 passus aequales potest etiam
+        ab aliis litteris inchoari, scilicet ab .A. vel .C., et gravetur a qualibet littera quae,
+        cum sua simili sonans diapason, continet etiam in utroque latere diatessaron et diapente, ut
         supra patet. Ex praedictis patet quod, quanta est proportio inter hos numeros 12, 9, 8, 6,
         tanta est inter .A.D.E.a., in quibus omnes simplices consonantias musicas invenimus. Quia 8
         ad 6 et 9 ad 12 sesquitertiam proportionem reddunt et simul diatessaron consonantia. Set 6
@@ -131,17 +144,17 @@
         <pb n="[18]"/>Capitulum 3</p>
       <p xml:id="WILBRE0014">ponit notas sonorum et earum distinctionem valoremque cum pausarum
         declaratione</p>
-      <p xml:id="WILBRE0015">Istud capitulum demonstrans notarum pausarumque divisionem, quantitatem seu
-        valorem, 5 partes continet cum suis regulis. Prima pars declarat nomina notarum, pro cuius
-        evidentia est notandum quod notae multipliciter sortiuntur nomina. Primo: secundum
+      <p xml:id="WILBRE0015">Istud capitulum demonstrans notarum pausarumque divisionem, quantitatem
+        seu valorem, 5 partes continet cum suis regulis. Prima pars declarat nomina notarum, pro
+        cuius evidentia est notandum quod notae multipliciter sortiuntur nomina. Primo: secundum
         positionem Guydonis, et sic sunt 6, scilicet ut, re mi, fa, sol, la, ut in primo capitulo
         dictum est, et continue repplicantur usque ad finem monochordi. Secundo: habent nomina ut
         disposuit Boycius in musica sua, libro 4, capitulo 3, et sic quaelibet nota monochordi habet
         nomen proprium sibi assignatum secundum ordinem chordarum cytharae. Et huius nomina cum suis
         signis, numeris et litteris in genere diatonico per exemplum hic volo inserere.</p>
       <p xml:id="WILBRE0016">Primo secundo ordinem tabulae monochordi:</p>
-      <p xml:id="WILBRE0017">[CSM12:18; text: Genus diatonicum. Nomina, Numerus, Signa, Litterae, Nete
-        hiperboleon, Paranete hiperboleon, Trite hiperboleon, Nete diezeugmenon, Paranete
+      <p xml:id="WILBRE0017">[CSM12:18; text: Genus diatonicum. Nomina, Numerus, Signa, Litterae,
+        Nete hiperboleon, Paranete hiperboleon, Trite hiperboleon, Nete diezeugmenon, Paranete
         diezeugmenon, Trite diezeugmenon, Paramese, Mese, Licanos meson, Paripate meson, Ypate
         meson, Licanos hipaton, Paripate hipaton, Hipate hipaton, Proslambanomenos, 2304, 2592,
         2916, 3072, 3456, 3888, 4096, 4608, 5184, 5832, 6144, 6912, 7776, 8192, 9216, ff, dd, cc, y,
@@ -157,19 +170,19 @@
       <p xml:id="WILBRE0019">Set pro evidentia expositionis istorum vocabulorum est notandum quod
         secundum antiquos musicos, qui nec admiserant [Gamma] nec illas 3 notas quas post aa
         ponimus, ista vocabula quae interpretaturi sumus musicis vocibus inposita sunt.</p>
-      <p xml:id="WILBRE0020">Primum igitur A apud antiquos vocatur proslambanomenos, B hipate hipaton,
-        et ita de aliis secundum ordinem tabulae superius scriptae; unde istorum vocabulorum
-        litteras et significationes secundum Boycium, libro 4, capitulo 3, volo inserere, quem in
-        parte secuti sumus. Proslambanomenos igitur, qui adquisitus dici potest, zeta non integrum
-        et tau iacens: [signa]. Hypate hipaton, quae est principalis principalium, gamma conversum
-        et <pb n="[20]"/>gamma rectum: [signa]. Parhipate hipaton, id est subprincipalis
-        principalium, beta non integrum et gamma supinum: [signa]. Lichanos hypaton diatonos, quae
-        est principalium diatonos extenta, phi graecum et digamon: [signa]. Hypate meson, quae est
-        mediarum principalis, sigma et sigma: [signa]. Paripathe meson, quae est subprincipalis
-        mediarum, rho et sigma supinum: [signa]. Lycanos meson diatonos, quae est mediarum extenta,
-        my graecum et py graecum deductum: [signa]. Mese, quae est media, iota et lambda iacens:
-        [signa]. Paramese, quae est submedia, zeta et py graecum iacens: [signa]. Trite
-        diezeugmenon, quae est tertia divisarum, E quadratum et py graecum supinum: [signa].
+      <p xml:id="WILBRE0020">Primum igitur A apud antiquos vocatur proslambanomenos, B hipate
+        hipaton, et ita de aliis secundum ordinem tabulae superius scriptae; unde istorum
+        vocabulorum litteras et significationes secundum Boycium, libro 4, capitulo 3, volo
+        inserere, quem in parte secuti sumus. Proslambanomenos igitur, qui adquisitus dici potest,
+        zeta non integrum et tau iacens: [signa]. Hypate hipaton, quae est principalis principalium,
+        gamma conversum et <pb n="[20]"/>gamma rectum: [signa]. Parhipate hipaton, id est
+        subprincipalis principalium, beta non integrum et gamma supinum: [signa]. Lichanos hypaton
+        diatonos, quae est principalium diatonos extenta, phi graecum et digamon: [signa]. Hypate
+        meson, quae est mediarum principalis, sigma et sigma: [signa]. Paripathe meson, quae est
+        subprincipalis mediarum, rho et sigma supinum: [signa]. Lycanos meson diatonos, quae est
+        mediarum extenta, my graecum et py graecum deductum: [signa]. Mese, quae est media, iota et
+        lambda iacens: [signa]. Paramese, quae est submedia, zeta et py graecum iacens: [signa].
+        Trite diezeugmenon, quae est tertia divisarum, E quadratum et py graecum supinum: [signa].
         Paranete diezeugmenon diatonos, coniunctarum extenta, gamma et eta: [signa]. Nete
         diezeugmenon, quae est ultima divisarum, phy iacens et en inversum deductum: [signa]. Trite
         hiperboleon, quae est tertia excellentium, y deorsum respiciens dexterum et semialpha
@@ -191,8 +204,8 @@
       <p xml:id="WILBRE0023">
         <pb n="[22]"/>Et sic patent nomina secundum Boycium notarum tam per figuram praedictam quam
         etiam per cytheram.</p>
-      <p xml:id="WILBRE0024">Tertio: notae habent nomina secundum diversam figurationem in plano cantu,
-        ut notat Walterus Odington, libro 5, capitulo 2 musicae sic:</p>
+      <p xml:id="WILBRE0024">Tertio: notae habent nomina secundum diversam figurationem in plano
+        cantu, ut notat Walterus Odington, libro 5, capitulo 2 musicae sic:</p>
       <p xml:id="WILBRE0025">[CSM12:22; text: Punctus, Bipunctus, Tripunctus, Apostropha, Distropha,
         Tristropha, Virga, Bivirgis, Trivirgis, Virga bicompunctis, Virga tricompunctis,
         Condiatessaris, Condiapentis, Virga praebipunctis et subtripunctis, Virga praetripunctis et
@@ -204,9 +217,9 @@
       <p xml:id="WILBRE0026">
         <pb n="[23]"/>Et si quae aliae sunt, ex hiis componuntur; quarundam istarum figurarum nomina
         et causae patent. Quae autem aliquid ambiguitatis expono.</p>
-      <p xml:id="WILBRE0027">Apostropha est species accentus quae tollit ultimam vocalem dictionis cum
-        sequens inchoat a vocali. Condiatessaris quatuor est punctorum ex utraque parte virgae, quia
-        diatessaron quatuor repraesentat. Condiapentis quinque est punctorum ex utraque parte
+      <p xml:id="WILBRE0027">Apostropha est species accentus quae tollit ultimam vocalem dictionis
+        cum sequens inchoat a vocali. Condiatessaris quatuor est punctorum ex utraque parte virgae,
+        quia diatessaron quatuor repraesentat. Condiapentis quinque est punctorum ex utraque parte
         virgae, nam diapente 5 importat. Semivocalis medietatem sui temporis transfert ad aliam
         vocem quae dicitur semivocalis descendens. Semitonus dicitur ascendendo. Gutturalis dicitur
         quia cillenti gutture formatur. Sinuosa dicta quia recurvatur ad similitudinem baculi
@@ -219,17 +232,17 @@
       <p xml:id="WILBRE0028">Quarto: notae habent nomina secundum quantitatem suam et valorem, ut in
         partibus subsequentibus evidenter patebit. Secunda pars huius capituli ponit distinctiones
         et divisiones notarum.</p>
-      <p xml:id="WILBRE0029">Prima distinctio. Omnis nota vel est simpla vel est fecunda. Simpla nota
-        quae minimo tempore mensuratur sine soni ulterioris divisione. Fecunda nota quae certo
+      <p xml:id="WILBRE0029">Prima distinctio. Omnis nota vel est simpla vel est fecunda. Simpla
+        nota quae minimo tempore mensuratur sine soni ulterioris divisione. Fecunda nota quae certo
         tempore mensuratur et in eodem tempore certis divisionibus est partibilis. Unde hic notandum
         secundum Aristotilem quod minimum in quolibet genere est mensura omnium eiusdem generis: sic
         minimus sonus in musica est mensura omnium aliorum sonorum seu vocum. Vel signum seu nota
         illius soni vocatur simpla.</p>
-      <p xml:id="WILBRE0030">Secunda distinctio. Omnis nota vel est separata vel ligata. Nota separata
-        est quod nulli notae sequenti vel praecedenti per aliquam ligaturam continuatur. Nota ligata
-        est quae notae praecendenti vel subsequenti aliquo ligamine continuatur.</p>
-      <p xml:id="WILBRE0031">Tertia distinctio. Notarum alia est tarda, alia velox. Tarda nota vocatur
-        longa et omnes eo maiores. Velox nota vocatur brevis et omnes eo minores. Et istam
+      <p xml:id="WILBRE0030">Secunda distinctio. Omnis nota vel est separata vel ligata. Nota
+        separata est quod nulli notae sequenti vel praecedenti per aliquam ligaturam continuatur.
+        Nota ligata est quae notae praecendenti vel subsequenti aliquo ligamine continuatur.</p>
+      <p xml:id="WILBRE0031">Tertia distinctio. Notarum alia est tarda, alia velox. Tarda nota
+        vocatur longa et omnes eo maiores. Velox nota vocatur brevis et omnes eo minores. Et istam
         distinctionem innuit Odington sexto musicae suae, capitulo primo, dicens: Inaequalitas
         accidit dum una nota morosius, altera velocius profertur. Morosa longa vocatur, velox vero
         vocatur brevis. Haec ille.</p>
@@ -239,68 +252,68 @@
         figura repraesentationis vocis in alico modorum cum plica. Ista distinctio et partium
         descriptiones fundantur per Franconem in musica sua, capitulo secundo, ubi describit plicam
         sic: Plica est nota divisionis eiusdem soni in grave et acutum.</p>
-      <p xml:id="WILBRE0033">Quinta distinctio. Omnis nota praeter largissimam vel est recta vel altera,
-        vel secundum alios vel est minor vel est maior. Nota recta est quae aequaliter tertiam
-        partem sibi notae superioris proximae perfectae repraesentat. Nota altera est quae duas
-        tertias sibi notae superioris proximae perfectae partes continet.</p>
-      <p xml:id="WILBRE0034">Sexta distinctio. Omnis nota fecunda vel est perfecta vel imperfecta. Et
-        istam distinctionem pono et eius declarationem secundum ordinem modernorum. Nota perfecta
+      <p xml:id="WILBRE0033">Quinta distinctio. Omnis nota praeter largissimam vel est recta vel
+        altera, vel secundum alios vel est minor vel est maior. Nota recta est quae aequaliter
+        tertiam partem sibi notae superioris proximae perfectae repraesentat. Nota altera est quae
+        duas tertias sibi notae superioris proximae perfectae partes continet.</p>
+      <p xml:id="WILBRE0034">Sexta distinctio. Omnis nota fecunda vel est perfecta vel imperfecta.
+        Et istam distinctionem pono et eius declarationem secundum ordinem modernorum. Nota perfecta
         est quae ter continet in se sibi minorem proximam et perfectam. Nota imperfecta est quae bis
         continet in se minorem sibi proximam perfectam.</p>
-      <p xml:id="WILBRE0035">Et pro evidentia huius divisionis notanda est series notarum perfectarum
-        secundum opinionem meam, licet ab aliis aliqualiter dissentio, unde a maiori incipiendo.
-        Prima dicitur largissima, secunda larga, tertia longa, quarta brevis, quinta semibrevis,
-        sexta minuta, septima minima sive simpla sive crocheta, secundum diversitatem loquentium.
-        Aliter posuit et recitat Odington capitulo prius allegato, dicens: longa autem apud priores
-        organistas duo tantum habuit tempora sicut in metris, sed postea ad perfectionem ducitur, ut
-        sit trium temporum ad similitudinem beatissimae trinitatis quae est summa perfectio.
-        Diciturque longa huiusmodi perfecta. Est et alia quae duplex longa dicitur, illa scilicet
-        quae duas valet longas perfectas. Quae ideo una figura duas exprimit, ne tenor plani cantus
-        disrumpatur. De divisione brevis, semibrevis, etiam varie senserunt et inordinate. Unde
-        dicit: Invenitur brevis divisa in 6 partes vel 7, quas adhuc semibreves vocant minus iuste.
-        Sed quia continuum est divisibile in infinitum, et tempus continuorum est, voces quidem sunt
-        mensuratae temporibus, quare divisibiles erunt in infinitum. Sicut ergo longa in breves et
-        brevis in semibreves dividitur, ita semibrevem primo divido in 3 partes quas minutas voco,
-        figuram retinens semibrevis, ne ab aliis musicis videar discrepare. Haec ille. Unde ultra
-        minutam non posuit, quam communitas cantorum indiscrete minimam vocant, quia voces sunt
-        divisibiles in infinitum sicut tempora quibus mensuram datur. <pb n="[25]"/>Unde ut
-        conformem me modernis, pono crochetum seu simplam vel minimam. Non quia ea minor non possit
-        esse, sed quia data mensura debita longarum, brevium, non bene humana voce minor
-        pronuntiatur perceptibilis. Et ex hoc patet solummodo obiectio modernorum. Quia arguunt
-        contra crochetum per hoc quod minima nulla est minor. Respondeo quod Odington non vocavit
-        illam notam minimam sed minutam, quia posuit quod minor possit esse. Vel aliter respondetur
-        quia tunc dicebatur minima illo tempore divisa, sed nunc voco crochetum minimam, licet iam
-        artificio et usu cantores moderni ad minorem divisionem vocis pervenerunt, scilicet ad
-        crochetam. Magister Franco, secundo capitulo musicae suae, non ponit aliam notam minorem
-        semibrevi. Et similiter auctor musicae incipientis: Quoniam de mensurabili musica, capitulo
-        sexto. Set Iohannes Torkesey et moderni concordant mecum de crocheta, ut manifestabitur in
-        figura eius.</p>
-      <p xml:id="WILBRE0036">Secundo patet quod Odyngton et Franco et auctor praedictus non posuerunt
-        maiorem figuram dupplici longa, et illam posuerunt 6 temporum, quae secundum figurationem
-        meam aequipollet largae imperfectae. Nec Johannes Torkesey ultra largam perfectam in suo
-        triangulo posuit. Set ego in honore trinitatis pono 3 species longarum, scilicet
-        largissimam, largam, longam, et 3 species brevium, scilicet brevem, semibrevem, minutam, et
-        ultra hoc unam substantiam indivisibilem quae est mensura et substantia omni superiora,
-        scilicet simplam quae minimam seu crochetum dicitur.</p>
-      <p xml:id="WILBRE0037">Septima distinctio. Notarum alia solitaria, alia sociata. Nota solitaria
-        est quam nec nota nec signum aliquod praecedit seu subsequitur. Nota sociata est quam nota
-        vel aliquod signum praecedit seu sequitur. Et nota quod dico signum praecedere notam vel
-        subsequi propter parvum tractum vel propter signum pausae quae perficiunt seu alterant
-        aliquando, ut in proximo capitulo ostendetur. Ex hiis patent conclusiones. Prima conclusio.
-        Distinctiones prima, secunda, tertia, quarta, septima sunt evidentes, quinta vero et sexta
-        ex suppositione et usu procedunt. Secunda conclusio. Quinta et sexta distinctiones solummodo
-        in notis locum optinent sociatis. Tertia conclusio. Praeter divisiones praedictas notarum
-        aliae possent dari tam de perfectione quam inperfectione, alteratione ceterisque huius, si
-        placeat cantoribus. Quarta conclusio. Omnis nota seu signum perficiens ex perficiendo
-        tertiam partem diminuit quam in se supplet. Et omnis nota alterata <pb n="[26]"/>dupla est
-        sui ipsius. Quinta conclusio. Omnis perfectio seu alteratio praecise in notis perfectis
-        inveniuntur. Sexta conclusio. Significatio figurarum solitariarum est quasi alphabetum
-        figurarum sociatarum. Septima conclusio. Omnis figura ligata est sociata. Octava conclusio.
-        Omnis figura sociata vel est sociata secundum seriem discontinuam vel coniunctam. Ista
-        conclusio patet ex se, et ex ista distinctione patebunt modi ordinationis in proximo
+      <p xml:id="WILBRE0035">Et pro evidentia huius divisionis notanda est series notarum
+        perfectarum secundum opinionem meam, licet ab aliis aliqualiter dissentio, unde a maiori
+        incipiendo. Prima dicitur largissima, secunda larga, tertia longa, quarta brevis, quinta
+        semibrevis, sexta minuta, septima minima sive simpla sive crocheta, secundum diversitatem
+        loquentium. Aliter posuit et recitat Odington capitulo prius allegato, dicens: longa autem
+        apud priores organistas duo tantum habuit tempora sicut in metris, sed postea ad
+        perfectionem ducitur, ut sit trium temporum ad similitudinem beatissimae trinitatis quae est
+        summa perfectio. Diciturque longa huiusmodi perfecta. Est et alia quae duplex longa dicitur,
+        illa scilicet quae duas valet longas perfectas. Quae ideo una figura duas exprimit, ne tenor
+        plani cantus disrumpatur. De divisione brevis, semibrevis, etiam varie senserunt et
+        inordinate. Unde dicit: Invenitur brevis divisa in 6 partes vel 7, quas adhuc semibreves
+        vocant minus iuste. Sed quia continuum est divisibile in infinitum, et tempus continuorum
+        est, voces quidem sunt mensuratae temporibus, quare divisibiles erunt in infinitum. Sicut
+        ergo longa in breves et brevis in semibreves dividitur, ita semibrevem primo divido in 3
+        partes quas minutas voco, figuram retinens semibrevis, ne ab aliis musicis videar
+        discrepare. Haec ille. Unde ultra minutam non posuit, quam communitas cantorum indiscrete
+        minimam vocant, quia voces sunt divisibiles in infinitum sicut tempora quibus mensuram
+        datur. <pb n="[25]"/>Unde ut conformem me modernis, pono crochetum seu simplam vel minimam.
+        Non quia ea minor non possit esse, sed quia data mensura debita longarum, brevium, non bene
+        humana voce minor pronuntiatur perceptibilis. Et ex hoc patet solummodo obiectio modernorum.
+        Quia arguunt contra crochetum per hoc quod minima nulla est minor. Respondeo quod Odington
+        non vocavit illam notam minimam sed minutam, quia posuit quod minor possit esse. Vel aliter
+        respondetur quia tunc dicebatur minima illo tempore divisa, sed nunc voco crochetum minimam,
+        licet iam artificio et usu cantores moderni ad minorem divisionem vocis pervenerunt,
+        scilicet ad crochetam. Magister Franco, secundo capitulo musicae suae, non ponit aliam notam
+        minorem semibrevi. Et similiter auctor musicae incipientis: Quoniam de mensurabili musica,
+        capitulo sexto. Set Iohannes Torkesey et moderni concordant mecum de crocheta, ut
+        manifestabitur in figura eius.</p>
+      <p xml:id="WILBRE0036">Secundo patet quod Odyngton et Franco et auctor praedictus non
+        posuerunt maiorem figuram dupplici longa, et illam posuerunt 6 temporum, quae secundum
+        figurationem meam aequipollet largae imperfectae. Nec Johannes Torkesey ultra largam
+        perfectam in suo triangulo posuit. Set ego in honore trinitatis pono 3 species longarum,
+        scilicet largissimam, largam, longam, et 3 species brevium, scilicet brevem, semibrevem,
+        minutam, et ultra hoc unam substantiam indivisibilem quae est mensura et substantia omni
+        superiora, scilicet simplam quae minimam seu crochetum dicitur.</p>
+      <p xml:id="WILBRE0037">Septima distinctio. Notarum alia solitaria, alia sociata. Nota
+        solitaria est quam nec nota nec signum aliquod praecedit seu subsequitur. Nota sociata est
+        quam nota vel aliquod signum praecedit seu sequitur. Et nota quod dico signum praecedere
+        notam vel subsequi propter parvum tractum vel propter signum pausae quae perficiunt seu
+        alterant aliquando, ut in proximo capitulo ostendetur. Ex hiis patent conclusiones. Prima
+        conclusio. Distinctiones prima, secunda, tertia, quarta, septima sunt evidentes, quinta vero
+        et sexta ex suppositione et usu procedunt. Secunda conclusio. Quinta et sexta distinctiones
+        solummodo in notis locum optinent sociatis. Tertia conclusio. Praeter divisiones praedictas
+        notarum aliae possent dari tam de perfectione quam inperfectione, alteratione ceterisque
+        huius, si placeat cantoribus. Quarta conclusio. Omnis nota seu signum perficiens ex
+        perficiendo tertiam partem diminuit quam in se supplet. Et omnis nota alterata <pb n="[26]"
+        />dupla est sui ipsius. Quinta conclusio. Omnis perfectio seu alteratio praecise in notis
+        perfectis inveniuntur. Sexta conclusio. Significatio figurarum solitariarum est quasi
+        alphabetum figurarum sociatarum. Septima conclusio. Omnis figura ligata est sociata. Octava
+        conclusio. Omnis figura sociata vel est sociata secundum seriem discontinuam vel coniunctam.
+        Ista conclusio patet ex se, et ex ista distinctione patebunt modi ordinationis in proximo
         capitulo.</p>
-      <p xml:id="WILBRE0038">Tertia pars huius capituli ponit figurationes figurarum solitariarum. Et
-        primo planarum, secundo ligatarum. Prima regula: largissima perfecta est figura
+      <p xml:id="WILBRE0038">Tertia pars huius capituli ponit figurationes figurarum solitariarum.
+        Et primo planarum, secundo ligatarum. Prima regula: largissima perfecta est figura
         quadrangularis cuius latitudo transit longitudinem, et habet tractum a parte dextra de
         superius et inferius, et valet 3 perfectas longas ut hic: [MXcsdxcddx]. Secunda regula:
         larga perfecta est figura quadrangularis cuius latitudo transit longitudinem, tractum gerit
@@ -316,15 +329,16 @@
         unam rectam et aliam alteratam ut hic: [M,pt,SM,SM,SM,pt,SM,SM]. Septima regula: minima seu
         crocheta est figura similis minutae et indivisibilis nota cum replicatione tractus
         superioris ut hic: [SM].</p>
-      <p xml:id="WILBRE0039">Secundo de notis solitariis plicatis est dicendum. Unde notandum est quid
-        sit plica secundum magistrum Franconem, capitulo secundo musicae suae: plica est nota
+      <p xml:id="WILBRE0039">Secundo de notis solitariis plicatis est dicendum. Unde notandum est
+        quid sit plica secundum magistrum Franconem, capitulo secundo musicae suae: plica est nota
         divisionis eiusdem soni in grave et acutum. Et secundum Walterum Odyngton, libro sexto,
         capitulo secundo: plica est inflexio vocis a voce sub una figura. Ex hiis diffinitionibus
         pono eis quartam conclusionem. Conclusio. Omnis nota praeter simplam est plicabilis.
         Probatur: omnis nota quae potest habere inflexionem vocis a voce sub una figura est
         plicabilis, secundum descriptionem Odington, vel respectu cuius potest esse divisio eiusdem
         soni in grave et acutum, secundum Franconem; sed omnis nota praeter simplam est huiusmodi,
-        cum omnis alia sit fecunda, ut patet de se: ergo conclusio vera. Erraverunt ergo <pb n="[27]"/>Odyngton in secundo capitulo, dicens quod solum longae et breves sunt
+        cum omnis alia sit fecunda, ut patet de se: ergo conclusio vera. Erraverunt ergo <pb
+          n="[27]"/>Odyngton in secundo capitulo, dicens quod solum longae et breves sunt
         plicabiles; et Franco dicens quod non in simplicibus figuris possit plica semibrevis
         inveniri, sed in ligaturis; et Petrus Pisiensis dicens quod semibrevis plicari non potest,
         nisi quando 3 super unam sillabam ordinantur. Sed mecum concordat auctor Quoniam de
@@ -345,12 +359,12 @@
         genere longarum habet plicam longiorem ex parte dextra ascendentem vel descendentem. Brevis
         vero ex parte sinistra, semibrevis autem et minuta ex parte dextra unicum tractum
         ascendentem vel descendentem optinebunt. Exempla vero singularum subsequuntur.</p>
-      <p xml:id="WILBRE0041">[CSM12:27; text: Largissima plicata ascendens: [MXpssncddxcsdx] Largissima
-        plicata descendens: [MXpdsncddxcsdx] Larga plicata ascendens: [MXpssncsdx] Larga plicata
-        descendens: [MXpdsncddx] Longa plicata ascendens: [Bpssncsdx] Longa plicata descendens:
-        [Lpdsn] Brevis plicata ascendens: [Bcssnpsdx] Brevis plicata descendens: [Bcdsnpddx]
-        Semibrevis plicata ascendens: [Scsodx] Semibrevis plicata descendens: [Scdosn] Minuta
-        plicata ascendens: [Mcsodx] Minuta plicata descendens: [F]] <figure>
+      <p xml:id="WILBRE0041">[CSM12:27; text: Largissima plicata ascendens: [MXpssncddxcsdx]
+        Largissima plicata descendens: [MXpdsncddxcsdx] Larga plicata ascendens: [MXpssncsdx] Larga
+        plicata descendens: [MXpdsncddx] Longa plicata ascendens: [Bpssncsdx] Longa plicata
+        descendens: [Lpdsn] Brevis plicata ascendens: [Bcssnpsdx] Brevis plicata descendens:
+        [Bcdsnpddx] Semibrevis plicata ascendens: [Scsodx] Semibrevis plicata descendens: [Scdosn]
+        Minuta plicata ascendens: [Mcsodx] Minuta plicata descendens: [F]] <figure>
           <graphic url="/images/WILBRE_05GF.gif"/>
         </figure></p>
       <p xml:id="WILBRE0042">
@@ -365,35 +379,35 @@
         sesquitertiae, sesquialterae, Omnino inperfecta, semel perfecta, bis perfecta, ter perfecta,
         quater perfecta, quinquies perfecta, Omnino perfecta, 1, 2, 3, 4, 6, 9, 8, 12, 18, 27, 16,
         24, 36, 54, 81, 32, 48, 72, 108, 162, 243, 64, 729]</p>
-      <p xml:id="WILBRE0045">Tertio sequitur regulae pro intellectu superioris trianguli. Prima regula.
-        Omnis nota praeter simplam carens puncto omnino imperfecta est. Secunda regula. Omnis nota
-        quae supra se punctum habet semel <pb n="[29]"/>perfecta est, quia ipsa perfecta est ex
-        proxima nota oblique ascendente, id est tres tales valet, et tamen eius illa pars non est
-        perfecta, aut quia minima perfecta, quae est prima species perfecta, cadit in compositione
-        eius. Tertia regula. Omnis nota quae sub se punctum habet bis perfecta dicitur, quia et ipse
-        et proxima oblique ascendens perfectae sunt sicud prius, aut quia tam semibrevis quam minima
-        perfecte cadunt in compositione eius. Quarta regula. Omnis nota quae supra se punctum habet
-        et sub se similiter, ter perfecta dicitur, quia et ipsa cum duabus speciebus ex quibus ipsa
-        componitur perfectae sunt, aut quia tam brevis, semibrevis et minuta perfectae omnino cadunt
-        in compositionem eius. Quinta regula. Omnis nota quae sub se simul duo puncta habet, quater
-        perfecta dicitur, quia et ipsa perfecta est et tres proximae species oblique ascendentes ex
-        quibus ipsa componitur, aut etiam quia longa, brevis, semibrevis et minuta omnino perfectae
-        cadunt in compositionem eius. Sexta regula. Omnis nota quae supra se simul duo puncta habet,
-        quinquies perfecta dicitur, quia et ipsa perfecta est et quatuor proximae species oblique
-        ascendentes ex quibus ipsa componitur, aut quia larga, longa, brevis, semibrevis et minuta
-        omnes perfectae cadunt in eius compositionem, Septima regula. Omnis nota quae post se
-        punctum habet omnino perfecta dicitur, quia et ipsa perfecta est et omnes partes ipsam
-        oblique ab ea ascendentes omnino perfectae sunt, excepta sola simpla quae est inpartibilis.
-        Octava regula. A qualibet nota ad proximam superiorem recte ascendendo duplares, ad
-        sinistram vero oblique triplares facimus notas. Nona regula. Ab aliqua nota a dextris
-        directe progrediendo sexquealteras, oblique vero ascendendo versus dexteram sexquetertias
-        proportiones efficimus. Decima regula. Conversim vero proportionaliter procedendo
-        subduplares, subtriplares, subsexquealteras, proportiones efficimus. Corollarium. In latere
-        dextro trianguli sunt 6 notae omnino perfectae, in latere sinistro omnino in perfectae
-        totidem. Inter duo vero latera et in basi 15, quae respectu diversarum notarum quandoque
-        perfectae, quandoque inperfectae dinoscuntur. Istae regulae pro nunc sufficiunt, quia in
-        sequentibus ad evidentiam istius figurae manifestabitur distinctiones modorum in
-        prolationibus et mensurationibus ac multa alia.</p>
+      <p xml:id="WILBRE0045">Tertio sequitur regulae pro intellectu superioris trianguli. Prima
+        regula. Omnis nota praeter simplam carens puncto omnino imperfecta est. Secunda regula.
+        Omnis nota quae supra se punctum habet semel <pb n="[29]"/>perfecta est, quia ipsa perfecta
+        est ex proxima nota oblique ascendente, id est tres tales valet, et tamen eius illa pars non
+        est perfecta, aut quia minima perfecta, quae est prima species perfecta, cadit in
+        compositione eius. Tertia regula. Omnis nota quae sub se punctum habet bis perfecta dicitur,
+        quia et ipse et proxima oblique ascendens perfectae sunt sicud prius, aut quia tam
+        semibrevis quam minima perfecte cadunt in compositione eius. Quarta regula. Omnis nota quae
+        supra se punctum habet et sub se similiter, ter perfecta dicitur, quia et ipsa cum duabus
+        speciebus ex quibus ipsa componitur perfectae sunt, aut quia tam brevis, semibrevis et
+        minuta perfectae omnino cadunt in compositionem eius. Quinta regula. Omnis nota quae sub se
+        simul duo puncta habet, quater perfecta dicitur, quia et ipsa perfecta est et tres proximae
+        species oblique ascendentes ex quibus ipsa componitur, aut etiam quia longa, brevis,
+        semibrevis et minuta omnino perfectae cadunt in compositionem eius. Sexta regula. Omnis nota
+        quae supra se simul duo puncta habet, quinquies perfecta dicitur, quia et ipsa perfecta est
+        et quatuor proximae species oblique ascendentes ex quibus ipsa componitur, aut quia larga,
+        longa, brevis, semibrevis et minuta omnes perfectae cadunt in eius compositionem, Septima
+        regula. Omnis nota quae post se punctum habet omnino perfecta dicitur, quia et ipsa perfecta
+        est et omnes partes ipsam oblique ab ea ascendentes omnino perfectae sunt, excepta sola
+        simpla quae est inpartibilis. Octava regula. A qualibet nota ad proximam superiorem recte
+        ascendendo duplares, ad sinistram vero oblique triplares facimus notas. Nona regula. Ab
+        aliqua nota a dextris directe progrediendo sexquealteras, oblique vero ascendendo versus
+        dexteram sexquetertias proportiones efficimus. Decima regula. Conversim vero
+        proportionaliter procedendo subduplares, subtriplares, subsexquealteras, proportiones
+        efficimus. Corollarium. In latere dextro trianguli sunt 6 notae omnino perfectae, in latere
+        sinistro omnino in perfectae totidem. Inter duo vero latera et in basi 15, quae respectu
+        diversarum notarum quandoque perfectae, quandoque inperfectae dinoscuntur. Istae regulae pro
+        nunc sufficiunt, quia in sequentibus ad evidentiam istius figurae manifestabitur
+        distinctiones modorum in prolationibus et mensurationibus ac multa alia.</p>
       <p xml:id="WILBRE0046">Secundum theoreuma. Cuilibet notae separatae pausam aequivalentem
         assignare. Pro cuius evidentia est primo notandum quod pausa est signum vocis
         proportionaliter omissae in serie modulationis. Secundo ponenda est figura triangularis
@@ -401,28 +415,29 @@
         set largae cum additione <pb n="[30]"/>unius crucis in suppremo spatio, largissimae vero
         duarum, ne nimis de lineis super libros figurentur et quia valde raro occurrunt in
         designatione modulationis. Figura triangularis pausarum:</p>
-      <p xml:id="WILBRE0047">[CSM12:30; text: 1, 2, 3, 4, 6, 9, 8, 12, 18, 27, 16, 24, 36, 54, 81, 32,
-        48, 72, 108, 162, 243, 64, 729] <figure>
+      <p xml:id="WILBRE0047">[CSM12:30; text: 1, 2, 3, 4, 6, 9, 8, 12, 18, 27, 16, 24, 36, 54, 81,
+        32, 48, 72, 108, 162, 243, 64, 729] <figure>
           <graphic url="/images/WILBRE_06GF.gif"/>
         </figure></p>
-      <p xml:id="WILBRE0048">Tertio regulae sequuntur singulae. Prima regula. Pausae punctuatae seu non
-        punctuatae singulis notis in figura trianguli supra positi proportionaliter correspondent.
-        Secunda regula. Pausae minimae curvus in fine supra lineam, minutae vero ab inferiori linea
-        usque medium spatium, semibrevis autem a superiori usque medium spatii tractus collocantur.
-        Tertia regula. Pausa brevis spatium, longae vero tria spatia perfectae comprehendunt. Quarta
-        regula. Pausa largae in suppremo spatio unica cruce, largissimae pausa duplici cruce, tria
-        spatia ad modum longae perfectae occupant. Quinta regula. Pausa quae finis punctorum dicitur
-        inmensurabilis appellatur. Penultimam vero notam cuiuslibet modi cui apponitur <pb n="[31]"/>fore longam designat. Istae regulae variantur in multis a regulis Franconis, capitulo
-        quarto musicae suae et a regulis Walteri Odington, libro sexto, capitulo quinto, propter
-        figuras additas, quia citra semibrevem nec ultra longam alteri figurae pausam
-        assignaverunt.</p>
+      <p xml:id="WILBRE0048">Tertio regulae sequuntur singulae. Prima regula. Pausae punctuatae seu
+        non punctuatae singulis notis in figura trianguli supra positi proportionaliter
+        correspondent. Secunda regula. Pausae minimae curvus in fine supra lineam, minutae vero ab
+        inferiori linea usque medium spatium, semibrevis autem a superiori usque medium spatii
+        tractus collocantur. Tertia regula. Pausa brevis spatium, longae vero tria spatia perfectae
+        comprehendunt. Quarta regula. Pausa largae in suppremo spatio unica cruce, largissimae pausa
+        duplici cruce, tria spatia ad modum longae perfectae occupant. Quinta regula. Pausa quae
+        finis punctorum dicitur inmensurabilis appellatur. Penultimam vero notam cuiuslibet modi cui
+        apponitur <pb n="[31]"/>fore longam designat. Istae regulae variantur in multis a regulis
+        Franconis, capitulo quarto musicae suae et a regulis Walteri Odington, libro sexto, capitulo
+        quinto, propter figuras additas, quia citra semibrevem nec ultra longam alteri figurae
+        pausam assignaverunt.</p>
       <p xml:id="WILBRE0049">Quomodo vero pausae transmittunt modos seu imperficiunt notas, in
         sequentibus assignabo. Istae regulae pro valore notarum et pausarum sufficiant. De valore
         vero ligaturarum, quia quodammodo habent regulas perfectionis et imperfectionis, in proximo
         capitulo dicetur.</p>
-      <p xml:id="WILBRE0050">Regula subsequentis figurationis. Figurationem tamen propinquiorem comitati
-        cantorum assignabo necessariis tractibus in aliquibus plurificatis, ut cuilibet brevi
-        tractus unius spatii corespondeat, punctis appositis perfectionem signantibus.</p>
+      <p xml:id="WILBRE0050">Regula subsequentis figurationis. Figurationem tamen propinquiorem
+        comitati cantorum assignabo necessariis tractibus in aliquibus plurificatis, ut cuilibet
+        brevi tractus unius spatii corespondeat, punctis appositis perfectionem signantibus.</p>
       <p xml:id="WILBRE0051">[CSM12:31; text: Minima simpla, Minuta inperfecta, Minuta perfecta,
         Semibrevis inperfecta, Semibrevis perfecta, Brevis inperfecta, Brevis perfecta, Longa
         inperfecta, Longa perfecta, Larga inperfecta]</p>

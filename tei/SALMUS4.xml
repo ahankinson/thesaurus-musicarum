@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De musica, liber quartus</title>
         <title type="abbrev">SALMUS4</title>
-        <author>Salinas, Franciscus</author>
-        <date notBefore="1500" notAfter="1599">16th</date>
+        <author><persName>Salinas, Franciscus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>André Barbera</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1996</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1996">1996</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Francisci Salinae Burgensis Abbatis Sancti Pancratii de Rocca Scalegna in regno
@@ -34,8 +44,9 @@
     <body>
       <p xml:id="SALMUS40001">
         <pb n="[176]"/>DE MVSICA LIBER QVARTVS.</p>
-      <p xml:id="SALMUS40002">QVID SIT SPECIES IN MVSICA, ET quomodo differat a genere, et de speciebus
-        consonantiarum iuxta Euclidis, et Ptolemaei, ac Boetij positiones. CAPVT PRIMVM.</p>
+      <p xml:id="SALMUS40002">QVID SIT SPECIES IN MVSICA, ET quomodo differat a genere, et de
+        speciebus consonantiarum iuxta Euclidis, et Ptolemaei, ac Boetij positiones. CAPVT
+        PRIMVM.</p>
       <p xml:id="SALMUS40003">POstquam tribus superioribus libris absoluimus omnia, quae ad
         compositionem instrumentalis harmoniae considerari oportere visa sunt, tam de numeris, et de
         eorum proportionibus, quam de sonis, et eorum permixtionibus illis respondentibus, non solum
@@ -70,7 +81,8 @@
         Semitonium est in grauissimo interuallo, secunda cum in medio, tertia cum in acutissimo.
         Exemplum primae aa g f e, secundae g f e d, tertiae f e d c, in quibus aduertendum est, e f,
         semper esse Semitonium, et reliqua interualla tonos. In Diapente autem, quoniam quinque
-        soni, et quatuor sunt interualla, quatuor constituit species, ex diuersa positione <pb n="[177]"/>toni a [sqb], qui disiungit Tetrachordum mediarum, a Tetrachordo disiunctarum,
+        soni, et quatuor sunt interualla, quatuor constituit species, ex diuersa positione <pb
+          n="[177]"/>toni a [sqb], qui disiungit Tetrachordum mediarum, a Tetrachordo disiunctarum,
         et in pleno systemate Disdiapason, duo Tetrachorda principalium, et mediarum inferioris
         Diapason, a duobus Tetrachordis disiunctarum, et excellentium superioris: ita vt in prima
         sit in grauissimo, et in secunda in secundo post grauissimum, in tertia in tertio, et in
@@ -118,8 +130,8 @@
       <p xml:id="SALMUS40006">
         <pb n="[178]"/>De vero modo sumendi species interuallorum, et consonantiarum iuxta id, quod
         harmonica ratio deposcit. CAPVT II.</p>
-      <p xml:id="SALMUS40007">HActenus ea, quae ad praesentem institutionem necessaria videbantur circa
-        modum sumendi species consonantiarum ex antiquorum positionibus, qua maiore potuimus
+      <p xml:id="SALMUS40007">HActenus ea, quae ad praesentem institutionem necessaria videbantur
+        circa modum sumendi species consonantiarum ex antiquorum positionibus, qua maiore potuimus
         breuitate, perstrinximus, ne lector earum ignarus ad ea, quae dicenda sunt, ineptus
         accederet: nunc autem res ipsa verius, atque ex ipsa rationis harmonicae natura deprompta a
         nobis considerabitur. Et primum dicimus, omnes consonantias, atque interualla si nullis
@@ -194,15 +206,15 @@
         <pb n="[180]"/>Quod ex sex modis, quibus diuiditur Diatessaron, tres solum varient speciem,
         et quod is modus primam eius speciem constituat, qui minimis in numeris inuenitur. CAPVT
         III.</p>
-      <p xml:id="SALMUS40010">PRaeter ea quae dicta sunt, sciendum est etiam, quod ex sex modis, quibus
-        Diatessaron diuidi posse superiori libro demonstratum est, tres solum variant speciem: hi
-        videlicet, in quibus varie positum Semitonium maius reperitur. Illi vero in quibus Tonus
-        maior, aut minor varie disponuntur, non mutant speciem, quoniam, vt saepe dictum est, Comma
-        non mutat genus, nec speciem propter ipsius interualli paruitatem. Quam ob rem eiusdem
-        speciei censebuntur esse Diatessaron [Gamma] C, et Diatessaron C F, quoniam in vtraque
-        Semitonium maius in acutissimo interuallo positum reperitur: quamuis in perfecto instrumento
-        Tonus maior, et minor varie collocati reperiantur. In priori enim Tonus minor est in
-        grauissimo, et maior in medio: in posteriori vero contra: quod in his, quibus vtimur
+      <p xml:id="SALMUS40010">PRaeter ea quae dicta sunt, sciendum est etiam, quod ex sex modis,
+        quibus Diatessaron diuidi posse superiori libro demonstratum est, tres solum variant
+        speciem: hi videlicet, in quibus varie positum Semitonium maius reperitur. Illi vero in
+        quibus Tonus maior, aut minor varie disponuntur, non mutant speciem, quoniam, vt saepe
+        dictum est, Comma non mutat genus, nec speciem propter ipsius interualli paruitatem. Quam ob
+        rem eiusdem speciei censebuntur esse Diatessaron [Gamma] C, et Diatessaron C F, quoniam in
+        vtraque Semitonium maius in acutissimo interuallo positum reperitur: quamuis in perfecto
+        instrumento Tonus maior, et minor varie collocati reperiantur. In priori enim Tonus minor
+        est in grauissimo, et maior in medio: in posteriori vero contra: quod in his, quibus vtimur
         instrumentis propter tonorum aequalitatem euenire non potest. Et eiusdem etiam speciei erunt
         A D et D G atque [sqb] E et E a. Videtur autem prima in ordine ponenda esse, quae est a
         [Gamma] ad C. Primo, quia modus iuxta quem in perfecto instrumento constituta reperitur, in
@@ -237,7 +249,8 @@
         species sumere initium a G, quae sequitur immediate post F, a qua incipit quarta species, et
         vltima Diapente, quemadmodum prima species Diapente sumpsit initium a C, quae sequitur
         immediate post [sqb], quae est principium tertiae, et vltimae Diatessaron, vt etiam in
-        speciebus harmoniae ratio analogiam quandam, et meram conuenientiam seruare voluisse <pb n="[181]"/>videatur. Et tandem potissima ratio sumendi initium septem specierum Diapason a
+        speciebus harmoniae ratio analogiam quandam, et meram conuenientiam seruare voluisse <pb
+          n="[181]"/>videatur. Et tandem potissima ratio sumendi initium septem specierum Diapason a
         [Gamma] mihi videtur esse, vt toni, quos Boetius ex septem Diapason speciebus constare
         asserit, eo disponantur ordine, quo ab ipso Boetio, et Ptolemaeo, et ab omnibus denique
         Graecis, et Latinis antiquis dispositi reperiuntur. Ita vt Hypodorius incipiat a [Gamma]
@@ -320,18 +333,18 @@
         </figure></p>
       <p xml:id="SALMUS40015">Primus modus procedit a graui in acutum per Tonum maiorem, et Tonum
         minorem et Semitonium a C ad f, a 180 ad 135.</p>
-      <p xml:id="SALMUS40016">Secundus per Tonum minorem, et maiorem, et Semitonium a G ad c, a 20 ad
-        15.</p>
+      <p xml:id="SALMUS40016">Secundus per Tonum minorem, et maiorem, et Semitonium a G ad c, a 20
+        ad 15.</p>
       <p xml:id="SALMUS40017">Tertius per tonum maiorem, et Semitonium, et Tonum minorem ab a ad d
         inferius, a 36 ad 27.</p>
-      <p xml:id="SALMUS40018">Quartus per Tonum minorem, et Semitonium, et Tonum maiorem a D superiori
-        ad G, a 160 ad 120.</p>
-      <p xml:id="SALMUS40019">Quintus per Semitonium, et Tonum maiorem, et minorem ab E ad a, a 48 ad
-        36.</p>
-      <p xml:id="SALMUS40020">Sextus per Semitonium, et Tonum minorem, et maiorem a [sqb] ad e, a 32 ad
-        24.</p>
-      <p xml:id="SALMUS40021">Vnde omnes sex modi reperiuntur continuati ab e, ad C, vel contra in his
-        numeris e 24, d inferius 27, c 30, [sqb] 32: d inferius 27, c 30, [sqb] 32, a 36: c 30,
+      <p xml:id="SALMUS40018">Quartus per Tonum minorem, et Semitonium, et Tonum maiorem a D
+        superiori ad G, a 160 ad 120.</p>
+      <p xml:id="SALMUS40019">Quintus per Semitonium, et Tonum maiorem, et minorem ab E ad a, a 48
+        ad 36.</p>
+      <p xml:id="SALMUS40020">Sextus per Semitonium, et Tonum minorem, et maiorem a [sqb] ad e, a 32
+        ad 24.</p>
+      <p xml:id="SALMUS40021">Vnde omnes sex modi reperiuntur continuati ab e, ad C, vel contra in
+        his numeris e 24, d inferius 27, c 30, [sqb] 32: d inferius 27, c 30, [sqb] 32, a 36: c 30,
         [sqb] 32, a 36, G 40: [sqb] 32, a 36, G 40, F 45, in quo non Diatessaron, sed Tritonum
         reperitur, a 36, G 40, F 45, E 48: G 120, F 135, E 144, D superius 160, F 135. E 144, D
         superius 160, C 180. In qua etiam continuatione aduertendum est, in quarta sede tam ab acuto
@@ -350,11 +363,12 @@
         quoniam in sex sonis primae speciei Diapason, in qua reperitur haec dispositio, quae est a C
         ad c, inueniuntur omnes sex modi, quibus diuiditur Diatessaron, qui sunt C D E G a [sqb], et
         in F qui quartus est, nullus modus diuidendi Diatessaron inuenitur: quandoquidem ab F ad
-        [sqb] non Diatessaron consonantia, sed Tritonum esse cognoscitur, quod ostendit (vt <pb n="[184]"/>dictum est) illa dictio pallebat: nec mirum est, si Stephani facies pallebat
+        [sqb] non Diatessaron consonantia, sed Tritonum esse cognoscitur, quod ostendit (vt <pb
+          n="[184]"/>dictum est) illa dictio pallebat: nec mirum est, si Stephani facies pallebat
         audita Tritoni dissonantia; a qua maxime sensus aurium abhorret.</p>
-      <p xml:id="SALMUS40024">Quod ex hac dispositione ortum habuisse videatur lusus ille notissimus, et
-        antiquissimus de modo diuinandi ex tribus hominibus, tres res diuersas inter se
-        distribuentibus, quam quis earum acceperit. CAPVT V.</p>
+      <p xml:id="SALMUS40024">Quod ex hac dispositione ortum habuisse videatur lusus ille
+        notissimus, et antiquissimus de modo diuinandi ex tribus hominibus, tres res diuersas inter
+        se distribuentibus, quam quis earum acceperit. CAPVT V.</p>
       <p xml:id="SALMUS40025">AB hac etiam dispositione credendum est, ortum habuisse lusum illum
         notissimum, cuius propositum est, tribus hominibus ordine dispositis, tres res diuersae
         magnitudinis inter se distribuentibus, quam quis eorum acceperit, diuinare. Quod sex modis
@@ -372,10 +386,10 @@
         instituentis ab ipsa rei veritate forsitan illi non cognita ad lusum sic instituendum
         impulsi,</p>
       <p xml:id="SALMUS40026">Haud equidem sine mente reor, sine numine diuum.</p>
-      <p xml:id="SALMUS40027">Altera, ex aeterna rationis harmonicae dispositione desumpta. Quod autem
-        ad instituentem attinet, quatuor idcirco remanere non possunt, quoniam primus, et tertius
-        lapillos impares susceperunt: et cum ex lege tot, quot habent, accipere teneantur, si
-        maximam habebunt, assument impares: quibus ex paribus sublatis, impares relinqui necesse
+      <p xml:id="SALMUS40027">Altera, ex aeterna rationis harmonicae dispositione desumpta. Quod
+        autem ad instituentem attinet, quatuor idcirco remanere non possunt, quoniam primus, et
+        tertius lapillos impares susceperunt: et cum ex lege tot, quot habent, accipere teneantur,
+        si maximam habebunt, assument impares: quibus ex paribus sublatis, impares relinqui necesse
         est, quod alterutri bis euenire continget, vnde quater impares restabunt. Et cum secundus
         etiam bis maximam possit accipere, quoniam habet pares, totidem assumptis relinquentur
         pares: nam reliquos necesse est pares assumere, cum duplicare, et quadruplicare lapillos,
@@ -394,13 +408,14 @@
         in re tam seria ludere velle viderer, nisi ad rem, qua de agimus, facilius explicandam,
         aptissimum esset exemplum. Quod eo libentius feci, quoniam eum comperi ex professo traditum
         a Beda, cognomento Venerabili, viro grauissimo, et in diuinis literis, ac secularibus
-        disciplinis eruditissimo. Vnde coniectari licet, ante mille annos excogitatum fuisse. <pb n="[185]"/>Et vt tandem hanc de speciebus consonantiarum tractationem debito fine
+        disciplinis eruditissimo. Vnde coniectari licet, ante mille annos excogitatum fuisse. <pb
+          n="[185]"/>Et vt tandem hanc de speciebus consonantiarum tractationem debito fine
         claudamus, dicimus, vtramlibet harum dispositionum verissimam, et exactissimam esse. Nec
         magni referre vtrum a [Gamma], an a C sumamus exordium: quia licet diuersi sint modi, eadem
         tamen species ab vtralibet oritur, quae prima iuxta hanc nostram positionem esse
         concluditur.</p>
-      <p xml:id="SALMUS40028">De systemate, quid sit, et quot sint numero, et quomodo a specie differat.
-        CAPVT VI.</p>
+      <p xml:id="SALMUS40028">De systemate, quid sit, et quot sint numero, et quomodo a specie
+        differat. CAPVT VI.</p>
       <p xml:id="SALMUS40029">NOlumus autem existimare quempiam, nos ea, quae de sumendis specierum
         initijs praeter omnium opinionem diximus, ita mordicus tenere, vt totis viribus simus ad
         illa propugnanda parati, si quis ab his discordare velit: non enim tanti sunt momenti, vt
@@ -468,13 +483,13 @@
         Diapente diuisio, Hexachordum minus, Hexachordum maius, Diapason, Diapason et Semiditonum,
         Diapason et Ditonum, Diapason et Diatessaron, Diapason et Diapente, Diapason et Hexachordum
         minus, Diapason et Hexachordum maius, Disdiapason]</p>
-      <p xml:id="SALMUS40031">Scire etiam oportet, a specie systema differre, quoniam vnius, et eiusdem
-        systematis plures, ac diuersae possunt esse species, vt in Diapason systemate manifestum
-        esse potest: cuius septem sunt species, cum idem systema maneat. Neque eodem modo, quo
-        genus, et species, systema variari contingit. Genus enim variatur per interpositionem noui
-        interualli: species autem per transpositionem eiusdem, systema vero per appositionem
-        alterius. Vnde <pb n="[187]"/>systemata inter se diuersae sunt magnitudinis, et quantitate
-        differunt solum; species vero, et genus qualitate.</p>
+      <p xml:id="SALMUS40031">Scire etiam oportet, a specie systema differre, quoniam vnius, et
+        eiusdem systematis plures, ac diuersae possunt esse species, vt in Diapason systemate
+        manifestum esse potest: cuius septem sunt species, cum idem systema maneat. Neque eodem
+        modo, quo genus, et species, systema variari contingit. Genus enim variatur per
+        interpositionem noui interualli: species autem per transpositionem eiusdem, systema vero per
+        appositionem alterius. Vnde <pb n="[187]"/>systemata inter se diuersae sunt magnitudinis, et
+        quantitate differunt solum; species vero, et genus qualitate.</p>
       <p xml:id="SALMUS40032">Quod diapason, et Diatessaron systema ideo dicatur esse constitutio
         perfecta, quod in ea reperiantur antiquorum sex harmoniae: quae sex consequenter inueniuntur
         dispositae, quemadmodum sex modi Diatessaron: neque plures continuatae possunt inueniri.
@@ -517,7 +532,8 @@
         non multum in his attinet immorari: quia vel a gentibus, quae illis vtebantur, vel ab earum
         inuentoribus desumpta sunt, aut etiam a canticis iuxta diuersas earum naturas institutis. Vt
         nunc alium modum canendi dicimus Hispanum, alium Gallicum, alium Italum, aut Germanum: atque
-        etiam alius est modus canendi iuxta diuersa religionum instituta: aliter enim <pb n="[188]"/>canunt Franciscani, aliter Dominicani, atque aliter Hieronymiani. Sic etiam credendum est,
+        etiam alius est modus canendi iuxta diuersa religionum instituta: aliter enim <pb n="[188]"
+        />canunt Franciscani, aliter Dominicani, atque aliter Hieronymiani. Sic etiam credendum est,
         alium modum fuisse apud Dorios, alium apud Phrygios, alium apud Lydos, et reliquas Graeciae
         gentes: atque etiam diuersis temporibus fuisse diuersos, vt nunc credibile est esse. Sed nos
         non hic quaerimus, quibus antiqui canticis vsi sint, aut quibus vtantur recentiores (hoc
@@ -545,12 +561,14 @@
         Tres species Diatessaron, 1, 2, 3, 4, 5, 6, 8. sex Harmoniae] <figure>
           <graphic url="/images/SALMUS4_03GF.gif"/>
         </figure></p>
-      <p xml:id="SALMUS40035">De duodecim modis, quos ex sex harmonijs oriri necesse est, a vulgo nunc
-        modis, nunc tonis dici solitis: neque octo tantum, sed duodecim inueniri. CAPVT VIII.</p>
+      <p xml:id="SALMUS40035">De duodecim modis, quos ex sex harmonijs oriri necesse est, a vulgo
+        nunc modis, nunc tonis dici solitis: neque octo tantum, sed duodecim inueniri. CAPVT
+        VIII.</p>
       <p xml:id="SALMUS40036">EX his sex harmonijs duodecim oriuntur modi: sex secundum harmonicam
         diuisionem, quos omnes impares esse conuenit propter harmonicae diuisionis dignitatem, cui
         primatum tribuere par est; et sex secundum Arithmeticam, quos in numeris paribus
-        constituere, necesse est: ita vt praecedat Harmonica, sequatur Arithmetica, hoc ordine <pb n="[189]"/>a C ad c. Harmonice mediata in signo G erit primus modus: a [Gamma] ad G
+        constituere, necesse est: ita vt praecedat Harmonica, sequatur Arithmetica, hoc ordine <pb
+          n="[189]"/>a C ad c. Harmonice mediata in signo G erit primus modus: a [Gamma] ad G
         mediata Arithmetice in puncto C secundus: a D ad d mediata Harmonice in signo a tertius: ab
         A ad a mediata Arithmetice in puncto D quartus: ab E ad e mediata Harmonice in puncto [sqb]
         quintus: a [sqb] ad [sqb] mediata Arithmetice in puncto E sextus: ab F ad f mediata
@@ -558,12 +576,12 @@
         mediata Harmonice in puncto d nonus: a D ad d mediata Arithmetice in puncto G decimus: ab a
         ad aa mediata Harmonice in puncto e vndecimus: et ab E ad e mediata Arithmetice in puncto a
         duodecimus et vltimus, vt in hac patet descriptione.</p>
-      <p xml:id="SALMUS40037">[Salinas, De musica, 189; text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, Sex
-        modi impares notis albis comprehensi et diuisi Harmonice per notas nigras. Sex modi pares
-        designati notis nigris et diuisi Arithmetice notis albis.]</p>
-      <p xml:id="SALMUS40038">Atque hi duodecim modi sunt, quos vulgo tonos vocant, propterea quod non
-        distingunt, quid intersit inter tonum, et modum, quod paulo inferius ostendemus. Nec plures
-        quam octo esse volunt, quia non plures, quam quatuor integros esse cognouerunt. Quod
+      <p xml:id="SALMUS40037">[Salinas, De musica, 189; text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
+        Sex modi impares notis albis comprehensi et diuisi Harmonice per notas nigras. Sex modi
+        pares designati notis nigris et diuisi Arithmetice notis albis.]</p>
+      <p xml:id="SALMUS40038">Atque hi duodecim modi sunt, quos vulgo tonos vocant, propterea quod
+        non distingunt, quid intersit inter tonum, et modum, quod paulo inferius ostendemus. Nec
+        plures quam octo esse volunt, quia non plures, quam quatuor integros esse cognouerunt. Quod
         Franchinus Gafurus ostendit in eo libro, cui de Musicae theorica titulum fecit. Vbi apud
         antiquos quatuor tantum modos fuisse ait, ex septem Diapason speciebus consistentes, quos
         illic manieras vocat. Primum ab A ad d: secundum a [sqb] ad e: tertium a C ad f: quartum a D
@@ -582,7 +600,8 @@
         Dodecachordum appellauit, de duodecim modis construxerit. Atque idem Iosephus Zarlinus vir
         vtriusque Musicae partis valde peritus validissimis argumentis ostenderit. Ex quorum libris,
         et ex his quae superius a nobis dicta sunt, satis constare poterit, non pauciores quam
-        duodecim modos esse posse: quandoquidem abunde demonstratum est, sex Diapason <pb n="[190]"/>species Harmonice, et sex Arithmetice reperiri diuisas ex septem Diapason speciebus, et ex
+        duodecim modos esse posse: quandoquidem abunde demonstratum est, sex Diapason <pb n="[190]"
+        />species Harmonice, et sex Arithmetice reperiri diuisas ex septem Diapason speciebus, et ex
         his tertiam solum Arithmetice, et septimam solum Harmonice diuidi posse. Quae si vtroque
         modo diuidi potuissent, quatuordecim esse modos necesse fuisset. Sed Practici relinquunt
         primam nostram, et sextam Diapason et Diatessaron constitutiones, et quatuor sibi medias
@@ -643,21 +662,21 @@
         consequenter, et in sex vocibus Musicalibus, quas Guido Aretinus inuenit, dispositae
         reperiuntur. De cuius positione, ac de sex vocum Musicalium, seu syllabarum, per quas
         enuntiantur inuentione, pauca (vt promisimus) dicenda sunt.</p>
-      <p xml:id="SALMUS40041">Septem species Diapason ex quarum duplici diuisione manant duodecim modi,
-        quod tertia et septima species non nisi simplicem diuisionem admittunt.</p>
+      <p xml:id="SALMUS40041">Septem species Diapason ex quarum duplici diuisione manant duodecim
+        modi, quod tertia et septima species non nisi simplicem diuisionem admittunt.</p>
       <p xml:id="SALMUS40042">[Salinas, De musica, 191; text: I, II, III, IIII, V, VI, VII, Deest
         Harmonica, Caret Arithmetica diuisione, Arithmetica, Harmonica]</p>
       <p xml:id="SALMUS40043">
         <pb n="[192]"/>De sex vocum, quas Musicales vocant, et sex syllabarum, per quas enunciantur,
         inuentione, sex harmonijs antiquorum maxime consentiente. CAPVT IX.</p>
-      <p xml:id="SALMUS40044">EX his ergo, quae dicta sunt, satis manifeste demonstratum esse arbitror,
-        sex apud antiquos harmonias fuisse, ad quas videtur respexisse Guido Aretinus, qui primus
-        nouam artis canendi formam per sex (quas voces Musicales vocant) et sex syllabas illis
-        accommodatas excogitauit. Quoniam ad modum scalae typum introductorij sui ita ordinauit, vt
-        lineis parallelis, et earum interstitijs (quae spatia vocant) distinctum sit. Et in prima
-        linea syllabam vocis, vt, apposuit praeposita [Gamma], non quo memores essemus, hanc
-        disciplinam sicut caeteras a Graecis emanasse, aut his de cauis, quas quidam afferunt; sed
-        coactus est id facere, vt sex syllabas, quas magis aptas, quam literas ad canendum
+      <p xml:id="SALMUS40044">EX his ergo, quae dicta sunt, satis manifeste demonstratum esse
+        arbitror, sex apud antiquos harmonias fuisse, ad quas videtur respexisse Guido Aretinus, qui
+        primus nouam artis canendi formam per sex (quas voces Musicales vocant) et sex syllabas
+        illis accommodatas excogitauit. Quoniam ad modum scalae typum introductorij sui ita
+        ordinauit, vt lineis parallelis, et earum interstitijs (quae spatia vocant) distinctum sit.
+        Et in prima linea syllabam vocis, vt, apposuit praeposita [Gamma], non quo memores essemus,
+        hanc disciplinam sicut caeteras a Graecis emanasse, aut his de cauis, quas quidam afferunt;
+        sed coactus est id facere, vt sex syllabas, quas magis aptas, quam literas ad canendum
         inuenerat, suo collocaret ordine. In quibus syllaba, vt, prima erat ponenda, quae literis A,
         aut [sqb], applicari non poterat, eo quod in C claui posita erat in illius hymni diui
         Ioannis cantu, qui incipit. Vt queant laxis, cuius sex dictionum primas syllabas ad vocum
@@ -691,8 +710,8 @@
         rem illud Hexachordum ab F ad d, nullum nouum creat modum, sed idem in eo reperitur, qui a C
         ad a, per transpositionem. Vnde plures quam sex harmoniae, et duodecim modi, quamuis per
         omnia Hexachorda trium generum procedatur, inueniri non poterunt.</p>
-      <p xml:id="SALMUS40045">De corrsepondentia quam habent Hexachorda recentiorum, cum Tetrachordis
-        antiquorum, a quibus emanarunt. CAPVT X.</p>
+      <p xml:id="SALMUS40045">De corrsepondentia quam habent Hexachorda recentiorum, cum
+        Tetrachordis antiquorum, a quibus emanarunt. CAPVT X.</p>
       <p xml:id="SALMUS40046">
         <pb n="[193]"/>SCiendum est autem, haec Hexachorda recentiorum eadem esse cum Graecorum
         Tetrachordis; quae primam speciem Diatessaron illorum, et tertiam nostram continebant:
@@ -790,108 +809,109 @@
         diezeugmenon, Paranete diezeugmenon, Trite diezeugmenon. Paramese.] <figure>
           <graphic url="/images/SALMUS4_05GF.gif"/>
         </figure></p>
-      <p xml:id="SALMUS40048">Aduertendum autem est in hoc typo, quod ita recentiorum Hexachorda connexa
-        sunt, vt eorum Semitonia cum Tetrachordorum Semitonijs mutuo sese respiciant, directeque <pb n="[196]"/>opponantur. Et cum inter quascunque duas sex syllabarum continuatim positas
-        tonus intercidat, praeterquam inter mi, et fa, per quas Semitonium enunciatur, necesse fuit
-        has ita Graecorum Semitonijs applicare, vt duabus illorum chordis, Semitonio distantibus,
-        opponerentur. Vnde primi Graeci Tetrachordi Semitonio, hypate, hypaton, parhypate hypaton,
-        respondet primi recentiorum Hexachordi Semitonium, [sqb]mi, Cfaut. Et secundi Graeci
-        Tetrachordi Semitonio, hypate meson, parhypate meson. Secundi etiam recentiorum Hexachordi
-        Semitonium Elami, Ffaut. quo facto non potuit syllaba, vt, nisi in Cfaut incidere, vt ipse
-        typus ostendit. Atque eadem erit ratio de reliquis Tetrachordis, quandoquidem eadem est cum
-        eius Hexachordorum connexio. Quod etiam fuit in causa, vt gammaut initium introductorij
-        recentiorum proslambanomene Graecorum esse non posset: quia Semitoniorum correspondentia
-        Hexachordorum, cum Tetrachordis destrueretur. Septem autem alphabeti literae, quarum
-        vnaquaeque vel vnam vnius Hexachordi, vel plures diuersorum syllabas comprehendit, ideo a
-        sinistro latere positae fuisse videntur, vt cuius Hexachordi vox esset, per eas facile
-        posset, agnosci. Nam mi, fa, primi Hexachordi per ]sqb] C, et secundi per E F, et tertij per
-        a b, dignoscuntur. Atque haec de multis, quae in hoc typo poterant considerari, dixisse
-        sufficiat.</p>
-      <p xml:id="SALMUS40049">Quod nomina, quibus harmonias Graeci, et antiqui Latini modos appellabant,
-        mirifice quadrent duodecim modis, eo quo positi sunt ordine collocatis, neque aliter
-        dispositis conuenire possint. CAPVT XI.</p>
-      <p xml:id="SALMUS40050">ERant autem apud antiquos eadem modorum nomina, quae et tonorum; quanquam
-        alijs de causis, vt inferius ostendemus. Primus enim modus a [Gamma] ad G Arithmetice in c
-        mediata dicebatur Hypodorius, qui apud recentiores est vltimus, et duodecimus. Secundus ab A
-        ad a, etiam Arithmetice in D mediata dicebatur Hypophrygius, et apud eos erat valde
-        religiosus, qui est recentiorum secundus, canticis religiosis aptissimus, vt ostendit
-        orationis Dominicae cantus, et multi alij, qui diebus piacularibus, et quadragesimalibus
-        canuntur. Tertius a [sqb], ad [sqb] in E mediata erat Hypolydius, qui nunc est quartus,
-        valde querulus; vt Plato, et Apuleius Lydium, et Hypolydium asserunt fuisse. Quartus in
-        quarta specie a C ad c Harmonice mediata in G erat Dorius eiusdem naturae cum Hypodorio,
-        quoniam eisdem speciebus Diatessaron, et Diapente quibus ille, sed inuersis constabat: et
-        hic medium locum tenebat, ille grauissimum: quem propter eius modestiam maxime laudat Plato.
-        In eadem specie Arithmetice mediata in F erat eorum Hypomixolydius illis quintus, nunc autem
-        sextus; sic dictus, quia proximus est Hypolydio. Neque enim tono vt ille ab Hypogphrygio, et
-        Hypophrygius ab Hypodorio, sed Semitonio distat ab Hypolydio. Sextus antiquorum erat
-        Phrygius eiusdem naturae cum Hypophrygio etiam religioni aptissimus, quem [entheon] Lucianus
-        vocat (hoc est) diuino furori conueniens, qui nunc est primus in ea specie Diapason, quae
-        est a D ad d mediata in a. Et in eadem mediata in G reperiebatur, antiquorum septimus dictus
-        Subhyperdorius, quoniam per Diatessaron distaret in graue ab Hyperdorio, et eiusdem naturae
-        esset cum eo, qui nunc est octauus apud Ecclesiasticos vsitatissimus, vt ostendit prosa
-        Sancti spiritus. Octauus dicebatur Lydius eiusdem naturae cum Hypolydio querelis aptissimus,
-        vt ille, in ea Diapason specie, quae est ab E ad e mediata in [sqb]. In qua etiam specie
-        mediata in a erat nonus modus dictus Subhyperphrygius distans per Diatessaron in graue ab
-        Hyperphrygio, qui nunc est decimus; et hic terminantur modi Arithmetice diuisi in Hexachordo
-        a [Gamma] ad E. Decimus antiquorum modus erat in septima specie Diapason, quae est ab F ad f
-        mediata in c, et vocabatur Mixolydius, quoniam proximus esset Lydio, nec plus ab eo, quam
-        Semitonio distaret, qui <pb n="[197]"/>recentioribus est quintus. Vndecimus dicebatur
-        Hyperdorius in ea specie Diapason a G ad g mediata in d, quae est eadem cum prima, in qua
-        erat Hypodorius: sed non est hic idem modus cum illo, quanquam aequiualens sit tonus cum
-        illo, quoniam ille habet primam speciem Diapason diuisam Arithmetice; hic autem Harmonice.
-        cum autem est idem tonus cum eo dicitur Hypermixolydius, vt videre est apud Euclidem, et
-        Ptolemaeum, et hic nunc est septimus. Duodecimus, et vltimus erat Hyperphrygius ab a ad aa
-        mediata in e, qui nunc est nonus in secunda specie Diapason quemadmodum Hypohrygius, sed
-        eodem modo differens ab eo, quo Hyperdorius ab Hypodorio. Neque vlterius ad Hyperlydium
-        progrediebantur, quoniam species Diapason, quae est a [sqb] ad [sqb][sqb], Harmonice diuidi
-        non potest: neque Subhyperlydium inuenerunt, in F ad f, quia non reperitur Arithmetice
-        diuisa in genere Diatono, neque a [sqb] per Diatessaron distat in graue. Vnum hoc reliquum
-        est considerare, quod quemadmodum in tribus primis, et grauissimis sonis [Gamma] A [sqb] non
-        collocantur plures, quam singulae voces, vt, re, mi, et in C incipit nouus ordo, qui
-        deficientem in ascensu cantum suscipiat, et in C et in D et in E duae voces reperiuntur fa
-        vt, sol re, la mi, quarum tres fa, sol, la, sunt inferioris Hexachordi, quod incipit a
-        [Gamma]: et tres vt, re, mi, superioris Hexachordi, quod incipit a C. Et illic terminatur
-        inferius, et superius per fa, sol, la, procedit vsque ad a: sic etiam in tribus primis, et
-        grauissimis singuli tres modi (Plagij a Graecis dicti) collocantur, et in tribus sequentibus
-        duo singulis applicantur: alter Autenta, alter Plagius, in tribus vltimis ab F ad a singuli
-        autentae. Et quoniam haec fere omnibus Practicis nota sunt, satis visum est innuisse, vt iam
-        tandem ad tonorum qualemcunque apud antiquos tractationem inuenimus, accedamus. Nec typum
-        hic apponere opus esse visum est, quoniam in eo, quem de duodecim modis superius posuimus,
-        haec omnia conspici possunt. Nec etiam mouere quemquam debet, quod in collocandis sex
-        Harmonijs vltra Disdiapason tonum etiam assumpserimus, cum (vt superius ostensum est) apud
-        antiquos in vsu fuerit fistula nouem vocum, vt videre est apud Theocritum, qui eam, syringa
-        eneaphonon appellat, quam Diapason excedere tono necesse est, et septem constare tonis:
-        quamuis fistula Virgiliana septem compacta cycutis septem sonos repraesentare, et a Diapason
-        tono deficere reperiatur. Et qui tonos quindecim posuerunt, a Disdiapaon vsque cum tono
-        processerunt, vt statim demonstrabimus. Et Aristoxenus, quamuis infinitas additione
-        consonantias esse posse non dubitet, tamen vsque ad Disdiapason et Diapente, propter vsus
-        commoditatem, asserit esse procedendum: vt nemo fuerit qui vltra Disdiapason procedi non
-        posse contendat. Quorum omnium haec poterit esse descriptio. a [Gamma] incipiunt omnes
-        Plagij a [Gamma] ad G prima Diapason specie mediata in C Hypodorius, qui primus Plagius
-        noster est. Ab A ad a secunda mediata in D Hypophrygius secundus Plagius a [sqb] ad [sqb].
-        tertia mediata in E Hypolydius tertius Plagius: a C ad c mediata in F Hypomixolydius, qui
-        etiam Ionicus, et Iastius appellabatur, quartus Plagius. a D ad d quinta mediata in G
-        Subhyperdorius quintus Plagius. Ab E ad e sexta mediata in a. Subhyperphygius sextus
-        Plagius. a C autem incipiunt omnes Autentae. a C ad c quarta mediata in G. Dorius eiusdem
-        naturae cum Hypodorio eius Plagio, quia eisdem speciebus Diatessaron, et Diapente licet
-        inuersis constat cum illo primus Autenta. a D ad d quinta mediata in a. Phrygius (quem etiam
-        barbarum appellabant) eiusdem naturae cum Hypophrygio eius Plagio, eandem ob causam secundus
-        Autenta. Ab E ad e sexta mediata in [sqb]: Subhyperlydius tertius Autenta eiusdem naturae
-        cum Hypolydio eius Plagio. Ab F ad f septima mediata in c Mixolydius quartus Autenta eiusdem
-        naturae cum Hypomixolydio eius Plagio. a G ad g rursus prima mediata in d Hyperdorius
-        eiusdem naturae cum Subhyperdorio eius Plagio quintus Autenta. Ab a ad aa eadem cum secunda
-        mediata in e. Hyperphrygius eiusdem naturae cum Subhyperphrygio eius Plagio sextus
-        Autenta.</p>
+      <p xml:id="SALMUS40048">Aduertendum autem est in hoc typo, quod ita recentiorum Hexachorda
+        connexa sunt, vt eorum Semitonia cum Tetrachordorum Semitonijs mutuo sese respiciant,
+        directeque <pb n="[196]"/>opponantur. Et cum inter quascunque duas sex syllabarum
+        continuatim positas tonus intercidat, praeterquam inter mi, et fa, per quas Semitonium
+        enunciatur, necesse fuit has ita Graecorum Semitonijs applicare, vt duabus illorum chordis,
+        Semitonio distantibus, opponerentur. Vnde primi Graeci Tetrachordi Semitonio, hypate,
+        hypaton, parhypate hypaton, respondet primi recentiorum Hexachordi Semitonium, [sqb]mi,
+        Cfaut. Et secundi Graeci Tetrachordi Semitonio, hypate meson, parhypate meson. Secundi etiam
+        recentiorum Hexachordi Semitonium Elami, Ffaut. quo facto non potuit syllaba, vt, nisi in
+        Cfaut incidere, vt ipse typus ostendit. Atque eadem erit ratio de reliquis Tetrachordis,
+        quandoquidem eadem est cum eius Hexachordorum connexio. Quod etiam fuit in causa, vt gammaut
+        initium introductorij recentiorum proslambanomene Graecorum esse non posset: quia
+        Semitoniorum correspondentia Hexachordorum, cum Tetrachordis destrueretur. Septem autem
+        alphabeti literae, quarum vnaquaeque vel vnam vnius Hexachordi, vel plures diuersorum
+        syllabas comprehendit, ideo a sinistro latere positae fuisse videntur, vt cuius Hexachordi
+        vox esset, per eas facile posset, agnosci. Nam mi, fa, primi Hexachordi per ]sqb] C, et
+        secundi per E F, et tertij per a b, dignoscuntur. Atque haec de multis, quae in hoc typo
+        poterant considerari, dixisse sufficiat.</p>
+      <p xml:id="SALMUS40049">Quod nomina, quibus harmonias Graeci, et antiqui Latini modos
+        appellabant, mirifice quadrent duodecim modis, eo quo positi sunt ordine collocatis, neque
+        aliter dispositis conuenire possint. CAPVT XI.</p>
+      <p xml:id="SALMUS40050">ERant autem apud antiquos eadem modorum nomina, quae et tonorum;
+        quanquam alijs de causis, vt inferius ostendemus. Primus enim modus a [Gamma] ad G
+        Arithmetice in c mediata dicebatur Hypodorius, qui apud recentiores est vltimus, et
+        duodecimus. Secundus ab A ad a, etiam Arithmetice in D mediata dicebatur Hypophrygius, et
+        apud eos erat valde religiosus, qui est recentiorum secundus, canticis religiosis
+        aptissimus, vt ostendit orationis Dominicae cantus, et multi alij, qui diebus piacularibus,
+        et quadragesimalibus canuntur. Tertius a [sqb], ad [sqb] in E mediata erat Hypolydius, qui
+        nunc est quartus, valde querulus; vt Plato, et Apuleius Lydium, et Hypolydium asserunt
+        fuisse. Quartus in quarta specie a C ad c Harmonice mediata in G erat Dorius eiusdem naturae
+        cum Hypodorio, quoniam eisdem speciebus Diatessaron, et Diapente quibus ille, sed inuersis
+        constabat: et hic medium locum tenebat, ille grauissimum: quem propter eius modestiam maxime
+        laudat Plato. In eadem specie Arithmetice mediata in F erat eorum Hypomixolydius illis
+        quintus, nunc autem sextus; sic dictus, quia proximus est Hypolydio. Neque enim tono vt ille
+        ab Hypogphrygio, et Hypophrygius ab Hypodorio, sed Semitonio distat ab Hypolydio. Sextus
+        antiquorum erat Phrygius eiusdem naturae cum Hypophrygio etiam religioni aptissimus, quem
+        [entheon] Lucianus vocat (hoc est) diuino furori conueniens, qui nunc est primus in ea
+        specie Diapason, quae est a D ad d mediata in a. Et in eadem mediata in G reperiebatur,
+        antiquorum septimus dictus Subhyperdorius, quoniam per Diatessaron distaret in graue ab
+        Hyperdorio, et eiusdem naturae esset cum eo, qui nunc est octauus apud Ecclesiasticos
+        vsitatissimus, vt ostendit prosa Sancti spiritus. Octauus dicebatur Lydius eiusdem naturae
+        cum Hypolydio querelis aptissimus, vt ille, in ea Diapason specie, quae est ab E ad e
+        mediata in [sqb]. In qua etiam specie mediata in a erat nonus modus dictus Subhyperphrygius
+        distans per Diatessaron in graue ab Hyperphrygio, qui nunc est decimus; et hic terminantur
+        modi Arithmetice diuisi in Hexachordo a [Gamma] ad E. Decimus antiquorum modus erat in
+        septima specie Diapason, quae est ab F ad f mediata in c, et vocabatur Mixolydius, quoniam
+        proximus esset Lydio, nec plus ab eo, quam Semitonio distaret, qui <pb n="[197]"
+        />recentioribus est quintus. Vndecimus dicebatur Hyperdorius in ea specie Diapason a G ad g
+        mediata in d, quae est eadem cum prima, in qua erat Hypodorius: sed non est hic idem modus
+        cum illo, quanquam aequiualens sit tonus cum illo, quoniam ille habet primam speciem
+        Diapason diuisam Arithmetice; hic autem Harmonice. cum autem est idem tonus cum eo dicitur
+        Hypermixolydius, vt videre est apud Euclidem, et Ptolemaeum, et hic nunc est septimus.
+        Duodecimus, et vltimus erat Hyperphrygius ab a ad aa mediata in e, qui nunc est nonus in
+        secunda specie Diapason quemadmodum Hypohrygius, sed eodem modo differens ab eo, quo
+        Hyperdorius ab Hypodorio. Neque vlterius ad Hyperlydium progrediebantur, quoniam species
+        Diapason, quae est a [sqb] ad [sqb][sqb], Harmonice diuidi non potest: neque Subhyperlydium
+        inuenerunt, in F ad f, quia non reperitur Arithmetice diuisa in genere Diatono, neque a
+        [sqb] per Diatessaron distat in graue. Vnum hoc reliquum est considerare, quod quemadmodum
+        in tribus primis, et grauissimis sonis [Gamma] A [sqb] non collocantur plures, quam singulae
+        voces, vt, re, mi, et in C incipit nouus ordo, qui deficientem in ascensu cantum suscipiat,
+        et in C et in D et in E duae voces reperiuntur fa vt, sol re, la mi, quarum tres fa, sol,
+        la, sunt inferioris Hexachordi, quod incipit a [Gamma]: et tres vt, re, mi, superioris
+        Hexachordi, quod incipit a C. Et illic terminatur inferius, et superius per fa, sol, la,
+        procedit vsque ad a: sic etiam in tribus primis, et grauissimis singuli tres modi (Plagij a
+        Graecis dicti) collocantur, et in tribus sequentibus duo singulis applicantur: alter
+        Autenta, alter Plagius, in tribus vltimis ab F ad a singuli autentae. Et quoniam haec fere
+        omnibus Practicis nota sunt, satis visum est innuisse, vt iam tandem ad tonorum qualemcunque
+        apud antiquos tractationem inuenimus, accedamus. Nec typum hic apponere opus esse visum est,
+        quoniam in eo, quem de duodecim modis superius posuimus, haec omnia conspici possunt. Nec
+        etiam mouere quemquam debet, quod in collocandis sex Harmonijs vltra Disdiapason tonum etiam
+        assumpserimus, cum (vt superius ostensum est) apud antiquos in vsu fuerit fistula nouem
+        vocum, vt videre est apud Theocritum, qui eam, syringa eneaphonon appellat, quam Diapason
+        excedere tono necesse est, et septem constare tonis: quamuis fistula Virgiliana septem
+        compacta cycutis septem sonos repraesentare, et a Diapason tono deficere reperiatur. Et qui
+        tonos quindecim posuerunt, a Disdiapaon vsque cum tono processerunt, vt statim
+        demonstrabimus. Et Aristoxenus, quamuis infinitas additione consonantias esse posse non
+        dubitet, tamen vsque ad Disdiapason et Diapente, propter vsus commoditatem, asserit esse
+        procedendum: vt nemo fuerit qui vltra Disdiapason procedi non posse contendat. Quorum omnium
+        haec poterit esse descriptio. a [Gamma] incipiunt omnes Plagij a [Gamma] ad G prima Diapason
+        specie mediata in C Hypodorius, qui primus Plagius noster est. Ab A ad a secunda mediata in
+        D Hypophrygius secundus Plagius a [sqb] ad [sqb]. tertia mediata in E Hypolydius tertius
+        Plagius: a C ad c mediata in F Hypomixolydius, qui etiam Ionicus, et Iastius appellabatur,
+        quartus Plagius. a D ad d quinta mediata in G Subhyperdorius quintus Plagius. Ab E ad e
+        sexta mediata in a. Subhyperphygius sextus Plagius. a C autem incipiunt omnes Autentae. a C
+        ad c quarta mediata in G. Dorius eiusdem naturae cum Hypodorio eius Plagio, quia eisdem
+        speciebus Diatessaron, et Diapente licet inuersis constat cum illo primus Autenta. a D ad d
+        quinta mediata in a. Phrygius (quem etiam barbarum appellabant) eiusdem naturae cum
+        Hypophrygio eius Plagio, eandem ob causam secundus Autenta. Ab E ad e sexta mediata in
+        [sqb]: Subhyperlydius tertius Autenta eiusdem naturae cum Hypolydio eius Plagio. Ab F ad f
+        septima mediata in c Mixolydius quartus Autenta eiusdem naturae cum Hypomixolydio eius
+        Plagio. a G ad g rursus prima mediata in d Hyperdorius eiusdem naturae cum Subhyperdorio
+        eius Plagio quintus Autenta. Ab a ad aa eadem cum secunda mediata in e. Hyperphrygius
+        eiusdem naturae cum Subhyperphrygio eius Plagio sextus Autenta.</p>
       <p xml:id="SALMUS40051">
         <pb n="[198]"/>Quot modis toni nomen apud Graecos accipiatur, et in qua significatione hic
         assumatur, et quo pacto differat a modo. CAPVT XII.</p>
-      <p xml:id="SALMUS40052">TOni nomen, vt Euclides; et Briennius optime animaduertunt, quadrifariam
-        accipi potest. Primo enim significat vocis harmonicae tensionem, iuxta nominis Etymologiam,
-        secundum quam productio, seu tensio dici potest, [apo tou teinein] quod est tendere vel
-        producere, et tunc accipitur pro sono ad harmoniam apto. In quo significato dicitur vocis
-        tonus asper, aut lenis, magnus, vel paruus, et (vt vulgo dicunt) bonus, vel malus. Secundo
-        sumitur in comparatione ad aliud respectiue secundum acutum, et graue, iuxta quod
-        significatur alij graui, et alij acuto tono canere dicuntur: nulla tamen habita ratione
+      <p xml:id="SALMUS40052">TOni nomen, vt Euclides; et Briennius optime animaduertunt,
+        quadrifariam accipi potest. Primo enim significat vocis harmonicae tensionem, iuxta nominis
+        Etymologiam, secundum quam productio, seu tensio dici potest, [apo tou teinein] quod est
+        tendere vel producere, et tunc accipitur pro sono ad harmoniam apto. In quo significato
+        dicitur vocis tonus asper, aut lenis, magnus, vel paruus, et (vt vulgo dicunt) bonus, vel
+        malus. Secundo sumitur in comparatione ad aliud respectiue secundum acutum, et graue, iuxta
+        quod significatur alij graui, et alij acuto tono canere dicuntur: nulla tamen habita ratione
         determinatae quantitatis in acumine, et grauitate. Tertio accipitur pro ea distantia, quae
         est inter Diapente, et Diatessaron, aut inter Hexachordum maius, et Diapente: in quo
         significato dicimus, Tonum maiorem, et minorem. Postremo accipitur pro integra
@@ -1067,14 +1087,14 @@
       <p xml:id="SALMUS40057">
         <pb n="[202]"/>Superuacaneam fuisse quindecim chordarum positionem, et quod soni, et
         consonantiae ab Harmonico vltra Diapason considerandae non sint. CAPVT XV.</p>
-      <p xml:id="SALMUS40058">OMnes igitur antiqui in hoc sine controuersia conueniunt, quod Disdiapason
-        maxima atque optima sit consonantiarum, atque illam consonantiam consonantiarum applellant,
-        sed varijs de causis. Nam Pythagoraei suo quaternario omnia tribuentes illam tanti faciunt,
-        vt vsque ad eam harmonico in Musica speculandum esse velint: neque vlterius eum progredi
-        sinant, quia in quadrupla proportione consistit, et ad eam vsque omnes consonantias
-        considerant, neque extra eam alias esse censent. Ptolemaeus vero Disdiapason in Musicis
-        instrumentis tanquam maximam omnium consonantiarum considerat: non quod plures aliae vltra
-        illam inueniri non possint, sed quod ad harmonici propositum satis sit, ad eam vsque
+      <p xml:id="SALMUS40058">OMnes igitur antiqui in hoc sine controuersia conueniunt, quod
+        Disdiapason maxima atque optima sit consonantiarum, atque illam consonantiam consonantiarum
+        applellant, sed varijs de causis. Nam Pythagoraei suo quaternario omnia tribuentes illam
+        tanti faciunt, vt vsque ad eam harmonico in Musica speculandum esse velint: neque vlterius
+        eum progredi sinant, quia in quadrupla proportione consistit, et ad eam vsque omnes
+        consonantias considerant, neque extra eam alias esse censent. Ptolemaeus vero Disdiapason in
+        Musicis instrumentis tanquam maximam omnium consonantiarum considerat: non quod plures aliae
+        vltra illam inueniri non possint, sed quod ad harmonici propositum satis sit, ad eam vsque
         speculari; quia intra eam non solum omnes consonantiae, sed etiam septem Diapason species,
         et octo toni contineantur. neque in alio systemate minore, quam Disdiapason reperiri
         possint, neque in maiore quam Disdiapason plures inueniantur: quare illud systema perfectum
@@ -1109,7 +1129,8 @@
         instrumenti Musici exactam cognitionem, seu constitutionem vltra Diapason considerare:
         congnita enim, et constituta vna Diapason, atque in ea sonis harmonice per debita interualla
         dispositis, potius erit Practici, quam Theorici vlterius progredi. Quod facile fiet, si
-        vnicuique sonorum alium, qui sit idem virtute cum illo intendamus, aut remittamus: <pb n="[203]"/>nec minus facile erit, haec in numeris ipsis ostendere, qui merito exemplaria
+        vnicuique sonorum alium, qui sit idem virtute cum illo intendamus, aut remittamus: <pb
+          n="[203]"/>nec minus facile erit, haec in numeris ipsis ostendere, qui merito exemplaria
         sonorum esse dicuntur. nam posita Diapason in dupla proportione ita per numeros diuisa, vt
         vnicuique sono suus numerus proportionabiliter adaptatus respondeat, quid erit facilius,
         quam si velis vsque ad Disdiapason in graue procedere, duplicare vnicuique sono suum
@@ -1146,13 +1167,14 @@
         sesquidecimamquintam ineptas esse ad interuallorum harmonicorum constitutionem, et superius
         demonstratum est, et inferius, cum de Ptolemaei circa genera positionibus erit sermo, latius
         est demonstrandum.</p>
-      <p xml:id="SALMUS40059">Quot, et quae absurda sequantur, si consonantiae vsque ad Disdiapason ab
-        Harmonico considerentur. CAPVT XVI.</p>
+      <p xml:id="SALMUS40059">Quot, et quae absurda sequantur, si consonantiae vsque ad Disdiapason
+        ab Harmonico considerentur. CAPVT XVI.</p>
       <p xml:id="SALMUS40060">EX his, quae dicta sunt, satis manifestum esse arbitror, superuacaneam
         fuisse in canonis harmonici diuisione quindecim chordarum positionem, et duplicis Diapason
         considerationem: cum vnius tantum partitio satis esse possit ad omnium, quae in Harmonica
         considerari debent speculationem faciendam. Vnde male videntur asseruisse Pythagoraei, qui
-        consonantias extra Diapason considerari voluerunt: nam ex ea positione multa <pb n="[204]"/>sequentur absurda. Primum, quod plures ponendae erunt consonantiae, quam ipsi posuerint;
+        consonantias extra Diapason considerari voluerunt: nam ex ea positione multa <pb n="[204]"
+        />sequentur absurda. Primum, quod plures ponendae erunt consonantiae, quam ipsi posuerint;
         non enim videntur hi soni, qui in sextupla, aut in octupla proportione consistunt minus esse
         consoni, quam illi, qui in tripla, aut quadrupla: quandoquidem (vt superius demonstratum
         est) cuicunque consonantiae Diapason superponatur, non variat eam, sed semper manet eadem:
@@ -1208,9 +1230,9 @@
         ternario nobilitas consideretur, quod ab omni sensu abhorret. Secus erit, si consonantiae
         tantum intra Diapason considerentur: tunc enim hic eligendi modus erit optimus, vt quisque
         suo marte poterit experiri.</p>
-      <p xml:id="SALMUS40061">Quam male senserint Pythagoraei, atque omnes antiqui, putantes Diatessaron
-        minimam esse consonantiam, et nullos sonos intra primum, et quartum consonos reperiri. CAPVT
-        XVII.</p>
+      <p xml:id="SALMUS40061">Quam male senserint Pythagoraei, atque omnes antiqui, putantes
+        Diatessaron minimam esse consonantiam, et nullos sonos intra primum, et quartum consonos
+        reperiri. CAPVT XVII.</p>
       <p xml:id="SALMUS40062">SAtis validis argumentis confutatas esse arbitror eas Pythagoraeorum
         positiones, quibus affirmabant, speculationem consonantiarum vsque ad Disdiapason ad
         harmonicum pertinere. Et quod omnes consonantiae non solum in multiplicibus, et
@@ -1309,8 +1331,8 @@
         maior, Limma, C, E, G, B, D, F, A, H, 1296. 1152. 1024. 972. 864. 768. 729. 648.] <figure>
           <graphic url="/images/SALMUS4_06GF.gif"/>
         </figure></p>
-      <p xml:id="SALMUS40066">Per hunc igitur modum dispositis consonantijs, quae sensu melius poterant
-        comprehendi, et in notioribus proportionibus erant constitutae, eliciebant reliqua
+      <p xml:id="SALMUS40066">Per hunc igitur modum dispositis consonantijs, quae sensu melius
+        poterant comprehendi, et in notioribus proportionibus erant constitutae, eliciebant reliqua
         interualla minora, quae partim in minus notis, partim in proportionibus ineptis reperiri
         necessum erat. Atque vt ipsi iudicabant, non aliter Diatessaron melius, aut naturalius
         diuidi poterat, nec videbant quot, quantaque hinc sequerentur absurda. Quae si nos
@@ -1362,7 +1384,8 @@
         quales sunt 243 et 256. Neque minus in sonis est inconcinnum. Nemo enim est, qui per hunc
         gradum ascendere, vel descendere possit in voce, aut in Musicis instrumentis, vel ad eum,
         nisi per multas ambages, peruenire valeat. Quia oportet primum inuestigare consonantias, et
-        ex vna in aliam ita porcedere, vt aliquando tandem emergat. Aliter enim numquam <pb n="[209]"/>reperietur, quemadmodum in ea partitione, quam illi totius faciunt Diapason (vt
+        ex vna in aliam ita porcedere, vt aliquando tandem emergat. Aliter enim numquam <pb
+          n="[209]"/>reperietur, quemadmodum in ea partitione, quam illi totius faciunt Diapason (vt
         in praecedenti capite videre licet) omnibus manifestum esse potest. Et hoc idcirco euenit,
         quia (vt superius demonstratum est) Ditoni incompositi interuallum inconcinnum est: et cum
         per hunc gradum vel a Ditono ad Diatessaron, vel a Diatessaron ad Ditonum progredi necesse
@@ -1503,50 +1526,50 @@
       <p xml:id="SALMUS40073">
         <pb n="[212]"/>De Aristoxeni positionibus circa trium generum constitutionem. CAPVT
         XXII.</p>
-      <p xml:id="SALMUS40074">NVnc autem Aristoxeni, ac Didymi positiones breuiter examinemus, quoniam
-        hos duos non solum Philosophos, sed etiam Musicos ante alios omnes appellauit antiquitas.
-        Quorum prior Aristoxenus animaduertens forsitan interualla, quae respondebant Pythagoraeorum
-        proportionibus, parum, aut nihil congruere cum his, quae sensus aurium ad harmoniam apta
-        quotidiana experientia comprobaret; ratus id non ex praepostera eorum ratiocinatione, sed ex
-        ipsius rationis defectu prounenire, iudicio rationis tanquam in Musica inutili omnino
-        sublato, ad iudicium sensus (quem optimum ad omnia munia obeunda iudicem esse, Galenus ait)
-        totum se conuertit. Et quia fortasse videbat in quibusdam instrumentis, quibus Practici
-        vtuntur, cuiusmodi sunt ea, quae lyrae, aut testudines vocantur, tonos in duas aequas partes
-        esse diuisos, absque aurium (vt sibi videbatur) offensione, Tonum ipsum, itemque Semitonium
-        in duo aequalia diuidi oportere iudicauit. Et cum in omnibus, quibus vtimur instrumentis,
-        nullam consonantiam praeter Diapason in ea ratione, in qua a Pythagoricis constituitur,
-        positam inueniret, ob eas causas, quas superius attulimus, nullis voces ipsas numeris
-        annotauit, vt earum inter se differentias per numerorum proportiones colligeret. Sed
-        distantias inter ipsas voces medias assumpsit, vt speculationem non in ipsis vocibus, sed in
-        eo quo inter se distarent, esse faciendam ostenderet. Nam si ab eo quaereres, quid esset
-        tonus? id quo Diapente superat Diatessaron responderet: neque eum in sesquioctaua ratione
-        constare diceret. Hic igitur ne prorsus sine aliqua numerorum ratione procedere videretur,
-        tonum ex vigintiquatuor vnitatibus constituit: quem nonunquam in duas partes aequales
-        diuidit, quas Semitonia vocat, et eorum alterutri duodecim vnitates tribuit, aliquando vero
-        in tres, quas Dieses Chromaticas nominat, octo vnitatibus cuilibet distributis. Nonnunquam
-        in quatuor, quas Dieses Enharmonias appellat ex sex vnitatibus singulas constantes, et ex
-        vna Diesi Enharmonia atque eius dimidio Diesim aliam constituit nouem vnitatibus
-        consistentem, quam Chromaticam hoemioliam vocat. Ex quibus interuallis varie dispositis
-        sextuplicem Diatessaron diuisionem facit: vnde sex emergunt genera. Nam Diatonum in duo
-        diuidit, molle, et incitatum: Chromaticum autem in tria, molle, et sesquilaterum, et
-        toniaeum: Enharmonium vero vnicum, et indiuisibile statuit. Asserit autem Diatessaron duobus
-        tonis, et dimidio constare; quare illius spatium in sexaginta constituit vnitatibus, ex
-        quibus acutissimo, et medio interuallo generis Diatoni incitati vigintiquatuor tribuit;
-        tertio vero, et grauissimo duodecim reliquas assignat; quod ex duobus tonis, et dimidio
-        consistit. In Diatonico autem molli primum, et acutissimum interuallum ex tono, et Diesi
-        Enharmonia constituit, et triginta illi tribuit vnitates: medium ex Semitonio, et Diesi
-        itidem Enharmonia, cui duodevicesima vnitates assignauit, grauissimum vero ex Semitonio,
-        quod duodecim reliquas contineret. Chromaticum toniaeum ex Trihemitonio, et duobus
-        Semitonijs disposuit, et acutissimum interuallum ex trigintasex vnitatibus fecit: et ex
-        reliquis duobus vnicuique duodecim tribuit. In Chromatico hoemiolio acutissimum ex
-        Trihemitonio, et Diesi Enharmonia quadragintaduo vnitatibus constare fecit: reliqua duo ex
-        duabus Diesibus Chromaticis hoemiolijs, quas ex nouem vnitatibus singulas constare diximus.
-        In Chromatico molli acutissimo interuallo ex Trihemitonio, et Diesi Chromatica constituto
-        quadragintaquatuor tribuit vnitates, reliqua duo ex duabus Diesibus Chromaticis, quarum
-        quaelibet octo continet vnitates, instituit. In Enharmonio, quod omnium spississimum est,
-        acutissimo interuallo ex Ditono conflato quadragintaquatuor tribuit vnitates: reliqua duo ex
-        Diesibus Enharmonijs, quarum quaelibet sex continet vnitates instituit, vt hic typus oculis
-        ostendit:</p>
+      <p xml:id="SALMUS40074">NVnc autem Aristoxeni, ac Didymi positiones breuiter examinemus,
+        quoniam hos duos non solum Philosophos, sed etiam Musicos ante alios omnes appellauit
+        antiquitas. Quorum prior Aristoxenus animaduertens forsitan interualla, quae respondebant
+        Pythagoraeorum proportionibus, parum, aut nihil congruere cum his, quae sensus aurium ad
+        harmoniam apta quotidiana experientia comprobaret; ratus id non ex praepostera eorum
+        ratiocinatione, sed ex ipsius rationis defectu prounenire, iudicio rationis tanquam in
+        Musica inutili omnino sublato, ad iudicium sensus (quem optimum ad omnia munia obeunda
+        iudicem esse, Galenus ait) totum se conuertit. Et quia fortasse videbat in quibusdam
+        instrumentis, quibus Practici vtuntur, cuiusmodi sunt ea, quae lyrae, aut testudines
+        vocantur, tonos in duas aequas partes esse diuisos, absque aurium (vt sibi videbatur)
+        offensione, Tonum ipsum, itemque Semitonium in duo aequalia diuidi oportere iudicauit. Et
+        cum in omnibus, quibus vtimur instrumentis, nullam consonantiam praeter Diapason in ea
+        ratione, in qua a Pythagoricis constituitur, positam inueniret, ob eas causas, quas superius
+        attulimus, nullis voces ipsas numeris annotauit, vt earum inter se differentias per
+        numerorum proportiones colligeret. Sed distantias inter ipsas voces medias assumpsit, vt
+        speculationem non in ipsis vocibus, sed in eo quo inter se distarent, esse faciendam
+        ostenderet. Nam si ab eo quaereres, quid esset tonus? id quo Diapente superat Diatessaron
+        responderet: neque eum in sesquioctaua ratione constare diceret. Hic igitur ne prorsus sine
+        aliqua numerorum ratione procedere videretur, tonum ex vigintiquatuor vnitatibus constituit:
+        quem nonunquam in duas partes aequales diuidit, quas Semitonia vocat, et eorum alterutri
+        duodecim vnitates tribuit, aliquando vero in tres, quas Dieses Chromaticas nominat, octo
+        vnitatibus cuilibet distributis. Nonnunquam in quatuor, quas Dieses Enharmonias appellat ex
+        sex vnitatibus singulas constantes, et ex vna Diesi Enharmonia atque eius dimidio Diesim
+        aliam constituit nouem vnitatibus consistentem, quam Chromaticam hoemioliam vocat. Ex quibus
+        interuallis varie dispositis sextuplicem Diatessaron diuisionem facit: vnde sex emergunt
+        genera. Nam Diatonum in duo diuidit, molle, et incitatum: Chromaticum autem in tria, molle,
+        et sesquilaterum, et toniaeum: Enharmonium vero vnicum, et indiuisibile statuit. Asserit
+        autem Diatessaron duobus tonis, et dimidio constare; quare illius spatium in sexaginta
+        constituit vnitatibus, ex quibus acutissimo, et medio interuallo generis Diatoni incitati
+        vigintiquatuor tribuit; tertio vero, et grauissimo duodecim reliquas assignat; quod ex
+        duobus tonis, et dimidio consistit. In Diatonico autem molli primum, et acutissimum
+        interuallum ex tono, et Diesi Enharmonia constituit, et triginta illi tribuit vnitates:
+        medium ex Semitonio, et Diesi itidem Enharmonia, cui duodevicesima vnitates assignauit,
+        grauissimum vero ex Semitonio, quod duodecim reliquas contineret. Chromaticum toniaeum ex
+        Trihemitonio, et duobus Semitonijs disposuit, et acutissimum interuallum ex trigintasex
+        vnitatibus fecit: et ex reliquis duobus vnicuique duodecim tribuit. In Chromatico hoemiolio
+        acutissimum ex Trihemitonio, et Diesi Enharmonia quadragintaduo vnitatibus constare fecit:
+        reliqua duo ex duabus Diesibus Chromaticis hoemiolijs, quas ex nouem vnitatibus singulas
+        constare diximus. In Chromatico molli acutissimo interuallo ex Trihemitonio, et Diesi
+        Chromatica constituto quadragintaquatuor tribuit vnitates, reliqua duo ex duabus Diesibus
+        Chromaticis, quarum quaelibet octo continet vnitates, instituit. In Enharmonio, quod omnium
+        spississimum est, acutissimo interuallo ex Ditono conflato quadragintaquatuor tribuit
+        vnitates: reliqua duo ex Diesibus Enharmonijs, quarum quaelibet sex continet vnitates
+        instituit, vt hic typus oculis ostendit:</p>
       <p xml:id="SALMUS40075">
         <pb n="[213]"/>[Salinas, De musica, 213; text: Chromaticum, Diatonum, Enharmonium, Molle,
         Sesquialterum, Toniaeum, Contentum, Praecedens in acutum, Medium, Sequens, 48, 44, 42, 36,
@@ -1566,8 +1589,8 @@
         Semitonia vocat, et in quatuor Tetartimoria, quas appellat Dieses Enharmonias.</p>
       <p xml:id="SALMUS40077">De Aristoxeni erroribus multo aliter, quam a Ptolemaeo, et Boetio
         animaduersi sunt. CAPVT XXIII.</p>
-      <p xml:id="SALMUS40078">SEd in multis eum errasse, asserit Ptolemaeus primi Harmonicorum capite
-        duodecimo. Quos eius errores, qui omnes scire volet, illic, et apud Franchinum
+      <p xml:id="SALMUS40078">SEd in multis eum errasse, asserit Ptolemaeus primi Harmonicorum
+        capite duodecimo. Quos eius errores, qui omnes scire volet, illic, et apud Franchinum
         instrumentalis Harmoniae capite tertiodecimo libri secundi etiam numero notatos inueniet.
         Nos autem eos solum afferemus, qui magis ad rem pertinent, et melius sensus, ac rationis
         iudicio percipi possunt. Quare relictis, quos affert Ptolemaeus, primo dicimus, eum valde
@@ -1637,23 +1660,23 @@
       <p xml:id="SALMUS40081">[Salinas, De musica, 215,1; text: Graue, Acutum, F, A, D, C, B, E] <figure>
           <graphic url="/images/SALMUS4_07GF.gif"/>
         </figure></p>
-      <p xml:id="SALMUS40082">Hanc autem demonstrationem optimis ac validissimis argumentis Ptolemaeus
-        euertit. Constituto enim Tono in sesquioctaua ratione, et Diatessaron in sesquitertia,
-        manifeste ilico apparet, differentiam, qua Ditonum excedit Diatessaron (quod Limma, hoc est,
-        residuum vocant) minorem esse Semitonio, aut toni dimidio: siquidem accepto numero, qui
-        primus hoc demonstrare queat, 1536 sesquioctauus huic erit 1728, huic alter sesquioctauus
-        1944, qui videlicet ad 1536 rationem habebit Ditoni. Est autem et sesquitertius ad 1536
-        numerus 2048. quare residuum in ratione est ea, quam 2048 habent ad 1944. Atqui si ad 1944
-        etiam sesquioctauam sumpserimus, habebimus numerum 2187, estque maior ratio 2187 ad 2048,
-        quam sit 2048 ad 1944, quippe 2187 excedunt 2048 maiore quam decimaquinta ipsorum parte,
-        minore vero quam decimaquarta. Sed 2048 excedunt 1944 maiore quidem quam decimanona ipsorum
-        parte, minore vero quam decimaoctaua. Minus igitur tertij toni segmentum intra Diatessaron
-        relictum est cum Ditono, vt iam residui magnitudo minor Semitonio colligatur, ac totam
-        Diatessaron minorem esse duobus tonis et semisse. Ad quod ostendendum eundem oculis subijcit
-        typum, quo nos vsi sumus in secunda huius operis parte ad demonstrandam Apotomen Limmate
-        maiorem esse, qui est huiusmodi.</p>
-      <p xml:id="SALMUS40083">[Salinas, De musica, 215,2; text: Tonus maior, Diatessaron, Apotome Limma,
-        2187, 2048, 1944, 1728, 1536]</p>
+      <p xml:id="SALMUS40082">Hanc autem demonstrationem optimis ac validissimis argumentis
+        Ptolemaeus euertit. Constituto enim Tono in sesquioctaua ratione, et Diatessaron in
+        sesquitertia, manifeste ilico apparet, differentiam, qua Ditonum excedit Diatessaron (quod
+        Limma, hoc est, residuum vocant) minorem esse Semitonio, aut toni dimidio: siquidem accepto
+        numero, qui primus hoc demonstrare queat, 1536 sesquioctauus huic erit 1728, huic alter
+        sesquioctauus 1944, qui videlicet ad 1536 rationem habebit Ditoni. Est autem et
+        sesquitertius ad 1536 numerus 2048. quare residuum in ratione est ea, quam 2048 habent ad
+        1944. Atqui si ad 1944 etiam sesquioctauam sumpserimus, habebimus numerum 2187, estque maior
+        ratio 2187 ad 2048, quam sit 2048 ad 1944, quippe 2187 excedunt 2048 maiore quam
+        decimaquinta ipsorum parte, minore vero quam decimaquarta. Sed 2048 excedunt 1944 maiore
+        quidem quam decimanona ipsorum parte, minore vero quam decimaoctaua. Minus igitur tertij
+        toni segmentum intra Diatessaron relictum est cum Ditono, vt iam residui magnitudo minor
+        Semitonio colligatur, ac totam Diatessaron minorem esse duobus tonis et semisse. Ad quod
+        ostendendum eundem oculis subijcit typum, quo nos vsi sumus in secunda huius operis parte ad
+        demonstrandam Apotomen Limmate maiorem esse, qui est huiusmodi.</p>
+      <p xml:id="SALMUS40083">[Salinas, De musica, 215,2; text: Tonus maior, Diatessaron, Apotome
+        Limma, 2187, 2048, 1944, 1728, 1536]</p>
       <p xml:id="SALMUS40084">Haec est ratio Ptolemaei, quam nos veram esse non negamus, iuxta
         positiones Pythagogoraeorum, <pb n="[216]"/>a quibus ipse diuelli vix poterat. Nam quoniam
         in eis excessus Diatessaron ad Ditonum Pythagoricum erat Limma, quod minus est quam toni
@@ -1695,24 +1718,25 @@
         perfecti constitutioni, vt toto hoc opere demonstratum est, neque vlli instrumentorum,
         quibus vtimur, temperamento quadrare posse, non solum rationis et sensus iudicio, sed ipsa
         experientia sensu nuntio, et iudice ratione, facile comprobatur.</p>
-      <p xml:id="SALMUS40085">De positionibus Didymi Musici circa trium generum constitutionem. CAPVT
-        XXV.</p>
-      <p xml:id="SALMUS40086">INter Aristoxenum, et Ptolemaeum credibile est incidisse tempora Didymi
-        Musici, qui multo aliter, ac verius quam Aristoxenis instrumentalis harmoniae compositionem,
-        et Diatessaron diuisionem in generum constitutione considerauit. Tria enim genera melodiarum
-        esse dixit, vt omnes antiqui: sed duorum tantum constitutionem ostendit, vt asserit
-        Ptolemaeus, qui positiones illius, atque aliorum quatuor autorum affert, et examinat, <pb n="[217]"/>secundi libri Harmonicorum capite quartodecimo. Hic igitur in genere Diatono
-        diuisionem Diatessaron in tria interualla, vt rationi consentaneum est, facit duos tonos, et
-        Semitonium: quorum acutissimo sesquioctauam tribuit proportionem, medio sesquinonam, et
-        grauissimo sesquidecimamquintam. vt in his numeris ostendi potest 24.27 Tonus maior, 27.30
-        Tonus minor, 30.32 Semitonium. In Chromate vero acutissimo tribuit sesquiquintam, medio
-        sesquivicesimamquartam, grauissimo sesquiquintamdecimam, vt in his numeris 60.72.75.80. In
-        genere Enharmonio tribuit quidem acutissimo interuallo sesquiquartam proportionem, et
-        sesquiquintamdecimam, quae reliqua erat ad complendam Diatessaron, et in duas proportiones
-        diuidi oportebat, indiuisam reliquit. Quam ob rem Ptolemaeus in multis eum reprehendit:
-        primo, quod in genere Diatono maiorem proportionem interuallo acutissimo, quam medio
-        tribuerit; quod ei valde videbatur absurdum. Nam ex ea positione sequitur etiam aliud maius
-        absurdum: secundus enim sonus cum quarto non Semiditoni consonantiam (vt par erat)
+      <p xml:id="SALMUS40085">De positionibus Didymi Musici circa trium generum constitutionem.
+        CAPVT XXV.</p>
+      <p xml:id="SALMUS40086">INter Aristoxenum, et Ptolemaeum credibile est incidisse tempora
+        Didymi Musici, qui multo aliter, ac verius quam Aristoxenis instrumentalis harmoniae
+        compositionem, et Diatessaron diuisionem in generum constitutione considerauit. Tria enim
+        genera melodiarum esse dixit, vt omnes antiqui: sed duorum tantum constitutionem ostendit,
+        vt asserit Ptolemaeus, qui positiones illius, atque aliorum quatuor autorum affert, et
+        examinat, <pb n="[217]"/>secundi libri Harmonicorum capite quartodecimo. Hic igitur in
+        genere Diatono diuisionem Diatessaron in tria interualla, vt rationi consentaneum est, facit
+        duos tonos, et Semitonium: quorum acutissimo sesquioctauam tribuit proportionem, medio
+        sesquinonam, et grauissimo sesquidecimamquintam. vt in his numeris ostendi potest 24.27
+        Tonus maior, 27.30 Tonus minor, 30.32 Semitonium. In Chromate vero acutissimo tribuit
+        sesquiquintam, medio sesquivicesimamquartam, grauissimo sesquiquintamdecimam, vt in his
+        numeris 60.72.75.80. In genere Enharmonio tribuit quidem acutissimo interuallo sesquiquartam
+        proportionem, et sesquiquintamdecimam, quae reliqua erat ad complendam Diatessaron, et in
+        duas proportiones diuidi oportebat, indiuisam reliquit. Quam ob rem Ptolemaeus in multis eum
+        reprehendit: primo, quod in genere Diatono maiorem proportionem interuallo acutissimo, quam
+        medio tribuerit; quod ei valde videbatur absurdum. Nam ex ea positione sequitur etiam aliud
+        maius absurdum: secundus enim sonus cum quarto non Semiditoni consonantiam (vt par erat)
         efficiunt: sed aliud interuallum a sesquiquinta. sesquioctogesima diminutum valde dissonum,
         quale diximus esse Semiditonum Pythagoraeorum in ea proportione, quae est a 32 ad 27.
         Neutiquam tamen omnino reprehendi potest haec Diatoni generis constitutio, quoniam
@@ -1802,7 +1826,8 @@
         in acutissimo collocata triplicatis numeris sesquiquintae 5 et 6 vnde proueniunt 15 et 18.
         reiecto 17. numerus 16. assumptus diuidit eam in sesquioctauam, et sesquidecimamquintam;
         quibus collocatis in medio, et grauissimo interuallo constituebat genus Diatonicum contentum
-        rarissimum, sed oppositum generi Enharmonico in his numeris 72.80.90.96. Assumpta <pb n="[219]"/>etiam sesquiseptima, et in acutissimo collocata triplicatis sesquisextae
+        rarissimum, sed oppositum generi Enharmonico in his numeris 72.80.90.96. Assumpta <pb
+          n="[219]"/>etiam sesquiseptima, et in acutissimo collocata triplicatis sesquisextae
         numeris 6 et 7; vnde prouenient 18, et 21, reiecto 19, et assumpto 20, diuidit eam in
         sesquinonam, et sesquivicesimamprimam quibus medio, et grauissimo attributis constituit
         genus Diatonicum molli in his numeris 63.72 80.84. Rursus genus Diatonicum medium constituit
@@ -1834,23 +1859,23 @@
       <p xml:id="SALMUS40090">Briennij ingeniosa ratio, propter quam ei Ptolemaeus visus est in
         acutissimis interuallis Diatoni medij, et contenti minores proportiones, quam in medijs
         posuisse. CAPVT XXVII.</p>
-      <p xml:id="SALMUS40091">NVnc autem explicemus causas, ob quas Ptolemaeus, et qui eum secuti sunt,
-        asserunt ipsum adductum fuisse, vt in Diatonis medio, et contento medijs interuallis maiores
-        proportiones, quam acutissimis contra ipsius positiones tribuerit. Et Ptolemaeus quidem
-        nullam aliam affert, nisi quia (vt diximus) differentias, quae sunt inter sesquinonam, et
-        sesquioctauam, et inter sesquioctauam, et sesquiseptimam minimas, atque auditui insensibiles
-        esse putauit: quare, vt suam astrueret positionem, eas contempsit differentias, quas auditus
-        percipere non posset. Sed Briennius longe aliam commentus est rationem (vt sibi videtur)
-        prorsus necessariam, et naturae maxime consentaneam, et (vt ipse ait) multis incognitam;
-        quoniam <pb n="[220]"/>[bathutates kai phusikotates], hoc est, profundissimae, et
-        naturalissimae sit speculationis, quae huiusmodi est. vnitas enim (inquit) continet in se
-        potentia, et tanquam in semine omnes proportiones harmonicas, quas vt in actum educeret, eam
-        in multiplicitatem exire oportuit, et primum per binarium, et ternarium ad quaternarium
-        vsque progressa est: intra quem numerum omnes proportiones, in quibus consonantiae
-        consistunt, reperiuntur. Vnitas namque bis sumpta binarium producit, qui ad ipsam comparatus
-        duplam efficit proportionem: et ter ducta ternarium, qui ad eam collatus in tripla
-        proportione consistit, et comparatus ad binarium sesquialteram facit: et quater ducta
-        quaternarium, qui ad ipsam quadruplus est, ad binarium autem duplus, ad ternarium vero
+      <p xml:id="SALMUS40091">NVnc autem explicemus causas, ob quas Ptolemaeus, et qui eum secuti
+        sunt, asserunt ipsum adductum fuisse, vt in Diatonis medio, et contento medijs interuallis
+        maiores proportiones, quam acutissimis contra ipsius positiones tribuerit. Et Ptolemaeus
+        quidem nullam aliam affert, nisi quia (vt diximus) differentias, quae sunt inter
+        sesquinonam, et sesquioctauam, et inter sesquioctauam, et sesquiseptimam minimas, atque
+        auditui insensibiles esse putauit: quare, vt suam astrueret positionem, eas contempsit
+        differentias, quas auditus percipere non posset. Sed Briennius longe aliam commentus est
+        rationem (vt sibi videtur) prorsus necessariam, et naturae maxime consentaneam, et (vt ipse
+        ait) multis incognitam; quoniam <pb n="[220]"/>[bathutates kai phusikotates], hoc est,
+        profundissimae, et naturalissimae sit speculationis, quae huiusmodi est. vnitas enim
+        (inquit) continet in se potentia, et tanquam in semine omnes proportiones harmonicas, quas
+        vt in actum educeret, eam in multiplicitatem exire oportuit, et primum per binarium, et
+        ternarium ad quaternarium vsque progressa est: intra quem numerum omnes proportiones, in
+        quibus consonantiae consistunt, reperiuntur. Vnitas namque bis sumpta binarium producit, qui
+        ad ipsam comparatus duplam efficit proportionem: et ter ducta ternarium, qui ad eam collatus
+        in tripla proportione consistit, et comparatus ad binarium sesquialteram facit: et quater
+        ducta quaternarium, qui ad ipsam quadruplus est, ad binarium autem duplus, ad ternarium vero
         sesquitertius. praeter quas nullas alias proportiones Pythagorici consonantijs adaptauerunt,
         vt in secunda huius operis parte dictum est. Deinde, assumptis secum binario, et ternario,
         et quaternario, denarium produxit: namque vnum, et duo, et tria, et quatuor denarium
@@ -1956,9 +1981,9 @@
         Briennij magis ingeniosam esse, quam veram: quoniam ipsius fundamentum innititur super
         Ptolemaei positiones, quas in multis claudicare, et a veritate deficere, demonstratum
         est.</p>
-      <p xml:id="SALMUS40095">De recentioribus aliquot autoribus; et primum de Iacobo Fabro Stapulensi,
-        quod in sua Musica demonstrata nihil attulerit noui, sed totus Pythagoricus, et Boetianus
-        sit. CAPVT XXIX.</p>
+      <p xml:id="SALMUS40095">De recentioribus aliquot autoribus; et primum de Iacobo Fabro
+        Stapulensi, quod in sua Musica demonstrata nihil attulerit noui, sed totus Pythagoricus, et
+        Boetianus sit. CAPVT XXIX.</p>
       <p xml:id="SALMUS40096">NVnc tandem, postquam de antiquorum positionibus quid nobis videatur,
         quanto breuius potuimus aperire, conati sumus, quaerendum etiam videtur, vtrum recentiores
         idem senserint cum antiquis; an aliquid melius peiusve nobis attulerint? Et primum quidem
@@ -1976,15 +2001,15 @@
         secundum Trihemitonium ex tono maiore, et Limmate compositum: a secundo ad tertium apotome,
         quae in minoribus numeris inueniri non potest; a tertio ad quartum Limma: vt in hoc
         diagrammate conspicari licet.</p>
-      <p xml:id="SALMUS40097">[Salinas, De musica, 222; text: DIATESSARON, Limma, Apotome, Trhemitonium,
-        2304, 2187, 2048, 1728]</p>
-      <p xml:id="SALMUS40098">In quo Franchino videtur errasse, et Boetij diuisionem non intellexisse.
-        Ego autem aliqua id cum ratione fecisse illum, affirmare non dubito; noluit enim alio
-        Semitonio, quam Limmate, et Apotome vti, quandoquidem posito Limmate, apotome necessario
-        ponenda fuit, si tonus in duo Semitonia diuidendus erat: nec multum curauit, quid sensus
-        postularet, <pb n="[223]"/>aut ratio. Verum haec interualla nec inter se continuata, nec
-        primi soni cum tertio, aut secundi cum quarto possunt vllo pacto harmonica censeri: et de
-        eius positionibus nihil est aliud quod dicere nunc possimus, quia eaedem ferme sunt cum
+      <p xml:id="SALMUS40097">[Salinas, De musica, 222; text: DIATESSARON, Limma, Apotome,
+        Trhemitonium, 2304, 2187, 2048, 1728]</p>
+      <p xml:id="SALMUS40098">In quo Franchino videtur errasse, et Boetij diuisionem non
+        intellexisse. Ego autem aliqua id cum ratione fecisse illum, affirmare non dubito; noluit
+        enim alio Semitonio, quam Limmate, et Apotome vti, quandoquidem posito Limmate, apotome
+        necessario ponenda fuit, si tonus in duo Semitonia diuidendus erat: nec multum curauit, quid
+        sensus postularet, <pb n="[223]"/>aut ratio. Verum haec interualla nec inter se continuata,
+        nec primi soni cum tertio, aut secundi cum quarto possunt vllo pacto harmonica censeri: et
+        de eius positionibus nihil est aliud quod dicere nunc possimus, quia eaedem ferme sunt cum
         positionibus Pythagoraeum, et Boetij, quem fere omnis Musicorum tam operantium, quam
         speculantium caterua secuta est. Nec mirum esse id cuipiam debet; quia nemo ex antiquis, qui
         apud Latitinos ex professo de Musica scripserunt, extat, praeter Boetium, et Graeci autores
@@ -2014,79 +2039,80 @@
         consonantias existimat. non aduertens nullos duos sonos suauem edere posse concentum, qui
         consoni non sint. In quem errorem (vt in alios) etiam induxit eum Pythagoraeorum doctrina,
         quam secutus est.</p>
-      <p xml:id="SALMUS40102">De Franchino Gaffuro, et de ipsius in libris de Harmonica instrumentali
-        erroribus. CAPVT XXX.</p>
-      <p xml:id="SALMUS40103">FRanchinus autem Gaffurus, qui vtriusque partis Musicae, et speculatricis,
-        et operatricis insignis professor fuit, et multa de vtraque opera edidit, plurima quidem
-        scitu dignissima conscripsit tam in Practica, quam in Theorica, et plures autores in Musica
-        legit quam reliqui omnes Practici. Ille namque gloriatur sua opera atque impensa ex Graeco
-        in Latinum sermonem traductor fuisse tres libros Harmonicorum Ptolemaei, et tres Aristidis
-        Quintiliani, et tres Emanuelis Briennij. Ac verum est, quod hos libros legit, vt in suis
-        ostendit operibus, in eo praesertim, quod de Harmonia instrumentali conscripsit, vbi omnes
-        ferme eorum positiones recitat, ita tamen confuse, vt potius eos legisse, quam intellexisse
-        videatur. Haec autem traductio Latina non extat, quantum equidem sciam; forsan ipsius
-        Franchini auaritia, qui sibi soli eam fieri voluit, et typographis cudendam non tradidit,
-        nunquam ea ventura secula ratus, in quibus Musici Graecas etiam literas scirent, atque hos
-        autores sua lingua loquentes legere possent. Et valuit quidem hic vir ingenio, caruit <pb n="[224]"/>tamen iudicio: recitauit enim, vel enumerauit potius horum autorum positiones,
-        sed non eas examinauit, vt inueniret, quaenam earum vera esset, aut proxime ad veritatem
-        accederet: sed eas omnes intactas reliquit. Et quia Boetius ab omnibus receptus erat, illi
-        aduersari non est ausus; nonnunquam vero Ptolemaeo astipulari velle videtur, non tamen vter
-        eorum melius censuerit, audet asserere. Sed nunc huc, nun illuc fertur, vt ex eo nihil
-        certi, nihil firmi possit haberi. aliquando enim, vt Boetio, et Pythagoraeis faueat, dicit
-        se mirari eo in libro, quem de Musica Italo sermone composuit, Ptolemaei (vt ipse vocat)
-        inaduertentiam, qui Diapason et Diatessaron consonantiam esse dixerit; cum nec multiplici,
-        nec superaparticulari proportioni respondeat. paulo post in eodem libro assumit
-        sesquiquartam, et sesquiquintam Ptolemaei ad constituendas ex eius tertiam maiorem, et
-        minorem contra Boetium, et omnes Pythagoraeos. Et in secundo de Harmonio instrumentali
-        capite tricesimoquarto reprehendit quendam Bartholomaeum Ramis Hispanum, qui tertiam maiorem
-        in sesquiquarta, et minorem in sesquiquinta constituit, et sextam maiorem in
+      <p xml:id="SALMUS40102">De Franchino Gaffuro, et de ipsius in libris de Harmonica
+        instrumentali erroribus. CAPVT XXX.</p>
+      <p xml:id="SALMUS40103">FRanchinus autem Gaffurus, qui vtriusque partis Musicae, et
+        speculatricis, et operatricis insignis professor fuit, et multa de vtraque opera edidit,
+        plurima quidem scitu dignissima conscripsit tam in Practica, quam in Theorica, et plures
+        autores in Musica legit quam reliqui omnes Practici. Ille namque gloriatur sua opera atque
+        impensa ex Graeco in Latinum sermonem traductor fuisse tres libros Harmonicorum Ptolemaei,
+        et tres Aristidis Quintiliani, et tres Emanuelis Briennij. Ac verum est, quod hos libros
+        legit, vt in suis ostendit operibus, in eo praesertim, quod de Harmonia instrumentali
+        conscripsit, vbi omnes ferme eorum positiones recitat, ita tamen confuse, vt potius eos
+        legisse, quam intellexisse videatur. Haec autem traductio Latina non extat, quantum equidem
+        sciam; forsan ipsius Franchini auaritia, qui sibi soli eam fieri voluit, et typographis
+        cudendam non tradidit, nunquam ea ventura secula ratus, in quibus Musici Graecas etiam
+        literas scirent, atque hos autores sua lingua loquentes legere possent. Et valuit quidem hic
+        vir ingenio, caruit <pb n="[224]"/>tamen iudicio: recitauit enim, vel enumerauit potius
+        horum autorum positiones, sed non eas examinauit, vt inueniret, quaenam earum vera esset,
+        aut proxime ad veritatem accederet: sed eas omnes intactas reliquit. Et quia Boetius ab
+        omnibus receptus erat, illi aduersari non est ausus; nonnunquam vero Ptolemaeo astipulari
+        velle videtur, non tamen vter eorum melius censuerit, audet asserere. Sed nunc huc, nun
+        illuc fertur, vt ex eo nihil certi, nihil firmi possit haberi. aliquando enim, vt Boetio, et
+        Pythagoraeis faueat, dicit se mirari eo in libro, quem de Musica Italo sermone composuit,
+        Ptolemaei (vt ipse vocat) inaduertentiam, qui Diapason et Diatessaron consonantiam esse
+        dixerit; cum nec multiplici, nec superaparticulari proportioni respondeat. paulo post in
+        eodem libro assumit sesquiquartam, et sesquiquintam Ptolemaei ad constituendas ex eius
+        tertiam maiorem, et minorem contra Boetium, et omnes Pythagoraeos. Et in secundo de Harmonio
+        instrumentali capite tricesimoquarto reprehendit quendam Bartholomaeum Ramis Hispanum, qui
+        tertiam maiorem in sesquiquarta, et minorem in sesquiquinta constituit, et sextam maiorem in
         superbipartiente tertias, et minorem in supertriparitenti quintas: quia tertia, et sexta
         maiores in his proportionibus constitutae deficiunt ab his, quae ex Boetij doctrina elici
         possunt vna sesquioctuagesima, vt in his patet figuris:</p>
       <p xml:id="SALMUS40104">[Salinas, De musica, 224,1; text: Ditonum Boetij, Ditonum Ptolemaei,
         Hexachordum maius Boetij, Hexachordum maius Ptolemaei, 64, 80. 81. 135]</p>
-      <p xml:id="SALMUS40105">Et tertia, et sexta minor superant eas, quas Boetius instituit etiam vna
-        sesquioctuagesima proportione, vt hae decriptiones ostendunt.</p>
+      <p xml:id="SALMUS40105">Et tertia, et sexta minor superant eas, quas Boetius instituit etiam
+        vna sesquioctuagesima proportione, vt hae decriptiones ostendunt.</p>
       <p xml:id="SALMUS40106">[Salinas, De musica, 224,2; text: Semiditonum Ptolemaei, Semiditonum
         Boetij, Hexachordum minus Ptolemaei, Hexachordum maius Boetij, 96, 81, 80, 128]</p>
-      <p xml:id="SALMUS40107">Deinde ipsa rei veritate compulsus, maximam esse vim sesquioctuagesimae
-        proportionis fatetur ad temperandas omnes concinnitates; nec tamen vnde hoc proueniat,
-        diuinare potuit. Et cum neque hoc, neque illud ei satis faceret, ausus est dicere, Geometras
-        melius, quam <pb n="[225]"/>Musicos mensuras interuallorum Harmonicorum inuenisse. Quod si
-        verum est, parum ipsius professoribus Musica mihi debere videtur, si quidem melius
-        Geometrae, quaem illi interualla Musica norunt. Quos autem per Geometras intelligat, nescio:
-        nam si intelligit eos, qui instrumenta Musica certis quibusdam obseruantis dimensionibus
-        conficiunt, errat omnino. Istae enim dimensiones non veritatem ipsam attingunt, quod
-        necessum erat, vt facerent, si Geometricae forent: sed quod proximum est veritati, quaerunt
-        per eas vt Mechanici; vnde postea chordas remittendo, vel intendendo ad aurem instrumenta
-        temperant, vt illis vti possint, nec consonantias vllas perfectas, aut in suis
-        proportionibus constitutas praeter Diapason faciunt. Quod si putat in Musica medietatem
-        Geometricam, quae in quantitate continua melius, quam in discreta reperitur, considerari
-        debere, vt Geometrae faciunt, et non Harmonicam, fallitur vehementer, vt superius
-        demonstratum est. Et si fortassis illum mouebat, quod in Musicis instrumentis duo toni, vt
-        re: et re, mi, sunt aequales debebat considerare, id vsus gratia fieri (vt saepe diximus) et
-        suo loco demonstratum est: non quod ita ratio Harmonica postulet fieri. Ex eo enim sequitur,
-        prope omnes consonantias in Musicis instrumentis, praeter Diapason, imperfectas, hoc est,
-        non in suis legitimis proportionibus inueniri, cuius rationem ille nunquam diuinauit: sed
-        eas suapte natura imperfectas esse putauit, et solam Diapason propter eius aequitatem esse
-        perfectam: aequitatem autem dicit inesse in Diapason, quia Ptolemaeus eam aequisonantiam
-        vocat propter aequalitatem excessus, quae est in dupla cum eo, quod exceditur. In quo
-        vehementer errat: nam si ille instrumentum iuxta genus Diatonicum Ptolemaei per vnum
-        Diapason temperasset, omnes consonantias perfectas inuenire potuisset, et suis legitimis
-        proportionibus respondentes. Errauit etiam vehementissime, et contra sensus, et contra
-        rationis iudicium, cum dixit capite quadragesimo secundi libri de Harmonia instrumentali;
-        omnes consonantias alterari a suis legitimis proportionibus, atque id naturaliter expetere
-        propter suauiorem concordiam, vt ipse ait. Nequaquam enim hoc verum est; non enim
-        alterantur, vt suauiorem faciant concordiam: sed vt vitemus multiplicitatem sonorum, et
-        propter vsus etiam commoditatem. Quandoquidem ratio postulat, vt quanto vnumquodque
-        interuallum perfectius est ad intelligendum, tanto etiam ad audiendum sit suauius. Atque
-        experientia hoc manifestum faciet ad aurem consonantias perpendenti; ea enim quae in sua
-        legitima proportione erit constituta, suauissimum concentum auribus reddet. sed qui errores
-        Franchini colligere volet, legat ipsius opera, vbi passim illi occurrent: nobis hos
-        tetigisse sit satis.</p>
-      <p xml:id="SALMUS40108">Quonam pacto Henricus Glareanus in suo Dodecachordo Harmonica interualla
-        maxima cum facilitate dixerit inueniri; et quid de ipsius positione censendum sit. CAPVT
-        XXXI.</p>
+      <p xml:id="SALMUS40107">Deinde ipsa rei veritate compulsus, maximam esse vim
+        sesquioctuagesimae proportionis fatetur ad temperandas omnes concinnitates; nec tamen vnde
+        hoc proueniat, diuinare potuit. Et cum neque hoc, neque illud ei satis faceret, ausus est
+        dicere, Geometras melius, quam <pb n="[225]"/>Musicos mensuras interuallorum Harmonicorum
+        inuenisse. Quod si verum est, parum ipsius professoribus Musica mihi debere videtur, si
+        quidem melius Geometrae, quaem illi interualla Musica norunt. Quos autem per Geometras
+        intelligat, nescio: nam si intelligit eos, qui instrumenta Musica certis quibusdam
+        obseruantis dimensionibus conficiunt, errat omnino. Istae enim dimensiones non veritatem
+        ipsam attingunt, quod necessum erat, vt facerent, si Geometricae forent: sed quod proximum
+        est veritati, quaerunt per eas vt Mechanici; vnde postea chordas remittendo, vel intendendo
+        ad aurem instrumenta temperant, vt illis vti possint, nec consonantias vllas perfectas, aut
+        in suis proportionibus constitutas praeter Diapason faciunt. Quod si putat in Musica
+        medietatem Geometricam, quae in quantitate continua melius, quam in discreta reperitur,
+        considerari debere, vt Geometrae faciunt, et non Harmonicam, fallitur vehementer, vt
+        superius demonstratum est. Et si fortassis illum mouebat, quod in Musicis instrumentis duo
+        toni, vt re: et re, mi, sunt aequales debebat considerare, id vsus gratia fieri (vt saepe
+        diximus) et suo loco demonstratum est: non quod ita ratio Harmonica postulet fieri. Ex eo
+        enim sequitur, prope omnes consonantias in Musicis instrumentis, praeter Diapason,
+        imperfectas, hoc est, non in suis legitimis proportionibus inueniri, cuius rationem ille
+        nunquam diuinauit: sed eas suapte natura imperfectas esse putauit, et solam Diapason propter
+        eius aequitatem esse perfectam: aequitatem autem dicit inesse in Diapason, quia Ptolemaeus
+        eam aequisonantiam vocat propter aequalitatem excessus, quae est in dupla cum eo, quod
+        exceditur. In quo vehementer errat: nam si ille instrumentum iuxta genus Diatonicum
+        Ptolemaei per vnum Diapason temperasset, omnes consonantias perfectas inuenire potuisset, et
+        suis legitimis proportionibus respondentes. Errauit etiam vehementissime, et contra sensus,
+        et contra rationis iudicium, cum dixit capite quadragesimo secundi libri de Harmonia
+        instrumentali; omnes consonantias alterari a suis legitimis proportionibus, atque id
+        naturaliter expetere propter suauiorem concordiam, vt ipse ait. Nequaquam enim hoc verum
+        est; non enim alterantur, vt suauiorem faciant concordiam: sed vt vitemus multiplicitatem
+        sonorum, et propter vsus etiam commoditatem. Quandoquidem ratio postulat, vt quanto
+        vnumquodque interuallum perfectius est ad intelligendum, tanto etiam ad audiendum sit
+        suauius. Atque experientia hoc manifestum faciet ad aurem consonantias perpendenti; ea enim
+        quae in sua legitima proportione erit constituta, suauissimum concentum auribus reddet. sed
+        qui errores Franchini colligere volet, legat ipsius opera, vbi passim illi occurrent: nobis
+        hos tetigisse sit satis.</p>
+      <p xml:id="SALMUS40108">Quonam pacto Henricus Glareanus in suo Dodecachordo Harmonica
+        interualla maxima cum facilitate dixerit inueniri; et quid de ipsius positione censendum
+        sit. CAPVT XXXI.</p>
       <p xml:id="SALMUS40109">HEnricus Glareanus fuit quidem vir in omnibus bonis artibus apprime
         eruditus, et qui multa sui ingenij monimenta in lucem dedit. Scripsit enim Geographiam non
         minus vtilem, quam breuem, et dilucidam, quae in multis legitur scholis: fecit etiam in
@@ -2146,17 +2172,17 @@
         432. 374. II. V. VIII. X. III. VI. IX. I. IIII. VII.] <figure>
           <graphic url="/images/SALMUS4_09GF.gif"/>
         </figure></p>
-      <p xml:id="SALMUS40111">In qua positione primum non possum non admirari, hominem in bonis literis
-        multum diuque versatum, qui sibi persuaserit, omnes antiquos, qui Musicam exercebant, per
-        numerorum rationes instrumenta, quibus vtebantur, temperare solitos fuisse: ac non potius ad
-        aurem, vt recentiores omens Practici faciunt. Numerorum enim rationes speculandi magis
-        gratia, quam operandi consideratae sunt a Pythagora, vt consonantias, et reliqua Musica
-        interualla ab incerto aurium arbitrio ad certum rationis iudicium reuocaret, vt saepe iam
-        dictum est. Sensus tamen ad omnia munia obeunda semper fuit optimus iudex: nam quo pacto
-        bonus poterit esse cocus, qui gusto non sit praeditus delicato? neque eximius poterit esse
-        pictor, qui eruditos (vt ita loquar) non habeat oculos. Quare nec etiam Musicam quisquam
-        optime poterit exercere, cui purgatae non sint aures. Deinde quaesitum a Glareano velim,
-        vtrum illas consonantias tantum velit habere perfectionis, quantum eis sensus iudicio
+      <p xml:id="SALMUS40111">In qua positione primum non possum non admirari, hominem in bonis
+        literis multum diuque versatum, qui sibi persuaserit, omnes antiquos, qui Musicam
+        exercebant, per numerorum rationes instrumenta, quibus vtebantur, temperare solitos fuisse:
+        ac non potius ad aurem, vt recentiores omens Practici faciunt. Numerorum enim rationes
+        speculandi magis gratia, quam operandi consideratae sunt a Pythagora, vt consonantias, et
+        reliqua Musica interualla ab incerto aurium arbitrio ad certum rationis iudicium reuocaret,
+        vt saepe iam dictum est. Sensus tamen ad omnia munia obeunda semper fuit optimus iudex: nam
+        quo pacto bonus poterit esse cocus, qui gusto non sit praeditus delicato? neque eximius
+        poterit esse pictor, qui eruditos (vt ita loquar) non habeat oculos. Quare nec etiam Musicam
+        quisquam optime poterit exercere, cui purgatae non sint aures. Deinde quaesitum a Glareano
+        velim, vtrum illas consonantias tantum velit habere perfectionis, quantum eis sensus iudicio
         conferre valebimus: an aliquae ponendae sint imperfectae? Quod si dicat perfectissimas,
         quoad eius fieri possit, ponendas esse; non ipse negabit, eam Diapente consonantiam fore
         perfectissimam, quae in sesquialtera proportione fuerit constituta. Atque ita in Pythagorae
@@ -2165,7 +2191,8 @@
         errrorem: eadem enim sequentur absurda ex hac, quae ex Pythagoraeorum positione sequi
         demonstrata sunt. Nec solum hoc erit manifestum numerorum rationes consideranti, sed etiam
         tantum ad sensus iudicium perfectas Diapente consonantias facere volenti. Qui inueniet omnes
-        Diapason, et Diapente, et Diatessaron consonantias in sua perfectione <pb n="[228]"/>positas, non tamen inueniet tertias vllas maiores, neque minores, nec Hexachorda maiora,
+        Diapason, et Diapente, et Diatessaron consonantias in sua perfectione <pb n="[228]"
+        />positas, non tamen inueniet tertias vllas maiores, neque minores, nec Hexachorda maiora,
         et minora, nec Semitonium illud, per quod mi, fa, pronuntiamus, nec Semitonium minus, quam
         Diesim vocant Practici. Quod si imperfectas ponendas dicat, ab eo scire velim, quanta haec
         esse debeat imperfectio: tametsi quantum ego coniectare possum, nunquam ille imperfectas
@@ -2183,10 +2210,10 @@
         ageremus, satis atque super examinati sunt. Quam ob rem hic plura dicere superuacaneum esse
         duximus. Atque haec de eius positione circa Harmonicorum interuallorum dispositionem, sit
         satis dixisse.</p>
-      <p xml:id="SALMUS40112">De Ludouici Folliani speculationibus, et quod in multis optime senserit,
-        in quibusdam tamen hallucinatus fuerit. CAPVT XXXII.</p>
-      <p xml:id="SALMUS40113">NVnc autem de Ludouici Folliani speculationibus nunquam hactenus (vt ipse
-        ait) tentatis, aliquid dicamus. Nec possumus negare, quin Ludouicus Follianus optime
+      <p xml:id="SALMUS40112">De Ludouici Folliani speculationibus, et quod in multis optime
+        senserit, in quibusdam tamen hallucinatus fuerit. CAPVT XXXII.</p>
+      <p xml:id="SALMUS40113">NVnc autem de Ludouici Folliani speculationibus nunquam hactenus (vt
+        ipse ait) tentatis, aliquid dicamus. Nec possumus negare, quin Ludouicus Follianus optime
         considerauerit omnium sonorum, qui sunt intra Diapason interualla, atque illa aptissime
         disposuerit: sed in quibusdam mihi defecisse videtur, vt mox ostendam. Et primum dicimus,
         quod illius speculationes non sunt nouem, (vt ipse putauit) nam partitio, quam ipse facit,
@@ -2209,7 +2236,8 @@
         speculationes, modo sint verae, et in quibus studiosorum ingenia possint conquiescere.
         Atque, vt eas examinare incipiamus, mihi Follianus non recte considerasse videtur ordinem
         ponendi genera proportionum. Ille enim non, vt Boetius, primum simplicia multiplex, et
-        superparticulare, et superpartiens, et postea composita videlicet multiplex <pb n="[229]"/>superparticulare, et multiplex superpartiens posuit: Sed putans tanto vnumquodque genus
+        superparticulare, et superpartiens, et postea composita videlicet multiplex <pb n="[229]"
+        />superparticulare, et multiplex superpartiens posuit: Sed putans tanto vnumquodque genus
         esse nobilius, quanto in paucioribus numeris prima ipsius proportionis species reperiretur,
         sic genera ordinauit, vt prius multiplex superparticulare poneret, quam superpartiens. Quia
         dupla sesquialtera, quae prima illius generis species est, a quinque ad duo consideratur,
@@ -2242,10 +2270,10 @@
         in quibus de Orpheo loquens ait,</p>
       <p xml:id="SALMUS40114">Nec non Threicius longa cum veste sacerdos</p>
       <p xml:id="SALMUS40115">Obloquitur numeris septem discrimina vocum.</p>
-      <p xml:id="SALMUS40116">habent eum sensum, quem Follianus putat, vt per septem discrimina vocum,
-        septem consonantias, quae sunt intra Diapason intelligamus: quamuis Franchinus prior illo a
-        nonnullis ita dicat intelligi. Non enim dicit septem discrimina consonantiarum, sed vocum:
-        quas septem esse ostendit versus ille eiusdem Maronis.</p>
+      <p xml:id="SALMUS40116">habent eum sensum, quem Follianus putat, vt per septem discrimina
+        vocum, septem consonantias, quae sunt intra Diapason intelligamus: quamuis Franchinus prior
+        illo a nonnullis ita dicat intelligi. Non enim dicit septem discrimina consonantiarum, sed
+        vocum: quas septem esse ostendit versus ille eiusdem Maronis.</p>
       <p xml:id="SALMUS40117">Est mihi disparibus septem compacta cicutis</p>
       <p xml:id="SALMUS40118">fistula</p>
       <p xml:id="SALMUS40119">aut octo sonos septem interuallis distinctos, vt ait Cicero. quia
@@ -2322,43 +2350,44 @@
         Ludouici Folliani positionibus notare voluimus, qui in reliquis suis speculationibus multo
         magis ad harmonicae rationis veritatem, quam caeteri omnes cum antiqui tum recentiores
         accessisse, mihi visus est.</p>
-      <p xml:id="SALMUS40122">De positionibus Iosephi Zarlini Clodiensis, qui vltimus omnium scripsit
-        institutiones, et demonstrationes Harmonicas, in quibus omnes, qui ante ipsum Musica de re
-        scripserunt, facile superauit. CAPVT XXXIII.</p>
-      <p xml:id="SALMUS40123">VLtimus tandem omnium paucis ab hinc annis Iosephus Zarlinus Clodiensis
-        edidit super hac re duo volumina: quorum alteri de Harmonicis institutionibus, altri de <pb n="[232]"/>Harmonicis demonstrationibus titulum fecit, vir quidem in vtraque Musicae parte
-        exercitatissimus. Fuit enim in his, quae ad Praxim attinent, Adriani Vilartij simphonetarum
-        sui temporis celeberrimi discipulus, et eius in schola apud Venetos successor, et ea quae ad
-        theoresim spectant, multo melius quam ij, qui ante ipsum scripserunt, videtur intellexisse.
-        Scripsit autem Italo sermone, quamuis Latine, et Graece e satis doctus appareat, aut propter
-        Latini sermonis ignaros (quorum non paruus est numerus) aut quo vernaculam linguam omnium
-        disciplinarum esse capacem ostenderet. Sed inter plurima, quae optime scripsit, non mirum
-        alicui videri debebit, si quaedam praetermisisse, et quaedam inuenietur non satis
-        animaduertisse: ex quibus aliqua nos hic breuiter adnotabimus. Et primum Musicam vniuerse
-        acceptam definit, quae quoniam analogice de Mundana, et Humana, ac Instrumentali dicitur,
-        prius erat diuidenda, quam definienda. Deinde ipsius diuisio non satis conuenienter facta
-        fuisse videtur: nam vt omissis prioribus diuisionibus ad instrumentalis, siue (vt ipse
-        vocat) Organicae diuisionem veniamus, eam in Naturalem, et Artificialem diuidit, vt alia
-        sit, quae vocibus humanis, alia quae artificialibus conficitur instrumentis: cum haec vna,
-        atque eadem ab omnibus antiquis esse censeatur. Quod ostendit Boetius, Musicam
-        instrumentalem esse definiens, quae in vocibus, aut Musicis instrumentis, vt cithara, et
-        typijs constituta est. Rursus ipsam artificialem diuidit in Planam, siue Vniformem, et
-        Figuratam, aut Multiformem ex vna parte: et Rhythmicam, et Metricam ex altera. In quo
-        bifariam videtur hallucinari: tum quia Plana, et Figurata, et Rhythmica, et Metrica aeque
-        naturales sunt, atque artificiales: tum vel maxime fallitur, quia putat Planam, et Figuratam
-        in notis, ac verbis reperiri: Rhythmicam autem, et Metricam solum in verbis, vt in oratione
-        soluta, et carmine. Quod Diuus Augustinus ostendit ita non esse, cum Musicam a Grammatica
-        per hoc distinguit, quod Grammatica longitudinem, et breuitatem syllabarum in verbis humanae
-        voluntatis arbitrio positam considerat; Musica vero multis alijs in rebus, vt in tympanis,
-        stillicidijs, et in saltationibus, et denique in pulsibus venarum Rythmum naturaliter inesse
-        deprehendit. Et metra ipsa non minus in modulationibus, quae sine verbis fiunt, quam in his,
-        quibus verba sunt adiuncta, reperiuntur. postea mirum in modum sese torquet, cum sonum
-        asserit in cantu indiuisibilem esse, velut punctum in linea, et tempus ei dicit accidere,
-        quod necesse sit esse longum, aut breue: vnde cogitur, diuisibilem esse fateri. Et non
-        animaduertit, sonum ab Harmonico considerari tanquam Harmoniae principium, atque ita
-        indiuisibilem esse debere. Neque ab eo considerari tempus, aut moram, quae in ipso fit: sed
-        a Rhythmico, qui secundam partem Musicae genere; diuersam a prima considerat. Cui breue
-        tempus est in Rhythmo indiuisibile, vt vnitas in numeris, et sonus in Harmonia. Neque
+      <p xml:id="SALMUS40122">De positionibus Iosephi Zarlini Clodiensis, qui vltimus omnium
+        scripsit institutiones, et demonstrationes Harmonicas, in quibus omnes, qui ante ipsum
+        Musica de re scripserunt, facile superauit. CAPVT XXXIII.</p>
+      <p xml:id="SALMUS40123">VLtimus tandem omnium paucis ab hinc annis Iosephus Zarlinus
+        Clodiensis edidit super hac re duo volumina: quorum alteri de Harmonicis institutionibus,
+        altri de <pb n="[232]"/>Harmonicis demonstrationibus titulum fecit, vir quidem in vtraque
+        Musicae parte exercitatissimus. Fuit enim in his, quae ad Praxim attinent, Adriani Vilartij
+        simphonetarum sui temporis celeberrimi discipulus, et eius in schola apud Venetos successor,
+        et ea quae ad theoresim spectant, multo melius quam ij, qui ante ipsum scripserunt, videtur
+        intellexisse. Scripsit autem Italo sermone, quamuis Latine, et Graece e satis doctus
+        appareat, aut propter Latini sermonis ignaros (quorum non paruus est numerus) aut quo
+        vernaculam linguam omnium disciplinarum esse capacem ostenderet. Sed inter plurima, quae
+        optime scripsit, non mirum alicui videri debebit, si quaedam praetermisisse, et quaedam
+        inuenietur non satis animaduertisse: ex quibus aliqua nos hic breuiter adnotabimus. Et
+        primum Musicam vniuerse acceptam definit, quae quoniam analogice de Mundana, et Humana, ac
+        Instrumentali dicitur, prius erat diuidenda, quam definienda. Deinde ipsius diuisio non
+        satis conuenienter facta fuisse videtur: nam vt omissis prioribus diuisionibus ad
+        instrumentalis, siue (vt ipse vocat) Organicae diuisionem veniamus, eam in Naturalem, et
+        Artificialem diuidit, vt alia sit, quae vocibus humanis, alia quae artificialibus conficitur
+        instrumentis: cum haec vna, atque eadem ab omnibus antiquis esse censeatur. Quod ostendit
+        Boetius, Musicam instrumentalem esse definiens, quae in vocibus, aut Musicis instrumentis,
+        vt cithara, et typijs constituta est. Rursus ipsam artificialem diuidit in Planam, siue
+        Vniformem, et Figuratam, aut Multiformem ex vna parte: et Rhythmicam, et Metricam ex altera.
+        In quo bifariam videtur hallucinari: tum quia Plana, et Figurata, et Rhythmica, et Metrica
+        aeque naturales sunt, atque artificiales: tum vel maxime fallitur, quia putat Planam, et
+        Figuratam in notis, ac verbis reperiri: Rhythmicam autem, et Metricam solum in verbis, vt in
+        oratione soluta, et carmine. Quod Diuus Augustinus ostendit ita non esse, cum Musicam a
+        Grammatica per hoc distinguit, quod Grammatica longitudinem, et breuitatem syllabarum in
+        verbis humanae voluntatis arbitrio positam considerat; Musica vero multis alijs in rebus, vt
+        in tympanis, stillicidijs, et in saltationibus, et denique in pulsibus venarum Rythmum
+        naturaliter inesse deprehendit. Et metra ipsa non minus in modulationibus, quae sine verbis
+        fiunt, quam in his, quibus verba sunt adiuncta, reperiuntur. postea mirum in modum sese
+        torquet, cum sonum asserit in cantu indiuisibilem esse, velut punctum in linea, et tempus ei
+        dicit accidere, quod necesse sit esse longum, aut breue: vnde cogitur, diuisibilem esse
+        fateri. Et non animaduertit, sonum ab Harmonico considerari tanquam Harmoniae principium,
+        atque ita indiuisibilem esse debere. Neque ab eo considerari tempus, aut moram, quae in ipso
+        fit: sed a Rhythmico, qui secundam partem Musicae genere; diuersam a prima considerat. Cui
+        breue tempus est in Rhythmo indiuisibile, vt vnitas in numeris, et sonus in Harmonia. Neque
         videtur intellexisse durationem in sonis ex vno sono fieri non posse; quamuis apud Boetium
         legere potuerit primo libro suae Musicae capite tertio, vbi ait. Neque quoties chorda
         pellitur, vnus edi tantum putandus est sonus, aut vnam in his esse percussionem: sed totie
@@ -2421,7 +2450,8 @@
         erare, quia nullam differentiam animaduertit esse inter modos, et tonos; neque credit, tonos
         inter se solum acumine, et grauitate differre: quod ita se habere, superius satis, atque
         abunde demonstratum est. Neque volumus hic ad minutissima quaeque descendere, ponit enim
-        inter minora interualla schisma, et Diaschisma: quae quamuis antiqui considerauerint, <pb n="[234]"/>et hoc Semitonij minoris, et illud Commatis dimidium esse dixerint, nec tamen
+        inter minora interualla schisma, et Diaschisma: quae quamuis antiqui considerauerint, <pb
+          n="[234]"/>et hoc Semitonij minoris, et illud Commatis dimidium esse dixerint, nec tamen
         hoc, neque illud in perfectis instrumentis, aut in his, quibus vtimur imperfectis, vnquam
         inuenta sunt, nec inueniri possunt. Neque existimare debuit, haec instrumenta imperfecta,
         quae per Commatis participationem fiunt, apud antiquos in vsu non fuisse: nam semper

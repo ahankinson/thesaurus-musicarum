@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Tractatus de musica</title>
         <title type="abbrev">ANO12TRA</title>
-        <author>Anonymous XII</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Anonymous XII</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Oliver B. Ellsworth</persName>
         </respStmt>
-        <date>1991</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1991">1991</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptorum de musica medii aevi nova series a Gerbertina altera</emph>, 4 vols., ed.
@@ -62,15 +72,15 @@
       <p xml:id="ANO12TRA0004">Quoniam per magis noti notitiam ad ignoti facilius devenitur notitiam
         tamquam per medium ad rei veritatem nos deducemus: idcirco tibi in hujus opusculi compendio
         largiturus sum musice cantus figurati traditionem, subdividendo in quindecim capitula.</p>
-      <p xml:id="ANO12TRA0005">In primo capitulo aliqua generalia sufficienter tibi tradam. In secundo
-        capitulo, de numerorum speciebus. In tertio, de modo. In quarto, de tempore. In quinto, de
-        prolatione. In sexto, de pausis. In septimo, de imperfectione. In octavo, de punctis. In
-        nono, de perfectione. In decimo, de signis. In undecimo, de syncopatione. In duodecimo, de
-        alteratione. In tredecimo, de duplicatione. In quartodecimo, de ligaturis. In quindecimo et
-        ultra, de proportionibus communiter usitatis.</p>
+      <p xml:id="ANO12TRA0005">In primo capitulo aliqua generalia sufficienter tibi tradam. In
+        secundo capitulo, de numerorum speciebus. In tertio, de modo. In quarto, de tempore. In
+        quinto, de prolatione. In sexto, de pausis. In septimo, de imperfectione. In octavo, de
+        punctis. In nono, de perfectione. In decimo, de signis. In undecimo, de syncopatione. In
+        duodecimo, de alteratione. In tredecimo, de duplicatione. In quartodecimo, de ligaturis. In
+        quindecimo et ultra, de proportionibus communiter usitatis.</p>
       <p xml:id="ANO12TRA0006">Capitulum primum.</p>
-      <p xml:id="ANO12TRA0007">Est quomodo musica diffiniatur. Diffinitur ergo sic: Musica est scientia
-        liberalis modum cantandi artificialiter administrans; vel sic secundum philosophum
+      <p xml:id="ANO12TRA0007">Est quomodo musica diffiniatur. Diffinitur ergo sic: Musica est
+        scientia liberalis modum cantandi artificialiter administrans; vel sic secundum philosophum
         Pythagorum: Armonia est ratio numerorum in acuto vel gravi. Vel sic: Musica est scientia
         docens de vocibus et vocum proportionibus. Sed Ysidorus, quarto ethymologicarum, sic etiam
         diffinit: musica est peritia modulationis in discreto sono cantuque consistens. Et dividitur
@@ -80,9 +90,10 @@
         confortans, dormientes evigilans, vigilantes insomnians, invidos confundens, nutriens
         amorem, honorificans possessorem, finem debitam erit assecuta, finaliter ad laudem Dei est
         instituta.</p>
-      <p xml:id="ANO12TRA0008">Hec quidem ipsa mensuralis musica operatur. Dicitur enim musica a mois
-        grece, et aqua latine, et ycos scientia, quia scientia juxta aquam inventa. <pb n="[476]"/>Quia Pytgagoras ambulans pro solatio invenit fabricam circa aquam ex cujus reflectione
-        malleorum soni fabricate fuerant diverse consonantie, et sic ipse motus fuit ad
+      <p xml:id="ANO12TRA0008">Hec quidem ipsa mensuralis musica operatur. Dicitur enim musica a
+        mois grece, et aqua latine, et ycos scientia, quia scientia juxta aquam inventa. <pb
+          n="[476]"/>Quia Pytgagoras ambulans pro solatio invenit fabricam circa aquam ex cujus
+        reflectione malleorum soni fabricate fuerant diverse consonantie, et sic ipse motus fuit ad
         compositionem hujus artis. Est tamen alia opinio aliquorum dicentium ipsam musicam esse
         inventam a quodam de stipite Cain, nomine Tubal qui erat filius Lamech, ut patet Genesis
         capitulo quinto, ubi ipsum Tubal primum musicorum appellat; et post inventionem musice
@@ -90,18 +101,18 @@
         columnis artem musicalem inscripsit in marmore ne per diluvium aquarum periret, et in
         lateribus ne incendio periret, quas duas columnas narrant in terra Syrie hucusque
         permansisse.</p>
-      <p xml:id="ANO12TRA0009">Est autem tertia opinio aliquorum dicentium ipsam musicam fore inventam
-        per Amphionem. Quarta opinio fuit illorum dicentium ipsam musicam esse repertam per Orpheum,
-        quem philosophi dicunt armonias celorum motibus originaliter accepisse, dicentium: quia
-        ratione confricationis corporum celestium consurgat maxima melodia. Greci tamen asserunt
-        Pythagoram philosophum musice scientie inventorem, ut prima opinio dixit. Audiens enim
-        sonorum disparitatem et melodiam in sonis malleorum, conclusit hoc peramplius humana voce
-        fieri.</p>
-      <p xml:id="ANO12TRA0010">Cui prime opinioni Macrobius philosophus concordat, similiter et Boetius
-        qui hanc artem de greco in latinum transtulit. Hujus itaque musice artis notitia quam
-        utilis, quam delectabilis, quam necessaria existat tam apud modernos quam veteres multorum
-        scripta doctorum patescunt. Sed pro speciali ejus recommendatione probatur necessaria utilis
-        ac delectabilis de quibus per ordinem tibi dicam.</p>
+      <p xml:id="ANO12TRA0009">Est autem tertia opinio aliquorum dicentium ipsam musicam fore
+        inventam per Amphionem. Quarta opinio fuit illorum dicentium ipsam musicam esse repertam per
+        Orpheum, quem philosophi dicunt armonias celorum motibus originaliter accepisse, dicentium:
+        quia ratione confricationis corporum celestium consurgat maxima melodia. Greci tamen
+        asserunt Pythagoram philosophum musice scientie inventorem, ut prima opinio dixit. Audiens
+        enim sonorum disparitatem et melodiam in sonis malleorum, conclusit hoc peramplius humana
+        voce fieri.</p>
+      <p xml:id="ANO12TRA0010">Cui prime opinioni Macrobius philosophus concordat, similiter et
+        Boetius qui hanc artem de greco in latinum transtulit. Hujus itaque musice artis notitia
+        quam utilis, quam delectabilis, quam necessaria existat tam apud modernos quam veteres
+        multorum scripta doctorum patescunt. Sed pro speciali ejus recommendatione probatur
+        necessaria utilis ac delectabilis de quibus per ordinem tibi dicam.</p>
       <p xml:id="ANO12TRA0011">Primo probatur necessaria, quia illa scientia videtur esse necessaria
         sine qua clericus laudes Dei congruenter et debite cantando pronuntiare non potest.
         Principalis scientia est hujus modi ergo, etc. Breve beati Augustini dicentis de vita et
@@ -119,24 +130,24 @@
         canticum novum, quia mirabilia fecit. Idem attestatur in quadam antiphona de omnibus
         sanctis: "In civitate Dei, ibi sonant jugiter carmina sanctorum, cum Angeli et Archangeli
         "Hymnum Deo decantant, ante thronum Dei alleluia, alleiuia".</p>
-      <p xml:id="ANO12TRA0013">Tertio quod sit delectabilis quia de ea dicitur: Hec est illa nobilissima
-        scientia cum qua sancti in devotionibus suis se occupant, peccatores veniam petunt, tristes
-        consolantur et pugnantes animosiores fiunt, ut patet de clangore tube vel aliorum
-        instrumentorum musicalium, quia de quanto clangor tube fit velotior, de tanto animus erit
-        crudelior ad bellandum. Et hec modulatio vocis animum mollem confortat et omnem singulorum
-        fatigationem consolatur. Quod etiam tangit Aristoteles septimo politicorum prorumpens in hec
-        verba: Animalia naturaliter delectantur in musicis instrumentis. Item melodia iratos et
-        aliis <pb n="[477]"/>passionibus occupatos sepe alleniat, ipsos letos faciens, ut patet per
-        Aristotelem in eodem. Item spiritu maligno vexati in sono musicalium instrumentorum lenius
-        se habent, ut legitur primo regum: quod quando spiritus malignus arripuit Saul regem, tulit
-        David citharam percutiens, et sic refocillabatur spiritus Saul et melius se habebat. Item
-        aves, tanquam cantum percipientes incessanter canunt laudantes Deum, cantores sunt. Quare et
-        nos homines rationales cantare et laudare debemus juxta dictum Davidis psalmo quindecimo:
-        Laudent nomen ejus in choro in tympano et psalterio, ubi tangit novem genera instrumentorum
-        musicalium. Dominus igitur si laudatur et glorificatur hic in terris a nobis, glorificabit
-        nos pater ejus qui in celis est, ut ait Dominus in evangelio: quicumque honorificat me,
-        honorificabit eum et pater meus qui in celis est. Sic itaque audisti quod musica sit
-        necessaria et delectabilis.</p>
+      <p xml:id="ANO12TRA0013">Tertio quod sit delectabilis quia de ea dicitur: Hec est illa
+        nobilissima scientia cum qua sancti in devotionibus suis se occupant, peccatores veniam
+        petunt, tristes consolantur et pugnantes animosiores fiunt, ut patet de clangore tube vel
+        aliorum instrumentorum musicalium, quia de quanto clangor tube fit velotior, de tanto animus
+        erit crudelior ad bellandum. Et hec modulatio vocis animum mollem confortat et omnem
+        singulorum fatigationem consolatur. Quod etiam tangit Aristoteles septimo politicorum
+        prorumpens in hec verba: Animalia naturaliter delectantur in musicis instrumentis. Item
+        melodia iratos et aliis <pb n="[477]"/>passionibus occupatos sepe alleniat, ipsos letos
+        faciens, ut patet per Aristotelem in eodem. Item spiritu maligno vexati in sono musicalium
+        instrumentorum lenius se habent, ut legitur primo regum: quod quando spiritus malignus
+        arripuit Saul regem, tulit David citharam percutiens, et sic refocillabatur spiritus Saul et
+        melius se habebat. Item aves, tanquam cantum percipientes incessanter canunt laudantes Deum,
+        cantores sunt. Quare et nos homines rationales cantare et laudare debemus juxta dictum
+        Davidis psalmo quindecimo: Laudent nomen ejus in choro in tympano et psalterio, ubi tangit
+        novem genera instrumentorum musicalium. Dominus igitur si laudatur et glorificatur hic in
+        terris a nobis, glorificabit nos pater ejus qui in celis est, ut ait Dominus in evangelio:
+        quicumque honorificat me, honorificabit eum et pater meus qui in celis est. Sic itaque
+        audisti quod musica sit necessaria et delectabilis.</p>
       <p xml:id="ANO12TRA0014">Capitulum secundum.</p>
       <p xml:id="ANO12TRA0015">De notarum speciebus sunt quinque, scilicet maxima, longa, brevis,
         semibrevis, minima. Sunt autem alie tres note que proprie de speciebus non reputantur, sunt:
@@ -147,18 +158,18 @@
         eius longitudo in proportione ter tritat latidunem, illa nota semper est maxima:
         [MXv,MXvcsdx on staff2]. Et dicitur ex speciebus maxima quia omnibus aliis notis sive
         speciebus major et prolongando in modulando.</p>
-      <p xml:id="ANO12TRA0016">Secunda regula.--Omnis nota quadrata habens filum ductum ex parte dextra
-        sursum aut deorsum si ejusdem note longitudo et latitudo in proportione equales sunt, semper
-        (longa) est. Exemplum: [Lv,Bvcsdx on staff3], et dicitur hec nota longa quia sequentibus
-        major et precedentibus brevior.</p>
+      <p xml:id="ANO12TRA0016">Secunda regula.--Omnis nota quadrata habens filum ductum ex parte
+        dextra sursum aut deorsum si ejusdem note longitudo et latitudo in proportione equales sunt,
+        semper (longa) est. Exemplum: [Lv,Bvcsdx on staff3], et dicitur hec nota longa quia
+        sequentibus major et precedentibus brevior.</p>
       <p xml:id="ANO12TRA0017">Tertia regula.--Omnis nota quadrata nullum filum habens brevis est,
         exemplum: [Bv]. Et dicitur brevis est maxima et longa.</p>
-      <p xml:id="ANO12TRA0018">Quarta regula.--Omnis nota ad modum ovi formata in medio spissa inferius
-        et superius acuta, nullum habens filum, semibrevis est. Exemplum: [Sv], et dicitur
+      <p xml:id="ANO12TRA0018">Quarta regula.--Omnis nota ad modum ovi formata in medio spissa
+        inferius et superius acuta, nullum habens filum, semibrevis est. Exemplum: [Sv], et dicitur
         semibrevis quia brevior est brevi.</p>
-      <p xml:id="ANO12TRA0019">Quinta regula.--Omnis nota in corpore formata ut semibrevis habens filum
-        ductum sursum aut deorsum minima est, exemplum: [Mv,Svcd on staff4], et dicitur minima, quia
-        omnibus superioribus notis est minor.</p>
+      <p xml:id="ANO12TRA0019">Quinta regula.--Omnis nota in corpore formata ut semibrevis habens
+        filum ductum sursum aut deorsum minima est, exemplum: [Mv,Svcd on staff4], et dicitur
+        minima, quia omnibus superioribus notis est minor.</p>
       <p xml:id="ANO12TRA0020">Sexta regula.--Omnis nota in toto formata ut minima colore variata
         semiminima est. Exemplum: [M], vero colore non variata, sed habens uncum datum deorsum in
         dextra parte, simili modo semiminima est, ut hic: [SMv on staff3].</p>
@@ -213,8 +224,8 @@
         </figure></p>
       <p xml:id="ANO12TRA0027">
         <pb n="[479]"/>[CSIII:479,1; text: quinti. sexti. septimi.]</p>
-      <p xml:id="ANO12TRA0028">Sed si illa hic posita non reperiuntur in aliquo cantu, tunc talis cantus
-        de modo majori et minori imperfecto; et hec de modo sufficiant.</p>
+      <p xml:id="ANO12TRA0028">Sed si illa hic posita non reperiuntur in aliquo cantu, tunc talis
+        cantus de modo majori et minori imperfecto; et hec de modo sufficiant.</p>
       <p xml:id="ANO12TRA0029">Capitulum quartum.</p>
       <p xml:id="ANO12TRA0030">Est de tempore. Ubi notandum: quodlibet tempus secundum Aristotelem
         dicitur mensura; secundum priores et posteriores tamen musicos tempus est mensura vocis
@@ -242,8 +253,8 @@
         etc.:</p>
       <p xml:id="ANO12TRA0032">[CSIII:479,2; text: Primi. secundi. tertii. quarti. quinti. sexti.
         septimi. octavi.]</p>
-      <p xml:id="ANO12TRA0033">Sed si illa signa hic posita non reperiuntur in aliquo cantu, tunc talis
-        cantus est de tempore perfecto tam majori quam breviori; et hec brevia de tempore
+      <p xml:id="ANO12TRA0033">Sed si illa signa hic posita non reperiuntur in aliquo cantu, tunc
+        talis cantus est de tempore perfecto tam majori quam breviori; et hec brevia de tempore
         sufficiant.</p>
       <p xml:id="ANO12TRA0034">Capitulum quintum.</p>
       <p xml:id="ANO12TRA0035">Est de prolatione. Ubi sciendum quod prolatio secundum musicum est
@@ -268,24 +279,24 @@
         semibreves cum tribus minimis mixti ordinantur; octavo, quum due pause minimarum ponuntur
         inter duas semibreves inter quas pausas mediat punctus. Exempla horum habentur per
         ordinem:</p>
-      <p xml:id="ANO12TRA0037">[CSIII:480; text: Primi. secundi. tertii. quarti. quinti. sexti. septimi.
-        octavi.]</p>
-      <p xml:id="ANO12TRA0038">Si illa signa hic posita reperiuntur in aliquo cantu, tunc talis cantus
-        est minoris prolationis.</p>
+      <p xml:id="ANO12TRA0037">[CSIII:480; text: Primi. secundi. tertii. quarti. quinti. sexti.
+        septimi. octavi.]</p>
+      <p xml:id="ANO12TRA0038">Si illa signa hic posita reperiuntur in aliquo cantu, tunc talis
+        cantus est minoris prolationis.</p>
       <p xml:id="ANO12TRA0039">Ulterius notandum quod modus tempus et prolatio de quibus dictum est,
         dicuntur gradus speciales artis musice per quos ascenditur tamquam per magis principalia;
         secundo, notandum quod secundum Boetium omne ternarium dicitur perfectum in musica; tertio,
         advertendum quod valor omnium notarum habebitur in hac tabula etc. (Hic non est
         defectus).</p>
       <p xml:id="ANO12TRA0040">Sextum capitulum.</p>
-      <p xml:id="ANO12TRA0041">Est de pausis. Ubi sciendum: Pausa secundum musicum sic diffinitur: est
-        obmissio vocis in quantitate debita alicujus modi facta. Ad cognoscendum autem pausas septem
-        dantur regule. Prima pausa omnia tegens spatia dicitur pausa generalis ubi tam tenor quam
-        discantus et alie voces similiter pausant. Secunda regula: Omnis pausa tria tegens spatia
-        tria valet tempora et hoc communiter in modo perfecto. Tertia regula: Omnis pausa duo tegens
-        spatia duo valet tempora et talis communiter ponitur in modo imperfecto. Quarta regula:
-        Omnis pausa unum tegens spatium unum valet tempus. Quinta regula: Omnis pausa a linea
-        descendens ad medium spatii valet unam semibrevem; sexta regula: Omnis pausa a linea
+      <p xml:id="ANO12TRA0041">Est de pausis. Ubi sciendum: Pausa secundum musicum sic diffinitur:
+        est obmissio vocis in quantitate debita alicujus modi facta. Ad cognoscendum autem pausas
+        septem dantur regule. Prima pausa omnia tegens spatia dicitur pausa generalis ubi tam tenor
+        quam discantus et alie voces similiter pausant. Secunda regula: Omnis pausa tria tegens
+        spatia tria valet tempora et hoc communiter in modo perfecto. Tertia regula: Omnis pausa duo
+        tegens spatia duo valet tempora et talis communiter ponitur in modo imperfecto. Quarta
+        regula: Omnis pausa unum tegens spatium unum valet tempus. Quinta regula: Omnis pausa a
+        linea descendens ad medium spatii valet unam semibrevem; sexta regula: Omnis pausa a linea
         ascendens ad medietatem spatii valet unam minimam et dicitur suspirium quod suspirando
         pausatur. Septima regula: Omnis pausa cum unco a descendens et medietatem spatii valet unam
         semiminimam et talis pausa dicitur acheta (sic). Potest tamen superaddi octava regula que
@@ -298,29 +309,29 @@
       <p xml:id="ANO12TRA0043">Ubi advertendum si plures pause simul ponuntur, tot quot ponuntur tot
         sunt pause sive ascendant sive descendant. Et hec de pausis sufficiant.</p>
       <p xml:id="ANO12TRA0044">Capitulum septimum.</p>
-      <p xml:id="ANO12TRA0045">De imperfectione. Ubi sciendum, quod imperficere est unam notam perfectam
-        imperfectam reddere. Ex qua diffinitione sequitur quod imperfectio solum causatur in illo
-        quod est perfectum scilicet in modo perfecto, tempore perfecto et prolatione perfecta. Ratio
-        quia illud quod perfectum est ulterius perfici non potest, sed bene imperfici. In modo
-        itaque majori perfecto maxima potest imperfici a longa et hoc dupliciter vel a priori vel a
-        posteriori. Exemplum primi: [Lv,MXv on staff3]; exemplum secundi: [MXv,Lv on staff3], in
-        quibus exemplis maxima solum valet duas longas, id est sex tempora. Et hoc est verum si
-        longe sunt perfecte. Si enim essent imperfecte, tunc maxima valet solum quatuor tempora.
-        Secundo maxima imperficitur a brevi virtute longe et hoc tribus modis: Primo, a priori, ut
-        hic: [Bv,MXv on staff3], ubi maxima solum valet quinque tempora; secundo, a posterioiri:
-        [MXv,Bv on staff3], ubi iterum maxima solum valet quinque tempora; tertio, imperficitur tam
-        a priori quam a posteriori, ut hic: [Bv,MXv,Bv on staff3], ubi maxima solum valet quatuor
-        tempora propter duas breves, et amplius non potest imperfici nec minui, saltem ratione
-        longarum. Sed in modo minori perfecta longa imperfici potest a brevi et dupliciter vel a
-        priori, ut hic: [Bv,Bv on staff2], vel a posteriori, ut hic: [Lv,Bv on staff3]. In quibus
-        exemplis longa solum valet duo tempora; secundo, longa imperficitur a semibrevi virtute
-        brevis. Primo, a priori, ut hic: [Sv,Lv on staff3], ubi longa solum valet octo semibreves;
-        secundo, a posteriori, ut hic: [Lv,Sv on staff3], ubi longa etiam valet 8 semibreves;
-        tertio, a priori et posteriori, ut hic: [Sv,Lv,Sv on staff3], ubi longa solum valet septem
-        semibreves.</p>
-      <p xml:id="ANO12TRA0046">Et sciendum est quod imperfectio longarum per semibreves rara est, sed
-        communior longa de modo imperfecto imperficitur non virtute sui, quia prius imperfecta est
-        cum solum valet duo tempora; attamen virtute brevium in ea inclusarum imperfici potest a
+      <p xml:id="ANO12TRA0045">De imperfectione. Ubi sciendum, quod imperficere est unam notam
+        perfectam imperfectam reddere. Ex qua diffinitione sequitur quod imperfectio solum causatur
+        in illo quod est perfectum scilicet in modo perfecto, tempore perfecto et prolatione
+        perfecta. Ratio quia illud quod perfectum est ulterius perfici non potest, sed bene
+        imperfici. In modo itaque majori perfecto maxima potest imperfici a longa et hoc dupliciter
+        vel a priori vel a posteriori. Exemplum primi: [Lv,MXv on staff3]; exemplum secundi: [MXv,Lv
+        on staff3], in quibus exemplis maxima solum valet duas longas, id est sex tempora. Et hoc
+        est verum si longe sunt perfecte. Si enim essent imperfecte, tunc maxima valet solum quatuor
+        tempora. Secundo maxima imperficitur a brevi virtute longe et hoc tribus modis: Primo, a
+        priori, ut hic: [Bv,MXv on staff3], ubi maxima solum valet quinque tempora; secundo, a
+        posterioiri: [MXv,Bv on staff3], ubi iterum maxima solum valet quinque tempora; tertio,
+        imperficitur tam a priori quam a posteriori, ut hic: [Bv,MXv,Bv on staff3], ubi maxima solum
+        valet quatuor tempora propter duas breves, et amplius non potest imperfici nec minui, saltem
+        ratione longarum. Sed in modo minori perfecta longa imperfici potest a brevi et dupliciter
+        vel a priori, ut hic: [Bv,Bv on staff2], vel a posteriori, ut hic: [Lv,Bv on staff3]. In
+        quibus exemplis longa solum valet duo tempora; secundo, longa imperficitur a semibrevi
+        virtute brevis. Primo, a priori, ut hic: [Sv,Lv on staff3], ubi longa solum valet octo
+        semibreves; secundo, a posteriori, ut hic: [Lv,Sv on staff3], ubi longa etiam valet 8
+        semibreves; tertio, a priori et posteriori, ut hic: [Sv,Lv,Sv on staff3], ubi longa solum
+        valet septem semibreves.</p>
+      <p xml:id="ANO12TRA0046">Et sciendum est quod imperfectio longarum per semibreves rara est,
+        sed communior longa de modo imperfecto imperficitur non virtute sui, quia prius imperfecta
+        est cum solum valet duo tempora; attamen virtute brevium in ea inclusarum imperfici potest a
         semibrevi tribus modi. Primo, a priori, ut hic: [Lv,Sv on staff3], ubi longa valet quinque
         semibreves; secundo, a posteriori ut hic: [Sv,Lv on staff3], ubi longa iterum valet quinque
         semibreves; tertio, ante et post, ut hic: [Sv,Lv,Sv on staff3], ubi longa solum valet
@@ -337,8 +348,8 @@
         brevem et cetera. Ex quo ergo imperfectio habet fieri per pausas, quare capitulum de pausis
         merito precedit presens; et hec de imperfectione autem sufficiant.</p>
       <p xml:id="ANO12TRA0048">Capitulum octavum.</p>
-      <p xml:id="ANO12TRA0049">De punctis. Ubi sciendum quod licet punctus in quantitate minimus sit,
-        tamen in potestate maximus, ut videbitur. Et est triplex scilicet augmentationis et
+      <p xml:id="ANO12TRA0049">De punctis. Ubi sciendum quod licet punctus in quantitate minimus
+        sit, tamen in potestate maximus, ut videbitur. Et est triplex scilicet augmentationis et
         divisionis, augmentationis et divisionis simul. De natura triplicati puncti dantur tres
         regule: Prima regula quod punctus augmentationis figuram imperfectam de sui natura perficit,
         scilicet addendo sibi dimidietatem sui valoris seu augmentari facit. Unde ait Boetius: omne
@@ -459,7 +470,8 @@
         tria tempora per alterationem ultime brevis, ut hic:[Lv,Bv,Bv,Bv,Bv,Lv on staff3], in quo
         exemplo quelibet longa valet tria tempora et ultima brevis valet duo tempora per
         alterationem et quelibet aliarum brevium valet unum tempus. Quantum ad secundum: alteratio
-        in tempore perfecti sic fieri habet quum due semibreves mediant inter duas breves, <pb n="[485]"/>tunc secunda semibrevis valet duas semibreves per alterationem, ut hic:
+        in tempore perfecti sic fieri habet quum due semibreves mediant inter duas breves, <pb
+          n="[485]"/>tunc secunda semibrevis valet duas semibreves per alterationem, ut hic:
         [Bv,Sv,Sv,Bv on staff2], et hoc est verum, si punctus divisionis non mediat inter illas duas
         semibreves, quia si sic, tunc prima brevis imperficitur a prima semibrevi et secunda ab
         altera, ut hic: [Bv,Sv,pt,Sv,Bv on staff2], in quo exemplo quelibet brevis valet duas
@@ -479,17 +491,17 @@
         ultima semibrevis valet duas semibreves. Et vocatur semibrevis altera, id est alterata, et
         hoc est verum si punctus non mediat inter ultimam et penultimam semibreves, qui si sic, tam
         ultima quam etiam prima imperficiuntur, ut hic: [Bv,Sv,Sv,Sv,Sv,pt,Sv,Bv on staff2].</p>
-      <p xml:id="ANO12TRA0058">Quantum ad tertium: Alteratio in prolatione majori et breviori perfectis
-        sic fieri habet: quum due minime mediant inter duas semibreves, tunc secunda debet alterari
-        que vocatur minima altera, id est alterata, ut hic: [Sv,Mv,Mv,Sv on staff3], in quo exemplo
-        quelibet semibrevis valet tres minimas et prima minima seipsam et secunda minima alteratur
-        et hoc est verum si non mediat punctus divisionis inter duas minimas, quia si sic, tunc
-        prima minima imperficit primam semibrevem et secunda secundam, ut hic: [Sv,Mv,pt,Mv,Sv on
-        staff3], in quo exemplo quelibet semibrevis valet duas minimas et quelibet minima seipsam.
-        Si autem plures minime mediavrerint inter duas semibreves, tunc considerandum est numerus
-        illarum minimarum utrum sit numerus ternarius; si sic tunc quelibet semibrevis valet tres
-        minimas et semper tres minime valent unam semibrevem, ut hic: [Sv,Mv,Mv,Mv,Sv on staff3]. Si
-        autem minima fuerit superflua, tunc prima imperficit primam semibrevem, ut hic:
+      <p xml:id="ANO12TRA0058">Quantum ad tertium: Alteratio in prolatione majori et breviori
+        perfectis sic fieri habet: quum due minime mediant inter duas semibreves, tunc secunda debet
+        alterari que vocatur minima altera, id est alterata, ut hic: [Sv,Mv,Mv,Sv on staff3], in quo
+        exemplo quelibet semibrevis valet tres minimas et prima minima seipsam et secunda minima
+        alteratur et hoc est verum si non mediat punctus divisionis inter duas minimas, quia si sic,
+        tunc prima minima imperficit primam semibrevem et secunda secundam, ut hic: [Sv,Mv,pt,Mv,Sv
+        on staff3], in quo exemplo quelibet semibrevis valet duas minimas et quelibet minima
+        seipsam. Si autem plures minime mediavrerint inter duas semibreves, tunc considerandum est
+        numerus illarum minimarum utrum sit numerus ternarius; si sic tunc quelibet semibrevis valet
+        tres minimas et semper tres minime valent unam semibrevem, ut hic: [Sv,Mv,Mv,Mv,Sv on
+        staff3]. Si autem minima fuerit superflua, tunc prima imperficit primam semibrevem, ut hic:
         [Sv,Mv,Mv,Mv,Mv,Sv on staff3] in quo exemplo prima semibrevis valet duas minimas et ultima
         semibrevis valet tres minimas et quelibet minima seipsam; et hoc est verum, si punctus
         divisionis non precedit immediate ultimam minimam, quia si sic, tunc ultima minima
@@ -499,16 +511,16 @@
         valere tres minimas et hoc per ultime minime alterationem, ut hic: [Sv,Mv,Mv,Mv,Mv,Mv,Sv on
         staff3], et hec de alteratione sufficiant.</p>
       <p xml:id="ANO12TRA0059">Capitulum tredecimum.</p>
-      <p xml:id="ANO12TRA0060">Est de duplicatione. Ubi sciendum quod secundum musicum duplicatio sic
-        diffinitur: Est unius semibrevis clause inter duas minimas respective se tenentis divisio
-        cujus declaratio <pb n="[486]"/>sic patet: Quum una semibrevis mediat inter duas minimas in
-        breviori prolatione, tunc semibrevis debet duplicari; et ratio est, quia ipsa cum duabus
-        minimis valet duas semibreves et computando oportet quod dividatur in duas minimas ita quod
-        prima pars addatur prime minime, et secunda secunde, ut hic: [Mv,Sv,Mv on staff3], in quo
-        exemplo semibrevis medians inter duas minimas ita dupticatur. Si autem plures semibreves
-        mediaverint, vel earum valores, tunc quotcunque illarum semibrevium fuerint, oportet omnes
-        dividi ut hic: [Mv,Sv,Sv,Sv,Mv on staff3]. Et valor ipsius minime est pausa vel punctus
-        augmentationis additus semibrevi. Exemplum de puncto augmentationis, ut hic:
+      <p xml:id="ANO12TRA0060">Est de duplicatione. Ubi sciendum quod secundum musicum duplicatio
+        sic diffinitur: Est unius semibrevis clause inter duas minimas respective se tenentis
+        divisio cujus declaratio <pb n="[486]"/>sic patet: Quum una semibrevis mediat inter duas
+        minimas in breviori prolatione, tunc semibrevis debet duplicari; et ratio est, quia ipsa cum
+        duabus minimis valet duas semibreves et computando oportet quod dividatur in duas minimas
+        ita quod prima pars addatur prime minime, et secunda secunde, ut hic: [Mv,Sv,Mv on staff3],
+        in quo exemplo semibrevis medians inter duas minimas ita dupticatur. Si autem plures
+        semibreves mediaverint, vel earum valores, tunc quotcunque illarum semibrevium fuerint,
+        oportet omnes dividi ut hic: [Mv,Sv,Sv,Sv,Mv on staff3]. Et valor ipsius minime est pausa
+        vel punctus augmentationis additus semibrevi. Exemplum de puncto augmentationis, ut hic:
         [Mv,Sv,pt,SP,Sv,Mv on staff3]. Exempla de pausa, ut hic: [Mv,pt,Sv,Sv,Mv on staff3]. In
         quibus exemplis semibrevis sequens pausam canitur ut due minime ratione priori, quia
         computando per semibreves oportet ipsam dividi et una pars ipsius debet addi pause ita quod
@@ -537,11 +549,11 @@
         Omnis nota quadrata habens filum seu proprietatem in dextra parte sive sursum sive deorsum
         longa est, sive initialis media vel finalis. Exemplum:</p>
       <p xml:id="ANO12TRA0063">[Lig2vLacddx,Lv,Lv,Lig3vLaLacddx on staff3]</p>
-      <p xml:id="ANO12TRA0064">Secunda regula: Omnis nota initialis in aliqua ligatura sine proprietate
-        a qua proxima conjuncta descendit, semper longa est. Exemplum:</p>
+      <p xml:id="ANO12TRA0064">Secunda regula: Omnis nota initialis in aliqua ligatura sine
+        proprietate a qua proxima conjuncta descendit, semper longa est. Exemplum:</p>
       <p xml:id="ANO12TRA0065">[Lig2vd,Lig2vod on staff3]</p>
-      <p xml:id="ANO12TRA0066">Tertia regula: Nota ultima quadrata descendens in alia ligatura longa,
-        sed si fuerit obliqua, brevis est. Exemplum:</p>
+      <p xml:id="ANO12TRA0066">Tertia regula: Nota ultima quadrata descendens in alia ligatura
+        longa, sed si fuerit obliqua, brevis est. Exemplum:</p>
       <p xml:id="ANO12TRA0067">
         <pb n="[487]"/>[Lig2vd,Lig2vod on staff3]</p>
       <p xml:id="ANO12TRA0068">Quarta regula: Omnis figura initialis in aliqua ligatura non habens
@@ -554,8 +566,8 @@
       <p xml:id="ANO12TRA0072">Sexta regula: Omnis ultima nota sine proprietate in aliqua ligatura a
         penultima ascendens semper brevis est. Exemplum:</p>
       <p xml:id="ANO12TRA0073">[Lig2va,Lig2voa on staff3]</p>
-      <p xml:id="ANO12TRA0074">Septima regula: Omnis semibrevis nota sine proprietate ex utraque parte
-        aliis conjuncta brevis est. Exemplum:</p>
+      <p xml:id="ANO12TRA0074">Septima regula: Omnis semibrevis nota sine proprietate ex utraque
+        parte aliis conjuncta brevis est. Exemplum:</p>
       <p xml:id="ANO12TRA0075">[Lig7vdaaodad on staff3]</p>
       <p xml:id="ANO12TRA0076">Octava regula: Omnis figura initialis habens proprietatem sursum in
         sinistra parte semibrevis est et proxima eam sequens, sed non ultra, nam sub una ligatura
@@ -563,10 +575,10 @@
         possunt, sed quecunque figura semibrevem sequitur semper longa aut brevis est. Exemplum:</p>
       <p xml:id="ANO12TRA0077">[Lig2vcssna,Lig2vcssnod,Lig2vcssnoa,Lig3vcssnaa,Lig2vcssnod,Bv on
         staff3]</p>
-      <p xml:id="ANO12TRA0078">Dicitur nominatim figura semibrevium, quia si figure maxime sequeretur,
-        non esset longa aut brevis, quia maxima ubicunque ponitur sive in ligatura sive extra
-        ligaturam, semper maxima est. Et notandum quod inter illas octo regulas prime tres regule
-        dantur de longis, sequentes vero quatuor de brevis, et ultima de semibrevibus, et hec
+      <p xml:id="ANO12TRA0078">Dicitur nominatim figura semibrevium, quia si figure maxime
+        sequeretur, non esset longa aut brevis, quia maxima ubicunque ponitur sive in ligatura sive
+        extra ligaturam, semper maxima est. Et notandum quod inter illas octo regulas prime tres
+        regule dantur de longis, sequentes vero quatuor de brevis, et ultima de semibrevibus, et hec
         sufficiant.</p>
       <p xml:id="ANO12TRA0079">Quindecim capitulum.</p>
       <p xml:id="ANO12TRA0080">Et ultimum de proportionibus. Ubi sciendum quod Nicolaus Demutis sic
@@ -588,19 +600,19 @@
         loquendo, quum due minime contra unam proferentur, ut hic:</p>
       <p xml:id="ANO12TRA0081">
         <pb n="[488]"/>[CSIII:488,1; text: Discantus. Tenor.]</p>
-      <p xml:id="ANO12TRA0082">Proportio tripla est quum major modus continet minorem ter; musice, quum
-        tres minime contra unam proferuntur:</p>
+      <p xml:id="ANO12TRA0082">Proportio tripla est quum major modus continet minorem ter; musice,
+        quum tres minime contra unam proferuntur:</p>
       <p xml:id="ANO12TRA0083">[CSIII:488,2; text: Discantus. Tenor.]</p>
-      <p xml:id="ANO12TRA0084">Proportio sexquialtera est quum major modus continet minorem simul ejus
-        alteram partem ut tria ad duo sex ad quatuor; musice, cum tres minime contra duos
+      <p xml:id="ANO12TRA0084">Proportio sexquialtera est quum major modus continet minorem simul
+        ejus alteram partem ut tria ad duo sex ad quatuor; musice, cum tres minime contra duos
         proferuntur:</p>
       <p xml:id="ANO12TRA0085">[CSIII:488,3; text: Discantus. Tenor.]</p>
-      <p xml:id="ANO12TRA0086">Signa autem harum proportionum sic formantur: proportionis duple, sic 2;
-        proportionis triple, 3; proportionis quadruple, sic 4; sexquialtera, sic 2/3.</p>
+      <p xml:id="ANO12TRA0086">Signa autem harum proportionum sic formantur: proportionis duple, sic
+        2; proportionis triple, 3; proportionis quadruple, sic 4; sexquialtera, sic 2/3.</p>
       <p xml:id="ANO12TRA0087">Et hec brevia tibi de isto capitulo et consequenter de omnibus hujus
         tractatus sufficiant pro quo Deus cum Matre sua gloriosa sit benedictus in secula etc.</p>
-      <p xml:id="ANO12TRA0088">Item nota in ligaturis illam doctrinam generalem: In omni mensura sive
-        temporis perfecti sive imperfecti quum sunt due, tres, quatuor vel quinque note ligate
+      <p xml:id="ANO12TRA0088">Item nota in ligaturis illam doctrinam generalem: In omni mensura
+        sive temporis perfecti sive imperfecti quum sunt due, tres, quatuor vel quinque note ligate
         secundum exigentiam, et si prima non habuerit filium datum ex sinistra nec sursum nec
         deorsum, et si alie note descendunt, tunc prima et ultima quelibet earum valet duo tempora
         et omnes intermedie unum tempus. Sed si sunt solum due quarum secunda descendit et prima non
@@ -634,11 +646,11 @@
           <graphic url="/images/ANO12TRA_04GF.gif"/>
         </figure></p>
       <p xml:id="ANO12TRA0096">De Discantu.</p>
-      <p xml:id="ANO12TRA0097">Est diversorum cantuum secundum modum tempus ac prolationem per figuras
-        longas breves et similes ad invicem proportionalibis consonantia.</p>
+      <p xml:id="ANO12TRA0097">Est diversorum cantuum secundum modum tempus ac prolationem per
+        figuras longas breves et similes ad invicem proportionalibis consonantia.</p>
       <p xml:id="ANO12TRA0098">Modus est cognitio soni maximis brevibus que figuris mensurati.</p>
-      <p xml:id="ANO12TRA0099">[CSIII:491,2; text: Modus. Perfectus respicit maximam in ordine ad tres
-        longas, ut hic: et longam ad tres breves, ut hic: Imperfectus respicit maximam ad duas
+      <p xml:id="ANO12TRA0099">[CSIII:491,2; text: Modus. Perfectus respicit maximam in ordine ad
+        tres longas, ut hic: et longam ad tres breves, ut hic: Imperfectus respicit maximam ad duas
         longas, ut patet hic: et longam ad duas breves:]</p>
       <p xml:id="ANO12TRA0100">Cantus de modo perfecto cognoscitur:</p>
       <p xml:id="ANO12TRA0101">Primo, quum pausa in ejus tenore pertransit tria spatia.</p>
@@ -646,34 +658,35 @@
       <p xml:id="ANO12TRA0103">Tertio, quum valor brevis, scilicet pausa, ordinatur cum longa.</p>
       <p xml:id="ANO12TRA0104">Quarto, quum tres breves simul ordinantur.</p>
       <p xml:id="ANO12TRA0105">Quinto, quum pausa duorum temporum ordinatur cum brevi.</p>
-      <p xml:id="ANO12TRA0106">Sexto, quum due breves, inter se punctum habentes, ponuntur inter duas
-        longas, ut hic infra:</p>
+      <p xml:id="ANO12TRA0106">Sexto, quum due breves, inter se punctum habentes, ponuntur inter
+        duas longas, ut hic infra:</p>
       <p xml:id="ANO12TRA0107">[MXP,Lig2vacddx,Lv,MP,Lig3vdd,Bv,LP,Lv,Bv,pt,Bv,Lv on staff5]</p>
       <p xml:id="ANO12TRA0108">
         <pb n="[492]"/>Tempus est cognitio soni brevibus semibrevibusque figuris mensurati.</p>
-      <p xml:id="ANO12TRA0109">[CSIII:492,1; text: Tempus. Perfectum respicit brevem ad tres semibreves:
-        Imperfectum respicit brevem ad duas semibreves, ut hic:]</p>
+      <p xml:id="ANO12TRA0109">[CSIII:492,1; text: Tempus. Perfectum respicit brevem ad tres
+        semibreves: Imperfectum respicit brevem ad duas semibreves, ut hic:]</p>
       <p xml:id="ANO12TRA0110">Tempus perfectum cognoscitur:</p>
-      <p xml:id="ANO12TRA0111">Primo, quum due pause trahuntur a superiori linea ad medium spatium cum
-        una semibrevi.</p>
+      <p xml:id="ANO12TRA0111">Primo, quum due pause trahuntur a superiori linea ad medium spatium
+        cum una semibrevi.</p>
       <p xml:id="ANO12TRA0112">Secundo, quum tres semibreves immediate simul ponuntur.</p>
       <p xml:id="ANO12TRA0113">Tertio, quum brevis ordinatur cum semibrevi.</p>
       <p xml:id="ANO12TRA0114">Quarto, quum pausa semibrevis ponitur cum brevi.</p>
       <p xml:id="ANO12TRA0115">Quinto, quum in prolatione majori tres minime ordinantur cum tribus
         semibrevibus quas imperficiunt.</p>
-      <p xml:id="ANO12TRA0116">Sexto, quum in minori prolatione reperiuntur due semibreves cum minima
-        altera semibrevi habente punctum perfectionis.</p>
-      <p xml:id="ANO12TRA0117">Septimo, quum reperiuntur due breves habentes inter se duas semibreves
-        cum puncto.</p>
-      <p xml:id="ANO12TRA0118">Octavo, quum cum semibrevi ordinantur due minime et pausa semibrevis.</p>
+      <p xml:id="ANO12TRA0116">Sexto, quum in minori prolatione reperiuntur due semibreves cum
+        minima altera semibrevi habente punctum perfectionis.</p>
+      <p xml:id="ANO12TRA0117">Septimo, quum reperiuntur due breves habentes inter se duas
+        semibreves cum puncto.</p>
+      <p xml:id="ANO12TRA0118">Octavo, quum cum semibrevi ordinantur due minime et pausa
+        semibrevis.</p>
       <p xml:id="ANO12TRA0119">[CSIII:492,2; text: Primo, secundo, tertio, quarto, quinto, sexto,
         septimo, octavo.]</p>
       <p xml:id="ANO12TRA0120">Prolatio.</p>
       <p xml:id="ANO12TRA0121">Est cognitio soni semibrevibus minimisque figuris signati.</p>
-      <p xml:id="ANO12TRA0122">Prolatio major respicit semibrevem ad tres minimas, ut hic: [Sv,Mv,Mv,Mv
+      <p xml:id="ANO12TRA0122">Prolatio major respicit semibrevem ad tres minimas, ut hic:
+        [Sv,Mv,Mv,Mv on staff3].</p>
+      <p xml:id="ANO12TRA0123">Prolatio minor respicit semibrevem ad duas minimas, ut hic: [Sv,Mv,Mv
         on staff3].</p>
-      <p xml:id="ANO12TRA0123">Prolatio minor respicit semibrevem ad duas minimas, ut hic: [Sv,Mv,Mv on
-        staff3].</p>
       <p xml:id="ANO12TRA0124">Prolatio major cognoscitur:</p>
       <p xml:id="ANO12TRA0125">Primo, quum due pause duarum minimarum ponuntur cum una minima.</p>
       <p xml:id="ANO12TRA0126">Secundo, quum semibrevis ponitur cum pausa minime.</p>
@@ -682,55 +695,58 @@
         semibreves.</p>
       <p xml:id="ANO12TRA0129">Quinto, quum due pause minimarum habent inter se minimam.</p>
       <p xml:id="ANO12TRA0130">Sexto, quum tres semibreves ordinantur cum tribus minimis.</p>
-      <p xml:id="ANO12TRA0131">Septimo, quum due pause minimarum ponuntur inter duas breves, ut patet
-        infra:</p>
+      <p xml:id="ANO12TRA0131">Septimo, quum due pause minimarum ponuntur inter duas breves, ut
+        patet infra:</p>
       <p xml:id="ANO12TRA0132">[CSIII:492,3; text: Primo, secundo, tercio, quarto, quinto, sexto,
         septimo.]</p>
       <p xml:id="ANO12TRA0133">De signis prolationum.</p>
-      <p xml:id="ANO12TRA0134">Item nota quod quatuor sunt figure signorum: .[long s].[O,C on staff2,
-        3].</p>
-      <p xml:id="ANO12TRA0135">Et additur quintum quod vocatur signum divisionis: [Odim,Cdim on staff4].
-        Et talis cantus cantatur cito sive brevis pro semibrevi, semibrevis pro minima, longa pro
-        brevi etc.</p>
+      <p xml:id="ANO12TRA0134">Item nota quod quatuor sunt figure signorum: .[long s].[O,C on
+        staff2, 3].</p>
+      <p xml:id="ANO12TRA0135">Et additur quintum quod vocatur signum divisionis: [Odim,Cdim on
+        staff4]. Et talis cantus cantatur cito sive brevis pro semibrevi, semibrevis pro minima,
+        longa pro brevi etc.</p>
       <p xml:id="ANO12TRA0136">Item si cantus est de modo perfecto ponatur figura ternaria prope
         circulum vel semicirculum, ut hic: [3O,3C on staff2].</p>
-      <p xml:id="ANO12TRA0137">Item in omni cantu debet scribi pro signocirculus aut semicirculus. Nam
-        si est cantus de <pb n="[493]"/>tempore perfecto tunc ponitur circulus rotundus sic: [O on
+      <p xml:id="ANO12TRA0137">Item in omni cantu debet scribi pro signocirculus aut semicirculus.
+        Nam si est cantus de <pb n="[493]"/>tempore perfecto tunc ponitur circulus rotundus sic: [O
+        on staff2].</p>
+      <p xml:id="ANO12TRA0138">Sed si est de tempore imperfecto ponitur semicirculus: [C on
         staff2].</p>
-      <p xml:id="ANO12TRA0138">Sed si est de tempore imperfecto ponitur semicirculus: [C on staff2].</p>
       <p xml:id="ANO12TRA0139">Si cantus fit de tempore et modo perfectis signatur, sic: [Odim3 on
         staff4].</p>
-      <p xml:id="ANO12TRA0140">De tempore imperfecto et modo perfecto signatur, sic: [3C on staff2]</p>
-      <p xml:id="ANO12TRA0141">De modo imperfecto et de tempore sive perfecto sive imperfecto, ponitur
-        figura ternaria, quia carentia figure ternarie est signum modi imperfecti et sic non signum
-        est ibi signum.</p>
+      <p xml:id="ANO12TRA0140">De tempore imperfecto et modo perfecto signatur, sic: [3C on
+        staff2]</p>
+      <p xml:id="ANO12TRA0141">De modo imperfecto et de tempore sive perfecto sive imperfecto,
+        ponitur figura ternaria, quia carentia figure ternarie est signum modi imperfecti et sic non
+        signum est ibi signum.</p>
       <p xml:id="ANO12TRA0142">Item punctu spositus in circulo [Od on staff2] vel semicirculo [Cd on
         staff2] est signum prolationis minoris et perfecte. Carentia puncti est signum prolationis
         minoris et imperfecte, ut sic: [O,C on staff2].</p>
-      <p xml:id="ANO12TRA0143">Modus, tempus et prolatio perfecta, sic signantur: [3Od on staff2].</p>
+      <p xml:id="ANO12TRA0143">Modus, tempus et prolatio perfecta, sic signantur: [3Od on
+        staff2].</p>
       <p xml:id="ANO12TRA0144">Modus, tempus et prolatio imperfecta, sic: [C on staff2]</p>
       <p xml:id="ANO12TRA0145">Modus perfectus, tempus perfectum, prolatio imperfecta: [3O on
         staff2].</p>
       <p xml:id="ANO12TRA0146">Modus perfectus, tempus imperfectum, prolatio imperfecta: [3C on
         staff2].</p>
-      <p xml:id="ANO12TRA0147">Item color remanet tertia parte; ideo ubi alba brevis valet semibrevis
-        tres, nigra valet duas.</p>
-      <p xml:id="ANO12TRA0148">Item quivis modus ponendi discantum fit de modo et tempore perfectis et
-        prolatione imperfecta per tale signum: [O on staff2].</p>
+      <p xml:id="ANO12TRA0147">Item color remanet tertia parte; ideo ubi alba brevis valet
+        semibrevis tres, nigra valet duas.</p>
+      <p xml:id="ANO12TRA0148">Item quivis modus ponendi discantum fit de modo et tempore perfectis
+        et prolatione imperfecta per tale signum: [O on staff2].</p>
       <p xml:id="ANO12TRA0149">De contrapuncto.</p>
-      <p xml:id="ANO12TRA0150">Item omnis discantus debet incipi et terminari in specie perfecta quoad
-        tenorem.</p>
-      <p xml:id="ANO12TRA0151">[CSIII:493,1; text: Species, perfecte, imperfecte, prohibite, unisonus.
-        quinta inferior. octava, duodecima, quintadecima. tertia. quarta. sexta. secunda. quarta.
-        septima.] <figure>
+      <p xml:id="ANO12TRA0150">Item omnis discantus debet incipi et terminari in specie perfecta
+        quoad tenorem.</p>
+      <p xml:id="ANO12TRA0151">[CSIII:493,1; text: Species, perfecte, imperfecte, prohibite,
+        unisonus. quinta inferior. octava, duodecima, quintadecima. tertia. quarta. sexta. secunda.
+        quarta. septima.] <figure>
           <graphic url="/images/ANO12TRA_05GF.gif"/>
         </figure></p>
-      <p xml:id="ANO12TRA0152">Item semper numeratio notarum pro his speciebus inveniendis semper fit a
-        sursum deorsum preter in quarta ut fit sursum.</p>
-      <p xml:id="ANO12TRA0153">Item nulla species perfecta debet sequi seipsam, ut quinta post quintam,
-        nisi de licentia cantorum.</p>
-      <p xml:id="ANO12TRA0154">Item omnes species perfecte possunt sequi invicem, ut quinta post octavam
-        etc; sed nulla sequitur seipsam nisi in diminutione, ut hic:</p>
+      <p xml:id="ANO12TRA0152">Item semper numeratio notarum pro his speciebus inveniendis semper
+        fit a sursum deorsum preter in quarta ut fit sursum.</p>
+      <p xml:id="ANO12TRA0153">Item nulla species perfecta debet sequi seipsam, ut quinta post
+        quintam, nisi de licentia cantorum.</p>
+      <p xml:id="ANO12TRA0154">Item omnes species perfecte possunt sequi invicem, ut quinta post
+        octavam etc; sed nulla sequitur seipsam nisi in diminutione, ut hic:</p>
       <p xml:id="ANO12TRA0155">[Mv,Mv,Mv,Mv on staff5]</p>
       <p xml:id="ANO12TRA0156">Item species imperfecte possunt se mutuo sequi sine ponendo tres vel
         quatuor, tertias vel sextas.</p>
@@ -745,62 +761,64 @@
       <p xml:id="ANO12TRA0165">Perfectio causatur in modo, tempore et prolatione imperfectis.</p>
       <p xml:id="ANO12TRA0166">
         <pb n="[494]"/>De puncto.</p>
-      <p xml:id="ANO12TRA0167">Divisionis puncto utimur in modo, tempore et prolatione imperfectis. Quum
-        enim punctus ponitur inter duas longas de modo perfecto, dividit unam ab alia: [Lv,pt,Lv on
-        staff3]. Sic etiam inter duas breves et semibreves: [Bv,pt,Bv,Sv,pt,Sv on staff2].</p>
+      <p xml:id="ANO12TRA0167">Divisionis puncto utimur in modo, tempore et prolatione imperfectis.
+        Quum enim punctus ponitur inter duas longas de modo perfecto, dividit unam ab alia:
+        [Lv,pt,Lv on staff3]. Sic etiam inter duas breves et semibreves: [Bv,pt,Bv,Sv,pt,Sv on
+        staff2].</p>
       <p xml:id="ANO12TRA0168">Perfectionis punctus est qui perficit.</p>
-      <p xml:id="ANO12TRA0169">Perficere est notam imperfectam facere perfectam et hoc in modo, tempore
-        et prolatione imperfectis sive prolatione minori.</p>
-      <p xml:id="ANO12TRA0170">Item quandocunque punctus in modo, tempore et prolatione imperfectis sive
-        minor additur note maxime, longe, brevi, semibrevi vel minime, semper perfectionis dicitur,
-        ratio est quia perficit illas figuras ac si starent in modo perfecto et sine puncto:
-        [MXv,pt,Lv,pt,Bv,pt,Sv,pt,Mv,pt on staff3].</p>
-      <p xml:id="ANO12TRA0171">Item punctus perfectionis sive additionis semper valet medietatem note
-        precedentis.</p>
+      <p xml:id="ANO12TRA0169">Perficere est notam imperfectam facere perfectam et hoc in modo,
+        tempore et prolatione imperfectis sive prolatione minori.</p>
+      <p xml:id="ANO12TRA0170">Item quandocunque punctus in modo, tempore et prolatione imperfectis
+        sive minor additur note maxime, longe, brevi, semibrevi vel minime, semper perfectionis
+        dicitur, ratio est quia perficit illas figuras ac si starent in modo perfecto et sine
+        puncto: [MXv,pt,Lv,pt,Bv,pt,Sv,pt,Mv,pt on staff3].</p>
+      <p xml:id="ANO12TRA0171">Item punctus perfectionis sive additionis semper valet medietatem
+        note precedentis.</p>
       <p xml:id="ANO12TRA0172">De imperfectione.</p>
       <p xml:id="ANO12TRA0173">Causatur in modo, tempore et prolatione perfectis.</p>
       <p xml:id="ANO12TRA0174">Et imperficere notam est notam perfectam imperfectam reddere etc.</p>
       <p xml:id="ANO12TRA0175">Item solum nota in tres partes divisibiles imperficitur in tertia sui
         parte. Quare</p>
-      <p xml:id="ANO12TRA0176">[CSIII:494,1; text: Perfecta, maxima, longa, imperficitur, longa a priori
-        et a posteriori: brevi a priori: a posteriori:]</p>
-      <p xml:id="ANO12TRA0177">Brevis in tempore perfecto imperficitur a semibrevi, ut hic: a priori:
-        [Sv,Bv on staff2]; a posteriori: [Bv,Sv on staff2].</p>
+      <p xml:id="ANO12TRA0176">[CSIII:494,1; text: Perfecta, maxima, longa, imperficitur, longa a
+        priori et a posteriori: brevi a priori: a posteriori:]</p>
+      <p xml:id="ANO12TRA0177">Brevis in tempore perfecto imperficitur a semibrevi, ut hic: a
+        priori: [Sv,Bv on staff2]; a posteriori: [Bv,Sv on staff2].</p>
       <p xml:id="ANO12TRA0178">Semibrevis in prolatione majori imperficitur a semiminima: a priori:
         [Mv,Sv on staff3]; a posteriori: [Sv,Mv on staff3].</p>
       <p xml:id="ANO12TRA0179">[CSIII:494,2; text: Maxima, a priori, a posteriori, Longa. Brevis.
         Semibrevis.]</p>
       <p xml:id="ANO12TRA0180">De alteratione.</p>
-      <p xml:id="ANO12TRA0181">Est notam aliter cantare quam est. Et fit tribus modis, scilicet in modo,
-        tempore et prolatione perfectis sive majoribus.</p>
+      <p xml:id="ANO12TRA0181">Est notam aliter cantare quam est. Et fit tribus modis, scilicet in
+        modo, tempore et prolatione perfectis sive majoribus.</p>
       <p xml:id="ANO12TRA0182">Alteratio in modo perfecto fit</p>
-      <p xml:id="ANO12TRA0183">Quum videlicet due breves ponuntur inter duas longas perfectas, ut hic:
-        [Lv,Bv,Bv,Lv on staff3]. Ibi prima brevis valet unum tempus, secunda brevis per alterationem
-        valet duo tempora et vocatur brevis altera, id est alterata. Sed quum punctus mediat inter
-        illas duas breves, ut hic: [Lv,Bv,pt,Bv,Lv on staff3] tunc prima longa valet duo tempora et
-        quelibet brevis valet unum.</p>
-      <p xml:id="ANO12TRA0184">Item si tres breves ponantur inter duas longas, ut hic: [Lv,Bv,Bv,Bv,Lv
-        on staff3], tunc quelibet longa valet tria tempora et quelibet brevis unum.</p>
+      <p xml:id="ANO12TRA0183">Quum videlicet due breves ponuntur inter duas longas perfectas, ut
+        hic: [Lv,Bv,Bv,Lv on staff3]. Ibi prima brevis valet unum tempus, secunda brevis per
+        alterationem valet duo tempora et vocatur brevis altera, id est alterata. Sed quum punctus
+        mediat inter illas duas breves, ut hic: [Lv,Bv,pt,Bv,Lv on staff3] tunc prima longa valet
+        duo tempora et quelibet brevis valet unum.</p>
+      <p xml:id="ANO12TRA0184">Item si tres breves ponantur inter duas longas, ut hic:
+        [Lv,Bv,Bv,Bv,Lv on staff3], tunc quelibet longa valet tria tempora et quelibet brevis
+        unum.</p>
       <p xml:id="ANO12TRA0185">Item si quatuor breves ponuntur inter duas longas, ut hic:
         [Lv,Bv,Bv,Bv,Bv,Lv on staff3], sine puncto, tunc prima brevis imperficit primam longam et
         prima longa valet duo tempora, et quelibet brevis unum et ultima longa tria.</p>
       <p xml:id="ANO12TRA0186">Sed si inter duas ultimas breves ponitur punctum divisionis, ut hic:
         [Lv,Bv,Bv,Bv,pt,Bv,Lv on staff3], tunc ultima brevis imperficit ultimam longam sic quod
         ultima longa valebit duo tempora et quelibet brevis unum, sed prima longa tria.</p>
-      <p xml:id="ANO12TRA0187">Item si quinque breves ponantur inter duas <pb n="[495]"/>longas, ut hic:
-        [Lv,Bv,Bv,Bv,Bv,Bv,Lv on staff3],tunc tres prime breves ponuntur in perfectione et ultime
-        breves valent tria tempora per alterationem, et sic in exemplo proximo quelibet longa valet
-        tria tempora et ultima brevis valet duo tempora et quelibet aliarum brevium valet unum
+      <p xml:id="ANO12TRA0187">Item si quinque breves ponantur inter duas <pb n="[495]"/>longas, ut
+        hic: [Lv,Bv,Bv,Bv,Bv,Bv,Lv on staff3],tunc tres prime breves ponuntur in perfectione et
+        ultime breves valent tria tempora per alterationem, et sic in exemplo proximo quelibet longa
+        valet tria tempora et ultima brevis valet duo tempora et quelibet aliarum brevium valet unum
         tempus.</p>
       <p xml:id="ANO12TRA0188">Alteratio fit in tempore perfecto</p>
-      <p xml:id="ANO12TRA0189">Quum due semibreves mediant inter duas breves, ut hic: [Bv,Sv,Sv,Bv on
-        staff2], tunc secunda semibrevis valet duas semibreves per alterationem.</p>
-      <p xml:id="ANO12TRA0190">Sed si punctus divisionis poneretur inter illas duas semibreves, ut hic:
-        [Bv,Sv,pt,Sv,Bv on staff2], tunc prima semibrevis imperficit primam brevem et secunda
+      <p xml:id="ANO12TRA0189">Quum due semibreves mediant inter duas breves, ut hic: [Bv,Sv,Sv,Bv
+        on staff2], tunc secunda semibrevis valet duas semibreves per alterationem.</p>
+      <p xml:id="ANO12TRA0190">Sed si punctus divisionis poneretur inter illas duas semibreves, ut
+        hic: [Bv,Sv,pt,Sv,Bv on staff2], tunc prima semibrevis imperficit primam brevem et secunda
         secundam. Ergo ibi quelibet brevis valet duas semibreves et quelibet semibrevis valet se
         ipsam.</p>
-      <p xml:id="ANO12TRA0191">Item si tres, 6, 9, 12, semibreves etc., numero ternario ponuntur inter
-        duas breves, tunc quelibet brevis valet tres semibreves.</p>
+      <p xml:id="ANO12TRA0191">Item si tres, 6, 9, 12, semibreves etc., numero ternario ponuntur
+        inter duas breves, tunc quelibet brevis valet tres semibreves.</p>
       <p xml:id="ANO12TRA0192">Item si quatuor semibreves ponuntur inter duas breves sine puncto, ut
         hic: [Bv,Sv,Sv,Sv,Sv,Bv on staff2], tunc prima semibrevis imperficit primam brevem, ergo
         prima brevis valet ibi tantum duas semibreves et quelibet alia semibrevis valet se ipsam;
@@ -808,13 +826,13 @@
       <p xml:id="ANO12TRA0193">Sed si punctus ponitur inter duas ultimas semibreves:
         [Bv,Sv,Sv,Sv,pt,Sv,Bv on staff2], tunc prima brevis valet tres semibreves, ultima brevis
         valet duas semibreves et quelibet semibrevis valet seipsam.</p>
-      <p xml:id="ANO12TRA0194">Item si quinque semibreves ponuntur inter duas breves sine puncto, tunc
-        ultima semibrevis alteratur et valet duas semibreves quare vocatur altera, it est alterata,
-        et quelibet brevis valet tres semibreves et quelibet semibrevis alia quam ultima valet
-        seipsum, ut hic: [Bv,Sv,Sv,Sv,Sv,Sv,Bv on staff2].</p>
-      <p xml:id="ANO12TRA0195">Sed si punctus ponitur inter ultimas duas semibreves, tunc ambe breves
-        imperficiuntur sic quod unaqueque brevis valet duas semibreves et quelibet semibrevis valet
-        seipsam, ut hic patet: [Bv,Sv,Sv,Sv,Sv,pt,Sv,Bv on staff2].</p>
+      <p xml:id="ANO12TRA0194">Item si quinque semibreves ponuntur inter duas breves sine puncto,
+        tunc ultima semibrevis alteratur et valet duas semibreves quare vocatur altera, it est
+        alterata, et quelibet brevis valet tres semibreves et quelibet semibrevis alia quam ultima
+        valet seipsum, ut hic: [Bv,Sv,Sv,Sv,Sv,Sv,Bv on staff2].</p>
+      <p xml:id="ANO12TRA0195">Sed si punctus ponitur inter ultimas duas semibreves, tunc ambe
+        breves imperficiuntur sic quod unaqueque brevis valet duas semibreves et quelibet semibrevis
+        valet seipsam, ut hic patet: [Bv,Sv,Sv,Sv,Sv,pt,Sv,Bv on staff2].</p>
       <p xml:id="ANO12TRA0196">Alteratio fit in prolatione</p>
       <p xml:id="ANO12TRA0197">Etiam majori quum due minime mediant inter duas semibreves, ut hic:
         [Sv,Mv,Mv,Sv on staff3], tunc prima semibrevis valet tres minimas, prima minima seipsam et

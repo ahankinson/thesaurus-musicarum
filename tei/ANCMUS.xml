@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De musica</title>
         <title type="abbrev">ANCMUS</title>
-        <author>Ancina Fossaniensis, Juvenal</author>
-        <date notBefore="1500" notAfter="1599">16th</date>
+        <author><persName>Ancina Fossaniensis, Juvenal</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>John Csonka</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1993</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1993">1993</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Adrien de la Fage, <emph>Essais de dipthérographie musicale</emph>
           (Paris: Legouix, 1864), 344–45. </bibl>
@@ -37,7 +47,8 @@
         <pb n="[345]"/>Quemadmodum in numeris arithmeticis, ita et in harmonicis in infinitum
         progressus est; at in his quidem utrinque, in illis autem altera duntaxat parte.</p>
       <p xml:id="ANCMUS0004">Hemitonium diesis proferri vetat.</p>
-      <p xml:id="ANCMUS0005">Actionem inter similia fieri diapason in cheli et pentachordo ostendit.</p>
+      <p xml:id="ANCMUS0005">Actionem inter similia fieri diapason in cheli et pentachordo
+        ostendit.</p>
     </body>
   </text>
 </TEI>

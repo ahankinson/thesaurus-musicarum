@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musica Johannis de Muris abbreviata</title>
         <title type="abbrev">MURMUSAB</title>
-        <author>Johannes de Muris</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Johannes de Muris</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Anna Shparberg</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1999</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1999">1999</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Johannis de Muris Musica speculativa</emph>, ed. Susan Fast, Musicological Studies,
@@ -215,8 +225,8 @@
         <pb n="[335]"/>MUSICA JOHANNIS DE MURIS ABBREVIATA IN CODICE MELLICENSI COMPARATUR CUM EADEM
         IN VINDOBONENSI (Wi2)*</p>
       <p xml:id="MURMUSAB0002">[p. 44] Pitagoras artem nobis tradidisse sonorum</p>
-      <p xml:id="MURMUSAB0003">Hic Pitagoras antiquus princeps numerorum et proporcionum magister, cui a
-        toto tempore vite numeris obedivit, sic ut vi numerorum scientie singula interetur, in
+      <p xml:id="MURMUSAB0003">Hic Pitagoras antiquus princeps numerorum et proporcionum magister,
+        cui a toto tempore vite numeris obedivit, sic ut vi numerorum scientie singula interetur, in
         anxietate diu manens quomodo ad artem de melodiis rationem inveniret, quadam vice divino
         nutu fabrorum officinas preteriens hanc cognicionem mentaliter circumvolvens quosdam malleos
         super incudem cedentes mirabilem armoniam emittentes audiunt. Ad quos conversus fervens
@@ -225,10 +235,10 @@
         prius, unde conclusit non in lacertis virorum sed in natura malleorum tales concordantias
         contineri, tam numeri, quam mensure, quam ponderis ratione. Quintus tamen foras eieciebatur,
         quoniam inutilibus cuilibet aliorum comparatus dissonabat.</p>
-      <p xml:id="MURMUSAB0004">Consideratisque ponderibus aliorum in dupla, sesqualtera et sesquitercia
-        reperta sunt proporcionibus, et in quibuscumque easdem reperiri armonias, unde in hac
-        experiencia requievit per terciam. Ex quibus experimentis ordinis musice deducta fuerunt
-        principia per quartam.</p>
+      <p xml:id="MURMUSAB0004">Consideratisque ponderibus aliorum in dupla, sesqualtera et
+        sesquitercia reperta sunt proporcionibus, et in quibuscumque easdem reperiri armonias, unde
+        in hac experiencia requievit per terciam. Ex quibus experimentis ordinis musice deducta
+        fuerunt principia per quartam.</p>
       <p xml:id="MURMUSAB0005">
         <pb n="[336]"/>[45] Propter Simphoniam subiungere vim numerorum</p>
       <p xml:id="MURMUSAB0006">Pitagoras sonorum consonancias per proporciones ponderum reperit. Et
@@ -239,11 +249,11 @@
         reperta est, et sunt he: diapason que est 12 ad 6, diapenthe 12 ad 8 vel 9 ad 6, diatesseron
         ut 12 ad 9 aut 8 ad 6. Tonus vero qui est ut 9 ad 8 non est consonantia sed pars eius.</p>
       <p xml:id="MURMUSAB0009">Has tres melodias numeros dare tonantes</p>
-      <p xml:id="MURMUSAB0010">Diapason duplam, diapenthe sesqualteram, diatesseron sesquiterciam. Tonus
-        autem sesquioctavam retinet proporcionem.</p>
+      <p xml:id="MURMUSAB0010">Diapason duplam, diapenthe sesqualteram, diatesseron sesquiterciam.
+        Tonus autem sesquioctavam retinet proporcionem.</p>
       <p xml:id="MURMUSAB0011">Que diapenthe sonat diapason habet superare</p>
-      <p xml:id="MURMUSAB0012">Nam dupla maior est sesqualtera in sesquitercia et tamen excedit diapason
-        diapenthe.</p>
+      <p xml:id="MURMUSAB0012">Nam dupla maior est sesqualtera in sesquitercia et tamen excedit
+        diapason diapenthe.</p>
       <p xml:id="MURMUSAB0013">Et diapenthe plus quam diatessera stare</p>
       <p xml:id="MURMUSAB0014">Nam sesqualtera maior est sesquitercia in sesquioctava. Est igitur
         diapenthe maior quam diatesseron in proporcionem sesquioctavam.</p>
@@ -264,11 +274,11 @@
         musica non considerat proporciones irracionales, ideo quia subalternatur arismetrice, que
         est de numeris, inter quos non repperitur irracionalis proporcio.</p>
       <p xml:id="MURMUSAB0023">Est semis et duplex tonus in diatessera vere</p>
-      <p xml:id="MURMUSAB0024">Non semis quidem hic est dimidium, sed semis hoc sonat imperfectum. Patet
-        cum a sesquioctava proporcione aufertur duplex sesquioctava, manet proporcio 256 ad 243, que
-        est minor quam sesquioctavam.</p>
-      <p xml:id="MURMUSAB0025">Neque ipsa est medietas sesquioctave, eo quod illa racionales est, hec
-        autem irracionales. Continentur igitur in diatesseron duo toni et unus imperfectus. Hic
+      <p xml:id="MURMUSAB0024">Non semis quidem hic est dimidium, sed semis hoc sonat imperfectum.
+        Patet cum a sesquioctava proporcione aufertur duplex sesquioctava, manet proporcio 256 ad
+        243, que est minor quam sesquioctavam.</p>
+      <p xml:id="MURMUSAB0025">Neque ipsa est medietas sesquioctave, eo quod illa racionales est,
+        hec autem irracionales. Continentur igitur in diatesseron duo toni et unus imperfectus. Hic
         autem imperfectus diesis appellatur. Hic introducitur quedam utilitas arismetricalis. Si
         quis velit invenire [46] quorumcumque numeros continuos in aliqua proporcione
         superparcienti, accipiat totum multiplicam secundum denominationem superparcientis a primo
@@ -277,12 +287,11 @@
         est, 4 secundus, 8 tercius et 16 quartus, et proveniet numeri hoc modo: 16, 20, 30, 45. Ecce
         quatuor continuos in sesqualtera et ceteris:</p>
       <p class="textFig" xml:id="MURMUSAB0026">
-        <lb/>                    256.243.216.192.
-        <br/>                            27.24.64.
+        <lb/>                    256.243.216.192. <br/>                            27.24.64.
         <lb/></p>
       <p xml:id="MURMUSAB0027">De diapenthe tonos tres et semis aio tenere</p>
-      <p xml:id="MURMUSAB0028">Nam diapenthe constat ex diatesseron et tono; sed diatesseron ex duobus
-        tonis et semis, id est tono imperfecto, igitur.</p>
+      <p xml:id="MURMUSAB0028">Nam diapenthe constat ex diatesseron et tono; sed diatesseron ex
+        duobus tonis et semis, id est tono imperfecto, igitur.</p>
       <p xml:id="MURMUSAB0029">
         <pb n="[338]"/>Illa semitonia cum quinque tonis pasodia</p>
       <p xml:id="MURMUSAB0030">Nam diapason ex diapenthe cum diatesseron constat. Sed diapenthe ex
@@ -291,11 +300,11 @@
         illa duo semitonia unum tonum non perficiunt, quod tamen plures et antiquos et modernos
         decepit.</p>
       <p xml:id="MURMUSAB0031">Quero toni quales partes sunt inequales</p>
-      <p xml:id="MURMUSAB0032">Hoc est quod semitonia, que tonum constituant, sunt inequalia. Aliquam
-        partem toni tonum imperfectum est ponere, id est semitonium. Sed demonstratum est quod non
-        datur media pars toni, igitur aut erit maior medietate toni aut minor. Et cum una sola talis
-        tonum non constituat, erunt due partes tonum integrantes, quare una erit maior alia
-        minor.</p>
+      <p xml:id="MURMUSAB0032">Hoc est quod semitonia, que tonum constituant, sunt inequalia.
+        Aliquam partem toni tonum imperfectum est ponere, id est semitonium. Sed demonstratum est
+        quod non datur media pars toni, igitur aut erit maior medietate toni aut minor. Et cum una
+        sola talis tonum non constituat, erunt due partes tonum integrantes, quare una erit maior
+        alia minor.</p>
       <p xml:id="MURMUSAB0033">Ergo semitonium minus in numeris reperire</p>
       <p xml:id="MURMUSAB0034">Postquam a diatesseron demuntur duo toni, manet semitonium minus et
         constitit in hac proporcione, scilicet 256 ad 243. Quod sit minor quam medietas toni patet.
@@ -303,8 +312,9 @@
         Igitur semitonium minus vocatur diesis, item limma. Semitonium minoris vero diatisma
         [sic].</p>
       <p xml:id="MURMUSAB0035">Inde semitonium ^maius^ ostendo venire</p>
-      <p xml:id="MURMUSAB0036">Ablato enim semitonio minori nunc invento a tono manet semitonium maius,
-        et ipsum consistit in proporcionem 2187 ad 2048. Semitonium maius vocatur apothome.</p>
+      <p xml:id="MURMUSAB0036">Ablato enim semitonio minori nunc invento a tono manet semitonium
+        maius, et ipsum consistit in proporcionem 2187 ad 2048. Semitonium maius vocatur
+        apothome.</p>
       <p xml:id="MURMUSAB0037">Sex ostendo tonos diapason non dare plenos</p>
       <p xml:id="MURMUSAB0038">Patet eciam predictis. Nam sex sesquioctave proporciones sibi additis
         duplam exceditur. Igitur.</p>
@@ -314,10 +324,11 @@
         minori, igitur duplex diatesseron presurget quatuor tonos et duo semitonia minora, que unum
         non perficiunt.</p>
       <p xml:id="MURMUSAB0041">Est ex premissis coma reperire necesse</p>
-      <p xml:id="MURMUSAB0042">Coma a musicis vocatur illud quo tonus superatur duo semitonia minora. Si
-        igitur a sex tonis subtrahatur diapason, manet coma et consistit in hac proporcione: 531441
-        ad 524288. [47] Patet idem, subtrahendo duo semitonia minora a tono et in quo tonus excedit
-        duo semitonia minora, in eodem superat semitonium maius semitonium minus.</p>
+      <p xml:id="MURMUSAB0042">Coma a musicis vocatur illud quo tonus superatur duo semitonia
+        minora. Si igitur a sex tonis subtrahatur diapason, manet coma et consistit in hac
+        proporcione: 531441 ad 524288. [47] Patet idem, subtrahendo duo semitonia minora a tono et
+        in quo tonus excedit duo semitonia minora, in eodem superat semitonium maius semitonium
+        minus.</p>
       <p xml:id="MURMUSAB0043">Corollaria quaedem</p>
       <p class="textFig" xml:id="MURMUSAB0044">
         <br/>Primum:      Duo minora semitonia tonum integrum non complere
@@ -332,16 +343,15 @@
         <lb/>             Coma maius esse quam 15 ad 14 minus vero quam 14 ad 13
         <br/>Decimum:     Semitonium minus maius esse tribus comatibus minus vero quatuor
         <lb/>Undecimum:   Semitonium maius maius quatuor comatibus minus vero quinque
-        <br/>Duodecimum:  Tonum maiorem esse octo comatibus minorem vero novem
-        <lb/></p>
+        <br/>Duodecimum:  Tonum maiorem esse octo comatibus minorem vero novem <lb/></p>
       <p xml:id="MURMUSAB0045">
         <pb n="[340]"/>Componit quadrupla proporcio bis diapason</p>
       <p xml:id="MURMUSAB0046">Nam bis dupla quadruplam efficit.</p>
       <p xml:id="MURMUSAB0047">Sed manet in tripla diapason cum diapenthe</p>
       <p xml:id="MURMUSAB0048">Quoniam dupla cum sesqualtera triplam componit.</p>
       <p xml:id="MURMUSAB0049">Nulla fit armonia diatesseron et diapason</p>
-      <p xml:id="MURMUSAB0050">Quoniam cum iungitur diapason cum diatesseron exit proporcio 8 ad 3, que
-        distat a perfecta consonaciam, scilicet diapason cum diapenthe solo tono, hoc dixerunt
+      <p xml:id="MURMUSAB0050">Quoniam cum iungitur diapason cum diatesseron exit proporcio 8 ad 3,
+        que distat a perfecta consonaciam, scilicet diapason cum diapenthe solo tono, hoc dixerunt
         Pictagorici. Unde voluerunt quod diatesseron intensa, super quam intenditur diapenthe, ut
         3.4.6 non sit consonancia; sed tamen diapenthe intensa supra quam diatesseron intendatur ut,
         4.6.8 licet utrobique sit diapason in extremis. Ptolomeus autem dicit diapason cum
@@ -357,20 +367,20 @@
         dyapenthe. Deinde a.b in quatuor partes que sunt a.f, f.c, c.g et g.b dividatur equalia.
         Tunc a.g ad a.b diatesseron adimplebit. Eritque a.e ad a.g tonus.</p>
       <p xml:id="MURMUSAB0053">In gravitate tonum vel acuta parte docere</p>
-      <p xml:id="MURMUSAB0054">Primo in parte acuta sic. Sit sonus b a quo intendo diapenthe usque in c
-        et a c remitto diatesseron in d. Erit d.b in acuta parte tonus. [48] In parte autem gravi
-        sic: super b sonum intendo diatesseron usque in f a quo ad k remitto diapenthe. Erit k.b
-        tonus in parte gravi; et patet idem in diatesseron <pb n="[341]"/>et diapenthe ab eodem
+      <p xml:id="MURMUSAB0054">Primo in parte acuta sic. Sit sonus b a quo intendo diapenthe usque
+        in c et a c remitto diatesseron in d. Erit d.b in acuta parte tonus. [48] In parte autem
+        gravi sic: super b sonum intendo diatesseron usque in f a quo ad k remitto diapenthe. Erit
+        k.b tonus in parte gravi; et patet idem in diatesseron <pb n="[341]"/>et diapenthe ab eodem
         intendantur habebitur primum. Si ambo ab eodem remittantur habebitur secundum. Exemplum
         primi 6.8.9; exemplum secundi 12.9.8.</p>
       <p xml:id="MURMUSAB0055">Atque semitonium parvum sive maius habere</p>
-      <p xml:id="MURMUSAB0056">Primo ad acutam partem. Noto in proposicio consonanciam intendere est de
-        sono gravi acuciorem facere; remittere autem de acuciori graviorem.</p>
-      <p xml:id="MURMUSAB0057">Sit a sonus a quo ad b intendatur diatesseron, et a.b rursus ad c fiat
-        intensa diatesseron, et a c usque ad d remittatur diapenthe, et erit igitur b.d tonus. Item
-        a d intendatur diatesseron ad e a quo ad f fiat diapenthe remissa, erit itaque d.f tonus.
-        Unde cum a.b sit diatesseron et b.f duo toni, erit f.a semitonium minus. Ad partem autem
-        gravem ita fiat. Sit tonus a a quo intendatur duo toni continui, a.d et d.g, et a g
+      <p xml:id="MURMUSAB0056">Primo ad acutam partem. Noto in proposicio consonanciam intendere est
+        de sono gravi acuciorem facere; remittere autem de acuciori graviorem.</p>
+      <p xml:id="MURMUSAB0057">Sit a sonus a quo ad b intendatur diatesseron, et a.b rursus ad c
+        fiat intensa diatesseron, et a c usque ad d remittatur diapenthe, et erit igitur b.d tonus.
+        Item a d intendatur diatesseron ad e a quo ad f fiat diapenthe remissa, erit itaque d.f
+        tonus. Unde cum a.b sit diatesseron et b.f duo toni, erit f.a semitonium minus. Ad partem
+        autem gravem ita fiat. Sit tonus a a quo intendatur duo toni continui, a.d et d.g, et a g
         remittatur diatesseron usque ad k, erit a.k minus semitonium. Maius autem semitonium sic;
         primo ad partem acutam. Ab a sonos tres tonos acutos continue intendo qui sunt a.b, b.c et
         c.d, deinde super a acutam formo diatesseron, quod sit a.f, erit c.f semitonium minus et f.d
@@ -416,24 +426,16 @@
       <p xml:id="MURMUSAB0062">
         <pb n="[343]"/>Nunc ego concordo cum Boecii monocordo</p>
       <p class="textFig" xml:id="MURMUSAB0063">
-        <br/>                a 2304      tonus
-        <lb/>                g 2592      tonus
-        <br/>                f 2916      semitonium
-        <lb/>                e 3072      tonus
-        <br/>                d 3456      tonus
-        <lb/>                c 3888      semitonium
-        <br/>                b 4096      tonus
-        <lb/>                a 4608      tonus
-        <br/>                g 5184      tonus
-        <lb/>                f 5832      semitonium
-        <br/>                e 6144      tonus
-        <lb/>                d 6912      tonus
-        <br/>                c 7776      semitonium
-        <lb/>                b 8192      tonus
-        <br/>                a 9216
-        <lb/></p>
-      <p xml:id="MURMUSAB0064">Hec est divisio monocordo secundum Boecium. In figuram, in qua non est
-        nisi bis diapason quantum ad proporcionem minorem, licet non repugnet ei esse ter vel
+        <br/>                a 2304      tonus <lb/>                g 2592      tonus
+        <br/>                f 2916      semitonium <lb/>                e 3072      tonus
+        <br/>                d 3456      tonus <lb/>                c 3888      semitonium
+        <br/>                b 4096      tonus <lb/>                a 4608      tonus
+        <br/>                g 5184      tonus <lb/>                f 5832      semitonium
+        <br/>                e 6144      tonus <lb/>                d 6912      tonus
+        <br/>                c 7776      semitonium <lb/>                b 8192      tonus
+        <br/>                a 9216 <lb/></p>
+      <p xml:id="MURMUSAB0064">Hec est divisio monocordo secundum Boecium. In figuram, in qua non
+        est nisi bis diapason quantum ad proporcionem minorem, licet non repugnet ei esse ter vel
         quatuor, et est in genere diatonico. Nunc autem quoniam subtiliata est musica per exercitium
         modernorum, et maneries Boecii actualiter variata est, ideo divisio iam est talis. Sit a.b
         corda recta posita super planum per equalia divisa in puncto i, erit a.i ad a.b diapason.

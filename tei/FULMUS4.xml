@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musica, pars quarta</title>
         <title type="abbrev">FULMUS4</title>
-        <author>Adamus de Fulda</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Adamus de Fulda</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Sergei Lebedev</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1992</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1992">1992</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptores ecclesiastici de musica sacra potissimum</emph>, 3 vols., ed. Martin
@@ -47,9 +57,9 @@
         <pb n="[367]"/>Pars quarta. Adae de fulda musici in proportiones, consonantias et partem
         quartam praefatiuncula feliciter incipit.</p>
       <p xml:id="FULMUS40002">Sequitur prologus.</p>
-      <p xml:id="FULMUS40003">Iubal filium Lamech sonorum proportiones priorem invenisse, nemo est qui
-        negat, cui frater erat Tubalcain nomine, primus faber aerarius, penes quem conversatus in
-        fabrica per malleorum et aeris sonum harmonias primum perpendisse fertur, qui et artem
+      <p xml:id="FULMUS40003">Iubal filium Lamech sonorum proportiones priorem invenisse, nemo est
+        qui negat, cui frater erat Tubalcain nomine, primus faber aerarius, penes quem conversatus
+        in fabrica per malleorum et aeris sonum harmonias primum perpendisse fertur, qui et artem
         duabus insculptam columnis post se reliquit, ut Iosephus dicit, quae post diluvium diu
         sepulta permansit.</p>
       <p xml:id="FULMUS40004">Postquam vero Pythagoras numeros adinvenit, cuique a toto tempore, dum
@@ -94,8 +104,8 @@
         harmonicales. Arithmeticales sunt, ubi inter terminos numerales sunt eaedem differentiae,
         sed non eaedem proprietates; nam arithmetica dispositio aequalis tantum per differentias
         dividit quantitates.</p>
-      <p xml:id="FULMUS40011">Geometricales sunt, quando inter terminos sunt eaedem proportiones, sed
-        non eaedem differentiae; Geometrica enim terminos aequa proportione coniungit.</p>
+      <p xml:id="FULMUS40011">Geometricales sunt, quando inter terminos sunt eaedem proportiones,
+        sed non eaedem differentiae; Geometrica enim terminos aequa proportione coniungit.</p>
       <p xml:id="FULMUS40012">Harmonicales sunt, quando inter terminos non inveniuntur eaedem
         differentiae, necque eaedem proportiones, sed sicut se habet maximum ad minimum, sic se
         habet differentia, quae est inter maximum terminum et medium, ad differentiam, quae est
@@ -122,28 +132,29 @@
         <pb n="[369]"/>Paris numeri tres sunt species. Pariter par est, qui potest in duo paria
         dividi, cuiusque pars in alia duo paria, partisque pars in alia duo paria, usque divisio
         partium ad indivisibilem naturaliter perveniat unitatem, ut in dupla et quadrupla.</p>
-      <p xml:id="FULMUS40018">Pariter impar est, qui paritatis naturam substantiamque sortitus est, sed
-        in contrarium divisione numeri pariter pari opponitur; nam qua par est, in partes aequales
-        recipit sectionem, partes vero eius insecabiles sunt 6. 10. 14. 18.</p>
-      <p xml:id="FULMUS40019">Impariter par est, qui dividitur in aequas partes, cuiusque pars in alias
-        aequas dividi potest: et etiam aliquando partes partium dividuntur, sed non usque ad
+      <p xml:id="FULMUS40018">Pariter impar est, qui paritatis naturam substantiamque sortitus est,
+        sed in contrarium divisione numeri pariter pari opponitur; nam qua par est, in partes
+        aequales recipit sectionem, partes vero eius insecabiles sunt 6. 10. 14. 18.</p>
+      <p xml:id="FULMUS40019">Impariter par est, qui dividitur in aequas partes, cuiusque pars in
+        alias aequas dividi potest: et etiam aliquando partes partium dividuntur, sed non usque ad
         unitatem progreditur aequabilis illa distinctio 24. 28.</p>
       <p xml:id="FULMUS40020">Imparis numeri tres sunt species. Primus incompositus est, qui nullam
         aliam partem habet, nisi eam, quae a tota numeri quantitate denominata sit, ut ipsa pars non
         sit nisi unitas, ut 3. 5. 7. 13. 17. 19. 23. 29. 31. Dicitur autem primus incompositus, quia
         nullus eum numerus metiatur praeter solum coniunctos.</p>
-      <p xml:id="FULMUS40021">Secundus compositus est, qui nullam retinet in se substantiam principalem,
-        compositusque est ex aliis numeris, habetque partes a seipso et alieno denominatas vocabulo,
-        sed in parte a seipso denominata semper erit unitas: 9. 15. 21. 25. 27. Dicitur autem per se
-        secundus, quia non sola unitate metitur, sed etiam alio numero, a quo coniunctus est.</p>
-      <p xml:id="FULMUS40022">Per se primus vel secundus est, qui recipit alterius mensionem, sed cum
-        fuerit ad alium eiusdem generis numerum comparatus; nulla cum eo communi mensura
+      <p xml:id="FULMUS40021">Secundus compositus est, qui nullam retinet in se substantiam
+        principalem, compositusque est ex aliis numeris, habetque partes a seipso et alieno
+        denominatas vocabulo, sed in parte a seipso denominata semper erit unitas: 9. 15. 21. 25.
+        27. Dicitur autem per se secundus, quia non sola unitate metitur, sed etiam alio numero, a
+        quo coniunctus est.</p>
+      <p xml:id="FULMUS40022">Per se primus vel secundus est, qui recipit alterius mensionem, sed
+        cum fuerit ad alium eiusdem generis numerum comparatus; nulla cum eo communi mensura
         coniungitur, nec habebunt partes aequivocas 9. ad 25. comparati ad se invicem primi
         incompositi, scilicet ratione unitatis, sed non partium, secundi et compositi sunt; namque
         9. in tertia ter, et in 25. non est, et e converso.</p>
       <p xml:id="FULMUS40023">Caput III.</p>
-      <p xml:id="FULMUS40024">Omnis itaque numerus vel proportio in quinque generibus ordinatur, vel in
-        genere multiplici, vel superparticulari, aut superpartienti, aut multiplici
+      <p xml:id="FULMUS40024">Omnis itaque numerus vel proportio in quinque generibus ordinatur, vel
+        in genere multiplici, vel superparticulari, aut superpartienti, aut multiplici
         superparticulari, vel multiplici superpartienti. Harmonicaliter autem sic communiter, quod
         primi parte superat medius primum, et eadem extrema parte superatur medius ab extremo,
         utputa 6. et 8. duabus partibus superant, quae duae partes sunt tertia senarii pars, media
@@ -152,75 +163,72 @@
       <p xml:id="FULMUS40025">Proportio primo est duplex: rationalis est quae facit consonantiam, ut
         dupla, sesquialtera, quadrupla; irrationalis est proportio sine melodia, et ibi excluditur
         medietas toni.</p>
-      <p xml:id="FULMUS40026">Proportio secundo est duplex. Aequalitas est duarum qualitatum aequalium
-        ad invicem habitudo, et non dividitur. Inaequalitas est duarum qualitatum inaequalium ad
-        invicem habitudo: maioris inaequalitatis est habitudo qualitatis maioris ad minorem: minoris
-        inaequalitatis est habitudo qualitatis brevioris ad maiorem.</p>
+      <p xml:id="FULMUS40026">Proportio secundo est duplex. Aequalitas est duarum qualitatum
+        aequalium ad invicem habitudo, et non dividitur. Inaequalitas est duarum qualitatum
+        inaequalium ad invicem habitudo: maioris inaequalitatis est habitudo qualitatis maioris ad
+        minorem: minoris inaequalitatis est habitudo qualitatis brevioris ad maiorem.</p>
       <p xml:id="FULMUS40027">
         <pb n="[370]"/>Proportionum quinque sunt genera.</p>
-      <p xml:id="FULMUS40028">1. Multiplex est habitudo qualitatis vel numeri maioris ad breviorem, eam
-        vel eum multotiens continens, facit duplam, triplam, quadruplam.</p>
-      <p xml:id="FULMUS40029">2. Superparticularis est habitudo numeri ad alterum comparati, quotiens
-        habet in se totum breviorem, et partem eius aliquam: qui si brevioris habet medietatem,
-        dicitur sesquialtera, si tertiam partem, sesquitertia, et his nominibus in infinitum ductis
-        facit sesquialteram, sesquitertiam, sesquiquartam, sesquioctavam.</p>
+      <p xml:id="FULMUS40028">1. Multiplex est habitudo qualitatis vel numeri maioris ad breviorem,
+        eam vel eum multotiens continens, facit duplam, triplam, quadruplam.</p>
+      <p xml:id="FULMUS40029">2. Superparticularis est habitudo numeri ad alterum comparati,
+        quotiens habet in se totum breviorem, et partem eius aliquam: qui si brevioris habet
+        medietatem, dicitur sesquialtera, si tertiam partem, sesquitertia, et his nominibus in
+        infinitum ductis facit sesquialteram, sesquitertiam, sesquiquartam, sesquioctavam.</p>
       <p xml:id="FULMUS40030">3. Superpartiens est habitudo numeri ad alterum comparati, habens eum
         totum infra se, et eius insuper aliquas partes, vel duas vel tres, vel quot ipsa tulerit
         comparatio: si duas, superbipartiens dicitur, si tres, supertripartiens, et in infinitum,
         facit superbipartientem, super tripartientem, super quadripartientem.</p>
-      <p xml:id="FULMUS40031">4. Multiplex superparticularis est habitudo quantitatis vel numeri maioris
-        ad breviorem, eum multotiens continens, et eius partem aliquotam; facit proportionem duplam
-        superbiparticularem.</p>
-      <p xml:id="FULMUS40032">5. Multiplex superpartiens est habitutudo quantitatis vel numeri maioris
-        ad breviorem, ipsum multotiens, insuper eius partes aliquotas continens, ex quibus non fit
-        una aliquota; facit proportionem duplam superbipartientem.</p>
+      <p xml:id="FULMUS40031">4. Multiplex superparticularis est habitudo quantitatis vel numeri
+        maioris ad breviorem, eum multotiens continens, et eius partem aliquotam; facit proportionem
+        duplam superbiparticularem.</p>
+      <p xml:id="FULMUS40032">5. Multiplex superpartiens est habitutudo quantitatis vel numeri
+        maioris ad breviorem, ipsum multotiens, insuper eius partes aliquotas continens, ex quibus
+        non fit una aliquota; facit proportionem duplam superbipartientem.</p>
       <p xml:id="FULMUS40033">Caput IV.</p>
       <p xml:id="FULMUS40034">Quamvis proportiones sint plures et infinitae, octo tamen artis
         praeceptores harmoniae deservientes prae caeteris in usum deferre voluerunt, propter vocum
         consonantias ac consonantiarum partes.</p>
-      <p xml:id="FULMUS40035">[GSIII:370; text: Octo proportiones musicales. Dupla. Tripla. Quadrupla.
-        Sesquialtera. Sesquitertia. Sesquiquarta. Dupla superbiparticularis. Sesquioctava. Continet
-        symphoniam. Diapason. Diapason diapente. Bis diapason. Diapente. Diatessaron. Ditonus semi.
-        Diapason diatessaron. Tonus.] <figure>
+      <p xml:id="FULMUS40035">[GSIII:370; text: Octo proportiones musicales. Dupla. Tripla.
+        Quadrupla. Sesquialtera. Sesquitertia. Sesquiquarta. Dupla superbiparticularis.
+        Sesquioctava. Continet symphoniam. Diapason. Diapason diapente. Bis diapason. Diapente.
+        Diatessaron. Ditonus semi. Diapason diatessaron. Tonus.] <figure>
           <graphic url="/images/FULMUS4_01GF.gif"/>
         </figure></p>
       <p xml:id="FULMUS40036">Omnis autem proportio communiter constituitur ex duabus aliis, aut ex
         pluribus, ut ex sequentibus clare invenire potes. Nam dupla constituitur ex sesquialtera et
         sesquitertia, id est, ex diapente et diatessaron; ut in Boetio quarto musicae, ubi sic
         inquit: ex duabus maximis superparticularibus duplex nascitur intervallum, ut hic:</p>
-      <p class="textFig" xml:id="FULMUS40037">1. 2. 3. 4.  5.  6.  7.
-        <lb/>2. 4. 6. 8. 10. 12. 14. <br/></p>
+      <p class="textFig" xml:id="FULMUS40037">1. 2. 3. 4.  5.  6.  7. <lb/>2. 4. 6. 8. 10. 12. 14.
+        <br/></p>
       <p xml:id="FULMUS40038">Tripla proportio constituitur ex dupla et sesquialtera, hoc est, ex
         diapason <pb n="[371]"/>et diapente, ex duplici enim intervallo et sesquialtero, ut Boetius
         quarto musicae dicit, et sic numeraliter in infinitum, ut hic:</p>
-      <p class="textFig" xml:id="FULMUS40039">1. 2. 3.  4.  5.  6.
-        <lb/>3. 6. 9. 12. 15. 18. <br/></p>
+      <p class="textFig" xml:id="FULMUS40039">1. 2. 3.  4.  5.  6. <lb/>3. 6. 9. 12. 15. 18.
+        <br/></p>
       <p xml:id="FULMUS40040">Quadrupla ex duabus duplis, vel ex tripla et sesquialtera, hoc est, ex
         bisdiapason consonantia constituitur, quam Boetius maximam vocare symphoniam voluit. Et sic
         fit in numeris. 1. ad 2. faciunt diapason, quadruplato faciunt quatuor, bis diatessaron
         causantes; sed quatuor sunt qudruplum, unius ergo quadrupla fit in bis diapason, et sic in
         infinitum numeraliter, ut hic:</p>
-      <p class="textFig" xml:id="FULMUS40041">1. 2.  3.  4.  5.  6.
-        <lb/>4. 8. 12. 16. 20. 24. <br/></p>
-      <p xml:id="FULMUS40042">Sesquialtera proportio fit ex epitrita et sesquioctava proportionibus, hoc
-        est, ex diatessaron et tono, vel ex tribus tonis et semitonio, et in diapente consonantia;
-        est enim maior epitrite tono, qui etiam sic in infinitum graditur, ut hic:</p>
+      <p class="textFig" xml:id="FULMUS40041">1. 2.  3.  4.  5.  6. <lb/>4. 8. 12. 16. 20. 24.
+        <br/></p>
+      <p xml:id="FULMUS40042">Sesquialtera proportio fit ex epitrita et sesquioctava proportionibus,
+        hoc est, ex diatessaron et tono, vel ex tribus tonis et semitonio, et in diapente
+        consonantia; est enim maior epitrite tono, qui etiam sic in infinitum graditur, ut hic:</p>
       <p class="textFig" xml:id="FULMUS40043">1. 2. 3.  4.  5.  6.  7.  8.  9. 10. M.
-        <lb/>3. 6. 9. 12. 15. 18. 21. 24. 27. 30. D.
-        <br/>2. 4. 6.  8. 10. 12. 14. 16. 18. 20. C.
+        <lb/>3. 6. 9. 12. 15. 18. 21. 24. 27. 30. D. <br/>2. 4. 6.  8. 10. 12. 14. 16. 18. 20. C.
         <lb/></p>
       <p xml:id="FULMUS40044">Sesquitertia proportio, quae et epitrita, fit ex duabus sesquioctavis
         proportionibus et tertia incompleta, aut fit ex tono, semitonio et tono, hoc est, ex
         diatessaron consonantia, quae sic in infinitum habet metiri, ut hic ponitur in numeris:</p>
-      <p class="textFig" xml:id="FULMUS40045">1. 2.  3.  4.  5.  6. M.
-        <br/>4. 8. 12. 16. 20. 24. D.
+      <p class="textFig" xml:id="FULMUS40045">1. 2.  3.  4.  5.  6. M. <br/>4. 8. 12. 16. 20. 24. D.
         <lb/>3. 6.  9. 12. 15. 18. C. <br/></p>
-      <p xml:id="FULMUS40046">Ex his et ipsa sesquiquarta proportio metiri haberet, et ipsam imitantes,
-        sed quia semper minuuntur, aliquando symphonia carere possent: quo tamen non obstante
-        numeraliter sic in infinitum tendit, ac sub ditono consonantia locatur, ut hic:</p>
+      <p xml:id="FULMUS40046">Ex his et ipsa sesquiquarta proportio metiri haberet, et ipsam
+        imitantes, sed quia semper minuuntur, aliquando symphonia carere possent: quo tamen non
+        obstante numeraliter sic in infinitum tendit, ac sub ditono consonantia locatur, ut hic:</p>
       <p class="textFig" xml:id="FULMUS40047">1.  2.  3.  4.  5.  6.  7. M.
-        <lb/>5. 10. 15. 20. 25. 30. 35. D.
-        <br/>4.  8. 12. 16. 20. 24. 28. C. <lb/></p>
+        <lb/>5. 10. 15. 20. 25. 30. 35. D. <br/>4.  8. 12. 16. 20. 24. 28. C. <lb/></p>
       <p xml:id="FULMUS40048">Caput V.</p>
       <p xml:id="FULMUS40049">Non enim gratis diximus, superparticulares symphonia aliquando carere
         posse; nam omnis proportio superparticularis minor est proportione multiplici, multiplex
@@ -229,15 +237,15 @@
         4. etc.; sicut enim species multiplicis numeri in ordine naturali semper crescunt, sic
         species superparticularis eo ordine converso minuuntur; nam multiplices secundum adiectionem
         naturalem, sine termino crescunt, sed superparticulares naturaliter decrescunt.</p>
-      <p xml:id="FULMUS40050">Unum quoque in his proportionibus nonnumquam contingere solet, ut quanto
-        denominatio alicuius partis numeri maior est, tanto pars brevior, et e converso: videlicet
-        3. denominatis a tribus, et 2. a duobus, maior est denominatio trium quam duorum, quia
-        tertia pars brevior est; ergo fit, ut in superparticularibus sesquitertia pars brevior est
-        sesquialterae, nam haec in diatessaron, illa in diapente continetur, et sic de simili. Sed
-        ex quo naturaliter decrescunt, aliquando symphoniam non intrant, nam sesquiseptima decima
-        est brevior vero semitonio, quia inter sesquisextam decimam et sesquiseptimam decimam nulla
-        habitudo superparticularis habet medium proportionabile, igitur etc. et hoc pro maiori parte
-        omnes volunt.</p>
+      <p xml:id="FULMUS40050">Unum quoque in his proportionibus nonnumquam contingere solet, ut
+        quanto denominatio alicuius partis numeri maior est, tanto pars brevior, et e converso:
+        videlicet 3. denominatis a tribus, et 2. a duobus, maior est denominatio trium quam duorum,
+        quia tertia pars brevior est; ergo fit, ut in superparticularibus sesquitertia pars brevior
+        est sesquialterae, nam haec in diatessaron, illa in diapente continetur, et sic de simili.
+        Sed ex quo naturaliter decrescunt, aliquando symphoniam non intrant, nam sesquiseptima
+        decima est brevior vero semitonio, quia inter sesquisextam decimam et sesquiseptimam decimam
+        nulla habitudo superparticularis habet medium proportionabile, igitur etc. et hoc pro maiori
+        parte omnes volunt.</p>
       <p xml:id="FULMUS40051">Sed sunt nonuulli, qui dicunt, in superparticularibus proportionibus
         nullum esse medium, sicut Archita Tarentinus et quamplures alii, licet ab Anitio
         reprehendantur. Magis tamen probabilis eorum opinio fore videtur, quam ipsius Anitii
@@ -255,16 +263,15 @@
         enim sunt immediati; harmonicaliter autem minimi dupli possunt esse immediati, sed
         geometricaliter in magna intervalla dividuntur.</p>
       <p xml:id="FULMUS40054">Caput VI.</p>
-      <p xml:id="FULMUS40055">Nunc autem de superpartientibus, ubi brevior numerus cum eius aliquanta et
-        aliquota parte semel continetur, dicendum erit: pars enim aliquanta dicitur illa, quae per
-        quemcumque numerum multiplicata, vel quotiescumque resumta non reddit suum totum perfecte,
-        sed semper vel plus vel minus, ut in superbipartiente, supertripartiente etc. et sic in
-        infinitum.</p>
+      <p xml:id="FULMUS40055">Nunc autem de superpartientibus, ubi brevior numerus cum eius
+        aliquanta et aliquota parte semel continetur, dicendum erit: pars enim aliquanta dicitur
+        illa, quae per quemcumque numerum multiplicata, vel quotiescumque resumta non reddit suum
+        totum perfecte, sed semper vel plus vel minus, ut in superbipartiente, supertripartiente
+        etc. et sic in infinitum.</p>
       <p xml:id="FULMUS40056">
         <pb n="[373]"/>
       </p>
-      <p class="textFig" xml:id="FULMUS40057">3. 4. 5.  6.  7.
-        <br/>5. 7. 9. 11. 13. <lb/></p>
+      <p class="textFig" xml:id="FULMUS40057">3. 4. 5.  6.  7. <br/>5. 7. 9. 11. 13. <lb/></p>
       <p xml:id="FULMUS40058">Dupla superbipartiens constituitur ex dupla et sesquitertia
         proportionibus, hoc est, in diapason et diatessaron consonantia, quae ab omnibus
         Pythagoricis tamquam sonus irregularis respuitur. Sed tamen Ptolomaeus ipsam consonantiam
@@ -279,32 +286,32 @@
         est diapente diatessaron, sicut enim in natura consonantiarum et proportionum maius est
         fieri per intensionem quam per remissionem, sic et intensio maiorem vim habet, quam
         diatessaron, post diapente maioris consonantiae est quam ante.</p>
-      <p xml:id="FULMUS40059">Sed detur meo iudicio experientia determinatrix, sitque auris uniuscuisque
-        sibi ipsi iudex, et inveniet, diatessaron non esse consonantiam, ut quidam volunt, sed
-        consonantiae partem, quia imperfecta est, et nisi eam perfecta praecesserit, semidissonantia
-        erit, nec ante diapente sanat, quae maior est ea. Ratio, nam prior est comparatio diapason
-        ad diapente, quam ad diatessaron, utputa, prius 12. ad 8. comparantur, quam ad 9. quia 8.
-        sunt ante 9. quare diatessaron post diapente venit, unde si non esset diapente, non esset
-        diatessaron. Sed potest diapente dici estque et dicitur consonantia, et sic diatessaron non
-        ex se actu, sed ex duabus videtur fore consonantia, ut ex diapente diatessaron, quae
-        diapason constituunt. Si igitur non sub, ideo neque supra diapason consonantia erit, sed
-        sonus irregularis. Quidam tamen hoc quintum genus consonantiae esse dixerunt, sed non est,
-        nisi diatessaron sit consonantia, et non pars eius: sic mihi videtur, ut experientia docet,
-        quae et rerum magistra est, ut in hac figura.</p>
+      <p xml:id="FULMUS40059">Sed detur meo iudicio experientia determinatrix, sitque auris
+        uniuscuisque sibi ipsi iudex, et inveniet, diatessaron non esse consonantiam, ut quidam
+        volunt, sed consonantiae partem, quia imperfecta est, et nisi eam perfecta praecesserit,
+        semidissonantia erit, nec ante diapente sanat, quae maior est ea. Ratio, nam prior est
+        comparatio diapason ad diapente, quam ad diatessaron, utputa, prius 12. ad 8. comparantur,
+        quam ad 9. quia 8. sunt ante 9. quare diatessaron post diapente venit, unde si non esset
+        diapente, non esset diatessaron. Sed potest diapente dici estque et dicitur consonantia, et
+        sic diatessaron non ex se actu, sed ex duabus videtur fore consonantia, ut ex diapente
+        diatessaron, quae diapason constituunt. Si igitur non sub, ideo neque supra diapason
+        consonantia erit, sed sonus irregularis. Quidam tamen hoc quintum genus consonantiae esse
+        dixerunt, sed non est, nisi diatessaron sit consonantia, et non pars eius: sic mihi videtur,
+        ut experientia docet, quae et rerum magistra est, ut in hac figura.</p>
       <p xml:id="FULMUS40060">[GSIII:373; text: Sonus irregularis. Dupla superbipartiens. Dupla.
         Epitrita. 3. 6. 8.]</p>
-      <p xml:id="FULMUS40061">Sesquioctava proportio in tono est, quia in minori numero fieri non habet:
-        igitur in tono status istius proportionis esse perhibetur. Nam tonus omnium sonorum minimus
-        est, ut Boetius vult, <pb n="[374]"/>ubi dicit: octo et novem contra se medii considerati
-        epogdoum iunguntur, id est, tonum omnium sonorum parvissimum, quia medio caret, unde
-        differentiam eum fore inter diatessaron et diapente constat, sicut inter sesquialteram et
-        sesquitertiam sola epogdous differentia est, ut in hac figura patet.</p>
-      <p xml:id="FULMUS40062">[GSIII:374; text: Dupla. Sesquitertia. Epogdous. Epitrita. 6. 8. 9. 12.
-        Tonus. Sesquialtera. Diapente.] <figure>
+      <p xml:id="FULMUS40061">Sesquioctava proportio in tono est, quia in minori numero fieri non
+        habet: igitur in tono status istius proportionis esse perhibetur. Nam tonus omnium sonorum
+        minimus est, ut Boetius vult, <pb n="[374]"/>ubi dicit: octo et novem contra se medii
+        considerati epogdoum iunguntur, id est, tonum omnium sonorum parvissimum, quia medio caret,
+        unde differentiam eum fore inter diatessaron et diapente constat, sicut inter sesquialteram
+        et sesquitertiam sola epogdous differentia est, ut in hac figura patet.</p>
+      <p xml:id="FULMUS40062">[GSIII:374; text: Dupla. Sesquitertia. Epogdous. Epitrita. 6. 8. 9.
+        12. Tonus. Sesquialtera. Diapente.] <figure>
           <graphic url="/images/FULMUS4_02GF.gif"/>
         </figure></p>
-      <p xml:id="FULMUS40063">Ex quo vero 8. et 9. sesquioctavam formant proportionem, videndum erit,
-        quomodo id fiat. Inter 8. et 9. nullus incidit medius numerus: sumantur igitur numeri
+      <p xml:id="FULMUS40063">Ex quo vero 8. et 9. sesquioctavam formant proportionem, videndum
+        erit, quomodo id fiat. Inter 8. et 9. nullus incidit medius numerus: sumantur igitur numeri
         duplicati, et videbitur proportio; sed inter numeros duplicatos cadit unitas media,
         videlicet bis 8. erunt 16. et bis 9. erunt 18. et inter 16. et 18. cadit medietas 17. Igitur
         maior numerus, scilicet 18. A. minor vero 16. C. ac medius qui est 17. B. tunc inter A. et
@@ -316,8 +323,8 @@
         <pb n="[375]"/>[GSIII:375; text: Tonus Sesquioctava. Sesquidecimaseptima. Sesquidecimasexta.
         18. 17. 16. Minor pars. Maior pars. A. B. C.]</p>
       <p xml:id="FULMUS40065">Caput VII.</p>
-      <p xml:id="FULMUS40066">Tonus autem, qui est in sesquioctava proportione, in duo aequalia dividi
-        non potest, sic singulari quodam musico loquente: qui quaerit tonum in duo aequalia
+      <p xml:id="FULMUS40066">Tonus autem, qui est in sesquioctava proportione, in duo aequalia
+        dividi non potest, sic singulari quodam musico loquente: qui quaerit tonum in duo aequalia
         dividere, quaerit diametrum commensurare costae, quod est impossibile. Nam quod sit simile,
         quod diameter sit maior una costa, et brevior quam duae, nulla tamen communi proportione,
         quae possit excessum commensurare: sic etiam una pars toni maior est sesquisexta decima, et
@@ -332,69 +339,71 @@
         tonus dividitur in maius et brevius semitonium, vel in duo minora semitonia et unum comma,
         aut in quatuor diaschismata et unum comma, quia in aequalia dividi non potest. Volens autem
         intelligere toni divisionem, audiat Philolaum Pythagoricum de toni divisione dicentem.</p>
-      <p xml:id="FULMUS40068">Tonus est acuta vocis enuntiatio directa harmoniae et quantitatis, quae in
-        vocis accentu consistit.</p>
+      <p xml:id="FULMUS40068">Tonus est acuta vocis enuntiatio directa harmoniae et quantitatis,
+        quae in vocis accentu consistit.</p>
       <p xml:id="FULMUS40069">Diesis est spatium, quo maior est sesquitertia duobus tonis.</p>
       <p xml:id="FULMUS40070">Comma est spatium, quo maior est sesquioctava duabus diesibus.</p>
       <p xml:id="FULMUS40071">Schisma est dimidium commatis.</p>
       <p xml:id="FULMUS40072">Diaschisma est dimidium dieseos, id est, semitonii minoris.</p>
-      <p xml:id="FULMUS40073">Apotome est spatium quatuor commatibus maius, et minus quam quinque.</p>
-      <p xml:id="FULMUS40074">Tonum autem, apotome et diesim scire volens ex symphoniis sic procedat.
-        Intervallum eorum potest sumi in gravi vel acuto sic intendendo vel remittendo <pb n="[376]"/>melodias, et quando data voce melodiam remittis quasi descendendo, tunc capis symphoniam
-        inferius: sed quando data voce intendis melodiam supra quasi ascendendo, tunc capis melodiam
-        superius, ut in figuris sequentibus. Sit igitur primo A. vox data, et ab ea intendas
-        diapente usque ad B. deinde remitte diatessaron de B. usque ad C. Cum ergo diapente et
-        diatessaron distent in tono A. C. erit tonus in acuto, ut hic.</p>
-      <p xml:id="FULMUS40075">[GSIII:376,1; text: Diapente intensum. Diapente remissum. Tonus in acuto.
-        A. C. B.] <figure>
+      <p xml:id="FULMUS40073">Apotome est spatium quatuor commatibus maius, et minus quam
+        quinque.</p>
+      <p xml:id="FULMUS40074">Tonum autem, apotome et diesim scire volens ex symphoniis sic
+        procedat. Intervallum eorum potest sumi in gravi vel acuto sic intendendo vel remittendo <pb
+          n="[376]"/>melodias, et quando data voce melodiam remittis quasi descendendo, tunc capis
+        symphoniam inferius: sed quando data voce intendis melodiam supra quasi ascendendo, tunc
+        capis melodiam superius, ut in figuris sequentibus. Sit igitur primo A. vox data, et ab ea
+        intendas diapente usque ad B. deinde remitte diatessaron de B. usque ad C. Cum ergo diapente
+        et diatessaron distent in tono A. C. erit tonus in acuto, ut hic.</p>
+      <p xml:id="FULMUS40075">[GSIII:376,1; text: Diapente intensum. Diapente remissum. Tonus in
+        acuto. A. C. B.] <figure>
           <graphic url="/images/FULMUS4_03GF.gif"/>
         </figure></p>
       <p xml:id="FULMUS40076">Secundo A. B. sit diapente remissum, deinde intende diatessaron de B.
         usque ad C. tunc A. C. erit tonus in gravi, ut hic.</p>
       <p xml:id="FULMUS40077">[GSIII:376,2; text: Tonus in gravi. Diatessaron intensum. Diapente
         remissum. B. C. A.]</p>
-      <p xml:id="FULMUS40078">Tertio A. B. sit diatessaron intensum, deinde remitte ditonum a B. usque
-        ad C., tunc erit A. C. diesis in acutis, ut hic.</p>
+      <p xml:id="FULMUS40078">Tertio A. B. sit diatessaron intensum, deinde remitte ditonum a B.
+        usque ad C., tunc erit A. C. diesis in acutis, ut hic.</p>
       <p xml:id="FULMUS40079">[GSIII:376,3; text: Diatessaron intensum. Ditonus remissus. Diesis in
         acuto. A. C. B.]</p>
-      <p xml:id="FULMUS40080">Quarto A. B. sit diatessaron remissum, deinde a B. intende ditonum usque
-        ad C.tunc A. C. erit diesis in gravi ut hic.</p>
+      <p xml:id="FULMUS40080">Quarto A. B. sit diatessaron remissum, deinde a B. intende ditonum
+        usque ad C.tunc A. C. erit diesis in gravi ut hic.</p>
       <p xml:id="FULMUS40081">
         <pb n="[377]"/>[GSIII:377,1; text: B. C. A. Diesis in gravi. Ditonus intensus. Diatessaron
         remissum.] <figure>
           <graphic url="/images/FULMUS4_04GF.gif"/>
         </figure></p>
-      <p xml:id="FULMUS40082">Quinto A. B. sit apotome intensum, post hoc remitte diesim de B.usque ad
-        C. tunc A. C. erit comma in acuto, ut hic.</p>
-      <p xml:id="FULMUS40083">[GSIII:377,2; text: Apotome intensum. Diesis remissa. Comma in acuto. A.
-        C. B.]</p>
+      <p xml:id="FULMUS40082">Quinto A. B. sit apotome intensum, post hoc remitte diesim de B.usque
+        ad C. tunc A. C. erit comma in acuto, ut hic.</p>
+      <p xml:id="FULMUS40083">[GSIII:377,2; text: Apotome intensum. Diesis remissa. Comma in acuto.
+        A. C. B.]</p>
       <p xml:id="FULMUS40084">Sexto A. B. sint tres toni intensi, et B. C. sit diatessaron remissum,
         tunc fit apotoma in gravi A. C. ut hic.</p>
-      <p xml:id="FULMUS40085">[GSIII:377,3; text: Tres toni intensi. Diatessaron remissum. Apotome in
-        gravi. A. C. B.]</p>
-      <p xml:id="FULMUS40086">Septimo A. B. sit diesis intensa, et B. C. apotome remissum, tunc A. C.
-        erit comma in gravi, ut hic.</p>
-      <p xml:id="FULMUS40087">[GSIII:377,4; text: Apotome remissum. Diesis intensa. Comma in gravi. C.
-        A. B.]</p>
+      <p xml:id="FULMUS40085">[GSIII:377,3; text: Tres toni intensi. Diatessaron remissum. Apotome
+        in gravi. A. C. B.]</p>
+      <p xml:id="FULMUS40086">Septimo A. B. sit diesis intensa, et B. C. apotome remissum, tunc A.
+        C. erit comma in gravi, ut hic.</p>
+      <p xml:id="FULMUS40087">[GSIII:377,4; text: Apotome remissum. Diesis intensa. Comma in gravi.
+        C. A. B.]</p>
       <p xml:id="FULMUS40088">
         <pb n="[378]"/>Octavo A. B. sit diesis intensa, et B. C. sit tonus remissus, tunc A. C. erit
         apotome in gravi, ut hic</p>
-      <p xml:id="FULMUS40089">[GSIII:378,1; text: Tonus remissus. Diesis intensa. Apotome in gravi. C.
-        A. B.] <figure>
+      <p xml:id="FULMUS40089">[GSIII:378,1; text: Tonus remissus. Diesis intensa. Apotome in gravi.
+        C. A. B.] <figure>
           <graphic url="/images/FULMUS4_05GF.gif"/>
         </figure></p>
       <p xml:id="FULMUS40090">Caput VIII.</p>
-      <p xml:id="FULMUS40091">Per has igitur species intensas et remissas, nec non per intervalla toni
-        intendendo vel remittendo omnium proportionum harmonicalium proprietas symphoniaque pensari
-        potest. Sed multorum musicorum capitosa mens eas plerumque nititur confundere proportiones
-        et corrumpere, ita ut contra praeceptorum ordinationem ac ex omni parte bene fundatam
-        positionem quidam male fundare, quidam signa pervertere, quidam triplam sesquialterae
-        immiscere, aut aliam pro alia ponere solent, dicentes: ne forte noscantur; insuper et
-        gloriantur, se quid novi fecisse, nemini praeter ipsis notum, et nolunt attendere, quod et
-        fatuus et amens animo concipere potest, quod nemo praeter eum novit, sicut et caupo
-        indoctus, qui debita parieti inscribit signo sibi soli legibili.</p>
-      <p xml:id="FULMUS40092">Quapropter proportiones annectere volui cum earum signis, quo facilius ab
-        imperitis intelligi possint studere volentibus. Igitur dupla proportio est, quando maior
+      <p xml:id="FULMUS40091">Per has igitur species intensas et remissas, nec non per intervalla
+        toni intendendo vel remittendo omnium proportionum harmonicalium proprietas symphoniaque
+        pensari potest. Sed multorum musicorum capitosa mens eas plerumque nititur confundere
+        proportiones et corrumpere, ita ut contra praeceptorum ordinationem ac ex omni parte bene
+        fundatam positionem quidam male fundare, quidam signa pervertere, quidam triplam
+        sesquialterae immiscere, aut aliam pro alia ponere solent, dicentes: ne forte noscantur;
+        insuper et gloriantur, se quid novi fecisse, nemini praeter ipsis notum, et nolunt
+        attendere, quod et fatuus et amens animo concipere potest, quod nemo praeter eum novit,
+        sicut et caupo indoctus, qui debita parieti inscribit signo sibi soli legibili.</p>
+      <p xml:id="FULMUS40092">Quapropter proportiones annectere volui cum earum signis, quo facilius
+        ab imperitis intelligi possint studere volentibus. Igitur dupla proportio est, quando maior
         numerus continet breviorem dupliciter, ut 4. ad 2. 6. ad 3. vel 8. ad 4. etc. Musicaliter,
         quando duae minimae contra unam ponuntur, quatuor contra duas, vel octo contra quatuor;
         cuius signum est binaria virgula algoristica omnibus singulis signis associata, ut hic 2.
@@ -413,32 +422,32 @@
         contra unam ponuntur aut octo contra duas, aut 12. ad 3. cuius signum est quaternaria cifra
         algoristica cuilibet adiuncta signo, ut hic 4. exemplum.</p>
       <p xml:id="FULMUS40097">[GSIII:379,2: text: Tenor. Quadrupla.]</p>
-      <p xml:id="FULMUS40098">Sesquialtera proportio, quando maior numerus continet breviorem semel et
-        eius alteram partem, ut quando tres minimae ponuntur contra duas, vel sex ad quatuor etc.
+      <p xml:id="FULMUS40098">Sesquialtera proportio, quando maior numerus continet breviorem semel
+        et eius alteram partem, ut quando tres minimae ponuntur contra duas, vel sex ad quatuor etc.
         Dicitur et ipsa sextupla aut hemiolia; cuius signum est trinaria cifra algoristica posita
         supra binariam, ut hic 3. exemplum.</p>
       <p xml:id="FULMUS40099">[GSIII:379,3; text: Ditonus. Sesquialtera. Hemiolia.]</p>
-      <p xml:id="FULMUS40100">Sesquitertia proportio est, quando maior numerus continet semel minorem et
-        eius tertiam partem, ut 4. ad 3. vel 8. ad 6. Musicaliter, quando quatuor minimae contra
-        tres, vel octo contra sex proferuntur: cuius signum est cifra quaternaria posita supra
-        trinariam, ut hic 4/3 vel semicirculus reversus, ut hic [CL]. exemplum.</p>
+      <p xml:id="FULMUS40100">Sesquitertia proportio est, quando maior numerus continet semel
+        minorem et eius tertiam partem, ut 4. ad 3. vel 8. ad 6. Musicaliter, quando quatuor minimae
+        contra tres, vel octo contra sex proferuntur: cuius signum est cifra quaternaria posita
+        supra trinariam, ut hic 4/3 vel semicirculus reversus, ut hic [CL]. exemplum.</p>
       <p xml:id="FULMUS40101">
         <pb n="[380]"/>[GSIII:380,1; text: Ditonus. Sesquitertia.] <figure>
           <graphic url="/images/FULMUS4_07GF.gif"/>
         </figure></p>
-      <p xml:id="FULMUS40102">Sesquiquarta proportio est, quando maior numerus continet in se breviorem
-        semel, et eius quartam partem, ut 5. ad 4. vel 10. ad 8. Et sic musicaliter, quando quinque
-        minimae proferuntur contra quatuor, aut decem contra octo etc. Eius signum est quinaria
-        virgula algoristica posita supra quaternariam, ut hic 5/4 vel semicirculus conversus cum
-        puncto, ut hic [CLd]. exemplum.</p>
+      <p xml:id="FULMUS40102">Sesquiquarta proportio est, quando maior numerus continet in se
+        breviorem semel, et eius quartam partem, ut 5. ad 4. vel 10. ad 8. Et sic musicaliter,
+        quando quinque minimae proferuntur contra quatuor, aut decem contra octo etc. Eius signum
+        est quinaria virgula algoristica posita supra quaternariam, ut hic 5/4 vel semicirculus
+        conversus cum puncto, ut hic [CLd]. exemplum.</p>
       <p xml:id="FULMUS40103">[GSIII:380,2; text: Tenor. Sesquiquarta.]</p>
-      <p xml:id="FULMUS40104">Superbipartiens est, quando maior numerus continet in se breviorem semel,
-        et eius duas partes cum una aliquanta, quae simul sumtae non faciunt unam aliquotam, ut 5.
-        ad 3. vel 7. ad 4. vel 9. ad 5. Cuius signum est virgula quinaria supra trinariam, ut hic
-        5/3 vel semicirculus virgulatus, ut hic [CLdim] conversus. Exemplum.</p>
+      <p xml:id="FULMUS40104">Superbipartiens est, quando maior numerus continet in se breviorem
+        semel, et eius duas partes cum una aliquanta, quae simul sumtae non faciunt unam aliquotam,
+        ut 5. ad 3. vel 7. ad 4. vel 9. ad 5. Cuius signum est virgula quinaria supra trinariam, ut
+        hic 5/3 vel semicirculus virgulatus, ut hic [CLdim] conversus. Exemplum.</p>
       <p xml:id="FULMUS40105">[GSIII:380,3; text: Tenor. Superbipartiens.]</p>
-      <p xml:id="FULMUS40106">Dupla superbipartiens est, quando maior numerus continet breviorem bis, et
-        eius duas partes, ut 8. ad 3. habet enim 8. bis trinarium numerum, et duas partes.
+      <p xml:id="FULMUS40106">Dupla superbipartiens est, quando maior numerus continet breviorem
+        bis, et eius duas partes, ut 8. ad 3. habet enim 8. bis trinarium numerum, et duas partes.
         Musicaliter, quando octo minimae contra tres proferuntur, aut 16. ad 6. Cuius proportionis
         signum est virgula octonaria algoristica posita supra trinarium, ut hic 8/3 vel semicirculus
         conversus cum virgula et puncto, ut hic exemplum.</p>
@@ -451,9 +460,9 @@
         sic [CL/8]. Exemplum.</p>
       <p xml:id="FULMUS40109">[GSIII:381; text: Tenor. Sesquioctava.]</p>
       <p xml:id="FULMUS40110">Conclusio.</p>
-      <p xml:id="FULMUS40111">Haec sunt igitur, clarissime Ioachim! excerpta musicorum quasi omnium mihi
-        utiliora visa, ex quorum lectione non solum doctus, verum etiam expertus cum indocto animo
-        percipere potest, nil fore omissum ex his, quae necessarie ponenda erant. Quod enim
+      <p xml:id="FULMUS40111">Haec sunt igitur, clarissime Ioachim! excerpta musicorum quasi omnium
+        mihi utiliora visa, ex quorum lectione non solum doctus, verum etiam expertus cum indocto
+        animo percipere potest, nil fore omissum ex his, quae necessarie ponenda erant. Quod enim
         singulorum praeceptorum auctoritates non posuerim, nec in processu cum antiquis
         concordaverim, aut omnium proprietatum divisiones non locaverim, facit brevitas promissa, ac
         ipsorum antiquorum plana et compendiosa sufficiensque informatio, ex quorum scriptis, velut
@@ -464,9 +473,9 @@
         locatur; si utique planam et mensuralem musicam cum singulis proportionum generibus scire
         cupis, hic totam vim sub figuris comprehensam inspicies; si denique totam, ut ita dicam,
         artem et subtilitatem indagare praesumis, hic integre quasi sub testa nucleus celatur.</p>
-      <p xml:id="FULMUS40112">Suscipe ergo, vir praestantissime! bona fronte libellum tibi dicatum ab
-        homine deditissimo tibi: cui enim potius hunc ad corrigendum mitterem ac emendandum? Tu, si
-        vis, potes et a detrectatorum labiis defensare, qui male sentientibus argumentis obviare
+      <p xml:id="FULMUS40112">Suscipe ergo, vir praestantissime! bona fronte libellum tibi dicatum
+        ab homine deditissimo tibi: cui enim potius hunc ad corrigendum mitterem ac emendandum? Tu,
+        si vis, potes et a detrectatorum labiis defensare, qui male sentientibus argumentis obviare
         soles. Haec itaque cum lecturus es, memor eris, ut mihi persuadeo, nonnumquam Adae tui, qui
         se amore tui periculo dare non timuit, ac convitiis exponere. Vale.</p>
       <p xml:id="FULMUS40113">Conclusio libelli.</p>
@@ -474,8 +483,8 @@
       <p xml:id="FULMUS40115">Pervigil hic teneat humilis praecepta libelli,</p>
       <p xml:id="FULMUS40116">Quem bene si norit, musicus omnis erit.</p>
       <p xml:id="FULMUS40117">[Telos].</p>
-      <p xml:id="FULMUS40118">Sub anno salutis millesimo quadringentesimo nonagesimo, die Veneris, quae
-        erat quinta Novembris, perfecta est materia. Deo gratias. 1490. V. Novembris.</p>
+      <p xml:id="FULMUS40118">Sub anno salutis millesimo quadringentesimo nonagesimo, die Veneris,
+        quae erat quinta Novembris, perfecta est materia. Deo gratias. 1490. V. Novembris.</p>
     </body>
   </text>
 </TEI>

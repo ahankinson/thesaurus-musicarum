@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>[Musica]</title>
         <title type="abbrev">SZAMUS</title>
-        <author>Ladislaus de Zalka</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Ladislaus de Zalka</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Dénes von Bartha, <emph>Das Musiklehrbuch einer ungarischen
             Klosterschule in der Handschrift von Fürstprimas Szalkai (1490)</emph>, Musicologica
@@ -40,13 +50,13 @@
     <body>
       <p xml:id="SZAMUS0001">
         <pb n="[63]"/>[fol. 30a.] In nomine Domini Amen.</p>
-      <p xml:id="SZAMUS0002">Pro themate praesentis operis assigno Cassiodorum in quadam epistola sic
-        inquirentem: Scientia absconsione minuitur, communicatione autem augmentatur, quod approbat
-        versificatio sic dicens: Scire tuum nihil est, nisi scire tuum sciat alter, quibus alludit
-        commune proverbium videlicet: Qui alium docet, seipsum instruit. Sed quia musicae artis
-        notitia est multum utilis (Ipsa namque habentem se perficit, commoda plurima adducit et ad
-        status promovet et dignitatus), delectabilis et necessaria (quantum ad divinum officium
-        decantanda) tam aput veteres, quam apud modernos, sicut multorum doctorum scripta
+      <p xml:id="SZAMUS0002">Pro themate praesentis operis assigno Cassiodorum in quadam epistola
+        sic inquirentem: Scientia absconsione minuitur, communicatione autem augmentatur, quod
+        approbat versificatio sic dicens: Scire tuum nihil est, nisi scire tuum sciat alter, quibus
+        alludit commune proverbium videlicet: Qui alium docet, seipsum instruit. Sed quia musicae
+        artis notitia est multum utilis (Ipsa namque habentem se perficit, commoda plurima adducit
+        et ad status promovet et dignitatus), delectabilis et necessaria (quantum ad divinum
+        officium decantanda) tam aput veteres, quam apud modernos, sicut multorum doctorum scripta
         patefaciunt luculenter (Luculentus dicitur a luce et lentus, plenus, quasi plenus luce). Nam
         dicit philosophus octavo politicorum, quod musica utilis ? ad delectationem et ibidem dicit,
         quod pueri non solum erudiendi sunt in arte utili et necessaria, ut est literarum eruditio,
@@ -60,13 +70,14 @@
         in scholis, ut cum laetitia ? et debite depromere sciant in choro), ut ergo plus huic
         insistant et eam adquirant; hinc est, quod de materia regularum musicalium quantum
         valeo--quamvis nimis modicum--ad mentem memoriam? benivolentium offeram colligendo.
-        Nihilominus tamen causa ruditatis meae hoc tamquam necessarium ? praesuppono, <pb n="[64]"/>unumquemque in karitate Ihesu Christi rogitando, quatinus ubicumque diminute posuerim, vel
+        Nihilominus tamen causa ruditatis meae hoc tamquam necessarium ? praesuppono, <pb n="[64]"
+        />unumquemque in karitate Ihesu Christi rogitando, quatinus ubicumque diminute posuerim, vel
         forte ex ignorantia mea--quam reor in me esse maximam--male scripserim (Albertus: Maxima
         horum, quae scimus, sunt minima horum, quae ignoramus), ipse in praesenti materia plus
         intelligens postposita derogantia, quantum sibi placuerit et melius si potuerit,
         superaddat.</p>
-      <p xml:id="SZAMUS0003">Sed antequam partem aggrediar executivam, brevissime more solito dicam de
-        causis huius scientiae taliter, qualiter nunc occurrit. Propter quod Est Sciendum, quod
+      <p xml:id="SZAMUS0003">Sed antequam partem aggrediar executivam, brevissime more solito dicam
+        de causis huius scientiae taliter, qualiter nunc occurrit. Propter quod Est Sciendum, quod
         huius materiae, sicut uniuscuiusque rei creatae certae causae praecesserunt, sicut scriptum
         est: nihil (----Platon? in tymeo) est ortum sub sole, quin eius causa legittima praecessit
         (Aristoteles secundo politicorum: homo hominem generat et sol ?); sed quia de causa
@@ -114,15 +125,15 @@
         supplet Gregorius Ambrosiusque.--Et si plures secundum successum temporis aliquid huic arti
         addidisse noscuntur, particulares causae merito dici possunt. Quae dicta de [fol. 31a.]
         causa sufficiunt efficiente.</p>
-      <p xml:id="SZAMUS0005">Qua taliter expedita dicendum est de secunda causa, scilicet finali, quae
-        nihil aliud est, quam utilitas huius artis musicae. Sed quia utilitas huius artis secundum
-        diversorum intentiones diversimode potest considerari, primo et principaliter consideratur,
-        prout cultus divinus per ipsam musicam celebratur et sic causa eius finalis poterit dici
-        laus divina, quia nulli scientiae artium liberalium tam illariter et iocunde conceditur
-        fores ecclesiae subintrare, sicut musicae. Per eam namque mundi plasmatorem laudamus et
-        benedicimus, eique psallere debemus canticum novum, prout sancti patres et prophetae
-        diversimode docuerunt. Nam dicit sanctus Augustinus, quod ipsis clericis quatuor sunt
-        necessaria <pb n="[66]"/>in ecclesia dei: primum est gratia, ut ea, quae quis legit,
+      <p xml:id="SZAMUS0005">Qua taliter expedita dicendum est de secunda causa, scilicet finali,
+        quae nihil aliud est, quam utilitas huius artis musicae. Sed quia utilitas huius artis
+        secundum diversorum intentiones diversimode potest considerari, primo et principaliter
+        consideratur, prout cultus divinus per ipsam musicam celebratur et sic causa eius finalis
+        poterit dici laus divina, quia nulli scientiae artium liberalium tam illariter et iocunde
+        conceditur fores ecclesiae subintrare, sicut musicae. Per eam namque mundi plasmatorem
+        laudamus et benedicimus, eique psallere debemus canticum novum, prout sancti patres et
+        prophetae diversimode docuerunt. Nam dicit sanctus Augustinus, quod ipsis clericis quatuor
+        sunt necessaria <pb n="[66]"/>in ecclesia dei: primum est gratia, ut ea, quae quis legit,
         intelligat. Secundum est jus canonicum, ut causas occurrentes debite expediant. Tertium est
         ars computandi, ut festa mobilia et huiusmodi, quae in ecclesia dei occurrunt, distinctis ex
         cunctis? temporibus peragat. Quartum est ipsa musica, ut cantum ad divinum officium et
@@ -181,26 +192,27 @@
         Boetius in prohemio suae musicae testimonium praebuit dicens sic Platonem praecepisse
         homines in musica tantum dyatonica esse informandos. Hinc est, quod solum de ista specie
         tertia hic dicere intendo.</p>
-      <p xml:id="SZAMUS0009">Cuius definitio secundum diversos autores diversimode ponitur. <pb n="[68]"/>Sed quia omnis omnes ad unum finem, scilicet ad bonum delectabile tendunt, prout patuit
-        superius in parte de causa finali, ideo assigno venerabilem Boetium autorem katholicum
-        tanquam profundius et salubrius in arte musica sapientem, qui eam sic diffinit: Musica est
-        ars armoniae regulariter canendi ad honorem dei adinventa. Ecce quomodo est ars regulata ad
-        cultum divinum et ergo secundum Boetium finis musicae est bonum honorabile, quamvis modernis
-        temporibus propter bonum utile plus addiscitur, sed pluries ignoratur.--Causa autem formalis
-        non est aliud, quam ordo, modus et forma procedendi in praesenti tractatu ad regulas artis
-        musicae cognoscendas. Cum igitur delectabile, honorabile, utile et necessarium est musicam
-        scire non solum secundum quid, sed etiam simpliciter, cum sit praeceptum sacerdotibus ut
-        patuit. Non enim hoc novum est, quia tempore regulationis huius artis ita turpe erat musicam
-        ignorare, sicut nunc literas alphabeti. Ergo cum summa diligentia tenentur eam addiscere et
-        cetera.</p>
-      <p xml:id="SZAMUS0010">Posito prohemio venio ad principale executivum, quod sub se claudit partes
-        quatuor, ex quibus hoc principale executivum complectitur. Prima pars habet sub se signa,
-        voces et figuram manus. Secunda pars habet sub se mutationes vocum de cantu in cantum et
-        vocum inter se habitudines, cum quibus arsis et thesis, id est elevationis et depressionis
-        notabilibus ?, sive speciebus. Sed tertia pars tenet sub se divisiones cantuum et
-        proprietates clavium cum figuris ad hoc pertinentibus. Quarta et ultima pars claudit sub se
-        regulares decursus, sive ambitus tonorum secundum arsim et thesim, quo ad principia et media
-        atque finem.</p>
+      <p xml:id="SZAMUS0009">Cuius definitio secundum diversos autores diversimode ponitur. <pb
+          n="[68]"/>Sed quia omnis omnes ad unum finem, scilicet ad bonum delectabile tendunt, prout
+        patuit superius in parte de causa finali, ideo assigno venerabilem Boetium autorem
+        katholicum tanquam profundius et salubrius in arte musica sapientem, qui eam sic diffinit:
+        Musica est ars armoniae regulariter canendi ad honorem dei adinventa. Ecce quomodo est ars
+        regulata ad cultum divinum et ergo secundum Boetium finis musicae est bonum honorabile,
+        quamvis modernis temporibus propter bonum utile plus addiscitur, sed pluries
+        ignoratur.--Causa autem formalis non est aliud, quam ordo, modus et forma procedendi in
+        praesenti tractatu ad regulas artis musicae cognoscendas. Cum igitur delectabile,
+        honorabile, utile et necessarium est musicam scire non solum secundum quid, sed etiam
+        simpliciter, cum sit praeceptum sacerdotibus ut patuit. Non enim hoc novum est, quia tempore
+        regulationis huius artis ita turpe erat musicam ignorare, sicut nunc literas alphabeti. Ergo
+        cum summa diligentia tenentur eam addiscere et cetera.</p>
+      <p xml:id="SZAMUS0010">Posito prohemio venio ad principale executivum, quod sub se claudit
+        partes quatuor, ex quibus hoc principale executivum complectitur. Prima pars habet sub se
+        signa, voces et figuram manus. Secunda pars habet sub se mutationes vocum de cantu in cantum
+        et vocum inter se habitudines, cum quibus arsis et thesis, id est elevationis et
+        depressionis notabilibus ?, sive speciebus. Sed tertia pars tenet sub se divisiones cantuum
+        et proprietates clavium cum figuris ad hoc pertinentibus. Quarta et ultima pars claudit sub
+        se regulares decursus, sive ambitus tonorum secundum arsim et thesim, quo ad principia et
+        media atque finem.</p>
       <p xml:id="SZAMUS0011">Quantum ergo ad primam partem huius principalis executivi Est Sciendum,
         quod notitia ipsius musicae non potest haberi, nisi cognitis principiis, quia de prioribus
         prius est speculandum. Sunt ergo litterae quaedam principium in musica et ergo de eis erit
@@ -211,7 +223,8 @@
         regulariter consummata. Quae litterae iam enumeratae dicuntur signa, sive claves in musica
         arte. Quare autem praedictae litterae signa vocantur, ex eo est, quia per eas suum signatum,
         scilicet debita solfa, id est vocum proprietas repraesentata cognoscitur, prout infra
-        patebit in parte tertia divisiones cantuum ostendente. Claves vero dicuntur ex eo, quia <pb n="[69]"/>per eas similifarie cantuum diversitas clauditur ac totius musicae regulatae
+        patebit in parte tertia divisiones cantuum ostendente. Claves vero dicuntur ex eo, quia <pb
+          n="[69]"/>per eas similifarie cantuum diversitas clauditur ac totius musicae regulatae
         melodia reseratur et sicut clavis ferrea in sera volvitur et revolvitur, ita totius anni
         cantus ecclesiasticus in his octo litteris quamvis replicatis declaratur.</p>
       <p xml:id="SZAMUS0012">Deinde est Notandum, quod in his octo litteris tantum sex voces
@@ -244,19 +257,20 @@
       <p xml:id="SZAMUS0025">[Notae marginales ad figuram manus:]</p>
       <p xml:id="SZAMUS0026">Ittem e-la extra manum ponitur propter completionem tertii cantus h
         duralis.</p>
-      <p xml:id="SZAMUS0027">Secundum usum in manu claves sunt decem et novem. Versus. Claves in numero
-        reperimus decaque novem. Ecce figura manus tenet ars et quilibet usus.--Sed loquendo
-        secundum artem erunt viginti, quia secundum intentionem calendrini ? ultra decem et <pb n="[70]"/>novem claves usitatos addit ecclesia extra manum pro completione tertii cantus h
+      <p xml:id="SZAMUS0027">Secundum usum in manu claves sunt decem et novem. Versus. Claves in
+        numero reperimus decaque novem. Ecce figura manus tenet ars et quilibet usus.--Sed loquendo
+        secundum artem erunt viginti, quia secundum intentionem calendrini ? ultra decem et <pb
+          n="[70]"/>novem claves usitatos addit ecclesia extra manum pro completione tertii cantus h
         duralis, quia sicut est in natura, sic debet esse in arte. Sed natura non deficit in
         necessariis, nec habundat in superfluis, ut vult philosophus in De coelo et mundo, ergo nec
         ars, quia ars ymitatur naturam, inquantum potest et cetera physicorum ? ergo, ut tertius
         cantus h duralis sit completus et quilibet alter necessario ? ex intentione istorum virorum
         in hac arte expertorum et praecipuorum additur eela extra manum.</p>
-      <p xml:id="SZAMUS0028">Nota. Quaelibet clavis in manu posita in membro impari ponitur in linea. At
-        L-ut incipiens ? et quaelibet in membro pari in spatio, ut a-re etceteriis. Versus. De
-        facili cernas, quae clavis linea sistit, Linea sit prima clavis, spatiumque secunda. Ordine
-        multiplicans sic claves posteriores, Linea ponit eas, quas numerus invenit impar. Claves in
-        spatio reliquae mansere meando, et cetera.</p>
+      <p xml:id="SZAMUS0028">Nota. Quaelibet clavis in manu posita in membro impari ponitur in
+        linea. At L-ut incipiens ? et quaelibet in membro pari in spatio, ut a-re etceteriis.
+        Versus. De facili cernas, quae clavis linea sistit, Linea sit prima clavis, spatiumque
+        secunda. Ordine multiplicans sic claves posteriores, Linea ponit eas, quas numerus invenit
+        impar. Claves in spatio reliquae mansere meando, et cetera.</p>
       <p xml:id="SZAMUS0029">Cantus sunt tres in genere, scilicet cantus h duralis, naturalis et b
         mollis et sunt septem in specie.</p>
       <p xml:id="SZAMUS0030">Item digiti in manu talem sumpserunt denominationem, ut primus vocatur
@@ -265,8 +279,8 @@
         digitorum. Quartus dicitur fidius ad eum, namque a corde quaedam vena procedit et
         extenditur, in quo fides existit et credulitas. Quintus est auricularis ex eo, quia ipse
         minor inter alios ad aurem mundandam est aptior et convenientior.</p>
-      <p xml:id="SZAMUS0031">Pro regula: ubicumque in manu ponitur ut, semper ibi incipit aliquis cantus
-        in specie, et ubi non ponitur ut, ibi nullus incipit cantus.</p>
+      <p xml:id="SZAMUS0031">Pro regula: ubicumque in manu ponitur ut, semper ibi incipit aliquis
+        cantus in specie, et ubi non ponitur ut, ibi nullus incipit cantus.</p>
       <p xml:id="SZAMUS0032">[fol. 33b.] Pro declaratione huius figurae Notare vel scire debes, quod
         secundum intentionem Johannis Holandrini superiorem partem uniuscuiusque digiti voco caput
         vel verticem, inferiorem vero partem voco radicem. Locum sub vertice voco collum et locum
@@ -288,8 +302,8 @@
         collateralia etiam sub et super. Sed spatium est interstitium duabus lineis distinctum et
         sic sufficienter declaratum est de prima parte huius principalis executivi scilicet de
         signis, vocibus et figura manus, prout superius fuit promissum et cetera.</p>
-      <p xml:id="SZAMUS0033">Sequitur iam de secundo huius principalis executivi, quod sub se habet tria
-        scilicet vocum mutationes, quibus mutationibus moventibus ? cognoscitur cantus id est
+      <p xml:id="SZAMUS0033">Sequitur iam de secundo huius principalis executivi, quod sub se habet
+        tria scilicet vocum mutationes, quibus mutationibus moventibus ? cognoscitur cantus id est
         tropus, prout cadit de cantu in cantum. Habet etiam secunda pars sub se vocum inter se
         habitudines et habet sub se quaedam notabilia ? cum quibusdam corollariis Johannis de Muris,
         ad perfectam intelligentiam specierum et habitudinum requisitis. Quantum ergo ad primum,
@@ -311,24 +325,24 @@
         econverso secunda in primam descendendo mutatar. Versus. Si duplex detur, vox bis decet ut
         variatur.--Ratio huius est, quia dictae voces duplici cantui subordinantur nec sunt inter se
         dissonantes.</p>
-      <p xml:id="SZAMUS0034">Si vero duae voces positae in eodem loco inter se sunt dissonae scilicet
-        bfabmi in vertice auricularis et bfabmi in ventre fidii, tunc nulla fit mutatio, quia sunt
-        inter se dissonantes eo quod una est altior alia, propter quod duae claves ponuntur,
-        scilicet b rotundum mollem sonum repraesentans et b quadrum durum sonum repraesentans,
-        quapropter nulla nota vera? potest ibi fieri mutatio. Versus. In bfabmi binas voces volo
-        demi. Quas non mutabis, quia duplex est ibi clavis.--Quod autem b rotundum mollem sonum
-        repraesentat, et h quadrum durum repraesentat sonum, patet in hoc versu Johannis
+      <p xml:id="SZAMUS0034">Si vero duae voces positae in eodem loco inter se sunt dissonae
+        scilicet bfabmi in vertice auricularis et bfabmi in ventre fidii, tunc nulla fit mutatio,
+        quia sunt inter se dissonantes eo quod una est altior alia, propter quod duae claves
+        ponuntur, scilicet b rotundum mollem sonum repraesentans et b quadrum durum sonum
+        repraesentans, quapropter nulla nota vera? potest ibi fieri mutatio. Versus. In bfabmi binas
+        voces volo demi. Quas non mutabis, quia duplex est ibi clavis.--Quod autem b rotundum mollem
+        sonum repraesentat, et h quadrum durum repraesentat sonum, patet in hoc versu Johannis
         Hollandrini: Mollem rotundum b dat, b quadrum tibi ? durum.--</p>
-      <p xml:id="SZAMUS0035">Si autem locus in manu repraesentat tres voces, sicut g solreut, a-lamire,
-        c-solfaut et ceterae, tunc sextupla fit mutatio, scilicet de prima in secundam et de prima
-        in tertiam, et de secunda in tertiam ascendendo et econverso de secunda in primam, de tertia
-        in primam vel de tertia in secundam descendendo. Versus. Si vox sit terna, tunc fit mutatio
-        sena.-- Et ratio huius est, quia voces iamdictae triplici cantui subordinantur. Nota, quod
-        ascendendo vox superior mutatur in inferiorem, sed descendendo fit per oppositum. Harum
-        omnium mutationum propter clariorem practicam exemplares ponam declarationes. Redeo ergo ad
-        verticem ipsius pollicis scilicet L-ut et consequenter ad secundum membrum scilicet a-re,
-        similiter et ad radicem eiusdem, in qua ponitur b-mi. Quorum quaelibet clavium unicam habet
-        vocem et ergo nulla mutatio.</p>
+      <p xml:id="SZAMUS0035">Si autem locus in manu repraesentat tres voces, sicut g solreut,
+        a-lamire, c-solfaut et ceterae, tunc sextupla fit mutatio, scilicet de prima in secundam et
+        de prima in tertiam, et de secunda in tertiam ascendendo et econverso de secunda in primam,
+        de tertia in primam vel de tertia in secundam descendendo. Versus. Si vox sit terna, tunc
+        fit mutatio sena.-- Et ratio huius est, quia voces iamdictae triplici cantui subordinantur.
+        Nota, quod ascendendo vox superior mutatur in inferiorem, sed descendendo fit per oppositum.
+        Harum omnium mutationum propter clariorem practicam exemplares ponam declarationes. Redeo
+        ergo ad verticem ipsius pollicis scilicet L-ut et consequenter ad secundum membrum scilicet
+        a-re, similiter et ad radicem eiusdem, in qua ponitur b-mi. Quorum quaelibet clavium unicam
+        habet vocem et ergo nulla mutatio.</p>
       <p xml:id="SZAMUS0036">[fol. 34b.]</p>
       <p xml:id="SZAMUS0037">Exemplum 1. <figure>
           <graphic url="/images/SZAMUS_02GF.gif"/>
@@ -338,42 +352,42 @@
         Secundo mutatur ut in fa econverso descendendo de primo cantu naturali in primum
         b-duralem:</p>
       <p xml:id="SZAMUS0039">Exemplum 2.</p>
-      <p xml:id="SZAMUS0040">Ittem d-solre. Ibi illa clavis d habet duas voces unissonas sub eadem clave
-        scilicet sol et re et ideo habet duas mutationes: primo mutatur sol in re ascendendo de
-        primo cantu b durali in primum naturalem. Secundo mutatur re in sol econverso descendendo
+      <p xml:id="SZAMUS0040">Ittem d-solre. Ibi illa clavis d habet duas voces unissonas sub eadem
+        clave scilicet sol et re et ideo habet duas mutationes: primo mutatur sol in re ascendendo
+        de primo cantu b durali in primum naturalem. Secundo mutatur re in sol econverso descendendo
           <pb n="[73]"/>de primo cantu naturali in primum b duralem ut sequitur:</p>
       <p xml:id="SZAMUS0041">Exemplum 3.</p>
-      <p xml:id="SZAMUS0042">Item e-lami. Ibi ista clavis e habet duas voces unissonas scilicet la et
-        mi. Ideo habet duas mutationes: primo mutatur la in mi ascendendo de primo cantu b-durali in
-        primum naturalem. Secundo mutatur mi in la econverso descendendo de primo naturali in primum
-        b duralem, ut in exemplo sequitur:</p>
+      <p xml:id="SZAMUS0042">Item e-lami. Ibi ista clavis e habet duas voces unissonas scilicet la
+        et mi. Ideo habet duas mutationes: primo mutatur la in mi ascendendo de primo cantu b-durali
+        in primum naturalem. Secundo mutatur mi in la econverso descendendo de primo naturali in
+        primum b duralem, ut in exemplo sequitur:</p>
       <p xml:id="SZAMUS0043">Exemplum 4.</p>
       <p xml:id="SZAMUS0044">Item f-faut; illa clavis f habet duas voces, ideo etiam habet duas
         mutationes: primo mutatur fa in ut ascendendo de primo naturali in primum b-mollem. Secundo
         mutatur ut in fa econverso descendendo de primo b-molli in primum naturalem ut sequitur:</p>
       <p xml:id="SZAMUS0045">[fol. 35a.]</p>
       <p xml:id="SZAMUS0046">Exemplum 5a.</p>
-      <p xml:id="SZAMUS0047">Item g-solreut. Ibi illa clavis g habet tres voces unissonas et ideo habet
-        sex mutationes: primo mutatur sol in re ascendendo de primo cantu naturali in primum b
+      <p xml:id="SZAMUS0047">Item g-solreut. Ibi illa clavis g habet tres voces unissonas et ideo
+        habet sex mutationes: primo mutatur sol in re ascendendo de primo cantu naturali in primum b
         mollem. Secundo re mutatur in sol descendendo de primo b molli in primum naturalem. Tertio
         mutatur sol in ut ascendendo de primo naturali in secundum b duralem. Quarto mutatur ut in
         sol ascendendo de secundo b durali in primum naturalem. Quinto mutatur re in ut ascendendo
         de primo b molli in secundum b duralem. Sexto mutatur ut in re descendendo de secundo b
         durali in primum b mollem:</p>
       <p xml:id="SZAMUS0048">Exemplum 5b.</p>
-      <p xml:id="SZAMUS0049">Item a-lamire etiam habet tres voces unissonas sub eadem clave scilicet a;
-        ideo habet sex mutationes: primo enim mutatur la in mi ascendendo de primo naturali in
+      <p xml:id="SZAMUS0049">Item a-lamire etiam habet tres voces unissonas sub eadem clave scilicet
+        a; ideo habet sex mutationes: primo enim mutatur la in mi ascendendo de primo naturali in
         primum b-mollem. Secundo mi mutatur in la descendendo de primo b molli in primum naturalem.
         Tertio mutatur la in re ascendendo de primo naturali in secundum b duralem. Quarto mutatur
         re in la econverso descendendo de secundo b durali in primum naturalem. Quinto mutatur mi in
         re ascendendo de primo b molli in secundum b-duralem. Sexto mutatur re in mi descendendo
         econverso de secundo b-durali in primum b-mollem:</p>
       <p xml:id="SZAMUS0050">Exemplum 5c.</p>
-      <p xml:id="SZAMUS0051">Item notandum bfabmi, quamvis habeat duas voces, scilicet fa et mi in eodem
-        loco, ut apparet, sed quia sub dissonantia, ideo nullam habet mutationem. Et dupliciter
-        notantur ? sub dissonantia, quia in hoc loco mi exiet fa per dicrisium, hoc est per
-        semitonium et in signum huius dissonantiae unicuique voci est specialis clavis apposita ?
-        scilicet b rotundum fa et h quadrum mi, quod iam communiter signatur per h.</p>
+      <p xml:id="SZAMUS0051">Item notandum bfabmi, quamvis habeat duas voces, scilicet fa et mi in
+        eodem loco, ut apparet, sed quia sub dissonantia, ideo nullam habet mutationem. Et
+        dupliciter notantur ? sub dissonantia, quia in hoc loco mi exiet fa per dicrisium, hoc est
+        per semitonium et in signum huius dissonantiae unicuique voci est specialis clavis apposita
+        ? scilicet b rotundum fa et h quadrum mi, quod iam communiter signatur per h.</p>
       <p xml:id="SZAMUS0052">
         <pb n="[74]"/>[fol. 35b.]</p>
       <p xml:id="SZAMUS0053">Exemplum 6.</p>
@@ -385,10 +399,10 @@
         secundo b durali in secundum naturalem. Sexto mutatur ut in fa descendendo de secundo
         naturali in secundum b duralem ut patet in exemplo suprascripto.</p>
       <p xml:id="SZAMUS0055">Exemplum 7.</p>
-      <p xml:id="SZAMUS0056">Item d-lasolre habet tres voces unissonas. Ideo habet sex mutationes: primo
-        mutatur la in sol ascendendo de primo cantu b molli in secundum b duralem. Secundo mutatur
-        sol in la descendendo de secundo b durali in primum b mollem. Tertio mutatur la in re
-        ascendendo de primo b molli in secundum naturalem. Quarto mutatur re in la descendendo de
+      <p xml:id="SZAMUS0056">Item d-lasolre habet tres voces unissonas. Ideo habet sex mutationes:
+        primo mutatur la in sol ascendendo de primo cantu b molli in secundum b duralem. Secundo
+        mutatur sol in la descendendo de secundo b durali in primum b mollem. Tertio mutatur la in
+        re ascendendo de primo b molli in secundum naturalem. Quarto mutatur re in la descendendo de
         secundo naturali in primum b mollem. Quinto mutatur sol in re ascendendo de secundo b durali
         in secundum naturalem. Sexto mutatur re in sol descendendo de secundo naturali in secundum b
         duralem.</p>
@@ -398,9 +412,9 @@
         Secundo mutatur mi in la descendendo de secundo naturali in secundum b duralem, ut patet in
         exemplo.</p>
       <p xml:id="SZAMUS0059">Exemplum 9.</p>
-      <p xml:id="SZAMUS0060">[fol. 36a.] F-faut habet duas voces et ideo habet duas mutationes. Primo
-        mutatur fa in ut ascendendo de secundo naturali in secundum b mollem. Secundo mutatur ut in
-        fa descendendo de secundo b molli in secundum naturalem.</p>
+      <p xml:id="SZAMUS0060">[fol. 36a.] F-faut habet duas voces et ideo habet duas mutationes.
+        Primo mutatur fa in ut ascendendo de secundo naturali in secundum b mollem. Secundo mutatur
+        ut in fa descendendo de secundo b molli in secundum naturalem.</p>
       <p xml:id="SZAMUS0061">Exemplum 10.</p>
       <p xml:id="SZAMUS0062">Item g-solreut habet tres voces in ventre indicis, sicut in ventre
         auricularis, scilicet solreut unissonas. Ideo habet sex mutationes: primo mutatur sol in re
@@ -413,18 +427,18 @@
       <p xml:id="SZAMUS0063">Exemplum 11. <figure>
           <graphic url="/images/SZAMUS_03GF.gif"/>
         </figure></p>
-      <p xml:id="SZAMUS0064">A-lamire in ventre medii habet tres voces unissonas, sicut <pb n="[75]"/>in
-        collo auricularis. Ideo sex habet mutationes. Primo mutatur la in mi ascendendo de secundo
-        naturali in secundum b mollem. Secundo mutatur mi in la descendendo de secundo b molli in
-        secundum naturalem. Tertio mutatur la in re ascendendo de secundo naturali in tertium b
-        duralem. Quarto mutatur re in la descendendo de tertio b-durali in secundum naturalem.
-        Quinto mutatur mi in re ascendendo de secundo b molli in tertium b duralem. Sexto mutatur re
-        in mi iterum ascendendo de tertio b durali in secundum b mollem, ut patet supra in
-        exemplo.</p>
+      <p xml:id="SZAMUS0064">A-lamire in ventre medii habet tres voces unissonas, sicut <pb n="[75]"
+        />in collo auricularis. Ideo sex habet mutationes. Primo mutatur la in mi ascendendo de
+        secundo naturali in secundum b mollem. Secundo mutatur mi in la descendendo de secundo b
+        molli in secundum naturalem. Tertio mutatur la in re ascendendo de secundo naturali in
+        tertium b duralem. Quarto mutatur re in la descendendo de tertio b-durali in secundum
+        naturalem. Quinto mutatur mi in re ascendendo de secundo b molli in tertium b duralem. Sexto
+        mutatur re in mi iterum ascendendo de tertio b durali in secundum b mollem, ut patet supra
+        in exemplo.</p>
       <p xml:id="SZAMUS0065">Exemplum 12.</p>
-      <p xml:id="SZAMUS0066">Item cc-solfa habet duas voces. Ideo habet duas mutationes: primo mutatur
-        sol in fa ascendendo de secundo b molli in tertium b duralem. Secundo mutatur fa in sol
-        iterum descendendo de secundo recte: tertio b durali in secundum b mollem et cetera.</p>
+      <p xml:id="SZAMUS0066">Item cc-solfa habet duas voces. Ideo habet duas mutationes: primo
+        mutatur sol in fa ascendendo de secundo b molli in tertium b duralem. Secundo mutatur fa in
+        sol iterum descendendo de secundo recte: tertio b durali in secundum b mollem et cetera.</p>
       <p xml:id="SZAMUS0067">[fol. 36b.]</p>
       <p xml:id="SZAMUS0068">Exemplum 13.</p>
       <p xml:id="SZAMUS0069">Item dd-lasol habet duas voces unissonas. Ideo secundum rei veritatem ?
@@ -432,23 +446,24 @@
         secundo b molli in tertium b duralem. Secundo mutatur sol in la iterum descendendo de tertio
         b durali in secundum b mollem.</p>
       <p xml:id="SZAMUS0070">Exemplum 14.</p>
-      <p xml:id="SZAMUS0071">Item e-la ultima et unica vox sub vertice medii posita nec ? habens nullam
-        mutationem et quamvis multi asserunt, istam non esse ponendam, propter quod dicunt tertium
-        cantum b duralem carere ultima voce. Et ratio eorum non videtur esse alia, nisi quod locus
-        certi articuli in manu pro praedicta voce non apparet. Sed quia non videtur ratio, quod
-        tertius b duralis maneret incompletus, ideo placuit amplecti ? viam Johannis Holandrini, qui
-        ponit e-la pro ultima voce monochordi Gwidonis et locavit eam sub vertice medii. Cuius ratio
-        fuit, ut idem tertius cantus b duralis completur. Etiam si secus fieret, in dd-lasol ultima
-        vox scilicet sol frustra poneretur, cum in nulla fierit mutatio, quia per adversarium non
-        fierit ultimo ascensus et pari ratione deberent aliae voces pro ultimo cantu b durali omnino
-        amitti. Et deberet sic g-solre, a-lami, b-fa, c-sol, d-la dici, ut patet vigilanter et
-        diligenter intuenti ergo et cetera.</p>
+      <p xml:id="SZAMUS0071">Item e-la ultima et unica vox sub vertice medii posita nec ? habens
+        nullam mutationem et quamvis multi asserunt, istam non esse ponendam, propter quod dicunt
+        tertium cantum b duralem carere ultima voce. Et ratio eorum non videtur esse alia, nisi quod
+        locus certi articuli in manu pro praedicta voce non apparet. Sed quia non videtur ratio,
+        quod tertius b duralis maneret incompletus, ideo placuit amplecti ? viam Johannis
+        Holandrini, qui ponit e-la pro ultima voce monochordi Gwidonis et locavit eam sub vertice
+        medii. Cuius ratio fuit, ut idem tertius cantus b duralis completur. Etiam si secus fieret,
+        in dd-lasol ultima vox scilicet sol frustra poneretur, cum in nulla fierit mutatio, quia per
+        adversarium non fierit ultimo ascensus et pari ratione deberent aliae voces pro ultimo cantu
+        b durali omnino amitti. Et deberet sic g-solre, a-lami, b-fa, c-sol, d-la dici, ut patet
+        vigilanter et diligenter intuenti ergo et cetera.</p>
       <p xml:id="SZAMUS0072">Postquam expeditum est de secundo principali, videlicet de vocum
         mutationibus, restat nunc dicere de tertio principali, scilicet de cantuum divisione et
         clavium proprietatibus, propter quod est Sciendum, quod cantus, quantum ad propositum
         sufficit, est neuma seu tropus debite principatus et bene terminatus, secundum regularum
         exigentiam arsim et thesim non excedens. In hac diffinitione excluditur cantus irregularis
-        et ergo de tali non est mihi cura, cum artis musicae regulis non subiacet, sed solum <pb n="[76]"/>de regulari, qui habet tres species scilicet b duralem id est enarmonicam,
+        et ergo de tali non est mihi cura, cum artis musicae regulis non subiacet, sed solum <pb
+          n="[76]"/>de regulari, qui habet tres species scilicet b duralem id est enarmonicam,
         naturalem id est dyatonicam et b mollem id est cromaticam. Et quamvis sunt species
         distinctae, cum prima scilicet b duralis in nostro monochordo ter resumitur, secunda species
         scilicet naturalis bis resumpitur sic, tertia species scilicet b mollis, etiam bis
@@ -467,20 +482,20 @@
       <p xml:id="SZAMUS0073">Exemplum 15.</p>
       <p xml:id="SZAMUS0074">[fol. 37b.]</p>
       <p xml:id="SZAMUS0075">[Notae marginales ad Exemplum 15.]</p>
-      <p xml:id="SZAMUS0076">1. Primus cantus b duralis incipit in L-ut in linea et finit in e-lami in
-        spatio ut in exemplo.</p>
-      <p xml:id="SZAMUS0077">2. Primus cantus naturalis incipit in c-faut in spatio et finit in a-lamire
-        in linea, ut in exemplo.</p>
+      <p xml:id="SZAMUS0076">1. Primus cantus b duralis incipit in L-ut in linea et finit in e-lami
+        in spatio ut in exemplo.</p>
+      <p xml:id="SZAMUS0077">2. Primus cantus naturalis incipit in c-faut in spatio et finit in
+        a-lamire in linea, ut in exemplo.</p>
       <p xml:id="SZAMUS0078">3. Primus b mollis incipit in f-faut in linea et finit in d-lasolre in
         spatio, ut in exemplo.</p>
-      <p xml:id="SZAMUS0079">4. Secundus b duralis incipit in g-solreut in spatio et finit in e-lami in
-        linea ut intra patet in exemplo.</p>
-      <p xml:id="SZAMUS0080">5. Secundus naturalis incipit in c-solfaut in linea et finit in a-lamire in
-        spatio ut patet infra in exemplo.</p>
-      <p xml:id="SZAMUS0081">6. Secundus b mollis incipit in f-faut in spatio et finit in dd-lasol in
-        linea, ut patet infra in exemplo.</p>
-      <p xml:id="SZAMUS0082">7. Secundus recte: tertius b duralis incipit in g-solreut in linea et finit
-        in ee-la extra manum, ut in exemplo subscripto.</p>
+      <p xml:id="SZAMUS0079">4. Secundus b duralis incipit in g-solreut in spatio et finit in e-lami
+        in linea ut intra patet in exemplo.</p>
+      <p xml:id="SZAMUS0080">5. Secundus naturalis incipit in c-solfaut in linea et finit in
+        a-lamire in spatio ut patet infra in exemplo.</p>
+      <p xml:id="SZAMUS0081">6. Secundus b mollis incipit in f-faut in spatio et finit in dd-lasol
+        in linea, ut patet infra in exemplo.</p>
+      <p xml:id="SZAMUS0082">7. Secundus recte: tertius b duralis incipit in g-solreut in linea et
+        finit in ee-la extra manum, ut in exemplo subscripto.</p>
       <p xml:id="SZAMUS0083">Sequitur iam de clavibus et clavium proprietatibus, quapropter est
         notandum, quod de numero clavium aliae dicuntur <pb n="[77]"/>claves graves, aliae acutae,
         aliae excellentes. Graves secundum aliquos dicuntur primae octo, scilicet L A b c d e f g,
@@ -496,26 +511,26 @@
         praecedentibus clauditur haec antiphona "Aurea personet lira et cetera" ut patebit infra.
         Versus. Claves octo graves, totidem dicuntur acutae. Ac excellentes dic quatuor esse
         sequentes.--</p>
-      <p xml:id="SZAMUS0084">Sed alia est divisio valentior et acutior dictarum clavium, quam ego pro
-        informatione praesentem artem studere volentium plus amplector. Et est talis: primae quatuor
-        claves, scilicet L A B c dicuntur graves ex eo, quia tantum deorsum tendunt. Et etiam ideo,
-        quia nulla sedes finalis alicuius Ewowae id est Seculorum Amen (Ewowae nihil aliud est, nisi
-        depositio consonantium a vocalibus in istis duabus dictionibus divisionibus? Seculorum Amen)
-        in aliqua illarum clavium regulariter potest residere. Et sunt propriae prothi plagalis.
-        Sequentes quatuor scilicet d e f g dicuntur finales ex eo, quia principaliter quilibet
-        cantus ut vel communiter saltem regularis in aliqua illarum habet terminari sic, quia
-        prothos in d, deutros in e, tritos in f, et tetrardos [fol. 38a.] in g, ut infra patebit.
-        Post hoc secuntur sequuntur quatuor scilicet a b c d, quae dici possunt affinales, quasi
-        adfinales id est confinales ex eo, quia sicut cantus principaliter terminatur in quatuor
-        clavibus praecedentibus, sic in his quatuor terminari potest minus principaliter, prout
-        infra patebit. Deinde quatuor claves a vertice indicis usque ad ventrem medii scilicet e f g
-        a dicuntur acutae ex eo, quia acutis vocibus, seu ultimo loco monochordi durum ? dyapason
-        includentis ? subordinantur. Sed ultimae quatuor scilicet b c d e dicuntur excellentes,
-        scilicet a ventre fidii usque ad subverticem medii et dicuntur excellentes ex eo, quia
-        excedunt perfectum monochordum vel quia excellenter perficiunt vocem, vel quia omnes claves
-        suis vocibus excedunt et secundum hanc divisionem <pb n="[78]"/>tales ponuntur versus.
-        L--graves, d finales, affinales dabit a-que. E super has acuit, excellunt, quaeque
-        secuntur.--</p>
+      <p xml:id="SZAMUS0084">Sed alia est divisio valentior et acutior dictarum clavium, quam ego
+        pro informatione praesentem artem studere volentium plus amplector. Et est talis: primae
+        quatuor claves, scilicet L A B c dicuntur graves ex eo, quia tantum deorsum tendunt. Et
+        etiam ideo, quia nulla sedes finalis alicuius Ewowae id est Seculorum Amen (Ewowae nihil
+        aliud est, nisi depositio consonantium a vocalibus in istis duabus dictionibus divisionibus?
+        Seculorum Amen) in aliqua illarum clavium regulariter potest residere. Et sunt propriae
+        prothi plagalis. Sequentes quatuor scilicet d e f g dicuntur finales ex eo, quia
+        principaliter quilibet cantus ut vel communiter saltem regularis in aliqua illarum habet
+        terminari sic, quia prothos in d, deutros in e, tritos in f, et tetrardos [fol. 38a.] in g,
+        ut infra patebit. Post hoc secuntur sequuntur quatuor scilicet a b c d, quae dici possunt
+        affinales, quasi adfinales id est confinales ex eo, quia sicut cantus principaliter
+        terminatur in quatuor clavibus praecedentibus, sic in his quatuor terminari potest minus
+        principaliter, prout infra patebit. Deinde quatuor claves a vertice indicis usque ad ventrem
+        medii scilicet e f g a dicuntur acutae ex eo, quia acutis vocibus, seu ultimo loco
+        monochordi durum ? dyapason includentis ? subordinantur. Sed ultimae quatuor scilicet b c d
+        e dicuntur excellentes, scilicet a ventre fidii usque ad subverticem medii et dicuntur
+        excellentes ex eo, quia excedunt perfectum monochordum vel quia excellenter perficiunt
+        vocem, vel quia omnes claves suis vocibus excedunt et secundum hanc divisionem <pb n="[78]"
+        />tales ponuntur versus. L--graves, d finales, affinales dabit a-que. E super has acuit,
+        excellunt, quaeque secuntur.--</p>
       <p xml:id="SZAMUS0085">Item tertia divisione clavium quaedam dicuntur signatae, quaedam non
         signatae. Signatae dicuntur, quae in libris in lineis signantur. Et sunt quinque scilicet L
         fundamentale, f finale, c acutum, g superacutum, d excellens. Aliae vero omnes praeter istas
@@ -534,8 +549,8 @@
         2. b duralis, 2. naturalis, 3. b duralis] <figure>
           <graphic url="/images/SZAMUS_05GF.gif"/>
         </figure></p>
-      <p xml:id="SZAMUS0089">Dicuntur capitales ex eo, quia maioribus litteris scribuntur, quam aliae
-        sequentes claves.</p>
+      <p xml:id="SZAMUS0089">Dicuntur capitales ex eo, quia maioribus litteris scribuntur, quam
+        aliae sequentes claves.</p>
       <p xml:id="SZAMUS0090">
         <pb n="[79]"/>[Szalkai MS, 79; text: Secundum Theogorum, Secundum Hollandrinum, G graves, d
         finales, a praebet acutas; e super excellunt, quas inchoat aa duplicatum. Claves octo graves
@@ -549,8 +564,8 @@
         sequentis et quota sit a clavi sequente. Tandem, quanta sit distantia in manu illius
         iuncturae, in qua ponitur eadem nota sequentis clavis a iunctura, in qua ponitur ultima nota
         clavis praecedentis, quia eadem erit distantia inter istas duas notas.</p>
-      <p xml:id="SZAMUS0092">Vel aliter et regularius: si vis scire, quota sit illa nota, quae est in c
-        acuto, id est in c-solfaut ab illa nota, quae est in g gravi, id est in g-solreut, tunc
+      <p xml:id="SZAMUS0092">Vel aliter et regularius: si vis scire, quota sit illa nota, quae est
+        in c acuto, id est in c-solfaut ab illa nota, quae est in g gravi, id est in g-solreut, tunc
         vide, ubi c acutum habet locum in manu et patet quod in vertice fidii, et ubi g grave et
         patet, quod in ventre auricularis. Videatur ergo, quota distantia sit vertex fidii a ventre
         auricularis et patet, quod in quarta, ergo et cetera, ut patet hic in figura subscripta.</p>
@@ -562,11 +577,12 @@
         Spiritus Et emitte caelitus Lucis tuae radium. Consolator optime, Dulcis hospes animae,
         Dulce refrigerium.--Veni Sancte Spiritus Et emitte caelitus Lucis tuae [fol. 39b.] radium.
         Consolator optime, Dulcis hospes animae, Dulce refrigerium.</p>
-      <p xml:id="SZAMUS0096">Laetabitur iustus in domino et sperabit in eo et laudabuntur omnes recti
-        corde.</p>
+      <p xml:id="SZAMUS0096">Laetabitur iustus in domino et sperabit in eo et laudabuntur omnes
+        recti corde.</p>
       <p xml:id="SZAMUS0097">Candor est lucis aeternae, speculum sine macula et ymago bonitatis
         illius.</p>
-      <p xml:id="SZAMUS0098">Restat nunc dicere de modis, sive formis musicae, vide <pb n="[80]"/>breviter scilicet de vocum inter se habitudinibus, ut sciatur in monochordo et in ambitu
+      <p xml:id="SZAMUS0098">Restat nunc dicere de modis, sive formis musicae, vide <pb n="[80]"
+        />breviter scilicet de vocum inter se habitudinibus, ut sciatur in monochordo et in ambitu
         totius manus et consequenter totius musicae armonia, ubi tonus vel semitonium cantatur.
         Propter quod sciendum, quod novem sunt modi, sive formae musicae, ex quibus omnis modulatio
         sive cantus Gregorianus contexitur et componitur. Et intelligitur sic: Novem sunt modi
@@ -575,12 +591,12 @@
         superadditur dyapason. Unde sciendum, quod notitia istorum modorum utilis ? nobis ad hoc,
         quod sicut octo partibus orationis continetur quicquid dicitur, ita his novem modis
         modulatur omne quod canitur.</p>
-      <p xml:id="SZAMUS0099">Primus igitur modus dicitur unisonus et habet [fol. 40a.] fieri ex uno sono
-        plurium notarum in linea vel in spatio saepius repetitorum. Et dicitur unisonus quasi unus
-        sonus et iste sonus est quasi caput omnium aliorum modorum, quia habet se sicut principium
-        inter alios modos, quia omnes alii modi ab eo habent originem. Et iste modus dicitur
-        improprie modus eo quod nec intenditur nec remittitur, nec elevatur nec deprimitur. Recte
-        enim sicut pertinens ? gradus dicitur gradus, quia ponit fundamentum aliorum graduum,
+      <p xml:id="SZAMUS0099">Primus igitur modus dicitur unisonus et habet [fol. 40a.] fieri ex uno
+        sono plurium notarum in linea vel in spatio saepius repetitorum. Et dicitur unisonus quasi
+        unus sonus et iste sonus est quasi caput omnium aliorum modorum, quia habet se sicut
+        principium inter alios modos, quia omnes alii modi ab eo habent originem. Et iste modus
+        dicitur improprie modus eo quod nec intenditur nec remittitur, nec elevatur nec deprimitur.
+        Recte enim sicut pertinens ? gradus dicitur gradus, quia ponit fundamentum aliorum graduum,
         et--dicitur gradus, quia alii cantus cadunt ab eo, sic unisonus dicitur modus, quia est
         omnium modorum fundamentum. Versus. Unisonus voce in una solet resonare.--Et reperitur in
         omnibus sex vocibus scilicet ut re mi fa sol la, ut patet in exemplo sequenti.</p>
@@ -590,9 +606,9 @@
         semitonium est unius vocis in proximam et immediatam modica et debilis intensio vel
         remissio, id est elevatio vel depressio, et habet fieri duobus modis tantum, scilicet in
         fa-mi et econverso. Versus. In fa semitonium modulatio dabit tibi rectum.--</p>
-      <p xml:id="SZAMUS0101">Tertius modus est tonus et habet fieri inter voces regulares duas proximas
-        in ascensu et descensu. Et diffinitur sic: Tonus est saltus unius vocis in proximam et
-        immediatam vocem potenter et viriliter sonans. Et dicitur a tonando id est potenter et
+      <p xml:id="SZAMUS0101">Tertius modus est tonus et habet fieri inter voces regulares duas
+        proximas in ascensu et descensu. Et diffinitur sic: Tonus est saltus unius vocis in proximam
+        et immediatam vocem potenter et viriliter sonans. Et dicitur a tonando id est potenter et
         viriliter sonando, quia fortem et potentem habet sonum sive vocem <pb n="[81]"/>respectu
         semitonii. Et habet fieri quatuor modis, scilicet ut-re, re-mi, fa-sol, sol-la et econverso.
         Versus. Dat fa sol la tonus ut re mi tibi pleros et cetera.--Notandum. Tonus capitur
@@ -601,30 +617,30 @@
         novem modis musicae usitatis, et tunc potest definiri sic: Tonus est adhaerentia duarum
         vocum plenum sonum emittentium sine aliquo intervallo, id est sine aliqua distantia
         intermedia, ut iam exemplificatum est supra.</p>
-      <p xml:id="SZAMUS0102">[fol. 40b.] Quartus modus est semiditonus et habet fieri, quando aliquis
-        ascensus vel descensus fit ex duabus vocibus semitonio incluso, ut dicendo re-fa, fa-re,
-        mi-sol, sol-mi. Et dicitur a semis quod est dimidium et tonus, quasi modus ex semitonio et
-        tono complexus. Et hinc semiditonus diffinitur sic: est unius vocis in tertiam debilis
-        intensio vel remissio et dirigit saltum suum in tertiam, ut ipse ditonus. Sed differt in hoc
-        ab eo, quia ditonus nunquam in suo ambitu semitonium includit, semiditonus vero semper. Et
-        habet fieri duobus modis, scilicet re-fa, mi-sol et econverso. Versus. Semique ditonus est,
-        cum sol-mi, vel fa-re iungis.--</p>
-      <p xml:id="SZAMUS0103">Quintus modus est ditonus, et habet fieri ex duobus tonis per unum saltum,
-        ut dicendo fa-la, la-fa, ut-mi, mi-ut, et diffinitur sic: dytonus est saltus unius vocis in
-        tertiam plene et viriliter sonans. Et dicitur a dya id est duo et tonus, quasi duos tonos
-        continens. Et habet fieri duobus modis, scilicet ut-mi, fa-la et econverso. Versus. Ditonus
-        ut-mi cum fa-la sibi iungit.--</p>
+      <p xml:id="SZAMUS0102">[fol. 40b.] Quartus modus est semiditonus et habet fieri, quando
+        aliquis ascensus vel descensus fit ex duabus vocibus semitonio incluso, ut dicendo re-fa,
+        fa-re, mi-sol, sol-mi. Et dicitur a semis quod est dimidium et tonus, quasi modus ex
+        semitonio et tono complexus. Et hinc semiditonus diffinitur sic: est unius vocis in tertiam
+        debilis intensio vel remissio et dirigit saltum suum in tertiam, ut ipse ditonus. Sed
+        differt in hoc ab eo, quia ditonus nunquam in suo ambitu semitonium includit, semiditonus
+        vero semper. Et habet fieri duobus modis, scilicet re-fa, mi-sol et econverso. Versus.
+        Semique ditonus est, cum sol-mi, vel fa-re iungis.--</p>
+      <p xml:id="SZAMUS0103">Quintus modus est ditonus, et habet fieri ex duobus tonis per unum
+        saltum, ut dicendo fa-la, la-fa, ut-mi, mi-ut, et diffinitur sic: dytonus est saltus unius
+        vocis in tertiam plene et viriliter sonans. Et dicitur a dya id est duo et tonus, quasi duos
+        tonos continens. Et habet fieri duobus modis, scilicet ut-mi, fa-la et econverso. Versus.
+        Ditonus ut-mi cum fa-la sibi iungit.--</p>
       <p xml:id="SZAMUS0104">Sextus modus est dyatesseron et habet fieri, quando fit ascensus vel
         descensus de aliqua nota ad quartam. Et dicitur a dya id est de et tasseron: quatuor, quasi
         de quarta in quartam saltans. Et iste modus est in-- --proportione vocum. Et diffinitur sic:
         dyatesseron est saltus ab una voce in quartam proportionabiliter sic sonans et constat ex
         duobus tonis et uno semitonio et habet fieri tribus modis, scilicet ut-fa, re-sol, mi-la et
         econverso. Versus. La-mi, sol-re, fa-ut dyatesseron esse probabis.--</p>
-      <p xml:id="SZAMUS0105">Item secundum modernos musicos tritonus etiam est unus modus. Et diffinitur
-        sic: Tritonus est saltus ab una voce in quartam dure et viriliter sonans. Et dicitur a tris,
-        quod est tres, et tonus, quasi constans ex tribus tonis nullo semitonio incluso. Et habet
-        fieri tantum uno modo, scilicet de fa in mi durum, id est de ut in bfa-bmi et econverso.
-        Versus. Tritonus fa cum mi in duro vel econtra fertur habere.--</p>
+      <p xml:id="SZAMUS0105">Item secundum modernos musicos tritonus etiam est unus modus. Et
+        diffinitur sic: Tritonus est saltus ab una voce in quartam dure et viriliter sonans. Et
+        dicitur a tris, quod est tres, et tonus, quasi constans ex tribus tonis nullo semitonio
+        incluso. Et habet fieri tantum uno modo, scilicet de fa in mi durum, id est de ut in bfa-bmi
+        et econverso. Versus. Tritonus fa cum mi in duro vel econtra fertur habere.--</p>
       <p xml:id="SZAMUS0106">[fol. 41a.] Septimus modus dicitur dyapente et habet fieri, quando fit
         ascensus vel descensus ab una voce in quintam et est dulcissima concordantia et dicitur a
         dia quod est de et penta: <pb n="[82]"/>quinta, quasi ascensus vel descensus de quinta ad
@@ -651,42 +667,42 @@
         dupliciter, scilicet ascendendo et descendendo. Et constat ex quinque tonis et duobus
         semitoniis. Versus. Amplectens octo superadditur his dyapason.--Et iste modus complectit in
         se omnes alios modos, quia continet in se [fol. 41b.] quinque tonos et duo semitonia.</p>
-      <p xml:id="SZAMUS0110">Item ultra istos modos usitatos adhuc restant tres inusitati. Et sunt isti:
-        Tritonus, de quo supra diximus, semiditonus cum dyapente et dytonus cum dyapente, qui magis
-        serviunt musicae mensuratae, quam simplici. Ideo rarissime his utimur in cantu corali saltem
-        gregoriano et regulari. Sed aliquando in cantu figurativo contingit et hoc etiam in plurimum
-        ascendendo, quia capere talem septimam descendendo est multum difficile.--Semiditonus cum
-        dyapente est secundus modus inusitatus: Est ascensus vel descensus ab una voce in septimam
-        debiliter et imperfecte sonans. Et dicitur a semiditono et dyapente. Constat autem ex 4
-        tonis et <pb n="[83]"/>duobus semitoniis.--Ditonus cum diapente est tertius modus
-        inusitatus. Et est ascensus vel descensus ab una voce in septimam potenter et viriliter
-        sonans. Et dicitur a dytono et dyapente. Constat enim ex quinque tonis et uno semitonio, ut
-        patet in exemplo sequenti et tantum de istis.</p>
-      <p xml:id="SZAMUS0111">Item Sciendum, suffixa rectius: sufficientia istorum modorum inusitatorum
-        patet ex eo, quia omnes voces inter se sive ad invicem consideratae considerantur ratione
-        soni. Et hoc dupliciter: vel enim hoc fit consonanter vel dissonanter. Si consonanter, hoc
-        iterum dupliciter: vel enim talis consonantia fit simul vel succesive. Si simul, tunc magis
-        respicit musicam compositam, id est mensuralem, quam simplicem. Si autem talis consonantia
-        fit successive, tunc ad propositum, quia voces diversae vel locantur in eodem transversali,
-        sive hoc sit linea, sive spatium, vel locantur in diverso transversali. Si locantur in eodem
-        transversali, hoc fit dupliciter: vel tales circa se habent immediate diversas claves, vel
-        non. Si habent diversas claves quo ad formam, sed non quo ad speciem, sicut sunt B rotundum
-        et h quadrum, tunc causant inter se choma, id est dissonantiam proportionis, sicut fa et mi
-        in transversali bfa-bmi, quae inter se dissonant, quia mi est altius quam fa [fol. 42a.]
-        proportione supradicta, propter quod inter se non mutantur. Quidem tamen aliqui antiqui cum
-        quibusdam suis imitatoribus satis errone arguunt ponentes b-fa pro bfa-bmi. Nec tales
-        intelligendo advertunt, quod fa subiacet molli cantui per b rotundum repraesentato, mi vero
-        subiacet duro cantui per h quadrum repraesentato. Sed quia molle et durum naturaliter inter
-        se sunt dissonantia, ergo in bfa-bmi non fit mutatio. Si vero voces diversae in eodem
-        transversali locantur sub una et eadem clave, tunc causant unisonum. Si vero duae voces
-        ponuntur in transversali diverse, hoc fit dupliciter: vel talia sunt a se distantia, vel
-        mutuo se sequentia, sicut de linea ad spatium vel econverso, tunc causant tonum, sic ut-re,
-        re-ut, re-mi, mi-re, fa-sol, sol-fa, sol-la, la-sol, excepto mi et fa, quae inter se semper
-        causant semitonium, id est tonum imperfectum. Versus. Linea cum spatio coniuncta tonos sive
-        semi (-tonium. Et re mi, ut cum re pleneque tonat (reddunt perfectum tonum). Mique cum re
-        atque fa-fa sol la sic cantando tonat infra (descendendo). Dantque semi (-tonium) mi fa nec
-        fit plenus tonus infra. Non tonus est semi (Non est tonus, nec medietas toni) non perfectus
-        quasi fa mi. Fitque semitonium fa-mi sic versum mi-fa.</p>
+      <p xml:id="SZAMUS0110">Item ultra istos modos usitatos adhuc restant tres inusitati. Et sunt
+        isti: Tritonus, de quo supra diximus, semiditonus cum dyapente et dytonus cum dyapente, qui
+        magis serviunt musicae mensuratae, quam simplici. Ideo rarissime his utimur in cantu corali
+        saltem gregoriano et regulari. Sed aliquando in cantu figurativo contingit et hoc etiam in
+        plurimum ascendendo, quia capere talem septimam descendendo est multum
+        difficile.--Semiditonus cum dyapente est secundus modus inusitatus: Est ascensus vel
+        descensus ab una voce in septimam debiliter et imperfecte sonans. Et dicitur a semiditono et
+        dyapente. Constat autem ex 4 tonis et <pb n="[83]"/>duobus semitoniis.--Ditonus cum diapente
+        est tertius modus inusitatus. Et est ascensus vel descensus ab una voce in septimam potenter
+        et viriliter sonans. Et dicitur a dytono et dyapente. Constat enim ex quinque tonis et uno
+        semitonio, ut patet in exemplo sequenti et tantum de istis.</p>
+      <p xml:id="SZAMUS0111">Item Sciendum, suffixa rectius: sufficientia istorum modorum
+        inusitatorum patet ex eo, quia omnes voces inter se sive ad invicem consideratae
+        considerantur ratione soni. Et hoc dupliciter: vel enim hoc fit consonanter vel dissonanter.
+        Si consonanter, hoc iterum dupliciter: vel enim talis consonantia fit simul vel succesive.
+        Si simul, tunc magis respicit musicam compositam, id est mensuralem, quam simplicem. Si
+        autem talis consonantia fit successive, tunc ad propositum, quia voces diversae vel locantur
+        in eodem transversali, sive hoc sit linea, sive spatium, vel locantur in diverso
+        transversali. Si locantur in eodem transversali, hoc fit dupliciter: vel tales circa se
+        habent immediate diversas claves, vel non. Si habent diversas claves quo ad formam, sed non
+        quo ad speciem, sicut sunt B rotundum et h quadrum, tunc causant inter se choma, id est
+        dissonantiam proportionis, sicut fa et mi in transversali bfa-bmi, quae inter se dissonant,
+        quia mi est altius quam fa [fol. 42a.] proportione supradicta, propter quod inter se non
+        mutantur. Quidem tamen aliqui antiqui cum quibusdam suis imitatoribus satis errone arguunt
+        ponentes b-fa pro bfa-bmi. Nec tales intelligendo advertunt, quod fa subiacet molli cantui
+        per b rotundum repraesentato, mi vero subiacet duro cantui per h quadrum repraesentato. Sed
+        quia molle et durum naturaliter inter se sunt dissonantia, ergo in bfa-bmi non fit mutatio.
+        Si vero voces diversae in eodem transversali locantur sub una et eadem clave, tunc causant
+        unisonum. Si vero duae voces ponuntur in transversali diverse, hoc fit dupliciter: vel talia
+        sunt a se distantia, vel mutuo se sequentia, sicut de linea ad spatium vel econverso, tunc
+        causant tonum, sic ut-re, re-ut, re-mi, mi-re, fa-sol, sol-fa, sol-la, la-sol, excepto mi et
+        fa, quae inter se semper causant semitonium, id est tonum imperfectum. Versus. Linea cum
+        spatio coniuncta tonos sive semi (-tonium. Et re mi, ut cum re pleneque tonat (reddunt
+        perfectum tonum). Mique cum re atque fa-fa sol la sic cantando tonat infra (descendendo).
+        Dantque semi (-tonium) mi fa nec fit plenus tonus infra. Non tonus est semi (Non est tonus,
+        nec medietas toni) non perfectus quasi fa mi. Fitque semitonium fa-mi sic versum mi-fa.</p>
       <p xml:id="SZAMUS0112">
         <pb n="[84]"/>Si autem duae voces ponuntur in diverso transversali et distanti, hoc iterum
         fit dupliciter: vel proportionaliter consonanter, vel proportionaliter dissonanter. Si primo
@@ -718,9 +734,10 @@
           <graphic url="/images/SZAMUS_07GF.gif"/>
         </figure></p>
       <p xml:id="SZAMUS0115">[fol. 43a.]</p>
-      <p xml:id="SZAMUS0116">Sequitur nunc de naturis coniunctarum (causa autem inventionis coniunctarum
-        est transpositio vel non transpositio cantuum, unde si aliquando aliquis cantus
-        transponeretur, non indigeret huiusmodi coniuncta et econverso, si non transponeretur, <pb n="[85]"/>indigeret), propter quod sciendum, possit quis quaerere, quid sit coniuncta, cui
+      <p xml:id="SZAMUS0116">Sequitur nunc de naturis coniunctarum (causa autem inventionis
+        coniunctarum est transpositio vel non transpositio cantuum, unde si aliquando aliquis cantus
+        transponeretur, non indigeret huiusmodi coniuncta et econverso, si non transponeretur, <pb
+          n="[85]"/>indigeret), propter quod sciendum, possit quis quaerere, quid sit coniuncta, cui
         respondendum est: Coniuncta secundum vocem hominis vel instrumenti (monochordi, vel organi,
         vel aliorum instrumentorum musicalium) est facere de tono semitonium et econverso de
         semitonio tonum. Nam in eo loco, in quo solebat esse semitonium, per coniunctam sumitur
@@ -731,10 +748,10 @@
         semitonium vel econverso, patet ex eo, quia tonus et semitonium sunt species differatae,
         sive modi distincti, quare una in alteram transmutari non potest), sed in eodem loco, in quo
         solebat esse semitonium, per coniunctam fit tonus et econverso.</p>
-      <p xml:id="SZAMUS0117">Advertendum iterum, quod omnis coniuncta per b molle signata dicitur fa,
-        sed per b quadrum dicitur mi, loco cuius ut frequenter ponitur h. Cum ergo notitia talium
-        coniunctarum necessaria sit in cantu plano et etiam in organico, ideo videndum est de eis
-        diligenter et scrutandum. Sunt autem octo coniunctae in numero: 4 superiores et 4
+      <p xml:id="SZAMUS0117">Advertendum iterum, quod omnis coniuncta per b molle signata dicitur
+        fa, sed per b quadrum dicitur mi, loco cuius ut frequenter ponitur h. Cum ergo notitia
+        talium coniunctarum necessaria sit in cantu plano et etiam in organico, ideo videndum est de
+        eis diligenter et scrutandum. Sunt autem octo coniunctae in numero: 4 superiores et 4
         inferiores, de quibus prima accipitur inter a et b graves id est inter a-re et b-mi, et
         signatur in h gravi id est in h-mi per b molle sic, quod cantatur ibi fa, ut in responsorio
         [fol. 43b.] isto "Sancta et immaculata virginitas et cetera" in isto loco, in quo dicitur
@@ -743,32 +760,32 @@
         canitur "calicem Domini," ut patet hic. Similiter in hoc Responsorio "Emendemus in melius"
         in loco, in quo dicitur "et miserere" et sic plura in pluribus locis cantuum regularium
         possunt cantari.</p>
-      <p xml:id="SZAMUS0118">Sed tamen sciendum, si quis praedictam coniunctam voluerit evitare, tunc
-        hoc Responsorium "Sancta et immaculata" incipiat in a acuto id est in a-lamire. Sed alia duo
-        scilicet "Fuerunt sine querela" et "Emendemus in melius" incipiat in E finali, id est in
-        e-lami.</p>
-      <p xml:id="SZAMUS0119">Secunda coniuncta accipitur inter d et e finales id est inter d-solre et
-        e-lami et signatur in e finali, id est in e-lami per b molle sic quod erit ibi fa, ut patet
-        in Antiphona, quae canitur de Sancto Gregorio, scilicet "Gloriosa Sanctissimi" in loco, quo
-        dicitur "et precibus." <pb n="[86]"/>Similiter eadem coniuncta habetur in Responsorio "Gaude
-        Maria," in loco, quo dicitur "interemisti"; etiam in hac Antiphona "O crux gloriosa" in
-        loco, quo dicitur "admirabile signum" et utrumque eorum initium accipit in d finali, id est
-        in d-solre, ut patet practicanti.</p>
+      <p xml:id="SZAMUS0118">Sed tamen sciendum, si quis praedictam coniunctam voluerit evitare,
+        tunc hoc Responsorium "Sancta et immaculata" incipiat in a acuto id est in a-lamire. Sed
+        alia duo scilicet "Fuerunt sine querela" et "Emendemus in melius" incipiat in E finali, id
+        est in e-lami.</p>
+      <p xml:id="SZAMUS0119">Secunda coniuncta accipitur inter d et e finales id est inter d-solre
+        et e-lami et signatur in e finali, id est in e-lami per b molle sic quod erit ibi fa, ut
+        patet in Antiphona, quae canitur de Sancto Gregorio, scilicet "Gloriosa Sanctissimi" in
+        loco, quo dicitur "et precibus." <pb n="[86]"/>Similiter eadem coniuncta habetur in
+        Responsorio "Gaude Maria," in loco, quo dicitur "interemisti"; etiam in hac Antiphona "O
+        crux gloriosa" in loco, quo dicitur "admirabile signum" et utrumque eorum initium accipit in
+        d finali, id est in d-solre, ut patet practicanti.</p>
       <p xml:id="SZAMUS0120">[Vide facsimile [VII]] <figure>
           <graphic url="/images/SZAMUS_08GF.gif"/>
         </figure></p>
-      <p xml:id="SZAMUS0121">Si autem velis praedictam coniunctam evitare, incipe praedictum, scilicet
-        "Gaude Maria" in e finali, id est in e-lami. Similiter etiam "O crux gloriosa"; et haec
-        coniuncta in pluribus locis canitur, ut patet consideranti.</p>
+      <p xml:id="SZAMUS0121">Si autem velis praedictam coniunctam evitare, incipe praedictum,
+        scilicet "Gaude Maria" in e finali, id est in e-lami. Similiter etiam "O crux gloriosa"; et
+        haec coniuncta in pluribus locis canitur, ut patet consideranti.</p>
       <p xml:id="SZAMUS0122">[Vide facsimile [VII]]</p>
-      <p xml:id="SZAMUS0123">Tertia coniuncta accipitur inter g et f finales, id est inter g-solreut et
-        f-faut et signatur in f finali per h quadrum, sic quod ibi cantatur mi, sicut patet in ista
-        Communione "Beatus servus" in loco, quo canitur "vigilantem." Similiter in hoc Responsorio,
-        "Quae est ista" in loco, quo canitur "per desertum."</p>
+      <p xml:id="SZAMUS0123">Tertia coniuncta accipitur inter g et f finales, id est inter g-solreut
+        et f-faut et signatur in f finali per h quadrum, sic quod ibi cantatur mi, sicut patet in
+        ista Communione "Beatus servus" in loco, quo canitur "vigilantem." Similiter in hoc
+        Responsorio, "Quae est ista" in loco, quo canitur "per desertum."</p>
       <p xml:id="SZAMUS0124">[Vide facsimile [VII]]</p>
-      <p xml:id="SZAMUS0125">Si autem in praedictis cantibus volueris evitare coniunctam, tunc utrumque
-        eorum, scilicet tam "Beatus servus," quam etiam "Quae est ista" incipe in a acuto, id est
-        [fol. 44a.] in a-lamire per primum cantum b mollem, ut sequitur.</p>
+      <p xml:id="SZAMUS0125">Si autem in praedictis cantibus volueris evitare coniunctam, tunc
+        utrumque eorum, scilicet tam "Beatus servus," quam etiam "Quae est ista" incipe in a acuto,
+        id est [fol. 44a.] in a-lamire per primum cantum b mollem, ut sequitur.</p>
       <p xml:id="SZAMUS0126">[Vide facsimile [VIII]] <figure>
           <graphic url="/images/SZAMUS_09GF.gif"/>
         </figure></p>
@@ -779,12 +796,12 @@
         meas" in loco, quo dicitur "quid contra me," et in diversis aliis cantibus haec coniuncta
         committitur, ut hic.</p>
       <p xml:id="SZAMUS0128">[Vide facsimile [VIII]]</p>
-      <p xml:id="SZAMUS0129">Si autem in ista communione coniunctam vitare volueris, tunc incipe eam in
-        g finali, id est in g-solreut per secundum cantum b duralem. Est enim praedicta Communio
+      <p xml:id="SZAMUS0129">Si autem in ista communione coniunctam vitare volueris, tunc incipe eam
+        in g finali, id est in g-solreut per secundum cantum b duralem. Est enim praedicta Communio
         septimi toni, ergo ibi debet incipi et etiam terminari, ut hic.</p>
       <p xml:id="SZAMUS0130">[Vide facsimile [VIII]]</p>
-      <p xml:id="SZAMUS0131">Quinta coniuncta accipitur inter c et d acuta, id est inter c-solfaut et
-        d-lasolre. Et signatur in c acuto per h quadrum, sic quod ibi erit mi, ut in hoc iubilo
+      <p xml:id="SZAMUS0131">Quinta coniuncta accipitur inter c et d acuta, id est inter c-solfaut
+        et d-lasolre. Et signatur in c acuto per h quadrum, sic quod ibi erit mi, ut in hoc iubilo
         videlicet Alleluja, quod canitur <pb n="[87]"/>de Assumptione Virginis Mariae "Assumpta est
         Maria in caelum" et hoc est verum, si incipitur in a acuto, id est in a-lamire, ut hic in
         exemplo.</p>
@@ -805,15 +822,15 @@
         hic.</p>
       <p xml:id="SZAMUS0137">[fol. 45a.]</p>
       <p xml:id="SZAMUS0138">Exemplum.</p>
-      <p xml:id="SZAMUS0139">Si autem in praefata antiphona vel consimili coniunctam vitare volueris,
-        incipe eam in e finali, vel in f finali per primum cantum naturalem, vel per primum b
-        mollem, ut sequitur in exemplo.</p>
+      <p xml:id="SZAMUS0139">Si autem in praefata antiphona vel consimili coniunctam vitare
+        volueris, incipe eam in e finali, vel in f finali per primum cantum naturalem, vel per
+        primum b mollem, ut sequitur in exemplo.</p>
       <p xml:id="SZAMUS0140">Exemplum.</p>
-      <p xml:id="SZAMUS0141">Octava coniuncta accipitur inter g et a superacutum, id est inter g-solreut
-        et aa-lamire er signatur in a superacuto per b molle sic, quod ibi canitur fa. Huic vero
-        coniunctae musici non assignant locum determinatum, sed rationi committunt. Illo tamen non
-        obstante sagax et subtilis cantor sibi ipse potest invenire modum cantandi. De ea sicut et
-        de praedictis ut in exemplo.</p>
+      <p xml:id="SZAMUS0141">Octava coniuncta accipitur inter g et a superacutum, id est inter
+        g-solreut et aa-lamire er signatur in a superacuto per b molle sic, quod ibi canitur fa.
+        Huic vero coniunctae musici non assignant locum determinatum, sed rationi committunt. Illo
+        tamen non obstante sagax et subtilis cantor sibi ipse potest invenire modum cantandi. De ea
+        sicut et de praedictis ut in exemplo.</p>
       <p xml:id="SZAMUS0142">Exemplum.</p>
       <p xml:id="SZAMUS0143">Unde ipsi mensuristae in locis quibus committuntur coniunctae, solent
         ponere talem signum x. Sed organistae ipsis vocibus solent adiungere quandam virgulam per
@@ -838,9 +855,9 @@
         alicui (certo) tono naturaliter subordinato, prout dicimus: Iste cantus est primi toni, id
         est iste tropus EUOUAE primo tono subordinatur; et istis duobus modis est praesentis
         propositi.</p>
-      <p xml:id="SZAMUS0147">Et diffinitur dupliciter. Primo sic: Tonus est debita (certa) tropi (id est
-        cantus) comprehensio ipsius regularis cantus respectu principii, medii et finis, arsis et
-        thesis. Dicitur cantus regularis propter cantum vulgarem et irregularem, de quo nihil ad
+      <p xml:id="SZAMUS0147">Et diffinitur dupliciter. Primo sic: Tonus est debita (certa) tropi (id
+        est cantus) comprehensio ipsius regularis cantus respectu principii, medii et finis, arsis
+        et thesis. Dicitur cantus regularis propter cantum vulgarem et irregularem, de quo nihil ad
         propositum, quia iste non habet debitas dependentias propter tria: primum est, quia talis
         non sistit in sedibus regularibus, sicut deberet, scilicet in finalibus, in quibus omnis
         cantus tonorum autentorum et plagalium regulariter formatus terminatur. Secundum est, quia
@@ -848,21 +865,21 @@
         dyatessaron, neque dyapente. Tertium est, quia quandoque usque ad excellentes intenditur
         transeundo ad acutas et [fol. 46b.] superacutas sine regula. Ergo talis cantus irregularis
         nullo certo tono potest subordinari.</p>
-      <p xml:id="SZAMUS0148">Dicitur in diffinitione: respectu principii et finis, quia tonus tropi id
-        est cantus respicitur a fine ipsius cantus, sed differentia tonorum respicitur a principio,
-        ut infra patebit ibi "Et ex diversis principiis et cetera. (Tonus a fine, differentia a
-        principio, autentus vel plagalis a medio condiscatur ?).--Dicitur in definitione: arsis et
-        thesis, id est elevationis et depressionis, unde ? de elevatione et depressione regularium
-        cantuum dantur aliquae regulae, ut infra patebit. Secundo tonus est certa lex et regula
-        troporum cantus choralis quo ad modum principiandi et finiendi secundum arsim et thesim
-        debite determinans, per quam (legem) de quolibet <pb n="[89]"/>cantu in fine communiter
-        iudicamus (Nam dicunt musici, quod per finem tonus cognoscitur, per principium differentia,
-        per medium vero, an autentus vel plagalis sit, iudicatur. Quatenus multi cantus sunt, qui in
-        principio uno, et in fine alio concluduntur tono, quare a fine diiudicatur cantus, ut
-        proclamat vulgus: In fine laus probatur. Similiter: finis est perfectio rerum. Omnis itaque
-        cantus a finali voce regulas suscipit). Et illo ignorato secundum Hollandrinum nemo musicus
-        reputatur, ut patet in sua Musica per hos versus: Musicus octo tonos ignorans non reputatur.
-        Ergo scias cantum, per te tonus inveniatur.--</p>
+      <p xml:id="SZAMUS0148">Dicitur in diffinitione: respectu principii et finis, quia tonus tropi
+        id est cantus respicitur a fine ipsius cantus, sed differentia tonorum respicitur a
+        principio, ut infra patebit ibi "Et ex diversis principiis et cetera. (Tonus a fine,
+        differentia a principio, autentus vel plagalis a medio condiscatur ?).--Dicitur in
+        definitione: arsis et thesis, id est elevationis et depressionis, unde ? de elevatione et
+        depressione regularium cantuum dantur aliquae regulae, ut infra patebit. Secundo tonus est
+        certa lex et regula troporum cantus choralis quo ad modum principiandi et finiendi secundum
+        arsim et thesim debite determinans, per quam (legem) de quolibet <pb n="[89]"/>cantu in fine
+        communiter iudicamus (Nam dicunt musici, quod per finem tonus cognoscitur, per principium
+        differentia, per medium vero, an autentus vel plagalis sit, iudicatur. Quatenus multi cantus
+        sunt, qui in principio uno, et in fine alio concluduntur tono, quare a fine diiudicatur
+        cantus, ut proclamat vulgus: In fine laus probatur. Similiter: finis est perfectio rerum.
+        Omnis itaque cantus a finali voce regulas suscipit). Et illo ignorato secundum Hollandrinum
+        nemo musicus reputatur, ut patet in sua Musica per hos versus: Musicus octo tonos ignorans
+        non reputatur. Ergo scias cantum, per te tonus inveniatur.--</p>
       <p xml:id="SZAMUS0149">Et Sciendum, quamvis aput Graecos tantum quatuor fuerunt toni nominati,
         scilicet prothus, deiterus sic, tritus et tetrardus, nihilominus tamen ex hiis quatuor alii
         quatuor reputabant, quia quilibet praedictorum in duos dividebatur, videlicet in autentum et
@@ -876,9 +893,9 @@
         septimum atque. Autentos dic tale tales simul reliquosque plagales.--Quod autentus ascendit
         et plagalis descendit, patet per hunc versum Theogeri: Vult descendere par, ascendere vult
         tonus impar. et cetera.</p>
-      <p xml:id="SZAMUS0150">Ad cognoscendum vero, pro quo Euouae, id est sub qua differentia quilibet
-        cantus regularis comprehenditur, quatuor sunt consideranda: Primum est principium, secundum
-        est finis, tertium est punctus, quartum est arsis et thesis. Quintum incidentiale
+      <p xml:id="SZAMUS0150">Ad cognoscendum vero, pro quo Euouae, id est sub qua differentia
+        quilibet cantus regularis comprehenditur, quatuor sunt consideranda: Primum est principium,
+        secundum est finis, tertium est punctus, quartum est arsis et thesis. Quintum incidentiale
         subiungitur per modum notabilis, videlicet quare antiphonae frequenter ante psalmos
         incipiuntur et post psalmos integraliter terminantur, quae tamen temporibus solennibus
         utrobique, id est tam ante psalmos, quam post psalmos totaliter perficiuntur (de hoc quinto
@@ -903,12 +920,12 @@
         causantur diversae differentiae Euouae, principium enim troporum recipitur a fine Euouae et
         finis troporum a principio Euouae, ut infra videbitur. Hinc est, quod de tonorum principiis
         et Euouae differentiis coniunctive et sub uno contextu (id est ordine) hic dicetur.</p>
-      <p xml:id="SZAMUS0151">Propter quod est Notandum, ex quo praesens intentio est de tonis. Tonus est
-        subjectum (scilicet partiale) ipsius musicae et est triplex secundum tres causas efficientes
-        ipsius musicae. Est enim tonus vulgaris, quem adinvenit quidam magister nomine Tubal.
-        Secundus est tonus Ambrosianus, cuius causae efficientes sunt duae, videlicet beatus Moyses
-        cum beato Ambrosio. Tertius est tonus Gregorianus, quem adinvenit sanctus Gregorius, quo
-        moderni et latini musici utuntur.</p>
+      <p xml:id="SZAMUS0151">Propter quod est Notandum, ex quo praesens intentio est de tonis. Tonus
+        est subjectum (scilicet partiale) ipsius musicae et est triplex secundum tres causas
+        efficientes ipsius musicae. Est enim tonus vulgaris, quem adinvenit quidam magister nomine
+        Tubal. Secundus est tonus Ambrosianus, cuius causae efficientes sunt duae, videlicet beatus
+        Moyses cum beato Ambrosio. Tertius est tonus Gregorianus, quem adinvenit sanctus Gregorius,
+        quo moderni et latini musici utuntur.</p>
       <p xml:id="SZAMUS0152">Primum tonum videlicet vulgarem diximus non habere debitas dependentias
         propter tria: primum est, quia non consistit in sedibus regularibus, sicut deberet, scilicet
         in finalibus vel affinalibus, in quibus omnis cantus tonorum autentorum et plagalium
@@ -939,12 +956,12 @@
         gravibus, id est qui in cursu suo plus tangunt voces et claves graves, quam acutas. Unde
         dicuntur plagales a plagas in Graeco, quod est pars vel latus in Latino, quia partiales vel
         collaterales nuncupati sunt eo quod in lateribus suorum autentorum demorantur.</p>
-      <p xml:id="SZAMUS0154">Hii autem octo toni habent 4 sedes principales, in quibus omnes iubili et
-        omnia carmina et omnes cantus regulares terminantur. Prothi enim autenti, id est primi toni
-        et sui plagalis, id est secundi toni et sedes et finalis corda est d-solre, tertii et quarti
-        e-lami, quinti et sexti f-faut, septimi et octavi g-solreut. De hiis autem tonis dantur
-        tales regulae et primo de tono autento, quae extendit se ad omnes tonos autentos. Et est
-        talis: Omnis tonus autentus a sede sua id est corda finali regulariter habet intensionem
+      <p xml:id="SZAMUS0154">Hii autem octo toni habent 4 sedes principales, in quibus omnes iubili
+        et omnia carmina et omnes cantus regulares terminantur. Prothi enim autenti, id est primi
+        toni et sui plagalis, id est secundi toni et sedes et finalis corda est d-solre, tertii et
+        quarti e-lami, quinti et sexti f-faut, septimi et octavi g-solreut. De hiis autem tonis
+        dantur tales regulae et primo de tono autento, quae extendit se ad omnes tonos autentos. Et
+        est talis: Omnis tonus autentus a sede sua id est corda finali regulariter habet intensionem
         suam ad dyapason, id est ad octo cordas. Conceditur tamen eidem tono videlicet autento de
         licentia ad nonam vel ad decimam cordam ascendere. Remissionem (descensum) vero sub finalem
         [fol. 48b.] sedem habet ad unam cordam regulariter, de licentia vero ad dyatesseron (ad
@@ -953,8 +970,8 @@
         finali habet intensionem per dyapente regulariter, id est ad quintam cordam. Remissionem
         vero sub sedem finalem ad dyatesseron, licentialiter tamen assumunt unam cordam tam
         intensive quam remissive.</p>
-      <p xml:id="SZAMUS0155">Notandum, quod primus tonus ponit tenorem suum (id est initium Euouae) in
-        a-lamire per dyapente a sede finali, secundus vero tonus ponit tenorem suum (per
+      <p xml:id="SZAMUS0155">Notandum, quod primus tonus ponit tenorem suum (id est initium Euouae)
+        in a-lamire per dyapente a sede finali, secundus vero tonus ponit tenorem suum (per
         semiditonum) in f-faut finali, tertius tonus ponit tenorem suum in c-solfaut acuto (per
         semitonium cum dyapente). Quartus tonus ponit tenorem suum a-lamire acuto (per dyatesseron),
         quintus tonus ponit tenorem suum in csolfaut per dyapente a sede finali. Sextus tonus ponit
@@ -963,8 +980,8 @@
         dyatesseron a sede finali, ut patet de singulis in hae forma sequenti et cetera. (Item tenor
         est linea vel spatium, in qua vel in quo ipse tonus ponit suum principium, vel in quo vel
         qua Euouae id est Seculorum Amen alicuius toni incipit).</p>
-      <p xml:id="SZAMUS0156">Si quis singulorum, Cupit tonorum, Scire melodiam, Hanc attendat normam, Et
-        sic fine brevi, Studioque levi, Poterit hoc scire, Tonos diffinire.</p>
+      <p xml:id="SZAMUS0156">Si quis singulorum, Cupit tonorum, Scire melodiam, Hanc attendat
+        normam, Et sic fine brevi, Studioque levi, Poterit hoc scire, Tonos diffinire.</p>
       <p xml:id="SZAMUS0157">Pri. re. la. (id est primus tonus terminatur in d-solre et tenor eius
         incipit in a-lamire).</p>
       <p xml:id="SZAMUS0158">Se. re. fa. (id est secundus tonus terminatur in d-solre et tenor eius
@@ -977,27 +994,28 @@
         incipit in c-solfaut).</p>
       <p xml:id="SZAMUS0162">Sex. fa. la. (id est sextus tonus terminatur in f-faut et tenor eius
         incipit in a-lamire).</p>
-      <p xml:id="SZAMUS0163">Sep. ut. sol. (id est septimus tonus terminatur in g-solreut et tenor eius
-        incipit in d-solre).</p>
+      <p xml:id="SZAMUS0163">Sep. ut. sol. (id est septimus tonus terminatur in g-solreut et tenor
+        eius incipit in d-solre).</p>
       <p xml:id="SZAMUS0164">Oc. ten. ut. fa. (id est octavus tonus terminatur in g-solreut et tenor
         eius incipit in c-solfaut).</p>
-      <p xml:id="SZAMUS0165">Item Notandum. Ex quo inter ceteros tonos prothus autentus, id est primus
-        tonus tenet principatum, ideo prior de eo erit speculatio. Et primo videndum est, quis sit
-        iubilus sive melodia uniuscuiusque toni autenti [fol. 49a.] et plagalis. Secundo, quae sint
-        formae sive intonationes super singulos psalmos tam maiores, quam minores. Minores enim
-        psalmi sunt: Dixit dominus domino meo et cetera, Beatus vir qui non abiit et cetera,
+      <p xml:id="SZAMUS0165">Item Notandum. Ex quo inter ceteros tonos prothus autentus, id est
+        primus tonus tenet principatum, ideo prior de eo erit speculatio. Et primo videndum est,
+        quis sit iubilus sive melodia uniuscuiusque toni autenti [fol. 49a.] et plagalis. Secundo,
+        quae sint formae sive intonationes super singulos psalmos tam maiores, quam minores. Minores
+        enim psalmi sunt: Dixit dominus domino meo et cetera, Beatus vir qui non abiit et cetera,
         Confitebor, et sic de aliis. Maiores vero sunt: Magnificat et cetera, Benedictus dominus et
-        cetera, qui alio nomine vocantur cantica. Tertio, quae sunt differentiae (tonorum) <pb n="[93]"/>a primo sive a capitali Seculorum Amen, sive Euouae. Et quot unaquaeque
+        cetera, qui alio nomine vocantur cantica. Tertio, quae sunt differentiae (tonorum) <pb
+          n="[93]"/>a primo sive a capitali Seculorum Amen, sive Euouae. Et quot unaquaeque
         differentiarum litteras contineat iniciales (et quas).</p>
       <p xml:id="SZAMUS0166">Prothi enim autenti iubilus tali melodia melodiatur quae sequitur et
         cetera:</p>
       <p xml:id="SZAMUS0167">Exemplum 17. <figure>
           <graphic url="/images/SZAMUS_11GF.gif"/>
         </figure></p>
-      <p xml:id="SZAMUS0168">Deinde sequitur forma, sive intonatio super psalmos minores primi toni, ubi
-        est sciendum, quod intonatio psalmorum minorum primi toni habetur in duplici differentia.
-        Nam aliquae ecclesiae psalmos minores primi toni solent incipere in f-faut per tonum
-        ascendendo, videlicet sub hac forma, quae sequitur:</p>
+      <p xml:id="SZAMUS0168">Deinde sequitur forma, sive intonatio super psalmos minores primi toni,
+        ubi est sciendum, quod intonatio psalmorum minorum primi toni habetur in duplici
+        differentia. Nam aliquae ecclesiae psalmos minores primi toni solent incipere in f-faut per
+        tonum ascendendo, videlicet sub hac forma, quae sequitur:</p>
       <p xml:id="SZAMUS0169">Exemplum 18.</p>
       <p xml:id="SZAMUS0170">Alia est intonatio magis regularis et communior secundum modos musicos,
         videlicet quod semper intonatio psalmorum minorum debet fieri sive inchoari in tenore
@@ -1011,17 +1029,17 @@
         videlicet tali melodia secundum aliquas ecclesias. Et talis intonatio est communior et in
         pluribus ecclesiis observatur:</p>
       <p xml:id="SZAMUS0173">Exemplum 20.</p>
-      <p xml:id="SZAMUS0174">Sed secundum quasdam ecclesias psalmi maiores primi toni melodiantur tali
-        melodia, quae tamen non videtur tantum regularis ut praecedens, quia quantum ad medium
+      <p xml:id="SZAMUS0174">Sed secundum quasdam ecclesias psalmi maiores primi toni melodiantur
+        tali melodia, quae tamen non videtur tantum regularis ut praecedens, quia quantum ad medium
         intonationis non differt ab intonatione sexti toni. Et est melodia talis:</p>
       <p xml:id="SZAMUS0175">Exemplum 21.</p>
-      <p xml:id="SZAMUS0176">Deinde sequitur primum et principale sive capitale Euouae id est Seculorum
-        Amen primi toni in Cantu Gregoriano, quod tali forma modulatur:</p>
+      <p xml:id="SZAMUS0176">Deinde sequitur primum et principale sive capitale Euouae id est
+        Seculorum Amen primi toni in Cantu Gregoriano, quod tali forma modulatur:</p>
       <p xml:id="SZAMUS0177">Exemplum 22.</p>
-      <p xml:id="SZAMUS0178">Istud est primum et principale sive capitale Euouae primi thoni autenti. Et
-        habet duas litteras: d et f finales. Continet enim antiphonas incipientes in d-solre,
-        surgentes vel cadentes per tonum et semitonium, sed non per dyapente, surgentes sive
-        cadentes a d-solre in c-faut, (vel in f-faut), surgentes sicut patet in hac Antiphona
+      <p xml:id="SZAMUS0178">Istud est primum et principale sive capitale Euouae primi thoni
+        autenti. Et habet duas litteras: d et f finales. Continet enim antiphonas incipientes in
+        d-solre, surgentes vel cadentes per tonum et semitonium, sed non per dyapente, surgentes
+        sive cadentes a d-solre in c-faut, (vel in f-faut), surgentes sicut patet in hac Antiphona
         "Johannes autem cum audisset," [fol. 50a.] similiter "Ecce tu <pb n="[94]"/>pulchra es,"
         cadentes sicut patet in hac Antiphona "Ecce nomen Domini." Continet etiam hoc Euouae
         antiphonas in f-faut incipientes, remittentes non gradatim, sed per dyatesseron in c-faut
@@ -1032,8 +1050,8 @@
       <p xml:id="SZAMUS0180">Consequenter est Notandum, quod primus tonus habet quinque differentias
         more scolarum, inter quas prima differentia est ista:</p>
       <p xml:id="SZAMUS0181">Exemplum 24.</p>
-      <p xml:id="SZAMUS0182">Et haec differentia fit, quando cantus primi toni inchoatur in a-re, ut in
-        ista antiphona "Fidelis sermo et omni acceptione et cetera", vel in c-faut, ut in ista
+      <p xml:id="SZAMUS0182">Et haec differentia fit, quando cantus primi toni inchoatur in a-re, ut
+        in ista antiphona "Fidelis sermo et omni acceptione et cetera", vel in c-faut, ut in ista
         Antiphona "Ecce ego mitto vos", similiter "In plateis" et sic de aliis ut hic infra:</p>
       <p xml:id="SZAMUS0183">Exemplum 25.</p>
       <p xml:id="SZAMUS0184">Secunda differentia primi toni est ista quae sequitur:</p>
@@ -1066,11 +1084,12 @@
       <p xml:id="SZAMUS0199">Exemplum 33. <figure>
           <graphic url="/images/SZAMUS_12GF.gif"/>
         </figure></p>
-      <p xml:id="SZAMUS0200">Sequuntur differentiae primi toni non competentes, sive peregrinae, quae
-        more scolarium raro tenentur, sed more claustralium et in multis ecclesiis kathedralibus
-        observantur. Et prima differentia non competens est ista, ut patet in hac Antiphona "Biduo
-        vivens pendebat et cetera." Et hoc est verum, si Antiphona descendit gradatim et leviter. Si
-        vero descendit ad quartam, antiphonarum ? erit sub Euouae capitali:</p>
+      <p xml:id="SZAMUS0200">Sequuntur differentiae primi toni non competentes, sive peregrinae,
+        quae more scolarium raro tenentur, sed more claustralium et in multis ecclesiis
+        kathedralibus observantur. Et prima differentia non competens est ista, ut patet in hac
+        Antiphona "Biduo vivens pendebat et cetera." Et hoc est verum, si Antiphona descendit
+        gradatim et leviter. Si vero descendit ad quartam, antiphonarum ? erit sub Euouae
+        capitali:</p>
       <p xml:id="SZAMUS0201">[fol. 51a.]</p>
       <p xml:id="SZAMUS0202">Exemplum 34.</p>
       <p xml:id="SZAMUS0203">Haec ultima differentia peregrina in multis ecclesiis parochialibus
@@ -1089,17 +1108,17 @@
         canuntur <pb n="[96]"/>ex primo puncto (id est prima nota) troporum (cantuum) et etiam
         principiorum cantuum, saltu (ascensu) vel praecipitatione (descensu) et etiam levi
         ascensionis vel descensionis deductione. Haec doctrina est Johannis Hollandrini.</p>
-      <p xml:id="SZAMUS0208">Deinde sequitur melodia sive forma super versus Responsoriorum primi toni,
-        qua omnes versus responsoriorum in Cantu Gregoriano primi toni formantur. Et est notandum
-        pro regula, quod ubicumque Responsorium primi toni incipiat, versus semper in a-lamire vel
-        in d-solre habet initium, sicut patet in hac figura, seu forma versuum Responsoriorum primi
-        toni:</p>
+      <p xml:id="SZAMUS0208">Deinde sequitur melodia sive forma super versus Responsoriorum primi
+        toni, qua omnes versus responsoriorum in Cantu Gregoriano primi toni formantur. Et est
+        notandum pro regula, quod ubicumque Responsorium primi toni incipiat, versus semper in
+        a-lamire vel in d-solre habet initium, sicut patet in hac figura, seu forma versuum
+        Responsoriorum primi toni:</p>
       <p xml:id="SZAMUS0209">Exemplum 37.</p>
-      <p xml:id="SZAMUS0210">[fol. 51b.] Sed quod versus Responsoriorum primi toni incipiat in d-solre,
-        patet in hoc versu et aliis similibus:</p>
+      <p xml:id="SZAMUS0210">[fol. 51b.] Sed quod versus Responsoriorum primi toni incipiat in
+        d-solre, patet in hoc versu et aliis similibus:</p>
       <p xml:id="SZAMUS0211">Exemplum 38.</p>
-      <p xml:id="SZAMUS0212">Item notandum, versus Responsoriorum primi toni quandoque finiuntur in f
-        gravi, ut patet in hoc versu "Primus et novissimus", similiter in hoc versu "Qui potuit et
+      <p xml:id="SZAMUS0212">Item notandum, versus Responsoriorum primi toni quandoque finiuntur in
+        f gravi, ut patet in hoc versu "Primus et novissimus", similiter in hoc versu "Qui potuit et
         cetera." Quandoque vero finiuntur in d gravi, ut patet in hoc versu "Cherubim" in ista
         ultima dictione scilicet "dicens". Et eodemmodo exemplificandum est de aliis. Sed Notandum,
         quod versus Responsoriorum primi toni secundum quasdam ecclesias etiam terminantur in
@@ -1116,17 +1135,17 @@
         forma sive melodia super versus seu psalmos officiorum, quia omnes versus officiorum primi
         toni iubilantur ut sequitur:</p>
       <p xml:id="SZAMUS0215">Exemplum 40.</p>
-      <p xml:id="SZAMUS0216">Et istud Euouae fit, quando officium primi toni incipit in d-solre finali
-        sive leviter [fol. 52a.] surgens sive vehementer. Leviter surgens, sicut hoc Officium
+      <p xml:id="SZAMUS0216">Et istud Euouae fit, quando officium primi toni incipit in d-solre
+        finali sive leviter [fol. 52a.] surgens sive vehementer. Leviter surgens, sicut hoc Officium
         "Exsurge", vehementer sicut "Da pacem Domine" ut infra:</p>
       <p xml:id="SZAMUS0217">
         <pb n="[97]"/>Exemplum 41.</p>
-      <p xml:id="SZAMUS0218">Continet etiam istud Euouae Introitus in f-faut inchoantes et dehinc non
-        surgentes, sed cadentes, sicut patet in hoc Introitu "Dominus secus mare", similiter
+      <p xml:id="SZAMUS0218">Continet etiam istud Euouae Introitus in f-faut inchoantes et dehinc
+        non surgentes, sed cadentes, sicut patet in hoc Introitu "Dominus secus mare", similiter
         "Ettenim sederunt", ut patet in exemplo:</p>
       <p xml:id="SZAMUS0219">Exemplum 42.</p>
-      <p xml:id="SZAMUS0220">Notandum, quod primus tonus habet duas differentias in cantu officiorum,
-        quarum prima est haec quae sequitur:</p>
+      <p xml:id="SZAMUS0220">Notandum, quod primus tonus habet duas differentias in cantu
+        officiorum, quarum prima est haec quae sequitur:</p>
       <p xml:id="SZAMUS0221">Exemplum 43.</p>
       <p xml:id="SZAMUS0222">Haec autem differentia primi toni habet tantum unam litteram initialem,
         scilicet quando cantus Introitus primi toni incipit in c-faut et dehinc surgens, sicut patet
@@ -1138,8 +1157,8 @@
         patet in hiis "Sapientiam Sanctorum", similiter "Salus autem" ut patet in exemplis
         infra:</p>
       <p xml:id="SZAMUS0225">Exemplum 45.</p>
-      <p xml:id="SZAMUS0226">Et sic patent litterae iniciales primi toni tam super cantuum antiphonarum,
-        quam officiorum. Et tantum de primo tono.</p>
+      <p xml:id="SZAMUS0226">Et sic patent litterae iniciales primi toni tam super cantuum
+        antiphonarum, quam officiorum. Et tantum de primo tono.</p>
       <p xml:id="SZAMUS0227">Cum autem dictum est de primo tono, qui prothus autentus dicitur,
         consequenter dicendum est de primo plagali, qui suus est subiugalis, vel collateralis, id
         est de secundo tono, qui eandem cordam finalem sive sedem continet, quam et primus,
@@ -1157,16 +1176,16 @@
         incipit suum Euouae. Et ergo psalmorum minorum melodia ibidem ponit suum principium
         regulare, tali forma ut hic sequitur:</p>
       <p xml:id="SZAMUS0230">Exemplum 47.</p>
-      <p xml:id="SZAMUS0231">Deinde sequitur melodia super psalmos maiores secundi toni, qui communiter
-        ponunt principium suum in c-faut ut hic sequitur:</p>
+      <p xml:id="SZAMUS0231">Deinde sequitur melodia super psalmos maiores secundi toni, qui
+        communiter ponunt principium suum in c-faut ut hic sequitur:</p>
       <p xml:id="SZAMUS0232">Exemplum 48.</p>
       <p xml:id="SZAMUS0233">Deinde sequitur principale Euouae secundi toni et est tale:</p>
       <p xml:id="SZAMUS0234">Exemplum 49.</p>
-      <p xml:id="SZAMUS0235">Notandum autem, quod iste tonus nullam penitus habet differentiam tam in
-        cantu Antiphonarum quam officiorum. Et est sciendum, quod secundus tonus sub isto uno Euouae
-        habet 4 litteras iniciales, videlicet a c graves, d et f finales; id est, 4 sunt cordae id
-        est loca notarum, in quibus Antiphonae secundi toni inchoantur, scilicet a-re, ut haec
-        Antiphona "Laudate Dominum." Similiter haec Antiphona "Fidelis sermo et cetera," quae
+      <p xml:id="SZAMUS0235">Notandum autem, quod iste tonus nullam penitus habet differentiam tam
+        in cantu Antiphonarum quam officiorum. Et est sciendum, quod secundus tonus sub isto uno
+        Euouae habet 4 litteras iniciales, videlicet a c graves, d et f finales; id est, 4 sunt
+        cordae id est loca notarum, in quibus Antiphonae secundi toni inchoantur, scilicet a-re, ut
+        haec Antiphona "Laudate Dominum." Similiter haec Antiphona "Fidelis sermo et cetera," quae
         Antiphona secundum aliquos dicitur secundi toni, sed secundum aliquos propter intensionem
         sui cursus primi toni sub prima differentia appellatur, ut supra patuit. Continet etiam
         Antiphonas in c-faut inchoantes, sicut patet in ista Antiphona "Sicut lilium inter
@@ -1175,37 +1194,37 @@
         inchoantes, sicut patet in ista "Quem vidistis pastores," similiter "Genuit puerpera regem,"
         ut patet in exemplis infra notatis:</p>
       <p xml:id="SZAMUS0236">[fol. 53a.] Exemplum 50.</p>
-      <p xml:id="SZAMUS0237">Ostensa forma cum litteris inicialibus secundi toni in cantu Antiphonarum,
-        consequenter videndum de litteris inicialibus in cantu officiorum id est Introituum. Est
-        igitur advertendum, quod haedem litteres litterae iniciales sunt in cantu officiorum secundi
-        toni, quae et in cantu Antiphonarum fuerint. Et etiam notandum, quod, sicut dictum est, quod
-        secundus tonus nullam differentiam continet in cantu officiorum, sed solummodo continet
-        principale Euouae, unde <pb n="[99]"/>primo ponitur forma seu melodia super versus seu
-        psalmos Introituum officiorum secundi toni, quae sic iubilatur:</p>
+      <p xml:id="SZAMUS0237">Ostensa forma cum litteris inicialibus secundi toni in cantu
+        Antiphonarum, consequenter videndum de litteris inicialibus in cantu officiorum id est
+        Introituum. Est igitur advertendum, quod haedem litteres litterae iniciales sunt in cantu
+        officiorum secundi toni, quae et in cantu Antiphonarum fuerint. Et etiam notandum, quod,
+        sicut dictum est, quod secundus tonus nullam differentiam continet in cantu officiorum, sed
+        solummodo continet principale Euouae, unde <pb n="[99]"/>primo ponitur forma seu melodia
+        super versus seu psalmos Introituum officiorum secundi toni, quae sic iubilatur:</p>
       <p xml:id="SZAMUS0238">Exemplum 51.</p>
-      <p xml:id="SZAMUS0239">Istud autem Euouae secundi toni in cantu officiorum continet Introitus in
-        d-solre inchoantes, sicut patet in hoc Introitu "Dominus dixit ad me." Similiter in isto
+      <p xml:id="SZAMUS0239">Istud autem Euouae secundi toni in cantu officiorum continet Introitus
+        in d-solre inchoantes, sicut patet in hoc Introitu "Dominus dixit ad me." Similiter in isto
         "Fac mecum." Continet etiam introitus in c-faut inchoantes, sicut patet in hoc Introitu
         "Mihi autem." Continet etiam Introitus in f-faut inchoantes, sicut patet in isto Introitu
         "Me exspectaverunt." Continet etiam Introitus in a-re inchoantes, sicut patet in isto "Ecce
         advenit." Similiter "Salve Sancta parens" ut patet hic infra:</p>
       <p xml:id="SZAMUS0240">Exemplum 52.</p>
-      <p xml:id="SZAMUS0241">Deinde ostenditur forma sive melodia super versus Responsoriorum secundi
-        toni. Et nota, quod ubicumque Responsoriorum secundi toni incipit versus, semper aut in
-        d-solre finali, aut in c-faut gravi debet habere initium et debet terminari in c-faut.
+      <p xml:id="SZAMUS0241">Deinde ostenditur forma sive melodia super versus Responsoriorum
+        secundi toni. Et nota, quod ubicumque Responsoriorum secundi toni incipit versus, semper aut
+        in d-solre finali, aut in c-faut gravi debet habere initium et debet terminari in c-faut.
         Exemplum primi ut hic:</p>
       <p xml:id="SZAMUS0242">[fol. 53b.]</p>
       <p xml:id="SZAMUS0243">Exemplum 53.</p>
       <p xml:id="SZAMUS0244">Exemplum secundum:</p>
       <p xml:id="SZAMUS0245">Exemplum 54.</p>
-      <p xml:id="SZAMUS0246">Itaque iam duorum tonorum, videlicet primi autenti et sui plagalis id est
-        secundi toni patuit forma, consequenter videndum est de forma secundi toni autenti id est
-        tertii et sui plagalis id est quarti toni, quorum sedes finalis in e-lami finali habetur; de
-        intensione autem et remissione antea patuit, ideo omittitur ad praesens. Unde breviter
-        videndum est de forma sive melodia, qua omnes psalmi minores tertii toni modulantur. Et
-        Notandum, quod psalmi minores tertii toni secundum quasdam provincias in g-solreut
-        principium intonationis habent, tali melodia ut sequitur. Sed intentio ista est more
-        antiquorum:</p>
+      <p xml:id="SZAMUS0246">Itaque iam duorum tonorum, videlicet primi autenti et sui plagalis id
+        est secundi toni patuit forma, consequenter videndum est de forma secundi toni autenti id
+        est tertii et sui plagalis id est quarti toni, quorum sedes finalis in e-lami finali
+        habetur; de intensione autem et remissione antea patuit, ideo omittitur ad praesens. Unde
+        breviter videndum est de forma sive melodia, qua omnes psalmi minores tertii toni
+        modulantur. Et Notandum, quod psalmi minores tertii toni secundum quasdam provincias in
+        g-solreut principium intonationis habent, tali melodia ut sequitur. Sed intentio ista est
+        more antiquorum:</p>
       <p xml:id="SZAMUS0247">Exemplum 55.</p>
       <p xml:id="SZAMUS0248">Sed regularis intonatio tertii toni psalmorum minorum secundum usum
         modernorum musicorum debet esse in c-solfaut, tali melodia ut sequitur:</p>
@@ -1217,20 +1236,21 @@
       <p xml:id="SZAMUS0252">Deinde sequitur [fol. 54a.] primum et principale Euouae in cantu
         Antiphonarum, et est hoc:</p>
       <p xml:id="SZAMUS0253">Exemplum 58.</p>
-      <p xml:id="SZAMUS0254">Pro quo Notandum, quod tertius tonus habet 4 litteras iniciales, scilicet
-        e.f.g.c, unde versus: Bis duo ternus habens e et f. g. c superaddes.--Quarum litterarum
-        principale Euouae habet unam litteram, scilicet f, id est f-faut. Continet enim Antiphonas
-        in f-faut inchoantes, ab f-faut gradatim cadentes, ut patet in hiis Antiphonis:</p>
+      <p xml:id="SZAMUS0254">Pro quo Notandum, quod tertius tonus habet 4 litteras iniciales,
+        scilicet e.f.g.c, unde versus: Bis duo ternus habens e et f. g. c superaddes.--Quarum
+        litterarum principale Euouae habet unam litteram, scilicet f, id est f-faut. Continet enim
+        Antiphonas in f-faut inchoantes, ab f-faut gradatim cadentes, ut patet in hiis
+        Antiphonis:</p>
       <p xml:id="SZAMUS0255">Exemplum 59. <figure>
           <graphic url="/images/SZAMUS_14GF.gif"/>
         </figure></p>
-      <p xml:id="SZAMUS0256">Et Notandum, quod tertius tonus habet 4 differentias a primo et principali
-        Euouae differentes. Prima differentia est haec:</p>
+      <p xml:id="SZAMUS0256">Et Notandum, quod tertius tonus habet 4 differentias a primo et
+        principali Euouae differentes. Prima differentia est haec:</p>
       <p xml:id="SZAMUS0257">Exemplum 60.</p>
-      <p xml:id="SZAMUS0258">Haec autem differentia fit, quando cantus tertii toni inchoatur in e-lami
-        in spatio, ut in ista Antiphona "Favus distillans". Similiter "O gloriosum". Et hoc est
-        verum, si haec Antiphona "O gloriosum" inchoatur in e-lami. Si vero inchoatur in f-faut, ut
-        in quibusdam ecclesiis, ut supra incepta est, tunc erit sub Euouae capitali:</p>
+      <p xml:id="SZAMUS0258">Haec autem differentia fit, quando cantus tertii toni inchoatur in
+        e-lami in spatio, ut in ista Antiphona "Favus distillans". Similiter "O gloriosum". Et hoc
+        est verum, si haec Antiphona "O gloriosum" inchoatur in e-lami. Si vero inchoatur in f-faut,
+        ut in quibusdam ecclesiis, ut supra incepta est, tunc erit sub Euouae capitali:</p>
       <p xml:id="SZAMUS0259">Exemplum 61.</p>
       <p xml:id="SZAMUS0260">Deinde sequitur alia differentia tertii toni. Et est haec:</p>
       <p xml:id="SZAMUS0261">Exemplum 62.</p>
@@ -1239,23 +1259,24 @@
         g-solreut in a-lamire ascendendo per tonum, ibique aliquam faciendo moram, et dehinc per
         semiditonum in c-solfaut ascendendo, sicut sequitur:</p>
       <p xml:id="SZAMUS0263">Exemplum 63.</p>
-      <p xml:id="SZAMUS0264">[fol. 54b.] Deinde sequitur alia differentia tertii toni et est talis:</p>
+      <p xml:id="SZAMUS0264">[fol. 54b.] Deinde sequitur alia differentia tertii toni et est
+        talis:</p>
       <p xml:id="SZAMUS0265">Exemplum 64.</p>
-      <p xml:id="SZAMUS0266">Et haec differentia fit, quando cantus tertii toni inchoatur in g-solreut
-        et ascendit in a-lamire et sine ulla mora statim ascendit in c-solfaut sub figura ligata, ut
-        patet in istis Antiphonis:</p>
+      <p xml:id="SZAMUS0266">Et haec differentia fit, quando cantus tertii toni inchoatur in
+        g-solreut et ascendit in a-lamire et sine ulla mora statim ascendit in c-solfaut sub figura
+        ligata, ut patet in istis Antiphonis:</p>
       <p xml:id="SZAMUS0267">Exemplum 65.</p>
       <p xml:id="SZAMUS0268">Deinde sequitur ultima differentia tertii toni et est talis ut
         sequitur:</p>
       <p xml:id="SZAMUS0269">Exemplum 66.</p>
-      <p xml:id="SZAMUS0270">Haec differentia habet duas litteras iniciales, primo quando cantus tertii
-        toni inchoatur in g-solreut et per dyatesseron ascendit in c-solfaut, sicut patet in ista
-        Antiphona "Orietur in diebus illis", vel a <pb n="[101]"/>g-solreut in a-lamire punctatim
-        surgit, ab a-lamire vero per semiditonum in c-solfaut, similiter punctatim et non sub
-        ligatis figuris et signis Neumarum, sicut patet in hac Antiphona "Reliquit eum tentator".
-        Similiter "Cives mei vermes sunt". Secundo fit ista differentia, quando cantus tertii toni
-        inchoatur in c-solfaut, sicut patet in ista Antiphona "Ista est speciosa". Similiter "Vivo
-        ego":</p>
+      <p xml:id="SZAMUS0270">Haec differentia habet duas litteras iniciales, primo quando cantus
+        tertii toni inchoatur in g-solreut et per dyatesseron ascendit in c-solfaut, sicut patet in
+        ista Antiphona "Orietur in diebus illis", vel a <pb n="[101]"/>g-solreut in a-lamire
+        punctatim surgit, ab a-lamire vero per semiditonum in c-solfaut, similiter punctatim et non
+        sub ligatis figuris et signis Neumarum, sicut patet in hac Antiphona "Reliquit eum
+        tentator". Similiter "Cives mei vermes sunt". Secundo fit ista differentia, quando cantus
+        tertii toni inchoatur in c-solfaut, sicut patet in ista Antiphona "Ista est speciosa".
+        Similiter "Vivo ego":</p>
       <p xml:id="SZAMUS0271">Exemplum 67.</p>
       <p xml:id="SZAMUS0272">[fol. 55a.] Sequitur huius toni melodia super versus Responsoriorum. Et
         nota, quod ubicumque Responsorium initium habet, versus eius in cantu Sancti Gregorii in
@@ -1274,19 +1295,19 @@
       <p xml:id="SZAMUS0278">Deinde sequitur differentia tertii toni in cantu officiorum et est
         tantummodo unica, videlicet haec:</p>
       <p xml:id="SZAMUS0279">Exemplum 71.</p>
-      <p xml:id="SZAMUS0280">Haec autem differentia primo fit, quando Introitus tertii toni inchoatur in
-        f-faut, sicut patet in isto Introitu "Si iniquitates", similiter "Ego clamavi". Secundo haec
-        differentia [fol. 55b.] fit, quando Introitus tertii toni inchoatur in e-lami, ut patet hic
-        "Dum clamarem". Similiter "Confessio" ut hic:</p>
+      <p xml:id="SZAMUS0280">Haec autem differentia primo fit, quando Introitus tertii toni
+        inchoatur in f-faut, sicut patet in isto Introitu "Si iniquitates", similiter "Ego clamavi".
+        Secundo haec differentia [fol. 55b.] fit, quando Introitus tertii toni inchoatur in e-lami,
+        ut patet hic "Dum clamarem". Similiter "Confessio" ut hic:</p>
       <p xml:id="SZAMUS0281">
         <pb n="[102]"/>Exemplum 72.</p>
-      <p xml:id="SZAMUS0282">Sequitur forma secundi toni plagalis, sive collateralis tertii, videlicet
-        quarti toni, qui eandem litteram finalem continet cum tertio tono, ut prius dictum est. Unde
-        primo ponitur forma, sive melodia psalmorum, qui more antiquorum habent initium intonationum
-        in e-lami, super tali forma quae sequitur:</p>
+      <p xml:id="SZAMUS0282">Sequitur forma secundi toni plagalis, sive collateralis tertii,
+        videlicet quarti toni, qui eandem litteram finalem continet cum tertio tono, ut prius dictum
+        est. Unde primo ponitur forma, sive melodia psalmorum, qui more antiquorum habent initium
+        intonationum in e-lami, super tali forma quae sequitur:</p>
       <p xml:id="SZAMUS0283">Exemplum 73.</p>
-      <p xml:id="SZAMUS0284">Sed secundum modernorum morem psalmi minores quarti toni sunt inchoandi in
-        a-lamire. Ratio, quia quartus tonus ibidem ponit suum tenorem, ut patet in tali
+      <p xml:id="SZAMUS0284">Sed secundum modernorum morem psalmi minores quarti toni sunt inchoandi
+        in a-lamire. Ratio, quia quartus tonus ibidem ponit suum tenorem, ut patet in tali
         modulatione:</p>
       <p xml:id="SZAMUS0285">Exemplum 74.</p>
       <p xml:id="SZAMUS0286">Dehinc sequitur forma maiorum psalmorum, quorum inceptio debet fore in
@@ -1294,18 +1315,18 @@
       <p xml:id="SZAMUS0287">Exemplum 75. <figure>
           <graphic url="/images/SZAMUS_15GF.gif"/>
         </figure></p>
-      <p xml:id="SZAMUS0288">Deinde sequitur primum et capitale Euouae huius toni in cantu Antiphonarum
-        et est tale ut sequitur:</p>
+      <p xml:id="SZAMUS0288">Deinde sequitur primum et capitale Euouae huius toni in cantu
+        Antiphonarum et est tale ut sequitur:</p>
       <p xml:id="SZAMUS0289">Exemplum 76.</p>
-      <p xml:id="SZAMUS0290">Notandum autem, quod quartus tonus regulariter quinque litteras iniciales
-        habet scilicet c.d.e.ff.g., quarum capitale Euouae continet tres, videlicet e. ff. et g.
-        finales. Fit enim hoc Euouae, quando cantus quarti toni inchoatur in f-faut, ut patet in
-        ista Antiphona "Michael Gabriel", aut in e-lami, sicut patet in ista Antiphona "Quaerite
+      <p xml:id="SZAMUS0290">Notandum autem, quod quartus tonus regulariter quinque litteras
+        iniciales habet scilicet c.d.e.ff.g., quarum capitale Euouae continet tres, videlicet e. ff.
+        et g. finales. Fit enim hoc Euouae, quando cantus quarti toni inchoatur in f-faut, ut patet
+        in ista Antiphona "Michael Gabriel", aut in e-lami, sicut patet in ista Antiphona "Quaerite
         Dominum", aut in g-solreut non surgens, sed cadens, sicut "Rectos decet collaudatio":</p>
       <p xml:id="SZAMUS0291">[fol. 56a.]</p>
       <p xml:id="SZAMUS0292">Exemplum 77.</p>
-      <p xml:id="SZAMUS0293">Et Notandum, quod iste tonus in cantu Antiphonarum habet 4 differentias,
-        quarum prima est haec:</p>
+      <p xml:id="SZAMUS0293">Et Notandum, quod iste tonus in cantu Antiphonarum habet 4
+        differentias, quarum prima est haec:</p>
       <p xml:id="SZAMUS0294">Exemplum 78.</p>
       <p xml:id="SZAMUS0295">Haec differentia fit, quando cantus quarti toni inchoatur in d-solre,
         ascendendo gradatim in e-lami et dehinc in f-faut, sicut patet in istis Antiphonis
@@ -1313,15 +1334,15 @@
       <p xml:id="SZAMUS0296">Exemplum 79.</p>
       <p xml:id="SZAMUS0297">Deinde sequitur alia differentia, quae talis est:</p>
       <p xml:id="SZAMUS0298">Exemplum 80.</p>
-      <p xml:id="SZAMUS0299">Haec differentia fit, quando cantus quarti toni inchoatur in c-faut, sicut
-        patet in hac Antiphona sequenti:</p>
+      <p xml:id="SZAMUS0299">Haec differentia fit, quando cantus quarti toni inchoatur in c-faut,
+        sicut patet in hac Antiphona sequenti:</p>
       <p xml:id="SZAMUS0300">Exemplum 81.</p>
       <p xml:id="SZAMUS0301">
         <pb n="[103]"/>Deinde sequitur alia differentia, quae secundum aliquas ecclesias talis est
         ut sequitur:</p>
       <p xml:id="SZAMUS0302">Exemplum 82.</p>
-      <p xml:id="SZAMUS0303">Haec differentia fit, quando cantus quarti toni inchoatur in g-solreut et
-        dehinc surgit in a-lamire, sicut patet in istis Antiphonis "O mors ero mors tua", "Syon
+      <p xml:id="SZAMUS0303">Haec differentia fit, quando cantus quarti toni inchoatur in g-solreut
+        et dehinc surgit in a-lamire, sicut patet in istis Antiphonis "O mors ero mors tua", "Syon
         renovaberis":</p>
       <p xml:id="SZAMUS0304">Exemplum 83.</p>
       <p xml:id="SZAMUS0305">Notandum, quod secundum aliquas ecclesias haec Antiphona "Fidelia omnia
@@ -1329,13 +1350,13 @@
         videtur contineri sub Euouae capitale.</p>
       <p xml:id="SZAMUS0306">Deinde sequitur alia differentia, quae talis est:</p>
       <p xml:id="SZAMUS0307">Exemplum 84.</p>
-      <p xml:id="SZAMUS0308">Haec differentia fit regulariter, quando cantus quarti toni inchoatur in
-        d-solre et surgit per tonum in e-lami, vel ab e-lami per semiditonum in g-solreut, ut hic
+      <p xml:id="SZAMUS0308">Haec differentia fit regulariter, quando cantus quarti toni inchoatur
+        in d-solre et surgit per tonum in e-lami, vel ab e-lami per semiditonum in g-solreut, ut hic
         "Benedicta tu", "Stetit angelus":</p>
       <p xml:id="SZAMUS0309">Exemplum 85.</p>
-      <p xml:id="SZAMUS0310">Deinde sequitur forma sive melodia super versus Responsoriorum quarti toni.
-        Et sciendum, quod ubicumque Responsorium incipit, versus semper in a-lamire debet inchoari
-        [fol. 56b.] sub tali medio melodia?, ut sequitur in exemplo infrascripto:</p>
+      <p xml:id="SZAMUS0310">Deinde sequitur forma sive melodia super versus Responsoriorum quarti
+        toni. Et sciendum, quod ubicumque Responsorium incipit, versus semper in a-lamire debet
+        inchoari [fol. 56b.] sub tali medio melodia?, ut sequitur in exemplo infrascripto:</p>
       <p xml:id="SZAMUS0311">Exemplum 86.</p>
       <p xml:id="SZAMUS0312">Item notandum, quod finis huius melodiae quarti toni terminari debet in
         d-solre, tamen secundum consuetudines multarum ecclesiarum debitam proportionem vocum
@@ -1344,35 +1365,35 @@
         "Deus qui sedes", quod est quarti toni et versus suus debet terminari in f-faut, eo quod
         repetitio ipsius, scilicet "quia tu solus" incipit in c-faut, ut hic patet:</p>
       <p xml:id="SZAMUS0313">Exemplum 87.</p>
-      <p xml:id="SZAMUS0314">Deinde sequitur forma in cantu officiorum id est Introituum huius toni. Et
-        sciendum, quod quartus tonus easdem litteras iniciales habet in cantu officiorum, quas et in
-        cantu Antiphonarum. Primo igitur ostenditur forma super psalmos Introituum quarti toni,
+      <p xml:id="SZAMUS0314">Deinde sequitur forma in cantu officiorum id est Introituum huius toni.
+        Et sciendum, quod quartus tonus easdem litteras iniciales habet in cantu officiorum, quas et
+        in cantu Antiphonarum. Primo igitur ostenditur forma super psalmos Introituum quarti toni,
         quorum inceptio debet fieri in a-lamire, ut hic:</p>
       <p xml:id="SZAMUS0315">Exemplum 88.</p>
       <p xml:id="SZAMUS0316">
         <pb n="[104]"/>Et notandum, quod ubicumque Introitus quarti toni incipiat, semper continetur
         sub hoc Euouae. Et quartus tonus non habet aliquam differentiam usitatam in cantu officiorum
         et cetera. Et tantum de quarto tono. Amen.</p>
-      <p xml:id="SZAMUS0317">Expeditis duobus tonis autentis cum suis plagalibus consequenter ostenditur
-        forma tertii toni autenti, id est quinti toni, cuius finis est in f-faut cum suo plagali, id
-        est sexto tono, quare primo ostenditur forma, sive melodia psalmorum minorum quinti toni,
-        qui secundum antiquos habent inceptionem suam in f-faut, per ascensum in c-solfaut, tali sub
-        melodia intonationis ut sequitur:</p>
+      <p xml:id="SZAMUS0317">Expeditis duobus tonis autentis cum suis plagalibus consequenter
+        ostenditur forma tertii toni autenti, id est quinti toni, cuius finis est in f-faut cum suo
+        plagali, id est sexto tono, quare primo ostenditur forma, sive melodia psalmorum minorum
+        quinti toni, qui secundum antiquos habent inceptionem suam in f-faut, per ascensum in
+        c-solfaut, tali sub melodia intonationis ut sequitur:</p>
       <p xml:id="SZAMUS0318">[fol. 57a.]</p>
       <p xml:id="SZAMUS0319">Exemplum 89.</p>
       <p xml:id="SZAMUS0320">Sed secundum modernos psalmi minores quinti toni in c-solfaut sunt
         incipiendi, quia quintus tonus ibidem ponit tenorem suum, sub tali melodia ut sequitur:</p>
       <p xml:id="SZAMUS0321">Exemplum 90.</p>
-      <p xml:id="SZAMUS0322">Deinde sequitur melodia psalmorum maiorum quinti toni, qui incipiendi sunt
-        in f-faut, per ascensum in c-solfaut tali melodia:</p>
+      <p xml:id="SZAMUS0322">Deinde sequitur melodia psalmorum maiorum quinti toni, qui incipiendi
+        sunt in f-faut, per ascensum in c-solfaut tali melodia:</p>
       <p xml:id="SZAMUS0323">Exemplum 91.</p>
       <p xml:id="SZAMUS0324">Deinde sequitur primum et principale Euouae quinti toni in cantu
         Antiphonarum. Et est tale:</p>
       <p xml:id="SZAMUS0325">Exemplum 92.</p>
-      <p xml:id="SZAMUS0326">Est notandum, quod quintus tonus habet tres litteras iniciales tam in cantu
-        Antiphonarum, quam officiorum, scilicet f finale, a et c affinales, quarum istud primum
-        Euouae continet duas, scilicet a et c affinales. Fit enim hoc Euouae, quando cantus quinti
-        toni inchoatur in a-lamire, sicut patet in ista Antiphona "Montes et colles," aut in
+      <p xml:id="SZAMUS0326">Est notandum, quod quintus tonus habet tres litteras iniciales tam in
+        cantu Antiphonarum, quam officiorum, scilicet f finale, a et c affinales, quarum istud
+        primum Euouae continet duas, scilicet a et c affinales. Fit enim hoc Euouae, quando cantus
+        quinti toni inchoatur in a-lamire, sicut patet in ista Antiphona "Montes et colles," aut in
         c-solfaut, ut patet in ista Antiphona "Alleluja. Resurrexit Dominus":</p>
       <p xml:id="SZAMUS0327">Exemplum 93. <figure>
           <graphic url="/images/SZAMUS_16GF.gif"/>
@@ -1380,8 +1401,8 @@
       <p xml:id="SZAMUS0328">Notandum autem, quod quintus tonus in cantu Antiphonarum unam habet
         differentiam tantum, scilicet istam:</p>
       <p xml:id="SZAMUS0329">Exemplum 94.</p>
-      <p xml:id="SZAMUS0330">Haec differentia fit, quando cantus toni quinti incipit in f-faut, sicut
-        patet in istis Antiphonis sequentibus:</p>
+      <p xml:id="SZAMUS0330">Haec differentia fit, quando cantus toni quinti incipit in f-faut,
+        sicut patet in istis Antiphonis sequentibus:</p>
       <p xml:id="SZAMUS0331">Exemplum 95.</p>
       <p xml:id="SZAMUS0332">Deinde sequitur forma super versus Responsorium quinti toni, quorum
         inceptio debet fieri in c-solfaut tali melodia:</p>
@@ -1390,11 +1411,11 @@
         <pb n="[105]"/>[fol. 57b.] Deinde sequitur forma super versus Introituum. Et qui debent
         inchoari in f-faut tali melodia ut sequitur:</p>
       <p xml:id="SZAMUS0335">Exemplum 97.</p>
-      <p xml:id="SZAMUS0336">Notandum autem, quod sicut dictum est, quintus tonus in cantu officiorum
-        habet tres litteras iniciales, sicut et in cantu Antiphonarum, scilicet f, a et c, quarum
-        istud Euouae habet duas, scilicet a et c. Fit enim, quando Introitus quinti toni inchoatur
-        in a-lamire sicut patet in isto Introitu "Miserere mihi Domine," aut in c-solfaut, sicut
-        patet in isto Introitu "Ecce Deus," ut patet hic infra:</p>
+      <p xml:id="SZAMUS0336">Notandum autem, quod sicut dictum est, quintus tonus in cantu
+        officiorum habet tres litteras iniciales, sicut et in cantu Antiphonarum, scilicet f, a et
+        c, quarum istud Euouae habet duas, scilicet a et c. Fit enim, quando Introitus quinti toni
+        inchoatur in a-lamire sicut patet in isto Introitu "Miserere mihi Domine," aut in c-solfaut,
+        sicut patet in isto Introitu "Ecce Deus," ut patet hic infra:</p>
       <p xml:id="SZAMUS0337">Exemplum 98.</p>
       <p xml:id="SZAMUS0338">Et notandum, quod quintus tonus unam habet differentiam in cantu
         officiorum, quae talis est:</p>
@@ -1403,25 +1424,28 @@
         sicut patet in istis Introitibus qui sequuntur: "Laetare Iherusalem," "Loquebar de
         testimoniis tuis":</p>
       <p xml:id="SZAMUS0341">Exemplum 100.</p>
-      <p xml:id="SZAMUS0342">Et sic patet forma quinti toni tam in cantu Antiphonarum, quam officiorum.
-        Et tantum de quinto et cetera.</p>
-      <p xml:id="SZAMUS0343">Tertii toni plagalis, hoc est sexti toni dehinc forma praesentatur, qui cum
-        quinto tono eandem retinet sedem finalem, scilicet f-faut in linea. Et primo videndum est de
-        melodia psalmorum minorum, qui more antiquorum inchoantur in f-faut, ascendendo per tonum in
-        a-lamire tali forma:</p>
+      <p xml:id="SZAMUS0342">Et sic patet forma quinti toni tam in cantu Antiphonarum, quam
+        officiorum. Et tantum de quinto et cetera.</p>
+      <p xml:id="SZAMUS0343">Tertii toni plagalis, hoc est sexti toni dehinc forma praesentatur, qui
+        cum quinto tono eandem retinet sedem finalem, scilicet f-faut in linea. Et primo videndum
+        est de melodia psalmorum minorum, qui more antiquorum inchoantur in f-faut, ascendendo per
+        tonum in a-lamire tali forma:</p>
       <p xml:id="SZAMUS0344">Exemplum 101.</p>
-      <p xml:id="SZAMUS0345">Sed more modernorum psalmi minores sexti toni incipiendi sunt in a-lamire.
-        Ratio huius est, quia sextus tonus ibidem ponit tenorem suum, sive Euouae tali melodia:</p>
+      <p xml:id="SZAMUS0345">Sed more modernorum psalmi minores sexti toni incipiendi sunt in
+        a-lamire. Ratio huius est, quia sextus tonus ibidem ponit tenorem suum, sive Euouae tali
+        melodia:</p>
       <p xml:id="SZAMUS0346">Exemplum 102.</p>
-      <p xml:id="SZAMUS0347">[fol. 58a.] Deinde sequitur forma maiorum psalmorum, qui incipiendi sunt in
-        f-faut, per tonum ascendendo in a-lamire tali melodia:</p>
+      <p xml:id="SZAMUS0347">[fol. 58a.] Deinde sequitur forma maiorum psalmorum, qui incipiendi
+        sunt in f-faut, per tonum ascendendo in a-lamire tali melodia:</p>
       <p xml:id="SZAMUS0348">Exemplum 103.</p>
-      <p xml:id="SZAMUS0349">Deinde sequitur principale Euouae sexti toni in cantu Antiphonarum, et est
-        tale:</p>
+      <p xml:id="SZAMUS0349">Deinde sequitur principale Euouae sexti toni in cantu Antiphonarum, et
+        est tale:</p>
       <p xml:id="SZAMUS0350">Exemplum 104.</p>
-      <p xml:id="SZAMUS0351">Istud autem Euouae continet Antiphonas in f-faut inchoantes <pb n="[106]"/>et ab f-faut sive cadentes, sive surgentes. Cadentes, sicut "O admirabile commercium,"
-        surgentes, sicut "Conspicit in caelis." Et notandum, quod sextus tonus in cantu Antiphonarum
-        rarissime aliam litteram inicialem accipit, nisi f-faut, ut infra patet in exemplis:</p>
+      <p xml:id="SZAMUS0351">Istud autem Euouae continet Antiphonas in f-faut inchoantes <pb
+          n="[106]"/>et ab f-faut sive cadentes, sive surgentes. Cadentes, sicut "O admirabile
+        commercium," surgentes, sicut "Conspicit in caelis." Et notandum, quod sextus tonus in cantu
+        Antiphonarum rarissime aliam litteram inicialem accipit, nisi f-faut, ut infra patet in
+        exemplis:</p>
       <p xml:id="SZAMUS0352">Exemplum 105.</p>
       <p xml:id="SZAMUS0353">Item notandum, quod sextus tonus in cantu Antiphonarum secundum
         consuetudinem multarum ecclesiarum habet unam differentiam, quae talis est:</p>
@@ -1434,52 +1458,52 @@
       <p xml:id="SZAMUS0357">Deinde sequitur forma sive melodia super psalmos Introituum sexti toni,
         quae est talis:</p>
       <p xml:id="SZAMUS0358">Exemplum 108.</p>
-      <p xml:id="SZAMUS0359">Et notandum, quod ubicumque Introitus sexti toni incipit, semper sub isto
-        Euouae continetur, videlicet in istis Introitibus "Omnes gentes plaudite." Similiter "In
-        medio ecclesiae" etceteriis.</p>
+      <p xml:id="SZAMUS0359">Et notandum, quod ubicumque Introitus sexti toni incipit, semper sub
+        isto Euouae continetur, videlicet in istis Introitibus "Omnes gentes plaudite." Similiter
+        "In medio ecclesiae" etceteriis.</p>
       <p xml:id="SZAMUS0360">Et sciendum, quod sextus tonus in cantu officiorum nullam habet
         differentiam consuetam, sed unam habet inconsuetam, quae talis est:</p>
       <p xml:id="SZAMUS0361">Exemplum 109.</p>
-      <p xml:id="SZAMUS0362">Et haec differentia fit, quando Introitus sexti toni inchoatur in c-faut et
-        a c-faut leviter surgit, sicut patet in isto Introitu, qui sequitur [Fol. 58b.] "Quasi modo
-        geniti:"</p>
+      <p xml:id="SZAMUS0362">Et haec differentia fit, quando Introitus sexti toni inchoatur in
+        c-faut et a c-faut leviter surgit, sicut patet in isto Introitu, qui sequitur [Fol. 58b.]
+        "Quasi modo geniti:"</p>
       <p xml:id="SZAMUS0363">Exemplum 110. <figure>
           <graphic url="/images/SZAMUS_17GF.gif"/>
         </figure></p>
-      <p xml:id="SZAMUS0364">Sed ista differentia aput nos non est communis, ergo iste Introitus "Quasi
-        modo" continetur sub Euouae capitali, quia inceptio ipsius quasi in omnibus libris in d
-        solre habetur ut hic:</p>
+      <p xml:id="SZAMUS0364">Sed ista differentia aput nos non est communis, ergo iste Introitus
+        "Quasi modo" continetur sub Euouae capitali, quia inceptio ipsius quasi in omnibus libris in
+        d solre habetur ut hic:</p>
       <p xml:id="SZAMUS0365">Exemplum 111.</p>
       <p xml:id="SZAMUS0366">Deinde sequitur melodia super versus Responsoriorum sexti toni. Et
         sciendum, quod ubicumque Responsorium sexti toni incipit, versus suus semper in f-faut debet
         incipi et etiam terminari tali forma:</p>
       <p xml:id="SZAMUS0367">
         <pb n="[107]"/>Exemplum 112.</p>
-      <p xml:id="SZAMUS0368">Post ostensionem formarum trium tonorum autentorum et totidem plagalium,
-        consequenter ostenditur forma quarti toni et ultimi toni autenti, qui septimus tonus
-        nuncupatur, qui cum suo plagali, id est octavo tono sedem finalem in g-solreut retinent,
-        quocirca ostenditur forma psalmorum minorum septimi toni, qui more antiquorum in bfabmi sunt
-        inchoandi, per b durum ascendendo per semitonium tali forma, quae sequitur:</p>
+      <p xml:id="SZAMUS0368">Post ostensionem formarum trium tonorum autentorum et totidem
+        plagalium, consequenter ostenditur forma quarti toni et ultimi toni autenti, qui septimus
+        tonus nuncupatur, qui cum suo plagali, id est octavo tono sedem finalem in g-solreut
+        retinent, quocirca ostenditur forma psalmorum minorum septimi toni, qui more antiquorum in
+        bfabmi sunt inchoandi, per b durum ascendendo per semitonium tali forma, quae sequitur:</p>
       <p xml:id="SZAMUS0369">Exemplum 113.</p>
-      <p xml:id="SZAMUS0370">Sed more modernorum regulariter considerando psalmi minores in d-lasolre
-        sunt inchoandi. Ratio est, quia septimus tonus ibidem ponit tenorem sui Euouae, tali melodia
-        ut sequitur:</p>
+      <p xml:id="SZAMUS0370">Sed more modernorum regulariter considerando psalmi minores in
+        d-lasolre sunt inchoandi. Ratio est, quia septimus tonus ibidem ponit tenorem sui Euouae,
+        tali melodia ut sequitur:</p>
       <p xml:id="SZAMUS0371">Exemplum 114.</p>
       <p xml:id="SZAMUS0372">Deinde sequitur forma maiorum psalmorum, qui psalmi etiam dupliciter
         intonantur, videlicet more antiquorum et more modernorum. More antiquorum psalmi maiores
         incipiendi sunt in bfabmi per b durum ascendendo per semiditonum in d-lasolre tali
         melodia:</p>
       <p xml:id="SZAMUS0373">Exemplum 115.</p>
-      <p xml:id="SZAMUS0374">Sed more modernorum psalmi maiores regulariter intonandi sunt in d-lasolre,
-        ut iam ubilibet communis usus tenet ut sequitur:</p>
+      <p xml:id="SZAMUS0374">Sed more modernorum psalmi maiores regulariter intonandi sunt in
+        d-lasolre, ut iam ubilibet communis usus tenet ut sequitur:</p>
       <p xml:id="SZAMUS0375">[fol. 59a.]</p>
       <p xml:id="SZAMUS0376">Exemplum 116.</p>
       <p xml:id="SZAMUS0377">Deinde sequitur primum et principale Euouae septimi toni in cantu
         Antiphonarum et est tale:</p>
       <p xml:id="SZAMUS0378">Exemplum 117.</p>
-      <p xml:id="SZAMUS0379">Unde notandum est, quod septimus tonus habet quinque litteras iniciales,
-        scilicet g. a. b. c. d, quarum hoc primum Euouae continet duas, scilicet g et a, id est
-        g-solreut finale et a-lamire. Fit enim hoc, quando cantus septimi toni inchoatur in
+      <p xml:id="SZAMUS0379">Unde notandum est, quod septimus tonus habet quinque litteras
+        iniciales, scilicet g. a. b. c. d, quarum hoc primum Euouae continet duas, scilicet g et a,
+        id est g-solreut finale et a-lamire. Fit enim hoc, quando cantus septimi toni inchoatur in
         g-solreut et a g-solreut surgit per tonum sive per ditonum, sicut patet in hac Antiphona
         "Maria stabat", sive per dyatesseron, sicut patet in ista Antiphona "Vidit Iacob scalam",
         sive per dyapente punctatim ascendendo, sic videlicet, quod punctus sive nota inferior unam
@@ -1492,10 +1516,10 @@
       <p xml:id="SZAMUS0381">Notandum autem, quod septimus tonus in cantu Antiphonarum habet quatuor
         differentias, quarum prima est talis ut sequitur:</p>
       <p xml:id="SZAMUS0382">Exemplum 119.</p>
-      <p xml:id="SZAMUS0383">Haec differentia fit, quando cantus septimi toni inchoatur in g-solreut, et
-        a g-solreut surgit per dyapente in d-lasolre sub nota ligata et non punctatim, sicut patet
-        in ista Antiphona "Veterem hominem", sive etiam Antiphona faciat quandam morulam in
-        g-solreut et tandem ascendat sub nota ligata in d-lasolre, sicut patet in ista Antiphona
+      <p xml:id="SZAMUS0383">Haec differentia fit, quando cantus septimi toni inchoatur in
+        g-solreut, et a g-solreut surgit per dyapente in d-lasolre sub nota ligata et non punctatim,
+        sicut patet in ista Antiphona "Veterem hominem", sive etiam Antiphona faciat quandam morulam
+        in g-solreut et tandem ascendat sub nota ligata in d-lasolre, sicut patet in ista Antiphona
         "Gabriel angelus". Similiter "Baptista contremuit", ut patet in exemplis:</p>
       <p xml:id="SZAMUS0384">[fol. 59b.]</p>
       <p xml:id="SZAMUS0385">Exemplum 120.</p>
@@ -1506,8 +1530,8 @@
         sed surgens tantummodo sive gradatim, sive non, sicut patet in ista Antiphona "Stella ista",
         ut sequitur:</p>
       <p xml:id="SZAMUS0389">Exemplum 122.</p>
-      <p xml:id="SZAMUS0390">Deinde sequitur tertia differentia septimi toni in cantu Antiphonarum, quae
-        talis est:</p>
+      <p xml:id="SZAMUS0390">Deinde sequitur tertia differentia septimi toni in cantu Antiphonarum,
+        quae talis est:</p>
       <p xml:id="SZAMUS0391">Exemplum 123.</p>
       <p xml:id="SZAMUS0392">Haec autem differentia fit, quando cantus septimi toni inchoatur in
         d-lasolre, sicut patet in ista Antiphona "Angeli archangeli", "Tu es Petrus", "Sit
@@ -1534,8 +1558,8 @@
         officiorum, unde istud Euouae septimi toni continet omnes Introitus septimi toni, ubicumque
         inchoentur, ut "Puer natus est nobis", similiter "Populus Syon", similiter "Deus in
         adiutorium".</p>
-      <p xml:id="SZAMUS0404">Deinde quarti et ultimi plagalis, id est octavi sequitur forma, ubi primo
-        notandum, quod psalmi minores octavi toni secundum usum antiquorum inceptionem suae
+      <p xml:id="SZAMUS0404">Deinde quarti et ultimi plagalis, id est octavi sequitur forma, ubi
+        primo notandum, quod psalmi minores octavi toni secundum usum antiquorum inceptionem suae
         modulationis habent in g-solreut finali per ascensum in c-solfaut tali melodia. Et notandum,
         quod septimus et octavus tonus in g-solreut habent sedem finalem et cetera. Exemplum:</p>
       <p xml:id="SZAMUS0405">Exemplum 129.</p>
@@ -1548,46 +1572,46 @@
       <p xml:id="SZAMUS0410">Deinde sequitur primum et principale Euouae octavi toni in cantu
         Antiphonarum et est tale:</p>
       <p xml:id="SZAMUS0411">Exemplum 132.</p>
-      <p xml:id="SZAMUS0412">Notandum autem, quod octavus tonus tam in cantu Antiphonarum, quam in cantu
-        officiorum habet septem litteras iniciales, scilicet c. d. e. f. g. a. c. Harum litterarum
-        primum et principale Euouae habet tres, scilicet d. g finales et a acutum. Fit enim hoc
-        primum Euouae, quando cantus octavi toni inchoatur in d-solre, [fol 60b.] sicut patet in
-        ista Antiphona "Iherusalem gaude," aut in g-solre, ut patet in hac Antiphona "Beatus vir qui
-        suffert," aut in a-lamire, sicut patet in ista Antiphona "Completi sunt," ut hic habet
-        videri:</p>
+      <p xml:id="SZAMUS0412">Notandum autem, quod octavus tonus tam in cantu Antiphonarum, quam in
+        cantu officiorum habet septem litteras iniciales, scilicet c. d. e. f. g. a. c. Harum
+        litterarum primum et principale Euouae habet tres, scilicet d. g finales et a acutum. Fit
+        enim hoc primum Euouae, quando cantus octavi toni inchoatur in d-solre, [fol 60b.] sicut
+        patet in ista Antiphona "Iherusalem gaude," aut in g-solre, ut patet in hac Antiphona
+        "Beatus vir qui suffert," aut in a-lamire, sicut patet in ista Antiphona "Completi sunt," ut
+        hic habet videri:</p>
       <p xml:id="SZAMUS0413">Exemplum 133.</p>
       <p xml:id="SZAMUS0414">
         <pb n="[110]"/>Item notandum, quod octavus tonus in cantu Antiphonarum habet quatuor
         differentias, quarum prima est haec:</p>
       <p xml:id="SZAMUS0415">Exemplum 134.</p>
-      <p xml:id="SZAMUS0416">Haec differentia fit, quando cantus octavi toni inchoatur in e-lami, sicut
-        patet in ista Antiphona "Ecce nunc tempus acceptabile." Secundo, quando cantus octavi toni
-        inchoatur in f-faut, sicut patet in ista Antiphona "Iusti confitebuntur," similiter "Zachee
-        festinans descende" et cetera.</p>
+      <p xml:id="SZAMUS0416">Haec differentia fit, quando cantus octavi toni inchoatur in e-lami,
+        sicut patet in ista Antiphona "Ecce nunc tempus acceptabile." Secundo, quando cantus octavi
+        toni inchoatur in f-faut, sicut patet in ista Antiphona "Iusti confitebuntur," similiter
+        "Zachee festinans descende" et cetera.</p>
       <p xml:id="SZAMUS0417">Exemplum 135.</p>
       <p xml:id="SZAMUS0418">Deinde sequitur alia differentia, quae talis est:</p>
       <p xml:id="SZAMUS0419">Exemplum 136.</p>
-      <p xml:id="SZAMUS0420">Haec differentia fit, quando cantus octavi toni inchoatur in c-solfaut et a
-        c-solfaut non surgit, sed cadet leviter, sicut patet in ista Antiphona "In aeternum,"
+      <p xml:id="SZAMUS0420">Haec differentia fit, quando cantus octavi toni inchoatur in c-solfaut
+        et a c-solfaut non surgit, sed cadet leviter, sicut patet in ista Antiphona "In aeternum,"
         similiter in ista quae sequitur "Deo nostro iocunda sit laudatio":</p>
       <p xml:id="SZAMUS0421">Exemplum 137.</p>
       <p xml:id="SZAMUS0422">Deinde sequitur tertia differentia, quae est talis:</p>
       <p xml:id="SZAMUS0423">Exemplum 138.</p>
-      <p xml:id="SZAMUS0424">Haec differentia fit, quando cantus octavi toni inchoatur in c-solfaut, per
-        unisonum et a c-solfaut surgit per tonum, sicut patet in ista Antiphona "Zelus domus tuae,"
-        similiter hic ut sequitur "Factus est repente."</p>
+      <p xml:id="SZAMUS0424">Haec differentia fit, quando cantus octavi toni inchoatur in c-solfaut,
+        per unisonum et a c-solfaut surgit per tonum, sicut patet in ista Antiphona "Zelus domus
+        tuae," similiter hic ut sequitur "Factus est repente."</p>
       <p xml:id="SZAMUS0425">Exemplum 139.</p>
-      <p xml:id="SZAMUS0426">Et quidam dicunt istam differentiam a c-solfaut continere antiphonas, per
-        semitonium remissas, sed mox [fol. 61a.] c-solfaut reverberantes, dehinc d-lasolre
+      <p xml:id="SZAMUS0426">Et quidam dicunt istam differentiam a c-solfaut continere antiphonas,
+        per semitonium remissas, sed mox [fol. 61a.] c-solfaut reverberantes, dehinc d-lasolre
         tangentes, sicut patet in ista Antiphona "Veniet fortior me post me."</p>
       <p xml:id="SZAMUS0427">Exemplum 140.</p>
       <p xml:id="SZAMUS0428">Deinde sequitur ultima differentia, quae differentia tonus peregrinus
         nuncupatur. Et canitur ut communiter ? in festivitatibus paschalibus super illum psalmum "In
         exitu Israel" et est talis:</p>
       <p xml:id="SZAMUS0429">Exemplum 141.</p>
-      <p xml:id="SZAMUS0430">Et haec differentia potest committi, quando Antiphona octavi toni incipit
-        in c gravi gradatim ascendendo, ut in hac Antiphona "Nos qui vivimus," aut in d finali
-        gradatim descendendo, ut in ista Antiphona "Angeli domini":</p>
+      <p xml:id="SZAMUS0430">Et haec differentia potest committi, quando Antiphona octavi toni
+        incipit in c gravi gradatim ascendendo, ut in hac Antiphona "Nos qui vivimus," aut in d
+        finali gradatim descendendo, ut in ista Antiphona "Angeli domini":</p>
       <p xml:id="SZAMUS0431">Exemplum 142.</p>
       <p xml:id="SZAMUS0432">
         <pb n="[111]"/>Notandum autem, quod de inventione istius toni peregrini fabulose memoratur,
@@ -1597,32 +1621,32 @@
         immemor, sub forma non in acutis, sed in voce gravi in a-lamire incipientis ? sic
         tubavit:</p>
       <p xml:id="SZAMUS0433">Exemplum 143.</p>
-      <p xml:id="SZAMUS0434">Deinde sequitur forma sive melodia versuum Responsoriorum octavi toni et
-        est talis:</p>
+      <p xml:id="SZAMUS0434">Deinde sequitur forma sive melodia versuum Responsoriorum octavi toni
+        et est talis:</p>
       <p xml:id="SZAMUS0435">Exemplum 144. <figure>
           <graphic url="/images/SZAMUS_19GF.gif"/>
         </figure></p>
-      <p xml:id="SZAMUS0436">Deinde sequitur forma sive melodia super psalmos Introituum, quae talis est
-        ut sequitur:</p>
+      <p xml:id="SZAMUS0436">Deinde sequitur forma sive melodia super psalmos Introituum, quae talis
+        est ut sequitur:</p>
       <p xml:id="SZAMUS0437">Exemplum 145.</p>
       <p xml:id="SZAMUS0438">[fol. 61b.] Istud est principale Euouae Introituum octavi toni. Et
         sciendum, quod octavus tonus in cantu Introituum habet unam differentiam tantum, quae est
         talis:</p>
       <p xml:id="SZAMUS0439">Exemplum 146.</p>
-      <p xml:id="SZAMUS0440">Et ista differentia habet duas litteras iniciales, scilicet d et g finales.
-        Fit enim ista differentia, quando Introitus octavi toni inchoatur in d-solre, sicut patet in
-        isto Introitu "Lux fulgebit," similiter "Spiritus Domini," aut quando Introitus octavi toni
-        inchoatur in g-solreut et dehinc per dyatesseron cadit in d-solre, sicut patet in isto
-        Introitu "Ad le levavi:"</p>
+      <p xml:id="SZAMUS0440">Et ista differentia habet duas litteras iniciales, scilicet d et g
+        finales. Fit enim ista differentia, quando Introitus octavi toni inchoatur in d-solre, sicut
+        patet in isto Introitu "Lux fulgebit," similiter "Spiritus Domini," aut quando Introitus
+        octavi toni inchoatur in g-solreut et dehinc per dyatesseron cadit in d-solre, sicut patet
+        in isto Introitu "Ad le levavi:"</p>
       <p xml:id="SZAMUS0441">Exemplum 147.</p>
-      <p xml:id="SZAMUS0442">Sed Introitus octavi toni alibi et aliter inchoantes continentur sub Euouae
-        capitali. Dupliciter notantur aliter inchoantes, quia Introitus octavi toni in g-solreut
-        inchoantes et non cadentes per dyatesseron in d-solre continentur sub Euouae capitali, ut
-        patet in isto Introitu "Deus in adiutorium." Exemplum de hiis:</p>
+      <p xml:id="SZAMUS0442">Sed Introitus octavi toni alibi et aliter inchoantes continentur sub
+        Euouae capitali. Dupliciter notantur aliter inchoantes, quia Introitus octavi toni in
+        g-solreut inchoantes et non cadentes per dyatesseron in d-solre continentur sub Euouae
+        capitali, ut patet in isto Introitu "Deus in adiutorium." Exemplum de hiis:</p>
       <p xml:id="SZAMUS0443">Exemplum 148.</p>
-      <p xml:id="SZAMUS0444">Item de cursu tonorum est sciendum, quod sicut omnium rerum actio tendit ad
-        finem, a quo denominatur denotatur, sic omnium cantionum modulatio aliquam recepit clavem
-        finalem. Sunt autem 4 claves finales propriae omnium tonorum, in quibus omnis cantus
+      <p xml:id="SZAMUS0444">Item de cursu tonorum est sciendum, quod sicut omnium rerum actio
+        tendit ad finem, a quo denominatur denotatur, sic omnium cantionum modulatio aliquam recepit
+        clavem finalem. Sunt autem 4 claves finales propriae omnium tonorum, in quibus omnis cantus
         regulariter formatus debet terminari, videlicet d.e.f. et g finales, de quibus etiam dictum
         est in praecedentibus iuxta <pb n="[112]"/>tonorum declarationem. Unde notandum, quod primus
         tonus et secundus in d-solre habent sedem finalem proprie, sed improprie pausant aliquando
@@ -1635,10 +1659,10 @@
         improprie aliquando pausant in d-lasolre. Versus. Septimus in g cadit, octavus iungitur
         illi.--Nam de principiis tonorum sive litteris inicialibus cuiuslibet toni in suo loco satis
         est declaratum, quare de illo supersedeo ad praesens causa brevitatis.</p>
-      <p xml:id="SZAMUS0445">Quibus sic habitis et positis propter melioris memoriae impressionem est
-        sciendum, quod primus, quartus et sextus tonus suum Euouae incipiunt in a-lamire. Versus.
-        Primus cum quarto, sexto simul inchoat ex a.--Tertius autem, quintus et octavus suum Euouae
-        incipiunt in c-solfaut. Versus. Tertius et quintus, octavus incipit in c.-- Sed solus
+      <p xml:id="SZAMUS0445">Quibus sic habitis et positis propter melioris memoriae impressionem
+        est sciendum, quod primus, quartus et sextus tonus suum Euouae incipiunt in a-lamire.
+        Versus. Primus cum quarto, sexto simul inchoat ex a.--Tertius autem, quintus et octavus suum
+        Euouae incipiunt in c-solfaut. Versus. Tertius et quintus, octavus incipit in c.-- Sed solus
         secundus tonus incipit suum Euouae in f-faut, et septimus tonus ponit principium sui Euouae
         in d-lasolre. Versus. F-que secundum habet in, septimus altior istis.--Et harum regularum
         veritas stabit, dummodo isti toni in sedibus principalibus terminantur, propter quod
@@ -1648,8 +1672,8 @@
         a-lamire. Sed primus tonus in sede ministrali terminatur in a-lamire et sic tunc ponit suum
         Euouae in dyapente [fol. 62b.] supernorum ?, videlicet in e-lami acuto. Et eodemmodo de
         omnibus aliis tonis est videndum et cetera.</p>
-      <p xml:id="SZAMUS0446">Et incidit non frustra de inceptione Antiphonarum interserendum, quae ante
-        psalmos incipiuntur et quandoque partim cantantar, sicut in diebus ferialibus et festis
+      <p xml:id="SZAMUS0446">Et incidit non frustra de inceptione Antiphonarum interserendum, quae
+        ante psalmos incipiuntur et quandoque partim cantantar, sicut in diebus ferialibus et festis
         simplicibus, quandoque vero incipiendo ante psalmos integraliter terminantur, sicut in
         magnis festivitatibus, unde sciendum, quod horae canonicae sive legantur submissa voce, sive
         canantur voce solenni, Antiphona ante psalmos semper debet prius inchoari propter latens dei
@@ -1658,16 +1682,16 @@
         quia talis praeinceptio <pb n="[113]"/>Antiphonae solummodo fit, ut intonantia psalmi
         facilius habeatur, propter quod dicunt, quod talis praeinceptio Antiphonarum solummodo locum
         habet, quando horae canonicae cantantur voce solenni in choro.</p>
-      <p xml:id="SZAMUS0447">Quibus est respondendum, quod talis praeinceptio Antiphonarum non solum fit
-        propter psalmorum intonantiam, quia sic nullum misterium ibi lateret, quod non est
+      <p xml:id="SZAMUS0447">Quibus est respondendum, quod talis praeinceptio Antiphonarum non solum
+        fit propter psalmorum intonantiam, quia sic nullum misterium ibi lateret, quod non est
         verisimile, cum nil sit ordinatum in ecclesia Dei, quin aliquid misterium ibi lateret, prout
         patet per Wilhelmum in Rationali de divinis officiis, unde si talis praeinceptio
         Antiphonarum solummodo fieret propter psalmorum intonantiam, ex hinc duo sequerentur
         incommoda.</p>
-      <p xml:id="SZAMUS0448">Primum esset id, quod tunc superflue in magnis solennitatibus Antiphonae
-        ante psalmos totaliter integrarentur. Ex quo secunda praeinceptio sufficeret pro psalmorum
-        intonantia, prout sic fit diebus simplicibus. Secundum autem esset id, quod maturi viri
-        choratores Antiphonas ante psalmos in ecclesiis kathedralibus incipiendo confusi
+      <p xml:id="SZAMUS0448">Primum esset id, quod tunc superflue in magnis solennitatibus
+        Antiphonae ante psalmos totaliter integrarentur. Ex quo secunda praeinceptio sufficeret pro
+        psalmorum intonantia, prout sic fit diebus simplicibus. Secundum autem esset id, quod maturi
+        viri choratores Antiphonas ante psalmos in ecclesiis kathedralibus incipiendo confusi
         redderentur, quia posset eis rationabiliter obiiciendo sic dici: vos ydeotae in principiis
         sacerdotalibus ignari non potestis incipiendo psalmum debite intonare, nisi prius per
         inceptionem Antiphonae vobis ipse tonus praesignetur, quod videtur proculdubio esse absurdum
@@ -1688,25 +1712,26 @@
         cum apparuerit <pb n="[114]"/>gloria tua", unde versificatores: Antiphonae prius inceptae
         plene recitantur. Post psalmum dilectio Christi sancta vocatur. Incipit in medio, quae post
         plenissime datur.--</p>
-      <p xml:id="SZAMUS0450">Sed Antiphonarum integratio ante psalmos in magnis festivitatibus maiorem
-        praegustationem perfectae charitatis futurae patriae reportat, cum in talibus solennitatibus
-        omnis contemplatio et devotio debet augmentari. Vel ista praeinceptio Antiphonarum
-        repraesentare potest ea, quae in Veteri Testamento Judeis promittebantur bona temporalia
-        terrae repromissionis, quae omnino transitoria fuerunt. Et integralis Antiphonarum resumptio
-        post psalmos potest repraesentare vitam aeternam patriae nobis promissum promissam in
-        tempore gratiae, id est in Novo Testamento. Versus. Ut vetus abscisa ? spopondit praemia
-        tantum. Quaeque triumphante Christo cum plebe donantur. Sic prius Antiphonae scinduntur,
-        post replebuntur.--</p>
-      <p xml:id="SZAMUS0451">Item sciendum, quod nec est necesse [fol. 63b.] in praeinceptione maioris
-        Antiphonae, ut cantetur ipsa Antiphona ad plenam distinctionem, ex quo ipsa praeinceptio
-        Antiphonae repraesentat solam praegustationem, id est morsellum minimum gaudii caelestis,
-        sed quo ad praeinceptionem Antiphonae sufficit una dictio vel duae iuxta intonantis
-        voluntatem. Et sciendum, quod cantus repraesentat gaudium futurae patriae, per orationem
-        vero illud rogamus. Versus. Gaudia neuma notat vocat, oratio poscit et illud. Quod nos
-        incipimus, caelestis compleat autor.--Quare sequitur, quod horae canonicae sive cantentur,
-        sive submissa voce legantur. Antiphona semper debet prius incipi et intonari et cetera.</p>
-      <p xml:id="SZAMUS0452">Et sic est finis per Ladislaum de Zalka, quia exemplar non habuit ultra. In
-        Pathak sub Johannis baccalaurei practica 1490.</p>
+      <p xml:id="SZAMUS0450">Sed Antiphonarum integratio ante psalmos in magnis festivitatibus
+        maiorem praegustationem perfectae charitatis futurae patriae reportat, cum in talibus
+        solennitatibus omnis contemplatio et devotio debet augmentari. Vel ista praeinceptio
+        Antiphonarum repraesentare potest ea, quae in Veteri Testamento Judeis promittebantur bona
+        temporalia terrae repromissionis, quae omnino transitoria fuerunt. Et integralis
+        Antiphonarum resumptio post psalmos potest repraesentare vitam aeternam patriae nobis
+        promissum promissam in tempore gratiae, id est in Novo Testamento. Versus. Ut vetus abscisa
+        ? spopondit praemia tantum. Quaeque triumphante Christo cum plebe donantur. Sic prius
+        Antiphonae scinduntur, post replebuntur.--</p>
+      <p xml:id="SZAMUS0451">Item sciendum, quod nec est necesse [fol. 63b.] in praeinceptione
+        maioris Antiphonae, ut cantetur ipsa Antiphona ad plenam distinctionem, ex quo ipsa
+        praeinceptio Antiphonae repraesentat solam praegustationem, id est morsellum minimum gaudii
+        caelestis, sed quo ad praeinceptionem Antiphonae sufficit una dictio vel duae iuxta
+        intonantis voluntatem. Et sciendum, quod cantus repraesentat gaudium futurae patriae, per
+        orationem vero illud rogamus. Versus. Gaudia neuma notat vocat, oratio poscit et illud. Quod
+        nos incipimus, caelestis compleat autor.--Quare sequitur, quod horae canonicae sive
+        cantentur, sive submissa voce legantur. Antiphona semper debet prius incipi et intonari et
+        cetera.</p>
+      <p xml:id="SZAMUS0452">Et sic est finis per Ladislaum de Zalka, quia exemplar non habuit
+        ultra. In Pathak sub Johannis baccalaurei practica 1490.</p>
       <p xml:id="SZAMUS0453">Cum sol giro lucis patiebatur eclipsim</p>
       <p xml:id="SZAMUS0454">Annorum, cui nomen dono Jovis erat</p>
       <p xml:id="SZAMUS0455">Recte Mathias, dumque Polonos instar acervis</p>

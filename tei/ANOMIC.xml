@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>[Tractatus de musica]</title>
         <title type="abbrev">ANOMIC</title>
-        <author>Anonymous</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Renate Federhofer-Königs, "Ein anonymer Musiktraktat aus der 2. Hälfte
           des 14. Jahrhunderts in der Stiftsbibliothek Michaelbeuern/Salzburg,"
@@ -109,9 +119,9 @@
         octavus unico loco finiuntur, scilicet in G gravi. Septimus authenticus tonus ascendit ad
         acutum g et descendit usque D grave. Octavus plagalis ascendit usque [ad c acutum] et
         descendit ad C grave vel ad [[sqb]] quadra[at]um.</p>
-      <p xml:id="ANOMIC0007">Cum musica sit scientia veraciter canendi et facilis via canendi ad illius
-        perfectionem, quia grammaticus omnes litteras ostendit primum et ea, et, si musicus omnes
-        cantilenas et voces per litteras planare denumerat, quoque per ordinem denumerat. Ita
+      <p xml:id="ANOMIC0007">Cum musica sit scientia veraciter canendi et facilis via canendi ad
+        illius perfectionem, quia grammaticus omnes litteras ostendit primum et ea, et, si musicus
+        omnes cantilenas et voces per litteras planare denumerat, quoque per ordinem denumerat. Ita
         [Gamma] graecum et prima ex A, secunda B, tertia C, quarta D, quinta E, sexta F, septima G,
         octavo [sic!] a, nono [sic!] b rotundum, decima [sqb] quadratum, undecima c, duodecima d,
         decima tertia e, decima quarta f, decima quinta g, decima sexta aa, decima septima bb,
@@ -124,38 +134,38 @@
         autem duplicantur. Nam erit E grave et e acutum, similiter F grave et f acutum; eodem modo
         rotundum b et [bb] rotundum duplicatum et sic tantum tres dupliciter. Versus:</p>
       <p xml:id="ANOMIC0008">Sunt quini terni, sed terni semper nisi bini.</p>
-      <p xml:id="ANOMIC0009">G, A, B, C, D triplicatae, sed e, b, f sunt duplicatae. Concorditer igitur
-        tali modo recipitur Gamma numerando ad D grave, et erit optima concordantia, quae dicitur
-        dyapente. Numeratur ultra ad G, videlicet grave, habetur statim triplex concordantia,
-        scilicet prima de Gamma ad D grave, ut iam dictum est, secundo D grave ad G grave erit
-        dyatessaron; de primo ad ultimum erit dyapason et caetera, erit dyapente, dyatessaron,
-        dyapason et caetera. Et cum reliquis erit faciendum, quamcumque autem eodem tot erunt
-        dyapasa, ut scilicet D-g-d, a-aa, b-bb. Hic facit dyapason et sic habentur ultra.</p>
-      <p xml:id="ANOMIC0010">Restat nunc de modis seu de formis musicae videre unicis. Sciendum enim,
-        quod novem sunt modi seu formae, cum quibus omnis textus contexitur; et componitur primus ex
-        unisonis. Sic habet fieri ex uno plurium notarum [fol. 149ra] in linea <pb n="[48]"/>vel in
-        spatio et dicitur unisonus quasi unus sonus. Secundus modus est semitonus et hic constat ex
-        fa et mi in fa-mi et eiusmodi. Dicitur autem semitonus a semis, quod est dimidium, et tonus,
-        quasi dimidius tonus. Tertius modus est tonus et hic [habet] fieri [inter] voces regulares
-        duas proximas, cum habet se in ascensum aut descensum, ut: la-sol, sol-la, sol-fa, fa-sol.
-        Semiditonus est quartus et habet fieri, quando aliquis ascensus vel descensus fit tribus
-        notis incluso semitonum vel dicendo sic re-fa, fa-re. Et dicitur semiditonus a semis, quod
-        est dimidium, et ditonus, tonus quasi dimidius tonus. Quintus modus est ditonus et habet
-        fieri ex duobus tonis inclusa tantum una littera, hoc est unam persaltando ut dicendo fa-la,
-        la-fa. Sextus modus est dyatessaron et habet fieri, quando ascensus vel descensus fit vel
-        quando nota dirigitur ad aliam. Et dicitur a dya, quod est duo, et tessaron, quatuor, quasi
-        de quarta ad quartam. Septimus est dyapente et habet fieri, quando aliquis ascensus vel
-        descensus fit de quinta nota in quintam. Et est dulcissima concordantia. Et dicitur a dya,
-        quod est duo, et penta, quod est quinque, quasi de quinta ad quintam. Octavus est semitonius
-        [sic!] cum dyapente et habet fieri, quando aliquis ascensus vel descensus fit de sexta nota
-        ad sextam incluso tantum semitonio, [sic!] [fol. 149rb] ut de c acuto in E gravi per
-        descensum. Et dicitur a semis, quod est dimidium, et tonus, quasi dimidius tonus cum
-        dyapente, de sexta nota ad sextam. Nonus modus est tonus cum dyapente et fit de sexta ad
-        sextam [tam] in ascensu quam descensu, ut de C gravi in a acutum. Et dicitur a tonando, et
-        hoc est de vero tono cum dyapente. Hoc est tali concordantia. Ad illos modos iam dictos
-        additur unus, qui dyapason dicitur. Et hic est ex concordantia earumdem litterarum in
-        ascensu et descensu ab octavo numerando, ut ab A gravi in a acutum et caetera de singulis.
-        Et dicitur a dya, quod est duo, et pason, octo, quasi de octava ad octavam.</p>
+      <p xml:id="ANOMIC0009">G, A, B, C, D triplicatae, sed e, b, f sunt duplicatae. Concorditer
+        igitur tali modo recipitur Gamma numerando ad D grave, et erit optima concordantia, quae
+        dicitur dyapente. Numeratur ultra ad G, videlicet grave, habetur statim triplex
+        concordantia, scilicet prima de Gamma ad D grave, ut iam dictum est, secundo D grave ad G
+        grave erit dyatessaron; de primo ad ultimum erit dyapason et caetera, erit dyapente,
+        dyatessaron, dyapason et caetera. Et cum reliquis erit faciendum, quamcumque autem eodem tot
+        erunt dyapasa, ut scilicet D-g-d, a-aa, b-bb. Hic facit dyapason et sic habentur ultra.</p>
+      <p xml:id="ANOMIC0010">Restat nunc de modis seu de formis musicae videre unicis. Sciendum
+        enim, quod novem sunt modi seu formae, cum quibus omnis textus contexitur; et componitur
+        primus ex unisonis. Sic habet fieri ex uno plurium notarum [fol. 149ra] in linea <pb
+          n="[48]"/>vel in spatio et dicitur unisonus quasi unus sonus. Secundus modus est semitonus
+        et hic constat ex fa et mi in fa-mi et eiusmodi. Dicitur autem semitonus a semis, quod est
+        dimidium, et tonus, quasi dimidius tonus. Tertius modus est tonus et hic [habet] fieri
+        [inter] voces regulares duas proximas, cum habet se in ascensum aut descensum, ut: la-sol,
+        sol-la, sol-fa, fa-sol. Semiditonus est quartus et habet fieri, quando aliquis ascensus vel
+        descensus fit tribus notis incluso semitonum vel dicendo sic re-fa, fa-re. Et dicitur
+        semiditonus a semis, quod est dimidium, et ditonus, tonus quasi dimidius tonus. Quintus
+        modus est ditonus et habet fieri ex duobus tonis inclusa tantum una littera, hoc est unam
+        persaltando ut dicendo fa-la, la-fa. Sextus modus est dyatessaron et habet fieri, quando
+        ascensus vel descensus fit vel quando nota dirigitur ad aliam. Et dicitur a dya, quod est
+        duo, et tessaron, quatuor, quasi de quarta ad quartam. Septimus est dyapente et habet fieri,
+        quando aliquis ascensus vel descensus fit de quinta nota in quintam. Et est dulcissima
+        concordantia. Et dicitur a dya, quod est duo, et penta, quod est quinque, quasi de quinta ad
+        quintam. Octavus est semitonius [sic!] cum dyapente et habet fieri, quando aliquis ascensus
+        vel descensus fit de sexta nota ad sextam incluso tantum semitonio, [sic!] [fol. 149rb] ut
+        de c acuto in E gravi per descensum. Et dicitur a semis, quod est dimidium, et tonus, quasi
+        dimidius tonus cum dyapente, de sexta nota ad sextam. Nonus modus est tonus cum dyapente et
+        fit de sexta ad sextam [tam] in ascensu quam descensu, ut de C gravi in a acutum. Et dicitur
+        a tonando, et hoc est de vero tono cum dyapente. Hoc est tali concordantia. Ad illos modos
+        iam dictos additur unus, qui dyapason dicitur. Et hic est ex concordantia earumdem
+        litterarum in ascensu et descensu ab octavo numerando, ut ab A gravi in a acutum et caetera
+        de singulis. Et dicitur a dya, quod est duo, et pason, octo, quasi de octava ad octavam.</p>
       <p xml:id="ANOMIC0011">Explicit musica</p>
       <p xml:id="ANOMIC0012">Nota triplex est proportio: prima naturalis, secunda naturalior, tertia
         naturalissima vel sic: prima suavis, secunda suavior, tertia suavissima. Naturalis est sicut
@@ -163,20 +173,20 @@
         sic: dyapason est sic quaedam proportio, habitudo intrinsecus, per expressionem prolatam
         ipsius animae delectabilis, dulcedorum dissonantium duorum vel plurium sonorum, in unum
         permixtorum, [ad] aurem pervenientium aspera, iucunda percussio.</p>
-      <p xml:id="ANOMIC0013">Notandum, quia ipse musicus considerat litteras, dum ipse grammaticus habet
-        considerare; dicit, quod ipse grammaticus considerat litteras in principi[o?]. Sunt electi
-        si litterarum seu dictionum. Sed musicus considerat eas [quasi] ratione uniformes. [fol.
-        149va] Quare dicuntur figurae graves? Prout figura vocum; nam sicut aliquid ponderosum
+      <p xml:id="ANOMIC0013">Notandum, quia ipse musicus considerat litteras, dum ipse grammaticus
+        habet considerare; dicit, quod ipse grammaticus considerat litteras in principi[o?]. Sunt
+        electi si litterarum seu dictionum. Sed musicus considerat eas [quasi] ratione uniformes.
+        [fol. 149va] Quare dicuntur figurae graves? Prout figura vocum; nam sicut aliquid ponderosum
         tendit deorsum ratione alicuius rei levis, similiter istae litterae dicuntur graves ratione
         aliquarum litterarum per depressionem et ab hoc sunt locatae in infimo loco pro radice et
         origine aliarum vocum super eas proportionatarum [?].</p>
-      <p xml:id="ANOMIC0014">Quare dicuntur duplicatae? Propter duas rationes: prima est, quod litterae
-        debent duplicari, secunda est per duplicationem soni. Circa illud considera, quod b est
-        duplicatum et figura ita, quod figura potest duplici figura propter diversas [?] voces in ea
-        cantas, quod b est rotundum, et est illud b. Secundum est [sqb] quadratum et sicut figura
-        quadriangulis. Primu autem b rotundum non obtinet locum, sed secundum [sqb] quadratum in
-        litteris obtinet acutis et superacutis. Ambo obtinent unum locum cum diversis vocibus. Ars
-        non negat b rotundum locari in gravibus et dicuntur graves.</p>
+      <p xml:id="ANOMIC0014">Quare dicuntur duplicatae? Propter duas rationes: prima est, quod
+        litterae debent duplicari, secunda est per duplicationem soni. Circa illud considera, quod b
+        est duplicatum et figura ita, quod figura potest duplici figura propter diversas [?] voces
+        in ea cantas, quod b est rotundum, et est illud b. Secundum est [sqb] quadratum et sicut
+        figura quadriangulis. Primu autem b rotundum non obtinet locum, sed secundum [sqb] quadratum
+        in litteris obtinet acutis et superacutis. Ambo obtinent unum locum cum diversis vocibus.
+        Ars non negat b rotundum locari in gravibus et dicuntur graves.</p>
       <p xml:id="ANOMIC0015">
         <pb n="[49]"/>Quare non ponitur G in principio gravium litterarum? Ac cum in practica
         peritorum ponitur in principio. Dicendum est, quod non est de ordine litterarum aliarum, sed
@@ -187,8 +197,8 @@
         ut dictum est -- duo ex litteris; acutis et superacutis simili modo enim idem est modus.
         Cantatur puta dyapason et duplicatur iste modus ut quidam inferius cum suo superiori et tunc
         vocatur haec consonantia bis dyapason.</p>
-      <p xml:id="ANOMIC0016">Nota tonum finiri in suo termino potest intellegi dupliciter: primo, cum
-        tonus finitur cum scientia potentissima ac perfecto [fol. 149vb] termino. Secundo, tonum
+      <p xml:id="ANOMIC0016">Nota tonum finiri in suo termino potest intellegi dupliciter: primo,
+        cum tonus finitur cum scientia potentissima ac perfecto [fol. 149vb] termino. Secundo, tonum
         finiri ut in dyapente vel in dyapason litterarum praedictarum. Primo servatur, quod
         rationabiliter in litteris gravibus praedictis omnes toni finiantur. Secundo, ut in dyapason
         vel in dyapente finiantur multoties reperitur. Sed totaliter est contra musicos attestante

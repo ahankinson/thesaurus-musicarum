@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>[Musica]</title>
         <title type="abbrev">ANO4MUS</title>
-        <author>Anonymous 4</author>
-        <date notBefore="1200" notAfter="1299">13th</date>
+        <author><persName>Anonymous 4</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Fritz Reckow, <emph>Der Musiktraktat des Anonymus 4</emph>, 2 vols.,
           Beihefte zum Archiv für Musikwissenschaft, vols. 4-5 (Wiesbaden: Steiner, 1967), 1:22–89.
@@ -48,8 +58,8 @@
       <p xml:id="ANO4MUS0001">
         <pb n="[22]"/>Capitulum primum</p>
       <p xml:id="ANO4MUS0002">Pars prima</p>
-      <p xml:id="ANO4MUS0003">(A 59r, C 56v) Cognita modulatione melorum secundum viam octo troporum et
-        secundum usum et consuetudinem fidei catholicae nunc habendum est de mensuris eorundem
+      <p xml:id="ANO4MUS0003">(A 59r, C 56v) Cognita modulatione melorum secundum viam octo troporum
+        et secundum usum et consuetudinem fidei catholicae nunc habendum est de mensuris eorundem
         secundum longitudinem et brevitatem, prout antiqui tractaverunt, ut magister Leo et alii
         plurimi plenius iuxta ordines et colores eorundem ordinaverunt sic procedendo: modus vel
         maneries vel temporis (B 215r) consideratio est cognitio longitudinis et brevitatis meli
@@ -58,16 +68,17 @@
         ex longa et duabus brevibus, longa et duabus brevibus et cetera. Quartus constat ex duabus
         brevibus et longa, ex duabus brevibus et longa et cetera. Quintus ex longa, longa, longa et
         cetera. Sextus ex brevi, brevi, brevi et cetera.</p>
-      <p xml:id="ANO4MUS0004">Primus modus si adiungatur aliis vel sibi ipsi, sic sunt quinque et unus.
-        Iterato secundus cum aliis et se ipso, sic sunt alii quinque et unus. Iterato tertius cum
-        aliis et se ipso, sic sunt alii quinque et unus. Iterato quartus cum aliis et se ipso, sic
-        sunt alii quinque cum uno. Iterato quintus cum aliis et se ipso, sic sunt alii quinque cum
-        uno. Iterato sextus cum aliis et se ipso, sic sunt alii quinque et unus. Et sic non sunt
+      <p xml:id="ANO4MUS0004">Primus modus si adiungatur aliis vel sibi ipsi, sic sunt quinque et
+        unus. Iterato secundus cum aliis et se ipso, sic sunt alii quinque et unus. Iterato tertius
+        cum aliis et se ipso, sic sunt alii quinque et unus. Iterato quartus cum aliis et se ipso,
+        sic sunt alii quinque cum uno. Iterato quintus cum aliis et se ipso, sic sunt alii quinque
+        cum uno. Iterato sextus cum aliis et se ipso, sic sunt alii quinque et unus. Et sic non sunt
         plures nisi triginta admixtiones secundum diversitatem et sex cum se ipso; et sic sunt
         triginta sex in universo. Et nota, quod quandoque fiunt admixtiones mediante pausatione,
         quandoque sine, quod videtur esse et non esse.</p>
       <p xml:id="ANO4MUS0005">Iterato sunt et alii modi, prout modi supradicti frangunt brevem vel
-        breves in duas, tres vel quatuor et cetera, prout in instrumentis; sic etiam <pb n="[23]"/>dicimus de longis eorundem et cetera. De quibus fractionibus colligimus plures
+        breves in duas, tres vel quatuor et cetera, prout in instrumentis; sic etiam <pb n="[23]"
+        />dicimus de longis eorundem et cetera. De quibus fractionibus colligimus plures
         diversitates modorum, ut in (C 57r) posteris plenius patebit. Iterato sunt et alii modi, qui
         dicuntur modi inusitati, quasi irregulares, quamvis non sint, ut in partibus Angliae et
         alibi, cum dicunt longa longa brevis, longa longa brevis. Et sunt plures tales, ut inferius
@@ -78,13 +89,13 @@
         non minimo, non maximo, sed medio legittimo breviter sumpto, quod possit frangi veloci motu
         in duobus, in tribus vel quatuor ad plus in voce humana, quamvis in instrumentis possit
         aliter fieri.</p>
-      <p xml:id="ANO4MUS0007">Ordo modi est numerus punctorum ante pausationem; qui quidem ordo sumitur
-        a suo principio ordinato. Ordinatio principii primi aliorum modorum est ordinatio punctorum
-        vel sonorum melorum, quae sine pausatione sumpta sub certo ordine sonorum iunctorum figuris
-        troporum plenius iungantur. Quae quidem ordinatio fit ab aliquo tropo certo tamquam pro
-        radice sumpto, ut in antiphonario et gradali et cetera, secundum quod antecessores plenius
-        in libris sanctae matris ecclesiae continentur ac etiam alibi secundum universaliorem viam,
-        prout modulatores secundum diversas partes plenius utuntur.</p>
+      <p xml:id="ANO4MUS0007">Ordo modi est numerus punctorum ante pausationem; qui quidem ordo
+        sumitur a suo principio ordinato. Ordinatio principii primi aliorum modorum est ordinatio
+        punctorum vel sonorum melorum, quae sine pausatione sumpta sub certo ordine sonorum
+        iunctorum figuris troporum plenius iungantur. Quae quidem ordinatio fit ab aliquo tropo
+        certo tamquam pro radice sumpto, ut in antiphonario et gradali et cetera, secundum quod
+        antecessores plenius in libris sanctae matris ecclesiae continentur ac etiam alibi secundum
+        universaliorem viam, prout modulatores secundum diversas partes plenius utuntur.</p>
       <p xml:id="ANO4MUS0008">Modorum alius perfectus alius imperfectus. Perfectus dicitur, quando
         terminatur per eandem quantitatem, qua incipit. Imperfectus vero dicitur, quando per aliam
         terminatur quam per illam, in qua incipit. Et <pb n="[24]"/>numerus perfectionis et
@@ -99,24 +110,24 @@
         una secundum sonos et melos, altera est secundum puncta materialia, prout scribuntur in
         libris nobis competentibus vel convenientibus et cetera, prout in secundo capitulo plenius
         demonstratur.</p>
-      <p xml:id="ANO4MUS0010">Primus ordo primi perfecti est trium punctorum cum una brevi pausatione et
-        trium punctorum cum pausatione brevi et trium punctorum cum pausatione brevi et cetera.
-        Secundus ordo vero procedit per quinque, quinque ante pausationem semper ita, quod
-        distinguantur per tria et duo. Tertius ordo per septem, septem, septem, distinguendo semper
-        per tria, duo, duo. Quartus (A 60r) ordo crescit per duo plus. Quintus supra quartum crescit
-        per duo plus, et sic de singulis ordinibus, quantum placuerit, crescendo semper per duo. Et
-        ita sequitur ex praedictis, quod omnes ordines primi modi perfecti sub numero impari
+      <p xml:id="ANO4MUS0010">Primus ordo primi perfecti est trium punctorum cum una brevi
+        pausatione et trium punctorum cum pausatione brevi et trium punctorum cum pausatione brevi
+        et cetera. Secundus ordo vero procedit per quinque, quinque ante pausationem semper ita,
+        quod distinguantur per tria et duo. Tertius ordo per septem, septem, septem, distinguendo
+        semper per tria, duo, duo. Quartus (A 60r) ordo crescit per duo plus. Quintus supra quartum
+        crescit per duo plus, et sic de singulis ordinibus, quantum placuerit, crescendo semper per
+        duo. Et ita sequitur ex praedictis, quod omnes ordines primi modi perfecti sub numero impari
         accipiuntur ante pausationem procedendo semper per longam brevem pro pede supleto, quamvis
         frangat iuncturam. Sed intellige pausationem supradictam esse brevem unius temporis propter
         ordinem vel diffinitionem primi modi perfecti.</p>
-      <p xml:id="ANO4MUS0011">Ordines secundi modi perfecti eodem modo et sub eodem numero accipiuntur.
-        Sed quantitative modo contrario accipiuntur. Sed principium (C 58r) eius secundi modi
-        perfecti sic procedit: duo, duo, duo et cetera et tres in fine semper sine pausatione. Et
-        ordo primus sic: brevis longa, brevis <pb n="[25]"/>cum longa pausatione duorum temporum, et
-        hoc in suo primo ordine. Sed in secundo ordine sic accipitur ut quinque, quinque, quinque,
-        distinguendo per duo et tria. In tertio per duo, duo et tria. In quarto per duo, duo, duo et
-        tria, et sic crescendo per duo non ex parte finis, sed ex parte principii modo opposito
-        primi supradicti.</p>
+      <p xml:id="ANO4MUS0011">Ordines secundi modi perfecti eodem modo et sub eodem numero
+        accipiuntur. Sed quantitative modo contrario accipiuntur. Sed principium (C 58r) eius
+        secundi modi perfecti sic procedit: duo, duo, duo et cetera et tres in fine semper sine
+        pausatione. Et ordo primus sic: brevis longa, brevis <pb n="[25]"/>cum longa pausatione
+        duorum temporum, et hoc in suo primo ordine. Sed in secundo ordine sic accipitur ut quinque,
+        quinque, quinque, distinguendo per duo et tria. In tertio per duo, duo et tria. In quarto
+        per duo, duo, duo et tria, et sic crescendo per duo non ex parte finis, sed ex parte
+        principii modo opposito primi supradicti.</p>
       <p xml:id="ANO4MUS0012">Iterato ordines primi modi imperfecti procedunt per numerum parem,
         videlicet cum adiunctione, sub tali forma. Sed principium eius sic procedit, videlicet per
         duo, duo, duo sine tribus in fine et sine pausatione. Et primus ordo sic procedit per longam
@@ -128,34 +139,34 @@
         placuerit, ut praedictum est. Tertius ordo procedit per sex, sex ita ut duo, duo, duo cum
         longa pausatione et duo, duo, duo cum brevi pausatione; iterato per sex cum longa pausatione
         et sex cum brevi pausatione et cetera, quantum placuerit.</p>
-      <p xml:id="ANO4MUS0013">Principium secundi modi imperfecti procedit per duo, duo, duo et cetera.
-        Sed differentia est inter hoc principium et principium primi imperfecti supradicti, quod
-        iste procedit iuxta proprietatem et (B 215v) perfectionem punctorum materialium, et primus
-        sine proprietate et cum perfectione procedit, prout in secundo capitulo plenius patebit.
-        Primus ordo procedit (A 60v) per duo cum brevi pausatione et duo cum longa pausatione;
-        iterato idem in (C 58v) modo et iterato et iterato et cetera, quod est in contrarium primi
-        modi imperfecti. Secundus ordo eiusdem procedit per quatuor cum brevi pausatione et quatuor
-        cum longa pausatione et cetera, iterando, quantum placuerit. Tertius ordo procedit per sex
-        cum brevi pausatione et sex cum longa pausatione et sic iterando et cetera. Et sic de
-        singulis aliis ordinibus eiusdem modi plenius intellige.</p>
-      <p xml:id="ANO4MUS0014">Principium tertii modi perfecti procedit per longam unam et tres, tres,
-        tres et cetera, sed sine pausatione. Pes perficitur in paenultima, et pes primi modi in
-        brevi terminatur, et pes secundi in longa terminatur, quod quidem <pb n="[26]"/>debuissemus
-        dixisse inter supradicta. Sed intellige, quod brevis primi, secundi et sexti est semper
-        unius temporis, longa eorundem duorum temporum; sed longa istius tertii perfecti est trium
-        temporum, et sic valet brevem et longam de secundo modo vel longam et brevem de primo modo,
-        et similiter, quod est mirabile, cum adiunctione diversarum vocum. Sed prima brevis istius
-        tertii est unius temporis, secunda vero brevis est duorum temporum, quia si multitudo
-        brevium fuerint, quanto plus apropinquatur fini, tanto debent longius proferri, et hoc in
-        isto tertio et quarto subsequenti et in omni modo, prout tempora franguntur. Primus ordo
-        tertii perfecti procedit per quatuor cum longa pausatione trium temporum, distinguendo per
-        unum et tria; iterato per quatuor cum longa pausatione, ut praedictum est, distinguendo et
-        cetera, iterato idem et iterato et cetera, prout placuerit. Secundus ordo eiusdem modi cum
-        tribus additis procedit per septem, septem, septem et cetera, semper cum longa pausatione
-        trium temporum post quodlibet septem, distinguendo per unum, tria, tria, intelligendo
-        terminationem pedis, ut praedictum est. Tertius (C 59r) vero ordo procedit per tres plus
-        quam in secundo ordine supradicto, et sic erunt decem, decem, decem semper cum longa
-        pausatione et cetera, cum distinctione supradicta. Et sic intellige de aliis ordinibus
+      <p xml:id="ANO4MUS0013">Principium secundi modi imperfecti procedit per duo, duo, duo et
+        cetera. Sed differentia est inter hoc principium et principium primi imperfecti supradicti,
+        quod iste procedit iuxta proprietatem et (B 215v) perfectionem punctorum materialium, et
+        primus sine proprietate et cum perfectione procedit, prout in secundo capitulo plenius
+        patebit. Primus ordo procedit (A 60v) per duo cum brevi pausatione et duo cum longa
+        pausatione; iterato idem in (C 58v) modo et iterato et iterato et cetera, quod est in
+        contrarium primi modi imperfecti. Secundus ordo eiusdem procedit per quatuor cum brevi
+        pausatione et quatuor cum longa pausatione et cetera, iterando, quantum placuerit. Tertius
+        ordo procedit per sex cum brevi pausatione et sex cum longa pausatione et sic iterando et
+        cetera. Et sic de singulis aliis ordinibus eiusdem modi plenius intellige.</p>
+      <p xml:id="ANO4MUS0014">Principium tertii modi perfecti procedit per longam unam et tres,
+        tres, tres et cetera, sed sine pausatione. Pes perficitur in paenultima, et pes primi modi
+        in brevi terminatur, et pes secundi in longa terminatur, quod quidem <pb n="[26]"
+        />debuissemus dixisse inter supradicta. Sed intellige, quod brevis primi, secundi et sexti
+        est semper unius temporis, longa eorundem duorum temporum; sed longa istius tertii perfecti
+        est trium temporum, et sic valet brevem et longam de secundo modo vel longam et brevem de
+        primo modo, et similiter, quod est mirabile, cum adiunctione diversarum vocum. Sed prima
+        brevis istius tertii est unius temporis, secunda vero brevis est duorum temporum, quia si
+        multitudo brevium fuerint, quanto plus apropinquatur fini, tanto debent longius proferri, et
+        hoc in isto tertio et quarto subsequenti et in omni modo, prout tempora franguntur. Primus
+        ordo tertii perfecti procedit per quatuor cum longa pausatione trium temporum, distinguendo
+        per unum et tria; iterato per quatuor cum longa pausatione, ut praedictum est, distinguendo
+        et cetera, iterato idem et iterato et cetera, prout placuerit. Secundus ordo eiusdem modi
+        cum tribus additis procedit per septem, septem, septem et cetera, semper cum longa
+        pausatione trium temporum post quodlibet septem, distinguendo per unum, tria, tria,
+        intelligendo terminationem pedis, ut praedictum est. Tertius (C 59r) vero ordo procedit per
+        tres plus quam in secundo ordine supradicto, et sic erunt decem, decem, decem semper cum
+        longa pausatione et cetera, cum distinctione supradicta. Et sic intellige de aliis ordinibus
         eiusdem modi supradicti.</p>
       <p xml:id="ANO4MUS0015">Principium quarti modi perfecti procedit amota prima longa tertii per
         tres, tres, tres et cetera cum duobus cum proprietate et imperfectione punctorum figurae
@@ -166,10 +177,11 @@
         longa pausatione semper. Tertius ordo eiusdem procedit per tres augendo ante cum proximo
         ordine praedicto, et sic sunt undecim distinguendo per tres, tres, tres, duo, et sic cum
         longa pausatione post undecim. Et sic ulterius procedit per undecim, sed de proprietate et
-        conditione materiali figurarum omnium supradictarum et postpositarum. Cognitio <pb n="[27]"/>earundem est habenda, prout in secundo capitulo postposito plenius patebit.</p>
-      <p xml:id="ANO4MUS0016">Principium tertii modi imperfecti procedit per unam longam et tres, tres,
-        tres et cetera cum duobus in fine cum proprietate et sine perfectione materiali et sine
-        pausatione. Sed pes semper in paenultima trium supradictorum terminatur, ut alias
+        conditione materiali figurarum omnium supradictarum et postpositarum. Cognitio <pb n="[27]"
+        />earundem est habenda, prout in secundo capitulo postposito plenius patebit.</p>
+      <p xml:id="ANO4MUS0016">Principium tertii modi imperfecti procedit per unam longam et tres,
+        tres, tres et cetera cum duobus in fine cum proprietate et sine perfectione materiali et
+        sine pausatione. Sed pes semper in paenultima trium supradictorum terminatur, ut alias
         praediximus. Primus ordo tertii imperfecti extraitur a primo ordine tertii perfecti per
         diminutionem unius, et sic erit trium punctorum vel sonorum tantum cum una longa pausatione
         trium temporum. Deinde ponenda sunt alia tria puncta alterius modi cum pausatione trium
@@ -284,14 +296,14 @@
         pedibus et cetera. Et aliter possunt praedicta intelligi, si longa pausatio fieret pro
         duabus brevibus, ubi melius competat, et sic erit una diminutio diversitatis a sua
         circularitate, prout superius in tertio vel in quarto modo supradictum est.</p>
-      <p xml:id="ANO4MUS0019">Primus ordo tertii imperfecti in diminutione trium procedit sic: una longa
-        sola cum brevi pausatione unius temporis cum una brevi duorum temporum et cum longa
+      <p xml:id="ANO4MUS0019">Primus ordo tertii imperfecti in diminutione trium procedit sic: una
+        longa sola cum brevi pausatione unius temporis cum una brevi duorum temporum et cum longa
         pausatione trium temporum, una brevis unius temporis cum brevi pausatione duorum temporum;
         iterato, iterato, iterato cum eisdem sonis vel diversis. Et iste ordo dicitur solus ordo,
         quia secundarium ordinem non habet, ut modi supradicti, nisi fuerit per irregularitatem vel
         adiunctionem alicuius modi supradicti.</p>
-      <p xml:id="ANO4MUS0020">Primus ordo quarti imperfecti in diminutione trium a sua perfectione sic
-        procedit: duo cum proprietate et imperfectione materiali cum longa pausatione trium
+      <p xml:id="ANO4MUS0020">Primus ordo quarti imperfecti in diminutione trium a sua perfectione
+        sic procedit: duo cum proprietate et imperfectione materiali cum longa pausatione trium
         temporum; iterato, iterato, iterato et cetera. Secundus ordo quarti imperfecti in
         diminutione trium non est, nisi fuerit per fractionem longae, et ita non habet secundarium
         ordinem, quare dicitur solus ordo. Iterato est alius ordo solus eiusdem cum maiore
@@ -300,8 +312,8 @@
         brevis duorum temporum, longa (C 62v) pausatio trium temporum; iterato, iterato, iterato, ut
         superius dictum est. Et isti ordines soli possunt convenire cum suis modis oppositis, ut
         supradictum est et ut in posteris plenius patebit.</p>
-      <p xml:id="ANO4MUS0021">Principium quinti modi perfecti procedit sic: longa, longa et cetera sine
-        pausatione, quantum placuerit. Primus ordo quinti perfecti procedit <pb n="[32]"/>sic:
+      <p xml:id="ANO4MUS0021">Principium quinti modi perfecti procedit sic: longa, longa et cetera
+        sine pausatione, quantum placuerit. Primus ordo quinti perfecti procedit <pb n="[32]"/>sic:
         longa, longa, longa cum pausatione trium temporum; longa, longa, longa cum pausatione trium
         temporum; iterato, iterato, iterato, quantum placuerit, ex eisdem sonis vel diversis. Sed
         intellige, quod quaelibet longa continet tria tempora, et sic (B 216v) quaelibet longa
@@ -336,11 +348,11 @@
         quintus, (C 63v) et procedit per quatuor coniunctas, tres coniunctas, tres coniunctas et
         cetera, quantum placuerit, sine pausatione. Sed pes semper terminatur in paenultima
         coniunctorum et cetera.</p>
-      <p xml:id="ANO4MUS0023">Primus ordo sexti perfecti et omnes alii ordines procedunt dupliciter, aut
-        ut ultima ante pausationem sit (A 64r) longa vel non longa. Et primo, si sit longa, procedit
-        sic: quatuor coniunctas, de quibus ultima est longa duorum temporum, quare quatuor sunt tres
-        breves et una longa propter quietem temporis cum sua concordantia sive melodia cum brevi
-        pausatione sequenti unius temporis; iterato quatuor cum sua longa et brevi pausatione;
+      <p xml:id="ANO4MUS0023">Primus ordo sexti perfecti et omnes alii ordines procedunt dupliciter,
+        aut ut ultima ante pausationem sit (A 64r) longa vel non longa. Et primo, si sit longa,
+        procedit sic: quatuor coniunctas, de quibus ultima est longa duorum temporum, quare quatuor
+        sunt tres breves et una longa propter quietem temporis cum sua concordantia sive melodia cum
+        brevi pausatione sequenti unius temporis; iterato quatuor cum sua longa et brevi pausatione;
         iterato, iterato et cetera. Sed intellige pedes: tres breves pro pede et tunc una longa
         duorum temporum cum sua brevi pausatione pro alio pede; iterato tres pro pede et longa cum
         brevi pausatione pro pede. Et sic de singulis quatuor cum sua pausatione intellige, sive
@@ -374,17 +386,17 @@
         quinti imperfecti et cetera. Tertius ordo quinti imperfecti procedit per duo, duo, duo
         semper disiunctim cum una longa pausatione sequenti; iterato, iterato et cetera, ut
         praedictum est.</p>
-      <p xml:id="ANO4MUS0025">Primus ordo sexti imperfecti in diminutione unius a sua perfectione, prout
-        in primo ordine sexti perfecti plenius accipitur, procedit sic: tres breves coniunctim cum
-        una longa pausatione duorum temporum, tres breves disiunctim sic: una brevis, duae breves
-        coniunctim cum una brevi <pb n="[35]"/>pausatione unius temporis, una longa duorum temporum
-        cum una brevi, et una brevis cum brevi pausatione; reitera, reitera, reitera. Sed pedes sunt
-        trium temporum: longa pausatio cum brevi sequenti pes est; deinde duo coniuncta imperfecta
-        secundum materiam cum una brevi pausatione faciunt pedem, una longa cum brevi pausatione et
-        cetera. Secundus ordo sexti imperfecti procedit sic: quatuor coniuncta et duo imperfecta (C
-        64v) secundum materiam cum una longa pausatione duorum temporum, una brevis, quatuor
-        coniuncta, ultima longa secundum materiam vel secundum actum, una brevis pausatio addendo
-        unam brevem, et tunc brevis altera. Et sic procedit iuxta numerum, quousque habueris
+      <p xml:id="ANO4MUS0025">Primus ordo sexti imperfecti in diminutione unius a sua perfectione,
+        prout in primo ordine sexti perfecti plenius accipitur, procedit sic: tres breves coniunctim
+        cum una longa pausatione duorum temporum, tres breves disiunctim sic: una brevis, duae
+        breves coniunctim cum una brevi <pb n="[35]"/>pausatione unius temporis, una longa duorum
+        temporum cum una brevi, et una brevis cum brevi pausatione; reitera, reitera, reitera. Sed
+        pedes sunt trium temporum: longa pausatio cum brevi sequenti pes est; deinde duo coniuncta
+        imperfecta secundum materiam cum una brevi pausatione faciunt pedem, una longa cum brevi
+        pausatione et cetera. Secundus ordo sexti imperfecti procedit sic: quatuor coniuncta et duo
+        imperfecta (C 64v) secundum materiam cum una longa pausatione duorum temporum, una brevis,
+        quatuor coniuncta, ultima longa secundum materiam vel secundum actum, una brevis pausatio
+        addendo unam brevem, et tunc brevis altera. Et sic procedit iuxta numerum, quousque habueris
         circularem processum, intelligendo tres pro pede et tres pro pede cum una longa pausatione
         duorum temporum et brevis pro pede, et tunc quatuor coniuncta, si (B finitur 216v)
         conveniant, de quibus tres pro pede, tunc ultima illarum quatuor cum una brevi et brevis
@@ -434,15 +446,15 @@
         capitulo superius nominato.</p>
       <p xml:id="ANO4MUS0028">
         <pb n="[37]"/>Pars secunda</p>
-      <p xml:id="ANO4MUS0029">Sequitur de secunda parte primi capituli hoc modo. Prima pars erat de sex
-        modis temporis melorum, prout soni vel meli integre accipiuntur vel possunt vel poterunt
+      <p xml:id="ANO4MUS0029">Sequitur de secunda parte primi capituli hoc modo. Prima pars erat de
+        sex modis temporis melorum, prout soni vel meli integre accipiuntur vel possunt vel poterunt
         sumi, cum quibusdam aliis et ordinibus, prout superius dictum est. Secunda vero pars est de
         minutione vel fractione eorundem, sive fuerit per modum fractionis vel collectionis cuiusque
         brevis vel longae.</p>
-      <p xml:id="ANO4MUS0030">Primus modus constat ex longa brevi longa et cetera, ut in suo principio
-        sine pausatione per distinctionem trium duorumque duorumque et cetera. Sed intelligendum
-        est, quod hic aliter distinguitur iuxta modum: duo pro longa, brevis; duo pro longa brevis
-        et cetera, quod satis patet per modum sextum supradictum.</p>
+      <p xml:id="ANO4MUS0030">Primus modus constat ex longa brevi longa et cetera, ut in suo
+        principio sine pausatione per distinctionem trium duorumque duorumque et cetera. Sed
+        intelligendum est, quod hic aliter distinguitur iuxta modum: duo pro longa, brevis; duo pro
+        longa brevis et cetera, quod satis patet per modum sextum supradictum.</p>
       <p xml:id="ANO4MUS0031">Iterato aliter dicendus sic: tria pro longa, brevis; tria pro longa,
         brevis et cetera sine pausatione. Sed puncta materialia sic distinguuntur: pone primo unam
         longam materialem; postmodum iunge duos currentes, qui frangunt longam supradictam. Ideo
@@ -511,13 +523,13 @@
         inter subtiles, sive fuerit in modo perfecto sive imperfecto, reducendo ad integra cum brevi
         pausatione vel longa, prout melius competit. Sufficit ad praesens cum quibusdam postpositis
         cum praedictis copulatis.</p>
-      <p xml:id="ANO4MUS0036">Notandum, quod de secundo perfecto vel imperfecto intelligimus ut de primo
-        iuxta exemplum hoc: pro principio fac duas ligatas cum proprietate et perfectione materiali
-        cum duobus currentibus, iterato duas cum duobus currentibus, et sic uniformiter procede et
-        cetera. Et sic colligimus, quod est brevis, tres pro longa; brevis, tres pro longa et
-        cetera. Fac inde primum ordinem, secundum et tertium et cetera suo modo, sicut fecimus de
-        primo, quia per tot diversitates diversificatur sicut primus, ut praedictum est. Sed
-        differentia talis est, quod prima est semper brevis, et tunc sequitur longa per
+      <p xml:id="ANO4MUS0036">Notandum, quod de secundo perfecto vel imperfecto intelligimus ut de
+        primo iuxta exemplum hoc: pro principio fac duas ligatas cum proprietate et perfectione
+        materiali cum duobus currentibus, iterato duas cum duobus currentibus, et sic uniformiter
+        procede et cetera. Et sic colligimus, quod est brevis, tres pro longa; brevis, tres pro
+        longa et cetera. Fac inde primum ordinem, secundum et tertium et cetera suo modo, sicut
+        fecimus de primo, quia per tot diversitates diversificatur sicut primus, ut praedictum est.
+        Sed differentia talis est, quod prima est semper brevis, et tunc sequitur longa per
         descriptionem eius per contrarium primi, quod est longa brevis. Sed in fractione currentium
         non est diversitas neque in longa neque in brevi et cetera.</p>
       <p xml:id="ANO4MUS0037">De tertio modo sic procede: prima longa est trium temporum ad
@@ -533,56 +545,57 @@
       <p xml:id="ANO4MUS0038">Sic etiam intelligimus de quarto suo modo opposito sibi insito eiusdem
         longitudinis et brevitatis. Sic etiam dicimus de non suo modo opposito, quod est longa longa
         brevis et cetera.</p>
-      <p xml:id="ANO4MUS0039">Frange quintum secundum aliquem modum supradictorum, et sufficit. Sextum
-        vero frange iuxta modum primi vel secundi et cetera, ut in secundo capitulo plenius
+      <p xml:id="ANO4MUS0039">Frange quintum secundum aliquem modum supradictorum, et sufficit.
+        Sextum vero frange iuxta modum primi vel secundi et cetera, ut in secundo capitulo plenius
         patebit.</p>
-      <p xml:id="ANO4MUS0040">Insuper si quid fuerit minus plene dictum in supradictis, in sex capitulis
-        postpositis satis et sufficienter cum triplici perfectione plenaria, perfecta et ultimata
-        dictabitur iuxta illud, quod dicitur, ubi dicit: Omnis sensibilis proprietatis notitia
-        plenam, perfectam et ultimam perfectionem intelligentiae tribuit veritatis.</p>
+      <p xml:id="ANO4MUS0040">Insuper si quid fuerit minus plene dictum in supradictis, in sex
+        capitulis postpositis satis et sufficienter cum triplici perfectione plenaria, perfecta et
+        ultimata dictabitur iuxta illud, quod dicitur, ubi dicit: Omnis sensibilis proprietatis
+        notitia plenam, perfectam et ultimam perfectionem intelligentiae tribuit veritatis.</p>
       <p xml:id="ANO4MUS0041">Capitulum secundum</p>
-      <p xml:id="ANO4MUS0042">Sequitur ad praesens de secundo capitulo sub hac forma. Puncta materialia,
-        prout depinguntur in libris et prout significant melos et tempora supradictorum, duplici
-        acceptione accipiuntur: uno modo per se et absolute sine sermone adiuncto, alio modo cum
-        sermone adiuncto. Per se et absolute duplici modo intelliguntur: primo modo, prout simplicia
-        puncta sine adiunctione alicuius cum alio, secundo modo, prout ad invicem coniunguntur.
-        Simplicia puncta quaedam accipiuntur, prout utuntur in tropis ecclesiasticis, et quaedam,
-        prout utuntur in libris organi, et hoc secundum sua volumina diversa, ac etiam prout utuntur
-        in libris notarum diversi generis, prout utuntur in quolibet genere omnium instrumentorum (C
-        68r) et cetera, prout in posteris patebit. Puncta supradicta dicuntur apud quosdam notae,
-        quare unus punctus nota vocatur; apud aliquos figurae <pb n="[41]"/>vocantur, quare nota
-        figura potest dici; apud aliquos simplices soni dicuntur, et sic materiali signo pro formali
-        intelligitur et cetera.</p>
-      <p xml:id="ANO4MUS0043">Figurarum simplicium, prout in tropis accipiuntur, triplex est modus. Unus
-        est recte stando cum uno parvo tractu in dextera parte operatoris; alius est recte stando
-        sine tractu praedicto; tertius modus est, quando steterit per modum elmuahym. Est praeterea
-        una figura, quae dicitur plica, recte stando cum uno tractu vel duplici, et hoc ascendendo
-        (A 67v) vel descendendo et cetera. Boni notatores in figurando sic depingunt supradicta:
-        quidam faciunt quadrata puncta cum uno tractu vel sine, ut praedictum est; quidam non
-        quadrata, sed per modum quadranguli vel quadrangulorum ita, quod longitudo stando sit
-        longior longitudine iacendo vel protrahendo, sive fuerit cum tractu vel sine. Elmuahim vero
-        oblique saepe protrahitur; et quidam protrahunt ipsum simile elmuahim. Item est quaedam
+      <p xml:id="ANO4MUS0042">Sequitur ad praesens de secundo capitulo sub hac forma. Puncta
+        materialia, prout depinguntur in libris et prout significant melos et tempora supradictorum,
+        duplici acceptione accipiuntur: uno modo per se et absolute sine sermone adiuncto, alio modo
+        cum sermone adiuncto. Per se et absolute duplici modo intelliguntur: primo modo, prout
+        simplicia puncta sine adiunctione alicuius cum alio, secundo modo, prout ad invicem
+        coniunguntur. Simplicia puncta quaedam accipiuntur, prout utuntur in tropis ecclesiasticis,
+        et quaedam, prout utuntur in libris organi, et hoc secundum sua volumina diversa, ac etiam
+        prout utuntur in libris notarum diversi generis, prout utuntur in quolibet genere omnium
+        instrumentorum (C 68r) et cetera, prout in posteris patebit. Puncta supradicta dicuntur apud
+        quosdam notae, quare unus punctus nota vocatur; apud aliquos figurae <pb n="[41]"/>vocantur,
+        quare nota figura potest dici; apud aliquos simplices soni dicuntur, et sic materiali signo
+        pro formali intelligitur et cetera.</p>
+      <p xml:id="ANO4MUS0043">Figurarum simplicium, prout in tropis accipiuntur, triplex est modus.
+        Unus est recte stando cum uno parvo tractu in dextera parte operatoris; alius est recte
+        stando sine tractu praedicto; tertius modus est, quando steterit per modum elmuahym. Est
+        praeterea una figura, quae dicitur plica, recte stando cum uno tractu vel duplici, et hoc
+        ascendendo (A 67v) vel descendendo et cetera. Boni notatores in figurando sic depingunt
+        supradicta: quidam faciunt quadrata puncta cum uno tractu vel sine, ut praedictum est;
+        quidam non quadrata, sed per modum quadranguli vel quadrangulorum ita, quod longitudo stando
+        sit longior longitudine iacendo vel protrahendo, sive fuerit cum tractu vel sine. Elmuahim
+        vero oblique saepe protrahitur; et quidam protrahunt ipsum simile elmuahim. Item est quaedam
         elmuarifa, quae potest dici irregularis, quae habet tractum in sinistra parte descendendo,
         sicut Anglici depingunt vel notant, quod idem sonat et cetera.</p>
       <p xml:id="ANO4MUS0044">Puncta vel notae secundum eosdem coniunguntur duo simul vel tres vel
         quatuor ad plus secundum libros troporum et ecclesiasticos et cetera.</p>
-      <p xml:id="ANO4MUS0045">Duo sic coniunguntur sub tali forma: quadrangula supra quadrangulam recte
-        (B finitur 217v) iacendo dicuntur duae ligatae ascendendo, si coniungantur cum uno tractu in
-        dextera parte illarum; sed superior minor aliquantulum debet apparere. Et nota, quod ex sui
-        proprietate nulla figura ascendens, prout sonos vel melos significat, debet habere tractum
-        in inferiori et sinistra (B 218r) parte. Sed duae ligatae descendentes (C 68v) alio modo sic
-        intelliguntur: primus punctus habet tractum in latere sinistro descendendo ex sui
-        proprietate et alterum tractum in dextera parte, cum quo coniungitur, non sub alio, punctus
-        unus rectus, sive fuerit quadratus sive quadrangulus. Et nota, quod istae duae ligatae
-        supradictae, prout sunt ascendentes, et prout ultima iacet supra alteram, perfectionem suam
-        denotant; quare debent denominari duae ligatae perfectae. Et propter hoc, quod primus non
-        habet tractum, ut superius <pb n="[42]"/>dictum est, dicuntur cum proprietate et perfectae
-        sive cum perfectione. Sed de aliis duabus, quae sunt descendendo, et ultima stat ex altera
-        parte lineae cadentis vel iungentis et non iacet sub prima, sic perfectionem eius denotat.
-        Et quia prima eiusdem habet tractum descendendo in sinistra parte ex sui proprietate, sic
-        potest dici, quod illae duae sunt cum proprietate et perfectae sive cum perfectione.</p>
-      <p xml:id="ANO4MUS0046">Tres ligatae totaliter ascendendo sic notantur: fac quadrangulum et alium
-        quadrangulum iungendo conum cum cono sive angulum cum angulo lateraliter protrahendo,
+      <p xml:id="ANO4MUS0045">Duo sic coniunguntur sub tali forma: quadrangula supra quadrangulam
+        recte (B finitur 217v) iacendo dicuntur duae ligatae ascendendo, si coniungantur cum uno
+        tractu in dextera parte illarum; sed superior minor aliquantulum debet apparere. Et nota,
+        quod ex sui proprietate nulla figura ascendens, prout sonos vel melos significat, debet
+        habere tractum in inferiori et sinistra (B 218r) parte. Sed duae ligatae descendentes (C
+        68v) alio modo sic intelliguntur: primus punctus habet tractum in latere sinistro
+        descendendo ex sui proprietate et alterum tractum in dextera parte, cum quo coniungitur, non
+        sub alio, punctus unus rectus, sive fuerit quadratus sive quadrangulus. Et nota, quod istae
+        duae ligatae supradictae, prout sunt ascendentes, et prout ultima iacet supra alteram,
+        perfectionem suam denotant; quare debent denominari duae ligatae perfectae. Et propter hoc,
+        quod primus non habet tractum, ut superius <pb n="[42]"/>dictum est, dicuntur cum
+        proprietate et perfectae sive cum perfectione. Sed de aliis duabus, quae sunt descendendo,
+        et ultima stat ex altera parte lineae cadentis vel iungentis et non iacet sub prima, sic
+        perfectionem eius denotat. Et quia prima eiusdem habet tractum descendendo in sinistra parte
+        ex sui proprietate, sic potest dici, quod illae duae sunt cum proprietate et perfectae sive
+        cum perfectione.</p>
+      <p xml:id="ANO4MUS0046">Tres ligatae totaliter ascendendo sic notantur: fac quadrangulum et
+        alium quadrangulum iungendo conum cum cono sive angulum cum angulo lateraliter protrahendo,
         iterato alium quadrangulum sibi iungendo et recte supraponendo, ut in duabus ligatis
         superius dictum est. Et sic possunt dici cum proprietate et perfectione iuxta eandem
         considerationem supradictam, ut de duabus supradictis plenius dictum est. Aliter possumus
@@ -609,10 +622,10 @@
         recte se habeat iacendo supra paenultimam, perfectionem eius denotat; sed descendendo sic:
         quando ultimus punctus recte steterit et coniunxerit, si conaliter non recte supponendo, sed
         lateraliter, perfectionem eius denotat.</p>
-      <p xml:id="ANO4MUS0047">Sic simili modo intellige de quatuor ligatis quoad proprietatem a parte
-        principii et quoad perfectionem in fine disponendo media puncta, ut superius dictum est. Et
-        hoc quoad tropos ecclesiasticos sufficit cum currentibus quibusdam sub hac forma: fac
-        quadrangulum cum tractu uno in parte dextera, et iunge obliquo modo in parva distantia
+      <p xml:id="ANO4MUS0047">Sic simili modo intellige de quatuor ligatis quoad proprietatem a
+        parte principii et quoad perfectionem in fine disponendo media puncta, ut superius dictum
+        est. Et hoc quoad tropos ecclesiasticos sufficit cum currentibus quibusdam sub hac forma:
+        fac quadrangulum cum tractu uno in parte dextera, et iunge obliquo modo in parva distantia
         duplex vel triplex vel quadruplex elmuahim. Et dicuntur currentes secundum aliquos, ut in
         posteris plenius patebit. Sed in quibusdam aliis libris (C 69v) utuntur quinque, sex vel
         septem et cetera ligatis cum quibusdam aliis signis oppositis et cetera.</p>
@@ -652,11 +665,11 @@
         nota, quod in principio talium quandoque invenitur quidam tractus in sinistra parte propter
         distinctionem quandam praecedentium. Et nota, quod praecedentes figurae diversimode iuxta
         modos diversos in (A 69r) labore et quiete possunt intelligi; sic etiam uti et cetera.</p>
-      <p xml:id="ANO4MUS0051">Figurarum simul ligatarum quaedam dicuntur cum proprietate propria a parte
-        sui principii, quaedam sine proprietate, quaedam cum opposita proprietate et cetera, prout
-        in quodam libello vel tractatu plenius invenitur, cuius inceptio est: Habito de ipsa plana
-        musica et cetera. (B 218v) Et notandum, quod quaedam figurae accipiuntur sine litera et
-        quaedam cum litera. Sine litera coniunguntur in quantum possunt vel poterunt; cum litera
+      <p xml:id="ANO4MUS0051">Figurarum simul ligatarum quaedam dicuntur cum proprietate propria a
+        parte sui principii, quaedam sine proprietate, quaedam cum opposita proprietate et cetera,
+        prout in quodam libello vel tractatu plenius invenitur, cuius inceptio est: Habito de ipsa
+        plana musica et cetera. (B 218v) Et notandum, quod quaedam figurae accipiuntur sine litera
+        et quaedam cum litera. Sine litera coniunguntur in quantum possunt vel poterunt; cum litera
         quandoque sic, quandoque non. Et significant longitudinem vel brevitatem, prout accipiuntur
         sub modis praedictis et cetera, ut in posteris plenius patebit. De simplicibus superius
         dictum est. Ad praesens vero de ligatis sic habendum vel intelligendum est, et primo de
@@ -680,21 +693,22 @@
         sicut Alleluia Posui adiutorium, Nativitas et cetera. Fecit etiam triplices conductus ut
         Salvatoris hodie et duplices conductus sicut Dum sigillum summi patris ac etiam simplices
         conductus cum pluribus aliis sicut Beata viscera et cetera.</p>
-      <p xml:id="ANO4MUS0054">Liber vel libri magistri Perotini erant in usu usque ad tempus magistri
-        Roberti de Sabilone et in coro Beatae Virginis maioris ecclesiae Parisiensis et a suo
-        tempore usque in hodiernum diem.</p>
+      <p xml:id="ANO4MUS0054">Liber vel libri magistri Perotini erant in usu usque ad tempus
+        magistri Roberti de Sabilone et in coro Beatae Virginis maioris ecclesiae Parisiensis et a
+        suo tempore usque in hodiernum diem.</p>
       <p xml:id="ANO4MUS0055">Simili modo et cetera, prout Petrus notator optimus et Iohannes dictus
         Primarius cum quibusdam aliis in maiori parte notabant usque in tempus magistri Franconis
         primi et alterius magistri Franconis de Colonia, qui (A 69v) inceperant in suis libris
         aliter pro parte notare. Qua de causa alias regulas proprias suis libris apropriatas (C 71r)
         tradiderunt.</p>
-      <p xml:id="ANO4MUS0056">Iterato fuerunt quidam respicientes, quod regulae supradictae non erant
-        sufficientes, et posuerunt signum proprietatis oppositae, ut supradictum est. Et dixerunt,
-        quod omnis figura cum opposita proprietate et perfectione ultima longa et praecedentes pro
-        brevi. Unde sequitur, quod ad minus sint tres ligatae actu vel intellectu cum tali
-        proprietate opposita. Quare si duae habeant talem oppositam proprietatem, aequipollent <pb n="[47]"/>primis duobus trium eiusdem proprietatis supradictae. Quare si una longa
-        sequatur, ipsa cum eisdem aequipollent tribus eiusdem proprietatis, ut supradictum est. Sic
-        de quatuor ligatis vel quinque vel sex et cetera aequipollentibus.</p>
+      <p xml:id="ANO4MUS0056">Iterato fuerunt quidam respicientes, quod regulae supradictae non
+        erant sufficientes, et posuerunt signum proprietatis oppositae, ut supradictum est. Et
+        dixerunt, quod omnis figura cum opposita proprietate et perfectione ultima longa et
+        praecedentes pro brevi. Unde sequitur, quod ad minus sint tres ligatae actu vel intellectu
+        cum tali proprietate opposita. Quare si duae habeant talem oppositam proprietatem,
+        aequipollent <pb n="[47]"/>primis duobus trium eiusdem proprietatis supradictae. Quare si
+        una longa sequatur, ipsa cum eisdem aequipollent tribus eiusdem proprietatis, ut supradictum
+        est. Sic de quatuor ligatis vel quinque vel sex et cetera aequipollentibus.</p>
       <p xml:id="ANO4MUS0057">Iterato figura imperfecta dicitur, quae alio modo depingitur vel
         figuratur, quam sicut superius dictum est. Et nullam regulam optinet, nisi ad perfectionem
         supradictam reducatur. Quae quidem reductio quandoque contingit, quando soni ponuntur in
@@ -732,17 +746,18 @@
         partes orbis terrarum divinae potentiae dilectissime usibus suis accipiunt, prout tenentur
         iuxta sanctam scripturam, ubi dicit: Laudate (C 72r) dominum in timpano et choro et cetera
         cum suis adiunctis.</p>
-      <p xml:id="ANO4MUS0059">Nota, quod differentia est dicendo cum litera et sine litera, quoniam sine
-        litera fit ligatio punctorum iuxta duas vel tres vel quatuor et cetera ligatas, in quantum
-        plus poterit secundum quod melius competit et cetera, ut in postpositis. Cum litera vero
-        quandoque fit ligatio, quandoque non. Sed in maiori parte plus distrahuntur quam ligantur.
-        Unde regula: omnis simplex figura, prout se ostendit sub suo nomine, elongatur vel
+      <p xml:id="ANO4MUS0059">Nota, quod differentia est dicendo cum litera et sine litera, quoniam
+        sine litera fit ligatio punctorum iuxta duas vel tres vel quatuor et cetera ligatas, in
+        quantum plus poterit secundum quod melius competit et cetera, ut in postpositis. Cum litera
+        vero quandoque fit ligatio, quandoque non. Sed in maiori parte plus distrahuntur quam
+        ligantur. Unde regula: omnis simplex figura, prout se ostendit sub suo nomine, elongatur vel
         abbreviatur. Distractio est propter sillabas subpositas, quoniam supra quamlibet sillabam
         quandoque ponitur una simplex, quae sibi ipsi attribuitur. Et ratione diversitatis
         sillabarum secundum aliquos quilibet punctus absolutus dicitur, prout non reducitur ad
         figuram ligatam. Si vero reducitur, unus solus non reducitur, sed unus cum alio vel aliis
         potest reduci, sicut una brevis recta supra unam sillabam et una longa recta supra alteram
-        sillabam sibi coniunctam aequipollent duabus ligatis cum proprietate et <pb n="[49]"/>perfectione iuxta regulam supradictam, ubi dicit: omnis figura cum proprietate et
+        sillabam sibi coniunctam aequipollent duabus ligatis cum proprietate et <pb n="[49]"
+        />perfectione iuxta regulam supradictam, ubi dicit: omnis figura cum proprietate et
         perfectione posita et cetera. Alia regula: si supra sillabam unam fuerit una longa, super
         alteram sillabam sequentem fuerit brevis, supra tertiam sillabam longa, aequipollent tribus
         ligatis cum proprietate et perfectione. Aliter: una longa supra unam sillabam, (A 70v) duae
@@ -767,39 +782,39 @@
         invenire reliqua necessaria per se et cetera, prout in posteris plenius patebit. Sic ex
         praedictis colligimus, quod omnes ligatae post tres et duae ligatae cum una vel una cum
         duabus ad tres ligatas possunt reduci.</p>
-      <p xml:id="ANO4MUS0061">Ea quae dicuntur cum proprietate et sine perfectione, erant primo confuse
-        quoad nomen. Sed per modum aequivocationis accipiebantur, quod quidem modo non est, quoniam
-        in antiquis libris habebant puncta aequivoca nimis, quia simplicia materialia fuerunt
-        aequalia. Sed solo <pb n="[50]"/>intellectu operabantur dicendo: intelligo istam longam,
-        intelligo istam brevem. Et nimio tempore longo laborabant, antequam scirent bene aliquid,
-        quod nunc ex levi ab omnibus laborantibus circa talia percipitur mediantibus praedictis ita,
-        quod quilibet plus proficeret in una hora quam in septem ante quoad longum ire. Maxima pars
-        cognitionis antiquorum fuit in praedictis sine materiali significatione, quod ipsi habebant
-        notitiam concordantiarum melodiae completae sicut de diapason, diapente et diatesseron,
-        sicut in quarto et quinto capitulo istius tractatus plenius continetur, prout habebant
-        respectum superioris ad cantum inferiorem, et docebant alios dicendo: audiatis nos et
-        retineatis et hoc canendo. Sed materialem significationem parvam habebant, et dicebant:
-        punctus iste superior sic concordat cum puncto inferiori, (C 73r) et sufficiebat eis. Et sic
-        dicentes in longo tempore aliqua percipiebant.</p>
-      <p xml:id="ANO4MUS0062">Sed abreviatio erat facta per signa materialia (A 71r) a tempore Perotini
-        Magni et parum ante, et brevius docebant, et adhuc brevius a tempore) magistri Roberti de
-        Sabilone, quamvis spatiose docebat. Sed nimis deliciose fecit melos canendo apparere. Qua de
-        causa fuit valde laudandus Parisius, sicut fuit magister Petrus Trothun Aurelianis in cantu
-        plano. Sed de consideratione temporum parum aut nichil sciebat, ut dicebatur. Sed magister
-        Robertus supradictus optime ea cognoscebat et fideliter docebat. Post ipsum ex documento suo
-        fuit magister Petrus optimus notator, et nimis fideliter libros suos secundum usum et
-        consuetudinem magistri sui et melius notabat. Et tempore illo fuit quidam, qui vocabatur
-        Thomas de Sancto Iuliano Parisius antiquus. Sed non notabat ad modum illorum, sed bonus fuit
-        secundum antiquiores. Quidam vero fuit alius Anglicus, et habebat modum Anglicanum notandi
-        ac etiam in quadam parte docendi. Post ipsos et in tempore suo fuit quidam Iohannes
-        supradictus, et continuavit modos omnium supradictorum usque ad tempus magistri Franconis
-        cum quibusdam aliis magistris sicut magister Theobaldus Gallicus et magister Symon de
-        Sacalia cum quodam magistro de Burgundia ac etiam quodam probo de Picardia, cuius nomen erat
-        magister Iohannes le Fauconer. Boni cantores erant in Anglia et valde deliciose canebant
-        sicut magister Iohannes Filius Dei, sicut (B finitur 219r) Makeblite apud Wyncestriam et
-        Blakesmit in curia domini regis Henrici ultimi. Fuit quidam alius bonus cantor in multiplici
-        genere cantus et organi cum quibusdam aliis, de quibus aliis alias faciemus mentionem et
-        cetera.</p>
+      <p xml:id="ANO4MUS0061">Ea quae dicuntur cum proprietate et sine perfectione, erant primo
+        confuse quoad nomen. Sed per modum aequivocationis accipiebantur, quod quidem modo non est,
+        quoniam in antiquis libris habebant puncta aequivoca nimis, quia simplicia materialia
+        fuerunt aequalia. Sed solo <pb n="[50]"/>intellectu operabantur dicendo: intelligo istam
+        longam, intelligo istam brevem. Et nimio tempore longo laborabant, antequam scirent bene
+        aliquid, quod nunc ex levi ab omnibus laborantibus circa talia percipitur mediantibus
+        praedictis ita, quod quilibet plus proficeret in una hora quam in septem ante quoad longum
+        ire. Maxima pars cognitionis antiquorum fuit in praedictis sine materiali significatione,
+        quod ipsi habebant notitiam concordantiarum melodiae completae sicut de diapason, diapente
+        et diatesseron, sicut in quarto et quinto capitulo istius tractatus plenius continetur,
+        prout habebant respectum superioris ad cantum inferiorem, et docebant alios dicendo:
+        audiatis nos et retineatis et hoc canendo. Sed materialem significationem parvam habebant,
+        et dicebant: punctus iste superior sic concordat cum puncto inferiori, (C 73r) et
+        sufficiebat eis. Et sic dicentes in longo tempore aliqua percipiebant.</p>
+      <p xml:id="ANO4MUS0062">Sed abreviatio erat facta per signa materialia (A 71r) a tempore
+        Perotini Magni et parum ante, et brevius docebant, et adhuc brevius a tempore) magistri
+        Roberti de Sabilone, quamvis spatiose docebat. Sed nimis deliciose fecit melos canendo
+        apparere. Qua de causa fuit valde laudandus Parisius, sicut fuit magister Petrus Trothun
+        Aurelianis in cantu plano. Sed de consideratione temporum parum aut nichil sciebat, ut
+        dicebatur. Sed magister Robertus supradictus optime ea cognoscebat et fideliter docebat.
+        Post ipsum ex documento suo fuit magister Petrus optimus notator, et nimis fideliter libros
+        suos secundum usum et consuetudinem magistri sui et melius notabat. Et tempore illo fuit
+        quidam, qui vocabatur Thomas de Sancto Iuliano Parisius antiquus. Sed non notabat ad modum
+        illorum, sed bonus fuit secundum antiquiores. Quidam vero fuit alius Anglicus, et habebat
+        modum Anglicanum notandi ac etiam in quadam parte docendi. Post ipsos et in tempore suo fuit
+        quidam Iohannes supradictus, et continuavit modos omnium supradictorum usque ad tempus
+        magistri Franconis cum quibusdam aliis magistris sicut magister Theobaldus Gallicus et
+        magister Symon de Sacalia cum quodam magistro de Burgundia ac etiam quodam probo de
+        Picardia, cuius nomen erat magister Iohannes le Fauconer. Boni cantores erant in Anglia et
+        valde deliciose canebant sicut magister Iohannes Filius Dei, sicut (B finitur 219r)
+        Makeblite apud Wyncestriam et Blakesmit in curia domini regis Henrici ultimi. Fuit quidam
+        alius bonus cantor in multiplici genere cantus et organi cum quibusdam aliis, de quibus
+        aliis alias faciemus mentionem et cetera.</p>
       <p xml:id="ANO4MUS0063">
         <pb n="[51]"/>Iterato duae ligatae cum proprietate (C 73v) et imperfectione (B 219v) supra
         unam sillabam cum longa una sequenti reducuntur ad tres ligatas cum proprietate et
@@ -808,8 +823,8 @@
         reducuntur cum proprietate et perfectione. Sic etiam intelligimus de quatuor, quinque vel
         sex et cetera cum proprietate et imperfectione: cum prima longa sequente super alteram
         sillabam ad tres ligatas reducuntur.</p>
-      <p xml:id="ANO4MUS0064">Sed in libris quorundam antiquorum non erat materialis significatio talis
-        significata. Sed solo intellectu procedebant semper cum proprietate et perfectione
+      <p xml:id="ANO4MUS0064">Sed in libris quorundam antiquorum non erat materialis significatio
+        talis significata. Sed solo intellectu procedebant semper cum proprietate et perfectione
         operatoris in eisdem ut in libris Hyspanorum et Pampilonensium et in libris Anglicorum, sed
         diversimode secundum maius et minus et cetera. Gallici vero Parisius habebant omnes istos
         modos supradictorum, prout in libris diversis a diversis notatoribus plenius patet, ad
@@ -868,8 +883,8 @@
         perficitur et cetera. Consimili modo fac omnes ordines istius modi imperfecti, quemadmodum
         superius dictum est in primo imperfecto. Sed proprietas et perfectio istius erit in ordine
         ligatarum modo contrario et (C 75r) e contrario et cetera.</p>
-      <p xml:id="ANO4MUS0069">Et secundum istam regulam ultimam mediantibus concordantiis maxima pars
-        dubitationis librorum antiquorum solvitur, et hoc supra literam vel sine litera, si
+      <p xml:id="ANO4MUS0069">Et secundum istam regulam ultimam mediantibus concordantiis maxima
+        pars dubitationis librorum antiquorum solvitur, et hoc supra literam vel sine litera, si
         disturbantia contingat meli unisoni et cetera. Et propter hoc non est necesse inter scientes
         talia, habere totaliter proprietatem et perfectionem semper et cetera praescise, sed prout
         melius et brevius competit et cetera, ut in posteris plenius patebit.</p>
@@ -883,8 +898,8 @@
         et cetera. Quare sequitur, quod tres ligatae post longam duae primae sunt breves. Sed in
         quodam modo irregulari, ut canunt Anglici, dicunt de isto modo: duas longas et unam brevem
         et cetera. Et quandoque eis competit, quandoque non et cetera.</p>
-      <p xml:id="ANO4MUS0071">Principium quarti modi perfecti sic: tres, tres, tres cum proprietate et
-        perfectione, et in fine duae imperfectae sub intentione perfectionis unius longae in
+      <p xml:id="ANO4MUS0071">Principium quarti modi perfecti sic: tres, tres, tres cum proprietate
+        et perfectione, et in fine duae imperfectae sub intentione perfectionis unius longae in
         pausatione, quamvis pausatio numeralis non fuerit, quod quidem patet remota prima longa
         tertii iuxta ordinem immobilem et remota una in fine et cetera. Primus ordo quarti perfecti
         sic: tres cum proprietate et perfectione, duae cum proprietate et imperfectione cum una
@@ -892,10 +907,10 @@
         proprietate et perfectione, postmodum duae cum proprietate et imperfectione et longa
         pausatione sequenti et cetera. Tertius augmentat se simili modo per tres. Quartus simili
         modo augmentat se per tres et cetera.</p>
-      <p xml:id="ANO4MUS0072">Principium tertii modi imperfecti (A 72v) sic figuratur: una longa, tres,
-        tres, tres et cetera cum proprietate et perfectione, et in fine duae cum proprietate et
-        imperfectione et cetera. Primus ordo tertii imperfecti in diminutione <pb n="[55]"/>unius a
-        sua perfectione sic: remove ultimam in figura trium, cuiuscumque modi fuerit; residuum
+      <p xml:id="ANO4MUS0072">Principium tertii modi imperfecti (A 72v) sic figuratur: una longa,
+        tres, tres, tres et cetera cum proprietate et perfectione, et in fine duae cum proprietate
+        et imperfectione et cetera. Primus ordo tertii imperfecti in diminutione <pb n="[55]"/>unius
+        a sua perfectione sic: remove ultimam in figura trium, cuiuscumque modi fuerit; residuum
         retine, et invenies unam longam et duas cum proprietate (C 75v) et imperfectione, sive
         fuerit notitia materialis vel intellectualis vel ambo, cum una longa pausatione sequenti.
         Sicut modo extraximus primum ordinem tertii imperfecti ex primo tertii perfecti, sic
@@ -909,8 +924,8 @@
         brevium. Et sic intelligatis de omnibus aliis imperfectis eiusdem modi supradicti. De
         singulis eiusdem satis patet per se una cum consideratione ipsius eiusdem modi
         intellectualis, prout in primo capitulo plenius denotatur.</p>
-      <p xml:id="ANO4MUS0073">Principium quinti modi perfecti procedit per longas sine iunctione et sine
-        pausatione sub impari numero et cetera. Primus ordo eiusdem dupliciter significatur in
+      <p xml:id="ANO4MUS0073">Principium quinti modi perfecti procedit per longas sine iunctione et
+        sine pausatione sub impari numero et cetera. Primus ordo eiusdem dupliciter significatur in
         libris antiquorum et modernorum. Unus est ex tribus longis non coniunctis cum una longa
         pausatione et cetera, et ita tres procedendo sub numero impari et cetera. Alius ordo est
         tres ligatas cum proprietate et perfectione et cum una longa pausatione trium temporum. Et
@@ -920,12 +935,12 @@
         modi non fit coniunctio, sed semper disiunctio, et hoc sub numero impari, ut est processus
         secundi ordinis per quinque longas disiunctas cum longa pausatione et cetera. Similiter et
         tertii per septem longas disiunctas cum longa pausatione et cetera.</p>
-      <p xml:id="ANO4MUS0074">Principium sexti modi dupliciter sic: si reducatur ad primum, uno modo, si
-        ad secundum, alio modo. Ad C 76r secundum sic: duae ligatae <pb n="[56]"/>cum proprietate et
-        perfectione cum uno tractu in fine ascendendo vel descendendo, et duae iterum cum tractu et
-        duae cum tractu et cetera sine pausatione, et una brevis in fine propter suam perfectionem,
-        quoniam aliter esset principium eiusdem modi imperfecti, id est, prout est modus
-        imperfectus. Sed prout reducitur ad primum, sic: quatuor ligatae cum proprietate et
+      <p xml:id="ANO4MUS0074">Principium sexti modi dupliciter sic: si reducatur ad primum, uno
+        modo, si ad secundum, alio modo. Ad C 76r secundum sic: duae ligatae <pb n="[56]"/>cum
+        proprietate et perfectione cum uno tractu in fine ascendendo vel descendendo, et duae iterum
+        cum tractu et duae cum tractu et cetera sine pausatione, et una brevis in fine propter suam
+        perfectionem, quoniam aliter esset principium eiusdem modi imperfecti, id est, prout est
+        modus imperfectus. Sed prout reducitur ad primum, sic: quatuor ligatae cum proprietate et
         perfectione et cum uno tractu ascendendo vel descendendo, duae ligatae cum proprietate et
         perfectione cum uno tractu et duae ligatae cum tractu, duae, duae, duae et cetera sine
         pausatione et cetera. Sed quia tractus ille quandoque decipit multum cantores omnes, quia
@@ -942,7 +957,8 @@
         brevibus, quod quidem, si sit ita, tunc tres primae ponuntur pro longa et brevi, et longa
         cum brevi pausatione pro tribus brevibus, et sic alter pes et cetera continuando. Iste vero
         modus figurandi crescit et decrescit per suam diminutionem sicut tertius supradictus, sed
-        hic prima est coniuncta et ibi prima est disiuncta et cetera. Aliter quatuor <pb n="[57]"/>ligatae sine proprietate (C 76v) et cum perfectione cum longa pausatione duorum temporum,
+        hic prima est coniuncta et ibi prima est disiuncta et cetera. Aliter quatuor <pb n="[57]"
+        />ligatae sine proprietate (C 76v) et cum perfectione cum longa pausatione duorum temporum,
         si reducitur ad modum secundum, vel duae ligatae cum proprietate et perfectione cum uno
         tractu et una brevi, quod peius est, quamvis quandoque melius est vel aequale, sicut in
         eodem sono et cetera.</p>
@@ -1007,8 +1023,8 @@
         Sed si frangitur, reducendum ad primum vel secundum vel sextum et cetera. Et sic de aliis
         intellige universaliter, generaliter, specialiter, secundum suos ordines individualiter et
         cetera, et maxime, prout in significationibus materialibus postpositis plenius patebit.</p>
-      <p xml:id="ANO4MUS0079">Exemplum primae pausationis simplicis patet in Latus, prout pausatio est
-        brevis. Aliter, prout est longa duorum temporum, patet in Latus modi secundi supradicti
+      <p xml:id="ANO4MUS0079">Exemplum primae pausationis simplicis patet in Latus, prout pausatio
+        est brevis. Aliter, prout est longa duorum temporum, patet in Latus modi secundi supradicti
         perfecti. Trium temporum patet aliter ut in Regnat tertio modo perfecto. Nota, quod secundum
         materialem significationem pausatio dicitur tractus inter duas modulationes eiusdem ordinis
         vel <pb n="[60]"/>diversi vel diversorum ordinum, prout melius competit. Pausatio talis
@@ -1031,11 +1047,11 @@
         secundum distantiam ab aliqua regula in tertiam vel duorum spatiorum, duorum temporum erit;
         si fuerit longus ab aliqua regula in quartam vel iuxta similitudinem longitudinis eiusdem,
         (B 220r) trium temporum erit.</p>
-      <p xml:id="ANO4MUS0082">Sed nota, quod organistae utuntur in libris suis quinque regulis, sed in
-        tenoribus discantuum quatuor tantum, quia semper tenor solebat sumi ex cantu ecclesiastico
-        notato quatuor regulis et cetera. Sunt quidam alii secundum diversa volumina, qui faciunt
-        semper quinque, sive procedunt per modum discantus sive non, ut patet inter conductos
-        simplices, duplices, triplices et quadruplices, si fuerint. Sed in organo puro et
+      <p xml:id="ANO4MUS0082">Sed nota, quod organistae utuntur in libris suis quinque regulis, sed
+        in tenoribus discantuum quatuor tantum, quia semper tenor solebat sumi ex cantu
+        ecclesiastico notato quatuor regulis et cetera. Sunt quidam alii secundum diversa volumina,
+        qui faciunt semper quinque, sive procedunt per modum discantus sive non, ut patet inter
+        conductos simplices, duplices, triplices et quadruplices, si fuerint. Sed in organo puro et
         triplicibus maioribus semper in tenore non ponebant nisi quatuor, nisi fuerit ex nescientia
         regulatoris, sed semper in superioribus quinque.</p>
       <p xml:id="ANO4MUS0083">
@@ -1069,8 +1085,8 @@
         plenius (C 79v) patet, et alium quendam regularem ascensum et descensum? habebant ad suam
         regulam, (B finitur 220r) prout in eisdem tonis supradictis plenius ordinatur cum quibusdam
         aliis et cetera.</p>
-      <p xml:id="ANO4MUS0084">Duplex (A 74v) pausatio est, quando simplex brevis vel longa duplatur vel
-        triplatur et cetera. Cuius primus ordo patet in hoc Omnes supraposito per exemplum. Et
+      <p xml:id="ANO4MUS0084">Duplex (A 74v) pausatio est, quando simplex brevis vel longa duplatur
+        vel triplatur et cetera. Cuius primus ordo patet in hoc Omnes supraposito per exemplum. Et
         scitote, quod ordines pausationum sumuntur secundum ordines supradictos et cetera parvis
         differentiis distincti, ut in posteris plenius patebit. De duplici pausatione supradicta non
         intelligimus duplare brevem vel longam, sed prout in ordine alicuius modi intelliguntur vel
@@ -1116,15 +1132,16 @@
         semiditonus cum diapente (non in usu), ditonus cum diapente (non in <pb n="[64]"/>usu),
         diapason, ut patet in ista antiphona notata. Sed et quidam alius posuit quatuor proportiones
         inusitatas in eadem et cetera.</p>
-      <p xml:id="ANO4MUS0088">Descriptiones et diffinitiones harum proportionum sic possunt intelligi,
-        (A 75r) et hoc mediante numero proportionato sic: Unitas est discretio cuiuslibet rei per se
-        secundum Iordanum de Nemore. Numerus est collectio unitatum ad invicem. Numerorum alius par,
-        alius impar. Numerorum alius absolutus, alius relatus. Numerorum alius perfectus, alius
-        diminutus, alius superfluus. Numerorum relativorum alii procedunt ordinate secundum
+      <p xml:id="ANO4MUS0088">Descriptiones et diffinitiones harum proportionum sic possunt
+        intelligi, (A 75r) et hoc mediante numero proportionato sic: Unitas est discretio cuiuslibet
+        rei per se secundum Iordanum de Nemore. Numerus est collectio unitatum ad invicem. Numerorum
+        alius par, alius impar. Numerorum alius absolutus, alius relatus. Numerorum alius perfectus,
+        alius diminutus, alius superfluus. Numerorum relativorum alii procedunt ordinate secundum
         medietatem triplicem, alii vero minime. Triplex est medietas. Quaedam dicitur arsmetica ut
         unum, duo, tria, quatuor, quinque, sex, septem, octo, novem, quorum differentiae sunt
         aequales et cetera, prout in secundo libro arsmeticae artis Boecii in dandis accipiendis et
-        cetera plenius accipitur. Est quaedam altera, quae dicitur geometrica medietas ut <pb n="[65]"/>unum, duo, quatuor, octo, sedecim, triginta duo, quorum differentiae: sicut se
+        cetera plenius accipitur. Est quaedam altera, quae dicitur geometrica medietas ut <pb
+          n="[65]"/>unum, duo, quatuor, octo, sedecim, triginta duo, quorum differentiae: sicut se
         habet terminus ad terminum, ita se habet differentia ad differentiam et cetera, prout in
         Geometria Euclidis plenius habetur, inceptio cuius est: Punctus est, cuius pars non est. Est
         et altera medietas, quae dicitur armonica, quae partim convenit cum arsmetica, (C 81r)
@@ -1135,17 +1152,17 @@
         cimbalis benesonantibus et cetera. Est et altera, quae dicitur inaequalis, quae dicitur
         inaequalitas et distinguitur per quinque genera inaequalitatis, quae dicuntur multiplex,
         superparticulare, superpartiens, multiplex superparticulare, multiplex superpartiens.</p>
-      <p xml:id="ANO4MUS0089">Multiplex est, quando maior numerus continet minorem multotiens praecise.
-        Cuius species dicuntur duplum, triplum, quadruplum et cetera. Duplum est, quando maior
-        continet minorem bis; triplum, quando continet <pb n="[66]"/>ter; quadruplum, quando
+      <p xml:id="ANO4MUS0089">Multiplex est, quando maior numerus continet minorem multotiens
+        praecise. Cuius species dicuntur duplum, triplum, quadruplum et cetera. Duplum est, quando
+        maior continet minorem bis; triplum, quando continet <pb n="[66]"/>ter; quadruplum, quando
         continet quater et cetera: duplum ut duo ad unum vel quatuor ad duo, et dicitur diapason; et
         bisduplum, quod est quadruplum, dicitur bis diapason et cetera; a simili de triplici
         diapason, ut patet in fistulis organorum et cetera.</p>
-      <p xml:id="ANO4MUS0090">Superparticulare est maior continens minorem totum et aliquam partem eius
-        praecisam et cetera, et species eius dicuntur sexquialtera vel sexquoaltera, sexquitertia,
-        sexquiquarta et cetera, sexquioctava et cetera. Sexquialtera est, quando maior continet
-        minorem et mediam partem, et dicitur emiolius; sexquitertia continet totum et tertiam
-        partem, et (B finitur 220v) dicitur epitritus; sexquiquarta totum et quartam partem;
+      <p xml:id="ANO4MUS0090">Superparticulare est maior continens minorem totum et aliquam partem
+        eius praecisam et cetera, et species eius dicuntur sexquialtera vel sexquoaltera,
+        sexquitertia, sexquiquarta et cetera, sexquioctava et cetera. Sexquialtera est, quando maior
+        continet minorem et mediam partem, et dicitur emiolius; sexquitertia continet totum et
+        tertiam partem, et (B finitur 220v) dicitur epitritus; sexquiquarta totum et quartam partem;
         sexquioctava totum et octavam partem, et dicitur epogdus. Iterato sexquoaltera proportio
         dicitur diapente et e contrario, sexquitertia diatesseron, sexquioctava tonus. Componentes
         praedictorum cum quibusdam aliis sicut semitonium minus et maius sic possunt haberi (C 81v).
@@ -1154,7 +1171,8 @@
         quatuor ad tria sexquitertia, quod est diatesseron. Ergo diapason constat ex diapente et
         diatesseron. Per quae tria omnis concordantia musicalis vel armonicae artis radicaliter
         accipitur. Sed secundum aliquos diatesseron prima concordantia dicitur, ut scribitur in
-        ecclesiasticis: diatesseron prima et cetera, (A 75v) diapente secunda, diapason tertia. <pb n="[67]"/>Et hoc est unum, si quis sumit easdem proportiones augmentando, et sic
+        ecclesiasticis: diatesseron prima et cetera, (A 75v) diapente secunda, diapason tertia. <pb
+          n="[67]"/>Et hoc est unum, si quis sumit easdem proportiones augmentando, et sic
         diatesseron dicitur prima simphonia, diapente secunda, diapason tertia. Sed minuendo
         proportiones diapason dicitur prima et est melodia maxima et mater omnium concordantiarum
         post eius principium, quod dicitur unisonus, ut supradictum est, quoniam omnis inaequalitas
@@ -1177,8 +1195,8 @@
         triplum superbipartiens, triplum supertripartiens et cetera. Et coniunge quamlibet speciem
         multiplicitatis cum omnibus speciebus superparticularitatis, ut supradictum est de
         multiplici superparticulari.</p>
-      <p xml:id="ANO4MUS0094">Differentia vel intervallum inter tonum et diatesseron vel e contrario est
-        semiditonus, quod est superquinquepartiens vicesimas septimas ut triginta duo ad viginti
+      <p xml:id="ANO4MUS0094">Differentia vel intervallum inter tonum et diatesseron vel e contrario
+        est semiditonus, quod est superquinquepartiens vicesimas septimas ut triginta duo ad viginti
         septem. Ergo differentia inter semiditonum et diatesseron est tonus, quia diatesseron
         componitur ex eisdem. Differentia inter tonum et semiditonum est semitonium minus, quod est
         supertredecimpartiens ducentesimas quadragesimas tertias ut ducenta quinquaginta sex ad
@@ -1194,12 +1212,13 @@
         diapente. Ergo differentia inter ditonum cum diapente et diapente est ditonus. Diapente
         componitur cum semiditono et dicitur semiditonus cum diapente. Ergo differentia semiditoni
         cum diapente et diapente est semiditonus.</p>
-      <p xml:id="ANO4MUS0095">Simili modo omnes proportiones (C 82v) post unisonum possunt componi cum
-        diapason et cum duplici et triplici et cetera sic dicendo: semitonium cum diapason, tonus
-        cum diapason et cetera usque in simphoniam optimam duplex diapason. Et aliae simphoniae
-        possunt dici duplum sexquitertium, quod est diatesseron cum diapason, ac etiam duplum <pb n="[69]"/>sexquoalterum, quod est triplum et dicitur diapente cum diapason. Et nobilissimo
-        modo istae symphoniae inter se differunt. Sic etiam est dicendum de compositis cum duplici
-        diapason et triplici diapason, si necesse fuerit et cetera.</p>
+      <p xml:id="ANO4MUS0095">Simili modo omnes proportiones (C 82v) post unisonum possunt componi
+        cum diapason et cum duplici et triplici et cetera sic dicendo: semitonium cum diapason,
+        tonus cum diapason et cetera usque in simphoniam optimam duplex diapason. Et aliae
+        simphoniae possunt dici duplum sexquitertium, quod est diatesseron cum diapason, ac etiam
+        duplum <pb n="[69]"/>sexquoalterum, quod est triplum et dicitur diapente cum diapason. Et
+        nobilissimo modo istae symphoniae inter se differunt. Sic etiam est dicendum de compositis
+        cum duplici diapason et triplici diapason, si necesse fuerit et cetera.</p>
       <p xml:id="ANO4MUS0096">Diapason dicitur a dia, quod est de, et pan totum et sonus, quasi
         continens totum sonum, id est omnes proportiones (A 76r) concludens armonicas in se, et est
         semper ab aliqua litera monocordi usque in octavam literam consimilem. Diapente dicitur a
@@ -1234,77 +1253,78 @@
         aequalitate omnes proportiones supradictas inesse producere et cetera plura, ut in posteris
         patebit.</p>
       <p xml:id="ANO4MUS0098">Pars secunda</p>
-      <p xml:id="ANO4MUS0099">Sciendum, quod organum verbum aequivocum est. Quandoque dicitur organum
-        purum ut in Iudea et Ierusalem in duplo vel Descendit de (C 83v) caelis vel Gaude Maria et
-        cetera. Alio modo dicitur organum ut in instrumento organorum, sicut prophetia dicit in
-        cordis et organo. Quandoque dicitur alio modo ut in organo triplo, quamvis improprie, ut in
-        Posui adiutorium in triplo. Quandoque simplex organum dicitur ut in simplicibus conductis.
-        Alio modo, prout clerici communes accipiunt, prout in duplicibus conductis <pb n="[71]"/>triplicibus, quadruplicibus et cetera similia, quamvis improprie. Est et aliud organum,
-        prout universales antiqui nominaverunt, et hoc est, prout concordaverunt sonos cum sonis. Et
-        iste universalis modus omnium (exceptis simplicibus conductis) est cuiuslibet mensurae et
-        cuiuslibet cantus et cetera.</p>
-      <p xml:id="ANO4MUS0100">De universali modo sic procedimus super duplicia puncta praedictorum, et
-        primo sic: sit cantus vel tenor CC, signa gravia; organum incipiet per diapason (A 76v) in c
-        acuto contra primum C praedictum, et potest terminari in eodem c per diapason contra ultimum
-        C praedictum dicendo cc acuta contra CC gravia, vel potest terminari in G gravi per diapente
-        dicendo cG, vel aliter per diatesseron in F dicendo cF, aliter in E per ditonum, quod
-        quibusdam (B 221v) placet, quamvis improprie, ut cE, vel in E molle per deutera sinemenon
-        sicut c E molle per semiditonum, aliter si terminaverit in eodem per unisonantiam ut cC.
-        Unde regula: omnis inceptio naturalis armonica inter organistas optimos est aut in unisono
-        vel diapason vel diapente vel diatesseron vel semiditono vel ditono. Sed finis proprie
-        loquendo non est in semiditono vel ditono, quamvis aliqui ibidem sonos suos improprie
-        terminant. Sed omnis finis in diapason vel diapente vel diatesseron et unisono. Sed nota,
-        quod diatesseron raro in duplicibus determinatur, (C 84r) sed saepius in triplicibus et
-        quadruplicibus bene cum alia consonantia et cetera. Item exemplum: sit CC cantus vel tenor;
-        organum potest incipere in G per diapente et potest terminari in c per diapason vel in G per
-        diapente vel in F per diatesseron vel in E per ditonum vel in E molle per sinemenon et
-        semiditonum vel in C per <pb n="[72]"/>unisonum vel per unisonantiam sic colligendo: Gc, GG,
-        GF, GE et GE molle, GC. Iterato incipiendo in F per diatesseron dicendo: Fc, FG, FF, FE, FC.
-        Simili modo procede incipiendo ab E per ditonum sic: Ec, EG, EF, EE, EC. Iterato in E molle
-        per sinemenon per semiditonum incipiendo, dicendo vel canendo: E molle c, E molle G, E molle
-        F, E molle E molle, E molle C. Iterato incipiendo per unisonantiam et terminando per
-        diapason sic: Cc; aliter terminando per diapente vel diatesseron, per ditonum vel
-        semiditonum et unisonum sic: CG, CF, CE vel per sinemenon CE molle et CC, et hoc totum cum
-        tempore voluntario; tamen melius esset non nimis festinanter, sed mediocriter fiat
+      <p xml:id="ANO4MUS0099">Sciendum, quod organum verbum aequivocum est. Quandoque dicitur
+        organum purum ut in Iudea et Ierusalem in duplo vel Descendit de (C 83v) caelis vel Gaude
+        Maria et cetera. Alio modo dicitur organum ut in instrumento organorum, sicut prophetia
+        dicit in cordis et organo. Quandoque dicitur alio modo ut in organo triplo, quamvis
+        improprie, ut in Posui adiutorium in triplo. Quandoque simplex organum dicitur ut in
+        simplicibus conductis. Alio modo, prout clerici communes accipiunt, prout in duplicibus
+        conductis <pb n="[71]"/>triplicibus, quadruplicibus et cetera similia, quamvis improprie.
+        Est et aliud organum, prout universales antiqui nominaverunt, et hoc est, prout
+        concordaverunt sonos cum sonis. Et iste universalis modus omnium (exceptis simplicibus
+        conductis) est cuiuslibet mensurae et cuiuslibet cantus et cetera.</p>
+      <p xml:id="ANO4MUS0100">De universali modo sic procedimus super duplicia puncta praedictorum,
+        et primo sic: sit cantus vel tenor CC, signa gravia; organum incipiet per diapason (A 76v)
+        in c acuto contra primum C praedictum, et potest terminari in eodem c per diapason contra
+        ultimum C praedictum dicendo cc acuta contra CC gravia, vel potest terminari in G gravi per
+        diapente dicendo cG, vel aliter per diatesseron in F dicendo cF, aliter in E per ditonum,
+        quod quibusdam (B 221v) placet, quamvis improprie, ut cE, vel in E molle per deutera
+        sinemenon sicut c E molle per semiditonum, aliter si terminaverit in eodem per unisonantiam
+        ut cC. Unde regula: omnis inceptio naturalis armonica inter organistas optimos est aut in
+        unisono vel diapason vel diapente vel diatesseron vel semiditono vel ditono. Sed finis
+        proprie loquendo non est in semiditono vel ditono, quamvis aliqui ibidem sonos suos
+        improprie terminant. Sed omnis finis in diapason vel diapente vel diatesseron et unisono.
+        Sed nota, quod diatesseron raro in duplicibus determinatur, (C 84r) sed saepius in
+        triplicibus et quadruplicibus bene cum alia consonantia et cetera. Item exemplum: sit CC
+        cantus vel tenor; organum potest incipere in G per diapente et potest terminari in c per
+        diapason vel in G per diapente vel in F per diatesseron vel in E per ditonum vel in E molle
+        per sinemenon et semiditonum vel in C per <pb n="[72]"/>unisonum vel per unisonantiam sic
+        colligendo: Gc, GG, GF, GE et GE molle, GC. Iterato incipiendo in F per diatesseron dicendo:
+        Fc, FG, FF, FE, FC. Simili modo procede incipiendo ab E per ditonum sic: Ec, EG, EF, EE, EC.
+        Iterato in E molle per sinemenon per semiditonum incipiendo, dicendo vel canendo: E molle c,
+        E molle G, E molle F, E molle E molle, E molle C. Iterato incipiendo per unisonantiam et
+        terminando per diapason sic: Cc; aliter terminando per diapente vel diatesseron, per ditonum
+        vel semiditonum et unisonum sic: CG, CF, CE vel per sinemenon CE molle et CC, et hoc totum
+        cum tempore voluntario; tamen melius esset non nimis festinanter, sed mediocriter fiat
         concordantia sive melodia.</p>
-      <p xml:id="ANO4MUS0101">Iterato sicut fecimus supra CC supradictorum, sic fiat super CD. Sit CD
-        tenor, organum incipiendo in diapason et terminando in diapason vel diapente vel diatesseron
-        vel semiditono vel ditono vel unisono sic: cd acuta, ca, cG, cF, cD. Item incipiendo per
-        diapente in G et terminando per praedicta sic: Gd, Ga, GG, GF, GD. Item incipiendo per
-        diatesseron et terminando et cetera sicut Fd, Fa, FG, FF, FD. Item incipiendo per
-        semiditonum vel ditonum et terminando sicut et cetera, sic: Ed, Ea, EG, EF, ED. Item
+      <p xml:id="ANO4MUS0101">Iterato sicut fecimus supra CC supradictorum, sic fiat super CD. Sit
+        CD tenor, organum incipiendo in diapason et terminando in diapason vel diapente vel
+        diatesseron vel semiditono vel ditono vel unisono sic: cd acuta, ca, cG, cF, cD. Item
+        incipiendo per diapente in G et terminando per praedicta sic: Gd, Ga, GG, GF, GD. Item
+        incipiendo per diatesseron et terminando et cetera sicut Fd, Fa, FG, FF, FD. Item incipiendo
+        per semiditonum vel ditonum et terminando sicut et cetera, sic: Ed, Ea, EG, EF, ED. Item
         incipiendo in eodem sono cum eisdem sicut Cd, Ca, CG, CF, CD.</p>
       <p xml:id="ANO4MUS0102">Iterato super CE sic: incipiendo in diapason, terminando in diapason,
         diapente, diatesseron, ditono vel semiditono et eodem sono sic: ce, ch, ca, cG, cE, (C 84v)
         item cC. Incipiendo per diapente cum eisdem sic: Ge, Gh, Ga, GG, GE. Iterato super CE
         incipiendo per diatesseron sic cum eisdem: Fe, Fh, Fa, FG, FE, FC. Iterato super CE
         incipiendo cum eisdem: Ee, Eh, Ea, EG, EE, EC et cetera.</p>
-      <p xml:id="ANO4MUS0103">Item super CF est cf, cc, cb, ca, cF, cD et cetera. De cunctis duplicibus
-        punctis ascendendo simili modo procedendo.</p>
+      <p xml:id="ANO4MUS0103">Item super CF est cf, cc, cb, ca, cF, cD et cetera. De cunctis
+        duplicibus punctis ascendendo simili modo procedendo.</p>
       <p xml:id="ANO4MUS0104">Item de punctis descendentibus sic, et primo super cc acuta sic:
         incipiendo in diapason sub et terminando cum eisdem supradictis sic: <pb n="[73]"/>Cc, Ca,
         CG, CF, CC. Iterato descendendo ab unisono sic: cc, ca, cG, cF, cC. Item incipiendo in a sic
         per semiditonum. Item super cc sub incipiendo in semiditono sic: ac, aa, aG, aF, aC. Item
         super cc et sub sic: Gc, Ga, GG, GF, GC, et sic de singulis omnibus supra et sub et cetera,
         omnia (A 77r) prout patet in suis exemplis.</p>
-      <p xml:id="ANO4MUS0105">Sequitur modo, sicut diximus superius de concordantiis super duo puncta,
-        et hoc (B finitur 221v) secundum sex concordantias armonicas, sic intendimus nunc procedere
-        cum eisdem super tria puncta incipiendo sic: sint CCC cantus vel tenor, incipiendo supra per
-        diapason primis duobus punctis remanentibus sed non differentibus, et tertius post cum
-        eisdem, sicut ccc acutis, et tunc differendo ultimum sonum per diapente, diatesseron,
+      <p xml:id="ANO4MUS0105">Sequitur modo, sicut diximus superius de concordantiis super duo
+        puncta, et hoc (B finitur 221v) secundum sex concordantias armonicas, sic intendimus nunc
+        procedere cum eisdem super tria puncta incipiendo sic: sint CCC cantus vel tenor, incipiendo
+        supra per diapason primis duobus punctis remanentibus sed non differentibus, et tertius post
+        cum eisdem, sicut ccc acutis, et tunc differendo ultimum sonum per diapente, diatesseron,
         semiditonum, ditonum et unisonum sicut ccG, ccF, ccE et cum synemenon cc E molle, ccC.
         Differendo signum secundum cum praedictis et cum eisdem sic: cGc, cGG, cGF, cGE, cGC.
         Iterato differendo signum secundum sic: cFc, cFG, cFF, cFE, cFC. Iterato differendo signum
         secundum sic: cEc, cEG, cEF, cEE, cEC. Iterato differendo signum secundum sic: cCc, cCG,
         cCF, cCE, cCC.</p>
-      <p xml:id="ANO4MUS0106">Quod fecimus supra, nunc faciemus infra sic: sit cantus vel tenor ccc (C
-        85r) acuta incipiendo in superiori; in gravibus CCC differendo ultimum, post istum ultimum
-        sic: CCF, CCG, CCa, CCc. Iterato differendo secundum et mutando tertium sic: CFC, CFF, CFG,
-        CFa, CFc. Iterato differendo secundum et mutando tertium sic: CGC, CGF, CGG, CGa, CGc. Item
-        differendo secundum et mutando tertium sic: CaC, CaF, CaG, Caa, Cac. Item differendo
-        secundum et mutando tertium: CcC, CcF, CcG, Cca, Ccc. Et sic quilibet subtilis, si voluerit,
-        poterit continuare singula tria iuxta ordinem supradictum, prout in concordantiis monocordi
-        plenius continetur et cetera.</p>
+      <p xml:id="ANO4MUS0106">Quod fecimus supra, nunc faciemus infra sic: sit cantus vel tenor ccc
+        (C 85r) acuta incipiendo in superiori; in gravibus CCC differendo ultimum, post istum
+        ultimum sic: CCF, CCG, CCa, CCc. Iterato differendo secundum et mutando tertium sic: CFC,
+        CFF, CFG, CFa, CFc. Iterato differendo secundum et mutando tertium sic: CGC, CGF, CGG, CGa,
+        CGc. Item differendo secundum et mutando tertium sic: CaC, CaF, CaG, Caa, Cac. Item
+        differendo secundum et mutando tertium: CcC, CcF, CcG, Cca, Ccc. Et sic quilibet subtilis,
+        si voluerit, poterit continuare singula tria iuxta ordinem supradictum, prout in
+        concordantiis monocordi plenius continetur et cetera.</p>
       <p xml:id="ANO4MUS0107">
         <pb n="[74]"/>Pars tertia</p>
       <p xml:id="ANO4MUS0108">Sequitur de discantu. Discantus est aliquorum diversorum cantuum
@@ -1357,21 +1377,21 @@
         Est et alius modus, qui dicitur habundans supra rectam mensuram rectae longitudinis et
         rectae brevitatis, et dicitur contra ultra mensuram, vel potest dici modus obliquus
         transumptive, et sic obliquus ad obliquum. Tertius modus de utroque supradictorum.</p>
-      <p xml:id="ANO4MUS0111">Rectus ad rectum multiplex est: aut primus cum primo vel contra primum,
-        vel secundus contra secundum, aut sextus contra sextum. Et isti tres modi dicuntur ad idem.
-        Alio modo a diverso ad diversum ut primus contra secundum, primus (B finitur 222r) contra
-        sextum et secundus ad sextum cum subversionibus illorum, hoc est: ponere secundum loco
-        discantus et primum loco tenoris, vel sextum loco discantus et secundum loco tenoris. Primus
-        ad primum sicut a, secundus ad secundum ut b, sextus ad sextum ut c; primus ad secundum ut
-        d, primus ad sextum ut e, secundus ad sextum ut f, sextus ad primum ut g, secundus ad primum
-        ut h. Et dicuntur rectus ad rectum, quia primus, secundus et sextus per rectas longas et per
-        rectas breves procedunt, ut supradictum est et cetera.</p>
-      <p xml:id="ANO4MUS0112">Sunt quidam alii modi ultra rectam mensuram se habentes, quamvis aliquam
-        participationem habeant cum praedictis et cetera. Et sunt tertius, quartus et quintus. Et
-        dicimus, quod fit triplici modo ut de aliis: ad idem ut tertius contra tertium, quartus
-        contra quartum, quintus contra quintum; ad diversum sic: tertius contra quartum, tertius
-        contra quintum, quartus contra tertium, quartus contra quintum, quintus contra tertium,
-        quintus contra quartum.</p>
+      <p xml:id="ANO4MUS0111">Rectus ad rectum multiplex est: aut primus cum primo vel contra
+        primum, vel secundus contra secundum, aut sextus contra sextum. Et isti tres modi dicuntur
+        ad idem. Alio modo a diverso ad diversum ut primus contra secundum, primus (B finitur 222r)
+        contra sextum et secundus ad sextum cum subversionibus illorum, hoc est: ponere secundum
+        loco discantus et primum loco tenoris, vel sextum loco discantus et secundum loco tenoris.
+        Primus ad primum sicut a, secundus ad secundum ut b, sextus ad sextum ut c; primus ad
+        secundum ut d, primus ad sextum ut e, secundus ad sextum ut f, sextus ad primum ut g,
+        secundus ad primum ut h. Et dicuntur rectus ad rectum, quia primus, secundus et sextus per
+        rectas longas et per rectas breves procedunt, ut supradictum est et cetera.</p>
+      <p xml:id="ANO4MUS0112">Sunt quidam alii modi ultra rectam mensuram se habentes, quamvis
+        aliquam participationem habeant cum praedictis et cetera. Et sunt tertius, quartus et
+        quintus. Et dicimus, quod fit triplici modo ut de aliis: ad idem ut tertius contra tertium,
+        quartus contra quartum, quintus contra quintum; ad diversum sic: tertius contra quartum,
+        tertius contra quintum, quartus contra tertium, quartus contra quintum, quintus contra
+        tertium, quintus contra quartum.</p>
       <p xml:id="ANO4MUS0113">Rectus contra ultra mensuram vel obliquum multis modis: primus contra
         tertium, primus contra quartum, primus contra quintum; aliter: <pb n="[77]"/>(C 87r)
         secundus contra tertium vel quartum vel quintum, sextus contra tertium vel quartum vel
@@ -1399,30 +1419,30 @@
         222v) et <pb n="[78]"/>semiditonus apud aliquos non sic reputantur. Tamen apud organistas
         optimos et prout in quibusdam terris sicut in Anglia in patria, quae dicitur Westcuntre,
         optimae concordantiae dicuntur, quoniam apud tales magis, sunt in usu.</p>
-      <p xml:id="ANO4MUS0117">Sunt quidam boni organistae et factores cantuum, qui non regulariter iuxta
-        considerationem praedictam ponunt discordantias loco concordantiae vel concordantiarum, et
-        hoc per quandam subtilitatem ponimus <pb n="[79]"/>punctorum sive notarum et sonorum sicut
-        tonus ante perfectam concordantiam, sive fuerit paenultima vel aliter, quoniam regula est:
-        omnis paenultima ante pausationem, quae dicitur finis punctorum, longa est. Et si paenultima
-        fuerit tonus in duplo supra tenorem ut in organo puro, optime erit concordans, quamvis tonus
-        non sit concordantia. Et iste modus valde utitur inter puros organistas et inter Lumbardos
-        organizantes. Sed differentia est, quod organistae in libris suis ponunt ultimam, quae est
-        post paenultimam in eodem sono cum tenore vel in diapason, sed quidam Lumbardi quandoque
-        ponunt ultimam, quandoque non, et recedunt sub intentione concordantiae ultimae in eodem
-        sono. Tamen concordantia philosopha non est.</p>
-      <p xml:id="ANO4MUS0118">Exemplum sic patet de concordantia toni supradicti (C 88r) in organo puro:
-        gg pro longa florificata, prout utitur in organo puro, ec cum <pb n="[80]"/>pausatione
+      <p xml:id="ANO4MUS0117">Sunt quidam boni organistae et factores cantuum, qui non regulariter
+        iuxta considerationem praedictam ponunt discordantias loco concordantiae vel
+        concordantiarum, et hoc per quandam subtilitatem ponimus <pb n="[79]"/>punctorum sive
+        notarum et sonorum sicut tonus ante perfectam concordantiam, sive fuerit paenultima vel
+        aliter, quoniam regula est: omnis paenultima ante pausationem, quae dicitur finis punctorum,
+        longa est. Et si paenultima fuerit tonus in duplo supra tenorem ut in organo puro, optime
+        erit concordans, quamvis tonus non sit concordantia. Et iste modus valde utitur inter puros
+        organistas et inter Lumbardos organizantes. Sed differentia est, quod organistae in libris
+        suis ponunt ultimam, quae est post paenultimam in eodem sono cum tenore vel in diapason, sed
+        quidam Lumbardi quandoque ponunt ultimam, quandoque non, et recedunt sub intentione
+        concordantiae ultimae in eodem sono. Tamen concordantia philosopha non est.</p>
+      <p xml:id="ANO4MUS0118">Exemplum sic patet de concordantia toni supradicti (C 88r) in organo
+        puro: gg pro longa florificata, prout utitur in organo puro, ec cum <pb n="[80]"/>pausatione
         competenti, bdbd coniunctim, et tunc dbG cum pausatione, bdbd coniunctim, bcaa tangendo
         disiunctim sine florificatione, cum elongatione finis G vel sine; cuius tenor totius est G
         continuando et G in fine modo stabili ut in burdone organorum. Et tale exemplum sive simile
         in pluribus locis organi puri patet et patebit, et maxime, ut in septimo capitulo postposito
         plenius ostenditur vel ostendetur.</p>
-      <p xml:id="ANO4MUS0119">Exemplum in discantu sic: cuius tenor est a GF bis vel ter vel pluries, et
-        discantus duplum cdef, cum discensu pluries dictum et cetera. Et sic patet, quod vilis
-        discordantia sive taediosa, quae est sexta, et refutabilis ab omnibus in maiori parte, et
-        ipsa est paenultima ante perfectam concordantiam, quae est diapason, optima concordantia fit
-        sub tali ordinatione et positione punctorum sive (A 78v) sonorum, ut praedictum est. Et sic
-        de aliis discordantiis intellige, prout in postpositis plenius patebit. Sic etiam sine
+      <p xml:id="ANO4MUS0119">Exemplum in discantu sic: cuius tenor est a GF bis vel ter vel
+        pluries, et discantus duplum cdef, cum discensu pluries dictum et cetera. Et sic patet, quod
+        vilis discordantia sive taediosa, quae est sexta, et refutabilis ab omnibus in maiori parte,
+        et ipsa est paenultima ante perfectam concordantiam, quae est diapason, optima concordantia
+        fit sub tali ordinatione et positione punctorum sive (A 78v) sonorum, ut praedictum est. Et
+        sic de aliis discordantiis intellige, prout in postpositis plenius patebit. Sic etiam sine
         paenultimis finalibus intellige. Iterato sunt quidam, qui multiplicant multiplices
         discordantias ante unam perfectam concordantiam sicut ante diapason, et nimis inde gaudent
         et rident, et videtur esse mirabile magnum inter ipsos, quod hoc potest fieri sicut dfcdcbc
@@ -1431,8 +1451,8 @@
         sicut ante diapente, et hoc invenitur (C 88v)in organo puro et in quibusdam aliis locis. Sed
         difficile est communibus hominibus hoc facere, et hoc plenius declarabimus in capitulo
         septimo sequenti et cetera.</p>
-      <p xml:id="ANO4MUS0120">Propositis duobus duplo cum primo bene paratis, ut dictum est, vel quod
-        sufficienter se habeant ad invicem, quibus adiungitur triplum, quod uno modo (B finitur
+      <p xml:id="ANO4MUS0120">Propositis duobus duplo cum primo bene paratis, ut dictum est, vel
+        quod sufficienter se habeant ad invicem, quibus adiungitur triplum, quod uno modo (B finitur
         222v) sic potest haberi: abcdc brevis pausatio, de eodem modo supradicto, ulterius cbcbaGF
         tres pro longa, acdcdcdcbaG tres pro brevi, abcb, reitera, quantum placuerit, et bene
         concordabit cum praedictis. Regulae tripli tales sunt: si fuerit in primo modo, omnia puncta
@@ -1488,7 +1508,8 @@
         lagi et similia alia plura, de quibus omnibus in suis libris vel voluminibus plenius
         patet.</p>
       <p xml:id="ANO4MUS0125">Ad praesens intendimus tractare de triplis maioribus supradictis, quae
-        secundum triplicem diversitatem uno modo procedunt et per aliam triplicem <pb n="[83]"/>diversitatem simili modo procedunt (B finitur 223r) et iterato per aliam simplicem
+        secundum triplicem diversitatem uno modo procedunt et per aliam triplicem <pb n="[83]"
+        />diversitatem simili modo procedunt (B finitur 223r) et iterato per aliam simplicem
         diversitatem procedunt, et sic colligimus per unum, per alium et tertium salva communi
         divisione supradicta cum quibusdam aliis. Una diversitas est, quae procedit secundum tres
         diversitates mensurarum, et hoc per modum discantus in omni vel in omnibus tribus ut in
@@ -1521,17 +1542,17 @@
         et cetera. Procede ulterius per exempla, ut in triplis melius patet vel prout in exemplis
         extractis ab eisdem.</p>
       <p xml:id="ANO4MUS0126">Capitulum septimum</p>
-      <p xml:id="ANO4MUS0127">Septimum capitulum tractat de modis irregularibus; qui modi dicuntur (B
-        223v) voluntarii et sunt multiplices.</p>
+      <p xml:id="ANO4MUS0127">Septimum capitulum tractat de modis irregularibus; qui modi dicuntur
+        (B 223v) voluntarii et sunt multiplices.</p>
       <p xml:id="ANO4MUS0128">Quorum unus est, qui procedit per unam longam (C 91r) duplicem et per
         semibrevem vel minimam et longam debitam, et sic per talem brevem et longam continuando et
         cetera, ut patet in Alleluia Posui adiutorium, quoniam ibi ponatur loco copulae sub tali
         forma: f duplex longa, fe coniunctim, fd coniunctim, ec, df, gf cum plica, dc cum plica, a
         duplex longa cum c coniunctim. Et iste modus dicitur primus irregularis, et bene competit
         organo puro.</p>
-      <p xml:id="ANO4MUS0129">Secundus modus irregularis est brevis parva vel minima cum longa duplici
-        vel nimis longa coniunctim, iterato eadem brevis et eadem longa, et sic continuando et
-        cetera.</p>
+      <p xml:id="ANO4MUS0129">Secundus modus irregularis est brevis parva vel minima cum longa
+        duplici vel nimis longa coniunctim, iterato eadem brevis et eadem longa, et sic continuando
+        et cetera.</p>
       <p xml:id="ANO4MUS0130">Tertius irregularis est una longa nimia cum duabus longis tardis
         (irrespective breves dicuntur) et tertia mediocris, prout melius competit coniunctim,
         iterato similes tres coniunctim, et sic procedendo et cetera. Est et alius irregularis
@@ -1549,27 +1570,28 @@
       <p xml:id="ANO4MUS0132">Quintus irregularis est una nimia et plures sicut tres vel quatuor vel
         quinque longae mediae, quamvis paenultima sit nimia. Et pone sub numero secundum quod melius
         competit et placuerit voluntati iuxta appetitum alcuius modi supradicti.</p>
-      <p xml:id="ANO4MUS0133">Sextus irregularis sic procedit: quatuor coniunctim et tres coniunctim et
-        tres coniunctim et cetera, omnes breves mediocres, quamvis paenultima de quatuor sit nimia,
-        et omnis paenultima trium simili modo sit nimia. Et multis modis (C 91v) iste modus potest
-        diversificari, ut alias patebit.</p>
-      <p xml:id="ANO4MUS0134">Et iuxta septem dona spiritus sancti est septimus modus nobilissimus et
-        dignissimus, magis voluntarius (A 80r) et placens. Et iste modus est modus permixtus et
+      <p xml:id="ANO4MUS0133">Sextus irregularis sic procedit: quatuor coniunctim et tres coniunctim
+        et tres coniunctim et cetera, omnes breves mediocres, quamvis paenultima de quatuor sit
+        nimia, et omnis paenultima trium simili modo sit nimia. Et multis modis (C 91v) iste modus
+        potest diversificari, ut alias patebit.</p>
+      <p xml:id="ANO4MUS0134">Et iuxta septem dona spiritus sancti est septimus modus nobilissimus
+        et dignissimus, magis voluntarius (A 80r) et placens. Et iste modus est modus permixtus et
         communis et est de omnibus duobus supradictis et de omnibus tribus et de omnibus quatuor et
         cetera. Et proprie loquendo denominatur organum purum et nobile et cetera.</p>
       <p xml:id="ANO4MUS0135">Nota, quod ad cognitionem puri organi praedicti modi irregulares
         sufficient cum quibusdam aliis postpositis. Iterato nota, quod sufficit de modo figurandi
         iuxta descriptionem eorundem, ut superius plenius patet; et est figuratio consimilis sicut
         in aliis regularibus, quamvis in aliquibus sit differentia et cetera. (B finitur 223v)</p>
-      <p xml:id="ANO4MUS0136">Pausationes vero valde voluntarie procedunt secundum quod melius videbitur
-        cantori vel operatori, et hoc in minimis, maioribus et mediocribus. Duplices vero in organo
-        puro raro inveniuntur.</p>
+      <p xml:id="ANO4MUS0136">Pausationes vero valde voluntarie procedunt secundum quod melius
+        videbitur cantori vel operatori, et hoc in minimis, maioribus et mediocribus. Duplices vero
+        in organo puro raro inveniuntur.</p>
       <p xml:id="ANO4MUS0137">Concordantiae organi puri regulares dicuntur unisonus et diapason,
         diatesseron et diapente, semiditonus et ditonus; et istae sex dicuntur primae concordantiae,
         et dicuntur perfectae et imperfectae et mediae, ut praedictum est in capitulo
         concordantiarum. Secundariae dicuntur quinque tantum cum unisono exclusive, et dicuntur
         duplex diapason, quod armonice dicitur quadrupla proportio, diapente cum diapason, quod
-        dicitur tripla proportio, diatesseron cum diapason, quod dicitur duplum <pb n="[86]"/>sesquitertium, ditonus cum diapason et semiditonus cum diapason, ut superius in capitulo
+        dicitur tripla proportio, diatesseron cum diapason, quod dicitur duplum <pb n="[86]"
+        />sesquitertium, ditonus cum diapason et semiditonus cum diapason, ut superius in capitulo
         praenominato dictum est. Et sic numero colligimus sex et quinque, quae faciunt undecim et
         cetera. Iterato tertiae sive remotae dicuntur semiditonus cum bis diapason et ditonus cum
         bis diapason, diatesseron cum bis diapason, diapente cum bis diapason, quod quidem in humana
@@ -1579,25 +1601,25 @@
         diapason, quamvis in communi usu se habeat in instrumento organorum et ulterius aliorum
         instrumentorum, et hoc numero cordarum vel fistularum vel prout in cimbalis benesonantibus
         apud bonos musicos plenius habetur.</p>
-      <p xml:id="ANO4MUS0138">In puro autem organo multiplici via et modo longae et breves cognoscuntur.
-        Uno modo sic: omnis punctus primus, sive fuerit concordans in aliqua concordantia
-        praedictarum sive non, aut erit longa parva vel longa tarda vel media, et hoc in quacumque
-        ligatura, sive fuerit duum vel trium et cetera. Sed talis erit differentia: si fuerit
-        concordans, tenor erit resonans sive redundans; si vero non fuerit concordans, erit tacens
-        vel quiescens. Item omnis punctus ultimus erit longus et concordans. Item omnis punctus
-        paenultimus ante longam pausationem sicut in fine puncti vel clausulae est longus. Item
-        omnis punctus paenultimus similitudinarie perceptus longus per modum, sive fuerit concordans
-        sive non. Item omnis punctus duorum: primus, si fuerit in concordantia, longus; si fuerit in
-        discordantia, brevis in quantum (B 224r) de se et non in quantum de <pb n="[87]"/>paenultima
-        praedicta. Item omnis punctus ultimus duorum: si fuerit concordans, longus; si fuerit
-        discordans, minime in quantum de se et cetera. Item omnis punctus trium: primus longus, si
-        fuerit in concordantia; si non, non. Omnis punctus secundarius trium: longus in
-        concordantia, aliter non in quantum de se, et in paenultima supradicta longus. Omnis ultimus
-        trium: longus in concordantia, in discordantia brevis, et in paenultimo (A 80v) dicto
-        longus. Omnis punctus de quatuor: primus vel secundus vel tertius vel quartus, si fuerit in
-        concordantia, longus; si in discordantia, brevis.</p>
-      <p xml:id="ANO4MUS0139">Item duo puncta in eodem sono, sive fuerint in concordantia sive non, pro
-        longa florata ponuntur.</p>
+      <p xml:id="ANO4MUS0138">In puro autem organo multiplici via et modo longae et breves
+        cognoscuntur. Uno modo sic: omnis punctus primus, sive fuerit concordans in aliqua
+        concordantia praedictarum sive non, aut erit longa parva vel longa tarda vel media, et hoc
+        in quacumque ligatura, sive fuerit duum vel trium et cetera. Sed talis erit differentia: si
+        fuerit concordans, tenor erit resonans sive redundans; si vero non fuerit concordans, erit
+        tacens vel quiescens. Item omnis punctus ultimus erit longus et concordans. Item omnis
+        punctus paenultimus ante longam pausationem sicut in fine puncti vel clausulae est longus.
+        Item omnis punctus paenultimus similitudinarie perceptus longus per modum, sive fuerit
+        concordans sive non. Item omnis punctus duorum: primus, si fuerit in concordantia, longus;
+        si fuerit in discordantia, brevis in quantum (B 224r) de se et non in quantum de <pb
+          n="[87]"/>paenultima praedicta. Item omnis punctus ultimus duorum: si fuerit concordans,
+        longus; si fuerit discordans, minime in quantum de se et cetera. Item omnis punctus trium:
+        primus longus, si fuerit in concordantia; si non, non. Omnis punctus secundarius trium:
+        longus in concordantia, aliter non in quantum de se, et in paenultima supradicta longus.
+        Omnis ultimus trium: longus in concordantia, in discordantia brevis, et in paenultimo (A
+        80v) dicto longus. Omnis punctus de quatuor: primus vel secundus vel tertius vel quartus, si
+        fuerit in concordantia, longus; si in discordantia, brevis.</p>
+      <p xml:id="ANO4MUS0139">Item duo puncta in eodem sono, sive fuerint in concordantia sive non,
+        pro longa florata ponuntur.</p>
       <p xml:id="ANO4MUS0140">Item currentes cum antecedente ut in Viderunt undecim punctorum habent
         quendam modum extraneum ab aliis: non curant, utrum (C 92v) concordant vel non, sed
         aequaliter pro posse et velociter descendunt; si primus punctus fuerit currens, tunc eius
@@ -1623,20 +1645,21 @@
         primam sequentem concordantem erit inceptio. Et hoc unum est, si fuerit modulatio meli
         ratione alicuius pulcritudinis vel convenientis coloris et cetera similia (C 93r), quae
         pertinent ad inceptionem ante principium.</p>
-      <p xml:id="ANO4MUS0143">Finis in nomine sanctissimi omega multiplici modo finitur. Quidam finiunt
-        cum puncto solo aut in diapason vel unisono vel diapente, raro autem in diatesseron, nisi
-        fuerit in instrumento cordarum, et rarius per ditonum et semiditonum, sicut homines
+      <p xml:id="ANO4MUS0143">Finis in nomine sanctissimi omega multiplici modo finitur. Quidam
+        finiunt cum puncto solo aut in diapason vel unisono vel diapente, raro autem in diatesseron,
+        nisi fuerit in instrumento cordarum, et rarius per ditonum et semiditonum, sicut homines
         occidentales faciunt. Sed per omnes bene fit inceptio supradicta. Sunt quidam alii, qui
         ponunt unam paenultimam ante supradictum diapason, sive fuerit concordans sive discordans,
         dum tamen fuerit competens et cetera. Sunt quidam alii, qui ponunt ante illam paenultimam
         unam, duas vel tres vel plures, prout melius competit vel competierit de uno modo vel
-        pluribus modis, dum tamen non nimis dilatet, quin perveniat ad finem. Et quidam boni <pb n="[89]"/>organistae libentius ponunt discordantias in paenultimis talibus quam
+        pluribus modis, dum tamen non nimis dilatet, quin perveniat ad finem. Et quidam boni <pb
+          n="[89]"/>organistae libentius ponunt discordantias in paenultimis talibus quam
         concordantias et cetera similia, prout in libris organi plenius patet.</p>
-      <p xml:id="ANO4MUS0144">Quicquid contingit inter inceptionem supradictam et finem supradictum, pro
-        mediatione habetur.</p>
-      <p xml:id="ANO4MUS0145">In nomine et honore sanctissimi mediatoris omnium, qui est verus salvator,
-        Iesus Christus, filius dei vivi, et qui est corona et gloria omnium sanctorum, ad quam
-        gloriam possumus omnes pervenire cum sanctissimo.</p>
+      <p xml:id="ANO4MUS0144">Quicquid contingit inter inceptionem supradictam et finem supradictum,
+        pro mediatione habetur.</p>
+      <p xml:id="ANO4MUS0145">In nomine et honore sanctissimi mediatoris omnium, qui est verus
+        salvator, Iesus Christus, filius dei vivi, et qui est corona et gloria omnium sanctorum, ad
+        quam gloriam possumus omnes pervenire cum sanctissimo.</p>
     </body>
   </text>
 </TEI>

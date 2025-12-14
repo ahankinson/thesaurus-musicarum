@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Tonarium</title>
         <title type="abbrev">ODOTON</title>
-        <author>Odo</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Odo</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1993</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1993">1993</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptores ecclesiastici de musica sacra potissimum</emph>, 3 vols., ed. Martin
@@ -59,25 +69,25 @@
         <pb n="[247]"/>Domni Oddonis abbatis, ut videtur, Cluniacensis tonarius.</p>
       <p xml:id="ODOTON0002">
         <pb n="[248]"/>Prooemium tonarii domni Oddonis abbatis.</p>
-      <p xml:id="ODOTON0003">Incipit formula super tonos, qualiter unusquisque cantor in Ecclesia agere
-        debeat.</p>
+      <p xml:id="ODOTON0003">Incipit formula super tonos, qualiter unusquisque cantor in Ecclesia
+        agere debeat.</p>
       <p xml:id="ODOTON0004">Gloria: Euouae. id est: Saeculorum amen.</p>
-      <p xml:id="ODOTON0005">Formulas, quas vobis ad cantandum scribere procuravi, qualiter omnis cantor
-        ecclesiae tenere debeat tonum antiphonarum, officiorum seu communionum, vel qualemcumque
-        cantum adire poterit, summo cum studio legere studeat, qui arcem magisterii in ecclesia
-        tenere voluerit in cantu. Admoneo autem omnes cantores, praecipue tamen eos, qui in ecclesia
-        maiores praeesse videntur, ut quotidie subditis suis haec exempla subtilius subministrent,
-        ne quando antiphonae in ecclesia inceperint, scrupulum generent in incipientia psalmi, et
-        per diversa incipiant evagari. Studiositatem autem quicumque habere voluerit in cantu,
-        quotidie perlegat has formulas et differentias, quas in se habent, et quando voluerit
-        antiphonam in ecclesia incipere, non teneat introitum eius, sed ad finem quantocyus currat,
-        et in cuius tono eam invenerit, in ipsius sono incipiat psalmum: quia sunt plerique in
-        ecclesia, ex quorum numero multos conspexi, qui propter arrogantiam se anteponunt caeteris,
-        et faciunt suum tonum, et dicunt, quod talis tonus fit et talis, et ipsi per omnia fallunt;
-        et hoc non faciunt pro alia causa, nisi ut magistri appareant ante illos. Isti tales plus
-        damnationem sibi exinde acquirunt, quam mercedem, quia beatus Papa Gregorius non inertiam se
-        sectatus fuisse dixit, quando cantum facere studuit, sed ad credulorum animos demulcendos
-        hoc fecit ad laudem Conditoris nostri.</p>
+      <p xml:id="ODOTON0005">Formulas, quas vobis ad cantandum scribere procuravi, qualiter omnis
+        cantor ecclesiae tenere debeat tonum antiphonarum, officiorum seu communionum, vel
+        qualemcumque cantum adire poterit, summo cum studio legere studeat, qui arcem magisterii in
+        ecclesia tenere voluerit in cantu. Admoneo autem omnes cantores, praecipue tamen eos, qui in
+        ecclesia maiores praeesse videntur, ut quotidie subditis suis haec exempla subtilius
+        subministrent, ne quando antiphonae in ecclesia inceperint, scrupulum generent in
+        incipientia psalmi, et per diversa incipiant evagari. Studiositatem autem quicumque habere
+        voluerit in cantu, quotidie perlegat has formulas et differentias, quas in se habent, et
+        quando voluerit antiphonam in ecclesia incipere, non teneat introitum eius, sed ad finem
+        quantocyus currat, et in cuius tono eam invenerit, in ipsius sono incipiat psalmum: quia
+        sunt plerique in ecclesia, ex quorum numero multos conspexi, qui propter arrogantiam se
+        anteponunt caeteris, et faciunt suum tonum, et dicunt, quod talis tonus fit et talis, et
+        ipsi per omnia fallunt; et hoc non faciunt pro alia causa, nisi ut magistri appareant ante
+        illos. Isti tales plus damnationem sibi exinde acquirunt, quam mercedem, quia beatus Papa
+        Gregorius non inertiam se sectatus fuisse dixit, quando cantum facere studuit, sed ad
+        credulorum animos demulcendos hoc fecit ad laudem Conditoris nostri.</p>
       <p xml:id="ODOTON0006">
         <pb n="[249]"/>Nullus denique putet, quod omnes antiphonae in suo principio se conveniant
         cum initio psalmi; maiorem autem partem antiphonarum in fine volunt sibi incipere psalmum,
@@ -97,48 +107,49 @@
         est, in suo initio se concordant cum psalmo, plures autem in suo fine incipiendae sunt.</p>
       <p xml:id="ODOTON0008">Sequuntur octo toni cum suis differentiis.</p>
       <p xml:id="ODOTON0009">De Octo tonora per ordinem.</p>
-      <p xml:id="ODOTON0010">I. Prima differentia, tonus Dorius et authentus protus, vox odax, metrum
-        vero lichanos hypaton: organum anoton, symphonia varietas proti, chorda vero scembs, uti
-        primum tonum incipiens, et scemata D. Loquimur quomodo quemque differentias per singulas
+      <p xml:id="ODOTON0010">I. Prima differentia, tonus Dorius et authentus protus, vox odax,
+        metrum vero lichanos hypaton: organum anoton, symphonia varietas proti, chorda vero scembs,
+        uti primum tonum incipiens, et scemata D. Loquimur quomodo quemque differentias per singulas
         ascendunt, et descendunt tonando cum vocibus. Prima differentia inchoat in quarta chorda,
         quae vocatur scembs, et serenando ascendit in octava quae dicitur Kaphe, et serenando
         ascendet usque ad tertiam, quae dicitur Re, et repausa ubi incipit. Incipit cantus.</p>
       <p xml:id="ODOTON0011">Primum quaerite regnum Dei.</p>
       <p xml:id="ODOTON0012">Finit primus, incipit secundus.</p>
-      <p xml:id="ODOTON0013">II. Secunda vero differentia tonus hypoiastius, et plagis proti, vox odax,
-        metrum vero lichanos hypaton, organum ysaton, symphonia varietas plagis proti. Chorda vero
-        Scembs, et scemata D. Secunda differentia inchoat in quarta chorda, quae vocatur Scembs, et
-        ascendit in sexta chorda, quae dicitur neth, et descendit ad primam, quae vocatur buc, et
-        repausa ubi incipit. Cantus</p>
+      <p xml:id="ODOTON0013">II. Secunda vero differentia tonus hypoiastius, et plagis proti, vox
+        odax, metrum vero lichanos hypaton, organum ysaton, symphonia varietas plagis proti. Chorda
+        vero Scembs, et scemata D. Secunda differentia inchoat in quarta chorda, quae vocatur
+        Scembs, et ascendit in sexta chorda, quae dicitur neth, et descendit ad primam, quae vocatur
+        buc, et repausa ubi incipit. Cantus</p>
       <p xml:id="ODOTON0014">Secundum autem simile est huic.</p>
       <p xml:id="ODOTON0015">Finit secundus: incipit tertius.</p>
       <p xml:id="ODOTON0016">III. Tertia igitur differentia tonus AEolius semitonius, et authentus
-        deuterus. Vox iubilo, metrum vero hypate meson, organum chamilon. Symphonia varietas <pb n="[250]"/>deuteri, chorda vero Caphe, et scemata b. Tertia differentia inchoat in
+        deuterus. Vox iubilo, metrum vero hypate meson, organum chamilon. Symphonia varietas <pb
+          n="[250]"/>deuteri, chorda vero Caphe, et scemata b. Tertia differentia inchoat in
         nonachorda, quae vocatur caphe, et ascendet ad undecimam chordam, quae dicitur suggesse, et
         descendet usque in quartam, quae dicitur Scembs, et repausa in scemata E.</p>
       <p xml:id="ODOTON0017">Item cantus.</p>
       <p xml:id="ODOTON0018">Tertia dies est, quod haec facta sunt.</p>
       <p xml:id="ODOTON0019">Finit tertius: incipit quartus.</p>
-      <p xml:id="ODOTON0020">IV. Quarta sumitur autem differentia tonus cantus et plagis deuteri, vox
-        iubilo, metrum vero hypate meson, organum Salpion, Symphonia varietas plagis deuteri. Chorda
-        vero Caemar, et scemata E. Quarta autem differentia sumitur in quinta chorda, quae dicitur
-        Caemar; et ascendit ad septimam, quae vocatur Uciche, et descendit ad tertiam, quae dicitur
-        Re, et repausa ubi incipit.</p>
+      <p xml:id="ODOTON0020">IV. Quarta sumitur autem differentia tonus cantus et plagis deuteri,
+        vox iubilo, metrum vero hypate meson, organum Salpion, Symphonia varietas plagis deuteri.
+        Chorda vero Caemar, et scemata E. Quarta autem differentia sumitur in quinta chorda, quae
+        dicitur Caemar; et ascendit ad septimam, quae vocatur Uciche, et descendit ad tertiam, quae
+        dicitur Re, et repausa ubi incipit.</p>
       <p xml:id="ODOTON0021">Item cantus.</p>
       <p xml:id="ODOTON0022">Quarta vigilia venit ad eos.</p>
       <p xml:id="ODOTON0023">Finit quartus: incipit quintus.</p>
-      <p xml:id="ODOTON0024">V. Quinta igitur differentia sumitur tonus parmenus, et authentus tritus,
-        vox vero excelsa, metrum vero parypate meson, organum cuphos, symphonia varietas triti,
-        chorda vero Asel, et scemata d. Quinta vero imitatur ad octava chorda, quae vocatur asel, et
-        ascendens ad undecima, quae dicitur sucgesse, et descendens in sexta, quae dicitur Neth, et
-        repausa in scemata F. Cantus.</p>
+      <p xml:id="ODOTON0024">V. Quinta igitur differentia sumitur tonus parmenus, et authentus
+        tritus, vox vero excelsa, metrum vero parypate meson, organum cuphos, symphonia varietas
+        triti, chorda vero Asel, et scemata d. Quinta vero imitatur ad octava chorda, quae vocatur
+        asel, et ascendens ad undecima, quae dicitur sucgesse, et descendens in sexta, quae dicitur
+        Neth, et repausa in scemata F. Cantus.</p>
       <p xml:id="ODOTON0025">Quinque prudentes intraverunt ad nuptias.</p>
       <p xml:id="ODOTON0026">Finit V. incipit Sextus.</p>
-      <p xml:id="ODOTON0027">VI. Sexta ergo differentia tonus epyniceus semitonius, et plagis triti, vox
-        excelsa, metrum vero parypate meson, organum Bubos, symphonia varietas plagis triti, chorda
-        vero Neth, et scemata F. Sexta ergo exoritur a sexta chorda, quae dicitur Neth, et ascendit
-        usque ad octavam quae nominatur Asel, et descendit usque in tertiam, quae dicitur Re, et
-        repausa in scemata F.</p>
+      <p xml:id="ODOTON0027">VI. Sexta ergo differentia tonus epyniceus semitonius, et plagis triti,
+        vox excelsa, metrum vero parypate meson, organum Bubos, symphonia varietas plagis triti,
+        chorda vero Neth, et scemata F. Sexta ergo exoritur a sexta chorda, quae dicitur Neth, et
+        ascendit usque ad octavam quae nominatur Asel, et descendit usque in tertiam, quae dicitur
+        Re, et repausa in scemata F.</p>
       <p xml:id="ODOTON0028">Cantus.</p>
       <p xml:id="ODOTON0029">Sexta hora sedit super puteum.</p>
       <p xml:id="ODOTON0030">Finit sextus: incipit septimus.</p>
@@ -149,11 +160,11 @@
       <p xml:id="ODOTON0032">Cantus.</p>
       <p xml:id="ODOTON0033">Septem sunt Spiritus ante thronum Dei.</p>
       <p xml:id="ODOTON0034">Finit septimus: Incipit octavus.</p>
-      <p xml:id="ODOTON0035">VIII. Octava vero differentia incipit tonus theticon et plagis tetrardi,
-        vox stridentis, metrum vero lichanos meson, organum fonicon. Symphonia varietas plagis
-        tetrardi, chorda autem Neth, et scemata F. Octava vero distat in sexta chorda, quae vocatur
-        Neth, et ascendit ad undecimam, quae dicitur sucgesse, et descendit in sextam, ubi incipit,
-        et repausa in scemata G.</p>
+      <p xml:id="ODOTON0035">VIII. Octava vero differentia incipit tonus theticon et plagis
+        tetrardi, vox stridentis, metrum vero lichanos meson, organum fonicon. Symphonia varietas
+        plagis tetrardi, chorda autem Neth, et scemata F. Octava vero distat in sexta chorda, quae
+        vocatur Neth, et ascendit ad undecimam, quae dicitur sucgesse, et descendit in sextam, ubi
+        incipit, et repausa in scemata G.</p>
       <p xml:id="ODOTON0036">Cantus.</p>
       <p xml:id="ODOTON0037">Octo sunt beatitudines.</p>
     </body>

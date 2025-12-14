@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Tractatus de musica et tonarius</title>
         <title type="abbrev">ANOTRUT</title>
-        <author>Anonymous</author>
-        <date notBefore="1100" notAfter="1199">12th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Mark Butler</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Beth Garfinkel</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2003</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2003">2003</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> A. Marcel J. Zijlstra and Nienke de Boer, eds., <emph>Tractatus de
             musica et tonarius e codice Bibliothecae Universitatis Ultraiectensis (Utrecht UB
@@ -34,19 +44,19 @@
       <p xml:id="ANOTRUT0001">
         <pb n="[9]"/>I</p>
       <p xml:id="ANOTRUT0002">[228v in marg.] DE DIVISIONE IIII MODORUM IN ALIIS QUATTUOR.</p>
-      <p xml:id="ANOTRUT0003">CUM CANTUS unius modi utpote proti ad comparationem finis, tum sint graves
-        et plani, tum acuti et alti, versus et psalmi et siquid ut diximus fini aptandum erat, uno
-        eodemque modo prolatum diversis aptari non poterat. Quod enim subiungebatur si erat grave
-        cum acutis non conveniebat, si erat acutum a gravibus discordabat. Consilium itaque fuit ut
-        quisque modus partiretur in duos, id est acutum et gravem: distributisque regulis, acuta
-        acutis et gravia convenerit gravibus, et acutus quisque modus diceretur autentus, id est
-        auctorabilis et princeps, gravis autem plaga vocaretur: id est lateralis et minor. Cui enim
-        dico: 'sta ad latus meum', minor me est. Caeterum si esset maior, ego aptius dicerer stare
-        ad latus eius. Cum ergo dicatur autentus protus et plaga proti et similiter de reliquis: qui
-        naturaliter in vocibus erant quattuor in cantibus modo facti sunt octo. Abusio autem
-        tradidit latinis dicere pro autento proto et plaga proti primus et secundis, pro autento
-        deutero et plaga deuteri, tercius et quartus, pro autento trito et plaga triti quintus et
-        sextus, pro autento tetrardo et plaga tetrardi septimus et octavus.</p>
+      <p xml:id="ANOTRUT0003">CUM CANTUS unius modi utpote proti ad comparationem finis, tum sint
+        graves et plani, tum acuti et alti, versus et psalmi et siquid ut diximus fini aptandum
+        erat, uno eodemque modo prolatum diversis aptari non poterat. Quod enim subiungebatur si
+        erat grave cum acutis non conveniebat, si erat acutum a gravibus discordabat. Consilium
+        itaque fuit ut quisque modus partiretur in duos, id est acutum et gravem: distributisque
+        regulis, acuta acutis et gravia convenerit gravibus, et acutus quisque modus diceretur
+        autentus, id est auctorabilis et princeps, gravis autem plaga vocaretur: id est lateralis et
+        minor. Cui enim dico: 'sta ad latus meum', minor me est. Caeterum si esset maior, ego aptius
+        dicerer stare ad latus eius. Cum ergo dicatur autentus protus et plaga proti et similiter de
+        reliquis: qui naturaliter in vocibus erant quattuor in cantibus modo facti sunt octo. Abusio
+        autem tradidit latinis dicere pro autento proto et plaga proti primus et secundis, pro
+        autento deutero et plaga deuteri, tercius et quartus, pro autento trito et plaga triti
+        quintus et sextus, pro autento tetrardo et plaga tetrardi septimus et octavus.</p>
       <p xml:id="ANOTRUT0004">II</p>
       <p xml:id="ANOTRUT0005">DE VIII MODORUM AGNITIONE, ACUMINE ET GRAVITATE.</p>
       <p xml:id="ANOTRUT0006">Igitur octo sunt modi ut .VIII. partes orationis et .VIII. formae
@@ -62,9 +72,9 @@
         saepiusve incipiant et in quibus minime finiant. Et in plagis quidem minime licet, vel
         principia vel fines dictionum ad quintas intendere, cum et quartas perraro soleat
         evenire.</p>
-      <p xml:id="ANOTRUT0008">In autentis vero praeter deuterum, eadem principia et fines distinctionum,
-        minime licet ad sextas intendere. Plagae vero proti vel triti ad tercias intendunt. Et
-        plagae siquidem deuteri vel tetrardi, ad quartas intendunt.</p>
+      <p xml:id="ANOTRUT0008">In autentis vero praeter deuterum, eadem principia et fines
+        distinctionum, minime licet ad sextas intendere. Plagae vero proti vel triti ad tercias
+        intendunt. Et plagae siquidem deuteri vel tetrardi, ad quartas intendunt.</p>
       <p xml:id="ANOTRUT0009">Memineris vero praeterea, quod sicut usualium cantuum attestatio ne
         perhibetur, quod autenti vix a suo fine plus una voce descendunt: ex quibus autentus tritus
         rarissime id facere propter subiectam semitonium imperfectionem videtur. Ascendunt autem ad
@@ -79,13 +89,13 @@
         responsoriis: quorum cantus ut psalmis et versibus coaptentur, oportet ut communibus regulis
         fultiantur. Alioquin plures cantus invenies, in quibus adeo confunditur gravitas et acumen,
         ut vix possit adverti | [229r in marg.] cui magis id est autento an plagae conferantur.</p>
-      <p xml:id="ANOTRUT0011">Praeterea et in ignotorum cantuum inquisitione praedictarum neumarum, et
-        subiectione et appositione plurimum adiuvamur: cum talium neumarum aptitudine, soni cuiusque
-        proprietatem, per vim tropicam intuemur et agnoscimus.</p>
+      <p xml:id="ANOTRUT0011">Praeterea et in ignotorum cantuum inquisitione praedictarum neumarum,
+        et subiectione et appositione plurimum adiuvamur: cum talium neumarum aptitudine, soni
+        cuiusque proprietatem, per vim tropicam intuemur et agnoscimus.</p>
       <p xml:id="ANOTRUT0012">III</p>
       <p xml:id="ANOTRUT0013">DE FORMULIS ET DISTINCTIONIBUS AUTENTI PROTI</p>
-      <p xml:id="ANOTRUT0014">PROTUS namque decem habet regulares formulas id est .VI. prepositivas et
-        tres appositivas, unamque suppositivam. Et hae quidem quae prepositivae sunt, fiunt tono,
+      <p xml:id="ANOTRUT0014">PROTUS namque decem habet regulares formulas id est .VI. prepositivas
+        et tres appositivas, unamque suppositivam. Et hae quidem quae prepositivae sunt, fiunt tono,
         ditono, semiditono et diapente. Appositivae autem sunt, quae in eadem voce qua formula
         finitur, antiphonae principium ponitur. Et hae quidem duobus modis fiunt, id est aliquando
         in propria voce id est ea quae finem terminat, interdum in affinibus, in his videlicet quae
@@ -95,9 +105,9 @@
         una terminatione habere videtur formulas, libet intueri uberius quibus distinctionibus
         utraque discerni valeant cum una ex eis sit autentica, altera plagalis ut secundum quod in
         proto diffinitum fuerit, teneatur et in reliquis.</p>
-      <p xml:id="ANOTRUT0015">Formulas igitur autenti proti quinto loco a finale voce constitutum. Quod
-        et in reliquis autentis similiter facimus praeter deuterum. Formulas autem eiusdem plagae
-        tercio loco a finali voce constituimus. Hinc itaque custodiendum est ut in plagis
+      <p xml:id="ANOTRUT0015">Formulas igitur autenti proti quinto loco a finale voce constitutum.
+        Quod et in reliquis autentis similiter facimus praeter deuterum. Formulas autem eiusdem
+        plagae tercio loco a finali voce constituimus. Hinc itaque custodiendum est ut in plagis
         distinctionum fines vel principia nullo modo super formulas sibi attributas ponantur. Quod
         si evenerit, mox in autenti transit potestatem: quia solis autentis licet intendere finis
         principia ve distinctionum ad quintas; et quemadmodum illicitum est plagis super proprias
@@ -112,17 +122,17 @@
       <p xml:id="ANOTRUT0017">Cantare et psallere et laudare deum magis animo debemus quam corpore.
         Quantum enim quis in sacris eloquiis assiduus fuerit, tantum ex eis superiorem
         intelligentiam capit.</p>
-      <p xml:id="ANOTRUT0018">Cantor vocatur qui vocem modulatur in cantu. Huius duo genera dicuntur in
-        arte musica sicut in ea docti homines loqui potuerunt, praecentor scilicet quia vocem
+      <p xml:id="ANOTRUT0018">Cantor vocatur qui vocem modulatur in cantu. Huius duo genera dicuntur
+        in arte musica sicut in ea docti homines loqui potuerunt, praecentor scilicet quia vocem
         promittit in cantu, succentor autem, qui canendo subsequenter respondet: concentor autem
         dicitur quia consonat. Qui autem nec consonat nec concinit, nec concentor erit.</p>
-      <p xml:id="ANOTRUT0019">Concentus cantus est dulcis sive vox canora vel cantus suavis. Cantus est
-        inflexio vocis. Nam sonus directus est praecedit autem sonus cantum.</p>
+      <p xml:id="ANOTRUT0019">Concentus cantus est dulcis sive vox canora vel cantus suavis. Cantus
+        est inflexio vocis. Nam sonus directus est praecedit autem sonus cantum.</p>
       <p xml:id="ANOTRUT0020">
         <pb n="[11]"/>Perfecta vox est alta, suavis et clara. Alta ut in sublime sufficiat: suavis
         ut animis audientium blandiatur. Si ex his aliquid defuerit: vox perfecta non erit.</p>
-      <p xml:id="ANOTRUT0021">Arsis est vocis elevatio hoc est inicium, thesis est vocis positio hoc est
-        finis.</p>
+      <p xml:id="ANOTRUT0021">Arsis est vocis elevatio hoc est inicium, thesis est vocis positio hoc
+        est finis.</p>
       <p xml:id="ANOTRUT0022">Nonan dicitur flatus. Noys mens. Ane sursum, hoc est quicquid mens
         intelligitur, hoc proferat spere id est vox inane, in sursum vel excelsum, hoc est in
         aerem.</p>
@@ -132,19 +142,20 @@
         incipit, et ultimam syllabam men in licanos deponit.</p>
       <p xml:id="ANOTRUT0024">IIII</p>
       <p xml:id="ANOTRUT0025">DE PRIMI MODI FINE ET OMNIUM EIUSDEM CANTUUM PRINCIPIIS ET FINIBUS</p>
-      <p xml:id="ANOTRUT0026">[229v in marg.] PRIMUS tonus finitur in voce quarta .D. et deponit suam
-        formulam in .A. acuta quinto loco super se, et alii autenti similiter in quinto loco praeter
-        deuterum qui ponit in sextam super se proceditque in undecimam in qua est eadem littera .D.
-        per tonos et semitonos. Post finem primo tonus occurrit, deinde semitonium et duo toni.
-        Deponitur vero a fine ad vocem terciam tono uno hoc modo:</p>
+      <p xml:id="ANOTRUT0026">[229v in marg.] PRIMUS tonus finitur in voce quarta .D. et deponit
+        suam formulam in .A. acuta quinto loco super se, et alii autenti similiter in quinto loco
+        praeter deuterum qui ponit in sextam super se proceditque in undecimam in qua est eadem
+        littera .D. per tonos et semitonos. Post finem primo tonus occurrit, deinde semitonium et
+        duo toni. Deponitur vero a fine ad vocem terciam tono uno hoc modo:</p>
       <p xml:id="ANOTRUT0027">[Utrecht, Tractatus de Musica, 11; text: .C. .D. .E. .F. .G. .A. .B.
         Tonus, Semitonium] <figure>
           <graphic url="/images/ANOTRUT_01GF.gif"/>
         </figure></p>
-      <p xml:id="ANOTRUT0028">Qui autem decacordum volunt facere adiciunt secundam vocem, sed non est in
-        usu ut primus modus deponatur ad eam. Incipit autem cantus eiusdem modi in .C. ut O beatum
-        pontificem; saepius autem in .D. ut Ecce nomen domini; in .E. quoque sed raro, ut Gaudete;
-        in .F. ut Ipsi soli; in .G. quoque ut Canite tuba; in .A. etiam ut Veniet dominus.</p>
+      <p xml:id="ANOTRUT0028">Qui autem decacordum volunt facere adiciunt secundam vocem, sed non
+        est in usu ut primus modus deponatur ad eam. Incipit autem cantus eiusdem modi in .C. ut O
+        beatum pontificem; saepius autem in .D. ut Ecce nomen domini; in .E. quoque sed raro, ut
+        Gaudete; in .F. ut Ipsi soli; in .G. quoque ut Canite tuba; in .A. etiam ut Veniet
+        dominus.</p>
       <p xml:id="ANOTRUT0029">V</p>
       <p xml:id="ANOTRUT0030">Incipit autenti proti.</p>
       <p xml:id="ANOTRUT0031">Differentia prima</p>
@@ -248,12 +259,12 @@
       <p xml:id="ANOTRUT0111">Rorate caeli. Gaudeamus. Statuit.</p>
       <p xml:id="ANOTRUT0112">Suscepimus. Inclina.</p>
       <p xml:id="ANOTRUT0113">REGULA</p>
-      <p xml:id="ANOTRUT0114">Iste introitus, Lex domini, duorum modorum videtur esse, id est autenti
-        proti, et autenti triti, et in quantum videre possumus rectius esse posset autenti triti
-        quam proti. Sed quia culpabimur veterum argumentatores fore, in singulis modis quid proprium
-        habeat dicamus. In proto nullam proprietatem retinet aliam, nisi quod omnes distinctiones
-        suas infra ipsius terminos coartantur. Si ergo proti eum vis facere, erit ex supraposita
-        formula et terminabitur sic: Sapientiam praestans parvulis.</p>
+      <p xml:id="ANOTRUT0114">Iste introitus, Lex domini, duorum modorum videtur esse, id est
+        autenti proti, et autenti triti, et in quantum videre possumus rectius esse posset autenti
+        triti quam proti. Sed quia culpabimur veterum argumentatores fore, in singulis modis quid
+        proprium habeat dicamus. In proto nullam proprietatem retinet aliam, nisi quod omnes
+        distinctiones suas infra ipsius terminos coartantur. Si ergo proti eum vis facere, erit ex
+        supraposita formula et terminabitur sic: Sapientiam praestans parvulis.</p>
       <p xml:id="ANOTRUT0115">Meditatio. Sapientiam sanctorum.</p>
       <p xml:id="ANOTRUT0116">Salus autem. Scio cui.</p>
       <p xml:id="ANOTRUT0117">Dicit dominus. Factus est dominus. Iustus es domine.</p>
@@ -308,8 +319,8 @@
       <p xml:id="ANOTRUT0145">Surgite vigilemus. Regem regum. Adoremus.</p>
       <p xml:id="ANOTRUT0146">Filiae syon. Venite exultemus.</p>
       <p xml:id="ANOTRUT0147">Unde constet.</p>
-      <p xml:id="ANOTRUT0148">Plagis proti constat ex eadem specie dyapente qua et autenticus eius, et
-        ex eadem specie dyatesseron inferius. In eodem vero finali ubi incipit Saeculorum amen
+      <p xml:id="ANOTRUT0148">Plagis proti constat ex eadem specie dyapente qua et autenticus eius,
+        et ex eadem specie dyatesseron inferius. In eodem vero finali ubi incipit Saeculorum amen
         finit.</p>
       <p xml:id="ANOTRUT0149">Gloria. Saeculorum amen.</p>
       <p xml:id="ANOTRUT0150">Ecce in nubibus filius hominum. Iuste et pie. Lex per moysen.</p>
@@ -358,16 +369,16 @@
       <p xml:id="ANOTRUT0178">Tercius modus in quintam finitur vocem, id est in .E. litteram,
         proceditque uno dyapason usque eandem .E. tarde autem ad .F. per tonos ac semitonios ita.
         Primo semitonium deinde tres tonos, deponitur vero a fine ad quartam tono uno, hoc modo:</p>
-      <p xml:id="ANOTRUT0179">[Utrecht, Tractatus de musica, 17,1; text: .A. .[sqb]. .C. .D. .E. .F. .G.
-        Tonus, Semitonium]</p>
+      <p xml:id="ANOTRUT0179">[Utrecht, Tractatus de musica, 17,1; text: .A. .[sqb]. .C. .D. .E. .F.
+        .G. Tonus, Semitonium]</p>
       <p xml:id="ANOTRUT0180">Sane ideo adamavit secundam nonam, quia ab eius finem dyapente, maxime
         autem ideo quia ad acutissimam eius, id est .E. diatessaron reddit. Qui autem prope finem
         tres tonos habet, in descensione vel ascensione potius insiliendo quam gradiendo vadit.
         Usitata autem eius principia sunt haec: in .E. ut: Quando natus est; in .F. ut: Nunc scio
         vere; in .G. ut. Quasi unus; in .C. ut Sic eum volo.</p>
       <p xml:id="ANOTRUT0181">IX</p>
-      <p xml:id="ANOTRUT0182">Autenticus deuterus constat ex secunda specie dyapente et ex eadem specie
-        dyatesseron superius finit saeculorum amen altius semitonio ac tono.</p>
+      <p xml:id="ANOTRUT0182">Autenticus deuterus constat ex secunda specie dyapente et ex eadem
+        specie dyatesseron superius finit saeculorum amen altius semitonio ac tono.</p>
       <p xml:id="ANOTRUT0183">AUTENTUS DEUTERUS</p>
       <p xml:id="ANOTRUT0184">Nonan noe ane. Tercia dies est quod haec facta</p>
       <p xml:id="ANOTRUT0185">[Utrecht, Tractatus de musica, 17,2; text: sunt.]</p>
@@ -385,10 +396,10 @@
       <p xml:id="ANOTRUT0196">Accipiens symeon. Elysabet.</p>
       <p xml:id="ANOTRUT0197">Puer natus. Tu puer. Domine mi rex.</p>
       <p xml:id="ANOTRUT0198">REGULA</p>
-      <p xml:id="ANOTRUT0199">Sunt praeterea plurimae antiphonae quae huius modi formulae cum sint ex
-        autento proto, ut: Pulchra es et decora, et inter quas quasdam autenti deuteri faciunt non
-        bene tonorum semitoniorumque positionem intuentes, vel idcirco eas deuteri faciunt, quia a
-        quibusdam .D.E.F.G. finales constitutae in omnibus omnino modis vel vocum tropis,
+      <p xml:id="ANOTRUT0199">Sunt praeterea plurimae antiphonae quae huius modi formulae cum sint
+        ex autento proto, ut: Pulchra es et decora, et inter quas quasdam autenti deuteri faciunt
+        non bene tonorum semitoniorumque positionem intuentes, vel idcirco eas deuteri faciunt, quia
+        a quibusdam .D.E.F.G. finales constitutae in omnibus omnino modis vel vocum tropis,
         indifferent indifferenter et inprovide sint.</p>
       <p xml:id="ANOTRUT0200">
         <pb n="[18]"/>Invitatoria</p>
@@ -433,17 +444,17 @@
         semitonios incedentes hoc modo:</p>
       <p xml:id="ANOTRUT0234">[Utrecht, Tractatus de musica, 19,1; text: .A. .B. .C. .D. .E. .F. .G.
         Tonus, Semitonium]</p>
-      <p xml:id="ANOTRUT0235">Plagis deuteri constat ex secunda specie diapason, sicut autenticus eius,
-        et ex .II. specie diatesseron inferius. Principia eius inveniuntur, in .C. ut: Ecce quomodo;
-        in .D. ut:</p>
+      <p xml:id="ANOTRUT0235">Plagis deuteri constat ex secunda specie diapason, sicut autenticus
+        eius, et ex .II. specie diatesseron inferius. Principia eius inveniuntur, in .C. ut: Ecce
+        quomodo; in .D. ut:</p>
       <p xml:id="ANOTRUT0236">[Utrecht, Tractatus de musica, 19,2; text: Levita laurentius;]</p>
       <p xml:id="ANOTRUT0237">in .E. ut:</p>
       <p xml:id="ANOTRUT0238">[Utrecht, Tractatus de musica, 19,3; text: His ita flebiliter;]</p>
       <p xml:id="ANOTRUT0239">in .F. ut Adoremus crucem; in .G. ut</p>
       <p xml:id="ANOTRUT0240">[Utrecht, Tractatus de musica, 19,4; text: Nos scientes.]</p>
-      <p xml:id="ANOTRUT0241">Supra .A. distinctiones non veraciter mittit, sed in his in quibus incipit
-        facere conprobabis. Discernitur quartus modus a tercio quia quartus habet primam .A.,
-        secundam .B., terciam .C., quas tercius non habet. Et tercius habet undecimam .D. et
+      <p xml:id="ANOTRUT0241">Supra .A. distinctiones non veraciter mittit, sed in his in quibus
+        incipit facere conprobabis. Discernitur quartus modus a tercio quia quartus habet primam
+        .A., secundam .B., terciam .C., quas tercius non habet. Et tercius habet undecimam .D. et
         duodecimam .E. quas non habet quartus. Quod si aliqua antiphona neque has tercii, neque
         illas habet quarti, si in decima incipiat, vel si secundum nonam .[sqb]. amplius dirigat,
         tercii erit. Alias in quarto ponitur, si eius formulae differentias imitetur. Volunt autem
@@ -494,8 +505,8 @@
       <p xml:id="ANOTRUT0275">Angelus domini.</p>
       <p xml:id="ANOTRUT0276">Gaude maria. Quaerite dominum. Propheta magnus.</p>
       <p xml:id="ANOTRUT0277">.VII.</p>
-      <p xml:id="ANOTRUT0278">[Utrecht, Tractatus de musica, 20,3; text: Saeculorum amen. Ecce veniet
-        dominus. Ante thorum.]</p>
+      <p xml:id="ANOTRUT0278">[Utrecht, Tractatus de musica, 20,3; text: Saeculorum amen. Ecce
+        veniet dominus. Ante thorum.]</p>
       <p xml:id="ANOTRUT0279">Commendemus. Alieni. O mulier. Numquid redditur.</p>
       <p xml:id="ANOTRUT0280">.VIII.</p>
       <p xml:id="ANOTRUT0281">[Utrecht, Tractatus de musica, 20,4; text: Saeculorum amen.]</p>
@@ -505,8 +516,8 @@
           <graphic url="/images/ANOTRUT_02GF.gif"/>
         </figure></p>
       <p xml:id="ANOTRUT0283">.IX.</p>
-      <p xml:id="ANOTRUT0284">[Utrecht, Tractatus de musica, 21,2; text: Saeculorum amen. Nos scientes.
-        Nisi diligenter.]</p>
+      <p xml:id="ANOTRUT0284">[Utrecht, Tractatus de musica, 21,2; text: Saeculorum amen. Nos
+        scientes. Nisi diligenter.]</p>
       <p xml:id="ANOTRUT0285">Prope es tu. De necessitatibus. Iudica domine.</p>
       <p xml:id="ANOTRUT0286">Huius finis hactenus viciose canebatur in septimo, sed sic melius
         pronunciatur in quarto:</p>
@@ -520,15 +531,15 @@
       <p xml:id="ANOTRUT0293">Sacerdotes tui. Iudica me. Omnis terra.</p>
       <p xml:id="ANOTRUT0294">Intret in conspectu. Salus populi. Eduxit.</p>
       <p xml:id="ANOTRUT0295">Dicit dominus. Protector.</p>
-      <p xml:id="ANOTRUT0296">Sequitur unus introitus qui viciose inchoatur, ita ut magis appareat esse
-        autenti deuteri, aut plagae tetrardi quam plagae deuteri, id est:</p>
+      <p xml:id="ANOTRUT0296">Sequitur unus introitus qui viciose inchoatur, ita ut magis appareat
+        esse autenti deuteri, aut plagae tetrardi quam plagae deuteri, id est:</p>
       <p xml:id="ANOTRUT0297">[Utrecht, Tractatus de musica, 21,4; text: Accipite iocunditatem.
         Inchoabitur ergo melius sic:]</p>
       <p xml:id="ANOTRUT0298">in communionibus</p>
       <p xml:id="ANOTRUT0299">Exulta filia syon. Acceptabis. Ab occultis.</p>
       <p xml:id="ANOTRUT0300">Vidimus.</p>
-      <p xml:id="ANOTRUT0301">[Utrecht, Tractatus de musica, 21,5; text: Benedicite. Iherusalem. Inclina
-        aurem. Pater cum essem.]</p>
+      <p xml:id="ANOTRUT0301">[Utrecht, Tractatus de musica, 21,5; text: Benedicite. Iherusalem.
+        Inclina aurem. Pater cum essem.]</p>
       <p xml:id="ANOTRUT0302">Feci iudicium. Tollite hostias.</p>
       <p xml:id="ANOTRUT0303">Semel iuravi.</p>
       <p xml:id="ANOTRUT0304">
@@ -538,16 +549,16 @@
       <p xml:id="ANOTRUT0307">Offertorium. Confortamini. Laetentur caeli.</p>
       <p xml:id="ANOTRUT0308">XII</p>
       <p xml:id="ANOTRUT0309">REGULA</p>
-      <p xml:id="ANOTRUT0310">Quintus modus terminat in .F. sextam et acutissimam eius tertiam decimam
-        eadem littera figuratur. Aliquando autem ad .G. sed raro consurgit et deponitur sub se
-        semitonium, et ipsa sexta iungitur primae nonae .b. diatesseron, et ipsa nona .b. terciae
+      <p xml:id="ANOTRUT0310">Quintus modus terminat in .F. sextam et acutissimam eius tertiam
+        decimam eadem littera figuratur. Aliquando autem ad .G. sed raro consurgit et deponitur sub
+        se semitonium, et ipsa sexta iungitur primae nonae .b. diatesseron, et ipsa nona .b. terciae
         decimae iungitur diapente. In quinto igitur vel sexto, prima nona .b. valebit. Habebit ergo
         per ordinem tonos duos et semitonium, ac deinde tonos tres et ultimum semitonium .VIII.
         vocibus, ita:</p>
       <p xml:id="ANOTRUT0311">[Utrecht, Tractatus de musica, 22,1; text: .E. .F. .G. A. .b. .C. D.
         Tonus, Semitonium]</p>
-      <p xml:id="ANOTRUT0312">Usitata principia eius sunt haec: in .F. Haurietis aquas; in .G. raro ut:
-        Non vos relinquam; in .A. ut: Montes et omnes; in .C. ut:</p>
+      <p xml:id="ANOTRUT0312">Usitata principia eius sunt haec: in .F. Haurietis aquas; in .G. raro
+        ut: Non vos relinquam; in .A. ut: Montes et omnes; in .C. ut:</p>
       <p xml:id="ANOTRUT0313">[Utrecht, Tractatus de musica, 22,2; text: Ecce dominus.]</p>
       <p xml:id="ANOTRUT0314">Nam quia tonum ante finem non habuit, nec in principio, nec in incessu
         post se respexit. Distinctionem supra quintam a se minime repperies. Iste autentus supra
@@ -619,8 +630,8 @@
         tono.</p>
       <p xml:id="ANOTRUT0359">Sextus vero graditur cum eo ad undecimam sed deponitur communi fine
         semitonio et duobus tonis, ad terciam .C. hoc modo:</p>
-      <p xml:id="ANOTRUT0360">[Utrecht, Tractatus de musica, 24,1; text: .C. .D. .E. .F. .G. .A. .[sqb].
-        Tonus, Semitonium]</p>
+      <p xml:id="ANOTRUT0360">[Utrecht, Tractatus de musica, 24,1; text: .C. .D. .E. .F. .G. .A.
+        .[sqb]. Tonus, Semitonium]</p>
       <p xml:id="ANOTRUT0361">sicut et quintus habet duodecimam et terciam decimam quas non habet
         sextus, ita sextus habet terciam, quartam, quintam quas non habet quintus nisi quod aliquid
         miscetur sexto, declinas in quartam, sitque decacordum, sed hoc inveniri maxime in
@@ -630,13 +641,13 @@
         Sive per principia discernuntur. Vix enim sextus nisi in suo fine incipit, vel distinctiones
         ponit, ut Verbum caro; aut in voce quarta .D., ut</p>
       <p xml:id="ANOTRUT0362">[Utrecht, Tractatus de musica, 24,2; text: Si ego verus.]</p>
-      <p xml:id="ANOTRUT0363">Utilia immo necessaria probantur ad praesentis erroris exprobrationem de
-        modis quae dicta sunt. Unde si conceperis de octavo et septimo me cupientem audire non
+      <p xml:id="ANOTRUT0363">Utilia immo necessaria probantur ad praesentis erroris exprobrationem
+        de modis quae dicta sunt. Unde si conceperis de octavo et septimo me cupientem audire non
         differas.</p>
       <p xml:id="ANOTRUT0364">
         <pb n="[25]"/>XV</p>
-      <p xml:id="ANOTRUT0365">Plagis triti constat ex eadem specie diapente, qua et autenticus eius, et
-        eadem specie diatesseron inferius.</p>
+      <p xml:id="ANOTRUT0365">Plagis triti constat ex eadem specie diapente, qua et autenticus eius,
+        et eadem specie diatesseron inferius.</p>
       <p xml:id="ANOTRUT0366">PLAGIS TRITI</p>
       <p xml:id="ANOTRUT0367">Nonan noe ane. Sexta hora sedit super puteum.</p>
       <p xml:id="ANOTRUT0368">in .C.:</p>
@@ -647,7 +658,8 @@
       <p xml:id="ANOTRUT0372">in .D. ut: Si ego verus;</p>
       <p xml:id="ANOTRUT0373">in E ut: O ammirabile;</p>
       <p xml:id="ANOTRUT0374">in .F. ut:</p>
-      <p xml:id="ANOTRUT0375">[Utrecht, Tractatus de musica, 25,2; text: Gaudeamus omnes fideles;]</p>
+      <p xml:id="ANOTRUT0375">[Utrecht, Tractatus de musica, 25,2; text: Gaudeamus omnes
+        fideles;]</p>
       <p xml:id="ANOTRUT0376">in .G. ut: Nesciens mater.</p>
       <p xml:id="ANOTRUT0377">In introitibus</p>
       <p xml:id="ANOTRUT0378">[Utrecht, Tractatus de musica, 25,3; text: Saeculorum amen. Quasi
@@ -657,8 +669,8 @@
       <p xml:id="ANOTRUT0381">Iusti epulentur.</p>
       <p xml:id="ANOTRUT0382">[Utrecht, Tractatus de musica, 25,4; text: Omnes gentes.]</p>
       <p xml:id="ANOTRUT0383">REGULA</p>
-      <p xml:id="ANOTRUT0384">Istae duae communiones, Panem de caelo et Anima nostra, propriae sunt de
-        quinto et secunda differentia propter eos hos cantus qui subter descripti sunt qui esse
+      <p xml:id="ANOTRUT0384">Istae duae communiones, Panem de caelo et Anima nostra, propriae sunt
+        de quinto et secunda differentia propter eos hos cantus qui subter descripti sunt qui esse
         possunt in ea voce quae duobus intenditur tonis, vel etiam tribus. Sunt alii plures qui non
         esse possunt nisi in ea voce quae elevatur per duos tonos et deponitur tono et semitonio,
         utpote .C. et .G. quod cum evenerit, multis erit inpromptum, utrum autento an plagae
@@ -674,12 +686,12 @@
       <p xml:id="ANOTRUT0393">
         <pb n="[26]"/>XVI</p>
       <p xml:id="ANOTRUT0394">REGULA</p>
-      <p xml:id="ANOTRUT0395">[232v in marg.] SEPTIMUS modus in voce septima terminatur cuius acutissima
-        est quarta decima, quae cum fine eodem caractere denotatur. Hic assumit nonam secundam
-        .[sqb]. ut habeat duos tonos post finem, post quos semitonium et duos tonos, ac iterum
-        semitonium et unum tonum. Deponitur vero a fine tono uno hoc modo:</p>
-      <p xml:id="ANOTRUT0396">[Utrecht, Tractatus de musica, 26,1; text: .F. .G. .A. .[sqb]. .C. .D. .E.
-        Tonus, Semitonium]</p>
+      <p xml:id="ANOTRUT0395">[232v in marg.] SEPTIMUS modus in voce septima terminatur cuius
+        acutissima est quarta decima, quae cum fine eodem caractere denotatur. Hic assumit nonam
+        secundam .[sqb]. ut habeat duos tonos post finem, post quos semitonium et duos tonos, ac
+        iterum semitonium et unum tonum. Deponitur vero a fine tono uno hoc modo:</p>
+      <p xml:id="ANOTRUT0396">[Utrecht, Tractatus de musica, 26,1; text: .F. .G. .A. .[sqb]. .C. .D.
+        .E. Tonus, Semitonium]</p>
       <p xml:id="ANOTRUT0397">Quod si decacordum placeat facere: unum ei semitonium adhuc a fine
         adiunge, ad quintam non tamen hoc frequenter invenies. Notandum autem quod si ei nona .b.
         prima concedatur, nichil restat nisi ut duodecima ad eam diatesseron fiat, et ad semitonium
@@ -695,11 +707,11 @@
         primi.</p>
       <p xml:id="ANOTRUT0399">Principia eius sunt haec: in .F. vix exempla repperies. In .G. ut:
         Assumpta est; in .A. ut. Orante sancta lucia; in .[sqb]. ut Dixit dominus; in .C. ut:</p>
-      <p xml:id="ANOTRUT0400">[Utrecht, Tractatus de musica, 26,2; text: Benedictus dominus; in .D. ut:
-        Sit nomen domini.]</p>
+      <p xml:id="ANOTRUT0400">[Utrecht, Tractatus de musica, 26,2; text: Benedictus dominus; in .D.
+        ut: Sit nomen domini.]</p>
       <p xml:id="ANOTRUT0401">XVII</p>
-      <p xml:id="ANOTRUT0402">Autenticus tetrardus constat ex quarta specie dyapente, et ex eadem specie
-        dyatesseron superius.</p>
+      <p xml:id="ANOTRUT0402">Autenticus tetrardus constat ex quarta specie dyapente, et ex eadem
+        specie dyatesseron superius.</p>
       <p xml:id="ANOTRUT0403">TETRARDUS</p>
       <p xml:id="ANOTRUT0404">Nonan noe ane. Septem sunt spiritus ante thronum dei.</p>
       <p xml:id="ANOTRUT0405">Differentia .I.</p>
@@ -767,30 +779,30 @@
         admiscetur, et hoc nonnisi in prolixioribus melis. Ergo deuteri distinctiones quibus supremi
         affines modi sunt hi: tetrardus in .G. deuterus ignobilis .[sqb]. aliorum supremorum
         affinium non meminiscitur.</p>
-      <p xml:id="ANOTRUT0439">Plagis autem triti rarissime umquam super se tercius transmittit, sub se
-        uberius absque proximo tono, inter hos autem et tetrardus proprios habet domesticos id est
-        sub se proximiorem tritum super viciniorem protum, in quibus bene distinguitur ab aliis
+      <p xml:id="ANOTRUT0439">Plagis autem triti rarissime umquam super se tercius transmittit, sub
+        se uberius absque proximo tono, inter hos autem et tetrardus proprios habet domesticos id
+        est sub se proximiorem tritum super viciniorem protum, in quibus bene distinguitur ab aliis
         modis.</p>
       <p xml:id="ANOTRUT0440">XIX</p>
-      <p xml:id="ANOTRUT0441">Octavus autem modus procedit cum septimo usque ad duodecimam .E. deponitur
-        autem ad terciam tono et semitonio et duobus tonis sitque decacordum hoc modo:</p>
-      <p xml:id="ANOTRUT0442">[Utrecht, Tractatus de musica, 28; text: .C. .D. .E. .F. .G. .A. .[sqb].
-        Tonus, Semitonium]</p>
-      <p xml:id="ANOTRUT0443">Supradiximus autem huiusmodi decacordum ter dyatesseron non habere ideo
-        non facile recipitur utraque id est acutissima .C. simul in uno cantu ut quibusdam placet.
-        Perspicuum est autem quod octavus in depositione a fine per omnia est secundus. Quod si ei
-        in elevatione prima, nona .[sqb]. daretur, ut haberet tonum et semitonium et duos tonos a
-        fine, etiam in elevatione permaneret secundus. Sed deridenda est iners incautorum
+      <p xml:id="ANOTRUT0441">Octavus autem modus procedit cum septimo usque ad duodecimam .E.
+        deponitur autem ad terciam tono et semitonio et duobus tonis sitque decacordum hoc modo:</p>
+      <p xml:id="ANOTRUT0442">[Utrecht, Tractatus de musica, 28; text: .C. .D. .E. .F. .G. .A.
+        .[sqb]. Tonus, Semitonium]</p>
+      <p xml:id="ANOTRUT0443">Supradiximus autem huiusmodi decacordum ter dyatesseron non habere
+        ideo non facile recipitur utraque id est acutissima .C. simul in uno cantu ut quibusdam
+        placet. Perspicuum est autem quod octavus in depositione a fine per omnia est secundus. Quod
+        si ei in elevatione prima, nona .[sqb]. daretur, ut haberet tonum et semitonium et duos
+        tonos a fine, etiam in elevatione permaneret secundus. Sed deridenda est iners incautorum
         scurrilitas, quia de modorum discretione nil sentiunt. Id solum sequntur quod aliquomodo
         aures delinire videtur, sicut qui gastrunargiae inserviunt, per falsam dulcedinem verae
         sobrietatis regulam falsant. Invenitur praeterea, cum octavus ad quartam descendens terciam
         decimam quae iure est septimi, appetat, ac sibi regulare decacordum tanta praesumptione
         licet raro restituat.</p>
-      <p xml:id="ANOTRUT0444">Principia eius sunt haec: in .C. gravi ut: Stabunt iusti; in .D. ut: Dulce
-        lignum; in .E. ut: Hora est; in .F. ut: Nato domino; in .G. ut: Angeli eorum; in .A. ut:
-        Magister quod est; in .C. acuta ut: Factus est repente.</p>
-      <p xml:id="ANOTRUT0445">Differt autem octavus a septimo, quod octavus habet terciam, quartam et
-        quintam quas non habet septimus. Et septimus habet terciam decimam .F. et quartam decimam
+      <p xml:id="ANOTRUT0444">Principia eius sunt haec: in .C. gravi ut: Stabunt iusti; in .D. ut:
+        Dulce lignum; in .E. ut: Hora est; in .F. ut: Nato domino; in .G. ut: Angeli eorum; in .A.
+        ut: Magister quod est; in .C. acuta ut: Factus est repente.</p>
+      <p xml:id="ANOTRUT0445">Differt autem octavus a septimo, quod octavus habet terciam, quartam
+        et quintam quas non habet septimus. Et septimus habet terciam decimam .F. et quartam decimam
         .G. quas iure non habet octavus. Sane in his cantibus qui inter octavi depositionem et
         septimi elevationem medii sunt: in quo tono maneant discernantur ut in reliquis quoque
         dictum est secundum formularum varietates, per ipsas quoque varietates uniuscuiusque modi
@@ -807,9 +819,9 @@
         semitonium et duos tonos, iterumque semitonium et duos tonos, primi modi legem custodit.
         Unde et prima non sine causa dicta est. Secunda vero cum deponatur post se duobus tonis,
         iterum semitonio et tono, usitatam quarti modi regulam servet.</p>
-      <p xml:id="ANOTRUT0446">Tercia praeterea cum post se habeat semitonium et duos tonos ante se vero
-        duos tonos et semitonium, ac deinde tres tonos, quinti vel sexti proprietate fulcitur. Iam
-        vero octavam primi locum tenere diximus, ad similitudinem primae cuius est dyapason.
+      <p xml:id="ANOTRUT0446">Tercia praeterea cum post se habeat semitonium et duos tonos ante se
+        vero duos tonos et semitonium, ac deinde tres tonos, quinti vel sexti proprietate fulcitur.
+        Iam vero octavam primi locum tenere diximus, ad similitudinem primae cuius est dyapason.
         Aliquando si eam cum prima nona .[sqb]. perpendas, habebit in depositione tonum, in
         elevatione semitonium et tres tonos ad similitudinem tercii. Prima nona .b. in depositione
         continet semitonium et duos tonos ad similitudinem sexti: in elevatione, sive quia tres toni
@@ -830,8 +842,8 @@
         minus iam subditus creatori qui est benedictus in saecula amen.</p>
       <p xml:id="ANOTRUT0447">
         <pb n="[30]"/>XX</p>
-      <p xml:id="ANOTRUT0448">Plagis tetrardi constat ex eadem specie dyapason qua et autenticus eius et
-        ex eadem specie diatessaron inferius.</p>
+      <p xml:id="ANOTRUT0448">Plagis tetrardi constat ex eadem specie dyapason qua et autenticus
+        eius et ex eadem specie diatessaron inferius.</p>
       <p xml:id="ANOTRUT0449">PLAGIS TETRARDI</p>
       <p xml:id="ANOTRUT0450">Nonan noe ane. Octo sunt beatitudines.</p>
       <p xml:id="ANOTRUT0451">.I. Differentia</p>

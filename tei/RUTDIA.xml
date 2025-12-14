@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Dialogus de musica</title>
         <title type="abbrev">RUTDIA</title>
-        <author>Sycamber de Venray, Rutgerus</author>
-        <date notBefore="1500" notAfter="1599">16th</date>
+        <author><persName>Sycamber de Venray, Rutgerus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Jessica Sisk</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2008</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2008">2008</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Rutgerus Sycamber de Venray, <emph>Dialogus de musica (um
           1500)</emph>, ed. Fritz Soddemann, Beiträge zur rheinischen Musikgeschichte, vol. 54
@@ -88,26 +98,27 @@
         utilitatem omniumque legentium (692 va) profectum. Iam precatum est, utinam auditum in aula
         summi regis domini nostri Jesu Christi. Nunc, lectores, animum advertite: Rogerius et Thomas
         loquentur, que sentiunt, veruntamen reliquis iudicium omne relinquent nil iudicantes.</p>
-      <p xml:id="RUTDIA0003">Rogerius: Quod dudum concupivi, nunc indeptus sum, quia tecum loqui semper
-        volui de laudibus divinis; sed facultas numquam fuit. Simul affuturum credo deum nostris
-        sermonibus, cuius honorem loquendo querimus et disputando. Verum prius nobis de negligentiis
-        aliquibus disputandum videbitur, deinde de singulis cantum divinum concernentibus. Igitur
-        primum postulo, mi pater Thoma, quatenus dicas, si vales et quantum vales, cur tam invite
-        visitant chorum claustrales et etiam seculares omnes, cum sit divinum officium et angelicum
-        atque delectabilissimum laudare deum. Nam frequentius notavi multis in locis, quod omnes
-        fugiunt divinas laudes tamquam venenum et querunt sibi recreationes in officiolis
-        vilissimis. De quibus satis mirari non sufficio, licet credam magna ex parte carnem
-        triumphavisse et spiritum succubuisse talibus in claustralibus et dei ministris. Tuum vero
-        fuerit de huiusmodi latius disputare, quoniam vacamus et tempus utiliter consumere volumus.
-        Quod utique fiet hoc dialogo, nisi tu piger et elinguis esse malueris quam diligens et
-        promptus ad respondendum.</p>
-      <p xml:id="RUTDIA0004">Thomas: Absit a me negligentia tam crassa, ut profectum multorum impediam;
-        quia cupio cunctis in rebus prodesse, modo deus adiuvet infirmitatem meam. Verum quod de
-        tepiditate quorundam dixisti, verum est, cum sint multi, quibus non sapiant laudes divine et
-        singulariter cantus optimi, de quibus aliquid dicam breviter et non inutiliter, modo sit,
-        qui capiat. Et primo quidem sciendum, quod ii, qui se frequenter absentant a laudibus
-        divinis, veniunt in tantam ariditatem, ut postea nullum gustum spiritualem habeant. Quod
-        sane multis contigit prelatis et officialibus, qui tedium maximum senserunt in divinis <pb n="[4]"/>laudibus et cantibus; sed et ad hoc pervenerunt, ut semet evocari iuberent e
+      <p xml:id="RUTDIA0003">Rogerius: Quod dudum concupivi, nunc indeptus sum, quia tecum loqui
+        semper volui de laudibus divinis; sed facultas numquam fuit. Simul affuturum credo deum
+        nostris sermonibus, cuius honorem loquendo querimus et disputando. Verum prius nobis de
+        negligentiis aliquibus disputandum videbitur, deinde de singulis cantum divinum
+        concernentibus. Igitur primum postulo, mi pater Thoma, quatenus dicas, si vales et quantum
+        vales, cur tam invite visitant chorum claustrales et etiam seculares omnes, cum sit divinum
+        officium et angelicum atque delectabilissimum laudare deum. Nam frequentius notavi multis in
+        locis, quod omnes fugiunt divinas laudes tamquam venenum et querunt sibi recreationes in
+        officiolis vilissimis. De quibus satis mirari non sufficio, licet credam magna ex parte
+        carnem triumphavisse et spiritum succubuisse talibus in claustralibus et dei ministris. Tuum
+        vero fuerit de huiusmodi latius disputare, quoniam vacamus et tempus utiliter consumere
+        volumus. Quod utique fiet hoc dialogo, nisi tu piger et elinguis esse malueris quam diligens
+        et promptus ad respondendum.</p>
+      <p xml:id="RUTDIA0004">Thomas: Absit a me negligentia tam crassa, ut profectum multorum
+        impediam; quia cupio cunctis in rebus prodesse, modo deus adiuvet infirmitatem meam. Verum
+        quod de tepiditate quorundam dixisti, verum est, cum sint multi, quibus non sapiant laudes
+        divine et singulariter cantus optimi, de quibus aliquid dicam breviter et non inutiliter,
+        modo sit, qui capiat. Et primo quidem sciendum, quod ii, qui se frequenter absentant a
+        laudibus divinis, veniunt in tantam ariditatem, ut postea nullum gustum spiritualem habeant.
+        Quod sane multis contigit prelatis et officialibus, qui tedium maximum senserunt in divinis
+          <pb n="[4]"/>laudibus et cantibus; sed et ad hoc pervenerunt, ut semet evocari iuberent e
         choro, si quando res ita postulavisset, ut ad chorum inissent. Possem quidem exemplificare,
         sed nolo in rebus non initandis; satis est, quod intelligitur, quod volo dicere. Simul hoc
         verum est nec aliquid habet falsitatis, quia, quanto se quis magis absentat a laudibus
@@ -238,45 +249,46 @@
         dissonantie, quod quique cantus suum requirunt modum. Veruntamen sex note sunt in omnibus
         cantibus equales nec aliter sonat semitonium in uno cantu quam in alio, quamvis hoc aliqui
         non intellexerint.</p>
-      <p xml:id="RUTDIA0009">Rogerius: Que dicis, pater Thoma, vera sunt, licet et illa quandoque non
-        intellexerim. Verum nunc video cuncta fore verissima. Simul quantum tabula huiusmodi monet
-        oculos, tantum monocordum docet aures, quod semper secum tenuit magister Conrardus, vir in
-        veritate dignus, cui reverentia post mortem fieret. Sed et monocordum oculos pascebat, quia
-        distantia manifesta fuit in omnibus, sicut et in organis cernitur nostris temporibus. Hoc
-        tamen dixerim, quod natura consuetudoque prevalet arti, maxime in cantu, quamvis et in
-        ceteris ita sit. Pariter notandum, quod multus cantus volvitur infra d-la-sol-re et
-        G-sol-re-ut et ibi est maxima difficultas, quod unus cantus gaudeat primo b-molli, alius
-        vero secundo b-durali, fiuntque maxime confusiones in hoc parvo termino. Quod non solum in
-        nostro cantu sed etiam in aliorum religiosorum cantibus notavi et potissimum in responsoriis
-        quinti toni. Deinceps sciendum, quod fere cunctus cantus non transcendit aa-la-mi-re nec
-        descendit C-fa-ut, quod rubra virgula voluit notare et notavit magister Conrardus, si rite
-        memini. Verum pauci cantus ab aa-la-mi-re sursum scandunt et item pauci descendunt C-fa-ut,
-        quod similiter virgulis notavit vir diligentissimus, magister Conrardus, quem, quia vidi et
-        audivi, non facile possum oblivisci. Utinam et figura huiusmodi haberetur in omnibus
-        collegiis et monasteriis et congregationibus, quia multum confert at intellectum simplicis
-        cantus et gregoriani. Nam cuncta demonstrantur ad oculum per quandam distantiam artificiose
-        confectam et nihil remanet dubii. Deinde monocordum vocem temptat canentis, quod, si
-        nequiverit se conformare, manifestum est, quod musicus esse non possit verus et usualis,
-        licet artem posset dicere vel demonstrare. Simul hoc animadvertendum, quod b-molle fecit
-        rotundum et [sqb]-durum quadratum cum parvula caudula, quare et h ab aliquibus reputatur;
-        quod tamen non ita est. Nec debet pronunciari b-fa [sqb]-mi quasi <pb n="[10]"/>una dictio,
-        sed quasi (694 ra) quatuor sillabe, quatenus melius intelligatur. Simul si vera volumus
-        confiteri, etiam sic scribi debent cuncta divisim, quatenus melius intelligantur. Postremo
-        pro nota ultima significatum fuit in figura nota quadrangularis, quod ea foret extra manum.
-        Quinet in C-fa-ut fuit virgula glauca figurata non longior, in qua fa primi cantus b-duralis
-        significaretur. Deinde F-fa-ut virgulam habuit rubram per totum latus usque ad finem. Porro
-        fa primi b-mollaris cantus tantum per b rotundum significabatur et fa secundi b-duralis per
-        integram lineam glaucam designabatur. Post hec fa secundi cantus naturalis per parvam lineam
-        rubram in spacio notabatur, que linea brevis semper manebat et exilis. Hec preter fa secundi
-        cantus b-mollaris rursum per b in linee parte inferiore denotabatur, cum linea divisa foret
-        propter distantiam soni significandam. Postremo fa cantus ultimi b-duralis per parvam lineam
-        glaucam designabatur in spacio sicut et C-fa-ut, de quo iam prius dictum est. Ad ultimum
-        claves F-fa-ut, c-sol-fa-ut et gg-sol-re-ut in lineis signate fuerant, qua ex causa non
-        satis intelligo, nisi quod iste claves communiter signantur in cantibus librorum.</p>
-      <p xml:id="RUTDIA0010">Thomas: Tantum mihi de huiusmodi figura dixisti, Rogeri frater, ut eam et
-        ipse videre cupiam, quamvis totam rem intelligam etiam sine figura. Nam fuit ingeniosus tuus
-        ille magister Conrardus Zabernie, qui tantam fecit diligentiam et tantum amorem habuit in
-        cantu divino simplici et gregoriano. Utinam illam figuram depingeres in hoc opusculo,
+      <p xml:id="RUTDIA0009">Rogerius: Que dicis, pater Thoma, vera sunt, licet et illa quandoque
+        non intellexerim. Verum nunc video cuncta fore verissima. Simul quantum tabula huiusmodi
+        monet oculos, tantum monocordum docet aures, quod semper secum tenuit magister Conrardus,
+        vir in veritate dignus, cui reverentia post mortem fieret. Sed et monocordum oculos
+        pascebat, quia distantia manifesta fuit in omnibus, sicut et in organis cernitur nostris
+        temporibus. Hoc tamen dixerim, quod natura consuetudoque prevalet arti, maxime in cantu,
+        quamvis et in ceteris ita sit. Pariter notandum, quod multus cantus volvitur infra
+        d-la-sol-re et G-sol-re-ut et ibi est maxima difficultas, quod unus cantus gaudeat primo
+        b-molli, alius vero secundo b-durali, fiuntque maxime confusiones in hoc parvo termino. Quod
+        non solum in nostro cantu sed etiam in aliorum religiosorum cantibus notavi et potissimum in
+        responsoriis quinti toni. Deinceps sciendum, quod fere cunctus cantus non transcendit
+        aa-la-mi-re nec descendit C-fa-ut, quod rubra virgula voluit notare et notavit magister
+        Conrardus, si rite memini. Verum pauci cantus ab aa-la-mi-re sursum scandunt et item pauci
+        descendunt C-fa-ut, quod similiter virgulis notavit vir diligentissimus, magister Conrardus,
+        quem, quia vidi et audivi, non facile possum oblivisci. Utinam et figura huiusmodi haberetur
+        in omnibus collegiis et monasteriis et congregationibus, quia multum confert at intellectum
+        simplicis cantus et gregoriani. Nam cuncta demonstrantur ad oculum per quandam distantiam
+        artificiose confectam et nihil remanet dubii. Deinde monocordum vocem temptat canentis,
+        quod, si nequiverit se conformare, manifestum est, quod musicus esse non possit verus et
+        usualis, licet artem posset dicere vel demonstrare. Simul hoc animadvertendum, quod b-molle
+        fecit rotundum et [sqb]-durum quadratum cum parvula caudula, quare et h ab aliquibus
+        reputatur; quod tamen non ita est. Nec debet pronunciari b-fa [sqb]-mi quasi <pb n="[10]"
+        />una dictio, sed quasi (694 ra) quatuor sillabe, quatenus melius intelligatur. Simul si
+        vera volumus confiteri, etiam sic scribi debent cuncta divisim, quatenus melius
+        intelligantur. Postremo pro nota ultima significatum fuit in figura nota quadrangularis,
+        quod ea foret extra manum. Quinet in C-fa-ut fuit virgula glauca figurata non longior, in
+        qua fa primi cantus b-duralis significaretur. Deinde F-fa-ut virgulam habuit rubram per
+        totum latus usque ad finem. Porro fa primi b-mollaris cantus tantum per b rotundum
+        significabatur et fa secundi b-duralis per integram lineam glaucam designabatur. Post hec fa
+        secundi cantus naturalis per parvam lineam rubram in spacio notabatur, que linea brevis
+        semper manebat et exilis. Hec preter fa secundi cantus b-mollaris rursum per b in linee
+        parte inferiore denotabatur, cum linea divisa foret propter distantiam soni significandam.
+        Postremo fa cantus ultimi b-duralis per parvam lineam glaucam designabatur in spacio sicut
+        et C-fa-ut, de quo iam prius dictum est. Ad ultimum claves F-fa-ut, c-sol-fa-ut et
+        gg-sol-re-ut in lineis signate fuerant, qua ex causa non satis intelligo, nisi quod iste
+        claves communiter signantur in cantibus librorum.</p>
+      <p xml:id="RUTDIA0010">Thomas: Tantum mihi de huiusmodi figura dixisti, Rogeri frater, ut eam
+        et ipse videre cupiam, quamvis totam rem intelligam etiam sine figura. Nam fuit ingeniosus
+        tuus ille magister Conrardus Zabernie, qui tantam fecit diligentiam et tantum amorem habuit
+        in cantu divino simplici et gregoriano. Utinam illam figuram depingeres in hoc opusculo,
         quatenus suo tempore imprimeretur. Esset enim utilissima cunctis cantoribus et
         ludimagistris, qui possent ad oculum cuncta demonstrare. Nam ego iam chimeram ipsius tabule
         concepi et pene formavi in mente, verum non sunt omnes tante fantasie, ut ex tuis verbis et
@@ -329,8 +341,8 @@
         et habetur, dum vel ascenditur de ut in la vel de la in ut descenditur, quia eadem est
         semper distantia et per consequens eadem proportio. En habes, pater Thoma, proportiones in
         cantu simplici reperibiles, quod tua flagitavit intentio.</p>
-      <p xml:id="RUTDIA0012">Thomas: Recte quidem fecisti, Rogeri, qui mihi paruisti iubenti; simul et
-        tue non es oblitus persone, quam geris in hoc dialogo, quia quambrevissime rem longe
+      <p xml:id="RUTDIA0012">Thomas: Recte quidem fecisti, Rogeri, qui mihi paruisti iubenti; simul
+        et tue non es oblitus persone, quam geris in hoc dialogo, quia quambrevissime rem longe
         dictionis indigam comprehendisti. Gaudeo vehementer, quod tam lucide proportiones reposuisti
         et simul tam breviter. Quinetiam valde complacuit expositio termini semiditoni, propterea
         quod semis in eo loco significet imperfectum, non dimidium; quod non omnes noverunt
@@ -359,7 +371,8 @@
         Tritonus vero perrarus est; et tamen invenitur, quamvis melodiam nullam contineat. Ut autem
         sciatur, ostendam aliqua loca, in quibus eum facile poteris invenire in coniunctione
         cantuum, licet et in quisbusdam responsoriis tercii toni reperiatur. Nam si de fa primi
-        naturalis in mi secundi b-duralis ascenderis, habebis tritonum; sed qualiter <pb n="[14]"/>sonabit, tutemet ipse considerabis. Sonat enim (repeto) mirabiliter nec dat aliquam
+        naturalis in mi secundi b-duralis ascenderis, habebis tritonum; sed qualiter <pb n="[14]"
+        />sonabit, tutemet ipse considerabis. Sonat enim (repeto) mirabiliter nec dat aliquam
         suavitatem vel melodiam. Iterum, si de fa primi b-mollis ad mi secundi naturalis ascenderis,
         habebis tritonum. Rursusque, si de fa secundi naturalis ad mi tercii b-duralis ascenderis,
         tercium tritonum reperies et posthac nullum, quia dd-la-sol non habet mutationem, licet eam,
@@ -383,7 +396,8 @@
         cuiusmodi sit, suavis an iniocundus. Consideranti mihi satis occurrit ista proportio, quia
         quatuor thonos recipit et duo semitonia; sed melodia mihi non placet penitus et ideo,
         perpendo, raro reperitur huiusmodi proportio. Nam exempli causa, si de mi primi b-duralis in
-        la primi naturalis ascenderis, habebis semiditonum cum diapenthe, qui tendit ad septimam <pb n="[15]"/>notam. Quinta proportio dicitur ditonus cum diapenthe, que est rarissima, si
+        la primi naturalis ascenderis, habebis semiditonum cum diapenthe, qui tendit ad septimam <pb
+          n="[15]"/>notam. Quinta proportio dicitur ditonus cum diapenthe, que est rarissima, si
         tamen aliquando reperitur. Veruntamen bene sonat et concordat satis nec generat nauseam et
         tedium. Quod si probare volueris, ascende de fa primi naturalis in la secundi b-duralis et
         sonum reperies non inconcinnum, quia ibi quinque tonos et unum semitonium reperies. Et
@@ -408,7 +422,8 @@
         tetigisti, quod tamen maxime necessarium foret in hac figura conficienda. Quod credo tamen
         me intelligere, licet alii non existiment, quia media distantia erit semper de mi in fa, quo
         semitonium denotatur. Hinc est, quod linea, in qua Gamma-ut ponitur, et linea, in qua B-mi
-        ponitur, longe stant ab invicem, quia duo toni sunt in medio, sed linea B-mi <pb n="[16]"/>et D-sol-re non tantam habent distantiam, quoniam semitonium est in medio. Rursus linea
+        ponitur, longe stant ab invicem, quia duo toni sunt in medio, sed linea B-mi <pb n="[16]"
+        />et D-sol-re non tantam habent distantiam, quoniam semitonium est in medio. Rursus linea
         D-sol-re ab F-fa-ut non longe distat, quod et ibi semitonium sit. Verum linea F-fa-ut et
         a-la-mi-re longius distant, quia semitonium in medio nullum est. Et sic consequenter
         ymaginor, quoniam semper semitonium tenebit mediam distantiam et tonus integram. Hinc simul
@@ -448,53 +463,53 @@
         sepius errores in codicibus nostris, quia voces non applicantur nec proportiones sciuntur.
         Pariter aliqui sciunt proportiones nominatim, sed illas cantare nequeunt; et istorum non est
         parvus numerus.</p>
-      <p xml:id="RUTDIA0015">Rogerius: Bene dicis, mi pater amantissime Thoma, propterea quod et ipse
-        videns b-molle vel [sqb]-durum nequeam talia depromere, cum tamen vox ipsa tribuat modum
-        intellectum habentibus et ad cantum inclinatis. Quinetiam timor multos impedit, ne valeant
-        recte cantare, quod noverunt, quia spiritus intercluditur per timorem vanum corque spasmatur
-        nec aliquid remanet virium. Quare tremor inordinatus omnibus modus abiiciendus est et sine
-        timore cantandum est. Consideravi crebro, quod pavor impedivit omnem melodiam, etiam in bene
-        scientibus cantum. Qui sane timor tempore suo recedit nec admittit semper confusionem fieri
-        per spasmationem cordis et pectoris. Veruntamen illi, qui non sunt musici naturales nec
-        didicerunt cantum in iuvenili etate, vix valent pervenire ad bonum modum cantandi. Quod, cum
-        in multis, tum maxime in meipso sum expertus. Nam in melodia pene cunctus latet cantus et
-        toni <pb n="[18]"/>designati sunt, quibus omnis cantus disponitur, de quibus nondum
-        tractavimus neque tractabimus, quia communes sunt et omnibus noti. Sunt autem huiusmodi toni
-        non minus quam octo, tam in responsoriis quam in gradalibus; et quisque tonus suum modum
-        continet. De quibus, quia non est difficile, non est opus disputare; sed qui tonos ignorant
-        huiusmodi, maximas confusiones faciunt, maxime in cantus inchoatione, quod cantores quique
-        cognoscunt et qui cantum incipiunt. (695 vb) Hoc vero mihi rectissimum videtur ad cantum
-        percipiendum, quatenus rudes diligenter auscultent et vocem suam aliis conforment vel ad
-        aliquod instrumentum musicum emendent. Nam qui vocem suam nequit dirigere, hic numquam bonus
-        cantor evadet, etiam si cunctam artem sciverit et ad unguem intellexerit. Hoc pariter
-        animadverto, quod olim fuere musici multo meliores quam modo, quia simpliciter quemlibet
-        cantum signatum depromere potuerunt et, ut in plurimum, lineis caruerunt. Verum modo nec cum
-        lineis quidem et omni diligentia signatas melodias depromere possumus sine quavis
-        confusione. Si quis voluerit antiqua volumina cantus divini contemplari, mirabitur tam
-        simpliciter queque signata et tam parvis notulis et modicis. Unde et magno stupore soleo
+      <p xml:id="RUTDIA0015">Rogerius: Bene dicis, mi pater amantissime Thoma, propterea quod et
+        ipse videns b-molle vel [sqb]-durum nequeam talia depromere, cum tamen vox ipsa tribuat
+        modum intellectum habentibus et ad cantum inclinatis. Quinetiam timor multos impedit, ne
+        valeant recte cantare, quod noverunt, quia spiritus intercluditur per timorem vanum corque
+        spasmatur nec aliquid remanet virium. Quare tremor inordinatus omnibus modus abiiciendus est
+        et sine timore cantandum est. Consideravi crebro, quod pavor impedivit omnem melodiam, etiam
+        in bene scientibus cantum. Qui sane timor tempore suo recedit nec admittit semper
+        confusionem fieri per spasmationem cordis et pectoris. Veruntamen illi, qui non sunt musici
+        naturales nec didicerunt cantum in iuvenili etate, vix valent pervenire ad bonum modum
+        cantandi. Quod, cum in multis, tum maxime in meipso sum expertus. Nam in melodia pene
+        cunctus latet cantus et toni <pb n="[18]"/>designati sunt, quibus omnis cantus disponitur,
+        de quibus nondum tractavimus neque tractabimus, quia communes sunt et omnibus noti. Sunt
+        autem huiusmodi toni non minus quam octo, tam in responsoriis quam in gradalibus; et quisque
+        tonus suum modum continet. De quibus, quia non est difficile, non est opus disputare; sed
+        qui tonos ignorant huiusmodi, maximas confusiones faciunt, maxime in cantus inchoatione,
+        quod cantores quique cognoscunt et qui cantum incipiunt. (695 vb) Hoc vero mihi rectissimum
+        videtur ad cantum percipiendum, quatenus rudes diligenter auscultent et vocem suam aliis
+        conforment vel ad aliquod instrumentum musicum emendent. Nam qui vocem suam nequit dirigere,
+        hic numquam bonus cantor evadet, etiam si cunctam artem sciverit et ad unguem intellexerit.
+        Hoc pariter animadverto, quod olim fuere musici multo meliores quam modo, quia simpliciter
+        quemlibet cantum signatum depromere potuerunt et, ut in plurimum, lineis caruerunt. Verum
+        modo nec cum lineis quidem et omni diligentia signatas melodias depromere possumus sine
+        quavis confusione. Si quis voluerit antiqua volumina cantus divini contemplari, mirabitur
+        tam simpliciter queque signata et tam parvis notulis et modicis. Unde et magno stupore soleo
         percelli, cum tam mirabilem cantum notasque macras intuerer.</p>
-      <p xml:id="RUTDIA0016">Thomas: Que dicis, approbo, quia non videntur a veritate discordare. Nam in
-        multis antiquis libris tam mirabiles cantus inveniuntur et tam temere note, quod modernis
-        temporibus ignoretur penitus, quid sibi velint. In multis enim degeneramus a maioribus
-        nostris et presertim in cantu, quamvis tamen aliqui sunt satis boni musici modernis
-        temporibus. Nam librorum modo copia est et doctorum virorum inopia; simul cantus optime
-        scribuntur et distinguuntur, tamen cantores boni reperiuntur pauci. Hoc autem maxime suadeo
-        quibusdam religiosis, qui semet neglexerunt in iuventute, quatenus frequentius melodias
-        cantent et vocem suam reliquis conforment. Qua sane diligentia fiet, ut pro modulo suo satis
-        discant et utiles sint in choro. Contingit enim simplices utiliores esse quam promptiores in
-        cantu, modo velint diligentiam ex totis viribus adhibere. <pb n="[19]"/>Simul fient cum
-        magno labore musici mediocres quicumque, nisi natura forte restiterit. Nam contra naturam
-        nemo potest prevalere, nisi cum frequentibus et assiduis et maximis laboribus. Fuerit autem
-        optimum, ut quilibet a iuventute canere disceret et imbiberet sibi cantum melodiasque
-        cunctas et diversas modulationes. Hoc monui rursusque cohortor omnes, ut cum diligentia
-        cantionem sanctam discant, quia tali singulariter laudatur deus. Quod si quis puericia
-        neglectus fuerit, studeat vel in iuventute recuperare et aliquid addiscere, ne semper asinus
-        habeatur. Etquidem noticia cantus maxime venit ex usu, sicut et scribere et Latinum fari et
-        versificari; nam omnia predicta usus confert et conservat. Exemplificare de ...?... non est
-        necesse; tutemet ipse, Sycamber, probas, que dico, quoniam modulos (696 ra) ludere per usum
-        didicisti. Dicitur etiam in dicterio metrali:</p>
-      <p xml:id="RUTDIA0017">Latinum fari, bene scribere, versificari: <lb/>Hec tria nullus habet, nisi
-        multus conferat usus. <br/>Et cantare sciet, nisi consuetudine, nemo.</p>
+      <p xml:id="RUTDIA0016">Thomas: Que dicis, approbo, quia non videntur a veritate discordare.
+        Nam in multis antiquis libris tam mirabiles cantus inveniuntur et tam temere note, quod
+        modernis temporibus ignoretur penitus, quid sibi velint. In multis enim degeneramus a
+        maioribus nostris et presertim in cantu, quamvis tamen aliqui sunt satis boni musici
+        modernis temporibus. Nam librorum modo copia est et doctorum virorum inopia; simul cantus
+        optime scribuntur et distinguuntur, tamen cantores boni reperiuntur pauci. Hoc autem maxime
+        suadeo quibusdam religiosis, qui semet neglexerunt in iuventute, quatenus frequentius
+        melodias cantent et vocem suam reliquis conforment. Qua sane diligentia fiet, ut pro modulo
+        suo satis discant et utiles sint in choro. Contingit enim simplices utiliores esse quam
+        promptiores in cantu, modo velint diligentiam ex totis viribus adhibere. <pb n="[19]"/>Simul
+        fient cum magno labore musici mediocres quicumque, nisi natura forte restiterit. Nam contra
+        naturam nemo potest prevalere, nisi cum frequentibus et assiduis et maximis laboribus.
+        Fuerit autem optimum, ut quilibet a iuventute canere disceret et imbiberet sibi cantum
+        melodiasque cunctas et diversas modulationes. Hoc monui rursusque cohortor omnes, ut cum
+        diligentia cantionem sanctam discant, quia tali singulariter laudatur deus. Quod si quis
+        puericia neglectus fuerit, studeat vel in iuventute recuperare et aliquid addiscere, ne
+        semper asinus habeatur. Etquidem noticia cantus maxime venit ex usu, sicut et scribere et
+        Latinum fari et versificari; nam omnia predicta usus confert et conservat. Exemplificare de
+        ...?... non est necesse; tutemet ipse, Sycamber, probas, que dico, quoniam modulos (696 ra)
+        ludere per usum didicisti. Dicitur etiam in dicterio metrali:</p>
+      <p xml:id="RUTDIA0017">Latinum fari, bene scribere, versificari: <lb/>Hec tria nullus habet,
+        nisi multus conferat usus. <br/>Et cantare sciet, nisi consuetudine, nemo.</p>
       <p xml:id="RUTDIA0018">Rogerius: Iam satis, mi Thoma, de recta cantione vel investigavimus vel
         disputavimus; restat, ut nunc de congrua simul et decenti cantu loquamur aliquid ad aliorum
         et nostram instructionem. Decet enim maxime, quatenus convenienter laus dei fiat et
@@ -539,45 +554,45 @@
         variique, cum quidam iaceant, quidam ambulent, quidam denique pendeant cantando. Et in
         omnibus istis est magnum dedecus cantando, cum debeat cantus divinus bonis et optimis
         moribus adornari.</p>
-      <p xml:id="RUTDIA0020">Rogerius: Consentanea quidem rationi dicis et valde salubria; sed seculares
-        huiusmodi non perpendunt nec trutinant facetos mores in cantu. Simul, mi pater, fiunt multe
-        frequenter abusiones in religiosis simili modo, quia devotio deficit in ipsis et tedium
-        occupat omnes. Nam et ipsi modo peregrini sunt et male semet regunt in moribus et gestibus,
-        qui deberent aliis exemplo esse et decori. Principaliter autem visum non custodiunt; quod
-        indecorum est et maxime nocet intentionem et devotionem. Verum hoc vicium iam communissimum
-        est in religiosis et iuvenes cum senibus se invices respectant turpiter et torviter. De
-        quibus (quia verecundor) non plura dicere presumo, utinam vel in modico semet rei
-        emendarent. Sed canimus surdis nec nos audiunt nostri, quanto minus alieni, qui forsitan
+      <p xml:id="RUTDIA0020">Rogerius: Consentanea quidem rationi dicis et valde salubria; sed
+        seculares huiusmodi non perpendunt nec trutinant facetos mores in cantu. Simul, mi pater,
+        fiunt multe frequenter abusiones in religiosis simili modo, quia devotio deficit in ipsis et
+        tedium occupat omnes. Nam et ipsi modo peregrini sunt et male semet regunt in moribus et
+        gestibus, qui deberent aliis exemplo esse et decori. Principaliter autem visum non
+        custodiunt; quod indecorum est et maxime nocet intentionem et devotionem. Verum hoc vicium
+        iam communissimum est in religiosis et iuvenes cum senibus se invices respectant turpiter et
+        torviter. De quibus (quia verecundor) non plura dicere presumo, utinam vel in modico semet
+        rei emendarent. Sed canimus surdis nec nos audiunt nostri, quanto minus alieni, qui forsitan
         etiam scribentes deridebunt. Igitur permittamus ipsis suos mores; forte tempus veniet, quod
         dolebunt se non intellexisse vel emendavisse, que dicebantur. Iam rogito, mi pater Thoma,
         quatenus de reliquis abusionibus prosequare, libens auscultabo quecumque. (696 va)</p>
-      <p xml:id="RUTDIA0021">Thomas: Faciam, quod vis, et primo de pausis dicam vel virgulis, que magnam
-        decentiam conferunt cantui regularium. O felix Bodiken, que tam magnum decus adinvenisti et
-        in tuas filias dispersisti! Sed audivi nuper abs te, Rogeri Sycamber, quod illud decus tria
-        monasteria ex magna parte exterminaverunt multas vergulas delentes; quibus imminet aliquid
-        mali in futuro, quod tam laudabilem consuetudinem non potuerunt tolerare. Nam virgulis iis
-        et pausis agitur, ut concorditer cantetur et uniformiter nec aliquis alium preveniat. Quod
-        diligentissime potest considerari, si quis intendat, quam dissone cantent, qui virgulas et
-        pausas non observant. Unde in partibus inferis in aliquibus locis canunt satis impetuose,
-        quia unus precedit, alius sequitur; nec est aliqua concordia penitus. Quare recte fecerunt,
-        qui virgulas huiusmodi <pb n="[22]"/>adinvenerunt et posteris suis reliquerunt. Quare non
-        debuissent hoc decus illa tria monasteria delevisse, sed modo factum est, ut audivi, quasi
-        consensu omnium. Verum tu, Sycamber, noluisti consentire, unde et magnas molestias habuisti,
-        sed deus coronabit tolerantes. Quam maxime deceant pause, probat discantus, in quo omnia per
-        virgulas et pausas et tempora distinguuntur, ne alicui liceat precurrere vel tardare magis,
-        quam congruum fuerit. O si iste modus virgularum in omnibus monasteriis nostri ordinis
-        foret; sine dubio melius cantaretur et iocundius et uniformius. Sed cum non possit fieri,
-        quod voluimus, velimus, quod possit, alias votum erit inane et supervacuum. Satis iam
-        diximus de laudabilibus virgulis; timeo, ne quis olim temet huius rei causa gravabit, quia
-        mirabiles sunt eventus rerum.</p>
-      <p xml:id="RUTDIA0022">Simul maxime contra decentiam est et congruitatem cantus divini, quia non
-        cantatur mensuraliter, sed alique note trahuntur, alique retardantur et fiunt caudae satis
-        dissonae. Quod intelligere facile quilibet potest in "Deus in adiutorium", in quo sillabe
-        quedam trahuntur et alique transiliuntur, sicut patet omnibus rem considerantibus. Unde et
-        potissimum laudo religionem sancte Brigitte, ubi viri canunt et feminae divisim, quamvis
-        "Salve Regina" pariter cantent, quia canunt mensuraliter valde. Nam (verum fateor) numquam
-        audivisti, mi Sycamber, melius et mensurabilius cani quam ab istis feminis et viris, quos
-        utinam sequi vel imitari in modico possemus. Et quidem nullas caudas faciunt, sed omnia
+      <p xml:id="RUTDIA0021">Thomas: Faciam, quod vis, et primo de pausis dicam vel virgulis, que
+        magnam decentiam conferunt cantui regularium. O felix Bodiken, que tam magnum decus
+        adinvenisti et in tuas filias dispersisti! Sed audivi nuper abs te, Rogeri Sycamber, quod
+        illud decus tria monasteria ex magna parte exterminaverunt multas vergulas delentes; quibus
+        imminet aliquid mali in futuro, quod tam laudabilem consuetudinem non potuerunt tolerare.
+        Nam virgulis iis et pausis agitur, ut concorditer cantetur et uniformiter nec aliquis alium
+        preveniat. Quod diligentissime potest considerari, si quis intendat, quam dissone cantent,
+        qui virgulas et pausas non observant. Unde in partibus inferis in aliquibus locis canunt
+        satis impetuose, quia unus precedit, alius sequitur; nec est aliqua concordia penitus. Quare
+        recte fecerunt, qui virgulas huiusmodi <pb n="[22]"/>adinvenerunt et posteris suis
+        reliquerunt. Quare non debuissent hoc decus illa tria monasteria delevisse, sed modo factum
+        est, ut audivi, quasi consensu omnium. Verum tu, Sycamber, noluisti consentire, unde et
+        magnas molestias habuisti, sed deus coronabit tolerantes. Quam maxime deceant pause, probat
+        discantus, in quo omnia per virgulas et pausas et tempora distinguuntur, ne alicui liceat
+        precurrere vel tardare magis, quam congruum fuerit. O si iste modus virgularum in omnibus
+        monasteriis nostri ordinis foret; sine dubio melius cantaretur et iocundius et uniformius.
+        Sed cum non possit fieri, quod voluimus, velimus, quod possit, alias votum erit inane et
+        supervacuum. Satis iam diximus de laudabilibus virgulis; timeo, ne quis olim temet huius rei
+        causa gravabit, quia mirabiles sunt eventus rerum.</p>
+      <p xml:id="RUTDIA0022">Simul maxime contra decentiam est et congruitatem cantus divini, quia
+        non cantatur mensuraliter, sed alique note trahuntur, alique retardantur et fiunt caudae
+        satis dissonae. Quod intelligere facile quilibet potest in "Deus in adiutorium", in quo
+        sillabe quedam trahuntur et alique transiliuntur, sicut patet omnibus rem considerantibus.
+        Unde et potissimum laudo religionem sancte Brigitte, ubi viri canunt et feminae divisim,
+        quamvis "Salve Regina" pariter cantent, quia canunt mensuraliter valde. Nam (verum fateor)
+        numquam audivisti, mi Sycamber, melius et mensurabilius cani quam ab istis feminis et viris,
+        quos utinam sequi vel imitari in modico possemus. Et quidem nullas caudas faciunt, sed omnia
         terminant succincte et breviter, mensuraliter tamen, quod temet audisse iuxta Ducis Buscum
         dixisti in monasterio non longius a Busco versus Graviam, cui nomen est, si bene (696 vb)
         recordor, Aqua Nigra. Sed et in terra Clivensi locus est, qui Arbor Marie dicitur, in quo
@@ -593,11 +608,11 @@
         devote canere, tam se quam alios impediunt a fructu spirituali. Hec tamen pace aliquorum
         dixerim, qui sibi fortassis iniuriam fieri dicent, cum nos liberius, que sentimus,
         loquimur.</p>
-      <p xml:id="RUTDIA0023">Rogerius: Dicis omnia, que vellem, licet mihi de virgulis invidiam feceris
-        aliqualem vel potius renovaveris. Exulcerabit gravis ultus pessimum et dolorem inferet non
-        antea gustatum, quare de cetero amplius sileamus de virgulis; qui habent, teneant, ne de
-        medio fiant, quia meo iudicio sunt valde utiles et bone. Simul quia dixisti de
-        mensurabilitate, occurrit aliquid, quod me monet, utrum digne iudicabis. Nam sunt aliqui
+      <p xml:id="RUTDIA0023">Rogerius: Dicis omnia, que vellem, licet mihi de virgulis invidiam
+        feceris aliqualem vel potius renovaveris. Exulcerabit gravis ultus pessimum et dolorem
+        inferet non antea gustatum, quare de cetero amplius sileamus de virgulis; qui habent,
+        teneant, ne de medio fiant, quia meo iudicio sunt valde utiles et bone. Simul quia dixisti
+        de mensurabilitate, occurrit aliquid, quod me monet, utrum digne iudicabis. Nam sunt aliqui
         cantus, etiam gregoriani, qui naturaliter saltant, ut exempli causa "Credo in unum deum",
         "Conditor alme siderum", qui, nisi cum modico saltu canantur, perdunt venustatem. Quare mihi
         videtur, quod non valeat in omnibus observari, quatenus mensuraliter cantetur, cum tali modo
@@ -685,9 +700,9 @@
         diximus, quoniam vox subtilianda sit et applicanda notis altioribus, ne quid rusticanum
         redoleat et sonet in voce cantantis; ideo, si quid amplius velis adiungere, precor, ut
         facias, quia fervent aures et avidus sum audiendi.</p>
-      <p xml:id="RUTDIA0028">Thomas: Postremo, mi Rogeri, pertinet ad ultimum decorum et maximum cantus
-        urbani, decentis et congruentis, ut dulciter quis canat. In quo quidam deficiunt; et dum
-        cantare audaciter et presumptuose volunt, nec deo placent nec hominibus. Et primo quidem
+      <p xml:id="RUTDIA0028">Thomas: Postremo, mi Rogeri, pertinet ad ultimum decorum et maximum
+        cantus urbani, decentis et congruentis, ut dulciter quis canat. In quo quidam deficiunt; et
+        dum cantare audaciter et presumptuose volunt, nec deo placent nec hominibus. Et primo quidem
         sciendum, quia natura semper prevalet in cantu <pb n="[27]"/>qualibet arte, quoniam, qui
         naturam suam sequuntur et eam dirigunt, optime canunt; qui vero sibi voces formant ex
         gutture extorquentes, auditores cruciant, non afficiunt aliqua dulcedine. Leniter igitur,
@@ -758,22 +773,22 @@
         Sanctus et Agnus dei; quod nostra constituta vetant. Vidi tamen, fateor, in multis locis
         viva exempla devotorum fratrum, qui strenuissime steterunt in divino cantu, quod omnes non
         valent, maxime ventrosi fratres.</p>
-      <p xml:id="RUTDIA0031">Rogerius: Existimo, mi pater Thoma, quod et tutemet iam pinguis effectus
-        sis et vigeas obesis carnibus, cum graves aqualiculos ita purges, sed et ego non sum macer;
-        nolo plura dicere, ne quis nos carnosas subsannet bestias. Optandum quidem foret omnibus, ne
-        pinguescerent propter iniocunditatem et ineptitudinem, (698 rb) sed nature resistere nemo
-        potest. Quocirca ferenda est equo animo pinguedo, si obvenerit, licet non sit argumentum
-        magne castigationis corporis. Hec dicens meipsum magis quam alios reprehendo; nec tibi facio
-        verecundiam, qui forsitan macer remanes et ieiunus. Emergent tamen <pb n="[30]"/>aliqui
-        futuro tempore, qui in semet inclementius dictum reputabunt, quod duntaxat in me dixi.
-        Negare sane nequeo nec volo, quod cibus et potus impinguat hominis carnem, non spiritus,
-        quamvis isdem siccet ossa, si tristis fuerit. Quod, qui fuerint experti, sciunt; qui non
-        sunt experti, nesciunt, feliciter magis quam scienter. Verum quoniam in sancta intentione
-        verborum sacrorum tota latet devotio canentis, precor, ut aliquid loquare de ferventi
-        meditatione aliquorum canticorum vel psalmorum vel utilitate talium, ut magis devotio
-        crescat in canentibus, que sola apud dominum laudatur, non cantus vocalis. Nam et avicule
-        dulciter canunt; et tamen non utuntur intellectu nec devotione vigent, sed sola vi naturali.
-        Siquidem est maior vis interior in homine, quam deo maxime placet, que dicitur
+      <p xml:id="RUTDIA0031">Rogerius: Existimo, mi pater Thoma, quod et tutemet iam pinguis
+        effectus sis et vigeas obesis carnibus, cum graves aqualiculos ita purges, sed et ego non
+        sum macer; nolo plura dicere, ne quis nos carnosas subsannet bestias. Optandum quidem foret
+        omnibus, ne pinguescerent propter iniocunditatem et ineptitudinem, (698 rb) sed nature
+        resistere nemo potest. Quocirca ferenda est equo animo pinguedo, si obvenerit, licet non sit
+        argumentum magne castigationis corporis. Hec dicens meipsum magis quam alios reprehendo; nec
+        tibi facio verecundiam, qui forsitan macer remanes et ieiunus. Emergent tamen <pb n="[30]"
+        />aliqui futuro tempore, qui in semet inclementius dictum reputabunt, quod duntaxat in me
+        dixi. Negare sane nequeo nec volo, quod cibus et potus impinguat hominis carnem, non
+        spiritus, quamvis isdem siccet ossa, si tristis fuerit. Quod, qui fuerint experti, sciunt;
+        qui non sunt experti, nesciunt, feliciter magis quam scienter. Verum quoniam in sancta
+        intentione verborum sacrorum tota latet devotio canentis, precor, ut aliquid loquare de
+        ferventi meditatione aliquorum canticorum vel psalmorum vel utilitate talium, ut magis
+        devotio crescat in canentibus, que sola apud dominum laudatur, non cantus vocalis. Nam et
+        avicule dulciter canunt; et tamen non utuntur intellectu nec devotione vigent, sed sola vi
+        naturali. Siquidem est maior vis interior in homine, quam deo maxime placet, que dicitur
         intellectualis, cum quilibet intendit, quod canit, et laudes psallit ex animo.</p>
       <p xml:id="RUTDIA0032">Thomas: Placet, quod postulas, et obaudiam libens, cum pater noster
         Augustinus breviter dicat non precipiendo (quis enim illud posset servare) sed consulendo:
@@ -819,12 +834,12 @@
         quam secularis, quoniam illi satis honorificant gestibus deum et cantibus suis. Precor
         autem, quatenus ista capias in partem meliorem, quia neminem accusare volui, sed indicare
         duntaxat signa indevotionis.</p>
-      <p xml:id="RUTDIA0035">Rogerius: Cum, pater Thoma, singula, que faris, considero, me quoque notari
-        crebrius animadverto, quia non semper ad melliflua nomina caput inclino, quippe captus et
-        meis inutilibus intentus fantasiis. Nam (fatebor ingenue) cuncta, que scribo, in divinis
-        cantibus mihi incidunt; et tunc ulterius ymaginor, quomodo libellus de tali vel tali materia
-        breviter fieri possit, ne prolixitas et ruditas lectorem offendat. (698 vb) Et tali pacto
-        sepius in unis matutinis complures condo libellos; sed dum ad cellam venio et calamum
+      <p xml:id="RUTDIA0035">Rogerius: Cum, pater Thoma, singula, que faris, considero, me quoque
+        notari crebrius animadverto, quia non semper ad melliflua nomina caput inclino, quippe
+        captus et meis inutilibus intentus fantasiis. Nam (fatebor ingenue) cuncta, que scribo, in
+        divinis cantibus mihi incidunt; et tunc ulterius ymaginor, quomodo libellus de tali vel tali
+        materia breviter fieri possit, ne prolixitas et ruditas lectorem offendat. (698 vb) Et tali
+        pacto sepius in unis matutinis complures condo libellos; sed dum ad cellam venio et calamum
         arripio, nihil occurrit pristine dispositionis. Unde contingit, ut titulos aliqualiter
         aptulos confingam, sed modus procedendi claudicat in omnibus. Sed et mihi tempus nullum tam
         vacuum est quam in laudibus et cantibus divinis, quo satis egredior et vagor cuncta
@@ -840,7 +855,8 @@
         omnia consideravi et perpendi; maxime tamen me delectabant, si tymmilitas (?) affuisset.
         Simul profiteor me crebrius oblectavit modulatio pulchra, suavis et iocunda responsoriorum
         vel aliorum cantuum, quando animadverti descensum iocundum vel ascensum in notis. Et credo
-        reliquis idem contingere, qui devotionem querunt in cantu divino laudibusque <pb n="[33]"/>supernis. Doleo quidem vehementer, quod iam tam sumus indevoti, cum olim lachrimarentur
+        reliquis idem contingere, qui devotionem querunt in cantu divino laudibusque <pb n="[33]"
+        />supernis. Doleo quidem vehementer, quod iam tam sumus indevoti, cum olim lachrimarentur
         viri docti in ymnis et canticis suave sonantis ecclesie vocibus vehementer affecti. Sed
         quare ista? Sumus enim nunc pleni passionibus et viciis simul et fantasiis nec intendimus,
         que cantamus. O si cantores imperialium laudum sequeremur, qui totis visibus intendunt suis
@@ -851,34 +867,35 @@
         existimo, ut semper intelligantur verba, que canuntur effectualiter et affectualiter, quod
         tamen difficile est multis et quam primum mihi, qui multas ymaginationes, ut professus sum,
         reperio divinis in laudibus, quas tamen cum molior carthe tradere, refugiunt. (699 ra)</p>
-      <p xml:id="RUTDIA0036">Thomas: Dicis placita et que facile credo; nec quisquam dubitare poterit,
-        ut existimo; verum mea peticiuncula simul et iussio talis est, frater Rogeri, quatenus
-        breviter recapitules, que diximus, ut tali pacto coniungere queamus, que desunt, et demere
-        superflua, si opus fuerit. Nam fuimus nimis festivi in dictionibus nostris; nec aliquam
-        deliberationem habuimus in omnibus dicendis. Simul ordinem, quod turpissimum est, non
-        tenuimus et plura in ventum diximus non animadvertentes, quo tenderent. Quare meo quidem
+      <p xml:id="RUTDIA0036">Thomas: Dicis placita et que facile credo; nec quisquam dubitare
+        poterit, ut existimo; verum mea peticiuncula simul et iussio talis est, frater Rogeri,
+        quatenus breviter recapitules, que diximus, ut tali pacto coniungere queamus, que desunt, et
+        demere superflua, si opus fuerit. Nam fuimus nimis festivi in dictionibus nostris; nec
+        aliquam deliberationem habuimus in omnibus dicendis. Simul ordinem, quod turpissimum est,
+        non tenuimus et plura in ventum diximus non animadvertentes, quo tenderent. Quare meo quidem
         iudicio necessaria est repetitio, que, si brevis fuerit, obesse non poterit. Igitur mihi
         parebis iubenti breviterque, que confecimus, recapitulabis, ut tedium sit nullum et fructus
         tantus, quantum deus donaverit. Siquidem in aliis compluribus opusculis recapitulavisti,
         recordor, mi Sycamber, et aliquando necessaria coniunxisti; simul, ut existimo, minus
         sufficienter dicta consideravisti vel emendans singula vel iugilans vel apponens.</p>
-      <p xml:id="RUTDIA0037">Rogerius: Quia sic vis, pater et preceptor, repetam iam disputata summatim,
-        secundum quod videtur lectoribus expedire; quare mihi discipulo, precor, indulgeas, si meum
-        sequar sentimentum et intentum. Et prologum quidem fecimus, ut melius <pb n="[34]"/>intelligerentur omnia scireturque olim patrem Thomam Stralensem fuisse Rogerio Sycambro
-        perquamamicissimum. Nam ad hec scribenda me movit primum charitas, deinde commoditas
-        legentium et fructus, licet ambiguus. Veruntamen hoc affirmare possum, quod ego aliquid
-        temporis subtraxi vane fabulationi, dum huiusmodi in diebus festis post prandium calamo
-        designo. Volui quidem, fateor, rectum cantum gregorianum paucis et congruum, pariter devotum
-        monstrare; sed non affuit facultas et temporis angustia pariter impedivit. Simul nolui
-        prolixior esse legentibus, quia cuncta modo respuuntur, in longum que vergunt sermonem. Feci
-        proinde preterite nostre conversationis memoriam, ne quis ignoraret vitam nostram penitus.
-        Quinetiam respondi talibus, qui garrient in nos, quod conamur de cantu scribere, quem
-        ignoramus. Cuius rei gratia, te, pater, feci magistrum et interlocutorem, qui cunctas
-        proportiones calles nec ..?.. aliquando deciperis. Nam crebrius notavi in Molaerivo, quia
-        diligentissime semper intonavisti nec unquam fefellisti, quod tamen rarum est in cantoribus.
-        Verum in te duo pariter fuere coniuncta, quia scientiam facultatis musices diligentie
-        consociavisti. Quo contingit, ut sine confusionibus totum (699 rb) chorum regeres et
-        paucissime fierent confusiones. Simul proposuimus in prologo, de quibus dicturi essemus,
+      <p xml:id="RUTDIA0037">Rogerius: Quia sic vis, pater et preceptor, repetam iam disputata
+        summatim, secundum quod videtur lectoribus expedire; quare mihi discipulo, precor,
+        indulgeas, si meum sequar sentimentum et intentum. Et prologum quidem fecimus, ut melius <pb
+          n="[34]"/>intelligerentur omnia scireturque olim patrem Thomam Stralensem fuisse Rogerio
+        Sycambro perquamamicissimum. Nam ad hec scribenda me movit primum charitas, deinde
+        commoditas legentium et fructus, licet ambiguus. Veruntamen hoc affirmare possum, quod ego
+        aliquid temporis subtraxi vane fabulationi, dum huiusmodi in diebus festis post prandium
+        calamo designo. Volui quidem, fateor, rectum cantum gregorianum paucis et congruum, pariter
+        devotum monstrare; sed non affuit facultas et temporis angustia pariter impedivit. Simul
+        nolui prolixior esse legentibus, quia cuncta modo respuuntur, in longum que vergunt
+        sermonem. Feci proinde preterite nostre conversationis memoriam, ne quis ignoraret vitam
+        nostram penitus. Quinetiam respondi talibus, qui garrient in nos, quod conamur de cantu
+        scribere, quem ignoramus. Cuius rei gratia, te, pater, feci magistrum et interlocutorem, qui
+        cunctas proportiones calles nec ..?.. aliquando deciperis. Nam crebrius notavi in Molaerivo,
+        quia diligentissime semper intonavisti nec unquam fefellisti, quod tamen rarum est in
+        cantoribus. Verum in te duo pariter fuere coniuncta, quia scientiam facultatis musices
+        diligentie consociavisti. Quo contingit, ut sine confusionibus totum (699 rb) chorum regeres
+        et paucissime fierent confusiones. Simul proposuimus in prologo, de quibus dicturi essemus,
         videlicet de recta cantione primum, deinde de urbana, postremo de religiosa. Que quidem
         membra in dialogo presecuti sumus, licet non sufficienter et debite, sicut proposuimus,
         multis irruentibus cogitationibus. Ad ultimum dominum cunctiparentem invocavimus, quo
@@ -888,7 +905,8 @@
         depromere volunt. Quibus profecto spiritus gravis est inopia, cum nihil sit melius quam deum
         laudare et superexaltare. Sed nunc, ut diximus et verum diximus, multi semet absentant a
         divinis canticis et libentius in aliis rebus occupantur, sint ille qualescumque. Simul tali
-        pacto diminuitur laus divina et cantio sancta debilitatur, que melius a <pb n="[35]"/>pluribus potest depromi quam a paucis. Pariter hoc in loco exemplum posui de cantoribus
+        pacto diminuitur laus divina et cantio sancta debilitatur, que melius a <pb n="[35]"
+        />pluribus potest depromi quam a paucis. Pariter hoc in loco exemplum posui de cantoribus
         regiis vel ponere volui, qui sua multitudine regis honorem demonstrant. Et sane maxime regie
         maiestati detraheret, si quis voluerit numerum laudatorum suorum minuere, quod tamen primo
         facere prelati moderni non timent, qui multos permittunt abesse a tam sanctis cantionibus.
@@ -1016,16 +1034,16 @@
         congrua cantione dicta, precor, quoniam et ibi multa diximus et breviter nobis omnia
         recapitulanda sunt, ne quis tediosus fastidiat. Igitur de singulis breviter repetas, oro;
         simul ut addas, que minus sunt dicta, exoro.</p>
-      <p xml:id="RUTDIA0041">Rogerius: Faciam libens, quod postulas, et aliquando quedam copulabo vel ad
-        minus aliqua lucidius proferam, si deus voluerit. Et in primis quidem disputavimus de bonis
-        moribus et gestibus, qui maxime decusant divinam cantionem, si fuerint honesti simul et
-        suaves. Nam impossibile est, ut quis malis moribus utens possit deo suo canto placere. Verum
-        hic aliquid volui dicere, sed non protuli, quare modo dicendum est, quia maxime rusticanum
-        est et impedit cantum sanctum, quod aliqui nimis in exscreando sunt inquieti. Quod in
-        aliquibus animadverti, qui crebris inquietudinibus proximos molestant et omnem devotionem
-        tollunt et decorem. (700 va) De quibus, fateor, dicere volueramus, sed oblivio gravis
-        incidit et nos cecos reddidit. Nam maxime tales molestant suaviter cantare volentes, qui
-        crebris spuitionibus tumultus graves faciunt; et simul super tales spiritus sanctus
+      <p xml:id="RUTDIA0041">Rogerius: Faciam libens, quod postulas, et aliquando quedam copulabo
+        vel ad minus aliqua lucidius proferam, si deus voluerit. Et in primis quidem disputavimus de
+        bonis moribus et gestibus, qui maxime decusant divinam cantionem, si fuerint honesti simul
+        et suaves. Nam impossibile est, ut quis malis moribus utens possit deo suo canto placere.
+        Verum hic aliquid volui dicere, sed non protuli, quare modo dicendum est, quia maxime
+        rusticanum est et impedit cantum sanctum, quod aliqui nimis in exscreando sunt inquieti.
+        Quod in aliquibus animadverti, qui crebris inquietudinibus proximos molestant et omnem
+        devotionem tollunt et decorem. (700 va) De quibus, fateor, dicere volueramus, sed oblivio
+        gravis incidit et nos cecos reddidit. Nam maxime tales molestant suaviter cantare volentes,
+        qui crebris spuitionibus tumultus graves faciunt; et simul super tales spiritus sanctus
         requiescere non potest. Dicit enim divina scriptio, quod spiritus sanctus requiescat super
         quietum et humilem et trementem verba domini. Quod utinam perpenderent quidam, qui tam multa
         comedunt, ut postea nihil cantare valeant, sed excreare habeant necesse! De quibus tacere
@@ -1059,8 +1077,8 @@
         quoniam tunc decor et honestas a cantu recedunt. Sed ne longior sim, quam decet in
         repetendo, transeo vagum visum, qui tamen nocivissimus est omnibus honeste et maxime devote
         psallere volentibus.</p>
-      <p xml:id="RUTDIA0042">Thomas: Recte cuncta repetis et, que mea est grandis voluptas, quod minus
-        dictum est, annectis. Sed et ego aliquid, ne graveris, recapitulabo et talia forte, de
+      <p xml:id="RUTDIA0042">Thomas: Recte cuncta repetis et, que mea est grandis voluptas, quod
+        minus dictum est, annectis. Sed et ego aliquid, ne graveris, recapitulabo et talia forte, de
         quibus tutemet plura dicere times augurans tibi periculum impendere. Quod tamen non ita est,
         quia cuncti facile intelligunt, quid bonum et quid malum sit, licet minus sequantur. Nam
         posthac disputavimus <pb n="[42]"/>de virgulis et pausis, que maximum decorem afferunt
@@ -1087,7 +1105,8 @@
         consuetudinem consentirem immutari. Quare potes satis intelligere, quid de illis iudicem,
         qui satagunt omnibus modis, ut fiat mutatio et insuper non consentientibus molestias
         inferunt, quas possunt, et iniocunditates. Verum quia non libenter de huiusmodi audis, facio
-        finem dicendi, ne qua tibi proveniat iniocunditas. Insuper contra eos locuti sumus, qui <pb n="[43]"/>non servant mensuras in cantibus, sed unam notam trahunt et aliam transiliunt
+        finem dicendi, ne qua tibi proveniat iniocunditas. Insuper contra eos locuti sumus, qui <pb
+          n="[43]"/>non servant mensuras in cantibus, sed unam notam trahunt et aliam transiliunt
         more discantatorum. Verum hoc interest, quod isti hoc non certa ratione faciunt, illi vero
         ratione certissima. Et ista abusio magnam causat incongruitatem cantus divini, qui
         mensuraliter debet cantari et ad quandam regulam dirigi. Non tamen is malus modus in omnibus
@@ -1112,7 +1131,8 @@
         probavimus, si rite recordor. Nam de accentibus aliquid duximus in medium et astipulationem
         dictis nostris procuravimus. Preterea de differentia cantuali, sicut mihi videtur, satis
         congrua disputavimus, quia, nisi sit talis, totus confunditur cantus. Nam rationis nihil
-        haberet, si (701 rb) quis ita vellet cantare feriatis diebus, quemadmodum <pb n="[44]"/>cantandum est in diebus festis et solemnibus, quia magna est hic differentia. Solemnes
+        haberet, si (701 rb) quis ita vellet cantare feriatis diebus, quemadmodum <pb n="[44]"
+        />cantandum est in diebus festis et solemnibus, quia magna est hic differentia. Solemnes
         enim dies exigunt, ut cantetur sonorius, altius et tractius et omnino festinius; sed feriati
         dies sunt contenti simplici voce et mediocri festinatione. De iis, non dubito, quique
         ordines sua tenent scripta, simul et ratio dictat omnia, quomodo sint differentialiter
@@ -1132,8 +1152,8 @@
         simul et levaminis: Cum magister Conrardus de Zabernia quosdam audisset ita rusticane
         boantes in altissimis, totus infrenduit et versus in iram hunc dixit rigmum:</p>
       <p xml:id="RUTDIA0044">Ut boves in pratis, sic vos in choro boatis,</p>
-      <p xml:id="RUTDIA0045">qui sonat, tamquam versus esset et portari posset, nisi due longe sillabe
-        breviarentur et una brevis produceretur. Veruntamen aliqui reputabunt bonum versum a
+      <p xml:id="RUTDIA0045">qui sonat, tamquam versus esset et portari posset, nisi due longe
+        sillabe breviarentur et una brevis produceretur. Veruntamen aliqui reputabunt bonum versum a
         magistro Conrardo conditum. Simul cum quidam cantaret: "Aremus", dixit iocando sociis suis
         et astantibus: Absit a nobis arare, qui sumus divinis laudibus deputati! Tales iocos et
         tales plures predictus <pb n="[45]"/>magister in rusticanos cantores evomuit, unde etiam ab
@@ -1160,7 +1180,8 @@
         dominum deum totis vocibus collaudaret. Respondet muliercula: Domine, infelix sum mulier et
         perdidi animal meum auritum, verum dum vos cantare audivi, putabam me asinum meum audire,
         qui similiter canit. Qua responsione confusus abiit verecundiam pro honore reportans.
-        Etquidem suavitas cantandi omnibus grata est et salubris, simul devotionem <pb n="[46]"/>inducit et non gravat cantantem letumque facit affectum sine intermissione iubilum menti
+        Etquidem suavitas cantandi omnibus grata est et salubris, simul devotionem <pb n="[46]"
+        />inducit et non gravat cantantem letumque facit affectum sine intermissione iubilum menti
         procurans. Verum illi, qui trudunt vocem et violentant, aures aliorum ledunt et ipsi pariter
         leduntur; nec aliquis est sernus vel utilitas in huiuscemodi labore. Quinet cito raucescit
         huiusmodi et iudicatur superbus et vane glorie cupidus vaneque laudis appetitor. Contra
@@ -1209,7 +1230,8 @@
         ad gloriosa nomina Jesus et Maria? Tam insensibiles sumus, ut nihil de huiusmodi cogitemus
         tamquam pecudes prone terram solam contemplantes! O cum quanta devotione laudes essent
         promende superne a religiosis viris et internis; sed omnes versi sumus in carnem! Dico
-        quidem ista inter nos nec debent aliquo modo ad vulgus devolvi, ne contemnat ministros <pb n="[48]"/>dei, quod sibi minime expediret. Etiam, recordor, deploravimus nos ad tantam
+        quidem ista inter nos nec debent aliquo modo ad vulgus devolvi, ne contemnat ministros <pb
+          n="[48]"/>dei, quod sibi minime expediret. Etiam, recordor, deploravimus nos ad tantam
         venisse miseriam et ariditatem, cum olim fuerint devotissimi cantores gaudentes in ymnis et
         canticis cum maximis fletibus. Sed, fateor, sumus nunc viciis multis involuti nec apti
         divinis laudibus et canticis; et ideo non sentimus devotionem sicut patres antiqui. Simul ex
@@ -1227,12 +1249,12 @@
         depingere ad oculos, quoniam multum de huiusmodi locutus sum. Iam vale, pater Thoma,
         charissime Consycamber et cantor suavissime, capiasque in meliorem partem, quod temet
         introducere volui mecum loquentem. (702 rb)</p>
-      <p xml:id="RUTDIA0048">Ad devotum patrem Thomam de Stralen Carmen. <lb/>Hos capias modulos, Thoma
-        pater, obsecro, clemens, <br/>Quos in amore tui fervens dedit ipse Sycamber <lb/>Simplice de
-        cantu, de cantu gregoriano. <br/>Tractatus modicus tibi consecratus, acerba <lb/>Iurgia
-        censorum timet. Ergo secare memento <br/>Omne supervacuum; coniungito, quod minus extat.
-        <lb/>Ipse rudis, fateor, cantus et nullius artis <br/>Attemptare prosam volui, ne nostra
-        periret <lb/>
+      <p xml:id="RUTDIA0048">Ad devotum patrem Thomam de Stralen Carmen. <lb/>Hos capias modulos,
+        Thoma pater, obsecro, clemens, <br/>Quos in amore tui fervens dedit ipse Sycamber
+        <lb/>Simplice de cantu, de cantu gregoriano. <br/>Tractatus modicus tibi consecratus, acerba
+        <lb/>Iurgia censorum timet. Ergo secare memento <br/>Omne supervacuum; coniungito, quod
+        minus extat. <lb/>Ipse rudis, fateor, cantus et nullius artis <br/>Attemptare prosam volui,
+        ne nostra periret <lb/>
         <pb n="[49]"/>Tempore amicicia; nam scriptis firma manebit <br/>Lectoresque scient (que
         nostra est magna voluptas), <lb/>Quod socii fuimus quondam, quod famina multa <br/>De rebus
         variis confecimus atque iocosum <lb/>Traximus elogium sine tegnis et sine felle. <br/>Valde
@@ -1324,8 +1346,8 @@
         decoris. <br/>
         <lb/>Sit, Christe, rex superne <br/>Iudexque seculorum, <lb/>Tibi decus, potestas
         <br/>Regnum, vigor salusque.</p>
-      <p xml:id="RUTDIA0051">-------------- [In der Handschrift folgt an dieser Stelle das unpaginierte
-        Folioblatt mit den tabellarishen Darstellungen.]</p>
+      <p xml:id="RUTDIA0051">-------------- [In der Handschrift folgt an dieser Stelle das
+        unpaginierte Folioblatt mit den tabellarishen Darstellungen.]</p>
       <p xml:id="RUTDIA0052">
         <pb n="[61]"/>[Rutgerus, Dialogus, 61; text: Septem cantuum concurrentia. lucide et bene
         ordinata; [Gamma], A, B, C, D, E, F, G, a, b, c, d, ee, ff, gg, aa, cc, dd, ut, re, mi, fa,
@@ -1353,7 +1375,8 @@
         ymis sensibus reponendum, quod cantus simplex hic dicitur, non quoad figurativum cantum; sed
         quique cantus per se sive b-duralis, sive b-mollis, sive naturalis, sive neutralis, ut
         quidam dixerunt. Et hic similiter considerandum, quod omnes septem cantus simplices sunt
-        equales in notis et vocibus; quod non habeant nisi sex notas et eas equales. Nec proinde <pb n="[55]"/>aliter sonat semitonium in b-fa quam in [sqb]-mi, et cetera de aliis omnibus.
+        equales in notis et vocibus; quod non habeant nisi sex notas et eas equales. Nec proinde <pb
+          n="[55]"/>aliter sonat semitonium in b-fa quam in [sqb]-mi, et cetera de aliis omnibus.
         Unde cantus simplex hic vocatur quisque septem cantuum, quorum quilibet habet sex notas,
         unum semitonium et quattuor tonos; et nihil amplius. Hec ob id diximus, ne quis reputet
         simplicem contra discantum distingui. Preterea notandum, quod valor proportionum in simplici
@@ -1377,7 +1400,8 @@
         et in iis notis omnes proportiones in cantu simplici reperibiles habentur. Quod sane patet
         notas septem proportionum, quas consignavi, in secunda figura, contemplantibus. Simul liquet
         in sequentibus notis, ubi et nominantur thoni ex nomine; similiter et in tenore posteriore
-        sine verbis modulato. Verum proportiones non reperibiles in simplici cantu <pb n="[56]"/>frequenter occupant duos vel tres simplices cantus, quod, ut facilius agnoscatur, de
+        sine verbis modulato. Verum proportiones non reperibiles in simplici cantu <pb n="[56]"
+        />frequenter occupant duos vel tres simplices cantus, quod, ut facilius agnoscatur, de
         singulis dicam talibus proportionibus. Nam in primis tritonus occupat primum cantum
         naturalem et spreto primo b-molli in secundum b-durum salit, quia de fa primi naturalis in
         mi secundi b-duralis saltat. Deinde semidiapenthe, id est imperfectum dyapenthe, primum
@@ -1405,8 +1429,8 @@
         multe pluries inveniri possent in coniunctione cantus et figura prosignata, que patet
         omnibus. Iam finem facio de tabula proportionum dicendi et ad coniunctionis cantuum tabulam
         vel figuram procedo breviter aliquid disputaturus.</p>
-      <p xml:id="RUTDIA0055">Principio igitur sciendum, quod non satis pulchre formavi rigas vel lineas,
-        sed ut iners pictor omnia duntaxat conieci; sed melius depingent sequentes. Igitur
+      <p xml:id="RUTDIA0055">Principio igitur sciendum, quod non satis pulchre formavi rigas vel
+        lineas, sed ut iners pictor omnia duntaxat conieci; sed melius depingent sequentes. Igitur
         animadvertendum, quod omnia sint cum circino mensuranda, et semper semitonia mediam
         distantiam habebunt et toni integram; et sic obveniet pulchra figura. Necnon linee semper
         erunt equalis spissitudinis, ne fiat tortitudo, que ledat oculos intuentium. Quare et
@@ -1450,11 +1474,12 @@
         differentie, quia semitonium in b-durali ita molle est sicut semitonium in b-molli; nec ulla
         est differentia; et similiter semitonium in neutrali vel naturali. Quod licet aliqui non
         intelligant, tamen verissimum est et potest ad oculum demonstrari. Ad postremum, quod in
-        linea F-fa-ut ponitur nigrum f, et in linea c-sol-fa-ut c et in linea g-sol-re-ut <pb n="[59]"/>g nigrum hoc designat, quod iste claves frequenter in cantu ponantur et non
+        linea F-fa-ut ponitur nigrum f, et in linea c-sol-fa-ut c et in linea g-sol-re-ut <pb
+          n="[59]"/>g nigrum hoc designat, quod iste claves frequenter in cantu ponantur et non
         alie.</p>
-      <p xml:id="RUTDIA0056">Tenes iam, mi pater Thoma, duas figuras et tabulas pueriliter designatas de
-        recta cantione; quod si mihi ut tibi pergamenum affuisset, sine dubio in papiro non
-        scripsissem et affectus maior fuisset aptius aliquid depingendi.</p>
+      <p xml:id="RUTDIA0056">Tenes iam, mi pater Thoma, duas figuras et tabulas pueriliter
+        designatas de recta cantione; quod si mihi ut tibi pergamenum affuisset, sine dubio in
+        papiro non scripsissem et affectus maior fuisset aptius aliquid depingendi.</p>
       <p xml:id="RUTDIA0057">Vale, mi pater, et capias partem in meliorem, que diximus, qui futuro
         tempore aliquid melius ponemus.</p>
     </body>

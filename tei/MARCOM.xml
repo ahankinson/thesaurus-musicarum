@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>[Compendium]</title>
         <title type="abbrev">MARCOM</title>
-        <author>Marchetus de Padua</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Marchetus de Padua</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Jessica Sisk</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2003</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2003">2003</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Raffaello Monterosso, "Un compendio inedito del "Lucidarium" di
           Marchetto da Padova," <emph>Studi medievali</emph> III/2 (1966): 914-31, 927–31. As a
@@ -78,13 +88,13 @@
         semitoni cum tribus tonis. Tertium incipit in f gravi et terminatur in c acutum, et est
         disposicio trium tonorum cum semitonio. Quartum et ultimum incipit in G gravi et terminatur
         in d acutum, et est disposicio duorum tonorum cum semitonio et tono.</p>
-      <p xml:id="MARCOM0002">Dyatessaron vero triplex est. Primum incipit in eadem d et terminatur in G
-        gravi. Secundum incipit in eadem E et terminatur in A acutum. Tercium et ultimum incipit in
-        eadem f et terminatur in primum b acutum, nec aliter dyatessaron potest variari. Sed est
-        sciendum quod quamvis dicatur quod prima incipit in d et secunda in E, [et] hoc dicitur
-        quoad tonorum sive modorum composicionem. Sed, simpliciter loquendo, ubicumque predicte
-        species et earum dixposiciones invenientur, poterunt esse prime et cetera: utpote a prima
-        [dyapente] A ad quartam d erit prima dyatessaron et ab eadem A ad quintam E erit prima
+      <p xml:id="MARCOM0002">Dyatessaron vero triplex est. Primum incipit in eadem d et terminatur
+        in G gravi. Secundum incipit in eadem E et terminatur in A acutum. Tercium et ultimum
+        incipit in eadem f et terminatur in primum b acutum, nec aliter dyatessaron potest variari.
+        Sed est sciendum quod quamvis dicatur quod prima incipit in d et secunda in E, [et] hoc
+        dicitur quoad tonorum sive modorum composicionem. Sed, simpliciter loquendo, ubicumque
+        predicte species et earum dixposiciones invenientur, poterunt esse prime et cetera: utpote a
+        prima [dyapente] A ad quartam d erit prima dyatessaron et ab eadem A ad quintam E erit prima
         dyapente, quia disposicio toni semitoni cum duobus tonis est ipsa dyapente prima, et
         disposicio toni semitoni et toni est ipsa dyatessaron prima, et sic de similibus. Et eadem
         ratione sequitur quod quamvis dicatur quod primus cum suo subiugali proprie terminetur in
@@ -110,17 +120,17 @@
         tritoni duriciem; que quidem duricies talis est evitanda. Ideo dicendum est ipsum secundum
         tonum per b rotundum debetur modulari: quod quidem b talem d [c. 27r] uriciem
         refrenabit[ur]. Et hoc de secundo sufficiat.</p>
-      <p xml:id="MARCOM0004">Tertius tonus formatur ex secunda specie dyapente et ex secunda dyatessaron
-        superius, addito tono infra. Debet namque tertius tonus, ratione sui composicionis, semper
-        cantari per b quadrum; nam si per b molle cantaretur, tunc sequerentur duo inconveniencia.
-        Primum inconveniens est quod cum quilibet autenticus ad suum dyapente gliscat ascendere, et
-        ab E ad ipsum b dyapente nullatenus reperiatur. Ergo et nec proprie tonus ad eius dyapente
-        ascendere poterit, sed potius in eius composicione caderet dyapente inperfectum: quod quidem
-        in omni recta tonorum formacione[m] infallibiliter est evitandum. Secundum inconveniens est
-        quod prout dictum superius, talis tonus appetit dyatessaron supra b superius: quod quidem
-        haberi non potest si per b molle cantaretur; nam a primo b ad E, dyatessaron nullatenus
-        cadere non potest, ymmo, a b predicto ad predictum E, erit tritoni spacium; quod quidem, ut
-        dictum est, omnino evitandum. Et hoc de tertio et cetera.</p>
+      <p xml:id="MARCOM0004">Tertius tonus formatur ex secunda specie dyapente et ex secunda
+        dyatessaron superius, addito tono infra. Debet namque tertius tonus, ratione sui
+        composicionis, semper cantari per b quadrum; nam si per b molle cantaretur, tunc sequerentur
+        duo inconveniencia. Primum inconveniens est quod cum quilibet autenticus ad suum dyapente
+        gliscat ascendere, et ab E ad ipsum b dyapente nullatenus reperiatur. Ergo et nec proprie
+        tonus ad eius dyapente ascendere poterit, sed potius in eius composicione caderet dyapente
+        inperfectum: quod quidem in omni recta tonorum formacione[m] infallibiliter est evitandum.
+        Secundum inconveniens est quod prout dictum superius, talis tonus appetit dyatessaron supra
+        b superius: quod quidem haberi non potest si per b molle cantaretur; nam a primo b ad E,
+        dyatessaron nullatenus cadere non potest, ymmo, a b predicto ad predictum E, erit tritoni
+        spacium; quod quidem, ut dictum est, omnino evitandum. Et hoc de tertio et cetera.</p>
       <p xml:id="MARCOM0005">Quartus tonus formatur ex eadem specie secunda dyapente et ex secunda
         dyatessaron communi adque secunda dyatessaron inferius, addito semitonio supra dicto. Debet
         namque quartus tonus, ratione sui autentici, cantari per b quadrum: sed actende quod sunt
@@ -128,26 +138,26 @@
         etiam in suo descensu iterum tangendo F; isti cantus et similes cantari debent per b molle,
         et ratio est ut non inveniatur tritoni duricia que accedat continue ab F ad b, et e continuo
         si per b quadrum cantaretur. Et hoc de quarto et cetera.</p>
-      <p xml:id="MARCOM0006">[c. 27v] Quintus tonus formatur in suo ascensu ex tertia specie dyapente et
-        ex tertia dyatessaron superius, et in eius descensu ex eadem dyatessaron et ex quarta
-        dyapente, addito semitonio vel semiditono <pb n="[930]"/>infra. Et actende quod propter
-        inconvenienciam in semitonum, tolleratur posse descendere semidictoni; debet namque quintus
-        tonus in suo ascensu cantari per b quadrum et hoc triplici ratione. Prima, ratione tertie
-        speciei dyapente que, in ipsius formacione et sui plagalis, proprie cadit nec a quo alio
-        tono nominaliter ordinari. Secunda, quod quandocumque talis cantus vult supra dyapente
+      <p xml:id="MARCOM0006">[c. 27v] Quintus tonus formatur in suo ascensu ex tertia specie
+        dyapente et ex tertia dyatessaron superius, et in eius descensu ex eadem dyatessaron et ex
+        quarta dyapente, addito semitonio vel semiditono <pb n="[930]"/>infra. Et actende quod
+        propter inconvenienciam in semitonum, tolleratur posse descendere semidictoni; debet namque
+        quintus tonus in suo ascensu cantari per b quadrum et hoc triplici ratione. Prima, ratione
+        tertie speciei dyapente que, in ipsius formacione et sui plagalis, proprie cadit nec a quo
+        alio tono nominaliter ordinari. Secunda, quod quandocumque talis cantus vult supra dyapente
         ascendere, qualiscumque sit talis ascensus apertior adque sonorior erit in ore proferente.
         Tertia et ultima quod cum talis tonus ad suum acutum ascendere voluerit, non inveniat
         tritoni duriciem. In eius vero descensu cantabitur per b molle, ut cum talis tonus vellet ad
         eius finem deponere, possit tritoni duriciem evitare. Et hoc de quinto.</p>
-      <p xml:id="MARCOM0007">Sextus tonus formatur in suo ascensu ex eadem dyapente tertia, addito tono
-        supra, et ex tertia dyatessaron communi; in eiusque descensu ex quarta dyapente et ex tertia
-        dyatessaron inferius. Debet namque talis tonus cantari prout quod consunat autenticus cantus
-        in omnibus in eius autentico adsignante. Et hoc de sexto et cetera.</p>
-      <p xml:id="MARCOM0008">Septimus tonus formatur ex quarta specie dyapente et ex prima dyatessaron
-        superius, addito tono infra. Debet namque ipse tonus cantari per b quadrum, tam ratione sui
-        composicionis quam etiam tonorum narrationis. Nam si septimus tonus per b molle cantaretur,
-        tunc similis esset primo, et per consequens ottavo similis esset, secundo quod ex similibus
-        speciebus formaretur. Et hoc de septimo.</p>
+      <p xml:id="MARCOM0007">Sextus tonus formatur in suo ascensu ex eadem dyapente tertia, addito
+        tono supra, et ex tertia dyatessaron communi; in eiusque descensu ex quarta dyapente et ex
+        tertia dyatessaron inferius. Debet namque talis tonus cantari prout quod consunat autenticus
+        cantus in omnibus in eius autentico adsignante. Et hoc de sexto et cetera.</p>
+      <p xml:id="MARCOM0008">Septimus tonus formatur ex quarta specie dyapente et ex prima
+        dyatessaron superius, addito tono infra. Debet namque ipse tonus cantari per b quadrum, tam
+        ratione sui composicionis quam etiam tonorum narrationis. Nam si septimus tonus per b molle
+        cantaretur, tunc similis esset primo, et per consequens ottavo similis esset, secundo quod
+        ex similibus speciebus formaretur. Et hoc de septimo.</p>
       <p xml:id="MARCOM0009">[c. 28r] Octavus tonus formatur ex eadem quarta specie dyapente et ex
         tertia dyatessaron communi, nec [et] non ex prima dyatessaron inferius; debet namque ottavus
         tonus ratione sui autentici cantari per b quadrum. Et hoc de octavo.</p>

@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>[Mensura fistularum]</title>
         <title type="abbrev">ANOPRIR</title>
-        <author>Anonymous</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Anastasia Arapova</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2001</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2001">2001</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> "Anonyme Mensur der Orgelpfeifen. (Cod. Paull. 1493. Fol. 61a.)," in
             <emph>Studien zur Geschichte der Notenschrift</emph>, ed. Hugo Riemann (Leipzig:
@@ -61,8 +71,8 @@
         et erit E quinta (Codex VI). Quinta in VIII divisa octava pars auferatur et erit F sexta.
         Sexta in VIII divisa octava pars auferatur et erit G septima. Septima in VIII dividi non
         potest ut faciat octavam, sed sic temperatur, ut ad eam dupla sit A prima.</p>
-      <p xml:id="ANOPRIR0002">Tempera bone artifex organum corporis nostri ut enarmoniae mentis possit
-        aptari nec sic roboretur ut superbiat nec sic languescat, ut deficiat.</p>
+      <p xml:id="ANOPRIR0002">Tempera bone artifex organum corporis nostri ut enarmoniae mentis
+        possit aptari nec sic roboretur ut superbiat nec sic languescat, ut deficiat.</p>
     </body>
   </text>
 </TEI>

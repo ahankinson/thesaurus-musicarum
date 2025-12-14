@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musices opusculum, tractatus primus</title>
         <title type="abbrev">BURMUS1</title>
-        <author>Burtius, Nicolaus</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Burtius, Nicolaus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Firoozeh Khazrai</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Nicolai Burtij parmensis: musices professoris: ac iuris pontificij studiosissimi:
@@ -49,9 +59,9 @@
         hyspanum veritatis preuaricatorem.</p>
       <p xml:id="BURMUS10002">Pauperibus clericis: ac religiosis: Nicolaus Burtius. Salutem plurimam
         dicit.</p>
-      <p xml:id="BURMUS10003">Cum multi velut vmbra declinauere anni quibus ab adolescentia: non sine
-        tamen lugubratione nimia: circa musices disciplinam tempus conteverim et quamplures ex me
-        haustum huiusmodi susceperint et incrementum. Compulsus tandem tum et vestra qua deuincor
+      <p xml:id="BURMUS10003">Cum multi velut vmbra declinauere anni quibus ab adolescentia: non
+        sine tamen lugubratione nimia: circa musices disciplinam tempus conteverim et quamplures ex
+        me haustum huiusmodi susceperint et incrementum. Compulsus tandem tum et vestra qua deuincor
         charitate amantissimi; tum et quorundam amicorum exhortationibus: statui has meas vigilias
         vobisipsis: qui maiori ex parte ingenio valetis. ac doctrina dicare. Quid enim equius. quam
         ingenij monumenta: ad eos destinare: qui ceteris omnibus ingenio: doctrinaque: ac dignitatis
@@ -140,9 +150,9 @@
         sine interprete: et sine aliqua exercitatione percipi posse. Ualete: et pro me trinum illum:
         et vnicum exorate.</p>
       <p xml:id="BURMUS10006">Capitulum primum quid sit musica: et vnde dicatur.</p>
-      <p xml:id="BURMUS10007">Quoniam vt inquit Cicero: in libello qui de vniuersitate nuncupatur: circa
-        finem. Illum autem qui intelligentie sapientieque: se auditorem profitetur: necesse est
-        intelligentis sapientisque nature primas causas conquirere: deinde secundas causas rerum
+      <p xml:id="BURMUS10007">Quoniam vt inquit Cicero: in libello qui de vniuersitate nuncupatur:
+        circa finem. Illum autem qui intelligentie sapientieque: se auditorem profitetur: necesse
+        est intelligentis sapientisque nature primas causas conquirere: deinde secundas causas rerum
         earum discutere: quo circa nobis sic cerno esse faciendum. Uidelicet quid sit musica: vt
         postmodum ad eius pertinentia deueniam. Musica igitur ars est deo placens: ac hominibus:
         omne quod canitur discernens et diiudicans: ac de cunctis que fiunt <pb n="[f.avr]"/>per
@@ -210,29 +220,30 @@
         modulatione reuoluitur. Celestium tamen corporum interualla: sola considerantur ratione: non
         sensu. Igitur a terra ad lunam pythagoras putauit: teste Macrobio: esse stadiorum circiter
         centum viginti sex millium: idque esse toni internallum.</p>
-      <p xml:id="BURMUS10012">Quid sit stadium: in tertio tractatu clarum est: dum quantitatis continue
-        radices enodamus.</p>
-      <p xml:id="BURMUS10013">Interuallum vero est acuti soni: grauisque distantia. <pb n="[f.avijr]"/>A
-        luna vero ad mercurii stellam: maius semitonum quod ex duabus dyesibus constat: et vno
-        comate: vt infra latius patebit. Hinc ad stellam veneris: que vario nuncupatur nomine vt
-        apud Plinium libro secundo naturalis hystorie fere tantundem: scilicet semitonium minus:
-        quod ex duabus tantum dyesibus constat. Nam dyesis est semitonij dimidium. Inde porro ad
-        solem pauloplusquam ter tantum scilicet tonus et minus semitonium. Itaque solis astrum
-        abeesse a terra tonis tribus: et vno semitonio minore: quod vocatur diapente. Nam diapente
-        cum de coniunctionibus loquemur constat proprie ex tonis tribus: et vno minore semitonio. A
-        luna autem ad solem cadit diatesseron: que ex duobus tonis constat: et vno minore semitonio.
-        A sole vero ad stellam martis tantundem interualli esse: quantum a terra ad lunam. quod est
-        tonus. Hinc ad iouis stellam quasi dimidium eius quod facit semitonium minus. A ioue vero
-        vsque ad saturni sydus: paulisper plus idest semitonium maius. Inde ad sumum celum vbi
-        zodiaci signa. semitonium minus. Itaque a summo celo ad solem qui in medio colocatus tanquam
-        pater planetarum: et hominum: diatesseron. A terre autem sumitate ad eundem celum tonos esse
-        quinque cum duobus minoribus se tonijs: ex quibus concluditur fieri diapason: quam
-        vniuersitatem concentus nominant. De hoc apud Plinium libro secundo naturalis historie. dum
-        desyderum musica scribit. Quamquam tamen tanto viro et <pb n="[f.avijv]"/>excellenti: qui
-        vniuersam mundi machinam et quicquid in ea comprehensibile est descripserit: non sit
-        imputanda ignorantia: vt diapason ex septem tonis confici velit. sed potius vitio deprauati
-        loci existimandum. cum diapason ex quinque tantum tonis: et duobus minoribus constet
-        semitonijs: que simul iuncta tonum: deficiente comate: non reddunt integrum.</p>
+      <p xml:id="BURMUS10012">Quid sit stadium: in tertio tractatu clarum est: dum quantitatis
+        continue radices enodamus.</p>
+      <p xml:id="BURMUS10013">Interuallum vero est acuti soni: grauisque distantia. <pb
+          n="[f.avijr]"/>A luna vero ad mercurii stellam: maius semitonum quod ex duabus dyesibus
+        constat: et vno comate: vt infra latius patebit. Hinc ad stellam veneris: que vario
+        nuncupatur nomine vt apud Plinium libro secundo naturalis hystorie fere tantundem: scilicet
+        semitonium minus: quod ex duabus tantum dyesibus constat. Nam dyesis est semitonij dimidium.
+        Inde porro ad solem pauloplusquam ter tantum scilicet tonus et minus semitonium. Itaque
+        solis astrum abeesse a terra tonis tribus: et vno semitonio minore: quod vocatur diapente.
+        Nam diapente cum de coniunctionibus loquemur constat proprie ex tonis tribus: et vno minore
+        semitonio. A luna autem ad solem cadit diatesseron: que ex duobus tonis constat: et vno
+        minore semitonio. A sole vero ad stellam martis tantundem interualli esse: quantum a terra
+        ad lunam. quod est tonus. Hinc ad iouis stellam quasi dimidium eius quod facit semitonium
+        minus. A ioue vero vsque ad saturni sydus: paulisper plus idest semitonium maius. Inde ad
+        sumum celum vbi zodiaci signa. semitonium minus. Itaque a summo celo ad solem qui in medio
+        colocatus tanquam pater planetarum: et hominum: diatesseron. A terre autem sumitate ad
+        eundem celum tonos esse quinque cum duobus minoribus se tonijs: ex quibus concluditur fieri
+        diapason: quam vniuersitatem concentus nominant. De hoc apud Plinium libro secundo naturalis
+        historie. dum desyderum musica scribit. Quamquam tamen tanto viro et <pb n="[f.avijv]"
+        />excellenti: qui vniuersam mundi machinam et quicquid in ea comprehensibile est
+        descripserit: non sit imputanda ignorantia: vt diapason ex septem tonis confici velit. sed
+        potius vitio deprauati loci existimandum. cum diapason ex quinque tantum tonis: et duobus
+        minoribus constet semitonijs: que simul iuncta tonum: deficiente comate: non reddunt
+        integrum.</p>
       <p xml:id="BURMUS10014">Tamen posset dici eum Aristoxeni opinionem: quam quidem falsissimam
         concludit Macrobius in secundo somnij Scipionis: immitatum. Eodem etiam errore deceptus est
         dominus reconciliator super terciodecimo problemate Aristotelis concludens bis diapason ex
@@ -243,34 +254,35 @@
         principio nostre natiuitatis: auribus nostris: quod vix possit percipi vt in maleatoribus
         apparet strepitum suum vix percipientibus consuetudine. Alij et melius inaudibilem dixere
         pre magnitudine vocis: quam aurium nostrarum angustie minime capere possunt.</p>
-      <p xml:id="BURMUS10015">Unde luculentum illud Ciceronis in libello de somnio Scipionis. Hoc sonitu
-        inquit complecte aures hominum obsurduerunt. Nec est vllus hebetior sensus in vobis: sicut
-        vbi nilus ad illa que cataculpa <pb n="[f.aviijr]"/>nominantur: precipitat ex altissimis
-        montibus: ea gens: que illum locum accolit: propter magnitudinem sonitus: sensu audiendi
-        caret. Hinc vero tantus est totius mundi sonitus incitatissima conuersione: vt eum aures
-        hominum capere non possint: sicut intueri solem aduersum nequitis eius radijs acies nostra:
-        sensusque vincitur. Item musica munda fieri ex quattuor elementis dicitur. De quo apud
-        fontem eloquentie in libello: qui de vniuersitate nuncupatur. Nam ibi clare et absolutissime
-        hec omnia comprobantur. Ita contingit inquit Cicero: vt inter ignem et terram: et aquam: et
-        aerem deus poneret: eaque inter se compararet: proportione coniungeret. Ut quemadmodum ignis
-        aeri: sic aer aque: quodque aer aque: ita aqua terre proportione redderet: qua ex
-        coniunctione: celum ita actum est. vt sub aspectum et tactum cadat. Itaque et ob eam causam:
-        et ab his rebus numero quattuor: mondi est corpus effectum: ea constructum proportione quam
-        dixi. ex quo ipse se concordi quadam amicitia: et caritate complectitur: atque ita coapte
-        coheret; vt nequeat dissolui vllo modo nisi ab eodem a quo est ligatus. O preclaram hominis
-        sententiam. o prudentiam. o fidem ab omnibus extollendam quis de te dubitaret Cicero: qui
-        omnem morum sanctimonieque disciplinam amplexus es: nisi autem baptismum christi mors tua
-        tam truculenter aduenisset: forsan vt Hyeronimus congauderes. At igitur quattuor elementorum
-        diuersitates potentiasque contrarias: nisi quaedam armonia coniungeret in vnum corpus ac
-        machinam: minime conuenirent. <pb n="[f.aviijv]"/>Omnis vero hec diuersitas: ita temporum
-        varietatem parit et fructuum: vt vnum tantum anni corpus efficiant. Nam quod constringit
-        hyems: ver laxat. torret estas: maturat autumnus: iuxta illud poete de remedio amoris. Poma
-        dat autumnus formosa est messibus estas. Ver prebet flores igne leuatur hyemes Tempora
-        itaque vicisim: vel ipsa suos afferunt fructus vel alijs vt afferant subministrant.</p>
+      <p xml:id="BURMUS10015">Unde luculentum illud Ciceronis in libello de somnio Scipionis. Hoc
+        sonitu inquit complecte aures hominum obsurduerunt. Nec est vllus hebetior sensus in vobis:
+        sicut vbi nilus ad illa que cataculpa <pb n="[f.aviijr]"/>nominantur: precipitat ex
+        altissimis montibus: ea gens: que illum locum accolit: propter magnitudinem sonitus: sensu
+        audiendi caret. Hinc vero tantus est totius mundi sonitus incitatissima conuersione: vt eum
+        aures hominum capere non possint: sicut intueri solem aduersum nequitis eius radijs acies
+        nostra: sensusque vincitur. Item musica munda fieri ex quattuor elementis dicitur. De quo
+        apud fontem eloquentie in libello: qui de vniuersitate nuncupatur. Nam ibi clare et
+        absolutissime hec omnia comprobantur. Ita contingit inquit Cicero: vt inter ignem et terram:
+        et aquam: et aerem deus poneret: eaque inter se compararet: proportione coniungeret. Ut
+        quemadmodum ignis aeri: sic aer aque: quodque aer aque: ita aqua terre proportione redderet:
+        qua ex coniunctione: celum ita actum est. vt sub aspectum et tactum cadat. Itaque et ob eam
+        causam: et ab his rebus numero quattuor: mondi est corpus effectum: ea constructum
+        proportione quam dixi. ex quo ipse se concordi quadam amicitia: et caritate complectitur:
+        atque ita coapte coheret; vt nequeat dissolui vllo modo nisi ab eodem a quo est ligatus. O
+        preclaram hominis sententiam. o prudentiam. o fidem ab omnibus extollendam quis de te
+        dubitaret Cicero: qui omnem morum sanctimonieque disciplinam amplexus es: nisi autem
+        baptismum christi mors tua tam truculenter aduenisset: forsan vt Hyeronimus congauderes. At
+        igitur quattuor elementorum diuersitates potentiasque contrarias: nisi quaedam armonia
+        coniungeret in vnum corpus ac machinam: minime conuenirent. <pb n="[f.aviijv]"/>Omnis vero
+        hec diuersitas: ita temporum varietatem parit et fructuum: vt vnum tantum anni corpus
+        efficiant. Nam quod constringit hyems: ver laxat. torret estas: maturat autumnus: iuxta
+        illud poete de remedio amoris. Poma dat autumnus formosa est messibus estas. Ver prebet
+        flores igne leuatur hyemes Tempora itaque vicisim: vel ipsa suos afferunt fructus vel alijs
+        vt afferant subministrant.</p>
       <p xml:id="BURMUS10016">Capitulum quartum de musica humana.</p>
-      <p xml:id="BURMUS10017">Corpus etenim animatum quod est homo: cum cum sit compositio ex quattuor
-        elementis confecta. que sunt terra: aqua: aer et ignis: de quo lactantius libro secundo
-        diuinarum institutionum. et Cicero prima tusculanarum questione: et in libro de
+      <p xml:id="BURMUS10017">Corpus etenim animatum quod est homo: cum cum sit compositio ex
+        quattuor elementis confecta. que sunt terra: aqua: aer et ignis: de quo lactantius libro
+        secundo diuinarum institutionum. et Cicero prima tusculanarum questione: et in libro de
         vniuersitate: et in capitulo in quadam de celebratione missarum apud canonistas. legiste
         vero habent glosam in prohemio institutionum in verbo prima elementa. Similiter cum ad
         vegetationem huiusmodi compositionis quattuor etiam humores illis consimiles conueniant:
@@ -278,7 +290,8 @@
         conuenientiam talem: vel connexionem: musica ratione esse factam tradidere. Quemadmodum enim
         consonantia iu sonis: est acuti soni: grauisque mixtura: suauiter uniformiterque auribus
         accidens vt infra patebit. ita debita partium coaptatio: seu conuenientia vniuscuiusque
-        compositi dicitur consonantia. Pythagoras et Philolaus animam ipsam: <pb n="[f.bir]"/>armoniam conscripsere. de quo Cicero prima tusculanarum questione. Humanam hanc musicen in
+        compositi dicitur consonantia. Pythagoras et Philolaus animam ipsam: <pb n="[f.bir]"
+        />armoniam conscripsere. de quo Cicero prima tusculanarum questione. Humanam hanc musicen in
         voce tantummodo posuit Socrates. Aristoxenus vero in voce et corporis motu. de quo
         Lactantius libro de opificio dei capitulo xvi. Theophrastus quippe in voce et corporis:
         animeque motu humanam musicen operari conscripsit. Ut itaque numeris anima corpori
@@ -290,12 +303,12 @@
         esse probatur. Concludendum itaque quod humana musica est: que diuersorum concordantiam
         elementorum: in vno composito scilicet corpore humano conectit.</p>
       <p xml:id="BURMUS10018">Capitulum quintum de musica instrumentali.</p>
-      <p xml:id="BURMUS10019">Etenim cum musica instrumentalis: variis regatur instrumentis: scilicet
-        naturalibus et artificialibus. Primo quae sint naturalia. Deinde quae sint artificialia
-        enucleabo. Naturalia igitur instrumenta iuxta Albertum Magnum libro secundo de anima
-        capitulo de voce. sant pulmo: guttur: palatum: lingua: labia: et dentes. et hec officia
-        humane vocis administrant. Musica itaque armonica; que comprehendit: <pb n="[f.biv]"/>et
-        regit sonos: humana voce productos: naturalibus cooperantibus instrumentis: ars est
+      <p xml:id="BURMUS10019">Etenim cum musica instrumentalis: variis regatur instrumentis:
+        scilicet naturalibus et artificialibus. Primo quae sint naturalia. Deinde quae sint
+        artificialia enucleabo. Naturalia igitur instrumenta iuxta Albertum Magnum libro secundo de
+        anima capitulo de voce. sant pulmo: guttur: palatum: lingua: labia: et dentes. et hec
+        officia humane vocis administrant. Musica itaque armonica; que comprehendit: <pb n="[f.biv]"
+        />et regit sonos: humana voce productos: naturalibus cooperantibus instrumentis: ars est
         spectabilis ac scientia perfecta: modulationis constans ex tribus scilicet sonis: verbis et
         numeris. Poete preterea non necant hanc ipsam metricam esse: qua probabili ratione:
         diuersorum pedum mensuram cognoscunt. Ut dactili: iambi: et tribaci: et huiusmodi cum
@@ -311,17 +324,17 @@
         incitantia: sunt tube: cornua: timpana: et huiusmodi strepitum excitantia: atque sonantia:
         quorum clangor quantum fuerit vehementior: tantum bellatorum animus ad certamen fortior.
         Unde Lacedemoniorum exercitus: his musicis accensus est modis.</p>
-      <p xml:id="BURMUS10020">Hinc proculdubio romanam gloriam ceteris <pb n="[f.bijr]"/>prestitisse in
-        bellis credendum puto. Nostris etiam temporibus apud liguriam duce Roberto sanseuerino:
+      <p xml:id="BURMUS10020">Hinc proculdubio romanam gloriam ceteris <pb n="[f.bijr]"/>prestitisse
+        in bellis credendum puto. Nostris etiam temporibus apud liguriam duce Roberto sanseuerino:
         timpanorum atque tubarum: accensos clangore hostes: qui virorum innumerabilis copia: et
         terruisse: et in fugam diuertisse: atque exercitum ipsum in predam captum: notum est. Ex his
         igitur omnibus quem anhelitu operante pulsantur: musice organice sunt subiecta: que vero
         digito vel virga rythimice musice attribuuntur.</p>
       <p xml:id="BURMUS10021">Capitulum sextum quid sit musicus: et differentia inter musicum et
         cantorem.</p>
-      <p xml:id="BURMUS10022">Uisum est supra: quid sit musica: laudes eius ac triplicem diuisionem modo
-        quid sit musicus: et differentia inter musicum et cantorem: strictissime aperiam. Cum itaque
-        musices disciplina amantissimi naturalis sit scientia: et speculatiuum seu theoricum
+      <p xml:id="BURMUS10022">Uisum est supra: quid sit musica: laudes eius ac triplicem diuisionem
+        modo quid sit musicus: et differentia inter musicum et cantorem: strictissime aperiam. Cum
+        itaque musices disciplina amantissimi naturalis sit scientia: et speculatiuum seu theoricum
         nobiliorem sapientioremque reddit quam praticum: ideo speculatiuus musicus is erit: qui
         ratione ducente canendi scientiam non seruitio operis: sed imperio speculationis assumpsit.
         At si pratice operam dederit speculationi non adijciet variatam multitudinem: sed
@@ -329,7 +342,8 @@
         speculationis: et operationis aberit. Speculatio enim duabus ex causis procedit scilicet
         auditu et ratione. Non tamen auditus solus: sed et ratio certum sibi assummit iudicium.
         Principium quoddammodo: et quasi admonitionis vicem tenet auditus. Postrema vero perfectio
-        agnitionis: vsque in ratione: consistit. quae certis regulis sese tenens nunquam <pb n="[f.bijv]"/>vllo errore prolabitur. Ipsas enim consonantias aure percipimus: qnibus vero
+        agnitionis: vsque in ratione: consistit. quae certis regulis sese tenens nunquam <pb
+          n="[f.bijv]"/>vllo errore prolabitur. Ipsas enim consonantias aure percipimus: qnibus vero
         inter se interuallis distent: non auribus: quarum sunt obtusa iudicia. sed regulis et
         ratione metimur. Musicus igitur iuxta Boetium: is erit: cui aderit facultas speculationis:
         rationisque musices. non cui cantandi modus praticabilis tantum inest. Praticus vero huiusce
@@ -378,10 +392,10 @@
         bibendo aerem retinet ipsum et non expellit. Item pilli: et lanna: quia rara sunt et
         discuntinua. et ideo insonabilia Et hec ad propositum cum de sono loqueremur.</p>
       <p xml:id="BURMUS10023">Capitulum octauum quid sit vox: et de vocum distinctione.</p>
-      <p xml:id="BURMUS10024">Uox iuxta Albertum eo libro capitulo de voce. est percussio aeris expirati
-        ad aratariam. Nam arataria: que vocalis cana est: organum est respirationis: et duris
-        annnlis componitur: et pulmoni <pb n="[f.biiijr]"/>sicut continue continenti aerem: et quasi
-        folli continuatur: et in ipso radicatur. Uel vox secundum Guidonem capitulo primo sue
+      <p xml:id="BURMUS10024">Uox iuxta Albertum eo libro capitulo de voce. est percussio aeris
+        expirati ad aratariam. Nam arataria: que vocalis cana est: organum est respirationis: et
+        duris annnlis componitur: et pulmoni <pb n="[f.biiijr]"/>sicut continue continenti aerem: et
+        quasi folli continuatur: et in ipso radicatur. Uel vox secundum Guidonem capitulo primo sue
         musices: est aeris ictus auditu sensibilis quantum in ipso est. seu vox vt quibusdam placet:
         est aeris spiritus verberatus: quod idem est: vnde verba sunt nuncupata. Si queratur a quo
         percutiatur: proculdubio a plectro lingue. Et dicta est vox vt Lactantio placet libro de
@@ -453,15 +467,17 @@
         officinas pertransiret: maleorum sonitus: eius auribus insonarent. Quos cum mos ei erat vt
         omnium inuisibilium inuisibiliumque: et sensibilium rationem perscrutari: mutari iussisset:
         ob dissonantia vnius: nam quinque erant malei: et vt cognosceret: an in manuum varietate vis
-        soni existeret. Quo facto suauis illico subsequuta est concordia. Ponderauit maleos <pb n="[f.bvir]"/>vno subthracto tamen: et singula singulis comparans pondera maleis: quosdam
+        soni existeret. Quo facto suauis illico subsequuta est concordia. Ponderauit maleos <pb
+          n="[f.bvir]"/>vno subthracto tamen: et singula singulis comparans pondera maleis: quosdam
         ab inuicem duplo distare deprehendit numero: quosdam vero epitrito siue sexquitertio:
         quosdam nec non sexquialtero: sed et quosdam simul sexquioctauam reddere vidit proportionem.
         Uerbi gratia: duodecim si quis libras ad nouem comparet: mox proportionem sexquitertiam
         habet. sed si nouem ad octo sexquioctauam: et rursum duodecim ad octo sexquialteram: et si
         octo ad sex sexquitertiam: quod si duodecim iterum ad sex consideret inueniet proportionem
         constare duplam vt hic.</p>
-      <p xml:id="BURMUS10032">[Burtius, f.bvir; text: XII, VIIII, VIII, VI, proportio dupla. proportio
-        sexquialtera, sexquitertia, sexquioctaua, diatessaron, tonus. diapente: diapasson:] <figure>
+      <p xml:id="BURMUS10032">[Burtius, f.bvir; text: XII, VIIII, VIII, VI, proportio dupla.
+        proportio sexquialtera, sexquitertia, sexquioctaua, diatessaron, tonus. diapente:
+        diapasson:] <figure>
           <graphic url="/images/BURMUS1_01GF.gif"/>
         </figure></p>
       <p xml:id="BURMUS10033">
@@ -485,10 +501,10 @@
         qualiter si scire cupis: lege Boetium: primo sue musices libro: ibique nedum quod queris:
         sed et ipsorum quoque nomina philosophorum reperies:</p>
       <p xml:id="BURMUS10034">Capitulum duodecimum de tribus melorum generibus</p>
-      <p xml:id="BURMUS10035">Tam et si apud philosophos tria fuerint genera melorum: que tetracordum
-        essentiam distinguebant. Ueruntamen dyatonici laudes quod primum verum est et perfectum:
-        aliquantulum tractare dispono. Primum namque genus dyatonicum appellatum est: in quo vnum
-        quodque tetracordum: per semitonium minus procedit: et tonum: ac tonum. cum duobus
+      <p xml:id="BURMUS10035">Tam et si apud philosophos tria fuerint genera melorum: que
+        tetracordum essentiam distinguebant. Ueruntamen dyatonici laudes quod primum verum est et
+        perfectum: aliquantulum tractare dispono. Primum namque genus dyatonicum appellatum est: in
+        quo vnum quodque tetracordum: per semitonium minus procedit: et tonum: ac tonum. cum duobus
         interuallis. Dictum enim puto dyatonicum: quasi dytonum. naturaliter habens in duobus
         interuallis. Nam nedum philosophi: sed et mater ecclesia ex his tribus dyatonicum delegit:
         quoniam accomodatius et naturalius est ceteris generibus. Cum etenim in omnibus cantibus
@@ -505,27 +521,27 @@
         dimidium minoris. vt latius infra dum de toni partibus tractamus. Enarmonicum vero dictum
         quasi magis coaptans. Tetracordum: quam cromaticum. Hec erit igitur descriptio per omnia
         tetracorda discurrens hoc modo.</p>
-      <p xml:id="BURMUS10036">[Burtius, f.bvijv; text: Dyatonicum. Cromaticum, Enarmonicum, Semitonium,
-        Tonus, Dyesis]</p>
-      <p xml:id="BURMUS10037">In suprascriptis igitur generibus: vnum quodque tetracordum diatesseron
-        essentiam seruabat: diuersis tamen intensionibus: vt declaratum est. Et ideo cromaticum:
-        atque enarmonicum genus: ob quam in sui pronuntiatione difficultatem tenebant: a musicis
-        sunt abiecta. dyatonicum vero a platonicis: et pythagoricis: ceteris quoque et musicis: ob
-        sui dulcissimam: <pb n="[f.bviijr]"/>coaptamque conuenientiam: naturaliter dispositam summa
-        veneratione retentum: atque seruatum est. Modo ad cantus angelici: siue plani facilem
-        disciplinam condiscendam. quo circa omnis caterua tam cantorum: quam musicorum versatur.
-        Excepto preuaricatore: qui non nouam: sed potius antiquam vt suis scriptis apparet: canendi
-        formam reuocauit.</p>
+      <p xml:id="BURMUS10036">[Burtius, f.bvijv; text: Dyatonicum. Cromaticum, Enarmonicum,
+        Semitonium, Tonus, Dyesis]</p>
+      <p xml:id="BURMUS10037">In suprascriptis igitur generibus: vnum quodque tetracordum
+        diatesseron essentiam seruabat: diuersis tamen intensionibus: vt declaratum est. Et ideo
+        cromaticum: atque enarmonicum genus: ob quam in sui pronuntiatione difficultatem tenebant: a
+        musicis sunt abiecta. dyatonicum vero a platonicis: et pythagoricis: ceteris quoque et
+        musicis: ob sui dulcissimam: <pb n="[f.bviijr]"/>coaptamque conuenientiam: naturaliter
+        dispositam summa veneratione retentum: atque seruatum est. Modo ad cantus angelici: siue
+        plani facilem disciplinam condiscendam. quo circa omnis caterua tam cantorum: quam musicorum
+        versatur. Excepto preuaricatore: qui non nouam: sed potius antiquam vt suis scriptis
+        apparet: canendi formam reuocauit.</p>
       <p xml:id="BURMUS10038">Capitulum tertium decimum: ad musices praticam condiscendam: quis
         ordo?</p>
-      <p xml:id="BURMUS10039">Quoniam superius de tribus melorum generibus: aliqua: et magis necessaria
-        expediuimus. Nunc quis ordo: ad genus dyatonicum: quo mater ecclesia et totus mundus: si
-        phas est fari: vtitur: strictissima oratione explicabo. Primo si quidem amantissimi ad
-        musices disciplinam condiscendam: que genere dyatonico fundata: non quicquid antiquitatis
-        est: aut fatui rudesque inuenere magistri adiscendum est: sed tantum ecclesia probatum quod
-        pius ille Guido Aretinus: patriarche benedicti monachus diuino quoddam nutu adinuenit:
-        condiscamus. Illi siquidem mirum in modum summus obnoxij: qui tante facilitatis modum
-        patefactis anfractibus: in lucem produxit. Antiquitus enim varijs cifris: notularumque
+      <p xml:id="BURMUS10039">Quoniam superius de tribus melorum generibus: aliqua: et magis
+        necessaria expediuimus. Nunc quis ordo: ad genus dyatonicum: quo mater ecclesia et totus
+        mundus: si phas est fari: vtitur: strictissima oratione explicabo. Primo si quidem
+        amantissimi ad musices disciplinam condiscendam: que genere dyatonico fundata: non quicquid
+        antiquitatis est: aut fatui rudesque inuenere magistri adiscendum est: sed tantum ecclesia
+        probatum quod pius ille Guido Aretinus: patriarche benedicti monachus diuino quoddam nutu
+        adinuenit: condiscamus. Illi siquidem mirum in modum summus obnoxij: qui tante facilitatis
+        modum patefactis anfractibus: in lucem produxit. Antiquitus enim varijs cifris: notularumque
         caracteribus vtebantur ecclesiastici: varie quoque et ad docendum erant inuentiones. prout
         in ea fatetur quam scribit ad Michaelem pomposie monachum epistola: et habetur libro idest
         sue musices vt decem fere annis vix poterant acquirere modulandi scientiam: diuina siquidem
@@ -540,8 +556,8 @@
         obmutescat. Nam helleboro dignus. Ad rem igitur: qualiter illas adinuenerit: et ad docendum
         vsus est: ad eundem pomposie monachum in eadem epistola sic insinuat. Sit hec simphonia in
         exemplum: qua ego in docenddis pueris in primis: atque vltimis vtor.</p>
-      <p xml:id="BURMUS10040">[Burtius, f.bviijv; text: Ut queant laxis resonare fibris mira gestorum
-        famuli tuorum Solue poluti labij reatum sancte Ioannes.] <figure>
+      <p xml:id="BURMUS10040">[Burtius, f.bviijv; text: Ut queant laxis resonare fibris mira
+        gestorum famuli tuorum Solue poluti labij reatum sancte Ioannes.] <figure>
           <graphic url="/images/BURMUS1_02GF.gif"/>
         </figure></p>
       <p xml:id="BURMUS10041">
@@ -559,25 +575,26 @@
         minus inter a. et .b. rotundum: quando scilicet occurrerit tritonus destruendus. hoc enim
         semitonium mobile nuncupatur: quia ad tempus mouetur. Similiter et ea quae diuiso tono fieri
         solent ad tempus scilicet ad perficiendum diapente vel diapasson imperfectam: cum huiusmodi
-        compositis: mobilia etiam appellantur. vt infra cum de cantu commixto <pb n="[f.civ]"/>loquimur. In cantu autem plano: nullum aliud preter quam in temperamento tritoni: fit
+        compositis: mobilia etiam appellantur. vt infra cum de cantu commixto <pb n="[f.civ]"
+        />loquimur. In cantu autem plano: nullum aliud preter quam in temperamento tritoni: fit
         mobile semitonium neque si ipsam tritoni asperitatem aliter fugere potuissent musici:
         clauiculam illam: inter mensen et parmesen fixissent.</p>
       <p xml:id="BURMUS10044">Capitulum .xiiij. Quare Guido neque minus: neque plus: vltra illas sex
         syllabas elegerit.</p>
-      <p xml:id="BURMUS10045">Non admirandum quippe est: cur Guido tantum sex voluerit voces eligere ad
-        cantandum: et non potius quindecim iuxta numerum philosophorum. aut tot quot communis vsus
-        sui temporis haberet. seu quattuor dumtaxat aut plus aut minus. Nam cum musicus adequatus
-        fuisset: non immemor omnem quod canitur: quattuor tantum concludi vocibus: ac duobus cum
-        semitonio minori tonis quod totum diatesseron prima: ab antiquis philosophis appellatur.
-        siue tetracordum idest quattuor cordarum compositio. quid vltra primam diatesseron agis.
-        quod non sit vnum et idem? Nam cum a gamma greco in .c.graue sint quattuor voces: duoque
-        toni: cum semitonio minori: quod est diatesseron vna de tribus. similiter si vltra paululum
-        processeris a c. in .f.graue. hoc idem habebis. Idem etiam ab f.graue in .b.rotundum. et sic
-        vsque in infinitum. Hoc igitur exacordum Guidonis nedum spetiem vnam diatesseron
-        complectitur: sed etiam duas alias eiusdem prime constitutionis differentias: quamquam
-        tertia in primo sit colocata termino. Nam ab .a. si inchoasset tres nunquam sub sex litteris
-        sequentibus: diatesseron speties: nisi maxima confusione vocum interueniente: exprimere
-        valuisset. Exemplum.</p>
+      <p xml:id="BURMUS10045">Non admirandum quippe est: cur Guido tantum sex voluerit voces eligere
+        ad cantandum: et non potius quindecim iuxta numerum philosophorum. aut tot quot communis
+        vsus sui temporis haberet. seu quattuor dumtaxat aut plus aut minus. Nam cum musicus
+        adequatus fuisset: non immemor omnem quod canitur: quattuor tantum concludi vocibus: ac
+        duobus cum semitonio minori tonis quod totum diatesseron prima: ab antiquis philosophis
+        appellatur. siue tetracordum idest quattuor cordarum compositio. quid vltra primam
+        diatesseron agis. quod non sit vnum et idem? Nam cum a gamma greco in .c.graue sint quattuor
+        voces: duoque toni: cum semitonio minori: quod est diatesseron vna de tribus. similiter si
+        vltra paululum processeris a c. in .f.graue. hoc idem habebis. Idem etiam ab f.graue in
+        .b.rotundum. et sic vsque in infinitum. Hoc igitur exacordum Guidonis nedum spetiem vnam
+        diatesseron complectitur: sed etiam duas alias eiusdem prime constitutionis differentias:
+        quamquam tertia in primo sit colocata termino. Nam ab .a. si inchoasset tres nunquam sub sex
+        litteris sequentibus: diatesseron speties: nisi maxima confusione vocum interueniente:
+        exprimere valuisset. Exemplum.</p>
       <p xml:id="BURMUS10046">
         <pb n="[f.cijr]"/>[Burtius, f.cijr] <figure>
           <graphic url="/images/BURMUS1_03GF.gif"/>
@@ -610,8 +627,8 @@
         minus ad cantandum elegerit: cum commendatione quod electum est.</p>
       <p xml:id="BURMUS10048">Capitulum .xv. Cum tot inuentiones sit ad docendum vna dumtaxat et non
         plures ad cantandum sunt musice.</p>
-      <p xml:id="BURMUS10049">Tam et si omnium artium varia aliquando sit introductio: tamen omnes ad
-        vnum et idem reducunt mentis indaginem: non secus quam si per varias semitas in eundem
+      <p xml:id="BURMUS10049">Tam et si omnium artium varia aliquando sit introductio: tamen omnes
+        ad vnum et idem reducunt mentis indaginem: non secus quam si per varias semitas in eundem
         plures conuenirent locum. Tamen doctrina illius aptior: clariorque habebitur: quae omnibus
         communiter facilitate et breuitate approbatur. Ut illa luculeta fuit Guidonis: que tanquam
         specimen iamdiu celebrata: altos per vniuersum extensit Ramos. Scio <pb n="[f.ciijr]"/>et
@@ -636,14 +653,13 @@
         facilior: atque prestantior. His itaque <pb n="[f.ciijv]"/>peractis omne genus hominum per
         sex Guidonis syllabas laudare deum posse probabit.</p>
       <p xml:id="BURMUS10050">Capitulum .xvi. De diuisione manus.</p>
-      <p xml:id="BURMUS10051">Licet antiquitus tantum essent quindecim philosophorum littere: ad omnem
-        generis dyatonici melodiam exprimendam. videlicet a prima littera A. vsque ad tertium. Nam
-        quicquid est ante primum: et vltra tertium euisdem rei replicatio est. Nihilominus iuxta
+      <p xml:id="BURMUS10051">Licet antiquitus tantum essent quindecim philosophorum littere: ad
+        omnem generis dyatonici melodiam exprimendam. videlicet a prima littera A. vsque ad tertium.
+        Nam quicquid est ante primum: et vltra tertium euisdem rei replicatio est. Nihilominus iuxta
         manus Guidonis ordinem. diuisio est in tres partes fienda. Nam prima erit grauium. Secunda
         mediarum: siue acutarum. Tertia vero superacutarum. vt hoc constat exemplo.</p>
       <p class="textFig" xml:id="BURMUS10052">Graues        A. B. C. D. E. F. G
-        <lb/>Medie         a. b. c. d. e. f. g.
-        <br/>Superacute.   a. b. c. d. e. <lb/></p>
+        <lb/>Medie         a. b. c. d. e. f. g. <br/>Superacute.   a. b. c. d. e. <lb/></p>
       <p xml:id="BURMUS10053">Prime namque dicuntur graues: quia proferuntur in infimo pectoris: vel
         quia in primo ordine colocate. Secunde vero acute: quia acutiori accentu proferuntur. Tertie
         autem superacute: quia similiter acutissimo accentu proferuntur. Ut igitur clarior
@@ -652,18 +668,14 @@
       <p xml:id="BURMUS10054">Corde philosophorum.</p>
       <p class="textFig" xml:id="BURMUS10055">
         <pb n="[f.ciiijr]"/> Proslambanomenos. <br/>Tonus. <lb/>Hypatheypaton. <br/>Semitonium.
-        <lb/>Parypatheipaton. <br/>Tonus.
-        <lb/>Lycanos hipaton.                 Diatesseron.
+        <lb/>Parypatheipaton. <br/>Tonus. <lb/>Lycanos hipaton.                 Diatesseron.
         <br/>Tonus. <lb/>Hypathemeson. <br/>Semitonium. <lb/>Parypathemeson. <br/>Tonus.
-        <lb/>Lycanosmeson. <br/>Tonus.
-        <lb/>Mese                     Diapente: Diapason.
-        <br/>Tonus.
-        <lb/>Parmese                          Tritonus.
-        <br/>Semitonium. <lb/>Tritediezeugmenon. <br/>Tonus <lb/>Parnetediezeugmenon. <br/>Tonus.
-        <lb/>Netediezeugmenon.                Diapente.
-        <br/>Semitonium <lb/>Tritehyperboleon. <br/>Tonus <lb/>Parnethyperboleon. <br/>Tonus.
-        <lb/>Netehyperboleon                  Bisdiapason.
-        <br/></p>
+        <lb/>Lycanosmeson. <br/>Tonus. <lb/>Mese                     Diapente: Diapason. <br/>Tonus.
+        <lb/>Parmese                          Tritonus. <br/>Semitonium. <lb/>Tritediezeugmenon.
+        <br/>Tonus <lb/>Parnetediezeugmenon. <br/>Tonus.
+        <lb/>Netediezeugmenon.                Diapente. <br/>Semitonium <lb/>Tritehyperboleon.
+        <br/>Tonus <lb/>Parnethyperboleon. <br/>Tonus.
+        <lb/>Netehyperboleon                  Bisdiapason. <br/></p>
       <p xml:id="BURMUS10056">
         <pb n="[f.ciiijv]"/>Descriptis itaque prout supra vobis destinaueram quindecim philosophorum
         cordis: modo ad declarationem vniuscuiusque condescendo. Primam siquidem omnium grauissimam
@@ -682,7 +694,8 @@
         locum retinens tertium: quamquam a parmese minus semitonium. Undecima parnetediezeugmenon
         idest iuxta nete disiunctarum nuncupatur: et nouissimam omnium disiunctarum vocum emittit
         vocem: atque minorem. Tertia decima est tryteiperboleon: quae tertia superiorum nominatur:
-        atque excellentium: altius namque solo minori semitouio quam nete vicina sua prodiens <pb n="[f.cvr]"/>et si forte grauiorem: tertium nihilominus a superiori nete locum occupat.
+        atque excellentium: altius namque solo minori semitouio quam nete vicina sua prodiens <pb
+          n="[f.cvr]"/>et si forte grauiorem: tertium nihilominus a superiori nete locum occupat.
         Quartadecima parnetehyperboleon vocitatur idest iuxta nete superiorum: eadem ratione: qua
         parnetedyezeugmenon: pro eo quod ad illam per tonum pergit similiter. Quintadecima
         appellatur netehiperboleon idest inferior superiorum: eo argumento quo netediezeugmenon. et
@@ -713,8 +726,8 @@
         sonum reddens. Hec enim cum similibus recitantur ab insensatis illis viris: que proculdubio
         nullius firmitatis existunt.</p>
       <p xml:id="BURMUS10059">Capitulum .xix. quid sit proprietas in cantu.</p>
-      <p xml:id="BURMUS10060">Proprietas in cantu est quaedam deductio seu vocum deriuatio: ab vno et
-        eodem principio: quae variatur cum variatur ipsum principium. Et notandum quod sunt tres
+      <p xml:id="BURMUS10060">Proprietas in cantu est quaedam deductio seu vocum deriuatio: ab vno
+        et eodem principio: quae variatur cum variatur ipsum principium. Et notandum quod sunt tres
         scilicet proprietas nature .b.mollis et [sqb]. quadri Unde si habet originem in .c. dicitur
         cantari per naturam. si vero in .f. per b.molle: et si in g. per [sqb] quadri. vnde versus a
         vulgo protritus. C naturam dat .F b.molle g. quoque quadrum. Hec sunt totius cantus
@@ -753,15 +766,16 @@
         constat ex tritono: minorique semitonio diapente speciem. Concludendum igitur quod quintus
         et sextus tonus: ob nimiam tritoni frequentationem. debet cantari per b molle.</p>
       <p xml:id="BURMUS10063">Capitulum .xxi. de coniunctionibus musicalibus.</p>
-      <p xml:id="BURMUS10064">Quia tropi siue modi: qui numero octo sunt: ex coniunctionibus musicalibus
-        constituuntur: idcirco ante illorum exemplam videndum est quid sit coniunctio et quot in
-        musica plus necessarie. Coniunctio igitur est dispositio siue ordinatio sonorum siue vocum.
-        et magis necessarie sunt octo: videlicet tonus: semitonium: ditonus: semiditonus: tritonus:
-        diatesseron: diapente ac diapasson. Tonus igitur est duorum phtongorum vel sonorum: nam
-        phtongi soni sunt: legitimis spatijs ab inuicem distantium: integra modulatio. vt inter a.
-        et [sqb] ac inter c et d. et inter d. e. Similiter in vocibus Guidonis cadit inter <pb n="[f.cvijr]"/>vt et re. inter re. et mi. inter fa. et sol. et inter sol. et la. recto
-        ordine litterarum cantando. Exemplo namque litterarum in processu vobis insinuabo: cum nobis
-        noctularum caracteres impressorum vitio defficiant. Multa siquidem exemplis annotanda
+      <p xml:id="BURMUS10064">Quia tropi siue modi: qui numero octo sunt: ex coniunctionibus
+        musicalibus constituuntur: idcirco ante illorum exemplam videndum est quid sit coniunctio et
+        quot in musica plus necessarie. Coniunctio igitur est dispositio siue ordinatio sonorum siue
+        vocum. et magis necessarie sunt octo: videlicet tonus: semitonium: ditonus: semiditonus:
+        tritonus: diatesseron: diapente ac diapasson. Tonus igitur est duorum phtongorum vel
+        sonorum: nam phtongi soni sunt: legitimis spatijs ab inuicem distantium: integra modulatio.
+        vt inter a. et [sqb] ac inter c et d. et inter d. e. Similiter in vocibus Guidonis cadit
+        inter <pb n="[f.cvijr]"/>vt et re. inter re. et mi. inter fa. et sol. et inter sol. et la.
+        recto ordine litterarum cantando. Exemplo namque litterarum in processu vobis insinuabo: cum
+        nobis noctularum caracteres impressorum vitio defficiant. Multa siquidem exemplis annotanda
         collegeram: et maxime circa contrapuncti: ac mensurati declarationem. quorum amissione
         vehementer condoleo: presertim obnunnullos: qui no ita faciliter sensu percipiunt nisi
         aliquo mediante signo: vel exemplo nodosos ambiguitatis anfractus. Quocirca si ad vos unquam
@@ -791,8 +805,8 @@
         tonum ex quattuor diesibus et comate perfici. Ad quorum euidentiam sex litteras: quinque
         spatia producentes statuam hoc ordine.</p>
       <p class="textFig" xml:id="BURMUS10065"> dyesis   dyesis   dyesis   dyesis   coma.
-        <lb/>A       B        C        D        E      F 
-        <br/>Semitonium minus   Semitonium maius.  <lb/></p>
+        <lb/>A       B        C        D        E      F  <br/>Semitonium minus   Semitonium maius. 
+        <lb/></p>
       <p xml:id="BURMUS10066">Sat igitur ad toni declarationem dictum est. Et nota quod tonus teste
         Guidone a tonando dicitur: videlicet quod de voce in vocem perfecte tonet nec habere valet
         vltra solum interuallum. Interuallum vero dicitur acuti soni grauisque distantia: vel illud
@@ -806,9 +820,9 @@
         semitonium: non a semi quod est medium: vt quidam autumant: sed quasi non perfectus tonus
         propter illud coma. non enim medius tonus est: sed de duabus toni partibus minima.</p>
       <p xml:id="BURMUS10069">De dytono.</p>
-      <p xml:id="BURMUS10070">Ditonus est trium vocum: ac duorum tonorum adunatio. vt inter [Gamma] et
-        .a.graue. et inter c. et d graue cum simili. Secundum vero syllabas guidonis cadit inter vt.
-        et mi. et fa.la. Habet namque tantum duas speties vt vides et dicitur a dya grece quod
+      <p xml:id="BURMUS10070">Ditonus est trium vocum: ac duorum tonorum adunatio. vt inter [Gamma]
+        et .a.graue. et inter c. et d graue cum simili. Secundum vero syllabas guidonis cadit inter
+        vt. et mi. et fa.la. Habet namque tantum duas speties vt vides et dicitur a dya grece quod
         latine duo significat. quia tantum duos tonos occupat.</p>
       <p xml:id="BURMUS10071">De semidytono.</p>
       <p xml:id="BURMUS10072">Semidytonus est trium similiter vocum: sed toni tantum: ac semitonij
@@ -833,14 +847,14 @@
         graue et .C. acutum. Secundum namque voces Guidonis. Prima facit .re. sol. Secunda .mi. la.
         Tertia vt.fa.</p>
       <p xml:id="BURMUS10077">De diapente perfecto.</p>
-      <p xml:id="BURMUS10078">Diapente namque perfectum: est quinque vocum: ac trium tonorum: cum vno
-        minori semitonin connexio. Dicitur enim a dia grece: quod de: vel per: et pente quin eo quod
-        de quinque vocibus sit constituta. Habet enim quattuor speties. Prima cadit inter .d. graue
-        et .a. acutum. Secunda vero inter .E. graue et .[sqb]. acutum. Tertia autem inter .F. graue
-        et .C. acutum. Quarta vero inter .g. graue et .d. acutum. In vocibus autem guidonis prima
-        sonat re. la. secunda mi. mi. tertia fa. fa. quarta vero vt. sol. de diapente imperfecto
-        satisabunde dictum in tractatu contrapuncti. Nam inter [sqb] mi. et F fa. vt. naturaliter
-        cadit. qualiter debeat perfici hic late patet.</p>
+      <p xml:id="BURMUS10078">Diapente namque perfectum: est quinque vocum: ac trium tonorum: cum
+        vno minori semitonin connexio. Dicitur enim a dia grece: quod de: vel per: et pente quin eo
+        quod de quinque vocibus sit constituta. Habet enim quattuor speties. Prima cadit inter .d.
+        graue et .a. acutum. Secunda vero inter .E. graue et .[sqb]. acutum. Tertia autem inter .F.
+        graue et .C. acutum. Quarta vero inter .g. graue et .d. acutum. In vocibus autem guidonis
+        prima sonat re. la. secunda mi. mi. tertia fa. fa. quarta vero vt. sol. de diapente
+        imperfecto satisabunde dictum in tractatu contrapuncti. Nam inter [sqb] mi. et F fa. vt.
+        naturaliter cadit. qualiter debeat perfici hic late patet.</p>
       <p xml:id="BURMUS10079">Capitulum vingesimumsecundum de diapasson: ac eius laudibus.</p>
       <p xml:id="BURMUS10080">Diapasson igitur trium simplicium perfectissima: cuius laudes si mihi
         lingue: oraque centum <pb n="[f.dir]"/>atque ferrea vox nequaquam exprimere possem. sat enim
@@ -860,11 +874,12 @@
         distinctos interuallis sonos: qui numerus: rerum omnium fere nodus est. quod docti homines
         neruis dediti: atque cantibus: aperuerunt sibi reditum in hunc locum. Fit namque ex octo
         sonis constituentibus quinque tonos. et duo minora semitonia. Tot enim habet et speties.
-        quot et Gregorij littere. Si enim incipies a gamma greco: octo habebit. si <pb n="[f.div.]"/>vero ab a graui vsque ad g. graue: septem dumtaxat.</p>
-      <p xml:id="BURMUS10081">Similiter septem bisdiapasson posse fieri non est ambigendum: Quin etiam
-        si illi diapente copules: Diapasson diapente vocabitur: et si eam duplices bisdiapasson
-        nuncupabitur. In qua proportione consistat: vide ad plenum dum de proportionibus loquimur.
-        Sequitur figura spetierum diapasson.</p>
+        quot et Gregorij littere. Si enim incipies a gamma greco: octo habebit. si <pb n="[f.div.]"
+        />vero ab a graui vsque ad g. graue: septem dumtaxat.</p>
+      <p xml:id="BURMUS10081">Similiter septem bisdiapasson posse fieri non est ambigendum: Quin
+        etiam si illi diapente copules: Diapasson diapente vocabitur: et si eam duplices
+        bisdiapasson nuncupabitur. In qua proportione consistat: vide ad plenum dum de
+        proportionibus loquimur. Sequitur figura spetierum diapasson.</p>
       <p xml:id="BURMUS10082">[Burtius, f.div; text: A, B, C, D, E, F, G, 1, 2, 3, 4, 5, 6, 7]</p>
       <p xml:id="BURMUS10083">
         <pb n="[f.dijr]"/>Capitulum Uigesimumtertia. de quattuor tropis tonis: seu modis antiquis in
@@ -892,8 +907,8 @@
         ascendere tenentur: possunt tamen iuxta regulas Guidonis vnam sub suo fine de ponere vocem:
         et nota quod dixi possunt. Nam aliud est posse: et aliud est debere: quasi dicat si non
         deponerent vnam: tamen essent perfecti: et hoc iuxta Ioannis cartusiensis formulas.</p>
-      <p xml:id="BURMUS10085">Secundi vero plagales nominati: quasi subiugales: vel laterales: eo quod
-        sub potestate autenticorum sunt tanquam famuli. et hi omnes vsque ad quintam a suo fine
+      <p xml:id="BURMUS10085">Secundi vero plagales nominati: quasi subiugales: vel laterales: eo
+        quod sub potestate autenticorum sunt tanquam famuli. et hi omnes vsque ad quintam a suo fine
         ascendere tenentur: vel quandoque ad sextam: ita quod sub fine suo: tetracordum deponant.
         vel secundum quosdam diapente. Moderamen tamen in istis simile tenendum quod superius
         annotaui. Primi namque impars sunt: videlicet primus: tertius: quintus: et septimus.
@@ -902,9 +917,7 @@
       <p xml:id="BURMUS10086">
         <pb n="[f.diijr]"/>Primi autentici formula.</p>
       <p class="textFig" xml:id="BURMUS10087">            t  t  s  t  t  t      s  t
-        <br/>descensus C. D. E. F. G. A. [sqb]. C. D. ascensus.
-        <lb/>             Finis.
-        <br/></p>
+        <br/>descensus C. D. E. F. G. A. [sqb]. C. D. ascensus. <lb/>             Finis. <br/></p>
       <p xml:id="BURMUS10088">Hec est prima autentici formula: intra quartam diapasson: ex prima
         diapente ac prima diatesseron confecta. Usita eius principia sunt in .c. vt O beatum
         pontificem. Sepius autem in .d. quando principium cum fine concordat. vt Ecce nomen domini.
@@ -912,17 +925,14 @@
         tuba et caetera.</p>
       <p xml:id="BURMUS10089">Secundi autentici formula.</p>
       <p class="textFig" xml:id="BURMUS10090">             t  s  t  t  t      s  t  t
-        <lb/>descensus. D. E. F. G. A. [sqb]. C. D. E. ascensus.
-        <br/>              Finis.
-        <lb/></p>
+        <lb/>descensus. D. E. F. G. A. [sqb]. C. D. E. ascensus. <br/>              Finis. <lb/></p>
       <p xml:id="BURMUS10091">Hec est formula secundi autentici: infra quintam diapasson: ex secunda
         diapente ac diatesseron secunda constituta. Usitata eius principia sunt hec. In e. vt quando
         natus es. in .f. vt nunc scio vere. in g. vt multa quidem. in e. vt tertia dies est et
         caetera.</p>
       <p xml:id="BURMUS10092">Tertij autentici formula.</p>
       <p class="textFig" xml:id="BURMUS10093">         t  t  t      s  t  t  s 
-        <br/>Finis. F. G. A. [sqb]. C. D. E. F. ascensus.
-        <lb/></p>
+        <br/>Finis. F. G. A. [sqb]. C. D. E. F. ascensus. <lb/></p>
       <p xml:id="BURMUS10094">
         <pb n="[f.diijv]"/>Hec est tertij antentici formula: intra sextam diapason: ex tertia
         diapente: tertiaque diatesseron formata. vsita eius principia sunt hec. in e. vt haurietis
@@ -930,9 +940,7 @@
         veniet.</p>
       <p xml:id="BURMUS10095">Quarti autentici formula.</p>
       <p class="textFig" xml:id="BURMUS10096">             t  t  t      s  t  t  s  t 
-        <br/>descensus. F. G. A. [sqb]. C. D. E. F. G. ascensus.
-        <lb/>              Finis 
-        <br/></p>
+        <br/>descensus. F. G. A. [sqb]. C. D. E. F. G. ascensus. <lb/>              Finis  <br/></p>
       <p xml:id="BURMUS10097">Hec est quarti autentici formula in diapason septima: sed ex quarta
         diapente: primaque diatesseron constituta. Consueta eius principia sunt hec. in f vix
         exempla reperies. in g. vt assumpta est maria. in a raro inuenies: vt comiuno domus mea. in
@@ -941,8 +949,7 @@
       <p xml:id="BURMUS10098">Primi plagalis formula.</p>
       <p class="textFig" xml:id="BURMUS10099">                   t  t      s  t  t  s  t  t  s
         <lb/>descensus. [Gamma]. A. [sqb]. C. D. E. F. G. A. B. ascensus
-        <br/>                                 Finis
-        <lb/></p>
+        <br/>                                 Finis <lb/></p>
       <p xml:id="BURMUS10100">Hec est primi subiugalis formula: intra primam diapasson: sed prima ex
         diapente: ac prima diatesseron confecta. Principia eius sunt quandoque in a. vt omnes
         patriarce: in c. vt nonne cor nostrum: in d. vt ecce in nubibus. in f vt quem vidistis. in
@@ -951,17 +958,14 @@
         <pb n="[f.diiijr]"/>Secundi plagalis formula.</p>
       <p class="textFig" xml:id="BURMUS10102">             t      s  t  t  s  t  t  t      s
         <br/>descensus. A. [sqb]. C. D. E. F. G. A. [sqb]. C. ascensus
-        <lb/>                           Finis
-        <br/></p>
+        <lb/>                           Finis <br/></p>
       <p xml:id="BURMUS10103">Hec formula secundi plagalis: in secunda diapasson sed eidem diapente
         subdita diatesseron. Principia eius inueniunter in c. vt homo erat in hyerusalem idest d. vt
         prope esto domine. et benedicta tu. in e. vt gaude Maria virgo. in f. vt recessit igitur. in
         g. vt o mors ero. in a vt disernitur quartus a tertio.</p>
       <p xml:id="BURMUS10104">Tertii plagalis formula.</p>
       <p class="textFig" xml:id="BURMUS10105">             t  t  s  t  t  s  t  t
-        <lb/>descensus. C. D. E. F. G. A. B. C. D. ascensus
-        <br/>                    Finis
-        <lb/></p>
+        <lb/>descensus. C. D. E. F. G. A. B. C. D. ascensus <br/>                    Finis <lb/></p>
       <p xml:id="BURMUS10106">Hec est tertij plagalis formula in tertia diapason:sed eidem diapente
         subdita diatesseron. per principia vix discernitur a quinto: hoc est a tertio autentico:
         nisi quod in suo fine incipit vt verbum caro: aut in voce quarta. vt si ego verus christi
@@ -971,8 +975,7 @@
         nisi ascendat ad nonam dicitur de sexto. et hec ad eorum agnitionem sufficiant.</p>
       <p xml:id="BURMUS10107">Quarti plagalis formula.</p>
       <p class="textFig" xml:id="BURMUS10108">descensus. C. D. E. F. G. A. [sqb]. C. D. E. ascensus
-        <br/>                       Finis.
-        <lb/></p>
+        <br/>                       Finis. <lb/></p>
       <p xml:id="BURMUS10109">
         <pb n="[f.diiijv]"/>Hec quarti plagalis: et octaui in ordine formula: intra quartam
         diapasson supra finem diapente habens diatesseron. Principia eius sunt. in .C. Ecce ancilla
@@ -982,27 +985,28 @@
         octauus.</p>
       <p xml:id="BURMUS10110">Capitulum Uigesimumquartum. de ascensione paruularum antiphonarum: vel
         cantuum.</p>
-      <p xml:id="BURMUS10111">Demonstratis superius tam autenticorum: quam plagalium varietatibus: modo
-        de ascensione paruulorum cantuum: seu antiphonarum succinte expediam. Primo siquidem
+      <p xml:id="BURMUS10111">Demonstratis superius tam autenticorum: quam plagalium varietatibus:
+        modo de ascensione paruulorum cantuum: seu antiphonarum succinte expediam. Primo siquidem
         sciendum quod quilibet autenticus in istis precipue minisculis raro diapente transcendit.
         Plagalis vero raro diatesseron De autentico vt in antiphona. dabit ei dominus. celum et
         terram transibunt: et clamor meus cum similibus. De plagali vero: vt est antiphona. da nobis
         domine et cetere omnes similes.</p>
-      <p xml:id="BURMUS10112">Capitulum Uigesimumquintum. de autenticis: ac plagalibus antiphonis a suo
-        fine seculor: aut euouae discernendis.</p>
-      <p xml:id="BURMUS10113">Licet enim eo naturali modo: quo et ceteri cantus discernuntur: he paruule
-        antiphone: quandoque minime discerni possint: prout narratum est. Pro <pb n="[f.dvr]"/>clariori tamen praticorum: non tamen musicorum intelligentia. Nam hi proculdubio omnem
-        huiusmodi scientie plenitudinem habent. nunnullas sub breuitate describam regulas ad
-        quoscunque huiusmodi tonos discernendos. vt hic. Omnis igitur antiphona finem in d. graui
-        collocans: ac prima sui seculorum: aut: vt dicunt: euouae voculam in a. acuto ponens:
-        dicendo in notulis .re. la. non dubium est: quin sit autentica: ac de primo tono. Ut in
-        antiphona. Primum querite regnum dei cum similibus. Et nota quod autenticus primus duodecim
-        habet differentias. vt apertissime patet antiphonario. Omnis similiter antiphona in d. graui
-        finiens: cuius seculorum est in f. graui dicendo in notulis re. fa. absque dubio plagalis
-        erit: et de secundo tono hoc est de primo plagali: qui est secundus in ordine: et vnicam
-        habet differentiam. Omnis namque antiphona in e. graui finiens cuius euouae vel seculorum:
-        est in e acuto: dicendo in notulis mi. fa. veraciter quin de tertio tono sit non est
-        ambigendum. et quinque habet differentias. Omnis etiam antiphona similiter in e. graui
+      <p xml:id="BURMUS10112">Capitulum Uigesimumquintum. de autenticis: ac plagalibus antiphonis a
+        suo fine seculor: aut euouae discernendis.</p>
+      <p xml:id="BURMUS10113">Licet enim eo naturali modo: quo et ceteri cantus discernuntur: he
+        paruule antiphone: quandoque minime discerni possint: prout narratum est. Pro <pb
+          n="[f.dvr]"/>clariori tamen praticorum: non tamen musicorum intelligentia. Nam hi
+        proculdubio omnem huiusmodi scientie plenitudinem habent. nunnullas sub breuitate describam
+        regulas ad quoscunque huiusmodi tonos discernendos. vt hic. Omnis igitur antiphona finem in
+        d. graui collocans: ac prima sui seculorum: aut: vt dicunt: euouae voculam in a. acuto
+        ponens: dicendo in notulis .re. la. non dubium est: quin sit autentica: ac de primo tono. Ut
+        in antiphona. Primum querite regnum dei cum similibus. Et nota quod autenticus primus
+        duodecim habet differentias. vt apertissime patet antiphonario. Omnis similiter antiphona in
+        d. graui finiens: cuius seculorum est in f. graui dicendo in notulis re. fa. absque dubio
+        plagalis erit: et de secundo tono hoc est de primo plagali: qui est secundus in ordine: et
+        vnicam habet differentiam. Omnis namque antiphona in e. graui finiens cuius euouae vel
+        seculorum: est in e acuto: dicendo in notulis mi. fa. veraciter quin de tertio tono sit non
+        est ambigendum. et quinque habet differentias. Omnis etiam antiphona similiter in e. graui
         terminans: cuius seculorum est in a. acuto dicendo in notulis mi. la. dubium non est: quin
         sit de quarto tono: et habet tres differentias. Omnis preterea antiphona. in f. graui
         collocata: cuius seculorum in .c. est acuto et in notulis est fa .fa. autentica est et de
@@ -1017,33 +1021,34 @@
         et de octauo tono: maxime etiam cum habeat finem in g. graui. Non admirandum quippe est de
         eius inchoatione: ac fine quoniam nouiter a musicis similes innouari possent: et in publicum
         permittente tamen ecclesia promulgari. et hoc auctoritate Ioannis cartusiensis.</p>
-      <p xml:id="BURMUS10114">Capitulum .xxvi. de finitis in A nunnullis antiphonis secundum modernos
-        irregularibus.</p>
-      <p xml:id="BURMUS10115">Tres etenim differentiae tantum in a. acuto finientes apud ecclesiasticos
-        viros reperiuntur: quas moderni irregulares: ob sedem litterarum finalium nuncupant. Uerum
-        quia nunnulli dubitarunt ex quo fuerit tono: an ex quarto: quam ex sexto et huiusmodi aliis.
-        Respondendum arbitror. Nam cum iste antiphone videlicet dominus regit me: et antiphona Sicut
-        mirha: et factus sum: cum antiphona. benedicta tu. cum similibus sint plagales: tum respectu
-        diatesseron: quam habent de super teputantur de quarto potius: quam de alio tono. tum etiam
-        propter similem: quam habere videntur. in intonando et finiendo conformitatem. Concludendum
-        itaque qui quando omnis antiphona in a. acuto finita: <pb n="[f.dvir]"/>cuius euouae in d.
-        acuto terminauit: non esse de alio quam de quarto tono. et hec communis opinio musicorum.
-        Quamquam tamen nunnulli ausi eos appellare commixtos idest tam ex suis propriis diatesseron:
-        et diapente spetiebus: quam ex alienis compactos. vnde dant exemplum de antiphona. Setit
-        angelus. cum antiphona serui domini. que in sonis et consonantiarum spetiebus: videntur esse
-        similes. Super hoc tamen: o lector fac vt ratio veluti domina imperet: et intellectus
-        obediat. Sic de finientibus in [sqb]. vel in c. acutis: coniunctionum prius consideratis
-        spetiebus: iudicandum est.</p>
-      <p xml:id="BURMUS10116">Capitulum .xxvii. Qualiter per singulos tonos psalmi sint inchoandi.</p>
+      <p xml:id="BURMUS10114">Capitulum .xxvi. de finitis in A nunnullis antiphonis secundum
+        modernos irregularibus.</p>
+      <p xml:id="BURMUS10115">Tres etenim differentiae tantum in a. acuto finientes apud
+        ecclesiasticos viros reperiuntur: quas moderni irregulares: ob sedem litterarum finalium
+        nuncupant. Uerum quia nunnulli dubitarunt ex quo fuerit tono: an ex quarto: quam ex sexto et
+        huiusmodi aliis. Respondendum arbitror. Nam cum iste antiphone videlicet dominus regit me:
+        et antiphona Sicut mirha: et factus sum: cum antiphona. benedicta tu. cum similibus sint
+        plagales: tum respectu diatesseron: quam habent de super teputantur de quarto potius: quam
+        de alio tono. tum etiam propter similem: quam habere videntur. in intonando et finiendo
+        conformitatem. Concludendum itaque qui quando omnis antiphona in a. acuto finita: <pb
+          n="[f.dvir]"/>cuius euouae in d. acuto terminauit: non esse de alio quam de quarto tono.
+        et hec communis opinio musicorum. Quamquam tamen nunnulli ausi eos appellare commixtos idest
+        tam ex suis propriis diatesseron: et diapente spetiebus: quam ex alienis compactos. vnde
+        dant exemplum de antiphona. Setit angelus. cum antiphona serui domini. que in sonis et
+        consonantiarum spetiebus: videntur esse similes. Super hoc tamen: o lector fac vt ratio
+        veluti domina imperet: et intellectus obediat. Sic de finientibus in [sqb]. vel in c.
+        acutis: coniunctionum prius consideratis spetiebus: iudicandum est.</p>
+      <p xml:id="BURMUS10116">Capitulum .xxvii. Qualiter per singulos tonos psalmi sint
+        inchoandi.</p>
       <p xml:id="BURMUS10117">Primus itaque tonus: per .F. G. A. que in voculis sonant fa. sol. la.
         inchoatur et sextus similiter. secundus vero: et tertius: et octauus: per vt. re. fa.
         incipiuntur. Quartus vero per la. sol. la. Quintus namque per vt mi. sol. Septimus quoque
         per sol. fa. sol. Finientes vero in a. per .d. c. d. acutas considerantur.</p>
-      <p xml:id="BURMUS10118">Capitulum Uigesimum octauum. Quis tropis: siue modis tale temperamentum
-        primus adhibuerit: ac illos in lucem ediderit.</p>
-      <p xml:id="BURMUS10119">Libet amentissimi: post varias troporum: considerationes differentiasque
-        omnium examinatas: quis nam talem modulationis modum his adhibuerit: aut illos in lucem
-        ediderit luculentissime enarrare.</p>
+      <p xml:id="BURMUS10118">Capitulum Uigesimum octauum. Quis tropis: siue modis tale
+        temperamentum primus adhibuerit: ac illos in lucem ediderit.</p>
+      <p xml:id="BURMUS10119">Libet amentissimi: post varias troporum: considerationes
+        differentiasque omnium examinatas: quis nam talem modulationis modum his adhibuerit: aut
+        illos in lucem ediderit luculentissime enarrare.</p>
       <p xml:id="BURMUS10120">
         <pb n="[f.dviv]"/>Uerum cum ante beatum Gregorium inuenimus varios plani cantus codices:
         varijs caracteribus seu chifris: vt ita loquar: designatos: prout in calce huius libelli
@@ -1051,9 +1056,9 @@
         placeret inuentiones. Hoc enim Aretini testimonio qui in italia post Boetium ceterosque
         antiquos musicos floruit: sepisse comprobatum est. Cui quantum summus obnoxij: nulla
         sufficienti laude excogitare possem.</p>
-      <p xml:id="BURMUS10121">Haud huic tandem quamquam dignus honore et laude perpetua. Non primo in
-        organis cytharisque canenti. Non denique priscisillis philosophis: aut Boetio aut cuiquam ex
-        musicorum caterua: iam diu celebrata attribuetur honos: vt talem melifluam: et suauem
+      <p xml:id="BURMUS10121">Haud huic tandem quamquam dignus honore et laude perpetua. Non primo
+        in organis cytharisque canenti. Non denique priscisillis philosophis: aut Boetio aut cuiquam
+        ex musicorum caterua: iam diu celebrata attribuetur honos: vt talem melifluam: et suauem
         concentus concordiam: his tropis miscuerit adinueneritque. Non admireris sanne lector si
         prius octo apud grecos fuisse tonos descripserim. Hoc verum testificor: sed nunquam tali
         modulatione: depositione ascensioneque esse distinctos reperies. Nam si recte perpendis:
@@ -1089,11 +1094,11 @@
         totam eam perfundens tot maria: tot portus: gremiumque terrarum commertio patens vndique: et
         tanquam ad adiuuandos mortales: ipsa auida in mare procurres. Neque ingenia: ritusque ac
         viros: et lingua manuque superatas commemoro gentes.</p>
-      <p xml:id="BURMUS10123">Ipsi idcirco de ea vindicauere greci. genus in gloriam suam effusissimum:
-        quotam partem ex ea: appellando magnam greciam. Quin etiam pulcherrima viris ac feminis. vt
-        idem Plinius libro vltimo commemorat. Item ducibus militibusque artium prestantia et
-        ingeniorum claritatibus. quid plura? Nam veritas sese occultare nescit. vbi Cicero
-        eloquentia disertissimus? qui nedum philosophia floruit: sed omnium liberalium artium
+      <p xml:id="BURMUS10123">Ipsi idcirco de ea vindicauere greci. genus in gloriam suam
+        effusissimum: quotam partem ex ea: appellando magnam greciam. Quin etiam pulcherrima viris
+        ac feminis. vt idem Plinius libro vltimo commemorat. Item ducibus militibusque artium
+        prestantia et ingeniorum claritatibus. quid plura? Nam veritas sese occultare nescit. vbi
+        Cicero eloquentia disertissimus? qui nedum philosophia floruit: sed omnium liberalium artium
         doctrina perspicuus. quod musica hisque omnibus claruerit: estant illius monumenta: et
         maxime in libro de somnio scipionis: et de vniuersitate. vnde ipsemet in principio
         tusculanarum: cum grecos floruisse mathematicibus omnibus scilicet musica: geometria et
@@ -1115,8 +1120,8 @@
         Hi sunt gemme: hi vniones: saphiri: lapidesque preciosi: quos Italia pululat: et producit.
         Sileat igitur barbarorum rabies: et infrenatam penitus petulantiam amittant: speculentur
         videant quicquid non sine maxima omnium laude: elleuata italie ingenia nobis profuere.</p>
-      <p xml:id="BURMUS10124">Non immerito itaque Italia debet diuo Gregorio: qui hanc ipsam pariter et
-        sanctitate: exemplis quoque <pb n="[f.dviijv]"/>ac doctrina illustrauit. Hic namque cum
+      <p xml:id="BURMUS10124">Non immerito itaque Italia debet diuo Gregorio: qui hanc ipsam pariter
+        et sanctitate: exemplis quoque <pb n="[f.dviijv]"/>ac doctrina illustrauit. Hic namque cum
         fuerit natione romanus: ac vrbis presul: nedum euangeliorum homelias quadraginta: In Iob
         triginta quinque. In Ezechielem viginti descripsit. Pastoralem quoque: et diologorum libros
         quattuor edidit: sed etiam quos nominaui tropos: tali temperamento conspersos: ecclesie
@@ -1133,11 +1138,12 @@
         haud de eo: Eusebius in crouicis: et ceteri descripsissent omnes. Hoc verisimiliter
         credendum: id tenendumque arbitror. Ex his enim que descripta sunt: nedum quod querebatur
         habes lector. sed etiam multa egregia ad propositum circa laudes italie acceruata sunt.</p>
-      <p xml:id="BURMUS10125">Capitulum .xxix. Quid necessum sit volentibus cantum <pb n="[f.eir]"/>anglicum siue planum sacris litteris apponere.</p>
-      <p xml:id="BURMUS10126">Quicquid circa cantum angelicum: sen vt dicunt planum: potest comprehendi:
-        breui vt fueram pollicitus tractatu cumulaui. Ut cupienti de facili per planum cantum
-        antiphonas: responsoria: hymnos: ac similia agnoscere: atque nouos: deuotissimosque suo e
-        sensu cudere: via absque scrupulo pateat clarissima. Uerum enimuero sicut rectoribus
+      <p xml:id="BURMUS10125">Capitulum .xxix. Quid necessum sit volentibus cantum <pb n="[f.eir]"
+        />anglicum siue planum sacris litteris apponere.</p>
+      <p xml:id="BURMUS10126">Quicquid circa cantum angelicum: sen vt dicunt planum: potest
+        comprehendi: breui vt fueram pollicitus tractatu cumulaui. Ut cupienti de facili per planum
+        cantum antiphonas: responsoria: hymnos: ac similia agnoscere: atque nouos: deuotissimosque
+        suo e sensu cudere: via absque scrupulo pateat clarissima. Uerum enimuero sicut rectoribus
         necessum est post artem: et ante non paucos antiquorum: quos immitari valeant: ac eruditorum
         perlegisse libros. Sic et volentibus planum cantum verbis sacris apponere: necessum est:
         libros diuinos canendo diu per ecclesias frequentasse. Neque tamen ea: que de generibus
@@ -1148,8 +1154,8 @@
         est. Hoc extremum tamen additiam: vt stillum gregorianum totis animi amplectemur viribus:
         imitemurque. Nam vt inquit Guido: ille maxime auctoritati ecclesiastice contradicit: qui
         propter aliorum cantus: diuinum beati Gregorij domum penitus pretermittit.</p>
-      <p xml:id="BURMUS10127">Capitulum .xxx. de vocis conseruatione: et qualiter quis ad cantandum se
-        custodire debeat.</p>
+      <p xml:id="BURMUS10127">Capitulum .xxx. de vocis conseruatione: et qualiter quis ad cantandum
+        se custodire debeat.</p>
       <p xml:id="BURMUS10128">Quamquam superius capitulum .viii. satisabunde de voce dictum fuerit.
         libet tamen hac vltima primi tractatus parte: de eius conseruatione: ac dilligentia: quaquis
           <pb n="[f.eiv]"/>ad cantandum debeat vti reserare. Sciendum igitur quod ad conseruationem

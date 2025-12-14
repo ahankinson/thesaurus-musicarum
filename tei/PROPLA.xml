@@ -1,25 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Plana musica</title>
         <title type="abbrev">PROPLA</title>
-        <author>Prosdocimo de' Beldomandi</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Prosdocimo de' Beldomandi</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Jan Herlinger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Magda Dragu</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Giuliano Di Bacco</persName>
         </respStmt>
-        <date/></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Prosdocimo de' Beldomandi, <emph>Plana musica and Musica
             speculativa</emph>, ed. and trans. by Jan Herlinger, Studies in the History of Music
@@ -38,11 +47,11 @@
       <p xml:id="PROPLA0001">
         <pb n="[34]"/>TRACTATUS PLANE MUSICE A PROSDOCIMO DE BELDEMANDIS</p>
       <p xml:id="PROPLA0002">Prefatio</p>
-      <p xml:id="PROPLA0003">1. Multorum diversorum auctorum artis pratice cantus plani, musica plana
-        nominate, volumina revolvi, ab ipsismet auctoribus taliter intitulata, in quibus partis
-        theorice cum parte pratice ipsius cantus plani inutilis fit permixtio, cum ipsorum diversa
-        deberent esse volumina, eo quod partes omnino abinvicem distincte sunt, et ob hanc causam
-        ipsos errare gravissime puto, in tantum quod ob hoc soli pratice ipsius cantus plani
+      <p xml:id="PROPLA0003">1. Multorum diversorum auctorum artis pratice cantus plani, musica
+        plana nominate, volumina revolvi, ab ipsismet auctoribus taliter intitulata, in quibus
+        partis theorice cum parte pratice ipsius cantus plani inutilis fit permixtio, cum ipsorum
+        diversa deberent esse volumina, eo quod partes omnino abinvicem distincte sunt, et ob hanc
+        causam ipsos errare gravissime puto, in tantum quod ob hoc soli pratice ipsius cantus plani
         intendentes, ab ipsorum intento distrahuntur primitias suorum voluminum theoricales sibi
         difficillimas intuentes, qua de re, motus amore michi fratris dilecti necnon viri
         scientifici, spectabilis, et egregii magistri Antonii de Pontevico de civitate Brixiensi,
@@ -50,29 +59,30 @@
         subsidio, brevem tractatulum huius artis pratice cantus plani etiam cordialiter agredi,
         solum ad hanc praticam pertinentia, iuxta mei parvi intellectus imbecilitatem,
         pertractando.</p>
-      <pb n="[36]"/>1 <p xml:id="PROPLA0004">1. Musica ergo plana est musica notas sive figuras absque
-        ulla determinata mensura considerans, modum cantus planos componendi ac ipsos abinvicem per
-        tonos autenticos et plagales distinguendique demonstrans; et ut hec descriptio melius
-        intelligatur, est sciendum quod ideo hec musica plana musica nominatur quia eius cantus
-        uniformiter quantum ad eorum notas sive figuras, et modo plano, sive absque ulla variatione,
-        proferuntur, et propter hoc tales cantus etiam cantus plani nominantur. Nominantur et etiam
-        cantus firmi et cantus immensurati; cantus firmi quia firmiter absque ulla variatione
-        proferuntur, immensurati vero quia absque ulla mensura determinata pronuntiantur.</p>
-      <p xml:id="PROPLA0005">2. Ulterius sciendum quod figure sive note musicales sunt signa in libris
-        reperta per que debitam elevationem vel depositionem vocum apprehendimus, et talia signa
-        sive note sunt solum sex, talibus diversis nominibus <pb n="[38]"/>nominate, scilicet ut,
-        re, mi, fa, sol, la; unde per ista sex signa sive notas taliter ordinatas nobis paulatina
-        elevatio denotatur si ab ut incipiamus et ad la per omnia signa sive notas medias ordinate
-        ut superius nominate sunt accedamus, et e converso per ipsas nobis paulatina depositio
-        denotatur si a la incipiamus et ad ut per omnia signa sive notas intermedias ordinate
-        accedamus, sic quod per unum istorum sex nominum parvam apprehendimus elevationem vel
-        depositionem respectu nominis sibi immediate sequentis vel precedentis. Quomodo autem per
-        talem musicam planam modum cantus planos componendi et quomodo etiam per ipsam modum hos
+      <pb n="[36]"/>1 <p xml:id="PROPLA0004">1. Musica ergo plana est musica notas sive figuras
+        absque ulla determinata mensura considerans, modum cantus planos componendi ac ipsos
+        abinvicem per tonos autenticos et plagales distinguendique demonstrans; et ut hec descriptio
+        melius intelligatur, est sciendum quod ideo hec musica plana musica nominatur quia eius
+        cantus uniformiter quantum ad eorum notas sive figuras, et modo plano, sive absque ulla
+        variatione, proferuntur, et propter hoc tales cantus etiam cantus plani nominantur.
+        Nominantur et etiam cantus firmi et cantus immensurati; cantus firmi quia firmiter absque
+        ulla variatione proferuntur, immensurati vero quia absque ulla mensura determinata
+        pronuntiantur.</p>
+      <p xml:id="PROPLA0005">2. Ulterius sciendum quod figure sive note musicales sunt signa in
+        libris reperta per que debitam elevationem vel depositionem vocum apprehendimus, et talia
+        signa sive note sunt solum sex, talibus diversis nominibus <pb n="[38]"/>nominate, scilicet
+        ut, re, mi, fa, sol, la; unde per ista sex signa sive notas taliter ordinatas nobis
+        paulatina elevatio denotatur si ab ut incipiamus et ad la per omnia signa sive notas medias
+        ordinate ut superius nominate sunt accedamus, et e converso per ipsas nobis paulatina
+        depositio denotatur si a la incipiamus et ad ut per omnia signa sive notas intermedias
+        ordinate accedamus, sic quod per unum istorum sex nominum parvam apprehendimus elevationem
+        vel depositionem respectu nominis sibi immediate sequentis vel precedentis. Quomodo autem
+        per talem musicam planam modum cantus planos componendi et quomodo etiam per ipsam modum hos
         cantus per tonos autenticos et plagales distinguendi doctrinam suscipiamus inferius in
         propriis locis clarissime patebit.</p>
-      <p xml:id="PROPLA0006">3. Sed quia per hec sex nomina notarum superius nominata, scilicet ut, re,
-        mi, fa, sol, la, non possemus omnem debitam ac opportunam elevationem vel depositionem vocum
-        habere absque ipsorum nominum reiteratione, ordinaverunt predecessores nostri viginti
+      <p xml:id="PROPLA0006">3. Sed quia per hec sex nomina notarum superius nominata, scilicet ut,
+        re, mi, fa, sol, la, non possemus omnem debitam ac opportunam elevationem vel depositionem
+        vocum habere absque ipsorum nominum reiteratione, ordinaverunt predecessores nostri viginti
         dictiones a primis septem literis alphabeti, ut ipsas distinctius haberemus, ordinate
         incipientes, in quibus dictionibus talia sex nomina pluries ordinate reiterata reperiuntur,
         et tales dictiones sunt iste, scilicet gamaut, Are, [sqb]mi, Cfaut, Dsolre, Elami, Ffaut,
@@ -80,8 +90,8 @@
         bfa[sqb]mi, Csolfa, Dlasol, Ela. Et ut melius ista que dicta sunt memorie commendarentur et
         clarius haberentur ut moris ipsorum antiquorum erat has viginti dictiones taliter super manu
         sinistra ordinaverunt, ut hic patet inferius.</p>
-      <p xml:id="PROPLA0007">[Prosdocimo, Plana, 38,1; text: ut, re, mi, fa, sol, la, Gamma, A, B, n, E,
-        b, F, G, C, D] <figure>
+      <p xml:id="PROPLA0007">[Prosdocimo, Plana, 38,1; text: ut, re, mi, fa, sol, la, Gamma, A, B,
+        n, E, b, F, G, C, D] <figure>
           <graphic url="/images/PROPLA_01GF.gif"/>
         </figure></p>
       <p xml:id="PROPLA0008">
@@ -137,7 +147,8 @@
         predecessores quasdam lineas per quas et earum spatia note collocarentur, secundum quod
         exemplariter scriptum est in palma manus superius depicte, et ex hoc diviserunt ipsi antiqui
         viginti dictiones superius recitatas, quasdam ipsarum in lineis ponendo et quasdam in
-        spatiis, que qualiter cognoscantur habere potes per hanc regulam que talis est, quod <pb n="[46]"/>omnis dictio in pari numero existens spatialis esse dignoscitur; omnis vero
+        spatiis, que qualiter cognoscantur habere potes per hanc regulam que talis est, quod <pb
+          n="[46]"/>omnis dictio in pari numero existens spatialis esse dignoscitur; omnis vero
         dictio in impari numero existens linealis esse discernitur. Unde quia gamaut, [sqb]mi,
         Dsolre, et sic ultra in numero impari existunt, puta in unitate, ternario, quinario, et sic
         ultra, ideo dicuntur in lineis collocari; et quia Are, Cfaut, Elami grave, et sic ultra in
@@ -181,12 +192,12 @@
         scilicet de re in <pb n="[50]"/>sol; tercia vero mutatio fit de sol in ut et quarta fit e
         converso, scilicet de ut in sol; quinta vero mutatio fit de re in ut et sexta fit e
         converso, scilicet de ut in re, et sic de aliis dictionibus tres voces habentibus.</p>
-      <p xml:id="PROPLA0016">7. Sciendum ulterius quod in qualibet gradata elevatione vel depositione
-        vocum per illa sex nomina causatur elevatio quedam vocis vel depositio que tonus nominatur
-        preterquam in elevatione vel depositione vocis que fit a mi ad fa vel e contra, scilicet a
-        fa ad mi, ex quibus quedam imperfecta elevatio vel depositio vocis causatur que apud musicos
-        semitonium nominatur, non quod sit medietas toni sed quia imperfectus, semus, vel
-        incompletus tonus, unde non dicitur semitonium in hoc loco a semi grece quod est medium
+      <p xml:id="PROPLA0016">7. Sciendum ulterius quod in qualibet gradata elevatione vel
+        depositione vocum per illa sex nomina causatur elevatio quedam vocis vel depositio que tonus
+        nominatur preterquam in elevatione vel depositione vocis que fit a mi ad fa vel e contra,
+        scilicet a fa ad mi, ex quibus quedam imperfecta elevatio vel depositio vocis causatur que
+        apud musicos semitonium nominatur, non quod sit medietas toni sed quia imperfectus, semus,
+        vel incompletus tonus, unde non dicitur semitonium in hoc loco a semi grece quod est medium
         latine et tonus, sed a semi grece quod aliquando est imperfectum, semum, sive incompletum
         latine et tonus, sic quod in hoc loco <pb n="[52]"/>tantum valet semitonium quantum
         imperfectus, semus, vel incompletus tonus. Et sic habes quod in constitutione semitonii
@@ -208,29 +219,29 @@
         acuto ad ipsum fa existens in bfa[sqb]mi acuto quam elevatio que fit a re existente in
         predicto Alamire acuto ad ipsum mi existens in bfa[sqb]mi acuto, cum ex prima harum
         elevationum semitonium causetur et ex secunda tonus, ut statim dictum est.</p>
-      <p xml:id="PROPLA0017">8. Sciendo ulterius quod antiqui auctores variationem maximam invenerunt in
-        ordinatione sex nominum notarum pluries superius nominatorum, quoniam in quibusdam locis
-        invenerunt in mutando unum nomen note in aliud voces nichil penitus variari et in quibusdam
-        aliis locis in talibus nominum mutationibus voces magnam sumere variationem, ut dictum est
-        supra de utroque bfa[sqb]mi tam accuto quam superacuto, et propter hoc, secundum quod in
-        diversis partibus manus musicalis tales ordines manus reperiebantur, voluerunt ipsos ordines
-        alio et alio modo cantari debere. Unde voluerunt quod ordo nominum in mutationibus quorum in
-        eadem parte manus musicalis nulla penitus fiebat vocum variatio per naturam cantari
-        diceretur, cuius causa potest duplex assignari. Prima quarum est quia ipsa nomina in suis
-        mutationibus non assuescunt alias sumere voces quam illas quas prius habebant, et ideo hoc
-        est sibi naturale, et merito eius ordo per naturam cantari dicitur, cum illud naturale sit
-        quod non aliter assuescit. Secunda causa <pb n="[56]"/>est quia humane voci multum facilius
-        est in talibus mutationibus eandem vocem retinere quam ipsam ita paucum variare, ut potest
-        quilibet in se experiri, et sibi ergo naturalius et per consequens naturale, cum illud voci
-        naturalius et pro naturali reputatur quod sibi facilius esse discernitur, nimirum ergo si
-        ordo talium nominum in quorum mutationibus nulla penitus fit vocum variatio per naturam
-        cantari dicatur; et merito propter hoc ergo voluerunt huius artis magistri quod ut repertum
-        in Cfaut et similiter in Csolfaut cum omnibus suis nominibus eum sequentibus, scilicet re,
-        mi, fa, sol, la, per naturam cantaretur, eo quod in eorum mutationibus nulla penitus fiebat
-        vocis variatio. Et dixi cum omnibus suis nominibus, eo quod reliqua quinque nomina sequentia
-        ipsum ut, scilicet re, mi, fa, sol, la, dicuntur eius nomina, cum ab ipso ut tanquam ab
-        eorum principe et principio habeant gubernari, eo quod naturam ipsius ut semper
-        insequuntur.</p>
+      <p xml:id="PROPLA0017">8. Sciendo ulterius quod antiqui auctores variationem maximam
+        invenerunt in ordinatione sex nominum notarum pluries superius nominatorum, quoniam in
+        quibusdam locis invenerunt in mutando unum nomen note in aliud voces nichil penitus variari
+        et in quibusdam aliis locis in talibus nominum mutationibus voces magnam sumere variationem,
+        ut dictum est supra de utroque bfa[sqb]mi tam accuto quam superacuto, et propter hoc,
+        secundum quod in diversis partibus manus musicalis tales ordines manus reperiebantur,
+        voluerunt ipsos ordines alio et alio modo cantari debere. Unde voluerunt quod ordo nominum
+        in mutationibus quorum in eadem parte manus musicalis nulla penitus fiebat vocum variatio
+        per naturam cantari diceretur, cuius causa potest duplex assignari. Prima quarum est quia
+        ipsa nomina in suis mutationibus non assuescunt alias sumere voces quam illas quas prius
+        habebant, et ideo hoc est sibi naturale, et merito eius ordo per naturam cantari dicitur,
+        cum illud naturale sit quod non aliter assuescit. Secunda causa <pb n="[56]"/>est quia
+        humane voci multum facilius est in talibus mutationibus eandem vocem retinere quam ipsam ita
+        paucum variare, ut potest quilibet in se experiri, et sibi ergo naturalius et per consequens
+        naturale, cum illud voci naturalius et pro naturali reputatur quod sibi facilius esse
+        discernitur, nimirum ergo si ordo talium nominum in quorum mutationibus nulla penitus fit
+        vocum variatio per naturam cantari dicatur; et merito propter hoc ergo voluerunt huius artis
+        magistri quod ut repertum in Cfaut et similiter in Csolfaut cum omnibus suis nominibus eum
+        sequentibus, scilicet re, mi, fa, sol, la, per naturam cantaretur, eo quod in eorum
+        mutationibus nulla penitus fiebat vocis variatio. Et dixi cum omnibus suis nominibus, eo
+        quod reliqua quinque nomina sequentia ipsum ut, scilicet re, mi, fa, sol, la, dicuntur eius
+        nomina, cum ab ipso ut tanquam ab eorum principe et principio habeant gubernari, eo quod
+        naturam ipsius ut semper insequuntur.</p>
       <p xml:id="PROPLA0018">Voluerunt ulterius antiqui auctores quod ordo nominum in quorum aliquo
         etiam ipsum in aliud nomen mutando fiebat vocis variatio non per naturam sed alio modo
         cantaretur, et quia talis vocis variatio in talibus mutationibus nullibi in manu musicali
@@ -264,22 +275,22 @@
         elevationem quam per depositionem vocis agnosci habeant, cum naturalius sit voci ab infimo
         incipere et ad supremum ascendere quam e contra, eo quod sibi facilius esse videtur, ut
         potest quilibet in se experiri; item quia nobilior est ascensus quam descensus.</p>
-      <p xml:id="PROPLA0020">Habes ergo in suma sex nomina notarum triplici variatione cantari posse,
-        scilicet per naturam, per b rotundum sive molle, et per [sqb] quadrum sive durum, ad cuius
-        variationis maiorem noticiam tale solet assignari carmen:</p>
+      <p xml:id="PROPLA0020">Habes ergo in suma sex nomina notarum triplici variatione cantari
+        posse, scilicet per naturam, per b rotundum sive molle, et per [sqb] quadrum sive durum, ad
+        cuius variationis maiorem noticiam tale solet assignari carmen:</p>
       <p xml:id="PROPLA0021">C naturam dat, <lb/>F b molle, <br/>G quoque [sqb] quadrum;</p>
-      <p xml:id="PROPLA0022">quod carmen sic intelligi habet, quod omne ut in dictione per C incipiente
-        repertum cum omnibus suis nominibus cantari habet per naturam, et propter hoc habes quod ut
-        de Cfaut et de Csolfaut cum omnibus suis nominibus cantari habent per naturam; omne vero ut
-        in dictione per F incipiente repertum cum omnibus suis nominibus cantari habet per b
-        rotundum sive molle; quapropter habes quod ut utriusque Ffaut, tam gravis quam acuti, cum
-        omnibus suis nominibus cantari habet per b rotundum sive molle; omne vero <pb n="[60]"/>ut
-        in dictione per G incipiente repertum cum omnibus suis nominibus cantari habet per [sqb]
-        quadrum sive durum, et propter hoc habes quod ut de gamaut et utriusque Gsolreut, tam gravis
-        quam acuti, cum omnibus suis nominibus cantari debet per [sqb] quadrum sive durum, nec te
-        molestet ut de gamaut cum omnibus suis nominibus in quorum mutationibus nulla penitus fit
-        vocis variatio, quapropter dicere habeas ipsum cantari debere per naturam, et non per [sqb]
-        quadrum sive durum, quia hoc non est nisi ratione defectus nominis in quod aliud nomen
+      <p xml:id="PROPLA0022">quod carmen sic intelligi habet, quod omne ut in dictione per C
+        incipiente repertum cum omnibus suis nominibus cantari habet per naturam, et propter hoc
+        habes quod ut de Cfaut et de Csolfaut cum omnibus suis nominibus cantari habent per naturam;
+        omne vero ut in dictione per F incipiente repertum cum omnibus suis nominibus cantari habet
+        per b rotundum sive molle; quapropter habes quod ut utriusque Ffaut, tam gravis quam acuti,
+        cum omnibus suis nominibus cantari habet per b rotundum sive molle; omne vero <pb n="[60]"
+        />ut in dictione per G incipiente repertum cum omnibus suis nominibus cantari habet per
+        [sqb] quadrum sive durum, et propter hoc habes quod ut de gamaut et utriusque Gsolreut, tam
+        gravis quam acuti, cum omnibus suis nominibus cantari debet per [sqb] quadrum sive durum,
+        nec te molestet ut de gamaut cum omnibus suis nominibus in quorum mutationibus nulla penitus
+        fit vocis variatio, quapropter dicere habeas ipsum cantari debere per naturam, et non per
+        [sqb] quadrum sive durum, quia hoc non est nisi ratione defectus nominis in quod aliud nomen
         mutari possit, scilicet in [sqb]mi tercia dictione, unde si in tali dictione essent ita duo
         nomina que inter se mutari possent sicut in utroque bfa[sqb]mi tam accuto quam superacuto,
         ita in ipsa fieret vocis variatio in tali mutatione sicut in aliis; cantari ergo ita habet
@@ -342,20 +353,20 @@
         spatia. Si bene tamen consideramus, perpendere possumus hec signa modernorum satis
         assimilari signis antiquorum prius acceptis, scilicet tribus literis superius nominatis,
         licet pauci ad hoc advertant.</p>
-      <p xml:id="PROPLA0026">Sunt tamen aliqui moderni, non musici sed musice destrutores, qui putantes
-        se magnum miraculum operari, eorum figurant cantus absque ullo signo sive clavi, et pessime,
-        pulcrius in musica dimittentes, quoniam tunc nullam rationem habere possunt quare in aliquo
-        ipsorum cantuum potius dicere habeant ut quam re, et potius mi quam fa, et potius sol quam
-        la, vel aliquod aliud nomen; ymo ubi putant quid laboriosum fecisse nichil operati sunt, cum
-        valde difficilius sit invenire quam inventa dimittere, ymo proprius loquendo unum facillimum
-        et reliquum difficillimum fore comuniter experimur. Ponunt et etiam isti moderni in eorum
-        cantibus aliquando pro clavibus cifras arismetricales, ymo quod plus est, totum cantum cum
-        istis cifris arismetricalibus figurant, saltim in cantu mensurato nullam notam musicalem
-        ibidem apponendo, ex qua figuratione se super alios putant supermilitari, quod totum pessime
-        operatum est, cum diversarum artium diversa debeant esse signa, quod bene apud antiquos
-        notum est, qui alia et alia signa arismetrice et musice applicaverunt, cum signa nobis
-        numeros denotantia arismetrice et signa debitam elevationem vel depositionem vocum nobis
-        denotantia musice tribuerunt.</p>
+      <p xml:id="PROPLA0026">Sunt tamen aliqui moderni, non musici sed musice destrutores, qui
+        putantes se magnum miraculum operari, eorum figurant cantus absque ullo signo sive clavi, et
+        pessime, pulcrius in musica dimittentes, quoniam tunc nullam rationem habere possunt quare
+        in aliquo ipsorum cantuum potius dicere habeant ut quam re, et potius mi quam fa, et potius
+        sol quam la, vel aliquod aliud nomen; ymo ubi putant quid laboriosum fecisse nichil operati
+        sunt, cum valde difficilius sit invenire quam inventa dimittere, ymo proprius loquendo unum
+        facillimum et reliquum difficillimum fore comuniter experimur. Ponunt et etiam isti moderni
+        in eorum cantibus aliquando pro clavibus cifras arismetricales, ymo quod plus est, totum
+        cantum cum istis cifris arismetricalibus figurant, saltim in cantu mensurato nullam notam
+        musicalem ibidem apponendo, ex qua figuratione se super alios putant supermilitari, quod
+        totum pessime operatum est, cum diversarum artium diversa debeant esse signa, quod bene apud
+        antiquos notum est, qui alia et alia signa arismetrice et musice applicaverunt, cum signa
+        nobis numeros denotantia arismetrice et signa debitam elevationem vel depositionem vocum
+        nobis denotantia musice tribuerunt.</p>
       <p xml:id="PROPLA0027">
         <pb n="[66]"/>11. Sed pro maiori ac ultimata istius manus musicalis declaratione ad
         solutionem quorundam dubiorum circa ipsam manum musicalem oriri potentium accedamus, unde
@@ -407,30 +418,30 @@
         compleatur, sic quod non possit <pb n="[70]"/>fieri mutatio nisi de la in ut et de ut in la,
         ascendendo vel descendendo, et taliter omnes hee dictiones super manu ordinentur, ut
         hic,</p>
-      <p xml:id="PROPLA0030">[Prosdocimo, Plana, 70,1; text: G, ut, A, re, mi, E, F, fa, sol, C, la, D,
-        B] <figure>
+      <p xml:id="PROPLA0030">[Prosdocimo, Plana, 70,1; text: G, ut, A, re, mi, E, F, fa, sol, C, la,
+        D, B] <figure>
           <graphic url="/images/PROPLA_02GF.gif"/>
         </figure></p>
       <p xml:id="PROPLA0031">Item etiam est dubium quare in aliqua ipsarum dictionum ponuntur magis
         aliqua ipsorum nominum quam alia ab illis diversa, ut gratia exempli quare in Gsolreut
         ponuntur potius solreut quam lafami, et sic de aliis.</p>
-      <p xml:id="PROPLA0032">Item est dubium quare posite sunt iste viginti dictiones potius super manu
-        sinistra quam super manu dextra, et quare etiam sub tali modo quodammodo circulari, scilicet
-        a summitate policis incipiendo et ad ipsius radicem descendendo, postea per omnes radices
-        aliorum quatuor digitorum progrediendo et ulterius super parvo digito ascendendo, et postea
-        per omnes summitates quatuor digitorum procedendo, demum per nodos intermedios progrediendo,
-        et cetera.</p>
-      <p xml:id="PROPLA0033">Pro declaratione primorum duorum dubiorum est sciendum quod in quibuslibet
-        sex literis consequenter se habentibus in quibus sex nomina notarum ordinate scripta
-        reperiuntur ab ut incipiendo et ad la ordinate per <pb n="[72]"/>nomina notarum intermedia
-        progrediendo, vel e contra, debet hoc totaliter ordinate scriptum reperiri, sic quod in
-        prima litera debet ut reperiri, et in secunda re, et in tercia mi, et in quarta fa, et in
-        quinta sol, et in sexta la; et ideo in prima litera manus repertum est hoc nomen note ut,
-        scilicet in G greco, quod sic scribitur, [Gamma], ut dictum est supra, et apud ipsos grecos
-        gama nominatur; in secunda vero, scilicet in A, repertum est hoc nomen re; in tercia vero,
-        scilicet [sqb], repertum est mi; in quarta vero, scilicet C, repertum est fa; in quinta
-        vero, scilicet D, repertum est sol; et in sexta, scilicet E, repertum est la. Sed quia
-        ulterius propter nominum defectum absque mutatione aliqua vocem gradatim elevare non
+      <p xml:id="PROPLA0032">Item est dubium quare posite sunt iste viginti dictiones potius super
+        manu sinistra quam super manu dextra, et quare etiam sub tali modo quodammodo circulari,
+        scilicet a summitate policis incipiendo et ad ipsius radicem descendendo, postea per omnes
+        radices aliorum quatuor digitorum progrediendo et ulterius super parvo digito ascendendo, et
+        postea per omnes summitates quatuor digitorum procedendo, demum per nodos intermedios
+        progrediendo, et cetera.</p>
+      <p xml:id="PROPLA0033">Pro declaratione primorum duorum dubiorum est sciendum quod in
+        quibuslibet sex literis consequenter se habentibus in quibus sex nomina notarum ordinate
+        scripta reperiuntur ab ut incipiendo et ad la ordinate per <pb n="[72]"/>nomina notarum
+        intermedia progrediendo, vel e contra, debet hoc totaliter ordinate scriptum reperiri, sic
+        quod in prima litera debet ut reperiri, et in secunda re, et in tercia mi, et in quarta fa,
+        et in quinta sol, et in sexta la; et ideo in prima litera manus repertum est hoc nomen note
+        ut, scilicet in G greco, quod sic scribitur, [Gamma], ut dictum est supra, et apud ipsos
+        grecos gama nominatur; in secunda vero, scilicet in A, repertum est hoc nomen re; in tercia
+        vero, scilicet [sqb], repertum est mi; in quarta vero, scilicet C, repertum est fa; in
+        quinta vero, scilicet D, repertum est sol; et in sexta, scilicet E, repertum est la. Sed
+        quia ulterius propter nominum defectum absque mutatione aliqua vocem gradatim elevare non
         poteramus, fuit neccessarium in ipso E facere mutationem, et mutare illud la in mi et non in
         aliud nomen, ut dicere valeremus in F sequenti hanc vocem fa, quam in ipso F neccessario
         dicere debebamus propter fugere tritonum in musica valde dissonum et difficillime
@@ -477,8 +488,8 @@
         descensum complerentur ponere in A superacuto immediate precedente re, et in G acuto ut;
         item in <pb n="[76]"/>C superacuto fa, in D sol, et in E la. Habes igitur neccessitatem
         talis compositionis omnium viginti dictionum que in manu reperte sunt.</p>
-      <p xml:id="PROPLA0034">Sed causa quare predicte viginti dictiones potius posite sunt super manu
-        sinistra quam super manu dextra, quod est tercium dubium in ordine quatuor ultimorum
+      <p xml:id="PROPLA0034">Sed causa quare predicte viginti dictiones potius posite sunt super
+        manu sinistra quam super manu dextra, quod est tercium dubium in ordine quatuor ultimorum
         dubiorum superius recitatorum, est hec, quia antiqui voluerunt ad maiorem comoditatem ponere
         has dictiones super manu a qua incipit modus noster scribendi, qui est a parte sinistra
         tendens versus partem dextram, qua de causa etiam inceperunt ipsas dictiones in parte
@@ -498,8 +509,8 @@
         vitium est in arte, cum ars insequatur naturam in quantum potest, et natura non abundet in
         superfluis nec deficiat in neccessariis, ut asserit Aristotiles secundo physicorum et tercio
         de anima.</p>
-      <pb n="[80]"/>2 <p xml:id="PROPLA0036">1. Declarata parte principali plane musice, que est manus
-        musicalis explanatio, ad secundum intentum, quod est diversitatem tonorum declarare,
+      <pb n="[80]"/>2 <p xml:id="PROPLA0036">1. Declarata parte principali plane musice, que est
+        manus musicalis explanatio, ad secundum intentum, quod est diversitatem tonorum declarare,
         accedamus, unde sciendum quod tonus quantum ad musicam spectat dupliciter sumi potest, primo
         pro eo quod contra semitonium distinguitur, qualiter sumebatur superius ubi diffiniebatur
         tonus et semitonium, et sic non sumitur in proposito; alio modo sumitur pro quodam totali
@@ -556,33 +567,34 @@
         tonorum ultimo inventorum duodecima clauderetur, uti et in quatuor primitus inventis,
         voluerunt isti successores predicti hos quatuor tonos ultimo inventos ad vocem octavam ad
         plus ascendere posse, semper ipsorum finalium respectu.</p>
-      <p xml:id="PROPLA0039">Facti ergo in posterum sunt toni numero octo, taliter adinvicem ordinati
-        quod quilibet duo toni eundem finem habentes adinvicem colligati sunt, ut verbi gratia
-        primus quatuor secundorum cum primo quatuor primorum, secundus cum secundo, tercius cum
-        tercio, et quartus cum quarto, et sic insequutus est quilibet alteri colligatus immediate
-        illum cui colligatus est in octo tonorum ordine, quare primus quatuor primorum primus omnium
-        octo factus est, et merito, quia primus quatuor primorum ascensum habentium, qui descensu
-        nobilior reputatur, primus vero quatuor secundorum secundus in ordine est collocatus, ut
-        insequatur immediate primum quatuor primorum cui colligatus est; in tercio vero loco
-        secundus quatuor primorum repositus est, et in quarto secundus quatuor secundorum sibi
-        colligatus; in quinto vero loco tercius quatuor primorum aptatus est, et in sexto tercius
-        quatuor secundorum sibi colligatus; septimus vero locus quarto quatuor primorum attributus
-        est, et octavus quarto quatuor secundorum sibi colligato. Quatuor ergo loca imparia obtinent
-        quatuor toni primitus inventi et quatuor loca paria quatuor ultimo reperti, ut apparet.
-        Propter hoc ergo dividunt moderniores hos octo tonos in duas partes equales, scilicet in
-        quatuor primitus inventos et quatuor ultimo repertos, et vocant quatuor primitus inventos,
-        qui sunt in ordine omnium octo primus, tercius, quintus, et septimus, autenticos, eo quod
-        primitus et ab auctenticis auctoribus inventi sunt; quatuor vero ultimo inventos, qui in
-        ordine omnium octo sunt secundus, quartus, sextus, et octavus, nominant plagales, sive
-        collaterales, quod idem est, eo quod collaterales quatuor primorum esse dicuntur, cum eosdem
-        fines cum illis obtinebant, ut dictum est. Plagis nanque grece latine latus significat, unde
-        plagalis tantum quantum lateralis sive collateralis importat. Secundum alios vero plagis <pb n="[86]"/>grece latine sequutio, unde plagalis et sequax idem significant; et merito
-        dicuntur isti quatuor toni secundo inventi plagales, id est sequaces, quia finales quatuor
-        tonorum primitus inventorum insequuntur, quapropter omnes octo toni talibus octo propriis
-        nominibus abinvicem distinctis nominati sunt, scilicet protus, plagalis proti, deuterus,
-        plagalis deuteri, tritus, plagalis triti, tetrardus, et plagalis tetrardi. Et scias quod
-        quilibet modus cantandi, sive sit in cantu plano sive in cantu mensurato, est alicuius octo
-        modorum sive tonorum superius nominatorum.</p>
+      <p xml:id="PROPLA0039">Facti ergo in posterum sunt toni numero octo, taliter adinvicem
+        ordinati quod quilibet duo toni eundem finem habentes adinvicem colligati sunt, ut verbi
+        gratia primus quatuor secundorum cum primo quatuor primorum, secundus cum secundo, tercius
+        cum tercio, et quartus cum quarto, et sic insequutus est quilibet alteri colligatus
+        immediate illum cui colligatus est in octo tonorum ordine, quare primus quatuor primorum
+        primus omnium octo factus est, et merito, quia primus quatuor primorum ascensum habentium,
+        qui descensu nobilior reputatur, primus vero quatuor secundorum secundus in ordine est
+        collocatus, ut insequatur immediate primum quatuor primorum cui colligatus est; in tercio
+        vero loco secundus quatuor primorum repositus est, et in quarto secundus quatuor secundorum
+        sibi colligatus; in quinto vero loco tercius quatuor primorum aptatus est, et in sexto
+        tercius quatuor secundorum sibi colligatus; septimus vero locus quarto quatuor primorum
+        attributus est, et octavus quarto quatuor secundorum sibi colligato. Quatuor ergo loca
+        imparia obtinent quatuor toni primitus inventi et quatuor loca paria quatuor ultimo reperti,
+        ut apparet. Propter hoc ergo dividunt moderniores hos octo tonos in duas partes equales,
+        scilicet in quatuor primitus inventos et quatuor ultimo repertos, et vocant quatuor primitus
+        inventos, qui sunt in ordine omnium octo primus, tercius, quintus, et septimus, autenticos,
+        eo quod primitus et ab auctenticis auctoribus inventi sunt; quatuor vero ultimo inventos,
+        qui in ordine omnium octo sunt secundus, quartus, sextus, et octavus, nominant plagales,
+        sive collaterales, quod idem est, eo quod collaterales quatuor primorum esse dicuntur, cum
+        eosdem fines cum illis obtinebant, ut dictum est. Plagis nanque grece latine latus
+        significat, unde plagalis tantum quantum lateralis sive collateralis importat. Secundum
+        alios vero plagis <pb n="[86]"/>grece latine sequutio, unde plagalis et sequax idem
+        significant; et merito dicuntur isti quatuor toni secundo inventi plagales, id est sequaces,
+        quia finales quatuor tonorum primitus inventorum insequuntur, quapropter omnes octo toni
+        talibus octo propriis nominibus abinvicem distinctis nominati sunt, scilicet protus,
+        plagalis proti, deuterus, plagalis deuteri, tritus, plagalis triti, tetrardus, et plagalis
+        tetrardi. Et scias quod quilibet modus cantandi, sive sit in cantu plano sive in cantu
+        mensurato, est alicuius octo modorum sive tonorum superius nominatorum.</p>
       <p xml:id="PROPLA0040">4. Alii autem dicunt hos octo tonos aliter inventos fuisse, unde dicunt
         quod primorum quatuor tonorum superius nominatorum inventores in ipsis suis quatuor tonis
         magnum ascensum atque descensum comprehendebant, taliter quod in quolibet ipsorum tonorum
@@ -605,8 +617,8 @@
         importare. Ordinati <pb n="[88]"/>ergo sunt postea omnes octo toni, ut dictum est, plagalem
         illi cuius plagalis esse dicitur immediate postponendo, nominatique etiam sunt modo
         supradicto.</p>
-      <p xml:id="PROPLA0041">5. Sciendum ulterius quod istorum octo tonorum alius est perfectus, alius
-        imperfectus, alius plusquamperfectus, et alius mixtus sive commixtus. Perfectus tonus
+      <p xml:id="PROPLA0041">5. Sciendum ulterius quod istorum octo tonorum alius est perfectus,
+        alius imperfectus, alius plusquamperfectus, et alius mixtus sive commixtus. Perfectus tonus
         dicitur ille qui modum suum implet superius atque inferius. Implere autem modum suum in
         tonis autenticis est supra suum finem octavam ascendere et tonum infra ipsius finalem
         descendere, trito excepto, qui licentiam habet descendendi tonum cum semitonio, eo quod
@@ -617,16 +629,16 @@
         est supra suum finem sextam vel septimam vocem ascendere et quintam sub ipso fine
         descendere. Secundum alios vero inpletio modi in autenticis tonis solum per ascensum
         cognoscitur, in plagalibus vero per descensum.</p>
-      <p xml:id="PROPLA0042">Tonus vero imperfectus dicitur ille qui modum suum non implet, sive hoc sit
-        superius sive inferius.</p>
+      <p xml:id="PROPLA0042">Tonus vero imperfectus dicitur ille qui modum suum non implet, sive hoc
+        sit superius sive inferius.</p>
       <p xml:id="PROPLA0043">
         <pb n="[92]"/>Tonus vero plusquamperfectus dicitur ille qui, si autenticus est, plus quam
         octavam supra suum finem ascendit; si vero sit plagalis, dicitur ille qui plus quam quintam
         sub suo fine descendit.</p>
-      <p xml:id="PROPLA0044">Tonus vero mixtus sive commixtus, quod idem est, dicitur ille qui naturam
-        alterius toni suscipit, et naturam unam terciam ex sua et altera componit, ut verbi gratia
-        si autenticus sit et plagalem suscipiat depositionem, vel si plagalis et autenticam sumat
-        elevationem; vel si cantari debeat per [sqb] quadrum et cantetur per b rotundum, vel e
+      <p xml:id="PROPLA0044">Tonus vero mixtus sive commixtus, quod idem est, dicitur ille qui
+        naturam alterius toni suscipit, et naturam unam terciam ex sua et altera componit, ut verbi
+        gratia si autenticus sit et plagalem suscipiat depositionem, vel si plagalis et autenticam
+        sumat elevationem; vel si cantari debeat per [sqb] quadrum et cantetur per b rotundum, vel e
         contra. Et scias quod talis tonus mixtus illius octo tonorum esse dicitur cuius naturam
         magis recipit, cum a predominante fieri debeat denominatio.</p>
       <p xml:id="PROPLA0045">
@@ -635,8 +647,8 @@
         regulariter ducunt, et sunt ista, scilicet ascensus, descensus, corde, principia, fines,
         Seculorum amen differentie, species, neume, et distinctiones, que omnia seriatim inferius
         declarabuntur.</p>
-      <p xml:id="PROPLA0046">7. A primis ergo duobus, que sunt ascensus et descensus, incipiendo, dico
-        quod autentici toni a plagalibus per ascensum et descensum sumunt differentiam, eo quod
+      <p xml:id="PROPLA0046">7. A primis ergo duobus, que sunt ascensus et descensus, incipiendo,
+        dico quod autentici toni a plagalibus per ascensum et descensum sumunt differentiam, eo quod
         autentici sub suis finalibus solum tonum cum semitonio ad plus descendere possunt,
         plagalibus vero sub suis finalibus usque ad quintam licitum est devenire; item plagales
         ultra septimam supra eorum finales ascendere non permittuntur, autentici vero supra eorum
@@ -666,21 +678,21 @@
         vel quatuor vel et cetera novem superius nominatorum, sed omnia novem subtiliter inspicias
         atque intelligenter et a predominio sumas indicationem, et tunc tonum quemlibet recte
         iudicabis.</p>
-      <p xml:id="PROPLA0048">9. Pro quarti vero in ordine declaratione, est sciendum quod quilibet octo
-        tonorum, sive sit perfectus sive sit imperfectus sive plusquamperfectus sive mixtus, habet
-        quasdam literas in quarum quamlibet suum habere potest exordium. Primi ergo toni octo sunt
-        huiusmodi litere initiales, scilicet A, B, C, D, E, F, et secundum G gravia, et A acutum.
-        Secundi vero toni sunt iste septem, scilicet primum G grave, hoc est gama, et A, B, C, D, E,
-        et F gravia. Tercii vero toni sunt iste quatuor, scilicet E, F, et secundum G gravia, et C
-        acutum. Quarti vero toni sunt iste sex, scilicet C, D, E, F, et secundum G gravia, et A
-        acutum. Quinti vero toni sunt iste quinque, scilicet D, F, et secundum G gravia, et A et C
-        acuta. Sexti vero toni sunt iste quinque, scilicet C, D, F, et secundum G gravia, et A
-        acutum; sunt tamen aliqui qui <pb n="[100]"/>addunt literam sextam, scilicet b rotundum
-        acutum, et, credo, male, quoniam nullus cantus supra initium sui Seculorum amen initiari
-        debet, ut de omnibus aliis tonis patere potest. Declarabitur autem inferius loco suo quid
-        sit hoc Seculorum amen. Septimi vero toni sunt iste sex, scilicet F et secundum G gravia, et
-        A, [sqb] quadrum, C, et D acuta. Octavi vero toni sunt iste sex, scilicet C, D, F, et
-        secundum G gravia, et A et C acuta.</p>
+      <p xml:id="PROPLA0048">9. Pro quarti vero in ordine declaratione, est sciendum quod quilibet
+        octo tonorum, sive sit perfectus sive sit imperfectus sive plusquamperfectus sive mixtus,
+        habet quasdam literas in quarum quamlibet suum habere potest exordium. Primi ergo toni octo
+        sunt huiusmodi litere initiales, scilicet A, B, C, D, E, F, et secundum G gravia, et A
+        acutum. Secundi vero toni sunt iste septem, scilicet primum G grave, hoc est gama, et A, B,
+        C, D, E, et F gravia. Tercii vero toni sunt iste quatuor, scilicet E, F, et secundum G
+        gravia, et C acutum. Quarti vero toni sunt iste sex, scilicet C, D, E, F, et secundum G
+        gravia, et A acutum. Quinti vero toni sunt iste quinque, scilicet D, F, et secundum G
+        gravia, et A et C acuta. Sexti vero toni sunt iste quinque, scilicet C, D, F, et secundum G
+        gravia, et A acutum; sunt tamen aliqui qui <pb n="[100]"/>addunt literam sextam, scilicet b
+        rotundum acutum, et, credo, male, quoniam nullus cantus supra initium sui Seculorum amen
+        initiari debet, ut de omnibus aliis tonis patere potest. Declarabitur autem inferius loco
+        suo quid sit hoc Seculorum amen. Septimi vero toni sunt iste sex, scilicet F et secundum G
+        gravia, et A, [sqb] quadrum, C, et D acuta. Octavi vero toni sunt iste sex, scilicet C, D,
+        F, et secundum G gravia, et A et C acuta.</p>
       <p xml:id="PROPLA0049">10. Item sciendum, et est declaratio quinti in ordine declarandi, quod
         sicut quilibet octo tonorum quasdam habet literas principales, ut dictum est, ita quilibet
         ipsorum, sive sit perfectus sive imperfectus sive plusquamperfectus sive mixtus, quasdam
@@ -771,9 +783,9 @@
         huiusmodi vocum combinationibus reperte proposito nostro utiles non existunt, ideo
         relinquende et de utilibus nostro proposito est determinandum, que solum due permanent,
         scilicet dyateseron et dyapente.</p>
-      <p xml:id="PROPLA0055">Est nanque dyateseron duarum vocum quedam combinatio que a modernis quarta
-        minor, ex duobus tonis et uno semitonio contexta, nuncupatur; et dicitur dyateseron a dya
-        grece, quod importat de latine, et teseron grece, quod latine dicitur quatuor, unde
+      <p xml:id="PROPLA0055">Est nanque dyateseron duarum vocum quedam combinatio que a modernis
+        quarta minor, ex duobus tonis et uno semitonio contexta, nuncupatur; et dicitur dyateseron a
+        dya grece, quod importat de latine, et teseron grece, quod latine dicitur quatuor, unde
         dyateseron nomen grecum est quod latine de quatuor importat, eo quod combinatio talis que
         dyateseron nuncupatur quatuor in se continet voces, ex quibus duo toni et unum semitonium
         componuntur. Et hec dyateseron in se tres continet diversitates, que pro nunc species
@@ -805,13 +817,13 @@
         si nota inferior superiori comparetur, uti comparari debet, precedet semitonium tonos, ut in
         secunda <pb n="[114]"/>specie dyateseron precedere debet, et sic secunda species dyateseron
         procreabitur, et bene.</p>
-      <p xml:id="PROPLA0058">His ergo speciebus sic declaratis, per ipsas in noticiam tonorum taliter
-        pervenire possumus, quoniam quotienscunque super aliqua voce finali cantus alicuius prima
-        species dyapente reperitur et super voce dyapente supra finalem resonante prima species
-        dyateseron invenitur, tunc talis cantus primi toni esse dicitur; si vero supra finalem
-        alicuius cantus prima species dyapente reperitur et infra eandem finalem prima species
-        dyateseron invenitur, tunc talis cantus secundi toni esse dicitur. Omnis vero cantus supra
-        cuius finalem secunda species dyapente reperitur et supra vocem dyapente supra finalem
+      <p xml:id="PROPLA0058">His ergo speciebus sic declaratis, per ipsas in noticiam tonorum
+        taliter pervenire possumus, quoniam quotienscunque super aliqua voce finali cantus alicuius
+        prima species dyapente reperitur et super voce dyapente supra finalem resonante prima
+        species dyateseron invenitur, tunc talis cantus primi toni esse dicitur; si vero supra
+        finalem alicuius cantus prima species dyapente reperitur et infra eandem finalem prima
+        species dyateseron invenitur, tunc talis cantus secundi toni esse dicitur. Omnis vero cantus
+        supra cuius finalem secunda species dyapente reperitur et supra vocem dyapente supra finalem
         resonantem secunda species dyateseron invenitur tercii toni esse dicitur; si vero supra
         finalem alicuius cantus secunda species dyapente reperitur et infra eandem finalem secunda
         species dyateseron invenitur, quarti toni esse dicitur. Omnis vero cantus supra cuius
@@ -821,7 +833,8 @@
         invenitur, sexti toni esse dicitur. Omnis vero cantus supra cuius finalem quarta species
         dyapente reperitur et supra vocem dyapente supra finalem resonantem prima species dyateseron
         invenitur septimi toni esse dicitur; si vero supra alicuius cantus finalem quarta species
-        dyapente reperitur et infra ipsius finalem prima species dyateseron invenitur, octavi <pb n="[116]"/>toni esse dicitur. Et si bene consideras, omnia hec ex his que de ascensu et
+        dyapente reperitur et infra ipsius finalem prima species dyateseron invenitur, octavi <pb
+          n="[116]"/>toni esse dicitur. Et si bene consideras, omnia hec ex his que de ascensu et
         descensu et literis finalibus tonorum dicta sunt inferri habent fundamentaliter.</p>
       <p xml:id="PROPLA0059">Ad maiorem tamen noticiam cantuum qui modum suum non implent sursum nec
         deorsum, scire debes quod si aliquis sit cantus qui supra eius finalem ultra sextam non
@@ -829,8 +842,8 @@
         est ab eius finali ad vocem quartam supra ipsam finalem, tunc, ut plurimum, talis cantus
         plagalis iudicatur, et tanto certius quanto pluries ipsam dyateseron in se resumit et
         huiusmodi plagalis quotum finem recipit totus in ordine iudicatur.</p>
-      <p xml:id="PROPLA0060">13. Pro declaratione autem octavi in ordine declarandi est sciendum quod
-        neuma, secundum quod in proposito sumere volo, eo quod apud musicum multipliciter sumi
+      <p xml:id="PROPLA0060">13. Pro declaratione autem octavi in ordine declarandi est sciendum
+        quod neuma, secundum quod in proposito sumere volo, eo quod apud musicum multipliciter sumi
         solet, est coadunatio duarum vocum consonantiam <pb n="[118]"/>vel dissonantiam auribus
         reddentium, et licet tales neume plures existant, tamen solum tres sunt neume que nos ducunt
         in octo tonorum noticiam, scilicet dyateseron, dyapente, et dyapason. Quid autem sit
@@ -892,8 +905,8 @@
         modorum psalmos intonandi in diebus ferialibus atque dominicis. Prima ergo exempla sunt hec
         primitus infrascripta.</p>
       <p xml:id="PROPLA0065">Modus primi toni</p>
-      <p xml:id="PROPLA0066">[Prosdocimo, Plana, 122,1; text: Dixit dominus domino meo. Sede a dextris
-        meis Benedictus dominus deus israel quia visitavit et fecit redemptionem plebis sue
+      <p xml:id="PROPLA0066">[Prosdocimo, Plana, 122,1; text: Dixit dominus domino meo. Sede a
+        dextris meis Benedictus dominus deus israel quia visitavit et fecit redemptionem plebis sue
         Magnificat anima mea dominum] <figure>
           <graphic url="/images/PROPLA_03GF.gif"/>
         </figure></p>
@@ -904,8 +917,8 @@
         </figure></p>
       <p xml:id="PROPLA0068">
         <pb n="[126]"/>Modus secundi toni</p>
-      <p xml:id="PROPLA0069">[Prosdocimo, Plana, 126,1; text: Dixit dominus domino meo. sede a dextris
-        meis Benedictus dominus deus israel quia visitavit et fecit redemptionem plebis sue
+      <p xml:id="PROPLA0069">[Prosdocimo, Plana, 126,1; text: Dixit dominus domino meo. sede a
+        dextris meis Benedictus dominus deus israel quia visitavit et fecit redemptionem plebis sue
         Magnificat anima mea dominum Beatus vir qui non abiit in consilio impiorum et in via
         peccatorum non stetit. et in cathedra pestilentie non sedit Seculorum amen Secundus tonus
         sic incipit et sic mediatur et sic finitur] <figure>
@@ -913,18 +926,18 @@
         </figure></p>
       <p xml:id="PROPLA0070">
         <pb n="[128]"/>Modus tercii toni</p>
-      <p xml:id="PROPLA0071">[Prosdocimo, Plana, 128,1; text: Dixit dominus domino meo. sede a dextris
-        meis Benedictus dominus deus israel quia visitavit et fecit redemptionem plebis sue
+      <p xml:id="PROPLA0071">[Prosdocimo, Plana, 128,1; text: Dixit dominus domino meo. sede a
+        dextris meis Benedictus dominus deus israel quia visitavit et fecit redemptionem plebis sue
         Magnificat anima mea dominum Seculorum amen Tercius tonus sic incipit et sic mediatur et sic
         finitur] <figure>
           <graphic url="/images/PROPLA_06GF.gif"/>
         </figure></p>
       <p xml:id="PROPLA0072">
         <pb n="[130]"/>Modus quarti toni</p>
-      <p xml:id="PROPLA0073">[Prosdocimo, Plana, 130,1; text: Dixit dominus domino meo. sede a dextris
-        meis Magnificat anima mea dominum Benedictus dominus deus israel quia visitavit et fecit
-        redemptionem plebis sue Beatus vir qui non abiit in consilio impiorum et in via peccatorum
-        non stetit. et in cathedra pestilentie non sedit Seculorum amen] <figure>
+      <p xml:id="PROPLA0073">[Prosdocimo, Plana, 130,1; text: Dixit dominus domino meo. sede a
+        dextris meis Magnificat anima mea dominum Benedictus dominus deus israel quia visitavit et
+        fecit redemptionem plebis sue Beatus vir qui non abiit in consilio impiorum et in via
+        peccatorum non stetit. et in cathedra pestilentie non sedit Seculorum amen] <figure>
           <graphic url="/images/PROPLA_07GF.gif"/>
         </figure></p>
       <p xml:id="PROPLA0074">
@@ -934,40 +947,40 @@
         </figure></p>
       <p xml:id="PROPLA0075">
         <pb n="[134]"/>Modus quinti toni</p>
-      <p xml:id="PROPLA0076">[Prosdocimo, Plana, 134,1; text: Dixit dominus domino meo. sede a dextris
-        meis Magnificat anima mea dominum Beatus vir qui non abiit in consilio impiorum et in via
-        peccatorum non stetit. et in cathedra pestilentie non sedit Seculorum amen Quintus tonus sic
-        incipit et sic mediatur et sic finitur] <figure>
+      <p xml:id="PROPLA0076">[Prosdocimo, Plana, 134,1; text: Dixit dominus domino meo. sede a
+        dextris meis Magnificat anima mea dominum Beatus vir qui non abiit in consilio impiorum et
+        in via peccatorum non stetit. et in cathedra pestilentie non sedit Seculorum amen Quintus
+        tonus sic incipit et sic mediatur et sic finitur] <figure>
           <graphic url="/images/PROPLA_09GF.gif"/>
         </figure></p>
       <p xml:id="PROPLA0077">
         <pb n="[136]"/>Modus sexti toni</p>
-      <p xml:id="PROPLA0078">[Prosdocimo , Plana, 136,1; text: Dixit dominus domino meo. sede a dextris
-        meis Magnificat anima mea dominum Beatus vir qui non abiit in consilio impiorum et in via
-        peccatorum non stetit. et in cathedra pestilentie non sedit Seculorum amen Sextus tonus sic
-        incipit et sic mediatur et sic finitur] <figure>
+      <p xml:id="PROPLA0078">[Prosdocimo , Plana, 136,1; text: Dixit dominus domino meo. sede a
+        dextris meis Magnificat anima mea dominum Beatus vir qui non abiit in consilio impiorum et
+        in via peccatorum non stetit. et in cathedra pestilentie non sedit Seculorum amen Sextus
+        tonus sic incipit et sic mediatur et sic finitur] <figure>
           <graphic url="/images/PROPLA_10GF.gif"/>
         </figure></p>
       <p xml:id="PROPLA0079">
         <pb n="[138]"/>Modus septimi toni</p>
-      <p xml:id="PROPLA0080">[Prosdocimo, Plana, 138,1; text: Dixit dominus domino meo. sede a dextris
-        meis Magnificat anima mea dominum Beatus vir qui non abiit in consilio impiorum et in via
-        peccatorum non stetit. et in cathedra pestilentie non sedit Seculorum amen Septimus tonus
-        sic incipit et sic mediatur et sic finitur] <figure>
+      <p xml:id="PROPLA0080">[Prosdocimo, Plana, 138,1; text: Dixit dominus domino meo. sede a
+        dextris meis Magnificat anima mea dominum Beatus vir qui non abiit in consilio impiorum et
+        in via peccatorum non stetit. et in cathedra pestilentie non sedit Seculorum amen Septimus
+        tonus sic incipit et sic mediatur et sic finitur] <figure>
           <graphic url="/images/PROPLA_11GF.gif"/>
         </figure></p>
       <p xml:id="PROPLA0081">
         <pb n="[140]"/>Modus octavi toni</p>
-      <p xml:id="PROPLA0082">[Prosdocimo, Plana, 140,1; text: Dixit dominus domino meo. sede a dextris
-        meis Magnificat anima mea dominum Beatus vir qui non abiit in consilio impiorum et in via
-        peccatorum non stetit. et in cathedra pestilentie non sedit Seculorum amen Octavus tonus sic
-        incipit et sic mediatur et sic finitur] <figure>
+      <p xml:id="PROPLA0082">[Prosdocimo, Plana, 140,1; text: Dixit dominus domino meo. sede a
+        dextris meis Magnificat anima mea dominum Beatus vir qui non abiit in consilio impiorum et
+        in via peccatorum non stetit. et in cathedra pestilentie non sedit Seculorum amen Octavus
+        tonus sic incipit et sic mediatur et sic finitur] <figure>
           <graphic url="/images/PROPLA_12GF.gif"/>
         </figure></p>
       <p xml:id="PROPLA0083">
         <pb n="[142]"/>Alius modus novus octavi toni</p>
-      <p xml:id="PROPLA0084">[Prosdocimo, Plana, 142,1; text: In exitu de egipto domus iacob de populo
-        barbaro Seculorum amen Nova maneries sic incipit et sic mediatur et sic finitur] <figure>
+      <p xml:id="PROPLA0084">[Prosdocimo, Plana, 142,1; text: In exitu de egipto domus iacob de
+        populo barbaro Seculorum amen Nova maneries sic incipit et sic mediatur et sic finitur] <figure>
           <graphic url="/images/PROPLA_13GF.gif"/>
         </figure></p>
       <p xml:id="PROPLA0085">Propter hunc modum ultimum intonandi est sciendum quod hic ultimus
@@ -978,15 +991,16 @@
         ultimum ad aliquem octo modorum debere reduci quam propter ipsum solum nonum modum intonandi
         reperire, cum solum octo reperiantur toni, ut supradictum est; sed ad quem octo tonorum
         reduci habeat, dico, propter aliis non contradicere, quod ad octavum, licet magis sapiat
-        naturam quarti, ut michi videtur; unde dicunt multi qui ipsum tonum sub octavo reponunt <pb n="[144]"/>quod semel diabolus audiens duos monacos in coro existentes, atque inter se
+        naturam quarti, ut michi videtur; unde dicunt multi qui ipsum tonum sub octavo reponunt <pb
+          n="[144]"/>quod semel diabolus audiens duos monacos in coro existentes, atque inter se
         supra hanc ultimam maneriem litigantes sub quo scilicet octo modorum hanc ultimam maneriem
         reponere deberent, eos incepit deridere in hec verba sub predicta ultima manerie suaviter
         sic prorumpens:</p>
       <p xml:id="PROPLA0086">Duo monaci sunt in coro <lb/>litigantes, ut in foro, <br/>octavum tonum
         nescientes <lb/>ab aliis distinguere.</p>
       <p xml:id="PROPLA0087">Et propter hoc dicunt isti hunc modum reponi debere sub octavo.</p>
-      <p xml:id="PROPLA0088">Nunc sequuntur exempla modorum psalmos intonandi in diebus ferialibus atque
-        dominicis.</p>
+      <p xml:id="PROPLA0088">Nunc sequuntur exempla modorum psalmos intonandi in diebus ferialibus
+        atque dominicis.</p>
       <p xml:id="PROPLA0089">Modus primi toni</p>
       <p xml:id="PROPLA0090">[Prosdocimo, Plana, 144,1; text: Beatus vir qui non abiit in consilio
         impiorum et in via peccatorum non stetit. et in cathedra pestilentie non sedit Seculorum
@@ -1029,37 +1043,38 @@
         diversitates, que in exemplis superius positis descripte sunt, et hee diversitates, ut
         plurimum, in fine antiphanarum reperiuntur, que Seculorum amen nominantur, et docent nos hee
         diversitates qualiter psalmum immediate ante antiphanam pronuntiandum finire debeamus.</p>
-      <p xml:id="PROPLA0103">18. Item sciendum quod principia psalmos intonandi ultra exempla superius
-        posita per hos versus etiam habere possumus:</p>
-      <p xml:id="PROPLA0104">Primus, cum sexto, fa sol la semper habeto; <br/>Tercius et octavus, ut re
-        fa, sicque secundus; <lb/>La sol la, quartus; ut mi sol sit tibi quintus; <br/>Septimus, fa
-        mi fa sol; sic omnes esse recordor.</p>
+      <p xml:id="PROPLA0103">18. Item sciendum quod principia psalmos intonandi ultra exempla
+        superius posita per hos versus etiam habere possumus:</p>
+      <p xml:id="PROPLA0104">Primus, cum sexto, fa sol la semper habeto; <br/>Tercius et octavus, ut
+        re fa, sicque secundus; <lb/>La sol la, quartus; ut mi sol sit tibi quintus; <br/>Septimus,
+        fa mi fa sol; sic omnes esse recordor.</p>
       <p xml:id="PROPLA0105">
         <pb n="[154]"/>Item qualiter ipsi psalmi in ipsos intonando mediantur, etiam ultra exempla
         superius posita, per hos versus habere possumus:</p>
-      <p xml:id="PROPLA0106">Septimus et primus et sextus fa mi re mi sibi tenet; <lb/>Quintus, sol la
-        sol; fa sol fa dat octavus atque secundus; <br/>Tercius, sol fa mi re fa; quartus ut re mi
-        re sibi iungit.</p>
-      <p xml:id="PROPLA0107">Versus nanque huiusmodi de se clarissimi sunt, et ideo circa ipsos aliter
-        non insisto. Scias tamen quod psalmi taliter principiantur et mediantur solum in diebus
-        precipuis solempnibus sive duplicibus, ut per exempla visum est superius.</p>
+      <p xml:id="PROPLA0106">Septimus et primus et sextus fa mi re mi sibi tenet; <lb/>Quintus, sol
+        la sol; fa sol fa dat octavus atque secundus; <br/>Tercius, sol fa mi re fa; quartus ut re
+        mi re sibi iungit.</p>
+      <p xml:id="PROPLA0107">Versus nanque huiusmodi de se clarissimi sunt, et ideo circa ipsos
+        aliter non insisto. Scias tamen quod psalmi taliter principiantur et mediantur solum in
+        diebus precipuis solempnibus sive duplicibus, ut per exempla visum est superius.</p>
       <p xml:id="PROPLA0108">Modi autem intonandi versus introituum et responsorum a quibusdam poni
         solent, sed quia ipsi distincte per eorum figuras figurati immediate post introitus et
         responsa reperiuntur, ipsos propter brevitatem dimisi.</p>
-      <p xml:id="PROPLA0109">19. Istis ergo taliter ordinatis poterit quilibet boni ingenii prescripta
-        bene intelligens de se officium novum intonare. Si aliquod tale noviter intonandum sibi
-        fuerit presentatum, et si cum hoc exemplariter in aliis officiis inspexerit, nunquam ad
-        errorem pervenire poterit, neque de hoc aliquam admirationem sumere debes, cum et circa
-        alias scientias laborantes in suis operibus etiam alienis exemplis sepissime operentur, ut
-        verbi gratia in arte metrica operatores nanque huius artis in brevitatem vel longitudinem
-        alicuius sillabe cognoscendo, multotiens exemplo alterius operantur, ymo quod plus est
-        operari exemplariter est una de viis quibus metrorum compositores utuntur, in brevitatem vel
-        longitudinem sillabarum cognoscendo, et hoc quando carmina componere intendunt.</p>
+      <p xml:id="PROPLA0109">19. Istis ergo taliter ordinatis poterit quilibet boni ingenii
+        prescripta bene intelligens de se officium novum intonare. Si aliquod tale noviter
+        intonandum sibi fuerit presentatum, et si cum hoc exemplariter in aliis officiis inspexerit,
+        nunquam ad errorem pervenire poterit, neque de hoc aliquam admirationem sumere debes, cum et
+        circa alias scientias laborantes in suis operibus etiam alienis exemplis sepissime
+        operentur, ut verbi gratia in arte metrica operatores nanque huius artis in brevitatem vel
+        longitudinem alicuius sillabe cognoscendo, multotiens exemplo alterius operantur, ymo quod
+        plus est operari exemplariter est una de viis quibus metrorum compositores utuntur, in
+        brevitatem vel longitudinem sillabarum cognoscendo, et hoc quando carmina componere
+        intendunt.</p>
       <p xml:id="PROPLA0110">20. Sit ergo finis huius parvi operis plane musice per Prosdocimum de
         Beldemandis patavum, Montagnane, paduani districtus, anno 1412, taliter ordinati. Deo
         gratias. Amen.</p>
-      <p xml:id="PROPLA0111">21. Explicit tractatus plane musice a Prosdocimo de Beldemandis patavo in
-        castro Montagnane, paduani districtus, anno domini 1412, compilatus. Deo gratias.
-      Amen.</p></body>
+      <p xml:id="PROPLA0111">21. Explicit tractatus plane musice a Prosdocimo de Beldemandis patavo
+        in castro Montagnane, paduani districtus, anno domini 1412, compilatus. Deo gratias.
+        Amen.</p></body>
   </text>
 </TEI>

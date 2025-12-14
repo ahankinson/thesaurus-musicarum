@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De institutione arithmetica, liber primus</title>
         <title type="abbrev">BOEARI1</title>
-        <author>Boethius, Anicius Manlius Severinus</author>
-        <date notBefore="500" notAfter="799">6th-8th</date>
+        <author><persName>Boethius, Anicius Manlius Severinus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>James Rodgers</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2001</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2001">2001</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Boetii De institutione arithmetica libri duo</emph>, ed. Godofredus Friedlein
@@ -55,19 +65,20 @@
     <body>
       <p xml:id="BOEARI10001">
         <pb n="[3]"/>DOMINO SUO PATRICIO SYMMACHO BOETIUS.</p>
-      <p xml:id="BOEARI10002">In dandis accipiendisque muneribus ita recte officia inter eos praecipue,
-        qui sese magni faciunt, aestimantur, si liquido constabit, nec ab hoc aliud, quod liberalius
-        afferret, inventum, nec ab illo unquam, quod iucundius benevolentia conplecteretur,
-        acceptum. Haec ipse considerans attuli non ignava opum pondera, quibus ad facinus nihil
-        instructius, cum habendi sitis incanduit, ad meritum nihil vilius, cum ea sibi victor animus
-        calcata subiecit, sed ea, quae ex Graecarum opulentia litterarum in Romanae orationis
-        thesaurum sumpta conveximus. Ita enim mei quoque mihi operis ratio constabit, si, quae ex
-        sapientiae doctrinis elicui, sapientissimi iudicio conprobentur. Vides igitur, ut tam magni
-        laboris effectus tuum tantum spectet examen, nec in aures prodire publicas, nisi doctae
-        sententiae adstipulatione nitatur. In quo nihil mirum videri debet, cum id opus, quod
+      <p xml:id="BOEARI10002">In dandis accipiendisque muneribus ita recte officia inter eos
+        praecipue, qui sese magni faciunt, aestimantur, si liquido constabit, nec ab hoc aliud, quod
+        liberalius afferret, inventum, nec ab illo unquam, quod iucundius benevolentia
+        conplecteretur, acceptum. Haec ipse considerans attuli non ignava opum pondera, quibus ad
+        facinus nihil instructius, cum habendi sitis incanduit, ad meritum nihil vilius, cum ea sibi
+        victor animus calcata subiecit, sed ea, quae ex Graecarum opulentia litterarum in Romanae
+        orationis thesaurum sumpta conveximus. Ita enim mei quoque mihi operis ratio constabit, si,
+        quae ex sapientiae doctrinis elicui, sapientissimi iudicio conprobentur. Vides igitur, ut
+        tam magni laboris effectus tuum tantum spectet examen, nec in aures prodire publicas, nisi
+        doctae sententiae adstipulatione nitatur. In quo nihil mirum videri debet, cum id opus, quod
         sapientiae inventa persequitur, non auctoris sed alieno incumbit arbitrio; suis quippe
         instrumentis res rationis expenditur, cum iudicium cogitur subire prudentis. Sed huic
-        munusculo non eadem quae ceteris inminent artibus munimenta constituo, neque enim <pb n="[4]"/>fere ulla sic cunctis absoluta partibus nullius indiga suis tantum est scientia
+        munusculo non eadem quae ceteris inminent artibus munimenta constituo, neque enim <pb
+          n="[4]"/>fere ulla sic cunctis absoluta partibus nullius indiga suis tantum est scientia
         nixa praesidiis, ut non ceterarum quoque artium adiumenta desideret. Nam in effigiandis
         marmore statuis alius excidendae molis labor est, alia formandae imaginis ratio, nec eiusdem
         artificis manus politi operis nitor exspectat. At picturae manibus tabula commissa fabrorum:
@@ -79,9 +90,9 @@
         solus manum supremo operi inpones, in quo nihil de decernentium necesse est laborare
         consensu. Quamlibet enim hoc iudicium multis artibus probetur excultum, uno tamen cumulatur
         examine.</p>
-      <p xml:id="BOEARI10003">Experiare igitur licet, quantum nobis in hoc studio longis tractus otiis
-        labor adiecerit, an rerum subtilium fugas exercitatae mentis velocitas conprehendat, utrum
-        ieiunae macies orationis ad ea, quae sunt caligantibus inpedita sententiis expedienda
+      <p xml:id="BOEARI10003">Experiare igitur licet, quantum nobis in hoc studio longis tractus
+        otiis labor adiecerit, an rerum subtilium fugas exercitatae mentis velocitas conprehendat,
+        utrum ieiunae macies orationis ad ea, quae sunt caligantibus inpedita sententiis expedienda
         sufficiat. Qua in re mihi alieni quoque iudicii lucra quaeruntur, cum tu utrarumque
         peritissimus litterarum possis Graiae orationis expertibus quantum de nobis iudicare
         audeant, sola tantum pronuntiatione praescribere. At non alterius obnoxius institutis
@@ -115,9 +126,10 @@
       <p xml:id="BOEARI10012">VIII. Divisio paris numeri.</p>
       <p xml:id="BOEARI10013">VIIII. De numero pariter pari eiusque proprietatibus.</p>
       <p xml:id="BOEARI10014">X. De numero pariter inpari eiusque proprietatibus.</p>
-      <p xml:id="BOEARI10015">XI. De numero inpariter pari eiusque proprietatibus deque eius ad pariter
-        parem et pariter inparem cognatione.</p>
-      <p xml:id="BOEARI10016">XII. Descriptionis ad inpariter paris naturam pertinentis expositio.</p>
+      <p xml:id="BOEARI10015">XI. De numero inpariter pari eiusque proprietatibus deque eius ad
+        pariter parem et pariter inparem cognatione.</p>
+      <p xml:id="BOEARI10016">XII. Descriptionis ad inpariter paris naturam pertinentis
+        expositio.</p>
       <p xml:id="BOEARI10017">XIII. De numero inpari eiusque divisione.</p>
       <p xml:id="BOEARI10018">XIIII. De primo et incomposito.</p>
       <p xml:id="BOEARI10019">XV. De secundo et composito.</p>
@@ -125,22 +137,23 @@
         incompositus.</p>
       <p xml:id="BOEARI10021">XVII. De primi et incompositi et secundi et compositi et ad se quidem
         secundi et compositi ad alterum vero primi et incompositi procreatione.</p>
-      <p xml:id="BOEARI10022">XVIII. De inventione eorum numerorum, qui ad se secundi et compositi sunt,
-        ad alios vero relati primi et incompositi.</p>
-      <p xml:id="BOEARI10023">XVIIII. Alia partitio paris secundum perfectos inperfectos et ultra quam
-        perfectos.</p>
+      <p xml:id="BOEARI10022">XVIII. De inventione eorum numerorum, qui ad se secundi et compositi
+        sunt, ad alios vero relati primi et incompositi.</p>
+      <p xml:id="BOEARI10023">XVIIII. Alia partitio paris secundum perfectos inperfectos et ultra
+        quam perfectos.</p>
       <p xml:id="BOEARI10024">XX. De generatione numeri perfecti.</p>
       <p xml:id="BOEARI10025">XXI. De relata ad aliquid quantitate.</p>
       <p xml:id="BOEARI10026">
         <pb n="[7]"/>XXII. De speciebus maioris quantitatis et minoris.</p>
       <p xml:id="BOEARI10027">XXIII. De multiplici eiusque speciebus earumque generationibus.</p>
-      <p xml:id="BOEARI10028">XXIIII. De superparticulari eiusque speciebus earumque generationibus.</p>
+      <p xml:id="BOEARI10028">XXIIII. De superparticulari eiusque speciebus earumque
+        generationibus.</p>
       <p xml:id="BOEARI10029">XXV. De quodam utili ad cognitionem superparticularibus accidente.</p>
       <p xml:id="BOEARI10030">XXVI. Descriptio, per quam docetur, ceteris inaequalitatis speciebus
         antiquiorem esse multiplicitatem.</p>
       <p xml:id="BOEARI10031">XXVII. Ratio atque expositio digestae formulae.</p>
-      <p xml:id="BOEARI10032">XXVIII. De tertia inaequalitatis specie, quae dicitur superpartiens deque
-        eius speciebus earumque generationibus.</p>
+      <p xml:id="BOEARI10032">XXVIII. De tertia inaequalitatis specie, quae dicitur superpartiens
+        deque eius speciebus earumque generationibus.</p>
       <p xml:id="BOEARI10033">XXVIIII. De multiplici superparticulari.</p>
       <p xml:id="BOEARI10034">XXX. De eorum exemplis in superiori formula inveniendis.</p>
       <p xml:id="BOEARI10035">XXXI. De multiplici superpartiente.</p>
@@ -190,7 +203,8 @@
         pluralitate finitae terminum quantitatis et interminabilis magnitudinis sectione reiecta
         definita sibi ad cognitionem spatia depoposcit. Constat igitur, quisquis haec
         praetermiserit, omnem philosophiae perdidisse doctrinam. Hoc igitur illud quadruvium est,
-        quo his viandum sit, quibus excellentior animus a nobiscum procreatis sensibus <pb n="[10]"/>ad intellegentiae certiora perducitur. Sunt enim quidam gradus certaeque progressionum
+        quo his viandum sit, quibus excellentior animus a nobiscum procreatis sensibus <pb n="[10]"
+        />ad intellegentiae certiora perducitur. Sunt enim quidam gradus certaeque progressionum
         dimensiones, quibus ascendi progredique possit, ut animi illum oculum, qui, ut ait Plato,
         multis oculis corporalibus salvari constituique sit dignior, quod eo solo lumine vestigari
         vel inspici veritas queat, hunc inquam oculum demersum orbatumque corporeis sensibus hae
@@ -225,7 +239,8 @@
         praecedit, quanto duae reliquae disciplinae hanc tertiam natura praecedunt. In astronomia
         enim circuli, sphera, centrum, parallelique circuli mediusque axis est, quae omnia
         geometricae disciplinae curae sunt. Quare est etiam ex hoc ostendere seniorem geometriae
-        vim, quod omnis motus est post quietem et natura semper statio prior est, mobilium vero <pb n="[12]"/>astronomia, inmobilium geometria doctrina est; vel quod armonicis modulationibus
+        vim, quod omnis motus est post quietem et natura semper statio prior est, mobilium vero <pb
+          n="[12]"/>astronomia, inmobilium geometria doctrina est; vel quod armonicis modulationibus
         motus ipse celebratur astrorum. Quare constat quoque musicae vim astrorum cursus antiquitate
         praecedere, quam superare natura arithmeticam dubium non est, cum prioribus, quam illa est,
         videatur antiquior. Proprie tamen ipsa numerorum natura omnis astrorum cursus omnisque
@@ -234,21 +249,22 @@
         agnoscimus. Quare, quoniam prior, ut claruit, arithmeticae vis est, hinc disputationis
         sumamus exordium.</p>
       <p xml:id="BOEARI10041">De substantia numeri.</p>
-      <p xml:id="BOEARI10042">II. Omnia quaecunque a primaeva rerum natura constructa sunt, numerorum
-        videntur ratione formata. Hoc enim fuit principale in animo conditoris exemplar. Hinc enim
-        quattuor elementorum multitudo mutuata est, hinc temporum vices, hinc motus astrorum
-        caelique conversio. Quae cum ita sint, cumque omnium status numerorum colligatione fungatur,
-        eum quoque numerum necesse est in propria semper sese habentem aequaliter substantia
-        permanere, eumque compositum non ex diversis -- quid enim numeri substantiam coniungeret,
-        cum ipsius exemplum cuncta iunxisset? -- sed ex se ipso videtur esse compositus. Porro autem
-        nihil ex similibus componi videtur, nec ex his, quae nulla rationis proportione iunguntur et
-        a se omni substantia naturaque discreta sunt. Constat ergo, quoniam coniunctus est numerus,
-        neque ex similibus esse coniunctum neque ex his, quae ad se invicem nulla ratione
-        proportionis <pb n="[13]"/>haerent. Erunt ergo, numeros prima quae iungant, ad substantiam
-        quidem quae constent semperque permaneant. Neque enim ex non subsistentibus effici quicquam
-        potest et sunt ipsa dissimilia et potentia conponendi. Haec autem sunt, quibus numerus
-        constat, par atque inpar quae divina quadam potentia, cum disparia sint contrariaque, ex una
-        tamen genitura profluunt, et in unam compositionem modulationemque iunguntur.</p>
+      <p xml:id="BOEARI10042">II. Omnia quaecunque a primaeva rerum natura constructa sunt,
+        numerorum videntur ratione formata. Hoc enim fuit principale in animo conditoris exemplar.
+        Hinc enim quattuor elementorum multitudo mutuata est, hinc temporum vices, hinc motus
+        astrorum caelique conversio. Quae cum ita sint, cumque omnium status numerorum colligatione
+        fungatur, eum quoque numerum necesse est in propria semper sese habentem aequaliter
+        substantia permanere, eumque compositum non ex diversis -- quid enim numeri substantiam
+        coniungeret, cum ipsius exemplum cuncta iunxisset? -- sed ex se ipso videtur esse
+        compositus. Porro autem nihil ex similibus componi videtur, nec ex his, quae nulla rationis
+        proportione iunguntur et a se omni substantia naturaque discreta sunt. Constat ergo, quoniam
+        coniunctus est numerus, neque ex similibus esse coniunctum neque ex his, quae ad se invicem
+        nulla ratione proportionis <pb n="[13]"/>haerent. Erunt ergo, numeros prima quae iungant, ad
+        substantiam quidem quae constent semperque permaneant. Neque enim ex non subsistentibus
+        effici quicquam potest et sunt ipsa dissimilia et potentia conponendi. Haec autem sunt,
+        quibus numerus constat, par atque inpar quae divina quadam potentia, cum disparia sint
+        contrariaque, ex una tamen genitura profluunt, et in unam compositionem modulationemque
+        iunguntur.</p>
       <p xml:id="BOEARI10043">Definitio et divisio numeri et definitio paris et inparis.</p>
       <p xml:id="BOEARI10044">III. Et primum quid sit numerus definiendum est. Numerus est unitatum
         collectio, vel quantitatis acervus ex unitatibus profusus. Huius igitur prima divisio est in
@@ -256,10 +272,11 @@
         intercedente, inpar vero, quem nullus in aequalia dividit eo, quod in medio praedictus unus
         intercedat. Et haec quidem huiusmodi definitio vulgaris et nota est.</p>
       <p xml:id="BOEARI10045">Definitio numeri paris et inparis secundum Pythagoram.</p>
-      <p xml:id="BOEARI10046">IIII. Illa autem secundum pythagoricam disciplinam talis est: par numerus
-        est, qui sub eadem divisione potest in maxima parvissimaque dividi, maxima spatio,
+      <p xml:id="BOEARI10046">IIII. Illa autem secundum pythagoricam disciplinam talis est: par
+        numerus est, qui sub eadem divisione potest in maxima parvissimaque dividi, maxima spatio,
         parvissima quantitate secundum duorum istorum generum contrarias passiones. Inpar vero
-        numerus est, cui hoc quidem accidere non potest, sed cuius in duas inaequales <pb n="[14]"/>summas naturalis est sectio. Hoc est autem exemplar: ut si quilibet datus par numerus
+        numerus est, cui hoc quidem accidere non potest, sed cuius in duas inaequales <pb n="[14]"
+        />summas naturalis est sectio. Hoc est autem exemplar: ut si quilibet datus par numerus
         dividatur, maior quidem quantum ad divisionis spatia non invenietur, quam disgregata
         medietas, quantitate vero nulla minor est, quam in gemina facta partitio; ut, si par
         numerus, qui est .VIII., dividatur in .IIII. atque alios .IIII., nulla erit alia divisio,
@@ -271,25 +288,27 @@
         magnitudines in infinitissimas minui parvitates atque ideo hic contra evenit. Haec namque
         paris divisio spatio est maxima, parvissima quantitate.</p>
       <p xml:id="BOEARI10047">Alia secundum antiquiorem modum divisio paris et inparis.</p>
-      <p xml:id="BOEARI10048">V. Secundum antiquiorem vero modum alia est paris numeri definitio. Par
-        numerus est, qui in duo aequalia et in duo inaequalia partitionem recipit, sed ut in neutra
-        divisione vel inparitati paritas vel paritati inparitas misceatur, praeter solum paritatis
-        principem, binarium numerum, qui in aequalem non recipit sectionem, propterea quod ex duabus
-        unitatibus constat et ex prima duorum quodammodo paritate. Quod autem dico, tale est: si
-        enim ponatur par numerus, potest in duo aequalia dividi, ut denarius dividitur in quinos,
-        porro autem et per inaequalia, ut idem denarius in .III. et .VII., sed hoc modo, ut cum <pb n="[15]"/>una pars fuerit divisionis par, alia quoque par inveniatur, et si una inpar,
-        reliqua ab eius inparitate non discrepet, ut in eodem numero, qui est denarius. Cum enim
-        divisus est in quinos, vel cum in tres septem, utraeque in utraque portione partes inpares
-        extiterunt. Si autem ipse, vel alius numerus par, dividatur in aequales, ut octonarius in
-        .IIII. et .IIII., et item per inaequales, ut idem octonarius in .V. et .III., in illa quidem
-        divisione utraeque partes pares factae sunt, in hac utraeque inpares extiterunt; neque
-        unquam fieri potest, ut, cum una pars divisionis par fuerit, alia inpar inveniri queat, aut,
-        cum una inpar sit, alia par possit intellegi. Inpar vero numerus est, qui ad quamlibet illam
-        divisionem per inaequalia semper dividitur, ut utrasque species numeri semper ostendat, nec
-        unquam altera sine altera sit, sed una pars paritati, inparitati alia deputetur, ut, .VII.
-        si dividas in .III. atque .IIII., altera portio par altera inpar est. Et hoc idem in cunctis
-        inparibus numeris invenitur, neque unquam in inparis divisione praeter se esse possunt. Hae
-        geminae species, quae naturaliter vim numeri substantiamque componunt.</p>
+      <p xml:id="BOEARI10048">V. Secundum antiquiorem vero modum alia est paris numeri definitio.
+        Par numerus est, qui in duo aequalia et in duo inaequalia partitionem recipit, sed ut in
+        neutra divisione vel inparitati paritas vel paritati inparitas misceatur, praeter solum
+        paritatis principem, binarium numerum, qui in aequalem non recipit sectionem, propterea quod
+        ex duabus unitatibus constat et ex prima duorum quodammodo paritate. Quod autem dico, tale
+        est: si enim ponatur par numerus, potest in duo aequalia dividi, ut denarius dividitur in
+        quinos, porro autem et per inaequalia, ut idem denarius in .III. et .VII., sed hoc modo, ut
+        cum <pb n="[15]"/>una pars fuerit divisionis par, alia quoque par inveniatur, et si una
+        inpar, reliqua ab eius inparitate non discrepet, ut in eodem numero, qui est denarius. Cum
+        enim divisus est in quinos, vel cum in tres septem, utraeque in utraque portione partes
+        inpares extiterunt. Si autem ipse, vel alius numerus par, dividatur in aequales, ut
+        octonarius in .IIII. et .IIII., et item per inaequales, ut idem octonarius in .V. et .III.,
+        in illa quidem divisione utraeque partes pares factae sunt, in hac utraeque inpares
+        extiterunt; neque unquam fieri potest, ut, cum una pars divisionis par fuerit, alia inpar
+        inveniri queat, aut, cum una inpar sit, alia par possit intellegi. Inpar vero numerus est,
+        qui ad quamlibet illam divisionem per inaequalia semper dividitur, ut utrasque species
+        numeri semper ostendat, nec unquam altera sine altera sit, sed una pars paritati, inparitati
+        alia deputetur, ut, .VII. si dividas in .III. atque .IIII., altera portio par altera inpar
+        est. Et hoc idem in cunctis inparibus numeris invenitur, neque unquam in inparis divisione
+        praeter se esse possunt. Hae geminae species, quae naturaliter vim numeri substantiamque
+        componunt.</p>
       <p xml:id="BOEARI10049">Definitio paris et inparis per alterutrum.</p>
       <p xml:id="BOEARI10050">VI. Quod si haec etiam per alterutras species definienda sunt, dicetur
         inparem numerum esse, qui unitate differt a pari vel cremento vel deminutione. Par item
@@ -321,28 +340,28 @@
         obtinentia summitatum videntur esse pariter par et pariter inpar. Medietas autem quaedam,
         quae utrorumque participat, est numerus, qui vocatur inpariter par.</p>
       <p xml:id="BOEARI10055">De numero pariter pari eiusque proprietatibus.</p>
-      <p xml:id="BOEARI10056">VIIII. Pariter par numerus est, qui potest in duo paria dividi, eiusque
-        pars in alia duo paria partisque pars in alia duo paria, ut hoc totiens fiat, usquedum
-        divisio partium ad indivisibilem naturaliter perveniat unitatem. Ut .LXIIII. numerus habet
-        medietatem .XXXII., hic autem medietatem .XVI., hic vero .VIII. Hunc quoque quaternarius in
-        aequa partitur, qui binarii duplus est; sed binarius unitatis medietate dividitur, quae
-        unitas naturaliter singularis non recipit sectionem. Huic numero videtur accidere, ut
-        quaecunque eius fuerit pars, cum nomine ipso vocabuloque pariter par inveniatur; tum etiam
-        quantitate. Sed ideo mihi videtur hic numerus pariter par vocatus, <pb n="[18]"/>quod eius
-        omnes partes et nomine et quantitate pares pariter inveniantur. Quomodo autem et nomine et
-        quantitate pares habeat partes hic numerus, post dicemus. Horum autem generatio talis est:
-        ab uno enim quoscunque in duplici proportione notaveris, semper pares pariter procreantur.
-        Praeter hanc autem generationem ut nascantur aliter inpossibile est. Huius autem rei tale
-        detur per ordinem descriptionis exemplum sintque cuncti duplices ab uno I. II. IIII. VIII.
-        XVI. XXXII. LXIIII, CXXVIII. CCLVI. DXII. atque hinc si fiat infinita progressio, tales
-        cunctos invenies, factique sunt ab uno in duplici proportione, et omnes sunt pariter pares.
-        Illud autem non minima consideratione dignum est, quod eius omnis pars ab una parte
-        quacunque, quae intra ipsum numerum est, denominatur tantamque summam quantitatis includit,
-        quota pars est alter numerus pariter paris illius, qui eum continet, quantitatis. Itaque
-        fit, ut sibi partes ipsae respondeant, ut quota pars una est, tantam habeat altera
-        quantitatem, et quota pars ista est, tantum in priore summa necesse sit multitudinis
-        inveniri. Et primum fit, si pares fuerint dispositiones, ut duae mediae partes sibi
-        respondeant, post vero quae super ipsas sunt, sibi invicem convertantur, atque hoc idem
+      <p xml:id="BOEARI10056">VIIII. Pariter par numerus est, qui potest in duo paria dividi,
+        eiusque pars in alia duo paria partisque pars in alia duo paria, ut hoc totiens fiat,
+        usquedum divisio partium ad indivisibilem naturaliter perveniat unitatem. Ut .LXIIII.
+        numerus habet medietatem .XXXII., hic autem medietatem .XVI., hic vero .VIII. Hunc quoque
+        quaternarius in aequa partitur, qui binarii duplus est; sed binarius unitatis medietate
+        dividitur, quae unitas naturaliter singularis non recipit sectionem. Huic numero videtur
+        accidere, ut quaecunque eius fuerit pars, cum nomine ipso vocabuloque pariter par
+        inveniatur; tum etiam quantitate. Sed ideo mihi videtur hic numerus pariter par vocatus, <pb
+          n="[18]"/>quod eius omnes partes et nomine et quantitate pares pariter inveniantur.
+        Quomodo autem et nomine et quantitate pares habeat partes hic numerus, post dicemus. Horum
+        autem generatio talis est: ab uno enim quoscunque in duplici proportione notaveris, semper
+        pares pariter procreantur. Praeter hanc autem generationem ut nascantur aliter inpossibile
+        est. Huius autem rei tale detur per ordinem descriptionis exemplum sintque cuncti duplices
+        ab uno I. II. IIII. VIII. XVI. XXXII. LXIIII, CXXVIII. CCLVI. DXII. atque hinc si fiat
+        infinita progressio, tales cunctos invenies, factique sunt ab uno in duplici proportione, et
+        omnes sunt pariter pares. Illud autem non minima consideratione dignum est, quod eius omnis
+        pars ab una parte quacunque, quae intra ipsum numerum est, denominatur tantamque summam
+        quantitatis includit, quota pars est alter numerus pariter paris illius, qui eum continet,
+        quantitatis. Itaque fit, ut sibi partes ipsae respondeant, ut quota pars una est, tantam
+        habeat altera quantitatem, et quota pars ista est, tantum in priore summa necesse sit
+        multitudinis inveniri. Et primum fit, si pares fuerint dispositiones, ut duae mediae partes
+        sibi respondeant, post vero quae super ipsas sunt, sibi invicem convertantur, atque hoc idem
         fiat, donec uterque terminus extremitatis incurrat. Ponatur enim pariter paris ordo ab uno
         usque .CXXVIII. hoc modo: I. II. IIII. VIII. XVI. XXXII. LXIIII. CXXVIII. et ea sit summa
         maxima. <pb n="[19]"/>In hoc igitur, quoniam pares dispositiones sunt, una medietas non
@@ -389,17 +408,17 @@
         hoc usque ad extremos terminos cadit, id est .I. et .CXXVIII. Semel enim extremus terminus
         .CXXVIII. est; centies vicies atque octies unitate multiplicata nihil de priore quantitate
         mutabitur.</p>
-      <p xml:id="BOEARI10060">Si autem inpares fuerint dispositiones, unus medius terminus invenitur,
-        atque ipse sibi propria multiplicatione respondet. In eo namque ordine numerorum, ubi
-        extremus terminus .LXIIII. pluralitate concluditur, sola invenitur una medietas, id est
+      <p xml:id="BOEARI10060">Si autem inpares fuerint dispositiones, unus medius terminus
+        invenitur, atque ipse sibi propria multiplicatione respondet. In eo namque ordine numerorum,
+        ubi extremus terminus .LXIIII. pluralitate concluditur, sola invenitur una medietas, id est
         .VIII., quam si octies id est in semet ipsum multiplices .LXIIII. explicabit, atque idem
         reddent illi, qui super hanc medietatem sunt, ut dudum hi, qui super duas positi, faciebant.
         Nam quater .XVI. .LXIIII. sunt et sedecies .IIII. idem conplent. Rursus bis .XXXII. facti a
         .LXIIII. non discedunt, et tricies bis .II. eosdem cumulant, et semel .LXIIII. vel unitas
         sexagies quater multiplicata eundem numerum sine ulla varietate restituent.</p>
       <p xml:id="BOEARI10061">De numero pariter inpari eiusque proprietatibus.</p>
-      <p xml:id="BOEARI10062">X. Pariter autem inpar numerus est, qui et ipse quidem paritatis naturam
-        substantiamque sortitus est, sed in contraria divisione naturae numeri pariter paris
+      <p xml:id="BOEARI10062">X. Pariter autem inpar numerus est, qui et ipse quidem paritatis
+        naturam substantiamque sortitus est, sed in contraria divisione naturae numeri pariter paris
         obponitur. <pb n="[22]"/>Docebitur namque, quam longe hic dissimili ratione dividatur. Nam
         quoniam par est, in partes aequales recipit sectionem, partes vero eius mox indivisibiles
         atque insecabiles permanebunt, ut sunt .VI. X. XIIII. XVIII. XXII. et his similes. Mox enim
@@ -421,11 +440,10 @@
         est .III. et post hunc, qui rursus a superiore <pb n="[23]"/>duobus, id est .V., et hoc in
         infinitum et sit huius modi dispositio</p>
       <p class="textFig" xml:id="BOEARI10064">
-        <lb/>I. III. V. VII. VIIII. XI. XIII. XV. XVII. XVIIII.
-        <br/></p>
-      <p xml:id="BOEARI10065">Hi ergo naturaliter se sequentes inpares sunt, quos nullus in medio par
-        numerus distinguit. Hos si per binarium numerum multiplices, efficies hoc modo: bis .I. id
-        est .II., qui dividitur quidem, sed eius partes indivisibiles repperiuntur propter
+        <lb/>I. III. V. VII. VIIII. XI. XIII. XV. XVII. XVIIII. <br/></p>
+      <p xml:id="BOEARI10065">Hi ergo naturaliter se sequentes inpares sunt, quos nullus in medio
+        par numerus distinguit. Hos si per binarium numerum multiplices, efficies hoc modo: bis .I.
+        id est .II., qui dividitur quidem, sed eius partes indivisibiles repperiuntur propter
         insecabilis unitatis naturam; bis .III., bis .V., bis .VII., bis .VIIII., bis .XI. et
         deinceps, ex quibus nascuntur hi: II. VI. X. XIIII. XVIII. XXII., quos si dividas, unam
         recipient sectionem ceteram repudiantes, quod secunda divisio ab inparis medietate partis
@@ -439,7 +457,8 @@
         multiplicati quaternariam faciunt summam. Igitur in naturalis numeri dispositione pariter
         inpares numeri quinto loco a se distant, solis .IIII. se praecedunt, .III. in medio
         transeuntes, per binarium numerum multiplicatis inparibus procreati. Contrariae vero esse
-        dicuntur hae species numerorum, id est pariter par et pariter inpar, quod in <pb n="[24]"/>numero pariter inpari sola divisionem recipit maior extremitas, in illo vero solus minor
+        dicuntur hae species numerorum, id est pariter par et pariter inpar, quod in <pb n="[24]"
+        />numero pariter inpari sola divisionem recipit maior extremitas, in illo vero solus minor
         terminus sectione solutus est, et quod in forma pariter paris numeri ab extremitatibus
         incipienti et usque ad media progredienti, quod continetur sub extremis terminis, idem est
         illi, quod continetur sub intra se positis summulis atque hoc idem usquedum ad duas
@@ -484,14 +503,14 @@
         non discrepant. Contrarie vero denominantur, ut tertia pars .VIII., octava vero .III.
         Vicesima autem quarta .I. quae denominationes cum pares sint, inveniuntur inpares
         quantitates, et cum sint pares summae, sunt inpares denominationes.</p>
-      <p xml:id="BOEARI10069">Nascuntur autem tales numeri ita, ut substantiam naturamque suam in ipsa
-        etiam propria generatione designent ex pariter paribus et pariter inparibus procreari.
+      <p xml:id="BOEARI10069">Nascuntur autem tales numeri ita, ut substantiam naturamque suam in
+        ipsa etiam propria generatione designent ex pariter paribus et pariter inparibus procreari.
         Pariter enim inpares cuncti dudum ordinatim positis inparibus nascebantur, pariter vero
         pares ex duplici progressione. Disponantur igitur omnes in ordinem naturaliter inpares a
         tribus et sub his a quattuor inchoantes omnes duplices et sint hoc modo:</p>
       <p class="textFig" xml:id="BOEARI10070">
-        <lb/>III.  V.    VII. VIIII. XI.     XIII.
-        <br/>IIII. VIII. XVI. XXXII. LXIIII. CXXVIII. <lb/></p>
+        <lb/>III.  V.    VII. VIIII. XI.     XIII. <br/>IIII. VIII. XVI. XXXII. LXIIII. CXXVIII.
+        <lb/></p>
       <p xml:id="BOEARI10071">
         <pb n="[27]"/>His igitur ita positis si primus primi multiplicatione concrescat, id est si
         quaternarii ternarius, vel si idem primus secundi, id est octonarii ternarius, vel si idem
@@ -519,13 +538,12 @@
         secundo loco sunt constituti, post vero, quos septenarius ceteros multiplicando procreavit,
         eosdem tertio conscripsimus loco, atque idem in reliqua descriptionis parte perfecimus.</p>
       <p class="textFig" xml:id="BOEARI10073">
-        <br/>III.  V.    VII. VIIII.
-        <lb/>IIII. VIII. XVI. XXXII. <br/></p>
+        <br/>III.  V.    VII. VIIII. <lb/>IIII. VIII. XVI. XXXII. <br/></p>
       <p xml:id="BOEARI10074">(Vide descriptionem in tabula seorsum addita.)</p>
-      <p xml:id="BOEARI10075">[Boethius, Arithmetica, inter 28-29; text: Longitudo. Latitudo. medius.
-        I.CLII. DLXXVI. II.CCCIIII. III.CC. I.DC. VI.CCCC. LXXX. XII. XXIIII. XLVIII. XCVI. CLX. XL.
-        XX. CXCII. CCCXX. CCCLXXXIIII. LVI. XXVIII. CXII. CCXXIIII. CCCCXLVIII. XXXVI. LXXII.
-        CXLIIII. CCLXXXVIII. III.CXXXVI. XII.DXLIIII, VI.CCLXXII. V.CLXXXIIII. XX.DCCXXXVI,
+      <p xml:id="BOEARI10075">[Boethius, Arithmetica, inter 28-29; text: Longitudo. Latitudo.
+        medius. I.CLII. DLXXVI. II.CCCIIII. III.CC. I.DC. VI.CCCC. LXXX. XII. XXIIII. XLVIII. XCVI.
+        CLX. XL. XX. CXCII. CCCXX. CCCLXXXIIII. LVI. XXVIII. CXII. CCXXIIII. CCCCXLVIII. XXXVI.
+        LXXII. CXLIIII. CCLXXXVIII. III.CXXXVI. XII.DXLIIII, VI.CCLXXII. V.CLXXXIIII. XX.DCCXXXVI,
         X.CCCLXVII.] <figure>
           <graphic url="/images/BOEARI1_01GF.gif"/>
         </figure></p>
@@ -563,43 +581,43 @@
         cognatione aliquid naturaliter trahit, qui est per se quidem secundus et compositus, sed ad
         alios comparatus primus et incompositus invenitur.</p>
       <p xml:id="BOEARI10081">De primo et incomposito.</p>
-      <p xml:id="BOEARI10082">XIIII. Et primus quidem et incompositus est, qui nullam aliam partem habet
-        nisi eam, quae a tota numeri quantitate denominata sit, ut ipsa pars non sit nisi unitas, ut
-        sunt III. V. VII. XI. XIII. XVII. XVIIII. XXIII. XXVIIII. XXXI. In his ergo singulis nulla
-        unquam alia pars invenietur, nisi quae ab ipsis denominata est, et ipsa tantum unitas, ut
-        supra iam dictum est. In tribus enim una pars sola est, id est tertia, quae a tribus
-        scilicet denominata est, et ipsa tertia pars unitas; eodemque modo quinarii sola quinta pars
-        est et haec unitas, atque idem in singulis consequens repperietur. Dicitur autem primus et
-        incompositus, quod nullus eum alter numerus metiatur praeter solam, quae cunctis mater est,
-        unitatem. Namque ternarium <pb n="[31]"/>.II. non numerant, idcirco, quoniam si solos duos
-        contra .III. compares, pauciores sunt, sin vero binarium bis facias, amplior est tribus, cum
-        crescit in .IIII. Metitur autem numerus numerum, quotiens vel semel vel bis vel tertio vel
-        quotienslibet numerus ad numerum comparatus neque deminuta summa neque aucta ad comparati
-        numeri terminum usque pervenerit, ut .II. si ad .VI. compares, binarius numerus senarium
-        tertio metietur. Primos ergo et incompositos nullus numerus metietur praeter unitatem solam,
-        quoniam ex nullis aliis numeris compositi sunt, sed tantum ex unitatibus in semet ipsis
-        auctis multiplicatisque procreantur. Ter enim unus .III. et quinquies unus .V. et septies
-        unus .VII. fecerunt, et alii quidem, quos supra descripsimus, eodem modo nascuntur. Hi autem
-        in semet ipsos multiplicati faciunt alios numeros velut primi, eosque primam rerum
-        substantiam vimque sortitos cunctorum a se procreatorum velut quaedam elementa repperies,
-        quia scilicet incompositi sunt et simplici generatione formati atque in eos omnes, quicunque
-        ex his prolati sunt numeri, resolvuntur, ipsi vero neque ex aliis producuntur neque in alios
-        reducuntur.</p>
+      <p xml:id="BOEARI10082">XIIII. Et primus quidem et incompositus est, qui nullam aliam partem
+        habet nisi eam, quae a tota numeri quantitate denominata sit, ut ipsa pars non sit nisi
+        unitas, ut sunt III. V. VII. XI. XIII. XVII. XVIIII. XXIII. XXVIIII. XXXI. In his ergo
+        singulis nulla unquam alia pars invenietur, nisi quae ab ipsis denominata est, et ipsa
+        tantum unitas, ut supra iam dictum est. In tribus enim una pars sola est, id est tertia,
+        quae a tribus scilicet denominata est, et ipsa tertia pars unitas; eodemque modo quinarii
+        sola quinta pars est et haec unitas, atque idem in singulis consequens repperietur. Dicitur
+        autem primus et incompositus, quod nullus eum alter numerus metiatur praeter solam, quae
+        cunctis mater est, unitatem. Namque ternarium <pb n="[31]"/>.II. non numerant, idcirco,
+        quoniam si solos duos contra .III. compares, pauciores sunt, sin vero binarium bis facias,
+        amplior est tribus, cum crescit in .IIII. Metitur autem numerus numerum, quotiens vel semel
+        vel bis vel tertio vel quotienslibet numerus ad numerum comparatus neque deminuta summa
+        neque aucta ad comparati numeri terminum usque pervenerit, ut .II. si ad .VI. compares,
+        binarius numerus senarium tertio metietur. Primos ergo et incompositos nullus numerus
+        metietur praeter unitatem solam, quoniam ex nullis aliis numeris compositi sunt, sed tantum
+        ex unitatibus in semet ipsis auctis multiplicatisque procreantur. Ter enim unus .III. et
+        quinquies unus .V. et septies unus .VII. fecerunt, et alii quidem, quos supra descripsimus,
+        eodem modo nascuntur. Hi autem in semet ipsos multiplicati faciunt alios numeros velut
+        primi, eosque primam rerum substantiam vimque sortitos cunctorum a se procreatorum velut
+        quaedam elementa repperies, quia scilicet incompositi sunt et simplici generatione formati
+        atque in eos omnes, quicunque ex his prolati sunt numeri, resolvuntur, ipsi vero neque ex
+        aliis producuntur neque in alios reducuntur.</p>
       <p xml:id="BOEARI10083">De secundo et composito.</p>
-      <p xml:id="BOEARI10084">XV. Secundus vero et compositus et ipse quidem inpar est, propterea quod
-        eadem inparis proprietate formatus est, sed nullam in se retinet substantiam principalem
-        compositusque est ex aliis numeris habetque partes et a se ipso et ab alieno vocabulo
-        denominatas; sed a se ipso denominatam partem solam semper in his repperies unitatem, ab
-        alieno vero vocabulo vel unam vel quotlibet <pb n="[32]"/>alias, quanti fuerint scilicet
-        numeri quibus ille compositis procreatur, ut sunt hi: VIIII. XV. XXI. XXV. XXVII. XXXIII.
-        XXXVIIII. Horum ergo singuli habent quidem a se denominatas partes proprias, scilicet
-        unitates, ut .VIIII. nonam, id est unum, .XV. quintam decimam eandem rursus unitatem et in
-        ceteris, quos supra descripsimus, idem convenit.</p>
+      <p xml:id="BOEARI10084">XV. Secundus vero et compositus et ipse quidem inpar est, propterea
+        quod eadem inparis proprietate formatus est, sed nullam in se retinet substantiam
+        principalem compositusque est ex aliis numeris habetque partes et a se ipso et ab alieno
+        vocabulo denominatas; sed a se ipso denominatam partem solam semper in his repperies
+        unitatem, ab alieno vero vocabulo vel unam vel quotlibet <pb n="[32]"/>alias, quanti fuerint
+        scilicet numeri quibus ille compositis procreatur, ut sunt hi: VIIII. XV. XXI. XXV. XXVII.
+        XXXIII. XXXVIIII. Horum ergo singuli habent quidem a se denominatas partes proprias,
+        scilicet unitates, ut .VIIII. nonam, id est unum, .XV. quintam decimam eandem rursus
+        unitatem et in ceteris, quos supra descripsimus, idem convenit.</p>
       <p xml:id="BOEARI10085">Habent etiam ab alieno vocabulo partem, ut .VIIII. tertiam, id est
         ternarium, et .XV. tertiam, id est quinque, et quintam, id est tres; .XXI. vero tertiam
         .VII., septimam .III.; et in omnibus aliis eadem consequentia est.</p>
-      <p xml:id="BOEARI10086">Secundus autem vocatur hic numerus, quoniam non sola unitate metitur sed
-        etiam alio numero, a quo scilicet coniunctus est, neque habet quicquam in se principalis
+      <p xml:id="BOEARI10086">Secundus autem vocatur hic numerus, quoniam non sola unitate metitur
+        sed etiam alio numero, a quo scilicet coniunctus est, neque habet quicquam in se principalis
         intellegentiae. Nam ex aliis numeris procreatur. .VIIII. quidem ex tribus, .XV. vero ex
         tribus et .V., at .XXI. ex tribus et .VII. et ceteri eodem modo. Compositus autem dicitur
         eo, quod resolvi potest in eosdem ipsos, a quibus dicitur esse compositus, in eos scilicet,
@@ -607,19 +625,19 @@
         omni rerum necessitate compositum.</p>
       <p xml:id="BOEARI10087">De eo, qui per se secundus et compositus est, ad alium primus et
         incompositus.</p>
-      <p xml:id="BOEARI10088">XVI. His vero contra se positis, id est primo et incomposito et secundo et
-        composito, et naturali diversitate disiunctis alius in medio consideratur, qui ipse quidem
-          <pb n="[33]"/>compositus sit et secundus et alterius recipiens mensionem atque ideo et
-        partis alieni vocabuli capax, sed cum fuerit ad alium eiusdem generis numerum comparatus,
-        nulla cum eo communi mensura coniungitur; nec habebunt partes aequivocas; ut sunt .VIIII. ad
-        .XXV. Nulla hos communis numerorum mensura metitur, nisi forte unitas, quae omnium numerorum
-        mensura communis est. Et hi quidem non habent aequivocas partes. Nam quae in .VIIII. tertia
-        est, in .XXV. non est, et quae in .XXV. quinta est, in novenario non est. Ergo hi per
-        naturam utrique secundi et compositi sunt, comparati vero ad se invicem primi incompositique
-        redduntur, quod utrosque nulla alia mensura metitur, nisi unitas, quae ab utrisque
-        denominata est; nam in novenario nona est, in .XXV. vicesima quinta.</p>
-      <p xml:id="BOEARI10089">De primi et incompositi et secundi et compositi et ad se quidem secundi et
-        compositi, ad alterum vero primi et incompositi procreatione.</p>
+      <p xml:id="BOEARI10088">XVI. His vero contra se positis, id est primo et incomposito et
+        secundo et composito, et naturali diversitate disiunctis alius in medio consideratur, qui
+        ipse quidem <pb n="[33]"/>compositus sit et secundus et alterius recipiens mensionem atque
+        ideo et partis alieni vocabuli capax, sed cum fuerit ad alium eiusdem generis numerum
+        comparatus, nulla cum eo communi mensura coniungitur; nec habebunt partes aequivocas; ut
+        sunt .VIIII. ad .XXV. Nulla hos communis numerorum mensura metitur, nisi forte unitas, quae
+        omnium numerorum mensura communis est. Et hi quidem non habent aequivocas partes. Nam quae
+        in .VIIII. tertia est, in .XXV. non est, et quae in .XXV. quinta est, in novenario non est.
+        Ergo hi per naturam utrique secundi et compositi sunt, comparati vero ad se invicem primi
+        incompositique redduntur, quod utrosque nulla alia mensura metitur, nisi unitas, quae ab
+        utrisque denominata est; nam in novenario nona est, in .XXV. vicesima quinta.</p>
+      <p xml:id="BOEARI10089">De primi et incompositi et secundi et compositi et ad se quidem
+        secundi et compositi, ad alterum vero primi et incompositi procreatione.</p>
       <p xml:id="BOEARI10090">XVII. Generatio autem ipsorum atque ortus huiusmodi investigatione
         colligitur, quam scilicet Eratosthenes cribrum nominabat, quod cunctis inparibus in medio
         conlocatis per eam quam tradituri sumus artem, qui primi quive secundi quique tertii generis
@@ -675,23 +693,23 @@
         tertius est, locum suum duplicet, sex creabit. Bis enim .III. senarium iungunt. Hic ergo in
         ordinem .VI. relinquat. Quartus quoque si locum suum duplicet, .VIII. succrescent. Ille
         quoque octo transsiliat. Atque hoc quidem in ceteris perspiciendum.</p>
-      <p xml:id="BOEARI10095">Modum autem mensionis secundum ordinem conlocatorum ipsa series dabit. Nam
-        primus primum quem numerat, secundum primum numerat, id est secundum se; et secundum primus
-        quem numerat, per secundum numerat, et tertium per tertium et quartum item per quartum. Cum
-        autem secundus mensionem susceperit, primum quem numerat, secundum primum metitur, secundum
-        vero quem numerat, per se, id est per secundum, et tertium per tertium, et in ceteris eadem
-        similitudine mensura constabit. Alios ergo si respicias vel qui alios mensi sunt, vel qui
-        ipsi ab aliis metiuntur, invenies omnium simul communem mensuram esse non posse, neque ut
-        omnes quemquam alium simul numerent; quosdam autem ex his ab alio posse metiri, ita ut ab
-        uno tantum numerentur; alios vero, ut etiam a pluribus; <pb n="[37]"/>quosdam autem, ut
-        praeter unitatem eorum nulla mensura sit. Qui ergo nullam mensuram praeter unitatem
-        recipiunt, hos primos et incompositos iudicamus, qui vero aliquam mensuram praeter unitatem
-        vel alienigenae partis vocabulum sortiuntur, eos pronuntiemus secundos atque compositos.
-        Tertium vero illud genus per se secundi et compositi, primi vero et incompositi ad
-        alterutrum comparati, hac inquisitor ratione, repperiet. Si enim quoslibet illos numeros
-        secundum suam in semet ipsos multiplices quantitatem, qui procreantur, ad alterutrum
-        comparati nulla mensurae communione iunguntur. .III. enim et .V. si multiplices, .III.
-        tertio .VIIII. facient, et quinquies .V. reddent .XXV. His igitur nulla est communis
+      <p xml:id="BOEARI10095">Modum autem mensionis secundum ordinem conlocatorum ipsa series dabit.
+        Nam primus primum quem numerat, secundum primum numerat, id est secundum se; et secundum
+        primus quem numerat, per secundum numerat, et tertium per tertium et quartum item per
+        quartum. Cum autem secundus mensionem susceperit, primum quem numerat, secundum primum
+        metitur, secundum vero quem numerat, per se, id est per secundum, et tertium per tertium, et
+        in ceteris eadem similitudine mensura constabit. Alios ergo si respicias vel qui alios mensi
+        sunt, vel qui ipsi ab aliis metiuntur, invenies omnium simul communem mensuram esse non
+        posse, neque ut omnes quemquam alium simul numerent; quosdam autem ex his ab alio posse
+        metiri, ita ut ab uno tantum numerentur; alios vero, ut etiam a pluribus; <pb n="[37]"
+        />quosdam autem, ut praeter unitatem eorum nulla mensura sit. Qui ergo nullam mensuram
+        praeter unitatem recipiunt, hos primos et incompositos iudicamus, qui vero aliquam mensuram
+        praeter unitatem vel alienigenae partis vocabulum sortiuntur, eos pronuntiemus secundos
+        atque compositos. Tertium vero illud genus per se secundi et compositi, primi vero et
+        incompositi ad alterutrum comparati, hac inquisitor ratione, repperiet. Si enim quoslibet
+        illos numeros secundum suam in semet ipsos multiplices quantitatem, qui procreantur, ad
+        alterutrum comparati nulla mensurae communione iunguntur. .III. enim et .V. si multiplices,
+        .III. tertio .VIIII. facient, et quinquies .V. reddent .XXV. His igitur nulla est communis
         mensurae cognatio. Rursus .V. et .VII. quos procreant, si compares, hi quoque
         incommensurabiles erunt. Quinquies enim .V., ut dictum est, .XXV., septies .VII. faciunt
         .XLVIIII., quorum mensura nulla communis est; nisi forte omnium horum procreatrix et mater
@@ -710,8 +728,8 @@
         unitate coniuncti. Si vero ad aliquem numerum, ut superius dictum est, finis deminutionis
         incurrerit, erit numerus, qui metiatur utrasque summas, atque eundem ipsum, qui remanserit,
         dicemus utrorumque communem esse mensuram.</p>
-      <p xml:id="BOEARI10098">Age enim duos numeros propositos habeamus, quos iubeamur agnoscere, an eos
-        aliqua communis mensura metiatur; atque hi sint .VIIII. scilicet et .XXVIIII. Hoc igitur
+      <p xml:id="BOEARI10098">Age enim duos numeros propositos habeamus, quos iubeamur agnoscere, an
+        eos aliqua communis mensura metiatur; atque hi sint .VIIII. scilicet et .XXVIIII. Hoc igitur
         modo faciemus reciprocam deminutionem. Auferamus de maiore minorem, hoc est de .XXVIIII.
         novenarium, relinquentur .XX. Ex his ergo .XX. rursus minorem detrahamus, id est .VIIII. et
         relinquentur .XI. Ex his rursus detraho .VIIII., relicti sunt .II. Quos si detraho
@@ -737,7 +755,8 @@
         inaequalitas aut in maioribus aut in minoribus consideratur. Illi enim inmoderata quodammodo
         plenitudine proprii corporis modum partium suarum numerositate praecedunt; illos autem velut
         paupertate inopes oppressosque quadam naturae suae inopia minor, quam ipsi sunt, partium
-        summa componit. Atque illi quidem, quorum partes ultra quam satis est sese porrexerint, <pb n="[40]"/>superflui nominantur, ut sunt .XII. vel .XXIIII. Hi enim suis partibus comparati
+        summa componit. Atque illi quidem, quorum partes ultra quam satis est sese porrexerint, <pb
+          n="[40]"/>superflui nominantur, ut sunt .XII. vel .XXIIII. Hi enim suis partibus comparati
         maiorem partium summam toto corpore sortiuntur. Est enim duodenarii medietas .VI. pars
         tertia .IIII. pars quarta .III. pars sexta .II. pars duodecima .I. omnisque hic cumulus
         redundat in .XVI. et totius corporis sui multitudinem vincunt. Rursus .XXIIII. numeri
@@ -751,34 +770,35 @@
         concludentes. Rursus .XIIII. habent medietatem, id est septenarium, habent septimam, id est
         .II., habent quartam decimam, id est .I. quae in unum si collectae sint, denarii numeri
         summa succrescit, toto scilicet termino minor.</p>
-      <p xml:id="BOEARI10102">Atque hi quidem hoc modo sunt, ut prior ille, quem suae partes superant,
-        talis videatur, tamquam si quis multis super naturam manibus natus, ut centimanus gigas vel
-        triplici coniunctus corpore, ut Geryo tergeminus, vel quicquid unquam monstruosum naturae in
-        partium multiplicatione <pb n="[41]"/>subripuit; ille vero, ut si naturaliter quadam
-        necessaria parte detracta aut minus oculo nasceretur, ut Cyclopeae frontis dedecus fuit, vel
-        quo alio curtatus membro naturale totius suae plenitudinis dispendium sortiretur.</p>
-      <p xml:id="BOEARI10103">Inter hos autem velut inter inaequales intemperantias medii temperamentum
-        limitis sortitus est ille numerus, qui perfectus dicitur, virtutis scilicet aemulator, qui
-        nec supervacua progressione porrigitur, nec contracta rursus deminutione remittitur, sed
-        medietatis obtinens terminum suis aequus partibus nec crassatur abundantia, nec eget inopia,
-        ut .VI. vel .XXVIII. Namque senarius habet partem mediam, id est .III., et tertiam, id est
-        .II. et sextam, id est .I. quae in unam summam si redactae sint par totum numeri corpus suis
-        partibus invenitur .XXVIII. vero habet medietatem .XIIII. et septimam .IIII. nec caret
-        quarta, id est .VII., possidet quartam decimam .II. et repperies in eo vicesimam octavam
-        .I., quae in unum redactae totum partibus corpus aequabunt. .XXVIII. enim iunctae partes
-        efficient.</p>
+      <p xml:id="BOEARI10102">Atque hi quidem hoc modo sunt, ut prior ille, quem suae partes
+        superant, talis videatur, tamquam si quis multis super naturam manibus natus, ut centimanus
+        gigas vel triplici coniunctus corpore, ut Geryo tergeminus, vel quicquid unquam monstruosum
+        naturae in partium multiplicatione <pb n="[41]"/>subripuit; ille vero, ut si naturaliter
+        quadam necessaria parte detracta aut minus oculo nasceretur, ut Cyclopeae frontis dedecus
+        fuit, vel quo alio curtatus membro naturale totius suae plenitudinis dispendium
+        sortiretur.</p>
+      <p xml:id="BOEARI10103">Inter hos autem velut inter inaequales intemperantias medii
+        temperamentum limitis sortitus est ille numerus, qui perfectus dicitur, virtutis scilicet
+        aemulator, qui nec supervacua progressione porrigitur, nec contracta rursus deminutione
+        remittitur, sed medietatis obtinens terminum suis aequus partibus nec crassatur abundantia,
+        nec eget inopia, ut .VI. vel .XXVIII. Namque senarius habet partem mediam, id est .III., et
+        tertiam, id est .II. et sextam, id est .I. quae in unam summam si redactae sint par totum
+        numeri corpus suis partibus invenitur .XXVIII. vero habet medietatem .XIIII. et septimam
+        .IIII. nec caret quarta, id est .VII., possidet quartam decimam .II. et repperies in eo
+        vicesimam octavam .I., quae in unum redactae totum partibus corpus aequabunt. .XXVIII. enim
+        iunctae partes efficient.</p>
       <p xml:id="BOEARI10104">De generatione numeri perfecti.</p>
-      <p xml:id="BOEARI10105">XX. Est autem in his quoque magna similitudo virtutis et vitii. Perfectos
-        enim numeros rarenter invenies, eosque facile numerabiles, quippe qui pauci sint et nimis
-        constanti ordine procreati. At vero superfluos ac deminutos <pb n="[42]"/>longe multos
-        infinitosque repperies, nec ullis ordinibus passim inordinateque dispositos et a nullo certo
-        fine generatos. Sunt autem perfecti numeri intra denarium numerum .VI. intra centenarium
-        .XXVIII. intra millenarium .CCCCXCVI. intra decem milia .VIII. CXXVIII. Et semper hi numeri
-        duobus paribus terminantur, .VI. et .VIII., et semper alternatim in hos numeros summarum
-        fine provenient. Nam et primum .Vl., inde .XXVIII. post hos .CCCC. XCVI. idem senarius, qui
-        primus, post quem .VIII. CXXVIII. idem octonarius, qui secundus.</p>
-      <p xml:id="BOEARI10106">Generatio autem procreatioque eorum est fixa firmaque, ne quo alio modo
-        fieri possint, nec ut si hoc modo fiant, aliud quiddam ullo modo valeat procreari.
+      <p xml:id="BOEARI10105">XX. Est autem in his quoque magna similitudo virtutis et vitii.
+        Perfectos enim numeros rarenter invenies, eosque facile numerabiles, quippe qui pauci sint
+        et nimis constanti ordine procreati. At vero superfluos ac deminutos <pb n="[42]"/>longe
+        multos infinitosque repperies, nec ullis ordinibus passim inordinateque dispositos et a
+        nullo certo fine generatos. Sunt autem perfecti numeri intra denarium numerum .VI. intra
+        centenarium .XXVIII. intra millenarium .CCCCXCVI. intra decem milia .VIII. CXXVIII. Et
+        semper hi numeri duobus paribus terminantur, .VI. et .VIII., et semper alternatim in hos
+        numeros summarum fine provenient. Nam et primum .Vl., inde .XXVIII. post hos .CCCC. XCVI.
+        idem senarius, qui primus, post quem .VIII. CXXVIII. idem octonarius, qui secundus.</p>
+      <p xml:id="BOEARI10106">Generatio autem procreatioque eorum est fixa firmaque, ne quo alio
+        modo fieri possint, nec ut si hoc modo fiant, aliud quiddam ullo modo valeat procreari.
         Dispositos enim ab uno omnes pariter pares numeros in ordinem quousque volueris, primo
         secundum adgregabis, et si primus numerus et incompositus ex illa coacervatione factus sit,
         totam summam in illum multiplicabis, quem posterius adgregaveras. Si vero coacervatione
@@ -788,8 +808,7 @@
         multitudinem summae coacervationem multiplicabis. Disponantur enim omnes pariter pares
         numeri hoc modo:</p>
       <p class="textFig" xml:id="BOEARI10107">
-        <lb/>I. II. IIII. VIII. XVI. XXXII. LXIIII. CXXVIII.
-        <br/></p>
+        <lb/>I. II. IIII. VIII. XVI. XXXII. LXIIII. CXXVIII. <br/></p>
       <p xml:id="BOEARI10108">Facies ergo ita. Pones .I. eique adgregabis .II. Tunc respicias ex hac
         adgregatione qui numerus factus sit. <pb n="[43]"/>Inde .III. qui scilicet primus et
         incompositus est; et post unitatem ultimum binarium numerum adgregaveras. Si igitur
@@ -824,8 +843,8 @@
       <p xml:id="BOEARI10109">Sed quoniam de ea quantitate, quae per se fit, dictum est, operis
         sequentiam ad illam, quae refertur ad aliquid, transferamus.</p>
       <p xml:id="BOEARI10110">De relata ad aliquid quantitate.</p>
-      <p xml:id="BOEARI10111">XXI. Ad aliquid [relatae] vero quantitatis duplex est prima divisio. Omne
-        enim aut aequale est aut inaequale, quicquid alterius comparatione metimur. Et aequale
+      <p xml:id="BOEARI10111">XXI. Ad aliquid [relatae] vero quantitatis duplex est prima divisio.
+        Omne enim aut aequale est aut inaequale, quicquid alterius comparatione metimur. Et aequale
         quidem est, quod ad aliquid comparatum neque minore summa infra est, neque maiore
         transgreditur, ut denarius denario vel ternarius ternario vel cubitum cubito vel pes pedi et
         his similia. Haec autem pars relatae ad aliquid quantitatis, id est aequalitas, naturaliter
@@ -892,7 +911,8 @@
         hoc idem in infinitum progressis necesse est evenire, semperque una terminorum intermissione
         si crescat adiectio, ordinatas te multiplicis numeri vices invenire miraberis. Si enim
         .IIII. intermittas, quincuplus invenitur, si .V. sescuplus, si .VI. septuplus, semperque
-        ipsius multiplicationis nomine uno minus intermissionis vocabulo procreantur. Nam duplus <pb n="[49]"/>unum intermittit, triplus .II. quadruplus .III. quincuplus .IIII. et deinceps ad
+        ipsius multiplicationis nomine uno minus intermissionis vocabulo procreantur. Nam duplus <pb
+          n="[49]"/>unum intermittit, triplus .II. quadruplus .III. quincuplus .IIII. et deinceps ad
         eundem ordinem sequentia est. Et omnes quidem dupli secundum proprias sequentias parium
         numerorum pares sunt; tripli vero unus semper par terminus, inpar alius invenitur; quadrupli
         vero rursus semper parem custodiunt quantitatem constituunturque a quarto numero uno ex
@@ -901,12 +921,12 @@
         vero propositio secundum triplicis similitudinem alternatim paribus atque inparibus positis
         ordinatur.</p>
       <p xml:id="BOEARI10118">De superparticulari eiusque speciebus earumque generationibus.</p>
-      <p xml:id="BOEARI10119">XXIIII. Superparticularis vero est numerus ad alterum comparatus, quotiens
-        habet in se totum minorem et eius aliquam partem; qui si minoris habeat medietatem, vocatur
-        sesqualter, si vero tertiam partem, vocatur sesquitertius, si vero quartam, sesquiquartus,
-        et si quintam, vocatur sesquiquintus; atque his nominibus in infinitum ductis in infinitum
-        quoque superparticularium forma progreditur. Et maiores quidem numeri hoc modo vocantur,
-        minores vero, qui habentur toti et eorum aliqua pars, unus subsesqualter, alter
+      <p xml:id="BOEARI10119">XXIIII. Superparticularis vero est numerus ad alterum comparatus,
+        quotiens habet in se totum minorem et eius aliquam partem; qui si minoris habeat medietatem,
+        vocatur sesqualter, si vero tertiam partem, vocatur sesquitertius, si vero quartam,
+        sesquiquartus, et si quintam, vocatur sesquiquintus; atque his nominibus in infinitum ductis
+        in infinitum quoque superparticularium forma progreditur. Et maiores quidem numeri hoc modo
+        vocantur, minores vero, qui habentur toti et eorum aliqua pars, unus subsesqualter, alter
         subsesquitertius, alius subsesquiquartus, alius vero subsesquiquintus, atque idem secundum
         maiorum normam multitudinemque protenditur. Voco autem maiores numeros duces, minores
         comites. <pb n="[50]"/>Superparticularium quoque infinita est multitudo ob eam rem, quod
@@ -918,15 +938,14 @@
       <p class="textFig" xml:id="BOEARI10120">
         <lb/>I.   II.   III.   IIII. V.  VI.    VII.   VIII.   VIIII. X.
         <br/>III. VI.   VIIII. XII.  XV. XVIII. XXI.   XXIIII. XXVII. XXX.
-        <lb/>II.  IIII. VI.    VIII. X.  XII.   XIIII. XVI.    VIIII. XX.
-        <br/></p>
-      <p xml:id="BOEARI10121">Primus igitur versus continet numerum naturalem, secundus eius triplicem,
-        tertius vero duplicem. Atque in eo si ternarius binario, vel si senarius quaternario, vel
-        novenarius senario comparetur, vel omnes triplices superiores si duplicibus numeris
-        consequentibus opponantur, hemiolia id est sesqualtera proportio nascetur. .III. enim habent
-        intra se .II. et eorum mediam partem, id est unum. Sex quoque continent intra se .IIII. et
-        eorum medietatem, id est .II. Et .VIIII. intra se senarium claudunt et eius mediam partem,
-        id est .III.; eodemque modo in ceteris.</p>
+        <lb/>II.  IIII. VI.    VIII. X.  XII.   XIIII. XVI.    VIIII. XX. <br/></p>
+      <p xml:id="BOEARI10121">Primus igitur versus continet numerum naturalem, secundus eius
+        triplicem, tertius vero duplicem. Atque in eo si ternarius binario, vel si senarius
+        quaternario, vel novenarius senario comparetur, vel omnes triplices superiores si duplicibus
+        numeris consequentibus opponantur, hemiolia id est sesqualtera proportio nascetur. .III.
+        enim habent intra se .II. et eorum mediam partem, id est unum. Sex quoque continent intra se
+        .IIII. et eorum medietatem, id est .II. Et .VIIII. intra se senarium claudunt et eius mediam
+        partem, id est .III.; eodemque modo in ceteris.</p>
       <p xml:id="BOEARI10122">Dicendum vero est, si quis secundam speciem superparticularis numeri
         considerare desideret, id est sesquitertiam, quali ratione repperiet. Ac definitio quidem
         huius comparationis talis est. Sesquitertius est, qui minori comparatus habet eum semel et
@@ -939,16 +958,15 @@
       <p class="textFig" xml:id="BOEARI10123">
         <lb/>I.    II.   III.  IIII. V.  VI.     VII.    VIII.   VIIII.  X.
         <br/>IIII. VIII. XII.  XVI.  XX. XXIIII. XXVIII. XXXII.  XXXVI.  XL.
-        <lb/>III.  VI.   VIII. XII.  XV. XVIII.  XXI.    XXIIII. XXVII.  XXX.
-        <br/></p>
-      <p xml:id="BOEARI10124">Igitur primum primo si compares, sesquitertia ratio continebitur. Nam si
-        .IIII. tribus compares habebunt in se .IIII. totum ternarium et eius tertiam partem, id est
-        .I. Et si secundum secundo id est octonarium senario compares, idem invenies. Habebit enim
-        octonarius senarium totum et eius tertiam partem, id est .II. Et per eandem sequentiam usque
-        in infinitum progrediendum est. Notandum quoque est, quod .III. comites sunt, duces .IIII.,
-        rursus .VI. comites, duces .VIII., et in eodem ordine ceteri simili modo vocantur duces
-        sesquitertii comites subsesquitertii. Et in cunctis secundum hunc modum posita convenit
-        servare vocabula.</p>
+        <lb/>III.  VI.   VIII. XII.  XV. XVIII.  XXI.    XXIIII. XXVII.  XXX. <br/></p>
+      <p xml:id="BOEARI10124">Igitur primum primo si compares, sesquitertia ratio continebitur. Nam
+        si .IIII. tribus compares habebunt in se .IIII. totum ternarium et eius tertiam partem, id
+        est .I. Et si secundum secundo id est octonarium senario compares, idem invenies. Habebit
+        enim octonarius senarium totum et eius tertiam partem, id est .II. Et per eandem sequentiam
+        usque in infinitum progrediendum est. Notandum quoque est, quod .III. comites sunt, duces
+        .IIII., rursus .VI. comites, duces .VIII., et in eodem ordine ceteri simili modo vocantur
+        duces sesquitertii comites subsesquitertii. Et in cunctis secundum hunc modum posita
+        convenit servare vocabula.</p>
       <p xml:id="BOEARI10125">
         <pb n="[52]"/>De quodam utili ad cognitionem superparticularibus accidente.</p>
       <p xml:id="BOEARI10126">XXV. Hoc autem admirabile profundissimumque in istorum ordinibus
@@ -963,21 +981,21 @@
         sunt in dispositione tertii duorum mediorum est facta transmissio. Inter .VIIII. enim et
         .XII. sunt .X. et .XI. Secundum hunc modum quarta dispositio .III., quinta .IIII.
         intermittit.</p>
-      <p xml:id="BOEARI10127">Descriptio, per quam docetur ceteris inaequalitatis speciebus antiquiorem
-        esse multiplicitatem.</p>
-      <p xml:id="BOEARI10128">XXVI. Quoniam autem naturaliter et secundum propriam ordinis consequentiam
-        multiplicem inaequalitatis speciem cunctis praeposuimus primamque speciem esse monstravimus,
-        licet hoc nobis posterioris operis ordine clarescat, hic quoque perstringentes id, quod
-        proposuimus, <pb n="[53]"/>planissime breviterque doceamus. Sit enim talis descriptio, in
-        qua ponatur in ordinem usque ad denarium numerum continui numeri ordo naturalis et secundo
-        versu duplus ordo texatur, tertio triplus, quarto quadruplus et hoc usque ad decuplum. Sic
-        enim cognoscemus, quemadmodum superparticulari et superpartienti et cunctis aliis princeps
-        erit species multiplicis et quaedam alia simul inspiciemus et ad subtilitatem tenuissima et
-        ad scientiam utilissima et ad exercitationem iucundissima.</p>
-      <p xml:id="BOEARI10129">[Boethius, Arithmetica, 53; text: Longitudo. Latitudo. I. II. III. IIII.
-        V. VI. VII. VIII. VIIII. X. XII. XIIII. XVI. XVIII. XX. XV. XXI. XXIV. XXVII. XXX. XXIIII.
-        XXVIII. XXXII. XXXVI. XL. XXV. XXXV. XLV. L. XLII. XLVIII. LIIII. LX. XLVIIII. LVI. LXIII.
-        LXX. LXIIII. LXXII. LXXX. LXXXI. XC. C.] <figure>
+      <p xml:id="BOEARI10127">Descriptio, per quam docetur ceteris inaequalitatis speciebus
+        antiquiorem esse multiplicitatem.</p>
+      <p xml:id="BOEARI10128">XXVI. Quoniam autem naturaliter et secundum propriam ordinis
+        consequentiam multiplicem inaequalitatis speciem cunctis praeposuimus primamque speciem esse
+        monstravimus, licet hoc nobis posterioris operis ordine clarescat, hic quoque perstringentes
+        id, quod proposuimus, <pb n="[53]"/>planissime breviterque doceamus. Sit enim talis
+        descriptio, in qua ponatur in ordinem usque ad denarium numerum continui numeri ordo
+        naturalis et secundo versu duplus ordo texatur, tertio triplus, quarto quadruplus et hoc
+        usque ad decuplum. Sic enim cognoscemus, quemadmodum superparticulari et superpartienti et
+        cunctis aliis princeps erit species multiplicis et quaedam alia simul inspiciemus et ad
+        subtilitatem tenuissima et ad scientiam utilissima et ad exercitationem iucundissima.</p>
+      <p xml:id="BOEARI10129">[Boethius, Arithmetica, 53; text: Longitudo. Latitudo. I. II. III.
+        IIII. V. VI. VII. VIII. VIIII. X. XII. XIIII. XVI. XVIII. XX. XV. XXI. XXIV. XXVII. XXX.
+        XXIIII. XXVIII. XXXII. XXXVI. XL. XXV. XXXV. XLV. L. XLII. XLVIII. LIIII. LX. XLVIIII. LVI.
+        LXIII. LXX. LXIIII. LXXII. LXXX. LXXXI. XC. C.] <figure>
           <graphic url="/images/BOEARI1_02GF.gif"/>
         </figure></p>
       <p xml:id="BOEARI10130">Ratio atque expositio digestae formulae.</p>
@@ -1067,8 +1085,7 @@
         modo:</p>
       <p class="textFig" xml:id="BOEARI10136">
         <lb/>III. IIII. V.     VI. VII.  VIII. VIIII. X.
-        <br/>V.   VII.  VIIII. XI. XIII. XV.   XVII.  XVIIII.
-        <lb/></p>
+        <br/>V.   VII.  VIIII. XI. XIII. XV.   XVII.  XVIIII. <lb/></p>
       <p xml:id="BOEARI10137">
         <pb n="[59]"/>Si igitur quinarii numeri ad ternarium comparatio consideretur, erit
         superpartiens ille, qui vocatur superbipartiens; habet enim quinarius totos in se tres et
@@ -1101,17 +1118,17 @@
         superquadripartiens, idem dicatur superquadriquintus, eademque similitudine usque in
         infinitum nomina producantur.</p>
       <p xml:id="BOEARI10140">De multiplici superparticulari.</p>
-      <p xml:id="BOEARI10141">XXVIIII. Igitur relatae ad aliquid quantitatis simplices et primae species
-        hae sunt. Duae vero aliae ex his velut ex aliquibus principiis componuntur, ut multiplices
-        superparticulares et multiplices superpartientes, horumque comites submultiplices
-        superparticulares et submultiplices superpartientes. Namque in his ut in praedictis
-        proportionibus minores numeri omnes addita sub praepositione dicuntur, <pb n="[61]"/>quorum
-        definitio talis reddi potest. Multiplex superparticularis est, quotiens numerus ad numerum
-        comparatus habet eum plus quam semel et eius unam partem, hoc est habet eum aut duplum aut
-        triplum aut quadruplum aut quotienslibet et eius quamlibet aliquam partem vel mediam vel
-        tertiam vel quartam vel, quaecunque alia partium exuberatione contigerit. Hic ergo ex
-        multiplici et superparticulari consistit. Quod enim comparatum numerum plus quam semel
-        habet, multiplicis est, hoc vero, quod minorem in habenda parte transcendit,
+      <p xml:id="BOEARI10141">XXVIIII. Igitur relatae ad aliquid quantitatis simplices et primae
+        species hae sunt. Duae vero aliae ex his velut ex aliquibus principiis componuntur, ut
+        multiplices superparticulares et multiplices superpartientes, horumque comites
+        submultiplices superparticulares et submultiplices superpartientes. Namque in his ut in
+        praedictis proportionibus minores numeri omnes addita sub praepositione dicuntur, <pb
+          n="[61]"/>quorum definitio talis reddi potest. Multiplex superparticularis est, quotiens
+        numerus ad numerum comparatus habet eum plus quam semel et eius unam partem, hoc est habet
+        eum aut duplum aut triplum aut quadruplum aut quotienslibet et eius quamlibet aliquam partem
+        vel mediam vel tertiam vel quartam vel, quaecunque alia partium exuberatione contigerit. Hic
+        ergo ex multiplici et superparticulari consistit. Quod enim comparatum numerum plus quam
+        semel habet, multiplicis est, hoc vero, quod minorem in habenda parte transcendit,
         superparticularis. Itaque ex utroque nomine ficto vocabulo est speciesque eius ad illarum
         scilicet fiunt imaginem proportionum, ex quibus ipse numerus originem trahit. Nam prima pars
         huius vocabuli, quae multiplicis nomine possessa est, multiplicis numeri specierum vocabulo
@@ -1124,49 +1141,44 @@
         sesquitertius, quadruplus sesquiquartus; et quotiens totum numerum in semet ipso continuerit
         per multiplicis numeri species appellabitur, quam vero partem comparati numeri clauserit,
         secundum superparticularem comparationem habitudinemque vocabitur.</p>
-      <p xml:id="BOEARI10142">Horum autem exempla huiusmodi sunt. Duplex sesqualter <pb n="[62]"/>est,
-        ut .V. ad duo. Habent enim .V. binarium numerum bis et eius mediam partem, id est .I. Duplex
-        vero sesquitertius est septenarius ad ternarium comparatus. At vero novenarius ad
+      <p xml:id="BOEARI10142">Horum autem exempla huiusmodi sunt. Duplex sesqualter <pb n="[62]"
+        />est, ut .V. ad duo. Habent enim .V. binarium numerum bis et eius mediam partem, id est .I.
+        Duplex vero sesquitertius est septenarius ad ternarium comparatus. At vero novenarius ad
         quaternarium duplex sesquiquartus; si vero .XI. ad .V., duplex sesquiquintus; et hi semper
         nascentur dispositis in ordinem a binario numero omnibus naturaliter paribus inparibusque
         terminis, si contra eas omnes a quinario numero inpares comparentur, ut primum primo,
         secundum secundo, tertium tertio caute et diligenter adponas, ut sit dispositio talis:</p>
       <p class="textFig" xml:id="BOEARI10143">
         <br/>II. III. IIII.  V.  VI.   VII. VIII. VIIII.  X.   XI.
-        <lb/>V.  VII. VIIII. XI. XIII. XV.  XVII. XVIIII. XXI. XXIII.
-        <br/></p>
-      <p xml:id="BOEARI10144">Si vero a duobus paribus omnibus dispositis terminis illi, qui a quinario
-        numero inchoantes quinario numero rursus sese transsiliunt, comparentur, omnes duplices
-        sesqualteros creant, ut est subiecta descriptio,</p>
+        <lb/>V.  VII. VIIII. XI. XIII. XV.  XVII. XVIIII. XXI. XXIII. <br/></p>
+      <p xml:id="BOEARI10144">Si vero a duobus paribus omnibus dispositis terminis illi, qui a
+        quinario numero inchoantes quinario numero rursus sese transsiliunt, comparentur, omnes
+        duplices sesqualteros creant, ut est subiecta descriptio,</p>
       <p class="textFig" xml:id="BOEARI10145">
-        <lb/>II. IIII. VI. VIII. X.   XII.
-        <br/>V.  X.    XV. XX.   XXV. XXX.
-        <lb/></p>
-      <p xml:id="BOEARI10146">Si vero a tribus inchoent dispositiones et tribus sese transsiliant, et ad
-        eos aptentur, qui a septenario inchoantes septenario sese numero transgrediuntur, omnes
-        duplices sesquitertii habita diligenter comparatione nascuntur, ut subiecta descriptio
+        <lb/>II. IIII. VI. VIII. X.   XII. <br/>V.  X.    XV. XX.   XXV. XXX. <lb/></p>
+      <p xml:id="BOEARI10146">Si vero a tribus inchoent dispositiones et tribus sese transsiliant,
+        et ad eos aptentur, qui a septenario inchoantes septenario sese numero transgrediuntur,
+        omnes duplices sesquitertii habita diligenter comparatione nascuntur, ut subiecta descriptio
         monet.</p>
       <p xml:id="BOEARI10147">
         <pb n="[63]"/>
       </p>
       <p class="textFig" xml:id="BOEARI10148">
         <br/>III. VI.    VIIII. XII.    XV.   XVIII. XXI.
-        <lb/>VII. XIIII. XXI.   XXVIII. XXXV. XLII.  XLVIIII.
-        <br/></p>
-      <p xml:id="BOEARI10149">Sin vero omnes in ordinem quadrupli disponantur, hi qui naturalis numeri
-        quadrupli sunt, ut unitatis quadruplus, et duorum triumque et quattuor atque quinarii et
-        ceterorum sese sequentium, et ad eos aptentur a novenario numero inchoantes semper sese
+        <lb/>VII. XIIII. XXI.   XXVIII. XXXV. XLII.  XLVIIII. <br/></p>
+      <p xml:id="BOEARI10149">Sin vero omnes in ordinem quadrupli disponantur, hi qui naturalis
+        numeri quadrupli sunt, ut unitatis quadruplus, et duorum triumque et quattuor atque quinarii
+        et ceterorum sese sequentium, et ad eos aptentur a novenario numero inchoantes semper sese
         novenario praecedentes, tunc duplicis sesquiquartae proportionis forma texetur.</p>
       <p class="textFig" xml:id="BOEARI10150">
-        <lb/>IIII.  VIII.  XII.   XVI.   XX.  XXIIII.
-        <br/>VIIII. XVIII. XXVII. XXXVI. XLV. LIIII. <lb/></p>
+        <lb/>IIII.  VIII.  XII.   XVI.   XX.  XXIIII. <br/>VIIII. XVIII. XXVII. XXXVI. XLV. LIIII.
+        <lb/></p>
       <p xml:id="BOEARI10151">Ea vero species huius numeri, quae est triplex sesqualtera, hoc modo
         procreatur, si disponantur a binario numero omnes in ordinem pares et ad eos a septenario
         numero inchoantes septenario sese supergredientes solito ad alterutrum comparationis modo
         aptentur.</p>
       <p class="textFig" xml:id="BOEARI10152">
-        <br/>II.  IIII.  VI.  VIII.
-        <lb/>VII. XIIII. XXI. XXVIII. <br/></p>
+        <br/>II.  IIII.  VI.  VIII. <lb/>VII. XIIII. XXI. XXVIII. <br/></p>
       <p xml:id="BOEARI10153">Si autem a ternario numero ingressi cunctos naturalis numeri triplices
         disponamus et eis a denario numero denario sese supergredientes ordine comparemus, omnes
         triplices sesquitertii in ea terminorum continuatione provenient.</p>
@@ -1176,16 +1188,16 @@
       <p class="textFig" xml:id="BOEARI10155">
         <lb/>III. VI. VIIII. <br/>X.   XX. XXX. <lb/></p>
       <p xml:id="BOEARI10156">De eorum exemplis in superiori formula inveniendis.</p>
-      <p xml:id="BOEARI10157">XXX. Horum autem eorumque qui sequuntur exempla integre planeque possumus
-        pernotare, si in priorem descriptionem, quam fecimus, cum de superparticulari et multiplici
-        loqueremur, ubi ab uno usque in denariam multiplicationem summa concrevit, diligens velimus
-        acumen intendere. Ad primum enim versum omnes, qui sequuntur, conlati ordinatas
-        convenientesque multiplicis species reddent. Sin vero ad secundum cunctos, qui tertii sunt
-        ordinis, aptaveris, ordinatas species superparticularis agnosces. Quod si tertio ordini,
-        quicunque sunt in quinto versu, compares superpartientis numeri species positas convenienter
-        aspicies. Multiplex vero superparticularis ostenditur, cum ad secundum versum omnes, qui
-        sunt quinti versus serie comparantur, vel qui sunt in septimo, vel qui sunt in nono, atque
-        ita si in infinitum sit ista descriptio, in infinitum huius proportionis species
+      <p xml:id="BOEARI10157">XXX. Horum autem eorumque qui sequuntur exempla integre planeque
+        possumus pernotare, si in priorem descriptionem, quam fecimus, cum de superparticulari et
+        multiplici loqueremur, ubi ab uno usque in denariam multiplicationem summa concrevit,
+        diligens velimus acumen intendere. Ad primum enim versum omnes, qui sequuntur, conlati
+        ordinatas convenientesque multiplicis species reddent. Sin vero ad secundum cunctos, qui
+        tertii sunt ordinis, aptaveris, ordinatas species superparticularis agnosces. Quod si tertio
+        ordini, quicunque sunt in quinto versu, compares superpartientis numeri species positas
+        convenienter aspicies. Multiplex vero superparticularis ostenditur, cum ad secundum versum
+        omnes, qui sunt quinti versus serie comparantur, vel qui sunt in septimo, vel qui sunt in
+        nono, atque ita si in infinitum sit ista descriptio, in infinitum huius proportionis species
         procreabuntur. Manifestum autem hoc etiam est, quod horum comites semper cum sub
         praepositione dicentur, ut est subduplex sesqualter, subduplex sesquitertius, subduplex
         sesquiquartus et ceteri quidem ad hunc modum.</p>
@@ -1208,9 +1220,9 @@
         superbipartiens, subduplex supertripartiens.</p>
       <p xml:id="BOEARI10160">Demonstratio quemadmodum omnis inaequalitas ab aequalitate
         processerit.</p>
-      <p xml:id="BOEARI10161">XXXII. Restat autem nobis profundissimam quandam tradere disciplinam, quae
-        ad omnem naturae vim rerumque integritatem maxima ratione pertineat. Magnus quippe in hac
-        scientia fructus est, si quis non nesciat, quod bonitas definita et sub scientiam cadens
+      <p xml:id="BOEARI10161">XXXII. Restat autem nobis profundissimam quandam tradere disciplinam,
+        quae ad omnem naturae vim rerumque integritatem maxima ratione pertineat. Magnus quippe in
+        hac scientia fructus est, si quis non nesciat, quod bonitas definita et sub scientiam cadens
         animoque semper imitabilis et perceptibilis prima natura est et suae substantiae decore
         perpetua, infinitum vero malitiae dedecus est, nullis propriis principiis nixum, sed natura
         semper errans a boni definitione principii tamquam aliquo signo optimae figurae inpressa
@@ -1237,37 +1249,35 @@
         multiplicis explicabit. Iaceant igitur tres termini aequales.</p>
       <p class="textFig" xml:id="BOEARI10162">
         <br/>I. I. I. <lb/></p>
-      <p xml:id="BOEARI10163">Ponatur itaque primo primus aequalis, id est unus, secundus vero primo et
-        secundo, id est .II., tertius vero primo, duobus secundis et tertio par sit, id est uni et
-        duobus unis et uni, quod sunt .IIII. ut est descriptio.</p>
+      <p xml:id="BOEARI10163">Ponatur itaque primo primus aequalis, id est unus, secundus vero primo
+        et secundo, id est .II., tertius vero primo, duobus secundis et tertio par sit, id est uni
+        et duobus unis et uni, quod sunt .IIII. ut est descriptio.</p>
       <p xml:id="BOEARI10164">
         <pb n="[68]"/>
       </p>
       <p class="textFig" xml:id="BOEARI10165">
         <br/>I. I.  I. <lb/>I. II. IIII. <br/></p>
-      <p xml:id="BOEARI10166">Videsne ut duplici proportione sequens ordo texatur? Fac rursus idem de
-        duplicibus, ut sit primus primo aequalis, id est uni, secundus primo et secundo, id est uni
-        et duobus, qui sunt tres, tertius primo, id est uni, duobus secundis, id est .IIII., et
+      <p xml:id="BOEARI10166">Videsne ut duplici proportione sequens ordo texatur? Fac rursus idem
+        de duplicibus, ut sit primus primo aequalis, id est uni, secundus primo et secundo, id est
+        uni et duobus, qui sunt tres, tertius primo, id est uni, duobus secundis, id est .IIII., et
         tertio, id est .IIII., qui simul .VIIII. fiunt, et venit haec formula.</p>
       <p class="textFig" xml:id="BOEARI10167">
-        <lb/>I. I.   I. <br/>I. II.  IIII.
-        <lb/>I. III. VIIII. <br/></p>
-      <p xml:id="BOEARI10168">Rursus si triplicibus idem feceris, continuus quadruplus procreabitur. Sit
-        enim primus primo aequus, id est unus, sit secundus primo et secundo aequalis, id est
+        <lb/>I. I.   I. <br/>I. II.  IIII. <lb/>I. III. VIIII. <br/></p>
+      <p xml:id="BOEARI10168">Rursus si triplicibus idem feceris, continuus quadruplus procreabitur.
+        Sit enim primus primo aequus, id est unus, sit secundus primo et secundo aequalis, id est
         .IIII., sit tertius primo, duobus secundis et tertio aequalis, id est .XVI.</p>
       <p class="textFig" xml:id="BOEARI10169">
-        <lb/>I. I.    I. <br/>I. II.   IIII.
-        <lb/>I. III.  VIIII. <br/>I. IIII. XVI. <lb/></p>
-      <p xml:id="BOEARI10170">Et in ceteris quidem ad hanc formam tribus his praeceptis utemur. Si vero
-        qui ex aequalibus nati sunt multiplices, eos disponamus et secundum haec praecepta vertamus,
-        ita ut converso sint ordine, sesqualter ex duplici procreabitur, <pb n="[69]"/>sesquitertius
-        ex triplici, sesquiquartus ex quadruplo. Sint enim .III. duplices termini, qui ex aequalibus
-        creati sunt, et qui ultimus est, primus ponatur hoc modo:</p>
+        <lb/>I. I.    I. <br/>I. II.   IIII. <lb/>I. III.  VIIII. <br/>I. IIII. XVI. <lb/></p>
+      <p xml:id="BOEARI10170">Et in ceteris quidem ad hanc formam tribus his praeceptis utemur. Si
+        vero qui ex aequalibus nati sunt multiplices, eos disponamus et secundum haec praecepta
+        vertamus, ita ut converso sint ordine, sesqualter ex duplici procreabitur, <pb n="[69]"
+        />sesquitertius ex triplici, sesquiquartus ex quadruplo. Sint enim .III. duplices termini,
+        qui ex aequalibus creati sunt, et qui ultimus est, primus ponatur hoc modo:</p>
       <p class="textFig" xml:id="BOEARI10171">
         <br/>IIII. II. I. <lb/></p>
-      <p xml:id="BOEARI10172">Et constituatur primo in hoc ordine primus par, id est .IIII., secundus
-        vero primo et secundo par, id est .VI., tertius vero primo, duobus secundis et tertio, id
-        est .VIIII.</p>
+      <p xml:id="BOEARI10172">Et constituatur primo in hoc ordine primus par, id est .IIII.,
+        secundus vero primo et secundo par, id est .VI., tertius vero primo, duobus secundis et
+        tertio, id est .VIIII.</p>
       <p class="textFig" xml:id="BOEARI10173">
         <br/>IIII. II. I. <lb/>IIII. VI. VIIII. <br/></p>
       <p xml:id="BOEARI10174">Ecce tibi illa sesqualtera quantitas ex termino duplicitatis exoritur.
@@ -1275,9 +1285,9 @@
         superiores</p>
       <p class="textFig" xml:id="BOEARI10175">
         <lb/>VIIII. III. I. <br/></p>
-      <p xml:id="BOEARI10176">Converso scilicet ordine, sicut duplex, hic est quoque ordo dispositus.
-        Ponatur ergo primus primo aequus, id est .VIIII., secundus primo et secundo, id est .XII.,
-        tertius primo, duobus secundis et tertio aequus, id est .XVI.</p>
+      <p xml:id="BOEARI10176">Converso scilicet ordine, sicut duplex, hic est quoque ordo
+        dispositus. Ponatur ergo primus primo aequus, id est .VIIII., secundus primo et secundo, id
+        est .XII., tertius primo, duobus secundis et tertio aequus, id est .XVI.</p>
       <p class="textFig" xml:id="BOEARI10177">
         <lb/>VIIII. III. I. <br/>VIIII. XII. XVI. <lb/></p>
       <p xml:id="BOEARI10178">Rursus secunda species superparticularis numeri, id est sesquitertius
@@ -1294,22 +1304,22 @@
         Disponantur igitur sic:</p>
       <p class="textFig" xml:id="BOEARI10181">
         <lb/>VIIII. VI. IIII. <br/></p>
-      <p xml:id="BOEARI10182">Superioris igitur descriptionis primo primus aequus numerus adscribatur,
-        id est .VIIII. secundus vero primo et secundo, id est .XV., tertius vero primo, duobus
-        secundis et tertio, id est .XXV.</p>
+      <p xml:id="BOEARI10182">Superioris igitur descriptionis primo primus aequus numerus
+        adscribatur, id est .VIIII. secundus vero primo et secundo, id est .XV., tertius vero primo,
+        duobus secundis et tertio, id est .XXV.</p>
       <p class="textFig" xml:id="BOEARI10183">
         <lb/>VIIII. VI. IIII. <br/>VIIII. XV. XXV. <lb/></p>
       <p xml:id="BOEARI10184">Si vero sesquitertium eodem modo vertamus, ordo supertripartiens
         invenitur. Sit enim prima positio sesquitertii</p>
       <p class="textFig" xml:id="BOEARI10185">
         <br/>XVI. XII. VIIII. <lb/></p>
-      <p xml:id="BOEARI10186">Ponatur secundum priorem modum primo primus par, id est .XVI., secundus
-        primo et secundo, id est .XXVIII., tertius primo, duobus secundis et tertio, id est
+      <p xml:id="BOEARI10186">Ponatur secundum priorem modum primo primus par, id est .XVI.,
+        secundus primo et secundo, id est .XXVIII., tertius primo, duobus secundis et tertio, id est
         .XLVIIII. Omnis ergo summa disposita supertripartientes efficiet.</p>
       <p class="textFig" xml:id="BOEARI10187">
-        <br/>XVI. XII.    VIIII. <lb/>XVI. XXVIII. XLVIIII.
-        <br/></p>
-      <p xml:id="BOEARI10188">Rursus si sesquiquartum eodem modo verteris, superquadripartiens <pb n="[71]"/>statim quantitas procreabitur, ut est ea forma, quam subpositam vides.</p>
+        <br/>XVI. XII.    VIIII. <lb/>XVI. XXVIII. XLVIIII. <br/></p>
+      <p xml:id="BOEARI10188">Rursus si sesquiquartum eodem modo verteris, superquadripartiens <pb
+          n="[71]"/>statim quantitas procreabitur, ut est ea forma, quam subpositam vides.</p>
       <p class="textFig" xml:id="BOEARI10189">
         <lb/>XXV. XX.  XVI. <br/>XXV. XLV. LXXXI. <lb/></p>
       <p xml:id="BOEARI10190">Restat, quemadmodum ex superparticularibus et superpartientibus
@@ -1318,9 +1328,9 @@
         duplex superparticularis excrescit. Sit enim hoc modo:</p>
       <p class="textFig" xml:id="BOEARI10191">
         <br/>IIII. VI. VIIII. <lb/></p>
-      <p xml:id="BOEARI10192">Ponatur secundum superiorem modum primo primus aequalis, id est .IIII.,
-        secundus primo et secundo, id est .X., tertius primo, duobus secundis et tertio aequalis, id
-        est XXV.</p>
+      <p xml:id="BOEARI10192">Ponatur secundum superiorem modum primo primus aequalis, id est
+        .IIII., secundus primo et secundo, id est .X., tertius primo, duobus secundis et tertio
+        aequalis, id est XXV.</p>
       <p class="textFig" xml:id="BOEARI10193">
         <br/>IIII. VI. VIIII. <lb/>IIII. X.  XXV. <br/></p>
       <p xml:id="BOEARI10194">Atque haec quidem duplex sesqualtera summa producta est; si vero
@@ -1328,8 +1338,8 @@
         docet:</p>
       <p class="textFig" xml:id="BOEARI10195">
         <lb/>VIIII. XII. XVI. <br/>VIIII. XXI. XLVIIII. <lb/></p>
-      <p xml:id="BOEARI10196">At vero si ad superpartientes animum convertamus eosque ordinatim secundum
-        superiora praecepta disponamus, multiplices superpartientes ordinatim progenitos
+      <p xml:id="BOEARI10196">At vero si ad superpartientes animum convertamus eosque ordinatim
+        secundum superiora praecepta disponamus, multiplices superpartientes ordinatim progenitos
         repperiemus. Disponatur enim superpartientis haec formula:</p>
       <p class="textFig" xml:id="BOEARI10197">
         <br/>VIIII. XV. XXV. <lb/></p>
@@ -1337,8 +1347,7 @@
         <pb n="[72]"/>Adscribatur ergo primus primo aequus, id est .VIIII., secundus primo et
         secundo, id est .XXIIII., tertius primo, duobus secundis et tertio, id est LXIIII.</p>
       <p class="textFig" xml:id="BOEARI10199">
-        <br/>VIIII. XV.     XXV. <lb/>VIIII. XXIIII. LXIIII.
-        <br/></p>
+        <br/>VIIII. XV.     XXV. <lb/>VIIII. XXIIII. LXIIII. <br/></p>
       <p xml:id="BOEARI10200">Videsne, ut ex superbipartiente duplus superbipartiens exortus sit? At
         vero si supertripartientem ponam, duplex sine dubio supertripartiens invenitur, ut in
         subiecta descriptione perspicuum est.</p>

@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De cantu figurato secundum eundem fratrem Johannem Hothbi Carmelitam</title>
         <title type="abbrev">HOTDCF1</title>
-        <author>Hothby, Johannes</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Hothby, Johannes</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Johannes Hothby, <emph>Opera omnia de musica mensurabili</emph>;
           Thomas Walsingham, <emph>Regulae de musica mensurabili</emph>, ed. Gilbert Reaney, Corpus
@@ -46,8 +56,8 @@
       <p xml:id="HOTDCF10002">Capitulum 1</p>
       <p xml:id="HOTDCF10003">De figuris</p>
       <p xml:id="HOTDCF10004">Fa26 (25)</p>
-      <p xml:id="HOTDCF10005">Octo sunt figurae mensurabilis cantus, videlicet maxima, longa, brevis,
-        semibrevis, minima, semiminima, croma et semicroma, ut hic: [MXv,Lv,Bv,Sv,Mv,M,SM]
+      <p xml:id="HOTDCF10005">Octo sunt figurae mensurabilis cantus, videlicet maxima, longa,
+        brevis, semibrevis, minima, semiminima, croma et semicroma, ut hic: [MXv,Lv,Bv,Sv,Mv,M,SM]
         [CSM31:27,1; text: vel] <figure>
           <graphic url="/images/HOTDCF1_01GF.gif"/>
         </figure>Duplex est maxima, scilicet perfecta et imperfecta. Maxima perfecta valet tres
@@ -65,9 +75,9 @@
         <pb n="[28]"/>Capitulum 2</p>
       <p xml:id="HOTDCF10008">De signis et mensuris</p>
       <p xml:id="HOTDCF10009">Fa26 (25)</p>
-      <p xml:id="HOTDCF10010">Circulus denotat quod brevis valet tres semibreves, et plenitudo denotat
-        quod semibrevis valet tres minimas. Semicirculus denotat quod brevis valet duas semibreves,
-        et vacuitas denotat quod semibrevis valet duas minimas, ut hic:
+      <p xml:id="HOTDCF10010">Circulus denotat quod brevis valet tres semibreves, et plenitudo
+        denotat quod semibrevis valet tres minimas. Semicirculus denotat quod brevis valet duas
+        semibreves, et vacuitas denotat quod semibrevis valet duas minimas, ut hic:
         [Od,Bv,Sv,Sv,Sv/Sv,Mv,Mv,Mv,pt,O,Bv,Sv,Sv,Sv/Sv,Mv,Mv/Cd,Bv,Sv,Sv/Sv,Mv,Mv,Mv/C,Bv,Sv,Sv/Sv,Mv,Mv]
         Et si post circulum vel semicirculum sequitur signum ternarii vel binarii, circulus vel
         semicirculus denotat longam, et signum sequens denotat brevem; et si post circulum vel
@@ -78,10 +88,11 @@
       <p xml:id="HOTDCF10011">Capitulum 3</p>
       <p xml:id="HOTDCF10012">De punctis</p>
       <p xml:id="HOTDCF10013">Fa26 (25)</p>
-      <p xml:id="HOTDCF10014">Duo sunt puncta, videlicet punctus perfectionis et punctus divisionis. Si
-        punctus perfectionis stat iuxta maximam, illa maxima valet tres longas, et si stat iuxta
+      <p xml:id="HOTDCF10014">Duo sunt puncta, videlicet punctus perfectionis et punctus divisionis.
+        Si punctus perfectionis stat iuxta maximam, illa maxima valet tres longas, et si stat iuxta
         longam, illa valet tres breves, et si stat iuxta brevem, illa valet tres semibreves, et si
-        stat iuxta semibrevem, illa valet tres minimas: <pb n="[29]"/>[MXv,pt,Lv,pt,Bv,pt,Sv,pt,Mv,pt,M,pt,A,pt] [CSM31:29,1] ]</p>
+        stat iuxta semibrevem, illa valet tres minimas: <pb n="[29]"
+        />[MXv,pt,Lv,pt,Bv,pt,Sv,pt,Mv,pt,M,pt,A,pt] [CSM31:29,1] ]</p>
       <p xml:id="HOTDCF10015">Punctus divisionis dividit longas imperficiendo maximas, semibreves
         imperficiendo breves, minimas imperficiendo semibreves:
         [MXv,Lv,pt,Lv,MXv/Lv,Bv,pt,Bv,Lv/Bv,Sv,pt,Sv,Bv/Sv,Mv,pt,Mv,Sv/Mv,Av,Av,M,M]
@@ -100,7 +111,8 @@
       <p xml:id="HOTDCF10020">Omnis ligatura cum proprietate facit primam esse brevem, et sine
         proprietate facit primam esse longam, et cum opposita proprietate facit primas duas esse
         semibreves; et cum perfectione facit ultimam esse longam, et sine perfectione facit ultimam
-        esse brevem, ut hic: <pb n="[30]"/>[Lig2vacddx,Lig2vcdsnd,Lig2vd,Lig2vacddx,Lig2vcssna,Lig2vcssnod,Lig3vad,Lig2vart,Lig2vacddx,Lig2va,Lig3vaod]
+        esse brevem, ut hic: <pb n="[30]"
+        />[Lig2vacddx,Lig2vcdsnd,Lig2vd,Lig2vacddx,Lig2vcssna,Lig2vcssnod,Lig3vad,Lig2vart,Lig2vacddx,Lig2va,Lig3vaod]
         Omnes figurae primae et ultimae, si essent mille, sunt omnes breves, nisi ligatura esset cum
         opposita proprietate, quae facit duas illas esse semibreves, ut supradictum est. Maxima
         propter suam magnitudinem est cognita in omni loco, et longa nunquam vim suam perdit quam

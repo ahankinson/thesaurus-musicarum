@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Lucidarium, tractatus decimussextus</title>
         <title type="abbrev">MARLU16</title>
-        <author>Marchetus de Padua</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Marchetus de Padua</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1993</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1993">1993</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptores ecclesiastici de musica sacra potissimum</emph>, 3 vols., ed. Martin
@@ -120,8 +130,8 @@
         disponit omnia, quae ipsam tangunt scientiam: et per cantorem iubet tamquam per suum nuntium
         practicari.</p>
       <p xml:id="MARLU160004">Et haec de musica plana sufficiant tibi dicta. 1274.</p>
-      <p xml:id="MARLU160005">Explicit Lucidarium Marcheti de Padua in arte musicae planae, inchoatum
-        Cesenae, perfectumque Veronae. Deo gratias.</p>
+      <p xml:id="MARLU160005">Explicit Lucidarium Marcheti de Padua in arte musicae planae,
+        inchoatum Cesenae, perfectumque Veronae. Deo gratias.</p>
     </body>
   </text>
 </TEI>

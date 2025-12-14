@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Compendium musicale</title>
         <title type="abbrev">NICCOM</title>
-        <author>Capuanus, Nicolaus</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Capuanus, Nicolaus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>John Csonka</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1993</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1993">1993</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Adrien de la Fage, <emph>Essais de dipthérographie musicale</emph>
           (Paris: Legouix, 1864), 308–38. </bibl>
@@ -51,18 +61,18 @@
     <body>
       <p xml:id="NICCOM0001">
         <pb n="[308]"/>Nicolai Capuani Compendium musicale.</p>
-      <p class="textFig" xml:id="NICCOM0002">*     *     *     *     *     *     *     *     *     *     *
-        <lb/></p>
+      <p class="textFig" xml:id="NICCOM0002"
+        >*     *     *     *     *     *     *     *     *     *     * <lb/></p>
       <p xml:id="NICCOM0003">
         <pb n="[309]"/>Ad laudes sanctisssimae Trinitatis ac gloriosissimae Virginis Mariae
         dulcissimae matris suae et totius curiae coelestis incipit Compendium Musicale a multis
         doctoribus editum et compositum et per presbyterum Nicolaum de Capua ordinatum sub anno
         millesimo quadringentesimo quintodecimo.</p>
-      <p xml:id="NICCOM0004">Cum igitur humana natura scire desiderat, ideo divina clementia philosophis
-        peritiam artium inveniendi concessit; ut unusquisque valeat per eas bona comprehendere et ad
-        meliores consistentias sublimari.</p>
-      <p xml:id="NICCOM0005">Sicut scribunt philosophi, musica inter septem liberales artes sola tenet
-        principatum; nam musica est illa quae in ecclesia triumphanti et militanti Deo servit
+      <p xml:id="NICCOM0004">Cum igitur humana natura scire desiderat, ideo divina clementia
+        philosophis peritiam artium inveniendi concessit; ut unusquisque valeat per eas bona
+        comprehendere et ad meliores consistentias sublimari.</p>
+      <p xml:id="NICCOM0005">Sicut scribunt philosophi, musica inter septem liberales artes sola
+        tenet principatum; nam musica est illa quae in ecclesia triumphanti et militanti Deo servit
         dulcisona, quam sancti ipsius de votibus amplectuntur, qua laeti hilariores efficiuntur, qua
         saepe vexati leviter se habent, qua pugnantes animosiores efficiuntur, de qua Isidorus dicit
         in libro etymologiarum: Non minus est dedecens nescire canere quam litteras ignorare, quum
@@ -72,52 +82,54 @@
       <p xml:id="NICCOM0006">Apparet ergo quod est nobilior scientia et quod eam quilibet debet apte
         scire prae omnibus aliis; et hoc idem potest probari, nam nulla scientia ausa fuit intra
         fores ecclesiae praeterquam ipsam musicam.</p>
-      <p xml:id="NICCOM0007">Antequam aliud determinemus, necesse est scire quid est musica et quis fuit
-        illius inventor.</p>
-      <p xml:id="NICCOM0008">Boetius: Musica est scientia potestatem canendi subministrans.--Quid est
-        scientia?--Scientia est donum Dei.--Quis fuit doctor musicae?--Moyses dicit inventor artis
-        musicae fuisse Tubalcain ante diluvium: sed post diluvium philosophi dicunt Pythagoram
+      <p xml:id="NICCOM0007">Antequam aliud determinemus, necesse est scire quid est musica et quis
+        fuit illius inventor.</p>
+      <p xml:id="NICCOM0008">Boetius: Musica est scientia potestatem canendi subministrans.--Quid
+        est scientia?--Scientia est donum Dei.--Quis fuit doctor musicae?--Moyses dicit inventor
+        artis musicae fuisse Tubalcain ante diluvium: sed post diluvium philosophi dicunt Pythagoram
         fuisse repertorem, sonitu malleorum, cordarum extensione percussa.</p>
       <p xml:id="NICCOM0009">
         <pb n="[310]"/>Guido: Musica est scientia quae docet nos veraciter cantare et ad omnem
         perectionem cantus est via recta facilis et apta.</p>
-      <p xml:id="NICCOM0010">Isidorus: Musica est peritia modulationis sono cantuque consistens et est
-        una ex septem liberalibus artibus.</p>
-      <p xml:id="NICCOM0011">Bernardus: Musica est ars humana spectabilis et suavis quum sonus in coelo
-        et n terra modulatur.</p>
-      <p xml:id="NICCOM0012">Guido: [Quid] est musicus?--Musicus est ille qui pensat rationes musicales
-        et scientiam canendi assumit; nam</p>
+      <p xml:id="NICCOM0010">Isidorus: Musica est peritia modulationis sono cantuque consistens et
+        est una ex septem liberalibus artibus.</p>
+      <p xml:id="NICCOM0011">Bernardus: Musica est ars humana spectabilis et suavis quum sonus in
+        coelo et n terra modulatur.</p>
+      <p xml:id="NICCOM0012">Guido: [Quid] est musicus?--Musicus est ille qui pensat rationes
+        musicales et scientiam canendi assumit; nam</p>
       <p xml:id="NICCOM0013">Musicorum et cantorum magna est distantia;</p>
       <p xml:id="NICCOM0014">Isti dicunt, illi sciunt quidquid est in musica;</p>
       <p xml:id="NICCOM0015">Nam qui facit quod non sapit diffinitur bestia.</p>
       <p xml:id="NICCOM0016">Unde versus:</p>
       <p xml:id="NICCOM0017">Bestia, non est cantor qui non canit arte sed usu.</p>
       <p xml:id="NICCOM0018">Non vox facit artis cantores, sed documentum.</p>
-      <p xml:id="NICCOM0019">Quid est ars?--Ars est cujuslibet scientiae multorum praeceptorum ad finem
-        tendentium copia.</p>
-      <p xml:id="NICCOM0020">Quid est introductio?--Introductio est brevis rei demonstratio aperta.</p>
+      <p xml:id="NICCOM0019">Quid est ars?--Ars est cujuslibet scientiae multorum praeceptorum ad
+        finem tendentium copia.</p>
+      <p xml:id="NICCOM0020">Quid est introductio?--Introductio est brevis rei demonstratio
+        aperta.</p>
       <p xml:id="NICCOM0021">Quid est cantus?--Cantus est dulcis consonantia vocum. Vel cantus est
         elevatio vel depositio vocum.</p>
-      <p xml:id="NICCOM0022">Quid est discantus?--Discantus dicitur quia diversus cantus; et formatur ex
-        consonantiis aliquorum diversorum cantuum in quibus diversi cantus per longas, breves et
-        semi-breves proportionaliter adaequantur.</p>
-      <p xml:id="NICCOM0023">Quid est concordia in musica?--Concordia est sonus prolatus a voce humana
-        in debitis figuris sive speciebus ordinatus; vel sic: concordantia est idem quod
+      <p xml:id="NICCOM0022">Quid est discantus?--Discantus dicitur quia diversus cantus; et
+        formatur ex consonantiis aliquorum diversorum cantuum in quibus diversi cantus per longas,
+        breves et semi-breves proportionaliter adaequantur.</p>
+      <p xml:id="NICCOM0023">Quid est concordia in musica?--Concordia est sonus prolatus a voce
+        humana in debitis figuris sive speciebus ordinatus; vel sic: concordantia est idem quod
         consonantia.</p>
       <p xml:id="NICCOM0024">Quid est consonantia?--Consonantia est duarum vocum dissimilium in una
         redacta concordia.</p>
       <p xml:id="NICCOM0025">
         <pb n="[311]"/>Quid est dissonantia?--Dissonantia est dura collisio et aspera vocis
         permixtio.</p>
-      <p xml:id="NICCOM0026">Quid est sonus?--Sonus est res sensibilis; sed sonus in musica est propria
-        vox quae cantatur vel instrumentis pulsatur.</p>
+      <p xml:id="NICCOM0026">Quid est sonus?--Sonus est res sensibilis; sed sonus in musica est
+        propria vox quae cantatur vel instrumentis pulsatur.</p>
       <p xml:id="NICCOM0027">Quid est nota?--Nota est figura quae proprie voces musicales
         representat.</p>
       <p xml:id="NICCOM0028">Quid est theorica?--Theorica est cognitio veritatis et illuminatio
         intellectus.</p>
       <p xml:id="NICCOM0029">Quid est pratica?--Pratica est illa quae habet theoricam susceptam
         demonstratam.</p>
-      <p xml:id="NICCOM0030">Quid est harmonia?--Harmonia est diversarum vocum coadunatio in unum.</p>
+      <p xml:id="NICCOM0030">Quid est harmonia?--Harmonia est diversarum vocum coadunatio in
+        unum.</p>
       <p xml:id="NICCOM0031">Quod sunt genera cantus?--Musica angelica, musica humana et musica
         instrumentalis. Musica angelica est illa quae ab angelis ante conspectum Dei semper
         administrat. Musica humana est illa quae ab humana voce profertur, et ab ista formatur
@@ -126,11 +138,12 @@
         musicalibus exercetur sicut in Psalmista continetur: Laudate Dominum in tympano et choro, in
         cordis et organo.</p>
       <p xml:id="NICCOM0032">Quis ordinavit cantum in sinistra manu?--Guido monachus.</p>
-      <p xml:id="NICCOM0033">Quot sunt litterae latinae?--Septem, scilicet: a, b, c, d, e, f, g et una
-        littera graeca quae notatur gamma et est in principio manus.</p>
+      <p xml:id="NICCOM0033">Quot sunt litterae latinae?--Septem, scilicet: a, b, c, d, e, f, g et
+        una littera graeca quae notatur gamma et est in principio manus.</p>
       <p xml:id="NICCOM0034">Quot sunt litterae graves?--Septem, scilicet: A, B, C, D, E, F, G.</p>
       <p xml:id="NICCOM0035">Quot sunt litterae acutae?--Septem, scilicet: a, b, c, d, e, f, g.</p>
-      <p xml:id="NICCOM0036">Quot sunt litterae superacutae?--Quinque, scilicet: aa, bb, cc, dd, ee.</p>
+      <p xml:id="NICCOM0036">Quot sunt litterae superacutae?--Quinque, scilicet: aa, bb, cc, dd,
+        ee.</p>
       <p xml:id="NICCOM0037">Quot sunt voces?--Sex, scilicet: Ut, re, mi, fa, sol, la.</p>
       <p xml:id="NICCOM0038">Quot sunt proprietates?--Tres, scilicet: [sqb], natura et [rob]. Unde
         versus:</p>
@@ -139,20 +152,20 @@
       <p xml:id="NICCOM0041">Quid est b molle?--B molle est quaedam dulcis proprietas.</p>
       <p xml:id="NICCOM0042">Quid est natura?--Natura est medialis et naturalis proprietas.</p>
       <p xml:id="NICCOM0043">Quid est [sqb] quadrum?--[sqb] quadrum est quaedam dura proprietas.</p>
-      <p xml:id="NICCOM0044">Quid est proprietas?--Proprietas est distinctio cantus, ut supra diximus;
-        est [sqb] quadrum, natura et [rob] molle.</p>
+      <p xml:id="NICCOM0044">Quid est proprietas?--Proprietas est distinctio cantus, ut supra
+        diximus; est [sqb] quadrum, natura et [rob] molle.</p>
       <p xml:id="NICCOM0045">Quot sunt reformationes?--Septem, scilicet: ubicumque est ut ibi est
         reformatio; prima in gammaut, secunda in C grave, tertia in F grave, quarta in G grave,
         quinta in c acuto, sexta in f acuto et septima in g acuto.</p>
       <p xml:id="NICCOM0046">
         <pb n="[312]"/>Quot sunt claves?--Duae, prima in F grave, secunda in c acuto.</p>
-      <p xml:id="NICCOM0047">Quot sunt signa quae figurantur in cantu?--Duo, scilicet: [sqb] quadrumet
-        [rob] molle.</p>
-      <p xml:id="NICCOM0048">Quot sunt species in plana musica?--Tresdecim, scilicet: unisonus, tonus,
-        semitonius, ditonus, semiditonus, diatessaron, tritonus, diapente, diapente cum tono,
+      <p xml:id="NICCOM0047">Quot sunt signa quae figurantur in cantu?--Duo, scilicet: [sqb]
+        quadrumet [rob] molle.</p>
+      <p xml:id="NICCOM0048">Quot sunt species in plana musica?--Tresdecim, scilicet: unisonus,
+        tonus, semitonius, ditonus, semiditonus, diatessaron, tritonus, diapente, diapente cum tono,
         diapente cum semitonio, diapente cum ditono, diapente cum semiditono et diapason.</p>
-      <p xml:id="NICCOM0049">Quid est species?--Species est conjunctio duarum vocum cum aliquo numero
-        ordinata.</p>
+      <p xml:id="NICCOM0049">Quid est species?--Species est conjunctio duarum vocum cum aliquo
+        numero ordinata.</p>
       <p xml:id="NICCOM0050">Quid est mutatio?--Mutatio est variatio nominis vocis et dimissio
         proprietatis.</p>
       <p xml:id="NICCOM0051">Quid est conjunctio?--Conjunctio est ordinatio vocum in syllabis et
@@ -168,21 +181,21 @@
       <p xml:id="NICCOM0055">Tertius et quartus in E vel in [sqb] quadro;</p>
       <p xml:id="NICCOM0056">Quintus et sextus in F vel in c dominantur;</p>
       <p xml:id="NICCOM0057">Septimus et octavus in G non mutantur.</p>
-      <p xml:id="NICCOM0058">Quot sunt toni authentici?--Quatuor, scilicet: primus, tertius, quintus et
-        septimus.</p>
-      <p xml:id="NICCOM0059">Quot sunt toni plagales?--Quatuor, scilicet: secundus, quartus, sextus, et
-        octavus.</p>
+      <p xml:id="NICCOM0058">Quot sunt toni authentici?--Quatuor, scilicet: primus, tertius, quintus
+        et septimus.</p>
+      <p xml:id="NICCOM0059">Quot sunt toni plagales?--Quatuor, scilicet: secundus, quartus, sextus,
+        et octavus.</p>
       <p xml:id="NICCOM0060">Quomodo toni authentici efficiuntur perfecti?--Quando toni authentici
         ascendunt ad octavam supra suam hanc finalem, tunc sunt perfecti; si vero plus ascendunt,
         plusquamperfecti sunt; si autem minus ascendunt, imperfecti sunt.</p>
-      <p xml:id="NICCOM0061">Quomodo plagales efficiuntur perfecti?--Quando toni plagales descendunt ad
-        quatuor voces sub suam hanc finalem, tunc sunt perfecti; si vero plus descendunt,
+      <p xml:id="NICCOM0061">Quomodo plagales efficiuntur perfecti?--Quando toni plagales descendunt
+        ad quatuor voces sub suam hanc finalem, tunc sunt perfecti; si vero plus descendunt,
         plusquamperfecti sunt; si autem minus descendunt, imperfecti sunt.</p>
-      <p xml:id="NICCOM0062">Quid est tonus mixtus?--Tonus mixtus est ille qui miscetur cum suo socio,
-        scilicet: primus cum secundo, vel secundus cum primo, tertius cum quarto, vel quartus cum
-        tertio et sic de aliis.</p>
-      <p xml:id="NICCOM0063">Quid est tonus commixtus?--Tonus commixtus est ille qui non miscetur suo
-        socio, sed alio; quando primus miscetur cum quarto vel quinto et non cum secundo.</p>
+      <p xml:id="NICCOM0062">Quid est tonus mixtus?--Tonus mixtus est ille qui miscetur cum suo
+        socio, scilicet: primus cum secundo, vel secundus cum primo, tertius cum quarto, vel quartus
+        cum tertio et sic de aliis.</p>
+      <p xml:id="NICCOM0063">Quid est tonus commixtus?--Tonus commixtus est ille qui non miscetur
+        suo socio, sed alio; quando primus miscetur cum quarto vel quinto et non cum secundo.</p>
       <p xml:id="NICCOM0064">Quot sunt consonantiae in plana musica?--Duae, scilicet: diatessaron et
         diapente.</p>
       <p xml:id="NICCOM0065">
@@ -225,27 +238,28 @@
         quadrum natura et [rob] molle. Unde versus:</p>
       <p xml:id="NICCOM0076">C natura dat, F [rob] molle e contrario signat</p>
       <p xml:id="NICCOM0077">G quoque [sqb] durum semper habeas caniturus.</p>
-      <p xml:id="NICCOM0078">Unde dicitur: omne ut incipiens in G cantatur per [sqb] quadrum cum omnibus
-        suis descendentibus, scilicet: re, mi, fa, sol, la; omne ut incipiens in F cantatur per
-        [rob] molle, cum omnibus suis descendentibus.</p>
+      <p xml:id="NICCOM0078">Unde dicitur: omne ut incipiens in G cantatur per [sqb] quadrum cum
+        omnibus suis descendentibus, scilicet: re, mi, fa, sol, la; omne ut incipiens in F cantatur
+        per [rob] molle, cum omnibus suis descendentibus.</p>
       <p xml:id="NICCOM0079">Item septem sunt reformationes in manu, videlicet prima in gamma ut,
         secunda in C grave, tertia in F grave, quarta in G grave, quinta in c acuto, sexta in f
         acuto, septima in g acuto. Dicuntur reformationes quia omnes aliae voces formantur et
         descendunt a voce ut, quoniam ut est principium et origo omnium aliarum vocum.</p>
-      <p xml:id="NICCOM0080">Item duae sunt claves, et alii faciunt tres per quas totus cantus aperitur;
-        videlicet una in F grave, et una in c acuto; ut hic: [ClefF, ClefC]</p>
+      <p xml:id="NICCOM0080">Item duae sunt claves, et alii faciunt tres per quas totus cantus
+        aperitur; videlicet una in F grave, et una in c acuto; ut hic: [ClefF, ClefC]</p>
       <p xml:id="NICCOM0081">clavis est reseratio notarum.</p>
       <p xml:id="NICCOM0082">Item duo sunt signa quae in cantu figurantur, scilicet: b molle et b
         quadrum. Reperiuntur ambo ista signa in bfa bmi, et sunt differentes in figura; unum est
         rotundum [rob] et alius est quadratum [sqb]. Et nota quod in illo loco ubi invenitur b
         rotundum, dicitur fa et cantatur per bmolle; et in illo loco ubi invenitur b quadratum, ibi
         dicitur mi et cantatur per b quadrum.</p>
-      <p xml:id="NICCOM0083">Item non quaerendum est FA, id est clavis, tanquam si fa inveniretur sub
-        litteris gravibus, illa proprietas debet denotari gravis; si sub litteris acutis, <pb n="[315]"/>debet denotari acuta; si sub litteris superacutis, illa proprietas sive
+      <p xml:id="NICCOM0083">Item non quaerendum est FA, id est clavis, tanquam si fa inveniretur
+        sub litteris gravibus, illa proprietas debet denotari gravis; si sub litteris acutis, <pb
+          n="[315]"/>debet denotari acuta; si sub litteris superacutis, illa proprietas sive
         deductio debet denotari superacuta. Sequitur de mutationibus.</p>
-      <p xml:id="NICCOM0084">Videndum quid sit mutatio. Mutatio est dimissio unius proprietatis propter
-        aliam, sive variatio nominis vocis sive notae in eodem spatio vel linea sub uno sono et
-        etiam sub uno signo, id est sub una littera.</p>
+      <p xml:id="NICCOM0084">Videndum quid sit mutatio. Mutatio est dimissio unius proprietatis
+        propter aliam, sive variatio nominis vocis sive notae in eodem spatio vel linea sub uno sono
+        et etiam sub uno signo, id est sub una littera.</p>
       <p xml:id="NICCOM0085">Item sciendum est quod in gammaut, in Are, in Bmi, et in Ela, nulla est
         mutatio, cum in quolibet istorum non est nisi una sola vox et opportet quod sint duae voces
         ad faciendam mutationem, id est, immutando unam vocem in aliam. Quodlibet istorum signorum
@@ -281,45 +295,46 @@
       <p xml:id="NICCOM0086">
         <pb n="[316]"/>Sequuntur tredecim species quae reperiuntur in plana musica per quas tota
         cognoscitur musica et ordinatur.</p>
-      <p xml:id="NICCOM0087">Et primo quod sit unissonus et quomodo species formantur. Unissonus dicitur
-        aequalis sonus et formatur per duas voces aequales positas in una linea vel spatio, sub uno
-        signo, id est sub una littera et quum una vox vel consonantia vel plures voces in una linea
-        vel spatio; et etiam unissonus est quodcumque fit cum violenta percussione verberati aeris
-        ad aures immediate devenientis et supra totum in una linea vel spatio.</p>
-      <p xml:id="NICCOM0088">Tonus formatur per duas voces tam ascendendo quam descendendo et dicitur a
-        tonando et constat ex duobus vocibus. Et nota quod re mi ascendens est tonus in perfectione
-        et ideo additur ista figura [signa] quae vocatur dia......</p>
+      <p xml:id="NICCOM0087">Et primo quod sit unissonus et quomodo species formantur. Unissonus
+        dicitur aequalis sonus et formatur per duas voces aequales positas in una linea vel spatio,
+        sub uno signo, id est sub una littera et quum una vox vel consonantia vel plures voces in
+        una linea vel spatio; et etiam unissonus est quodcumque fit cum violenta percussione
+        verberati aeris ad aures immediate devenientis et supra totum in una linea vel spatio.</p>
+      <p xml:id="NICCOM0088">Tonus formatur per duas voces tam ascendendo quam descendendo et
+        dicitur a tonando et constat ex duobus vocibus. Et nota quod re mi ascendens est tonus in
+        perfectione et ideo additur ista figura [signa] quae vocatur dia......</p>
       <p xml:id="NICCOM0089">......... continens in se tres tonos cum uno semitonio. Dicitur autem
         diapente a dia quod est duo et pente quod est quinque; eo quod de quinque vocibus composita
         est. Et est secunda consonantia in plana musica.</p>
-      <p xml:id="NICCOM0090">Diapente cum tono formatur a sex vocibus continens in se quatuor tonos cum
-        uno semitonio.</p>
-      <p xml:id="NICCOM0091">Diapente cum semitonio formatur a sex vocibus, continens in se tres tonos
-        cum duobus semitoniis.</p>
+      <p xml:id="NICCOM0090">Diapente cum tono formatur a sex vocibus continens in se quatuor tonos
+        cum uno semitonio.</p>
+      <p xml:id="NICCOM0091">Diapente cum semitonio formatur a sex vocibus, continens in se tres
+        tonos cum duobus semitoniis.</p>
       <p xml:id="NICCOM0092">Diapente cum ditono formatur a septem vocibus, continens in se quinque
         tonos cum uno semitonio.</p>
-      <p xml:id="NICCOM0093">Diapente cum semiditono formatur a septem vocibus continens in se quatuor
-        tonos cum duobus semitoniis.</p>
-      <p xml:id="NICCOM0094">Diapason est ultima species, et formatur ab octo vocibus, continens in se
-        quinque tonos cum duobus semitoniis. Est autem diapason consonantia, et dicitur a dia, quod
-        est duo, et pason, quod est totum, eo quod omnes supradictas species in se continet; et nota
-        quod supradictae species, scilicet omnes, possunt formari sane vel gradatim, et in vocibus
-        unius-cujusque inveneris A cum a, B cum b, C cum c, similis cum simili, id est diapason.</p>
-      <p xml:id="NICCOM0095">Dictum de speciebus, sciendum est quod omnis ecclesiasticus cantus formatur
-        et componitur ex praedictis speciebus. Unde, secundum Gregorium papam, <pb n="[317]"/>octo
-        sunt toni vel modi compositi et ordinati in ecclesia Dei; scilicet primus secundus, tertius,
-        quartus, quintus, sextus, septimus et octavus. Et antiquitus non erant nisi quatuor et sic
-        vocabantur protus, deuterus, tritus et tetrardus. Modus autem protus dicitur primus,
-        deuterus dicitur tertius, tritus dicitur quintus, tetrardus dicitur septimus. Isti quatuor
-        supradicti talem potestatem habebant quod unusquisque ipsorum poterat ascendere ad decimam
-        vocem et descendere per quintam, quod valde laboriosum erat voci humanae proferre. Et ideo
-        considerans beatissimus Gregorius talem ascensum et descensum, alios quatuor tonos adjunxit
-        et sic sunt octo, ut supradictum est. Et est sciendum quod primi quatuor, scilicet primus,
-        tertius, quintus, septimus vocantur principales, quia primo inventi fuerunt, ideo digniores
-        sunt. Illis quatuor fuerunt adjuncti scilicet secundus, quartus, sextus et octavus; vocantur
-        collaterales, seu subjugales, sive plagales. Alii dicuntur authentici, quia altas
-        elevationes tenent in cantu. Plagales dicuntur quia mediocriter elevationes et depositiones
-        tenent in cantu.</p>
+      <p xml:id="NICCOM0093">Diapente cum semiditono formatur a septem vocibus continens in se
+        quatuor tonos cum duobus semitoniis.</p>
+      <p xml:id="NICCOM0094">Diapason est ultima species, et formatur ab octo vocibus, continens in
+        se quinque tonos cum duobus semitoniis. Est autem diapason consonantia, et dicitur a dia,
+        quod est duo, et pason, quod est totum, eo quod omnes supradictas species in se continet; et
+        nota quod supradictae species, scilicet omnes, possunt formari sane vel gradatim, et in
+        vocibus unius-cujusque inveneris A cum a, B cum b, C cum c, similis cum simili, id est
+        diapason.</p>
+      <p xml:id="NICCOM0095">Dictum de speciebus, sciendum est quod omnis ecclesiasticus cantus
+        formatur et componitur ex praedictis speciebus. Unde, secundum Gregorium papam, <pb
+          n="[317]"/>octo sunt toni vel modi compositi et ordinati in ecclesia Dei; scilicet primus
+        secundus, tertius, quartus, quintus, sextus, septimus et octavus. Et antiquitus non erant
+        nisi quatuor et sic vocabantur protus, deuterus, tritus et tetrardus. Modus autem protus
+        dicitur primus, deuterus dicitur tertius, tritus dicitur quintus, tetrardus dicitur
+        septimus. Isti quatuor supradicti talem potestatem habebant quod unusquisque ipsorum poterat
+        ascendere ad decimam vocem et descendere per quintam, quod valde laboriosum erat voci
+        humanae proferre. Et ideo considerans beatissimus Gregorius talem ascensum et descensum,
+        alios quatuor tonos adjunxit et sic sunt octo, ut supradictum est. Et est sciendum quod
+        primi quatuor, scilicet primus, tertius, quintus, septimus vocantur principales, quia primo
+        inventi fuerunt, ideo digniores sunt. Illis quatuor fuerunt adjuncti scilicet secundus,
+        quartus, sextus et octavus; vocantur collaterales, seu subjugales, sive plagales. Alii
+        dicuntur authentici, quia altas elevationes tenent in cantu. Plagales dicuntur quia
+        mediocriter elevationes et depositiones tenent in cantu.</p>
       <p xml:id="NICCOM0096">Sequitur de formationibus dictorum tonorum. Sciendum est quod primus et
         secundus tonus formantur a prima specie diapente, quae est re-la. Tertius et quartus
         formantur a secunda specie quae est mi-mi, scilicet diapente. Quintus et sextus formantur a
@@ -330,12 +345,12 @@
         sextus, septimus, octavus.] <figure>
           <graphic url="/images/NICCOM_01GF.gif"/>
         </figure></p>
-      <p xml:id="NICCOM0098">Item sciendum est quod unusquisque dictorum tonorum habet unam diatessaron
-        quae formatur super suam diapente. Et haec est diatessaron primi toni: la-re. Tertius tonus
-        habet istam diatessaron, quae est mi-la et formatur super suam diapente, quae est mi-mi.
-        Quintus tonus habet istam diatessaron, quae formatur super suam diapente scilicet fa-fa vel
-        ut-fa diatessaron. Septimus tonus habet istam diatessaron, quae formatur super suam
-        diapente, scilicet: sol-sol, ut hic apparet per exemplum:</p>
+      <p xml:id="NICCOM0098">Item sciendum est quod unusquisque dictorum tonorum habet unam
+        diatessaron quae formatur super suam diapente. Et haec est diatessaron primi toni: la-re.
+        Tertius tonus habet istam diatessaron, quae est mi-la et formatur super suam diapente, quae
+        est mi-mi. Quintus tonus habet istam diatessaron, quae formatur super suam diapente scilicet
+        fa-fa vel ut-fa diatessaron. Septimus tonus habet istam diatessaron, quae formatur super
+        suam diapente, scilicet: sol-sol, ut hic apparet per exemplum:</p>
       <p xml:id="NICCOM0099">[De La Fage, 317,2]</p>
       <p xml:id="NICCOM0100">
         <pb n="[318]"/>Plagalium secundus tonus, habet duas diatessaron, scilicet: re sol et sol re;
@@ -354,19 +369,19 @@
         licentialiter. Et est sciendum quod quum toni authentici ascendunt ad octavam vocem et
         descendunt per unam vocem, sunt perfecti. Si vero non ascendunt ad octavam, sunt imperfecti;
         si autem plus ascendunt vel descendunt, sunt plusquamperfecti.</p>
-      <p xml:id="NICCOM0105">Item nota quod toni plagales habent potestatem ascendere ad quintam vocem
-        regulariter supra litteras finales suas. Licentialiter autem possunt ascendere ad sextam,
-        raro autem ad septimam et possunt ascendere ad quartam vocem regulariter et ad quintam
-        licentialiter. Et est sciendum quod cum toni plagales ad quintam ascendunt et ad quartam
-        descendunt, sunt perfecti. Si vero non ascendunt ad quintam et non descendunt per quartam,
-        sunt imperfecti. Si autem plus ascendunt vel descendunt, plusquamperfecti sunt.</p>
+      <p xml:id="NICCOM0105">Item nota quod toni plagales habent potestatem ascendere ad quintam
+        vocem regulariter supra litteras finales suas. Licentialiter autem possunt ascendere ad
+        sextam, raro autem ad septimam et possunt ascendere ad quartam vocem regulariter et ad
+        quintam licentialiter. Et est sciendum quod cum toni plagales ad quintam ascendunt et ad
+        quartam descendunt, sunt perfecti. Si vero non ascendunt ad quintam et non descendunt per
+        quartam, sunt imperfecti. Si autem plus ascendunt vel descendunt, plusquamperfecti sunt.</p>
       <p xml:id="NICCOM0106">Et nota quod toni authentici efficiuntur perfecti in ascensu, sicut
         plagales in descensu; quia naturaliter cantus tonorum authenticorum gaudent in ascensu,
         plagalium vero in descensu. Unde sciendum est quod alii toni reperiuntur perfecti, alii
         imperfecti, alii plusquamperfecti, alii mixti, alii commixti. Per ordinem de omnibus
         videndum est.</p>
-      <p xml:id="NICCOM0107">Notandum est quod toni perfecti authentici sunt illi qui servant regulam
-        eis <pb n="[319]"/>datam ab autoribus et non transeunt terminum in ascensu neque in
+      <p xml:id="NICCOM0107">Notandum est quod toni perfecti authentici sunt illi qui servant
+        regulam eis <pb n="[319]"/>datam ab autoribus et non transeunt terminum in ascensu neque in
         descensu. Et idem de plagalibus.</p>
       <p xml:id="NICCOM0108">Per ordinem exempla sequuntur:</p>
       <p xml:id="NICCOM0109">Exemplum de primo tono perfecto, ut apparet in introitu Statuit ei
@@ -374,8 +389,8 @@
       <p xml:id="NICCOM0110">[De La Fage, 319,1] <figure>
           <graphic url="/images/NICCOM_02GF.gif"/>
         </figure></p>
-      <p xml:id="NICCOM0111">Exemplum de primo tono imperfecto, ut apparet in introitu Gaudeamus omnes
-        in Domino:</p>
+      <p xml:id="NICCOM0111">Exemplum de primo tono imperfecto, ut apparet in introitu Gaudeamus
+        omnes in Domino:</p>
       <p xml:id="NICCOM0112">[De La Fage, 319,2]</p>
       <p xml:id="NICCOM0113">Exemplum de primo tono plusquam perfecto, ut apparet in introitu:
         Suscepimus Deus viam tuam et sic intelligendum de omnibus aliis authenticis qui in suis
@@ -384,8 +399,8 @@
       <p xml:id="NICCOM0115">Exemplum de secundo tono perfecto, ut apparet in introitu: Adultae
         tribulationes justorum:</p>
       <p xml:id="NICCOM0116">[De La Fage, 319,4]</p>
-      <p xml:id="NICCOM0117">Exemplum de secundo tono imperfecto, ut apparet in introitu: Salve sancta
-        parens:</p>
+      <p xml:id="NICCOM0117">Exemplum de secundo tono imperfecto, ut apparet in introitu: Salve
+        sancta parens:</p>
       <p xml:id="NICCOM0118">[De La Fage, 319,5]</p>
       <p xml:id="NICCOM0119">
         <pb n="[320]"/>Exemplum de secundo tono plusquamperfecto, ut apparet in offertorio: Veritas
@@ -421,22 +436,22 @@
         cognosces.</p>
       <p xml:id="NICCOM0141">Exemplum de secundo tono commixto cum quinto:</p>
       <p xml:id="NICCOM0142">[De La Fage, 321,4]</p>
-      <p xml:id="NICCOM0143">Item sciendum est quod tonus commixtus est ille qui capit immixtionem cum
-        alio quam cum suo socio; scilicet quum primus non mixitur cum secundo, neque secundus cum
-        primo, tertius cum quarto, quintus cum sexto et septimus cum octavo.</p>
-      <p xml:id="NICCOM0144">Et nota quod tonus authenticus commixtus dicitur ille qui non mixitur cum
-        suo plagali, et tonus plagalis non mixitur cum suo authentico, ut de his omnibus exemplum
-        patet.</p>
-      <p xml:id="NICCOM0145">Et nota quod hic auctor ponit specialem regulam et vult quod primus tonus
-        possit ascendere et descendere infra easdem species. Per voluntatem autoris discurrendo, non
-        est intelligendum quod semper hoc debeat facere actum, sed potestate, cum exigit necessitas.
-        Ratio talis est: primus tonus est principalis omnium tonorum et dignior, propterea hanc
-        specialem regulam sibi attribuit.</p>
-      <p xml:id="NICCOM0146">Item concessum est quod quintus tonus possit descendere per semiditonum, si
-        regulariter formatur, quamvis omnis tonus authenticus descendere debeat per unam vocem sub
-        sua littera finali. Itaque talis descensus sit uniuscujusque toni authentici, et si quintus
-        descenderet per unam vocem, plus non haberet quam semitonium sub se: et ideo conceditur quod
-        possit descendere per semiditonum.</p>
+      <p xml:id="NICCOM0143">Item sciendum est quod tonus commixtus est ille qui capit immixtionem
+        cum alio quam cum suo socio; scilicet quum primus non mixitur cum secundo, neque secundus
+        cum primo, tertius cum quarto, quintus cum sexto et septimus cum octavo.</p>
+      <p xml:id="NICCOM0144">Et nota quod tonus authenticus commixtus dicitur ille qui non mixitur
+        cum suo plagali, et tonus plagalis non mixitur cum suo authentico, ut de his omnibus
+        exemplum patet.</p>
+      <p xml:id="NICCOM0145">Et nota quod hic auctor ponit specialem regulam et vult quod primus
+        tonus possit ascendere et descendere infra easdem species. Per voluntatem autoris
+        discurrendo, non est intelligendum quod semper hoc debeat facere actum, sed potestate, cum
+        exigit necessitas. Ratio talis est: primus tonus est principalis omnium tonorum et dignior,
+        propterea hanc specialem regulam sibi attribuit.</p>
+      <p xml:id="NICCOM0146">Item concessum est quod quintus tonus possit descendere per
+        semiditonum, si regulariter formatur, quamvis omnis tonus authenticus descendere debeat per
+        unam vocem sub sua littera finali. Itaque talis descensus sit uniuscujusque toni authentici,
+        et si quintus descenderet per unam vocem, plus non haberet quam semitonium sub se: et ideo
+        conceditur quod possit descendere per semiditonum.</p>
       <p xml:id="NICCOM0147">
         <pb n="[322]"/>Item concessum est quod versus responsorii tertii toni incipiat ad sextam,
         sed omnes alii toni authentici incipiunt ad quintam super suam litteram finalem; sed
@@ -444,13 +459,13 @@
         bmi, ubi sunt contraria signa et locus suspectus propter tritonum. Ideo conceditur quod
         possit incipere ad sextam vocem.</p>
       <p xml:id="NICCOM0148">Notandum est quomodo debemus diversos tonos cantare.</p>
-      <p xml:id="NICCOM0149">Nota quod primum tonum debemus cantare per naturam vel per b quadrum, quum
-        ita possumus ad implendum modum suum; quia in ipso prima species diapente et diatessaron
-        reperiuntur, a quibus rationabiliter formatur; quod si sic non esset, cantaretur per b
-        molle.</p>
-      <p xml:id="NICCOM0150">Et est sciendum quod si cantus primi toni in c ascendat et non plus, tunc
-        saepe per naturam et per b quadrum cantatur; si vero ascendit in [rob] acutum et non plus,
-        tunc per naturam et per b molle ad evitandum tritonum.</p>
+      <p xml:id="NICCOM0149">Nota quod primum tonum debemus cantare per naturam vel per b quadrum,
+        quum ita possumus ad implendum modum suum; quia in ipso prima species diapente et
+        diatessaron reperiuntur, a quibus rationabiliter formatur; quod si sic non esset, cantaretur
+        per b molle.</p>
+      <p xml:id="NICCOM0150">Et est sciendum quod si cantus primi toni in c ascendat et non plus,
+        tunc saepe per naturam et per b quadrum cantatur; si vero ascendit in [rob] acutum et non
+        plus, tunc per naturam et per b molle ad evitandum tritonum.</p>
       <p xml:id="NICCOM0151">Et notandum est quod si mutatio fit in aliquo tantum primi toni vel
         secundi: in a sive a natura in b molle, sive a natura in b quadro, cum diversus cantus
         descendat et iterum tangat a, in acuto debemus dicere la ad petitionem diversorum tonorum,
@@ -459,11 +474,11 @@
         formantur.</p>
       <p xml:id="NICCOM0152">Secundus tonus cantatur per naturam et b molle, quia ultra sextam a suo
         finali raro ascendit et si plus ascendit cantatur per b quadrum.</p>
-      <p xml:id="NICCOM0153">Tertius tonus cantatur per naturam et per b quadrum; cujus ratio talis est,
-        quod omnis tonus a suo fine diapente sursum reddit; raro autem per b molle.</p>
-      <p xml:id="NICCOM0154">Quartus tonus cantatur per naturam et per b quadrum, ratione dicti tertii.
-        Sed sunt aliqui cantus istius toni ascendentes in b et non plus; quum sic ascendit cantus
-        cantatur per naturam et per b mollem ad evitandum tritonum.</p>
+      <p xml:id="NICCOM0153">Tertius tonus cantatur per naturam et per b quadrum; cujus ratio talis
+        est, quod omnis tonus a suo fine diapente sursum reddit; raro autem per b molle.</p>
+      <p xml:id="NICCOM0154">Quartus tonus cantatur per naturam et per b quadrum, ratione dicti
+        tertii. Sed sunt aliqui cantus istius toni ascendentes in b et non plus; quum sic ascendit
+        cantus cantatur per naturam et per b mollem ad evitandum tritonum.</p>
       <p xml:id="NICCOM0155">Quintus tonus cantatur per b molle. Ratio talis est quod in b molle
         nascitur. Sed sunt aliqui cantus istius toni ascendentes in e acutum et non plus; quum sic
         ascendunt, cantantur per b quadrum ad evitandum tritonum. Si vero plus vel minus ascendunt,
@@ -472,14 +487,14 @@
         reinceptio responsorii cantatur per b molle et tunc finis versus debetur cantari per b
         molle; similiter cum versus finis in principio reinceptionis una et eadem sequentia
         tenetur.</p>
-      <p xml:id="NICCOM0156">Sextus tonus cantatur per naturam et per b mollem, ratione dicti quinti et
-        alias cantatur per b quadrum ad evitandum tritonum.</p>
+      <p xml:id="NICCOM0156">Sextus tonus cantatur per naturam et per b mollem, ratione dicti quinti
+        et alias cantatur per b quadrum ad evitandum tritonum.</p>
       <p xml:id="NICCOM0157">Septimus tonus omnino cantatur per b quadrum et per naturam acutam; b
         mollem non debet habere propter diatessaron, quae non potest fieri a b usque ad e
         acutum.</p>
-      <p xml:id="NICCOM0158">Octavus tonus cantatur per b quadrum et alias per b mollem juxta finem ut
-        plurimum. Et hoc ad evitandum tritonum. Et est sciendum quod sunt aliqui cantus istius toni
-        et in aliis tonis in quibus cantamus per fictam musicam, ut apparet <pb n="[323]"/>in
+      <p xml:id="NICCOM0158">Octavus tonus cantatur per b quadrum et alias per b mollem juxta finem
+        ut plurimum. Et hoc ad evitandum tritonum. Et est sciendum quod sunt aliqui cantus istius
+        toni et in aliis tonis in quibus cantamus per fictam musicam, ut apparet <pb n="[323]"/>in
         reinceptione responsorii Sancta et immaculata virginitas, in loco illo Quem coeli capere et
         in similibus; et in..... de Apostolis et in pluribus locis.</p>
       <p xml:id="NICCOM0159">Et nota quod octavus tonus magis appetit b quadrum quam b mollem; sed
@@ -495,9 +510,9 @@
         improprie, quia in alio loco quam in suo finem habet, et hoc ut species ejus melius reperiri
         possint. Dicitur iste talis tonus acquisitus eo quod species ejus acquiruntur per varietatem
         signorum b mollis et b quadrati.</p>
-      <p xml:id="NICCOM0161">Item sciendum est quod sunt nonnulli cantus qui simplices vel anomali dicti
-        sunt; verbi gratia: quum ascendunt ad quintam vocem supra suam litteram finalem et non plus,
-        et non descendunt inferius. Per aliquos notandum tales esse toni mixti: sunt et qui
+      <p xml:id="NICCOM0161">Item sciendum est quod sunt nonnulli cantus qui simplices vel anomali
+        dicti sunt; verbi gratia: quum ascendunt ad quintam vocem supra suam litteram finalem et non
+        plus, et non descendunt inferius. Per aliquos notandum tales esse toni mixti: sunt et qui
         communales vocantur, quia miscitur tunc authenticus cum plagali, vel plagalis cum
         authentico. De quibus advertendum est quod si talis cantus majorem partem recipit in
         elevatione quam in depositione, cantus ille authenticus erit. Et quod multoties aliquis
@@ -516,27 +531,27 @@
       <p xml:id="NICCOM0165">Etsi aliter inveniuntur propter diversitatem modernorum qui subtiliores
         magistri volunt videri.</p>
       <p xml:id="NICCOM0166">Sequitur de principiis tonorum.</p>
-      <p xml:id="NICCOM0167">Quum multi Seculorum vel multae differentiae reperiuntur in tonis, ita et
-        multa principia habent.</p>
-      <p xml:id="NICCOM0168">Unde sciendum est quod primus tonus habet quatuor principia. Et ista sunt
-        principia primi toni, scilicet in C, in D grave, in F, in a; mixtus autem in A et commixtus
-        in G. Ille qui tenet principium in A dicitur mixtus, quia mixtionem facit cum plagali; et
-        ille qui tenet principium in G dicitur commixtus, quia tale principium in tertio et quarto
-        competit.</p>
-      <p xml:id="NICCOM0169">Secundus tonus habet quatuor principia perfecta: in A, in G, in D et in F
-        et unum plusquamperfectum in [Gamma], sed raro reperitur.</p>
+      <p xml:id="NICCOM0167">Quum multi Seculorum vel multae differentiae reperiuntur in tonis, ita
+        et multa principia habent.</p>
+      <p xml:id="NICCOM0168">Unde sciendum est quod primus tonus habet quatuor principia. Et ista
+        sunt principia primi toni, scilicet in C, in D grave, in F, in a; mixtus autem in A et
+        commixtus in G. Ille qui tenet principium in A dicitur mixtus, quia mixtionem facit cum
+        plagali; et ille qui tenet principium in G dicitur commixtus, quia tale principium in tertio
+        et quarto competit.</p>
+      <p xml:id="NICCOM0169">Secundus tonus habet quatuor principia perfecta: in A, in G, in D et in
+        F et unum plusquamperfectum in [Gamma], sed raro reperitur.</p>
       <p xml:id="NICCOM0170">Tertius tonus habet quatuor principia: in G, in F, in C et in c.</p>
-      <p xml:id="NICCOM0171">Quartus tonus habet quinque principia regulariter: in D, in E, in F, in G
-        et in a, et unicum irregulariter, scilicet in c.</p>
-      <p xml:id="NICCOM0172">Quintus tonus habet quatuor principia regulariter in F, in G, in a et in c;
-        et unum irregulariter in D.</p>
+      <p xml:id="NICCOM0171">Quartus tonus habet quinque principia regulariter: in D, in E, in F, in
+        G et in a, et unicum irregulariter, scilicet in c.</p>
+      <p xml:id="NICCOM0172">Quintus tonus habet quatuor principia regulariter in F, in G, in a et
+        in c; et unum irregulariter in D.</p>
       <p xml:id="NICCOM0173">Sextus tonus habet tria principia regulariter in C, in D et in F.
         Irregulariter potest habere in C et in a, et in b, sed non sunt in usu secundum
         Gregorium.</p>
       <p xml:id="NICCOM0174">Septimus tonus habet sex principia in F, in G, in a, in b, in c, et in
         d.</p>
-      <p xml:id="NICCOM0175">Octavus tonus quinque habet principia scilicet: in D, in F, in G, in a et
-        in c et unum plusquamperfectum in C.</p>
+      <p xml:id="NICCOM0175">Octavus tonus quinque habet principia scilicet: in D, in F, in G, in a
+        et in c et unum plusquamperfectum in C.</p>
       <p xml:id="NICCOM0176">Et isti sunt fines tonorum. Sciendum est quod omnis tonus judicatur per
         ultimam notam. Scilicet primus et secundus finiuntur in D regulariter; licentialiter in a.
         Tertius et quartus finiuntur in E regulariter; licentialiter vero in b quadro. Quintus et
@@ -548,50 +563,50 @@
       <p xml:id="NICCOM0180">Septimus et octavus in G. Raro mutantur.</p>
       <p xml:id="NICCOM0181">
         <pb n="[325]"/>Et haec de tonis sufficiant.</p>
-      <p xml:id="NICCOM0182">Sequitur de intonationibus tonorum. Et primo videndum est de primo tono.
-        Unde sciendum est quod multae sunt antiphonae incipientes in ut et non multum ascendentes,
-        sicut aliqua quinta integra vel sana; sic plurimi toni debent intonari per hunc seculorum,
-        scilicet: La la sol fa sol la sol fa mi re. Et nota quod tales seculorum non possunt halere
-        nisi antiphonas quae incipiuntur in ut et ascendunt sicut dictum est.</p>
-      <p xml:id="NICCOM0183">Si non habet aliquam notam, scilicet: re ante ut vel mi, vel aliam et habet
-        diapente, vel incipiat in ut et ascendat in re, tunc per istud, scilicet: La la sol fa sol
-        la sol.</p>
+      <p xml:id="NICCOM0182">Sequitur de intonationibus tonorum. Et primo videndum est de primo
+        tono. Unde sciendum est quod multae sunt antiphonae incipientes in ut et non multum
+        ascendentes, sicut aliqua quinta integra vel sana; sic plurimi toni debent intonari per hunc
+        seculorum, scilicet: La la sol fa sol la sol fa mi re. Et nota quod tales seculorum non
+        possunt halere nisi antiphonas quae incipiuntur in ut et ascendunt sicut dictum est.</p>
+      <p xml:id="NICCOM0183">Si non habet aliquam notam, scilicet: re ante ut vel mi, vel aliam et
+        habet diapente, vel incipiat in ut et ascendat in re, tunc per istud, scilicet: La la sol fa
+        sol la sol.</p>
       <p xml:id="NICCOM0184">Si vero incipiat in re et habet diapente puram, tunc intonatur per
         reascensum ad diapente, scilicet: La la sol fa sol fa sol la.</p>
-      <p xml:id="NICCOM0185">Si non incipiat in re et habeat descensionem in ut antequam ascendat, tunc
-        sic intonatur, scilicet per semiditonum la la sol fa sol la sol fa.</p>
-      <p xml:id="NICCOM0186">Si non ascendit gradatim et tantum per unissonum, sive per unisonantiam,
-        quum sic est intonatur per hunc seculorum: La la sol fa sol fa re.</p>
-      <p xml:id="NICCOM0187">Si non incipiat in fa et descendat antequam ascendat, tunc intonatur sic
-        per rectissimum ditonum: La la sol fa sol la.</p>
-      <p xml:id="NICCOM0188">Si non ascendat, antequam descendat, tunc per demissum tonum: La la sol fa
-        sol la sol.</p>
-      <p xml:id="NICCOM0189">Nota quod nulla antiphona primi toni incipit in sol; si vero incipiat in
-        la, tunc per unisonantiam, ut supra dictum est: La la sol fa sol sol la.</p>
-      <p xml:id="NICCOM0190">Nota quod primus tonus saepe incipit in fa ad intonandum. Item nota quod
-        prima nota antiphonae debet respondere ultimae notae seculorum.</p>
-      <p xml:id="NICCOM0191">Sequitur de secundo tono. Unde sciendum est quod secundus tonus non habet
-        nisi unum vel duo (et raro) seculorum. Et nota quod secundus tonus incipit in ut ad
+      <p xml:id="NICCOM0185">Si non incipiat in re et habeat descensionem in ut antequam ascendat,
+        tunc sic intonatur, scilicet per semiditonum la la sol fa sol la sol fa.</p>
+      <p xml:id="NICCOM0186">Si non ascendit gradatim et tantum per unissonum, sive per
+        unisonantiam, quum sic est intonatur per hunc seculorum: La la sol fa sol fa re.</p>
+      <p xml:id="NICCOM0187">Si non incipiat in fa et descendat antequam ascendat, tunc intonatur
+        sic per rectissimum ditonum: La la sol fa sol la.</p>
+      <p xml:id="NICCOM0188">Si non ascendat, antequam descendat, tunc per demissum tonum: La la sol
+        fa sol la sol.</p>
+      <p xml:id="NICCOM0189">Nota quod nulla antiphona primi toni incipit in sol; si vero incipiat
+        in la, tunc per unisonantiam, ut supra dictum est: La la sol fa sol sol la.</p>
+      <p xml:id="NICCOM0190">Nota quod primus tonus saepe incipit in fa ad intonandum. Item nota
+        quod prima nota antiphonae debet respondere ultimae notae seculorum.</p>
+      <p xml:id="NICCOM0191">Sequitur de secundo tono. Unde sciendum est quod secundus tonus non
+        habet nisi unum vel duo (et raro) seculorum. Et nota quod secundus tonus incipit in ut ad
         intonandum, scilicet in Cfaut; Ut re fa fa fa fa mi ut re re ou fa fa fa fa ut re.</p>
-      <p xml:id="NICCOM0192">Sequitur de tertio tono. Unde sciendum est quod tertius tonus habet tres
-        differentias, vel tres inceptiones antiphonarum. Ergo aliquae antiphonae sunt quae
+      <p xml:id="NICCOM0192">Sequitur de tertio tono. Unde sciendum est quod tertius tonus habet
+        tres differentias, vel tres inceptiones antiphonarum. Ergo aliquae antiphonae sunt quae
         principiunt in mi et tunc intonatur per remissum diatessaron Fa fa mi mi re ut re [ut ut si
         si la sol la].</p>
-      <p xml:id="NICCOM0193">Aliquae antiphonae sunt incipientes in sol et habentes quartam integram,
-        quae sic intonantur: Fa fa fa re fa mi re [ut ut ut la ut si la].</p>
+      <p xml:id="NICCOM0193">Aliquae antiphonae sunt incipientes in sol et habentes quartam
+        integram, quae sic intonantur: Fa fa fa re fa mi re [ut ut ut la ut si la].</p>
       <p xml:id="NICCOM0194">Si ascendit aliqua antiphona quartam gradatim, tunc intonatur per
         unisonantiam, sive per seculorum quod est Fa fa re fa mi re [ut ut la ut si la].</p>
       <p xml:id="NICCOM0195">Si autem habet aliquam notam ante quartam gradatim, tunc intonatur per
         unisonantiam: Fa fa fa mi re mi re ut [ut ut si la si la sol].</p>
-      <p xml:id="NICCOM0196">Aliquoties aliquae antiphonae incipiunt in csolfaut: quum sic, intonatur
-        per <pb n="[326]"/>unisonantiam, quamvis alias non ponatur hoc seculorum: Fa fa fa fa re fa
-        fa [ut ut ut ut la ut ut].</p>
-      <p xml:id="NICCOM0197">Et nota quod tertius tonus saepe incipitur in ut ad intonandum in Gsolreut
-        scilicet in festivis.</p>
-      <p xml:id="NICCOM0198">Sequitur de quarto tono. Ad quem sciendum est quod omnes antiphonae quarti
-        toni cantantur per artem duplam et habent quatuor inceptiones; quod aliquae antiphonae
-        incipiunt in D-solre, et quum sic, intonantur per remissmum tonum et semiditonum: La sol mi
-        fa la sol fa sol.</p>
+      <p xml:id="NICCOM0196">Aliquoties aliquae antiphonae incipiunt in csolfaut: quum sic,
+        intonatur per <pb n="[326]"/>unisonantiam, quamvis alias non ponatur hoc seculorum: Fa fa fa
+        fa re fa fa [ut ut ut ut la ut ut].</p>
+      <p xml:id="NICCOM0197">Et nota quod tertius tonus saepe incipitur in ut ad intonandum in
+        Gsolreut scilicet in festivis.</p>
+      <p xml:id="NICCOM0198">Sequitur de quarto tono. Ad quem sciendum est quod omnes antiphonae
+        quarti toni cantantur per artem duplam et habent quatuor inceptiones; quod aliquae
+        antiphonae incipiunt in D-solre, et quum sic, intonantur per remissmum tonum et semiditonum:
+        La sol mi fa la sol fa sol.</p>
       <p xml:id="NICCOM0199">Et aliquae antiphonae incipiunt in mi et tunc intonantur per hanc
         unisonantiam: La sol mi fa ut re per b molle [la sol la si [rob] sol la].</p>
       <p xml:id="NICCOM0200">Et aliquae in la et tunc intonantur per intensum tonum: La la la la la
@@ -609,23 +624,23 @@
       <p xml:id="NICCOM0204">Sequitur de septimo tono. Unde sciendum est quod septimus tonus habet
         quinque inceptiones et septem seculorum. Sed quum aliqua antiphona incipitur in Gsolreut,
         tunc per intonationes remissi toni: Re re mi re fa mi re [re re mi re ut si la].</p>
-      <p xml:id="NICCOM0205">Et si incipitur in alamire, tunc intonatur per unissonantiam: Re re mi re
-        fa mi [re re mi re do si].</p>
-      <p xml:id="NICCOM0206">Quandoque in bfa bmi, tunc intonatur per remissum semiditonum: Sol sol la
+      <p xml:id="NICCOM0205">Et si incipitur in alamire, tunc intonatur per unissonantiam: Re re mi
+        re fa mi [re re mi re do si].</p>
+      <p xml:id="NICCOM0206">Quandoque in bfa bmi, tunc intonatur per remissum semiditonum: Sol sol
+        la sol fa sol fa [re re mi re ut re ut].</p>
+      <p xml:id="NICCOM0207">Et aliquando in csolfaut et tunc per unisonantiam intonatur: Sol sol la
         sol fa sol fa [re re mi re ut re ut].</p>
-      <p xml:id="NICCOM0207">Et aliquando in csolfaut et tunc per unisonantiam intonatur: Sol sol la sol
-        fa sol fa [re re mi re ut re ut].</p>
-      <p xml:id="NICCOM0208">Quandoque in dlasolre et tunc intonatur per intensum tonum: Sol sol la sol
-        fa re mi [re re mi re ut la si].</p>
-      <p xml:id="NICCOM0209">Et nota quod septimus tonus semper intonatur per csolfaut, ut scilicet: Fa
-        mi fa sol [ut si ut re], vel aliquoties in dlasolre.</p>
+      <p xml:id="NICCOM0208">Quandoque in dlasolre et tunc intonatur per intensum tonum: Sol sol la
+        sol fa re mi [re re mi re ut la si].</p>
+      <p xml:id="NICCOM0209">Et nota quod septimus tonus semper intonatur per csolfaut, ut scilicet:
+        Fa mi fa sol [ut si ut re], vel aliquoties in dlasolre.</p>
       <p xml:id="NICCOM0210">Sequitur de octavo tono. Et primo sciendum est quod octavus tonus habet
         quinque principia sive inceptiones antiphonarum et quatuor diversa seculorum et aliquae
         antiphonae incipiuntur in Csolfaut; et quando sic, intonatur per unisonantiam: Fa fa re fa
         sol fa [ut ut la ut re ut].</p>
-      <p xml:id="NICCOM0211">Aliae vero antiphonae sunt quae incipiuntur in alamire et aliae in Gsolreut
-        et <pb n="[327]"/>aliae in Ffaut. Istae omnes habent unum seculorum: Fa fa mi fa re ut [ut
-        ut si ut la sol].</p>
+      <p xml:id="NICCOM0211">Aliae vero antiphonae sunt quae incipiuntur in alamire et aliae in
+        Gsolreut et <pb n="[327]"/>aliae in Ffaut. Istae omnes habent unum seculorum: Fa fa mi fa re
+        ut [ut ut si ut la sol].</p>
       <p xml:id="NICCOM0212">Sunt vero aliae antiphonae incipientes in Cfaut, et habent intonationem
         novam et incipitur in alamire ad intonandum, et intonatur per remissum tonum: Fa fa re mi re
         [ut ut la si sol].</p>
@@ -636,14 +651,14 @@
       <p xml:id="NICCOM0215">Hae sunt conjunctiones venerabilis Boetii. Et prima conjunctio est quae
         signatur et figuratur per b molle in bmi [si] et habet suum principium in Ffaut:</p>
       <p xml:id="NICCOM0216">[De La Fage, 327,1]</p>
-      <p xml:id="NICCOM0217">Secunda conjunctio Boetii est quae signatur et configuratur per b quadrum,
-        id est in Cfaut, et habet suum principium in Are:</p>
+      <p xml:id="NICCOM0217">Secunda conjunctio Boetii est quae signatur et configuratur per b
+        quadrum, id est in Cfaut, et habet suum principium in Are:</p>
       <p xml:id="NICCOM0218">[De La Fage, 327,2]</p>
       <p xml:id="NICCOM0219">Tertia conjunctio Boetii est quae signatur et figuratur per b molle in
         Elami grave et habet suum principium in bmi [si]:</p>
       <p xml:id="NICCOM0220">[De La Fage, 327,3]</p>
-      <p xml:id="NICCOM0221">Quarta conjuncto Boetii est quae signatur et configuratur per b quadrum in
-        Ffaut grave et habet suum principium in Dsolre; et haec est musica ficta gravis:</p>
+      <p xml:id="NICCOM0221">Quarta conjuncto Boetii est quae signatur et configuratur per b quadrum
+        in Ffaut grave et habet suum principium in Dsolre; et haec est musica ficta gravis:</p>
       <p xml:id="NICCOM0222">[De La Fage, 327,4]</p>
       <p xml:id="NICCOM0223">Quinta conjunctio Boetii est quae signatur et figuratur per b molle in
         alamire acuto et habet suum principium in Elami grave:</p>
@@ -657,26 +672,26 @@
       <p xml:id="NICCOM0227">Septima conjunctio Boetii est illa quae signatur et figuratur per b in
         elami acuto et habet suum principium in bfa bmi [si] acuto:</p>
       <p xml:id="NICCOM0228">[De La Fage, 328,2]</p>
-      <p xml:id="NICCOM0229">Octava conjunctio Boetii est illa quae signatur et figuratur per b quadrum
-        in Ffaut, et habet suum principium in dlasolre:</p>
+      <p xml:id="NICCOM0229">Octava conjunctio Boetii est illa quae signatur et figuratur per b
+        quadrum in Ffaut, et habet suum principium in dlasolre:</p>
       <p xml:id="NICCOM0230">[De La Fage, 328,3]</p>
       <p xml:id="NICCOM0231">Et nota quod clavis est reseratio notarum in cantu quibus signatur: nam
         sicut per clavim reseratur ostium ad conservandum quae intus sunt, sic per clavim in cantu,
         ipse cantus reseratur, et notarum nomina conservantur.</p>
-      <p xml:id="NICCOM0232">Et nota quod cum cantus ascendit gradatim ab F grave usque ad c acutum et
-        iterum revertitur ad F ex parte ante, cantatur per b quadrum, sed ex parte post, per b
+      <p xml:id="NICCOM0232">Et nota quod cum cantus ascendit gradatim ab F grave usque ad c acutum
+        et iterum revertitur ad F ex parte ante, cantatur per b quadrum, sed ex parte post, per b
         molle.</p>
-      <p xml:id="NICCOM0233">Et nota quum facit saltum ab F grave usque ad b acutum, vel ad c acutum,
-        vel ad d acutum, semper debet cantari per b molle.</p>
-      <p xml:id="NICCOM0234">Et nota quod b molle tribus de causis fuit inventum, et fuit inventum per
-        Boetium. Primo causa tritoni; secundo causa essentiae; tertio causa necessitatis. Causa
+      <p xml:id="NICCOM0233">Et nota quum facit saltum ab F grave usque ad b acutum, vel ad c
+        acutum, vel ad d acutum, semper debet cantari per b molle.</p>
+      <p xml:id="NICCOM0234">Et nota quod b molle tribus de causis fuit inventum, et fuit inventum
+        per Boetium. Primo causa tritoni; secundo causa essentiae; tertio causa necessitatis. Causa
         tritoni est quum cantus ascendit gradatim ab F grave usque ad b acutum, et post modum
         descendit in eadem corda. Causa essentiae ut in quinto et in sexto tono multum competit,
         scilicet: ut mi sol mi ut [fa la ut la fa] per b molle grave incipiendo. Causa necessitatis
         est quum cantus per saltum incipiens in F grave: ut fa fa ut [fa si[rob] si[rob] fa], vel:
         ut sol sol ut [fa ut ut fa], sane vel gradatim, ut per exempla inferius:</p>
-      <p xml:id="NICCOM0235">[De La Fage, 328,4; text: In omnibus tonis praeterquam in quinto et sexto.
-        Causa tritoni. Causa essentiae. Causa necessitatis.]</p>
+      <p xml:id="NICCOM0235">[De La Fage, 328,4; text: In omnibus tonis praeterquam in quinto et
+        sexto. Causa tritoni. Causa essentiae. Causa necessitatis.]</p>
       <p xml:id="NICCOM0236">
         <pb n="[329]"/>[De La Fage, 329,1; text: Idem.] <figure>
           <graphic url="/images/NICCOM_07GF.gif"/>
@@ -694,8 +709,8 @@
       <p xml:id="NICCOM0240">Tertius et octavus ut re fa atque secundus;</p>
       <p xml:id="NICCOM0241">La sol la quartus; ut mi sol sit tibi quintus;</p>
       <p xml:id="NICCOM0242">Septimus est fa mi fa sol sic omnes esse recordas.</p>
-      <p xml:id="NICCOM0243">Exempla sequuntur, sive carmina cum tonis et modis et forma ad intonandum
-        omnes psalmos tam in festivis vel festivitatibus quam in ferialibus.</p>
+      <p xml:id="NICCOM0243">Exempla sequuntur, sive carmina cum tonis et modis et forma ad
+        intonandum omnes psalmos tam in festivis vel festivitatibus quam in ferialibus.</p>
       <p xml:id="NICCOM0244">Et primo de festivis videndum est:</p>
       <p xml:id="NICCOM0245">[De La Fage, 329,2; text: 1. Primum suaviter tange, cujus sunt octo
         differentiae. Euouae.]</p>
@@ -721,8 +736,8 @@
         in F; ferialis in c. Sextus tonus solemnis incipitur in F, ferialis vero in a. Septimus
         tonus solemnis incipitur in c acuto, ferialis vero in d. Octavus tonus solemnis incipitur in
         G, ferialis vero in c, ut exempla inferius patent:</p>
-      <p xml:id="NICCOM0250">[De La Fage, 332,1; text: 1. Dixit Dominus Domino meo. 2. 3. 4. 5. 6. 7.
-        8.] <figure>
+      <p xml:id="NICCOM0250">[De La Fage, 332,1; text: 1. Dixit Dominus Domino meo. 2. 3. 4. 5. 6.
+        7. 8.] <figure>
           <graphic url="/images/NICCOM_10GF.gif"/>
         </figure></p>
       <p xml:id="NICCOM0251">Exempla superius posita sunt exempla tonorum in diebus ferialibus et in
@@ -741,15 +756,15 @@
         simplicibus et diebus ferialibus ut inferius:</p>
       <p xml:id="NICCOM0255">[De La Fage, 333,2; text: Magnificat anima mea Dominum. Et exultavit
         spiritus meus.]</p>
-      <p xml:id="NICCOM0256">Exempla quae inferius ponuntur sunt exempla quomodo intonantur Gloria patri
-        in versibus responsoriorum matutinalium. Itaque per ista exempla potest cognosci cujus toni
-        sunt quilibet versus responsorii. Cujus toni est Gloria patri ejusdem toni est versus in quo
-        intonatur Gloria patri.</p>
-      <p xml:id="NICCOM0257">Et haec est prima regula ad cognoscendum tonos in responsoriis, scilicet:
-        Primus et secundus finiuntur in re, tertius et quartus finiuntur in mi, quintus et sextus
-        finiuntur in fa, septimus et octavus finiuntur in sol. Versus primi ad quintam vel est
-        aequalis; secundus est aequalis, vel una inferius. Tertius ad sextam, scilicet: mi fa [mi
-        ut], quartus ad quartam, scilicet: mi la; quintus ad quintam, scilicet: ut sol [fa ut];
+      <p xml:id="NICCOM0256">Exempla quae inferius ponuntur sunt exempla quomodo intonantur Gloria
+        patri in versibus responsoriorum matutinalium. Itaque per ista exempla potest cognosci cujus
+        toni sunt quilibet versus responsorii. Cujus toni est Gloria patri ejusdem toni est versus
+        in quo intonatur Gloria patri.</p>
+      <p xml:id="NICCOM0257">Et haec est prima regula ad cognoscendum tonos in responsoriis,
+        scilicet: Primus et secundus finiuntur in re, tertius et quartus finiuntur in mi, quintus et
+        sextus finiuntur in fa, septimus et octavus finiuntur in sol. Versus primi ad quintam vel
+        est aequalis; secundus est aequalis, vel una inferius. Tertius ad sextam, scilicet: mi fa
+        [mi ut], quartus ad quartam, scilicet: mi la; quintus ad quintam, scilicet: ut sol [fa ut];
         sextus est aequalis fa fa vel ut ut, id est faut grave per b molle; septimus ad quintam sol
         sol [sol re] vel ut sol [sol re] per [sqb]; octavus tonus ad quartam, scilicet: ut fa [sol
         ut] vel est aequalis, scilicet: ut ut [sol sol], ut hic inferius patet.</p>
@@ -759,46 +774,47 @@
       <p xml:id="NICCOM0259">
         <pb n="[334]"/>[De La Fage, 334; text: 2. Gloria Patri et Filio et Spiritui sancto. 3. 4. 5.
         6. 7. 8.]</p>
-      <p xml:id="NICCOM0260">Exempla quae sequuntur sunt exempla tonorum psalmorum introitus ad missam.
-        Itaque in quocumque psalmo introitus intonatur Gloria patri inferius, annotati tam psalmi
-        quam Gloria patri sunt ejusdem toni. Et haec est regula ad cognoscendos ipsos tonos in
-        introitibus; verbi gratia: primus ad tertiam, scilicet: fa sol la, secundus una inferius,
+      <p xml:id="NICCOM0260">Exempla quae sequuntur sunt exempla tonorum psalmorum introitus ad
+        missam. Itaque in quocumque psalmo introitus intonatur Gloria patri inferius, annotati tam
+        psalmi quam Gloria patri sunt ejusdem toni. Et haec est regula ad cognoscendos ipsos tonos
+        in introitibus; verbi gratia: primus ad tertiam, scilicet: fa sol la, secundus una inferius,
         scilicet: ut re fa, tertius ad tertiam ut re fa in C grave; <pb n="[335]"/>quartus ad
         quartam, scilicet: mi la, quintus est aequalis, scilicet: ut mi sol per b molle [fa la ut],
         sextus est aequalis, scilicet: fa sol la sicut primus. Septimus est aequalis, scilicet: ut
         fa mi fa sol [sol ut si ut re], et octavus est aequalis, scilicet: ut re ut fa [sol la sol
         ut], ut hic inferius patet:</p>
-      <p xml:id="NICCOM0261">[De La Fage, 335; text: 1. Gloria Patri et Filio et Spiritui sancto, sicut
-        erat in principio et nunc et semper et in secula seculorum. Amen. 2. Caetera desiderantur.] <figure>
+      <p xml:id="NICCOM0261">[De La Fage, 335; text: 1. Gloria Patri et Filio et Spiritui sancto,
+        sicut erat in principio et nunc et semper et in secula seculorum. Amen. 2. Caetera
+        desiderantur.] <figure>
           <graphic url="/images/NICCOM_14GF.gif"/>
         </figure></p>
-      <p xml:id="NICCOM0262">Sciendum est quod contrapunctus est firmamentum discanti secundum Guidonem
-        monachum; ut sicut aedificium non potest bene regere sine fundamento, ita et homo non potest
-        bene discantare nisi prius sciat contrapunctum.</p>
-      <p xml:id="NICCOM0263">Notandum est quod septem sunt species contrapuncti, scilicet: unissonus,
-        tertia, quinta, sexta, octava, decima et duodecima; quarum quatuor sunt consonantiae et tres
-        dissonantiae. Consonantiae sunt istae, scilicet: unissonus, quinta, octava et duodecima;
-        dissonantiae sunt istae, scilicet: tertia, sexta et decima.</p>
+      <p xml:id="NICCOM0262">Sciendum est quod contrapunctus est firmamentum discanti secundum
+        Guidonem monachum; ut sicut aedificium non potest bene regere sine fundamento, ita et homo
+        non potest bene discantare nisi prius sciat contrapunctum.</p>
+      <p xml:id="NICCOM0263">Notandum est quod septem sunt species contrapuncti, scilicet:
+        unissonus, tertia, quinta, sexta, octava, decima et duodecima; quarum quatuor sunt
+        consonantiae et tres dissonantiae. Consonantiae sunt istae, scilicet: unissonus, quinta,
+        octava et duodecima; dissonantiae sunt istae, scilicet: tertia, sexta et decima.</p>
       <p xml:id="NICCOM0264">Sciendum est quod debemus incipere et finire per consonantias, sed
         penultima debet esse dissonantiam.</p>
-      <p xml:id="NICCOM0265">Item sciendum est quod non possumus facere duas similes consonantias unam
-        post aliam sequentes, scilicet: duos unissonos, nec duas quintas, nec duas octavas, nec duas
-        duodecimas. Et neque de supradictis dissonantiis possumus facere duas vel tres dissonantias
-        ascendendo vel descendendo cum tenore, scilicet: duas vel tres tertias, sextas aut decimas.
-        Item sciendum est quod si tenor <pb n="[336]"/>descendit, contrapunctus debet ascendere et e
-        converso et per hanc regulam si tenor descendit, unissonus requirit tertiam, et tertia
-        requirit quintam, et quinta requirit sextam, et sexta requirit octavam, et octava requirit
-        decimam, et decima requirit duodecimam; et semper debemus dare talem contrapunctum. Si vero
-        tenor ascendit, duodecima requirit decimam, et decima requirit octavam et octava requirit
-        sextam, sed sexta semper requirit octavam; quinta requirit tertiam et tertia requirit
-        unissonum. Sic debemus facere cum tenor ascendit. Et hoc intellige cum tenor recte ascendit,
-        tunc duodecima requirit decimam, et caetera; et si tenor recte descendit, tunc unisonnus
-        requirit tertiam, et caetera. Hoc dicto, si notae tenoris ordinate vel gradatim ascendunt ad
-        tertiam vocem, tunc contrapunctus potest descendere scilicet ad tertiam vocem. Et ita si
-        notae tenoris descendunt ad tertiam vocem, contrapunctus debet ascendere ad tertiam vocem.
-        Et si ascendunt vel descendunt ad quartam, vel ad quintam vocem, tunc est ad libitum
-        cantoris, servata tamen regula supradicta. Et quantum possumus unam consonantiam et alias
-        dissonantias facere debemus. Exempla hic inferius patent:</p>
+      <p xml:id="NICCOM0265">Item sciendum est quod non possumus facere duas similes consonantias
+        unam post aliam sequentes, scilicet: duos unissonos, nec duas quintas, nec duas octavas, nec
+        duas duodecimas. Et neque de supradictis dissonantiis possumus facere duas vel tres
+        dissonantias ascendendo vel descendendo cum tenore, scilicet: duas vel tres tertias, sextas
+        aut decimas. Item sciendum est quod si tenor <pb n="[336]"/>descendit, contrapunctus debet
+        ascendere et e converso et per hanc regulam si tenor descendit, unissonus requirit tertiam,
+        et tertia requirit quintam, et quinta requirit sextam, et sexta requirit octavam, et octava
+        requirit decimam, et decima requirit duodecimam; et semper debemus dare talem contrapunctum.
+        Si vero tenor ascendit, duodecima requirit decimam, et decima requirit octavam et octava
+        requirit sextam, sed sexta semper requirit octavam; quinta requirit tertiam et tertia
+        requirit unissonum. Sic debemus facere cum tenor ascendit. Et hoc intellige cum tenor recte
+        ascendit, tunc duodecima requirit decimam, et caetera; et si tenor recte descendit, tunc
+        unisonnus requirit tertiam, et caetera. Hoc dicto, si notae tenoris ordinate vel gradatim
+        ascendunt ad tertiam vocem, tunc contrapunctus potest descendere scilicet ad tertiam vocem.
+        Et ita si notae tenoris descendunt ad tertiam vocem, contrapunctus debet ascendere ad
+        tertiam vocem. Et si ascendunt vel descendunt ad quartam, vel ad quintam vocem, tunc est ad
+        libitum cantoris, servata tamen regula supradicta. Et quantum possumus unam consonantiam et
+        alias dissonantias facere debemus. Exempla hic inferius patent:</p>
       <p xml:id="NICCOM0266">[De La Fage, 336,1; text: Tenor omnium vocum] <figure>
           <graphic url="/images/NICCOM_15GF.gif"/>
         </figure></p>
@@ -808,41 +824,43 @@
         similiter cum sexta datur ante octavam, et similiter cum decima datur ante duodecimam
         Exemplum ut hic:</p>
       <p xml:id="NICCOM0268">[De La Fage, 336,2]</p>
-      <p xml:id="NICCOM0269">Item sciendum est quod duo sunt modi in contrapuncto: unus vocatur modus
-        octavae et alius vocatur modus duodecimae. Modus primus cantatur per [rob] quadrum et
+      <p xml:id="NICCOM0269">Item sciendum est quod duo sunt modi in contrapuncto: unus vocatur
+        modus octavae et alius vocatur modus duodecimae. Modus primus cantatur per [rob] quadrum et
         formatur in G grave per ordinem usque ad ut re mi fa sol la et de praedicto contrapunto
         habemus super:</p>
-      <p class="textFig" xml:id="NICCOM0270">Gammaut        sol mi ut        Gsolreut        la sol mi ut
+      <p class="textFig" xml:id="NICCOM0270"
+        >Gammaut        sol mi ut        Gsolreut        la sol mi ut
         <br/>Are            la fa re         Alamire         la fa re
         <lb/>Bmi            sol mi ut        [rob]fa#mi      sol mi ut
         <br/>Cfaut          la fa re u       Csolfaut        la fa re
         <lb/>Dsolre         sol mi re        Dlasolre        sol mi ut
         <br/>Elami          la fa mi ut      Elami           la fa re ut
-        <lb/>Ffaut          sol fa re
-        <br/></p>
-      <p xml:id="NICCOM0271">Item secundus modus cantatur per naturam et formatur in c acuto per ordinem
-        ut re mi fa sol la et de praedicto contrapuncto habemus super:</p>
-      <p class="textFig" xml:id="NICCOM0272">Cfaut        sol mi ut        Csolfaut        la sol mi ut
+        <lb/>Ffaut          sol fa re <br/></p>
+      <p xml:id="NICCOM0271">Item secundus modus cantatur per naturam et formatur in c acuto per
+        ordinem ut re mi fa sol la et de praedicto contrapuncto habemus super:</p>
+      <p class="textFig" xml:id="NICCOM0272"
+        >Cfaut        sol mi ut        Csolfaut        la sol mi ut
         <lb/>Dsolre       la fa re         Dlasolre        la fa re
         <br/>Elami        sol mi ut        Elami           sol mi ut
         <lb/>Ffaut        la fa re ut      Ffaut           la fa re
         <br/>Gsolreut     re mi sol        Gsolreut        sol mi ut
-        <lb/>Alamire      la fa mi ut      Alamire         la fa re ut
-        <br/>[rob]fa#mi   sol fa re <lb/></p>
-      <p xml:id="NICCOM0273">Et est sciendum quod in b fa b mi non possumus habere diapente per istos
-        duos modos, nisi per fictas musicas; et ideo de ipsa videndum est. Nam si tenor est [rob] fa
-        # mi, in voce mi, opportet nos formare proprietatem contrapuncti id est de acuto et tunc
-        habemus suum diapente, scilicet: mi [fa#] ut hic:</p>
+        <lb/>Alamire      la fa mi ut      Alamire         la fa re ut <br/>[rob]fa#mi   sol fa re
+        <lb/></p>
+      <p xml:id="NICCOM0273">Et est sciendum quod in b fa b mi non possumus habere diapente per
+        istos duos modos, nisi per fictas musicas; et ideo de ipsa videndum est. Nam si tenor est
+        [rob] fa # mi, in voce mi, opportet nos formare proprietatem contrapuncti id est de acuto et
+        tunc habemus suum diapente, scilicet: mi [fa#] ut hic:</p>
       <p xml:id="NICCOM0274">[De La Fage, 337]</p>
-      <p xml:id="NICCOM0275">Item possumus habere contrapunctum per fictam musicam, videlicet ubicumque
-        possumus per ordinem dare ut re mi fa sol la; vocatur enim ficta seu falsa musica, non tamen
-        est falsa, sed inusitata. Ad quod dicendum est quod falsa musica non est inutilis, imo
-        necessaria propter bonam consonantiam inveniendam et malam evitandam. Et ideo cum non
+      <p xml:id="NICCOM0275">Item possumus habere contrapunctum per fictam musicam, videlicet
+        ubicumque possumus per ordinem dare ut re mi fa sol la; vocatur enim ficta seu falsa musica,
+        non tamen est falsa, sed inusitata. Ad quod dicendum est quod falsa musica non est inutilis,
+        imo necessaria propter bonam consonantiam inveniendam et malam evitandam. Et ideo cum non
         possumus habere consonantias per rectam musicam, tunc debemus recurrere ad fictam seu ad
         inusitatam et ea operare.</p>
       <p xml:id="NICCOM0276">Et est sciendum quod duo sunt signa falsae musicae scilicet b rotundum
         [rob] et b quadratum [sqb]. Et nota quod in illo loco ubi ponitur b rotundum, ibi dicitur fa
-        et in illo loco ubi ponitur b quadratum, ibi dicitur mi. Boetius autem invenit <pb n="[338]"/>fictam musicam propter duas causas; causa necessitatis et causa pulchritudinis cantus.
+        et in illo loco ubi ponitur b quadratum, ibi dicitur mi. Boetius autem invenit <pb n="[338]"
+        />fictam musicam propter duas causas; causa necessitatis et causa pulchritudinis cantus.
         Causa necessitatis, quod non poteramus habere consonantias in omnibus locis, ut supradictum
         est; causa vero pulchritudinis ut patet in cantilenis. Et haec de contrapuncto
         sufficiant.</p>

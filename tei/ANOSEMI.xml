@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Capitulum de semibrevibus</title>
         <title type="abbrev">ANOSEMI</title>
-        <author>Anonymous</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Mark Butler</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>David Schneider</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2002</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2002">2002</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> F. Alberto Gallo, <emph>Mensurabilis musicae tractatuli</emph>,
           Antiquae musicae italicae scriptores, vol. 1 (Bologna: Università degli Studi di Bologna,
@@ -53,10 +63,10 @@
         et quelibet duarum habet medietatem tercie, sive ponatur caudata in principio vel in medio
         sive in fine. Si vero sint quinque, tunc caudata ubicunque ponatur habet terciam partem, et
         quelibet reliquarum habet medietatem tercie.</p>
-      <p xml:id="ANOSEMI0003">[S]i vero cantus cantetur de inperfectis, tunc semibrevis que caudatur, si
-        sint due, valet [tres] partes temporis, et alia valet quartam partem. Si vero sint tres,
-        tunc illa que caudatur habet duas partes temporis, et quelibet sequencium habet quartam
-        partem, quia tunc dividitur in quatuor partes equales.</p>
+      <p xml:id="ANOSEMI0003">[S]i vero cantus cantetur de inperfectis, tunc semibrevis que
+        caudatur, si sint due, valet [tres] partes temporis, et alia valet quartam partem. Si vero
+        sint tres, tunc illa que caudatur habet duas partes temporis, et quelibet sequencium habet
+        quartam partem, quia tunc dividitur in quatuor partes equales.</p>
     </body>
   </text>
 </TEI>

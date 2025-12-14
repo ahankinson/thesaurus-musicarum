@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De organo mediolanensi</title>
         <title type="abbrev">ANOORME</title>
-        <author>Anonymous</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Anastasia Arapova</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Mark Butler</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2001</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2001">2001</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Jacques Handschin, "Aus der alten Musiktheorie III. Zur
           Ambrosianischen Mehrstimmigkeit," <emph>Acta musicologica</emph> 15 (1943): 2-23, 93-94,
@@ -40,11 +50,11 @@
     <body>
       <p xml:id="ANOORME0001">
         <pb n="[5]"/>Ratio sequitus est ista.</p>
-      <p xml:id="ANOORME0002">Si aliquis vult scire sequitum, oportet se scire sex rationes, videlicet
-        bene cantum firmum, et cognoscere si cantus ascendit vel descendit, et scire quid est
-        concordantia et quid est discordantia et quid est consonantia, et scire si sequitus debet
-        incipere in voce vel in secunda vel in quarta vel in quinta, quia sequitus non est nisi
-        secunda, quarta (et) aliqua vice quinta. Nota quid est diffinitio rationis stre (?),
+      <p xml:id="ANOORME0002">Si aliquis vult scire sequitum, oportet se scire sex rationes,
+        videlicet bene cantum firmum, et cognoscere si cantus ascendit vel descendit, et scire quid
+        est concordantia et quid est discordantia et quid est consonantia, et scire si sequitus
+        debet incipere in voce vel in secunda vel in quarta vel in quinta, quia sequitus non est
+        nisi secunda, quarta (et) aliqua vice quinta. Nota quid est diffinitio rationis stre (?),
         videlicet quando duo cantatores cantant simul in eadem voce et concordantia et sterri (?).
         Cantatores qui cantant unus stet firmus in una nota, videlicet in ut vel in aliis notis, et
         alius cantator precedat unam notam vel quartam vel quintam supra socium, videlicet re super
@@ -68,10 +78,10 @@
       <p xml:id="ANOORME0009">Ex quinta sursum una sursum.</p>
       <p xml:id="ANOORME0010">Ex quinta infra una infra.</p>
       <p xml:id="ANOORME0011">Ex sexta sursum tertia sursum.</p>
-      <p xml:id="ANOORME0012">Due notae aequales (d. h. wenn in der gegebenen Melodie Tonwiederholung
-        stattfindet), si eris ad octavam, descende quartam gradatim; si eris ad quintam, ascende
-        quartam; et sic de omnibus notis. Omnes ejus notae quae ascendunt aequales vel II (?), omnes
-        notae quae descendunt volunt quartam; et hoc non moveatur.</p>
+      <p xml:id="ANOORME0012">Due notae aequales (d. h. wenn in der gegebenen Melodie
+        Tonwiederholung stattfindet), si eris ad octavam, descende quartam gradatim; si eris ad
+        quintam, ascende quartam; et sic de omnibus notis. Omnes ejus notae quae ascendunt aequales
+        vel II (?), omnes notae quae descendunt volunt quartam; et hoc non moveatur.</p>
     </body>
   </text>
 </TEI>

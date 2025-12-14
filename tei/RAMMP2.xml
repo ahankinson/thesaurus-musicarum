@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musica practica, secunda pars, tractatus primus</title>
         <title type="abbrev">RAMMP2</title>
-        <author>Ramus de Pareia, Bartholomeus</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Ramus de Pareia, Bartholomeus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Jingfa Sun</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Johannes Wolf, <emph>Musica practica Bartolomei Rami de Pareia
             Bononiae, impressa opere et industria ac expensis magistri Baltasaris de Hiriberia
@@ -45,13 +55,13 @@
       <p xml:id="RAMMP20002">Tractatus primus.</p>
       <p xml:id="RAMMP20003">Capitulum primum.</p>
       <p xml:id="RAMMP20004">In quo notitia vocum consonantium et dissonantium ponitur.</p>
-      <p xml:id="RAMMP20005">Taliter hucusque prosecuti fuimus, ut tantum de vocibus successive prolatis
-        aliqua loqueremur. Nunc autem, quae illarum duae simul pluresve percussae sive cantatae
-        consonent vel dissonent, breviter explicetur. Qualiter autem consonantia aut dissonantia
-        aurem ingrediatur et utrum vera sit Platonis opinio aut Nicomachi, quoniam speculativa est,
-        in secundo libro iuxta ingenii nostri vires declarare et diffinire conabimur. Nunc autem,
-        quoniam practicos paulatim ad doctrinam hanc attrahere procuramus, breviter et quasi per
-        modum corollarii ea, quae ad practicam pertinent, explicemus.</p>
+      <p xml:id="RAMMP20005">Taliter hucusque prosecuti fuimus, ut tantum de vocibus successive
+        prolatis aliqua loqueremur. Nunc autem, quae illarum duae simul pluresve percussae sive
+        cantatae consonent vel dissonent, breviter explicetur. Qualiter autem consonantia aut
+        dissonantia aurem ingrediatur et utrum vera sit Platonis opinio aut Nicomachi, quoniam
+        speculativa est, in secundo libro iuxta ingenii nostri vires declarare et diffinire
+        conabimur. Nunc autem, quoniam practicos paulatim ad doctrinam hanc attrahere procuramus,
+        breviter et quasi per modum corollarii ea, quae ad practicam pertinent, explicemus.</p>
       <p xml:id="RAMMP20006">Dictum est totum corpus musicae unam esse diapason, quae vocibus octo
         constat. Si igitur has octo voces invicem referendo declaremus, sufficiet. Per modum igitur
         doctrinae scias voces aequales concordare, idest unisonum. Secunda dissonat cum prima,
@@ -118,14 +128,15 @@
       <p xml:id="RAMMP20014">tertia Imperfectae duae aut plures unam post aliam possunt dari.</p>
       <p xml:id="RAMMP20015">quarta Si cantus continuetur in eodem sono per duas voces aut plures,
         organum in eodem sono non quiescat, sed per diversa loca mutetur.</p>
-      <p xml:id="RAMMP20016">quinta regula: Sexta maior coniungit ad octavam, minor vero disiungit ad
-        quintam. Sic et tertia maior ad quintam disgregat, minor autem ad unisonum adducit.</p>
+      <p xml:id="RAMMP20016">quinta regula: Sexta maior coniungit ad octavam, minor vero disiungit
+        ad quintam. Sic et tertia maior ad quintam disgregat, minor autem ad unisonum adducit.</p>
       <p xml:id="RAMMP20017">sexta Si tenor ascendit, contrapunctus descendere procuret.</p>
-      <p xml:id="RAMMP20018">Prima enim regula sic declaratur: Cum incipimus organizare, ponamus vocem
-        in quinta vel in octava aut in aliqua alia ab istis composita secundum vocis commoditatem et
-        etiam in unisono; et cum finimus, hoc idem faciendum. Hoc autem est propter hoc, quia aliae
-        consonantiae non sunt tantae perfectionis, quantae sunt istae. Ideo in principio meliorem
-        facere et in fine debemus, in medio vero imperfectiores interserere licitum est.</p>
+      <p xml:id="RAMMP20018">Prima enim regula sic declaratur: Cum incipimus organizare, ponamus
+        vocem in quinta vel in octava aut in aliqua alia ab istis composita secundum vocis
+        commoditatem et etiam in unisono; et cum finimus, hoc idem faciendum. Hoc autem est propter
+        hoc, quia aliae consonantiae non sunt tantae perfectionis, quantae sunt istae. Ideo in
+        principio meliorem facere et in fine debemus, in medio vero imperfectiores interserere
+        licitum est.</p>
       <p xml:id="RAMMP20019">Secunda regula intelligitur sic: Non debemus dare, hoc est bis perfecte
         consonare cum tenore ascendente vel descendente simili specie perfecta, quoniam tunc idem
         processus videretur. Nam si tenor d c et organum l k in octava, eadem vox videretur esse;
@@ -143,9 +154,9 @@
         aut plures notas in eodem sono, duas aut plures in eodem loco imperfectas cum organo fieri
         posse. Et sic declaratur regula quarta, quamquam istud non nimis prohibitum est a multis,
         praesertim in compositione trium aut quatuor vocum, quoniam ibi licitum est.</p>
-      <p xml:id="RAMMP20021">Quinta sic declaratur: Si tenor descendit d c, nos ascendimus [sqb] k. Quod
-        si descendit ab e in d vel alio simili loco, non debet facere organum k l, quia sexta minor.
-        Quod si facere velimus, oportet nos k elevare, si ab inferiori ascendimus parte, aut
+      <p xml:id="RAMMP20021">Quinta sic declaratur: Si tenor descendit d c, nos ascendimus [sqb] k.
+        Quod si descendit ab e in d vel alio simili loco, non debet facere organum k l, quia sexta
+        minor. Quod si facere velimus, oportet nos k elevare, si ab inferiori ascendimus parte, aut
         substinere, si a superiori descendimus voce. Quod si depingatur, debet sic figurari</p>
       <p xml:id="RAMMP20022">[Ramos, Musica, 66] <figure>
           <graphic url="/images/RAMMP_04GF.gif"/>
@@ -176,16 +187,16 @@
         ut supra. Idem quoque, si dicatur f d c, organum f f g non faciet. Poterit tamen hoc facere
         h f g aut d f g et tamen h f semiditonus est, d f vero ditonus. Quod si depingatur, debet
         sic signari</p>
-      <p xml:id="RAMMP20023">[Ramos, Musica, 67] . Quod autem tertia minor coniungat organum cum tenore,
-        patet; si tenor dicat f e f, optime sonat h g f. Sic etiam, si tenor sit f g h, organum k
-        [rob] h, non tamen k [sqb] h. Quapropter cavendum, si tenor sit f f g, organum non faciat k
-        h g, aut si tenor sit g g h, organum non faciat l [sqb] h, bene tamen l [rob] h. Si autem
-        tenor psallerit hoc modo g f g, poterit organum facere g h g aut [sqb] h g, quoniam illa
-        tertia, etsi maior videatur, subintellecte efficitur minor. Istud tamen de tertia maiori aut
-        minori plerique non observant, propter quod eorum compositiones, etsi prima facie delectent,
-        quia inaudita est cantilena, cum ad frequentiorem usum conferuntur, in dies magis ac magis
-        displicent, et ignorant causas cantores et has, quas diximus, et alias, quas de diminutione
-        paulo post dicemus.</p>
+      <p xml:id="RAMMP20023">[Ramos, Musica, 67] . Quod autem tertia minor coniungat organum cum
+        tenore, patet; si tenor dicat f e f, optime sonat h g f. Sic etiam, si tenor sit f g h,
+        organum k [rob] h, non tamen k [sqb] h. Quapropter cavendum, si tenor sit f f g, organum non
+        faciat k h g, aut si tenor sit g g h, organum non faciat l [sqb] h, bene tamen l [rob] h. Si
+        autem tenor psallerit hoc modo g f g, poterit organum facere g h g aut [sqb] h g, quoniam
+        illa tertia, etsi maior videatur, subintellecte efficitur minor. Istud tamen de tertia
+        maiori aut minori plerique non observant, propter quod eorum compositiones, etsi prima facie
+        delectent, quia inaudita est cantilena, cum ad frequentiorem usum conferuntur, in dies magis
+        ac magis displicent, et ignorant causas cantores et has, quas diximus, et alias, quas de
+        diminutione paulo post dicemus.</p>
       <p xml:id="RAMMP20024">Sic igitur contrapunctus ad speciem propinquiorem debet incedere, ut a
         sexta in octavam vel in quintam, a tertia in unisonum vel in quintam; et sic de speciebus
         compositis ac decompositis. Sed aliquando organum psallat per diatessaron et diapente aut
@@ -205,17 +216,17 @@
         similitudo ostenderetur, quia supponimus, quod voces, quae sequentur in tenore, non
         discordent cum illis, quia, cum fuga incipit discordare, in similitudine fiat immediate
         dissimilitudo, ita ut non faciat contra regulas supra dictas.</p>
-      <p xml:id="RAMMP20025">Sexta autem regula sic declaratur: Si cantus intenderit (pagina 56) vocem,
-        discantus remittat ad speciem opportunam secundum regulas assignatas et si tenor
+      <p xml:id="RAMMP20025">Sexta autem regula sic declaratur: Si cantus intenderit (pagina 56)
+        vocem, discantus remittat ad speciem opportunam secundum regulas assignatas et si tenor
         descenderit, contrapunctus ascendat. Et hoc est, quod frequentius in contrapuncto est
         observandum; nam ex hoc fertur assumpsisse vocabulum.</p>
       <p xml:id="RAMMP20026">Capitulum secundum.</p>
       <p xml:id="RAMMP20027">In quo error quorundam reprehenditur et veritas demonstratur.</p>
-      <p xml:id="RAMMP20028">Omnia autem praedicta intelliguntur fere, quando tenor gradatim intenditur
-        vel remittitur. Sed quid, si per saltus et anfractus? Dicendum, quod, quando taliter
-        incedit, tunc magis organum debet <pb n="[69]"/>voces suas coadunare, ut si tenor psallat d
-        h d, organum faciet l k l aut l m l sive l m n. Sic in aliis modis diapente. Quod si
-        diatessaron hoc modo d f c, organum l k k, vel si tenor c f d, organum k k l.</p>
+      <p xml:id="RAMMP20028">Omnia autem praedicta intelliguntur fere, quando tenor gradatim
+        intenditur vel remittitur. Sed quid, si per saltus et anfractus? Dicendum, quod, quando
+        taliter incedit, tunc magis organum debet <pb n="[69]"/>voces suas coadunare, ut si tenor
+        psallat d h d, organum faciet l k l aut l m l sive l m n. Sic in aliis modis diapente. Quod
+        si diatessaron hoc modo d f c, organum l k k, vel si tenor c f d, organum k k l.</p>
       <p xml:id="RAMMP20029">Ugolinus quibusdam barbaris metris regulas posuit communes de omnibus
         speciebus tam simplicibus quam compositis, quarum aliquae verum tenent, quaedam vero minime.
         Sed ut veritas elucescat, falsitas autem erubescat et confundatur, easdem breviter hic
@@ -274,27 +285,27 @@
         dicere f c sicut f e. Quod si tertiam ascendit, ut ipse dicit, melius organum manet in
         tertia, quam vadat ad quintam. Quod si quartam hoc modo g k tenor, organum recte faciet g c;
         quod si diapente sicut f k, organum ita recte faciet f f sicut f c.</p>
-      <p xml:id="RAMMP20080">Secunda vero regula: Si tenor descendit f d, organum ita bene faciet f f
-        sicut f h. Tertia vero satis bene.</p>
-      <p xml:id="RAMMP20081">Quarta vero regula: Si tenor psallat f e d c, organum ita recte faciet h g
-        [sqb] k sicut h g f g. Similiter si tenor fecerit f d, organum ita bene faciet h h sicut h
-        l.</p>
-      <p xml:id="RAMMP20082">Quinta regula reprobatur similiter, quia, si tenor psallerit f h, organum
-        ita bene faciet et melius k f vel k k quam k h. Et si tenor d h, organum ita bene dicet h f
-        sicut h h et quandoque h k, sed raro nisi variationis causa.</p>
-      <p xml:id="RAMMP20083">Sexta regula satis bene transit. Verum si tenor psallerit f c, organum ita
-        bene k k sicut k m. Similiter si g c tenor, organum ita bene l k sicut l m.</p>
+      <p xml:id="RAMMP20080">Secunda vero regula: Si tenor descendit f d, organum ita bene faciet f
+        f sicut f h. Tertia vero satis bene.</p>
+      <p xml:id="RAMMP20081">Quarta vero regula: Si tenor psallat f e d c, organum ita recte faciet
+        h g [sqb] k sicut h g f g. Similiter si tenor fecerit f d, organum ita bene faciet h h sicut
+        h l.</p>
+      <p xml:id="RAMMP20082">Quinta regula reprobatur similiter, quia, si tenor psallerit f h,
+        organum ita bene faciet et melius k f vel k k quam k h. Et si tenor d h, organum ita bene
+        dicet h f sicut h h et quandoque h k, sed raro nisi variationis causa.</p>
+      <p xml:id="RAMMP20083">Sexta regula satis bene transit. Verum si tenor psallerit f c, organum
+        ita bene k k sicut k m. Similiter si g c tenor, organum ita bene l k sicut l m.</p>
       <p xml:id="RAMMP20084">Septima satis bene; verum si tenor e f, organum ita bene k k sicut k h,
         quia ex sexta minori bene tendimus in quintam.</p>
-      <p xml:id="RAMMP20085">Octava regula bona videtur. Sed etiam tenore dicente f d organum poterit
-        dicere l l sicut l n.</p>
+      <p xml:id="RAMMP20085">Octava regula bona videtur. Sed etiam tenore dicente f d organum
+        poterit dicere l l sicut l n.</p>
       <p xml:id="RAMMP20086">
         <pb n="[71]"/>Nona redarguitur, quia, si tenor dixerit c f, organum poterit k k dicere sicut
         k h.</p>
-      <p xml:id="RAMMP20087">Decima reprehenditur, quoniam, si tenor psallat e c, organum melius faciet
-        m m quam m o.</p>
-      <p xml:id="RAMMP20088">Undecima vero multum discedit a veritate, quia, cum tenor saltus facit et
-        anfractus, organum debet voces suas coadunare. Nam si ambo per saltus et anfractus
+      <p xml:id="RAMMP20087">Decima reprehenditur, quoniam, si tenor psallat e c, organum melius
+        faciet m m quam m o.</p>
+      <p xml:id="RAMMP20088">Undecima vero multum discedit a veritate, quia, cum tenor saltus facit
+        et anfractus, organum debet voces suas coadunare. Nam si ambo per saltus et anfractus
         discurrant, certamen potius quam harmonia dicetur, ut si dicat c d, organum melius faciet m
         h quam m l. Et tunc tantum, quantum tenor incipiat saltus et anfractus facere, (tanto)
         organum incipiat coadunare, ut, cum tenor c e, organum m [sqb], tenor c f, organum m k,
@@ -308,10 +319,10 @@
         solebant antiquitus. Verum de his rationibus in secundo libro evidentissime dicemus. Haec
         autem diximus, ut quosdam cantores ab opinionibus erroneis abstraheremus et ad veram musices
         agnitionem reduceremus.</p>
-      <p xml:id="RAMMP20089">Aliae regulae satis veritati consonant, verum in hoc sunt reprobandae, quia
-        superfluae. Nam ultra diapason semper est reiteratio primae. Et si dicatur, quod propter
-        quintam vel quartam, dicemus: propterea dedimus modum componendi quintam a quarta et e
-        contra et reliqua diligenti indagatori relinquimus. His etenim paucis regulis tota ars
+      <p xml:id="RAMMP20089">Aliae regulae satis veritati consonant, verum in hoc sunt reprobandae,
+        quia superfluae. Nam ultra diapason semper est reiteratio primae. Et si dicatur, quod
+        propter quintam vel quartam, dicemus: propterea dedimus modum componendi quintam a quarta et
+        e contra et reliqua diligenti indagatori relinquimus. His etenim paucis regulis tota ars
         contrapuncti vel organi poterit constringi. Cetera vero, quae circa organizationem accidere
         possent, in arbitrio canentium relinquimus, dum tamen contra regulas aliquid facere caveant,
         quoniam, etsi minime probantur, a veritate tamen non discedunt. Servet quoque modum in arsi
@@ -331,9 +342,9 @@
         aut deprimatur, ut consonantia prima totam sui recipiat quantitatem aut dimittat, si quid
         superfluum habet. Ut autem omnia, quae dicta sunt, facilius teneantur, ante oculos
         subiiciatur exemplum:</p>
-      <p class="textFig" xml:id="RAMMP20090">organum l h k l l m h l m l k l h [sqb] l l k [sqb] h k l h g h [sqb] k l
-        <lb/>tenor   d d e d f e f d c d e d f g     f g h g     h h d f e f g     e d
-        <br/></p>
+      <p class="textFig" xml:id="RAMMP20090"
+        >organum l h k l l m h l m l k l h [sqb] l l k [sqb] h k l h g h [sqb] k l
+        <lb/>tenor   d d e d f e f d c d e d f g     f g h g     h h d f e f g     e d <br/></p>
       <p xml:id="RAMMP20091">(pagina 59) Liquet his paucis exemplis praemissis tota ars contrapuncti
         concludi per variationem exemplorum per diversa loca; per fictam per rectamque musicam eadem
         variata sicque per idem exemplum in diversis tropis parva facta mutatione nimietas varia
@@ -353,15 +364,15 @@
         vero, qui ambages fugere et veritatem in lucem adducere falsitatemque confundere et
         prolixitatem evitare curamus, omnia gammata reperiendi et diminutionem eorum adimplendi
         falsitatemque evitandi facillimum dabimus modum.</p>
-      <p xml:id="RAMMP20093">Accipiamus igitur primum hexachordum scilicet retropolis, quod terminatur
-        in d sol-re. Loquimur enim per terminos ipsorum. Respiciemus igitur per totam manum, quae
-        voces eius concordant, et sic istud componemus. [Gamma]ut igitur ex isto hexachordo habebit
-        re, quia unisonus, fa quia tertia, la quia quinta, a re ut tertia subtus, mi unisonus, sol
-        tertia supra, b mi re tertia sub, sed unisono carebit, la tertia supra; c fa-ut ut, mi, sol,
-        d sol-re ut, re, fa, la, e la-mi re, mi, sol, f fa-ut ut, mi, fa, la, g sol-re-ut re, fa,
-        sol, a la-mi-re ut, mi, sol la, [rob] fa re, fa, la, [sqb] mi re, la. Et hucusque
-        differentia fuit in quolibet loco. Postea vero c sol-fa-ut sicut c fa-ut ut, mi, sol
-        obtinebit; sic d la-sol-re sicut d sol-re ut, re, fa, la; nec differunt, nisi quod, si
+      <p xml:id="RAMMP20093">Accipiamus igitur primum hexachordum scilicet retropolis, quod
+        terminatur in d sol-re. Loquimur enim per terminos ipsorum. Respiciemus igitur per totam
+        manum, quae voces eius concordant, et sic istud componemus. [Gamma]ut igitur ex isto
+        hexachordo habebit re, quia unisonus, fa quia tertia, la quia quinta, a re ut tertia subtus,
+        mi unisonus, sol tertia supra, b mi re tertia sub, sed unisono carebit, la tertia supra; c
+        fa-ut ut, mi, sol, d sol-re ut, re, fa, la, e la-mi re, mi, sol, f fa-ut ut, mi, fa, la, g
+        sol-re-ut re, fa, sol, a la-mi-re ut, mi, sol la, [rob] fa re, fa, la, [sqb] mi re, la. Et
+        hucusque differentia fuit in quolibet loco. Postea vero c sol-fa-ut sicut c fa-ut ut, mi,
+        sol obtinebit; sic d la-sol-re sicut d sol-re ut, re, fa, la; nec differunt, nisi quod, si
         illorum sunt simplices, istorum compositae sunt, quod si priorum compositae, istorum
         decompositae erunt, de qua compositione iam diximus supra. Idem quoque de reliquis locis
         seriatim dicendum.</p>
@@ -388,34 +399,34 @@
         specie perfecta numquam fiendum; in imperfectis autem bene, quia recipiunt maioritatem et
         minoritatem. Errant tamen in hoc per defectum, quoniam illud idem et de aliis potest dici
         vocibus, ut paulo post ostendemus.</p>
-      <p xml:id="RAMMP20095">Cum autem quartum gamma ex istis componere velis, a tertio diapente intensa
-        in d sol-re cadit; unde signa diapente distantia easdem consonantias habebunt. Nam sicut in
-        tertio est a re, ita et in quarto e la-mi, quia re, fa, la. Sed cum b mi ac f fa-ut diapente
-        non differant, f fa-ut perfecta carebit. Sed quartum in [sqb] mi sicut tertium in e la-mi,
-        quia ut, re, fa, la; [rob] fa autem perfectis carebit.</p>
-      <p xml:id="RAMMP20096">Quod si quintum creare gamma procuras, diatessaron ab isto remittas, quod a
-        re notatur. Igitur signa, quae diatessaron distant, easdem consonantias habebunt. Unde sicut
-        quartum in e la-mi, ita quintum in b mi et in aliis eodem modo distantibus. Sed in [sqb] mi
-        quintum habebit, quod quartum in e la-mi tenuit acuto. At tamen [rob] fa, quia nulli
-        proportionatur in istis duobus hexachordis sive gammatibus, ideo maxime ab omnibus differt,
-        quoniam tantum habebit mi fa sextam maiorem atque minorem et in alio ab illis
+      <p xml:id="RAMMP20095">Cum autem quartum gamma ex istis componere velis, a tertio diapente
+        intensa in d sol-re cadit; unde signa diapente distantia easdem consonantias habebunt. Nam
+        sicut in tertio est a re, ita et in quarto e la-mi, quia re, fa, la. Sed cum b mi ac f fa-ut
+        diapente non differant, f fa-ut perfecta carebit. Sed quartum in [sqb] mi sicut tertium in e
+        la-mi, quia ut, re, fa, la; [rob] fa autem perfectis carebit.</p>
+      <p xml:id="RAMMP20096">Quod si quintum creare gamma procuras, diatessaron ab isto remittas,
+        quod a re notatur. Igitur signa, quae diatessaron distant, easdem consonantias habebunt.
+        Unde sicut quartum in e la-mi, ita quintum in b mi et in aliis eodem modo distantibus. Sed
+        in [sqb] mi quintum habebit, quod quartum in e la-mi tenuit acuto. At tamen [rob] fa, quia
+        nulli proportionatur in istis duobus hexachordis sive gammatibus, ideo maxime ab omnibus
+        differt, quoniam tantum habebit mi fa sextam maiorem atque minorem et in alio ab illis
         compositas.</p>
-      <p xml:id="RAMMP20097">Cumque sextum hexachordum creare procures, a primo diatessaron intendas,
-        quod inter a re b mi locatur coniuncta. Ergo sicut <pb n="[75]"/>[Gamma]ut in primo, ita c
-        fa-ut in sexto. Et sic de aliis locis diatessaron distantibus, et sicut f fa-ut [rob] fa ut,
-        mi, fa, la. Sed [sqb] mi perfectis carebit.</p>
-      <p xml:id="RAMMP20098">Quod si septimum gamma iam complere desideras, quartam a sexto intendas,
-        quae inter e la-mi ac d sol-re cadet. Signa ergo, quae diatessaron ab isto altiora
+      <p xml:id="RAMMP20097">Cumque sextum hexachordum creare procures, a primo diatessaron
+        intendas, quod inter a re b mi locatur coniuncta. Ergo sicut <pb n="[75]"/>[Gamma]ut in
+        primo, ita c fa-ut in sexto. Et sic de aliis locis diatessaron distantibus, et sicut f fa-ut
+        [rob] fa ut, mi, fa, la. Sed [sqb] mi perfectis carebit.</p>
+      <p xml:id="RAMMP20098">Quod si septimum gamma iam complere desideras, quartam a sexto
+        intendas, quae inter e la-mi ac d sol-re cadet. Signa ergo, quae diatessaron ab isto altiora
         distarent, taliter se habebunt: ergo, sicut (pagina 61) c fa-ut in sexto, ita f fa-ut in
         septimo et sicut sextum in f fa-ut, ita septimum in [rob] fa, quia utrobique ut, mi, sol;
         sed [sqb] mi cassus perfectis mi solam tenebit.</p>
-      <p xml:id="RAMMP20099">Sic enim inspectis documentis poteris omnia gammata sine labore complere.
-        Nec credas hoc superflue positum, si documenta Guidonis necessaria ponis tu, qui sequeris
-        ipsum. Nam et crebrius veniunt semitonia subintellecta quam realia, quibus cavendum est a
-        perfectis, nisi per istas coniunctas suppleantur. Unde bene componentes videbis immediate
-        signare. Sed bene quidem a parte superiori perfici gammata possunt modo praedicto. Dices
-        verum ab inferiori, qualiter sit tibi documentum generale. Unde aspicias pro unoquoque loco
-        implendo eius octavum et habita formatione praedicta habes intentum. Quod si simplices
+      <p xml:id="RAMMP20099">Sic enim inspectis documentis poteris omnia gammata sine labore
+        complere. Nec credas hoc superflue positum, si documenta Guidonis necessaria ponis tu, qui
+        sequeris ipsum. Nam et crebrius veniunt semitonia subintellecta quam realia, quibus cavendum
+        est a perfectis, nisi per istas coniunctas suppleantur. Unde bene componentes videbis
+        immediate signare. Sed bene quidem a parte superiori perfici gammata possunt modo praedicto.
+        Dices verum ab inferiori, qualiter sit tibi documentum generale. Unde aspicias pro unoquoque
+        loco implendo eius octavum et habita formatione praedicta habes intentum. Quod si simplices
         fuerint, videlicet unisonus, tertia, [quarta,] quinta, sexta, octava, rendent hoc modo: pro
         sexta tertiam, pro octava unisonum realiter semper habebis, sed pro quarta quintam et e
         contra. Unde animadvertas oportet, quod, si in signo composito habes fa, quintam in
@@ -435,19 +446,19 @@
         eadem, quoniam ultima la nulla vox est in ista doctrina confusa. Cum igitur alia gammata
         componere velis, signis 8 comparatis idem eveniet, ac etiam in complemento idem faciendum.
         Quae omnia in subiecta figura continentur.</p>
-      <p xml:id="RAMMP20100">Patet ex hoc, quod nec fa nec ut contra re fieri potest, ut tertium gamma
-        et septimum in a re. Nec re nec la contra fa fieri posse patet ex comparatione tertii
+      <p xml:id="RAMMP20100">Patet ex hoc, quod nec fa nec ut contra re fieri potest, ut tertium
+        gamma et septimum in a re. Nec re nec la contra fa fieri posse patet ex comparatione tertii
         hexachordi ad f fa-ut. Sic et aliae voces contra alias in diversis hexachordis fieri non
         poterunt, quod diligenti lectori relinquimus indagandum.</p>
       <p xml:id="RAMMP20101">Animadverte igitur, lector, quanta a sequacibus Guidonis secuta mira
         videntur. Totum istud tamen assequendum est recte intelligentibus nostram doctrinam. Ipsi
         autem, postquam doctrinam unius gammatis cognoscunt, multa se scire arbitrantur, nedum cum
         duo vel ab uno in alium invicem.</p>
-      <p xml:id="RAMMP20102">[Ramos, Musica, post76; text: e la, d la-sol, c sol-fa, [sqb] mi, [rob] fa,
-        a la-mi-re, g sol-re-ut, f fa-ut, e la-mi, d la-sol-re, c sol-fa-ut, d sol-re, c fa-ut, b
-        mi, a re, [Gamma] ut, e([rob]) la-mi, Gammata septem, primum retropolis, secundum, tertium,
-        quartum, quintum, sextum, spetimum, ut, re, mi, fa, sol, la, 1, 3, 5, 6, 8, 10, 12, 13, 15,
-        17, 19, 20] <figure>
+      <p xml:id="RAMMP20102">[Ramos, Musica, post76; text: e la, d la-sol, c sol-fa, [sqb] mi, [rob]
+        fa, a la-mi-re, g sol-re-ut, f fa-ut, e la-mi, d la-sol-re, c sol-fa-ut, d sol-re, c fa-ut,
+        b mi, a re, [Gamma] ut, e([rob]) la-mi, Gammata septem, primum retropolis, secundum,
+        tertium, quartum, quintum, sextum, spetimum, ut, re, mi, fa, sol, la, 1, 3, 5, 6, 8, 10, 12,
+        13, 15, 17, 19, 20] <figure>
           <graphic url="/images/RAMMP_07GF.gif"/>
         </figure>
         <figure>

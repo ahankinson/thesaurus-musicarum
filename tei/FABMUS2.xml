@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Ad musicam practicam introductio</title>
         <title type="abbrev">FABMUS2</title>
-        <author>Faber, Heinrich</author>
-        <date notBefore="1500" notAfter="1599">16th</date>
+        <author><persName>Faber, Heinrich</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>T</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Transcriber</resp>
           <persName>Beth Garfinkel</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>David Schneider</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2006</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2006">2006</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Heinrich Faber, <emph>Ad musicam practicam introductio, non modo
             praecepta, sed exempla quoque ad usum puerorum accomodata, quàm breuissime
@@ -58,7 +68,8 @@
         Quia ut usitate dicitur: Musica tractat numerum sonorum, ex numerorum quoque cognitine
         collationeque acuta ingenia haec eruerunt. Cum itaque haec ars maximè à natura oriatur
         propter notitias illas numerorum mentibus nostris diuinitus impressas, sanè digna est quae
-        excolatur, et adolescentes ad eam discendam excitari et accendi summo studio <pb n="[f.L3r]"/>debent. Et quamuis aliquid habeat difficultatis: tamen à mediocrem diligentiam
+        excolatur, et adolescentes ad eam discendam excitari et accendi summo studio <pb n="[f.L3r]"
+        />debent. Et quamuis aliquid habeat difficultatis: tamen à mediocrem diligentiam
         adhibentibus, benè percipi potest, si modo praeceptis crebra exercitatio et usus
         accesserint. Sed potius ipsam rem, Deo auspice, trctare incipiam. Sunt autem praecipua
         capita, de quibus in hac secunda parte agendum erit.</p>
@@ -66,15 +77,13 @@
         Alteratio, et Proportio.</p>
       <p xml:id="FABMUS20003">CAPVT PRIMVM</p>
       <p xml:id="FABMUS20004">de gradibus.</p>
-      <p xml:id="FABMUS20005">Gradus est certa ratio signo aliquo exhibita per quam ualor principalium
-        figurarum deprehenditur. Gradus autem inde dictus apparet, quòd figurae incremento quodam
-        assurgunt, et quasi per gradus semper de notula minore altius ad proximam maiorem
-        conscendunt.</p>
+      <p xml:id="FABMUS20005">Gradus est certa ratio signo aliquo exhibita per quam ualor
+        principalium figurarum deprehenditur. Gradus autem inde dictus apparet, quòd figurae
+        incremento quodam assurgunt, et quasi per gradus semper de notula minore altius ad proximam
+        maiorem conscendunt.</p>
       <p class="textFig" xml:id="FABMUS20006">
-        <lb/>                   {Modus
-        <br/>Gradus sunt tres   {Tempus et 
-        <lb/>                   {Prolatio 
-        <br/></p>
+        <lb/>                   {Modus <br/>Gradus sunt tres   {Tempus et 
+        <lb/>                   {Prolatio  <br/></p>
       <p xml:id="FABMUS20007">
         <pb n="[f.L3v]"/>Sed horum graduum quisque aut perfectus est aut imperfectus. Perfecti sunt
         quando ternario numero censentur. Imperfecti uerò dicuntur binario mensurati. Quia ternarius
@@ -94,26 +103,28 @@
       <p xml:id="FABMUS20011">Libuit hoc loco primum describere prolationem, quae semibreuis notulae
         ualorem docet. Quia ut mihi uidetur, ad docendum est ualdè accommodatum, antea semibreuis
         quantitatem inuestigare, quàm ad maiores figuras accedatur.</p>
-      <p xml:id="FABMUS20012">Prolatio est minimarum in semibreuibus consideratio, et est duplex Maior
-        et Minor,</p>
+      <p xml:id="FABMUS20012">Prolatio est minimarum in semibreuibus consideratio, et est duplex
+        Maior et Minor,</p>
       <p xml:id="FABMUS20013">Prolatio maior uel perfecta est, in qua semibreuis tribus minimis
         mensuratur.</p>
-      <p xml:id="FABMUS20014">Minor uel imperfecta est, in qua semibreuis duabus minimis mensuratur.</p>
+      <p xml:id="FABMUS20014">Minor uel imperfecta est, in qua semibreuis duabus minimis
+        mensuratur.</p>
       <p xml:id="FABMUS20015">Regula.</p>
       <p xml:id="FABMUS20016">Prolatio cum tempore semper est coniuncta, quia in eius signo
         compraehenditur.</p>
-      <p xml:id="FABMUS20017">Caeterum de prolatione maiore apud Musicos est controuersia. Quidam non
-        seiungunt ab augmentatione: quidam <pb n="[f.L4v]"/>uerò contendunt, cum haec signa omnibus
-        cantilenae partibus fuerint apposita, in prolatione maiore semibreuem perfectam, uel tres
-        minimas integro aut proportionato tactu cantarari debere. Atque ut breuiter meam sententiam
-        dicam, illi artem, hi usum habent, quia auditum obtundi putant illa minima notarum mora,
-        ideo ut fastidium tollant, citius canunt. Nam Boëtius etiam inquit: Harmoniam Musices non
-        ratione tantum, uerum et sensu perpendi oportere. Vsu itaque receptum est, in prolatione
-        maiore, quando singulae uoces integra signa praescripta habent, cum ibi aequalitatis sit
-        proportio, semibreuem tactu proportionato mensurari, quò sacietas deuitetur. Haec admonere
-        breuiter uolui, ut scirent adolescentes, quid ars, aut quid usus probet, qui tamen ita
-        inualuit, ut ferè habeatur pro ratione. Sed huius rei exemplum ex Lhommearme Iosquini paulò
-        post subijciam, prius usitatam illam computationem notarum indicabo.</p>
+      <p xml:id="FABMUS20017">Caeterum de prolatione maiore apud Musicos est controuersia. Quidam
+        non seiungunt ab augmentatione: quidam <pb n="[f.L4v]"/>uerò contendunt, cum haec signa
+        omnibus cantilenae partibus fuerint apposita, in prolatione maiore semibreuem perfectam, uel
+        tres minimas integro aut proportionato tactu cantarari debere. Atque ut breuiter meam
+        sententiam dicam, illi artem, hi usum habent, quia auditum obtundi putant illa minima
+        notarum mora, ideo ut fastidium tollant, citius canunt. Nam Boëtius etiam inquit: Harmoniam
+        Musices non ratione tantum, uerum et sensu perpendi oportere. Vsu itaque receptum est, in
+        prolatione maiore, quando singulae uoces integra signa praescripta habent, cum ibi
+        aequalitatis sit proportio, semibreuem tactu proportionato mensurari, quò sacietas
+        deuitetur. Haec admonere breuiter uolui, ut scirent adolescentes, quid ars, aut quid usus
+        probet, qui tamen ita inualuit, ut ferè habeatur pro ratione. Sed huius rei exemplum ex
+        Lhommearme Iosquini paulò post subijciam, prius usitatam illam computationem notarum
+        indicabo.</p>
       <p xml:id="FABMUS20018">
         <pb n="[f.M1r]"/>[Faber, Ad musicam practicam introductio, f.M1r; text: ualet in hoc signo
         [Od], 12, 6, 3, in hoc uerò signo [Cd], 8, 4, 2, tactibus. In utrisque illis signis 1, 1/3,
@@ -133,45 +144,45 @@
         <pb n="[f.M2v]"/>DE TEMPORE.</p>
       <p xml:id="FABMUS20024">Tempus est breuis notulae dimensio. Et quia in cantu breuis interdum
         tribus, interdum duabus ualet semibreuibus, diuiditur in perfectum et imperfectum.</p>
-      <p xml:id="FABMUS20025">Tempus perfectum est, quando breuis tribus semibreuibus mensuratur.</p>
+      <p xml:id="FABMUS20025">Tempus perfectum est, quando breuis tribus semibreuibus
+        mensuratur.</p>
       <p xml:id="FABMUS20026">Tempus Imperfectum est, cum breuis duas tantum semibreues
         complectitur.</p>
       <p xml:id="FABMUS20027">Regula.</p>
-      <p xml:id="FABMUS20028">Quandoquidem breuem notam hic gradus tantum considerat, saepissimè breues
-        notulae tempora uocantur, praesertim in fugis. Ideo in eiusmodi cantilenis signum atque
-        breuis ualorem diligenter considerabis.</p>
-      <p xml:id="FABMUS20029">[Faber, Ad musicam practicam introductio, f.M2v; text: ualet in hoc signo
-        [O], 12, 6, 3, in hoc uerò signo [C], 8, 4, 2, tactibus, in utrisque illis signis ualet, 1,
-        1/2, 1/4, 1/8, 1/16, tactus.]</p>
+      <p xml:id="FABMUS20028">Quandoquidem breuem notam hic gradus tantum considerat, saepissimè
+        breues notulae tempora uocantur, praesertim in fugis. Ideo in eiusmodi cantilenis signum
+        atque breuis ualorem diligenter considerabis.</p>
+      <p xml:id="FABMUS20029">[Faber, Ad musicam practicam introductio, f.M2v; text: ualet in hoc
+        signo [O], 12, 6, 3, in hoc uerò signo [C], 8, 4, 2, tactibus, in utrisque illis signis
+        ualet, 1, 1/2, 1/4, 1/8, 1/16, tactus.]</p>
       <p xml:id="FABMUS20030">
         <pb n="[f.M3r]"/>Exemplum</p>
-      <p xml:id="FABMUS20031">[Faber, Ad musicam practicam introductio, f.M3r; text: DISCANTVS. TENOR
-        canit in subdiapason, BASSVS. ALTVS.] <figure>
+      <p xml:id="FABMUS20031">[Faber, Ad musicam practicam introductio, f.M3r; text: DISCANTVS.
+        TENOR canit in subdiapason, BASSVS. ALTVS.] <figure>
           <graphic url="/images/FABMUS2_04GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20032">
         <pb n="[f.M3v]"/>DE MODO.</p>
-      <p xml:id="FABMUS20033">Modus est qui maximis ac longis suam certam quantitatem tribuit. Cum autem
-        in duas agat notas, longas uidelicet et maximas, est quoque duplex, Minor et Maior.</p>
+      <p xml:id="FABMUS20033">Modus est qui maximis ac longis suam certam quantitatem tribuit. Cum
+        autem in duas agat notas, longas uidelicet et maximas, est quoque duplex, Minor et
+        Maior.</p>
       <p xml:id="FABMUS20034">Modus minor est mensura breuium in longis et diuiditur in perfectum et
         imperfectum.</p>
       <p class="textFig" xml:id="FABMUS20035">
-        <lb/>              {Perfectus est quando longa 
-        <br/>Modus         {tribus breuibus ualet. 
+        <lb/>              {Perfectus est quando longa  <br/>Modus         {tribus breuibus ualet. 
         <lb/>minor         {Imperfectus est qui duas 
-        <br/>              {breues in longa considerat.
-        <lb/></p>
+        <br/>              {breues in longa considerat. <lb/></p>
       <p xml:id="FABMUS20036">Regula.</p>
-      <p xml:id="FABMUS20037">Vbi modus maior perfectus est, ibidem et minor perfectus existit, et non
-        contra.</p>
-      <p xml:id="FABMUS20038">[Faber, Ad musicam practicam introductio, f.M3v; text: ualet in [O2], in
-        utrisque illis signis ualet [C2], semitactus, 3, 6, 12, 2, 4, 8, 1, 1/2, 1/4, 1/8, 1/16] <figure>
+      <p xml:id="FABMUS20037">Vbi modus maior perfectus est, ibidem et minor perfectus existit, et
+        non contra.</p>
+      <p xml:id="FABMUS20038">[Faber, Ad musicam practicam introductio, f.M3v; text: ualet in [O2],
+        in utrisque illis signis ualet [C2], semitactus, 3, 6, 12, 2, 4, 8, 1, 1/2, 1/4, 1/8, 1/16] <figure>
           <graphic url="/images/FABMUS2_05GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20039">
         <pb n="[f.M4r]"/>Exemplum</p>
-      <p xml:id="FABMUS20040">[Faber, Ad musicam practicam introductio, f.M4r, text: TENOR. BASSVS canit
-        in subdiapente. DISCANTVS. ALTVS.] <figure>
+      <p xml:id="FABMUS20040">[Faber, Ad musicam practicam introductio, f.M4r, text: TENOR. BASSVS
+        canit in subdiapente. DISCANTVS. ALTVS.] <figure>
           <graphic url="/images/FABMUS2_06GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20041">
@@ -180,22 +191,24 @@
       <p xml:id="FABMUS20042">Perfectus est, quando maxima ualet tribus longis. Imperfectus est cum
         maxima duabus longis mensuratur.</p>
       <p xml:id="FABMUS20043">Regula,</p>
-      <p xml:id="FABMUS20044">Vbicunque est modus, ibi etiam est tempus et prolatio, et è diuerso.</p>
-      <p xml:id="FABMUS20045">Etsi autem modi maioris signa externa raro usurpantur: tamen cum inrerdum
-        usu ueniat ut per interna signa designetur, ualorem notarum hic quoque breuiter ponemus.</p>
-      <p xml:id="FABMUS20046">[Faber, Ad musicam practicam introductio, f.M4v; text: in hoc siguo [o3],
-        in hoc uero [C3] ualet, in utrisque illis signis ualet, tactus, 9, 27, 6, 21, 3, 1/2, 1/4,
-        1/8, 1/16]</p>
+      <p xml:id="FABMUS20044">Vbicunque est modus, ibi etiam est tempus et prolatio, et è
+        diuerso.</p>
+      <p xml:id="FABMUS20045">Etsi autem modi maioris signa externa raro usurpantur: tamen cum
+        inrerdum usu ueniat ut per interna signa designetur, ualorem notarum hic quoque breuiter
+        ponemus.</p>
+      <p xml:id="FABMUS20046">[Faber, Ad musicam practicam introductio, f.M4v; text: in hoc siguo
+        [o3], in hoc uero [C3] ualet, in utrisque illis signis ualet, tactus, 9, 27, 6, 21, 3, 1/2,
+        1/4, 1/8, 1/16]</p>
       <p xml:id="FABMUS20047">
         <pb n="[f.N1r]"/>Exemplum.</p>
-      <p xml:id="FABMUS20048">[Faber, Ad musicam practicam introductio, f.N1r, text: ALTVS. TENOR canit
-        in hypodiapente. BASSVS.] <figure>
+      <p xml:id="FABMUS20048">[Faber, Ad musicam practicam introductio, f.N1r, text: ALTVS. TENOR
+        canit in hypodiapente. BASSVS.] <figure>
           <graphic url="/images/FABMUS2_07GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20049">
         <pb n="[f.N1v]"/>Exemplum de gradibus trium uocum.</p>
-      <p xml:id="FABMUS20050">[Faber, Ad musicam practicam introductio, f.N1v, text: TENOR. DISCANTVS.
-        BASSVS.] <figure>
+      <p xml:id="FABMUS20050">[Faber, Ad musicam practicam introductio, f.N1v, text: TENOR.
+        DISCANTVS. BASSVS.] <figure>
           <graphic url="/images/FABMUS2_08GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20051">
@@ -204,21 +217,22 @@
       <p xml:id="FABMUS20053">Signum est quaedam figura, gradus Musicales in cantu indicans.</p>
       <p xml:id="FABMUS20054">Et est duplex.</p>
       <p xml:id="FABMUS20055">Externum et Internum.</p>
-      <p xml:id="FABMUS20056">Externum signum est quod expresse in cantilenarum principio ponitur, unde
-        gradus Musicae primo statim intuitu extrinsecus cognoscimus.</p>
+      <p xml:id="FABMUS20056">Externum signum est quod expresse in cantilenarum principio ponitur,
+        unde gradus Musicae primo statim intuitu extrinsecus cognoscimus.</p>
       <p class="textFig" xml:id="FABMUS20057">
         <br/>                                } Puncto
         <lb/>Signum externum fit tribus modis} Circulo et 
-        <br/>                                } Numero.
-        <lb/></p>
-      <p xml:id="FABMUS20058">Punctus circulo aut semicirculo inscriptus, designat prolationem maiorem.
-        Absentia uerò puncti minorem, quae à tempore nihil differt.</p>
-      <p xml:id="FABMUS20059">Circulus tempus denotat. Integer perfectum, Semicirculus imperfectum.</p>
+        <br/>                                } Numero. <lb/></p>
+      <p xml:id="FABMUS20058">Punctus circulo aut semicirculo inscriptus, designat prolationem
+        maiorem. Absentia uerò puncti minorem, quae à tempore nihil differt.</p>
+      <p xml:id="FABMUS20059">Circulus tempus denotat. Integer perfectum, Semicirculus
+        imperfectum.</p>
       <p xml:id="FABMUS20060">
         <pb n="[f.N2v]"/>Numerus cum circulo consertus utrumque modum significat. Ternarius maiorem,
         binarius uerò minorem. Suntqué hi modi perfecti aut imperfecti, ut circulus uel integer est
         uel dimidiatus.</p>
-      <p xml:id="FABMUS20061">Ex his itaque constituuntur sequentia signa doctis Musicis probata.</p>
+      <p xml:id="FABMUS20061">Ex his itaque constituuntur sequentia signa doctis Musicis
+        probata.</p>
       <p xml:id="FABMUS20062">[Faber, Ad musicam practicam introductio, f.N2v; text: Signum,
         [O3,C3,O2,C2,O,C,Od,Cddim], modi maioris, modi minoris, perfecti, imperfecti, temporis
         perfecti, temporis imperfecti, prolationis minoris, temporis]</p>
@@ -227,13 +241,13 @@
         coincidere. Ibi per circulum modus, atque per numerum significatur tempus, ternarius quidem
         perfectum, binarius autem imperfectum denotat. Et sic de caeteris quoque iudicabis.</p>
       <p xml:id="FABMUS20064">Signum internum uel implicitum.</p>
-      <p xml:id="FABMUS20065">Est quo gradus Musicales absque signo externo, ex ipsa cantilena tantum
-        cognoscimus. Et fit duobus modis. Geminatione pausarum et Repletione notarum.</p>
+      <p xml:id="FABMUS20065">Est quo gradus Musicales absque signo externo, ex ipsa cantilena
+        tantum cognoscimus. Et fit duobus modis. Geminatione pausarum et Repletione notarum.</p>
       <p xml:id="FABMUS20066">Cognoscuntur autem hoc modo.</p>
-      <p xml:id="FABMUS20067">1. Duae pausae modales simul iunctae, modum maiorem perfectum designant.
-        [MXP,MXP]</p>
-      <p xml:id="FABMUS20068">2. Vnica pausa modalis uel tres longae denigratae indicant modum minorem
-        perfectum. [L3P,L3P,Bcsdx,L,L]</p>
+      <p xml:id="FABMUS20067">1. Duae pausae modales simul iunctae, modum maiorem perfectum
+        designant. [MXP,MXP]</p>
+      <p xml:id="FABMUS20068">2. Vnica pausa modalis uel tres longae denigratae indicant modum
+        minorem perfectum. [L3P,L3P,Bcsdx,L,L]</p>
       <p xml:id="FABMUS20069">3. Duae pausae semibreues coniunctae uel tres breues coloratae tempus
         perfectum exhibent. [SP,SP,B,B,B]</p>
       <p xml:id="FABMUS20070">
@@ -241,14 +255,16 @@
         prolationem indicant maiorem. [MP,MP,S,S,S]</p>
       <p xml:id="FABMUS20071">Obseruanda etiam sunt hoc in loco sequentia duo praecepta, quae cum
         annotatu digna uidebantur minimè praeterire uolui.</p>
-      <p xml:id="FABMUS20072">1. Quando pausae, quae signa interna referunt, ante clauem signatum uel
-        statim post, sequente tamen alo signo, collocantur: tum nullum silentium inducunt sed tantum
-        gradus ostendunt. Post clauem uerò signatam positae, simul innuunt aliquamdiu tacendnm esse,
-        et graduum indicialia signa, hoc est, gradus aliquis perfectus simul significatur.</p>
+      <p xml:id="FABMUS20072">1. Quando pausae, quae signa interna referunt, ante clauem signatum
+        uel statim post, sequente tamen alo signo, collocantur: tum nullum silentium inducunt sed
+        tantum gradus ostendunt. Post clauem uerò signatam positae, simul innuunt aliquamdiu
+        tacendnm esse, et graduum indicialia signa, hoc est, gradus aliquis perfectus simul
+        significatur.</p>
       <p xml:id="FABMUS20073">Cantileua tam externis quàm internis signis carens, simpliciter inter
         imperfectas censenda est, quod et Franchinus affirmat, cum inquit. Imperfectionem figurae
         secum deferunt, deficientibus signis.</p>
-      <p xml:id="FABMUS20074">Sunt praeterea et alia signa iu usu, quae ad cognitionem <pb n="[f.N4r]"/>graduum nihil faciunt, quare à Musicis minus principalia uocantur.</p>
+      <p xml:id="FABMUS20074">Sunt praeterea et alia signa iu usu, quae ad cognitionem <pb
+          n="[f.N4r]"/>graduum nihil faciunt, quare à Musicis minus principalia uocantur.</p>
       <p xml:id="FABMUS20075">[Faber, Ad musicam practicam introductio, f.N4r,1] <figure>
           <graphic url="/images/FABMUS2_09GF.gif"/>
         </figure></p>
@@ -260,17 +276,17 @@
       <p xml:id="FABMUS20078">Concordantia cardinalis signum, quod omnes uoces simul cessare
         indicat.</p>
       <p xml:id="FABMUS20079">[Faber, Ad musicam practicam introductio, f.N4r,3]</p>
-      <p xml:id="FABMUS20080">Conuenientiae, significat enim in cantilenis multarum uocum ubi harmonia
-        conueniat. Habet etiam usum in fugis, ubi monet quando uox sequens priori succedat, et
-        quando desinat.</p>
+      <p xml:id="FABMUS20080">Conuenientiae, significat enim in cantilenis multarum uocum ubi
+        harmonia conueniat. Habet etiam usum in fugis, ubi monet quando uox sequens priori succedat,
+        et quando desinat.</p>
       <p xml:id="FABMUS20081">[Faber, Ad musicam practicam introductio, f.N4r,4]</p>
-      <p xml:id="FABMUS20082">Dealbationis, quia notas inter scribendum casu denigratas, monstrat albas
-        esse debere.</p>
+      <p xml:id="FABMUS20082">Dealbationis, quia notas inter scribendum casu denigratas, monstrat
+        albas esse debere.</p>
       <p xml:id="FABMUS20083">Sequitur exemplum.</p>
       <p xml:id="FABMUS20084">
         <pb n="[f.N4v]"/>Exemplum.</p>
-      <p xml:id="FABMUS20085">[Faber, Ad musicam practicam introductio, f.N4v; text: DISCANTVS. ALTVS.
-        TENOR.]</p>
+      <p xml:id="FABMUS20085">[Faber, Ad musicam practicam introductio, f.N4v; text: DISCANTVS.
+        ALTVS. TENOR.]</p>
       <p xml:id="FABMUS20086">
         <pb n="[f.O1r]"/>[Faber, Ad musicam practicam introductio, f.O1r; text: BASSVS.]</p>
       <p xml:id="FABMUS20087">Declaratio exempli.</p>
@@ -290,13 +306,14 @@
         referunt. Sed huiusmodi notas uocabimus ad calculos sequenti capite.</p>
       <p xml:id="FABMUS20090">CAPVT TERTIVM</p>
       <p xml:id="FABMUS20091">de Augmentatione.</p>
-      <p xml:id="FABMUS20092">Augmentatio est ualoris notarum auctio, quae ipsis ex certis signis aut
-        canonibus, ultra essentialem ualorem, accedit. Est autem essentialis ualor, ut obiter hoc
-        admoneam, quando semibreuis integrum tactum in his signis [O,C] absoluit, quare cum
+      <p xml:id="FABMUS20092">Augmentatio est ualoris notarum auctio, quae ipsis ex certis signis
+        aut canonibus, ultra essentialem ualorem, accedit. Est autem essentialis ualor, ut obiter
+        hoc admoneam, quando semibreuis integrum tactum in his signis [O,C] absoluit, quare cum
         semibreuis pluribus tactibus ualuerit, eam auctam esse dicimus.</p>
       <p xml:id="FABMUS20093">Cumque augmentatio prolationi affinis sit, quia ijsdem utuntur signis,
         paucissimis earum discrimen, etiamsi supra quoque ea de re dictum est, hoc loco indicabo.
-        Est autem inter augmentationem et prolationem usitatè haec differentia. Quando signum <pb n="[f.O2r]"/>prolationis maioris externum uel internum, in una tantum cantilenae parte
+        Est autem inter augmentationem et prolationem usitatè haec differentia. Quando signum <pb
+          n="[f.O2r]"/>prolationis maioris externum uel internum, in una tantum cantilenae parte
         ponitur, tunc augmentationem designat, in qua singulae minimae singulis tactibus ualent, et
         semibreuis in tres minimas resoluitur. Cum uerò omnibus cantilenae partibus signum temporis
         cum puncto insecto praeponitur, prolatio, significatur, in qua semibreuis perfecta uel tres
@@ -304,9 +321,9 @@
       <p xml:id="FABMUS20094">Augmentatio significatur tribus modis.</p>
       <p xml:id="FABMUS20095">Primo per signa tam externa quàm interna perfectae prolationis in una
         tantum uoce posita.</p>
-      <p xml:id="FABMUS20096">Secundo, cum notularum paucitas sine signo repetitionis, in una duntaxat
-        cantilenae parte, reperitur. Sed prius, quàm adiungo exempla, Figurarum ualor indicandus
-        erit.</p>
+      <p xml:id="FABMUS20096">Secundo, cum notularum paucitas sine signo repetitionis, in una
+        duntaxat cantilenae parte, reperitur. Sed prius, quàm adiungo exempla, Figurarum ualor
+        indicandus erit.</p>
       <p xml:id="FABMUS20097">
         <pb n="[f.O2v]"/>[Faber, Ad musicam practicam introductio, f.O2v,1; text: In hoc signo [Od]
         ualet, in hoc uerò signo [Cd], In utrisque illis signis ualet, tactus, 9, 18, 36, 6, 12, 24,
@@ -330,25 +347,25 @@
       <p xml:id="FABMUS20103">
         <pb n="[f.O4r]"/>Tertium exemplum, indicans discrimen inter augmentationem et
         prolationem.</p>
-      <p xml:id="FABMUS20104">[Faber, Ad musicam practicam introductio, f.O4r; text: TENOR. DISCANTVS.
-        BASSVS.] <figure>
+      <p xml:id="FABMUS20104">[Faber, Ad musicam practicam introductio, f.O4r; text: TENOR.
+        DISCANTVS. BASSVS.] <figure>
           <graphic url="/images/FABMUS2_13GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20105">
         <pb n="[f.O4v]"/>Tertio cognoscitur augmentatio per canones cantionibus adiectos, ut crescit
         in duplo triplo et caetera uel breuis sit maxima, et semibreuis longa et caetera.</p>
       <p xml:id="FABMUS20106">Exemplum.</p>
-      <p xml:id="FABMUS20107">[Faber, Ad musicam practicam introductio, f.O4v; text: TENOR. Breuis sit
-        maxima. BASSVS. DISCANTVS.] <figure>
+      <p xml:id="FABMUS20107">[Faber, Ad musicam practicam introductio, f.O4v; text: TENOR. Breuis
+        sit maxima. BASSVS. DISCANTVS.] <figure>
           <graphic url="/images/FABMUS2_14GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20108">
         <pb n="[f.P1r]"/>[Faber, Ad musicam practicam introductio, f.P1r; text: ALTVS.] <figure>
           <graphic url="/images/FABMUS2_15GF.gif"/>
         </figure></p>
-      <p xml:id="FABMUS20109">Canon in Basi non opus habet longa explicatione, quia primo statim intuitu
-        huius artis studioso patebit quid eo significetur. Sed Tenoris canonem, cum non ita omnibus
-        sit obuius, paucis accipe.</p>
+      <p xml:id="FABMUS20109">Canon in Basi non opus habet longa explicatione, quia primo statim
+        intuitu huius artis studioso patebit quid eo significetur. Sed Tenoris canonem, cum non ita
+        omnibus sit obuius, paucis accipe.</p>
       <p xml:id="FABMUS20110">
         <pb n="[f.P1v]"/>Initio considerabis signum et uerba canonis, quae iubent breuem pro maxima
         censeri, quam rationem et aliae notulae imitantur. Si itaque breuis maximae habebit ualorem,
@@ -361,8 +378,8 @@
         </figure></p>
       <p xml:id="FABMUS20112">
         <pb n="[f.P2r]"/>Regulae</p>
-      <p xml:id="FABMUS20113">1. Quando augmentationi signum alterius gradus accesserit, tum notas iuxta
-        iam traditam ualoris supputationem innuet, caeterae notulae iuxta graduum praecepta
+      <p xml:id="FABMUS20113">1. Quando augmentationi signum alterius gradus accesserit, tum notas
+        iuxta iam traditam ualoris supputationem innuet, caeterae notulae iuxta graduum praecepta
         incrementum accipient.</p>
       <p xml:id="FABMUS20114">2. Augmentatio in omnes figuras porrigitur, et pausae simul ac notae
         augescunt.</p>
@@ -374,7 +391,8 @@
         mensurae adimat, Semiditas autem in imperfectis. Veteres tamen aliter de ea re sentientes
         diminutionem tertiae partis ab ipsa mensura abstractionem esse dicebant. Sed recentiores
         Musici patrum memoria praeclarissimi Franchinus, Ioannes Tinctoris et alij, eò quòd tertiam
-        partem difficilem inuentu uidebant, communi sententia diminutionem à semiditate <pb n="[f.P2v]"/>non discernendam esse statuerunt. Atque ut facilius adolescentes intelligant,
+        partem difficilem inuentu uidebant, communi sententia diminutionem à semiditate <pb
+          n="[f.P2v]"/>non discernendam esse statuerunt. Atque ut facilius adolescentes intelligant,
         dicunt non notularum ac pausarum ualorem aut numerum praescindi, sed tantum mensuram fieri
         uelociorem. Hoc autem loco Musicae studiosos admonitos uolo, ut signum integrum à diminuto
         benè discernere discant, uitentqué Cantorum quorundam ineptias, qui solo usu contenti,
@@ -396,12 +414,12 @@
         traditionem, paulò crassiori minerua, quemadmodum supra quoque feci, collationem tam integri
         quàm diminuti signi in tempore perfecto, quod essentialem ualorem complectitur, tradiderim,
         quò facilius de reliquis quoque iudicium facere possint.</p>
-      <p xml:id="FABMUS20123">[Faber, Ad musicam practicam introductio, f.P3r; text: ualet in integro
-        signo [O], tactibus integris, tactus, In diminutione [Odim], ualet totidem semitactibus uel,
-        12, 6, 3, 1, 1/2, 1/4, 1/8, 1/16, 1/32]</p>
-      <p xml:id="FABMUS20124">Eodem modo conferes et deminuta signa cum integris supra traditis, atque
-        ita tandem sine negotio <pb n="[f.P3v]"/>certum notarum ualorem depraehendes. Obiter hoc
-        loco etiam obseruetur, minores notas in his signis [O,C,Oddim,Od2,Cddim,CLd,Cd] [signum]
+      <p xml:id="FABMUS20123">[Faber, Ad musicam practicam introductio, f.P3r; text: ualet in
+        integro signo [O], tactibus integris, tactus, In diminutione [Odim], ualet totidem
+        semitactibus uel, 12, 6, 3, 1, 1/2, 1/4, 1/8, 1/16, 1/32]</p>
+      <p xml:id="FABMUS20124">Eodem modo conferes et deminuta signa cum integris supra traditis,
+        atque ita tandem sine negotio <pb n="[f.P3v]"/>certum notarum ualorem depraehendes. Obiter
+        hoc loco etiam obseruetur, minores notas in his signis [O,C,Oddim,Od2,Cddim,CLd,Cd] [signum]
         eundem habere ualorem. Nam</p>
       <p xml:id="FABMUS20125">[Faber, Ad musicam practicam introductio, f.P3v,1; text: ualet, tactus
         integri, 1/2, 1/4, 1/8, 1/16] <figure>
@@ -442,7 +460,8 @@
         Significatur diminutio quoque per proportiones, in quibus superior numerus maior est
         inferiore. Sed de his suo loco dicemus. Iam unum exemplum de canone addam, ut de similibus
         Lector inde iudicare discat. Maxima sit breuis,</p>
-      <p xml:id="FABMUS20135">[Faber, Ad musicam practicam introductio, f.Q2v,2; text: DISCANTVS.]</p>
+      <p xml:id="FABMUS20135">[Faber, Ad musicam practicam introductio, f.Q2v,2; text:
+        DISCANTVS.]</p>
       <p xml:id="FABMUS20136">
         <pb n="[f.Q3r]"/>[Faber, Ad musicam practicam introductio, f.Q3r; text: ALTVS crescit in
         duplo, TENOR. BASSVS.] <figure>
@@ -454,14 +473,14 @@
         duobus semitactibus. Ergo longa semibreuis ualorem habebit, breuis minimae: et sic deinceps.
         Alti autem omnes figuras si dimidiaueris rectè constabit cantilena.</p>
       <p xml:id="FABMUS20138">De Diminutionis diminutione.</p>
-      <p xml:id="FABMUS20139">Interdum eidem signo duplex diminutio uirgularis ac numeralis accidit, ubi
-        diminutus notarum ualor iterum diminuitur, ita ut tantum quarta pars eius ualoris remaneat,
-        et diminutionis diminutio uocatur, ut [Oddim2,Cddim2,CLddim,Odim2,Cdim2,CLdim]. Huc etiam
-        propter incipientes unum paradigma, in quo collationem hanc integri et diminuti ualoris
-        perspicere licet, apponam, ut inde Lector admonitus, reliqua ad eundem modum suo marte
-        discutiat.</p>
-      <p xml:id="FABMUS20140">[Faber, Ad musicam practicam introductio, f.Q3v; text: In sig-, in dimi,
-        12, 6, 3, 1, 1 1/2, 1/2, 1/4] <figure>
+      <p xml:id="FABMUS20139">Interdum eidem signo duplex diminutio uirgularis ac numeralis accidit,
+        ubi diminutus notarum ualor iterum diminuitur, ita ut tantum quarta pars eius ualoris
+        remaneat, et diminutionis diminutio uocatur, ut [Oddim2,Cddim2,CLddim,Odim2,Cdim2,CLdim].
+        Huc etiam propter incipientes unum paradigma, in quo collationem hanc integri et diminuti
+        ualoris perspicere licet, apponam, ut inde Lector admonitus, reliqua ad eundem modum suo
+        marte discutiat.</p>
+      <p xml:id="FABMUS20140">[Faber, Ad musicam practicam introductio, f.Q3v; text: In sig-, in
+        dimi, 12, 6, 3, 1, 1 1/2, 1/2, 1/4] <figure>
           <graphic url="/images/FABMUS2_25GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20141">
@@ -515,8 +534,7 @@
         <br/>                  {Diapason               {octaua 
         <lb/>Item              {Diatessaron            {quarta
         <br/>in hypo uel sub   {Diapente     hoc est   {quinta 
-        <lb/>                  {Diapason     infra in  {octaua 
-        <br/></p>
+        <lb/>                  {Diapason     infra in  {octaua  <br/></p>
       <p xml:id="FABMUS20158">
         <pb n="[f.R3v]"/>[Faber, Ad musicam practicam introductio, f.R3v; text: Fuga duorum in
         omophonia uel in unissono, hoc est, ex eadem claue sequens uox canitur. Fuga duorum in
@@ -531,17 +549,17 @@
         </figure></p>
       <p xml:id="FABMUS20160">
         <pb n="[f.R4v]"/>Fuga quatuor uocum.</p>
-      <p xml:id="FABMUS20161">[Faber, Ad musicam practicam introductio, f.Rv4; text: Discantus sequitur
-        Tenorem in epidiapason post tempus, Bassus in subdiapente post duo tempora. Altus in
-        hyperdiatessaron post tria tempora.]</p>
-      <p xml:id="FABMUS20162">Habent praeterea et alios canones, quos aenigmaticè cantionibus apponunt,
-        ut, cancrisat, hoc est, retrograditur. Nigra sum sed formosa, nigrae notae debent pro albis
-        cantari. Misericordia et ueritas obuiauerunt sibi, quando alter uox recto, altera retrogrado
-        ordine canit. Sunt antem isti canones infiniti, neque possunt omnes hoc loco numerari, cum
-        Musicorum arbitro relictum sit, quotidie nouos effingere. Sequuntur tria exempla, quae
-        Lectorem docebunt quomodo de similibus iudicandum sit. Primum est ex Hercule Iosquini
-        desumptum, in quo canon significat Tenorem incipere à tergo, atque postea recto ordine,
-        omissis pausis pro breuibus semibreues cantari debere.</p>
+      <p xml:id="FABMUS20161">[Faber, Ad musicam practicam introductio, f.Rv4; text: Discantus
+        sequitur Tenorem in epidiapason post tempus, Bassus in subdiapente post duo tempora. Altus
+        in hyperdiatessaron post tria tempora.]</p>
+      <p xml:id="FABMUS20162">Habent praeterea et alios canones, quos aenigmaticè cantionibus
+        apponunt, ut, cancrisat, hoc est, retrograditur. Nigra sum sed formosa, nigrae notae debent
+        pro albis cantari. Misericordia et ueritas obuiauerunt sibi, quando alter uox recto, altera
+        retrogrado ordine canit. Sunt antem isti canones infiniti, neque possunt omnes hoc loco
+        numerari, cum Musicorum arbitro relictum sit, quotidie nouos effingere. Sequuntur tria
+        exempla, quae Lectorem docebunt quomodo de similibus iudicandum sit. Primum est ex Hercule
+        Iosquini desumptum, in quo canon significat Tenorem incipere à tergo, atque postea recto
+        ordine, omissis pausis pro breuibus semibreues cantari debere.</p>
       <p xml:id="FABMUS20163">
         <pb n="[f.S1r]"/>[Faber, Ad musicam practicam introductio, f.S1r; text: TENOR. DISCANTVS.] <figure>
           <graphic url="/images/FABMUS2_32GF.gif"/>
@@ -557,7 +575,8 @@
       <p xml:id="FABMUS20166">
         <pb n="[f.S2v]"/>Secundum exemplum est Petri molu, ex Missa duarum facierum.</p>
       <p xml:id="FABMUS20167">Canon. Tolle moras placido maneant suspiria cantu.</p>
-      <p xml:id="FABMUS20168">[Faber, Ad musicam practicam introductio, f.S2v; text: TENOR. DISCANTVS.] <figure>
+      <p xml:id="FABMUS20168">[Faber, Ad musicam practicam introductio, f.S2v; text: TENOR.
+        DISCANTVS.] <figure>
           <graphic url="/images/FABMUS2_35GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20169">
@@ -566,16 +585,16 @@
         </figure></p>
       <p xml:id="FABMUS20170">
         <pb n="[f.S3v]"/>Tertij exempli loco apponam crux fidelis. Ludouici Senfelij.</p>
-      <p xml:id="FABMUS20171">[Faber, Ad musicam practicam introductio, f.S3v; text: TENOR. Misericordia
-        et ueritas obuiauerunt sibi Iustitia et pax se osculatae sunt.] <figure>
+      <p xml:id="FABMUS20171">[Faber, Ad musicam practicam introductio, f.S3v; text: TENOR.
+        Misericordia et ueritas obuiauerunt sibi Iustitia et pax se osculatae sunt.] <figure>
           <graphic url="/images/FABMUS2_37GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20172">
         <pb n="[f.S4r]"/>[Faber, Ad musicam practicam introductio, f.S4r; text: DISCANTVS. Qui mecum
         canit cancrisat.]</p>
       <p xml:id="FABMUS20173">CAPVT QVINTVM</p>
-      <p xml:id="FABMUS20174">Tactus est motio successura in cantu mensuram dirigens. Oportet enim in
-        canentium coetu, ne fiat confusio, unam certam et aequalem esse mensuram, qua reddimur
+      <p xml:id="FABMUS20174">Tactus est motio successura in cantu mensuram dirigens. Oportet enim
+        in canentium coetu, ne fiat confusio, unam certam et aequalem esse mensuram, qua reddimur
         certiores de quantitate notularum ac pausarum, quantum scilicet corripi, aut produci
         debeant.</p>
       <p xml:id="FABMUS20175">
@@ -595,27 +614,28 @@
       <p xml:id="FABMUS20178">Maior, qui et integer et totalis dicitur, proprius et uerus omnium
         cantilenarum tactus, est qui semibreuem integram uel breuem in duplo diminutam suo motu
         compraehendit.</p>
-      <p xml:id="FABMUS20179">Minor uel semitactus, solus nun apud cantores regnans, est maioris medium,
-        ac semibreuem in <pb n="[f.T1r]"/>duplo diminutam suo motu mensurat. Hic tactus, ut
+      <p xml:id="FABMUS20179">Minor uel semitactus, solus nun apud cantores regnans, est maioris
+        medium, ac semibreuem in <pb n="[f.T1r]"/>duplo diminutam suo motu mensurat. Hic tactus, ut
         conijcio, tantum ideo fuit inuentus, ut significaretur in diminutione, et semiditate tantum
         dimidium mensurae auferri, ac ualori figurarum nihil quicquam de rogari.</p>
-      <p xml:id="FABMUS20180">Proportionatus, quem et triplum et sesquialterum uocant, est quo utuntur
-        in quibusdam proportionibus et in prolatione perfecta. Atque ut summatim quae mea de hac re
-        sit sententia dicam. Integra signa ad maiorem tactum, diminuta uerò ad minorem commode
-        adaptari possunt. Proportionatus autem tactus, mihi uidetur omnino alienus esse à Musica, eò
-        quòd proportionis naturae non conuenit. Praeterea hoc diligenter obserues uelim, cum plura
-        signa diuersa coinciderint, ut singula ad maiorem tactum accommodes, sicuti ex Iosquini
-        exemplo liquidò apparebit. Quia uerò prolatio maior et tripla proportio et sequialtera
-        (caeterae omnes optimè quadrant) maiori tactui non exactè conuenire praesertim rudioribus
-        uidentur, poteris ad tempus ruditati subseruire, et communi more, quando omnibus uocibus
-        eadem signa praescripta sunt, canere, donec usus te ab hac molestia liberauerit.</p>
+      <p xml:id="FABMUS20180">Proportionatus, quem et triplum et sesquialterum uocant, est quo
+        utuntur in quibusdam proportionibus et in prolatione perfecta. Atque ut summatim quae mea de
+        hac re sit sententia dicam. Integra signa ad maiorem tactum, diminuta uerò ad minorem
+        commode adaptari possunt. Proportionatus autem tactus, mihi uidetur omnino alienus esse à
+        Musica, eò quòd proportionis naturae non conuenit. Praeterea hoc diligenter obserues uelim,
+        cum plura signa diuersa coinciderint, ut singula ad maiorem tactum accommodes, sicuti ex
+        Iosquini exemplo liquidò apparebit. Quia uerò prolatio maior et tripla proportio et
+        sequialtera (caeterae omnes optimè quadrant) maiori tactui non exactè conuenire praesertim
+        rudioribus uidentur, poteris ad tempus ruditati subseruire, et communi more, quando omnibus
+        uocibus eadem signa praescripta sunt, canere, donec usus te ab hac molestia liberauerit.</p>
       <p xml:id="FABMUS20181">Regula.</p>
       <p xml:id="FABMUS20182">
         <pb n="[f.T1v]"/>Semibrenis in omnibus signis, diminutione, augmentatione et proportionibus
         demptis, tactu integro mensurari debet.</p>
       <p xml:id="FABMUS20183">Exemplum trium uocum ex unica, ex Lhomme arme Iosquini.</p>
-      <p xml:id="FABMUS20184">[Faber, Ad musicam practicam introductio, f.T1v; text: Superior uox canit
-        ualorem proportionatum, Media integrum in hypodiatessaron. Infima diminutum in subdiapason.] <figure>
+      <p xml:id="FABMUS20184">[Faber, Ad musicam practicam introductio, f.T1v; text: Superior uox
+        canit ualorem proportionatum, Media integrum in hypodiatessaron. Infima diminutum in
+        subdiapason.] <figure>
           <graphic url="/images/FABMUS2_38GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20185">Aliud exemplum Ludonici Senfelij Canon. Omne trinum perfectum.</p>
@@ -625,32 +645,33 @@
       <p xml:id="FABMUS20187">
         <pb n="[f.T2v]"/>CAPVT SEXTVM</p>
       <p xml:id="FABMUS20188">de punctis.</p>
-      <p xml:id="FABMUS20189">Punctus est mimimum quoddam signum notulis adiectum, ut eas uel perficiat,
-        diuidat, alteret uel</p>
+      <p xml:id="FABMUS20189">Punctus est mimimum quoddam signum notulis adiectum, ut eas uel
+        perficiat, diuidat, alteret uel</p>
       <p xml:id="FABMUS20190">media parte ualoris augeat.</p>
       <p xml:id="FABMUS20191">Et est quadruplex.</p>
-      <p xml:id="FABMUS20192">Additionis, Diuisionis, Alterationis et Perfectionis. Additionis punctus,
-        dimidio ualore adhuc notulam cui à tergo asscribitur, auget, fitque in notulis imperfectis
-        tantum.</p>
+      <p xml:id="FABMUS20192">Additionis, Diuisionis, Alterationis et Perfectionis. Additionis
+        punctus, dimidio ualore adhuc notulam cui à tergo asscribitur, auget, fitque in notulis
+        imperfectis tantum.</p>
       <p xml:id="FABMUS20193">Exemplum.</p>
       <p xml:id="FABMUS20194">[Faber, Ad musicam practicam introductio, f.T2v; text: TENOR.] <figure>
           <graphic url="/images/FABMUS2_39GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20195">
         <pb n="[f.T3r]"/>[Faber, Ad musicam practicam introductio, f.T3r; text: BASSVS]</p>
-      <p xml:id="FABMUS20196">Diuisionis punctus est, qui inter duas notas paulò altius quàm additionis
-        scriptus, eas nec auget nec minuit, sed tantum indicat alteram praecedenti, alteram sequenti
-        esse connumerandam. Interdum tamen unam notulam ad tertiam uel quartam figuram sequentem
-        transferri significat, tum dicitur punctus transportationis. Estqué eius usus tantum in
-        gradibus perfectis, ad perficiendam in cantu ternariam diuisionem.</p>
+      <p xml:id="FABMUS20196">Diuisionis punctus est, qui inter duas notas paulò altius quàm
+        additionis scriptus, eas nec auget nec minuit, sed tantum indicat alteram praecedenti,
+        alteram sequenti esse connumerandam. Interdum tamen unam notulam ad tertiam uel quartam
+        figuram sequentem transferri significat, tum dicitur punctus transportationis. Estqué eius
+        usus tantum in gradibus perfectis, ad perficiendam in cantu ternariam diuisionem.</p>
       <p xml:id="FABMUS20197">
         <pb n="[f.T3v]"/>Alterationis est, qui notam supra quam ponitur duplicat. Collocatur autem
         praecisè supra notam, quam alterat. Sed hunc nostro seculo qnidam in scribendo exprimunt,
         qnidam uerò omittunt.</p>
-      <p xml:id="FABMUS20198">Perfectionis est, qui postpositus notae perfectae ut additionis, eam non
-        auget sed tantum conseruat in sua perfectione, ne à minori imperficiatur.</p>
+      <p xml:id="FABMUS20198">Perfectionis est, qui postpositus notae perfectae ut additionis, eam
+        non auget sed tantum conseruat in sua perfectione, ne à minori imperficiatur.</p>
       <p xml:id="FABMUS20199">Exemplum.</p>
-      <p xml:id="FABMUS20200">[Faber, Ad musicam practicam introductio, f.T3v; text: DISCANTVS. ALTVS.] <figure>
+      <p xml:id="FABMUS20200">[Faber, Ad musicam practicam introductio, f.T3v; text: DISCANTVS.
+        ALTVS.] <figure>
           <graphic url="/images/FABMUS2_40GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20201">
@@ -658,25 +679,23 @@
       <p xml:id="FABMUS20202">
         <pb n="[f.T4v]"/>CAPVT SEPTIMVM</p>
       <p xml:id="FABMUS20203">de imperfectione.</p>
-      <p xml:id="FABMUS20204">Imperfectio est quando notis perfectis, tertia pars aut minor ea, propter
-        accedentes quasdam causas detrahitur.</p>
+      <p xml:id="FABMUS20204">Imperfectio est quando notis perfectis, tertia pars aut minor ea,
+        propter accedentes quasdam causas detrahitur.</p>
       <p class="textFig" xml:id="FABMUS20205">
-        <lb/>Et est duplex  {Totalis
-        <br/>               {Partialis
-        <lb/></p>
-      <p xml:id="FABMUS20206">Totalis est, quae notulis tertiam partem aufert, dicitur etiam propinqua,
-        eò quòd tantum perpropinquas figuras fieri solet, et cum maxima à longa imperficitur et
-        caetera.</p>
-      <p xml:id="FABMUS20207">Partialis est, cum non tertia pars, sed minor ea notulis aufertur, et fit
-        per partes figurarum remotas, ut cum maxima à breui uel semibreui imperficitur.</p>
+        <lb/>Et est duplex  {Totalis <br/>               {Partialis <lb/></p>
+      <p xml:id="FABMUS20206">Totalis est, quae notulis tertiam partem aufert, dicitur etiam
+        propinqua, eò quòd tantum perpropinquas figuras fieri solet, et cum maxima à longa
+        imperficitur et caetera.</p>
+      <p xml:id="FABMUS20207">Partialis est, cum non tertia pars, sed minor ea notulis aufertur, et
+        fit per partes figurarum remotas, ut cum maxima à breui uel semibreui imperficitur.</p>
       <p xml:id="FABMUS20208">Quatuor sunt notae quae imperficiuntur, ideo etiam imperfectibiles
         uocantur. Maxima, Longa, Breuis et Semibreuis.</p>
       <p xml:id="FABMUS20209">Fit autem imperfectio tribus modis,</p>
       <p xml:id="FABMUS20210">Nota, Pausa, et Colore.</p>
-      <p xml:id="FABMUS20211">Nota et pausa, quando ante uel post notam perfectam figura minoris speciei
-        collocatur.</p>
-      <p xml:id="FABMUS20212">Colore, quia cum color in perfectis figuris offenditur, imperfectae fiunt,
-        tertia enim pars denigratione aufertur.</p>
+      <p xml:id="FABMUS20211">Nota et pausa, quando ante uel post notam perfectam figura minoris
+        speciei collocatur.</p>
+      <p xml:id="FABMUS20212">Colore, quia cum color in perfectis figuris offenditur, imperfectae
+        fiunt, tertia enim pars denigratione aufertur.</p>
       <p xml:id="FABMUS20213">
         <pb n="[f.V1r]"/>[Faber, Ad musicam practicam introductio, f.V1r; text: TENOR. DISCANTVS,
         BASSVS, ALTVS] <figure>
@@ -690,25 +709,26 @@
         regulas generales praemittam, quas deinde speciales sequentur.</p>
       <p xml:id="FABMUS20215">Regulae generales.</p>
       <p xml:id="FABMUS20216">Prima.</p>
-      <p xml:id="FABMUS20217">Omnis figura imperficitur à minori, cum anteriori, tum posteriori parte,
-        uel etiam ab utraque. Quare similis similem non imperficit, neque maior minorem.</p>
+      <p xml:id="FABMUS20217">Omnis figura imperficitur à minori, cum anteriori, tum posteriori
+        parte, uel etiam ab utraque. Quare similis similem non imperficit, neque maior minorem.</p>
       <p xml:id="FABMUS20218">Secunda.</p>
       <p xml:id="FABMUS20219">Propinqua pars notae alicuius maioris aufert ei tertiam partem, remota
         uerò tantum quantum ipsa ualet.</p>
       <p xml:id="FABMUS20220">Tertia.</p>
-      <p xml:id="FABMUS20221">Quod semel imperfectum est amplius imperfici non potest, hoc est, ubi fit
-        partialis imperfectio non admittitur, deinde totalis, et contra. Possunt autem <pb n="[f.V2r]"/>duae partiales imperfectiones in eadem nota maiore accidere, ut
+      <p xml:id="FABMUS20221">Quod semel imperfectum est amplius imperfici non potest, hoc est, ubi
+        fit partialis imperfectio non admittitur, deinde totalis, et contra. Possunt autem <pb
+          n="[f.V2r]"/>duae partiales imperfectiones in eadem nota maiore accidere, ut
         [Od,Svcd,Bv,Sv,Bv] Item [O,Sv,Lv,Sv]</p>
       <p xml:id="FABMUS20222">Quarta</p>
-      <p xml:id="FABMUS20223">Pausa non imperficitur sed imperficit. Ita etiam similis ante similem non
-        potest imperfici, ut</p>
+      <p xml:id="FABMUS20223">Pausa non imperficitur sed imperficit. Ita etiam similis ante similem
+        non potest imperfici, ut</p>
       <p xml:id="FABMUS20224">[Faber, Ad musicam practicam introductio, f.V2r,1] <figure>
           <graphic url="/images/FABMUS2_42GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20225">sed imperfectio transfertur ad ultimam.</p>
       <p xml:id="FABMUS20226">Quinta.</p>
-      <p xml:id="FABMUS20227">Minor inter duas maiores posita, praecedentem et non sequentem imperficit,
-        ut</p>
+      <p xml:id="FABMUS20227">Minor inter duas maiores posita, praecedentem et non sequentem
+        imperficit, ut</p>
       <p xml:id="FABMUS20228">[Faber, Ad musicam practicam introductio, f.V2r,2]</p>
       <p xml:id="FABMUS20229">nisi punctus interpositus contrarium doceat, ut [Bv,pt,Sv,Bv] uel
         [Bv,pt,Sv,Bv]</p>
@@ -727,9 +747,9 @@
       <p xml:id="FABMUS20238">
         <pb n="[f.V3r]"/>Regulae speciales.</p>
       <p xml:id="FABMUS20239">Prima.</p>
-      <p xml:id="FABMUS20240">In modo maiore perfecto maxima imperficitur à longa, longa à breui, breuis
-        autem à semibreui, quia ibi concurrunt, ut supra dictum est, modi perfecti maior et minor,
-        atque tempus perfectum.</p>
+      <p xml:id="FABMUS20240">In modo maiore perfecto maxima imperficitur à longa, longa à breui,
+        breuis autem à semibreui, quia ibi concurrunt, ut supra dictum est, modi perfecti maior et
+        minor, atque tempus perfectum.</p>
       <p xml:id="FABMUS20241">Secunda.</p>
       <p xml:id="FABMUS20242">In modo maiore imperfecto breuis imperficitur à semibreui, quia simul
         tempus perfectum compraehendit propter numerum ternarium semicirculo additum.</p>
@@ -738,17 +758,19 @@
       <p xml:id="FABMUS20245">Quarta.</p>
       <p xml:id="FABMUS20246">In tempore perfecto breuis imperficitur à semibreui.</p>
       <p xml:id="FABMUS20247">Quinta.</p>
-      <p xml:id="FABMUS20248">In prolatione maiore temporis perfecti, breuis à semibreui imperficitur,
-        et semibreuis à minima, quia punctus in signo temporis perfecti ponitur. In prolatione uerò
-        maiore temporis imperfecti, tantum semibreuis à minima imperficitur, propter punctum in
-        semicirculo positum. Hae regulae de imperfectione totali traduntur, et de his figuris, quae
-        essentialem habent in se perfectionem, hoc est, quae praecise mensurantur <pb n="[f.V3v]"/>tribus minoribus sed propinquis. Admittunt quoque eadem figurae partielem imperfectionem,
-        quando illis minores notae non propinquae adduntur. Hoc autem obseruabis diligeneter et
-        alias figuras, quarum nulla iam facta est mentio, tantum in ijsdem signis posse imperfici
-        partialiter, ac eas modò, quae propter minores figuras ternario mensuratas perfectionem
-        habent accidentalem, quia non possunt in tres minores propinquas resolui.</p>
+      <p xml:id="FABMUS20248">In prolatione maiore temporis perfecti, breuis à semibreui
+        imperficitur, et semibreuis à minima, quia punctus in signo temporis perfecti ponitur. In
+        prolatione uerò maiore temporis imperfecti, tantum semibreuis à minima imperficitur, propter
+        punctum in semicirculo positum. Hae regulae de imperfectione totali traduntur, et de his
+        figuris, quae essentialem habent in se perfectionem, hoc est, quae praecise mensurantur <pb
+          n="[f.V3v]"/>tribus minoribus sed propinquis. Admittunt quoque eadem figurae partielem
+        imperfectionem, quando illis minores notae non propinquae adduntur. Hoc autem obseruabis
+        diligeneter et alias figuras, quarum nulla iam facta est mentio, tantum in ijsdem signis
+        posse imperfici partialiter, ac eas modò, quae propter minores figuras ternario mensuratas
+        perfectionem habent accidentalem, quia non possunt in tres minores propinquas resolui.</p>
       <p xml:id="FABMUS20249">Exemplum.</p>
-      <p xml:id="FABMUS20250">[Faber, Ad musicam practicam introductio, f.V3v; text: DISCANTVS. ALTVS.] <figure>
+      <p xml:id="FABMUS20250">[Faber, Ad musicam practicam introductio, f.V3v; text: DISCANTVS.
+        ALTVS.] <figure>
           <graphic url="/images/FABMUS2_43GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20251">
@@ -757,8 +779,8 @@
         </figure></p>
       <p xml:id="FABMUS20252">
         <pb n="[f.V4v]"/>DE COLORE.</p>
-      <p xml:id="FABMUS20253">Quia hic coloris mentio facta est, paucula de eo adhuc dicenda erunt, quo
-        huius artis studiosi hac quoque in parte, quid usu receptum sit, admoneantur.</p>
+      <p xml:id="FABMUS20253">Quia hic coloris mentio facta est, paucula de eo adhuc dicenda erunt,
+        quo huius artis studiosi hac quoque in parte, quid usu receptum sit, admoneantur.</p>
       <p xml:id="FABMUS20254">Complectar autem totum hoc negotiom breuibus aliquot regulis atque
         exemplis sequentibus.</p>
       <p xml:id="FABMUS20255">Prima regula.</p>
@@ -766,9 +788,9 @@
         Interdum Hemiolam proportionem inducit, quando omnium partium notulae denigrantur, sicut in
         ultimo capite docebitur.</p>
       <p xml:id="FABMUS20257">Secunda.</p>
-      <p xml:id="FABMUS20258">Quoties in signis perfectis notae quaedam maiores collorantur, et minores
-        ad ternarij reductionem pertinentes quoque denigrandae erunt, in quibus tamen ualor non
-        imminuetur. Quod etiam fit, quando ammouendae alterationis gratia denigratae notulae
+      <p xml:id="FABMUS20258">Quoties in signis perfectis notae quaedam maiores collorantur, et
+        minores ad ternarij reductionem pertinentes quoque denigrandae erunt, in quibus tamen ualor
+        non imminuetur. Quod etiam fit, quando ammouendae alterationis gratia denigratae notulae
         collocantur.</p>
       <p xml:id="FABMUS20259">Sequitur exemplum.</p>
       <p xml:id="FABMUS20260">
@@ -784,21 +806,21 @@
           <graphic url="/images/FABMUS2_47GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20263">Tertia.</p>
-      <p xml:id="FABMUS20264">In figuris imperfectis, quando in una tantum cantilenae parte omnes notae
-        sunt denigratae, communi Musicorum sententia duplam proportionem efficiunt.</p>
+      <p xml:id="FABMUS20264">In figuris imperfectis, quando in una tantum cantilenae parte omnes
+        notae sunt denigratae, communi Musicorum sententia duplam proportionem efficiunt.</p>
       <p xml:id="FABMUS20265">Sequitur exemplum.</p>
       <p xml:id="FABMUS20266">
         <pb n="[f.X2v]"/>[Faber, Ad musicam practicam introductio, f.X2v; text: TENOR. DISCANTVS.
         BASSVS]</p>
       <p xml:id="FABMUS20267">Quarta.</p>
-      <p xml:id="FABMUS20268">Interdum etiam usu uenire solet, quòd tantum dimidia et postrema notarum
-        pars coloratur, quando id fit in figuris perfectis prior pars manet perfecta, altera uerò
-        erit imperfecta. In imperfectis autem figuris in priori parte pristina erit quantitas, in
-        posteriori quartam partem, sicut supra dictum est, aufert.</p>
+      <p xml:id="FABMUS20268">Interdum etiam usu uenire solet, quòd tantum dimidia et postrema
+        notarum pars coloratur, quando id fit in figuris perfectis prior pars manet perfecta, altera
+        uerò erit imperfecta. In imperfectis autem figuris in priori parte pristina erit quantitas,
+        in posteriori quartam partem, sicut supra dictum est, aufert.</p>
       <p xml:id="FABMUS20269">
         <pb n="[f.X3r]"/>Exemplum Heynrici Isaci.</p>
-      <p xml:id="FABMUS20270">[Faber, Ad musicam practicam introductio, f.X3r; text: DISCANTVS, TENOR.
-        ALTVS.] <figure>
+      <p xml:id="FABMUS20270">[Faber, Ad musicam practicam introductio, f.X3r; text: DISCANTVS,
+        TENOR. ALTVS.] <figure>
           <graphic url="/images/FABMUS2_48GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20271">
@@ -809,9 +831,9 @@
       <p xml:id="FABMUS20274">Quatuor sunt notae alterabiles, Longa Breuis, Semibreuis, Minima, de
         quibus hae traduntur regulae</p>
       <p xml:id="FABMUS20275">Prima.</p>
-      <p xml:id="FABMUS20276">Alteratio nusquam est, nisi in gradibus perfectis, tantum ideo inuenta ut
-        ternaria ratio constaret. Atque in modo maiore longa alteratur, in minore breuis, In tempore
-        semibreuis, In prolatione uerò minima.</p>
+      <p xml:id="FABMUS20276">Alteratio nusquam est, nisi in gradibus perfectis, tantum ideo inuenta
+        ut ternaria ratio constaret. Atque in modo maiore longa alteratur, in minore breuis, In
+        tempore semibreuis, In prolatione uerò minima.</p>
       <p xml:id="FABMUS20277">Secunda.</p>
       <p xml:id="FABMUS20278">Notam, quae alterari debet inter maiores locari, aut diuisionis puncto
         indicari oportet. Sed his deficientibus scias nullum alterationi locum esse.</p>
@@ -819,8 +841,8 @@
       <p xml:id="FABMUS20280">In secundam semper cadit alteratio, et non in primam, quare et altera
         dicitur, quia duplicatur uel se ipsam bis continet.</p>
       <p xml:id="FABMUS20281">Quarta.</p>
-      <p xml:id="FABMUS20282">Quando inter duas imperfectibiles duae locantur alterabiles absque puncto
-        diuisionis et colore, secunda perpetuò alteratur. Punctus enim diuisionis, color, et
+      <p xml:id="FABMUS20282">Quando inter duas imperfectibiles duae locantur alterabiles absque
+        puncto diuisionis et colore, secunda perpetuò alteratur. Punctus enim diuisionis, color, et
         ternaria perfectio tollunt alterationem.</p>
       <p xml:id="FABMUS20283">Quinta.</p>
       <p xml:id="FABMUS20284">
@@ -828,12 +850,12 @@
         ponitur pausa, tum nota alteratur: sin pausa sequitur notam, alteratio non habet locum, quia
         notae alterantur tantum, non pausae.</p>
       <p xml:id="FABMUS20285">Sexta.</p>
-      <p xml:id="FABMUS20286">Cum inter duas imperfectibiles tres alterabiles ponuntur absque diuisionis
-        puncto, tum nulla earum alteratur, neque maiores imperficiuntur, eò quod numerus ternarius
-        ubique est perfectus. Quoties autem punctus diuisionis inter primam et secundam alterabilem
-        positus fuerit, tunc prima alterabiles maiorem praecedentem imperficit, et tertia alteratur.
-        Id quoque fit, quando punctum diuisionis plures figuras diuidit et tamen duas superfluas
-        relinquit.</p>
+      <p xml:id="FABMUS20286">Cum inter duas imperfectibiles tres alterabiles ponuntur absque
+        diuisionis puncto, tum nulla earum alteratur, neque maiores imperficiuntur, eò quod numerus
+        ternarius ubique est perfectus. Quoties autem punctus diuisionis inter primam et secundam
+        alterabilem positus fuerit, tunc prima alterabiles maiorem praecedentem imperficit, et
+        tertia alteratur. Id quoque fit, quando punctum diuisionis plures figuras diuidit et tamen
+        duas superfluas relinquit.</p>
       <p xml:id="FABMUS20287">Sequitur Exemplum.</p>
       <p xml:id="FABMUS20288">
         <pb n="[f.X4v]"/>[Faber, Ad musicam practicam introductio, f.X4v; text: TENOR. DISCANTVS.
@@ -842,7 +864,8 @@
         </figure></p>
       <p xml:id="FABMUS20289">
         <pb n="[f.Y1r]"/>Aliud exemplum Iosquini.</p>
-      <p xml:id="FABMUS20290">[Faber, Ad musicam practicam introductio, f.Y1r; text: TENOR. DISCANTVS.] <figure>
+      <p xml:id="FABMUS20290">[Faber, Ad musicam practicam introductio, f.Y1r; text: TENOR.
+        DISCANTVS.] <figure>
           <graphic url="/images/FABMUS2_50GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20291">
@@ -865,29 +888,29 @@
       <p xml:id="FABMUS20298">Proportio est duarum quantitatum ad inuicem facta comparatio. Sed cum
         omnis quantitas ad alteram collata sit ei aequalis aut inaequalis, duplex est proportio:
         Aequalitatis et Inaequalitatis.</p>
-      <p xml:id="FABMUS20299">Aequalitatis proportio, est duarum aequalium quantitatum collatio ut 2 ad
-        2. De qua hoc loco nihil dicitur, quia respicit cantica eadem signa in omnibus uocibus
+      <p xml:id="FABMUS20299">Aequalitatis proportio, est duarum aequalium quantitatum collatio ut 2
+        ad 2. De qua hoc loco nihil dicitur, quia respicit cantica eadem signa in omnibus uocibus
         habentia, in quibus prorsus nulla accidit differentia.</p>
-      <p xml:id="FABMUS20300">Inaequalitatis proportio est, quando duae inaequales quantitates inter se
-        conferuntur. Haec fit in cantilenis notarum quantitatem uariantibus, propter diuersa signa.
-        Atque duplex est.</p>
+      <p xml:id="FABMUS20300">Inaequalitatis proportio est, quando duae inaequales quantitates inter
+        se conferuntur. Haec fit in cantilenis notarum quantitatem uariantibus, propter diuersa
+        signa. Atque duplex est.</p>
       <p xml:id="FABMUS20301">Maioris, et Minoris inaequalitatis.</p>
-      <p xml:id="FABMUS20302">Maioris inaequalitatis proportio est numeri maioris ad minorem relatio ut
-        4 ad 2. In qua notularum ac pausarum ualores diminuuntur, secundum ipsius proportionis
+      <p xml:id="FABMUS20302">Maioris inaequalitatis proportio est numeri maioris ad minorem relatio
+        ut 4 ad 2. In qua notularum ac pausarum ualores diminuuntur, secundum ipsius proportionis
         denominationem.</p>
       <p xml:id="FABMUS20303">Minoris inaequalitatis proportio est, quando numerus minor maiori
         comparatur ut 2 ad 4. At hîc figurae augentur iuxta eandem proportionis denominationem.</p>
-      <p xml:id="FABMUS20304">Cum autem ex multis proportionum speciebus <pb n="[f.Y3v]"/>paucae sint
-        usitatae, non omnes sed eas tantum, quarum hoc nostro soeculo in eruditorum Symphonistarum
-        cantilenis aliquis existit usus, indicare libet. Reliquas uerò diuisiones et definitiones
-        proportionum exactè scire desiderans, alios consulat qui copiosius eam rem tractarunt. Sunt
-        autem maioris inaequalitatis proportiones in usu ex genere multiplici, dupla, tripla,
-        quadrupla. Ex genere superparticulari sesquialtera et sesquitertia. De reliquis tribus
-        proportionum generibus, quia usus earum in cantilenis non facilè potest ostendi, nihil hoc
-        loco dicemus.</p>
+      <p xml:id="FABMUS20304">Cum autem ex multis proportionum speciebus <pb n="[f.Y3v]"/>paucae
+        sint usitatae, non omnes sed eas tantum, quarum hoc nostro soeculo in eruditorum
+        Symphonistarum cantilenis aliquis existit usus, indicare libet. Reliquas uerò diuisiones et
+        definitiones proportionum exactè scire desiderans, alios consulat qui copiosius eam rem
+        tractarunt. Sunt autem maioris inaequalitatis proportiones in usu ex genere multiplici,
+        dupla, tripla, quadrupla. Ex genere superparticulari sesquialtera et sesquitertia. De
+        reliquis tribus proportionum generibus, quia usus earum in cantilenis non facilè potest
+        ostendi, nihil hoc loco dicemus.</p>
       <p xml:id="FABMUS20305">Regulae de proporionibus.</p>
-      <p xml:id="FABMUS20306">1. Omnis proportio per signa aut proportionem contrariam destruitur, ut
-        interpositio subduplae tollit duplam, et sic de alijs.</p>
+      <p xml:id="FABMUS20306">1. Omnis proportio per signa aut proportionem contrariam destruitur,
+        ut interpositio subduplae tollit duplam, et sic de alijs.</p>
       <p xml:id="FABMUS20307">2. Proportio non tantum pausas, sed etiam notas respicit.</p>
       <p xml:id="FABMUS20308">3. Alteratio et imperfectio ijs tantum insunt proportionibus, quae in
         gradibus perfectis fiunt.</p>
@@ -897,7 +920,8 @@
         minorem bis continet, ut 2/1 4/2 6/3 8/4 et caetera.</p>
       <p xml:id="FABMUS20311">
         <pb n="[f.Y4r]"/>Exemplum.</p>
-      <p xml:id="FABMUS20312">[Faber, Ad musicam practicam introductio, f.Y4r, text: TENOR. DISCANTVS.] <figure>
+      <p xml:id="FABMUS20312">[Faber, Ad musicam practicam introductio, f.Y4r, text: TENOR.
+        DISCANTVS.] <figure>
           <graphic url="/images/FABMUS2_54GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20313">
@@ -906,8 +930,8 @@
         </figure></p>
       <p xml:id="FABMUS20314">
         <pb n="[f.Z1r]"/>TRIPLA PROPORTIO.</p>
-      <p xml:id="FABMUS20315">Est, quae figurarum ualorem triplo minuit. Nam tres breues pro una breui
-        ponuntur. Item tres semibreues uni semibreui respondent, quod in alijs quoque figuris
+      <p xml:id="FABMUS20315">Est, quae figurarum ualorem triplo minuit. Nam tres breues pro una
+        breui ponuntur. Item tres semibreues uni semibreui respondent, quod in alijs quoque figuris
         accidit. Fit autem quoties cantui praefiguntur duo numeri, quorum maior continet minorem
         ter, ut 3/1 6/2 9/3. Obseruabis autem hanc proportionem quoque significari, quando numerus
         ternarius circulo aut semicirculo fuerit additus, tametsi malim unitatem ternario
@@ -938,16 +962,18 @@
         BASSVS.]</p>
       <p xml:id="FABMUS20327">SESQVIALTERA</p>
       <p xml:id="FABMUS20328">Est, in qua tres notae contra duas sibi specie similes proferuntur.
-        Cognoscitur autem quoties numerus maior minorem semel continet, atque insuper <pb n="[f.Z3v]"/>alteram, hoc est, dimidiam eius partem, ut 3/2 6/4 9/6 12/8 et caetera.</p>
+        Cognoscitur autem quoties numerus maior minorem semel continet, atque insuper <pb
+          n="[f.Z3v]"/>alteram, hoc est, dimidiam eius partem, ut 3/2 6/4 9/6 12/8 et caetera.</p>
       <p xml:id="FABMUS20329">Exemplum.</p>
-      <p xml:id="FABMUS20330">[Faber, Ad musicam practicam introductio, f.Z3v; text: TENOR. DISCANTVS.] <figure>
+      <p xml:id="FABMUS20330">[Faber, Ad musicam practicam introductio, f.Z3v; text: TENOR.
+        DISCANTVS.] <figure>
           <graphic url="/images/FABMUS2_59GF.gif"/>
         </figure></p>
       <p xml:id="FABMUS20331">
         <pb n="[f.Z4r]"/>[Faber, Ad musicam practicam introductio, f.Z4r; text: BASSVS.]</p>
       <p xml:id="FABMUS20332">SESQVITERTIA.</p>
-      <p xml:id="FABMUS20333">Est, cum quatuor notae aequiualent tribus sibi consimilibus: Fitqué quando
-        maior numerus minorem in se, et tertiam eius partem concludit, ut 4/3 8/6 12/9 et
+      <p xml:id="FABMUS20333">Est, cum quatuor notae aequiualent tribus sibi consimilibus: Fitqué
+        quando maior numerus minorem in se, et tertiam eius partem concludit, ut 4/3 8/6 12/9 et
         caetera.</p>
       <p xml:id="FABMUS20334">Sequitur exemplum.</p>
       <p xml:id="FABMUS20335">
@@ -957,8 +983,8 @@
         </figure></p>
       <p xml:id="FABMUS20336">
         <pb n="[f.a1r]"/>HEMIOLA</p>
-      <p xml:id="FABMUS20337">Annumerant etiam Hemiolam proportionibus, quae ut nomen refert nihil aliud
-        est ac sesquialtera. Quidam autem uolunt Hemiolam proportionem significari cum notae
+      <p xml:id="FABMUS20337">Annumerant etiam Hemiolam proportionibus, quae ut nomen refert nihil
+        aliud est ac sesquialtera. Quidam autem uolunt Hemiolam proportionem significari cum notae
         denigratae aequaliter in omnibus cantilenae partibus procedunt, sicut passim in exemplis
         authorum uidere licet. Atque canuntur hic tres quoque notae contra duas sicut in
         sesquialtera, à qua tantum colore differt. Huc etiam commodè referri puto, quando breuis et
@@ -983,8 +1009,8 @@
         toties notulas et pausas in se multiplicari, quoties superior numerus ab inferiori
         continetur, ut in subdupla onmes figurae duplicantur, in subtripla, triplicantur et caetera.
         Quod ex sequenti exemplo facilimê patebit.</p>
-      <p xml:id="FABMUS20342">[Faber, Ad musicam practicam introductio, f.a2v; text: TENOR. Primo per
-        2/3 Secundo per 1/2 Tertio per 1/3 Quarto per 1/4, DISCANTVS.]</p>
+      <p xml:id="FABMUS20342">[Faber, Ad musicam practicam introductio, f.a2v; text: TENOR. Primo
+        per 2/3 Secundo per 1/2 Tertio per 1/3 Quarto per 1/4, DISCANTVS.]</p>
       <p xml:id="FABMUS20343">
         <pb n="[f.a3r]"/>[Faber, Ad musicam practicam introductio, f.a3r; text: BASSVS. ALTVS.] <figure>
           <graphic url="/images/FABMUS2_63GF.gif"/>

@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Tractatus de diversis figuris</title>
         <title type="abbrev">CASTRAM_MMBAI20I</title>
-        <author>Philippus de Caserta</author>
-        <date notBefore="1300" notAfter="1399">14th</date>
+        <author><persName>Philippus de Caserta</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>T</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Transcriber</resp>
           <persName>Oliver B. Ellsworth</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Travis Yeager</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>2008</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="2008">2008</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Milan, Biblioteca Ambrosiana, MS I.20.inf, ff. 34v–36v. </bibl>
         <bibl type="work">
@@ -114,10 +124,10 @@
         scribere et ut alia clare ostenderunt tractum hunc per ullum ordinare curaui ac etiam que
         superius dixit ad effectum cum dei adiutorio productam quod intelligentibus patebit.</p>
       <p xml:id="CASTRAM_MMBAI20I0002">De diminutione figurarum capitulo tertio.</p>
-      <p xml:id="CASTRAM_MMBAI20I0003">Primo ostendam figuras ordinatas cum quibus diuersimode discantur
-        non sequentes ordinem tenoris sed alterius quam fuerit tenor.</p>
-      <p xml:id="CASTRAM_MMBAI20I0004">Consideretur ergo unusquisque per uiam rationis quod omnis res
-        plena atque non est dubium quando propter euacuationem acipiat diminutionem atque
+      <p xml:id="CASTRAM_MMBAI20I0003">Primo ostendam figuras ordinatas cum quibus diuersimode
+        discantur non sequentes ordinem tenoris sed alterius quam fuerit tenor.</p>
+      <p xml:id="CASTRAM_MMBAI20I0004">Consideretur ergo unusquisque per uiam rationis quod omnis
+        res plena atque non est dubium quando propter euacuationem acipiat diminutionem atque
         imperfectionem verbi gratia semibreuis perfecta ut hic si iuncta fuerit ut hic Accipit
         diminutionem adque imperfectionem Et a iam perdidit tertiam partem sue uirtutis quia primo
         ualet tres minimas nunc uero ualet duas quod inteligentibus clarum est et sicut res perfecta
@@ -133,9 +143,9 @@
         ualet tria tempora si euacuetur amittit tertiam partem sue uirtutis et non ualet nisi duas
         ut hic. Item semibreuis perfecta que de sua proprietate ualet tres minimas si euacuatur
         amitit tertiam partem sue uirtutis et non ualet nisi duas ut hic.</p>
-      <p xml:id="CASTRAM_MMBAI20I0007">Omnia similiter si euacuetur merito etiam debet perdere tertiam
-        partem sue uirtutis et de meus ualore inferius declarando. Item punctus perfectionis si
-        uacuus fuerit [ptv] accipit diminutionem per dimidietatem. et non per tertiam partem quia
+      <p xml:id="CASTRAM_MMBAI20I0007">Omnia similiter si euacuetur merito etiam debet perdere
+        tertiam partem sue uirtutis et de meus ualore inferius declarando. Item punctus perfectionis
+        si uacuus fuerit [ptv] accipit diminutionem per dimidietatem. et non per tertiam partem quia
         nichil habet sub se. id est. nullam figuram sicut allie figure iam dicte et sic numerandus
         est.</p>
       <p xml:id="CASTRAM_MMBAI20I0008">Minor corpus diuiditur in duas partes est minor prolatio que
@@ -144,12 +154,12 @@
         partes. id est. euacuare punctum tunc valet tantum sicut una pars minime diuisse in duas
         partes in semiminima ut hic.</p>
       <p xml:id="CASTRAM_MMBAI20I0009">De augumentatione figurarum.</p>
-      <p xml:id="CASTRAM_MMBAI20I0010">Nunc videndum est de augumentatione figurarum et considero tamen
-        nunc fore necesse gradatim descendere de augumentatione sicut de diminutione videlicet de
-        duplici longa uel etiam longam. <pb n="[f.35v]"/>Sed tantummodo de breui et infra quia esset
-        quidam dillatio uel euasio quod si canto plus requiesceret se quam super breuem et primo de
-        semiminima uolo dicere quia sicut ipsa factum est nichil in musica et licet aliqui magistri
-        dicant quod non est dare ultra minima quod ego teneo tantum oportet quod per signa
+      <p xml:id="CASTRAM_MMBAI20I0010">Nunc videndum est de augumentatione figurarum et considero
+        tamen nunc fore necesse gradatim descendere de augumentatione sicut de diminutione videlicet
+        de duplici longa uel etiam longam. <pb n="[f.35v]"/>Sed tantummodo de breui et infra quia
+        esset quidam dillatio uel euasio quod si canto plus requiesceret se quam super breuem et
+        primo de semiminima uolo dicere quia sicut ipsa factum est nichil in musica et licet aliqui
+        magistri dicant quod non est dare ultra minima quod ego teneo tantum oportet quod per signa
         cognoscantur qualitates ipsarum figurarum verbi gratia si longa et breuis ligate sunt ut hic
         a preponendo proprietatem efficiuntur et id quod uis quod si proprietas descendat a parte
         sinistra inferiori fient breues ut hic. Quod si a parte sinistra superiori descendat fiet
@@ -224,12 +234,12 @@
       <p xml:id="CASTRAM_MMBAI20I0021">
         <pb n="[f.36v]"/>Et si plures sequuntur idem iuditium dabis post octauam decimam si cantus
         tendit in altum</p>
-      <p xml:id="CASTRAM_MMBAI20I0022">Sed quinta loco decime si hoc modo habetur. Si nota sub octaua
-        decima habere memento.</p>
-      <p xml:id="CASTRAM_MMBAI20I0023">Si altera sub decima duodecimam sit tibi tradita. Post decimam
-        octauam si nota per vnum ascendit Ex quinta uel sexta si plura transire uidebis.</p>
-      <p xml:id="CASTRAM_MMBAI20I0024">Post tertiam quintam si cantus per vnum. Si plures secontur sexta
-        uel octauam. tenebis. Post sextam octauam si cantus descendit per vnum.</p>
+      <p xml:id="CASTRAM_MMBAI20I0022">Sed quinta loco decime si hoc modo habetur. Si nota sub
+        octaua decima habere memento.</p>
+      <p xml:id="CASTRAM_MMBAI20I0023">Si altera sub decima duodecimam sit tibi tradita. Post
+        decimam octauam si nota per vnum ascendit Ex quinta uel sexta si plura transire uidebis.</p>
+      <p xml:id="CASTRAM_MMBAI20I0024">Post tertiam quintam si cantus per vnum. Si plures secontur
+        sexta uel octauam. tenebis. Post sextam octauam si cantus descendit per vnum.</p>
       <p xml:id="CASTRAM_MMBAI20I0025">Et sic est finis Deo. Gratias Amen.</p>
     </body>
   </text>

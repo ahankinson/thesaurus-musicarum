@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musica, pars prima</title>
         <title type="abbrev">FULMUS1</title>
-        <author>Adamus de Fulda</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Adamus de Fulda</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Sergei Lebedev</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1992</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1992">1992</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptores ecclesiastici de musica sacra potissimum</emph>, 3 vols., ed. Martin
@@ -42,22 +52,23 @@
       <p xml:id="FULMUS10001">
         <pb n="[329]"/>Clarissimo iurisconsulto Ioachim Luntaler advocato consistoriali, amico,
         fautorique singularissimo Adam de Fulda ducalis musicus felicitatem dicit.</p>
-      <p xml:id="FULMUS10002">Cum saepius mecum egisses, vir ornatissime! ut musicale istud opusculum,
-        per me iam dudum inchoatum, aliquando perficerem, perfectumque tibi transmitterem, motus, ut
-        arbitror, prima amicitiae lege, quam Cicero esse affirmat, <pb n="[330]"/>ut ab amicis
-        honesta rogemus, et amicorum causa honesta faciamus. Moverunt me ibi Hieronymi verba
-        dicentis: ne ad scribendum cito prosilias, ne levi ducaris insania, multo tempore disce quod
-        doceas. Sed tibi non minus obedire semper animo erat: pronus ergo in omnibus fui, ut
-        voluntati tuae parerem, licet tanto tempore calamo manum subtraxerim; multa enim plerumque
-        impedimenta operibus bonis obviare solent. Non potui ergo hucusque, fateor, licet totiens
-        promiserim; sed causam accipe: cum nudius Pataviae, ut ipse scis, abirem, ad Formibacense me
-        contuli monasterium rei perficiendae gratia; quo in loco pervenerunt secundario ad me
-        litterae tuae idipsum poscentes: fui etenim promtus mandatis; nam duos tresve sexterniculos
-        complevi ibidem. Quos dum nuper furto mihi ablatos maleque rescriptos comperissem, nolui
-        furtive rescriptis aequalem ad te dare libellum, timens ne prius ad te incorrectus labor
-        pervenerit: numquam enim quaesitum iri placuit, quod inventum molestiam inferret.</p>
-      <p xml:id="FULMUS10003">Sed neque tunc otium erat emendandi, cum in re principum meorum satis mihi
-        oneris esset impositum. Decrevi ergo mecum cartulas accipere, et in curia, si quid otii
+      <p xml:id="FULMUS10002">Cum saepius mecum egisses, vir ornatissime! ut musicale istud
+        opusculum, per me iam dudum inchoatum, aliquando perficerem, perfectumque tibi
+        transmitterem, motus, ut arbitror, prima amicitiae lege, quam Cicero esse affirmat, <pb
+          n="[330]"/>ut ab amicis honesta rogemus, et amicorum causa honesta faciamus. Moverunt me
+        ibi Hieronymi verba dicentis: ne ad scribendum cito prosilias, ne levi ducaris insania,
+        multo tempore disce quod doceas. Sed tibi non minus obedire semper animo erat: pronus ergo
+        in omnibus fui, ut voluntati tuae parerem, licet tanto tempore calamo manum subtraxerim;
+        multa enim plerumque impedimenta operibus bonis obviare solent. Non potui ergo hucusque,
+        fateor, licet totiens promiserim; sed causam accipe: cum nudius Pataviae, ut ipse scis,
+        abirem, ad Formibacense me contuli monasterium rei perficiendae gratia; quo in loco
+        pervenerunt secundario ad me litterae tuae idipsum poscentes: fui etenim promtus mandatis;
+        nam duos tresve sexterniculos complevi ibidem. Quos dum nuper furto mihi ablatos maleque
+        rescriptos comperissem, nolui furtive rescriptis aequalem ad te dare libellum, timens ne
+        prius ad te incorrectus labor pervenerit: numquam enim quaesitum iri placuit, quod inventum
+        molestiam inferret.</p>
+      <p xml:id="FULMUS10003">Sed neque tunc otium erat emendandi, cum in re principum meorum satis
+        mihi oneris esset impositum. Decrevi ergo mecum cartulas accipere, et in curia, si quid otii
         esset, perficere; non enim, qui principibus servit, sibi, sed ipsis vivit. Nec sunt, crede
         mihi, castra duriora curiis principum, ubi semper invidiae, detractiones, simultates,
         contumeliae, peneque infinitae iniuriae, ita ut felix dici queat, qui a curiarum tumultibus
@@ -70,8 +81,8 @@
         non de amicitia dicam, quae verba sine factis cupit, sed volui verbis et factis satisfacere,
         magis eligens ultra vires praesumere, quam charitati, quae omnia superat, aliquid
         denegare.</p>
-      <p xml:id="FULMUS10004">Tu parvum munus ex paupere domo benignus suscipe, parvumque pretio nostro
-        utilitate pensabis, gravissimis enim viris nulla res charius esse constat, quam quae
+      <p xml:id="FULMUS10004">Tu parvum munus ex paupere domo benignus suscipe, parvumque pretio
+        nostro utilitate pensabis, gravissimis enim viris nulla res charius esse constat, quam quae
         precibus emta est: non autem quid detur refert, sed qua mente, ut ait Seneca in libro de
         beneficiis. Placet dicere cum Petro: argentum et aurum non est mihi. Regum tamen opes
         aequavit animo, qui exiguum tribuit, sed libenter: multo enim gratius venit, quod facili,
@@ -107,18 +118,18 @@
         Et ex altera parte mihi timendum erit, ne dum aemulorum dictis, qui me semivocalem, mutum ac
         plerumque elinguem vocitant, consentiam, rogantibus atque cupientibus amicis non obtemperem,
         neve cum illis placeam, his displiceam.</p>
-      <p xml:id="FULMUS10020">Statui ergo, digna desiderantibus plus placere, quam derogantium aemulorum
-        verbis obaudire; malis enim displicere, laudari est. Cum quidam Antistheni philosopho
-        malediceret, respondit: Superioris est usus personae hoc pati, sed inferioris hoc facere.
-        Ideoque ne ipsis tamquam artis ignarus omnino tacuisse videar; (dicit enim Ovidius: quod
-        minime novit, nemo docere potest; ait etiam Satyricus: scire tuum nihil est, nisi hoc scire
-        te sciat alter) non ut aliis idoneorem me aestimem, sed caeteris dormientibus volui pro
-        honore omnium haec aggredi, cumque Cicerone dicere: honor alit artes, omnesque incendimur ad
-        studia honoris gratia, ubi vero deest honor, ibi et studium deficit, non dubitans, multos
-        esse superfuturos, qui me tamquam iactantiae inanis cupidum, ut seculi nostri hominibus
-        proprium est, a tergo ferire non desinent, scilicet lacessere, priusquam legant
-        despicientes, et antequam intelligant annihilantes, qui potius videri quam esse musici
-        volunt, non regulis <pb n="[332]"/>aut praeceptis, non auctoribus neque rationibus
+      <p xml:id="FULMUS10020">Statui ergo, digna desiderantibus plus placere, quam derogantium
+        aemulorum verbis obaudire; malis enim displicere, laudari est. Cum quidam Antistheni
+        philosopho malediceret, respondit: Superioris est usus personae hoc pati, sed inferioris hoc
+        facere. Ideoque ne ipsis tamquam artis ignarus omnino tacuisse videar; (dicit enim Ovidius:
+        quod minime novit, nemo docere potest; ait etiam Satyricus: scire tuum nihil est, nisi hoc
+        scire te sciat alter) non ut aliis idoneorem me aestimem, sed caeteris dormientibus volui
+        pro honore omnium haec aggredi, cumque Cicerone dicere: honor alit artes, omnesque
+        incendimur ad studia honoris gratia, ubi vero deest honor, ibi et studium deficit, non
+        dubitans, multos esse superfuturos, qui me tamquam iactantiae inanis cupidum, ut seculi
+        nostri hominibus proprium est, a tergo ferire non desinent, scilicet lacessere, priusquam
+        legant despicientes, et antequam intelligant annihilantes, qui potius videri quam esse
+        musici volunt, non regulis <pb n="[332]"/>aut praeceptis, non auctoribus neque rationibus
         obtemperantes, sed quidquid eorum phantastico capiti placuerit, id musicum et artificiale
         esse affirmant, Maronis forte imitantes sententiam: in arte trahit sua quemque voluptas; aut
         certe Persii Satyrici gaudent versu: velle suum cuique est, nec voto vivitur uno; vel verbis
@@ -137,11 +148,11 @@
         frustra enim lyra asino canitur. Amplectimini igitur artem, ac libellum accipite, cum amore
         vestro initium Dei nutu coeperit, atque finem.</p>
       <p xml:id="FULMUS10021">Incipit pars prima.</p>
-      <p xml:id="FULMUS10022">Partem primam aggressurus cogitavi mecum, perficiendum fore, nisi divini
-        auxilii imploratio omnibus postpositis praecederet, ut testatur ipsa Veritas: sine me nihil
-        potestis facere. Statui igitur in nomine sanctae et individuae Trinitatis opusculo initium
-        dare, ad cuius honorem haec aggredi volo, cui laus, honor, benedictio, claritas ac gratiarum
-        actio sit in aeternum et ultra. Amen.</p>
+      <p xml:id="FULMUS10022">Partem primam aggressurus cogitavi mecum, perficiendum fore, nisi
+        divini auxilii imploratio omnibus postpositis praecederet, ut testatur ipsa Veritas: sine me
+        nihil potestis facere. Statui igitur in nomine sanctae et individuae Trinitatis opusculo
+        initium dare, ad cuius honorem haec aggredi volo, cui laus, honor, benedictio, claritas ac
+        gratiarum actio sit in aeternum et ultra. Amen.</p>
       <p xml:id="FULMUS10023">Cum igitur istis diebus libri antiquorum philosophorum non solum in
         musica, sed et in caeteris mathematicalibus parum legantur, ob id accidit, illos tamquam non
         intelligibiles aut nimis difficiles multum abhorreri. Quidam enim invidia pleni, quod
@@ -154,7 +165,8 @@
       <p xml:id="FULMUS10024">Dabo igitur libello in nomine praefato partes quatuor, et unamquamque
         partem in sua divisam capitula. In prima de auctoribus et utilitate simul et descriptione
         artis dicam. In secunda parte de artis discendi modo narrabo. In tertia autem parte de
-        mensurali vel figurativo cantu tractabo. In quarta vero parte proportiones <pb n="[333]"/>patefient musicales aut harmonicales, cum aliquali discussione proportionum
+        mensurali vel figurativo cantu tractabo. In quarta vero parte proportiones <pb n="[333]"
+        />patefient musicales aut harmonicales, cum aliquali discussione proportionum
         arithmeticalium et geometricalium. Igitur pro primo</p>
       <p xml:id="FULMUS10025">Caput I.</p>
       <p xml:id="FULMUS10026">Musicalis definitio haec est. Musica est ars docens voces formare,
@@ -171,42 +183,42 @@
         creditur fore concordia: et hoc genus considerant mathematici. Humana exstat in corpore et
         anima, spiritibus et membrorum complexione, nam harmonia durante vivit homo, rupta vero eius
         proportione moritur. Et hoc genus considerant physici, de quibus nihil ad praesens.</p>
-      <p xml:id="FULMUS10028">Artificialis: hoc genus tenent musici. Est vel instrumentalis vel vocalis.
-        Instrumentalis est sonus per diversa instrumenta causatus, qui cum sit vocalis, tamen eius
-        voces sunt materiales. Vocalis usualis est emissio vocis carens principiis, per quae regi
-        deberet, ut est cantus vulgi, qui non solum hominibus, sed etiam brutis adaequari possit ex
-        instinctu naturae. Vocalis regulata est modulatio dulcissima, penes ascensum vel descensum
-        regulariter artificialiterque constructa, et est ipsa quadruplex, ut sequitur. Musica
-        regulata vera est, quae recto tramite procedit per claves, sine vocum transpositione, limite
-        suo contenta. Regulata ficta est, quando in clavibus voces transponuntur, utputo in omnibus,
-        in quibus fa localiter non ponitur, potest poni B. molle; similiter in omnibus clavibus, in
-        quibus fa localiter ponitur, potest poni [sqb]. durum cogente tono et necessitate. Cum
-        igitur modulationum coaptatione tota anima delectetur, ita e contrario ab audiendi voluptate
-        se subtrahit, si quid depravatum in ea senserit. Regulata simplex vel plana est, cuius
-        figurae nec augmentum nec decrementum patiuntur, ut fit in cantu Gregoriano: mensuralis vel
-        figurativa est, cuius figurae augeri vel minui possunt in signis iuxta formam et speciem, et
-        hoc in primis musicae gradibus, videlicet modo, tempore et prolatione. Possunt autem ambae,
-        simplex et mensuralis, esse vera aut ficta.</p>
+      <p xml:id="FULMUS10028">Artificialis: hoc genus tenent musici. Est vel instrumentalis vel
+        vocalis. Instrumentalis est sonus per diversa instrumenta causatus, qui cum sit vocalis,
+        tamen eius voces sunt materiales. Vocalis usualis est emissio vocis carens principiis, per
+        quae regi deberet, ut est cantus vulgi, qui non solum hominibus, sed etiam brutis adaequari
+        possit ex instinctu naturae. Vocalis regulata est modulatio dulcissima, penes ascensum vel
+        descensum regulariter artificialiterque constructa, et est ipsa quadruplex, ut sequitur.
+        Musica regulata vera est, quae recto tramite procedit per claves, sine vocum transpositione,
+        limite suo contenta. Regulata ficta est, quando in clavibus voces transponuntur, utputo in
+        omnibus, in quibus fa localiter non ponitur, potest poni B. molle; similiter in omnibus
+        clavibus, in quibus fa localiter ponitur, potest poni [sqb]. durum cogente tono et
+        necessitate. Cum igitur modulationum coaptatione tota anima delectetur, ita e contrario ab
+        audiendi voluptate se subtrahit, si quid depravatum in ea senserit. Regulata simplex vel
+        plana est, cuius figurae nec augmentum nec decrementum patiuntur, ut fit in cantu
+        Gregoriano: mensuralis vel figurativa est, cuius figurae augeri vel minui possunt in signis
+        iuxta formam et speciem, et hoc in primis musicae gradibus, videlicet modo, tempore et
+        prolatione. Possunt autem ambae, simplex et mensuralis, esse vera aut ficta.</p>
       <p xml:id="FULMUS10029">Caput II.</p>
-      <p xml:id="FULMUS10030">Haec una de septem artibus liberalibus inter caeteras non minimam refert
-        utilitatem, teste Aristotele in suis problematibus Problematum undevicesimo, problemate
-        decimo, ubi sic inquit: musica laetificat tristes, laetosque magis ac magis laetari cogit.
-        Et idem octavo Politicorum: Anima, ait, naturaliter in musica delectatur; <pb n="[334]"/>nam
-        facit animas ita intentas, ut nihil aliud cogitent, ut Cassiodoro placet. Hoc idem Rufus
-        Constantinus in suo Viatico affirmat, ubi refert, Orpheum per suam musicam mutasse corda
-        principum de tristitia in laetitiam; nam excitat dormientes, dormitare facit vigilantes et
-        sanat melancholiam. Unde Philosophus octavo Politicorum: musica, dicit, est amica omni
-        aetati, et signanter iuvenili. Nam iuvenes praesertim debent erudiri in musica, ne dentur
-        lasciviis. Nam sexto Ethicorum: philosophus inquit; in his nobis delectari naturale est, in
-        quibus ab infantia delectari coepimus; si igitur iuvenes invenerint in musica eam
-        complacentiam, quam in vanitatibus quaerere solent, ipsis tunc facile apparebit, quae vana
-        sunt relinquere, et potiori complacentiae animum adhibere.</p>
-      <p xml:id="FULMUS10031">Hanc non immerito dignam laude censeo, cum artium antiquissima sit, ante
-        diluvium adinventa, quae etiam magno quondam honore apud Graecos habebatur: nec creditum
-        est, quemquam satis eruditum fuisse, nisi musica praesertim imbutus foret. Themistocles
-        Graecorum dux convivio accersitus, cum lyram recusasset, habitus est indoctior. Socrates
-        philosophorum fons institui lyram non verebatur in senio, credens, si musica ei deforet,
-        sibi scientiarum cumulum defuturum. Exercitus Lacedaemoniorum musicis instructus
+      <p xml:id="FULMUS10030">Haec una de septem artibus liberalibus inter caeteras non minimam
+        refert utilitatem, teste Aristotele in suis problematibus Problematum undevicesimo,
+        problemate decimo, ubi sic inquit: musica laetificat tristes, laetosque magis ac magis
+        laetari cogit. Et idem octavo Politicorum: Anima, ait, naturaliter in musica delectatur; <pb
+          n="[334]"/>nam facit animas ita intentas, ut nihil aliud cogitent, ut Cassiodoro placet.
+        Hoc idem Rufus Constantinus in suo Viatico affirmat, ubi refert, Orpheum per suam musicam
+        mutasse corda principum de tristitia in laetitiam; nam excitat dormientes, dormitare facit
+        vigilantes et sanat melancholiam. Unde Philosophus octavo Politicorum: musica, dicit, est
+        amica omni aetati, et signanter iuvenili. Nam iuvenes praesertim debent erudiri in musica,
+        ne dentur lasciviis. Nam sexto Ethicorum: philosophus inquit; in his nobis delectari
+        naturale est, in quibus ab infantia delectari coepimus; si igitur iuvenes invenerint in
+        musica eam complacentiam, quam in vanitatibus quaerere solent, ipsis tunc facile apparebit,
+        quae vana sunt relinquere, et potiori complacentiae animum adhibere.</p>
+      <p xml:id="FULMUS10031">Hanc non immerito dignam laude censeo, cum artium antiquissima sit,
+        ante diluvium adinventa, quae etiam magno quondam honore apud Graecos habebatur: nec
+        creditum est, quemquam satis eruditum fuisse, nisi musica praesertim imbutus foret.
+        Themistocles Graecorum dux convivio accersitus, cum lyram recusasset, habitus est indoctior.
+        Socrates philosophorum fons institui lyram non verebatur in senio, credens, si musica ei
+        deforet, sibi scientiarum cumulum defuturum. Exercitus Lacedaemoniorum musicis instructus
         modulationibus victoriam reportavit. Broccus (fortasse Proclus) suorum temporum orator
         praecipuus consonantem sibi musicam sonare volebat. Empedocles quid laudis ex ea tulerit, in
         prologo Boetii patet. Taurinum quemdam adolescentem, ut Tullius in libro de consiliis ait,
@@ -224,7 +236,8 @@
         aures mentis dulcore latenti. Apud Hebraeos autem ad tubae clangorem muri Iericho cecidere
         funditus: psallentibus prophetis Saul prophetat: David cithara cantante daemonium
         compescebatur: ad tactum psalterii Elisaeus prophetiae spiritum consecutus est.</p>
-      <p xml:id="FULMUS10033">Quid vero nobis prosit, Gerson de laude musicae his exponit versibus:</p>
+      <p xml:id="FULMUS10033">Quid vero nobis prosit, Gerson de laude musicae his exponit
+        versibus:</p>
       <p xml:id="FULMUS10034">
         <pb n="[335]"/>"Musica divini nova pulsu quae fit amoris,</p>
       <p xml:id="FULMUS10035">"Extolli nulla laude satis poterit.</p>
@@ -247,15 +260,15 @@
         quoque metris:</p>
       <p xml:id="FULMUS10043">Semper in ore tuo sit laus, sint cantica Sion,</p>
       <p xml:id="FULMUS10044">Iuxta illud: semper laus eius in ore meo.</p>
-      <p xml:id="FULMUS10045">Nam musica est etiam philosophia, sed vera philosophia, meditatio mortis
-        continua; unde</p>
+      <p xml:id="FULMUS10045">Nam musica est etiam philosophia, sed vera philosophia, meditatio
+        mortis continua; unde</p>
       <p xml:id="FULMUS10046">Cantica, saltum, lamentum planctumque frequenta,</p>
       <p xml:id="FULMUS10047">Iungito iucundum psalterium citharae:</p>
       <p xml:id="FULMUS10048">Concine sicut olor, tua dum mors imminet ....</p>
       <p xml:id="FULMUS10049">Cantantem in psalmis victor in alta vehit.</p>
       <p xml:id="FULMUS10050">Caput III.</p>
-      <p xml:id="FULMUS10051">Sed possent aemuli contendere: quid tu nobis musicam tantopere laudas, cum
-        nihil aut parum ad rempublicam gubernandam videatur afferre? Neroni probro datum est et
+      <p xml:id="FULMUS10051">Sed possent aemuli contendere: quid tu nobis musicam tantopere laudas,
+        cum nihil aut parum ad rempublicam gubernandam videatur afferre? Neroni probro datum est et
         Augusto, quia musicam nimis studiose sectentur. Augustus quidem correptus abstinuisse
         fertur; Nero per amplius insecutus est artem, si vera sunt, quae in historiali speculo
         continentur. Cum psaltem quemdam Philippus Macedonum rex in convivio emendare vellet, ac de
@@ -266,12 +279,12 @@
         adhibitas inflasset, mox illas pudefactus propter oris inhonestatem <pb n="[336]"/>ac
         deformitatem infractas abiecit: et sic omnium Atheniensium consensu disciplina tibiis
         canendi deserta est.</p>
-      <p xml:id="FULMUS10052">Sunt et veteris legis testimonia; scribitur enim Isaiae versus duodecimus:
-        cithara, et lyra, et tympanum, et tibia, et vinum in conviviis vestris, et opus Domini non
-        respicitis. Deinde et multis pro forma vox sua blanda servit. Et Hieronymus ad Augustinum
-        dicit: musica in luctu importuna narratio. Nec nobis persuadere potes, artem lasciviis
-        deditam imitari; ait enim Tullius in libris de officiis: minime artes probandae sunt, quae
-        ministrae sunt voluptatum, quae et hominum enervant animos. De hoc Ovidius:</p>
+      <p xml:id="FULMUS10052">Sunt et veteris legis testimonia; scribitur enim Isaiae versus
+        duodecimus: cithara, et lyra, et tympanum, et tibia, et vinum in conviviis vestris, et opus
+        Domini non respicitis. Deinde et multis pro forma vox sua blanda servit. Et Hieronymus ad
+        Augustinum dicit: musica in luctu importuna narratio. Nec nobis persuadere potes, artem
+        lasciviis deditam imitari; ait enim Tullius in libris de officiis: minime artes probandae
+        sunt, quae ministrae sunt voluptatum, quae et hominum enervant animos. De hoc Ovidius:</p>
       <p xml:id="FULMUS10053">Enervant animos citharaeque, iocique, lyraeque,</p>
       <p xml:id="FULMUS10054">Et vox, et numeris brachia mota suis.</p>
       <p xml:id="FULMUS10055">Sed mentes quoque alienat, incitat ad libidinem, ad carnis
@@ -280,29 +293,29 @@
       <p xml:id="FULMUS10056">Omnibus hoc vitium cantoribus inter amicos,</p>
       <p xml:id="FULMUS10057">Ut numquam inducant animum cantare rogati,</p>
       <p xml:id="FULMUS10058">Iniussi vero numquam desistant;</p>
-      <p xml:id="FULMUS10059">obsequendum non erit. Cede ergo procul, et musicam feras tecum, quia de
-        pane lucrando non est.</p>
+      <p xml:id="FULMUS10059">obsequendum non erit. Cede ergo procul, et musicam feras tecum, quia
+        de pane lucrando non est.</p>
       <p xml:id="FULMUS10060">Caput IV.</p>
-      <p xml:id="FULMUS10061">Magna haec videntur, nec ego ea parva esse dico; sed cum Dameta Virgiliano
-        respondere audeo: parcius tamen ista viris esse obiicienda memento. Musicam reipublicae non
-        modicam ferre utilitatem multis ex causis constat. Prima est delectatio; nam humanus animus,
-        ut philosopho placet, indiget necessario aliquibus delectationibus exterioribus ad sui
-        confortationem, sine quibus vix vivere potest, sed habitis confortationibus ad elicienda
-        opera virtuosa. Secunda est melancholiae depulsio; cum vero difficilius sit, ut dicitur
-        primo Ethicorum, tristitiam ferre, quam a delectationibus abstinere (nam melancholia
-        magnatibus plerumque tyrannidem aut desperationem inducit) imperatoribus, regibus,
-        principibus consulibusque ac caeteris rempublicam gubernantibus continua cum sit
-        melancholiae, propter laboris onus, influentia, necesse est, eam musica modulatione
-        depellere et delectationibus. Sic Evilmerodach Babylonis regem Xerxes sanavit philosophus.
-        Sic laboranti Saul David lyra subvenit, qui prophetiae spiritum psallentibus prophetis
-        consecutus erat, ubi</p>
+      <p xml:id="FULMUS10061">Magna haec videntur, nec ego ea parva esse dico; sed cum Dameta
+        Virgiliano respondere audeo: parcius tamen ista viris esse obiicienda memento. Musicam
+        reipublicae non modicam ferre utilitatem multis ex causis constat. Prima est delectatio; nam
+        humanus animus, ut philosopho placet, indiget necessario aliquibus delectationibus
+        exterioribus ad sui confortationem, sine quibus vix vivere potest, sed habitis
+        confortationibus ad elicienda opera virtuosa. Secunda est melancholiae depulsio; cum vero
+        difficilius sit, ut dicitur primo Ethicorum, tristitiam ferre, quam a delectationibus
+        abstinere (nam melancholia magnatibus plerumque tyrannidem aut desperationem inducit)
+        imperatoribus, regibus, principibus consulibusque ac caeteris rempublicam gubernantibus
+        continua cum sit melancholiae, propter laboris onus, influentia, necesse est, eam musica
+        modulatione depellere et delectationibus. Sic Evilmerodach Babylonis regem Xerxes sanavit
+        philosophus. Sic laboranti Saul David lyra subvenit, qui prophetiae spiritum psallentibus
+        prophetis consecutus erat, ubi</p>
       <p xml:id="FULMUS10062">Vertitur occursu psallentum Saul velut alter</p>
       <p xml:id="FULMUS10063">Factus homo, psallit, fitque propheta novus.</p>
       <p xml:id="FULMUS10064">Exagitat nequam dum spiritus, hunc citharoedus</p>
       <p xml:id="FULMUS10065">Pastor per numeros cogit abire David.</p>
-      <p xml:id="FULMUS10066">Si rex tyrannus est, musica mulcetur; si mitis, musica delectatur; si ad
-        bellum procedere, exercitumque ducere velit, musica ad tolerantiam laboris exhilarat mentes,
-        tuba aut tympano aut cornu opus erit, unde</p>
+      <p xml:id="FULMUS10066">Si rex tyrannus est, musica mulcetur; si mitis, musica delectatur; si
+        ad bellum procedere, exercitumque ducere velit, musica ad tolerantiam laboris exhilarat
+        mentes, tuba aut tympano aut cornu opus erit, unde</p>
       <p xml:id="FULMUS10067">
         <pb n="[337]"/>Buccina terribilis animosum pectus equorum</p>
       <p xml:id="FULMUS10068">Bellis exacuit, militis ira viget.</p>
@@ -352,40 +365,40 @@
         in se bona est. Commune enim habetur proverbium: quot capita, tot sensus. Non possunt omnes
         morigeri esse, cum nemo artistarum id faciat, honesta tamen roganti habendus est mos, nec
         hoc quidem cantores negant aut musici.</p>
-      <p xml:id="FULMUS10074">Ut autem mendaces eos reddam, qui musicam de pane lucrando fore negant,
-        dicere convenit: nonne omnis ecclesiarum conventus institutus fundatusque est ad laudem Dei
-        decantandam? De hoc quidam ait: inter omnia ecclesiae instituta nullum Deo gratius, quam
-        continua psalmodiae decantatio; et alibi: clamabunt ad me levitae, et ego exaudiam eos. Quis
-        non intelligat, musicam esse causam omnis Praelaturae? Sed his omissis, videamus, quantum
-        nostris temporibus valeat musica. Numquid sanctissimus dominus noster Innocentius papa
-        octavus musicos colit, observat, honorat, praedecessorum imitans vestigia? omnes enim Romani
-        pontifices aut musici erant, aut musicis delectabantur, quos gratiis et donis honoraverunt
-        quam maximis. Quid invictissimi imperatores Romanorum serenissimique reges fecerunt, in
-        publico est. Quid Christianissimus Francorum rex, ac reges Angliae, Arragoniae, Hispaniae,
-        Hungariae, Apuliae, multique principes, praelatique insignes, Civitates liberae, per
-        Italiam, Galliam ac Germaniam pro nostro aevo musicis fecerunt, et faciunt, nemo est qui
-        nesciat.</p>
+      <p xml:id="FULMUS10074">Ut autem mendaces eos reddam, qui musicam de pane lucrando fore
+        negant, dicere convenit: nonne omnis ecclesiarum conventus institutus fundatusque est ad
+        laudem Dei decantandam? De hoc quidam ait: inter omnia ecclesiae instituta nullum Deo
+        gratius, quam continua psalmodiae decantatio; et alibi: clamabunt ad me levitae, et ego
+        exaudiam eos. Quis non intelligat, musicam esse causam omnis Praelaturae? Sed his omissis,
+        videamus, quantum nostris temporibus valeat musica. Numquid sanctissimus dominus noster
+        Innocentius papa octavus musicos colit, observat, honorat, praedecessorum imitans vestigia?
+        omnes enim Romani pontifices aut musici erant, aut musicis delectabantur, quos gratiis et
+        donis honoraverunt quam maximis. Quid invictissimi imperatores Romanorum serenissimique
+        reges fecerunt, in publico est. Quid Christianissimus Francorum rex, ac reges Angliae,
+        Arragoniae, Hispaniae, Hungariae, Apuliae, multique principes, praelatique insignes,
+        Civitates liberae, per Italiam, Galliam ac Germaniam pro nostro aevo musicis fecerunt, et
+        faciunt, nemo est qui nesciat.</p>
       <p xml:id="FULMUS10075">Caput VI.</p>
-      <p xml:id="FULMUS10076">Ecce quomodo apud gentiles, Hebraeos, ac Christicolas honorata sit musica,
-        et varie laudata. Nec modo honore caret, nec despicitur, nisi ab ignorantibus; nam artis
-        inimici soli ignorantes sunt. Cedant ergo, naturam mutantes, ipsi insulsi bipedes asini, ac
-        se victos fore cognoscant, desinantque maledicere, malefacta ne noscant sua, ut ait Comicus:
-        cum ipsa ranas, delphinos, insuper omnia alia animantia ad suae modulationis auditum
-        provocat, ut dicit Isidorus; nam aves incessanter canunt, si cantare audiunt; unde quidem
-        dulcisonae volucres modulante gutture voces emittunt iugiter canentes. Sed et pisces ad
-        melodiam congregantur: unde refert Agellius, quod Arion in mare praecipitatus, a delphinis
-        in portum delatus et salvatus est, eo quod cithara dulcem sonum et carmen illius casus
-        consolabile priusquam submergeretur, peregerat. Unde Gerson:</p>
+      <p xml:id="FULMUS10076">Ecce quomodo apud gentiles, Hebraeos, ac Christicolas honorata sit
+        musica, et varie laudata. Nec modo honore caret, nec despicitur, nisi ab ignorantibus; nam
+        artis inimici soli ignorantes sunt. Cedant ergo, naturam mutantes, ipsi insulsi bipedes
+        asini, ac se victos fore cognoscant, desinantque maledicere, malefacta ne noscant sua, ut
+        ait Comicus: cum ipsa ranas, delphinos, insuper omnia alia animantia ad suae modulationis
+        auditum provocat, ut dicit Isidorus; nam aves incessanter canunt, si cantare audiunt; unde
+        quidem dulcisonae volucres modulante gutture voces emittunt iugiter canentes. Sed et pisces
+        ad melodiam congregantur: unde refert Agellius, quod Arion in mare praecipitatus, a
+        delphinis in portum delatus et salvatus est, eo quod cithara dulcem sonum et carmen illius
+        casus consolabile priusquam submergeretur, peregerat. Unde Gerson:</p>
       <p xml:id="FULMUS10077">
         <pb n="[339]"/>Praebe fidem Graecis, delphinus Ariona vexit</p>
       <p xml:id="FULMUS10078">Fluctus per medios, dum cithara mulcet eum.</p>
-      <p xml:id="FULMUS10079">Hoc idem Plinius testatur. Fingit et Ovidius, Orpheum lyra Euridicen ab
-        inferis revocasse, Amphionemque ad citharae cantum arbores saxaque congregasse. De hoc
+      <p xml:id="FULMUS10079">Hoc idem Plinius testatur. Fingit et Ovidius, Orpheum lyra Euridicen
+        ab inferis revocasse, Amphionemque ad citharae cantum arbores saxaque congregasse. De hoc
         Parisiensis cancellarius:</p>
       <p xml:id="FULMUS10080">Amphion ac Orpheus cantu movisse feruntur</p>
       <p xml:id="FULMUS10081">Hic lapides, diras hic furias erebi.</p>
-      <p xml:id="FULMUS10082">Quondam etiam numina, dii quoque gentilium altercasse feruntur pro meliori
-        notitia artis, de quo poeta:</p>
+      <p xml:id="FULMUS10082">Quondam etiam numina, dii quoque gentilium altercasse feruntur pro
+        meliori notitia artis, de quo poeta:</p>
       <p xml:id="FULMUS10083">Fistula Pan Phoebi citharae certavit agrestis,</p>
       <p xml:id="FULMUS10084">Iudice te nuda victus Apollo fuit.</p>
       <p xml:id="FULMUS10085">Sono etiam musicali diversa ferarum, piscium, volucrumque capiuntur
@@ -410,27 +423,27 @@
         amplectemur nunc divina testimonia. Nato Domino in Bethlehem:</p>
       <p xml:id="FULMUS10100">Coelica turba Iesu nati fescennia cantant</p>
       <p xml:id="FULMUS10101">Pax homini terris, gloria celsa Deo.</p>
-      <p xml:id="FULMUS10102">Ignatius martyr cantantes crebro audivit angelos. Quid de Cyrillo dicam,
-        qui ad mortem divi Hieronymi angelicam audivit symphoniam? Quotiens enim a sanctis Patribus
-        audiebantur spiritus iubilantes, cecinere nova cantica; canticum enim est numerosa vox ad
-        Dei gloriam ordinata, et offert quisque sua gratus munera regi, psallentisque dolor vertitur
-        in meritum. Ideoque hanc extollere nos convenit, quae sola ante thronum Dei habitat, in quo
-        sancti et electi Deo laudem decantant, ut testatur Iohannes in Apocalypsi, ubi Cherubim et
-        Seraphim incessabili voce proclamant Sanctus, Sanctus, Sanctus; et viginti quatuor seniores
-        ceciderunt in facies suas in conspectu throni, et cecinerunt canticum. Similiter et
-        psalmista dicit: Cantate Domino canticum <pb n="[340]"/>novum; et iterum: in psalterio
-        decachordo psallam tibi; et rursum: laudate Dominum in tympano et choro, laudate eum in
-        canticis et organo; et alibi; omnis terra adoret te Deus, psallat tibi, et psalmum dicat
-        nomini tuo. Deinde: laudate eum in psalterio et cithara; ac demum: cantate Domino omnis
-        terra. Nam paucis credatur constans oratio cordis laudandi, sed opus, dum canis, ore facis.
-        Nec opus erit, nec utile, plures testes in medium proferre, cum unus horum sufficiat:
+      <p xml:id="FULMUS10102">Ignatius martyr cantantes crebro audivit angelos. Quid de Cyrillo
+        dicam, qui ad mortem divi Hieronymi angelicam audivit symphoniam? Quotiens enim a sanctis
+        Patribus audiebantur spiritus iubilantes, cecinere nova cantica; canticum enim est numerosa
+        vox ad Dei gloriam ordinata, et offert quisque sua gratus munera regi, psallentisque dolor
+        vertitur in meritum. Ideoque hanc extollere nos convenit, quae sola ante thronum Dei
+        habitat, in quo sancti et electi Deo laudem decantant, ut testatur Iohannes in Apocalypsi,
+        ubi Cherubim et Seraphim incessabili voce proclamant Sanctus, Sanctus, Sanctus; et viginti
+        quatuor seniores ceciderunt in facies suas in conspectu throni, et cecinerunt canticum.
+        Similiter et psalmista dicit: Cantate Domino canticum <pb n="[340]"/>novum; et iterum: in
+        psalterio decachordo psallam tibi; et rursum: laudate Dominum in tympano et choro, laudate
+        eum in canticis et organo; et alibi; omnis terra adoret te Deus, psallat tibi, et psalmum
+        dicat nomini tuo. Deinde: laudate eum in psalterio et cithara; ac demum: cantate Domino
+        omnis terra. Nam paucis credatur constans oratio cordis laudandi, sed opus, dum canis, ore
+        facis. Nec opus erit, nec utile, plures testes in medium proferre, cum unus horum sufficiat:
         tantumque de artis utilitate notum mihi est. Sed ultra de inventoribus artis quid sentiam,
         enodabo.</p>
       <p xml:id="FULMUS10103">Caput VII.</p>
-      <p xml:id="FULMUS10104">Musicae artis inventatores designare volens, volui ab aliis mihi tradita,
-        et ea quae legi, commemorare, omnibus cupiens satisfacere. Musicam a Deo fore, omnibus notum
-        est, hanc admonitionem rei magnae concessam mortalibus a Deo, Aurelius refert; sed et
-        Licentius ad eumdem ait</p>
+      <p xml:id="FULMUS10104">Musicae artis inventatores designare volens, volui ab aliis mihi
+        tradita, et ea quae legi, commemorare, omnibus cupiens satisfacere. Musicam a Deo fore,
+        omnibus notum est, hanc admonitionem rei magnae concessam mortalibus a Deo, Aurelius refert;
+        sed et Licentius ad eumdem ait</p>
       <p xml:id="FULMUS10105">Quis numerum dedit ille tonos, mundique tonanti</p>
       <p xml:id="FULMUS10106">Disseruit canere, et pariles agitare choreas.</p>
       <p xml:id="FULMUS10107">Haec Virgilius notavit: a Iove principium Musae.</p>
@@ -448,25 +461,25 @@
         marmorea propter metum ignis et diluvii. Quod Iosephus affirmat, qui dicit, eas in terra
         Syriae hucusque permansisse. Huic consentit sanctissimus Hieronymus, et ipse Moyses Genesis
         quarto patrem enim musicorum illum appellat.</p>
-      <p xml:id="FULMUS10109">Caeterum aliqui Moysen artis inventorem esse volunt, et ab aquarum sonitu
-        harmonias primum perpendisse, nam musica dicitur a moys graece, id est, aqua latine, quia
-        circa aquas inventa esse dicitur. Rursus quidam sunt, qui harmonias a coelorum motibus
+      <p xml:id="FULMUS10109">Caeterum aliqui Moysen artis inventorem esse volunt, et ab aquarum
+        sonitu harmonias primum perpendisse, nam musica dicitur a moys graece, id est, aqua latine,
+        quia circa aquas inventa esse dicitur. Rursus quidam sunt, qui harmonias a coelorum motibus
         originem accepisse dicunt, affirmantes, ex coelorum motibus magnam consurgere melodiam
         ratione confricationis corporum coelestium, in quibus maxima creditur esse concordia, ut
         Empedocles docuit. Huic opinioni proximus dicitur fuisse Plato, qui super quemlibet orbem
         unam syrenem putabat stare. Sed Aristoteles reprobat eorum opinionem <pb n="[341]"/>in libro
         de proprietatibus elementorum. Multi tamen Linum Thebaeum, multi Amphionem, multi Orpheum
         inventores recitant.</p>
-      <p xml:id="FULMUS10110">Sit ergo quid sit, arbitrandum est, multos fuisse artis inventores iuxta
-        locorum et temporum varietates, et regionum distantias. Iubal filium Lamech ante diluvium,
-        apud Hebraeos Moysen, apud Graecos Pythagoram, quibus, ut ait Horatius, musa ore rotundo
-        loqui dedit; apud Latinos Boetium credimus incepisse; nam ante eum Graecorum more cantabatur
-        in ecclesia Dei. Vide Hieronymum ad Damasum Papam. Hunc quam plures secuti sunt, Gregorius,
-        Isidorus, Guido, Odo, Berno, Ioannes de Muris; et circa meam aetatem doctissimi Wilhelmus
-        Duffay, ac Antonius de Busna, quorum et nos sequaces esse volumus, verbis scilicet, utinam
-        et factis. Si autem quaeramus, quis inter omnes primus extiterit, puto, quod ipse Iubal, nam
-        alios tempore praecessit; sacra enim scriptura ipsum inventorem commemorat, et non
-        alium.</p>
+      <p xml:id="FULMUS10110">Sit ergo quid sit, arbitrandum est, multos fuisse artis inventores
+        iuxta locorum et temporum varietates, et regionum distantias. Iubal filium Lamech ante
+        diluvium, apud Hebraeos Moysen, apud Graecos Pythagoram, quibus, ut ait Horatius, musa ore
+        rotundo loqui dedit; apud Latinos Boetium credimus incepisse; nam ante eum Graecorum more
+        cantabatur in ecclesia Dei. Vide Hieronymum ad Damasum Papam. Hunc quam plures secuti sunt,
+        Gregorius, Isidorus, Guido, Odo, Berno, Ioannes de Muris; et circa meam aetatem doctissimi
+        Wilhelmus Duffay, ac Antonius de Busna, quorum et nos sequaces esse volumus, verbis
+        scilicet, utinam et factis. Si autem quaeramus, quis inter omnes primus extiterit, puto,
+        quod ipse Iubal, nam alios tempore praecessit; sacra enim scriptura ipsum inventorem
+        commemorat, et non alium.</p>
       <p xml:id="FULMUS10111">Narratio in praesens.</p>
       <p xml:id="FULMUS10112">Montis Parnassi colles ac dulcia prata,</p>
       <p xml:id="FULMUS10113">Campos nec Graios, nec lucos Aganipaeos</p>

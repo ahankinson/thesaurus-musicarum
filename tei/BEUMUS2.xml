@@ -1,30 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musicae rudimenta e pleniore eius descriptione itemque exempla quaedam facilia ad
           puerilem exercitationem e bonis auctoribus, Libellus secundus de cantu</title>
         <title type="abbrev">BEUMUS2</title>
-        <author>Beurhusius, Fredericus</author>
-        <date notBefore="1500" notAfter="1599">16th</date>
+        <author><persName>Beurhusius, Fredericus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Jingfa Sun</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Charles Atkinson</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Elisabeth Honn</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1996</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1996">1996</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Musicae Rudimenta e pleniore eius descriptione itemque exempla quaedam facilia ad
@@ -56,15 +66,16 @@
       <p xml:id="BEUMUS20014">Quotuplex genus cantus?</p>
       <p xml:id="BEUMUS20015">Triplex ut et ordo vocum: molle, durum et naturale.</p>
       <p xml:id="BEUMUS20016">Quomodo distinguitur?</p>
-      <p xml:id="BEUMUS20017">In primarium et ministrum, deinde utrumque separatum vel coniunctum.</p>
+      <p xml:id="BEUMUS20017">In primarium et ministrum, deinde utrumque separatum vel
+        coniunctum.</p>
       <p xml:id="BEUMUS20018">Quod primarium?</p>
       <p xml:id="BEUMUS20019">Primarium per principem vocum ordinem inflectitur estque molle vel
         durum.</p>
       <p xml:id="BEUMUS20020">/p.22/</p>
       <p xml:id="BEUMUS20021">Caput secundum: DE MOLLI SEPARATO</p>
       <p xml:id="BEUMUS20022">Quis mollis separatus?</p>
-      <p xml:id="BEUMUS20023">Mollis separatus per mollem tantum ordinem mollius inflectitur ex f per b
-        in d.</p>
+      <p xml:id="BEUMUS20023">Mollis separatus per mollem tantum ordinem mollius inflectitur ex f
+        per b in d.</p>
       <p xml:id="BEUMUS20024">
         <pb n="[19]"/>Da exemplum choricum!</p>
       <p xml:id="BEUMUS20025">[Beurhaus, 19,1; text: Dum transisset Dominus per medios fines Tyri,
@@ -72,13 +83,13 @@
           <graphic url="/images/BEUMUS2_01GF.gif"/>
         </figure></p>
       <p xml:id="BEUMUS20026">Da exemplum figuratum!</p>
-      <p xml:id="BEUMUS20027">[Beurhaus, 19,2; text: Sit laus, honos et gloria Deo patri, qui omnia sua
-        creavit gratia, fovet regit que condita.]</p>
+      <p xml:id="BEUMUS20027">[Beurhaus, 19,2; text: Sit laus, honos et gloria Deo patri, qui omnia
+        sua creavit gratia, fovet regit que condita.]</p>
       <p xml:id="BEUMUS20028">/p.23/</p>
       <p xml:id="BEUMUS20029">Caput tertium: DE DURO SEPARATO</p>
       <p xml:id="BEUMUS20030">Quis durus separatus?</p>
-      <p xml:id="BEUMUS20031">Durus separatus per durum tantum ordinem durius inflectitur ex g per [sqb]
-        in e.</p>
+      <p xml:id="BEUMUS20031">Durus separatus per durum tantum ordinem durius inflectitur ex g per
+        [sqb] in e.</p>
       <p xml:id="BEUMUS20032">Da exemplum chorale!</p>
       <p xml:id="BEUMUS20033">
         <pb n="[20]"/>[Beurhaus, 20,1; text: Redemptionem misit Dominus populo suo: mandavit in
@@ -88,8 +99,8 @@
       <p xml:id="BEUMUS20036">[Beurhaus, 20,2]</p>
       <p xml:id="BEUMUS20037">Caput quartum: DE MINISTRO NATURALI SEPARATO</p>
       <p xml:id="BEUMUS20038">Quis naturalis separatus?</p>
-      <p xml:id="BEUMUS20039">Naturalis separatus per naturalem tantum ordinem inflectitur ex c per f in
-        a.</p>
+      <p xml:id="BEUMUS20039">Naturalis separatus per naturalem tantum ordinem inflectitur ex c per
+        f in a.</p>
       <p xml:id="BEUMUS20040">Da exemplum choricum!</p>
       <p xml:id="BEUMUS20041">[Beurhaus, 20,3; text: Christe, qui lux es et dies, noctis tenebras
         detegis, /p.24/, lucisque lumen crederis, lumen beatum praedicans.]</p>
@@ -108,20 +119,21 @@
       <p xml:id="BEUMUS20046">
         <pb n="[23]"/>Caput quintum: DE MOLLI CONIUNCTO</p>
       <p xml:id="BEUMUS20047">Quod coniunctum cantus genus?</p>
-      <p xml:id="BEUMUS20048">Coniunctum est, cum melodia altius in duos vocum ordines excurrit, altero
-        etiam eorum supra vel infra iterato. Itaque ad hoc exercendum mutatio vocum adhibenda, de
-        qua supra.</p>
+      <p xml:id="BEUMUS20048">Coniunctum est, cum melodia altius in duos vocum ordines excurrit,
+        altero etiam eorum supra vel infra iterato. Itaque ad hoc exercendum mutatio vocum
+        adhibenda, de qua supra.</p>
       <p xml:id="BEUMUS20049">Quot coniuncta genera?</p>
       <p xml:id="BEUMUS20050">Duo: molle et durum cum altero enim semper naturale quasi ministrum
         coniungitur. Attamen aliquando etiam anomalia quaedam incidit, qui fictus cantus
         dicitur.</p>
       <p xml:id="BEUMUS20051">1. Quis mollis coniunctus?</p>
-      <p xml:id="BEUMUS20052">Mollis coniunctus est, qui cum naturali molliore tono decurrit. Itaque hic
-        mutatio fit commode</p>
-      <p xml:id="BEUMUS20053">In d et a [g sub lin.] sumendo La descendendo [Re ascendendo sub lin.]</p>
+      <p xml:id="BEUMUS20052">Mollis coniunctus est, qui cum naturali molliore tono decurrit. Itaque
+        hic mutatio fit commode</p>
+      <p xml:id="BEUMUS20053">In d et a [g sub lin.] sumendo La descendendo [Re ascendendo sub
+        lin.]</p>
       <p xml:id="BEUMUS20054">Da exemplum chori!</p>
-      <p xml:id="BEUMUS20055">[Beurhaus, 23; text: /p.26/, Adsunt festa jubilaea in Mariae gaudia tota
-        psallat Ecclesia devote laudum dragmata.] <figure>
+      <p xml:id="BEUMUS20055">[Beurhaus, 23; text: /p.26/, Adsunt festa jubilaea in Mariae gaudia
+        tota psallat Ecclesia devote laudum dragmata.] <figure>
           <graphic url="/images/BEUMUS2_04GF.gif"/>
         </figure></p>
       <p xml:id="BEUMUS20056">
@@ -130,8 +142,8 @@
       <p xml:id="BEUMUS20058">[Beurhaus, 24]</p>
       <p xml:id="BEUMUS20059">Caput sextum: DE DURO CONIUNCTO</p>
       <p xml:id="BEUMUS20060">Quis durus coniunctus?</p>
-      <p xml:id="BEUMUS20061">Durus est, qui cum naturali duriore tono decurrit. Itaque hic mutatio fit
-        commode</p>
+      <p xml:id="BEUMUS20061">Durus est, qui cum naturali duriore tono decurrit. Itaque hic mutatio
+        fit commode</p>
       <p xml:id="BEUMUS20062">
         <pb n="[25]"/>In d et e [d sub lin.] sumendo La descendendo [Re ascendendo sub lin.]</p>
       <p xml:id="BEUMUS20063">Da exemplum chorale!</p>
@@ -146,18 +158,19 @@
       <p xml:id="BEUMUS20068">
         <pb n="[26]"/>Caput septimum: DE FICTO CANTU</p>
       <p xml:id="BEUMUS20069">Quis fictus cantus?</p>
-      <p xml:id="BEUMUS20070">Fictus est, cum alienus sonus in aliena clave suavitatis vel necessitatis
-        causa fingitur atque is durus sic per [sqb] vel [signum] sic, mollis sic per b notatur.</p>
+      <p xml:id="BEUMUS20070">Fictus est, cum alienus sonus in aliena clave suavitatis vel
+        necessitatis causa fingitur atque is durus sic per [sqb] vel [signum] sic, mollis sic per b
+        notatur.</p>
       <p xml:id="BEUMUS20071">Exemplum ficti mollis soni per b in e</p>
-      <p xml:id="BEUMUS20072">[Beurhaus, 26,1; text: /p.28/, Ascendit Christus hodie, alleluia, super
-        coelos rex gloriae]</p>
+      <p xml:id="BEUMUS20072">[Beurhaus, 26,1; text: /p.28/, Ascendit Christus hodie, alleluia,
+        super coelos rex gloriae]</p>
       <p xml:id="BEUMUS20073">Caput octavum: DE MODO</p>
       <p xml:id="BEUMUS20074">Quis modus, ad quem cantus formatur?</p>
       <p xml:id="BEUMUS20075">Modus est numerosa ratio melodiae intra certos fines ad affectum
         flectendae, dicuntur toni.</p>
       <p xml:id="BEUMUS20076">Quot sunt melodiarum modi seu toni?</p>
-      <p xml:id="BEUMUS20077">Octo vulgo numerantur, quorum quatuor imparis numeri dicuntur autentici,
-        reliqui plagii.</p>
+      <p xml:id="BEUMUS20077">Octo vulgo numerantur, quorum quatuor imparis numeri dicuntur
+        autentici, reliqui plagii.</p>
       <p xml:id="BEUMUS20078">Describe primi melodiae ambitum ac phrasin cum chorico tropo!</p>
       <p xml:id="BEUMUS20079">[Beurhaus, 26,2; text: Ambitus primi toni, Tropus]</p>
       <p xml:id="BEUMUS20080">/p.29/</p>
@@ -186,13 +199,13 @@
       <p xml:id="BEUMUS20099">Symphonia est concors harmonia diversarum melodiarum suaviter
         concinentium.</p>
       <p xml:id="BEUMUS20100">Quot melodiae seu voces in symphonia coniunguntur?</p>
-      <p xml:id="BEUMUS20101">Proprie quatuor pro sonorum divisione, scilicet bassus ex gravibus, tenor
-        et altus ex acutis mediis, discantus ex acutis excellentibus. Sunt tamen etiam bicinia ex
-        duabus, tricinia ex tribus vocibus itemque quinta vox vagans quatuor additur, immo singulae
-        etiam geminantur, ut sit secundus discantus, tenor et caetera; atque etiam ex una melodia
-        efficiuntur plures voces se certis spatiis consequentes, quae fugae dicuntur. Vide Musicae.
-        Ad symphoniae compositionem constituendam et intelligendam claves et voces ter iteratae in
-        ordinem diriguntur, quae scala dicitur.</p>
+      <p xml:id="BEUMUS20101">Proprie quatuor pro sonorum divisione, scilicet bassus ex gravibus,
+        tenor et altus ex acutis mediis, discantus ex acutis excellentibus. Sunt tamen etiam bicinia
+        ex duabus, tricinia ex tribus vocibus itemque quinta vox vagans quatuor additur, immo
+        singulae etiam geminantur, ut sit secundus discantus, tenor et caetera; atque etiam ex una
+        melodia efficiuntur plures voces se certis spatiis consequentes, quae fugae dicuntur. Vide
+        Musicae. Ad symphoniae compositionem constituendam et intelligendam claves et voces ter
+        iteratae in ordinem diriguntur, quae scala dicitur.</p>
       <p xml:id="BEUMUS20102">
         <pb n="[29]"/>/p.32/</p>
       <p xml:id="BEUMUS20103">Scala clavium et vocum earumque ordinum omnium coniunctorum</p>
@@ -253,26 +266,26 @@
           <graphic url="/images/BEUMUS2_14GF.gif"/>
         </figure></p>
       <p xml:id="BEUMUS20124">Post unum tempus</p>
-      <p xml:id="BEUMUS20125">[Beurhaus, 36,2; text: Huic oportet, ut canamus cum angelis semper gloria
-        in excelsis]</p>
+      <p xml:id="BEUMUS20125">[Beurhaus, 36,2; text: Huic oportet, ut canamus cum angelis semper
+        gloria in excelsis]</p>
       <p xml:id="BEUMUS20126">
         <pb n="[37]"/>/p.38/</p>
       <p xml:id="BEUMUS20127">BICINIA</p>
       <p xml:id="BEUMUS20128">Benedicite</p>
-      <p xml:id="BEUMUS20129">[Beurhaus, 37,1; text: prima, secunda, vox, Allmechtiger guetiger Gott /
-        du ewiger Herr Zebaoth. Aller augen warten auff dich / vnd du speisest sie gewaltiglich.] <figure>
+      <p xml:id="BEUMUS20129">[Beurhaus, 37,1; text: prima, secunda, vox, Allmechtiger guetiger Gott
+        / du ewiger Herr Zebaoth. Aller augen warten auff dich / vnd du speisest sie gewaltiglich.] <figure>
           <graphic url="/images/BEUMUS2_15GF.gif"/>
         </figure></p>
       <p xml:id="BEUMUS20130">/p. 39/</p>
       <p xml:id="BEUMUS20131">Gratiarum actio</p>
-      <p xml:id="BEUMUS20132">[Beurhaus, 37,2; text: prima, secunda, vox, Dankket dem Herren, dann er
-        ist sehr freuntlich / vnd seyne guet vnd warheit bleibet ewiglich, seine, warheyt,
+      <p xml:id="BEUMUS20132">[Beurhaus, 37,2; text: prima, secunda, vox, Dankket dem Herren, dann
+        er ist sehr freuntlich / vnd seyne guet vnd warheit bleibet ewiglich, seine, warheyt,
         bleybet]</p>
       <p xml:id="BEUMUS20133">
         <pb n="[38]"/>/p. 40/</p>
       <p xml:id="BEUMUS20134">Aliud</p>
-      <p xml:id="BEUMUS20135">[Beurhaus, 38,1; text: prima, secunda, altera vox, Jesus Christus vnser
-        Heyland / der den Tod ueberwand / ist vfferstanden / die Suend hat Er gefangen /
+      <p xml:id="BEUMUS20135">[Beurhaus, 38,1; text: prima, secunda, altera vox, Jesus Christus
+        vnser Heyland / der den Tod ueberwand / ist vfferstanden / die Suend hat Er gefangen /
         Kyrieleyson, aufferstanden, hatt] <figure>
           <graphic url="/images/BEUMUS2_16GF.gif"/>
         </figure></p>
@@ -295,8 +308,8 @@
       <p xml:id="BEUMUS20144">[Beurhaus, 40,2; text: prima, vox, Hodie Deus homo factus.]</p>
       <p xml:id="BEUMUS20145">/p.46/</p>
       <p xml:id="BEUMUS20146">Psalmus 23</p>
-      <p xml:id="BEUMUS20147">Beurhaus, 40,3; text: prima, secunda, tertia, vox, Der Herr ist meyn hirt
-        /, myr wirt nichts, mein hirtt, mangeln, (p.47), (p.48)]</p>
+      <p xml:id="BEUMUS20147">Beurhaus, 40,3; text: prima, secunda, tertia, vox, Der Herr ist meyn
+        hirt /, myr wirt nichts, mein hirtt, mangeln, (p.47), (p.48)]</p>
       <p xml:id="BEUMUS20148">
         <pb n="[41]"/>[Beurhaus, 41; text: myr wirt nichts mangeln /, mir, Er weidet mich vff einer
         gruenen auwen /, auff, / vnd fueret mich zum frischen] <figure>
@@ -309,9 +322,9 @@
         </figure></p>
       <p xml:id="BEUMUS20150">
         <pb n="[43]"/>Secunda pars psalmi</p>
-      <p xml:id="BEUMUS20151">[Beurhaus, 43; text: (p.49), /p.52/, /p.54/, prima, secunda pars psalmi
-        23, tertia, vox, p.50, Vnd ob ich gleich wandlet im finstern thall /, wandelt, thal, foercht
-        ich kein vnglueck, denn du bist bey mir /, dein, deyn, keyn, bei] <figure>
+      <p xml:id="BEUMUS20151">[Beurhaus, 43; text: (p.49), /p.52/, /p.54/, prima, secunda pars
+        psalmi 23, tertia, vox, p.50, Vnd ob ich gleich wandlet im finstern thall /, wandelt, thal,
+        foercht ich kein vnglueck, denn du bist bey mir /, dein, deyn, keyn, bei] <figure>
           <graphic url="/images/BEUMUS2_21GF.gif"/>
         </figure></p>
       <p xml:id="BEUMUS20152">
@@ -332,8 +345,8 @@
       <p xml:id="BEUMUS20155">
         <pb n="[47]"/>/p. 56/</p>
       <p xml:id="BEUMUS20156">QUADRICINIA</p>
-      <p xml:id="BEUMUS20157">[Beurhaus, 47; text: Discantus, Altus, Tenor, Bassus, p.56, p.57, Nobis
-        est natus hodie de pura virgine Christus rex gloriae] <figure>
+      <p xml:id="BEUMUS20157">[Beurhaus, 47; text: Discantus, Altus, Tenor, Bassus, p.56, p.57,
+        Nobis est natus hodie de pura virgine Christus rex gloriae] <figure>
           <graphic url="/images/BEUMUS2_25GF.gif"/>
         </figure></p>
       <p xml:id="BEUMUS20158">

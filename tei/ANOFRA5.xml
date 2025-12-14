@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Tractatus de musica</title>
         <title type="abbrev">ANOFRA5</title>
-        <author>Anonymous</author>
-        <date notBefore="1100" notAfter="1199">12th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>John Csonka</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Jan Herlinger</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1991</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1991">1991</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Adrien de la Fage, <emph>Essais de dipthérographie musicale</emph>
           (Paris: Legouix, 1864), 355–62. </bibl>
@@ -56,11 +66,11 @@
       <p xml:id="ANOFRA50001">
         <pb n="[355]"/>Viso de gravibus ordine ad acutas, notatoque quomodo ex speciebus diatessaron
         et diapente componantur, restat nunc inquirendum qualiter a se invicem generentur.</p>
-      <p class="textFig" xml:id="ANOFRA50002">*     *     *     *     *     *     *     *     *     *     *
-        <lb/></p>
-      <p xml:id="ANOFRA50003">Quot sunt maneriae cantuum. Quot vel qui continentur toni sub unaquaque
-        maneria. Quot sunt vel quae sunt litterae finales. De finalibus litteris quae in septem
-        speciebus diapason reperiuntur. Quae litterae debent esse finales, quae non. De
+      <p class="textFig" xml:id="ANOFRA50002"
+        >*     *     *     *     *     *     *     *     *     *     * <lb/></p>
+      <p xml:id="ANOFRA50003">Quot sunt maneriae cantuum. Quot vel qui continentur toni sub
+        unaquaque maneria. Quot sunt vel quae sunt litterae finales. De finalibus litteris quae in
+        septem speciebus diapason reperiuntur. Quae litterae debent esse finales, quae non. De
         diversitatibus cantuum. Quid est cantus regularis. Qui irregularis. Qui falsus. De maneriis
         cantuum. De octo tonis quantum a finali possunt ascendere vel descendere. De principiis
         cantuum et saeculorum. Quomodo cantus debet componi. De argumentis. Utilis figura quae omnes
@@ -68,28 +78,29 @@
         praemonstratam figuram. De proprietatibus tonorum. De b rotundo. De discantu simplici. Ars
         ad componendum organum. De primo tono. De secundo. De tertio. De quarto. De quinto. De
         sexto. De septimo. De octavo.</p>
-      <p class="textFig" xml:id="ANOFRA50004">*     *     *     *     *     *     *     *     *     *     *
-        <br/></p>
+      <p class="textFig" xml:id="ANOFRA50004"
+        >*     *     *     *     *     *     *     *     *     *     * <br/></p>
       <p xml:id="ANOFRA50005">
         <pb n="[356]"/>Pateat igitur quod septem finales litterae ex septem speciebus diapason
         oriuntur, in quibus omnis cantus, qui per musicam notari possunt, habeant terminari.</p>
-      <p class="textFig" xml:id="ANOFRA50006">*     *     *     *     *     *     *     *     *     *     *
-        <lb/></p>
-      <p xml:id="ANOFRA50007">Quisquis igitur cantum facturus es diversitates cantuum attende, ut scias
-        qualem cujusque modi cantuum faciendum aggrediaris. Sunt enim, ut diximus, quatuor maneriae
-        cantuum quae, per octo modos divisae, omnis cantus tam regulares quam irregulares praeter
-        falsos accipiunt et includunt; falsos enim non terminant, sed excludunt. Regularis autem
-        cantus est qui litterarum metas altrinsecus positas bene compositus non excedens,..... nec
-        nimium ascendit superius, nec nimium descendit inferius, sed sua proprietate contentus et
-        intra proprias litteras progrediens, bene et congrue in litteris finalibus suae maneriae
+      <p class="textFig" xml:id="ANOFRA50006"
+        >*     *     *     *     *     *     *     *     *     *     * <lb/></p>
+      <p xml:id="ANOFRA50007">Quisquis igitur cantum facturus es diversitates cantuum attende, ut
+        scias qualem cujusque modi cantuum faciendum aggrediaris. Sunt enim, ut diximus, quatuor
+        maneriae cantuum quae, per octo modos divisae, omnis cantus tam regulares quam irregulares
+        praeter falsos accipiunt et includunt; falsos enim non terminant, sed excludunt. Regularis
+        autem cantus est qui litterarum metas altrinsecus positas bene compositus non excedens,.....
+        nec nimium ascendit superius, nec nimium descendit inferius, sed sua proprietate contentus
+        et intra proprias litteras progrediens, bene et congrue in litteris finalibus suae maneriae
         terminatur. Irregularis vero est qui proprias metas conservans, sed male et inordinate
         compositus et suo modo dissonans, partim authentus et partim plagalis et licet in finali
         alicujus maneriae terminetur, nullius tamen toni plus quam debet elevatus vel depositus,
         esse judicatur. Falsus autem est ille qui nullam regulam propriam, sed per regionem dissonae
         compositionis progrediens et naturalem musicae ordinem non sequens, in musica notari non
         potest....</p>
-      <p xml:id="ANOFRA50008">Nullus cantus debet inchoari supra litteram illam in qua suum seculorum
-        habet incipere; infra autem vel in eadem littera, sive in finali, vel sub finali <pb n="[357]"/>debet habere principium prout ratio dictaverit. Primi vero toni incipit in
+      <p xml:id="ANOFRA50008">Nullus cantus debet inchoari supra litteram illam in qua suum
+        seculorum habet incipere; infra autem vel in eadem littera, sive in finali, vel sub finali
+          <pb n="[357]"/>debet habere principium prout ratio dictaverit. Primi vero toni incipit in
         quinta a finali, secundi in tertia, tertii in sexta, quarti in quarta, in quinta quinti, in
         tertia sexti, in quinta septimi, octavi in quarta debet incipere littera. Quisquis igitur
         cantum facturus es proprietates tonorum et semitoniorum attendas et ita cantum studeas
@@ -97,28 +108,29 @@
         ut sui modi proprietatem continens et certitudinem rationis admittens, alterius non valeat
         judicari. Nam ubi certitudinis ratio vacillat de veritate discretio titubans in judicio
         calligat.</p>
-      <p class="textFig" xml:id="ANOFRA50009">*     *     *     *     *     *     *     *     *     *     *
-        <br/></p>
-      <p xml:id="ANOFRA50010">Istae igitur proprietates ita cantoribus sunt necessariae ut sine istis
-        nec cantores periti, nec notatores periti debeant judicari; quia nec cantor scit cantum
-        componere naturaliter, nec in sua propria finali littera notator cantum aliquem scit notare
-        veraciter. De quibus quid referam? Quum de illis nec loqui debeant ipsi michi, ne nauseam
-        generant, quorum alterum video non scientiae, sed vanae gloriae stolidum sectatorem, ut
-        laudetur aberrare, alterum autem intueor peritum lucri, non veritatis cupidum amatorem, ut
-        remuneretur corrumpere. Isti quidem qui canendi scientiam non habentes et habere se
+      <p class="textFig" xml:id="ANOFRA50009"
+        >*     *     *     *     *     *     *     *     *     *     * <br/></p>
+      <p xml:id="ANOFRA50010">Istae igitur proprietates ita cantoribus sunt necessariae ut sine
+        istis nec cantores periti, nec notatores periti debeant judicari; quia nec cantor scit
+        cantum componere naturaliter, nec in sua propria finali littera notator cantum aliquem scit
+        notare veraciter. De quibus quid referam? Quum de illis nec loqui debeant ipsi michi, ne
+        nauseam generant, quorum alterum video non scientiae, sed vanae gloriae stolidum sectatorem,
+        ut laudetur aberrare, alterum autem intueor peritum lucri, non veritatis cupidum amatorem,
+        ut remuneretur corrumpere. Isti quidem qui canendi scientiam non habentes et habere se
         simulantes facti sunt caeci duces caecorum, veritatis impugnatores et assentatores
         falsitatis, infantiae atque librorum corruptores, de quibus omnino decentius estimo reticere
         quam loqui.</p>
-      <p class="textFig" xml:id="ANOFRA50011">*     *     *     *     *     *     *     *     *     *     *
-        <lb/></p>
+      <p class="textFig" xml:id="ANOFRA50011"
+        >*     *     *     *     *     *     *     *     *     *     * <lb/></p>
       <p xml:id="ANOFRA50012">Quod est accidentale non est proprium, et quod non proprium non est
-        naturale. Inventum est autem b rotundum ad temperandum tritonum qui super F naturaliter <pb n="[358]"/>invenitur. Ubi enim cantus asperius sonat, b rotundum in loco quadrati ad
+        naturale. Inventum est autem b rotundum ad temperandum tritonum qui super F naturaliter <pb
+          n="[358]"/>invenitur. Ubi enim cantus asperius sonat, b rotundum in loco quadrati ad
         temperandum tritonum furtim interponetur: sed ubi cantus ad suam naturam recurrerit, statim
         debet auferri. Igitur b rotundum quia accidens est vel accidentale, et accidens potest
         adesse et abesse sine corruptione subjecti, ubi necessarium fuerit apponatur, quando autem
         non cantum receperit auferatur.</p>
-      <p class="textFig" xml:id="ANOFRA50013">*     *     *     *     *     *     *     *     *     *     *
-        <br/></p>
+      <p class="textFig" xml:id="ANOFRA50013"
+        >*     *     *     *     *     *     *     *     *     *     * <br/></p>
       <p xml:id="ANOFRA50014">Discantus cantui debet esse contrarius, quamvis cum cantu debeat
         personare; sed in elevatione et depositione. Quando autem cantus elevatur, discantus debet
         deponi, et quando cantus deponitur, discantus, ut naturaliter fiat, ex contrario debet
@@ -151,23 +163,23 @@
         consonantias, dupliciter et naturaliter respondere possit; cujus exemplo et altiori
         subtilitate gravioris compositionis, benivoli hujus doctrinae discipuli ad altiora scientiae
         incrementa provehantur. Exemplum hic:</p>
-      <p xml:id="ANOFRA50017">[De La Fage, 359; text d d c a c d, a c d e c a, a G G a G D, Sint lumbi
-        vestri.]</p>
-      <p xml:id="ANOFRA50018">Hic perspicue potes agnoscere vim et utilitatem consonantiarum; quod si
-        naturaliter conjungantur diversi cantus ex diversis vocibus vel litteris compositis,
+      <p xml:id="ANOFRA50017">[De La Fage, 359; text d d c a c d, a c d e c a, a G G a G D, Sint
+        lumbi vestri.]</p>
+      <p xml:id="ANOFRA50018">Hic perspicue potes agnoscere vim et utilitatem consonantiarum; quod
+        si naturaliter conjungantur diversi cantus ex diversis vocibus vel litteris compositis,
         symphoniam naturalem et quamdam sonoritatis dulcedinem reddere faciunt. Ecce quomodo finis
         et natura hujus liberae artis attendatur, sagaciter inquiratur, memoriae retineatur, per
         incrementa subtilitatis ad altiorem provehat utilitatem. Ecce quomodo si arti insistitur,
         per assiduitatem inquisitionis subtilioris, animus humanus amplitudine quadam dilatatus, de
         minimo scit multa colligere et supra ad compendiosa reducere. Omnis denique cantus sive
         discantus debet componi quatenus ad humanam vocem, ut in superioribus possit attingi.</p>
-      <p class="textFig" xml:id="ANOFRA50019">*     *     *     *     *     *     *     *     *     *     *
-        <lb/></p>
+      <p class="textFig" xml:id="ANOFRA50019"
+        >*     *     *     *     *     *     *     *     *     *     * <lb/></p>
       <p xml:id="ANOFRA50020">
         <pb n="[360]"/>Hactenus de natura discantus, exemplis attestantibus, quod diximus, ut credo,
         satis docuimus;jam ad naturale componendum organum faciendi stylum et animum preparemus.</p>
-      <p xml:id="ANOFRA50021">Ad organum itaque faciendum tria sunt necessaria: ut sciatur scilicet quo
-        modo incipiatur, quo ordine progrediatur, qua ratione terminetur. Necessarium est
+      <p xml:id="ANOFRA50021">Ad organum itaque faciendum tria sunt necessaria: ut sciatur scilicet
+        quo modo incipiatur, quo ordine progrediatur, qua ratione terminetur. Necessarium est
         nihilominus organizatori ut consonantias et notas in promptu habeat, quum sine istis organum
         nullo modo ab aliquo potest componi. Sciendum est autem quod organum debet in aliqua
         consonantiarum aut in unisono, id est cum cantu incipere. Si vero cantus ascenderit,
@@ -198,8 +210,8 @@
         fiunt ab organizatore quum ad quartam, id est diatessaron, organum vel ad quintam, id est
         diapente, a cantu descendit et ibi paululum respirans, resumit spiritum ut usque ad
         pausationem melius sequentia prosequatur.</p>
-      <p xml:id="ANOFRA50025">Audistis igitur et, ut certissime credo, bene et optime intellexistis quod
-        cantus naturaliter componendus sit; audistis nihilominus de discantu simplici super
+      <p xml:id="ANOFRA50025">Audistis igitur et, ut certissime credo, bene et optime intellexistis
+        quod cantus naturaliter componendus sit; audistis nihilominus de discantu simplici super
         simplicem, discantum duplicem; ad ultimum vero simplicem organum super simplicem cantum.
         Audistis et vidistis, notastis atque laudastis. Ut autem de singulis in singulis componendis
         altius instruaris, cantum et discantum utrumque simplicem unum super alterum et organum
@@ -216,20 +228,20 @@
         vocis. Illud ad ultimo non est oblivioni tradendum quod cantor primus debet incipere et
         finire; similiter autem et organizator. Hactenus de cantu et discantu, simul et organo
         faciendo satis ut credimus docuimus.</p>
-      <p class="textFig" xml:id="ANOFRA50027">*     *     *     *     *     *     *     *     *     *     *
-        <br/></p>
+      <p class="textFig" xml:id="ANOFRA50027"
+        >*     *     *     *     *     *     *     *     *     *     * <br/></p>
       <p xml:id="ANOFRA50028">
         <pb n="[362]"/>II. Incipit rude documentum tonorum, sed valde utile est his qui
         intelligunt.</p>
-      <p class="textFig" xml:id="ANOFRA50029">*     *     *     *     *     *     *     *     *     *     *
-        <lb/></p>
+      <p class="textFig" xml:id="ANOFRA50029"
+        >*     *     *     *     *     *     *     *     *     *     * <lb/></p>
       <p xml:id="ANOFRA50030">Primus cum sexto FA SOL LA semper habeto, etc.</p>
-      <p class="textFig" xml:id="ANOFRA50031">*     *     *     *     *     *     *     *     *     *     *
-        <br/></p>
-      <p xml:id="ANOFRA50032">Discantus est aliquot cantuum diversorum concordantia sive consonantia, n
-        qua illi diversificantur per voces lungas, breves, semi-breves proportionaliter adaequatas;
-        vel proportionaris admixtio designat. Unde sciendum est quod ad discantus artem requiruntur
-        tredecim species; scilicet unisonus, semitonius, et cetera.</p>
+      <p class="textFig" xml:id="ANOFRA50031"
+        >*     *     *     *     *     *     *     *     *     *     * <br/></p>
+      <p xml:id="ANOFRA50032">Discantus est aliquot cantuum diversorum concordantia sive
+        consonantia, n qua illi diversificantur per voces lungas, breves, semi-breves
+        proportionaliter adaequatas; vel proportionaris admixtio designat. Unde sciendum est quod ad
+        discantus artem requiruntur tredecim species; scilicet unisonus, semitonius, et cetera.</p>
     </body>
   </text>
 </TEI>

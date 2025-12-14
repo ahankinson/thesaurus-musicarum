@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Tractatus de musica</title>
         <title type="abbrev">NICTRA</title>
-        <author>Nicolaus de Senis</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Nicolaus de Senis</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Luminita Florea Aluas</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1992</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1992">1992</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Higini Angles, "Dos tractats medievals de musica figurada," in
             <emph>Musikwissenschaftliche Beiträge: Festschrift für Johannes Wolf zu seinem
@@ -51,7 +61,8 @@
         Senis, Ordinis Seruorum Sancte Marie, copiate per me fratrem Bernardum de Sancta Cruce de
         Veneciis, Ordinis Predicatorum, in ciuitate Verone 142[?] de mense Januarij.</p>
       <p xml:id="NICTRA0002">Notandum primo, quod quatuor sunt uoces supra tenorem consonantiam
-        facientes, scilicet, quinta, octava, duodecima et quintadecima. Et licet sint plures et <pb n="[11]"/>infinite, tamen ad istas quatuor reducuntur, et etiam pauciores dici possunt,
+        facientes, scilicet, quinta, octava, duodecima et quintadecima. Et licet sint plures et <pb
+          n="[11]"/>infinite, tamen ad istas quatuor reducuntur, et etiam pauciores dici possunt,
         quia talem consonantiam habet duodecima, qualem habet quinta. Et sic se habet. XII. respectu
         ad octavam, sicut quinta ad tenorem. Similiter illum respectum habet quintadecima uersus
         duodecimam, sicut octava uersus quintam, et eedem regule pro omnibus istis dantur. Et ideo
@@ -62,12 +73,12 @@
         ut notat fa, et re, sol, et mi, la. Et sic fa, sol, la easdem notas denotant, hoc est, quod
         si tenor dicit ut et discantor debet esse in fa, cum enim in octauam, ueniens uersus
         quintam.</p>
-      <p xml:id="NICTRA0003">Modo de principali proposito per ordinem est dicendum, videlicet, quando
-        tenor ascendit et discantor est in octava. Est autem sciendum quod pro uno ascensu tenoris
-        debet fieri descensus tertius discantoris; pro tercio ascensu, unus descensus; pro quarto
-        ascensu, firmiter; pro quintu ascensu, unus ascensus; pro sexto ascensu, tertius ascensus,
-        et sic faciendo semper, discantor, in principio, erit in octava; et in quinta remanebit, ut
-        in sequenti patet exemplo:</p>
+      <p xml:id="NICTRA0003">Modo de principali proposito per ordinem est dicendum, videlicet,
+        quando tenor ascendit et discantor est in octava. Est autem sciendum quod pro uno ascensu
+        tenoris debet fieri descensus tertius discantoris; pro tercio ascensu, unus descensus; pro
+        quarto ascensu, firmiter; pro quintu ascensu, unus ascensus; pro sexto ascensu, tertius
+        ascensus, et sic faciendo semper, discantor, in principio, erit in octava; et in quinta
+        remanebit, ut in sequenti patet exemplo:</p>
       <p xml:id="NICTRA0004">[MB 11,1; text: Discantus.Tenor.] <figure>
           <graphic url="/images/NICTRA_01GF.gif"/>
         </figure></p>

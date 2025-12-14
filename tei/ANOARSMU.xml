@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>[Ars musica]</title>
         <title type="abbrev">ANOARSMU</title>
-        <author>Anonymous</author>
-        <date notBefore="1200" notAfter="1299">13th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1996</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1996">1996</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Marie Louise Göllner, ed., <emph>The Manuscript Cod. lat. 5539 of the
             Bavarian State Library</emph>, Musicological Studies and Documents, vol. 43
@@ -46,27 +56,28 @@
     <body>
       <p xml:id="ANOARSMU0001">
         <pb n="[69]"/>[Dedicatio]</p>
-      <p xml:id="ANOARSMU0002">[fol. 1v] Reverentissimo domino ac patri H[einrico] ratysponensi episcopo
-        subditorum humillimus quidquid debitae subiectionis servitus poterit effectui mancipare.
-        Vestrae sublimitatis excellentia tam praesentium quam posterum utilitati providens iam dudum
-        artem musicam sitiens venire vocavit usque adeo, ut quodammodo vocando rate factae sunt
-        fauces eius. Ad quod sollempne praeconium quidam in modum aspidum aures usque nunc
-        obdurabant, ut non solum se verum etiam adveniendum benivolos prohiberent. Et sic contra
-        duritiam pungentes stimuli calcitrantes vocati venire contempserunt, quos tandem principis
-        incliti sollicitudo pervigit instar regis habentis nuptias tamquam paratis omnibus videlicet
-        librorum ac doctorum copia subintrare compulit et audire, et sic principium quondam flebile
-        nunc est fortuna melior comitata. Igitur ut non deficiat fides vestra erga tantum studium,
-        ego conversus ad compilationem huius opusculi quod diffusum diversis voluminibus repperi
-        prout convenientius potui stilo rudi ac simplici sub nomine vestro venerando breviter
-        compegi, quod H. non existente littera sed signo quodam aspirationis octo litteris
-        describitur, et sic congrue ad octo capitulorum ordinem huius opusculi [fol. 2r] poterit
-        adaptari, ita ut consequentia litterarum dicti nominis non videatur a capitulorum ordine
-        discrepare. Quod nomen non sine causa venerandum immo omni laude dignum dicitur
+      <p xml:id="ANOARSMU0002">[fol. 1v] Reverentissimo domino ac patri H[einrico] ratysponensi
+        episcopo subditorum humillimus quidquid debitae subiectionis servitus poterit effectui
+        mancipare. Vestrae sublimitatis excellentia tam praesentium quam posterum utilitati
+        providens iam dudum artem musicam sitiens venire vocavit usque adeo, ut quodammodo vocando
+        rate factae sunt fauces eius. Ad quod sollempne praeconium quidam in modum aspidum aures
+        usque nunc obdurabant, ut non solum se verum etiam adveniendum benivolos prohiberent. Et sic
+        contra duritiam pungentes stimuli calcitrantes vocati venire contempserunt, quos tandem
+        principis incliti sollicitudo pervigit instar regis habentis nuptias tamquam paratis omnibus
+        videlicet librorum ac doctorum copia subintrare compulit et audire, et sic principium
+        quondam flebile nunc est fortuna melior comitata. Igitur ut non deficiat fides vestra erga
+        tantum studium, ego conversus ad compilationem huius opusculi quod diffusum diversis
+        voluminibus repperi prout convenientius potui stilo rudi ac simplici sub nomine vestro
+        venerando breviter compegi, quod H. non existente littera sed signo quodam aspirationis octo
+        litteris describitur, et sic congrue ad octo capitulorum ordinem huius opusculi [fol. 2r]
+        poterit adaptari, ita ut consequentia litterarum dicti nominis non videatur a capitulorum
+        ordine discrepare. Quod nomen non sine causa venerandum immo omni laude dignum dicitur
         ethymologizatum enim sonat, humilitatem exequens iustitiam nutriens religionem imitans
         castitatem vitae servans. Materna autem lingua interpretatur solus ego, vel solus dives, vel
         domi dives. Solus ego per excellentiam videtur esse dictum, solus utique ex infinitis
         milibus meruit gloria et honore tanti pontificis coronari, solus etiam excellentius atque
-        gloriosius omnibus antecessoribus suis epyscopium gubernavit. Dicitur etiam solus dives, <pb n="[70]"/>quia honestate morum decentissima divini obsequii administratione devotissima
+        gloriosius omnibus antecessoribus suis epyscopium gubernavit. Dicitur etiam solus dives, <pb
+          n="[70]"/>quia honestate morum decentissima divini obsequii administratione devotissima
         omniumque virtutum imitatione sincerissima participibus sui generis abundantius est ditatus.
         Cum autem hic non habeamus manentem civitatem sed eam quae sursum est, quid aliud tantum est
         dicere domi dives quam huius civitatis divitias iure quodammodo hereditario possidere, quod
@@ -83,9 +94,9 @@
         veniam deprecetur et me ovem sive dragmam clero perditam dignetur vestra sublimitas
         restaurare.</p>
       <p xml:id="ANOARSMU0003">//Incipit ars musica//</p>
-      <p xml:id="ANOARSMU0004">Huius artis experientiam quaerere cupientibus, a figura manus inchoandum
-        est, in qua primo ponitur .G. graecum quod gamma vocatur. Et postmodum secundum ordinem
-        alphabeti ponuntur .vii. litterae quae capitales scribi debent: A, B, C, D, E, F, G.
+      <p xml:id="ANOARSMU0004">Huius artis experientiam quaerere cupientibus, a figura manus
+        inchoandum est, in qua primo ponitur .G. graecum quod gamma vocatur. Et postmodum secundum
+        ordinem alphabeti ponuntur .vii. litterae quae capitales scribi debent: A, B, C, D, E, F, G.
         Consequenter vero ponuntur eaedem litterae, scilicet a, b, c, d, e, f, g, quae minutae
         vocantur et ideo in modo scribendi diversificantur ne quando clavis per capitalem signata
         minuta esse credatur et econverso, et sic clavium numerus erit quinarius triplicatus, quorum
@@ -99,14 +110,14 @@
         Peranetheyperboleon, Neteyperboleon, quibus consentiendum videtur, quia nullus cantus
         regulariter compositus has quindecim claves suo ascensu vel descensu transcendere potest,
         sicut in sequentibus ostendetur.</p>
-      <p xml:id="ANOARSMU0005">Modernis autem compilatoribus huius artis visum esse congruum praedictis
-        quindecim clavibus tres addere quae geminatae vocantur, scilicet: aa, bb, cc, quae ideo
-        appositae creduntur, ut siquem tantum a suo finali transferre contingat, liberius ascensum
-        regularem habere valeat, de quibus melius patebit postea. Sunt praeterea quidam moderniores
-        musici, videlicet mensuratae musicae magistri, qui supra notatis clavibus adhuc solam
-        superaddunt, quibus bene favendum [fol. 3v] videtur duabus de causis, quarum prima est ut
-        quintum tetrachordum perficiat. Secunda, ut septimus gradus qui similiter defectum in nota
-        sustinebat compleatur.</p>
+      <p xml:id="ANOARSMU0005">Modernis autem compilatoribus huius artis visum esse congruum
+        praedictis quindecim clavibus tres addere quae geminatae vocantur, scilicet: aa, bb, cc,
+        quae ideo appositae creduntur, ut siquem tantum a suo finali transferre contingat, liberius
+        ascensum regularem habere valeat, de quibus melius patebit postea. Sunt praeterea quidam
+        moderniores musici, videlicet mensuratae musicae magistri, qui supra notatis clavibus adhuc
+        solam superaddunt, quibus bene favendum [fol. 3v] videtur duabus de causis, quarum prima est
+        ut quintum tetrachordum perficiat. Secunda, ut septimus gradus qui similiter defectum in
+        nota sustinebat compleatur.</p>
       <p xml:id="ANOARSMU0006">Et sic clavium numerus in vicenario consummatur, qui in quinque
         tetrachorda distinguitur: in tetrachordum gravium, in tetra[chordum] finalium, in
         tetrachordum acutarum, in tetrachordum superacutarum, in tetrachordum excellentium.
@@ -118,24 +129,24 @@
         dicitur, quia sonus eorum acutior est acutis. Excellentium ideo dicitur, quia excellit
         rationem tonorum et etiam nullus cantus regulariter compositus de ratione ad eas ascendere
         poterit, sicut patebit in sequentibus.</p>
-      <p xml:id="ANOARSMU0007">Qualiter autem omnes dictae voces una mutetur in aliam nunc dicendum est.
-        Omnis clavis unam vocem habens nullam habet mutationem, ut G, A, B. Sed clavis quae duas
-        habet voces, duas habet mutationes; prima mutatur in sequentem ascendendo, [fol. 4r] sequens
-        in primam descendendo. Claves vero qui tribus vocibus figurantur sex mutationibus variantur,
-        scilicet, g, a, c, d et cetera: g mutatur sol in ut per naturam, sol in re per b molle, re
-        in ut per h durum; Descendendo mutatur econverso; a mutatur ascendendo la in re per naturam,
-        la in mi per b molle, mi in re per h durum; Descendendo mutatur econverso; b b fa b mi
-        nullam habet mutationem tam dissonantiae vocum; c autem mutatur ascendendo sol in ut per
-        naturam, sol in fa per h durum, fa in ut per naturam; Descendendo mutatur econverso; d
+      <p xml:id="ANOARSMU0007">Qualiter autem omnes dictae voces una mutetur in aliam nunc dicendum
+        est. Omnis clavis unam vocem habens nullam habet mutationem, ut G, A, B. Sed clavis quae
+        duas habet voces, duas habet mutationes; prima mutatur in sequentem ascendendo, [fol. 4r]
+        sequens in primam descendendo. Claves vero qui tribus vocibus figurantur sex mutationibus
+        variantur, scilicet, g, a, c, d et cetera: g mutatur sol in ut per naturam, sol in re per b
+        molle, re in ut per h durum; Descendendo mutatur econverso; a mutatur ascendendo la in re
+        per naturam, la in mi per b molle, mi in re per h durum; Descendendo mutatur econverso; b b
+        fa b mi nullam habet mutationem tam dissonantiae vocum; c autem mutatur ascendendo sol in ut
+        per naturam, sol in fa per h durum, fa in ut per naturam; Descendendo mutatur econverso; d
         mutatur ascendendo la in re per naturam, la in sol per h durum, sol in re per naturam;
         [Descendendo mutatur econverso.] G in linea mutatur sicut g in spatio, similiter mutantur
         omnes claves quae dupplicantur in manu; b b fa b mi in linea fiet sicuti in spatio, cc sol
         fa sol in fa per h durum ascendendo; Descendendo econverso; dd la sol la in [sol] per h
         durum ascendendo; Descendendo econverso; E la vox per h durum secundum modernos et fit extra
         manum.</p>
-      <p xml:id="ANOARSMU0008">//Dicto de litteris in figura manus locatis quae et claves dicuntur et de
-        vocibus designatis per eas, dicendum est de modis ex quibus constant omnes musicae voces, et
-        quid sit modus.//</p>
+      <p xml:id="ANOARSMU0008">//Dicto de litteris in figura manus locatis quae et claves dicuntur
+        et de vocibus designatis per eas, dicendum est de modis ex quibus constant omnes musicae
+        voces, et quid sit modus.//</p>
       <p xml:id="ANOARSMU0009">Modus in musica est distantia unius vocis ad alteram, et sunt eorum
         duodecim, scilicet: Unisonus, qui componitur a nomine [fol. 4v] unus et <pb n="[73]"/>sonus,
         et habet fieri quando eadem vox in eadem linea sive spatio eodem saepius iteratur. Secundus
@@ -189,9 +200,9 @@
         tibi nota.] <figure>
           <graphic url="/images/ANOARSMU_02GF.gif"/>
         </figure></p>
-      <p xml:id="ANOARSMU0012">[fol. 7r] // Viso de litteris in figura manus dispositis et de vocibus
-        designatis per eas et de modis ex quibus constant omnes musicae artes, nunc dicendum est
-        quid sit musica et unde dicatur et quid sit tonus vel toni et ad quid instituti sint et
+      <p xml:id="ANOARSMU0012">[fol. 7r] // Viso de litteris in figura manus dispositis et de
+        vocibus designatis per eas et de modis ex quibus constant omnes musicae artes, nunc dicendum
+        est quid sit musica et unde dicatur et quid sit tonus vel toni et ad quid instituti sint et
         inventi.//</p>
       <p xml:id="ANOARSMU0013">
         <pb n="[76]"/>Musica igitur est scientia recte cantandi et cantum quemlibet si iuxta
@@ -221,26 +232,27 @@
         autentici cui est additus, ita librantes cursum omnium octo, ut quod accedit plagalibus
         descendendo, autenticis accedat ascendendo, et vocibus bene et subtiliter consideratis, in
         quibus omnis versantur proportionabiliter instituti dinoscantur.</p>
-      <p xml:id="ANOARSMU0016">//Cum igitur huius scientiae proportionabiliter discernatur, videndum est
-        quid sit proportio.//</p>
-      <p xml:id="ANOARSMU0017">Proportio est quam numeri adinvicem habent. Duppla enim proportio est ubi
-        maior numerus minorem bis in se continet, ut unitatem binarius, binarium quaternarius, et
-        sic est de similibus. Sesquialtera proportio est ubi maior numerus minorem in se continet et
-        eius alteram partem, ut binarium ternarius, quaternarium senarius, et cetera. Sesquitertia
-        proportio est ubi maior numerus minorem in se continet et eius tertiam partem, ut ternarium
-        quaternarius, senarium octonarius, et cetera. [fol. 8v] Sesquioctava proportio est ubi maior
-        numerus minorem totum in se continet et eius octavam partem, ut octonarium novenarius, et
-        cetera, et his de numeris dicta sufficiant. Notandum etiam quod tripplex est cantus,
-        scilicet naturalis, b mollis et h durus. Cantus enim incipiens in cefaut est naturalis.
-        [Cantus] incipiens in f faut est b mollis. Qui vero incipitur in g solreut est h
+      <p xml:id="ANOARSMU0016">//Cum igitur huius scientiae proportionabiliter discernatur, videndum
+        est quid sit proportio.//</p>
+      <p xml:id="ANOARSMU0017">Proportio est quam numeri adinvicem habent. Duppla enim proportio est
+        ubi maior numerus minorem bis in se continet, ut unitatem binarius, binarium quaternarius,
+        et sic est de similibus. Sesquialtera proportio est ubi maior numerus minorem in se continet
+        et eius alteram partem, ut binarium ternarius, quaternarium senarius, et cetera.
+        Sesquitertia proportio est ubi maior numerus minorem in se continet et eius tertiam partem,
+        ut ternarium quaternarius, senarium octonarius, et cetera. [fol. 8v] Sesquioctava proportio
+        est ubi maior numerus minorem totum in se continet et eius octavam partem, ut octonarium
+        novenarius, et cetera, et his de numeris dicta sufficiant. Notandum etiam quod tripplex est
+        cantus, scilicet naturalis, b mollis et h durus. Cantus enim incipiens in cefaut est
+        naturalis. [Cantus] incipiens in f faut est b mollis. Qui vero incipitur in g solreut est h
         duralis.</p>
-      <p xml:id="ANOARSMU0018">//Expeditis dubitalibus quae circa figuram manus inquiri solent, nunc de
-        primo tono et eius differentiis videamus.//</p>
+      <p xml:id="ANOARSMU0018">//Expeditis dubitalibus quae circa figuram manus inquiri solent, nunc
+        de primo tono et eius differentiis videamus.//</p>
       <p xml:id="ANOARSMU0019">Primus enim tonus, qui prothus autenticus dicitur, finitur in d solre
         ascenditque regulariter a suo finali ad suum dyapason, et descendit infra finalem ad
         proximam vocem, et hic est regularis cursus omnium autenticorum, scilicet primi, tertii,
         quinti et septimi. Inveniuntur aliqui cantus qui hunc cursum supra et infra excedunt, ita
-        quod supra finalem novem vel decem notis ascendunt, et infra finalem descendunt per <pb n="[78]"/>dyateseron, et tamen sunt toni autenti, ut patet in hac antiphona, Fidelis sermo
+        quod supra finalem novem vel decem notis ascendunt, et infra finalem descendunt per <pb
+          n="[78]"/>dyateseron, et tamen sunt toni autenti, ut patet in hac antiphona, Fidelis sermo
         et omni, et cetera, ad quod quidam dicunt quod ascensu cuiuslibet autenti habere duas voces
         per licentiam, et descendere per dyateseron. Igitur cum omnibus plagalibus regulariter
         liceat descendere per dyateseron, et autentis per licentiam, difficile erit unum ab alto
@@ -252,10 +264,10 @@
         transponi licitum est. Qui si nec ibi finiri poterit commode, tunc cantus qui cantus
         inscitia distortorum usualium depravatus invenitur, peritia musicorum ad finalem debitum
         censeo corrigendum.</p>
-      <p xml:id="ANOARSMU0020">//Expeditis dubitalibus quae circa primum tonum accidere solent, nunc de
-        inceptionibus et eius differentiis est dicendum.//</p>
-      <p xml:id="ANOARSMU0021">Notandum quod primus tonus quatuor habet usitata principia, scilicet c, d
-        et g finales et a acutam. //Exemplum in differentiis.// Cantus vero eius quinque
+      <p xml:id="ANOARSMU0020">//Expeditis dubitalibus quae circa primum tonum accidere solent, nunc
+        de inceptionibus et eius differentiis est dicendum.//</p>
+      <p xml:id="ANOARSMU0021">Notandum quod primus tonus quatuor habet usitata principia, scilicet
+        c, d et g finales et a acutam. //Exemplum in differentiis.// Cantus vero eius quinque
         differentiis regitur. Omnis enim cantus incipiens in d est primi toni, quocunque modo
         varietur, nisi saliat per dyapente, ut Vos amici. Item incipiens in f et per tonum
         ascendens, ut Ipsi soli. Vel incipiens in f et descendens per dyateseron, ut Traditor autem,
@@ -263,15 +275,17 @@
         Ecce [ego] Johannes [vel Ductus est], et tamen addendum, ne saliat per dyapente, ut haec
         antiphona Mulieres, quae sunt secundae differentiae. Differentia secunda regit [fol. 9v]
         antiphonam a lycanosipaton inchoantes per dyapente subito surgentes, ut hae Hii qui linguis
-        [vel Vos amici]. Differentia tertia regit antiphonam a paripatemeson inchoantes et per <pb n="[79]"/>dytonum surgentes, ut sunt hae Diffusa est. Differentia quarta regit antiphonam
+        [vel Vos amici]. Differentia tertia regit antiphonam a paripatemeson inchoantes et per <pb
+          n="[79]"/>dytonum surgentes, ut sunt hae Diffusa est. Differentia quarta regit antiphonam
         a peripatemeson gradatim per tonum et tonum ascendentes, ut sunt hae Lazarus amicus.
         Differentia quinta regit antiphonam a peripatemeson per semitonium et tonum ad finalem
         descendentes, ut hae Volo pater. Item in mese inchoantes regit antiphonam, ut Vidi dominum
         sedentem.</p>
-      <p xml:id="ANOARSMU0022">[MSD43:79; text: [fol. 9v-11r], f 9v, Primum quaerite regnum dei euouae.
-        Ecce nomen. Traditor autem. Ipsi soli. Ductus est. Vos amicim. f 10r, Diffusa est. Lazarus,
-        Volo pater. Vidi dominum. Primus ut exurge, Caeli enarrant gloriam dei et opera manuum eius
-        annunciat firmamentum. Gloria. Exurge. Rorate. f 10v, Lex domini. Primus ut iste sonus] <figure>
+      <p xml:id="ANOARSMU0022">[MSD43:79; text: [fol. 9v-11r], f 9v, Primum quaerite regnum dei
+        euouae. Ecce nomen. Traditor autem. Ipsi soli. Ductus est. Vos amicim. f 10r, Diffusa est.
+        Lazarus, Volo pater. Vidi dominum. Primus ut exurge, Caeli enarrant gloriam dei et opera
+        manuum eius annunciat firmamentum. Gloria. Exurge. Rorate. f 10v, Lex domini. Primus ut iste
+        sonus] <figure>
           <graphic url="/images/ANOARSMU_03GF.gif"/>
         </figure></p>
       <p xml:id="ANOARSMU0023">
@@ -292,10 +306,10 @@
         per dyapente. Habet etiam iste tonus sex usitata principia, scilicet G, a, c, d, e, f: in G,
         ut Educ de carcere, in a, ut Refulsit sol, in c, ut Ait petrus, in d, ut Iuste et pie, in e,
         ut Ecce Maria, in f, ut Genuit puerpera. Nam nullam autem habet differentiam.</p>
-      <p xml:id="ANOARSMU0025">[MSD43:81; text: [fol. 11v-12v], f 11v, Secundum autem simile est huic.
-        euouae. Ait Petrus. Iuste et pie. Ecce Maria. Genuit puerpera. Educ de carcere. Refulsit
-        sol. f 12r, Secundus ut ecce. Gloria. Ecce advenit. Hinc dulcedo tonum submurmurat ista
-        secundum. Surgite vigilemus. Venite exultemus domino iubilemus deo salutari nostro
+      <p xml:id="ANOARSMU0025">[MSD43:81; text: [fol. 11v-12v], f 11v, Secundum autem simile est
+        huic. euouae. Ait Petrus. Iuste et pie. Ecce Maria. Genuit puerpera. Educ de carcere.
+        Refulsit sol. f 12r, Secundus ut ecce. Gloria. Ecce advenit. Hinc dulcedo tonum submurmurat
+        ista secundum. Surgite vigilemus. Venite exultemus domino iubilemus deo salutari nostro
         praeoccupemus faciem eius in confessione et in psalmis iubilemus ei. f 12v, Secundum autem
         in fine] <figure>
           <graphic url="/images/ANOARSMU_05GF.gif"/>
@@ -315,8 +329,8 @@
         regit antiphonam inchoantes in lycanosmeson, ut Omnia quaecunque. Differentia secunda regit
         antiphonam inchoantes in eodem, ut Ecce dominus. Differentia tertia regit antiphonam
         inchoantes in c acuta, ut Vivo ego. Saeculorum amen etiam in c acuta incipitur.</p>
-      <p xml:id="ANOARSMU0028">[MSD43:82,2; text: [fol. 13r-14v], f 13r, Tertia dies est quod haec facta
-        sunt. euouae. Quando natus est. Omnia. Ecce dominus. f 13v, Vivo ego.]</p>
+      <p xml:id="ANOARSMU0028">[MSD43:82,2; text: [fol. 13r-14v], f 13r, Tertia dies est quod haec
+        facta sunt. euouae. Quando natus est. Omnia. Ecce dominus. f 13v, Vivo ego.]</p>
       <p xml:id="ANOARSMU0029">
         <pb n="[83]"/>[MSD43:83; text: Tertius ut vocem. Gloria. euouae. Vocem iocunditatis. Tertius
         hac specie tonus est modulandus aperte. Responsorium Hodie in Iordane. Versus Caeli aperti
@@ -361,12 +375,12 @@
         confessione et in psalmis iubilemus ei. f 17r] <figure>
           <graphic url="/images/ANOARSMU_10GF.gif"/>
         </figure></p>
-      <p xml:id="ANOARSMU0034">[fol. 17r] In praemisso capitulo visum est de quarto tono, nunc de quinto
-        tono, qui tritus autenticus dicitur, est dicendum. Sciendum est quod quintus tonus finitur
-        in f ascenditque regulariter a suo finali per dyapason, et infra finalem non descendit, quia
-        semitonii imperfectio quod infra finalem habet descensum convenienter fieri prohibet, quia
-        discordantiam vocum generaret. Habet etiam iste tonus tria principia usitata, scilicet f
-        finalem et a acutam et c acutam. Cantus vero eius sola differentia regitur.</p>
+      <p xml:id="ANOARSMU0034">[fol. 17r] In praemisso capitulo visum est de quarto tono, nunc de
+        quinto tono, qui tritus autenticus dicitur, est dicendum. Sciendum est quod quintus tonus
+        finitur in f ascenditque regulariter a suo finali per dyapason, et infra finalem non
+        descendit, quia semitonii imperfectio quod infra finalem habet descensum convenienter fieri
+        prohibet, quia discordantiam vocum generaret. Habet etiam iste tonus tria principia usitata,
+        scilicet f finalem et a acutam et c acutam. Cantus vero eius sola differentia regitur.</p>
       <p xml:id="ANOARSMU0035">
         <pb n="[87]"/>[MSD43:87; text: [fol. 17r-18v], f 17r, Quinque prudentes intraverunt ad
         nuptias. euouae. Fons hortorum. Ponent domino. f 17v, Bene omnia fecit. Quintus ut Ecce
@@ -383,14 +397,14 @@
         Benedictus dominus deus Israhel quia visitavit et fecit redemptionem plebis suae.] <figure>
           <graphic url="/images/ANOARSMU_12GF.gif"/>
         </figure></p>
-      <p xml:id="ANOARSMU0037">[fol. 19r] Consequenter videndum est de sexto tono et eius differentiis,
-        qui finitur in eadem voce qua quintus, ascenditque regulariter a suo finali ad sextam vocem,
-        et descendit infra finalem per dyateseron, ut patet in hac antiphona Nigra sum. Transponitur
-        etiam iste tonus per dyapente. Cantus vero eius in quatuor locis incipitur: in c gravi, ut
-        Christe fili dei, in d, ut Si ego verus Christi, in e, ut O quam metuendus, in f, [ut]
-        Nesciens mater. Quae inceptiones omnes sub principali tono reguntur. Quidam huic tono
-        differentiam unam assignant, tamen differentiam sub principali sono censeo posse
-        cantari.</p>
+      <p xml:id="ANOARSMU0037">[fol. 19r] Consequenter videndum est de sexto tono et eius
+        differentiis, qui finitur in eadem voce qua quintus, ascenditque regulariter a suo finali ad
+        sextam vocem, et descendit infra finalem per dyateseron, ut patet in hac antiphona Nigra
+        sum. Transponitur etiam iste tonus per dyapente. Cantus vero eius in quatuor locis
+        incipitur: in c gravi, ut Christe fili dei, in d, ut Si ego verus Christi, in e, ut O quam
+        metuendus, in f, [ut] Nesciens mater. Quae inceptiones omnes sub principali tono reguntur.
+        Quidam huic tono differentiam unam assignant, tamen differentiam sub principali sono censeo
+        posse cantari.</p>
       <p xml:id="ANOARSMU0038">
         <pb n="[89]"/>[MSD43:89; text: [fol. 19r-20v], f 19r, Sexta hora sedit super puteum. euouae.
         Christe fili dei. Si ego. f 19v, O quam metuendus est locus. Nesciens mater. Sextus ut Os
@@ -405,8 +419,8 @@
         nostro praeoccupemus faciem eius in confessione et in psalmis iubilemus ei.] <figure>
           <graphic url="/images/ANOARSMU_14GF.gif"/>
         </figure></p>
-      <p xml:id="ANOARSMU0040">[fol. 20v] Viso de sexto tono et eius inceptionibus, nunc de septimo tono
-        et eius differentiis videamus, qui tetrardus dicitur. Finiturque in g et ascendit
+      <p xml:id="ANOARSMU0040">[fol. 20v] Viso de sexto tono et eius inceptionibus, nunc de septimo
+        tono et eius differentiis videamus, qui tetrardus dicitur. Finiturque in g et ascendit
         regulariter a suo finali per dyapason, et descendit infra finalem ad proximam vocem.
         Transponitur etiam iste tonus per dyapente, sed rarissime. Cantus quoque eius in tribus
         locis incipitur: in g finali, in h, in d acutis. Regitur autem iste tonus quatuor
@@ -441,9 +455,9 @@
         regit antiphonam inchoantes in eodem, ut hae Zelus domus tuae. Item omnis cantus incipiens
         [fol. 23r] in c gravi, ut Sapientia, in d finali, ut Spiritus, in f finali, ut Nato domino,
         in g finali, ut Dabo in Syon, in a acuta, ut Completi sunt, principalis sonus est.</p>
-      <p xml:id="ANOARSMU0044">[MSD43:93; text: [fol. 23r-24r], f 23r, Octo sunt beatitudines. euouae.
-        Sapiencia. Spiritus. Nato domino. Dabo in Syon. Completi sunt, Hodie celesti sponso. Ecce
-        ancilla. Zelus domus tuae. f 23v, Octavus Letabitur. Gloria. Letabitur iustus. Octavus
+      <p xml:id="ANOARSMU0044">[MSD43:93; text: [fol. 23r-24r], f 23r, Octo sunt beatitudines.
+        euouae. Sapiencia. Spiritus. Nato domino. Dabo in Syon. Completi sunt, Hodie celesti sponso.
+        Ecce ancilla. Zelus domus tuae. f 23v, Octavus Letabitur. Gloria. Letabitur iustus. Octavus
         pronas humilis satis exigit odas. Responsorium x Hodie nobis. Versus Gloria in excelsis
         deo.] <figure>
           <graphic url="/images/ANOARSMU_17GF.gif"/>

@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Tonarius</title>
         <title type="abbrev">REGTON</title>
-        <author>Regino Prumiensis</author>
-        <date notBefore="800" notAfter="1099">9th-11th</date>
+        <author><persName>Regino Prumiensis</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Firoozeh Khazrai</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1993</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1993">1993</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptorum de musica medii aevi nova series a Gerbertina altera</emph>, 4 vols., ed.
@@ -43,8 +53,8 @@
         <pb n="[1]"/>Tonarius</p>
       <p xml:id="REGTON0002">Reginonis Prumensis</p>
       <p xml:id="REGTON0003">A quibus vel quando cepit antiphona dici.</p>
-      <p xml:id="REGTON0004">Ignatius Antiochie Syrie tertius post apostolum Petrum Episcopus, qui et
-        jam cum ipsis degebat apostolis, vidit visionem angelorum, quomodo per antiphonas sancte
+      <p xml:id="REGTON0004">Ignatius Antiochie Syrie tertius post apostolum Petrum Episcopus, qui
+        et jam cum ipsis degebat apostolis, vidit visionem angelorum, quomodo per antiphonas sancte
         Trinitati dicebant ymnos. Isque modus visionis angelorum Antiochie tradidisse probatur
         ecclesie, et ex hoc ad cunctas transivit ecclesias. Antiphona grece dicitur, latine vox
         reciproca.</p>
@@ -66,16 +76,16 @@
         clara, ut aures adimpleat; suavis, ut animos audientium blandiat. Si ex his aliquid
         defuerit, vox perfecta non erit.</p>
       <p xml:id="REGTON0013">De concentu.</p>
-      <p xml:id="REGTON0014">Concentus cantus est sive vox. Canor est cantus suavis; cantus est inflexio
-        vocis . Nam sonus directus est; procedit autem sonus cantui. Arsis est vocis elevatio;
-        thesis est vocis positio. Hoc est finis.</p>
+      <p xml:id="REGTON0014">Concentus cantus est sive vox. Canor est cantus suavis; cantus est
+        inflexio vocis . Nam sonus directus est; procedit autem sonus cantui. Arsis est vocis
+        elevatio; thesis est vocis positio. Hoc est finis.</p>
       <p xml:id="REGTON0015">Ex decreto Pape Gregorio.</p>
-      <p xml:id="REGTON0016">Regnante in perpetuum Domino nostro Jesu Christo, temporibus piissimorum ac
-        serenissimorum Domini Mauritii, Tiberii et Theodosii Augustorum; ejusdem Domini Imperii
-        Mauritii anno tertiodecimo, Indicione tertiadecima, quinto die mensis Julii, Gregorius Papa,
-        coram sacratissimo beati Petri apostoli corpore cum episcopis omnibus Romane ecclesie
-        presbyteris residens adstantibus diaconibus et cuncto clero, dixit: "In sancta hac Romana
-        ecclesia, cui divina dispensatio preesse me voluit, dudum consuetudo et valde
+      <p xml:id="REGTON0016">Regnante in perpetuum Domino nostro Jesu Christo, temporibus
+        piissimorum ac serenissimorum Domini Mauritii, Tiberii et Theodosii Augustorum; ejusdem
+        Domini Imperii Mauritii anno tertiodecimo, Indicione tertiadecima, quinto die mensis Julii,
+        Gregorius Papa, coram sacratissimo beati Petri apostoli corpore cum episcopis omnibus Romane
+        ecclesie presbyteris residens adstantibus diaconibus et cuncto clero, dixit: "In sancta hac
+        Romana ecclesia, cui divina dispensatio preesse me voluit, dudum consuetudo et valde
         reprehensibilis exorta, ut quidam ad sacri altaris ministerium cantores eligantur et in
         diaconatus ordine constituti modulationi vocis inserviant, quos ad predicationis officium
         eleemosynarumque studium vacare congruebat. Unde fit plerumque ut ad sacrum ministerium dum
@@ -1470,8 +1480,8 @@
       <p xml:id="REGTON1296">In aeternum.</p>
       <p xml:id="REGTON1297">In domo Domini.</p>
       <p xml:id="REGTON1298">Expliciunt differentie octavi toni.</p>
-      <p xml:id="REGTON1299">Igitur quia antiphonarum differentias per tonos distinximus, necessarium
-        videtur ut introitus [right column] ad missas per eosdem tonos distinguamus.</p>
+      <p xml:id="REGTON1299">Igitur quia antiphonarum differentias per tonos distinximus,
+        necessarium videtur ut introitus [right column] ad missas per eosdem tonos distinguamus.</p>
       <p xml:id="REGTON1300">Inciupiunt de tono primo.</p>
       <p xml:id="REGTON1301">Authenticus protus.</p>
       <p xml:id="REGTON1302">Nonanneane.</p>
@@ -1582,7 +1592,8 @@
       <p xml:id="REGTON1399">Movete et reddite.</p>
       <p xml:id="REGTON1400">Fidelis servus et prudens.</p>
       <p xml:id="REGTON1401">Ultimo festivitatis.</p>
-      <p xml:id="REGTON1402">Incipiunt de tono tertio. Antiphone ad introitum. Authenticus deuterus.</p>
+      <p xml:id="REGTON1402">Incipiunt de tono tertio. Antiphone ad introitum. Authenticus
+        deuterus.</p>
       <p xml:id="REGTON1403">Noeane.</p>
       <p xml:id="REGTON1404">Gloria seculorum amen.</p>
       <p xml:id="REGTON1405">Confessio et pulchritudo.</p>

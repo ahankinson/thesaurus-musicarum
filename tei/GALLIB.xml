@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Tacita nunc inchoatur stupendaque numerorum musica</title>
         <title type="abbrev">GALLIB</title>
-        <author>Johannes Gallicus dictus Carthusiensis seu de Mantua</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Johannes Gallicus dictus Carthusiensis seu de Mantua</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1991</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1991">1991</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptorum de musica medii aevi nova series a Gerbertina altera</emph>, 4 vols., ed.
@@ -45,32 +55,33 @@
     <body>
       <p xml:id="GALLIB0001">
         <pb n="[409]"/>Tacita nunc inchoatur stupendaque numerorum musica.</p>
-      <p xml:id="GALLIB0002">Jam vero quisquis inquirere cupit a primis numeris varias consonantiarum
-        proportiones eorumque numerorum, quos in sua musica Boetius inserit, scire naturam, quosque
-        nos etiam in eo, quem nuper edidimus de vetustissimo ritu canendi libro magis ad laudem
-        ejus, qui tantam natura contulit inserimus, quam ad necessitatem praescriptas in primis
-        algorismi calculationes optime discat, deinde ritum haec indagando, quem ostendo brevem
-        atque verum diligenter attendat, siquidem, prout in musica tonus est omnium communis mensura
-        consonantiarum, nec ulla prorsus ibi resonat, quae non sit de tonis ac semitoniis armonia,
-        sic et in numeris proportio sexquioctava, quae tonum continet, gignit sexquetertiam, ex qua
-        dyatessaron, ita consonat parique forma sexqualteram, quae dyapente nutrit et fovet. Cumque
-        dupla proportio tam ex sexquitertia quam ex sexqualtera constare probatur, non aliter, quam
-        ex dyatessaron et dyapente vera dyapason consonantia consequens est, ut quemadmodum tonus
-        consonantias, ita sexquioctava quidem has tres metiatur consonantiarum proportiones.</p>
-      <p xml:id="GALLIB0003">Componunt namque duo toni dyatessaron in musica de quatuor sonis cum uno
-        minori semitonio, <pb n="[410]"/>componunt et duae sexquioctavae proportiones sexquitertiam
-        de quatuor numeris cum una quadam numerum portiuncula. Componit iterum in musicis additus
-        tonus dyatessaron perfectam dyapente consonantiam de quinque vocibus trium tonorum ac unius
-        semitonii minoris, componit et addita sexquitertiae sola sexquioctava sexqualteram de
-        quinque numeris infra patet, ac de tribus cum quadam numerorum portioncula sexquioctavis.
-        Componunt demum junctae simul dyatessaron ac dyapente perfectissimam dyapason consonantiam
-        ex octo vocibus, quinque tonis ac duobus semitoniis minoribus. Componunt et sexquitertia cum
-        sexqualtera dupla proportionem ex octo numeris quinque sexquioctavis cum duabus numerorum
-        videlicet portiunculis. Quae cum demonstrari nequeant in simplicibus numeris, ob sui
-        scilicet parvitatem, necesse est, ut qui talem habent naturam parvi non sint numeri, sed a
-        suis radicibus deducantur et efficiantur magni. Radix ergo proportionum omnium sexquioctavam
-        est, ut ad rem veniam quotiens ad octo comparentur novem ut hic, quoniam major numerus in se
-        totum habet minorem ac insuper ejus octavam partem.</p>
+      <p xml:id="GALLIB0002">Jam vero quisquis inquirere cupit a primis numeris varias
+        consonantiarum proportiones eorumque numerorum, quos in sua musica Boetius inserit, scire
+        naturam, quosque nos etiam in eo, quem nuper edidimus de vetustissimo ritu canendi libro
+        magis ad laudem ejus, qui tantam natura contulit inserimus, quam ad necessitatem
+        praescriptas in primis algorismi calculationes optime discat, deinde ritum haec indagando,
+        quem ostendo brevem atque verum diligenter attendat, siquidem, prout in musica tonus est
+        omnium communis mensura consonantiarum, nec ulla prorsus ibi resonat, quae non sit de tonis
+        ac semitoniis armonia, sic et in numeris proportio sexquioctava, quae tonum continet, gignit
+        sexquetertiam, ex qua dyatessaron, ita consonat parique forma sexqualteram, quae dyapente
+        nutrit et fovet. Cumque dupla proportio tam ex sexquitertia quam ex sexqualtera constare
+        probatur, non aliter, quam ex dyatessaron et dyapente vera dyapason consonantia consequens
+        est, ut quemadmodum tonus consonantias, ita sexquioctava quidem has tres metiatur
+        consonantiarum proportiones.</p>
+      <p xml:id="GALLIB0003">Componunt namque duo toni dyatessaron in musica de quatuor sonis cum
+        uno minori semitonio, <pb n="[410]"/>componunt et duae sexquioctavae proportiones
+        sexquitertiam de quatuor numeris cum una quadam numerum portiuncula. Componit iterum in
+        musicis additus tonus dyatessaron perfectam dyapente consonantiam de quinque vocibus trium
+        tonorum ac unius semitonii minoris, componit et addita sexquitertiae sola sexquioctava
+        sexqualteram de quinque numeris infra patet, ac de tribus cum quadam numerorum portioncula
+        sexquioctavis. Componunt demum junctae simul dyatessaron ac dyapente perfectissimam dyapason
+        consonantiam ex octo vocibus, quinque tonis ac duobus semitoniis minoribus. Componunt et
+        sexquitertia cum sexqualtera dupla proportionem ex octo numeris quinque sexquioctavis cum
+        duabus numerorum videlicet portiunculis. Quae cum demonstrari nequeant in simplicibus
+        numeris, ob sui scilicet parvitatem, necesse est, ut qui talem habent naturam parvi non sint
+        numeri, sed a suis radicibus deducantur et efficiantur magni. Radix ergo proportionum omnium
+        sexquioctavam est, ut ad rem veniam quotiens ad octo comparentur novem ut hic, quoniam major
+        numerus in se totum habet minorem ac insuper ejus octavam partem.</p>
       <p class="textFig" xml:id="GALLIB0004">8  9 <lb/></p>
       <p xml:id="GALLIB0005">Verum, quia de paucis istis numeris nullas habere possumus continuas
         sexquioctavas, eo quod octavam novenarius ille partem non habeat aliquotam, octo prius in se
@@ -84,8 +95,8 @@
         continuam, cujus novem octava pars est et differentia. Non aliter, quam si tono tonum
         adjicis quod saepe fieri solet in musica:</p>
       <p class="textFig" xml:id="GALLIB0008">64  72  81 <lb/></p>
-      <p xml:id="GALLIB0009">Cum autem numerus sexaginta quatuor tertiam non habet partem aliquotam, nec
-        habere possit per consequens proportionem cum sequenti numero sexquitertiam, tres illos
+      <p xml:id="GALLIB0009">Cum autem numerus sexaginta quatuor tertiam non habet partem aliquotam,
+        nec habere possit per consequens proportionem cum sequenti numero sexquitertiam, tres illos
         numeros necesse est multiplicari per ternarium, quum aliquotae partes sunt, quae suum
         aliquotiens sumptae reddunt precise totum nec plus nec minus. Tunc numerus sexaginta quatuor
         aliquota tertia pars erit ejus numeri, quem triplicatus ipse genuit, hoc est centum et
@@ -100,7 +111,8 @@
       <p xml:id="GALLIB0011">Nil esse tonos in musicis ac minora semitonia, quam sexquioctavae seu
         minores sexquioctavam partes in arithmetica.</p>
       <p xml:id="GALLIB0012">Cernis quod superius duos tantummodo de tribus illis numeris habere
-        potuisti sexquioctavas tanquam duos de tribus vocibus in musica tonos, quibus <pb n="[411]"/>tamen per ternarium multiplicatis horum quinque primus secundus ac tertius surrexere
+        potuisti sexquioctavas tanquam duos de tribus vocibus in musica tonos, quibus <pb n="[411]"
+        />tamen per ternarium multiplicatis horum quinque primus secundus ac tertius surrexere
         majores, quorum videlicet illi tertiae sunt et aliquotae partes. Ter namque
         sexagintaquatuor, ut ante monstratum est, centum et nonaginta duo faciunt, sicut ter
         septuaginta duo ducenta cum sexdecim et ter octaginta unum ducenta cum quadraginta tribus
@@ -166,8 +178,8 @@
         inter duos tonos procreata de quatuor sonis diatessaron consonantia, quam partes illas
         minorum non aliquotas, quae continuo cadunt inter duas sexquioctavas genita de quatuor
         numerorum summis proportione sexquitertia.</p>
-      <p xml:id="GALLIB0013">Quicquid agant toni partes in corda divisa, totum esse de sexquioctavarum
-        nature.</p>
+      <p xml:id="GALLIB0013">Quicquid agant toni partes in corda divisa, totum esse de
+        sexquioctavarum nature.</p>
       <p xml:id="GALLIB0014">Verum quid amplius dicam de stupenda numerorum atque sonorum natura.
         Dividit tonum evidenter una vox cadens inter duos sonos musicos, in corda divisa partitur et
         in duo sexquioctavam proportionem unus numerus cadens inter duas numerorum summas in
@@ -201,7 +213,8 @@
         nequat, multiplicare per octo necesse est tertium illum numerum ac de ducentis quadraginta
         tribus mille nonagenta quadraginta quatuor creari:</p>
       <p class="textFig" xml:id="GALLIB0015">1944 <lb/></p>
-      <p xml:id="GALLIB0016">Quo facto mox et quartus ille per octo multiplicetur numerus, ut fiat:</p>
+      <p xml:id="GALLIB0016">Quo facto mox et quartus ille per octo multiplicetur numerus, ut
+        fiat:</p>
       <p class="textFig" xml:id="GALLIB0017">2048 <br/></p>
       <p xml:id="GALLIB0018">summa multiplicationis, et sint invicem isti duo majores numerii, sicut
         prus fuerant ducenta quinquaginta sex cum ducentis quadraginta tribus:</p>
@@ -210,27 +223,27 @@
         numerorum extiterant distantia, jam octies in se ductas et centum et quatuor effectas esse
         duorum istorum differentiam:</p>
       <p class="textFig" xml:id="GALLIB0021">104 <br/></p>
-      <p xml:id="GALLIB0022">Utque scias, tres istos numeros, etsi mutaverint summam, non tamen mutasse
-        naturum, sicut tresdecim ac quartum illum numerum quonammodo relaxati declinabant, ac more
-        cantantis ad tertium pariter contrahi poterant, sic et differentia praesto cadit in illam
-        majorem summam, minori mox aggregata, quae tamen e majori subtracta concitus ad minorem se
-        quasi curtata corda retrahit. Aggrega nunc illi primo translato numero suam octavam partem,
-        hoc est, ducenta quadraginta tria, quibus ipse totus est compactus, et habebis duobus
-        millibus centum et octoginta septem ad mille nonagenta quadraginta quatuor compartis
-        sexquioctavam proportionem, quam secundus ille traductus numerus scindet in duas partes non
-        tamen aequales. Nam praescriptus centum et quatuor numerus minor erit inter primum et
-        secundum differentia, centum vero cum trigintanovem differe facient secundum ac tertium
-        majori distantia. Porro totam hujus diversae sexquioctavae partium gignunt inaequalitatem
-        triginta quinque unitates, id scilicet quod superest subtracta minori de majori differentia
-        prout in hac liquet descriptione clara:</p>
-      <p xml:id="GALLIB0023">[CSIV:413; text: Sesquioctavae differentia. 243, Differentia. 1944, 104,
-        2048, 139, 2187, 35, Differentiarum. Proportio sesquioctava.] <figure>
+      <p xml:id="GALLIB0022">Utque scias, tres istos numeros, etsi mutaverint summam, non tamen
+        mutasse naturum, sicut tresdecim ac quartum illum numerum quonammodo relaxati declinabant,
+        ac more cantantis ad tertium pariter contrahi poterant, sic et differentia praesto cadit in
+        illam majorem summam, minori mox aggregata, quae tamen e majori subtracta concitus ad
+        minorem se quasi curtata corda retrahit. Aggrega nunc illi primo translato numero suam
+        octavam partem, hoc est, ducenta quadraginta tria, quibus ipse totus est compactus, et
+        habebis duobus millibus centum et octoginta septem ad mille nonagenta quadraginta quatuor
+        compartis sexquioctavam proportionem, quam secundus ille traductus numerus scindet in duas
+        partes non tamen aequales. Nam praescriptus centum et quatuor numerus minor erit inter
+        primum et secundum differentia, centum vero cum trigintanovem differe facient secundum ac
+        tertium majori distantia. Porro totam hujus diversae sexquioctavae partium gignunt
+        inaequalitatem triginta quinque unitates, id scilicet quod superest subtracta minori de
+        majori differentia prout in hac liquet descriptione clara:</p>
+      <p xml:id="GALLIB0023">[CSIV:413; text: Sesquioctavae differentia. 243, Differentia. 1944,
+        104, 2048, 139, 2187, 35, Differentiarum. Proportio sesquioctava.] <figure>
           <graphic url="/images/GALLIB_01GF.gif"/>
         </figure></p>
       <p xml:id="GALLIB0024">Dimensam quantitatem continuam indicari debere per discretam in
         arithmetica.</p>
-      <p xml:id="GALLIB0025">Attende nunc, queso, lector, et ad laudem ejus, qui cuncta condidit, hoc
-        naturae magnum admirare secretum. Hanc namque divisam in primis numeris exquisivi
+      <p xml:id="GALLIB0025">Attende nunc, queso, lector, et ad laudem ejus, qui cuncta condidit,
+        hoc naturae magnum admirare secretum. Hanc namque divisam in primis numeris exquisivi
         sexquioctavam, quae quicquid ante dixerim <pb n="[414]"/>probet ad exemplum, sitque nobis
         pro suis paribus singulare monimentum. Habes ibi tres numeros nigro colore distinctos,
         querum primus constat ex ducentis quadraginta tribus octies in se ductis, tertius autem ex
@@ -273,22 +286,22 @@
         secundum sicut hic multiplicasti tertium de tibi istis numeris duas, ut illuc sexquioctavas
         efficis:</p>
       <p class="textFig" xml:id="GALLIB0026">1536  1728  1944 <lb/></p>
-      <p xml:id="GALLIB0027">Cui tertio si centum et quatuor aggreges, ubi totam esse minoris semitonii
-        vides naturam, secundum <pb n="[415]"/>de tribus, qui sexquioctavam dividit habes hujusmodi
-        numerum:</p>
+      <p xml:id="GALLIB0027">Cui tertio si centum et quatuor aggreges, ubi totam esse minoris
+        semitonii vides naturam, secundum <pb n="[415]"/>de tribus, qui sexquioctavam dividit habes
+        hujusmodi numerum:</p>
       <p class="textFig" xml:id="GALLIB0028">2048 <br/></p>
-      <p xml:id="GALLIB0029">primum ut puta de tribus istis in se semel habens ac ejus tertiam partem.
-        Quod si centum ac triginta novem, quae nobis econtra majus representant semitonium, idem
-        aggregare numero velis, nec ipsum, quem prius genuere centum et quatuor generabunt numerum,
-        nec ipsam proportionem sexquitertiam, in qua cadit musicalis consonantia dyatessaron imo
-        magis adducent genus tertium inaequalitatis, in quo nihil unquam cecidit musicale consonum.
-        Jungitur nihilominus frequenter majus et minus semitonium in monocordo, quae simil faciunt
-        tonum, quasi jungas hic centum et quatuor atque centum ac triginta novem habes ilico
-        suprascriptam illam totius divisae sexquioctavae differentiam. Hoc autem idcirco scripserim
-        invenire volens, totam in numeris consistere musicam, nec prius homines cecinisse, quam
-        dinumerasse, qua quidem ratione numeri probantur invicem magis proportionati discretam
-        quantitatem calculando, eadem et soni plus et minus concordari simul judicantur quantitatem
-        continuam partiendo.</p>
+      <p xml:id="GALLIB0029">primum ut puta de tribus istis in se semel habens ac ejus tertiam
+        partem. Quod si centum ac triginta novem, quae nobis econtra majus representant semitonium,
+        idem aggregare numero velis, nec ipsum, quem prius genuere centum et quatuor generabunt
+        numerum, nec ipsam proportionem sexquitertiam, in qua cadit musicalis consonantia
+        dyatessaron imo magis adducent genus tertium inaequalitatis, in quo nihil unquam cecidit
+        musicale consonum. Jungitur nihilominus frequenter majus et minus semitonium in monocordo,
+        quae simil faciunt tonum, quasi jungas hic centum et quatuor atque centum ac triginta novem
+        habes ilico suprascriptam illam totius divisae sexquioctavae differentiam. Hoc autem idcirco
+        scripserim invenire volens, totam in numeris consistere musicam, nec prius homines
+        cecinisse, quam dinumerasse, qua quidem ratione numeri probantur invicem magis proportionati
+        discretam quantitatem calculando, eadem et soni plus et minus concordari simul judicantur
+        quantitatem continuam partiendo.</p>
       <p xml:id="GALLIB0030">Cur phylosophi magis elegerunt e novenario numeros regulatis vocibus
         appropriatis quam ex octonario.</p>
       <p xml:id="GALLIB0031">En paucos superius non parvos neque magnos quamquam ab octonario
@@ -318,7 +331,8 @@
         unitate remotae. Nec alia de causa nervus intensus cordaque divisa quanto breviores tanto
         sonos emittunt acutiores hi, quia multum de continuo possident et illi, quia parum jam de
         toto continent, nisi quod numeri quanto plus ab unitate distracti majores, quanto vero plus
-        illi propinqunt minores sunt, magisque quodammodo contracti. Principium enim unitas <pb n="[416]"/>est in arithmetica, punctum autem in geometria, sicut et unisonusin musica.
+        illi propinqunt minores sunt, magisque quodammodo contracti. Principium enim unitas <pb
+          n="[416]"/>est in arithmetica, punctum autem in geometria, sicut et unisonusin musica.
         Quidnam ergo nervus longus aut longa corda nisi quaedam continua quantitas a suo principio
         velut numeri magni sonique graves plus et minus remotae? Quidve corda brevis ac divisa
         nervusque curtatus, nisi quantitas eadem versus suam originem, ut parvi numeri sonique
@@ -365,11 +379,11 @@
         Sesquialtera.]</p>
       <p xml:id="GALLIB0033">De sexdecim numeris quam pulcheriter sexdecim sonis regularibus
         appropriatis.</p>
-      <p xml:id="GALLIB0034">Hujus autem octavae duplae partes quisque suas infra se distinguentis et ut
-        vides a primo novenario de dupla in duplam procedentis octavum elegere philosophi inumerum
-        esse principium a natura si quidem hac dote mirabili dotatum, ut perfectissimam octavam
-        illam duplam non solum ipse compleat, sed et infinitos, cum his, qui sequuntur, alios sue
-        naturae numeros generare valeat, ut scilicet, cum videris cursu naturali cadere
+      <p xml:id="GALLIB0034">Hujus autem octavae duplae partes quisque suas infra se distinguentis
+        et ut vides a primo novenario de dupla in duplam procedentis octavum elegere philosophi
+        inumerum esse principium a natura si quidem hac dote mirabili dotatum, ut perfectissimam
+        octavam illam duplam non solum ipse compleat, sed et infinitos, cum his, qui sequuntur,
+        alios sue naturae numeros generare valeat, ut scilicet, cum videris cursu naturali cadere
         sexquioctavas, ubicunque tonus resonat, ac ubi semitonium majus aut minus jam satis
         demonstratas illarum particulas, ubi vero diatessaron sexquitertias, ubi diapente
         sexquialteras, et ubi diapason duplas, de his quaecunque diximus hesitare non possis. Sit
@@ -381,9 +395,9 @@
         numerum, qui sequitur, duorum millium cum quinquagentis nonaginta duobus habes ab eo, de quo
         natus est una sexquiocta distant valet, sicut G distat acutum ab A superacuto per tonum:</p>
       <p class="textFig" xml:id="GALLIB0037">G  2592 <br/></p>
-      <p xml:id="GALLIB0038">Huic quoque sic faciens sequentem gignis numerum duo millia nonagenta cum
-        sexdecim, ab illo scilicet, a quo procedit, iterum una sexquioctava differentem, ut est uno
-        tono distans a praedicto G sequens F acutum:</p>
+      <p xml:id="GALLIB0038">Huic quoque sic faciens sequentem gignis numerum duo millia nonagenta
+        cum sexdecim, ab illo scilicet, a quo procedit, iterum una sexquioctava differentem, ut est
+        uno tono distans a praedicto G sequens F acutum:</p>
       <p class="textFig" xml:id="GALLIB0039">F  2916 <lb/></p>
       <p xml:id="GALLIB0040">At quia sicuti tres toni contigui discordant in musica, sic et tres
         sexquioctavae nec in multiplici <pb n="[418]"/>nec in superparticulari genere cadunt,
@@ -431,25 +445,26 @@
         octoginta et triginta duobus ad C suprascriptum sexquialteram habentem, <pb n="[419]"/>ad b
         quoque rotondo signatum sexquitertiam et sexquioctavam ad G sibi proximum:</p>
       <p class="textFig" xml:id="GALLIB0055">F  5832 <lb/></p>
-      <p xml:id="GALLIB0056">E quoque numerus primus E numerum secundum in dupla producit, sex millia
-        centum et quadraginta quatuor, ad [sqb] quadro signatum sexquialterum, ad A vero secundum
-        sexquitertiam, et ad F sibi proximum parvam tricentarum ac duodecim unitatum differentiam
-        habentem:</p>
+      <p xml:id="GALLIB0056">E quoque numerus primus E numerum secundum in dupla producit, sex
+        millia centum et quadraginta quatuor, ad [sqb] quadro signatum sexquialterum, ad A vero
+        secundum sexquitertiam, et ad F sibi proximum parvam tricentarum ac duodecim unitatum
+        differentiam habentem:</p>
       <p class="textFig" xml:id="GALLIB0057">E  6144 <br/></p>
-      <p xml:id="GALLIB0058">D necnon primus numerus D secundum duplicatus extruit, sex millia videlicet
-        ac nonaginta cum duodecim, ad A primum utique triplam, et ad A numerum secundum
+      <p xml:id="GALLIB0058">D necnon primus numerus D secundum duplicatus extruit, sex millia
+        videlicet ac nonaginta cum duodecim, ad A primum utique triplam, et ad A numerum secundum
         sexquialteram efficientem, ad G vero signatum ibi sexquitertiam, et ad E sibi proximum in
         sexquioctavam resultantem:</p>
       <p class="textFig" xml:id="GALLIB0059">D  6912 <lb/></p>
-      <p xml:id="GALLIB0060">Sic et C numerus primus C numerum secundum per duplam surgere cogit, septem
-        millia septingenta septuaginta sex, ad G primum triplam et ad G secundum sexquialteram et ad
-        F sexquitertiam, ad D vero sibi proximum sexquioctavam habentem:</p>
+      <p xml:id="GALLIB0060">Sic et C numerus primus C numerum secundum per duplam surgere cogit,
+        septem millia septingenta septuaginta sex, ad G primum triplam et ad G secundum
+        sexquialteram et ad F sexquitertiam, ad D vero sibi proximum sexquioctavam habentem:</p>
       <p class="textFig" xml:id="GALLIB0061">C  7776 <br/></p>
-      <p xml:id="GALLIB0062">Primus etiam [sqb] quadro signatus numerus secundam in duplam [sqb] quadro
-        notatum procreat numerum, octo millia si quidem centum cum nonaginta duobus, ad F utique
-        numerum prope sexquialteram, sicut nec in musica diapente perfectum explere non capacem, sed
-        E signatum, qui sequitur, in sexquitertia comprehendentem, atque parvam quadringentarum et
-        sexdecim unitatum inter se relinquentem et C sibi proximum differentiam:</p>
+      <p xml:id="GALLIB0062">Primus etiam [sqb] quadro signatus numerus secundam in duplam [sqb]
+        quadro notatum procreat numerum, octo millia si quidem centum cum nonaginta duobus, ad F
+        utique numerum prope sexquialteram, sicut nec in musica diapente perfectum explere non
+        capacem, sed E signatum, qui sequitur, in sexquitertia comprehendentem, atque parvam
+        quadringentarum et sexdecim unitatum inter se relinquentem et C sibi proximum
+        differentiam:</p>
       <p class="textFig" xml:id="GALLIB0063">[sqb]  8192 <lb/></p>
       <p xml:id="GALLIB0064">A denique secundus numerus A tertium gignit duplicatus numerum, qui
         quadruplam implet ad A primum proportionem, in novem millia scilicet cum ducentis ac
@@ -515,9 +530,9 @@
         finem faciens, quo nullam, lector, inter sonos ac numeros esse probes dissimilitudinem,
         excepto quod hi silent, nec aure nec mente captantur, illi vero sonant et consonant
         multumque pruitum humanis auribus praebere solent.</p>
-      <p xml:id="GALLIB0070">Explicit liber notabilis musicae venerandi viri Domini Johannis Gallici,
-        multi inter musicos nominis: cujus ego Nicolaus Burtius, primum discipulus, tunc in ea
-        delectans, totum hunc propria manu ex eo quem ediderat, transcripsi ac notavi.</p>
+      <p xml:id="GALLIB0070">Explicit liber notabilis musicae venerandi viri Domini Johannis
+        Gallici, multi inter musicos nominis: cujus ego Nicolaus Burtius, primum discipulus, tunc in
+        ea delectans, totum hunc propria manu ex eo quem ediderat, transcripsi ac notavi.</p>
       <p xml:id="GALLIB0071">Obiit autem vir iste anno Domini MCCCCLXXIIJ. Cujus animam paradisus
         possidet, corpus vero Parma terra nobilis.</p>
     </body>

@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Ars musice</title>
         <title type="abbrev">WFANON2</title>
-        <author>Anonymous</author>
-        <date notBefore="1100" notAfter="1199">12th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Bradley Jon Tucker</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1993</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1993">1993</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Johannes Wolf, "Anonymi cujusdam Codex Basiliensis,"
             <emph>Vierteljahresschrift für Musikwissenschaft</emph> 9 (1893), 410–12. </bibl>
@@ -47,8 +57,8 @@
         hypophrygius, hypolydius, I, II, III, IIII, V, VI, VII, VIII, Octo modi musice matris] <figure>
           <graphic url="/images/WFANON2_01GF.gif"/>
         </figure></p>
-      <p class="textFig" xml:id="WFANON20002">*     *     *     *     *     *     *     *     *     *     *
-        <lb/></p>
+      <p class="textFig" xml:id="WFANON20002"
+        >*     *     *     *     *     *     *     *     *     *     * <lb/></p>
       <p xml:id="WFANON20003">
         <pb n="[411]"/>Quatuor ecce tropi natura matre creati</p>
       <p xml:id="WFANON20004">Quatuor ut reges intra sua regna sedentes.</p>

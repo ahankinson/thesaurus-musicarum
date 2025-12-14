@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Musica practica, prima pars, tractatus primus</title>
         <title type="abbrev">RAMMP1T1</title>
-        <author>Ramus de Pareia, Bartholomeus</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Ramus de Pareia, Bartholomeus</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Jingfa Sun</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter Slemon</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1994</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1994">1994</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Johannes Wolf, <emph>Musica practica Bartolomei Rami de Pareia
             Bononiae, impressa opere et industria ac expensis magistri Baltasaris de Hiriberia
@@ -48,14 +58,14 @@
         sterilior, doctis vero et altius intuentibus quo subtilior probabiliorque est eo firmior
         meliorque videri, quo fit, ut, sicut ab indoctis neglecta semper fuerit et sit, ita apud
         peritiores in magno pretio semper habita sit et habeatur.</p>
-      <p xml:id="RAMMP1T10003">Unde nos, qui omnibus prodesse et aliquid in communem utilitatem conferre
-        studemus, hoc brevi compendio tribus libellis distincto prolixitatem eius in angustum,
-        asperitatem in planum, obscuritatem in lucem reducentes nihilque quod ad artem usumque
-        faciat praetermittentes et cantoribus quos practicos et speculantibus quos theoricos graece
-        dicimus opus admodum utile construximus, ex quo, ubi id legerint intellexerintque, plurimum
-        et honoris et voluptatis se consecuturos esse perspicient fatebunturque hac nostra nova
-        speciosissimae artis forma mirifice delectati nos ad communem omnium eruditionem praesenti
-        hoc labore plurimum adiumenti contulisse.</p>
+      <p xml:id="RAMMP1T10003">Unde nos, qui omnibus prodesse et aliquid in communem utilitatem
+        conferre studemus, hoc brevi compendio tribus libellis distincto prolixitatem eius in
+        angustum, asperitatem in planum, obscuritatem in lucem reducentes nihilque quod ad artem
+        usumque faciat praetermittentes et cantoribus quos practicos et speculantibus quos theoricos
+        graece dicimus opus admodum utile construximus, ex quo, ubi id legerint intellexerintque,
+        plurimum et honoris et voluptatis se consecuturos esse perspicient fatebunturque hac nostra
+        nova speciosissimae artis forma mirifice delectati nos ad communem omnium eruditionem
+        praesenti hoc labore plurimum adiumenti contulisse.</p>
       <p xml:id="RAMMP1T10004">Hinc quasi ex quodam redundanti publicoque fonte quicquid ego longo
         tempore multis vigiliis et assiduis lucubrationibus ex probatissimorum auctorum lectione et
         clarissimorum praeceptorum disciplina colligere potui, perquam celerrimo facillimoque studio
@@ -63,7 +73,8 @@
       <p xml:id="RAMMP1T10005">Nemo philosophiae maiestatem, nemo arithmeticae perplexitatem, nemo
         proportionum formidet anfractus. Hic enim quilibet, etsi usquequaque sit rudis, modo
         disciplinae accommodare velit auditum et rationis omnino non sit expers, in praestantissimum
-        peritissimumque musicum potest evadere. Usque adeo namque intelligentiae <pb n="[2]"/>servire studuimus, eam orationis temperiem stilique moderantiam servavimus, ut in his
+        peritissimumque musicum potest evadere. Usque adeo namque intelligentiae <pb n="[2]"
+        />servire studuimus, eam orationis temperiem stilique moderantiam servavimus, ut in his
         legendis peritiores abunde recreari, semidocti plurimum proficere, omnino indocti
         blandissime queant erudiri. Non philosophos tantum aut mathematicos instituendos hic
         suscipimus; quilibet modo prima grammaticae rudimenta sit edoctus, nostra haec intelliget.
@@ -96,29 +107,30 @@
         utentibus imputandum est. Si enim illi, quorum supra meminimus, probatissimi musici ad vitam
         revocarentur, musicam nostri temporis a se inventam negarent: usque adeo inepta, inconcinna
         dissipataque quorundam cantorum depravatione reddita est.</p>
-      <p xml:id="RAMMP1T10010">His igitur rationibus moti praesens opus edidimus sperantes, etsi sint
-        fortasse aliqui nunc viventes, qui livore stimulati detrahere quam proficere malint, futuros
-        etiam apud posteritatem quam plures, qui sepulto invidiae veneno nostrum laborem laudent et
-        operi nostro virtutis amore compulsi favorem adhibeant. Operis igitur sit ista partitio. In
-        primo libro subtilem practicam ponemus, in secundo theoricam accurate discutiemus, in tertio
-        musicam semimathematicam, semiphysicam congrua ratione probabimus. Primum igitur, quid
-        musica sit quidve harmonia, disseramus.</p>
-      <p xml:id="RAMMP1T10011">(pagina 3) Finito prologo incipit tractatus, ubi primo quid sit musica
-        quidve harmonia disputatur.</p>
+      <p xml:id="RAMMP1T10010">His igitur rationibus moti praesens opus edidimus sperantes, etsi
+        sint fortasse aliqui nunc viventes, qui livore stimulati detrahere quam proficere malint,
+        futuros etiam apud posteritatem quam plures, qui sepulto invidiae veneno nostrum laborem
+        laudent et operi nostro virtutis amore compulsi favorem adhibeant. Operis igitur sit ista
+        partitio. In primo libro subtilem practicam ponemus, in secundo theoricam accurate
+        discutiemus, in tertio musicam semimathematicam, semiphysicam congrua ratione probabimus.
+        Primum igitur, quid musica sit quidve harmonia, disseramus.</p>
+      <p xml:id="RAMMP1T10011">(pagina 3) Finito prologo incipit tractatus, ubi primo quid sit
+        musica quidve harmonia disputatur.</p>
       <p xml:id="RAMMP1T10012">Capitulum primum.</p>
-      <p xml:id="RAMMP1T10013">Harmoniam atque musicam idem esse multi credunt, verum nos longe aliter
-        sentimus. Ex quorundam enim musicorum sententiis longa investigatione collegimus harmoniam
-        concordium vocum esse commixtionem, musicam vero ipsius concordiae rationem sive perpensam
-        et subtilem cum ratione indaginem. Musica autem triplex est; nam alia mundana, alia humana,
-        alia vero dicitur instrumentalis. Mundanam atque humanam, quoniam speculativae theoricaeque
-        sunt, in secundo libro tertioque pertractabimus; tertia autem, quae tota circa instrumenta
-        versatur, consideratio priorem sibi vendicabit locum.</p>
+      <p xml:id="RAMMP1T10013">Harmoniam atque musicam idem esse multi credunt, verum nos longe
+        aliter sentimus. Ex quorundam enim musicorum sententiis longa investigatione collegimus
+        harmoniam concordium vocum esse commixtionem, musicam vero ipsius concordiae rationem sive
+        perpensam et subtilem cum ratione indaginem. Musica autem triplex est; nam alia mundana,
+        alia humana, alia vero dicitur instrumentalis. Mundanam atque humanam, quoniam speculativae
+        theoricaeque sunt, in secundo libro tertioque pertractabimus; tertia autem, quae tota circa
+        instrumenta versatur, consideratio priorem sibi vendicabit locum.</p>
       <p xml:id="RAMMP1T10014">Instrumentum duplex est: aliud enim natura, aliud vero arte constat.
         Naturale instrumentum vox hominis est, quod naturaliter vocem elevare deprimereque possumus.
         Artis instrumentum dicitur, quod arte fiat non natura, ut monochordum et cithara et cetera,
         quae cantilenae famulantur. Circa quorum accuratissimam practicae considerationem tria
         perscrutanda nobis occurrunt: vox scilicet, sonus atque numerus sive mensura. Vox in
-        proposito abusive pro hominum et instrumentorum sono sumitur, ut Aristotelis sententia <pb n="[4]"/>est in libro de anima: vox est sonus animati tantum. Sed vox etiam inanimatorum
+        proposito abusive pro hominum et instrumentorum sono sumitur, ut Aristotelis sententia <pb
+          n="[4]"/>est in libro de anima: vox est sonus animati tantum. Sed vox etiam inanimatorum
         est, ut instrumentorum musicorum, solum secundum similitudinem, quia discrete sonant. Sonus
         vero non simpliciter sed pro sono duarum aut plurium chordarum simul percussarum aut hominum
         duorum pluriumve simul canentium in praesentiarum accipitur.</p>
@@ -127,26 +139,26 @@
         planus dicitur, secunda contrapunctus, quam ab antiquis organizationem dictam fuisse
         constat; at tertia cantus figuratus, quae a plerisque organi cantus appellatur. Secundum
         hanc igitur triplicem considerationem compendim hoc nostrum dividemus.</p>
-      <p xml:id="RAMMP1T10016">In prima consideratione tria praecipue procurabimus. Primo instrumento
-        per artem composito rectas eius divisiones erudiendis ad sensum monstrabimus et chordarum
-        secundum divisiones percussarum sonitum, ut memoriae mandent, admonebimus. Secundo organum
-        naturale per arsim et thesim idest per elevationem et depositionem sive per intensionem et
-        remissionem (pagina 4) cum artis instrumento copulantes psallere concorditer assuefaciemus,
-        quousque sine eo legitime psallere didicerint. Tertio vero odas vel notulas, per quas omnis
-        cantus dignosci, cantari componique possit, in plano designabimus.</p>
+      <p xml:id="RAMMP1T10016">In prima consideratione tria praecipue procurabimus. Primo
+        instrumento per artem composito rectas eius divisiones erudiendis ad sensum monstrabimus et
+        chordarum secundum divisiones percussarum sonitum, ut memoriae mandent, admonebimus. Secundo
+        organum naturale per arsim et thesim idest per elevationem et depositionem sive per
+        intensionem et remissionem (pagina 4) cum artis instrumento copulantes psallere concorditer
+        assuefaciemus, quousque sine eo legitime psallere didicerint. Tertio vero odas vel notulas,
+        per quas omnis cantus dignosci, cantari componique possit, in plano designabimus.</p>
       <p xml:id="RAMMP1T10017">Verum quia instrumentorum arte constantium diversa sunt genera, ne
         varietate disciplina fiat obscurior, unam chordam dividendi modum et regulam dabimus, unde
         monochordi a Graecis nomen assumptum est. Postea vero per alia transeuntes ad intentum finem
         deveniemus.</p>
       <p xml:id="RAMMP1T10018">Capitulum secundum.</p>
       <p xml:id="RAMMP1T10019">Monochordi elementaris divisio seu compositio.</p>
-      <p xml:id="RAMMP1T10020">Regulare monochordum numeris et mensura subtiliter a Boetio dividitur.
-        Sed illud, sicut theoricis utile iocundumque est, ita cantoribus laboriosum intellectuque
-        difficile. Verum quia utrisque satisfacere polliciti sumus, facillimam regularis monochordi
-        divisionem <pb n="[5]"/>reddemus, quam non modico labore nemo nos arbitretur invenisse,
-        quippe qui illam multis vigiliis antiquorum praecepta lectitantes et neotericorum vitantes
-        errorem cum sudore repperimus. Et eam quilibet vix dum etiam mediocriter eruditus facile
-        intelligere poterit.</p>
+      <p xml:id="RAMMP1T10020">Regulare monochordum numeris et mensura subtiliter a Boetio
+        dividitur. Sed illud, sicut theoricis utile iocundumque est, ita cantoribus laboriosum
+        intellectuque difficile. Verum quia utrisque satisfacere polliciti sumus, facillimam
+        regularis monochordi divisionem <pb n="[5]"/>reddemus, quam non modico labore nemo nos
+        arbitretur invenisse, quippe qui illam multis vigiliis antiquorum praecepta lectitantes et
+        neotericorum vitantes errorem cum sudore repperimus. Et eam quilibet vix dum etiam
+        mediocriter eruditus facile intelligere poterit.</p>
       <p xml:id="RAMMP1T10021">Sumatur itaque cuiusvis longitudinis nervus sive chorda, quae super
         lignum aliquid habens concavitatis extendatur; locus autem extremus, cui nervus alligatur,
         puncto a signetur. Alius locus e regione procul positus, quo nervus trahitur et torquetur,
@@ -166,8 +178,8 @@
         ponemus; sed inter e et [sqb] quadrum aequalibus utrimque spatiis g situetur. Si autem g q
         in duo aequalia partiamur, o littera signabitur sicque totum monochordum legitima partitione
         divisum est, ut in subiecta figura cognoscis [figura 1].</p>
-      <p xml:id="RAMMP1T10022">[Ramos, Musica, 5; text: Figura 1. Ligatura chordae, hic torquetur nervus
-        sive chorda extensa. a b c d e f g h i [sqb] k l m n o p q] <figure>
+      <p xml:id="RAMMP1T10022">[Ramos, Musica, 5; text: Figura 1. Ligatura chordae, hic torquetur
+        nervus sive chorda extensa. a b c d e f g h i [sqb] k l m n o p q] <figure>
           <graphic url="/images/RAMMP_01GF.gif"/>
         </figure></p>
       <p xml:id="RAMMP1T10023">
@@ -223,20 +235,21 @@
         hypaton, lichanos hypaton; et sequitur: hypate meson, parhypate meson, lichanos meson, mese,
         trite synemmenon, paranete synemmenon, nete synemmenon coniunctim. Sed a mese disiungitur
         per tonum paramese et sequitur: trite diezeugmenon, paranete diezeugmenon, nete
-        diezeugmenon, trite hyperboleon, paranete hyperboleon, nete hyperboleon. Sed <pb n="[8]"/>quoniam mese non erat medio loco posita, cum quatuordecim essent nervi, superadditus est
+        diezeugmenon, trite hyperboleon, paranete hyperboleon, nete hyperboleon. Sed <pb n="[8]"
+        />quoniam mese non erat medio loco posita, cum quatuordecim essent nervi, superadditus est
         nervus, qui a Graecis proslambanomenos vel prosodos dicitur, a nostris vero acquisitus vel
         assumptus vel accessus nuncupatur.</p>
-      <p xml:id="RAMMP1T10029">Cuilibet enim tetrachordo si tonus (pagina 7) addatur, species efficitur,
-        quae diapente, quia vocum quinque est, vocatur aut pentachordum, quia chordarum quinque,
-        intervallorum quatuor, tonorum trium cum semitonio est, ut a e. Sed a diapente semitonio
-        subtracto tritonus efficitur, ut f [sqb]. Post diapente priores usque ad diatessaron
-        replicantur hoc modo: diapente cum semitonio, ut a f, diapente cum tono ut c h, diapente cum
-        semiditono ut a g, diapente cum ditono ut c [sqb] quadrum. Sed diapente iuncta cum
-        diatessaron componit speciem, quae diapason dicitur, quod est per totum vel de toto latine,
-        quoniam omnis concentus, quam symphoniam Graeci dicunt, et omnes harmoniae differentiae
-        intra ipsam continentur. Propterea ab antiquis recte dictum est post diapason reiterationem
-        semper esse. Septem autem intermedia discrimen aliquod habent; unde illud sapienter a
-        Virgilio in VI. Aeneidos positum est:</p>
+      <p xml:id="RAMMP1T10029">Cuilibet enim tetrachordo si tonus (pagina 7) addatur, species
+        efficitur, quae diapente, quia vocum quinque est, vocatur aut pentachordum, quia chordarum
+        quinque, intervallorum quatuor, tonorum trium cum semitonio est, ut a e. Sed a diapente
+        semitonio subtracto tritonus efficitur, ut f [sqb]. Post diapente priores usque ad
+        diatessaron replicantur hoc modo: diapente cum semitonio, ut a f, diapente cum tono ut c h,
+        diapente cum semiditono ut a g, diapente cum ditono ut c [sqb] quadrum. Sed diapente iuncta
+        cum diatessaron componit speciem, quae diapason dicitur, quod est per totum vel de toto
+        latine, quoniam omnis concentus, quam symphoniam Graeci dicunt, et omnes harmoniae
+        differentiae intra ipsam continentur. Propterea ab antiquis recte dictum est post diapason
+        reiterationem semper esse. Septem autem intermedia discrimen aliquod habent; unde illud
+        sapienter a Virgilio in VI. Aeneidos positum est:</p>
       <p xml:id="RAMMP1T10030">Nec non Threicius longa cum veste sacerdos</p>
       <p xml:id="RAMMP1T10031">Obloquitur numeris septem discrimina vocum.</p>
       <p xml:id="RAMMP1T10032">Octava vero similis est primae; ideo Gregorius differentes litteras
@@ -291,8 +304,8 @@
       <p xml:id="RAMMP1T10036">
         <pb n="[11]"/>Capitulum quartum.</p>
       <p xml:id="RAMMP1T10037">Figurae praecedentis ad usum cantorum subtilis applicatio.</p>
-      <p xml:id="RAMMP1T10038">Omnes quidem has litteras viginti Guido, monachus fortasse melior quam
-        musicus, tetrachordo utens dum hexachordum componit, amplexus est. Et ad huiusmodi
+      <p xml:id="RAMMP1T10038">Omnes quidem has litteras viginti Guido, monachus fortasse melior
+        quam musicus, tetrachordo utens dum hexachordum componit, amplexus est. Et ad huiusmodi
         hexachordum hac ratione compulsus est, quoniam senarius numerus a mathematicis perfectus
         dicitur, quia partes eius aliquotae simul sumptae ipsum senarium simul constituunt, scilicet
         1. 2. 3, quae simul sex componunt, et quaelibet huius hexachordi chorda a sex primis
@@ -302,8 +315,8 @@
       <p xml:id="RAMMP1T10040">Mira gestorum. Famuli tuorum.</p>
       <p xml:id="RAMMP1T10041">Solve polluti. Labii reatum.</p>
       <p xml:id="RAMMP1T10042">Sancte Johannes.</p>
-      <p xml:id="RAMMP1T10043">Unde si recte post quemlibet punctum primam syllabam inspexerimus, has
-        voces sex extrahemus: ut, re, mi, fa, sol, la; et unaquaeque a sibi propinqua omnibus
+      <p xml:id="RAMMP1T10043">Unde si recte post quemlibet punctum primam syllabam inspexerimus,
+        has voces sex extrahemus: ut, re, mi, fa, sol, la; et unaquaeque a sibi propinqua omnibus
         seriatim positis per tonum distat praeter fa, quod a mi per semitonii spatium discedit.
         Habebit igitur duos tonos sub se duosque supra. Et cum prima littera g, quae [Gamma]
         dicitur, ut syllaba posita fit totum, quod [Gamma] ut nuncupatur; et ex a littera et re
@@ -380,30 +393,30 @@
         dicimus. Et sic viginti chordas ponit in errorem decidens aliorum.</p>
       <p xml:id="RAMMP1T10049">Capitulum sextum.</p>
       <p xml:id="RAMMP1T10050">Diversorum instrumentorum brevis notitia.</p>
-      <p xml:id="RAMMP1T10051">Ostensa mediocriter regularis monochordi divisione reliquum est, ut ad
-        huius regulam vocem humanam redigentes alternatim elevare deprimereque doceamus. Hoc autem
-        melius assequemur, si prius nobis diversorum instrumentorum, dum summa sequimur vestigia
-        rerum, notitia declaretur, ut cum aliis etiam instrumentis organum naturale contemperare
-        sciamus. Horum autem aliae sunt, quae extensione nimia voces extenuant aut laxatione easdem
-        obtundunt et ad gravitatem remittunt. Sunt etiam chordae diversae et in longitudine et in
-        grossitie, ut in cithara et lyra, polychordo, clavichordo, clavicimbalo, psalterio et in
-        aliis pluribus instrumentis, quibus a posteritate nova sunt imposita vocabula et quorum in
-        secundo libro planam faciemus mentionem. Omnia tamen haec nostram divisionem fugere non
-        possunt. Etenim chordae monochordi, quae eiusdem sunt grossitiei, longitudinis et
-        extensionis, si in eadem distantia fuerint percussae, eundem necessario sonum emittent,
-        quemadmodum monochorda repperimus antiqua. Sed secundum quod propinquius vel distantius a
-        loco, ubi torquentur, unaquaeque percutitur, graviorem acutioremve secundum proportionem
-        divisionis <pb n="[16]"/>superius datam sonum emittit. Nunc autem non omnes chordae eiusdem
-        grossitiei nec eadem extensione sunt temperatae. Ideo si a memoria caderet creberrimus
-        musicae usus, consonantiarum veritatem per ista monochorda minime invenire possemus, sed ad
-        priorem divisionem recurrentes sonos connotaremus. Si quis enim istud concorditer aptare
-        voluerit, ad nostri instrumenti sonum convertatur, et illo perpenso istud cognoscet. Sunt
-        tamen aliqua ex novis monochorda unam habentia (pagina 14) diapason ad partem acutiorem isto
-        modo divisam; quoniam sex saltem chordae illo modo sunt temperatae et eiusdem sunt
-        grossitiei, et tunc acumen aut gravitatem parva vel magna chordarum intercapedo tonorum aut
-        aliarum specierum secundum commensurationem proportionis efficit. Sed quae ita sunt facta,
-        facillime temperantur, quoniam unicuique sono eiusdem diapason sua octava facillime
-        concordatur.</p>
+      <p xml:id="RAMMP1T10051">Ostensa mediocriter regularis monochordi divisione reliquum est, ut
+        ad huius regulam vocem humanam redigentes alternatim elevare deprimereque doceamus. Hoc
+        autem melius assequemur, si prius nobis diversorum instrumentorum, dum summa sequimur
+        vestigia rerum, notitia declaretur, ut cum aliis etiam instrumentis organum naturale
+        contemperare sciamus. Horum autem aliae sunt, quae extensione nimia voces extenuant aut
+        laxatione easdem obtundunt et ad gravitatem remittunt. Sunt etiam chordae diversae et in
+        longitudine et in grossitie, ut in cithara et lyra, polychordo, clavichordo, clavicimbalo,
+        psalterio et in aliis pluribus instrumentis, quibus a posteritate nova sunt imposita
+        vocabula et quorum in secundo libro planam faciemus mentionem. Omnia tamen haec nostram
+        divisionem fugere non possunt. Etenim chordae monochordi, quae eiusdem sunt grossitiei,
+        longitudinis et extensionis, si in eadem distantia fuerint percussae, eundem necessario
+        sonum emittent, quemadmodum monochorda repperimus antiqua. Sed secundum quod propinquius vel
+        distantius a loco, ubi torquentur, unaquaeque percutitur, graviorem acutioremve secundum
+        proportionem divisionis <pb n="[16]"/>superius datam sonum emittit. Nunc autem non omnes
+        chordae eiusdem grossitiei nec eadem extensione sunt temperatae. Ideo si a memoria caderet
+        creberrimus musicae usus, consonantiarum veritatem per ista monochorda minime invenire
+        possemus, sed ad priorem divisionem recurrentes sonos connotaremus. Si quis enim istud
+        concorditer aptare voluerit, ad nostri instrumenti sonum convertatur, et illo perpenso istud
+        cognoscet. Sunt tamen aliqua ex novis monochorda unam habentia (pagina 14) diapason ad
+        partem acutiorem isto modo divisam; quoniam sex saltem chordae illo modo sunt temperatae et
+        eiusdem sunt grossitiei, et tunc acumen aut gravitatem parva vel magna chordarum intercapedo
+        tonorum aut aliarum specierum secundum commensurationem proportionis efficit. Sed quae ita
+        sunt facta, facillime temperantur, quoniam unicuique sono eiusdem diapason sua octava
+        facillime concordatur.</p>
       <p xml:id="RAMMP1T10052">Sunt et alia, quorum chordae sunt contrario modo dispositae, quoniam
         quanto digitus superpositus ad locum, in quo torquetur, appropinquat, tanto sonos reddunt
         graviores et e contra, ut lyra. Sed hoc nostrae divisioni non obstat, quoniam chordarum
@@ -477,10 +490,10 @@
         Quamquam illud ex accidenti fecerit, quoniam etiam litteris omnia exempla sua demonstrat,
         sequaces vero post ita his vocibus adhaerent, ut omnino illas putent esse musicae
         necessarias, quod deridendum est.</p>
-      <p xml:id="RAMMP1T10058">Nos igitur, qui circa huius artis veritatem inquirendam lucubrando atque
-        vigilando diu laboravimus, dictiones singulis chordis imponimus novas et effectus totius
-        denotantes concentus ita, ut in graviori dicatur psal, in sequenti li, in tertia tur, in
-        quarta per, in quinta vo, in sexta ces, in septima is et in octava tas; et sic erit
+      <p xml:id="RAMMP1T10058">Nos igitur, qui circa huius artis veritatem inquirendam lucubrando
+        atque vigilando diu laboravimus, dictiones singulis chordis imponimus novas et effectus
+        totius denotantes concentus ita, ut in graviori dicatur psal, in sequenti li, in tertia tur,
+        in quarta per, in quinta vo, in sexta ces, in septima is et in octava tas; et sic erit
         conclusio syllabarum: psallitur per voces istas, quoniam octo vocibus fit totus concentus.
         Locamus autem eas a littera c gravi <pb n="[20]"/>in litteram c acutam, quoniam perfecte
         canere docent. Ideo a littera c sunt incipiendae, quia cantus ab eadem littera inchoat et
@@ -493,35 +506,35 @@
         factum est, concordare. Quod si supra diapason scandere volumus, in eodem sono psal, ut
         prius, locabimus. Manebit autem bisyllabum c scilicet tas-psal et sequitur cum d li et cum e
         tur et reliqua sicut prius.</p>
-      <p xml:id="RAMMP1T10059">Sic et in gravi faciendum est, quoniam, ut saepe diximus, post diapason
-        renascitur vox; et quotiens ultra diapason transcendimus vel descendimus, totiens vocem
-        renovamus. De his igitur octo tantum doctrina est recta. Cum ergo ad octavam sic graduatim
-        cantans pervenerit chordam, eisdem gradibus syllabisque conversis pedetentim vocem remittat
-        et tam diu hoc faciat, donec absque monochordi percussione idem facere perdidicerit. Quo
-        peracto iterum a prima ad secundam ascendat et iterum a prima ad tertiam mediate ac postea
-        immediate psallat et a tertia ad primam mediate et postea immediate descendat. Sic et a
-        prima ad quartam mediate et postea immediate tam intendendo quam remittendo ac eodem modo a
-        prima ad quintam mediate, deinde immediate in elevatione et depositione se habeat. Sed
-        quemadmodum se habuit a prima usque ad quintam in elevatione et depositione, sic a secunda
-        ad sextam, a tertia ad septimam et a quarta ad octavam iubilare procuret. In hoc autem
-        exercitio semper in quinta voce praecipimus pedem esse figendum et hoc multis de causis,
-        quae dicentur in tropis. Similiter et quando in principio usque ad octavam conscendit,
-        quiescat in quinta voce et iterum in eodem sono incipiens ad octavam pertingat ita, ut
-        dicat: psal li tur per vo, et post, intervallo quietis facto, dicat: vo ces is tas; sed in
-        remittendo tas <pb n="[21]"/>is ces vo, postmodum voce dimissa cum intervallo dicat: vo per
-        tur li psal. Deinde a prima ad eius octavam vocem intendat, scilicet psal tas et econtra
-        remittat tas psal. In his et in aliis tantum exercitium sibi quisque assumat, quantum ad
-        prompte expediteque cantandum viderit esse necessarium. Sed ne impediatur soni pronuntiatio
-        multitudine litterarum in una syllaba, volumus, ut cantantes removeant litteras, quae
-        sequuntur post vocalem, si nocumentum fecerint; at etiam p, quae praecedit s, semper
-        removeatur, quoniam hic non orthographiam sed musicam docemus.</p>
-      <p xml:id="RAMMP1T10060">Dubitare tamen aliquis posset nec immerito, qua de causa octo diversas
-        ponimus, cum tantum septem sint differentes et a nobis sic traditum et concessum fuisse
-        meminerit. Dicendum est, quod, licet maximam fore conformitatem et similitudinem inter
-        primam et octavam (A 81 pagina 18) asseruerimus, in acumine tamen et gravitate eas differre
-        numquam negavimus. (A 80 pagina 18) Igitur et differentiam inter eas et similitudinem
-        demonstravimus. Cum eandem litteram vocalem scilicet a posuimus, similitudinem et
-        conformitatem ostendimus; sed litteris aliis, hoc est s in principio aut t, differentiam
+      <p xml:id="RAMMP1T10059">Sic et in gravi faciendum est, quoniam, ut saepe diximus, post
+        diapason renascitur vox; et quotiens ultra diapason transcendimus vel descendimus, totiens
+        vocem renovamus. De his igitur octo tantum doctrina est recta. Cum ergo ad octavam sic
+        graduatim cantans pervenerit chordam, eisdem gradibus syllabisque conversis pedetentim vocem
+        remittat et tam diu hoc faciat, donec absque monochordi percussione idem facere
+        perdidicerit. Quo peracto iterum a prima ad secundam ascendat et iterum a prima ad tertiam
+        mediate ac postea immediate psallat et a tertia ad primam mediate et postea immediate
+        descendat. Sic et a prima ad quartam mediate et postea immediate tam intendendo quam
+        remittendo ac eodem modo a prima ad quintam mediate, deinde immediate in elevatione et
+        depositione se habeat. Sed quemadmodum se habuit a prima usque ad quintam in elevatione et
+        depositione, sic a secunda ad sextam, a tertia ad septimam et a quarta ad octavam iubilare
+        procuret. In hoc autem exercitio semper in quinta voce praecipimus pedem esse figendum et
+        hoc multis de causis, quae dicentur in tropis. Similiter et quando in principio usque ad
+        octavam conscendit, quiescat in quinta voce et iterum in eodem sono incipiens ad octavam
+        pertingat ita, ut dicat: psal li tur per vo, et post, intervallo quietis facto, dicat: vo
+        ces is tas; sed in remittendo tas <pb n="[21]"/>is ces vo, postmodum voce dimissa cum
+        intervallo dicat: vo per tur li psal. Deinde a prima ad eius octavam vocem intendat,
+        scilicet psal tas et econtra remittat tas psal. In his et in aliis tantum exercitium sibi
+        quisque assumat, quantum ad prompte expediteque cantandum viderit esse necessarium. Sed ne
+        impediatur soni pronuntiatio multitudine litterarum in una syllaba, volumus, ut cantantes
+        removeant litteras, quae sequuntur post vocalem, si nocumentum fecerint; at etiam p, quae
+        praecedit s, semper removeatur, quoniam hic non orthographiam sed musicam docemus.</p>
+      <p xml:id="RAMMP1T10060">Dubitare tamen aliquis posset nec immerito, qua de causa octo
+        diversas ponimus, cum tantum septem sint differentes et a nobis sic traditum et concessum
+        fuisse meminerit. Dicendum est, quod, licet maximam fore conformitatem et similitudinem
+        inter primam et octavam (A 81 pagina 18) asseruerimus, in acumine tamen et gravitate eas
+        differre numquam negavimus. (A 80 pagina 18) Igitur et differentiam inter eas et
+        similitudinem demonstravimus. Cum eandem litteram vocalem scilicet a posuimus, similitudinem
+        et conformitatem ostendimus; sed litteris aliis, hoc est s in principio aut t, differentiam
         acuminis et gravitatis patefecimus cognita eorum differentia, quoniam grave est, cum ex
         profundo pectoris attrahitur spiritus, acutum vero, cum ex oris superficie sonus emittitur.
         Quanto magis circa pulmonem profundior fit pronuntiatio, tanto sonat gravius, et quanto
@@ -541,16 +554,16 @@
         cum per illos fieri possit idem, quod per octonarium nos facimus, rectius sensisse
         videbuntur illi, quorum quidam septenarium, quidam senarium secuti sunt, quam nos, qui
         sequimur octonarium.</p>
-      <p xml:id="RAMMP1T10063">Dicendum numerum octonarium magnam in musica perfectionem et dignitatem
-        obtinere et non frustra esse sed necessario positum. Primo probatur eius perfectio per
-        comparationem. Sicut enim quidam septenarii perfectionem propterea, quod septem sunt
-        planetae, nos eadem ratione octonarii probamus perfectionem, quod septem planetis addito
-        firmamento octonarius numerus resultat. Et in illorum comparatione gravius peccatur, quia
-        quod excellentius est, scilicet octava sphaera, dimittitur. Nam dato silentio sicut Terra
-        cum elementis prima et gravior est sphaera Lunae, secunda Mercurii, tertia Veneris, quarta
-        Solis, quinta Martis, sexta Iovis, septima Saturni, octava coeli stellati. Quam
-        comparationem etiam (pagina 19) Marcus Tullius <pb n="[23]"/>facit in sexto libro, quem de
-        re publica composuit, aliis quidem verbis, sed in hac tamen sententia. Et hoc quantum ad
+      <p xml:id="RAMMP1T10063">Dicendum numerum octonarium magnam in musica perfectionem et
+        dignitatem obtinere et non frustra esse sed necessario positum. Primo probatur eius
+        perfectio per comparationem. Sicut enim quidam septenarii perfectionem propterea, quod
+        septem sunt planetae, nos eadem ratione octonarii probamus perfectionem, quod septem
+        planetis addito firmamento octonarius numerus resultat. Et in illorum comparatione gravius
+        peccatur, quia quod excellentius est, scilicet octava sphaera, dimittitur. Nam dato silentio
+        sicut Terra cum elementis prima et gravior est sphaera Lunae, secunda Mercurii, tertia
+        Veneris, quarta Solis, quinta Martis, sexta Iovis, septima Saturni, octava coeli stellati.
+        Quam comparationem etiam (pagina 19) Marcus Tullius <pb n="[23]"/>facit in sexto libro, quem
+        de re publica composuit, aliis quidem verbis, sed in hac tamen sententia. Et hoc quantum ad
         septenarium.</p>
       <p xml:id="RAMMP1T10064">Quantum vero ad senarium, quia mathematicae sunt rationes, dicemus
         mathematica corpora subiicienda esse cogitationi et non sensui. In quibus principium est

@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>De musica antica et moderna</title>
         <title type="abbrev">JOAMUS</title>
-        <author>Joannes Presbyter</author>
-        <date notBefore="1100" notAfter="1199">12th</date>
+        <author><persName>Joannes Presbyter</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>John Csonka</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Angela Mariani</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1993</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1993">1993</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Adrien de la Fage, <emph>Essais de dipthérographie musicale</emph>
           (Paris: Legouix, 1864), 393–407. </bibl>
@@ -62,7 +72,8 @@
         tonora et quomodo definitur. XXXIIJ, De majoribus partibus. XXXIV, De minimis partibus quod
         significare nomine videtur. XXXV, De nocturnis et nomina eorum officii ecclesiae et de
         antiphonis. XXXVJ, De doctoribus cantoribus. XXXVIJ, Argumentum de tonora in musica.
-        XXXVIIJ, De Archites pythagorus. XXXIX, De Empedocles grecum. XL, De tonora unde nomina <pb n="[394]"/>acceperit. XLJ, De tribus generibus. XLIJ, De tonora in nomina graecorum.
+        XXXVIIJ, De Archites pythagorus. XXXIX, De Empedocles grecum. XL, De tonora unde nomina <pb
+          n="[394]"/>acceperit. XLJ, De tribus generibus. XLIJ, De tonora in nomina graecorum.
         XLIIJ, De chordarum vocabula. XLIV, Ordo nomina chordarum XVJ. XLV, De melodia exeunt et
         inchoant. XLVI, Unde supra de blandimenta cantilenae. XLVIJ, Item versibus IX musarum.
         XLVIIJ, De armonia. XLIX, De tonis enunciatio acute vocis. L, Item de nomina vocum. LJ, De
@@ -89,36 +100,37 @@
         CIV, Item versi ejusdem acutae divisionis. CV, Item tonora per ordinem cum suis differentiis
         quos habemus honorifiae emendatos et patefactos a Domno Obdone, religioso abbate qui fuit
         peritus in arte musicae.</p>
-      <p class="textFig" xml:id="JOAMUS0003">*     *     *     *     *     *     *     *     *     *     *
-        <lb/></p>
+      <p class="textFig" xml:id="JOAMUS0003"
+        >*     *     *     *     *     *     *     *     *     *     * <lb/></p>
       <p xml:id="JOAMUS0004">
         <pb n="[395]"/>Gregorius praesul meritis et nomine dignus, et caetera.</p>
-      <p class="textFig" xml:id="JOAMUS0005">*     *     *     *     *     *     *     *     *     *     *
-        <br/></p>
+      <p class="textFig" xml:id="JOAMUS0005"
+        >*     *     *     *     *     *     *     *     *     *     * <br/></p>
       <p xml:id="JOAMUS0006">In nomine summae et individuae Trinitatis. Incipit Michrologus, id est
         brevis sermo in musica, editus a domino Widone. Gymnasio musas, et caetera.</p>
-      <p class="textFig" xml:id="JOAMUS0007">*     *     *     *     *     *     *     *     *     *     *
-        <lb/></p>
-      <p xml:id="JOAMUS0008">Caput XX, De symphoniis sex voces recipit. XXJ, De cithare. XXIJ, De primis
-        particule. XXIIJ, De imperitis cantoribus. XXIV, De brevi regula Guidonis. XXV, Item versis
-        ex omnibus musicae artis. XXVJ, De elevatione et depositione omnium sonorum. XXVIJ, De
-        ascensione et descensione cantu. XXVIIJ, De veterum modus vocum. XXIX, De percussio aeris.
-        XXX, De motione vox musicis. XXXJ, De motibus integris. XXXIJ, De omnibus cantilene XXXIIJ,
-        De unaqueque vocum. XXXIV, De quatuor modis vocum. XXXV, De differentia modorum. XXXVJ, De
-        motorum diverse species. XXXVIJ, De singulis modorum. XXXVIIJ, De regularibus formulis.
-        XXXIX, De diversis musice artis. XL, De claves musice artis. XLJ, De ammonitione neumarum.
-        XLIJ, De mensura monochordi et novam institutionem Gwidonis. XLIIJ, Interrogatio musice
-        artis et monochordi insinuat. XLIV, Item utillimum de musica breviarum. XLV, De octo tonora
-        per ordinem id est authenti vel plagalis. <pb n="[396]"/>XLVIJ, Item versi Gregori Ambrosii
-        Karoli Paulini de cantu romano vel Ambrosiano XLVIJ, De tonore et differentiis quomodo ex
-        ipsis regitur omni cantu in musice artis. XLVIIJ, De humilitate cantoribus qualis debet esse
-        in ecclesia vel alicubi. Concilia sanctorum. XLIX, De sene sanctissimo Pambo.</p>
-      <p xml:id="JOAMUS0009">[De La Fage, 396; text: A, G, F, E, D, C, u, r, m, f, s, l, UT queant laxis
-        REsonare fibris MIra gestorum FAmuli tuorum. SOLve polluti LAbii reatum Sancte Johannes.] <figure>
+      <p class="textFig" xml:id="JOAMUS0007"
+        >*     *     *     *     *     *     *     *     *     *     * <lb/></p>
+      <p xml:id="JOAMUS0008">Caput XX, De symphoniis sex voces recipit. XXJ, De cithare. XXIJ, De
+        primis particule. XXIIJ, De imperitis cantoribus. XXIV, De brevi regula Guidonis. XXV, Item
+        versis ex omnibus musicae artis. XXVJ, De elevatione et depositione omnium sonorum. XXVIJ,
+        De ascensione et descensione cantu. XXVIIJ, De veterum modus vocum. XXIX, De percussio
+        aeris. XXX, De motione vox musicis. XXXJ, De motibus integris. XXXIJ, De omnibus cantilene
+        XXXIIJ, De unaqueque vocum. XXXIV, De quatuor modis vocum. XXXV, De differentia modorum.
+        XXXVJ, De motorum diverse species. XXXVIJ, De singulis modorum. XXXVIIJ, De regularibus
+        formulis. XXXIX, De diversis musice artis. XL, De claves musice artis. XLJ, De ammonitione
+        neumarum. XLIJ, De mensura monochordi et novam institutionem Gwidonis. XLIIJ, Interrogatio
+        musice artis et monochordi insinuat. XLIV, Item utillimum de musica breviarum. XLV, De octo
+        tonora per ordinem id est authenti vel plagalis. <pb n="[396]"/>XLVIJ, Item versi Gregori
+        Ambrosii Karoli Paulini de cantu romano vel Ambrosiano XLVIJ, De tonore et differentiis
+        quomodo ex ipsis regitur omni cantu in musice artis. XLVIIJ, De humilitate cantoribus qualis
+        debet esse in ecclesia vel alicubi. Concilia sanctorum. XLIX, De sene sanctissimo Pambo.</p>
+      <p xml:id="JOAMUS0009">[De La Fage, 396; text: A, G, F, E, D, C, u, r, m, f, s, l, UT queant
+        laxis REsonare fibris MIra gestorum FAmuli tuorum. SOLve polluti LAbii reatum Sancte
+        Johannes.] <figure>
           <graphic url="/images/JOAMUS_01GF.gif"/>
         </figure></p>
-      <p class="textFig" xml:id="JOAMUS0010">*     *     *     *     *     *     *     *     *     *     *
-        <br/></p>
+      <p class="textFig" xml:id="JOAMUS0010"
+        >*     *     *     *     *     *     *     *     *     *     * <br/></p>
       <p xml:id="JOAMUS0011">
         <pb n="[399]"/>Pars prima.--Caput XXII, De aedificiis musicorum. Quot sunt aedificia
         musicorum? Septem. Quae? Toni, symphoniae, chordae, neumae, schemata, metri, organa. Toni
@@ -137,8 +149,8 @@
         qualis est primus, secundus, tertius, quartus et usque ad octavum discernatur unus ab alio
         in mensuris et in sono et in voce. Organa sunt melodiis perstrepentes voces
         compositionis.</p>
-      <p class="textFig" xml:id="JOAMUS0012">*     *     *     *     *     *     *     *     *     *     *
-        <lb/></p>
+      <p class="textFig" xml:id="JOAMUS0012"
+        >*     *     *     *     *     *     *     *     *     *     * <lb/></p>
       <p xml:id="JOAMUS0013">Caput XL--De clavibus musicae artis. Quot sunt claves musicae artis?
         Septem. Quae? Prima: quanto plus voces in altum resonantur, tanto plus promptiorem spiritum
         efficiunt. Secunda: omnis bona operatio per musicam invenitur quia sic per clavem musicam
@@ -168,8 +180,8 @@
         utroque procedens ad compositionem earumdem, non dividitur ab ipsis, quia nequeunt ab
         invicem separari. Cantus sine organo stare potest; organum sine cantu minime constat:
         proinde in divisione non numeratus est.</p>
-      <p class="textFig" xml:id="JOAMUS0016">*     *     *     *     *     *     *     *     *     *     *
-        <br/></p>
+      <p class="textFig" xml:id="JOAMUS0016"
+        >*     *     *     *     *     *     *     *     *     *     * <br/></p>
       <p xml:id="JOAMUS0017">Olim romulea sanctus qui mansit in urbe,</p>
       <p xml:id="JOAMUS0018">Gregorius praesul, condidit istud opus,</p>
       <p xml:id="JOAMUS0019">Per spatia cuncta vertentis qualiter anni;</p>
@@ -203,12 +215,13 @@
       <p xml:id="JOAMUS0046">Plebs itala caneret tempus in omne Deo.</p>
       <p xml:id="JOAMUS0047">Hoc itaque pangunt Europa et Gallia tota,</p>
       <p xml:id="JOAMUS0048">Carminibus multis eminet istud opus.</p>
-      <p class="textFig" xml:id="JOAMUS0049">*     *     *     *     *     *     *     *     *     *     *
-        <lb/></p>
+      <p class="textFig" xml:id="JOAMUS0049"
+        >*     *     *     *     *     *     *     *     *     *     * <lb/></p>
       <p xml:id="JOAMUS0050">
         <pb n="[403]"/>
       </p>
-      <p class="textFig" xml:id="JOAMUS0051">I.    Indicis a summo capiens exordia primus,            e
+      <p class="textFig" xml:id="JOAMUS0051"
+        >I.    Indicis a summo capiens exordia primus,            e
         <br/>      In minimi primo flexu postrema reponit;            a
         <lb/>II.   Qui sede stat principium finisque secundi.         a
         <br/>III.  Tertius in summo auriculis unum exordium capit  
@@ -218,13 +231,13 @@
         <br/>VI.   Qui locum exhortum sexti finemque tuetur;          c
         <lb/>VII.  Indicis hinc radix septeni perficit ortum,
         <br/>      In summum apex cujus postrema reponit,             d
-        <lb/>VIII. Octavus hac sede caput finemque reponit.           d
-        <br/></p>
-      <p class="textFig" xml:id="JOAMUS0052">*     *     *     *     *     *     *     *     *     *     *
-        <lb/></p>
+        <lb/>VIII. Octavus hac sede caput finemque reponit.           d <br/></p>
+      <p class="textFig" xml:id="JOAMUS0052"
+        >*     *     *     *     *     *     *     *     *     *     * <lb/></p>
       <p xml:id="JOAMUS0053">
         <pb n="[404]"/>Vocabularium musicum.</p>
-      <p xml:id="JOAMUS0054">Arythmetica: Disciplina numerorum, quia graece numerum rhythmum vocant.</p>
+      <p xml:id="JOAMUS0054">Arythmetica: Disciplina numerorum, quia graece numerum rhythmum
+        vocant.</p>
       <p xml:id="JOAMUS0055">Arythmeticus: Id est numerarius.</p>
       <p xml:id="JOAMUS0056">Buccinor: Cantor.</p>
       <p xml:id="JOAMUS0057">Calamaula: Canna de qua canitur.</p>
@@ -237,7 +250,8 @@
       <p xml:id="JOAMUS0061">Casia: Calami.</p>
       <p xml:id="JOAMUS0062">Chordae: dictae a corde; quia, sicut pulsus est cordis in pectore, ita
         pulsus chordae in cithara. Has Mercurius excogitavit.</p>
-      <p xml:id="JOAMUS0063">Chorus est plurimarum vocum ad suavitatis motum temperata collectio.</p>
+      <p xml:id="JOAMUS0063">Chorus est plurimarum vocum ad suavitatis motum temperata
+        collectio.</p>
       <p xml:id="JOAMUS0064">Clangor: Vociferatio.</p>
       <p xml:id="JOAMUS0065">Concentor: Qui consonat. Qui non consonat nec concinit, nec concentor
         erit.</p>
@@ -246,7 +260,8 @@
         percutiuntur.</p>
       <p xml:id="JOAMUS0068">Cymbalum est aeri sonitus vel crepitus ferri.</p>
       <p xml:id="JOAMUS0069">Cythara: Apud veteres cytharae octo chordis constabant.</p>
-      <p xml:id="JOAMUS0070">Euphonia est suavitas vocis. Haec et melos dicitur a suavitate et mel.</p>
+      <p xml:id="JOAMUS0070">Euphonia est suavitas vocis. Haec et melos dicitur a suavitate et
+        mel.</p>
       <p xml:id="JOAMUS0071">Fidicen: Cithara.</p>
       <p xml:id="JOAMUS0072">Fidicula: Cithara, citharoedus.</p>
       <p xml:id="JOAMUS0073">Fidiculae: Chordae.</p>
@@ -259,14 +274,14 @@
         omnium commixta connexio. Est cum fistulae organi per ordinem copulatae, legitimae tenent
         gratiam cantilenae, cumque aptum chordarum servat ordinem concordia.</p>
       <p xml:id="JOAMUS0078">Jubilate: Cantate.</p>
-      <p xml:id="JOAMUS0079">Lyra: Genus citharae, dicta apo tou lyrin, id est varietate carminum; unde
-        poetae lyrici dicentur, quod diversos sonos efficiant: sonum cantionum tuarum non
+      <p xml:id="JOAMUS0079">Lyra: Genus citharae, dicta apo tou lyrin, id est varietate carminum;
+        unde poetae lyrici dicentur, quod diversos sonos efficiant: sonum cantionum tuarum non
         audixu.</p>
       <p xml:id="JOAMUS0080">Melodia: Dulcis cantus vel suavitas vocis.</p>
       <p xml:id="JOAMUS0081">Melops: Dulcissime.</p>
       <p xml:id="JOAMUS0082">Melos: Dulcisonus.</p>
-      <p xml:id="JOAMUS0083">Monochordum: Lignum lungum, quadratum in modum cassae; et intus cavum in
-        modum citharae; super quem posita chorda sonat; cujus sonitu varietates vocum facile
+      <p xml:id="JOAMUS0083">Monochordum: Lignum lungum, quadratum in modum cassae; et intus cavum
+        in modum citharae; super quem posita chorda sonat; cujus sonitu varietates vocum facile
         comprehendis.</p>
       <p xml:id="JOAMUS0084">
         <pb n="[406]"/>Musica: A musis per derivationem apo tou moys appellata. Est moys graece et
@@ -311,21 +326,22 @@
       <p xml:id="JOAMUS0096">Sambucista: Qui in cithara rustica canit.</p>
       <p xml:id="JOAMUS0097">Sambucus: Saltator.</p>
       <p xml:id="JOAMUS0098">Scypha: Canna.</p>
-      <p xml:id="JOAMUS0099">Symphonia: Genus musicae artis; est enim lignum concavum ex parte utraque
-        extensum.</p>
-      <p xml:id="JOAMUS0100">Systrum: Genus musicae artis; ab inventore erat vocatum, quia Isis, regina
-        AEgyptiorum invenisse eum dicitur.</p>
+      <p xml:id="JOAMUS0099">Symphonia: Genus musicae artis; est enim lignum concavum ex parte
+        utraque extensum.</p>
+      <p xml:id="JOAMUS0100">Systrum: Genus musicae artis; ab inventore erat vocatum, quia Isis,
+        regina AEgyptiorum invenisse eum dicitur.</p>
       <p xml:id="JOAMUS0101">Tibia.</p>
       <p xml:id="JOAMUS0102">Tibiae: Excogitatae in Phrygia feruntur.</p>
       <p xml:id="JOAMUS0103">Tibicines: Aves concinentes et qui tibia canunt.</p>
       <p xml:id="JOAMUS0104">Timpanistriae: Juvenculae sunt quae cum timpanis cantant.</p>
-      <p xml:id="JOAMUS0105">Timpanum dicitur quod medius sit; timpanum enim extentum de pelle vel corio
-        efficitur.</p>
-      <p xml:id="JOAMUS0106">Timpanus est quasi duobus modiis confectus super ea tensi corii resolutio
-        resonat, quod musici disciplinabiliter sura percutientes geminata resolutione
+      <p xml:id="JOAMUS0105">Timpanum dicitur quod medius sit; timpanum enim extentum de pelle vel
+        corio efficitur.</p>
+      <p xml:id="JOAMUS0106">Timpanus est quasi duobus modiis confectus super ea tensi corii
+        resolutio resonat, quod musici disciplinabiliter sura percutientes geminata resolutione
         modulantur.</p>
       <p xml:id="JOAMUS0107">Tintinnabulum: A sono, sicut balatus ovium.</p>
-      <p xml:id="JOAMUS0108">Tragaedi: Quia in canendo praemium hircus, qui graece tragos dicitur.</p>
+      <p xml:id="JOAMUS0108">Tragaedi: Quia in canendo praemium hircus, qui graece tragos
+        dicitur.</p>
       <p xml:id="JOAMUS0109">Tragaediae: Gentilium fabulae, vel carmina poetarum.</p>
       <p xml:id="JOAMUS0110">Tuba: Buccinum. A Tyrrhenis inventa; unde dicitur.</p>
       <p xml:id="JOAMUS0111">Tyrrhenaeque tubae mugire per aequora clangor.</p>

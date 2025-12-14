@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Brevis summula proportionum</title>
         <title type="abbrev">PROBRE2</title>
-        <author>Prosdocimo de' Beldomandi</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Prosdocimo de' Beldomandi</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>C. Matthew Balensuela</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Benito V. Rivera</persName>
         </respStmt>
-        <date>1991</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1991">1991</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition">
           <emph>Scriptorum de musica medii aevi nova series a Gerbertina altera</emph>, 4 vols., ed.
@@ -77,9 +87,9 @@
         declaratione est sciendum, quod ille quantitates commensurabiles dicuntur, quibus reperitur
         una communis mensura, quamlibet illarum quantitatum commensurare potens. Ille vero dicuntur
         quantitates incommensurabiles, quibus nulla talis communis mensura reperitur.</p>
-      <p xml:id="PROBRE20007">Ulterius vero subdivido primum membrum istius subdivisionis quia secundum
-        nihil facit ad propositum; unde dico quod duplex est proportio rationabilis, quedam namque
-        est proportio equalitatis et est illa que est plurium quantitatum equalium ad invicem
+      <p xml:id="PROBRE20007">Ulterius vero subdivido primum membrum istius subdivisionis quia
+        secundum nihil facit ad propositum; unde dico quod duplex est proportio rationabilis, quedam
+        namque est proportio equalitatis et est illa que est plurium quantitatum equalium ad invicem
         habitudo; quedam vero proportio inequalitatis, et est illa que est plurium quantitatum
         inequalium ad invicem habitudo. Que etiam in duo membra subdividitur, quia quedam est
         proportio majoris inequalitatis, et est majoris quantitatis ad minorem habitudo; quedam vero
@@ -156,29 +166,30 @@
         minorem bis et cum hoc aliquid ultra, quod est medietas quantitatis minoris et dupla
         sexquitertia, que est quando major quantitas continet minorem bis et cum hoc aliquid ultra
         quod est tertia pars quantitatis minoris et sic ultra.</p>
-      <p xml:id="PROBRE20014">Item tripla sexquialtera que est quando major quantitas continet minorem
-        ter, et cum hoc aliquid ultra quod est medietas quantitatis minoris, et tripla sexquitertia
-        que est quando major quantitas continet minorem ter et cum hoc aliquid ultra quod est tertia
-        pars quantitatis minoris et sic ultra. Item dupla superbipartiens que est quando major
-        quantitas continet minorem bis et cum hoc aliquid ultra quod continet in se duas partes
-        aliquotas majores quantitatis minoris et partis non aliquote, et dupla supertripartiens que
-        est quando major quantitas continet minorem bis et cum hoc aliquid ultra quod continet in se
-        tres partes aliquotas majores quantitatis minoris et partis non aliquote et sic ultra. Item
-        tripla superbipartiens que est quando major quantitas continet minorem ter et cum hoc
-        aliquid ultra quod continet in se duas partes aliquotas majores quantitatis minoris et
-        partis non aliquote, et tertia supertripartiens, que est major quantitas, continet minorem
-        ter et cum hoc aliquid ultra quod continet in se tres partes aliquotas majores quantitatis
-        minoris, et partis non aliquote et sic ultra. Unde quantum ad multiplicitatem respicere
-        debemus quotiens major quantitas minorem continet, quantum vero ad superparticularitatem vel
-        superpartialitatem debemus respicere ad partem aliquotam vel non aliquotam remanentem, et ad
-        partes aliquotas majores ipsarum partium non aliquotarum, si species compositas bene habere
-        volumus, et taliter alias species habere poterimus ut est dupla superbipartiens tertias, que
-        est quando major quantitas continet minorem bis et cum hoc aliquid ultra quod continet in se
-        duas partes aliquotas majores quantitatis minoris et partis non aliquote quarum quelibet est
-        tertia pars ipsius quantitatis minoris, et tripla supertripartiens quartas, que est quando
-        major quantitas continet minorem ter et cum hoc aliquid ultra quod continet in se tres
-        partes aliquotas majores quantitatis minoris et partis non aliquote quarum quelibet est
-        quarta pars ipsius quantitatio minoris, et sic sine fine.</p>
+      <p xml:id="PROBRE20014">Item tripla sexquialtera que est quando major quantitas continet
+        minorem ter, et cum hoc aliquid ultra quod est medietas quantitatis minoris, et tripla
+        sexquitertia que est quando major quantitas continet minorem ter et cum hoc aliquid ultra
+        quod est tertia pars quantitatis minoris et sic ultra. Item dupla superbipartiens que est
+        quando major quantitas continet minorem bis et cum hoc aliquid ultra quod continet in se
+        duas partes aliquotas majores quantitatis minoris et partis non aliquote, et dupla
+        supertripartiens que est quando major quantitas continet minorem bis et cum hoc aliquid
+        ultra quod continet in se tres partes aliquotas majores quantitatis minoris et partis non
+        aliquote et sic ultra. Item tripla superbipartiens que est quando major quantitas continet
+        minorem ter et cum hoc aliquid ultra quod continet in se duas partes aliquotas majores
+        quantitatis minoris et partis non aliquote, et tertia supertripartiens, que est major
+        quantitas, continet minorem ter et cum hoc aliquid ultra quod continet in se tres partes
+        aliquotas majores quantitatis minoris, et partis non aliquote et sic ultra. Unde quantum ad
+        multiplicitatem respicere debemus quotiens major quantitas minorem continet, quantum vero ad
+        superparticularitatem vel superpartialitatem debemus respicere ad partem aliquotam vel non
+        aliquotam remanentem, et ad partes aliquotas majores ipsarum partium non aliquotarum, si
+        species compositas bene habere volumus, et taliter alias species habere poterimus ut est
+        dupla superbipartiens tertias, que est quando major quantitas continet minorem bis et cum
+        hoc aliquid ultra quod continet in se duas partes aliquotas majores quantitatis minoris et
+        partis non aliquote quarum quelibet est tertia pars ipsius quantitatis minoris, et tripla
+        supertripartiens quartas, que est quando major quantitas continet minorem ter et cum hoc
+        aliquid ultra quod continet in se tres partes aliquotas majores quantitatis minoris et
+        partis non aliquote quarum quelibet est quarta pars ipsius quantitatio minoris, et sic sine
+        fine.</p>
       <p xml:id="PROBRE20015">Proportio vero minoris inequalitatis quinque etiam habet species: tres
         scilicet simplices que sunt submultiplex, subsuperparticularis, et subsuperpartiens et duas
         compositas scilicet submultiplex superparticularis, et submultiplex superpartiens, et habet

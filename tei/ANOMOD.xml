@@ -1,29 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
         <title>Modus cantandi in mensuralibus</title>
         <title type="abbrev">ANOMOD</title>
-        <author>Anonymous</author>
-        <date notBefore="1400" notAfter="1499">15th</date>
+        <author><persName>Anonymous</persName></author>
+
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
-          <resp>E</resp>
+      <editionStmt>
+        <edition>Thesaurus Musicarum Latinarum</edition>
+        <respStmt>
+          <resp>Editor</resp>
           <persName>Stephen E. Hayes</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Peter M. Lefferts</persName>
         </respStmt>
         <respStmt>
-          <resp>C</resp>
+          <resp>Corrector</resp>
           <persName>Andreas Giger</persName>
         </respStmt>
         <respStmt>
-          <resp>A</resp>
+          <resp>Advisor</resp>
           <persName>Thomas J. Mathiesen</persName>
         </respStmt>
-        <date>1995</date></editionStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Thesaurus Musicarum Latinarum</publisher>
+        <date when="1995">1995</date>
+        <availability>
+          <p>Distributed for scholarly use.</p>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="edition"> Lorenz Welker, "Ein anonymer Mensuraltraktat in der Sterzinger
           Miszellaneen-Handschrift," <emph>Archiv für Musikwissenschaft</emph> 48 (1991): 255-281,
@@ -46,8 +56,8 @@
       <p xml:id="ANOMOD0001">
         <pb n="[274]"/>Modus cantandi in mensuralibus</p>
       <p xml:id="ANOMOD0002">1. De tempore</p>
-      <p xml:id="ANOMOD0003">[1ra] Iam sequitur de valoribus notarum et hoc iam dictatur. Et iste valor
-        non potest habere nisi per modum, tempus et prolacionem. Et modus prefert tempus et
+      <p xml:id="ANOMOD0003">[1ra] Iam sequitur de valoribus notarum et hoc iam dictatur. Et iste
+        valor non potest habere nisi per modum, tempus et prolacionem. Et modus prefert tempus et
         prolacionem. Ideo primo videndum est de tempore.</p>
       <p xml:id="ANOMOD0004">Et nota sicud tempus hic simpliciter nihil aliud est nisi mensura vocis
         prolate, quam eius contrarie scilicet vocis obmisse, que communiter tamen pausa appellatur,
@@ -62,8 +72,8 @@
         dictis et infra dicendis. Exemplum de tempore imperfecto, patet propter evidenciam.</p>
       <p xml:id="ANOMOD0008">[B,S,SP,S,S,BP,Lig2cssna,Lig2cssnod,S,S,Lig3cssnddcddx on staff4]</p>
       <p xml:id="ANOMOD0009">2. De prolacione</p>
-      <p xml:id="ANOMOD0010">Sequitur de prolacione. Pro quo notandum quod prolacio nihil aliud est nisi
-        sonus ab ore animalis prolatus, et ista est duplex scilicet maior et minor. Maior sive
+      <p xml:id="ANOMOD0010">Sequitur de prolacione. Pro quo notandum quod prolacio nihil aliud est
+        nisi sonus ab ore animalis prolatus, et ista est duplex scilicet maior et minor. Maior sive
         perfecta prolacio, quod idem est, est illa in qua minime ordinantur per numerum ternarium,
         vel ubi una sola minima assignatur semibrevi, vel ubi una minima attribuitur duabus parvis
         pausis que ascendunt de linia usque ad medietatem spacii. Et dicuntur ockatii seu suspiria
@@ -77,12 +87,12 @@
         sequitur.</p>
       <p xml:id="ANOMOD0013">[S,S,S,M,M,M,M,M,M,S; MP,M,Lig2cssnod,S,MP,M,B on staff4]</p>
       <p xml:id="ANOMOD0014">3. De modo</p>
-      <p xml:id="ANOMOD0015">Postquam dictum est de tempore et prolacione, nunc sequitur de modo, quod
-        videtur a modo perversus ordo. Sed tamen iste ordo patet pro fundamento.</p>
-      <p xml:id="ANOMOD0016">Pro quo nota quod modus est vera ordinacio vel disposicio figurarum varios
-        effectus anime in cantando demonstrans, et est duplex scilicet perfectus et imperfectus.
-        Ergo modus perfectus est ille in quo tempora vel eorum valores per numerum ternarium
-        ordinantur.</p>
+      <p xml:id="ANOMOD0015">Postquam dictum est de tempore et prolacione, nunc sequitur de modo,
+        quod videtur a modo perversus ordo. Sed tamen iste ordo patet pro fundamento.</p>
+      <p xml:id="ANOMOD0016">Pro quo nota quod modus est vera ordinacio vel disposicio figurarum
+        varios effectus anime in cantando demonstrans, et est duplex scilicet perfectus et
+        imperfectus. Ergo modus perfectus est ille in quo tempora vel eorum valores per numerum
+        ternarium ordinantur.</p>
       <p xml:id="ANOMOD0017">Et aliud (?): numerus septem modis habet cognosci. Primo quando in
         tenoribus vel contratenoribus reperitur pausa tria tangens spacia. Secundo quando in
         ligatura vel extra ligaturam brevis cum longa ordinatur. Tercio quando brevis cum pausa
@@ -94,57 +104,57 @@
       <p xml:id="ANOMOD0019">Sed modus imperfectus est iste in quo tempora secundum numerum binarium
         ordinantur vel ubi longa ponitur loco duorum temporum vel ubi pausa duo tangens spacia
         reperitur, ut patet in exemplo sequente.</p>
-      <p xml:id="ANOMOD0020">Non tamen intelligendum quod sic semper oporteat sicud exempla docent, sed
-        sufficit ut inveniatur unum exemplum conclusive in valore, divisione, tempore et
+      <p xml:id="ANOMOD0020">Non tamen intelligendum quod sic semper oporteat sicud exempla docent,
+        sed sufficit ut inveniatur unum exemplum conclusive in valore, divisione, tempore et
         prolacione.</p>
       <p xml:id="ANOMOD0021">Sequitur exemplum modi imperfecti et cetera.</p>
       <p xml:id="ANOMOD0022">[1va] [B,B,Lig2a,Lig2cssna,MX,#,Lig2a,S,SP on staff4]</p>
       <p xml:id="ANOMOD0023">
         <pb n="[276]"/>4. De valoribus notarum.</p>
-      <p xml:id="ANOMOD0024">Nunc sequitur de valoribus notarum seu predictarum figurarum in principio
-        positarum quid qualibet valeat in quolibet modo et in quolibet tempore et in qualibet
-        prolacione et ponitur differencia duplice longa et simplice longa. De quibus ponitur, habet
-        constitui modus perfectus. Sed modus imperfectus ut frequenter habet fieri per breves et
-        semibreves licet habet fieri mixtus modus. Itaque duplex longa intelligitur in modo
-        imperfecto vel eciam simplex longa et breves vel semibreves in modo et e converso tantum
-        maior numerus concludit ut dictum est. Et nota quod tempus eciam habet considerari in
+      <p xml:id="ANOMOD0024">Nunc sequitur de valoribus notarum seu predictarum figurarum in
+        principio positarum quid qualibet valeat in quolibet modo et in quolibet tempore et in
+        qualibet prolacione et ponitur differencia duplice longa et simplice longa. De quibus
+        ponitur, habet constitui modus perfectus. Sed modus imperfectus ut frequenter habet fieri
+        per breves et semibreves licet habet fieri mixtus modus. Itaque duplex longa intelligitur in
+        modo imperfecto vel eciam simplex longa et breves vel semibreves in modo et e converso
+        tantum maior numerus concludit ut dictum est. Et nota quod tempus eciam habet considerari in
         predictis figuris. Sed tantum ponitur: tempus habet fieri in brevibus et semibrevibus et hoc
         in tenoribus vel contratenoribus. Et prolacio habet fieri in minimis et hoc principaliter in
         discantu.</p>
-      <p xml:id="ANOMOD0025">Nunc sequitur illud quod promissum est, et est sciendum quod duplex longa
-        in modo perfecto valet tres simplices longas. Longa simplex in modo perfecto valet tria
-        tempora, id est tres breves vel eorum valores et hoc secundum exigenciam temporis, in modo
-        autem imperfecto longa duplex valet quatuor tempora id est quatuor breves iterum secundum
-        exigenciam temporis. Item nota quod in tempore perfecto brevis valet tres semibreves, in
-        tempore autem imperfecto valet tamen duas. Semibrevis valet tres minimas in prolacione
-        maiori et in minori tamen duas. Sed due semiminime faciunt unam minimam in quacumque
-        prolacione.</p>
-      <p xml:id="ANOMOD0026">Et nisi fierit distinccio vel diversificacio colorum de quo obmittitur quia
-        non valet juvenibus nisi tantum quod aliquando rubie note vel alterius coloris mutant
+      <p xml:id="ANOMOD0025">Nunc sequitur illud quod promissum est, et est sciendum quod duplex
+        longa in modo perfecto valet tres simplices longas. Longa simplex in modo perfecto valet
+        tria tempora, id est tres breves vel eorum valores et hoc secundum exigenciam temporis, in
+        modo autem imperfecto longa duplex valet quatuor tempora id est quatuor breves iterum
+        secundum exigenciam temporis. Item nota quod in tempore perfecto brevis valet tres
+        semibreves, in tempore autem imperfecto valet tamen duas. Semibrevis valet tres minimas in
+        prolacione maiori et in minori tamen duas. Sed due semiminime faciunt unam minimam in
+        quacumque prolacione.</p>
+      <p xml:id="ANOMOD0026">Et nisi fierit distinccio vel diversificacio colorum de quo obmittitur
+        quia non valet juvenibus nisi tantum quod aliquando rubie note vel alterius coloris mutant
         tempus, aliquando prolacionem, aliquando aliquod aliud, ut patebit illo qui bonum et multum
         cantum istum pradicat (!), quia ibi non est certa regula data.</p>
-      <p xml:id="ANOMOD0027">Sed quatuor fusiel faciunt unum tempus imperfectum et numquam debent poni
-        nisi in maiori prolacione et valent tantum sicud quatuor minime in minori prolacione. Omnia
-        supra dicta patent in figura sequenti.</p>
+      <p xml:id="ANOMOD0027">Sed quatuor fusiel faciunt unum tempus imperfectum et numquam debent
+        poni nisi in maiori prolacione et valent tantum sicud quatuor minime in minori prolacione.
+        Omnia supra dicta patent in figura sequenti.</p>
       <p xml:id="ANOMOD0028">[1vb] [Welker, 276]</p>
-      <p xml:id="ANOMOD0029">Notandum inde sit valor in figuris figuraliter scriptis: sive sint laciores
-        sive longiores et hoc dicitur numeros (?) quo credunt unam figuram magis significare quam
-        aliam cum non sit eiusdem latitudinis vel longitudinis et hoc non opportet sed sufficit quod
-        sint taliter disposite.</p>
+      <p xml:id="ANOMOD0029">Notandum inde sit valor in figuris figuraliter scriptis: sive sint
+        laciores sive longiores et hoc dicitur numeros (?) quo credunt unam figuram magis
+        significare quam aliam cum non sit eiusdem latitudinis vel longitudinis et hoc non opportet
+        sed sufficit quod sint taliter disposite.</p>
       <p xml:id="ANOMOD0030">
         <pb n="[277]"/>Et est sciendum quod cardinalis semper illud representat quod prius
         representabat sine signo illo supraposito, sed solum differt in hoc quod debet cantari sub
         uno motu que forte prius distinguabatur. Et sic habetur de valoribus notarum.</p>
       <p xml:id="ANOMOD0031">De proprietatibus notarum</p>
       <p xml:id="ANOMOD0032">5. De imperfeccione</p>
-      <p xml:id="ANOMOD0033">Nunc dicendum est de proprietatibus notarum quod nihil aliud est nisi notas
-        perficere et imperficere.</p>
-      <p xml:id="ANOMOD0034">Pro quo nota quod imperficere nihil aliud est ut hoc simpliciter vero (?)
-        notas perfectas reddere imperfectas. Et est sciendum quod duplex longa imperficitur a parte
-        ante et a parte post a simplici longa. Similiter longa simplex imperficitur a brevi. Sed
-        postquam pervenimus equaliter (?) ad noticiam item possumus profundiores regulas perlegere
-        de omnibus supra dictis et infra dicendis. Item nota quod brevis imperficitur a semibrevi et
-        hoc dupliciter scilicet a parte post et a parte ante.</p>
+      <p xml:id="ANOMOD0033">Nunc dicendum est de proprietatibus notarum quod nihil aliud est nisi
+        notas perficere et imperficere.</p>
+      <p xml:id="ANOMOD0034">Pro quo nota quod imperficere nihil aliud est ut hoc simpliciter vero
+        (?) notas perfectas reddere imperfectas. Et est sciendum quod duplex longa imperficitur a
+        parte ante et a parte post a simplici longa. Similiter longa simplex imperficitur a brevi.
+        Sed postquam pervenimus equaliter (?) ad noticiam item possumus profundiores regulas
+        perlegere de omnibus supra dictis et infra dicendis. Item nota quod brevis imperficitur a
+        semibrevi et hoc dupliciter scilicet a parte post et a parte ante.</p>
       <p xml:id="ANOMOD0035">Exemplum.</p>
       <p xml:id="ANOMOD0036">[S,B,B,S; SP,B,B,SP on staff5]</p>
       <p xml:id="ANOMOD0037">Eciam imperficitur in ambabus prolacionibus brevis a minima et in
@@ -153,11 +163,11 @@
         imperficitur et hoc fit communiter ut patet in exemplo sequenti. Et istud exemplum potest
         immaginari de simplici longa ut patet intuenti et cetera.</p>
       <p xml:id="ANOMOD0038">[2ra] [M,B,M,M,B,M; B,M,B,M on staff4]</p>
-      <p xml:id="ANOMOD0039">Et sic eciam imperficitur brevis in minori prolacione a minimis vel eius
-        valoribus ut puta pausis. Sed oportet quod imperficitur a duabus minimis a parte ante vel a
-        parte post quia una minima solutaria in minori prolacione stare non potest ut patebit in
-        exemplo sequenti. Et sic posset fieri eciam de simplici longa ut patet intuenti. Et temporis
-        imperfeccio non est consweta nisi in tempore perfecto ut patet et cetera.</p>
+      <p xml:id="ANOMOD0039">Et sic eciam imperficitur brevis in minori prolacione a minimis vel
+        eius valoribus ut puta pausis. Sed oportet quod imperficitur a duabus minimis a parte ante
+        vel a parte post quia una minima solutaria in minori prolacione stare non potest ut patebit
+        in exemplo sequenti. Et sic posset fieri eciam de simplici longa ut patet intuenti. Et
+        temporis imperfeccio non est consweta nisi in tempore perfecto ut patet et cetera.</p>
       <p xml:id="ANOMOD0040">[M,M,B; B,MP,M; B,M,M on staff4]</p>
       <p xml:id="ANOMOD0041">
         <pb n="[278]"/>Notandum quod semibrevis potest imperfici a minima et valore eius et solum a
@@ -181,7 +191,8 @@
         minimis acsi staret in minori prolacione non tamen eodem modo ut patet modificatis (?)
         bene.</p>
       <p xml:id="ANOMOD0045">Exemplum.</p>
-      <p xml:id="ANOMOD0046">[MX,pt,Lig2MXptdMXcdsnpt; B,pt,Lig3cssndod,pt; S,pt,M,M,S,pt on staff4]</p>
+      <p xml:id="ANOMOD0046">[MX,pt,Lig2MXptdMXcdsnpt; B,pt,Lig3cssndod,pt; S,pt,M,M,S,pt on
+        staff4]</p>
       <p xml:id="ANOMOD0047">Et nota quod punctus divisionis et addicionis semper debet poni ad
         mediantem note vel circa ad sinistram latus vel eciam aliquando ad dextram sed hoc fit raro
         nisi in semibrevibus tunc. Punctus addicionis debet poni ad caput illius note et cantatur a
@@ -190,21 +201,21 @@
         tenet veritatem ut demonstratum est.</p>
       <p xml:id="ANOMOD0048">
         <pb n="[279]"/>7. De pausis</p>
-      <p xml:id="ANOMOD0049">Sequitur de pausis. Pro quo notandum quod pausa nihil aliud est nisi tanta
-        obmissio vocis quantum debebat cantasse ut patebit infra. Et nota quod pausa tangens omnia
-        spacia dicitur pausa generalis. Pausa autem tangens tria spacia significat tria tempora et
-        nisi debet poni in modo perfecto ut superius patuit. Sed pausa duo tangens spacia duo
-        tempora designat et debet poni in modo imperfecto vel eciam in modo perfecto et hoc anexante
-        pausa unius temporis. Sed pausa unum tangens spacium unum tempus denotat et potest poni in
-        utroque tempore et semper nisi significat unum tempus et hoc secundum exigenciam temporis
-        quia si tempus est perfectum tunc pausari oportet tres semibreves propter numerum ternarium.
-        Si autem ponitur in tempore imperfecto tunc tamen significat duas semibreves racione
-        predicta de tempore imperfecto. Si [2va] autem pausa de linia descendit ad medietatem spacii
-        tunc semper valet semibrevem. Si autem due descendunt tunc pausantur due et ceteriis. Si
-        eciam fit in minimis ut quando una parva pausa de linea ascendit usque ad demedium spacium
-        tunc significat unam minimam et ut frequenter nisi ponitur in minori prolacione. Si autem
-        ascendunt due tunc due pausantur et ut frequenter nisi in maiori prolacione et sic dicuntur
-        suspiria vel ocetii. Exemplum sequitur.</p>
+      <p xml:id="ANOMOD0049">Sequitur de pausis. Pro quo notandum quod pausa nihil aliud est nisi
+        tanta obmissio vocis quantum debebat cantasse ut patebit infra. Et nota quod pausa tangens
+        omnia spacia dicitur pausa generalis. Pausa autem tangens tria spacia significat tria
+        tempora et nisi debet poni in modo perfecto ut superius patuit. Sed pausa duo tangens spacia
+        duo tempora designat et debet poni in modo imperfecto vel eciam in modo perfecto et hoc
+        anexante pausa unius temporis. Sed pausa unum tangens spacium unum tempus denotat et potest
+        poni in utroque tempore et semper nisi significat unum tempus et hoc secundum exigenciam
+        temporis quia si tempus est perfectum tunc pausari oportet tres semibreves propter numerum
+        ternarium. Si autem ponitur in tempore imperfecto tunc tamen significat duas semibreves
+        racione predicta de tempore imperfecto. Si [2va] autem pausa de linia descendit ad
+        medietatem spacii tunc semper valet semibrevem. Si autem due descendunt tunc pausantur due
+        et ceteriis. Si eciam fit in minimis ut quando una parva pausa de linea ascendit usque ad
+        demedium spacium tunc significat unam minimam et ut frequenter nisi ponitur in minori
+        prolacione. Si autem ascendunt due tunc due pausantur et ut frequenter nisi in maiori
+        prolacione et sic dicuntur suspiria vel ocetii. Exemplum sequitur.</p>
       <p xml:id="ANOMOD0050">[Welker, 279,1; text: 1, 2, 3, 4, 5, 6] <figure>
           <graphic url="/images/ANOMOD_02GF.gif"/>
         </figure></p>
@@ -215,14 +226,15 @@
         simplicibus longis ut quando ponentur in duplices longas. Et hoc est verum si non mediat
         punctus divisionis. Exemplum sequitur.</p>
       <p xml:id="ANOMOD0053">[Welker, 279,2; text: sine puncto, cum puncto]</p>
-      <p xml:id="ANOMOD0054">Exemplum sequitur ubi breves mediant inter simplices longas et cetera.</p>
+      <p xml:id="ANOMOD0054">Exemplum sequitur ubi breves mediant inter simplices longas et
+        cetera.</p>
       <p xml:id="ANOMOD0055">[Welker, 279,3; text: ubi non mediat, ubi mediat]</p>
       <p xml:id="ANOMOD0056">
         <pb n="[280]"/>Eodem modo contigit multocies quod due semibreves mediant vel ponuntur inter
         duas breves quarum prima semibrevis valet se et secunda alteratur, id est, valet duas
         semibreves.</p>
-      <p xml:id="ANOMOD0057">[2vb] Et hoc propter numerum ternarium adimpletur in ligatura vel extra. Et
-        hoc est verum si non mediat punctus divisionis ut patet in exemplo.</p>
+      <p xml:id="ANOMOD0057">[2vb] Et hoc propter numerum ternarium adimpletur in ligatura vel
+        extra. Et hoc est verum si non mediat punctus divisionis ut patet in exemplo.</p>
       <p xml:id="ANOMOD0058">[Welker, 280,1; text: ubi non mediat, ubi mediat]</p>
       <p xml:id="ANOMOD0059">Eodem modo fit in prolacione maiori quod multocies due minime ponuntur
         inter duas semibreves quarum prima minima vero valet se et secunda alteratur et hoc est
@@ -241,15 +253,15 @@
         pause et puncta tunc omnies (!) intermedie sincopantur vel duplicantur et hoc ceteris
         paribus.</p>
       <p xml:id="ANOMOD0063">[Welker, 280,2; text: 1, 2, 3]</p>
-      <p xml:id="ANOMOD0064">[3ra] Et nota unam regulam generalem de minori prolacione: Quandocumque due
-        semibreves vel plures vel una mediant inter duas minimas vel inter valores ut puta sunt
+      <p xml:id="ANOMOD0064">[3ra] Et nota unam regulam generalem de minori prolacione: Quandocumque
+        due semibreves vel plures vel una mediant inter duas minimas vel inter valores ut puta sunt
         pause et puncta tunc omnies intermedie syncopantur vel duplicantur et hoc ceteris paribus.
         Exemplum sequitur.</p>
       <p xml:id="ANOMOD0065">
         <pb n="[281]"/>[Welker, 281; text: 1, 2, 3]</p>
       <p xml:id="ANOMOD0066">10. De signis generalibus</p>
-      <p xml:id="ANOMOD0067">Restat nunc dicere de signis generalibus istam artem continentibus. Et nota
-        quod signum modi perfecti sic scribitur [Od], sed modi imperfecti sic [Cd], temporis
+      <p xml:id="ANOMOD0067">Restat nunc dicere de signis generalibus istam artem continentibus. Et
+        nota quod signum modi perfecti sic scribitur [Od], sed modi imperfecti sic [Cd], temporis
         perfecti [Od], temporis imperfecti sic [Od], signum maioris prolacionis sic [signum],
         minoris sic |:, signum reincepcionis :||:, signum aspiracionis sic # et valet in tantum
         sicud b quadratum in cantu corali.</p>
