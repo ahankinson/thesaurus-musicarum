@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
@@ -8,32 +7,28 @@
         <author>Johannes de Muris</author>
         <date notBefore="1300" notAfter="1399">14th</date>
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum 
-      <respStmt>
-        <resp>E</resp>
-        <persName>Andreas Giger</persName>
-      </respStmt>
-      <respStmt>
-        <resp>C</resp>
-        <persName>Anna Shparberg</persName>
-      </respStmt>
-      <respStmt>
-        <resp>A</resp>
-        <persName>Thomas J. Mathiesen</persName>
-      </respStmt>
-      <date>1999</date></editionStmt>
+      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
+          <resp>E</resp>
+          <persName>Andreas Giger</persName>
+        </respStmt>
+        <respStmt>
+          <resp>C</resp>
+          <persName>Anna Shparberg</persName>
+        </respStmt>
+        <respStmt>
+          <resp>A</resp>
+          <persName>Thomas J. Mathiesen</persName>
+        </respStmt>
+        <date>1999</date></editionStmt>
       <sourceDesc>
-        <bibl type="edition">
-Christoph Falkenroth, 
-<emph>Die Musica speculativa des Johannes de Muris</emph>, Beihefte zum Archiv für Musikwissenschaft, vol. 34 (Stuttgart: Steiner, 1992), 290–91. As a work, this treatise is in the public domain. As a raw transcription, this file is free of copyright and may be reproduced and distributed freely.
-</bibl>
+        <bibl type="edition"> Christoph Falkenroth, <emph>Die Musica speculativa des Johannes de
+            Muris</emph>, Beihefte zum Archiv für Musikwissenschaft, vol. 34 (Stuttgart: Steiner,
+          1992), 290–91. As a work, this treatise is in the public domain. As a raw transcription,
+          this file is free of copyright and may be reproduced and distributed freely. </bibl>
         <bibl type="work">
-          
-<title>Iohannes de Muris: Musica speculativa</title>
-          
-<idno type="LML">IOH. MUR. spec.</idno>
-        
-</bibl>
+          <title>Iohannes de Muris: Musica speculativa</title>
+          <idno type="LML">IOH. MUR. spec.</idno>
+        </bibl>
         <listWit>
           <witness>
             <idno type="RISM">A-M Cod. 1916, 44-50 (Abrégés)</idno>
@@ -215,14 +210,27 @@ Christoph Falkenroth,
   </teiHeader>
   <text xml:lang="la">
     <body>
-      <p id="MURISAPP0001">
-      <pb n="[290]" />... inventum est] addito: Item aliter hoc probatur per medium proportionale. Nam natura numerorum talis est, quod si duo numeri sint in aliqua proportione procreati ex eisdem, in eadem proportione manebunt, ut duo et tres in 6 sesquialtera se habent. Ex his autem procreati habent 4, 6, 9, inter quos similiter eadem proportio reperitur, ducantur enim 2 et 3 velut radices tam in se, quam unus in alterum et supradictos numeros generabunt. Ex hoc sic arguitur: numeri 243 et 256, inter quos est proportio semitonalis, ducantur ut radices tam in se, quam unus in alterum et producantur hi numeri 59049, 62208, 65536, inter quos similiter semitonalis proportio reperitur. Si igitur inter radices fuit vera semitonii proportio, cum illa sit</p>
-      <p id="MURISAPP0002">
-      <pb n="[291]" />in numeris propositis duplicata, sequitur, quod inter extrema sit toni proportio, quod est falsum. Nam si super primum sui octava pars addatur, tertium superabit. Igitur inter primum et secundum non fuit vera semitonium, nec inter secundum et tertium. Ergo primus et tertius complere tonum integrum nequiverunt. Igitur similiter inter radices, quae sunt 243 et 256 non fuit vera toni medietas, ymo minus, quod est propositum.</p>
-      <p id="MURISAPP0003">[Musica speculativa appendix, 291; text: Tonus, Duo minora semitonia, Semitonium maius, Semitonium minus, Differentia est comma 894 1/8, 59049, 243, 62208, 256, 65536, 269, 66430 1/8] 
-      <figure>
-        <graphic url="/images/MURISAPP_01GF.gif" />
-      </figure></p>
+      <p xml:id="MURISAPP0001">
+        <pb n="[290]"/>... inventum est] addito: Item aliter hoc probatur per medium proportionale.
+        Nam natura numerorum talis est, quod si duo numeri sint in aliqua proportione procreati ex
+        eisdem, in eadem proportione manebunt, ut duo et tres in 6 sesquialtera se habent. Ex his
+        autem procreati habent 4, 6, 9, inter quos similiter eadem proportio reperitur, ducantur
+        enim 2 et 3 velut radices tam in se, quam unus in alterum et supradictos numeros generabunt.
+        Ex hoc sic arguitur: numeri 243 et 256, inter quos est proportio semitonalis, ducantur ut
+        radices tam in se, quam unus in alterum et producantur hi numeri 59049, 62208, 65536, inter
+        quos similiter semitonalis proportio reperitur. Si igitur inter radices fuit vera semitonii
+        proportio, cum illa sit</p>
+      <p xml:id="MURISAPP0002">
+        <pb n="[291]"/>in numeris propositis duplicata, sequitur, quod inter extrema sit toni
+        proportio, quod est falsum. Nam si super primum sui octava pars addatur, tertium superabit.
+        Igitur inter primum et secundum non fuit vera semitonium, nec inter secundum et tertium.
+        Ergo primus et tertius complere tonum integrum nequiverunt. Igitur similiter inter radices,
+        quae sunt 243 et 256 non fuit vera toni medietas, ymo minus, quod est propositum.</p>
+      <p xml:id="MURISAPP0003">[Musica speculativa appendix, 291; text: Tonus, Duo minora semitonia,
+        Semitonium maius, Semitonium minus, Differentia est comma 894 1/8, 59049, 243, 62208, 256,
+        65536, 269, 66430 1/8] <figure>
+          <graphic url="/images/MURISAPP_01GF.gif"/>
+        </figure></p>
     </body>
   </text>
 </TEI>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
@@ -8,31 +7,30 @@
         <author>Marchetus de Padua</author>
         <date notBefore="1300" notAfter="1399">14th</date>
       </titleStmt>
-      <editionStmt>Thesaurus Musicarum Latinarum 
-      <respStmt>
-        <resp>E</resp>
-        <persName>Stephen E. Hayes</persName>
-      </respStmt>
-      <respStmt>
-        <resp>C</resp>
-        <persName>Peter M. Lefferts</persName>
-      </respStmt>
-      <respStmt>
-        <resp>A</resp>
-        <persName>Thomas J. Mathiesen</persName>
-      </respStmt>
-      <date>1990</date></editionStmt>
+      <editionStmt>Thesaurus Musicarum Latinarum <respStmt>
+          <resp>E</resp>
+          <persName>Stephen E. Hayes</persName>
+        </respStmt>
+        <respStmt>
+          <resp>C</resp>
+          <persName>Peter M. Lefferts</persName>
+        </respStmt>
+        <respStmt>
+          <resp>A</resp>
+          <persName>Thomas J. Mathiesen</persName>
+        </respStmt>
+        <date>1990</date></editionStmt>
       <sourceDesc>
         <bibl type="edition">
-<emph>The Lucidarium of Marchetto of Padua: A Critical Edition, Translation, and Commentary</emph>, ed. and trans. by Jan W. Herlinger (Chicago and London: The University of Chicago Press, 1985), 538–42. As a work, this treatise is in the public domain. As a raw transcription, this file is free of copyright and may be reproduced and distributed freely.
-</bibl>
+          <emph>The Lucidarium of Marchetto of Padua: A Critical Edition, Translation, and
+            Commentary</emph>, ed. and trans. by Jan W. Herlinger (Chicago and London: The
+          University of Chicago Press, 1985), 538–42. As a work, this treatise is in the public
+          domain. As a raw transcription, this file is free of copyright and may be reproduced and
+          distributed freely. </bibl>
         <bibl type="work">
-          
-<title>Marchettus de Padua: Lucidarium in arte musicae planae</title>
-          
-<idno type="LML">MARCH. luc.</idno>
-        
-</bibl>
+          <title>Marchettus de Padua: Lucidarium in arte musicae planae</title>
+          <idno type="LML">MARCH. luc.</idno>
+        </bibl>
         <listWit>
           <witness>
             <idno type="RISM">A-SP Cod. 135/6 (29.4.4), 21v (Extraits)</idno>
@@ -109,31 +107,44 @@
   </teiHeader>
   <text xml:lang="la">
     <body>
-      <p id="MARLUC140001">
-      <pb n="[538]" />1. INCIPIT TRACTATUS QUARTUS DECIMUS DE CLAVI: QUID SIT ET QUOT</p>
-      <p id="MARLUC140002">2. Clavis est reseratio notarum in cantu quolibet signatarum,</p>
-      <p id="MARLUC140003">3. nam sicut per clavim reseratur ostium ad conservanda que intra ostium sunt,</p>
-      <p id="MARLUC140004">4. sic per clavim in cantu ipse reseratur cantus et conservantur notarum nomina et ab invicem esse distincta cognoscimus;</p>
-      <p id="MARLUC140005">5. et tales universaliter usitate sunt due, scilicet F grave et c acutum.</p>
-      <p id="MARLUC140006">6. Per ipsarum autem discretam repositionem per lineas potest omnis 
-      <pb n="[540]" />cantus, cuiuscunque sit toni, rationabiliter collocari.</p>
-      <p id="MARLUC140007">7. Distant enim ab invicem per dyapente,</p>
-      <p id="MARLUC140008">8. nam F in gravibus, c in acutis constituta sunt.</p>
-      <p id="MARLUC140009">9. Sed dicet aliquis: Quid est vox gravis, acuta, et superacuta?</p>
-      <p id="MARLUC140010">10. Dicimus quod vox gravis dicitur illa que in qualibet voce humana propinquior est silentio,</p>
-      <p id="MARLUC140011">11. que quidem formatur in voce pectoris, que est inferior resonatio, et magis propinqua canne pulmonis, a quo procedit vox;</p>
-      <p id="MARLUC140012">12. et ideo dicitur gravis quia in illo inferiori loco primitus est formata;</p>
-      <p id="MARLUC140013">13. et tales in constitutione manus sunt septem, scilicet A, [sqb], C, D, E, F, et G.</p>
-      <p id="MARLUC140014">14. Acute dicuntur eo quod acutum reddunt sonum respectu gravium predictarum;</p>
-      <p id="MARLUC140015">15. formantur enim in superiori loco, scilicet in voce gutturis, et ideo super illas sonum reddunt;</p>
-      <p id="MARLUC140016">
-      <pb n="[542]" />16. et tales sunt similiter septem, que non sunt a primis gravibus nominibus differentes.</p>
-      <p id="MARLUC140017">17. Superacute dicuntur eo quod super predictas acutas sonum reddunt,</p>
-      <p id="MARLUC140018">18. et ratio est quia formantur in excelsiori loco, scilicet in voce capitis;</p>
-      <p id="MARLUC140019">19. et tales sunt quatuor, scilicet a, b[sqb], c, et d.</p>
-      <p id="MARLUC140020">20. Est et enim alia adiuncta, scilicet e la, ut perfectionem principii quod in g acuto incipitur compleamus.</p>
-      <p id="MARLUC140021">21. Et notandum est quod in unaquaque humana voce, quantumcunque ascendere possit et descendere, vel quantumcunque ascensus et descensus penuriam patiatur, hee voces, graves, acute, et superacute, necessario distinguuntur.</p>
-      <p id="MARLUC140022">22. EXPLICIT TRACTATUS QUARTUS DECIMUS</p>
+      <p xml:id="MARLUC140001">
+        <pb n="[538]"/>1. INCIPIT TRACTATUS QUARTUS DECIMUS DE CLAVI: QUID SIT ET QUOT</p>
+      <p xml:id="MARLUC140002">2. Clavis est reseratio notarum in cantu quolibet signatarum,</p>
+      <p xml:id="MARLUC140003">3. nam sicut per clavim reseratur ostium ad conservanda que intra ostium
+        sunt,</p>
+      <p xml:id="MARLUC140004">4. sic per clavim in cantu ipse reseratur cantus et conservantur notarum
+        nomina et ab invicem esse distincta cognoscimus;</p>
+      <p xml:id="MARLUC140005">5. et tales universaliter usitate sunt due, scilicet F grave et c
+        acutum.</p>
+      <p xml:id="MARLUC140006">6. Per ipsarum autem discretam repositionem per lineas potest omnis <pb n="[540]"/>cantus, cuiuscunque sit toni, rationabiliter collocari.</p>
+      <p xml:id="MARLUC140007">7. Distant enim ab invicem per dyapente,</p>
+      <p xml:id="MARLUC140008">8. nam F in gravibus, c in acutis constituta sunt.</p>
+      <p xml:id="MARLUC140009">9. Sed dicet aliquis: Quid est vox gravis, acuta, et superacuta?</p>
+      <p xml:id="MARLUC140010">10. Dicimus quod vox gravis dicitur illa que in qualibet voce humana
+        propinquior est silentio,</p>
+      <p xml:id="MARLUC140011">11. que quidem formatur in voce pectoris, que est inferior resonatio, et
+        magis propinqua canne pulmonis, a quo procedit vox;</p>
+      <p xml:id="MARLUC140012">12. et ideo dicitur gravis quia in illo inferiori loco primitus est
+        formata;</p>
+      <p xml:id="MARLUC140013">13. et tales in constitutione manus sunt septem, scilicet A, [sqb], C, D,
+        E, F, et G.</p>
+      <p xml:id="MARLUC140014">14. Acute dicuntur eo quod acutum reddunt sonum respectu gravium
+        predictarum;</p>
+      <p xml:id="MARLUC140015">15. formantur enim in superiori loco, scilicet in voce gutturis, et ideo
+        super illas sonum reddunt;</p>
+      <p xml:id="MARLUC140016">
+        <pb n="[542]"/>16. et tales sunt similiter septem, que non sunt a primis gravibus nominibus
+        differentes.</p>
+      <p xml:id="MARLUC140017">17. Superacute dicuntur eo quod super predictas acutas sonum reddunt,</p>
+      <p xml:id="MARLUC140018">18. et ratio est quia formantur in excelsiori loco, scilicet in voce
+        capitis;</p>
+      <p xml:id="MARLUC140019">19. et tales sunt quatuor, scilicet a, b[sqb], c, et d.</p>
+      <p xml:id="MARLUC140020">20. Est et enim alia adiuncta, scilicet e la, ut perfectionem principii
+        quod in g acuto incipitur compleamus.</p>
+      <p xml:id="MARLUC140021">21. Et notandum est quod in unaquaque humana voce, quantumcunque
+        ascendere possit et descendere, vel quantumcunque ascensus et descensus penuriam patiatur,
+        hee voces, graves, acute, et superacute, necessario distinguuntur.</p>
+      <p xml:id="MARLUC140022">22. EXPLICIT TRACTATUS QUARTUS DECIMUS</p>
     </body>
   </text>
 </TEI>
