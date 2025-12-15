@@ -16,7 +16,7 @@ PAGEFIND_VERSION = 1.4.0
 PAGEFIND_BIN = tools/pagefind
 PAGEFIND_TMP = tools/pagefind.tar.gz
 PAGEFIND_URL_MAC = https://github.com/Pagefind/pagefind/releases/download/v$(PAGEFIND_VERSION)/pagefind-v$(PAGEFIND_VERSION)-aarch64-apple-darwin.tar.gz
-PAGEFIND_URL_LINUX = https://github.com/Pagefind/pagefind/releases/download/v$(PAGEFIND_VERSION)/pagefind-v$(PAGEFIND_VERSION)-aarch64-unknown-linux-musl.tar.gz
+PAGEFIND_URL_LINUX = https://github.com/Pagefind/pagefind/releases/download/v$(PAGEFIND_VERSION)/pagefind-v$(PAGEFIND_VERSION)-x86_64-unknown-linux-musl.tar.gz
 
 TEI_FILES := $(wildcard $(TEI_SRC)/*.xml)
 HTML_FILES := $(patsubst $(TEI_SRC)/%.xml,$(OUT)/%.md,$(TEI_FILES))
