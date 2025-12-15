@@ -1,0 +1,19 @@
+{{ define "title" }}
+Search
+{{ end }}
+
+{{ define "main" }}
+<h2>Search</h2>
+
+<div id="search"></div>
+
+<script src="/pagefind/pagefind-ui.js"></script>
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+
+<script>
+    new PagefindUI({
+        element: "#search",
+        showSubResults: true
+    });
+</script>
+{{ end }}
