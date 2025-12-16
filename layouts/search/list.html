@@ -7,13 +7,14 @@ Search
 
 <div id="search"></div>
 
-<script src="/pagefind/pagefind-ui.js"></script>
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/thesaurus-musicarum/pagefind/pagefind-ui.js"></script>
+<link href="/thesaurus-musicarum/pagefind/pagefind-ui.css" rel="stylesheet">
 
 <script>
     new PagefindUI({
         element: "#search",
-        showSubResults: true
+        showSubResults: true,
+        highlightParam: "highlight"
     });
 </script>
 {{ end }}
