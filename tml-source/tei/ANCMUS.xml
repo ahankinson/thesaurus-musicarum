@@ -5,8 +5,9 @@
       <titleStmt>
         <title>De musica</title>
         <title type="abbrev">ANCMUS</title>
-        <author><persName>Ancina Fossaniensis, Juvenal</persName></author>
-
+        <author>
+          <persName>Ancina Fossaniensis, Juvenal</persName>
+        </author>
       </titleStmt>
       <editionStmt>
         <edition>Thesaurus Musicarum Latinarum</edition>
@@ -31,24 +32,27 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="edition"> Adrien de la Fage, <emph>Essais de dipthérographie musicale</emph>
-          (Paris: Legouix, 1864), 344–45. </bibl>
+        <bibl type="source">
+          <title>De musica</title>
+          <date notBefore="1500" notAfter="1599">16th</date>
+          <author>
+            <persName>Ancina Fossaniensis, Juvenal</persName>
+          </author>
+        </bibl>
+        <bibl type="edition">
+Adrien de la Fage, 
+<emph>Essais de dipthérographie musicale</emph> (Paris: Legouix, 1864), 344–45.
+</bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text xml:lang="la">
     <body>
-      <p xml:id="ANCMUS0001">
-        <pb n="[344]"/>Etsi Musica humanum inventum est, cantus tamen nonnullos usque adeo suaves et
-        amoenos reperias, ut divini propemodum videantur, quales Adrianus exhibere consuevit.</p>
-      <p xml:id="ANCMUS0002">Musica ad pulsuum cognitionem plurimum confert; ubi enim eam quae in C
-        spectatur proportionem servant, salutem: quod si hemioliam imitentur mortem portendunt.</p>
-      <p xml:id="ANCMUS0003">
-        <pb n="[345]"/>Quemadmodum in numeris arithmeticis, ita et in harmonicis in infinitum
-        progressus est; at in his quidem utrinque, in illis autem altera duntaxat parte.</p>
+      <p xml:id="ANCMUS0001"><pb n="[344]"/>Etsi Musica humanum inventum est, cantus tamen nonnullos usque adeo suaves et amoenos reperias, ut divini propemodum videantur, quales Adrianus exhibere consuevit.</p>
+      <p xml:id="ANCMUS0002">Musica ad pulsuum cognitionem plurimum confert; ubi enim eam quae in C spectatur proportionem servant, salutem: quod si hemioliam imitentur mortem portendunt.</p>
+      <p xml:id="ANCMUS0003"><pb n="[345]"/>Quemadmodum in numeris arithmeticis, ita et in harmonicis in infinitum progressus est; at in his quidem utrinque, in illis autem altera duntaxat parte.</p>
       <p xml:id="ANCMUS0004">Hemitonium diesis proferri vetat.</p>
-      <p xml:id="ANCMUS0005">Actionem inter similia fieri diapason in cheli et pentachordo
-        ostendit.</p>
+      <p xml:id="ANCMUS0005">Actionem inter similia fieri diapason in cheli et pentachordo ostendit.</p>
     </body>
   </text>
 </TEI>

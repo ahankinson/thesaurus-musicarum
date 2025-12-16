@@ -5,8 +5,9 @@
       <titleStmt>
         <title>[Ad organum faciendum]</title>
         <title type="abbrev">ADORFBA</title>
-        <author><persName>Anonymous</persName></author>
-
+        <author>
+          <persName>Anonymous</persName>
+        </author>
       </titleStmt>
       <editionStmt>
         <edition>Thesaurus Musicarum Latinarum</edition>
@@ -31,9 +32,17 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="edition"> Hans Heinrich Eggebrecht and Frieder Zaminer, eds., <emph>Ad organum
-            faciendum. Lehrschriften der Mehrstimmigkeit in nachguidonischer Zeit</emph>, Neue
-          Studien zur Musikwissenschaft, vol. 3 (Mainz: B. Schotts Söhne, 1970), 149–50. </bibl>
+        <bibl type="source">
+          <title>[Ad organum faciendum]</title>
+          <date notBefore="0800" notAfter="1099">9th-11th</date>
+          <author>
+            <persName>Anonymous</persName>
+          </author>
+        </bibl>
+        <bibl type="edition">
+Hans Heinrich Eggebrecht and Frieder Zaminer, eds., 
+<emph>Ad organum faciendum. Lehrschriften der Mehrstimmigkeit in nachguidonischer Zeit</emph>, Neue Studien zur Musikwissenschaft, vol. 3 (Mainz: B. Schotts Söhne, 1970), 149–50.
+</bibl>
         <bibl type="work">
           <title>Anonymous: Tractatus de organo cod. Berolinensis (B)</title>
           <idno type="LML">ORG. Berol.</idno>
@@ -48,50 +57,47 @@
   </teiHeader>
   <text xml:lang="la">
     <body>
-      <p xml:id="ADORFBA0001">
-        <pb n="[149]"/>Vocum copulationes dicuntur. omni symphonia et de omni cantu dicatur. Cum
-        autem [f.48r in marg.] affinitas uocum iam satis patefacta sit et per diatessaron. et
-        diapente et diapason natura earum persequenda est. Prima uox organi aut manebit coniuncta
-        cum precedenti per diapason uel in eadem. aut disiuncta per diapente. uel diatessaron. Medie
-        uero uoces diapente. uel diatessaron discurrunt. Cum autem cantus prestolatur organum.
-        copulatio fit quollibet modo. et ita cum .IIII. uoces tantum subsequentes sint una organalis
-        dicitur. Nam prima quandoque iungitur. secunda semper disiungitur. Tertia intuens
-        prestolationem. ut habilem copulam tribuat Quarte uoci cum quallibet consonantia. Cum tres
-        uero uoces perspiciuntur ibi est tantum inceptio et cupulatio. Duabus autem sola coniunctio.
-        Nam differentia prime et medie et ultime uocis ideo preponitur. ut cum ad tractum organi
-        perueniremus ad dandas consonantias illarum vocum ne nos turbet ignorantia earum. Sed ut
-        cuncta facilius q[u]escant paulo altius ordiendum est videlicet a primo modo et a secundo et
-        a ceteris. Primus modus organizandi est. quando prima copulatur cum precedenti. Secundus fit
-        per disiunctionem ipsius uocis. Nam differentia est coniunctio respectu disiunctionis.
-        Tertius modus summitur a mediis uocibus que mutantur per diatessaron. si sunt in diapente
-        uel e conuerso. Quartus fit a diuerso principio. uel a diuerso medio non tantum ab uno sed
-        etiam ab utroque. Quintus per multiplicitatem oppositarum uocum. augendo uel auferendo id
-        est ultimam copulam destruendo. quod autem dictum est uerbis ostendamus exemplis.</p>
+      <p xml:id="ADORFBA0001"><pb n="[149]"/>Vocum copulationes dicuntur. omni symphonia et de omni cantu dicatur. Cum autem [f.48r in marg.] affinitas uocum iam satis patefacta sit et per diatessaron. et diapente et diapason natura earum persequenda est. Prima uox organi aut manebit coniuncta cum precedenti per diapason uel in eadem. aut disiuncta per diapente. uel diatessaron. Medie uero uoces diapente. uel diatessaron discurrunt. Cum autem cantus prestolatur organum. copulatio fit quollibet modo. et ita cum .IIII. uoces tantum subsequentes sint una organalis dicitur. Nam prima quandoque iungitur. secunda semper disiungitur. Tertia intuens prestolationem. ut habilem copulam tribuat Quarte uoci cum quallibet consonantia. Cum tres uero uoces perspiciuntur ibi est tantum inceptio et cupulatio. Duabus autem sola coniunctio. Nam differentia prime et medie et ultime uocis ideo preponitur. ut cum ad tractum organi perueniremus ad dandas consonantias illarum vocum ne nos turbet ignorantia earum. Sed ut cuncta facilius q[u]escant paulo altius ordiendum est videlicet a primo modo et a secundo et a ceteris. Primus modus organizandi est. quando prima copulatur cum precedenti. Secundus fit per disiunctionem ipsius uocis. Nam differentia est coniunctio respectu disiunctionis. Tertius modus summitur a mediis uocibus que mutantur per diatessaron. si sunt in diapente uel e conuerso. Quartus fit a diuerso principio. uel a diuerso medio non tantum ab uno sed etiam ab utroque. Quintus per multiplicitatem oppositarum uocum. augendo uel auferendo id est ultimam copulam destruendo. quod autem dictum est uerbis ostendamus exemplis.</p>
       <p xml:id="ADORFBA0002">Quando prima uox copulatur cum precedenti</p>
-      <p class="textFig" xml:id="ADORFBA0003">c a b G F | e c d  c a b G.
-        <lb/>C D F D F | E F G. F E F G. G a.G.F. <br/>Alle-      -lu-         -ia. <lb/></p>
-      <p class="textFig" xml:id="ADORFBA0004">F. a c G F.|  a F C D [E] C [Gamma]
-        <br/>Alle-       -lu-            -ia. <lb/></p>
+      <figure xml:id="ADORFBA0003">
+        <p>c a b G F | e c d  c a b G.
+      <lb/>C D F D F | E F G. F E F G. G a.G.F.
+      <lb/>Alle-      -lu-         -ia.
+      <lb/></p>
+      </figure>
+      <figure xml:id="ADORFBA0004">
+        <p>F. a c G F.|  a F C D [E] C [Gamma]
+      <lb/>Alle-       -lu-            -ia.
+      <lb/></p>
+      </figure>
       <p xml:id="ADORFBA0005">Per disiunctionem ipsius vocis.</p>
-      <p class="textFig" xml:id="ADORFBA0006">F d c G b | a c d c a b G.
-        <br/>Alle-      -lu-        -ia.  <lb/></p>
-      <p xml:id="ADORFBA0007">Mediis uocibus que mutantur diatessaron si sunt in diapente
-        uidelicet</p>
-      <p class="textFig" xml:id="ADORFBA0008">c  G F G D | E C D F a  b  G
-        <br/>Alle-       -lu-          -ia. <lb/></p>
+      <figure xml:id="ADORFBA0006">
+        <p>F d c G b | a c d c a b G.
+      <lb/>Alle-      -lu-        -ia. 
+      <lb/></p>
+      </figure>
+      <p xml:id="ADORFBA0007">Mediis uocibus que mutantur diatessaron si sunt in diapente uidelicet</p>
+      <figure xml:id="ADORFBA0008">
+        <p>c  G F G D | E C D F a  b  G
+      <lb/>Alle-       -lu-          -ia.
+      <lb/></p>
+      </figure>
       <p xml:id="ADORFBA0009">Qualiter ab utroque principio et medio ut istud organum superius</p>
-      <p class="textFig" xml:id="ADORFBA0010">[f.48v in marg.] c    a c d b | a c d c G  F D C D F
-        <br/>               [A]lle-       -lu-         -ia.
-        <lb/>[                                                        ]
-        <br/>a  c  d a c d f c G a c  c G  E C     | D  E c a | c a G |
-        <lb/>a  G  G E F G F E D D C  C D  E F {G} | G  E G a | F E D |
-        <br/>Ius-   tus-              ut  pal-     -ma        flo-
-        <lb/> a c G E G F a c [d]  a  c G a c a | b a c d e [sqb] c a G
-        <br/> D C D E D C D E  D   D  E D E C E | G a c G a   E   F E D
-        <lb/>-re-            -bit  et      sicut ce-
-        <br/>D E G a F a c [sqb]  a c d. d e c d a c G E. G a c a c d.
-        <lb/>F E G E F E C   E    D F D  G E F G E F D E. C D E F E D.
-        <br/>                                                    -drus <lb/></p>
+      <figure xml:id="ADORFBA0010">
+        <p>[f.48v in marg.] c    a c d b | a c d c G  F D C D F
+      <lb/>               [A]lle-       -lu-         -ia.
+      <lb/>[                                                        ]
+      <lb/>a  c  d a c d f c G a c  c G  E C     | D  E c a | c a G |
+      <lb/>a  G  G E F G F E D D C  C D  E F {G} | G  E G a | F E D |
+      <lb/>Ius-   tus-              ut  pal-     -ma        flo-
+      <lb/> a c G E G F a c [d]  a  c G a c a | b a c d e [sqb] c a G
+      <lb/> D C D E D C D E  D   D  E D E C E | G a c G a   E   F E D
+      <lb/>-re-            -bit  et      sicut ce-
+      <lb/>D E G a F a c [sqb]  a c d. d e c d a c G E. G a c a c d.
+      <lb/>F E G E F E C   E    D F D  G E F G E F D E. C D E F E D.
+      <lb/>                                                    -drus
+      <lb/></p>
+      </figure>
       <p xml:id="ADORFBA0011">Explicit organi tractatus.</p>
     </body>
   </text>

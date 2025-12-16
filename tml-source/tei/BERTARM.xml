@@ -5,8 +5,9 @@
       <titleStmt>
         <title>De arte musica</title>
         <title type="abbrev">BERTARM</title>
-        <author><persName>Bertrandus Prudentius</persName></author>
-
+        <author>
+          <persName>Bertrandus Prudentius</persName>
+        </author>
       </titleStmt>
       <editionStmt>
         <edition>Thesaurus Musicarum Latinarum</edition>
@@ -35,15 +36,23 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="edition"> Adrien de la Fage, <emph>Essais de dipthérographie musicale</emph>
-          (Paris: Legouix, 1864), 293–94, 297–303. </bibl>
+        <bibl type="source">
+          <title>De arte musica</title>
+          <date notBefore="0800" notAfter="1099">9th-11th</date>
+          <author>
+            <persName>Bertrandus Prudentius</persName>
+          </author>
+        </bibl>
+        <bibl type="edition">
+Adrien de la Fage, 
+<emph>Essais de dipthérographie musicale</emph> (Paris: Legouix, 1864), 293–94, 297–303.
+</bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text xml:lang="la">
     <body>
-      <p xml:id="BERTARM0001">
-        <pb n="[293]"/>Ordine primigeno nomen jam possidet igin.</p>
+      <p xml:id="BERTARM0001"><pb n="[293]"/>Ordine primigeno nomen jam possidet igin.</p>
       <p xml:id="BERTARM0002">Andras ecce locum mox vendicat ipse secundum.</p>
       <p xml:id="BERTARM0003">Ormis post numeros incompositus sibi primus.</p>
       <p xml:id="BERTARM0004">Terque notat trinum coelenus nomine rhythmum.</p>
@@ -54,22 +63,27 @@
       <p xml:id="BERTARM0009">Octo beatificus temenias exprimit unus.</p>
       <p xml:id="BERTARM0010">En quia fert tibi claves gymnosophista,</p>
       <p xml:id="BERTARM0011">Qualiter immensae penetres conclave Minervae.</p>
-      <p class="textFig" xml:id="BERTARM0012"
-        >*     *     *     *     *     *     *     *     *     *     * <lb/></p>
-      <p xml:id="BERTARM0013">
-        <pb n="[294]"/>Nos tibi viventi venerandas posuimus aras.</p>
-      <p class="textFig" xml:id="BERTARM0014"
-        >*     *     *     *     *     *     *     *     *     *     * <br/></p>
+      <figure xml:id="BERTARM0012">
+        <p>*     *     *     *     *     *     *     *     *     *     *
+      <lb/></p>
+      </figure>
+      <p xml:id="BERTARM0013"><pb n="[294]"/>Nos tibi viventi venerandas posuimus aras.</p>
+      <figure xml:id="BERTARM0014">
+        <p>*     *     *     *     *     *     *     *     *     *     *
+      <lb/></p>
+      </figure>
       <p xml:id="BERTARM0015">Virtutum quia clarifico splendore micabat,</p>
       <p xml:id="BERTARM0016">Cum Phoebi lampas super astra radiens, et cetera.</p>
-      <p class="textFig" xml:id="BERTARM0017"
-        >*     *     *     *     *     *     *     *     *     *     * <lb/></p>
-      <p xml:id="BERTARM0018">Bertrandi Prudentii condam karrotensis super arte musica versus centum
-        LXX quorum plenitudine pro dolor mors abstulit seva.</p>
-      <p class="textFig" xml:id="BERTARM0019"
-        >*     *     *     *     *     *     *     *     *     *     * <br/></p>
-      <p xml:id="BERTARM0020">
-        <pb n="[297]"/>Bertrandi Prudentii, Karrotensis Monaci</p>
+      <figure xml:id="BERTARM0017">
+        <p>*     *     *     *     *     *     *     *     *     *     *
+      <lb/></p>
+      </figure>
+      <p xml:id="BERTARM0018">Bertrandi Prudentii condam karrotensis super arte musica versus centum LXX quorum plenitudine pro dolor mors abstulit seva.</p>
+      <figure xml:id="BERTARM0019">
+        <p>*     *     *     *     *     *     *     *     *     *     *
+      <lb/></p>
+      </figure>
+      <p xml:id="BERTARM0020"><pb n="[297]"/>Bertrandi Prudentii, Karrotensis Monaci</p>
       <p xml:id="BERTARM0021">De arte musica</p>
       <p xml:id="BERTARM0022">I.--Quod una sit septem artium.</p>
       <p xml:id="BERTARM0023">Utilis in multis ars musica rebus habetur;</p>
@@ -78,8 +92,7 @@
       <p xml:id="BERTARM0026">E quibus esse mihi praesens non duco fatendum,</p>
       <p xml:id="BERTARM0027">Forte nisi de qua sermonem texere coepi</p>
       <p xml:id="BERTARM0028">Et quam nunc supra videor tetigisse parumper.</p>
-      <p xml:id="BERTARM0029">II.--Quod ars musica difficilis sit, et nisi memoria teneantur soni
-        pereant, quia scribi non possunt.</p>
+      <p xml:id="BERTARM0029">II.--Quod ars musica difficilis sit, et nisi memoria teneantur soni pereant, quia scribi non possunt.</p>
       <p xml:id="BERTARM0030">Ex hac arte quidem multi sunt multa locuti,</p>
       <p xml:id="BERTARM0031">Est quia difficilis, nec capta tenetur ab ullo,</p>
       <p xml:id="BERTARM0032">Si bene non fuerit menti religata tenaci.</p>
@@ -94,8 +107,7 @@
       <p xml:id="BERTARM0041">Artibus ex septem sibi vindicet atque retentat?</p>
       <p xml:id="BERTARM0042">Aonio quasdam dicunt in vertice musas</p>
       <p xml:id="BERTARM0043">Carminis esse deas: ex his est musica primum</p>
-      <p xml:id="BERTARM0044">
-        <pb n="[298]"/>Dicta, velut priscos aiunt cecinisse poetas.</p>
+      <p xml:id="BERTARM0044"><pb n="[298]"/>Dicta, velut priscos aiunt cecinisse poetas.</p>
       <p xml:id="BERTARM0045">Has etenim musas non sine numine fingunt;</p>
       <p xml:id="BERTARM0046">Ex Jove Memoriam multi generasse fatentur.</p>
       <p xml:id="BERTARM0047">IV.--Qui primi fuerint artis musicae inventores.</p>
@@ -111,8 +123,7 @@
       <p xml:id="BERTARM0057">Nam David, alius quamvis antiquior extet,</p>
       <p xml:id="BERTARM0058">Nullus in hac illo fuit excellentior arte,</p>
       <p xml:id="BERTARM0059">Quo psallente procul Daemon a rege recessit.</p>
-      <p xml:id="BERTARM0060">V.--Quod varie inventores ipsi, pro qualitate rerum, eadem ipsa musica
-        usi fuerint.</p>
+      <p xml:id="BERTARM0060">V.--Quod varie inventores ipsi, pro qualitate rerum, eadem ipsa musica usi fuerint.</p>
       <p xml:id="BERTARM0061">Carmina, quae quamvis simili composita metro</p>
       <p xml:id="BERTARM0062">Esse videantur, non uno nomine semper</p>
       <p xml:id="BERTARM0063">Versificatores eadem vocitare solebant;</p>
@@ -123,19 +134,16 @@
       <p xml:id="BERTARM0068">In templis hymnos et cantica sacra canebant.</p>
       <p xml:id="BERTARM0069">Connexens cytharam plectrum feriebat eburnum,</p>
       <p xml:id="BERTARM0070">Et dabat in bello quamvis tuba rauca boatum.</p>
-      <p xml:id="BERTARM0071">VI.--Quod musica mentes exhilaret tristes, singulorum operum relevet
-        fatigationes.</p>
+      <p xml:id="BERTARM0071">VI.--Quod musica mentes exhilaret tristes, singulorum operum relevet fatigationes.</p>
       <p xml:id="BERTARM0072">Quis queat ore loqui, vel quis perpendere sensu</p>
       <p xml:id="BERTARM0073">Quot bona, dante Deo, multis haec musica praestet!</p>
-      <p xml:id="BERTARM0074">
-        <pb n="[299]"/>Tristes exhilarat mentes, demulcet amaras;</p>
+      <p xml:id="BERTARM0074"><pb n="[299]"/>Tristes exhilarat mentes, demulcet amaras;</p>
       <p xml:id="BERTARM0075">Si labor est durus, cantando saepe levatur,</p>
       <p xml:id="BERTARM0076">Nam via difficilis facilis fit carmine semper;</p>
       <p xml:id="BERTARM0077">Dumque metunt segetes video cantare puellas,</p>
       <p xml:id="BERTARM0078">Atque suas etiam satagunt dum texere telas,</p>
       <p xml:id="BERTARM0079">Saepe solent proprium cantu relevare laborem.</p>
-      <p xml:id="BERTARM0080">VII.--Quod musica non solum rationabiles, sed et ratione carentes
-        faciat tripudiare creaturas.</p>
+      <p xml:id="BERTARM0080">VII.--Quod musica non solum rationabiles, sed et ratione carentes faciat tripudiare creaturas.</p>
       <p xml:id="BERTARM0081">Mira namque sui mulcet dulcedine cantus</p>
       <p xml:id="BERTARM0082">Non solum auditum hominum, sed saepe ferarum.</p>
       <p xml:id="BERTARM0083">Ipse poetarum sicut doctissimus olim</p>
@@ -155,12 +163,10 @@
       <p xml:id="BERTARM0097">Aure queant patula placidum placare celeuma.</p>
       <p xml:id="BERTARM0098">De Inerguminis.</p>
       <p xml:id="BERTARM0099">Haec et inerguminis ars multum musica praestat,</p>
-      <p xml:id="BERTARM0100">
-        <pb n="[300]"/>Quatinus ut mira placidi dulcedine cantus,</p>
+      <p xml:id="BERTARM0100"><pb n="[300]"/>Quatinus ut mira placidi dulcedine cantus,</p>
       <p xml:id="BERTARM0101">Aut det ab obsessis fetidas discedere larvas,</p>
       <p xml:id="BERTARM0102">Aut levius horum tribuat tolerare furores.</p>
-      <p xml:id="BERTARM0103">VIII.--Quod ars musica in tribus principalibus mundi conditionibus
-        proprium obtineat primatum.</p>
+      <p xml:id="BERTARM0103">VIII.--Quod ars musica in tribus principalibus mundi conditionibus proprium obtineat primatum.</p>
       <p xml:id="BERTARM0104">Tres si quidem in partes orbis distinguitur iste,</p>
       <p xml:id="BERTARM0105">Quas coelum, terram, pontumque vocare solemus,</p>
       <p xml:id="BERTARM0106">In quibus ars eadem propriam vim jusque retentat,</p>
@@ -173,8 +179,7 @@
       <p xml:id="BERTARM0113">Haec ars in terris, quae musica saepe vocatur,</p>
       <p xml:id="BERTARM0114">Qualis apud superos sit, ei vel quanta potestas,</p>
       <p xml:id="BERTARM0115">Nec si mille forent linguae mihi dicere possim.</p>
-      <p xml:id="BERTARM0116">IX.--Nimia artis musicae laus est: etiam cantu avium dulcissona
-        habetur.</p>
+      <p xml:id="BERTARM0116">IX.--Nimia artis musicae laus est: etiam cantu avium dulcissona habetur.</p>
       <p xml:id="BERTARM0117">Haec ars a nobis quae musica saepe vocatur</p>
       <p xml:id="BERTARM0118">Inter aves etiam plerumque vigere videtur.</p>
       <p xml:id="BERTARM0119">Vere novo volucres dulces depromere cantus</p>
@@ -188,8 +193,7 @@
       <p xml:id="BERTARM0127">Et fiet interdum tenebris utillatus iniquis;</p>
       <p xml:id="BERTARM0128">Nuntiat adventum recinens instare diei,</p>
       <p xml:id="BERTARM0129">Et cantu solem testatur adesse propinquum.</p>
-      <p xml:id="BERTARM0130">
-        <pb n="[301]"/>De Cuculo.</p>
+      <p xml:id="BERTARM0130"><pb n="[301]"/>De Cuculo.</p>
       <p xml:id="BERTARM0131">Carmine de cuculo mihi non reor esse silendum,</p>
       <p xml:id="BERTARM0132">Pastores pecorum quem semper amare feruntur.</p>
       <p xml:id="BERTARM0133">Si post transactas hiemes et frigora cuncta,</p>
@@ -217,8 +221,7 @@
       <p xml:id="BERTARM0155">De Phoenice.</p>
       <p xml:id="BERTARM0156">Est et avis cantu visuque per omnia digna,</p>
       <p xml:id="BERTARM0157">Quae plus quingentos vitam producit in annos;</p>
-      <p xml:id="BERTARM0158">
-        <pb n="[302]"/>Hanc Deus omnipotens unam consistere tantum</p>
+      <p xml:id="BERTARM0158"><pb n="[302]"/>Hanc Deus omnipotens unam consistere tantum</p>
       <p xml:id="BERTARM0159">Disposuit, totum verbo qui condidit orbem,</p>
       <p xml:id="BERTARM0160">Paradisiacis jussit rememorarier agris,</p>
       <p xml:id="BERTARM0161">Nunc ubi mellifluum satagit depromere carmen,</p>
@@ -250,8 +253,7 @@
       <p xml:id="BERTARM0187">Quidam nautarum vocitant quod saepe sirenam,</p>
       <p xml:id="BERTARM0188">Insuper et proprio dicunt satis ore melodum,</p>
       <p xml:id="BERTARM0189">Etiam ut laetiferum in altis videatur adesse.</p>
-      <p xml:id="BERTARM0190">
-        <pb n="[303]"/>XI.--Quod nil rectum obtineat sine musica sui status plenitudinem.</p>
+      <p xml:id="BERTARM0190"><pb n="[303]"/>XI.--Quod nil rectum obtineat sine musica sui status plenitudinem.</p>
       <p xml:id="BERTARM0191">Ecce patet quod in hominibus haec ars utilis adsit,</p>
       <p xml:id="BERTARM0192">Nec bene stare potest quod permanent ipsius expers:</p>
       <p xml:id="BERTARM0193">Propterea non est a quoquam dispicienda,</p>

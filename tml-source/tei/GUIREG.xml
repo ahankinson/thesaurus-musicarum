@@ -5,8 +5,9 @@
       <titleStmt>
         <title>Regulae rhythmicae</title>
         <title type="abbrev">GUIREG</title>
-        <author><persName>Guido d'Arezzo</persName></author>
-
+        <author>
+          <persName>Guido d'Arezzo</persName>
+        </author>
       </titleStmt>
       <editionStmt>
         <edition>Thesaurus Musicarum Latinarum</edition>
@@ -31,11 +32,15 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="edition">
-          <emph>Guidonis Aretini "Regulae rhythmicae"</emph>, ed. Joseph Smits van Waesberghe and
-          Eduard Vetter, Divitiae musicae artis A/IV (Buren: Knuf, 1985), 92–133. As a work, this
-          treatise is in the public domain. As a raw transcription, this file is free of copyright
-          and may be reproduced and distributed freely. </bibl>
+        <bibl type="source">
+          <title>Regulae rhythmicae</title>
+          <date notBefore="0800" notAfter="1099">9th-11th</date>
+          <author>
+            <persName>Guido d'Arezzo</persName>
+          </author>
+        </bibl>
+        <bibl type="edition"><emph>Guidonis Aretini "Regulae rhythmicae"</emph>, ed. Joseph Smits van Waesberghe and Eduard Vetter, Divitiae musicae artis A/IV (Buren: Knuf, 1985), 92–133. As a work, this treatise is in the public domain. As a raw transcription, this file is free of copyright and may be reproduced and distributed freely.
+</bibl>
         <bibl type="work">
           <title>Guido Aretinus: Regulae rhythmicae</title>
           <idno type="LML">GUIDO reg.</idno>
@@ -245,18 +250,14 @@
   </teiHeader>
   <text xml:lang="la">
     <body>
-      <p xml:id="GUIREG0001">
-        <pb n="[92]"/>[ACROSTICHON]</p>
-      <p xml:id="GUIREG0002">
-        <pb n="[93]"/>[Gliscunt corda meis hominum mollita camenis.</p>
+      <p xml:id="GUIREG0001"><pb n="[92]"/>[ACROSTICHON]</p>
+      <p xml:id="GUIREG0002"><pb n="[93]"/>[Gliscunt corda meis hominum mollita camenis.</p>
       <p xml:id="GUIREG0003">Una mihi virtus numeratos contulit ictus.</p>
       <p xml:id="GUIREG0004">In caelis summo gratissima carmina fundo</p>
       <p xml:id="GUIREG0005">Dans aulae Christi munus cum voce ministri.</p>
       <p xml:id="GUIREG0006">Ordine me scripsi primo qui carmina finxi.]</p>
-      <p xml:id="GUIREG0007">
-        <pb n="[94]"/>[GUIDONIS REGULAE RHYTHMICAE]</p>
-      <p xml:id="GUIREG0008">
-        <pb n="[95]"/>Musicorum et cantorum magna est distantia:</p>
+      <p xml:id="GUIREG0007"><pb n="[94]"/>[GUIDONIS REGULAE RHYTHMICAE]</p>
+      <p xml:id="GUIREG0008"><pb n="[95]"/>Musicorum et cantorum magna est distantia:</p>
       <p xml:id="GUIREG0009">Isti dicunt, illi sciunt, quae componit musica.</p>
       <p xml:id="GUIREG0010">Nam qui facit, quod non sapit, diffinitur bestia.</p>
       <p xml:id="GUIREG0011">Ceterum tonantis vocis si laudent acumina,</p>
@@ -264,8 +265,7 @@
       <p xml:id="GUIREG0013">Quare eis esse suum tollit dialectica.</p>
       <p xml:id="GUIREG0014">Hac de causa rusticorum multitudo plurima,</p>
       <p xml:id="GUIREG0015">Donec frustra vivit, mira laborat insania,</p>
-      <p xml:id="GUIREG0016">
-        <pb n="[96]"/>Dum sine magistro nulla discitur antiphona.</p>
+      <p xml:id="GUIREG0016"><pb n="[96]"/>Dum sine magistro nulla discitur antiphona.</p>
       <p xml:id="GUIREG0017">Notis ergo illis spretis, quibus vulgus utitur,</p>
       <p xml:id="GUIREG0018">Qui sine ductore nusquam ut caecus progreditur,</p>
       <p xml:id="GUIREG0019">Septem istas disce notas septem caracteribus:</p>
@@ -273,8 +273,7 @@
       <p xml:id="GUIREG0021">Namque aliae septenae, quae sequuntur postea,</p>
       <p xml:id="GUIREG0022">Non sunt aliae, sed una replicantur regula,</p>
       <p xml:id="GUIREG0023">Quia vocum ut dierum aeque fit ebdomada.</p>
-      <p xml:id="GUIREG0024">
-        <pb n="[97]"/>Quas si, sicut audiuntur, vis videre oculis</p>
+      <p xml:id="GUIREG0024"><pb n="[97]"/>Quas si, sicut audiuntur, vis videre oculis</p>
       <p xml:id="GUIREG0025">Ore interim silente, manualis operis</p>
       <p xml:id="GUIREG0026">Argumentum fiat certis diffinitum numeris.</p>
       <p xml:id="GUIREG0027">Gamma graecum quidam ponunt ante primam litteram.</p>
@@ -282,8 +281,7 @@
       <p xml:id="GUIREG0029">Ubi primus passus finit, prima erit littera.</p>
       <p xml:id="GUIREG0030">Modo simili a prima passus fiant totidem,</p>
       <p xml:id="GUIREG0031">Et secundae locus patet supradicto ordine,</p>
-      <p xml:id="GUIREG0032">
-        <pb n="[98]"/>Quam concordiam sonorum tonum dicunt musici.</p>
+      <p xml:id="GUIREG0032"><pb n="[98]"/>Quam concordiam sonorum tonum dicunt musici.</p>
       <p xml:id="GUIREG0033">Rursus totam gammae cordam divide per quattuor.</p>
       <p xml:id="GUIREG0034">Tertia confestim canet secundae vicinior.</p>
       <p xml:id="GUIREG0035">Tantillum duobus tonis plus est diatessaron.</p>
@@ -292,8 +290,7 @@
       <p xml:id="GUIREG0038">De quaternis habet diatessaron vocabulum.</p>
       <p xml:id="GUIREG0039">Ipsi tonus si addatur, diapente oritur,</p>
       <p xml:id="GUIREG0040">Quod de quinque nomen graecum in latinum vertitur;</p>
-      <p xml:id="GUIREG0041">
-        <pb n="[99]"/>Nam si passus ternos facit, quinque constat vocibus.</p>
+      <p xml:id="GUIREG0041"><pb n="[99]"/>Nam si passus ternos facit, quinque constat vocibus.</p>
       <p xml:id="GUIREG0042">Inde prima dabit quartae quaternis indicium,</p>
       <p xml:id="GUIREG0043">Et secunda servit quintae per eundem numerum;</p>
       <p xml:id="GUIREG0044">Tertia conducit sextam neque mutat calculum.</p>
@@ -301,8 +298,7 @@
       <p xml:id="GUIREG0046">Tunc a prima sic octava locum sumit proprium;</p>
       <p xml:id="GUIREG0047">Immo prima fit a prima neque mutat numerum.</p>
       <p xml:id="GUIREG0048">Sic secunda dat secundam, tertiaque tertiam,</p>
-      <p xml:id="GUIREG0049">
-        <pb n="[100]"/>Quarta quartam, quinta quintam, quaeque suam alteram</p>
+      <p xml:id="GUIREG0049"><pb n="[100]"/>Quarta quartam, quinta quintam, quaeque suam alteram</p>
       <p xml:id="GUIREG0050">Gravium acutam signat per eandem litteram.</p>
       <p xml:id="GUIREG0051">Vocis primae ad octavam vel eandem litteram:</p>
       <p xml:id="GUIREG0052">Hanc concordiam sonorum diapason nominant,</p>
@@ -310,8 +306,7 @@
       <p xml:id="GUIREG0054">Omnes quia habet voces, vel quod totam lineam</p>
       <p xml:id="GUIREG0055">Per duos partitur passus in eandem litteram.</p>
       <p xml:id="GUIREG0056">Ea bisque geminata monocordum terminat.</p>
-      <p xml:id="GUIREG0057">
-        <pb n="[101]"/>Quinque habet ipsa tonos, duo semitonia;</p>
+      <p xml:id="GUIREG0057"><pb n="[101]"/>Quinque habet ipsa tonos, duo semitonia;</p>
       <p xml:id="GUIREG0058">Habet in se diapente atque diatessaron;</p>
       <p xml:id="GUIREG0059">Maxima symphoniarum et vocum est unitas.</p>
       <p xml:id="GUIREG0060">Miror quattuor fecisse quosdam signa vocibus,</p>
@@ -319,8 +314,7 @@
       <p xml:id="GUIREG0062">Quaedam, quamvis sint affines, non perfecte consonant.</p>
       <p xml:id="GUIREG0063">Item gammae de novenis passibus, quos diximus,</p>
       <p xml:id="GUIREG0064">Sicut primam passus primus, sic dat quartam tertius,</p>
-      <p xml:id="GUIREG0065">
-        <pb n="[102]"/>Primam quintus, quartam sextus, primam rursus septimus.</p>
+      <p xml:id="GUIREG0065"><pb n="[102]"/>Primam quintus, quartam sextus, primam rursus septimus.</p>
       <p xml:id="GUIREG0066">Primae quoque passus primus ut secundam statuit,</p>
       <p xml:id="GUIREG0067">Sic et tertius in quinta finem suum terminat;</p>
       <p xml:id="GUIREG0068">Quintus item dat secundam, sextus quintam renovat.</p>
@@ -328,14 +322,12 @@
       <p xml:id="GUIREG0070">Sicut tertiam demonstrat, sic secundus septimam;</p>
       <p xml:id="GUIREG0071">Tertius eandem signat triplicatam septimam.</p>
       <p xml:id="GUIREG0072">Tertiam quoque quadrando ut sextam efficimus,</p>
-      <p xml:id="GUIREG0073">
-        <pb n="[103]"/>Sic mox altero in passu tertiam rescribimus,</p>
+      <p xml:id="GUIREG0073"><pb n="[103]"/>Sic mox altero in passu tertiam rescribimus,</p>
       <p xml:id="GUIREG0074">Quam quadrando rursus sextam alteram perficimus.</p>
       <p xml:id="GUIREG0075">Sunt qui addunt in acutis iuxta primam alteram,</p>
       <p xml:id="GUIREG0076">Sed Gregorio non placet patri haec lascivia,</p>
       <p xml:id="GUIREG0077">Et moderni sapientes hanc neque commemorant.</p>
-      <p xml:id="GUIREG0078">
-        <pb n="[104]"/>Quamvis ergo apud quosdam ipsa fiat vocula,</p>
+      <p xml:id="GUIREG0078"><pb n="[104]"/>Quamvis ergo apud quosdam ipsa fiat vocula,</p>
       <p xml:id="GUIREG0079">Apud multos tamen iure dicitur superflua,</p>
       <p xml:id="GUIREG0080">Altera vero secunda semper est autentica.</p>
       <p xml:id="GUIREG0081">Nota caute: omnes toni novem fiunt passibus,</p>
@@ -345,8 +337,7 @@
       <p xml:id="GUIREG0085">At si cymbala formentur musicorum opere,</p>
       <p xml:id="GUIREG0086">Hae mensurae sunt cavendae maxime in pondere.</p>
       <p xml:id="GUIREG0087">His mensuris comparantur et canora organa,</p>
-      <p xml:id="GUIREG0088">
-        <pb n="[105]"/>Et quaecumque rite fiunt musicorum vascula;</p>
+      <p xml:id="GUIREG0088"><pb n="[105]"/>Et quaecumque rite fiunt musicorum vascula;</p>
       <p xml:id="GUIREG0089">His mensuris deo canit tota nunc ecclesia.</p>
       <p xml:id="GUIREG0090">Omnis vox secundae sibi iungitur et tertiae;</p>
       <p xml:id="GUIREG0091">Quartae vero atque quintae non iungetur aliter,</p>
@@ -354,8 +345,7 @@
       <p xml:id="GUIREG0093">Tono semitoniove vox secundae iungitur.</p>
       <p xml:id="GUIREG0094">Ditonus vero et semiditonus vocabitur,</p>
       <p xml:id="GUIREG0095">Si qua vox ultra secundam tertiam aggreditur.</p>
-      <p xml:id="GUIREG0096">
-        <pb n="[106]"/>Diatessaron habetur, cum ad quartam graditur.</p>
+      <p xml:id="GUIREG0096"><pb n="[106]"/>Diatessaron habetur, cum ad quartam graditur.</p>
       <p xml:id="GUIREG0097">Diapente nominatur, quintae cum coniungitur.</p>
       <p xml:id="GUIREG0098">Nisi motibus his senis nulla vox movebitur.</p>
       <p xml:id="GUIREG0099">Omnis ergo cantilena quia his efficitur,</p>
@@ -364,8 +354,7 @@
       <p xml:id="GUIREG0102">Ergo quater elevari vel gravari poterunt</p>
       <p xml:id="GUIREG0103">Prima, tertia et quarta, quinta atque septima;</p>
       <p xml:id="GUIREG0104">Sextae vero et secundae non est haec licentia.</p>
-      <p xml:id="GUIREG0105">
-        <pb n="[107]"/>Nam secunda ad subquartam minime gravabitur,</p>
+      <p xml:id="GUIREG0105"><pb n="[107]"/>Nam secunda ad subquartam minime gravabitur,</p>
       <p xml:id="GUIREG0106">Atque usque superquintam numquam elevabitur;</p>
       <p xml:id="GUIREG0107">Superquartae et subquintae sexta non coniungitur.</p>
       <p xml:id="GUIREG0108">Semitonia et toni quia dissimiliter</p>
@@ -373,24 +362,21 @@
       <p xml:id="GUIREG0110">Ut nullius vocis sonus idem sit in altera.</p>
       <p xml:id="GUIREG0111">Vocibus tamen in septem quaedam est concordia;</p>
       <p xml:id="GUIREG0112">Saepe enim, si non semper, eadem antiphona</p>
-      <p xml:id="GUIREG0113">
-        <pb n="[108]"/>Diversis cantatur sonis nec mutat armoniam.</p>
+      <p xml:id="GUIREG0113"><pb n="[108]"/>Diversis cantatur sonis nec mutat armoniam.</p>
       <p xml:id="GUIREG0114">Nempe quattuor sunt modi in septenis voculis,</p>
       <p xml:id="GUIREG0115">Magna cura cognoscendi, quos Graecorum regula</p>
       <p xml:id="GUIREG0116">Protum, deuterum et tritum ac tetrardum nominat:</p>
       <p xml:id="GUIREG0117">Protus primus et secundus nominatur deuterus;</p>
       <p xml:id="GUIREG0118">Tritus tertius vocatur, quartus vero tetrardus;</p>
       <p xml:id="GUIREG0119">Ordinatim disponuntur taliter in vocibus.</p>
-      <p xml:id="GUIREG0120">
-        <pb n="[109]"/>Namque prima vox et quarta primum modum exhibent,</p>
+      <p xml:id="GUIREG0120"><pb n="[109]"/>Namque prima vox et quarta primum modum exhibent,</p>
       <p xml:id="GUIREG0121">At secundum dat secunda atque quinta pariter;</p>
       <p xml:id="GUIREG0122">Tertia collata sextae saepe cantat eadem.</p>
       <p xml:id="GUIREG0123">Quartum modum his adiungit singularis septima,</p>
       <p xml:id="GUIREG0124">Quae tamen in elevando sonat sicut tertia,</p>
       <p xml:id="GUIREG0125">Descendendo sibi quartam perhibet sororculam.</p>
       <p xml:id="GUIREG0126">Est praeterea cum prima valde quinta similis,</p>
-      <p xml:id="GUIREG0127">
-        <pb n="[110]"/>Sed in deponendo tantum, namque si notaveris</p>
+      <p xml:id="GUIREG0127"><pb n="[110]"/>Sed in deponendo tantum, namque si notaveris</p>
       <p xml:id="GUIREG0128">Semitonia et tonos, haec, ut audis, videris.</p>
       <p xml:id="GUIREG0129">Reliquae iam vero voces sibi valde dissident;</p>
       <p xml:id="GUIREG0130">Suam quaeque facit neumam alteri dissimilem,</p>
@@ -398,8 +384,7 @@
       <p xml:id="GUIREG0132">Aure tamen curiosa valde erit utile,</p>
       <p xml:id="GUIREG0133">Si advertas et cognoscas, armonia qualiter</p>
       <p xml:id="GUIREG0134">Quattuor canatur modis transformata facie.</p>
-      <p xml:id="GUIREG0135">
-        <pb n="[111]"/>Quattuor ex quibus modis octo dehinc facimus,</p>
+      <p xml:id="GUIREG0135"><pb n="[111]"/>Quattuor ex quibus modis octo dehinc facimus,</p>
       <p xml:id="GUIREG0136">Quia gravia et alta cantica discernimus,</p>
       <p xml:id="GUIREG0137">Cum autentos atque plagas more graeco dicimus.</p>
       <p xml:id="GUIREG0138">Alti cantus sunt autenti, graves plagas nominant,</p>
@@ -407,27 +392,27 @@
       <p xml:id="GUIREG0140">Octo formulas tonorum vel modorum indicant.</p>
       <p xml:id="GUIREG0141">Protus est autentus primus, plagis proti secundus;</p>
       <p xml:id="GUIREG0142">Deuterus autentus extat, tertium quem dicimus;</p>
-      <p xml:id="GUIREG0143">
-        <pb n="[112]"/>Quartus erit plagis eius, ordine qui sequitur;</p>
+      <p xml:id="GUIREG0143"><pb n="[112]"/>Quartus erit plagis eius, ordine qui sequitur;</p>
       <p xml:id="GUIREG0144">Quintus est autentus tritus, sextus plagis ipsius;</p>
       <p xml:id="GUIREG0145">Hinc autentus est tetrardus, quem vocamus septimum;</p>
       <p xml:id="GUIREG0146">Plagis tetrardi octavus, septimum qui sequitur.</p>
       <p xml:id="GUIREG0147">Quorum duo unam vocem tenent, ut praediximus,</p>
       <p xml:id="GUIREG0148">Quia vocum in natura quattuor sunt verius;</p>
       <p xml:id="GUIREG0149">Quos si sapis, hac in arte nihil est utilius.</p>
-      <p class="textFig" xml:id="GUIREG0150">I  III  V  I  III  V  VII  I  III  V  I  III  V  VII
-        <lb/>A   B   C  D   E   F   G   a   b   c  d   e   f   g
-        <br/>II IIII VI II IIII VI VIII II IIII VI II IIII VI VIII <lb/></p>
-      <p xml:id="GUIREG0151">
-        <pb n="[113]"/>Quamvis omnes voces cantus atque modos habeat,</p>
+      <figure xml:id="GUIREG0150">
+        <p>I  III  V  I  III  V  VII  I  III  V  I  III  V  VII
+      <lb/>A   B   C  D   E   F   G   a   b   c  d   e   f   g
+      <lb/>II IIII VI II IIII VI VIII II IIII VI II IIII VI VIII
+      <lb/></p>
+      </figure>
+      <p xml:id="GUIREG0151"><pb n="[113]"/>Quamvis omnes voces cantus atque modos habeat,</p>
       <p xml:id="GUIREG0152">Eius tamen erit modi, quem finalem resonat,</p>
       <p xml:id="GUIREG0153">Nam ab ipso sumit normam, qualiter se habeat.</p>
       <p xml:id="GUIREG0154">Vocem quartam atque quintam, sextam atque septimam</p>
       <p xml:id="GUIREG0155">Finales habemus; multi sine differentia</p>
       <p xml:id="GUIREG0156">Ubicumque ponunt fines sicut et principia.</p>
       <p xml:id="GUIREG0157">Quique cantus ad octavas salit regulariter,</p>
-      <p xml:id="GUIREG0158">
-        <pb n="[114]"/>Et ad quintas a finali poterit descendere,</p>
+      <p xml:id="GUIREG0158"><pb n="[114]"/>Et ad quintas a finali poterit descendere,</p>
       <p xml:id="GUIREG0159">Quando plagae et autenti non sunt differentiae.</p>
       <p xml:id="GUIREG0160">Quod si plagas ab autentis convenit discernere,</p>
       <p xml:id="GUIREG0161">Plagae saliunt ad quintas, nec vadunt ulterius,</p>
@@ -435,35 +420,28 @@
       <p xml:id="GUIREG0163">At autenti ad octavas competenter saliunt,</p>
       <p xml:id="GUIREG0164">A finali uno tono neque cadunt amplius.</p>
       <p xml:id="GUIREG0165">Trito tonus cum non subsit, finis est gravissimus.</p>
-      <p xml:id="GUIREG0166">
-        <pb n="[115]"/>Fini quoque debet esse consonum principium,</p>
+      <p xml:id="GUIREG0166"><pb n="[115]"/>Fini quoque debet esse consonum principium,</p>
       <p xml:id="GUIREG0167">Unde quintum a finali non excedat calculum,</p>
       <p xml:id="GUIREG0168">Plagae vero superquartas non tendant principium.</p>
       <p xml:id="GUIREG0169">Inter alias secunda vox iacet ignobilis,</p>
       <p xml:id="GUIREG0170">Contra tertia et sexta frequentantur saepius,</p>
       <p xml:id="GUIREG0171">Cuius rei mihi testis sanctus est Gregorius.</p>
       <p xml:id="GUIREG0172">Principalem quoque esse quia ipsam noluit,</p>
-      <p xml:id="GUIREG0173">
-        <pb n="[116]"/>Deuterus autentus sumpsit loco eius tertiam,</p>
+      <p xml:id="GUIREG0173"><pb n="[116]"/>Deuterus autentus sumpsit loco eius tertiam,</p>
       <p xml:id="GUIREG0174">Cuius finis, quamvis sexta, saepe ipsum inchoat.</p>
       <p xml:id="GUIREG0175">Multa autem usurpantur nec tenentur regula,</p>
       <p xml:id="GUIREG0176">Quia tempore a multo desuevit musica,</p>
       <p xml:id="GUIREG0177">Dum invidia et torpor cuncta tollunt studia.</p>
       <p xml:id="GUIREG0178">Illud vero late patet, quod fiant de vocibus,</p>
       <p xml:id="GUIREG0179">Velut syllabae et partes, cola atque commata,</p>
-      <p xml:id="GUIREG0180">
-        <pb n="[117]"/>Concinuntque saepe versus arte sicut metrica.</p>
+      <p xml:id="GUIREG0180"><pb n="[117]"/>Concinuntque saepe versus arte sicut metrica.</p>
       <p xml:id="GUIREG0181">Solis litteris notare optimum probavimus,</p>
       <p xml:id="GUIREG0182">Quibus ad discendum cantum nihil est facilius,</p>
       <p xml:id="GUIREG0183">Si assidue utantur saltem tribus mensibus.</p>
-      <p xml:id="GUIREG0184">[DMA A/IV:117,1; text: Sit nomen domini benedictum in secula, d, [sqb],
-        c, e, a, F, G] <figure>
-          <graphic url="/images/GUIREG_01GF.gif"/>
-        </figure></p>
-      <p xml:id="GUIREG0185">[DMA A/IV:117,2; text: Adiutorium nostrum in nomine domini, F, G, a, E,
-        D, C]</p>
-      <p xml:id="GUIREG0186">
-        <pb n="[118]"/>Causa vero breviandi neumae solent fieri,</p>
+      <p xml:id="GUIREG0184">[DMA A/IV:117,1; text: Sit nomen domini benedictum in secula, d, [sqb], c, e, a, F, G] 
+      <figure><graphic url="/images/GUIREG_01GF.gif"/></figure></p>
+      <p xml:id="GUIREG0185">[DMA A/IV:117,2; text: Adiutorium nostrum in nomine domini, F, G, a, E, D, C]</p>
+      <p xml:id="GUIREG0186"><pb n="[118]"/>Causa vero breviandi neumae solent fieri,</p>
       <p xml:id="GUIREG0187">Quae si curiose fiant, habentur pro litteris,</p>
       <p xml:id="GUIREG0188">Hoc si modo disponantur litterae cum lineis.</p>
       <p xml:id="GUIREG0189">[DMA A/IV:118,1; text: Spera in domino et fac bonitatem, a, G, F]</p>
@@ -471,8 +449,7 @@
       <p xml:id="GUIREG0191">Vox interponatur una, nempe quaerit ratio,</p>
       <p xml:id="GUIREG0192">Variis ut sit in rebus varia positio.</p>
       <p xml:id="GUIREG0193">[DMA A/IV:118,2; text: Sancti spiritus adsit nobis gratia, c, a, F]</p>
-      <p xml:id="GUIREG0194">
-        <pb n="[119]"/>Ut proprietas sonorum discernatur clarius,</p>
+      <p xml:id="GUIREG0194"><pb n="[119]"/>Ut proprietas sonorum discernatur clarius,</p>
       <p xml:id="GUIREG0195">Quasdam lineas signamus variis coloribus,</p>
       <p xml:id="GUIREG0196">Ut quo loco, quis sit sonus, mox discernat oculus.</p>
       <p xml:id="GUIREG0197">Ordine tertiae vocis splendens crocus radiat,</p>
@@ -480,8 +457,7 @@
       <p xml:id="GUIREG0199">Est affinitas colorum reliquis indicio.</p>
       <p xml:id="GUIREG0200">At si littera vel color neumis non intererit,</p>
       <p xml:id="GUIREG0201">Tale erit quasi funem dum non habet puteus,</p>
-      <p xml:id="GUIREG0202">
-        <pb n="[120]"/>Cuius aquae, quamvis multae, nil prosunt videntibus.</p>
+      <p xml:id="GUIREG0202"><pb n="[120]"/>Cuius aquae, quamvis multae, nil prosunt videntibus.</p>
       <p xml:id="GUIREG0203">Illud quoque, quod praedixi, valde erit utile,</p>
       <p xml:id="GUIREG0204">Similis figurae neumas si cures inspicere,</p>
       <p xml:id="GUIREG0205">Locis variis et modis quam diverse resonent.</p>
@@ -490,8 +466,7 @@
       <p xml:id="GUIREG0208">Usus tibi sit si frequens in modorum formulis.</p>
       <p xml:id="GUIREG0209">Cuius modi symphoniis symphonia concinit,</p>
       <p xml:id="GUIREG0210">Eius modi symphoniam ipsam esse noveris,</p>
-      <p xml:id="GUIREG0211">
-        <pb n="[121]"/>Quare octo mela cunctis subdimus antiphonis.</p>
+      <p xml:id="GUIREG0211"><pb n="[121]"/>Quare octo mela cunctis subdimus antiphonis.</p>
       <p xml:id="GUIREG0212">Plures voces brevi fiant meta fit ut spatio;</p>
       <p xml:id="GUIREG0213">Signum est sequentis neumae, quo loco ponenda sit,</p>
       <p xml:id="GUIREG0214">Suo loco ne ponatur, cum necesse fuerit.</p>
@@ -499,18 +474,19 @@
       <p xml:id="GUIREG0216">Si non cunctos eius motus vel sonos memoriter,</p>
       <p xml:id="GUIREG0217">Qui et quales sint, persentit, nil se dicat sapere.</p>
       <p xml:id="GUIREG0218">Hactenus latentes musas in lucem produximus,</p>
-      <p xml:id="GUIREG0219">
-        <pb n="[122]"/>Et benivolis praestantes invidos offendimus</p>
+      <p xml:id="GUIREG0219"><pb n="[122]"/>Et benivolis praestantes invidos offendimus</p>
       <p xml:id="GUIREG0220">Ad honorem summi dei, per quem sumus, vivimus.</p>
-      <p class="textFig" xml:id="GUIREG0221">              ____________________ <br/></p>
+      <figure xml:id="GUIREG0221">
+        <p>              ____________________
+      <lb/></p>
+      </figure>
       <p xml:id="GUIREG0222">Constitutionum formas breviter aperiam:</p>
       <p xml:id="GUIREG0223">Aliquorum sic sonorum nominatur copula,</p>
       <p xml:id="GUIREG0224">Cum intensio est sola vel contra remissio.</p>
       <p xml:id="GUIREG0225">De duobus erit sonis prima constitutio,</p>
       <p xml:id="GUIREG0226">At secunda fit de tribus, tertia de quattuor,</p>
       <p xml:id="GUIREG0227">Quarta vero fit de quinque vocibus quibuslibet;</p>
-      <p xml:id="GUIREG0228">
-        <pb n="[123]"/>Quarum prima extat simplex, duplicatur altera,</p>
+      <p xml:id="GUIREG0228"><pb n="[123]"/>Quarum prima extat simplex, duplicatur altera,</p>
       <p xml:id="GUIREG0229">Tertia varietates quattuor inclamitat,</p>
       <p xml:id="GUIREG0230">Quarta octo sonat modis diapente consonis.</p>
       <p xml:id="GUIREG0231">Uni constitutioni modulis in omnibus</p>
@@ -519,16 +495,9 @@
       <p xml:id="GUIREG0234">Constitutio sic omnis nascitur ex altera;</p>
       <p xml:id="GUIREG0235">Nam et prima dat secundam et secunda tertiam</p>
       <p xml:id="GUIREG0236">Tertiaque facit quartam; haec ut monstrat pagina:</p>
-      <p xml:id="GUIREG0237">
-        <pb n="[124]"/>[DMA A/IV:124; text: constitutiones et moduli vocis primae, constitutiones et
-        moduli vocis secundae, constitutiones et moduli vocis tertiae, quarta constitutio habet
-        modulos octo et continet omnes superiores constitutiones, tertia constitutio habet formulas
-        quattuor, secunda constitutio habet formulas duas, prima constitutio simplex, prima,
-        secunda, tertia, quarta, A, B, C, D, E, F, G, %, I, II, III, IIII, V, VI, VII, VIII] <figure>
-          <graphic url="/images/GUIREG_02GF.gif"/>
-        </figure></p>
-      <p xml:id="GUIREG0238">
-        <pb n="[125]"/>Sonis est in quibuscumque regulae concordia,</p>
+      <p xml:id="GUIREG0237"><pb n="[124]"/>[DMA A/IV:124; text: constitutiones et moduli vocis primae, constitutiones et moduli vocis secundae, constitutiones et moduli vocis tertiae, quarta constitutio habet modulos octo et continet omnes superiores constitutiones, tertia constitutio habet formulas quattuor, secunda constitutio habet formulas duas, prima constitutio simplex, prima, secunda, tertia, quarta, A, B, C, D, E, F, G, %, I, II, III, IIII, V, VI, VII, VIII] 
+      <figure><graphic url="/images/GUIREG_02GF.gif"/></figure></p>
+      <p xml:id="GUIREG0238"><pb n="[125]"/>Sonis est in quibuscumque regulae concordia,</p>
       <p xml:id="GUIREG0239">Constitutionum formas quaslibet associant,</p>
       <p xml:id="GUIREG0240">Donec spatia formarum diapason reprimat.</p>
       <p xml:id="GUIREG0241">Spatiosis namque formis maximeque vacuis</p>
@@ -537,15 +506,13 @@
       <p xml:id="GUIREG0244">Cumque formae sint maiores factae de minoribus,</p>
       <p xml:id="GUIREG0245">Non est dubium, quod si quis minimas cognoverit,</p>
       <p xml:id="GUIREG0246">De maioribus nequaquam dubitare poterit.</p>
-      <p xml:id="GUIREG0247">
-        <pb n="[126]"/>Rursus qualibet in forma magna sit varietas,</p>
+      <p xml:id="GUIREG0247"><pb n="[126]"/>Rursus qualibet in forma magna sit varietas,</p>
       <p xml:id="GUIREG0248">Si vox quaelibet in cantu modo simplex resonat,</p>
       <p xml:id="GUIREG0249">Modo semet repercussa duplicat vel triplicat.</p>
       <p xml:id="GUIREG0250">Voces deinde affines quas demonstrat regula,</p>
       <p xml:id="GUIREG0251">Harum constitutionum non spernit concordia,</p>
       <p xml:id="GUIREG0252">Quin sit idem semper melum in una et altera.</p>
-      <p xml:id="GUIREG0253">
-        <pb n="[127]"/>[Feci regulas apertas, et antiphonarium</p>
+      <p xml:id="GUIREG0253"><pb n="[127]"/>[Feci regulas apertas, et antiphonarium</p>
       <p xml:id="GUIREG0254">Regulariter perfectum contuli cantoribus,</p>
       <p xml:id="GUIREG0255">Quale numquam habuerunt reliquis temporibus.</p>
       <p xml:id="GUIREG0256">Precor vos, beati fratres, pro tantis laboribus,</p>
@@ -555,14 +522,12 @@
       <p xml:id="GUIREG0260">Pro magistro exorate, cuius adiutorio</p>
       <p xml:id="GUIREG0261">Auctor indiget et scriptor. Gloria sit domino.</p>
       <p xml:id="GUIREG0262">Amen.]</p>
-      <p xml:id="GUIREG0263">
-        <pb n="[128]"/>[APPENDIX]</p>
+      <p xml:id="GUIREG0263"><pb n="[128]"/>[APPENDIX]</p>
       <p xml:id="GUIREG0264">[Omnibus ecce modis descripta relatio vocis.</p>
       <p xml:id="GUIREG0265">Est tonus in numeris superantur ut octo novenis,</p>
       <p xml:id="GUIREG0266">Semitonus cuius de nomine nomen ademit.</p>
       <p xml:id="GUIREG0267">Ditonus atque semis diatessaron omne replebit,</p>
-      <p xml:id="GUIREG0268">
-        <pb n="[129]"/>Idque facit notum quadro discrimine totum.</p>
+      <p xml:id="GUIREG0268"><pb n="[129]"/>Idque facit notum quadro discrimine totum.</p>
       <p xml:id="GUIREG0269">Cui superadde tonum, videas diapente sonorum</p>
       <p xml:id="GUIREG0270">Atque tribus fissum totum signabit idipsum.</p>
       <p xml:id="GUIREG0271">In medio summae diapason nectit utrumque,</p>
@@ -570,32 +535,28 @@
       <p xml:id="GUIREG0273">Adde duplex senos videas motus diatriton,</p>
       <p xml:id="GUIREG0274">Ditonus et semis quia ditonus alter habetur.</p>
       <p xml:id="GUIREG0275">Motibus his cursum faciet sine musica nullum.</p>
-      <p xml:id="GUIREG0276">
-        <pb n="[130]"/>Est aliquid fatum numero modulante relatum,</p>
+      <p xml:id="GUIREG0276"><pb n="[130]"/>Est aliquid fatum numero modulante relatum,</p>
       <p xml:id="GUIREG0277">Idque latet fixum, patet intendendo remissum.</p>
       <p xml:id="GUIREG0278">Est modus ad reliquos ptongi collatio ptongos.</p>
       <p xml:id="GUIREG0279">Dant collata modum sibimet discrimina vocum.</p>
       <p xml:id="GUIREG0280">Quam tonus et semis sequitur vox protus habetur.</p>
       <p xml:id="GUIREG0281">Deuterus et tritus quid sit, sapit ordo vicinus.</p>
       <p xml:id="GUIREG0282">Hisque tono tantum placuit differre tetrardum,</p>
-      <p xml:id="GUIREG0283">
-        <pb n="[131]"/>Ditonus et semis cuius mox iura sequuntur.</p>
+      <p xml:id="GUIREG0283"><pb n="[131]"/>Ditonus et semis cuius mox iura sequuntur.</p>
       <p xml:id="GUIREG0284">Musica vox horum nulla est sine lege modorum,</p>
       <p xml:id="GUIREG0285">Quos tantum vulgus sentit de fine petulcus.</p>
       <p xml:id="GUIREG0286">Quattuor autenti plagas geminantur adepti,</p>
       <p xml:id="GUIREG0287">Ni quartus simplex septem discrimina firmet,</p>
       <p xml:id="GUIREG0288">Unde poeta canit septem discrimina vocum,</p>
       <p xml:id="GUIREG0289">Septimus octavo similis quapropter adhaesit.</p>
-      <p xml:id="GUIREG0290">
-        <pb n="[132]"/>Ex quibus autenti grave sunt discrimen adepti,</p>
+      <p xml:id="GUIREG0290"><pb n="[132]"/>Ex quibus autenti grave sunt discrimen adepti,</p>
       <p xml:id="GUIREG0291">Cum plagae voces tenues cupiantque minores,</p>
       <p xml:id="GUIREG0292">In quibus ad modicum tamen et collatio distat.</p>
       <p xml:id="GUIREG0293">Quos si forte duos uni vis scribere voci,</p>
       <p xml:id="GUIREG0294">Quattuor in reliquis primatum delta tenebit.</p>
       <p xml:id="GUIREG0295">Enthymema sonos claudit signatque remotos.</p>
       <p xml:id="GUIREG0296">Concordant flexu diatessaron addita nexu.</p>
-      <p xml:id="GUIREG0297">
-        <pb n="[133]"/>Comparat intentos diapente relatio gressus.</p>
+      <p xml:id="GUIREG0297"><pb n="[133]"/>Comparat intentos diapente relatio gressus.</p>
       <p xml:id="GUIREG0298">Quas tamen alterius mox suscipit altera vires,</p>
       <p xml:id="GUIREG0299">Ius tenet ambarum spatium diapason et harum,</p>
       <p xml:id="GUIREG0300">Unde duo signum variant loca cuius idipsum.]</p>

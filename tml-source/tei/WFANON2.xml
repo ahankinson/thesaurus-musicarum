@@ -5,8 +5,9 @@
       <titleStmt>
         <title>Ars musice</title>
         <title type="abbrev">WFANON2</title>
-        <author><persName>Anonymous</persName></author>
-
+        <author>
+          <persName>Anonymous</persName>
+        </author>
       </titleStmt>
       <editionStmt>
         <edition>Thesaurus Musicarum Latinarum</edition>
@@ -31,8 +32,17 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="edition"> Johannes Wolf, "Anonymi cujusdam Codex Basiliensis,"
-            <emph>Vierteljahresschrift für Musikwissenschaft</emph> 9 (1893), 410–12. </bibl>
+        <bibl type="source">
+          <title>Ars musice</title>
+          <date notBefore="1100" notAfter="1199">12th</date>
+          <author>
+            <persName>Anonymous</persName>
+          </author>
+        </bibl>
+        <bibl type="edition">
+Johannes Wolf, "Anonymi cujusdam Codex Basiliensis," 
+<emph>Vierteljahresschrift für Musikwissenschaft</emph> 9 (1893), 410–12.
+</bibl>
         <bibl type="work">
           <title>Anonymous: Tabula cod. Basiliensis</title>
           <idno type="LML">TAB. Basil.</idno>
@@ -47,20 +57,13 @@
   </teiHeader>
   <text xml:lang="la">
     <body>
-      <p xml:id="WFANON20001">
-        <pb n="[410]"/>[VMW9:410; text: Ad iocundos primus, Ad severos tertius, Ad lascivos (?)
-        quintus, Ad versutos septimus, Ad senes secundus, Ad blandos quartus, Ad tristes sextus. Ad
-        honestos octavus pertinet, Musica in connexu utriusque, Musica in corpore, Musica in voce,
-        Musica in anima, Fortitudo, Sanguis, Colera, Phlegma, Melancholia, Justitia. Temperantia,
-        Prudentia, comes discipulus, dux autentus, [Gamma], A, B, C, D, E, F, G, a, b, c, d, e, f,
-        g, aa, [rob], libere raro, hypomixolydius, dorius, phrygius, lydius, mixolydius, hypodorius,
-        hypophrygius, hypolydius, I, II, III, IIII, V, VI, VII, VIII, Octo modi musice matris] <figure>
-          <graphic url="/images/WFANON2_01GF.gif"/>
-        </figure></p>
-      <p class="textFig" xml:id="WFANON20002"
-        >*     *     *     *     *     *     *     *     *     *     * <lb/></p>
-      <p xml:id="WFANON20003">
-        <pb n="[411]"/>Quatuor ecce tropi natura matre creati</p>
+      <p xml:id="WFANON20001"><pb n="[410]"/>[VMW9:410; text: Ad iocundos primus, Ad severos tertius, Ad lascivos (?) quintus, Ad versutos septimus, Ad senes secundus, Ad blandos quartus, Ad tristes sextus. Ad honestos octavus pertinet, Musica in connexu utriusque, Musica in corpore, Musica in voce, Musica in anima, Fortitudo, Sanguis, Colera, Phlegma, Melancholia, Justitia. Temperantia, Prudentia, comes discipulus, dux autentus, [Gamma], A, B, C, D, E, F, G, a, b, c, d, e, f, g, aa, [rob], libere raro, hypomixolydius, dorius, phrygius, lydius, mixolydius, hypodorius, hypophrygius, hypolydius, I, II, III, IIII, V, VI, VII, VIII, Octo modi musice matris] 
+      <figure><graphic url="/images/WFANON2_01GF.gif"/></figure></p>
+      <figure xml:id="WFANON20002">
+        <p>*     *     *     *     *     *     *     *     *     *     *
+      <lb/></p>
+      </figure>
+      <p xml:id="WFANON20003"><pb n="[411]"/>Quatuor ecce tropi natura matre creati</p>
       <p xml:id="WFANON20004">Quatuor ut reges intra sua regna sedentes.</p>
       <p xml:id="WFANON20005">Hinc prothus, ac deutrus, tritus tropicusque tetrardus</p>
       <p xml:id="WFANON20006">Sub dicione sua cohibent modulamina cuncta.</p>
@@ -79,8 +82,7 @@
       <p xml:id="WFANON20019">Obtinet aequivocos F tertia, quartaque quartos.</p>
       <p xml:id="WFANON20020">Hos tonus et semis sequitur, semis, tonus istos;</p>
       <p xml:id="WFANON20021">Ditonus et semis superantes propedit illos.</p>
-      <p xml:id="WFANON20022">
-        <pb n="[412]"/>Sic cum semitonis series discreta tonorum</p>
+      <p xml:id="WFANON20022"><pb n="[412]"/>Sic cum semitonis series discreta tonorum</p>
       <p xml:id="WFANON20023">Discernit nobis finem quorumque troporum.</p>
       <p xml:id="WFANON20024">Quaerere nunc ratio rationis et exigit ordo,</p>
       <p xml:id="WFANON20025">Quid teneant proprium, quae sint communia, quae non,</p>

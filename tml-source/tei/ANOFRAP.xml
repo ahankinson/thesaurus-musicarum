@@ -5,8 +5,9 @@
       <titleStmt>
         <title>[Fragmentum de proportionibus]</title>
         <title type="abbrev">ANOFRAP</title>
-        <author><persName>Anonymous</persName></author>
-
+        <author>
+          <persName>Anonymous</persName>
+        </author>
       </titleStmt>
       <editionStmt>
         <edition>Thesaurus Musicarum Latinarum</edition>
@@ -31,11 +32,17 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="edition"> F. Alberto Gallo, <emph>Mensurabilis musicae tractatuli</emph>,
-          Antiquae musicae italicae scriptores, vol. 1 (Bologna: Università degli Studi di Bologna,
-          Istituto di Studi Musicali e Teatrali - Sez. Musicologia, 1966), 55. As a work, this
-          treatise is in the public domain. As a raw transcription, this file is free of copyright
-          and may be reproduced and distributed freely. </bibl>
+        <bibl type="source">
+          <title>[Fragmentum de proportionibus]</title>
+          <date notBefore="1300" notAfter="1399">14th</date>
+          <author>
+            <persName>Anonymous</persName>
+          </author>
+        </bibl>
+        <bibl type="edition">
+F. Alberto Gallo, 
+<emph>Mensurabilis musicae tractatuli</emph>, Antiquae musicae italicae scriptores, vol. 1 (Bologna: Università degli Studi di Bologna, Istituto di Studi Musicali e Teatrali - Sez. Musicologia, 1966), 55. As a work, this treatise is in the public domain. As a raw transcription, this file is free of copyright and may be reproduced and distributed freely.
+</bibl>
         <bibl type="work">
           <title>Anonymous: Fragmentum de proportionibus musicae mensuralis</title>
           <idno type="LML">PROP. MENS. Quat.</idno>
@@ -50,15 +57,13 @@
   </teiHeader>
   <text xml:lang="la">
     <body>
-      <p xml:id="ANOFRAP0001">
-        <pb n="[55]"/>Quaternarium vocatur proportio dupla minor.</p>
+      <p xml:id="ANOFRAP0001"><pb n="[55]"/>Quaternarium vocatur proportio dupla minor.</p>
       <p xml:id="ANOFRAP0002">Senarium inperfectum vocatur proportio dupla maior.</p>
       <p xml:id="ANOFRAP0003">Senarium perfectum vocatur proportio tripla minor.</p>
       <p xml:id="ANOFRAP0004">Nonaria vocatur proportio tripla maior.</p>
       <p xml:id="ANOFRAP0005">Ternaria vocatur prolatio maior.</p>
       <p xml:id="ANOFRAP0006">Binaria maneries vocatur prolatio minor.</p>
-      <p xml:id="ANOFRAP0007">Octonaria, que non est in usu secundum magistrum Johannem de Muris,
-        vocatur proportio quatrupla.</p>
+      <p xml:id="ANOFRAP0007">Octonaria, que non est in usu secundum magistrum Johannem de Muris, vocatur proportio quatrupla.</p>
     </body>
   </text>
 </TEI>

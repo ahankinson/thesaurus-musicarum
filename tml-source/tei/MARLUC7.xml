@@ -5,8 +5,9 @@
       <titleStmt>
         <title>Lucidarium, tractatus septimus</title>
         <title type="abbrev">MARLUC7</title>
-        <author><persName>Marchetus de Padua</persName></author>
-
+        <author>
+          <persName>Marchetus de Padua</persName>
+        </author>
       </titleStmt>
       <editionStmt>
         <edition>Thesaurus Musicarum Latinarum</edition>
@@ -31,12 +32,15 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="edition">
-          <emph>The Lucidarium of Marchetto of Padua: A Critical Edition, Translation, and
-            Commentary</emph>, ed. and trans. by Jan W. Herlinger (Chicago and London: The
-          University of Chicago Press, 1985), 256–66. As a work, this treatise is in the public
-          domain. As a raw transcription, this file is free of copyright and may be reproduced and
-          distributed freely. </bibl>
+        <bibl type="source">
+          <title>Lucidarium, tractatus septimus</title>
+          <date notBefore="1300" notAfter="1399">14th</date>
+          <author>
+            <persName>Marchetus de Padua</persName>
+          </author>
+        </bibl>
+        <bibl type="edition"><emph>The Lucidarium of Marchetto of Padua: A Critical Edition, Translation, and Commentary</emph>, ed. and trans. by Jan W. Herlinger (Chicago and London: The University of Chicago Press, 1985), 256–66. As a work, this treatise is in the public domain. As a raw transcription, this file is free of copyright and may be reproduced and distributed freely.
+</bibl>
         <bibl type="work">
           <title>Marchettus de Padua: Lucidarium in arte musicae planae</title>
           <idno type="LML">MARCH. luc.</idno>
@@ -117,76 +121,41 @@
   </teiHeader>
   <text xml:lang="la">
     <body>
-      <p xml:id="MARLUC70001">
-        <pb n="[256]"/>1. INCIPIT TRACTATUS SEPTIMUS</p>
+      <p xml:id="MARLUC70001"><pb n="[256]"/>1. INCIPIT TRACTATUS SEPTIMUS</p>
       <p xml:id="MARLUC70002">CAPITULUM PRIMUM</p>
-      <p xml:id="MARLUC70003">DE GENERIBUS INEQUALITATIS QUOT SINT ET QUE IN MUSICA SINT
-        NECESSARIA</p>
-      <p xml:id="MARLUC70004">2. Genera inequalitatis quinque sunt, scilicet multiplex,
-        superparticulare, superpartiens, multiplex superpartiens, et multiplex superparticulare.</p>
+      <p xml:id="MARLUC70003">DE GENERIBUS INEQUALITATIS QUOT SINT ET QUE IN MUSICA SINT NECESSARIA</p>
+      <p xml:id="MARLUC70004">2. Genera inequalitatis quinque sunt, scilicet multiplex, superparticulare, superpartiens, multiplex superpartiens, et multiplex superparticulare.</p>
       <p xml:id="MARLUC70005">3. Primum igitur inequalitatis genus est multiplex,</p>
-      <p xml:id="MARLUC70006">
-        <pb n="[258]"/>4. cum maior numerus continet totum minorem in se dupliciter vel tripliciter
-        vel quadrupliciter, et sic deinceps; nichilque deest, nichilque exuberat.</p>
-      <p xml:id="MARLUC70007">5. Appellatur enim aut duplum aut triplum aut quadruplum et cetera, ut
-        sunt duo ad unum aut tres ad unum aut quatuor ad unum et cetera.</p>
-      <p xml:id="MARLUC70008">6. In hoc quidem genere inequalitatis ponuntur tres consonantie,
-        scilicet dyapason, dyapason dyapente, et bisdyapason.</p>
-      <p xml:id="MARLUC70009">7. Secundum autem genus inequalitatis est quod appellatur
-        superparticulare,</p>
-      <p xml:id="MARLUC70010">8. hoc est cum maior numerus continet totum minorem in se et eius
-        aliquam unam partem, ut sunt tres ad duo, quatuor ad tres, et quinque ad quatuor, et
-        cetera.</p>
-      <p xml:id="MARLUC70011">9. In hoc quidem genere inequalitatis ponuntur due consonantie,
-        scilicet dyatessaron et dyapente,</p>
-      <p xml:id="MARLUC70012">
-        <pb n="[260]"/>10. necnon proportio sesquioctava, in qua est tonus, qui, ut dictum est et
-        infra de coniunctionibus ostendetur, consonantia non est,</p>
-      <p xml:id="MARLUC70013">11. similiterque due proportiones duorum semitoniorum, minoris et
-        maioris, hoc est enarmonici et dyatonici, que vocantur sesquisexta decima et sesquidecima
-        septima.</p>
+      <p xml:id="MARLUC70006"><pb n="[258]"/>4. cum maior numerus continet totum minorem in se dupliciter vel tripliciter vel quadrupliciter, et sic deinceps; nichilque deest, nichilque exuberat.</p>
+      <p xml:id="MARLUC70007">5. Appellatur enim aut duplum aut triplum aut quadruplum et cetera, ut sunt duo ad unum aut tres ad unum aut quatuor ad unum et cetera.</p>
+      <p xml:id="MARLUC70008">6. In hoc quidem genere inequalitatis ponuntur tres consonantie, scilicet dyapason, dyapason dyapente, et bisdyapason.</p>
+      <p xml:id="MARLUC70009">7. Secundum autem genus inequalitatis est quod appellatur superparticulare,</p>
+      <p xml:id="MARLUC70010">8. hoc est cum maior numerus continet totum minorem in se et eius aliquam unam partem, ut sunt tres ad duo, quatuor ad tres, et quinque ad quatuor, et cetera.</p>
+      <p xml:id="MARLUC70011">9. In hoc quidem genere inequalitatis ponuntur due consonantie, scilicet dyatessaron et dyapente,</p>
+      <p xml:id="MARLUC70012"><pb n="[260]"/>10. necnon proportio sesquioctava, in qua est tonus, qui, ut dictum est et infra de coniunctionibus ostendetur, consonantia non est,</p>
+      <p xml:id="MARLUC70013">11. similiterque due proportiones duorum semitoniorum, minoris et maioris, hoc est enarmonici et dyatonici, que vocantur sesquisexta decima et sesquidecima septima.</p>
       <p xml:id="MARLUC70014">12. Tercium genus inequalitatis est quod superpartiens dicitur,</p>
-      <p xml:id="MARLUC70015">13. cum maior numerus continet totum minorem in se et eius aliquas
-        partes.</p>
-      <p xml:id="MARLUC70016">14. Et siquidem duas partes supra continet, vocatur proportio
-        superbipartiens,</p>
+      <p xml:id="MARLUC70015">13. cum maior numerus continet totum minorem in se et eius aliquas partes.</p>
+      <p xml:id="MARLUC70016">14. Et siquidem duas partes supra continet, vocatur proportio superbipartiens,</p>
       <p xml:id="MARLUC70017">15. et si tres, supertripartiens dicitur, et cetera,</p>
-      <p xml:id="MARLUC70018">16. ut sunt quinque ad tres, hec proportio dicitur
-        superbipartiens,</p>
-      <p xml:id="MARLUC70019">
-        <pb n="[262]"/>17. vel septem ad quatuor, hec enim proportio supertripartiens nominatur.</p>
-      <p xml:id="MARLUC70020">18. In hoc quidem genere nulla consonantia cadit, quia in eo
-        simpliciter sumpto nulla est proportio musicalis.</p>
+      <p xml:id="MARLUC70018">16. ut sunt quinque ad tres, hec proportio dicitur superbipartiens,</p>
+      <p xml:id="MARLUC70019"><pb n="[262]"/>17. vel septem ad quatuor, hec enim proportio supertripartiens nominatur.</p>
+      <p xml:id="MARLUC70020">18. In hoc quidem genere nulla consonantia cadit, quia in eo simpliciter sumpto nulla est proportio musicalis.</p>
       <p xml:id="MARLUC70021">19. Quartum genus inequalitatis est multiplex superparticulare,</p>
-      <p xml:id="MARLUC70022">20. cum maior numerus continet totum minorem in se vel bis vel ter vel
-        quater, et cetera, et insuper eius unam partem.</p>
-      <p xml:id="MARLUC70023">21. Et si eum continet bis et eius medietatem, vocatur proportio dupla
-        supersesqualtera, ut sunt quinque ad duo;</p>
-      <p xml:id="MARLUC70024">22. si vero maior numerus adhuc continet minorem bis et eius terciam
-        partem, vocatur proportio dupla supersesquitercia, ut septem comparati ad tres.</p>
-      <p xml:id="MARLUC70025">
-        <pb n="[264]"/>23. Si autem contineat maior numerus totum minorem in se ter et eius
-        medietatem, vocatur proportio tripla supersesqualtera, ut sunt septem ad duo,</p>
-      <p xml:id="MARLUC70026">24. et si maior numerus continet totum minorem in se ter et eius
-        terciam partem, vocatur proportio tripla supersesquitercia, ut decem comparati ad tres.</p>
-      <p xml:id="MARLUC70027">25. Quintum genus inequalitatis est quod multiplex superpartiens
-        nominatur,</p>
-      <p xml:id="MARLUC70028">26. cum maior numerus continet totum minorem in se vel bis vel ter vel
-        quater, et cetera, et insuper eius aliquas partes.</p>
-      <p xml:id="MARLUC70029">27. Et si bis eum continet et eius duas partes, vocatur proportio
-        dupla superbipartiens, ut sunt octo ad tres;</p>
-      <p xml:id="MARLUC70030">28. in hoc quidem genere inequalitatis ponitur consonantia dyapason
-        dyatessaron.</p>
-      <p xml:id="MARLUC70031">29. Et rursus tripla superbipartiens dicitur, si maior numerus
-        contineat <pb n="[266]"/>totum minorem in se ter insuper et eius duas partes, ut sunt
-        undecim ad tres, et sic deinceps.</p>
-      <p xml:id="MARLUC70032">30. Ex dictis immediate apparet quod de quinque generibus
-        inequalitatis in musica omnino tria sunt necessaria, scilicet multiplex, in quo ponuntur
-        proportiones tres, scilicet dupla, tripla, et quadrupla;</p>
-      <p xml:id="MARLUC70033">31. superparticulare, in quo ponuntur sesquitercia, sesqualtera,
-        sesquioctava, sesquisexta decima, et sesquidecima septima;</p>
-      <p xml:id="MARLUC70034">32. et multiplex superbipartiens, in quo ponitur consonantia dyapason
-        dyatessaron.</p>
+      <p xml:id="MARLUC70022">20. cum maior numerus continet totum minorem in se vel bis vel ter vel quater, et cetera, et insuper eius unam partem.</p>
+      <p xml:id="MARLUC70023">21. Et si eum continet bis et eius medietatem, vocatur proportio dupla supersesqualtera, ut sunt quinque ad duo;</p>
+      <p xml:id="MARLUC70024">22. si vero maior numerus adhuc continet minorem bis et eius terciam partem, vocatur proportio dupla supersesquitercia, ut septem comparati ad tres.</p>
+      <p xml:id="MARLUC70025"><pb n="[264]"/>23. Si autem contineat maior numerus totum minorem in se ter et eius medietatem, vocatur proportio tripla supersesqualtera, ut sunt septem ad duo,</p>
+      <p xml:id="MARLUC70026">24. et si maior numerus continet totum minorem in se ter et eius terciam partem, vocatur proportio tripla supersesquitercia, ut decem comparati ad tres.</p>
+      <p xml:id="MARLUC70027">25. Quintum genus inequalitatis est quod multiplex superpartiens nominatur,</p>
+      <p xml:id="MARLUC70028">26. cum maior numerus continet totum minorem in se vel bis vel ter vel quater, et cetera, et insuper eius aliquas partes.</p>
+      <p xml:id="MARLUC70029">27. Et si bis eum continet et eius duas partes, vocatur proportio dupla superbipartiens, ut sunt octo ad tres;</p>
+      <p xml:id="MARLUC70030">28. in hoc quidem genere inequalitatis ponitur consonantia dyapason dyatessaron.</p>
+      <p xml:id="MARLUC70031">29. Et rursus tripla superbipartiens dicitur, si maior numerus contineat 
+      <pb n="[266]"/>totum minorem in se ter insuper et eius duas partes, ut sunt undecim ad tres, et sic deinceps.</p>
+      <p xml:id="MARLUC70032">30. Ex dictis immediate apparet quod de quinque generibus inequalitatis in musica omnino tria sunt necessaria, scilicet multiplex, in quo ponuntur proportiones tres, scilicet dupla, tripla, et quadrupla;</p>
+      <p xml:id="MARLUC70033">31. superparticulare, in quo ponuntur sesquitercia, sesqualtera, sesquioctava, sesquisexta decima, et sesquidecima septima;</p>
+      <p xml:id="MARLUC70034">32. et multiplex superbipartiens, in quo ponitur consonantia dyapason dyatessaron.</p>
       <p xml:id="MARLUC70035">33. Et hec de generibus inequalitatis dicta sufficiant.</p>
       <p xml:id="MARLUC70036">34. FINIT TRACTATUS SEPTIMUS</p>
     </body>

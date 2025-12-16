@@ -5,8 +5,9 @@
       <titleStmt>
         <title>[Versus de musica]</title>
         <title type="abbrev">ANOVDM</title>
-        <author><persName>Anonymous</persName></author>
-
+        <author>
+          <persName>Anonymous</persName>
+        </author>
       </titleStmt>
       <editionStmt>
         <edition>Thesaurus Musicarum Latinarum</edition>
@@ -31,8 +32,17 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="edition"> Hans Müller, "Bruchstücke aus der mittelalterlichen Musiktheorie,"
-            <emph>Vierteljahresschrift für Musikwissenschaft</emph> 1 (1885), 173–74. </bibl>
+        <bibl type="source">
+          <title>[Versus de musica]</title>
+          <date notBefore="1100" notAfter="1199">12th</date>
+          <author>
+            <persName>Anonymous</persName>
+          </author>
+        </bibl>
+        <bibl type="edition">
+Hans Müller, "Bruchstücke aus der mittelalterlichen Musiktheorie," 
+<emph>Vierteljahresschrift für Musikwissenschaft</emph> 1 (1885), 173–74.
+</bibl>
         <bibl type="work">
           <title>Anonymous: Versus de musica cum commento</title>
           <idno type="LML">VERS. Consona quo</idno>
@@ -47,20 +57,14 @@
   </teiHeader>
   <text xml:lang="la">
     <body>
-      <p xml:id="ANOVDM0001">
-        <pb n="[173]"/>[VfM1:173; text: g, f, c, d, h, l, k, i, m, e, b, His poteris sollers ignotum
-        discere cantum Scematibus super adscriptis sine voce magistri, Si magada chordam discriminet
-        in monochordo. Haec et enim vocis repetet reflexio grata Symphoniis pariterque tonis
-        diastemate bino.] <figure>
-          <graphic url="/images/ANOVDM_01GF.gif"/>
-        </figure></p>
+      <p xml:id="ANOVDM0001"><pb n="[173]"/>[VfM1:173; text: g, f, c, d, h, l, k, i, m, e, b, His poteris sollers ignotum discere cantum Scematibus super adscriptis sine voce magistri, Si magada chordam discriminet in monochordo. Haec et enim vocis repetet reflexio grata Symphoniis pariterque tonis diastemate bino.] 
+      <figure><graphic url="/images/ANOVDM_01GF.gif"/></figure></p>
       <p xml:id="ANOVDM0002">Consona quo variae resonet modulatio vocis,</p>
       <p xml:id="ANOVDM0003">Haec sibi congresso fit commutatio nervo,</p>
       <p xml:id="ANOVDM0004">Ut qua parte sua superat, superetur eadem.</p>
       <p xml:id="ANOVDM0005">Quadruplus est igitur, cuius subquadruplus exstat.</p>
       <p xml:id="ANOVDM0006">Ponitur his medius, duplex utrimque relatus,</p>
-      <p xml:id="ANOVDM0007">
-        <pb n="[174]"/>Et quibus est duplex, subduplus habetur eisdem.</p>
+      <p xml:id="ANOVDM0007"><pb n="[174]"/>Et quibus est duplex, subduplus habetur eisdem.</p>
       <p xml:id="ANOVDM0008">Nervus enim duplus a simplo bis superatur.</p>
       <p xml:id="ANOVDM0009">Aequa sorte sibi super et sub quisque librando</p>
       <p xml:id="ANOVDM0010">Sic tamen in spatio vel sic in acumine vocis.</p>

@@ -5,8 +5,9 @@
       <titleStmt>
         <title>Musica disciplina</title>
         <title type="abbrev">AUREPI</title>
-        <author><persName>Aurelianus Reomensis</persName></author>
-
+        <author>
+          <persName>Aurelianus Reomensis</persName>
+        </author>
       </titleStmt>
       <editionStmt>
         <edition>Thesaurus Musicarum Latinarum</edition>
@@ -31,15 +32,23 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="edition"> Adrien de la Fage, <emph>Essais de dipthérographie musicale</emph>
-          (Paris: Legouix, 1864), 343. </bibl>
+        <bibl type="source">
+          <title>Musica disciplina</title>
+          <date notBefore="0800" notAfter="1099">9th-11th</date>
+          <author>
+            <persName>Aurelianus Reomensis</persName>
+          </author>
+        </bibl>
+        <bibl type="edition">
+Adrien de la Fage, 
+<emph>Essais de dipthérographie musicale</emph> (Paris: Legouix, 1864), 343.
+</bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text xml:lang="la">
     <body>
-      <p xml:id="AUREPI0001">
-        <pb n="[343]"/>Quisquis hoc legerit magno cum jure patratum,</p>
+      <p xml:id="AUREPI0001"><pb n="[343]"/>Quisquis hoc legerit magno cum jure patratum,</p>
       <p xml:id="AUREPI0002">Noverit auctores hic fore persalubres.</p>
       <p xml:id="AUREPI0003">Fons hic Graecorum, Pythagoras musicus adest,</p>
       <p xml:id="AUREPI0004">Necne latinorum continet ora patrum.</p>

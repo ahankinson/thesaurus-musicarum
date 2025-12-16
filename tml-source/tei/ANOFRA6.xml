@@ -5,8 +5,9 @@
       <titleStmt>
         <title>Ars musica</title>
         <title type="abbrev">ANOFRA6</title>
-        <author><persName>Anonymous</persName></author>
-
+        <author>
+          <persName>Anonymous</persName>
+        </author>
       </titleStmt>
       <editionStmt>
         <edition>Thesaurus Musicarum Latinarum</edition>
@@ -35,26 +36,39 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="edition"> Adrien de la Fage, <emph>Essais de dipthérographie musicale</emph>
-          (Paris: Legouix, 1864), 483–84. </bibl>
+        <bibl type="source">
+          <title>Ars musica</title>
+          <date notBefore="1200" notAfter="1299">13th</date>
+          <author>
+            <persName>Anonymous</persName>
+          </author>
+        </bibl>
+        <bibl type="edition">
+Adrien de la Fage, 
+<emph>Essais de dipthérographie musicale</emph> (Paris: Legouix, 1864), 483–84.
+</bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text xml:lang="la">
     <body>
-      <p xml:id="ANOFRA60001">
-        <pb n="[483]"/>Quatuor ut reges infra sua regna sedentes;</p>
+      <p xml:id="ANOFRA60001"><pb n="[483]"/>Quatuor ut reges infra sua regna sedentes;</p>
       <p xml:id="ANOFRA60002">Hinc protus ac deuterus, tritus tropicusque tetrardus</p>
-      <p xml:id="ANOFRA60003">
-        <pb n="[484]"/>Sub dicione sua cohibent modulamina cuncta,</p>
+      <p xml:id="ANOFRA60003"><pb n="[484]"/>Sub dicione sua cohibent modulamina cuncta,</p>
       <p xml:id="ANOFRA60004">Quos tam prudenter distinxit musica mater.</p>
       <p xml:id="ANOFRA60005">Nam statuit cunctas vocum discrimine metas,</p>
       <p xml:id="ANOFRA60006">Unus ut alius non usurpet sua cantus.</p>
-      <p class="textFig" xml:id="ANOFRA60007">.  .  .  .  .  .  .  .  .  .  .  .  .  . <lb/></p>
+      <figure xml:id="ANOFRA60007">
+        <p>.  .  .  .  .  .  .  .  .  .  .  .  .  .
+      <lb/></p>
+      </figure>
       <p xml:id="ANOFRA60008">A gravitate quidem nimium distabat acumen,</p>
       <p xml:id="ANOFRA60009">Et gravitas neumis non conveniebat acutis</p>
       <p xml:id="ANOFRA60010">Fit ex consilio divisio quatuor octo.</p>
-      <p class="textFig" xml:id="ANOFRA60011">.  .  .  .  .  .  .  .  .  .  .  .  .  . <br/></p>
+      <figure xml:id="ANOFRA60011">
+        <p>.  .  .  .  .  .  .  .  .  .  .  .  .  .
+      <lb/></p>
+      </figure>
       <p xml:id="ANOFRA60012">Omnibus hospitium finale dedit tetracordum.</p>
     </body>
   </text>

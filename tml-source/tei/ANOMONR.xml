@@ -5,8 +5,9 @@
       <titleStmt>
         <title>Monochordi mensura</title>
         <title type="abbrev">ANOMONR</title>
-        <author><persName>Anonymous</persName></author>
-
+        <author>
+          <persName>Anonymous</persName>
+        </author>
       </titleStmt>
       <editionStmt>
         <edition>Thesaurus Musicarum Latinarum</edition>
@@ -31,9 +32,17 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="edition"> "Anonyme Monochordeintheilung. (Cod. Paull. 1493, fol. 52b.)," in
-            <emph>Studien zur Geschichte der Notenschrift</emph>, ed. Hugo Riemann (Leipzig:
-          Breitkopf and Härtel, 1878), 301. </bibl>
+        <bibl type="source">
+          <title>Monochordi mensura</title>
+          <date notBefore="0800" notAfter="1099">9th-11th</date>
+          <author>
+            <persName>Anonymous</persName>
+          </author>
+        </bibl>
+        <bibl type="edition">
+"Anonyme Monochordeintheilung. (Cod. Paull. 1493, fol. 52b.)," in 
+<emph>Studien zur Geschichte der Notenschrift</emph>, ed. Hugo Riemann (Leipzig: Breitkopf and Härtel, 1878), 301.
+</bibl>
         <bibl type="work">
           <title>Anonymous: Mensura monochordi</title>
           <idno type="LML">MON. Per tres</idno>
@@ -51,8 +60,7 @@
   </teiHeader>
   <text xml:lang="la">
     <body>
-      <p xml:id="ANOMONR0001">
-        <pb n="[301]"/>Monochordi mensura</p>
+      <p xml:id="ANOMONR0001"><pb n="[301]"/>Monochordi mensura</p>
       <p xml:id="ANOMONR0002">(Divide) per tres usque F et in quarta habes C.</p>
       <p xml:id="ANOMONR0003">per duo usque F et in tertia habes B.</p>
       <p xml:id="ANOMONR0004">per quatuor usque B et sic [in tertia quae est] retro habes E.</p>
