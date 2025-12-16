@@ -36,7 +36,9 @@ build: $(HTML_FILES)
 	$(PAGEFIND_BIN) --site "public"
 
 serve: $(HTML_FILES)
-	hugo server
+	hugo server \
+		--baseURL http://localhost:1313/thesaurus-musicarum/ \
+		--appendPort=false
 
 install: $(SAXON_JAR) $(XMLRESOLVER_JAR) install-pagefind
 	@echo "✓ Saxon and XML Resolver installed in $(TOOLS_DIR)/"
