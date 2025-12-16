@@ -6,50 +6,132 @@
         exclude-result-prefixes="tei xs">
 
     <xsl:output method="html" encoding="UTF-8"/>
-
-    <!-- IMPORTANT: remove indentation whitespace -->
     <xsl:strip-space elements="*"/>
 
     <!-- ========================================================= -->
-    <!-- Utility: escape strings for YAML front matter             -->
+    <!-- Utility: escape strings for YAML                          -->
     <!-- ========================================================= -->
 
     <xsl:function name="tei:yaml-escape" as="xs:string">
         <xsl:param name="s" as="xs:string"/>
-
-        <!-- normalize whitespace -->
         <xsl:variable name="norm" select="normalize-space($s)"/>
-
-        <!-- escape backslashes -->
         <xsl:variable name="esc1" select="replace($norm, '\\', '\\\\')"/>
-
-        <!-- escape double quotes -->
         <xsl:sequence select="replace($esc1, '&quot;', '\\&quot;')"/>
     </xsl:function>
 
     <!-- ========================================================= -->
-    <!-- Entry point: ONLY the TEI <text>                           -->
+    <!-- Root template                                             -->
     <!-- ========================================================= -->
 
     <xsl:template match="/">
-        <!-- YAML front matter -->
-        <xsl:text>---</xsl:text>
-        <xsl:text>&#10;</xsl:text>
+        <!-- ================= YAML front matter ================= -->
+
+        <xsl:text>---
+</xsl:text>
+
+        <!-- Title -->
         <xsl:text>title: "</xsl:text>
         <xsl:value-of select="
-            tei:yaml-escape(
-                /tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[1]
-            )
-        "/>
-        <xsl:text>"</xsl:text>
-        <xsl:text>&#10;</xsl:text>
-        <xsl:text>---</xsl:text>
-        <xsl:text>&#10;&#10;</xsl:text>
+    tei:yaml-escape(
+      /tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[not(@type)][1]
+    )
+  "/>
+        <xsl:text>"
+</xsl:text>
 
-        <!-- Render TEI text -->
+        <!-- Author -->
+        <xsl:if test="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author">
+            <xsl:text>source_author: "</xsl:text>
+            <xsl:value-of select="
+      tei:yaml-escape(
+        normalize-space(
+          /tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author/tei:persName
+        )
+      )
+    "/>
+            <xsl:text>"
+</xsl:text>
+        </xsl:if>
+
+        <!-- Work date -->
+        <xsl:if test="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl[@type='source']/tei:date">
+            <xsl:text>source_date: "</xsl:text>
+            <xsl:value-of select="
+      tei:yaml-escape(
+        normalize-space(
+          /tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl[@type='source']/tei:date
+        )
+      )
+    "/>
+            <xsl:text>"
+</xsl:text>
+        </xsl:if>
+
+        <!-- Editors -->
+        <xsl:text>
+editors:
+</xsl:text>
+        <xsl:apply-templates
+                select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:respStmt[tei:resp='Editor']"
+                mode="yaml-list"/>
+
+        <!-- Correctors -->
+        <xsl:text>
+correctors:
+</xsl:text>
+        <xsl:apply-templates
+                select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:respStmt[tei:resp='Corrector']"
+                mode="yaml-list"/>
+
+        <!-- Advisors -->
+        <xsl:text>
+advisor:
+</xsl:text>
+        <xsl:apply-templates
+                select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:respStmt[tei:resp='Advisor']"
+                mode="yaml-list"/>
+
+        <!-- Witnesses (only if present) -->
+        <xsl:if test="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listWit/tei:witness">
+    <xsl:text>
+witnesses:
+</xsl:text>
+            <xsl:apply-templates
+                    select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listWit/tei:witness"
+                    mode="yaml-witness"/>
+        </xsl:if>
+
+        <xsl:text>
+---
+</xsl:text>
+
+        <!-- ================= Render TEI text ================= -->
+
         <div class="tei-text">
             <xsl:apply-templates select="/tei:TEI/tei:text"/>
         </div>
+    </xsl:template>
+
+    <!-- ========================================================= -->
+    <!-- YAML helpers                                              -->
+    <!-- ========================================================= -->
+
+    <xsl:template match="tei:respStmt" mode="yaml-list">
+        <xsl:text>  - "</xsl:text>
+        <xsl:value-of select="tei:yaml-escape(normalize-space(tei:persName))"/>
+        <xsl:text>"
+</xsl:text>
+    </xsl:template>
+
+    <xsl:template match="tei:witness" mode="yaml-witness">
+        <xsl:text>  - idno: "</xsl:text>
+        <xsl:value-of select="tei:yaml-escape(normalize-space(tei:idno))"/>
+        <xsl:text>"
+</xsl:text>
+        <xsl:text>    type: "</xsl:text>
+        <xsl:value-of select="tei:yaml-escape(normalize-space(tei:idno/@type))"/>
+        <xsl:text>"
+</xsl:text>
     </xsl:template>
 
     <!-- ========================================================= -->
@@ -82,6 +164,7 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+
     <!-- ========================================================= -->
     <!-- Inline elements                                           -->
     <!-- ========================================================= -->
@@ -96,11 +179,12 @@
         <br/>
     </xsl:template>
 
-    <!-- Suppress page breaks for now -->
     <xsl:template match="tei:pb">
-        <sup class="pb">
-            <xsl:value-of select="@n"/>
-        </sup>
+        <xsl:if test="@n">
+            <sup class="pb">
+                <xsl:value-of select="@n"/>
+            </sup>
+        </xsl:if>
     </xsl:template>
 
     <!-- ========================================================= -->
@@ -112,7 +196,7 @@
     </xsl:template>
 
     <!-- ========================================================= -->
-    <!-- Suppress non-textual sections                              -->
+    <!-- Suppressed sections                                       -->
     <!-- ========================================================= -->
 
     <xsl:template match="tei:teiHeader"/>
