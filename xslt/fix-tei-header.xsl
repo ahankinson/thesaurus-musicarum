@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="tei">
+<xsl:stylesheet
+        version="2.0"
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns="http://www.tei-c.org/ns/1.0"
+        exclude-result-prefixes="tei xs">
 
     <!-- ========================================================= -->
     <!-- Identity transform                                       -->
@@ -9,46 +13,39 @@
     <xsl:mode on-no-match="shallow-copy"/>
 
     <!-- ========================================================= -->
-    <!-- Normalize author and absorb following date               -->
+    <!-- Helper function: pad year values to four digits           -->
     <!-- ========================================================= -->
-    <xsl:template match="tei:titleStmt/tei:author">
-        <author>
-            <persName>
-                <xsl:value-of select="normalize-space(.)"/>
-            </persName>
-            <xsl:apply-templates select="following-sibling::tei:date[1]"/>
-        </author>
-    </xsl:template>
-
-    <!-- Remove titleStmt date once absorbed into author -->
-    <xsl:template match="tei:titleStmt/tei:date"/>
+    <xsl:function name="tei:pad-year" as="xs:string">
+        <xsl:param name="y" as="xs:string"/>
+        <xsl:sequence select="format-number(number($y), '0000')"/>
+    </xsl:function>
 
     <!-- ========================================================= -->
-    <!-- Fix editionStmt structure (TEI-valid)                    -->
+    <!-- Normalize year-valued date attributes globally            -->
     <!-- ========================================================= -->
-    <xsl:template match="tei:editionStmt">
-        <xsl:variable name="editionText" select="normalize-space(text()[normalize-space()][1])"/>
-
-        <editionStmt>
-            <edition>
-                <xsl:value-of select="$editionText"/>
-            </edition>
-
-            <xsl:apply-templates select="tei:respStmt"/>
-            <!-- IMPORTANT: no <date> here -->
-        </editionStmt>
+    <xsl:template match="@when | @notBefore | @notAfter">
+        <xsl:attribute name="{name()}">
+            <xsl:choose>
+                <xsl:when test="matches(., '^\d{1,4}$')">
+                    <xsl:value-of select="tei:pad-year(.)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="."/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:attribute>
     </xsl:template>
 
     <!-- ========================================================= -->
-    <!-- Expand TML responsibility codes                          -->
+    <!-- Expand TML responsibility codes                           -->
     <!-- ========================================================= -->
     <xsl:template match="tei:resp">
         <resp>
             <xsl:choose>
                 <xsl:when test="normalize-space(.) = 'E'">Editor</xsl:when>
                 <xsl:when test="normalize-space(.) = 'C'">Corrector</xsl:when>
-                <xsl:when test="normalize-space(.) = 'T'">Transcriber</xsl:when>
                 <xsl:when test="normalize-space(.) = 'A'">Advisor</xsl:when>
+                <xsl:when test="normalize-space(.) = 'T'">Transcriber</xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="normalize-space(.)"/>
                 </xsl:otherwise>
@@ -57,28 +54,56 @@
     </xsl:template>
 
     <!-- ========================================================= -->
-    <!-- Insert publicationStmt if missing (TEI-valid)            -->
+    <!-- Rewrite fileDesc                                         -->
     <!-- ========================================================= -->
-    <xsl:template match="tei:fileDesc[not(tei:publicationStmt)]">
+    <xsl:template match="tei:fileDesc">
 
-        <!-- Extract values from the SOURCE tree -->
-        <xsl:variable name="publisherText"
-            select="normalize-space(tei:editionStmt/text()[normalize-space()][1])"/>
+        <!-- Local variables (context-safe) -->
+        <xsl:variable name="titleStmt" select="tei:titleStmt"/>
+        <xsl:variable name="editionStmt" select="tei:editionStmt"/>
 
-        <xsl:variable name="pubDate" select="normalize-space(tei:editionStmt/tei:date)"/>
+        <xsl:variable name="workTitle"
+                      select="normalize-space($titleStmt/tei:title[1])"/>
+
+        <xsl:variable name="workAuthor"
+                      select="normalize-space($titleStmt/tei:author)"/>
+
+        <xsl:variable name="workDate"
+                      select="$titleStmt/tei:date"/>
+
+        <xsl:variable name="editionName"
+                      select="normalize-space($editionStmt/text()[normalize-space()][1])"/>
+
+        <xsl:variable name="pubYear"
+                      select="normalize-space($editionStmt/tei:date)"/>
 
         <fileDesc>
-            <xsl:apply-templates select="tei:titleStmt"/>
-            <xsl:apply-templates select="tei:editionStmt"/>
 
+            <!-- ================= titleStmt ================= -->
+            <titleStmt>
+                <xsl:apply-templates select="$titleStmt/tei:title"/>
+                <author>
+                    <persName>
+                        <xsl:value-of select="$workAuthor"/>
+                    </persName>
+                </author>
+            </titleStmt>
+
+            <!-- ================= editionStmt ================= -->
+            <editionStmt>
+                <edition>
+                    <xsl:value-of select="$editionName"/>
+                </edition>
+                <xsl:apply-templates select="$editionStmt/tei:respStmt"/>
+            </editionStmt>
+
+            <!-- ================= publicationStmt ================= -->
             <publicationStmt>
-                <publisher>
-                    <xsl:value-of select="$publisherText"/>
-                </publisher>
+                <publisher>Thesaurus Musicarum Latinarum</publisher>
 
-                <xsl:if test="$pubDate">
-                    <date when="{$pubDate}">
-                        <xsl:value-of select="$pubDate"/>
+                <xsl:if test="$pubYear">
+                    <date when="{tei:pad-year($pubYear)}">
+                        <xsl:value-of select="$pubYear"/>
                     </date>
                 </xsl:if>
 
@@ -87,8 +112,43 @@
                 </availability>
             </publicationStmt>
 
-            <xsl:apply-templates select="tei:sourceDesc"/>
+            <!-- ================= sourceDesc ================= -->
+            <sourceDesc>
+
+                <bibl type="source">
+                    <title>
+                        <xsl:value-of select="$workTitle"/>
+                    </title>
+
+                    <!-- recreate work date so attribute templates fire -->
+                    <xsl:if test="$workDate">
+                        <date>
+                            <xsl:apply-templates select="$workDate/@*"/>
+                            <xsl:value-of select="$workDate"/>
+                        </date>
+                    </xsl:if>
+
+                    <author>
+                        <persName>
+                            <xsl:value-of select="$workAuthor"/>
+                        </persName>
+                    </author>
+                </bibl>
+
+                <!-- preserve existing bibliographic structures -->
+                <xsl:apply-templates
+                        select="tei:sourceDesc/tei:bibl[@type=('edition','work')]
+                | tei:sourceDesc/tei:listWit"/>
+
+            </sourceDesc>
+
         </fileDesc>
     </xsl:template>
+
+    <!-- ========================================================= -->
+    <!-- Suppress legacy dates in old locations                   -->
+    <!-- ========================================================= -->
+    <xsl:template match="tei:titleStmt/tei:date"/>
+    <xsl:template match="tei:editionStmt/tei:date"/>
 
 </xsl:stylesheet>

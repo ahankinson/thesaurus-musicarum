@@ -74,10 +74,14 @@
 
     <xsl:template match="tei:p">
         <p>
+            <xsl:if test="@xml:id">
+                <xsl:attribute name="id">
+                    <xsl:value-of select="@xml:id"/>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-
     <!-- ========================================================= -->
     <!-- Inline elements                                           -->
     <!-- ========================================================= -->
@@ -93,7 +97,11 @@
     </xsl:template>
 
     <!-- Suppress page breaks for now -->
-    <xsl:template match="tei:pb"/>
+    <xsl:template match="tei:pb">
+        <sup class="pb">
+            <xsl:value-of select="@n"/>
+        </sup>
+    </xsl:template>
 
     <!-- ========================================================= -->
     <!-- Text nodes                                                -->
