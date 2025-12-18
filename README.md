@@ -17,9 +17,13 @@ produces HTML of the body, but embedded in a Markdown file, with frontmatter con
 about the text. The output is stored in `content/texts/`.
 
 `make build` is used to run the XSLT to convert the TEI to HTML. It will also postprocess the generated
-files with the `pagefind` tool and generate a client-side search index.
+files with the `pagefind` tool and generate a client-side search index. If no changes are detected in the
+output of the TEI to HTML process, the conversion step is skipped. (This helps speed up builds.)
 
 `make serve` will run the hugo web server locally for development. This will automatically transform the
-Markdown files into a static site.
+Markdown files into a static site. (`make build` should be run before running `make serve`.)
 
+## Deployment
 
+The site is currently deployed at https://ahankinson.github.io/thesaurus-musicarum. This is done automatically
+when the main branch is updated, via a GitHub action. 
