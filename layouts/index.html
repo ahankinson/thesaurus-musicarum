@@ -4,12 +4,41 @@ Home
 
 {{ define "main" }}
 <h1>Thesaurus Musicarum Latinarum</h1>
-<p>
-    WIP.
-</p>
+<ul>
+    <li><a href="/thesaurus-musicarum/texts/">Browse texts by title</a></li>
+    <li><a href="/thesaurus-musicarum/authors/">Browse texts by author</a></li>
+    <li><a href="/thesaurus-musicarum/dates/">Browse texts by date</a></li>
+    <li><a href="/thesaurus-musicarum/search/">Search</a></li>
+</ul>
 
 <p>
-    <a href="/thesaurus-musicarum/texts/">Browse texts</a>
-    <a href="/thesaurus-musicarum/search/">Search</a>
+    The Thesaurus Musicarum Latinarum (TML) aims to give free access to and make searchable every
+    known Latin text on music from the late antiquity to the seventeenth century, in multiple editions
+    and in transcriptions from original sources. Primarily an aid to musicological research,
+    this resource aims also to assist anyone interested in documenting the broader intersections of
+    music with the humanities and the sciences within the Western tradition.
 </p>
+<p>
+    This is a simple static site that contains a copy of the TML. The TEI was downloaded from
+    the <a href="https://fenyx.me">Fenyx</a> site and then corrected to produce valid TEI. The site
+    is built a combination of a custom XSLT for converting the TEI to HTML, and the Hugo static site
+    generator for building the website. The Pagefind tool is used to build a client-side search index.
+    The content of this site remains under the Creative Commons 4.0 license of the original site.
+</p>
+<p>
+    Scholarly resources should not hide behind anonymity. This site was built by <a href="https://github.com/ahankinson">Andrew Hankinson</a>,
+    primarily as a proof-of-concept for a method of preserving and distributing at-risk databases. As a purely static site,
+    with no server-side dependencies, there is no complex server infrastructure needed to keep the site running.
+</p>
+<p>
+    Not all functionality of the old site is available. Search, in particular, is very basic. It can be improved
+    with some more investment of development time, but I would like to see a demand for this resource before
+    embarking on a significant time investment here.
+</p>
+<p>
+    The source for the site can be <a href="https://github.com/ahankinson/thesaurus-musicarum">found on GitHub</a>.
+    Contributors are welcome to submit pull requests. An LLM (ChatGPT 5.2) was used to develop the code for this site,
+    but it was all reviewed and verified for inclusion.
+</p>
+
 {{ end }}
