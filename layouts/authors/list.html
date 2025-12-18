@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+{{/* Get all texts */}}
+{{ $texts := where .Site.RegularPages "Section" "texts" }}
+
+{{/* Group by source_author */}}
+{{ range sort ($texts.GroupByParam "source_author") "Key" }}
+
+<h2>{{ .Key }}</h2>
+
+<ul>
+    {{ range sort .Pages "Title" }}
+    <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+</ul>
+
+{{ end }}
+
+{{ end }}

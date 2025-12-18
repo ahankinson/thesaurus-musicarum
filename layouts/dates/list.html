@@ -1,0 +1,37 @@
+{{ define "title" }}
+Browse by Date
+{{ end }}
+
+{{ define "main" }}
+
+<h1>Browse by Date</h1>
+
+{{ $texts := where .Site.RegularPages "Section" "texts" }}
+
+{{ $dated := where $texts "Params.source_date_sort" "ne" "999" }}
+{{ $undated := where $texts "Params.source_date_sort" "eq" "999" }}
+
+{{ range sort ($dated.GroupByParam "source_date_sort") "Key" }}
+
+{{ $p := index .Pages 0 }}
+
+<h2>{{ $p.Params.source_date }} Century</h2>
+
+<ul>
+    {{ range sort .Pages "Title" }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+</ul>
+
+{{ end }}
+
+{{ if gt (len $undated) 0 }}
+<h2>Undated</h2>
+<ul>
+    {{ range sort $undated "Title" }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+</ul>
+{{ end }}
+
+{{ end }}

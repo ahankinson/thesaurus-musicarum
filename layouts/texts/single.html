@@ -1,0 +1,64 @@
+{{ define "scripts" }}
+<script type="module">
+    await import('/thesaurus-musicarum/pagefind/pagefind-highlight.js');
+    new PagefindHighlight({ highlightParam: "highlight" });
+</script>
+{{ end }}
+
+{{ define "meta" }}
+<meta data-pagefind-filter="source_date:{{ .Params.source_date }}">
+{{ end }}
+
+{{ define "main" }}
+
+<article class="text">
+    <header>
+        <h1>{{ .Title }}</h1>
+
+        <h2 class="source-author">
+            {{ .Params.source_author }}
+        </h2>
+
+        {{/* editors / correctors / advisor line */}}
+        {{ $parts := slice }}
+
+        {{ with .Params.editors }}
+        {{ $names := delimit . ", " }}
+        {{ $parts = $parts | append (printf "%s<sup>E</sup>" $names) }}
+        {{ end }}
+
+        {{ with .Params.correctors }}
+        {{ $names := delimit . ", " }}
+        {{ $parts = $parts | append (printf "%s<sup>C</sup>" $names) }}
+        {{ end }}
+
+        {{ with .Params.advisor }}
+        {{ $names := delimit . ", " }}
+        {{ $parts = $parts | append (printf "%s<sup>A</sup>" $names) }}
+        {{ end }}
+
+        {{ if gt (len $parts) 0 }}
+        {{ $out := "" }}
+
+        {{ if gt (len $parts) 1 }}
+        {{ $out = printf "%s, and %s"
+        (delimit (first (sub (len $parts) 1) $parts) ", ")
+        (index $parts (sub (len $parts) 1))
+        }}
+        {{ else }}
+        {{ $out = index $parts 0 }}
+        {{ end }}
+
+        <p class="contributors">{{ $out | safeHTML }}</p>
+        {{ end }}
+
+        {{ with .Params.edition }}
+        <p class="source">Source: {{ . | safeHTML }}</p>
+        {{ end }}
+    </header>
+
+    {{ .Content }}
+
+</article>
+
+{{ end }}

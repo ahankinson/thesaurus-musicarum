@@ -6,10 +6,10 @@ Texts
 <h2>Texts</h2>
 
 <ul>
-    {{ range .Pages.ByTitle }}
+    {{ range sort .Pages "Params.source_author" }}
     <li>
         <a href="{{ .Permalink }}">
-            {{ .Title }}
+            {{ .Params.source_author }} — <em>{{ .Title }}</em>
         </a>
     </li>
     {{ end }}

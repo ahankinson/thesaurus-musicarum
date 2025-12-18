@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    {{ block "meta" . }}{{ end }}
+
     <title>{{ block "title" . }}{{ .Title }}{{ end }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,10 +39,6 @@
     {{ block "scripts" . }}{{ end }}
 </head>
 <body>
-
-<header>
-    <h1>{{ .Title }}</h1>
-</header>
 
 <main>
     {{ block "main" . }}{{ end }}

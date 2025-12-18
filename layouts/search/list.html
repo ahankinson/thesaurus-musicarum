@@ -2,19 +2,29 @@
 Search
 {{ end }}
 
+{{ define "scripts" }}
+<script src="/thesaurus-musicarum/pagefind/pagefind-ui.js"></script>
+<link href="/thesaurus-musicarum/pagefind/pagefind-ui.css" rel="stylesheet">
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({
+            element: "#search",
+            showSubResults: true,
+            highlightParam: "highlight",
+            filters: {
+                source_date: {
+                    label: "Century"
+                }
+            }
+        });
+    });
+</script>
+
+{{ end }}
+
 {{ define "main" }}
 <h2>Search</h2>
 
 <div id="search"></div>
 
-<script src="/thesaurus-musicarum/pagefind/pagefind-ui.js"></script>
-<link href="/thesaurus-musicarum/pagefind/pagefind-ui.css" rel="stylesheet">
-
-<script>
-    new PagefindUI({
-        element: "#search",
-        showSubResults: true,
-        highlightParam: "highlight"
-    });
-</script>
 {{ end }}
