@@ -8,3 +8,8 @@ unsafe = true
 [taxonomies]
 source_author = "authors"
 source_date   = "dates"
+
+[module]
+[[module.mounts]]
+source = "tml-source/images"
+target = "static/images"

@@ -232,6 +232,15 @@ markup: html
         </xsl:if>
     </xsl:template>
 
+    <xsl:template match="tei:figure[tei:graphic]">
+        <figure>
+            <xsl:apply-templates select="tei:graphic | tei:figDesc"/>
+        </figure>
+    </xsl:template>
+    <xsl:template match="tei:graphic">
+        <img src="/thesaurus-musicarum/{@url}" alt=""/>
+    </xsl:template>
+
     <!-- Default text -->
     <xsl:template match="text()">
         <xsl:value-of select="."/>
